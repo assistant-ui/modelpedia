@@ -10,7 +10,6 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  const withPricing = allModels.filter((m) => m.pricing?.input != null).length;
   const families = new Set(allModels.map((m) => m.family).filter(Boolean));
 
   return (
@@ -24,7 +23,7 @@ export default function HomePage() {
           and capabilities.
         </p>
 
-        <div className="mt-6 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-4">
+        <div className="mt-6 grid grid-cols-3 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border">
           <div className="bg-background px-4 py-4">
             <div className="font-medium font-mono text-2xl text-foreground">
               {allModels.length}
@@ -42,14 +41,6 @@ export default function HomePage() {
               {families.size}
             </div>
             <div className="mt-1 text-muted-foreground text-xs">Families</div>
-          </div>
-          <div className="bg-background px-4 py-4">
-            <div className="font-medium font-mono text-2xl text-foreground">
-              {withPricing}
-            </div>
-            <div className="mt-1 text-muted-foreground text-xs">
-              With pricing
-            </div>
           </div>
         </div>
 

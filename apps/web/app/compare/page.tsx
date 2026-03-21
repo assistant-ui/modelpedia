@@ -41,6 +41,8 @@ export default function ComparePage() {
         capabilities: m.capabilities as Record<string, boolean> | undefined,
         modalities: m.modalities,
         pricing: m.pricing,
+        tools: m.tools,
+        endpoints: m.endpoints,
       };
     });
 

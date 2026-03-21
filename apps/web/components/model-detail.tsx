@@ -6,6 +6,7 @@ import {
   REASONING_LABELS,
   SPEED_LABELS,
 } from "@/lib/constants";
+import type { ModelData } from "@/lib/data";
 import { formatPrice, formatTokens } from "@/lib/format";
 
 export function InheritedBadge({ from }: { from?: string }) {
@@ -252,6 +253,153 @@ export function FamilyComparison({
           })}
         </tbody>
       </table>
+    </div>
+  );
+}
+
+function getPrimaryPrice(
+  model: ModelData,
+): { label: string; value: string; sub?: string } | null {
+  const tier = model.pricing?.tiers?.[0];
+  if (!tier) return null;
+  const stdRow = tier.rows.find((r) => r.label === "Standard") ?? tier.rows[0];
+  if (!stdRow) return null;
+
+  for (let i = 0; i < tier.columns.length; i++) {
+    if (tier.columns[i] === "Quality") continue;
+    if (stdRow.values[i] != null) {
+      return {
+        label: tier.label === "Text tokens" ? "Price" : tier.label,
+        value: `$${stdRow.values[i]}`,
+        sub: tier.unit ? `/${tier.unit.replace("Per ", "")}` : undefined,
+      };
+    }
+  }
+  return null;
+}
+
+export function OverviewGrid({
+  model,
+  inh,
+}: {
+  model: ModelData;
+  inh: (field: string) => string | undefined;
+}) {
+  const hasTokenPricing =
+    model.pricing?.input != null || model.pricing?.output != null;
+  const hasContext = model.context_window != null;
+
+  const cards: React.ReactNode[] = [];
+
+  if (model.performance != null) {
+    cards.push(
+      <RatingCard
+        key="perf"
+        label="Intelligence"
+        value={model.performance}
+        max={5}
+        inheritedFrom={inh("performance")}
+      />,
+    );
+  }
+
+  if (model.reasoning != null) {
+    cards.push(
+      <RatingCard
+        key="reasoning"
+        label="Reasoning"
+        value={model.reasoning}
+        max={5}
+        inheritedFrom={inh("reasoning")}
+      />,
+    );
+  }
+
+  if (model.speed != null) {
+    cards.push(
+      <RatingCard
+        key="speed"
+        label="Speed"
+        value={model.speed}
+        max={5}
+        inheritedFrom={inh("speed")}
+      />,
+    );
+  }
+
+  if (hasContext) {
+    cards.push(
+      <MetricCard
+        key="ctx"
+        label="Context"
+        value={formatTokens(model.context_window!)}
+        inheritedFrom={inh("context_window")}
+      />,
+    );
+  }
+
+  if (model.max_context_window != null) {
+    cards.push(
+      <MetricCard
+        key="maxctx"
+        label="Max context"
+        value={formatTokens(model.max_context_window)}
+      />,
+    );
+  }
+
+  if (model.max_output_tokens != null) {
+    cards.push(
+      <MetricCard
+        key="maxout"
+        label="Max output"
+        value={formatTokens(model.max_output_tokens)}
+        inheritedFrom={inh("max_output_tokens")}
+      />,
+    );
+  }
+
+  if (hasTokenPricing) {
+    cards.push(
+      <MetricCard
+        key="inp"
+        label="Input price"
+        value={formatPrice(model.pricing?.input)}
+        sub={model.pricing?.input != null ? "/1M tokens" : undefined}
+        inheritedFrom={inh("pricing")}
+      />,
+    );
+    cards.push(
+      <MetricCard
+        key="outp"
+        label="Output price"
+        value={formatPrice(model.pricing?.output)}
+        sub={model.pricing?.output != null ? "/1M tokens" : undefined}
+        inheritedFrom={inh("pricing")}
+      />,
+    );
+  } else {
+    const primary = getPrimaryPrice(model);
+    if (primary) {
+      cards.push(
+        <MetricCard
+          key="price"
+          label={primary.label}
+          value={primary.value}
+          sub={primary.sub}
+        />,
+      );
+    }
+  }
+
+  if (cards.length === 0) return null;
+
+  return (
+    <div
+      id="overview"
+      className="mb-8 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-4"
+    >
+      {cards}
     </div>
   );
 }

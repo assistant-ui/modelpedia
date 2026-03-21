@@ -18,9 +18,22 @@ export async function generateMetadata({
   const { provider: id } = await params;
   const provider = getProvider(id);
   if (!provider) return { title: "Not Found" };
+
+  const activeCount = provider.models.filter(
+    (m) => m.status !== "deprecated",
+  ).length;
+  const description = `${provider.name} — ${activeCount} AI models. Browse specs, pricing, capabilities, and compare models.`;
+
   return {
-    title: provider.name,
-    description: `${provider.name} — ${provider.models.length} AI models. Compare specs, pricing, and capabilities.`,
+    title: `${provider.name} Models`,
+    description,
+    alternates: {
+      canonical: `/${id}`,
+    },
+    openGraph: {
+      title: `${provider.name} Models`,
+      description,
+    },
   };
 }
 
@@ -42,6 +55,7 @@ export default async function ProviderDetailPage({
     provider: provider.id,
     created_by: m.created_by,
     status: m.status,
+    model_type: m.model_type,
     context_window: m.context_window,
     capabilities: m.capabilities as Record<string, boolean> | undefined,
     pricing: m.pricing,

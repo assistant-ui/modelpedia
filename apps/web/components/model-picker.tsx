@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { ProviderIcon } from "@/components/provider-icon";
-import { fuzzyMatch } from "@/lib/search";
+import { multiSearch } from "@/lib/search";
 
 interface PickerModel {
   id: string;
@@ -34,33 +34,12 @@ export function ModelPicker({
     ? models.find((m) => `${m.provider}/${m.id}` === selected)
     : null;
 
-  const filtered = query ? fuzzySearch(models, query, 30) : [];
-
-  function fuzzySearch(items: PickerModel[], q: string, limit: number) {
-    const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
-    if (terms.length === 0) return [];
-
-    const scored: { model: PickerModel; score: number }[] = [];
-    for (const m of items) {
-      const target = `${m.providerName} ${m.name} ${m.id}`.toLowerCase();
-      let total = 0;
-      let allMatch = true;
-      for (const term of terms) {
-        const s = fuzzyMatch(target, term);
-        if (s < 0) {
-          allMatch = false;
-          break;
-        }
-        total += s;
-      }
-      if (allMatch) scored.push({ model: m, score: total });
-    }
-
-    return scored
-      .sort((a, b) => b.score - a.score)
-      .slice(0, limit)
-      .map((s) => s.model);
-  }
+  const filtered = query
+    ? multiSearch(models, query, {
+        target: (m) => `${m.providerName} ${m.name} ${m.id}`,
+        limit: 30,
+      })
+    : [];
 
   function show() {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);

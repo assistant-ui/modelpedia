@@ -3,6 +3,7 @@
 import type { LucideIcon } from "lucide-react";
 import {
   Brain,
+  Cable,
   Calendar,
   CircleDollarSign,
   Coins,
@@ -23,6 +24,7 @@ import {
   Tag,
   Timer,
   User,
+  Wrench,
   Zap,
 } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
@@ -65,6 +67,8 @@ interface CompareModel {
     batch_input?: number | null;
     batch_output?: number | null;
   };
+  tools?: string[];
+  endpoints?: string[];
 }
 
 function CompareRow({
@@ -97,6 +101,22 @@ function CompareRow({
 
 function neq(a: unknown, b: unknown): boolean {
   return (a ?? null) !== (b ?? null);
+}
+
+function TagList({ items }: { items?: string[] }) {
+  if (!items || items.length === 0) return <span>—</span>;
+  return (
+    <span className="flex flex-wrap gap-1">
+      {items.map((t) => (
+        <span
+          key={t}
+          className="rounded bg-muted px-1.5 py-0.5 font-mono text-[11px] text-foreground"
+        >
+          {t.replace(/_/g, " ")}
+        </span>
+      ))}
+    </span>
+  );
 }
 
 function RatingDots({
@@ -420,6 +440,21 @@ function CompareInner({ models }: { models: CompareModel[] }) {
               a.modalities?.output?.join(","),
               b.modalities?.output?.join(","),
             )}
+          />
+
+          <CompareRow
+            icon={Wrench}
+            label="Tools"
+            a={<TagList items={a.tools} />}
+            b={<TagList items={b.tools} />}
+            diff={neq(a.tools?.join(","), b.tools?.join(","))}
+          />
+          <CompareRow
+            icon={Cable}
+            label="Endpoints"
+            a={<TagList items={a.endpoints} />}
+            b={<TagList items={b.endpoints} />}
+            diff={neq(a.endpoints?.join(","), b.endpoints?.join(","))}
           />
         </div>
       ) : (

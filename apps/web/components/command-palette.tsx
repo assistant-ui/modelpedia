@@ -12,6 +12,7 @@ import {
   CommandList,
 } from "@/components/ui/command";
 import { OFFICIAL_PROVIDERS } from "@/lib/constants";
+import { multiSearch } from "@/lib/search";
 
 interface SearchItem {
   type: "model" | "provider" | "page";
@@ -72,38 +73,34 @@ export function CommandPalette({
     return () => document.removeEventListener("keydown", down);
   }, [mounted, close, open]);
 
-  const filteredPages = useMemo(() => {
-    if (!query) return [];
-    const q = query.toLowerCase();
-    return pages.filter((p) => p.name.toLowerCase().includes(q));
-  }, [query, pages]);
+  const filteredPages = useMemo(
+    () => (query ? multiSearch(pages, query, { target: (p) => p.name }) : []),
+    [query, pages],
+  );
 
-  const filteredProviders = useMemo(() => {
-    if (!query) return [];
-    const q = query.toLowerCase();
-    return providers.filter((p) => p.name.toLowerCase().includes(q));
-  }, [query, providers]);
+  const filteredProviders = useMemo(
+    () =>
+      query ? multiSearch(providers, query, { target: (p) => p.name }) : [],
+    [query, providers],
+  );
 
-  const filteredModels = useMemo(() => {
-    if (query.length < 2) return [];
-    const q = query.toLowerCase();
-    const results: { item: SearchItem; score: number }[] = [];
-    for (const m of models) {
-      const target = `${m.name} ${m.sub ?? ""} ${m.id}`.toLowerCase();
-      if (target.includes(q)) {
-        let score =
-          target.indexOf(q) === 0 ? 20 : target.includes(` ${q}`) ? 10 : 0;
-        const provider = m.href.split("/")[1];
-        if (OFFICIAL_PROVIDERS.has(provider)) score += 5;
-        if (m.name.toLowerCase() === q) score += 30;
-        results.push({ item: m, score });
-      }
-    }
-    return results
-      .sort((a, b) => b.score - a.score)
-      .slice(0, 20)
-      .map((r) => r.item);
-  }, [query, models]);
+  const filteredModels = useMemo(
+    () =>
+      query.length < 2
+        ? []
+        : multiSearch(models, query, {
+            target: (m) => `${m.name} ${m.sub ?? ""} ${m.id}`,
+            bonus: (m) => {
+              let b = 0;
+              if (m.name.toLowerCase() === query.toLowerCase()) b += 30;
+              const provider = m.href.split("/")[1];
+              if (OFFICIAL_PROVIDERS.has(provider)) b += 5;
+              return b;
+            },
+            limit: 20,
+          }),
+    [query, models],
+  );
 
   function select(href: string) {
     close();

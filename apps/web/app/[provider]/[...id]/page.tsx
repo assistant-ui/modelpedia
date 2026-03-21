@@ -1,6 +1,7 @@
 import {
   Braces,
   Brain,
+  ExternalLink,
   Eye,
   GitCompareArrows,
   Hammer,
@@ -14,18 +15,17 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ApiEndpoint } from "@/components/api-endpoint";
 import { ChangeEntry } from "@/components/change-entry";
+import { EndpointList, ToolList } from "@/components/endpoint-list";
 import { RenderMarkdown } from "@/components/markdown";
 import {
   DetailCell,
   FamilyComparison,
   InheritedBadge,
-  MetricCard,
+  OverviewGrid,
   PriceCell,
-  RatingCard,
 } from "@/components/model-detail";
 import { ModelIdCopy } from "@/components/model-id-copy";
 import { OverlayPanel } from "@/components/overlay-panel";
-
 import { ProviderIcon } from "@/components/provider-icon";
 import { ButtonLink } from "@/components/ui/button";
 import {
@@ -75,19 +75,49 @@ export async function generateMetadata({
   const { modelId, isChanges } = parseIdSegments(id);
   const model = getModel(provider, modelId);
   if (!model) return { title: "Not Found" };
+
+  const providerInfo = getProvider(provider);
+  const providerName = providerInfo?.name ?? provider;
+
   if (isChanges) {
-    return { title: `Changes — ${model.name}` };
+    return {
+      title: `Changes — ${model.name} (${providerName})`,
+      description: `Change history for ${model.name} on ${providerName}.`,
+    };
   }
+
   const ogUrl = `/api/og?provider=${provider}&id=${encodeURIComponent(modelId)}`;
+
+  const priceParts: string[] = [];
+  if (model.pricing?.input != null)
+    priceParts.push(`$${model.pricing.input}/M input`);
+  if (model.pricing?.output != null)
+    priceParts.push(`$${model.pricing.output}/M output`);
+  const priceStr = priceParts.length > 0 ? ` ${priceParts.join(", ")}.` : "";
+
+  const ctxStr =
+    model.context_window != null
+      ? ` ${formatTokens(model.context_window)} context.`
+      : "";
+
+  const description =
+    model.description ??
+    `${model.name} by ${providerName}.${ctxStr}${priceStr} View specs, pricing, and capabilities.`;
+
   return {
-    title: model.name,
-    description:
-      model.description ??
-      `${model.name} — AI model by ${model.created_by}. View specs, pricing, and capabilities.`,
+    title: `${model.name} — ${providerName}`,
+    description,
+    alternates: {
+      canonical: `/${provider}/${modelId}`,
+    },
     openGraph: {
+      title: `${model.name} — ${providerName}`,
+      description,
       images: [{ url: ogUrl, width: 1200, height: 630 }],
     },
     twitter: {
+      title: `${model.name} — ${providerName}`,
+      description,
       images: [{ url: ogUrl, width: 1200, height: 630 }],
     },
   };
@@ -109,6 +139,20 @@ export default async function ModelDetailPage({
     (e) => e.provider === provider && e.model === modelId,
   );
 
+  const aliasOf =
+    model.alias ??
+    allModels.find(
+      (m) =>
+        m.provider === model.provider &&
+        normalizeModelId(m.id) !== normalizeModelId(model.id) &&
+        m.snapshots?.includes(model.id),
+    )?.id ??
+    null;
+
+  const snapshots = model.snapshots?.filter(
+    (s) => normalizeModelId(s) !== normalizeModelId(model.id),
+  );
+
   function renderHeader(actions: React.ReactNode) {
     return (
       <div className="mb-8">
@@ -119,45 +163,82 @@ export default async function ModelDetailPage({
           >
             <ProviderIcon provider={providerInfo} size={18} />
           </a>
-          <h1 className="flex-1 font-medium text-foreground text-lg tracking-tight">
+          <h1 className="font-medium text-foreground text-lg tracking-tight">
             {model.name}
           </h1>
-          {model.status && model.status !== "active" && (
-            <span className="rounded-full bg-muted px-2 py-0.5 text-muted-foreground text-xs">
-              {model.status}
+          {model.model_type && (
+            <span className="rounded bg-muted px-1.5 py-0.5 font-mono text-muted-foreground text-xs">
+              {model.model_type}
             </span>
           )}
+          {model.status === "deprecated" && (
+            <span className="rounded bg-red-500/10 px-1.5 py-0.5 font-mono text-red-600 text-xs dark:text-red-400">
+              deprecated
+            </span>
+          )}
+          {model.status === "preview" && (
+            <span className="rounded bg-yellow-500/10 px-1.5 py-0.5 font-mono text-xs text-yellow-600 dark:text-yellow-400">
+              preview
+            </span>
+          )}
+          <span className="flex-1" />
           {actions}
         </div>
-        {model.id !== model.name && (
+        {normalizeModelId(model.id) !== normalizeModelId(model.name) && (
           <div className="mt-1 break-all font-mono text-muted-foreground text-sm">
             {model.id}
           </div>
         )}
-        {model.description && (
-          <p className="mt-2 text-pretty text-muted-foreground leading-relaxed">
-            <RenderMarkdown text={model.description} />
+        {(model.description || model.tagline || model.successor) && (
+          <p className="mt-2 text-pretty text-muted-foreground text-sm leading-relaxed">
+            {model.description ? (
+              <RenderMarkdown text={model.description} />
+            ) : (
+              model.tagline
+            )}
+            {model.successor && (
+              <>
+                {(model.description || model.tagline) && " · "}
+                <a
+                  href={`/${model.provider}/${model.successor}`}
+                  className="inline-flex items-center gap-1 font-medium text-foreground transition-colors duration-200 hover:text-foreground/70"
+                >
+                  Succeeded by {model.successor}
+                  <span className="text-muted-foreground">→</span>
+                </a>
+              </>
+            )}
           </p>
         )}
-        {(model.alias || (model.snapshots && model.snapshots.length > 0)) && (
+        {(aliasOf || (snapshots && snapshots.length > 0)) && (
           <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
-            {model.alias && (
-              <a
-                href={`/${model.provider}/${model.alias}`}
-                className="rounded bg-muted px-2 py-1 font-mono text-muted-foreground ring-1 ring-border transition-colors duration-200 hover:text-foreground"
-              >
-                alias → {model.alias}
-              </a>
+            {aliasOf && (
+              <>
+                <span className="text-muted-foreground/60">
+                  {model.alias ? "Alias of" : "Snapshot of"}
+                </span>
+                <a
+                  href={`/${model.provider}/${aliasOf}`}
+                  className="rounded bg-muted px-2 py-1 font-mono text-muted-foreground ring-1 ring-border transition-colors duration-200 hover:text-foreground"
+                >
+                  {aliasOf}
+                </a>
+              </>
             )}
-            {model.snapshots?.map((s) => (
-              <a
-                key={s}
-                href={`/${model.provider}/${s}`}
-                className="rounded bg-muted px-2 py-1 font-mono text-muted-foreground ring-1 ring-border transition-colors duration-200 hover:text-foreground"
-              >
-                {s}
-              </a>
-            ))}
+            {snapshots && snapshots.length > 0 && (
+              <>
+                <span className="text-muted-foreground/60">Snapshots</span>
+                {snapshots.map((s) => (
+                  <a
+                    key={s}
+                    href={`/${model.provider}/${s}`}
+                    className="rounded bg-muted px-2 py-1 font-mono text-muted-foreground ring-1 ring-border transition-colors duration-200 hover:text-foreground"
+                  >
+                    {s}
+                  </a>
+                ))}
+              </>
+            )}
           </div>
         )}
       </div>
@@ -187,7 +268,7 @@ export default async function ModelDetailPage({
       }
       subheader={
         <>
-          {model.id !== model.name && (
+          {normalizeModelId(model.id) !== normalizeModelId(model.name) && (
             <div className="mt-1 break-all font-mono text-muted-foreground text-sm">
               {model.id}
             </div>
@@ -283,6 +364,17 @@ export default async function ModelDetailPage({
           >
             <GitCompareArrows size={14} />
           </ButtonLink>
+          {providerInfo?.playground_url && (
+            <ButtonLink
+              href={providerInfo.playground_url}
+              variant="default"
+              size="icon"
+              title="Open Playground"
+              target="_blank"
+            >
+              <ExternalLink size={14} />
+            </ButtonLink>
+          )}
           {modelChanges.length > 0 && (
             <ButtonLink
               href={`/${provider}/${modelId}/changes`}
@@ -302,10 +394,12 @@ export default async function ModelDetailPage({
                   ...(model.alias
                     ? [{ label: "Alias", value: model.alias }]
                     : []),
-                  ...(model.snapshots ?? []).map((s) => ({
-                    label: "Snapshot",
-                    value: s,
-                  })),
+                  ...(model.snapshots ?? [])
+                    .filter((s) => s !== model.id)
+                    .map((s) => ({
+                      label: "Snapshot",
+                      value: s,
+                    })),
                 ],
               },
               {
@@ -330,66 +424,11 @@ export default async function ModelDetailPage({
         </>,
       )}
 
-      <div className="mb-8 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-4">
-        <RatingCard
-          label="Intelligence"
-          value={model.performance}
-          max={5}
-          inheritedFrom={inh("performance")}
-        />
-        <RatingCard
-          label="Reasoning"
-          value={model.reasoning}
-          max={5}
-          inheritedFrom={inh("reasoning")}
-        />
-        <RatingCard
-          label="Speed"
-          value={model.speed}
-          max={5}
-          inheritedFrom={inh("speed")}
-        />
-        <MetricCard
-          label="Context"
-          value={
-            model.context_window != null
-              ? formatTokens(model.context_window)
-              : "—"
-          }
-          inheritedFrom={inh("context_window")}
-        />
-        <MetricCard
-          label="Max context"
-          value={
-            model.max_context_window != null
-              ? formatTokens(model.max_context_window)
-              : "—"
-          }
-        />
-        <MetricCard
-          label="Max output"
-          value={
-            model.max_output_tokens != null
-              ? formatTokens(model.max_output_tokens)
-              : "—"
-          }
-          inheritedFrom={inh("max_output_tokens")}
-        />
-        <MetricCard
-          label="Input price"
-          value={formatPrice(model.pricing?.input)}
-          sub={model.pricing?.input != null ? "/1M tokens" : undefined}
-          inheritedFrom={inh("pricing")}
-        />
-        <MetricCard
-          label="Output price"
-          value={formatPrice(model.pricing?.output)}
-          sub={model.pricing?.output != null ? "/1M tokens" : undefined}
-          inheritedFrom={inh("pricing")}
-        />
-      </div>
+      <OverviewGrid model={model} inh={inh} />
 
-      <div className="mb-4 text-muted-foreground text-sm">Capabilities</div>
+      <div id="capabilities" className="mb-4 text-muted-foreground text-sm">
+        Capabilities
+      </div>
       <div className="mb-8 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-4">
         {CAP_KEYS.map((key) => {
           const val = model.capabilities?.[key];
@@ -415,7 +454,9 @@ export default async function ModelDetailPage({
         })}
       </div>
 
-      <div className="mb-4 text-muted-foreground text-sm">Details</div>
+      <div id="details" className="mb-4 text-muted-foreground text-sm">
+        Details
+      </div>
       <div className="mb-8 grid gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-2">
         <DetailCell
           label="Provider"
@@ -481,8 +522,22 @@ export default async function ModelDetailPage({
           value={model.deprecation_date ?? "—"}
           inheritedFrom={inh("deprecation_date")}
         />
-        <DetailCell label="Source" value={model.source} />
-        <DetailCell label="Last updated" value={model.last_updated} />
+        <DetailCell
+          label="Type"
+          value={model.model_type ?? "—"}
+          inheritedFrom={inh("model_type")}
+        />
+        <DetailCell
+          label="Reasoning tokens"
+          value={
+            model.reasoning_tokens != null
+              ? model.reasoning_tokens
+                ? "Yes"
+                : "No"
+              : "—"
+          }
+          inheritedFrom={inh("reasoning_tokens")}
+        />
         <DetailCell
           label="Max input"
           value={
@@ -491,27 +546,144 @@ export default async function ModelDetailPage({
               : "—"
           }
         />
+        <DetailCell label="Source" value={model.source} />
+        <DetailCell label="Last updated" value={model.last_updated} />
       </div>
+
+      {model.tools && model.tools.length > 0 && (
+        <>
+          <div id="tools" className="mb-4 text-muted-foreground text-sm">
+            Tools
+          </div>
+          <div className="mb-8">
+            <ToolList tools={model.tools} />
+          </div>
+        </>
+      )}
+
+      {model.endpoints && model.endpoints.length > 0 && (
+        <>
+          <div id="endpoints" className="mb-4 text-muted-foreground text-sm">
+            Endpoints
+          </div>
+          <div className="mb-8">
+            <EndpointList
+              endpoints={model.endpoints}
+              apiUrl={providerInfo?.api_url}
+            />
+          </div>
+        </>
+      )}
 
       {model.pricing && Object.values(model.pricing).some((v) => v != null) && (
         <>
-          <div className="mb-4 text-muted-foreground text-sm">
-            Pricing <span className="text-muted-foreground">per 1M tokens</span>
+          <div id="pricing" className="mb-4 text-muted-foreground text-sm">
+            Pricing
           </div>
-          <div className="mb-8 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-3 lg:grid-cols-6">
-            <PriceCell label="Input" value={model.pricing.input} />
-            <PriceCell label="Output" value={model.pricing.output} />
-            <PriceCell label="Cache write" value={model.pricing.cache_write} />
-            <PriceCell label="Cache read" value={model.pricing.cached_input} />
-            <PriceCell label="Batch in" value={model.pricing.batch_input} />
-            <PriceCell label="Batch out" value={model.pricing.batch_output} />
-          </div>
+          {model.pricing.tiers && model.pricing.tiers.length > 0 ? (
+            <div className="mb-8 space-y-6">
+              {model.pricing.tiers.map((tier) => (
+                <div key={tier.label}>
+                  <div className="mb-2 flex items-baseline justify-between">
+                    <span className="text-foreground text-sm">
+                      {tier.label}
+                    </span>
+                    <span className="text-muted-foreground text-xs">
+                      {tier.unit}
+                    </span>
+                  </div>
+                  <div className="overflow-x-auto rounded-md ring-1 ring-border">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="text-muted-foreground text-xs">
+                          <th className="px-4 py-2 text-left font-normal" />
+                          {tier.columns.map((col) => (
+                            <th
+                              key={col}
+                              className="px-4 py-2 text-right font-normal"
+                            >
+                              {col}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {tier.rows.map((row) => (
+                          <tr
+                            key={row.label}
+                            className="border-border border-t"
+                          >
+                            <td className="px-4 py-2.5 text-muted-foreground">
+                              {row.label}
+                            </td>
+                            {row.values.map((val, i) => (
+                              <td
+                                key={tier.columns[i]}
+                                className="px-4 py-2.5 text-right font-mono tabular-nums"
+                              >
+                                {val != null ? `$${val}` : "—"}
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ))}
+              {model.pricing_notes && model.pricing_notes.length > 0 && (
+                <div className="space-y-1">
+                  {model.pricing_notes.map((note) => (
+                    <p
+                      key={note.slice(0, 40)}
+                      className="text-muted-foreground text-xs leading-relaxed"
+                    >
+                      {note}
+                    </p>
+                  ))}
+                </div>
+              )}
+            </div>
+          ) : (
+            <>
+              <div className="mb-4 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-3 lg:grid-cols-6">
+                <PriceCell label="Input" value={model.pricing.input} />
+                <PriceCell label="Output" value={model.pricing.output} />
+                <PriceCell
+                  label="Cache write"
+                  value={model.pricing.cache_write}
+                />
+                <PriceCell
+                  label="Cache read"
+                  value={model.pricing.cached_input}
+                />
+                <PriceCell label="Batch in" value={model.pricing.batch_input} />
+                <PriceCell
+                  label="Batch out"
+                  value={model.pricing.batch_output}
+                />
+              </div>
+              {model.pricing_notes && model.pricing_notes.length > 0 && (
+                <div className="mb-8 space-y-1">
+                  {model.pricing_notes.map((note) => (
+                    <p
+                      key={note.slice(0, 40)}
+                      className="text-muted-foreground text-xs leading-relaxed"
+                    >
+                      {note}
+                    </p>
+                  ))}
+                </div>
+              )}
+              {!model.pricing_notes && <div className="mb-4" />}
+            </>
+          )}
         </>
       )}
 
       {familyModels.length > 1 && (
         <>
-          <div className="mb-4 text-muted-foreground text-sm">
+          <div id="family" className="mb-4 text-muted-foreground text-sm">
             {model.family} family
           </div>
           <FamilyComparison
@@ -522,7 +694,9 @@ export default async function ModelDetailPage({
         </>
       )}
 
-      <div className="mb-4 text-muted-foreground text-sm">API</div>
+      <div id="api" className="mb-4 text-muted-foreground text-sm">
+        API
+      </div>
       <ApiEndpoint
         path={`/v1/models/${model.provider}/${model.id}`}
         tryPath={`https://api.modelpedia.dev/v1/models/${model.provider}/${model.id}`}
