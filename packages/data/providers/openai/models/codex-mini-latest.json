@@ -3,13 +3,25 @@
   "name": "codex-mini-latest",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "codex",
-  "status": "active",
+  "description": "codex-mini-latest is a fine-tuned version of o4-mini specifically",
+  "status": "deprecated",
+  "knowledge_cutoff": "2024-05",
   "context_window": 200000,
   "max_output_tokens": 100000,
+  "reasoning_tokens": true,
   "performance": 4,
+  "reasoning": 4,
   "speed": 3,
+  "tagline": "Fast reasoning model optimized for the Codex CLI",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -17,6 +29,21 @@
   "pricing": {
     "input": 1.5,
     "output": 6,
-    "cached_input": 0.375
-  }
+    "cached_input": 0.375,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.5, 0.375, 6]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["responses"],
+  "snapshots": ["codex-mini-latest"]
 }

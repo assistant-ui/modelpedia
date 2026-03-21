@@ -1,0 +1,38 @@
+{
+  "id": "dall-e-3",
+  "name": "DALL·E 3",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "DALL·E is an AI system that creates realistic images and art from a natural language description. DALL·E 3 currently supports the ability, given a prompt, to create a new image with a specific size.",
+  "status": "deprecated",
+  "model_type": "image",
+  "performance": 3,
+  "speed": 2,
+  "tagline": "Previous generation image generation model",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Quality", "1024x1024", "1024x1792", "1792x1024"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [null, 0.04, 0.08, 0.08]
+          },
+          {
+            "label": "HD",
+            "values": [null, 0.08, 0.12, 0.12]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["image_generation"],
+  "snapshots": ["dall-e-3"]
+}

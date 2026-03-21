@@ -198,8 +198,10 @@ function validateModel(filePath: string, _providerId: string): Result {
         "input",
         "output",
         "cached_input",
+        "cache_write",
         "batch_input",
         "batch_output",
+        "cached_output",
       ];
       for (const [key, val] of Object.entries(pricing)) {
         if (!validPricingKeys.includes(key)) {

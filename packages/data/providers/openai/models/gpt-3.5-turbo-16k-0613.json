@@ -3,15 +3,47 @@
   "name": "gpt-3.5-turbo-16k-0613",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-3.5",
+  "description": "GPT-3.5 Turbo models can understand and generate natural language or code and have been optimized for chat using the Chat Completions API but work well for non-chat tasks as well. As of July 2024, use gpt-4o-mini in place of GPT-3.5 Turbo, as it is cheaper, more capable, multimodal, and just as fast. GPT-3.5 Turbo is still available for use in the API.",
   "status": "active",
+  "knowledge_cutoff": "2021-08",
   "context_window": 16385,
   "max_output_tokens": 4096,
+  "model_type": "chat",
   "performance": 1,
   "speed": 2,
+  "tagline": "Legacy GPT model for cheaper chat and non-chat tasks",
+  "capabilities": {
+    "fine_tuning": true
+  },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "",
+        "columns": ["Input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [3, 4]
+          },
+          {
+            "label": "Batch",
+            "values": [1.5, 2]
+          }
+        ]
+      }
+    ],
+    "input": 3,
+    "output": 4,
+    "batch_input": 1.5,
+    "batch_output": 2
+  },
+  "endpoints": ["chat_completions", "responses", "batch"],
+  "snapshots": ["gpt-3.5-turbo-16k-0613"]
 }

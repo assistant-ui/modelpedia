@@ -5,11 +5,24 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "o3",
+  "description": "o3-mini is our newest small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini. o3-mini supports key developer features, like Structured Outputs, function calling, and Batch API.",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 200000,
   "max_output_tokens": 100000,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
   "performance": 4,
+  "reasoning": 4,
   "speed": 3,
+  "tagline": "A small model alternative to o3",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -19,13 +32,32 @@
     "output": 4.4,
     "cached_input": 0.55,
     "batch_input": 0.55,
-    "batch_output": 2.2
+    "batch_output": 2.2,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.1, 0.55, 4.4]
+          },
+          {
+            "label": "Batch",
+            "values": [0.55, null, 2.2]
+          }
+        ]
+      }
+    ]
   },
-  "description": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding.",
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true,
-    "reasoning": true
-  },
+  "tools": [
+    "function_calling",
+    "file_search",
+    "code_interpreter",
+    "mcp",
+    "image_generation"
+  ],
+  "endpoints": ["chat_completions", "responses", "assistants", "batch"],
   "snapshots": ["o3-mini-2025-01-31"]
 }

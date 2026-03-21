@@ -1,0 +1,23 @@
+{
+  "id": "gpt-4-1106-vision-preview",
+  "name": "gpt-4-1106-vision-preview",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4",
+  "status": "active",
+  "knowledge_cutoff": "2023-11",
+  "context_window": 128000,
+  "max_output_tokens": 4096,
+  "performance": 2,
+  "speed": 3,
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions", "responses", "assistants"]
+}

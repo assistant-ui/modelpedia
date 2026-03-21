@@ -5,12 +5,22 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-4o",
+  "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 128000,
   "max_output_tokens": 16384,
+  "model_type": "chat",
   "alias": "gpt-4o",
   "performance": 3,
   "speed": 3,
+  "tagline": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -20,12 +30,24 @@
     "output": 10,
     "cached_input": 1.25,
     "batch_input": 1.25,
-    "batch_output": 5
+    "batch_output": 5,
+    "tiers": [
+      {
+        "label": "Fine-tuning",
+        "unit": "",
+        "columns": ["Training", "Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [25, 3.75, 1.875, 15]
+          },
+          {
+            "label": "Batch",
+            "values": [null, 1.875, null, 7.5]
+          }
+        ]
+      }
+    ]
   },
-  "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
-  "model_type": "chat",
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true
-  }
+  "endpoints": ["chat_completions", "responses", "assistants", "batch"]
 }

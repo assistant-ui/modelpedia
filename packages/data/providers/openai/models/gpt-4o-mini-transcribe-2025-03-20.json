@@ -6,8 +6,10 @@
   "last_updated": "2026-03-21",
   "family": "gpt-4o",
   "status": "active",
+  "knowledge_cutoff": "2024-05",
   "context_window": 16000,
   "max_output_tokens": 2000,
+  "model_type": "transcription",
   "alias": "gpt-4o-mini-transcribe",
   "performance": 3,
   "speed": 4,
@@ -15,13 +17,5 @@
     "input": ["audio", "text"],
     "output": ["text"]
   },
-  "pricing": {
-    "input": 2.5,
-    "output": 10,
-    "cached_input": 1.25,
-    "batch_input": 1.25,
-    "batch_output": 5
-  },
-  "description": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
-  "model_type": "other"
+  "endpoints": ["transcription", "realtime"]
 }

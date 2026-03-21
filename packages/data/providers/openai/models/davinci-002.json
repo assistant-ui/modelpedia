@@ -1,0 +1,62 @@
+{
+  "id": "davinci-002",
+  "name": "davinci-002",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "GPT base models can understand and generate natural language or code but are not trained with instruction following. These models are made to be replacements for our original GPT-3 base models and use the legacy Completions API. Most customers should use GPT-3.5 or GPT-4.",
+  "status": "deprecated",
+  "knowledge_cutoff": "2021-08",
+  "max_output_tokens": 16384,
+  "model_type": "chat",
+  "performance": 1,
+  "speed": 3,
+  "tagline": "Replacement for the GPT-3 curie and davinci base models",
+  "capabilities": {
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Fine-tuning",
+        "unit": "",
+        "columns": ["Training", "Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [6, 12, null, 12]
+          },
+          {
+            "label": "Batch",
+            "values": [null, 6, null, 6]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "",
+        "columns": ["Input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2, 2]
+          },
+          {
+            "label": "Batch",
+            "values": [1, 1]
+          }
+        ]
+      }
+    ],
+    "input": 2,
+    "output": 2,
+    "batch_input": 1,
+    "batch_output": 1
+  },
+  "endpoints": ["completions"],
+  "snapshots": ["davinci-002"]
+}

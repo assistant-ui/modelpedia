@@ -1,0 +1,32 @@
+{
+  "id": "gpt-4-32k",
+  "name": "gpt-4-32k",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4",
+  "status": "active",
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "",
+        "columns": ["Input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [60, 120]
+          },
+          {
+            "label": "Batch",
+            "values": [30, 60]
+          }
+        ]
+      }
+    ],
+    "input": 60,
+    "output": 120,
+    "batch_input": 30,
+    "batch_output": 60
+  }
+}

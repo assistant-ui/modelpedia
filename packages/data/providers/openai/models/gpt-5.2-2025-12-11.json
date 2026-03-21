@@ -5,15 +5,24 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-5.2",
+  "description": "GPT-5.2 is our previous frontier model for complex professional work.",
   "status": "active",
+  "knowledge_cutoff": "2025-08",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
   "alias": "gpt-5.2",
   "performance": 5,
+  "reasoning": 5,
   "speed": 3,
+  "tagline": "GPT-5.2 is our previous frontier model for complex professional work.",
   "capabilities": {
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -24,10 +33,32 @@
     "output": 14,
     "cached_input": 0.175,
     "batch_input": 0.875,
-    "batch_output": 7
+    "batch_output": 7,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.75, 0.175, 14]
+          },
+          {
+            "label": "Batch",
+            "values": [0.875, 0.0875, 7]
+          },
+          {
+            "label": "Flex",
+            "values": [0.875, 0.0875, 7]
+          },
+          {
+            "label": "Priority",
+            "values": [3.5, 0.35, 28]
+          }
+        ]
+      }
+    ]
   },
-  "description": "GPT-5.2 is our previous frontier model for complex professional work.",
-  "context_window": 400000,
-  "max_output_tokens": 128000,
-  "model_type": "reasoning"
+  "endpoints": ["responses", "chat_completions", "batch"]
 }

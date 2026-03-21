@@ -4,12 +4,22 @@
   "created_by": "openai",
   "source": "official",
   "last_updated": "2026-03-21",
+  "description": "Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 128000,
   "max_output_tokens": 16384,
+  "model_type": "chat",
   "alias": "gpt-4.5-preview",
   "performance": 4,
   "speed": 3,
+  "tagline": "Deprecated - a research preview of GPT-4.5.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -19,6 +29,24 @@
     "output": 150,
     "cached_input": 37.5,
     "batch_input": 37.5,
-    "batch_output": 75
-  }
+    "batch_output": 75,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [75, 37.5, 150]
+          },
+          {
+            "label": "Batch",
+            "values": [37.5, null, 75]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["chat_completions", "responses", "assistants", "batch"]
 }

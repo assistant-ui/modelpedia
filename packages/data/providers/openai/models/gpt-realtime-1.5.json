@@ -3,15 +3,19 @@
   "name": "gpt-realtime-1.5",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-realtime",
   "description": "GPT-Reatime-1.5 is our flagship audio model for voice agents & customer support.",
   "status": "active",
+  "knowledge_cutoff": "2024-09",
   "context_window": 32000,
   "max_output_tokens": 4096,
-  "model_type": "other",
   "performance": 5,
   "speed": 4,
+  "tagline": "The best voice model for audio in, audio out.",
+  "capabilities": {
+    "tool_call": true
+  },
   "modalities": {
     "input": ["text", "audio", "image"],
     "output": ["text", "audio"]
@@ -19,6 +23,43 @@
   "pricing": {
     "input": 4,
     "output": 16,
-    "cached_input": 0.4
-  }
+    "cached_input": 0.4,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [4, 0.4, 16]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [32, 0.4, 64]
+          }
+        ]
+      },
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 0.5, null]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["realtime"],
+  "snapshots": ["gpt-realtime-1.5"]
 }

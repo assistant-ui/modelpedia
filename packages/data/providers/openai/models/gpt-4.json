@@ -3,19 +3,55 @@
   "name": "GPT-4",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-4",
   "description": "GPT-4 is an older version of a high-intelligence GPT model, usable in Chat Completions.",
   "status": "active",
+  "knowledge_cutoff": "2023-11",
+  "context_window": 8192,
+  "max_output_tokens": 8192,
   "model_type": "chat",
-  "context_window": 8191,
-  "max_output_tokens": 4096,
+  "performance": 2,
+  "speed": 3,
+  "tagline": "An older high-intelligence GPT model",
+  "successor": "gpt-4o",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true
-  }
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "",
+        "columns": ["Input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [30, 60]
+          },
+          {
+            "label": "Batch",
+            "values": [15, 30]
+          }
+        ]
+      }
+    ],
+    "input": 30,
+    "output": 60,
+    "batch_input": 15,
+    "batch_output": 30
+  },
+  "endpoints": [
+    "chat_completions",
+    "responses",
+    "assistants",
+    "batch",
+    "fine_tuning"
+  ],
+  "snapshots": ["gpt-4-0613", "gpt-4-0314"]
 }

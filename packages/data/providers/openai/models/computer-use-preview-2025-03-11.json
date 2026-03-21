@@ -4,12 +4,21 @@
   "created_by": "openai",
   "source": "official",
   "last_updated": "2026-03-21",
+  "description": "The computer-use-preview model is a specialized model for the computer use",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 8192,
   "max_output_tokens": 1024,
+  "reasoning_tokens": true,
   "alias": "computer-use-preview",
   "performance": 2,
+  "reasoning": 2,
   "speed": 2,
+  "tagline": "The computer-use-preview model is a specialized model for the computer use",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -18,6 +27,24 @@
     "input": 3,
     "output": 12,
     "batch_input": 1.5,
-    "batch_output": 6
-  }
+    "batch_output": 6,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [3, null, 12]
+          },
+          {
+            "label": "Batch",
+            "values": [1.5, null, 6]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["responses", "batch"]
 }

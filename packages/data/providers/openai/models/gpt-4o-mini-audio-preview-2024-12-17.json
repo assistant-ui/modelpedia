@@ -5,12 +5,20 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-4o",
+  "description": "This is a preview release of the smaller GPT-4o Audio mini model. It's designed to input audio or create audio outputs via the REST API.",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 128000,
   "max_output_tokens": 16384,
+  "model_type": "chat",
   "alias": "gpt-4o-mini-audio-preview",
   "performance": 2,
   "speed": 4,
+  "tagline": "This is a preview release of the smaller GPT-4o Audio mini model.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
   "modalities": {
     "input": ["text", "audio"],
     "output": ["text", "audio"]
@@ -18,10 +26,30 @@
   "pricing": {
     "input": 0.15,
     "output": 0.6,
-    "cached_input": 1.25,
-    "batch_input": 1.25,
-    "batch_output": 5
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.15, null, 0.6]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [10, null, 20]
+          }
+        ]
+      }
+    ]
   },
-  "description": "This is a preview release of the smaller GPT-4o Audio mini model. It's designed to input audio or create audio outputs via the REST API.",
-  "model_type": "chat"
+  "endpoints": ["chat_completions"]
 }

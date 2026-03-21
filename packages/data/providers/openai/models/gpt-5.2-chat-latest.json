@@ -3,13 +3,18 @@
   "name": "GPT-5.2 Chat",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-5.2",
   "description": "GPT-5.2 Chat points to the GPT-5.2 snapshot currently used in ChatGPT.",
   "status": "active",
+  "knowledge_cutoff": "2025-08",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "max_input_tokens": 272000,
   "model_type": "chat",
   "performance": 3,
   "speed": 3,
+  "tagline": "GPT-5.2 model used in ChatGPT",
   "capabilities": {
     "streaming": true,
     "vision": true,
@@ -23,6 +28,29 @@
   "pricing": {
     "input": 1.75,
     "output": 14,
-    "cached_input": 0.175
-  }
+    "cached_input": 0.175,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.75, 0.175, 14]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "mcp"
+  ],
+  "endpoints": ["responses", "chat_completions"],
+  "snapshots": ["gpt-5.2-chat-latest"]
 }

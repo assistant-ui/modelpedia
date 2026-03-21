@@ -6,7 +6,12 @@
   "last_updated": "2026-03-21",
   "family": "gpt-5",
   "status": "active",
+  "knowledge_cutoff": "2024-09",
+  "context_window": 400000,
+  "max_output_tokens": 272000,
+  "reasoning_tokens": true,
   "performance": 5,
+  "reasoning": 5,
   "speed": 1,
   "capabilities": {
     "streaming": true,
@@ -24,10 +29,24 @@
     "output": 120,
     "batch_input": 7.5,
     "batch_output": 60,
-    "cached_input": 0.125
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [15, null, 120]
+          },
+          {
+            "label": "Batch",
+            "values": [7.5, null, 60]
+          }
+        ]
+      }
+    ]
   },
-  "context_window": 400000,
-  "max_output_tokens": 128000,
-  "description": "GPT-5 Pro is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience.",
+  "endpoints": ["responses", "batch"],
   "snapshots": ["gpt-5-pro-2025-10-06"]
 }

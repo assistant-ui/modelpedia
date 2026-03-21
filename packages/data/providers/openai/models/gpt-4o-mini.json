@@ -1,17 +1,26 @@
 {
   "id": "gpt-4o-mini",
-  "name": "gpt-4o-mini",
+  "name": "GPT-4o mini",
   "created_by": "openai",
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-4o",
   "description": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 128000,
   "max_output_tokens": 16384,
   "model_type": "chat",
   "performance": 2,
   "speed": 4,
+  "tagline": "Fast, affordable small model for focused tasks",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "fine_tuning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -21,11 +30,39 @@
     "output": 0.6,
     "cached_input": 0.075,
     "batch_input": 0.075,
-    "batch_output": 0.3
+    "batch_output": 0.3,
+    "tiers": [
+      {
+        "label": "Fine-tuning",
+        "unit": "",
+        "columns": ["Training", "Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [3, 0.3, 0.15, 1.2]
+          },
+          {
+            "label": "Batch",
+            "values": [null, 0.15, null, 0.6]
+          }
+        ]
+      }
+    ]
   },
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true
-  },
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "mcp"
+  ],
+  "endpoints": [
+    "chat_completions",
+    "responses",
+    "assistants",
+    "batch",
+    "fine_tuning"
+  ],
   "snapshots": ["gpt-4o-mini-2024-07-18"]
 }

@@ -1,0 +1,20 @@
+{
+  "id": "omni-moderation-2024-09-26",
+  "name": "omni-moderation-2024-09-26",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "model_type": "moderation",
+  "alias": "omni-moderation",
+  "performance": 3,
+  "speed": 3,
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["batch", "moderation"]
+}

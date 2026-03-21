@@ -5,20 +5,48 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-4-turbo",
-  "description": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model. It was designed to be a cheaper, better version of GPT-4. Today, we recommend using a newer model like GPT-4o.",
   "status": "active",
+  "knowledge_cutoff": "2023-11",
   "context_window": 128000,
   "max_output_tokens": 4096,
-  "model_type": "chat",
   "performance": 2,
   "speed": 3,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true
-  },
-  "snapshots": ["gpt-4-turbo-2024-04-09"]
+  "endpoints": ["chat_completions", "responses", "assistants", "batch"],
+  "snapshots": ["gpt-4-turbo-2024-04-09"],
+  "description": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model. It was designed to be a cheaper, better version of GPT-4. Today, we recommend using a newer model like GPT-4o.",
+  "model_type": "chat",
+  "tagline": "An older high-intelligence GPT model",
+  "successor": "gpt-4o",
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "",
+        "columns": ["Input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [10, 30]
+          },
+          {
+            "label": "Batch",
+            "values": [5, 15]
+          }
+        ]
+      }
+    ],
+    "input": 10,
+    "output": 30,
+    "batch_input": 5,
+    "batch_output": 15
+  }
 }

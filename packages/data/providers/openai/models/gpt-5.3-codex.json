@@ -1,13 +1,22 @@
 {
   "id": "gpt-5.3-codex",
-  "name": "gpt-5.3-codex",
+  "name": "GPT-5.3-Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-5.3",
+  "description": "GPT-5.3-Codex is optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.\\nGPT-5.3-Codex supports `low`, `medium`, `high`, and `xhigh` reasoning effort settings.\\nIf you want to learn more about prompting GPT-5.3-Codex, refer to our [dedicated guide](/cookbook/examples/gpt-5/codex_prompting_guide).\\n",
   "status": "active",
+  "knowledge_cutoff": "2025-08",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "max_input_tokens": 272000,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
   "performance": 4,
+  "reasoning": 4,
   "speed": 3,
+  "tagline": "The most capable agentic coding model to date.",
   "capabilities": {
     "streaming": true,
     "vision": true,
@@ -22,9 +31,22 @@
   "pricing": {
     "input": 1.75,
     "output": 14,
-    "cached_input": 0.175
+    "cached_input": 0.175,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.75, 0.175, 14]
+          }
+        ]
+      }
+    ]
   },
-  "context_window": 400000,
-  "max_output_tokens": 128000,
-  "description": "GPT-5.3-Codex is OpenAI’s most advanced agentic coding model, combining the frontier software engineering performance of GPT-5.2-Codex with the broader reasoning and professional knowledge capabilities of GPT-5.2."
+  "tools": ["function_calling", "web_search", "hosted_shell", "skills"],
+  "endpoints": ["responses"],
+  "snapshots": ["gpt-5.3-codex"]
 }

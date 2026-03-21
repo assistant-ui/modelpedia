@@ -1,0 +1,22 @@
+{
+  "id": "text-moderation-stable",
+  "name": "text-moderation-stable",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Moderation models are free models designed to detect harmful content. This is our text only moderation model; we expect omni-moderation-* models to be the best default moving forward.",
+  "status": "deprecated",
+  "knowledge_cutoff": "2021-08",
+  "max_output_tokens": 32768,
+  "model_type": "moderation",
+  "performance": 2,
+  "speed": 3,
+  "tagline": "Previous generation text-only moderation model",
+  "successor": "omni-moderation",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["moderation"],
+  "snapshots": ["text-moderation-007"]
+}

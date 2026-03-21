@@ -3,13 +3,19 @@
   "name": "GPT-5.1-Codex-Max",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-5.1",
   "description": "GPT‑5.1-Codex-Max is purpose-built for agentic coding.",
   "status": "active",
+  "knowledge_cutoff": "2024-09",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
   "model_type": "reasoning",
+  "reasoning_tokens": true,
   "performance": 4,
+  "reasoning": 4,
   "speed": 4,
+  "tagline": "A version of GPT-5.1-codex optimized for long running tasks.",
   "capabilities": {
     "streaming": true,
     "vision": true,
@@ -24,8 +30,22 @@
   "pricing": {
     "input": 1.25,
     "output": 10,
-    "cached_input": 0.125
+    "cached_input": 0.125,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.25, 0.125, 10]
+          }
+        ]
+      }
+    ]
   },
-  "context_window": 400000,
-  "max_output_tokens": 128000
+  "tools": ["function_calling", "web_search"],
+  "endpoints": ["responses"],
+  "snapshots": ["gpt-5.1-codex-max"]
 }

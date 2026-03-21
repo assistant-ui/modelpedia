@@ -1,0 +1,38 @@
+{
+  "id": "sora-2-pro",
+  "name": "Sora 2 Pro",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "model_type": "video",
+  "performance": 5,
+  "speed": 1,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video", "audio"]
+  },
+  "endpoints": ["videos"],
+  "snapshots": ["sora-2-pro-2025-10-06", "sora-2-pro"],
+  "description": "Sora 2 Pro is our state-of-the-art, most advanced media generation model, generating videos with synced audio.",
+  "tagline": "Most advanced synced-audio video generation",
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Video generation",
+        "unit": "Per second",
+        "columns": [
+          "Portrait: 720x1280 Landscape: 1280x720",
+          "Portrait: 1024x1792 Landscape: 1792x1024",
+          "Portrait: 1080x1920 Landscape: 1920x1080"
+        ],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.3, 0.5, 0.7]
+          }
+        ]
+      }
+    ]
+  }
+}

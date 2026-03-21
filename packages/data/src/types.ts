@@ -57,6 +57,30 @@ export interface ModelPricing {
   batch_input?: number | null;
   /** Cost per 1M batch output tokens */
   batch_output?: number | null;
+  /** Cost per 1M cached output tokens (reasoning models) */
+  cached_output?: number | null;
+  /** Detailed pricing breakdown by category (text/audio/image tokens, per-image, etc.) */
+  tiers?: PricingTier[];
+}
+
+/** A pricing section for a specific category (e.g. "Text tokens", "Image generation") */
+export interface PricingTier {
+  /** Section label (e.g. "Text tokens", "Audio tokens", "Image generation") */
+  label: string;
+  /** Pricing unit (e.g. "Per 1M tokens", "Per image") */
+  unit: string;
+  /** Column headers (e.g. ["Input", "Cached input", "Output"] or ["1024x1024", "1024x1536"]) */
+  columns: string[];
+  /** Rows of pricing data (e.g. Standard, Batch, Flex, Priority or Low, Medium, High) */
+  rows: PricingTierRow[];
+}
+
+/** A single row in a pricing tier table */
+export interface PricingTierRow {
+  /** Row label (e.g. "Standard", "Batch", "Low quality") */
+  label: string;
+  /** Values aligned with columns, null if not applicable */
+  values: (number | null)[];
 }
 
 /**
@@ -79,6 +103,8 @@ export interface ModelData {
   family?: string;
   /** Short description of the model */
   description?: string;
+  /** One-line tagline / subtitle */
+  tagline?: string;
   /** Current lifecycle status */
   status?: ModelStatus;
   /** Release date (YYYY-MM-DD), null if not applicable */
@@ -108,7 +134,11 @@ export interface ModelData {
     | "embed"
     | "rerank"
     | "image"
+    | "video"
     | "audio"
+    | "tts"
+    | "transcription"
+    | "moderation"
     | "code"
     | "translation"
     | "other";
@@ -135,6 +165,10 @@ export interface ModelData {
   reasoning?: number;
   /** Speed/latency rating (1-5 scale, 1=slow 5=fast) */
   speed?: number;
+  /** Recommended successor model ID (for deprecated models) */
+  successor?: string;
+  /** Pricing notes/caveats (e.g. long-context surcharges, regional uplifts) */
+  pricing_notes?: string[];
 }
 
 /** Model data with provider context, used at runtime */
@@ -161,6 +195,8 @@ export interface Provider {
   docs_url: string;
   /** Pricing page URL */
   pricing_url: string;
+  /** Playground base URL (model ID appended via query param) */
+  playground_url?: string;
   /** Inline SVG icon (monochrome, viewBox 0 0 24 24, fill="currentColor"). Auto-read from icon.svg. */
   icon?: string;
 }

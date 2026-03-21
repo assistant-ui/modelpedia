@@ -3,19 +3,41 @@
   "name": "gpt-3.5-turbo-instruct",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-3.5",
-  "status": "active",
+  "description": "Similar capabilities as GPT-3 era models. Compatible with legacy Completions endpoint and not Chat Completions.",
+  "status": "deprecated",
+  "knowledge_cutoff": "2021-08",
   "context_window": 4096,
   "max_output_tokens": 4096,
+  "model_type": "chat",
   "performance": 1,
   "speed": 2,
+  "tagline": "An older model only compatible with the legacy Completions endpoint",
+  "capabilities": {
+    "fine_tuning": true
+  },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
-  "description": "This model is a variant of GPT-3.5 Turbo tuned for instructional prompts and omitting chat-related optimizations.",
-  "capabilities": {
-    "structured_output": true
-  }
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "",
+        "columns": ["Input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.5, 2]
+          }
+        ]
+      }
+    ],
+    "input": 1.5,
+    "output": 2
+  },
+  "endpoints": ["chat_completions", "responses"],
+  "snapshots": ["gpt-3.5-turbo-instruct"]
 }

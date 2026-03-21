@@ -6,9 +6,20 @@
   "last_updated": "2026-03-21",
   "family": "gpt-5.4",
   "status": "active",
+  "knowledge_cutoff": "2025-08",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "reasoning_tokens": true,
   "alias": "gpt-5.4-pro",
   "performance": 5,
+  "reasoning": 5,
   "speed": 1,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -16,16 +27,29 @@
   "pricing": {
     "input": 30,
     "output": 180,
-    "cached_input": 0.25,
     "batch_input": 15,
-    "batch_output": 90
+    "batch_output": 90,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [30, null, 180]
+          },
+          {
+            "label": "Batch",
+            "values": [15, null, 90]
+          },
+          {
+            "label": "Flex",
+            "values": [15, null, 90]
+          }
+        ]
+      }
+    ]
   },
-  "description": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks.",
-  "context_window": 1050000,
-  "max_output_tokens": 128000,
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true,
-    "reasoning": true
-  }
+  "endpoints": ["responses"]
 }

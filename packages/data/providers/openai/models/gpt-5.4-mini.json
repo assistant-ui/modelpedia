@@ -1,15 +1,22 @@
 {
   "id": "gpt-5.4-mini",
-  "name": "gpt-5.4-mini",
+  "name": "GPT-5.4 mini",
   "created_by": "openai",
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-5.4",
   "description": "GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient",
   "status": "active",
+  "knowledge_cutoff": "2025-08",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "max_input_tokens": 272000,
   "model_type": "reasoning",
+  "reasoning_tokens": true,
   "performance": 4,
+  "reasoning": 4,
   "speed": 4,
+  "tagline": "Our strongest mini model yet for coding, computer use, and subagents",
   "capabilities": {
     "streaming": true,
     "vision": true,
@@ -26,9 +33,45 @@
     "output": 4.5,
     "cached_input": 0.075,
     "batch_input": 0.375,
-    "batch_output": 2.25
+    "batch_output": 2.25,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.75, 0.075, 4.5]
+          },
+          {
+            "label": "Batch",
+            "values": [0.375, 0.0375, 2.25]
+          },
+          {
+            "label": "Flex",
+            "values": [0.375, 0.0375, 2.25]
+          }
+        ]
+      }
+    ]
   },
-  "context_window": 400000,
-  "max_output_tokens": 128000,
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "tool_search",
+    "image_generation",
+    "code_interpreter",
+    "hosted_shell",
+    "apply_patch",
+    "skills",
+    "computer_use",
+    "mcp"
+  ],
+  "endpoints": ["responses", "chat_completions", "batch"],
+  "pricing_notes": [
+    "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 mini."
+  ],
   "snapshots": ["gpt-5.4-mini-2026-03-17"]
 }

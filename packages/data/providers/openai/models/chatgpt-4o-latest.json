@@ -3,17 +3,42 @@
   "name": "ChatGPT-4o",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "chatgpt",
   "description": "ChatGPT-4o points to the GPT-4o snapshot currently used in ChatGPT. We recommend using an API model like [GPT-5](/api/docs/models/gpt-5) or [GPT-4o](/api/docs/models/gpt-4o) for most API integrations, but feel free to use this ChatGPT-4o model to test our latest improvements for chat use cases.",
   "status": "deprecated",
+  "knowledge_cutoff": "2023-09",
   "context_window": 128000,
   "max_output_tokens": 16384,
   "model_type": "chat",
   "performance": 3,
   "speed": 3,
+  "tagline": "GPT-4o model used in ChatGPT",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
-  }
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "",
+        "columns": ["Input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 15]
+          }
+        ]
+      }
+    ],
+    "input": 5,
+    "output": 15
+  },
+  "endpoints": ["chat_completions", "responses"],
+  "snapshots": ["chatgpt-4o-latest"]
 }

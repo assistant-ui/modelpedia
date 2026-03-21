@@ -1,0 +1,17 @@
+{
+  "id": "sora-2-pro-2025-10-06",
+  "name": "sora-2-pro-2025-10-06",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "model_type": "video",
+  "alias": "sora-2-pro",
+  "performance": 5,
+  "speed": 1,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video", "audio"]
+  },
+  "endpoints": ["videos"]
+}

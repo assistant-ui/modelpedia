@@ -1,0 +1,54 @@
+{
+  "id": "gpt-audio-mini-2025-12-15",
+  "name": "gpt-audio-mini-2025-12-15",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-audio",
+  "description": "A cost-efficient version of GPT Audio. It accepts audio inputs and outputs, and can be used in the Chat Completions REST API.",
+  "status": "active",
+  "knowledge_cutoff": "2023-09",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "model_type": "chat",
+  "alias": "gpt-audio-mini",
+  "performance": 4,
+  "speed": 5,
+  "tagline": "A cost-efficient version of GPT Audio.",
+  "capabilities": {
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["text", "audio"]
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 2.4,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.6, null, 2.4]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [10, null, 20]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["chat_completions"]
+}

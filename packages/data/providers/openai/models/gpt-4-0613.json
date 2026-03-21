@@ -3,15 +3,27 @@
   "name": "gpt-4-0613",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-4",
   "status": "active",
+  "knowledge_cutoff": "2023-11",
   "context_window": 8192,
   "max_output_tokens": 8192,
   "performance": 2,
   "speed": 3,
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "endpoints": [
+    "chat_completions",
+    "responses",
+    "assistants",
+    "batch",
+    "fine_tuning"
+  ]
 }

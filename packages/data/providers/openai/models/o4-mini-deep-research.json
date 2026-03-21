@@ -5,11 +5,22 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "o4",
+  "description": "o4-mini-deep-research is our faster, more affordable deep",
   "status": "active",
+  "knowledge_cutoff": "2024-05",
   "context_window": 200000,
   "max_output_tokens": 100000,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
   "performance": 4,
+  "reasoning": 4,
   "speed": 3,
+  "tagline": "Faster, more affordable deep research model",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -19,13 +30,26 @@
     "output": 8,
     "cached_input": 0.5,
     "batch_input": 1,
-    "batch_output": 4
+    "batch_output": 4,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2, 0.5, 8]
+          },
+          {
+            "label": "Batch",
+            "values": [1, null, 4]
+          }
+        ]
+      }
+    ]
   },
-  "description": "o4-mini-deep-research is OpenAI's faster, more affordable deep research model—ideal for tackling complex, multi-step research tasks.",
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true,
-    "reasoning": true
-  },
+  "tools": ["web_search", "code_interpreter", "mcp"],
+  "endpoints": ["responses", "batch"],
   "snapshots": ["o4-mini-deep-research-2025-06-26"]
 }

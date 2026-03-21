@@ -227,6 +227,7 @@ export interface ModelEntry {
   created_by?: string;
   family?: string;
   description?: string;
+  tagline?: string;
   status?: "active" | "deprecated" | "preview";
   release_date?: string | null;
   deprecation_date?: string | null;
@@ -247,6 +248,8 @@ export interface ModelEntry {
   performance?: number;
   reasoning?: number;
   speed?: number;
+  successor?: string;
+  pricing_notes?: string[];
 }
 
 function mergeObjects(
@@ -293,7 +296,13 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
 
   // Always set core fields
   data.id = entry.id;
-  data.name = entry.name;
+  // Prefer display name (e.g. "GPT-5.4 nano") over raw ID (e.g. "gpt-5.4-nano")
+  const existingName = existing?.name as string | undefined;
+  const isRawId = entry.name === entry.id;
+  data.name =
+    isRawId && existingName && existingName !== entry.id
+      ? existingName
+      : entry.name;
   data.created_by =
     entry.created_by ?? (existing?.created_by as string) ?? provider;
   data.source = "official";
@@ -316,6 +325,8 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     "performance",
     "reasoning",
     "speed",
+    "tagline",
+    "successor",
   ] as const;
 
   const DATE_FIELDS = new Set([
@@ -346,14 +357,22 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
   );
   if (mods) data.modalities = mods;
 
-  const pricing = mergeObjects(
-    existing?.pricing as Record<string, unknown> | undefined,
-    entry.pricing as Record<string, unknown> | undefined,
-  );
-  if (pricing) data.pricing = pricing;
+  // Pricing: merge scalar fields but replace tiers array entirely
+  const existingPricing = existing?.pricing as
+    | Record<string, unknown>
+    | undefined;
+  const entryPricing = entry.pricing as Record<string, unknown> | undefined;
+  const pricing = mergeObjects(existingPricing, entryPricing);
+  if (pricing) {
+    // tiers should come from entry (current fetch), not be merged
+    if (entryPricing?.tiers) {
+      pricing.tiers = entryPricing.tiers;
+    }
+    data.pricing = pricing;
+  }
 
   // Array fields
-  for (const key of ["tools", "endpoints"] as const) {
+  for (const key of ["tools", "endpoints", "pricing_notes"] as const) {
     const val = entry[key] ?? (existing?.[key] as string[] | undefined);
     if (val && Array.isArray(val) && val.length > 0) data[key] = val;
   }
@@ -504,8 +523,30 @@ export function upsertWithSnapshot(
         (snapshotEntry as any)[key] = aliasData[key];
       }
     }
-    if (!snapshotEntry.pricing && aliasData.pricing) {
-      snapshotEntry.pricing = aliasData.pricing as Record<string, number>;
+    // Merge pricing: inherit flat fields from alias, keep snapshot-specific tiers
+    if (aliasData.pricing) {
+      const aliasPricing = aliasData.pricing as Record<string, unknown>;
+      if (!snapshotEntry.pricing) {
+        snapshotEntry.pricing = aliasPricing as Record<string, number>;
+      } else {
+        // Inherit flat pricing fields (input, output, etc.) that snapshot lacks
+        for (const pk of [
+          "input",
+          "output",
+          "cached_input",
+          "cache_write",
+          "batch_input",
+          "batch_output",
+        ]) {
+          if (
+            (snapshotEntry.pricing as Record<string, unknown>)[pk] == null &&
+            aliasPricing[pk] != null
+          ) {
+            (snapshotEntry.pricing as Record<string, unknown>)[pk] =
+              aliasPricing[pk];
+          }
+        }
+      }
     }
     if (!snapshotEntry.capabilities && aliasData.capabilities) {
       snapshotEntry.capabilities = aliasData.capabilities as Record<

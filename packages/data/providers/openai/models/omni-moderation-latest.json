@@ -1,0 +1,37 @@
+{
+  "id": "omni-moderation-latest",
+  "name": "omni-moderation",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Moderation models are free models designed to detect harmful content.",
+  "status": "active",
+  "model_type": "moderation",
+  "performance": 3,
+  "speed": 3,
+  "tagline": "Identify potentially harmful content in text and images",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Moderation",
+        "unit": "",
+        "columns": ["Cost"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [null]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["batch", "moderation"],
+  "snapshots": ["omni-moderation-2024-09-26"]
+}

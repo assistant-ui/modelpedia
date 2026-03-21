@@ -5,12 +5,25 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "o1",
+  "description": "The o1 series of models are trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 200000,
   "max_output_tokens": 100000,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
   "alias": "o1",
   "performance": 4,
+  "reasoning": 4,
   "speed": 1,
+  "tagline": "The o1 series of models are trained with reinforcement learning to perform complex reasoning.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -20,12 +33,24 @@
     "output": 60,
     "cached_input": 7.5,
     "batch_input": 7.5,
-    "batch_output": 30
+    "batch_output": 30,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [15, 7.5, 60]
+          },
+          {
+            "label": "Batch",
+            "values": [7.5, null, 30]
+          }
+        ]
+      }
+    ]
   },
-  "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding.",
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true,
-    "reasoning": true
-  }
+  "endpoints": ["chat_completions", "responses", "assistants", "batch"]
 }

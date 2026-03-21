@@ -3,11 +3,65 @@
   "name": "gpt-image-1-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-image-1",
+  "description": "A cost-efficient version of GPT Image 1. It is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.",
   "status": "active",
+  "model_type": "image",
+  "performance": 4,
+  "speed": 1,
+  "tagline": "A cost-efficient version of GPT Image 1",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
   "pricing": {
     "input": 2,
-    "cached_input": 0.2
-  }
+    "cached_input": 0.2,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2, 0.2, null]
+          }
+        ]
+      },
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2.5, 0.25, 8]
+          }
+        ]
+      },
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Quality", "1024x1024", "1024x1792", "1792x1024"],
+        "rows": [
+          {
+            "label": "Low",
+            "values": [null, 0.005, 0.006, 0.006]
+          },
+          {
+            "label": "Medium",
+            "values": [null, 0.011, 0.015, 0.015]
+          },
+          {
+            "label": "High",
+            "values": [null, 0.036, 0.052, 0.052]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["batch", "image_edit", "image_generation"],
+  "snapshots": ["gpt-image-1-mini"]
 }

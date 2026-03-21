@@ -7,11 +7,15 @@
   "family": "gpt-realtime",
   "description": "This is our first general-availability realtime model, capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 32000,
   "max_output_tokens": 4096,
-  "model_type": "other",
   "performance": 5,
   "speed": 4,
+  "tagline": "Model capable of realtime text and audio inputs and outputs",
+  "capabilities": {
+    "tool_call": true
+  },
   "modalities": {
     "input": ["text", "audio", "image"],
     "output": ["text", "audio"]
@@ -19,7 +23,43 @@
   "pricing": {
     "input": 4,
     "output": 16,
-    "cached_input": 0.4
+    "cached_input": 0.4,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [4, 0.4, 16]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [32, 0.4, 64]
+          }
+        ]
+      },
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 0.5, null]
+          }
+        ]
+      }
+    ]
   },
+  "endpoints": ["realtime"],
   "snapshots": ["gpt-realtime-2025-08-28"]
 }

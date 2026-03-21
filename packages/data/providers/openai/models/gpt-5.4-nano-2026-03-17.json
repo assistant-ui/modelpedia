@@ -5,15 +5,25 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-5.4",
+  "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
   "status": "active",
+  "knowledge_cutoff": "2025-08",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "max_input_tokens": 272000,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
   "alias": "gpt-5.4-nano",
   "performance": 3,
+  "reasoning": 3,
   "speed": 4,
+  "tagline": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
   "capabilities": {
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -24,10 +34,28 @@
     "output": 1.25,
     "cached_input": 0.02,
     "batch_input": 0.1,
-    "batch_output": 0.625
+    "batch_output": 0.625,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.2, 0.02, 1.25]
+          },
+          {
+            "label": "Batch",
+            "values": [0.1, 0.01, 0.625]
+          },
+          {
+            "label": "Flex",
+            "values": [0.1, 0.01, 0.625]
+          }
+        ]
+      }
+    ]
   },
-  "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
-  "context_window": 400000,
-  "max_output_tokens": 128000,
-  "model_type": "reasoning"
+  "endpoints": ["responses", "chat_completions", "batch"]
 }

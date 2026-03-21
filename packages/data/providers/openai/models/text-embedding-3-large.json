@@ -1,0 +1,38 @@
+{
+  "id": "text-embedding-3-large",
+  "name": "text-embedding-3-large",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "text-embedding-3-large is our most capable embedding model for both english and non-english tasks.",
+  "status": "active",
+  "model_type": "embed",
+  "performance": 3,
+  "speed": 2,
+  "tagline": "Most capable embedding model",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Embeddings",
+        "unit": "",
+        "columns": ["Cost"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.13]
+          },
+          {
+            "label": "Batch",
+            "values": [0.065]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["embeddings", "batch"],
+  "snapshots": ["text-embedding-3-large"]
+}

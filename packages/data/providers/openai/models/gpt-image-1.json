@@ -3,19 +3,65 @@
   "name": "GPT Image 1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-image-1",
   "description": "GPT Image 1 is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.",
   "status": "active",
-  "model_type": "other",
+  "model_type": "image",
   "performance": 4,
   "speed": 1,
+  "tagline": "Our previous image generation model",
   "modalities": {
     "input": ["text", "image"],
     "output": ["image"]
   },
   "pricing": {
     "input": 5,
-    "cached_input": 1.25
-  }
+    "cached_input": 1.25,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 1.25, null]
+          }
+        ]
+      },
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [10, 2.5, 40]
+          }
+        ]
+      },
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Quality", "1024x1024", "1024x1536", "1536x1024"],
+        "rows": [
+          {
+            "label": "Low",
+            "values": [null, 0.011, 0.016, 0.016]
+          },
+          {
+            "label": "Medium",
+            "values": [null, 0.042, 0.063, 0.063]
+          },
+          {
+            "label": "High",
+            "values": [null, 0.167, 0.25, 0.25]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["batch", "image_generation", "image_edit", "responses"],
+  "snapshots": ["gpt-image-1"]
 }
