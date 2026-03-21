@@ -3,7 +3,7 @@
   "name": "gpt-5.4-mini-2026-03-17",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-5.4",
   "status": "active",
   "alias": "gpt-5.4-mini",
@@ -18,5 +18,16 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
-  }
+  },
+  "pricing": {
+    "input": 0.75,
+    "output": 4.5,
+    "cached_input": 0.075,
+    "batch_input": 0.375,
+    "batch_output": 2.25
+  },
+  "description": "GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "model_type": "reasoning"
 }

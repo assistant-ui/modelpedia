@@ -6,7 +6,7 @@
   "last_updated": "2026-03-21",
   "family": "codestral",
   "status": "deprecated",
-  "deprecation_date": "December 2, 2024",
+  "deprecation_date": "2024-12-02",
   "context_window": 32000,
   "alias": "codestral",
   "capabilities": {

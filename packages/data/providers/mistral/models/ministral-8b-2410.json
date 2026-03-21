@@ -6,7 +6,7 @@
   "last_updated": "2026-03-21",
   "family": "ministral",
   "status": "deprecated",
-  "deprecation_date": "December 2, 2025",
+  "deprecation_date": "2025-12-02",
   "context_window": 128000,
   "alias": "ministral-8b",
   "capabilities": {

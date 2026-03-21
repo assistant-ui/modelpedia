@@ -3,7 +3,7 @@
   "name": "gpt-4o-2024-08-06",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-4o",
   "status": "active",
   "context_window": 128000,
@@ -14,5 +14,18 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 10,
+    "cached_input": 1.25,
+    "batch_input": 1.25,
+    "batch_output": 5
+  },
+  "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
   }
 }

@@ -51,12 +51,17 @@ async function main() {
   const compare = parseCompareEntries(js);
   const detail = parseDetailEntries(js);
 
-  // Map snapshot compare data to aliases so both get specs
-  for (const [snapName, snapData] of compare) {
-    if (!/\d{4}-\d{2}-\d{2}$/.test(snapName)) continue;
-    const alias = snapName.replace(/-\d{4}-\d{2}-\d{2}$/, "");
-    if (!compare.has(alias)) {
-      compare.set(alias, snapData);
+  const allNames = new Set([
+    ...pricing.keys(),
+    ...compare.keys(),
+    ...detail.keys(),
+  ]);
+
+  // Sync compare data: snapshot → alias (so alias gets specs if only snapshot has them)
+  for (const [name, data] of [...compare]) {
+    const alias = name.replace(/-\d{4}-\d{2}-\d{2}$/, "");
+    if (alias !== name && !compare.has(alias)) {
+      compare.set(alias, data);
     }
   }
 
@@ -64,11 +69,6 @@ async function main() {
     `Parsed: ${pricing.size} pricing, ${compare.size} compare, ${detail.size} detail entries`,
   );
 
-  const allNames = new Set([
-    ...pricing.keys(),
-    ...compare.keys(),
-    ...detail.keys(),
-  ]);
   const entries: ModelEntry[] = [];
 
   for (const name of allNames) {

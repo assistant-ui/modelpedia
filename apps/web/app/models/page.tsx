@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { ModelList } from "@/components/model-list";
-import { Breadcrumb, PageHeader } from "@/components/views";
+import { PageHeader } from "@/components/ui/page-header";
 import { allModels, getProvider } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Models — AI Model Registry",
+  title: "Models",
+  description:
+    "Search and filter AI models across all providers. Compare context windows, pricing, and capabilities.",
 };
 
 export default async function ModelsPage({
@@ -29,6 +31,11 @@ export default async function ModelsPage({
 
   return (
     <>
+      <PageHeader
+        title="Models"
+        count={items.length}
+        sub="Browse and search all AI models across providers"
+      />
       <ModelList models={items} showProvider searchable initialQuery={q} />
     </>
   );

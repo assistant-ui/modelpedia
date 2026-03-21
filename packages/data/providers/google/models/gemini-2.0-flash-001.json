@@ -6,7 +6,7 @@
   "last_updated": "2026-03-21",
   "family": "gemini-2.0",
   "status": "active",
-  "deprecation_date": "June 1, 2026",
+  "deprecation_date": "2026-06-01",
   "capabilities": {
     "streaming": true,
     "vision": true

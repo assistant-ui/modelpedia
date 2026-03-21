@@ -16,5 +16,12 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "snapshots": ["o1-preview-2024-09-12"]
+  "snapshots": ["o1-preview-2024-09-12"],
+  "pricing": {
+    "input": 15,
+    "output": 60,
+    "cached_input": 7.5,
+    "batch_input": 7.5,
+    "batch_output": 30
+  }
 }

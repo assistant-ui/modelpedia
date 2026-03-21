@@ -7,7 +7,7 @@
   "family": "claude-haiku",
   "description": "The fastest model with near-frontier intelligence",
   "status": "active",
-  "knowledge_cutoff": "Feb 2025",
+  "knowledge_cutoff": "2025-02",
   "context_window": 200000,
   "max_output_tokens": 64000,
   "speed": 5,

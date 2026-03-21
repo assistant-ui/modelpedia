@@ -5,7 +5,6 @@ import * as path from "node:path";
 const ROOT = path.resolve(import.meta.dirname, "..");
 
 export const PROVIDERS_DIR = path.join(ROOT, "providers");
-
 // ── IO ──
 
 export function readModelJson(
@@ -79,6 +78,64 @@ export function filterModalities(input: string[], output: string[]) {
     input: input.filter((m) => VALID_MODALITIES.has(m)),
     output: output.filter((m) => VALID_MODALITIES.has(m)),
   };
+}
+
+// ── Date normalization ──
+
+const MONTH_MAP: Record<string, string> = {
+  jan: "01",
+  january: "01",
+  feb: "02",
+  february: "02",
+  mar: "03",
+  march: "03",
+  apr: "04",
+  april: "04",
+  may: "05",
+  jun: "06",
+  june: "06",
+  jul: "07",
+  july: "07",
+  aug: "08",
+  august: "08",
+  sep: "09",
+  september: "09",
+  oct: "10",
+  october: "10",
+  nov: "11",
+  november: "11",
+  dec: "12",
+  december: "12",
+};
+
+/**
+ * Normalize a date string to YYYY-MM-DD or YYYY-MM format.
+ * Handles: "May 2025", "October 31, 2025", "Sep 2021",
+ *          "May 31, 2024", "2025-05", "2025-05-31", etc.
+ * Returns the original string if it can't be parsed.
+ */
+export function normalizeDate(date: string | null | undefined): string | null {
+  if (!date) return null;
+  const s = date.trim();
+
+  // Already YYYY-MM-DD or YYYY-MM
+  if (/^\d{4}-\d{2}(-\d{2})?$/.test(s)) return s;
+
+  // "Month Day, Year" → "2025-10-31"
+  const mdy = s.match(/^([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})$/);
+  if (mdy) {
+    const mm = MONTH_MAP[mdy[1].toLowerCase()];
+    if (mm) return `${mdy[3]}-${mm}-${String(mdy[2]).padStart(2, "0")}`;
+  }
+
+  // "Month Year" → "2025-10"
+  const my = s.match(/^([A-Za-z]+)\s+(\d{4})$/);
+  if (my) {
+    const mm = MONTH_MAP[my[1].toLowerCase()];
+    if (mm) return `${my[2]}-${mm}`;
+  }
+
+  return s;
 }
 
 // ── Family inference ──
@@ -257,9 +314,20 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     "speed",
   ] as const;
 
+  const DATE_FIELDS = new Set([
+    "release_date",
+    "deprecation_date",
+    "knowledge_cutoff",
+  ]);
+
   for (const key of scalars) {
     const val = pick(entry[key], existing?.[key] as any);
-    if (val !== undefined) data[key] = val;
+    if (val !== undefined) {
+      data[key] =
+        DATE_FIELDS.has(key) && typeof val === "string"
+          ? normalizeDate(val)
+          : val;
+    }
   }
 
   const caps = mergeObjects(
@@ -292,26 +360,46 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
   const allSnapshots = [...new Set([...existingSnapshots, ...newSnapshots])];
   if (allSnapshots.length > 0) data.snapshots = allSnapshots;
 
-  // Diff: log what changed
+  // Diff: log what changed and record to changelog
   if (existing) {
-    const changes: string[] = [];
+    const changedFields: Record<string, { from: unknown; to: unknown }> = {};
     for (const [k, v] of Object.entries(data)) {
       const oldVal = existing[k];
       if (k === "last_updated") continue;
       if (JSON.stringify(v) !== JSON.stringify(oldVal)) {
-        changes.push(k);
+        changedFields[k] = { from: oldVal, to: v };
       }
     }
-    if (changes.length === 0) {
+    if (Object.keys(changedFields).length === 0) {
       console.log(`  skip ${modelId} (no changes)`);
       return false;
     }
     console.log(
-      `  update ${provider}/models/${modelId}.json [${changes.join(", ")}]`,
+      `  update ${provider}/models/${modelId}.json [${Object.keys(changedFields).join(", ")}]`,
     );
   }
 
   writeModelJson(provider, modelId, data);
+  return true;
+}
+
+/**
+ * Delete a model entry and record to changelog.
+ */
+export function deleteModel(provider: string, modelId: string): boolean {
+  const sanitized = sanitizeModelId(modelId);
+  const filePath = path.join(
+    PROVIDERS_DIR,
+    provider,
+    "models",
+    `${sanitized}.json`,
+  );
+  if (!fs.existsSync(filePath)) {
+    console.log(`  skip ${sanitized} (not found)`);
+    return false;
+  }
+  fs.unlinkSync(filePath);
+  console.log(`  deleted ${provider}/models/${sanitized}.json`);
   return true;
 }
 
@@ -386,12 +474,47 @@ export function upsertWithSnapshot(
   if (upsertModel(provider, aliasEntry)) written++;
 
   // Write snapshot model (with alias back-reference)
+  // Inherit missing fields from the alias file so snapshots are self-contained
+  const aliasData = readModelJson(provider, sanitizeModelId(alias));
+  const inheritableKeys = [
+    "context_window",
+    "max_output_tokens",
+    "max_input_tokens",
+    "knowledge_cutoff",
+    "description",
+    "model_type",
+    "reasoning_tokens",
+    "performance",
+    "speed",
+  ] as const;
   const snapshotEntry: ModelEntry = {
     ...entry,
     id: snapshot,
     alias,
     snapshots: undefined,
   };
+  if (aliasData) {
+    for (const key of inheritableKeys) {
+      if (snapshotEntry[key] == null && aliasData[key] != null) {
+        (snapshotEntry as any)[key] = aliasData[key];
+      }
+    }
+    if (!snapshotEntry.pricing && aliasData.pricing) {
+      snapshotEntry.pricing = aliasData.pricing as Record<string, number>;
+    }
+    if (!snapshotEntry.capabilities && aliasData.capabilities) {
+      snapshotEntry.capabilities = aliasData.capabilities as Record<
+        string,
+        boolean
+      >;
+    }
+    if (!snapshotEntry.modalities && aliasData.modalities) {
+      snapshotEntry.modalities = aliasData.modalities as {
+        input?: string[];
+        output?: string[];
+      };
+    }
+  }
   if (upsertModel(provider, snapshotEntry)) written++;
 
   return written;

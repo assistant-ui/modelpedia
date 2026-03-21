@@ -1,6 +1,7 @@
 "use client";
 
 import { Ellipsis } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import {
   Dropdown,
   DropdownContent,
@@ -20,14 +21,20 @@ export function ProviderLinks({
   return (
     <Dropdown>
       <DropdownTrigger>
-        <button className="flex items-center rounded-md p-1 text-muted-foreground transition-colors duration-200 hover:bg-accent hover:text-foreground">
+        <Button variant="ghost" size="icon">
           <Ellipsis size={16} />
-        </button>
+        </Button>
       </DropdownTrigger>
       <DropdownContent>
-        <DropdownItem href={url}>Website</DropdownItem>
-        <DropdownItem href={docsUrl}>Docs</DropdownItem>
-        <DropdownItem href={pricingUrl}>Pricing</DropdownItem>
+        <DropdownItem href={url} external>
+          Website
+        </DropdownItem>
+        <DropdownItem href={docsUrl} external>
+          Docs
+        </DropdownItem>
+        <DropdownItem href={pricingUrl} external>
+          Pricing
+        </DropdownItem>
       </DropdownContent>
     </Dropdown>
   );

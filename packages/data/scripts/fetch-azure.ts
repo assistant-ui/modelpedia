@@ -37,7 +37,7 @@ async function fetchModels(): Promise<AzureModel[]> {
 
   // Extract main content text
   const mainMatch = html.match(/<main[^>]*>([\s\S]*?)<\/main>/);
-  const mainText = mainMatch
+  const _mainText = mainMatch
     ? mainMatch[1].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ")
     : "";
 

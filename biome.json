@@ -30,7 +30,8 @@
         "noImplicitAnyLet": "off",
         "noAssignInExpressions": "off",
         "noDoubleEquals": "off",
-        "noPrototypeBuiltins": "off"
+        "noPrototypeBuiltins": "off",
+        "noDocumentCookie": "off"
       },
       "style": {
         "useImportType": "off",
@@ -45,7 +46,9 @@
             "ignoreRestSiblings": true
           }
         },
-        "noSwitchDeclarations": "off"
+        "useExhaustiveDependencies": "warn",
+        "noSwitchDeclarations": "off",
+        "useUniqueElementIds": "off"
       },
       "complexity": {
         "noForEach": "off",
@@ -57,12 +60,19 @@
         "useKeyWithClickEvents": "off",
         "noSvgWithoutTitle": "off",
         "noStaticElementInteractions": "off",
+        "useFocusableInteractive": "off",
         "useButtonType": "off",
         "useSemanticElements": "off",
-        "useHtmlLang": "off"
+        "useAriaPropsForRole": "off",
+        "useAnchorContent": "off",
+        "noLabelWithoutControl": "off",
+        "noRedundantAlt": "off"
       },
       "security": {
         "noDangerouslySetInnerHtml": "off"
+      },
+      "performance": {
+        "noImgElement": "off"
       },
       "nursery": {
         "useSortedClasses": {

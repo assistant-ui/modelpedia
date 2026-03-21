@@ -35,7 +35,8 @@ const MODELS: ModelEntry[] = [
     id: "kimi-k2-thinking",
     name: "Kimi K2 Thinking",
     family: "kimi",
-    description: "Long-term thinking, multi-step tool usage, complex problem solving.",
+    description:
+      "Long-term thinking, multi-step tool usage, complex problem solving.",
     context_window: 256000,
     reasoning_tokens: true,
     capabilities: { streaming: true, tool_call: true, reasoning: true },

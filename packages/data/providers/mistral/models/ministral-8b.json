@@ -20,5 +20,5 @@
     "output": 0.15
   },
   "snapshots": ["ministral-8b-2512", "ministral-8b-2410"],
-  "deprecation_date": "December 2, 2025"
+  "deprecation_date": "2025-12-02"
 }

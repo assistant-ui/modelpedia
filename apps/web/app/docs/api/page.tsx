@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { ApiEndpoint } from "@/components/api-endpoint";
-import { Row } from "@/components/row";
-import { Breadcrumb, PageHeader } from "@/components/views";
+import { PageHeader } from "@/components/ui/page-header";
+import { Row } from "@/components/ui/row";
 
 export const metadata: Metadata = {
-  title: "API — AI Model Registry",
+  title: "API",
+  description:
+    "REST API reference for querying AI models, providers, and capabilities. JSON, no auth, CORS enabled.",
 };
 
 const API_BASE = "https://api.ai-model.dev";
@@ -110,6 +112,10 @@ const sections: {
 export default function ApiDocsPage() {
   return (
     <>
+      <PageHeader
+        title="API Reference"
+        sub="REST API for querying models, providers, and capabilities"
+      />
       <div className="mb-8 overflow-hidden rounded-md ring-1 ring-border">
         <div className="flex items-center justify-between px-4 py-3">
           <span className="text-muted-foreground text-sm">Base URL</span>

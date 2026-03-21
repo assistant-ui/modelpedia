@@ -6,7 +6,7 @@
   "last_updated": "2026-03-20",
   "family": "claude-opus",
   "status": "active",
-  "knowledge_cutoff": "May 2025",
+  "knowledge_cutoff": "2025-05",
   "context_window": 200000,
   "max_output_tokens": 64000,
   "speed": 3,

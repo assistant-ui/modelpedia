@@ -11,7 +11,7 @@ import {
  * 2. /models API (optional, needs key — for release dates)
  */
 
-const DOCS_URL = "https://api-docs.deepseek.com/quick_start/pricing";
+const _DOCS_URL = "https://api-docs.deepseek.com/quick_start/pricing";
 
 // Known models from docs
 const MODELS: ModelEntry[] = [

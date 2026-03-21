@@ -3,7 +3,7 @@
   "name": "o4-mini-2025-04-16",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "o4",
   "status": "active",
   "context_window": 200000,
@@ -14,5 +14,18 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.1,
+    "output": 4.4,
+    "cached_input": 0.275,
+    "batch_input": 0.55,
+    "batch_output": 2.2
+  },
+  "description": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
   }
 }

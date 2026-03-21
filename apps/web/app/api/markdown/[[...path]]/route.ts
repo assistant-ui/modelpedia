@@ -1,6 +1,12 @@
 import { NextResponse } from "next/server";
-import { formatTokens } from "@/components/views";
-import { allModels, getModel, getProvider, providers } from "@/lib/data";
+import {
+  allModels,
+  getChangelog,
+  getModel,
+  getProvider,
+  providers,
+} from "@/lib/data";
+import { formatTokens } from "@/lib/format";
 
 export async function GET(
   _req: Request,
@@ -19,13 +25,22 @@ export async function GET(
     md = renderProviders();
   } else if (pathname === "/compare") {
     md = renderCompare();
+  } else if (pathname === "/changes") {
+    md = renderChanges();
   } else if (pathname === "/docs/api") {
     md = renderApiDocs();
   } else {
+    // /:provider/:model_id/changes (model changes)
+    const changesMatch = pathname.match(/^\/([^/]+)\/(.+)\/changes$/);
+    if (changesMatch) {
+      md = renderModelChanges(changesMatch[1], changesMatch[2]);
+    }
     // /:provider/:model_id (model detail)
-    const modelMatch = pathname.match(/^\/([^/]+)\/(.+)$/);
-    if (modelMatch) {
-      md = renderModel(modelMatch[1], modelMatch[2]);
+    if (!md) {
+      const modelMatch = pathname.match(/^\/([^/]+)\/(.+)$/);
+      if (modelMatch) {
+        md = renderModel(modelMatch[1], modelMatch[2]);
+      }
     }
     // /:provider (provider detail)
     if (!md) {
@@ -108,7 +123,9 @@ function renderModels(): string {
     const ctx = m.context_window != null ? formatTokens(m.context_window) : "—";
     const inp = m.pricing?.input != null ? `$${m.pricing.input}` : "—";
     const out = m.pricing?.output != null ? `$${m.pricing.output}` : "—";
-    lines.push(`| ${m.name} | ${p?.name ?? m.provider} | ${ctx} | ${inp} | ${out} |`);
+    lines.push(
+      `| ${m.name} | ${p?.name ?? m.provider} | ${ctx} | ${inp} | ${out} |`,
+    );
   }
 
   return lines.join("\n");
@@ -143,6 +160,41 @@ function renderCompare(): string {
     "",
     "Or browse the compare page at https://ai-model.dev/compare",
   ].join("\n");
+}
+
+function renderChanges(): string {
+  const changelog = getChangelog();
+  const lines = [
+    "# Changes",
+    "",
+    `${changelog.length} total entries.`,
+    "",
+    "| Date | Provider | Model | Action | Changes |",
+    "|------|----------|-------|--------|---------|",
+  ];
+
+  for (const entry of changelog.slice(0, 100)) {
+    const date = new Date(entry.ts).toISOString().slice(0, 10);
+    const provider = getProvider(entry.provider);
+    const provName = provider?.name ?? entry.provider;
+    const changes = entry.changes
+      ? Object.entries(entry.changes)
+          .map(
+            ([k, { from, to }]) =>
+              `${k}: ${JSON.stringify(from)} → ${JSON.stringify(to)}`,
+          )
+          .join("; ")
+      : "—";
+    lines.push(
+      `| ${date} | ${provName} | ${entry.model} | ${entry.action} | ${changes} |`,
+    );
+  }
+
+  if (changelog.length > 100) {
+    lines.push("", `_Showing 100 of ${changelog.length} entries._`);
+  }
+
+  return lines.join("\n");
 }
 
 function renderApiDocs(): string {
@@ -187,6 +239,46 @@ function renderApiDocs(): string {
     "- Success: `{ data, meta: { total, limit, offset } }`",
     "- Error: `{ error: { message, status } }`",
   ].join("\n");
+}
+
+function renderModelChanges(
+  providerId: string,
+  modelId: string,
+): string | null {
+  const model = getModel(providerId, modelId);
+  if (!model) return null;
+  const provider = getProvider(providerId);
+  const changelog = getChangelog().filter(
+    (e) => e.provider === providerId && e.model === modelId,
+  );
+
+  const lines = [
+    `# Changes — ${model.name}`,
+    "",
+    `Provider: ${provider?.name ?? providerId}`,
+    `${changelog.length} entries.`,
+    "",
+  ];
+
+  if (changelog.length === 0) {
+    lines.push("No changes recorded for this model.");
+  } else {
+    lines.push("| Date | Action | Changes |", "|------|--------|---------|");
+    for (const entry of changelog) {
+      const date = new Date(entry.ts).toISOString().slice(0, 10);
+      const changes = entry.changes
+        ? Object.entries(entry.changes)
+            .map(
+              ([k, { from, to }]) =>
+                `${k}: ${JSON.stringify(from)} → ${JSON.stringify(to)}`,
+            )
+            .join("; ")
+        : "—";
+      lines.push(`| ${date} | ${entry.action} | ${changes} |`);
+    }
+  }
+
+  return lines.join("\n");
 }
 
 function renderModel(provider: string, id: string): string | null {

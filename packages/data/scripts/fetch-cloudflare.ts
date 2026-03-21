@@ -2,7 +2,6 @@ import {
   inferFamily,
   type ModelEntry,
   runGenerate,
-  sanitizeModelId,
   upsertWithSnapshot,
 } from "./shared.ts";
 
@@ -58,7 +57,7 @@ function extractShortName(modelId: string): string {
 }
 
 // Text generation models we care about
-const TEXT_GEN_KEYWORDS = [
+const _TEXT_GEN_KEYWORDS = [
   "llama",
   "gemma",
   "mistral",

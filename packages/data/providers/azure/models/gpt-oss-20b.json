@@ -5,7 +5,7 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-oss",
-  "knowledge_cutoff": "May 31, 2024",
+  "knowledge_cutoff": "2024-05-31",
   "context_window": 131072,
   "max_output_tokens": 131072,
   "capabilities": {

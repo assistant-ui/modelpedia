@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { fuzzyMatch } from "@/lib/search";
 
 interface PickerModel {
   id: string;
@@ -32,32 +33,6 @@ export function ModelPicker({
     : null;
 
   const filtered = query ? fuzzySearch(models, query, 30) : [];
-
-  function fuzzyMatch(text: string, pattern: string): number {
-    let ti = 0;
-    let pi = 0;
-    let score = 0;
-    let consecutive = 0;
-    while (ti < text.length && pi < pattern.length) {
-      if (text[ti] === pattern[pi]) {
-        score += 1 + consecutive;
-        consecutive++;
-        pi++;
-        if (
-          ti === 0 ||
-          text[ti - 1] === "-" ||
-          text[ti - 1] === " " ||
-          text[ti - 1] === "/"
-        ) {
-          score += 3;
-        }
-      } else {
-        consecutive = 0;
-      }
-      ti++;
-    }
-    return pi === pattern.length ? score : -1;
-  }
 
   function fuzzySearch(items: PickerModel[], q: string, limit: number) {
     const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
@@ -109,7 +84,7 @@ export function ModelPicker({
     };
     document.addEventListener("mousedown", handler);
     return () => document.removeEventListener("mousedown", handler);
-  }, [visible]);
+  }, [visible, hide]);
 
   function select(key: string | null) {
     onSelect(key);
@@ -151,7 +126,7 @@ export function ModelPicker({
               className="w-full rounded-md bg-background px-3 py-2 text-foreground text-sm placeholder-muted-foreground ring-1 ring-border transition-[box-shadow,ring-color] duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             />
           </div>
-          <div className="max-h-60 overflow-y-auto">
+          <div className="max-h-60 overflow-y-auto overscroll-contain">
             {selected && (
               <button
                 onClick={() => select(null)}

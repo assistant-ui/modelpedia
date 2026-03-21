@@ -1,70 +1,38 @@
-import Link from "next/link";
+import type { Metadata } from "next";
 import { ModelList } from "@/components/model-list";
-import { Divider, ProviderIcon } from "@/components/views";
-import type { Model } from "@/lib/data";
-import { allModels, getProvider, providers } from "@/lib/data";
+import { ProviderIcon } from "@/components/provider-icon";
+import { ButtonLink } from "@/components/ui/button";
+import { Divider } from "@/components/ui/divider";
+import {
+  allModels,
+  getChangelog,
+  getModel,
+  getProvider,
+  providers,
+} from "@/lib/data";
 
-/** Pick recent models, round-robin across providers for diversity */
-function recentModels(models: Model[], count: number): Model[] {
-  const byProvider = new Map<string, Model[]>();
-  for (const m of [...models].sort((a, b) =>
-    (b.last_updated ?? "").localeCompare(a.last_updated ?? ""),
-  )) {
-    const list = byProvider.get(m.provider) ?? [];
-    list.push(m);
-    byProvider.set(m.provider, list);
-  }
-
-  const result: Model[] = [];
-  const iterators = [...byProvider.values()].map((list) =>
-    list[Symbol.iterator](),
-  );
-  let i = 0;
-  while (result.length < count && iterators.length > 0) {
-    const idx = i % iterators.length;
-    const next = iterators[idx].next();
-    if (next.done) {
-      iterators.splice(idx, 1);
-      continue;
-    }
-    result.push(next.value);
-    i++;
-  }
-  return result;
-}
-
-function toModelItem(m: Model) {
-  const p = getProvider(m.provider);
-  return {
-    id: m.id,
-    name: m.name,
-    provider: m.provider,
-    status: m.status,
-    context_window: m.context_window,
-    capabilities: m.capabilities as Record<string, boolean> | undefined,
-    pricing: m.pricing,
-    providerIcon: p?.icon,
-  };
-}
+export const metadata: Metadata = {
+  title: "Open catalog of AI models",
+  description:
+    "Browse, compare, and search AI models across providers. Specs, pricing, and capabilities in one place.",
+};
 
 export default function HomePage() {
   const withPricing = allModels.filter((m) => m.pricing?.input != null).length;
-  const activeModels = allModels.filter((m) => m.status !== "deprecated");
   const families = new Set(allModels.map((m) => m.family).filter(Boolean));
+  const recentChanges = getChangelog().slice(0, 10);
 
   return (
     <>
-      {/* Hero */}
       <div className="mb-10">
-        <h1 className="font-medium text-2xl text-foreground tracking-tight">
+        <h1 className="text-balance font-medium text-2xl text-foreground tracking-tight">
           AI Model Registry
         </h1>
-        <p className="mt-2 text-muted-foreground leading-relaxed">
+        <p className="mt-2 text-balance text-muted-foreground leading-relaxed">
           Open catalog of AI models across providers. Compare specs, pricing,
           and capabilities.
         </p>
 
-        {/* Stats */}
         <div className="mt-6 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-4">
           <div className="bg-background px-4 py-4">
             <div className="font-medium font-mono text-2xl text-foreground">
@@ -94,38 +62,24 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Quick links */}
-        <div className="mt-4 flex gap-2">
-          <Link
-            href="/models"
-            className="rounded-md bg-muted px-3 py-1.5 text-foreground text-xs ring-1 ring-border transition-colors duration-200 hover:bg-accent"
-          >
+        <div className="mt-4 flex flex-wrap gap-2">
+          <ButtonLink href="/models" size="sm">
             Browse all models
-          </Link>
-          <Link
-            href="/compare"
-            className="rounded-md bg-muted px-3 py-1.5 text-foreground text-xs ring-1 ring-border transition-colors duration-200 hover:bg-accent"
-          >
+          </ButtonLink>
+          <ButtonLink href="/compare" size="sm">
             Compare models
-          </Link>
-          <Link
-            href="/docs/api"
-            className="rounded-md bg-muted px-3 py-1.5 text-foreground text-xs ring-1 ring-border transition-colors duration-200 hover:bg-accent"
-          >
+          </ButtonLink>
+          <ButtonLink href="/docs/api" size="sm">
             API Reference
-          </Link>
+          </ButtonLink>
         </div>
       </div>
 
-      {/* Providers */}
       <div className="mb-4 text-muted-foreground text-sm">Providers</div>
       <div className="grid grid-cols-1 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-2 md:grid-cols-3">
         {[...providers]
           .sort((a, b) => a.name.localeCompare(b.name))
           .map((p) => {
-            const active = p.models.filter(
-              (m) => m.status !== "deprecated",
-            ).length;
             return (
               <a
                 key={p.id}
@@ -148,12 +102,38 @@ export default function HomePage() {
 
       <Divider />
 
-      {/* Recently updated */}
-      <div className="mb-4 text-muted-foreground text-sm">Recently updated</div>
+      <div className="mb-4 text-muted-foreground text-sm">Recent changes</div>
       <ModelList
-        models={recentModels(activeModels, 20).map(toModelItem)}
+        models={recentChanges
+          .map((entry) => {
+            const model = getModel(entry.provider, entry.model);
+            const p = getProvider(entry.provider);
+            return {
+              id: model?.id ?? entry.model,
+              name: model?.name ?? entry.model,
+              provider: entry.provider,
+              status: model?.status,
+              context_window: model?.context_window,
+              capabilities: model?.capabilities as
+                | Record<string, boolean>
+                | undefined,
+              pricing: model?.pricing,
+              providerIcon: p?.icon,
+            };
+          })
+          .filter(
+            (m, i, arr) =>
+              arr.findIndex(
+                (x) => x.provider === m.provider && x.id === m.id,
+              ) === i,
+          )}
         showProvider
       />
+      <div className="mt-4 flex justify-center">
+        <ButtonLink href="/changes" variant="outline" size="sm">
+          View all changes
+        </ButtonLink>
+      </div>
     </>
   );
 }

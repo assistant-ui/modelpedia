@@ -16,6 +16,7 @@ import {
   getModelsByFamily,
   getModelsByProvider,
 } from "ai-model";
+import { normalizeModelId } from "./search";
 
 export type { Model, ModelData, Provider, ProviderWithModels } from "ai-model";
 
@@ -68,9 +69,35 @@ export interface EnrichedModel extends Model {
   inheritedFrom?: string;
 }
 
+function inheritFields(
+  enriched: EnrichedModel,
+  source: Model,
+  inherited: Set<string>,
+) {
+  for (const field of INHERITABLE_FIELDS) {
+    if (enriched[field] == null && source[field] != null) {
+      (enriched as any)[field] = source[field];
+      inherited.add(field);
+    }
+  }
+  if (source.capabilities) {
+    const caps: Record<string, boolean> = { ...enriched.capabilities };
+    for (const [key, val] of Object.entries(source.capabilities)) {
+      if (caps[key] == null && val != null) {
+        caps[key] = val;
+        inherited.add(`capabilities.${key}`);
+      }
+    }
+    enriched.capabilities = caps;
+  }
+  if (!enriched.modalities && source.modalities) {
+    enriched.modalities = source.modalities;
+    inherited.add("modalities");
+  }
+}
+
 /**
- * Get a model with missing fields filled in from the creator's canonical version.
- * When created_by differs from provider, look up the same model ID under the creator.
+ * Get a model with missing fields filled in from alias and/or creator's canonical version.
  */
 export function getModelWithInheritance(
   provider: string,
@@ -79,47 +106,77 @@ export function getModelWithInheritance(
   const model = getModel(provider, id);
   if (!model) return undefined;
 
-  // Only inherit if created_by differs from provider
-  if (model.created_by === model.provider) return model;
-
-  // Find the canonical model from the creator
-  const canonical = _getModel(model.created_by, model.id);
-  if (!canonical) return model;
-
   const enriched: EnrichedModel = { ...model };
   const inherited = new Set<string>();
 
-  for (const field of INHERITABLE_FIELDS) {
-    if (enriched[field] == null && canonical[field] != null) {
-      // biome-ignore lint/suspicious/noExplicitAny: dynamic field copy
-      (enriched as any)[field] = canonical[field];
-      inherited.add(field);
+  // Inherit from alias model (snapshot → alias within same provider)
+  if (model.alias) {
+    const alias = _getModel(model.provider, model.alias);
+    if (alias) {
+      inheritFields(enriched, alias, inherited);
     }
   }
 
-  // Merge capabilities: fill in missing capability flags
-  if (canonical.capabilities) {
-    const caps: Record<string, boolean> = { ...enriched.capabilities };
-    for (const [key, val] of Object.entries(canonical.capabilities)) {
-      if (caps[key] == null && val != null) {
-        caps[key] = val;
-        inherited.add(`capabilities.${key}`);
-      }
+  // Inherit from creator's canonical model (cross-provider)
+  if (model.created_by !== model.provider) {
+    const canonical =
+      _getModel(model.created_by, model.id) ??
+      _getModel(model.created_by, model.name) ??
+      allModels.find(
+        (m) =>
+          m.provider === model.created_by &&
+          (normalizeModelId(m.id) === normalizeModelId(model.id) ||
+            normalizeModelId(m.id) === normalizeModelId(model.name)),
+      );
+    if (canonical) {
+      inheritFields(enriched, canonical, inherited);
     }
-    enriched.capabilities = caps;
-  }
-
-  // Merge modalities if missing
-  if (!enriched.modalities && canonical.modalities) {
-    enriched.modalities = canonical.modalities;
-    inherited.add("modalities");
   }
 
   if (inherited.size > 0) {
     enriched.inheritedFields = inherited;
-    const creatorProvider = _getProvider(model.created_by);
-    enriched.inheritedFrom = creatorProvider?.name ?? model.created_by;
+    if (model.alias) {
+      enriched.inheritedFrom = model.alias;
+    } else {
+      const creatorProvider = _getProvider(model.created_by);
+      enriched.inheritedFrom = creatorProvider?.name ?? model.created_by;
+    }
   }
 
   return enriched;
+}
+
+// ── Changelog ──
+
+export interface ChangelogEntry {
+  ts: string;
+  provider: string;
+  model: string;
+  action: "create" | "update" | "delete";
+  commit?: string;
+  changes?: Record<string, { from: unknown; to: unknown }>;
+}
+
+let _changelog: ChangelogEntry[] | null = null;
+
+export function getChangelog(): ChangelogEntry[] {
+  if (_changelog) return _changelog;
+  try {
+    const fs = require("node:fs");
+    const path = require("node:path");
+    const filePath = path.resolve(
+      process.cwd(),
+      "../../packages/data/changes/changelog.jsonl",
+    );
+    const content = fs.readFileSync(filePath, "utf-8");
+    _changelog = content
+      .trim()
+      .split("\n")
+      .filter(Boolean)
+      .map((line: string) => JSON.parse(line))
+      .reverse(); // newest first
+    return _changelog!;
+  } catch {
+    return [];
+  }
 }

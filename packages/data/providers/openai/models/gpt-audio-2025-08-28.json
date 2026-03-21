@@ -3,7 +3,7 @@
   "name": "gpt-audio-2025-08-28",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-audio",
   "status": "active",
   "context_window": 128000,
@@ -14,5 +14,14 @@
   "modalities": {
     "input": ["text", "audio"],
     "output": ["text", "audio"]
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  },
+  "description": "The gpt-audio model is our first generally available audio model. It accepts",
+  "model_type": "chat",
+  "capabilities": {
+    "structured_output": true
   }
 }

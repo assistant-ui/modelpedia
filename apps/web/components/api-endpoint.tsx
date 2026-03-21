@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { highlight } from "sugar-high";
+import { Button } from "@/components/ui/button";
 
 export function ApiEndpoint({
   path,
@@ -47,19 +48,21 @@ export function ApiEndpoint({
         {description && (
           <span className="text-muted-foreground text-xs">{description}</span>
         )}
-        <button
+        <Button
+          variant="ghost"
+          size="sm"
+          className="ml-auto shrink-0"
           onClick={handleTry}
-          className="ml-auto shrink-0 rounded bg-muted px-2.5 py-1 text-muted-foreground text-xs transition-colors duration-200 hover:bg-accent hover:text-foreground"
         >
           {loading ? "..." : visible ? "Hide" : "Try"}
-        </button>
+        </Button>
       </div>
       {params && (
         <div className="mx-4 mb-3 overflow-hidden rounded text-xs ring-1 ring-border">
           {params.map(([name, desc], i) => (
             <div
               key={name}
-              className={`grid grid-cols-[1fr_2fr] px-3 py-2 ${i > 0 ? "border-border border-t" : ""}`}
+              className={`grid grid-cols-1 px-3 py-2 sm:grid-cols-[1fr_2fr] ${i > 0 ? "border-border border-t" : ""}`}
             >
               <code className="text-foreground">{name}</code>
               <span className="text-muted-foreground">{desc}</span>

@@ -1,0 +1,74 @@
+name: Generate Changelog
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - "packages/data/providers/**"
+
+permissions:
+  contents: write
+
+jobs:
+  changelog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Detect changes
+        id: detect
+        working-directory: packages/data
+        run: |
+          bun run changes -- HEAD~1 --dry-run
+          OUTPUT=$(bun run changes -- HEAD~1 --dry-run 2>&1)
+          if echo "$OUTPUT" | grep -q "No changes detected"; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate changelog
+        if: steps.detect.outputs.changed == 'true'
+        run: |
+          SHA=$(git rev-parse HEAD)
+
+          cd packages/data
+          bun run changes -- HEAD~1
+
+          cd "$GITHUB_WORKSPACE"
+
+          # Backfill commit SHA into new entries
+          node -e "
+            const fs = require('fs');
+            const f = 'packages/data/changes/changelog.jsonl';
+            const lines = fs.readFileSync(f, 'utf-8').trimEnd().split('\n');
+            const out = lines.map(l => {
+              const e = JSON.parse(l);
+              if (!e.commit) e.commit = '${SHA}';
+              return JSON.stringify(e);
+            }).join('\n') + '\n';
+            fs.writeFileSync(f, out);
+          "
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add packages/data/changes/changelog.jsonl
+          git commit -m "changelog: update for $(git log -1 --format='%h %s')"
+          git push

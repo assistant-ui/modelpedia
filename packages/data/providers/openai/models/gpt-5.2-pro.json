@@ -16,7 +16,8 @@
     "input": 21,
     "output": 168,
     "batch_input": 10.5,
-    "batch_output": 84
+    "batch_output": 84,
+    "cached_input": 0.175
   },
   "context_window": 400000,
   "max_output_tokens": 128000,

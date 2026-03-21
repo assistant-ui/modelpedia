@@ -17,12 +17,12 @@ const MODEL_PAGES = [
   "https://inference-docs.cerebras.ai/models/zai-glm-47.md",
 ];
 
-function parseDollar(s: string): number | undefined {
+function _parseDollar(s: string): number | undefined {
   const m = s.match(/\$([\d.]+)/);
   return m ? Number(m[1]) : undefined;
 }
 
-function parseTokens(s: string): number | undefined {
+function _parseTokens(s: string): number | undefined {
   const m = s.match(/(\d+)[kK]/);
   return m ? Number(m[1]) * 1000 : undefined;
 }

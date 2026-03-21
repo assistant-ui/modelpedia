@@ -18,7 +18,10 @@
   },
   "pricing": {
     "input": 0.15,
-    "output": 0.6
+    "output": 0.6,
+    "cached_input": 1.25,
+    "batch_input": 1.25,
+    "batch_output": 5
   },
   "snapshots": ["gpt-4o-mini-audio-preview-2024-12-17"]
 }

@@ -3,7 +3,7 @@
   "name": "gpt-4.1-mini-2025-04-14",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-4.1",
   "status": "active",
   "context_window": 1047576,
@@ -14,5 +14,18 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.4,
+    "output": 1.6,
+    "cached_input": 0.1,
+    "batch_input": 0.2,
+    "batch_output": 0.8
+  },
+  "description": "GPT-4.1 mini excels at instruction following and tool calling. It features a",
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
   }
 }

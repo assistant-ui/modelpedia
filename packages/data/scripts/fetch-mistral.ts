@@ -81,7 +81,7 @@ interface ModelDetail {
   deprecated?: boolean;
 }
 
-function parseDollar(s: string): number | undefined {
+function _parseDollar(s: string): number | undefined {
   const m = s.match(/\$([\d.]+)/);
   return m ? Number(m[1]) : undefined;
 }

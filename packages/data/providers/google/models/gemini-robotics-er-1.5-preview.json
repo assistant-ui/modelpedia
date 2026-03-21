@@ -5,7 +5,7 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "status": "active",
-  "knowledge_cutoff": "January 2025",
+  "knowledge_cutoff": "2025-01",
   "context_window": 1048576,
   "max_output_tokens": 65536,
   "capabilities": {

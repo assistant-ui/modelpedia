@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ModelList } from "@/components/model-list";
+import { ProviderIcon } from "@/components/provider-icon";
 import { ProviderLinks } from "@/components/provider-links";
-import {
-  Breadcrumb,
-  PageHeader,
-  ProviderIcon,
-  regionFlag,
-} from "@/components/views";
+import { PageHeader } from "@/components/ui/page-header";
 import type { ModelData } from "@/lib/data";
 import { getProvider } from "@/lib/data";
+import { regionFlag } from "@/lib/format";
 
 type Params = { provider: string };
 
@@ -20,8 +17,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { provider: id } = await params;
   const provider = getProvider(id);
+  if (!provider) return { title: "Not Found" };
   return {
-    title: provider ? `${provider.name} — AI Model Registry` : "Not Found",
+    title: provider.name,
+    description: `${provider.name} — ${provider.models.length} AI models. Compare specs, pricing, and capabilities.`,
   };
 }
 
@@ -56,19 +55,21 @@ export default async function ProviderDetailPage({
     <>
       <PageHeader
         title={family ? `${provider.name} · ${family}` : provider.name}
-        count={models.length}
         icon={<ProviderIcon provider={provider} size={18} />}
-        trailing={
+        sub={
           <>
-            <span className="text-sm" title={provider.region}>
-              {regionFlag(provider.region)}
+            <span>{models.length} models</span>
+            <span>
+              {regionFlag(provider.region)} {provider.region}
             </span>
-            <ProviderLinks
-              url={provider.url}
-              docsUrl={provider.docs_url}
-              pricingUrl={provider.pricing_url}
-            />
           </>
+        }
+        trailing={
+          <ProviderLinks
+            url={provider.url}
+            docsUrl={provider.docs_url}
+            pricingUrl={provider.pricing_url}
+          />
         }
       />
       {provider.models.length === 0 ? (

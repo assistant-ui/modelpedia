@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { ModelCompare } from "@/components/model-compare";
-import { Breadcrumb, PageHeader } from "@/components/views";
+import { PageHeader } from "@/components/ui/page-header";
 import { allModels, getProvider } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Compare Models — AI Model Registry",
+  title: "Compare Models",
+  description:
+    "Side-by-side comparison of AI models. Compare specs, pricing, and capabilities across providers.",
 };
 
 export default function ComparePage() {
@@ -32,6 +34,10 @@ export default function ComparePage() {
 
   return (
     <>
+      <PageHeader
+        title="Compare Models"
+        sub="Side-by-side comparison of specs, pricing, and capabilities"
+      />
       <ModelCompare models={models} />
     </>
   );

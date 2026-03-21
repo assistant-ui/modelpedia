@@ -6,8 +6,8 @@
   "last_updated": "2026-03-21",
   "family": "gemini-2.0",
   "status": "active",
-  "deprecation_date": "June 1, 2026",
-  "knowledge_cutoff": "August 2024",
+  "deprecation_date": "2026-06-01",
+  "knowledge_cutoff": "2024-08",
   "context_window": 1048576,
   "max_output_tokens": 8192,
   "capabilities": {

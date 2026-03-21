@@ -71,7 +71,7 @@ async function fetchDetail(slug: string): Promise<TogetherModel | null> {
     : undefined;
 
   // Infer creator from slug or page content
-  const nameMatch = text.match(
+  const _nameMatch = text.match(
     /(?:by|from|created by|publisher)\s+([\w\s]+?)(?:\s*[·|,]|\s+\d)/i,
   );
 

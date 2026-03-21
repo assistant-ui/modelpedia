@@ -7,7 +7,7 @@
   "family": "claude-opus",
   "description": "The most intelligent model for building agents and coding",
   "status": "active",
-  "knowledge_cutoff": "May 2025",
+  "knowledge_cutoff": "2025-05",
   "context_window": 1000000,
   "max_output_tokens": 128000,
   "speed": 3,

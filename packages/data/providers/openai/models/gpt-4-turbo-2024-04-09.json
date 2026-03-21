@@ -3,7 +3,7 @@
   "name": "gpt-4-turbo-2024-04-09",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-4-turbo",
   "status": "active",
   "context_window": 128000,
@@ -14,5 +14,11 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "description": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model. It was designed to be a cheaper, better version of GPT-4. Today, we recommend using a newer model like GPT-4o.",
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
   }
 }
