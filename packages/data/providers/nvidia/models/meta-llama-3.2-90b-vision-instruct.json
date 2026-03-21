@@ -9,5 +9,10 @@
     "streaming": true,
     "tool_call": true,
     "vision": true
+  },
+  "_generated": {
+    "name": "637ff7c8",
+    "family": "d4c42ce9",
+    "capabilities": "1a260abc"
   }
 }

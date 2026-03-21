@@ -7,5 +7,10 @@
   "model_type": "embed",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "e45539fb",
+    "model_type": "764cb3de",
+    "capabilities": "0fa77dc6"
   }
 }

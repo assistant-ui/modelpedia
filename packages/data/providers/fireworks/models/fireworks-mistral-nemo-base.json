@@ -12,5 +12,11 @@
     "input": 1,
     "output": 1
   },
-  "snapshots": ["fireworks/mistral-nemo-base-2407"]
+  "snapshots": ["fireworks/mistral-nemo-base-2407"],
+  "_generated": {
+    "name": "acf20c16",
+    "context_window": "34434798",
+    "pricing": "5418a9a1",
+    "capabilities": "0fa77dc6"
+  }
 }

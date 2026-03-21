@@ -7,5 +7,10 @@
   "model_type": "moderation",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "43810e7d",
+    "model_type": "1e7a7b87",
+    "capabilities": "0fa77dc6"
   }
 }

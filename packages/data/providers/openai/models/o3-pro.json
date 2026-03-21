@@ -57,5 +57,25 @@
     "web_search"
   ],
   "endpoints": ["responses", "batch"],
-  "snapshots": ["o3-pro-2025-06-10"]
+  "snapshots": ["o3-pro-2025-06-10"],
+  "_generated": {
+    "name": "363d2093",
+    "description": "e1a4ec5e",
+    "tagline": "cca16069",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "03e6c616",
+    "max_output_tokens": "14ee22ea",
+    "knowledge_cutoff": "1d431428",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "c4ca4238",
+    "family": "193049bc",
+    "reasoning_tokens": "b326b506",
+    "pricing": "0b2c1347",
+    "capabilities": "babb690e",
+    "modalities": "6399757e",
+    "tools": "a7dce5fd",
+    "endpoints": "6f01fd6c"
+  }
 }

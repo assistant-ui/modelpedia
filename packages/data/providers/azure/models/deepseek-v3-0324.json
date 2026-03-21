@@ -14,5 +14,11 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "7871eef5",
+    "family": "4b81b92d",
+    "capabilities": "ee30ca00",
+    "modalities": "68e53d93"
   }
 }

@@ -10,5 +10,10 @@
   "modalities": {
     "input": [],
     "output": []
+  },
+  "_generated": {
+    "name": "78bb5bdf",
+    "capabilities": "0fa77dc6",
+    "modalities": "72e6ca34"
   }
 }

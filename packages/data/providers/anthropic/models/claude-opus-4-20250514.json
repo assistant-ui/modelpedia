@@ -30,5 +30,19 @@
     "cache_write": 18.75
   },
   "tools": ["function_calling", "computer_use", "mcp"],
-  "endpoints": ["messages"]
+  "endpoints": ["messages"],
+  "_generated": {
+    "name": "f3a070c8",
+    "status": "379ac110",
+    "context_window": "03e6c616",
+    "max_output_tokens": "10e4d788",
+    "knowledge_cutoff": "3f358a56",
+    "speed": "eccbc87e",
+    "family": "4e4c4b18",
+    "pricing": "8fd237a9",
+    "capabilities": "a19166f1",
+    "modalities": "6399757e",
+    "tools": "abde16bc",
+    "endpoints": "94bb8b7a"
+  }
 }

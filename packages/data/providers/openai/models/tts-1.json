@@ -30,5 +30,17 @@
     ]
   },
   "endpoints": ["speech_generation"],
-  "snapshots": ["tts-1"]
+  "snapshots": ["tts-1"],
+  "_generated": {
+    "name": "373ed2dd",
+    "description": "3294bac4",
+    "tagline": "9d0cf142",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "performance": "c81e728d",
+    "speed": "a87ff679",
+    "pricing": "42963b30",
+    "modalities": "601e776d",
+    "endpoints": "1d7fad2a"
+  }
 }

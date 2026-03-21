@@ -21,5 +21,16 @@
   },
   "model_type": "embed",
   "tools": ["function_calling"],
-  "endpoints": ["generateContent", "streamGenerateContent"]
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "b26b48b2",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "05192834",
+    "deprecation_date": "c6bdeb62",
+    "capabilities": "29b57eef",
+    "modalities": "08235294",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
+  }
 }

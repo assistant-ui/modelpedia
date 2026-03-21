@@ -21,6 +21,22 @@
     "gpt-4o-mini-transcribe-2025-03-20",
     "gpt-4o-mini-transcribe-2025-12-15"
   ],
+  "_generated": {
+    "name": "81f7c40a",
+    "description": "72014020",
+    "tagline": "c1727642",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "context_window": "67510c89",
+    "max_output_tokens": "08f90c1a",
+    "knowledge_cutoff": "1d431428",
+    "performance": "eccbc87e",
+    "speed": "a87ff679",
+    "family": "15249632",
+    "pricing": "f37c4235",
+    "modalities": "7cee5e0e",
+    "endpoints": "250917d3"
+  },
   "description": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
   "tagline": "Speech-to-text model powered by GPT-4o mini",
   "pricing": {

@@ -12,5 +12,12 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "model_type": "transcription"
+  "model_type": "transcription",
+  "_generated": {
+    "name": "3f6bf75d",
+    "model_type": "5e12d29a",
+    "family": "15249632",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  }
 }

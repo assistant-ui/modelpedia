@@ -14,5 +14,12 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "context_window": 32000
+  "context_window": 32000,
+  "_generated": {
+    "name": "ce306dad",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

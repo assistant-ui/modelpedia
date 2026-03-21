@@ -12,5 +12,11 @@
     "input": 2.5,
     "output": 15,
     "cached_input": 0.25
+  },
+  "_generated": {
+    "name": "b9d876fb",
+    "family": "4651e8f0",
+    "pricing": "d9873b8b",
+    "capabilities": "0fa77dc6"
   }
 }

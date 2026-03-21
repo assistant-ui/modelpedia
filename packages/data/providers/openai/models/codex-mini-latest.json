@@ -45,5 +45,23 @@
     ]
   },
   "endpoints": ["responses"],
-  "snapshots": ["codex-mini-latest"]
+  "snapshots": ["codex-mini-latest"],
+  "_generated": {
+    "name": "c991c10c",
+    "description": "038c4085",
+    "tagline": "6d7373b5",
+    "status": "2e2f74dc",
+    "context_window": "03e6c616",
+    "max_output_tokens": "14ee22ea",
+    "knowledge_cutoff": "1d431428",
+    "performance": "a87ff679",
+    "reasoning": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "97c0ee50",
+    "reasoning_tokens": "b326b506",
+    "pricing": "d90562d8",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "endpoints": "acb164ea"
+  }
 }

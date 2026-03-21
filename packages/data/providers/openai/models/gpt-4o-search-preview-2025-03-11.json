@@ -40,5 +40,21 @@
       }
     ]
   },
-  "endpoints": ["chat_completions"]
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "55da7845",
+    "description": "506174d8",
+    "tagline": "e981b5d7",
+    "status": "379ac110",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "eccbc87e",
+    "speed": "eccbc87e",
+    "family": "15249632",
+    "pricing": "1cf58f40",
+    "capabilities": "66baa213",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  }
 }

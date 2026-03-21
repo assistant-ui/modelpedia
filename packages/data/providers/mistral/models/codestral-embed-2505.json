@@ -16,5 +16,14 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "model_type": "embed"
+  "model_type": "embed",
+  "_generated": {
+    "name": "e7e924a0",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "67ff32d4",
+    "family": "a0734f6e",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

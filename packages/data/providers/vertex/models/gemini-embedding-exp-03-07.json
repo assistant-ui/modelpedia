@@ -15,5 +15,14 @@
     "output": ["text"]
   },
   "successor": "gemini-embedding-001",
-  "model_type": "embed"
+  "model_type": "embed",
+  "_generated": {
+    "name": "6b42cca3",
+    "status": "2e2f74dc",
+    "model_type": "764cb3de",
+    "deprecation_date": "097b1371",
+    "successor": "b26b48b2",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

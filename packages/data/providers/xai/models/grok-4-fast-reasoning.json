@@ -8,5 +8,10 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true
+  },
+  "_generated": {
+    "name": "46ffb353",
+    "release_date": "d9b57e93",
+    "capabilities": "48995a4e"
   }
 }

@@ -28,5 +28,24 @@
   },
   "tools": ["function_calling", "code_interpreter", "mcp", "web_search"],
   "endpoints": ["responses", "batch"],
-  "snapshots": ["gpt-oss-120b"]
+  "snapshots": ["gpt-oss-120b"],
+  "_generated": {
+    "name": "e8458743",
+    "description": "6ed588b9",
+    "tagline": "254cefba",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "knowledge_cutoff": "1d431428",
+    "performance": "a87ff679",
+    "reasoning": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "82d0cb0b",
+    "reasoning_tokens": "b326b506",
+    "capabilities": "0946b777",
+    "modalities": "68e53d93",
+    "tools": "67477b86",
+    "endpoints": "6f01fd6c"
+  }
 }

@@ -17,5 +17,13 @@
   "pricing": {
     "input": 0.55,
     "output": 2.2
+  },
+  "_generated": {
+    "name": "58869671",
+    "description": "cc4bcbed",
+    "context_window": "834bd590",
+    "pricing": "33e3f729",
+    "capabilities": "ad177261",
+    "modalities": "68e53d93"
   }
 }

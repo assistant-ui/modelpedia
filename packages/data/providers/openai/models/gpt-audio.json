@@ -51,5 +51,22 @@
     ]
   },
   "endpoints": ["chat_completions"],
-  "snapshots": ["gpt-audio-2025-08-28"]
+  "snapshots": ["gpt-audio-2025-08-28"],
+  "_generated": {
+    "name": "29debdf1",
+    "description": "cbfdc684",
+    "tagline": "4fa910a6",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "29debdf1",
+    "pricing": "6013bf87",
+    "capabilities": "48995a4e",
+    "modalities": "cf05925d",
+    "endpoints": "d8fa1080"
+  }
 }

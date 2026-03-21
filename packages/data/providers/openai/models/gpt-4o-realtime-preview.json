@@ -54,5 +54,21 @@
     "gpt-4o-realtime-preview-2025-06-03",
     "gpt-4o-realtime-preview-2024-12-17",
     "gpt-4o-realtime-preview-2024-10-01"
-  ]
+  ],
+  "_generated": {
+    "name": "c9f34e94",
+    "description": "b0cfc175",
+    "tagline": "03ab6452",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "max_output_tokens": "f7efa4f8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "eccbc87e",
+    "speed": "a87ff679",
+    "family": "15249632",
+    "pricing": "f059fd86",
+    "capabilities": "ce9e2425",
+    "modalities": "cf05925d",
+    "endpoints": "c7ed7203"
+  }
 }

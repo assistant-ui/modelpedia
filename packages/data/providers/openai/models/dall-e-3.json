@@ -34,5 +34,17 @@
     ]
   },
   "endpoints": ["image_generation"],
-  "snapshots": ["dall-e-3"]
+  "snapshots": ["dall-e-3"],
+  "_generated": {
+    "name": "178548a5",
+    "description": "bce060a9",
+    "tagline": "875437bb",
+    "status": "2e2f74dc",
+    "model_type": "db8857fe",
+    "performance": "eccbc87e",
+    "speed": "c81e728d",
+    "pricing": "d48e6fab",
+    "modalities": "814867b9",
+    "endpoints": "8b7a2da9"
+  }
 }

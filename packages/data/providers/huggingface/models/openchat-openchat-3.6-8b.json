@@ -7,5 +7,9 @@
   "capabilities": {
     "streaming": true
   },
-  "snapshots": ["openchat/openchat-3.6-8b-20240522"]
+  "snapshots": ["openchat/openchat-3.6-8b-20240522"],
+  "_generated": {
+    "name": "1c76e7a8",
+    "capabilities": "0fa77dc6"
+  }
 }

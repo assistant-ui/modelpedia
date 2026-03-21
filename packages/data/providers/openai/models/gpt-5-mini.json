@@ -68,5 +68,26 @@
     "mcp"
   ],
   "endpoints": ["chat_completions", "responses", "batch"],
-  "snapshots": ["gpt-5-mini-2025-08-07"]
+  "snapshots": ["gpt-5-mini-2025-08-07"],
+  "_generated": {
+    "name": "429d7643",
+    "description": "ccd20efb",
+    "tagline": "2de7ea24",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "3f9281a0",
+    "knowledge_cutoff": "1d431428",
+    "performance": "eccbc87e",
+    "reasoning": "eccbc87e",
+    "speed": "a87ff679",
+    "family": "aa904c16",
+    "reasoning_tokens": "b326b506",
+    "pricing": "3ed6285a",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "tools": "907918a7",
+    "endpoints": "ec55a017"
+  }
 }

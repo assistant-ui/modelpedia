@@ -56,5 +56,22 @@
     "assistants",
     "batch",
     "fine_tuning"
-  ]
+  ],
+  "_generated": {
+    "name": "522d20e4",
+    "description": "a830acaf",
+    "tagline": "18a22d24",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "55410616",
+    "max_output_tokens": "f4376436",
+    "knowledge_cutoff": "1d431428",
+    "performance": "eccbc87e",
+    "speed": "a87ff679",
+    "family": "d240daf4",
+    "pricing": "530b51ae",
+    "capabilities": "ac9a94bc",
+    "modalities": "6399757e",
+    "endpoints": "ebc03c48"
+  }
 }

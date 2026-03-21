@@ -12,5 +12,11 @@
     "input": 1.25,
     "output": 10,
     "cached_input": 0.125
+  },
+  "_generated": {
+    "name": "6ba0101c",
+    "family": "2089aff2",
+    "pricing": "50bb1323",
+    "capabilities": "0fa77dc6"
   }
 }

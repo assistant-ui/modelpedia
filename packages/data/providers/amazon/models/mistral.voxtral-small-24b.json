@@ -11,5 +11,10 @@
     "input": [],
     "output": ["text"]
   },
-  "snapshots": ["mistral.voxtral-small-24b-2507"]
+  "snapshots": ["mistral.voxtral-small-24b-2507"],
+  "_generated": {
+    "name": "4029b9eb",
+    "capabilities": "0fa77dc6",
+    "modalities": "ce37f4ca"
+  }
 }

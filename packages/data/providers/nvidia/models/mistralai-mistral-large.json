@@ -7,5 +7,10 @@
   "family": "mistral-large",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "70f9d51d",
+    "family": "70f9d51d",
+    "capabilities": "0fa77dc6"
   }
 }

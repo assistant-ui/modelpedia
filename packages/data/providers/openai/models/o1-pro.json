@@ -51,5 +51,25 @@
   },
   "tools": ["function_calling", "file_search", "mcp"],
   "endpoints": ["responses", "batch"],
-  "snapshots": ["o1-pro-2025-03-19"]
+  "snapshots": ["o1-pro-2025-03-19"],
+  "_generated": {
+    "name": "76a0c706",
+    "description": "ea477ac7",
+    "tagline": "d081326f",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "03e6c616",
+    "max_output_tokens": "14ee22ea",
+    "knowledge_cutoff": "7b971392",
+    "performance": "a87ff679",
+    "reasoning": "a87ff679",
+    "speed": "c4ca4238",
+    "family": "e1ab0820",
+    "reasoning_tokens": "b326b506",
+    "pricing": "b31251fb",
+    "capabilities": "babb690e",
+    "modalities": "6399757e",
+    "tools": "895d6d67",
+    "endpoints": "6f01fd6c"
+  }
 }

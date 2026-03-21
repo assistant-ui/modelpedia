@@ -11,5 +11,11 @@
   "pricing": {
     "input": 5,
     "output": 40
+  },
+  "_generated": {
+    "name": "480da012",
+    "family": "480da012",
+    "pricing": "3c45900a",
+    "capabilities": "0fa77dc6"
   }
 }

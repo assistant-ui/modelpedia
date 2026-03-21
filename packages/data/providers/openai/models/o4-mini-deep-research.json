@@ -51,5 +51,25 @@
   },
   "tools": ["web_search", "code_interpreter", "mcp"],
   "endpoints": ["responses", "batch"],
-  "snapshots": ["o4-mini-deep-research-2025-06-26"]
+  "snapshots": ["o4-mini-deep-research-2025-06-26"],
+  "_generated": {
+    "name": "c73d23c2",
+    "description": "9ebc679a",
+    "tagline": "6dd77c09",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "03e6c616",
+    "max_output_tokens": "14ee22ea",
+    "knowledge_cutoff": "1d431428",
+    "performance": "a87ff679",
+    "reasoning": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "a842f941",
+    "reasoning_tokens": "b326b506",
+    "pricing": "e36f1250",
+    "capabilities": "8d009641",
+    "modalities": "6399757e",
+    "tools": "a651ddf3",
+    "endpoints": "6f01fd6c"
+  }
 }

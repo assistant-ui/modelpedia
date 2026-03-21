@@ -8,5 +8,10 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "model_type": "rerank"
+  "model_type": "rerank",
+  "_generated": {
+    "name": "b7605ee2",
+    "model_type": "477930e6",
+    "modalities": "68e53d93"
+  }
 }

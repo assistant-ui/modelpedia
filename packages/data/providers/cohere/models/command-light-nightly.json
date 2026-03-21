@@ -13,5 +13,13 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "tagline": "N/A"
+  "tagline": "N/A",
+  "_generated": {
+    "name": "2b397f22",
+    "description": "4c512595",
+    "tagline": "4c512595",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  }
 }

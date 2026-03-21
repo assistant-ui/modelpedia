@@ -7,5 +7,9 @@
   "alias": "voxtral-mini-4b-realtime",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "144423ec",
+    "capabilities": "0fa77dc6"
   }
 }

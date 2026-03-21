@@ -19,5 +19,14 @@
     "input": 0.2,
     "output": 0.2
   },
-  "snapshots": ["ministral-14b-2512"]
+  "snapshots": ["ministral-14b-2512"],
+  "_generated": {
+    "name": "0c244f8b",
+    "status": "379ac110",
+    "context_window": "2fd324cb",
+    "family": "d6661e63",
+    "pricing": "ee3b139d",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

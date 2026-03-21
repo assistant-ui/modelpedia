@@ -13,5 +13,13 @@
   "pricing": {
     "input": 0.02,
     "output": 0
+  },
+  "_generated": {
+    "name": "ff788548",
+    "model_type": "764cb3de",
+    "context_window": "74a190a6",
+    "family": "48c385a0",
+    "pricing": "8d85a56c",
+    "capabilities": "0fa77dc6"
   }
 }

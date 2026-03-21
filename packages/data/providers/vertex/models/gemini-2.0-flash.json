@@ -24,5 +24,19 @@
   },
   "successor": "gemini-2.5-flash",
   "tools": ["function_calling"],
-  "endpoints": ["generateContent", "streamGenerateContent"]
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "b0c0fd63",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "max_output_tokens": "77441296",
+    "knowledge_cutoff": "22d6f9d6",
+    "deprecation_date": "80eaf594",
+    "successor": "3b4524e7",
+    "family": "dc4aadf6",
+    "capabilities": "29b57eef",
+    "modalities": "08235294",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
+  }
 }

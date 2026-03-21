@@ -16,5 +16,15 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "tagline": "Command R is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models."
+  "tagline": "Command R is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models.",
+  "_generated": {
+    "name": "3a74c132",
+    "description": "2bec0937",
+    "tagline": "1987b19f",
+    "status": "2e2f74dc",
+    "context_window": "34434798",
+    "max_output_tokens": "1bd69c7d",
+    "capabilities": "48995a4e",
+    "modalities": "68e53d93"
+  }
 }

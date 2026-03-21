@@ -61,5 +61,21 @@
     ]
   },
   "endpoints": ["realtime"],
-  "snapshots": ["gpt-realtime-1.5"]
+  "snapshots": ["gpt-realtime-1.5"],
+  "_generated": {
+    "name": "ba790d92",
+    "description": "70905875",
+    "tagline": "25bac9df",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "max_output_tokens": "f7efa4f8",
+    "knowledge_cutoff": "b0196d6e",
+    "performance": "e4da3b7f",
+    "speed": "a87ff679",
+    "family": "f5032d33",
+    "pricing": "e5a44c7e",
+    "capabilities": "ce9e2425",
+    "modalities": "96cad1df",
+    "endpoints": "c7ed7203"
+  }
 }

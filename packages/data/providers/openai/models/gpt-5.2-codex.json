@@ -48,5 +48,26 @@
   },
   "tools": ["function_calling", "web_search", "hosted_shell", "skills"],
   "endpoints": ["responses"],
-  "snapshots": ["gpt-5.2-codex"]
+  "snapshots": ["gpt-5.2-codex"],
+  "_generated": {
+    "name": "d30e4d4b",
+    "description": "280c8453",
+    "tagline": "eeafde9a",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "3f9281a0",
+    "knowledge_cutoff": "5549a2cd",
+    "performance": "a87ff679",
+    "reasoning": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "f580564d",
+    "reasoning_tokens": "b326b506",
+    "pricing": "745a23d5",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "tools": "7efd0964",
+    "endpoints": "acb164ea"
+  }
 }

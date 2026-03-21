@@ -7,5 +7,10 @@
   "family": "whisper",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "ae9d9d9e",
+    "family": "7fbc43e3",
+    "capabilities": "0fa77dc6"
   }
 }

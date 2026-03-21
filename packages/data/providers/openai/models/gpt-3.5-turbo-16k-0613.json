@@ -45,5 +45,22 @@
     "batch_output": 2
   },
   "endpoints": ["chat_completions", "responses", "batch"],
-  "snapshots": ["gpt-3.5-turbo-16k-0613"]
+  "snapshots": ["gpt-3.5-turbo-16k-0613"],
+  "_generated": {
+    "name": "471f74c4",
+    "description": "72bded9e",
+    "tagline": "7d9cd0cf",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "7f4b18de",
+    "max_output_tokens": "f7efa4f8",
+    "knowledge_cutoff": "4778f833",
+    "performance": "c4ca4238",
+    "speed": "c81e728d",
+    "family": "7601054d",
+    "pricing": "5f8a1a5e",
+    "capabilities": "d53dc8e8",
+    "modalities": "68e53d93",
+    "endpoints": "ec55a017"
+  }
 }

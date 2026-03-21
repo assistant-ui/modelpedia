@@ -52,5 +52,24 @@
     "mcp"
   ],
   "endpoints": ["responses", "chat_completions"],
-  "snapshots": ["gpt-5.2-chat-latest"]
+  "snapshots": ["gpt-5.2-chat-latest"],
+  "_generated": {
+    "name": "b0290d7c",
+    "description": "ad50ba82",
+    "tagline": "aa4c32a7",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "max_input_tokens": "3f9281a0",
+    "knowledge_cutoff": "5549a2cd",
+    "performance": "eccbc87e",
+    "speed": "eccbc87e",
+    "family": "f580564d",
+    "pricing": "745a23d5",
+    "capabilities": "fdacdfa5",
+    "modalities": "6399757e",
+    "tools": "1d5a765f",
+    "endpoints": "a913714d"
+  }
 }

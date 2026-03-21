@@ -12,5 +12,11 @@
     "input": 1,
     "output": 5,
     "cached_input": 0.1
+  },
+  "_generated": {
+    "name": "52bb3b76",
+    "family": "1cfb9795",
+    "pricing": "cc700ee3",
+    "capabilities": "0fa77dc6"
   }
 }

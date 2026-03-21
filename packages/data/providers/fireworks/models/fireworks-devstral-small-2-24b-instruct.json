@@ -12,5 +12,11 @@
     "input": 1,
     "output": 1
   },
-  "snapshots": ["fireworks/devstral-small-2-24b-instruct-2512"]
+  "snapshots": ["fireworks/devstral-small-2-24b-instruct-2512"],
+  "_generated": {
+    "name": "5c9803dd",
+    "family": "e626e93e",
+    "pricing": "5418a9a1",
+    "capabilities": "0fa77dc6"
+  }
 }

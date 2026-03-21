@@ -14,5 +14,13 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true
+  },
+  "_generated": {
+    "name": "6411ffa5",
+    "description": "b1ef027d",
+    "context_window": "4a1d32eb",
+    "family": "48c385a0",
+    "capabilities": "ad177261",
+    "modalities": "68e53d93"
   }
 }

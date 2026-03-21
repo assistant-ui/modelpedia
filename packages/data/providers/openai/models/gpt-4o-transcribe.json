@@ -47,5 +47,21 @@
     "output": 10
   },
   "endpoints": ["transcription", "realtime"],
-  "snapshots": ["gpt-4o-transcribe"]
+  "snapshots": ["gpt-4o-transcribe"],
+  "_generated": {
+    "name": "04ad7ace",
+    "description": "fbfc82bb",
+    "tagline": "08622bab",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "context_window": "67510c89",
+    "max_output_tokens": "08f90c1a",
+    "knowledge_cutoff": "1d431428",
+    "performance": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "15249632",
+    "pricing": "a3f2b1b6",
+    "modalities": "7cee5e0e",
+    "endpoints": "250917d3"
+  }
 }

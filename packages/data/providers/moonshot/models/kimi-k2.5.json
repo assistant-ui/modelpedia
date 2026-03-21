@@ -17,5 +17,14 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "tagline": "Kimi's most intelligent model with native multimodal support, thinking/non-thinking modes."
+  "tagline": "Kimi's most intelligent model with native multimodal support, thinking/non-thinking modes.",
+  "_generated": {
+    "name": "52aa7dab",
+    "description": "7d0e28f3",
+    "tagline": "7d0e28f3",
+    "context_window": "2fd324cb",
+    "family": "0740f86b",
+    "capabilities": "a19166f1",
+    "modalities": "6399757e"
+  }
 }

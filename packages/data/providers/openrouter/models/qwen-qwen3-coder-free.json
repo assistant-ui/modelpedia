@@ -14,5 +14,14 @@
   },
   "capabilities": {
     "tool_call": true
+  },
+  "_generated": {
+    "name": "c0284efe",
+    "description": "3076f312",
+    "context_window": "4ed74017",
+    "max_output_tokens": "4ed74017",
+    "family": "48c385a0",
+    "capabilities": "ce9e2425",
+    "modalities": "68e53d93"
   }
 }

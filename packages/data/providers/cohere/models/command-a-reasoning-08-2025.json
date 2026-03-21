@@ -16,5 +16,15 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "tagline": "Command A Reasoning is Cohere’s first reasoning model, able to ‘think’ before generating an output in a way that allows it to perform well in certain kinds of nuanced problem-solving and agent-based t"
+  "tagline": "Command A Reasoning is Cohere’s first reasoning model, able to ‘think’ before generating an output in a way that allows it to perform well in certain kinds of nuanced problem-solving and agent-based t",
+  "_generated": {
+    "name": "d85605c3",
+    "description": "6cbfab73",
+    "tagline": "a9218253",
+    "status": "379ac110",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "10e4d788",
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93"
+  }
 }

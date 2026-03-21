@@ -77,5 +77,25 @@
     "For models with a 1.05M context window (GPT-5.4 and GPT-5.4 pro), prompts with >272K input tokens are priced at 2x input and 1.5x output for the full session for standard, batch, and flex.",
     "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 and GPT-5.4 pro."
   ],
-  "snapshots": ["gpt-5.4-2026-03-05"]
+  "snapshots": ["gpt-5.4-2026-03-05"],
+  "_generated": {
+    "name": "270255f2",
+    "description": "d4da0a8e",
+    "tagline": "563a3420",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "knowledge_cutoff": "5549a2cd",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "eccbc87e",
+    "family": "4651e8f0",
+    "reasoning_tokens": "b326b506",
+    "pricing": "87b7bc75",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "tools": "44af6f15",
+    "endpoints": "88e8abb4"
+  }
 }

@@ -51,5 +51,21 @@
       }
     ]
   },
-  "endpoints": ["responses"]
+  "endpoints": ["responses"],
+  "_generated": {
+    "name": "0026f438",
+    "status": "379ac110",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "knowledge_cutoff": "5549a2cd",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "c4ca4238",
+    "family": "f580564d",
+    "reasoning_tokens": "b326b506",
+    "pricing": "7fff3799",
+    "capabilities": "a19166f1",
+    "modalities": "6399757e",
+    "endpoints": "acb164ea"
+  }
 }

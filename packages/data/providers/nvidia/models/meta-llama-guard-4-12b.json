@@ -8,5 +8,11 @@
   "capabilities": {
     "streaming": true
   },
-  "model_type": "moderation"
+  "model_type": "moderation",
+  "_generated": {
+    "name": "813373b9",
+    "model_type": "1e7a7b87",
+    "family": "3190be28",
+    "capabilities": "0fa77dc6"
+  }
 }

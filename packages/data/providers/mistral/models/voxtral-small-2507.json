@@ -14,5 +14,12 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "db53c546",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
   }
 }

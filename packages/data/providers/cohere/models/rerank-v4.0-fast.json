@@ -14,5 +14,14 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "e869920b",
+    "description": "4f68c471",
+    "tagline": "4f4e6174",
+    "status": "379ac110",
+    "model_type": "477930e6",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
   }
 }

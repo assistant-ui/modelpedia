@@ -7,5 +7,10 @@
   "family": "qwq",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "2d469a71",
+    "family": "3a976110",
+    "capabilities": "0fa77dc6"
   }
 }

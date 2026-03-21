@@ -15,5 +15,14 @@
   "capabilities": {
     "tool_call": true,
     "reasoning": true
+  },
+  "_generated": {
+    "name": "b1b17851",
+    "description": "c18e4581",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "family": "82d0cb0b",
+    "capabilities": "05723a3e",
+    "modalities": "68e53d93"
   }
 }

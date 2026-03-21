@@ -14,5 +14,12 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "cec63846",
+    "context_window": "34434798",
+    "max_output_tokens": "67510c89",
+    "capabilities": "1d6c1abb",
+    "modalities": "68e53d93"
   }
 }

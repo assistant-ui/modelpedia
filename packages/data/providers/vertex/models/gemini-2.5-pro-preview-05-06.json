@@ -15,5 +15,14 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "successor": "gemini-3.1-pro-preview"
+  "successor": "gemini-3.1-pro-preview",
+  "_generated": {
+    "name": "d552d5f7",
+    "status": "2e2f74dc",
+    "deprecation_date": "75f289bd",
+    "successor": "cd1b7cdc",
+    "family": "ea6b88bf",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

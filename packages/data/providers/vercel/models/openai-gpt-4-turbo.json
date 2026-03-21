@@ -14,5 +14,12 @@
   "pricing": {
     "input": 10,
     "output": 30
+  },
+  "_generated": {
+    "name": "e55097d8",
+    "context_window": "34434798",
+    "family": "e55097d8",
+    "pricing": "d5468ada",
+    "capabilities": "fc36814c"
   }
 }

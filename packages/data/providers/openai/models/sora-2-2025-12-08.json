@@ -14,6 +14,18 @@
     "output": ["video", "audio"]
   },
   "endpoints": ["videos"],
+  "_generated": {
+    "name": "984f1dbb",
+    "description": "d2082443",
+    "tagline": "d2082443",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "performance": "a87ff679",
+    "speed": "c81e728d",
+    "pricing": "51cecb8f",
+    "modalities": "33372894",
+    "endpoints": "577d4591"
+  },
   "description": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
   "tagline": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
   "pricing": {

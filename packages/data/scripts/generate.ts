@@ -42,6 +42,8 @@ function generate() {
         const model = JSON.parse(
           fs.readFileSync(path.join(modelsDir, file), "utf-8"),
         );
+        // Strip internal metadata from generated output
+        delete model._generated;
         models.push(model);
       }
     }

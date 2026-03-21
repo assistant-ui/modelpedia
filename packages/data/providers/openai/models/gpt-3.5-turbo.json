@@ -65,5 +65,23 @@
     "gpt-3.5-turbo-0125",
     "gpt-3.5-turbo-1106",
     "gpt-3.5-turbo-instruct"
-  ]
+  ],
+  "_generated": {
+    "name": "e8375aa5",
+    "description": "72bded9e",
+    "tagline": "7d9cd0cf",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "7f4b18de",
+    "max_output_tokens": "f7efa4f8",
+    "knowledge_cutoff": "4778f833",
+    "performance": "c4ca4238",
+    "speed": "c81e728d",
+    "successor": "86dcd1b7",
+    "family": "7601054d",
+    "pricing": "2cf1d383",
+    "capabilities": "d53dc8e8",
+    "modalities": "68e53d93",
+    "endpoints": "b36a99d3"
+  }
 }

@@ -13,5 +13,12 @@
     "input": 1,
     "output": 1
   },
-  "snapshots": ["fireworks/qwen3-30b-a3b-thinking-2507"]
+  "snapshots": ["fireworks/qwen3-30b-a3b-thinking-2507"],
+  "_generated": {
+    "name": "ea1c8373",
+    "context_window": "b23f4471",
+    "family": "48c385a0",
+    "pricing": "5418a9a1",
+    "capabilities": "0fa77dc6"
+  }
 }

@@ -11,5 +11,11 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "model_type": "moderation"
+  "model_type": "moderation",
+  "_generated": {
+    "name": "3152574c",
+    "model_type": "1e7a7b87",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  }
 }

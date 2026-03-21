@@ -19,5 +19,13 @@
     "input": 0.27,
     "output": 0.95,
     "cached_input": 0.029
+  },
+  "_generated": {
+    "name": "78e2c9be",
+    "description": "5d6582de",
+    "context_window": "0dd0d2bf",
+    "pricing": "7c903b27",
+    "capabilities": "f533f522",
+    "modalities": "68e53d93"
   }
 }

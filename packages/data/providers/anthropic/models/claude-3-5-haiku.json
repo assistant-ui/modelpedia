@@ -23,5 +23,14 @@
     "cache_write": 1
   },
   "tools": ["function_calling"],
-  "endpoints": ["messages"]
+  "endpoints": ["messages"],
+  "_generated": {
+    "name": "d6e4c4b6",
+    "family": "1cfb9795",
+    "pricing": "1839d8b2",
+    "capabilities": "fc36814c",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e",
+    "endpoints": "94bb8b7a"
+  }
 }

@@ -20,5 +20,15 @@
   "pricing": {
     "input": 0.1,
     "output": 0.3
+  },
+  "_generated": {
+    "name": "a1c9ea82",
+    "status": "2e2f74dc",
+    "context_window": "34434798",
+    "deprecation_date": "70416073",
+    "family": "275918a5",
+    "pricing": "53952343",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
   }
 }

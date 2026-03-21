@@ -60,5 +60,24 @@
       }
     ]
   },
-  "endpoints": ["responses", "chat_completions", "batch"]
+  "endpoints": ["responses", "chat_completions", "batch"],
+  "_generated": {
+    "name": "3a221237",
+    "description": "aa8534f0",
+    "tagline": "aa8534f0",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "knowledge_cutoff": "b0196d6e",
+    "performance": "a87ff679",
+    "reasoning": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "2089aff2",
+    "reasoning_tokens": "b326b506",
+    "pricing": "a6f9ea96",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "endpoints": "88e8abb4"
+  }
 }

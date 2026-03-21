@@ -63,5 +63,18 @@
     ]
   },
   "endpoints": ["batch", "image_generation", "image_edit", "responses"],
-  "snapshots": ["gpt-image-1"]
+  "snapshots": ["gpt-image-1"],
+  "_generated": {
+    "name": "ccb6410c",
+    "description": "5761f0fa",
+    "tagline": "804cd982",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "performance": "a87ff679",
+    "speed": "c4ca4238",
+    "family": "480da012",
+    "pricing": "4efcaacd",
+    "modalities": "bbf9b8bb",
+    "endpoints": "b1b7ee5d"
+  }
 }

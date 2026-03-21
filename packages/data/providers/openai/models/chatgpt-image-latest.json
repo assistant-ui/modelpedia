@@ -64,5 +64,18 @@
     ]
   },
   "endpoints": ["batch", "image_generation", "image_edit"],
-  "snapshots": ["chatgpt-image-latest"]
+  "snapshots": ["chatgpt-image-latest"],
+  "_generated": {
+    "name": "aecf32bc",
+    "description": "93b819e1",
+    "tagline": "1cd73dee",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "family": "65aec523",
+    "pricing": "f27acd82",
+    "modalities": "996cb582",
+    "endpoints": "af128fc0"
+  }
 }

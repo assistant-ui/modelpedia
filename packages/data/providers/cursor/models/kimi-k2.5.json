@@ -21,5 +21,14 @@
   },
   "context_window": 262000,
   "performance": 4,
-  "speed": 3
+  "speed": 3,
+  "_generated": {
+    "name": "52aa7dab",
+    "context_window": "4ed74017",
+    "performance": "a87ff679",
+    "speed": "eccbc87e",
+    "pricing": "b1e4b497",
+    "capabilities": "7ca28ec9",
+    "modalities": "6399757e"
+  }
 }

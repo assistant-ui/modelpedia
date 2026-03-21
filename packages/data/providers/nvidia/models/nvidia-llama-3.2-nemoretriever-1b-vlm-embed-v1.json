@@ -9,5 +9,11 @@
     "streaming": true,
     "vision": true
   },
-  "model_type": "embed"
+  "model_type": "embed",
+  "_generated": {
+    "name": "280a63da",
+    "model_type": "764cb3de",
+    "family": "d4c42ce9",
+    "capabilities": "8a3b232e"
+  }
 }

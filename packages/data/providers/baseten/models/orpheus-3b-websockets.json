@@ -7,5 +7,10 @@
   "capabilities": {
     "streaming": true
   },
-  "model_type": "tts"
+  "model_type": "tts",
+  "_generated": {
+    "name": "26db3c66",
+    "model_type": "4e16a2cf",
+    "capabilities": "0fa77dc6"
+  }
 }

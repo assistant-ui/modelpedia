@@ -19,5 +19,15 @@
   "pricing": {
     "input": 0.07,
     "output": 0.27
+  },
+  "_generated": {
+    "name": "154c3cdf",
+    "description": "f1195630",
+    "context_window": "523ab41e",
+    "max_output_tokens": "f4376436",
+    "family": "48c385a0",
+    "pricing": "d70e7f2d",
+    "capabilities": "ad177261",
+    "modalities": "68e53d93"
   }
 }

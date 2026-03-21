@@ -13,5 +13,11 @@
   "pricing": {
     "input": 0.8,
     "output": 2.56
+  },
+  "_generated": {
+    "name": "309daa86",
+    "context_window": "cfc99a83",
+    "pricing": "cdf77743",
+    "capabilities": "a281e83a"
   }
 }

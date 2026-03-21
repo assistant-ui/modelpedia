@@ -14,5 +14,12 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "model_type": "transcription"
+  "model_type": "transcription",
+  "_generated": {
+    "name": "42e7691c",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

@@ -16,5 +16,15 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "ebc5ed94",
+    "description": "4f68c471",
+    "tagline": "438023f6",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "34434798",
+    "capabilities": "8a3b232e",
+    "modalities": "68e53d93"
   }
 }

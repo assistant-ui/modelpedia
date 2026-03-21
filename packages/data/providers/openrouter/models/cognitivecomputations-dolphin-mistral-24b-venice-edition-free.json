@@ -12,5 +12,12 @@
   },
   "capabilities": {
     "structured_output": true
+  },
+  "_generated": {
+    "name": "ae0f5fe4",
+    "description": "64cf91c8",
+    "context_window": "f4376436",
+    "capabilities": "c8033cf7",
+    "modalities": "68e53d93"
   }
 }

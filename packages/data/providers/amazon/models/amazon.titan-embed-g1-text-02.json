@@ -8,5 +8,10 @@
     "input": ["text"],
     "output": []
   },
-  "model_type": "embed"
+  "model_type": "embed",
+  "_generated": {
+    "name": "92280c27",
+    "model_type": "764cb3de",
+    "modalities": "afb3de08"
+  }
 }

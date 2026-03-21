@@ -16,5 +16,14 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "snapshots": ["pixtral-12b-2409"]
+  "snapshots": ["pixtral-12b-2409"],
+  "_generated": {
+    "name": "8909780f",
+    "status": "2e2f74dc",
+    "context_window": "34434798",
+    "deprecation_date": "75f289bd",
+    "family": "c606df51",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

@@ -17,5 +17,13 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "_generated": {
+    "name": "0ad044e2",
+    "model_type": "17475f7f",
+    "knowledge_cutoff": "83e324a8",
+    "family": "a842f941",
+    "capabilities": "781c5d26",
+    "modalities": "6399757e"
+  }
 }

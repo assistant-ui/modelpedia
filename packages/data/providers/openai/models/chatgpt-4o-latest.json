@@ -40,5 +40,22 @@
     "output": 15
   },
   "endpoints": ["chat_completions", "responses"],
-  "snapshots": ["chatgpt-4o-latest"]
+  "snapshots": ["chatgpt-4o-latest"],
+  "_generated": {
+    "name": "bb28e3cf",
+    "description": "65a9d0e6",
+    "tagline": "797eb169",
+    "status": "2e2f74dc",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "eccbc87e",
+    "speed": "eccbc87e",
+    "family": "65aec523",
+    "pricing": "62f384a6",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e",
+    "endpoints": "72e91ba7"
+  }
 }

@@ -15,5 +15,13 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "model_type": "moderation"
+  "model_type": "moderation",
+  "_generated": {
+    "name": "0aaf6146",
+    "status": "379ac110",
+    "model_type": "1e7a7b87",
+    "context_window": "34434798",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

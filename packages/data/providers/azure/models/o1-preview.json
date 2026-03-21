@@ -13,5 +13,13 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "_generated": {
+    "name": "14786b01",
+    "model_type": "17475f7f",
+    "knowledge_cutoff": "ffb42dbe",
+    "family": "e1ab0820",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  }
 }

@@ -10,5 +10,10 @@
   "pricing": {
     "input": 0.18,
     "output": 0
+  },
+  "_generated": {
+    "name": "9d6a7e93",
+    "pricing": "ae6ace32",
+    "capabilities": "0fa77dc6"
   }
 }

@@ -13,5 +13,13 @@
     "input": 1,
     "output": 1
   },
-  "model_type": "embed"
+  "model_type": "embed",
+  "_generated": {
+    "name": "e1d741a6",
+    "model_type": "764cb3de",
+    "context_window": "74a190a6",
+    "family": "48c385a0",
+    "pricing": "5418a9a1",
+    "capabilities": "0fa77dc6"
+  }
 }

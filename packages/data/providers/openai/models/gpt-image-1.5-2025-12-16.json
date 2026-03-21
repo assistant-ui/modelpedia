@@ -64,5 +64,18 @@
       }
     ]
   },
-  "endpoints": ["batch", "image_generation", "image_edit"]
+  "endpoints": ["batch", "image_generation", "image_edit"],
+  "_generated": {
+    "name": "69175a19",
+    "description": "c8398602",
+    "tagline": "d1d7ff5d",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "family": "864c34a6",
+    "pricing": "f27acd82",
+    "modalities": "996cb582",
+    "endpoints": "af128fc0"
+  }
 }

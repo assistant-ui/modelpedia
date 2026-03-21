@@ -14,5 +14,12 @@
     "input": 0.05,
     "output": 0.4
   },
-  "provider": "qwen"
+  "provider": "qwen",
+  "_generated": {
+    "name": "25df469a",
+    "context_window": "8155bc54",
+    "family": "a3af76f3",
+    "pricing": "b224cb39",
+    "capabilities": "48995a4e"
+  }
 }

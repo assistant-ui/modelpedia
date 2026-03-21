@@ -51,5 +51,22 @@
       }
     ]
   },
-  "endpoints": ["chat_completions"]
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "e7763208",
+    "description": "e16b5473",
+    "tagline": "8203c14c",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "c81e728d",
+    "speed": "a87ff679",
+    "family": "15249632",
+    "pricing": "688cb68b",
+    "capabilities": "48995a4e",
+    "modalities": "cf05925d",
+    "endpoints": "d8fa1080"
+  }
 }

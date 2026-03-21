@@ -14,5 +14,13 @@
   "modalities": {
     "input": ["text", "image", "video"],
     "output": ["video"]
+  },
+  "_generated": {
+    "name": "8fee6eb3",
+    "model_type": "db8857fe",
+    "release_date": "7b38667e",
+    "family": "a4576b5e",
+    "capabilities": "48995a4e",
+    "modalities": "e248f03e"
   }
 }

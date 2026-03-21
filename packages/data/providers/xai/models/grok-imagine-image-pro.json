@@ -14,5 +14,13 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["image"]
+  },
+  "_generated": {
+    "name": "645c709d",
+    "model_type": "db8857fe",
+    "release_date": "7b38667e",
+    "family": "a4576b5e",
+    "capabilities": "48995a4e",
+    "modalities": "bbf9b8bb"
   }
 }

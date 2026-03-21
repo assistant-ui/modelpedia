@@ -51,5 +51,26 @@
   },
   "tools": ["file_search", "code_interpreter", "mcp"],
   "endpoints": ["chat_completions", "assistants"],
-  "snapshots": ["o1-mini-2024-09-12"]
+  "snapshots": ["o1-mini-2024-09-12"],
+  "_generated": {
+    "name": "34f0dfa6",
+    "description": "211238ed",
+    "tagline": "9ccc5290",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "34434798",
+    "max_output_tokens": "297ce0b3",
+    "knowledge_cutoff": "7b971392",
+    "performance": "eccbc87e",
+    "reasoning": "eccbc87e",
+    "speed": "c81e728d",
+    "successor": "7ea41c2f",
+    "family": "e1ab0820",
+    "reasoning_tokens": "b326b506",
+    "pricing": "ea08eb92",
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "tools": "25473f2d",
+    "endpoints": "6558e44b"
+  }
 }

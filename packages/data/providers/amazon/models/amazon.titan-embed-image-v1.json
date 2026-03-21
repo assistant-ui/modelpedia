@@ -11,5 +11,11 @@
     "input": [],
     "output": []
   },
-  "model_type": "embed"
+  "model_type": "embed",
+  "_generated": {
+    "name": "50590ddf",
+    "model_type": "764cb3de",
+    "capabilities": "d3117eb0",
+    "modalities": "72e6ca34"
+  }
 }

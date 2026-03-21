@@ -8,5 +8,10 @@
   "capabilities": {
     "streaming": true
   },
-  "snapshots": ["qwen3-235b-a22b-instruct-2507"]
+  "snapshots": ["qwen3-235b-a22b-instruct-2507"],
+  "_generated": {
+    "name": "056fb981",
+    "family": "48c385a0",
+    "capabilities": "0fa77dc6"
+  }
 }

@@ -55,5 +55,22 @@
     "gpt-4o-audio-preview-2025-06-03",
     "gpt-4o-audio-preview-2024-12-17",
     "gpt-4o-audio-preview-2024-10-01"
-  ]
+  ],
+  "_generated": {
+    "name": "63892d58",
+    "description": "366e38f2",
+    "tagline": "f711170d",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "eccbc87e",
+    "speed": "eccbc87e",
+    "family": "15249632",
+    "pricing": "ae3d21b8",
+    "capabilities": "48995a4e",
+    "modalities": "cf05925d",
+    "endpoints": "d8fa1080"
+  }
 }

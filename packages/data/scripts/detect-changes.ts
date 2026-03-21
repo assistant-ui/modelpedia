@@ -17,7 +17,7 @@ const CHANGES_PATH = path.join(ROOT, "changes", "changes.jsonl");
 const PROVIDERS_REL = "providers/";
 
 // Fields to ignore when diffing
-const IGNORE_FIELDS = new Set(["last_updated", "source"]);
+const IGNORE_FIELDS = new Set(["last_updated", "source", "_generated"]);
 
 // ── Types ──
 

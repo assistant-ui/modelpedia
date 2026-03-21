@@ -34,5 +34,17 @@
     ]
   },
   "endpoints": ["embeddings", "batch"],
-  "snapshots": ["text-embedding-3-small"]
+  "snapshots": ["text-embedding-3-small"],
+  "_generated": {
+    "name": "5476c3d9",
+    "description": "5a0254bd",
+    "tagline": "b064027b",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "performance": "c81e728d",
+    "speed": "eccbc87e",
+    "pricing": "52399004",
+    "modalities": "68e53d93",
+    "endpoints": "fc976575"
+  }
 }

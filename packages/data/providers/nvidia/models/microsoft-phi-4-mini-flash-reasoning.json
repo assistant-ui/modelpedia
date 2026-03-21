@@ -7,5 +7,9 @@
   "capabilities": {
     "streaming": true,
     "reasoning": true
+  },
+  "_generated": {
+    "name": "bfce27bb",
+    "capabilities": "b011c6b4"
   }
 }

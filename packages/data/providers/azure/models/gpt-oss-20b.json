@@ -17,5 +17,14 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "0f95b22f",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "knowledge_cutoff": "83e324a8",
+    "family": "82d0cb0b",
+    "capabilities": "0946b777",
+    "modalities": "68e53d93"
   }
 }

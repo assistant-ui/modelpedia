@@ -52,5 +52,23 @@
   },
   "tools": ["web_search", "file_search", "code_interpreter", "mcp"],
   "endpoints": ["chat_completions"],
-  "snapshots": ["gpt-4o-mini-audio-preview-2024-12-17"]
+  "snapshots": ["gpt-4o-mini-audio-preview-2024-12-17"],
+  "_generated": {
+    "name": "070b0f97",
+    "description": "e16b5473",
+    "tagline": "f8a28d60",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "c81e728d",
+    "speed": "a87ff679",
+    "family": "15249632",
+    "pricing": "688cb68b",
+    "capabilities": "48995a4e",
+    "modalities": "cf05925d",
+    "tools": "bb91d170",
+    "endpoints": "d8fa1080"
+  }
 }

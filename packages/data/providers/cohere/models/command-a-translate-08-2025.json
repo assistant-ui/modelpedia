@@ -15,5 +15,15 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "tagline": "Command A Translate is Cohere’s state of the art machine translation model, excelling at a variety of translation tasks on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese"
+  "tagline": "Command A Translate is Cohere’s state of the art machine translation model, excelling at a variety of translation tasks on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese",
+  "_generated": {
+    "name": "d9d4ca94",
+    "description": "f6c2409e",
+    "tagline": "d40f854d",
+    "status": "379ac110",
+    "context_window": "67ff32d4",
+    "max_output_tokens": "67ff32d4",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  }
 }

@@ -23,5 +23,18 @@
     "output": ["text", "image"]
   },
   "tools": ["function_calling"],
-  "endpoints": ["generateContent", "streamGenerateContent"]
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "f2606b99",
+    "status": "2e2f74dc",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f4376436",
+    "knowledge_cutoff": "3f358a56",
+    "deprecation_date": "8be75473",
+    "family": "ea4a1a23",
+    "capabilities": "29b57eef",
+    "modalities": "08235294",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
+  }
 }

@@ -59,5 +59,25 @@
     "image_generation"
   ],
   "endpoints": ["chat_completions", "responses", "assistants", "batch"],
-  "snapshots": ["o3-mini-2025-01-31"]
+  "snapshots": ["o3-mini-2025-01-31"],
+  "_generated": {
+    "name": "7ea41c2f",
+    "description": "752a5b83",
+    "tagline": "b94a0450",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "03e6c616",
+    "max_output_tokens": "14ee22ea",
+    "knowledge_cutoff": "7b971392",
+    "performance": "a87ff679",
+    "reasoning": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "193049bc",
+    "reasoning_tokens": "b326b506",
+    "pricing": "ea08eb92",
+    "capabilities": "e67897df",
+    "modalities": "68e53d93",
+    "tools": "595857a9",
+    "endpoints": "1c48b50a"
+  }
 }

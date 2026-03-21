@@ -7,5 +7,10 @@
   "family": "mistral-small",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "029976f5",
+    "family": "275918a5",
+    "capabilities": "0fa77dc6"
   }
 }

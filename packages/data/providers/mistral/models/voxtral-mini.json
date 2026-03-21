@@ -14,5 +14,12 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "snapshots": ["voxtral-mini-2507", "voxtral-mini-2602"]
+  "snapshots": ["voxtral-mini-2507", "voxtral-mini-2602"],
+  "_generated": {
+    "name": "4120b5ed",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

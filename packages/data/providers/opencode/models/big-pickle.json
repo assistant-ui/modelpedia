@@ -7,5 +7,10 @@
   "status": "active",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "098a94d2",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
   }
 }

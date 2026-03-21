@@ -48,5 +48,21 @@
     ]
   },
   "endpoints": ["responses", "batch"],
+  "_generated": {
+    "name": "27aaf493",
+    "status": "379ac110",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "3f9281a0",
+    "knowledge_cutoff": "b0196d6e",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "c4ca4238",
+    "family": "aa904c16",
+    "reasoning_tokens": "b326b506",
+    "pricing": "2b7917d6",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "endpoints": "6f01fd6c"
+  },
   "snapshots": ["gpt-5-pro-2025-10-06"]
 }

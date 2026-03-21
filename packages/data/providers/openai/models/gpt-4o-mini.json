@@ -64,5 +64,23 @@
     "batch",
     "fine_tuning"
   ],
-  "snapshots": ["gpt-4o-mini-2024-07-18"]
+  "snapshots": ["gpt-4o-mini-2024-07-18"],
+  "_generated": {
+    "name": "db68c78a",
+    "description": "3038ef61",
+    "tagline": "44be8422",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "c81e728d",
+    "speed": "a87ff679",
+    "family": "15249632",
+    "pricing": "0ff1238c",
+    "capabilities": "ac9a94bc",
+    "modalities": "6399757e",
+    "tools": "1d5a765f",
+    "endpoints": "ebc03c48"
+  }
 }

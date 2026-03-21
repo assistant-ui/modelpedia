@@ -13,5 +13,12 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "model_type": "image"
+  "model_type": "image",
+  "_generated": {
+    "name": "480da012",
+    "model_type": "db8857fe",
+    "family": "480da012",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

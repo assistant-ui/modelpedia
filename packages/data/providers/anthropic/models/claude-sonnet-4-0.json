@@ -30,5 +30,19 @@
   },
   "snapshots": ["claude-sonnet-4-20250514"],
   "tools": ["function_calling", "computer_use", "mcp"],
-  "endpoints": ["messages"]
+  "endpoints": ["messages"],
+  "_generated": {
+    "name": "e461c1e5",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "max_output_tokens": "762e98db",
+    "knowledge_cutoff": "3f358a56",
+    "speed": "a87ff679",
+    "family": "68d1c457",
+    "pricing": "399ad924",
+    "capabilities": "a19166f1",
+    "modalities": "6399757e",
+    "tools": "abde16bc",
+    "endpoints": "94bb8b7a"
+  }
 }

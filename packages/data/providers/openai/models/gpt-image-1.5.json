@@ -64,5 +64,18 @@
     ]
   },
   "endpoints": ["batch", "image_generation", "image_edit"],
-  "snapshots": ["gpt-image-1.5-2025-12-16"]
+  "snapshots": ["gpt-image-1.5-2025-12-16"],
+  "_generated": {
+    "name": "d847880f",
+    "description": "c8398602",
+    "tagline": "f1e91911",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "family": "864c34a6",
+    "pricing": "f27acd82",
+    "modalities": "996cb582",
+    "endpoints": "af128fc0"
+  }
 }

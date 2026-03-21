@@ -10,5 +10,10 @@
     "tool_call": true
   },
   "snapshots": ["qwen3-30b-a3b-instruct-2507"],
-  "provider": "qwen"
+  "provider": "qwen",
+  "_generated": {
+    "name": "d7021d0a",
+    "family": "48c385a0",
+    "capabilities": "48995a4e"
+  }
 }

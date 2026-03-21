@@ -13,5 +13,12 @@
     "input": 1,
     "output": 1
   },
-  "snapshots": ["fireworks/mistral-small-24b-instruct-2501"]
+  "snapshots": ["fireworks/mistral-small-24b-instruct-2501"],
+  "_generated": {
+    "name": "6ffd231e",
+    "context_window": "74a190a6",
+    "family": "275918a5",
+    "pricing": "5418a9a1",
+    "capabilities": "0fa77dc6"
+  }
 }

@@ -15,5 +15,14 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "successor": "gemini-3-flash-preview"
+  "successor": "gemini-3-flash-preview",
+  "_generated": {
+    "name": "1e8dae15",
+    "status": "2e2f74dc",
+    "deprecation_date": "10547878",
+    "successor": "9b43126f",
+    "family": "ea6b88bf",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

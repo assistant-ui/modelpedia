@@ -15,5 +15,14 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "successor": "gemini-2.5-flash-lite"
+  "successor": "gemini-2.5-flash-lite",
+  "_generated": {
+    "name": "fd9cf637",
+    "status": "2e2f74dc",
+    "deprecation_date": "c41dad30",
+    "successor": "d833df9b",
+    "family": "dc4aadf6",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

@@ -56,5 +56,22 @@
     "assistants",
     "batch",
     "fine_tuning"
-  ]
+  ],
+  "_generated": {
+    "name": "b5f77eb4",
+    "description": "c50d7249",
+    "tagline": "c50d7249",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "55410616",
+    "max_output_tokens": "f4376436",
+    "knowledge_cutoff": "1d431428",
+    "performance": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "d240daf4",
+    "pricing": "9b4dca77",
+    "capabilities": "ac9a94bc",
+    "modalities": "6399757e",
+    "endpoints": "ebc03c48"
+  }
 }

@@ -58,5 +58,20 @@
     "batch_output": 1
   },
   "endpoints": ["completions"],
-  "snapshots": ["davinci-002"]
+  "snapshots": ["davinci-002"],
+  "_generated": {
+    "name": "b6a39e85",
+    "description": "e3072c59",
+    "tagline": "25a45b8b",
+    "status": "2e2f74dc",
+    "model_type": "d669f408",
+    "max_output_tokens": "c76fe1d8",
+    "knowledge_cutoff": "4778f833",
+    "performance": "c4ca4238",
+    "speed": "eccbc87e",
+    "pricing": "492fd208",
+    "capabilities": "d53dc8e8",
+    "modalities": "68e53d93",
+    "endpoints": "69bfe5cd"
+  }
 }

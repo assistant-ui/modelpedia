@@ -15,6 +15,19 @@
   },
   "endpoints": ["speech_generation"],
   "snapshots": ["gpt-4o-mini-tts-2025-03-20", "gpt-4o-mini-tts-2025-12-15"],
+  "_generated": {
+    "name": "ccd986da",
+    "description": "fe59c67c",
+    "tagline": "1d998aa8",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "performance": "a87ff679",
+    "speed": "a87ff679",
+    "family": "15249632",
+    "pricing": "defc769f",
+    "modalities": "601e776d",
+    "endpoints": "1d7fad2a"
+  },
   "description": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model. Use it to convert text to natural sounding spoken text. The maximum number of input tokens is 2000.",
   "tagline": "Text-to-speech model powered by GPT-4o mini",
   "pricing": {

@@ -15,5 +15,15 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "tagline": "Aya Expanse is a highly performant 32B multilingual model, designed to rival monolingual performance through innovations in instruction tuning with data arbitrage, preference training, and model merging."
+  "tagline": "Aya Expanse is a highly performant 32B multilingual model, designed to rival monolingual performance through innovations in instruction tuning with data arbitrage, preference training, and model merging.",
+  "_generated": {
+    "name": "7706ef3f",
+    "description": "644e899b",
+    "tagline": "fc27906d",
+    "status": "379ac110",
+    "context_window": "34434798",
+    "max_output_tokens": "1bd69c7d",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  }
 }

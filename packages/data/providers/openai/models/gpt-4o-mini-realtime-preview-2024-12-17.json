@@ -50,5 +50,21 @@
       }
     ]
   },
-  "endpoints": ["realtime"]
+  "endpoints": ["realtime"],
+  "_generated": {
+    "name": "e3c38815",
+    "description": "43731883",
+    "tagline": "43731883",
+    "status": "379ac110",
+    "context_window": "67510c89",
+    "max_output_tokens": "f7efa4f8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "c81e728d",
+    "speed": "e4da3b7f",
+    "family": "15249632",
+    "pricing": "3461fbb1",
+    "capabilities": "ce9e2425",
+    "modalities": "cf05925d",
+    "endpoints": "c7ed7203"
+  }
 }

@@ -71,5 +71,26 @@
   "pricing_notes": [
     "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 nano."
   ],
-  "snapshots": ["gpt-5.4-nano-2026-03-17"]
+  "snapshots": ["gpt-5.4-nano-2026-03-17"],
+  "_generated": {
+    "name": "7cdda0eb",
+    "description": "f8b66567",
+    "tagline": "37bf3cf0",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "3f9281a0",
+    "knowledge_cutoff": "5549a2cd",
+    "performance": "eccbc87e",
+    "reasoning": "eccbc87e",
+    "speed": "a87ff679",
+    "family": "4651e8f0",
+    "reasoning_tokens": "b326b506",
+    "pricing": "93b5f44a",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "tools": "54d089fc",
+    "endpoints": "88e8abb4"
+  }
 }

@@ -37287,6 +37287,29 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "mistralai/pixtral-12b",
+        "name": "Mistral: Pixtral 12B",
+        "created_by": "mistral",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "pixtral",
+        "description": "The first multi-modal, text+image-to-text model from Mistral AI.",
+        "context_window": 32768,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.1
+        }
+      },
+      {
         "id": "mistralai/pixtral-large-2411",
         "name": "Mistral: Pixtral Large 2411",
         "created_by": "mistral",
@@ -37685,6 +37708,32 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1.2,
           "output": 1.2
+        }
+      },
+      {
+        "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+        "name": "NVIDIA: Llama 3.1 Nemotron Ultra 253B v1",
+        "created_by": "nvidia",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "llama-3.1",
+        "description": "Llama-3.1-Nemotron-Ultra-253B-v1 is a large language model (LLM) optimized for advanced reasoning, human-interactive chat, retrieval-augmented generation (RAG), and tool-calling tasks.",
+        "context_window": 131072,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "capabilities": {
+          "structured_output": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.6,
+          "output": 1.8
         }
       },
       {

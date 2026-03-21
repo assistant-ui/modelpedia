@@ -16,5 +16,15 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "endpoints": ["batch", "moderation"]
+  "endpoints": ["batch", "moderation"],
+  "_generated": {
+    "name": "3124aa35",
+    "status": "379ac110",
+    "model_type": "1e7a7b87",
+    "performance": "eccbc87e",
+    "speed": "eccbc87e",
+    "capabilities": "d3117eb0",
+    "modalities": "6399757e",
+    "endpoints": "5692bd6c"
+  }
 }

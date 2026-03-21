@@ -14,5 +14,10 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "snapshots": ["mistral-document-ai-2512", "mistral-document-ai-2505"]
+  "snapshots": ["mistral-document-ai-2512", "mistral-document-ai-2505"],
+  "_generated": {
+    "name": "d6abe3a0",
+    "capabilities": "ee30ca00",
+    "modalities": "6399757e"
+  }
 }

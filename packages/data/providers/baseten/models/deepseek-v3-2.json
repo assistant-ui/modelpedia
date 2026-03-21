@@ -7,5 +7,10 @@
   "family": "deepseek",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "18d43061",
+    "family": "4b81b92d",
+    "capabilities": "0fa77dc6"
   }
 }

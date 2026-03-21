@@ -47,5 +47,25 @@
   },
   "tools": ["function_calling", "web_search"],
   "endpoints": ["responses"],
-  "snapshots": ["gpt-5.1-codex"]
+  "snapshots": ["gpt-5.1-codex"],
+  "_generated": {
+    "name": "c6ccf75f",
+    "description": "6b6fe9a2",
+    "tagline": "2c19f735",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "knowledge_cutoff": "b0196d6e",
+    "performance": "a87ff679",
+    "reasoning": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "2089aff2",
+    "reasoning_tokens": "b326b506",
+    "pricing": "53068594",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "tools": "4db09141",
+    "endpoints": "acb164ea"
+  }
 }

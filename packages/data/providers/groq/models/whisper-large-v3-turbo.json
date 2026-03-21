@@ -10,5 +10,12 @@
   "modalities": {
     "input": ["audio"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "134833fb",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "family": "7fbc43e3",
+    "modalities": "b8e84832"
   }
 }

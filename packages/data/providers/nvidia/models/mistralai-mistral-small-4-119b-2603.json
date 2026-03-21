@@ -8,5 +8,10 @@
   "alias": "mistralai/mistral-small-4-119b",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "9ffaccc5",
+    "family": "275918a5",
+    "capabilities": "0fa77dc6"
   }
 }

@@ -13,5 +13,12 @@
     "input": 1,
     "output": 1
   },
-  "snapshots": ["fireworks/qwen3-4b-instruct-2507"]
+  "snapshots": ["fireworks/qwen3-4b-instruct-2507"],
+  "_generated": {
+    "name": "74919cfe",
+    "context_window": "b23f4471",
+    "family": "48c385a0",
+    "pricing": "5418a9a1",
+    "capabilities": "0fa77dc6"
+  }
 }

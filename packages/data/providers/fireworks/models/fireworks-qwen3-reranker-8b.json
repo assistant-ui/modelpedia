@@ -13,5 +13,13 @@
     "input": 0.2,
     "output": 1
   },
-  "model_type": "rerank"
+  "model_type": "rerank",
+  "_generated": {
+    "name": "4fdf86e9",
+    "model_type": "477930e6",
+    "context_window": "225178b1",
+    "family": "48c385a0",
+    "pricing": "10b547f8",
+    "capabilities": "0fa77dc6"
+  }
 }

@@ -50,5 +50,24 @@
       }
     ]
   },
-  "endpoints": ["responses", "batch"]
+  "endpoints": ["responses", "batch"],
+  "_generated": {
+    "name": "c7c5eedf",
+    "description": "e446c1c2",
+    "tagline": "e446c1c2",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "03e6c616",
+    "max_output_tokens": "14ee22ea",
+    "knowledge_cutoff": "1d431428",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "c4ca4238",
+    "family": "193049bc",
+    "reasoning_tokens": "b326b506",
+    "pricing": "03b07ed1",
+    "capabilities": "8d009641",
+    "modalities": "6399757e",
+    "endpoints": "6f01fd6c"
+  }
 }

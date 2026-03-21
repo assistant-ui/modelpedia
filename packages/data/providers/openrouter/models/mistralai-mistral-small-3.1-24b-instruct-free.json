@@ -16,5 +16,15 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true
+  },
+  "_generated": {
+    "name": "afaae4f1",
+    "description": "e17c207d",
+    "status": "2e2f74dc",
+    "context_window": "34434798",
+    "deprecation_date": "c019c0fb",
+    "family": "275918a5",
+    "capabilities": "ad177261",
+    "modalities": "6399757e"
   }
 }

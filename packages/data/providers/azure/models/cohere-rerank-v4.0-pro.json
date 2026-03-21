@@ -13,5 +13,11 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "model_type": "rerank"
+  "model_type": "rerank",
+  "_generated": {
+    "name": "221b48dd",
+    "model_type": "477930e6",
+    "capabilities": "6c301a15",
+    "modalities": "68e53d93"
+  }
 }

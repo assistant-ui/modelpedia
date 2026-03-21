@@ -63,5 +63,18 @@
     ]
   },
   "endpoints": ["batch", "image_edit", "image_generation"],
-  "snapshots": ["gpt-image-1-mini"]
+  "snapshots": ["gpt-image-1-mini"],
+  "_generated": {
+    "name": "f3697652",
+    "description": "f23850fe",
+    "tagline": "0204dbdd",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "performance": "a87ff679",
+    "speed": "c4ca4238",
+    "family": "480da012",
+    "pricing": "0d2e6065",
+    "modalities": "bbf9b8bb",
+    "endpoints": "d1ef3613"
+  }
 }

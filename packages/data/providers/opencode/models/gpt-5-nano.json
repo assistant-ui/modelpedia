@@ -8,5 +8,11 @@
   "status": "active",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "4a5f2bfc",
+    "status": "379ac110",
+    "family": "aa904c16",
+    "capabilities": "0fa77dc6"
   }
 }

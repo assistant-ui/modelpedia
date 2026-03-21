@@ -1,4 +1,5 @@
 import { execSync } from "node:child_process";
+import { createHash } from "node:crypto";
 import * as fs from "node:fs";
 import * as path from "node:path";
 
@@ -57,6 +58,14 @@ export function envOrNull(...names: string[]): string | null {
 }
 
 // ── Utils ──
+
+/** Short hash of a JSON value for change detection. */
+function hashValue(val: unknown): string {
+  return createHash("md5")
+    .update(JSON.stringify(val))
+    .digest("hex")
+    .slice(0, 8);
+}
 
 export function sanitizeModelId(id: string): string {
   return id.replace(/[^a-z0-9._-]/gi, "-").toLowerCase();
@@ -338,6 +347,10 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     return false;
   }
 
+  // _generated: hash of each field's value when last written by script.
+  // If a field's current hash differs from _generated, a user manually changed it → preserve it.
+  const generated = (existing?._generated as Record<string, string>) ?? {};
+
   // Start from existing data to preserve all fields, then overlay new values
   const data: Record<string, unknown> = existing ? { ...existing } : {};
 
@@ -444,12 +457,71 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
   const allSnapshots = [...new Set([...existingSnapshots, ...newSnapshots])];
   if (allSnapshots.length > 0) data.snapshots = allSnapshots;
 
+  const TRACKED_FIELDS = [
+    "name",
+    "description",
+    "tagline",
+    "status",
+    "model_type",
+    "context_window",
+    "max_context_window",
+    "max_output_tokens",
+    "max_input_tokens",
+    "knowledge_cutoff",
+    "release_date",
+    "deprecation_date",
+    "performance",
+    "reasoning",
+    "speed",
+    "successor",
+    "family",
+    "reasoning_tokens",
+    "pricing",
+    "capabilities",
+    "modalities",
+    "tools",
+    "endpoints",
+  ];
+
+  // Protection: detect user-modified fields and preserve them.
+  // _generated stores short hashes of each field's value when last written by script.
+  //
+  // Decision matrix:
+  //   user changed + script unchanged → keep user value (intentional fix)
+  //   user changed + script also changed → use script value (upstream updated)
+  //   user unchanged → use script value (normal update)
+  const newGenerated: Record<string, string> = {};
+  for (const field of TRACKED_FIELDS) {
+    if (data[field] === undefined) continue;
+    const scriptHash = hashValue(data[field]);
+    newGenerated[field] = scriptHash;
+
+    if (existing) {
+      const currentVal = existing[field];
+      const lastGenHash = generated[field];
+      if (currentVal !== undefined && lastGenHash !== undefined) {
+        const userChanged = hashValue(currentVal) !== lastGenHash;
+        const scriptChanged = scriptHash !== lastGenHash;
+
+        if (userChanged && !scriptChanged) {
+          // User modified the field, but script still has the same old value
+          // → user's fix is intentional, preserve it
+          data[field] = currentVal;
+          newGenerated[field] = lastGenHash;
+        }
+        // If both changed: script wins (upstream data updated, user's fix may be stale)
+        // If neither changed: no conflict
+      }
+    }
+  }
+  data._generated = newGenerated;
+
   // Diff: log what changed and record to changes
   if (existing) {
     const changedFields: Record<string, { from: unknown; to: unknown }> = {};
     for (const [k, v] of Object.entries(data)) {
       const oldVal = existing[k];
-      if (k === "last_updated") continue;
+      if (k === "last_updated" || k === "_generated") continue;
       if (JSON.stringify(v) !== JSON.stringify(oldVal)) {
         changedFields[k] = { from: oldVal, to: v };
       }

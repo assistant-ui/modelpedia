@@ -24,5 +24,15 @@
     "mistral-medium-2505",
     "mistral-medium-2312"
   ],
-  "deprecation_date": "2024-11-30"
+  "deprecation_date": "2024-11-30",
+  "_generated": {
+    "name": "a57f1b52",
+    "status": "2e2f74dc",
+    "context_window": "10e4d788",
+    "deprecation_date": "05154b0e",
+    "family": "a57f1b52",
+    "pricing": "70b90c36",
+    "capabilities": "8a3b232e",
+    "modalities": "68e53d93"
+  }
 }

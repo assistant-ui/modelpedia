@@ -31,5 +31,21 @@
   },
   "tagline": "The most intelligent model for building agents and coding",
   "tools": ["function_calling", "computer_use", "mcp"],
-  "endpoints": ["messages"]
+  "endpoints": ["messages"],
+  "_generated": {
+    "name": "3b695ed7",
+    "description": "38adf84d",
+    "tagline": "38adf84d",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "knowledge_cutoff": "44aded18",
+    "speed": "eccbc87e",
+    "family": "4e4c4b18",
+    "pricing": "44184056",
+    "capabilities": "a19166f1",
+    "modalities": "6399757e",
+    "tools": "abde16bc",
+    "endpoints": "94bb8b7a"
+  }
 }

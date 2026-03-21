@@ -7,5 +7,9 @@
   "capabilities": {
     "streaming": true
   },
-  "snapshots": ["mistralai/magistral-small-2506"]
+  "snapshots": ["mistralai/magistral-small-2506"],
+  "_generated": {
+    "name": "836408f3",
+    "capabilities": "0fa77dc6"
+  }
 }

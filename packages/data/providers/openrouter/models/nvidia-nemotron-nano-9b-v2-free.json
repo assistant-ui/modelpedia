@@ -14,5 +14,12 @@
     "tool_call": true,
     "structured_output": true,
     "reasoning": true
+  },
+  "_generated": {
+    "name": "f60d8861",
+    "description": "192cbb95",
+    "context_window": "34434798",
+    "capabilities": "f533f522",
+    "modalities": "68e53d93"
   }
 }

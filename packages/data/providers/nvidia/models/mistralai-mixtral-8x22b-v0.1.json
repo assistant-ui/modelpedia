@@ -7,5 +7,10 @@
   "family": "mixtral",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "0b6991d8",
+    "family": "3c47d372",
+    "capabilities": "0fa77dc6"
   }
 }

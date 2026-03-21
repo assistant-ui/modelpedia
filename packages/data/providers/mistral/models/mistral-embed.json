@@ -15,5 +15,13 @@
     "output": ["text"]
   },
   "snapshots": ["mistral-embed-2312"],
-  "model_type": "embed"
+  "model_type": "embed",
+  "_generated": {
+    "name": "230fa4c3",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "67ff32d4",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

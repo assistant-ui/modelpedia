@@ -50,5 +50,21 @@
     ]
   },
   "endpoints": ["realtime"],
-  "snapshots": ["gpt-4o-mini-realtime-preview-2024-12-17"]
+  "snapshots": ["gpt-4o-mini-realtime-preview-2024-12-17"],
+  "_generated": {
+    "name": "88076f86",
+    "description": "43731883",
+    "tagline": "b68f062a",
+    "status": "379ac110",
+    "context_window": "67510c89",
+    "max_output_tokens": "f7efa4f8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "c81e728d",
+    "speed": "e4da3b7f",
+    "family": "15249632",
+    "pricing": "3461fbb1",
+    "capabilities": "ce9e2425",
+    "modalities": "cf05925d",
+    "endpoints": "c7ed7203"
+  }
 }

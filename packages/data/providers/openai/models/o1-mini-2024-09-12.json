@@ -49,5 +49,24 @@
       }
     ]
   },
-  "endpoints": ["chat_completions", "assistants"]
+  "endpoints": ["chat_completions", "assistants"],
+  "_generated": {
+    "name": "109b6b1e",
+    "description": "211238ed",
+    "tagline": "e5702aa7",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "34434798",
+    "max_output_tokens": "297ce0b3",
+    "knowledge_cutoff": "7b971392",
+    "performance": "eccbc87e",
+    "reasoning": "eccbc87e",
+    "speed": "c81e728d",
+    "family": "e1ab0820",
+    "reasoning_tokens": "b326b506",
+    "pricing": "ea08eb92",
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "endpoints": "6558e44b"
+  }
 }

@@ -7,5 +7,9 @@
   "alias": "unsloth/Mistral-Small-24B-Instruct",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "3da8d5c4",
+    "capabilities": "0fa77dc6"
   }
 }

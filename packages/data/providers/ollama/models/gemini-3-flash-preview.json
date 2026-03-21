@@ -7,5 +7,10 @@
   "family": "gemini-3",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "9b43126f",
+    "family": "eb14e598",
+    "capabilities": "0fa77dc6"
   }
 }

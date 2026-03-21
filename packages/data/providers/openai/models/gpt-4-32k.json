@@ -28,5 +28,11 @@
     "output": 120,
     "batch_input": 30,
     "batch_output": 60
+  },
+  "_generated": {
+    "name": "677f805a",
+    "status": "379ac110",
+    "family": "1be4bcd3",
+    "pricing": "cc553674"
   }
 }

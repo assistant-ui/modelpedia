@@ -19,5 +19,16 @@
     "output": 0.42,
     "cached_input": 0.028
   },
-  "tagline": "DeepSeek-V3.2 in thinking mode with chain-of-thought reasoning."
+  "tagline": "DeepSeek-V3.2 in thinking mode with chain-of-thought reasoning.",
+  "_generated": {
+    "name": "25e40429",
+    "description": "49f800f1",
+    "tagline": "49f800f1",
+    "context_window": "34434798",
+    "max_output_tokens": "762e98db",
+    "family": "fbd79fd9",
+    "reasoning_tokens": "b326b506",
+    "pricing": "f1b8e1d4",
+    "capabilities": "54eccddc"
+  }
 }

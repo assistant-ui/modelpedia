@@ -9,5 +9,10 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true
+  },
+  "_generated": {
+    "name": "c693f31c",
+    "family": "48c385a0",
+    "capabilities": "48995a4e"
   }
 }

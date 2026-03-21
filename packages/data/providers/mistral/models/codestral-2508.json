@@ -20,5 +20,15 @@
     "input": 0.3,
     "output": 0.9
   },
-  "model_type": "code"
+  "model_type": "code",
+  "_generated": {
+    "name": "d2f3d216",
+    "status": "379ac110",
+    "model_type": "b6cc3ff4",
+    "context_window": "34434798",
+    "family": "a0734f6e",
+    "pricing": "8eb8395f",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

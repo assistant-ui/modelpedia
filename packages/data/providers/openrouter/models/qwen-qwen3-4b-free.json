@@ -17,5 +17,15 @@
     "tool_call": true,
     "structured_output": true,
     "reasoning": true
+  },
+  "_generated": {
+    "name": "a1442a65",
+    "description": "cd4026e4",
+    "status": "2e2f74dc",
+    "context_window": "a422a18c",
+    "deprecation_date": "c019c0fb",
+    "family": "48c385a0",
+    "capabilities": "f533f522",
+    "modalities": "68e53d93"
   }
 }

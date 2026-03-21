@@ -10,5 +10,14 @@
   "model_type": "chat",
   "tagline": "An older fast GPT model",
   "successor": "gpt-4o",
-  "snapshots": ["gpt-4-0125-preview", "gpt-4-1106-vision-preview"]
+  "snapshots": ["gpt-4-0125-preview", "gpt-4-1106-vision-preview"],
+  "_generated": {
+    "name": "9a4520ae",
+    "description": "b7a67cc4",
+    "tagline": "852f051a",
+    "status": "2e2f74dc",
+    "model_type": "d669f408",
+    "successor": "15249632",
+    "family": "e55097d8"
+  }
 }

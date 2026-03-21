@@ -14,5 +14,12 @@
   "pricing": {
     "input": 0.17,
     "output": 0.66
+  },
+  "_generated": {
+    "name": "862df853",
+    "context_window": "a683b9ae",
+    "family": "3169363f",
+    "pricing": "cacab766",
+    "capabilities": "fc36814c"
   }
 }

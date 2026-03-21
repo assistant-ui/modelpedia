@@ -63,5 +63,23 @@
     "batch",
     "fine_tuning"
   ],
-  "snapshots": ["gpt-4.1-nano-2025-04-14"]
+  "snapshots": ["gpt-4.1-nano-2025-04-14"],
+  "_generated": {
+    "name": "f6396fa5",
+    "description": "7ca18e8b",
+    "tagline": "a2353111",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "55410616",
+    "max_output_tokens": "f4376436",
+    "knowledge_cutoff": "1d431428",
+    "performance": "c81e728d",
+    "speed": "e4da3b7f",
+    "family": "d240daf4",
+    "pricing": "aa763141",
+    "capabilities": "ac9a94bc",
+    "modalities": "6399757e",
+    "tools": "d529f254",
+    "endpoints": "ebc03c48"
+  }
 }

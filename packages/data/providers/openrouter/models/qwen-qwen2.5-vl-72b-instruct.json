@@ -18,5 +18,15 @@
   "pricing": {
     "input": 0.8,
     "output": 0.8
+  },
+  "_generated": {
+    "name": "ec3a5805",
+    "description": "0e976ecc",
+    "context_window": "f4376436",
+    "max_output_tokens": "f4376436",
+    "family": "45d84b68",
+    "pricing": "7a3cce81",
+    "capabilities": "c8033cf7",
+    "modalities": "6399757e"
   }
 }

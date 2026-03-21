@@ -33,5 +33,20 @@
     ]
   },
   "endpoints": ["moderation"],
-  "snapshots": ["text-moderation-007"]
+  "snapshots": ["text-moderation-007"],
+  "_generated": {
+    "name": "af24ddfe",
+    "description": "282d0144",
+    "tagline": "a3ee833f",
+    "status": "2e2f74dc",
+    "model_type": "1e7a7b87",
+    "max_output_tokens": "f4376436",
+    "knowledge_cutoff": "4778f833",
+    "performance": "c81e728d",
+    "speed": "eccbc87e",
+    "successor": "5da37138",
+    "pricing": "8f4ac140",
+    "modalities": "68e53d93",
+    "endpoints": "edf79423"
+  }
 }

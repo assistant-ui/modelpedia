@@ -8,5 +8,9 @@
     "streaming": true,
     "tool_call": true,
     "vision": true
+  },
+  "_generated": {
+    "name": "d5ab9a5d",
+    "capabilities": "1a260abc"
   }
 }

@@ -22,5 +22,14 @@
     "input": 0.6,
     "output": 1.2
   },
-  "snapshots": ["qwen-3-235b-a22b-instruct-2507"]
+  "snapshots": ["qwen-3-235b-a22b-instruct-2507"],
+  "_generated": {
+    "name": "0e92c900",
+    "context_window": "834bd590",
+    "max_output_tokens": "7c77f048",
+    "family": "a3af76f3",
+    "pricing": "11cfe106",
+    "capabilities": "e09c781c",
+    "modalities": "68e53d93"
+  }
 }

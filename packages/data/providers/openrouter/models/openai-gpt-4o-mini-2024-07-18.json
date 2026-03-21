@@ -20,5 +20,15 @@
     "input": 0.15,
     "output": 0.6,
     "cached_input": 0.075
+  },
+  "_generated": {
+    "name": "3565492b",
+    "description": "ab999886",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "family": "15249632",
+    "pricing": "12b717db",
+    "capabilities": "ad177261",
+    "modalities": "6399757e"
   }
 }

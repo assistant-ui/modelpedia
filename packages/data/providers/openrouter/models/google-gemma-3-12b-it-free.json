@@ -11,5 +11,13 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "a8b46ca9",
+    "description": "74f4d36c",
+    "context_window": "f4376436",
+    "max_output_tokens": "77441296",
+    "family": "d9e10ad8",
+    "modalities": "6399757e"
   }
 }

@@ -11,5 +11,11 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "model_type": "video"
+  "model_type": "video",
+  "_generated": {
+    "name": "3d185d44",
+    "model_type": "4d1b75ca",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  }
 }
