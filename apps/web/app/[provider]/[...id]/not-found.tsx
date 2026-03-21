@@ -15,7 +15,7 @@ export default function ModelNotFound() {
         <ButtonLink href="/">Back to home</ButtonLink>
         <ButtonLink href="/models">Browse models</ButtonLink>
         <ButtonAnchor
-          href="https://github.com/assistant-ui/ai-model/issues/new?title=Missing+model:+&labels=missing-model"
+          href="https://github.com/assistant-ui/modelpedia/issues/new?title=Missing+model:+&labels=missing-model"
           target="_blank"
           rel="noopener noreferrer"
         >

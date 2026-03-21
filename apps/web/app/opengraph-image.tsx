@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { allModels, providers } from "@/lib/data";
 
 export const runtime = "nodejs";
-export const alt = "AI Model Registry";
+export const alt = "modelpedia";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -43,10 +43,10 @@ export default function OGImage() {
             color: "#0a0a0b",
           }}
         >
-          AI
+          M
         </div>
         <div style={{ display: "flex", fontSize: 18, color: "#71717a" }}>
-          ai-model.dev
+          modelpedia.dev
         </div>
       </div>
 
@@ -66,7 +66,7 @@ export default function OGImage() {
             letterSpacing: "-0.03em",
           }}
         >
-          AI Model Registry
+          modelpedia
         </div>
         <div
           style={{

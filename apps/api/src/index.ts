@@ -1,13 +1,13 @@
-import type { Model } from "ai-model";
-import { allModels, getModel, getProvider, providers } from "ai-model";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { prettyJSON } from "hono/pretty-json";
+import type { Model } from "modelpedia";
+import { allModels, getModel, getProvider, providers } from "modelpedia";
 
 const api = new Hono();
 
 // Root → redirect to docs
-api.get("/", (c) => c.redirect("https://ai-model.dev/docs/api", 302));
+api.get("/", (c) => c.redirect("https://modelpedia.dev/docs/api", 302));
 
 const app = new Hono();
 

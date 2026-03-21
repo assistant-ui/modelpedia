@@ -1,4 +1,4 @@
-# AI Model Registry
+# modelpedia
 
 Open catalog of AI models across providers. Compare specs, pricing, and capabilities.
 
@@ -6,10 +6,10 @@ Open catalog of AI models across providers. Compare specs, pricing, and capabili
 
 ```
 apps/
-  web/        → Next.js website (ai-model.dev)
-  api/        → Hono API (api.ai-model.dev)
+  web/        → Next.js website (modelpedia.dev)
+  api/        → Hono API (api.modelpedia.dev)
 packages/
-  data/       → Model data package (npm: ai-model)
+  data/       → Model data package (npm: modelpedia)
   tsconfig/   → Shared TypeScript configs
 ```
 

@@ -1,5 +1,5 @@
 {
-  "name": "@ai-model/api",
+  "name": "@modelpedia/api",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -10,7 +10,7 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
-    "ai-model": "workspace:*",
+    "modelpedia": "workspace:*",
     "hono": "catalog:"
   },
   "devDependencies": {

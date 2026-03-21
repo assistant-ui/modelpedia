@@ -62,12 +62,12 @@ importers:
 
   apps/api:
     dependencies:
-      ai-model:
-        specifier: workspace:*
-        version: link:../../packages/data
       hono:
         specifier: 'catalog:'
         version: 4.12.8
+      modelpedia:
+        specifier: workspace:*
+        version: link:../../packages/data
     devDependencies:
       wrangler:
         specifier: 'catalog:'
@@ -81,9 +81,6 @@ importers:
       '@tanstack/react-table':
         specifier: ^8.21.3
         version: 8.21.3(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      ai-model:
-        specifier: workspace:*
-        version: link:../../packages/data
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -96,6 +93,9 @@ importers:
       lucide-react:
         specifier: ^0.577.0
         version: 0.577.0(react@19.2.4)
+      modelpedia:
+        specifier: workspace:*
+        version: link:../../packages/data
       next:
         specifier: 'catalog:'
         version: 16.2.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)

@@ -10,7 +10,7 @@ export default function NotFound() {
       <div className="mt-6 flex flex-wrap gap-3">
         <ButtonLink href="/">Back to home</ButtonLink>
         <ButtonAnchor
-          href="https://github.com/assistant-ui/ai-model/issues/new"
+          href="https://github.com/assistant-ui/modelpedia/issues/new"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -62,7 +62,7 @@ export async function GET(
 
 function renderHome(): string {
   return [
-    "# AI Model Registry",
+    "# modelpedia",
     "",
     `${allModels.length} models across ${providers.length} providers.`,
     "",
@@ -74,7 +74,7 @@ function renderHome(): string {
     ),
     "",
     `Browse: /<provider>, /<provider>/<model_id>, /docs/api`,
-    `API: https://api.ai-model.dev/v1/models, https://api.ai-model.dev/v1/providers, https://api.ai-model.dev/v1/stats`,
+    `API: https://api.modelpedia.dev/v1/models, https://api.modelpedia.dev/v1/providers, https://api.modelpedia.dev/v1/stats`,
   ].join("\n");
 }
 
@@ -155,10 +155,10 @@ function renderCompare(): string {
     "Use the API to compare models:",
     "",
     "```",
-    "GET https://api.ai-model.dev/v1/models/compare?ids=openai/gpt-4o,anthropic/claude-sonnet-4-6",
+    "GET https://api.modelpedia.dev/v1/models/compare?ids=openai/gpt-4o,anthropic/claude-sonnet-4-6",
     "```",
     "",
-    "Or browse the compare page at https://ai-model.dev/compare",
+    "Or browse the compare page at https://modelpedia.dev/compare",
   ].join("\n");
 }
 
@@ -201,7 +201,7 @@ function renderApiDocs(): string {
   return [
     "# API Reference",
     "",
-    "Base URL: `https://api.ai-model.dev/v1`",
+    "Base URL: `https://api.modelpedia.dev/v1`",
     "",
     "JSON · No authentication · CORS enabled",
     "",
@@ -304,6 +304,7 @@ function renderModel(provider: string, id: string): string | null {
     "## Specifications",
     "",
     `- **Context window**: ${model.context_window != null ? `${formatTokens(model.context_window)} tokens` : "—"}`,
+    `- **Max context window**: ${model.max_context_window != null ? `${formatTokens(model.max_context_window)} tokens` : "—"}`,
     `- **Max output**: ${model.max_output_tokens != null ? `${formatTokens(model.max_output_tokens)} tokens` : "—"}`,
     `- **Max input**: ${model.max_input_tokens != null ? `${formatTokens(model.max_input_tokens)} tokens` : "—"}`,
     `- **Input modalities**: ${model.modalities?.input?.join(", ") ?? "—"}`,
@@ -319,8 +320,10 @@ function renderModel(provider: string, id: string): string | null {
       lines.push(`| Input | $${model.pricing.input} |`);
     if (model.pricing.output != null)
       lines.push(`| Output | $${model.pricing.output} |`);
+    if (model.pricing.cache_write != null)
+      lines.push(`| Cache write | $${model.pricing.cache_write} |`);
     if (model.pricing.cached_input != null)
-      lines.push(`| Cached input | $${model.pricing.cached_input} |`);
+      lines.push(`| Cache read | $${model.pricing.cached_input} |`);
     if (model.pricing.batch_input != null)
       lines.push(`| Batch input | $${model.pricing.batch_input} |`);
     if (model.pricing.batch_output != null)
@@ -351,7 +354,7 @@ function renderModel(provider: string, id: string): string | null {
     "## API",
     "",
     "```",
-    `GET https://api.ai-model.dev/v1/models/${model.provider}/${model.id}`,
+    `GET https://api.modelpedia.dev/v1/models/${model.provider}/${model.id}`,
     "```",
   );
 
