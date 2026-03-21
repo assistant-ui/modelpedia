@@ -1,0 +1,136 @@
+name: Fetch Model Data
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: fetch-models
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Build data package
+        run: pnpm --filter ai-model build
+
+      - name: Fetch all providers
+        working-directory: packages/data
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+        run: |
+          scripts=(
+            fetch:openai fetch:anthropic fetch:google fetch:mistral
+            fetch:deepseek fetch:xai fetch:cohere fetch:zai
+            fetch:minimax fetch:alibaba fetch:meta fetch:moonshot
+            fetch:cerebras fetch:baseten fetch:openrouter fetch:perplexity
+            fetch:azure fetch:groq fetch:nvidia fetch:together
+            fetch:fireworks fetch:amazon fetch:vercel fetch:vertex
+            fetch:cloudflare fetch:opencode fetch:ollama fetch:huggingface
+            fetch:qwen
+          )
+          for script in "${scripts[@]}"; do
+            echo "::group::$script"
+            bun run "$script" || echo "::warning::$script failed"
+            echo "::endgroup::"
+          done
+
+      - name: Regenerate data
+        working-directory: packages/data
+        run: bun run generate
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet packages/data/providers packages/data/src; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "### Changes detected" >> $GITHUB_STEP_SUMMARY
+            git diff --stat packages/data/providers >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Detect changes and create PR
+        if: steps.changes.outputs.changed == 'true'
+        working-directory: packages/data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd "$GITHUB_WORKSPACE"
+
+          BRANCH="data/update-$(date +%Y%m%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+
+          # Stage provider data and generated files, commit first to get a SHA
+          git add packages/data/providers packages/data/src/data.ts
+          git commit -m "data: update model data $(date +%Y-%m-%d)"
+          SHA=$(git rev-parse HEAD)
+
+          # Detect changes vs parent commit and write to changelog.jsonl
+          cd packages/data
+          bun run changes -- HEAD~1
+          cd "$GITHUB_WORKSPACE"
+
+          # Backfill commit SHA into new changelog entries (those without a commit field)
+          node -e "
+            const fs = require('fs');
+            const f = 'packages/data/changes/changelog.jsonl';
+            const lines = fs.readFileSync(f, 'utf-8').trimEnd().split('\n');
+            const out = lines.map(l => {
+              const e = JSON.parse(l);
+              if (!e.commit) e.commit = '${SHA}';
+              return JSON.stringify(e);
+            }).join('\n') + '\n';
+            fs.writeFileSync(f, out);
+          "
+
+          # Amend commit with changelog
+          git add packages/data/changes/changelog.jsonl
+          git commit --amend --no-edit
+
+          git push origin "$BRANCH"
+
+          # Generate PR body from changelog
+          SUMMARY=$(cd packages/data && bun run changes -- HEAD~1 --dry-run 2>&1 | tail -n +2)
+
+          gh pr create \
+            --title "data: update model data $(date +%Y-%m-%d)" \
+            --body "$(cat <<EOF
+          ## Automated model data update
+
+          $SUMMARY
+
+          > Auto-created by the fetch-models workflow.
+          EOF
+          )"
