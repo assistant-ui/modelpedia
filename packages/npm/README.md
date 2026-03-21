@@ -50,11 +50,24 @@ console.log(provider?.name); // "Anthropic"
 console.log(provider?.api_url); // "https://api.anthropic.com/v1"
 ```
 
+### Per-provider imports
+
+Import only the provider you need for smaller bundle size:
+
+```typescript
+import { provider, models } from "modelpedia/openai";
+console.log(provider.name); // "OpenAI"
+console.log(models.length); // 151
+
+import { models as anthropicModels } from "modelpedia/anthropic";
+import { models as googleModels } from "modelpedia/google";
+```
+
+Available: `modelpedia/openai`, `modelpedia/anthropic`, `modelpedia/google`, `modelpedia/mistral`, `modelpedia/deepseek`, `modelpedia/xai`, and 24 more.
+
 ## Data Structure
 
 ### Model
-
-Each model includes:
 
 | Field | Type | Description |
 |-------|------|-------------|
@@ -63,19 +76,41 @@ Each model includes:
 | `provider` | `string` | Provider ID (e.g. `"openai"`) |
 | `created_by` | `string` | Original creator (may differ from provider) |
 | `family` | `string?` | Model family/series (e.g. `"gpt-4o"`) |
+| `description` | `string?` | Model description |
+| `tagline` | `string?` | One-line summary |
 | `status` | `"active" \| "deprecated" \| "preview"` | Lifecycle status |
+| `model_type` | `string?` | `chat`, `reasoning`, `embed`, `image`, `video`, `tts`, `transcription`, `moderation`, `rerank`, `code` |
 | `context_window` | `number?` | Default context window (tokens) |
 | `max_output_tokens` | `number?` | Maximum output tokens |
-| `pricing` | `ModelPricing?` | Pricing per 1M tokens (input, output, cache, batch) |
+| `knowledge_cutoff` | `string?` | Training data cutoff (`YYYY-MM` or `YYYY-MM-DD`) |
+| `pricing` | `ModelPricing?` | Pricing per 1M tokens + detailed tiers |
 | `capabilities` | `ModelCapabilities?` | vision, tool_call, streaming, reasoning, etc. |
-| `modalities` | `ModelModalities?` | Input/output modality support |
+| `modalities` | `ModelModalities?` | Input/output modality support (text, image, audio, video) |
+| `tools` | `string[]?` | Supported tools (function_calling, web_search, mcp, etc.) |
+| `endpoints` | `string[]?` | Supported API endpoints (chat_completions, responses, batch, etc.) |
+| `successor` | `string?` | Recommended replacement model (for deprecated models) |
 | `performance` | `number?` | Intelligence rating (1-5) |
 | `reasoning` | `number?` | Reasoning rating (1-5) |
 | `speed` | `number?` | Speed rating (1-5) |
 
-### Provider
+### Pricing
 
-Each provider includes:
+Flat fields for quick access:
+
+```typescript
+model.pricing?.input       // USD per 1M input tokens
+model.pricing?.output      // USD per 1M output tokens
+model.pricing?.cached_input // USD per 1M cached input tokens
+model.pricing?.batch_input  // USD per 1M batch input tokens
+```
+
+Detailed tiers for models with multiple pricing categories:
+
+```typescript
+model.pricing?.tiers  // PricingTier[] — text tokens, audio tokens, image generation, etc.
+```
+
+### Provider
 
 | Field | Type | Description |
 |-------|------|-------------|
@@ -89,12 +124,12 @@ Each provider includes:
 
 ## Providers
 
-Alibaba Cloud, Amazon Bedrock, Anthropic, Azure, Baseten, Cerebras, Cloudflare, Cohere, Cursor, DeepSeek, Fireworks, Google, Groq, Hugging Face, Meta, Minimax, Mistral, Moonshot, NVIDIA, Ollama, OpenAI, OpenCode, OpenRouter, Perplexity, Qwen, Together AI, Vercel, Vertex AI, xAI, 01.AI, and more.
+Alibaba Cloud, Amazon Bedrock, Anthropic, Azure, Baseten, Cerebras, Cloudflare, Cohere, Cursor, DeepSeek, Fireworks, Google, Groq, Hugging Face, Meta, Minimax, Mistral, Moonshot, NVIDIA, Ollama, OpenAI, OpenCode, OpenRouter, Perplexity, Qwen, Together AI, Vercel, Vertex AI, xAI, Z.AI, and more.
 
 ## Data Updates
 
-Model data is automatically fetched from provider APIs daily. Community contributions for additional data are welcome — see [CONTRIBUTING.md](../../CONTRIBUTING.md).
+Model data is automatically fetched from provider APIs daily. Community contributions are welcome — see [CONTRIBUTING.md](https://github.com/assistant-ui/modelpedia/blob/master/CONTRIBUTING.md).
 
 ## License
 
-[MIT](../../LICENSE)
+[MIT](https://github.com/assistant-ui/modelpedia/blob/master/LICENSE)

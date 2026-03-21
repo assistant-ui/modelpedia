@@ -39,7 +39,8 @@ apps/
   web/        → Next.js website (modelpedia.dev)
   api/        → Hono API on Cloudflare Workers (api.modelpedia.dev)
 packages/
-  data/       → Model data & npm package (modelpedia)
+  data/       → Model data, fetch scripts, validation (@modelpedia/data)
+  npm/        → Published npm package (modelpedia)
   tsconfig/   → Shared TypeScript configs
 ```
 

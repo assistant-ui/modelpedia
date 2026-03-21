@@ -42817,8 +42817,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-coder-plus",
@@ -42830,8 +42829,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-coder-turbo-0919",
@@ -42843,8 +42841,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-coder-turbo",
@@ -42856,8 +42853,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-flash",
@@ -42874,8 +42870,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.05,
           "output": 0.4
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-image-2",
@@ -42887,8 +42882,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-image",
@@ -42900,8 +42894,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-long-0125",
@@ -42913,8 +42906,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-math-plus-0816",
@@ -42926,8 +42918,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-math-plus-0919",
@@ -42939,8 +42930,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-math-turbo-0919",
@@ -42952,8 +42942,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-max-0919",
@@ -42965,8 +42954,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-omni-turbo-0119",
@@ -42978,8 +42966,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-omni-turbo-0326",
@@ -42991,8 +42978,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-omni-turbo-realtime",
@@ -43004,8 +42990,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-plus-0125",
@@ -43017,8 +43002,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-plus-0428",
@@ -43030,8 +43014,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-plus-0714",
@@ -43043,8 +43026,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-plus-0728",
@@ -43056,8 +43038,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-plus-us",
@@ -43069,8 +43050,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-plus",
@@ -43087,8 +43067,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.4,
           "output": 1.2
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-turbo-0428",
@@ -43100,8 +43079,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-turbo-0715",
@@ -43113,8 +43091,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-turbo-1101",
@@ -43126,8 +43103,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-max-0125",
@@ -43139,8 +43115,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-max-0402",
@@ -43152,8 +43127,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-max-0408",
@@ -43165,8 +43139,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-max-0813",
@@ -43178,8 +43151,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-max-1119",
@@ -43191,8 +43163,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-max-1230",
@@ -43204,8 +43175,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-ocr-0413",
@@ -43217,8 +43187,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-ocr-0828",
@@ -43230,8 +43199,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-ocr-1028",
@@ -43243,8 +43211,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-ocr-1120",
@@ -43256,8 +43223,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-plus-0102",
@@ -43269,8 +43235,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-plus-0125",
@@ -43282,8 +43247,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-plus-0507",
@@ -43295,8 +43259,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-plus-0710",
@@ -43308,8 +43271,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-plus-0815",
@@ -43321,8 +43283,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen2-72b-instruct",
@@ -43334,8 +43295,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-235b-a22b-instruct-2507",
@@ -43348,8 +43308,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-235b-a22b-instruct",
@@ -43364,8 +43323,7 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "qwen3-235b-a22b-instruct-2507"
-        ],
-        "provider": "qwen"
+        ]
       },
       {
         "id": "qwen3-235b-a22b-thinking-2507",
@@ -43378,8 +43336,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-235b-a22b-thinking",
@@ -43394,8 +43351,7 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "qwen3-235b-a22b-thinking-2507"
-        ],
-        "provider": "qwen"
+        ]
       },
       {
         "id": "qwen3-235b-a22b",
@@ -43407,8 +43363,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-30b-a3b-instruct-2507",
@@ -43421,8 +43376,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-30b-a3b-instruct",
@@ -43437,8 +43391,7 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "qwen3-30b-a3b-instruct-2507"
-        ],
-        "provider": "qwen"
+        ]
       },
       {
         "id": "qwen3-30b-a3b-thinking-2507",
@@ -43451,8 +43404,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-30b-a3b-thinking",
@@ -43467,8 +43419,7 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "qwen3-30b-a3b-thinking-2507"
-        ],
-        "provider": "qwen"
+        ]
       },
       {
         "id": "qwen3-30b-a3b",
@@ -43480,8 +43431,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-coder-30b-a3b-instruct",
@@ -43493,8 +43443,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-coder-480b-a35b-instruct",
@@ -43506,8 +43455,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-coder-flash",
@@ -43519,8 +43467,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-coder-plus",
@@ -43532,8 +43479,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-max-preview",
@@ -43545,8 +43491,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-max",
@@ -43564,8 +43509,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.359,
           "output": 1.434
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-next-80b-a3b-instruct",
@@ -43577,8 +43521,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-next-80b-a3b-thinking",
@@ -43590,8 +43533,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-omni-flash-0915",
@@ -43603,8 +43545,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-omni-flash-realtime",
@@ -43616,8 +43557,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-omni-flash",
@@ -43629,8 +43569,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-omni-realtime-flash",
@@ -43642,8 +43581,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3.5-flash",
@@ -43660,8 +43598,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.029,
           "output": 0.287
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3.5-plus",
@@ -43678,8 +43615,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.115,
           "output": 0.688
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3",
@@ -43691,8 +43627,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       }
     ]
   },

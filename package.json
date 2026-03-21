@@ -14,9 +14,9 @@
     "build": "turbo build",
     "lint": "pnpm exec biome check",
     "lint:fix": "pnpm exec biome check --fix",
-    "generate": "pnpm --filter modelpedia generate",
-    "validate": "pnpm --filter modelpedia validate",
-    "fetch:all": "pnpm --filter modelpedia fetch:all",
+    "generate": "pnpm --filter @modelpedia/data generate",
+    "validate": "pnpm --filter @modelpedia/data validate",
+    "fetch:all": "pnpm --filter @modelpedia/data fetch:all",
     "deps:check": "npx taze major -f -r",
     "deps:update": "npx taze major -f -w -r && rm -f pnpm-lock.yaml && pnpm install",
     "prepare": "husky"

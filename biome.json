@@ -130,7 +130,9 @@
       "!**/.next",
       "!**/.vercel",
       "!**/next-env.d.ts",
-      "!**/packages/data/src/data.ts"
+      "!**/packages/data/src/data.ts",
+      "!**/packages/npm/src/data.ts",
+      "!**/packages/npm/src/providers"
     ]
   }
 }

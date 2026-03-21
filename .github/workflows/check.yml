@@ -76,4 +76,4 @@ jobs:
           cache: pnpm
 
       - run: pnpm install --frozen-lockfile
-      - run: pnpm --filter modelpedia validate:changes
+      - run: pnpm --filter @modelpedia/data validate:changes
