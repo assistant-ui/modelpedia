@@ -1,0 +1,26 @@
+{
+  "id": "gpt-5",
+  "name": "GPT-5",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 10,
+    "cached_input": 0.125
+  },
+  "context_window": 272000,
+  "performance": 4,
+  "speed": 3
+}

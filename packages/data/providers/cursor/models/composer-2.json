@@ -1,0 +1,25 @@
+{
+  "id": "composer-2",
+  "name": "Composer 2",
+  "created_by": "cursor",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 2.5,
+    "cached_input": 0.2
+  },
+  "context_window": 200000,
+  "performance": 5,
+  "speed": 4
+}

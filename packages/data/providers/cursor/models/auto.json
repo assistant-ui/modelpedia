@@ -1,0 +1,19 @@
+{
+  "id": "auto",
+  "name": "Auto",
+  "created_by": "cursor",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 6,
+    "cached_input": 0.25
+  }
+}

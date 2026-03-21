@@ -1,21 +1,15 @@
 {
-  "id": "claude-sonnet-4-6",
-  "name": "Claude Sonnet 4.6",
+  "id": "claude-4.6-sonnet",
+  "name": "Claude 4.6 Sonnet",
   "created_by": "anthropic",
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "claude-sonnet",
-  "description": "The best combination of speed and intelligence",
-  "status": "active",
-  "knowledge_cutoff": "2025-08",
-  "context_window": 1000000,
-  "max_output_tokens": 64000,
-  "speed": 4,
   "capabilities": {
     "streaming": true,
-    "vision": true,
     "tool_call": true,
-    "reasoning": true
+    "reasoning": true,
+    "vision": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -25,8 +19,10 @@
     "input": 3,
     "output": 15,
     "cached_input": 0.3,
-    "batch_input": 1.5,
-    "batch_output": 7.5,
     "cache_write": 3.75
-  }
+  },
+  "context_window": 200000,
+  "max_context_window": 1000000,
+  "performance": 4,
+  "speed": 3
 }

@@ -1,0 +1,26 @@
+{
+  "id": "gpt-5.3-codex",
+  "name": "GPT-5.3 Codex",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5.3",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.75,
+    "output": 14,
+    "cached_input": 0.175
+  },
+  "context_window": 272000,
+  "performance": 5,
+  "speed": 3
+}

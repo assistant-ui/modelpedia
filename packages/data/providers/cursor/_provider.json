@@ -1,0 +1,9 @@
+{
+  "id": "cursor",
+  "name": "Cursor",
+  "region": "US",
+  "url": "https://cursor.com",
+  "api_url": "https://api.cursor.com",
+  "docs_url": "https://cursor.com/docs",
+  "pricing_url": "https://cursor.com/docs/models-and-pricing"
+}

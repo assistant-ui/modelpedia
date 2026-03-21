@@ -3,7 +3,7 @@
   "name": "Claude Haiku 4.5",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "claude-haiku",
   "description": "The fastest model with near-frontier intelligence",
   "status": "active",
@@ -27,6 +27,7 @@
     "output": 5,
     "cached_input": 0.1,
     "batch_input": 0.5,
-    "batch_output": 2.5
+    "batch_output": 2.5,
+    "cache_write": 1.25
   }
 }

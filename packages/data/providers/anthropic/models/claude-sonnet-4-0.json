@@ -3,7 +3,7 @@
   "name": "Claude Sonnet 4",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "claude-sonnet",
   "status": "active",
   "knowledge_cutoff": "2025-01",
@@ -25,7 +25,8 @@
     "output": 15,
     "cached_input": 0.3,
     "batch_input": 1.5,
-    "batch_output": 7.5
+    "batch_output": 7.5,
+    "cache_write": 3.75
   },
   "snapshots": ["claude-sonnet-4-20250514"]
 }

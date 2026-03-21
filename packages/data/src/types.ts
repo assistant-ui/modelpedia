@@ -49,8 +49,10 @@ export interface ModelPricing {
   input?: number | null;
   /** Cost per 1M output tokens */
   output?: number | null;
-  /** Cost per 1M cached input tokens */
+  /** Cost per 1M cached input tokens (cache read) */
   cached_input?: number | null;
+  /** Cost per 1M tokens written to cache (cache write) */
+  cache_write?: number | null;
   /** Cost per 1M batch input tokens */
   batch_input?: number | null;
   /** Cost per 1M batch output tokens */
@@ -85,8 +87,10 @@ export interface ModelData {
   deprecation_date?: string | null;
   /** Training data cutoff (YYYY-MM or YYYY-MM-DD), null if not disclosed */
   knowledge_cutoff?: string | null;
-  /** Maximum context window in tokens, null if unlimited */
+  /** Default context window in tokens, null if unlimited */
   context_window?: number | null;
+  /** Extended context window in tokens (e.g. Max Mode, long-context tier). Omit if same as context_window. */
+  max_context_window?: number | null;
   /** Maximum output tokens per request, null if unlimited */
   max_output_tokens?: number | null;
   /** Maximum input tokens per request (if different from context_window), null if same */
@@ -127,6 +131,8 @@ export interface ModelData {
   alias?: string;
   /** Intelligence/performance rating (1-5 scale, provider-defined) */
   performance?: number;
+  /** Reasoning capability level (1-5 scale, null if not supported) */
+  reasoning?: number;
   /** Speed/latency rating (1-5 scale, 1=slow 5=fast) */
   speed?: number;
 }

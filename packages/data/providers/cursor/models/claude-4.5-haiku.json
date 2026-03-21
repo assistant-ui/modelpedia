@@ -1,25 +1,27 @@
 {
-  "id": "claude-3-haiku",
-  "name": "Claude Haiku 3",
+  "id": "claude-4.5-haiku",
+  "name": "Claude 4.5 Haiku",
   "created_by": "anthropic",
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "claude-haiku",
   "capabilities": {
     "streaming": true,
+    "tool_call": true,
     "vision": true,
-    "tool_call": true
+    "reasoning": true
   },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.25,
-    "output": 1.25,
-    "cached_input": 0.03,
-    "batch_input": 0.125,
-    "batch_output": 0.625,
-    "cache_write": 0.3
-  }
+    "input": 1,
+    "output": 5,
+    "cached_input": 0.1,
+    "cache_write": 1.25
+  },
+  "context_window": 200000,
+  "performance": 3,
+  "speed": 4
 }

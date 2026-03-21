@@ -232,6 +232,7 @@ export interface ModelEntry {
   deprecation_date?: string | null;
   knowledge_cutoff?: string | null;
   context_window?: number | null;
+  max_context_window?: number | null;
   max_output_tokens?: number | null;
   max_input_tokens?: number | null;
   capabilities?: Record<string, boolean>;
@@ -244,6 +245,7 @@ export interface ModelEntry {
   snapshots?: string[];
   alias?: string;
   performance?: number;
+  reasoning?: number;
   speed?: number;
 }
 
@@ -305,12 +307,14 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     "deprecation_date",
     "knowledge_cutoff",
     "context_window",
+    "max_context_window",
     "max_output_tokens",
     "max_input_tokens",
     "model_type",
     "reasoning_tokens",
     "alias",
     "performance",
+    "reasoning",
     "speed",
   ] as const;
 
@@ -485,6 +489,7 @@ export function upsertWithSnapshot(
     "model_type",
     "reasoning_tokens",
     "performance",
+    "reasoning",
     "speed",
   ] as const;
   const snapshotEntry: ModelEntry = {
