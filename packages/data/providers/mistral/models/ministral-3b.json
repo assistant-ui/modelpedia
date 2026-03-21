@@ -12,21 +12,13 @@
     "vision": true
   },
   "modalities": {
-    "input": [
-      "text",
-      "image"
-    ],
-    "output": [
-      "text"
-    ]
+    "input": ["text", "image"],
+    "output": ["text"]
   },
   "pricing": {
     "input": 0.1,
     "output": 0.1
   },
-  "snapshots": [
-    "ministral-3b-2512",
-    "ministral-3b-2410"
-  ],
+  "snapshots": ["ministral-3b-2512", "ministral-3b-2410"],
   "deprecation_date": "2025-12-02"
 }

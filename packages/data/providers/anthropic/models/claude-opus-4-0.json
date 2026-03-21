@@ -17,13 +17,8 @@
     "reasoning": true
   },
   "modalities": {
-    "input": [
-      "text",
-      "image"
-    ],
-    "output": [
-      "text"
-    ]
+    "input": ["text", "image"],
+    "output": ["text"]
   },
   "pricing": {
     "input": 15,
@@ -32,7 +27,5 @@
     "batch_input": 7.5,
     "batch_output": 37.5
   },
-  "snapshots": [
-    "claude-opus-4-20250514"
-  ]
+  "snapshots": ["claude-opus-4-20250514"]
 }

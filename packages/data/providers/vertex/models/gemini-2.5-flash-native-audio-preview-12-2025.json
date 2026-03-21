@@ -18,15 +18,7 @@
     "vision": true
   },
   "modalities": {
-    "input": [
-      "text",
-      "image",
-      "video",
-      "audio"
-    ],
-    "output": [
-      "text",
-      "image"
-    ]
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text", "image"]
   }
 }

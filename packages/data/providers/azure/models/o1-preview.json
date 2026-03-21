@@ -10,11 +10,7 @@
     "streaming": true
   },
   "modalities": {
-    "input": [
-      "text"
-    ],
-    "output": [
-      "text"
-    ]
+    "input": ["text"],
+    "output": ["text"]
   }
 }

@@ -83,18 +83,29 @@ export function filterModalities(input: string[], output: string[]) {
 // ── Date normalization ──
 
 const MONTH_MAP: Record<string, string> = {
-  jan: "01", january: "01",
-  feb: "02", february: "02",
-  mar: "03", march: "03",
-  apr: "04", april: "04",
+  jan: "01",
+  january: "01",
+  feb: "02",
+  february: "02",
+  mar: "03",
+  march: "03",
+  apr: "04",
+  april: "04",
   may: "05",
-  jun: "06", june: "06",
-  jul: "07", july: "07",
-  aug: "08", august: "08",
-  sep: "09", september: "09",
-  oct: "10", october: "10",
-  nov: "11", november: "11",
-  dec: "12", december: "12",
+  jun: "06",
+  june: "06",
+  jul: "07",
+  july: "07",
+  aug: "08",
+  august: "08",
+  sep: "09",
+  september: "09",
+  oct: "10",
+  october: "10",
+  nov: "11",
+  november: "11",
+  dec: "12",
+  december: "12",
 };
 
 /**
@@ -303,13 +314,19 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     "speed",
   ] as const;
 
-  const DATE_FIELDS = new Set(["release_date", "deprecation_date", "knowledge_cutoff"]);
+  const DATE_FIELDS = new Set([
+    "release_date",
+    "deprecation_date",
+    "knowledge_cutoff",
+  ]);
 
   for (const key of scalars) {
     const val = pick(entry[key], existing?.[key] as any);
     if (val !== undefined) {
-      data[key] = DATE_FIELDS.has(key) && typeof val === "string"
-        ? normalizeDate(val) : val;
+      data[key] =
+        DATE_FIELDS.has(key) && typeof val === "string"
+          ? normalizeDate(val)
+          : val;
     }
   }
 

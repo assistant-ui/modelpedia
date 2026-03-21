@@ -19,13 +19,8 @@
     "reasoning": true
   },
   "modalities": {
-    "input": [
-      "text",
-      "image"
-    ],
-    "output": [
-      "text"
-    ]
+    "input": ["text", "image"],
+    "output": ["text"]
   },
   "pricing": {
     "input": 1,

@@ -18,13 +18,8 @@
     "reasoning": true
   },
   "modalities": {
-    "input": [
-      "text",
-      "image"
-    ],
-    "output": [
-      "text"
-    ]
+    "input": ["text", "image"],
+    "output": ["text"]
   },
   "pricing": {
     "input": 1,
@@ -33,7 +28,5 @@
     "batch_input": 0.5,
     "batch_output": 2.5
   },
-  "snapshots": [
-    "claude-haiku-4-5-20251001"
-  ]
+  "snapshots": ["claude-haiku-4-5-20251001"]
 }

@@ -11,14 +11,8 @@
     "streaming": true
   },
   "modalities": {
-    "input": [
-      "text"
-    ],
-    "output": [
-      "text"
-    ]
+    "input": ["text"],
+    "output": ["text"]
   },
-  "snapshots": [
-    "mistral-saba-2502"
-  ]
+  "snapshots": ["mistral-saba-2502"]
 }

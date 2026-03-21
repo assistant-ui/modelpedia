@@ -13,15 +13,8 @@
     "vision": true
   },
   "modalities": {
-    "input": [
-      "text",
-      "image"
-    ],
-    "output": [
-      "text"
-    ]
+    "input": ["text", "image"],
+    "output": ["text"]
   },
-  "snapshots": [
-    "pixtral-12b-2409"
-  ]
+  "snapshots": ["pixtral-12b-2409"]
 }
