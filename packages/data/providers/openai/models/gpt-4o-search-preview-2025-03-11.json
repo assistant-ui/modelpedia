@@ -3,7 +3,7 @@
   "name": "gpt-4o-search-preview-2025-03-11",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-4o",
   "status": "active",
   "context_window": 128000,
@@ -14,5 +14,17 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 10,
+    "cached_input": 1.25,
+    "batch_input": 1.25,
+    "batch_output": 5
+  },
+  "description": "GPT-4o Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
+  "model_type": "other",
+  "capabilities": {
+    "structured_output": true
   }
 }

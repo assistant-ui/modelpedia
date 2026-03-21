@@ -3,7 +3,7 @@
   "name": "gpt-4o-mini-2024-07-18",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-4o",
   "status": "active",
   "context_window": 128000,
@@ -14,5 +14,18 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6,
+    "cached_input": 0.075,
+    "batch_input": 0.075,
+    "batch_output": 0.3
+  },
+  "description": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
   }
 }

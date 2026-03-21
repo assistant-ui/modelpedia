@@ -3,7 +3,7 @@
   "name": "o3-2025-04-16",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "o3",
   "status": "active",
   "context_window": 200000,
@@ -14,5 +14,18 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 8,
+    "cached_input": 0.5,
+    "batch_input": 1,
+    "batch_output": 4
+  },
+  "description": "o3 is a well-rounded and powerful model across domains.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
   }
 }

@@ -3,7 +3,7 @@
   "name": "computer-use-preview-2025-03-11",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "status": "active",
   "context_window": 8192,
   "max_output_tokens": 1024,
@@ -13,5 +13,11 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 12,
+    "batch_input": 1.5,
+    "batch_output": 6
   }
 }

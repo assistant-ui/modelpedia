@@ -3,7 +3,7 @@
   "name": "o1-preview-2024-09-12",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "o1",
   "status": "active",
   "context_window": 128000,
@@ -14,5 +14,14 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "pricing": {
+    "input": 15,
+    "output": 60,
+    "cached_input": 7.5,
+    "batch_input": 7.5,
+    "batch_output": 30
+  },
+  "description": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
+  "model_type": "reasoning"
 }

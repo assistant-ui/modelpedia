@@ -156,7 +156,7 @@ async function main() {
       },
     };
 
-    written += upsertWithSnapshot("zhipu", entry);
+    written += upsertWithSnapshot("zai", entry);
   }
 
   console.log(`Wrote ${written} models`);

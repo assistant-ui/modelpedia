@@ -3,7 +3,7 @@
   "name": "gpt-4o-audio-preview-2024-12-17",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-4o",
   "status": "active",
   "context_window": 128000,
@@ -14,5 +14,18 @@
   "modalities": {
     "input": ["text", "audio"],
     "output": ["text", "audio"]
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 10,
+    "cached_input": 1.25,
+    "batch_input": 1.25,
+    "batch_output": 5
+  },
+  "description": "This is a preview release of the GPT-4o Audio models. These models accept",
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
   }
 }

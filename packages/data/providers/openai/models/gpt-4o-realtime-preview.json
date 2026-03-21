@@ -19,7 +19,9 @@
   "pricing": {
     "input": 5,
     "output": 20,
-    "cached_input": 2.5
+    "cached_input": 2.5,
+    "batch_input": 1.25,
+    "batch_output": 5
   },
   "snapshots": [
     "gpt-4o-realtime-preview-2024-10-01",

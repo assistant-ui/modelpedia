@@ -3,7 +3,7 @@
   "name": "o1-mini-2024-09-12",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "o1",
   "status": "active",
   "context_window": 128000,
@@ -14,5 +14,12 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.1,
+    "output": 4.4,
+    "cached_input": 0.55,
+    "batch_input": 0.55,
+    "batch_output": 2.2
   }
 }

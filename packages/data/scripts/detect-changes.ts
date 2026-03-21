@@ -4,32 +4,31 @@ import * as path from "node:path";
 
 /**
  * Detect model/provider changes by comparing current files with a git ref.
+ * Writes results to changelog.jsonl in the format consumed by the web app.
  *
  * Usage:
  *   bun scripts/detect-changes.ts            # compare with HEAD~1
  *   bun scripts/detect-changes.ts HEAD~3      # compare with 3 commits ago
- *   bun scripts/detect-changes.ts v0.0.1      # compare with a tag
  *   bun scripts/detect-changes.ts --dry-run   # print changes without writing
  */
 
 const ROOT = path.resolve(import.meta.dirname, "..");
-const CHANGES_DIR = path.join(ROOT, "changes");
+const CHANGELOG_PATH = path.join(ROOT, "changes", "changelog.jsonl");
 const PROVIDERS_REL = "providers/";
+
+// Fields to ignore when diffing
+const IGNORE_FIELDS = new Set(["last_updated", "source"]);
 
 // ── Types ──
 
-interface ChangeEntry {
+interface ChangelogEntry {
   ts: string;
   provider: string;
   model: string;
-  type: "added" | "removed" | "updated" | "backfill";
-  field?: string;
-  old?: unknown;
-  new?: unknown;
+  action: "create" | "update" | "delete";
+  commit?: string;
+  changes?: Record<string, { from: unknown; to: unknown }>;
 }
-
-// Fields to ignore when diffing (metadata, not model data)
-const IGNORE_FIELDS = new Set(["last_updated", "source"]);
 
 // ── Git helpers ──
 
@@ -42,7 +41,6 @@ function getChangedFiles(ref: string): {
   modified: string[];
   deleted: string[];
 } {
-  // Tracked changes (committed or staged)
   const output = git(`diff --name-status ${ref} -- ${PROVIDERS_REL}`);
 
   const added: string[] = [];
@@ -62,7 +60,7 @@ function getChangedFiles(ref: string): {
     }
   }
 
-  // Also detect untracked new model files (not yet committed)
+  // Also detect untracked new model files
   try {
     const untracked = git(
       `ls-files --others --exclude-standard -- ${PROVIDERS_REL}`,
@@ -93,8 +91,10 @@ function readFileAtRef(
   }
 }
 
+const REPO_ROOT = path.resolve(ROOT, "../..");
+
 function readCurrentFile(filePath: string): Record<string, unknown> | null {
-  const fullPath = path.join(ROOT, filePath);
+  const fullPath = path.join(REPO_ROOT, filePath);
   if (!fs.existsSync(fullPath)) return null;
   return JSON.parse(fs.readFileSync(fullPath, "utf-8"));
 }
@@ -104,162 +104,54 @@ function readCurrentFile(filePath: string): Record<string, unknown> | null {
 function parseFilePath(
   filePath: string,
 ): { provider: string; model: string } | null {
-  // providers/openai/models/gpt-5.4.json → provider=openai, model from JSON id
-  const match = filePath.match(/^providers\/([^/]+)\/models\/(.+)\.json$/);
+  const match = filePath.match(
+    /(?:^|\/)?providers\/([^/]+)\/models\/(.+)\.json$/,
+  );
   if (!match) return null;
   return { provider: match[1], model: match[2] };
 }
 
-// ── Deep diff ──
+// ── Diff ──
 
-function flattenObject(
-  obj: Record<string, unknown>,
-  prefix = "",
-): Map<string, unknown> {
-  const map = new Map<string, unknown>();
-
-  for (const [key, value] of Object.entries(obj)) {
+function diffFields(
+  oldData: Record<string, unknown>,
+  newData: Record<string, unknown>,
+): Record<string, { from: unknown; to: unknown }> {
+  const changes: Record<string, { from: unknown; to: unknown }> = {};
+  const allKeys = new Set([...Object.keys(oldData), ...Object.keys(newData)]);
+  for (const key of allKeys) {
     if (IGNORE_FIELDS.has(key)) continue;
-
-    const fieldPath = prefix ? `${prefix}.${key}` : key;
-
-    if (value !== null && typeof value === "object" && !Array.isArray(value)) {
-      for (const [k, v] of flattenObject(
-        value as Record<string, unknown>,
-        fieldPath,
-      )) {
-        map.set(k, v);
-      }
-    } else if (Array.isArray(value)) {
-      // Store arrays as sorted JSON strings for comparison
-      map.set(fieldPath, JSON.stringify([...value].sort()));
-    } else {
-      map.set(fieldPath, value);
+    const oldVal = oldData[key];
+    const newVal = newData[key];
+    if (JSON.stringify(oldVal) !== JSON.stringify(newVal)) {
+      changes[key] = { from: oldVal, to: newVal };
     }
   }
-
-  return map;
-}
-
-function diffModel(
-  provider: string,
-  modelId: string,
-  oldData: Record<string, unknown> | null,
-  newData: Record<string, unknown> | null,
-  ts: string,
-): ChangeEntry[] {
-  const model = (newData?.id as string) ?? (oldData?.id as string) ?? modelId;
-
-  if (!oldData && newData) {
-    return [{ ts, provider, model, type: "added" }];
-  }
-
-  if (oldData && !newData) {
-    return [{ ts, provider, model, type: "removed" }];
-  }
-
-  if (!oldData || !newData) return [];
-
-  const oldFlat = flattenObject(oldData);
-  const newFlat = flattenObject(newData);
-
-  const changes: ChangeEntry[] = [];
-  const allKeys = new Set([...oldFlat.keys(), ...newFlat.keys()]);
-
-  for (const field of allKeys) {
-    const oldVal = oldFlat.get(field);
-    const newVal = newFlat.get(field);
-
-    // No change
-    if (oldVal === newVal) continue;
-    if (oldVal === undefined && newVal === undefined) continue;
-
-    if (oldVal === undefined && newVal !== undefined) {
-      // Backfill: field was missing, now has a value
-      changes.push({
-        ts,
-        provider,
-        model,
-        type: "backfill",
-        field,
-        new: deserialize(newVal),
-      });
-    } else if (oldVal !== undefined && newVal === undefined) {
-      // Field removed (unusual)
-      changes.push({
-        ts,
-        provider,
-        model,
-        type: "updated",
-        field,
-        old: deserialize(oldVal),
-        new: undefined,
-      });
-    } else {
-      // Value changed
-      changes.push({
-        ts,
-        provider,
-        model,
-        type: "updated",
-        field,
-        old: deserialize(oldVal),
-        new: deserialize(newVal),
-      });
-    }
-  }
-
   return changes;
 }
 
-/** Restore array values from sorted JSON strings for output */
-function deserialize(val: unknown): unknown {
-  if (typeof val === "string" && val.startsWith("[")) {
-    try {
-      return JSON.parse(val);
-    } catch {
-      return val;
-    }
-  }
-  return val;
-}
+// ── Write changelog ──
 
-// ── Write changes ──
-
-function writeChanges(changes: ChangeEntry[], dryRun: boolean): void {
-  if (changes.length === 0) {
+function writeChangelog(entries: ChangelogEntry[], dryRun: boolean): void {
+  if (entries.length === 0) {
     console.log("No changes detected.");
     return;
   }
 
-  // Group by type for summary
-  const added = changes.filter((c) => c.type === "added");
-  const removed = changes.filter((c) => c.type === "removed");
-  const updated = changes.filter((c) => c.type === "updated");
-  const backfill = changes.filter((c) => c.type === "backfill");
+  const creates = entries.filter((e) => e.action === "create");
+  const updates = entries.filter((e) => e.action === "update");
+  const deletes = entries.filter((e) => e.action === "delete");
 
-  console.log(`\nChanges detected:`);
-  if (added.length) console.log(`  added:    ${added.length} models`);
-  if (removed.length) console.log(`  removed:  ${removed.length} models`);
-  if (updated.length) console.log(`  updated:  ${updated.length} fields`);
-  if (backfill.length) console.log(`  backfill: ${backfill.length} fields`);
+  console.log("\nChanges detected:");
+  if (creates.length) console.log(`  created: ${creates.length} models`);
+  if (updates.length) console.log(`  updated: ${updates.length} models`);
+  if (deletes.length) console.log(`  deleted: ${deletes.length} models`);
 
-  // Show details
-  for (const c of added) {
-    console.log(`  + ${c.provider}/${c.model}`);
-  }
-  for (const c of removed) {
-    console.log(`  - ${c.provider}/${c.model}`);
-  }
-  for (const c of updated) {
-    console.log(
-      `  Δ ${c.provider}/${c.model} ${c.field}: ${JSON.stringify(c.old)} → ${JSON.stringify(c.new)}`,
-    );
-  }
-  for (const c of backfill) {
-    console.log(
-      `  ○ ${c.provider}/${c.model} ${c.field}: → ${JSON.stringify(c.new)}`,
-    );
+  for (const e of creates) console.log(`  + ${e.provider}/${e.model}`);
+  for (const e of deletes) console.log(`  - ${e.provider}/${e.model}`);
+  for (const e of updates) {
+    const fields = Object.keys(e.changes ?? {}).join(", ");
+    console.log(`  Δ ${e.provider}/${e.model} [${fields}]`);
   }
 
   if (dryRun) {
@@ -267,14 +159,18 @@ function writeChanges(changes: ChangeEntry[], dryRun: boolean): void {
     return;
   }
 
-  // Write NDJSON
-  const dateStr = new Date().toISOString().split("T")[0];
-  const file = path.join(CHANGES_DIR, `${dateStr}.ndjson`);
-  fs.mkdirSync(CHANGES_DIR, { recursive: true });
+  fs.mkdirSync(path.dirname(CHANGELOG_PATH), { recursive: true });
+  const newLines = entries.map((e) => JSON.stringify(e)).join("\n");
 
-  const lines = `${changes.map((c) => JSON.stringify(c)).join("\n")}\n`;
-  fs.appendFileSync(file, lines, "utf-8");
-  console.log(`\nWrote ${changes.length} entries to changes/${dateStr}.ndjson`);
+  // Read existing changelog, append new entries
+  let existing = "";
+  if (fs.existsSync(CHANGELOG_PATH)) {
+    existing = fs.readFileSync(CHANGELOG_PATH, "utf-8").trimEnd();
+  }
+  const content = existing ? `${existing}\n${newLines}\n` : `${newLines}\n`;
+  fs.writeFileSync(CHANGELOG_PATH, content, "utf-8");
+
+  console.log(`\nAppended ${entries.length} entries to changelog.jsonl`);
 }
 
 // ── Main ──
@@ -284,7 +180,6 @@ function main() {
   const dryRun = args.includes("--dry-run");
   const ref = args.find((a) => !a.startsWith("--")) ?? "HEAD~1";
 
-  // Verify ref exists
   try {
     git(`rev-parse ${ref}`);
   } catch {
@@ -300,38 +195,46 @@ function main() {
   );
 
   const ts = new Date().toISOString();
-  const allChanges: ChangeEntry[] = [];
+  const entries: ChangelogEntry[] = [];
 
-  // Added models
   for (const file of added) {
     const info = parseFilePath(file);
     if (!info) continue;
     const newData = readCurrentFile(file);
     if (!newData) continue;
-    allChanges.push(...diffModel(info.provider, info.model, null, newData, ts));
+    const model = (newData.id as string) ?? info.model;
+    entries.push({ ts, provider: info.provider, model, action: "create" });
   }
 
-  // Modified models
   for (const file of modified) {
     const info = parseFilePath(file);
     if (!info) continue;
     const oldData = readFileAtRef(ref, file);
     const newData = readCurrentFile(file);
-    allChanges.push(
-      ...diffModel(info.provider, info.model, oldData, newData, ts),
-    );
+    if (!oldData || !newData) continue;
+    const model = (newData.id as string) ?? info.model;
+    const changes = diffFields(oldData, newData);
+    if (Object.keys(changes).length > 0) {
+      entries.push({
+        ts,
+        provider: info.provider,
+        model,
+        action: "update",
+        changes,
+      });
+    }
   }
 
-  // Deleted models
   for (const file of deleted) {
     const info = parseFilePath(file);
     if (!info) continue;
     const oldData = readFileAtRef(ref, file);
     if (!oldData) continue;
-    allChanges.push(...diffModel(info.provider, info.model, oldData, null, ts));
+    const model = (oldData.id as string) ?? info.model;
+    entries.push({ ts, provider: info.provider, model, action: "delete" });
   }
 
-  writeChanges(allChanges, dryRun);
+  writeChangelog(entries, dryRun);
 }
 
 main();

@@ -5,7 +5,6 @@ import * as path from "node:path";
 const ROOT = path.resolve(import.meta.dirname, "..");
 
 export const PROVIDERS_DIR = path.join(ROOT, "providers");
-
 // ── IO ──
 
 export function readModelJson(
@@ -292,26 +291,46 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
   const allSnapshots = [...new Set([...existingSnapshots, ...newSnapshots])];
   if (allSnapshots.length > 0) data.snapshots = allSnapshots;
 
-  // Diff: log what changed
+  // Diff: log what changed and record to changelog
   if (existing) {
-    const changes: string[] = [];
+    const changedFields: Record<string, { from: unknown; to: unknown }> = {};
     for (const [k, v] of Object.entries(data)) {
       const oldVal = existing[k];
       if (k === "last_updated") continue;
       if (JSON.stringify(v) !== JSON.stringify(oldVal)) {
-        changes.push(k);
+        changedFields[k] = { from: oldVal, to: v };
       }
     }
-    if (changes.length === 0) {
+    if (Object.keys(changedFields).length === 0) {
       console.log(`  skip ${modelId} (no changes)`);
       return false;
     }
     console.log(
-      `  update ${provider}/models/${modelId}.json [${changes.join(", ")}]`,
+      `  update ${provider}/models/${modelId}.json [${Object.keys(changedFields).join(", ")}]`,
     );
   }
 
   writeModelJson(provider, modelId, data);
+  return true;
+}
+
+/**
+ * Delete a model entry and record to changelog.
+ */
+export function deleteModel(provider: string, modelId: string): boolean {
+  const sanitized = sanitizeModelId(modelId);
+  const filePath = path.join(
+    PROVIDERS_DIR,
+    provider,
+    "models",
+    `${sanitized}.json`,
+  );
+  if (!fs.existsSync(filePath)) {
+    console.log(`  skip ${sanitized} (not found)`);
+    return false;
+  }
+  fs.unlinkSync(filePath);
+  console.log(`  deleted ${provider}/models/${sanitized}.json`);
   return true;
 }
 
@@ -386,12 +405,47 @@ export function upsertWithSnapshot(
   if (upsertModel(provider, aliasEntry)) written++;
 
   // Write snapshot model (with alias back-reference)
+  // Inherit missing fields from the alias file so snapshots are self-contained
+  const aliasData = readModelJson(provider, sanitizeModelId(alias));
+  const inheritableKeys = [
+    "context_window",
+    "max_output_tokens",
+    "max_input_tokens",
+    "knowledge_cutoff",
+    "description",
+    "model_type",
+    "reasoning_tokens",
+    "performance",
+    "speed",
+  ] as const;
   const snapshotEntry: ModelEntry = {
     ...entry,
     id: snapshot,
     alias,
     snapshots: undefined,
   };
+  if (aliasData) {
+    for (const key of inheritableKeys) {
+      if (snapshotEntry[key] == null && aliasData[key] != null) {
+        (snapshotEntry as any)[key] = aliasData[key];
+      }
+    }
+    if (!snapshotEntry.pricing && aliasData.pricing) {
+      snapshotEntry.pricing = aliasData.pricing as Record<string, number>;
+    }
+    if (!snapshotEntry.capabilities && aliasData.capabilities) {
+      snapshotEntry.capabilities = aliasData.capabilities as Record<
+        string,
+        boolean
+      >;
+    }
+    if (!snapshotEntry.modalities && aliasData.modalities) {
+      snapshotEntry.modalities = aliasData.modalities as {
+        input?: string[];
+        output?: string[];
+      };
+    }
+  }
   if (upsertModel(provider, snapshotEntry)) written++;
 
   return written;

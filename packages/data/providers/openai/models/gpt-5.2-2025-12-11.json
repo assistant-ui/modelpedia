@@ -3,7 +3,7 @@
   "name": "gpt-5.2-2025-12-11",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-5.2",
   "status": "active",
   "alias": "gpt-5.2",
@@ -18,5 +18,16 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
-  }
+  },
+  "pricing": {
+    "input": 1.75,
+    "output": 14,
+    "cached_input": 0.175,
+    "batch_input": 0.875,
+    "batch_output": 7
+  },
+  "description": "GPT-5.2 is our previous frontier model for complex professional work.",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "model_type": "reasoning"
 }
