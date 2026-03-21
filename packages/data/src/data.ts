@@ -64,7 +64,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "qwen-flash",
-        "name": "qwen-flash",
+        "name": "Qwen-Flash",
         "created_by": "qwen",
         "source": "official",
         "last_updated": "2026-03-21",
@@ -77,6 +77,30 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.05,
           "output": 0.4
+        }
+      },
+      {
+        "id": "qwen-image-2",
+        "name": "qwen-image-2",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        }
+      },
+      {
+        "id": "qwen-image",
+        "name": "qwen-image",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
         }
       },
       {
@@ -678,7 +702,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "qwen3-max",
-        "name": "qwen3-max",
+        "name": "Qwen3-Max",
         "created_by": "qwen",
         "source": "official",
         "last_updated": "2026-03-21",
@@ -889,7 +913,8 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "amazon.nova-2-sonic-v1:0",
@@ -1049,7 +1074,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "rerank"
       },
       {
         "id": "amazon.titan-e1m-medium",
@@ -1076,7 +1102,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "amazon.titan-embed-image-v1",
@@ -1090,7 +1117,8 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "amazon.titan-embed-text-v1",
@@ -1103,7 +1131,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "amazon.titan-embed-text-v2:0",
@@ -1116,7 +1145,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "amazon.titan-image-generator-v2:0",
@@ -1353,7 +1383,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "cohere.embed-multilingual-v3",
@@ -1366,7 +1397,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "cohere.embed-v4:0",
@@ -1380,7 +1412,8 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "cohere.rerank-v3-5:0",
@@ -1395,7 +1428,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "rerank"
       },
       {
         "id": "deepseek.r1-v1:0",
@@ -2211,7 +2245,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "openai.gpt-oss-safeguard-20b",
@@ -2229,7 +2264,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "qwen.qwen3-235b-a22b-2507-v1:0",
@@ -2629,7 +2665,8 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "twelvelabs.marengo-embed-3-0-v1:0",
@@ -2643,7 +2680,8 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "twelvelabs.pegasus-1-2-v1:0",
@@ -2773,7 +2811,13 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 0.4,
           "batch_output": 2,
           "cache_write": 1
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-3-7-sonnet",
@@ -2803,7 +2847,13 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 1.5,
           "batch_output": 7.5,
           "cache_write": 3.75
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-3-haiku-20240307",
@@ -2837,7 +2887,13 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 0.125,
           "batch_output": 0.625,
           "cache_write": 0.3
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-3-haiku",
@@ -2867,7 +2923,13 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 0.125,
           "batch_output": 0.625,
           "cache_write": 0.3
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-3-opus",
@@ -2897,7 +2959,13 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 7.5,
           "batch_output": 37.5,
           "cache_write": 18.75
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-haiku-4-5-20251001",
@@ -2935,7 +3003,16 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 0.5,
           "batch_output": 2.5,
           "cache_write": 1.25
-        }
+        },
+        "tagline": "The fastest model with near-frontier intelligence",
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-haiku-4-5",
@@ -2975,6 +3052,15 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "claude-haiku-4-5-20251001"
+        ],
+        "tagline": "The fastest model with near-frontier intelligence",
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
         ]
       },
       {
@@ -3014,6 +3100,14 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "claude-opus-4-20250514"
+        ],
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
         ]
       },
       {
@@ -3051,7 +3145,15 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 7.5,
           "batch_output": 37.5,
           "cache_write": 18.75
-        }
+        },
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-opus-4-1",
@@ -3090,6 +3192,14 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "claude-opus-4-1-20250805"
+        ],
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
         ]
       },
       {
@@ -3127,7 +3237,15 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 7.5,
           "batch_output": 37.5,
           "cache_write": 18.75
-        }
+        },
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-opus-4-5-20251101",
@@ -3164,7 +3282,15 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 2.5,
           "batch_output": 12.5,
           "cache_write": 6.25
-        }
+        },
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-opus-4-5",
@@ -3203,6 +3329,14 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "claude-opus-4-5-20251101"
+        ],
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
         ]
       },
       {
@@ -3240,7 +3374,16 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 2.5,
           "batch_output": 12.5,
           "cache_write": 6.25
-        }
+        },
+        "tagline": "The most intelligent model for building agents and coding",
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-sonnet-4-0",
@@ -3279,6 +3422,14 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "claude-sonnet-4-20250514"
+        ],
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
         ]
       },
       {
@@ -3316,7 +3467,15 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 1.5,
           "batch_output": 7.5,
           "cache_write": 3.75
-        }
+        },
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-sonnet-4-5-20250929",
@@ -3353,7 +3512,15 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 1.5,
           "batch_output": 7.5,
           "cache_write": 3.75
-        }
+        },
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-sonnet-4-5",
@@ -3392,6 +3559,14 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "claude-sonnet-4-5-20250929"
+        ],
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
         ]
       },
       {
@@ -3429,7 +3604,16 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 1.5,
           "batch_output": 7.5,
           "cache_write": 3.75
-        }
+        },
+        "tagline": "The best combination of speed and intelligence",
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       }
     ]
   },
@@ -3500,7 +3684,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "rerank"
       },
       {
         "id": "cohere-rerank-v4.0-pro",
@@ -3520,7 +3705,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "rerank"
       },
       {
         "id": "computer-use-preview",
@@ -3561,7 +3747,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "deepseek-r1",
@@ -3583,7 +3770,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "deepseek-v3-0324",
@@ -3691,7 +3879,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "flux-1.1-pro",
@@ -3712,7 +3901,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "image"
       },
       {
         "id": "flux.1-kontext-pro",
@@ -3733,7 +3923,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "image"
       },
       {
         "id": "flux.2-flex",
@@ -3754,7 +3945,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "image"
       },
       {
         "id": "flux.2-pro",
@@ -3775,7 +3967,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "image"
       },
       {
         "id": "gpt-4.1-mini",
@@ -3932,7 +4125,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "transcription"
       },
       {
         "id": "gpt-4o-mini-tts",
@@ -3951,7 +4145,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "tts"
       },
       {
         "id": "gpt-4o-mini",
@@ -4014,7 +4209,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "transcription"
       },
       {
         "id": "gpt-4o-transcribe",
@@ -4033,7 +4229,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "transcription"
       },
       {
         "id": "gpt-4o",
@@ -4522,7 +4719,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "image"
       },
       {
         "id": "gpt-image-1.5",
@@ -4543,7 +4741,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "image"
       },
       {
         "id": "gpt-image-1",
@@ -4564,7 +4763,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "image"
       },
       {
         "id": "gpt-oss-120b",
@@ -5077,7 +5277,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "o1-preview",
@@ -5097,7 +5298,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "o1",
@@ -5122,7 +5324,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "o3-mini",
@@ -5145,7 +5348,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "o3-pro",
@@ -5169,7 +5373,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "o3",
@@ -5194,7 +5399,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "o4-mini",
@@ -5219,7 +5425,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "qwen-32b",
@@ -5256,7 +5463,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "video"
       },
       {
         "id": "sora",
@@ -5274,7 +5482,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "video"
       },
       {
         "id": "text-embedding-3-large",
@@ -5294,7 +5503,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "text-embedding-3-small",
@@ -5314,7 +5524,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "text-embedding-ada-002",
@@ -5334,7 +5545,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "tts-hd",
@@ -5352,7 +5564,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "tts"
       },
       {
         "id": "tts",
@@ -5389,7 +5602,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "family": "whisper"
+        "family": "whisper",
+        "model_type": "transcription"
       }
     ]
   },
@@ -5412,7 +5626,8 @@ export const providers: ProviderWithModels[] = [
         "family": "deepseek-r1",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "deepseek-r1-qwen-32b",
@@ -5423,7 +5638,8 @@ export const providers: ProviderWithModels[] = [
         "family": "deepseek-r1",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "deepseek-r1-qwen-7b",
@@ -5434,7 +5650,8 @@ export const providers: ProviderWithModels[] = [
         "family": "deepseek-r1",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "deepseek-r1",
@@ -5445,7 +5662,8 @@ export const providers: ProviderWithModels[] = [
         "family": "deepseek-r1",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "deepseek-v3-1",
@@ -5575,7 +5793,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "tts"
       },
       {
         "id": "qwen-image",
@@ -5701,7 +5920,8 @@ export const providers: ProviderWithModels[] = [
         "family": "whisper",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "transcription"
       },
       {
         "id": "whisper-large-v2",
@@ -5712,7 +5932,8 @@ export const providers: ProviderWithModels[] = [
         "family": "whisper",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "transcription"
       }
     ]
   },
@@ -5885,9 +6106,170 @@ export const providers: ProviderWithModels[] = [
     "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" fill-rule=\"evenodd\">\n  <path d=\"M16.493 17.4c.135-.52.08-.983-.161-1.338-.215-.328-.592-.519-1.05-.519l-8.663-.109a.148.148 0 01-.135-.082c-.027-.054-.027-.109-.027-.163.027-.082.108-.164.189-.164l8.744-.11c1.05-.054 2.153-.9 2.556-1.937l.511-1.31c.027-.055.027-.11.027-.164C17.92 8.91 15.66 7 12.942 7c-2.503 0-4.628 1.638-5.381 3.903a2.432 2.432 0 00-1.803-.491c-1.21.109-2.153 1.092-2.287 2.32-.027.328 0 .628.054.9C1.56 13.688 0 15.326 0 17.319c0 .19.027.355.027.545 0 .082.08.137.161.137h15.983c.08 0 .188-.055.215-.164l.107-.437\"/>\n  <path d=\"M19.238 11.75h-.242c-.054 0-.108.054-.135.109l-.35 1.2c-.134.52-.08.983.162 1.338.215.328.592.518 1.05.518l1.855.11c.054 0 .108.027.135.082.027.054.027.109.027.163-.027.082-.108.164-.188.164l-1.91.11c-1.05.054-2.153.9-2.557 1.937l-.134.355c-.027.055.026.137.107.137h6.592c.081 0 .162-.055.162-.137.107-.41.188-.846.188-1.31-.027-2.62-2.153-4.777-4.762-4.777\"/>\n</svg>",
     "models": [
       {
+        "id": "@cf/ai4bharat/indictrans2-en-indic-1B",
+        "name": "indictrans2-en-indic-1B",
+        "created_by": "ai4bharat",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
         "name": "gemma-sea-lion-v4-27b-it",
         "created_by": "aisingapore",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/baai/bge-base-en-v1.5",
+        "name": "bge-base-en-v1.5",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/baai/bge-large-en-v1.5",
+        "name": "bge-large-en-v1.5",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/baai/bge-m3",
+        "name": "bge-m3",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/baai/bge-reranker-base",
+        "name": "bge-reranker-base",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "rerank",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/baai/bge-small-en-v1.5",
+        "name": "bge-small-en-v1.5",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/black-forest-labs/flux-1-schnell",
+        "name": "flux-1-schnell",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/black-forest-labs/flux-2-dev",
+        "name": "flux-2-dev",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/black-forest-labs/flux-2-klein-4b",
+        "name": "flux-2-klein-4b",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/black-forest-labs/flux-2-klein-9b",
+        "name": "flux-2-klein-9b",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/bytedance/stable-diffusion-xl-lightning",
+        "name": "stable-diffusion-xl-lightning",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/deepgram/aura-1",
+        "name": "aura-1",
+        "created_by": "deepgram",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/deepgram/aura-2-en",
+        "name": "aura-2-en",
+        "created_by": "deepgram",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/deepgram/aura-2-es",
+        "name": "aura-2-es",
+        "created_by": "deepgram",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/deepgram/flux",
+        "name": "flux",
+        "created_by": "deepgram",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/deepgram/nova-3",
+        "name": "nova-3",
+        "created_by": "deepgram",
         "source": "official",
         "last_updated": "2026-03-21",
         "capabilities": {
@@ -5927,11 +6309,42 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/facebook/bart-large-cnn",
+        "name": "bart-large-cnn",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/facebook/detr-resnet-50",
+        "name": "detr-resnet-50",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/fblgit/una-cybertron-7b-v2-bf16",
         "name": "una-cybertron-7b-v2-bf16",
         "created_by": "fblgit",
         "source": "official",
         "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/google/embeddinggemma-300m",
+        "name": "embeddinggemma-300m",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
         "capabilities": {
           "streaming": true
         }
@@ -5970,6 +6383,16 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/huggingface/distilbert-sst-2-int8",
+        "name": "distilbert-sst-2-int8",
+        "created_by": "huggingface",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/ibm-granite/granite-4.0-h-micro",
         "name": "granite-4.0-h-micro",
         "created_by": "ibm",
@@ -5980,9 +6403,39 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/leonardo/lucid-origin",
+        "name": "lucid-origin",
+        "created_by": "leonardo",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/leonardo/phoenix-1.0",
+        "name": "phoenix-1.0",
+        "created_by": "leonardo",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/llava-hf/llava-1.5-7b-hf",
         "name": "llava-1.5-7b-hf",
         "created_by": "llava-hf",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/lykon/dreamshaper-8-lcm",
+        "name": "dreamshaper-8-lcm",
+        "created_by": "lykon",
         "source": "official",
         "last_updated": "2026-03-21",
         "capabilities": {
@@ -6144,6 +6597,18 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/meta/llama-guard-3-8b",
+        "name": "llama-guard-3-8b",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "llama-guard",
+        "model_type": "moderation",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/meta-llama/llama-2-7b-chat-hf-lora",
         "name": "llama-2-7b-chat-hf-lora",
         "created_by": "meta",
@@ -6155,8 +6620,28 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/meta/m2m100-1.2b",
+        "name": "m2m100-1.2b",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/microsoft/phi-2",
         "name": "phi-2",
+        "created_by": "microsoft",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/microsoft/resnet-50",
+        "name": "resnet-50",
         "created_by": "microsoft",
         "source": "official",
         "last_updated": "2026-03-21",
@@ -6206,6 +6691,16 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/myshell-ai/melotts",
+        "name": "melotts",
+        "created_by": "myshell",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/nvidia/nemotron-3-120b-a12b",
         "name": "nemotron-3-120b-a12b",
         "created_by": "nvidia",
@@ -6238,9 +6733,63 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/openai/whisper-large-v3-turbo",
+        "name": "whisper-large-v3-turbo",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "whisper",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/openai/whisper-tiny-en",
+        "name": "whisper-tiny-en",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "whisper",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/openai/whisper",
+        "name": "whisper",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "whisper",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/openchat/openchat-3.5-0106",
         "name": "openchat-3.5-0106",
         "created_by": "openchat",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/pfnet/plamo-embedding-1b",
+        "name": "plamo-embedding-1b",
+        "created_by": "pfnet",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/pipecat-ai/smart-turn-v2",
+        "name": "smart-turn-v2",
+        "created_by": "pipecat-ai",
         "source": "official",
         "last_updated": "2026-03-21",
         "capabilities": {
@@ -6314,12 +6863,54 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/qwen/qwen3-embedding-0.6b",
+        "name": "qwen3-embedding-0.6b",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen3",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/qwen/qwq-32b",
         "name": "qwq-32b",
         "created_by": "qwen",
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "qwq",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/runwayml/stable-diffusion-v1-5-img2img",
+        "name": "stable-diffusion-v1-5-img2img",
+        "created_by": "runway",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/runwayml/stable-diffusion-v1-5-inpainting",
+        "name": "stable-diffusion-v1-5-inpainting",
+        "created_by": "runway",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/stabilityai/stable-diffusion-xl-base-1.0",
+        "name": "stable-diffusion-xl-base-1.0",
+        "created_by": "stability",
+        "source": "official",
+        "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
         }
@@ -6348,6 +6939,16 @@ export const providers: ProviderWithModels[] = [
         "id": "@cf/tinyllama/tinyllama-1.1b-chat-v1.0",
         "name": "tinyllama-1.1b-chat-v1.0",
         "created_by": "tinyllama",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/unum/uform-gen2-qwen-500m",
+        "name": "uform-gen2-qwen-500m",
+        "created_by": "unum",
         "source": "official",
         "last_updated": "2026-03-21",
         "capabilities": {
@@ -6449,6 +7050,17 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@hf/thebloke/llamaguard-7b-awq",
+        "name": "llamaguard-7b-awq",
+        "created_by": "thebloke",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "moderation",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@hf/thebloke/mistral-7b-instruct-v0.1-awq",
         "name": "mistral-7b-instruct-v0.1-awq",
         "created_by": "thebloke",
@@ -6505,7 +7117,7 @@ export const providers: ProviderWithModels[] = [
         "name": "c4ai-aya-expanse-32b",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Aya Expanse is a highly performant 32B multilingual model, designed to rival monolingual performance through innovations in instruction tuning with data arbitrage, preference training, and model merging. Serves 23 languages.",
         "status": "active",
         "context_window": 128000,
@@ -6520,14 +7132,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Aya Expanse is a highly performant 32B multilingual model, designed to rival monolingual performance through innovations in instruction tuning with data arbitrage, preference training, and model merging."
       },
       {
         "id": "c4ai-aya-expanse-8b",
         "name": "c4ai-aya-expanse-8b",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Aya Expanse is a highly performant 8B multilingual model, designed to rival monolingual performance through innovations in instruction tuning with data arbitrage, preference training, and model merging. Serves 23 languages.",
         "status": "deprecated",
         "context_window": 8000,
@@ -6542,14 +7155,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Aya Expanse is a highly performant 8B multilingual model, designed to rival monolingual performance through innovations in instruction tuning with data arbitrage, preference training, and model merging."
       },
       {
         "id": "c4ai-aya-vision-32b",
         "name": "c4ai-aya-vision-32b",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Aya Vision is a state-of-the-art multimodal model excelling at a variety of critical benchmarks for language, text, and image capabilities. Serves 23 languages. This 32 billion parameter variant is focused on state-of-art multilingual performance.",
         "status": "active",
         "context_window": 16000,
@@ -6566,14 +7180,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Aya Vision is a state-of-the-art multimodal model excelling at a variety of critical benchmarks for language, text, and image capabilities."
       },
       {
         "id": "c4ai-aya-vision-8b",
         "name": "c4ai-aya-vision-8b",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Aya Vision is a state-of-the-art multimodal model excelling at a variety of critical benchmarks for language, text, and image capabilities. This 8 billion parameter variant is focused on low latency and best-in-class performance.",
         "status": "deprecated",
         "context_window": 16000,
@@ -6590,7 +7205,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Aya Vision is a state-of-the-art multimodal model excelling at a variety of critical benchmarks for language, text, and image capabilities."
       },
       {
         "id": "command-a-03-2025",
@@ -6613,14 +7229,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Command A is our most performant model to date, excelling at tool use, agents, retrieval augmented generation (RAG), and multilingual use cases."
       },
       {
         "id": "command-a-reasoning-08-2025",
         "name": "command-a-reasoning-08-2025",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Command A Reasoning is Cohere’s first reasoning model, able to ‘think’ before generating an output in a way that allows it to perform well in certain kinds of nuanced problem-solving and agent-based tasks in 23 languages.",
         "status": "active",
         "context_window": 256000,
@@ -6636,14 +7253,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Command A Reasoning is Cohere’s first reasoning model, able to ‘think’ before generating an output in a way that allows it to perform well in certain kinds of nuanced problem-solving and agent-based t"
       },
       {
         "id": "command-a-translate-08-2025",
         "name": "command-a-translate-08-2025",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Command A Translate is Cohere’s state of the art machine translation model, excelling at a variety of translation tasks on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Chinese, Arabic, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, Persian.",
         "status": "active",
         "context_window": 8000,
@@ -6658,14 +7276,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Command A Translate is Cohere’s state of the art machine translation model, excelling at a variety of translation tasks on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese"
       },
       {
         "id": "command-a-vision-07-2025",
         "name": "command-a-vision-07-2025",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Command A Vision is our first model capable of processing images, excelling in enterprise use cases such as analyzing charts, graphs, and diagrams, table understanding, OCR, document Q&amp;A, and object detection. It officially supports English, Portuguese, Italian, French, German, and Spanish.",
         "status": "active",
         "context_window": 128000,
@@ -6682,14 +7301,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Command A Vision is our first model capable of processing images, excelling in enterprise use cases such as analyzing charts, graphs, and diagrams, table understanding, OCR, document Q&amp;A, and object detection."
       },
       {
         "id": "command-light-nightly",
         "name": "command-light-nightly",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "N/A",
         "status": "active",
         "capabilities": {
@@ -6702,14 +7322,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "N/A"
       },
       {
         "id": "command-nightly",
         "name": "command-nightly",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "N/A",
         "status": "active",
         "capabilities": {
@@ -6722,14 +7343,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "N/A"
       },
       {
         "id": "command-r-03-2024",
         "name": "command-r-03-2024",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Command R is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models. It can be used for complex workflows like code generation, retrieval augmented generation (RAG), tool use, and agents.",
         "status": "deprecated",
         "context_window": 128000,
@@ -6745,14 +7367,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Command R is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models."
       },
       {
         "id": "command-r-08-2024",
         "name": "command-r-08-2024",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "command-r-08-2024 is an update of the Command R model, delivered in August 2024. Find more information here",
         "status": "active",
         "context_window": 128000,
@@ -6767,14 +7390,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "command-r-08-2024 is an update of the Command R model, delivered in August 2024."
       },
       {
         "id": "command-r-plus-04-2024",
         "name": "command-r-plus-04-2024",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Command R+ is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models. It is best suited for complex RAG workflows and multi-step tool use.",
         "status": "deprecated",
         "context_window": 128000,
@@ -6790,14 +7414,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Command R+ is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models."
       },
       {
         "id": "command-r-plus-08-2024",
         "name": "command-r-plus-08-2024",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "command-r-plus-08-2024 is an update of the Command R+ model, delivered in August 2024. Find more information here",
         "status": "active",
         "context_window": 128000,
@@ -6812,7 +7437,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "command-r-plus-08-2024 is an update of the Command R+ model, delivered in August 2024."
       },
       {
         "id": "command-r7b-12-2024",
@@ -6828,6 +7454,303 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tagline": "command-r7b-12-2024 is a small, fast update delivered in December 2024."
+      },
+      {
+        "id": "embed-english-light-v2.0",
+        "name": "embed-english-light-v2.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "embed",
+        "tagline": "Unique per deployment",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "embed-english-light-v3.0",
+        "name": "embed-english-light-v3.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "context_window": 512,
+        "model_type": "embed",
+        "tagline": "Text, Images",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "embed-english-v2.0",
+        "name": "embed-english-v2.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "embed",
+        "tagline": "Unique per deployment",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "embed-english-v3.0",
+        "name": "embed-english-v3.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "context_window": 512,
+        "model_type": "embed",
+        "tagline": "Text, Images",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "embed-multilingual-light-v3.0",
+        "name": "embed-multilingual-light-v3.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "context_window": 512,
+        "model_type": "embed",
+        "tagline": "Text, Images",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "embed-multilingual-v2.0",
+        "name": "embed-multilingual-v2.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "embed",
+        "tagline": "Unique per deployment",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "embed-multilingual-v3.0",
+        "name": "embed-multilingual-v3.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "context_window": 512,
+        "model_type": "embed",
+        "tagline": "Text, Images",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "embed-v4.0",
+        "name": "embed-v4.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "context_window": 128000,
+        "model_type": "embed",
+        "tagline": "Text, Images, Mixed texts/images (i.e.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "rerank-english-v3.0",
+        "name": "rerank-english-v3.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "rerank",
+        "tagline": "Text",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "rerank-multilingual-v3.0",
+        "name": "rerank-multilingual-v3.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "rerank",
+        "tagline": "Text",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "rerank-v3.5",
+        "name": "rerank-v3.5",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "rerank",
+        "tagline": "Text",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "rerank-v4.0-fast",
+        "name": "rerank-v4.0-fast",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "rerank",
+        "tagline": "Text",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "rerank-v4.0-pro",
+        "name": "rerank-v4.0-pro",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "rerank",
+        "tagline": "Text",
+        "capabilities": {
+          "streaming": true
         },
         "modalities": {
           "input": [
@@ -7878,7 +8801,8 @@ export const providers: ProviderWithModels[] = [
           "input": 0.28,
           "output": 0.42,
           "cached_input": 0.028
-        }
+        },
+        "tagline": "DeepSeek-V3.2 in non-thinking mode."
       },
       {
         "id": "deepseek-reasoner",
@@ -7900,7 +8824,8 @@ export const providers: ProviderWithModels[] = [
           "input": 0.28,
           "output": 0.42,
           "cached_input": 0.028
-        }
+        },
+        "tagline": "DeepSeek-V3.2 in thinking mode with chain-of-thought reasoning."
       }
     ]
   },
@@ -9252,7 +10177,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "fireworks/gpt-oss-safeguard-20b",
@@ -9268,7 +10194,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "fireworks/hermes-2-pro-mistral-7b",
@@ -9322,6 +10249,20 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "context_window": 16400,
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 1
+        }
+      },
+      {
+        "id": "fireworks/japanese-stable-diffusion-xl",
+        "name": "japanese-stable-diffusion-xl",
+        "created_by": "fireworks",
+        "source": "official",
+        "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
         },
@@ -9449,7 +10390,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "fireworks/llama-guard-3-1b",
@@ -9465,7 +10407,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "fireworks/llama-guard-3-8b",
@@ -9481,7 +10424,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "fireworks/llama-v2-13b-chat",
@@ -9869,7 +10813,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "fireworks/llava-yi-34b",
@@ -11677,7 +12622,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "fireworks/qwen3-embedding-4b",
@@ -11693,7 +12639,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "fireworks/qwen3-embedding-8b",
@@ -11709,7 +12656,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "fireworks/qwen3-next-80b-a3b-instruct",
@@ -11771,7 +12719,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "rerank"
       },
       {
         "id": "fireworks/qwen3-reranker-4b",
@@ -11787,7 +12736,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "rerank"
       },
       {
         "id": "fireworks/qwen3-reranker-8b",
@@ -11803,7 +12753,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.2,
           "output": 1
-        }
+        },
+        "model_type": "rerank"
       },
       {
         "id": "fireworks/qwen3-vl-235b-a22b-instruct",
@@ -11965,6 +12916,20 @@ export const providers: ProviderWithModels[] = [
         "id": "fireworks/SSD-1B",
         "name": "SSD-1B",
         "created_by": "stability",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 1
+        }
+      },
+      {
+        "id": "fireworks/stable-diffusion-xl-1024-v1-0",
+        "name": "stable-diffusion-xl-1024-v1-0",
+        "created_by": "fireworks",
         "source": "official",
         "last_updated": "2026-03-21",
         "capabilities": {
@@ -12262,7 +13227,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash"
       },
       {
         "id": "gemini-2.0-flash-lite-001",
@@ -12285,7 +13251,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-lite-preview-02-05",
@@ -12308,7 +13275,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-lite-preview",
@@ -12331,7 +13299,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-lite",
@@ -12364,7 +13333,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.0-flash-live-001",
@@ -12387,7 +13364,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-native-audio-preview-12-2025"
       },
       {
         "id": "gemini-2.0-flash-preview-image-generation",
@@ -12410,7 +13388,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-image"
       },
       {
         "id": "gemini-2.0-flash",
@@ -12443,7 +13422,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-computer-use-preview-10-2025",
@@ -12474,7 +13461,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-image-preview",
@@ -12497,7 +13491,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-image"
       },
       {
         "id": "gemini-2.5-flash-image",
@@ -12530,7 +13525,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-flash-image-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-lite-preview-09-2025",
@@ -12563,7 +13566,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-flash-lite-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-lite",
@@ -12596,7 +13607,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-flash-lite-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-native-audio-preview-12-2025",
@@ -12628,7 +13647,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-preview-05-20",
@@ -12651,7 +13677,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3-flash-preview"
       },
       {
         "id": "gemini-2.5-flash-preview-09-2025",
@@ -12683,7 +13710,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-preview-09-25",
@@ -12706,7 +13740,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3-flash-preview"
       },
       {
         "id": "gemini-2.5-flash-preview-tts",
@@ -12737,7 +13772,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "tts",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash",
@@ -12770,7 +13813,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3-flash-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-pro-preview-03-25",
@@ -12793,7 +13844,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview"
       },
       {
         "id": "gemini-2.5-pro-preview-05-06",
@@ -12816,7 +13868,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview"
       },
       {
         "id": "gemini-2.5-pro-preview-06-05",
@@ -12839,7 +13892,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview"
       },
       {
         "id": "gemini-2.5-pro-preview-tts",
@@ -12870,7 +13924,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "tts",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-pro",
@@ -12903,7 +13965,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3-flash-preview",
@@ -12936,7 +14006,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3-pro-image-preview",
@@ -12969,7 +14046,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3-pro-preview",
@@ -13002,7 +14086,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3.1-flash-image-preview",
@@ -13035,7 +14127,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3.1-flash-lite-preview",
@@ -13068,7 +14167,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3.1-pro-preview",
@@ -13101,7 +14207,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-embedding-001",
@@ -13131,7 +14244,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "embed",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-embedding-2-preview",
@@ -13160,7 +14281,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "embed",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-embedding-exp-03-07",
@@ -13182,7 +14311,9 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-embedding-001",
+        "model_type": "embed"
       },
       {
         "id": "gemini-embedding-exp",
@@ -13204,7 +14335,9 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-embedding-001",
+        "model_type": "embed"
       },
       {
         "id": "gemini-live-2.5-flash-preview",
@@ -13226,7 +14359,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-native-audio-preview-12-2025"
       },
       {
         "id": "gemini-robotics-er-1.5-preview",
@@ -13257,7 +14391,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       }
     ]
   },
@@ -14074,7 +15215,8 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-oss",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "openchat/openchat-3.6-8b-20240522",
@@ -14690,6 +15832,17 @@ export const providers: ProviderWithModels[] = [
         "created_by": "tokyotech-llm",
         "source": "official",
         "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "unsloth/gemma-2-9b-it",
+        "name": "gemma-2-9b-it",
+        "created_by": "unsloth",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gemma-2",
         "capabilities": {
           "streaming": true
         }
@@ -15374,7 +16527,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "Llama-Guard-3-1B",
@@ -15393,7 +16547,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "Llama-Guard-3-8B-INT8",
@@ -15412,7 +16567,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "Llama-Guard-3-8B",
@@ -15431,7 +16587,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "LlamaGuard-7b",
@@ -15450,7 +16607,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "Meta-Llama-3-70B-Instruct",
@@ -15509,7 +16667,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       }
     ]
   },
@@ -15691,6 +16850,11 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "model_type": "code",
+        "pricing": {
+          "input": 0.3,
+          "output": 0.9
         }
       },
       {
@@ -15716,6 +16880,11 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "model_type": "code",
+        "pricing": {
+          "input": 0.3,
+          "output": 0.9
         }
       },
       {
@@ -15744,7 +16913,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.3,
           "output": 0.9
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "codestral-embed-2505",
@@ -15768,7 +16938,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "codestral-embed",
@@ -15794,7 +16965,8 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "codestral-embed-2505"
-        ]
+        ],
+        "model_type": "embed"
       },
       {
         "id": "codestral-mamba-7b-01",
@@ -15815,7 +16987,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "codestral",
@@ -15847,7 +17020,8 @@ export const providers: ProviderWithModels[] = [
           "codestral-2501",
           "codestral-2405"
         ],
-        "deprecation_date": "2024-12-02"
+        "deprecation_date": "2024-12-02",
+        "model_type": "code"
       },
       {
         "id": "devstral-medium-2507",
@@ -15875,7 +17049,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.4,
           "output": 2
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "devstral-medium-latest",
@@ -15902,7 +17077,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.4,
           "output": 2
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "devstral-medium",
@@ -15932,7 +17108,8 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "devstral-medium-2507"
-        ]
+        ],
+        "model_type": "code"
       },
       {
         "id": "devstral-small-2505",
@@ -15957,6 +17134,11 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "model_type": "code",
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
         }
       },
       {
@@ -15985,7 +17167,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.1,
           "output": 0.3
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "devstral-small-2512",
@@ -16013,7 +17196,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.1,
           "output": 0.3
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "devstral-small",
@@ -16046,7 +17230,8 @@ export const providers: ProviderWithModels[] = [
           "devstral-small-2507",
           "devstral-small-2505"
         ],
-        "deprecation_date": "2025-10-31"
+        "deprecation_date": "2025-10-31",
+        "model_type": "code"
       },
       {
         "id": "magistral-medium-2506",
@@ -16070,6 +17255,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 5
         }
       },
       {
@@ -16094,6 +17283,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 5
         }
       },
       {
@@ -16177,6 +17370,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 1.5
         }
       },
       {
@@ -16201,6 +17398,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 1.5
         }
       },
       {
@@ -16343,6 +17544,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.1
         }
       },
       {
@@ -16428,6 +17633,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.15
         }
       },
       {
@@ -16571,7 +17780,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "mistral-embed",
@@ -16596,7 +17806,8 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "mistral-embed-2312"
-        ]
+        ],
+        "model_type": "embed"
       },
       {
         "id": "mistral-large-2402",
@@ -16619,6 +17830,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 6
         }
       },
       {
@@ -16642,6 +17857,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 6
         }
       },
       {
@@ -16754,6 +17973,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 2
         }
       },
       {
@@ -16865,7 +18088,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "mistral-moderation-2603",
@@ -16888,7 +18112,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "mistral-moderation",
@@ -16914,7 +18139,8 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "mistral-moderation-2603",
           "mistral-moderation-2411"
-        ]
+        ],
+        "model_type": "moderation"
       },
       {
         "id": "mistral-nemo-2407",
@@ -17058,6 +18284,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
         }
       },
       {
@@ -17083,6 +18313,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
         }
       },
       {
@@ -17108,6 +18342,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
         }
       },
       {
@@ -17133,6 +18371,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
         }
       },
       {
@@ -17437,7 +18679,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "context_window": 32000
       },
       {
         "id": "voxtral-mini-transcribe-realtime-2602",
@@ -17459,7 +18702,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "transcription"
       },
       {
         "id": "voxtral-mini-transcribe-realtime",
@@ -17483,7 +18727,8 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "voxtral-mini-transcribe-realtime-2602"
-        ]
+        ],
+        "model_type": "transcription"
       },
       {
         "id": "voxtral-mini",
@@ -17583,7 +18828,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        }
+        },
+        "tagline": "Enhanced agentic coding, front-end aesthetics, context understanding."
       },
       {
         "id": "kimi-k2-thinking-turbo",
@@ -17600,7 +18846,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "reasoning": true
-        }
+        },
+        "tagline": "Deep reasoning with high speed output."
       },
       {
         "id": "kimi-k2-thinking",
@@ -17616,7 +18863,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "reasoning": true
-        }
+        },
+        "tagline": "Long-term thinking, multi-step tool usage, complex problem solving."
       },
       {
         "id": "kimi-k2-turbo-preview",
@@ -17631,7 +18879,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        }
+        },
+        "tagline": "High-speed version, 60-100 tokens/sec output."
       },
       {
         "id": "kimi-k2.5",
@@ -17656,7 +18905,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Kimi's most intelligent model with native multimodal support, thinking/non-thinking modes."
       },
       {
         "id": "moonshot-v1-128k",
@@ -18182,7 +19432,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "igenius/colosseum_355b_instruct_16k",
@@ -18393,7 +19644,8 @@ export const providers: ProviderWithModels[] = [
         "family": "llama-guard",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "meta/llama2-70b",
@@ -18983,7 +20235,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/gliner-pii",
@@ -19004,7 +20257,8 @@ export const providers: ProviderWithModels[] = [
         "family": "llama-3.1",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "nvidia/llama-3.1-nemoguard-8b-topic-control",
@@ -19015,7 +20269,8 @@ export const providers: ProviderWithModels[] = [
         "family": "llama-3.1",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "nvidia/llama-3.1-nemotron-51b-instruct",
@@ -19100,7 +20355,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
@@ -19124,7 +20380,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/llama-3.2-nemoretriever-300m-embed-v1",
@@ -19135,7 +20392,8 @@ export const providers: ProviderWithModels[] = [
         "family": "llama-3.2",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/llama-3.2-nv-embedqa-1b-v1",
@@ -19146,7 +20404,8 @@ export const providers: ProviderWithModels[] = [
         "family": "llama-3.2",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/llama-3.2-nv-embedqa-1b-v2",
@@ -19157,7 +20416,8 @@ export const providers: ProviderWithModels[] = [
         "family": "llama-3.2",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
@@ -19192,7 +20452,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
@@ -19204,7 +20465,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "vision": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/llama3-chatqa-1.5-70b",
@@ -19389,7 +20651,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/nv-embedcode-7b-v1",
@@ -19399,7 +20662,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/nv-embedqa-e5-v5",
@@ -19409,7 +20673,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/nv-embedqa-mistral-7b-v2",
@@ -19419,7 +20684,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/nvclip",
@@ -19684,7 +20950,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "speakleash/bielik-11b-v2.3-instruct",
@@ -19921,7 +21188,8 @@ export const providers: ProviderWithModels[] = [
         "family": "devstral",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "devstral-small-2",
@@ -19932,7 +21200,8 @@ export const providers: ProviderWithModels[] = [
         "family": "devstral",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "gemini-3-flash-preview",
@@ -20199,7 +21468,8 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "qwen3-next",
@@ -20647,6 +21917,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 2,
         "reasoning": 2,
         "speed": 2,
+        "tagline": "The computer-use-preview model is a specialized model for the computer use",
         "capabilities": {
           "tool_call": true,
           "reasoning": true
@@ -21465,7 +22736,42 @@ export const providers: ProviderWithModels[] = [
           "responses",
           "assistants",
           "batch"
-        ]
+        ],
+        "description": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model. It was designed to be a cheaper, better version of GPT-4. Today, we recommend using a newer model like GPT-4o.",
+        "model_type": "chat",
+        "tagline": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "",
+              "columns": [
+                "Input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    30
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    5,
+                    15
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 10,
+          "output": 30,
+          "batch_input": 5,
+          "batch_output": 15
+        }
       },
       {
         "id": "gpt-4-turbo-preview",
@@ -21573,6 +22879,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4.1",
         "performance": 4,
         "speed": 3,
+        "tagline": "GPT-4.1 excels at instruction following and tool calling, with broad",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -21652,6 +22959,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4.1-mini",
         "performance": 3,
         "speed": 4,
+        "tagline": "GPT-4.1 mini excels at instruction following and tool calling.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -21820,6 +23128,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4.1-nano",
         "performance": 2,
         "speed": 5,
+        "tagline": "GPT-4.1 nano excels at instruction following and tool calling.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22077,6 +23386,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4.5-preview",
         "performance": 4,
         "speed": 3,
+        "tagline": "Deprecated - a research preview of GPT-4.5.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22300,6 +23610,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4o",
         "performance": 3,
         "speed": 3,
+        "tagline": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22374,6 +23685,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4o",
         "performance": 3,
         "speed": 3,
+        "tagline": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22453,6 +23765,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4o",
         "performance": 3,
         "speed": 3,
+        "tagline": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22530,6 +23843,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4o-audio-preview",
         "performance": 3,
         "speed": 3,
+        "tagline": "This is a preview release of the GPT-4o Audio models.",
         "capabilities": {
           "streaming": true,
           "tool_call": true
@@ -22608,6 +23922,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4o-audio-preview",
         "performance": 3,
         "speed": 3,
+        "tagline": "This is a preview release of the GPT-4o Audio models.",
         "capabilities": {
           "streaming": true,
           "tool_call": true
@@ -22686,6 +24001,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4o-audio-preview",
         "performance": 3,
         "speed": 3,
+        "tagline": "This is a preview release of the GPT-4o Audio models.",
         "capabilities": {
           "streaming": true,
           "tool_call": true
@@ -22847,6 +24163,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4o-mini",
         "performance": 2,
         "speed": 4,
+        "tagline": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22926,6 +24243,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4o-mini-audio-preview",
         "performance": 2,
         "speed": 4,
+        "tagline": "This is a preview release of the smaller GPT-4o Audio mini model.",
         "capabilities": {
           "streaming": true,
           "tool_call": true
@@ -23090,6 +24408,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4o-mini-realtime-preview",
         "performance": 2,
         "speed": 5,
+        "tagline": "This is a preview release of the GPT-4o-mini Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
         "capabilities": {
           "tool_call": true
         },
@@ -23247,6 +24566,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4o-mini-search-preview",
         "performance": 2,
         "speed": 4,
+        "tagline": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -23376,7 +24696,53 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "transcription",
           "realtime"
-        ]
+        ],
+        "description": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
+        "tagline": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.25,
+                    5,
+                    0.003
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    3,
+                    null,
+                    0.003
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 1.25,
+          "output": 5
+        }
       },
       {
         "id": "gpt-4o-mini-transcribe-2025-12-15",
@@ -23405,7 +24771,53 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "transcription",
           "realtime"
-        ]
+        ],
+        "description": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
+        "tagline": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.25,
+                    5,
+                    0.003
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    3,
+                    null,
+                    0.003
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 1.25,
+          "output": 5
+        }
       },
       {
         "id": "gpt-4o-mini-transcribe",
@@ -23507,7 +24919,52 @@ export const providers: ProviderWithModels[] = [
         },
         "endpoints": [
           "speech_generation"
-        ]
+        ],
+        "description": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model. Use it to convert text to natural sounding spoken text. The maximum number of input tokens is 2000.",
+        "tagline": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    null,
+                    0.015
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    null,
+                    12,
+                    0.015
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 0.6
+        }
       },
       {
         "id": "gpt-4o-mini-tts-2025-12-15",
@@ -23531,7 +24988,52 @@ export const providers: ProviderWithModels[] = [
         },
         "endpoints": [
           "speech_generation"
-        ]
+        ],
+        "description": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model. Use it to convert text to natural sounding spoken text. The maximum number of input tokens is 2000.",
+        "tagline": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    null,
+                    0.015
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    null,
+                    12,
+                    0.015
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 0.6
+        }
       },
       {
         "id": "gpt-4o-mini-tts",
@@ -23710,6 +25212,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4o-realtime-preview",
         "performance": 2,
         "speed": 4,
+        "tagline": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
         "capabilities": {
           "tool_call": true
         },
@@ -23787,6 +25290,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4o-realtime-preview",
         "performance": 3,
         "speed": 4,
+        "tagline": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
         "capabilities": {
           "tool_call": true
         },
@@ -23864,6 +25368,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4o-realtime-preview",
         "performance": 3,
         "speed": 4,
+        "tagline": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
         "capabilities": {
           "tool_call": true
         },
@@ -24023,6 +25528,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-4o-search-preview",
         "performance": 3,
         "speed": 3,
+        "tagline": "GPT-4o Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -24388,6 +25894,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 4,
         "reasoning": 4,
         "speed": 3,
+        "tagline": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -24636,6 +26143,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 3,
         "reasoning": 3,
         "speed": 4,
+        "tagline": "GPT-5 mini is a faster, more cost-efficient version of GPT-5.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -24832,6 +26340,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 2,
         "reasoning": 2,
         "speed": 5,
+        "tagline": "GPT-5 Nano is our fastest, cheapest version of GPT-5.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -25158,6 +26667,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 4,
         "reasoning": 4,
         "speed": 3,
+        "tagline": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -25650,6 +27160,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 5,
         "reasoning": 5,
         "speed": 3,
+        "tagline": "GPT-5.2 is our previous frontier model for complex professional work.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -26302,6 +27813,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 5,
         "reasoning": 5,
         "speed": 3,
+        "tagline": "GPT-5.4 is our frontier model for complex professional work.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -26395,6 +27907,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 4,
         "reasoning": 4,
         "speed": 4,
+        "tagline": "GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -26584,6 +28097,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 3,
         "reasoning": 3,
         "speed": 4,
+        "tagline": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -27223,6 +28737,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-audio",
         "performance": 4,
         "speed": 3,
+        "tagline": "The gpt-audio model is our first generally available audio model.",
         "capabilities": {
           "streaming": true,
           "tool_call": true
@@ -27301,6 +28816,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-audio-mini",
         "performance": 4,
         "speed": 5,
+        "tagline": "A cost-efficient version of GPT Audio.",
         "capabilities": {
           "tool_call": true
         },
@@ -27378,6 +28894,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-audio-mini",
         "performance": 4,
         "speed": 5,
+        "tagline": "A cost-efficient version of GPT Audio.",
         "capabilities": {
           "tool_call": true
         },
@@ -27731,6 +29248,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-image-1.5",
         "performance": 5,
         "speed": 3,
+        "tagline": "GPT Image 1.5 is our latest image generation model, with better instruction following and adherence to prompts.",
         "modalities": {
           "input": [
             "text",
@@ -28269,6 +29787,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-realtime",
         "performance": 5,
         "speed": 4,
+        "tagline": "This is our first general-availability realtime model, capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
         "capabilities": {
           "tool_call": true
         },
@@ -28366,6 +29885,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-realtime-mini",
         "performance": 4,
         "speed": 5,
+        "tagline": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
         "capabilities": {
           "tool_call": true
         },
@@ -28463,6 +29983,7 @@ export const providers: ProviderWithModels[] = [
         "alias": "gpt-realtime-mini",
         "performance": 4,
         "speed": 5,
+        "tagline": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
         "capabilities": {
           "tool_call": true
         },
@@ -28764,6 +30285,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 4,
         "reasoning": 4,
         "speed": 1,
+        "tagline": "The o1 series of models are trained with reinforcement learning to perform complex reasoning.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -28841,6 +30363,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 3,
         "reasoning": 3,
         "speed": 2,
+        "tagline": "The o1 reasoning model is designed to solve hard problems across domains.",
         "capabilities": {
           "streaming": true,
           "reasoning": true
@@ -28985,6 +30508,7 @@ export const providers: ProviderWithModels[] = [
         "knowledge_cutoff": "2023-09",
         "context_window": 128000,
         "max_output_tokens": 32768,
+        "model_type": "reasoning",
         "reasoning_tokens": true,
         "alias": "o1-preview",
         "performance": 3,
@@ -29007,7 +30531,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions",
           "assistants"
-        ]
+        ],
+        "description": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
+        "tagline": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning."
       },
       {
         "id": "o1-preview",
@@ -29020,6 +30546,7 @@ export const providers: ProviderWithModels[] = [
         "knowledge_cutoff": "2023-09",
         "context_window": 128000,
         "max_output_tokens": 32768,
+        "model_type": "reasoning",
         "reasoning_tokens": true,
         "performance": 3,
         "reasoning": 3,
@@ -29046,7 +30573,6 @@ export const providers: ProviderWithModels[] = [
           "o1-preview-2024-09-12"
         ],
         "description": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
-        "model_type": "reasoning",
         "tagline": "Preview of our first o-series reasoning model",
         "successor": "o1"
       },
@@ -29068,6 +30594,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 4,
         "reasoning": 4,
         "speed": 1,
+        "tagline": "The o1 series of models are trained with reinforcement learning to think",
         "capabilities": {
           "vision": true,
           "tool_call": true,
@@ -29307,6 +30834,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 5,
         "reasoning": 5,
         "speed": 1,
+        "tagline": "o3 is a well-rounded and powerful model across domains.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -29391,6 +30919,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 5,
         "reasoning": 5,
         "speed": 1,
+        "tagline": "o3-deep-research is our most advanced model for deep research,",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -29545,6 +31074,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 4,
         "reasoning": 4,
         "speed": 3,
+        "tagline": "o3-mini is our newest small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini.",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -29706,6 +31236,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 5,
         "reasoning": 5,
         "speed": 1,
+        "tagline": "The o-series of models are trained with reinforcement learning to think",
         "capabilities": {
           "vision": true,
           "tool_call": true,
@@ -29957,6 +31488,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 4,
         "reasoning": 4,
         "speed": 3,
+        "tagline": "o4-mini is our latest small o-series model.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -30038,6 +31570,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 4,
         "reasoning": 4,
         "speed": 3,
+        "tagline": "o4-mini-deep-research is our faster, more affordable deep",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -30397,7 +31930,32 @@ export const providers: ProviderWithModels[] = [
         },
         "endpoints": [
           "videos"
-        ]
+        ],
+        "description": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
+        "tagline": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Video generation",
+              "unit": "Per second",
+              "columns": [
+                "Portrait: 720x1280 Landscape: 1280x720",
+                "Portrait: 1024x1792 Landscape: 1792x1024",
+                "Portrait: 1080x1920 Landscape: 1920x1080"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.1,
+                    null,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "sora-2-2025-12-08",
@@ -30422,7 +31980,32 @@ export const providers: ProviderWithModels[] = [
         },
         "endpoints": [
           "videos"
-        ]
+        ],
+        "description": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
+        "tagline": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Video generation",
+              "unit": "Per second",
+              "columns": [
+                "Portrait: 720x1280 Landscape: 1280x720",
+                "Portrait: 1024x1792 Landscape: 1792x1024",
+                "Portrait: 1080x1920 Landscape: 1920x1080"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.1,
+                    null,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "sora-2-pro-2025-10-06",
@@ -30447,7 +32030,32 @@ export const providers: ProviderWithModels[] = [
         },
         "endpoints": [
           "videos"
-        ]
+        ],
+        "description": "Sora 2 Pro is our state-of-the-art, most advanced media generation model, generating videos with synced audio.",
+        "tagline": "Sora 2 Pro is our state-of-the-art, most advanced media generation model, generating videos with synced audio.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Video generation",
+              "unit": "Per second",
+              "columns": [
+                "Portrait: 720x1280 Landscape: 1280x720",
+                "Portrait: 1024x1792 Landscape: 1792x1024",
+                "Portrait: 1080x1920 Landscape: 1920x1080"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.3,
+                    0.5,
+                    0.7
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "sora-2-pro",
@@ -37736,6 +39344,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-oss",
         "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
         "context_window": 131072,
+        "max_output_tokens": 131072,
         "modalities": {
           "input": [
             "text"
@@ -37751,7 +39360,8 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.03,
-          "output": 0.14
+          "output": 0.11,
+          "cached_input": 0.015
         }
       },
       {
@@ -41202,7 +42812,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "qwen-flash",
-        "name": "qwen-flash",
+        "name": "Qwen-Flash",
         "created_by": "qwen",
         "source": "official",
         "last_updated": "2026-03-21",
@@ -41215,6 +42825,32 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.05,
           "output": 0.4
+        },
+        "provider": "qwen"
+      },
+      {
+        "id": "qwen-image-2",
+        "name": "qwen-image-2",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
+        "provider": "qwen"
+      },
+      {
+        "id": "qwen-image",
+        "name": "qwen-image",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
         },
         "provider": "qwen"
       },
@@ -41865,7 +43501,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "qwen3-max",
-        "name": "qwen3-max",
+        "name": "Qwen3-Max",
         "created_by": "qwen",
         "source": "official",
         "last_updated": "2026-03-21",
@@ -42587,6 +44223,57 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "alibaba/qwen3-embedding-0.6b",
+        "name": "qwen3-embedding-0.6b",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen3",
+        "context_window": 32800,
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.01,
+          "output": 0
+        }
+      },
+      {
+        "id": "alibaba/qwen3-embedding-4b",
+        "name": "qwen3-embedding-4b",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen3",
+        "context_window": 32800,
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.02,
+          "output": 0
+        }
+      },
+      {
+        "id": "alibaba/qwen3-embedding-8b",
+        "name": "qwen3-embedding-8b",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen3",
+        "context_window": 32800,
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0
+        }
+      },
+      {
         "id": "alibaba/qwen3-max-preview",
         "name": "qwen3-max-preview",
         "created_by": "qwen",
@@ -42745,6 +44432,90 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "alibaba/wan-v2.5-t2v-preview",
+        "name": "wan-v2.5-t2v-preview",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "alibaba/wan-v2.6-i2v-flash",
+        "name": "wan-v2.6-i2v-flash",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "alibaba/wan-v2.6-i2v",
+        "name": "wan-v2.6-i2v",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "alibaba/wan-v2.6-r2v-flash",
+        "name": "wan-v2.6-r2v-flash",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "alibaba/wan-v2.6-r2v",
+        "name": "wan-v2.6-r2v",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "alibaba/wan-v2.6-t2v",
+        "name": "wan-v2.6-t2v",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
         "id": "amazon/nova-2-lite",
         "name": "nova-2-lite",
         "created_by": "amazon",
@@ -42804,6 +44575,21 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.8,
           "output": 3.2
+        }
+      },
+      {
+        "id": "amazon/titan-embed-text-v2",
+        "name": "titan-embed-text-v2",
+        "created_by": "amazon",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.02,
+          "output": 0
         }
       },
       {
@@ -43101,6 +44887,148 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "bfl/flux-2-flex",
+        "name": "flux-2-flex",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-2-klein-4b",
+        "name": "flux-2-klein-4b",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-2-klein-9b",
+        "name": "flux-2-klein-9b",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-2-max",
+        "name": "flux-2-max",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "context_window": 67300,
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-2-pro",
+        "name": "flux-2-pro",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "context_window": 67300,
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-kontext-max",
+        "name": "flux-kontext-max",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-kontext-pro",
+        "name": "flux-kontext-pro",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-pro-1.0-fill",
+        "name": "flux-pro-1.0-fill",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-pro-1.1-ultra",
+        "name": "flux-pro-1.1-ultra",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-pro-1.1",
+        "name": "flux-pro-1.1",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
         "id": "bytedance/seed-1.6",
         "name": "seed-1.6",
         "created_by": "bytedance",
@@ -43135,6 +45063,76 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "bytedance/seedance-v1.0-lite-i2v",
+        "name": "seedance-v1.0-lite-i2v",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bytedance/seedance-v1.0-lite-t2v",
+        "name": "seedance-v1.0-lite-t2v",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bytedance/seedance-v1.0-pro-fast",
+        "name": "seedance-v1.0-pro-fast",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bytedance/seedance-v1.0-pro",
+        "name": "seedance-v1.0-pro",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bytedance/seedance-v1.5-pro",
+        "name": "seedance-v1.5-pro",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
         "id": "cohere/command-a",
         "name": "command-a",
         "created_by": "cohere",
@@ -43148,6 +45146,21 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 2.5,
           "output": 10
+        }
+      },
+      {
+        "id": "cohere/embed-v4.0",
+        "name": "embed-v4.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0
         }
       },
       {
@@ -43513,6 +45526,149 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "google/gemini-embedding-001",
+        "name": "gemini-embedding-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/imagen-4.0-fast-generate-001",
+        "name": "imagen-4.0-fast-generate-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/imagen-4.0-generate-001",
+        "name": "imagen-4.0-generate-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/imagen-4.0-ultra-generate-001",
+        "name": "imagen-4.0-ultra-generate-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/text-embedding-005",
+        "name": "text-embedding-005",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/text-multilingual-embedding-002",
+        "name": "text-multilingual-embedding-002",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/veo-3.0-fast-generate-001",
+        "name": "veo-3.0-fast-generate-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/veo-3.0-generate-001",
+        "name": "veo-3.0-generate-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/veo-3.1-fast-generate-001",
+        "name": "veo-3.1-fast-generate-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/veo-3.1-generate-001",
+        "name": "veo-3.1-generate-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
         "id": "inception/mercury-2",
         "name": "mercury-2",
         "created_by": "inception",
@@ -43543,6 +45699,104 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.25,
           "output": 1
+        }
+      },
+      {
+        "id": "klingai/kling-v2.5-turbo-i2v",
+        "name": "kling-v2.5-turbo-i2v",
+        "created_by": "klingai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "klingai/kling-v2.5-turbo-t2v",
+        "name": "kling-v2.5-turbo-t2v",
+        "created_by": "klingai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "klingai/kling-v2.6-i2v",
+        "name": "kling-v2.6-i2v",
+        "created_by": "klingai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "klingai/kling-v2.6-motion-control",
+        "name": "kling-v2.6-motion-control",
+        "created_by": "klingai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "klingai/kling-v2.6-t2v",
+        "name": "kling-v2.6-t2v",
+        "created_by": "klingai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "klingai/kling-v3.0-i2v",
+        "name": "kling-v3.0-i2v",
+        "created_by": "klingai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "klingai/kling-v3.0-t2v",
+        "name": "kling-v3.0-t2v",
+        "created_by": "klingai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
         }
       },
       {
@@ -43891,6 +46145,22 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "mistral/codestral-embed",
+        "name": "codestral-embed",
+        "created_by": "mistral",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "codestral",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0
+        }
+      },
+      {
         "id": "mistral/codestral",
         "name": "codestral",
         "created_by": "mistral",
@@ -44041,6 +46311,21 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.15,
           "output": 0.15
+        }
+      },
+      {
+        "id": "mistral/mistral-embed",
+        "name": "mistral-embed",
+        "created_by": "mistral",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0
         }
       },
       {
@@ -44900,6 +47185,51 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "openai/gpt-image-1-mini",
+        "name": "gpt-image-1-mini",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-image-1",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 2,
+          "output": 8
+        }
+      },
+      {
+        "id": "openai/gpt-image-1.5",
+        "name": "gpt-image-1.5",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-image-1.5",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 32
+        }
+      },
+      {
+        "id": "openai/gpt-image-1",
+        "name": "gpt-image-1",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-image-1",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 40
+        }
+      },
+      {
         "id": "openai/gpt-oss-120b",
         "name": "gpt-oss-120b",
         "created_by": "openai",
@@ -44951,7 +47281,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.07,
           "output": 0.3
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "openai/o1",
@@ -45068,6 +47399,51 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "openai/text-embedding-3-large",
+        "name": "text-embedding-3-large",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.13,
+          "output": 0
+        }
+      },
+      {
+        "id": "openai/text-embedding-3-small",
+        "name": "text-embedding-3-small",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.02,
+          "output": 0
+        }
+      },
+      {
+        "id": "openai/text-embedding-ada-002",
+        "name": "text-embedding-ada-002",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0
+        }
+      },
+      {
         "id": "perplexity/sonar-pro",
         "name": "sonar-pro",
         "created_by": "perplexity",
@@ -45148,6 +47524,219 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.2,
           "output": 1.1
+        }
+      },
+      {
+        "id": "prodia/flux-fast-schnell",
+        "name": "flux-fast-schnell",
+        "created_by": "prodia",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "recraft/recraft-v2",
+        "name": "recraft-v2",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "recraft/recraft-v3",
+        "name": "recraft-v3",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "recraft/recraft-v4-pro",
+        "name": "recraft-v4-pro",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "recraft/recraft-v4",
+        "name": "recraft-v4",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-3-large",
+        "name": "voyage-3-large",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.18,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-3.5-lite",
+        "name": "voyage-3.5-lite",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.02,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-3.5",
+        "name": "voyage-3.5",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.06,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-4-large",
+        "name": "voyage-4-large",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "context_window": 32000,
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-4-lite",
+        "name": "voyage-4-lite",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "context_window": 32000,
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.02,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-4",
+        "name": "voyage-4",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "context_window": 32000,
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.06,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-code-2",
+        "name": "voyage-code-2",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-code-3",
+        "name": "voyage-code-3",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.18,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-finance-2",
+        "name": "voyage-finance-2",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-law-2",
+        "name": "voyage-law-2",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0
         }
       },
       {
@@ -45396,6 +47985,51 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.2,
           "output": 1.5
+        }
+      },
+      {
+        "id": "xai/grok-imagine-image-pro",
+        "name": "grok-imagine-image-pro",
+        "created_by": "xai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "grok-imagine",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "xai/grok-imagine-image",
+        "name": "grok-imagine-image",
+        "created_by": "xai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "grok-imagine",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "xai/grok-imagine-video",
+        "name": "grok-imagine-video",
+        "created_by": "xai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "grok-imagine",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
         }
       },
       {
@@ -45730,7 +48364,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash"
       },
       {
         "id": "gemini-2.0-flash-lite-001",
@@ -45753,7 +48388,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-lite-preview-02-05",
@@ -45776,7 +48412,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-lite-preview",
@@ -45799,7 +48436,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-lite",
@@ -45832,7 +48470,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.0-flash-live-001",
@@ -45855,7 +48501,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-native-audio-preview-12-2025"
       },
       {
         "id": "gemini-2.0-flash-preview-image-generation",
@@ -45878,7 +48525,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-image"
       },
       {
         "id": "gemini-2.0-flash",
@@ -45911,7 +48559,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-computer-use-preview-10-2025",
@@ -45942,7 +48598,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-image-preview",
@@ -45965,7 +48628,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-image"
       },
       {
         "id": "gemini-2.5-flash-image",
@@ -45998,7 +48662,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-flash-image-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-lite-preview-09-2025",
@@ -46031,7 +48703,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-flash-lite-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-lite",
@@ -46064,7 +48744,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-flash-lite-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-native-audio-preview-12-2025",
@@ -46096,7 +48784,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-preview-05-20",
@@ -46119,7 +48814,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3-flash-preview"
       },
       {
         "id": "gemini-2.5-flash-preview-09-2025",
@@ -46151,7 +48847,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-preview-09-25",
@@ -46174,7 +48877,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3-flash-preview"
       },
       {
         "id": "gemini-2.5-flash-preview-tts",
@@ -46205,7 +48909,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "tts",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash",
@@ -46238,7 +48950,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3-flash-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-pro-preview-03-25",
@@ -46261,7 +48981,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview"
       },
       {
         "id": "gemini-2.5-pro-preview-05-06",
@@ -46284,7 +49005,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview"
       },
       {
         "id": "gemini-2.5-pro-preview-06-05",
@@ -46307,7 +49029,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview"
       },
       {
         "id": "gemini-2.5-pro-preview-tts",
@@ -46338,7 +49061,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "tts",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-pro",
@@ -46371,7 +49102,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3-flash-preview",
@@ -46404,7 +49143,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3-pro-image-preview",
@@ -46437,7 +49183,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3-pro-preview",
@@ -46470,7 +49223,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3.1-flash-image-preview",
@@ -46503,7 +49264,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3.1-flash-lite-preview",
@@ -46536,7 +49304,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3.1-pro-preview",
@@ -46569,7 +49344,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-embedding-001",
@@ -46599,7 +49381,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "embed",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-embedding-2-preview",
@@ -46628,7 +49418,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "embed",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-embedding-exp-03-07",
@@ -46650,7 +49448,9 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-embedding-001",
+        "model_type": "embed"
       },
       {
         "id": "gemini-embedding-exp",
@@ -46672,7 +49472,9 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-embedding-001",
+        "model_type": "embed"
       },
       {
         "id": "gemini-live-2.5-flash-preview",
@@ -46694,7 +49496,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-native-audio-preview-12-2025"
       },
       {
         "id": "gemini-robotics-er-1.5-preview",
@@ -46725,7 +49528,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "jamba-1.5-large@vertex",
@@ -47059,11 +49869,22 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-imagine-image-pro",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "release_date": "2026-01-28",
         "capabilities": {
           "streaming": true,
           "tool_call": true
+        },
+        "family": "grok-imagine",
+        "model_type": "image",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
         }
       },
       {
@@ -47071,11 +49892,22 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-imagine-image",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "release_date": "2026-01-28",
         "capabilities": {
           "streaming": true,
           "tool_call": true
+        },
+        "family": "grok-imagine",
+        "model_type": "image",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
         }
       },
       {
@@ -47083,11 +49915,23 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-imagine-video",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "release_date": "2026-01-28",
         "capabilities": {
           "streaming": true,
           "tool_call": true
+        },
+        "family": "grok-imagine",
+        "model_type": "image",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "video"
+          ]
         }
       }
     ]

@@ -16,5 +16,6 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
-  }
+  },
+  "tagline": "Kimi's most intelligent model with native multimodal support, thinking/non-thinking modes."
 }

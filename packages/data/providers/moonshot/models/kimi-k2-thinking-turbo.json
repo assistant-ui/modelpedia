@@ -13,5 +13,6 @@
     "streaming": true,
     "tool_call": true,
     "reasoning": true
-  }
+  },
+  "tagline": "Deep reasoning with high speed output."
 }

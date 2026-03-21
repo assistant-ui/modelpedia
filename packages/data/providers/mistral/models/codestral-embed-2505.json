@@ -15,5 +15,6 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
-  }
+  },
+  "model_type": "embed"
 }

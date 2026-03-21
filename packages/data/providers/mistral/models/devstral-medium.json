@@ -19,5 +19,6 @@
     "input": 0.4,
     "output": 2
   },
-  "snapshots": ["devstral-medium-2507"]
+  "snapshots": ["devstral-medium-2507"],
+  "model_type": "code"
 }

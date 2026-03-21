@@ -14,5 +14,6 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "snapshots": ["mistral-embed-2312"]
+  "snapshots": ["mistral-embed-2312"],
+  "model_type": "embed"
 }

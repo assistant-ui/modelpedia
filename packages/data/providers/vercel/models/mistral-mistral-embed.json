@@ -1,0 +1,15 @@
+{
+  "id": "mistral/mistral-embed",
+  "name": "mistral-embed",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0
+  }
+}

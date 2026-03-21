@@ -1,0 +1,14 @@
+{
+  "id": "klingai/kling-v3.0-t2v",
+  "name": "kling-v3.0-t2v",
+  "created_by": "klingai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  }
+}

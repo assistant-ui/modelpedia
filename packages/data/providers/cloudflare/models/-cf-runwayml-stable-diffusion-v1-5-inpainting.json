@@ -1,0 +1,10 @@
+{
+  "id": "@cf/runwayml/stable-diffusion-v1-5-inpainting",
+  "name": "stable-diffusion-v1-5-inpainting",
+  "created_by": "runway",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

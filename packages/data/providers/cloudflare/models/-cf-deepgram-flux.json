@@ -1,0 +1,10 @@
+{
+  "id": "@cf/deepgram/flux",
+  "name": "flux",
+  "created_by": "deepgram",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

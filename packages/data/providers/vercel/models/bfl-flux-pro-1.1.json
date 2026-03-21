@@ -1,0 +1,14 @@
+{
+  "id": "bfl/flux-pro-1.1",
+  "name": "flux-pro-1.1",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  }
+}

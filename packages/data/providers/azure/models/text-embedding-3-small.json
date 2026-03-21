@@ -12,5 +12,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "model_type": "embed"
 }

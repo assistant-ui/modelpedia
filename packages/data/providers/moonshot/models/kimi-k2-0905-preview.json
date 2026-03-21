@@ -10,5 +10,6 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true
-  }
+  },
+  "tagline": "Enhanced agentic coding, front-end aesthetics, context understanding."
 }

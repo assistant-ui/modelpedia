@@ -10,5 +10,6 @@
   "modalities": {
     "input": [],
     "output": []
-  }
+  },
+  "model_type": "embed"
 }

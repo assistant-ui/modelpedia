@@ -13,5 +13,26 @@
     "input": ["text", "image"],
     "output": ["video", "audio"]
   },
-  "endpoints": ["videos"]
+  "endpoints": ["videos"],
+  "description": "Sora 2 Pro is our state-of-the-art, most advanced media generation model, generating videos with synced audio.",
+  "tagline": "Sora 2 Pro is our state-of-the-art, most advanced media generation model, generating videos with synced audio.",
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Video generation",
+        "unit": "Per second",
+        "columns": [
+          "Portrait: 720x1280 Landscape: 1280x720",
+          "Portrait: 1024x1792 Landscape: 1792x1024",
+          "Portrait: 1080x1920 Landscape: 1920x1080"
+        ],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.3, 0.5, 0.7]
+          }
+        ]
+      }
+    ]
+  }
 }

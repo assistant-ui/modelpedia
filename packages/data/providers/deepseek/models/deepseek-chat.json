@@ -18,5 +18,6 @@
     "input": 0.28,
     "output": 0.42,
     "cached_input": 0.028
-  }
+  },
+  "tagline": "DeepSeek-V3.2 in non-thinking mode."
 }

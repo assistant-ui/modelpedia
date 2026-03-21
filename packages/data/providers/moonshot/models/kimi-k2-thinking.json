@@ -12,5 +12,6 @@
     "streaming": true,
     "tool_call": true,
     "reasoning": true
-  }
+  },
+  "tagline": "Long-term thinking, multi-step tool usage, complex problem solving."
 }

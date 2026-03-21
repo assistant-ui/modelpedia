@@ -15,5 +15,9 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 5
   }
 }

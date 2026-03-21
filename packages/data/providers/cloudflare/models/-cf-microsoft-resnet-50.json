@@ -1,0 +1,10 @@
+{
+  "id": "@cf/microsoft/resnet-50",
+  "name": "resnet-50",
+  "created_by": "microsoft",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

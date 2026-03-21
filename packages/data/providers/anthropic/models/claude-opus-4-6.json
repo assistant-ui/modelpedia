@@ -28,5 +28,8 @@
     "batch_input": 2.5,
     "batch_output": 12.5,
     "cache_write": 6.25
-  }
+  },
+  "tagline": "The most intelligent model for building agents and coding",
+  "tools": ["function_calling", "computer_use", "mcp"],
+  "endpoints": ["messages"]
 }

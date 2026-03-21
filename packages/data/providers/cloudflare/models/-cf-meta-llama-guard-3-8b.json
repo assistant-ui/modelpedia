@@ -1,0 +1,12 @@
+{
+  "id": "@cf/meta/llama-guard-3-8b",
+  "name": "llama-guard-3-8b",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-guard",
+  "model_type": "moderation",
+  "capabilities": {
+    "streaming": true
+  }
+}

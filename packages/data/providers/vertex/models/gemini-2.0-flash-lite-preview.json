@@ -14,5 +14,6 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
-  }
+  },
+  "successor": "gemini-2.5-flash-lite"
 }

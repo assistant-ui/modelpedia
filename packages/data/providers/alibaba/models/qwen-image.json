@@ -1,0 +1,12 @@
+{
+  "id": "qwen-image",
+  "name": "qwen-image",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

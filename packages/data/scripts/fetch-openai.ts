@@ -8,6 +8,7 @@ import {
 import {
   detectSnapshot,
   inferFamily,
+  inferModelType,
   type ModelEntry,
   runGenerate,
   upsertWithSnapshot,
@@ -16,22 +17,6 @@ import {
 function isRelevant(id: string): boolean {
   if (/ with data sharing$/.test(id)) return false;
   return true;
-}
-
-function inferModelType(id: string, endpoints?: string[]): string | undefined {
-  if (/^text-embedding/.test(id)) return "embed";
-  if (/^(dall-e|chatgpt-image|gpt-image)/.test(id)) return "image";
-  if (/^sora/.test(id)) return "video";
-  if (/^(tts-|.*-tts)/.test(id)) return "tts";
-  if (/^whisper|transcribe/.test(id)) return "transcription";
-  if (/^(text-moderation|omni-moderation)/.test(id)) return "moderation";
-  if (/^(babbage|davinci)/.test(id)) return "chat";
-  if (
-    endpoints?.includes("embeddings") &&
-    !endpoints.includes("chat_completions")
-  )
-    return "embed";
-  return undefined;
 }
 
 function featuresToCapabilities(

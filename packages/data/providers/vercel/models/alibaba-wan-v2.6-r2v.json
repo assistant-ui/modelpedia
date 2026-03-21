@@ -1,0 +1,14 @@
+{
+  "id": "alibaba/wan-v2.6-r2v",
+  "name": "wan-v2.6-r2v",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  }
+}

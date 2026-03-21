@@ -219,6 +219,53 @@ export function inferFamily(modelId: string): string | undefined {
   return undefined;
 }
 
+// ── Model type inference ──
+
+/**
+ * Infer model_type from model ID and optional metadata.
+ * Returns undefined if cannot be determined.
+ */
+export function inferModelType(
+  modelId: string,
+  endpoints?: string[],
+): string | undefined {
+  const id = modelId.toLowerCase();
+
+  // Embedding
+  if (/^text-embedding|embed/i.test(id)) return "embed";
+  // Image generation
+  if (/^(dall-e|chatgpt-image|gpt-image|stable-diffusion|flux|sdxl)/i.test(id))
+    return "image";
+  if (/^grok-imagine/i.test(id)) return "image";
+  // Video generation
+  if (/^sora/i.test(id)) return "video";
+  // TTS
+  if (/^tts-|[-_]tts(?:[-_]|$)/i.test(id)) return "tts";
+  if (/^orpheus/i.test(id)) return "tts";
+  // Transcription / ASR
+  if (/^whisper|transcribe|^asr/i.test(id)) return "transcription";
+  // Moderation
+  if (/moderation/i.test(id)) return "moderation";
+  // Rerank
+  if (/rerank/i.test(id)) return "rerank";
+  // Code (dedicated code models, not code-capable chat models)
+  if (/^codestral|^devstral/i.test(id)) return "code";
+  // Reasoning
+  if (/^(o\d+)(?:-|$)/.test(id)) return "reasoning";
+  if (/^deepseek-r\d/i.test(id)) return "reasoning";
+  if (/^qwq/i.test(id)) return "reasoning";
+  // Guard / safety
+  if (/guard|safeguard/i.test(id)) return "moderation";
+  // Endpoint-based inference
+  if (
+    endpoints?.includes("embeddings") &&
+    !endpoints.includes("chat_completions")
+  )
+    return "embed";
+
+  return undefined;
+}
+
 // ── Upsert ──
 
 export interface ModelEntry {
@@ -343,6 +390,20 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
           ? normalizeDate(val)
           : val;
     }
+  }
+
+  // Auto-infer model_type if not explicitly set
+  if (!data.model_type) {
+    const inferred = inferModelType(
+      entry.id,
+      entry.endpoints as string[] | undefined,
+    );
+    if (inferred) data.model_type = inferred;
+  }
+
+  // Auto-generate tagline from description if not set
+  if (!data.tagline && data.description) {
+    data.tagline = firstSentence(data.description as string);
   }
 
   const caps = mergeObjects(

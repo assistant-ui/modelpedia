@@ -12,5 +12,6 @@
   "pricing": {
     "input": 1,
     "output": 1
-  }
+  },
+  "model_type": "rerank"
 }

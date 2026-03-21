@@ -19,5 +19,8 @@
   "modalities": {
     "input": ["text", "image", "video", "audio"],
     "output": ["text", "image"]
-  }
+  },
+  "model_type": "tts",
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"]
 }

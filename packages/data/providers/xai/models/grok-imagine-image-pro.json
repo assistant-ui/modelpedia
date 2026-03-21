@@ -3,10 +3,16 @@
   "name": "grok-imagine-image-pro",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "release_date": "2026-01-28",
   "capabilities": {
     "streaming": true,
     "tool_call": true
+  },
+  "family": "grok-imagine",
+  "model_type": "image",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
   }
 }

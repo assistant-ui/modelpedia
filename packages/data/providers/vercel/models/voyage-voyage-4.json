@@ -1,0 +1,15 @@
+{
+  "id": "voyage/voyage-4",
+  "name": "voyage-4",
+  "created_by": "voyage",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 32000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0
+  }
+}

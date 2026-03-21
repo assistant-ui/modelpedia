@@ -20,5 +20,6 @@
     "output": 0.9
   },
   "snapshots": ["codestral-2508", "codestral-2501", "codestral-2405"],
-  "deprecation_date": "2024-12-02"
+  "deprecation_date": "2024-12-02",
+  "model_type": "code"
 }

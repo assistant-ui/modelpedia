@@ -8,5 +8,6 @@
     "streaming": true,
     "tool_call": true,
     "vision": true
-  }
+  },
+  "model_type": "embed"
 }

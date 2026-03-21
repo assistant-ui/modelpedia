@@ -19,5 +19,7 @@
   "modalities": {
     "input": ["text", "image", "video", "audio"],
     "output": ["text", "image"]
-  }
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"]
 }

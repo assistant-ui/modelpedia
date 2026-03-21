@@ -17,5 +17,8 @@
   "modalities": {
     "input": ["text", "image", "video", "audio"],
     "output": ["text", "image"]
-  }
+  },
+  "model_type": "embed",
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"]
 }

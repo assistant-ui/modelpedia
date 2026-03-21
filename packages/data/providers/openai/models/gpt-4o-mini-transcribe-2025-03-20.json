@@ -17,5 +17,35 @@
     "input": ["audio", "text"],
     "output": ["text"]
   },
-  "endpoints": ["transcription", "realtime"]
+  "endpoints": ["transcription", "realtime"],
+  "description": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
+  "tagline": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Estimated cost"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.25, 5, 0.003]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Estimated cost"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [3, null, 0.003]
+          }
+        ]
+      }
+    ],
+    "input": 1.25,
+    "output": 5
+  }
 }

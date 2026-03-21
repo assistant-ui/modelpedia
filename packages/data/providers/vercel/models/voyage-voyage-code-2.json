@@ -1,0 +1,14 @@
+{
+  "id": "voyage/voyage-code-2",
+  "name": "voyage-code-2",
+  "created_by": "voyage",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.12,
+    "output": 0
+  }
+}

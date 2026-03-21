@@ -86,23 +86,13 @@ async function main() {
     const cells = line.split("|").map((c) => c.trim());
     // cells: ["", model, type, context, input, output, providers, tags, ""]
     const modelId = cells[1];
-    const modelType = cells[2];
+    const _modelType = cells[2];
     const context = cells[3];
     const inputPrice = cells[4];
     const outputPrice = cells[5];
     const tags = cells[7] ?? "";
 
     if (!modelId) continue;
-
-    // Skip non-chat models (embedding, video, image, speech, moderation)
-    if (
-      modelType === "embedding" ||
-      modelType === "video" ||
-      modelType === "image" ||
-      modelType === "speech" ||
-      modelType === "moderation"
-    )
-      continue;
 
     const shortName = modelId.includes("/")
       ? modelId.split("/").pop()!

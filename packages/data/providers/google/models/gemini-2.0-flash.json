@@ -21,5 +21,8 @@
   "modalities": {
     "input": ["text", "image", "video", "audio"],
     "output": ["text", "image"]
-  }
+  },
+  "successor": "gemini-2.5-flash",
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"]
 }

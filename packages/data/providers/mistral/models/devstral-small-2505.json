@@ -16,5 +16,10 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "model_type": "code",
+  "pricing": {
+    "input": 0.1,
+    "output": 0.3
   }
 }

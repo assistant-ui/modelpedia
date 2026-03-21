@@ -1,0 +1,15 @@
+{
+  "id": "openai/gpt-image-1",
+  "name": "gpt-image-1",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-image-1",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 5,
+    "output": 40
+  }
+}

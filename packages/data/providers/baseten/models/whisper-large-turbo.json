@@ -7,5 +7,6 @@
   "family": "whisper",
   "capabilities": {
     "streaming": true
-  }
+  },
+  "model_type": "transcription"
 }

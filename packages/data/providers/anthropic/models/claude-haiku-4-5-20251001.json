@@ -29,5 +29,8 @@
     "batch_input": 0.5,
     "batch_output": 2.5,
     "cache_write": 1.25
-  }
+  },
+  "tagline": "The fastest model with near-frontier intelligence",
+  "tools": ["function_calling", "computer_use", "mcp"],
+  "endpoints": ["messages"]
 }

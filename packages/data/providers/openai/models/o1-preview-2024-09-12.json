@@ -25,5 +25,7 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "endpoints": ["chat_completions", "assistants"]
+  "endpoints": ["chat_completions", "assistants"],
+  "description": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
+  "tagline": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning."
 }

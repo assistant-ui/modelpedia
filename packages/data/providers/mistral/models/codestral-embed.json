@@ -15,5 +15,6 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "snapshots": ["codestral-embed-2505"]
+  "snapshots": ["codestral-embed-2505"],
+  "model_type": "embed"
 }

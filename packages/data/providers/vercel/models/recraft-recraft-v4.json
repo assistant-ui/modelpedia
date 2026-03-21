@@ -1,0 +1,14 @@
+{
+  "id": "recraft/recraft-v4",
+  "name": "recraft-v4",
+  "created_by": "recraft",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  }
+}

@@ -7,6 +7,7 @@
   "family": "gpt-oss",
   "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
   "context_window": 131072,
+  "max_output_tokens": 131072,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -18,6 +19,7 @@
   },
   "pricing": {
     "input": 0.03,
-    "output": 0.14
+    "output": 0.11,
+    "cached_input": 0.015
   }
 }

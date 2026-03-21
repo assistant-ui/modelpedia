@@ -7,5 +7,6 @@
   "modalities": {
     "input": ["text"],
     "output": []
-  }
+  },
+  "model_type": "embed"
 }

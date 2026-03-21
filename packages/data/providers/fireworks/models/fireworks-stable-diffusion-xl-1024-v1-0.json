@@ -1,0 +1,14 @@
+{
+  "id": "fireworks/stable-diffusion-xl-1024-v1-0",
+  "name": "stable-diffusion-xl-1024-v1-0",
+  "created_by": "fireworks",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

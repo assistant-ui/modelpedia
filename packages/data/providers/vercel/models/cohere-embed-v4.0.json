@@ -1,0 +1,15 @@
+{
+  "id": "cohere/embed-v4.0",
+  "name": "embed-v4.0",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.12,
+    "output": 0
+  }
+}

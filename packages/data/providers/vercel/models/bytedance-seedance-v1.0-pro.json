@@ -1,0 +1,14 @@
+{
+  "id": "bytedance/seedance-v1.0-pro",
+  "name": "seedance-v1.0-pro",
+  "created_by": "bytedance",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  }
+}

@@ -19,5 +19,6 @@
   "pricing": {
     "input": 0.1,
     "output": 0.3
-  }
+  },
+  "model_type": "code"
 }

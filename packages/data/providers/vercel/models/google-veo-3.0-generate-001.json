@@ -1,0 +1,14 @@
+{
+  "id": "google/veo-3.0-generate-001",
+  "name": "veo-3.0-generate-001",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  }
+}

@@ -28,5 +28,7 @@
     "batch_output": 7.5,
     "cache_write": 3.75
   },
-  "snapshots": ["claude-sonnet-4-20250514"]
+  "snapshots": ["claude-sonnet-4-20250514"],
+  "tools": ["function_calling", "computer_use", "mcp"],
+  "endpoints": ["messages"]
 }

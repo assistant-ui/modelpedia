@@ -221,6 +221,9 @@ async function main() {
           : {}),
         ...(apiModel?.capabilities?.fine_tuning ? { fine_tuning: true } : {}),
       },
+      ...(apiModel?.capabilities?.function_calling
+        ? { tools: ["function_calling"] }
+        : {}),
     };
 
     if (detail.pricing_input != null && detail.pricing_output != null) {

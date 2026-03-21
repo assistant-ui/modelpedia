@@ -1,0 +1,15 @@
+{
+  "id": "xai/grok-imagine-image-pro",
+  "name": "grok-imagine-image-pro",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "grok-imagine",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "google/text-multilingual-embedding-002",
+  "name": "text-multilingual-embedding-002",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0
+  }
+}

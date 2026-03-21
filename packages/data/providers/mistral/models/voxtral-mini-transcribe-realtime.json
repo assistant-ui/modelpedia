@@ -13,5 +13,6 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "snapshots": ["voxtral-mini-transcribe-realtime-2602"]
+  "snapshots": ["voxtral-mini-transcribe-realtime-2602"],
+  "model_type": "transcription"
 }

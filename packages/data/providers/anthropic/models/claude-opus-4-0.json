@@ -28,5 +28,7 @@
     "batch_output": 37.5,
     "cache_write": 18.75
   },
-  "snapshots": ["claude-opus-4-20250514"]
+  "snapshots": ["claude-opus-4-20250514"],
+  "tools": ["function_calling", "computer_use", "mcp"],
+  "endpoints": ["messages"]
 }

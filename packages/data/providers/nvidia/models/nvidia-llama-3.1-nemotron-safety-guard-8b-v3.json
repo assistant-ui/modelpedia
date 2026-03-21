@@ -8,5 +8,6 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true
-  }
+  },
+  "model_type": "moderation"
 }

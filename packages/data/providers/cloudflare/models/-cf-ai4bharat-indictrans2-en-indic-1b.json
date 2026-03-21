@@ -1,0 +1,10 @@
+{
+  "id": "@cf/ai4bharat/indictrans2-en-indic-1B",
+  "name": "indictrans2-en-indic-1B",
+  "created_by": "ai4bharat",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

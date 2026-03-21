@@ -7,5 +7,6 @@
   "family": "gpt-oss",
   "capabilities": {
     "streaming": true
-  }
+  },
+  "model_type": "moderation"
 }

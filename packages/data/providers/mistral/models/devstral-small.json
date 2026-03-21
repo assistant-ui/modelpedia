@@ -24,5 +24,6 @@
     "devstral-small-2507",
     "devstral-small-2505"
   ],
-  "deprecation_date": "2025-10-31"
+  "deprecation_date": "2025-10-31",
+  "model_type": "code"
 }

@@ -49,8 +49,7 @@ function parseModels(html: string) {
 
     const id = codeMatch[1].trim();
 
-    // Skip non-chat models (embed, rerank) and alias models
-    if (id.startsWith("embed") || id.startsWith("rerank")) continue;
+    // Skip alias models (unversioned names that point to a dated variant)
     if (
       id === "command-r" ||
       id === "command-r-plus" ||

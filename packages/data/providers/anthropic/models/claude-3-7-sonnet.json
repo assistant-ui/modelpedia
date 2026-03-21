@@ -21,5 +21,7 @@
     "batch_input": 1.5,
     "batch_output": 7.5,
     "cache_write": 3.75
-  }
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["messages"]
 }

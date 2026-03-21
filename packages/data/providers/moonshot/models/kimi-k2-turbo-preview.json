@@ -11,5 +11,6 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true
-  }
+  },
+  "tagline": "High-speed version, 60-100 tokens/sec output."
 }

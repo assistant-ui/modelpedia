@@ -7,5 +7,6 @@
   "family": "devstral",
   "capabilities": {
     "streaming": true
-  }
+  },
+  "model_type": "code"
 }

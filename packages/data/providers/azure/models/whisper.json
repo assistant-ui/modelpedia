@@ -11,5 +11,6 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "family": "whisper"
+  "family": "whisper",
+  "model_type": "transcription"
 }

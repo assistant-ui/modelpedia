@@ -1,0 +1,10 @@
+{
+  "id": "@cf/stabilityai/stable-diffusion-xl-base-1.0",
+  "name": "stable-diffusion-xl-base-1.0",
+  "created_by": "stability",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

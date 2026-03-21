@@ -1,0 +1,10 @@
+{
+  "id": "@cf/black-forest-labs/flux-2-dev",
+  "name": "flux-2-dev",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}
