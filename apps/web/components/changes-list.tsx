@@ -4,12 +4,12 @@ import { useMemo, useState } from "react";
 import { ChangeEntry } from "@/components/change-entry";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import type { ChangelogEntry } from "@/lib/data";
+import type { ChangeEntry as ChangeEntryData } from "@/lib/data";
 import { fuzzyMatch } from "@/lib/search";
 
 const PAGE_SIZE = 50;
 
-function scoreEntry(entry: ChangelogEntry, pattern: string): number {
+function scoreEntry(entry: ChangeEntryData, pattern: string): number {
   return Math.max(
     fuzzyMatch(entry.model.toLowerCase(), pattern),
     fuzzyMatch(entry.provider.toLowerCase(), pattern),
@@ -21,7 +21,7 @@ export function ChangesList({
   entries,
   providerIcons,
 }: {
-  entries: ChangelogEntry[];
+  entries: ChangeEntryData[];
   providerIcons: Record<string, string | undefined>;
 }) {
   const [query, setQuery] = useState("");

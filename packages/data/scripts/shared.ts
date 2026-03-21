@@ -364,7 +364,7 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
   const allSnapshots = [...new Set([...existingSnapshots, ...newSnapshots])];
   if (allSnapshots.length > 0) data.snapshots = allSnapshots;
 
-  // Diff: log what changed and record to changelog
+  // Diff: log what changed and record to changes
   if (existing) {
     const changedFields: Record<string, { from: unknown; to: unknown }> = {};
     for (const [k, v] of Object.entries(data)) {
@@ -388,7 +388,7 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
 }
 
 /**
- * Delete a model entry and record to changelog.
+ * Delete a model entry and record to changes.
  */
 export function deleteModel(provider: string, modelId: string): boolean {
   const sanitized = sanitizeModelId(modelId);

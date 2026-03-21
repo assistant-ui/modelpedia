@@ -30,7 +30,7 @@ import { ProviderIcon } from "@/components/provider-icon";
 import { ButtonLink } from "@/components/ui/button";
 import {
   allModels,
-  getChangelog,
+  getChanges,
   getModel,
   getModelWithInheritance,
   getProvider,
@@ -105,7 +105,7 @@ export default async function ModelDetailPage({
   const model = _model;
 
   const providerInfo = getProvider(model.provider);
-  const modelChanges = getChangelog().filter(
+  const modelChanges = getChanges().filter(
     (e) => e.provider === provider && e.model === modelId,
   );
 

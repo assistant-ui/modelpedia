@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ProviderIcon } from "@/components/provider-icon";
-import type { ChangelogEntry } from "@/lib/data";
+import type { ChangeEntry as ChangeEntryData } from "@/lib/data";
 import { formatDate, formatValue } from "@/lib/format";
 
 const ACTION_COLORS: Record<string, string> = {
@@ -126,7 +126,7 @@ export function ChangeEntry({
   provider,
   showModel = true,
 }: {
-  entry: ChangelogEntry;
+  entry: ChangeEntryData;
   provider: { icon?: string } | null | undefined;
   showModel?: boolean;
 }) {

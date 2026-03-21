@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import {
   allModels,
-  getChangelog,
+  getChanges,
   getModel,
   getProvider,
   providers,
@@ -163,17 +163,17 @@ function renderCompare(): string {
 }
 
 function renderChanges(): string {
-  const changelog = getChangelog();
+  const changes = getChanges();
   const lines = [
     "# Changes",
     "",
-    `${changelog.length} total entries.`,
+    `${changes.length} total entries.`,
     "",
     "| Date | Provider | Model | Action | Changes |",
     "|------|----------|-------|--------|---------|",
   ];
 
-  for (const entry of changelog.slice(0, 100)) {
+  for (const entry of changes.slice(0, 100)) {
     const date = new Date(entry.ts).toISOString().slice(0, 10);
     const provider = getProvider(entry.provider);
     const provName = provider?.name ?? entry.provider;
@@ -190,8 +190,8 @@ function renderChanges(): string {
     );
   }
 
-  if (changelog.length > 100) {
-    lines.push("", `_Showing 100 of ${changelog.length} entries._`);
+  if (changes.length > 100) {
+    lines.push("", `_Showing 100 of ${changes.length} entries._`);
   }
 
   return lines.join("\n");
@@ -248,7 +248,7 @@ function renderModelChanges(
   const model = getModel(providerId, modelId);
   if (!model) return null;
   const provider = getProvider(providerId);
-  const changelog = getChangelog().filter(
+  const changes = getChanges().filter(
     (e) => e.provider === providerId && e.model === modelId,
   );
 
@@ -256,15 +256,15 @@ function renderModelChanges(
     `# Changes — ${model.name}`,
     "",
     `Provider: ${provider?.name ?? providerId}`,
-    `${changelog.length} entries.`,
+    `${changes.length} entries.`,
     "",
   ];
 
-  if (changelog.length === 0) {
+  if (changes.length === 0) {
     lines.push("No changes recorded for this model.");
   } else {
     lines.push("| Date | Action | Changes |", "|------|--------|---------|");
-    for (const entry of changelog) {
+    for (const entry of changes) {
       const date = new Date(entry.ts).toISOString().slice(0, 10);
       const changes = entry.changes
         ? Object.entries(entry.changes)

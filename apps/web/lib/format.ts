@@ -18,7 +18,7 @@ export function formatDate(ts: string): string {
   });
 }
 
-/** Format unknown value for display in changelog diffs */
+/** Format unknown value for display in change diffs */
 export function formatValue(v: unknown): string {
   if (v == null) return "—";
   if (typeof v === "number") return String(v);
