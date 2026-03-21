@@ -169,9 +169,12 @@ export default async function ModelDetailPage({
       backHref={`/${provider}/${modelId}`}
       header={
         <>
-          <ButtonLink href={`/${model.provider}`} variant="ghost" size="icon">
+          <a
+            href={`/${model.provider}`}
+            className="shrink-0 transition-opacity duration-200 hover:opacity-70"
+          >
             <ProviderIcon provider={providerInfo} size={18} />
-          </ButtonLink>
+          </a>
           <h2 className="flex-1 font-medium text-foreground text-lg tracking-tight">
             {model.name}
           </h2>
@@ -179,6 +182,41 @@ export default async function ModelDetailPage({
             <span className="rounded-full bg-muted px-2 py-0.5 text-muted-foreground text-xs">
               {model.status}
             </span>
+          )}
+        </>
+      }
+      subheader={
+        <>
+          {model.id !== model.name && (
+            <div className="mt-1 break-all font-mono text-muted-foreground text-sm">
+              {model.id}
+            </div>
+          )}
+          {model.description && (
+            <p className="mt-2 text-pretty text-muted-foreground leading-relaxed">
+              <RenderMarkdown text={model.description} />
+            </p>
+          )}
+          {(model.alias || (model.snapshots && model.snapshots.length > 0)) && (
+            <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
+              {model.alias && (
+                <a
+                  href={`/${model.provider}/${model.alias}`}
+                  className="rounded bg-muted px-2 py-1 font-mono text-muted-foreground ring-1 ring-border transition-colors duration-200 hover:text-foreground"
+                >
+                  alias → {model.alias}
+                </a>
+              )}
+              {model.snapshots?.map((s) => (
+                <a
+                  key={s}
+                  href={`/${model.provider}/${s}`}
+                  className="rounded bg-muted px-2 py-1 font-mono text-muted-foreground ring-1 ring-border transition-colors duration-200 hover:text-foreground"
+                >
+                  {s}
+                </a>
+              ))}
+            </div>
           )}
         </>
       }

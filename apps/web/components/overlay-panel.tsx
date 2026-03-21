@@ -8,10 +8,12 @@ import { Button } from "./ui/button";
 export function OverlayPanel({
   backHref,
   header,
+  subheader,
   children,
 }: {
   backHref: string;
   header: React.ReactNode;
+  subheader?: React.ReactNode;
   children: React.ReactNode;
 }) {
   const [visible, setVisible] = useState(false);
@@ -48,11 +50,14 @@ export function OverlayPanel({
         style={{ height: "calc(100vh - 49px)" }}
       >
         <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
-          <div className="mb-8 flex items-center gap-2.5">
-            {header}
-            <Button variant="ghost" size="icon" onClick={close} title="Close">
-              <X size={14} />
-            </Button>
+          <div className="mb-8">
+            <div className="flex items-center gap-2.5">
+              {header}
+              <Button variant="ghost" size="icon" onClick={close} title="Close">
+                <X size={14} />
+              </Button>
+            </div>
+            {subheader}
           </div>
           {children}
         </div>

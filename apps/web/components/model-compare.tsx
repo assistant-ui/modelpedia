@@ -72,26 +72,31 @@ function CompareRow({
   label,
   a,
   b,
+  diff,
 }: {
   icon?: LucideIcon;
   label: string;
   a: React.ReactNode;
   b: React.ReactNode;
+  diff?: boolean;
 }) {
+  const cell =
+    "flex items-center border-border border-l px-4 py-2.5 font-mono text-foreground text-sm";
+  const diffCls = diff ? " bg-yellow-500/8" : "";
   return (
     <div className="grid grid-cols-3 border-border border-t">
       <div className="flex items-center gap-2 px-4 py-2.5 text-muted-foreground text-sm">
         {Icon && <Icon size={14} className="shrink-0" />}
         {label}
       </div>
-      <div className="flex items-center border-border border-l px-4 py-2.5 font-mono text-foreground text-sm">
-        {a ?? "—"}
-      </div>
-      <div className="flex items-center border-border border-l px-4 py-2.5 font-mono text-foreground text-sm">
-        {b ?? "—"}
-      </div>
+      <div className={`${cell}${diffCls}`}>{a ?? "—"}</div>
+      <div className={`${cell}${diffCls}`}>{b ?? "—"}</div>
     </div>
   );
+}
+
+function neq(a: unknown, b: unknown): boolean {
+  return (a ?? null) !== (b ?? null);
 }
 
 function RatingDots({
@@ -212,6 +217,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
           <CompareRow
             icon={User}
             label="Creator"
+            diff={neq(a.created_by, b.created_by)}
             a={
               <a
                 href={`/${a.created_by}`}
@@ -237,72 +243,89 @@ function CompareInner({ models }: { models: CompareModel[] }) {
               </a>
             }
           />
-          <CompareRow icon={Tag} label="Family" a={a.family} b={b.family} />
+          <CompareRow
+            icon={Tag}
+            label="Family"
+            a={a.family}
+            b={b.family}
+            diff={neq(a.family, b.family)}
+          />
           <CompareRow
             icon={Hash}
             label="Type"
             a={a.model_type}
             b={b.model_type}
+            diff={neq(a.model_type, b.model_type)}
           />
           <CompareRow
             icon={Puzzle}
             label="Status"
             a={a.status ?? "—"}
             b={b.status ?? "—"}
+            diff={neq(a.status, b.status)}
           />
           <CompareRow
             icon={Calendar}
             label="Release date"
             a={a.release_date}
             b={b.release_date}
+            diff={neq(a.release_date, b.release_date)}
           />
           <CompareRow
             icon={MessageSquare}
             label="Context"
             a={a.context_window ? formatTokens(a.context_window) : null}
             b={b.context_window ? formatTokens(b.context_window) : null}
+            diff={neq(a.context_window, b.context_window)}
           />
           <CompareRow
             icon={Maximize}
             label="Max context"
             a={a.max_context_window ? formatTokens(a.max_context_window) : null}
             b={b.max_context_window ? formatTokens(b.max_context_window) : null}
+            diff={neq(a.max_context_window, b.max_context_window)}
           />
           <CompareRow
             icon={Maximize}
             label="Max output"
             a={a.max_output_tokens ? formatTokens(a.max_output_tokens) : null}
             b={b.max_output_tokens ? formatTokens(b.max_output_tokens) : null}
+            diff={neq(a.max_output_tokens, b.max_output_tokens)}
           />
           <CompareRow
             icon={Maximize}
             label="Max input"
             a={a.max_input_tokens ? formatTokens(a.max_input_tokens) : null}
             b={b.max_input_tokens ? formatTokens(b.max_input_tokens) : null}
+            diff={neq(a.max_input_tokens, b.max_input_tokens)}
           />
           <CompareRow
             icon={Timer}
             label="Knowledge cutoff"
             a={a.knowledge_cutoff}
             b={b.knowledge_cutoff}
+            diff={neq(a.knowledge_cutoff, b.knowledge_cutoff)}
           />
           <CompareRow
             icon={Lightbulb}
             label="Intelligence"
             a={<RatingDots value={a.performance} labels={PERF_LABELS} />}
             b={<RatingDots value={b.performance} labels={PERF_LABELS} />}
+            diff={neq(a.performance, b.performance)}
           />
           <CompareRow
             icon={Brain}
             label="Reasoning"
             a={<RatingDots value={a.reasoning} labels={REASONING_LABELS} />}
             b={<RatingDots value={b.reasoning} labels={REASONING_LABELS} />}
+            diff={neq(a.reasoning, b.reasoning)}
           />
           <CompareRow
             icon={Gauge}
             label="Speed"
             a={<RatingDots value={a.speed} labels={SPEED_LABELS} />}
             b={<RatingDots value={b.speed} labels={SPEED_LABELS} />}
+            diff={neq(a.speed, b.speed)}
           />
 
           <CompareRow
@@ -310,36 +333,42 @@ function CompareInner({ models }: { models: CompareModel[] }) {
             label="Input price"
             a={formatPrice(a.pricing?.input)}
             b={formatPrice(b.pricing?.input)}
+            diff={neq(a.pricing?.input, b.pricing?.input)}
           />
           <CompareRow
             icon={CircleDollarSign}
             label="Output price"
             a={formatPrice(a.pricing?.output)}
             b={formatPrice(b.pricing?.output)}
+            diff={neq(a.pricing?.output, b.pricing?.output)}
           />
           <CompareRow
             icon={Database}
             label="Cache write"
             a={formatPrice(a.pricing?.cache_write)}
             b={formatPrice(b.pricing?.cache_write)}
+            diff={neq(a.pricing?.cache_write, b.pricing?.cache_write)}
           />
           <CompareRow
             icon={Database}
             label="Cache read"
             a={formatPrice(a.pricing?.cached_input)}
             b={formatPrice(b.pricing?.cached_input)}
+            diff={neq(a.pricing?.cached_input, b.pricing?.cached_input)}
           />
           <CompareRow
             icon={Coins}
             label="Batch input"
             a={formatPrice(a.pricing?.batch_input)}
             b={formatPrice(b.pricing?.batch_input)}
+            diff={neq(a.pricing?.batch_input, b.pricing?.batch_input)}
           />
           <CompareRow
             icon={Coins}
             label="Batch output"
             a={formatPrice(a.pricing?.batch_output)}
             b={formatPrice(b.pricing?.batch_output)}
+            diff={neq(a.pricing?.batch_output, b.pricing?.batch_output)}
           />
           <CompareRow
             icon={Zap}
@@ -358,6 +387,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
                   : "No"
                 : null
             }
+            diff={neq(a.reasoning_tokens, b.reasoning_tokens)}
           />
 
           {CAP_KEYS.map(([key, label, capIcon]) => (
@@ -367,6 +397,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
               label={label}
               a={<CapBadge supported={a.capabilities?.[key]} />}
               b={<CapBadge supported={b.capabilities?.[key]} />}
+              diff={neq(a.capabilities?.[key], b.capabilities?.[key])}
             />
           ))}
 
@@ -375,12 +406,20 @@ function CompareInner({ models }: { models: CompareModel[] }) {
             label="Input modalities"
             a={a.modalities?.input?.join(", ")}
             b={b.modalities?.input?.join(", ")}
+            diff={neq(
+              a.modalities?.input?.join(","),
+              b.modalities?.input?.join(","),
+            )}
           />
           <CompareRow
             icon={Play}
             label="Output modalities"
             a={a.modalities?.output?.join(", ")}
             b={b.modalities?.output?.join(", ")}
+            diff={neq(
+              a.modalities?.output?.join(","),
+              b.modalities?.output?.join(","),
+            )}
           />
         </div>
       ) : (
