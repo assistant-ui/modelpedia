@@ -111,7 +111,8 @@ function generate() {
     "",
     "import type { ProviderWithModels, Model } from './types';",
     ...providerIds.map(
-      (id) => `import { provider as ${id.replace(/[^a-zA-Z0-9]/g, "_")} } from './providers/${id}';`,
+      (id) =>
+        `import { provider as ${id.replace(/[^a-zA-Z0-9]/g, "_")} } from './providers/${id}';`,
     ),
     "",
     `export const providers: ProviderWithModels[] = [${providerIds.map((id) => id.replace(/[^a-zA-Z0-9]/g, "_")).join(", ")}];`,

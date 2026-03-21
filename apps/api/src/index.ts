@@ -1,8 +1,8 @@
+import type { Model } from "@modelpedia/data";
+import { allModels, getModel, getProvider, providers } from "@modelpedia/data";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { prettyJSON } from "hono/pretty-json";
-import type { Model } from "@modelpedia/data";
-import { allModels, getModel, getProvider, providers } from "@modelpedia/data";
 
 const api = new Hono();
 

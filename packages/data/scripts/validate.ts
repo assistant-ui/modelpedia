@@ -202,12 +202,17 @@ function validateModel(filePath: string, _providerId: string): Result {
         "batch_input",
         "batch_output",
         "cached_output",
+        "tiers",
       ];
       for (const [key, val] of Object.entries(pricing)) {
         if (!validPricingKeys.includes(key)) {
           errors.push(`pricing.${key}: unknown pricing key`);
         }
-        if (
+        if (key === "tiers") {
+          if (!Array.isArray(val)) {
+            errors.push("pricing.tiers: must be an array");
+          }
+        } else if (
           val !== undefined &&
           val !== null &&
           (typeof val !== "number" || val < 0)

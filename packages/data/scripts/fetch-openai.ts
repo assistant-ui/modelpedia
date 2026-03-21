@@ -6,7 +6,6 @@ import {
   parsePricingSections,
 } from "./openai-parser.ts";
 import {
-  detectSnapshot,
   inferFamily,
   inferModelType,
   type ModelEntry,

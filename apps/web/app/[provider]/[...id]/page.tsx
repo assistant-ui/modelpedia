@@ -35,7 +35,7 @@ import {
   getModelWithInheritance,
   getProvider,
 } from "@/lib/data";
-import { formatPrice, formatTokens } from "@/lib/format";
+import { formatTokens } from "@/lib/format";
 import { normalizeModelId } from "@/lib/search";
 
 type Params = { provider: string; id: string[] };

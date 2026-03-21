@@ -1,5 +1,5 @@
-import { defineConfig } from "tsdown";
 import * as fs from "node:fs";
+import { defineConfig } from "tsdown";
 
 // Discover per-provider entry points
 const providerEntries = fs.existsSync("src/providers")
