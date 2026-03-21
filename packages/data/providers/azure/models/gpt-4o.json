@@ -1,0 +1,16 @@
+{
+  "id": "gpt-4o",
+  "name": "GPT-4o, GPT-4o mini, and GPT-4 Turbo",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4o",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

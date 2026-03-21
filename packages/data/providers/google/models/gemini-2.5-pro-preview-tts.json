@@ -1,0 +1,23 @@
+{
+  "id": "gemini-2.5-pro-preview-tts",
+  "name": "gemini-2.5-pro-preview-tts",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemini-2.5",
+  "status": "active",
+  "context_window": 8192,
+  "max_output_tokens": 16384,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text", "image"]
+  }
+}

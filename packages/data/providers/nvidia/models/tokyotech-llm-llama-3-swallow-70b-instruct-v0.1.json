@@ -1,0 +1,12 @@
+{
+  "id": "tokyotech-llm/llama-3-swallow-70b-instruct-v0.1",
+  "name": "llama-3-swallow-70b-instruct-v0.1",
+  "created_by": "tokyotech-llm",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-3",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

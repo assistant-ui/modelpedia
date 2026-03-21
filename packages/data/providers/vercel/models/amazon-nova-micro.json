@@ -1,0 +1,15 @@
+{
+  "id": "amazon/nova-micro",
+  "name": "nova-micro",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 128000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0.14
+  }
+}

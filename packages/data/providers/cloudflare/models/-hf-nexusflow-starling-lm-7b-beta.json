@@ -1,0 +1,10 @@
+{
+  "id": "@hf/nexusflow/starling-lm-7b-beta",
+  "name": "starling-lm-7b-beta",
+  "created_by": "nexusflow",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

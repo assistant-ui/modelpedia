@@ -1,0 +1,25 @@
+{
+  "id": "openai/gpt-oss-120b",
+  "name": "GPT OSS 120B",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-oss",
+  "status": "active",
+  "context_window": 131072,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  }
+}

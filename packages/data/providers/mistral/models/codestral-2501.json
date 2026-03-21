@@ -1,0 +1,20 @@
+{
+  "id": "codestral-2501",
+  "name": "codestral-2501",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "codestral",
+  "status": "deprecated",
+  "deprecation_date": "November 6, 2025",
+  "context_window": 128000,
+  "alias": "codestral",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

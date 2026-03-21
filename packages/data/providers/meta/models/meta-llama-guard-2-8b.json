@@ -1,0 +1,15 @@
+{
+  "id": "Meta-Llama-Guard-2-8B",
+  "name": "Meta-Llama-Guard-2-8B",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

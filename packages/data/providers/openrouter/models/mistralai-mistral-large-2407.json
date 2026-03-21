@@ -1,0 +1,23 @@
+{
+  "id": "mistralai/mistral-large-2407",
+  "name": "Mistral Large 2407",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-large",
+  "description": "This is Mistral AI's flagship model, Mistral Large 2 (version mistral-large-2407).",
+  "context_window": 131072,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6,
+    "cached_input": 0.2
+  }
+}

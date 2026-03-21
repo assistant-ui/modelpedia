@@ -1,0 +1,10 @@
+{
+  "id": "writer/palmyra-fin-70b-32k",
+  "name": "palmyra-fin-70b-32k",
+  "created_by": "writer",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

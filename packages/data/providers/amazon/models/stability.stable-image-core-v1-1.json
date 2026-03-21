@@ -1,0 +1,11 @@
+{
+  "id": "stability.stable-image-core-v1:1",
+  "name": "Stable Image Core 1.0",
+  "created_by": "stability",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  }
+}

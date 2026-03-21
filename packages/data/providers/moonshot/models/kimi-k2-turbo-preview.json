@@ -1,0 +1,15 @@
+{
+  "id": "kimi-k2-turbo-preview",
+  "name": "Kimi K2 Turbo",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "kimi",
+  "description": "High-speed version, 60-100 tokens/sec output.",
+  "context_window": 256000,
+  "speed": 5,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

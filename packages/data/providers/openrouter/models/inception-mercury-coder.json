@@ -1,0 +1,23 @@
+{
+  "id": "inception/mercury-coder",
+  "name": "Inception: Mercury Coder",
+  "created_by": "inception",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Mercury Coder is the first diffusion large language model (dLLM).",
+  "context_window": 128000,
+  "max_output_tokens": 32000,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 0.75,
+    "cached_input": 0.025
+  }
+}

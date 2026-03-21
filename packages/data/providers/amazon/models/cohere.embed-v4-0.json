@@ -1,0 +1,14 @@
+{
+  "id": "cohere.embed-v4:0",
+  "name": "Embed v4",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": []
+  }
+}

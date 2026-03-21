@@ -1,0 +1,19 @@
+{
+  "id": "command-r-plus-04-2024",
+  "name": "command-r-plus-04-2024",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "description": "Command R+ is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models. It is best suited for complex RAG workflows and multi-step tool use.",
+  "status": "deprecated",
+  "context_window": 128000,
+  "max_output_tokens": 4000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

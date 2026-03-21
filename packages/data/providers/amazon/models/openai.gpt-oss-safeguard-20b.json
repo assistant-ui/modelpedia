@@ -1,0 +1,14 @@
+{
+  "id": "openai.gpt-oss-safeguard-20b",
+  "name": "GPT OSS Safeguard 20B",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

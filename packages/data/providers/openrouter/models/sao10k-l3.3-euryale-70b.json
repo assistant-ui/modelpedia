@@ -1,0 +1,21 @@
+{
+  "id": "sao10k/l3.3-euryale-70b",
+  "name": "Sao10K: Llama 3.3 Euryale 70B",
+  "created_by": "sao10k",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Euryale L3.3 70B is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k).",
+  "context_window": 131072,
+  "max_output_tokens": 16384,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.65,
+    "output": 0.75
+  }
+}

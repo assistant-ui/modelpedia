@@ -1,0 +1,11 @@
+{
+  "id": "speakleash/bielik-11b-v2.3-instruct",
+  "name": "bielik-11b-v2.3-instruct",
+  "created_by": "speakleash",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

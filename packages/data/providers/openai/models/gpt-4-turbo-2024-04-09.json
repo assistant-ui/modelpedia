@@ -1,0 +1,18 @@
+{
+  "id": "gpt-4-turbo-2024-04-09",
+  "name": "gpt-4-turbo-2024-04-09",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-4-turbo",
+  "status": "active",
+  "context_window": 128000,
+  "max_output_tokens": 4096,
+  "alias": "gpt-4-turbo",
+  "performance": 2,
+  "speed": 3,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "deepseek/deepseek-v3.2-exp",
+  "name": "DeepSeek: DeepSeek V3.2 Exp",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek",
+  "description": "DeepSeek-V3.2-Exp is an experimental large language model released by DeepSeek as an intermediate step between V3.1 and future architectures.",
+  "context_window": 163840,
+  "max_output_tokens": 65536,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.27,
+    "output": 0.41
+  }
+}

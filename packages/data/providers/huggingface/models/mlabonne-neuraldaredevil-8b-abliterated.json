@@ -1,0 +1,10 @@
+{
+  "id": "mlabonne/NeuralDaredevil-8B-abliterated",
+  "name": "NeuralDaredevil-8B-abliterated",
+  "created_by": "mlabonne",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

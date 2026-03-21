@@ -1,0 +1,17 @@
+{
+  "id": "perplexity/sonar-pro",
+  "name": "sonar-pro",
+  "created_by": "perplexity",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 200000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15
+  }
+}

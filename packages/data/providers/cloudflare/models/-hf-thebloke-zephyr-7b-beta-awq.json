@@ -1,0 +1,10 @@
+{
+  "id": "@hf/thebloke/zephyr-7b-beta-awq",
+  "name": "zephyr-7b-beta-awq",
+  "created_by": "thebloke",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

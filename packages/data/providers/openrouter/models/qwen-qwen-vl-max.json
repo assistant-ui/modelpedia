@@ -1,0 +1,23 @@
+{
+  "id": "qwen/qwen-vl-max",
+  "name": "Qwen: Qwen VL Max",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen",
+  "description": "Qwen VL Max is a visual understanding model with 7500 tokens context length.",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.52,
+    "output": 2.08
+  }
+}

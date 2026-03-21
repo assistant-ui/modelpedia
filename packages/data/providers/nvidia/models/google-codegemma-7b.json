@@ -1,0 +1,10 @@
+{
+  "id": "google/codegemma-7b",
+  "name": "codegemma-7b",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

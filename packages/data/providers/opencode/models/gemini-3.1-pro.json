@@ -1,0 +1,12 @@
+{
+  "id": "gemini-3.1-pro",
+  "name": "Gemini 3.1 Pro",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemini-3.1",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  }
+}

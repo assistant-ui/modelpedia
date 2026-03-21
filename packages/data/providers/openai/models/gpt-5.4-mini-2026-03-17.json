@@ -1,0 +1,22 @@
+{
+  "id": "gpt-5.4-mini-2026-03-17",
+  "name": "gpt-5.4-mini-2026-03-17",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-5.4",
+  "status": "active",
+  "alias": "gpt-5.4-mini",
+  "performance": 4,
+  "speed": 4,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

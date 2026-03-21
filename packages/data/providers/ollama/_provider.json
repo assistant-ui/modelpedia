@@ -1,0 +1,9 @@
+{
+  "id": "ollama",
+  "name": "Ollama",
+  "region": "US",
+  "url": "https://ollama.com",
+  "api_url": "http://localhost:11434/api",
+  "docs_url": "https://github.com/ollama/ollama/blob/main/docs/api.md",
+  "pricing_url": "https://ollama.com"
+}

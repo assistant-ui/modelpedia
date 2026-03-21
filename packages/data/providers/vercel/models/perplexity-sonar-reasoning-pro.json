@@ -1,0 +1,16 @@
+{
+  "id": "perplexity/sonar-reasoning-pro",
+  "name": "sonar-reasoning-pro",
+  "created_by": "perplexity",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 127000,
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 8
+  }
+}

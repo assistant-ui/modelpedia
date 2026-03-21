@@ -1,0 +1,18 @@
+{
+  "id": "inflection/inflection-3-productivity",
+  "name": "Inflection: Inflection 3 Productivity",
+  "created_by": "inflection",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Inflection 3 Productivity is optimized for following instructions.",
+  "context_window": 8000,
+  "max_output_tokens": 1024,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  }
+}

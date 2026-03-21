@@ -1,0 +1,10 @@
+{
+  "id": "lfm2",
+  "name": "lfm2",
+  "created_by": "liquid",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "openai/o1",
+  "name": "OpenAI: o1",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "o1",
+  "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding.",
+  "context_window": 200000,
+  "max_output_tokens": 100000,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 15,
+    "output": 60,
+    "cached_input": 7.5
+  }
+}

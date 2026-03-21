@@ -1,0 +1,14 @@
+{
+  "id": "stability.stable-image-inpaint-v1:0",
+  "name": "Stable Image Inpaint",
+  "created_by": "stability",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["image"]
+  }
+}

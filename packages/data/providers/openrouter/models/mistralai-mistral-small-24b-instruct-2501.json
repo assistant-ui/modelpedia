@@ -1,0 +1,23 @@
+{
+  "id": "mistralai/mistral-small-24b-instruct-2501",
+  "name": "Mistral: Mistral Small 3",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-small",
+  "description": "Mistral Small 3 is a 24B-parameter language model optimized for low-latency performance across common AI tasks.",
+  "context_window": 32768,
+  "max_output_tokens": 16384,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.08
+  }
+}

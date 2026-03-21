@@ -1,0 +1,24 @@
+{
+  "id": "moonshotai/kimi-k2-instruct-0905",
+  "name": "Kimi K2 0905",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "preview",
+  "context_window": 262144,
+  "max_output_tokens": 16384,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 3
+  }
+}

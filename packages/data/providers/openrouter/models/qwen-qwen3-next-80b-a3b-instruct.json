@@ -1,0 +1,22 @@
+{
+  "id": "qwen/qwen3-next-80b-a3b-instruct",
+  "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces.",
+  "context_window": 262144,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.09,
+    "output": 1.1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "s/qwen3-235b-a22b-instruct-2507-fp8",
+  "name": "Qwen3 235b A22b Instruct 2507 Fp8",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "context_window": 262000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.6
+  }
+}

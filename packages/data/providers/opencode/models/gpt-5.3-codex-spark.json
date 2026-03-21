@@ -1,0 +1,15 @@
+{
+  "id": "gpt-5.3-codex-spark",
+  "name": "GPT 5.3 Codex Spark",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5.3",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.75
+  }
+}

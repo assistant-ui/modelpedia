@@ -1,0 +1,16 @@
+{
+  "id": "arcee-ai/trinity-large-preview",
+  "name": "trinity-large-preview",
+  "created_by": "arcee",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 131000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "nvidia/riva-translate-4b-instruct-v1.1",
+  "name": "riva-translate-4b-instruct-v1.1",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

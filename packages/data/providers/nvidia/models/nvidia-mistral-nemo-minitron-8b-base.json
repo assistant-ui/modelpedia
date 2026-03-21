@@ -1,0 +1,10 @@
+{
+  "id": "nvidia/mistral-nemo-minitron-8b-base",
+  "name": "mistral-nemo-minitron-8b-base",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

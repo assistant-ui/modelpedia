@@ -1,0 +1,9 @@
+{
+  "id": "perplexity",
+  "name": "Perplexity",
+  "region": "US",
+  "url": "https://perplexity.ai",
+  "api_url": "https://api.perplexity.ai",
+  "docs_url": "https://docs.perplexity.ai",
+  "pricing_url": "https://docs.perplexity.ai/guides/pricing"
+}

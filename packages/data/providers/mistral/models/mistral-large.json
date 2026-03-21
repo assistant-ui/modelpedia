@@ -1,0 +1,29 @@
+{
+  "id": "mistral-large",
+  "name": "mistral-large",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-large",
+  "status": "deprecated",
+  "context_window": 32000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6
+  },
+  "snapshots": [
+    "mistral-large-2512",
+    "mistral-large-2411",
+    "mistral-large-2407",
+    "mistral-large-2402"
+  ],
+  "deprecation_date": "November 30, 2024"
+}

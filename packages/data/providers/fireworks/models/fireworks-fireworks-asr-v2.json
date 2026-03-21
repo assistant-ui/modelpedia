@@ -1,0 +1,14 @@
+{
+  "id": "fireworks/fireworks-asr-v2",
+  "name": "fireworks-asr-v2",
+  "created_by": "fireworks",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.0035,
+    "output": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "allenai/Olmo-3.1-32B-Instruct",
+  "name": "Olmo-3.1-32B-Instruct",
+  "created_by": "allenai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

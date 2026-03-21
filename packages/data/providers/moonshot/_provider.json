@@ -1,0 +1,9 @@
+{
+  "id": "moonshot",
+  "name": "Moonshot AI (Kimi)",
+  "region": "CN",
+  "url": "https://platform.moonshot.ai",
+  "api_url": "https://api.moonshot.ai/v1",
+  "docs_url": "https://platform.moonshot.ai/docs/intro",
+  "pricing_url": "https://platform.moonshot.ai/docs/pricing/chat"
+}

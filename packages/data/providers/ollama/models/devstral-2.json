@@ -1,0 +1,11 @@
+{
+  "id": "devstral-2",
+  "name": "devstral-2",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "devstral",
+  "capabilities": {
+    "streaming": true
+  }
+}

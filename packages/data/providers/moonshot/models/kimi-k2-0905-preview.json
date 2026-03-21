@@ -1,0 +1,14 @@
+{
+  "id": "kimi-k2-0905-preview",
+  "name": "Kimi K2 (0905)",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "kimi",
+  "description": "Enhanced agentic coding, front-end aesthetics, context understanding.",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

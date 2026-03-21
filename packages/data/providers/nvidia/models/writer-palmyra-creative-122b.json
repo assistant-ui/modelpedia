@@ -1,0 +1,10 @@
+{
+  "id": "writer/palmyra-creative-122b",
+  "name": "palmyra-creative-122b",
+  "created_by": "writer",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

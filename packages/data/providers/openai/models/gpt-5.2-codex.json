@@ -1,0 +1,30 @@
+{
+  "id": "gpt-5.2-codex",
+  "name": "gpt-5.2-codex",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-5.2",
+  "status": "active",
+  "performance": 4,
+  "speed": 3,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.75,
+    "output": 14,
+    "cached_input": 0.175
+  },
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "description": "GPT-5.2-Codex is an upgraded version of GPT-5.1-Codex optimized for software engineering and coding workflows."
+}

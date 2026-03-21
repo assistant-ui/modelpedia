@@ -1,0 +1,10 @@
+{
+  "id": "s/rime-arcana-v3",
+  "name": "Rime Arcana V3",
+  "created_by": "unknown",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

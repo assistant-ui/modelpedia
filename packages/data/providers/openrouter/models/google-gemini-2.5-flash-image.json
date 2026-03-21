@@ -1,0 +1,23 @@
+{
+  "id": "google/gemini-2.5-flash-image",
+  "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemini-2.5",
+  "description": "Gemini 2.5 Flash Image, a.k.a.",
+  "context_window": 32768,
+  "max_output_tokens": 32768,
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["image", "text"]
+  },
+  "capabilities": {
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 2.5,
+    "cached_input": 0.03
+  }
+}

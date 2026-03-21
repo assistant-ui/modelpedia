@@ -1,0 +1,24 @@
+{
+  "id": "qwen/qwen3.5-27b",
+  "name": "Qwen: Qwen3.5-27B",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3.5",
+  "description": "The Qwen3.5 27B native vision-language Dense model incorporates a linear attention mechanism, delivering fast response times while balancing inference speed and performance.",
+  "context_window": 262144,
+  "max_output_tokens": 65536,
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.195,
+    "output": 1.56
+  }
+}

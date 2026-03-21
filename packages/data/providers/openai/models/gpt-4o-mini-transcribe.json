@@ -1,0 +1,23 @@
+{
+  "id": "gpt-4o-mini-transcribe",
+  "name": "GPT-4o mini Transcribe",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4o",
+  "description": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
+  "status": "active",
+  "context_window": 16000,
+  "max_output_tokens": 2000,
+  "model_type": "other",
+  "performance": 3,
+  "speed": 4,
+  "modalities": {
+    "input": ["audio", "text"],
+    "output": ["text"]
+  },
+  "snapshots": [
+    "gpt-4o-mini-transcribe-2025-03-20",
+    "gpt-4o-mini-transcribe-2025-12-15"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "gemini-3-flash",
+  "name": "Gemini 3 Flash",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemini-3",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.5
+  }
+}

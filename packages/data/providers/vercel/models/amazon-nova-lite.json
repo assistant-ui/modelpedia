@@ -1,0 +1,15 @@
+{
+  "id": "amazon/nova-lite",
+  "name": "nova-lite",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 300000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0.24
+  }
+}

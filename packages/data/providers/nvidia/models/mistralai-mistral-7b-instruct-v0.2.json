@@ -1,0 +1,11 @@
+{
+  "id": "mistralai/mistral-7b-instruct-v0.2",
+  "name": "mistral-7b-instruct-v0.2",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "command-a-reasoning-08-2025",
+  "name": "command-a-reasoning-08-2025",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "description": "Command A Reasoning is Cohere’s first reasoning model, able to ‘think’ before generating an output in a way that allows it to perform well in certain kinds of nuanced problem-solving and agent-based tasks in 23 languages.",
+  "status": "active",
+  "context_window": 256000,
+  "max_output_tokens": 32000,
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

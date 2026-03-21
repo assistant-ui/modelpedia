@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/qwen3-vl-32b-instruct",
+  "name": "qwen3-vl-32b-instruct",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

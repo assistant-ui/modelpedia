@@ -1,0 +1,17 @@
+{
+  "id": "prime-intellect/intellect-3",
+  "name": "intellect-3",
+  "created_by": "prime-intellect",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 1.1
+  }
+}

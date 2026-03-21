@@ -1,0 +1,24 @@
+{
+  "id": "qwen/qwen3-coder-flash",
+  "name": "Qwen: Qwen3 Coder Flash",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "description": "Qwen3 Coder Flash is Alibaba's fast and cost efficient version of their proprietary Qwen3 Coder Plus.",
+  "context_window": 1000000,
+  "max_output_tokens": 65536,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.195,
+    "output": 0.975,
+    "cached_input": 0.039
+  }
+}

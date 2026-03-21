@@ -1,0 +1,15 @@
+{
+  "id": "anthropic.claude-sonnet-4-6",
+  "name": "Claude Sonnet 4.6",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["text"]
+  }
+}

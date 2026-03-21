@@ -1,0 +1,14 @@
+{
+  "id": "moonshot.kimi-k2-thinking",
+  "name": "Kimi K2 Thinking",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

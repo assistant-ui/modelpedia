@@ -1,0 +1,25 @@
+{
+  "id": "openai/gpt-5-mini",
+  "name": "OpenAI: GPT-5 Mini",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5",
+  "description": "GPT-5 Mini is a compact version of GPT-5, designed to handle lighter-weight reasoning tasks.",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 2,
+    "cached_input": 0.025
+  }
+}

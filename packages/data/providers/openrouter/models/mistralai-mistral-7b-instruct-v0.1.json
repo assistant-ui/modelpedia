@@ -1,0 +1,17 @@
+{
+  "id": "mistralai/mistral-7b-instruct-v0.1",
+  "name": "Mistral: Mistral 7B Instruct v0.1",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "A 7.3B parameter model that outperforms Llama 2 13B on all benchmarks, with optimizations for speed and context length.",
+  "context_window": 2824,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.11,
+    "output": 0.19
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gpt-3.5-turbo-instruct",
+  "name": "gpt-3.5-turbo-instruct",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-3.5",
+  "status": "active",
+  "context_window": 4096,
+  "max_output_tokens": 4096,
+  "performance": 1,
+  "speed": 2,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "description": "This model is a variant of GPT-3.5 Turbo tuned for instructional prompts and omitting chat-related optimizations.",
+  "capabilities": {
+    "structured_output": true
+  }
+}

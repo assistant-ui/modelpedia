@@ -1,0 +1,22 @@
+{
+  "id": "mistral-nemo-2407",
+  "name": "mistral-nemo-2407",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "context_window": 128000,
+  "alias": "mistral-nemo",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.15
+  }
+}

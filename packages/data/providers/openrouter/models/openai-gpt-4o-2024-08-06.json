@@ -1,0 +1,24 @@
+{
+  "id": "openai/gpt-4o-2024-08-06",
+  "name": "OpenAI: GPT-4o (2024-08-06)",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4o",
+  "description": "The 2024-08-06 version of GPT-4o offers improved performance in structured outputs, with the ability to supply a JSON schema in the respone_format.",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 10,
+    "cached_input": 1.25
+  }
+}

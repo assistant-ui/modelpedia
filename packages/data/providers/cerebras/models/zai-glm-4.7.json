@@ -1,0 +1,24 @@
+{
+  "id": "zai-glm-4.7",
+  "name": "zai-glm-4.7",
+  "created_by": "zhipu",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 131000,
+  "max_output_tokens": 40000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.25,
+    "output": 2.75
+  }
+}

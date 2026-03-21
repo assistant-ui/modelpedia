@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/internvl3-8b",
+  "name": "internvl3-8b",
+  "created_by": "fireworks",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 16400,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

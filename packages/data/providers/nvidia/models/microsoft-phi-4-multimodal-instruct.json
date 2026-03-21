@@ -1,0 +1,11 @@
+{
+  "id": "microsoft/phi-4-multimodal-instruct",
+  "name": "phi-4-multimodal-instruct",
+  "created_by": "microsoft",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

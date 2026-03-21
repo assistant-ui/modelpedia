@@ -1,0 +1,17 @@
+{
+  "id": "gemini-live-2.5-flash-preview",
+  "name": "gemini-live-2.5-flash-preview",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "deprecated",
+  "deprecation_date": "December 9, 2025",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "openai/o3-mini",
+  "name": "o3-mini",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "o3",
+  "context_window": 200000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 1.1,
+    "output": 4.4
+  }
+}

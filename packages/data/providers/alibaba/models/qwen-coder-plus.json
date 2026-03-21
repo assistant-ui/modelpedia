@@ -1,0 +1,12 @@
+{
+  "id": "qwen-coder-plus",
+  "name": "qwen-coder-plus",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

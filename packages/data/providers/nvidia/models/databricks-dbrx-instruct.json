@@ -1,0 +1,11 @@
+{
+  "id": "databricks/dbrx-instruct",
+  "name": "dbrx-instruct",
+  "created_by": "databricks",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "z-ai/glm-4.5v",
+  "name": "Z.ai: GLM 4.5V",
+  "created_by": "z-ai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "GLM-4.5V is a vision-language foundation model for multimodal agent applications.",
+  "context_window": 65536,
+  "max_output_tokens": 16384,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 1.8,
+    "cached_input": 0.11
+  }
+}

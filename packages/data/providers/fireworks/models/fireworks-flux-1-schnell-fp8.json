@@ -1,0 +1,14 @@
+{
+  "id": "fireworks/flux-1-schnell-fp8",
+  "name": "flux-1-schnell-fp8",
+  "created_by": "stability",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "qwen/qwen-turbo",
+  "name": "Qwen: Qwen-Turbo",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen",
+  "description": "Qwen-Turbo, based on Qwen2.5, is a 1M context model that provides fast speed and low cost, suitable for simple tasks.",
+  "context_window": 131072,
+  "max_output_tokens": 8192,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.033,
+    "output": 0.13,
+    "cached_input": 0.007
+  }
+}

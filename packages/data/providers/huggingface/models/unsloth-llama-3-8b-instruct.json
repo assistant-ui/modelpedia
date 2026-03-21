@@ -1,0 +1,11 @@
+{
+  "id": "unsloth/llama-3-8b-Instruct",
+  "name": "llama-3-8b-Instruct",
+  "created_by": "unsloth",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-3",
+  "capabilities": {
+    "streaming": true
+  }
+}

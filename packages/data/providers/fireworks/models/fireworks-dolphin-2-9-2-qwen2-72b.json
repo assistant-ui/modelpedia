@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/dolphin-2-9-2-qwen2-72b",
+  "name": "dolphin-2-9-2-qwen2-72b",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

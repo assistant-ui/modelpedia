@@ -1,0 +1,16 @@
+{
+  "id": "fireworks/devstral-small-2-24b-instruct",
+  "name": "devstral-small-2-24b-instruct-2512",
+  "created_by": "fireworks",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "devstral",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  },
+  "snapshots": ["fireworks/devstral-small-2-24b-instruct-2512"]
+}

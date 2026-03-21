@@ -1,0 +1,18 @@
+{
+  "id": "google/gemini-2.0-flash",
+  "name": "gemini-2.0-flash",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemini-2.0",
+  "context_window": 1000000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  }
+}

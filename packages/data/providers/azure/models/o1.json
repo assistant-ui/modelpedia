@@ -1,0 +1,20 @@
+{
+  "id": "o1",
+  "name": "o1",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "o1",
+  "knowledge_cutoff": "October 2023",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

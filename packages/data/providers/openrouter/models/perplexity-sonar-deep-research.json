@@ -1,0 +1,20 @@
+{
+  "id": "perplexity/sonar-deep-research",
+  "name": "Perplexity: Sonar Deep Research",
+  "created_by": "perplexity",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Sonar Deep Research is a research-focused model designed for multi-step retrieval, synthesis, and reasoning across complex topics.",
+  "context_window": 128000,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 8
+  }
+}

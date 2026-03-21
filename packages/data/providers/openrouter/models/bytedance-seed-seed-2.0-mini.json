@@ -1,0 +1,23 @@
+{
+  "id": "bytedance-seed/seed-2.0-mini",
+  "name": "ByteDance Seed: Seed-2.0-Mini",
+  "created_by": "bytedance-seed",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Seed-2.0-mini targets latency-sensitive, high-concurrency, and cost-sensitive scenarios, emphasizing fast response and flexible inference deployment.",
+  "context_window": 262144,
+  "max_output_tokens": 131072,
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.4
+  }
+}

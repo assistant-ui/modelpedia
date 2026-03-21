@@ -1,0 +1,11 @@
+{
+  "id": "mistralai/mixtral-8x22b-v0.1",
+  "name": "mixtral-8x22b-v0.1",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mixtral",
+  "capabilities": {
+    "streaming": true
+  }
+}

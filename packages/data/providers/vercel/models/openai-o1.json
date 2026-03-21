@@ -1,0 +1,19 @@
+{
+  "id": "openai/o1",
+  "name": "o1",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "o1",
+  "context_window": 200000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 15,
+    "output": 60
+  }
+}

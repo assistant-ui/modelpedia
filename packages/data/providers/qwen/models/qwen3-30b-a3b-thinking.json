@@ -1,0 +1,14 @@
+{
+  "id": "qwen3-30b-a3b-thinking",
+  "name": "qwen3-30b-a3b-thinking",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "snapshots": ["qwen3-30b-a3b-thinking-2507"],
+  "provider": "qwen"
+}

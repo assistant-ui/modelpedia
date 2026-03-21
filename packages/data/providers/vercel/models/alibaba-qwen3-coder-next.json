@@ -1,0 +1,18 @@
+{
+  "id": "alibaba/qwen3-coder-next",
+  "name": "qwen3-coder-next",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 1.2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "fireworks/devstral-small-2505",
+  "name": "devstral-small-2505",
+  "created_by": "fireworks",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "devstral",
+  "context_window": 131100,
+  "alias": "fireworks/devstral-small",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

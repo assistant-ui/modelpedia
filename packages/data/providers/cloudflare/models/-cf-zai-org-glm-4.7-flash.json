@@ -1,0 +1,10 @@
+{
+  "id": "@cf/zai-org/glm-4.7-flash",
+  "name": "glm-4.7-flash",
+  "created_by": "zhipu",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

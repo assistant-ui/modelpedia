@@ -1,0 +1,11 @@
+{
+  "id": "microsoft/phi-3-medium-128k-instruct",
+  "name": "phi-3-medium-128k-instruct",
+  "created_by": "microsoft",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

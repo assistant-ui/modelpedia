@@ -1,0 +1,12 @@
+{
+  "id": "grok-4-fast-non-reasoning",
+  "name": "grok-4-fast-non-reasoning",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "release_date": "2025-09-04",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

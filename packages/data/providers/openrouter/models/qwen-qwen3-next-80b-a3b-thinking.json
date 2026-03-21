@@ -1,0 +1,24 @@
+{
+  "id": "qwen/qwen3-next-80b-a3b-thinking",
+  "name": "Qwen: Qwen3 Next 80B A3B Thinking",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "description": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured “thinking” traces by default.",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.098,
+    "output": 0.78
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "speakleash/Bielik-7B-Instruct-v0.1",
+  "name": "Bielik-7B-Instruct-v0.1",
+  "created_by": "speakleash",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

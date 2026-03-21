@@ -1,0 +1,17 @@
+{
+  "id": "computer-use-preview-2025-03-11",
+  "name": "computer-use-preview-2025-03-11",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "status": "active",
+  "context_window": 8192,
+  "max_output_tokens": 1024,
+  "alias": "computer-use-preview",
+  "performance": 2,
+  "speed": 2,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

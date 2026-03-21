@@ -1,0 +1,10 @@
+{
+  "id": "Orion-zhen/Qwen2.5-7B-Instruct-Uncensored",
+  "name": "Qwen2.5-7B-Instruct-Uncensored",
+  "created_by": "orion-zhen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

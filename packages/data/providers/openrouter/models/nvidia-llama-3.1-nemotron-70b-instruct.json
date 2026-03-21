@@ -1,0 +1,23 @@
+{
+  "id": "nvidia/llama-3.1-nemotron-70b-instruct",
+  "name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-3.1",
+  "description": "NVIDIA's Llama 3.1 Nemotron 70B is a language model designed for generating precise and useful responses.",
+  "context_window": 131072,
+  "max_output_tokens": 16384,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 1.2,
+    "output": 1.2
+  }
+}

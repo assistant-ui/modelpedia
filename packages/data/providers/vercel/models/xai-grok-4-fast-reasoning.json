@@ -1,0 +1,18 @@
+{
+  "id": "xai/grok-4-fast-reasoning",
+  "name": "grok-4-fast-reasoning",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "grok-4",
+  "context_window": 2000000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.5
+  }
+}

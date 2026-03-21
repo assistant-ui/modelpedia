@@ -1,0 +1,10 @@
+{
+  "id": "cogito-2.1",
+  "name": "cogito-2.1",
+  "created_by": "unknown",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

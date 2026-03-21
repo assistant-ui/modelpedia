@@ -1,0 +1,14 @@
+{
+  "id": "s/nvidia-nemotron-3-super",
+  "name": "Nvidia Nemotron 3 Super",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 3.2
+  }
+}

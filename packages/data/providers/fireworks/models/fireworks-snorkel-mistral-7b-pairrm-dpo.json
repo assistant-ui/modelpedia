@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/snorkel-mistral-7b-pairrm-dpo",
+  "name": "snorkel-mistral-7b-pairrm-dpo",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 32800,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

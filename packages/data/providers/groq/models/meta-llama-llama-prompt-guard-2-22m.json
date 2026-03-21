@@ -1,0 +1,19 @@
+{
+  "id": "meta-llama/llama-prompt-guard-2-22m",
+  "name": "Llama Prompt Guard 2 22M",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "preview",
+  "context_window": 512,
+  "max_output_tokens": 512,
+  "model_type": "moderation",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.03
+  }
+}

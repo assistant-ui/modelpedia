@@ -1,0 +1,16 @@
+{
+  "id": "kwaipilot/kat-coder-pro-v1",
+  "name": "kat-coder-pro-v1",
+  "created_by": "kwaipilot",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 1.2
+  }
+}

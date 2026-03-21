@@ -1,0 +1,16 @@
+{
+  "id": "fireworks/deepseek-r1-basic",
+  "name": "deepseek-r1-basic",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek-r1",
+  "context_window": 163800,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

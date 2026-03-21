@@ -1,0 +1,22 @@
+{
+  "id": "magistral-small-2509",
+  "name": "magistral-small-2509",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "context_window": 128000,
+  "alias": "magistral-small",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 1.5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "devstral-medium-latest",
+  "name": "devstral-medium-latest",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "devstral",
+  "status": "active",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.4,
+    "output": 2
+  }
+}

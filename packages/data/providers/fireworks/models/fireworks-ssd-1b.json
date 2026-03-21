@@ -1,0 +1,14 @@
+{
+  "id": "fireworks/SSD-1B",
+  "name": "SSD-1B",
+  "created_by": "stability",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

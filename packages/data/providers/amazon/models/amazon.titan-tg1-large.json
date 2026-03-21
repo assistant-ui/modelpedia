@@ -1,0 +1,14 @@
+{
+  "id": "amazon.titan-tg1-large",
+  "name": "Titan Text Large",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

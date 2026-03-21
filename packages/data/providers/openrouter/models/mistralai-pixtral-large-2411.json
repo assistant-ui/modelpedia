@@ -1,0 +1,23 @@
+{
+  "id": "mistralai/pixtral-large-2411",
+  "name": "Mistral: Pixtral Large 2411",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "pixtral",
+  "description": "Pixtral Large is a 124B parameter, open-weight, multimodal model built on top of [Mistral Large 2](/mistralai/mistral-large-2411).",
+  "context_window": 131072,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6,
+    "cached_input": 0.2
+  }
+}

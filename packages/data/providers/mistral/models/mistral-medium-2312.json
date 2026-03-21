@@ -1,0 +1,19 @@
+{
+  "id": "mistral-medium-2312",
+  "name": "mistral-medium-2312",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-medium",
+  "status": "deprecated",
+  "deprecation_date": "November 30, 2024",
+  "context_window": 32000,
+  "alias": "mistral-medium",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

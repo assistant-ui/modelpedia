@@ -1,0 +1,21 @@
+{
+  "id": "aion-labs/aion-1.0-mini",
+  "name": "AionLabs: Aion-1.0-Mini",
+  "created_by": "aion-labs",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Aion-1.0-Mini 32B parameter model is a distilled version of the DeepSeek-R1 model, designed for strong performance in reasoning domains such as mathematics, coding, and logic.",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.7,
+    "output": 1.4
+  }
+}

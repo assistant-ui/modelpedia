@@ -1,0 +1,14 @@
+{
+  "id": "fireworks/llama-v3p1-405b-instruct-long",
+  "name": "llama-v3p1-405b-instruct-long",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

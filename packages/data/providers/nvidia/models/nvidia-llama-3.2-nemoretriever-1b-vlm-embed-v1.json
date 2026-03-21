@@ -1,0 +1,12 @@
+{
+  "id": "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
+  "name": "llama-3.2-nemoretriever-1b-vlm-embed-v1",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-3.2",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  }
+}

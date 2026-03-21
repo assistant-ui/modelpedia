@@ -1,0 +1,16 @@
+{
+  "id": "gpt-image-1-mini",
+  "name": "gpt-image-1-mini",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-image-1",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

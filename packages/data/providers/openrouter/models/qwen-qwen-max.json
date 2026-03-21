@@ -1,0 +1,24 @@
+{
+  "id": "qwen/qwen-max",
+  "name": "Qwen: Qwen-Max ",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen",
+  "description": "Qwen-Max, based on Qwen2.5, provides the best inference performance among [Qwen models](/qwen), especially for complex multi-step tasks.",
+  "context_window": 32768,
+  "max_output_tokens": 8192,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 1.04,
+    "output": 4.16,
+    "cached_input": 0.208
+  }
+}

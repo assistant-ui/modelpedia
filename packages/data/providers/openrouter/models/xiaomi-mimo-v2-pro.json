@@ -1,0 +1,24 @@
+{
+  "id": "xiaomi/mimo-v2-pro",
+  "name": "Xiaomi: MiMo-V2-Pro",
+  "created_by": "xiaomi",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "MiMo-V2-Pro is Xiaomi's flagship foundation model, featuring over 1T total parameters and a 1M context length, deeply optimized for agentic scenarios.",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 3,
+    "cached_input": 0.2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "allenai/molmo-2-8b",
+  "name": "AllenAI: Molmo2 8B",
+  "created_by": "allenai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Molmo2-8B is an open vision-language model developed by the Allen Institute for AI (Ai2) as part of the Molmo2 family, supporting image, video, and multi-image understanding and grounding.",
+  "status": "deprecated",
+  "deprecation_date": "2026-03-23",
+  "context_window": 36864,
+  "max_output_tokens": 36864,
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.2
+  }
+}

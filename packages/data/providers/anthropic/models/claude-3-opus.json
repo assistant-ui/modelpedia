@@ -1,0 +1,24 @@
+{
+  "id": "claude-3-opus",
+  "name": "Claude Opus 3",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "claude-opus",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 15,
+    "output": 75,
+    "cached_input": 1.5,
+    "batch_input": 7.5,
+    "batch_output": 37.5
+  }
+}

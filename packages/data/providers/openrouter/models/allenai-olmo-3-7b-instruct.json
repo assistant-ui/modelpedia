@@ -1,0 +1,23 @@
+{
+  "id": "allenai/olmo-3-7b-instruct",
+  "name": "AllenAI: Olmo 3 7B Instruct",
+  "created_by": "allenai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Olmo 3 7B Instruct is a supervised instruction-fine-tuned variant of the Olmo 3 7B base model, optimized for instruction-following, question-answering, and natural conversational dialogue.",
+  "status": "deprecated",
+  "deprecation_date": "2026-03-23",
+  "context_window": 65536,
+  "max_output_tokens": 65536,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.2
+  }
+}

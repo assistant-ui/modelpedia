@@ -1,0 +1,16 @@
+{
+  "id": "openai/gpt-3.5-turbo",
+  "name": "gpt-3.5-turbo",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-3.5",
+  "context_window": 16400,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 1.5
+  }
+}

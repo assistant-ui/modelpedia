@@ -1,0 +1,15 @@
+{
+  "id": "google.gemma-3-12b-it",
+  "name": "Gemma 3 12B IT",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["text"]
+  }
+}

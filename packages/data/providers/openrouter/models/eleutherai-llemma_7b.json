@@ -1,0 +1,18 @@
+{
+  "id": "eleutherai/llemma_7b",
+  "name": "EleutherAI: Llemma 7b",
+  "created_by": "eleutherai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Llemma 7B is a language model for mathematics.",
+  "context_window": 4096,
+  "max_output_tokens": 4096,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.8,
+    "output": 1.2
+  }
+}

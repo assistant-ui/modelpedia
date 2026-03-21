@@ -1,0 +1,17 @@
+{
+  "id": "gpt-4.5-preview-2025-02-27",
+  "name": "gpt-4.5-preview-2025-02-27",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "status": "active",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "alias": "gpt-4.5-preview",
+  "performance": 4,
+  "speed": 3,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

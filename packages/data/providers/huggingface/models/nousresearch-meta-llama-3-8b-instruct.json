@@ -1,0 +1,10 @@
+{
+  "id": "NousResearch/Meta-Llama-3-8B-Instruct",
+  "name": "Meta-Llama-3-8B-Instruct",
+  "created_by": "nousresearch",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

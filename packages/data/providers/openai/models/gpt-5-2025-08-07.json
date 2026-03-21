@@ -1,0 +1,18 @@
+{
+  "id": "gpt-5-2025-08-07",
+  "name": "gpt-5-2025-08-07",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-5",
+  "status": "active",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "alias": "gpt-5",
+  "performance": 4,
+  "speed": 3,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

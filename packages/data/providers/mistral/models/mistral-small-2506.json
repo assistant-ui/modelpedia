@@ -1,0 +1,23 @@
+{
+  "id": "mistral-small-2506",
+  "name": "mistral-small-2506",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-small",
+  "status": "active",
+  "context_window": 128000,
+  "alias": "mistral-small",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.3
+  }
+}

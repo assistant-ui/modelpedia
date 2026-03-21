@@ -1,0 +1,23 @@
+{
+  "id": "codestral-2508",
+  "name": "codestral-2508",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "codestral",
+  "status": "active",
+  "context_window": 128000,
+  "alias": "codestral",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 0.9
+  }
+}

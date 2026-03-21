@@ -1,0 +1,15 @@
+{
+  "id": "gpt-5.1-codex-max",
+  "name": "gpt-5.1-codex-max",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5.1",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

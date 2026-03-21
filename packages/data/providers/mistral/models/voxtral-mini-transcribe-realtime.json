@@ -1,0 +1,17 @@
+{
+  "id": "voxtral-mini-transcribe-realtime",
+  "name": "voxtral-mini-transcribe-realtime",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "snapshots": ["voxtral-mini-transcribe-realtime-2602"]
+}

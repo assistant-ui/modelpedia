@@ -1,0 +1,19 @@
+{
+  "id": "anthropic/claude-opus-4",
+  "name": "claude-opus-4",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "claude-opus",
+  "context_window": 200000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 15,
+    "output": 75
+  }
+}

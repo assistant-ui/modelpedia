@@ -1,0 +1,31 @@
+{
+  "id": "gpt-5.1-codex",
+  "name": "GPT-5.1 Codex",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-5.1",
+  "description": "GPT-5.1-Codex is a version of GPT-5 optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.",
+  "status": "active",
+  "model_type": "reasoning",
+  "performance": 4,
+  "speed": 3,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 10,
+    "cached_input": 0.125
+  },
+  "context_window": 400000,
+  "max_output_tokens": 128000
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mistralai/mistral-large-2-instruct",
+  "name": "mistral-large-2-instruct",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-large",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

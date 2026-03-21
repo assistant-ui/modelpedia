@@ -1,0 +1,18 @@
+{
+  "id": "gpt-audio-2025-08-28",
+  "name": "gpt-audio-2025-08-28",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-audio",
+  "status": "active",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "alias": "gpt-audio",
+  "performance": 4,
+  "speed": 3,
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["text", "audio"]
+  }
+}

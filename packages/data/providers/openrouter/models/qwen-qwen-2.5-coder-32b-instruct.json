@@ -1,0 +1,18 @@
+{
+  "id": "qwen/qwen-2.5-coder-32b-instruct",
+  "name": "Qwen2.5 Coder 32B Instruct",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen",
+  "description": "Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen).",
+  "context_window": 32768,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.66,
+    "output": 1
+  }
+}

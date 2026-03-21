@@ -1,0 +1,15 @@
+{
+  "id": "s/flux-2-pro",
+  "name": "Flux 2 Pro",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 32000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.034,
+    "output": 0.03
+  }
+}

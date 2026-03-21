@@ -1,0 +1,12 @@
+{
+  "id": "yentinglin/llama-3-taiwan-70b-instruct",
+  "name": "llama-3-taiwan-70b-instruct",
+  "created_by": "yentinglin",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-3",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

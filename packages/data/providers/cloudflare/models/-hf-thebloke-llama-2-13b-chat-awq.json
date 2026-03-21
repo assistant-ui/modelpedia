@@ -1,0 +1,11 @@
+{
+  "id": "@hf/thebloke/llama-2-13b-chat-awq",
+  "name": "llama-2-13b-chat-awq",
+  "created_by": "thebloke",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-2",
+  "capabilities": {
+    "streaming": true
+  }
+}

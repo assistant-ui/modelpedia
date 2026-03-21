@@ -1,0 +1,17 @@
+{
+  "id": "moonshotai/kimi-k2-thinking-turbo",
+  "name": "kimi-k2-thinking-turbo",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 262100,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1.15,
+    "output": 8
+  }
+}

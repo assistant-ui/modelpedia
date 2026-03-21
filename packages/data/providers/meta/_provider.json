@@ -1,0 +1,9 @@
+{
+  "id": "meta",
+  "name": "Meta Llama",
+  "region": "US",
+  "url": "https://llama.developer.meta.com",
+  "api_url": "https://api.llama.developer.meta.com/v1",
+  "docs_url": "https://llama.developer.meta.com/docs/models",
+  "pricing_url": "https://llama.developer.meta.com/docs/getting-started/pricing"
+}

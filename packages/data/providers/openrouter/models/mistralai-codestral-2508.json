@@ -1,0 +1,23 @@
+{
+  "id": "mistralai/codestral-2508",
+  "name": "Mistral: Codestral 2508",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "codestral",
+  "description": "Mistral's cutting-edge language model for coding released end of July 2025.",
+  "context_window": 256000,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 0.9,
+    "cached_input": 0.03
+  }
+}

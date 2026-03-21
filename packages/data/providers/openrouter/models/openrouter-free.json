@@ -1,0 +1,18 @@
+{
+  "id": "openrouter/free",
+  "name": "Free Models Router",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "The simplest way to get free inference.",
+  "context_window": 200000,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  }
+}

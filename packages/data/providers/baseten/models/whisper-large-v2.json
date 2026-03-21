@@ -1,0 +1,11 @@
+{
+  "id": "whisper-large-v2",
+  "name": "whisper-large-v2",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "whisper",
+  "capabilities": {
+    "streaming": true
+  }
+}

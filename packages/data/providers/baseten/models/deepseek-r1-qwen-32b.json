@@ -1,0 +1,11 @@
+{
+  "id": "deepseek-r1-qwen-32b",
+  "name": "deepseek-r1-qwen-32b",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek-r1",
+  "capabilities": {
+    "streaming": true
+  }
+}

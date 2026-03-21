@@ -1,0 +1,31 @@
+{
+  "id": "gpt-5.1-codex-mini",
+  "name": "GPT-5.1 Codex mini",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-5.1",
+  "description": "GPT-5.1 Codex mini is a smaller, more cost-effective, less-capable version of GPT-5.1-Codex.",
+  "status": "active",
+  "model_type": "reasoning",
+  "performance": 4,
+  "speed": 3,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 2,
+    "cached_input": 0.025
+  },
+  "context_window": 400000,
+  "max_output_tokens": 100000
+}

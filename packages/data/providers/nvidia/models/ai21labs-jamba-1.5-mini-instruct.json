@@ -1,0 +1,11 @@
+{
+  "id": "ai21labs/jamba-1.5-mini-instruct",
+  "name": "jamba-1.5-mini-instruct",
+  "created_by": "ai21",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

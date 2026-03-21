@@ -1,0 +1,23 @@
+{
+  "id": "mistral-large-2411",
+  "name": "mistral-large-2411",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-large",
+  "status": "active",
+  "context_window": 128000,
+  "alias": "mistral-large",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "s/lfm2-24b-a2b",
+  "name": "Lfm2 24b A2b",
+  "created_by": "liquid",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 32000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.12
+  }
+}

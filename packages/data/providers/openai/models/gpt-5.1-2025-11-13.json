@@ -1,0 +1,22 @@
+{
+  "id": "gpt-5.1-2025-11-13",
+  "name": "gpt-5.1-2025-11-13",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-5.1",
+  "status": "active",
+  "alias": "gpt-5.1",
+  "performance": 4,
+  "speed": 3,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

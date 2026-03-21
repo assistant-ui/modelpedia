@@ -1,0 +1,10 @@
+{
+  "id": "@cf/llava-hf/llava-1.5-7b-hf",
+  "name": "llava-1.5-7b-hf",
+  "created_by": "llava-hf",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

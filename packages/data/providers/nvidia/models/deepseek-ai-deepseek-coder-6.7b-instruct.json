@@ -1,0 +1,12 @@
+{
+  "id": "deepseek-ai/deepseek-coder-6.7b-instruct",
+  "name": "deepseek-coder-6.7b-instruct",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

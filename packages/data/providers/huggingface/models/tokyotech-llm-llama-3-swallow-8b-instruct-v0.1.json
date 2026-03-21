@@ -1,0 +1,10 @@
+{
+  "id": "tokyotech-llm/Llama-3-Swallow-8B-Instruct-v0.1",
+  "name": "Llama-3-Swallow-8B-Instruct-v0.1",
+  "created_by": "tokyotech-llm",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

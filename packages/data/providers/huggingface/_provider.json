@@ -1,0 +1,9 @@
+{
+  "id": "huggingface",
+  "name": "Hugging Face",
+  "region": "US",
+  "url": "https://huggingface.co",
+  "api_url": "https://router.huggingface.co/v1",
+  "docs_url": "https://huggingface.co/docs/api-inference",
+  "pricing_url": "https://huggingface.co/pricing"
+}

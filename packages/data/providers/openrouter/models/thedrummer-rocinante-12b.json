@@ -1,0 +1,22 @@
+{
+  "id": "thedrummer/rocinante-12b",
+  "name": "TheDrummer: Rocinante 12B",
+  "created_by": "thedrummer",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Rocinante 12B is designed for engaging storytelling and rich prose.",
+  "context_window": 32768,
+  "max_output_tokens": 32768,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.17,
+    "output": 0.43
+  }
+}

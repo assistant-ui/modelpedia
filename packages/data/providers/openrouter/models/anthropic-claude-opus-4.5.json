@@ -1,0 +1,25 @@
+{
+  "id": "anthropic/claude-opus-4.5",
+  "name": "Anthropic: Claude Opus 4.5",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "claude-opus",
+  "description": "Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use.",
+  "context_window": 200000,
+  "max_output_tokens": 64000,
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 5,
+    "output": 25,
+    "cached_input": 0.5
+  }
+}

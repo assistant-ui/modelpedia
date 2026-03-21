@@ -1,0 +1,16 @@
+{
+  "id": "fireworks/deepseek-v2p5",
+  "name": "deepseek-v2p5",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek",
+  "context_window": 32800,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

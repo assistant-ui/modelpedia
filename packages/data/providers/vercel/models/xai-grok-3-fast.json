@@ -1,0 +1,17 @@
+{
+  "id": "xai/grok-3-fast",
+  "name": "grok-3-fast",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "grok-3",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 5,
+    "output": 25
+  }
+}

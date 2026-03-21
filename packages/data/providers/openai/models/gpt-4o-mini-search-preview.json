@@ -1,0 +1,27 @@
+{
+  "id": "gpt-4o-mini-search-preview",
+  "name": "gpt-4o-mini-search-preview",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4o",
+  "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
+  "status": "active",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "model_type": "other",
+  "performance": 2,
+  "speed": 4,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "capabilities": {
+    "structured_output": true
+  },
+  "snapshots": ["gpt-4o-mini-search-preview-2025-03-11"]
+}

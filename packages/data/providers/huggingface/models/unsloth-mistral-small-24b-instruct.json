@@ -1,0 +1,11 @@
+{
+  "id": "unsloth/Mistral-Small-24B-Instruct",
+  "name": "Mistral-Small-24B-Instruct-2501",
+  "created_by": "unsloth",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "snapshots": ["unsloth/Mistral-Small-24B-Instruct-2501"]
+}

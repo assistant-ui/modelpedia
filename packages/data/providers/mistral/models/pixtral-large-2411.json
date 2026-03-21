@@ -1,0 +1,23 @@
+{
+  "id": "pixtral-large-2411",
+  "name": "pixtral-large-2411",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "pixtral",
+  "status": "active",
+  "context_window": 128000,
+  "alias": "pixtral-large",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6
+  }
+}

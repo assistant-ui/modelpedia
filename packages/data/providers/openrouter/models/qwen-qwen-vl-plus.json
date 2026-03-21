@@ -1,0 +1,23 @@
+{
+  "id": "qwen/qwen-vl-plus",
+  "name": "Qwen: Qwen VL Plus",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen",
+  "description": "Qwen's Enhanced Large Visual Language Model.",
+  "context_window": 131072,
+  "max_output_tokens": 8192,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.137,
+    "output": 0.41,
+    "cached_input": 0.027
+  }
+}

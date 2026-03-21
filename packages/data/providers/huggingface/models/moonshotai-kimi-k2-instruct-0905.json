@@ -1,0 +1,10 @@
+{
+  "id": "moonshotai/Kimi-K2-Instruct-0905",
+  "name": "Kimi-K2-Instruct-0905",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

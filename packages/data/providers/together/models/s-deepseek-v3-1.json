@@ -1,0 +1,16 @@
+{
+  "id": "s/deepseek-v3-1",
+  "name": "Deepseek V3 1",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek",
+  "context_window": 128000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 1.7
+  }
+}

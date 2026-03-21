@@ -1,0 +1,10 @@
+{
+  "id": "google/paligemma",
+  "name": "paligemma",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

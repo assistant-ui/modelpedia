@@ -1,0 +1,10 @@
+{
+  "id": "@hf/thebloke/neural-chat-7b-v3-1-awq",
+  "name": "neural-chat-7b-v3-1-awq",
+  "created_by": "thebloke",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

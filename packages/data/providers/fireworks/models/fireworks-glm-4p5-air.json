@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/glm-4p5-air",
+  "name": "glm-4p5-air",
+  "created_by": "zhipu",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.22,
+    "output": 1
+  }
+}

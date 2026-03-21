@@ -1,0 +1,11 @@
+{
+  "id": "llama-4-scout",
+  "name": "llama-4-scout",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-4",
+  "capabilities": {
+    "streaming": true
+  }
+}

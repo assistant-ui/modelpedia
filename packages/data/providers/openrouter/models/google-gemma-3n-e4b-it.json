@@ -1,0 +1,18 @@
+{
+  "id": "google/gemma-3n-e4b-it",
+  "name": "Google: Gemma 3n 4B",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemma-3n",
+  "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets.",
+  "context_window": 32768,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.02,
+    "output": 0.04
+  }
+}

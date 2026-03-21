@@ -1,0 +1,18 @@
+{
+  "id": "mistral-document-ai-2505",
+  "name": "mistral-document-ai-2505",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "alias": "mistral-document-ai",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

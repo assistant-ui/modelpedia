@@ -1,0 +1,10 @@
+{
+  "id": "lfm2.5-thinking",
+  "name": "lfm2.5-thinking",
+  "created_by": "liquid",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

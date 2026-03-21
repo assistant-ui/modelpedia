@@ -1,0 +1,16 @@
+{
+  "id": "mistral-medium-3@vertex",
+  "name": "Mistral Medium 3",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-medium",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

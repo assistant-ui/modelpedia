@@ -1,0 +1,10 @@
+{
+  "id": "moonshotai/kimi-k2-thinking",
+  "name": "kimi-k2-thinking",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "gemini-3-flash-preview",
+  "name": "gemini-3-flash-preview",
+  "created_by": "unknown",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemini-3",
+  "capabilities": {
+    "streaming": true
+  }
+}

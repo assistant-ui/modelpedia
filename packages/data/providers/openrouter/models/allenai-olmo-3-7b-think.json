@@ -1,0 +1,24 @@
+{
+  "id": "allenai/olmo-3-7b-think",
+  "name": "AllenAI: Olmo 3 7B Think",
+  "created_by": "allenai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Olmo 3 7B Think is a research-oriented language model in the Olmo family designed for advanced reasoning and instruction-driven tasks.",
+  "status": "deprecated",
+  "deprecation_date": "2026-03-23",
+  "context_window": 65536,
+  "max_output_tokens": 65536,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.12,
+    "output": 0.2
+  }
+}

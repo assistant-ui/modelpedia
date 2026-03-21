@@ -1,0 +1,15 @@
+{
+  "id": "qwen.qwen3-next-80b-a3b",
+  "name": "Qwen3 Next 80B A3B",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

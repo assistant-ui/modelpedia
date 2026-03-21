@@ -1,0 +1,13 @@
+{
+  "id": "mistralai/ministral-14b-instruct-2512",
+  "name": "ministral-14b-instruct-2512",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "ministral",
+  "alias": "mistralai/ministral-14b-instruct",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

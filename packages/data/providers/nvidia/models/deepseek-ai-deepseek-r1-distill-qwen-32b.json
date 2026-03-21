@@ -1,0 +1,12 @@
+{
+  "id": "deepseek-ai/deepseek-r1-distill-qwen-32b",
+  "name": "deepseek-r1-distill-qwen-32b",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek-r1",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true
+  }
+}

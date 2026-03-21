@@ -1,0 +1,9 @@
+{
+  "id": "opencode",
+  "name": "OpenCode Zen",
+  "region": "US",
+  "url": "https://opencode.ai",
+  "api_url": "https://opencode.ai/zen/v1",
+  "docs_url": "https://opencode.ai/docs/zen",
+  "pricing_url": "https://opencode.ai/docs/zen"
+}

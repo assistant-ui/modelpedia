@@ -1,0 +1,16 @@
+{
+  "id": "fireworks/deepseek-r1-distill-llama-8b",
+  "name": "deepseek-r1-distill-llama-8b",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek-r1",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

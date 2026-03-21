@@ -1,0 +1,9 @@
+{
+  "id": "deepseek",
+  "name": "DeepSeek",
+  "region": "CN",
+  "url": "https://deepseek.com",
+  "api_url": "https://api.deepseek.com/v1",
+  "docs_url": "https://api-docs.deepseek.com",
+  "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing"
+}

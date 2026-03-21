@@ -1,0 +1,18 @@
+{
+  "id": "nvidia/nemotron-nano-12b-v2-vl",
+  "name": "nemotron-nano-12b-v2-vl",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.6
+  }
+}

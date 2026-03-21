@@ -1,0 +1,25 @@
+{
+  "id": "google/gemini-3.1-flash-lite-preview",
+  "name": "Google: Gemini 3.1 Flash Lite Preview",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemini-3.1",
+  "description": "Gemini 3.1 Flash Lite Preview is Google's high-efficiency model optimized for high-volume use cases.",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 1.5,
+    "cached_input": 0.025
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "nvidia",
+  "name": "NVIDIA",
+  "region": "US",
+  "url": "https://build.nvidia.com",
+  "api_url": "https://integrate.api.nvidia.com/v1",
+  "docs_url": "https://docs.api.nvidia.com",
+  "pricing_url": "https://build.nvidia.com/pricing"
+}

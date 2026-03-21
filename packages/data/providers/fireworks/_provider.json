@@ -1,0 +1,9 @@
+{
+  "id": "fireworks",
+  "name": "Fireworks AI",
+  "region": "US",
+  "url": "https://fireworks.ai",
+  "api_url": "https://api.fireworks.ai/inference/v1",
+  "docs_url": "https://docs.fireworks.ai",
+  "pricing_url": "https://fireworks.ai/pricing"
+}

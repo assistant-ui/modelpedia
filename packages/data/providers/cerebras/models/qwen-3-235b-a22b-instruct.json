@@ -1,0 +1,26 @@
+{
+  "id": "qwen-3-235b-a22b-instruct",
+  "name": "qwen-3-235b-a22b-instruct",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen",
+  "context_window": 131000,
+  "max_output_tokens": 40000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 1.2
+  },
+  "snapshots": ["qwen-3-235b-a22b-instruct-2507"]
+}

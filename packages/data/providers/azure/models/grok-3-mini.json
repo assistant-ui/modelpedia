@@ -1,0 +1,16 @@
+{
+  "id": "grok-3-mini",
+  "name": "grok-3-mini",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "grok-3",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

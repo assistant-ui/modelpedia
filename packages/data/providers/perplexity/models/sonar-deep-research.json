@@ -1,0 +1,16 @@
+{
+  "id": "sonar-deep-research",
+  "name": "sonar-deep-research",
+  "created_by": "perplexity",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "sonar",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 8
+  }
+}

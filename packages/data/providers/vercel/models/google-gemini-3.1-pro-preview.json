@@ -1,0 +1,19 @@
+{
+  "id": "google/gemini-3.1-pro-preview",
+  "name": "gemini-3.1-pro-preview",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemini-3.1",
+  "context_window": 1000000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 12
+  }
+}

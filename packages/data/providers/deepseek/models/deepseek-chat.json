@@ -1,0 +1,22 @@
+{
+  "id": "deepseek-chat",
+  "name": "DeepSeek V3.2 (Chat)",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek-chat",
+  "description": "DeepSeek-V3.2 in non-thinking mode. Best for general chat, code, and tool use.",
+  "context_window": 128000,
+  "max_output_tokens": 8000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.28,
+    "output": 0.42,
+    "cached_input": 0.028
+  }
+}

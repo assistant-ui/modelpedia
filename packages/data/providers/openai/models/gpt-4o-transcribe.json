@@ -1,0 +1,19 @@
+{
+  "id": "gpt-4o-transcribe",
+  "name": "GPT-4o Transcribe",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-4o",
+  "description": "GPT-4o Transcribe is a speech-to-text model that uses GPT-4o to transcribe audio.",
+  "status": "active",
+  "context_window": 16000,
+  "max_output_tokens": 2000,
+  "model_type": "other",
+  "performance": 4,
+  "speed": 3,
+  "modalities": {
+    "input": ["audio", "text"],
+    "output": ["text"]
+  }
+}

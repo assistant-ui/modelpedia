@@ -1,0 +1,14 @@
+{
+  "id": "anthropic.claude-3-5-haiku-20241022-v1:0",
+  "name": "Claude 3.5 Haiku",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

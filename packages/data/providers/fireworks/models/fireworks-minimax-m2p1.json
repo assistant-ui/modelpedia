@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/minimax-m2p1",
+  "name": "minimax-m2p1",
+  "created_by": "minimax",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 196600,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "qwen3-coder",
+  "name": "qwen3-coder",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "capabilities": {
+    "streaming": true
+  }
+}

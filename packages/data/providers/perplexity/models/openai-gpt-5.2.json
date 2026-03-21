@@ -1,0 +1,16 @@
+{
+  "id": "openai/gpt-5.2",
+  "name": "openai/gpt-5.2",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-5.2",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.75,
+    "output": 14,
+    "cached_input": 0.175
+  }
+}

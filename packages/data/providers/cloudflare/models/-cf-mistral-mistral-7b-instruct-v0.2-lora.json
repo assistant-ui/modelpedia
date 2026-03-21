@@ -1,0 +1,10 @@
+{
+  "id": "@cf/mistral/mistral-7b-instruct-v0.2-lora",
+  "name": "mistral-7b-instruct-v0.2-lora",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "codestral-mamba-7b-01",
+  "name": "codestral-mamba-7b-01",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "codestral",
+  "status": "active",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

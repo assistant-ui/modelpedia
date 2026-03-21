@@ -1,0 +1,24 @@
+{
+  "id": "deepseek/deepseek-chat-v3-0324",
+  "name": "DeepSeek: DeepSeek V3 0324",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek-chat",
+  "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.",
+  "context_window": 163840,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.77,
+    "cached_input": 0.135
+  }
+}

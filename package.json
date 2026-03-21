@@ -1,39 +1,29 @@
 {
-  "name": "ai-model",
-  "version": "0.0.1",
-  "description": "AI Model",
-  "type": "module",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
-      },
-      "require": {
-        "types": "./dist/index.d.cts",
-        "default": "./dist/index.cjs"
-      }
-    }
-  },
-  "files": [
-    "dist"
-  ],
+  "name": "@ai-model/root",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "build": "tsup",
-    "lint": "tsc --noEmit",
-    "prepublishOnly": "npm run build"
+    "dev": "turbo dev",
+    "dev:web": "pnpm --filter @ai-model/web dev",
+    "dev:api": "pnpm --filter @ai-model/api dev",
+    "build": "turbo build",
+    "lint": "pnpm exec biome check",
+    "lint:fix": "pnpm exec biome check --fix",
+    "generate": "pnpm --filter ai-model generate",
+    "validate": "pnpm --filter ai-model validate",
+    "fetch:all": "pnpm --filter ai-model fetch:all",
+    "deps:check": "npx taze major -f -r",
+    "deps:update": "npx taze major -f -w -r && rm -f pnpm-lock.yaml && pnpm install"
   },
-  "keywords": [
-    "ai",
-    "model"
-  ],
-  "author": "Harry Yep",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/assistant-ui/ai-model"
+  },
+  "author": "assistant-ui",
   "license": "MIT",
   "devDependencies": {
-    "tsup": "^8.4.0",
-    "typescript": "^5.7.0"
-  }
+    "@biomejs/biome": "^2.4.8",
+    "turbo": "^2.8.20"
+  },
+  "packageManager": "pnpm@10.32.1"
 }

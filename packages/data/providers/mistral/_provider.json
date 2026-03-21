@@ -1,0 +1,9 @@
+{
+  "id": "mistral",
+  "name": "Mistral AI",
+  "region": "FR",
+  "url": "https://mistral.ai",
+  "api_url": "https://api.mistral.ai/v1",
+  "docs_url": "https://docs.mistral.ai",
+  "pricing_url": "https://mistral.ai/products"
+}

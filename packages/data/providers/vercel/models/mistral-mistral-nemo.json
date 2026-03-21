@@ -1,0 +1,16 @@
+{
+  "id": "mistral/mistral-nemo",
+  "name": "mistral-nemo",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.15
+  }
+}

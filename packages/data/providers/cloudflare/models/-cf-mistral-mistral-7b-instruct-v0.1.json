@@ -1,0 +1,10 @@
+{
+  "id": "@cf/mistral/mistral-7b-instruct-v0.1",
+  "name": "mistral-7b-instruct-v0.1",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

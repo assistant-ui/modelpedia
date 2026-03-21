@@ -1,0 +1,18 @@
+{
+  "id": "voxtral-mini",
+  "name": "voxtral-mini",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "context_window": 32000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "snapshots": ["voxtral-mini-2507", "voxtral-mini-2602"]
+}

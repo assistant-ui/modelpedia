@@ -1,0 +1,10 @@
+{
+  "id": "sarvamai/sarvam-m",
+  "name": "sarvam-m",
+  "created_by": "sarvamai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

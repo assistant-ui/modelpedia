@@ -1,0 +1,10 @@
+{
+  "id": "@cf/fblgit/una-cybertron-7b-v2-bf16",
+  "name": "una-cybertron-7b-v2-bf16",
+  "created_by": "fblgit",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

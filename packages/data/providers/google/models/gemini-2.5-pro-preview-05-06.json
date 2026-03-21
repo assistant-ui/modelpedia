@@ -1,0 +1,18 @@
+{
+  "id": "gemini-2.5-pro-preview-05-06",
+  "name": "gemini-2.5-pro-preview-05-06",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemini-2.5",
+  "status": "deprecated",
+  "deprecation_date": "December 2, 2025",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

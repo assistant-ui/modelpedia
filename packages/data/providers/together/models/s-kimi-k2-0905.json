@@ -1,0 +1,15 @@
+{
+  "id": "s/kimi-k2-0905",
+  "name": "Kimi K2 0905",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 262000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 3
+  }
+}

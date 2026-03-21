@@ -1,0 +1,25 @@
+{
+  "id": "qwen/qwen3-32b",
+  "name": "Qwen3-32B",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "status": "preview",
+  "context_window": 131072,
+  "max_output_tokens": 40960,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.29,
+    "output": 0.59
+  }
+}

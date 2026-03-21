@@ -1,0 +1,15 @@
+{
+  "id": "morph/morph-v3-fast",
+  "name": "morph-v3-fast",
+  "created_by": "morph",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 81900,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.8,
+    "output": 1.2
+  }
+}

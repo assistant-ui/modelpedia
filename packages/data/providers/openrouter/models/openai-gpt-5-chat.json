@@ -1,0 +1,23 @@
+{
+  "id": "openai/gpt-5-chat",
+  "name": "OpenAI: GPT-5 Chat",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5",
+  "description": "GPT-5 Chat is designed for advanced, natural, multimodal, and context-aware conversations for enterprise applications.",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 10,
+    "cached_input": 0.125
+  }
+}

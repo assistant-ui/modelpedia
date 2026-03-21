@@ -1,0 +1,15 @@
+{
+  "id": "sentientfoundation-serverless/dobby-mini-unhinged-plus-llama-3-1-8b",
+  "name": "dobby-mini-unhinged-plus-llama-3-1-8b",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

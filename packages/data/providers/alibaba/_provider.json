@@ -1,0 +1,9 @@
+{
+  "id": "alibaba",
+  "name": "Alibaba Cloud",
+  "region": "CN",
+  "url": "https://www.alibabacloud.com/en/solutions/generative-ai",
+  "api_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+  "docs_url": "https://www.alibabacloud.com/help/en/model-studio",
+  "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models"
+}

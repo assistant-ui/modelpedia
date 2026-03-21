@@ -1,0 +1,10 @@
+{
+  "id": "failspy/Meta-Llama-3-8B-Instruct-abliterated-v3",
+  "name": "Meta-Llama-3-8B-Instruct-abliterated-v3",
+  "created_by": "failspy",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

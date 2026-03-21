@@ -1,0 +1,78 @@
+{
+  "name": "ai-model",
+  "version": "0.0.1",
+  "description": "AI Model",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "generate": "bun scripts/generate.ts",
+    "prebuild": "bun run generate",
+    "build": "tsdown",
+    "lint": "tsc --noEmit",
+    "validate": "bun scripts/validate.ts",
+    "changes": "bun scripts/detect-changes.ts",
+    "fetch:openai": "bun scripts/fetch-openai.ts",
+    "fetch:anthropic": "bun scripts/fetch-anthropic.ts",
+    "fetch:google": "bun scripts/fetch-google.ts",
+    "fetch:mistral": "bun scripts/fetch-mistral.ts",
+    "fetch:deepseek": "bun scripts/fetch-deepseek.ts",
+    "fetch:xai": "bun scripts/fetch-xai.ts",
+    "fetch:cohere": "bun scripts/fetch-cohere.ts",
+    "fetch:openrouter": "bun scripts/fetch-openrouter.ts",
+    "fetch:perplexity": "bun scripts/fetch-perplexity.ts",
+    "fetch:azure": "bun scripts/fetch-azure.ts",
+    "fetch:groq": "bun scripts/fetch-groq.ts",
+    "fetch:nvidia": "bun scripts/fetch-nvidia.ts",
+    "fetch:together": "bun scripts/fetch-together.ts",
+    "fetch:fireworks": "bun scripts/fetch-fireworks.ts",
+    "fetch:amazon": "bun scripts/fetch-amazon.ts",
+    "fetch:vercel": "bun scripts/fetch-vercel.ts",
+    "fetch:cloudflare": "bun scripts/fetch-cloudflare.ts",
+    "fetch:zhipu": "bun scripts/fetch-zhipu.ts",
+    "fetch:opencode": "bun scripts/fetch-opencode.ts",
+    "fetch:ollama": "bun scripts/fetch-ollama.ts",
+    "fetch:minimax": "bun scripts/fetch-minimax.ts",
+    "fetch:huggingface": "bun scripts/fetch-huggingface.ts",
+    "fetch:alibaba": "bun scripts/fetch-alibaba.ts",
+    "fetch:cerebras": "bun scripts/fetch-cerebras.ts",
+    "fetch:meta": "bun scripts/fetch-meta.ts",
+    "fetch:baseten": "bun scripts/fetch-baseten.ts",
+    "fetch:qwen": "bun scripts/fetch-qwen.ts",
+    "fetch:vertex": "bun scripts/fetch-vertex.ts",
+    "fetch:moonshot": "bun scripts/fetch-moonshot.ts",
+    "fetch:all": "bun run fetch:openai && bun run fetch:anthropic && bun run fetch:google && bun run fetch:mistral && bun run fetch:deepseek && bun run fetch:xai && bun run fetch:cohere && bun run fetch:zhipu && bun run fetch:minimax && bun run fetch:alibaba && bun run fetch:meta && bun run fetch:moonshot && bun run fetch:cerebras && bun run fetch:baseten && bun run fetch:openrouter && bun run fetch:perplexity && bun run fetch:azure && bun run fetch:groq && bun run fetch:nvidia && bun run fetch:together && bun run fetch:fireworks && bun run fetch:amazon && bun run fetch:vercel && bun run fetch:vertex && bun run fetch:cloudflare && bun run fetch:opencode && bun run fetch:ollama && bun run fetch:huggingface && bun run fetch:qwen",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "ai",
+    "model"
+  ],
+  "author": "assistant-ui",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/assistant-ui/ai-model",
+    "directory": "packages/data"
+  },
+  "devDependencies": {
+    "tsdown": "^0.12.5",
+    "typescript": "catalog:"
+  }
+}

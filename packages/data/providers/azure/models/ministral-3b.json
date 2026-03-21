@@ -1,0 +1,15 @@
+{
+  "id": "ministral-3b",
+  "name": "Ministral-3B",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "ministral",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "amazon.nova-sonic-v1:0",
+  "name": "Nova Sonic",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": [],
+    "output": []
+  }
+}

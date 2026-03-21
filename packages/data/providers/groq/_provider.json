@@ -1,0 +1,9 @@
+{
+  "id": "groq",
+  "name": "Groq",
+  "region": "US",
+  "url": "https://groq.com",
+  "api_url": "https://api.groq.com/openai/v1",
+  "docs_url": "https://console.groq.com/docs",
+  "pricing_url": "https://groq.com/pricing"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "minimax-m2.5",
+  "name": "MiniMax-M2.5",
+  "created_by": "minimax",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "minimax",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2,
+    "cached_input": 0.03
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "meta/llama-3.2-11b",
+  "name": "llama-3.2-11b",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-3.2",
+  "context_window": 128000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.16,
+    "output": 0.16
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "bytedance-seed/seed-1.6",
+  "name": "ByteDance Seed: Seed 1.6",
+  "created_by": "bytedance-seed",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Seed 1.6 is a general-purpose model released by the ByteDance Seed team.",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "modalities": {
+    "input": ["image", "text", "video"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "xiaomi/mimo-v2-flash",
+  "name": "Xiaomi: MiMo-V2-Flash",
+  "created_by": "xiaomi",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "MiMo-V2-Flash is an open-source foundation language model developed by Xiaomi.",
+  "context_window": 262144,
+  "max_output_tokens": 65536,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.09,
+    "output": 0.29,
+    "cached_input": 0.045
+  }
+}

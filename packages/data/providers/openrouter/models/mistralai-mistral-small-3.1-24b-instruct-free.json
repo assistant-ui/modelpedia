@@ -1,0 +1,20 @@
+{
+  "id": "mistralai/mistral-small-3.1-24b-instruct:free",
+  "name": "Mistral: Mistral Small 3.1 24B (free)",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-small",
+  "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities.",
+  "status": "deprecated",
+  "deprecation_date": "2026-03-29",
+  "context_window": 128000,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  }
+}

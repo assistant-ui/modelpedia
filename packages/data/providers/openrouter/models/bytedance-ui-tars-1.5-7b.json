@@ -1,0 +1,18 @@
+{
+  "id": "bytedance/ui-tars-1.5-7b",
+  "name": "ByteDance: UI-TARS 7B ",
+  "created_by": "bytedance",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "UI-TARS-1.5 is a multimodal vision-language agent optimized for GUI-based environments, including desktop interfaces, web browsers, mobile systems, and games.",
+  "context_window": 128000,
+  "max_output_tokens": 2048,
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.2
+  }
+}

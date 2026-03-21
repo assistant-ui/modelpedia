@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/llama-v3p2-90b-vision-instruct",
+  "name": "llama-v3p2-90b-vision-instruct",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

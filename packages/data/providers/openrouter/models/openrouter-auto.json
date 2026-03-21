@@ -1,0 +1,18 @@
+{
+  "id": "openrouter/auto",
+  "name": "Auto Router",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.",
+  "context_window": 2000000,
+  "modalities": {
+    "input": ["text", "image", "audio", "video"],
+    "output": ["text", "image"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  }
+}

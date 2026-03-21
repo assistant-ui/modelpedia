@@ -1,0 +1,9 @@
+{
+  "id": "anthropic",
+  "name": "Anthropic",
+  "region": "US",
+  "url": "https://anthropic.com",
+  "api_url": "https://api.anthropic.com/v1",
+  "docs_url": "https://docs.anthropic.com",
+  "pricing_url": "https://anthropic.com/pricing"
+}

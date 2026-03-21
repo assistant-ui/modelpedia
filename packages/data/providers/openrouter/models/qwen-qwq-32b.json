@@ -1,0 +1,23 @@
+{
+  "id": "qwen/qwq-32b",
+  "name": "Qwen: QwQ 32B",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwq",
+  "description": "QwQ is the reasoning model of the Qwen series.",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.58
+  }
+}

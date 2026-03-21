@@ -1,0 +1,16 @@
+{
+  "id": "moonshotai/kimi-k2-turbo",
+  "name": "kimi-k2-turbo",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 1.15,
+    "output": 8
+  }
+}

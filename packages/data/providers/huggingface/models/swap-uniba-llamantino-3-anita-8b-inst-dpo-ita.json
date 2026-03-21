@@ -1,0 +1,10 @@
+{
+  "id": "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA",
+  "name": "LLaMAntino-3-ANITA-8B-Inst-DPO-ITA",
+  "created_by": "swap-uniba",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

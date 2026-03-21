@@ -1,0 +1,16 @@
+{
+  "id": "gpt-4o-audio-preview",
+  "name": "gpt-4o-audio-preview",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4o",
+  "knowledge_cutoff": "September 2023",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

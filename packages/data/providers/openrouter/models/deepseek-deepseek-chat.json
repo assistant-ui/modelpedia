@@ -1,0 +1,23 @@
+{
+  "id": "deepseek/deepseek-chat",
+  "name": "DeepSeek: DeepSeek V3",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek-chat",
+  "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions.",
+  "context_window": 163840,
+  "max_output_tokens": 163840,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.32,
+    "output": 0.89
+  }
+}

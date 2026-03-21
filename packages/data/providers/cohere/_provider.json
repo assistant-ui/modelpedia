@@ -1,0 +1,9 @@
+{
+  "id": "cohere",
+  "name": "Cohere",
+  "region": "CA",
+  "url": "https://cohere.com",
+  "api_url": "https://api.cohere.com/v2",
+  "docs_url": "https://docs.cohere.com",
+  "pricing_url": "https://cohere.com/pricing"
+}

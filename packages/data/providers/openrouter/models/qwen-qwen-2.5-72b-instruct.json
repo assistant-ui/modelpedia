@@ -1,0 +1,23 @@
+{
+  "id": "qwen/qwen-2.5-72b-instruct",
+  "name": "Qwen2.5 72B Instruct",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen",
+  "description": "Qwen2.5 72B is the latest series of Qwen large language models.",
+  "context_window": 32768,
+  "max_output_tokens": 16384,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.12,
+    "output": 0.39
+  }
+}

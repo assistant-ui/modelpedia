@@ -1,0 +1,11 @@
+{
+  "id": "upstage/solar-10.7b-instruct",
+  "name": "solar-10.7b-instruct",
+  "created_by": "upstage",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

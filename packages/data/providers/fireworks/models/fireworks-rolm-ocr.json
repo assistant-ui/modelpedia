@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/rolm-ocr",
+  "name": "rolm-ocr",
+  "created_by": "fireworks",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 128000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

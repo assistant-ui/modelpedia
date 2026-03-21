@@ -1,0 +1,18 @@
+{
+  "id": "relace/relace-apply-3",
+  "name": "Relace: Relace Apply 3",
+  "created_by": "relace",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Relace Apply 3 is a specialized code-patching LLM that merges AI-suggested edits straight into your source files.",
+  "context_window": 256000,
+  "max_output_tokens": 128000,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.85,
+    "output": 1.25
+  }
+}

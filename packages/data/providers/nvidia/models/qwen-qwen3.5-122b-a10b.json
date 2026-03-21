@@ -1,0 +1,11 @@
+{
+  "id": "qwen/qwen3.5-122b-a10b",
+  "name": "qwen3.5-122b-a10b",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3.5",
+  "capabilities": {
+    "streaming": true
+  }
+}

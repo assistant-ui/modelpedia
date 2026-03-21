@@ -1,0 +1,19 @@
+{
+  "id": "xai/grok-4",
+  "name": "grok-4",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "grok-4",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15
+  }
+}

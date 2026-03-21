@@ -1,0 +1,15 @@
+{
+  "id": "canopylabs/orpheus-v1-english",
+  "name": "Canopy Labs Orpheus V1 English",
+  "created_by": "canopy-labs",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "preview",
+  "context_window": 4000,
+  "max_output_tokens": 50000,
+  "model_type": "tts",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  }
+}

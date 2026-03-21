@@ -1,0 +1,80 @@
+"use client";
+
+import { useState } from "react";
+import { highlight } from "sugar-high";
+
+export function ApiEndpoint({
+  path,
+  tryPath,
+  description,
+  params,
+}: {
+  path: string;
+  tryPath?: string;
+  description?: string;
+  params?: [string, string][];
+}) {
+  const [html, setHtml] = useState("");
+  const [visible, setVisible] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  async function handleTry() {
+    if (html) {
+      setVisible(!visible);
+      return;
+    }
+    setLoading(true);
+    try {
+      const res = await fetch(tryPath ?? path);
+      const json = await res.json();
+      setHtml(highlight(JSON.stringify(json, null, 2)));
+      setVisible(true);
+    } catch {
+      setHtml("Request failed");
+      setVisible(true);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  return (
+    <div className="overflow-hidden rounded-md ring-1 ring-border">
+      <div className="flex items-center gap-3 px-4 py-3 text-sm">
+        <span className="shrink-0 rounded bg-muted px-1.5 py-0.5 font-mono text-muted-foreground text-xs">
+          GET
+        </span>
+        <code className="shrink-0 text-foreground">{path}</code>
+        {description && (
+          <span className="text-muted-foreground text-xs">{description}</span>
+        )}
+        <button
+          onClick={handleTry}
+          className="ml-auto shrink-0 rounded bg-muted px-2.5 py-1 text-muted-foreground text-xs transition-colors duration-200 hover:bg-accent hover:text-foreground"
+        >
+          {loading ? "..." : visible ? "Hide" : "Try"}
+        </button>
+      </div>
+      {params && (
+        <div className="mx-4 mb-3 overflow-hidden rounded text-xs ring-1 ring-border">
+          {params.map(([name, desc], i) => (
+            <div
+              key={name}
+              className={`grid grid-cols-[1fr_2fr] px-3 py-2 ${i > 0 ? "border-border border-t" : ""}`}
+            >
+              <code className="text-foreground">{name}</code>
+              <span className="text-muted-foreground">{desc}</span>
+            </div>
+          ))}
+        </div>
+      )}
+      {visible && (
+        <div className="border-border border-t">
+          <pre
+            className="max-h-80 overflow-auto px-4 py-3 text-foreground text-xs"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        </div>
+      )}
+    </div>
+  );
+}

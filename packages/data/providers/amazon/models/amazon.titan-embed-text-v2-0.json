@@ -1,0 +1,11 @@
+{
+  "id": "amazon.titan-embed-text-v2:0",
+  "name": "Titan Text Embeddings V2",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "modalities": {
+    "input": ["text"],
+    "output": []
+  }
+}

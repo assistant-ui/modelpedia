@@ -1,0 +1,25 @@
+{
+  "id": "x-ai/grok-4.1-fast",
+  "name": "xAI: Grok 4.1 Fast",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "grok-4.1",
+  "description": "Grok 4.1 Fast is xAI's best agentic tool calling model that shines in real-world use cases like customer support and deep research.",
+  "context_window": 2000000,
+  "max_output_tokens": 30000,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.5,
+    "cached_input": 0.05
+  }
+}

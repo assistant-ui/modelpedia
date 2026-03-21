@@ -1,0 +1,31 @@
+{
+  "id": "o3-deep-research",
+  "name": "o3-deep-research",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "o3",
+  "status": "active",
+  "context_window": 200000,
+  "max_output_tokens": 100000,
+  "performance": 5,
+  "speed": 1,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 10,
+    "output": 40,
+    "cached_input": 2.5,
+    "batch_input": 5,
+    "batch_output": 20
+  },
+  "description": "o3-deep-research is OpenAI's advanced model for deep research, designed to tackle complex, multi-step research tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "snapshots": ["o3-deep-research-2025-06-26"]
+}

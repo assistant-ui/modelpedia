@@ -1,0 +1,10 @@
+{
+  "id": "@cf/thebloke/discolm-german-7b-v1-awq",
+  "name": "discolm-german-7b-v1-awq",
+  "created_by": "thebloke",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

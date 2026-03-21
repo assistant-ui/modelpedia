@@ -1,0 +1,14 @@
+{
+  "id": "twelvelabs.marengo-embed-2-7-v1:0",
+  "name": "Marengo Embed v2.7",
+  "created_by": "twelvelabs",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": []
+  }
+}

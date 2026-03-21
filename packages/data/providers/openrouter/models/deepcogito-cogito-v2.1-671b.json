@@ -1,0 +1,21 @@
+{
+  "id": "deepcogito/cogito-v2.1-671b",
+  "name": "Deep Cogito: Cogito v2.1 671B",
+  "created_by": "deepcogito",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Cogito v2.1 671B MoE represents one of the strongest open models globally, matching performance of frontier closed and open models.",
+  "context_window": 128000,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 1.25
+  }
+}

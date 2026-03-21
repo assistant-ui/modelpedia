@@ -1,0 +1,11 @@
+{
+  "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "name": "Qwen3-30B-A3B-Instruct-2507",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "alias": "Qwen/Qwen3-30B-A3B-Instruct",
+  "capabilities": {
+    "streaming": true
+  }
+}

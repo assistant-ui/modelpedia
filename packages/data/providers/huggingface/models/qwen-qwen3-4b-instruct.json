@@ -1,0 +1,11 @@
+{
+  "id": "Qwen/Qwen3-4B-Instruct",
+  "name": "Qwen3-4B-Instruct-2507",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "snapshots": ["Qwen/Qwen3-4B-Instruct-2507"]
+}

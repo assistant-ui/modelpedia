@@ -1,0 +1,10 @@
+{
+  "id": "@cf/tiiuae/falcon-7b-instruct",
+  "name": "falcon-7b-instruct",
+  "created_by": "tii",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

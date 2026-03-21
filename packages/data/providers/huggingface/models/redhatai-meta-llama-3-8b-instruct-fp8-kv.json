@@ -1,0 +1,10 @@
+{
+  "id": "RedHatAI/Meta-Llama-3-8B-Instruct-FP8-KV",
+  "name": "Meta-Llama-3-8B-Instruct-FP8-KV",
+  "created_by": "redhatai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

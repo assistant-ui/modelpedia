@@ -1,0 +1,24 @@
+{
+  "id": "claude-3-5-haiku",
+  "name": "Claude Haiku 3.5",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "claude-haiku",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.8,
+    "output": 4,
+    "cached_input": 0.08,
+    "batch_input": 0.4,
+    "batch_output": 2
+  }
+}

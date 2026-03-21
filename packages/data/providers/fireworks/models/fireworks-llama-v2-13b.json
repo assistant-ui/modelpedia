@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/llama-v2-13b",
+  "name": "llama-v2-13b",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 4100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

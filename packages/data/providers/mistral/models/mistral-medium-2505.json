@@ -1,0 +1,23 @@
+{
+  "id": "mistral-medium-2505",
+  "name": "mistral-medium-2505",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-medium",
+  "status": "active",
+  "context_window": 128000,
+  "alias": "mistral-medium",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.4,
+    "output": 2
+  }
+}

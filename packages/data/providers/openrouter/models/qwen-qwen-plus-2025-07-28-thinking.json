@@ -1,0 +1,24 @@
+{
+  "id": "qwen/qwen-plus-2025-07-28:thinking",
+  "name": "Qwen: Qwen Plus 0728 (thinking)",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen",
+  "description": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination.",
+  "context_window": 1000000,
+  "max_output_tokens": 32768,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.26,
+    "output": 0.78
+  }
+}

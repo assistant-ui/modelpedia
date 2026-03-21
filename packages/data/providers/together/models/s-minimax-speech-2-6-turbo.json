@@ -1,0 +1,10 @@
+{
+  "id": "s/minimax-speech-2-6-turbo",
+  "name": "Minimax Speech 2 6 Turbo",
+  "created_by": "minimax",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

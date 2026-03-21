@@ -1,0 +1,21 @@
+{
+  "id": "gpt-4",
+  "name": "GPT-4",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-4",
+  "description": "GPT-4 is an older version of a high-intelligence GPT model, usable in Chat Completions.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 8191,
+  "max_output_tokens": 4096,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "vercel",
+  "name": "Vercel AI Gateway",
+  "region": "US",
+  "url": "https://vercel.com/ai-gateway",
+  "api_url": "https://gateway.ai.vercel.com/v1",
+  "docs_url": "https://vercel.com/docs/ai-gateway",
+  "pricing_url": "https://vercel.com/ai-gateway/models"
+}

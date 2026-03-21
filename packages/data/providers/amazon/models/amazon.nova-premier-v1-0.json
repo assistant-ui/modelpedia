@@ -1,0 +1,15 @@
+{
+  "id": "amazon.nova-premier-v1:0",
+  "name": "Nova Premier",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["text"]
+  }
+}

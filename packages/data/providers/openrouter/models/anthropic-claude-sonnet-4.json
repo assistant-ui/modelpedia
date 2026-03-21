@@ -1,0 +1,24 @@
+{
+  "id": "anthropic/claude-sonnet-4",
+  "name": "Anthropic: Claude Sonnet 4",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "claude-sonnet",
+  "description": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability.",
+  "context_window": 200000,
+  "max_output_tokens": 64000,
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.3
+  }
+}

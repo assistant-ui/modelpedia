@@ -1,0 +1,10 @@
+{
+  "id": "GritLM/GritLM-7B",
+  "name": "GritLM-7B",
+  "created_by": "gritlm",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

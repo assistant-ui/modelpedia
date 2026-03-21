@@ -1,0 +1,11 @@
+{
+  "id": "nvidia/llama-3.1-nemoguard-8b-topic-control",
+  "name": "llama-3.1-nemoguard-8b-topic-control",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-3.1",
+  "capabilities": {
+    "streaming": true
+  }
+}

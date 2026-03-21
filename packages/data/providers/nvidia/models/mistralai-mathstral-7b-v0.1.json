@@ -1,0 +1,10 @@
+{
+  "id": "mistralai/mathstral-7b-v0.1",
+  "name": "mathstral-7b-v0.1",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

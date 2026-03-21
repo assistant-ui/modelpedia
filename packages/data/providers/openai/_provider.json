@@ -1,0 +1,9 @@
+{
+  "id": "openai",
+  "name": "OpenAI",
+  "region": "US",
+  "url": "https://openai.com",
+  "api_url": "https://api.openai.com/v1",
+  "docs_url": "https://platform.openai.com/docs",
+  "pricing_url": "https://openai.com/api/pricing"
+}

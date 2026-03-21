@@ -1,0 +1,16 @@
+{
+  "id": "s/gpt-oss-120b",
+  "name": "Gpt Oss 120b",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-oss",
+  "context_window": 128000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  }
+}

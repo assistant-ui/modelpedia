@@ -1,0 +1,24 @@
+{
+  "id": "claude-3-7-sonnet",
+  "name": "Claude Sonnet 3.7",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "claude-sonnet",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.3,
+    "batch_input": 1.5,
+    "batch_output": 7.5
+  }
+}

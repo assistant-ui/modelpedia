@@ -1,0 +1,13 @@
+{
+  "id": "gpt-image-1-mini",
+  "name": "gpt-image-1-mini",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-image-1",
+  "status": "active",
+  "pricing": {
+    "input": 2,
+    "cached_input": 0.2
+  }
+}

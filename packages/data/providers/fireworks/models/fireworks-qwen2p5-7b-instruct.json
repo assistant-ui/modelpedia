@@ -1,0 +1,16 @@
+{
+  "id": "fireworks/qwen2p5-7b-instruct",
+  "name": "qwen2p5-7b-instruct",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen2",
+  "context_window": 32800,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "gpt-5.1",
+  "name": "gpt-5.1",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5.1",
+  "description": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.",
+  "status": "active",
+  "model_type": "reasoning",
+  "performance": 4,
+  "speed": 3,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 10,
+    "cached_input": 0.125,
+    "batch_input": 0.625,
+    "batch_output": 5
+  },
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "snapshots": ["gpt-5.1-2025-11-13"]
+}

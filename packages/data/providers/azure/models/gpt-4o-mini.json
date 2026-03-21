@@ -1,0 +1,19 @@
+{
+  "id": "gpt-4o-mini",
+  "name": "gpt-4o-mini",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4o",
+  "knowledge_cutoff": "October 2023",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

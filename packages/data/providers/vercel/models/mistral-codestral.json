@@ -1,0 +1,17 @@
+{
+  "id": "mistral/codestral",
+  "name": "codestral",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "codestral",
+  "context_window": 128000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 0.9
+  }
+}

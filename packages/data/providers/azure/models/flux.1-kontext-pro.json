@@ -1,0 +1,16 @@
+{
+  "id": "flux.1-kontext-pro",
+  "name": "FLUX.1-Kontext-pro",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

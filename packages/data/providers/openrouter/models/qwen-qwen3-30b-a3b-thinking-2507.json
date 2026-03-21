@@ -1,0 +1,25 @@
+{
+  "id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "name": "Qwen: Qwen3 30B A3B Thinking 2507",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "description": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking.",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.08,
+    "output": 0.4,
+    "cached_input": 0.08
+  }
+}
