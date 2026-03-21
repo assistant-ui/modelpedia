@@ -2,7 +2,6 @@ import {
   inferFamily,
   type ModelEntry,
   runGenerate,
-  sanitizeModelId,
   upsertWithSnapshot,
 } from "./shared.ts";
 

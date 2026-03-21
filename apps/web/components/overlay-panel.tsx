@@ -37,7 +37,7 @@ export function OverlayPanel({
     };
     document.addEventListener("keydown", handler);
     return () => document.removeEventListener("keydown", handler);
-  }, []);
+  }, [close]);
 
   return (
     <div

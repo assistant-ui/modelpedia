@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { ModelList } from "@/components/model-list";
 import { ProviderIcon } from "@/components/provider-icon";
 import { ButtonLink } from "@/components/ui/button";

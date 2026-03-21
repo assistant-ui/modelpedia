@@ -70,7 +70,7 @@ export function CommandPalette({
     };
     document.addEventListener("keydown", down);
     return () => document.removeEventListener("keydown", down);
-  }, [mounted]);
+  }, [mounted, close, open]);
 
   const filteredPages = useMemo(() => {
     if (!query) return [];

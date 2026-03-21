@@ -84,7 +84,7 @@ export function ModelPicker({
     };
     document.addEventListener("mousedown", handler);
     return () => document.removeEventListener("mousedown", handler);
-  }, [visible]);
+  }, [visible, hide]);
 
   function select(key: string | null) {
     onSelect(key);

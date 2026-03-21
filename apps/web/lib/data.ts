@@ -76,7 +76,6 @@ function inheritFields(
 ) {
   for (const field of INHERITABLE_FIELDS) {
     if (enriched[field] == null && source[field] != null) {
-      // biome-ignore lint/suspicious/noExplicitAny: dynamic field copy
       (enriched as any)[field] = source[field];
       inherited.add(field);
     }
