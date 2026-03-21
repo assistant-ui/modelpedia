@@ -46,8 +46,7 @@ export function FormatToggle() {
 
   return (
     <>
-      {/* Toggle button */}
-      <div className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2">
+      <div className="fixed bottom-20 left-1/2 z-50 -translate-x-1/2 sm:bottom-6">
         <button
           onClick={toggleFormat}
           className="flex items-center rounded-md bg-muted text-xs ring-1 ring-border transition-colors duration-200"
@@ -64,7 +63,6 @@ export function FormatToggle() {
           </span>
         </button>
       </div>
-      {/* AI format overlay */}
       {visible && (
         <div
           className={`fixed inset-0 z-40 bg-background transition-opacity duration-200 ${isAI ? "opacity-100" : "opacity-0"}`}

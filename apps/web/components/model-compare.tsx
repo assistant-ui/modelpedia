@@ -2,9 +2,10 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense } from "react";
+import { PERF_LABELS, SPEED_LABELS } from "@/lib/constants";
+import { formatPrice, formatTokens } from "@/lib/format";
 import { ModelPicker } from "./model-picker";
 import { Tooltip } from "./ui/tooltip";
-import { formatTokens } from "./views";
 
 interface CompareModel {
   id: string;
@@ -53,9 +54,6 @@ function CompareRow({
   );
 }
 
-const SPEED_LABELS = ["", "Very slow", "Slow", "Normal", "Fast", "Very fast"];
-const PERF_LABELS = ["", "Basic", "Good", "Strong", "Excellent", "Frontier"];
-
 function RatingDots({
   value,
   max = 5,
@@ -91,6 +89,17 @@ function CapBadge({ supported }: { supported?: boolean }) {
   );
 }
 
+const CAP_KEYS = [
+  ["reasoning", "Reasoning"],
+  ["vision", "Vision"],
+  ["tool_call", "Tool calling"],
+  ["streaming", "Streaming"],
+  ["structured_output", "Structured output"],
+  ["json_mode", "JSON mode"],
+  ["fine_tuning", "Fine-tuning"],
+  ["batch", "Batch"],
+];
+
 function CompareInner({ models }: { models: CompareModel[] }) {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -113,20 +122,8 @@ function CompareInner({ models }: { models: CompareModel[] }) {
     router.push(qs ? `/compare?${qs}` : "/compare");
   }
 
-  const CAP_KEYS = [
-    ["reasoning", "Reasoning"],
-    ["vision", "Vision"],
-    ["tool_call", "Tool calling"],
-    ["streaming", "Streaming"],
-    ["structured_output", "Structured output"],
-    ["json_mode", "JSON mode"],
-    ["fine_tuning", "Fine-tuning"],
-    ["batch", "Batch"],
-  ];
-
   return (
     <div>
-      {/* Pickers */}
       <div className="mb-8 flex gap-4">
         <ModelPicker
           models={models}
@@ -142,10 +139,8 @@ function CompareInner({ models }: { models: CompareModel[] }) {
         />
       </div>
 
-      {/* Comparison table */}
       {a && b ? (
         <div className="overflow-hidden rounded-md ring-1 ring-border">
-          {/* Headers */}
           <div className="grid grid-cols-[1fr_1fr_1fr]">
             <div className="px-4 py-3 text-muted-foreground text-xs uppercase tracking-wider" />
             <div className="border-border border-l px-4 py-3">
@@ -172,7 +167,6 @@ function CompareInner({ models }: { models: CompareModel[] }) {
             </div>
           </div>
 
-          {/* Specs */}
           <CompareRow label="Status" a={a.status ?? "—"} b={b.status ?? "—"} />
           <CompareRow
             label="Context window"
@@ -200,32 +194,22 @@ function CompareInner({ models }: { models: CompareModel[] }) {
             b={<RatingDots value={b.speed} labels={SPEED_LABELS} />}
           />
 
-          {/* Pricing */}
           <CompareRow
             label="Input price"
-            a={a.pricing?.input != null ? `$${a.pricing.input}` : null}
-            b={b.pricing?.input != null ? `$${b.pricing.input}` : null}
+            a={formatPrice(a.pricing?.input)}
+            b={formatPrice(b.pricing?.input)}
           />
           <CompareRow
             label="Output price"
-            a={a.pricing?.output != null ? `$${a.pricing.output}` : null}
-            b={b.pricing?.output != null ? `$${b.pricing.output}` : null}
+            a={formatPrice(a.pricing?.output)}
+            b={formatPrice(b.pricing?.output)}
           />
           <CompareRow
             label="Cached input"
-            a={
-              a.pricing?.cached_input != null
-                ? `$${a.pricing.cached_input}`
-                : null
-            }
-            b={
-              b.pricing?.cached_input != null
-                ? `$${b.pricing.cached_input}`
-                : null
-            }
+            a={formatPrice(a.pricing?.cached_input)}
+            b={formatPrice(b.pricing?.cached_input)}
           />
 
-          {/* Capabilities */}
           {CAP_KEYS.map(([key, label]) => (
             <CompareRow
               key={key}
@@ -235,7 +219,6 @@ function CompareInner({ models }: { models: CompareModel[] }) {
             />
           ))}
 
-          {/* Modalities */}
           <CompareRow
             label="Input modalities"
             a={a.modalities?.input?.join(", ")}
@@ -248,7 +231,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
           />
         </div>
       ) : (
-        <div className="py-16 text-center text-muted-foreground text-sm">
+        <div className="text-balance py-16 text-center text-muted-foreground text-sm">
           Select two models to compare
         </div>
       )}

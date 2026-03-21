@@ -1,14 +1,22 @@
 import type { Metadata } from "next";
-import { Breadcrumb, PageHeader, ProviderIcon } from "@/components/views";
+import { ProviderIcon } from "@/components/provider-icon";
+import { PageHeader } from "@/components/ui/page-header";
 import { providers } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Providers — AI Model Registry",
+  title: "Providers",
+  description:
+    "All AI model providers and platforms. Browse models by provider.",
 };
 
 export default function ProvidersPage() {
   return (
     <>
+      <PageHeader
+        title="Providers"
+        count={providers.length}
+        sub="AI model providers and platforms"
+      />
       <div className="grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-3">
         {[...providers]
           .sort((a, b) => {
@@ -36,15 +44,9 @@ export default function ProvidersPage() {
                     </span>
                   </div>
                 </div>
-                {p.models.length > 0 ? (
-                  <span className="shrink-0 font-mono text-muted-foreground text-xs tabular-nums">
-                    {p.models.length}
-                  </span>
-                ) : (
-                  <span className="shrink-0 text-muted-foreground text-xs">
-                    —
-                  </span>
-                )}
+                <span className="shrink-0 font-mono text-muted-foreground text-xs tabular-nums">
+                  {p.models.length || "—"}
+                </span>
               </a>
             );
           })}

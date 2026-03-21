@@ -3,7 +3,7 @@ import {
   Brain,
   Eye,
   Hammer,
-  Info,
+  History,
   Layers,
   Lightbulb,
   Play,
@@ -12,19 +12,58 @@ import {
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ApiEndpoint } from "@/components/api-endpoint";
+import { ChangeEntry } from "@/components/change-entry";
 import { RenderMarkdown } from "@/components/markdown";
+import {
+  DetailCell,
+  FamilyComparison,
+  InheritedBadge,
+  MetricCard,
+  PriceCell,
+  RatingCard,
+} from "@/components/model-detail";
 import { ModelIdCopy } from "@/components/model-id-copy";
-import { Tooltip } from "@/components/ui/tooltip";
-import { Breadcrumb, formatTokens, ProviderIcon } from "@/components/views";
-import type { EnrichedModel } from "@/lib/data";
+import { OverlayPanel } from "@/components/overlay-panel";
+
+import { ProviderIcon } from "@/components/provider-icon";
+import { ButtonLink } from "@/components/ui/button";
 import {
   allModels,
+  getChangelog,
   getModel,
   getModelWithInheritance,
   getProvider,
 } from "@/lib/data";
+import { formatPrice, formatTokens } from "@/lib/format";
+import { normalizeModelId } from "@/lib/search";
 
 type Params = { provider: string; id: string[] };
+
+const CAP_MAP = {
+  vision: { label: "vision", icon: Eye },
+  tool_call: { label: "tool call", icon: Hammer },
+  structured_output: { label: "structured output", icon: Braces },
+  reasoning: { label: "reasoning", icon: Brain },
+  json_mode: { label: "json mode", icon: Lightbulb },
+  streaming: { label: "streaming", icon: Play },
+  fine_tuning: { label: "fine tuning", icon: SlidersHorizontal },
+  batch: { label: "batch", icon: Layers },
+} as const;
+const CAP_KEYS = Object.keys(CAP_MAP) as (keyof typeof CAP_MAP)[];
+
+function parseIdSegments(segments: string[]): {
+  modelId: string;
+  isChanges: boolean;
+} {
+  const last = segments[segments.length - 1];
+  if (last === "changes" && segments.length > 1) {
+    return {
+      modelId: decodeURIComponent(segments.slice(0, -1).join("/")),
+      isChanges: true,
+    };
+  }
+  return { modelId: decodeURIComponent(segments.join("/")), isChanges: false };
+}
 
 export async function generateMetadata({
   params,
@@ -32,8 +71,25 @@ export async function generateMetadata({
   params: Promise<Params>;
 }): Promise<Metadata> {
   const { provider, id } = await params;
-  const model = getModel(provider, decodeURIComponent(id.join("/")));
-  return { title: model ? `${model.name} — AI Model Registry` : "Not Found" };
+  const { modelId, isChanges } = parseIdSegments(id);
+  const model = getModel(provider, modelId);
+  if (!model) return { title: "Not Found" };
+  if (isChanges) {
+    return { title: `Changes — ${model.name}` };
+  }
+  const ogUrl = `/api/og?provider=${provider}&id=${encodeURIComponent(modelId)}`;
+  return {
+    title: model.name,
+    description:
+      model.description ??
+      `${model.name} — AI model by ${model.created_by}. View specs, pricing, and capabilities.`,
+    openGraph: {
+      images: [{ url: ogUrl, width: 1200, height: 630 }],
+    },
+    twitter: {
+      images: [{ url: ogUrl, width: 1200, height: 630 }],
+    },
+  };
 }
 
 export default async function ModelDetailPage({
@@ -42,67 +98,23 @@ export default async function ModelDetailPage({
   params: Promise<Params>;
 }) {
   const { provider, id: idSegments } = await params;
-  const modelId = decodeURIComponent(idSegments.join("/"));
-  const model = getModelWithInheritance(provider, modelId);
-  if (!model) return notFound();
-  const inherited = model.inheritedFields;
-  const inh = (field: string) =>
-    inherited?.has(field) ? model.inheritedFrom : undefined;
+  const { modelId, isChanges } = parseIdSegments(idSegments);
+  const _model = getModelWithInheritance(provider, modelId);
+  if (!_model) return notFound();
+  const model = _model;
 
   const providerInfo = getProvider(model.provider);
-  const creatorProvider =
-    model.created_by !== model.provider ? getProvider(model.created_by) : null;
+  const modelChanges = getChangelog().filter(
+    (e) => e.provider === provider && e.model === modelId,
+  );
 
-  // Find the original model on the creator's provider
-  // Normalize IDs for comparison: strip prefixes, dashes, version suffixes
-  function normalizeId(id: string): string {
-    return id
-      .toLowerCase()
-      .replace(/[@/]/g, "-")
-      .replace(/-(?:vertex|bedrock|azure)$/, "")
-      .replace(/^(?:openai-|meta-|anthropic-|google-)/, "")
-      .replace(/-/g, "");
-  }
-
-  const originalModel = creatorProvider
-    ? allModels.find(
-        (m) =>
-          m.provider === model.created_by &&
-          (m.name === model.name ||
-            normalizeId(m.id) === normalizeId(model.id) ||
-            normalizeId(m.id) === normalizeId(model.name)),
-      )
-    : null;
-
-  const familyModels = model.family
-    ? allModels
-        .filter(
-          (m) =>
-            m.family === model.family &&
-            m.provider === model.provider &&
-            !m.alias,
-        )
-        .sort((a, b) => (a.pricing?.input ?? 0) - (b.pricing?.input ?? 0))
-    : [];
-
-  const CAP_MAP = {
-    vision: { label: "vision", icon: Eye },
-    tool_call: { label: "tool call", icon: Hammer },
-    structured_output: { label: "structured output", icon: Braces },
-    reasoning: { label: "reasoning", icon: Brain },
-    json_mode: { label: "json mode", icon: Lightbulb },
-    streaming: { label: "streaming", icon: Play },
-    fine_tuning: { label: "fine tuning", icon: SlidersHorizontal },
-    batch: { label: "batch", icon: Layers },
-  } as const;
-  const CAP_KEYS = Object.keys(CAP_MAP) as (keyof typeof CAP_MAP)[];
-
-  return (
-    <>
-      {/* Header */}
+  function renderHeader(actions: React.ReactNode) {
+    return (
       <div className="mb-8">
         <div className="flex items-center gap-2.5">
-          <ProviderIcon provider={providerInfo} size={18} />
+          <ButtonLink href={`/${model.provider}`} variant="ghost" size="icon">
+            <ProviderIcon provider={providerInfo} size={18} />
+          </ButtonLink>
           <h1 className="flex-1 font-medium text-foreground text-lg tracking-tight">
             {model.name}
           </h1>
@@ -111,29 +123,18 @@ export default async function ModelDetailPage({
               {model.status}
             </span>
           )}
-          <ModelIdCopy
-            ids={[
-              model.id,
-              ...(model.snapshots ?? []),
-              ...(model.alias ? [model.alias] : []),
-            ]}
-          />
+          {actions}
         </div>
-
-        {/* API ID — only if different from display name */}
         {model.id !== model.name && (
-          <div className="mt-1 font-mono text-muted-foreground text-sm">
+          <div className="mt-1 break-all font-mono text-muted-foreground text-sm">
             {model.id}
           </div>
         )}
-
         {model.description && (
-          <p className="mt-2 text-muted-foreground leading-relaxed">
+          <p className="mt-2 text-pretty text-muted-foreground leading-relaxed">
             <RenderMarkdown text={model.description} />
           </p>
         )}
-
-        {/* Alias / Snapshots — inline tags */}
         {(model.alias || (model.snapshots && model.snapshots.length > 0)) && (
           <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
             {model.alias && (
@@ -156,8 +157,102 @@ export default async function ModelDetailPage({
           </div>
         )}
       </div>
+    );
+  }
 
-      {/* Key metrics cards */}
+  const changesOverlay = isChanges ? (
+    <OverlayPanel
+      backHref={`/${provider}/${modelId}`}
+      header={
+        <>
+          <ButtonLink href={`/${model.provider}`} variant="ghost" size="icon">
+            <ProviderIcon provider={providerInfo} size={18} />
+          </ButtonLink>
+          <h2 className="flex-1 font-medium text-foreground text-lg tracking-tight">
+            {model.name}
+          </h2>
+          {model.status && model.status !== "active" && (
+            <span className="rounded-full bg-muted px-2 py-0.5 text-muted-foreground text-xs">
+              {model.status}
+            </span>
+          )}
+        </>
+      }
+    >
+      <div className="mb-4 text-muted-foreground text-sm">
+        Changes · {modelChanges.length} entries
+      </div>
+      {modelChanges.length === 0 ? (
+        <p className="text-pretty py-16 text-center text-muted-foreground">
+          No changes recorded for this model.
+        </p>
+      ) : (
+        <div className="space-y-2">
+          {modelChanges.map((entry, i) => (
+            <ChangeEntry
+              key={`${entry.ts}-${i}`}
+              entry={entry}
+              provider={providerInfo}
+              showModel={false}
+            />
+          ))}
+        </div>
+      )}
+    </OverlayPanel>
+  ) : null;
+
+  const inherited = model.inheritedFields;
+  const inh = (field: string) =>
+    inherited?.has(field) ? model.inheritedFrom : undefined;
+
+  const creatorProvider =
+    model.created_by !== model.provider ? getProvider(model.created_by) : null;
+
+  const originalModel = creatorProvider
+    ? allModels.find(
+        (m) =>
+          m.provider === model.created_by &&
+          (m.name === model.name ||
+            normalizeModelId(m.id) === normalizeModelId(model.id) ||
+            normalizeModelId(m.id) === normalizeModelId(model.name)),
+      )
+    : null;
+
+  const familyModels = model.family
+    ? allModels
+        .filter(
+          (m) =>
+            m.family === model.family &&
+            m.provider === model.provider &&
+            !m.alias,
+        )
+        .sort((a, b) => (a.pricing?.input ?? 0) - (b.pricing?.input ?? 0))
+    : [];
+
+  return (
+    <>
+      {renderHeader(
+        <>
+          {modelChanges.length > 0 && (
+            <ButtonLink
+              href={`/${provider}/${modelId}/changes`}
+              variant="default"
+              size="icon"
+              title="Change history"
+            >
+              <History size={14} />
+            </ButtonLink>
+          )}
+          <ModelIdCopy
+            ids={[
+              model.id,
+              ...(model.snapshots ?? []),
+              ...(model.alias ? [model.alias] : []),
+            ]}
+          />
+        </>,
+      )}
+
       <div className="mb-8 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-3 lg:grid-cols-6">
         {model.performance != null && (
           <RatingCard
@@ -195,21 +290,18 @@ export default async function ModelDetailPage({
         />
         <MetricCard
           label="Input price"
-          value={model.pricing?.input != null ? `$${model.pricing.input}` : "—"}
+          value={formatPrice(model.pricing?.input)}
           sub={model.pricing?.input != null ? "/1M tokens" : undefined}
           inheritedFrom={inh("pricing")}
         />
         <MetricCard
           label="Output price"
-          value={
-            model.pricing?.output != null ? `$${model.pricing.output}` : "—"
-          }
+          value={formatPrice(model.pricing?.output)}
           sub={model.pricing?.output != null ? "/1M tokens" : undefined}
           inheritedFrom={inh("pricing")}
         />
       </div>
 
-      {/* Capabilities grid */}
       <div className="mb-4 text-muted-foreground text-sm">Capabilities</div>
       <div className="mb-8 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-4">
         {CAP_KEYS.map((key) => {
@@ -236,7 +328,6 @@ export default async function ModelDetailPage({
         })}
       </div>
 
-      {/* Details */}
       <div className="mb-4 text-muted-foreground text-sm">Details</div>
       <div className="mb-8 grid gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-2">
         <DetailCell
@@ -315,7 +406,6 @@ export default async function ModelDetailPage({
         />
       </div>
 
-      {/* Pricing breakdown */}
       {model.pricing && Object.values(model.pricing).some((v) => v != null) && (
         <>
           <div className="mb-4 text-muted-foreground text-sm">
@@ -331,7 +421,6 @@ export default async function ModelDetailPage({
         </>
       )}
 
-      {/* Family comparison */}
       {familyModels.length > 1 && (
         <>
           <div className="mb-4 text-muted-foreground text-sm">
@@ -345,263 +434,13 @@ export default async function ModelDetailPage({
         </>
       )}
 
-      {/* API */}
       <div className="mb-4 text-muted-foreground text-sm">API</div>
       <ApiEndpoint
         path={`/v1/models/${model.provider}/${model.id}`}
         tryPath={`https://api.ai-model.dev/v1/models/${model.provider}/${model.id}`}
       />
+
+      {changesOverlay}
     </>
-  );
-}
-
-function InheritedBadge({ from }: { from?: string }) {
-  return (
-    <Tooltip content={`Inherited from ${from ?? "official model data"}`}>
-      <span className="inline-flex shrink-0 cursor-help text-muted-foreground/50">
-        <Info size={12} />
-      </span>
-    </Tooltip>
-  );
-}
-
-function MetricCard({
-  label,
-  value,
-  sub,
-  inheritedFrom,
-}: {
-  label: string;
-  value: string;
-  sub?: string;
-  inheritedFrom?: string;
-}) {
-  return (
-    <div className="bg-background px-4 py-3">
-      <div className="flex items-center gap-1 text-muted-foreground text-xs">
-        {label}
-        {inheritedFrom && <InheritedBadge from={inheritedFrom} />}
-      </div>
-      <div className="mt-1 font-medium font-mono text-foreground text-lg">
-        {value}
-      </div>
-      {sub && <div className="text-muted-foreground text-xs">{sub}</div>}
-    </div>
-  );
-}
-
-const SPEED_LABELS = ["", "Very slow", "Slow", "Normal", "Fast", "Very fast"];
-const PERF_LABELS = ["", "Basic", "Good", "Strong", "Excellent", "Frontier"];
-
-function RatingCard({
-  label,
-  value,
-  max,
-  inheritedFrom,
-}: {
-  label: string;
-  value: number;
-  max: number;
-  inheritedFrom?: string;
-}) {
-  const labels = label === "Speed" ? SPEED_LABELS : PERF_LABELS;
-  const description = labels[value] ?? `${value}/${max}`;
-
-  return (
-    <div className="bg-background px-4 py-3">
-      <div className="flex items-center gap-1 text-muted-foreground text-xs">
-        {label}
-        {inheritedFrom && <InheritedBadge from={inheritedFrom} />}
-      </div>
-      <Tooltip content={description}>
-        <div className="mt-2 flex items-center gap-1.5">
-          {Array.from({ length: max }, (_, i) => (
-            <span
-              key={i}
-              className={`h-2.5 w-2.5 rounded-full ${i < value ? "bg-foreground" : "bg-border"}`}
-            />
-          ))}
-        </div>
-      </Tooltip>
-    </div>
-  );
-}
-
-function DetailCell({
-  label,
-  value,
-  href,
-  icon,
-  inheritedFrom,
-}: {
-  label: string;
-  value: string;
-  href?: string;
-  icon?: React.ReactNode;
-  inheritedFrom?: string;
-}) {
-  return (
-    <div className="flex items-center justify-between bg-background px-4 py-2.5 text-sm">
-      <span className="text-muted-foreground">{label}</span>
-      <span className="flex items-center gap-1.5">
-        {href ? (
-          <a
-            href={href}
-            className="flex items-center gap-1.5 text-foreground transition-colors duration-200 hover:text-accent-foreground"
-          >
-            {icon}
-            {value}
-          </a>
-        ) : (
-          <span className="flex items-center gap-1.5 text-foreground">
-            {icon}
-            {value}
-          </span>
-        )}
-        {inheritedFrom && <InheritedBadge from={inheritedFrom} />}
-      </span>
-    </div>
-  );
-}
-
-function PriceCell({ label, value }: { label: string; value?: number | null }) {
-  return (
-    <div className="bg-background px-4 py-3">
-      <div className="text-muted-foreground text-xs">{label}</div>
-      <div className="mt-1 font-medium font-mono text-foreground">
-        {value != null ? `$${value}` : "—"}
-      </div>
-    </div>
-  );
-}
-
-const CAP_BADGES: [string, string][] = [
-  ["reasoning", "R"],
-  ["vision", "V"],
-  ["tool_call", "T"],
-  ["streaming", "S"],
-];
-
-function MiniDots({ value, max = 5 }: { value?: number; max?: number }) {
-  if (value == null) return <span className="text-muted-foreground">—</span>;
-  return (
-    <span className="flex gap-0.5">
-      {Array.from({ length: max }, (_, i) => (
-        <span
-          key={i}
-          className={`h-1.5 w-1.5 rounded-full ${i < value ? "bg-foreground" : "bg-border"}`}
-        />
-      ))}
-    </span>
-  );
-}
-
-function FamilyComparison({
-  models,
-  currentId,
-  provider,
-}: {
-  models: typeof import("@/lib/data").allModels;
-  currentId: string;
-  provider: string;
-}) {
-  return (
-    <div className="mb-8 overflow-x-auto rounded-md ring-1 ring-border">
-      <table className="w-full text-sm">
-        <thead>
-          <tr className="text-muted-foreground text-xs">
-            <th className="px-4 py-2 text-left font-normal">Model</th>
-            <th className="hidden px-3 py-2 text-center font-normal sm:table-cell">
-              Perf
-            </th>
-            <th className="hidden px-3 py-2 text-center font-normal sm:table-cell">
-              Speed
-            </th>
-            <th className="px-3 py-2 text-right font-normal">Context</th>
-            <th className="px-3 py-2 text-right font-normal">Max out</th>
-            <th className="px-3 py-2 text-right font-normal">Input</th>
-            <th className="px-3 py-2 text-right font-normal">Output</th>
-          </tr>
-        </thead>
-        <tbody>
-          {models.map((m) => {
-            const isCurrent = m.id === currentId;
-            const caps = m.capabilities as Record<string, boolean> | undefined;
-            const deprecated = m.status === "deprecated";
-
-            return (
-              <tr
-                key={m.id}
-                className={`border-border border-t ${isCurrent ? "bg-accent" : ""} ${deprecated ? "opacity-50" : ""}`}
-              >
-                {/* Name + caps */}
-                <td className="px-4 py-2.5">
-                  <div className="flex items-center gap-2">
-                    {isCurrent ? (
-                      <span className="font-medium text-foreground">
-                        {m.name}
-                      </span>
-                    ) : (
-                      <a
-                        href={`/${provider}/${m.id}`}
-                        className="text-foreground transition-colors duration-200 hover:text-accent-foreground"
-                      >
-                        {m.name}
-                      </a>
-                    )}
-                    <span className="flex gap-0.5">
-                      {CAP_BADGES.map(([key, letter]) =>
-                        caps?.[key] ? (
-                          <span
-                            key={key}
-                            className="flex h-3.5 w-3.5 items-center justify-center rounded bg-muted text-[9px] text-muted-foreground"
-                          >
-                            {letter}
-                          </span>
-                        ) : null,
-                      )}
-                    </span>
-                  </div>
-                </td>
-
-                {/* Performance */}
-                <td className="hidden px-3 py-2.5 sm:table-cell">
-                  <MiniDots value={m.performance} />
-                </td>
-
-                {/* Speed */}
-                <td className="hidden px-3 py-2.5 sm:table-cell">
-                  <MiniDots value={m.speed} />
-                </td>
-
-                {/* Context */}
-                <td className="px-3 py-2.5 text-right font-mono text-muted-foreground text-xs tabular-nums">
-                  {m.context_window != null
-                    ? formatTokens(m.context_window)
-                    : "—"}
-                </td>
-
-                {/* Max output */}
-                <td className="px-3 py-2.5 text-right font-mono text-muted-foreground text-xs tabular-nums">
-                  {m.max_output_tokens != null
-                    ? formatTokens(m.max_output_tokens)
-                    : "—"}
-                </td>
-
-                {/* Input price */}
-                <td className="px-3 py-2.5 text-right font-mono text-foreground tabular-nums">
-                  {m.pricing?.input != null ? `$${m.pricing.input}` : "—"}
-                </td>
-
-                {/* Output price */}
-                <td className="px-3 py-2.5 text-right font-mono text-muted-foreground tabular-nums">
-                  {m.pricing?.output != null ? `$${m.pricing.output}` : "—"}
-                </td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
-    </div>
   );
 }

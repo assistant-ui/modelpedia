@@ -1,9 +1,17 @@
 "use client";
 
-import { Command } from "cmdk";
 import { Search } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
+import {
+  Command,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+} from "@/components/ui/command";
+import { OFFICIAL_PROVIDERS } from "@/lib/constants";
 
 interface SearchItem {
   type: "model" | "provider" | "page";
@@ -76,13 +84,6 @@ export function CommandPalette({
     return providers.filter((p) => p.name.toLowerCase().includes(q));
   }, [query, providers]);
 
-  // Official/direct providers rank higher than aggregators
-  const OFFICIAL_PROVIDERS = new Set([
-    "openai", "anthropic", "google", "mistral", "deepseek", "xai",
-    "cohere", "meta", "zhipu", "minimax", "alibaba", "qwen",
-  ]);
-
-  // Only search models when query is 2+ chars
   const filteredModels = useMemo(() => {
     if (query.length < 2) return [];
     const q = query.toLowerCase();
@@ -92,10 +93,8 @@ export function CommandPalette({
       if (target.includes(q)) {
         let score =
           target.indexOf(q) === 0 ? 20 : target.includes(` ${q}`) ? 10 : 0;
-        // Boost official providers
         const provider = m.href.split("/")[1];
         if (OFFICIAL_PROVIDERS.has(provider)) score += 5;
-        // Boost exact name match
         if (m.name.toLowerCase() === q) score += 30;
         results.push({ item: m, score });
       }
@@ -111,22 +110,24 @@ export function CommandPalette({
     setTimeout(() => router.push(href), 200);
   }
 
+  const hasResults =
+    filteredPages.length > 0 ||
+    filteredProviders.length > 0 ||
+    filteredModels.length > 0;
+
   return (
     <>
       <button
         type="button"
         onClick={open}
-        className="flex items-center gap-2 rounded-md px-2 py-1 text-muted-foreground text-xs transition-colors duration-200 hover:text-foreground"
+        className="inline-flex items-center justify-center rounded-md p-1 text-muted-foreground transition-colors duration-200 hover:bg-accent hover:text-foreground"
       >
-        <Search size={14} />
-        <kbd className="hidden rounded border border-border px-1.5 py-0.5 font-mono text-[10px] text-muted-foreground sm:inline">
-          ⌘K
-        </kbd>
+        <Search size={16} />
       </button>
 
       {mounted && (
         <div
-          className="fixed inset-0 z-50 flex items-start justify-center pt-[20vh]"
+          className="fixed inset-0 z-50 flex items-center justify-center"
           onClick={close}
         >
           <div
@@ -136,57 +137,37 @@ export function CommandPalette({
             className={`relative mx-4 w-full max-w-lg transition-all duration-200 ${visible ? "scale-100 opacity-100" : "scale-95 opacity-0"}`}
             onClick={(e) => e.stopPropagation()}
           >
-            <Command
-              className="overflow-hidden rounded-lg bg-background shadow-2xl ring-1 ring-border"
-              shouldFilter={false}
-            >
-              <div className="flex items-center border-border border-b px-3">
-                <Search size={14} className="shrink-0 text-muted-foreground" />
-                <Command.Input
-                  placeholder="Search models, providers..."
-                  className="flex-1 bg-transparent px-3 py-3 text-foreground text-sm placeholder-muted-foreground outline-none"
-                  value={query}
-                  onValueChange={setQuery}
-                  autoFocus
-                />
-              </div>
-              <Command.List className="h-72 overflow-y-auto p-2">
-                {query.length > 0 &&
-                  filteredModels.length === 0 &&
-                  filteredProviders.length === 0 &&
-                  filteredPages.length === 0 && (
-                    <div className="flex h-full items-center justify-center text-muted-foreground text-xs">
-                      No results found.
-                    </div>
-                  )}
+            <Command shouldFilter={false}>
+              <CommandInput
+                placeholder="Search models, providers..."
+                value={query}
+                onValueChange={setQuery}
+                autoFocus
+              />
+              <CommandList>
+                {query.length > 0 && !hasResults && (
+                  <CommandEmpty>No results found.</CommandEmpty>
+                )}
 
                 {!query && (
                   <>
-                    <Command.Group
-                      heading="Pages"
-                      className="[&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-muted-foreground [&_[cmdk-group-heading]]:text-xs"
-                    >
+                    <CommandGroup heading="Pages">
                       {pages.map((item) => (
-                        <Command.Item
+                        <CommandItem
                           key={item.id}
                           value={item.name}
                           onSelect={() => select(item.href)}
-                          className="flex cursor-pointer items-center gap-2 rounded-md px-2 py-2 text-foreground text-sm aria-selected:bg-accent"
                         >
                           {item.name}
-                        </Command.Item>
+                        </CommandItem>
                       ))}
-                    </Command.Group>
-                    <Command.Group
-                      heading="Providers"
-                      className="[&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-muted-foreground [&_[cmdk-group-heading]]:text-xs"
-                    >
+                    </CommandGroup>
+                    <CommandGroup heading="Providers">
                       {providers.map((item) => (
-                        <Command.Item
+                        <CommandItem
                           key={item.id}
                           value={item.name}
                           onSelect={() => select(item.href)}
-                          className="flex cursor-pointer items-center gap-2 rounded-md px-2 py-2 text-sm aria-selected:bg-accent"
                         >
                           {item.icon && (
                             <span
@@ -194,42 +175,34 @@ export function CommandPalette({
                               dangerouslySetInnerHTML={{ __html: item.icon }}
                             />
                           )}
-                          <span className="text-foreground">{item.name}</span>
-                        </Command.Item>
+                          {item.name}
+                        </CommandItem>
                       ))}
-                    </Command.Group>
+                    </CommandGroup>
                   </>
                 )}
 
                 {filteredPages.length > 0 && (
-                  <Command.Group
-                    heading="Pages"
-                    className="[&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-muted-foreground [&_[cmdk-group-heading]]:text-xs"
-                  >
+                  <CommandGroup heading="Pages">
                     {filteredPages.map((item) => (
-                      <Command.Item
+                      <CommandItem
                         key={item.id}
                         value={item.name}
                         onSelect={() => select(item.href)}
-                        className="flex cursor-pointer items-center gap-2 rounded-md px-2 py-2 text-foreground text-sm aria-selected:bg-accent"
                       >
                         {item.name}
-                      </Command.Item>
+                      </CommandItem>
                     ))}
-                  </Command.Group>
+                  </CommandGroup>
                 )}
 
                 {filteredProviders.length > 0 && (
-                  <Command.Group
-                    heading="Providers"
-                    className="[&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-muted-foreground [&_[cmdk-group-heading]]:text-xs"
-                  >
+                  <CommandGroup heading="Providers">
                     {filteredProviders.map((item) => (
-                      <Command.Item
+                      <CommandItem
                         key={item.id}
                         value={item.name}
                         onSelect={() => select(item.href)}
-                        className="flex cursor-pointer items-center gap-2 rounded-md px-2 py-2 text-sm aria-selected:bg-accent"
                       >
                         {item.icon && (
                           <span
@@ -237,23 +210,19 @@ export function CommandPalette({
                             dangerouslySetInnerHTML={{ __html: item.icon }}
                           />
                         )}
-                        <span className="text-foreground">{item.name}</span>
-                      </Command.Item>
+                        {item.name}
+                      </CommandItem>
                     ))}
-                  </Command.Group>
+                  </CommandGroup>
                 )}
 
                 {filteredModels.length > 0 && (
-                  <Command.Group
-                    heading="Models"
-                    className="[&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-muted-foreground [&_[cmdk-group-heading]]:text-xs"
-                  >
+                  <CommandGroup heading="Models">
                     {filteredModels.map((item) => (
-                      <Command.Item
+                      <CommandItem
                         key={item.id}
                         value={item.id}
                         onSelect={() => select(item.href)}
-                        className="flex cursor-pointer items-center gap-2 rounded-md px-2 py-2 text-sm aria-selected:bg-accent"
                       >
                         {item.icon && (
                           <span
@@ -261,17 +230,17 @@ export function CommandPalette({
                             dangerouslySetInnerHTML={{ __html: item.icon }}
                           />
                         )}
-                        <span className="min-w-0 flex-1 truncate text-foreground">
+                        <span className="min-w-0 flex-1 truncate">
                           {item.name}
                         </span>
                         <span className="shrink-0 font-mono text-muted-foreground text-xs">
                           {item.sub}
                         </span>
-                      </Command.Item>
+                      </CommandItem>
                     ))}
-                  </Command.Group>
+                  </CommandGroup>
                 )}
-              </Command.List>
+              </CommandList>
             </Command>
           </div>
         </div>
