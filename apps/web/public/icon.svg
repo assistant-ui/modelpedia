@@ -1,22 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
   <style>
-    rect { fill: #e8e8ed; }
-    g { stroke: #0c0c0e; }
+    .s { stroke: #0c0c0e; }
+    .f { fill: #0c0c0e; }
     @media (prefers-color-scheme: dark) {
-      rect { fill: #e8e8ed; }
-      g { stroke: #0c0c0e; }
-    }
-    @media (prefers-color-scheme: light) {
-      rect { fill: #141416; }
-      g { stroke: #fafafa; }
+      .s { stroke: #e8e8ed; }
+      .f { fill: #e8e8ed; }
     }
   </style>
-  <rect width="32" height="32" rx="6"/>
-  <g stroke-linecap="round" stroke-linejoin="round">
-    <line x1="7" y1="25" x2="19" y2="7" stroke-width="2.6"/>
-    <line x1="19" y1="7" x2="19" y2="25" stroke-width="2.6"/>
-    <line x1="12" y1="18" x2="19" y2="18" stroke-width="2.2"/>
-    <line x1="16" y1="7" x2="25" y2="7" stroke-width="2.2"/>
-    <line x1="16" y1="25" x2="25" y2="25" stroke-width="2.2"/>
+  <defs>
+    <clipPath id="g">
+      <circle cx="16" cy="16" r="14"/>
+    </clipPath>
+  </defs>
+  <circle cx="16" cy="16" r="14" class="s" stroke-width="1.8" fill="none"/>
+  <g clip-path="url(#g)" transform="rotate(-20 16 16)">
+    <ellipse cx="16" cy="16" rx="5.5" ry="14" class="s" stroke-width="1.5" fill="none"/>
+    <ellipse cx="16" cy="16" rx="14" ry="5" class="s" stroke-width="1.5" fill="none"/>
+    <circle cx="11" cy="11.5" r="1.5" class="f"/>
+    <circle cx="21" cy="11.5" r="1.5" class="f"/>
+    <circle cx="11" cy="20.5" r="1.5" class="f"/>
+    <circle cx="21" cy="20.5" r="1.5" class="f"/>
   </g>
 </svg>
