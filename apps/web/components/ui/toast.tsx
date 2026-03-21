@@ -1,12 +1,12 @@
 "use client";
 
 import { Toast } from "@base-ui/react/toast";
+import type { ReactNode } from "react";
+import { cn } from "@/lib/cn";
 
 const toastManager = Toast.createToastManager();
 
-export { toastManager };
-
-export function ToastProvider({ children }: { children: React.ReactNode }) {
+function ToastProvider({ children }: { children: ReactNode }) {
   return (
     <Toast.Provider toastManager={toastManager}>
       {children}
@@ -25,7 +25,11 @@ function Toasts() {
           <Toast.Root
             key={toast.id}
             toast={toast}
-            className="rounded-md bg-foreground px-4 py-2 text-background text-sm shadow-lg transition-all duration-200 data-[ending-style]:-translate-y-2 data-[starting-style]:-translate-y-2 data-[ending-style]:opacity-0 data-[starting-style]:opacity-0"
+            className={cn(
+              "rounded-md bg-foreground px-4 py-2 text-background text-sm shadow-lg transition-all duration-200",
+              "data-[ending-style]:-translate-y-2 data-[ending-style]:opacity-0",
+              "data-[starting-style]:-translate-y-2 data-[starting-style]:opacity-0",
+            )}
           >
             <Toast.Content>
               {toast.title && (
@@ -41,3 +45,5 @@ function Toasts() {
     </Toast.Portal>
   );
 }
+
+export { ToastProvider, toastManager };
