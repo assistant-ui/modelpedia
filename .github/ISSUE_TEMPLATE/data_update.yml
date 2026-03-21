@@ -1,0 +1,23 @@
+name: Data Update
+description: Report incorrect, outdated, or missing model data
+labels: ["data"]
+body:
+  - type: input
+    id: provider
+    attributes:
+      label: Provider
+      placeholder: e.g. openai, anthropic
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model ID
+      placeholder: e.g. gpt-4o, claude-opus-4-6
+  - type: textarea
+    id: description
+    attributes:
+      label: What needs to change?
+      description: Include a source link if possible (official docs, API response, etc.)
+    validations:
+      required: true

@@ -2,6 +2,11 @@
   "name": "@modelpedia/root",
   "version": "0.0.0",
   "private": true,
+  "description": "Open catalog of AI models across providers. Compare specs, pricing, and capabilities.",
+  "homepage": "https://modelpedia.dev",
+  "bugs": {
+    "url": "https://github.com/assistant-ui/modelpedia/issues"
+  },
   "scripts": {
     "dev": "turbo dev",
     "dev:web": "pnpm --filter @modelpedia/web dev",
@@ -23,7 +28,7 @@
     "type": "git",
     "url": "https://github.com/assistant-ui/modelpedia"
   },
-  "author": "assistant-ui",
+  "author": "AgentbaseAI Inc.",
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "^2.4.8",
