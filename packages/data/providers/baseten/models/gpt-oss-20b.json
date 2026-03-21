@@ -7,5 +7,10 @@
   "family": "gpt-oss",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "0f95b22f",
+    "family": "82d0cb0b",
+    "capabilities": "0fa77dc6"
   }
 }

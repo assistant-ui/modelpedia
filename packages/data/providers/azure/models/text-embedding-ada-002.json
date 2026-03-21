@@ -12,5 +12,14 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "model_type": "embed",
+  "_generated": {
+    "name": "46c23e4a",
+    "model_type": "764cb3de",
+    "max_output_tokens": "b5a1fc20",
+    "knowledge_cutoff": "b61a1a89",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
   }
 }

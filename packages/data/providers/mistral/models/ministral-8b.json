@@ -20,5 +20,15 @@
     "output": 0.15
   },
   "snapshots": ["ministral-8b-2512", "ministral-8b-2410"],
-  "deprecation_date": "2025-12-02"
+  "deprecation_date": "2025-12-02",
+  "_generated": {
+    "name": "f8200074",
+    "status": "2e2f74dc",
+    "context_window": "34434798",
+    "deprecation_date": "75f289bd",
+    "family": "d6661e63",
+    "pricing": "16a72b67",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  }
 }

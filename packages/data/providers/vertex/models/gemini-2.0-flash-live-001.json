@@ -14,5 +14,15 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "successor": "gemini-2.5-flash-native-audio-preview-12-2025",
+  "_generated": {
+    "name": "db521d8b",
+    "status": "2e2f74dc",
+    "deprecation_date": "c41dad30",
+    "successor": "271a10ba",
+    "family": "dc4aadf6",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
   }
 }

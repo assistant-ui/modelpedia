@@ -12,5 +12,12 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "model_type": "image",
+  "_generated": {
+    "name": "66cbbb70",
+    "model_type": "db8857fe",
+    "capabilities": "1a260abc",
+    "modalities": "6399757e"
   }
 }

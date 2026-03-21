@@ -7,5 +7,9 @@
   "capabilities": {
     "streaming": true
   },
-  "snapshots": ["swiss-ai/Apertus-8B-Instruct-2509"]
+  "snapshots": ["swiss-ai/Apertus-8B-Instruct-2509"],
+  "_generated": {
+    "name": "69e7baf5",
+    "capabilities": "0fa77dc6"
+  }
 }

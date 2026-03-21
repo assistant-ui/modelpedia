@@ -3,7 +3,7 @@
   "name": "command-light-nightly",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "description": "N/A",
   "status": "active",
   "capabilities": {
@@ -12,5 +12,14 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "tagline": "N/A",
+  "_generated": {
+    "name": "2b397f22",
+    "description": "4c512595",
+    "tagline": "4c512595",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
   }
 }

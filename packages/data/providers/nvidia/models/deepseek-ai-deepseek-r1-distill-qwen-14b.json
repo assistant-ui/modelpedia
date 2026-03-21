@@ -8,5 +8,10 @@
   "capabilities": {
     "streaming": true,
     "reasoning": true
+  },
+  "_generated": {
+    "name": "54a4d5d9",
+    "family": "c74cfb8e",
+    "capabilities": "b011c6b4"
   }
 }

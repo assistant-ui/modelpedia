@@ -1,0 +1,29 @@
+{
+  "id": "text-moderation-007",
+  "name": "text-moderation-007",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "knowledge_cutoff": "2021-08",
+  "max_output_tokens": 32768,
+  "model_type": "moderation",
+  "performance": 2,
+  "speed": 3,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["moderation"],
+  "_generated": {
+    "name": "664b5359",
+    "status": "379ac110",
+    "model_type": "1e7a7b87",
+    "max_output_tokens": "f4376436",
+    "knowledge_cutoff": "4778f833",
+    "performance": "c81e728d",
+    "speed": "eccbc87e",
+    "modalities": "68e53d93",
+    "endpoints": "edf79423"
+  }
+}

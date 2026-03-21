@@ -14,5 +14,13 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "snapshots": ["mistral-saba-2502"]
+  "snapshots": ["mistral-saba-2502"],
+  "_generated": {
+    "name": "27f7c201",
+    "status": "2e2f74dc",
+    "context_window": "10e4d788",
+    "deprecation_date": "298b4e52",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  }
 }

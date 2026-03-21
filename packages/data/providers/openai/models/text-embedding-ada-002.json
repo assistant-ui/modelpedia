@@ -1,0 +1,50 @@
+{
+  "id": "text-embedding-ada-002",
+  "name": "text-embedding-ada-002",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "text-embedding-ada-002 is our improved, more performant version of our ada embedding model.",
+  "status": "active",
+  "model_type": "embed",
+  "performance": 1,
+  "speed": 2,
+  "tagline": "Older embedding model",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Embeddings",
+        "unit": "",
+        "columns": ["Cost"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.1]
+          },
+          {
+            "label": "Batch",
+            "values": [0.05]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["embeddings", "batch"],
+  "snapshots": ["text-embedding-ada-002"],
+  "_generated": {
+    "name": "46c23e4a",
+    "description": "268b683d",
+    "tagline": "3c0c8cf6",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "performance": "c4ca4238",
+    "speed": "c81e728d",
+    "pricing": "9c51fb62",
+    "modalities": "68e53d93",
+    "endpoints": "fc976575"
+  }
+}

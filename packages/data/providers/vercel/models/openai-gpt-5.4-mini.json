@@ -15,5 +15,12 @@
   "pricing": {
     "input": 0.75,
     "output": 4.5
+  },
+  "_generated": {
+    "name": "fc299aa2",
+    "context_window": "2a3a2d28",
+    "family": "4651e8f0",
+    "pricing": "0b3f9064",
+    "capabilities": "a19166f1"
   }
 }

@@ -1,17 +1,23 @@
 {
   "id": "gpt-4o-search-preview",
-  "name": "gpt-4o-search-preview",
+  "name": "GPT-4o Search Preview",
   "created_by": "openai",
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-4o",
   "description": "GPT-4o Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 128000,
   "max_output_tokens": 16384,
-  "model_type": "other",
   "performance": 3,
   "speed": 3,
+  "tagline": "GPT model for web search in Chat Completions",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "structured_output": true
+  },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -19,12 +25,36 @@
   "pricing": {
     "input": 2.5,
     "output": 10,
-    "cached_input": 1.25,
-    "batch_input": 1.25,
-    "batch_output": 5
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2.5, null, 10]
+          }
+        ]
+      }
+    ]
   },
-  "capabilities": {
-    "structured_output": true
-  },
-  "snapshots": ["gpt-4o-search-preview-2025-03-11"]
+  "endpoints": ["chat_completions"],
+  "snapshots": ["gpt-4o-search-preview-2025-03-11"],
+  "_generated": {
+    "name": "1d367964",
+    "description": "506174d8",
+    "tagline": "d8fb6618",
+    "status": "379ac110",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "eccbc87e",
+    "speed": "eccbc87e",
+    "family": "15249632",
+    "pricing": "1cf58f40",
+    "capabilities": "66baa213",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  }
 }

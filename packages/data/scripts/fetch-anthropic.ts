@@ -348,6 +348,9 @@ async function main() {
     const b = findBatch(spec.name);
     const apiModel = apiModels.get(id);
 
+    const tools: string[] = ["function_calling"];
+    if (spec.extended_thinking) tools.push("computer_use", "mcp");
+
     const entry: ModelEntry = {
       id,
       name: spec.name,
@@ -365,6 +368,8 @@ async function main() {
         tool_call: true,
         ...(spec.extended_thinking ? { reasoning: true } : {}),
       },
+      tools,
+      endpoints: ["messages"],
       ...extra,
     };
 
@@ -434,6 +439,8 @@ async function main() {
       family: inferFamily(id),
       modalities: { input: ["text", "image"], output: ["text"] },
       capabilities: { streaming: true, vision: true, tool_call: true },
+      tools: ["function_calling"],
+      endpoints: ["messages"],
       pricing: {
         input: p.input,
         output: p.output,

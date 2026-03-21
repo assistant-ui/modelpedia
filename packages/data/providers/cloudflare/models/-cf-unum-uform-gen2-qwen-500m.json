@@ -1,0 +1,14 @@
+{
+  "id": "@cf/unum/uform-gen2-qwen-500m",
+  "name": "uform-gen2-qwen-500m",
+  "created_by": "unum",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "a4856b00",
+    "capabilities": "0fa77dc6"
+  }
+}

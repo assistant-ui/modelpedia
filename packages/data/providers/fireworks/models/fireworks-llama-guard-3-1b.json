@@ -12,5 +12,14 @@
   "pricing": {
     "input": 1,
     "output": 1
+  },
+  "model_type": "moderation",
+  "_generated": {
+    "name": "fea99280",
+    "model_type": "1e7a7b87",
+    "context_window": "a683b9ae",
+    "family": "3190be28",
+    "pricing": "5418a9a1",
+    "capabilities": "0fa77dc6"
   }
 }

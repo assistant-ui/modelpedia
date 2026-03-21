@@ -1,0 +1,73 @@
+{
+  "name": "modelpedia",
+  "version": "0.0.4",
+  "description": "Open catalog of AI model data — specs, pricing, and capabilities across 30+ providers and 2000+ models",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./*": {
+      "import": {
+        "types": "./dist/providers/*.d.mts",
+        "default": "./dist/providers/*.mjs"
+      },
+      "require": {
+        "types": "./dist/providers/*.d.cts",
+        "default": "./dist/providers/*.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "generate": "bun ../data/scripts/generate.ts",
+    "prebuild": "bun run generate",
+    "build": "tsdown",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "ai",
+    "model",
+    "llm",
+    "openai",
+    "anthropic",
+    "google",
+    "gemini",
+    "claude",
+    "gpt",
+    "pricing",
+    "catalog",
+    "compare"
+  ],
+  "author": "AgentbaseAI Inc.",
+  "license": "MIT",
+  "homepage": "https://modelpedia.dev",
+  "bugs": {
+    "url": "https://github.com/assistant-ui/modelpedia/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/assistant-ui/modelpedia",
+    "directory": "packages/npm"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tsdown": "^0.21.4",
+    "typescript": "catalog:"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "embed-v4.0",
+  "name": "embed-v4.0",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Unique per deployment",
+  "status": "active",
+  "context_window": 128000,
+  "model_type": "embed",
+  "tagline": "Text, Images, Mixed texts/images (i.e.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "ebc5ed94",
+    "description": "4f68c471",
+    "tagline": "438023f6",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "34434798",
+    "capabilities": "8a3b232e",
+    "modalities": "68e53d93"
+  }
+}

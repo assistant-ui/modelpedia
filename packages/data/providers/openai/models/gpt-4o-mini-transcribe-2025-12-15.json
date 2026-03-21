@@ -6,8 +6,10 @@
   "last_updated": "2026-03-21",
   "family": "gpt-4o",
   "status": "active",
+  "knowledge_cutoff": "2024-05",
   "context_window": 16000,
   "max_output_tokens": 2000,
+  "model_type": "transcription",
   "alias": "gpt-4o-mini-transcribe",
   "performance": 3,
   "speed": 4,
@@ -15,13 +17,51 @@
     "input": ["audio", "text"],
     "output": ["text"]
   },
-  "pricing": {
-    "input": 2.5,
-    "output": 10,
-    "cached_input": 1.25,
-    "batch_input": 1.25,
-    "batch_output": 5
+  "endpoints": ["transcription", "realtime"],
+  "_generated": {
+    "name": "8ea65262",
+    "description": "72014020",
+    "tagline": "72014020",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "context_window": "67510c89",
+    "max_output_tokens": "08f90c1a",
+    "knowledge_cutoff": "1d431428",
+    "performance": "eccbc87e",
+    "speed": "a87ff679",
+    "family": "15249632",
+    "pricing": "f37c4235",
+    "modalities": "7cee5e0e",
+    "endpoints": "250917d3"
   },
   "description": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
-  "model_type": "other"
+  "tagline": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Estimated cost"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.25, 5, 0.003]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Estimated cost"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [3, null, 0.003]
+          }
+        ]
+      }
+    ],
+    "input": 1.25,
+    "output": 5
+  }
 }

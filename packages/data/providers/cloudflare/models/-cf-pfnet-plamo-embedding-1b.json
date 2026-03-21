@@ -1,0 +1,16 @@
+{
+  "id": "@cf/pfnet/plamo-embedding-1b",
+  "name": "plamo-embedding-1b",
+  "created_by": "pfnet",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "e45539fb",
+    "model_type": "764cb3de",
+    "capabilities": "0fa77dc6"
+  }
+}

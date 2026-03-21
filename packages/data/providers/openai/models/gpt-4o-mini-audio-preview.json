@@ -1,17 +1,23 @@
 {
   "id": "gpt-4o-mini-audio-preview",
-  "name": "gpt-4o-mini-audio-preview",
+  "name": "GPT-4o mini Audio",
   "created_by": "openai",
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-4o",
   "description": "This is a preview release of the smaller GPT-4o Audio mini model. It's designed to input audio or create audio outputs via the REST API.",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 128000,
   "max_output_tokens": 16384,
   "model_type": "chat",
   "performance": 2,
   "speed": 4,
+  "tagline": "Smaller model capable of audio inputs and outputs",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
   "modalities": {
     "input": ["text", "audio"],
     "output": ["text", "audio"]
@@ -19,9 +25,50 @@
   "pricing": {
     "input": 0.15,
     "output": 0.6,
-    "cached_input": 1.25,
-    "batch_input": 1.25,
-    "batch_output": 5
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.15, null, 0.6]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [10, null, 20]
+          }
+        ]
+      }
+    ]
   },
-  "snapshots": ["gpt-4o-mini-audio-preview-2024-12-17"]
+  "tools": ["web_search", "file_search", "code_interpreter", "mcp"],
+  "endpoints": ["chat_completions"],
+  "snapshots": ["gpt-4o-mini-audio-preview-2024-12-17"],
+  "_generated": {
+    "name": "070b0f97",
+    "description": "e16b5473",
+    "tagline": "f8a28d60",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "c81e728d",
+    "speed": "a87ff679",
+    "family": "15249632",
+    "pricing": "688cb68b",
+    "capabilities": "48995a4e",
+    "modalities": "cf05925d",
+    "tools": "bb91d170",
+    "endpoints": "d8fa1080"
+  }
 }

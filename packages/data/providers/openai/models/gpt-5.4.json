@@ -1,15 +1,21 @@
 {
   "id": "gpt-5.4",
-  "name": "gpt-5.4",
+  "name": "GPT-5.4",
   "created_by": "openai",
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-5.4",
   "description": "GPT-5.4 is our frontier model for complex professional work.",
   "status": "active",
+  "knowledge_cutoff": "2025-08",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
   "model_type": "reasoning",
+  "reasoning_tokens": true,
   "performance": 5,
+  "reasoning": 5,
   "speed": 3,
+  "tagline": "Best intelligence at scale for agentic, coding, and professional workflows",
   "capabilities": {
     "streaming": true,
     "vision": true,
@@ -26,9 +32,70 @@
     "output": 15,
     "cached_input": 0.25,
     "batch_input": 1.25,
-    "batch_output": 7.5
+    "batch_output": 7.5,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2.5, 0.25, 15]
+          },
+          {
+            "label": "Batch",
+            "values": [1.25, 0.13, 7.5]
+          },
+          {
+            "label": "Flex",
+            "values": [1.25, 0.13, 7.5]
+          },
+          {
+            "label": "Priority",
+            "values": [5, 0.5, 30]
+          }
+        ]
+      }
+    ]
   },
-  "context_window": 1050000,
-  "max_output_tokens": 128000,
-  "snapshots": ["gpt-5.4-2026-03-05"]
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "tool_search",
+    "image_generation",
+    "code_interpreter",
+    "hosted_shell",
+    "apply_patch",
+    "skills",
+    "computer_use",
+    "mcp"
+  ],
+  "endpoints": ["responses", "chat_completions", "batch"],
+  "pricing_notes": [
+    "For models with a 1.05M context window (GPT-5.4 and GPT-5.4 pro), prompts with >272K input tokens are priced at 2x input and 1.5x output for the full session for standard, batch, and flex.",
+    "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 and GPT-5.4 pro."
+  ],
+  "snapshots": ["gpt-5.4-2026-03-05"],
+  "_generated": {
+    "name": "270255f2",
+    "description": "d4da0a8e",
+    "tagline": "563a3420",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "knowledge_cutoff": "5549a2cd",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "eccbc87e",
+    "family": "4651e8f0",
+    "reasoning_tokens": "b326b506",
+    "pricing": "87b7bc75",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "tools": "44af6f15",
+    "endpoints": "88e8abb4"
+  }
 }

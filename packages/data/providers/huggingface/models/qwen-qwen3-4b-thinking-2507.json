@@ -7,5 +7,9 @@
   "alias": "Qwen/Qwen3-4B-Thinking",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "c3e234be",
+    "capabilities": "0fa77dc6"
   }
 }

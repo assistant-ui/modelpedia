@@ -7,5 +7,9 @@
   "modalities": {
     "input": ["text"],
     "output": ["video"]
+  },
+  "_generated": {
+    "name": "41404461",
+    "modalities": "94e5e9ab"
   }
 }

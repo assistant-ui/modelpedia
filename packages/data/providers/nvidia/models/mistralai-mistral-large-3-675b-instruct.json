@@ -9,5 +9,10 @@
     "streaming": true,
     "tool_call": true
   },
-  "snapshots": ["mistralai/mistral-large-3-675b-instruct-2512"]
+  "snapshots": ["mistralai/mistral-large-3-675b-instruct-2512"],
+  "_generated": {
+    "name": "5953e9bc",
+    "family": "70f9d51d",
+    "capabilities": "48995a4e"
+  }
 }

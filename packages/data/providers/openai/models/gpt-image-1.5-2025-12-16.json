@@ -1,0 +1,81 @@
+{
+  "id": "gpt-image-1.5-2025-12-16",
+  "name": "gpt-image-1.5-2025-12-16",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-image-1.5",
+  "description": "GPT Image 1.5 is our latest image generation model, with better instruction following and adherence to prompts. Learn more in our [GPT Image 1.5 usage guide](/api/docs/guides/image-generation).",
+  "status": "active",
+  "model_type": "image",
+  "alias": "gpt-image-1.5",
+  "performance": 5,
+  "speed": 3,
+  "tagline": "GPT Image 1.5 is our latest image generation model, with better instruction following and adherence to prompts.",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image", "text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 10,
+    "cached_input": 1.25,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 1.25, 10]
+          }
+        ]
+      },
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [8, 2, 32]
+          }
+        ]
+      },
+      {
+        "label": "Image generation",
+        "unit": "Per image",
+        "columns": ["Quality", "1024x1024", "1024x1536", "1536x1024"],
+        "rows": [
+          {
+            "label": "Low",
+            "values": [null, 0.009, 0.013, 0.013]
+          },
+          {
+            "label": "Medium",
+            "values": [null, 0.034, 0.05, 0.05]
+          },
+          {
+            "label": "High",
+            "values": [null, 0.133, 0.2, 0.2]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["batch", "image_generation", "image_edit"],
+  "_generated": {
+    "name": "69175a19",
+    "description": "c8398602",
+    "tagline": "d1d7ff5d",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "family": "864c34a6",
+    "pricing": "f27acd82",
+    "modalities": "996cb582",
+    "endpoints": "af128fc0"
+  }
+}

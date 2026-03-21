@@ -21,5 +21,16 @@
     "batch_input": 1.5,
     "batch_output": 7.5,
     "cache_write": 3.75
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["messages"],
+  "_generated": {
+    "name": "6cdc7d2b",
+    "family": "68d1c457",
+    "pricing": "399ad924",
+    "capabilities": "fc36814c",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e",
+    "endpoints": "94bb8b7a"
   }
 }

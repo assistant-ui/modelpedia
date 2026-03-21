@@ -5,23 +5,47 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "o1",
-  "description": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
   "status": "deprecated",
+  "knowledge_cutoff": "2023-09",
   "context_window": 128000,
   "max_output_tokens": 32768,
   "model_type": "reasoning",
+  "reasoning_tokens": true,
   "performance": 3,
+  "reasoning": 3,
   "speed": 1,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
+  "endpoints": ["chat_completions", "assistants"],
   "snapshots": ["o1-preview-2024-09-12"],
-  "pricing": {
-    "input": 15,
-    "output": 60,
-    "cached_input": 7.5,
-    "batch_input": 7.5,
-    "batch_output": 30
-  }
+  "_generated": {
+    "name": "aa58b744",
+    "description": "f5e9182d",
+    "tagline": "ce167a6e",
+    "status": "2e2f74dc",
+    "model_type": "17475f7f",
+    "context_window": "34434798",
+    "max_output_tokens": "f4376436",
+    "knowledge_cutoff": "7b971392",
+    "performance": "eccbc87e",
+    "reasoning": "eccbc87e",
+    "speed": "c4ca4238",
+    "successor": "e1ab0820",
+    "family": "e1ab0820",
+    "reasoning_tokens": "b326b506",
+    "capabilities": "0946b777",
+    "modalities": "68e53d93",
+    "endpoints": "6558e44b"
+  },
+  "description": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
+  "tagline": "Preview of our first o-series reasoning model",
+  "successor": "o1"
 }

@@ -11,5 +11,11 @@
   "pricing": {
     "input": 0.034,
     "output": 0.03
+  },
+  "_generated": {
+    "name": "a1fc10aa",
+    "context_window": "10e4d788",
+    "pricing": "f526fc24",
+    "capabilities": "0fa77dc6"
   }
 }

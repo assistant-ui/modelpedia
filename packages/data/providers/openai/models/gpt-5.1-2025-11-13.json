@@ -5,15 +5,24 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-5.1",
+  "description": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.",
   "status": "active",
+  "knowledge_cutoff": "2024-09",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
   "alias": "gpt-5.1",
   "performance": 4,
+  "reasoning": 4,
   "speed": 3,
+  "tagline": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.",
   "capabilities": {
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -24,10 +33,51 @@
     "output": 10,
     "cached_input": 0.125,
     "batch_input": 0.625,
-    "batch_output": 5
+    "batch_output": 5,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.25, 0.125, 10]
+          },
+          {
+            "label": "Batch",
+            "values": [0.625, 0.0625, 5]
+          },
+          {
+            "label": "Flex",
+            "values": [0.625, 0.0625, 5]
+          },
+          {
+            "label": "Priority",
+            "values": [2.5, 0.25, 20]
+          }
+        ]
+      }
+    ]
   },
-  "description": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.",
-  "context_window": 400000,
-  "max_output_tokens": 128000,
-  "model_type": "reasoning"
+  "endpoints": ["responses", "chat_completions", "batch"],
+  "_generated": {
+    "name": "3a221237",
+    "description": "aa8534f0",
+    "tagline": "aa8534f0",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "knowledge_cutoff": "b0196d6e",
+    "performance": "a87ff679",
+    "reasoning": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "2089aff2",
+    "reasoning_tokens": "b326b506",
+    "pricing": "a6f9ea96",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "endpoints": "88e8abb4"
+  }
 }

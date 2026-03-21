@@ -1,0 +1,14 @@
+{
+  "id": "@cf/myshell-ai/melotts",
+  "name": "melotts",
+  "created_by": "myshell",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "e228484f",
+    "capabilities": "0fa77dc6"
+  }
+}

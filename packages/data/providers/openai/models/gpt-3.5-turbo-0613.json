@@ -3,20 +3,33 @@
   "name": "gpt-3.5-turbo-0613",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-3.5",
   "status": "active",
+  "knowledge_cutoff": "2021-08",
   "context_window": 16385,
   "max_output_tokens": 4096,
   "performance": 1,
   "speed": 2,
+  "capabilities": {
+    "fine_tuning": true
+  },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
-  "description": "GPT-3.5 Turbo is OpenAI's fastest model.",
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true
+  "endpoints": ["chat_completions", "responses", "batch"],
+  "_generated": {
+    "name": "910be7ec",
+    "status": "379ac110",
+    "context_window": "7f4b18de",
+    "max_output_tokens": "f7efa4f8",
+    "knowledge_cutoff": "4778f833",
+    "performance": "c4ca4238",
+    "speed": "c81e728d",
+    "family": "7601054d",
+    "capabilities": "d53dc8e8",
+    "modalities": "68e53d93",
+    "endpoints": "ec55a017"
   }
 }

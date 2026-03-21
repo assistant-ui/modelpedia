@@ -3,7 +3,7 @@
   "name": "command-a-vision-07-2025",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "description": "Command A Vision is our first model capable of processing images, excelling in enterprise use cases such as analyzing charts, graphs, and diagrams, table understanding, OCR, document Q&amp;A, and object detection. It officially supports English, Portuguese, Italian, French, German, and Spanish.",
   "status": "active",
   "context_window": 128000,
@@ -15,5 +15,16 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "tagline": "Command A Vision is our first model capable of processing images, excelling in enterprise use cases such as analyzing charts, graphs, and diagrams, table understanding, OCR, document Q&amp;A, and object detection.",
+  "_generated": {
+    "name": "14c7cc55",
+    "description": "a2546334",
+    "tagline": "ddd48ee2",
+    "status": "379ac110",
+    "context_window": "34434798",
+    "max_output_tokens": "67ff32d4",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
   }
 }

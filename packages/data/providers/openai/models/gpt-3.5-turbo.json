@@ -1,0 +1,87 @@
+{
+  "id": "gpt-3.5-turbo",
+  "name": "GPT-3.5 Turbo",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-3.5",
+  "description": "GPT-3.5 Turbo models can understand and generate natural language or code and have been optimized for chat using the Chat Completions API but work well for non-chat tasks as well. As of July 2024, use gpt-4o-mini in place of GPT-3.5 Turbo, as it is cheaper, more capable, multimodal, and just as fast. GPT-3.5 Turbo is still available for use in the API.",
+  "status": "active",
+  "knowledge_cutoff": "2021-08",
+  "context_window": 16385,
+  "max_output_tokens": 4096,
+  "model_type": "chat",
+  "performance": 1,
+  "speed": 2,
+  "tagline": "Legacy GPT model for cheaper chat and non-chat tasks",
+  "successor": "gpt-4o-mini",
+  "capabilities": {
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Fine-tuning",
+        "unit": "",
+        "columns": ["Training", "Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [8, 3, null, 6]
+          },
+          {
+            "label": "Batch",
+            "values": [null, 1.5, null, 3]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "",
+        "columns": ["Input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.5, 1.5]
+          },
+          {
+            "label": "Batch",
+            "values": [0.25, 0.75]
+          }
+        ]
+      }
+    ],
+    "input": 0.5,
+    "output": 1.5,
+    "batch_input": 0.25,
+    "batch_output": 0.75
+  },
+  "endpoints": ["chat_completions", "responses", "batch", "fine_tuning"],
+  "snapshots": [
+    "gpt-3.5-turbo-0125",
+    "gpt-3.5-turbo-1106",
+    "gpt-3.5-turbo-instruct"
+  ],
+  "_generated": {
+    "name": "e8375aa5",
+    "description": "72bded9e",
+    "tagline": "7d9cd0cf",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "7f4b18de",
+    "max_output_tokens": "f7efa4f8",
+    "knowledge_cutoff": "4778f833",
+    "performance": "c4ca4238",
+    "speed": "c81e728d",
+    "successor": "86dcd1b7",
+    "family": "7601054d",
+    "pricing": "2cf1d383",
+    "capabilities": "d53dc8e8",
+    "modalities": "68e53d93",
+    "endpoints": "b36a99d3"
+  }
+}

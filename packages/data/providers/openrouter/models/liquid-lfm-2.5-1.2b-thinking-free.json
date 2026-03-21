@@ -12,5 +12,12 @@
   },
   "capabilities": {
     "reasoning": true
+  },
+  "_generated": {
+    "name": "69485eb6",
+    "description": "db8c57d9",
+    "context_window": "f4376436",
+    "capabilities": "7107421f",
+    "modalities": "68e53d93"
   }
 }

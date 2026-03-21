@@ -28,5 +28,24 @@
     "batch_input": 1.5,
     "batch_output": 7.5,
     "cache_write": 3.75
+  },
+  "tagline": "The best combination of speed and intelligence",
+  "tools": ["function_calling", "computer_use", "mcp"],
+  "endpoints": ["messages"],
+  "_generated": {
+    "name": "50184618",
+    "description": "fe63dd05",
+    "tagline": "fe63dd05",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "max_output_tokens": "762e98db",
+    "knowledge_cutoff": "5549a2cd",
+    "speed": "a87ff679",
+    "family": "68d1c457",
+    "pricing": "399ad924",
+    "capabilities": "a19166f1",
+    "modalities": "6399757e",
+    "tools": "abde16bc",
+    "endpoints": "94bb8b7a"
   }
 }

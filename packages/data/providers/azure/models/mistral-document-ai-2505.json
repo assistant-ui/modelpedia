@@ -14,5 +14,10 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "092d64bb",
+    "capabilities": "ee30ca00",
+    "modalities": "6399757e"
   }
 }

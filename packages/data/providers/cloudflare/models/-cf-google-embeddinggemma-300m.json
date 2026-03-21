@@ -1,0 +1,16 @@
+{
+  "id": "@cf/google/embeddinggemma-300m",
+  "name": "embeddinggemma-300m",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "7768dbf1",
+    "model_type": "764cb3de",
+    "capabilities": "0fa77dc6"
+  }
+}

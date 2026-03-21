@@ -20,5 +20,16 @@
     "input": 0.1,
     "output": 0.3,
     "cached_input": 0.01
+  },
+  "_generated": {
+    "name": "98b1a4b2",
+    "description": "8e30f966",
+    "status": "2e2f74dc",
+    "context_window": "f4376436",
+    "deprecation_date": "a53a2b69",
+    "family": "275918a5",
+    "pricing": "8e470dd0",
+    "capabilities": "ce9e2425",
+    "modalities": "68e53d93"
   }
 }

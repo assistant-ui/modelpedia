@@ -10,5 +10,12 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "9738eb74",
+    "description": "52f7845b",
+    "context_window": "f7de594e",
+    "family": "d4c42ce9",
+    "modalities": "68e53d93"
   }
 }

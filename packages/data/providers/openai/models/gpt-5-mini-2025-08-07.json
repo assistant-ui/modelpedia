@@ -5,12 +5,26 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-5",
+  "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for",
   "status": "active",
+  "knowledge_cutoff": "2024-05",
   "context_window": 400000,
   "max_output_tokens": 128000,
+  "max_input_tokens": 272000,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
   "alias": "gpt-5-mini",
   "performance": 3,
+  "reasoning": 3,
   "speed": 4,
+  "tagline": "GPT-5 mini is a faster, more cost-efficient version of GPT-5.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -20,13 +34,52 @@
     "output": 2,
     "cached_input": 0.025,
     "batch_input": 0.125,
-    "batch_output": 1
+    "batch_output": 1,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.25, 0.025, 2]
+          },
+          {
+            "label": "Batch",
+            "values": [0.125, 0.0125, 1]
+          },
+          {
+            "label": "Flex",
+            "values": [0.125, 0.0125, 1]
+          },
+          {
+            "label": "Priority",
+            "values": [0.45, 0.05, 3.6]
+          }
+        ]
+      }
+    ]
   },
-  "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for",
-  "model_type": "reasoning",
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true,
-    "reasoning": true
+  "endpoints": ["chat_completions", "responses", "batch"],
+  "_generated": {
+    "name": "ee318499",
+    "description": "ccd20efb",
+    "tagline": "d1cb81bb",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "3f9281a0",
+    "knowledge_cutoff": "1d431428",
+    "performance": "eccbc87e",
+    "reasoning": "eccbc87e",
+    "speed": "a87ff679",
+    "family": "aa904c16",
+    "reasoning_tokens": "b326b506",
+    "pricing": "3ed6285a",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "endpoints": "ec55a017"
   }
 }

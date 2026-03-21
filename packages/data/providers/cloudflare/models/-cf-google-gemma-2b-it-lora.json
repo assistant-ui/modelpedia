@@ -7,5 +7,10 @@
   "family": "gemma-2b",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "9c181b34",
+    "family": "3349c229",
+    "capabilities": "0fa77dc6"
   }
 }

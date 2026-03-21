@@ -4,7 +4,7 @@
  * when Turbopack resolves through the workspace symlink to source.
  */
 
-import type { Model, ProviderWithModels } from "modelpedia";
+import type { Model, ProviderWithModels } from "@modelpedia/data";
 import {
   allModels as _allModels,
   getModel as _getModel,
@@ -15,7 +15,7 @@ import {
   getModelsByCreator,
   getModelsByFamily,
   getModelsByProvider,
-} from "modelpedia";
+} from "@modelpedia/data";
 import { normalizeModelId } from "./search";
 
 export type {
@@ -23,7 +23,7 @@ export type {
   ModelData,
   Provider,
   ProviderWithModels,
-} from "modelpedia";
+} from "@modelpedia/data";
 
 export const allModels: Model[] = _allModels;
 export const providers: ProviderWithModels[] = _providers;

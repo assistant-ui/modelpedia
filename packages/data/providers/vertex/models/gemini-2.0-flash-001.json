@@ -14,5 +14,15 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "successor": "gemini-2.5-flash",
+  "_generated": {
+    "name": "06b0c35b",
+    "status": "379ac110",
+    "deprecation_date": "80eaf594",
+    "successor": "3b4524e7",
+    "family": "dc4aadf6",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
   }
 }

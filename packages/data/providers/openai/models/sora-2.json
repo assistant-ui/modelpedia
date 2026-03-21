@@ -1,0 +1,50 @@
+{
+  "id": "sora-2",
+  "name": "Sora 2",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "model_type": "video",
+  "performance": 4,
+  "speed": 2,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video", "audio"]
+  },
+  "endpoints": ["videos"],
+  "snapshots": ["sora-2-2025-10-06", "sora-2-2025-12-08", "sora-2"],
+  "_generated": {
+    "name": "1bafc4f5",
+    "description": "d2082443",
+    "tagline": "4903a3c5",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "performance": "a87ff679",
+    "speed": "c81e728d",
+    "pricing": "51cecb8f",
+    "modalities": "33372894",
+    "endpoints": "577d4591"
+  },
+  "description": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
+  "tagline": "Flagship video generation with synced audio",
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Video generation",
+        "unit": "Per second",
+        "columns": [
+          "Portrait: 720x1280 Landscape: 1280x720",
+          "Portrait: 1024x1792 Landscape: 1792x1024",
+          "Portrait: 1080x1920 Landscape: 1920x1080"
+        ],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.1, null, null]
+          }
+        ]
+      }
+    ]
+  }
+}

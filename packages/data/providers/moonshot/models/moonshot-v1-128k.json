@@ -8,5 +8,11 @@
   "context_window": 128000,
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "ddc7f233",
+    "context_window": "34434798",
+    "family": "9126e350",
+    "capabilities": "0fa77dc6"
   }
 }

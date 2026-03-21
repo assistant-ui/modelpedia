@@ -14,5 +14,13 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "model_type": "reasoning",
+  "_generated": {
+    "name": "2720e293",
+    "model_type": "17475f7f",
+    "family": "c74cfb8e",
+    "capabilities": "45192957",
+    "modalities": "68e53d93"
   }
 }

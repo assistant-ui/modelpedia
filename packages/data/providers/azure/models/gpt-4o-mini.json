@@ -15,5 +15,12 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "86dcd1b7",
+    "knowledge_cutoff": "ffb42dbe",
+    "family": "15249632",
+    "capabilities": "ee30ca00",
+    "modalities": "6399757e"
   }
 }

@@ -7,5 +7,9 @@
   "capabilities": {
     "streaming": true
   },
-  "snapshots": ["Qwen/Qwen3-4B-Thinking-2507"]
+  "snapshots": ["Qwen/Qwen3-4B-Thinking-2507"],
+  "_generated": {
+    "name": "c3e234be",
+    "capabilities": "0fa77dc6"
+  }
 }

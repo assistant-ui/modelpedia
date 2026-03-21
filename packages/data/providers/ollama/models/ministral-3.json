@@ -7,5 +7,10 @@
   "family": "ministral",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "719bb36f",
+    "family": "d6661e63",
+    "capabilities": "0fa77dc6"
   }
 }

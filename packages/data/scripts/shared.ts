@@ -1,4 +1,5 @@
 import { execSync } from "node:child_process";
+import { createHash } from "node:crypto";
 import * as fs from "node:fs";
 import * as path from "node:path";
 
@@ -57,6 +58,14 @@ export function envOrNull(...names: string[]): string | null {
 }
 
 // ── Utils ──
+
+/** Short hash of a JSON value for change detection. */
+function hashValue(val: unknown): string {
+  return createHash("md5")
+    .update(JSON.stringify(val))
+    .digest("hex")
+    .slice(0, 8);
+}
 
 export function sanitizeModelId(id: string): string {
   return id.replace(/[^a-z0-9._-]/gi, "-").toLowerCase();
@@ -219,6 +228,53 @@ export function inferFamily(modelId: string): string | undefined {
   return undefined;
 }
 
+// ── Model type inference ──
+
+/**
+ * Infer model_type from model ID and optional metadata.
+ * Returns undefined if cannot be determined.
+ */
+export function inferModelType(
+  modelId: string,
+  endpoints?: string[],
+): string | undefined {
+  const id = modelId.toLowerCase();
+
+  // Embedding
+  if (/^text-embedding|embed/i.test(id)) return "embed";
+  // Image generation
+  if (/^(dall-e|chatgpt-image|gpt-image|stable-diffusion|flux|sdxl)/i.test(id))
+    return "image";
+  if (/^grok-imagine/i.test(id)) return "image";
+  // Video generation
+  if (/^sora/i.test(id)) return "video";
+  // TTS
+  if (/^tts-|[-_]tts(?:[-_]|$)/i.test(id)) return "tts";
+  if (/^orpheus/i.test(id)) return "tts";
+  // Transcription / ASR
+  if (/^whisper|transcribe|^asr/i.test(id)) return "transcription";
+  // Moderation
+  if (/moderation/i.test(id)) return "moderation";
+  // Rerank
+  if (/rerank/i.test(id)) return "rerank";
+  // Code (dedicated code models, not code-capable chat models)
+  if (/^codestral|^devstral/i.test(id)) return "code";
+  // Reasoning
+  if (/^(o\d+)(?:-|$)/.test(id)) return "reasoning";
+  if (/^deepseek-r\d/i.test(id)) return "reasoning";
+  if (/^qwq/i.test(id)) return "reasoning";
+  // Guard / safety
+  if (/guard|safeguard/i.test(id)) return "moderation";
+  // Endpoint-based inference
+  if (
+    endpoints?.includes("embeddings") &&
+    !endpoints.includes("chat_completions")
+  )
+    return "embed";
+
+  return undefined;
+}
+
 // ── Upsert ──
 
 export interface ModelEntry {
@@ -227,6 +283,7 @@ export interface ModelEntry {
   created_by?: string;
   family?: string;
   description?: string;
+  tagline?: string;
   status?: "active" | "deprecated" | "preview";
   release_date?: string | null;
   deprecation_date?: string | null;
@@ -247,6 +304,8 @@ export interface ModelEntry {
   performance?: number;
   reasoning?: number;
   speed?: number;
+  successor?: string;
+  pricing_notes?: string[];
 }
 
 function mergeObjects(
@@ -288,12 +347,22 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     return false;
   }
 
+  // _generated: hash of each field's value when last written by script.
+  // If a field's current hash differs from _generated, a user manually changed it → preserve it.
+  const generated = (existing?._generated as Record<string, string>) ?? {};
+
   // Start from existing data to preserve all fields, then overlay new values
   const data: Record<string, unknown> = existing ? { ...existing } : {};
 
   // Always set core fields
   data.id = entry.id;
-  data.name = entry.name;
+  // Prefer display name (e.g. "GPT-5.4 nano") over raw ID (e.g. "gpt-5.4-nano")
+  const existingName = existing?.name as string | undefined;
+  const isRawId = entry.name === entry.id;
+  data.name =
+    isRawId && existingName && existingName !== entry.id
+      ? existingName
+      : entry.name;
   data.created_by =
     entry.created_by ?? (existing?.created_by as string) ?? provider;
   data.source = "official";
@@ -316,6 +385,8 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     "performance",
     "reasoning",
     "speed",
+    "tagline",
+    "successor",
   ] as const;
 
   const DATE_FIELDS = new Set([
@@ -334,6 +405,20 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     }
   }
 
+  // Auto-infer model_type if not explicitly set
+  if (!data.model_type) {
+    const inferred = inferModelType(
+      entry.id,
+      entry.endpoints as string[] | undefined,
+    );
+    if (inferred) data.model_type = inferred;
+  }
+
+  // Auto-generate tagline from description if not set
+  if (!data.tagline && data.description) {
+    data.tagline = firstSentence(data.description as string);
+  }
+
   const caps = mergeObjects(
     existing?.capabilities as Record<string, unknown> | undefined,
     entry.capabilities as Record<string, unknown> | undefined,
@@ -346,14 +431,22 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
   );
   if (mods) data.modalities = mods;
 
-  const pricing = mergeObjects(
-    existing?.pricing as Record<string, unknown> | undefined,
-    entry.pricing as Record<string, unknown> | undefined,
-  );
-  if (pricing) data.pricing = pricing;
+  // Pricing: merge scalar fields but replace tiers array entirely
+  const existingPricing = existing?.pricing as
+    | Record<string, unknown>
+    | undefined;
+  const entryPricing = entry.pricing as Record<string, unknown> | undefined;
+  const pricing = mergeObjects(existingPricing, entryPricing);
+  if (pricing) {
+    // tiers should come from entry (current fetch), not be merged
+    if (entryPricing?.tiers) {
+      pricing.tiers = entryPricing.tiers;
+    }
+    data.pricing = pricing;
+  }
 
   // Array fields
-  for (const key of ["tools", "endpoints"] as const) {
+  for (const key of ["tools", "endpoints", "pricing_notes"] as const) {
     const val = entry[key] ?? (existing?.[key] as string[] | undefined);
     if (val && Array.isArray(val) && val.length > 0) data[key] = val;
   }
@@ -364,12 +457,71 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
   const allSnapshots = [...new Set([...existingSnapshots, ...newSnapshots])];
   if (allSnapshots.length > 0) data.snapshots = allSnapshots;
 
+  const TRACKED_FIELDS = [
+    "name",
+    "description",
+    "tagline",
+    "status",
+    "model_type",
+    "context_window",
+    "max_context_window",
+    "max_output_tokens",
+    "max_input_tokens",
+    "knowledge_cutoff",
+    "release_date",
+    "deprecation_date",
+    "performance",
+    "reasoning",
+    "speed",
+    "successor",
+    "family",
+    "reasoning_tokens",
+    "pricing",
+    "capabilities",
+    "modalities",
+    "tools",
+    "endpoints",
+  ];
+
+  // Protection: detect user-modified fields and preserve them.
+  // _generated stores short hashes of each field's value when last written by script.
+  //
+  // Decision matrix:
+  //   user changed + script unchanged → keep user value (intentional fix)
+  //   user changed + script also changed → use script value (upstream updated)
+  //   user unchanged → use script value (normal update)
+  const newGenerated: Record<string, string> = {};
+  for (const field of TRACKED_FIELDS) {
+    if (data[field] === undefined) continue;
+    const scriptHash = hashValue(data[field]);
+    newGenerated[field] = scriptHash;
+
+    if (existing) {
+      const currentVal = existing[field];
+      const lastGenHash = generated[field];
+      if (currentVal !== undefined && lastGenHash !== undefined) {
+        const userChanged = hashValue(currentVal) !== lastGenHash;
+        const scriptChanged = scriptHash !== lastGenHash;
+
+        if (userChanged && !scriptChanged) {
+          // User modified the field, but script still has the same old value
+          // → user's fix is intentional, preserve it
+          data[field] = currentVal;
+          newGenerated[field] = lastGenHash;
+        }
+        // If both changed: script wins (upstream data updated, user's fix may be stale)
+        // If neither changed: no conflict
+      }
+    }
+  }
+  data._generated = newGenerated;
+
   // Diff: log what changed and record to changes
   if (existing) {
     const changedFields: Record<string, { from: unknown; to: unknown }> = {};
     for (const [k, v] of Object.entries(data)) {
       const oldVal = existing[k];
-      if (k === "last_updated") continue;
+      if (k === "last_updated" || k === "_generated") continue;
       if (JSON.stringify(v) !== JSON.stringify(oldVal)) {
         changedFields[k] = { from: oldVal, to: v };
       }
@@ -504,8 +656,30 @@ export function upsertWithSnapshot(
         (snapshotEntry as any)[key] = aliasData[key];
       }
     }
-    if (!snapshotEntry.pricing && aliasData.pricing) {
-      snapshotEntry.pricing = aliasData.pricing as Record<string, number>;
+    // Merge pricing: inherit flat fields from alias, keep snapshot-specific tiers
+    if (aliasData.pricing) {
+      const aliasPricing = aliasData.pricing as Record<string, unknown>;
+      if (!snapshotEntry.pricing) {
+        snapshotEntry.pricing = aliasPricing as Record<string, number>;
+      } else {
+        // Inherit flat pricing fields (input, output, etc.) that snapshot lacks
+        for (const pk of [
+          "input",
+          "output",
+          "cached_input",
+          "cache_write",
+          "batch_input",
+          "batch_output",
+        ]) {
+          if (
+            (snapshotEntry.pricing as Record<string, unknown>)[pk] == null &&
+            aliasPricing[pk] != null
+          ) {
+            (snapshotEntry.pricing as Record<string, unknown>)[pk] =
+              aliasPricing[pk];
+          }
+        }
+      }
     }
     if (!snapshotEntry.capabilities && aliasData.capabilities) {
       snapshotEntry.capabilities = aliasData.capabilities as Record<

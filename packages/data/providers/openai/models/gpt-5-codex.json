@@ -3,15 +3,27 @@
   "name": "GPT-5-Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-5",
   "description": "GPT-5-Codex is a version of GPT-5 optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.",
   "status": "active",
+  "knowledge_cutoff": "2024-09",
   "context_window": 400000,
   "max_output_tokens": 128000,
+  "max_input_tokens": 272000,
   "model_type": "reasoning",
+  "reasoning_tokens": true,
   "performance": 4,
+  "reasoning": 4,
   "speed": 3,
+  "tagline": "A version of GPT-5 optimized for agentic coding in Codex",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -19,11 +31,43 @@
   "pricing": {
     "input": 1.25,
     "output": 10,
-    "cached_input": 0.125
+    "cached_input": 0.125,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.25, 0.125, 10]
+          }
+        ]
+      }
+    ]
   },
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true,
-    "reasoning": true
+  "tools": ["function_calling", "web_search"],
+  "endpoints": ["responses"],
+  "snapshots": ["gpt-5-codex"],
+  "_generated": {
+    "name": "860109e1",
+    "description": "2ff761a7",
+    "tagline": "3fdd16f9",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "3f9281a0",
+    "knowledge_cutoff": "b0196d6e",
+    "performance": "a87ff679",
+    "reasoning": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "aa904c16",
+    "reasoning_tokens": "b326b506",
+    "pricing": "53068594",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "tools": "4db09141",
+    "endpoints": "acb164ea"
   }
 }

@@ -11,5 +11,12 @@
   },
   "pricing": {
     "input": 3
+  },
+  "_generated": {
+    "name": "50184618",
+    "status": "379ac110",
+    "family": "68d1c457",
+    "pricing": "cfcd0de0",
+    "capabilities": "0fa77dc6"
   }
 }

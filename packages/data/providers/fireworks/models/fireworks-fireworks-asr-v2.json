@@ -10,5 +10,10 @@
   "pricing": {
     "input": 0.0035,
     "output": 1
+  },
+  "_generated": {
+    "name": "b2702bed",
+    "pricing": "8665fa33",
+    "capabilities": "0fa77dc6"
   }
 }

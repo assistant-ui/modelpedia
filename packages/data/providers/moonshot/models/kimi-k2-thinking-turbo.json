@@ -13,5 +13,16 @@
     "streaming": true,
     "tool_call": true,
     "reasoning": true
+  },
+  "tagline": "Deep reasoning with high speed output.",
+  "_generated": {
+    "name": "7fdc728f",
+    "description": "39a70c68",
+    "tagline": "39a70c68",
+    "context_window": "2fd324cb",
+    "speed": "e4da3b7f",
+    "family": "0740f86b",
+    "reasoning_tokens": "b326b506",
+    "capabilities": "a281e83a"
   }
 }

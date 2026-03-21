@@ -6,19 +6,63 @@
   "last_updated": "2026-03-21",
   "family": "gpt-4-turbo",
   "status": "active",
+  "knowledge_cutoff": "2023-11",
   "context_window": 128000,
   "max_output_tokens": 4096,
   "alias": "gpt-4-turbo",
   "performance": 2,
   "speed": 3,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
   },
+  "endpoints": ["chat_completions", "responses", "assistants", "batch"],
+  "_generated": {
+    "name": "22a386bf",
+    "description": "43471c17",
+    "tagline": "787c2f45",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "f7efa4f8",
+    "knowledge_cutoff": "d8e87106",
+    "performance": "c81e728d",
+    "speed": "eccbc87e",
+    "family": "e55097d8",
+    "pricing": "3a544d6c",
+    "capabilities": "fc36814c",
+    "modalities": "6399757e",
+    "endpoints": "1c48b50a"
+  },
   "description": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model. It was designed to be a cheaper, better version of GPT-4. Today, we recommend using a newer model like GPT-4o.",
   "model_type": "chat",
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true
+  "tagline": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model.",
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "",
+        "columns": ["Input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [10, 30]
+          },
+          {
+            "label": "Batch",
+            "values": [5, 15]
+          }
+        ]
+      }
+    ],
+    "input": 10,
+    "output": 30,
+    "batch_input": 5,
+    "batch_output": 15
   }
 }

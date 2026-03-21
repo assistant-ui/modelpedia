@@ -11,5 +11,13 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "model_type": "tts",
+  "_generated": {
+    "name": "857ddae3",
+    "model_type": "4e16a2cf",
+    "family": "15249632",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
   }
 }

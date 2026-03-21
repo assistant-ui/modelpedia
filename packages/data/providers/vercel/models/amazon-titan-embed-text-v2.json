@@ -1,0 +1,21 @@
+{
+  "id": "amazon/titan-embed-text-v2",
+  "name": "titan-embed-text-v2",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.02,
+    "output": 0
+  },
+  "_generated": {
+    "name": "0805017d",
+    "model_type": "764cb3de",
+    "pricing": "8d85a56c",
+    "capabilities": "0fa77dc6"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "@cf/baai/bge-reranker-base",
+  "name": "bge-reranker-base",
+  "created_by": "baai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "model_type": "rerank",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "79dae5ae",
+    "model_type": "477930e6",
+    "capabilities": "0fa77dc6"
+  }
+}

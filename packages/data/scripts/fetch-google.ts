@@ -240,6 +240,21 @@ async function main() {
       ? new Date(dep.shutdown) < new Date()
       : false;
 
+    // Build tools from detected capabilities
+    const tools: string[] = [];
+    if (spec.capabilities.tool_call) tools.push("function_calling");
+
+    // Build endpoints from API supportedGenerationMethods if available
+    const endpoints: string[] = [];
+    if (api?.supportedGenerationMethods) {
+      if (api.supportedGenerationMethods.includes("generateContent"))
+        endpoints.push("generateContent");
+      if (api.supportedGenerationMethods.includes("streamGenerateContent"))
+        endpoints.push("streamGenerateContent");
+    } else {
+      endpoints.push("generateContent", "streamGenerateContent");
+    }
+
     const entry: ModelEntry = {
       id: spec.id,
       name: api?.displayName ?? spec.id,
@@ -257,9 +272,12 @@ async function main() {
         input: spec.inputModalities,
         output: spec.outputModalities,
       },
+      ...(tools.length > 0 ? { tools } : {}),
+      ...(endpoints.length > 0 ? { endpoints } : {}),
     };
 
     if (dep?.shutdown) entry.deprecation_date = dep.shutdown;
+    if (dep?.replacement) entry.successor = dep.replacement;
 
     written += upsertWithSnapshot("google", entry);
   }
@@ -288,6 +306,8 @@ async function main() {
       modalities: { input: ["text", "image"], output: ["text"] },
     };
 
+    if (dep.replacement) entry.successor = dep.replacement;
+
     written += upsertWithSnapshot("google", entry);
   }
 
@@ -303,6 +323,13 @@ async function main() {
       if (alreadyWritten) continue;
 
       const dep = deprecations.get(id);
+      // Build endpoints from API supportedGenerationMethods
+      const apiEndpoints: string[] = [];
+      if (api.supportedGenerationMethods.includes("generateContent"))
+        apiEndpoints.push("generateContent");
+      if (api.supportedGenerationMethods.includes("streamGenerateContent"))
+        apiEndpoints.push("streamGenerateContent");
+
       written += upsertWithSnapshot("google", {
         id,
         name: api.displayName,
@@ -320,6 +347,8 @@ async function main() {
           input: ["text", "image", "audio", "video"],
           output: ["text"],
         },
+        tools: ["function_calling"],
+        ...(apiEndpoints.length > 0 ? { endpoints: apiEndpoints } : {}),
       });
     }
   }

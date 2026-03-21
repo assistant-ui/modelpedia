@@ -19,5 +19,16 @@
   "pricing": {
     "input": 0.1,
     "output": 0.3
+  },
+  "model_type": "code",
+  "_generated": {
+    "name": "136b3b5a",
+    "status": "379ac110",
+    "model_type": "b6cc3ff4",
+    "context_window": "2fd324cb",
+    "family": "e626e93e",
+    "pricing": "53952343",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
   }
 }

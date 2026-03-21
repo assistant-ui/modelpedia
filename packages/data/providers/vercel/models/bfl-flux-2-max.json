@@ -1,0 +1,21 @@
+{
+  "id": "bfl/flux-2-max",
+  "name": "flux-2-max",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 67300,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "f20ba273",
+    "context_window": "df8c0bda",
+    "pricing": "9a7a9781",
+    "capabilities": "0fa77dc6"
+  }
+}

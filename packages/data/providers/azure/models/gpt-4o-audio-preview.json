@@ -12,5 +12,12 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "83c8de65",
+    "knowledge_cutoff": "7b971392",
+    "family": "15249632",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
   }
 }

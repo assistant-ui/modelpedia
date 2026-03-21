@@ -11,5 +11,13 @@
   "modalities": {
     "input": ["text"],
     "output": ["audio"]
+  },
+  "_generated": {
+    "name": "0fba1fc6",
+    "status": "127aecde",
+    "model_type": "4e16a2cf",
+    "context_window": "1bd69c7d",
+    "max_output_tokens": "1017bfd4",
+    "modalities": "601e776d"
   }
 }

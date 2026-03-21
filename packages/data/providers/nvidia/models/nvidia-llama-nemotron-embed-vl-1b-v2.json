@@ -8,5 +8,11 @@
     "streaming": true,
     "tool_call": true,
     "vision": true
+  },
+  "model_type": "embed",
+  "_generated": {
+    "name": "0f782619",
+    "model_type": "764cb3de",
+    "capabilities": "1a260abc"
   }
 }

@@ -15,5 +15,12 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "9ddeed20",
+    "context_window": "34434798",
+    "max_output_tokens": "d814795f",
+    "capabilities": "0946b777",
+    "modalities": "68e53d93"
   }
 }

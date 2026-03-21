@@ -28,5 +28,21 @@
     "batch_output": 7.5,
     "cache_write": 3.75
   },
-  "snapshots": ["claude-sonnet-4-5-20250929"]
+  "snapshots": ["claude-sonnet-4-5-20250929"],
+  "tools": ["function_calling", "computer_use", "mcp"],
+  "endpoints": ["messages"],
+  "_generated": {
+    "name": "afb59ff3",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "max_output_tokens": "762e98db",
+    "knowledge_cutoff": "3f358a56",
+    "speed": "a87ff679",
+    "family": "68d1c457",
+    "pricing": "399ad924",
+    "capabilities": "a19166f1",
+    "modalities": "6399757e",
+    "tools": "abde16bc",
+    "endpoints": "94bb8b7a"
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "id": "voyage/voyage-3.5",
+  "name": "voyage-3.5",
+  "created_by": "voyage",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0
+  },
+  "_generated": {
+    "name": "0e878f49",
+    "pricing": "7d2a4264",
+    "capabilities": "0fa77dc6"
+  }
+}

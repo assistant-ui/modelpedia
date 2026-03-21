@@ -6,5 +6,9 @@
   "last_updated": "2026-03-21",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "d8062c0c",
+    "capabilities": "0fa77dc6"
   }
 }

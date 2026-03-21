@@ -5,12 +5,24 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "o3",
+  "description": "The o-series of models are trained with reinforcement learning to think",
   "status": "active",
+  "knowledge_cutoff": "2024-05",
   "context_window": 200000,
   "max_output_tokens": 100000,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
   "alias": "o3-pro",
   "performance": 5,
+  "reasoning": 5,
   "speed": 1,
+  "tagline": "The o-series of models are trained with reinforcement learning to think",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -19,12 +31,43 @@
     "input": 20,
     "output": 80,
     "batch_input": 10,
-    "batch_output": 40
+    "batch_output": 40,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [20, null, 80]
+          },
+          {
+            "label": "Batch",
+            "values": [10, null, 40]
+          }
+        ]
+      }
+    ]
   },
-  "description": "The o-series of models are trained with reinforcement learning to think before they answer and perform complex reasoning.",
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true,
-    "reasoning": true
+  "endpoints": ["responses", "batch"],
+  "_generated": {
+    "name": "e45980bc",
+    "description": "e1a4ec5e",
+    "tagline": "e1a4ec5e",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "03e6c616",
+    "max_output_tokens": "14ee22ea",
+    "knowledge_cutoff": "1d431428",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "c4ca4238",
+    "family": "193049bc",
+    "reasoning_tokens": "b326b506",
+    "pricing": "0b2c1347",
+    "capabilities": "babb690e",
+    "modalities": "6399757e",
+    "endpoints": "6f01fd6c"
   }
 }

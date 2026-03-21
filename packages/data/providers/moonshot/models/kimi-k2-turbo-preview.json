@@ -11,5 +11,15 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true
+  },
+  "tagline": "High-speed version, 60-100 tokens/sec output.",
+  "_generated": {
+    "name": "57e914bb",
+    "description": "5e2a37e0",
+    "tagline": "5e2a37e0",
+    "context_window": "2fd324cb",
+    "speed": "e4da3b7f",
+    "family": "0740f86b",
+    "capabilities": "48995a4e"
   }
 }

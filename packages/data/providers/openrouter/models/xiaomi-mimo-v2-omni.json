@@ -20,5 +20,14 @@
     "input": 0.4,
     "output": 2,
     "cached_input": 0.08
+  },
+  "_generated": {
+    "name": "230f9fca",
+    "description": "5e6a6714",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "297ce0b3",
+    "pricing": "77c4b8ce",
+    "capabilities": "f533f522",
+    "modalities": "fa4eeb00"
   }
 }

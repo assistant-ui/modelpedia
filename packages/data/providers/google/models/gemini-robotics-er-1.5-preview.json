@@ -19,5 +19,18 @@
   "modalities": {
     "input": ["text", "image", "video", "audio"],
     "output": ["text", "image"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "3e509436",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "knowledge_cutoff": "3f358a56",
+    "capabilities": "29b57eef",
+    "modalities": "08235294",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
   }
 }

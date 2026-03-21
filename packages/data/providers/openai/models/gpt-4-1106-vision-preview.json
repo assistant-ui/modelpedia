@@ -1,0 +1,36 @@
+{
+  "id": "gpt-4-1106-vision-preview",
+  "name": "gpt-4-1106-vision-preview",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4",
+  "status": "active",
+  "knowledge_cutoff": "2023-11",
+  "context_window": 128000,
+  "max_output_tokens": 4096,
+  "performance": 2,
+  "speed": 3,
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions", "responses", "assistants"],
+  "_generated": {
+    "name": "dd34bf1d",
+    "status": "379ac110",
+    "context_window": "34434798",
+    "max_output_tokens": "f7efa4f8",
+    "knowledge_cutoff": "d8e87106",
+    "performance": "c81e728d",
+    "speed": "eccbc87e",
+    "family": "1be4bcd3",
+    "capabilities": "9c665f5d",
+    "modalities": "6399757e",
+    "endpoints": "5ea7876b"
+  }
+}

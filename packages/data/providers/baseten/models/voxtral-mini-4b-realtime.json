@@ -7,5 +7,9 @@
   "capabilities": {
     "streaming": true
   },
-  "snapshots": ["voxtral-mini-4b-realtime-2602"]
+  "snapshots": ["voxtral-mini-4b-realtime-2602"],
+  "_generated": {
+    "name": "c2f5440b",
+    "capabilities": "0fa77dc6"
+  }
 }

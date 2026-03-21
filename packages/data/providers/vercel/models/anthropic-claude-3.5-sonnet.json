@@ -15,5 +15,12 @@
     "input": 3,
     "output": 15
   },
-  "snapshots": ["anthropic/claude-3.5-sonnet-20240620"]
+  "snapshots": ["anthropic/claude-3.5-sonnet-20240620"],
+  "_generated": {
+    "name": "72b40e7f",
+    "context_window": "03e6c616",
+    "family": "68d1c457",
+    "pricing": "7939f0ff",
+    "capabilities": "fc36814c"
+  }
 }

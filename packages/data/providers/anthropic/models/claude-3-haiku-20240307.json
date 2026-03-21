@@ -25,5 +25,20 @@
     "batch_input": 0.125,
     "batch_output": 0.625,
     "cache_write": 0.3
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["messages"],
+  "_generated": {
+    "name": "51f03323",
+    "status": "2e2f74dc",
+    "context_window": "03e6c616",
+    "max_output_tokens": "1bd69c7d",
+    "speed": "a87ff679",
+    "family": "1cfb9795",
+    "pricing": "cbfc4476",
+    "capabilities": "fc36814c",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e",
+    "endpoints": "94bb8b7a"
   }
 }

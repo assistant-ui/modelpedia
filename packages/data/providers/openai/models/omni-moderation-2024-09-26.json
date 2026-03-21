@@ -1,0 +1,30 @@
+{
+  "id": "omni-moderation-2024-09-26",
+  "name": "omni-moderation-2024-09-26",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "model_type": "moderation",
+  "alias": "omni-moderation",
+  "performance": 3,
+  "speed": 3,
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["batch", "moderation"],
+  "_generated": {
+    "name": "3124aa35",
+    "status": "379ac110",
+    "model_type": "1e7a7b87",
+    "performance": "eccbc87e",
+    "speed": "eccbc87e",
+    "capabilities": "d3117eb0",
+    "modalities": "6399757e",
+    "endpoints": "5692bd6c"
+  }
+}

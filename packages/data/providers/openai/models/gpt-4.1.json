@@ -1,17 +1,26 @@
 {
   "id": "gpt-4.1",
-  "name": "gpt-4.1",
+  "name": "GPT-4.1",
   "created_by": "openai",
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-4.1",
   "description": "GPT-4.1 excels at instruction following and tool calling, with broad",
   "status": "active",
+  "knowledge_cutoff": "2024-05",
   "context_window": 1047576,
   "max_output_tokens": 32768,
   "model_type": "chat",
   "performance": 4,
   "speed": 3,
+  "tagline": "Smartest non-reasoning model",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "fine_tuning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -21,11 +30,57 @@
     "output": 8,
     "cached_input": 0.5,
     "batch_input": 1,
-    "batch_output": 4
+    "batch_output": 4,
+    "tiers": [
+      {
+        "label": "Fine-tuning",
+        "unit": "",
+        "columns": ["Training", "Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [25, 3, 0.75, 12]
+          },
+          {
+            "label": "Batch",
+            "values": [null, 1.5, null, 6]
+          }
+        ]
+      }
+    ]
   },
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true
-  },
-  "snapshots": ["gpt-4.1-2025-04-14"]
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "mcp"
+  ],
+  "endpoints": [
+    "chat_completions",
+    "responses",
+    "assistants",
+    "batch",
+    "fine_tuning"
+  ],
+  "snapshots": ["gpt-4.1-2025-04-14"],
+  "_generated": {
+    "name": "1b6b5f58",
+    "description": "c50d7249",
+    "tagline": "4fa85a98",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "55410616",
+    "max_output_tokens": "f4376436",
+    "knowledge_cutoff": "1d431428",
+    "performance": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "d240daf4",
+    "pricing": "72f005e1",
+    "capabilities": "ac9a94bc",
+    "modalities": "6399757e",
+    "tools": "1d5a765f",
+    "endpoints": "ebc03c48"
+  }
 }

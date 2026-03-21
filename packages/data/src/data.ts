@@ -64,7 +64,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "qwen-flash",
-        "name": "qwen-flash",
+        "name": "Qwen-Flash",
         "created_by": "qwen",
         "source": "official",
         "last_updated": "2026-03-21",
@@ -77,6 +77,30 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.05,
           "output": 0.4
+        }
+      },
+      {
+        "id": "qwen-image-2",
+        "name": "qwen-image-2",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        }
+      },
+      {
+        "id": "qwen-image",
+        "name": "qwen-image",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
         }
       },
       {
@@ -678,7 +702,7 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "qwen3-max",
-        "name": "qwen3-max",
+        "name": "Qwen3-Max",
         "created_by": "qwen",
         "source": "official",
         "last_updated": "2026-03-21",
@@ -889,7 +913,8 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "amazon.nova-2-sonic-v1:0",
@@ -1049,7 +1074,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "rerank"
       },
       {
         "id": "amazon.titan-e1m-medium",
@@ -1076,7 +1102,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "amazon.titan-embed-image-v1",
@@ -1090,7 +1117,8 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "amazon.titan-embed-text-v1",
@@ -1103,7 +1131,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "amazon.titan-embed-text-v2:0",
@@ -1116,7 +1145,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "amazon.titan-image-generator-v2:0",
@@ -1353,7 +1383,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "cohere.embed-multilingual-v3",
@@ -1366,7 +1397,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "cohere.embed-v4:0",
@@ -1380,7 +1412,8 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "cohere.rerank-v3-5:0",
@@ -1395,7 +1428,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "rerank"
       },
       {
         "id": "deepseek.r1-v1:0",
@@ -2211,7 +2245,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "openai.gpt-oss-safeguard-20b",
@@ -2229,7 +2264,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "qwen.qwen3-235b-a22b-2507-v1:0",
@@ -2629,7 +2665,8 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "twelvelabs.marengo-embed-3-0-v1:0",
@@ -2643,7 +2680,8 @@ export const providers: ProviderWithModels[] = [
         "modalities": {
           "input": [],
           "output": []
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "twelvelabs.pegasus-1-2-v1:0",
@@ -2773,7 +2811,13 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 0.4,
           "batch_output": 2,
           "cache_write": 1
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-3-7-sonnet",
@@ -2803,7 +2847,13 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 1.5,
           "batch_output": 7.5,
           "cache_write": 3.75
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-3-haiku-20240307",
@@ -2837,7 +2887,13 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 0.125,
           "batch_output": 0.625,
           "cache_write": 0.3
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-3-haiku",
@@ -2867,7 +2923,13 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 0.125,
           "batch_output": 0.625,
           "cache_write": 0.3
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-3-opus",
@@ -2897,7 +2959,13 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 7.5,
           "batch_output": 37.5,
           "cache_write": 18.75
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-haiku-4-5-20251001",
@@ -2935,7 +3003,16 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 0.5,
           "batch_output": 2.5,
           "cache_write": 1.25
-        }
+        },
+        "tagline": "The fastest model with near-frontier intelligence",
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-haiku-4-5",
@@ -2975,6 +3052,15 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "claude-haiku-4-5-20251001"
+        ],
+        "tagline": "The fastest model with near-frontier intelligence",
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
         ]
       },
       {
@@ -3014,6 +3100,14 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "claude-opus-4-20250514"
+        ],
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
         ]
       },
       {
@@ -3051,7 +3145,15 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 7.5,
           "batch_output": 37.5,
           "cache_write": 18.75
-        }
+        },
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-opus-4-1",
@@ -3090,6 +3192,14 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "claude-opus-4-1-20250805"
+        ],
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
         ]
       },
       {
@@ -3127,7 +3237,15 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 7.5,
           "batch_output": 37.5,
           "cache_write": 18.75
-        }
+        },
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-opus-4-5-20251101",
@@ -3164,7 +3282,15 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 2.5,
           "batch_output": 12.5,
           "cache_write": 6.25
-        }
+        },
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-opus-4-5",
@@ -3203,6 +3329,14 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "claude-opus-4-5-20251101"
+        ],
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
         ]
       },
       {
@@ -3240,7 +3374,16 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 2.5,
           "batch_output": 12.5,
           "cache_write": 6.25
-        }
+        },
+        "tagline": "The most intelligent model for building agents and coding",
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-sonnet-4-0",
@@ -3279,6 +3422,14 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "claude-sonnet-4-20250514"
+        ],
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
         ]
       },
       {
@@ -3316,7 +3467,15 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 1.5,
           "batch_output": 7.5,
           "cache_write": 3.75
-        }
+        },
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-sonnet-4-5-20250929",
@@ -3353,7 +3512,15 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 1.5,
           "batch_output": 7.5,
           "cache_write": 3.75
-        }
+        },
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       },
       {
         "id": "claude-sonnet-4-5",
@@ -3392,6 +3559,14 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "claude-sonnet-4-5-20250929"
+        ],
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
         ]
       },
       {
@@ -3429,7 +3604,16 @@ export const providers: ProviderWithModels[] = [
           "batch_input": 1.5,
           "batch_output": 7.5,
           "cache_write": 3.75
-        }
+        },
+        "tagline": "The best combination of speed and intelligence",
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ]
       }
     ]
   },
@@ -3500,7 +3684,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "rerank"
       },
       {
         "id": "cohere-rerank-v4.0-pro",
@@ -3520,7 +3705,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "rerank"
       },
       {
         "id": "computer-use-preview",
@@ -3561,7 +3747,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "deepseek-r1",
@@ -3583,7 +3770,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "deepseek-v3-0324",
@@ -3691,7 +3879,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "flux-1.1-pro",
@@ -3712,7 +3901,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "image"
       },
       {
         "id": "flux.1-kontext-pro",
@@ -3733,7 +3923,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "image"
       },
       {
         "id": "flux.2-flex",
@@ -3754,7 +3945,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "image"
       },
       {
         "id": "flux.2-pro",
@@ -3775,7 +3967,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "image"
       },
       {
         "id": "gpt-4.1-mini",
@@ -3932,7 +4125,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "transcription"
       },
       {
         "id": "gpt-4o-mini-tts",
@@ -3951,7 +4145,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "tts"
       },
       {
         "id": "gpt-4o-mini",
@@ -4014,7 +4209,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "transcription"
       },
       {
         "id": "gpt-4o-transcribe",
@@ -4033,7 +4229,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "transcription"
       },
       {
         "id": "gpt-4o",
@@ -4522,7 +4719,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "image"
       },
       {
         "id": "gpt-image-1.5",
@@ -4543,7 +4741,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "image"
       },
       {
         "id": "gpt-image-1",
@@ -4564,7 +4763,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "image"
       },
       {
         "id": "gpt-oss-120b",
@@ -5077,7 +5277,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "o1-preview",
@@ -5097,7 +5298,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "o1",
@@ -5122,7 +5324,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "o3-mini",
@@ -5145,7 +5348,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "o3-pro",
@@ -5169,7 +5373,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "o3",
@@ -5194,7 +5399,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "o4-mini",
@@ -5219,7 +5425,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "qwen-32b",
@@ -5256,7 +5463,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "video"
       },
       {
         "id": "sora",
@@ -5274,7 +5482,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "video"
       },
       {
         "id": "text-embedding-3-large",
@@ -5294,7 +5503,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "text-embedding-3-small",
@@ -5314,7 +5524,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "text-embedding-ada-002",
@@ -5334,7 +5545,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "tts-hd",
@@ -5352,7 +5564,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "tts"
       },
       {
         "id": "tts",
@@ -5389,7 +5602,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "family": "whisper"
+        "family": "whisper",
+        "model_type": "transcription"
       }
     ]
   },
@@ -5412,7 +5626,8 @@ export const providers: ProviderWithModels[] = [
         "family": "deepseek-r1",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "deepseek-r1-qwen-32b",
@@ -5423,7 +5638,8 @@ export const providers: ProviderWithModels[] = [
         "family": "deepseek-r1",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "deepseek-r1-qwen-7b",
@@ -5434,7 +5650,8 @@ export const providers: ProviderWithModels[] = [
         "family": "deepseek-r1",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "deepseek-r1",
@@ -5445,7 +5662,8 @@ export const providers: ProviderWithModels[] = [
         "family": "deepseek-r1",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "reasoning"
       },
       {
         "id": "deepseek-v3-1",
@@ -5575,7 +5793,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "tts"
       },
       {
         "id": "qwen-image",
@@ -5701,7 +5920,8 @@ export const providers: ProviderWithModels[] = [
         "family": "whisper",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "transcription"
       },
       {
         "id": "whisper-large-v2",
@@ -5712,7 +5932,8 @@ export const providers: ProviderWithModels[] = [
         "family": "whisper",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "transcription"
       }
     ]
   },
@@ -5885,9 +6106,170 @@ export const providers: ProviderWithModels[] = [
     "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" fill-rule=\"evenodd\">\n  <path d=\"M16.493 17.4c.135-.52.08-.983-.161-1.338-.215-.328-.592-.519-1.05-.519l-8.663-.109a.148.148 0 01-.135-.082c-.027-.054-.027-.109-.027-.163.027-.082.108-.164.189-.164l8.744-.11c1.05-.054 2.153-.9 2.556-1.937l.511-1.31c.027-.055.027-.11.027-.164C17.92 8.91 15.66 7 12.942 7c-2.503 0-4.628 1.638-5.381 3.903a2.432 2.432 0 00-1.803-.491c-1.21.109-2.153 1.092-2.287 2.32-.027.328 0 .628.054.9C1.56 13.688 0 15.326 0 17.319c0 .19.027.355.027.545 0 .082.08.137.161.137h15.983c.08 0 .188-.055.215-.164l.107-.437\"/>\n  <path d=\"M19.238 11.75h-.242c-.054 0-.108.054-.135.109l-.35 1.2c-.134.52-.08.983.162 1.338.215.328.592.518 1.05.518l1.855.11c.054 0 .108.027.135.082.027.054.027.109.027.163-.027.082-.108.164-.188.164l-1.91.11c-1.05.054-2.153.9-2.557 1.937l-.134.355c-.027.055.026.137.107.137h6.592c.081 0 .162-.055.162-.137.107-.41.188-.846.188-1.31-.027-2.62-2.153-4.777-4.762-4.777\"/>\n</svg>",
     "models": [
       {
+        "id": "@cf/ai4bharat/indictrans2-en-indic-1B",
+        "name": "indictrans2-en-indic-1B",
+        "created_by": "ai4bharat",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
         "name": "gemma-sea-lion-v4-27b-it",
         "created_by": "aisingapore",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/baai/bge-base-en-v1.5",
+        "name": "bge-base-en-v1.5",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/baai/bge-large-en-v1.5",
+        "name": "bge-large-en-v1.5",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/baai/bge-m3",
+        "name": "bge-m3",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/baai/bge-reranker-base",
+        "name": "bge-reranker-base",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "rerank",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/baai/bge-small-en-v1.5",
+        "name": "bge-small-en-v1.5",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/black-forest-labs/flux-1-schnell",
+        "name": "flux-1-schnell",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/black-forest-labs/flux-2-dev",
+        "name": "flux-2-dev",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/black-forest-labs/flux-2-klein-4b",
+        "name": "flux-2-klein-4b",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/black-forest-labs/flux-2-klein-9b",
+        "name": "flux-2-klein-9b",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/bytedance/stable-diffusion-xl-lightning",
+        "name": "stable-diffusion-xl-lightning",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/deepgram/aura-1",
+        "name": "aura-1",
+        "created_by": "deepgram",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/deepgram/aura-2-en",
+        "name": "aura-2-en",
+        "created_by": "deepgram",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/deepgram/aura-2-es",
+        "name": "aura-2-es",
+        "created_by": "deepgram",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/deepgram/flux",
+        "name": "flux",
+        "created_by": "deepgram",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/deepgram/nova-3",
+        "name": "nova-3",
+        "created_by": "deepgram",
         "source": "official",
         "last_updated": "2026-03-21",
         "capabilities": {
@@ -5927,11 +6309,42 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/facebook/bart-large-cnn",
+        "name": "bart-large-cnn",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/facebook/detr-resnet-50",
+        "name": "detr-resnet-50",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/fblgit/una-cybertron-7b-v2-bf16",
         "name": "una-cybertron-7b-v2-bf16",
         "created_by": "fblgit",
         "source": "official",
         "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/google/embeddinggemma-300m",
+        "name": "embeddinggemma-300m",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
         "capabilities": {
           "streaming": true
         }
@@ -5970,6 +6383,16 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/huggingface/distilbert-sst-2-int8",
+        "name": "distilbert-sst-2-int8",
+        "created_by": "huggingface",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/ibm-granite/granite-4.0-h-micro",
         "name": "granite-4.0-h-micro",
         "created_by": "ibm",
@@ -5980,9 +6403,39 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/leonardo/lucid-origin",
+        "name": "lucid-origin",
+        "created_by": "leonardo",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/leonardo/phoenix-1.0",
+        "name": "phoenix-1.0",
+        "created_by": "leonardo",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/llava-hf/llava-1.5-7b-hf",
         "name": "llava-1.5-7b-hf",
         "created_by": "llava-hf",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/lykon/dreamshaper-8-lcm",
+        "name": "dreamshaper-8-lcm",
+        "created_by": "lykon",
         "source": "official",
         "last_updated": "2026-03-21",
         "capabilities": {
@@ -6144,6 +6597,18 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/meta/llama-guard-3-8b",
+        "name": "llama-guard-3-8b",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "llama-guard",
+        "model_type": "moderation",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/meta-llama/llama-2-7b-chat-hf-lora",
         "name": "llama-2-7b-chat-hf-lora",
         "created_by": "meta",
@@ -6155,8 +6620,28 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/meta/m2m100-1.2b",
+        "name": "m2m100-1.2b",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/microsoft/phi-2",
         "name": "phi-2",
+        "created_by": "microsoft",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/microsoft/resnet-50",
+        "name": "resnet-50",
         "created_by": "microsoft",
         "source": "official",
         "last_updated": "2026-03-21",
@@ -6206,6 +6691,16 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/myshell-ai/melotts",
+        "name": "melotts",
+        "created_by": "myshell",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/nvidia/nemotron-3-120b-a12b",
         "name": "nemotron-3-120b-a12b",
         "created_by": "nvidia",
@@ -6238,9 +6733,63 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/openai/whisper-large-v3-turbo",
+        "name": "whisper-large-v3-turbo",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "whisper",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/openai/whisper-tiny-en",
+        "name": "whisper-tiny-en",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "whisper",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/openai/whisper",
+        "name": "whisper",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "whisper",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/openchat/openchat-3.5-0106",
         "name": "openchat-3.5-0106",
         "created_by": "openchat",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/pfnet/plamo-embedding-1b",
+        "name": "plamo-embedding-1b",
+        "created_by": "pfnet",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/pipecat-ai/smart-turn-v2",
+        "name": "smart-turn-v2",
+        "created_by": "pipecat-ai",
         "source": "official",
         "last_updated": "2026-03-21",
         "capabilities": {
@@ -6314,12 +6863,54 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/qwen/qwen3-embedding-0.6b",
+        "name": "qwen3-embedding-0.6b",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen3",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@cf/qwen/qwq-32b",
         "name": "qwq-32b",
         "created_by": "qwen",
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "qwq",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/runwayml/stable-diffusion-v1-5-img2img",
+        "name": "stable-diffusion-v1-5-img2img",
+        "created_by": "runway",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/runwayml/stable-diffusion-v1-5-inpainting",
+        "name": "stable-diffusion-v1-5-inpainting",
+        "created_by": "runway",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/stabilityai/stable-diffusion-xl-base-1.0",
+        "name": "stable-diffusion-xl-base-1.0",
+        "created_by": "stability",
+        "source": "official",
+        "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
         }
@@ -6348,6 +6939,16 @@ export const providers: ProviderWithModels[] = [
         "id": "@cf/tinyllama/tinyllama-1.1b-chat-v1.0",
         "name": "tinyllama-1.1b-chat-v1.0",
         "created_by": "tinyllama",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "@cf/unum/uform-gen2-qwen-500m",
+        "name": "uform-gen2-qwen-500m",
+        "created_by": "unum",
         "source": "official",
         "last_updated": "2026-03-21",
         "capabilities": {
@@ -6449,6 +7050,17 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@hf/thebloke/llamaguard-7b-awq",
+        "name": "llamaguard-7b-awq",
+        "created_by": "thebloke",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "moderation",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
         "id": "@hf/thebloke/mistral-7b-instruct-v0.1-awq",
         "name": "mistral-7b-instruct-v0.1-awq",
         "created_by": "thebloke",
@@ -6505,7 +7117,7 @@ export const providers: ProviderWithModels[] = [
         "name": "c4ai-aya-expanse-32b",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Aya Expanse is a highly performant 32B multilingual model, designed to rival monolingual performance through innovations in instruction tuning with data arbitrage, preference training, and model merging. Serves 23 languages.",
         "status": "active",
         "context_window": 128000,
@@ -6520,14 +7132,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Aya Expanse is a highly performant 32B multilingual model, designed to rival monolingual performance through innovations in instruction tuning with data arbitrage, preference training, and model merging."
       },
       {
         "id": "c4ai-aya-expanse-8b",
         "name": "c4ai-aya-expanse-8b",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Aya Expanse is a highly performant 8B multilingual model, designed to rival monolingual performance through innovations in instruction tuning with data arbitrage, preference training, and model merging. Serves 23 languages.",
         "status": "deprecated",
         "context_window": 8000,
@@ -6542,14 +7155,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Aya Expanse is a highly performant 8B multilingual model, designed to rival monolingual performance through innovations in instruction tuning with data arbitrage, preference training, and model merging."
       },
       {
         "id": "c4ai-aya-vision-32b",
         "name": "c4ai-aya-vision-32b",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Aya Vision is a state-of-the-art multimodal model excelling at a variety of critical benchmarks for language, text, and image capabilities. Serves 23 languages. This 32 billion parameter variant is focused on state-of-art multilingual performance.",
         "status": "active",
         "context_window": 16000,
@@ -6566,14 +7180,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Aya Vision is a state-of-the-art multimodal model excelling at a variety of critical benchmarks for language, text, and image capabilities."
       },
       {
         "id": "c4ai-aya-vision-8b",
         "name": "c4ai-aya-vision-8b",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Aya Vision is a state-of-the-art multimodal model excelling at a variety of critical benchmarks for language, text, and image capabilities. This 8 billion parameter variant is focused on low latency and best-in-class performance.",
         "status": "deprecated",
         "context_window": 16000,
@@ -6590,7 +7205,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Aya Vision is a state-of-the-art multimodal model excelling at a variety of critical benchmarks for language, text, and image capabilities."
       },
       {
         "id": "command-a-03-2025",
@@ -6613,14 +7229,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Command A is our most performant model to date, excelling at tool use, agents, retrieval augmented generation (RAG), and multilingual use cases."
       },
       {
         "id": "command-a-reasoning-08-2025",
         "name": "command-a-reasoning-08-2025",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Command A Reasoning is Cohere’s first reasoning model, able to ‘think’ before generating an output in a way that allows it to perform well in certain kinds of nuanced problem-solving and agent-based tasks in 23 languages.",
         "status": "active",
         "context_window": 256000,
@@ -6636,14 +7253,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Command A Reasoning is Cohere’s first reasoning model, able to ‘think’ before generating an output in a way that allows it to perform well in certain kinds of nuanced problem-solving and agent-based t"
       },
       {
         "id": "command-a-translate-08-2025",
         "name": "command-a-translate-08-2025",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Command A Translate is Cohere’s state of the art machine translation model, excelling at a variety of translation tasks on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Chinese, Arabic, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, Persian.",
         "status": "active",
         "context_window": 8000,
@@ -6658,14 +7276,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Command A Translate is Cohere’s state of the art machine translation model, excelling at a variety of translation tasks on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese"
       },
       {
         "id": "command-a-vision-07-2025",
         "name": "command-a-vision-07-2025",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Command A Vision is our first model capable of processing images, excelling in enterprise use cases such as analyzing charts, graphs, and diagrams, table understanding, OCR, document Q&amp;A, and object detection. It officially supports English, Portuguese, Italian, French, German, and Spanish.",
         "status": "active",
         "context_window": 128000,
@@ -6682,14 +7301,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Command A Vision is our first model capable of processing images, excelling in enterprise use cases such as analyzing charts, graphs, and diagrams, table understanding, OCR, document Q&amp;A, and object detection."
       },
       {
         "id": "command-light-nightly",
         "name": "command-light-nightly",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "N/A",
         "status": "active",
         "capabilities": {
@@ -6702,14 +7322,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "N/A"
       },
       {
         "id": "command-nightly",
         "name": "command-nightly",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "N/A",
         "status": "active",
         "capabilities": {
@@ -6722,14 +7343,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "N/A"
       },
       {
         "id": "command-r-03-2024",
         "name": "command-r-03-2024",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Command R is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models. It can be used for complex workflows like code generation, retrieval augmented generation (RAG), tool use, and agents.",
         "status": "deprecated",
         "context_window": 128000,
@@ -6745,14 +7367,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Command R is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models."
       },
       {
         "id": "command-r-08-2024",
         "name": "command-r-08-2024",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "command-r-08-2024 is an update of the Command R model, delivered in August 2024. Find more information here",
         "status": "active",
         "context_window": 128000,
@@ -6767,14 +7390,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "command-r-08-2024 is an update of the Command R model, delivered in August 2024."
       },
       {
         "id": "command-r-plus-04-2024",
         "name": "command-r-plus-04-2024",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "Command R+ is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models. It is best suited for complex RAG workflows and multi-step tool use.",
         "status": "deprecated",
         "context_window": 128000,
@@ -6790,14 +7414,15 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Command R+ is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models."
       },
       {
         "id": "command-r-plus-08-2024",
         "name": "command-r-plus-08-2024",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "description": "command-r-plus-08-2024 is an update of the Command R+ model, delivered in August 2024. Find more information here",
         "status": "active",
         "context_window": 128000,
@@ -6812,7 +7437,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "command-r-plus-08-2024 is an update of the Command R+ model, delivered in August 2024."
       },
       {
         "id": "command-r7b-12-2024",
@@ -6828,6 +7454,303 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tagline": "command-r7b-12-2024 is a small, fast update delivered in December 2024."
+      },
+      {
+        "id": "embed-english-light-v2.0",
+        "name": "embed-english-light-v2.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "embed",
+        "tagline": "Unique per deployment",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "embed-english-light-v3.0",
+        "name": "embed-english-light-v3.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "context_window": 512,
+        "model_type": "embed",
+        "tagline": "Text, Images",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "embed-english-v2.0",
+        "name": "embed-english-v2.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "embed",
+        "tagline": "Unique per deployment",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "embed-english-v3.0",
+        "name": "embed-english-v3.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "context_window": 512,
+        "model_type": "embed",
+        "tagline": "Text, Images",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "embed-multilingual-light-v3.0",
+        "name": "embed-multilingual-light-v3.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "context_window": 512,
+        "model_type": "embed",
+        "tagline": "Text, Images",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "embed-multilingual-v2.0",
+        "name": "embed-multilingual-v2.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "embed",
+        "tagline": "Unique per deployment",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "embed-multilingual-v3.0",
+        "name": "embed-multilingual-v3.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "context_window": 512,
+        "model_type": "embed",
+        "tagline": "Text, Images",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "embed-v4.0",
+        "name": "embed-v4.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "context_window": 128000,
+        "model_type": "embed",
+        "tagline": "Text, Images, Mixed texts/images (i.e.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "rerank-english-v3.0",
+        "name": "rerank-english-v3.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "rerank",
+        "tagline": "Text",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "rerank-multilingual-v3.0",
+        "name": "rerank-multilingual-v3.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "rerank",
+        "tagline": "Text",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "rerank-v3.5",
+        "name": "rerank-v3.5",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "rerank",
+        "tagline": "Text",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "rerank-v4.0-fast",
+        "name": "rerank-v4.0-fast",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "rerank",
+        "tagline": "Text",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "rerank-v4.0-pro",
+        "name": "rerank-v4.0-pro",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Unique per deployment",
+        "status": "active",
+        "model_type": "rerank",
+        "tagline": "Text",
+        "capabilities": {
+          "streaming": true
         },
         "modalities": {
           "input": [
@@ -7878,7 +8801,8 @@ export const providers: ProviderWithModels[] = [
           "input": 0.28,
           "output": 0.42,
           "cached_input": 0.028
-        }
+        },
+        "tagline": "DeepSeek-V3.2 in non-thinking mode."
       },
       {
         "id": "deepseek-reasoner",
@@ -7900,7 +8824,8 @@ export const providers: ProviderWithModels[] = [
           "input": 0.28,
           "output": 0.42,
           "cached_input": 0.028
-        }
+        },
+        "tagline": "DeepSeek-V3.2 in thinking mode with chain-of-thought reasoning."
       }
     ]
   },
@@ -9252,7 +10177,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "fireworks/gpt-oss-safeguard-20b",
@@ -9268,7 +10194,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "fireworks/hermes-2-pro-mistral-7b",
@@ -9322,6 +10249,20 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "context_window": 16400,
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 1
+        }
+      },
+      {
+        "id": "fireworks/japanese-stable-diffusion-xl",
+        "name": "japanese-stable-diffusion-xl",
+        "created_by": "fireworks",
+        "source": "official",
+        "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
         },
@@ -9449,7 +10390,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "fireworks/llama-guard-3-1b",
@@ -9465,7 +10407,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "fireworks/llama-guard-3-8b",
@@ -9481,7 +10424,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "fireworks/llama-v2-13b-chat",
@@ -9869,7 +10813,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "fireworks/llava-yi-34b",
@@ -11677,7 +12622,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "fireworks/qwen3-embedding-4b",
@@ -11693,7 +12639,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "fireworks/qwen3-embedding-8b",
@@ -11709,7 +12656,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "fireworks/qwen3-next-80b-a3b-instruct",
@@ -11771,7 +12719,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "rerank"
       },
       {
         "id": "fireworks/qwen3-reranker-4b",
@@ -11787,7 +12736,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1,
           "output": 1
-        }
+        },
+        "model_type": "rerank"
       },
       {
         "id": "fireworks/qwen3-reranker-8b",
@@ -11803,7 +12753,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.2,
           "output": 1
-        }
+        },
+        "model_type": "rerank"
       },
       {
         "id": "fireworks/qwen3-vl-235b-a22b-instruct",
@@ -11965,6 +12916,20 @@ export const providers: ProviderWithModels[] = [
         "id": "fireworks/SSD-1B",
         "name": "SSD-1B",
         "created_by": "stability",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 1
+        }
+      },
+      {
+        "id": "fireworks/stable-diffusion-xl-1024-v1-0",
+        "name": "stable-diffusion-xl-1024-v1-0",
+        "created_by": "fireworks",
         "source": "official",
         "last_updated": "2026-03-21",
         "capabilities": {
@@ -12262,7 +13227,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash"
       },
       {
         "id": "gemini-2.0-flash-lite-001",
@@ -12285,7 +13251,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-lite-preview-02-05",
@@ -12308,7 +13275,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-lite-preview",
@@ -12331,7 +13299,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-lite",
@@ -12364,7 +13333,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.0-flash-live-001",
@@ -12387,7 +13364,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-native-audio-preview-12-2025"
       },
       {
         "id": "gemini-2.0-flash-preview-image-generation",
@@ -12410,7 +13388,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-image"
       },
       {
         "id": "gemini-2.0-flash",
@@ -12443,7 +13422,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-computer-use-preview-10-2025",
@@ -12474,7 +13461,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-image-preview",
@@ -12497,7 +13491,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-image"
       },
       {
         "id": "gemini-2.5-flash-image",
@@ -12530,7 +13525,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-flash-image-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-lite-preview-09-2025",
@@ -12563,7 +13566,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-flash-lite-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-lite",
@@ -12596,7 +13607,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-flash-lite-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-native-audio-preview-12-2025",
@@ -12628,7 +13647,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-preview-05-20",
@@ -12651,7 +13677,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3-flash-preview"
       },
       {
         "id": "gemini-2.5-flash-preview-09-2025",
@@ -12683,7 +13710,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-preview-09-25",
@@ -12706,7 +13740,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3-flash-preview"
       },
       {
         "id": "gemini-2.5-flash-preview-tts",
@@ -12737,7 +13772,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "tts",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash",
@@ -12770,7 +13813,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3-flash-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-pro-preview-03-25",
@@ -12793,7 +13844,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview"
       },
       {
         "id": "gemini-2.5-pro-preview-05-06",
@@ -12816,7 +13868,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview"
       },
       {
         "id": "gemini-2.5-pro-preview-06-05",
@@ -12839,7 +13892,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview"
       },
       {
         "id": "gemini-2.5-pro-preview-tts",
@@ -12870,7 +13924,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "tts",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-pro",
@@ -12903,7 +13965,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3-flash-preview",
@@ -12936,7 +14006,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3-pro-image-preview",
@@ -12969,7 +14046,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3-pro-preview",
@@ -13002,7 +14086,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3.1-flash-image-preview",
@@ -13035,7 +14127,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3.1-flash-lite-preview",
@@ -13068,7 +14167,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3.1-pro-preview",
@@ -13101,7 +14207,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-embedding-001",
@@ -13131,7 +14244,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "embed",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-embedding-2-preview",
@@ -13160,7 +14281,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "embed",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-embedding-exp-03-07",
@@ -13182,7 +14311,9 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-embedding-001",
+        "model_type": "embed"
       },
       {
         "id": "gemini-embedding-exp",
@@ -13204,7 +14335,9 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-embedding-001",
+        "model_type": "embed"
       },
       {
         "id": "gemini-live-2.5-flash-preview",
@@ -13226,7 +14359,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-native-audio-preview-12-2025"
       },
       {
         "id": "gemini-robotics-er-1.5-preview",
@@ -13257,7 +14391,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       }
     ]
   },
@@ -14074,7 +15215,8 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-oss",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "openchat/openchat-3.6-8b-20240522",
@@ -14690,6 +15832,17 @@ export const providers: ProviderWithModels[] = [
         "created_by": "tokyotech-llm",
         "source": "official",
         "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        }
+      },
+      {
+        "id": "unsloth/gemma-2-9b-it",
+        "name": "gemma-2-9b-it",
+        "created_by": "unsloth",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gemma-2",
         "capabilities": {
           "streaming": true
         }
@@ -15374,7 +16527,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "Llama-Guard-3-1B",
@@ -15393,7 +16547,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "Llama-Guard-3-8B-INT8",
@@ -15412,7 +16567,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "Llama-Guard-3-8B",
@@ -15431,7 +16587,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "LlamaGuard-7b",
@@ -15450,7 +16607,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "Meta-Llama-3-70B-Instruct",
@@ -15509,7 +16667,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       }
     ]
   },
@@ -15691,6 +16850,11 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "model_type": "code",
+        "pricing": {
+          "input": 0.3,
+          "output": 0.9
         }
       },
       {
@@ -15716,6 +16880,11 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "model_type": "code",
+        "pricing": {
+          "input": 0.3,
+          "output": 0.9
         }
       },
       {
@@ -15744,7 +16913,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.3,
           "output": 0.9
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "codestral-embed-2505",
@@ -15768,7 +16938,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "codestral-embed",
@@ -15794,7 +16965,8 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "codestral-embed-2505"
-        ]
+        ],
+        "model_type": "embed"
       },
       {
         "id": "codestral-mamba-7b-01",
@@ -15815,7 +16987,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "codestral",
@@ -15847,7 +17020,8 @@ export const providers: ProviderWithModels[] = [
           "codestral-2501",
           "codestral-2405"
         ],
-        "deprecation_date": "2024-12-02"
+        "deprecation_date": "2024-12-02",
+        "model_type": "code"
       },
       {
         "id": "devstral-medium-2507",
@@ -15875,7 +17049,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.4,
           "output": 2
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "devstral-medium-latest",
@@ -15902,7 +17077,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.4,
           "output": 2
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "devstral-medium",
@@ -15932,7 +17108,8 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "devstral-medium-2507"
-        ]
+        ],
+        "model_type": "code"
       },
       {
         "id": "devstral-small-2505",
@@ -15957,6 +17134,11 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "model_type": "code",
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
         }
       },
       {
@@ -15985,7 +17167,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.1,
           "output": 0.3
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "devstral-small-2512",
@@ -16013,7 +17196,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.1,
           "output": 0.3
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "devstral-small",
@@ -16046,7 +17230,8 @@ export const providers: ProviderWithModels[] = [
           "devstral-small-2507",
           "devstral-small-2505"
         ],
-        "deprecation_date": "2025-10-31"
+        "deprecation_date": "2025-10-31",
+        "model_type": "code"
       },
       {
         "id": "magistral-medium-2506",
@@ -16070,6 +17255,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 5
         }
       },
       {
@@ -16094,6 +17283,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 5
         }
       },
       {
@@ -16177,6 +17370,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 1.5
         }
       },
       {
@@ -16201,6 +17398,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 1.5
         }
       },
       {
@@ -16343,6 +17544,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.1
         }
       },
       {
@@ -16428,6 +17633,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.15
         }
       },
       {
@@ -16571,7 +17780,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "mistral-embed",
@@ -16596,7 +17806,8 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "mistral-embed-2312"
-        ]
+        ],
+        "model_type": "embed"
       },
       {
         "id": "mistral-large-2402",
@@ -16619,6 +17830,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 6
         }
       },
       {
@@ -16642,6 +17857,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 6
         }
       },
       {
@@ -16754,6 +17973,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 2
         }
       },
       {
@@ -16865,7 +18088,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "mistral-moderation-2603",
@@ -16888,7 +18112,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "mistral-moderation",
@@ -16914,7 +18139,8 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "mistral-moderation-2603",
           "mistral-moderation-2411"
-        ]
+        ],
+        "model_type": "moderation"
       },
       {
         "id": "mistral-nemo-2407",
@@ -17058,6 +18284,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
         }
       },
       {
@@ -17083,6 +18313,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
         }
       },
       {
@@ -17108,6 +18342,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
         }
       },
       {
@@ -17133,6 +18371,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
         }
       },
       {
@@ -17437,7 +18679,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "context_window": 32000
       },
       {
         "id": "voxtral-mini-transcribe-realtime-2602",
@@ -17459,7 +18702,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "model_type": "transcription"
       },
       {
         "id": "voxtral-mini-transcribe-realtime",
@@ -17483,7 +18727,8 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "voxtral-mini-transcribe-realtime-2602"
-        ]
+        ],
+        "model_type": "transcription"
       },
       {
         "id": "voxtral-mini",
@@ -17583,7 +18828,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        }
+        },
+        "tagline": "Enhanced agentic coding, front-end aesthetics, context understanding."
       },
       {
         "id": "kimi-k2-thinking-turbo",
@@ -17600,7 +18846,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "reasoning": true
-        }
+        },
+        "tagline": "Deep reasoning with high speed output."
       },
       {
         "id": "kimi-k2-thinking",
@@ -17616,7 +18863,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "reasoning": true
-        }
+        },
+        "tagline": "Long-term thinking, multi-step tool usage, complex problem solving."
       },
       {
         "id": "kimi-k2-turbo-preview",
@@ -17631,7 +18879,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        }
+        },
+        "tagline": "High-speed version, 60-100 tokens/sec output."
       },
       {
         "id": "kimi-k2.5",
@@ -17656,7 +18905,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tagline": "Kimi's most intelligent model with native multimodal support, thinking/non-thinking modes."
       },
       {
         "id": "moonshot-v1-128k",
@@ -18182,7 +19432,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "igenius/colosseum_355b_instruct_16k",
@@ -18393,7 +19644,8 @@ export const providers: ProviderWithModels[] = [
         "family": "llama-guard",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "meta/llama2-70b",
@@ -18983,7 +20235,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/gliner-pii",
@@ -19004,7 +20257,8 @@ export const providers: ProviderWithModels[] = [
         "family": "llama-3.1",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "nvidia/llama-3.1-nemoguard-8b-topic-control",
@@ -19015,7 +20269,8 @@ export const providers: ProviderWithModels[] = [
         "family": "llama-3.1",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "nvidia/llama-3.1-nemotron-51b-instruct",
@@ -19100,7 +20355,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
@@ -19124,7 +20380,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "vision": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/llama-3.2-nemoretriever-300m-embed-v1",
@@ -19135,7 +20392,8 @@ export const providers: ProviderWithModels[] = [
         "family": "llama-3.2",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/llama-3.2-nv-embedqa-1b-v1",
@@ -19146,7 +20404,8 @@ export const providers: ProviderWithModels[] = [
         "family": "llama-3.2",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/llama-3.2-nv-embedqa-1b-v2",
@@ -19157,7 +20416,8 @@ export const providers: ProviderWithModels[] = [
         "family": "llama-3.2",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
@@ -19192,7 +20452,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
@@ -19204,7 +20465,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "vision": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/llama3-chatqa-1.5-70b",
@@ -19389,7 +20651,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/nv-embedcode-7b-v1",
@@ -19399,7 +20662,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/nv-embedqa-e5-v5",
@@ -19409,7 +20673,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/nv-embedqa-mistral-7b-v2",
@@ -19419,7 +20684,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "nvidia/nvclip",
@@ -19684,7 +20950,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "speakleash/bielik-11b-v2.3-instruct",
@@ -19921,7 +21188,8 @@ export const providers: ProviderWithModels[] = [
         "family": "devstral",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "devstral-small-2",
@@ -19932,7 +21200,8 @@ export const providers: ProviderWithModels[] = [
         "family": "devstral",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "code"
       },
       {
         "id": "gemini-3-flash-preview",
@@ -20199,7 +21468,8 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3",
         "capabilities": {
           "streaming": true
-        }
+        },
+        "model_type": "embed"
       },
       {
         "id": "qwen3-next",
@@ -20264,22 +21534,124 @@ export const providers: ProviderWithModels[] = [
     "api_url": "https://api.openai.com/v1",
     "docs_url": "https://platform.openai.com/docs",
     "pricing_url": "https://openai.com/api/pricing",
+    "playground_url": "https://platform.openai.com/playground",
     "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" fill-rule=\"evenodd\">\n  <path d=\"M9.205 8.658v-2.26c0-.19.072-.333.238-.428l4.543-2.616c.619-.357 1.356-.523 2.117-.523 2.854 0 4.662 2.212 4.662 4.566 0 .167 0 .357-.024.547l-4.71-2.759a.797.797 0 00-.856 0l-5.97 3.473zm10.609 8.8V12.06c0-.333-.143-.57-.429-.737l-5.97-3.473 1.95-1.118a.433.433 0 01.476 0l4.543 2.617c1.309.76 2.189 2.378 2.189 3.948 0 1.808-1.07 3.473-2.76 4.163zM7.802 12.703l-1.95-1.142c-.167-.095-.239-.238-.239-.428V5.899c0-2.545 1.95-4.472 4.591-4.472 1 0 1.927.333 2.712.928L8.23 5.067c-.285.166-.428.404-.428.737v6.898zM12 15.128l-2.795-1.57v-3.33L12 8.658l2.795 1.57v3.33L12 15.128zm1.796 7.23c-1 0-1.927-.332-2.712-.927l4.686-2.712c.285-.166.428-.404.428-.737v-6.898l1.974 1.142c.167.095.238.238.238.428v5.233c0 2.545-1.974 4.472-4.614 4.472zm-5.637-5.303l-4.544-2.617c-1.308-.761-2.188-2.378-2.188-3.948A4.482 4.482 0 014.21 6.327v5.423c0 .333.143.571.428.738l5.947 3.449-1.95 1.118a.432.432 0 01-.476 0zm-.262 3.9c-2.688 0-4.662-2.021-4.662-4.519 0-.19.024-.38.047-.57l4.686 2.71c.286.167.571.167.856 0l5.97-3.448v2.26c0 .19-.07.333-.237.428l-4.543 2.616c-.619.357-1.356.523-2.117.523zm5.899 2.83a5.947 5.947 0 005.827-4.756C22.287 18.339 24 15.84 24 13.296c0-1.665-.713-3.282-1.998-4.448.119-.5.19-.999.19-1.498 0-3.401-2.759-5.947-5.946-5.947-.642 0-1.26.095-1.88.31A5.962 5.962 0 0010.205 0a5.947 5.947 0 00-5.827 4.757C1.713 5.447 0 7.945 0 10.49c0 1.666.713 3.283 1.998 4.448-.119.5-.19 1-.19 1.499 0 3.401 2.759 5.946 5.946 5.946.642 0 1.26-.095 1.88-.309a5.96 5.96 0 004.162 1.713z\"/>\n</svg>",
     "models": [
+      {
+        "id": "babbage-002",
+        "name": "babbage-002",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "GPT base models can understand and generate natural language or code but are not trained with instruction following. These models are made to be replacements for our original GPT-3 base models and use the legacy Completions API. Most customers should use GPT-3.5 or GPT-4.",
+        "status": "deprecated",
+        "knowledge_cutoff": "2021-08",
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "performance": 1,
+        "speed": 3,
+        "tagline": "Replacement for the GPT-3 ada and babbage base models",
+        "successor": "gpt-4o",
+        "capabilities": {
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.4,
+                    1.6,
+                    null,
+                    1.6
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    0.8,
+                    null,
+                    0.8
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Text tokens",
+              "unit": "",
+              "columns": [
+                "Input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.4,
+                    0.4
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.2,
+                    0.2
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 0.4,
+          "output": 0.4,
+          "batch_input": 0.2,
+          "batch_output": 0.2
+        },
+        "endpoints": [
+          "completions"
+        ],
+        "snapshots": [
+          "babbage-002"
+        ]
+      },
       {
         "id": "chatgpt-4o-latest",
         "name": "ChatGPT-4o",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "chatgpt",
         "description": "ChatGPT-4o points to the GPT-4o snapshot currently used in ChatGPT. We recommend using an API model like [GPT-5](/api/docs/models/gpt-5) or [GPT-4o](/api/docs/models/gpt-4o) for most API integrations, but feel free to use this ChatGPT-4o model to test our latest improvements for chat use cases.",
         "status": "deprecated",
+        "knowledge_cutoff": "2023-09",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
         "performance": 3,
         "speed": 3,
+        "tagline": "GPT-4o model used in ChatGPT",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -20288,20 +21660,179 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "",
+              "columns": [
+                "Input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    15
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 5,
+          "output": 15
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses"
+        ],
+        "snapshots": [
+          "chatgpt-4o-latest"
+        ]
       },
       {
         "id": "chatgpt-image-latest",
         "name": "chatgpt-image-latest",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "chatgpt",
+        "description": "GPT Image Latest points to the image snapshot currently used in ChatGPT.",
         "status": "active",
+        "model_type": "image",
+        "performance": 5,
+        "speed": 3,
+        "tagline": "Image model used in ChatGPT.",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image",
+            "text"
+          ]
+        },
         "pricing": {
           "input": 5,
           "output": 10,
-          "cached_input": 1.25
+          "cached_input": 1.25,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    1.25,
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    8,
+                    2,
+                    32
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Quality",
+                "1024x1024",
+                "1024x1536",
+                "1536x1024"
+              ],
+              "rows": [
+                {
+                  "label": "Low",
+                  "values": [
+                    null,
+                    0.009,
+                    0.013,
+                    0.013
+                  ]
+                },
+                {
+                  "label": "Medium",
+                  "values": [
+                    null,
+                    0.034,
+                    0.05,
+                    0.05
+                  ]
+                },
+                {
+                  "label": "High",
+                  "values": [
+                    null,
+                    0.133,
+                    0.2,
+                    0.2
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "batch",
+          "image_generation",
+          "image_edit"
+        ],
+        "snapshots": [
+          "chatgpt-image-latest"
+        ]
+      },
+      {
+        "id": "Code Interpreter",
+        "name": "Code Interpreter",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "status": "active",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Built-in tools",
+              "unit": "",
+              "columns": [
+                "Cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.03
+                  ]
+                }
+              ]
+            }
+          ]
         }
       },
       {
@@ -20309,13 +21840,25 @@ export const providers: ProviderWithModels[] = [
         "name": "codex-mini-latest",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "codex",
-        "status": "active",
+        "description": "codex-mini-latest is a fine-tuned version of o4-mini specifically",
+        "status": "deprecated",
+        "knowledge_cutoff": "2024-05",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "reasoning_tokens": true,
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "Fast reasoning model optimized for the Codex CLI",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -20328,8 +21871,35 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1.5,
           "output": 6,
-          "cached_input": 0.375
-        }
+          "cached_input": 0.375,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.5,
+                    0.375,
+                    6
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "responses"
+        ],
+        "snapshots": [
+          "codex-mini-latest"
+        ]
       },
       {
         "id": "computer-use-preview-2025-03-11",
@@ -20337,12 +21907,21 @@ export const providers: ProviderWithModels[] = [
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
+        "description": "The computer-use-preview model is a specialized model for the computer use",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 8192,
         "max_output_tokens": 1024,
+        "reasoning_tokens": true,
         "alias": "computer-use-preview",
         "performance": 2,
+        "reasoning": 2,
         "speed": 2,
+        "tagline": "The computer-use-preview model is a specialized model for the computer use",
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -20356,8 +21935,41 @@ export const providers: ProviderWithModels[] = [
           "input": 3,
           "output": 12,
           "batch_input": 1.5,
-          "batch_output": 6
-        }
+          "batch_output": 6,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    3,
+                    null,
+                    12
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    1.5,
+                    null,
+                    6
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "responses",
+          "batch"
+        ]
       },
       {
         "id": "computer-use-preview",
@@ -20365,11 +21977,20 @@ export const providers: ProviderWithModels[] = [
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
+        "description": "The computer-use-preview model is a specialized model for the computer use",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 8192,
         "max_output_tokens": 1024,
+        "reasoning_tokens": true,
         "performance": 2,
+        "reasoning": 2,
         "speed": 2,
+        "tagline": "Specialized model for computer use tool",
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -20383,24 +22004,297 @@ export const providers: ProviderWithModels[] = [
           "input": 3,
           "output": 12,
           "batch_input": 1.5,
-          "batch_output": 6
+          "batch_output": 6,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    3,
+                    null,
+                    12
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    1.5,
+                    null,
+                    6
+                  ]
+                }
+              ]
+            }
+          ]
         },
+        "endpoints": [
+          "responses",
+          "batch"
+        ],
         "snapshots": [
           "computer-use-preview-2025-03-11"
         ]
+      },
+      {
+        "id": "dall-e-2",
+        "name": "DALL·E 2",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "DALL·E is an AI system that creates realistic images and art from a natural language description. Older than DALL·E 3, DALL·E 2 offers more control in prompting and more requests at once.",
+        "status": "deprecated",
+        "model_type": "image",
+        "performance": 1,
+        "speed": 2,
+        "tagline": "Our first image generation model",
+        "successor": "dall-e-3",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Quality",
+                "256x256",
+                "512x512",
+                "1024x1024"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    null,
+                    0.016,
+                    0.018,
+                    0.02
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "image_generation",
+          "image_edit"
+        ],
+        "snapshots": [
+          "dall-e-2"
+        ]
+      },
+      {
+        "id": "dall-e-3",
+        "name": "DALL·E 3",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "DALL·E is an AI system that creates realistic images and art from a natural language description. DALL·E 3 currently supports the ability, given a prompt, to create a new image with a specific size.",
+        "status": "deprecated",
+        "model_type": "image",
+        "performance": 3,
+        "speed": 2,
+        "tagline": "Previous generation image generation model",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Quality",
+                "1024x1024",
+                "1024x1792",
+                "1792x1024"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    null,
+                    0.04,
+                    0.08,
+                    0.08
+                  ]
+                },
+                {
+                  "label": "HD",
+                  "values": [
+                    null,
+                    0.08,
+                    0.12,
+                    0.12
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "image_generation"
+        ],
+        "snapshots": [
+          "dall-e-3"
+        ]
+      },
+      {
+        "id": "davinci-002",
+        "name": "davinci-002",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "GPT base models can understand and generate natural language or code but are not trained with instruction following. These models are made to be replacements for our original GPT-3 base models and use the legacy Completions API. Most customers should use GPT-3.5 or GPT-4.",
+        "status": "deprecated",
+        "knowledge_cutoff": "2021-08",
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "performance": 1,
+        "speed": 3,
+        "tagline": "Replacement for the GPT-3 curie and davinci base models",
+        "capabilities": {
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    6,
+                    12,
+                    null,
+                    12
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    6,
+                    null,
+                    6
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Text tokens",
+              "unit": "",
+              "columns": [
+                "Input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2,
+                    2
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    1,
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 2,
+          "output": 2,
+          "batch_input": 1,
+          "batch_output": 1
+        },
+        "endpoints": [
+          "completions"
+        ],
+        "snapshots": [
+          "davinci-002"
+        ]
+      },
+      {
+        "id": "File Search Storage",
+        "name": "File Search Storage",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "status": "active",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Built-in tools",
+              "unit": "",
+              "columns": [
+                "Cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.1
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "gpt-3.5-0301",
         "name": "gpt-3.5-0301",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-3.5",
         "status": "active",
+        "knowledge_cutoff": "2021-08",
         "context_window": 16385,
         "max_output_tokens": 4096,
         "performance": 1,
         "speed": 2,
+        "capabilities": {
+          "fine_tuning": true
+        },
         "modalities": {
           "input": [
             "text"
@@ -20408,20 +22302,28 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses"
+        ]
       },
       {
         "id": "gpt-3.5-turbo-0125",
         "name": "gpt-3.5-turbo-0125",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-3.5",
         "status": "active",
+        "knowledge_cutoff": "2021-08",
         "context_window": 16385,
         "max_output_tokens": 4096,
         "performance": 1,
         "speed": 2,
+        "capabilities": {
+          "fine_tuning": true
+        },
         "modalities": {
           "input": [
             "text"
@@ -20429,20 +22331,30 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "batch",
+          "fine_tuning"
+        ]
       },
       {
         "id": "gpt-3.5-turbo-0613",
         "name": "gpt-3.5-turbo-0613",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-3.5",
         "status": "active",
+        "knowledge_cutoff": "2021-08",
         "context_window": 16385,
         "max_output_tokens": 4096,
         "performance": 1,
         "speed": 2,
+        "capabilities": {
+          "fine_tuning": true
+        },
         "modalities": {
           "input": [
             "text"
@@ -20451,45 +22363,31 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "GPT-3.5 Turbo is OpenAI's fastest model.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        }
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "batch"
+        ]
       },
       {
         "id": "gpt-3.5-turbo-16k-0613",
         "name": "gpt-3.5-turbo-16k-0613",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-3.5",
+        "description": "GPT-3.5 Turbo models can understand and generate natural language or code and have been optimized for chat using the Chat Completions API but work well for non-chat tasks as well. As of July 2024, use gpt-4o-mini in place of GPT-3.5 Turbo, as it is cheaper, more capable, multimodal, and just as fast. GPT-3.5 Turbo is still available for use in the API.",
         "status": "active",
+        "knowledge_cutoff": "2021-08",
         "context_window": 16385,
         "max_output_tokens": 4096,
+        "model_type": "chat",
         "performance": 1,
         "speed": 2,
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      {
-        "id": "gpt-3.5-turbo-instruct",
-        "name": "gpt-3.5-turbo-instruct",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-20",
-        "family": "gpt-3.5",
-        "status": "active",
-        "context_window": 4096,
-        "max_output_tokens": 4096,
-        "performance": 1,
-        "speed": 2,
+        "tagline": "Legacy GPT model for cheaper chat and non-chat tasks",
+        "capabilities": {
+          "fine_tuning": true
+        },
         "modalities": {
           "input": [
             "text"
@@ -20498,23 +22396,66 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "This model is a variant of GPT-3.5 Turbo tuned for instructional prompts and omitting chat-related optimizations.",
-        "capabilities": {
-          "structured_output": true
-        }
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "",
+              "columns": [
+                "Input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    3,
+                    4
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    1.5,
+                    2
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 3,
+          "output": 4,
+          "batch_input": 1.5,
+          "batch_output": 2
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "batch"
+        ],
+        "snapshots": [
+          "gpt-3.5-turbo-16k-0613"
+        ]
       },
       {
-        "id": "gpt-4-0613",
-        "name": "gpt-4-0613",
+        "id": "gpt-3.5-turbo-instruct",
+        "name": "gpt-3.5-turbo-instruct",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
-        "family": "gpt-4",
-        "status": "active",
-        "context_window": 8192,
-        "max_output_tokens": 8192,
-        "performance": 2,
-        "speed": 3,
+        "last_updated": "2026-03-21",
+        "family": "gpt-3.5",
+        "description": "Similar capabilities as GPT-3 era models. Compatible with legacy Completions endpoint and not Chat Completions.",
+        "status": "deprecated",
+        "knowledge_cutoff": "2021-08",
+        "context_window": 4096,
+        "max_output_tokens": 4096,
+        "model_type": "chat",
+        "performance": 1,
+        "speed": 2,
+        "tagline": "An older model only compatible with the legacy Completions endpoint",
+        "capabilities": {
+          "fine_tuning": true
+        },
         "modalities": {
           "input": [
             "text"
@@ -20522,6 +22463,244 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "",
+              "columns": [
+                "Input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.5,
+                    2
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 1.5,
+          "output": 2
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses"
+        ],
+        "snapshots": [
+          "gpt-3.5-turbo-instruct"
+        ]
+      },
+      {
+        "id": "gpt-3.5-turbo",
+        "name": "GPT-3.5 Turbo",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-3.5",
+        "description": "GPT-3.5 Turbo models can understand and generate natural language or code and have been optimized for chat using the Chat Completions API but work well for non-chat tasks as well. As of July 2024, use gpt-4o-mini in place of GPT-3.5 Turbo, as it is cheaper, more capable, multimodal, and just as fast. GPT-3.5 Turbo is still available for use in the API.",
+        "status": "active",
+        "knowledge_cutoff": "2021-08",
+        "context_window": 16385,
+        "max_output_tokens": 4096,
+        "model_type": "chat",
+        "performance": 1,
+        "speed": 2,
+        "tagline": "Legacy GPT model for cheaper chat and non-chat tasks",
+        "successor": "gpt-4o-mini",
+        "capabilities": {
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    8,
+                    3,
+                    null,
+                    6
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    1.5,
+                    null,
+                    3
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Text tokens",
+              "unit": "",
+              "columns": [
+                "Input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.5,
+                    1.5
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.25,
+                    0.75
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 0.5,
+          "output": 1.5,
+          "batch_input": 0.25,
+          "batch_output": 0.75
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "batch",
+          "fine_tuning"
+        ],
+        "snapshots": [
+          "gpt-3.5-turbo-0125",
+          "gpt-3.5-turbo-1106",
+          "gpt-3.5-turbo-instruct"
+        ]
+      },
+      {
+        "id": "gpt-4-0613",
+        "name": "gpt-4-0613",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4",
+        "status": "active",
+        "knowledge_cutoff": "2023-11",
+        "context_window": 8192,
+        "max_output_tokens": 8192,
+        "performance": 2,
+        "speed": 3,
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch",
+          "fine_tuning"
+        ]
+      },
+      {
+        "id": "gpt-4-1106-vision-preview",
+        "name": "gpt-4-1106-vision-preview",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4",
+        "status": "active",
+        "knowledge_cutoff": "2023-11",
+        "context_window": 128000,
+        "max_output_tokens": 4096,
+        "performance": 2,
+        "speed": 3,
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants"
+        ]
+      },
+      {
+        "id": "gpt-4-32k",
+        "name": "gpt-4-32k",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4",
+        "status": "active",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "",
+              "columns": [
+                "Input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    60,
+                    120
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    30,
+                    60
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 60,
+          "output": 120,
+          "batch_input": 30,
+          "batch_output": 60
         }
       },
       {
@@ -20532,11 +22711,17 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gpt-4-turbo",
         "status": "active",
+        "knowledge_cutoff": "2023-11",
         "context_window": 128000,
         "max_output_tokens": 4096,
         "alias": "gpt-4-turbo",
         "performance": 2,
         "speed": 3,
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -20546,11 +22731,46 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch"
+        ],
         "description": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model. It was designed to be a cheaper, better version of GPT-4. Today, we recommend using a newer model like GPT-4o.",
         "model_type": "chat",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
+        "tagline": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "",
+              "columns": [
+                "Input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    30
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    5,
+                    15
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 10,
+          "output": 30,
+          "batch_input": 5,
+          "batch_output": 15
         }
       },
       {
@@ -20558,25 +22778,17 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4 Turbo Preview",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-4-turbo",
         "description": "This is a research preview of the GPT-4 Turbo model, an older high-intelligence GPT model.",
         "status": "deprecated",
         "model_type": "chat",
-        "context_window": 128000,
-        "max_output_tokens": 4096,
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        }
+        "tagline": "An older fast GPT model",
+        "successor": "gpt-4o",
+        "snapshots": [
+          "gpt-4-0125-preview",
+          "gpt-4-1106-vision-preview"
+        ]
       },
       {
         "id": "gpt-4-turbo",
@@ -20585,13 +22797,17 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-4-turbo",
-        "description": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model. It was designed to be a cheaper, better version of GPT-4. Today, we recommend using a newer model like GPT-4o.",
         "status": "active",
+        "knowledge_cutoff": "2023-11",
         "context_window": 128000,
         "max_output_tokens": 4096,
-        "model_type": "chat",
         "performance": 2,
         "speed": 3,
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -20601,13 +22817,51 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch"
+        ],
         "snapshots": [
           "gpt-4-turbo-2024-04-09"
-        ]
+        ],
+        "description": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model. It was designed to be a cheaper, better version of GPT-4. Today, we recommend using a newer model like GPT-4o.",
+        "model_type": "chat",
+        "tagline": "An older high-intelligence GPT model",
+        "successor": "gpt-4o",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "",
+              "columns": [
+                "Input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    30
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    5,
+                    15
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 10,
+          "output": 30,
+          "batch_input": 5,
+          "batch_output": 15
+        }
       },
       {
         "id": "gpt-4.1-2025-04-14",
@@ -20616,12 +22870,23 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-4.1",
+        "description": "GPT-4.1 excels at instruction following and tool calling, with broad",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 1047576,
         "max_output_tokens": 32768,
+        "model_type": "chat",
         "alias": "gpt-4.1",
         "performance": 4,
         "speed": 3,
+        "tagline": "GPT-4.1 excels at instruction following and tool calling, with broad",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "fine_tuning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -20632,18 +22897,51 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    25,
+                    3,
+                    0.75,
+                    12
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    1.5,
+                    null,
+                    6
+                  ]
+                }
+              ]
+            }
+          ],
           "input": 2,
           "output": 8,
           "cached_input": 0.5,
           "batch_input": 1,
           "batch_output": 4
         },
-        "description": "GPT-4.1 excels at instruction following and tool calling, with broad",
-        "model_type": "chat",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        }
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch",
+          "fine_tuning"
+        ]
       },
       {
         "id": "gpt-4.1-mini-2025-04-14",
@@ -20652,12 +22950,23 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-4.1",
+        "description": "GPT-4.1 mini excels at instruction following and tool calling. It features a",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 1047576,
         "max_output_tokens": 32768,
+        "model_type": "chat",
         "alias": "gpt-4.1-mini",
         "performance": 3,
         "speed": 4,
+        "tagline": "GPT-4.1 mini excels at instruction following and tool calling.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "fine_tuning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -20668,33 +22977,75 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    0.8,
+                    0.2,
+                    3.2
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    0.4,
+                    null,
+                    1.6
+                  ]
+                }
+              ]
+            }
+          ],
           "input": 0.4,
           "output": 1.6,
           "cached_input": 0.1,
           "batch_input": 0.2,
           "batch_output": 0.8
         },
-        "description": "GPT-4.1 mini excels at instruction following and tool calling. It features a",
-        "model_type": "chat",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        }
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch",
+          "fine_tuning"
+        ]
       },
       {
         "id": "gpt-4.1-mini",
-        "name": "gpt-4.1-mini",
+        "name": "GPT-4.1 mini",
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-4.1",
         "description": "GPT-4.1 mini excels at instruction following and tool calling. It features a",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 1047576,
         "max_output_tokens": 32768,
         "model_type": "chat",
         "performance": 3,
         "speed": 4,
+        "tagline": "Smaller, faster version of GPT-4.1",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "fine_tuning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -20709,12 +23060,54 @@ export const providers: ProviderWithModels[] = [
           "output": 1.6,
           "cached_input": 0.1,
           "batch_input": 0.2,
-          "batch_output": 0.8
+          "batch_output": 0.8,
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    0.8,
+                    0.2,
+                    3.2
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    0.4,
+                    null,
+                    1.6
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch",
+          "fine_tuning"
+        ],
         "snapshots": [
           "gpt-4.1-mini-2025-04-14"
         ]
@@ -20726,12 +23119,23 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-4.1",
+        "description": "GPT-4.1 nano excels at instruction following and tool calling. It features a",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 1047576,
         "max_output_tokens": 32768,
+        "model_type": "chat",
         "alias": "gpt-4.1-nano",
         "performance": 2,
         "speed": 5,
+        "tagline": "GPT-4.1 nano excels at instruction following and tool calling.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "fine_tuning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -20742,33 +23146,75 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.5,
+                    0.2,
+                    0.05,
+                    0.8
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    0.1,
+                    null,
+                    0.4
+                  ]
+                }
+              ]
+            }
+          ],
           "input": 0.1,
           "output": 0.4,
           "cached_input": 0.025,
           "batch_input": 0.05,
           "batch_output": 0.2
         },
-        "description": "GPT-4.1 nano excels at instruction following and tool calling. It features a",
-        "model_type": "chat",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        }
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch",
+          "fine_tuning"
+        ]
       },
       {
         "id": "gpt-4.1-nano",
-        "name": "gpt-4.1-nano",
+        "name": "GPT-4.1 nano",
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-4.1",
         "description": "GPT-4.1 nano excels at instruction following and tool calling. It features a",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 1047576,
         "max_output_tokens": 32768,
         "model_type": "chat",
         "performance": 2,
         "speed": 5,
+        "tagline": "Fastest, most cost-efficient version of GPT-4.1",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "fine_tuning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -20783,30 +23229,81 @@ export const providers: ProviderWithModels[] = [
           "output": 0.4,
           "cached_input": 0.025,
           "batch_input": 0.05,
-          "batch_output": 0.2
+          "batch_output": 0.2,
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.5,
+                    0.2,
+                    0.05,
+                    0.8
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    0.1,
+                    null,
+                    0.4
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        },
+        "tools": [
+          "function_calling",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch",
+          "fine_tuning"
+        ],
         "snapshots": [
           "gpt-4.1-nano-2025-04-14"
         ]
       },
       {
         "id": "gpt-4.1",
-        "name": "gpt-4.1",
+        "name": "GPT-4.1",
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-4.1",
         "description": "GPT-4.1 excels at instruction following and tool calling, with broad",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 1047576,
         "max_output_tokens": 32768,
         "model_type": "chat",
         "performance": 4,
         "speed": 3,
+        "tagline": "Smartest non-reasoning model",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "fine_tuning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -20821,12 +23318,55 @@ export const providers: ProviderWithModels[] = [
           "output": 8,
           "cached_input": 0.5,
           "batch_input": 1,
-          "batch_output": 4
+          "batch_output": 4,
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    25,
+                    3,
+                    0.75,
+                    12
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    1.5,
+                    null,
+                    6
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch",
+          "fine_tuning"
+        ],
         "snapshots": [
           "gpt-4.1-2025-04-14"
         ]
@@ -20837,1356 +23377,16 @@ export const providers: ProviderWithModels[] = [
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
+        "description": "Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 128000,
         "max_output_tokens": 16384,
+        "model_type": "chat",
         "alias": "gpt-4.5-preview",
         "performance": 4,
         "speed": 3,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 75,
-          "output": 150,
-          "cached_input": 37.5,
-          "batch_input": 37.5,
-          "batch_output": 75
-        }
-      },
-      {
-        "id": "gpt-4.5-preview",
-        "name": "gpt-4.5-preview",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "performance": 4,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 75,
-          "output": 150,
-          "cached_input": 37.5,
-          "batch_input": 37.5,
-          "batch_output": 75
-        },
-        "snapshots": [
-          "gpt-4.5-preview-2025-02-27"
-        ]
-      },
-      {
-        "id": "gpt-4",
-        "name": "GPT-4",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-20",
-        "family": "gpt-4",
-        "description": "GPT-4 is an older version of a high-intelligence GPT model, usable in Chat Completions.",
-        "status": "active",
-        "model_type": "chat",
-        "context_window": 8191,
-        "max_output_tokens": 4096,
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        }
-      },
-      {
-        "id": "gpt-4o-2024-05-13",
-        "name": "gpt-4o-2024-05-13",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 4096,
-        "alias": "gpt-4o",
-        "performance": 3,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
-        "model_type": "chat",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        }
-      },
-      {
-        "id": "gpt-4o-2024-08-06",
-        "name": "gpt-4o-2024-08-06",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "alias": "gpt-4o",
-        "performance": 3,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
-        "model_type": "chat",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        }
-      },
-      {
-        "id": "gpt-4o-2024-11-20",
-        "name": "gpt-4o-2024-11-20",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "alias": "gpt-4o",
-        "performance": 3,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
-        "model_type": "chat",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        }
-      },
-      {
-        "id": "gpt-4o-audio-preview-2024-10-01",
-        "name": "gpt-4o-audio-preview-2024-10-01",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "alias": "gpt-4o-audio-preview",
-        "performance": 3,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "text",
-            "audio"
-          ],
-          "output": [
-            "text",
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "This is a preview release of the GPT-4o Audio models. These models accept",
-        "model_type": "chat",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        }
-      },
-      {
-        "id": "gpt-4o-audio-preview-2024-12-17",
-        "name": "gpt-4o-audio-preview-2024-12-17",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "alias": "gpt-4o-audio-preview",
-        "performance": 3,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "text",
-            "audio"
-          ],
-          "output": [
-            "text",
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "This is a preview release of the GPT-4o Audio models. These models accept",
-        "model_type": "chat",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        }
-      },
-      {
-        "id": "gpt-4o-audio-preview-2025-06-03",
-        "name": "gpt-4o-audio-preview-2025-06-03",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "alias": "gpt-4o-audio-preview",
-        "performance": 3,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "text",
-            "audio"
-          ],
-          "output": [
-            "text",
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "This is a preview release of the GPT-4o Audio models. These models accept",
-        "model_type": "chat",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        }
-      },
-      {
-        "id": "gpt-4o-audio-preview",
-        "name": "gpt-4o-audio-preview",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "description": "This is a preview release of the GPT-4o Audio models. These models accept",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "model_type": "chat",
-        "performance": 3,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "text",
-            "audio"
-          ],
-          "output": [
-            "text",
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        },
-        "snapshots": [
-          "gpt-4o-audio-preview-2024-10-01",
-          "gpt-4o-audio-preview-2024-12-17",
-          "gpt-4o-audio-preview-2025-06-03"
-        ]
-      },
-      {
-        "id": "gpt-4o-mini-2024-07-18",
-        "name": "gpt-4o-mini-2024-07-18",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "alias": "gpt-4o-mini",
-        "performance": 2,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.6,
-          "cached_input": 0.075,
-          "batch_input": 0.075,
-          "batch_output": 0.3
-        },
-        "description": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
-        "model_type": "chat",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        }
-      },
-      {
-        "id": "gpt-4o-mini-audio-preview-2024-12-17",
-        "name": "gpt-4o-mini-audio-preview-2024-12-17",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "alias": "gpt-4o-mini-audio-preview",
-        "performance": 2,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text",
-            "audio"
-          ],
-          "output": [
-            "text",
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.6,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "This is a preview release of the smaller GPT-4o Audio mini model. It's designed to input audio or create audio outputs via the REST API.",
-        "model_type": "chat"
-      },
-      {
-        "id": "gpt-4o-mini-audio-preview",
-        "name": "gpt-4o-mini-audio-preview",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "description": "This is a preview release of the smaller GPT-4o Audio mini model. It's designed to input audio or create audio outputs via the REST API.",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "model_type": "chat",
-        "performance": 2,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text",
-            "audio"
-          ],
-          "output": [
-            "text",
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.6,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "snapshots": [
-          "gpt-4o-mini-audio-preview-2024-12-17"
-        ]
-      },
-      {
-        "id": "gpt-4o-mini-realtime-preview-2024-12-17",
-        "name": "gpt-4o-mini-realtime-preview-2024-12-17",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 16000,
-        "max_output_tokens": 4096,
-        "alias": "gpt-4o-mini-realtime-preview",
-        "performance": 2,
-        "speed": 5,
-        "modalities": {
-          "input": [
-            "text",
-            "audio"
-          ],
-          "output": [
-            "text",
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 0.6,
-          "output": 2.4,
-          "cached_input": 0.3,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "This is a preview release of the GPT-4o-mini Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
-        "model_type": "other"
-      },
-      {
-        "id": "gpt-4o-mini-realtime-preview",
-        "name": "gpt-4o-mini-realtime-preview",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "description": "This is a preview release of the GPT-4o-mini Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
-        "status": "active",
-        "context_window": 16000,
-        "max_output_tokens": 4096,
-        "model_type": "other",
-        "performance": 2,
-        "speed": 5,
-        "modalities": {
-          "input": [
-            "text",
-            "audio"
-          ],
-          "output": [
-            "text",
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 0.6,
-          "output": 2.4,
-          "cached_input": 0.3,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "snapshots": [
-          "gpt-4o-mini-realtime-preview-2024-12-17"
-        ]
-      },
-      {
-        "id": "gpt-4o-mini-search-preview-2025-03-11",
-        "name": "gpt-4o-mini-search-preview-2025-03-11",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "alias": "gpt-4o-mini-search-preview",
-        "performance": 2,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.6,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
-        "model_type": "other",
-        "capabilities": {
-          "structured_output": true
-        }
-      },
-      {
-        "id": "gpt-4o-mini-search-preview",
-        "name": "gpt-4o-mini-search-preview",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "model_type": "other",
-        "performance": 2,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.6,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "capabilities": {
-          "structured_output": true
-        },
-        "snapshots": [
-          "gpt-4o-mini-search-preview-2025-03-11"
-        ]
-      },
-      {
-        "id": "gpt-4o-mini-transcribe-2025-03-20",
-        "name": "gpt-4o-mini-transcribe-2025-03-20",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 16000,
-        "max_output_tokens": 2000,
-        "alias": "gpt-4o-mini-transcribe",
-        "performance": 3,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "audio",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
-        "model_type": "other"
-      },
-      {
-        "id": "gpt-4o-mini-transcribe-2025-12-15",
-        "name": "gpt-4o-mini-transcribe-2025-12-15",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 16000,
-        "max_output_tokens": 2000,
-        "alias": "gpt-4o-mini-transcribe",
-        "performance": 3,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "audio",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
-        "model_type": "other"
-      },
-      {
-        "id": "gpt-4o-mini-transcribe",
-        "name": "GPT-4o mini Transcribe",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "description": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
-        "status": "active",
-        "context_window": 16000,
-        "max_output_tokens": 2000,
-        "model_type": "other",
-        "performance": 3,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "audio",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "snapshots": [
-          "gpt-4o-mini-transcribe-2025-03-20",
-          "gpt-4o-mini-transcribe-2025-12-15"
-        ],
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        }
-      },
-      {
-        "id": "gpt-4o-mini-tts-2025-03-20",
-        "name": "gpt-4o-mini-tts-2025-03-20",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "alias": "gpt-4o-mini-tts",
-        "performance": 4,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model. Use it to convert text to natural sounding spoken text. The maximum number of input tokens is 2000.",
-        "model_type": "other"
-      },
-      {
-        "id": "gpt-4o-mini-tts-2025-12-15",
-        "name": "gpt-4o-mini-tts-2025-12-15",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "alias": "gpt-4o-mini-tts",
-        "performance": 4,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model. Use it to convert text to natural sounding spoken text. The maximum number of input tokens is 2000.",
-        "model_type": "other"
-      },
-      {
-        "id": "gpt-4o-mini-tts",
-        "name": "GPT-4o mini TTS",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "description": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model. Use it to convert text to natural sounding spoken text. The maximum number of input tokens is 2000.",
-        "status": "active",
-        "model_type": "other",
-        "performance": 4,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "audio"
-          ]
-        },
-        "snapshots": [
-          "gpt-4o-mini-tts-2025-03-20",
-          "gpt-4o-mini-tts-2025-12-15"
-        ],
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        }
-      },
-      {
-        "id": "gpt-4o-mini",
-        "name": "gpt-4o-mini",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "description": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "model_type": "chat",
-        "performance": 2,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.6,
-          "cached_input": 0.075,
-          "batch_input": 0.075,
-          "batch_output": 0.3
-        },
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        },
-        "snapshots": [
-          "gpt-4o-mini-2024-07-18"
-        ]
-      },
-      {
-        "id": "gpt-4o-realtime-preview-2024-10-01",
-        "name": "gpt-4o-realtime-preview-2024-10-01",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 16000,
-        "max_output_tokens": 4096,
-        "alias": "gpt-4o-realtime-preview",
-        "performance": 2,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text",
-            "audio"
-          ],
-          "output": [
-            "text",
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 5,
-          "output": 20,
-          "cached_input": 2.5,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
-        "model_type": "other"
-      },
-      {
-        "id": "gpt-4o-realtime-preview-2024-12-17",
-        "name": "gpt-4o-realtime-preview-2024-12-17",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 16000,
-        "max_output_tokens": 4096,
-        "alias": "gpt-4o-realtime-preview",
-        "performance": 3,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text",
-            "audio"
-          ],
-          "output": [
-            "text",
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 5,
-          "output": 20,
-          "cached_input": 2.5,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
-        "model_type": "other"
-      },
-      {
-        "id": "gpt-4o-realtime-preview-2025-06-03",
-        "name": "gpt-4o-realtime-preview-2025-06-03",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 32000,
-        "max_output_tokens": 4096,
-        "alias": "gpt-4o-realtime-preview",
-        "performance": 3,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text",
-            "audio"
-          ],
-          "output": [
-            "text",
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 5,
-          "output": 20,
-          "cached_input": 2.5,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
-        "model_type": "other"
-      },
-      {
-        "id": "gpt-4o-realtime-preview",
-        "name": "gpt-4o-realtime-preview",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
-        "status": "active",
-        "context_window": 32000,
-        "max_output_tokens": 4096,
-        "model_type": "other",
-        "performance": 3,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text",
-            "audio"
-          ],
-          "output": [
-            "text",
-            "audio"
-          ]
-        },
-        "pricing": {
-          "input": 5,
-          "output": 20,
-          "cached_input": 2.5,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "snapshots": [
-          "gpt-4o-realtime-preview-2024-10-01",
-          "gpt-4o-realtime-preview-2024-12-17",
-          "gpt-4o-realtime-preview-2025-06-03"
-        ]
-      },
-      {
-        "id": "gpt-4o-search-preview-2025-03-11",
-        "name": "gpt-4o-search-preview-2025-03-11",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "alias": "gpt-4o-search-preview",
-        "performance": 3,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "description": "GPT-4o Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
-        "model_type": "other",
-        "capabilities": {
-          "structured_output": true
-        }
-      },
-      {
-        "id": "gpt-4o-search-preview",
-        "name": "gpt-4o-search-preview",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "description": "GPT-4o Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "model_type": "other",
-        "performance": 3,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "capabilities": {
-          "structured_output": true
-        },
-        "snapshots": [
-          "gpt-4o-search-preview-2025-03-11"
-        ]
-      },
-      {
-        "id": "gpt-4o-transcribe",
-        "name": "GPT-4o Transcribe",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-20",
-        "family": "gpt-4o",
-        "description": "GPT-4o Transcribe is a speech-to-text model that uses GPT-4o to transcribe audio.",
-        "status": "active",
-        "context_window": 16000,
-        "max_output_tokens": 2000,
-        "model_type": "other",
-        "performance": 4,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "audio",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      {
-        "id": "gpt-4o",
-        "name": "gpt-4o",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-4o",
-        "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "model_type": "chat",
-        "performance": 3,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cached_input": 1.25,
-          "batch_input": 1.25,
-          "batch_output": 5
-        },
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true
-        },
-        "snapshots": [
-          "gpt-4o-2024-05-13",
-          "gpt-4o-2024-08-06",
-          "gpt-4o-2024-11-20"
-        ]
-      },
-      {
-        "id": "gpt-5-2025-08-07",
-        "name": "gpt-5-2025-08-07",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-5",
-        "status": "active",
-        "context_window": 400000,
-        "max_output_tokens": 128000,
-        "alias": "gpt-5",
-        "performance": 4,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 1.25,
-          "output": 10,
-          "cached_input": 0.125,
-          "batch_input": 0.625,
-          "batch_output": 5
-        },
-        "description": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.",
-        "model_type": "reasoning",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
-      },
-      {
-        "id": "gpt-5-chat-latest",
-        "name": "GPT-5 Chat",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-20",
-        "family": "gpt-5",
-        "description": "GPT-5 Chat points to the GPT-5 snapshot previously used in ChatGPT.",
-        "status": "active",
-        "context_window": 128000,
-        "max_output_tokens": 16384,
-        "model_type": "chat",
-        "performance": 3,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      {
-        "id": "gpt-5-codex",
-        "name": "GPT-5-Codex",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-20",
-        "family": "gpt-5",
-        "description": "GPT-5-Codex is a version of GPT-5 optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.",
-        "status": "active",
-        "context_window": 400000,
-        "max_output_tokens": 128000,
-        "model_type": "reasoning",
-        "performance": 4,
-        "speed": 3,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 1.25,
-          "output": 10,
-          "cached_input": 0.125
-        },
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
-      },
-      {
-        "id": "gpt-5-latest",
-        "name": "gpt-5-latest",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-20",
-        "family": "gpt-5",
-        "status": "active",
-        "pricing": {
-          "input": 1.25,
-          "output": 10,
-          "cached_input": 0.125
-        }
-      },
-      {
-        "id": "gpt-5-mini-2025-08-07",
-        "name": "gpt-5-mini-2025-08-07",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-5",
-        "status": "active",
-        "context_window": 400000,
-        "max_output_tokens": 128000,
-        "alias": "gpt-5-mini",
-        "performance": 3,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 0.25,
-          "output": 2,
-          "cached_input": 0.025,
-          "batch_input": 0.125,
-          "batch_output": 1
-        },
-        "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for",
-        "model_type": "reasoning",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
-      },
-      {
-        "id": "gpt-5-mini",
-        "name": "gpt-5-mini",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-5",
-        "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for",
-        "status": "active",
-        "context_window": 400000,
-        "max_output_tokens": 128000,
-        "model_type": "reasoning",
-        "performance": 3,
-        "speed": 4,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 0.25,
-          "output": 2,
-          "cached_input": 0.025,
-          "batch_input": 0.125,
-          "batch_output": 1
-        },
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        },
-        "snapshots": [
-          "gpt-5-mini-2025-08-07"
-        ]
-      },
-      {
-        "id": "gpt-5-nano-2025-08-07",
-        "name": "gpt-5-nano-2025-08-07",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-5",
-        "status": "active",
-        "context_window": 400000,
-        "max_output_tokens": 128000,
-        "alias": "gpt-5-nano",
-        "performance": 2,
-        "speed": 5,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 0.05,
-          "output": 0.4,
-          "cached_input": 0.005,
-          "batch_input": 0.025,
-          "batch_output": 0.2
-        },
-        "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for",
-        "model_type": "reasoning",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
-      },
-      {
-        "id": "gpt-5-nano",
-        "name": "gpt-5-nano",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-5",
-        "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for",
-        "status": "active",
-        "context_window": 400000,
-        "max_output_tokens": 128000,
-        "model_type": "reasoning",
-        "performance": 2,
-        "speed": 5,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 0.05,
-          "output": 0.4,
-          "cached_input": 0.005,
-          "batch_input": 0.025,
-          "batch_output": 0.2
-        },
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        },
-        "snapshots": [
-          "gpt-5-nano-2025-08-07"
-        ]
-      },
-      {
-        "id": "gpt-5-pro-2025-10-06",
-        "name": "gpt-5-pro-2025-10-06",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-5",
-        "status": "active",
-        "alias": "gpt-5-pro",
-        "performance": 5,
-        "speed": 1,
+        "tagline": "Deprecated - a research preview of GPT-4.5.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22203,25 +23403,3121 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 15,
-          "output": 120,
-          "cached_input": 0.125,
-          "batch_input": 7.5,
-          "batch_output": 60
+          "input": 75,
+          "output": 150,
+          "cached_input": 37.5,
+          "batch_input": 37.5,
+          "batch_output": 75,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    75,
+                    37.5,
+                    150
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    37.5,
+                    null,
+                    75
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "GPT-5 Pro is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience.",
-        "context_window": 400000,
-        "max_output_tokens": 128000
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch"
+        ]
       },
       {
-        "id": "gpt-5-pro",
-        "name": "gpt-5-pro",
+        "id": "gpt-4.5-preview",
+        "name": "GPT-4.5 Preview (Deprecated)",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "performance": 4,
+        "speed": 3,
+        "tagline": "Deprecated large model.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 75,
+          "output": 150,
+          "cached_input": 37.5,
+          "batch_input": 37.5,
+          "batch_output": 75,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    75,
+                    37.5,
+                    150
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    37.5,
+                    null,
+                    75
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch"
+        ],
+        "snapshots": [
+          "gpt-4.5-preview-2025-02-27"
+        ]
+      },
+      {
+        "id": "gpt-4",
+        "name": "GPT-4",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4",
+        "description": "GPT-4 is an older version of a high-intelligence GPT model, usable in Chat Completions.",
+        "status": "active",
+        "knowledge_cutoff": "2023-11",
+        "context_window": 8192,
+        "max_output_tokens": 8192,
+        "model_type": "chat",
+        "performance": 2,
+        "speed": 3,
+        "tagline": "An older high-intelligence GPT model",
+        "successor": "gpt-4o",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "",
+              "columns": [
+                "Input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    30,
+                    60
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    15,
+                    30
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 30,
+          "output": 60,
+          "batch_input": 15,
+          "batch_output": 30
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch",
+          "fine_tuning"
+        ],
+        "snapshots": [
+          "gpt-4-0613",
+          "gpt-4-0314"
+        ]
+      },
+      {
+        "id": "gpt-4o-2024-05-13",
+        "name": "gpt-4o-2024-05-13",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 4096,
+        "model_type": "chat",
+        "alias": "gpt-4o",
+        "performance": 3,
+        "speed": 3,
+        "tagline": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 10,
+          "cached_input": 1.25,
+          "batch_input": 1.25,
+          "batch_output": 5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    1.25,
+                    10
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    1.25,
+                    null,
+                    5
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch"
+        ]
+      },
+      {
+        "id": "gpt-4o-2024-08-06",
+        "name": "gpt-4o-2024-08-06",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "alias": "gpt-4o",
+        "performance": 3,
+        "speed": 3,
+        "tagline": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    25,
+                    3.75,
+                    1.875,
+                    15
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    1.875,
+                    null,
+                    7.5
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 2.5,
+          "output": 10,
+          "cached_input": 1.25,
+          "batch_input": 1.25,
+          "batch_output": 5
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch",
+          "fine_tuning"
+        ]
+      },
+      {
+        "id": "gpt-4o-2024-11-20",
+        "name": "gpt-4o-2024-11-20",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "alias": "gpt-4o",
+        "performance": 3,
+        "speed": 3,
+        "tagline": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 10,
+          "cached_input": 1.25,
+          "batch_input": 1.25,
+          "batch_output": 5,
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    25,
+                    3.75,
+                    1.875,
+                    15
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    1.875,
+                    null,
+                    7.5
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch"
+        ]
+      },
+      {
+        "id": "gpt-4o-audio-preview-2024-10-01",
+        "name": "gpt-4o-audio-preview-2024-10-01",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "This is a preview release of the GPT-4o Audio models. These models accept",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "alias": "gpt-4o-audio-preview",
+        "performance": 3,
+        "speed": 3,
+        "tagline": "This is a preview release of the GPT-4o Audio models.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 10,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    null,
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    40,
+                    null,
+                    80
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ]
+      },
+      {
+        "id": "gpt-4o-audio-preview-2024-12-17",
+        "name": "gpt-4o-audio-preview-2024-12-17",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "This is a preview release of the GPT-4o Audio models. These models accept",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "alias": "gpt-4o-audio-preview",
+        "performance": 3,
+        "speed": 3,
+        "tagline": "This is a preview release of the GPT-4o Audio models.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 10,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    null,
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    40,
+                    null,
+                    80
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ]
+      },
+      {
+        "id": "gpt-4o-audio-preview-2025-06-03",
+        "name": "gpt-4o-audio-preview-2025-06-03",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "This is a preview release of the GPT-4o Audio models. These models accept",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "alias": "gpt-4o-audio-preview",
+        "performance": 3,
+        "speed": 3,
+        "tagline": "This is a preview release of the GPT-4o Audio models.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 10,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    null,
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    40,
+                    null,
+                    80
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ]
+      },
+      {
+        "id": "gpt-4o-audio-preview",
+        "name": "GPT-4o Audio",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "This is a preview release of the GPT-4o Audio models. These models accept",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "performance": 3,
+        "speed": 3,
+        "tagline": "GPT-4o models capable of audio inputs and outputs",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 10,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    null,
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    40,
+                    null,
+                    80
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "snapshots": [
+          "gpt-4o-audio-preview-2025-06-03",
+          "gpt-4o-audio-preview-2024-12-17",
+          "gpt-4o-audio-preview-2024-10-01"
+        ]
+      },
+      {
+        "id": "gpt-4o-mini-2024-07-18",
+        "name": "gpt-4o-mini-2024-07-18",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "alias": "gpt-4o-mini",
+        "performance": 2,
+        "speed": 4,
+        "tagline": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    3,
+                    0.3,
+                    0.15,
+                    1.2
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    0.15,
+                    null,
+                    0.6
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 0.15,
+          "output": 0.6,
+          "cached_input": 0.075,
+          "batch_input": 0.075,
+          "batch_output": 0.3
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch",
+          "fine_tuning"
+        ]
+      },
+      {
+        "id": "gpt-4o-mini-audio-preview-2024-12-17",
+        "name": "gpt-4o-mini-audio-preview-2024-12-17",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "This is a preview release of the smaller GPT-4o Audio mini model. It's designed to input audio or create audio outputs via the REST API.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "alias": "gpt-4o-mini-audio-preview",
+        "performance": 2,
+        "speed": 4,
+        "tagline": "This is a preview release of the smaller GPT-4o Audio mini model.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.15,
+                    null,
+                    0.6
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    null,
+                    20
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ]
+      },
+      {
+        "id": "gpt-4o-mini-audio-preview",
+        "name": "GPT-4o mini Audio",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "This is a preview release of the smaller GPT-4o Audio mini model. It's designed to input audio or create audio outputs via the REST API.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "performance": 2,
+        "speed": 4,
+        "tagline": "Smaller model capable of audio inputs and outputs",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.15,
+                    null,
+                    0.6
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    null,
+                    20
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "web_search",
+          "file_search",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "snapshots": [
+          "gpt-4o-mini-audio-preview-2024-12-17"
+        ]
+      },
+      {
+        "id": "gpt-4o-mini-realtime-preview-2024-12-17",
+        "name": "gpt-4o-mini-realtime-preview-2024-12-17",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "This is a preview release of the GPT-4o-mini Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 16000,
+        "max_output_tokens": 4096,
+        "alias": "gpt-4o-mini-realtime-preview",
+        "performance": 2,
+        "speed": 5,
+        "tagline": "This is a preview release of the GPT-4o-mini Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
+        "capabilities": {
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 0.6,
+          "output": 2.4,
+          "cached_input": 0.3,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    0.3,
+                    2.4
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    0.3,
+                    20
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "realtime"
+        ]
+      },
+      {
+        "id": "gpt-4o-mini-realtime-preview",
+        "name": "GPT-4o mini Realtime",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "This is a preview release of the GPT-4o-mini Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 16000,
+        "max_output_tokens": 4096,
+        "performance": 2,
+        "speed": 5,
+        "tagline": "Smaller realtime model for text and audio inputs and outputs",
+        "capabilities": {
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 0.6,
+          "output": 2.4,
+          "cached_input": 0.3,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    0.3,
+                    2.4
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    0.3,
+                    20
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "realtime"
+        ],
+        "snapshots": [
+          "gpt-4o-mini-realtime-preview-2024-12-17"
+        ]
+      },
+      {
+        "id": "gpt-4o-mini-search-preview-2025-03-11",
+        "name": "gpt-4o-mini-search-preview-2025-03-11",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "alias": "gpt-4o-mini-search-preview",
+        "performance": 2,
+        "speed": 4,
+        "tagline": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "structured_output": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.15,
+                    null,
+                    0.6
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ]
+      },
+      {
+        "id": "gpt-4o-mini-search-preview",
+        "name": "GPT-4o mini Search Preview",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "performance": 2,
+        "speed": 4,
+        "tagline": "Fast, affordable small model for web search",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "structured_output": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.15,
+                    null,
+                    0.6
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "snapshots": [
+          "gpt-4o-mini-search-preview-2025-03-11"
+        ]
+      },
+      {
+        "id": "gpt-4o-mini-transcribe-2025-03-20",
+        "name": "gpt-4o-mini-transcribe-2025-03-20",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "status": "active",
+        "knowledge_cutoff": "2024-05",
+        "context_window": 16000,
+        "max_output_tokens": 2000,
+        "model_type": "transcription",
+        "alias": "gpt-4o-mini-transcribe",
+        "performance": 3,
+        "speed": 4,
+        "modalities": {
+          "input": [
+            "audio",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "transcription",
+          "realtime"
+        ],
+        "description": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
+        "tagline": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.25,
+                    5,
+                    0.003
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    3,
+                    null,
+                    0.003
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 1.25,
+          "output": 5
+        }
+      },
+      {
+        "id": "gpt-4o-mini-transcribe-2025-12-15",
+        "name": "gpt-4o-mini-transcribe-2025-12-15",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "status": "active",
+        "knowledge_cutoff": "2024-05",
+        "context_window": 16000,
+        "max_output_tokens": 2000,
+        "model_type": "transcription",
+        "alias": "gpt-4o-mini-transcribe",
+        "performance": 3,
+        "speed": 4,
+        "modalities": {
+          "input": [
+            "audio",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "transcription",
+          "realtime"
+        ],
+        "description": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
+        "tagline": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.25,
+                    5,
+                    0.003
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    3,
+                    null,
+                    0.003
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 1.25,
+          "output": 5
+        }
+      },
+      {
+        "id": "gpt-4o-mini-transcribe",
+        "name": "GPT-4o mini Transcribe",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "status": "active",
+        "knowledge_cutoff": "2024-05",
+        "context_window": 16000,
+        "max_output_tokens": 2000,
+        "model_type": "transcription",
+        "performance": 3,
+        "speed": 4,
+        "modalities": {
+          "input": [
+            "audio",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "transcription",
+          "realtime"
+        ],
+        "snapshots": [
+          "gpt-4o-mini-transcribe-2025-03-20",
+          "gpt-4o-mini-transcribe-2025-12-15"
+        ],
+        "description": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
+        "tagline": "Speech-to-text model powered by GPT-4o mini",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.25,
+                    5,
+                    0.003
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    3,
+                    null,
+                    0.003
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 1.25,
+          "output": 5
+        }
+      },
+      {
+        "id": "gpt-4o-mini-tts-2025-03-20",
+        "name": "gpt-4o-mini-tts-2025-03-20",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "status": "active",
+        "model_type": "tts",
+        "alias": "gpt-4o-mini-tts",
+        "performance": 4,
+        "speed": 4,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "speech_generation"
+        ],
+        "description": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model. Use it to convert text to natural sounding spoken text. The maximum number of input tokens is 2000.",
+        "tagline": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    null,
+                    0.015
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    null,
+                    12,
+                    0.015
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 0.6
+        }
+      },
+      {
+        "id": "gpt-4o-mini-tts-2025-12-15",
+        "name": "gpt-4o-mini-tts-2025-12-15",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "status": "active",
+        "model_type": "tts",
+        "alias": "gpt-4o-mini-tts",
+        "performance": 4,
+        "speed": 4,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "speech_generation"
+        ],
+        "description": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model. Use it to convert text to natural sounding spoken text. The maximum number of input tokens is 2000.",
+        "tagline": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    null,
+                    0.015
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    null,
+                    12,
+                    0.015
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 0.6
+        }
+      },
+      {
+        "id": "gpt-4o-mini-tts",
+        "name": "GPT-4o mini TTS",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "status": "active",
+        "model_type": "tts",
+        "performance": 4,
+        "speed": 4,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "speech_generation"
+        ],
+        "snapshots": [
+          "gpt-4o-mini-tts-2025-03-20",
+          "gpt-4o-mini-tts-2025-12-15"
+        ],
+        "description": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model. Use it to convert text to natural sounding spoken text. The maximum number of input tokens is 2000.",
+        "tagline": "Text-to-speech model powered by GPT-4o mini",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    null,
+                    0.015
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    null,
+                    12,
+                    0.015
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 0.6
+        }
+      },
+      {
+        "id": "gpt-4o-mini",
+        "name": "GPT-4o mini",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "performance": 2,
+        "speed": 4,
+        "tagline": "Fast, affordable small model for focused tasks",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6,
+          "cached_input": 0.075,
+          "batch_input": 0.075,
+          "batch_output": 0.3,
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    3,
+                    0.3,
+                    0.15,
+                    1.2
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    0.15,
+                    null,
+                    0.6
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch",
+          "fine_tuning"
+        ],
+        "snapshots": [
+          "gpt-4o-mini-2024-07-18"
+        ]
+      },
+      {
+        "id": "gpt-4o-realtime-preview-2024-10-01",
+        "name": "gpt-4o-realtime-preview-2024-10-01",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 16000,
+        "max_output_tokens": 4096,
+        "alias": "gpt-4o-realtime-preview",
+        "performance": 2,
+        "speed": 4,
+        "tagline": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
+        "capabilities": {
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 20,
+          "cached_input": 2.5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    2.5,
+                    20
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    40,
+                    2.5,
+                    80
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "realtime"
+        ]
+      },
+      {
+        "id": "gpt-4o-realtime-preview-2024-12-17",
+        "name": "gpt-4o-realtime-preview-2024-12-17",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 16000,
+        "max_output_tokens": 4096,
+        "alias": "gpt-4o-realtime-preview",
+        "performance": 3,
+        "speed": 4,
+        "tagline": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
+        "capabilities": {
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 20,
+          "cached_input": 2.5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    2.5,
+                    20
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    40,
+                    2.5,
+                    80
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "realtime"
+        ]
+      },
+      {
+        "id": "gpt-4o-realtime-preview-2025-06-03",
+        "name": "gpt-4o-realtime-preview-2025-06-03",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 32000,
+        "max_output_tokens": 4096,
+        "alias": "gpt-4o-realtime-preview",
+        "performance": 3,
+        "speed": 4,
+        "tagline": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
+        "capabilities": {
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 20,
+          "cached_input": 2.5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    2.5,
+                    20
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    40,
+                    2.5,
+                    80
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "realtime"
+        ]
+      },
+      {
+        "id": "gpt-4o-realtime-preview",
+        "name": "GPT-4o Realtime",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 32000,
+        "max_output_tokens": 4096,
+        "performance": 3,
+        "speed": 4,
+        "tagline": "Model capable of realtime text and audio inputs and outputs",
+        "capabilities": {
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 20,
+          "cached_input": 2.5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    2.5,
+                    20
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    40,
+                    2.5,
+                    80
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "realtime"
+        ],
+        "snapshots": [
+          "gpt-4o-realtime-preview-2025-06-03",
+          "gpt-4o-realtime-preview-2024-12-17",
+          "gpt-4o-realtime-preview-2024-10-01"
+        ]
+      },
+      {
+        "id": "gpt-4o-search-preview-2025-03-11",
+        "name": "gpt-4o-search-preview-2025-03-11",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "GPT-4o Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "alias": "gpt-4o-search-preview",
+        "performance": 3,
+        "speed": 3,
+        "tagline": "GPT-4o Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "structured_output": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 10,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    null,
+                    10
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ]
+      },
+      {
+        "id": "gpt-4o-search-preview",
+        "name": "GPT-4o Search Preview",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "GPT-4o Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "performance": 3,
+        "speed": 3,
+        "tagline": "GPT model for web search in Chat Completions",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "structured_output": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 10,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    null,
+                    10
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "snapshots": [
+          "gpt-4o-search-preview-2025-03-11"
+        ]
+      },
+      {
+        "id": "gpt-4o-transcribe-diarize",
+        "name": "GPT-4o Transcribe Diarize",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "GPT-4o Transcribe Diarize is an automatic speech recognition (ASR) model with built-in speaker diarization, meaning it associates audio segments with different speakers in a conversation. This model is only available in the Transcription API.",
+        "status": "active",
+        "knowledge_cutoff": "2024-05",
+        "context_window": 16000,
+        "max_output_tokens": 2000,
+        "model_type": "transcription",
+        "performance": 4,
+        "speed": 3,
+        "tagline": "Transcription model that identifies who's speaking when",
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    10,
+                    0.006
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    6,
+                    null,
+                    0.006
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 2.5,
+          "output": 10
+        },
+        "endpoints": [
+          "transcription"
+        ],
+        "snapshots": [
+          "gpt-4o-transcribe-diarize"
+        ]
+      },
+      {
+        "id": "gpt-4o-transcribe",
+        "name": "GPT-4o Transcribe",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "GPT-4o Transcribe is a speech-to-text model that uses GPT-4o to transcribe audio.",
+        "status": "active",
+        "knowledge_cutoff": "2024-05",
+        "context_window": 16000,
+        "max_output_tokens": 2000,
+        "model_type": "transcription",
+        "performance": 4,
+        "speed": 3,
+        "tagline": "Speech-to-text model powered by GPT-4o",
+        "modalities": {
+          "input": [
+            "audio",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    10,
+                    0.006
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Estimated cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    6,
+                    null,
+                    0.006
+                  ]
+                }
+              ]
+            }
+          ],
+          "input": 2.5,
+          "output": 10
+        },
+        "endpoints": [
+          "transcription",
+          "realtime"
+        ],
+        "snapshots": [
+          "gpt-4o-transcribe"
+        ]
+      },
+      {
+        "id": "gpt-4o",
+        "name": "GPT-4o",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-4o",
+        "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "performance": 3,
+        "speed": 3,
+        "tagline": "Fast, intelligent, flexible GPT model",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "fine_tuning": true,
+          "structured_output": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 10,
+          "cached_input": 1.25,
+          "batch_input": 1.25,
+          "batch_output": 5,
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    25,
+                    3.75,
+                    1.875,
+                    15
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    1.875,
+                    null,
+                    7.5
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch"
+        ],
+        "snapshots": [
+          "gpt-4o-2024-11-20",
+          "gpt-4o-2024-08-06",
+          "gpt-4o-2024-05-13"
+        ]
+      },
+      {
+        "id": "gpt-5-2025-08-07",
+        "name": "gpt-5-2025-08-07",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5",
+        "description": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.",
+        "status": "active",
+        "knowledge_cutoff": "2024-09",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "max_input_tokens": 272000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "alias": "gpt-5",
+        "performance": 4,
+        "reasoning": 4,
+        "speed": 3,
+        "tagline": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125,
+          "batch_input": 0.625,
+          "batch_output": 5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.25,
+                    0.125,
+                    10
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.625,
+                    0.0625,
+                    5
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.625,
+                    0.0625,
+                    5
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    2.5,
+                    0.25,
+                    20
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "batch"
+        ]
+      },
+      {
+        "id": "gpt-5-chat-latest",
+        "name": "GPT-5 Chat",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5",
+        "description": "GPT-5 Chat points to the GPT-5 snapshot previously used in ChatGPT.",
+        "status": "active",
+        "knowledge_cutoff": "2024-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "max_input_tokens": 272000,
+        "model_type": "chat",
+        "performance": 3,
+        "speed": 3,
+        "tagline": "GPT-5 model used in ChatGPT",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "responses"
+        ],
+        "snapshots": [
+          "gpt-5-chat-latest"
+        ]
+      },
+      {
+        "id": "gpt-5-codex",
+        "name": "GPT-5-Codex",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5",
+        "description": "GPT-5-Codex is a version of GPT-5 optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.",
+        "status": "active",
+        "knowledge_cutoff": "2024-09",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "max_input_tokens": 272000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "performance": 4,
+        "reasoning": 4,
+        "speed": 3,
+        "tagline": "A version of GPT-5 optimized for agentic coding in Codex",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.25,
+                    0.125,
+                    10
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "web_search"
+        ],
+        "endpoints": [
+          "responses"
+        ],
+        "snapshots": [
+          "gpt-5-codex"
+        ]
+      },
+      {
+        "id": "gpt-5-latest",
+        "name": "gpt-5-latest",
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-5",
         "status": "active",
+        "pricing": {
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.25,
+                    0.125,
+                    10
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "gpt-5-mini-2025-08-07",
+        "name": "gpt-5-mini-2025-08-07",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5",
+        "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for",
+        "status": "active",
+        "knowledge_cutoff": "2024-05",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "max_input_tokens": 272000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "alias": "gpt-5-mini",
+        "performance": 3,
+        "reasoning": 3,
+        "speed": 4,
+        "tagline": "GPT-5 mini is a faster, more cost-efficient version of GPT-5.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 2,
+          "cached_input": 0.025,
+          "batch_input": 0.125,
+          "batch_output": 1,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.25,
+                    0.025,
+                    2
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.125,
+                    0.0125,
+                    1
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.125,
+                    0.0125,
+                    1
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    0.45,
+                    0.05,
+                    3.6
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "batch"
+        ]
+      },
+      {
+        "id": "gpt-5-mini",
+        "name": "GPT-5 mini",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5",
+        "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for",
+        "status": "active",
+        "knowledge_cutoff": "2024-05",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "max_input_tokens": 272000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "performance": 3,
+        "reasoning": 3,
+        "speed": 4,
+        "tagline": "Near-frontier intelligence for cost sensitive, low latency, high volume workloads",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 2,
+          "cached_input": 0.025,
+          "batch_input": 0.125,
+          "batch_output": 1,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.25,
+                    0.025,
+                    2
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.125,
+                    0.0125,
+                    1
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.125,
+                    0.0125,
+                    1
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    0.45,
+                    0.05,
+                    3.6
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "batch"
+        ],
+        "snapshots": [
+          "gpt-5-mini-2025-08-07"
+        ]
+      },
+      {
+        "id": "gpt-5-nano-2025-08-07",
+        "name": "gpt-5-nano-2025-08-07",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5",
+        "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for",
+        "status": "active",
+        "knowledge_cutoff": "2024-05",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "max_input_tokens": 272000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "alias": "gpt-5-nano",
+        "performance": 2,
+        "reasoning": 2,
+        "speed": 5,
+        "tagline": "GPT-5 Nano is our fastest, cheapest version of GPT-5.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0.4,
+          "cached_input": 0.005,
+          "batch_input": 0.025,
+          "batch_output": 0.2,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.05,
+                    0.005,
+                    0.4
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.025,
+                    0.0025,
+                    0.2
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.025,
+                    0.0025,
+                    0.2
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "batch"
+        ]
+      },
+      {
+        "id": "gpt-5-nano",
+        "name": "GPT-5 nano",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5",
+        "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for",
+        "status": "active",
+        "knowledge_cutoff": "2024-05",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "max_input_tokens": 272000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "performance": 2,
+        "reasoning": 2,
+        "speed": 5,
+        "tagline": "Fastest, most cost-efficient version of GPT-5",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0.4,
+          "cached_input": 0.005,
+          "batch_input": 0.025,
+          "batch_output": 0.2,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.05,
+                    0.005,
+                    0.4
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.025,
+                    0.0025,
+                    0.2
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.025,
+                    0.0025,
+                    0.2
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "batch"
+        ],
+        "snapshots": [
+          "gpt-5-nano-2025-08-07"
+        ]
+      },
+      {
+        "id": "gpt-5-pro-2025-10-06",
+        "name": "gpt-5-pro-2025-10-06",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5",
+        "status": "active",
+        "knowledge_cutoff": "2024-09",
+        "context_window": 400000,
+        "max_output_tokens": 272000,
+        "reasoning_tokens": true,
+        "alias": "gpt-5-pro",
         "performance": 5,
+        "reasoning": 5,
         "speed": 1,
         "capabilities": {
           "streaming": true,
@@ -22244,31 +26540,62 @@ export const providers: ProviderWithModels[] = [
           "output": 120,
           "batch_input": 7.5,
           "batch_output": 60,
-          "cached_input": 0.125
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    15,
+                    null,
+                    120
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    7.5,
+                    null,
+                    60
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "context_window": 400000,
-        "max_output_tokens": 128000,
-        "description": "GPT-5 Pro is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience.",
-        "snapshots": [
-          "gpt-5-pro-2025-10-06"
+        "endpoints": [
+          "responses",
+          "batch"
         ]
       },
       {
-        "id": "gpt-5.1-2025-11-13",
-        "name": "gpt-5.1-2025-11-13",
+        "id": "gpt-5-pro",
+        "name": "gpt-5-pro",
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
-        "family": "gpt-5.1",
+        "family": "gpt-5",
         "status": "active",
-        "alias": "gpt-5.1",
-        "performance": 4,
-        "speed": 3,
+        "knowledge_cutoff": "2024-09",
+        "context_window": 400000,
+        "max_output_tokens": 272000,
+        "reasoning_tokens": true,
+        "performance": 5,
+        "reasoning": 5,
+        "speed": 1,
         "capabilities": {
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true
+          "structured_output": true,
+          "reasoning": true
         },
         "modalities": {
           "input": [
@@ -22280,57 +26607,67 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 1.25,
-          "output": 10,
-          "cached_input": 0.125,
-          "batch_input": 0.625,
-          "batch_output": 5
+          "input": 15,
+          "output": 120,
+          "batch_input": 7.5,
+          "batch_output": 60,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    15,
+                    null,
+                    120
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    7.5,
+                    null,
+                    60
+                  ]
+                }
+              ]
+            }
+          ]
         },
+        "endpoints": [
+          "responses",
+          "batch"
+        ],
+        "snapshots": [
+          "gpt-5-pro-2025-10-06"
+        ]
+      },
+      {
+        "id": "gpt-5.1-2025-11-13",
+        "name": "gpt-5.1-2025-11-13",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.1",
         "description": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.",
+        "status": "active",
+        "knowledge_cutoff": "2024-09",
         "context_window": 400000,
         "max_output_tokens": 128000,
-        "model_type": "reasoning"
-      },
-      {
-        "id": "gpt-5.1-chat-latest",
-        "name": "GPT-5.1 Chat",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-20",
-        "family": "gpt-5.1",
-        "description": "GPT-5.1 Chat points to the GPT-5.1 snapshot currently used in ChatGPT.",
-        "status": "active",
-        "model_type": "chat",
-        "performance": 3,
-        "speed": 3,
-        "capabilities": {
-          "streaming": true,
-          "vision": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      {
-        "id": "gpt-5.1-codex-max",
-        "name": "GPT-5.1-Codex-Max",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-20",
-        "family": "gpt-5.1",
-        "description": "GPT‑5.1-Codex-Max is purpose-built for agentic coding.",
-        "status": "active",
         "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "alias": "gpt-5.1",
         "performance": 4,
-        "speed": 4,
+        "reasoning": 4,
+        "speed": 3,
+        "tagline": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22350,23 +26687,198 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1.25,
           "output": 10,
-          "cached_input": 0.125
+          "cached_input": 0.125,
+          "batch_input": 0.625,
+          "batch_output": 5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.25,
+                    0.125,
+                    10
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.625,
+                    0.0625,
+                    5
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.625,
+                    0.0625,
+                    5
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    2.5,
+                    0.25,
+                    20
+                  ]
+                }
+              ]
+            }
+          ]
         },
+        "endpoints": [
+          "responses",
+          "chat_completions",
+          "batch"
+        ]
+      },
+      {
+        "id": "gpt-5.1-chat-latest",
+        "name": "GPT-5.1 Chat",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.1",
+        "description": "GPT-5.1 Chat points to the GPT-5.1 snapshot currently used in ChatGPT.",
+        "status": "active",
+        "knowledge_cutoff": "2024-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "max_input_tokens": 272000,
+        "model_type": "chat",
+        "performance": 3,
+        "speed": 3,
+        "tagline": "GPT-5.1 model used in ChatGPT",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "responses",
+          "chat_completions"
+        ],
+        "snapshots": [
+          "gpt-5.1-chat-latest"
+        ]
+      },
+      {
+        "id": "gpt-5.1-codex-max",
+        "name": "GPT-5.1-Codex-Max",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.1",
+        "description": "GPT‑5.1-Codex-Max is purpose-built for agentic coding.",
+        "status": "active",
+        "knowledge_cutoff": "2024-09",
         "context_window": 400000,
-        "max_output_tokens": 128000
+        "max_output_tokens": 128000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "performance": 4,
+        "reasoning": 4,
+        "speed": 4,
+        "tagline": "A version of GPT-5.1-codex optimized for long running tasks.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.25,
+                    0.125,
+                    10
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "web_search"
+        ],
+        "endpoints": [
+          "responses"
+        ],
+        "snapshots": [
+          "gpt-5.1-codex-max"
+        ]
       },
       {
         "id": "gpt-5.1-codex-mini",
         "name": "GPT-5.1 Codex mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-5.1",
         "description": "GPT-5.1 Codex mini is a smaller, more cost-effective, less-capable version of GPT-5.1-Codex.",
         "status": "active",
+        "knowledge_cutoff": "2024-09",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
         "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "Smaller, more cost-effective, less-capable version of GPT-5.1-Codex",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22386,23 +26898,58 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.25,
           "output": 2,
-          "cached_input": 0.025
+          "cached_input": 0.025,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.25,
+                    0.025,
+                    2
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "context_window": 400000,
-        "max_output_tokens": 100000
+        "tools": [
+          "function_calling",
+          "web_search"
+        ],
+        "endpoints": [
+          "responses"
+        ],
+        "snapshots": [
+          "gpt-5.1-codex-mini"
+        ]
       },
       {
         "id": "gpt-5.1-codex",
         "name": "GPT-5.1 Codex",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-5.1",
         "description": "GPT-5.1-Codex is a version of GPT-5 optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.",
         "status": "active",
+        "knowledge_cutoff": "2024-09",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
         "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "A version of GPT-5.1 optimized for agentic coding in Codex.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22422,37 +26969,93 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1.25,
           "output": 10,
-          "cached_input": 0.125
+          "cached_input": 0.125,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.25,
+                    0.125,
+                    10
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "context_window": 400000,
-        "max_output_tokens": 128000
+        "tools": [
+          "function_calling",
+          "web_search"
+        ],
+        "endpoints": [
+          "responses"
+        ],
+        "snapshots": [
+          "gpt-5.1-codex"
+        ]
       },
       {
         "id": "gpt-5.1-latest",
         "name": "gpt-5.1-latest",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-5.1",
         "status": "active",
         "pricing": {
           "input": 1.25,
           "output": 10,
-          "cached_input": 0.125
+          "cached_input": 0.125,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.25,
+                    0.125,
+                    10
+                  ]
+                }
+              ]
+            }
+          ]
         }
       },
       {
         "id": "gpt-5.1",
-        "name": "gpt-5.1",
+        "name": "GPT-5.1",
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-5.1",
         "description": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.",
         "status": "active",
+        "knowledge_cutoff": "2024-09",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
         "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "The best model for coding and agentic tasks with configurable reasoning effort",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22474,10 +27077,67 @@ export const providers: ProviderWithModels[] = [
           "output": 10,
           "cached_input": 0.125,
           "batch_input": 0.625,
-          "batch_output": 5
+          "batch_output": 5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.25,
+                    0.125,
+                    10
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.625,
+                    0.0625,
+                    5
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.625,
+                    0.0625,
+                    5
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    2.5,
+                    0.25,
+                    20
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "context_window": 400000,
-        "max_output_tokens": 128000,
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "apply_patch",
+          "mcp"
+        ],
+        "endpoints": [
+          "responses",
+          "chat_completions",
+          "batch"
+        ],
         "snapshots": [
           "gpt-5.1-2025-11-13"
         ]
@@ -22489,15 +27149,24 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-5.2",
+        "description": "GPT-5.2 is our previous frontier model for complex professional work.",
         "status": "active",
+        "knowledge_cutoff": "2025-08",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "alias": "gpt-5.2",
         "performance": 5,
+        "reasoning": 5,
         "speed": 3,
+        "tagline": "GPT-5.2 is our previous frontier model for complex professional work.",
         "capabilities": {
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true
+          "structured_output": true,
+          "reasoning": true
         },
         "modalities": {
           "input": [
@@ -22513,25 +27182,76 @@ export const providers: ProviderWithModels[] = [
           "output": 14,
           "cached_input": 0.175,
           "batch_input": 0.875,
-          "batch_output": 7
+          "batch_output": 7,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.75,
+                    0.175,
+                    14
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.875,
+                    0.0875,
+                    7
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.875,
+                    0.0875,
+                    7
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    3.5,
+                    0.35,
+                    28
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "GPT-5.2 is our previous frontier model for complex professional work.",
-        "context_window": 400000,
-        "max_output_tokens": 128000,
-        "model_type": "reasoning"
+        "endpoints": [
+          "responses",
+          "chat_completions",
+          "batch"
+        ]
       },
       {
         "id": "gpt-5.2-chat-latest",
         "name": "GPT-5.2 Chat",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-5.2",
         "description": "GPT-5.2 Chat points to the GPT-5.2 snapshot currently used in ChatGPT.",
         "status": "active",
+        "knowledge_cutoff": "2025-08",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "max_input_tokens": 272000,
         "model_type": "chat",
         "performance": 3,
         "speed": 3,
+        "tagline": "GPT-5.2 model used in ChatGPT",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22550,19 +27270,64 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1.75,
           "output": 14,
-          "cached_input": 0.175
-        }
+          "cached_input": 0.175,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.75,
+                    0.175,
+                    14
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "responses",
+          "chat_completions"
+        ],
+        "snapshots": [
+          "gpt-5.2-chat-latest"
+        ]
       },
       {
         "id": "gpt-5.2-codex",
-        "name": "gpt-5.2-codex",
+        "name": "GPT-5.2-Codex",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-5.2",
+        "description": "GPT-5.2-Codex is an upgraded version of GPT-5.2 optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.\\nGPT-5.2-Codex supports `low`, `medium`, `high`, and `xhigh` reasoning effort settings.\\nIf you want to learn more about prompting GPT-5.2-Codex, refer to our [dedicated guide](/cookbook/examples/gpt-5/codex_prompting_guide).\\n",
         "status": "active",
+        "knowledge_cutoff": "2025-08",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "max_input_tokens": 272000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "Our most intelligent coding model optimized for long-horizon, agentic coding tasks.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22582,11 +27347,41 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1.75,
           "output": 14,
-          "cached_input": 0.175
+          "cached_input": 0.175,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.75,
+                    0.175,
+                    14
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "context_window": 400000,
-        "max_output_tokens": 128000,
-        "description": "GPT-5.2-Codex is an upgraded version of GPT-5.1-Codex optimized for software engineering and coding workflows."
+        "tools": [
+          "function_calling",
+          "web_search",
+          "hosted_shell",
+          "skills"
+        ],
+        "endpoints": [
+          "responses"
+        ],
+        "snapshots": [
+          "gpt-5.2-codex"
+        ]
       },
       {
         "id": "gpt-5.2-pro-2025-12-11",
@@ -22596,44 +27391,20 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gpt-5.2",
         "status": "active",
-        "alias": "gpt-5.2-pro",
-        "performance": 5,
-        "speed": 1,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 21,
-          "output": 168,
-          "cached_input": 0.175,
-          "batch_input": 10.5,
-          "batch_output": 84
-        },
-        "description": "GPT-5.2 Pro is OpenAI’s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro.",
+        "knowledge_cutoff": "2025-08",
         "context_window": 400000,
         "max_output_tokens": 128000,
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
-      },
-      {
-        "id": "gpt-5.2-pro",
-        "name": "gpt-5.2-pro",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-5.2",
-        "status": "active",
+        "reasoning_tokens": true,
+        "alias": "gpt-5.2-pro",
         "performance": 5,
+        "reasoning": 5,
         "speed": 1,
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -22648,32 +27419,146 @@ export const providers: ProviderWithModels[] = [
           "output": 168,
           "batch_input": 10.5,
           "batch_output": 84,
-          "cached_input": 0.175
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    21,
+                    null,
+                    168
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    10.5,
+                    null,
+                    84
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    10.5,
+                    null,
+                    84
+                  ]
+                }
+              ]
+            }
+          ]
         },
+        "endpoints": [
+          "responses"
+        ]
+      },
+      {
+        "id": "gpt-5.2-pro",
+        "name": "gpt-5.2-pro",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.2",
+        "status": "active",
+        "knowledge_cutoff": "2025-08",
         "context_window": 400000,
         "max_output_tokens": 128000,
-        "description": "GPT-5.2 Pro is OpenAI’s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro.",
+        "reasoning_tokens": true,
+        "performance": 5,
+        "reasoning": 5,
+        "speed": 1,
         "capabilities": {
+          "streaming": true,
+          "vision": true,
           "tool_call": true,
-          "structured_output": true,
           "reasoning": true
         },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 21,
+          "output": 168,
+          "batch_input": 10.5,
+          "batch_output": 84,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    21,
+                    null,
+                    168
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    10.5,
+                    null,
+                    84
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    10.5,
+                    null,
+                    84
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "responses"
+        ],
         "snapshots": [
           "gpt-5.2-pro-2025-12-11"
         ]
       },
       {
         "id": "gpt-5.2",
-        "name": "gpt-5.2",
+        "name": "GPT-5.2",
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-5.2",
         "description": "GPT-5.2 is our previous frontier model for complex professional work.",
         "status": "active",
+        "knowledge_cutoff": "2025-08",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
         "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 5,
+        "reasoning": 5,
         "speed": 3,
+        "tagline": "Previous frontier model for professional work with configurable reasoning effort",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22695,10 +27580,69 @@ export const providers: ProviderWithModels[] = [
           "output": 14,
           "cached_input": 0.175,
           "batch_input": 0.875,
-          "batch_output": 7
+          "batch_output": 7,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.75,
+                    0.175,
+                    14
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.875,
+                    0.0875,
+                    7
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.875,
+                    0.0875,
+                    7
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    3.5,
+                    0.35,
+                    28
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "context_window": 400000,
-        "max_output_tokens": 128000,
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "hosted_shell",
+          "apply_patch",
+          "skills",
+          "mcp"
+        ],
+        "endpoints": [
+          "responses",
+          "chat_completions",
+          "batch"
+        ],
         "snapshots": [
           "gpt-5.2-2025-12-11"
         ]
@@ -22708,13 +27652,18 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.3 Chat",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-5.3",
         "description": "GPT-5.3 Chat points to the GPT-5.3 Instant snapshot currently used in ChatGPT.",
         "status": "active",
+        "knowledge_cutoff": "2025-08",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "max_input_tokens": 272000,
         "model_type": "chat",
         "performance": 3,
         "speed": 3,
+        "tagline": "GPT-5.3 Instant model used in ChatGPT",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22733,19 +27682,64 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1.75,
           "output": 14,
-          "cached_input": 0.175
-        }
+          "cached_input": 0.175,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.75,
+                    0.175,
+                    14
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "responses",
+          "chat_completions"
+        ],
+        "snapshots": [
+          "gpt-5.3-chat-latest"
+        ]
       },
       {
         "id": "gpt-5.3-codex",
-        "name": "gpt-5.3-codex",
+        "name": "GPT-5.3-Codex",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-5.3",
+        "description": "GPT-5.3-Codex is optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.\\nGPT-5.3-Codex supports `low`, `medium`, `high`, and `xhigh` reasoning effort settings.\\nIf you want to learn more about prompting GPT-5.3-Codex, refer to our [dedicated guide](/cookbook/examples/gpt-5/codex_prompting_guide).\\n",
         "status": "active",
+        "knowledge_cutoff": "2025-08",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "max_input_tokens": 272000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "The most capable agentic coding model to date.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22765,11 +27759,41 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1.75,
           "output": 14,
-          "cached_input": 0.175
+          "cached_input": 0.175,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.75,
+                    0.175,
+                    14
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "context_window": 400000,
-        "max_output_tokens": 128000,
-        "description": "GPT-5.3-Codex is OpenAI’s most advanced agentic coding model, combining the frontier software engineering performance of GPT-5.2-Codex with the broader reasoning and professional knowledge capabilities of GPT-5.2."
+        "tools": [
+          "function_calling",
+          "web_search",
+          "hosted_shell",
+          "skills"
+        ],
+        "endpoints": [
+          "responses"
+        ],
+        "snapshots": [
+          "gpt-5.3-codex"
+        ]
       },
       {
         "id": "gpt-5.4-2026-03-05",
@@ -22778,15 +27802,24 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-5.4",
+        "description": "GPT-5.4 is our frontier model for complex professional work.",
         "status": "active",
+        "knowledge_cutoff": "2025-08",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "alias": "gpt-5.4",
         "performance": 5,
+        "reasoning": 5,
         "speed": 3,
+        "tagline": "GPT-5.4 is our frontier model for complex professional work.",
         "capabilities": {
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "structured_output": true
+          "structured_output": true,
+          "reasoning": true
         },
         "modalities": {
           "input": [
@@ -22802,12 +27835,58 @@ export const providers: ProviderWithModels[] = [
           "output": 15,
           "cached_input": 0.25,
           "batch_input": 1.25,
-          "batch_output": 7.5
+          "batch_output": 7.5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    0.25,
+                    15
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    1.25,
+                    0.13,
+                    7.5
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    1.25,
+                    0.13,
+                    7.5
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    5,
+                    0.5,
+                    30
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "GPT-5.4 is our frontier model for complex professional work.",
-        "context_window": 1050000,
-        "max_output_tokens": 128000,
-        "model_type": "reasoning"
+        "endpoints": [
+          "responses",
+          "chat_completions",
+          "batch"
+        ]
       },
       {
         "id": "gpt-5.4-mini-2026-03-17",
@@ -22816,49 +27895,19 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-5.4",
-        "status": "active",
-        "alias": "gpt-5.4-mini",
-        "performance": 4,
-        "speed": 4,
-        "capabilities": {
-          "streaming": true,
-          "vision": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 0.75,
-          "output": 4.5,
-          "cached_input": 0.075,
-          "batch_input": 0.375,
-          "batch_output": 2.25
-        },
         "description": "GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient",
+        "status": "active",
+        "knowledge_cutoff": "2025-08",
         "context_window": 400000,
         "max_output_tokens": 128000,
-        "model_type": "reasoning"
-      },
-      {
-        "id": "gpt-5.4-mini",
-        "name": "gpt-5.4-mini",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-5.4",
-        "description": "GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient",
-        "status": "active",
+        "max_input_tokens": 272000,
         "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "alias": "gpt-5.4-mini",
         "performance": 4,
+        "reasoning": 4,
         "speed": 4,
+        "tagline": "GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22880,10 +27929,151 @@ export const providers: ProviderWithModels[] = [
           "output": 4.5,
           "cached_input": 0.075,
           "batch_input": 0.375,
-          "batch_output": 2.25
+          "batch_output": 2.25,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.75,
+                    0.075,
+                    4.5
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.375,
+                    0.0375,
+                    2.25
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.375,
+                    0.0375,
+                    2.25
+                  ]
+                }
+              ]
+            }
+          ]
         },
+        "endpoints": [
+          "responses",
+          "chat_completions",
+          "batch"
+        ]
+      },
+      {
+        "id": "gpt-5.4-mini",
+        "name": "GPT-5.4 mini",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.4",
+        "description": "GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient",
+        "status": "active",
+        "knowledge_cutoff": "2025-08",
         "context_window": 400000,
         "max_output_tokens": 128000,
+        "max_input_tokens": 272000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "performance": 4,
+        "reasoning": 4,
+        "speed": 4,
+        "tagline": "Our strongest mini model yet for coding, computer use, and subagents",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 4.5,
+          "cached_input": 0.075,
+          "batch_input": 0.375,
+          "batch_output": 2.25,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.75,
+                    0.075,
+                    4.5
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.375,
+                    0.0375,
+                    2.25
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.375,
+                    0.0375,
+                    2.25
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "tool_search",
+          "image_generation",
+          "code_interpreter",
+          "hosted_shell",
+          "apply_patch",
+          "skills",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "responses",
+          "chat_completions",
+          "batch"
+        ],
+        "pricing_notes": [
+          "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 mini."
+        ],
         "snapshots": [
           "gpt-5.4-mini-2026-03-17"
         ]
@@ -22895,49 +28085,19 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-5.4",
-        "status": "active",
-        "alias": "gpt-5.4-nano",
-        "performance": 3,
-        "speed": 4,
-        "capabilities": {
-          "streaming": true,
-          "vision": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 0.2,
-          "output": 1.25,
-          "cached_input": 0.02,
-          "batch_input": 0.1,
-          "batch_output": 0.625
-        },
         "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
+        "status": "active",
+        "knowledge_cutoff": "2025-08",
         "context_window": 400000,
         "max_output_tokens": 128000,
-        "model_type": "reasoning"
-      },
-      {
-        "id": "gpt-5.4-nano",
-        "name": "gpt-5.4-nano",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-5.4",
-        "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
-        "status": "active",
+        "max_input_tokens": 272000,
         "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "alias": "gpt-5.4-nano",
         "performance": 3,
+        "reasoning": 3,
         "speed": 4,
+        "tagline": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -22959,10 +28119,149 @@ export const providers: ProviderWithModels[] = [
           "output": 1.25,
           "cached_input": 0.02,
           "batch_input": 0.1,
-          "batch_output": 0.625
+          "batch_output": 0.625,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.2,
+                    0.02,
+                    1.25
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.1,
+                    0.01,
+                    0.625
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.1,
+                    0.01,
+                    0.625
+                  ]
+                }
+              ]
+            }
+          ]
         },
+        "endpoints": [
+          "responses",
+          "chat_completions",
+          "batch"
+        ]
+      },
+      {
+        "id": "gpt-5.4-nano",
+        "name": "GPT-5.4 nano",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.4",
+        "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
+        "status": "active",
+        "knowledge_cutoff": "2025-08",
         "context_window": 400000,
         "max_output_tokens": 128000,
+        "max_input_tokens": 272000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "performance": 3,
+        "reasoning": 3,
+        "speed": 4,
+        "tagline": "Our cheapest GPT-5.4-class model for simple high-volume tasks",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 1.25,
+          "cached_input": 0.02,
+          "batch_input": 0.1,
+          "batch_output": 0.625,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.2,
+                    0.02,
+                    1.25
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.1,
+                    0.01,
+                    0.625
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.1,
+                    0.01,
+                    0.625
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "hosted_shell",
+          "apply_patch",
+          "skills",
+          "mcp"
+        ],
+        "endpoints": [
+          "responses",
+          "chat_completions",
+          "batch"
+        ],
+        "pricing_notes": [
+          "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 nano."
+        ],
         "snapshots": [
           "gpt-5.4-nano-2026-03-17"
         ]
@@ -22975,44 +28274,20 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gpt-5.4",
         "status": "active",
-        "alias": "gpt-5.4-pro",
-        "performance": 5,
-        "speed": 1,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 30,
-          "output": 180,
-          "cached_input": 0.25,
-          "batch_input": 15,
-          "batch_output": 90
-        },
-        "description": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks.",
+        "knowledge_cutoff": "2025-08",
         "context_window": 1050000,
         "max_output_tokens": 128000,
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
-      },
-      {
-        "id": "gpt-5.4-pro",
-        "name": "gpt-5.4-pro",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "gpt-5.4",
-        "status": "active",
+        "reasoning_tokens": true,
+        "alias": "gpt-5.4-pro",
         "performance": 5,
+        "reasoning": 5,
         "speed": 1,
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23027,32 +28302,146 @@ export const providers: ProviderWithModels[] = [
           "output": 180,
           "batch_input": 15,
           "batch_output": 90,
-          "cached_input": 0.25
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    30,
+                    null,
+                    180
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    15,
+                    null,
+                    90
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    15,
+                    null,
+                    90
+                  ]
+                }
+              ]
+            }
+          ]
         },
+        "endpoints": [
+          "responses"
+        ]
+      },
+      {
+        "id": "gpt-5.4-pro",
+        "name": "gpt-5.4-pro",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.4",
+        "status": "active",
+        "knowledge_cutoff": "2025-08",
         "context_window": 1050000,
         "max_output_tokens": 128000,
-        "description": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks.",
+        "reasoning_tokens": true,
+        "performance": 5,
+        "reasoning": 5,
+        "speed": 1,
         "capabilities": {
+          "streaming": true,
+          "vision": true,
           "tool_call": true,
-          "structured_output": true,
           "reasoning": true
         },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 30,
+          "output": 180,
+          "batch_input": 15,
+          "batch_output": 90,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    30,
+                    null,
+                    180
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    15,
+                    null,
+                    90
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    15,
+                    null,
+                    90
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "responses"
+        ],
         "snapshots": [
           "gpt-5.4-pro-2026-03-05"
         ]
       },
       {
         "id": "gpt-5.4",
-        "name": "gpt-5.4",
+        "name": "GPT-5.4",
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-5.4",
         "description": "GPT-5.4 is our frontier model for complex professional work.",
         "status": "active",
+        "knowledge_cutoff": "2025-08",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
         "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 5,
+        "reasoning": 5,
         "speed": 3,
+        "tagline": "Best intelligence at scale for agentic, coding, and professional workflows",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -23074,28 +28463,105 @@ export const providers: ProviderWithModels[] = [
           "output": 15,
           "cached_input": 0.25,
           "batch_input": 1.25,
-          "batch_output": 7.5
+          "batch_output": 7.5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    0.25,
+                    15
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    1.25,
+                    0.13,
+                    7.5
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    1.25,
+                    0.13,
+                    7.5
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    5,
+                    0.5,
+                    30
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "context_window": 1050000,
-        "max_output_tokens": 128000,
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "tool_search",
+          "image_generation",
+          "code_interpreter",
+          "hosted_shell",
+          "apply_patch",
+          "skills",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "responses",
+          "chat_completions",
+          "batch"
+        ],
+        "pricing_notes": [
+          "For models with a 1.05M context window (GPT-5.4 and GPT-5.4 pro), prompts with >272K input tokens are priced at 2x input and 1.5x output for the full session for standard, batch, and flex.",
+          "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 and GPT-5.4 pro."
+        ],
         "snapshots": [
           "gpt-5.4-2026-03-05"
         ]
       },
       {
         "id": "gpt-5",
-        "name": "gpt-5",
+        "name": "GPT-5",
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-5",
         "description": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.",
         "status": "active",
+        "knowledge_cutoff": "2024-09",
         "context_window": 400000,
         "max_output_tokens": 128000,
+        "max_input_tokens": 272000,
         "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "Previous intelligent reasoning model for coding and agentic tasks with configurable reasoning effort",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23110,13 +28576,66 @@ export const providers: ProviderWithModels[] = [
           "output": 10,
           "cached_input": 0.125,
           "batch_input": 0.625,
-          "batch_output": 5
+          "batch_output": 5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.25,
+                    0.125,
+                    10
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.625,
+                    0.0625,
+                    5
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.625,
+                    0.0625,
+                    5
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    2.5,
+                    0.25,
+                    20
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "batch"
+        ],
         "snapshots": [
           "gpt-5-2025-08-07"
         ]
@@ -23126,15 +28645,21 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-audio-1.5",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-audio",
         "description": "The gpt-audio model is our first generally available audio model. It accepts",
         "status": "active",
+        "knowledge_cutoff": "2024-09",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
         "performance": 4,
         "speed": 3,
+        "tagline": "The best voice model for audio in, audio out with Chat Completions.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23147,8 +28672,54 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 2.5,
-          "output": 10
-        }
+          "output": 10,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    null,
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    32,
+                    null,
+                    64
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "snapshots": [
+          "gpt-audio-1.5"
+        ]
       },
       {
         "id": "gpt-audio-2025-08-28",
@@ -23157,12 +28728,20 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-audio",
+        "description": "The gpt-audio model is our first generally available audio model. It accepts",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 128000,
         "max_output_tokens": 16384,
+        "model_type": "chat",
         "alias": "gpt-audio",
         "performance": 4,
         "speed": 3,
+        "tagline": "The gpt-audio model is our first generally available audio model.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23175,29 +28754,72 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 2.5,
-          "output": 10
+          "output": 10,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    null,
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    32,
+                    null,
+                    64
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "The gpt-audio model is our first generally available audio model. It accepts",
-        "model_type": "chat",
-        "capabilities": {
-          "structured_output": true
-        }
+        "endpoints": [
+          "chat_completions"
+        ]
       },
       {
-        "id": "gpt-audio-mini",
-        "name": "gpt-audio-mini",
+        "id": "gpt-audio-mini-2025-10-06",
+        "name": "gpt-audio-mini-2025-10-06",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-audio",
+        "description": "A cost-efficient version of GPT Audio. It accepts audio inputs and outputs, and can be used in the Chat Completions REST API.",
         "status": "active",
-        "pricing": {
-          "input": 0.6,
-          "output": 2.4
-        },
+        "knowledge_cutoff": "2023-09",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "description": "A cost-efficient version of GPT Audio.",
+        "model_type": "chat",
+        "alias": "gpt-audio-mini",
+        "performance": 4,
+        "speed": 5,
+        "tagline": "A cost-efficient version of GPT Audio.",
+        "capabilities": {
+          "tool_call": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23208,9 +28830,215 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ]
         },
+        "pricing": {
+          "input": 0.6,
+          "output": 2.4,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    null,
+                    2.4
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    null,
+                    20
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ]
+      },
+      {
+        "id": "gpt-audio-mini-2025-12-15",
+        "name": "gpt-audio-mini-2025-12-15",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-audio",
+        "description": "A cost-efficient version of GPT Audio. It accepts audio inputs and outputs, and can be used in the Chat Completions REST API.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "alias": "gpt-audio-mini",
+        "performance": 4,
+        "speed": 5,
+        "tagline": "A cost-efficient version of GPT Audio.",
         "capabilities": {
-          "structured_output": true
-        }
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 0.6,
+          "output": 2.4,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    null,
+                    2.4
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    null,
+                    20
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ]
+      },
+      {
+        "id": "gpt-audio-mini",
+        "name": "gpt-audio-mini",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-audio",
+        "description": "A cost-efficient version of GPT Audio. It accepts audio inputs and outputs, and can be used in the Chat Completions REST API.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "model_type": "chat",
+        "performance": 4,
+        "speed": 5,
+        "tagline": "A cost-efficient version of GPT Audio",
+        "capabilities": {
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 0.6,
+          "output": 2.4,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    null,
+                    2.4
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    null,
+                    20
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "snapshots": [
+          "gpt-audio-mini-2025-10-06",
+          "gpt-audio-mini-2025-12-15"
+        ]
       },
       {
         "id": "gpt-audio",
@@ -23221,11 +29049,17 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-audio",
         "description": "The gpt-audio model is our first generally available audio model. It accepts",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
         "performance": 4,
         "speed": 3,
+        "tagline": "For audio inputs and outputs with Chat Completions API",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23238,11 +29072,51 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 2.5,
-          "output": 10
+          "output": 10,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    null,
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    32,
+                    null,
+                    64
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "capabilities": {
-          "structured_output": true
-        },
+        "endpoints": [
+          "chat_completions"
+        ],
         "snapshots": [
           "gpt-audio-2025-08-28"
         ]
@@ -23252,40 +29126,358 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-image-1-mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-image-1",
+        "description": "A cost-efficient version of GPT Image 1. It is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.",
         "status": "active",
+        "model_type": "image",
+        "performance": 4,
+        "speed": 1,
+        "tagline": "A cost-efficient version of GPT Image 1",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
         "pricing": {
           "input": 2,
-          "cached_input": 0.2
-        }
+          "cached_input": 0.2,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2,
+                    0.2,
+                    null
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2.5,
+                    0.25,
+                    8
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Quality",
+                "1024x1024",
+                "1024x1792",
+                "1792x1024"
+              ],
+              "rows": [
+                {
+                  "label": "Low",
+                  "values": [
+                    null,
+                    0.005,
+                    0.006,
+                    0.006
+                  ]
+                },
+                {
+                  "label": "Medium",
+                  "values": [
+                    null,
+                    0.011,
+                    0.015,
+                    0.015
+                  ]
+                },
+                {
+                  "label": "High",
+                  "values": [
+                    null,
+                    0.036,
+                    0.052,
+                    0.052
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "batch",
+          "image_edit",
+          "image_generation"
+        ],
+        "snapshots": [
+          "gpt-image-1-mini"
+        ]
       },
       {
-        "id": "gpt-image-1.5",
-        "name": "gpt-image-1.5",
+        "id": "gpt-image-1.5-2025-12-16",
+        "name": "gpt-image-1.5-2025-12-16",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-image-1.5",
+        "description": "GPT Image 1.5 is our latest image generation model, with better instruction following and adherence to prompts. Learn more in our [GPT Image 1.5 usage guide](/api/docs/guides/image-generation).",
         "status": "active",
+        "model_type": "image",
+        "alias": "gpt-image-1.5",
+        "performance": 5,
+        "speed": 3,
+        "tagline": "GPT Image 1.5 is our latest image generation model, with better instruction following and adherence to prompts.",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image",
+            "text"
+          ]
+        },
         "pricing": {
           "input": 5,
           "output": 10,
-          "cached_input": 1.25
-        }
+          "cached_input": 1.25,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    1.25,
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    8,
+                    2,
+                    32
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Quality",
+                "1024x1024",
+                "1024x1536",
+                "1536x1024"
+              ],
+              "rows": [
+                {
+                  "label": "Low",
+                  "values": [
+                    null,
+                    0.009,
+                    0.013,
+                    0.013
+                  ]
+                },
+                {
+                  "label": "Medium",
+                  "values": [
+                    null,
+                    0.034,
+                    0.05,
+                    0.05
+                  ]
+                },
+                {
+                  "label": "High",
+                  "values": [
+                    null,
+                    0.133,
+                    0.2,
+                    0.2
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "batch",
+          "image_generation",
+          "image_edit"
+        ]
+      },
+      {
+        "id": "gpt-image-1.5",
+        "name": "GPT Image 1.5",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-image-1.5",
+        "description": "GPT Image 1.5 is our latest image generation model, with better instruction following and adherence to prompts. Learn more in our [GPT Image 1.5 usage guide](/api/docs/guides/image-generation).",
+        "status": "active",
+        "model_type": "image",
+        "performance": 5,
+        "speed": 3,
+        "tagline": "State-of-the-art image generation model.",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image",
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 10,
+          "cached_input": 1.25,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    1.25,
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    8,
+                    2,
+                    32
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Quality",
+                "1024x1024",
+                "1024x1536",
+                "1536x1024"
+              ],
+              "rows": [
+                {
+                  "label": "Low",
+                  "values": [
+                    null,
+                    0.009,
+                    0.013,
+                    0.013
+                  ]
+                },
+                {
+                  "label": "Medium",
+                  "values": [
+                    null,
+                    0.034,
+                    0.05,
+                    0.05
+                  ]
+                },
+                {
+                  "label": "High",
+                  "values": [
+                    null,
+                    0.133,
+                    0.2,
+                    0.2
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "batch",
+          "image_generation",
+          "image_edit"
+        ],
+        "snapshots": [
+          "gpt-image-1.5-2025-12-16"
+        ]
       },
       {
         "id": "gpt-image-1",
         "name": "GPT Image 1",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-image-1",
         "description": "GPT Image 1 is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.",
         "status": "active",
-        "model_type": "other",
+        "model_type": "image",
         "performance": 4,
         "speed": 1,
+        "tagline": "Our previous image generation model",
         "modalities": {
           "input": [
             "text",
@@ -23297,21 +29489,121 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 5,
-          "cached_input": 1.25
-        }
+          "cached_input": 1.25,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    1.25,
+                    null
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    2.5,
+                    40
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image generation",
+              "unit": "Per image",
+              "columns": [
+                "Quality",
+                "1024x1024",
+                "1024x1536",
+                "1536x1024"
+              ],
+              "rows": [
+                {
+                  "label": "Low",
+                  "values": [
+                    null,
+                    0.011,
+                    0.016,
+                    0.016
+                  ]
+                },
+                {
+                  "label": "Medium",
+                  "values": [
+                    null,
+                    0.042,
+                    0.063,
+                    0.063
+                  ]
+                },
+                {
+                  "label": "High",
+                  "values": [
+                    null,
+                    0.167,
+                    0.25,
+                    0.25
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "batch",
+          "image_generation",
+          "image_edit",
+          "responses"
+        ],
+        "snapshots": [
+          "gpt-image-1"
+        ]
       },
       {
         "id": "gpt-oss-120b",
         "name": "gpt-oss-120b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-oss",
+        "description": "\\",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 131072,
         "max_output_tokens": 131072,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "Most powerful open-weight model, fits into an H100 GPU",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text"
@@ -23320,25 +29612,44 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
+        "tools": [
+          "function_calling",
+          "code_interpreter",
+          "mcp",
+          "web_search"
+        ],
+        "endpoints": [
+          "responses",
+          "batch"
+        ],
+        "snapshots": [
+          "gpt-oss-120b"
+        ]
       },
       {
         "id": "gpt-oss-20b",
         "name": "gpt-oss-20b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-oss",
+        "description": "\\",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 131072,
         "max_output_tokens": 131072,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "Medium-sized open-weight model for low latency",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text"
@@ -23347,27 +29658,38 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
+        "tools": [
+          "function_calling",
+          "code_interpreter",
+          "mcp",
+          "web_search"
+        ],
+        "endpoints": [
+          "responses",
+          "batch"
+        ],
+        "snapshots": [
+          "gpt-oss-20b"
+        ]
       },
       {
         "id": "gpt-realtime-1.5",
         "name": "gpt-realtime-1.5",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-realtime",
         "description": "GPT-Reatime-1.5 is our flagship audio model for voice agents & customer support.",
         "status": "active",
+        "knowledge_cutoff": "2024-09",
         "context_window": 32000,
         "max_output_tokens": 4096,
-        "model_type": "other",
         "performance": 5,
         "speed": 4,
+        "tagline": "The best voice model for audio in, audio out.",
+        "capabilities": {
+          "tool_call": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23382,8 +29704,73 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 4,
           "output": 16,
-          "cached_input": 0.4
-        }
+          "cached_input": 0.4,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    4,
+                    0.4,
+                    16
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    32,
+                    0.4,
+                    64
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    0.5,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "realtime"
+        ],
+        "snapshots": [
+          "gpt-realtime-1.5"
+        ]
       },
       {
         "id": "gpt-realtime-2025-08-28",
@@ -23392,12 +29779,18 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-realtime",
+        "description": "This is our first general-availability realtime model, capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 32000,
         "max_output_tokens": 4096,
         "alias": "gpt-realtime",
         "performance": 5,
         "speed": 4,
+        "tagline": "This is our first general-availability realtime model, capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
+        "capabilities": {
+          "tool_call": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23412,24 +29805,367 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 4,
           "output": 16,
-          "cached_input": 0.4
+          "cached_input": 0.4,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    4,
+                    0.4,
+                    16
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    32,
+                    0.4,
+                    64
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    0.5,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "This is our first general-availability realtime model, capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
-        "model_type": "other"
+        "endpoints": [
+          "realtime"
+        ]
+      },
+      {
+        "id": "gpt-realtime-mini-2025-10-06",
+        "name": "gpt-realtime-mini-2025-10-06",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-realtime",
+        "description": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 32000,
+        "max_output_tokens": 4096,
+        "alias": "gpt-realtime-mini",
+        "performance": 4,
+        "speed": 5,
+        "tagline": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
+        "capabilities": {
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 0.6,
+          "output": 2.4,
+          "cached_input": 0.06,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    0.06,
+                    2.4
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    0.3,
+                    20
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.8,
+                    0.08,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "realtime"
+        ]
+      },
+      {
+        "id": "gpt-realtime-mini-2025-12-15",
+        "name": "gpt-realtime-mini-2025-12-15",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-realtime",
+        "description": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 32000,
+        "max_output_tokens": 4096,
+        "alias": "gpt-realtime-mini",
+        "performance": 4,
+        "speed": 5,
+        "tagline": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
+        "capabilities": {
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 0.6,
+          "output": 2.4,
+          "cached_input": 0.06,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    0.06,
+                    2.4
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    0.3,
+                    20
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.8,
+                    0.08,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "realtime"
+        ]
       },
       {
         "id": "gpt-realtime-mini",
         "name": "gpt-realtime-mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "gpt-realtime",
+        "description": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 32000,
+        "max_output_tokens": 4096,
+        "performance": 4,
+        "speed": 5,
+        "tagline": "A cost-efficient version of GPT Realtime",
+        "capabilities": {
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
         "pricing": {
           "input": 0.6,
           "output": 2.4,
-          "cached_input": 0.06
-        }
+          "cached_input": 0.06,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.6,
+                    0.06,
+                    2.4
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    0.3,
+                    20
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.8,
+                    0.08,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "realtime"
+        ],
+        "snapshots": [
+          "gpt-realtime-mini-2025-10-06",
+          "gpt-realtime-mini-2025-12-15"
+        ]
       },
       {
         "id": "gpt-realtime",
@@ -23440,11 +30176,15 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-realtime",
         "description": "This is our first general-availability realtime model, capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 32000,
         "max_output_tokens": 4096,
-        "model_type": "other",
         "performance": 5,
         "speed": 4,
+        "tagline": "Model capable of realtime text and audio inputs and outputs",
+        "capabilities": {
+          "tool_call": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23459,8 +30199,70 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 4,
           "output": 16,
-          "cached_input": 0.4
+          "cached_input": 0.4,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    4,
+                    0.4,
+                    16
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    32,
+                    0.4,
+                    64
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    0.5,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
         },
+        "endpoints": [
+          "realtime"
+        ],
         "snapshots": [
           "gpt-realtime-2025-08-28"
         ]
@@ -23472,12 +30274,25 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o1",
+        "description": "The o1 series of models are trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "alias": "o1",
         "performance": 4,
+        "reasoning": 4,
         "speed": 1,
+        "tagline": "The o1 series of models are trained with reinforcement learning to perform complex reasoning.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23492,14 +30307,43 @@ export const providers: ProviderWithModels[] = [
           "output": 60,
           "cached_input": 7.5,
           "batch_input": 7.5,
-          "batch_output": 30
+          "batch_output": 30,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    15,
+                    7.5,
+                    60
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    7.5,
+                    null,
+                    30
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch"
+        ]
       },
       {
         "id": "o1-mini-2024-09-12",
@@ -23508,12 +30352,22 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o1",
+        "description": "The o1 reasoning model is designed to solve hard problems across domains. o1-mini is a faster and more affordable reasoning model, but we recommend using the newer o3-mini model that features higher intelligence at the same latency and price as o1-mini.",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 128000,
         "max_output_tokens": 65536,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "alias": "o1-mini",
         "performance": 3,
+        "reasoning": 3,
         "speed": 2,
+        "tagline": "The o1 reasoning model is designed to solve hard problems across domains.",
+        "capabilities": {
+          "streaming": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text"
@@ -23527,8 +30381,41 @@ export const providers: ProviderWithModels[] = [
           "output": 4.4,
           "cached_input": 0.55,
           "batch_input": 0.55,
-          "batch_output": 2.2
-        }
+          "batch_output": 2.2,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.1,
+                    0.55,
+                    4.4
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.55,
+                    null,
+                    2.2
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "chat_completions",
+          "assistants"
+        ]
       },
       {
         "id": "o1-mini",
@@ -23537,11 +30424,22 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o1",
+        "description": "The o1 reasoning model is designed to solve hard problems across domains. o1-mini is a faster and more affordable reasoning model, but we recommend using the newer o3-mini model that features higher intelligence at the same latency and price as o1-mini.",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 128000,
         "max_output_tokens": 65536,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 3,
+        "reasoning": 3,
         "speed": 2,
+        "tagline": "A small model alternative to o1",
+        "successor": "o3-mini",
+        "capabilities": {
+          "streaming": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text"
@@ -23555,8 +30453,46 @@ export const providers: ProviderWithModels[] = [
           "output": 4.4,
           "cached_input": 0.55,
           "batch_input": 0.55,
-          "batch_output": 2.2
+          "batch_output": 2.2,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.1,
+                    0.55,
+                    4.4
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.55,
+                    null,
+                    2.2
+                  ]
+                }
+              ]
+            }
+          ]
         },
+        "tools": [
+          "file_search",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "assistants"
+        ],
         "snapshots": [
           "o1-mini-2024-09-12"
         ]
@@ -23569,11 +30505,21 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "o1",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 128000,
         "max_output_tokens": 32768,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "alias": "o1-preview",
         "performance": 3,
+        "reasoning": 3,
         "speed": 1,
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text"
@@ -23582,15 +30528,12 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "pricing": {
-          "input": 15,
-          "output": 60,
-          "cached_input": 7.5,
-          "batch_input": 7.5,
-          "batch_output": 30
-        },
+        "endpoints": [
+          "chat_completions",
+          "assistants"
+        ],
         "description": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
-        "model_type": "reasoning"
+        "tagline": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning."
       },
       {
         "id": "o1-preview",
@@ -23599,13 +30542,21 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o1",
-        "description": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
         "status": "deprecated",
+        "knowledge_cutoff": "2023-09",
         "context_window": 128000,
         "max_output_tokens": 32768,
         "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 3,
+        "reasoning": 3,
         "speed": 1,
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text"
@@ -23614,16 +30565,16 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "endpoints": [
+          "chat_completions",
+          "assistants"
+        ],
         "snapshots": [
           "o1-preview-2024-09-12"
         ],
-        "pricing": {
-          "input": 15,
-          "output": 60,
-          "cached_input": 7.5,
-          "batch_input": 7.5,
-          "batch_output": 30
-        }
+        "description": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
+        "tagline": "Preview of our first o-series reasoning model",
+        "successor": "o1"
       },
       {
         "id": "o1-pro-2025-03-19",
@@ -23632,46 +30583,24 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o1",
+        "description": "The o1 series of models are trained with reinforcement learning to think",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "alias": "o1-pro",
         "performance": 4,
+        "reasoning": 4,
         "speed": 1,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 150,
-          "output": 600,
-          "cached_input": 7.5,
-          "batch_input": 75,
-          "batch_output": 300
-        },
-        "description": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning.",
+        "tagline": "The o1 series of models are trained with reinforcement learning to think",
         "capabilities": {
+          "vision": true,
+          "tool_call": true,
           "structured_output": true,
           "reasoning": true
-        }
-      },
-      {
-        "id": "o1-pro",
-        "name": "o1-pro",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-03-21",
-        "family": "o1",
-        "status": "active",
-        "context_window": 200000,
-        "max_output_tokens": 100000,
-        "performance": 4,
-        "speed": 1,
+        },
         "modalities": {
           "input": [
             "text",
@@ -23686,13 +30615,118 @@ export const providers: ProviderWithModels[] = [
           "output": 600,
           "batch_input": 75,
           "batch_output": 300,
-          "cached_input": 7.5
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    150,
+                    null,
+                    600
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    75,
+                    null,
+                    300
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning.",
+        "endpoints": [
+          "responses",
+          "batch"
+        ]
+      },
+      {
+        "id": "o1-pro",
+        "name": "o1-pro",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "o1",
+        "description": "The o1 series of models are trained with reinforcement learning to think",
+        "status": "active",
+        "knowledge_cutoff": "2023-09",
+        "context_window": 200000,
+        "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "performance": 4,
+        "reasoning": 4,
+        "speed": 1,
+        "tagline": "Version of o1 with more compute for better responses",
         "capabilities": {
+          "vision": true,
+          "tool_call": true,
           "structured_output": true,
           "reasoning": true
         },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 150,
+          "output": 600,
+          "batch_input": 75,
+          "batch_output": 300,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    150,
+                    null,
+                    600
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    75,
+                    null,
+                    300
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "file_search",
+          "mcp"
+        ],
+        "endpoints": [
+          "responses",
+          "batch"
+        ],
         "snapshots": [
           "o1-pro-2025-03-19"
         ]
@@ -23704,11 +30738,24 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o1",
+        "description": "The o1 series of models are trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 4,
+        "reasoning": 4,
         "speed": 1,
+        "tagline": "Previous full o-series reasoning model",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23723,14 +30770,48 @@ export const providers: ProviderWithModels[] = [
           "output": 60,
           "cached_input": 7.5,
           "batch_input": 7.5,
-          "batch_output": 30
+          "batch_output": 30,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    15,
+                    7.5,
+                    60
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    7.5,
+                    null,
+                    30
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        },
+        "tools": [
+          "function_calling",
+          "file_search",
+          "mcp"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch"
+        ],
         "snapshots": [
           "o1-2024-12-17"
         ]
@@ -23742,12 +30823,25 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o3",
+        "description": "o3 is a well-rounded and powerful model across domains. It sets a new",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "alias": "o3",
         "performance": 5,
+        "reasoning": 5,
         "speed": 1,
+        "tagline": "o3 is a well-rounded and powerful model across domains.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23762,14 +30856,50 @@ export const providers: ProviderWithModels[] = [
           "output": 8,
           "cached_input": 0.5,
           "batch_input": 1,
-          "batch_output": 4
+          "batch_output": 4,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2,
+                    0.5,
+                    8
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    1,
+                    null,
+                    4
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    1,
+                    0.25,
+                    4
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "o3 is a well-rounded and powerful model across domains.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "batch"
+        ]
       },
       {
         "id": "o3-deep-research-2025-06-26",
@@ -23778,12 +30908,23 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o3",
+        "description": "o3-deep-research is our most advanced model for deep research,",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "alias": "o3-deep-research",
         "performance": 5,
+        "reasoning": 5,
         "speed": 1,
+        "tagline": "o3-deep-research is our most advanced model for deep research,",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23798,14 +30939,41 @@ export const providers: ProviderWithModels[] = [
           "output": 40,
           "cached_input": 2.5,
           "batch_input": 5,
-          "batch_output": 20
+          "batch_output": 20,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    2.5,
+                    40
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    5,
+                    null,
+                    20
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "o3-deep-research is OpenAI's advanced model for deep research, designed to tackle complex, multi-step research tasks.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
+        "endpoints": [
+          "responses",
+          "batch"
+        ]
       },
       {
         "id": "o3-deep-research",
@@ -23814,11 +30982,22 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o3",
+        "description": "o3-deep-research is our most advanced model for deep research,",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 5,
+        "reasoning": 5,
         "speed": 1,
+        "tagline": "Our most powerful deep research model",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23833,14 +31012,46 @@ export const providers: ProviderWithModels[] = [
           "output": 40,
           "cached_input": 2.5,
           "batch_input": 5,
-          "batch_output": 20
+          "batch_output": 20,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    10,
+                    2.5,
+                    40
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    5,
+                    null,
+                    20
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "o3-deep-research is OpenAI's advanced model for deep research, designed to tackle complex, multi-step research tasks.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        },
+        "tools": [
+          "web_search",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "responses",
+          "batch"
+        ],
         "snapshots": [
           "o3-deep-research-2025-06-26"
         ]
@@ -23852,12 +31063,24 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o3",
+        "description": "o3-mini is our newest small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini. o3-mini supports key developer features, like Structured Outputs, function calling, and Batch API.",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "alias": "o3-mini",
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "o3-mini is our newest small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text"
@@ -23871,14 +31094,43 @@ export const providers: ProviderWithModels[] = [
           "output": 4.4,
           "cached_input": 0.55,
           "batch_input": 0.55,
-          "batch_output": 2.2
+          "batch_output": 2.2,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.1,
+                    0.55,
+                    4.4
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.55,
+                    null,
+                    2.2
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch"
+        ]
       },
       {
         "id": "o3-mini",
@@ -23887,11 +31139,24 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o3",
+        "description": "o3-mini is our newest small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini. o3-mini supports key developer features, like Structured Outputs, function calling, and Batch API.",
         "status": "active",
+        "knowledge_cutoff": "2023-09",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "A small model alternative to o3",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text"
@@ -23905,14 +31170,50 @@ export const providers: ProviderWithModels[] = [
           "output": 4.4,
           "cached_input": 0.55,
           "batch_input": 0.55,
-          "batch_output": 2.2
+          "batch_output": 2.2,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    1.1,
+                    0.55,
+                    4.4
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.55,
+                    null,
+                    2.2
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        },
+        "tools": [
+          "function_calling",
+          "file_search",
+          "code_interpreter",
+          "mcp",
+          "image_generation"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "assistants",
+          "batch"
+        ],
         "snapshots": [
           "o3-mini-2025-01-31"
         ]
@@ -23924,12 +31225,24 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o3",
+        "description": "The o-series of models are trained with reinforcement learning to think",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "alias": "o3-pro",
         "performance": 5,
+        "reasoning": 5,
         "speed": 1,
+        "tagline": "The o-series of models are trained with reinforcement learning to think",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23943,14 +31256,41 @@ export const providers: ProviderWithModels[] = [
           "input": 20,
           "output": 80,
           "batch_input": 10,
-          "batch_output": 40
+          "batch_output": 40,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    20,
+                    null,
+                    80
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    10,
+                    null,
+                    40
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "The o-series of models are trained with reinforcement learning to think before they answer and perform complex reasoning.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
+        "endpoints": [
+          "responses",
+          "batch"
+        ]
       },
       {
         "id": "o3-pro",
@@ -23959,11 +31299,23 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o3",
+        "description": "The o-series of models are trained with reinforcement learning to think",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 5,
+        "reasoning": 5,
         "speed": 1,
+        "tagline": "Version of o3 with more compute for better responses",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -23977,14 +31329,48 @@ export const providers: ProviderWithModels[] = [
           "input": 20,
           "output": 80,
           "batch_input": 10,
-          "batch_output": 40
+          "batch_output": 40,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    20,
+                    null,
+                    80
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    10,
+                    null,
+                    40
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "The o-series of models are trained with reinforcement learning to think before they answer and perform complex reasoning.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        },
+        "tools": [
+          "function_calling",
+          "file_search",
+          "image_generation",
+          "mcp",
+          "web_search"
+        ],
+        "endpoints": [
+          "responses",
+          "batch"
+        ],
         "snapshots": [
           "o3-pro-2025-06-10"
         ]
@@ -23996,11 +31382,24 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o3",
+        "description": "o3 is a well-rounded and powerful model across domains. It sets a new",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 5,
+        "reasoning": 5,
         "speed": 1,
+        "tagline": "Reasoning model for complex tasks, succeeded by GPT-5",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -24015,14 +31414,58 @@ export const providers: ProviderWithModels[] = [
           "output": 8,
           "cached_input": 0.5,
           "batch_input": 1,
-          "batch_output": 4
+          "batch_output": 4,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2,
+                    0.5,
+                    8
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    1,
+                    null,
+                    4
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    1,
+                    0.25,
+                    4
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "o3 is a well-rounded and powerful model across domains.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        },
+        "tools": [
+          "function_calling",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "mcp",
+          "web_search"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "batch"
+        ],
         "snapshots": [
           "o3-2025-04-16"
         ]
@@ -24034,12 +31477,26 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o4",
+        "description": "o4-mini is our latest small o-series model. It's optimized for fast,",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "alias": "o4-mini",
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "o4-mini is our latest small o-series model.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "fine_tuning": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -24050,18 +31507,50 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    null,
+                    4,
+                    1,
+                    16
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    2,
+                    null,
+                    8
+                  ]
+                }
+              ]
+            }
+          ],
           "input": 1.1,
           "output": 4.4,
           "cached_input": 0.275,
           "batch_input": 0.55,
           "batch_output": 2.2
         },
-        "description": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "batch",
+          "fine_tuning"
+        ]
       },
       {
         "id": "o4-mini-deep-research-2025-06-26",
@@ -24070,12 +31559,23 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o4",
+        "description": "o4-mini-deep-research is our faster, more affordable deep",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "alias": "o4-mini-deep-research",
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "o4-mini-deep-research is our faster, more affordable deep",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -24090,14 +31590,41 @@ export const providers: ProviderWithModels[] = [
           "output": 8,
           "cached_input": 0.5,
           "batch_input": 1,
-          "batch_output": 4
+          "batch_output": 4,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2,
+                    0.5,
+                    8
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    1,
+                    null,
+                    4
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "o4-mini-deep-research is OpenAI's faster, more affordable deep research model—ideal for tackling complex, multi-step research tasks.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        }
+        "endpoints": [
+          "responses",
+          "batch"
+        ]
       },
       {
         "id": "o4-mini-deep-research",
@@ -24106,11 +31633,22 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o4",
+        "description": "o4-mini-deep-research is our faster, more affordable deep",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "Faster, more affordable deep research model",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -24125,14 +31663,46 @@ export const providers: ProviderWithModels[] = [
           "output": 8,
           "cached_input": 0.5,
           "batch_input": 1,
-          "batch_output": 4
+          "batch_output": 4,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2,
+                    0.5,
+                    8
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    1,
+                    null,
+                    4
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "o4-mini-deep-research is OpenAI's faster, more affordable deep research model—ideal for tackling complex, multi-step research tasks.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        },
+        "tools": [
+          "web_search",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "responses",
+          "batch"
+        ],
         "snapshots": [
           "o4-mini-deep-research-2025-06-26"
         ]
@@ -24144,11 +31714,25 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o4",
+        "description": "o4-mini is our latest small o-series model. It's optimized for fast,",
         "status": "active",
+        "knowledge_cutoff": "2024-05",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
         "performance": 4,
+        "reasoning": 4,
         "speed": 3,
+        "tagline": "Fast, cost-efficient reasoning model, succeeded by GPT-5 mini",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "fine_tuning": true,
+          "reasoning": true
+        },
         "modalities": {
           "input": [
             "text",
@@ -24163,16 +31747,823 @@ export const providers: ProviderWithModels[] = [
           "output": 4.4,
           "cached_input": 0.275,
           "batch_input": 0.55,
-          "batch_output": 2.2
+          "batch_output": 2.2,
+          "tiers": [
+            {
+              "label": "Fine-tuning",
+              "unit": "",
+              "columns": [
+                "Training",
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    null,
+                    4,
+                    1,
+                    16
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    null,
+                    2,
+                    null,
+                    8
+                  ]
+                }
+              ]
+            }
+          ]
         },
-        "description": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities.",
-        "capabilities": {
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true
-        },
+        "tools": [
+          "function_calling",
+          "file_search",
+          "code_interpreter",
+          "mcp",
+          "web_search"
+        ],
+        "endpoints": [
+          "chat_completions",
+          "responses",
+          "batch",
+          "fine_tuning"
+        ],
         "snapshots": [
           "o4-mini-2025-04-16"
+        ]
+      },
+      {
+        "id": "omni-moderation-2024-09-26",
+        "name": "omni-moderation-2024-09-26",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "status": "active",
+        "model_type": "moderation",
+        "alias": "omni-moderation",
+        "performance": 3,
+        "speed": 3,
+        "capabilities": {
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "batch",
+          "moderation"
+        ]
+      },
+      {
+        "id": "omni-moderation-latest",
+        "name": "omni-moderation",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Moderation models are free models designed to detect harmful content.",
+        "status": "active",
+        "model_type": "moderation",
+        "performance": 3,
+        "speed": 3,
+        "tagline": "Identify potentially harmful content in text and images",
+        "capabilities": {
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Moderation",
+              "unit": "",
+              "columns": [
+                "Cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "batch",
+          "moderation"
+        ],
+        "snapshots": [
+          "omni-moderation-2024-09-26"
+        ]
+      },
+      {
+        "id": "omni-moderation",
+        "name": "omni-moderation",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "status": "active",
+        "model_type": "moderation",
+        "performance": 3,
+        "speed": 3,
+        "capabilities": {
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "batch",
+          "moderation"
+        ],
+        "snapshots": [
+          "omni-moderation-2024-09-26"
+        ]
+      },
+      {
+        "id": "sora-2-2025-10-06",
+        "name": "sora-2-2025-10-06",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "status": "active",
+        "model_type": "video",
+        "alias": "sora-2",
+        "performance": 4,
+        "speed": 2,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "video",
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "videos"
+        ],
+        "description": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
+        "tagline": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Video generation",
+              "unit": "Per second",
+              "columns": [
+                "Portrait: 720x1280 Landscape: 1280x720",
+                "Portrait: 1024x1792 Landscape: 1792x1024",
+                "Portrait: 1080x1920 Landscape: 1920x1080"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.1,
+                    null,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "sora-2-2025-12-08",
+        "name": "sora-2-2025-12-08",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "status": "active",
+        "model_type": "video",
+        "alias": "sora-2",
+        "performance": 4,
+        "speed": 2,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "video",
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "videos"
+        ],
+        "description": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
+        "tagline": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Video generation",
+              "unit": "Per second",
+              "columns": [
+                "Portrait: 720x1280 Landscape: 1280x720",
+                "Portrait: 1024x1792 Landscape: 1792x1024",
+                "Portrait: 1080x1920 Landscape: 1920x1080"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.1,
+                    null,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "sora-2-pro-2025-10-06",
+        "name": "sora-2-pro-2025-10-06",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "status": "active",
+        "model_type": "video",
+        "alias": "sora-2-pro",
+        "performance": 5,
+        "speed": 1,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "video",
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "videos"
+        ],
+        "description": "Sora 2 Pro is our state-of-the-art, most advanced media generation model, generating videos with synced audio.",
+        "tagline": "Sora 2 Pro is our state-of-the-art, most advanced media generation model, generating videos with synced audio.",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Video generation",
+              "unit": "Per second",
+              "columns": [
+                "Portrait: 720x1280 Landscape: 1280x720",
+                "Portrait: 1024x1792 Landscape: 1792x1024",
+                "Portrait: 1080x1920 Landscape: 1920x1080"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.3,
+                    0.5,
+                    0.7
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "sora-2-pro",
+        "name": "Sora 2 Pro",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "status": "active",
+        "model_type": "video",
+        "performance": 5,
+        "speed": 1,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "video",
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "videos"
+        ],
+        "snapshots": [
+          "sora-2-pro-2025-10-06",
+          "sora-2-pro"
+        ],
+        "description": "Sora 2 Pro is our state-of-the-art, most advanced media generation model, generating videos with synced audio.",
+        "tagline": "Most advanced synced-audio video generation",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Video generation",
+              "unit": "Per second",
+              "columns": [
+                "Portrait: 720x1280 Landscape: 1280x720",
+                "Portrait: 1024x1792 Landscape: 1792x1024",
+                "Portrait: 1080x1920 Landscape: 1920x1080"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.3,
+                    0.5,
+                    0.7
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "sora-2",
+        "name": "Sora 2",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "status": "active",
+        "model_type": "video",
+        "performance": 4,
+        "speed": 2,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "video",
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "videos"
+        ],
+        "snapshots": [
+          "sora-2-2025-10-06",
+          "sora-2-2025-12-08",
+          "sora-2"
+        ],
+        "description": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
+        "tagline": "Flagship video generation with synced audio",
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Video generation",
+              "unit": "Per second",
+              "columns": [
+                "Portrait: 720x1280 Landscape: 1280x720",
+                "Portrait: 1024x1792 Landscape: 1792x1024",
+                "Portrait: 1080x1920 Landscape: 1920x1080"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.1,
+                    null,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "text-embedding-3-large",
+        "name": "text-embedding-3-large",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "text-embedding-3-large is our most capable embedding model for both english and non-english tasks.",
+        "status": "active",
+        "model_type": "embed",
+        "performance": 3,
+        "speed": 2,
+        "tagline": "Most capable embedding model",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Embeddings",
+              "unit": "",
+              "columns": [
+                "Cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.13
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.065
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "embeddings",
+          "batch"
+        ],
+        "snapshots": [
+          "text-embedding-3-large"
+        ]
+      },
+      {
+        "id": "text-embedding-3-small",
+        "name": "text-embedding-3-small",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "text-embedding-3-small is our improved, more performant version of our ada embedding model.",
+        "status": "active",
+        "model_type": "embed",
+        "performance": 2,
+        "speed": 3,
+        "tagline": "Small embedding model",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Embeddings",
+              "unit": "",
+              "columns": [
+                "Cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.02
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.01
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "embeddings",
+          "batch"
+        ],
+        "snapshots": [
+          "text-embedding-3-small"
+        ]
+      },
+      {
+        "id": "text-embedding-ada-002",
+        "name": "text-embedding-ada-002",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "text-embedding-ada-002 is our improved, more performant version of our ada embedding model.",
+        "status": "active",
+        "model_type": "embed",
+        "performance": 1,
+        "speed": 2,
+        "tagline": "Older embedding model",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Embeddings",
+              "unit": "",
+              "columns": [
+                "Cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.1
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.05
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "embeddings",
+          "batch"
+        ],
+        "snapshots": [
+          "text-embedding-ada-002"
+        ]
+      },
+      {
+        "id": "text-moderation-007",
+        "name": "text-moderation-007",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "status": "active",
+        "knowledge_cutoff": "2021-08",
+        "max_output_tokens": 32768,
+        "model_type": "moderation",
+        "performance": 2,
+        "speed": 3,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "moderation"
+        ]
+      },
+      {
+        "id": "text-moderation-latest",
+        "name": "text-moderation",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Moderation models are free models designed to detect harmful content. This is our text only moderation model; we expect omni-moderation-* models to be the best default moving forward.",
+        "status": "deprecated",
+        "knowledge_cutoff": "2021-08",
+        "max_output_tokens": 32768,
+        "model_type": "moderation",
+        "performance": 2,
+        "speed": 3,
+        "tagline": "Previous generation text-only moderation model",
+        "successor": "omni-moderation",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Moderation",
+              "unit": "",
+              "columns": [
+                "Cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "moderation"
+        ],
+        "snapshots": [
+          "text-moderation-007"
+        ]
+      },
+      {
+        "id": "text-moderation-stable",
+        "name": "text-moderation-stable",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "Moderation models are free models designed to detect harmful content. This is our text only moderation model; we expect omni-moderation-* models to be the best default moving forward.",
+        "status": "deprecated",
+        "knowledge_cutoff": "2021-08",
+        "max_output_tokens": 32768,
+        "model_type": "moderation",
+        "performance": 2,
+        "speed": 3,
+        "tagline": "Previous generation text-only moderation model",
+        "successor": "omni-moderation",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "moderation"
+        ],
+        "snapshots": [
+          "text-moderation-007"
+        ]
+      },
+      {
+        "id": "tts-1-hd",
+        "name": "TTS-1 HD",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "TTS is a model that converts text to natural sounding spoken text. The tts-1-hd model is optimized for high quality text-to-speech use cases. Use it with the Speech endpoint in the Audio API.",
+        "status": "active",
+        "model_type": "tts",
+        "performance": 3,
+        "speed": 3,
+        "tagline": "Text-to-speech model optimized for quality",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Pricing",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    30
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "speech_generation"
+        ],
+        "snapshots": [
+          "tts-1-hd"
+        ]
+      },
+      {
+        "id": "tts-1",
+        "name": "TTS-1",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "description": "TTS is a model that converts text to natural sounding spoken text. The tts-1 model is optimized for realtime text-to-speech use cases. Use it with the Speech endpoint in the Audio API.",
+        "status": "active",
+        "model_type": "tts",
+        "performance": 2,
+        "speed": 4,
+        "tagline": "Text-to-speech model optimized for speed",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Pricing",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    15
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "speech_generation"
+        ],
+        "snapshots": [
+          "tts-1"
+        ]
+      },
+      {
+        "id": "whisper-1",
+        "name": "Whisper",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "whisper",
+        "description": "Whisper is a general-purpose speech recognition model, trained on a large dataset of diverse audio. You can also use it as a multitask model to perform multilingual speech recognition as well as speech translation and language identification.",
+        "status": "active",
+        "model_type": "transcription",
+        "performance": 2,
+        "speed": 3,
+        "tagline": "General-purpose speech recognition model",
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Pricing",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Cost"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.006
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "transcription",
+          "translation"
+        ],
+        "snapshots": [
+          "whisper-1"
         ]
       }
     ]
@@ -28896,6 +37287,29 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "mistralai/pixtral-12b",
+        "name": "Mistral: Pixtral 12B",
+        "created_by": "mistral",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "pixtral",
+        "description": "The first multi-modal, text+image-to-text model from Mistral AI.",
+        "context_window": 32768,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.1
+        }
+      },
+      {
         "id": "mistralai/pixtral-large-2411",
         "name": "Mistral: Pixtral Large 2411",
         "created_by": "mistral",
@@ -29294,6 +37708,32 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1.2,
           "output": 1.2
+        }
+      },
+      {
+        "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+        "name": "NVIDIA: Llama 3.1 Nemotron Ultra 253B v1",
+        "created_by": "nvidia",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "llama-3.1",
+        "description": "Llama-3.1-Nemotron-Ultra-253B-v1 is a large language model (LLM) optimized for advanced reasoning, human-interactive chat, retrieval-augmented generation (RAG), and tool-calling tasks.",
+        "context_window": 131072,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "capabilities": {
+          "structured_output": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.6,
+          "output": 1.8
         }
       },
       {
@@ -30953,6 +39393,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-oss",
         "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
         "context_window": 131072,
+        "max_output_tokens": 131072,
         "modalities": {
           "input": [
             "text"
@@ -30968,7 +39409,8 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.03,
-          "output": 0.14
+          "output": 0.11,
+          "cached_input": 0.015
         }
       },
       {
@@ -34375,8 +42817,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-coder-plus",
@@ -34388,8 +42829,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-coder-turbo-0919",
@@ -34401,8 +42841,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-coder-turbo",
@@ -34414,12 +42853,11 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-flash",
-        "name": "qwen-flash",
+        "name": "Qwen-Flash",
         "created_by": "qwen",
         "source": "official",
         "last_updated": "2026-03-21",
@@ -34432,8 +42870,31 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.05,
           "output": 0.4
-        },
-        "provider": "qwen"
+        }
+      },
+      {
+        "id": "qwen-image-2",
+        "name": "qwen-image-2",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        }
+      },
+      {
+        "id": "qwen-image",
+        "name": "qwen-image",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        }
       },
       {
         "id": "qwen-long-0125",
@@ -34445,8 +42906,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-math-plus-0816",
@@ -34458,8 +42918,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-math-plus-0919",
@@ -34471,8 +42930,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-math-turbo-0919",
@@ -34484,8 +42942,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-max-0919",
@@ -34497,8 +42954,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-omni-turbo-0119",
@@ -34510,8 +42966,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-omni-turbo-0326",
@@ -34523,8 +42978,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-omni-turbo-realtime",
@@ -34536,8 +42990,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-plus-0125",
@@ -34549,8 +43002,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-plus-0428",
@@ -34562,8 +43014,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-plus-0714",
@@ -34575,8 +43026,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-plus-0728",
@@ -34588,8 +43038,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-plus-us",
@@ -34601,8 +43050,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-plus",
@@ -34619,8 +43067,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.4,
           "output": 1.2
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-turbo-0428",
@@ -34632,8 +43079,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-turbo-0715",
@@ -34645,8 +43091,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-turbo-1101",
@@ -34658,8 +43103,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-max-0125",
@@ -34671,8 +43115,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-max-0402",
@@ -34684,8 +43127,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-max-0408",
@@ -34697,8 +43139,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-max-0813",
@@ -34710,8 +43151,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-max-1119",
@@ -34723,8 +43163,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-max-1230",
@@ -34736,8 +43175,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-ocr-0413",
@@ -34749,8 +43187,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-ocr-0828",
@@ -34762,8 +43199,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-ocr-1028",
@@ -34775,8 +43211,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-ocr-1120",
@@ -34788,8 +43223,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-plus-0102",
@@ -34801,8 +43235,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-plus-0125",
@@ -34814,8 +43247,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-plus-0507",
@@ -34827,8 +43259,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-plus-0710",
@@ -34840,8 +43271,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen-vl-plus-0815",
@@ -34853,8 +43283,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen2-72b-instruct",
@@ -34866,8 +43295,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-235b-a22b-instruct-2507",
@@ -34880,8 +43308,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-235b-a22b-instruct",
@@ -34896,8 +43323,7 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "qwen3-235b-a22b-instruct-2507"
-        ],
-        "provider": "qwen"
+        ]
       },
       {
         "id": "qwen3-235b-a22b-thinking-2507",
@@ -34910,8 +43336,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-235b-a22b-thinking",
@@ -34926,8 +43351,7 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "qwen3-235b-a22b-thinking-2507"
-        ],
-        "provider": "qwen"
+        ]
       },
       {
         "id": "qwen3-235b-a22b",
@@ -34939,8 +43363,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-30b-a3b-instruct-2507",
@@ -34953,8 +43376,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-30b-a3b-instruct",
@@ -34969,8 +43391,7 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "qwen3-30b-a3b-instruct-2507"
-        ],
-        "provider": "qwen"
+        ]
       },
       {
         "id": "qwen3-30b-a3b-thinking-2507",
@@ -34983,8 +43404,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-30b-a3b-thinking",
@@ -34999,8 +43419,7 @@ export const providers: ProviderWithModels[] = [
         },
         "snapshots": [
           "qwen3-30b-a3b-thinking-2507"
-        ],
-        "provider": "qwen"
+        ]
       },
       {
         "id": "qwen3-30b-a3b",
@@ -35012,8 +43431,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-coder-30b-a3b-instruct",
@@ -35025,8 +43443,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-coder-480b-a35b-instruct",
@@ -35038,8 +43455,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-coder-flash",
@@ -35051,8 +43467,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-coder-plus",
@@ -35064,8 +43479,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-max-preview",
@@ -35077,12 +43491,11 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-max",
-        "name": "qwen3-max",
+        "name": "Qwen3-Max",
         "created_by": "qwen",
         "source": "official",
         "last_updated": "2026-03-21",
@@ -35096,8 +43509,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.359,
           "output": 1.434
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-next-80b-a3b-instruct",
@@ -35109,8 +43521,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-next-80b-a3b-thinking",
@@ -35122,8 +43533,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-omni-flash-0915",
@@ -35135,8 +43545,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-omni-flash-realtime",
@@ -35148,8 +43557,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-omni-flash",
@@ -35161,8 +43569,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3-omni-realtime-flash",
@@ -35174,8 +43581,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3.5-flash",
@@ -35192,8 +43598,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.029,
           "output": 0.287
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3.5-plus",
@@ -35210,8 +43615,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.115,
           "output": 0.688
-        },
-        "provider": "qwen"
+        }
       },
       {
         "id": "qwen3",
@@ -35223,8 +43627,7 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true
-        },
-        "provider": "qwen"
+        }
       }
     ]
   },
@@ -35804,6 +44207,57 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "alibaba/qwen3-embedding-0.6b",
+        "name": "qwen3-embedding-0.6b",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen3",
+        "context_window": 32800,
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.01,
+          "output": 0
+        }
+      },
+      {
+        "id": "alibaba/qwen3-embedding-4b",
+        "name": "qwen3-embedding-4b",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen3",
+        "context_window": 32800,
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.02,
+          "output": 0
+        }
+      },
+      {
+        "id": "alibaba/qwen3-embedding-8b",
+        "name": "qwen3-embedding-8b",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "qwen3",
+        "context_window": 32800,
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0
+        }
+      },
+      {
         "id": "alibaba/qwen3-max-preview",
         "name": "qwen3-max-preview",
         "created_by": "qwen",
@@ -35962,6 +44416,90 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "alibaba/wan-v2.5-t2v-preview",
+        "name": "wan-v2.5-t2v-preview",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "alibaba/wan-v2.6-i2v-flash",
+        "name": "wan-v2.6-i2v-flash",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "alibaba/wan-v2.6-i2v",
+        "name": "wan-v2.6-i2v",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "alibaba/wan-v2.6-r2v-flash",
+        "name": "wan-v2.6-r2v-flash",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "alibaba/wan-v2.6-r2v",
+        "name": "wan-v2.6-r2v",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "alibaba/wan-v2.6-t2v",
+        "name": "wan-v2.6-t2v",
+        "created_by": "qwen",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
         "id": "amazon/nova-2-lite",
         "name": "nova-2-lite",
         "created_by": "amazon",
@@ -36021,6 +44559,21 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.8,
           "output": 3.2
+        }
+      },
+      {
+        "id": "amazon/titan-embed-text-v2",
+        "name": "titan-embed-text-v2",
+        "created_by": "amazon",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.02,
+          "output": 0
         }
       },
       {
@@ -36318,6 +44871,148 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "bfl/flux-2-flex",
+        "name": "flux-2-flex",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-2-klein-4b",
+        "name": "flux-2-klein-4b",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-2-klein-9b",
+        "name": "flux-2-klein-9b",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-2-max",
+        "name": "flux-2-max",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "context_window": 67300,
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-2-pro",
+        "name": "flux-2-pro",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "context_window": 67300,
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-kontext-max",
+        "name": "flux-kontext-max",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-kontext-pro",
+        "name": "flux-kontext-pro",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-pro-1.0-fill",
+        "name": "flux-pro-1.0-fill",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-pro-1.1-ultra",
+        "name": "flux-pro-1.1-ultra",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bfl/flux-pro-1.1",
+        "name": "flux-pro-1.1",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
         "id": "bytedance/seed-1.6",
         "name": "seed-1.6",
         "created_by": "bytedance",
@@ -36352,6 +45047,76 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "bytedance/seedance-v1.0-lite-i2v",
+        "name": "seedance-v1.0-lite-i2v",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bytedance/seedance-v1.0-lite-t2v",
+        "name": "seedance-v1.0-lite-t2v",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bytedance/seedance-v1.0-pro-fast",
+        "name": "seedance-v1.0-pro-fast",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bytedance/seedance-v1.0-pro",
+        "name": "seedance-v1.0-pro",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "bytedance/seedance-v1.5-pro",
+        "name": "seedance-v1.5-pro",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
         "id": "cohere/command-a",
         "name": "command-a",
         "created_by": "cohere",
@@ -36365,6 +45130,21 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 2.5,
           "output": 10
+        }
+      },
+      {
+        "id": "cohere/embed-v4.0",
+        "name": "embed-v4.0",
+        "created_by": "cohere",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0
         }
       },
       {
@@ -36730,6 +45510,149 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "google/gemini-embedding-001",
+        "name": "gemini-embedding-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/imagen-4.0-fast-generate-001",
+        "name": "imagen-4.0-fast-generate-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/imagen-4.0-generate-001",
+        "name": "imagen-4.0-generate-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/imagen-4.0-ultra-generate-001",
+        "name": "imagen-4.0-ultra-generate-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/text-embedding-005",
+        "name": "text-embedding-005",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/text-multilingual-embedding-002",
+        "name": "text-multilingual-embedding-002",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/veo-3.0-fast-generate-001",
+        "name": "veo-3.0-fast-generate-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/veo-3.0-generate-001",
+        "name": "veo-3.0-generate-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/veo-3.1-fast-generate-001",
+        "name": "veo-3.1-fast-generate-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "google/veo-3.1-generate-001",
+        "name": "veo-3.1-generate-001",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
         "id": "inception/mercury-2",
         "name": "mercury-2",
         "created_by": "inception",
@@ -36760,6 +45683,104 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.25,
           "output": 1
+        }
+      },
+      {
+        "id": "klingai/kling-v2.5-turbo-i2v",
+        "name": "kling-v2.5-turbo-i2v",
+        "created_by": "klingai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "klingai/kling-v2.5-turbo-t2v",
+        "name": "kling-v2.5-turbo-t2v",
+        "created_by": "klingai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "klingai/kling-v2.6-i2v",
+        "name": "kling-v2.6-i2v",
+        "created_by": "klingai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "klingai/kling-v2.6-motion-control",
+        "name": "kling-v2.6-motion-control",
+        "created_by": "klingai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "klingai/kling-v2.6-t2v",
+        "name": "kling-v2.6-t2v",
+        "created_by": "klingai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "klingai/kling-v3.0-i2v",
+        "name": "kling-v3.0-i2v",
+        "created_by": "klingai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "klingai/kling-v3.0-t2v",
+        "name": "kling-v3.0-t2v",
+        "created_by": "klingai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
         }
       },
       {
@@ -37108,6 +46129,22 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "mistral/codestral-embed",
+        "name": "codestral-embed",
+        "created_by": "mistral",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "codestral",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0
+        }
+      },
+      {
         "id": "mistral/codestral",
         "name": "codestral",
         "created_by": "mistral",
@@ -37258,6 +46295,21 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.15,
           "output": 0.15
+        }
+      },
+      {
+        "id": "mistral/mistral-embed",
+        "name": "mistral-embed",
+        "created_by": "mistral",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0
         }
       },
       {
@@ -38117,6 +47169,51 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "openai/gpt-image-1-mini",
+        "name": "gpt-image-1-mini",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-image-1",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 2,
+          "output": 8
+        }
+      },
+      {
+        "id": "openai/gpt-image-1.5",
+        "name": "gpt-image-1.5",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-image-1.5",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 32
+        }
+      },
+      {
+        "id": "openai/gpt-image-1",
+        "name": "gpt-image-1",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-image-1",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 40
+        }
+      },
+      {
         "id": "openai/gpt-oss-120b",
         "name": "gpt-oss-120b",
         "created_by": "openai",
@@ -38168,7 +47265,8 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.07,
           "output": 0.3
-        }
+        },
+        "model_type": "moderation"
       },
       {
         "id": "openai/o1",
@@ -38285,6 +47383,51 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "openai/text-embedding-3-large",
+        "name": "text-embedding-3-large",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.13,
+          "output": 0
+        }
+      },
+      {
+        "id": "openai/text-embedding-3-small",
+        "name": "text-embedding-3-small",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.02,
+          "output": 0
+        }
+      },
+      {
+        "id": "openai/text-embedding-ada-002",
+        "name": "text-embedding-ada-002",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "model_type": "embed",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0
+        }
+      },
+      {
         "id": "perplexity/sonar-pro",
         "name": "sonar-pro",
         "created_by": "perplexity",
@@ -38365,6 +47508,219 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.2,
           "output": 1.1
+        }
+      },
+      {
+        "id": "prodia/flux-fast-schnell",
+        "name": "flux-fast-schnell",
+        "created_by": "prodia",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "recraft/recraft-v2",
+        "name": "recraft-v2",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "recraft/recraft-v3",
+        "name": "recraft-v3",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "recraft/recraft-v4-pro",
+        "name": "recraft-v4-pro",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "recraft/recraft-v4",
+        "name": "recraft-v4",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-3-large",
+        "name": "voyage-3-large",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.18,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-3.5-lite",
+        "name": "voyage-3.5-lite",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.02,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-3.5",
+        "name": "voyage-3.5",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.06,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-4-large",
+        "name": "voyage-4-large",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "context_window": 32000,
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-4-lite",
+        "name": "voyage-4-lite",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "context_window": 32000,
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.02,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-4",
+        "name": "voyage-4",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "context_window": 32000,
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.06,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-code-2",
+        "name": "voyage-code-2",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-code-3",
+        "name": "voyage-code-3",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.18,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-finance-2",
+        "name": "voyage-finance-2",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0
+        }
+      },
+      {
+        "id": "voyage/voyage-law-2",
+        "name": "voyage-law-2",
+        "created_by": "voyage",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0
         }
       },
       {
@@ -38613,6 +47969,51 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.2,
           "output": 1.5
+        }
+      },
+      {
+        "id": "xai/grok-imagine-image-pro",
+        "name": "grok-imagine-image-pro",
+        "created_by": "xai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "grok-imagine",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "xai/grok-imagine-image",
+        "name": "grok-imagine-image",
+        "created_by": "xai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "grok-imagine",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        }
+      },
+      {
+        "id": "xai/grok-imagine-video",
+        "name": "grok-imagine-video",
+        "created_by": "xai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "grok-imagine",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
         }
       },
       {
@@ -38947,7 +48348,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash"
       },
       {
         "id": "gemini-2.0-flash-lite-001",
@@ -38970,7 +48372,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-lite-preview-02-05",
@@ -38993,7 +48396,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-lite-preview",
@@ -39016,7 +48420,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-lite",
@@ -39049,7 +48454,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-lite",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.0-flash-live-001",
@@ -39072,7 +48485,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-native-audio-preview-12-2025"
       },
       {
         "id": "gemini-2.0-flash-preview-image-generation",
@@ -39095,7 +48509,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-image"
       },
       {
         "id": "gemini-2.0-flash",
@@ -39128,7 +48543,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-computer-use-preview-10-2025",
@@ -39159,7 +48582,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-image-preview",
@@ -39182,7 +48612,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-image"
       },
       {
         "id": "gemini-2.5-flash-image",
@@ -39215,7 +48646,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-flash-image-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-lite-preview-09-2025",
@@ -39248,7 +48687,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-flash-lite-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-lite",
@@ -39281,7 +48728,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-flash-lite-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-native-audio-preview-12-2025",
@@ -39313,7 +48768,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-preview-05-20",
@@ -39336,7 +48798,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3-flash-preview"
       },
       {
         "id": "gemini-2.5-flash-preview-09-2025",
@@ -39368,7 +48831,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash-preview-09-25",
@@ -39391,7 +48861,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3-flash-preview"
       },
       {
         "id": "gemini-2.5-flash-preview-tts",
@@ -39422,7 +48893,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "tts",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-flash",
@@ -39455,7 +48934,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3-flash-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-pro-preview-03-25",
@@ -39478,7 +48965,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview"
       },
       {
         "id": "gemini-2.5-pro-preview-05-06",
@@ -39501,7 +48989,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview"
       },
       {
         "id": "gemini-2.5-pro-preview-06-05",
@@ -39524,7 +49013,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview"
       },
       {
         "id": "gemini-2.5-pro-preview-tts",
@@ -39555,7 +49045,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "tts",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-2.5-pro",
@@ -39588,7 +49086,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3-flash-preview",
@@ -39621,7 +49127,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3-pro-image-preview",
@@ -39654,7 +49167,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3-pro-preview",
@@ -39687,7 +49207,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "successor": "gemini-3.1-pro-preview",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3.1-flash-image-preview",
@@ -39720,7 +49248,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3.1-flash-lite-preview",
@@ -39753,7 +49288,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-3.1-pro-preview",
@@ -39786,7 +49328,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-embedding-001",
@@ -39816,7 +49365,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "embed",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-embedding-2-preview",
@@ -39845,7 +49402,15 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "model_type": "embed",
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "gemini-embedding-exp-03-07",
@@ -39867,7 +49432,9 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-embedding-001",
+        "model_type": "embed"
       },
       {
         "id": "gemini-embedding-exp",
@@ -39889,7 +49456,9 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-embedding-001",
+        "model_type": "embed"
       },
       {
         "id": "gemini-live-2.5-flash-preview",
@@ -39911,7 +49480,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "successor": "gemini-2.5-flash-native-audio-preview-12-2025"
       },
       {
         "id": "gemini-robotics-er-1.5-preview",
@@ -39942,7 +49512,14 @@ export const providers: ProviderWithModels[] = [
             "text",
             "image"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ]
       },
       {
         "id": "jamba-1.5-large@vertex",
@@ -40276,11 +49853,22 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-imagine-image-pro",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "release_date": "2026-01-28",
         "capabilities": {
           "streaming": true,
           "tool_call": true
+        },
+        "family": "grok-imagine",
+        "model_type": "image",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
         }
       },
       {
@@ -40288,11 +49876,22 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-imagine-image",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "release_date": "2026-01-28",
         "capabilities": {
           "streaming": true,
           "tool_call": true
+        },
+        "family": "grok-imagine",
+        "model_type": "image",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
         }
       },
       {
@@ -40300,11 +49899,23 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-imagine-video",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "release_date": "2026-01-28",
         "capabilities": {
           "streaming": true,
           "tool_call": true
+        },
+        "family": "grok-imagine",
+        "model_type": "image",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "video"
+          ]
         }
       }
     ]

@@ -3,17 +3,65 @@
   "name": "GPT-4o Transcribe",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-4o",
   "description": "GPT-4o Transcribe is a speech-to-text model that uses GPT-4o to transcribe audio.",
   "status": "active",
+  "knowledge_cutoff": "2024-05",
   "context_window": 16000,
   "max_output_tokens": 2000,
-  "model_type": "other",
+  "model_type": "transcription",
   "performance": 4,
   "speed": 3,
+  "tagline": "Speech-to-text model powered by GPT-4o",
   "modalities": {
     "input": ["audio", "text"],
     "output": ["text"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Estimated cost"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2.5, 10, 0.006]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Estimated cost"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [6, null, 0.006]
+          }
+        ]
+      }
+    ],
+    "input": 2.5,
+    "output": 10
+  },
+  "endpoints": ["transcription", "realtime"],
+  "snapshots": ["gpt-4o-transcribe"],
+  "_generated": {
+    "name": "04ad7ace",
+    "description": "fbfc82bb",
+    "tagline": "08622bab",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "context_window": "67510c89",
+    "max_output_tokens": "08f90c1a",
+    "knowledge_cutoff": "1d431428",
+    "performance": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "15249632",
+    "pricing": "a3f2b1b6",
+    "modalities": "7cee5e0e",
+    "endpoints": "250917d3"
   }
 }

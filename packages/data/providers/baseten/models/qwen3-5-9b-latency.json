@@ -7,5 +7,10 @@
   "family": "qwen3",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "acc0589c",
+    "family": "48c385a0",
+    "capabilities": "0fa77dc6"
   }
 }

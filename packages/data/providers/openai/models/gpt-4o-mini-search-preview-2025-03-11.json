@@ -5,12 +5,20 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-4o",
+  "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 128000,
   "max_output_tokens": 16384,
   "alias": "gpt-4o-mini-search-preview",
   "performance": 2,
   "speed": 4,
+  "tagline": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "structured_output": true
+  },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -18,13 +26,35 @@
   "pricing": {
     "input": 0.15,
     "output": 0.6,
-    "cached_input": 1.25,
-    "batch_input": 1.25,
-    "batch_output": 5
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.15, null, 0.6]
+          }
+        ]
+      }
+    ]
   },
-  "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
-  "model_type": "other",
-  "capabilities": {
-    "structured_output": true
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "bbef39ef",
+    "description": "7e9c1d49",
+    "tagline": "b14e1d3b",
+    "status": "379ac110",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "c81e728d",
+    "speed": "a87ff679",
+    "family": "15249632",
+    "pricing": "664250ce",
+    "capabilities": "66baa213",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
   }
 }

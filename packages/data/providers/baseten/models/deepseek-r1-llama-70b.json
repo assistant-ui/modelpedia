@@ -7,5 +7,12 @@
   "family": "deepseek-r1",
   "capabilities": {
     "streaming": true
+  },
+  "model_type": "reasoning",
+  "_generated": {
+    "name": "f30fa737",
+    "model_type": "17475f7f",
+    "family": "c74cfb8e",
+    "capabilities": "0fa77dc6"
   }
 }

@@ -1,17 +1,26 @@
 {
   "id": "gpt-4.1-nano",
-  "name": "gpt-4.1-nano",
+  "name": "GPT-4.1 nano",
   "created_by": "openai",
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-4.1",
   "description": "GPT-4.1 nano excels at instruction following and tool calling. It features a",
   "status": "active",
+  "knowledge_cutoff": "2024-05",
   "context_window": 1047576,
   "max_output_tokens": 32768,
   "model_type": "chat",
   "performance": 2,
   "speed": 5,
+  "tagline": "Fastest, most cost-efficient version of GPT-4.1",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "fine_tuning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -21,11 +30,56 @@
     "output": 0.4,
     "cached_input": 0.025,
     "batch_input": 0.05,
-    "batch_output": 0.2
+    "batch_output": 0.2,
+    "tiers": [
+      {
+        "label": "Fine-tuning",
+        "unit": "",
+        "columns": ["Training", "Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.5, 0.2, 0.05, 0.8]
+          },
+          {
+            "label": "Batch",
+            "values": [null, 0.1, null, 0.4]
+          }
+        ]
+      }
+    ]
   },
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true
-  },
-  "snapshots": ["gpt-4.1-nano-2025-04-14"]
+  "tools": [
+    "function_calling",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "mcp"
+  ],
+  "endpoints": [
+    "chat_completions",
+    "responses",
+    "assistants",
+    "batch",
+    "fine_tuning"
+  ],
+  "snapshots": ["gpt-4.1-nano-2025-04-14"],
+  "_generated": {
+    "name": "f6396fa5",
+    "description": "7ca18e8b",
+    "tagline": "a2353111",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "55410616",
+    "max_output_tokens": "f4376436",
+    "knowledge_cutoff": "1d431428",
+    "performance": "c81e728d",
+    "speed": "e4da3b7f",
+    "family": "d240daf4",
+    "pricing": "aa763141",
+    "capabilities": "ac9a94bc",
+    "modalities": "6399757e",
+    "tools": "d529f254",
+    "endpoints": "ebc03c48"
+  }
 }

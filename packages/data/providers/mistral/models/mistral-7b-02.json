@@ -12,5 +12,12 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "a5c55a86",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
   }
 }

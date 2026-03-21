@@ -6,22 +6,44 @@
   "last_updated": "2026-03-21",
   "family": "o1",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 128000,
   "max_output_tokens": 32768,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
   "alias": "o1-preview",
   "performance": 3,
+  "reasoning": 3,
   "speed": 1,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
-  "pricing": {
-    "input": 15,
-    "output": 60,
-    "cached_input": 7.5,
-    "batch_input": 7.5,
-    "batch_output": 30
+  "endpoints": ["chat_completions", "assistants"],
+  "_generated": {
+    "name": "06116485",
+    "description": "f5e9182d",
+    "tagline": "56ec4ef4",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "34434798",
+    "max_output_tokens": "f4376436",
+    "knowledge_cutoff": "7b971392",
+    "performance": "eccbc87e",
+    "reasoning": "eccbc87e",
+    "speed": "c4ca4238",
+    "family": "e1ab0820",
+    "reasoning_tokens": "b326b506",
+    "capabilities": "0946b777",
+    "modalities": "68e53d93",
+    "endpoints": "6558e44b"
   },
   "description": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
-  "model_type": "reasoning"
+  "tagline": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning."
 }

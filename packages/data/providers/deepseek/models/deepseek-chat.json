@@ -18,5 +18,16 @@
     "input": 0.28,
     "output": 0.42,
     "cached_input": 0.028
+  },
+  "tagline": "DeepSeek-V3.2 in non-thinking mode.",
+  "_generated": {
+    "name": "cc212327",
+    "description": "6eaaf2ae",
+    "tagline": "7d65cf30",
+    "context_window": "34434798",
+    "max_output_tokens": "67ff32d4",
+    "family": "fbd79fd9",
+    "pricing": "f1b8e1d4",
+    "capabilities": "cec66b87"
   }
 }

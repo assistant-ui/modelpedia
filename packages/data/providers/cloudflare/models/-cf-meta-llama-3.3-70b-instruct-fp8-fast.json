@@ -7,5 +7,10 @@
   "family": "llama-3.3",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "f1500ac7",
+    "family": "54c5fe24",
+    "capabilities": "0fa77dc6"
   }
 }

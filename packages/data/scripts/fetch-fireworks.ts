@@ -109,10 +109,10 @@ async function main() {
   console.log("Fetching Fireworks AI models...");
 
   const allSlugs = await fetchModelSlugs();
-  // Filter to chat/LLM models (skip image-only, audio-only, embedding-only)
+  // Skip internal/test pages
   const slugs = allSlugs.filter((s) => {
     const l = s.toLowerCase();
-    return !l.includes("playground") && !l.includes("stable-diffusion");
+    return !l.includes("playground");
   });
   console.log(`Found ${slugs.length} model slugs (from ${allSlugs.length})`);
 

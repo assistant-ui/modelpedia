@@ -1,0 +1,16 @@
+{
+  "id": "@cf/openai/whisper-large-v3-turbo",
+  "name": "whisper-large-v3-turbo",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "whisper",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "ae9d9d9e",
+    "family": "7fbc43e3",
+    "capabilities": "0fa77dc6"
+  }
+}

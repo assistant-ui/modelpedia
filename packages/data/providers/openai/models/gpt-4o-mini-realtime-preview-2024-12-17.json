@@ -5,12 +5,18 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-4o",
+  "description": "This is a preview release of the GPT-4o-mini Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 16000,
   "max_output_tokens": 4096,
   "alias": "gpt-4o-mini-realtime-preview",
   "performance": 2,
   "speed": 5,
+  "tagline": "This is a preview release of the GPT-4o-mini Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
+  "capabilities": {
+    "tool_call": true
+  },
   "modalities": {
     "input": ["text", "audio"],
     "output": ["text", "audio"]
@@ -19,9 +25,46 @@
     "input": 0.6,
     "output": 2.4,
     "cached_input": 0.3,
-    "batch_input": 1.25,
-    "batch_output": 5
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.6, 0.3, 2.4]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [10, 0.3, 20]
+          }
+        ]
+      }
+    ]
   },
-  "description": "This is a preview release of the GPT-4o-mini Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
-  "model_type": "other"
+  "endpoints": ["realtime"],
+  "_generated": {
+    "name": "e3c38815",
+    "description": "43731883",
+    "tagline": "43731883",
+    "status": "379ac110",
+    "context_window": "67510c89",
+    "max_output_tokens": "f7efa4f8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "c81e728d",
+    "speed": "e4da3b7f",
+    "family": "15249632",
+    "pricing": "3461fbb1",
+    "capabilities": "ce9e2425",
+    "modalities": "cf05925d",
+    "endpoints": "c7ed7203"
+  }
 }

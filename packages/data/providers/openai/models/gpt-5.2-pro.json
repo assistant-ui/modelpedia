@@ -6,8 +6,19 @@
   "last_updated": "2026-03-21",
   "family": "gpt-5.2",
   "status": "active",
+  "knowledge_cutoff": "2025-08",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "reasoning_tokens": true,
   "performance": 5,
+  "reasoning": 5,
   "speed": 1,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -17,15 +28,44 @@
     "output": 168,
     "batch_input": 10.5,
     "batch_output": 84,
-    "cached_input": 0.175
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [21, null, 168]
+          },
+          {
+            "label": "Batch",
+            "values": [10.5, null, 84]
+          },
+          {
+            "label": "Flex",
+            "values": [10.5, null, 84]
+          }
+        ]
+      }
+    ]
   },
-  "context_window": 400000,
-  "max_output_tokens": 128000,
-  "description": "GPT-5.2 Pro is OpenAI’s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro.",
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true,
-    "reasoning": true
+  "endpoints": ["responses"],
+  "_generated": {
+    "name": "dc8fb727",
+    "status": "379ac110",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "knowledge_cutoff": "5549a2cd",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "c4ca4238",
+    "family": "f580564d",
+    "reasoning_tokens": "b326b506",
+    "pricing": "7fff3799",
+    "capabilities": "a19166f1",
+    "modalities": "6399757e",
+    "endpoints": "acb164ea"
   },
   "snapshots": ["gpt-5.2-pro-2025-12-11"]
 }

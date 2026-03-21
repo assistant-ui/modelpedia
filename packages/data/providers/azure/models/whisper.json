@@ -11,5 +11,13 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "family": "whisper"
+  "family": "whisper",
+  "model_type": "transcription",
+  "_generated": {
+    "name": "7fbc43e3",
+    "model_type": "5e12d29a",
+    "family": "7fbc43e3",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  }
 }

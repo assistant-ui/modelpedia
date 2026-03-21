@@ -7,5 +7,12 @@
   "family": "llama-3.1",
   "capabilities": {
     "streaming": true
+  },
+  "model_type": "moderation",
+  "_generated": {
+    "name": "643e240b",
+    "model_type": "1e7a7b87",
+    "family": "83ec32db",
+    "capabilities": "0fa77dc6"
   }
 }

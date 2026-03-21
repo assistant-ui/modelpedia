@@ -1,0 +1,14 @@
+{
+  "id": "@cf/leonardo/phoenix-1.0",
+  "name": "phoenix-1.0",
+  "created_by": "leonardo",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "6add29da",
+    "capabilities": "0fa77dc6"
+  }
+}

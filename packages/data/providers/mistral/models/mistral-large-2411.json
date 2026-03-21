@@ -19,5 +19,14 @@
   "pricing": {
     "input": 2,
     "output": 6
+  },
+  "_generated": {
+    "name": "c595edf7",
+    "status": "379ac110",
+    "context_window": "34434798",
+    "family": "70f9d51d",
+    "pricing": "e205efd3",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
   }
 }

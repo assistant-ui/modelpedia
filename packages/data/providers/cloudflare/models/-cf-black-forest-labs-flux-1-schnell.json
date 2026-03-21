@@ -1,0 +1,14 @@
+{
+  "id": "@cf/black-forest-labs/flux-1-schnell",
+  "name": "flux-1-schnell",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "7b07cb5e",
+    "capabilities": "0fa77dc6"
+  }
+}

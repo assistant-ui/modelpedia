@@ -6,5 +6,11 @@
   "last_updated": "2026-03-21",
   "capabilities": {
     "streaming": true
+  },
+  "model_type": "embed",
+  "_generated": {
+    "name": "10e2d942",
+    "model_type": "764cb3de",
+    "capabilities": "0fa77dc6"
   }
 }

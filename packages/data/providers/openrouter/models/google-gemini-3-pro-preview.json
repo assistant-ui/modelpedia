@@ -23,5 +23,17 @@
     "input": 2,
     "output": 12,
     "cached_input": 0.2
+  },
+  "_generated": {
+    "name": "8dfef5b1",
+    "description": "eb8a94cb",
+    "status": "2e2f74dc",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "deprecation_date": "7f514a88",
+    "family": "eb14e598",
+    "pricing": "871170f7",
+    "capabilities": "f533f522",
+    "modalities": "0843b982"
   }
 }

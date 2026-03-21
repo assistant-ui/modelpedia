@@ -1,0 +1,14 @@
+{
+  "id": "@cf/deepgram/nova-3",
+  "name": "nova-3",
+  "created_by": "deepgram",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "c0803038",
+    "capabilities": "0fa77dc6"
+  }
+}

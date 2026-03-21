@@ -9,5 +9,11 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "784927b9",
+    "description": "3be70f3d",
+    "context_window": "34434798",
+    "modalities": "68e53d93"
   }
 }

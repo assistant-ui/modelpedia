@@ -5,11 +5,25 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "o4",
+  "description": "o4-mini is our latest small o-series model. It's optimized for fast,",
   "status": "active",
+  "knowledge_cutoff": "2024-05",
   "context_window": 200000,
   "max_output_tokens": 100000,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
   "performance": 4,
+  "reasoning": 4,
   "speed": 3,
+  "tagline": "Fast, cost-efficient reasoning model, succeeded by GPT-5 mini",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "fine_tuning": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -19,13 +33,52 @@
     "output": 4.4,
     "cached_input": 0.275,
     "batch_input": 0.55,
-    "batch_output": 2.2
+    "batch_output": 2.2,
+    "tiers": [
+      {
+        "label": "Fine-tuning",
+        "unit": "",
+        "columns": ["Training", "Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [null, 4, 1, 16]
+          },
+          {
+            "label": "Batch",
+            "values": [null, 2, null, 8]
+          }
+        ]
+      }
+    ]
   },
-  "description": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities.",
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true,
-    "reasoning": true
-  },
-  "snapshots": ["o4-mini-2025-04-16"]
+  "tools": [
+    "function_calling",
+    "file_search",
+    "code_interpreter",
+    "mcp",
+    "web_search"
+  ],
+  "endpoints": ["chat_completions", "responses", "batch", "fine_tuning"],
+  "snapshots": ["o4-mini-2025-04-16"],
+  "_generated": {
+    "name": "0ad044e2",
+    "description": "b9c69742",
+    "tagline": "5aa524ce",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "03e6c616",
+    "max_output_tokens": "14ee22ea",
+    "knowledge_cutoff": "1d431428",
+    "performance": "a87ff679",
+    "reasoning": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "a842f941",
+    "reasoning_tokens": "b326b506",
+    "pricing": "c2c03eaa",
+    "capabilities": "3e473f74",
+    "modalities": "6399757e",
+    "tools": "fab5356d",
+    "endpoints": "b36a99d3"
+  }
 }

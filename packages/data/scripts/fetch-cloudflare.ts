@@ -56,34 +56,6 @@ function extractShortName(modelId: string): string {
   return parts[parts.length - 1];
 }
 
-// Text generation models we care about
-const _TEXT_GEN_KEYWORDS = [
-  "llama",
-  "gemma",
-  "mistral",
-  "qwen",
-  "deepseek",
-  "phi",
-  "falcon",
-  "openchat",
-  "tinyllama",
-  "cybertron",
-  "hermes",
-  "starling",
-  "neural-chat",
-  "zephyr",
-  "openhermes",
-  "discolm",
-  "granite",
-  "kimi",
-  "glm",
-  "gpt-oss",
-  "nemotron",
-  "sqlcoder",
-  "llava",
-  "scout",
-];
-
 async function main() {
   console.log("Fetching Cloudflare Workers AI models...");
 
@@ -108,36 +80,9 @@ async function main() {
     `Found ${allIds.length} models (${cfIds.length} @cf, ${hfIds.length} @hf)`,
   );
 
-  // Filter to text generation / chat models
-  const chatModels = allIds.filter((id) => {
-    const name = id.toLowerCase();
-    // Skip non-chat models
-    if (name.includes("embed") || name.includes("bge-")) return false;
-    if (name.includes("stable-diffusion") || name.includes("flux"))
-      return false;
-    if (
-      name.includes("whisper") ||
-      name.includes("aura") ||
-      name.includes("melotts") ||
-      name.includes("nova-3")
-    )
-      return false;
-    if (name.includes("resnet") || name.includes("detr")) return false;
-    if (name.includes("bart-large") || name.includes("reranker")) return false;
-    if (name.includes("m2m100") || name.includes("indictrans")) return false;
-    if (name.includes("img2img") || name.includes("inpainting")) return false;
-    if (name.includes("guard") || name.includes("distilbert")) return false;
-    if (name.includes("smart-turn") || name.includes("uform")) return false;
-    if (
-      name.includes("lucid") ||
-      name.includes("phoenix") ||
-      name.includes("dreamshaper")
-    )
-      return false;
-    return true;
-  });
+  const chatModels = allIds;
 
-  console.log(`Filtered to ${chatModels.length} chat/text models`);
+  console.log(`Using all ${chatModels.length} models`);
 
   let written = 0;
   for (const fullId of chatModels) {

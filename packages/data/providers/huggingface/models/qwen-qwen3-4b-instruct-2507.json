@@ -7,5 +7,9 @@
   "alias": "Qwen/Qwen3-4B-Instruct",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "4f0f1198",
+    "capabilities": "0fa77dc6"
   }
 }

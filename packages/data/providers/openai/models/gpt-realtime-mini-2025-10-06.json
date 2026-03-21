@@ -1,0 +1,81 @@
+{
+  "id": "gpt-realtime-mini-2025-10-06",
+  "name": "gpt-realtime-mini-2025-10-06",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-realtime",
+  "description": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
+  "status": "active",
+  "knowledge_cutoff": "2023-09",
+  "context_window": 32000,
+  "max_output_tokens": 4096,
+  "alias": "gpt-realtime-mini",
+  "performance": 4,
+  "speed": 5,
+  "tagline": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
+  "capabilities": {
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["text", "audio"]
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 2.4,
+    "cached_input": 0.06,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.6, 0.06, 2.4]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [10, 0.3, 20]
+          }
+        ]
+      },
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.8, 0.08, null]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["realtime"],
+  "_generated": {
+    "name": "8f0f3cdf",
+    "description": "54827e41",
+    "tagline": "54827e41",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "max_output_tokens": "f7efa4f8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "a87ff679",
+    "speed": "e4da3b7f",
+    "family": "f5032d33",
+    "pricing": "dffaf5b0",
+    "capabilities": "ce9e2425",
+    "modalities": "d78a8420",
+    "endpoints": "c7ed7203"
+  }
+}

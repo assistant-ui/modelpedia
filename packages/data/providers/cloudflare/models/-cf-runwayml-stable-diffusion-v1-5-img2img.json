@@ -1,0 +1,14 @@
+{
+  "id": "@cf/runwayml/stable-diffusion-v1-5-img2img",
+  "name": "stable-diffusion-v1-5-img2img",
+  "created_by": "runway",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "dd164f2c",
+    "capabilities": "0fa77dc6"
+  }
+}

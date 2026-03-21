@@ -17,5 +17,15 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "d6629ec8",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "max_output_tokens": "77441296",
+    "family": "ae78db21",
+    "capabilities": "6c301a15",
+    "modalities": "68e53d93"
   }
 }

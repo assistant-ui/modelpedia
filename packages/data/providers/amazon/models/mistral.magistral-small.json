@@ -12,5 +12,10 @@
     "input": [],
     "output": ["text"]
   },
-  "snapshots": ["mistral.magistral-small-2509"]
+  "snapshots": ["mistral.magistral-small-2509"],
+  "_generated": {
+    "name": "2a56265c",
+    "capabilities": "8a3b232e",
+    "modalities": "ce37f4ca"
+  }
 }

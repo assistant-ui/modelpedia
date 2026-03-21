@@ -1,0 +1,27 @@
+name: Bug Report
+description: Report a bug in the website, API, or npm package
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened? What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps or code to reproduce the issue
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Website (modelpedia.dev)
+        - API (api.modelpedia.dev)
+        - npm package (modelpedia)
+        - Model data
+    validations:
+      required: true

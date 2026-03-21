@@ -16,5 +16,16 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "tagline": "command-r7b-12-2024 is a small, fast update delivered in December 2024.",
+  "_generated": {
+    "name": "ff113811",
+    "description": "4c512595",
+    "tagline": "01cfb07c",
+    "status": "379ac110",
+    "context_window": "34434798",
+    "max_output_tokens": "1bd69c7d",
+    "capabilities": "a281e83a",
+    "modalities": "68e53d93"
   }
 }

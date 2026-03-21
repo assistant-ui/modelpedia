@@ -12,5 +12,12 @@
   "pricing": {
     "input": 1,
     "output": 1
+  },
+  "_generated": {
+    "name": "eee567b5",
+    "context_window": "a683b9ae",
+    "family": "a3af76f3",
+    "pricing": "5418a9a1",
+    "capabilities": "0fa77dc6"
   }
 }

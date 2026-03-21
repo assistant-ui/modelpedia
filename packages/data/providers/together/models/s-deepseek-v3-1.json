@@ -12,5 +12,12 @@
   "pricing": {
     "input": 0.6,
     "output": 1.7
+  },
+  "_generated": {
+    "name": "800faf07",
+    "context_window": "34434798",
+    "family": "4b81b92d",
+    "pricing": "9279a29c",
+    "capabilities": "0fa77dc6"
   }
 }

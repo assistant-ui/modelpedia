@@ -3,19 +3,21 @@
   "name": "GPT-4 Turbo Preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-4-turbo",
   "description": "This is a research preview of the GPT-4 Turbo model, an older high-intelligence GPT model.",
   "status": "deprecated",
   "model_type": "chat",
-  "context_window": 128000,
-  "max_output_tokens": 4096,
-  "modalities": {
-    "input": ["text"],
-    "output": ["text"]
-  },
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true
+  "tagline": "An older fast GPT model",
+  "successor": "gpt-4o",
+  "snapshots": ["gpt-4-0125-preview", "gpt-4-1106-vision-preview"],
+  "_generated": {
+    "name": "9a4520ae",
+    "description": "b7a67cc4",
+    "tagline": "852f051a",
+    "status": "2e2f74dc",
+    "model_type": "d669f408",
+    "successor": "15249632",
+    "family": "e55097d8"
   }
 }

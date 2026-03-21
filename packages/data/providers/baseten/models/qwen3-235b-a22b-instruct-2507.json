@@ -8,5 +8,10 @@
   "alias": "qwen3-235b-a22b-instruct",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "7d1468ab",
+    "family": "48c385a0",
+    "capabilities": "0fa77dc6"
   }
 }

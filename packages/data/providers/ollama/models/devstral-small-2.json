@@ -7,5 +7,12 @@
   "family": "devstral",
   "capabilities": {
     "streaming": true
+  },
+  "model_type": "code",
+  "_generated": {
+    "name": "81589537",
+    "model_type": "b6cc3ff4",
+    "family": "e626e93e",
+    "capabilities": "0fa77dc6"
   }
 }

@@ -14,5 +14,14 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "model_type": "moderation",
+  "_generated": {
+    "name": "80d4ea00",
+    "status": "379ac110",
+    "model_type": "1e7a7b87",
+    "context_window": "67ff32d4",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
   }
 }

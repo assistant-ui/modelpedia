@@ -1,0 +1,14 @@
+{
+  "id": "@cf/lykon/dreamshaper-8-lcm",
+  "name": "dreamshaper-8-lcm",
+  "created_by": "lykon",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "3adb6e39",
+    "capabilities": "0fa77dc6"
+  }
+}

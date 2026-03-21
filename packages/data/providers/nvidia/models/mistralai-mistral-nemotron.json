@@ -7,5 +7,9 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true
+  },
+  "_generated": {
+    "name": "12e24214",
+    "capabilities": "48995a4e"
   }
 }

@@ -23,5 +23,16 @@
   "context_window": 272000,
   "max_context_window": 1000000,
   "performance": 5,
-  "speed": 3
+  "speed": 3,
+  "_generated": {
+    "name": "270255f2",
+    "context_window": "3f9281a0",
+    "max_context_window": "8155bc54",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "family": "4651e8f0",
+    "pricing": "d9873b8b",
+    "capabilities": "45192957",
+    "modalities": "6399757e"
+  }
 }

@@ -5,27 +5,73 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-4.1",
+  "description": "GPT-4.1 mini excels at instruction following and tool calling. It features a",
   "status": "active",
+  "knowledge_cutoff": "2024-05",
   "context_window": 1047576,
   "max_output_tokens": 32768,
+  "model_type": "chat",
   "alias": "gpt-4.1-mini",
   "performance": 3,
   "speed": 4,
+  "tagline": "GPT-4.1 mini excels at instruction following and tool calling.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "fine_tuning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
   },
   "pricing": {
+    "tiers": [
+      {
+        "label": "Fine-tuning",
+        "unit": "",
+        "columns": ["Training", "Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 0.8, 0.2, 3.2]
+          },
+          {
+            "label": "Batch",
+            "values": [null, 0.4, null, 1.6]
+          }
+        ]
+      }
+    ],
     "input": 0.4,
     "output": 1.6,
     "cached_input": 0.1,
     "batch_input": 0.2,
     "batch_output": 0.8
   },
-  "description": "GPT-4.1 mini excels at instruction following and tool calling. It features a",
-  "model_type": "chat",
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true
+  "endpoints": [
+    "chat_completions",
+    "responses",
+    "assistants",
+    "batch",
+    "fine_tuning"
+  ],
+  "_generated": {
+    "name": "522d20e4",
+    "description": "a830acaf",
+    "tagline": "18a22d24",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "55410616",
+    "max_output_tokens": "f4376436",
+    "knowledge_cutoff": "1d431428",
+    "performance": "eccbc87e",
+    "speed": "a87ff679",
+    "family": "d240daf4",
+    "pricing": "530b51ae",
+    "capabilities": "ac9a94bc",
+    "modalities": "6399757e",
+    "endpoints": "ebc03c48"
   }
 }

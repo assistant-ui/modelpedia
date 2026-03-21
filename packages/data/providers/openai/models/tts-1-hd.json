@@ -1,0 +1,46 @@
+{
+  "id": "tts-1-hd",
+  "name": "TTS-1 HD",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "TTS is a model that converts text to natural sounding spoken text. The tts-1-hd model is optimized for high quality text-to-speech use cases. Use it with the Speech endpoint in the Audio API.",
+  "status": "active",
+  "model_type": "tts",
+  "performance": 3,
+  "speed": 3,
+  "tagline": "Text-to-speech model optimized for quality",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Pricing",
+        "unit": "Per 1M tokens",
+        "columns": ["Cost"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [30]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["speech_generation"],
+  "snapshots": ["tts-1-hd"],
+  "_generated": {
+    "name": "0b10e0fb",
+    "description": "78423356",
+    "tagline": "88c6381e",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "performance": "eccbc87e",
+    "speed": "eccbc87e",
+    "pricing": "f4ea26bc",
+    "modalities": "601e776d",
+    "endpoints": "1d7fad2a"
+  }
+}

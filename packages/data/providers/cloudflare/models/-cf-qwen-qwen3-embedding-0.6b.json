@@ -1,0 +1,18 @@
+{
+  "id": "@cf/qwen/qwen3-embedding-0.6b",
+  "name": "qwen3-embedding-0.6b",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "f2723657",
+    "model_type": "764cb3de",
+    "family": "48c385a0",
+    "capabilities": "0fa77dc6"
+  }
+}

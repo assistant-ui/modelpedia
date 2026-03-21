@@ -16,5 +16,14 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "_generated": {
+    "name": "1f583ab0",
+    "status": "2e2f74dc",
+    "context_window": "34434798",
+    "deprecation_date": "75f289bd",
+    "family": "c606df51",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
   }
 }

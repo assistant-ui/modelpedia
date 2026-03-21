@@ -15,5 +15,14 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "model_type": "reasoning",
+  "_generated": {
+    "name": "7ea41c2f",
+    "model_type": "17475f7f",
+    "knowledge_cutoff": "ffb42dbe",
+    "family": "193049bc",
+    "capabilities": "0946b777",
+    "modalities": "68e53d93"
   }
 }

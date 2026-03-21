@@ -14,5 +14,14 @@
   },
   "capabilities": {
     "structured_output": true
+  },
+  "_generated": {
+    "name": "20d41e8f",
+    "description": "a5694a26",
+    "context_window": "77441296",
+    "max_output_tokens": "05192834",
+    "family": "7d6f36e8",
+    "capabilities": "c8033cf7",
+    "modalities": "68e53d93"
   }
 }

@@ -5,12 +5,20 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-4o",
+  "description": "This is a preview release of the GPT-4o Audio models. These models accept",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 128000,
   "max_output_tokens": 16384,
+  "model_type": "chat",
   "alias": "gpt-4o-audio-preview",
   "performance": 3,
   "speed": 3,
+  "tagline": "This is a preview release of the GPT-4o Audio models.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
   "modalities": {
     "input": ["text", "audio"],
     "output": ["text", "audio"]
@@ -18,14 +26,47 @@
   "pricing": {
     "input": 2.5,
     "output": 10,
-    "cached_input": 1.25,
-    "batch_input": 1.25,
-    "batch_output": 5
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2.5, null, 10]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [40, null, 80]
+          }
+        ]
+      }
+    ]
   },
-  "description": "This is a preview release of the GPT-4o Audio models. These models accept",
-  "model_type": "chat",
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "82c557f0",
+    "description": "366e38f2",
+    "tagline": "dac69fbc",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "eccbc87e",
+    "speed": "eccbc87e",
+    "family": "15249632",
+    "pricing": "ae3d21b8",
+    "capabilities": "48995a4e",
+    "modalities": "cf05925d",
+    "endpoints": "d8fa1080"
   }
 }

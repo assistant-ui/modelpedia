@@ -1,0 +1,21 @@
+{
+  "id": "openai/text-embedding-3-large",
+  "name": "text-embedding-3-large",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.13,
+    "output": 0
+  },
+  "_generated": {
+    "name": "f0bef7e2",
+    "model_type": "764cb3de",
+    "pricing": "da6a30b6",
+    "capabilities": "0fa77dc6"
+  }
+}

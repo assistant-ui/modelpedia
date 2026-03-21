@@ -1,0 +1,19 @@
+{
+  "id": "voyage/voyage-3-large",
+  "name": "voyage-3-large",
+  "created_by": "voyage",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.18,
+    "output": 0
+  },
+  "_generated": {
+    "name": "8a5c353a",
+    "pricing": "ae6ace32",
+    "capabilities": "0fa77dc6"
+  }
+}

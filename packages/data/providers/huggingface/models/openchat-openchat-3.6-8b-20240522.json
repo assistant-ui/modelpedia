@@ -7,5 +7,9 @@
   "alias": "openchat/openchat-3.6-8b",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "1c76e7a8",
+    "capabilities": "0fa77dc6"
   }
 }

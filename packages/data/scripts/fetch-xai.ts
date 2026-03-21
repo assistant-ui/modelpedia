@@ -76,8 +76,6 @@ function parseDocsModels(md: string): Map<string, DocsModel> {
 
     const id = cells[0];
     if (!id.startsWith("grok-")) continue;
-    // Skip image/video generation models (no token pricing)
-    if (cells[5]?.includes("/image") || cells[5]?.includes("/sec")) continue;
 
     const mods = parseModalities(cells[1]);
     const caps = parseCaps(cells[2]);

@@ -5,12 +5,25 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "o3",
+  "description": "o3 is a well-rounded and powerful model across domains. It sets a new",
   "status": "active",
+  "knowledge_cutoff": "2024-05",
   "context_window": 200000,
   "max_output_tokens": 100000,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
   "alias": "o3",
   "performance": 5,
+  "reasoning": 5,
   "speed": 1,
+  "tagline": "o3 is a well-rounded and powerful model across domains.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -20,12 +33,47 @@
     "output": 8,
     "cached_input": 0.5,
     "batch_input": 1,
-    "batch_output": 4
+    "batch_output": 4,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2, 0.5, 8]
+          },
+          {
+            "label": "Batch",
+            "values": [1, null, 4]
+          },
+          {
+            "label": "Flex",
+            "values": [1, 0.25, 4]
+          }
+        ]
+      }
+    ]
   },
-  "description": "o3 is a well-rounded and powerful model across domains.",
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true,
-    "reasoning": true
+  "endpoints": ["chat_completions", "responses", "batch"],
+  "_generated": {
+    "name": "08f3dfa1",
+    "description": "0cbff98e",
+    "tagline": "ebf30e4f",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "03e6c616",
+    "max_output_tokens": "14ee22ea",
+    "knowledge_cutoff": "1d431428",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "c4ca4238",
+    "family": "193049bc",
+    "reasoning_tokens": "b326b506",
+    "pricing": "5e39d62f",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "endpoints": "ec55a017"
   }
 }

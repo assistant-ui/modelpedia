@@ -16,5 +16,14 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "model_type": "reasoning",
+  "_generated": {
+    "name": "e1ab0820",
+    "model_type": "17475f7f",
+    "knowledge_cutoff": "ffb42dbe",
+    "family": "e1ab0820",
+    "capabilities": "781c5d26",
+    "modalities": "6399757e"
   }
 }

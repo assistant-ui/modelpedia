@@ -3,19 +3,58 @@
   "name": "gpt-3.5-turbo-instruct",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "gpt-3.5",
-  "status": "active",
+  "description": "Similar capabilities as GPT-3 era models. Compatible with legacy Completions endpoint and not Chat Completions.",
+  "status": "deprecated",
+  "knowledge_cutoff": "2021-08",
   "context_window": 4096,
   "max_output_tokens": 4096,
+  "model_type": "chat",
   "performance": 1,
   "speed": 2,
+  "tagline": "An older model only compatible with the legacy Completions endpoint",
+  "capabilities": {
+    "fine_tuning": true
+  },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
-  "description": "This model is a variant of GPT-3.5 Turbo tuned for instructional prompts and omitting chat-related optimizations.",
-  "capabilities": {
-    "structured_output": true
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "",
+        "columns": ["Input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.5, 2]
+          }
+        ]
+      }
+    ],
+    "input": 1.5,
+    "output": 2
+  },
+  "endpoints": ["chat_completions", "responses"],
+  "snapshots": ["gpt-3.5-turbo-instruct"],
+  "_generated": {
+    "name": "52fd00ac",
+    "description": "c1972356",
+    "tagline": "1233a25c",
+    "status": "2e2f74dc",
+    "model_type": "d669f408",
+    "context_window": "f7efa4f8",
+    "max_output_tokens": "f7efa4f8",
+    "knowledge_cutoff": "4778f833",
+    "performance": "c4ca4238",
+    "speed": "c81e728d",
+    "family": "7601054d",
+    "pricing": "edca0a42",
+    "capabilities": "d53dc8e8",
+    "modalities": "68e53d93",
+    "endpoints": "72e91ba7"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "id": "@cf/bytedance/stable-diffusion-xl-lightning",
+  "name": "stable-diffusion-xl-lightning",
+  "created_by": "bytedance",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "82138c22",
+    "capabilities": "0fa77dc6"
+  }
+}

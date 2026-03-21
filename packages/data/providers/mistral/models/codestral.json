@@ -20,5 +20,17 @@
     "output": 0.9
   },
   "snapshots": ["codestral-2508", "codestral-2501", "codestral-2405"],
-  "deprecation_date": "2024-12-02"
+  "deprecation_date": "2024-12-02",
+  "model_type": "code",
+  "_generated": {
+    "name": "a0734f6e",
+    "status": "2e2f74dc",
+    "model_type": "b6cc3ff4",
+    "context_window": "10e4d788",
+    "deprecation_date": "9b08fa35",
+    "family": "a0734f6e",
+    "pricing": "8eb8395f",
+    "capabilities": "8a3b232e",
+    "modalities": "68e53d93"
+  }
 }

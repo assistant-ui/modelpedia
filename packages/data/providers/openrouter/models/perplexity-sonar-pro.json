@@ -14,5 +14,13 @@
   "pricing": {
     "input": 3,
     "output": 15
+  },
+  "_generated": {
+    "name": "8e3fab74",
+    "description": "f488229b",
+    "context_window": "03e6c616",
+    "max_output_tokens": "67ff32d4",
+    "pricing": "7939f0ff",
+    "modalities": "6399757e"
   }
 }

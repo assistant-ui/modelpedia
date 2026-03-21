@@ -16,5 +16,19 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.1
+  },
+  "_generated": {
+    "name": "7a8735ef",
+    "status": "2e2f74dc",
+    "context_window": "34434798",
+    "deprecation_date": "75f289bd",
+    "family": "d6661e63",
+    "pricing": "dabb026f",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
   }
 }

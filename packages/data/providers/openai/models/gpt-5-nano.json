@@ -1,17 +1,29 @@
 {
   "id": "gpt-5-nano",
-  "name": "gpt-5-nano",
+  "name": "GPT-5 nano",
   "created_by": "openai",
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-5",
   "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for",
   "status": "active",
+  "knowledge_cutoff": "2024-05",
   "context_window": 400000,
   "max_output_tokens": 128000,
+  "max_input_tokens": 272000,
   "model_type": "reasoning",
+  "reasoning_tokens": true,
   "performance": 2,
+  "reasoning": 2,
   "speed": 5,
+  "tagline": "Fastest, most cost-efficient version of GPT-5",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -21,12 +33,58 @@
     "output": 0.4,
     "cached_input": 0.005,
     "batch_input": 0.025,
-    "batch_output": 0.2
+    "batch_output": 0.2,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.05, 0.005, 0.4]
+          },
+          {
+            "label": "Batch",
+            "values": [0.025, 0.0025, 0.2]
+          },
+          {
+            "label": "Flex",
+            "values": [0.025, 0.0025, 0.2]
+          }
+        ]
+      }
+    ]
   },
-  "capabilities": {
-    "tool_call": true,
-    "structured_output": true,
-    "reasoning": true
-  },
-  "snapshots": ["gpt-5-nano-2025-08-07"]
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "mcp"
+  ],
+  "endpoints": ["chat_completions", "responses", "batch"],
+  "snapshots": ["gpt-5-nano-2025-08-07"],
+  "_generated": {
+    "name": "5b55012d",
+    "description": "079d9e5e",
+    "tagline": "b641cfdd",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "3f9281a0",
+    "knowledge_cutoff": "1d431428",
+    "performance": "c81e728d",
+    "reasoning": "c81e728d",
+    "speed": "e4da3b7f",
+    "family": "aa904c16",
+    "reasoning_tokens": "b326b506",
+    "pricing": "c144148c",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "tools": "1d5a765f",
+    "endpoints": "ec55a017"
+  }
 }

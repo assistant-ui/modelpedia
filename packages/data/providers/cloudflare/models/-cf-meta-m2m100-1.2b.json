@@ -1,0 +1,14 @@
+{
+  "id": "@cf/meta/m2m100-1.2b",
+  "name": "m2m100-1.2b",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "435d03d6",
+    "capabilities": "0fa77dc6"
+  }
+}

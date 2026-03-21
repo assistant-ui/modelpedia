@@ -144,16 +144,6 @@ async function main() {
       continue;
     // Skip dated snapshots, keep only base names
     if (/\d{4}-\d{2}-\d{2}/.test(id)) continue;
-    // Skip TTS/ASR/image models
-    if (
-      id.includes("tts") ||
-      id.includes("asr") ||
-      id.includes("image") ||
-      id.includes("livetranslate") ||
-      id.includes("captioner") ||
-      id.includes("filetrans")
-    )
-      continue;
 
     const entry: ModelEntry = {
       id,

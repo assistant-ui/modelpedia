@@ -5,15 +5,25 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-5.4",
+  "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
   "status": "active",
+  "knowledge_cutoff": "2025-08",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "max_input_tokens": 272000,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
   "alias": "gpt-5.4-nano",
   "performance": 3,
+  "reasoning": 3,
   "speed": 4,
+  "tagline": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
   "capabilities": {
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -24,10 +34,48 @@
     "output": 1.25,
     "cached_input": 0.02,
     "batch_input": 0.1,
-    "batch_output": 0.625
+    "batch_output": 0.625,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.2, 0.02, 1.25]
+          },
+          {
+            "label": "Batch",
+            "values": [0.1, 0.01, 0.625]
+          },
+          {
+            "label": "Flex",
+            "values": [0.1, 0.01, 0.625]
+          }
+        ]
+      }
+    ]
   },
-  "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
-  "context_window": 400000,
-  "max_output_tokens": 128000,
-  "model_type": "reasoning"
+  "endpoints": ["responses", "chat_completions", "batch"],
+  "_generated": {
+    "name": "3dbe1362",
+    "description": "f8b66567",
+    "tagline": "f8b66567",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "3f9281a0",
+    "knowledge_cutoff": "5549a2cd",
+    "performance": "eccbc87e",
+    "reasoning": "eccbc87e",
+    "speed": "a87ff679",
+    "family": "4651e8f0",
+    "reasoning_tokens": "b326b506",
+    "pricing": "93b5f44a",
+    "capabilities": "e67897df",
+    "modalities": "6399757e",
+    "endpoints": "88e8abb4"
+  }
 }

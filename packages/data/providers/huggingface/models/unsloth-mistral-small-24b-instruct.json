@@ -7,5 +7,9 @@
   "capabilities": {
     "streaming": true
   },
-  "snapshots": ["unsloth/Mistral-Small-24B-Instruct-2501"]
+  "snapshots": ["unsloth/Mistral-Small-24B-Instruct-2501"],
+  "_generated": {
+    "name": "3da8d5c4",
+    "capabilities": "0fa77dc6"
+  }
 }

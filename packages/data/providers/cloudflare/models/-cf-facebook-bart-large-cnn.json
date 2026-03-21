@@ -1,0 +1,14 @@
+{
+  "id": "@cf/facebook/bart-large-cnn",
+  "name": "bart-large-cnn",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "517f3a02",
+    "capabilities": "0fa77dc6"
+  }
+}

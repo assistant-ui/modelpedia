@@ -13,5 +13,15 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "model_type": "code",
+  "_generated": {
+    "name": "90e13f7f",
+    "status": "379ac110",
+    "model_type": "b6cc3ff4",
+    "context_window": "2fd324cb",
+    "family": "a0734f6e",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
   }
 }

@@ -10,5 +10,12 @@
   "modalities": {
     "input": [],
     "output": []
+  },
+  "model_type": "embed",
+  "_generated": {
+    "name": "086d577e",
+    "model_type": "764cb3de",
+    "capabilities": "d3117eb0",
+    "modalities": "72e6ca34"
   }
 }

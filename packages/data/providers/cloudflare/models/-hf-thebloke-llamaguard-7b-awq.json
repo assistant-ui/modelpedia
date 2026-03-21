@@ -1,0 +1,16 @@
+{
+  "id": "@hf/thebloke/llamaguard-7b-awq",
+  "name": "llamaguard-7b-awq",
+  "created_by": "thebloke",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "model_type": "moderation",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "43810e7d",
+    "model_type": "1e7a7b87",
+    "capabilities": "0fa77dc6"
+  }
+}

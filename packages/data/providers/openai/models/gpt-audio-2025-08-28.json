@@ -5,23 +5,68 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-audio",
+  "description": "The gpt-audio model is our first generally available audio model. It accepts",
   "status": "active",
+  "knowledge_cutoff": "2023-09",
   "context_window": 128000,
   "max_output_tokens": 16384,
+  "model_type": "chat",
   "alias": "gpt-audio",
   "performance": 4,
   "speed": 3,
+  "tagline": "The gpt-audio model is our first generally available audio model.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
   "modalities": {
     "input": ["text", "audio"],
     "output": ["text", "audio"]
   },
   "pricing": {
     "input": 2.5,
-    "output": 10
+    "output": 10,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2.5, null, 10]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [32, null, 64]
+          }
+        ]
+      }
+    ]
   },
-  "description": "The gpt-audio model is our first generally available audio model. It accepts",
-  "model_type": "chat",
-  "capabilities": {
-    "structured_output": true
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "6baae54b",
+    "description": "cbfdc684",
+    "tagline": "3fd8480f",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "knowledge_cutoff": "7b971392",
+    "performance": "a87ff679",
+    "speed": "eccbc87e",
+    "family": "29debdf1",
+    "pricing": "6013bf87",
+    "capabilities": "48995a4e",
+    "modalities": "cf05925d",
+    "endpoints": "d8fa1080"
   }
 }

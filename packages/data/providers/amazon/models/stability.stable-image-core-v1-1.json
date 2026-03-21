@@ -7,5 +7,9 @@
   "modalities": {
     "input": ["text"],
     "output": ["image"]
+  },
+  "_generated": {
+    "name": "cf8ba905",
+    "modalities": "814867b9"
   }
 }

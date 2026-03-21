@@ -1,0 +1,19 @@
+{
+  "id": "bfl/flux-kontext-max",
+  "name": "flux-kontext-max",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "0467eb13",
+    "pricing": "9a7a9781",
+    "capabilities": "0fa77dc6"
+  }
+}

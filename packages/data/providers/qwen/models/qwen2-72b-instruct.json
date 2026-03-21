@@ -9,5 +9,10 @@
     "streaming": true,
     "tool_call": true
   },
-  "provider": "qwen"
+  "provider": "qwen",
+  "_generated": {
+    "name": "7eb81422",
+    "family": "66ff794a",
+    "capabilities": "48995a4e"
+  }
 }

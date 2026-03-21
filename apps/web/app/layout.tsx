@@ -21,18 +21,35 @@ import { geistMono, geistSans } from "@/styles/font";
 export const metadata: Metadata = {
   title: {
     template: "%s — modelpedia",
-    default: "modelpedia",
+    default: "modelpedia — Open catalog of AI models",
   },
   description:
-    "Open catalog of AI models across providers. Compare specs, pricing, and capabilities.",
+    "Browse, compare, and search 2000+ AI models across 30+ providers. Specs, pricing, capabilities, and a free API.",
+  keywords: [
+    "AI models",
+    "LLM",
+    "model comparison",
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "GPT",
+    "Claude",
+    "Gemini",
+    "pricing",
+  ],
   icons: { icon: "/icon.svg" },
   metadataBase: new URL("https://modelpedia.dev"),
   openGraph: {
     type: "website",
     siteName: "modelpedia",
+    locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
+    site: "@modelpedia",
+  },
+  alternates: {
+    canonical: "/",
   },
 };
 

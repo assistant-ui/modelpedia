@@ -7,5 +7,9 @@
   "alias": "swiss-ai/Apertus-8B-Instruct",
   "capabilities": {
     "streaming": true
+  },
+  "_generated": {
+    "name": "69e7baf5",
+    "capabilities": "0fa77dc6"
   }
 }

@@ -10,5 +10,10 @@
     "tool_call": true
   },
   "snapshots": ["qwen3-235b-a22b-thinking-2507"],
-  "provider": "qwen"
+  "provider": "qwen",
+  "_generated": {
+    "name": "02a351eb",
+    "family": "48c385a0",
+    "capabilities": "48995a4e"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "command-r-plus-08-2024",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "description": "command-r-plus-08-2024 is an update of the Command R+ model, delivered in August 2024. Find more information here",
   "status": "active",
   "context_window": 128000,
@@ -14,5 +14,16 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "tagline": "command-r-plus-08-2024 is an update of the Command R+ model, delivered in August 2024.",
+  "_generated": {
+    "name": "8e86f993",
+    "description": "1cf2ced3",
+    "tagline": "89073436",
+    "status": "379ac110",
+    "context_window": "34434798",
+    "max_output_tokens": "1bd69c7d",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
   }
 }

@@ -15,6 +15,7 @@ export interface ModelItem {
   created_by?: string;
   family?: string;
   status?: string;
+  model_type?: string;
   context_window?: number | null;
   capabilities?: Record<string, boolean>;
   pricing?: { input?: number | null; output?: number | null };
@@ -163,15 +164,24 @@ export function ModelList({
   initialQuery?: string;
 }) {
   const [showDeprecated, setShowDeprecated] = useState(false);
+  const [typeFilter, setTypeFilter] = useState("");
 
   const deprecatedCount = models.filter(
     (m) => m.status === "deprecated",
   ).length;
 
-  const data =
+  const types = [
+    ...new Set(models.map((m) => m.model_type).filter(Boolean)),
+  ].sort();
+
+  let data =
     showDeprecated || deprecatedCount === 0
       ? models
       : models.filter((m) => m.status !== "deprecated");
+
+  if (typeFilter) {
+    data = data.filter((m) => m.model_type === typeFilter);
+  }
 
   const columns = buildColumns(showProvider);
 
@@ -185,8 +195,27 @@ export function ModelList({
       globalFilterFn={modelFilterFn}
       getRowHref={(m) => `/${m.provider}/${m.id}`}
       toolbar={
-        <div className="flex items-center justify-between gap-4">
-          {capLegend()}
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div className="flex flex-wrap items-center gap-3">
+            {capLegend()}
+            {types.length > 1 && (
+              <div className="flex items-center gap-1.5 text-muted-foreground text-xs">
+                <span>Type:</span>
+                <select
+                  value={typeFilter}
+                  onChange={(e) => setTypeFilter(e.target.value)}
+                  className="rounded border border-border bg-background px-1.5 py-0.5 text-foreground text-xs"
+                >
+                  <option value="">All</option>
+                  {types.map((t) => (
+                    <option key={t} value={t}>
+                      {t}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
+          </div>
           {deprecatedCount > 0 && (
             <Checkbox
               checked={showDeprecated}

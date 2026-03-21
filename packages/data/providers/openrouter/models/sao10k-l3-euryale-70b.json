@@ -17,5 +17,14 @@
   "pricing": {
     "input": 1.48,
     "output": 1.48
+  },
+  "_generated": {
+    "name": "a4cfd840",
+    "description": "c1829e7a",
+    "context_window": "77441296",
+    "max_output_tokens": "77441296",
+    "pricing": "00195da4",
+    "capabilities": "ce9e2425",
+    "modalities": "68e53d93"
   }
 }

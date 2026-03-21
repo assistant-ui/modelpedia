@@ -13,5 +13,12 @@
     "input": 1,
     "output": 1
   },
-  "snapshots": ["fireworks/devstral-small-2505"]
+  "snapshots": ["fireworks/devstral-small-2505"],
+  "_generated": {
+    "name": "bc607ece",
+    "context_window": "a683b9ae",
+    "family": "e626e93e",
+    "pricing": "5418a9a1",
+    "capabilities": "0fa77dc6"
+  }
 }

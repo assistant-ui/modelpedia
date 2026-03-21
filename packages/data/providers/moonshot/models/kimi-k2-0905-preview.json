@@ -10,5 +10,14 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true
+  },
+  "tagline": "Enhanced agentic coding, front-end aesthetics, context understanding.",
+  "_generated": {
+    "name": "b0afd595",
+    "description": "2d592e94",
+    "tagline": "2d592e94",
+    "context_window": "2fd324cb",
+    "family": "0740f86b",
+    "capabilities": "48995a4e"
   }
 }

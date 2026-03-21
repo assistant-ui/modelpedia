@@ -1,0 +1,28 @@
+{
+  "id": "File Search Storage",
+  "name": "File Search Storage",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Built-in tools",
+        "unit": "",
+        "columns": ["Cost"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.1]
+          }
+        ]
+      }
+    ]
+  },
+  "_generated": {
+    "name": "81658606",
+    "status": "379ac110",
+    "pricing": "9d6beb64"
+  }
+}

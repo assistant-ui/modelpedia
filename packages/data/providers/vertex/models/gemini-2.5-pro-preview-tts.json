@@ -19,5 +19,20 @@
   "modalities": {
     "input": ["text", "image", "video", "audio"],
     "output": ["text", "image"]
+  },
+  "model_type": "tts",
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "b2b6950f",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "context_window": "77441296",
+    "max_output_tokens": "c76fe1d8",
+    "family": "ea6b88bf",
+    "capabilities": "29b57eef",
+    "modalities": "08235294",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
   }
 }

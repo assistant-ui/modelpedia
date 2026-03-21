@@ -15,5 +15,13 @@
     "tool_call": true,
     "structured_output": true,
     "reasoning": true
+  },
+  "_generated": {
+    "name": "ec5cb368",
+    "description": "a6c8c79d",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "4a1d32eb",
+    "capabilities": "f533f522",
+    "modalities": "68e53d93"
   }
 }

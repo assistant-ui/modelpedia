@@ -1,0 +1,25 @@
+{
+  "id": "alibaba/qwen3-embedding-0.6b",
+  "name": "qwen3-embedding-0.6b",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "context_window": 32800,
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.01,
+    "output": 0
+  },
+  "_generated": {
+    "name": "f2723657",
+    "model_type": "764cb3de",
+    "context_window": "74a190a6",
+    "family": "48c385a0",
+    "pricing": "2811ebe9",
+    "capabilities": "0fa77dc6"
+  }
+}
