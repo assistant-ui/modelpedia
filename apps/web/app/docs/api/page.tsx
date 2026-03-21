@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "REST API reference for querying AI models, providers, and capabilities. JSON, no auth, CORS enabled.",
 };
 
-const API_BASE = "https://api.ai-model.dev";
+const API_BASE = "https://api.modelpedia.dev";
 
 const sections: {
   title: string;

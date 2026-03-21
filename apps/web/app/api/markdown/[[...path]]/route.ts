@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import {
   allModels,
-  getChangelog,
+  getChanges,
   getModel,
   getProvider,
   providers,
@@ -62,7 +62,7 @@ export async function GET(
 
 function renderHome(): string {
   return [
-    "# AI Model Registry",
+    "# modelpedia",
     "",
     `${allModels.length} models across ${providers.length} providers.`,
     "",
@@ -74,7 +74,7 @@ function renderHome(): string {
     ),
     "",
     `Browse: /<provider>, /<provider>/<model_id>, /docs/api`,
-    `API: https://api.ai-model.dev/v1/models, https://api.ai-model.dev/v1/providers, https://api.ai-model.dev/v1/stats`,
+    `API: https://api.modelpedia.dev/v1/models, https://api.modelpedia.dev/v1/providers, https://api.modelpedia.dev/v1/stats`,
   ].join("\n");
 }
 
@@ -155,25 +155,25 @@ function renderCompare(): string {
     "Use the API to compare models:",
     "",
     "```",
-    "GET https://api.ai-model.dev/v1/models/compare?ids=openai/gpt-4o,anthropic/claude-sonnet-4-6",
+    "GET https://api.modelpedia.dev/v1/models/compare?ids=openai/gpt-4o,anthropic/claude-sonnet-4-6",
     "```",
     "",
-    "Or browse the compare page at https://ai-model.dev/compare",
+    "Or browse the compare page at https://modelpedia.dev/compare",
   ].join("\n");
 }
 
 function renderChanges(): string {
-  const changelog = getChangelog();
+  const changes = getChanges();
   const lines = [
     "# Changes",
     "",
-    `${changelog.length} total entries.`,
+    `${changes.length} total entries.`,
     "",
     "| Date | Provider | Model | Action | Changes |",
     "|------|----------|-------|--------|---------|",
   ];
 
-  for (const entry of changelog.slice(0, 100)) {
+  for (const entry of changes.slice(0, 100)) {
     const date = new Date(entry.ts).toISOString().slice(0, 10);
     const provider = getProvider(entry.provider);
     const provName = provider?.name ?? entry.provider;
@@ -190,8 +190,8 @@ function renderChanges(): string {
     );
   }
 
-  if (changelog.length > 100) {
-    lines.push("", `_Showing 100 of ${changelog.length} entries._`);
+  if (changes.length > 100) {
+    lines.push("", `_Showing 100 of ${changes.length} entries._`);
   }
 
   return lines.join("\n");
@@ -201,7 +201,7 @@ function renderApiDocs(): string {
   return [
     "# API Reference",
     "",
-    "Base URL: `https://api.ai-model.dev/v1`",
+    "Base URL: `https://api.modelpedia.dev/v1`",
     "",
     "JSON · No authentication · CORS enabled",
     "",
@@ -248,7 +248,7 @@ function renderModelChanges(
   const model = getModel(providerId, modelId);
   if (!model) return null;
   const provider = getProvider(providerId);
-  const changelog = getChangelog().filter(
+  const changes = getChanges().filter(
     (e) => e.provider === providerId && e.model === modelId,
   );
 
@@ -256,15 +256,15 @@ function renderModelChanges(
     `# Changes — ${model.name}`,
     "",
     `Provider: ${provider?.name ?? providerId}`,
-    `${changelog.length} entries.`,
+    `${changes.length} entries.`,
     "",
   ];
 
-  if (changelog.length === 0) {
+  if (changes.length === 0) {
     lines.push("No changes recorded for this model.");
   } else {
     lines.push("| Date | Action | Changes |", "|------|--------|---------|");
-    for (const entry of changelog) {
+    for (const entry of changes) {
       const date = new Date(entry.ts).toISOString().slice(0, 10);
       const changes = entry.changes
         ? Object.entries(entry.changes)
@@ -304,6 +304,7 @@ function renderModel(provider: string, id: string): string | null {
     "## Specifications",
     "",
     `- **Context window**: ${model.context_window != null ? `${formatTokens(model.context_window)} tokens` : "—"}`,
+    `- **Max context window**: ${model.max_context_window != null ? `${formatTokens(model.max_context_window)} tokens` : "—"}`,
     `- **Max output**: ${model.max_output_tokens != null ? `${formatTokens(model.max_output_tokens)} tokens` : "—"}`,
     `- **Max input**: ${model.max_input_tokens != null ? `${formatTokens(model.max_input_tokens)} tokens` : "—"}`,
     `- **Input modalities**: ${model.modalities?.input?.join(", ") ?? "—"}`,
@@ -319,8 +320,10 @@ function renderModel(provider: string, id: string): string | null {
       lines.push(`| Input | $${model.pricing.input} |`);
     if (model.pricing.output != null)
       lines.push(`| Output | $${model.pricing.output} |`);
+    if (model.pricing.cache_write != null)
+      lines.push(`| Cache write | $${model.pricing.cache_write} |`);
     if (model.pricing.cached_input != null)
-      lines.push(`| Cached input | $${model.pricing.cached_input} |`);
+      lines.push(`| Cache read | $${model.pricing.cached_input} |`);
     if (model.pricing.batch_input != null)
       lines.push(`| Batch input | $${model.pricing.batch_input} |`);
     if (model.pricing.batch_output != null)
@@ -351,7 +354,7 @@ function renderModel(provider: string, id: string): string | null {
     "## API",
     "",
     "```",
-    `GET https://api.ai-model.dev/v1/models/${model.provider}/${model.id}`,
+    `GET https://api.modelpedia.dev/v1/models/${model.provider}/${model.id}`,
     "```",
   );
 

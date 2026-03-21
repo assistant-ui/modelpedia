@@ -1,6 +1,11 @@
 import { Info } from "lucide-react";
 import { Tooltip } from "@/components/ui/tooltip";
-import { CAP_BADGES, PERF_LABELS, SPEED_LABELS } from "@/lib/constants";
+import {
+  CAP_BADGES,
+  PERF_LABELS,
+  REASONING_LABELS,
+  SPEED_LABELS,
+} from "@/lib/constants";
 import { formatPrice, formatTokens } from "@/lib/format";
 
 export function InheritedBadge({ from }: { from?: string }) {
@@ -30,10 +35,12 @@ export function MetricCard({
         {label}
         {inheritedFrom && <InheritedBadge from={inheritedFrom} />}
       </div>
-      <div className="mt-1 font-medium font-mono text-foreground text-lg">
-        {value}
+      <div className="mt-1 flex items-baseline gap-1">
+        <span className="font-medium font-mono text-foreground text-lg">
+          {value}
+        </span>
+        {sub && <span className="text-muted-foreground text-xs">{sub}</span>}
       </div>
-      {sub && <div className="text-muted-foreground text-xs">{sub}</div>}
     </div>
   );
 }
@@ -45,12 +52,18 @@ export function RatingCard({
   inheritedFrom,
 }: {
   label: string;
-  value: number;
+  value?: number | null;
   max: number;
   inheritedFrom?: string;
 }) {
-  const labels = label === "Speed" ? SPEED_LABELS : PERF_LABELS;
-  const description = labels[value] ?? `${value}/${max}`;
+  const labels =
+    label === "Speed"
+      ? SPEED_LABELS
+      : label === "Reasoning"
+        ? REASONING_LABELS
+        : PERF_LABELS;
+  const description =
+    value != null ? (labels[value] ?? `${value}/${max}`) : "—";
 
   return (
     <div className="bg-background px-4 py-3">
@@ -58,16 +71,22 @@ export function RatingCard({
         {label}
         {inheritedFrom && <InheritedBadge from={inheritedFrom} />}
       </div>
-      <Tooltip content={description}>
-        <div className="mt-2 flex items-center gap-1.5">
-          {Array.from({ length: max }, (_, i) => (
-            <span
-              key={i}
-              className={`h-2.5 w-2.5 rounded-full ${i < value ? "bg-foreground" : "bg-border"}`}
-            />
-          ))}
+      {value != null ? (
+        <Tooltip content={description}>
+          <div className="mt-1 flex h-7 items-center gap-1.5">
+            {Array.from({ length: max }, (_, i) => (
+              <span
+                key={i}
+                className={`h-2.5 w-2.5 rounded-full ${i < value ? "bg-foreground" : "bg-border"}`}
+              />
+            ))}
+          </div>
+        </Tooltip>
+      ) : (
+        <div className="mt-1 font-medium font-mono text-foreground text-lg">
+          —
         </div>
-      </Tooltip>
+      )}
     </div>
   );
 }

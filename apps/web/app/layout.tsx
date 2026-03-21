@@ -20,16 +20,16 @@ import { geistMono, geistSans } from "@/styles/font";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s — AI Model Registry",
-    default: "AI Model Registry",
+    template: "%s — modelpedia",
+    default: "modelpedia",
   },
   description:
     "Open catalog of AI models across providers. Compare specs, pricing, and capabilities.",
-  icons: { icon: "/favicon.svg" },
-  metadataBase: new URL("https://ai-model.dev"),
+  icons: { icon: "/icon.svg" },
+  metadataBase: new URL("https://modelpedia.dev"),
   openGraph: {
     type: "website",
-    siteName: "AI Model Registry",
+    siteName: "modelpedia",
   },
   twitter: {
     card: "summary_large_image",
@@ -62,26 +62,42 @@ export default async function RootLayout({
                 className="h-5 w-5"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <rect
-                  width="32"
-                  height="32"
-                  rx="6"
-                  fill="currentColor"
-                  fillOpacity="0.9"
+                <defs>
+                  <clipPath id="globe-clip">
+                    <circle cx="16" cy="16" r="14" />
+                  </clipPath>
+                </defs>
+                <circle
+                  cx="16"
+                  cy="16"
+                  r="14"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
                 />
-                <g
-                  stroke="var(--background)"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <line x1="7" y1="25" x2="19" y2="7" strokeWidth="2.6" />
-                  <line x1="19" y1="7" x2="19" y2="25" strokeWidth="2.6" />
-                  <line x1="12" y1="18" x2="19" y2="18" strokeWidth="2.2" />
-                  <line x1="16" y1="7" x2="25" y2="7" strokeWidth="2.2" />
-                  <line x1="16" y1="25" x2="25" y2="25" strokeWidth="2.2" />
+                <g clipPath="url(#globe-clip)" transform="rotate(-20 16 16)">
+                  <ellipse
+                    cx="16"
+                    cy="16"
+                    rx="5.5"
+                    ry="14"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                  />
+                  <ellipse
+                    cx="16"
+                    cy="16"
+                    rx="14"
+                    ry="5"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                  />
+                  <circle cx="11" cy="11.5" r="1.5" fill="currentColor" />
+                  <circle cx="21" cy="11.5" r="1.5" fill="currentColor" />
+                  <circle cx="11" cy="20.5" r="1.5" fill="currentColor" />
+                  <circle cx="21" cy="20.5" r="1.5" fill="currentColor" />
                 </g>
               </svg>
-              AI Model
+              modelpedia
             </Link>
             <div className="mx-auto hidden items-center gap-5 md:flex">
               <Link
@@ -206,7 +222,7 @@ export default async function RootLayout({
                     assistant-ui.com
                   </a>
                   <a
-                    href="https://github.com/okisdev/ai-model"
+                    href="https://github.com/assistant-ui/modelpedia"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground/50 text-xs transition-colors duration-200 hover:text-muted-foreground"

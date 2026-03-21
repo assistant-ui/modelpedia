@@ -1,0 +1,27 @@
+{
+  "id": "gemini-3-flash",
+  "name": "Gemini 3 Flash",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemini-3",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 3,
+    "cached_input": 0.05
+  },
+  "context_window": 200000,
+  "max_context_window": 1000000,
+  "performance": 3,
+  "speed": 4
+}

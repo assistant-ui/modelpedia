@@ -1,7 +1,7 @@
 {
-  "name": "ai-model",
+  "name": "modelpedia",
   "version": "0.0.1",
-  "description": "AI Model",
+  "description": "modelpedia",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -57,7 +57,8 @@
     "fetch:qwen": "bun scripts/fetch-qwen.ts",
     "fetch:vertex": "bun scripts/fetch-vertex.ts",
     "fetch:moonshot": "bun scripts/fetch-moonshot.ts",
-    "fetch:all": "bun run fetch:openai && bun run fetch:anthropic && bun run fetch:google && bun run fetch:mistral && bun run fetch:deepseek && bun run fetch:xai && bun run fetch:cohere && bun run fetch:zai && bun run fetch:minimax && bun run fetch:alibaba && bun run fetch:meta && bun run fetch:moonshot && bun run fetch:cerebras && bun run fetch:baseten && bun run fetch:openrouter && bun run fetch:perplexity && bun run fetch:azure && bun run fetch:groq && bun run fetch:nvidia && bun run fetch:together && bun run fetch:fireworks && bun run fetch:amazon && bun run fetch:vercel && bun run fetch:vertex && bun run fetch:cloudflare && bun run fetch:opencode && bun run fetch:ollama && bun run fetch:huggingface && bun run fetch:qwen",
+    "fetch:cursor": "bun scripts/fetch-cursor.ts",
+    "fetch:all": "bun run fetch:openai && bun run fetch:anthropic && bun run fetch:google && bun run fetch:mistral && bun run fetch:deepseek && bun run fetch:xai && bun run fetch:cohere && bun run fetch:zai && bun run fetch:minimax && bun run fetch:alibaba && bun run fetch:meta && bun run fetch:moonshot && bun run fetch:cerebras && bun run fetch:baseten && bun run fetch:openrouter && bun run fetch:perplexity && bun run fetch:azure && bun run fetch:groq && bun run fetch:nvidia && bun run fetch:together && bun run fetch:fireworks && bun run fetch:amazon && bun run fetch:vercel && bun run fetch:vertex && bun run fetch:cloudflare && bun run fetch:opencode && bun run fetch:ollama && bun run fetch:huggingface && bun run fetch:qwen && bun run fetch:cursor",
     "prepublishOnly": "bun run build"
   },
   "keywords": [
@@ -68,7 +69,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/assistant-ui/ai-model",
+    "url": "https://github.com/assistant-ui/modelpedia",
     "directory": "packages/data"
   },
   "devDependencies": {

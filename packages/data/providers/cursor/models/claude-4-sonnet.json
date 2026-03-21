@@ -1,0 +1,27 @@
+{
+  "id": "claude-4-sonnet",
+  "name": "Claude 4 Sonnet",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "claude-sonnet",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.3,
+    "cache_write": 3.75
+  },
+  "context_window": 200000,
+  "performance": 4,
+  "speed": 3
+}

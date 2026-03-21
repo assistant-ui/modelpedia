@@ -150,12 +150,15 @@ function parseModelsMarkdown(md: string): ModelSpec[] {
 // ── Parse pricing page ──
 
 function parsePricingMarkdown(md: string): {
-  pricing: Map<string, { input: number; output: number; cached_input: number }>;
+  pricing: Map<
+    string,
+    { input: number; output: number; cached_input: number; cache_write: number }
+  >;
   batch: Map<string, { batch_input: number; batch_output: number }>;
 } {
   const pricing = new Map<
     string,
-    { input: number; output: number; cached_input: number }
+    { input: number; output: number; cached_input: number; cache_write: number }
   >();
   const batch = new Map<
     string,
@@ -183,7 +186,7 @@ function parsePricingMarkdown(md: string): {
     const header = rows[0].join(" ").toLowerCase();
 
     if (header.includes("base input") && header.includes("cache")) {
-      // Model pricing: Model | Base Input | 5m Cache | 1h Cache | Cache Hits | Output
+      // Model pricing: Model | Base Input | 5m Cache Writes | 1h Cache Writes | Cache Hits | Output
       for (const row of rows.slice(1)) {
         const name = row[0]
           ?.replace(/\(?\[.*?\]\(.*?\)\)?/g, "")
@@ -191,12 +194,14 @@ function parsePricingMarkdown(md: string): {
           .replace(/\s+/g, " ")
           .trim();
         const input = parseDollar(row[1]);
+        const cacheWrite = parseDollar(row[2]);
         const cachedInput = parseDollar(row[4]);
         const output = parseDollar(row[5]);
         if (name && input != null && output != null) {
           pricing.set(name, {
             input,
             output,
+            cache_write: cacheWrite ?? input * 1.25,
             cached_input: cachedInput ?? input * 0.1,
           });
         }
@@ -336,6 +341,7 @@ async function main() {
         ? {
             input: spec.pricing_input!,
             output: spec.pricing_output!,
+            cache_write: spec.pricing_input! * 1.25,
             cached_input: spec.pricing_input! * 0.1,
           }
         : undefined);
@@ -366,6 +372,7 @@ async function main() {
       entry.pricing = {
         input: p.input,
         output: p.output,
+        cache_write: p.cache_write,
         cached_input: p.cached_input,
         ...(b
           ? { batch_input: b.batch_input, batch_output: b.batch_output }
@@ -430,6 +437,7 @@ async function main() {
       pricing: {
         input: p.input,
         output: p.output,
+        cache_write: p.cache_write,
         cached_input: p.cached_input,
         ...(b
           ? { batch_input: b.batch_input, batch_output: b.batch_output }

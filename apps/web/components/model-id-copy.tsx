@@ -5,18 +5,27 @@ import {
   Dropdown,
   DropdownContent,
   DropdownItem,
+  DropdownLabel,
+  DropdownSeparator,
   DropdownTrigger,
 } from "./ui/dropdown";
 import { toastManager } from "./ui/toast";
 
-export function ModelIdCopy({ ids }: { ids: string[] }) {
-  function copy(id: string) {
-    navigator.clipboard.writeText(id);
+export interface CopyGroup {
+  label: string;
+  items: { label: string; value: string }[];
+}
+
+export function ModelIdCopy({ groups }: { groups: CopyGroup[] }) {
+  function copy(value: string) {
+    navigator.clipboard.writeText(value);
     toastManager.add({
-      description: `Copied ${id}`,
+      description: `Copied ${value}`,
       timeout: 2000,
     });
   }
+
+  const nonEmpty = groups.filter((g) => g.items.length > 0);
 
   return (
     <Dropdown>
@@ -29,12 +38,25 @@ export function ModelIdCopy({ ids }: { ids: string[] }) {
         </Button>
       </DropdownTrigger>
       <DropdownContent>
-        {ids.map((id) => (
-          <DropdownItem key={id} onSelect={() => copy(id)}>
-            <span className="flex-1 font-mono text-foreground text-xs">
-              {id}
-            </span>
-          </DropdownItem>
+        {nonEmpty.map((group, gi) => (
+          <div key={group.label}>
+            {gi > 0 && <DropdownSeparator />}
+            <DropdownLabel>{group.label}</DropdownLabel>
+            {group.items.map((item) => (
+              <DropdownItem key={item.value} onSelect={() => copy(item.value)}>
+                <span className="flex min-w-0 flex-1 flex-col">
+                  <span className="truncate font-mono text-foreground text-xs">
+                    {item.value}
+                  </span>
+                  {item.label !== item.value && (
+                    <span className="truncate text-[11px] text-muted-foreground">
+                      {item.label}
+                    </span>
+                  )}
+                </span>
+              </DropdownItem>
+            ))}
+          </div>
         ))}
       </DropdownContent>
     </Dropdown>

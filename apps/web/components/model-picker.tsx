@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { ProviderIcon } from "@/components/provider-icon";
 import { fuzzyMatch } from "@/lib/search";
 
 interface PickerModel {
@@ -8,6 +9,7 @@ interface PickerModel {
   name: string;
   provider: string;
   providerName: string;
+  providerIcon?: string;
 }
 
 export function ModelPicker({
@@ -98,10 +100,13 @@ export function ModelPicker({
         className="flex w-full items-center gap-2 rounded-md bg-muted px-3 py-2.5 text-left text-sm ring-1 ring-border transition-colors duration-200 hover:bg-accent"
       >
         {current ? (
-          <span className="truncate text-foreground">
-            <span className="text-muted-foreground">
-              {current.providerName} /
-            </span>{" "}
+          <span className="flex min-w-0 items-center gap-2 truncate text-foreground">
+            <ProviderIcon
+              provider={
+                current.providerIcon ? { icon: current.providerIcon } : null
+              }
+              size={14}
+            />
             {current.name}
           </span>
         ) : (
@@ -150,12 +155,16 @@ export function ModelPicker({
                     key === selected ? "bg-accent" : ""
                   }`}
                 >
+                  <ProviderIcon
+                    provider={m.providerIcon ? { icon: m.providerIcon } : null}
+                    size={13}
+                  />
                   <div className="min-w-0 flex-1">
                     <span className="block truncate text-foreground">
                       {m.name}
                     </span>
                     <span className="block truncate font-mono text-muted-foreground text-xs">
-                      {m.providerName} / {m.id}
+                      {m.id}
                     </span>
                   </div>
                 </button>

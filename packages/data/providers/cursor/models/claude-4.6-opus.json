@@ -1,0 +1,28 @@
+{
+  "id": "claude-4.6-opus",
+  "name": "Claude 4.6 Opus",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "claude-opus",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 25,
+    "cached_input": 0.5,
+    "cache_write": 6.25
+  },
+  "context_window": 200000,
+  "max_context_window": 1000000,
+  "performance": 5,
+  "speed": 3
+}

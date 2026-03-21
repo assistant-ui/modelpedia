@@ -21,6 +21,8 @@ export default async function ModelsPage({
       id: m.id,
       name: m.name,
       provider: m.provider,
+      created_by: m.created_by,
+      family: m.family,
       status: m.status,
       context_window: m.context_window,
       capabilities: m.capabilities as Record<string, boolean> | undefined,

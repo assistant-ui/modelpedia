@@ -232,6 +232,7 @@ export interface ModelEntry {
   deprecation_date?: string | null;
   knowledge_cutoff?: string | null;
   context_window?: number | null;
+  max_context_window?: number | null;
   max_output_tokens?: number | null;
   max_input_tokens?: number | null;
   capabilities?: Record<string, boolean>;
@@ -244,6 +245,7 @@ export interface ModelEntry {
   snapshots?: string[];
   alias?: string;
   performance?: number;
+  reasoning?: number;
   speed?: number;
 }
 
@@ -305,12 +307,14 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     "deprecation_date",
     "knowledge_cutoff",
     "context_window",
+    "max_context_window",
     "max_output_tokens",
     "max_input_tokens",
     "model_type",
     "reasoning_tokens",
     "alias",
     "performance",
+    "reasoning",
     "speed",
   ] as const;
 
@@ -360,7 +364,7 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
   const allSnapshots = [...new Set([...existingSnapshots, ...newSnapshots])];
   if (allSnapshots.length > 0) data.snapshots = allSnapshots;
 
-  // Diff: log what changed and record to changelog
+  // Diff: log what changed and record to changes
   if (existing) {
     const changedFields: Record<string, { from: unknown; to: unknown }> = {};
     for (const [k, v] of Object.entries(data)) {
@@ -384,7 +388,7 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
 }
 
 /**
- * Delete a model entry and record to changelog.
+ * Delete a model entry and record to changes.
  */
 export function deleteModel(provider: string, modelId: string): boolean {
   const sanitized = sanitizeModelId(modelId);
@@ -485,6 +489,7 @@ export function upsertWithSnapshot(
     "model_type",
     "reasoning_tokens",
     "performance",
+    "reasoning",
     "speed",
   ] as const;
   const snapshotEntry: ModelEntry = {

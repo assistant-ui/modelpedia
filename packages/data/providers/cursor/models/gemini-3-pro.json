@@ -1,0 +1,27 @@
+{
+  "id": "gemini-3-pro",
+  "name": "Gemini 3 Pro",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemini-3",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 12,
+    "cached_input": 0.2
+  },
+  "context_window": 200000,
+  "max_context_window": 1000000,
+  "performance": 4,
+  "speed": 3
+}

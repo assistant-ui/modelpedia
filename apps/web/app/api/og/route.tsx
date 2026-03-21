@@ -89,10 +89,10 @@ export async function GET(request: Request) {
             color: "#0a0a0b",
           }}
         >
-          AI
+          M
         </div>
         <div style={{ display: "flex", fontSize: 18, color: "#71717a" }}>
-          {`${providerInfo?.name ?? provider} · ai-model.dev`}
+          {`${providerInfo?.name ?? provider} · modelpedia.dev`}
         </div>
       </div>
 

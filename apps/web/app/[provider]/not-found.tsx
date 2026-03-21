@@ -14,14 +14,14 @@ export default function ProviderNotFound() {
       <div className="mt-6 flex flex-wrap gap-3">
         <ButtonLink href="/">Back to home</ButtonLink>
         <ButtonAnchor
-          href="https://github.com/assistant-ui/ai-model/issues/new?title=Add+provider:+&labels=new-provider"
+          href="https://github.com/assistant-ui/modelpedia/issues/new?title=Add+provider:+&labels=new-provider"
           target="_blank"
           rel="noopener noreferrer"
         >
           Request provider
         </ButtonAnchor>
         <ButtonAnchor
-          href="https://github.com/assistant-ui/ai-model/issues/new"
+          href="https://github.com/assistant-ui/modelpedia/issues/new"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -1,17 +1,17 @@
 {
-  "name": "@ai-model/root",
+  "name": "@modelpedia/root",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "turbo dev",
-    "dev:web": "pnpm --filter @ai-model/web dev",
-    "dev:api": "pnpm --filter @ai-model/api dev",
+    "dev:web": "pnpm --filter @modelpedia/web dev",
+    "dev:api": "pnpm --filter @modelpedia/api dev",
     "build": "turbo build",
     "lint": "pnpm exec biome check",
     "lint:fix": "pnpm exec biome check --fix",
-    "generate": "pnpm --filter ai-model generate",
-    "validate": "pnpm --filter ai-model validate",
-    "fetch:all": "pnpm --filter ai-model fetch:all",
+    "generate": "pnpm --filter modelpedia generate",
+    "validate": "pnpm --filter modelpedia validate",
+    "fetch:all": "pnpm --filter modelpedia fetch:all",
     "deps:check": "npx taze major -f -r",
     "deps:update": "npx taze major -f -w -r && rm -f pnpm-lock.yaml && pnpm install",
     "prepare": "husky"
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/assistant-ui/ai-model"
+    "url": "https://github.com/assistant-ui/modelpedia"
   },
   "author": "assistant-ui",
   "license": "MIT",

@@ -14,17 +14,29 @@ export default function ComparePage() {
     .filter((m) => !m.alias)
     .map((m) => {
       const p = getProvider(m.provider);
+      const creator =
+        m.created_by !== m.provider ? getProvider(m.created_by) : p;
       return {
         id: m.id,
         name: m.name,
         provider: m.provider,
         providerName: p?.name ?? m.provider,
+        providerIcon: p?.icon,
+        created_by: m.created_by,
+        creatorName: creator?.name ?? m.created_by,
+        creatorIcon: creator?.icon,
         family: m.family,
+        model_type: m.model_type,
         status: m.status,
+        release_date: m.release_date,
         context_window: m.context_window,
+        max_context_window: m.max_context_window,
         max_output_tokens: m.max_output_tokens,
+        max_input_tokens: m.max_input_tokens,
         knowledge_cutoff: m.knowledge_cutoff,
+        reasoning_tokens: m.reasoning_tokens,
         performance: m.performance,
+        reasoning: m.reasoning,
         speed: m.speed,
         capabilities: m.capabilities as Record<string, boolean> | undefined,
         modalities: m.modalities,

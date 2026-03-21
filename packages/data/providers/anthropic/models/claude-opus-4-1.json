@@ -3,7 +3,7 @@
   "name": "Claude Opus 4.1",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-21",
   "family": "claude-opus",
   "status": "active",
   "knowledge_cutoff": "2025-01",
@@ -25,7 +25,8 @@
     "output": 75,
     "cached_input": 1.5,
     "batch_input": 7.5,
-    "batch_output": 37.5
+    "batch_output": 37.5,
+    "cache_write": 18.75
   },
   "snapshots": ["claude-opus-4-1-20250805"]
 }

@@ -6,10 +6,10 @@ import { cache } from "react";
 
 const AUTH_URL =
   process.env.NEXT_PUBLIC_AUTH_URL ?? "https://accounts.assistant-ui.com";
-const OIDC_CLIENT_ID = process.env.OIDC_CLIENT_ID ?? "ai-model";
+const OIDC_CLIENT_ID = process.env.OIDC_CLIENT_ID ?? "modelpedia";
 const OIDC_SCOPE = "openid profile email";
-const SESSION_COOKIE = "ai-model.session";
-const FLOW_COOKIE = "ai-model.oidc_flow";
+const SESSION_COOKIE = "modelpedia.session";
+const FLOW_COOKIE = "modelpedia.oidc_flow";
 const COOKIE_MAX_AGE = 60 * 60 * 24 * 7; // 7 days
 const FLOW_COOKIE_MAX_AGE = 60 * 10; // 10 min
 const SECRET = process.env.AUTH_SECRET ?? "";

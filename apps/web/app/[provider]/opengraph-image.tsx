@@ -73,10 +73,10 @@ export default async function OGImage({
             color: "#0a0a0b",
           }}
         >
-          AI
+          M
         </div>
         <div style={{ display: "flex", fontSize: 18, color: "#71717a" }}>
-          ai-model.dev
+          modelpedia.dev
         </div>
       </div>
 

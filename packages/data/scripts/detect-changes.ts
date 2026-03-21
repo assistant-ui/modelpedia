@@ -4,7 +4,7 @@ import * as path from "node:path";
 
 /**
  * Detect model/provider changes by comparing current files with a git ref.
- * Writes results to changelog.jsonl in the format consumed by the web app.
+ * Writes results to changes.jsonl in the format consumed by the web app.
  *
  * Usage:
  *   bun scripts/detect-changes.ts            # compare with HEAD~1
@@ -13,7 +13,7 @@ import * as path from "node:path";
  */
 
 const ROOT = path.resolve(import.meta.dirname, "..");
-const CHANGELOG_PATH = path.join(ROOT, "changes", "changelog.jsonl");
+const CHANGES_PATH = path.join(ROOT, "changes", "changes.jsonl");
 const PROVIDERS_REL = "providers/";
 
 // Fields to ignore when diffing
@@ -21,7 +21,7 @@ const IGNORE_FIELDS = new Set(["last_updated", "source"]);
 
 // ── Types ──
 
-interface ChangelogEntry {
+interface ChangeEntry {
   ts: string;
   provider: string;
   model: string;
@@ -130,9 +130,9 @@ function diffFields(
   return changes;
 }
 
-// ── Write changelog ──
+// ── Write changes ──
 
-function writeChangelog(entries: ChangelogEntry[], dryRun: boolean): void {
+function writeChanges(entries: ChangeEntry[], dryRun: boolean): void {
   if (entries.length === 0) {
     console.log("No changes detected.");
     return;
@@ -159,18 +159,18 @@ function writeChangelog(entries: ChangelogEntry[], dryRun: boolean): void {
     return;
   }
 
-  fs.mkdirSync(path.dirname(CHANGELOG_PATH), { recursive: true });
+  fs.mkdirSync(path.dirname(CHANGES_PATH), { recursive: true });
   const newLines = entries.map((e) => JSON.stringify(e)).join("\n");
 
-  // Read existing changelog, append new entries
+  // Read existing changes, append new entries
   let existing = "";
-  if (fs.existsSync(CHANGELOG_PATH)) {
-    existing = fs.readFileSync(CHANGELOG_PATH, "utf-8").trimEnd();
+  if (fs.existsSync(CHANGES_PATH)) {
+    existing = fs.readFileSync(CHANGES_PATH, "utf-8").trimEnd();
   }
   const content = existing ? `${existing}\n${newLines}\n` : `${newLines}\n`;
-  fs.writeFileSync(CHANGELOG_PATH, content, "utf-8");
+  fs.writeFileSync(CHANGES_PATH, content, "utf-8");
 
-  console.log(`\nAppended ${entries.length} entries to changelog.jsonl`);
+  console.log(`\nAppended ${entries.length} entries to changes.jsonl`);
 }
 
 // ── Main ──
@@ -195,7 +195,7 @@ function main() {
   );
 
   const ts = new Date().toISOString();
-  const entries: ChangelogEntry[] = [];
+  const entries: ChangeEntry[] = [];
 
   for (const file of added) {
     const info = parseFilePath(file);
@@ -234,7 +234,7 @@ function main() {
     entries.push({ ts, provider: info.provider, model, action: "delete" });
   }
 
-  writeChangelog(entries, dryRun);
+  writeChanges(entries, dryRun);
 }
 
 main();

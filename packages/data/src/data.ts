@@ -2750,7 +2750,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Haiku 3.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-haiku",
         "capabilities": {
           "streaming": true,
@@ -2771,7 +2771,8 @@ export const providers: ProviderWithModels[] = [
           "output": 4,
           "cached_input": 0.08,
           "batch_input": 0.4,
-          "batch_output": 2
+          "batch_output": 2,
+          "cache_write": 1
         }
       },
       {
@@ -2779,7 +2780,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Sonnet 3.7",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-sonnet",
         "capabilities": {
           "streaming": true,
@@ -2800,7 +2801,8 @@ export const providers: ProviderWithModels[] = [
           "output": 15,
           "cached_input": 0.3,
           "batch_input": 1.5,
-          "batch_output": 7.5
+          "batch_output": 7.5,
+          "cache_write": 3.75
         }
       },
       {
@@ -2808,7 +2810,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Haiku 3",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-haiku",
         "status": "deprecated",
         "context_window": 200000,
@@ -2833,7 +2835,8 @@ export const providers: ProviderWithModels[] = [
           "output": 1.25,
           "cached_input": 0.03,
           "batch_input": 0.125,
-          "batch_output": 0.625
+          "batch_output": 0.625,
+          "cache_write": 0.3
         }
       },
       {
@@ -2841,7 +2844,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Haiku 3",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-haiku",
         "capabilities": {
           "streaming": true,
@@ -2862,7 +2865,8 @@ export const providers: ProviderWithModels[] = [
           "output": 1.25,
           "cached_input": 0.03,
           "batch_input": 0.125,
-          "batch_output": 0.625
+          "batch_output": 0.625,
+          "cache_write": 0.3
         }
       },
       {
@@ -2870,7 +2874,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Opus 3",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-opus",
         "capabilities": {
           "streaming": true,
@@ -2891,7 +2895,8 @@ export const providers: ProviderWithModels[] = [
           "output": 75,
           "cached_input": 1.5,
           "batch_input": 7.5,
-          "batch_output": 37.5
+          "batch_output": 37.5,
+          "cache_write": 18.75
         }
       },
       {
@@ -2899,7 +2904,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Haiku 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-haiku",
         "description": "The fastest model with near-frontier intelligence",
         "status": "active",
@@ -2928,7 +2933,8 @@ export const providers: ProviderWithModels[] = [
           "output": 5,
           "cached_input": 0.1,
           "batch_input": 0.5,
-          "batch_output": 2.5
+          "batch_output": 2.5,
+          "cache_write": 1.25
         }
       },
       {
@@ -2936,7 +2942,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Haiku 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-haiku",
         "description": "The fastest model with near-frontier intelligence",
         "status": "active",
@@ -2964,7 +2970,8 @@ export const providers: ProviderWithModels[] = [
           "output": 5,
           "cached_input": 0.1,
           "batch_input": 0.5,
-          "batch_output": 2.5
+          "batch_output": 2.5,
+          "cache_write": 1.25
         },
         "snapshots": [
           "claude-haiku-4-5-20251001"
@@ -2975,7 +2982,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Opus 4",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-opus",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -3002,7 +3009,8 @@ export const providers: ProviderWithModels[] = [
           "output": 75,
           "cached_input": 1.5,
           "batch_input": 7.5,
-          "batch_output": 37.5
+          "batch_output": 37.5,
+          "cache_write": 18.75
         },
         "snapshots": [
           "claude-opus-4-20250514"
@@ -3013,7 +3021,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Opus 4.1",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-opus",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -3041,7 +3049,8 @@ export const providers: ProviderWithModels[] = [
           "output": 75,
           "cached_input": 1.5,
           "batch_input": 7.5,
-          "batch_output": 37.5
+          "batch_output": 37.5,
+          "cache_write": 18.75
         }
       },
       {
@@ -3049,7 +3058,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Opus 4.1",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-opus",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -3076,7 +3085,8 @@ export const providers: ProviderWithModels[] = [
           "output": 75,
           "cached_input": 1.5,
           "batch_input": 7.5,
-          "batch_output": 37.5
+          "batch_output": 37.5,
+          "cache_write": 18.75
         },
         "snapshots": [
           "claude-opus-4-1-20250805"
@@ -3087,7 +3097,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Opus 4",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-opus",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -3115,7 +3125,8 @@ export const providers: ProviderWithModels[] = [
           "output": 75,
           "cached_input": 1.5,
           "batch_input": 7.5,
-          "batch_output": 37.5
+          "batch_output": 37.5,
+          "cache_write": 18.75
         }
       },
       {
@@ -3123,7 +3134,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Opus 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-opus",
         "status": "active",
         "knowledge_cutoff": "2025-05",
@@ -3151,7 +3162,8 @@ export const providers: ProviderWithModels[] = [
           "output": 25,
           "cached_input": 0.5,
           "batch_input": 2.5,
-          "batch_output": 12.5
+          "batch_output": 12.5,
+          "cache_write": 6.25
         }
       },
       {
@@ -3159,7 +3171,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Opus 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-opus",
         "status": "active",
         "knowledge_cutoff": "2025-05",
@@ -3186,7 +3198,8 @@ export const providers: ProviderWithModels[] = [
           "output": 25,
           "cached_input": 0.5,
           "batch_input": 2.5,
-          "batch_output": 12.5
+          "batch_output": 12.5,
+          "cache_write": 6.25
         },
         "snapshots": [
           "claude-opus-4-5-20251101"
@@ -3197,7 +3210,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Opus 4.6",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-opus",
         "description": "The most intelligent model for building agents and coding",
         "status": "active",
@@ -3225,7 +3238,8 @@ export const providers: ProviderWithModels[] = [
           "output": 25,
           "cached_input": 0.5,
           "batch_input": 2.5,
-          "batch_output": 12.5
+          "batch_output": 12.5,
+          "cache_write": 6.25
         }
       },
       {
@@ -3233,7 +3247,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Sonnet 4",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-sonnet",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -3260,7 +3274,8 @@ export const providers: ProviderWithModels[] = [
           "output": 15,
           "cached_input": 0.3,
           "batch_input": 1.5,
-          "batch_output": 7.5
+          "batch_output": 7.5,
+          "cache_write": 3.75
         },
         "snapshots": [
           "claude-sonnet-4-20250514"
@@ -3271,7 +3286,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Sonnet 4",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-sonnet",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -3299,7 +3314,8 @@ export const providers: ProviderWithModels[] = [
           "output": 15,
           "cached_input": 0.3,
           "batch_input": 1.5,
-          "batch_output": 7.5
+          "batch_output": 7.5,
+          "cache_write": 3.75
         }
       },
       {
@@ -3307,7 +3323,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Sonnet 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-sonnet",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -3335,7 +3351,8 @@ export const providers: ProviderWithModels[] = [
           "output": 15,
           "cached_input": 0.3,
           "batch_input": 1.5,
-          "batch_output": 7.5
+          "batch_output": 7.5,
+          "cache_write": 3.75
         }
       },
       {
@@ -3343,7 +3360,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Sonnet 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-sonnet",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -3370,7 +3387,8 @@ export const providers: ProviderWithModels[] = [
           "output": 15,
           "cached_input": 0.3,
           "batch_input": 1.5,
-          "batch_output": 7.5
+          "batch_output": 7.5,
+          "cache_write": 3.75
         },
         "snapshots": [
           "claude-sonnet-4-5-20250929"
@@ -3381,7 +3399,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Sonnet 4.6",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-20",
+        "last_updated": "2026-03-21",
         "family": "claude-sonnet",
         "description": "The best combination of speed and intelligence",
         "status": "active",
@@ -3409,7 +3427,8 @@ export const providers: ProviderWithModels[] = [
           "output": 15,
           "cached_input": 0.3,
           "batch_input": 1.5,
-          "batch_output": 7.5
+          "batch_output": 7.5,
+          "cache_write": 3.75
         }
       }
     ]
@@ -6818,6 +6837,1014 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      }
+    ]
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "region": "US",
+    "url": "https://cursor.com",
+    "api_url": "https://api.cursor.com",
+    "docs_url": "https://cursor.com/docs",
+    "pricing_url": "https://cursor.com/docs/models-and-pricing",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M22.106 5.68L12.5.135a.998.998 0 00-.998 0L1.893 5.68a.84.84 0 00-.419.726v11.186c0 .3.16.577.42.727l9.607 5.547a.999.999 0 00.998 0l9.608-5.547a.84.84 0 00.42-.727V6.407a.84.84 0 00-.42-.726zm-.603 1.176L12.228 22.92c-.063.108-.228.064-.228-.061V12.34a.59.59 0 00-.295-.51l-9.11-5.26c-.107-.062-.063-.228.062-.228h18.55c.264 0 .428.286.296.514z\"/></svg>",
+    "models": [
+      {
+        "id": "auto",
+        "name": "Auto",
+        "created_by": "cursor",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 6,
+          "cached_input": 0.25
+        }
+      },
+      {
+        "id": "claude-4-sonnet-1m",
+        "name": "Claude 4 Sonnet 1M",
+        "created_by": "anthropic",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "claude-sonnet",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 6,
+          "output": 22.5,
+          "cached_input": 0.6,
+          "cache_write": 7.5
+        },
+        "max_context_window": 1000000,
+        "performance": 4,
+        "speed": 3
+      },
+      {
+        "id": "claude-4-sonnet",
+        "name": "Claude 4 Sonnet",
+        "created_by": "anthropic",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "claude-sonnet",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.3,
+          "cache_write": 3.75
+        },
+        "context_window": 200000,
+        "performance": 4,
+        "speed": 3
+      },
+      {
+        "id": "claude-4.5-haiku",
+        "name": "Claude 4.5 Haiku",
+        "created_by": "anthropic",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "claude-haiku",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1,
+          "output": 5,
+          "cached_input": 0.1,
+          "cache_write": 1.25
+        },
+        "context_window": 200000,
+        "performance": 3,
+        "speed": 4
+      },
+      {
+        "id": "claude-4.5-opus",
+        "name": "Claude 4.5 Opus",
+        "created_by": "anthropic",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "claude-opus",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cached_input": 0.5,
+          "cache_write": 6.25
+        },
+        "context_window": 200000,
+        "performance": 5,
+        "speed": 3
+      },
+      {
+        "id": "claude-4.5-sonnet",
+        "name": "Claude 4.5 Sonnet",
+        "created_by": "anthropic",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "claude-sonnet",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.3,
+          "cache_write": 3.75
+        },
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 4,
+        "speed": 3
+      },
+      {
+        "id": "claude-4.6-opus-fast",
+        "name": "Claude 4.6 Opus (Fast mode)",
+        "created_by": "anthropic",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "claude-opus",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 30,
+          "output": 150,
+          "cached_input": 3,
+          "cache_write": 37.5
+        },
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 5,
+        "speed": 4
+      },
+      {
+        "id": "claude-4.6-opus",
+        "name": "Claude 4.6 Opus",
+        "created_by": "anthropic",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "claude-opus",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cached_input": 0.5,
+          "cache_write": 6.25
+        },
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 5,
+        "speed": 3
+      },
+      {
+        "id": "claude-4.6-sonnet",
+        "name": "Claude 4.6 Sonnet",
+        "created_by": "anthropic",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "claude-sonnet",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.3,
+          "cache_write": 3.75
+        },
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 4,
+        "speed": 3
+      },
+      {
+        "id": "composer-1.5",
+        "name": "Composer 1.5",
+        "created_by": "cursor",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 3.5,
+          "output": 17.5,
+          "cached_input": 0.35
+        },
+        "context_window": 200000,
+        "performance": 4,
+        "speed": 4
+      },
+      {
+        "id": "composer-1",
+        "name": "Composer 1",
+        "created_by": "cursor",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125
+        },
+        "context_window": 200000,
+        "performance": 4,
+        "speed": 3
+      },
+      {
+        "id": "composer-2",
+        "name": "Composer 2",
+        "created_by": "cursor",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 2.5,
+          "cached_input": 0.2
+        },
+        "context_window": 200000,
+        "performance": 5,
+        "speed": 4
+      },
+      {
+        "id": "gemini-2.5-flash",
+        "name": "Gemini 2.5 Flash",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gemini-2.5",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 2.5,
+          "cached_input": 0.03
+        },
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 3,
+        "speed": 4
+      },
+      {
+        "id": "gemini-3-flash",
+        "name": "Gemini 3 Flash",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gemini-3",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 3,
+          "cached_input": 0.05
+        },
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 3,
+        "speed": 4
+      },
+      {
+        "id": "gemini-3-pro-image-preview",
+        "name": "Gemini 3 Pro Image Preview",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gemini-3",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text",
+            "image"
+          ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 12,
+          "cached_input": 0.2
+        },
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 4,
+        "speed": 3
+      },
+      {
+        "id": "gemini-3-pro",
+        "name": "Gemini 3 Pro",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gemini-3",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 12,
+          "cached_input": 0.2
+        },
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 4,
+        "speed": 3
+      },
+      {
+        "id": "gemini-3.1-pro",
+        "name": "Gemini 3.1 Pro",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gemini-3.1",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 12,
+          "cached_input": 0.2
+        },
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 5,
+        "speed": 3
+      },
+      {
+        "id": "gpt-5-codex",
+        "name": "GPT-5-Codex",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125
+        },
+        "context_window": 272000,
+        "performance": 4,
+        "speed": 3
+      },
+      {
+        "id": "gpt-5-fast",
+        "name": "GPT-5 Fast",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 20,
+          "cached_input": 0.25
+        },
+        "context_window": 272000,
+        "performance": 4,
+        "speed": 4
+      },
+      {
+        "id": "gpt-5-mini",
+        "name": "GPT-5 Mini",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 2,
+          "cached_input": 0.025
+        },
+        "context_window": 272000,
+        "performance": 3,
+        "speed": 4
+      },
+      {
+        "id": "gpt-5.1-codex-max",
+        "name": "GPT-5.1 Codex Max",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.1",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125
+        },
+        "context_window": 272000,
+        "performance": 4,
+        "speed": 3
+      },
+      {
+        "id": "gpt-5.1-codex-mini",
+        "name": "GPT-5.1 Codex Mini",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.1",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 2,
+          "cached_input": 0.025
+        },
+        "context_window": 272000,
+        "performance": 3,
+        "speed": 4
+      },
+      {
+        "id": "gpt-5.1-codex",
+        "name": "GPT-5.1 Codex",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.1",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125
+        },
+        "context_window": 272000,
+        "performance": 4,
+        "speed": 3
+      },
+      {
+        "id": "gpt-5.2-codex",
+        "name": "GPT-5.2 Codex",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.2",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.75,
+          "output": 14,
+          "cached_input": 0.175
+        },
+        "context_window": 272000,
+        "performance": 4,
+        "speed": 3
+      },
+      {
+        "id": "gpt-5.2",
+        "name": "GPT-5.2",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.2",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.75,
+          "output": 14,
+          "cached_input": 0.175
+        },
+        "context_window": 272000,
+        "performance": 4,
+        "speed": 3
+      },
+      {
+        "id": "gpt-5.3-codex",
+        "name": "GPT-5.3 Codex",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.3",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.75,
+          "output": 14,
+          "cached_input": 0.175
+        },
+        "context_window": 272000,
+        "performance": 5,
+        "speed": 3
+      },
+      {
+        "id": "gpt-5.4-mini",
+        "name": "GPT-5.4 Mini",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.4",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 4.5,
+          "cached_input": 0.075
+        },
+        "context_window": 272000,
+        "performance": 4,
+        "speed": 4
+      },
+      {
+        "id": "gpt-5.4-nano",
+        "name": "GPT-5.4 Nano",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.4",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 1.25,
+          "cached_input": 0.02
+        },
+        "context_window": 272000,
+        "performance": 3,
+        "speed": 4
+      },
+      {
+        "id": "gpt-5.4",
+        "name": "GPT-5.4",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5.4",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 15,
+          "cached_input": 0.25
+        },
+        "context_window": 272000,
+        "max_context_window": 1000000,
+        "performance": 5,
+        "speed": 3
+      },
+      {
+        "id": "gpt-5",
+        "name": "GPT-5",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "gpt-5",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125
+        },
+        "context_window": 272000,
+        "performance": 4,
+        "speed": 3
+      },
+      {
+        "id": "grok-4.20",
+        "name": "Grok 4.20",
+        "created_by": "xai",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "family": "grok-4.20",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 6,
+          "cached_input": 0.2
+        },
+        "context_window": 200000,
+        "max_context_window": 2000000,
+        "performance": 4,
+        "speed": 4
+      },
+      {
+        "id": "kimi-k2.5",
+        "name": "Kimi K2.5",
+        "created_by": "moonshot",
+        "source": "official",
+        "last_updated": "2026-03-21",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.6,
+          "output": 3,
+          "cached_input": 0.1
+        },
+        "context_window": 262000,
+        "performance": 4,
+        "speed": 3
       }
     ]
   },

@@ -35,7 +35,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
 
       - name: Build data package
-        run: pnpm --filter ai-model build
+        run: pnpm --filter modelpedia build
 
       - name: Fetch all providers
         working-directory: packages/data
@@ -104,10 +104,10 @@ jobs:
           if [ -n "$EXISTING_PR" ]; then
             gh pr edit "$EXISTING_PR" \
               --title "data: update model data $(date +%Y-%m-%d)" \
-              --body "$(printf '## Automated model data update\n\n```\n%s\n```\n\n> Auto-created by the fetch-models workflow.\n> Changelog will be generated on merge.' "$SUMMARY")"
+              --body "$(printf '## Automated model data update\n\n```\n%s\n```\n\n> Auto-created by the fetch-models workflow.\n> Changes will be detected on merge.' "$SUMMARY")"
             echo "Updated PR #$EXISTING_PR"
           else
             gh pr create \
               --title "data: update model data $(date +%Y-%m-%d)" \
-              --body "$(printf '## Automated model data update\n\n```\n%s\n```\n\n> Auto-created by the fetch-models workflow.\n> Changelog will be generated on merge.' "$SUMMARY")"
+              --body "$(printf '## Automated model data update\n\n```\n%s\n```\n\n> Auto-created by the fetch-models workflow.\n> Changes will be detected on merge.' "$SUMMARY")"
           fi

@@ -34,6 +34,15 @@ export const PERF_LABELS = [
   "Frontier",
 ];
 
+export const REASONING_LABELS = [
+  "",
+  "Basic",
+  "Moderate",
+  "Strong",
+  "Advanced",
+  "Frontier",
+];
+
 /** Official/direct model providers (ranked higher in search) */
 export const OFFICIAL_PROVIDERS = new Set([
   "openai",

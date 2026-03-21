@@ -4,7 +4,7 @@
  * when Turbopack resolves through the workspace symlink to source.
  */
 
-import type { Model, ProviderWithModels } from "ai-model";
+import type { Model, ProviderWithModels } from "modelpedia";
 import {
   allModels as _allModels,
   getModel as _getModel,
@@ -15,10 +15,15 @@ import {
   getModelsByCreator,
   getModelsByFamily,
   getModelsByProvider,
-} from "ai-model";
+} from "modelpedia";
 import { normalizeModelId } from "./search";
 
-export type { Model, ModelData, Provider, ProviderWithModels } from "ai-model";
+export type {
+  Model,
+  ModelData,
+  Provider,
+  ProviderWithModels,
+} from "modelpedia";
 
 export const allModels: Model[] = _allModels;
 export const providers: ProviderWithModels[] = _providers;
@@ -54,6 +59,7 @@ const INHERITABLE_FIELDS = [
   "max_input_tokens",
   "pricing",
   "performance",
+  "reasoning",
   "speed",
   "knowledge_cutoff",
   "release_date",
@@ -146,9 +152,9 @@ export function getModelWithInheritance(
   return enriched;
 }
 
-// ── Changelog ──
+// ── Changes ──
 
-export interface ChangelogEntry {
+export interface ChangeEntry {
   ts: string;
   provider: string;
   model: string;
@@ -157,25 +163,25 @@ export interface ChangelogEntry {
   changes?: Record<string, { from: unknown; to: unknown }>;
 }
 
-let _changelog: ChangelogEntry[] | null = null;
+let _changes: ChangeEntry[] | null = null;
 
-export function getChangelog(): ChangelogEntry[] {
-  if (_changelog) return _changelog;
+export function getChanges(): ChangeEntry[] {
+  if (_changes) return _changes;
   try {
     const fs = require("node:fs");
     const path = require("node:path");
     const filePath = path.resolve(
       process.cwd(),
-      "../../packages/data/changes/changelog.jsonl",
+      "../../packages/data/changes/changes.jsonl",
     );
     const content = fs.readFileSync(filePath, "utf-8");
-    _changelog = content
+    _changes = content
       .trim()
       .split("\n")
       .filter(Boolean)
       .map((line: string) => JSON.parse(line))
       .reverse(); // newest first
-    return _changelog!;
+    return _changes!;
   } catch {
     return [];
   }
