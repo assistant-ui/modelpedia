@@ -4,7 +4,7 @@
  * when Turbopack resolves through the workspace symlink to source.
  */
 
-import type { Model, ProviderWithModels } from "ai-model";
+import type { Model, ProviderWithModels } from "modelpedia";
 import {
   allModels as _allModels,
   getModel as _getModel,
@@ -15,10 +15,15 @@ import {
   getModelsByCreator,
   getModelsByFamily,
   getModelsByProvider,
-} from "ai-model";
+} from "modelpedia";
 import { normalizeModelId } from "./search";
 
-export type { Model, ModelData, Provider, ProviderWithModels } from "ai-model";
+export type {
+  Model,
+  ModelData,
+  Provider,
+  ProviderWithModels,
+} from "modelpedia";
 
 export const allModels: Model[] = _allModels;
 export const providers: ProviderWithModels[] = _providers;
@@ -54,6 +59,7 @@ const INHERITABLE_FIELDS = [
   "max_input_tokens",
   "pricing",
   "performance",
+  "reasoning",
   "speed",
   "knowledge_cutoff",
   "release_date",

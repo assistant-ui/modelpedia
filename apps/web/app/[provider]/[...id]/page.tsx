@@ -2,6 +2,7 @@ import {
   Braces,
   Brain,
   Eye,
+  GitCompareArrows,
   Hammer,
   History,
   Layers,
@@ -112,9 +113,12 @@ export default async function ModelDetailPage({
     return (
       <div className="mb-8">
         <div className="flex items-center gap-2.5">
-          <ButtonLink href={`/${model.provider}`} variant="ghost" size="icon">
+          <a
+            href={`/${model.provider}`}
+            className="shrink-0 transition-opacity duration-200 hover:opacity-70"
+          >
             <ProviderIcon provider={providerInfo} size={18} />
-          </ButtonLink>
+          </a>
           <h1 className="flex-1 font-medium text-foreground text-lg tracking-tight">
             {model.name}
           </h1>
@@ -233,6 +237,14 @@ export default async function ModelDetailPage({
     <>
       {renderHeader(
         <>
+          <ButtonLink
+            href={`/compare?a=${encodeURIComponent(`${model.provider}/${model.id}`)}`}
+            variant="default"
+            size="icon"
+            title="Compare this model"
+          >
+            <GitCompareArrows size={14} />
+          </ButtonLink>
           {modelChanges.length > 0 && (
             <ButtonLink
               href={`/${provider}/${modelId}/changes`}
@@ -244,32 +256,61 @@ export default async function ModelDetailPage({
             </ButtonLink>
           )}
           <ModelIdCopy
-            ids={[
-              model.id,
-              ...(model.snapshots ?? []),
-              ...(model.alias ? [model.alias] : []),
+            groups={[
+              {
+                label: "Model ID",
+                items: [
+                  { label: model.id, value: model.id },
+                  ...(model.alias
+                    ? [{ label: "Alias", value: model.alias }]
+                    : []),
+                  ...(model.snapshots ?? []).map((s) => ({
+                    label: "Snapshot",
+                    value: s,
+                  })),
+                ],
+              },
+              {
+                label: "API",
+                items: [
+                  {
+                    label: "API endpoint",
+                    value: `/v1/models/${model.provider}/${model.id}`,
+                  },
+                  ...(providerInfo?.api_url
+                    ? [
+                        {
+                          label: "Provider API",
+                          value: providerInfo.api_url,
+                        },
+                      ]
+                    : []),
+                ],
+              },
             ]}
           />
         </>,
       )}
 
-      <div className="mb-8 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-3 lg:grid-cols-6">
-        {model.performance != null && (
-          <RatingCard
-            label="Reasoning"
-            value={model.performance}
-            max={5}
-            inheritedFrom={inh("performance")}
-          />
-        )}
-        {model.speed != null && (
-          <RatingCard
-            label="Speed"
-            value={model.speed}
-            max={5}
-            inheritedFrom={inh("speed")}
-          />
-        )}
+      <div className="mb-8 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-4">
+        <RatingCard
+          label="Intelligence"
+          value={model.performance}
+          max={5}
+          inheritedFrom={inh("performance")}
+        />
+        <RatingCard
+          label="Reasoning"
+          value={model.reasoning}
+          max={5}
+          inheritedFrom={inh("reasoning")}
+        />
+        <RatingCard
+          label="Speed"
+          value={model.speed}
+          max={5}
+          inheritedFrom={inh("speed")}
+        />
         <MetricCard
           label="Context"
           value={
@@ -278,6 +319,14 @@ export default async function ModelDetailPage({
               : "—"
           }
           inheritedFrom={inh("context_window")}
+        />
+        <MetricCard
+          label="Max context"
+          value={
+            model.max_context_window != null
+              ? formatTokens(model.max_context_window)
+              : "—"
+          }
         />
         <MetricCard
           label="Max output"
@@ -411,10 +460,11 @@ export default async function ModelDetailPage({
           <div className="mb-4 text-muted-foreground text-sm">
             Pricing <span className="text-muted-foreground">per 1M tokens</span>
           </div>
-          <div className="mb-8 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-5">
+          <div className="mb-8 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-3 lg:grid-cols-6">
             <PriceCell label="Input" value={model.pricing.input} />
             <PriceCell label="Output" value={model.pricing.output} />
-            <PriceCell label="Cached" value={model.pricing.cached_input} />
+            <PriceCell label="Cache write" value={model.pricing.cache_write} />
+            <PriceCell label="Cache read" value={model.pricing.cached_input} />
             <PriceCell label="Batch in" value={model.pricing.batch_input} />
             <PriceCell label="Batch out" value={model.pricing.batch_output} />
           </div>
@@ -437,7 +487,7 @@ export default async function ModelDetailPage({
       <div className="mb-4 text-muted-foreground text-sm">API</div>
       <ApiEndpoint
         path={`/v1/models/${model.provider}/${model.id}`}
-        tryPath={`https://api.ai-model.dev/v1/models/${model.provider}/${model.id}`}
+        tryPath={`https://api.modelpedia.dev/v1/models/${model.provider}/${model.id}`}
       />
 
       {changesOverlay}

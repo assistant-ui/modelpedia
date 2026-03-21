@@ -40,6 +40,7 @@ export default async function ProviderDetailPage({
     id: m.id,
     name: m.name,
     provider: provider.id,
+    created_by: m.created_by,
     status: m.status,
     context_window: m.context_window,
     capabilities: m.capabilities as Record<string, boolean> | undefined,

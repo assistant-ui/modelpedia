@@ -11,7 +11,8 @@ import {
   useReactTable,
 } from "@tanstack/react-table";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { type MouseEvent, useState } from "react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import {
@@ -34,6 +35,7 @@ interface DataTableProps<TData, TValue> {
   pageSize?: number;
   toolbar?: React.ReactNode;
   globalFilterFn?: (row: TData, query: string) => boolean;
+  getRowHref?: (row: TData) => string;
 }
 
 export function DataTable<TData, TValue>({
@@ -45,7 +47,9 @@ export function DataTable<TData, TValue>({
   pageSize = 10,
   toolbar,
   globalFilterFn,
+  getRowHref,
 }: DataTableProps<TData, TValue>) {
+  const router = useRouter();
   const [sorting, setSorting] = useState<SortingState>([]);
   const [globalFilter, setGlobalFilter] = useState(initialQuery);
 
@@ -115,26 +119,45 @@ export function DataTable<TData, TValue>({
           </TableHeader>
           <TableBody>
             {table.getRowModel().rows.length > 0 ? (
-              table.getRowModel().rows.map((row) => (
-                <TableRow key={row.id}>
-                  {row.getVisibleCells().map((cell) => {
-                    const meta = cell.column.columnDef.meta as
-                      | Record<string, string>
-                      | undefined;
-                    return (
-                      <TableCell
-                        key={cell.id}
-                        className={meta?.className ?? ""}
-                      >
-                        {flexRender(
-                          cell.column.columnDef.cell,
-                          cell.getContext(),
-                        )}
-                      </TableCell>
-                    );
-                  })}
-                </TableRow>
-              ))
+              table.getRowModel().rows.map((row) => {
+                const href = getRowHref?.(row.original);
+                const handleRowClick = href
+                  ? (e: MouseEvent) => {
+                      if (
+                        e.defaultPrevented ||
+                        e.metaKey ||
+                        e.ctrlKey ||
+                        e.shiftKey
+                      )
+                        return;
+                      router.push(href);
+                    }
+                  : undefined;
+                return (
+                  <TableRow
+                    key={row.id}
+                    className={href ? "cursor-pointer" : ""}
+                    onClick={handleRowClick}
+                  >
+                    {row.getVisibleCells().map((cell) => {
+                      const meta = cell.column.columnDef.meta as
+                        | Record<string, string>
+                        | undefined;
+                      return (
+                        <TableCell
+                          key={cell.id}
+                          className={meta?.className ?? ""}
+                        >
+                          {flexRender(
+                            cell.column.columnDef.cell,
+                            cell.getContext(),
+                          )}
+                        </TableCell>
+                      );
+                    })}
+                  </TableRow>
+                );
+              })
             ) : (
               <TableRow>
                 <TableCell

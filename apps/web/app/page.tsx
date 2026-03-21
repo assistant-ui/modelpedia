@@ -1,15 +1,7 @@
 import type { Metadata } from "next";
-import { ModelList } from "@/components/model-list";
 import { ProviderIcon } from "@/components/provider-icon";
 import { ButtonLink } from "@/components/ui/button";
-import { Divider } from "@/components/ui/divider";
-import {
-  allModels,
-  getChangelog,
-  getModel,
-  getProvider,
-  providers,
-} from "@/lib/data";
+import { allModels, providers } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Open catalog of AI models",
@@ -20,13 +12,12 @@ export const metadata: Metadata = {
 export default function HomePage() {
   const withPricing = allModels.filter((m) => m.pricing?.input != null).length;
   const families = new Set(allModels.map((m) => m.family).filter(Boolean));
-  const recentChanges = getChangelog().slice(0, 10);
 
   return (
     <>
       <div className="mb-10">
         <h1 className="text-balance font-medium text-2xl text-foreground tracking-tight">
-          AI Model Registry
+          modelpedia
         </h1>
         <p className="mt-2 text-balance text-muted-foreground leading-relaxed">
           Open catalog of AI models across providers. Compare specs, pricing,
@@ -69,6 +60,9 @@ export default function HomePage() {
           <ButtonLink href="/compare" size="sm">
             Compare models
           </ButtonLink>
+          <ButtonLink href="/changes" size="sm">
+            Recent changes
+          </ButtonLink>
           <ButtonLink href="/docs/api" size="sm">
             API Reference
           </ButtonLink>
@@ -98,41 +92,6 @@ export default function HomePage() {
               </a>
             );
           })}
-      </div>
-
-      <Divider />
-
-      <div className="mb-4 text-muted-foreground text-sm">Recent changes</div>
-      <ModelList
-        models={recentChanges
-          .map((entry) => {
-            const model = getModel(entry.provider, entry.model);
-            const p = getProvider(entry.provider);
-            return {
-              id: model?.id ?? entry.model,
-              name: model?.name ?? entry.model,
-              provider: entry.provider,
-              status: model?.status,
-              context_window: model?.context_window,
-              capabilities: model?.capabilities as
-                | Record<string, boolean>
-                | undefined,
-              pricing: model?.pricing,
-              providerIcon: p?.icon,
-            };
-          })
-          .filter(
-            (m, i, arr) =>
-              arr.findIndex(
-                (x) => x.provider === m.provider && x.id === m.id,
-              ) === i,
-          )}
-        showProvider
-      />
-      <div className="mt-4 flex justify-center">
-        <ButtonLink href="/changes" variant="outline" size="sm">
-          View all changes
-        </ButtonLink>
       </div>
     </>
   );

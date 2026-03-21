@@ -12,6 +12,8 @@ export interface ModelItem {
   id: string;
   name: string;
   provider: string;
+  created_by?: string;
+  family?: string;
   status?: string;
   context_window?: number | null;
   capabilities?: Record<string, boolean>;
@@ -24,7 +26,9 @@ function modelFilterFn(row: ModelItem, query: string): boolean {
   return (
     row.name.toLowerCase().includes(q) ||
     row.id.toLowerCase().includes(q) ||
-    row.provider.toLowerCase().includes(q)
+    row.provider.toLowerCase().includes(q) ||
+    (row.created_by?.toLowerCase().includes(q) ?? false) ||
+    (row.family?.toLowerCase().includes(q) ?? false)
   );
 }
 
@@ -72,9 +76,8 @@ function buildColumns(showProvider?: boolean): ColumnDef<ModelItem>[] {
       cell: ({ row }) => {
         const m = row.original;
         return (
-          <a
-            href={`/${m.provider}/${m.id}`}
-            className={`flex items-center gap-2 transition-colors duration-200 hover:text-accent-foreground ${m.status === "deprecated" ? "opacity-50" : ""}`}
+          <div
+            className={`flex items-center gap-2 ${m.status === "deprecated" ? "opacity-50" : ""}`}
           >
             {showProvider && (
               <ProviderIcon
@@ -90,7 +93,7 @@ function buildColumns(showProvider?: boolean): ColumnDef<ModelItem>[] {
                 {m.id}
               </span>
             </div>
-          </a>
+          </div>
         );
       },
     },
@@ -180,6 +183,7 @@ export function ModelList({
       searchPlaceholder="Search models..."
       initialQuery={initialQuery}
       globalFilterFn={modelFilterFn}
+      getRowHref={(m) => `/${m.provider}/${m.id}`}
       toolbar={
         <div className="flex items-center justify-between gap-4">
           {capLegend()}
