@@ -73,7 +73,7 @@
     "directory": "packages/data"
   },
   "devDependencies": {
-    "tsdown": "^0.12.5",
+    "tsdown": "^0.21.4",
     "typescript": "catalog:"
   }
 }

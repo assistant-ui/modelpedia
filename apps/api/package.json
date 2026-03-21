@@ -10,8 +10,8 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
-    "modelpedia": "workspace:*",
-    "hono": "catalog:"
+    "hono": "catalog:",
+    "modelpedia": "workspace:*"
   },
   "devDependencies": {
     "wrangler": "catalog:"
