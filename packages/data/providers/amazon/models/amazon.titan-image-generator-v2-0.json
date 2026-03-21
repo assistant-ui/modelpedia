@@ -1,0 +1,14 @@
+{
+  "id": "amazon.titan-image-generator-v2:0",
+  "name": "Titan Image Generator G1 v2",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["image"]
+  }
+}

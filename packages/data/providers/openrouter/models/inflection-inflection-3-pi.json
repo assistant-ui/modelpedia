@@ -1,0 +1,18 @@
+{
+  "id": "inflection/inflection-3-pi",
+  "name": "Inflection: Inflection 3 Pi",
+  "created_by": "inflection",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety.",
+  "context_window": 8000,
+  "max_output_tokens": 1024,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  }
+}

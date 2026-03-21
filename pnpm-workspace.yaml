@@ -1,0 +1,30 @@
+packages:
+  - apps/*
+  - packages/*
+
+catalog:
+  # React
+  react: ^19.2.4
+  react-dom: ^19.2.4
+
+  # Next.js
+  next: ^16.2.0
+  react-grab: ^0.1.28
+
+  # TypeScript
+  typescript: ^5.9.3
+
+  # Tailwind CSS
+  tailwindcss: ^4.2.2
+  "@tailwindcss/postcss": ^4.2.2
+
+  # Hono
+  hono: ^4.12.8
+
+  # Cloudflare
+  wrangler: ^4.76.0
+
+  # Types
+  "@types/node": ^25.5.0
+  "@types/react": ^19.2.14
+  "@types/react-dom": ^19.2.3

@@ -1,0 +1,18 @@
+{
+  "id": "deepseek/deepseek-v3.1-terminus",
+  "name": "deepseek-v3.1-terminus",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.27,
+    "output": 1
+  }
+}

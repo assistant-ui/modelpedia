@@ -1,0 +1,21 @@
+{
+  "id": "gemini-embedding-2-preview",
+  "name": "gemini-embedding-2-preview",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "context_window": 8192,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text", "image"]
+  }
+}

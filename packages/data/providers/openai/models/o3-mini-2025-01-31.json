@@ -1,0 +1,18 @@
+{
+  "id": "o3-mini-2025-01-31",
+  "name": "o3-mini-2025-01-31",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "o3",
+  "status": "active",
+  "context_window": 200000,
+  "max_output_tokens": 100000,
+  "alias": "o3-mini",
+  "performance": 4,
+  "speed": 3,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

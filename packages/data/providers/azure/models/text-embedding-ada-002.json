@@ -1,0 +1,16 @@
+{
+  "id": "text-embedding-ada-002",
+  "name": "text-embedding-ada-002",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "knowledge_cutoff": "Sep 2021",
+  "max_output_tokens": 1536,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

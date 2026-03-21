@@ -1,0 +1,15 @@
+{
+  "id": "s/glm-4-7",
+  "name": "Glm 4 7",
+  "created_by": "zhipu",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 202000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.45,
+    "output": 2
+  }
+}

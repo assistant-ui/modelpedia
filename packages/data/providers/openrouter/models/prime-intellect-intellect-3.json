@@ -1,0 +1,23 @@
+{
+  "id": "prime-intellect/intellect-3",
+  "name": "Prime Intellect: INTELLECT-3",
+  "created_by": "prime-intellect",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "INTELLECT-3 is a 106B-parameter Mixture-of-Experts model (12B active) post-trained from GLM-4.5-Air-Base using supervised fine-tuning (SFT) followed by large-scale reinforcement learning (RL).",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 1.1
+  }
+}

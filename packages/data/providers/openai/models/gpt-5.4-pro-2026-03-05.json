@@ -1,0 +1,16 @@
+{
+  "id": "gpt-5.4-pro-2026-03-05",
+  "name": "gpt-5.4-pro-2026-03-05",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-5.4",
+  "status": "active",
+  "alias": "gpt-5.4-pro",
+  "performance": 5,
+  "speed": 1,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

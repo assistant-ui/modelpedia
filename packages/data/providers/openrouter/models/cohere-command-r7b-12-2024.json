@@ -1,0 +1,21 @@
+{
+  "id": "cohere/command-r7b-12-2024",
+  "name": "Cohere: Command R7B (12-2024)",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Command R7B (12-2024) is a small, fast update of the Command R+ model, delivered in December 2024.",
+  "context_window": 128000,
+  "max_output_tokens": 4000,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.038,
+    "output": 0.15
+  }
+}

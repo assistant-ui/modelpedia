@@ -1,0 +1,11 @@
+{
+  "id": "nv-mistralai/mistral-nemo-12b-instruct",
+  "name": "mistral-nemo-12b-instruct",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

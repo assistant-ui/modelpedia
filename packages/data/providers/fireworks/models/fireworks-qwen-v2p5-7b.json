@@ -1,0 +1,16 @@
+{
+  "id": "fireworks/qwen-v2p5-7b",
+  "name": "qwen-v2p5-7b",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

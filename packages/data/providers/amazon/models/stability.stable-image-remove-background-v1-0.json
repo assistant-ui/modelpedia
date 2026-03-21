@@ -1,0 +1,14 @@
+{
+  "id": "stability.stable-image-remove-background-v1:0",
+  "name": "Stable Image Remove Background",
+  "created_by": "stability",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["image"]
+  }
+}

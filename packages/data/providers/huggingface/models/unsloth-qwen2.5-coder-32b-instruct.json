@@ -1,0 +1,10 @@
+{
+  "id": "unsloth/Qwen2.5-Coder-32B-Instruct",
+  "name": "Qwen2.5-Coder-32B-Instruct",
+  "created_by": "unsloth",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

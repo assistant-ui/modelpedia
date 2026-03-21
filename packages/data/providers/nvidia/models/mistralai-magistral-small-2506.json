@@ -1,0 +1,11 @@
+{
+  "id": "mistralai/magistral-small-2506",
+  "name": "magistral-small-2506",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "alias": "mistralai/magistral-small",
+  "capabilities": {
+    "streaming": true
+  }
+}

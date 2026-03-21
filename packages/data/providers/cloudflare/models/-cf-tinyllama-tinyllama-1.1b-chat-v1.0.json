@@ -1,0 +1,10 @@
+{
+  "id": "@cf/tinyllama/tinyllama-1.1b-chat-v1.0",
+  "name": "tinyllama-1.1b-chat-v1.0",
+  "created_by": "tinyllama",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

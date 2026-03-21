@@ -1,0 +1,18 @@
+{
+  "id": "minimax/minimax-m2.7",
+  "name": "minimax-m2.7",
+  "created_by": "minimax",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 204800,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2
+  }
+}

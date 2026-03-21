@@ -1,0 +1,11 @@
+{
+  "id": "qwen/qwq-32b",
+  "name": "qwq-32b",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwq",
+  "capabilities": {
+    "streaming": true
+  }
+}

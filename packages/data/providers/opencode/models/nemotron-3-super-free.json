@@ -1,0 +1,11 @@
+{
+  "id": "nemotron-3-super-free",
+  "name": "Nemotron 3 Super Free",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  }
+}

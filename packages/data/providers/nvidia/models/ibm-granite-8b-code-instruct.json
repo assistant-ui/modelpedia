@@ -1,0 +1,11 @@
+{
+  "id": "ibm/granite-8b-code-instruct",
+  "name": "granite-8b-code-instruct",
+  "created_by": "ibm",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

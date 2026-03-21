@@ -1,0 +1,16 @@
+{
+  "id": "openai/gpt-4o-mini-search-preview",
+  "name": "gpt-4o-mini-search-preview",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4o",
+  "context_window": 128000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  }
+}

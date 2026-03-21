@@ -1,0 +1,29 @@
+{
+  "id": "gpt-4o-realtime-preview",
+  "name": "gpt-4o-realtime-preview",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4o",
+  "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
+  "status": "active",
+  "context_window": 32000,
+  "max_output_tokens": 4096,
+  "model_type": "other",
+  "performance": 3,
+  "speed": 4,
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["text", "audio"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 20,
+    "cached_input": 2.5
+  },
+  "snapshots": [
+    "gpt-4o-realtime-preview-2024-10-01",
+    "gpt-4o-realtime-preview-2024-12-17",
+    "gpt-4o-realtime-preview-2025-06-03"
+  ]
+}

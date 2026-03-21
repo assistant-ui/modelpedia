@@ -1,0 +1,18 @@
+{
+  "id": "mistral/pixtral-12b",
+  "name": "pixtral-12b",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "pixtral",
+  "context_window": 128000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.15
+  }
+}

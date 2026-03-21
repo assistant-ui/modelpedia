@@ -1,0 +1,16 @@
+{
+  "id": "alibaba/qwen3-next-80b-a3b-thinking",
+  "name": "qwen3-next-80b-a3b-thinking",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 1.2
+  }
+}

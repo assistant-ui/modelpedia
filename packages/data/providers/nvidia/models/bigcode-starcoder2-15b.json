@@ -1,0 +1,10 @@
+{
+  "id": "bigcode/starcoder2-15b",
+  "name": "starcoder2-15b",
+  "created_by": "bigcode",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "gpt-4o-mini-tts-2025-12-15",
+  "name": "gpt-4o-mini-tts-2025-12-15",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-4o",
+  "status": "active",
+  "alias": "gpt-4o-mini-tts",
+  "performance": 4,
+  "speed": 4,
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  }
+}

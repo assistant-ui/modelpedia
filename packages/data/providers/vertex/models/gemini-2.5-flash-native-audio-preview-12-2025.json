@@ -1,0 +1,24 @@
+{
+  "id": "gemini-2.5-flash-native-audio-preview-12-2025",
+  "name": "gemini-2.5-flash-native-audio-preview-12-2025",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemini-2.5",
+  "status": "active",
+  "knowledge_cutoff": "January 2025",
+  "context_window": 131072,
+  "max_output_tokens": 8192,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text", "image"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "inception/mercury-coder-small",
+  "name": "mercury-coder-small",
+  "created_by": "inception",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 32000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 1
+  }
+}

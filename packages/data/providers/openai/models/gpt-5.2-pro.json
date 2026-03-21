@@ -1,0 +1,30 @@
+{
+  "id": "gpt-5.2-pro",
+  "name": "gpt-5.2-pro",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5.2",
+  "status": "active",
+  "performance": 5,
+  "speed": 1,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 21,
+    "output": 168,
+    "batch_input": 10.5,
+    "batch_output": 84
+  },
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "description": "GPT-5.2 Pro is OpenAI’s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "snapshots": ["gpt-5.2-pro-2025-12-11"]
+}

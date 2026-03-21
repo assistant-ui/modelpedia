@@ -1,0 +1,23 @@
+{
+  "id": "upstage/solar-pro-3",
+  "name": "Upstage: Solar Pro 3",
+  "created_by": "upstage",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model.",
+  "context_window": 128000,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6,
+    "cached_input": 0.015
+  }
+}

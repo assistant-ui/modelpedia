@@ -1,0 +1,23 @@
+{
+  "id": "openai/gpt-3.5-turbo-16k",
+  "name": "OpenAI: GPT-3.5 Turbo 16k",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-3.5",
+  "description": "This model offers four times the context length of gpt-3.5-turbo, allowing it to support approximately 20 pages of text in a single request at a higher cost.",
+  "context_window": 16385,
+  "max_output_tokens": 4096,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 3,
+    "output": 4
+  }
+}

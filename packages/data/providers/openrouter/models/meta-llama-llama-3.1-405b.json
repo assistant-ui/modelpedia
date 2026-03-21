@@ -1,0 +1,19 @@
+{
+  "id": "meta-llama/llama-3.1-405b",
+  "name": "Meta: Llama 3.1 405B (base)",
+  "created_by": "meta-llama",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-3.1",
+  "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors.",
+  "context_window": 32768,
+  "max_output_tokens": 32768,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 4,
+    "output": 4
+  }
+}

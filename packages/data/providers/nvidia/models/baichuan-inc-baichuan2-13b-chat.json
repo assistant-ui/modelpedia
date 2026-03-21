@@ -1,0 +1,11 @@
+{
+  "id": "baichuan-inc/baichuan2-13b-chat",
+  "name": "baichuan2-13b-chat",
+  "created_by": "baichuan",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

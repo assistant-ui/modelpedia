@@ -1,0 +1,20 @@
+{
+  "id": "ministral-8b-2410",
+  "name": "ministral-8b-2410",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "ministral",
+  "status": "deprecated",
+  "deprecation_date": "December 2, 2025",
+  "context_window": 128000,
+  "alias": "ministral-8b",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

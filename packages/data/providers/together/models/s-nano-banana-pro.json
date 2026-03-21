@@ -1,0 +1,15 @@
+{
+  "id": "s/nano-banana-pro",
+  "name": "Nano Banana Pro",
+  "created_by": "unknown",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 32000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.134
+  }
+}

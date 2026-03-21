@@ -1,0 +1,11 @@
+{
+  "id": "meta/llama-guard-4-12b",
+  "name": "llama-guard-4-12b",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-guard",
+  "capabilities": {
+    "streaming": true
+  }
+}

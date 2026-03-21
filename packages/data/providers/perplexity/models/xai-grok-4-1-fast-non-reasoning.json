@@ -1,0 +1,16 @@
+{
+  "id": "xai/grok-4-1-fast-non-reasoning",
+  "name": "xai/grok-4-1-fast-non-reasoning",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "grok-4",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.5,
+    "cached_input": 0.05
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "gemini-2.5-flash",
+  "name": "gemini-2.5-flash",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemini-2.5",
+  "status": "active",
+  "deprecation_date": "June 17, 2026",
+  "knowledge_cutoff": "January 2025",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text", "image"]
+  }
+}

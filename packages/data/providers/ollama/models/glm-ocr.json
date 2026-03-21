@@ -1,0 +1,10 @@
+{
+  "id": "glm-ocr",
+  "name": "glm-ocr",
+  "created_by": "zhipu",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

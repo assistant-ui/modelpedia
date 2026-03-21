@@ -1,0 +1,10 @@
+{
+  "id": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+  "name": "DeepSeek-R1-0528-Qwen3-8B",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

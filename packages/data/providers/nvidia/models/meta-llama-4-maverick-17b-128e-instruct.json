@@ -1,0 +1,12 @@
+{
+  "id": "meta/llama-4-maverick-17b-128e-instruct",
+  "name": "llama-4-maverick-17b-128e-instruct",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-4",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

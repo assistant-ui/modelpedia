@@ -1,0 +1,18 @@
+{
+  "id": "xai/grok-2-vision",
+  "name": "grok-2-vision",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "grok-2",
+  "context_window": 32800,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 10
+  }
+}

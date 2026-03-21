@@ -1,0 +1,12 @@
+{
+  "id": "gotocompany/gemma-2-9b-cpt-sahabatai-instruct",
+  "name": "gemma-2-9b-cpt-sahabatai-instruct",
+  "created_by": "gotocompany",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemma-2",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

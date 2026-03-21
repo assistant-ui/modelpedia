@@ -1,0 +1,11 @@
+{
+  "id": "mimo-v2-omni-free",
+  "name": "MiMo V2 Omni Free",
+  "created_by": "xiaomi",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  }
+}

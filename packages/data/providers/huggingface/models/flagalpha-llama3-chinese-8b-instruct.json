@@ -1,0 +1,10 @@
+{
+  "id": "FlagAlpha/Llama3-Chinese-8B-Instruct",
+  "name": "Llama3-Chinese-8B-Instruct",
+  "created_by": "flagalpha",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "kimi-k2.5",
+  "name": "Kimi K2.5",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "kimi",
+  "description": "Kimi's most intelligent model with native multimodal support, thinking/non-thinking modes.",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  }
+}

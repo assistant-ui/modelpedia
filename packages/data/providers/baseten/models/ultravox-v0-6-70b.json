@@ -1,0 +1,10 @@
+{
+  "id": "ultravox-v0-6-70b",
+  "name": "ultravox-v0-6-70b",
+  "created_by": "unknown",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

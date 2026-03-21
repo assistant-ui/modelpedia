@@ -1,0 +1,11 @@
+{
+  "id": "microsoft/phi-4-mini-flash-reasoning",
+  "name": "phi-4-mini-flash-reasoning",
+  "created_by": "microsoft",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true
+  }
+}

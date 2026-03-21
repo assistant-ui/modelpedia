@@ -1,0 +1,17 @@
+{
+  "id": "minimax-m2.7-highspeed",
+  "name": "MiniMax-M2.7-highspeed",
+  "created_by": "minimax",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "minimax",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 2.4,
+    "cached_input": 0.06
+  }
+}

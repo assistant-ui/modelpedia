@@ -1,0 +1,18 @@
+{
+  "id": "mistral-moderation",
+  "name": "mistral-moderation",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "context_window": 8000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "snapshots": ["mistral-moderation-2603", "mistral-moderation-2411"]
+}

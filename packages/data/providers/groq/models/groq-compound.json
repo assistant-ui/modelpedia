@@ -1,0 +1,21 @@
+{
+  "id": "groq/compound",
+  "name": "Compound",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "compound",
+  "status": "active",
+  "context_window": 131072,
+  "max_output_tokens": 8192,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

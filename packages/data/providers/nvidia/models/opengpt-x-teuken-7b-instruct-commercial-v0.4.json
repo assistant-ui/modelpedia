@@ -1,0 +1,11 @@
+{
+  "id": "opengpt-x/teuken-7b-instruct-commercial-v0.4",
+  "name": "teuken-7b-instruct-commercial-v0.4",
+  "created_by": "opengpt-x",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "qwen/qwen2.5-7b-instruct",
+  "name": "qwen2.5-7b-instruct",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen2.5",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

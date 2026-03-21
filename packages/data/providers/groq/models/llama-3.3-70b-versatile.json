@@ -1,0 +1,25 @@
+{
+  "id": "llama-3.3-70b-versatile",
+  "name": "Llama 3.3 70B",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-3.3",
+  "status": "active",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.59,
+    "output": 0.79
+  }
+}

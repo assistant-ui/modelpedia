@@ -1,0 +1,20 @@
+{
+  "id": "z-ai/glm-4-32b",
+  "name": "Z.ai: GLM 4 32B ",
+  "created_by": "z-ai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "GLM 4 32B is a cost-effective foundation language model.",
+  "context_window": 128000,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.1
+  }
+}

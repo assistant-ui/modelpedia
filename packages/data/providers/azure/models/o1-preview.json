@@ -1,0 +1,16 @@
+{
+  "id": "o1-preview",
+  "name": "o1-preview",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "o1",
+  "knowledge_cutoff": "October 2023",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

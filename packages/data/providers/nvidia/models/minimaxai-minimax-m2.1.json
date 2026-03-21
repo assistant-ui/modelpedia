@@ -1,0 +1,10 @@
+{
+  "id": "minimaxai/minimax-m2.1",
+  "name": "minimax-m2.1",
+  "created_by": "minimax",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

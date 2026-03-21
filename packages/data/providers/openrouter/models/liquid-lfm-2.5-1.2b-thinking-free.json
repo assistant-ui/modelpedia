@@ -1,0 +1,16 @@
+{
+  "id": "liquid/lfm-2.5-1.2b-thinking:free",
+  "name": "LiquidAI: LFM2.5-1.2B-Thinking (free)",
+  "created_by": "liquid",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "LFM2.5-1.2B-Thinking is a lightweight reasoning-focused model optimized for agentic tasks, data extraction, and RAG—while still running comfortably on edge devices.",
+  "context_window": 32768,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "reasoning": true
+  }
+}

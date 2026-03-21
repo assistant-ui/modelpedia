@@ -1,0 +1,10 @@
+{
+  "id": "baai/bge-m3",
+  "name": "bge-m3",
+  "created_by": "baai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

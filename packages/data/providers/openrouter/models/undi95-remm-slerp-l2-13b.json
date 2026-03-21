@@ -1,0 +1,21 @@
+{
+  "id": "undi95/remm-slerp-l2-13b",
+  "name": "ReMM SLERP 13B",
+  "created_by": "undi95",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "A recreation trial of the original MythoMax-L2-B13 but with updated models.",
+  "context_window": 6144,
+  "max_output_tokens": 4096,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.45,
+    "output": 0.65
+  }
+}

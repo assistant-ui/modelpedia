@@ -1,0 +1,11 @@
+{
+  "id": "big-pickle",
+  "name": "Big Pickle",
+  "created_by": "opencode",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  }
+}

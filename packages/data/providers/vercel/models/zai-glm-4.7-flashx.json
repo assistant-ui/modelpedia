@@ -1,0 +1,17 @@
+{
+  "id": "zai/glm-4.7-flashx",
+  "name": "glm-4.7-flashx",
+  "created_by": "zhipu",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 200000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0.4
+  }
+}

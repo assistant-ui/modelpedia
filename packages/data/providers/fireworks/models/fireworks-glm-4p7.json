@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/glm-4p7",
+  "name": "glm-4p7",
+  "created_by": "zhipu",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 202800,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 2.2
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mistral-7b-03",
+  "name": "mistral-7b-03",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "context_window": 32000,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

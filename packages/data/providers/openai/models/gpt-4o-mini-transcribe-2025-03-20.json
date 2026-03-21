@@ -1,0 +1,18 @@
+{
+  "id": "gpt-4o-mini-transcribe-2025-03-20",
+  "name": "gpt-4o-mini-transcribe-2025-03-20",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-4o",
+  "status": "active",
+  "context_window": 16000,
+  "max_output_tokens": 2000,
+  "alias": "gpt-4o-mini-transcribe",
+  "performance": 3,
+  "speed": 4,
+  "modalities": {
+    "input": ["audio", "text"],
+    "output": ["text"]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "aion-labs/aion-2.0",
+  "name": "AionLabs: Aion-2.0",
+  "created_by": "aion-labs",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Aion-2.0 is a variant of DeepSeek V3.2 optimized for immersive roleplaying and storytelling.",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.8,
+    "output": 1.6,
+    "cached_input": 0.2
+  }
+}

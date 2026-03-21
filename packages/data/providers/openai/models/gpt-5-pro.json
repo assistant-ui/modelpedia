@@ -1,0 +1,32 @@
+{
+  "id": "gpt-5-pro",
+  "name": "gpt-5-pro",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5",
+  "status": "active",
+  "performance": 5,
+  "speed": 1,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 15,
+    "output": 120,
+    "batch_input": 7.5,
+    "batch_output": 60
+  },
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "description": "GPT-5 Pro is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience.",
+  "snapshots": ["gpt-5-pro-2025-10-06"]
+}

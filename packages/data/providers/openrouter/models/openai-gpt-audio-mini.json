@@ -1,0 +1,22 @@
+{
+  "id": "openai/gpt-audio-mini",
+  "name": "OpenAI: GPT Audio Mini",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-audio",
+  "description": "A cost-efficient version of GPT Audio.",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["text", "audio"]
+  },
+  "capabilities": {
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 2.4
+  }
+}

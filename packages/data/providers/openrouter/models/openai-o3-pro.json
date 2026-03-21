@@ -1,0 +1,24 @@
+{
+  "id": "openai/o3-pro",
+  "name": "OpenAI: o3 Pro",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "o3",
+  "description": "The o-series of models are trained with reinforcement learning to think before they answer and perform complex reasoning.",
+  "context_window": 200000,
+  "max_output_tokens": 100000,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 20,
+    "output": 80
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "qwen3-max",
+  "name": "qwen3-max",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "context_window": 262144,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.359,
+    "output": 1.434
+  },
+  "provider": "qwen"
+}

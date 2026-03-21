@@ -1,0 +1,19 @@
+{
+  "id": "mistral-large-2407",
+  "name": "mistral-large-2407",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-large",
+  "status": "deprecated",
+  "deprecation_date": "November 30, 2024",
+  "context_window": 128000,
+  "alias": "mistral-large",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mistral/pixtral-large",
+  "name": "pixtral-large",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "pixtral",
+  "context_window": 128000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6
+  }
+}

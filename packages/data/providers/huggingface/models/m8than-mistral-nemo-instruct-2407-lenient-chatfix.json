@@ -1,0 +1,10 @@
+{
+  "id": "m8than/Mistral-Nemo-Instruct-2407-lenient-chatfix",
+  "name": "Mistral-Nemo-Instruct-2407-lenient-chatfix",
+  "created_by": "m8than",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

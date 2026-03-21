@@ -1,0 +1,10 @@
+{
+  "id": "huihui-ai/Qwen2.5-72B-Instruct-abliterated",
+  "name": "Qwen2.5-72B-Instruct-abliterated",
+  "created_by": "huihui-ai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

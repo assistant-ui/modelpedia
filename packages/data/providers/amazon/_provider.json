@@ -1,0 +1,9 @@
+{
+  "id": "amazon",
+  "name": "Amazon Bedrock",
+  "region": "US",
+  "url": "https://aws.amazon.com/bedrock",
+  "api_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
+  "docs_url": "https://docs.aws.amazon.com/bedrock",
+  "pricing_url": "https://aws.amazon.com/bedrock/pricing"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gpt-3.5-turbo-0613",
+  "name": "gpt-3.5-turbo-0613",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-3.5",
+  "status": "active",
+  "context_window": 16385,
+  "max_output_tokens": 4096,
+  "performance": 1,
+  "speed": 2,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "description": "GPT-3.5 Turbo is OpenAI's fastest model.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  }
+}

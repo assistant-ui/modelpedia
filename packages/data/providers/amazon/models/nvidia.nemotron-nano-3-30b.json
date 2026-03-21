@@ -1,0 +1,14 @@
+{
+  "id": "nvidia.nemotron-nano-3-30b",
+  "name": "Nemotron Nano 3 30B",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

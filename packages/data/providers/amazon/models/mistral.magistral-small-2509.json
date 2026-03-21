@@ -1,0 +1,16 @@
+{
+  "id": "mistral.magistral-small-2509",
+  "name": "Magistral Small 2509",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "alias": "mistral.magistral-small",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["text"]
+  }
+}

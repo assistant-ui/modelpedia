@@ -1,0 +1,19 @@
+{
+  "id": "c4ai-aya-vision-32b",
+  "name": "c4ai-aya-vision-32b",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "description": "Aya Vision is a state-of-the-art multimodal model excelling at a variety of critical benchmarks for language, text, and image capabilities. Serves 23 languages. This 32 billion parameter variant is focused on state-of-art multilingual performance.",
+  "status": "active",
+  "context_window": 16000,
+  "max_output_tokens": 4000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

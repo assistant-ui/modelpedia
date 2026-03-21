@@ -1,0 +1,21 @@
+{
+  "id": "mancer/weaver",
+  "name": "Mancer: Weaver (alpha)",
+  "created_by": "mancer",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "An attempt to recreate Claude-style verbosity, but don't expect the same level of coherence or memory.",
+  "context_window": 8000,
+  "max_output_tokens": 2000,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.75,
+    "output": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/nemotron-nano-v2-12b-vl",
+  "name": "nemotron-nano-v2-12b-vl",
+  "created_by": "fireworks",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

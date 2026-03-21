@@ -1,0 +1,16 @@
+{
+  "id": "qwen.qwen3-vl-235b-a22b",
+  "name": "Qwen3 VL 235B A22B",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["text"]
+  }
+}

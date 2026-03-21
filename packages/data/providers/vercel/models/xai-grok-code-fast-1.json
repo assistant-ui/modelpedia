@@ -1,0 +1,18 @@
+{
+  "id": "xai/grok-code-fast-1",
+  "name": "grok-code-fast-1",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "grok-code",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 1.5
+  }
+}

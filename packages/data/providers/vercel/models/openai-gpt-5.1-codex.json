@@ -1,0 +1,19 @@
+{
+  "id": "openai/gpt-5.1-codex",
+  "name": "gpt-5.1-codex",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5.1",
+  "context_window": 400000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 10
+  }
+}

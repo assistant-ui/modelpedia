@@ -1,0 +1,11 @@
+{
+  "id": "zyphra/zamba2-7b-instruct",
+  "name": "zamba2-7b-instruct",
+  "created_by": "zyphra",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

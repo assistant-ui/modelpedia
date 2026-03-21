@@ -1,0 +1,23 @@
+{
+  "id": "deepseek/deepseek-r1",
+  "name": "DeepSeek: R1",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek-r1",
+  "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens.",
+  "context_window": 64000,
+  "max_output_tokens": 16000,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.7,
+    "output": 2.5
+  }
+}

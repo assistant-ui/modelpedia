@@ -1,0 +1,11 @@
+{
+  "id": "google/gemini-2.5-flash",
+  "name": "google/gemini-2.5-flash",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gemini-2.5",
+  "capabilities": {
+    "streaming": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "fireworks/deepseek-v3",
+  "name": "deepseek-v3",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "claude-opus-4-5-20251101",
+  "name": "Claude Opus 4.5",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "claude-opus",
+  "status": "active",
+  "knowledge_cutoff": "May 2025",
+  "context_window": 200000,
+  "max_output_tokens": 64000,
+  "alias": "claude-opus-4-5",
+  "speed": 3,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 25,
+    "cached_input": 0.5,
+    "batch_input": 2.5,
+    "batch_output": 12.5
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mistral-small",
+  "name": "mistral-small",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-small",
+  "status": "deprecated",
+  "context_window": 32000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.3
+  },
+  "snapshots": [
+    "mistral-small-2603",
+    "mistral-small-2506",
+    "mistral-small-2503",
+    "mistral-small-2501",
+    "mistral-small-2409",
+    "mistral-small-2402"
+  ],
+  "deprecation_date": "November 30, 2024"
+}

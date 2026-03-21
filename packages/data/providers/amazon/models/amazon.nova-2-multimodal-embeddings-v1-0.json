@@ -1,0 +1,14 @@
+{
+  "id": "amazon.nova-2-multimodal-embeddings-v1:0",
+  "name": "Amazon Nova Multimodal Embeddings",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": []
+  }
+}

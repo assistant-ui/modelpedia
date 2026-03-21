@@ -1,0 +1,17 @@
+{
+  "id": "perplexity/sonar",
+  "name": "Perplexity: Sonar",
+  "created_by": "perplexity",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Sonar is lightweight, affordable, fast, and simple to use — now featuring citations and the ability to customize sources.",
+  "context_window": 127072,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

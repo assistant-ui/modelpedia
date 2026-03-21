@@ -1,0 +1,22 @@
+{
+  "id": "mistralai/mistral-nemo",
+  "name": "Mistral: Mistral Nemo",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.",
+  "context_window": 131072,
+  "max_output_tokens": 16384,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.02,
+    "output": 0.04
+  }
+}

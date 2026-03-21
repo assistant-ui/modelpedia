@@ -1,0 +1,21 @@
+{
+  "id": "amazon/nova-pro-v1",
+  "name": "Amazon: Nova Pro 1.0",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Amazon Nova Pro 1.0 is a capable multimodal model from Amazon focused on providing a combination of accuracy, speed, and cost for a wide range of tasks.",
+  "context_window": 300000,
+  "max_output_tokens": 5120,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.8,
+    "output": 3.2
+  }
+}

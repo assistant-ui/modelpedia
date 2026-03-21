@@ -1,0 +1,25 @@
+{
+  "id": "openai/gpt-oss-safeguard-20b",
+  "name": "OpenAI: gpt-oss-safeguard-20b",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-oss",
+  "description": "gpt-oss-safeguard-20b is a safety reasoning model from OpenAI built upon gpt-oss-20b.",
+  "context_window": 131072,
+  "max_output_tokens": 65536,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.075,
+    "output": 0.3,
+    "cached_input": 0.037
+  }
+}

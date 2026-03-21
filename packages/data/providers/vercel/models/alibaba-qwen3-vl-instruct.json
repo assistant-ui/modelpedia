@@ -1,0 +1,17 @@
+{
+  "id": "alibaba/qwen3-vl-instruct",
+  "name": "qwen3-vl-instruct",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "context_window": 262100,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.88
+  }
+}

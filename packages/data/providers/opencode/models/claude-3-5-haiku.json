@@ -1,0 +1,15 @@
+{
+  "id": "claude-3-5-haiku",
+  "name": "Claude Haiku 3.5",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "claude-haiku",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.8
+  }
+}

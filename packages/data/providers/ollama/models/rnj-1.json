@@ -1,0 +1,10 @@
+{
+  "id": "rnj-1",
+  "name": "rnj-1",
+  "created_by": "essentialai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

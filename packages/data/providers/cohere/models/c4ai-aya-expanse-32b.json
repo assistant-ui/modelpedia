@@ -1,0 +1,18 @@
+{
+  "id": "c4ai-aya-expanse-32b",
+  "name": "c4ai-aya-expanse-32b",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "description": "Aya Expanse is a highly performant 32B multilingual model, designed to rival monolingual performance through innovations in instruction tuning with data arbitrage, preference training, and model merging. Serves 23 languages.",
+  "status": "active",
+  "context_window": 128000,
+  "max_output_tokens": 4000,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/code-qwen-1p5-7b",
+  "name": "code-qwen-1p5-7b",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 65500,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

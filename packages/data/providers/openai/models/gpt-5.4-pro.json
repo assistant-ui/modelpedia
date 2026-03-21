@@ -1,0 +1,30 @@
+{
+  "id": "gpt-5.4-pro",
+  "name": "gpt-5.4-pro",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5.4",
+  "status": "active",
+  "performance": 5,
+  "speed": 1,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 30,
+    "output": 180,
+    "batch_input": 15,
+    "batch_output": 90
+  },
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "description": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "snapshots": ["gpt-5.4-pro-2026-03-05"]
+}

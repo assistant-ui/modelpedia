@@ -1,0 +1,10 @@
+{
+  "id": "writer/palmyra-med-70b-32k",
+  "name": "palmyra-med-70b-32k",
+  "created_by": "writer",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

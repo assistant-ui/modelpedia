@@ -1,0 +1,32 @@
+{
+  "id": "gpt-5",
+  "name": "gpt-5",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5",
+  "description": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.",
+  "status": "active",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "model_type": "reasoning",
+  "performance": 4,
+  "speed": 3,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 10,
+    "cached_input": 0.125,
+    "batch_input": 0.625,
+    "batch_output": 5
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "snapshots": ["gpt-5-2025-08-07"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/whisper-v3",
+  "name": "whisper-v3",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "whisper",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.0015,
+    "output": 1
+  }
+}

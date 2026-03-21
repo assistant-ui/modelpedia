@@ -1,0 +1,11 @@
+{
+  "id": "swiss-ai/Apertus-8B-Instruct-2509",
+  "name": "Apertus-8B-Instruct-2509",
+  "created_by": "swiss-ai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "alias": "swiss-ai/Apertus-8B-Instruct",
+  "capabilities": {
+    "streaming": true
+  }
+}

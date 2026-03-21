@@ -1,0 +1,16 @@
+{
+  "id": "s/gemma-3-27b",
+  "name": "Gemma 3 27b",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemma-3",
+  "context_window": 64000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.15
+  }
+}

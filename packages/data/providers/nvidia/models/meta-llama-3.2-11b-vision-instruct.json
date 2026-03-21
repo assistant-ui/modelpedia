@@ -1,0 +1,13 @@
+{
+  "id": "meta/llama-3.2-11b-vision-instruct",
+  "name": "llama-3.2-11b-vision-instruct",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-3.2",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true
+  }
+}

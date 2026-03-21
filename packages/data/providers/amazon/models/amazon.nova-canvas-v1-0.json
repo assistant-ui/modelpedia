@@ -1,0 +1,14 @@
+{
+  "id": "amazon.nova-canvas-v1:0",
+  "name": "Nova Canvas",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["image"]
+  }
+}

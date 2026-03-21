@@ -1,0 +1,10 @@
+{
+  "id": "@hf/nousresearch/hermes-2-pro-mistral-7b",
+  "name": "hermes-2-pro-mistral-7b",
+  "created_by": "nousresearch",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

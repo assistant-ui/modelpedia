@@ -1,0 +1,15 @@
+{
+  "id": "cogito/cogito-671b-v2-p1",
+  "name": "cogito-671b-v2-p1",
+  "created_by": "cogito",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 163800,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.2,
+    "output": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "anthracite-org/magnum-v4-72b",
+  "name": "Magnum v4 72B",
+  "created_by": "anthracite-org",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet(https://openrouter.ai/anthropic/claude-3.5-sonnet) and Opus(https://openrouter.ai/anthropic/claude-3-opus).",
+  "context_window": 16384,
+  "max_output_tokens": 2048,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 3,
+    "output": 5
+  }
+}

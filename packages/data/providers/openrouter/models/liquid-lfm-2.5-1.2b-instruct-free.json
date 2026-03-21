@@ -1,0 +1,13 @@
+{
+  "id": "liquid/lfm-2.5-1.2b-instruct:free",
+  "name": "LiquidAI: LFM2.5-1.2B-Instruct (free)",
+  "created_by": "liquid",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "LFM2.5-1.2B-Instruct is a compact, high-performance instruction-tuned model built for fast on-device AI.",
+  "context_window": 32768,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

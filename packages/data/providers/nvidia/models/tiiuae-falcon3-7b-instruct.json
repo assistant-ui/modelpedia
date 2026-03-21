@@ -1,0 +1,11 @@
+{
+  "id": "tiiuae/falcon3-7b-instruct",
+  "name": "falcon3-7b-instruct",
+  "created_by": "tii",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

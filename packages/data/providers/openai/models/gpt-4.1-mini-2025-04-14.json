@@ -1,0 +1,18 @@
+{
+  "id": "gpt-4.1-mini-2025-04-14",
+  "name": "gpt-4.1-mini-2025-04-14",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-4.1",
+  "status": "active",
+  "context_window": 1047576,
+  "max_output_tokens": 32768,
+  "alias": "gpt-4.1-mini",
+  "performance": 3,
+  "speed": 4,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

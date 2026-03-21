@@ -1,0 +1,11 @@
+{
+  "id": "@cf/meta/llama-3.1-8b-instruct-awq",
+  "name": "llama-3.1-8b-instruct-awq",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-3.1",
+  "capabilities": {
+    "streaming": true
+  }
+}

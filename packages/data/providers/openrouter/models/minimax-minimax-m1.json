@@ -1,0 +1,22 @@
+{
+  "id": "minimax/minimax-m1",
+  "name": "MiniMax: MiniMax M1",
+  "created_by": "minimax",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference.",
+  "context_window": 1000000,
+  "max_output_tokens": 40000,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.4,
+    "output": 2.2
+  }
+}

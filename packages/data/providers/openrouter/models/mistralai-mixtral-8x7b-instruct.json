@@ -1,0 +1,23 @@
+{
+  "id": "mistralai/mixtral-8x7b-instruct",
+  "name": "Mistral: Mixtral 8x7B Instruct",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mixtral",
+  "description": "Mixtral 8x7B Instruct is a pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use.",
+  "context_window": 32768,
+  "max_output_tokens": 16384,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.54,
+    "output": 0.54
+  }
+}

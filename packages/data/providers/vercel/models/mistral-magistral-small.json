@@ -1,0 +1,17 @@
+{
+  "id": "mistral/magistral-small",
+  "name": "magistral-small",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 128000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 1.5
+  }
+}

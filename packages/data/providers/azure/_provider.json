@@ -1,0 +1,9 @@
+{
+  "id": "azure",
+  "name": "Azure AI Foundry",
+  "region": "US",
+  "url": "https://ai.azure.com",
+  "api_url": "https://models.inference.ai.azure.com",
+  "docs_url": "https://learn.microsoft.com/azure/ai-services/openai/concepts/models",
+  "pricing_url": "https://azure.microsoft.com/pricing/details/cognitive-services/openai-service"
+}

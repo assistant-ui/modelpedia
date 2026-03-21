@@ -1,0 +1,23 @@
+{
+  "id": "anthropic/claude-3.5-sonnet",
+  "name": "Anthropic: Claude 3.5 Sonnet",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "claude-sonnet",
+  "description": "New Claude 3.5 Sonnet delivers better-than-Opus capabilities, faster-than-Sonnet speeds, at the same Sonnet prices.",
+  "context_window": 200000,
+  "max_output_tokens": 8192,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 6,
+    "output": 30,
+    "cached_input": 0.6
+  }
+}

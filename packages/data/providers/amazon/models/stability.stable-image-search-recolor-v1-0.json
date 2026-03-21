@@ -1,0 +1,14 @@
+{
+  "id": "stability.stable-image-search-recolor-v1:0",
+  "name": "Stable Image Search and Recolor",
+  "created_by": "stability",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["image"]
+  }
+}

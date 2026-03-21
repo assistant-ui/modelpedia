@@ -1,0 +1,18 @@
+{
+  "id": "minimax/minimax-01",
+  "name": "MiniMax: MiniMax-01",
+  "created_by": "minimax",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "MiniMax-01 is a combines MiniMax-Text-01 for text generation and MiniMax-VL-01 for image understanding.",
+  "context_window": 1000192,
+  "max_output_tokens": 1000192,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 1.1
+  }
+}

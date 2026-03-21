@@ -1,0 +1,10 @@
+{
+  "id": "SakanaAI/TinySwallow-1.5B-Instruct",
+  "name": "TinySwallow-1.5B-Instruct",
+  "created_by": "sakanaai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

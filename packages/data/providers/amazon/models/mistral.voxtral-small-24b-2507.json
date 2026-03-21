@@ -1,0 +1,15 @@
+{
+  "id": "mistral.voxtral-small-24b-2507",
+  "name": "Voxtral Small 24B 2507",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "alias": "mistral.voxtral-small-24b",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["text"]
+  }
+}

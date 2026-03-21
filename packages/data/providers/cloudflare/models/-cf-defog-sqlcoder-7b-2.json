@@ -1,0 +1,10 @@
+{
+  "id": "@cf/defog/sqlcoder-7b-2",
+  "name": "sqlcoder-7b-2",
+  "created_by": "defog",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

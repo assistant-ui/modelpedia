@@ -1,0 +1,14 @@
+{
+  "id": "twelvelabs.pegasus-1-2-v1:0",
+  "name": "Pegasus v1.2",
+  "created_by": "twelvelabs",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["text"]
+  }
+}

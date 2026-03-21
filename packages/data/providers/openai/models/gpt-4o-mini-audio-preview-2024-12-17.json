@@ -1,0 +1,18 @@
+{
+  "id": "gpt-4o-mini-audio-preview-2024-12-17",
+  "name": "gpt-4o-mini-audio-preview-2024-12-17",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-4o",
+  "status": "active",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "alias": "gpt-4o-mini-audio-preview",
+  "performance": 2,
+  "speed": 4,
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["text", "audio"]
+  }
+}

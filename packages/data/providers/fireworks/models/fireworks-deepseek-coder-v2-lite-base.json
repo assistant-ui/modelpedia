@@ -1,0 +1,16 @@
+{
+  "id": "fireworks/deepseek-coder-v2-lite-base",
+  "name": "deepseek-coder-v2-lite-base",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek",
+  "context_window": 163800,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "s/qwen3-5-397b-a17b",
+  "name": "Qwen3 5 397b A17b",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 3.6
+  }
+}

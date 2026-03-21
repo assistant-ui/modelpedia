@@ -1,0 +1,25 @@
+{
+  "id": "anthropic/claude-opus-4.6",
+  "name": "Anthropic: Claude Opus 4.6",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "claude-opus",
+  "description": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks.",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 5,
+    "output": 25,
+    "cached_input": 0.5
+  }
+}

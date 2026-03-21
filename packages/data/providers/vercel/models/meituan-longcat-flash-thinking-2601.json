@@ -1,0 +1,17 @@
+{
+  "id": "meituan/longcat-flash-thinking-2601",
+  "name": "longcat-flash-thinking-2601",
+  "created_by": "meituan",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 32800,
+  "alias": "meituan/longcat-flash-thinking",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "grok-4.20-multi-agent-0309",
+  "name": "grok-4.20-multi-agent-0309",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "release_date": "2026-03-09",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "family": "grok-4.20",
+  "context_window": 2000000,
+  "reasoning_tokens": true,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6,
+    "cached_input": 0.2
+  }
+}

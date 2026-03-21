@@ -1,0 +1,21 @@
+{
+  "id": "allenai/olmo-3.1-32b-instruct",
+  "name": "AllenAI: Olmo 3.1 32B Instruct",
+  "created_by": "allenai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Olmo 3.1 32B Instruct is a large-scale, 32-billion-parameter instruction-tuned language model engineered for high-performance conversational AI, multi-turn dialogue, and practical instruction following.",
+  "context_window": 65536,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.6
+  }
+}

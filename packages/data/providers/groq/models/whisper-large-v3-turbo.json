@@ -1,0 +1,14 @@
+{
+  "id": "whisper-large-v3-turbo",
+  "name": "Whisper Large V3 Turbo",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "whisper",
+  "status": "active",
+  "model_type": "transcription",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  }
+}

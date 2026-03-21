@@ -1,0 +1,11 @@
+{
+  "id": "@cf/deepseek-ai/deepseek-math-7b-instruct",
+  "name": "deepseek-math-7b-instruct",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek",
+  "capabilities": {
+    "streaming": true
+  }
+}

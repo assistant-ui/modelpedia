@@ -1,0 +1,14 @@
+{
+  "id": "chatgpt-image-latest",
+  "name": "chatgpt-image-latest",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "chatgpt",
+  "status": "active",
+  "pricing": {
+    "input": 5,
+    "output": 10,
+    "cached_input": 1.25
+  }
+}

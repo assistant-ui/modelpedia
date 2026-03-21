@@ -1,0 +1,12 @@
+{
+  "id": "mistralai/codestral-22b-instruct-v0.1",
+  "name": "codestral-22b-instruct-v0.1",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "codestral",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

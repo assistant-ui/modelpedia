@@ -1,0 +1,14 @@
+{
+  "id": "gpt-image-1.5",
+  "name": "gpt-image-1.5",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-image-1.5",
+  "status": "active",
+  "pricing": {
+    "input": 5,
+    "output": 10,
+    "cached_input": 1.25
+  }
+}

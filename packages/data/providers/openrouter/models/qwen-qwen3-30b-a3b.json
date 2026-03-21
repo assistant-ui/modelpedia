@@ -1,0 +1,24 @@
+{
+  "id": "qwen/qwen3-30b-a3b",
+  "name": "Qwen: Qwen3 30B A3B",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks.",
+  "context_window": 40960,
+  "max_output_tokens": 40960,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.08,
+    "output": 0.28
+  }
+}

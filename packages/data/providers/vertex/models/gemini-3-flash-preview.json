@@ -1,0 +1,25 @@
+{
+  "id": "gemini-3-flash-preview",
+  "name": "gemini-3-flash-preview",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemini-3",
+  "status": "deprecated",
+  "deprecation_date": "December 17, 2025",
+  "knowledge_cutoff": "January 2025",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text", "image"]
+  }
+}

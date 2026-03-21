@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/code-llama-13b-python",
+  "name": "code-llama-13b-python",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 16400,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

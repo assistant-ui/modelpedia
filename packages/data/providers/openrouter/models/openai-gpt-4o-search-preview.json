@@ -1,0 +1,22 @@
+{
+  "id": "openai/gpt-4o-search-preview",
+  "name": "OpenAI: GPT-4o Search Preview",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4o",
+  "description": "GPT-4o Search Previewis a specialized model for web search in Chat Completions.",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  }
+}

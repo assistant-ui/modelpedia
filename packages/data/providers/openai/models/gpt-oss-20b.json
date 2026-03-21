@@ -1,0 +1,23 @@
+{
+  "id": "gpt-oss-20b",
+  "name": "gpt-oss-20b",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-oss",
+  "status": "active",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "performance": 4,
+  "speed": 3,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  }
+}

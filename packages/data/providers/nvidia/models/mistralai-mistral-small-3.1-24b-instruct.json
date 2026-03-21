@@ -1,0 +1,13 @@
+{
+  "id": "mistralai/mistral-small-3.1-24b-instruct",
+  "name": "mistral-small-3.1-24b-instruct-2503",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-small",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "snapshots": ["mistralai/mistral-small-3.1-24b-instruct-2503"]
+}

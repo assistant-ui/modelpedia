@@ -1,0 +1,10 @@
+{
+  "id": "stepfun-ai/step-3.5-flash",
+  "name": "step-3.5-flash",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

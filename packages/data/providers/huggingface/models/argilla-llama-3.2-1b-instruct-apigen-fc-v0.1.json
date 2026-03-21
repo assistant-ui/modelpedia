@@ -1,0 +1,10 @@
+{
+  "id": "argilla/Llama-3.2-1B-Instruct-APIGen-FC-v0.1",
+  "name": "Llama-3.2-1B-Instruct-APIGen-FC-v0.1",
+  "created_by": "argilla",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

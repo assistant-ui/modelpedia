@@ -1,0 +1,9 @@
+{
+  "id": "cerebras",
+  "name": "Cerebras",
+  "region": "US",
+  "url": "https://cerebras.ai",
+  "api_url": "https://api.cerebras.ai/v1",
+  "docs_url": "https://inference-docs.cerebras.ai",
+  "pricing_url": "https://cerebras.ai/pricing"
+}

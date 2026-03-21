@@ -1,0 +1,10 @@
+{
+  "id": "@cf/openchat/openchat-3.5-0106",
+  "name": "openchat-3.5-0106",
+  "created_by": "openchat",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

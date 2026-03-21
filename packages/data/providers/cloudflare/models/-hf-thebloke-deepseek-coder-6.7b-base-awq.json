@@ -1,0 +1,11 @@
+{
+  "id": "@hf/thebloke/deepseek-coder-6.7b-base-awq",
+  "name": "deepseek-coder-6.7b-base-awq",
+  "created_by": "thebloke",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek",
+  "capabilities": {
+    "streaming": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "openchat/openchat-3.6-8b-20240522",
+  "name": "openchat-3.6-8b-20240522",
+  "created_by": "openchat",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "alias": "openchat/openchat-3.6-8b",
+  "capabilities": {
+    "streaming": true
+  }
+}

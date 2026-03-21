@@ -1,0 +1,23 @@
+{
+  "id": "openai/gpt-4-turbo",
+  "name": "OpenAI: GPT-4 Turbo",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4-turbo",
+  "description": "The latest GPT-4 Turbo model with vision capabilities.",
+  "context_window": 128000,
+  "max_output_tokens": 4096,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 10,
+    "output": 30
+  }
+}

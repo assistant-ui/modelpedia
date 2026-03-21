@@ -1,0 +1,14 @@
+{
+  "id": "jamba-1.5-mini@vertex",
+  "name": "Jamba 1.5 Mini",
+  "created_by": "ai21",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

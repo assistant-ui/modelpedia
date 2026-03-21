@@ -1,0 +1,16 @@
+{
+  "id": "perplexity/sonar",
+  "name": "perplexity/sonar",
+  "created_by": "perplexity",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 2.5,
+    "cached_input": 0.0625
+  }
+}

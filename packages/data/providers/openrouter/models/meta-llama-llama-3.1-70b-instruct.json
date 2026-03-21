@@ -1,0 +1,22 @@
+{
+  "id": "meta-llama/llama-3.1-70b-instruct",
+  "name": "Meta: Llama 3.1 70B Instruct",
+  "created_by": "meta-llama",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-3.1",
+  "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors.",
+  "context_window": 131072,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 0.4,
+    "output": 0.4
+  }
+}

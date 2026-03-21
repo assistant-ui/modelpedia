@@ -1,0 +1,19 @@
+{
+  "id": "magistral-medium-2506",
+  "name": "magistral-medium-2506",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "deprecated",
+  "deprecation_date": "October 31, 2025",
+  "context_window": 40000,
+  "alias": "magistral-medium",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

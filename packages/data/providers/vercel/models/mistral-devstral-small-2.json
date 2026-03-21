@@ -1,0 +1,17 @@
+{
+  "id": "mistral/devstral-small-2",
+  "name": "devstral-small-2",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "devstral",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.3
+  }
+}

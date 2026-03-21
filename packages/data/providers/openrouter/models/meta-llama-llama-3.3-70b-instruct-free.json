@@ -1,0 +1,17 @@
+{
+  "id": "meta-llama/llama-3.3-70b-instruct:free",
+  "name": "Meta: Llama 3.3 70B Instruct (free)",
+  "created_by": "meta-llama",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-3.3",
+  "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out).",
+  "context_window": 65536,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true
+  }
+}

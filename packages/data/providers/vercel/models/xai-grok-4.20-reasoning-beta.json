@@ -1,0 +1,19 @@
+{
+  "id": "xai/grok-4.20-reasoning-beta",
+  "name": "grok-4.20-reasoning-beta",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "grok-4.20",
+  "context_window": 2000000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "moonshot-v1-32k",
+  "name": "Moonshot v1 32K",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "moonshot",
+  "context_window": 32000,
+  "capabilities": {
+    "streaming": true
+  }
+}

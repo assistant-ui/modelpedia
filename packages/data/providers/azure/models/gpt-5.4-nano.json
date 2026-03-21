@@ -1,0 +1,22 @@
+{
+  "id": "gpt-5.4-nano",
+  "name": "gpt-5.4-nano",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5.4",
+  "knowledge_cutoff": "August 2025",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

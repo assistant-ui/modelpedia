@@ -1,0 +1,15 @@
+{
+  "id": "amazon.nova-2-lite-v1:0",
+  "name": "Nova 2 Lite",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["text"]
+  }
+}

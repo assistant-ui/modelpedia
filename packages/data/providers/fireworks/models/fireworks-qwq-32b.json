@@ -1,0 +1,16 @@
+{
+  "id": "fireworks/qwq-32b",
+  "name": "qwq-32b",
+  "created_by": "fireworks",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwq",
+  "context_window": 131100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

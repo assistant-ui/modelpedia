@@ -1,0 +1,11 @@
+{
+  "id": "cohere.rerank-v3-5:0",
+  "name": "Rerank 3.5",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

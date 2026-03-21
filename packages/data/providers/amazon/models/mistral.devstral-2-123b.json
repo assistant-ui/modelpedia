@@ -1,0 +1,14 @@
+{
+  "id": "mistral.devstral-2-123b",
+  "name": "Devstral 2 123B",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

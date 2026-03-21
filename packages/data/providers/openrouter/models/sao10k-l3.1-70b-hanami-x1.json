@@ -1,0 +1,17 @@
+{
+  "id": "sao10k/l3.1-70b-hanami-x1",
+  "name": "Sao10K: Llama 3.1 70B Hanami x1",
+  "created_by": "sao10k",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "This is [Sao10K](/sao10k)'s experiment over [Euryale v2.2](/sao10k/l3.1-euryale-70b).",
+  "context_window": 16000,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 3
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "mistral-small-creative",
+  "name": "mistral-small-creative",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-small",
+  "status": "active",
+  "context_window": 32000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.3
+  },
+  "snapshots": ["mistral-small-creative-2512"]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "google/gemma-3-1b-it",
+  "name": "gemma-3-1b-it",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemma-3",
+  "capabilities": {
+    "streaming": true
+  }
+}

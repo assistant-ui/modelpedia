@@ -1,0 +1,14 @@
+{
+  "id": "fireworks/flux-kontext-pro",
+  "name": "flux-kontext-pro",
+  "created_by": "stability",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 1
+  }
+}

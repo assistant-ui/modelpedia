@@ -1,0 +1,12 @@
+{
+  "id": "mistralai/mistral-small-4-119b",
+  "name": "mistral-small-4-119b-2603",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-small",
+  "capabilities": {
+    "streaming": true
+  },
+  "snapshots": ["mistralai/mistral-small-4-119b-2603"]
+}

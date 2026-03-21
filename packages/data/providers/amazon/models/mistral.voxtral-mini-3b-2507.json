@@ -1,0 +1,15 @@
+{
+  "id": "mistral.voxtral-mini-3b-2507",
+  "name": "Voxtral Mini 3B 2507",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "alias": "mistral.voxtral-mini-3b",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["text"]
+  }
+}

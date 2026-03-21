@@ -1,0 +1,15 @@
+{
+  "id": "yi-01-ai/yi-6b",
+  "name": "yi-6b",
+  "created_by": "yi-01-ai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 4100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "gpt-4.1",
+  "name": "gpt-4.1",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4.1",
+  "description": "GPT-4.1 excels at instruction following and tool calling, with broad",
+  "status": "active",
+  "context_window": 1047576,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "performance": 4,
+  "speed": 3,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 8,
+    "cached_input": 0.5,
+    "batch_input": 1,
+    "batch_output": 4
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "snapshots": ["gpt-4.1-2025-04-14"]
+}

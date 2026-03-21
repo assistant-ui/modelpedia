@@ -1,0 +1,15 @@
+{
+  "id": "qwen.qwen3-coder-next",
+  "name": "Qwen3 Coder Next",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

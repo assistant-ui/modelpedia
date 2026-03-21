@@ -1,0 +1,12 @@
+{
+  "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+  "name": "llama-3.3-nemotron-super-49b-v1.5",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-3.3",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

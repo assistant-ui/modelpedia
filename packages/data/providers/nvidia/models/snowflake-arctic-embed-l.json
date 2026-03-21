@@ -1,0 +1,10 @@
+{
+  "id": "snowflake/arctic-embed-l",
+  "name": "arctic-embed-l",
+  "created_by": "snowflake",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

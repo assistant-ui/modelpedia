@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/kimi-k2-thinking",
+  "name": "kimi-k2-thinking",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 262100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 2.5
+  }
+}

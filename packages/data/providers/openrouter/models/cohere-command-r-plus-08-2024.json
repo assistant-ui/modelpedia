@@ -1,0 +1,22 @@
+{
+  "id": "cohere/command-r-plus-08-2024",
+  "name": "Cohere: Command R+ (08-2024)",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint the same.",
+  "context_window": 128000,
+  "max_output_tokens": 4000,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  }
+}

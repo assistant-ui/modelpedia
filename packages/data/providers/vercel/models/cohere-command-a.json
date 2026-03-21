@@ -1,0 +1,16 @@
+{
+  "id": "cohere/command-a",
+  "name": "command-a",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  }
+}

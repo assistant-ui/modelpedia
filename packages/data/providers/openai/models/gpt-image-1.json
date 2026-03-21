@@ -1,0 +1,21 @@
+{
+  "id": "gpt-image-1",
+  "name": "GPT Image 1",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "gpt-image-1",
+  "description": "GPT Image 1 is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.",
+  "status": "active",
+  "model_type": "other",
+  "performance": 4,
+  "speed": 1,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "input": 5,
+    "cached_input": 1.25
+  }
+}

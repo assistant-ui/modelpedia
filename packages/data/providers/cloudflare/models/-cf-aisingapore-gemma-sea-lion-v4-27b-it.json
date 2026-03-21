@@ -1,0 +1,10 @@
+{
+  "id": "@cf/aisingapore/gemma-sea-lion-v4-27b-it",
+  "name": "gemma-sea-lion-v4-27b-it",
+  "created_by": "aisingapore",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

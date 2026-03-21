@@ -1,0 +1,11 @@
+{
+  "id": "bytedance/seed-oss-36b-instruct",
+  "name": "seed-oss-36b-instruct",
+  "created_by": "bytedance",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

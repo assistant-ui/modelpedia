@@ -1,0 +1,18 @@
+{
+  "id": "command-r-08-2024",
+  "name": "command-r-08-2024",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "description": "command-r-08-2024 is an update of the Command R model, delivered in August 2024. Find more information here",
+  "status": "active",
+  "context_window": 128000,
+  "max_output_tokens": 4000,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

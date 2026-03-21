@@ -1,0 +1,34 @@
+{
+  "id": "gpt-5.4-nano",
+  "name": "gpt-5.4-nano",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5.4",
+  "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
+  "status": "active",
+  "model_type": "reasoning",
+  "performance": 3,
+  "speed": 4,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 1.25,
+    "cached_input": 0.02,
+    "batch_input": 0.1,
+    "batch_output": 0.625
+  },
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "snapshots": ["gpt-5.4-nano-2026-03-17"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "o1-preview-2024-09-12",
+  "name": "o1-preview-2024-09-12",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "o1",
+  "status": "active",
+  "context_window": 128000,
+  "max_output_tokens": 32768,
+  "alias": "o1-preview",
+  "performance": 3,
+  "speed": 1,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

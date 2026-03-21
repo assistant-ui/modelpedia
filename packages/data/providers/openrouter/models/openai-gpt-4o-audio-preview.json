@@ -1,0 +1,23 @@
+{
+  "id": "openai/gpt-4o-audio-preview",
+  "name": "OpenAI: GPT-4o Audio",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-4o",
+  "description": "The gpt-4o-audio-preview model adds support for audio inputs as prompts.",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "modalities": {
+    "input": ["audio", "text"],
+    "output": ["text", "audio"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  }
+}

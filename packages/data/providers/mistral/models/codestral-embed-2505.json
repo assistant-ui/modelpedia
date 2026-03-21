@@ -1,0 +1,19 @@
+{
+  "id": "codestral-embed-2505",
+  "name": "codestral-embed-2505",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "codestral",
+  "status": "active",
+  "context_window": 8000,
+  "alias": "codestral-embed",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "@hf/thebloke/mistral-7b-instruct-v0.1-awq",
+  "name": "mistral-7b-instruct-v0.1-awq",
+  "created_by": "thebloke",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

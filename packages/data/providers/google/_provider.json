@@ -1,0 +1,9 @@
+{
+  "id": "google",
+  "name": "Google",
+  "region": "US",
+  "url": "https://ai.google.dev",
+  "api_url": "https://generativelanguage.googleapis.com/v1beta",
+  "docs_url": "https://ai.google.dev/docs",
+  "pricing_url": "https://ai.google.dev/pricing"
+}

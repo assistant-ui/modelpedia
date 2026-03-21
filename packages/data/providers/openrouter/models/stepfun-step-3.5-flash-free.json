@@ -1,0 +1,18 @@
+{
+  "id": "stepfun/step-3.5-flash:free",
+  "name": "StepFun: Step 3.5 Flash (free)",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model.",
+  "context_window": 256000,
+  "max_output_tokens": 256000,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  }
+}

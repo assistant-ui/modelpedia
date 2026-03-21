@@ -1,0 +1,10 @@
+{
+  "id": "meta-llama/Llama-3.1-70B-Instruct",
+  "name": "Llama-3.1-70B-Instruct",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

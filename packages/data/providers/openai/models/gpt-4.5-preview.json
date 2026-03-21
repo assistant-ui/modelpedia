@@ -1,0 +1,24 @@
+{
+  "id": "gpt-4.5-preview",
+  "name": "gpt-4.5-preview",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "performance": 4,
+  "speed": 3,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 75,
+    "output": 150,
+    "cached_input": 37.5,
+    "batch_input": 37.5,
+    "batch_output": 75
+  },
+  "snapshots": ["gpt-4.5-preview-2025-02-27"]
+}

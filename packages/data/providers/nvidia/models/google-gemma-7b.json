@@ -1,0 +1,11 @@
+{
+  "id": "google/gemma-7b",
+  "name": "gemma-7b",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gemma-7b",
+  "capabilities": {
+    "streaming": true
+  }
+}

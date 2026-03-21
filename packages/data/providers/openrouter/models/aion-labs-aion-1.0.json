@@ -1,0 +1,21 @@
+{
+  "id": "aion-labs/aion-1.0",
+  "name": "AionLabs: Aion-1.0",
+  "created_by": "aion-labs",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Aion-1.0 is a multi-model system designed for high performance across various tasks, including reasoning and coding.",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 4,
+    "output": 8
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "Meta-Llama-3-8B-Instruct",
+  "name": "Meta-Llama-3-8B-Instruct",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 8192,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

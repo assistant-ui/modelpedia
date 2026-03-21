@@ -1,0 +1,15 @@
+{
+  "id": "deepseek.v3.2",
+  "name": "DeepSeek V3.2",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "deepseek",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

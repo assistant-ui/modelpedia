@@ -1,0 +1,9 @@
+{
+  "id": "xai",
+  "name": "xAI",
+  "region": "US",
+  "url": "https://x.ai",
+  "api_url": "https://api.x.ai/v1",
+  "docs_url": "https://docs.x.ai",
+  "pricing_url": "https://docs.x.ai/docs/model-pricing"
+}

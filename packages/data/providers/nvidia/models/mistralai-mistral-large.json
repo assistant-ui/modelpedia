@@ -1,0 +1,11 @@
+{
+  "id": "mistralai/mistral-large",
+  "name": "mistral-large",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-large",
+  "capabilities": {
+    "streaming": true
+  }
+}

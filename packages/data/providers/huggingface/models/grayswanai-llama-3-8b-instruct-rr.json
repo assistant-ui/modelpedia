@@ -1,0 +1,10 @@
+{
+  "id": "GraySwanAI/Llama-3-8B-Instruct-RR",
+  "name": "Llama-3-8B-Instruct-RR",
+  "created_by": "grayswanai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

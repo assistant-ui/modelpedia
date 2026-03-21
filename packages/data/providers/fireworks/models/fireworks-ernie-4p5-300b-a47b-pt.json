@@ -1,0 +1,14 @@
+{
+  "id": "fireworks/ernie-4p5-300b-a47b-pt",
+  "name": "ernie-4p5-300b-a47b-pt",
+  "created_by": "fireworks",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

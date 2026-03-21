@@ -1,0 +1,16 @@
+{
+  "id": "fireworks/qwen3-coder-480b-instruct-bf16",
+  "name": "qwen3-coder-480b-instruct-bf16",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "qwen3",
+  "context_window": 262100,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

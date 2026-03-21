@@ -1,0 +1,23 @@
+{
+  "id": "ministral-8b-2512",
+  "name": "ministral-8b-2512",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "ministral",
+  "status": "active",
+  "context_window": 256000,
+  "alias": "ministral-8b",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.15
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "together",
+  "name": "Together AI",
+  "region": "US",
+  "url": "https://www.together.ai",
+  "api_url": "https://api.together.xyz/v1",
+  "docs_url": "https://docs.together.ai",
+  "pricing_url": "https://www.together.ai/pricing"
+}

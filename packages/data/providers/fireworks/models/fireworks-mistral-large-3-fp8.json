@@ -1,0 +1,16 @@
+{
+  "id": "fireworks/mistral-large-3-fp8",
+  "name": "mistral-large-3-fp8",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-large",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

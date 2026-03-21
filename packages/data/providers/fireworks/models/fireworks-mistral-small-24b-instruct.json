@@ -1,0 +1,17 @@
+{
+  "id": "fireworks/mistral-small-24b-instruct",
+  "name": "mistral-small-24b-instruct-2501",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "mistral-small",
+  "context_window": 32800,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  },
+  "snapshots": ["fireworks/mistral-small-24b-instruct-2501"]
+}

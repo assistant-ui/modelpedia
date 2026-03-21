@@ -1,0 +1,20 @@
+{
+  "id": "claude-opus-4-6@vertex",
+  "name": "Claude Opus 4.6",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "claude-opus",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
+}

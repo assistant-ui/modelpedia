@@ -1,0 +1,15 @@
+{
+  "id": "gpt-5.2-codex",
+  "name": "GPT 5.2 Codex",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5.2",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.75
+  }
+}

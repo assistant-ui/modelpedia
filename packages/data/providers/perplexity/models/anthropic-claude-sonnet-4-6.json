@@ -1,0 +1,16 @@
+{
+  "id": "anthropic/claude-sonnet-4-6",
+  "name": "anthropic/claude-sonnet-4-6",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "family": "claude-sonnet",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.3
+  }
+}

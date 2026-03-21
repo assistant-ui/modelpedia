@@ -1,0 +1,22 @@
+{
+  "id": "gemini-embedding-001",
+  "name": "gemini-embedding-001",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "deprecation_date": "July 14, 2026",
+  "context_window": 2048,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text", "image"]
+  }
+}

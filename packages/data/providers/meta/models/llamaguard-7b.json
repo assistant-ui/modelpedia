@@ -1,0 +1,15 @@
+{
+  "id": "LlamaGuard-7b",
+  "name": "LlamaGuard-7b",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
+}

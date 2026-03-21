@@ -1,0 +1,15 @@
+{
+  "id": "s/wan-2-6-image",
+  "name": "Wan 2 6 Image",
+  "created_by": "unknown",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 32000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.03
+  }
+}

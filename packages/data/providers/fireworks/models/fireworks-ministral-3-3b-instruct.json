@@ -1,0 +1,17 @@
+{
+  "id": "fireworks/ministral-3-3b-instruct",
+  "name": "ministral-3-3b-instruct-2512",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "ministral",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  },
+  "snapshots": ["fireworks/ministral-3-3b-instruct-2512"]
+}

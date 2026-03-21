@@ -1,0 +1,23 @@
+{
+  "id": "bytedance-seed/seed-2.0-lite",
+  "name": "ByteDance Seed: Seed-2.0-Lite",
+  "created_by": "bytedance-seed",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "Seed-2.0-Lite is a versatile, cost‑efficient enterprise workhorse that delivers strong multimodal and agent capabilities while offering noticeably lower latency, making it a practical default choice for most production workloads across text, vision, and tools.",
+  "context_window": 262144,
+  "max_output_tokens": 131072,
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 2
+  }
+}

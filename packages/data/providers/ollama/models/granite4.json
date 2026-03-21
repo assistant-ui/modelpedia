@@ -1,0 +1,10 @@
+{
+  "id": "granite4",
+  "name": "granite4",
+  "created_by": "ibm",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  }
+}

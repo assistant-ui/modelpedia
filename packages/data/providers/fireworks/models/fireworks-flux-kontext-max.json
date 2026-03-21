@@ -1,0 +1,14 @@
+{
+  "id": "fireworks/flux-kontext-max",
+  "name": "flux-kontext-max",
+  "created_by": "stability",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.08,
+    "output": 1
+  }
+}

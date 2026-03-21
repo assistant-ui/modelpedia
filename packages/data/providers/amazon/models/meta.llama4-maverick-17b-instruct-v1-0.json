@@ -1,0 +1,15 @@
+{
+  "id": "meta.llama4-maverick-17b-instruct-v1:0",
+  "name": "Llama 4 Maverick 17B Instruct",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": [],
+    "output": ["text"]
+  }
+}

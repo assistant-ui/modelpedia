@@ -1,0 +1,17 @@
+{
+  "id": "kimi-k2-thinking-turbo",
+  "name": "Kimi K2 Thinking Turbo",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "kimi",
+  "description": "Deep reasoning with high speed output.",
+  "context_window": 256000,
+  "reasoning_tokens": true,
+  "speed": 5,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "minimax-m2.5-free",
+  "name": "MiniMax M2.5 Free",
+  "created_by": "minimax",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  }
+}

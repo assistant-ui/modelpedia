@@ -1,0 +1,11 @@
+{
+  "id": "meta/llama3-70b-instruct",
+  "name": "llama3-70b-instruct",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

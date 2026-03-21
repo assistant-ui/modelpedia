@@ -1,0 +1,11 @@
+{
+  "id": "voxtral-mini-4b-realtime",
+  "name": "voxtral-mini-4b-realtime",
+  "created_by": "unknown",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "snapshots": ["voxtral-mini-4b-realtime-2602"]
+}

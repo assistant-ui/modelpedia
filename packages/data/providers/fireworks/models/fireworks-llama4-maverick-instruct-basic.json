@@ -1,0 +1,15 @@
+{
+  "id": "fireworks/llama4-maverick-instruct-basic",
+  "name": "llama4-maverick-instruct-basic",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 1048600,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
+}

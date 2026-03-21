@@ -1,0 +1,34 @@
+{
+  "id": "gpt-5.2",
+  "name": "gpt-5.2",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "gpt-5.2",
+  "description": "GPT-5.2 is our previous frontier model for complex professional work.",
+  "status": "active",
+  "model_type": "reasoning",
+  "performance": 5,
+  "speed": 3,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.75,
+    "output": 14,
+    "cached_input": 0.175,
+    "batch_input": 0.875,
+    "batch_output": 7
+  },
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "snapshots": ["gpt-5.2-2025-12-11"]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "grok-imagine-image",
+  "name": "grok-imagine-image",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-20",
+  "release_date": "2026-01-28",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "igenius/italia_10b_instruct_16k",
+  "name": "italia_10b_instruct_16k",
+  "created_by": "igenius",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  }
+}

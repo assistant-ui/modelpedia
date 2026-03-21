@@ -1,0 +1,11 @@
+{
+  "id": "@cf/meta-llama/llama-2-7b-chat-hf-lora",
+  "name": "llama-2-7b-chat-hf-lora",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "family": "llama-2",
+  "capabilities": {
+    "streaming": true
+  }
+}

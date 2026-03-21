@@ -1,0 +1,14 @@
+{
+  "id": "s/google-veo-3-0",
+  "name": "Google Veo 3 0",
+  "created_by": "unknown",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 1.6
+  }
+}

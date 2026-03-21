@@ -1,0 +1,17 @@
+{
+  "id": "bytedance/seed-1.8",
+  "name": "seed-1.8",
+  "created_by": "bytedance",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "context_window": 256000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 2
+  }
+}

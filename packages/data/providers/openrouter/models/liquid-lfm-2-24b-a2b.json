@@ -1,0 +1,17 @@
+{
+  "id": "liquid/lfm-2-24b-a2b",
+  "name": "LiquidAI: LFM2-24B-A2B",
+  "created_by": "liquid",
+  "source": "official",
+  "last_updated": "2026-03-21",
+  "description": "LFM2-24B-A2B is the largest model in the LFM2 family of hybrid architectures designed for efficient on-device deployment.",
+  "context_window": 32768,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.12
+  }
+}
