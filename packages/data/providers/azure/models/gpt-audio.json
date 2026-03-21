@@ -5,12 +5,16 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-audio",
-  "knowledge_cutoff": "October 2023",
+  "knowledge_cutoff": "2023-10",
   "capabilities": {
     "streaming": true
   },
   "modalities": {
-    "input": ["text"],
-    "output": ["text"]
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
   }
 }

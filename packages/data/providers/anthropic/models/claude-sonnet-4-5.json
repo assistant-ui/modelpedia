@@ -6,7 +6,7 @@
   "last_updated": "2026-03-20",
   "family": "claude-sonnet",
   "status": "active",
-  "knowledge_cutoff": "Jan 2025",
+  "knowledge_cutoff": "2025-01",
   "context_window": 1000000,
   "max_output_tokens": 64000,
   "speed": 4,
@@ -17,8 +17,13 @@
     "reasoning": true
   },
   "modalities": {
-    "input": ["text", "image"],
-    "output": ["text"]
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
   },
   "pricing": {
     "input": 3,
@@ -27,5 +32,7 @@
     "batch_input": 1.5,
     "batch_output": 7.5
   },
-  "snapshots": ["claude-sonnet-4-5-20250929"]
+  "snapshots": [
+    "claude-sonnet-4-5-20250929"
+  ]
 }

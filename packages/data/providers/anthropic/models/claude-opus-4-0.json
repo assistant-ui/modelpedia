@@ -6,7 +6,7 @@
   "last_updated": "2026-03-20",
   "family": "claude-opus",
   "status": "active",
-  "knowledge_cutoff": "Jan 2025",
+  "knowledge_cutoff": "2025-01",
   "context_window": 200000,
   "max_output_tokens": 32000,
   "speed": 3,
@@ -17,8 +17,13 @@
     "reasoning": true
   },
   "modalities": {
-    "input": ["text", "image"],
-    "output": ["text"]
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
   },
   "pricing": {
     "input": 15,
@@ -27,5 +32,7 @@
     "batch_input": 7.5,
     "batch_output": 37.5
   },
-  "snapshots": ["claude-opus-4-20250514"]
+  "snapshots": [
+    "claude-opus-4-20250514"
+  ]
 }

@@ -5,7 +5,7 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "o1",
-  "knowledge_cutoff": "October 2023",
+  "knowledge_cutoff": "2023-10",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -14,7 +14,12 @@
     "vision": true
   },
   "modalities": {
-    "input": ["text", "image"],
-    "output": ["text"]
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
   }
 }

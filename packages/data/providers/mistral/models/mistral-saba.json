@@ -5,14 +5,20 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "status": "deprecated",
-  "deprecation_date": "June 10, 2025",
+  "deprecation_date": "2025-06-10",
   "context_window": 32000,
   "capabilities": {
     "streaming": true
   },
   "modalities": {
-    "input": ["text"],
-    "output": ["text"]
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
   },
-  "snapshots": ["mistral-saba-2502"]
+  "snapshots": [
+    "mistral-saba-2502"
+  ]
 }

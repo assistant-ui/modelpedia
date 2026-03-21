@@ -6,7 +6,7 @@
   "last_updated": "2026-03-21",
   "family": "mistral-small",
   "status": "deprecated",
-  "deprecation_date": "November 6, 2025",
+  "deprecation_date": "2025-11-06",
   "context_window": 32000,
   "alias": "mistral-small",
   "capabilities": {
@@ -14,7 +14,12 @@
     "vision": true
   },
   "modalities": {
-    "input": ["text", "image"],
-    "output": ["text"]
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
   }
 }

@@ -6,14 +6,18 @@
   "last_updated": "2026-03-21",
   "family": "mistral-large",
   "status": "deprecated",
-  "deprecation_date": "November 30, 2024",
+  "deprecation_date": "2024-11-30",
   "context_window": 32000,
   "alias": "mistral-large",
   "capabilities": {
     "streaming": true
   },
   "modalities": {
-    "input": ["text"],
-    "output": ["text"]
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
   }
 }

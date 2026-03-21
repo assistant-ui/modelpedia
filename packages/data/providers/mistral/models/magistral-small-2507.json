@@ -5,7 +5,7 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "status": "deprecated",
-  "deprecation_date": "October 31, 2025",
+  "deprecation_date": "2025-10-31",
   "context_window": 40000,
   "alias": "magistral-small",
   "capabilities": {
@@ -13,7 +13,12 @@
     "vision": true
   },
   "modalities": {
-    "input": ["text", "image"],
-    "output": ["text"]
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
   }
 }

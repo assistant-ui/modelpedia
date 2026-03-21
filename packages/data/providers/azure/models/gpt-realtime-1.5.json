@@ -5,12 +5,16 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-realtime",
-  "knowledge_cutoff": "September 2024",
+  "knowledge_cutoff": "2024-09",
   "capabilities": {
     "streaming": true
   },
   "modalities": {
-    "input": ["text"],
-    "output": ["text"]
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
   }
 }

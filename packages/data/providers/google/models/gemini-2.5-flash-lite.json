@@ -6,8 +6,8 @@
   "last_updated": "2026-03-21",
   "family": "gemini-2.5",
   "status": "active",
-  "deprecation_date": "July 22, 2026",
-  "knowledge_cutoff": "January 2025",
+  "deprecation_date": "2026-07-22",
+  "knowledge_cutoff": "2025-01",
   "context_window": 1048576,
   "max_output_tokens": 65536,
   "capabilities": {
@@ -19,7 +19,15 @@
     "vision": true
   },
   "modalities": {
-    "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image"]
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "text",
+      "image"
+    ]
   }
 }

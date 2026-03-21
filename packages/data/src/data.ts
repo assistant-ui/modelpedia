@@ -2903,7 +2903,7 @@ export const providers: ProviderWithModels[] = [
         "family": "claude-haiku",
         "description": "The fastest model with near-frontier intelligence",
         "status": "active",
-        "knowledge_cutoff": "Feb 2025",
+        "knowledge_cutoff": "2025-02",
         "context_window": 200000,
         "max_output_tokens": 64000,
         "alias": "claude-haiku-4-5",
@@ -2940,7 +2940,7 @@ export const providers: ProviderWithModels[] = [
         "family": "claude-haiku",
         "description": "The fastest model with near-frontier intelligence",
         "status": "active",
-        "knowledge_cutoff": "Feb 2025",
+        "knowledge_cutoff": "2025-02",
         "context_window": 200000,
         "max_output_tokens": 64000,
         "speed": 5,
@@ -2978,7 +2978,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-20",
         "family": "claude-opus",
         "status": "active",
-        "knowledge_cutoff": "Jan 2025",
+        "knowledge_cutoff": "2025-01",
         "context_window": 200000,
         "max_output_tokens": 32000,
         "speed": 3,
@@ -3016,7 +3016,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-20",
         "family": "claude-opus",
         "status": "active",
-        "knowledge_cutoff": "Jan 2025",
+        "knowledge_cutoff": "2025-01",
         "context_window": 200000,
         "max_output_tokens": 32000,
         "alias": "claude-opus-4-1",
@@ -3052,7 +3052,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-20",
         "family": "claude-opus",
         "status": "active",
-        "knowledge_cutoff": "Jan 2025",
+        "knowledge_cutoff": "2025-01",
         "context_window": 200000,
         "max_output_tokens": 32000,
         "speed": 3,
@@ -3090,7 +3090,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-20",
         "family": "claude-opus",
         "status": "active",
-        "knowledge_cutoff": "Jan 2025",
+        "knowledge_cutoff": "2025-01",
         "context_window": 200000,
         "max_output_tokens": 32000,
         "alias": "claude-opus-4-0",
@@ -3126,7 +3126,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-20",
         "family": "claude-opus",
         "status": "active",
-        "knowledge_cutoff": "May 2025",
+        "knowledge_cutoff": "2025-05",
         "context_window": 200000,
         "max_output_tokens": 64000,
         "alias": "claude-opus-4-5",
@@ -3162,7 +3162,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-20",
         "family": "claude-opus",
         "status": "active",
-        "knowledge_cutoff": "May 2025",
+        "knowledge_cutoff": "2025-05",
         "context_window": 200000,
         "max_output_tokens": 64000,
         "speed": 3,
@@ -3201,7 +3201,7 @@ export const providers: ProviderWithModels[] = [
         "family": "claude-opus",
         "description": "The most intelligent model for building agents and coding",
         "status": "active",
-        "knowledge_cutoff": "May 2025",
+        "knowledge_cutoff": "2025-05",
         "context_window": 1000000,
         "max_output_tokens": 128000,
         "speed": 3,
@@ -3236,7 +3236,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-20",
         "family": "claude-sonnet",
         "status": "active",
-        "knowledge_cutoff": "Jan 2025",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1000000,
         "max_output_tokens": 64000,
         "speed": 4,
@@ -3274,7 +3274,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-20",
         "family": "claude-sonnet",
         "status": "active",
-        "knowledge_cutoff": "Jan 2025",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1000000,
         "max_output_tokens": 64000,
         "alias": "claude-sonnet-4-0",
@@ -3310,7 +3310,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-20",
         "family": "claude-sonnet",
         "status": "active",
-        "knowledge_cutoff": "Jan 2025",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1000000,
         "max_output_tokens": 64000,
         "alias": "claude-sonnet-4-5",
@@ -3346,7 +3346,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-20",
         "family": "claude-sonnet",
         "status": "active",
-        "knowledge_cutoff": "Jan 2025",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1000000,
         "max_output_tokens": 64000,
         "speed": 4,
@@ -3385,7 +3385,7 @@ export const providers: ProviderWithModels[] = [
         "family": "claude-sonnet",
         "description": "The best combination of speed and intelligence",
         "status": "active",
-        "knowledge_cutoff": "Aug 2025",
+        "knowledge_cutoff": "2025-08",
         "context_window": 1000000,
         "max_output_tokens": 64000,
         "speed": 4,
@@ -3822,7 +3822,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-4",
-        "knowledge_cutoff": "December 2023",
+        "knowledge_cutoff": "2023-12",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -3843,7 +3843,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-4o",
-        "knowledge_cutoff": "September 2023",
+        "knowledge_cutoff": "2023-09",
         "capabilities": {
           "streaming": true
         },
@@ -3863,7 +3863,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-4o",
-        "knowledge_cutoff": "September 2023",
+        "knowledge_cutoff": "2023-09",
         "capabilities": {
           "streaming": true
         },
@@ -3883,7 +3883,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-4o",
-        "knowledge_cutoff": "October 2023",
+        "knowledge_cutoff": "2023-10",
         "capabilities": {
           "streaming": true
         },
@@ -3941,7 +3941,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-4o",
-        "knowledge_cutoff": "October 2023",
+        "knowledge_cutoff": "2023-10",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -3965,7 +3965,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-4o",
-        "knowledge_cutoff": "October 2023",
+        "knowledge_cutoff": "2023-10",
         "capabilities": {
           "streaming": true
         },
@@ -4348,7 +4348,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-5.4",
-        "knowledge_cutoff": "August 2025",
+        "knowledge_cutoff": "2025-08",
         "context_window": 400000,
         "max_output_tokens": 128000,
         "capabilities": {
@@ -4451,7 +4451,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-audio",
-        "knowledge_cutoff": "September 2024",
+        "knowledge_cutoff": "2024-09",
         "capabilities": {
           "streaming": true
         },
@@ -4471,7 +4471,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-audio",
-        "knowledge_cutoff": "October 2023",
+        "knowledge_cutoff": "2023-10",
         "capabilities": {
           "streaming": true
         },
@@ -4573,7 +4573,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-oss",
-        "knowledge_cutoff": "May 31, 2024",
+        "knowledge_cutoff": "2024-05-31",
         "context_window": 131072,
         "max_output_tokens": 131072,
         "capabilities": {
@@ -4618,7 +4618,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-realtime",
-        "knowledge_cutoff": "September 2024",
+        "knowledge_cutoff": "2024-09",
         "capabilities": {
           "streaming": true
         },
@@ -4638,7 +4638,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "gpt-realtime",
-        "knowledge_cutoff": "October 2023",
+        "knowledge_cutoff": "2023-10",
         "capabilities": {
           "streaming": true
         },
@@ -5047,7 +5047,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o1",
-        "knowledge_cutoff": "October 2023",
+        "knowledge_cutoff": "2023-10",
         "capabilities": {
           "streaming": true
         },
@@ -5067,7 +5067,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o1",
-        "knowledge_cutoff": "October 2023",
+        "knowledge_cutoff": "2023-10",
         "capabilities": {
           "streaming": true
         },
@@ -5087,7 +5087,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o1",
-        "knowledge_cutoff": "October 2023",
+        "knowledge_cutoff": "2023-10",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -5112,7 +5112,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o3",
-        "knowledge_cutoff": "October 2023",
+        "knowledge_cutoff": "2023-10",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -5135,7 +5135,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o3",
-        "knowledge_cutoff": "May 31, 2024",
+        "knowledge_cutoff": "2024-05-31",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -5159,7 +5159,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o3",
-        "knowledge_cutoff": "May 31, 2024",
+        "knowledge_cutoff": "2024-05-31",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -5184,7 +5184,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "family": "o4",
-        "knowledge_cutoff": "May 31, 2024",
+        "knowledge_cutoff": "2024-05-31",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -5263,7 +5263,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
-        "knowledge_cutoff": "Sep 2021",
+        "knowledge_cutoff": "2021-09",
         "max_output_tokens": 3072,
         "capabilities": {
           "streaming": true
@@ -5283,7 +5283,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
-        "knowledge_cutoff": "Sep 2021",
+        "knowledge_cutoff": "2021-09",
         "max_output_tokens": 1536,
         "capabilities": {
           "streaming": true
@@ -5303,7 +5303,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "openai",
         "source": "official",
         "last_updated": "2026-03-21",
-        "knowledge_cutoff": "Sep 2021",
+        "knowledge_cutoff": "2021-09",
         "max_output_tokens": 1536,
         "capabilities": {
           "streaming": true
@@ -11222,7 +11222,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "active",
-        "deprecation_date": "June 1, 2026",
+        "deprecation_date": "2026-06-01",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -11245,7 +11245,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "active",
-        "deprecation_date": "June 1, 2026",
+        "deprecation_date": "2026-06-01",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -11268,7 +11268,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "deprecated",
-        "deprecation_date": "December 9, 2025",
+        "deprecation_date": "2025-12-09",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -11291,7 +11291,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "deprecated",
-        "deprecation_date": "December 9, 2025",
+        "deprecation_date": "2025-12-09",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -11314,8 +11314,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "active",
-        "deprecation_date": "June 1, 2026",
-        "knowledge_cutoff": "August 2024",
+        "deprecation_date": "2026-06-01",
+        "knowledge_cutoff": "2024-08",
         "context_window": 1048576,
         "max_output_tokens": 8192,
         "capabilities": {
@@ -11347,7 +11347,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "deprecated",
-        "deprecation_date": "December 9, 2025",
+        "deprecation_date": "2025-12-09",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -11370,7 +11370,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "deprecated",
-        "deprecation_date": "November 14, 2025",
+        "deprecation_date": "2025-11-14",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -11393,8 +11393,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "active",
-        "deprecation_date": "June 1, 2026",
-        "knowledge_cutoff": "August 2024",
+        "deprecation_date": "2026-06-01",
+        "knowledge_cutoff": "2024-08",
         "context_window": 1048576,
         "max_output_tokens": 8192,
         "capabilities": {
@@ -11457,7 +11457,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "deprecated",
-        "deprecation_date": "January 15, 2026",
+        "deprecation_date": "2026-01-15",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -11480,8 +11480,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "active",
-        "deprecation_date": "October 2, 2026",
-        "knowledge_cutoff": "June 2025",
+        "deprecation_date": "2026-10-02",
+        "knowledge_cutoff": "2025-06",
         "context_window": 65536,
         "max_output_tokens": 32768,
         "capabilities": {
@@ -11513,8 +11513,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "active",
-        "deprecation_date": "March 31, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-03-31",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -11546,8 +11546,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "active",
-        "deprecation_date": "July 22, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-07-22",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -11579,7 +11579,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "active",
-        "knowledge_cutoff": "January 2025",
+        "knowledge_cutoff": "2025-01",
         "context_window": 131072,
         "max_output_tokens": 8192,
         "capabilities": {
@@ -11611,7 +11611,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "deprecated",
-        "deprecation_date": "November 18, 2025",
+        "deprecation_date": "2025-11-18",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -11634,7 +11634,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "active",
-        "knowledge_cutoff": "January 2025",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -11666,7 +11666,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "deprecated",
-        "deprecation_date": "February 17, 2026",
+        "deprecation_date": "2026-02-17",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -11720,8 +11720,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "active",
-        "deprecation_date": "June 17, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-06-17",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -11753,7 +11753,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "deprecated",
-        "deprecation_date": "December 2, 2025",
+        "deprecation_date": "2025-12-02",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -11776,7 +11776,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "deprecated",
-        "deprecation_date": "December 2, 2025",
+        "deprecation_date": "2025-12-02",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -11799,7 +11799,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "deprecated",
-        "deprecation_date": "December 2, 2025",
+        "deprecation_date": "2025-12-02",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -11853,8 +11853,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "active",
-        "deprecation_date": "June 17, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-06-17",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -11886,8 +11886,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-3",
         "status": "deprecated",
-        "deprecation_date": "December 17, 2025",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2025-12-17",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -11919,8 +11919,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-3",
         "status": "deprecated",
-        "deprecation_date": "November 20, 2025",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2025-11-20",
+        "knowledge_cutoff": "2025-01",
         "context_window": 65536,
         "max_output_tokens": 32768,
         "capabilities": {
@@ -11952,8 +11952,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-3",
         "status": "deprecated",
-        "deprecation_date": "March 9, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-03-09",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -11985,8 +11985,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-3.1",
         "status": "deprecated",
-        "deprecation_date": "February 26, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-02-26",
+        "knowledge_cutoff": "2025-01",
         "context_window": 131072,
         "max_output_tokens": 32768,
         "capabilities": {
@@ -12018,8 +12018,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-3.1",
         "status": "deprecated",
-        "deprecation_date": "March 3, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-03-03",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -12051,8 +12051,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-3.1",
         "status": "deprecated",
-        "deprecation_date": "February 19, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-02-19",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -12083,7 +12083,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "active",
-        "deprecation_date": "July 14, 2026",
+        "deprecation_date": "2026-07-14",
         "context_window": 2048,
         "capabilities": {
           "streaming": true,
@@ -12142,7 +12142,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "deprecated",
-        "deprecation_date": "October 30, 2025",
+        "deprecation_date": "2025-10-30",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -12164,7 +12164,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "deprecated",
-        "deprecation_date": "October 30, 2025",
+        "deprecation_date": "2025-10-30",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -12186,7 +12186,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "deprecated",
-        "deprecation_date": "December 9, 2025",
+        "deprecation_date": "2025-12-09",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -12208,7 +12208,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "active",
-        "knowledge_cutoff": "January 2025",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -14651,7 +14651,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "codestral",
         "status": "deprecated",
-        "deprecation_date": "December 2, 2024",
+        "deprecation_date": "2024-12-02",
         "context_window": 32000,
         "alias": "codestral",
         "capabilities": {
@@ -14674,7 +14674,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "codestral",
         "status": "deprecated",
-        "deprecation_date": "November 6, 2025",
+        "deprecation_date": "2025-11-06",
         "context_window": 128000,
         "alias": "codestral",
         "capabilities": {
@@ -14820,7 +14820,7 @@ export const providers: ProviderWithModels[] = [
           "codestral-2501",
           "codestral-2405"
         ],
-        "deprecation_date": "December 2, 2024"
+        "deprecation_date": "2024-12-02"
       },
       {
         "id": "devstral-medium-2507",
@@ -14915,7 +14915,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "devstral",
         "status": "deprecated",
-        "deprecation_date": "October 31, 2025",
+        "deprecation_date": "2025-10-31",
         "context_window": 128000,
         "alias": "devstral-small",
         "capabilities": {
@@ -15019,7 +15019,7 @@ export const providers: ProviderWithModels[] = [
           "devstral-small-2507",
           "devstral-small-2505"
         ],
-        "deprecation_date": "October 31, 2025"
+        "deprecation_date": "2025-10-31"
       },
       {
         "id": "magistral-medium-2506",
@@ -15028,7 +15028,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "deprecated",
-        "deprecation_date": "October 31, 2025",
+        "deprecation_date": "2025-10-31",
         "context_window": 40000,
         "alias": "magistral-medium",
         "capabilities": {
@@ -15052,7 +15052,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "deprecated",
-        "deprecation_date": "October 31, 2025",
+        "deprecation_date": "2025-10-31",
         "context_window": 40000,
         "alias": "magistral-medium",
         "capabilities": {
@@ -15126,7 +15126,7 @@ export const providers: ProviderWithModels[] = [
           "magistral-medium-2507",
           "magistral-medium-2506"
         ],
-        "deprecation_date": "October 31, 2025"
+        "deprecation_date": "2025-10-31"
       },
       {
         "id": "magistral-small-2506",
@@ -15135,7 +15135,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "deprecated",
-        "deprecation_date": "October 31, 2025",
+        "deprecation_date": "2025-10-31",
         "context_window": 40000,
         "alias": "magistral-small",
         "capabilities": {
@@ -15159,7 +15159,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "deprecated",
-        "deprecation_date": "October 31, 2025",
+        "deprecation_date": "2025-10-31",
         "context_window": 40000,
         "alias": "magistral-small",
         "capabilities": {
@@ -15233,7 +15233,7 @@ export const providers: ProviderWithModels[] = [
           "magistral-small-2507",
           "magistral-small-2506"
         ],
-        "deprecation_date": "October 31, 2025"
+        "deprecation_date": "2025-10-31"
       },
       {
         "id": "ministral-14b-2512",
@@ -15301,7 +15301,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "ministral",
         "status": "deprecated",
-        "deprecation_date": "December 2, 2025",
+        "deprecation_date": "2025-12-02",
         "context_window": 128000,
         "alias": "ministral-3b",
         "capabilities": {
@@ -15376,7 +15376,7 @@ export const providers: ProviderWithModels[] = [
           "ministral-3b-2512",
           "ministral-3b-2410"
         ],
-        "deprecation_date": "December 2, 2025"
+        "deprecation_date": "2025-12-02"
       },
       {
         "id": "ministral-8b-2410",
@@ -15386,7 +15386,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "ministral",
         "status": "deprecated",
-        "deprecation_date": "December 2, 2025",
+        "deprecation_date": "2025-12-02",
         "context_window": 128000,
         "alias": "ministral-8b",
         "capabilities": {
@@ -15461,7 +15461,7 @@ export const providers: ProviderWithModels[] = [
           "ministral-8b-2512",
           "ministral-8b-2410"
         ],
-        "deprecation_date": "December 2, 2025"
+        "deprecation_date": "2025-12-02"
       },
       {
         "id": "mistral-7b-01",
@@ -15579,7 +15579,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "mistral-large",
         "status": "deprecated",
-        "deprecation_date": "November 30, 2024",
+        "deprecation_date": "2024-11-30",
         "context_window": 32000,
         "alias": "mistral-large",
         "capabilities": {
@@ -15602,7 +15602,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "mistral-large",
         "status": "deprecated",
-        "deprecation_date": "November 30, 2024",
+        "deprecation_date": "2024-11-30",
         "context_window": 128000,
         "alias": "mistral-large",
         "capabilities": {
@@ -15704,7 +15704,7 @@ export const providers: ProviderWithModels[] = [
           "mistral-large-2407",
           "mistral-large-2402"
         ],
-        "deprecation_date": "November 30, 2024"
+        "deprecation_date": "2024-11-30"
       },
       {
         "id": "mistral-medium-2312",
@@ -15714,7 +15714,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "mistral-medium",
         "status": "deprecated",
-        "deprecation_date": "November 30, 2024",
+        "deprecation_date": "2024-11-30",
         "context_window": 32000,
         "alias": "mistral-medium",
         "capabilities": {
@@ -15815,7 +15815,7 @@ export const providers: ProviderWithModels[] = [
           "mistral-medium-2505",
           "mistral-medium-2312"
         ],
-        "deprecation_date": "November 30, 2024"
+        "deprecation_date": "2024-11-30"
       },
       {
         "id": "mistral-moderation-2411",
@@ -15971,7 +15971,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "deprecated",
-        "deprecation_date": "June 10, 2025",
+        "deprecation_date": "2025-06-10",
         "context_window": 32000,
         "alias": "mistral-saba",
         "capabilities": {
@@ -15993,7 +15993,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "deprecated",
-        "deprecation_date": "June 10, 2025",
+        "deprecation_date": "2025-06-10",
         "context_window": 32000,
         "capabilities": {
           "streaming": true
@@ -16018,7 +16018,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "mistral-small",
         "status": "deprecated",
-        "deprecation_date": "November 30, 2024",
+        "deprecation_date": "2024-11-30",
         "context_window": 32000,
         "alias": "mistral-small",
         "capabilities": {
@@ -16041,7 +16041,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "mistral-small",
         "status": "deprecated",
-        "deprecation_date": "November 6, 2025",
+        "deprecation_date": "2025-11-06",
         "context_window": 32000,
         "alias": "mistral-small",
         "capabilities": {
@@ -16066,7 +16066,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "mistral-small",
         "status": "deprecated",
-        "deprecation_date": "November 6, 2025",
+        "deprecation_date": "2025-11-06",
         "context_window": 32000,
         "alias": "mistral-small",
         "capabilities": {
@@ -16091,7 +16091,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "mistral-small",
         "status": "deprecated",
-        "deprecation_date": "November 6, 2025",
+        "deprecation_date": "2025-11-06",
         "context_window": 128000,
         "alias": "mistral-small",
         "capabilities": {
@@ -16255,7 +16255,7 @@ export const providers: ProviderWithModels[] = [
           "mistral-small-2409",
           "mistral-small-2402"
         ],
-        "deprecation_date": "November 30, 2024"
+        "deprecation_date": "2024-11-30"
       },
       {
         "id": "pixtral-12b-2409",
@@ -16265,7 +16265,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "pixtral",
         "status": "deprecated",
-        "deprecation_date": "December 2, 2025",
+        "deprecation_date": "2025-12-02",
         "context_window": 128000,
         "alias": "pixtral-12b",
         "capabilities": {
@@ -16290,7 +16290,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "pixtral",
         "status": "deprecated",
-        "deprecation_date": "December 2, 2025",
+        "deprecation_date": "2025-12-02",
         "context_window": 128000,
         "capabilities": {
           "streaming": true,
@@ -37907,7 +37907,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "active",
-        "deprecation_date": "June 1, 2026",
+        "deprecation_date": "2026-06-01",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -37930,7 +37930,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "active",
-        "deprecation_date": "June 1, 2026",
+        "deprecation_date": "2026-06-01",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -37953,7 +37953,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "deprecated",
-        "deprecation_date": "December 9, 2025",
+        "deprecation_date": "2025-12-09",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -37976,7 +37976,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "deprecated",
-        "deprecation_date": "December 9, 2025",
+        "deprecation_date": "2025-12-09",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -37999,8 +37999,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "active",
-        "deprecation_date": "June 1, 2026",
-        "knowledge_cutoff": "August 2024",
+        "deprecation_date": "2026-06-01",
+        "knowledge_cutoff": "2024-08",
         "context_window": 1048576,
         "max_output_tokens": 8192,
         "capabilities": {
@@ -38032,7 +38032,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "deprecated",
-        "deprecation_date": "December 9, 2025",
+        "deprecation_date": "2025-12-09",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -38055,7 +38055,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "deprecated",
-        "deprecation_date": "November 14, 2025",
+        "deprecation_date": "2025-11-14",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -38078,8 +38078,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.0",
         "status": "active",
-        "deprecation_date": "June 1, 2026",
-        "knowledge_cutoff": "August 2024",
+        "deprecation_date": "2026-06-01",
+        "knowledge_cutoff": "2024-08",
         "context_window": 1048576,
         "max_output_tokens": 8192,
         "capabilities": {
@@ -38142,7 +38142,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "deprecated",
-        "deprecation_date": "January 15, 2026",
+        "deprecation_date": "2026-01-15",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -38165,8 +38165,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "active",
-        "deprecation_date": "October 2, 2026",
-        "knowledge_cutoff": "June 2025",
+        "deprecation_date": "2026-10-02",
+        "knowledge_cutoff": "2025-06",
         "context_window": 65536,
         "max_output_tokens": 32768,
         "capabilities": {
@@ -38198,8 +38198,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "active",
-        "deprecation_date": "March 31, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-03-31",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -38231,8 +38231,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "active",
-        "deprecation_date": "July 22, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-07-22",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -38264,7 +38264,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "active",
-        "knowledge_cutoff": "January 2025",
+        "knowledge_cutoff": "2025-01",
         "context_window": 131072,
         "max_output_tokens": 8192,
         "capabilities": {
@@ -38296,7 +38296,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "deprecated",
-        "deprecation_date": "November 18, 2025",
+        "deprecation_date": "2025-11-18",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -38319,7 +38319,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "active",
-        "knowledge_cutoff": "January 2025",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -38351,7 +38351,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "deprecated",
-        "deprecation_date": "February 17, 2026",
+        "deprecation_date": "2026-02-17",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -38405,8 +38405,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "active",
-        "deprecation_date": "June 17, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-06-17",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -38438,7 +38438,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "deprecated",
-        "deprecation_date": "December 2, 2025",
+        "deprecation_date": "2025-12-02",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -38461,7 +38461,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "deprecated",
-        "deprecation_date": "December 2, 2025",
+        "deprecation_date": "2025-12-02",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -38484,7 +38484,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "deprecated",
-        "deprecation_date": "December 2, 2025",
+        "deprecation_date": "2025-12-02",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -38538,8 +38538,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-2.5",
         "status": "active",
-        "deprecation_date": "June 17, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-06-17",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -38571,8 +38571,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-3",
         "status": "deprecated",
-        "deprecation_date": "December 17, 2025",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2025-12-17",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -38604,8 +38604,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-3",
         "status": "deprecated",
-        "deprecation_date": "November 20, 2025",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2025-11-20",
+        "knowledge_cutoff": "2025-01",
         "context_window": 65536,
         "max_output_tokens": 32768,
         "capabilities": {
@@ -38637,8 +38637,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-3",
         "status": "deprecated",
-        "deprecation_date": "March 9, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-03-09",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -38670,8 +38670,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-3.1",
         "status": "deprecated",
-        "deprecation_date": "February 26, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-02-26",
+        "knowledge_cutoff": "2025-01",
         "context_window": 131072,
         "max_output_tokens": 32768,
         "capabilities": {
@@ -38703,8 +38703,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-3.1",
         "status": "deprecated",
-        "deprecation_date": "March 3, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-03-03",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -38736,8 +38736,8 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-21",
         "family": "gemini-3.1",
         "status": "deprecated",
-        "deprecation_date": "February 19, 2026",
-        "knowledge_cutoff": "January 2025",
+        "deprecation_date": "2026-02-19",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {
@@ -38768,7 +38768,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "active",
-        "deprecation_date": "July 14, 2026",
+        "deprecation_date": "2026-07-14",
         "context_window": 2048,
         "capabilities": {
           "streaming": true,
@@ -38827,7 +38827,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "deprecated",
-        "deprecation_date": "October 30, 2025",
+        "deprecation_date": "2025-10-30",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -38849,7 +38849,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "deprecated",
-        "deprecation_date": "October 30, 2025",
+        "deprecation_date": "2025-10-30",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -38871,7 +38871,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "deprecated",
-        "deprecation_date": "December 9, 2025",
+        "deprecation_date": "2025-12-09",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -38893,7 +38893,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "status": "active",
-        "knowledge_cutoff": "January 2025",
+        "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "capabilities": {

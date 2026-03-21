@@ -11,8 +11,13 @@
     "vision": true
   },
   "modalities": {
-    "input": ["text", "image"],
-    "output": ["text"]
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
   },
   "pricing": {
     "input": 0.5,
@@ -23,5 +28,5 @@
     "magistral-small-2507",
     "magistral-small-2506"
   ],
-  "deprecation_date": "October 31, 2025"
+  "deprecation_date": "2025-10-31"
 }

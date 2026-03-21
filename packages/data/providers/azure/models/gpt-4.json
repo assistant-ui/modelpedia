@@ -5,13 +5,17 @@
   "source": "official",
   "last_updated": "2026-03-21",
   "family": "gpt-4",
-  "knowledge_cutoff": "December 2023",
+  "knowledge_cutoff": "2023-12",
   "capabilities": {
     "streaming": true,
     "vision": true
   },
   "modalities": {
-    "input": ["text"],
-    "output": ["text"]
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
   }
 }

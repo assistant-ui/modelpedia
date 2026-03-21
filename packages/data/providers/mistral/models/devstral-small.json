@@ -12,8 +12,13 @@
     "vision": true
   },
   "modalities": {
-    "input": ["text", "image"],
-    "output": ["text"]
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
   },
   "pricing": {
     "input": 0.1,
@@ -24,5 +29,5 @@
     "devstral-small-2507",
     "devstral-small-2505"
   ],
-  "deprecation_date": "October 31, 2025"
+  "deprecation_date": "2025-10-31"
 }

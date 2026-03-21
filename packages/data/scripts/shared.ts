@@ -80,6 +80,53 @@ export function filterModalities(input: string[], output: string[]) {
   };
 }
 
+// ── Date normalization ──
+
+const MONTH_MAP: Record<string, string> = {
+  jan: "01", january: "01",
+  feb: "02", february: "02",
+  mar: "03", march: "03",
+  apr: "04", april: "04",
+  may: "05",
+  jun: "06", june: "06",
+  jul: "07", july: "07",
+  aug: "08", august: "08",
+  sep: "09", september: "09",
+  oct: "10", october: "10",
+  nov: "11", november: "11",
+  dec: "12", december: "12",
+};
+
+/**
+ * Normalize a date string to YYYY-MM-DD or YYYY-MM format.
+ * Handles: "May 2025", "October 31, 2025", "Sep 2021",
+ *          "May 31, 2024", "2025-05", "2025-05-31", etc.
+ * Returns the original string if it can't be parsed.
+ */
+export function normalizeDate(date: string | null | undefined): string | null {
+  if (!date) return null;
+  const s = date.trim();
+
+  // Already YYYY-MM-DD or YYYY-MM
+  if (/^\d{4}-\d{2}(-\d{2})?$/.test(s)) return s;
+
+  // "Month Day, Year" → "2025-10-31"
+  const mdy = s.match(/^([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})$/);
+  if (mdy) {
+    const mm = MONTH_MAP[mdy[1].toLowerCase()];
+    if (mm) return `${mdy[3]}-${mm}-${String(mdy[2]).padStart(2, "0")}`;
+  }
+
+  // "Month Year" → "2025-10"
+  const my = s.match(/^([A-Za-z]+)\s+(\d{4})$/);
+  if (my) {
+    const mm = MONTH_MAP[my[1].toLowerCase()];
+    if (mm) return `${my[2]}-${mm}`;
+  }
+
+  return s;
+}
+
 // ── Family inference ──
 
 /**
@@ -256,9 +303,14 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     "speed",
   ] as const;
 
+  const DATE_FIELDS = new Set(["release_date", "deprecation_date", "knowledge_cutoff"]);
+
   for (const key of scalars) {
     const val = pick(entry[key], existing?.[key] as any);
-    if (val !== undefined) data[key] = val;
+    if (val !== undefined) {
+      data[key] = DATE_FIELDS.has(key) && typeof val === "string"
+        ? normalizeDate(val) : val;
+    }
   }
 
   const caps = mergeObjects(
