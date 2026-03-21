@@ -27,6 +27,7 @@
     "build": "tsdown",
     "lint": "tsc --noEmit",
     "validate": "bun scripts/validate.ts",
+    "validate:changes": "bun scripts/validate-changes.ts",
     "changes": "bun scripts/detect-changes.ts",
     "fetch:openai": "bun scripts/fetch-openai.ts",
     "fetch:anthropic": "bun scripts/fetch-anthropic.ts",
