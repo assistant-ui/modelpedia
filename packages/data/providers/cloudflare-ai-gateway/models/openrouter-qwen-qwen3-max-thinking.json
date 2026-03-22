@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3-max-thinking",
+  "name": "OpenRouter: qwen/qwen3-max-thinking",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "pricing": {
+    "input": 0.78,
+    "output": 3.9
+  },
+  "_generated": {
+    "name": "556f3461",
+    "family": "48c385a0",
+    "pricing": "ae8907c8"
+  }
+}

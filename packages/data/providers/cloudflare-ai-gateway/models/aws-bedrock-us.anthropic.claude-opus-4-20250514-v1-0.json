@@ -1,0 +1,15 @@
+{
+  "id": "aws-bedrock/us.anthropic.claude-opus-4-20250514-v1:0",
+  "name": "Amazon Bedrock: us.anthropic.claude-opus-4-20250514-v1:0",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 15,
+    "output": 75
+  },
+  "_generated": {
+    "name": "50c9f8e2",
+    "pricing": "678b0410"
+  }
+}

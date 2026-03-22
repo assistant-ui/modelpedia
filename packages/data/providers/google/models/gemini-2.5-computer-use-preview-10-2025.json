@@ -3,7 +3,7 @@
   "name": "gemini-2.5-computer-use-preview-10-2025",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "gemini-2.5",
   "status": "active",
   "context_window": 128000,
@@ -20,6 +20,27 @@
     "input": ["text", "image", "video", "audio"],
     "output": ["text", "image"]
   },
+  "pricing": {
+    "input": 1.25,
+    "output": 10,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.25, null, 10]
+          },
+          {
+            "label": "Batch",
+            "values": [null, null, null]
+          }
+        ]
+      }
+    ]
+  },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
   "_generated": {
@@ -28,6 +49,7 @@
     "context_window": "34434798",
     "max_output_tokens": "762e98db",
     "family": "ea6b88bf",
+    "pricing": "85718a80",
     "capabilities": "29b57eef",
     "modalities": "08235294",
     "tools": "f0c1dc7e",

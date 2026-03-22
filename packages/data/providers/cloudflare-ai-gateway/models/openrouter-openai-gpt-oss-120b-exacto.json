@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/gpt-oss-120b:exacto",
+  "name": "OpenRouter: openai/gpt-oss-120b:exacto",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-oss",
+  "pricing": {
+    "input": 0.049999999999999996,
+    "output": 0.24
+  },
+  "_generated": {
+    "name": "e2f66c74",
+    "family": "82d0cb0b",
+    "pricing": "c4508221"
+  }
+}

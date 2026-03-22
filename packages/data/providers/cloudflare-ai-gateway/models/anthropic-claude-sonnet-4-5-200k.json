@@ -1,0 +1,17 @@
+{
+  "id": "anthropic/claude-sonnet-4-5-200k",
+  "name": "Anthropic: claude-sonnet-4-5-200k",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-sonnet",
+  "pricing": {
+    "input": 6,
+    "output": 22.5
+  },
+  "_generated": {
+    "name": "bee4b8fd",
+    "family": "68d1c457",
+    "pricing": "a2d58c19"
+  }
+}

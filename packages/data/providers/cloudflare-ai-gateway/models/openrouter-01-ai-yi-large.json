@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/01-ai/yi-large",
+  "name": "OpenRouter: 01-ai/yi-large",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 3,
+    "output": 3
+  },
+  "_generated": {
+    "name": "7f4de85e",
+    "pricing": "7548a914"
+  }
+}

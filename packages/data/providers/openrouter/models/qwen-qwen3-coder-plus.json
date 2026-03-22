@@ -29,6 +29,8 @@
     "family": "48c385a0",
     "pricing": "07be3c6b",
     "capabilities": "ad177261",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "b6cc3ff4"
+  },
+  "model_type": "code"
 }

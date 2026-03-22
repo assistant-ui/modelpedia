@@ -1,6 +1,8 @@
+import { fetchText, stripHtml } from "./parse.ts";
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -10,8 +12,9 @@ import {
  * No API key needed — scrapes public pages.
  */
 
-const MODELS_PAGE = "https://www.together.ai/models";
-const MODEL_DETAIL_BASE = "https://www.together.ai/models/";
+const sources = readSources("together");
+const MODELS_PAGE = sources.docs as string;
+const MODEL_DETAIL_BASE = `${(sources.docs as string).replace(/\/$/, "")}/`;
 
 interface TogetherModel {
   slug: string;
@@ -26,8 +29,7 @@ interface TogetherModel {
 // ── Get model slugs from listing page ──
 
 async function fetchModelSlugs(): Promise<string[]> {
-  const res = await fetch(MODELS_PAGE);
-  const html = await res.text();
+  const html = await fetchText(MODELS_PAGE);
   return [
     ...new Set(
       [...html.matchAll(/href="\/models\/([\w.-]+)"/g)].map((m) => m[1]),
@@ -38,10 +40,13 @@ async function fetchModelSlugs(): Promise<string[]> {
 // ── Fetch model detail page ──
 
 async function fetchDetail(slug: string): Promise<TogetherModel | null> {
-  const res = await fetch(`${MODEL_DETAIL_BASE}${slug}`);
-  if (!res.ok) return null;
-  const html = await res.text();
-  const text = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+  let html: string;
+  try {
+    html = await fetchText(`${MODEL_DETAIL_BASE}${slug}`);
+  } catch {
+    return null;
+  }
+  const text = stripHtml(html);
 
   // Find API model ID — pattern like "Qwen/Qwen3.5-397B-A17B"
   const apiIdMatch = html.match(

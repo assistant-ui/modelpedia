@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/morph/morph-v3-large",
+  "name": "OpenRouter: morph/morph-v3-large",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.8999999999999999,
+    "output": 1.9
+  },
+  "_generated": {
+    "name": "4e459d37",
+    "pricing": "8e678648"
+  }
+}

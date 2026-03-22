@@ -1,0 +1,15 @@
+{
+  "id": "azure-openai/model-router",
+  "name": "Azure OpenAI: model-router",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.14,
+    "output": 0
+  },
+  "_generated": {
+    "name": "3d2d4e97",
+    "pricing": "a38c61d4"
+  }
+}

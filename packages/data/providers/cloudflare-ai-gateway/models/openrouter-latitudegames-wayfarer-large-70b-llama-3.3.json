@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/latitudegames/wayfarer-large-70b-llama-3.3",
+  "name": "OpenRouter: latitudegames/wayfarer-large-70b-llama-3.3",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.7999999999999999,
+    "output": 0.8999999999999999
+  },
+  "_generated": {
+    "name": "a7b1a8b2",
+    "pricing": "f7b816be"
+  }
+}

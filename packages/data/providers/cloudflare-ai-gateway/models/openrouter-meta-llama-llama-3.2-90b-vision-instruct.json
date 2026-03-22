@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/meta-llama/llama-3.2-90b-vision-instruct",
+  "name": "OpenRouter: meta-llama/llama-3.2-90b-vision-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.2",
+  "pricing": {
+    "input": 0.35,
+    "output": 0.39999999999999997
+  },
+  "_generated": {
+    "name": "f71b4681",
+    "family": "d4c42ce9",
+    "pricing": "6c0552c7"
+  }
+}

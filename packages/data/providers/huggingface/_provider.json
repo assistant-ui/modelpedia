@@ -5,5 +5,12 @@
   "url": "https://huggingface.co",
   "api_url": "https://router.huggingface.co/v1",
   "docs_url": "https://huggingface.co/docs/api-inference",
-  "pricing_url": "https://huggingface.co/pricing"
+  "pricing_url": "https://huggingface.co/pricing",
+  "description": "The AI community platform hosting open-source models with serverless inference endpoints.",
+  "type": "aggregator",
+  "sdk": {
+    "python": "huggingface_hub",
+    "javascript": "@huggingface/inference"
+  },
+  "free_tier": true
 }

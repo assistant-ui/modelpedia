@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-4o-search-preview-2025-03-11",
+  "name": "OpenAI: gpt-4o-search-preview-2025-03-11",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4o",
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  },
+  "_generated": {
+    "name": "f8e13a95",
+    "family": "15249632",
+    "pricing": "cf1c6d02"
+  }
+}

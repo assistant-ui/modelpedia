@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen2.5-coder-7b-instruct",
+  "name": "OpenRouter: qwen/qwen2.5-coder-7b-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen2.5",
+  "pricing": {
+    "input": 0.03,
+    "output": 0.09
+  },
+  "_generated": {
+    "name": "bb6fdd02",
+    "family": "45d84b68",
+    "pricing": "1ed0cad2"
+  }
+}

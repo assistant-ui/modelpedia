@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/databricks/dbrx-instruct",
+  "name": "OpenRouter: databricks/dbrx-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1.2,
+    "output": 1.2
+  },
+  "_generated": {
+    "name": "5e6fbe03",
+    "pricing": "e8b0a8a5"
+  }
+}

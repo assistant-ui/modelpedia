@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/mistralai/mistral-small-24b-instruct-2501",
+  "name": "OpenRouter: mistralai/mistral-small-24b-instruct-2501",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "mistral-small",
+  "pricing": {
+    "input": 0.049999999999999996,
+    "output": 0.08
+  },
+  "_generated": {
+    "name": "126fccee",
+    "family": "275918a5",
+    "pricing": "574f99cf"
+  }
+}

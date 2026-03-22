@@ -1,6 +1,8 @@
+import { fetchJson } from "./parse.ts";
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -10,8 +12,8 @@ import {
  * No API key needed.
  */
 
-const API_URL =
-  "https://huggingface.co/api/models?author=meta-llama&pipeline_tag=text-generation&sort=downloads&direction=-1&limit=100";
+const sources = readSources("meta");
+const API_URL = sources.api as string;
 
 // Known specs for Llama models (from official docs)
 const KNOWN_SPECS: Record<string, { context: number; maxOutput?: number }> = {
@@ -42,13 +44,14 @@ function findSpecs(id: string): { context?: number; maxOutput?: number } {
 async function main() {
   console.log("Fetching Meta Llama models...");
 
-  const res = await fetch(API_URL);
-  if (!res.ok) throw new Error(`Failed: ${res.status}`);
-  const models = (await res.json()) as {
-    id: string;
-    downloads: number;
-    tags: string[];
-  }[];
+  const models =
+    await fetchJson<
+      {
+        id: string;
+        downloads: number;
+        tags: string[];
+      }[]
+    >(API_URL);
 
   // Filter to instruct/chat models
   const chatModels = models.filter((m) => {

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/mancer/weaver",
+  "name": "OpenRouter: mancer/weaver",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.75,
+    "output": 1
+  },
+  "_generated": {
+    "name": "47c932a2",
+    "pricing": "be364ce6"
+  }
+}

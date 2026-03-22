@@ -1,0 +1,23 @@
+{
+  "id": "wan2.6-t2v",
+  "name": "wan2.6-t2v",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "video",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "ef2465ff",
+    "model_type": "4d1b75ca",
+    "capabilities": "0fa77dc6",
+    "modalities": "d65b34d6",
+    "endpoints": "75df3f1c"
+  }
+}

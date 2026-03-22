@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/microsoft/phi-4-reasoning-plus",
+  "name": "OpenRouter: microsoft/phi-4-reasoning-plus",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "reasoning",
+  "pricing": {
+    "input": 0.07,
+    "output": 0.35
+  },
+  "_generated": {
+    "name": "ba354215",
+    "model_type": "17475f7f",
+    "pricing": "eed7c9fc"
+  }
+}

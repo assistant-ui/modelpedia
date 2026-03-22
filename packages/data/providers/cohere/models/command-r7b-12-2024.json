@@ -3,11 +3,13 @@
   "name": "command-r7b-12-2024",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "description": "N/A",
   "status": "active",
   "context_window": 128000,
   "max_output_tokens": 4000,
+  "model_type": "chat",
+  "tagline": "command-r7b-12-2024 is a small, fast update delivered in December 2024.",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -17,15 +19,22 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "tagline": "command-r7b-12-2024 is a small, fast update delivered in December 2024.",
+  "pricing": {
+    "input": 1,
+    "output": 2
+  },
+  "endpoints": ["chat"],
   "_generated": {
     "name": "ff113811",
     "description": "4c512595",
-    "tagline": "01cfb07c",
     "status": "379ac110",
     "context_window": "34434798",
     "max_output_tokens": "1bd69c7d",
+    "model_type": "d669f408",
+    "tagline": "01cfb07c",
     "capabilities": "a281e83a",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "ac91204c",
+    "endpoints": "75df3f1c"
   }
 }

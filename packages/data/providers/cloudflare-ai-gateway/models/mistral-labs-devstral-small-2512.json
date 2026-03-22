@@ -1,0 +1,12 @@
+{
+  "id": "mistral/labs-devstral-small-2512",
+  "name": "Mistral: labs-devstral-small-2512",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "_generated": {
+    "name": "467c98af",
+    "model_type": "d669f408"
+  }
+}

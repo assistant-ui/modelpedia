@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/arcee-ai/trinity-mini-20251201",
+  "name": "OpenRouter: arcee-ai/trinity-mini-20251201",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.045,
+    "output": 0.15
+  },
+  "_generated": {
+    "name": "f339acf0",
+    "pricing": "9f780018"
+  }
+}

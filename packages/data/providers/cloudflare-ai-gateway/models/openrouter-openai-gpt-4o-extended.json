@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/gpt-4o:extended",
+  "name": "OpenRouter: openai/gpt-4o:extended",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4o",
+  "pricing": {
+    "input": 6,
+    "output": 18
+  },
+  "_generated": {
+    "name": "7daea5b1",
+    "family": "15249632",
+    "pricing": "d0db174c"
+  }
+}

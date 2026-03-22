@@ -3,7 +3,8 @@
   "name": "Stable Image Inpaint",
   "created_by": "stability",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
+  "model_type": "image",
   "capabilities": {
     "vision": true
   },
@@ -13,6 +14,7 @@
   },
   "_generated": {
     "name": "7e607eaa",
+    "model_type": "db8857fe",
     "capabilities": "d3117eb0",
     "modalities": "09b7b646"
   }

@@ -1,0 +1,6 @@
+{
+  "models": "https://ai.google.dev/gemini-api/docs/models",
+  "pricing": "https://ai.google.dev/gemini-api/docs/pricing",
+  "deprecations": "https://ai.google.dev/gemini-api/docs/deprecations",
+  "api": "https://generativelanguage.googleapis.com/v1beta/models"
+}

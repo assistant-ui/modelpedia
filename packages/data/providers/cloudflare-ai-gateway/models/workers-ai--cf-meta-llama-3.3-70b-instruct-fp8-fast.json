@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "name": "Workers AI: @cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.29,
+    "output": 2.25
+  },
+  "_generated": {
+    "name": "5ce07943",
+    "pricing": "b2ec3caf"
+  }
+}

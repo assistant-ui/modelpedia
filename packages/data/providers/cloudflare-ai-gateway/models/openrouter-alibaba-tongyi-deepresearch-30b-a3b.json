@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/alibaba/tongyi-deepresearch-30b-a3b",
+  "name": "OpenRouter: alibaba/tongyi-deepresearch-30b-a3b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.09,
+    "output": 0.44999999999999996
+  },
+  "_generated": {
+    "name": "3ee9dce3",
+    "pricing": "8f83c0dc"
+  }
+}

@@ -3,7 +3,8 @@
   "name": "NVIDIA Nemotron Nano 12B v2 VL BF16",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -14,6 +15,7 @@
   },
   "_generated": {
     "name": "dec015e3",
+    "model_type": "d669f408",
     "capabilities": "8a3b232e",
     "modalities": "ce37f4ca"
   }

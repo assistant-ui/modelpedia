@@ -1,6 +1,8 @@
+import { fetchText } from "./parse.ts";
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -10,150 +12,122 @@ import {
  * No API key needed — .md endpoint.
  */
 
-const DOCS_MD = "https://www.alibabacloud.com/help/en/model-studio/models.md";
-
-function stripHtml(s: string): string {
-  return s
-    .replace(/<[^>]+>/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function parseDollar(s: string): number | undefined {
-  const m = s.match(/\$([\d.]+)/);
-  return m ? Number(m[1]) : undefined;
-}
+const sources = readSources("alibaba");
+const DOCS_MD = sources.docs as string;
 
 async function main() {
   console.log("Fetching Alibaba Cloud models from docs...");
 
-  const res = await fetch(DOCS_MD);
-  if (!res.ok) throw new Error(`Failed: ${res.status}`);
-  const md = await res.text();
+  const md = await fetchText(DOCS_MD);
 
-  // Parse HTML tables for flagship models
-  // Format: table with model names in header, rows for context/pricing
-  const tables = [...md.matchAll(/<table>([\s\S]*?)<\/table>/g)];
-  console.log(`Found ${tables.length} tables`);
-
-  const models = new Map<
-    string,
-    { context?: number; input?: number; output?: number }
-  >();
-
-  for (const table of tables) {
-    const rows = [...table[1].matchAll(/<tr>([\s\S]*?)<\/tr>/g)];
-    if (rows.length < 3) continue;
-
-    // Header row: extract model names
-    const headerCells = [...rows[0][1].matchAll(/<td>([\s\S]*?)<\/td>/g)];
-    const names = headerCells
-      .map((c) => {
-        const bold = c[1].match(/<b>(Qwen[\w.-]+)<\/b>/);
-        return bold ? bold[1] : null;
-      })
-      .filter(Boolean) as string[];
-
-    if (names.length === 0) continue;
-
-    // Parse data rows
-    for (const row of rows.slice(1)) {
-      const cells = [...row[1].matchAll(/<td>([\s\S]*?)<\/td>/g)];
-      const texts = cells.map((c) => stripHtml(c[1]));
-      if (texts.length < 2) continue;
-
-      const label = texts[0].toLowerCase();
-
-      for (let i = 0; i < names.length; i++) {
-        const val = texts[i + 1];
-        if (!val) continue;
-        const name = names[i];
-        const existing = models.get(name) ?? {};
-
-        if (label.includes("context")) {
-          const num = val.replace(/,/g, "");
-          const n = Number(num);
-          if (n > 0 && (!existing.context || n > existing.context)) {
-            existing.context = n;
-          }
-        } else if (label.includes("input price")) {
-          const p = parseDollar(val);
-          if (p != null && (!existing.input || p < existing.input)) {
-            existing.input = p;
-          }
-        } else if (label.includes("output price")) {
-          const p = parseDollar(val);
-          if (p != null && (!existing.output || p < existing.output)) {
-            existing.output = p;
-          }
-        }
-
-        models.set(name, existing);
-      }
-    }
-  }
-
-  // Also extract model IDs from the full text (API IDs like qwen-max, qwen3-max etc.)
-  const apiIds = [
-    ...new Set(
-      [...md.matchAll(/(?:^|\s)(qwen[\w.-]+?)(?:\s|$|\.|\))/gm)]
-        .map((m) => m[1])
-        .filter(
-          (id) =>
-            !id.endsWith(".") &&
-            !id.includes("http") &&
-            id.length > 4 &&
-            id.length < 50,
-        ),
-    ),
-  ];
-
-  console.log(
-    `Parsed ${models.size} models from tables, ${apiIds.length} API IDs from text`,
-  );
-
+  // Split by ### headings to get per-model sections
+  const parts = md.split(/^###\s+/m);
   let written = 0;
+  const seen = new Set<string>();
 
-  // Write table models (flagship, have pricing)
-  for (const [name, spec] of models) {
-    const id = name.toLowerCase();
+  for (const part of parts) {
+    const tableMatch = part.match(/<table>([\s\S]*?)<\/table>/);
+    if (!tableMatch) continue;
 
-    const entry: ModelEntry = {
-      id,
-      name,
-      created_by: "qwen",
-      family: inferFamily(id),
-      context_window: spec.context,
-      capabilities: {
-        streaming: true,
-        tool_call: true,
-        ...(id.includes("max") ? { reasoning: true } : {}),
-      },
-    };
+    const rows = [...tableMatch[1].matchAll(/<tr>([\s\S]*?)<\/tr>/g)];
 
-    if (spec.input != null && spec.output != null) {
-      entry.pricing = { input: spec.input, output: spec.output };
+    for (const row of rows) {
+      const cells = [...row[1].matchAll(/<td>([\s\S]*?)<\/td>/g)].map((c) =>
+        c[1]
+          .replace(/<[^>]+>/g, " ")
+          .replace(/\s+/g, " ")
+          .trim(),
+      );
+
+      if (cells.length < 3) continue;
+
+      // Find model ID (starts with qwen, qwq, wan, wanx)
+      const modelId = cells[0].match(
+        /(qwen[\w.-]+|qwq[\w.-]*|wanx?[\w.-]+)/i,
+      )?.[1];
+      if (!modelId) continue;
+      // Skip snapshots and latest pointers
+      if (
+        modelId.includes("latest") ||
+        /-\d{4}-\d{2}-\d{2}/.test(modelId) ||
+        seen.has(modelId)
+      )
+        continue;
+      seen.add(modelId);
+
+      // Extract pricing (columns with exactly "$X.XX" format)
+      const prices = cells
+        .map((c) => c.match(/^\$([\d.]+)$/)?.[1])
+        .filter(Boolean)
+        .map(Number);
+      const input = prices.length >= 2 ? prices[0] : undefined;
+      const output = prices.length >= 2 ? prices[1] : undefined;
+
+      // Extract context window (large number in a cell)
+      let context_window: number | undefined;
+      for (const c of cells) {
+        const num = Number(c.replace(/,/g, ""));
+        if (num >= 1000 && !c.includes("$")) {
+          context_window = num;
+          break;
+        }
+      }
+
+      // Extract max output tokens
+      let max_output_tokens: number | undefined;
+      // Usually the column after context window
+      const ctxIdx = cells.findIndex(
+        (c) => Number(c.replace(/,/g, "")) >= 1000 && !c.includes("$"),
+      );
+      if (ctxIdx >= 0 && ctxIdx + 2 < cells.length) {
+        // Skip max input column, get max output
+        const outVal = Number(cells[ctxIdx + 2]?.replace(/,/g, ""));
+        if (outVal > 0 && outVal < 1_000_000) max_output_tokens = outVal;
+      }
+
+      // Detect capabilities from model ID and cell text
+      const allText = cells.join(" ").toLowerCase();
+      const capabilities: Record<string, boolean> = { streaming: true };
+      if (allText.includes("tool") || allText.includes("agent"))
+        capabilities.tool_call = true;
+      if (
+        allText.includes("vision") ||
+        allText.includes("image") ||
+        modelId.includes("vl") ||
+        modelId.includes("vision")
+      )
+        capabilities.vision = true;
+      if (allText.includes("thinking") || modelId.includes("qwq"))
+        capabilities.reasoning = true;
+
+      // Detect modalities
+      const inputMods: string[] = ["text"];
+      if (capabilities.vision) inputMods.push("image");
+      if (modelId.includes("omni") || allText.includes("audio"))
+        inputMods.push("audio");
+      if (modelId.includes("vl") || allText.includes("video"))
+        inputMods.push("video");
+      const outputMods: string[] = ["text"];
+      if (allText.includes("audio output")) outputMods.push("audio");
+
+      const entry: ModelEntry = {
+        id: modelId,
+        name: modelId,
+        created_by: "qwen",
+        family: inferFamily(modelId),
+        context_window,
+        max_output_tokens,
+        capabilities,
+        modalities: { input: inputMods, output: outputMods },
+        endpoints: ["chat"],
+      };
+
+      if (input != null && output != null) {
+        entry.pricing = { input, output };
+      }
+
+      written += upsertWithSnapshot("alibaba", entry);
     }
-
-    written += upsertWithSnapshot("alibaba", entry);
-  }
-
-  // Write API-only models not in tables
-  for (const id of apiIds) {
-    if (models.has(id) || models.has(id.charAt(0).toUpperCase() + id.slice(1)))
-      continue;
-    // Skip dated snapshots, keep only base names
-    if (/\d{4}-\d{2}-\d{2}/.test(id)) continue;
-
-    const entry: ModelEntry = {
-      id,
-      name: id,
-      created_by: "qwen",
-      family: inferFamily(id),
-      capabilities: { streaming: true, tool_call: true },
-    };
-
-    written += upsertWithSnapshot("alibaba", entry);
   }
 
   console.log(`Wrote ${written} models`);

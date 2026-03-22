@@ -1,0 +1,15 @@
+{
+  "id": "cohere/command-a",
+  "name": "Cohere: command-a",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  },
+  "_generated": {
+    "name": "cb6c8790",
+    "pricing": "cf1c6d02"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "azure-openai/mistral-nemo",
+  "name": "Azure OpenAI: mistral-nemo",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.15
+  },
+  "_generated": {
+    "name": "9930025a",
+    "pricing": "16a72b67"
+  }
+}

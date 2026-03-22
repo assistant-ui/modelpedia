@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/mistralai/mistral-7b-instruct",
+  "name": "OpenRouter: mistralai/mistral-7b-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "7b68c1c4",
+    "pricing": "4a55a07f"
+  }
+}

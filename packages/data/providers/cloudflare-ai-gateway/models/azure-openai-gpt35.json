@@ -1,0 +1,15 @@
+{
+  "id": "azure-openai/gpt35",
+  "name": "Azure OpenAI: gpt35",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1.5,
+    "output": 2
+  },
+  "_generated": {
+    "name": "31668a64",
+    "pricing": "1f3e596f"
+  }
+}

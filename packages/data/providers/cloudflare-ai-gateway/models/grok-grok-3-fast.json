@@ -1,0 +1,17 @@
+{
+  "id": "grok/grok-3-fast",
+  "name": "xAI: grok-3-fast",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "grok-3",
+  "pricing": {
+    "input": 5,
+    "output": 25
+  },
+  "_generated": {
+    "name": "30b0434d",
+    "family": "c41798c6",
+    "pricing": "be2d1ab0"
+  }
+}

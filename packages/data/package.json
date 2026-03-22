@@ -28,7 +28,8 @@
     "fetch:fireworks": "bun scripts/fetch-fireworks.ts",
     "fetch:amazon": "bun scripts/fetch-amazon.ts",
     "fetch:vercel": "bun scripts/fetch-vercel.ts",
-    "fetch:cloudflare": "bun scripts/fetch-cloudflare.ts",
+    "fetch:cloudflare-workers-ai": "bun scripts/fetch-cloudflare-workers-ai.ts",
+    "fetch:cloudflare-ai-gateway": "bun scripts/fetch-cloudflare-ai-gateway.ts",
     "fetch:zai": "bun scripts/fetch-zai.ts",
     "fetch:opencode": "bun scripts/fetch-opencode.ts",
     "fetch:ollama": "bun scripts/fetch-ollama.ts",
@@ -42,7 +43,7 @@
     "fetch:vertex": "bun scripts/fetch-vertex.ts",
     "fetch:moonshot": "bun scripts/fetch-moonshot.ts",
     "fetch:cursor": "bun scripts/fetch-cursor.ts",
-    "fetch:all": "bun run fetch:openai && bun run fetch:anthropic && bun run fetch:google && bun run fetch:mistral && bun run fetch:deepseek && bun run fetch:xai && bun run fetch:cohere && bun run fetch:zai && bun run fetch:minimax && bun run fetch:alibaba && bun run fetch:meta && bun run fetch:moonshot && bun run fetch:cerebras && bun run fetch:baseten && bun run fetch:openrouter && bun run fetch:perplexity && bun run fetch:azure && bun run fetch:groq && bun run fetch:nvidia && bun run fetch:together && bun run fetch:fireworks && bun run fetch:amazon && bun run fetch:vercel && bun run fetch:vertex && bun run fetch:cloudflare && bun run fetch:opencode && bun run fetch:ollama && bun run fetch:huggingface && bun run fetch:qwen && bun run fetch:cursor"
+    "fetch:all": "bun run fetch:openai && bun run fetch:anthropic && bun run fetch:google && bun run fetch:mistral && bun run fetch:deepseek && bun run fetch:xai && bun run fetch:cohere && bun run fetch:zai && bun run fetch:minimax && bun run fetch:alibaba && bun run fetch:meta && bun run fetch:moonshot && bun run fetch:cerebras && bun run fetch:baseten && bun run fetch:openrouter && bun run fetch:perplexity && bun run fetch:azure && bun run fetch:groq && bun run fetch:nvidia && bun run fetch:together && bun run fetch:fireworks && bun run fetch:amazon && bun run fetch:vercel && bun run fetch:vertex && bun run fetch:cloudflare-workers-ai && bun run fetch:cloudflare-ai-gateway && bun run fetch:opencode && bun run fetch:ollama && bun run fetch:huggingface && bun run fetch:qwen && bun run fetch:cursor"
   },
   "devDependencies": {
     "typescript": "catalog:"

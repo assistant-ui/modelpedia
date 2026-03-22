@@ -1,0 +1,24 @@
+{
+  "id": "wan2.2-s2v",
+  "name": "wan2.2-s2v",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "video",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio", "video"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "ce1c91ff",
+    "model_type": "4d1b75ca",
+    "capabilities": "8a3b232e",
+    "modalities": "0843b982",
+    "endpoints": "75df3f1c"
+  }
+}

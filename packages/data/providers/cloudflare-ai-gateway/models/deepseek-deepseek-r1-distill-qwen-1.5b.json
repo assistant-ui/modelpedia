@@ -1,0 +1,17 @@
+{
+  "id": "deepseek/deepseek-r1-distill-qwen-1.5b",
+  "name": "DeepSeek: deepseek-r1-distill-qwen-1.5b",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek-r1",
+  "pricing": {
+    "input": 0.18,
+    "output": 0.18
+  },
+  "_generated": {
+    "name": "62d09681",
+    "family": "c74cfb8e",
+    "pricing": "bd10cf29"
+  }
+}

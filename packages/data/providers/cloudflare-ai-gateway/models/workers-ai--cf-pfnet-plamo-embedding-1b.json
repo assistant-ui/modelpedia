@@ -1,0 +1,17 @@
+{
+  "id": "workers-ai/@cf/pfnet/plamo-embedding-1b",
+  "name": "Workers AI: @cf/pfnet/plamo-embedding-1b",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "embed",
+  "pricing": {
+    "input": 0.019000000000000003,
+    "output": 0
+  },
+  "_generated": {
+    "name": "b0c66495",
+    "model_type": "764cb3de",
+    "pricing": "78d37717"
+  }
+}

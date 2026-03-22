@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/bge-base-en-v1.5",
+  "name": "Workers AI: bge-base-en-v1.5",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 67000,
+    "output": 0
+  },
+  "_generated": {
+    "name": "b6b392fb",
+    "pricing": "a45bb9f0"
+  }
+}

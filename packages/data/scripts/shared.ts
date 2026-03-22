@@ -8,6 +8,13 @@ const ROOT = path.resolve(import.meta.dirname, "..");
 export const PROVIDERS_DIR = path.join(ROOT, "providers");
 // ── IO ──
 
+/** Read _sources.json for a provider. */
+export function readSources(provider: string): Record<string, unknown> {
+  const filePath = path.join(PROVIDERS_DIR, provider, "_sources.json");
+  if (!fs.existsSync(filePath)) return {};
+  return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+}
+
 export function readModelJson(
   provider: string,
   modelId: string,
@@ -238,19 +245,42 @@ export function inferModelType(
   modelId: string,
   endpoints?: string[],
 ): string | undefined {
-  const id = modelId.toLowerCase();
+  // Strip provider prefix (e.g. "stability.sd3-5-large" → "sd3-5-large")
+  const raw = modelId.toLowerCase();
+  const dotIdx = raw.indexOf(".");
+  const id = dotIdx > 0 ? raw.slice(dotIdx + 1) : raw;
 
   // Embedding
   if (/^text-embedding|embed/i.test(id)) return "embed";
   // Image generation
-  if (/^(dall-e|chatgpt-image|gpt-image|stable-diffusion|flux|sdxl)/i.test(id))
+  if (
+    /^(dall-e|chatgpt-image|gpt-image|stable-diffusion|flux|sdxl|imagen)/i.test(
+      id,
+    )
+  )
     return "image";
   if (/^grok-imagine/i.test(id)) return "image";
+  if (/^recraft/i.test(id)) return "image";
+  if (/^wanx?[\d.]+-t2i|^wanx?[\d.]+-image/i.test(id)) return "image";
+  if (/^stable[-_](?:diffusion|image)|^sd\d/i.test(id)) return "image";
+  if (/^titan[-_]image/i.test(id)) return "image";
+  if (/^nova[-_]canvas/i.test(id)) return "image";
+  if (/^stable[-_](?:outpaint|style|conservative|creative|fast)/i.test(id))
+    return "image";
+  if (/^titan[-_]e/i.test(id)) return "embed";
   // Video generation
-  if (/^sora/i.test(id)) return "video";
-  // TTS
+  if (/^(sora|veo|seedance|kling)/i.test(id)) return "video";
+  if (/^wanx?[\d.]+-(?:t2v|i2v|kf2v|r2v|s2v|vace|animate)/i.test(id))
+    return "video";
+  if (/^nova[-_]reel|^ray[-_]v/i.test(id)) return "video";
+  if (/^pegasus/i.test(id)) return "video";
+  // TTS / music / audio
   if (/^tts-|[-_]tts(?:[-_]|$)/i.test(id)) return "tts";
   if (/^orpheus/i.test(id)) return "tts";
+  if (/^lyria/i.test(id)) return "tts";
+  if (/^nova[-_]sonic|^voxtral/i.test(id)) return "audio";
+  // Deep research
+  if (/^deep-research/i.test(id)) return "reasoning";
   // Transcription / ASR
   if (/^whisper|transcribe|^asr/i.test(id)) return "transcription";
   // Moderation
@@ -259,10 +289,28 @@ export function inferModelType(
   if (/rerank/i.test(id)) return "rerank";
   // Code (dedicated code models, not code-capable chat models)
   if (/^codestral|^devstral/i.test(id)) return "code";
+  // Reasoning (generic, after specific o-series/deepseek checks)
+  if (/reasoning/i.test(id)) return "reasoning";
+  // Translation
+  if (/translate/i.test(id)) return "translation";
+  // Qwen-specific: coder → code, omni with audio → audio
+  if (/^qwen.*coder/i.test(id)) return "code";
+  if (/^qwen.*omni/i.test(id)) return "chat"; // multimodal chat
+  // Chat models (after more specific patterns above)
+  if (/^command|^c4ai-aya|^qwen/i.test(id)) return "chat";
+  if (/^nova[-_](?:pro|lite|micro|premier|2)/i.test(id)) return "chat";
+  if (/^llama|^jamba|^palmyra|^mixtral|^mistral|^ministral|^pixtral/i.test(id))
+    return "chat";
+  if (/^titan[-_]t/i.test(id)) return "chat";
+  if (/^glm|^kimi|^nemotron|^minimax|^gpt-oss-\d/i.test(id)) return "chat";
+  if (/^claude/i.test(id)) return "chat";
+  if (/^gemma/i.test(id)) return "chat";
+  if (/^r1|^v3/i.test(id)) return "chat"; // deepseek on bedrock: r1-v1:0, v3-v1:0
   // Reasoning
   if (/^(o\d+)(?:-|$)/.test(id)) return "reasoning";
   if (/^deepseek-r\d/i.test(id)) return "reasoning";
   if (/^qwq/i.test(id)) return "reasoning";
+  if (/^kimi.*thinking|^magistral/i.test(id)) return "reasoning";
   // Guard / safety
   if (/guard|safeguard/i.test(id)) return "moderation";
   // Endpoint-based inference
@@ -275,38 +323,49 @@ export function inferModelType(
   return undefined;
 }
 
+// ── Pricing helper ──
+
+/**
+ * Build a pricing object from a source record, only including non-null fields.
+ * Eliminates the repeated pattern of checking each pricing field individually.
+ */
+export function buildPricing(source: {
+  input?: number | null;
+  output?: number | null;
+  cached_input?: number | null;
+  cache_write?: number | null;
+  batch_input?: number | null;
+  batch_output?: number | null;
+  tiers?: unknown;
+}): Record<string, unknown> | undefined {
+  const p: Record<string, unknown> = {};
+  if (source.input != null) p.input = source.input;
+  if (source.output != null) p.output = source.output;
+  if (source.cached_input != null) p.cached_input = source.cached_input;
+  if (source.cache_write != null) p.cache_write = source.cache_write;
+  if (source.batch_input != null) p.batch_input = source.batch_input;
+  if (source.batch_output != null) p.batch_output = source.batch_output;
+  if (source.tiers != null) p.tiers = source.tiers;
+  return Object.keys(p).length > 0 ? p : undefined;
+}
+
 // ── Upsert ──
 
-export interface ModelEntry {
+import type { ModelData } from "../src/types";
+
+/**
+ * Entry passed to upsertModel. All fields optional except id/name.
+ * `source` and `last_updated` are set automatically.
+ * `pricing` accepts any record (tiers are handled internally).
+ */
+export type ModelEntry = Omit<
+  Partial<ModelData>,
+  "id" | "name" | "source" | "last_updated" | "pricing"
+> & {
   id: string;
   name: string;
-  created_by?: string;
-  family?: string;
-  description?: string;
-  tagline?: string;
-  status?: "active" | "deprecated" | "preview";
-  release_date?: string | null;
-  deprecation_date?: string | null;
-  knowledge_cutoff?: string | null;
-  context_window?: number | null;
-  max_context_window?: number | null;
-  max_output_tokens?: number | null;
-  max_input_tokens?: number | null;
-  capabilities?: Record<string, boolean>;
-  modalities?: { input?: string[]; output?: string[] };
-  pricing?: Record<string, number | null>;
-  model_type?: string;
-  tools?: string[];
-  endpoints?: string[];
-  reasoning_tokens?: boolean;
-  snapshots?: string[];
-  alias?: string;
-  performance?: number;
-  reasoning?: number;
-  speed?: number;
-  successor?: string;
-  pricing_notes?: string[];
-}
+  pricing?: Record<string, unknown>;
+};
 
 function mergeObjects(
   existing: Record<string, unknown> | undefined,
@@ -332,6 +391,59 @@ function pick<T>(...values: (T | undefined)[]): T | undefined {
     if (v !== undefined) return v;
   }
   return undefined;
+}
+
+// Fields excluded from change tracking (metadata, not model data)
+const GENERATED_SKIP = new Set([
+  "id",
+  "created_by",
+  "source",
+  "last_updated",
+  "_generated",
+  "snapshots",
+  "alias",
+]);
+
+/**
+ * Protect user-edited fields from being overwritten by script.
+ *
+ * Stores a short hash per field. On next run:
+ * - user changed + script unchanged → keep user value
+ * - user changed + script also changed → script wins (upstream updated)
+ * - user unchanged → script value (normal update)
+ *
+ * Mutates `data` in place (restores user values where needed).
+ * Returns the new `_generated` hash map.
+ */
+function protectUserEdits(
+  data: Record<string, unknown>,
+  existing: Record<string, unknown> | null,
+  generated: Record<string, string>,
+): Record<string, string> {
+  const newGenerated: Record<string, string> = {};
+
+  for (const field of Object.keys(data)) {
+    if (GENERATED_SKIP.has(field) || data[field] === undefined) continue;
+
+    const scriptHash = hashValue(data[field]);
+    newGenerated[field] = scriptHash;
+
+    if (existing) {
+      const currentVal = existing[field];
+      const lastGenHash = generated[field];
+      if (currentVal !== undefined && lastGenHash !== undefined) {
+        const userChanged = hashValue(currentVal) !== lastGenHash;
+        const scriptChanged = scriptHash !== lastGenHash;
+
+        if (userChanged && !scriptChanged) {
+          data[field] = currentVal;
+          newGenerated[field] = lastGenHash;
+        }
+      }
+    }
+  }
+
+  return newGenerated;
 }
 
 /**
@@ -416,7 +528,10 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
 
   // Auto-generate tagline from description if not set
   if (!data.tagline && data.description) {
-    data.tagline = firstSentence(data.description as string);
+    const candidate = firstSentence(data.description as string);
+    if (candidate && candidate !== "N/A" && candidate.length > 5) {
+      data.tagline = candidate;
+    }
   }
 
   const caps = mergeObjects(
@@ -451,70 +566,37 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     if (val && Array.isArray(val) && val.length > 0) data[key] = val;
   }
 
+  // Provider-specific extra fields (not in ModelEntry schema but passed via spread)
+  // Derived from scalars + core/object/array fields to stay in sync
+  const knownKeys = new Set<string>([
+    ...scalars,
+    "id",
+    "name",
+    "created_by",
+    "source",
+    "last_updated",
+    "capabilities",
+    "modalities",
+    "pricing",
+    "tools",
+    "endpoints",
+    "snapshots",
+    "pricing_notes",
+    "_generated",
+  ]);
+  for (const [key, val] of Object.entries(entry)) {
+    if (!knownKeys.has(key) && val !== undefined) {
+      data[key] = val;
+    }
+  }
+
   // Snapshots: merge (append new, keep existing, deduplicate)
   const existingSnapshots = (existing?.snapshots as string[] | undefined) ?? [];
   const newSnapshots = entry.snapshots ?? [];
   const allSnapshots = [...new Set([...existingSnapshots, ...newSnapshots])];
   if (allSnapshots.length > 0) data.snapshots = allSnapshots;
 
-  const TRACKED_FIELDS = [
-    "name",
-    "description",
-    "tagline",
-    "status",
-    "model_type",
-    "context_window",
-    "max_context_window",
-    "max_output_tokens",
-    "max_input_tokens",
-    "knowledge_cutoff",
-    "release_date",
-    "deprecation_date",
-    "performance",
-    "reasoning",
-    "speed",
-    "successor",
-    "family",
-    "reasoning_tokens",
-    "pricing",
-    "capabilities",
-    "modalities",
-    "tools",
-    "endpoints",
-  ];
-
-  // Protection: detect user-modified fields and preserve them.
-  // _generated stores short hashes of each field's value when last written by script.
-  //
-  // Decision matrix:
-  //   user changed + script unchanged → keep user value (intentional fix)
-  //   user changed + script also changed → use script value (upstream updated)
-  //   user unchanged → use script value (normal update)
-  const newGenerated: Record<string, string> = {};
-  for (const field of TRACKED_FIELDS) {
-    if (data[field] === undefined) continue;
-    const scriptHash = hashValue(data[field]);
-    newGenerated[field] = scriptHash;
-
-    if (existing) {
-      const currentVal = existing[field];
-      const lastGenHash = generated[field];
-      if (currentVal !== undefined && lastGenHash !== undefined) {
-        const userChanged = hashValue(currentVal) !== lastGenHash;
-        const scriptChanged = scriptHash !== lastGenHash;
-
-        if (userChanged && !scriptChanged) {
-          // User modified the field, but script still has the same old value
-          // → user's fix is intentional, preserve it
-          data[field] = currentVal;
-          newGenerated[field] = lastGenHash;
-        }
-        // If both changed: script wins (upstream data updated, user's fix may be stale)
-        // If neither changed: no conflict
-      }
-    }
-  }
-  data._generated = newGenerated;
+  data._generated = protectUserEdits(data, existing, generated);
 
   // Diff: log what changed and record to changes
   if (existing) {

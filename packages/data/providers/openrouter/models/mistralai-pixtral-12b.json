@@ -21,6 +21,8 @@
     "context_window": "f4376436",
     "family": "c606df51",
     "pricing": "dabb026f",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/baidu/ernie-4.5-300b-a47b",
+  "name": "OpenRouter: baidu/ernie-4.5-300b-a47b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.28,
+    "output": 1.1
+  },
+  "_generated": {
+    "name": "ae8365c3",
+    "pricing": "771940f3"
+  }
+}

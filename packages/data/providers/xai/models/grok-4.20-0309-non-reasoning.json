@@ -28,6 +28,8 @@
     "family": "44972aca",
     "pricing": "9277b5ca",
     "capabilities": "1d6c1abb",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "17475f7f"
+  },
+  "model_type": "reasoning"
 }

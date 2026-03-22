@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/inflection/inflection-3-productivity",
+  "name": "OpenRouter: inflection/inflection-3-productivity",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  },
+  "_generated": {
+    "name": "a0ff545b",
+    "pricing": "cf1c6d02"
+  }
+}

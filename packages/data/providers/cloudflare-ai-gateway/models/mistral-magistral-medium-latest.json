@@ -1,0 +1,17 @@
+{
+  "id": "mistral/magistral-medium-latest",
+  "name": "Mistral: magistral-medium-latest",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 2,
+    "output": 5
+  },
+  "_generated": {
+    "name": "813d9c27",
+    "model_type": "d669f408",
+    "pricing": "383111d1"
+  }
+}

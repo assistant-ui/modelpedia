@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/google/gemma-3n-e4b-it",
+  "name": "OpenRouter: google/gemma-3n-e4b-it",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemma-3n",
+  "pricing": {
+    "input": 0.02,
+    "output": 0.04
+  },
+  "_generated": {
+    "name": "bec0f9bf",
+    "family": "7d6f36e8",
+    "pricing": "6fc99b9e"
+  }
+}

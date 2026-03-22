@@ -1,9 +1,9 @@
 {
   "id": "gpt-oss-120b",
-  "name": "gpt-oss-120b",
+  "name": "OpenAI GPT OSS",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "gpt-oss",
   "context_window": 131000,
   "max_output_tokens": 40000,
@@ -11,8 +11,8 @@
     "streaming": true,
     "tool_call": true,
     "structured_output": true,
-    "vision": true,
-    "reasoning": true
+    "reasoning": true,
+    "prompt_caching": true
   },
   "modalities": {
     "input": ["text"],
@@ -23,12 +23,28 @@
     "output": 0.75
   },
   "_generated": {
-    "name": "e8458743",
+    "name": "a0eee1d2",
+    "family": "82d0cb0b",
     "context_window": "834bd590",
     "max_output_tokens": "7c77f048",
-    "family": "82d0cb0b",
+    "capabilities": "97babf9a",
+    "modalities": "68e53d93",
     "pricing": "063f5006",
-    "capabilities": "e09c781c",
-    "modalities": "68e53d93"
-  }
+    "model_type": "d669f408",
+    "status": "379ac110",
+    "endpoints": "d8fa1080",
+    "model_card_url": "f3ef4573",
+    "tokens_per_second": "e93028bd",
+    "parameters": "fcfd365c",
+    "precision": "c851ef38",
+    "huggingface_url": "e34c0783"
+  },
+  "model_type": "chat",
+  "status": "active",
+  "endpoints": ["chat_completions"],
+  "model_card_url": "https://openai.com/index/gpt-oss-model-card/",
+  "tokens_per_second": 3000,
+  "parameters": "120 billion",
+  "precision": "FP16/FP8 (weights only)",
+  "huggingface_url": "https://huggingface.co/openai/gpt-oss-120b"
 }

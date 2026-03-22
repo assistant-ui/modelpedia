@@ -1,7 +1,9 @@
 import {
+  buildPricing,
   envOrNull,
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -14,22 +16,23 @@ import {
  * 4. Generative Language API (optional, needs key — for more accurate token limits)
  */
 
-const MODELS_PAGE = "https://ai.google.dev/gemini-api/docs/models";
-const DEPRECATIONS_PAGE = "https://ai.google.dev/gemini-api/docs/deprecations";
+const sources = readSources("google");
+const MODELS_PAGE = sources.models as string;
+const PRICING_PAGE = sources.pricing as string;
+const DEPRECATIONS_PAGE = sources.deprecations as string;
 
 // ── Get model slugs from docs overview page ──
 
 async function fetchModelSlugs(): Promise<string[]> {
   const res = await fetch(MODELS_PAGE);
   const html = await res.text();
-  // Extract links to individual model pages: /gemini-api/docs/models/gemini-xxx
+  // Extract links to individual model pages: /gemini-api/docs/models/<slug>
+  // Matches all model types: gemini, gemma, imagen, veo, text-embedding, etc.
   const slugs = [
     ...new Set(
-      [
-        ...html.matchAll(
-          /\/gemini-api\/docs\/models\/(gemini-[a-z0-9.-]+(?:-preview)?)/g,
-        ),
-      ].map((m) => m[1]),
+      [...html.matchAll(/\/gemini-api\/docs\/models\/([a-z][a-z0-9._-]+)/g)]
+        .map((m) => m[1])
+        .filter((s) => s !== "all" && !s.startsWith("_")),
     ),
   ];
   return slugs;
@@ -86,13 +89,69 @@ async function fetchModelSpec(slug: string): Promise<ModelSpec | null> {
   if (/Thinking.*?Supported/i.test(text)) caps.reasoning = true;
   if (/Caching.*?Supported/i.test(text)) caps.batch = true;
 
-  // Modalities
+  // Modalities — use "Supported" pattern from feature tables, not loose keyword matches
   const inputMods = ["text"];
-  if (/Image/i.test(text)) inputMods.push("image");
-  if (/Video/i.test(text)) inputMods.push("video");
-  if (/Audio/i.test(text)) inputMods.push("audio");
+  if (
+    /Image\s*(?:input|understanding).*?Supported/i.test(text) ||
+    /Input.*?Image/i.test(text)
+  )
+    inputMods.push("image");
+  if (
+    /Video\s*(?:input|understanding).*?Supported/i.test(text) ||
+    /Input.*?Video/i.test(text)
+  )
+    inputMods.push("video");
+  if (
+    /Audio\s*(?:input|understanding).*?Supported/i.test(text) ||
+    /Input.*?Audio/i.test(text)
+  )
+    inputMods.push("audio");
   const outputMods = ["text"];
   if (/Image generation.*?Supported/i.test(text)) outputMods.push("image");
+  if (
+    /Audio generation.*?Supported/i.test(text) ||
+    /TTS.*?Supported/i.test(text)
+  )
+    outputMods.push("audio");
+
+  // Override modalities for non-text models based on ID
+  // Modality overrides: [inputModalities, outputModalities, capabilities]
+  const MODALITY_OVERRIDES: [
+    string,
+    string[],
+    string[],
+    Record<string, boolean> | null,
+  ][] = [
+    ["imagen", ["text"], ["image"], null],
+    ["veo", ["text", "image"], ["video"], null],
+    ["lyria", ["text"], ["audio"], null],
+  ];
+
+  for (const [prefix, input, output, capOverride] of MODALITY_OVERRIDES) {
+    if (id.startsWith(prefix)) {
+      return {
+        id,
+        input_tokens: inputTokens,
+        output_tokens: outputTokens,
+        knowledge_cutoff: knowledgeCutoff,
+        capabilities: capOverride ?? caps,
+        inputModalities: input,
+        outputModalities: output,
+      };
+    }
+  }
+
+  if (id.includes("embedding")) {
+    return {
+      id,
+      input_tokens: inputTokens,
+      output_tokens: outputTokens,
+      knowledge_cutoff: knowledgeCutoff,
+      capabilities: {},
+      inputModalities: ["text"],
+      outputModalities: ["text"],
+    };
+  }
 
   return {
     id,
@@ -105,11 +164,111 @@ async function fetchModelSpec(slug: string): Promise<ModelSpec | null> {
   };
 }
 
+// ── Parse pricing page ──
+
+interface PricingInfo {
+  input?: number;
+  output?: number;
+  cached_input?: number;
+  batch_input?: number;
+  batch_output?: number;
+  tiers?: {
+    label: string;
+    unit: string;
+    columns: string[];
+    rows: { label: string; values: (number | null)[] }[];
+  }[];
+}
+
+function extractFirstPrice(text: string, pattern: RegExp): number | undefined {
+  const m = text.match(pattern);
+  return m ? Number(m[1]) : undefined;
+}
+
+async function fetchPricing(): Promise<Map<string, PricingInfo>> {
+  const res = await fetch(PRICING_PAGE);
+  const html = await res.text();
+  const map = new Map<string, PricingInfo>();
+
+  // Find model heading IDs and grab all content until the NEXT model heading
+  const modelHeadings = [
+    ...html.matchAll(
+      /<h[2-4][^>]*id="((?:gemini|imagen|veo|text-embedding)[^"]*)"[^>]*>/g,
+    ),
+  ].filter((m) => !m[1].startsWith("standard") && !m[1].startsWith("batch"));
+
+  for (let i = 0; i < modelHeadings.length; i++) {
+    const headingId = modelHeadings[i][1];
+    const startIdx = modelHeadings[i].index!;
+    const endIdx =
+      i + 1 < modelHeadings.length ? modelHeadings[i + 1].index! : html.length;
+    const section = html.slice(startIdx, endIdx);
+
+    // Get all tables in this section
+    const tables = [...section.matchAll(/<table[^>]*>([\s\S]*?)<\/table>/g)];
+    if (tables.length === 0) continue;
+
+    // First table = Standard, second = Batch
+    const stdText = tables[0][1].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+    const stdIn = extractFirstPrice(stdText, /Input[^$]*\$(\d+\.?\d*)/i);
+    const stdOut = extractFirstPrice(stdText, /Output[^$]*\$(\d+\.?\d*)/i);
+    const stdCached = extractFirstPrice(
+      stdText,
+      /[Cc]ach(?:ing|ed)[^$]*\$(\d+\.?\d*)/i,
+    );
+
+    if (stdIn == null && stdOut == null) continue;
+
+    const info: PricingInfo = {};
+    info.input = stdIn;
+    info.output = stdOut;
+    if (stdCached != null) info.cached_input = stdCached;
+
+    // Build tiers
+    const tierRows: { label: string; values: (number | null)[] }[] = [];
+    tierRows.push({
+      label: "Standard",
+      values: [stdIn ?? null, stdCached ?? null, stdOut ?? null],
+    });
+
+    if (tables.length >= 2) {
+      const batchText = tables[1][1]
+        .replace(/<[^>]+>/g, " ")
+        .replace(/\s+/g, " ");
+      const batchIn = extractFirstPrice(batchText, /Input[^$]*\$(\d+\.?\d*)/i);
+      const batchOut = extractFirstPrice(
+        batchText,
+        /Output[^$]*\$(\d+\.?\d*)/i,
+      );
+      if (batchIn != null) info.batch_input = batchIn;
+      if (batchOut != null) info.batch_output = batchOut;
+
+      tierRows.push({
+        label: "Batch",
+        values: [batchIn ?? null, null, batchOut ?? null],
+      });
+    }
+
+    info.tiers = [
+      {
+        label: "Text tokens",
+        unit: "Per 1M tokens",
+        columns: ["Input", "Cached input", "Output"],
+        rows: tierRows,
+      },
+    ];
+
+    map.set(headingId, info);
+  }
+
+  return map;
+}
+
 // ── Parse deprecation page ──
 
 interface DeprecationInfo {
   shutdown?: string;
-  replacement?: string;
+  replacement?: string | string[];
 }
 
 async function fetchDeprecations(): Promise<Map<string, DeprecationInfo>> {
@@ -134,18 +293,29 @@ async function fetchDeprecations(): Promise<Map<string, DeprecationInfo>> {
       if (
         !modelId.startsWith("gemini") &&
         !modelId.startsWith("imagen") &&
-        !modelId.startsWith("veo")
+        !modelId.startsWith("veo") &&
+        !modelId.startsWith("text-embedding") &&
+        !modelId.startsWith("embedding")
       )
         continue;
 
-      // Find shutdown date and replacement
+      // Find shutdown date and replacement(s)
       const dates = texts.filter((t) => /\w+ \d+, \d{4}/.test(t));
       const shutdown = dates.length >= 2 ? dates[1] : dates[0];
-      const replacement = texts[texts.length - 1];
+      const rawReplacement = texts[texts.length - 1];
+      const replacements = rawReplacement
+        .split(/\s*or\s*|,\s*/)
+        .map((s) => s.trim())
+        .filter((s) => s && s !== modelId);
 
       depMap.set(modelId, {
         shutdown,
-        replacement: replacement !== modelId ? replacement : undefined,
+        replacement:
+          replacements.length > 1
+            ? replacements
+            : replacements.length === 1
+              ? replacements[0]
+              : undefined,
       });
     }
   }
@@ -169,9 +339,7 @@ async function fetchApiModels(apiKey: string): Promise<Map<string, ApiModel>> {
   let pageToken: string | undefined;
 
   while (true) {
-    const url = new URL(
-      "https://generativelanguage.googleapis.com/v1beta/models",
-    );
+    const url = new URL(sources.api as string);
     url.searchParams.set("key", apiKey);
     url.searchParams.set("pageSize", "100");
     if (pageToken) url.searchParams.set("pageToken", pageToken);
@@ -200,12 +368,13 @@ async function fetchApiModels(apiKey: string): Promise<Map<string, ApiModel>> {
 async function main() {
   console.log("Fetching Google Gemini models from docs...");
 
-  const [slugs, deprecations] = await Promise.all([
+  const [slugs, deprecations, pricing] = await Promise.all([
     fetchModelSlugs(),
     fetchDeprecations(),
+    fetchPricing(),
   ]);
   console.log(
-    `Found ${slugs.length} model slugs, ${deprecations.size} deprecated`,
+    `Found ${slugs.length} model slugs, ${deprecations.size} deprecated, ${pricing.size} with pricing`,
   );
 
   // Fetch detail pages in batches
@@ -276,6 +445,10 @@ async function main() {
       ...(endpoints.length > 0 ? { endpoints } : {}),
     };
 
+    // Add pricing from pricing page
+    const price = pricing.get(spec.id);
+    if (price) entry.pricing = buildPricing(price);
+
     if (dep?.shutdown) entry.deprecation_date = dep.shutdown;
     if (dep?.replacement) entry.successor = dep.replacement;
 
@@ -284,7 +457,6 @@ async function main() {
 
   // Write deprecated models not in docs detail pages
   for (const [id, dep] of deprecations) {
-    if (!id.startsWith("gemini")) continue;
     const api = apiModels.get(id);
     const alreadyWritten = specs.some((s) => s.id === id);
     if (alreadyWritten) continue;
@@ -292,6 +464,25 @@ async function main() {
     const isShutdown = dep.shutdown
       ? new Date(dep.shutdown) < new Date()
       : true;
+
+    // Infer modalities/capabilities based on model type
+    const isEmbed = id.includes("embedding");
+    const isImage = id.startsWith("imagen");
+    const isVideo = id.startsWith("veo");
+
+    // Determine modalities and capabilities based on model type
+    let depModalities: { input: string[]; output: string[] };
+    let depCapabilities: Record<string, boolean> | undefined;
+    if (isEmbed) {
+      depModalities = { input: ["text"], output: ["text"] };
+    } else if (isImage) {
+      depModalities = { input: ["text"], output: ["image"] };
+    } else if (isVideo) {
+      depModalities = { input: ["text"], output: ["video"] };
+    } else {
+      depModalities = { input: ["text", "image"], output: ["text"] };
+      depCapabilities = { streaming: true, vision: true };
+    }
 
     const entry: ModelEntry = {
       id,
@@ -302,9 +493,13 @@ async function main() {
       context_window: api?.inputTokenLimit,
       max_output_tokens: api?.outputTokenLimit,
       deprecation_date: dep.shutdown,
-      capabilities: { streaming: true, vision: true },
-      modalities: { input: ["text", "image"], output: ["text"] },
+      modalities: depModalities,
+      ...(depCapabilities ? { capabilities: depCapabilities } : {}),
     };
+
+    // Add pricing
+    const price = pricing.get(id);
+    if (price) entry.pricing = buildPricing(price);
 
     if (dep.replacement) entry.successor = dep.replacement;
 
@@ -314,10 +509,7 @@ async function main() {
   // Write API-only models not covered above
   if (apiKey) {
     for (const [id, api] of apiModels) {
-      if (!id.startsWith("gemini")) continue;
-      if (!api.supportedGenerationMethods?.includes("generateContent"))
-        continue;
-      if (id.includes("embedding")) continue;
+      if (!api.supportedGenerationMethods?.length) continue;
       const alreadyWritten =
         specs.some((s) => s.id === id) || deprecations.has(id);
       if (alreadyWritten) continue;

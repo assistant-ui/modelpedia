@@ -5,5 +5,11 @@
   "url": "https://fireworks.ai",
   "api_url": "https://api.fireworks.ai/inference/v1",
   "docs_url": "https://docs.fireworks.ai",
-  "pricing_url": "https://fireworks.ai/pricing"
+  "pricing_url": "https://fireworks.ai/pricing",
+  "description": "Fast inference platform optimized for production AI workloads with 250+ models.",
+  "type": "aggregator",
+  "sdk": {
+    "python": "fireworks-ai"
+  },
+  "free_tier": true
 }

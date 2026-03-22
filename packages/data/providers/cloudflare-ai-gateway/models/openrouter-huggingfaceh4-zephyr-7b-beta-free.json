@@ -1,0 +1,10 @@
+{
+  "id": "openrouter/huggingfaceh4/zephyr-7b-beta:free",
+  "name": "OpenRouter: huggingfaceh4/zephyr-7b-beta:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "_generated": {
+    "name": "dd2ab93b"
+  }
+}

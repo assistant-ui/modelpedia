@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/google/gemini-2.0-flash-exp",
+  "name": "OpenRouter: google/gemini-2.0-flash-exp",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-2.0",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0.39999999999999997
+  },
+  "_generated": {
+    "name": "f6eee551",
+    "family": "dc4aadf6",
+    "pricing": "e99c3904"
+  }
+}

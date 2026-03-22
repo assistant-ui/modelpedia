@@ -1,0 +1,17 @@
+{
+  "id": "groq/mixtral-8x7b-32768",
+  "name": "Groq: mixtral-8x7b-32768",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "mixtral",
+  "pricing": {
+    "input": 0.24,
+    "output": 0.24
+  },
+  "_generated": {
+    "name": "0856aed7",
+    "family": "3c47d372",
+    "pricing": "f4b839bc"
+  }
+}

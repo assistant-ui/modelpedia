@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/thudm/glm-z1-32b",
+  "name": "OpenRouter: thudm/glm-z1-32b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.049999999999999996,
+    "output": 0.22
+  },
+  "_generated": {
+    "name": "4bdd50fc",
+    "pricing": "691005c3"
+  }
+}

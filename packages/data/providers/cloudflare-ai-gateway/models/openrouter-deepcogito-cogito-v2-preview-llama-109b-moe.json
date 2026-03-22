@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/deepcogito/cogito-v2-preview-llama-109b-moe",
+  "name": "OpenRouter: deepcogito/cogito-v2-preview-llama-109b-moe",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.18,
+    "output": 0.59
+  },
+  "_generated": {
+    "name": "a52263e4",
+    "pricing": "5dc45284"
+  }
+}

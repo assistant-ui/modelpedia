@@ -18,6 +18,7 @@ const CAPABILITY_KEYS = [
   "streaming",
   "fine_tuning",
   "batch",
+  "prompt_caching",
 ];
 
 /** Fields that contribute to completeness scoring */

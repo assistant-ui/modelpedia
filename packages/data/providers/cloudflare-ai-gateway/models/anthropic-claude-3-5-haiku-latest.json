@@ -1,0 +1,17 @@
+{
+  "id": "anthropic/claude-3-5-haiku-latest",
+  "name": "Anthropic: claude-3-5-haiku-latest",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-haiku",
+  "pricing": {
+    "input": 0.7999999999999999,
+    "output": 4
+  },
+  "_generated": {
+    "name": "c90decf3",
+    "family": "1cfb9795",
+    "pricing": "355a37b4"
+  }
+}

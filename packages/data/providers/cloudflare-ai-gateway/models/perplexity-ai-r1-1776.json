@@ -1,0 +1,15 @@
+{
+  "id": "perplexity-ai/r1-1776",
+  "name": "Perplexity: r1-1776",
+  "created_by": "perplexity",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 2,
+    "output": 8
+  },
+  "_generated": {
+    "name": "6c2ff2ad",
+    "pricing": "9d7f5a51"
+  }
+}

@@ -18,6 +18,8 @@
     "name": "b162f864",
     "context_window": "c1fdea92",
     "pricing": "ea3f0b86",
-    "capabilities": "a281e83a"
-  }
+    "capabilities": "a281e83a",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

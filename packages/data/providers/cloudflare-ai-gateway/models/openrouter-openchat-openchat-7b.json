@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/openchat/openchat-7b",
+  "name": "OpenRouter: openchat/openchat-7b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.07,
+    "output": 0.07
+  },
+  "_generated": {
+    "name": "2250aeac",
+    "pricing": "a1ff1d4b"
+  }
+}

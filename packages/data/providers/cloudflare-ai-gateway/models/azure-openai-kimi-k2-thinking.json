@@ -1,0 +1,15 @@
+{
+  "id": "azure-openai/kimi-k2-thinking",
+  "name": "Azure OpenAI: kimi-k2-thinking",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.6,
+    "output": 2.5
+  },
+  "_generated": {
+    "name": "ef19d89e",
+    "pricing": "97d9061a"
+  }
+}

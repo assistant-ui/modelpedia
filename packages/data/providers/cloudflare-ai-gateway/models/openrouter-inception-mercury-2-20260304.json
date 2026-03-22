@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/inception/mercury-2-20260304",
+  "name": "OpenRouter: inception/mercury-2-20260304",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.25,
+    "output": 0.75
+  },
+  "_generated": {
+    "name": "83726c91",
+    "pricing": "5b74b6c8"
+  }
+}

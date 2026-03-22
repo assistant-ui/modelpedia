@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/arcee-ai/maestro-reasoning",
+  "name": "OpenRouter: arcee-ai/maestro-reasoning",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "reasoning",
+  "pricing": {
+    "input": 0.8999999999999999,
+    "output": 3.3000000000000003
+  },
+  "_generated": {
+    "name": "f044d4a9",
+    "model_type": "17475f7f",
+    "pricing": "c49114ce"
+  }
+}

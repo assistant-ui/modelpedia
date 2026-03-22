@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/perplexity/sonar-deep-research",
+  "name": "OpenRouter: perplexity/sonar-deep-research",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 2,
+    "output": 8
+  },
+  "_generated": {
+    "name": "ea6d9a73",
+    "pricing": "9d7f5a51"
+  }
+}

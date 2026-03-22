@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-oss-120b",
+  "name": "OpenAI: gpt-oss-120b",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-oss",
+  "pricing": {
+    "input": 0.039,
+    "output": 0.19
+  },
+  "_generated": {
+    "name": "80132a39",
+    "family": "82d0cb0b",
+    "pricing": "d8fe08c4"
+  }
+}

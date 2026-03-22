@@ -1,0 +1,17 @@
+{
+  "id": "perplexity-ai/llama-3.1-sonar-small-128k-chat",
+  "name": "Perplexity: llama-3.1-sonar-small-128k-chat",
+  "created_by": "perplexity",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.1",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "8bf0109e",
+    "family": "83ec32db",
+    "pricing": "4a55a07f"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/mistralai/mistral-nemo",
+  "name": "OpenRouter: mistralai/mistral-nemo",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.02,
+    "output": 0.04
+  },
+  "_generated": {
+    "name": "daebb6a3",
+    "pricing": "6fc99b9e"
+  }
+}

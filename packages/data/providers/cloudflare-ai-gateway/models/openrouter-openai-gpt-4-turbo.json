@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/gpt-4-turbo",
+  "name": "OpenRouter: openai/gpt-4-turbo",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4-turbo",
+  "pricing": {
+    "input": 10,
+    "output": 30
+  },
+  "_generated": {
+    "name": "b903ff83",
+    "family": "e55097d8",
+    "pricing": "d5468ada"
+  }
+}

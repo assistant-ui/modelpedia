@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/claude-opus-4-6",
+  "name": "Azure OpenAI: claude-opus-4-6",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-opus",
+  "pricing": {
+    "input": 5,
+    "output": 25
+  },
+  "_generated": {
+    "name": "76a4bf93",
+    "family": "4e4c4b18",
+    "pricing": "be2d1ab0"
+  }
+}

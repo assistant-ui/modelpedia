@@ -1,0 +1,15 @@
+{
+  "id": "groq/gemma2-9b-it",
+  "name": "Groq: gemma2-9b-it",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "1db35d83",
+    "pricing": "4a55a07f"
+  }
+}

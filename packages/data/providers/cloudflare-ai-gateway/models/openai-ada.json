@@ -1,0 +1,15 @@
+{
+  "id": "openai/ada",
+  "name": "OpenAI: ada",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.39999999999999997,
+    "output": 0.39999999999999997
+  },
+  "_generated": {
+    "name": "1cd82f24",
+    "pricing": "c9cbd4c8"
+  }
+}

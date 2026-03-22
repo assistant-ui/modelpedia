@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/gpt-5-codex",
+  "name": "Azure OpenAI: gpt-5-codex",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-5",
+  "pricing": {
+    "input": 1.25,
+    "output": 10
+  },
+  "_generated": {
+    "name": "695c182b",
+    "family": "aa904c16",
+    "pricing": "b092c164"
+  }
+}

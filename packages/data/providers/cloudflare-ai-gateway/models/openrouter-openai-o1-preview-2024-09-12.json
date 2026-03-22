@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/o1-preview-2024-09-12",
+  "name": "OpenRouter: openai/o1-preview-2024-09-12",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "o1",
+  "pricing": {
+    "input": 15,
+    "output": 60
+  },
+  "_generated": {
+    "name": "f4d1f43a",
+    "family": "e1ab0820",
+    "pricing": "223e3cf1"
+  }
+}

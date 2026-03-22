@@ -1,0 +1,15 @@
+{
+  "id": "groq/mistral-saba-24b",
+  "name": "Groq: mistral-saba-24b",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.7899999999999999,
+    "output": 0.7899999999999999
+  },
+  "_generated": {
+    "name": "57a2527b",
+    "pricing": "94d0e395"
+  }
+}

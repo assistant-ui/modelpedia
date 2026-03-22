@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/meta-llama/llama-3.2-3b-instruct:free",
+  "name": "OpenRouter: meta-llama/llama-3.2-3b-instruct:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.2",
+  "_generated": {
+    "name": "803fde0a",
+    "family": "d4c42ce9"
+  }
+}

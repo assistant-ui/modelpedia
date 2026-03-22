@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/tngtech/tng-r1t-chimera",
+  "name": "OpenRouter: tngtech/tng-r1t-chimera",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.25,
+    "output": 0.85
+  },
+  "_generated": {
+    "name": "79e82fe7",
+    "pricing": "923ddde5"
+  }
+}

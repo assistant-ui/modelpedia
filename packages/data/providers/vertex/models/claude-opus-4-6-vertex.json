@@ -3,7 +3,7 @@
   "name": "Claude Opus 4.6",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "claude-opus",
   "context_window": 1000000,
   "max_output_tokens": 128000,
@@ -17,12 +17,39 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
+  "pricing": {
+    "input": 5.5,
+    "output": 27.5,
+    "cached_input": 0.55,
+    "batch_input": 2.75,
+    "batch_output": 13.75,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5.5, 0.55, 27.5]
+          },
+          {
+            "label": "Batch",
+            "values": [2.75, null, 13.75]
+          }
+        ]
+      }
+    ]
+  },
   "_generated": {
     "name": "3b695ed7",
     "context_window": "8155bc54",
     "max_output_tokens": "34434798",
     "family": "4e4c4b18",
+    "pricing": "24493fba",
     "capabilities": "a19166f1",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

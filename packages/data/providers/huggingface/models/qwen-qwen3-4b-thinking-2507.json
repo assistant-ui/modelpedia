@@ -10,6 +10,8 @@
   },
   "_generated": {
     "name": "c3e234be",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

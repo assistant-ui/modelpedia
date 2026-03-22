@@ -1,0 +1,15 @@
+{
+  "id": "openai/ft:gpt-4o-mini-2024-07-18",
+  "name": "OpenAI: ft:gpt-4o-mini-2024-07-18",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2
+  },
+  "_generated": {
+    "name": "d32a69f2",
+    "pricing": "ea3f0b86"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/meta-llama/llama-4-maverick:free",
+  "name": "OpenRouter: meta-llama/llama-4-maverick:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-4",
+  "_generated": {
+    "name": "8a58f001",
+    "family": "3169363f"
+  }
+}

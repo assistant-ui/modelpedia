@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/perplexity/sonar-pro-search",
+  "name": "OpenRouter: perplexity/sonar-pro-search",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 3,
+    "output": 15
+  },
+  "_generated": {
+    "name": "62af1bcc",
+    "pricing": "7939f0ff"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/stepfun-ai/step3",
+  "name": "OpenRouter: stepfun-ai/step3",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.5700000000000001,
+    "output": 1.42
+  },
+  "_generated": {
+    "name": "99def93d",
+    "pricing": "8393be3d"
+  }
+}

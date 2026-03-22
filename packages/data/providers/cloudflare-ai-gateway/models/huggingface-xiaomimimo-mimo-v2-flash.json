@@ -1,0 +1,15 @@
+{
+  "id": "huggingface/XiaomiMiMo/MiMo-V2-Flash",
+  "name": "HuggingFace: XiaomiMiMo/MiMo-V2-Flash",
+  "created_by": "huggingface",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0.3
+  },
+  "_generated": {
+    "name": "ae750df3",
+    "pricing": "a3896bf6"
+  }
+}

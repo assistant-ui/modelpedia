@@ -3,11 +3,13 @@
   "name": "c4ai-aya-vision-8b",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "description": "Aya Vision is a state-of-the-art multimodal model excelling at a variety of critical benchmarks for language, text, and image capabilities. This 8 billion parameter variant is focused on low latency and best-in-class performance.",
   "status": "deprecated",
   "context_window": 16000,
   "max_output_tokens": 4000,
+  "model_type": "chat",
+  "tagline": "Aya Vision is a state-of-the-art multimodal model excelling at a variety of critical benchmarks for language, text, and image capabilities.",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -16,15 +18,17 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "tagline": "Aya Vision is a state-of-the-art multimodal model excelling at a variety of critical benchmarks for language, text, and image capabilities.",
+  "endpoints": ["chat"],
   "_generated": {
     "name": "3e04088b",
     "description": "4bc5adb2",
-    "tagline": "fc4adff1",
     "status": "2e2f74dc",
     "context_window": "67510c89",
     "max_output_tokens": "1bd69c7d",
+    "model_type": "d669f408",
+    "tagline": "fc4adff1",
     "capabilities": "8a3b232e",
-    "modalities": "6399757e"
+    "modalities": "6399757e",
+    "endpoints": "75df3f1c"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/mistralai/mistral-large",
+  "name": "OpenRouter: mistralai/mistral-large",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "mistral-large",
+  "pricing": {
+    "input": 2,
+    "output": 6
+  },
+  "_generated": {
+    "name": "e7b5dbdd",
+    "family": "70f9d51d",
+    "pricing": "e205efd3"
+  }
+}

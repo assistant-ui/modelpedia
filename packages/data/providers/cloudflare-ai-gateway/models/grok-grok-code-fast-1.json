@@ -1,0 +1,17 @@
+{
+  "id": "grok/grok-code-fast-1",
+  "name": "xAI: grok-code-fast-1",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "grok-code",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 1.5
+  },
+  "_generated": {
+    "name": "4bfc089d",
+    "family": "378ba70c",
+    "pricing": "d98c5970"
+  }
+}

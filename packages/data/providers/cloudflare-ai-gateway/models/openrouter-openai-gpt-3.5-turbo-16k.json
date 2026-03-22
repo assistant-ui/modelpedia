@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/gpt-3.5-turbo-16k",
+  "name": "OpenRouter: openai/gpt-3.5-turbo-16k",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-3.5",
+  "pricing": {
+    "input": 3,
+    "output": 4
+  },
+  "_generated": {
+    "name": "fe8c3684",
+    "family": "7601054d",
+    "pricing": "1a73c315"
+  }
+}

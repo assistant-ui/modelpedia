@@ -3,8 +3,9 @@
   "name": "Qwen3 VL 235B A22B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "qwen.",
+  "model_type": "chat",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -16,6 +17,7 @@
   "_generated": {
     "name": "ac2ffeb3",
     "family": "4f268b83",
+    "model_type": "d669f408",
     "capabilities": "8a3b232e",
     "modalities": "ce37f4ca"
   }

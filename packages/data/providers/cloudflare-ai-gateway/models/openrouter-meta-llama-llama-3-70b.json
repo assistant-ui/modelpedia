@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/meta-llama/llama-3-70b",
+  "name": "OpenRouter: meta-llama/llama-3-70b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3",
+  "pricing": {
+    "input": 0.59,
+    "output": 0.7899999999999999
+  },
+  "_generated": {
+    "name": "16ae9f12",
+    "family": "a8d1600e",
+    "pricing": "2ad5b5a1"
+  }
+}

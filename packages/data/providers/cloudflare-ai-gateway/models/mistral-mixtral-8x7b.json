@@ -1,0 +1,19 @@
+{
+  "id": "mistral/mixtral-8x7b",
+  "name": "Mistral: mixtral-8x7b",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "mixtral",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.6,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "c6160c81",
+    "family": "3c47d372",
+    "model_type": "d669f408",
+    "pricing": "d7891837"
+  }
+}

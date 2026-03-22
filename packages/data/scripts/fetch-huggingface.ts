@@ -1,6 +1,8 @@
+import { fetchJson } from "./parse.ts";
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -10,8 +12,8 @@ import {
  * No API key needed — public API.
  */
 
-const API_URL =
-  "https://huggingface.co/api/models?pipeline_tag=text-generation&inference=warm&sort=downloads&direction=-1&limit=200";
+const sources = readSources("huggingface");
+const API_URL = sources.api as string;
 
 interface HFModel {
   id: string;
@@ -58,9 +60,7 @@ function extractName(id: string): string {
 async function main() {
   console.log("Fetching Hugging Face models...");
 
-  const res = await fetch(API_URL);
-  if (!res.ok) throw new Error(`Failed: ${res.status}`);
-  const models = (await res.json()) as HFModel[];
+  const models = await fetchJson<HFModel[]>(API_URL);
 
   console.log(`Found ${models.length} models`);
 

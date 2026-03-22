@@ -1,0 +1,17 @@
+{
+  "id": "perplexity-ai/llama-3-sonar-small-32k-online",
+  "name": "Perplexity: llama-3-sonar-small-32k-online",
+  "created_by": "perplexity",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "19e2e42d",
+    "family": "a8d1600e",
+    "pricing": "4a55a07f"
+  }
+}

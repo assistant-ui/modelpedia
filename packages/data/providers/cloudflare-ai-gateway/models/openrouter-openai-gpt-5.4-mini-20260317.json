@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/gpt-5.4-mini-20260317",
+  "name": "OpenRouter: openai/gpt-5.4-mini-20260317",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-5.4",
+  "pricing": {
+    "input": 0.75,
+    "output": 4.5
+  },
+  "_generated": {
+    "name": "32637836",
+    "family": "4651e8f0",
+    "pricing": "0b3f9064"
+  }
+}

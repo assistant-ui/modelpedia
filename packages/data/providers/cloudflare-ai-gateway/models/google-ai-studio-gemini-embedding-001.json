@@ -1,0 +1,17 @@
+{
+  "id": "google-ai-studio/gemini-embedding-001",
+  "name": "Google AI Studio: gemini-embedding-001",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "embed",
+  "pricing": {
+    "input": 0.15,
+    "output": 0
+  },
+  "_generated": {
+    "name": "10ae3902",
+    "model_type": "764cb3de",
+    "pricing": "f67bf84f"
+  }
+}

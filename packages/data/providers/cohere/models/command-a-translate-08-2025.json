@@ -3,11 +3,13 @@
   "name": "command-a-translate-08-2025",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "description": "Command A Translate is Cohere’s state of the art machine translation model, excelling at a variety of translation tasks on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Chinese, Arabic, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, Persian.",
   "status": "active",
   "context_window": 8000,
   "max_output_tokens": 8000,
+  "model_type": "translation",
+  "tagline": "Command A Translate is Cohere’s state of the art machine translation model, excelling at a variety of translation tasks on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese",
   "capabilities": {
     "streaming": true
   },
@@ -15,15 +17,22 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "tagline": "Command A Translate is Cohere’s state of the art machine translation model, excelling at a variety of translation tasks on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese",
+  "pricing": {
+    "input": 1,
+    "output": 2
+  },
+  "endpoints": ["chat"],
   "_generated": {
     "name": "d9d4ca94",
     "description": "f6c2409e",
-    "tagline": "d40f854d",
     "status": "379ac110",
     "context_window": "67ff32d4",
     "max_output_tokens": "67ff32d4",
+    "model_type": "5c212ca7",
+    "tagline": "d40f854d",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "ac91204c",
+    "endpoints": "75df3f1c"
   }
 }

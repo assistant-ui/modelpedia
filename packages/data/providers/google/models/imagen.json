@@ -1,0 +1,34 @@
+{
+  "id": "imagen",
+  "name": "imagen",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "status": "active",
+  "context_window": 480,
+  "model_type": "image",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "335b9053",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "context_window": "6ea2ef73",
+    "capabilities": "29b57eef",
+    "modalities": "814867b9",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
+  }
+}

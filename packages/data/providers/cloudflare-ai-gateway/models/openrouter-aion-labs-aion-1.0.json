@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/aion-labs/aion-1.0",
+  "name": "OpenRouter: aion-labs/aion-1.0",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 4,
+    "output": 8
+  },
+  "_generated": {
+    "name": "5ed8ba95",
+    "pricing": "2356a41b"
+  }
+}

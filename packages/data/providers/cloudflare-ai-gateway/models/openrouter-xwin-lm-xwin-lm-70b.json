@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/xwin-lm/xwin-lm-70b",
+  "name": "OpenRouter: xwin-lm/xwin-lm-70b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 3.75,
+    "output": 3.75
+  },
+  "_generated": {
+    "name": "7f1e954d",
+    "pricing": "6cada0b2"
+  }
+}

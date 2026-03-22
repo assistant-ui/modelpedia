@@ -5,5 +5,13 @@
   "url": "https://aws.amazon.com/bedrock",
   "api_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
   "docs_url": "https://docs.aws.amazon.com/bedrock",
-  "pricing_url": "https://aws.amazon.com/bedrock/pricing"
+  "pricing_url": "https://aws.amazon.com/bedrock/pricing",
+  "description": "AWS Bedrock provides managed access to foundation models from Amazon, Anthropic, Meta, Mistral, and more.",
+  "type": "cloud",
+  "status_url": "https://health.aws.amazon.com",
+  "sdk": {
+    "python": "boto3",
+    "javascript": "@aws-sdk/client-bedrock-runtime"
+  },
+  "free_tier": false
 }

@@ -1,0 +1,17 @@
+{
+  "id": "openai/o3-pro-2025-06-10",
+  "name": "OpenAI: o3-pro-2025-06-10",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "o3",
+  "pricing": {
+    "input": 20,
+    "output": 80
+  },
+  "_generated": {
+    "name": "49c8b117",
+    "family": "193049bc",
+    "pricing": "30e855d9"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cloudflare-ai-gateway",
+  "name": "Cloudflare AI Gateway",
+  "region": "US",
+  "url": "https://developers.cloudflare.com/ai-gateway",
+  "api_url": "https://gateway.ai.cloudflare.com/v1/{account_id}/{gateway_name}",
+  "docs_url": "https://developers.cloudflare.com/ai-gateway",
+  "pricing_url": "https://developers.cloudflare.com/ai-gateway/pricing",
+  "description": "Cloudflare AI Gateway is a proxy that routes requests to 20+ AI providers with built-in caching, rate limiting, logging, and fallback routing.",
+  "type": "aggregator",
+  "status_url": "https://www.cloudflarestatus.com",
+  "free_tier": true
+}

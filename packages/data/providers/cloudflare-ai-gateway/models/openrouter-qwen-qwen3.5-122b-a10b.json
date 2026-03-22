@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3.5-122b-a10b",
+  "name": "OpenRouter: qwen/qwen3.5-122b-a10b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3.5",
+  "pricing": {
+    "input": 0.26,
+    "output": 2.08
+  },
+  "_generated": {
+    "name": "5b67888d",
+    "family": "d548f421",
+    "pricing": "6113d4cf"
+  }
+}

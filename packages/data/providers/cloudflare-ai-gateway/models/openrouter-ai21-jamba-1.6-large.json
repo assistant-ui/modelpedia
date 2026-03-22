@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/ai21/jamba-1.6-large",
+  "name": "OpenRouter: ai21/jamba-1.6-large",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 2,
+    "output": 8
+  },
+  "_generated": {
+    "name": "85a28034",
+    "pricing": "9d7f5a51"
+  }
+}

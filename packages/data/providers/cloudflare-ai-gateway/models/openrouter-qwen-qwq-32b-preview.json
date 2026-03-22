@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwq-32b-preview",
+  "name": "OpenRouter: qwen/qwq-32b-preview",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwq",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "1d6e542f",
+    "family": "3a976110",
+    "pricing": "4a55a07f"
+  }
+}

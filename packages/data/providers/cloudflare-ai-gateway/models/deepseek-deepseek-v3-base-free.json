@@ -1,0 +1,12 @@
+{
+  "id": "deepseek/deepseek-v3-base:free",
+  "name": "DeepSeek: deepseek-v3-base:free",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek",
+  "_generated": {
+    "name": "933307cc",
+    "family": "4b81b92d"
+  }
+}

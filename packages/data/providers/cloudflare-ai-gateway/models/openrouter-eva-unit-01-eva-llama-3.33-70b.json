@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/eva-unit-01/eva-llama-3.33-70b",
+  "name": "OpenRouter: eva-unit-01/eva-llama-3.33-70b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 4,
+    "output": 6
+  },
+  "_generated": {
+    "name": "5f086712",
+    "pricing": "897f8220"
+  }
+}

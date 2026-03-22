@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/undi95/remm-slerp-l2-13b",
+  "name": "OpenRouter: undi95/remm-slerp-l2-13b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.44999999999999996,
+    "output": 0.65
+  },
+  "_generated": {
+    "name": "00596c5f",
+    "pricing": "78e34cdb"
+  }
+}

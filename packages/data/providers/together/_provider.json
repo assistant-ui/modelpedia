@@ -5,5 +5,12 @@
   "url": "https://www.together.ai",
   "api_url": "https://api.together.xyz/v1",
   "docs_url": "https://docs.together.ai",
-  "pricing_url": "https://www.together.ai/pricing"
+  "pricing_url": "https://www.together.ai/pricing",
+  "description": "Open-source AI inference and fine-tuning platform with 100+ models.",
+  "type": "aggregator",
+  "sdk": {
+    "python": "together",
+    "javascript": "together-ai"
+  },
+  "free_tier": true
 }

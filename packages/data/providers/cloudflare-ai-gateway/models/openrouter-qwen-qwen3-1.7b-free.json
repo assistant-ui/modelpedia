@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/qwen/qwen3-1.7b:free",
+  "name": "OpenRouter: qwen/qwen3-1.7b:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "_generated": {
+    "name": "5c31dd9e",
+    "family": "48c385a0"
+  }
+}

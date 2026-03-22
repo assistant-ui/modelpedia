@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/upstage/solar-pro-3",
+  "name": "OpenRouter: upstage/solar-pro-3",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "1cadd903",
+    "pricing": "89a9c6e2"
+  }
+}

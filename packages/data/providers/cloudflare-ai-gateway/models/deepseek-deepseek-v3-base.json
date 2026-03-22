@@ -1,0 +1,17 @@
+{
+  "id": "deepseek/deepseek-v3-base",
+  "name": "DeepSeek: deepseek-v3-base",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek",
+  "pricing": {
+    "input": 0.199919,
+    "output": 0.800064
+  },
+  "_generated": {
+    "name": "0879665d",
+    "family": "4b81b92d",
+    "pricing": "c1222d10"
+  }
+}

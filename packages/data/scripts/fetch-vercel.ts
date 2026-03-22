@@ -1,6 +1,8 @@
+import { fetchText } from "./parse.ts";
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -10,7 +12,8 @@ import {
  * No API key needed — structured markdown table.
  */
 
-const MODELS_MD = "https://vercel.com/ai-gateway/models.md";
+const sources = readSources("vercel");
+const MODELS_MD = sources.docs as string;
 
 function parseDollar(s: string): number | undefined {
   const m = s.match(/\$([\d.]+)/);
@@ -68,9 +71,7 @@ function parseTags(tags: string): Record<string, boolean> {
 async function main() {
   console.log("Fetching Vercel AI Gateway models...");
 
-  const res = await fetch(MODELS_MD);
-  if (!res.ok) throw new Error(`Failed: ${res.status}`);
-  const md = await res.text();
+  const md = await fetchText(MODELS_MD);
 
   const lines = md
     .split("\n")

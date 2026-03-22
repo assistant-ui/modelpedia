@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/mistralai/mistral-small-24b-instruct-2501:free",
+  "name": "OpenRouter: mistralai/mistral-small-24b-instruct-2501:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "mistral-small",
+  "_generated": {
+    "name": "547b1e45",
+    "family": "275918a5"
+  }
+}

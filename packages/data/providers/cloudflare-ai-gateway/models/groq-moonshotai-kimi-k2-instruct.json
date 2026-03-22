@@ -1,0 +1,15 @@
+{
+  "id": "groq/moonshotai/kimi-k2-instruct",
+  "name": "Groq: moonshotai/kimi-k2-instruct",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1,
+    "output": 3
+  },
+  "_generated": {
+    "name": "a884662e",
+    "pricing": "7fd03be2"
+  }
+}

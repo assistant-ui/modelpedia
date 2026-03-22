@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/tencent/hunyuan-a13b-instruct",
+  "name": "OpenRouter: tencent/hunyuan-a13b-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.14,
+    "output": 0.5700000000000001
+  },
+  "_generated": {
+    "name": "e8797c43",
+    "pricing": "757fc7f1"
+  }
+}

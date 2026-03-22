@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/meta-llama/llama-3.1-405b",
+  "name": "OpenRouter: meta-llama/llama-3.1-405b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.1",
+  "pricing": {
+    "input": 4,
+    "output": 4
+  },
+  "_generated": {
+    "name": "42ea1afc",
+    "family": "83ec32db",
+    "pricing": "da347ef5"
+  }
+}

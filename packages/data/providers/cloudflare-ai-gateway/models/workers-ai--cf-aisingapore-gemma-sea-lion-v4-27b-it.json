@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/@cf/aisingapore/gemma-sea-lion-v4-27b-it",
+  "name": "Workers AI: @cf/aisingapore/gemma-sea-lion-v4-27b-it",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.35,
+    "output": 0.56
+  },
+  "_generated": {
+    "name": "64f5b8a7",
+    "pricing": "4bd1b119"
+  }
+}

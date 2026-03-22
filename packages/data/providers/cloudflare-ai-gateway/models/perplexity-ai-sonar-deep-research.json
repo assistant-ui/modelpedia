@@ -1,0 +1,15 @@
+{
+  "id": "perplexity-ai/sonar-deep-research",
+  "name": "Perplexity: sonar-deep-research",
+  "created_by": "perplexity",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 2,
+    "output": 8
+  },
+  "_generated": {
+    "name": "b3d7f156",
+    "pricing": "9d7f5a51"
+  }
+}

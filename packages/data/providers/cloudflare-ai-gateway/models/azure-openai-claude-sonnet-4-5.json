@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/claude-sonnet-4-5",
+  "name": "Azure OpenAI: claude-sonnet-4-5",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-sonnet",
+  "pricing": {
+    "input": 3,
+    "output": 15
+  },
+  "_generated": {
+    "name": "07e27794",
+    "family": "68d1c457",
+    "pricing": "7939f0ff"
+  }
+}

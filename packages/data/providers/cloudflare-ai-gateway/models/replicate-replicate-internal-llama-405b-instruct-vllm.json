@@ -1,0 +1,17 @@
+{
+  "id": "replicate/replicate-internal/llama-405b-instruct-vllm",
+  "name": "Replicate: replicate-internal/llama-405b-instruct-vllm",
+  "created_by": "replicate",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-405",
+  "pricing": {
+    "input": 9.5,
+    "output": 9.5
+  },
+  "_generated": {
+    "name": "e6ac8497",
+    "family": "330ee2e4",
+    "pricing": "263cf14e"
+  }
+}

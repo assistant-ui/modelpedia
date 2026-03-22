@@ -1,0 +1,17 @@
+{
+  "id": "groq/llama-3.2-1b-preview",
+  "name": "Groq: llama-3.2-1b-preview",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.2",
+  "pricing": {
+    "input": 0.04,
+    "output": 0.04
+  },
+  "_generated": {
+    "name": "30484815",
+    "family": "d4c42ce9",
+    "pricing": "e339168e"
+  }
+}

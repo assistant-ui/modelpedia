@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/thedrummer/skyfall-36b-v2",
+  "name": "OpenRouter: thedrummer/skyfall-36b-v2",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.55,
+    "output": 0.7999999999999999
+  },
+  "_generated": {
+    "name": "8dfe5ab1",
+    "pricing": "1a9a14c0"
+  }
+}

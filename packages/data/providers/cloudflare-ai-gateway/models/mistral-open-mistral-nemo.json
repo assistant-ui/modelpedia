@@ -1,0 +1,17 @@
+{
+  "id": "mistral/open-mistral-nemo",
+  "name": "Mistral: open-mistral-nemo",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.15
+  },
+  "_generated": {
+    "name": "94cd1d90",
+    "model_type": "d669f408",
+    "pricing": "16a72b67"
+  }
+}

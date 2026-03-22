@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/meta-llama/llama-2-70b-chat",
+  "name": "OpenRouter: meta-llama/llama-2-70b-chat",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-2",
+  "pricing": {
+    "input": 0.8999999999999999,
+    "output": 0.8999999999999999
+  },
+  "_generated": {
+    "name": "8a7c3c21",
+    "family": "02734076",
+    "pricing": "eb054cd6"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "workers-ai/llama-2-7b-chat-fp16",
+  "name": "Workers AI: llama-2-7b-chat-fp16",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-2",
+  "pricing": {
+    "input": 560000,
+    "output": 6670000
+  },
+  "_generated": {
+    "name": "6574a446",
+    "family": "02734076",
+    "pricing": "c8d40b90"
+  }
+}

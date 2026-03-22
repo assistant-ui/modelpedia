@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/google/palm-2-codechat-bison",
+  "name": "OpenRouter: google/palm-2-codechat-bison",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1,
+    "output": 2
+  },
+  "_generated": {
+    "name": "297bc746",
+    "pricing": "ac91204c"
+  }
+}

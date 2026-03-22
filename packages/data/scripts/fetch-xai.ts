@@ -3,6 +3,7 @@ import {
   filterModalities,
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -13,8 +14,9 @@ import {
  * 2. /v1/models API (release dates, needs key)
  */
 
-const DOCS_MD = "https://docs.x.ai/developers/models.md";
-const API_URL = "https://api.x.ai/v1/models";
+const sources = readSources("xai");
+const DOCS_MD = sources.docs as string;
+const API_URL = sources.api as string;
 
 interface DocsModel {
   id: string;
@@ -27,11 +29,6 @@ interface DocsModel {
 interface ApiModel {
   id: string;
   created: number;
-}
-
-function _parseDollar(s: string): number | undefined {
-  const m = s.match(/\$([\d.]+)/);
-  return m ? Number(m[1]) : undefined;
 }
 
 function parseModalities(s: string): { input: string[]; output: string[] } {

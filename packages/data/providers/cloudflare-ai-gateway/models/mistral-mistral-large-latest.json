@@ -1,0 +1,19 @@
+{
+  "id": "mistral/mistral-large-latest",
+  "name": "Mistral: mistral-large-latest",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "mistral-large",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.5,
+    "output": 1.5
+  },
+  "_generated": {
+    "name": "6cbd2300",
+    "family": "70f9d51d",
+    "model_type": "d669f408",
+    "pricing": "2c3abb73"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "google-ai-studio/models/gemini-2.0-flash-lite",
+  "name": "Google AI Studio: models/gemini-2.0-flash-lite",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-2.0",
+  "pricing": {
+    "input": 0.075,
+    "output": 0.3
+  },
+  "_generated": {
+    "name": "a2a3fd56",
+    "family": "dc4aadf6",
+    "pricing": "b6208862"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "llama3.1-70b",
+  "name": "llama3.1-70b",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "status": "deprecated",
+  "deprecation_date": "2025-01-17",
+  "model_type": "chat",
+  "successor": "Change Log Previous",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "c98c91db",
+    "status": "2e2f74dc",
+    "deprecation_date": "e05f8617",
+    "model_type": "d669f408",
+    "successor": "564f9a7e",
+    "modalities": "68e53d93"
+  }
+}

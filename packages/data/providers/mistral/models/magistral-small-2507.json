@@ -27,6 +27,8 @@
     "deprecation_date": "2bddea11",
     "pricing": "2c3abb73",
     "capabilities": "8a3b232e",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "17475f7f"
+  },
+  "model_type": "reasoning"
 }

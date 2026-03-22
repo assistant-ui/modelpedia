@@ -1,0 +1,17 @@
+{
+  "id": "google-ai-studio/gemma-3-27b-it",
+  "name": "Google AI Studio: gemma-3-27b-it",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemma-3",
+  "pricing": {
+    "input": 0.08,
+    "output": 0.16
+  },
+  "_generated": {
+    "name": "13aa45ec",
+    "family": "d9e10ad8",
+    "pricing": "3cac3591"
+  }
+}

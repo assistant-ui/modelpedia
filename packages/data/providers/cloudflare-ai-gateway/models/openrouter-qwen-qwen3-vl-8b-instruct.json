@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3-vl-8b-instruct",
+  "name": "OpenRouter: qwen/qwen3-vl-8b-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "pricing": {
+    "input": 0.08,
+    "output": 0.5
+  },
+  "_generated": {
+    "name": "ce1c1de8",
+    "family": "48c385a0",
+    "pricing": "afd8a196"
+  }
+}

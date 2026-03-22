@@ -1,0 +1,15 @@
+{
+  "id": "cohere/command-light-nightly",
+  "name": "Cohere: command-light-nightly",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.3,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "89910be7",
+    "pricing": "a511aaae"
+  }
+}

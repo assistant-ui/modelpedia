@@ -3,7 +3,8 @@
   "name": "Nova Sonic",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
+  "model_type": "audio",
   "capabilities": {
     "streaming": true
   },
@@ -13,6 +14,7 @@
   },
   "_generated": {
     "name": "78bb5bdf",
+    "model_type": "9f84c007",
     "capabilities": "0fa77dc6",
     "modalities": "72e6ca34"
   }

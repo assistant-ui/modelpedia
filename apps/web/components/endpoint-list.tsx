@@ -99,6 +99,26 @@ const ENDPOINT_MAP: Record<
     method: "POST",
     path: "/v1/videos/generations",
   },
+  // Anthropic
+  messages: {
+    label: "Messages",
+    desc: "Create messages with multi-turn conversations",
+    method: "POST",
+    path: "/v1/messages",
+  },
+  // Google
+  generateContent: {
+    label: "Generate Content",
+    desc: "Generate text from multimodal input",
+    method: "POST",
+    path: "/v1beta/models/{model}:generateContent",
+  },
+  streamGenerateContent: {
+    label: "Stream Content",
+    desc: "Stream text generation responses",
+    method: "POST",
+    path: "/v1beta/models/{model}:streamGenerateContent",
+  },
 };
 
 /** Map tool keys to display label + description. */

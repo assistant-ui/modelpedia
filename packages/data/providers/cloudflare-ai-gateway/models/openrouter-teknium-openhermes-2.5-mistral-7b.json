@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/teknium/openhermes-2.5-mistral-7b",
+  "name": "OpenRouter: teknium/openhermes-2.5-mistral-7b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.16999999999999998,
+    "output": 0.16999999999999998
+  },
+  "_generated": {
+    "name": "90377d61",
+    "pricing": "9678079c"
+  }
+}

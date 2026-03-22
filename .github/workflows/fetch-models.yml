@@ -53,7 +53,7 @@ jobs:
             fetch:cerebras fetch:baseten fetch:openrouter fetch:perplexity
             fetch:azure fetch:groq fetch:nvidia fetch:together
             fetch:fireworks fetch:amazon fetch:vercel fetch:vertex
-            fetch:cloudflare fetch:opencode fetch:ollama fetch:huggingface
+            fetch:cloudflare-workers-ai fetch:cloudflare-ai-gateway fetch:opencode fetch:ollama fetch:huggingface
             fetch:qwen
           )
           for script in "${scripts[@]}"; do

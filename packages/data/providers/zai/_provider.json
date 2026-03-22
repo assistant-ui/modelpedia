@@ -5,5 +5,8 @@
   "url": "https://z.ai",
   "api_url": "https://api.z.ai/api/paas/v4",
   "docs_url": "https://docs.z.ai",
-  "pricing_url": "https://z.ai/pricing"
+  "pricing_url": "https://z.ai/pricing",
+  "description": "Zhipu AI builds GLM models for Chinese and multilingual AI applications.",
+  "type": "direct",
+  "free_tier": true
 }

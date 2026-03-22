@@ -1,0 +1,15 @@
+{
+  "id": "openai/babbage-002",
+  "name": "OpenAI: babbage-002",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1.6,
+    "output": 1.6
+  },
+  "_generated": {
+    "name": "8f9b0818",
+    "pricing": "2f3a6c6c"
+  }
+}

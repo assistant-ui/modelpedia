@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/microsoft/phi-4",
+  "name": "OpenRouter: microsoft/phi-4",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.065,
+    "output": 0.14
+  },
+  "_generated": {
+    "name": "9da36951",
+    "pricing": "0ef670c7"
+  }
+}

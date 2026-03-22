@@ -1,0 +1,17 @@
+{
+  "id": "openai/chatgpt-4o-latest",
+  "name": "OpenAI: chatgpt-4o-latest",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "chatgpt",
+  "pricing": {
+    "input": 5,
+    "output": 15
+  },
+  "_generated": {
+    "name": "951ab808",
+    "family": "65aec523",
+    "pricing": "dbc0b754"
+  }
+}

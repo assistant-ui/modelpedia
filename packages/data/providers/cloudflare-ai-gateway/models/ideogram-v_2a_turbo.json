@@ -1,0 +1,15 @@
+{
+  "id": "ideogram/v_2a_turbo",
+  "name": "Ideogram: v_2a_turbo",
+  "created_by": "ideogram",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0,
+    "output": 25000
+  },
+  "_generated": {
+    "name": "d434a56c",
+    "pricing": "af8c4210"
+  }
+}

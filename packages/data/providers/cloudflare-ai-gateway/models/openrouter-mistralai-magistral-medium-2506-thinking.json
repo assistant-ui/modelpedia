@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/mistralai/magistral-medium-2506:thinking",
+  "name": "OpenRouter: mistralai/magistral-medium-2506:thinking",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 2,
+    "output": 5
+  },
+  "_generated": {
+    "name": "29abdc28",
+    "pricing": "383111d1"
+  }
+}

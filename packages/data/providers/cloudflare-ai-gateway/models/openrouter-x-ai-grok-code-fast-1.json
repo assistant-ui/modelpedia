@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/x-ai/grok-code-fast-1",
+  "name": "OpenRouter: x-ai/grok-code-fast-1",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "grok-code",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 1.5
+  },
+  "_generated": {
+    "name": "a5022803",
+    "family": "378ba70c",
+    "pricing": "d98c5970"
+  }
+}

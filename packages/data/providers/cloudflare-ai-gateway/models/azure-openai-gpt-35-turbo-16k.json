@@ -1,0 +1,15 @@
+{
+  "id": "azure-openai/gpt-35-turbo-16k",
+  "name": "Azure OpenAI: gpt-35-turbo-16k",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1,
+    "output": 2
+  },
+  "_generated": {
+    "name": "a38b02db",
+    "pricing": "ac91204c"
+  }
+}

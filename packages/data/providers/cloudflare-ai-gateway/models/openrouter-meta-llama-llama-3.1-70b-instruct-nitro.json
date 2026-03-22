@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/meta-llama/llama-3.1-70b-instruct:nitro",
+  "name": "OpenRouter: meta-llama/llama-3.1-70b-instruct:nitro",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.1",
+  "pricing": {
+    "input": 3.25,
+    "output": 3.25
+  },
+  "_generated": {
+    "name": "8186823a",
+    "family": "83ec32db",
+    "pricing": "af0c6574"
+  }
+}

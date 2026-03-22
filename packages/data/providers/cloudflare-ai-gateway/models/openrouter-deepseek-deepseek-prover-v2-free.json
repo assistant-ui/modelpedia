@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/deepseek/deepseek-prover-v2:free",
+  "name": "OpenRouter: deepseek/deepseek-prover-v2:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek",
+  "_generated": {
+    "name": "1c6d7302",
+    "family": "4b81b92d"
+  }
+}

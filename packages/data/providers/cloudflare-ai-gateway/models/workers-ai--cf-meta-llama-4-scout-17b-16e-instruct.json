@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct",
+  "name": "Workers AI: @cf/meta/llama-4-scout-17b-16e-instruct",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.27,
+    "output": 0.85
+  },
+  "_generated": {
+    "name": "4e7b290e",
+    "pricing": "14737c2d"
+  }
+}

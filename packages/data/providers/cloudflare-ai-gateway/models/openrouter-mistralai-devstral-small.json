@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/mistralai/devstral-small",
+  "name": "OpenRouter: mistralai/devstral-small",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "devstral",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0.3
+  },
+  "_generated": {
+    "name": "26e0fac9",
+    "family": "e626e93e",
+    "pricing": "a3896bf6"
+  }
+}

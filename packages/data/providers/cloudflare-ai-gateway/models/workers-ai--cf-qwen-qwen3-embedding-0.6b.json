@@ -1,0 +1,17 @@
+{
+  "id": "workers-ai/@cf/qwen/qwen3-embedding-0.6b",
+  "name": "Workers AI: @cf/qwen/qwen3-embedding-0.6b",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "pricing": {
+    "input": 0.012,
+    "output": 0
+  },
+  "_generated": {
+    "name": "1a93e53a",
+    "family": "a3af76f3",
+    "pricing": "e8d30fef"
+  }
+}

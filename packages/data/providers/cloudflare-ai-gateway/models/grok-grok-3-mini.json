@@ -1,0 +1,17 @@
+{
+  "id": "grok/grok-3-mini",
+  "name": "xAI: grok-3-mini",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "grok-3",
+  "pricing": {
+    "input": 0.3,
+    "output": 0.5
+  },
+  "_generated": {
+    "name": "39483a5c",
+    "family": "c41798c6",
+    "pricing": "6599547f"
+  }
+}

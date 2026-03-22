@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/chatgpt-4o-latest",
+  "name": "OpenRouter: openai/chatgpt-4o-latest",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "chatgpt",
+  "pricing": {
+    "input": 5,
+    "output": 15
+  },
+  "_generated": {
+    "name": "b5428646",
+    "family": "65aec523",
+    "pricing": "dbc0b754"
+  }
+}

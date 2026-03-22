@@ -1,0 +1,17 @@
+{
+  "id": "mistral/mistral-embed",
+  "name": "Mistral: mistral-embed",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "embed",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0
+  },
+  "_generated": {
+    "name": "66d91452",
+    "model_type": "764cb3de",
+    "pricing": "5cbeedde"
+  }
+}

@@ -3,8 +3,9 @@
   "name": "Qwen3 Coder 480B A35B Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "qwen.",
+  "model_type": "code",
   "capabilities": {
     "streaming": true
   },
@@ -15,6 +16,7 @@
   "_generated": {
     "name": "ce5d7e18",
     "family": "4f268b83",
+    "model_type": "b6cc3ff4",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93"
   }

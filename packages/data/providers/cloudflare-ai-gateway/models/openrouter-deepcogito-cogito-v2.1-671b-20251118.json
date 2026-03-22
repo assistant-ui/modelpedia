@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/deepcogito/cogito-v2.1-671b-20251118",
+  "name": "OpenRouter: deepcogito/cogito-v2.1-671b-20251118",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1.25,
+    "output": 1.25
+  },
+  "_generated": {
+    "name": "f6376a09",
+    "pricing": "79b45451"
+  }
+}

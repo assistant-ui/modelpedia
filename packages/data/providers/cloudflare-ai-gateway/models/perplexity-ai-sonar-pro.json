@@ -1,0 +1,15 @@
+{
+  "id": "perplexity-ai/sonar-pro",
+  "name": "Perplexity: sonar-pro",
+  "created_by": "perplexity",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 3,
+    "output": 15
+  },
+  "_generated": {
+    "name": "f4c00058",
+    "pricing": "7939f0ff"
+  }
+}

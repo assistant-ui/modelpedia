@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/thedrummer/cydonia-24b-v4.1",
+  "name": "OpenRouter: thedrummer/cydonia-24b-v4.1",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.3,
+    "output": 0.5
+  },
+  "_generated": {
+    "name": "28c5418c",
+    "pricing": "6599547f"
+  }
+}

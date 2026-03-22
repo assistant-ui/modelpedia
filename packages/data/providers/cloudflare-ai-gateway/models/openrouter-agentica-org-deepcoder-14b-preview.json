@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/agentica-org/deepcoder-14b-preview",
+  "name": "OpenRouter: agentica-org/deepcoder-14b-preview",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.015,
+    "output": 0.015
+  },
+  "_generated": {
+    "name": "a8ed3d29",
+    "pricing": "cd191139"
+  }
+}

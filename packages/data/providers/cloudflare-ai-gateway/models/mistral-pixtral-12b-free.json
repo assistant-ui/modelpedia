@@ -1,0 +1,14 @@
+{
+  "id": "mistral/pixtral-12b:free",
+  "name": "Mistral: pixtral-12b:free",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "pixtral",
+  "model_type": "chat",
+  "_generated": {
+    "name": "05d33f9d",
+    "family": "c606df51",
+    "model_type": "d669f408"
+  }
+}

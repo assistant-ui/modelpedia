@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-3.5-turbo-16k-0613",
+  "name": "OpenAI: gpt-3.5-turbo-16k-0613",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-3.5",
+  "pricing": {
+    "input": 3,
+    "output": 4
+  },
+  "_generated": {
+    "name": "6d26daa3",
+    "family": "7601054d",
+    "pricing": "1a73c315"
+  }
+}

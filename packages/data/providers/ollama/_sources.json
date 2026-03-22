@@ -1,0 +1,4 @@
+{
+  "api": "https://ollama.com/api/tags",
+  "search": "https://ollama.com/search"
+}

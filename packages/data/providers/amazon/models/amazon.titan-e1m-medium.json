@@ -3,7 +3,8 @@
   "name": "Titan Text/Image Embeddings",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
+  "model_type": "embed",
   "capabilities": {
     "vision": true
   },
@@ -13,6 +14,7 @@
   },
   "_generated": {
     "name": "4f54a070",
+    "model_type": "764cb3de",
     "capabilities": "d3117eb0",
     "modalities": "72e6ca34"
   }

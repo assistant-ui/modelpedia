@@ -1,0 +1,29 @@
+{
+  "id": "qwen3-livetranslate-flash",
+  "name": "qwen3-livetranslate-flash",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "context_window": 53248,
+  "max_output_tokens": 4096,
+  "model_type": "translation",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "573976eb",
+    "family": "48c385a0",
+    "context_window": "1ba75ef1",
+    "max_output_tokens": "f7efa4f8",
+    "model_type": "5c212ca7",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "75df3f1c"
+  }
+}

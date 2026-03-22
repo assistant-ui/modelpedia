@@ -1,0 +1,32 @@
+{
+  "id": "deepseek-chat-2024-06-14",
+  "name": "DeepSeek Coder-V2-0614 (Chat)",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek-chat",
+  "status": "deprecated",
+  "release_date": "2024-06-14",
+  "model_type": "chat",
+  "alias": "deepseek-chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "2116f532",
+    "family": "fbd79fd9",
+    "status": "2e2f74dc",
+    "release_date": "4a5d7290",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "deprecation_date": "7f069954",
+    "successor": "52194ba4"
+  },
+  "deprecation_date": "2024-06-28",
+  "successor": "deepseek-chat-2024-06-28"
+}

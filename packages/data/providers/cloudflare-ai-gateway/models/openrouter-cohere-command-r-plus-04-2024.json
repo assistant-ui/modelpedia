@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/cohere/command-r-plus-04-2024",
+  "name": "OpenRouter: cohere/command-r-plus-04-2024",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 3,
+    "output": 15
+  },
+  "_generated": {
+    "name": "8d7a5156",
+    "pricing": "7939f0ff"
+  }
+}

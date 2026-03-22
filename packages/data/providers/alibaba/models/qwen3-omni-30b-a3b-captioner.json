@@ -1,0 +1,34 @@
+{
+  "id": "qwen3-omni-30b-a3b-captioner",
+  "name": "qwen3-omni-30b-a3b-captioner",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "context_window": 65536,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3.81,
+    "output": 3.06
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "43c164a5",
+    "family": "48c385a0",
+    "context_window": "297ce0b3",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "d65b34d6",
+    "pricing": "f505ae15",
+    "endpoints": "75df3f1c"
+  }
+}

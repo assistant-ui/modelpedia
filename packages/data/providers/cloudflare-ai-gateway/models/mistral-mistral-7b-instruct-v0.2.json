@@ -1,0 +1,15 @@
+{
+  "id": "mistral/mistral-7b-instruct-v0.2",
+  "name": "Mistral: mistral-7b-instruct-v0.2",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "609c86bc",
+    "pricing": "4a55a07f"
+  }
+}

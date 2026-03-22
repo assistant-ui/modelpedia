@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/mistral.mixtral-8x7b-instruct-v0:1",
+  "name": "Amazon Bedrock: mistral.mixtral-8x7b-instruct-v0:1",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.7,
+    "output": 0.7
+  },
+  "_generated": {
+    "name": "9d9c11c9",
+    "model_type": "d669f408",
+    "pricing": "082278b5"
+  }
+}

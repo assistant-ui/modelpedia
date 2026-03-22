@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/google/gemini-2.0-flash-thinking-exp-1219:free",
+  "name": "OpenRouter: google/gemini-2.0-flash-thinking-exp-1219:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-2.0",
+  "_generated": {
+    "name": "91406cc4",
+    "family": "dc4aadf6"
+  }
+}

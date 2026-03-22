@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3-coder-next-2025-02-03",
+  "name": "OpenRouter: qwen/qwen3-coder-next-2025-02-03",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "pricing": {
+    "input": 0.12,
+    "output": 0.75
+  },
+  "_generated": {
+    "name": "d6b58dad",
+    "family": "48c385a0",
+    "pricing": "6442ee55"
+  }
+}

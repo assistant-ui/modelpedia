@@ -1,0 +1,17 @@
+{
+  "id": "perplexity-ai/sonar-reasoning",
+  "name": "Perplexity: sonar-reasoning",
+  "created_by": "perplexity",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "reasoning",
+  "pricing": {
+    "input": 1,
+    "output": 5
+  },
+  "_generated": {
+    "name": "80090602",
+    "model_type": "17475f7f",
+    "pricing": "5b5c2081"
+  }
+}

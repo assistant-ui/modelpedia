@@ -25,6 +25,8 @@
     "knowledge_cutoff": "83e324a8",
     "family": "82d0cb0b",
     "capabilities": "0946b777",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

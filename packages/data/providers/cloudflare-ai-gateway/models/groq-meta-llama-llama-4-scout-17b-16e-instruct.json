@@ -1,0 +1,17 @@
+{
+  "id": "groq/meta-llama/llama-4-scout-17b-16e-instruct",
+  "name": "Groq: meta-llama/llama-4-scout-17b-16e-instruct",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-4",
+  "pricing": {
+    "input": 0.11,
+    "output": 0.33999999999999997
+  },
+  "_generated": {
+    "name": "fc5237f8",
+    "family": "3169363f",
+    "pricing": "4a3fa225"
+  }
+}

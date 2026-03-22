@@ -1,0 +1,17 @@
+{
+  "id": "workers-ai/@cf/meta/llama-guard-3-8b",
+  "name": "Workers AI: @cf/meta/llama-guard-3-8b",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "moderation",
+  "pricing": {
+    "input": 0.48,
+    "output": 0.03
+  },
+  "_generated": {
+    "name": "1526b008",
+    "model_type": "1e7a7b87",
+    "pricing": "298f116d"
+  }
+}

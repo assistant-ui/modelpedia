@@ -27,6 +27,7 @@ import {
 import { ModelIdCopy } from "@/components/model-id-copy";
 import { OverlayPanel } from "@/components/overlay-panel";
 import { ProviderIcon } from "@/components/provider-icon";
+import { SnapshotList } from "@/components/snapshot-list";
 import { ButtonLink } from "@/components/ui/button";
 import {
   allModels,
@@ -155,13 +156,13 @@ export default async function ModelDetailPage({
 
   function renderHeader(actions: React.ReactNode) {
     return (
-      <div className="mb-8">
+      <div className="space-y-4">
         <div className="flex items-center gap-2.5">
           <a
             href={`/${model.provider}`}
             className="shrink-0 transition-opacity duration-200 hover:opacity-70"
           >
-            <ProviderIcon provider={providerInfo} size={18} />
+            <ProviderIcon provider={providerInfo} size={20} />
           </a>
           <h1 className="font-medium text-foreground text-lg tracking-tight">
             {model.name}
@@ -184,13 +185,8 @@ export default async function ModelDetailPage({
           <span className="flex-1" />
           {actions}
         </div>
-        {normalizeModelId(model.id) !== normalizeModelId(model.name) && (
-          <div className="mt-1 break-all font-mono text-muted-foreground text-sm">
-            {model.id}
-          </div>
-        )}
         {(model.description || model.tagline || model.successor) && (
-          <p className="mt-2 text-pretty text-muted-foreground text-sm leading-relaxed">
+          <p className="text-pretty text-muted-foreground text-sm leading-relaxed">
             {model.description ? (
               <RenderMarkdown text={model.description} />
             ) : (
@@ -199,47 +195,24 @@ export default async function ModelDetailPage({
             {model.successor && (
               <>
                 {(model.description || model.tagline) && " · "}
-                <a
-                  href={`/${model.provider}/${model.successor}`}
-                  className="inline-flex items-center gap-1 font-medium text-foreground transition-colors duration-200 hover:text-foreground/70"
-                >
-                  Succeeded by {model.successor}
-                  <span className="text-muted-foreground">→</span>
-                </a>
-              </>
-            )}
-          </p>
-        )}
-        {(aliasOf || (snapshots && snapshots.length > 0)) && (
-          <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
-            {aliasOf && (
-              <>
-                <span className="text-muted-foreground/60">
-                  {model.alias ? "Alias of" : "Snapshot of"}
-                </span>
-                <a
-                  href={`/${model.provider}/${aliasOf}`}
-                  className="rounded bg-muted px-2 py-1 font-mono text-muted-foreground ring-1 ring-border transition-colors duration-200 hover:text-foreground"
-                >
-                  {aliasOf}
-                </a>
-              </>
-            )}
-            {snapshots && snapshots.length > 0 && (
-              <>
-                <span className="text-muted-foreground/60">Snapshots</span>
-                {snapshots.map((s) => (
-                  <a
-                    key={s}
-                    href={`/${model.provider}/${s}`}
-                    className="rounded bg-muted px-2 py-1 font-mono text-muted-foreground ring-1 ring-border transition-colors duration-200 hover:text-foreground"
-                  >
-                    {s}
-                  </a>
+                Succeeded by{" "}
+                {(Array.isArray(model.successor)
+                  ? model.successor
+                  : [model.successor]
+                ).map((s, i) => (
+                  <span key={s}>
+                    {i > 0 && " or "}
+                    <a
+                      href={`/${model.provider}/${s}`}
+                      className="font-medium text-foreground transition-colors duration-200 hover:text-foreground/70"
+                    >
+                      {s}
+                    </a>
+                  </span>
                 ))}
               </>
             )}
-          </div>
+          </p>
         )}
       </div>
     );
@@ -254,7 +227,7 @@ export default async function ModelDetailPage({
             href={`/${model.provider}`}
             className="shrink-0 transition-opacity duration-200 hover:opacity-70"
           >
-            <ProviderIcon provider={providerInfo} size={18} />
+            <ProviderIcon provider={providerInfo} size={20} />
           </a>
           <h2 className="flex-1 font-medium text-foreground text-lg tracking-tight">
             {model.name}
@@ -354,77 +327,109 @@ export default async function ModelDetailPage({
 
   return (
     <>
-      {renderHeader(
-        <>
-          <ButtonLink
-            href={`/compare?a=${encodeURIComponent(`${model.provider}/${model.id}`)}`}
-            variant="default"
-            size="icon"
-            title="Compare this model"
-          >
-            <GitCompareArrows size={14} />
-          </ButtonLink>
-          {providerInfo?.playground_url && (
+      <div className="mb-8 space-y-4">
+        {renderHeader(
+          <>
             <ButtonLink
-              href={providerInfo.playground_url}
+              href={`/compare?a=${encodeURIComponent(`${model.provider}/${model.id}`)}`}
               variant="default"
               size="icon"
-              title="Open Playground"
-              target="_blank"
+              title="Compare this model"
             >
-              <ExternalLink size={14} />
+              <GitCompareArrows size={14} />
             </ButtonLink>
-          )}
-          {modelChanges.length > 0 && (
-            <ButtonLink
-              href={`/${provider}/${modelId}/changes`}
-              variant="default"
-              size="icon"
-              title="Change history"
-            >
-              <History size={14} />
-            </ButtonLink>
-          )}
-          <ModelIdCopy
-            groups={[
-              {
-                label: "Model ID",
-                items: [
-                  { label: model.id, value: model.id },
-                  ...(model.alias
-                    ? [{ label: "Alias", value: model.alias }]
-                    : []),
-                  ...(model.snapshots ?? [])
-                    .filter((s) => s !== model.id)
-                    .map((s) => ({
-                      label: "Snapshot",
-                      value: s,
-                    })),
-                ],
-              },
-              {
-                label: "API",
-                items: [
-                  {
-                    label: "API endpoint",
-                    value: `/v1/models/${model.provider}/${model.id}`,
-                  },
-                  ...(providerInfo?.api_url
-                    ? [
-                        {
-                          label: "Provider API",
-                          value: providerInfo.api_url,
-                        },
-                      ]
-                    : []),
-                ],
-              },
-            ]}
-          />
-        </>,
-      )}
+            {providerInfo?.playground_url && (
+              <ButtonLink
+                href={providerInfo.playground_url}
+                variant="default"
+                size="icon"
+                title="Open Playground"
+                target="_blank"
+              >
+                <ExternalLink size={14} />
+              </ButtonLink>
+            )}
+            {modelChanges.length > 0 && (
+              <ButtonLink
+                href={`/${provider}/${modelId}/changes`}
+                variant="default"
+                size="icon"
+                title="Change history"
+              >
+                <History size={14} />
+              </ButtonLink>
+            )}
+            <ModelIdCopy
+              groups={[
+                {
+                  label: "Model ID",
+                  items: [
+                    { label: model.id, value: model.id },
+                    ...(model.alias
+                      ? [{ label: "Alias", value: model.alias }]
+                      : []),
+                    ...(model.snapshots ?? [])
+                      .filter((s) => s !== model.id)
+                      .map((s) => ({
+                        label: "Snapshot",
+                        value: s,
+                      })),
+                  ],
+                },
+                {
+                  label: "API",
+                  items: [
+                    {
+                      label: "API endpoint",
+                      value: `/v1/models/${model.provider}/${model.id}`,
+                    },
+                    ...(providerInfo?.api_url
+                      ? [
+                          {
+                            label: "Provider API",
+                            value: providerInfo.api_url,
+                          },
+                        ]
+                      : []),
+                  ],
+                },
+              ]}
+            />
+          </>,
+        )}
 
-      <OverviewGrid model={model} inh={inh} />
+        <OverviewGrid model={model} inh={inh} />
+
+        {(aliasOf || (snapshots && snapshots.length > 0)) && (
+          <div className="flex flex-wrap items-center gap-2 text-xs">
+            {aliasOf && (
+              <>
+                <span className="text-muted-foreground/60">
+                  {model.alias ? "Alias of" : "Snapshot of"}
+                </span>
+                <a
+                  href={`/${model.provider}/${aliasOf}`}
+                  className="rounded bg-muted px-2 py-1 font-mono text-muted-foreground ring-1 ring-border transition-colors duration-200 hover:text-foreground"
+                >
+                  {aliasOf}
+                </a>
+              </>
+            )}
+            {snapshots && snapshots.length > 0 && (
+              <SnapshotList
+                provider={model.provider}
+                snapshots={snapshots.map((s) => ({
+                  id: s,
+                  deprecated:
+                    allModels.find(
+                      (m) => m.provider === model.provider && m.id === s,
+                    )?.status === "deprecated",
+                }))}
+              />
+            )}
+          </div>
+        )}
+      </div>
 
       <div id="capabilities" className="mb-4 text-muted-foreground text-sm">
         Capabilities
@@ -458,6 +463,9 @@ export default async function ModelDetailPage({
         Details
       </div>
       <div className="mb-8 grid gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-2">
+        {normalizeModelId(model.id) !== normalizeModelId(model.name) && (
+          <DetailCell label="Model ID" value={model.id} />
+        )}
         <DetailCell
           label="Provider"
           value={providerInfo?.name ?? model.provider}
@@ -546,6 +554,48 @@ export default async function ModelDetailPage({
               : "—"
           }
         />
+        {model.successor && (
+          <DetailCell
+            label="Successor"
+            value={
+              Array.isArray(model.successor)
+                ? model.successor.join(", ")
+                : model.successor
+            }
+            href={
+              Array.isArray(model.successor)
+                ? `/${model.provider}/${model.successor[0]}`
+                : `/${model.provider}/${model.successor}`
+            }
+          />
+        )}
+        {typeof model.training_data_cutoff === "string" && (
+          <DetailCell
+            label="Training data cutoff"
+            value={model.training_data_cutoff}
+          />
+        )}
+        {typeof model.extended_thinking === "boolean" && (
+          <DetailCell
+            label="Extended thinking"
+            value={model.extended_thinking ? "Yes" : "No"}
+          />
+        )}
+        {typeof model.adaptive_thinking === "boolean" && (
+          <DetailCell
+            label="Adaptive thinking"
+            value={model.adaptive_thinking ? "Yes" : "No"}
+          />
+        )}
+        {typeof model.priority_tier === "boolean" && (
+          <DetailCell
+            label="Priority tier"
+            value={model.priority_tier ? "Yes" : "No"}
+          />
+        )}
+        {model.capabilities?.prompt_caching && (
+          <DetailCell label="Prompt caching" value="Supported" />
+        )}
         <DetailCell label="Source" value={model.source} />
         <DetailCell label="Last updated" value={model.last_updated} />
       </div>
@@ -646,7 +696,7 @@ export default async function ModelDetailPage({
             </div>
           ) : (
             <>
-              <div className="mb-4 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-3 lg:grid-cols-6">
+              <div className="mb-8 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-3 lg:grid-cols-6">
                 <PriceCell label="Input" value={model.pricing.input} />
                 <PriceCell label="Output" value={model.pricing.output} />
                 <PriceCell
@@ -664,7 +714,7 @@ export default async function ModelDetailPage({
                 />
               </div>
               {model.pricing_notes && model.pricing_notes.length > 0 && (
-                <div className="mb-8 space-y-1">
+                <div className="-mt-4 mb-8 space-y-1">
                   {model.pricing_notes.map((note) => (
                     <p
                       key={note.slice(0, 40)}
@@ -675,7 +725,6 @@ export default async function ModelDetailPage({
                   ))}
                 </div>
               )}
-              {!model.pricing_notes && <div className="mb-4" />}
             </>
           )}
         </>
@@ -684,7 +733,7 @@ export default async function ModelDetailPage({
       {familyModels.length > 1 && (
         <>
           <div id="family" className="mb-4 text-muted-foreground text-sm">
-            {model.family} family
+            Family Comparison: {model.family}
           </div>
           <FamilyComparison
             models={familyModels}
@@ -697,10 +746,12 @@ export default async function ModelDetailPage({
       <div id="api" className="mb-4 text-muted-foreground text-sm">
         API
       </div>
-      <ApiEndpoint
-        path={`/v1/models/${model.provider}/${model.id}`}
-        tryPath={`https://api.modelpedia.dev/v1/models/${model.provider}/${model.id}`}
-      />
+      <div className="mb-8">
+        <ApiEndpoint
+          path={`/v1/models/${model.provider}/${model.id}`}
+          tryPath={`https://api.modelpedia.dev/v1/models/${model.provider}/${model.id}`}
+        />
+      </div>
 
       {changesOverlay}
     </>

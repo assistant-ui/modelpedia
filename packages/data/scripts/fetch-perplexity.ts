@@ -1,4 +1,9 @@
-import { inferFamily, runGenerate, upsertWithSnapshot } from "./shared.ts";
+import {
+  inferFamily,
+  readSources,
+  runGenerate,
+  upsertWithSnapshot,
+} from "./shared.ts";
 
 /**
  * Fetch Perplexity models from:
@@ -6,8 +11,9 @@ import { inferFamily, runGenerate, upsertWithSnapshot } from "./shared.ts";
  * 2. Docs .md endpoint (pricing)
  */
 
-const API_URL = "https://api.perplexity.ai/v1/models";
-const DOCS_MD = "https://docs.perplexity.ai/docs/agent-api/models.md";
+const sources = readSources("perplexity");
+const API_URL = sources.api as string;
+const DOCS_MD = sources.docs as string;
 
 const PROVIDER_MAP: Record<string, string> = {
   openai: "openai",
@@ -144,12 +150,7 @@ async function main() {
   }
 
   // Fetch Sonar models from detail pages
-  const sonarPages = [
-    "https://docs.perplexity.ai/docs/sonar/models/sonar.md",
-    "https://docs.perplexity.ai/docs/sonar/models/sonar-pro.md",
-    "https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro.md",
-    "https://docs.perplexity.ai/docs/sonar/models/sonar-deep-research.md",
-  ];
+  const sonarPages = sources.sonar as string[];
 
   for (const url of sonarPages) {
     try {

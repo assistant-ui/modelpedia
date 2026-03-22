@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/undi95/toppy-m-7b",
+  "name": "OpenRouter: undi95/toppy-m-7b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.7999999999999999,
+    "output": 1.2
+  },
+  "_generated": {
+    "name": "951f3d68",
+    "pricing": "a1b65046"
+  }
+}

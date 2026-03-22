@@ -1,0 +1,15 @@
+{
+  "id": "azure-openai/gpt-45-turbo",
+  "name": "Azure OpenAI: gpt-45-turbo",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 10,
+    "output": 30
+  },
+  "_generated": {
+    "name": "a99081c5",
+    "pricing": "d5468ada"
+  }
+}

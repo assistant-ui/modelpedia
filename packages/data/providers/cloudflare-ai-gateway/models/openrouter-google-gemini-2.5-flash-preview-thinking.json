@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/google/gemini-2.5-flash-preview:thinking",
+  "name": "OpenRouter: google/gemini-2.5-flash-preview:thinking",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-2.5",
+  "pricing": {
+    "input": 0.15,
+    "output": 3.5
+  },
+  "_generated": {
+    "name": "6dbcf08f",
+    "family": "ea6b88bf",
+    "pricing": "4aa0627c"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/perplexity/r1-1776",
+  "name": "OpenRouter: perplexity/r1-1776",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 2,
+    "output": 8
+  },
+  "_generated": {
+    "name": "d6ff1d01",
+    "pricing": "9d7f5a51"
+  }
+}

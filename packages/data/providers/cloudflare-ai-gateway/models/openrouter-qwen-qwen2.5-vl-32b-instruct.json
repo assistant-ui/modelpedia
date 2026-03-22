@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen2.5-vl-32b-instruct",
+  "name": "OpenRouter: qwen/qwen2.5-vl-32b-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen2.5",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "f190ef51",
+    "family": "45d84b68",
+    "pricing": "143a4b96"
+  }
+}

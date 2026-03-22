@@ -1,0 +1,19 @@
+{
+  "id": "openai/gpt-oss-safeguard-20b",
+  "name": "OpenAI: gpt-oss-safeguard-20b",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-oss",
+  "model_type": "moderation",
+  "pricing": {
+    "input": 0.075,
+    "output": 0.3
+  },
+  "_generated": {
+    "name": "3d9028b9",
+    "family": "82d0cb0b",
+    "model_type": "1e7a7b87",
+    "pricing": "b6208862"
+  }
+}

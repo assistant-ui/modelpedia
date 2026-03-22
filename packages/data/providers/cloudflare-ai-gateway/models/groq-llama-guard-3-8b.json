@@ -1,0 +1,19 @@
+{
+  "id": "groq/llama-guard-3-8b",
+  "name": "Groq: llama-guard-3-8b",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-guard",
+  "model_type": "moderation",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "e2fc9568",
+    "family": "3190be28",
+    "model_type": "1e7a7b87",
+    "pricing": "4a55a07f"
+  }
+}

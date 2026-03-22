@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/thudm/glm-z1-rumination-32b",
+  "name": "OpenRouter: thudm/glm-z1-rumination-32b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.24,
+    "output": 0.24
+  },
+  "_generated": {
+    "name": "de80a3f8",
+    "pricing": "f4b839bc"
+  }
+}

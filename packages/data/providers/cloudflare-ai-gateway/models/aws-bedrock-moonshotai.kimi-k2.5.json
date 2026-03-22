@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/moonshotai.kimi-k2.5",
+  "name": "Amazon Bedrock: moonshotai.kimi-k2.5",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.6,
+    "output": 3
+  },
+  "_generated": {
+    "name": "5048dd12",
+    "model_type": "d669f408",
+    "pricing": "2209d9dc"
+  }
+}

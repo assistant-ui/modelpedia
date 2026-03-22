@@ -21,6 +21,8 @@
     "context_window": "10e4d788",
     "deprecation_date": "298b4e52",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

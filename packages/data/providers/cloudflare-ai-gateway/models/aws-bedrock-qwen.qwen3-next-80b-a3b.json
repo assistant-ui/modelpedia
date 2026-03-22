@@ -1,0 +1,19 @@
+{
+  "id": "aws-bedrock/qwen.qwen3-next-80b-a3b",
+  "name": "Amazon Bedrock: qwen.qwen3-next-80b-a3b",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen.",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.14,
+    "output": 1.4
+  },
+  "_generated": {
+    "name": "84712b72",
+    "family": "4f268b83",
+    "model_type": "d669f408",
+    "pricing": "e0e3f1f5"
+  }
+}

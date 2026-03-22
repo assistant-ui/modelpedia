@@ -5,5 +5,13 @@
   "url": "https://groq.com",
   "api_url": "https://api.groq.com/openai/v1",
   "docs_url": "https://console.groq.com/docs",
-  "pricing_url": "https://groq.com/pricing"
+  "pricing_url": "https://groq.com/pricing",
+  "description": "Ultra-fast inference platform powered by custom LPU hardware for low-latency AI.",
+  "type": "aggregator",
+  "status_url": "https://status.groq.com",
+  "sdk": {
+    "python": "groq",
+    "javascript": "groq-sdk"
+  },
+  "free_tier": true
 }

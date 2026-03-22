@@ -3,12 +3,14 @@
   "name": "Claude Haiku 3",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "claude-haiku",
   "status": "deprecated",
   "context_window": 200000,
   "max_output_tokens": 4000,
+  "performance": 3,
   "speed": 4,
+  "successor": "claude-haiku-4-5",
   "capabilities": {
     "streaming": true,
     "vision": true,
@@ -21,24 +23,32 @@
   "pricing": {
     "input": 0.25,
     "output": 1.25,
+    "cache_write": 0.3,
     "cached_input": 0.03,
     "batch_input": 0.125,
-    "batch_output": 0.625,
-    "cache_write": 0.3
+    "batch_output": 0.625
   },
   "tools": ["function_calling"],
   "endpoints": ["messages"],
+  "extended_thinking": false,
+  "training_data_cutoff": "2023-08",
   "_generated": {
     "name": "51f03323",
+    "family": "1cfb9795",
     "status": "2e2f74dc",
     "context_window": "03e6c616",
     "max_output_tokens": "1bd69c7d",
+    "performance": "eccbc87e",
     "speed": "a87ff679",
-    "family": "1cfb9795",
-    "pricing": "cbfc4476",
+    "successor": "35578850",
     "capabilities": "fc36814c",
     "modalities": "6399757e",
+    "pricing": "3c583b0b",
     "tools": "f0c1dc7e",
-    "endpoints": "94bb8b7a"
-  }
+    "endpoints": "94bb8b7a",
+    "extended_thinking": "68934a3e",
+    "training_data_cutoff": "98657adf",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

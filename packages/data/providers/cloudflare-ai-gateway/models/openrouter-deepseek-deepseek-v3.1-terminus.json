@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/deepseek/deepseek-v3.1-terminus",
+  "name": "OpenRouter: deepseek/deepseek-v3.1-terminus",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek",
+  "pricing": {
+    "input": 0.21,
+    "output": 0.78
+  },
+  "_generated": {
+    "name": "b5ef32e8",
+    "family": "4b81b92d",
+    "pricing": "7faf56d4"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "qwen3-vl-32b-thinking",
+  "name": "qwen3-vl-32b-thinking",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "context_window": 131072,
+  "max_output_tokens": 81920,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.16,
+    "output": 0.64
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "52ff7035",
+    "family": "48c385a0",
+    "context_window": "f7de594e",
+    "max_output_tokens": "7e248a40",
+    "model_type": "d669f408",
+    "capabilities": "8d009641",
+    "modalities": "3ad4060a",
+    "pricing": "3eb2842c",
+    "endpoints": "75df3f1c"
+  }
+}

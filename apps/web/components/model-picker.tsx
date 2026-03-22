@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { ProviderIcon } from "@/components/provider-icon";
+import { PROVIDER_TIER } from "@/lib/constants";
 import { multiSearch } from "@/lib/search";
 
 interface PickerModel {
@@ -37,6 +38,7 @@ export function ModelPicker({
   const filtered = query
     ? multiSearch(models, query, {
         target: (m) => `${m.providerName} ${m.name} ${m.id}`,
+        bonus: (m) => PROVIDER_TIER[m.provider] ?? 0,
         limit: 30,
       })
     : [];

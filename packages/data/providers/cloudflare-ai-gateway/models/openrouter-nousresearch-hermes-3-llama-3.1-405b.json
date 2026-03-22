@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/nousresearch/hermes-3-llama-3.1-405b",
+  "name": "OpenRouter: nousresearch/hermes-3-llama-3.1-405b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1,
+    "output": 1
+  },
+  "_generated": {
+    "name": "0367a8d2",
+    "pricing": "5418a9a1"
+  }
+}

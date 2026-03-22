@@ -1,0 +1,17 @@
+{
+  "id": "google-ai-studio/claude-3-5-sonnet-v2@20241022",
+  "name": "Google AI Studio: claude-3-5-sonnet-v2@20241022",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-sonnet",
+  "pricing": {
+    "input": 3,
+    "output": 15
+  },
+  "_generated": {
+    "name": "00c0acea",
+    "family": "68d1c457",
+    "pricing": "7939f0ff"
+  }
+}

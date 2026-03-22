@@ -1,6 +1,8 @@
+import { fetchJson } from "./parse.ts";
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -10,7 +12,8 @@ import {
  * No API key needed — public OpenAI-compatible endpoint.
  */
 
-const API_URL = "https://integrate.api.nvidia.com/v1/models";
+const sources = readSources("nvidia");
+const API_URL = sources.api as string;
 
 interface NvidiaModel {
   id: string;
@@ -74,9 +77,7 @@ function inferCaps(id: string): Record<string, boolean> {
 async function main() {
   console.log("Fetching NVIDIA NIM models...");
 
-  const res = await fetch(API_URL);
-  if (!res.ok) throw new Error(`NVIDIA API error: ${res.status}`);
-  const json = (await res.json()) as { data: NvidiaModel[] };
+  const json = await fetchJson<{ data: NvidiaModel[] }>(API_URL);
 
   console.log(`Found ${json.data.length} models`);
 

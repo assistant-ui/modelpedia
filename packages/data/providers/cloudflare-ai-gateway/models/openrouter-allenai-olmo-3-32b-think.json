@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/allenai/olmo-3-32b-think",
+  "name": "OpenRouter: allenai/olmo-3-32b-think",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.5
+  },
+  "_generated": {
+    "name": "bf1e0f0c",
+    "pricing": "c74fbef8"
+  }
+}

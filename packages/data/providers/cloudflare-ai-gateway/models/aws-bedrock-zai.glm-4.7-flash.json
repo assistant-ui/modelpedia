@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/zai.glm-4.7-flash",
+  "name": "Amazon Bedrock: zai.glm-4.7-flash",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.07,
+    "output": 0.39999999999999997
+  },
+  "_generated": {
+    "name": "8638fdfc",
+    "model_type": "d669f408",
+    "pricing": "4c70dfed"
+  }
+}

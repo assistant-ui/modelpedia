@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/relace/relace-search",
+  "name": "OpenRouter: relace/relace-search",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1,
+    "output": 3
+  },
+  "_generated": {
+    "name": "68da38d5",
+    "pricing": "7fd03be2"
+  }
+}

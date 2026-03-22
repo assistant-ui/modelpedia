@@ -1,0 +1,12 @@
+{
+  "id": "mistral/mistral-nemo:free",
+  "name": "Mistral: mistral-nemo:free",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "_generated": {
+    "name": "3ad82678",
+    "model_type": "d669f408"
+  }
+}

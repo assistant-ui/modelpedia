@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3.5-flash-20260224",
+  "name": "OpenRouter: qwen/qwen3.5-flash-20260224",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3.5",
+  "pricing": {
+    "input": 0.065,
+    "output": 0.26
+  },
+  "_generated": {
+    "name": "7a8e78f6",
+    "family": "d548f421",
+    "pricing": "c281b5b5"
+  }
+}

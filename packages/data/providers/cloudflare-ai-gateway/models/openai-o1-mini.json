@@ -1,0 +1,17 @@
+{
+  "id": "openai/o1-mini",
+  "name": "OpenAI: o1-mini",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "o1",
+  "pricing": {
+    "input": 1.1,
+    "output": 4.4
+  },
+  "_generated": {
+    "name": "06349090",
+    "family": "e1ab0820",
+    "pricing": "20e8e5b9"
+  }
+}

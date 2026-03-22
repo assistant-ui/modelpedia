@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/gpt-4-preview-1106",
+  "name": "Azure OpenAI: gpt-4-preview-1106",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4",
+  "pricing": {
+    "input": 10,
+    "output": 30
+  },
+  "_generated": {
+    "name": "78d3c8bc",
+    "family": "1be4bcd3",
+    "pricing": "d5468ada"
+  }
+}

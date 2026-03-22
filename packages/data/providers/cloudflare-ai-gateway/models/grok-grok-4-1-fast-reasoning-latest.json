@@ -1,0 +1,19 @@
+{
+  "id": "grok/grok-4-1-fast-reasoning-latest",
+  "name": "xAI: grok-4-1-fast-reasoning-latest",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "grok-4",
+  "model_type": "reasoning",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.5
+  },
+  "_generated": {
+    "name": "502fc97a",
+    "family": "0d5416ff",
+    "model_type": "17475f7f",
+    "pricing": "61fbe0c4"
+  }
+}

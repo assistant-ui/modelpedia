@@ -1,0 +1,17 @@
+{
+  "id": "google-vertex-ai/gemini-2.5-pro-preview-06-05",
+  "name": "Google Vertex AI: gemini-2.5-pro-preview-06-05",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-2.5",
+  "pricing": {
+    "input": 1.25,
+    "output": 10
+  },
+  "_generated": {
+    "name": "fe991f3d",
+    "family": "ea6b88bf",
+    "pricing": "b092c164"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/liquid/lfm-3b",
+  "name": "OpenRouter: liquid/lfm-3b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.02,
+    "output": 0.02
+  },
+  "_generated": {
+    "name": "1898bbb5",
+    "pricing": "70332ab4"
+  }
+}

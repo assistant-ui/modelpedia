@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3-235b-a22b-thinking-2507",
+  "name": "OpenRouter: qwen/qwen3-235b-a22b-thinking-2507",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "pricing": {
+    "input": 0.14950000000000002,
+    "output": 1.495
+  },
+  "_generated": {
+    "name": "3e95942e",
+    "family": "48c385a0",
+    "pricing": "72c0c46f"
+  }
+}

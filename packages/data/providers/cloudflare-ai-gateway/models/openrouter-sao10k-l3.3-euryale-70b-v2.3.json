@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/sao10k/l3.3-euryale-70b-v2.3",
+  "name": "OpenRouter: sao10k/l3.3-euryale-70b-v2.3",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.65,
+    "output": 0.75
+  },
+  "_generated": {
+    "name": "16cd6a69",
+    "pricing": "202d962d"
+  }
+}

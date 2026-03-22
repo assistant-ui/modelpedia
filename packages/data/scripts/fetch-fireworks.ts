@@ -1,6 +1,8 @@
+import { fetchText, stripHtml } from "./parse.ts";
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -10,14 +12,14 @@ import {
  * No API key needed — scrapes public model pages.
  */
 
-const MODELS_PAGE = "https://fireworks.ai/models";
-const MODEL_BASE = "https://fireworks.ai/models/";
+const sources = readSources("fireworks");
+const MODELS_PAGE = sources.docs as string;
+const MODEL_BASE = `${(sources.docs as string).replace(/\/$/, "")}/`;
 
 // ── Get model slugs ──
 
 async function fetchModelSlugs(): Promise<string[]> {
-  const res = await fetch(MODELS_PAGE);
-  const html = await res.text();
+  const html = await fetchText(MODELS_PAGE);
   return [
     ...new Set(
       [...html.matchAll(/href="\/models\/([\w/.-]+)"/g)].map((m) => m[1]),
@@ -58,10 +60,8 @@ function inferCreator(slug: string): string {
 
 async function fetchDetail(slug: string): Promise<FireworksModel | null> {
   try {
-    const res = await fetch(`${MODEL_BASE}${slug}`);
-    if (!res.ok) return null;
-    const html = await res.text();
-    const text = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+    const html = await fetchText(`${MODEL_BASE}${slug}`);
+    const text = stripHtml(html);
 
     // Context window — match "Context Length 131.1k tokens" or "context length of 163,840"
     let contextWindow: number | undefined;

@@ -3,7 +3,7 @@
   "name": "DeepSeek V3.2 (Chat)",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "deepseek-chat",
   "description": "DeepSeek-V3.2 in non-thinking mode. Best for general chat, code, and tool use.",
   "context_window": 128000,
@@ -22,12 +22,39 @@
   "tagline": "DeepSeek-V3.2 in non-thinking mode.",
   "_generated": {
     "name": "cc212327",
+    "family": "fbd79fd9",
     "description": "6eaaf2ae",
-    "tagline": "7d65cf30",
     "context_window": "34434798",
     "max_output_tokens": "67ff32d4",
-    "family": "fbd79fd9",
+    "capabilities": "cec66b87",
     "pricing": "f1b8e1d4",
-    "capabilities": "cec66b87"
-  }
+    "tagline": "7d65cf30",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "modalities": "68e53d93",
+    "endpoints": "772bacef",
+    "release_date": "0452719b"
+  },
+  "status": "active",
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions", "completions"],
+  "release_date": "2025-12-01",
+  "snapshots": [
+    "deepseek-chat-2025-12-01",
+    "deepseek-chat-2025-09-29",
+    "deepseek-chat-2025-09-22",
+    "deepseek-chat-2025-08-21",
+    "deepseek-chat-2025-03-24",
+    "deepseek-chat-2024-12-26",
+    "deepseek-chat-2024-12-10",
+    "deepseek-chat-2024-09-05",
+    "deepseek-chat-2024-07-24",
+    "deepseek-chat-2024-06-28",
+    "deepseek-chat-2024-06-14",
+    "deepseek-chat-2024-05-17"
+  ]
 }

@@ -1,0 +1,17 @@
+{
+  "id": "grok/grok-4.20-multi-agent-beta-latest",
+  "name": "xAI: grok-4.20-multi-agent-beta-latest",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "grok-4.20",
+  "pricing": {
+    "input": 2,
+    "output": 6
+  },
+  "_generated": {
+    "name": "3ce84e3a",
+    "family": "44972aca",
+    "pricing": "e205efd3"
+  }
+}

@@ -17,6 +17,8 @@
     "name": "75e1af53",
     "context_window": "a683b9ae",
     "pricing": "16a72b67",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

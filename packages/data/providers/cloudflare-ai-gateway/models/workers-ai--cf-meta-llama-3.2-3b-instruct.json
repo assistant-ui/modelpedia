@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/@cf/meta/llama-3.2-3b-instruct",
+  "name": "Workers AI: @cf/meta/llama-3.2-3b-instruct",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.051,
+    "output": 0.33999999999999997
+  },
+  "_generated": {
+    "name": "0e47e564",
+    "pricing": "8160892e"
+  }
+}

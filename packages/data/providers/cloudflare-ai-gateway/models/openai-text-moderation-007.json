@@ -1,0 +1,12 @@
+{
+  "id": "openai/text-moderation-007",
+  "name": "OpenAI: text-moderation-007",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "moderation",
+  "_generated": {
+    "name": "d7390ec3",
+    "model_type": "1e7a7b87"
+  }
+}

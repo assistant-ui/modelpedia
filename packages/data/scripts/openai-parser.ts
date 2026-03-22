@@ -3,8 +3,6 @@
  * Extracts pricing, compare (technical specs), and detail (metadata) entries.
  */
 
-const MODELS_PAGE = "https://developers.openai.com/api/docs/models/all";
-
 // ── Types ──
 
 export interface PricingEntry {
@@ -55,9 +53,9 @@ export interface DetailEntry {
 
 // ── Bundle discovery ──
 
-export async function fetchBundle(): Promise<string> {
+export async function fetchBundle(modelsPageUrl: string): Promise<string> {
   console.log("Fetching models page...");
-  const res = await fetch(MODELS_PAGE);
+  const res = await fetch(modelsPageUrl);
   if (!res.ok) throw new Error(`Failed to fetch models page: ${res.status}`);
   const html = await res.text();
 
@@ -66,7 +64,8 @@ export async function fetchBundle(): Promise<string> {
   );
   if (!islandMatch) throw new Error("Could not find AllModels component URL");
 
-  const allModelsUrl = `https://developers.openai.com${islandMatch[1]}`;
+  const origin = new URL(modelsPageUrl).origin;
+  const allModelsUrl = `${origin}${islandMatch[1]}`;
   console.log("Found AllModels bundle:", islandMatch[1]);
 
   const jsRes = await fetch(allModelsUrl);

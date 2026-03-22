@@ -1,0 +1,10 @@
+{
+  "id": "workers-ai/workers-ai-neurons",
+  "name": "Workers AI: workers-ai-neurons",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "_generated": {
+    "name": "c482de3a"
+  }
+}

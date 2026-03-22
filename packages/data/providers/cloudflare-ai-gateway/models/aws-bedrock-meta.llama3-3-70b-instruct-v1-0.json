@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/meta.llama3-3-70b-instruct-v1:0",
+  "name": "Amazon Bedrock: meta.llama3-3-70b-instruct-v1:0",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.72,
+    "output": 0.72
+  },
+  "_generated": {
+    "name": "8b4b0b9f",
+    "model_type": "d669f408",
+    "pricing": "328de8c6"
+  }
+}

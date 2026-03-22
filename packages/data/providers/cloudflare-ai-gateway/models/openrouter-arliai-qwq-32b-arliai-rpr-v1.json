@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/arliai/qwq-32b-arliai-rpr-v1",
+  "name": "OpenRouter: arliai/qwq-32b-arliai-rpr-v1",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwq",
+  "pricing": {
+    "input": 0.03,
+    "output": 0.11
+  },
+  "_generated": {
+    "name": "6337e6ce",
+    "family": "3a976110",
+    "pricing": "f7b03cb1"
+  }
+}

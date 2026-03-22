@@ -1,0 +1,4 @@
+{
+  "docs": "https://developers.cloudflare.com/ai-gateway/providers/",
+  "api": "https://gateway.ai.cloudflare.com/v1/{account_id}/{gateway_id}/compat/v1/models"
+}

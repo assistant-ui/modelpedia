@@ -1,0 +1,17 @@
+{
+  "id": "google-ai-studio/gemini-2.5-flash-preview-05-20:thinking",
+  "name": "Google AI Studio: gemini-2.5-flash-preview-05-20:thinking",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-2.5",
+  "pricing": {
+    "input": 0.15,
+    "output": 3.5
+  },
+  "_generated": {
+    "name": "890d03c6",
+    "family": "ea6b88bf",
+    "pricing": "4aa0627c"
+  }
+}

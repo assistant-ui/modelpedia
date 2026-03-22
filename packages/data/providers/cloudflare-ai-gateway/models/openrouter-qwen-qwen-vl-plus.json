@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen-vl-plus",
+  "name": "OpenRouter: qwen/qwen-vl-plus",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "pricing": {
+    "input": 0.1365,
+    "output": 0.40950000000000003
+  },
+  "_generated": {
+    "name": "558ea423",
+    "family": "a3af76f3",
+    "pricing": "d82c7f2d"
+  }
+}

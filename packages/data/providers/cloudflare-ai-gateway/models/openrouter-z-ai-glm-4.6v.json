@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/z-ai/glm-4.6v",
+  "name": "OpenRouter: z-ai/glm-4.6v",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.3,
+    "output": 0.8999999999999999
+  },
+  "_generated": {
+    "name": "11ec61e0",
+    "pricing": "cfa7f421"
+  }
+}

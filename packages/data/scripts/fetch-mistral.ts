@@ -2,6 +2,7 @@ import {
   envOrNull,
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -13,13 +14,17 @@ import {
  * 3. /v1/models API (optional, needs key — for release dates + capabilities)
  */
 
-const MODELS_PAGE = "https://docs.mistral.ai/getting-started/models";
-const MODEL_DETAIL_BASE = "https://docs.mistral.ai/models/";
-const API_URL = "https://api.mistral.ai/v1/models";
+const sources = readSources("mistral");
+const MODELS_PAGE = sources.models as string;
+const MODEL_DETAIL_BASE = sources.details as string;
+const API_URL = sources.api as string;
 
 // ── Extract model slugs from docs RSC payload ──
 
-async function fetchModelSlugs(): Promise<string[]> {
+async function fetchModelSlugs(): Promise<{
+  slugs: string[];
+  deprecated: Map<string, { deprecation?: string; retirement?: string }>;
+}> {
   const res = await fetch(MODELS_PAGE);
   const html = await res.text();
 
@@ -79,11 +84,6 @@ interface ModelDetail {
   capabilities: string[];
   vision?: boolean;
   deprecated?: boolean;
-}
-
-function _parseDollar(s: string): number | undefined {
-  const m = s.match(/\$([\d.]+)/);
-  return m ? Number(m[1]) : undefined;
 }
 
 async function fetchModelDetail(slug: string): Promise<ModelDetail | null> {

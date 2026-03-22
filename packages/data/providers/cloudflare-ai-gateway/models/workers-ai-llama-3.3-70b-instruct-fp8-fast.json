@@ -1,0 +1,17 @@
+{
+  "id": "workers-ai/llama-3.3-70b-instruct-fp8-fast",
+  "name": "Workers AI: llama-3.3-70b-instruct-fp8-fast",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.3",
+  "pricing": {
+    "input": 290000,
+    "output": 2250000
+  },
+  "_generated": {
+    "name": "c6bae8e9",
+    "family": "54c5fe24",
+    "pricing": "2b60d466"
+  }
+}

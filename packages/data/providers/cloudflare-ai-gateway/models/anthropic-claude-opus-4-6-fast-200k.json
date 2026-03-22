@@ -1,0 +1,17 @@
+{
+  "id": "anthropic/claude-opus-4-6-fast-200k",
+  "name": "Anthropic: claude-opus-4-6-fast-200k",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-opus",
+  "pricing": {
+    "input": 60,
+    "output": 225
+  },
+  "_generated": {
+    "name": "ef7b771a",
+    "family": "4e4c4b18",
+    "pricing": "aa8959ea"
+  }
+}

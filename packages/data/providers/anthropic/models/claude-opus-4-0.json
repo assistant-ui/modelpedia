@@ -3,12 +3,14 @@
   "name": "Claude Opus 4",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "claude-opus",
   "status": "active",
   "knowledge_cutoff": "2025-01",
   "context_window": 200000,
   "max_output_tokens": 32000,
+  "performance": 5,
+  "reasoning": 5,
   "speed": 3,
   "capabilities": {
     "streaming": true,
@@ -23,26 +25,36 @@
   "pricing": {
     "input": 15,
     "output": 75,
+    "cache_write": 18.75,
     "cached_input": 1.5,
     "batch_input": 7.5,
-    "batch_output": 37.5,
-    "cache_write": 18.75
+    "batch_output": 37.5
   },
-  "snapshots": ["claude-opus-4-20250514"],
   "tools": ["function_calling", "computer_use", "mcp"],
   "endpoints": ["messages"],
+  "extended_thinking": true,
+  "training_data_cutoff": "2025-03",
+  "priority_tier": true,
+  "snapshots": ["claude-opus-4-20250514"],
   "_generated": {
     "name": "f3a070c8",
+    "family": "4e4c4b18",
     "status": "379ac110",
+    "knowledge_cutoff": "3f358a56",
     "context_window": "03e6c616",
     "max_output_tokens": "10e4d788",
-    "knowledge_cutoff": "3f358a56",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
     "speed": "eccbc87e",
-    "family": "4e4c4b18",
-    "pricing": "8fd237a9",
     "capabilities": "a19166f1",
     "modalities": "6399757e",
+    "pricing": "68f59998",
     "tools": "abde16bc",
-    "endpoints": "94bb8b7a"
-  }
+    "endpoints": "94bb8b7a",
+    "extended_thinking": "b326b506",
+    "training_data_cutoff": "c0a4d377",
+    "priority_tier": "b326b506",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

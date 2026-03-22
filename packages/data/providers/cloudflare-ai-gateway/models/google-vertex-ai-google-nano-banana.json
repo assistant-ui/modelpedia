@@ -1,0 +1,15 @@
+{
+  "id": "google-vertex-ai/google/nano-banana",
+  "name": "Google Vertex AI: google/nano-banana",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 3,
+    "output": 2.5
+  },
+  "_generated": {
+    "name": "1219f756",
+    "pricing": "2c4549c1"
+  }
+}

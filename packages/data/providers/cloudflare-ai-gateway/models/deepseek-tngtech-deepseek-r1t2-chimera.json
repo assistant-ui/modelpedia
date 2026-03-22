@@ -1,0 +1,17 @@
+{
+  "id": "deepseek/tngtech/deepseek-r1t2-chimera",
+  "name": "DeepSeek: tngtech/deepseek-r1t2-chimera",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek-r1",
+  "pricing": {
+    "input": 0.302,
+    "output": 0.302
+  },
+  "_generated": {
+    "name": "feedba39",
+    "family": "c74cfb8e",
+    "pricing": "0585f48d"
+  }
+}

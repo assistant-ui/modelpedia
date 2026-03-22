@@ -1,0 +1,10 @@
+{
+  "id": "workers-ai/@cf/openai/whisper-large-v3-turbo",
+  "name": "Workers AI: @cf/openai/whisper-large-v3-turbo",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "_generated": {
+    "name": "965c719c"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/qwen/qwen-2.5-7b-instruct:free",
+  "name": "OpenRouter: qwen/qwen-2.5-7b-instruct:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "_generated": {
+    "name": "78a3ba41",
+    "family": "a3af76f3"
+  }
+}

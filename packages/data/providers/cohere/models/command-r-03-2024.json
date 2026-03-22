@@ -3,11 +3,14 @@
   "name": "command-r-03-2024",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "description": "Command R is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models. It can be used for complex workflows like code generation, retrieval augmented generation (RAG), tool use, and agents.",
   "status": "deprecated",
   "context_window": 128000,
   "max_output_tokens": 4000,
+  "successor": "command-r-08-2024",
+  "model_type": "chat",
+  "tagline": "Command R is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models.",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -16,15 +19,23 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "tagline": "Command R is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models.",
+  "pricing": {
+    "input": 0.5,
+    "output": 1.5
+  },
+  "endpoints": ["chat"],
   "_generated": {
     "name": "3a74c132",
     "description": "2bec0937",
-    "tagline": "1987b19f",
     "status": "2e2f74dc",
     "context_window": "34434798",
     "max_output_tokens": "1bd69c7d",
+    "successor": "a91df70c",
+    "model_type": "d669f408",
+    "tagline": "1987b19f",
     "capabilities": "48995a4e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "2c3abb73",
+    "endpoints": "75df3f1c"
   }
 }

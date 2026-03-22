@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-5.3-chat-20260303",
+  "name": "OpenAI: gpt-5.3-chat-20260303",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-5.3",
+  "pricing": {
+    "input": 1.75,
+    "output": 14
+  },
+  "_generated": {
+    "name": "81449b51",
+    "family": "a1a05172",
+    "pricing": "4273da25"
+  }
+}

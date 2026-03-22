@@ -5,5 +5,8 @@
   "url": "https://platform.moonshot.ai",
   "api_url": "https://api.moonshot.ai/v1",
   "docs_url": "https://platform.moonshot.ai/docs/intro",
-  "pricing_url": "https://platform.moonshot.ai/docs/pricing/chat"
+  "pricing_url": "https://platform.moonshot.ai/docs/pricing/chat",
+  "description": "Chinese AI company building Kimi, a long-context AI assistant.",
+  "type": "direct",
+  "free_tier": false
 }

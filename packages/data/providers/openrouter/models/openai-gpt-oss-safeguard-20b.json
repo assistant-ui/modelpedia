@@ -30,6 +30,8 @@
     "family": "82d0cb0b",
     "pricing": "4bb794bf",
     "capabilities": "f533f522",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "1e7a7b87"
+  },
+  "model_type": "moderation"
 }

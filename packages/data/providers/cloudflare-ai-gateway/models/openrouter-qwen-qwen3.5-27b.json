@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3.5-27b",
+  "name": "OpenRouter: qwen/qwen3.5-27b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3.5",
+  "pricing": {
+    "input": 0.195,
+    "output": 1.56
+  },
+  "_generated": {
+    "name": "3bc2294c",
+    "family": "d548f421",
+    "pricing": "f59c5390"
+  }
+}

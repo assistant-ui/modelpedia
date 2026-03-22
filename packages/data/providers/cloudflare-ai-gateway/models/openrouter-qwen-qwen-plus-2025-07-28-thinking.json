@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen-plus-2025-07-28:thinking",
+  "name": "OpenRouter: qwen/qwen-plus-2025-07-28:thinking",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "pricing": {
+    "input": 0.26,
+    "output": 0.78
+  },
+  "_generated": {
+    "name": "fc04f6f0",
+    "family": "a3af76f3",
+    "pricing": "da8faaf5"
+  }
+}

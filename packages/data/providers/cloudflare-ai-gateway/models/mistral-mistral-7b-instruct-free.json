@@ -1,0 +1,12 @@
+{
+  "id": "mistral/mistral-7b-instruct:free",
+  "name": "Mistral: mistral-7b-instruct:free",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "_generated": {
+    "name": "6d36804e",
+    "model_type": "d669f408"
+  }
+}

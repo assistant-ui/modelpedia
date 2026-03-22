@@ -1,0 +1,17 @@
+{
+  "id": "google-vertex-ai/meta/llama-4-maverick-17b-128e-instruct-maas",
+  "name": "Google Vertex AI: meta/llama-4-maverick-17b-128e-instruct-maas",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-4",
+  "pricing": {
+    "input": 0.35,
+    "output": 1.15
+  },
+  "_generated": {
+    "name": "5aba8b5d",
+    "family": "3169363f",
+    "pricing": "435f7d34"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "huggingface/Qwen/Qwen3.5-397B-A17B",
+  "name": "HuggingFace: Qwen/Qwen3.5-397B-A17B",
+  "created_by": "huggingface",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.6,
+    "output": 3.5999999999999996
+  },
+  "_generated": {
+    "name": "2f1d18eb",
+    "pricing": "f48ffe4b"
+  }
+}

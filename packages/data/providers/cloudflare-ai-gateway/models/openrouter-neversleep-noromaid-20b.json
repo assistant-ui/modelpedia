@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/neversleep/noromaid-20b",
+  "name": "OpenRouter: neversleep/noromaid-20b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1,
+    "output": 1.75
+  },
+  "_generated": {
+    "name": "a55d09c8",
+    "pricing": "6e144144"
+  }
+}

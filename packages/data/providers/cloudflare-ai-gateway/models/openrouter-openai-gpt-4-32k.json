@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/gpt-4-32k",
+  "name": "OpenRouter: openai/gpt-4-32k",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4",
+  "pricing": {
+    "input": 60,
+    "output": 120
+  },
+  "_generated": {
+    "name": "aeb8e351",
+    "family": "1be4bcd3",
+    "pricing": "be1aee34"
+  }
+}

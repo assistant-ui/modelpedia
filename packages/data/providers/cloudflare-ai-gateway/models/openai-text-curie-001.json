@@ -1,0 +1,15 @@
+{
+  "id": "openai/text-curie-001",
+  "name": "OpenAI: text-curie-001",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 2,
+    "output": 2
+  },
+  "_generated": {
+    "name": "e066b306",
+    "pricing": "dc324ffc"
+  }
+}

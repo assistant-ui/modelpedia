@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/nvidia/llama-3.1-nemotron-ultra-253b-v1",
+  "name": "OpenRouter: nvidia/llama-3.1-nemotron-ultra-253b-v1",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.1",
+  "pricing": {
+    "input": 0.6,
+    "output": 1.7999999999999998
+  },
+  "_generated": {
+    "name": "52c50c7d",
+    "family": "83ec32db",
+    "pricing": "6e14cc97"
+  }
+}

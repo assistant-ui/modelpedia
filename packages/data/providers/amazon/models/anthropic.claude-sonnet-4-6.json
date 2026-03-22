@@ -3,7 +3,8 @@
   "name": "Claude Sonnet 4.6",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -14,6 +15,7 @@
   },
   "_generated": {
     "name": "50184618",
+    "model_type": "d669f408",
     "capabilities": "8a3b232e",
     "modalities": "ce37f4ca"
   }

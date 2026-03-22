@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/allenai/molmo-7b-d",
+  "name": "OpenRouter: allenai/molmo-7b-d",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "e4c2694c",
+    "pricing": "1c2674e1"
+  }
+}

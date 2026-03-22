@@ -1,0 +1,17 @@
+{
+  "id": "google-vertex-ai/codestral@2405",
+  "name": "Google Vertex AI: codestral@2405",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "codestral",
+  "pricing": {
+    "input": 0.2,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "72527fe0",
+    "family": "a0734f6e",
+    "pricing": "d6e0ad87"
+  }
+}

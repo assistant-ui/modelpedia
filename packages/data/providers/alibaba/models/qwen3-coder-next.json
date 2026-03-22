@@ -1,0 +1,29 @@
+{
+  "id": "qwen3-coder-next",
+  "name": "qwen3-coder-next",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "context_window": 262144,
+  "max_output_tokens": 65536,
+  "model_type": "code",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "164de14e",
+    "family": "48c385a0",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "b6cc3ff4",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "75df3f1c"
+  }
+}

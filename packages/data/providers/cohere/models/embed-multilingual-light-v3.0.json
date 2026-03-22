@@ -3,7 +3,7 @@
   "name": "embed-multilingual-light-v3.0",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "description": "Unique per deployment",
   "status": "active",
   "context_window": 512,
@@ -17,14 +17,16 @@
     "input": ["text"],
     "output": ["text"]
   },
+  "endpoints": ["embed"],
   "_generated": {
     "name": "e5bb75ce",
     "description": "4f68c471",
-    "tagline": "67bf8dfd",
     "status": "379ac110",
-    "model_type": "764cb3de",
     "context_window": "10a7cdd9",
+    "model_type": "764cb3de",
+    "tagline": "67bf8dfd",
     "capabilities": "8a3b232e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "endpoints": "9f6acf8c"
   }
 }

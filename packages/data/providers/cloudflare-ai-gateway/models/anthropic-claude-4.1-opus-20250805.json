@@ -1,0 +1,17 @@
+{
+  "id": "anthropic/claude-4.1-opus-20250805",
+  "name": "Anthropic: claude-4.1-opus-20250805",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-opus",
+  "pricing": {
+    "input": 15,
+    "output": 75
+  },
+  "_generated": {
+    "name": "24da2dc0",
+    "family": "4e4c4b18",
+    "pricing": "678b0410"
+  }
+}

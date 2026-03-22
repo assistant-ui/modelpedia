@@ -20,6 +20,8 @@
     "context_window": "2fd324cb",
     "speed": "e4da3b7f",
     "family": "0740f86b",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

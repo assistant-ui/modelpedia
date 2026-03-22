@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3-coder-flash",
+  "name": "OpenRouter: qwen/qwen3-coder-flash",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "pricing": {
+    "input": 0.195,
+    "output": 0.975
+  },
+  "_generated": {
+    "name": "00b25868",
+    "family": "48c385a0",
+    "pricing": "ec769fe6"
+  }
+}

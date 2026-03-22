@@ -11,7 +11,7 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command";
-import { OFFICIAL_PROVIDERS } from "@/lib/constants";
+import { PROVIDER_TIER } from "@/lib/constants";
 import { multiSearch } from "@/lib/search";
 
 interface SearchItem {
@@ -94,7 +94,7 @@ export function CommandPalette({
               let b = 0;
               if (m.name.toLowerCase() === query.toLowerCase()) b += 30;
               const provider = m.href.split("/")[1];
-              if (OFFICIAL_PROVIDERS.has(provider)) b += 5;
+              b += PROVIDER_TIER[provider] ?? 0;
               return b;
             },
             limit: 20,

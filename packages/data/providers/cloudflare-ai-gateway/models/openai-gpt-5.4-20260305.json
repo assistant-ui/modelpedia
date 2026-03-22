@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-5.4-20260305",
+  "name": "OpenAI: gpt-5.4-20260305",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-5.4",
+  "pricing": {
+    "input": 2.5,
+    "output": 15
+  },
+  "_generated": {
+    "name": "133ed7a3",
+    "family": "4651e8f0",
+    "pricing": "cbbdba74"
+  }
+}

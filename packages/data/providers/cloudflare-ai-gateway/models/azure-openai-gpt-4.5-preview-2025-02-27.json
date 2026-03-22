@@ -1,0 +1,15 @@
+{
+  "id": "azure-openai/gpt-4.5-preview-2025-02-27",
+  "name": "Azure OpenAI: gpt-4.5-preview-2025-02-27",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 75,
+    "output": 150
+  },
+  "_generated": {
+    "name": "4a162638",
+    "pricing": "59fef76f"
+  }
+}

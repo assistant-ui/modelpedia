@@ -57,12 +57,11 @@ export function RatingCard({
   max: number;
   inheritedFrom?: string;
 }) {
-  const labels =
-    label === "Speed"
-      ? SPEED_LABELS
-      : label === "Reasoning"
-        ? REASONING_LABELS
-        : PERF_LABELS;
+  const LABEL_MAP: Record<string, string[]> = {
+    Speed: SPEED_LABELS,
+    Reasoning: REASONING_LABELS,
+  };
+  const labels = LABEL_MAP[label] ?? PERF_LABELS;
   const description =
     value != null ? (labels[value] ?? `${value}/${max}`) : "—";
 
@@ -397,7 +396,7 @@ export function OverviewGrid({
   return (
     <div
       id="overview"
-      className="mb-8 grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-4"
+      className="grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-4"
     >
       {cards}
     </div>

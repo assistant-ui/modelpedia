@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/qwen/qwen-vl-plus:free",
+  "name": "OpenRouter: qwen/qwen-vl-plus:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "_generated": {
+    "name": "26cd4b70",
+    "family": "a3af76f3"
+  }
+}

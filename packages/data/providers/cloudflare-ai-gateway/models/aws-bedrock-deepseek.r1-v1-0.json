@@ -1,0 +1,19 @@
+{
+  "id": "aws-bedrock/deepseek.r1-v1:0",
+  "name": "Amazon Bedrock: deepseek.r1-v1:0",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek",
+  "model_type": "chat",
+  "pricing": {
+    "input": 1.35,
+    "output": 5.4
+  },
+  "_generated": {
+    "name": "500bbe5f",
+    "family": "4b81b92d",
+    "model_type": "d669f408",
+    "pricing": "f08df6be"
+  }
+}

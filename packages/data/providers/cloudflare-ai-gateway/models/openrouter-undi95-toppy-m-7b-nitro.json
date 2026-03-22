@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/undi95/toppy-m-7b:nitro",
+  "name": "OpenRouter: undi95/toppy-m-7b:nitro",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.07,
+    "output": 0.07
+  },
+  "_generated": {
+    "name": "2ae5e95e",
+    "pricing": "a1ff1d4b"
+  }
+}

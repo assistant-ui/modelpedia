@@ -1,0 +1,10 @@
+{
+  "api": "https://api.perplexity.ai/v1/models",
+  "docs": "https://docs.perplexity.ai/docs/agent-api/models.md",
+  "sonar": [
+    "https://docs.perplexity.ai/docs/sonar/models/sonar.md",
+    "https://docs.perplexity.ai/docs/sonar/models/sonar-pro.md",
+    "https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro.md",
+    "https://docs.perplexity.ai/docs/sonar/models/sonar-deep-research.md"
+  ]
+}

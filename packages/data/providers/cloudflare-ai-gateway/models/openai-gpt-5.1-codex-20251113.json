@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-5.1-codex-20251113",
+  "name": "OpenAI: gpt-5.1-codex-20251113",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-5.1",
+  "pricing": {
+    "input": 1.25,
+    "output": 10
+  },
+  "_generated": {
+    "name": "343e17f6",
+    "family": "2089aff2",
+    "pricing": "b092c164"
+  }
+}

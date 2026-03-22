@@ -10,6 +10,8 @@
   "snapshots": ["voxtral-mini-4b-realtime-2602"],
   "_generated": {
     "name": "c2f5440b",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "model_type": "9f84c007"
+  },
+  "model_type": "audio"
 }

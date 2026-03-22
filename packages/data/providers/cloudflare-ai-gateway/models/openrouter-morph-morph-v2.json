@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/morph/morph-v2",
+  "name": "OpenRouter: morph/morph-v2",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1.2,
+    "output": 2.7
+  },
+  "_generated": {
+    "name": "8235f73e",
+    "pricing": "9ce1207a"
+  }
+}

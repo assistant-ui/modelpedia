@@ -1,0 +1,15 @@
+{
+  "id": "cohere/command-light",
+  "name": "Cohere: command-light",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.3,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "1d7c3c36",
+    "pricing": "a511aaae"
+  }
+}

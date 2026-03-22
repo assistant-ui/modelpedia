@@ -1,8 +1,10 @@
+import { fetchJson } from "./parse.ts";
 import {
   filterModalities,
   firstSentence,
   inferFamily,
   readModelJson,
+  readSources,
   runGenerate,
   sanitizeModelId,
   today,
@@ -15,7 +17,8 @@ import {
  * 2. Enrich existing provider models with missing technical specs
  */
 
-const API_URL = "https://openrouter.ai/api/v1/models";
+const sources = readSources("openrouter");
+const API_URL = sources.api as string;
 
 interface ORModel {
   id: string;
@@ -138,10 +141,7 @@ function writeOpenRouterModels(models: ORModel[]): number {
 
 async function main() {
   console.log("Fetching OpenRouter models API...");
-  const res = await fetch(API_URL);
-  if (!res.ok) throw new Error(`OpenRouter API error: ${res.status}`);
-
-  const json = (await res.json()) as { data: ORModel[] };
+  const json = await fetchJson<{ data: ORModel[] }>(API_URL);
   console.log(`Got ${json.data.length} models from OpenRouter`);
 
   const orWritten = writeOpenRouterModels(json.data);

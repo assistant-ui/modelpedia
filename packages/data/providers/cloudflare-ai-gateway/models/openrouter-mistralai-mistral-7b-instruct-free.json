@@ -1,0 +1,10 @@
+{
+  "id": "openrouter/mistralai/mistral-7b-instruct:free",
+  "name": "OpenRouter: mistralai/mistral-7b-instruct:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "_generated": {
+    "name": "c464bac2"
+  }
+}

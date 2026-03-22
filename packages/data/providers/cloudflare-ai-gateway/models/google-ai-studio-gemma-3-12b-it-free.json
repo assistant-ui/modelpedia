@@ -1,0 +1,12 @@
+{
+  "id": "google-ai-studio/gemma-3-12b-it:free",
+  "name": "Google AI Studio: gemma-3-12b-it:free",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemma-3",
+  "_generated": {
+    "name": "363d667b",
+    "family": "d9e10ad8"
+  }
+}

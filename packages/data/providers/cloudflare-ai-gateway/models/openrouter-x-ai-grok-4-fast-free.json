@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/x-ai/grok-4-fast:free",
+  "name": "OpenRouter: x-ai/grok-4-fast:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "grok-4",
+  "_generated": {
+    "name": "6c8a05ba",
+    "family": "0d5416ff"
+  }
+}

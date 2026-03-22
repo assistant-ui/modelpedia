@@ -27,9 +27,12 @@ export function formatValue(v: unknown): string {
   return JSON.stringify(v);
 }
 
-/** Format a price value as a dollar string, or return a dash for null/undefined */
+/** Format a price value as a dollar string, max 2 decimal places, or dash for null */
 export function formatPrice(value: number | null | undefined): string {
-  return value != null ? `$${value}` : "—";
+  if (value == null) return "—";
+  // Round to avoid floating point artifacts (e.g. 1.6300000000000001 → 1.63)
+  const rounded = Math.round(value * 100) / 100;
+  return `$${rounded}`;
 }
 
 /** Convert ISO 3166-1 alpha-2 region code to flag emoji */

@@ -3,7 +3,7 @@
   "name": "DeepSeek V3.2 (Reasoner)",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "deepseek-chat",
   "description": "DeepSeek-V3.2 in thinking mode with chain-of-thought reasoning.",
   "context_window": 128000,
@@ -12,7 +12,8 @@
   "capabilities": {
     "streaming": true,
     "reasoning": true,
-    "tool_call": true
+    "tool_call": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.28,
@@ -22,13 +23,34 @@
   "tagline": "DeepSeek-V3.2 in thinking mode with chain-of-thought reasoning.",
   "_generated": {
     "name": "25e40429",
+    "family": "fbd79fd9",
     "description": "49f800f1",
-    "tagline": "49f800f1",
     "context_window": "34434798",
     "max_output_tokens": "762e98db",
-    "family": "fbd79fd9",
     "reasoning_tokens": "b326b506",
+    "capabilities": "c0afc14f",
     "pricing": "f1b8e1d4",
-    "capabilities": "54eccddc"
-  }
+    "tagline": "49f800f1",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "release_date": "0452719b"
+  },
+  "status": "active",
+  "model_type": "reasoning",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "release_date": "2025-12-01",
+  "snapshots": [
+    "deepseek-reasoner-2025-12-01",
+    "deepseek-reasoner-2025-09-29",
+    "deepseek-reasoner-2025-09-22",
+    "deepseek-reasoner-2025-08-21",
+    "deepseek-reasoner-2025-05-28",
+    "deepseek-reasoner-2025-01-20"
+  ]
 }

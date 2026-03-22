@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/anthracite-org/magnum-v2-72b",
+  "name": "OpenRouter: anthracite-org/magnum-v2-72b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 3,
+    "output": 3
+  },
+  "_generated": {
+    "name": "6c839650",
+    "pricing": "7548a914"
+  }
+}

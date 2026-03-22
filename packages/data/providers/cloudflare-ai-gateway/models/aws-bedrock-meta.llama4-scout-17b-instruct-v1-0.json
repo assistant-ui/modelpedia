@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/meta.llama4-scout-17b-instruct-v1:0",
+  "name": "Amazon Bedrock: meta.llama4-scout-17b-instruct-v1:0",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.16999999999999998,
+    "output": 0.66
+  },
+  "_generated": {
+    "name": "46bebeb1",
+    "model_type": "d669f408",
+    "pricing": "ba78d816"
+  }
+}

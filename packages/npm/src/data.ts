@@ -8,7 +8,8 @@ import { provider as anthropic } from './providers/anthropic';
 import { provider as azure } from './providers/azure';
 import { provider as baseten } from './providers/baseten';
 import { provider as cerebras } from './providers/cerebras';
-import { provider as cloudflare } from './providers/cloudflare';
+import { provider as cloudflare_ai_gateway } from './providers/cloudflare-ai-gateway';
+import { provider as cloudflare_workers_ai } from './providers/cloudflare-workers-ai';
 import { provider as cohere } from './providers/cohere';
 import { provider as cursor } from './providers/cursor';
 import { provider as deepseek } from './providers/deepseek';
@@ -33,7 +34,7 @@ import { provider as vertex } from './providers/vertex';
 import { provider as xai } from './providers/xai';
 import { provider as zai } from './providers/zai';
 
-export const providers: ProviderWithModels[] = [alibaba, amazon, anthropic, azure, baseten, cerebras, cloudflare, cohere, cursor, deepseek, fireworks, google, groq, huggingface, meta, minimax, mistral, moonshot, nvidia, ollama, openai, opencode, openrouter, perplexity, qwen, together, vercel, vertex, xai, zai];
+export const providers: ProviderWithModels[] = [alibaba, amazon, anthropic, azure, baseten, cerebras, cloudflare_ai_gateway, cloudflare_workers_ai, cohere, cursor, deepseek, fireworks, google, groq, huggingface, meta, minimax, mistral, moonshot, nvidia, ollama, openai, opencode, openrouter, perplexity, qwen, together, vercel, vertex, xai, zai];
 
 export const allModels: Model[] = providers.flatMap((p) =>
   p.models.map((m) => ({ ...m, provider: p.id }))

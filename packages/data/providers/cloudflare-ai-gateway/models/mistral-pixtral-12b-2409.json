@@ -1,0 +1,19 @@
+{
+  "id": "mistral/pixtral-12b-2409",
+  "name": "Mistral: pixtral-12b-2409",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "pixtral",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.15
+  },
+  "_generated": {
+    "name": "fa963e13",
+    "family": "c606df51",
+    "model_type": "d669f408",
+    "pricing": "16a72b67"
+  }
+}

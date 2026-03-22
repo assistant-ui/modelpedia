@@ -5,5 +5,13 @@
   "url": "https://mistral.ai",
   "api_url": "https://api.mistral.ai/v1",
   "docs_url": "https://docs.mistral.ai",
-  "pricing_url": "https://mistral.ai/products"
+  "pricing_url": "https://mistral.ai/products",
+  "description": "European AI company building open and commercial language models optimized for efficiency.",
+  "type": "direct",
+  "status_url": "https://status.mistral.ai",
+  "sdk": {
+    "python": "mistralai",
+    "javascript": "@mistralai/mistralai"
+  },
+  "free_tier": true
 }

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/jondurbin/airoboros-l2-70b",
+  "name": "OpenRouter: jondurbin/airoboros-l2-70b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.5,
+    "output": 0.5
+  },
+  "_generated": {
+    "name": "e3551265",
+    "pricing": "7609fd93"
+  }
+}

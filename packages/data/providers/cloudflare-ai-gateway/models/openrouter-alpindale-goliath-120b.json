@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/alpindale/goliath-120b",
+  "name": "OpenRouter: alpindale/goliath-120b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 3.75,
+    "output": 7.5
+  },
+  "_generated": {
+    "name": "f6d145c0",
+    "pricing": "6069ccff"
+  }
+}

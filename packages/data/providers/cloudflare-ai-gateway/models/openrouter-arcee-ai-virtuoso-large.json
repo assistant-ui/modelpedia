@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/arcee-ai/virtuoso-large",
+  "name": "OpenRouter: arcee-ai/virtuoso-large",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.75,
+    "output": 1.2
+  },
+  "_generated": {
+    "name": "d01b9022",
+    "pricing": "cec02da8"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "groq/meta-llama/llama-guard-4-12b",
+  "name": "Groq: meta-llama/llama-guard-4-12b",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-guard",
+  "model_type": "moderation",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "a136b0bd",
+    "family": "3190be28",
+    "model_type": "1e7a7b87",
+    "pricing": "4a55a07f"
+  }
+}

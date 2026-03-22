@@ -3,12 +3,12 @@
   "name": "Embed Multilingual",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
+  "model_type": "embed",
   "modalities": {
     "input": ["text"],
     "output": []
   },
-  "model_type": "embed",
   "_generated": {
     "name": "217c2687",
     "model_type": "764cb3de",

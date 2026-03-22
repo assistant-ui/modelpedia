@@ -3,10 +3,11 @@
   "name": "gemini-2.5-pro-preview-06-05",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "gemini-2.5",
   "status": "deprecated",
   "deprecation_date": "2025-12-02",
+  "successor": "gemini-3.1-pro-preview",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -15,13 +16,40 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "successor": "gemini-3.1-pro-preview",
+  "pricing": {
+    "input": 1.25,
+    "output": 10,
+    "batch_input": 0.625,
+    "batch_output": 5,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.25, null, 10]
+          },
+          {
+            "label": "Priority",
+            "values": [2.25, null, 18]
+          },
+          {
+            "label": "Flex",
+            "values": [0.625, null, 5]
+          }
+        ]
+      }
+    ]
+  },
   "_generated": {
     "name": "f8ef22d2",
     "status": "2e2f74dc",
     "deprecation_date": "75f289bd",
     "successor": "cd1b7cdc",
     "family": "ea6b88bf",
+    "pricing": "e08538c1",
     "capabilities": "8a3b232e",
     "modalities": "6399757e"
   }

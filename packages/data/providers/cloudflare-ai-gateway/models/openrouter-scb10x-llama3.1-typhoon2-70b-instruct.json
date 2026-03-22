@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/scb10x/llama3.1-typhoon2-70b-instruct",
+  "name": "OpenRouter: scb10x/llama3.1-typhoon2-70b-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.88,
+    "output": 0.88
+  },
+  "_generated": {
+    "name": "bfdece64",
+    "pricing": "8e6809a8"
+  }
+}

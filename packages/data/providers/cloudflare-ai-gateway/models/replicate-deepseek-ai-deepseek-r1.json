@@ -1,0 +1,17 @@
+{
+  "id": "replicate/deepseek-ai/deepseek-r1",
+  "name": "Replicate: deepseek-ai/deepseek-r1",
+  "created_by": "replicate",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek-r1",
+  "pricing": {
+    "input": 10,
+    "output": 10
+  },
+  "_generated": {
+    "name": "82f8536c",
+    "family": "c74cfb8e",
+    "pricing": "c0e46bcc"
+  }
+}

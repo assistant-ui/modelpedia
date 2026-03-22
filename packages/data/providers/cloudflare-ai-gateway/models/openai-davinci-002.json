@@ -1,0 +1,15 @@
+{
+  "id": "openai/davinci-002",
+  "name": "OpenAI: davinci-002",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 12,
+    "output": 12
+  },
+  "_generated": {
+    "name": "8d34f647",
+    "pricing": "fa1117cd"
+  }
+}

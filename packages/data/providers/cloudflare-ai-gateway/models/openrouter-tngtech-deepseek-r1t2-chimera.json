@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/tngtech/deepseek-r1t2-chimera",
+  "name": "OpenRouter: tngtech/deepseek-r1t2-chimera",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek-r1",
+  "pricing": {
+    "input": 0.25,
+    "output": 0.85
+  },
+  "_generated": {
+    "name": "94bd3f3b",
+    "family": "c74cfb8e",
+    "pricing": "923ddde5"
+  }
+}

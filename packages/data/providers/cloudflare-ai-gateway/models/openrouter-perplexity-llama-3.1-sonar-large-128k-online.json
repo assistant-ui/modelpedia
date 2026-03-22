@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/perplexity/llama-3.1-sonar-large-128k-online",
+  "name": "OpenRouter: perplexity/llama-3.1-sonar-large-128k-online",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.1",
+  "pricing": {
+    "input": 1,
+    "output": 1
+  },
+  "_generated": {
+    "name": "8827bb63",
+    "family": "83ec32db",
+    "pricing": "5418a9a1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/@cf/zai-org/glm-4.7-flash",
+  "name": "Workers AI: @cf/zai-org/glm-4.7-flash",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.06,
+    "output": 0.39999999999999997
+  },
+  "_generated": {
+    "name": "8c89e8c7",
+    "pricing": "40cec53a"
+  }
+}

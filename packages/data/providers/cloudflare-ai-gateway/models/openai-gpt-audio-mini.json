@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-audio-mini",
+  "name": "OpenAI: gpt-audio-mini",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-audio",
+  "pricing": {
+    "input": 0.6,
+    "output": 2.4
+  },
+  "_generated": {
+    "name": "530ee829",
+    "family": "29debdf1",
+    "pricing": "e9aad47c"
+  }
+}

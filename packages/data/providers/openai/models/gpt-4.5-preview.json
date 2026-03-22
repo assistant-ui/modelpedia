@@ -3,7 +3,7 @@
   "name": "GPT-4.5 Preview (Deprecated)",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "description": "Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3",
   "status": "active",
   "knowledge_cutoff": "2023-09",
@@ -52,17 +52,17 @@
   "_generated": {
     "name": "bb7e76c5",
     "description": "babd3e46",
-    "tagline": "956dc0c5",
     "status": "379ac110",
-    "model_type": "d669f408",
+    "knowledge_cutoff": "7b971392",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
-    "knowledge_cutoff": "7b971392",
+    "model_type": "d669f408",
     "performance": "a87ff679",
     "speed": "eccbc87e",
-    "pricing": "812da844",
+    "tagline": "956dc0c5",
     "capabilities": "fdacdfa5",
     "modalities": "6399757e",
+    "pricing": "812da844",
     "endpoints": "1c48b50a"
   }
 }

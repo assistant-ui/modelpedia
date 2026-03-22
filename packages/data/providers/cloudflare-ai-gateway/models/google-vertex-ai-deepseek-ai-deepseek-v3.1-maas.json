@@ -1,0 +1,17 @@
+{
+  "id": "google-vertex-ai/deepseek-ai/deepseek-v3.1-maas",
+  "name": "Google Vertex AI: deepseek-ai/deepseek-v3.1-maas",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek",
+  "pricing": {
+    "input": 0.6,
+    "output": 1.7
+  },
+  "_generated": {
+    "name": "d42fa17d",
+    "family": "4b81b92d",
+    "pricing": "9279a29c"
+  }
+}

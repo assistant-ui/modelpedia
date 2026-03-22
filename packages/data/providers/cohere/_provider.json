@@ -5,5 +5,13 @@
   "url": "https://cohere.com",
   "api_url": "https://api.cohere.com/v2",
   "docs_url": "https://docs.cohere.com",
-  "pricing_url": "https://cohere.com/pricing"
+  "pricing_url": "https://cohere.com/pricing",
+  "description": "Enterprise AI platform specializing in text generation, embeddings, and reranking for RAG.",
+  "type": "direct",
+  "status_url": "https://status.cohere.com",
+  "sdk": {
+    "python": "cohere",
+    "javascript": "cohere-ai"
+  },
+  "free_tier": true
 }

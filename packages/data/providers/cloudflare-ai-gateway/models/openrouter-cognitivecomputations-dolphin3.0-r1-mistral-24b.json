@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/cognitivecomputations/dolphin3.0-r1-mistral-24b",
+  "name": "OpenRouter: cognitivecomputations/dolphin3.0-r1-mistral-24b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.01,
+    "output": 0.049999999999999996
+  },
+  "_generated": {
+    "name": "c516a524",
+    "pricing": "8e2c1e93"
+  }
+}

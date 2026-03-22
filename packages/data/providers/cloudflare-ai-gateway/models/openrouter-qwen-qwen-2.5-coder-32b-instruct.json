@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen-2.5-coder-32b-instruct",
+  "name": "OpenRouter: qwen/qwen-2.5-coder-32b-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "pricing": {
+    "input": 0.66,
+    "output": 1
+  },
+  "_generated": {
+    "name": "803c7013",
+    "family": "a3af76f3",
+    "pricing": "dc7db453"
+  }
+}

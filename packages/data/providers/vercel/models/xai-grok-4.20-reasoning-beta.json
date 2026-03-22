@@ -21,6 +21,8 @@
     "context_window": "805f7438",
     "family": "44972aca",
     "pricing": "e205efd3",
-    "capabilities": "a19166f1"
-  }
+    "capabilities": "a19166f1",
+    "model_type": "17475f7f"
+  },
+  "model_type": "reasoning"
 }

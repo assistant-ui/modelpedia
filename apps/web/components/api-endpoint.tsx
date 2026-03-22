@@ -40,7 +40,7 @@ export function ApiEndpoint({
 
   return (
     <div className="overflow-hidden rounded-md ring-1 ring-border">
-      <div className="flex items-center gap-3 px-4 py-3 text-sm">
+      <div className="flex items-center gap-3 px-4 py-2 text-sm">
         <span className="shrink-0 rounded bg-muted px-1.5 py-0.5 font-mono text-muted-foreground text-xs">
           GET
         </span>

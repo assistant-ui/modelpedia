@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/shisa-ai/shisa-v2-llama3.3-70b",
+  "name": "OpenRouter: shisa-ai/shisa-v2-llama3.3-70b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.049999999999999996,
+    "output": 0.22
+  },
+  "_generated": {
+    "name": "4a998fcc",
+    "pricing": "691005c3"
+  }
+}

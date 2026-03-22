@@ -1,0 +1,15 @@
+{
+  "id": "huggingface/Qwen/Qwen3-235B-A22B-Thinking-2507",
+  "name": "HuggingFace: Qwen/Qwen3-235B-A22B-Thinking-2507",
+  "created_by": "huggingface",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.3,
+    "output": 3
+  },
+  "_generated": {
+    "name": "d799c1b9",
+    "pricing": "ebfb6fc5"
+  }
+}

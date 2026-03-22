@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/qwen/qwq-32b-preview:free",
+  "name": "OpenRouter: qwen/qwq-32b-preview:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwq",
+  "_generated": {
+    "name": "64c5c27a",
+    "family": "3a976110"
+  }
+}

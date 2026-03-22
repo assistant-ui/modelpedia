@@ -28,6 +28,8 @@
     "max_output_tokens": "0dd0d2bf",
     "pricing": "749bd917",
     "capabilities": "f533f522",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

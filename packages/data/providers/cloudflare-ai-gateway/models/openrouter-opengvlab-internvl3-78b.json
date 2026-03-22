@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/opengvlab/internvl3-78b",
+  "name": "OpenRouter: opengvlab/internvl3-78b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "745d588f",
+    "pricing": "89a9c6e2"
+  }
+}

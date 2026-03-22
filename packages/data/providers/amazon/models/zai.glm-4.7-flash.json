@@ -3,7 +3,8 @@
   "name": "GLM 4.7 Flash",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
   "capabilities": {
     "streaming": true
   },
@@ -13,6 +14,7 @@
   },
   "_generated": {
     "name": "3e2a7b0f",
+    "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93"
   }

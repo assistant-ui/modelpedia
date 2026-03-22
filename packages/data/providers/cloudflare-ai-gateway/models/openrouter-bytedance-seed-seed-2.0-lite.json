@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/bytedance-seed/seed-2.0-lite",
+  "name": "OpenRouter: bytedance-seed/seed-2.0-lite",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.25,
+    "output": 2
+  },
+  "_generated": {
+    "name": "c75234df",
+    "pricing": "468d92b7"
+  }
+}

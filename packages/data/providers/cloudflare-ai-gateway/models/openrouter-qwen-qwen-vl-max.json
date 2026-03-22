@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen-vl-max",
+  "name": "OpenRouter: qwen/qwen-vl-max",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "pricing": {
+    "input": 0.52,
+    "output": 2.08
+  },
+  "_generated": {
+    "name": "884af918",
+    "family": "a3af76f3",
+    "pricing": "11a6f40c"
+  }
+}

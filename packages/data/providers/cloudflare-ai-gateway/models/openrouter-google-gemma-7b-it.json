@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/google/gemma-7b-it",
+  "name": "OpenRouter: google/gemma-7b-it",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemma-7b",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.15
+  },
+  "_generated": {
+    "name": "cc9140d7",
+    "family": "4c956875",
+    "pricing": "16a72b67"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "google-vertex-ai/qwen/qwen3-235b-a22b-instruct-2507-maas",
+  "name": "Google Vertex AI: qwen/qwen3-235b-a22b-instruct-2507-maas",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "pricing": {
+    "input": 0.22,
+    "output": 0.88
+  },
+  "_generated": {
+    "name": "2f95909a",
+    "family": "48c385a0",
+    "pricing": "83d039f0"
+  }
+}

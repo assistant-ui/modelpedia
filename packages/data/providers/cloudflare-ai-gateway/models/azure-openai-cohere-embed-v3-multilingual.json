@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/cohere-embed-v3-multilingual",
+  "name": "Azure OpenAI: cohere-embed-v3-multilingual",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "embed",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0
+  },
+  "_generated": {
+    "name": "21e83fc5",
+    "model_type": "764cb3de",
+    "pricing": "5cbeedde"
+  }
+}

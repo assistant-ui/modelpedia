@@ -5,5 +5,11 @@
   "url": "https://x.ai",
   "api_url": "https://api.x.ai/v1",
   "docs_url": "https://docs.x.ai",
-  "pricing_url": "https://docs.x.ai/docs/model-pricing"
+  "pricing_url": "https://docs.x.ai/docs/model-pricing",
+  "description": "Elon Musk-founded AI company building Grok models.",
+  "type": "direct",
+  "sdk": {
+    "python": "xai-sdk"
+  },
+  "free_tier": false
 }

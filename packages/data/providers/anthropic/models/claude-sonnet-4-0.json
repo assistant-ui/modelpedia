@@ -3,12 +3,14 @@
   "name": "Claude Sonnet 4",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "claude-sonnet",
   "status": "active",
   "knowledge_cutoff": "2025-01",
   "context_window": 1000000,
   "max_output_tokens": 64000,
+  "performance": 4,
+  "reasoning": 4,
   "speed": 4,
   "capabilities": {
     "streaming": true,
@@ -23,26 +25,36 @@
   "pricing": {
     "input": 3,
     "output": 15,
+    "cache_write": 3.75,
     "cached_input": 0.3,
     "batch_input": 1.5,
-    "batch_output": 7.5,
-    "cache_write": 3.75
+    "batch_output": 7.5
   },
-  "snapshots": ["claude-sonnet-4-20250514"],
   "tools": ["function_calling", "computer_use", "mcp"],
   "endpoints": ["messages"],
+  "extended_thinking": true,
+  "training_data_cutoff": "2025-03",
+  "priority_tier": true,
+  "snapshots": ["claude-sonnet-4-20250514"],
   "_generated": {
     "name": "e461c1e5",
+    "family": "68d1c457",
     "status": "379ac110",
+    "knowledge_cutoff": "3f358a56",
     "context_window": "8155bc54",
     "max_output_tokens": "762e98db",
-    "knowledge_cutoff": "3f358a56",
+    "performance": "a87ff679",
+    "reasoning": "a87ff679",
     "speed": "a87ff679",
-    "family": "68d1c457",
-    "pricing": "399ad924",
     "capabilities": "a19166f1",
     "modalities": "6399757e",
+    "pricing": "fb84d495",
     "tools": "abde16bc",
-    "endpoints": "94bb8b7a"
-  }
+    "endpoints": "94bb8b7a",
+    "extended_thinking": "b326b506",
+    "training_data_cutoff": "c0a4d377",
+    "priority_tier": "b326b506",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

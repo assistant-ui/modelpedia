@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/sarvamai/sarvam-m",
+  "name": "OpenRouter: sarvamai/sarvam-m",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.022,
+    "output": 0.022
+  },
+  "_generated": {
+    "name": "184e3465",
+    "pricing": "be151245"
+  }
+}

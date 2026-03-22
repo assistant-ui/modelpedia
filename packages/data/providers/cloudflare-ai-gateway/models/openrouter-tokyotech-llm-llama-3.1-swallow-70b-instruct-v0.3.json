@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/tokyotech-llm/llama-3.1-swallow-70b-instruct-v0.3",
+  "name": "OpenRouter: tokyotech-llm/llama-3.1-swallow-70b-instruct-v0.3",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.1",
+  "pricing": {
+    "input": 0.6,
+    "output": 1.2
+  },
+  "_generated": {
+    "name": "faffbd51",
+    "family": "83ec32db",
+    "pricing": "11cfe106"
+  }
+}

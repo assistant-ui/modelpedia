@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/liquid/lfm-2.2-6b",
+  "name": "OpenRouter: liquid/lfm-2.2-6b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.01,
+    "output": 0.02
+  },
+  "_generated": {
+    "name": "97313e4a",
+    "pricing": "c22b9895"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/liquid/lfm-2-24b-a2b-20260224",
+  "name": "OpenRouter: liquid/lfm-2-24b-a2b-20260224",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.03,
+    "output": 0.12
+  },
+  "_generated": {
+    "name": "8453c33a",
+    "pricing": "3b6defad"
+  }
+}

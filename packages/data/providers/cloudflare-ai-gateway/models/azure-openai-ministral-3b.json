@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/ministral-3b",
+  "name": "Azure OpenAI: ministral-3b",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "ministral",
+  "pricing": {
+    "input": 0.04,
+    "output": 0.04
+  },
+  "_generated": {
+    "name": "b15f54a5",
+    "family": "d6661e63",
+    "pricing": "e339168e"
+  }
+}

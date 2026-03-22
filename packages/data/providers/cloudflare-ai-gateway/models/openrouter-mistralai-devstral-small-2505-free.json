@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/mistralai/devstral-small-2505:free",
+  "name": "OpenRouter: mistralai/devstral-small-2505:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "devstral",
+  "_generated": {
+    "name": "408e763c",
+    "family": "e626e93e"
+  }
+}

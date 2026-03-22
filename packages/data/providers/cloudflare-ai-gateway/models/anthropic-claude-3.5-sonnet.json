@@ -1,0 +1,17 @@
+{
+  "id": "anthropic/claude-3.5-sonnet",
+  "name": "Anthropic: claude-3.5-sonnet",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-sonnet",
+  "pricing": {
+    "input": 6,
+    "output": 30
+  },
+  "_generated": {
+    "name": "dffc3cd8",
+    "family": "68d1c457",
+    "pricing": "3706288e"
+  }
+}

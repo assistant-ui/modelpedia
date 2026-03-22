@@ -1,0 +1,25 @@
+{
+  "id": "qwen-3-32b",
+  "name": "qwen-3-32b",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "status": "deprecated",
+  "deprecation_date": "2026-02-16",
+  "model_type": "chat",
+  "successor": "GPT OSS 120B",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "a9778359",
+    "family": "a3af76f3",
+    "status": "2e2f74dc",
+    "deprecation_date": "6c624983",
+    "model_type": "d669f408",
+    "successor": "7beed575",
+    "modalities": "68e53d93"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/text-embedding-3-large",
+  "name": "Azure OpenAI: text-embedding-3-large",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "embed",
+  "pricing": {
+    "input": 0.13,
+    "output": 0
+  },
+  "_generated": {
+    "name": "f4ff8154",
+    "model_type": "764cb3de",
+    "pricing": "da6a30b6"
+  }
+}

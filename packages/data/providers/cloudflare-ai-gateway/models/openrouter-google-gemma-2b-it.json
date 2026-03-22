@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/google/gemma-2b-it",
+  "name": "OpenRouter: google/gemma-2b-it",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemma-2b",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0.09999999999999999
+  },
+  "_generated": {
+    "name": "5359512c",
+    "family": "3349c229",
+    "pricing": "7f851cba"
+  }
+}

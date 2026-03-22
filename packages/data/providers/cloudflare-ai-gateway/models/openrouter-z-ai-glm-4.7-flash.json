@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/z-ai/glm-4.7-flash",
+  "name": "OpenRouter: z-ai/glm-4.7-flash",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.06,
+    "output": 0.39999999999999997
+  },
+  "_generated": {
+    "name": "26508d22",
+    "pricing": "40cec53a"
+  }
+}

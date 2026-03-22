@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/allenai/molmo-2-8b",
+  "name": "OpenRouter: allenai/molmo-2-8b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "5592412a",
+    "pricing": "4a55a07f"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen-max-2025-01-25",
+  "name": "OpenRouter: qwen/qwen-max-2025-01-25",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "pricing": {
+    "input": 1.04,
+    "output": 4.16
+  },
+  "_generated": {
+    "name": "f08d083a",
+    "family": "a3af76f3",
+    "pricing": "218c4297"
+  }
+}

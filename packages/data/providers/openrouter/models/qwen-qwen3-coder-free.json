@@ -22,6 +22,8 @@
     "max_output_tokens": "4ed74017",
     "family": "48c385a0",
     "capabilities": "ce9e2425",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "b6cc3ff4"
+  },
+  "model_type": "code"
 }

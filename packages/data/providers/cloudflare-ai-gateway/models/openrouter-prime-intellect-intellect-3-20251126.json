@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/prime-intellect/intellect-3-20251126",
+  "name": "OpenRouter: prime-intellect/intellect-3-20251126",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 1.1
+  },
+  "_generated": {
+    "name": "8fc50400",
+    "pricing": "54537265"
+  }
+}

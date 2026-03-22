@@ -28,6 +28,8 @@ export interface ModelCapabilities {
   fine_tuning?: boolean;
   /** Supports batch API */
   batch?: boolean;
+  /** Supports prompt caching */
+  prompt_caching?: boolean;
 }
 
 /** Input and output modality support */
@@ -165,10 +167,12 @@ export interface ModelData {
   reasoning?: number;
   /** Speed/latency rating (1-5 scale, 1=slow 5=fast) */
   speed?: number;
-  /** Recommended successor model ID (for deprecated models) */
-  successor?: string;
+  /** Recommended successor model ID(s) (for deprecated models) */
+  successor?: string | string[];
   /** Pricing notes/caveats (e.g. long-context surcharges, regional uplifts) */
   pricing_notes?: string[];
+  /** Provider-specific extra fields (extended_thinking, training_data_cutoff, etc.) */
+  [key: string]: unknown;
 }
 
 /** Model data with provider context, used at runtime */
@@ -177,12 +181,19 @@ export interface Model extends ModelData {
   provider: string;
 }
 
+/** Provider type classification */
+export type ProviderType = "direct" | "aggregator" | "cloud";
+
 /** AI model provider / API service */
 export interface Provider {
   /** Unique provider identifier (directory name, e.g. "openai", "openrouter") */
   id: string;
   /** Display name (e.g. "OpenAI", "OpenRouter") */
   name: string;
+  /** Short description of the provider */
+  description?: string;
+  /** Provider type: direct (creates models), aggregator (resells), cloud (platform) */
+  type?: ProviderType;
   /** Headquarters country, ISO 3166-1 alpha-2 (e.g. "US", "CN", "FR") */
   region: string;
   /** General training data cutoff for this provider's latest models (YYYY-MM or YYYY-MM-DD) */
@@ -195,10 +206,20 @@ export interface Provider {
   docs_url: string;
   /** Pricing page URL */
   pricing_url: string;
-  /** Playground base URL (model ID appended via query param) */
+  /** Playground base URL */
   playground_url?: string;
+  /** Status / uptime page URL */
+  status_url?: string;
+  /** Changelog / release notes URL */
+  changelog_url?: string;
+  /** Official SDK packages (e.g. { python: "openai", javascript: "@anthropic-ai/sdk" }) */
+  sdk?: Record<string, string>;
+  /** Whether the provider offers a free tier / free credits */
+  free_tier?: boolean;
   /** Inline SVG icon (monochrome, viewBox 0 0 24 24, fill="currentColor"). Auto-read from icon.svg. */
   icon?: string;
+  /** Provider-specific extra fields */
+  [key: string]: unknown;
 }
 
 /** Provider with its full model list, used in generated data */

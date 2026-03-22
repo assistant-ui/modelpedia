@@ -1,0 +1,15 @@
+{
+  "id": "huggingface/Qwen/Qwen3-Next-80B-A3B-Instruct",
+  "name": "HuggingFace: Qwen/Qwen3-Next-80B-A3B-Instruct",
+  "created_by": "huggingface",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.25,
+    "output": 1
+  },
+  "_generated": {
+    "name": "13b0e49a",
+    "pricing": "f691bdc3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "overview": "https://inference-docs.cerebras.ai/models/overview",
+  "deprecations": "https://inference-docs.cerebras.ai/support/deprecation",
+  "models": [
+    "https://inference-docs.cerebras.ai/models/llama-31-8b.md",
+    "https://inference-docs.cerebras.ai/models/openai-oss.md",
+    "https://inference-docs.cerebras.ai/models/qwen-3-235b-2507.md",
+    "https://inference-docs.cerebras.ai/models/zai-glm-47.md"
+  ]
+}

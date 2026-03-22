@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/thudm/glm-4-32b",
+  "name": "OpenRouter: thudm/glm-4-32b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.55,
+    "output": 1.66
+  },
+  "_generated": {
+    "name": "706159ed",
+    "pricing": "b025eef0"
+  }
+}

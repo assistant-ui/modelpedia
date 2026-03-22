@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/thedrummer/anubis-pro-105b-v1",
+  "name": "OpenRouter: thedrummer/anubis-pro-105b-v1",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.5,
+    "output": 1
+  },
+  "_generated": {
+    "name": "eedc4f6f",
+    "pricing": "4a4395d3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-4.1-mini",
+  "name": "OpenAI: gpt-4.1-mini",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4.1",
+  "pricing": {
+    "input": 0.39999999999999997,
+    "output": 1.5999999999999999
+  },
+  "_generated": {
+    "name": "f5496fd0",
+    "family": "d240daf4",
+    "pricing": "5f3bf0de"
+  }
+}

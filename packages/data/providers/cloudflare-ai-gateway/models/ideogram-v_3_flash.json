@@ -1,0 +1,15 @@
+{
+  "id": "ideogram/v_3_flash",
+  "name": "Ideogram: v_3_flash",
+  "created_by": "ideogram",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0,
+    "output": 30000
+  },
+  "_generated": {
+    "name": "d27da6e1",
+    "pricing": "504cfaa5"
+  }
+}
