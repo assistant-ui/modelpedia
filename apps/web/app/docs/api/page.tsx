@@ -52,6 +52,12 @@ const sections: {
         desc: "Single provider with full details and models.",
         tryPath: `${API_BASE}/v1/providers/openai`,
       },
+      {
+        path: "/v1/providers/compare",
+        desc: "Compare 2–10 providers side by side: model counts, price ranges, capabilities.",
+        tryPath: `${API_BASE}/v1/providers/compare?ids=openai,anthropic,google`,
+        params: [["ids", "Comma-separated provider IDs (2–10, required)"]],
+      },
     ],
   },
   {
@@ -90,6 +96,35 @@ const sections: {
           ["ids", "Comma-separated provider/model IDs (2–10, required)"],
         ],
       },
+      {
+        path: "/v1/models/latest",
+        desc: "Recently updated models, sorted by last_updated descending.",
+        tryPath: `${API_BASE}/v1/models/latest?limit=10`,
+        params: [
+          ["limit", "Max 500, default 100"],
+          ["offset", "Default 0"],
+        ],
+      },
+      {
+        path: "/v1/models/recommend",
+        desc: "Recommend models matching requirements. Returns non-deprecated models sorted by price.",
+        tryPath: `${API_BASE}/v1/models/recommend?capability=vision,tool_call&min_context_window=100000&limit=5`,
+        params: [
+          ["capability", "Required capabilities, comma-separated"],
+          ["model_type", "chat | reasoning | embed | image | tts | ..."],
+          ["min_context_window", "Minimum context window in tokens"],
+          ["max_price_input", "Max input price (USD per 1M tokens)"],
+          ["input_modality", "Required input: text | image | audio | video"],
+          ["output_modality", "Required output: text | image | audio | video"],
+          ["limit", "Max 500, default 100"],
+          ["offset", "Default 0"],
+        ],
+      },
+      {
+        path: "/v1/models/types",
+        desc: "Model types with counts and provider coverage.",
+        tryPath: `${API_BASE}/v1/models/types`,
+      },
     ],
   },
   {
@@ -104,6 +139,62 @@ const sections: {
         path: "/v1/capabilities",
         desc: "All capabilities with model and provider counts.",
         tryPath: `${API_BASE}/v1/capabilities`,
+      },
+      {
+        path: "/v1/creators",
+        desc: "Model creators with counts, providers, and families.",
+        tryPath: `${API_BASE}/v1/creators`,
+      },
+      {
+        path: "/v1/modalities",
+        desc: "Input/output modality combinations with model counts.",
+        tryPath: `${API_BASE}/v1/modalities`,
+      },
+      {
+        path: "/v1/tools",
+        desc: "Tools and integrations (function_calling, web_search, mcp, ...) with adoption counts.",
+        tryPath: `${API_BASE}/v1/tools`,
+      },
+    ],
+  },
+  {
+    title: "Pricing",
+    endpoints: [
+      {
+        path: "/v1/pricing/compare",
+        desc: "Compare pricing across models. Filter by price range, sort by cheapest.",
+        tryPath: `${API_BASE}/v1/pricing/compare?max_price_input=5&sort=price_input&limit=10`,
+        params: [
+          [
+            "ids",
+            "Comma-separated provider/model IDs (optional, compares all if omitted)",
+          ],
+          ["min_price_input", "Min input price (USD per 1M tokens)"],
+          ["max_price_input", "Max input price (USD per 1M tokens)"],
+          ["sort", "price_input (default) | price_output"],
+          ["order", "asc (default) | desc"],
+          ["limit", "Max 500, default 100"],
+          ["offset", "Default 0"],
+        ],
+      },
+    ],
+  },
+  {
+    title: "Changes",
+    endpoints: [
+      {
+        path: "/v1/changes",
+        desc: "Change log: model additions, updates, and removals. Newest first.",
+        tryPath: `${API_BASE}/v1/changes?action=create&limit=10`,
+        params: [
+          ["provider", "Filter by provider id"],
+          ["model", "Filter by model id"],
+          ["action", "create | update | delete"],
+          ["since", "ISO-8601 timestamp lower bound"],
+          ["until", "ISO-8601 timestamp upper bound"],
+          ["limit", "Max 500, default 100"],
+          ["offset", "Default 0"],
+        ],
       },
     ],
   },
