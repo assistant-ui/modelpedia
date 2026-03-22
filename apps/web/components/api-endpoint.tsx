@@ -35,7 +35,11 @@ export function ApiEndpoint({
         lines.length > MAX_LINES
           ? `${lines.slice(0, MAX_LINES).join("\n")}\n\n// ... ${lines.length - MAX_LINES} more lines`
           : full;
-      setHtml(highlight(truncated));
+      const escaped = truncated
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+      setHtml(highlight(escaped));
       setVisible(true);
     } catch {
       setHtml("Request failed");
