@@ -20,7 +20,8 @@
     "react": "catalog:",
     "react-dom": "catalog:",
     "sugar-high": "^0.9.5",
-    "tailwind-merge": "^3.5.0"
+    "tailwind-merge": "^3.5.0",
+    "@vercel/analytics": "catalog:"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "catalog:",
