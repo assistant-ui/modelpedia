@@ -28,7 +28,18 @@ export function ApiEndpoint({
     try {
       const res = await fetch(tryPath ?? path);
       const json = await res.json();
-      setHtml(highlight(JSON.stringify(json, null, 2)));
+      const full = JSON.stringify(json, null, 2);
+      const MAX_LINES = 200;
+      const lines = full.split("\n");
+      const truncated =
+        lines.length > MAX_LINES
+          ? `${lines.slice(0, MAX_LINES).join("\n")}\n\n// ... ${lines.length - MAX_LINES} more lines`
+          : full;
+      const escaped = truncated
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+      setHtml(highlight(escaped));
       setVisible(true);
     } catch {
       setHtml("Request failed");

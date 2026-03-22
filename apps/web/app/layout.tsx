@@ -66,6 +66,7 @@ export default async function RootLayout({
       lang="en"
       className={`${geistSans.className} ${geistMono.variable}`}
       suppressHydrationWarning
+      data-scroll-behavior="smooth"
     >
       <body className="min-h-screen bg-background text-foreground text-sm">
         <Provider>

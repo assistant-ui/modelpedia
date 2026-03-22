@@ -43,7 +43,11 @@ export async function GET(request: Request) {
         : Date.now() + (tokens.expires_in ?? 3600) * 1000,
     };
 
-    const response = NextResponse.redirect(new URL(flow.redirectPath, origin));
+    let redirectPath = flow.redirectPath;
+    if (!redirectPath.startsWith("/") || redirectPath.startsWith("//")) {
+      redirectPath = "/";
+    }
+    const response = NextResponse.redirect(new URL(redirectPath, origin));
     await writeSession(response, session, origin);
     return response;
   } catch {
