@@ -16,6 +16,7 @@ import { getUser } from "@/lib/auth";
 import { allModels, getProvider, providers } from "@/lib/data";
 import { Provider } from "./provider";
 import "@/styles/globals.css";
+import { Analytics } from "@vercel/analytics/next";
 import { geistMono, geistSans } from "@/styles/font";
 
 export const metadata: Metadata = {
@@ -253,6 +254,8 @@ export default async function RootLayout({
           </div>
           <FormatToggle />
         </Provider>
+
+        <Analytics />
       </body>
     </html>
   );

@@ -7,6 +7,7 @@ import { CAP_LABELS } from "@/lib/constants";
 import { formatPrice, formatTokens } from "@/lib/format";
 import { DataTable } from "./data-table";
 import { Checkbox } from "./ui/checkbox";
+import { Select, SelectContent, SelectItem, SelectTrigger } from "./ui/select";
 
 export interface ModelItem {
   id: string;
@@ -23,14 +24,11 @@ export interface ModelItem {
 }
 
 function modelFilterFn(row: ModelItem, query: string): boolean {
-  const q = query.toLowerCase();
-  return (
-    row.name.toLowerCase().includes(q) ||
-    row.id.toLowerCase().includes(q) ||
-    row.provider.toLowerCase().includes(q) ||
-    (row.created_by?.toLowerCase().includes(q) ?? false) ||
-    (row.family?.toLowerCase().includes(q) ?? false)
-  );
+  const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+  if (terms.length === 0) return true;
+  const target =
+    `${row.name} ${row.id} ${row.provider} ${row.created_by ?? ""} ${row.family ?? ""}`.toLowerCase();
+  return terms.every((t) => target.includes(t));
 }
 
 function capBadges(caps: Record<string, boolean> | undefined) {
@@ -54,10 +52,10 @@ function capBadges(caps: Record<string, boolean> | undefined) {
 
 function capLegend() {
   return (
-    <div className="flex flex-wrap gap-x-3 gap-y-1 text-muted-foreground text-xs">
+    <div className="hidden flex-wrap gap-x-2.5 gap-y-1 text-[11px] text-muted-foreground/60 md:flex">
       {CAP_LABELS.map(([key, letter]) => (
         <span key={key} className="flex items-center gap-1">
-          <span className="flex h-4 w-4 items-center justify-center rounded bg-muted text-[10px] text-foreground">
+          <span className="flex h-3.5 w-3.5 items-center justify-center rounded bg-muted text-[9px] text-muted-foreground">
             {letter}
           </span>
           {key.replace(/_/g, " ")}
@@ -195,35 +193,41 @@ export function ModelList({
       globalFilterFn={modelFilterFn}
       getRowHref={(m) => `/${m.provider}/${m.id}`}
       toolbar={
-        <div className="flex flex-wrap items-center justify-between gap-4">
-          <div className="flex flex-wrap items-center gap-3">
-            {capLegend()}
+        <div className="space-y-3">
+          <div className="flex items-center gap-3">
             {types.length > 1 && (
               <div className="flex items-center gap-1.5 text-muted-foreground text-xs">
-                <span>Type:</span>
-                <select
+                <span>Type</span>
+                <Select
                   value={typeFilter}
-                  onChange={(e) => setTypeFilter(e.target.value)}
-                  className="rounded border border-border bg-background px-1.5 py-0.5 text-foreground text-xs"
+                  onValueChange={(v) => setTypeFilter(v ?? "")}
+                  items={{
+                    "": "All",
+                    ...Object.fromEntries(types.map((t) => [t, t])),
+                  }}
                 >
-                  <option value="">All</option>
-                  {types.map((t) => (
-                    <option key={t} value={t}>
-                      {t}
-                    </option>
-                  ))}
-                </select>
+                  <SelectTrigger />
+                  <SelectContent>
+                    <SelectItem value="">All</SelectItem>
+                    {types.map((t) => (
+                      <SelectItem key={t} value={t!}>
+                        {t}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
               </div>
             )}
+            {deprecatedCount > 0 && (
+              <Checkbox
+                checked={showDeprecated}
+                onCheckedChange={(v) => setShowDeprecated(v === true)}
+                label={`Show deprecated (${deprecatedCount})`}
+                className="shrink-0 text-muted-foreground text-xs"
+              />
+            )}
           </div>
-          {deprecatedCount > 0 && (
-            <Checkbox
-              checked={showDeprecated}
-              onCheckedChange={(v) => setShowDeprecated(v === true)}
-              label={`Show deprecated (${deprecatedCount})`}
-              className="shrink-0 text-muted-foreground text-xs"
-            />
-          )}
+          {capLegend()}
         </div>
       }
     />

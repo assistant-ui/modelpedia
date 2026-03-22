@@ -10,7 +10,7 @@ import {
 } from "./ui/dropdown";
 
 export function ThemeToggle() {
-  const { setTheme, resolvedTheme } = useTheme();
+  const { setTheme, theme, resolvedTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => setMounted(true), []);
@@ -36,18 +36,21 @@ export function ThemeToggle() {
       <DropdownContent>
         <DropdownItem onSelect={() => setTheme("light")}>
           <span className="flex-1 text-sm">Light</span>
-          {mounted && resolvedTheme === "light" && (
+          {mounted && theme === "light" && (
             <span className="text-foreground text-xs">✓</span>
           )}
         </DropdownItem>
         <DropdownItem onSelect={() => setTheme("dark")}>
           <span className="flex-1 text-sm">Dark</span>
-          {mounted && resolvedTheme === "dark" && (
+          {mounted && theme === "dark" && (
             <span className="text-foreground text-xs">✓</span>
           )}
         </DropdownItem>
         <DropdownItem onSelect={() => setTheme("system")}>
           <span className="flex-1 text-sm">System</span>
+          {mounted && theme === "system" && (
+            <span className="text-foreground text-xs">✓</span>
+          )}
         </DropdownItem>
       </DropdownContent>
     </Dropdown>
