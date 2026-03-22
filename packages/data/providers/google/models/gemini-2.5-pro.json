@@ -3,13 +3,14 @@
   "name": "gemini-2.5-pro",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "gemini-2.5",
   "status": "active",
   "deprecation_date": "2026-06-17",
   "knowledge_cutoff": "2025-01",
   "context_window": 1048576,
   "max_output_tokens": 65536,
+  "successor": "gemini-3.1-pro-preview",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -20,9 +21,32 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image"]
+    "output": ["text", "image", "audio"]
   },
-  "successor": "gemini-3.1-pro-preview",
+  "pricing": {
+    "input": 1.25,
+    "output": 10,
+    "cached_input": 0.125,
+    "batch_input": 0.625,
+    "batch_output": 5,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.25, 0.125, 10]
+          },
+          {
+            "label": "Batch",
+            "values": [0.625, null, 5]
+          }
+        ]
+      }
+    ]
+  },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
   "_generated": {
@@ -34,8 +58,9 @@
     "deprecation_date": "e050aed5",
     "successor": "cd1b7cdc",
     "family": "ea6b88bf",
+    "pricing": "80e9ca6d",
     "capabilities": "29b57eef",
-    "modalities": "08235294",
+    "modalities": "0b49b61e",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
   }

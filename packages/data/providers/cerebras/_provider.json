@@ -5,5 +5,8 @@
   "url": "https://cerebras.ai",
   "api_url": "https://api.cerebras.ai/v1",
   "docs_url": "https://inference-docs.cerebras.ai",
-  "pricing_url": "https://cerebras.ai/pricing"
+  "pricing_url": "https://cerebras.ai/pricing",
+  "description": "Ultra-fast inference powered by wafer-scale compute chips, offering the fastest LLM speeds.",
+  "type": "aggregator",
+  "free_tier": true
 }

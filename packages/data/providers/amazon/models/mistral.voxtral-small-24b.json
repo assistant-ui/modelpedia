@@ -3,7 +3,8 @@
   "name": "Voxtral Small 24B 2507",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
+  "model_type": "audio",
   "capabilities": {
     "streaming": true
   },
@@ -14,6 +15,7 @@
   "snapshots": ["mistral.voxtral-small-24b-2507"],
   "_generated": {
     "name": "4029b9eb",
+    "model_type": "9f84c007",
     "capabilities": "0fa77dc6",
     "modalities": "ce37f4ca"
   }

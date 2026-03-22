@@ -17,6 +17,8 @@
     "status": "379ac110",
     "family": "1cfb9795",
     "pricing": "a598d0af",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

@@ -1,16 +1,15 @@
 {
   "id": "llama3.1-8b",
-  "name": "llama3.1-8b",
+  "name": "Llama 3.1 8B",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "context_window": 32000,
   "max_output_tokens": 8000,
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "structured_output": true,
-    "vision": true
+    "structured_output": true
   },
   "modalities": {
     "input": ["text"],
@@ -21,11 +20,27 @@
     "output": 0.1
   },
   "_generated": {
-    "name": "135e755f",
+    "name": "051379cb",
     "context_window": "10e4d788",
     "max_output_tokens": "67ff32d4",
+    "capabilities": "1d6c1abb",
+    "modalities": "68e53d93",
     "pricing": "dabb026f",
-    "capabilities": "068872da",
-    "modalities": "68e53d93"
-  }
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "endpoints": "772bacef",
+    "model_card_url": "c4a9ea1f",
+    "tokens_per_second": "5249ee8e",
+    "parameters": "49d692a8",
+    "precision": "a4c7ec3d",
+    "huggingface_url": "c4a9ea1f"
+  },
+  "status": "active",
+  "model_type": "chat",
+  "endpoints": ["chat_completions", "completions"],
+  "model_card_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+  "tokens_per_second": 2200,
+  "parameters": "8 billion",
+  "precision": "FP",
+  "huggingface_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
 }

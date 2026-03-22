@@ -1,0 +1,13 @@
+{
+  "id": "cloudflare-workers-ai",
+  "name": "Cloudflare Workers AI",
+  "region": "US",
+  "url": "https://ai.cloudflare.com",
+  "api_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run",
+  "docs_url": "https://developers.cloudflare.com/workers-ai",
+  "pricing_url": "https://developers.cloudflare.com/workers-ai/pricing",
+  "description": "Cloudflare Workers AI runs serverless inference at the edge with 90+ open-source models.",
+  "type": "aggregator",
+  "status_url": "https://www.cloudflarestatus.com",
+  "free_tier": true
+}

@@ -5,5 +5,8 @@
   "url": "https://perplexity.ai",
   "api_url": "https://api.perplexity.ai",
   "docs_url": "https://docs.perplexity.ai",
-  "pricing_url": "https://docs.perplexity.ai/guides/pricing"
+  "pricing_url": "https://docs.perplexity.ai/guides/pricing",
+  "description": "AI-powered search engine offering Sonar models with built-in web search and citations.",
+  "type": "direct",
+  "free_tier": false
 }

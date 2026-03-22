@@ -1,0 +1,24 @@
+{
+  "id": "wan2.6-t2i",
+  "name": "wan2.6-t2i",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "image",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "a72a61f7",
+    "model_type": "db8857fe",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e",
+    "endpoints": "75df3f1c"
+  }
+}

@@ -17,6 +17,8 @@
     "name": "b5f90616",
     "context_window": "f7efa4f8",
     "capabilities": "48995a4e",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

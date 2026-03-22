@@ -10,6 +10,8 @@
   "snapshots": ["mistralai/magistral-small-2506"],
   "_generated": {
     "name": "836408f3",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

@@ -1,0 +1,30 @@
+{
+  "id": "qwen3.5-35b-a3b",
+  "name": "qwen3.5-35b-a3b",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3.5",
+  "context_window": 262144,
+  "max_output_tokens": 81920,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "baca12f8",
+    "family": "d548f421",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "7e248a40",
+    "model_type": "d669f408",
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "endpoints": "75df3f1c"
+  }
+}

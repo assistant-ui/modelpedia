@@ -5,5 +5,14 @@
   "url": "https://anthropic.com",
   "api_url": "https://api.anthropic.com/v1",
   "docs_url": "https://docs.anthropic.com",
-  "pricing_url": "https://anthropic.com/pricing"
+  "pricing_url": "https://anthropic.com/pricing",
+  "description": "AI safety company building Claude, a family of helpful, harmless, and honest AI assistants.",
+  "type": "direct",
+  "status_url": "https://status.anthropic.com",
+  "changelog_url": "https://docs.anthropic.com/en/docs/about-claude/models",
+  "sdk": {
+    "python": "anthropic",
+    "javascript": "@anthropic-ai/sdk"
+  },
+  "free_tier": false
 }

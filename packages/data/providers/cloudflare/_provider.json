@@ -1,9 +1,0 @@
-{
-  "id": "cloudflare",
-  "name": "Cloudflare Workers AI",
-  "region": "US",
-  "url": "https://ai.cloudflare.com",
-  "api_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run",
-  "docs_url": "https://developers.cloudflare.com/workers-ai",
-  "pricing_url": "https://developers.cloudflare.com/workers-ai/pricing"
-}

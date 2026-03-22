@@ -3,12 +3,12 @@
   "name": "Rerank 1.0",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
+  "model_type": "rerank",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
-  "model_type": "rerank",
   "_generated": {
     "name": "2416a78c",
     "model_type": "477930e6",

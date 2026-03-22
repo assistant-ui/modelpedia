@@ -25,6 +25,8 @@
     "context_window": "34434798",
     "pricing": "383111d1",
     "capabilities": "8a3b232e",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "17475f7f"
+  },
+  "model_type": "reasoning"
 }

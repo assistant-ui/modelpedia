@@ -1,0 +1,23 @@
+{
+  "id": "wan2.2-animate-mix",
+  "name": "wan2.2-animate-mix",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "video",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "d3fa0d6b",
+    "model_type": "4d1b75ca",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "75df3f1c"
+  }
+}

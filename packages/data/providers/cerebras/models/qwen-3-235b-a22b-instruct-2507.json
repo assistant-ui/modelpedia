@@ -1,9 +1,9 @@
 {
   "id": "qwen-3-235b-a22b-instruct-2507",
-  "name": "qwen-3-235b-a22b-instruct-2507",
+  "name": "Qwen 3 235B Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "qwen",
   "context_window": 131000,
   "max_output_tokens": 40000,
@@ -12,8 +12,7 @@
     "streaming": true,
     "tool_call": true,
     "structured_output": true,
-    "vision": true,
-    "reasoning": true
+    "prompt_caching": true
   },
   "modalities": {
     "input": ["text"],
@@ -24,12 +23,28 @@
     "output": 1.2
   },
   "_generated": {
-    "name": "a71aa2a5",
+    "name": "3be5de08",
+    "family": "a3af76f3",
     "context_window": "834bd590",
     "max_output_tokens": "7c77f048",
-    "family": "a3af76f3",
+    "capabilities": "9d08fb17",
+    "modalities": "68e53d93",
     "pricing": "11cfe106",
-    "capabilities": "e09c781c",
-    "modalities": "68e53d93"
-  }
+    "model_type": "d669f408",
+    "status": "127aecde",
+    "endpoints": "772bacef",
+    "model_card_url": "36ad69b1",
+    "tokens_per_second": "f0dd4a99",
+    "parameters": "e2f12399",
+    "precision": "c851ef38",
+    "huggingface_url": "36ad69b1"
+  },
+  "model_type": "chat",
+  "status": "preview",
+  "endpoints": ["chat_completions", "completions"],
+  "model_card_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+  "tokens_per_second": 1400,
+  "parameters": "235 billion",
+  "precision": "FP16/FP8 (weights only)",
+  "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507"
 }

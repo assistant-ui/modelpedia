@@ -1,9 +1,17 @@
 {
   "id": "google",
-  "name": "Google",
+  "name": "Google AI",
   "region": "US",
   "url": "https://ai.google.dev",
   "api_url": "https://generativelanguage.googleapis.com/v1beta",
   "docs_url": "https://ai.google.dev/docs",
-  "pricing_url": "https://ai.google.dev/pricing"
+  "pricing_url": "https://ai.google.dev/pricing",
+  "description": "Google AI Studio provides access to Gemini models for developers building with the Gemini API.",
+  "type": "direct",
+  "status_url": "https://status.cloud.google.com",
+  "sdk": {
+    "python": "google-genai",
+    "javascript": "@google/genai"
+  },
+  "free_tier": true
 }

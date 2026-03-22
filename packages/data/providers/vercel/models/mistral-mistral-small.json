@@ -20,6 +20,8 @@
     "context_window": "10e4d788",
     "family": "275918a5",
     "pricing": "53952343",
-    "capabilities": "fc36814c"
-  }
+    "capabilities": "fc36814c",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

@@ -3,7 +3,8 @@
   "name": "Embed v4",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
+  "model_type": "embed",
   "capabilities": {
     "vision": true
   },
@@ -11,7 +12,6 @@
     "input": [],
     "output": []
   },
-  "model_type": "embed",
   "_generated": {
     "name": "b207cc61",
     "model_type": "764cb3de",

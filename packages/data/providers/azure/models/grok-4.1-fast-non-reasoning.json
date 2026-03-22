@@ -19,6 +19,8 @@
     "name": "8eb9e531",
     "family": "6b413309",
     "capabilities": "45192957",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "17475f7f"
+  },
+  "model_type": "reasoning"
 }

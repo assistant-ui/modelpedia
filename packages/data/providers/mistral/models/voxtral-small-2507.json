@@ -20,6 +20,8 @@
     "status": "379ac110",
     "context_window": "10e4d788",
     "capabilities": "8a3b232e",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "9f84c007"
+  },
+  "model_type": "audio"
 }

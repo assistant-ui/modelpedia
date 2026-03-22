@@ -1,0 +1,34 @@
+{
+  "id": "qwen-deep-research",
+  "name": "qwen-deep-research",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "context_window": 1000000,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.007742,
+    "output": 0.023367
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "9c81bf72",
+    "family": "a3af76f3",
+    "context_window": "8155bc54",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "d784c731",
+    "endpoints": "75df3f1c"
+  }
+}

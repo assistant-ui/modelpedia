@@ -27,6 +27,8 @@
     "family": "48c385a0",
     "pricing": "6e0168a8",
     "capabilities": "ad177261",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

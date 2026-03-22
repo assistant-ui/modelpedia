@@ -17,6 +17,8 @@
     "name": "a03453b7",
     "context_window": "3b764336",
     "pricing": "9d7f5a51",
-    "capabilities": "b011c6b4"
-  }
+    "capabilities": "b011c6b4",
+    "model_type": "17475f7f"
+  },
+  "model_type": "reasoning"
 }

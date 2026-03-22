@@ -23,6 +23,8 @@
     "speed": "e4da3b7f",
     "family": "0740f86b",
     "reasoning_tokens": "b326b506",
-    "capabilities": "a281e83a"
-  }
+    "capabilities": "a281e83a",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

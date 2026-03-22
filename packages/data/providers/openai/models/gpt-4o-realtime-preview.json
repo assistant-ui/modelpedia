@@ -3,7 +3,7 @@
   "name": "GPT-4o Realtime",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "gpt-4o",
   "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
   "status": "active",
@@ -57,18 +57,18 @@
   ],
   "_generated": {
     "name": "c9f34e94",
+    "family": "15249632",
     "description": "b0cfc175",
-    "tagline": "03ab6452",
     "status": "379ac110",
+    "knowledge_cutoff": "7b971392",
     "context_window": "10e4d788",
     "max_output_tokens": "f7efa4f8",
-    "knowledge_cutoff": "7b971392",
     "performance": "eccbc87e",
     "speed": "a87ff679",
-    "family": "15249632",
-    "pricing": "f059fd86",
+    "tagline": "03ab6452",
     "capabilities": "ce9e2425",
     "modalities": "cf05925d",
+    "pricing": "f059fd86",
     "endpoints": "c7ed7203"
   }
 }

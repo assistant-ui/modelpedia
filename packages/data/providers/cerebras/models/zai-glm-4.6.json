@@ -1,0 +1,23 @@
+{
+  "id": "zai-glm-4.6",
+  "name": "zai-glm-4.6",
+  "created_by": "zhipu",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "status": "deprecated",
+  "deprecation_date": "2026-01-20",
+  "model_type": "chat",
+  "successor": "Z.ai GLM 4.7",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "8445bdc3",
+    "status": "2e2f74dc",
+    "deprecation_date": "76120ca1",
+    "model_type": "d669f408",
+    "successor": "895cf6b8",
+    "modalities": "68e53d93"
+  }
+}

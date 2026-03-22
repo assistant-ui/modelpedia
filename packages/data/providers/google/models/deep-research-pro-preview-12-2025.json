@@ -1,0 +1,36 @@
+{
+  "id": "deep-research-pro-preview-12-2025",
+  "name": "deep-research-pro-preview-12-2025",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "status": "active",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "model_type": "reasoning",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text", "image"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "2548f07c",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "capabilities": "29b57eef",
+    "modalities": "08235294",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
+  }
+}

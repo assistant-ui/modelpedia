@@ -24,6 +24,8 @@
     "deprecation_date": "75f289bd",
     "family": "c606df51",
     "capabilities": "8a3b232e",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

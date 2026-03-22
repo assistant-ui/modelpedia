@@ -5,5 +5,9 @@
   "url": "https://openrouter.ai",
   "api_url": "https://openrouter.ai/api/v1",
   "docs_url": "https://openrouter.ai/docs",
-  "pricing_url": "https://openrouter.ai/models"
+  "pricing_url": "https://openrouter.ai/models",
+  "description": "Unified API gateway providing access to 200+ models from multiple providers with standardized pricing.",
+  "type": "aggregator",
+  "status_url": "https://status.openrouter.ai",
+  "free_tier": true
 }

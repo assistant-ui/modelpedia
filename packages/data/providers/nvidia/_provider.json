@@ -5,5 +5,11 @@
   "url": "https://build.nvidia.com",
   "api_url": "https://integrate.api.nvidia.com/v1",
   "docs_url": "https://docs.api.nvidia.com",
-  "pricing_url": "https://build.nvidia.com/pricing"
+  "pricing_url": "https://build.nvidia.com/pricing",
+  "description": "NVIDIA NIM provides optimized inference for 190+ models on NVIDIA GPU infrastructure.",
+  "type": "aggregator",
+  "sdk": {
+    "python": "openai"
+  },
+  "free_tier": true
 }

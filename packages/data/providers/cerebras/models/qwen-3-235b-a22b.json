@@ -1,0 +1,25 @@
+{
+  "id": "qwen-3-235b-a22b",
+  "name": "qwen-3-235b-a22b",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "status": "deprecated",
+  "deprecation_date": "2025-07-29",
+  "model_type": "chat",
+  "successor": "Qwen 3 235B Instruct",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "085e57df",
+    "family": "a3af76f3",
+    "status": "2e2f74dc",
+    "deprecation_date": "f7a967dd",
+    "model_type": "d669f408",
+    "successor": "3be5de08",
+    "modalities": "68e53d93"
+  }
+}

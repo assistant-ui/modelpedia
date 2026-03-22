@@ -21,6 +21,8 @@
     "context_window": "4a1d32eb",
     "family": "48c385a0",
     "pricing": "b5abf3a5",
-    "capabilities": "a281e83a"
-  }
+    "capabilities": "a281e83a",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

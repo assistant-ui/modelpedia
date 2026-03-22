@@ -6,5 +6,14 @@
   "api_url": "https://api.openai.com/v1",
   "docs_url": "https://platform.openai.com/docs",
   "pricing_url": "https://openai.com/api/pricing",
-  "playground_url": "https://platform.openai.com/playground"
+  "playground_url": "https://platform.openai.com/playground",
+  "description": "Creator of GPT, DALL-E, and Sora. Builds frontier AI models for text, image, video, and audio.",
+  "type": "direct",
+  "status_url": "https://status.openai.com",
+  "changelog_url": "https://platform.openai.com/docs/changelog",
+  "sdk": {
+    "python": "openai",
+    "javascript": "openai"
+  },
+  "free_tier": false
 }

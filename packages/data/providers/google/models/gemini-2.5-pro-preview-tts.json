@@ -3,11 +3,12 @@
   "name": "gemini-2.5-pro-preview-tts",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "gemini-2.5",
   "status": "active",
   "context_window": 8192,
   "max_output_tokens": 16384,
+  "model_type": "tts",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -18,9 +19,31 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image"]
+    "output": ["text", "image", "audio"]
   },
-  "model_type": "tts",
+  "pricing": {
+    "input": 1,
+    "output": 20,
+    "batch_input": 0.5,
+    "batch_output": 10,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1, null, 20]
+          },
+          {
+            "label": "Batch",
+            "values": [0.5, null, 10]
+          }
+        ]
+      }
+    ]
+  },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
   "_generated": {
@@ -30,8 +53,9 @@
     "context_window": "77441296",
     "max_output_tokens": "c76fe1d8",
     "family": "ea6b88bf",
+    "pricing": "39389cbc",
     "capabilities": "29b57eef",
-    "modalities": "08235294",
+    "modalities": "0b49b61e",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
   }

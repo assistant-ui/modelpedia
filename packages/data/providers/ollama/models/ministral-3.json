@@ -11,6 +11,8 @@
   "_generated": {
     "name": "719bb36f",
     "family": "d6661e63",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

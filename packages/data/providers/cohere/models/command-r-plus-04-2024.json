@@ -3,11 +3,14 @@
   "name": "command-r-plus-04-2024",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "description": "Command R+ is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models. It is best suited for complex RAG workflows and multi-step tool use.",
   "status": "deprecated",
   "context_window": 128000,
   "max_output_tokens": 4000,
+  "successor": "command-r-plus-08-2024",
+  "model_type": "chat",
+  "tagline": "Command R+ is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models.",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -16,15 +19,23 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "tagline": "Command R+ is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models.",
+  "pricing": {
+    "input": 1,
+    "output": 2
+  },
+  "endpoints": ["chat"],
   "_generated": {
     "name": "2d9eadf6",
     "description": "49f76b41",
-    "tagline": "58422c2d",
     "status": "2e2f74dc",
     "context_window": "34434798",
     "max_output_tokens": "1bd69c7d",
+    "successor": "8e86f993",
+    "model_type": "d669f408",
+    "tagline": "58422c2d",
     "capabilities": "48995a4e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "ac91204c",
+    "endpoints": "75df3f1c"
   }
 }

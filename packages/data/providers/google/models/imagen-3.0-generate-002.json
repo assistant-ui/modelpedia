@@ -1,0 +1,23 @@
+{
+  "id": "imagen-3.0-generate-002",
+  "name": "imagen-3.0-generate-002",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "status": "deprecated",
+  "deprecation_date": "2025-11-10",
+  "successor": "imagen-4.0-generate-001",
+  "model_type": "image",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "_generated": {
+    "name": "8b91e0a4",
+    "status": "2e2f74dc",
+    "model_type": "db8857fe",
+    "deprecation_date": "ff1e616a",
+    "successor": "c37e34c0",
+    "modalities": "814867b9"
+  }
+}

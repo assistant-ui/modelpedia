@@ -3,32 +3,25 @@
   "name": "gemini-embedding-2-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "status": "active",
   "context_window": 8192,
+  "model_type": "embed",
   "capabilities": {
-    "streaming": true,
-    "tool_call": true,
-    "structured_output": true,
-    "reasoning": true,
-    "batch": true,
     "vision": true
   },
   "modalities": {
-    "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image"]
+    "input": ["text"],
+    "output": ["text"]
   },
-  "model_type": "embed",
-  "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
   "_generated": {
     "name": "9cfbd982",
     "status": "379ac110",
     "model_type": "764cb3de",
     "context_window": "77441296",
-    "capabilities": "29b57eef",
-    "modalities": "08235294",
-    "tools": "f0c1dc7e",
+    "capabilities": "d3117eb0",
+    "modalities": "68e53d93",
     "endpoints": "20e16908"
   }
 }

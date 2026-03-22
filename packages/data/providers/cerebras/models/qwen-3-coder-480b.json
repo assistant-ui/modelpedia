@@ -1,0 +1,25 @@
+{
+  "id": "qwen-3-coder-480b",
+  "name": "qwen-3-coder-480b",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "status": "deprecated",
+  "deprecation_date": "2025-11-05",
+  "model_type": "chat",
+  "successor": "Z.ai GLM 4.7",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "e9436c30",
+    "family": "a3af76f3",
+    "status": "2e2f74dc",
+    "deprecation_date": "6c2625ef",
+    "model_type": "d669f408",
+    "successor": "895cf6b8",
+    "modalities": "68e53d93"
+  }
+}

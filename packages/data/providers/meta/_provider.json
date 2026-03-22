@@ -5,5 +5,8 @@
   "url": "https://llama.developer.meta.com",
   "api_url": "https://api.llama.developer.meta.com/v1",
   "docs_url": "https://llama.developer.meta.com/docs/models",
-  "pricing_url": "https://llama.developer.meta.com/docs/getting-started/pricing"
+  "pricing_url": "https://llama.developer.meta.com/docs/getting-started/pricing",
+  "description": "Creators of Llama, the leading open-source language model family.",
+  "type": "direct",
+  "free_tier": true
 }

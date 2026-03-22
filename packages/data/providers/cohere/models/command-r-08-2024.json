@@ -3,11 +3,13 @@
   "name": "command-r-08-2024",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "description": "command-r-08-2024 is an update of the Command R model, delivered in August 2024. Find more information here",
   "status": "active",
   "context_window": 128000,
   "max_output_tokens": 4000,
+  "model_type": "chat",
+  "tagline": "command-r-08-2024 is an update of the Command R model, delivered in August 2024.",
   "capabilities": {
     "streaming": true
   },
@@ -15,15 +17,22 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "tagline": "command-r-08-2024 is an update of the Command R model, delivered in August 2024.",
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  },
+  "endpoints": ["chat"],
   "_generated": {
     "name": "a91df70c",
     "description": "1b377816",
-    "tagline": "93266e44",
     "status": "379ac110",
     "context_window": "34434798",
     "max_output_tokens": "1bd69c7d",
+    "model_type": "d669f408",
+    "tagline": "93266e44",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "cf1c6d02",
+    "endpoints": "75df3f1c"
   }
 }

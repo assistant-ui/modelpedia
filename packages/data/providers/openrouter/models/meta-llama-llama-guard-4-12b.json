@@ -25,6 +25,8 @@
     "family": "3190be28",
     "pricing": "bd10cf29",
     "capabilities": "c8033cf7",
-    "modalities": "8b8b28d1"
-  }
+    "modalities": "8b8b28d1",
+    "model_type": "1e7a7b87"
+  },
+  "model_type": "moderation"
 }

@@ -3,7 +3,7 @@
   "name": "Claude Sonnet 3.7",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "claude-sonnet",
   "capabilities": {
     "streaming": true,
@@ -17,20 +17,22 @@
   "pricing": {
     "input": 3,
     "output": 15,
+    "cache_write": 3.75,
     "cached_input": 0.3,
     "batch_input": 1.5,
-    "batch_output": 7.5,
-    "cache_write": 3.75
+    "batch_output": 7.5
   },
   "tools": ["function_calling"],
   "endpoints": ["messages"],
   "_generated": {
     "name": "6cdc7d2b",
     "family": "68d1c457",
-    "pricing": "399ad924",
     "capabilities": "fc36814c",
     "modalities": "6399757e",
+    "pricing": "fb84d495",
     "tools": "f0c1dc7e",
-    "endpoints": "94bb8b7a"
-  }
+    "endpoints": "94bb8b7a",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

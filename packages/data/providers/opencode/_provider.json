@@ -5,5 +5,8 @@
   "url": "https://opencode.ai",
   "api_url": "https://opencode.ai/zen/v1",
   "docs_url": "https://opencode.ai/docs/zen",
-  "pricing_url": "https://opencode.ai/docs/zen"
+  "pricing_url": "https://opencode.ai/docs/zen",
+  "description": "AI coding assistant platform providing access to frontier models for software development.",
+  "type": "aggregator",
+  "free_tier": true
 }

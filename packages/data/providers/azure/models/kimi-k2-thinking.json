@@ -16,6 +16,8 @@
   "_generated": {
     "name": "e7beffe5",
     "capabilities": "a281e83a",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

@@ -1,0 +1,31 @@
+{
+  "id": "qwen3-vl-plus",
+  "name": "qwen3-vl-plus",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "context_window": 262144,
+  "max_output_tokens": 81920,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "1b70b8d8",
+    "family": "48c385a0",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "7e248a40",
+    "model_type": "d669f408",
+    "capabilities": "8d009641",
+    "modalities": "3ad4060a",
+    "endpoints": "75df3f1c"
+  }
+}

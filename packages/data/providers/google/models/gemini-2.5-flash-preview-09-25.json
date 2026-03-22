@@ -3,10 +3,11 @@
   "name": "gemini-2.5-flash-preview-09-25",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "gemini-2.5",
   "status": "deprecated",
   "deprecation_date": "2026-02-17",
+  "successor": "gemini-3-flash-preview",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -15,7 +16,6 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "successor": "gemini-3-flash-preview",
   "_generated": {
     "name": "c222a128",
     "status": "2e2f74dc",

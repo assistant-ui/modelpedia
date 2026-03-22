@@ -3,10 +3,11 @@
   "name": "gemini-2.0-flash-live-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "gemini-2.0",
   "status": "deprecated",
   "deprecation_date": "2025-12-09",
+  "successor": "gemini-2.5-flash-native-audio-preview-12-2025",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -15,13 +16,30 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "successor": "gemini-2.5-flash-native-audio-preview-12-2025",
+  "pricing": {
+    "input": 0.25,
+    "output": 0.15,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.15, null, 0.6]
+          }
+        ]
+      }
+    ]
+  },
   "_generated": {
     "name": "db521d8b",
     "status": "2e2f74dc",
     "deprecation_date": "c41dad30",
     "successor": "271a10ba",
     "family": "dc4aadf6",
+    "pricing": "5eba8367",
     "capabilities": "8a3b232e",
     "modalities": "6399757e"
   }

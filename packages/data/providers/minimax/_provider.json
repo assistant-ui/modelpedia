@@ -5,5 +5,8 @@
   "url": "https://www.minimax.io",
   "api_url": "https://api.minimax.io/v1",
   "docs_url": "https://platform.minimax.io/docs",
-  "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo"
+  "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+  "description": "Chinese AI company building multimodal models for chat, music, and video generation.",
+  "type": "direct",
+  "free_tier": false
 }

@@ -5,5 +5,8 @@
   "url": "https://ollama.com",
   "api_url": "http://localhost:11434/api",
   "docs_url": "https://github.com/ollama/ollama/blob/main/docs/api.md",
-  "pricing_url": "https://ollama.com"
+  "pricing_url": "https://ollama.com",
+  "description": "Run open-source LLMs locally on your machine with a simple CLI.",
+  "type": "aggregator",
+  "free_tier": true
 }

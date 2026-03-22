@@ -5,5 +5,8 @@
   "url": "https://cursor.com",
   "api_url": "https://api.cursor.com",
   "docs_url": "https://cursor.com/docs",
-  "pricing_url": "https://cursor.com/docs/models-and-pricing"
+  "pricing_url": "https://cursor.com/docs/models-and-pricing",
+  "description": "AI-powered code editor providing access to multiple frontier models for software development.",
+  "type": "aggregator",
+  "free_tier": true
 }

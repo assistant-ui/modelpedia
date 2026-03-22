@@ -1,0 +1,32 @@
+{
+  "id": "deepseek-chat-2025-08-21",
+  "name": "DeepSeek V3.1 (Chat)",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek-chat",
+  "status": "deprecated",
+  "release_date": "2025-08-21",
+  "model_type": "chat",
+  "alias": "deepseek-chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "94a41590",
+    "family": "fbd79fd9",
+    "status": "2e2f74dc",
+    "release_date": "d9d01c83",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "deprecation_date": "3cb5c95a",
+    "successor": "a5c7e86b"
+  },
+  "deprecation_date": "2025-09-22",
+  "successor": "deepseek-chat-2025-09-22"
+}

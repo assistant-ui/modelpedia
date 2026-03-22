@@ -5,5 +5,11 @@
   "url": "https://vercel.com/ai-gateway",
   "api_url": "https://gateway.ai.vercel.com/v1",
   "docs_url": "https://vercel.com/docs/ai-gateway",
-  "pricing_url": "https://vercel.com/ai-gateway/models"
+  "pricing_url": "https://vercel.com/ai-gateway/models",
+  "description": "Vercel AI Gateway provides unified access to 200+ models through the AI SDK.",
+  "type": "aggregator",
+  "sdk": {
+    "javascript": "ai"
+  },
+  "free_tier": false
 }

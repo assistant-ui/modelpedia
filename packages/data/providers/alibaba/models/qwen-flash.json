@@ -1,24 +1,30 @@
 {
   "id": "qwen-flash",
-  "name": "Qwen-Flash",
+  "name": "qwen-flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "qwen",
-  "context_window": 1000000,
+  "context_window": 995904,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "reasoning": true
   },
-  "pricing": {
-    "input": 0.05,
-    "output": 0.4
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   },
+  "endpoints": ["chat"],
   "_generated": {
-    "name": "25df469a",
-    "context_window": "8155bc54",
+    "name": "010bac93",
     "family": "a3af76f3",
-    "pricing": "b224cb39",
-    "capabilities": "48995a4e"
+    "context_window": "d22d7d4d",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "endpoints": "75df3f1c"
   }
 }

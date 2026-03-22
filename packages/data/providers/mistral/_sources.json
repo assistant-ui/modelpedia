@@ -1,0 +1,5 @@
+{
+  "models": "https://docs.mistral.ai/getting-started/models",
+  "details": "https://docs.mistral.ai/models/",
+  "api": "https://api.mistral.ai/v1/models"
+}

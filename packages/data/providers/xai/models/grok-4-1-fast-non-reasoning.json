@@ -28,6 +28,8 @@
     "family": "0d5416ff",
     "pricing": "25a4c630",
     "capabilities": "1d6c1abb",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "17475f7f"
+  },
+  "model_type": "reasoning"
 }

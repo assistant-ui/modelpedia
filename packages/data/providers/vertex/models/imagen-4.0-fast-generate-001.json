@@ -1,0 +1,23 @@
+{
+  "id": "imagen-4.0-fast-generate-001",
+  "name": "imagen-4.0-fast-generate-001",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "status": "active",
+  "deprecation_date": "2026-06-24",
+  "model_type": "image",
+  "successor": ["gemini-3-pro-image-preview", "gemini-2.5-flash-image"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "_generated": {
+    "name": "ab27be97",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "deprecation_date": "b7ac61f6",
+    "successor": "27695f0c",
+    "modalities": "814867b9"
+  }
+}

@@ -19,6 +19,8 @@
     "name": "9690c100",
     "family": "70f9d51d",
     "capabilities": "ee30ca00",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

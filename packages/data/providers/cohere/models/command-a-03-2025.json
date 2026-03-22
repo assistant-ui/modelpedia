@@ -3,11 +3,13 @@
   "name": "command-a-03-2025",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "description": "Unique per deployment",
   "status": "active",
   "context_window": 256000,
   "max_output_tokens": 8000,
+  "model_type": "chat",
+  "tagline": "Command A is our most performant model to date, excelling at tool use, agents, retrieval augmented generation (RAG), and multilingual use cases.",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -16,15 +18,22 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "tagline": "Command A is our most performant model to date, excelling at tool use, agents, retrieval augmented generation (RAG), and multilingual use cases.",
+  "pricing": {
+    "input": 1,
+    "output": 2
+  },
+  "endpoints": ["chat"],
   "_generated": {
     "name": "0e9cee97",
     "description": "4f68c471",
-    "tagline": "5676e01d",
     "status": "379ac110",
     "context_window": "2fd324cb",
     "max_output_tokens": "67ff32d4",
+    "model_type": "d669f408",
+    "tagline": "5676e01d",
     "capabilities": "48995a4e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "ac91204c",
+    "endpoints": "75df3f1c"
   }
 }

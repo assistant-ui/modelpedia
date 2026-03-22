@@ -3,7 +3,7 @@
   "name": "Claude Haiku 4.5",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "family": "claude-haiku",
   "context_window": 200000,
   "max_output_tokens": 64000,
@@ -17,12 +17,39 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
+  "pricing": {
+    "input": 1.1,
+    "output": 5.5,
+    "cached_input": 0.11,
+    "batch_input": 0.55,
+    "batch_output": 2.75,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.1, 0.11, 5.5]
+          },
+          {
+            "label": "Batch",
+            "values": [0.55, null, 2.75]
+          }
+        ]
+      }
+    ]
+  },
   "_generated": {
     "name": "61746f3c",
     "context_window": "03e6c616",
     "max_output_tokens": "762e98db",
     "family": "1cfb9795",
+    "pricing": "7aec0de3",
     "capabilities": "a19166f1",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

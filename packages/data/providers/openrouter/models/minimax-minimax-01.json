@@ -21,6 +21,8 @@
     "context_window": "b8afedef",
     "max_output_tokens": "b8afedef",
     "pricing": "f6965509",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }
