@@ -1,0 +1,15 @@
+{
+  "id": "cerebras/llama3.1-8b",
+  "name": "cerebras: llama3.1-8b",
+  "created_by": "cerebras",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0.09999999999999999
+  },
+  "_generated": {
+    "name": "a8b84957",
+    "pricing": "7f851cba"
+  }
+}

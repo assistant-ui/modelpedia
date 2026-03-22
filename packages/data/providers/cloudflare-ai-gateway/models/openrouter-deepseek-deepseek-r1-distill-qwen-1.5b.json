@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/deepseek/deepseek-r1-distill-qwen-1.5b",
+  "name": "OpenRouter: deepseek/deepseek-r1-distill-qwen-1.5b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek-r1",
+  "pricing": {
+    "input": 0.18,
+    "output": 0.18
+  },
+  "_generated": {
+    "name": "f159dccc",
+    "family": "c74cfb8e",
+    "pricing": "bd10cf29"
+  }
+}

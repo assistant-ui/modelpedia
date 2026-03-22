@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/mistralai/mistral-small-2603",
+  "name": "OpenRouter: mistralai/mistral-small-2603",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "mistral-small",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "176a6b49",
+    "family": "275918a5",
+    "pricing": "89a9c6e2"
+  }
+}

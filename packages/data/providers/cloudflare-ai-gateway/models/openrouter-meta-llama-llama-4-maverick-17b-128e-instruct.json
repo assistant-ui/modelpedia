@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/meta-llama/llama-4-maverick-17b-128e-instruct",
+  "name": "OpenRouter: meta-llama/llama-4-maverick-17b-128e-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-4",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "c716a37b",
+    "family": "3169363f",
+    "pricing": "89a9c6e2"
+  }
+}

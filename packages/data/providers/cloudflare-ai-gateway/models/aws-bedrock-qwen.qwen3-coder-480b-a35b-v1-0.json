@@ -1,0 +1,19 @@
+{
+  "id": "aws-bedrock/qwen.qwen3-coder-480b-a35b-v1:0",
+  "name": "Amazon Bedrock: qwen.qwen3-coder-480b-a35b-v1:0",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen.",
+  "model_type": "code",
+  "pricing": {
+    "input": 0.22,
+    "output": 1.7999999999999998
+  },
+  "_generated": {
+    "name": "77679310",
+    "family": "4f268b83",
+    "model_type": "b6cc3ff4",
+    "pricing": "f7f5ddcb"
+  }
+}

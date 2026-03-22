@@ -1,0 +1,17 @@
+{
+  "id": "google-vertex-ai/mistral-small-2503",
+  "name": "Google Vertex AI: mistral-small-2503",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "mistral-small",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0.3
+  },
+  "_generated": {
+    "name": "934ef5ac",
+    "family": "275918a5",
+    "pricing": "a3896bf6"
+  }
+}

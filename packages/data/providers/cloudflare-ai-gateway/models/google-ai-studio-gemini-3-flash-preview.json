@@ -1,0 +1,17 @@
+{
+  "id": "google-ai-studio/gemini-3-flash-preview",
+  "name": "Google AI Studio: gemini-3-flash-preview",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-3",
+  "pricing": {
+    "input": 0.5,
+    "output": 3
+  },
+  "_generated": {
+    "name": "ee45f2f7",
+    "family": "eb14e598",
+    "pricing": "ad477c96"
+  }
+}

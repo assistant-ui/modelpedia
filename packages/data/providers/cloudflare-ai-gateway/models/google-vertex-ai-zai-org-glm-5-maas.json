@@ -1,0 +1,15 @@
+{
+  "id": "google-vertex-ai/zai-org/glm-5-maas",
+  "name": "Google Vertex AI: zai-org/glm-5-maas",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1,
+    "output": 3.1999999999999997
+  },
+  "_generated": {
+    "name": "32a1827a",
+    "pricing": "a20f6b46"
+  }
+}

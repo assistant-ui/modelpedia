@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/liquid/lfm-40b",
+  "name": "OpenRouter: liquid/lfm-40b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.15
+  },
+  "_generated": {
+    "name": "2a8bd7f6",
+    "pricing": "16a72b67"
+  }
+}

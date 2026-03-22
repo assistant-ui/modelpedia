@@ -1,0 +1,15 @@
+{
+  "id": "google-ai-studio/gemini-flash-latest",
+  "name": "Google AI Studio: gemini-flash-latest",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.3,
+    "output": 2.5
+  },
+  "_generated": {
+    "name": "d522320c",
+    "pricing": "8d495dc1"
+  }
+}

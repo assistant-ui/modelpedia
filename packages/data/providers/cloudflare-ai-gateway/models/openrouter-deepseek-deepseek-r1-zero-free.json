@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/deepseek/deepseek-r1-zero:free",
+  "name": "OpenRouter: deepseek/deepseek-r1-zero:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek-r1",
+  "_generated": {
+    "name": "a8a504a9",
+    "family": "c74cfb8e"
+  }
+}

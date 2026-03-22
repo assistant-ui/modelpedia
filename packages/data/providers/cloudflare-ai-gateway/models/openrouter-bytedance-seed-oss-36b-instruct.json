@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/bytedance/seed-oss-36b-instruct",
+  "name": "OpenRouter: bytedance/seed-oss-36b-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.16,
+    "output": 0.65
+  },
+  "_generated": {
+    "name": "a22b6562",
+    "pricing": "a61d0312"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "replicate/meta/meta-llama-3-70b-instruct",
+  "name": "Replicate: meta/meta-llama-3-70b-instruct",
+  "created_by": "replicate",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.65,
+    "output": 2.75
+  },
+  "_generated": {
+    "name": "7943eb64",
+    "pricing": "9e44b669"
+  }
+}

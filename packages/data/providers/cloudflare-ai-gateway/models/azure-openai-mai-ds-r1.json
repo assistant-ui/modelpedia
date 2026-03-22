@@ -1,0 +1,15 @@
+{
+  "id": "azure-openai/mai-ds-r1",
+  "name": "Azure OpenAI: mai-ds-r1",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1.35,
+    "output": 5.4
+  },
+  "_generated": {
+    "name": "c1cf168b",
+    "pricing": "f08df6be"
+  }
+}

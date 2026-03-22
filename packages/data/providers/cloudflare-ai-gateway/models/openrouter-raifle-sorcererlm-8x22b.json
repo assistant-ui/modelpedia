@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/raifle/sorcererlm-8x22b",
+  "name": "OpenRouter: raifle/sorcererlm-8x22b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 4.5,
+    "output": 4.5
+  },
+  "_generated": {
+    "name": "1f755975",
+    "pricing": "fe31309f"
+  }
+}

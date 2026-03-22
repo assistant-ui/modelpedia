@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-5-image",
+  "name": "OpenAI: gpt-5-image",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-5",
+  "pricing": {
+    "input": 10,
+    "output": 10
+  },
+  "_generated": {
+    "name": "a8def4a8",
+    "family": "aa904c16",
+    "pricing": "c0e46bcc"
+  }
+}

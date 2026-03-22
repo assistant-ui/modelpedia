@@ -1,0 +1,15 @@
+{
+  "id": "openai/gpt-4.5-preview-2025-02-27",
+  "name": "OpenAI: gpt-4.5-preview-2025-02-27",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 75,
+    "output": 150
+  },
+  "_generated": {
+    "name": "fa9f43de",
+    "pricing": "59fef76f"
+  }
+}

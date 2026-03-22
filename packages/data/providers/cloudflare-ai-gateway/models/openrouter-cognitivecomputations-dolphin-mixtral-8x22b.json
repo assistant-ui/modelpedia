@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/cognitivecomputations/dolphin-mixtral-8x22b",
+  "name": "OpenRouter: cognitivecomputations/dolphin-mixtral-8x22b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.8999999999999999,
+    "output": 0.8999999999999999
+  },
+  "_generated": {
+    "name": "a4acad52",
+    "pricing": "eb054cd6"
+  }
+}

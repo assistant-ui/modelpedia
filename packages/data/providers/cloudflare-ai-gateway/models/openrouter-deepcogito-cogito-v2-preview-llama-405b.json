@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/deepcogito/cogito-v2-preview-llama-405B",
+  "name": "OpenRouter: deepcogito/cogito-v2-preview-llama-405B",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 3.5,
+    "output": 3.5
+  },
+  "_generated": {
+    "name": "5c86e1f8",
+    "pricing": "cfdeac37"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openai/o4-mini-deep-research-2025-06-26",
+  "name": "OpenAI: o4-mini-deep-research-2025-06-26",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "o4",
+  "pricing": {
+    "input": 2,
+    "output": 8
+  },
+  "_generated": {
+    "name": "e3dfd193",
+    "family": "a842f941",
+    "pricing": "9d7f5a51"
+  }
+}

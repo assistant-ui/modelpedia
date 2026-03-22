@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/nousresearch/deephermes-3-llama-3-8b-preview",
+  "name": "OpenRouter: nousresearch/deephermes-3-llama-3-8b-preview",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.03,
+    "output": 0.11
+  },
+  "_generated": {
+    "name": "05e5c26c",
+    "pricing": "f7b03cb1"
+  }
+}

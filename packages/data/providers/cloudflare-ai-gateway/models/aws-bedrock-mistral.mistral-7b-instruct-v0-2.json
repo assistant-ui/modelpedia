@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/mistral.mistral-7b-instruct-v0:2",
+  "name": "Amazon Bedrock: mistral.mistral-7b-instruct-v0:2",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.11,
+    "output": 0.11
+  },
+  "_generated": {
+    "name": "74b7b40f",
+    "model_type": "d669f408",
+    "pricing": "5630a02b"
+  }
+}

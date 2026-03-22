@@ -1,0 +1,17 @@
+{
+  "id": "workers-ai/llama-3.2-3b-instruct",
+  "name": "Workers AI: llama-3.2-3b-instruct",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.2",
+  "pricing": {
+    "input": 51000,
+    "output": 340000
+  },
+  "_generated": {
+    "name": "d5a69644",
+    "family": "d4c42ce9",
+    "pricing": "48157f2f"
+  }
+}

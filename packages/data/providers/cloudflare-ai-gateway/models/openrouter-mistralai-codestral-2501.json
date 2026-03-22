@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/mistralai/codestral-2501",
+  "name": "OpenRouter: mistralai/codestral-2501",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "codestral",
+  "pricing": {
+    "input": 0.3,
+    "output": 0.8999999999999999
+  },
+  "_generated": {
+    "name": "eddc0f09",
+    "family": "a0734f6e",
+    "pricing": "cfa7f421"
+  }
+}

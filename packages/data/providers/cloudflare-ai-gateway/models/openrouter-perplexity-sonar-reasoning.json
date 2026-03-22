@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/perplexity/sonar-reasoning",
+  "name": "OpenRouter: perplexity/sonar-reasoning",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "reasoning",
+  "pricing": {
+    "input": 1,
+    "output": 5
+  },
+  "_generated": {
+    "name": "017f3e42",
+    "model_type": "17475f7f",
+    "pricing": "5b5c2081"
+  }
+}

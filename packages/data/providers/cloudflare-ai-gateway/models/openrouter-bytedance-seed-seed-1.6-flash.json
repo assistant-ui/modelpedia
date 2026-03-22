@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/bytedance-seed/seed-1.6-flash",
+  "name": "OpenRouter: bytedance-seed/seed-1.6-flash",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.075,
+    "output": 0.3
+  },
+  "_generated": {
+    "name": "6c521efd",
+    "pricing": "b6208862"
+  }
+}

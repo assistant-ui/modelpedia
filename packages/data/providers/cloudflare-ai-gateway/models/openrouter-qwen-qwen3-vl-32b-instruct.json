@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3-vl-32b-instruct",
+  "name": "OpenRouter: qwen/qwen3-vl-32b-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "pricing": {
+    "input": 0.10400000000000001,
+    "output": 0.41600000000000004
+  },
+  "_generated": {
+    "name": "064d4006",
+    "family": "48c385a0",
+    "pricing": "4a81ba90"
+  }
+}

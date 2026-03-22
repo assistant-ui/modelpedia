@@ -1,0 +1,17 @@
+{
+  "id": "groq/llama-3.1-8b-instant",
+  "name": "Groq: llama-3.1-8b-instant",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.1",
+  "pricing": {
+    "input": 0.049999999999999996,
+    "output": 0.08
+  },
+  "_generated": {
+    "name": "2eebeb4d",
+    "family": "83ec32db",
+    "pricing": "574f99cf"
+  }
+}

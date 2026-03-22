@@ -1,0 +1,17 @@
+{
+  "id": "mistral/open-mistral-7b",
+  "name": "Mistral: open-mistral-7b",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.25,
+    "output": 0.25
+  },
+  "_generated": {
+    "name": "b5faf6f3",
+    "model_type": "d669f408",
+    "pricing": "4dba8a3d"
+  }
+}

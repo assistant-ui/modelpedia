@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/anthropic.claude-3-haiku-20240307-v1",
+  "name": "Amazon Bedrock: anthropic.claude-3-haiku-20240307-v1",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.25,
+    "output": 1.25
+  },
+  "_generated": {
+    "name": "39db0914",
+    "model_type": "d669f408",
+    "pricing": "2e2503e1"
+  }
+}

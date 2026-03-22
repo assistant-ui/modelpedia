@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/deepseek/deepseek-r1-distill-llama-70b:free",
+  "name": "OpenRouter: deepseek/deepseek-r1-distill-llama-70b:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek-r1",
+  "_generated": {
+    "name": "a7dfa33f",
+    "family": "c74cfb8e"
+  }
+}

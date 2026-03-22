@@ -1,0 +1,15 @@
+{
+  "id": "google-ai-studio/palm-2-codechat-bison",
+  "name": "Google AI Studio: palm-2-codechat-bison",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1,
+    "output": 2
+  },
+  "_generated": {
+    "name": "9453ea95",
+    "pricing": "ac91204c"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/llama-3.2-90b-vision-instruct",
+  "name": "Azure OpenAI: llama-3.2-90b-vision-instruct",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.2",
+  "pricing": {
+    "input": 2.04,
+    "output": 2.04
+  },
+  "_generated": {
+    "name": "bd0c929f",
+    "family": "d4c42ce9",
+    "pricing": "4a9df071"
+  }
+}

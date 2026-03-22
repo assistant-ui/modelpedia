@@ -1,0 +1,17 @@
+{
+  "id": "google-vertex-ai/claude-opus-4-6",
+  "name": "Google Vertex AI: claude-opus-4-6",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-opus",
+  "pricing": {
+    "input": 5,
+    "output": 25
+  },
+  "_generated": {
+    "name": "3b4bd2ce",
+    "family": "4e4c4b18",
+    "pricing": "be2d1ab0"
+  }
+}

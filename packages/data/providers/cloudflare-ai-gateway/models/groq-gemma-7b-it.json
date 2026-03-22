@@ -1,0 +1,17 @@
+{
+  "id": "groq/gemma-7b-it",
+  "name": "Groq: gemma-7b-it",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemma-7b",
+  "pricing": {
+    "input": 0.07,
+    "output": 0.07
+  },
+  "_generated": {
+    "name": "931b14cc",
+    "family": "4c956875",
+    "pricing": "a1ff1d4b"
+  }
+}

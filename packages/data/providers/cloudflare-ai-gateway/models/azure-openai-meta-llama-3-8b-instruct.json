@@ -1,0 +1,15 @@
+{
+  "id": "azure-openai/meta-llama-3-8b-instruct",
+  "name": "Azure OpenAI: meta-llama-3-8b-instruct",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.3,
+    "output": 0.61
+  },
+  "_generated": {
+    "name": "37e3adbf",
+    "pricing": "651d3042"
+  }
+}

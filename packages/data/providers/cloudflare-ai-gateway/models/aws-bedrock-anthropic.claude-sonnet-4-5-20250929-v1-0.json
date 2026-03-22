@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "name": "Amazon Bedrock: anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 3,
+    "output": 15
+  },
+  "_generated": {
+    "name": "00225999",
+    "model_type": "d669f408",
+    "pricing": "7939f0ff"
+  }
+}

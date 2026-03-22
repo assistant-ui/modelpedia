@@ -1,0 +1,17 @@
+{
+  "id": "mistral/mistral-small-3.1-24b-instruct-2503",
+  "name": "Mistral: mistral-small-3.1-24b-instruct-2503",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "mistral-small",
+  "pricing": {
+    "input": 0.03,
+    "output": 0.11
+  },
+  "_generated": {
+    "name": "447bfaac",
+    "family": "275918a5",
+    "pricing": "f7b03cb1"
+  }
+}

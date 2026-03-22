@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/gpt-4o-mini-search-preview",
+  "name": "OpenRouter: openai/gpt-4o-mini-search-preview",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4o",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "dc24d8b5",
+    "family": "15249632",
+    "pricing": "89a9c6e2"
+  }
+}

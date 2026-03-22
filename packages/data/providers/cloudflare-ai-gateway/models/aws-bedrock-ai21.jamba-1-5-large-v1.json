@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/ai21.jamba-1-5-large-v1",
+  "name": "Amazon Bedrock: ai21.jamba-1-5-large-v1",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 2,
+    "output": 8
+  },
+  "_generated": {
+    "name": "a6b4dab2",
+    "model_type": "d669f408",
+    "pricing": "9d7f5a51"
+  }
+}

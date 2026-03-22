@@ -1,0 +1,15 @@
+{
+  "id": "google-vertex-ai/jamba-1.5-mini",
+  "name": "Google Vertex AI: jamba-1.5-mini",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.2,
+    "output": 0.4
+  },
+  "_generated": {
+    "name": "525eb894",
+    "pricing": "4dbcdee2"
+  }
+}

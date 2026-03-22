@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/arcee-ai/caller-large",
+  "name": "OpenRouter: arcee-ai/caller-large",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.55,
+    "output": 0.85
+  },
+  "_generated": {
+    "name": "bf1797ce",
+    "pricing": "349207dc"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b",
+  "name": "OpenRouter: sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "59cbfbfb",
+    "pricing": "4a55a07f"
+  }
+}

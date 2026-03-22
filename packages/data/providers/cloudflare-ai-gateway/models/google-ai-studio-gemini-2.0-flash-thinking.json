@@ -1,0 +1,17 @@
+{
+  "id": "google-ai-studio/gemini-2.0-flash-thinking",
+  "name": "Google AI Studio: gemini-2.0-flash-thinking",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-2.0",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0.7
+  },
+  "_generated": {
+    "name": "16329779",
+    "family": "dc4aadf6",
+    "pricing": "f74f07de"
+  }
+}

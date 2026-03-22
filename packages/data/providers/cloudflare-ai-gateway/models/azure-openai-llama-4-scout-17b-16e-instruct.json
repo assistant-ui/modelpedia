@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/llama-4-scout-17b-16e-instruct",
+  "name": "Azure OpenAI: llama-4-scout-17b-16e-instruct",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-4",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.78
+  },
+  "_generated": {
+    "name": "0e946685",
+    "family": "3169363f",
+    "pricing": "5caf75cc"
+  }
+}

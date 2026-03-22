@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/minimax/minimax-m2.5-20260211",
+  "name": "OpenRouter: minimax/minimax-m2.5-20260211",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 1.17
+  },
+  "_generated": {
+    "name": "5e1e70d4",
+    "pricing": "570a8792"
+  }
+}

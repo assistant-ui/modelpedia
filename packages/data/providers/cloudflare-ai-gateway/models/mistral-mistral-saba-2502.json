@@ -1,0 +1,17 @@
+{
+  "id": "mistral/mistral-saba-2502",
+  "name": "Mistral: mistral-saba-2502",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "1543602a",
+    "model_type": "d669f408",
+    "pricing": "143a4b96"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3-next-80b-a3b-instruct-2509",
+  "name": "OpenRouter: qwen/qwen3-next-80b-a3b-instruct-2509",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "pricing": {
+    "input": 0.09,
+    "output": 1.1
+  },
+  "_generated": {
+    "name": "d487c263",
+    "family": "48c385a0",
+    "pricing": "1a367c4d"
+  }
+}

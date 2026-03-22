@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/anthropic/claude-4.5-haiku-20251001",
+  "name": "OpenRouter: anthropic/claude-4.5-haiku-20251001",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-haiku",
+  "pricing": {
+    "input": 1,
+    "output": 5
+  },
+  "_generated": {
+    "name": "9e9dc2a6",
+    "family": "1cfb9795",
+    "pricing": "5b5c2081"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/arcee-ai/virtuoso-medium-v2",
+  "name": "OpenRouter: arcee-ai/virtuoso-medium-v2",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.5,
+    "output": 0.7999999999999999
+  },
+  "_generated": {
+    "name": "954d59e1",
+    "pricing": "9df346ca"
+  }
+}

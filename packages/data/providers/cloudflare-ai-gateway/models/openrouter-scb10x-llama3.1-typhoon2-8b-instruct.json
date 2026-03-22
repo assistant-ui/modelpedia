@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/scb10x/llama3.1-typhoon2-8b-instruct",
+  "name": "OpenRouter: scb10x/llama3.1-typhoon2-8b-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.18,
+    "output": 0.18
+  },
+  "_generated": {
+    "name": "81ffe520",
+    "pricing": "bd10cf29"
+  }
+}

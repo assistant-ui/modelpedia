@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/gpt-3.5-turbo-0125",
+  "name": "Azure OpenAI: gpt-3.5-turbo-0125",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-3.5",
+  "pricing": {
+    "input": 0.5,
+    "output": 1.5
+  },
+  "_generated": {
+    "name": "a858fa5e",
+    "family": "7601054d",
+    "pricing": "2c3abb73"
+  }
+}

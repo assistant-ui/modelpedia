@@ -1,0 +1,17 @@
+{
+  "id": "grok/grok-4-07-09",
+  "name": "xAI: grok-4-07-09",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "grok-4",
+  "pricing": {
+    "input": 3,
+    "output": 15
+  },
+  "_generated": {
+    "name": "6a5615ca",
+    "family": "0d5416ff",
+    "pricing": "7939f0ff"
+  }
+}

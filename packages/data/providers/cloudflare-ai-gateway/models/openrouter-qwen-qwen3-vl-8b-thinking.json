@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3-vl-8b-thinking",
+  "name": "OpenRouter: qwen/qwen3-vl-8b-thinking",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "pricing": {
+    "input": 0.117,
+    "output": 1.365
+  },
+  "_generated": {
+    "name": "5e28bec6",
+    "family": "48c385a0",
+    "pricing": "e6cc5932"
+  }
+}

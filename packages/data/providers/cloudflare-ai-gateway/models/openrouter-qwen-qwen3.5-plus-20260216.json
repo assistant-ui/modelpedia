@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3.5-plus-20260216",
+  "name": "OpenRouter: qwen/qwen3.5-plus-20260216",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3.5",
+  "pricing": {
+    "input": 0.26,
+    "output": 1.56
+  },
+  "_generated": {
+    "name": "08f997ac",
+    "family": "d548f421",
+    "pricing": "21b8e26e"
+  }
+}

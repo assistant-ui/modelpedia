@@ -1,0 +1,15 @@
+{
+  "id": "huggingface/moonshotai/Kimi-K2.5",
+  "name": "HuggingFace: moonshotai/Kimi-K2.5",
+  "created_by": "huggingface",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.6,
+    "output": 3
+  },
+  "_generated": {
+    "name": "071e2949",
+    "pricing": "2209d9dc"
+  }
+}

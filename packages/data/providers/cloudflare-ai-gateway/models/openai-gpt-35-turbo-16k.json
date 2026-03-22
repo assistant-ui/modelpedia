@@ -1,0 +1,15 @@
+{
+  "id": "openai/gpt-35-turbo-16k",
+  "name": "OpenAI: gpt-35-turbo-16k",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 3,
+    "output": 4
+  },
+  "_generated": {
+    "name": "225b5a97",
+    "pricing": "1a73c315"
+  }
+}

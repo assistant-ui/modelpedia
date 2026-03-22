@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/switchpoint/router",
+  "name": "OpenRouter: switchpoint/router",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.85,
+    "output": 3.4
+  },
+  "_generated": {
+    "name": "2edf0ab6",
+    "pricing": "7782bd8e"
+  }
+}

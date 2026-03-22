@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/@cf/meta/llama-3-8b-instruct-awq",
+  "name": "Workers AI: @cf/meta/llama-3-8b-instruct-awq",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.12,
+    "output": 0.27
+  },
+  "_generated": {
+    "name": "c374c2d3",
+    "pricing": "9c3fc041"
+  }
+}

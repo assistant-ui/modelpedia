@@ -1,0 +1,17 @@
+{
+  "id": "google-vertex-ai/claude-3-5-sonnet@20240620",
+  "name": "Google Vertex AI: claude-3-5-sonnet@20240620",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-sonnet",
+  "pricing": {
+    "input": 3,
+    "output": 15
+  },
+  "_generated": {
+    "name": "b1418b65",
+    "family": "68d1c457",
+    "pricing": "7939f0ff"
+  }
+}

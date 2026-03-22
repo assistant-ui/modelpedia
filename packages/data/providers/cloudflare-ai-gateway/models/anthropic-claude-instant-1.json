@@ -1,0 +1,17 @@
+{
+  "id": "anthropic/claude-instant-1",
+  "name": "Anthropic: claude-instant-1",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude",
+  "pricing": {
+    "input": 1.6300000000000001,
+    "output": 55.099999999999994
+  },
+  "_generated": {
+    "name": "cf2e5add",
+    "family": "c529ee89",
+    "pricing": "fe2c9a57"
+  }
+}

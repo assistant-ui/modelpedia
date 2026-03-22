@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/x-ai/grok-4-07-09",
+  "name": "OpenRouter: x-ai/grok-4-07-09",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "grok-4",
+  "pricing": {
+    "input": 3,
+    "output": 15
+  },
+  "_generated": {
+    "name": "382ab1bd",
+    "family": "0d5416ff",
+    "pricing": "7939f0ff"
+  }
+}

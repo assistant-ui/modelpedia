@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/mistralai/pixtral-12b",
+  "name": "OpenRouter: mistralai/pixtral-12b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "pixtral",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0.09999999999999999
+  },
+  "_generated": {
+    "name": "0d95a79c",
+    "family": "c606df51",
+    "pricing": "7f851cba"
+  }
+}

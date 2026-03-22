@@ -1,0 +1,17 @@
+{
+  "id": "google-ai-studio/gemini-2.5-flash-preview-04-17",
+  "name": "Google AI Studio: gemini-2.5-flash-preview-04-17",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-2.5",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "79935275",
+    "family": "ea6b88bf",
+    "pricing": "89a9c6e2"
+  }
+}

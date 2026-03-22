@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen-2.5-vl-72b-instruct",
+  "name": "OpenRouter: qwen/qwen-2.5-vl-72b-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "pricing": {
+    "input": 0.6,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "87670864",
+    "family": "a3af76f3",
+    "pricing": "d7891837"
+  }
+}

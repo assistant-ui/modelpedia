@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/deepseek-v3.2",
+  "name": "Azure OpenAI: deepseek-v3.2",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek",
+  "pricing": {
+    "input": 0.58,
+    "output": 1.68
+  },
+  "_generated": {
+    "name": "66e726bf",
+    "family": "4b81b92d",
+    "pricing": "2dcc09d3"
+  }
+}

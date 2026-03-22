@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/eva-unit-01/eva-qwen-2.5-32b",
+  "name": "OpenRouter: eva-unit-01/eva-qwen-2.5-32b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 2.6,
+    "output": 3.4
+  },
+  "_generated": {
+    "name": "59beca77",
+    "pricing": "236ae838"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "aws-bedrock/eu.amazon.nova-pro-v1",
+  "name": "Amazon Bedrock: eu.amazon.nova-pro-v1",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.7999999999999999,
+    "output": 0
+  },
+  "_generated": {
+    "name": "e8772da2",
+    "pricing": "5aac6d02"
+  }
+}

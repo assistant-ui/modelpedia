@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/nousresearch/deephermes-3-mistral-24b-preview",
+  "name": "OpenRouter: nousresearch/deephermes-3-mistral-24b-preview",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.02,
+    "output": 0.09999999999999999
+  },
+  "_generated": {
+    "name": "6a2fcbf4",
+    "pricing": "561184c6"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/@cf/openai/gpt-oss-120b",
+  "name": "Workers AI: @cf/openai/gpt-oss-120b",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.35,
+    "output": 0.75
+  },
+  "_generated": {
+    "name": "72cb7795",
+    "pricing": "063f5006"
+  }
+}

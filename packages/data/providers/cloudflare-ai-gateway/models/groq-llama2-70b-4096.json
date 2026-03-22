@@ -1,0 +1,15 @@
+{
+  "id": "groq/llama2-70b-4096",
+  "name": "Groq: llama2-70b-4096",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.7,
+    "output": 0.7999999999999999
+  },
+  "_generated": {
+    "name": "969feb95",
+    "pricing": "b95fa10f"
+  }
+}

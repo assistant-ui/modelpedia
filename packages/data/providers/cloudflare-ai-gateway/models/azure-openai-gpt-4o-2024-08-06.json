@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/gpt-4o-2024-08-06",
+  "name": "Azure OpenAI: gpt-4o-2024-08-06",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4o",
+  "pricing": {
+    "input": 2.75,
+    "output": 11
+  },
+  "_generated": {
+    "name": "8770ea22",
+    "family": "15249632",
+    "pricing": "433e8cf9"
+  }
+}

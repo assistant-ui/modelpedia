@@ -1,0 +1,17 @@
+{
+  "id": "workers-ai/@cf/qwen/qwen3-30b-a3b-fp8",
+  "name": "Workers AI: @cf/qwen/qwen3-30b-a3b-fp8",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "pricing": {
+    "input": 0.051,
+    "output": 0.33999999999999997
+  },
+  "_generated": {
+    "name": "727fd332",
+    "family": "a3af76f3",
+    "pricing": "8160892e"
+  }
+}

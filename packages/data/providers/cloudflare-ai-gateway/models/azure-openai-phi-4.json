@@ -1,0 +1,15 @@
+{
+  "id": "azure-openai/phi-4",
+  "name": "Azure OpenAI: phi-4",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.125,
+    "output": 0.5
+  },
+  "_generated": {
+    "name": "f16fb53e",
+    "pricing": "4fe8a479"
+  }
+}

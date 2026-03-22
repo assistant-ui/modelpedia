@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/thedrummer/unslopnemo-12b",
+  "name": "OpenRouter: thedrummer/unslopnemo-12b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.39999999999999997,
+    "output": 0.39999999999999997
+  },
+  "_generated": {
+    "name": "3f1b4bac",
+    "pricing": "c9cbd4c8"
+  }
+}

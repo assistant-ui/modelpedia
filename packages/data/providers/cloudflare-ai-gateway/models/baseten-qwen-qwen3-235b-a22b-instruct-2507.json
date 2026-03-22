@@ -1,0 +1,17 @@
+{
+  "id": "baseten/qwen/qwen3-235b-a22b-instruct-2507",
+  "name": "Baseten: qwen/qwen3-235b-a22b-instruct-2507",
+  "created_by": "baseten",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "pricing": {
+    "input": 0.22,
+    "output": 0.7999999999999999
+  },
+  "_generated": {
+    "name": "cf7aafa4",
+    "family": "48c385a0",
+    "pricing": "324f3108"
+  }
+}

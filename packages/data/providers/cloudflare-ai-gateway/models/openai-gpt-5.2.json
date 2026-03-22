@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-5.2",
+  "name": "OpenAI: gpt-5.2",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-5.2",
+  "pricing": {
+    "input": 1.75,
+    "output": 14
+  },
+  "_generated": {
+    "name": "4e4b95a0",
+    "family": "f580564d",
+    "pricing": "4273da25"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-4o-realtime",
+  "name": "OpenAI: gpt-4o-realtime",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4o",
+  "pricing": {
+    "input": 5,
+    "output": 2.5
+  },
+  "_generated": {
+    "name": "7161c0d6",
+    "family": "15249632",
+    "pricing": "73299dcb"
+  }
+}

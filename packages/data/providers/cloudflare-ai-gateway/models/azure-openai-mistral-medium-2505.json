@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/mistral-medium-2505",
+  "name": "Azure OpenAI: mistral-medium-2505",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "mistral-medium",
+  "pricing": {
+    "input": 0.39999999999999997,
+    "output": 2
+  },
+  "_generated": {
+    "name": "759cd925",
+    "family": "a57f1b52",
+    "pricing": "c1252b94"
+  }
+}

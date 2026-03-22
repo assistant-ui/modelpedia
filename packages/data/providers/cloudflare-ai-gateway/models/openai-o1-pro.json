@@ -1,0 +1,17 @@
+{
+  "id": "openai/o1-pro",
+  "name": "OpenAI: o1-pro",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "o1",
+  "pricing": {
+    "input": 150,
+    "output": 600
+  },
+  "_generated": {
+    "name": "dadfb4af",
+    "family": "e1ab0820",
+    "pricing": "68249fcd"
+  }
+}

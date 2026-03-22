@@ -1,0 +1,19 @@
+{
+  "id": "mistral/devstral-small-2505",
+  "name": "Mistral: devstral-small-2505",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "devstral",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.06,
+    "output": 0.12
+  },
+  "_generated": {
+    "name": "64a7aa50",
+    "family": "e626e93e",
+    "model_type": "d669f408",
+    "pricing": "c1c319d4"
+  }
+}

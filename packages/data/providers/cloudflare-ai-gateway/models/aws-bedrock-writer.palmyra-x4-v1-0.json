@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/writer.palmyra-x4-v1:0",
+  "name": "Amazon Bedrock: writer.palmyra-x4-v1:0",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  },
+  "_generated": {
+    "name": "49fc4e07",
+    "model_type": "d669f408",
+    "pricing": "cf1c6d02"
+  }
+}

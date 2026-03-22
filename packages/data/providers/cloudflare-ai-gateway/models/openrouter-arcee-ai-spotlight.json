@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/arcee-ai/spotlight",
+  "name": "OpenRouter: arcee-ai/spotlight",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.18,
+    "output": 0.18
+  },
+  "_generated": {
+    "name": "b8e45a2c",
+    "pricing": "bd10cf29"
+  }
+}

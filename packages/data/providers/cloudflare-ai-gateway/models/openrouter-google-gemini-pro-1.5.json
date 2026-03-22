@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/google/gemini-pro-1.5",
+  "name": "OpenRouter: google/gemini-pro-1.5",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1.25,
+    "output": 5
+  },
+  "_generated": {
+    "name": "57ac1952",
+    "pricing": "1cfb4ebc"
+  }
+}

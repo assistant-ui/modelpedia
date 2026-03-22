@@ -1,0 +1,15 @@
+{
+  "id": "ideogram/v_3_quality",
+  "name": "Ideogram: v_3_quality",
+  "created_by": "ideogram",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0,
+    "output": 90000
+  },
+  "_generated": {
+    "name": "d5524ddd",
+    "pricing": "5080e61e"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "name": "Workers AI: @cf/mistralai/mistral-small-3.1-24b-instruct",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.35,
+    "output": 0.56
+  },
+  "_generated": {
+    "name": "b2bd9646",
+    "pricing": "4bd1b119"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cerebras/zai-glm-4.7",
+  "name": "cerebras: zai-glm-4.7",
+  "created_by": "cerebras",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 2.25,
+    "output": 2.75
+  },
+  "_generated": {
+    "name": "e99316ce",
+    "pricing": "c31ca41c"
+  }
+}

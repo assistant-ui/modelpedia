@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/qwen/qvq-72b-preview",
+  "name": "OpenRouter: qwen/qvq-72b-preview",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.25,
+    "output": 0.5
+  },
+  "_generated": {
+    "name": "1b600055",
+    "pricing": "5fb91ff3"
+  }
+}

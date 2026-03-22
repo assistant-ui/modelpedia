@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/meituan/longcat-flash-chat",
+  "name": "OpenRouter: meituan/longcat-flash-chat",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.7999999999999999
+  },
+  "_generated": {
+    "name": "9c151d3e",
+    "pricing": "c02d01fe"
+  }
+}

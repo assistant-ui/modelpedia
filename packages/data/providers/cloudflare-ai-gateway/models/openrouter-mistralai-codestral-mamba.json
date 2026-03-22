@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/mistralai/codestral-mamba",
+  "name": "OpenRouter: mistralai/codestral-mamba",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "codestral",
+  "pricing": {
+    "input": 0.25,
+    "output": 0.25
+  },
+  "_generated": {
+    "name": "8dde1ba4",
+    "family": "a0734f6e",
+    "pricing": "4dba8a3d"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "deepseek/deepseek-chat:free",
+  "name": "DeepSeek: deepseek-chat:free",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek-chat",
+  "_generated": {
+    "name": "fad2bd71",
+    "family": "fbd79fd9"
+  }
+}

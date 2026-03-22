@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/openai.gpt-oss-safeguard-20b",
+  "name": "Amazon Bedrock: openai.gpt-oss-safeguard-20b",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "moderation",
+  "pricing": {
+    "input": 0.07,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "368ea101",
+    "model_type": "1e7a7b87",
+    "pricing": "c96b14bc"
+  }
+}

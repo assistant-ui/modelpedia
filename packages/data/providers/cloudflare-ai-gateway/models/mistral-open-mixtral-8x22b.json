@@ -1,0 +1,17 @@
+{
+  "id": "mistral/open-mixtral-8x22b",
+  "name": "Mistral: open-mixtral-8x22b",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 2,
+    "output": 6
+  },
+  "_generated": {
+    "name": "1f50efb2",
+    "model_type": "d669f408",
+    "pricing": "e205efd3"
+  }
+}

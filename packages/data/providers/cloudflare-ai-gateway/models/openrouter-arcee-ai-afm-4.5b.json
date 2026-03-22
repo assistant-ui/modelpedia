@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/arcee-ai/afm-4.5b",
+  "name": "OpenRouter: arcee-ai/afm-4.5b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.048,
+    "output": 0.15
+  },
+  "_generated": {
+    "name": "8f0ee868",
+    "pricing": "30f98ae9"
+  }
+}

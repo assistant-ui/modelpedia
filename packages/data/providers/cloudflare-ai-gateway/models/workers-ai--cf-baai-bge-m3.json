@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/@cf/baai/bge-m3",
+  "name": "Workers AI: @cf/baai/bge-m3",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.012,
+    "output": 0
+  },
+  "_generated": {
+    "name": "2f93b4a1",
+    "pricing": "e8d30fef"
+  }
+}

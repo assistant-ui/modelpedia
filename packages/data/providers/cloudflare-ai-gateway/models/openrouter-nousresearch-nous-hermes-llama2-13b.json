@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/nousresearch/nous-hermes-llama2-13b",
+  "name": "OpenRouter: nousresearch/nous-hermes-llama2-13b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.18,
+    "output": 0.18
+  },
+  "_generated": {
+    "name": "1a2588ac",
+    "pricing": "bd10cf29"
+  }
+}

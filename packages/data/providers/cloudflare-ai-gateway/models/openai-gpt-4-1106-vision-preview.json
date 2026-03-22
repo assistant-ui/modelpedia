@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-4-1106-vision-preview",
+  "name": "OpenAI: gpt-4-1106-vision-preview",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4",
+  "pricing": {
+    "input": 10,
+    "output": 30
+  },
+  "_generated": {
+    "name": "b2674043",
+    "family": "1be4bcd3",
+    "pricing": "d5468ada"
+  }
+}

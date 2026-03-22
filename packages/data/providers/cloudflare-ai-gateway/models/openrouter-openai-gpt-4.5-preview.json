@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/openai/gpt-4.5-preview",
+  "name": "OpenRouter: openai/gpt-4.5-preview",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 75,
+    "output": 150
+  },
+  "_generated": {
+    "name": "ffe87827",
+    "pricing": "59fef76f"
+  }
+}

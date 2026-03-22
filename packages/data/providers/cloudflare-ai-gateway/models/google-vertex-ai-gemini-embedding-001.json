@@ -1,0 +1,17 @@
+{
+  "id": "google-vertex-ai/gemini-embedding-001",
+  "name": "Google Vertex AI: gemini-embedding-001",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "embed",
+  "pricing": {
+    "input": 0.15,
+    "output": 0
+  },
+  "_generated": {
+    "name": "4c989f3f",
+    "model_type": "764cb3de",
+    "pricing": "f67bf84f"
+  }
+}

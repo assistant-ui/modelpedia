@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/gpt-4o-search-preview-2025-03-11",
+  "name": "OpenRouter: openai/gpt-4o-search-preview-2025-03-11",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4o",
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  },
+  "_generated": {
+    "name": "7e1ca762",
+    "family": "15249632",
+    "pricing": "cf1c6d02"
+  }
+}

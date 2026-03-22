@@ -1,0 +1,10 @@
+{
+  "id": "huggingface/zephyr-7b-beta:free",
+  "name": "HuggingFace: zephyr-7b-beta:free",
+  "created_by": "huggingface",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "_generated": {
+    "name": "9a0c344b"
+  }
+}

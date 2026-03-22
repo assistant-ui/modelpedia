@@ -1,0 +1,10 @@
+{
+  "id": "workers-ai/@cf/openai/whisper",
+  "name": "Workers AI: @cf/openai/whisper",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "_generated": {
+    "name": "089d902a"
+  }
+}

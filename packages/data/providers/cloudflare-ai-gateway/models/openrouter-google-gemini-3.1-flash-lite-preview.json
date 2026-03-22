@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/google/gemini-3.1-flash-lite-preview",
+  "name": "OpenRouter: google/gemini-3.1-flash-lite-preview",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-3.1",
+  "pricing": {
+    "input": 0.25,
+    "output": 1.5
+  },
+  "_generated": {
+    "name": "30356629",
+    "family": "ea4a1a23",
+    "pricing": "f6d5b753"
+  }
+}

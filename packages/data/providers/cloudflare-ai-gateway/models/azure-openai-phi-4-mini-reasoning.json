@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/phi-4-mini-reasoning",
+  "name": "Azure OpenAI: phi-4-mini-reasoning",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "reasoning",
+  "pricing": {
+    "input": 0.075,
+    "output": 0.3
+  },
+  "_generated": {
+    "name": "3803eb8e",
+    "model_type": "17475f7f",
+    "pricing": "b6208862"
+  }
+}

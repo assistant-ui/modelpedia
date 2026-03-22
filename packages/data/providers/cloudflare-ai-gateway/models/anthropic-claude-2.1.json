@@ -1,0 +1,17 @@
+{
+  "id": "anthropic/claude-2.1",
+  "name": "Anthropic: claude-2.1",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude",
+  "pricing": {
+    "input": 8,
+    "output": 24
+  },
+  "_generated": {
+    "name": "ade9b1b2",
+    "family": "c529ee89",
+    "pricing": "da4b2e9d"
+  }
+}

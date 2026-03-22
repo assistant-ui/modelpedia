@@ -1,0 +1,17 @@
+{
+  "id": "google-ai-studio/gemini-1.0-pro-latest",
+  "name": "Google AI Studio: gemini-1.0-pro-latest",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-1.0",
+  "pricing": {
+    "input": 0.5,
+    "output": 1.5
+  },
+  "_generated": {
+    "name": "72036176",
+    "family": "6fd8aabf",
+    "pricing": "2c3abb73"
+  }
+}

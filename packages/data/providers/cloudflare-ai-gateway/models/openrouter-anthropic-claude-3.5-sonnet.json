@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/anthropic/claude-3.5-sonnet",
+  "name": "OpenRouter: anthropic/claude-3.5-sonnet",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-sonnet",
+  "pricing": {
+    "input": 6,
+    "output": 30
+  },
+  "_generated": {
+    "name": "84b7c9e6",
+    "family": "68d1c457",
+    "pricing": "3706288e"
+  }
+}

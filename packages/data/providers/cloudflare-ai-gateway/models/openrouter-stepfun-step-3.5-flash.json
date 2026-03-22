@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/stepfun/step-3.5-flash",
+  "name": "OpenRouter: stepfun/step-3.5-flash",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0.3
+  },
+  "_generated": {
+    "name": "67b3ca54",
+    "pricing": "a3896bf6"
+  }
+}

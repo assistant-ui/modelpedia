@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/@cf/mistral/mistral-7b-instruct-v0.1",
+  "name": "Workers AI: @cf/mistral/mistral-7b-instruct-v0.1",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.11,
+    "output": 0.19
+  },
+  "_generated": {
+    "name": "225576cb",
+    "pricing": "caeefbe4"
+  }
+}

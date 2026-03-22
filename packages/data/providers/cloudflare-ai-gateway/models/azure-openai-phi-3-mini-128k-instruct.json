@@ -1,0 +1,15 @@
+{
+  "id": "azure-openai/phi-3-mini-128k-instruct",
+  "name": "Azure OpenAI: phi-3-mini-128k-instruct",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.13,
+    "output": 0.52
+  },
+  "_generated": {
+    "name": "6b5c9f74",
+    "pricing": "61102b35"
+  }
+}

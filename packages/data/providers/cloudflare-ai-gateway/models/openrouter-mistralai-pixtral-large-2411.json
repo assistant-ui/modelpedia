@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/mistralai/pixtral-large-2411",
+  "name": "OpenRouter: mistralai/pixtral-large-2411",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "pixtral",
+  "pricing": {
+    "input": 2,
+    "output": 6
+  },
+  "_generated": {
+    "name": "d7bf32ba",
+    "family": "c606df51",
+    "pricing": "e205efd3"
+  }
+}

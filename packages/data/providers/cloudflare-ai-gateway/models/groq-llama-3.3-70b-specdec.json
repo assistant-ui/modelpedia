@@ -1,0 +1,17 @@
+{
+  "id": "groq/llama-3.3-70b-specdec",
+  "name": "Groq: llama-3.3-70b-specdec",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.3",
+  "pricing": {
+    "input": 0.59,
+    "output": 0.9900000000000001
+  },
+  "_generated": {
+    "name": "ef99fc57",
+    "family": "54c5fe24",
+    "pricing": "4ec75faa"
+  }
+}

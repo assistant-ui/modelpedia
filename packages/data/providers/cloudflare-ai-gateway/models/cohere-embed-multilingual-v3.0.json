@@ -1,0 +1,15 @@
+{
+  "id": "cohere/embed-multilingual-v3.0",
+  "name": "Cohere: embed-multilingual-v3.0",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.1,
+    "output": 0.1
+  },
+  "_generated": {
+    "name": "57a4d154",
+    "pricing": "dabb026f"
+  }
+}

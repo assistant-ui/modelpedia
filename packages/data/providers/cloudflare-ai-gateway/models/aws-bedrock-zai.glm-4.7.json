@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/zai.glm-4.7",
+  "name": "Amazon Bedrock: zai.glm-4.7",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.6,
+    "output": 2.2
+  },
+  "_generated": {
+    "name": "5921690c",
+    "model_type": "d669f408",
+    "pricing": "71298526"
+  }
+}

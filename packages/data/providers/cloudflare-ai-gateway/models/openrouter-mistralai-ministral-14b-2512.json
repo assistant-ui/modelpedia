@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/mistralai/ministral-14b-2512",
+  "name": "OpenRouter: mistralai/ministral-14b-2512",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "ministral",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "9d111a61",
+    "family": "d6661e63",
+    "pricing": "4a55a07f"
+  }
+}

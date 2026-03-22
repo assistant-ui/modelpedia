@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/ai21.jamba-1-5-mini-v1:0",
+  "name": "Amazon Bedrock: ai21.jamba-1-5-mini-v1:0",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.39999999999999997
+  },
+  "_generated": {
+    "name": "a6b2a518",
+    "model_type": "d669f408",
+    "pricing": "b77fe341"
+  }
+}

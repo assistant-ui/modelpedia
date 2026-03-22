@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/deepseek/deepseek-coder",
+  "name": "OpenRouter: deepseek/deepseek-coder",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek",
+  "pricing": {
+    "input": 0.04,
+    "output": 0.12
+  },
+  "_generated": {
+    "name": "2d7b96aa",
+    "family": "4b81b92d",
+    "pricing": "403468eb"
+  }
+}

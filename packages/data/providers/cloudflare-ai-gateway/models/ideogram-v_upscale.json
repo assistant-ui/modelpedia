@@ -1,0 +1,15 @@
+{
+  "id": "ideogram/v_upscale",
+  "name": "Ideogram: v_upscale",
+  "created_by": "ideogram",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 60000,
+    "output": 0
+  },
+  "_generated": {
+    "name": "4e704b53",
+    "pricing": "6a864a19"
+  }
+}

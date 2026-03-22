@@ -1,0 +1,12 @@
+{
+  "id": "openai/gpt-oss-20b:free",
+  "name": "OpenAI: gpt-oss-20b:free",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-oss",
+  "_generated": {
+    "name": "86f51a23",
+    "family": "82d0cb0b"
+  }
+}

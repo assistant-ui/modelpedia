@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/cohere.command-light-text-v14",
+  "name": "Amazon Bedrock: cohere.command-light-text-v14",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.3,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "02f791f5",
+    "model_type": "d669f408",
+    "pricing": "a511aaae"
+  }
+}

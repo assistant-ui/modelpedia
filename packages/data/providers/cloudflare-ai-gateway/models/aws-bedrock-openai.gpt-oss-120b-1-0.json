@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/openai.gpt-oss-120b-1:0",
+  "name": "Amazon Bedrock: openai.gpt-oss-120b-1:0",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "b96de9e2",
+    "model_type": "d669f408",
+    "pricing": "89a9c6e2"
+  }
+}

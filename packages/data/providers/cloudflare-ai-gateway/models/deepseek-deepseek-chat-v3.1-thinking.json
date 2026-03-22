@@ -1,0 +1,17 @@
+{
+  "id": "deepseek/deepseek-chat-v3.1:thinking",
+  "name": "DeepSeek: deepseek-chat-v3.1:thinking",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek-chat",
+  "pricing": {
+    "input": 0.55,
+    "output": 2.1900000000000004
+  },
+  "_generated": {
+    "name": "3f1e1771",
+    "family": "fbd79fd9",
+    "pricing": "c944f26f"
+  }
+}

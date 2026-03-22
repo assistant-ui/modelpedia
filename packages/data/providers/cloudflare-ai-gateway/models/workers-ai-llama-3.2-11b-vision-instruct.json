@@ -1,0 +1,17 @@
+{
+  "id": "workers-ai/llama-3.2-11b-vision-instruct",
+  "name": "Workers AI: llama-3.2-11b-vision-instruct",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.2",
+  "pricing": {
+    "input": 49000,
+    "output": 680000
+  },
+  "_generated": {
+    "name": "6aa53a6e",
+    "family": "d4c42ce9",
+    "pricing": "b6b5d694"
+  }
+}

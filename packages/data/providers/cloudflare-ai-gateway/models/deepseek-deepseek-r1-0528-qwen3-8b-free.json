@@ -1,0 +1,12 @@
+{
+  "id": "deepseek/deepseek-r1-0528-qwen3-8b:free",
+  "name": "DeepSeek: deepseek-r1-0528-qwen3-8b:free",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek-r1",
+  "_generated": {
+    "name": "37a82881",
+    "family": "c74cfb8e"
+  }
+}

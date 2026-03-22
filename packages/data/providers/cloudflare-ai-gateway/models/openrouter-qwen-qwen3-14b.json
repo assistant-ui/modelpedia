@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3-14b",
+  "name": "OpenRouter: qwen/qwen3-14b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "pricing": {
+    "input": 0.06,
+    "output": 0.24
+  },
+  "_generated": {
+    "name": "77bb600d",
+    "family": "48c385a0",
+    "pricing": "8cdaccf7"
+  }
+}

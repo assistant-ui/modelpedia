@@ -1,0 +1,15 @@
+{
+  "id": "google-ai-studio/palm-2-chat-bison-32k",
+  "name": "Google AI Studio: palm-2-chat-bison-32k",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1,
+    "output": 2
+  },
+  "_generated": {
+    "name": "9ae5f322",
+    "pricing": "ac91204c"
+  }
+}

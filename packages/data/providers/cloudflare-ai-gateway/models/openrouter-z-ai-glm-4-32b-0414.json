@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/z-ai/glm-4-32b-0414",
+  "name": "OpenRouter: z-ai/glm-4-32b-0414",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0.09999999999999999
+  },
+  "_generated": {
+    "name": "a91ba5e6",
+    "pricing": "7f851cba"
+  }
+}

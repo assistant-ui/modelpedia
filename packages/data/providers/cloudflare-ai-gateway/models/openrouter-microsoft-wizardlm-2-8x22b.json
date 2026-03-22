@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/microsoft/wizardlm-2-8x22b",
+  "name": "OpenRouter: microsoft/wizardlm-2-8x22b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.62,
+    "output": 0.62
+  },
+  "_generated": {
+    "name": "3d400141",
+    "pricing": "74e2e670"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "google-vertex-ai/openai/gpt-oss-120b-maas",
+  "name": "Google Vertex AI: openai/gpt-oss-120b-maas",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-oss",
+  "pricing": {
+    "input": 0.09,
+    "output": 0.36
+  },
+  "_generated": {
+    "name": "5bf21aad",
+    "family": "82d0cb0b",
+    "pricing": "bdf7ef66"
+  }
+}

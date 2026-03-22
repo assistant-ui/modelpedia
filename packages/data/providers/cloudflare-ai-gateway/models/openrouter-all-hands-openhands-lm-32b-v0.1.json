@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/all-hands/openhands-lm-32b-v0.1",
+  "name": "OpenRouter: all-hands/openhands-lm-32b-v0.1",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 2.6,
+    "output": 3.4
+  },
+  "_generated": {
+    "name": "63fff1d9",
+    "pricing": "236ae838"
+  }
+}

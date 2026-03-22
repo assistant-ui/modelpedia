@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/anthropic/claude-2.0",
+  "name": "OpenRouter: anthropic/claude-2.0",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude",
+  "pricing": {
+    "input": 8,
+    "output": 24
+  },
+  "_generated": {
+    "name": "3564930b",
+    "family": "c529ee89",
+    "pricing": "da4b2e9d"
+  }
+}

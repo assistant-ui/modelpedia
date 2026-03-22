@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/grok-4",
+  "name": "Azure OpenAI: grok-4",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "grok-4",
+  "pricing": {
+    "input": 3,
+    "output": 15
+  },
+  "_generated": {
+    "name": "f2199255",
+    "family": "0d5416ff",
+    "pricing": "7939f0ff"
+  }
+}

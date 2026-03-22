@@ -1,0 +1,17 @@
+{
+  "id": "groq/qwen/qwen3-32b",
+  "name": "Groq: qwen/qwen3-32b",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "pricing": {
+    "input": 0.29,
+    "output": 0.59
+  },
+  "_generated": {
+    "name": "9ac37658",
+    "family": "48c385a0",
+    "pricing": "7d5458b9"
+  }
+}

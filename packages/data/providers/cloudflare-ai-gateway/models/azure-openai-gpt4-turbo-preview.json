@@ -1,0 +1,15 @@
+{
+  "id": "azure-openai/gpt4-turbo-preview",
+  "name": "Azure OpenAI: gpt4-turbo-preview",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 10,
+    "output": 30
+  },
+  "_generated": {
+    "name": "26fa797f",
+    "pricing": "d5468ada"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/@cf/google/gemma-3-12b-it",
+  "name": "Workers AI: @cf/google/gemma-3-12b-it",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.35,
+    "output": 0.56
+  },
+  "_generated": {
+    "name": "8ca11ec4",
+    "pricing": "4bd1b119"
+  }
+}

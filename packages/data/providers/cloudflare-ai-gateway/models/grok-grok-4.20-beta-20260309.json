@@ -1,0 +1,17 @@
+{
+  "id": "grok/grok-4.20-beta-20260309",
+  "name": "xAI: grok-4.20-beta-20260309",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "grok-4.20",
+  "pricing": {
+    "input": 2,
+    "output": 6
+  },
+  "_generated": {
+    "name": "435b0ad2",
+    "family": "44972aca",
+    "pricing": "e205efd3"
+  }
+}

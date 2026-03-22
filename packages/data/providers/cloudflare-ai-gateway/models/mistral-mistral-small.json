@@ -1,0 +1,19 @@
+{
+  "id": "mistral/mistral-small",
+  "name": "Mistral: mistral-small",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "mistral-small",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "6ab38542",
+    "family": "275918a5",
+    "model_type": "d669f408",
+    "pricing": "143a4b96"
+  }
+}

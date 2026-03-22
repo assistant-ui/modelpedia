@@ -1,0 +1,15 @@
+{
+  "id": "ideogram/v_2",
+  "name": "Ideogram: v_2",
+  "created_by": "ideogram",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0,
+    "output": 80000
+  },
+  "_generated": {
+    "name": "8eaaaeb5",
+    "pricing": "f45045f4"
+  }
+}

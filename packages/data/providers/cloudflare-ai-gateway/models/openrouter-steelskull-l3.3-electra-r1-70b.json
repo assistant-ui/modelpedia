@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/steelskull/l3.3-electra-r1-70b",
+  "name": "OpenRouter: steelskull/l3.3-electra-r1-70b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.7,
+    "output": 0.95
+  },
+  "_generated": {
+    "name": "45c312a5",
+    "pricing": "beea2beb"
+  }
+}

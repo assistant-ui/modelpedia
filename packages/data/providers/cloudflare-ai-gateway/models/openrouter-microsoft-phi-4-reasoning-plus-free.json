@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/microsoft/phi-4-reasoning-plus:free",
+  "name": "OpenRouter: microsoft/phi-4-reasoning-plus:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "reasoning",
+  "_generated": {
+    "name": "516573cd",
+    "model_type": "17475f7f"
+  }
+}

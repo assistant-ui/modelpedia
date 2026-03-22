@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/o1-pro",
+  "name": "OpenRouter: openai/o1-pro",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "o1",
+  "pricing": {
+    "input": 150,
+    "output": 600
+  },
+  "_generated": {
+    "name": "1861d6a7",
+    "family": "e1ab0820",
+    "pricing": "68249fcd"
+  }
+}

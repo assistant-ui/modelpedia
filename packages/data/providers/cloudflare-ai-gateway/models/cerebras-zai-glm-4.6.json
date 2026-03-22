@@ -1,0 +1,10 @@
+{
+  "id": "cerebras/zai-glm-4.6",
+  "name": "cerebras: zai-glm-4.6",
+  "created_by": "cerebras",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "_generated": {
+    "name": "eac63aa8"
+  }
+}

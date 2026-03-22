@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/gryphe/mythomax-l2-13b",
+  "name": "OpenRouter: gryphe/mythomax-l2-13b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.06,
+    "output": 0.06
+  },
+  "_generated": {
+    "name": "cb3eef2d",
+    "pricing": "15a2ea5b"
+  }
+}

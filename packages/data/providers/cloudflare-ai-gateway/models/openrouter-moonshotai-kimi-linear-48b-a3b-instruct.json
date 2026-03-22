@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/moonshotai/kimi-linear-48b-a3b-instruct",
+  "name": "OpenRouter: moonshotai/kimi-linear-48b-a3b-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.7,
+    "output": 0.8999999999999999
+  },
+  "_generated": {
+    "name": "a13d6975",
+    "pricing": "8a08b28a"
+  }
+}

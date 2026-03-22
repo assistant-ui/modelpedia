@@ -1,0 +1,19 @@
+{
+  "id": "google-ai-studio/gemini-2.5-pro-preview-tts",
+  "name": "Google AI Studio: gemini-2.5-pro-preview-tts",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-2.5",
+  "model_type": "tts",
+  "pricing": {
+    "input": 1,
+    "output": 20
+  },
+  "_generated": {
+    "name": "4fc7aed7",
+    "family": "ea6b88bf",
+    "model_type": "4e16a2cf",
+    "pricing": "f8bc6a44"
+  }
+}

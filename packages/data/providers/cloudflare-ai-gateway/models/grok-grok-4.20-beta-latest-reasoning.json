@@ -1,0 +1,19 @@
+{
+  "id": "grok/grok-4.20-beta-latest-reasoning",
+  "name": "xAI: grok-4.20-beta-latest-reasoning",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "grok-4.20",
+  "model_type": "reasoning",
+  "pricing": {
+    "input": 2,
+    "output": 6
+  },
+  "_generated": {
+    "name": "416f4d64",
+    "family": "44972aca",
+    "model_type": "17475f7f",
+    "pricing": "e205efd3"
+  }
+}

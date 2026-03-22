@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/nvidia/llama-3.1-nemotron-70b-instruct",
+  "name": "OpenRouter: nvidia/llama-3.1-nemotron-70b-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.1",
+  "pricing": {
+    "input": 1.2,
+    "output": 1.2
+  },
+  "_generated": {
+    "name": "2684077f",
+    "family": "83ec32db",
+    "pricing": "e8b0a8a5"
+  }
+}

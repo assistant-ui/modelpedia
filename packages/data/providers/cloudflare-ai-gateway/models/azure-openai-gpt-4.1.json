@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/gpt-4.1",
+  "name": "Azure OpenAI: gpt-4.1",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4.1",
+  "pricing": {
+    "input": 2,
+    "output": 8
+  },
+  "_generated": {
+    "name": "acdb6e5d",
+    "family": "d240daf4",
+    "pricing": "9d7f5a51"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/gpt-audio-mini",
+  "name": "OpenRouter: openai/gpt-audio-mini",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-audio",
+  "pricing": {
+    "input": 0.6,
+    "output": 2.4
+  },
+  "_generated": {
+    "name": "a1888f27",
+    "family": "29debdf1",
+    "pricing": "e9aad47c"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "groq/llama3-70b-8192",
+  "name": "Groq: llama3-70b-8192",
+  "created_by": "groq",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.59,
+    "output": 0.7899999999999999
+  },
+  "_generated": {
+    "name": "7245798e",
+    "pricing": "2ad5b5a1"
+  }
+}

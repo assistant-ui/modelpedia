@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/baidu/ernie-4.5-21b-a3b-thinking",
+  "name": "OpenRouter: baidu/ernie-4.5-21b-a3b-thinking",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.07,
+    "output": 0.28
+  },
+  "_generated": {
+    "name": "08a83b19",
+    "pricing": "883b5325"
+  }
+}

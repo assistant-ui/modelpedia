@@ -1,0 +1,17 @@
+{
+  "id": "openai/o3-deep-research",
+  "name": "OpenAI: o3-deep-research",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "o3",
+  "pricing": {
+    "input": 10,
+    "output": 40
+  },
+  "_generated": {
+    "name": "6e68c1ab",
+    "family": "193049bc",
+    "pricing": "2cfa6cc0"
+  }
+}

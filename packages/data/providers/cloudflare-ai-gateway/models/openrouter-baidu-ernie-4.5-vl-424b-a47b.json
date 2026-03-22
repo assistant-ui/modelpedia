@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/baidu/ernie-4.5-vl-424b-a47b",
+  "name": "OpenRouter: baidu/ernie-4.5-vl-424b-a47b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.42,
+    "output": 1.25
+  },
+  "_generated": {
+    "name": "63259f12",
+    "pricing": "9ec0935d"
+  }
+}

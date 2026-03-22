@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen-turbo-2024-11-01",
+  "name": "OpenRouter: qwen/qwen-turbo-2024-11-01",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen",
+  "pricing": {
+    "input": 0.0325,
+    "output": 0.13
+  },
+  "_generated": {
+    "name": "882084de",
+    "family": "a3af76f3",
+    "pricing": "5517faac"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/grok-code-fast-1",
+  "name": "Azure OpenAI: grok-code-fast-1",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "grok-code",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 1.5
+  },
+  "_generated": {
+    "name": "97127afd",
+    "family": "378ba70c",
+    "pricing": "d98c5970"
+  }
+}

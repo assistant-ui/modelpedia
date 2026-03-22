@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/allenai/olmo-3.1-32b-instruct-20251215",
+  "name": "OpenRouter: allenai/olmo-3.1-32b-instruct-20251215",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "3790c58e",
+    "pricing": "143a4b96"
+  }
+}

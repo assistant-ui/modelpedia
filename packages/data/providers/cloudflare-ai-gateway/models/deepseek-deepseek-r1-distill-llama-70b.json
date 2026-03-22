@@ -1,0 +1,17 @@
+{
+  "id": "deepseek/deepseek-r1-distill-llama-70b",
+  "name": "DeepSeek: deepseek-r1-distill-llama-70b",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek-r1",
+  "pricing": {
+    "input": 0.7,
+    "output": 0.7999999999999999
+  },
+  "_generated": {
+    "name": "1df232c9",
+    "family": "c74cfb8e",
+    "pricing": "b95fa10f"
+  }
+}

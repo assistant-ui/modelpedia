@@ -1,0 +1,15 @@
+{
+  "id": "ideogram/v_3_turbo_character",
+  "name": "Ideogram: v_3_turbo_character",
+  "created_by": "ideogram",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0,
+    "output": 100000
+  },
+  "_generated": {
+    "name": "13c83036",
+    "pricing": "7af6d763"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openai/text-davinci-002",
+  "name": "OpenAI: text-davinci-002",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 20,
+    "output": 20
+  },
+  "_generated": {
+    "name": "e9cdcce6",
+    "pricing": "2c88bd97"
+  }
+}

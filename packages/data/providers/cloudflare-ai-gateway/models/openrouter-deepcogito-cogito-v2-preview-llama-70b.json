@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/deepcogito/cogito-v2-preview-llama-70b",
+  "name": "OpenRouter: deepcogito/cogito-v2-preview-llama-70b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.88,
+    "output": 0.88
+  },
+  "_generated": {
+    "name": "b4652a1c",
+    "pricing": "8e6809a8"
+  }
+}

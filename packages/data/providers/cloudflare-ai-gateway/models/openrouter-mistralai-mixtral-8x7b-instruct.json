@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/mistralai/mixtral-8x7b-instruct",
+  "name": "OpenRouter: mistralai/mixtral-8x7b-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "mixtral",
+  "pricing": {
+    "input": 0.54,
+    "output": 0.54
+  },
+  "_generated": {
+    "name": "14dd58d0",
+    "family": "3c47d372",
+    "pricing": "51b551df"
+  }
+}

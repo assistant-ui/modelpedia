@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/x-ai/grok-4.1-fast",
+  "name": "OpenRouter: x-ai/grok-4.1-fast",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "grok-4.1",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.5
+  },
+  "_generated": {
+    "name": "fde8f220",
+    "family": "6b413309",
+    "pricing": "61fbe0c4"
+  }
+}

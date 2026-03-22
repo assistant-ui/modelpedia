@@ -1,0 +1,19 @@
+{
+  "id": "openrouter/meta-llama/llama-guard-3-8b",
+  "name": "OpenRouter: meta-llama/llama-guard-3-8b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-guard",
+  "model_type": "moderation",
+  "pricing": {
+    "input": 0.02,
+    "output": 0.06
+  },
+  "_generated": {
+    "name": "88079fb5",
+    "family": "3190be28",
+    "model_type": "1e7a7b87",
+    "pricing": "2360afcb"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+  "name": "OpenRouter: nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.6,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "c03fbb17",
+    "pricing": "d7891837"
+  }
+}

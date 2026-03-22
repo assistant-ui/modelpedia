@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/amazon/nova-2-lite-v1",
+  "name": "OpenRouter: amazon/nova-2-lite-v1",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.3,
+    "output": 2.5
+  },
+  "_generated": {
+    "name": "b617f1f4",
+    "pricing": "8d495dc1"
+  }
+}

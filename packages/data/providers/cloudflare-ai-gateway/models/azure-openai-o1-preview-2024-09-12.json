@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/o1-preview-2024-09-12",
+  "name": "Azure OpenAI: o1-preview-2024-09-12",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "o1",
+  "pricing": {
+    "input": 16.5,
+    "output": 66
+  },
+  "_generated": {
+    "name": "a91eb0a1",
+    "family": "e1ab0820",
+    "pricing": "e511a70b"
+  }
+}

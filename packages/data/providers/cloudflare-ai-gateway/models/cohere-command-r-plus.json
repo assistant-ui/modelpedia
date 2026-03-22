@@ -1,0 +1,15 @@
+{
+  "id": "cohere/command-r-plus",
+  "name": "Cohere: command-r-plus",
+  "created_by": "cohere",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 3,
+    "output": 15
+  },
+  "_generated": {
+    "name": "e2449b4c",
+    "pricing": "7939f0ff"
+  }
+}

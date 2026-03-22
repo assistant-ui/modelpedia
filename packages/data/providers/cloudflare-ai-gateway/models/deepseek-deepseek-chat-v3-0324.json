@@ -1,0 +1,17 @@
+{
+  "id": "deepseek/deepseek-chat-v3-0324",
+  "name": "DeepSeek: deepseek-chat-v3-0324",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek-chat",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.77
+  },
+  "_generated": {
+    "name": "281109f0",
+    "family": "fbd79fd9",
+    "pricing": "44f5d615"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/arcee-ai/arcee-blitz",
+  "name": "OpenRouter: arcee-ai/arcee-blitz",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.44999999999999996,
+    "output": 0.75
+  },
+  "_generated": {
+    "name": "3c7b6798",
+    "pricing": "67a9e70e"
+  }
+}

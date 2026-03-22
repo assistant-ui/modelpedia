@@ -1,0 +1,17 @@
+{
+  "id": "openai/omni-moderation-latest",
+  "name": "OpenAI: omni-moderation-latest",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "moderation",
+  "pricing": {
+    "input": 0.19999999999999998,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "3e1e89bf",
+    "model_type": "1e7a7b87",
+    "pricing": "4a55a07f"
+  }
+}

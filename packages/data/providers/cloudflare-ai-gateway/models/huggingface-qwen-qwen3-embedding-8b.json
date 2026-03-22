@@ -1,0 +1,17 @@
+{
+  "id": "huggingface/Qwen/Qwen3-Embedding-8B",
+  "name": "HuggingFace: Qwen/Qwen3-Embedding-8B",
+  "created_by": "huggingface",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "embed",
+  "pricing": {
+    "input": 0.01,
+    "output": 0
+  },
+  "_generated": {
+    "name": "92bf12b7",
+    "model_type": "764cb3de",
+    "pricing": "2811ebe9"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "azure-openai/cohere-command-a",
+  "name": "Azure OpenAI: cohere-command-a",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  },
+  "_generated": {
+    "name": "45f353e8",
+    "pricing": "cf1c6d02"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/allenai/olmo-3-7b-instruct-20251121",
+  "name": "OpenRouter: allenai/olmo-3-7b-instruct-20251121",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0.19999999999999998
+  },
+  "_generated": {
+    "name": "7ef5e49e",
+    "pricing": "1c2674e1"
+  }
+}

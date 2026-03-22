@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
+  "name": "OpenRouter: nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-3.1",
+  "_generated": {
+    "name": "cc3a8fbb",
+    "family": "83ec32db"
+  }
+}

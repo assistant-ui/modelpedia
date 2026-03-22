@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/o3-deep-research",
+  "name": "OpenRouter: openai/o3-deep-research",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "o3",
+  "pricing": {
+    "input": 10,
+    "output": 40
+  },
+  "_generated": {
+    "name": "8bfb9066",
+    "family": "193049bc",
+    "pricing": "2cfa6cc0"
+  }
+}

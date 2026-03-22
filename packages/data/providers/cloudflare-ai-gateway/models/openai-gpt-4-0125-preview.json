@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-4-0125-preview",
+  "name": "OpenAI: gpt-4-0125-preview",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4",
+  "pricing": {
+    "input": 30,
+    "output": 60
+  },
+  "_generated": {
+    "name": "0206f6f1",
+    "family": "1be4bcd3",
+    "pricing": "b470b088"
+  }
+}

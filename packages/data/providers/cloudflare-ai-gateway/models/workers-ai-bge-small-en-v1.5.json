@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/bge-small-en-v1.5",
+  "name": "Workers AI: bge-small-en-v1.5",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 20000,
+    "output": 0
+  },
+  "_generated": {
+    "name": "59b8e9b9",
+    "pricing": "f4293309"
+  }
+}

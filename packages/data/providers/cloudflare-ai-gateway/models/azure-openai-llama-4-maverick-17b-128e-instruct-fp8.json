@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/llama-4-maverick-17b-128e-instruct-fp8",
+  "name": "Azure OpenAI: llama-4-maverick-17b-128e-instruct-fp8",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "llama-4",
+  "pricing": {
+    "input": 0.25,
+    "output": 1
+  },
+  "_generated": {
+    "name": "2faa5634",
+    "family": "3169363f",
+    "pricing": "f691bdc3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "anthropic/claude-3-5-haiku:beta",
+  "name": "Anthropic: claude-3-5-haiku:beta",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-haiku",
+  "pricing": {
+    "input": 1,
+    "output": 5
+  },
+  "_generated": {
+    "name": "047148d0",
+    "family": "1cfb9795",
+    "pricing": "5b5c2081"
+  }
+}

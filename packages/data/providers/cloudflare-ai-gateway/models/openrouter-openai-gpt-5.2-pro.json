@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/gpt-5.2-pro",
+  "name": "OpenRouter: openai/gpt-5.2-pro",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-5.2",
+  "pricing": {
+    "input": 21,
+    "output": 168
+  },
+  "_generated": {
+    "name": "5d519d2e",
+    "family": "f580564d",
+    "pricing": "a65a912a"
+  }
+}

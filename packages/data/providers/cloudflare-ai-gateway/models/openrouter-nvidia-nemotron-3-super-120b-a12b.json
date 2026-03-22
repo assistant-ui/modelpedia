@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/nvidia/nemotron-3-super-120b-a12b",
+  "name": "OpenRouter: nvidia/nemotron-3-super-120b-a12b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.09999999999999999,
+    "output": 0.5
+  },
+  "_generated": {
+    "name": "5722c43d",
+    "pricing": "0d8f5264"
+  }
+}

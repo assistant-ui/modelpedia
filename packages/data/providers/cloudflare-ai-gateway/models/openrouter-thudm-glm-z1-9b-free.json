@@ -1,0 +1,10 @@
+{
+  "id": "openrouter/thudm/glm-z1-9b:free",
+  "name": "OpenRouter: thudm/glm-z1-9b:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "_generated": {
+    "name": "85b6862d"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "workers-ai/@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
+  "name": "Workers AI: @cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek",
+  "pricing": {
+    "input": 0.5,
+    "output": 4.88
+  },
+  "_generated": {
+    "name": "70a5745a",
+    "family": "4b81b92d",
+    "pricing": "64365b6e"
+  }
+}

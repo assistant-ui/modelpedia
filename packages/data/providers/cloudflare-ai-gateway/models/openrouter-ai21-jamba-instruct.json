@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/ai21/jamba-instruct",
+  "name": "OpenRouter: ai21/jamba-instruct",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.5,
+    "output": 0.7
+  },
+  "_generated": {
+    "name": "a5a1eeeb",
+    "pricing": "a3bbd2c4"
+  }
+}

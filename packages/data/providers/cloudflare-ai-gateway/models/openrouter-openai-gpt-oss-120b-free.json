@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/openai/gpt-oss-120b:free",
+  "name": "OpenRouter: openai/gpt-oss-120b:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-oss",
+  "_generated": {
+    "name": "04815f3d",
+    "family": "82d0cb0b"
+  }
+}

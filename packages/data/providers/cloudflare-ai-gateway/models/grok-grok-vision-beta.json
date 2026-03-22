@@ -1,0 +1,15 @@
+{
+  "id": "grok/grok-vision-beta",
+  "name": "xAI: grok-vision-beta",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 5,
+    "output": 15
+  },
+  "_generated": {
+    "name": "98089dec",
+    "pricing": "dbc0b754"
+  }
+}

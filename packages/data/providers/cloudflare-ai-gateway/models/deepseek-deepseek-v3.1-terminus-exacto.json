@@ -1,0 +1,17 @@
+{
+  "id": "deepseek/deepseek-v3.1-terminus:exacto",
+  "name": "DeepSeek: deepseek-v3.1-terminus:exacto",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "deepseek",
+  "pricing": {
+    "input": 0.27,
+    "output": 1
+  },
+  "_generated": {
+    "name": "8c2597c4",
+    "family": "4b81b92d",
+    "pricing": "0f7797d7"
+  }
+}

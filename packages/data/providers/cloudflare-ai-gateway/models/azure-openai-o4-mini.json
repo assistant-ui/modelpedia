@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/o4-mini",
+  "name": "Azure OpenAI: o4-mini",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "o4",
+  "pricing": {
+    "input": 1.1,
+    "output": 4.4
+  },
+  "_generated": {
+    "name": "8f9052a2",
+    "family": "a842f941",
+    "pricing": "20e8e5b9"
+  }
+}

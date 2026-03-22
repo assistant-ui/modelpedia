@@ -1,0 +1,15 @@
+{
+  "id": "azure-openai/phi-3.5-moe-instruct",
+  "name": "Azure OpenAI: phi-3.5-moe-instruct",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.16,
+    "output": 0.64
+  },
+  "_generated": {
+    "name": "ba99f8dd",
+    "pricing": "3eb2842c"
+  }
+}

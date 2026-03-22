@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/cohere-embed-v-4-0",
+  "name": "Azure OpenAI: cohere-embed-v-4-0",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "embed",
+  "pricing": {
+    "input": 0.12,
+    "output": 0
+  },
+  "_generated": {
+    "name": "b9031ef1",
+    "model_type": "764cb3de",
+    "pricing": "42e4e106"
+  }
+}

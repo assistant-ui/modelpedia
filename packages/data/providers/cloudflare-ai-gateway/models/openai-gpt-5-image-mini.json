@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-5-image-mini",
+  "name": "OpenAI: gpt-5-image-mini",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-5",
+  "pricing": {
+    "input": 2.5,
+    "output": 2
+  },
+  "_generated": {
+    "name": "37894b67",
+    "family": "aa904c16",
+    "pricing": "b4f80948"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mistral/open-codestral-mamba",
+  "name": "Mistral: open-codestral-mamba",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.3,
+    "output": 0.8999999999999999
+  },
+  "_generated": {
+    "name": "0372a6ba",
+    "model_type": "d669f408",
+    "pricing": "cfa7f421"
+  }
+}

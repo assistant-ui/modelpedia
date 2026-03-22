@@ -1,0 +1,10 @@
+{
+  "id": "workers-ai/@cf/facebook/bart-large-cnn",
+  "name": "Workers AI: @cf/facebook/bart-large-cnn",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "_generated": {
+    "name": "d9c523cc"
+  }
+}

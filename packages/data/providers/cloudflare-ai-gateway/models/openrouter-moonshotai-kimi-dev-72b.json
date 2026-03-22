@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/moonshotai/kimi-dev-72b",
+  "name": "OpenRouter: moonshotai/kimi-dev-72b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.29,
+    "output": 1.15
+  },
+  "_generated": {
+    "name": "e136796b",
+    "pricing": "0d924da4"
+  }
+}

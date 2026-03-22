@@ -1,0 +1,17 @@
+{
+  "id": "google-vertex-ai/gemini-2.0-flash",
+  "name": "Google Vertex AI: gemini-2.0-flash",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-2.0",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "_generated": {
+    "name": "37e8a880",
+    "family": "dc4aadf6",
+    "pricing": "89a9c6e2"
+  }
+}

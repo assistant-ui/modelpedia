@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/gpt-oss-20b",
+  "name": "OpenRouter: openai/gpt-oss-20b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-oss",
+  "pricing": {
+    "input": 0.03,
+    "output": 0.14
+  },
+  "_generated": {
+    "name": "1a53ee88",
+    "family": "82d0cb0b",
+    "pricing": "b56a8399"
+  }
+}

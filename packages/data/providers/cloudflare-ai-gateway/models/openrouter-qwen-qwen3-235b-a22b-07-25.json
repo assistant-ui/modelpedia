@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3-235b-a22b-07-25",
+  "name": "OpenRouter: qwen/qwen3-235b-a22b-07-25",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "pricing": {
+    "input": 0.071,
+    "output": 0.09999999999999999
+  },
+  "_generated": {
+    "name": "24863f43",
+    "family": "48c385a0",
+    "pricing": "35d00218"
+  }
+}

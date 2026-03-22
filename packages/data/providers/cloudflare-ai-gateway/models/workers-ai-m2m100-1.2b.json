@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/m2m100-1.2b",
+  "name": "Workers AI: m2m100-1.2b",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 340000,
+    "output": 340000
+  },
+  "_generated": {
+    "name": "60b973b3",
+    "pricing": "7d1676ef"
+  }
+}

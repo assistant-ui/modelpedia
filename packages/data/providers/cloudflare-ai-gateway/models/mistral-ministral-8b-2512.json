@@ -1,0 +1,19 @@
+{
+  "id": "mistral/ministral-8b-2512",
+  "name": "Mistral: ministral-8b-2512",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "ministral",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.15,
+    "output": 0.15
+  },
+  "_generated": {
+    "name": "910ee174",
+    "family": "d6661e63",
+    "model_type": "d669f408",
+    "pricing": "16a72b67"
+  }
+}

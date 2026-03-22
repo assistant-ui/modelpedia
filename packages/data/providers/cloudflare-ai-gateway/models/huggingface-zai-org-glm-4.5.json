@@ -1,0 +1,15 @@
+{
+  "id": "huggingface/zai-org/GLM-4.5",
+  "name": "HuggingFace: zai-org/GLM-4.5",
+  "created_by": "huggingface",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.6,
+    "output": 2.2
+  },
+  "_generated": {
+    "name": "306caaad",
+    "pricing": "71298526"
+  }
+}

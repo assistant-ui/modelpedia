@@ -1,0 +1,17 @@
+{
+  "id": "openai/o4-mini-2025-04-16",
+  "name": "OpenAI: o4-mini-2025-04-16",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "o4",
+  "pricing": {
+    "input": 1.1,
+    "output": 4.4
+  },
+  "_generated": {
+    "name": "29286dc2",
+    "family": "a842f941",
+    "pricing": "20e8e5b9"
+  }
+}

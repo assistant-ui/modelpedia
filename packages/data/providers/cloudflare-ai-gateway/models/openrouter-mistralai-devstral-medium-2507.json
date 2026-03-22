@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/mistralai/devstral-medium-2507",
+  "name": "OpenRouter: mistralai/devstral-medium-2507",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "devstral",
+  "pricing": {
+    "input": 0.39999999999999997,
+    "output": 2
+  },
+  "_generated": {
+    "name": "2ca78262",
+    "family": "e626e93e",
+    "pricing": "c1252b94"
+  }
+}

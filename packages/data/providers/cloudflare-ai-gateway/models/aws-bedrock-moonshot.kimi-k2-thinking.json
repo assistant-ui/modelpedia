@@ -1,0 +1,17 @@
+{
+  "id": "aws-bedrock/moonshot.kimi-k2-thinking",
+  "name": "Amazon Bedrock: moonshot.kimi-k2-thinking",
+  "created_by": "amazon",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 0.6,
+    "output": 2.5
+  },
+  "_generated": {
+    "name": "16df0b9f",
+    "model_type": "d669f408",
+    "pricing": "97d9061a"
+  }
+}

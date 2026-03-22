@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/google/gemini-2.5-flash-image-preview:free",
+  "name": "OpenRouter: google/gemini-2.5-flash-image-preview:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-2.5",
+  "_generated": {
+    "name": "de1d1acf",
+    "family": "ea6b88bf"
+  }
+}

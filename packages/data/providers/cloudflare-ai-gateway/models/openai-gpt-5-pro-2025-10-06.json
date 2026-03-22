@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-5-pro-2025-10-06",
+  "name": "OpenAI: gpt-5-pro-2025-10-06",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-5",
+  "pricing": {
+    "input": 15,
+    "output": 120
+  },
+  "_generated": {
+    "name": "712b56e5",
+    "family": "aa904c16",
+    "pricing": "46a74c13"
+  }
+}

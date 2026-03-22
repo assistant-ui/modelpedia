@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/@cf/huggingface/distilbert-sst-2-int8",
+  "name": "Workers AI: @cf/huggingface/distilbert-sst-2-int8",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.026000000000000002,
+    "output": 0
+  },
+  "_generated": {
+    "name": "9061fecb",
+    "pricing": "a1f0bc22"
+  }
+}

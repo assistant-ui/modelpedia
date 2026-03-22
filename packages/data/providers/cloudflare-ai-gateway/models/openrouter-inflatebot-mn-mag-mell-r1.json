@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/inflatebot/mn-mag-mell-r1",
+  "name": "OpenRouter: inflatebot/mn-mag-mell-r1",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.8999999999999999,
+    "output": 0.8999999999999999
+  },
+  "_generated": {
+    "name": "b8a9482b",
+    "pricing": "eb054cd6"
+  }
+}

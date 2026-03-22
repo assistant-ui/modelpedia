@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/thudm/glm-4.1v-9b-thinking",
+  "name": "OpenRouter: thudm/glm-4.1v-9b-thinking",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.035,
+    "output": 0.13799999999999998
+  },
+  "_generated": {
+    "name": "2cdfe35a",
+    "pricing": "b2fe213d"
+  }
+}

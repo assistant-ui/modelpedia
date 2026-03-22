@@ -1,0 +1,12 @@
+{
+  "id": "openrouter/google/gemma-3n-e2b-it:free",
+  "name": "OpenRouter: google/gemma-3n-e2b-it:free",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemma-3n",
+  "_generated": {
+    "name": "c10774e6",
+    "family": "7d6f36e8"
+  }
+}

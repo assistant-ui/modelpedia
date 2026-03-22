@@ -1,0 +1,17 @@
+{
+  "id": "google-vertex-ai/claude-3-opus@20240229",
+  "name": "Google Vertex AI: claude-3-opus@20240229",
+  "created_by": "vertex",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-opus",
+  "pricing": {
+    "input": 15,
+    "output": 75
+  },
+  "_generated": {
+    "name": "31a8889c",
+    "family": "4e4c4b18",
+    "pricing": "678b0410"
+  }
+}

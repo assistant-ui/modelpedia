@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/o1-mini-2024-09-12",
+  "name": "OpenRouter: openai/o1-mini-2024-09-12",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "o1",
+  "pricing": {
+    "input": 1.1,
+    "output": 4.4
+  },
+  "_generated": {
+    "name": "e1807d9a",
+    "family": "e1ab0820",
+    "pricing": "20e8e5b9"
+  }
+}

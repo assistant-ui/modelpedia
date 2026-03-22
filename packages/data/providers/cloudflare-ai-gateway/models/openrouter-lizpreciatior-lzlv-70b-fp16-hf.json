@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/lizpreciatior/lzlv-70b-fp16-hf",
+  "name": "OpenRouter: lizpreciatior/lzlv-70b-fp16-hf",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.35,
+    "output": 0.39999999999999997
+  },
+  "_generated": {
+    "name": "5c83d5d6",
+    "pricing": "6c0552c7"
+  }
+}

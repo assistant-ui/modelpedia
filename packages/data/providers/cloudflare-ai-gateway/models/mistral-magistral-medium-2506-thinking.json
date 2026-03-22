@@ -1,0 +1,17 @@
+{
+  "id": "mistral/magistral-medium-2506:thinking",
+  "name": "Mistral: magistral-medium-2506:thinking",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "chat",
+  "pricing": {
+    "input": 2,
+    "output": 5
+  },
+  "_generated": {
+    "name": "ac77f981",
+    "model_type": "d669f408",
+    "pricing": "383111d1"
+  }
+}

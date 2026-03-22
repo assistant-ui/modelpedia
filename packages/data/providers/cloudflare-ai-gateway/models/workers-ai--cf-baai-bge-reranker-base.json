@@ -1,0 +1,17 @@
+{
+  "id": "workers-ai/@cf/baai/bge-reranker-base",
+  "name": "Workers AI: @cf/baai/bge-reranker-base",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "rerank",
+  "pricing": {
+    "input": 0.0031,
+    "output": 0
+  },
+  "_generated": {
+    "name": "646b564a",
+    "model_type": "477930e6",
+    "pricing": "d48c645e"
+  }
+}

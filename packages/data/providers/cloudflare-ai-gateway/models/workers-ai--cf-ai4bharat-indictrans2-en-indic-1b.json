@@ -1,0 +1,15 @@
+{
+  "id": "workers-ai/@cf/ai4bharat/indictrans2-en-indic-1B",
+  "name": "Workers AI: @cf/ai4bharat/indictrans2-en-indic-1B",
+  "created_by": "cloudflare-workers-ai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.33999999999999997,
+    "output": 0.33999999999999997
+  },
+  "_generated": {
+    "name": "81385e48",
+    "pricing": "9864ef01"
+  }
+}

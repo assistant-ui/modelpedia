@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/sao10k/l3.1-70b-hanami-x1",
+  "name": "OpenRouter: sao10k/l3.1-70b-hanami-x1",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 3,
+    "output": 3
+  },
+  "_generated": {
+    "name": "9a336e5a",
+    "pricing": "7548a914"
+  }
+}

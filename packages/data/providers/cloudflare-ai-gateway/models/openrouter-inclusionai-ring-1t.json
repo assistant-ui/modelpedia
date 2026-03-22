@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/inclusionai/ring-1t",
+  "name": "OpenRouter: inclusionai/ring-1t",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.5700000000000001,
+    "output": 2.2800000000000002
+  },
+  "_generated": {
+    "name": "3e40b25e",
+    "pricing": "303b3f60"
+  }
+}

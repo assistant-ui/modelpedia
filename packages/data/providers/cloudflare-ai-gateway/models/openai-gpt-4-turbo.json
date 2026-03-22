@@ -1,0 +1,17 @@
+{
+  "id": "openai/gpt-4-turbo",
+  "name": "OpenAI: gpt-4-turbo",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4-turbo",
+  "pricing": {
+    "input": 10,
+    "output": 30
+  },
+  "_generated": {
+    "name": "76914a98",
+    "family": "e55097d8",
+    "pricing": "d5468ada"
+  }
+}

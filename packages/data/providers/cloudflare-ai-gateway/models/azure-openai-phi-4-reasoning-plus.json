@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/phi-4-reasoning-plus",
+  "name": "Azure OpenAI: phi-4-reasoning-plus",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "model_type": "reasoning",
+  "pricing": {
+    "input": 0.125,
+    "output": 0.5
+  },
+  "_generated": {
+    "name": "42df47ea",
+    "model_type": "17475f7f",
+    "pricing": "4fe8a479"
+  }
+}

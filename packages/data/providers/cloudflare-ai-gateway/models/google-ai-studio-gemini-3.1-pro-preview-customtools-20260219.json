@@ -1,0 +1,17 @@
+{
+  "id": "google-ai-studio/gemini-3.1-pro-preview-customtools-20260219",
+  "name": "Google AI Studio: gemini-3.1-pro-preview-customtools-20260219",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-3.1",
+  "pricing": {
+    "input": 2,
+    "output": 12
+  },
+  "_generated": {
+    "name": "6d505959",
+    "family": "ea4a1a23",
+    "pricing": "0aef5f9c"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/nousresearch/hermes-4-405b",
+  "name": "OpenRouter: nousresearch/hermes-4-405b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1,
+    "output": 3
+  },
+  "_generated": {
+    "name": "2c04992a",
+    "pricing": "7fd03be2"
+  }
+}

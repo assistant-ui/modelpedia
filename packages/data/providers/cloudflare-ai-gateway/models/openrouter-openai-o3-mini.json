@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/o3-mini",
+  "name": "OpenRouter: openai/o3-mini",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "o3",
+  "pricing": {
+    "input": 1.1,
+    "output": 4.4
+  },
+  "_generated": {
+    "name": "0db64787",
+    "family": "193049bc",
+    "pricing": "20e8e5b9"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/qwen/qwen3-coder:exacto",
+  "name": "OpenRouter: qwen/qwen3-coder:exacto",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "qwen3",
+  "pricing": {
+    "input": 0.38,
+    "output": 1.53
+  },
+  "_generated": {
+    "name": "5d2dc0c8",
+    "family": "48c385a0",
+    "pricing": "cb400780"
+  }
+}

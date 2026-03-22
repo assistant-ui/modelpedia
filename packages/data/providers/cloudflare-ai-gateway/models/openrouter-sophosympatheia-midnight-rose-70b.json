@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/sophosympatheia/midnight-rose-70b",
+  "name": "OpenRouter: sophosympatheia/midnight-rose-70b",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.7999999999999999,
+    "output": 0.7999999999999999
+  },
+  "_generated": {
+    "name": "2ca0b117",
+    "pricing": "17135ab7"
+  }
+}

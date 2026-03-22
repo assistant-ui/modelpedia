@@ -1,0 +1,15 @@
+{
+  "id": "huggingface/deepseek-ai/Deepseek-V3-0324",
+  "name": "HuggingFace: deepseek-ai/Deepseek-V3-0324",
+  "created_by": "huggingface",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 1.25,
+    "output": 1.25
+  },
+  "_generated": {
+    "name": "f34d05d6",
+    "pricing": "79b45451"
+  }
+}

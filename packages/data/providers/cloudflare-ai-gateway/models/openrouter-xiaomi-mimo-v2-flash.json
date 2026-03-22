@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/xiaomi/mimo-v2-flash",
+  "name": "OpenRouter: xiaomi/mimo-v2-flash",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.09,
+    "output": 0.29
+  },
+  "_generated": {
+    "name": "1e8d17d1",
+    "pricing": "e30700b8"
+  }
+}

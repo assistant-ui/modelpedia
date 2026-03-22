@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/gpt-4-vision-preview",
+  "name": "OpenRouter: openai/gpt-4-vision-preview",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4",
+  "pricing": {
+    "input": 10,
+    "output": 30
+  },
+  "_generated": {
+    "name": "0a2aa1cc",
+    "family": "1be4bcd3",
+    "pricing": "d5468ada"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/google/gemini-3-flash-preview-20251217",
+  "name": "OpenRouter: google/gemini-3-flash-preview-20251217",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gemini-3",
+  "pricing": {
+    "input": 0.5,
+    "output": 3
+  },
+  "_generated": {
+    "name": "7265cfde",
+    "family": "eb14e598",
+    "pricing": "ad477c96"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openrouter/minimax/minimax-m2-her",
+  "name": "OpenRouter: minimax/minimax-m2-her",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2
+  },
+  "_generated": {
+    "name": "941803c7",
+    "pricing": "ea3f0b86"
+  }
+}

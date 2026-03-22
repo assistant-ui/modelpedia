@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/claude-haiku-4-5",
+  "name": "Azure OpenAI: claude-haiku-4-5",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "claude-haiku",
+  "pricing": {
+    "input": 1,
+    "output": 5
+  },
+  "_generated": {
+    "name": "4d46e2af",
+    "family": "1cfb9795",
+    "pricing": "5b5c2081"
+  }
+}

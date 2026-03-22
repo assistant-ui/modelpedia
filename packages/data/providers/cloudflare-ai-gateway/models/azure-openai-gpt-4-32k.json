@@ -1,0 +1,17 @@
+{
+  "id": "azure-openai/gpt-4-32k",
+  "name": "Azure OpenAI: gpt-4-32k",
+  "created_by": "azure",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-4",
+  "pricing": {
+    "input": 60,
+    "output": 120
+  },
+  "_generated": {
+    "name": "a3b20e99",
+    "family": "1be4bcd3",
+    "pricing": "be1aee34"
+  }
+}

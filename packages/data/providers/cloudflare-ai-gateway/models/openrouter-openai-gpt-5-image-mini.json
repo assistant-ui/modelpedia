@@ -1,0 +1,17 @@
+{
+  "id": "openrouter/openai/gpt-5-image-mini",
+  "name": "OpenRouter: openai/gpt-5-image-mini",
+  "created_by": "openrouter",
+  "source": "official",
+  "last_updated": "2026-03-22",
+  "family": "gpt-5",
+  "pricing": {
+    "input": 2.5,
+    "output": 2
+  },
+  "_generated": {
+    "name": "0981eb79",
+    "family": "aa904c16",
+    "pricing": "b4f80948"
+  }
+}
