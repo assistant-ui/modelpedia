@@ -222,6 +222,22 @@ export interface Provider {
   [key: string]: unknown;
 }
 
+/** A single entry in the changes log */
+export interface ChangeEntry {
+  /** ISO-8601 timestamp */
+  ts: string;
+  /** Provider id */
+  provider: string;
+  /** Model id */
+  model: string;
+  /** Type of change */
+  action: "create" | "update" | "delete";
+  /** Git commit hash */
+  commit?: string;
+  /** Field-level diffs (for updates) */
+  changes?: Record<string, { from: unknown; to: unknown }>;
+}
+
 /** Provider with its full model list, used in generated data */
 export interface ProviderWithModels extends Provider {
   /** All models under this provider */

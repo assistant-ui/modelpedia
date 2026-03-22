@@ -5,6 +5,8 @@ const ROOT = path.resolve(import.meta.dirname, "..");
 const PROVIDERS_DIR = path.join(ROOT, "providers");
 const NPM_DIR = path.resolve(ROOT, "..", "npm");
 const DATA_OUTPUT = path.join(ROOT, "src", "data.ts");
+const CHANGES_OUTPUT = path.join(ROOT, "src", "changes.ts");
+const CHANGES_JSONL = path.join(ROOT, "changes", "changes.jsonl");
 const NPM_OUTPUT = path.join(NPM_DIR, "src", "data.ts");
 const PROVIDERS_OUT_DIR = path.join(NPM_DIR, "src", "providers");
 
@@ -126,9 +128,28 @@ function generate() {
   ];
   fs.writeFileSync(NPM_OUTPUT, npmDataLines.join("\n"), "utf-8");
 
+  // 4. Generate changes.ts from changes.jsonl
+  let changesCount = 0;
+  if (fs.existsSync(CHANGES_JSONL)) {
+    const raw = fs.readFileSync(CHANGES_JSONL, "utf-8").trim();
+    const entries = raw
+      .split("\n")
+      .filter(Boolean)
+      .map((line) => JSON.parse(line));
+    changesCount = entries.length;
+    const changesLines = [
+      ...HEADER,
+      "import type { ChangeEntry } from './types';",
+      "",
+      `export const changes: ChangeEntry[] = ${JSON.stringify(entries)};`,
+      "",
+    ];
+    fs.writeFileSync(CHANGES_OUTPUT, changesLines.join("\n"), "utf-8");
+  }
+
   const totalModels = providers.reduce((sum, p) => sum + p.models.length, 0);
   console.log(
-    `Generated ${providers.length} providers (${totalModels} models) → data.ts + ${providers.length} provider files`,
+    `Generated ${providers.length} providers (${totalModels} models), ${changesCount} changes → data.ts + changes.ts + ${providers.length} provider files`,
   );
 }
 
