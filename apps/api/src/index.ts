@@ -1,5 +1,11 @@
-import type { Model } from "@modelpedia/data";
-import { allModels, getModel, getProvider, providers } from "@modelpedia/data";
+import type { ChangeEntry, Model } from "@modelpedia/data";
+import {
+  allModels,
+  changes,
+  getModel,
+  getProvider,
+  providers,
+} from "@modelpedia/data";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { prettyJSON } from "hono/pretty-json";
@@ -22,6 +28,12 @@ function ok(data: unknown, meta?: Record<string, unknown>) {
 
 function err(message: string, status: number) {
   return { error: { message, status } };
+}
+
+function paginate(c: { req: { query: (k: string) => string | undefined } }) {
+  const limit = Math.min(Number(c.req.query("limit")) || 100, 500);
+  const offset = Number(c.req.query("offset")) || 0;
+  return { limit, offset };
 }
 
 // ── GET /v1/stats ──
@@ -56,6 +68,62 @@ app.get("/providers", (c) => {
       })),
     ),
   );
+});
+
+// ── GET /v1/providers/compare ──
+
+app.get("/providers/compare", (c) => {
+  const ids = c.req
+    .query("ids")
+    ?.split(",")
+    .map((s) => s.trim());
+  if (!ids || ids.length < 2)
+    return c.json(
+      err("Provide at least 2 comma-separated provider ids", 400),
+      400,
+    );
+  if (ids.length > 10)
+    return c.json(err("Maximum 10 providers per comparison", 400), 400);
+
+  const results = ids.map((id) => {
+    const p = getProvider(id);
+    if (!p) return null;
+
+    const models = allModels.filter((m) => m.provider === id);
+    const active = models.filter((m) => m.status !== "deprecated");
+    const prices = models
+      .map((m) => m.pricing?.input)
+      .filter((v): v is number => v != null);
+
+    const caps = new Map<string, number>();
+    for (const m of models) {
+      if (!m.capabilities) continue;
+      for (const [k, v] of Object.entries(m.capabilities)) {
+        if (v) caps.set(k, (caps.get(k) ?? 0) + 1);
+      }
+    }
+
+    return {
+      id: p.id,
+      name: p.name,
+      type: p.type,
+      region: p.region,
+      free_tier: p.free_tier,
+      model_count: models.length,
+      active_model_count: active.length,
+      price_range:
+        prices.length > 0
+          ? { min: Math.min(...prices), max: Math.max(...prices) }
+          : null,
+      capabilities: Object.fromEntries(caps),
+    };
+  });
+
+  const missing = ids.filter((_, i) => !results[i]);
+  if (missing.length > 0)
+    return c.json(err(`Providers not found: ${missing.join(", ")}`, 404), 404);
+
+  return c.json(ok(results));
 });
 
 // ── GET /v1/providers/:id ──
@@ -129,8 +197,7 @@ app.get("/models", (c) => {
     });
   }
 
-  const limit = Math.min(Number(c.req.query("limit")) || 100, 500);
-  const offset = Number(c.req.query("offset")) || 0;
+  const { limit, offset } = paginate(c);
 
   return c.json(
     ok(models.slice(offset, offset + limit), {
@@ -168,6 +235,121 @@ app.get("/models/compare", (c) => {
   return c.json(ok(models));
 });
 
+// ── GET /v1/models/latest ──
+
+app.get("/models/latest", (c) => {
+  const { limit, offset } = paginate(c);
+  const sorted = [...allModels].sort((a, b) =>
+    (b.last_updated ?? "").localeCompare(a.last_updated ?? ""),
+  );
+
+  return c.json(
+    ok(sorted.slice(offset, offset + limit), {
+      total: sorted.length,
+      limit,
+      offset,
+    }),
+  );
+});
+
+// ── GET /v1/models/recommend ──
+
+app.get("/models/recommend", (c) => {
+  let models: Model[] = allModels.filter((m) => m.status !== "deprecated");
+
+  // Filter by required capabilities
+  const caps = c.req.query("capability")?.split(",");
+  if (caps) {
+    models = models.filter((m) =>
+      caps.every(
+        (cap) => m.capabilities?.[cap.trim() as keyof typeof m.capabilities],
+      ),
+    );
+  }
+
+  // Filter by model type
+  const modelType = c.req.query("model_type");
+  if (modelType) models = models.filter((m) => m.model_type === modelType);
+
+  // Filter by minimum context window
+  const minContext = Number(c.req.query("min_context_window")) || 0;
+  if (minContext > 0) {
+    models = models.filter((m) => (m.context_window ?? 0) >= minContext);
+  }
+
+  // Filter by maximum input price (per 1M tokens)
+  const maxPrice = Number(c.req.query("max_price_input"));
+  if (maxPrice > 0) {
+    models = models.filter(
+      (m) => m.pricing?.input != null && m.pricing.input <= maxPrice,
+    );
+  }
+
+  // Filter by input modality
+  const inputModality = c.req.query("input_modality");
+  if (inputModality) {
+    models = models.filter((m) =>
+      m.modalities?.input?.includes(
+        inputModality as "text" | "image" | "audio" | "video",
+      ),
+    );
+  }
+
+  // Filter by output modality
+  const outputModality = c.req.query("output_modality");
+  if (outputModality) {
+    models = models.filter((m) =>
+      m.modalities?.output?.includes(
+        outputModality as "text" | "image" | "audio" | "video",
+      ),
+    );
+  }
+
+  // Sort: prefer models with pricing info, then by price (cheapest first)
+  models.sort((a, b) => {
+    const pa = a.pricing?.input;
+    const pb = b.pricing?.input;
+    if (pa == null && pb == null) return 0;
+    if (pa == null) return 1;
+    if (pb == null) return -1;
+    return pa - pb;
+  });
+
+  const { limit, offset } = paginate(c);
+
+  return c.json(
+    ok(models.slice(offset, offset + limit), {
+      total: models.length,
+      limit,
+      offset,
+    }),
+  );
+});
+
+// ── GET /v1/models/types ──
+
+app.get("/models/types", (c) => {
+  const typeMap = new Map<string, { count: number; providers: Set<string> }>();
+
+  for (const m of allModels) {
+    const t = m.model_type ?? "unknown";
+    const entry = typeMap.get(t) ?? { count: 0, providers: new Set() };
+    entry.count++;
+    entry.providers.add(m.provider);
+    typeMap.set(t, entry);
+  }
+
+  const types = [...typeMap.entries()]
+    .map(([name, info]) => ({
+      name,
+      model_count: info.count,
+      provider_count: info.providers.size,
+    }))
+    .sort((a, b) => b.model_count - a.model_count);
+
+  return c.json(ok(types));
+});
+
 // ── GET /v1/models/:provider/:id ──
 
 app.get("/models/:provider/:id{.+}", (c) => {
@@ -176,6 +358,148 @@ app.get("/models/:provider/:id{.+}", (c) => {
   const model = getModel(provider, id);
   if (!model) return c.json(err("Model not found", 404), 404);
   return c.json(ok(model));
+});
+
+// ── GET /v1/changes ──
+
+app.get("/changes", (c) => {
+  let entries: ChangeEntry[] = [...changes];
+
+  const provider = c.req.query("provider");
+  if (provider) entries = entries.filter((e) => e.provider === provider);
+
+  const model = c.req.query("model");
+  if (model) entries = entries.filter((e) => e.model === model);
+
+  const action = c.req.query("action");
+  if (action) entries = entries.filter((e) => e.action === action);
+
+  const since = c.req.query("since");
+  if (since) entries = entries.filter((e) => e.ts >= since);
+
+  const until = c.req.query("until");
+  if (until) entries = entries.filter((e) => e.ts <= until);
+
+  // Newest first by default
+  entries.sort((a, b) => b.ts.localeCompare(a.ts));
+
+  const { limit, offset } = paginate(c);
+
+  return c.json(
+    ok(entries.slice(offset, offset + limit), {
+      total: entries.length,
+      limit,
+      offset,
+    }),
+  );
+});
+
+// ── GET /v1/creators ──
+
+app.get("/creators", (c) => {
+  const creatorMap = new Map<
+    string,
+    { count: number; providers: Set<string>; families: Set<string> }
+  >();
+
+  for (const m of allModels) {
+    if (!m.created_by) continue;
+    const entry = creatorMap.get(m.created_by) ?? {
+      count: 0,
+      providers: new Set(),
+      families: new Set(),
+    };
+    entry.count++;
+    entry.providers.add(m.provider);
+    if (m.family) entry.families.add(m.family);
+    creatorMap.set(m.created_by, entry);
+  }
+
+  const creators = [...creatorMap.entries()]
+    .map(([name, info]) => ({
+      name,
+      model_count: info.count,
+      providers: [...info.providers],
+      families: [...info.families],
+    }))
+    .sort((a, b) => b.model_count - a.model_count);
+
+  return c.json(ok(creators));
+});
+
+// ── GET /v1/pricing/compare ──
+
+app.get("/pricing/compare", (c) => {
+  const ids = c.req
+    .query("ids")
+    ?.split(",")
+    .map((s) => s.trim());
+
+  let models: Model[];
+
+  if (ids && ids.length > 0) {
+    // Compare specific models
+    models = ids
+      .map((id) => {
+        const [provider, ...rest] = id.split("/");
+        return getModel(provider, rest.join("/"));
+      })
+      .filter((m): m is Model => m != null);
+  } else {
+    // Filter all models with pricing data
+    models = allModels.filter(
+      (m) => m.pricing?.input != null || m.pricing?.output != null,
+    );
+  }
+
+  // Optional price range filters
+  const minInput = Number(c.req.query("min_price_input")) || 0;
+  const maxInput = Number(c.req.query("max_price_input")) || 0;
+  if (minInput > 0) {
+    models = models.filter((m) => (m.pricing?.input ?? 0) >= minInput);
+  }
+  if (maxInput > 0) {
+    models = models.filter(
+      (m) => m.pricing?.input != null && m.pricing.input <= maxInput,
+    );
+  }
+
+  // Sort by input price ascending by default
+  const sort = c.req.query("sort") ?? "price_input";
+  const order = c.req.query("order") === "desc" ? -1 : 1;
+  models.sort((a, b) => {
+    const va =
+      sort === "price_output"
+        ? (a.pricing?.output ?? undefined)
+        : (a.pricing?.input ?? undefined);
+    const vb =
+      sort === "price_output"
+        ? (b.pricing?.output ?? undefined)
+        : (b.pricing?.input ?? undefined);
+    if (va == null && vb == null) return 0;
+    if (va == null) return 1;
+    if (vb == null) return -1;
+    return va < vb ? -order : va > vb ? order : 0;
+  });
+
+  const { limit, offset } = paginate(c);
+
+  const result = models.slice(offset, offset + limit).map((m) => ({
+    id: `${m.provider}/${m.id}`,
+    name: m.name,
+    provider: m.provider,
+    model_type: m.model_type,
+    pricing: m.pricing,
+    context_window: m.context_window,
+  }));
+
+  return c.json(
+    ok(result, {
+      total: models.length,
+      limit,
+      offset,
+    }),
+  );
 });
 
 // ── GET /v1/capabilities ──
@@ -203,6 +527,60 @@ app.get("/capabilities", (c) => {
     .sort((a, b) => b.model_count - a.model_count);
 
   return c.json(ok(capabilities));
+});
+
+// ── GET /v1/modalities ──
+
+app.get("/modalities", (c) => {
+  const modalityMap = new Map<
+    string,
+    { count: number; providers: Set<string> }
+  >();
+
+  for (const m of allModels) {
+    if (!m.modalities) continue;
+    const key = `${(m.modalities.input ?? []).sort().join("+")} → ${(m.modalities.output ?? []).sort().join("+")}`;
+    const entry = modalityMap.get(key) ?? { count: 0, providers: new Set() };
+    entry.count++;
+    entry.providers.add(m.provider);
+    modalityMap.set(key, entry);
+  }
+
+  const modalities = [...modalityMap.entries()]
+    .map(([combination, info]) => ({
+      combination,
+      model_count: info.count,
+      provider_count: info.providers.size,
+    }))
+    .sort((a, b) => b.model_count - a.model_count);
+
+  return c.json(ok(modalities));
+});
+
+// ── GET /v1/tools ──
+
+app.get("/tools", (c) => {
+  const toolMap = new Map<string, { count: number; providers: Set<string> }>();
+
+  for (const m of allModels) {
+    if (!m.tools) continue;
+    for (const tool of m.tools) {
+      const entry = toolMap.get(tool) ?? { count: 0, providers: new Set() };
+      entry.count++;
+      entry.providers.add(m.provider);
+      toolMap.set(tool, entry);
+    }
+  }
+
+  const tools = [...toolMap.entries()]
+    .map(([name, info]) => ({
+      name,
+      model_count: info.count,
+      provider_count: info.providers.size,
+    }))
+    .sort((a, b) => b.model_count - a.model_count);
+
+  return c.json(ok(tools));
 });
 
 // ── GET /v1/search ──
