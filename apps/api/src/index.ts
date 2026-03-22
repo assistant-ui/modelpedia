@@ -1,11 +1,5 @@
-import type { ChangeEntry, Model } from "@modelpedia/data";
-import {
-  allModels,
-  changes,
-  getModel,
-  getProvider,
-  providers,
-} from "@modelpedia/data";
+import type { Model } from "@modelpedia/data";
+import { allModels, getModel, getProvider, providers } from "@modelpedia/data";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { prettyJSON } from "hono/pretty-json";
@@ -358,40 +352,6 @@ app.get("/models/:provider/:id{.+}", (c) => {
   const model = getModel(provider, id);
   if (!model) return c.json(err("Model not found", 404), 404);
   return c.json(ok(model));
-});
-
-// ── GET /v1/changes ──
-
-app.get("/changes", (c) => {
-  let entries: ChangeEntry[] = [...changes];
-
-  const provider = c.req.query("provider");
-  if (provider) entries = entries.filter((e) => e.provider === provider);
-
-  const model = c.req.query("model");
-  if (model) entries = entries.filter((e) => e.model === model);
-
-  const action = c.req.query("action");
-  if (action) entries = entries.filter((e) => e.action === action);
-
-  const since = c.req.query("since");
-  if (since) entries = entries.filter((e) => e.ts >= since);
-
-  const until = c.req.query("until");
-  if (until) entries = entries.filter((e) => e.ts <= until);
-
-  // Newest first by default
-  entries.sort((a, b) => b.ts.localeCompare(a.ts));
-
-  const { limit, offset } = paginate(c);
-
-  return c.json(
-    ok(entries.slice(offset, offset + limit), {
-      total: entries.length,
-      limit,
-      offset,
-    }),
-  );
 });
 
 // ── GET /v1/creators ──

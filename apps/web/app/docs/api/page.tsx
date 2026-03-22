@@ -179,25 +179,6 @@ const sections: {
       },
     ],
   },
-  {
-    title: "Changes",
-    endpoints: [
-      {
-        path: "/v1/changes",
-        desc: "Change log: model additions, updates, and removals. Newest first.",
-        tryPath: `${API_BASE}/v1/changes?action=create&limit=10`,
-        params: [
-          ["provider", "Filter by provider id"],
-          ["model", "Filter by model id"],
-          ["action", "create | update | delete"],
-          ["since", "ISO-8601 timestamp lower bound"],
-          ["until", "ISO-8601 timestamp upper bound"],
-          ["limit", "Max 500, default 100"],
-          ["offset", "Default 0"],
-        ],
-      },
-    ],
-  },
 ];
 
 export default function ApiDocsPage() {
