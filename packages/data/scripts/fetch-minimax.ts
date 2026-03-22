@@ -1,11 +1,18 @@
-import { type ModelEntry, runGenerate, upsertWithSnapshot } from "./shared.ts";
+import { fetchText } from "./parse.ts";
+import {
+  type ModelEntry,
+  readSources,
+  runGenerate,
+  upsertWithSnapshot,
+} from "./shared.ts";
 
 /**
  * Fetch MiniMax models from their docs .md endpoints.
  * No API key needed.
  */
 
-const PRICING_MD = "https://platform.minimax.io/docs/guides/pricing-paygo.md";
+const sources = readSources("minimax");
+const PRICING_MD = sources.pricing as string;
 
 function parseDollar(s: string): number | undefined {
   const m = s.match(/\$([\d.]+)/);
@@ -15,9 +22,7 @@ function parseDollar(s: string): number | undefined {
 async function main() {
   console.log("Fetching MiniMax models from docs...");
 
-  const res = await fetch(PRICING_MD);
-  if (!res.ok) throw new Error(`Failed: ${res.status}`);
-  const md = await res.text();
+  const md = await fetchText(PRICING_MD);
 
   // Parse pricing tables
   const lines = md.split("\n");

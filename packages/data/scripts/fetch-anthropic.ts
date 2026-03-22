@@ -2,6 +2,8 @@ import {
   envOrNull,
   inferFamily,
   type ModelEntry,
+  normalizeDate,
+  readSources,
   runGenerate,
   upsertModel,
 } from "./shared.ts";
@@ -16,6 +18,7 @@ interface ModelSpec {
   context_window?: number;
   max_output_tokens?: number;
   knowledge_cutoff?: string;
+  training_data_cutoff?: string;
   latency?: string;
   extended_thinking?: boolean;
   deprecated?: boolean;
@@ -25,10 +28,9 @@ interface ModelSpec {
 
 // ── Markdown endpoints ──
 
-const MODELS_MD =
-  "https://platform.claude.com/docs/en/about-claude/models/overview.md";
-const PRICING_MD =
-  "https://platform.claude.com/docs/en/about-claude/pricing.md";
+const sources = readSources("anthropic");
+const MODELS_MD = sources.models as string;
+const PRICING_MD = sources.pricing as string;
 
 // ── Markdown table parser ──
 
@@ -131,6 +133,11 @@ function parseModelsMarkdown(md: string): ModelSpec[] {
           const cleaned = val.replace(/<sup>.*?<\/sup>/g, "").trim();
           if (cleaned && cleaned !== "—" && /[A-Z][a-z]+ \d{4}/.test(cleaned)) {
             m.knowledge_cutoff = cleaned.match(/[A-Z][a-z]+ \d{4}/)?.[0];
+          }
+        } else if (feature.includes("Training data cutoff")) {
+          const cleaned = val.replace(/<sup>.*?<\/sup>/g, "").trim();
+          if (cleaned && cleaned !== "—" && /[A-Z][a-z]+ \d{4}/.test(cleaned)) {
+            m.training_data_cutoff = cleaned.match(/[A-Z][a-z]+ \d{4}/)?.[0];
           }
         } else if (feature.includes("Comparative latency")) {
           m.latency = val;
@@ -268,7 +275,7 @@ async function fetchApiModels(apiKey: string): Promise<Map<string, ApiModel>> {
   const models = new Map<string, ApiModel>();
   let afterId: string | undefined;
   while (true) {
-    const url = new URL("https://api.anthropic.com/v1/models");
+    const url = new URL(sources.api as string);
     url.searchParams.set("limit", "100");
     if (afterId) url.searchParams.set("after_id", afterId);
     const res = await fetch(url.toString(), {
@@ -339,10 +346,10 @@ async function main() {
       findPricing(spec.name) ??
       (spec.pricing_input != null
         ? {
-            input: spec.pricing_input!,
-            output: spec.pricing_output!,
-            cache_write: spec.pricing_input! * 1.25,
-            cached_input: spec.pricing_input! * 0.1,
+            input: spec.pricing_input,
+            output: spec.pricing_output ?? 0,
+            cache_write: spec.pricing_input * 1.25,
+            cached_input: spec.pricing_input * 0.1,
           }
         : undefined);
     const b = findBatch(spec.name);
@@ -351,16 +358,50 @@ async function main() {
     const tools: string[] = ["function_calling"];
     if (spec.extended_thinking) tools.push("computer_use", "mcp");
 
+    // Infer performance rating from model family
+    const family = inferFamily(id);
+    const FAMILY_PERF: Record<string, number> = {
+      "claude-opus": 5,
+      "claude-sonnet": 4,
+      "claude-haiku": 3,
+    };
+    const performance = family ? FAMILY_PERF[family] : undefined;
+
+    // Anthropic-specific fields stored alongside standard fields
+    const anthropicFields: Record<string, unknown> = {};
+    if (spec.extended_thinking != null)
+      anthropicFields.extended_thinking = spec.extended_thinking;
+    if (spec.training_data_cutoff)
+      anthropicFields.training_data_cutoff = normalizeDate(
+        spec.training_data_cutoff,
+      );
+    // Adaptive thinking: available on Opus 4.6, Sonnet 4.6 (not Haiku 4.5, not legacy)
+    if (
+      spec.extended_thinking &&
+      (id.includes("opus-4-6") || id.includes("sonnet-4-6"))
+    )
+      anthropicFields.adaptive_thinking = true;
+    // Priority tier: all current models support it
+    if (!spec.deprecated) anthropicFields.priority_tier = true;
+
+    // Successor for deprecated models
+    let successor: string | undefined;
+    if (spec.deprecated) {
+      if (id.includes("claude-3-haiku")) successor = "claude-haiku-4-5";
+    }
+
     const entry: ModelEntry = {
       id,
       name: spec.name,
-      family: inferFamily(id),
+      family,
       description: spec.description,
       status: spec.deprecated ? "deprecated" : "active",
       context_window: spec.context_window,
       max_output_tokens: spec.max_output_tokens,
       knowledge_cutoff: spec.knowledge_cutoff,
       speed: latencyToSpeed(spec.latency),
+      performance,
+      reasoning: spec.extended_thinking ? performance : undefined,
       modalities: { input: ["text", "image"], output: ["text"] },
       capabilities: {
         streaming: true,
@@ -370,8 +411,10 @@ async function main() {
       },
       tools,
       endpoints: ["messages"],
+      successor,
+      ...anthropicFields,
       ...extra,
-    };
+    } as ModelEntry;
 
     if (p) {
       entry.pricing = {

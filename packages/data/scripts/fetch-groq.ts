@@ -1,6 +1,8 @@
+import { fetchText, findHtmlTables, stripHtml } from "./parse.ts";
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -13,14 +15,11 @@ import {
  * Groq is an inference platform hosting models from various providers.
  */
 
-const MODELS_URL = "https://console.groq.com/docs/models";
-const DEPRECATIONS_URL = "https://console.groq.com/docs/deprecations";
+const sources = readSources("groq");
+const MODELS_URL = sources.models as string;
+const DEPRECATIONS_URL = sources.deprecations as string;
 
 // ── HTML parsing helpers ──
-
-function stripHtml(s: string): string {
-  return s.replace(/<[^>]*>/g, "").trim();
-}
 
 function parseNumber(s: string): number | undefined {
   const n = Number.parseInt(s.replace(/,/g, ""), 10);
@@ -57,13 +56,11 @@ const SECTION_CATEGORIES: Record<string, DocsModel["category"]> = {
 function parseModelTables(html: string): DocsModel[] {
   const models: DocsModel[] = [];
 
-  // Find all tables and their preceding section headings
-  const tableRegex = /<table[^>]*>([\s\S]*?)<\/table>/g;
-  let tableMatch: RegExpExecArray | null;
+  const tables = findHtmlTables(html);
 
-  while ((tableMatch = tableRegex.exec(html)) !== null) {
-    const tablePos = tableMatch.index;
-    const tableContent = tableMatch[1];
+  for (const table of tables) {
+    // Find position of table in original HTML for heading lookup
+    const tablePos = html.indexOf(table.raw);
 
     // Look back for section heading
     const headingChunk = html.slice(Math.max(0, tablePos - 2000), tablePos);
@@ -75,10 +72,10 @@ function parseModelTables(html: string): DocsModel[] {
     const category = SECTION_CATEGORIES[heading];
     if (!category) continue; // Not a model table
 
-    // Parse rows
-    const rows = [...tableContent.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)];
+    // Parse rows from raw HTML (need raw cell HTML for font-mono extraction)
+    const rowMatches = [...table.raw.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)];
 
-    for (const row of rows.slice(1)) {
+    for (const row of rowMatches.slice(1)) {
       // skip header
       const cells = [...row[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map(
         (m) => m[1],
@@ -129,20 +126,12 @@ function parseDate(s: string): string | undefined {
 function parseDeprecations(html: string): Map<string, string> {
   const deprecations = new Map<string, string>();
 
-  const tableRegex = /<table[^>]*>([\s\S]*?)<\/table>/g;
-  let tableMatch: RegExpExecArray | null;
+  for (const table of findHtmlTables(html)) {
+    for (const row of table.rows.slice(1)) {
+      if (row.length < 2) continue;
 
-  while ((tableMatch = tableRegex.exec(html)) !== null) {
-    const rows = [...tableMatch[1].matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)];
-
-    for (const row of rows.slice(1)) {
-      const cells = [...row[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map(
-        (m) => stripHtml(m[1]),
-      );
-      if (cells.length < 2) continue;
-
-      const modelId = cells[0];
-      const shutdownDate = parseDate(cells[1]);
+      const modelId = row[0];
+      const shutdownDate = parseDate(row[1]);
       if (modelId && shutdownDate) {
         deprecations.set(modelId, shutdownDate);
       }
@@ -214,8 +203,8 @@ async function main() {
   console.log("Fetching Groq models from docs...");
 
   const [modelsHtml, deprecationsHtml] = await Promise.all([
-    fetch(MODELS_URL).then((r) => r.text()),
-    fetch(DEPRECATIONS_URL).then((r) => r.text()),
+    fetchText(MODELS_URL),
+    fetchText(DEPRECATIONS_URL),
   ]);
 
   const models = parseModelTables(modelsHtml);

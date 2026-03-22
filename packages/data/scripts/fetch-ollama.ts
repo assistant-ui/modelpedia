@@ -1,6 +1,8 @@
+import { fetchJson, fetchText } from "./parse.ts";
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -10,8 +12,9 @@ import {
  * No API key needed.
  */
 
-const API_URL = "https://ollama.com/api/tags";
-const SEARCH_URL = "https://ollama.com/search";
+const sources = readSources("ollama");
+const API_URL = sources.api as string;
+const SEARCH_URL = sources.search as string;
 
 interface OllamaModel {
   name: string;
@@ -50,21 +53,25 @@ function extractCreator(name: string): string {
 }
 
 async function fetchFromApi(): Promise<string[]> {
-  const res = await fetch(API_URL);
-  if (!res.ok) return [];
-  const json = (await res.json()) as { models: OllamaModel[] };
-  return json.models.map((m) => m.name.split(":")[0]);
+  try {
+    const json = await fetchJson<{ models: OllamaModel[] }>(API_URL);
+    return json.models.map((m) => m.name.split(":")[0]);
+  } catch {
+    return [];
+  }
 }
 
 async function fetchFromSearch(): Promise<string[]> {
-  const res = await fetch(SEARCH_URL);
-  if (!res.ok) return [];
-  const html = await res.text();
-  return [
-    ...new Set(
-      [...html.matchAll(/href="\/library\/([\w.-]+)"/g)].map((m) => m[1]),
-    ),
-  ];
+  try {
+    const html = await fetchText(SEARCH_URL);
+    return [
+      ...new Set(
+        [...html.matchAll(/href="\/library\/([\w.-]+)"/g)].map((m) => m[1]),
+      ),
+    ];
+  } catch {
+    return [];
+  }
 }
 
 async function main() {

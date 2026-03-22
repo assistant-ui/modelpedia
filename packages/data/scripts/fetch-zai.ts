@@ -1,6 +1,7 @@
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -10,7 +11,8 @@ import {
  * No API key needed.
  */
 
-const LLMS_TXT = "https://docs.z.ai/llms.txt";
+const sources = readSources("zai");
+const LLMS_TXT = sources.docs as string;
 
 interface ZhipuModel {
   id: string;

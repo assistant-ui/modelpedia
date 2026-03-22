@@ -1,6 +1,8 @@
+import { fetchText } from "./parse.ts";
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -10,7 +12,8 @@ import {
  * No API key needed — scrapes public documentation.
  */
 
-const DOCS_URL = "https://developers.cloudflare.com/workers-ai/models/";
+const sources = readSources("cloudflare-workers-ai");
+const DOCS_URL = sources.docs as string;
 
 const CREATOR_MAP: Record<string, string> = {
   meta: "meta",
@@ -59,9 +62,7 @@ function extractShortName(modelId: string): string {
 async function main() {
   console.log("Fetching Cloudflare Workers AI models...");
 
-  const res = await fetch(DOCS_URL);
-  if (!res.ok) throw new Error(`Failed: ${res.status}`);
-  const html = await res.text();
+  const html = await fetchText(DOCS_URL);
 
   // Extract all @cf/ and @hf/ model IDs
   const cfIds = [
@@ -97,7 +98,7 @@ async function main() {
       capabilities: { streaming: true },
     };
 
-    written += upsertWithSnapshot("cloudflare", entry);
+    written += upsertWithSnapshot("cloudflare-workers-ai", entry);
   }
 
   console.log(`Wrote ${written} models`);

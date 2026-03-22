@@ -1,7 +1,9 @@
+import { fetchText, findHtmlTables } from "./parse.ts";
 import {
   filterModalities,
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   sanitizeModelId,
   upsertWithSnapshot,
@@ -12,8 +14,8 @@ import {
  * No API key needed — scrapes public documentation.
  */
 
-const DOCS_URL =
-  "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html";
+const sources = readSources("amazon");
+const DOCS_URL = sources.docs as string;
 
 const PROVIDER_MAP: Record<string, string> = {
   "ai21 labs": "ai21",
@@ -36,44 +38,32 @@ const PROVIDER_MAP: Record<string, string> = {
   "z.ai": "zhipu",
 };
 
-function stripHtml(s: string): string {
-  return s
-    .replace(/<[^>]+>/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
 async function main() {
   console.log("Fetching Amazon Bedrock models from docs...");
 
-  const res = await fetch(DOCS_URL);
-  if (!res.ok) throw new Error(`Failed: ${res.status}`);
-  const html = await res.text();
+  const html = await fetchText(DOCS_URL);
 
   // Parse the main table
-  const tables = [...html.matchAll(/<table[^>]*>([\s\S]*?)<\/table>/g)];
+  const tables = findHtmlTables(html);
   if (tables.length === 0) throw new Error("No tables found");
 
   // Find the table with "Provider" and "Model name" headers
-  let modelTable: string | null = null;
+  let modelRows: string[][] | null = null;
   for (const t of tables) {
-    if (t[1].includes("Provider") && t[1].includes("Model ID")) {
-      modelTable = t[1];
+    if (t.raw.includes("Provider") && t.raw.includes("Model ID")) {
+      modelRows = t.rows;
       break;
     }
   }
-  if (!modelTable) throw new Error("Model table not found");
+  if (!modelRows) throw new Error("Model table not found");
 
-  const rows = [...modelTable.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)];
-  console.log(`Found ${rows.length} rows`);
+  console.log(`Found ${modelRows.length} rows`);
 
   let currentProvider = "";
   let written = 0;
 
-  for (const row of rows.slice(1)) {
+  for (const texts of modelRows.slice(1)) {
     // skip header
-    const cells = [...row[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)];
-    const texts = cells.map((c) => stripHtml(c[1]));
     if (texts.length < 4) continue;
 
     // Provider column (may be empty if same as previous row)

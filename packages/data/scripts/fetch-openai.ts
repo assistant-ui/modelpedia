@@ -6,16 +6,17 @@ import {
   parsePricingSections,
 } from "./openai-parser.ts";
 import {
+  buildPricing,
   inferFamily,
   inferModelType,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
 
 function isRelevant(id: string): boolean {
-  if (/ with data sharing$/.test(id)) return false;
-  return true;
+  return !id.endsWith(" with data sharing");
 }
 
 function featuresToCapabilities(
@@ -40,7 +41,8 @@ function featuresToCapabilities(
 }
 
 async function main() {
-  const js = await fetchBundle();
+  const sources = readSources("openai");
+  const js = await fetchBundle(sources.models as string);
 
   const pricing = parsePricing(js);
   const compare = parseCompareEntries(js);
@@ -138,13 +140,13 @@ async function main() {
     if (Object.keys(caps).length > 0) entry.capabilities = caps;
 
     if (p) {
-      entry.pricing = {};
-      if (p.main.input != null) entry.pricing.input = p.main.input;
-      if (p.main.output != null) entry.pricing.output = p.main.output;
-      if (p.main.cached_input != null)
-        entry.pricing.cached_input = p.main.cached_input;
-      if (p.batch.input != null) entry.pricing.batch_input = p.batch.input;
-      if (p.batch.output != null) entry.pricing.batch_output = p.batch.output;
+      entry.pricing = buildPricing({
+        input: p.main.input,
+        output: p.main.output,
+        cached_input: p.main.cached_input,
+        batch_input: p.batch.input,
+        batch_output: p.batch.output,
+      });
     }
 
     // Detailed pricing tiers

@@ -1,6 +1,7 @@
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -10,7 +11,8 @@ import {
  * No API key needed.
  */
 
-const DOCS_MD = "https://opencode.ai/docs/zen.md";
+const sources = readSources("opencode");
+const DOCS_MD = sources.docs as string;
 
 const CREATOR_MAP: Record<string, string> = {
   gpt: "openai",

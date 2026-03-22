@@ -1,6 +1,8 @@
+import { fetchText } from "./parse.ts";
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -10,7 +12,8 @@ import {
  * No API key needed.
  */
 
-const LIBRARY_URL = "https://www.baseten.co/library/";
+const sources = readSources("baseten");
+const LIBRARY_URL = sources.docs as string;
 
 const CREATOR_MAP: Record<string, string> = {
   llama: "meta",
@@ -36,9 +39,7 @@ function extractCreator(name: string): string {
 async function main() {
   console.log("Fetching Baseten models...");
 
-  const res = await fetch(LIBRARY_URL);
-  if (!res.ok) throw new Error(`Failed: ${res.status}`);
-  const html = await res.text();
+  const html = await fetchText(LIBRARY_URL);
 
   // Extract model names from the page content
   const modelNames = [

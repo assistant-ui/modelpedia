@@ -1,6 +1,8 @@
+import { fetchText, findHtmlTables, stripHtml } from "./parse.ts";
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
@@ -14,8 +16,8 @@ import {
  * 2. Partner models: learn.microsoft.com/azure/ai-foundry/model-inference/models
  */
 
-const OPENAI_MODELS_URL =
-  "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models";
+const sources = readSources("azure");
+const OPENAI_MODELS_URL = sources.docs as string;
 
 interface AzureModel {
   id: string;
@@ -31,37 +33,23 @@ interface AzureModel {
 // ── Parse models from the docs page ──
 
 async function fetchModels(): Promise<AzureModel[]> {
-  const res = await fetch(OPENAI_MODELS_URL);
-  if (!res.ok) throw new Error(`Failed to fetch: ${res.status}`);
-  const html = await res.text();
+  const html = await fetchText(OPENAI_MODELS_URL);
 
   // Extract main content text
   const mainMatch = html.match(/<main[^>]*>([\s\S]*?)<\/main>/);
-  const _mainText = mainMatch
-    ? mainMatch[1].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ")
-    : "";
+  const _mainText = mainMatch ? stripHtml(mainMatch[1]) : "";
 
   const models: AzureModel[] = [];
   const seen = new Set<string>();
 
   // Parse tables for model data
   // Tables have headers like: Model ID | Context | Max Output | Training Data | ...
-  const tables = [...html.matchAll(/<table[^>]*>([\s\S]*?)<\/table>/g)];
+  const tables = findHtmlTables(html);
 
   for (const table of tables) {
-    const rows = [...table[1].matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)];
-    if (rows.length < 2) continue;
+    if (table.rows.length < 2) continue;
 
-    const headerCells = [...rows[0][1].matchAll(/<th[^>]*>([\s\S]*?)<\/th>/g)];
-    const headers = headerCells
-      .map((c) =>
-        c[1]
-          .replace(/<[^>]+>/g, "")
-          .replace(/\s+/g, " ")
-          .trim()
-          .toLowerCase(),
-      )
-      .filter(Boolean);
+    const headers = table.rows[0].map((h) => h.toLowerCase());
 
     // Skip tables that don't have model-related headers
     if (
@@ -75,14 +63,8 @@ async function fetchModels(): Promise<AzureModel[]> {
     )
       continue;
 
-    for (const row of rows.slice(1)) {
-      const cells = [...row[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)];
-      const texts = cells.map((c) =>
-        c[1]
-          .replace(/<[^>]+>/g, "")
-          .replace(/\s+/g, " ")
-          .trim(),
-      );
+    for (const row of table.rows.slice(1)) {
+      const texts = row;
       if (texts.length < 2) continue;
 
       // Try to find model ID from the cells

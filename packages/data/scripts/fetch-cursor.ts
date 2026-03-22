@@ -1,6 +1,7 @@
 import {
   inferFamily,
   type ModelEntry,
+  readSources,
   runGenerate,
   upsertModel,
 } from "./shared.ts";
@@ -12,8 +13,9 @@ import {
  * No API key needed.
  */
 
-const PRICING_MD = "https://cursor.com/docs/models-and-pricing.md";
-const PAGE_URL = "https://cursor.com/docs/models-and-pricing";
+const sources = readSources("cursor");
+const PRICING_MD = sources.pricing as string;
+const PAGE_URL = sources.page as string;
 
 // ── Types ──
 
