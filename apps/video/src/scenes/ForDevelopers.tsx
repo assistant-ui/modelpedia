@@ -220,7 +220,7 @@ export const ForDevelopers: React.FC = () => {
         }}
       >
         <CodeBlock lines={npmLines} label="npm package" staggerDelay={0} />
-        <CodeBlock lines={apiLines} label="REST API" staggerDelay={15} />
+        <CodeBlock lines={apiLines} label="REST API" staggerDelay={8} />
       </div>
 
       {/* Center label */}

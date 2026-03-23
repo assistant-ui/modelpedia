@@ -74,10 +74,10 @@ export const LogoReveal: React.FC = () => {
       <div
         style={{
           position: "absolute",
-          bottom: 40,
-          left: 120,
-          right: 120,
-          height: 600,
+          bottom: 20,
+          left: 80,
+          right: 80,
+          height: 700,
           opacity: screenshotOpacity,
           transform: `scale(${screenshotScale})`,
           borderRadius: 16,
