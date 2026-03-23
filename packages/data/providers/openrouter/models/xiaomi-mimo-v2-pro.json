@@ -31,9 +31,13 @@
     "pricing": "7d7678ee",
     "release_date": "e6131053",
     "tagline": "582f412c",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "family": "1a23786e",
+    "model_type": "d669f408"
   },
   "release_date": "2026-03-18",
   "tagline": "MiMo-V2-Pro is Xiaomi's flagship foundation model, featuring over 1T total parameters and a 1M context length, deeply optimized for agentic scenarios.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "family": "mimo",
+  "model_type": "chat"
 }

@@ -3,7 +3,7 @@
   "name": "gpt-3.5-turbo",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-3.5",
   "context_window": 16400,
   "capabilities": {
@@ -15,10 +15,16 @@
   },
   "_generated": {
     "name": "acd626cc",
-    "context_window": "e375a58e",
     "family": "7601054d",
+    "context_window": "e375a58e",
+    "capabilities": "0fa77dc6",
     "pricing": "2c3abb73",
-    "capabilities": "0fa77dc6"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

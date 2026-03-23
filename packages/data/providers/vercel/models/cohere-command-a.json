@@ -20,9 +20,14 @@
     "pricing": "cf1c6d02",
     "family": "8e3865ab",
     "model_type": "d669f408",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "family": "command-a",
   "model_type": "chat",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

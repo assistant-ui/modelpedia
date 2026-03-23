@@ -11,7 +11,14 @@
   "_generated": {
     "name": "b94ac5fa",
     "capabilities": "48995a4e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,14 +3,21 @@
   "name": "minimax-m2.5",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "f00ef4f7",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "family": "c85916f0",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "minimax",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

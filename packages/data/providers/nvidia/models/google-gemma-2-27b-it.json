@@ -3,7 +3,7 @@
   "name": "gemma-2-27b-it",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemma-2",
   "capabilities": {
     "streaming": true
@@ -11,8 +11,15 @@
   "_generated": {
     "name": "62b07025",
     "family": "e8114e3e",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408",
+    "parameters": "02e74f10",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 27
+  "parameters": 27,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

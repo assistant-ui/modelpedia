@@ -24,9 +24,20 @@
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
-    "endpoints": "75df3f1c"
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "parameters": "5f93f983",
+    "provider": "a3af76f3",
+    "description": "0ed4fb50",
+    "tagline": "32d40517",
+    "page_url": "23162829",
+    "open_weight": "b326b506"
   },
   "license": "apache-2.0",
   "parameters": 110,
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "The Qwen1.5 open-source model from Alibaba Cloud. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt)",
+  "tagline": "The Qwen1.5 open-source model from Alibaba Cloud.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": true
 }

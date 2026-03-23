@@ -24,8 +24,18 @@
     "model_type": "5c212ca7",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
-    "endpoints": "75df3f1c"
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "provider": "a3af76f3",
+    "description": "5eb152d9",
+    "tagline": "e33b7e7d",
+    "page_url": "23162829",
+    "open_weight": "b326b506"
   },
   "license": "apache-2.0",
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "Qwen3-LiveTranslate-Flash-Realtime is a multilingual, real-time audio and video translation model. It can recognize 18 languages and translate them into audio in 10 languages in real time. **Core features:** * **Multi-language support**: Supports 18 languages, such as Chinese, English, French, German, Russian, Japanese, and Korean, and 6 Chinese dialects, including Mandarin, Cantonese, and Sichuanese. * **Visual enhancement**: Uses visual content to improve translation accuracy. The model analyzes lip movements, actions, and on-screen text to improve translation in noisy environments or for words with multiple meanings. * **Low latency**: Achieves simultaneous interpretation latency as low as 3 seconds. * **High-quality simultaneous interpretation**: Addresses cross-language word order issues using semantic unit prediction technology. The real-time translation quality is comparable to offline translation results. * **Natural voice**: Generates natural-sounding, human-like speech. The model adapts its tone and emotion based on the source speech content. [Usage](https://www.alibabacloud.com/help/en/document_detail/2983281.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2983653.html) #### International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoints and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide, excluding Chinese Mainland.",
+  "tagline": "Qwen3-LiveTranslate-Flash-Realtime is a multilingual, real-time audio and video translation model.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": true
 }

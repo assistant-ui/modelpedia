@@ -1,0 +1,31 @@
+{
+  "id": "VAGOsolutions/SauerkrautLM-Nemo-12b-Instruct",
+  "name": "SauerkrautLM-Nemo-12b-Instruct",
+  "created_by": "vagosolutions",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "release_date": "2024-07-22",
+  "context_window": 1024000,
+  "license": "apache-2.0",
+  "parameters": 12,
+  "page_url": "https://huggingface.co/VAGOsolutions/SauerkrautLM-Nemo-12b-Instruct",
+  "architecture": "transformer",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d6498c5e",
+    "release_date": "34ea7d83",
+    "context_window": "7695f674",
+    "license": "60245731",
+    "parameters": "c20ad4d7",
+    "page_url": "df1a6f16",
+    "architecture": "8832ea0f",
+    "capabilities": "48995a4e",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  }
+}

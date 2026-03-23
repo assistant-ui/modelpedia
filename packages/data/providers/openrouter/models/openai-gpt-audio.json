@@ -29,8 +29,10 @@
     "capabilities": "c8033cf7",
     "pricing": "cf1c6d02",
     "release_date": "aaadbdbb",
-    "tagline": "26d13d6e"
+    "tagline": "26d13d6e",
+    "model_type": "d669f408"
   },
   "release_date": "2026-01-19",
-  "tagline": "The gpt-audio model is OpenAI's first generally available audio model."
+  "tagline": "The gpt-audio model is OpenAI's first generally available audio model.",
+  "model_type": "chat"
 }

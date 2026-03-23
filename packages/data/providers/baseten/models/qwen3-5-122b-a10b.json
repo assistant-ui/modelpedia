@@ -1,0 +1,29 @@
+{
+  "id": "qwen3-5-122b-a10b",
+  "name": "qwen3-5-122b-a10b",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "qwen3",
+  "parameters": 122,
+  "active_parameters": 10,
+  "open_weight": true,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "c4738965",
+    "family": "48c385a0",
+    "parameters": "a0a080f4",
+    "active_parameters": "d3d94468",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  }
+}

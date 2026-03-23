@@ -1,0 +1,41 @@
+{
+  "id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
+  "name": "Qwen3-30B-A3B-Thinking-2507",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "release_date": "2025-07-29",
+  "context_window": 262144,
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "parameters": 31,
+  "active_parameters": 1.9,
+  "alias": "Qwen/Qwen3-30B-A3B-Thinking",
+  "page_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Thinking-2507",
+  "architecture": "moe",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e63be8d8",
+    "release_date": "f7a967dd",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "parameters": "c16a5320",
+    "active_parameters": "4885938b",
+    "page_url": "4a021b7b",
+    "architecture": "31b2172c",
+    "capabilities": "48995a4e",
+    "modalities": "68e53d93",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  }
+}

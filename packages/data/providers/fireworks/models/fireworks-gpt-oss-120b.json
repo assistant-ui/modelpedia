@@ -22,9 +22,14 @@
     "pricing": "5e82dbc5",
     "model_type": "d669f408",
     "parameters": "da4fb5c6",
-    "page_url": "cb719704"
+    "page_url": "cb719704",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 120,
-  "page_url": "https://fireworks.ai/models/fireworks/gpt-oss-120b"
+  "page_url": "https://fireworks.ai/models/fireworks/gpt-oss-120b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

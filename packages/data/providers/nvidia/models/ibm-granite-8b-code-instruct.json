@@ -12,8 +12,15 @@
     "name": "4ae3c4c6",
     "capabilities": "48995a4e",
     "parameters": "c9f0f895",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "parameters": 8,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,14 +3,21 @@
   "name": "palmyra-creative-122b",
   "created_by": "writer",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "d0c8374e",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408",
+    "parameters": "a0a080f4",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 122
+  "parameters": 122,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

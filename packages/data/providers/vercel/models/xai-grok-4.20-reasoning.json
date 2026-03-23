@@ -1,0 +1,35 @@
+{
+  "id": "xai/grok-4.20-reasoning",
+  "name": "grok-4.20-reasoning",
+  "created_by": "xai",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "grok-4.20",
+  "context_window": 2000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ae1a69a3",
+    "family": "44972aca",
+    "context_window": "805f7438",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "e205efd3",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  }
+}

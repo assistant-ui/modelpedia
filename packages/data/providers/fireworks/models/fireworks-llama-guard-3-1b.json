@@ -23,8 +23,13 @@
     "pricing": "cb03f68e",
     "model_type": "1e7a7b87",
     "parameters": "c4ca4238",
-    "page_url": "7ee3e9f8"
+    "page_url": "7ee3e9f8",
+    "modalities": "68e53d93"
   },
   "parameters": 1,
-  "page_url": "https://fireworks.ai/models/fireworks/llama-guard-3-1b"
+  "page_url": "https://fireworks.ai/models/fireworks/llama-guard-3-1b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

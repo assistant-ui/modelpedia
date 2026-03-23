@@ -22,9 +22,14 @@
     "pricing": "cb03f68e",
     "model_type": "d669f408",
     "parameters": "6364d3f0",
-    "page_url": "dece2a40"
+    "page_url": "dece2a40",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 32,
-  "page_url": "https://fireworks.ai/models/fireworks/qwen2p5-32b"
+  "page_url": "https://fireworks.ai/models/fireworks/qwen2p5-32b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

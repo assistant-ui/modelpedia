@@ -19,9 +19,19 @@
     "capabilities": "0fa77dc6",
     "modalities": "d65b34d6",
     "endpoints": "75df3f1c",
-    "family": "68010df8"
+    "family": "68010df8",
+    "license": "9186c466",
+    "provider": "a3af76f3",
+    "description": "2c25c4c3",
+    "tagline": "dd95ffa6",
+    "page_url": "23162829",
+    "open_weight": "68934a3e"
   },
   "family": "wan2.6",
   "license": "proprietary",
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "Wan text-to-video models generate videos from a single sentence, delivering rich artistic styles and cinematic quality. [API reference](https://www.alibabacloud.com/help/en/document_detail/2865250.html) \\| [Try it online](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global In the [global deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are located in the **US (Virginia) region**. Model inference compute resources are dynamically scheduled globally.",
+  "tagline": "Wan text-to-video models generate videos from a single sentence, delivering rich artistic styles and cinematic quality.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": false
 }

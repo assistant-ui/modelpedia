@@ -26,8 +26,14 @@
     "modalities": "d65b34d6",
     "endpoints": "75df3f1c",
     "license": "60245731",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "849eccdf",
+    "page_url": "23162829",
+    "tagline": "e6dd5787"
   },
   "license": "apache-2.0",
-  "open_weight": true
+  "open_weight": true,
+  "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in Voice Activity Detection (VAD) to automatically detect the start and end of user speech. [Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are both located in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide (excluding Chinese Mainland).",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "tagline": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in Voice Activity Detection (VAD) to automatically detect the start and end of user speech."
 }

@@ -22,10 +22,15 @@
     "model_type": "d669f408",
     "parameters": "e46de7e1",
     "active_parameters": "70efdf2e",
-    "page_url": "0694e3cc"
+    "page_url": "0694e3cc",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 397,
   "active_parameters": 17,
-  "page_url": "https://www.together.ai/models/qwen3-5-397b-a17b"
+  "page_url": "https://www.together.ai/models/qwen3-5-397b-a17b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

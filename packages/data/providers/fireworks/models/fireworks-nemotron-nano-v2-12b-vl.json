@@ -20,9 +20,14 @@
     "pricing": "cb03f68e",
     "model_type": "d669f408",
     "parameters": "c20ad4d7",
-    "page_url": "6ab97be1"
+    "page_url": "6ab97be1",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 12,
-  "page_url": "https://fireworks.ai/models/fireworks/nemotron-nano-v2-12b-vl"
+  "page_url": "https://fireworks.ai/models/fireworks/nemotron-nano-v2-12b-vl",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

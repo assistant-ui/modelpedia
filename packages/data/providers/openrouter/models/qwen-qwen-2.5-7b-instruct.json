@@ -31,11 +31,13 @@
     "parameters": "8f14e45f",
     "release_date": "6374e66f",
     "tagline": "65c0ebf8",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "max_output_tokens": "f4376436"
   },
   "model_type": "chat",
   "parameters": 7,
   "release_date": "2024-10-16",
   "tagline": "Qwen2.5 7B is the latest series of Qwen large language models.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "max_output_tokens": 32768
 }

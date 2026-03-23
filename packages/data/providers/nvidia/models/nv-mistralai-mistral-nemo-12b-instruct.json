@@ -14,10 +14,15 @@
     "model_type": "d669f408",
     "family": "75e1af53",
     "parameters": "c20ad4d7",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "family": "mistral-nemo",
   "parameters": 12,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

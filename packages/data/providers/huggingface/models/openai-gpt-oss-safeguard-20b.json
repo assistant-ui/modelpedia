@@ -24,7 +24,8 @@
     "tagline": "fcc13828",
     "architecture": "31b2172c",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "parameters": 20,
   "page_url": "https://huggingface.co/openai/gpt-oss-safeguard-20b",
@@ -35,5 +36,9 @@
   "tagline": "`gpt-oss-safeguard-120b` and `gpt-oss-safeguard-20b` are safety reasoning models built-upon gpt-oss.",
   "architecture": "moe",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -23,10 +23,15 @@
     "model_type": "b6cc3ff4",
     "parameters": "34173cb3",
     "active_parameters": "eccbc87e",
-    "page_url": "850c1cf8"
+    "page_url": "850c1cf8",
+    "modalities": "68e53d93"
   },
   "model_type": "code",
   "parameters": 30,
   "active_parameters": 3,
-  "page_url": "https://fireworks.ai/models/fireworks/qwen3-coder-30b-a3b-instruct"
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3-coder-30b-a3b-instruct",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

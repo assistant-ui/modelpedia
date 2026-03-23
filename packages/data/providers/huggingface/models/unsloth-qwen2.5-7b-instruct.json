@@ -21,7 +21,8 @@
     "tagline": "224efb5e",
     "architecture": "8832ea0f",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 7.6,
@@ -33,5 +34,9 @@
   "tagline": "We have a Qwen 2.5 (all model sizes) [free Google Colab Tesla T4 notebook](https://colab.research.google.com/drive/1Kose-ucXO1IBaZq5BvbwWieuubP7hxvQ?usp=sharing).",
   "architecture": "transformer",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

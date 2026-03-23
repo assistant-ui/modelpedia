@@ -11,7 +11,8 @@
   "alias": "ministral-3b",
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -27,18 +28,20 @@
     "status": "2e2f74dc",
     "deprecation_date": "75f289bd",
     "context_window": "34434798",
-    "capabilities": "8a3b232e",
+    "capabilities": "fc36814c",
     "modalities": "6399757e",
     "pricing": "dabb026f",
     "model_type": "d669f408",
     "license": "60245731",
     "parameters": "eccbc87e",
     "page_url": "249194f2",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "license": "apache-2.0",
   "parameters": 3,
   "page_url": "https://docs.mistral.ai/models/ministral-3b-24-1",
-  "open_weight": true
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

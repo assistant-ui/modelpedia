@@ -26,10 +26,14 @@
     "license": "60245731",
     "parameters": "8f14e45f",
     "page_url": "d67985e6",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "155125c8",
+    "tagline": "155125c8"
   },
   "license": "apache-2.0",
   "parameters": 7,
   "page_url": "https://docs.mistral.ai/models/codestral-mamba-7b-0-1",
-  "open_weight": true
+  "open_weight": true,
+  "description": "A coding dedicated model using a mamba 2 architecture for research purposes under an open license.",
+  "tagline": "A coding dedicated model using a mamba 2 architecture for research purposes under an open license."
 }

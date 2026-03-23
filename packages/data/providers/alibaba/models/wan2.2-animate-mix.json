@@ -21,9 +21,15 @@
     "endpoints": "75df3f1c",
     "family": "222d75c9",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "d842af42",
+    "page_url": "23162829",
+    "tagline": "38dcdbfe"
   },
   "family": "wan2.2",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "description": "This service offers Standard and Professional modes. It swaps the main subject in a video with a person from an input image while preserving the original scene, lighting, and color tone. [API reference](https://www.alibabacloud.com/help/en/document_detail/2982219.html) ## International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled globally, excluding Chinese Mainland.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "tagline": "This service offers Standard and Professional modes."
 }

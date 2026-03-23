@@ -29,8 +29,18 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "pricing": "d784c731",
-    "endpoints": "75df3f1c"
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "provider": "a3af76f3",
+    "description": "e408061e",
+    "tagline": "9498f027",
+    "page_url": "23162829",
+    "open_weight": "b326b506"
   },
   "license": "apache-2.0",
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "The Qwen deep research model can break down complex problems, perform reasoning and analysis using web searches, and generate research reports.[Usage](https://www.alibabacloud.com/help/en/document_detail/2975991.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported. In this mode, the endpoint and data storage are located in the **Beijing region**, and inference computing resources are limited to Chinese Mainland.",
+  "tagline": "The Qwen deep research model can break down complex problems, perform reasoning and analysis using web searches, and generate research reports.[Usage](https://www.alibabacloud.com/help/en/document_detail/2975991.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": true
 }

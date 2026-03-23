@@ -32,8 +32,14 @@
     "pricing": "783709db",
     "endpoints": "75df3f1c",
     "license": "60245731",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "36e444fc",
+    "page_url": "23162829",
+    "tagline": "3bb63476"
   },
   "license": "apache-2.0",
-  "open_weight": true
+  "open_weight": true,
+  "description": "Qwen-OCR is a model that specializes in text extraction. Compared to Qwen-VL, it focuses more on extracting text from images of items such as documents, tables, exam questions, and handwriting. It can recognize multiple languages, including English, French, Japanese, Korean, German, Russian, and Italian. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860683.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2996283.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) #### International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are both located in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide (excluding Chinese Mainland).",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "tagline": "Qwen-OCR is a model that specializes in text extraction."
 }

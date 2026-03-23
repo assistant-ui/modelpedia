@@ -21,9 +21,15 @@
     "endpoints": "75df3f1c",
     "family": "3663b84b",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "361325d5",
+    "page_url": "23162829",
+    "tagline": "c593e909"
   },
   "family": "wan2.1",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "description": "Wan general video editing models support multimodal inputs, including text, images, and video, and perform both video generation and general editing tasks. [API reference](https://www.alibabacloud.com/help/en/document_detail/2922183.html) \\| [Try it online](https://wan.video/wanxiang/videoCreation?tab=edit) ## International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled globally, excluding Chinese Mainland.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "tagline": "Wan general video editing models support multimodal inputs, including text, images, and video, and perform both video generation and general editing tasks."
 }

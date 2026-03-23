@@ -15,11 +15,16 @@
     "status": "379ac110",
     "model_type": "d669f408",
     "page_url": "ede231c4",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "parameters": 1.1,
   "status": "active",
   "model_type": "chat",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#tinyllama-1.1b-chat-v1.0",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

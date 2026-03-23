@@ -21,8 +21,13 @@
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "b6cc3ff4",
-    "page_url": "88a21a86"
+    "page_url": "88a21a86",
+    "modalities": "68e53d93"
   },
   "model_type": "code",
-  "page_url": "https://fireworks.ai/models/fireworks/qwen2p5-coder-1p5b"
+  "page_url": "https://fireworks.ai/models/fireworks/qwen2p5-coder-1p5b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

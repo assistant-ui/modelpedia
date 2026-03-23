@@ -3,7 +3,7 @@
   "name": "seed-1.8",
   "created_by": "bytedance",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 256000,
   "capabilities": {
     "streaming": true,
@@ -17,7 +17,14 @@
   "_generated": {
     "name": "8e911212",
     "context_window": "2fd324cb",
+    "capabilities": "8d009641",
     "pricing": "468d92b7",
-    "capabilities": "8d009641"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

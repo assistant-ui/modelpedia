@@ -3,7 +3,7 @@
   "name": "gemini-embedding-2-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "status": "active",
   "context_window": 8192,
   "model_type": "embed",
@@ -18,11 +18,16 @@
   "_generated": {
     "name": "9cfbd982",
     "status": "379ac110",
-    "model_type": "764cb3de",
     "context_window": "77441296",
+    "model_type": "764cb3de",
     "capabilities": "d3117eb0",
     "modalities": "68e53d93",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "family": "c3d96d58",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
   },
-  "family": "gemini-embedding"
+  "family": "gemini-embedding",
+  "license": "proprietary",
+  "open_weight": false
 }

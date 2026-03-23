@@ -31,9 +31,11 @@
     "pricing": "3650904a",
     "release_date": "0a9347b5",
     "tagline": "cffd3336",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "model_type": "d669f408"
   },
   "release_date": "2025-03-24",
   "tagline": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "model_type": "chat"
 }

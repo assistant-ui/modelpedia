@@ -3,7 +3,7 @@
   "name": "qwen3-vl-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "context_window": 262100,
   "capabilities": {
@@ -16,10 +16,16 @@
   },
   "_generated": {
     "name": "64a0061c",
-    "context_window": "b23f4471",
     "family": "48c385a0",
+    "context_window": "b23f4471",
+    "capabilities": "8a3b232e",
     "pricing": "a2f69257",
-    "capabilities": "8a3b232e"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

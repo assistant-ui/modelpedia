@@ -27,9 +27,11 @@
     "pricing": "79b45451",
     "parameters": "5dd9db5e",
     "release_date": "c4b1d0fd",
-    "tagline": "8722e3a9"
+    "tagline": "8722e3a9",
+    "model_type": "d669f408"
   },
   "parameters": 671,
   "release_date": "2025-11-13",
-  "tagline": "Cogito v2.1 671B MoE represents one of the strongest open models globally, matching performance of frontier closed and open models."
+  "tagline": "Cogito v2.1 671B MoE represents one of the strongest open models globally, matching performance of frontier closed and open models.",
+  "model_type": "chat"
 }

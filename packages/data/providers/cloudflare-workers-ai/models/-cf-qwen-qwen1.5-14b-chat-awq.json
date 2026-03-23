@@ -17,11 +17,16 @@
     "parameters": "aab32389",
     "status": "379ac110",
     "page_url": "aa970e7a",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 14,
   "status": "active",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#qwen1.5-14b-chat-awq",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

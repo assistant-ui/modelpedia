@@ -31,9 +31,11 @@
     "pricing": "b2436d72",
     "release_date": "0452719b",
     "tagline": "fe1de924",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "model_type": "d669f408"
   },
   "release_date": "2025-12-01",
   "tagline": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "model_type": "chat"
 }

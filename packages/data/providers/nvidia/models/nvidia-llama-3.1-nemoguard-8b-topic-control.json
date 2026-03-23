@@ -3,7 +3,7 @@
   "name": "llama-3.1-nemoguard-8b-topic-control",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-3.1",
   "capabilities": {
     "streaming": true
@@ -11,9 +11,15 @@
   "model_type": "moderation",
   "_generated": {
     "name": "643e240b",
-    "model_type": "1e7a7b87",
     "family": "83ec32db",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "model_type": "1e7a7b87",
+    "parameters": "c9f0f895",
+    "modalities": "68e53d93"
   },
-  "parameters": 8
+  "parameters": 8,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

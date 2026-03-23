@@ -4,7 +4,7 @@
   "created_by": "cohere",
   "source": "official",
   "last_updated": "2026-03-23",
-  "description": "Unique per deployment",
+  "description": "A model that allows for re-ranking English Language documents and semi-structured data (JSON). This model has a context length of 4096 tokens.",
   "status": "active",
   "model_type": "rerank",
   "capabilities": {
@@ -16,7 +16,7 @@
   },
   "_generated": {
     "name": "f4c94d3d",
-    "description": "4f68c471",
+    "description": "c4543125",
     "status": "379ac110",
     "model_type": "477930e6",
     "capabilities": "0fa77dc6",
@@ -24,10 +24,16 @@
     "tagline": "4f68c471",
     "family": "477930e6",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "context_window": "1bd69c7d",
+    "page_url": "a2167f82",
+    "endpoints": "9a7b4962"
   },
   "tagline": "Unique per deployment",
   "family": "rerank",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "context_window": 4000,
+  "page_url": "https://docs.cohere.com/docs/models#rerank-v3.5",
+  "endpoints": ["rerank"]
 }

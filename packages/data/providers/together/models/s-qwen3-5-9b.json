@@ -21,9 +21,14 @@
     "pricing": "fa2d2058",
     "model_type": "d669f408",
     "parameters": "45c48cce",
-    "page_url": "32603484"
+    "page_url": "32603484",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 9,
-  "page_url": "https://www.together.ai/models/qwen3-5-9b"
+  "page_url": "https://www.together.ai/models/qwen3-5-9b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

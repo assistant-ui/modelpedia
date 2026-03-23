@@ -22,7 +22,8 @@
     "tagline": "4d4adc3b",
     "architecture": "8832ea0f",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "family": "Llama-3",
   "model_type": "chat",
@@ -35,5 +36,9 @@
   "tagline": "**💡 Found this resource helpful?** Creating and maintaining open source AI models and datasets requires significant computational resources.",
   "architecture": "transformer",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

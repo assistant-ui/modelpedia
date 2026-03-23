@@ -22,10 +22,23 @@
     "model_type": "d669f408",
     "license": "3c4c3ba5",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "max_output_tokens": "f4376436",
+    "parameters": "a9b7ba70",
+    "active_parameters": "6364d3f0",
+    "architecture": "c2d4b00d",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "license": "mit",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "max_output_tokens": 32768,
+  "parameters": 1000,
+  "active_parameters": 32,
+  "architecture": "MoE",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

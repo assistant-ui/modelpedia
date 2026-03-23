@@ -16,11 +16,16 @@
     "status": "379ac110",
     "model_type": "d669f408",
     "page_url": "2df743db",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "parameters": 7,
   "status": "active",
   "model_type": "chat",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#llava-1.5-7b-hf",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

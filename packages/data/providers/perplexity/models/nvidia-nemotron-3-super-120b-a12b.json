@@ -19,11 +19,16 @@
     "license": "9186c466",
     "parameters": "da4fb5c6",
     "active_parameters": "c20ad4d7",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "license": "proprietary",
   "parameters": 120,
   "active_parameters": 12,
-  "open_weight": false
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

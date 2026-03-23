@@ -23,9 +23,14 @@
     "pricing": "bf9dbeb5",
     "model_type": "d669f408",
     "parameters": "577ef115",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 235,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

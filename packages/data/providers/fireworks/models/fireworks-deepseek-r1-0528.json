@@ -21,8 +21,13 @@
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "17475f7f",
-    "page_url": "478052bd"
+    "page_url": "478052bd",
+    "modalities": "68e53d93"
   },
   "model_type": "reasoning",
-  "page_url": "https://fireworks.ai/models/fireworks/deepseek-r1-0528"
+  "page_url": "https://fireworks.ai/models/fireworks/deepseek-r1-0528",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

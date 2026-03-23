@@ -9,7 +9,8 @@
   "context_window": 256000,
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -25,18 +26,20 @@
     "family": "d6661e63",
     "status": "379ac110",
     "context_window": "2fd324cb",
-    "capabilities": "8a3b232e",
+    "capabilities": "fc36814c",
     "modalities": "6399757e",
     "pricing": "ee3b139d",
     "model_type": "d669f408",
     "license": "60245731",
     "parameters": "aab32389",
     "page_url": "27073dbc",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "license": "apache-2.0",
   "parameters": 14,
   "page_url": "https://docs.mistral.ai/models/ministral-3-14b-25-12",
-  "open_weight": true
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

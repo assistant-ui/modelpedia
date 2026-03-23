@@ -3,7 +3,7 @@
   "name": "lyria-realtime-exp",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "status": "active",
   "model_type": "tts",
   "capabilities": {
@@ -27,6 +27,10 @@
     "capabilities": "29b57eef",
     "modalities": "601e776d",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
-  }
+    "endpoints": "20e16908",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
+  },
+  "license": "proprietary",
+  "open_weight": false
 }

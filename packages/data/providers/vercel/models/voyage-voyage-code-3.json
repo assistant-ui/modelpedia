@@ -3,7 +3,7 @@
   "name": "voyage-code-3",
   "created_by": "voyage",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
@@ -13,7 +13,9 @@
   },
   "_generated": {
     "name": "9d6a7e93",
+    "capabilities": "0fa77dc6",
     "pricing": "ae6ace32",
-    "capabilities": "0fa77dc6"
-  }
+    "model_type": "764cb3de"
+  },
+  "model_type": "embed"
 }

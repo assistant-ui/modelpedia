@@ -9,7 +9,8 @@
   "context_window": 32000,
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text"],
@@ -30,17 +31,23 @@
     "family": "a57f1b52",
     "status": "2e2f74dc",
     "context_window": "10e4d788",
-    "capabilities": "8a3b232e",
+    "capabilities": "fc36814c",
     "modalities": "68e53d93",
     "pricing": "70b90c36",
     "deprecation_date": "05154b0e",
     "model_type": "d669f408",
     "license": "9186c466",
     "page_url": "3dad9514",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "4731588a",
+    "tagline": "8255637f",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "license": "proprietary",
   "page_url": "https://docs.mistral.ai/models/mistral-medium-1-0-23-12",
-  "open_weight": false
+  "open_weight": false,
+  "description": "Our first SOTA enterprise grade model.",
+  "tagline": "Our frontier-class multimodal model released August 2025.",
+  "tools": ["function_calling"]
 }

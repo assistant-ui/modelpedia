@@ -3,7 +3,7 @@
   "name": "nemotron-3-nano-30b-a3b",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 262100,
   "capabilities": {
     "streaming": true,
@@ -16,10 +16,18 @@
   "_generated": {
     "name": "57b395d0",
     "context_window": "b23f4471",
+    "capabilities": "b011c6b4",
     "pricing": "ff82ca2c",
-    "capabilities": "b011c6b4"
+    "model_type": "d669f408",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 30,
-  "active_parameters": 3
+  "active_parameters": 3,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

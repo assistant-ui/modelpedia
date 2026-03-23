@@ -3,7 +3,7 @@
   "name": "imagen-4.0-ultra-generate-preview-06-06",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "status": "deprecated",
   "deprecation_date": "2026-02-17",
   "model_type": "image",
@@ -15,10 +15,15 @@
   "_generated": {
     "name": "f00a008b",
     "status": "2e2f74dc",
-    "model_type": "db8857fe",
     "deprecation_date": "c2ea1a8b",
+    "model_type": "db8857fe",
     "successor": "1f64ce27",
-    "modalities": "814867b9"
+    "modalities": "814867b9",
+    "family": "becf3f6b",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
   },
-  "family": "imagen-4.0"
+  "family": "imagen-4.0",
+  "license": "proprietary",
+  "open_weight": false
 }

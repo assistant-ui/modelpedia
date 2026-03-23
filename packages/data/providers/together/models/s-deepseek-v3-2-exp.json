@@ -20,8 +20,13 @@
     "capabilities": "0fa77dc6",
     "pricing": "dc324ffc",
     "page_url": "203f30a6",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "page_url": "https://www.together.ai/models/deepseek-v3-2-exp",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

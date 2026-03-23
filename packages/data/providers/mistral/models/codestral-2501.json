@@ -11,7 +11,8 @@
   "alias": "codestral",
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -28,15 +29,21 @@
     "status": "2e2f74dc",
     "deprecation_date": "70416073",
     "context_window": "34434798",
-    "capabilities": "8a3b232e",
+    "capabilities": "fc36814c",
     "modalities": "6399757e",
     "model_type": "b6cc3ff4",
     "pricing": "8eb8395f",
     "license": "ab728f55",
     "page_url": "1d8b3cb3",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "2d80e9af",
+    "tagline": "69e08f2a",
+    "tools": "f0c1dc7e"
   },
   "license": "mnpl",
   "page_url": "https://docs.mistral.ai/models/codestral-25-01",
-  "open_weight": true
+  "open_weight": true,
+  "description": "Our cutting-edge language model for coding. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.",
+  "tagline": "Our cutting-edge language model for coding.",
+  "tools": ["function_calling"]
 }

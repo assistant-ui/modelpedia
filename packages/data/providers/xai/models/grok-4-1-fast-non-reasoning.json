@@ -33,11 +33,13 @@
     "license": "9186c466",
     "page_url": "acec5ea3",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "knowledge_cutoff": "88ec15a4"
   },
   "model_type": "reasoning",
   "license": "proprietary",
   "page_url": "https://docs.x.ai/docs/models#grok-4-1-fast-non-reasoning",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "knowledge_cutoff": "2024-11"
 }

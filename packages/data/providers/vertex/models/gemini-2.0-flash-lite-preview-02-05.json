@@ -3,7 +3,7 @@
   "name": "gemini-2.0-flash-lite-preview-02-05",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "gemini-2.0",
   "status": "deprecated",
   "deprecation_date": "2025-12-09",
@@ -35,13 +35,18 @@
   },
   "_generated": {
     "name": "bef65298",
+    "family": "dc4aadf6",
     "status": "2e2f74dc",
     "deprecation_date": "c41dad30",
     "successor": "d833df9b",
-    "family": "dc4aadf6",
-    "pricing": "5eba8367",
     "capabilities": "8a3b232e",
-    "modalities": "6399757e"
+    "modalities": "6399757e",
+    "pricing": "5eba8367",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false
 }

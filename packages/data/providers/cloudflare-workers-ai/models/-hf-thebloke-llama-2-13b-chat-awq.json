@@ -15,10 +15,15 @@
     "model_type": "d669f408",
     "parameters": "c51ce410",
     "status": "379ac110",
-    "page_url": "05328910"
+    "page_url": "05328910",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 13,
   "status": "active",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#llama-2-13b-chat-awq"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#llama-2-13b-chat-awq",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

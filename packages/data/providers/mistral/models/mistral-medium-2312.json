@@ -32,10 +32,14 @@
     "model_type": "d669f408",
     "license": "9186c466",
     "page_url": "3dad9514",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "4731588a",
+    "tagline": "4731588a"
   },
   "model_type": "chat",
   "license": "proprietary",
   "page_url": "https://docs.mistral.ai/models/mistral-medium-1-0-23-12",
-  "open_weight": false
+  "open_weight": false,
+  "description": "Our first SOTA enterprise grade model.",
+  "tagline": "Our first SOTA enterprise grade model."
 }

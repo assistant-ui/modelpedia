@@ -3,14 +3,21 @@
   "name": "mathstral-7b-v0.1",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "d8ed53c5",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408",
+    "parameters": "8f14e45f",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 7
+  "parameters": 7,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

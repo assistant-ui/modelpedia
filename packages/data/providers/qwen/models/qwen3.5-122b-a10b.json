@@ -25,10 +25,22 @@
     "model_type": "d669f408",
     "capabilities": "b011c6b4",
     "modalities": "68e53d93",
-    "endpoints": "75df3f1c"
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "parameters": "a0a080f4",
+    "active_parameters": "d3d94468",
+    "provider": "a3af76f3",
+    "description": "c57cd06b",
+    "tagline": "d726fd41",
+    "page_url": "23162829",
+    "open_weight": "b326b506"
   },
   "license": "apache-2.0",
   "parameters": 122,
   "active_parameters": 10,
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "Supports text, image, and video inputs. It performs on par with Qwen3 Max on plain-text tasks while delivering superior performance at a lower cost. In multimodal capabilities, it delivers significant improvements over the Qwen3 VL series.",
+  "tagline": "Supports text, image, and video inputs.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": true
 }

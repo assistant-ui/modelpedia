@@ -20,9 +20,19 @@
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
     "endpoints": "75df3f1c",
-    "family": "2aadc089"
+    "family": "2aadc089",
+    "license": "9186c466",
+    "provider": "a3af76f3",
+    "description": "3eb34b9f",
+    "tagline": "ef938036",
+    "page_url": "23162829",
+    "open_weight": "68934a3e"
   },
   "family": "wan",
   "license": "proprietary",
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "Wan general image editing models enable diverse image editing tasks using simple instructions. Use cases include image expansion, watermark removal, style transfer, image inpainting, and image enhancement. [Usage](https://www.alibabacloud.com/help/en/document_detail/2874281.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2868981.html) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported. In this mode, the endpoint and data storage are located in the **Beijing region**, and inference computing resources are limited to Chinese Mainland.",
+  "tagline": "Wan general image editing models enable diverse image editing tasks using simple instructions.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": false
 }

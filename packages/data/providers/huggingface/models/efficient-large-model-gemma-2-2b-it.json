@@ -23,7 +23,8 @@
     "tagline": "5c9e52bd",
     "architecture": "8832ea0f",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 2.6,
@@ -35,5 +36,9 @@
   "tagline": "**Model Page**: [Gemma](https://ai.google.dev/gemma/docs/base)",
   "architecture": "transformer",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

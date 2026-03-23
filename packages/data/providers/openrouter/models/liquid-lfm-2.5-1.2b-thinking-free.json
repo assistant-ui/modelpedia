@@ -21,9 +21,11 @@
     "capabilities": "7107421f",
     "parameters": "56765472",
     "release_date": "76120ca1",
-    "tagline": "db8c57d9"
+    "tagline": "db8c57d9",
+    "model_type": "d669f408"
   },
   "parameters": 1.2,
   "release_date": "2026-01-20",
-  "tagline": "LFM2.5-1.2B-Thinking is a lightweight reasoning-focused model optimized for agentic tasks, data extraction, and RAG—while still running comfortably on edge devices."
+  "tagline": "LFM2.5-1.2B-Thinking is a lightweight reasoning-focused model optimized for agentic tasks, data extraction, and RAG—while still running comfortably on edge devices.",
+  "model_type": "chat"
 }

@@ -9,7 +9,8 @@
   "context_window": 8000,
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -22,14 +23,16 @@
     "family": "a0734f6e",
     "status": "379ac110",
     "context_window": "67ff32d4",
-    "capabilities": "8a3b232e",
+    "capabilities": "fc36814c",
     "modalities": "6399757e",
     "model_type": "764cb3de",
     "license": "ab728f55",
     "page_url": "f975ef08",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "license": "mnpl",
   "page_url": "https://docs.mistral.ai/models/codestral-embed-25-05",
-  "open_weight": true
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

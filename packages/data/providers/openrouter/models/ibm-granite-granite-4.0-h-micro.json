@@ -21,8 +21,10 @@
     "modalities": "68e53d93",
     "pricing": "86a7d684",
     "release_date": "ba1efbec",
-    "tagline": "dcc48859"
+    "tagline": "dcc48859",
+    "model_type": "d669f408"
   },
   "release_date": "2025-10-20",
-  "tagline": "Granite-4.0-H-Micro is a 3B parameter from the Granite 4 family of models."
+  "tagline": "Granite-4.0-H-Micro is a 3B parameter from the Granite 4 family of models.",
+  "model_type": "chat"
 }

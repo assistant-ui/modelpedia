@@ -23,10 +23,15 @@
     "model_type": "d669f408",
     "parameters": "577ef115",
     "active_parameters": "b6d767d2",
-    "page_url": "5a6738c5"
+    "page_url": "5a6738c5",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 235,
   "active_parameters": 22,
-  "page_url": "https://fireworks.ai/models/fireworks/qwen3-vl-235b-a22b-instruct"
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3-vl-235b-a22b-instruct",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

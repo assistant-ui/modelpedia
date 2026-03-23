@@ -16,12 +16,17 @@
     "active_parameters": "c20ad4d7",
     "status": "379ac110",
     "page_url": "e2f63b72",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 120,
   "active_parameters": 12,
   "status": "active",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#nemotron-3-120b-a12b",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

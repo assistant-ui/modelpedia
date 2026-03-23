@@ -21,8 +21,18 @@
     "model_type": "d669f408",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
-    "endpoints": "75df3f1c"
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "provider": "a3af76f3",
+    "description": "9e4f2402",
+    "tagline": "42103514",
+    "page_url": "23162829",
+    "open_weight": "b326b506"
   },
   "license": "apache-2.0",
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "Qwen image translation models support translating text in images from 11 languages into Chinese or English. They preserve the original layout and content precisely, and offer custom features such as term definitions, sensitive words filtering, and subject detection. [API reference](https://www.alibabacloud.com/help/en/document_detail/2977163.html) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported. In this mode, the endpoint and data storage are located in the **Beijing region**, and inference computing resources are limited to Chinese Mainland.",
+  "tagline": "Qwen image translation models support translating text in images from 11 languages into Chinese or English.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": true
 }

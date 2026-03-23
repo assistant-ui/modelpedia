@@ -9,7 +9,8 @@
   "context_window": 32000,
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text"],
@@ -27,16 +28,22 @@
     "family": "a0734f6e",
     "status": "2e2f74dc",
     "context_window": "10e4d788",
-    "capabilities": "8a3b232e",
+    "capabilities": "fc36814c",
     "modalities": "68e53d93",
     "pricing": "8eb8395f",
     "deprecation_date": "9b08fa35",
     "model_type": "b6cc3ff4",
     "license": "ab728f55",
     "page_url": "220f9e2d",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "ec3e1e9d",
+    "tagline": "af0f0276",
+    "tools": "f0c1dc7e"
   },
   "license": "mnpl",
   "page_url": "https://docs.mistral.ai/models/codestral-24-05",
-  "open_weight": true
+  "open_weight": true,
+  "description": "Our first cutting-edge language model for coding and FIM, released under the MNPL license.",
+  "tagline": "Our cutting-edge language model for code completion released end of July 2025, Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM) and code generation.",
+  "tools": ["function_calling"]
 }

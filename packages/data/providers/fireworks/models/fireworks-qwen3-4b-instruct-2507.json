@@ -23,9 +23,14 @@
     "pricing": "cb03f68e",
     "model_type": "d669f408",
     "parameters": "a87ff679",
-    "page_url": "df6aa3d5"
+    "page_url": "df6aa3d5",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 4,
-  "page_url": "https://fireworks.ai/models/fireworks/qwen3-4b-instruct-2507"
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3-4b-instruct-2507",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

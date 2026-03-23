@@ -22,9 +22,11 @@
     "pricing": "c22b9895",
     "parameters": "1679091c",
     "release_date": "ba1efbec",
-    "tagline": "bdc0bcc2"
+    "tagline": "bdc0bcc2",
+    "model_type": "d669f408"
   },
   "parameters": 6,
   "release_date": "2025-10-20",
-  "tagline": "LFM2 is a new generation of hybrid models developed by Liquid AI, specifically designed for edge AI and on-device deployment."
+  "tagline": "LFM2 is a new generation of hybrid models developed by Liquid AI, specifically designed for edge AI and on-device deployment.",
+  "model_type": "chat"
 }

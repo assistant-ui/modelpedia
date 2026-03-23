@@ -20,7 +20,8 @@
     "license": "60245731",
     "architecture": "31b2172c",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "model_type": "code",
   "parameters": 480,
@@ -31,5 +32,9 @@
   "license": "apache-2.0",
   "architecture": "moe",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

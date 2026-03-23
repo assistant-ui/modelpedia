@@ -21,8 +21,13 @@
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "d669f408",
-    "page_url": "783b082d"
+    "page_url": "783b082d",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "page_url": "https://fireworks.ai/models/fireworks/mistral-large-3-fp8"
+  "page_url": "https://fireworks.ai/models/fireworks/mistral-large-3-fp8",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

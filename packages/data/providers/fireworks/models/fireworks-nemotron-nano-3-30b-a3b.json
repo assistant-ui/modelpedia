@@ -21,10 +21,15 @@
     "model_type": "d669f408",
     "parameters": "34173cb3",
     "active_parameters": "eccbc87e",
-    "page_url": "fff801dd"
+    "page_url": "fff801dd",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 30,
   "active_parameters": 3,
-  "page_url": "https://fireworks.ai/models/fireworks/nemotron-nano-3-30b-a3b"
+  "page_url": "https://fireworks.ai/models/fireworks/nemotron-nano-3-30b-a3b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

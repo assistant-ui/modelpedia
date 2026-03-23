@@ -3,7 +3,7 @@
   "name": "gemma-2b",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemma-2b",
   "capabilities": {
     "streaming": true
@@ -11,8 +11,15 @@
   "_generated": {
     "name": "3349c229",
     "family": "3349c229",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408",
+    "parameters": "c81e728d",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 2
+  "parameters": 2,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

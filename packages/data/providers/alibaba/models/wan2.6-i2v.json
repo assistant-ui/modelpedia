@@ -21,9 +21,15 @@
     "endpoints": "75df3f1c",
     "family": "68010df8",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "0625f079",
+    "page_url": "23162829",
+    "tagline": "a373f6ea"
   },
   "family": "wan2.6",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "description": "Wan image-to-video models use your input image as the first frame, then generate a video based on your prompt, delivering rich artistic styles and cinematic quality. [API reference](https://www.alibabacloud.com/help/en/document_detail/2867393.html) \\| [Try it online](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global In the [global deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are located in the **US (Virginia) region**. Model inference compute resources are dynamically scheduled globally.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "tagline": "Wan image-to-video models use your input image as the first frame, then generate a video based on your prompt, delivering rich artistic styles and cinematic quality."
 }

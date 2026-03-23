@@ -26,11 +26,15 @@
     "family": "27f7c201",
     "license": "60245731",
     "page_url": "93d7cba2",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "81f57540",
+    "tagline": "81f57540"
   },
   "model_type": "chat",
   "family": "mistral-saba",
   "license": "apache-2.0",
   "page_url": "https://docs.mistral.ai/models/mistral-saba-25-02",
-  "open_weight": true
+  "open_weight": true,
+  "description": "A finetuned Small model trained on meticulously curated datasets from across the Middle East and South Asia.",
+  "tagline": "A finetuned Small model trained on meticulously curated datasets from across the Middle East and South Asia."
 }

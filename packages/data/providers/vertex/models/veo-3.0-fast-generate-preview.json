@@ -3,7 +3,7 @@
   "name": "veo-3.0-fast-generate-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "status": "deprecated",
   "deprecation_date": "2025-11-12",
   "model_type": "video",
@@ -15,10 +15,15 @@
   "_generated": {
     "name": "95965c73",
     "status": "2e2f74dc",
-    "model_type": "4d1b75ca",
     "deprecation_date": "6364276c",
+    "model_type": "4d1b75ca",
     "successor": "e5a98dda",
-    "modalities": "94e5e9ab"
+    "modalities": "94e5e9ab",
+    "family": "adc96752",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
   },
-  "family": "veo-3.0"
+  "family": "veo-3.0",
+  "license": "proprietary",
+  "open_weight": false
 }

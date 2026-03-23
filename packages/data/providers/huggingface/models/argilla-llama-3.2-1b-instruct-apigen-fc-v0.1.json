@@ -22,7 +22,8 @@
     "tagline": "c6d1ddde",
     "architecture": "8832ea0f",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "family": "Llama-3.2",
   "model_type": "chat",
@@ -35,5 +36,9 @@
   "tagline": "This model is a fine-tuned version of [meta-llama/Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) on [argilla-warehouse/apigen-synth-trl](https://huggingface.co/datasets/argilla-warehouse/apigen-synth-trl) dataset, a version of [argilla/Synth-APIGen-v0.1](https://huggingface.co/datasets/argilla-warehouse/Synth-APIGen-v0.1) ready to do SFT on top of it.",
   "architecture": "transformer",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

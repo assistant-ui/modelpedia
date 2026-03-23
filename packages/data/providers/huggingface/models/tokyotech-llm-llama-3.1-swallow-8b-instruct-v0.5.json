@@ -22,7 +22,8 @@
     "tagline": "e4c79722",
     "architecture": "8832ea0f",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "family": "Llama-3.1",
   "model_type": "chat",
@@ -35,5 +36,9 @@
   "tagline": "Llama 3.1 Swallow is a series of large language models (8B, 70B) that were built by continual pre-training on the [Meta Llama 3.1](https://huggingface.co/collections/meta-llama/llama-31-669fc079a0c406a149a5738f) models.",
   "architecture": "transformer",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

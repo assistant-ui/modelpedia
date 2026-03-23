@@ -21,9 +21,14 @@
     "pricing": "cb03f68e",
     "model_type": "b6cc3ff4",
     "parameters": "1ff1de77",
-    "page_url": "a7c64047"
+    "page_url": "a7c64047",
+    "modalities": "68e53d93"
   },
   "model_type": "code",
   "parameters": 24,
-  "page_url": "https://fireworks.ai/models/fireworks/devstral-small-2-24b-instruct-2512"
+  "page_url": "https://fireworks.ai/models/fireworks/devstral-small-2-24b-instruct-2512",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

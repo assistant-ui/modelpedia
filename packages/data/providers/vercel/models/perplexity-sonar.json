@@ -11,19 +11,24 @@
     "tool_call": true
   },
   "pricing": {
-    "input": 1,
-    "output": 1
+    "input": 0,
+    "output": 0
   },
   "_generated": {
     "name": "8b8f2acb",
     "context_window": "3b764336",
     "capabilities": "fc36814c",
-    "pricing": "5418a9a1",
+    "pricing": "9a7a9781",
     "family": "8b8f2acb",
     "model_type": "d669f408",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "family": "sonar",
   "model_type": "chat",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

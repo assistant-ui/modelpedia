@@ -9,7 +9,8 @@
   "alias": "magistral-small",
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -23,18 +24,24 @@
     "name": "f9d3081f",
     "status": "379ac110",
     "context_window": "34434798",
-    "capabilities": "8a3b232e",
+    "capabilities": "fc36814c",
     "modalities": "6399757e",
     "pricing": "2c3abb73",
     "model_type": "17475f7f",
     "family": "b2c75a88",
     "license": "60245731",
     "page_url": "5a920b5e",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "cb9a7083",
+    "tagline": "cb9a7083",
+    "tools": "f0c1dc7e"
   },
   "model_type": "reasoning",
   "family": "magistral",
   "license": "apache-2.0",
   "page_url": "https://docs.mistral.ai/models/magistral-small-1-2-25-09",
-  "open_weight": true
+  "open_weight": true,
+  "description": "Our small multimodal reasoning model update of September 2025.",
+  "tagline": "Our small multimodal reasoning model update of September 2025.",
+  "tools": ["function_calling"]
 }

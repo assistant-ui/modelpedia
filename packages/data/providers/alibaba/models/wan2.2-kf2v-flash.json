@@ -21,9 +21,15 @@
     "endpoints": "75df3f1c",
     "family": "222d75c9",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "9c19e3c1",
+    "page_url": "23162829",
+    "tagline": "d698878b"
   },
   "family": "wan2.2",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "description": "Wan first-and-last-frame video generation models generate smooth, fluid videos from just two input frames, the first and last, plus a prompt. Videos feature rich artistic styles and cinematic quality. [API reference](https://www.alibabacloud.com/help/en/document_detail/2880649.html) \\| [Try it online](https://wan.video/wanxiang/videoCreation) ## International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled globally, excluding Chinese Mainland.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "tagline": "Wan first-and-last-frame video generation models generate smooth, fluid videos from just two input frames, the first and last, plus a prompt."
 }

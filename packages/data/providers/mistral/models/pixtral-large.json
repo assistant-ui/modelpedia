@@ -9,7 +9,8 @@
   "context_window": 128000,
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -25,16 +26,18 @@
     "family": "c606df51",
     "status": "379ac110",
     "context_window": "34434798",
-    "capabilities": "8a3b232e",
+    "capabilities": "fc36814c",
     "modalities": "6399757e",
     "pricing": "e205efd3",
     "model_type": "d669f408",
     "license": "ab728f55",
     "page_url": "a3a96493",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "license": "mnpl",
   "page_url": "https://docs.mistral.ai/models/pixtral-large-24-11",
-  "open_weight": true
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

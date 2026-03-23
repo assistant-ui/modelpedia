@@ -25,9 +25,11 @@
     "modalities": "68e53d93",
     "family": "764cb3de",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "page_url": "fbbd93a4"
   },
   "family": "embed",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "page_url": "https://docs.cohere.com/docs/models#embed-english-light-v2.0"
 }

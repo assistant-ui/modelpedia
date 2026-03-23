@@ -10,7 +10,8 @@
   "alias": "magistral-medium",
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -25,18 +26,24 @@
     "status": "2e2f74dc",
     "deprecation_date": "2bddea11",
     "context_window": "7c77f048",
-    "capabilities": "8a3b232e",
+    "capabilities": "fc36814c",
     "modalities": "6399757e",
     "pricing": "383111d1",
     "model_type": "17475f7f",
     "family": "b2c75a88",
     "license": "9186c466",
     "page_url": "ab791fdd",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "705562b5",
+    "tagline": "705562b5",
+    "tools": "f0c1dc7e"
   },
   "model_type": "reasoning",
   "family": "magistral",
   "license": "proprietary",
   "page_url": "https://docs.mistral.ai/models/magistral-medium-1-1-25-07",
-  "open_weight": false
+  "open_weight": false,
+  "description": "Our frontier-class reasoning model released July 2025.",
+  "tagline": "Our frontier-class reasoning model released July 2025.",
+  "tools": ["function_calling"]
 }

@@ -10,7 +10,8 @@
   "alias": "devstral-medium",
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -26,15 +27,21 @@
     "family": "e626e93e",
     "status": "379ac110",
     "context_window": "34434798",
-    "capabilities": "8a3b232e",
+    "capabilities": "fc36814c",
     "modalities": "6399757e",
     "pricing": "70b90c36",
     "model_type": "b6cc3ff4",
     "license": "9186c466",
     "page_url": "975dd11e",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "7fc25f0c",
+    "tagline": "7fc25f0c",
+    "tools": "f0c1dc7e"
   },
   "license": "proprietary",
   "page_url": "https://docs.mistral.ai/models/devstral-medium-1-0-25-07",
-  "open_weight": false
+  "open_weight": false,
+  "description": "An enterprise grade text model, that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
+  "tagline": "An enterprise grade text model, that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
+  "tools": ["function_calling"]
 }

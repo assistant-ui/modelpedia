@@ -21,8 +21,13 @@
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "17475f7f",
-    "page_url": "49888190"
+    "page_url": "49888190",
+    "modalities": "68e53d93"
   },
   "model_type": "reasoning",
-  "page_url": "https://fireworks.ai/models/fireworks/deepseek-r1-distill-qwen-1p5b"
+  "page_url": "https://fireworks.ai/models/fireworks/deepseek-r1-distill-qwen-1p5b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

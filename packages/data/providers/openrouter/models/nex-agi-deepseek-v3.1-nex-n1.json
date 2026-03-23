@@ -31,9 +31,11 @@
     "pricing": "0f7797d7",
     "release_date": "57064400",
     "tagline": "cee355cc",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "model_type": "d669f408"
   },
   "release_date": "2025-12-08",
   "tagline": "DeepSeek V3.1 Nex-N1 is the flagship release of the Nex-N1 series — a post-trained model designed to highlight agent autonomy, tool use, and real-world productivity.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "model_type": "chat"
 }

@@ -20,8 +20,18 @@
     "model_type": "4e16a2cf",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
-    "endpoints": "75df3f1c"
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "provider": "a3af76f3",
+    "description": "1e45d627",
+    "tagline": "363f1a72",
+    "page_url": "23162829",
+    "open_weight": "b326b506"
   },
   "license": "apache-2.0",
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "Supports streaming text input and streaming audio output. It can automatically adjust the speech rate based on the text content and punctuation. [Usage](https://www.alibabacloud.com/help/en/document_detail/2938790.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2938849.html) Qwen3-TTS-Instruct-Flash-Realtime supports [Qwen real-time speech synthesis](https://www.alibabacloud.com/help/en/document_detail/2938790.html#12884a10929p9) and can only use the default voice. It does not support cloned or designed voices. Qwen3-TTS-VD-Realtime supports using voices from [Qwen voice design API reference](https://www.alibabacloud.com/help/en/document_detail/3000986.html) for real-time speech synthesis, but does not support the default voice. Qwen3-TTS-VC-Realtime supports using voices from [Qwen voice cloning API reference](https://www.alibabacloud.com/help/en/document_detail/2975034.html) for real-time speech synthesis, but does not support the default voice. Qwen3-TTS-Flash-Realtime and Qwen-TTS-Realtime can only use the default voice. They do not support cloned or designed voices. #### International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoints and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide (excluding Chinese Mainland). ##### **Qwen3-TTS-Instruct-Flash-Realtime**",
+  "tagline": "Supports streaming text input and streaming audio output.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": true
 }

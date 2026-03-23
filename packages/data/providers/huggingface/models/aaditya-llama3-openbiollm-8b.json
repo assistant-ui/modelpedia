@@ -20,7 +20,8 @@
     "license": "c1eeabcd",
     "tagline": "71aebfb5",
     "architecture": "8832ea0f",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
   },
   "description": "Introducing OpenBioLLM-8B: A State-of-the-Art Open Source Biomedical Large Language Model",
   "release_date": "2024-04-20",
@@ -28,5 +29,9 @@
   "license": "llama3",
   "tagline": "Introducing OpenBioLLM-8B: A State-of-the-Art Open Source Biomedical Large Language Model",
   "architecture": "transformer",
-  "open_weight": true
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

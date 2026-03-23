@@ -13,10 +13,15 @@
     "parameters": "8f14e45f",
     "status": "379ac110",
     "model_type": "d669f408",
-    "page_url": "ff518322"
+    "page_url": "ff518322",
+    "modalities": "68e53d93"
   },
   "parameters": 7,
   "status": "active",
   "model_type": "chat",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#neural-chat-7b-v3-1-awq"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#neural-chat-7b-v3-1-awq",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

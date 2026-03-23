@@ -3,7 +3,7 @@
   "name": "trinity-mini",
   "created_by": "arcee",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 131100,
   "capabilities": {
     "streaming": true
@@ -15,7 +15,14 @@
   "_generated": {
     "name": "1039627e",
     "context_window": "a683b9ae",
+    "capabilities": "0fa77dc6",
     "pricing": "fc860924",
-    "capabilities": "0fa77dc6"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

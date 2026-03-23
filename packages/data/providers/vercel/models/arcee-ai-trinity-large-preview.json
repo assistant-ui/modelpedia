@@ -18,7 +18,14 @@
     "context_window": "834bd590",
     "capabilities": "48995a4e",
     "pricing": "f691bdc3",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

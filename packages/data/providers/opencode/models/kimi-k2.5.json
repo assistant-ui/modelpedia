@@ -19,8 +19,13 @@
     "capabilities": "0fa77dc6",
     "pricing": "b1e4b497",
     "family": "69ffee7b",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "kimi-k2.5",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

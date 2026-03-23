@@ -13,10 +13,15 @@
     "parameters": "8f14e45f",
     "status": "379ac110",
     "model_type": "d669f408",
-    "page_url": "33496691"
+    "page_url": "33496691",
+    "modalities": "68e53d93"
   },
   "parameters": 7,
   "status": "active",
   "model_type": "chat",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#una-cybertron-7b-v2-bf16"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#una-cybertron-7b-v2-bf16",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

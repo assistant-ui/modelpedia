@@ -21,7 +21,8 @@
     "tagline": "686623aa",
     "architecture": "31b2172c",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "family": "GLM-4.7",
   "model_type": "chat",
@@ -33,5 +34,9 @@
   "tagline": "👋 Join our <a href=\"https://discord.gg/QR7SARHRxK\" target=\"_blank\">Discord</a> community.",
   "architecture": "moe",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

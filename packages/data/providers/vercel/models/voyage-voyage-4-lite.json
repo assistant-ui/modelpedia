@@ -3,7 +3,7 @@
   "name": "voyage-4-lite",
   "created_by": "voyage",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 32000,
   "capabilities": {
     "streaming": true
@@ -15,7 +15,9 @@
   "_generated": {
     "name": "82261d22",
     "context_window": "10e4d788",
+    "capabilities": "0fa77dc6",
     "pricing": "8d85a56c",
-    "capabilities": "0fa77dc6"
-  }
+    "model_type": "764cb3de"
+  },
+  "model_type": "embed"
 }

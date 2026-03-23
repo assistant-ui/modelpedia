@@ -21,8 +21,13 @@
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "d669f408",
-    "page_url": "c885dcff"
+    "page_url": "c885dcff",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "page_url": "https://fireworks.ai/models/fireworks/mixtral-8x22b-instruct"
+  "page_url": "https://fireworks.ai/models/fireworks/mixtral-8x22b-instruct",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

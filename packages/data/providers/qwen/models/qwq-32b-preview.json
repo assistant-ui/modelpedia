@@ -30,9 +30,20 @@
     "capabilities": "b011c6b4",
     "modalities": "68e53d93",
     "pricing": "24fc5ef4",
-    "endpoints": "75df3f1c"
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "parameters": "6364d3f0",
+    "provider": "a3af76f3",
+    "description": "a6ad7b95",
+    "tagline": "ac8c2f53",
+    "page_url": "23162829",
+    "open_weight": "b326b506"
   },
   "license": "apache-2.0",
   "parameters": 32,
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "qwq-32b-preview is an experimental research model developed by the Qwen team in 2024. It focuses on enhancing AI reasoning, especially for math and programming. For its limitations, see the [QwQ official blog](https://qwenlm.github.io/zh/blog/qwq-32b-preview/#%E6%A8%A1%E5%9E%8B%E5%B1%80%E9%99%90%E6%80%A7). [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwq-32b-preview) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported. In this mode, the endpoint and data storage are located in the **Beijing region**, and inference computing resources are limited to Chinese Mainland.",
+  "tagline": "qwq-32b-preview is an experimental research model developed by the Qwen team in 2024.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": true
 }

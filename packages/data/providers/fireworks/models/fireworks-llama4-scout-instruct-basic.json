@@ -19,8 +19,13 @@
     "capabilities": "0fa77dc6",
     "pricing": "6281dcf5",
     "model_type": "d669f408",
-    "page_url": "4cfe4312"
+    "page_url": "4cfe4312",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "page_url": "https://fireworks.ai/models/fireworks/llama4-scout-instruct-basic"
+  "page_url": "https://fireworks.ai/models/fireworks/llama4-scout-instruct-basic",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

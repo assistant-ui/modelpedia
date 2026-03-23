@@ -37,9 +37,11 @@
     "endpoints": "75df3f1c",
     "family": "8e3865ab",
     "license": "2c8e76b8",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "page_url": "4c3aec0b"
   },
   "family": "command-a",
   "license": "cc-by-nc-4.0",
-  "open_weight": true
+  "open_weight": true,
+  "page_url": "https://docs.cohere.com/docs/models#command-a-vision-07-2025"
 }

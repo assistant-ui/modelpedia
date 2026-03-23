@@ -10,7 +10,8 @@
   "alias": "mistral-medium",
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -25,16 +26,22 @@
     "family": "a57f1b52",
     "status": "379ac110",
     "context_window": "34434798",
-    "capabilities": "8a3b232e",
+    "capabilities": "fc36814c",
     "modalities": "6399757e",
     "pricing": "70b90c36",
     "model_type": "d669f408",
     "license": "9186c466",
     "page_url": "f5e07b75",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "7c125ea2",
+    "tagline": "8255637f",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "license": "proprietary",
   "page_url": "https://docs.mistral.ai/models/mistral-medium-3-25-05",
-  "open_weight": false
+  "open_weight": false,
+  "description": "Our frontier-class multimodal model released August 2025. Improving tone and performance.",
+  "tagline": "Our frontier-class multimodal model released August 2025.",
+  "tools": ["function_calling"]
 }

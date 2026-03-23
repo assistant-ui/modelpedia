@@ -29,8 +29,18 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "pricing": "db951532",
-    "endpoints": "75df3f1c"
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "provider": "a3af76f3",
+    "description": "260feaa9",
+    "tagline": "5370f7b5",
+    "page_url": "23162829",
+    "open_weight": "b326b506"
   },
   "license": "apache-2.0",
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "The Qwen data mining model extracts structured information from documents for use in data annotation, content moderation, and other applications. [Usage](https://www.alibabacloud.com/help/en/document_detail/2948885.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported. In this mode, the endpoint and data storage are located in the **Beijing region**, and inference computing resources are limited to Chinese Mainland.",
+  "tagline": "The Qwen data mining model extracts structured information from documents for use in data annotation, content moderation, and other applications.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": true
 }

@@ -3,7 +3,7 @@
   "name": "longcat-flash-thinking-2601",
   "created_by": "meituan",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 32800,
   "alias": "meituan/longcat-flash-thinking",
   "capabilities": {
@@ -17,7 +17,14 @@
   "_generated": {
     "name": "94ab86ea",
     "context_window": "74a190a6",
+    "capabilities": "b011c6b4",
     "pricing": "9a7a9781",
-    "capabilities": "b011c6b4"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

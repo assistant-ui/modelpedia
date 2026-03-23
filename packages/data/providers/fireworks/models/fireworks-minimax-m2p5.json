@@ -20,9 +20,14 @@
     "pricing": "af2df236",
     "family": "c85916f0",
     "model_type": "d669f408",
-    "page_url": "29171766"
+    "page_url": "29171766",
+    "modalities": "68e53d93"
   },
   "family": "minimax",
   "model_type": "chat",
-  "page_url": "https://fireworks.ai/models/fireworks/minimax-m2p5"
+  "page_url": "https://fireworks.ai/models/fireworks/minimax-m2p5",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

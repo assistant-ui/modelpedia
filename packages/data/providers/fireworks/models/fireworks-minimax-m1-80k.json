@@ -18,9 +18,14 @@
     "pricing": "cb03f68e",
     "family": "c85916f0",
     "model_type": "d669f408",
-    "page_url": "4ee248d7"
+    "page_url": "4ee248d7",
+    "modalities": "68e53d93"
   },
   "family": "minimax",
   "model_type": "chat",
-  "page_url": "https://fireworks.ai/models/fireworks/minimax-m1-80k"
+  "page_url": "https://fireworks.ai/models/fireworks/minimax-m1-80k",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

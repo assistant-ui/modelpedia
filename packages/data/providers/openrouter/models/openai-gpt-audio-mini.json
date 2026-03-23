@@ -29,8 +29,10 @@
     "capabilities": "c8033cf7",
     "pricing": "e9aad47c",
     "release_date": "aaadbdbb",
-    "tagline": "24fe34a9"
+    "tagline": "24fe34a9",
+    "model_type": "d669f408"
   },
   "release_date": "2026-01-19",
-  "tagline": "A cost-efficient version of GPT Audio."
+  "tagline": "A cost-efficient version of GPT Audio.",
+  "model_type": "chat"
 }

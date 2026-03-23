@@ -21,10 +21,23 @@
     "model_type": "d669f408",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "description": "0038732e",
+    "context_window": "34434798",
+    "tagline": "7d9f13ca",
+    "page_url": "5a829418",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "description": "A powerful research model capable of conducting exhaustive searches across hundreds of sources, synthesizing expert-level insights, and generating detailed reports with comprehensive analysis.",
+  "context_window": 128000,
+  "tagline": "Exhaustive research with expert-level insights",
+  "page_url": "https://docs.perplexity.ai/docs/sonar/models/sonar-deep-research",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

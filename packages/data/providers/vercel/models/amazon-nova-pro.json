@@ -3,7 +3,7 @@
   "name": "nova-pro",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 300000,
   "capabilities": {
     "streaming": true
@@ -15,8 +15,14 @@
   "_generated": {
     "name": "71d1364c",
     "context_window": "1ded704c",
+    "capabilities": "0fa77dc6",
     "pricing": "c3acde52",
-    "capabilities": "0fa77dc6"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

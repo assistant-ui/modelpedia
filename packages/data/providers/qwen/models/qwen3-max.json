@@ -26,8 +26,20 @@
     "model_type": "d669f408",
     "capabilities": "a281e83a",
     "modalities": "68e53d93",
-    "endpoints": "75df3f1c"
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "provider": "a3af76f3",
+    "description": "d5351250",
+    "tagline": "ad8ef47d",
+    "page_url": "23162829",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "license": "apache-2.0",
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are both located in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide (excluding Chinese Mainland).",
+  "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }
