@@ -3,12 +3,18 @@
   "name": "aura-1",
   "created_by": "deepgram",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "ba3ecd17",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "page_url": "9dfb2e04"
+  },
+  "status": "active",
+  "model_type": "tts",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#aura-1"
 }

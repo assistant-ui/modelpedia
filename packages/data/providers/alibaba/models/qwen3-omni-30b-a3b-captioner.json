@@ -3,7 +3,7 @@
   "name": "qwen3-omni-30b-a3b-captioner",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "context_window": 65536,
   "max_output_tokens": 32768,
@@ -29,6 +29,14 @@
     "capabilities": "0fa77dc6",
     "modalities": "d65b34d6",
     "pricing": "f505ae15",
-    "endpoints": "75df3f1c"
-  }
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "open_weight": "b326b506"
+  },
+  "license": "apache-2.0",
+  "parameters": 30,
+  "active_parameters": 3,
+  "open_weight": true
 }

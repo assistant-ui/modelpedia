@@ -1,0 +1,33 @@
+{
+  "id": "qwen2.5-7b-instruct-1m",
+  "name": "qwen2.5-7b-instruct-1m",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "qwen2.5",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.368,
+    "output": 1.47
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "9d9f072a",
+    "family": "45d84b68",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "c8b8da38",
+    "endpoints": "75df3f1c"
+  },
+  "license": "apache-2.0",
+  "parameters": 7,
+  "provider": "qwen"
+}

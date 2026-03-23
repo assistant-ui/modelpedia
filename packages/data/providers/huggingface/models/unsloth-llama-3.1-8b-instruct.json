@@ -3,12 +3,33 @@
   "name": "Llama-3.1-8B-Instruct",
   "created_by": "unsloth",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "fe572994",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "family": "6cef7f07",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "page_url": "64af122c",
+    "release_date": "0f9961b0",
+    "context_window": "f7de594e",
+    "license": "2464c384",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "family": "Llama-3.1",
+  "model_type": "chat",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/unsloth/Llama-3.1-8B-Instruct",
+  "release_date": "2025-02-15",
+  "context_window": 131072,
+  "license": "llama3.1",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

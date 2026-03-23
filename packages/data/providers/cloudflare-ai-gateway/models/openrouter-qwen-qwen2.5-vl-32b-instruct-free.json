@@ -8,5 +8,7 @@
   "_generated": {
     "name": "99b3a8e8",
     "family": "45d84b68"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 32
 }

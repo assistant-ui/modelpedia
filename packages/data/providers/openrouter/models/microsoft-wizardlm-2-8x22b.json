@@ -3,7 +3,7 @@
   "name": "WizardLM-2 8x22B",
   "created_by": "microsoft",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "WizardLM-2 8x22B is Microsoft AI's most advanced Wizard model.",
   "context_window": 65535,
   "max_output_tokens": 8000,
@@ -20,7 +20,11 @@
     "description": "cd6d35d2",
     "context_window": "3c9b5f1c",
     "max_output_tokens": "67ff32d4",
+    "modalities": "68e53d93",
     "pricing": "74e2e670",
-    "modalities": "68e53d93"
-  }
+    "release_date": "8d955188",
+    "tagline": "cd6d35d2"
+  },
+  "release_date": "2024-04-16",
+  "tagline": "WizardLM-2 8x22B is Microsoft AI's most advanced Wizard model."
 }

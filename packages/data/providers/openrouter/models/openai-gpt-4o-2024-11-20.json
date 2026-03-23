@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-4o (2024-11-20)",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4o",
   "description": "The 2024-11-20 version of GPT-4o offers a leveled-up creative writing ability with more natural, engaging, and tailored writing to improve relevance & readability.",
   "context_window": 128000,
@@ -23,12 +23,21 @@
   },
   "_generated": {
     "name": "9b2c9ff4",
+    "family": "15249632",
     "description": "8630e402",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
-    "family": "15249632",
-    "pricing": "042a06e1",
+    "modalities": "6399757e",
     "capabilities": "ad177261",
-    "modalities": "6399757e"
-  }
+    "pricing": "042a06e1",
+    "model_type": "d669f408",
+    "release_date": "090277ab",
+    "tagline": "8630e402",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2024-11-20",
+  "alias": "openai/gpt-4o",
+  "tagline": "The 2024-11-20 version of GPT-4o offers a leveled-up creative writing ability with more natural, engaging, and tailored writing to improve relevance & readability.",
+  "tools": ["function_calling"]
 }

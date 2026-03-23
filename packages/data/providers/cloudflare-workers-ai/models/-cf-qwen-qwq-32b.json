@@ -3,14 +3,23 @@
   "name": "qwq-32b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwq",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "2d469a71",
     "family": "3a976110",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "b011c6b4",
+    "model_type": "17475f7f",
+    "parameters": "6364d3f0",
+    "status": "379ac110",
+    "page_url": "dcf9b805"
+  },
+  "model_type": "reasoning",
+  "parameters": 32,
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#qwq-32b"
 }

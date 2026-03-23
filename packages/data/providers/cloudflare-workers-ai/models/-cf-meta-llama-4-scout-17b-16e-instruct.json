@@ -3,7 +3,7 @@
   "name": "llama-4-scout-17b-16e-instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-4",
   "capabilities": {
     "streaming": true
@@ -11,6 +11,14 @@
   "_generated": {
     "name": "f515d1c6",
     "family": "3169363f",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408",
+    "parameters": "70efdf2e",
+    "status": "379ac110",
+    "page_url": "fd199b6c"
+  },
+  "model_type": "chat",
+  "parameters": 17,
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#llama-4-scout-17b-16e-instruct"
 }

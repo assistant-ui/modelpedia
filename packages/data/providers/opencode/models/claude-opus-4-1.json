@@ -3,21 +3,24 @@
   "name": "Claude Opus 4.1",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "claude-opus",
   "status": "active",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 15
+    "input": 15,
+    "output": 75,
+    "cached_input": 1.5,
+    "cache_write": 18.75
   },
   "_generated": {
     "name": "187df218",
-    "status": "379ac110",
     "family": "4e4c4b18",
-    "pricing": "8b8ccb35",
+    "status": "379ac110",
     "capabilities": "0fa77dc6",
+    "pricing": "9245cec0",
     "model_type": "d669f408"
   },
   "model_type": "chat"

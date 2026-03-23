@@ -3,7 +3,7 @@
   "name": "Llama 3.1 8B",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-3.1",
   "status": "active",
   "context_window": 131072,
@@ -24,13 +24,21 @@
   },
   "_generated": {
     "name": "051379cb",
+    "family": "83ec32db",
     "status": "379ac110",
-    "model_type": "d669f408",
     "context_window": "f7de594e",
     "max_output_tokens": "f7de594e",
-    "family": "83ec32db",
-    "pricing": "2d9c62a3",
+    "model_type": "d669f408",
     "capabilities": "6c301a15",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "pricing": "2d9c62a3",
+    "parameters": "c9f0f895",
+    "speed": "a9a6653e",
+    "page_url": "4a3d45b9",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 8,
+  "speed": 560,
+  "page_url": "https://console.groq.com/docs/models#llama-3.1-8b-instant",
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "Microsoft: Phi 4",
   "created_by": "microsoft",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "[Microsoft Research](/microsoft) Phi-4 is designed to perform well in complex reasoning tasks and can operate efficiently in situations with limited memory or where quick responses are needed.",
   "context_window": 16384,
   "max_output_tokens": 16384,
@@ -23,8 +23,12 @@
     "description": "5a839d84",
     "context_window": "c76fe1d8",
     "max_output_tokens": "c76fe1d8",
-    "pricing": "0ef670c7",
+    "modalities": "68e53d93",
     "capabilities": "c8033cf7",
-    "modalities": "68e53d93"
-  }
+    "pricing": "0ef670c7",
+    "release_date": "aded74a0",
+    "tagline": "5a839d84"
+  },
+  "release_date": "2025-01-10",
+  "tagline": "[Microsoft Research](/microsoft) Phi-4 is designed to perform well in complex reasoning tasks and can operate efficiently in situations with limited memory or where quick responses are needed."
 }

@@ -1,6 +1,8 @@
 {
   "name": "modelpedia",
   "short_name": "modelpedia",
+  "description": "Open catalog of AI models — specs, pricing, and capabilities across 30+ providers.",
+  "start_url": "/",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

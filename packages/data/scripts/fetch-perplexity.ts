@@ -111,6 +111,7 @@ async function main() {
       name: m.id,
       created_by: extractCreatedBy(m.id),
       family: inferFamily(m.id),
+      license: "proprietary",
       release_date: releaseDate,
       capabilities: {
         streaming: true,
@@ -140,6 +141,7 @@ async function main() {
       name: id,
       created_by: extractCreatedBy(id),
       family: inferFamily(id),
+      license: "proprietary",
       capabilities: { streaming: true },
       pricing: {
         input: p.input,
@@ -168,11 +170,33 @@ async function main() {
         ...md.matchAll(/\\?\$([\d.]+)[\s\S]*?Per 1M Tokens/g),
       ].map((m) => Number(m[1]));
 
+      // Context window: "<h3 ...>128K context length</h3>"
+      const ctxMatch = md.match(/(\d+)K\s+context\s+length/i);
+      const contextWindow = ctxMatch ? Number(ctxMatch[1]) * 1000 : undefined;
+
+      // Description: inside <p className="text-lg text-foreground leading-relaxed">...</p>
+      const descMatch = md.match(
+        /<p\s+className="text-lg[^"]*">\s*\n?\s*(.+?)\s*\n?\s*<\/p>/,
+      );
+      const description = descMatch ? descMatch[1].trim() : undefined;
+
+      // Tagline: inside <p className="text-sm text-muted-foreground">...</p> after the h1
+      const taglineMatch = md.match(
+        /<h1[^>]*>.*?<\/h1>\s*\n\s*<p\s+className="text-sm text-muted-foreground">(.+?)<\/p>/,
+      );
+      const tagline = taglineMatch ? taglineMatch[1].trim() : undefined;
+
+      const pageUrl = url.replace(/\.md$/, "");
       const entry = {
         id,
         name: id,
         created_by: "perplexity",
         family: "sonar",
+        license: "proprietary",
+        page_url: pageUrl,
+        ...(description ? { description } : {}),
+        ...(tagline ? { tagline } : {}),
+        ...(contextWindow ? { context_window: contextWindow } : {}),
         capabilities: {
           streaming: true,
           tool_call: true,

@@ -3,12 +3,37 @@
   "name": "Meta-Llama-3.1-8B-Instruct",
   "created_by": "unsloth",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "7f0f2685",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "family": "6cef7f07",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "page_url": "8a74a1f7",
+    "description": "2e9eafc0",
+    "release_date": "7be3efeb",
+    "context_window": "f7de594e",
+    "license": "2464c384",
+    "tagline": "2e9eafc0",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "family": "Llama-3.1",
+  "model_type": "chat",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/unsloth/Meta-Llama-3.1-8B-Instruct",
+  "description": "We have a free Google Colab Tesla T4 notebook for Llama 3.1 (8B) here: https://colab.research.google.com/drive/1Ys44kVvmeZtnICzWz0xgpRnrIOjZAuxp?usp=sharing",
+  "release_date": "2024-07-23",
+  "context_window": 131072,
+  "license": "llama3.1",
+  "tagline": "We have a free Google Colab Tesla T4 notebook for Llama 3.1 (8B) here: https://colab.research.google.com/drive/1Ys44kVvmeZtnICzWz0xgpRnrIOjZAuxp?usp=sharing",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

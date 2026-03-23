@@ -3,7 +3,7 @@
   "name": "GPT OSS 120B",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-oss",
   "status": "active",
   "context_window": 131072,
@@ -24,13 +24,21 @@
   },
   "_generated": {
     "name": "7beed575",
+    "family": "82d0cb0b",
     "status": "379ac110",
-    "model_type": "d669f408",
     "context_window": "f7de594e",
     "max_output_tokens": "297ce0b3",
-    "family": "82d0cb0b",
-    "pricing": "89a9c6e2",
+    "model_type": "d669f408",
     "capabilities": "6c301a15",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "pricing": "89a9c6e2",
+    "parameters": "da4fb5c6",
+    "speed": "cee63112",
+    "page_url": "7f7a9477",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 120,
+  "speed": 500,
+  "page_url": "https://console.groq.com/docs/models#openai/gpt-oss-120b",
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "c4ai-aya-expanse-8b",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "description": "Aya Expanse is a highly performant 8B multilingual model, designed to rival monolingual performance through innovations in instruction tuning with data arbitrage, preference training, and model merging. Serves 23 languages.",
   "status": "deprecated",
   "context_window": 8000,
@@ -28,6 +28,14 @@
     "tagline": "d752a67c",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
-    "endpoints": "75df3f1c"
-  }
+    "endpoints": "75df3f1c",
+    "family": "581e4682",
+    "license": "2c8e76b8",
+    "parameters": "c9f0f895",
+    "open_weight": "b326b506"
+  },
+  "family": "aya",
+  "license": "cc-by-nc-4.0",
+  "parameters": 8,
+  "open_weight": true
 }

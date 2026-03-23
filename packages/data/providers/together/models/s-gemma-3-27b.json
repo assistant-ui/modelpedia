@@ -3,7 +3,7 @@
   "name": "Gemma 3 27b",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemma-3",
   "context_window": 64000,
   "capabilities": {
@@ -15,9 +15,15 @@
   },
   "_generated": {
     "name": "959e3a4c",
-    "context_window": "762e98db",
     "family": "d9e10ad8",
+    "context_window": "762e98db",
+    "capabilities": "0fa77dc6",
     "pricing": "fa2d2058",
-    "capabilities": "0fa77dc6"
-  }
+    "model_type": "d669f408",
+    "parameters": "02e74f10",
+    "page_url": "dd2a7c8d"
+  },
+  "model_type": "chat",
+  "parameters": 27,
+  "page_url": "https://www.together.ai/models/gemma-3-27b"
 }

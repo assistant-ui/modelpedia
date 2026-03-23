@@ -3,7 +3,7 @@
   "name": "wan2.1-vace-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "model_type": "video",
   "capabilities": {
     "streaming": true
@@ -18,6 +18,12 @@
     "model_type": "4d1b75ca",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
-    "endpoints": "75df3f1c"
-  }
+    "endpoints": "75df3f1c",
+    "family": "3663b84b",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
+  },
+  "family": "wan2.1",
+  "license": "proprietary",
+  "open_weight": false
 }

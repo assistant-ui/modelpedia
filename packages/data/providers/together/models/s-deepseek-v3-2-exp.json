@@ -3,7 +3,7 @@
   "name": "Deepseek V3 2 Exp",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek",
   "context_window": 128000,
   "capabilities": {
@@ -15,9 +15,13 @@
   },
   "_generated": {
     "name": "9d655bd6",
-    "context_window": "34434798",
     "family": "4b81b92d",
+    "context_window": "34434798",
+    "capabilities": "0fa77dc6",
     "pricing": "dc324ffc",
-    "capabilities": "0fa77dc6"
-  }
+    "page_url": "203f30a6",
+    "model_type": "d669f408"
+  },
+  "page_url": "https://www.together.ai/models/deepseek-v3-2-exp",
+  "model_type": "chat"
 }

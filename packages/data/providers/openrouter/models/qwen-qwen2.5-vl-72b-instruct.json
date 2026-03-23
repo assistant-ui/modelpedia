@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen2.5 VL 72B Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen2.5",
   "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects.",
   "context_window": 32768,
@@ -21,12 +21,20 @@
   },
   "_generated": {
     "name": "ec3a5805",
+    "family": "45d84b68",
     "description": "0e976ecc",
     "context_window": "f4376436",
     "max_output_tokens": "f4376436",
-    "family": "45d84b68",
-    "pricing": "7a3cce81",
+    "modalities": "6399757e",
     "capabilities": "c8033cf7",
-    "modalities": "6399757e"
-  }
+    "pricing": "7a3cce81",
+    "model_type": "d669f408",
+    "parameters": "32bb90e8",
+    "release_date": "1e2d6a9b",
+    "tagline": "0e976ecc"
+  },
+  "model_type": "chat",
+  "parameters": 72,
+  "release_date": "2025-02-01",
+  "tagline": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects."
 }

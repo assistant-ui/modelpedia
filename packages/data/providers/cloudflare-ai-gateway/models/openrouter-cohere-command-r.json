@@ -11,5 +11,7 @@
   "_generated": {
     "name": "1b2b82d1",
     "pricing": "2c3abb73"
-  }
+  },
+  "family": "command-r",
+  "model_type": "chat"
 }

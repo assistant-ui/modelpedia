@@ -32,5 +32,6 @@
     "modalities": "08235294",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
-  }
+  },
+  "model_type": "chat"
 }

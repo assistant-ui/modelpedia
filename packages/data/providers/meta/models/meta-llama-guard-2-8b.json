@@ -3,7 +3,7 @@
   "name": "Meta-Llama-Guard-2-8B",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -15,8 +15,24 @@
   "model_type": "moderation",
   "_generated": {
     "name": "562c18a7",
-    "model_type": "1e7a7b87",
     "capabilities": "48995a4e",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "1e7a7b87",
+    "family": "3190be28",
+    "license": "c1eeabcd",
+    "parameters": "c9f0f895",
+    "page_url": "59911fe0",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "release_date": "3413c173",
+    "knowledge_cutoff": "37a6259c"
+  },
+  "family": "llama-guard",
+  "license": "llama3",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "release_date": "2024-04-17",
+  "knowledge_cutoff": null
 }

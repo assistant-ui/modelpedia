@@ -11,5 +11,7 @@
   "_generated": {
     "name": "9c03fe3a",
     "pricing": "c86e251d"
-  }
+  },
+  "family": "gemini-2.5",
+  "model_type": "chat"
 }

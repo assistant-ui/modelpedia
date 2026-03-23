@@ -2,6 +2,8 @@
   "id": "xai",
   "name": "xAI",
   "region": "US",
+  "headquarters": "Palo Alto, CA",
+  "founded": 2023,
   "url": "https://x.ai",
   "api_url": "https://api.x.ai/v1",
   "docs_url": "https://docs.x.ai",
@@ -11,5 +13,12 @@
   "sdk": {
     "python": "xai-sdk"
   },
-  "free_tier": false
+  "openai_compatible": true,
+  "free_tier": false,
+  "github_url": "https://github.com/xai-org",
+  "models_url": "https://docs.x.ai/docs/models",
+  "twitter_url": "https://x.com/xai",
+  "blog_url": "https://x.ai/news",
+  "terms_url": "https://x.ai/legal/terms-of-service",
+  "support_url": "https://x.ai/contact"
 }

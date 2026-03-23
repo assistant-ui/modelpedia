@@ -3,12 +3,18 @@
   "name": "stable-diffusion-xl-lightning",
   "created_by": "bytedance",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "82138c22",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "model_type": "db8857fe",
+    "status": "379ac110",
+    "page_url": "8a11b336"
+  },
+  "model_type": "image",
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#stable-diffusion-xl-lightning"
 }

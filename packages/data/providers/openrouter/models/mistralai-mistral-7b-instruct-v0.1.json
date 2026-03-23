@@ -3,7 +3,7 @@
   "name": "Mistral: Mistral 7B Instruct v0.1",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "A 7.3B parameter model that outperforms Llama 2 13B on all benchmarks, with optimizations for speed and context length.",
   "context_window": 2824,
   "modalities": {
@@ -18,7 +18,17 @@
     "name": "8df534e8",
     "description": "2690b6e4",
     "context_window": "b030afbb",
+    "modalities": "68e53d93",
     "pricing": "caeefbe4",
-    "modalities": "68e53d93"
-  }
+    "model_type": "d669f408",
+    "family": "33212289",
+    "parameters": "8f14e45f",
+    "release_date": "182b5357",
+    "tagline": "2690b6e4"
+  },
+  "model_type": "chat",
+  "family": "mistral-7b",
+  "parameters": 7,
+  "release_date": "2023-09-28",
+  "tagline": "A 7.3B parameter model that outperforms Llama 2 13B on all benchmarks, with optimizations for speed and context length."
 }

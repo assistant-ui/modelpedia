@@ -1,0 +1,33 @@
+{
+  "id": "qwen2.5-math-7b-instruct",
+  "name": "qwen2.5-math-7b-instruct",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "qwen2.5",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.144,
+    "output": 0.287
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "d269e52b",
+    "family": "45d84b68",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "aded01c5",
+    "endpoints": "75df3f1c"
+  },
+  "license": "apache-2.0",
+  "parameters": 7,
+  "provider": "qwen"
+}

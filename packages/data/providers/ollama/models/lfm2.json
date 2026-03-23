@@ -3,12 +3,36 @@
   "name": "lfm2",
   "created_by": "liquid",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "41a06e57",
-    "capabilities": "0fa77dc6"
+    "capabilities": "48995a4e",
+    "description": "d644d12a",
+    "page_url": "dbcf4abd",
+    "tagline": "44fe6af4",
+    "context_window": "f4376436",
+    "parameters": "1ff1de77",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "description": "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.",
+  "page_url": "https://ollama.com/library/lfm2",
+  "tagline": "LFM2 is a family of hybrid models designed for on-device deployment.",
+  "context_window": 32768,
+  "parameters": 24,
+  "license": "open-weight",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

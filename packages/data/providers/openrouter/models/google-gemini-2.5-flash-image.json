@@ -3,7 +3,7 @@
   "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemini-2.5",
   "description": "Gemini 2.5 Flash Image, a.k.a.",
   "context_window": 32768,
@@ -22,12 +22,18 @@
   },
   "_generated": {
     "name": "bc042d8e",
+    "family": "ea6b88bf",
     "description": "45cbc790",
     "context_window": "f4376436",
     "max_output_tokens": "f4376436",
-    "family": "ea6b88bf",
-    "pricing": "1a0e496e",
+    "modalities": "f5e0517a",
     "capabilities": "c8033cf7",
-    "modalities": "f5e0517a"
-  }
+    "pricing": "1a0e496e",
+    "model_type": "d669f408",
+    "release_date": "94efe4a0",
+    "tagline": "45cbc790"
+  },
+  "model_type": "chat",
+  "release_date": "2025-10-07",
+  "tagline": "Gemini 2.5 Flash Image, a.k.a."
 }

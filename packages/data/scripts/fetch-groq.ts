@@ -1,6 +1,7 @@
 import { fetchText, findHtmlTables, stripHtml } from "./parse.ts";
 import {
   inferFamily,
+  inferParameters,
   type ModelEntry,
   readSources,
   runGenerate,
@@ -217,6 +218,8 @@ async function main() {
   for (const m of models) {
     const deprecationDate = deprecations.get(m.id);
 
+    const params = inferParameters(m.id);
+
     const entry: ModelEntry = {
       id: m.id,
       name: m.name,
@@ -228,6 +231,10 @@ async function main() {
       max_output_tokens: m.max_output_tokens,
       modalities: inferModalities(m.id),
       capabilities: inferCapabilities(m.id),
+      speed: m.speed,
+      parameters: params?.parameters,
+      active_parameters: params?.active_parameters,
+      page_url: `${MODELS_URL}#${m.id}`,
     };
 
     if (deprecationDate) {

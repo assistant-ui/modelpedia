@@ -3,7 +3,7 @@
   "name": "embed-english-v2.0",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "description": "Unique per deployment",
   "status": "active",
   "model_type": "embed",
@@ -22,6 +22,12 @@
     "model_type": "764cb3de",
     "tagline": "4f68c471",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "family": "764cb3de",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
+  },
+  "family": "embed",
+  "license": "proprietary",
+  "open_weight": false
 }

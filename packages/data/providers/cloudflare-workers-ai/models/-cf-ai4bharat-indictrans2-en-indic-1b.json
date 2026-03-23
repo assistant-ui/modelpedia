@@ -3,12 +3,23 @@
   "name": "indictrans2-en-indic-1B",
   "created_by": "ai4bharat",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "265006e7",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "c4ca4238",
+    "status": "379ac110",
+    "model_type": "5c212ca7",
+    "page_url": "0bd656e8",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 1,
+  "status": "active",
+  "model_type": "translation",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#indictrans2-en-indic-1B",
+  "tools": ["function_calling"]
 }

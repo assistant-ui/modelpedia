@@ -17,5 +17,6 @@
     "model_type": "764cb3de",
     "pricing": "fceb22e8",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "family": "mistral-embed"
 }

@@ -1,23 +1,22 @@
-import { Menu } from "lucide-react";
-import type { Metadata } from "next";
-import Link from "next/link";
-import { CommandPalette } from "@/components/command-palette";
-import { FormatToggle } from "@/components/format-toggle";
-import { ThemeToggle } from "@/components/theme-toggle";
-import { Button, ButtonAnchor } from "@/components/ui/button";
-import {
-  Dropdown,
-  DropdownContent,
-  DropdownItem,
-  DropdownTrigger,
-} from "@/components/ui/dropdown";
-import { UserMenu } from "@/components/user-menu";
-import { getUser } from "@/lib/auth";
-import { allModels, getProvider, providers } from "@/lib/data";
-import { Provider } from "./provider";
-import "@/styles/globals.css";
 import { Analytics } from "@vercel/analytics/next";
+import type { Metadata, Viewport } from "next";
+import { Footer } from "@/components/shared/footer";
+import { FormatToggle } from "@/components/shared/format-toggle";
+import { Header } from "@/components/shared/header";
+import { cn } from "@/lib/cn";
+import { allModels, getProvider, providers } from "@/lib/data";
 import { geistMono, geistSans } from "@/styles/font";
+import "@/styles/globals.css";
+import { Provider } from "./provider";
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#0a0a0b" },
+  ],
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   title: {
@@ -25,7 +24,7 @@ export const metadata: Metadata = {
     default: "modelpedia — Open catalog of AI models",
   },
   description:
-    "Browse, compare, and search 2000+ AI models across 30+ providers. Specs, pricing, capabilities, and a free API.",
+    "Browse, compare, and search 4000+ AI models across 30+ providers. Specs, pricing, capabilities, and a free API.",
   keywords: [
     "AI models",
     "LLM",
@@ -51,6 +50,20 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "/",
+    types: {
+      "application/rss+xml": "/changes/feed.xml",
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
@@ -59,203 +72,69 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const user = await getUser();
+  const commandPaletteData = {
+    providers: providers.map((p) => ({
+      type: "provider" as const,
+      id: `prov-${p.id}`,
+      name: p.name,
+      href: `/${p.id}`,
+      sub: `${p.models.length} models`,
+      icon: p.icon,
+    })),
+    models: allModels
+      .filter((m) => m.status !== "deprecated")
+      .map((m) => {
+        const p = getProvider(m.provider);
+        return {
+          type: "model" as const,
+          id: `${m.provider}/${m.id}`,
+          name: m.name,
+          href: `/${m.provider}/${m.id}`,
+          sub: p?.name ?? m.provider,
+          icon: p?.icon,
+        };
+      }),
+  };
 
   return (
     <html
       lang="en"
-      className={`${geistSans.className} ${geistMono.variable}`}
+      className={cn(geistSans.className, geistMono.variable)}
       suppressHydrationWarning
       data-scroll-behavior="smooth"
     >
       <body className="min-h-screen bg-background text-foreground text-sm">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "modelpedia",
+              url: "https://modelpedia.dev",
+              description:
+                "Open catalog of AI model data — specs, pricing, and capabilities across 30+ providers and 4000+ models.",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: {
+                  "@type": "EntryPoint",
+                  urlTemplate:
+                    "https://modelpedia.dev/models?q={search_term_string}",
+                },
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
         <Provider>
-          <nav className="mx-auto flex h-12 max-w-3xl items-center px-4 text-sm sm:px-6">
-            <Link
-              href="/"
-              className="flex items-center gap-2 font-semibold text-foreground tracking-tight"
-            >
-              <svg
-                viewBox="0 0 32 32"
-                fill="none"
-                className="h-5 w-5"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <defs>
-                  <clipPath id="globe-clip">
-                    <circle cx="16" cy="16" r="14" />
-                  </clipPath>
-                </defs>
-                <circle
-                  cx="16"
-                  cy="16"
-                  r="14"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                />
-                <g clipPath="url(#globe-clip)" transform="rotate(-20 16 16)">
-                  <ellipse
-                    cx="16"
-                    cy="16"
-                    rx="5.5"
-                    ry="14"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                  />
-                  <ellipse
-                    cx="16"
-                    cy="16"
-                    rx="14"
-                    ry="5"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                  />
-                  <circle cx="11" cy="11.5" r="1.5" fill="currentColor" />
-                  <circle cx="21" cy="11.5" r="1.5" fill="currentColor" />
-                  <circle cx="11" cy="20.5" r="1.5" fill="currentColor" />
-                  <circle cx="21" cy="20.5" r="1.5" fill="currentColor" />
-                </g>
-              </svg>
-              modelpedia
-            </Link>
-            <div className="mx-auto hidden items-center gap-5 md:flex">
-              <Link
-                href="/models"
-                className="text-muted-foreground transition-colors duration-200 hover:text-foreground"
-              >
-                Models
-              </Link>
-              <Link
-                href="/providers"
-                className="text-muted-foreground transition-colors duration-200 hover:text-foreground"
-              >
-                Providers
-              </Link>
-              <Link
-                href="/compare"
-                className="text-muted-foreground transition-colors duration-200 hover:text-foreground"
-              >
-                Compare
-              </Link>
-              <Link
-                href="/docs/api"
-                className="text-muted-foreground transition-colors duration-200 hover:text-foreground"
-              >
-                API
-              </Link>
-            </div>
-            <Dropdown>
-              <DropdownTrigger>
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="ml-auto md:hidden"
-                >
-                  <Menu size={18} />
-                </Button>
-              </DropdownTrigger>
-              <DropdownContent align="end">
-                <DropdownItem href="/models">Models</DropdownItem>
-                <DropdownItem href="/providers">Providers</DropdownItem>
-                <DropdownItem href="/compare">Compare</DropdownItem>
-                <DropdownItem href="/docs/api">API</DropdownItem>
-              </DropdownContent>
-            </Dropdown>
-            <div className="flex items-center gap-2">
-              <CommandPalette
-                pages={[
-                  {
-                    type: "page",
-                    id: "p-models",
-                    name: "Models",
-                    href: "/models",
-                  },
-                  {
-                    type: "page",
-                    id: "p-providers",
-                    name: "Providers",
-                    href: "/providers",
-                  },
-                  {
-                    type: "page",
-                    id: "p-compare",
-                    name: "Compare",
-                    href: "/compare",
-                  },
-                  {
-                    type: "page",
-                    id: "p-api",
-                    name: "API Reference",
-                    href: "/docs/api",
-                  },
-                ]}
-                providers={providers.map((p) => ({
-                  type: "provider" as const,
-                  id: `prov-${p.id}`,
-                  name: p.name,
-                  href: `/${p.id}`,
-                  sub: `${p.models.length} models`,
-                  icon: p.icon,
-                }))}
-                models={allModels
-                  .filter((m) => m.status !== "deprecated")
-                  .map((m) => ({
-                    type: "model" as const,
-                    id: `${m.provider}/${m.id}`,
-                    name: m.name,
-                    href: `/${m.provider}/${m.id}`,
-                    sub: getProvider(m.provider)?.name ?? m.provider,
-                    icon: getProvider(m.provider)?.icon,
-                  }))}
-              />
-              {user ? (
-                <UserMenu user={user} />
-              ) : (
-                <ButtonAnchor href="/login" variant="primary" size="sm">
-                  Login
-                </ButtonAnchor>
-              )}
-            </div>
-          </nav>
+          <Header commandPaletteData={commandPaletteData} />
           <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent" />
           <div className="mx-auto flex min-h-[calc(100vh-3rem)] max-w-3xl flex-col px-4 sm:px-6">
             <div className="flex-1 py-10">{children}</div>
-            <footer className="pt-12 pb-8">
-              <div className="mb-4 h-px bg-linear-to-r from-transparent via-foreground/10 to-transparent" />
-              <div className="flex items-center justify-between">
-                <a
-                  href="https://agentbase.dev"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground/50 text-xs transition-colors duration-200 hover:text-muted-foreground"
-                >
-                  &copy; {new Date().getFullYear()} AgentbaseAI Inc.
-                </a>
-                <div className="flex items-center gap-5">
-                  <a
-                    href="https://www.assistant-ui.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-muted-foreground/50 text-xs transition-colors duration-200 hover:text-muted-foreground"
-                  >
-                    assistant-ui.com
-                  </a>
-                  <a
-                    href="https://github.com/assistant-ui/modelpedia"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-muted-foreground/50 text-xs transition-colors duration-200 hover:text-muted-foreground"
-                  >
-                    GitHub
-                  </a>
-                  <ThemeToggle />
-                </div>
-              </div>
-            </footer>
+            <Footer />
           </div>
           <FormatToggle />
         </Provider>
-
         <Analytics />
       </body>
     </html>

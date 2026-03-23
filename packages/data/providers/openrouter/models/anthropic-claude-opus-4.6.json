@@ -3,7 +3,7 @@
   "name": "Anthropic: Claude Opus 4.6",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "claude-opus",
   "description": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks.",
   "context_window": 1000000,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "0b326be5",
+    "family": "4e4c4b18",
     "description": "f2f659b6",
     "context_window": "8155bc54",
     "max_output_tokens": "34434798",
-    "family": "4e4c4b18",
-    "pricing": "b3cc594d",
+    "modalities": "6399757e",
     "capabilities": "f533f522",
-    "modalities": "6399757e"
-  }
+    "pricing": "b3cc594d",
+    "model_type": "d669f408",
+    "release_date": "7e13f8bd",
+    "tagline": "f2f659b6",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2026-02-04",
+  "tagline": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks.",
+  "tools": ["function_calling"]
 }

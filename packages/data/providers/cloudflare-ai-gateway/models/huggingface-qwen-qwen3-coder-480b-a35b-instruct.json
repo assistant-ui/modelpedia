@@ -3,7 +3,7 @@
   "name": "HuggingFace: Qwen/Qwen3-Coder-480B-A35B-Instruct",
   "created_by": "huggingface",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "pricing": {
     "input": 2,
@@ -12,6 +12,12 @@
   "_generated": {
     "name": "31aba77f",
     "family": "48c385a0",
-    "pricing": "dc324ffc"
-  }
+    "pricing": "dc324ffc",
+    "model_type": "b6cc3ff4",
+    "parameters": "6ea2ef73",
+    "active_parameters": "1c383cd3"
+  },
+  "model_type": "code",
+  "parameters": 480,
+  "active_parameters": 35
 }

@@ -3,14 +3,23 @@
   "name": "orpheus-3b-websockets",
   "created_by": "unknown",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "model_type": "tts",
   "_generated": {
     "name": "26db3c66",
+    "capabilities": "0fa77dc6",
     "model_type": "4e16a2cf",
-    "capabilities": "0fa77dc6"
+    "parameters": "eccbc87e",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
+  },
+  "parameters": 3,
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

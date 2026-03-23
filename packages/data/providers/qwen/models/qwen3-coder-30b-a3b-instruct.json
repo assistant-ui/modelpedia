@@ -16,5 +16,8 @@
     "capabilities": "48995a4e",
     "model_type": "b6cc3ff4"
   },
-  "model_type": "code"
+  "model_type": "code",
+  "license": "apache-2.0",
+  "parameters": 30,
+  "active_parameters": 3
 }

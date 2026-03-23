@@ -2,11 +2,18 @@
   "id": "opencode",
   "name": "OpenCode Zen",
   "region": "US",
+  "headquarters": "San Francisco, CA",
+  "founded": 2025,
   "url": "https://opencode.ai",
   "api_url": "https://opencode.ai/zen/v1",
   "docs_url": "https://opencode.ai/docs/zen",
   "pricing_url": "https://opencode.ai/docs/zen",
   "description": "AI coding assistant platform providing access to frontier models for software development.",
-  "type": "aggregator",
-  "free_tier": true
+  "type": "cloud",
+  "openai_compatible": true,
+  "free_tier": true,
+  "twitter_url": "https://x.com/anomalyco",
+  "discord_url": "https://discord.com/invite/opencode",
+  "terms_url": "https://opencode.ai/legal/terms-of-service",
+  "support_url": "https://github.com/opencode-ai/opencode"
 }

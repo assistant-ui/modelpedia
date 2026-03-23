@@ -13,5 +13,7 @@
     "name": "b2b54306",
     "family": "a8d1600e",
     "pricing": "24ae0294"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 8
 }

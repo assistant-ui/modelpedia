@@ -12,5 +12,7 @@
     "name": "b15094e9",
     "family": "d9e10ad8",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 1
 }

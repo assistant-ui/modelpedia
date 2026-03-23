@@ -3,7 +3,7 @@
   "name": "AllenAI: Olmo 3 32B Think",
   "created_by": "allenai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Olmo 3 32B Think is a large-scale, 32-billion-parameter model purpose-built for deep reasoning, complex logic chains and advanced instruction-following scenarios.",
   "context_window": 65536,
   "max_output_tokens": 65536,
@@ -24,8 +24,14 @@
     "description": "030c8239",
     "context_window": "297ce0b3",
     "max_output_tokens": "297ce0b3",
-    "pricing": "c74fbef8",
+    "modalities": "68e53d93",
     "capabilities": "ee598c3a",
-    "modalities": "68e53d93"
-  }
+    "pricing": "c74fbef8",
+    "parameters": "6364d3f0",
+    "release_date": "efb5c5c4",
+    "tagline": "030c8239"
+  },
+  "parameters": 32,
+  "release_date": "2025-11-21",
+  "tagline": "Olmo 3 32B Think is a large-scale, 32-billion-parameter model purpose-built for deep reasoning, complex logic chains and advanced instruction-following scenarios."
 }

@@ -3,16 +3,42 @@
   "name": "qwen3-coder-next",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "164de14e",
     "family": "48c385a0",
-    "capabilities": "0fa77dc6",
-    "model_type": "b6cc3ff4"
+    "capabilities": "48995a4e",
+    "model_type": "b6cc3ff4",
+    "description": "e2012dc6",
+    "release_date": "583486a8",
+    "page_url": "b022cf4a",
+    "tagline": "e2012dc6",
+    "context_window": "4a1d32eb",
+    "license": "6327aaea",
+    "parameters": "f033ab37",
+    "active_parameters": "eccbc87e",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
-  "model_type": "code"
+  "model_type": "code",
+  "description": "Qwen3-Coder-Next is a coding-focused language model from Alibaba&#39;s Qwen team, optimized for agentic coding workflows and local development.",
+  "release_date": "2025-02-04",
+  "page_url": "https://ollama.com/library/qwen3-coder-next",
+  "tagline": "Qwen3-Coder-Next is a coding-focused language model from Alibaba&#39;s Qwen team, optimized for agentic coding workflows and local development.",
+  "context_window": 262144,
+  "license": "open-weight",
+  "parameters": 80,
+  "active_parameters": 3,
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

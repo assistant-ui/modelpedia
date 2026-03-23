@@ -3,7 +3,7 @@
   "name": "Llama 3.1 8B",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "context_window": 32000,
   "max_output_tokens": 8000,
   "capabilities": {
@@ -31,16 +31,20 @@
     "endpoints": "772bacef",
     "model_card_url": "c4a9ea1f",
     "tokens_per_second": "5249ee8e",
-    "parameters": "49d692a8",
+    "parameters": "c9f0f895",
     "precision": "a4c7ec3d",
-    "huggingface_url": "c4a9ea1f"
+    "huggingface_url": "c4a9ea1f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "status": "active",
   "model_type": "chat",
   "endpoints": ["chat_completions", "completions"],
   "model_card_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
   "tokens_per_second": 2200,
-  "parameters": "8 billion",
+  "parameters": 8,
   "precision": "FP",
-  "huggingface_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
+  "huggingface_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

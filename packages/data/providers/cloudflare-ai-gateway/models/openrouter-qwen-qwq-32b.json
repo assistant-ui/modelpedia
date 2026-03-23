@@ -3,7 +3,7 @@
   "name": "OpenRouter: qwen/qwq-32b",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwq",
   "pricing": {
     "input": 0.15,
@@ -12,6 +12,10 @@
   "_generated": {
     "name": "c7026216",
     "family": "3a976110",
-    "pricing": "bb9d5ad8"
-  }
+    "pricing": "bb9d5ad8",
+    "model_type": "17475f7f",
+    "parameters": "6364d3f0"
+  },
+  "model_type": "reasoning",
+  "parameters": 32
 }

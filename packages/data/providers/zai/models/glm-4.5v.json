@@ -3,7 +3,7 @@
   "name": "GLM-4.5V",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "max_output_tokens": 16000,
   "capabilities": {
     "streaming": true,
@@ -17,6 +17,28 @@
     "name": "2625801d",
     "max_output_tokens": "67510c89",
     "capabilities": "b011c6b4",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "family": "e8ea1e1e",
+    "model_type": "d669f408",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506",
+    "parameters": "f0935e4c",
+    "active_parameters": "c20ad4d7",
+    "page_url": "a67a5daa",
+    "architecture": "31b2172c",
+    "pricing": "ef4e86f1"
+  },
+  "family": "glm-4.5",
+  "model_type": "chat",
+  "license": "mit",
+  "open_weight": true,
+  "parameters": 106,
+  "active_parameters": 12,
+  "page_url": "https://docs.z.ai/guides/vlm/glm-4.5v",
+  "architecture": "moe",
+  "pricing": {
+    "input": 0.6,
+    "output": 1.8,
+    "cached_input": 0.11
   }
 }

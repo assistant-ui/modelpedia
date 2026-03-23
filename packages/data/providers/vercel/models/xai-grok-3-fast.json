@@ -3,7 +3,7 @@
   "name": "grok-3-fast",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "grok-3",
   "context_window": 131100,
   "capabilities": {
@@ -16,9 +16,13 @@
   },
   "_generated": {
     "name": "e220917d",
-    "context_window": "a683b9ae",
     "family": "c41798c6",
+    "context_window": "a683b9ae",
+    "capabilities": "48995a4e",
     "pricing": "be2d1ab0",
-    "capabilities": "48995a4e"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

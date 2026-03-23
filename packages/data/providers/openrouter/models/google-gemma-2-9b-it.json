@@ -3,7 +3,7 @@
   "name": "Google: Gemma 2 9B",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemma-2",
   "description": "Gemma 2 9B by Google is an advanced, open-source language model that sets a new standard for efficiency and performance in its size class.",
   "context_window": 8192,
@@ -17,10 +17,18 @@
   },
   "_generated": {
     "name": "a8f40a71",
+    "family": "e8114e3e",
     "description": "5dc24b5b",
     "context_window": "77441296",
-    "family": "e8114e3e",
+    "modalities": "68e53d93",
     "pricing": "1ed0cad2",
-    "modalities": "68e53d93"
-  }
+    "model_type": "d669f408",
+    "parameters": "45c48cce",
+    "release_date": "7f069954",
+    "tagline": "5dc24b5b"
+  },
+  "model_type": "chat",
+  "parameters": 9,
+  "release_date": "2024-06-28",
+  "tagline": "Gemma 2 9B by Google is an advanced, open-source language model that sets a new standard for efficiency and performance in its size class."
 }

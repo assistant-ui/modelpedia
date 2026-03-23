@@ -3,7 +3,7 @@
   "name": "Google: Gemini 3 Flash Preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemini-3",
   "description": "Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance.",
   "context_window": 1048576,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "95eb50c9",
+    "family": "eb14e598",
     "description": "8851d955",
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
-    "family": "eb14e598",
-    "pricing": "a1f79f3d",
+    "modalities": "0843b982",
     "capabilities": "f533f522",
-    "modalities": "0843b982"
-  }
+    "pricing": "a1f79f3d",
+    "model_type": "d669f408",
+    "release_date": "f8b75b68",
+    "tagline": "8851d955",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-12-17",
+  "tagline": "Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance.",
+  "tools": ["function_calling"]
 }

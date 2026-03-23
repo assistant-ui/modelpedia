@@ -3,13 +3,15 @@
   "name": "OpenRouter: essentialai/rnj-1-instruct",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 0.15,
     "output": 0.15
   },
   "_generated": {
     "name": "81b18c22",
-    "pricing": "16a72b67"
-  }
+    "pricing": "16a72b67",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

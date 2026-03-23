@@ -3,7 +3,7 @@
   "name": "Z.ai GLM 4.7",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "context_window": 131000,
   "max_output_tokens": 40000,
   "capabilities": {
@@ -33,16 +33,22 @@
     "endpoints": "d8fa1080",
     "model_card_url": "18a4a917",
     "tokens_per_second": "a9b7ba70",
-    "parameters": "d4dd0711",
+    "parameters": "82cec960",
     "precision": "c851ef38",
-    "huggingface_url": "18a4a917"
+    "huggingface_url": "18a4a917",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "status": "preview",
   "model_type": "chat",
   "endpoints": ["chat_completions"],
   "model_card_url": "https://huggingface.co/zai-org/GLM-4.7",
   "tokens_per_second": 1000,
-  "parameters": "355 billion",
+  "parameters": 355,
   "precision": "FP16/FP8 (weights only)",
-  "huggingface_url": "https://huggingface.co/zai-org/GLM-4.7"
+  "huggingface_url": "https://huggingface.co/zai-org/GLM-4.7",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

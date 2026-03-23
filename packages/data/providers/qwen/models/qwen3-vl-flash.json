@@ -1,0 +1,31 @@
+{
+  "id": "qwen3-vl-flash",
+  "name": "qwen3-vl-flash",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "qwen3",
+  "context_window": 81920,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "5a3b5b66",
+    "family": "48c385a0",
+    "context_window": "7e248a40",
+    "model_type": "d669f408",
+    "capabilities": "8d009641",
+    "modalities": "3ad4060a",
+    "endpoints": "75df3f1c"
+  },
+  "license": "apache-2.0",
+  "provider": "qwen"
+}

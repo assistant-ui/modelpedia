@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 235B A22B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "description": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass.",
   "context_window": 131072,
@@ -23,14 +23,25 @@
   },
   "_generated": {
     "name": "9f845cbb",
+    "family": "48c385a0",
     "description": "b0a4fe28",
     "context_window": "f7de594e",
     "max_output_tokens": "77441296",
-    "family": "48c385a0",
-    "pricing": "79a2ed09",
-    "capabilities": "f533f522",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "capabilities": "f533f522",
+    "pricing": "79a2ed09",
+    "model_type": "d669f408",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "release_date": "1487959c",
+    "tagline": "342f992b",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 235,
+  "active_parameters": 22,
+  "release_date": "2025-04-28",
+  "tagline": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass.",
+  "tools": ["function_calling"],
+  "snapshots": ["qwen/qwen3-235b-a22b-2507"]
 }

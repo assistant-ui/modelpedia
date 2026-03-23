@@ -3,7 +3,7 @@
   "name": "LlamaGuard-7b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -15,8 +15,24 @@
   "model_type": "moderation",
   "_generated": {
     "name": "df512803",
-    "model_type": "1e7a7b87",
     "capabilities": "48995a4e",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "1e7a7b87",
+    "family": "3190be28",
+    "license": "5e554d0d",
+    "parameters": "c3e22f2a",
+    "page_url": "e3e73693",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "release_date": "a9e4f267",
+    "knowledge_cutoff": "37a6259c"
+  },
+  "family": "llama-guard",
+  "license": "llama2",
+  "parameters": 6.7,
+  "page_url": "https://huggingface.co/meta-llama/LlamaGuard-7b",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "release_date": "2023-12-05",
+  "knowledge_cutoff": null
 }

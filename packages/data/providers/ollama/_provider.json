@@ -2,11 +2,20 @@
   "id": "ollama",
   "name": "Ollama",
   "region": "US",
+  "headquarters": "Palo Alto, CA",
+  "founded": 2023,
   "url": "https://ollama.com",
   "api_url": "http://localhost:11434/api",
   "docs_url": "https://github.com/ollama/ollama/blob/main/docs/api.md",
   "pricing_url": "https://ollama.com",
   "description": "Run open-source LLMs locally on your machine with a simple CLI.",
   "type": "aggregator",
-  "free_tier": true
+  "openai_compatible": true,
+  "free_tier": true,
+  "github_url": "https://github.com/ollama/ollama",
+  "models_url": "https://ollama.com/library",
+  "twitter_url": "https://x.com/ollama",
+  "discord_url": "https://discord.com/invite/ollama",
+  "blog_url": "https://ollama.com/blog",
+  "support_url": "https://github.com/ollama/ollama"
 }

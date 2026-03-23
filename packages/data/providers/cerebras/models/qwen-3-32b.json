@@ -3,7 +3,7 @@
   "name": "qwen-3-32b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwen",
   "status": "deprecated",
   "deprecation_date": "2026-02-16",
@@ -20,6 +20,10 @@
     "deprecation_date": "6c624983",
     "model_type": "d669f408",
     "successor": "7beed575",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "parameters": "6364d3f0",
+    "open_weight": "b326b506"
+  },
+  "parameters": 32,
+  "open_weight": true
 }

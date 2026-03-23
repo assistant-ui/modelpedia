@@ -3,12 +3,37 @@
   "name": "Llama-3.2-1B-Instruct-APIGen-FC-v0.1",
   "created_by": "argilla",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "9ff0c5c1",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "family": "40d4d5fc",
+    "model_type": "d669f408",
+    "parameters": "c4ca4238",
+    "page_url": "bda91184",
+    "description": "adf001ab",
+    "release_date": "f687ba6d",
+    "context_window": "f7de594e",
+    "license": "60245731",
+    "tagline": "c6d1ddde",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "family": "Llama-3.2",
+  "model_type": "chat",
+  "parameters": 1,
+  "page_url": "https://huggingface.co/argilla/Llama-3.2-1B-Instruct-APIGen-FC-v0.1",
+  "description": "This model is a fine-tuned version of [meta-llama/Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) on [argilla-warehouse/apigen-synth-trl](https://huggingface.co/datasets/argilla-warehouse/apigen-synth-trl) dataset, a version of [argilla/Synth-APIGen-v0.1](https://huggingface.co/datasets/argilla-warehouse/Synth-APIGen-v0.1) ready to do SFT on top of it. It has been trained using [TRL](https://github.com/huggingface/trl).",
+  "release_date": "2024-10-07",
+  "context_window": 131072,
+  "license": "apache-2.0",
+  "tagline": "This model is a fine-tuned version of [meta-llama/Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) on [argilla-warehouse/apigen-synth-trl](https://huggingface.co/datasets/argilla-warehouse/apigen-synth-trl) dataset, a version of [argilla/Synth-APIGen-v0.1](https://huggingface.co/datasets/argilla-warehouse/Synth-APIGen-v0.1) ready to do SFT on top of it.",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

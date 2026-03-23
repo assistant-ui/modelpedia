@@ -3,12 +3,31 @@
   "name": "Qwen2.5-Coder-3B-Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "de52d346",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "b6cc3ff4",
+    "parameters": "5b068a95",
+    "page_url": "31499c2f",
+    "release_date": "22d886b1",
+    "context_window": "f4376436",
+    "license": "ddb0b7bc",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "code",
+  "parameters": 3.1,
+  "page_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct",
+  "release_date": "2024-11-06",
+  "context_window": 32768,
+  "license": "other",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "Llama-2-13b-chat-hf",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 4096,
   "capabilities": {
     "streaming": true,
@@ -18,7 +18,25 @@
     "context_window": "f7efa4f8",
     "capabilities": "48995a4e",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "family": "c17ee5df",
+    "license": "5e554d0d",
+    "parameters": "c51ce410",
+    "page_url": "04f51242",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "release_date": "9280806e",
+    "knowledge_cutoff": "37a6259c",
+    "max_output_tokens": "f7efa4f8"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "Llama-2",
+  "license": "llama2",
+  "parameters": 13,
+  "page_url": "https://huggingface.co/meta-llama/Llama-2-13b-chat-hf",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "release_date": "2023-07-13",
+  "knowledge_cutoff": null,
+  "max_output_tokens": 4096
 }

@@ -3,7 +3,7 @@
   "name": "Code Interpreter",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "pricing": {
     "tiers": [
@@ -23,6 +23,12 @@
   "_generated": {
     "name": "a0e78de4",
     "status": "379ac110",
-    "pricing": "2e02fea3"
-  }
+    "pricing": "2e02fea3",
+    "license": "9186c466",
+    "page_url": "15b0e62c",
+    "open_weight": "68934a3e"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/Code Interpreter",
+  "open_weight": false
 }

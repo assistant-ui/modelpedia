@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-4 Turbo Preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4-turbo",
   "description": "The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more.",
   "context_window": 128000,
@@ -22,12 +22,20 @@
   },
   "_generated": {
     "name": "f7e3d054",
+    "family": "e55097d8",
     "description": "d1cf4bee",
     "context_window": "34434798",
     "max_output_tokens": "f7efa4f8",
-    "family": "e55097d8",
-    "pricing": "d5468ada",
+    "modalities": "68e53d93",
     "capabilities": "ad177261",
-    "modalities": "68e53d93"
-  }
+    "pricing": "d5468ada",
+    "model_type": "d669f408",
+    "release_date": "bba94c3c",
+    "tagline": "d1cf4bee",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2024-01-25",
+  "tagline": "The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more.",
+  "tools": ["function_calling"]
 }

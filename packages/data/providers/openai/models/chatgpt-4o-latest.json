@@ -3,7 +3,7 @@
   "name": "ChatGPT-4o",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "chatgpt",
   "description": "ChatGPT-4o points to the GPT-4o snapshot currently used in ChatGPT. We recommend using an API model like [GPT-5](/api/docs/models/gpt-5) or [GPT-4o](/api/docs/models/gpt-4o) for most API integrations, but feel free to use this ChatGPT-4o model to test our latest improvements for chat use cases.",
   "status": "deprecated",
@@ -43,19 +43,25 @@
   "snapshots": ["chatgpt-4o-latest"],
   "_generated": {
     "name": "bb28e3cf",
+    "family": "65aec523",
     "description": "65a9d0e6",
-    "tagline": "797eb169",
     "status": "2e2f74dc",
-    "model_type": "d669f408",
+    "knowledge_cutoff": "7b971392",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
-    "knowledge_cutoff": "7b971392",
+    "model_type": "d669f408",
     "performance": "eccbc87e",
     "speed": "eccbc87e",
-    "family": "65aec523",
-    "pricing": "62f384a6",
+    "tagline": "797eb169",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
-    "endpoints": "72e91ba7"
-  }
+    "pricing": "62f384a6",
+    "endpoints": "72e91ba7",
+    "license": "9186c466",
+    "page_url": "d6663715",
+    "open_weight": "68934a3e"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/chatgpt-4o-latest",
+  "open_weight": false
 }

@@ -3,7 +3,7 @@
   "name": "mistral-large-3",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "mistral-large",
   "capabilities": {
     "streaming": true
@@ -12,7 +12,28 @@
     "name": "8a42a963",
     "family": "70f9d51d",
     "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "description": "2d2d214c",
+    "release_date": "75f289bd",
+    "parameters": "8fecb208",
+    "page_url": "08cc821b",
+    "tagline": "2d2d214c",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "description": "A general-purpose multimodal mixture-of-experts model for production-grade tasks and enterprise workloads.",
+  "release_date": "2025-12-02",
+  "parameters": 675,
+  "page_url": "https://ollama.com/library/mistral-large-3",
+  "tagline": "A general-purpose multimodal mixture-of-experts model for production-grade tasks and enterprise workloads.",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

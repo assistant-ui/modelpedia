@@ -3,20 +3,24 @@
   "name": "GPT 5.2 Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.2",
   "status": "active",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 1.75
+    "input": 1.75,
+    "output": 14,
+    "cached_input": 0.175
   },
   "_generated": {
     "name": "f996b1ff",
-    "status": "379ac110",
     "family": "f580564d",
-    "pricing": "a045d926",
-    "capabilities": "0fa77dc6"
-  }
+    "status": "379ac110",
+    "capabilities": "0fa77dc6",
+    "pricing": "b99db8a5",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

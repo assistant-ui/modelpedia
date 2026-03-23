@@ -19,5 +19,6 @@
     "modalities": "68e53d93",
     "model_type": "d669f408"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 32
 }

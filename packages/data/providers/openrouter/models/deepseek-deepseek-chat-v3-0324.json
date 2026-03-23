@@ -3,7 +3,7 @@
   "name": "DeepSeek: DeepSeek V3 0324",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek-chat",
   "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.",
   "context_window": 163840,
@@ -23,11 +23,17 @@
   },
   "_generated": {
     "name": "0cd6f25f",
+    "family": "fbd79fd9",
     "description": "cffd3336",
     "context_window": "7edab444",
-    "family": "fbd79fd9",
-    "pricing": "3650904a",
+    "modalities": "68e53d93",
     "capabilities": "f533f522",
-    "modalities": "68e53d93"
-  }
+    "pricing": "3650904a",
+    "release_date": "0a9347b5",
+    "tagline": "cffd3336",
+    "tools": "f0c1dc7e"
+  },
+  "release_date": "2025-03-24",
+  "tagline": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.",
+  "tools": ["function_calling"]
 }

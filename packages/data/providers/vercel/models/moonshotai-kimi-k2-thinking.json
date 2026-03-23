@@ -3,7 +3,7 @@
   "name": "kimi-k2-thinking",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 262100,
   "capabilities": {
     "streaming": true,
@@ -17,7 +17,13 @@
   "_generated": {
     "name": "2a84c5e4",
     "context_window": "b23f4471",
+    "capabilities": "a281e83a",
     "pricing": "97d9061a",
-    "capabilities": "a281e83a"
-  }
+    "family": "0f7256d5",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "family": "kimi-k2",
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

@@ -1,25 +1,30 @@
 {
   "id": "qwen3.5-plus",
-  "name": "Qwen3.5-Plus",
+  "name": "qwen3.5-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3.5",
   "context_window": 1000000,
+  "model_type": "chat",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "reasoning": true
   },
-  "pricing": {
-    "input": 0.115,
-    "output": 0.688
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   },
-  "provider": "qwen",
+  "endpoints": ["chat"],
   "_generated": {
-    "name": "17e0aada",
-    "context_window": "8155bc54",
+    "name": "04b52737",
     "family": "d548f421",
-    "pricing": "7987b235",
-    "capabilities": "48995a4e"
-  }
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "endpoints": "75df3f1c"
+  },
+  "license": "proprietary",
+  "provider": "qwen"
 }

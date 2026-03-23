@@ -3,20 +3,24 @@
   "name": "GPT 5.4 Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.4",
   "status": "active",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.75
+    "input": 0.75,
+    "output": 4.5,
+    "cached_input": 0.075
   },
   "_generated": {
     "name": "093883aa",
-    "status": "379ac110",
     "family": "4651e8f0",
-    "pricing": "61233876",
-    "capabilities": "0fa77dc6"
-  }
+    "status": "379ac110",
+    "capabilities": "0fa77dc6",
+    "pricing": "af280cc2",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

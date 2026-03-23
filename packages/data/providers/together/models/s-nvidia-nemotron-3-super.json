@@ -3,7 +3,7 @@
   "name": "Nvidia Nemotron 3 Super",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
@@ -13,7 +13,9 @@
   },
   "_generated": {
     "name": "4a698425",
+    "capabilities": "0fa77dc6",
     "pricing": "7d15b491",
-    "capabilities": "0fa77dc6"
-  }
+    "page_url": "2558998b"
+  },
+  "page_url": "https://www.together.ai/models/nvidia-nemotron-3-super"
 }

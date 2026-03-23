@@ -3,7 +3,7 @@
   "name": "deepseek-v3.1",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek",
   "capabilities": {
     "streaming": true
@@ -11,6 +11,29 @@
   "_generated": {
     "name": "dc24e73d",
     "family": "4b81b92d",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "description": "ee3ca03c",
+    "release_date": "38dc8373",
+    "parameters": "5dd9db5e",
+    "page_url": "0a95dfc4",
+    "tagline": "ee3ca03c",
+    "context_window": "7edab444",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "description": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
+  "release_date": "2025-11-20",
+  "parameters": 671,
+  "page_url": "https://ollama.com/library/deepseek-v3.1",
+  "tagline": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
+  "context_window": 163840,
+  "license": "open-weight",
+  "open_weight": true,
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

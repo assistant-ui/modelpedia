@@ -1,9 +1,3 @@
-/**
- * Re-export the model data from the workspace data package.
- * Explicit type annotations prevent literal union types from leaking
- * when Turbopack resolves through the workspace symlink to source.
- */
-
 import type { Model, ProviderWithModels } from "@modelpedia/data";
 import {
   allModels as _allModels,
@@ -20,7 +14,9 @@ import { normalizeModelId } from "./search";
 
 export type {
   Model,
+  ModelCapabilities,
   ModelData,
+  ModelPricing,
   Provider,
   ProviderWithModels,
 } from "@modelpedia/data";
@@ -29,16 +25,14 @@ export const allModels: Model[] = _allModels;
 export const providers: ProviderWithModels[] = _providers;
 export function getModel(provider: string, id: string): Model | undefined {
   const decoded = decodeURIComponent(id);
-  // Direct match first
-  const direct = _getModel(provider, decoded);
-  if (direct) return direct;
-  // Fallback: search by snapshot ID → find the alias model that lists it
-  return allModels.find(
-    (m) => m.provider === provider && m.snapshots?.includes(decoded),
+  return (
+    _getModel(provider, decoded) ??
+    allModels.find(
+      (m) => m.provider === provider && m.snapshots?.includes(decoded),
+    )
   );
 }
-export const getProvider: (id: string) => ProviderWithModels | undefined =
-  _getProvider;
+export const getProvider = _getProvider;
 export {
   getActiveModels,
   getAllProviders,
@@ -47,10 +41,6 @@ export {
   getModelsByProvider,
 };
 
-/**
- * Fields that can be inherited from the creator's canonical model.
- * Excludes identity fields (id, name, provider, source, etc.).
- */
 const INHERITABLE_FIELDS = [
   "description",
   "status",
@@ -66,12 +56,13 @@ const INHERITABLE_FIELDS = [
   "deprecation_date",
   "model_type",
   "reasoning_tokens",
+  "license",
+  "parameters",
+  "active_parameters",
 ] as const;
 
 export interface EnrichedModel extends Model {
-  /** Fields that were inherited from the creator's canonical model */
   inheritedFields?: Set<string>;
-  /** The creator provider's name (for display) */
   inheritedFrom?: string;
 }
 
@@ -79,10 +70,12 @@ function inheritFields(
   enriched: EnrichedModel,
   source: Model,
   inherited: Set<string>,
-) {
+): void {
+  const target = enriched as Record<string, unknown>;
+  const src = source as Record<string, unknown>;
   for (const field of INHERITABLE_FIELDS) {
-    if (enriched[field] == null && source[field] != null) {
-      (enriched as any)[field] = source[field];
+    if (target[field] == null && src[field] != null) {
+      target[field] = src[field];
       inherited.add(field);
     }
   }
@@ -102,9 +95,6 @@ function inheritFields(
   }
 }
 
-/**
- * Get a model with missing fields filled in from alias and/or creator's canonical version.
- */
 export function getModelWithInheritance(
   provider: string,
   id: string,
@@ -115,7 +105,6 @@ export function getModelWithInheritance(
   const enriched: EnrichedModel = { ...model };
   const inherited = new Set<string>();
 
-  // Inherit from alias model (snapshot → alias within same provider)
   if (model.alias) {
     const alias = _getModel(model.provider, model.alias);
     if (alias) {
@@ -123,7 +112,6 @@ export function getModelWithInheritance(
     }
   }
 
-  // Inherit from creator's canonical model (cross-provider)
   if (model.created_by !== model.provider) {
     const canonical =
       _getModel(model.created_by, model.id) ??
@@ -141,18 +129,13 @@ export function getModelWithInheritance(
 
   if (inherited.size > 0) {
     enriched.inheritedFields = inherited;
-    if (model.alias) {
-      enriched.inheritedFrom = model.alias;
-    } else {
-      const creatorProvider = _getProvider(model.created_by);
-      enriched.inheritedFrom = creatorProvider?.name ?? model.created_by;
-    }
+    enriched.inheritedFrom = model.alias
+      ? model.alias
+      : (_getProvider(model.created_by)?.name ?? model.created_by);
   }
 
   return enriched;
 }
-
-// ── Changes ──
 
 export interface ChangeEntry {
   ts: string;
@@ -175,13 +158,14 @@ export function getChanges(): ChangeEntry[] {
       "../../packages/data/changes/changes.jsonl",
     );
     const content = fs.readFileSync(filePath, "utf-8");
-    _changes = content
+    const entries: ChangeEntry[] = content
       .trim()
       .split("\n")
       .filter(Boolean)
       .map((line: string) => JSON.parse(line))
-      .reverse(); // newest first
-    return _changes!;
+      .reverse();
+    _changes = entries;
+    return entries;
   } catch {
     return [];
   }

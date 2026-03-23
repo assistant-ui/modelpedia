@@ -3,10 +3,12 @@
   "name": "OpenRouter: deepseek/deepseek-chat:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "deepseek-chat",
   "_generated": {
     "name": "c421e769",
-    "family": "fbd79fd9"
-  }
+    "family": "fbd79fd9",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

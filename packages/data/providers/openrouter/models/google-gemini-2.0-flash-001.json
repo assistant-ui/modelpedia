@@ -3,7 +3,7 @@
   "name": "Google: Gemini 2.0 Flash",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemini-2.0",
   "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5).",
   "status": "deprecated",
@@ -25,14 +25,22 @@
   },
   "_generated": {
     "name": "6e6ae874",
+    "family": "dc4aadf6",
     "description": "1703c22c",
     "status": "2e2f74dc",
+    "deprecation_date": "80eaf594",
     "context_window": "7d28a051",
     "max_output_tokens": "77441296",
-    "deprecation_date": "80eaf594",
-    "family": "dc4aadf6",
-    "pricing": "26648b28",
+    "modalities": "0843b982",
     "capabilities": "ad177261",
-    "modalities": "0843b982"
-  }
+    "pricing": "26648b28",
+    "model_type": "d669f408",
+    "release_date": "6d791f55",
+    "tagline": "15517ee9",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-02-05",
+  "tagline": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro",
+  "tools": ["function_calling"]
 }

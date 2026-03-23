@@ -3,7 +3,7 @@
   "name": "text-embedding-004",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "status": "deprecated",
   "deprecation_date": "2026-01-14",
   "successor": "gemini-embedding-001",
@@ -15,9 +15,15 @@
   "_generated": {
     "name": "efbc4e96",
     "status": "2e2f74dc",
-    "model_type": "764cb3de",
     "deprecation_date": "d72531e7",
     "successor": "b26b48b2",
-    "modalities": "68e53d93"
-  }
+    "model_type": "764cb3de",
+    "modalities": "68e53d93",
+    "family": "41411f76",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
+  },
+  "family": "text-embedding",
+  "license": "proprietary",
+  "open_weight": false
 }

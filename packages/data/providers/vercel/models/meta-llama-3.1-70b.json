@@ -3,7 +3,7 @@
   "name": "llama-3.1-70b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-3.1",
   "context_window": 131100,
   "capabilities": {
@@ -16,9 +16,15 @@
   },
   "_generated": {
     "name": "5aa5ffd0",
-    "context_window": "a683b9ae",
     "family": "83ec32db",
+    "context_window": "a683b9ae",
+    "capabilities": "48995a4e",
     "pricing": "328de8c6",
-    "capabilities": "48995a4e"
-  }
+    "model_type": "d669f408",
+    "parameters": "7cbbc409",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 70,
+  "tools": ["function_calling"]
 }

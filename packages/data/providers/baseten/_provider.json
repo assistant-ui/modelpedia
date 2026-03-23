@@ -2,11 +2,20 @@
   "id": "baseten",
   "name": "Baseten",
   "region": "US",
+  "headquarters": "San Francisco, CA",
+  "founded": 2019,
   "url": "https://www.baseten.co",
   "api_url": "https://bridge.baseten.co/v1",
   "docs_url": "https://docs.baseten.co",
   "pricing_url": "https://www.baseten.co/pricing",
   "description": "Inference platform for deploying and serving open-source and custom ML models.",
-  "type": "aggregator",
-  "free_tier": false
+  "type": "cloud",
+  "openai_compatible": true,
+  "free_tier": false,
+  "github_url": "https://github.com/basetenlabs",
+  "models_url": "https://www.baseten.co/library",
+  "twitter_url": "https://x.com/basetenco",
+  "blog_url": "https://www.baseten.co/blog",
+  "terms_url": "https://www.baseten.co/terms-and-conditions",
+  "support_url": "https://support.baseten.co"
 }

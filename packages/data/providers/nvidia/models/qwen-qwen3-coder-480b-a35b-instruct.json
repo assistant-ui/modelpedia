@@ -3,7 +3,7 @@
   "name": "qwen3-coder-480b-a35b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "capabilities": {
     "streaming": true,
@@ -13,7 +13,13 @@
     "name": "941682f9",
     "family": "48c385a0",
     "capabilities": "48995a4e",
-    "model_type": "b6cc3ff4"
+    "model_type": "b6cc3ff4",
+    "parameters": "6ea2ef73",
+    "active_parameters": "1c383cd3",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "code"
+  "model_type": "code",
+  "parameters": 480,
+  "active_parameters": 35,
+  "tools": ["function_calling"]
 }

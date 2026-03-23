@@ -19,5 +19,6 @@
     "deprecation_date": "d72531e7",
     "successor": "b26b48b2",
     "modalities": "68e53d93"
-  }
+  },
+  "family": "text-embedding"
 }

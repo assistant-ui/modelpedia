@@ -1,5 +1,6 @@
 import {
   inferFamily,
+  inferParameters,
   type ModelEntry,
   readSources,
   runGenerate,
@@ -41,6 +42,7 @@ interface PricingRow {
   output: number | undefined;
   cacheWrite: number | undefined;
   cacheRead: number | undefined;
+  notes: string | undefined;
 }
 
 // ── Helpers ──
@@ -226,6 +228,7 @@ function parsePricingTable(md: string): Map<string, PricingRow> {
         else if (h.includes("cache write")) colMap.cacheWrite = i;
         else if (h.includes("cache read")) colMap.cacheRead = i;
         else if (h === "output") colMap.output = i;
+        else if (h.includes("note")) colMap.notes = i;
       }
       continue;
     }
@@ -243,6 +246,11 @@ function parsePricingTable(md: string): Map<string, PricingRow> {
     if (!name || name === "-") continue;
 
     const id = toModelId(name);
+    const notesRaw = colMap.notes != null ? cells[colMap.notes] : undefined;
+    const notes =
+      notesRaw && notesRaw !== "—" && notesRaw !== "-"
+        ? stripMdLinks(notesRaw).trim()
+        : undefined;
     rows.set(id, {
       model: name,
       provider: cells[colMap.provider] ?? "",
@@ -250,6 +258,7 @@ function parsePricingTable(md: string): Map<string, PricingRow> {
       output: parseDollar(cells[colMap.output] ?? ""),
       cacheWrite: parseDollar(cells[colMap.cacheWrite] ?? ""),
       cacheRead: parseDollar(cells[colMap.cacheRead] ?? ""),
+      notes,
     });
   }
 
@@ -285,6 +294,7 @@ function parsePricingTable(md: string): Map<string, PricingRow> {
         output,
         cacheWrite: undefined,
         cacheRead,
+        notes: undefined,
       });
     }
   }
@@ -322,6 +332,7 @@ async function main() {
 
     const bundle = bundleModels.get(id);
     const createdBy = normalizeProvider(pricing.provider);
+    const params = inferParameters(id);
 
     // Capabilities from bundle data
     const caps: Record<string, boolean> = { streaming: true };
@@ -376,9 +387,13 @@ async function main() {
       performance: intelligenceTierToNumber(bundle?.intelligenceTier ?? null),
       capabilities: caps,
       modalities: { input, output },
+      parameters: params?.parameters,
+      active_parameters: params?.active_parameters,
+      page_url: `${PAGE_URL}#${bundle?.slug ?? id}`,
     };
 
     if (Object.keys(pricingData).length > 0) entry.pricing = pricingData;
+    if (pricing.notes) entry.pricing_notes = [pricing.notes];
 
     if (upsertModel("cursor", entry)) written++;
   }

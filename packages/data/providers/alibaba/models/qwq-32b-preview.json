@@ -3,7 +3,7 @@
   "name": "qwq-32b-preview",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwq",
   "context_window": 32768,
   "max_output_tokens": 16384,
@@ -30,6 +30,12 @@
     "capabilities": "b011c6b4",
     "modalities": "68e53d93",
     "pricing": "24fc5ef4",
-    "endpoints": "75df3f1c"
-  }
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "parameters": "6364d3f0",
+    "open_weight": "b326b506"
+  },
+  "license": "apache-2.0",
+  "parameters": 32,
+  "open_weight": true
 }

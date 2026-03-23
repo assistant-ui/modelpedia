@@ -5,7 +5,7 @@ import { Search } from "lucide-react";
 import { type ComponentPropsWithoutRef, forwardRef } from "react";
 import { cn } from "@/lib/cn";
 
-const Command = forwardRef<
+export const Command = forwardRef<
   HTMLDivElement,
   ComponentPropsWithoutRef<typeof CommandPrimitive>
 >(({ className, ...props }, ref) => (
@@ -20,7 +20,7 @@ const Command = forwardRef<
 ));
 Command.displayName = "Command";
 
-const CommandInput = forwardRef<
+export const CommandInput = forwardRef<
   HTMLInputElement,
   ComponentPropsWithoutRef<typeof CommandPrimitive.Input>
 >(({ className, ...props }, ref) => (
@@ -38,7 +38,7 @@ const CommandInput = forwardRef<
 ));
 CommandInput.displayName = "CommandInput";
 
-const CommandList = forwardRef<
+export const CommandList = forwardRef<
   HTMLDivElement,
   ComponentPropsWithoutRef<typeof CommandPrimitive.List>
 >(({ className, ...props }, ref) => (
@@ -50,7 +50,7 @@ const CommandList = forwardRef<
 ));
 CommandList.displayName = "CommandList";
 
-const CommandEmpty = forwardRef<
+export const CommandEmpty = forwardRef<
   HTMLDivElement,
   ComponentPropsWithoutRef<typeof CommandPrimitive.Empty>
 >(({ className, ...props }, ref) => (
@@ -65,7 +65,7 @@ const CommandEmpty = forwardRef<
 ));
 CommandEmpty.displayName = "CommandEmpty";
 
-const CommandGroup = forwardRef<
+export const CommandGroup = forwardRef<
   HTMLDivElement,
   ComponentPropsWithoutRef<typeof CommandPrimitive.Group>
 >(({ className, ...props }, ref) => (
@@ -80,7 +80,7 @@ const CommandGroup = forwardRef<
 ));
 CommandGroup.displayName = "CommandGroup";
 
-const CommandItem = forwardRef<
+export const CommandItem = forwardRef<
   HTMLDivElement,
   ComponentPropsWithoutRef<typeof CommandPrimitive.Item>
 >(({ className, ...props }, ref) => (
@@ -95,7 +95,7 @@ const CommandItem = forwardRef<
 ));
 CommandItem.displayName = "CommandItem";
 
-const CommandSeparator = forwardRef<
+export const CommandSeparator = forwardRef<
   HTMLDivElement,
   ComponentPropsWithoutRef<typeof CommandPrimitive.Separator>
 >(({ className, ...props }, ref) => (
@@ -106,13 +106,3 @@ const CommandSeparator = forwardRef<
   />
 ));
 CommandSeparator.displayName = "CommandSeparator";
-
-export {
-  Command,
-  CommandEmpty,
-  CommandGroup,
-  CommandInput,
-  CommandItem,
-  CommandList,
-  CommandSeparator,
-};

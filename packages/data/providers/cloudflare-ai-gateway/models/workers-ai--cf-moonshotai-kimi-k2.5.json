@@ -11,5 +11,7 @@
   "_generated": {
     "name": "02b688eb",
     "pricing": "2209d9dc"
-  }
+  },
+  "family": "moonshot",
+  "model_type": "chat"
 }

@@ -3,12 +3,18 @@
   "name": "stable-diffusion-xl-base-1.0",
   "created_by": "stability",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "e908bc0e",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "model_type": "db8857fe",
+    "status": "379ac110",
+    "page_url": "2cf18393"
+  },
+  "model_type": "image",
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#stable-diffusion-xl-base-1.0"
 }

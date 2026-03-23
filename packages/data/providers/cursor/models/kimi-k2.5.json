@@ -3,7 +3,7 @@
   "name": "Kimi K2.5",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -24,11 +24,21 @@
   "speed": 3,
   "_generated": {
     "name": "52aa7dab",
+    "capabilities": "7ca28ec9",
+    "modalities": "6399757e",
+    "pricing": "b1e4b497",
     "context_window": "4ed74017",
     "performance": "a87ff679",
     "speed": "eccbc87e",
-    "pricing": "b1e4b497",
-    "capabilities": "7ca28ec9",
-    "modalities": "6399757e"
-  }
+    "family": "69ffee7b",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e",
+    "page_url": "30728b5a",
+    "pricing_notes": "963e4ad1"
+  },
+  "family": "kimi-k2.5",
+  "model_type": "chat",
+  "tools": ["function_calling"],
+  "page_url": "https://cursor.com/docs/models-and-pricing#kimi-k2-5",
+  "pricing_notes": ["Hidden by default"]
 }

@@ -1,14 +1,37 @@
 {
   "id": "cogito-2.1",
   "name": "cogito-2.1",
-  "created_by": "unknown",
+  "created_by": "deepcogito",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "ff1964ae",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "description": "347f5be2",
+    "release_date": "e4be41d6",
+    "parameters": "5dd9db5e",
+    "page_url": "74f55446",
+    "tagline": "26a5c73b",
+    "context_window": "7edab444",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "description": "The Cogito v2.1 LLMs are instruction tuned generative models. All models are released under MIT license for commercial use.",
+  "release_date": "2025-11-19",
+  "parameters": 671,
+  "page_url": "https://ollama.com/library/cogito-2.1",
+  "tagline": "The Cogito v2.1 LLMs are instruction tuned generative models.",
+  "context_window": 163840,
+  "license": "mit",
+  "open_weight": true,
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

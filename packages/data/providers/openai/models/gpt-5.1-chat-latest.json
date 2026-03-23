@@ -3,7 +3,7 @@
   "name": "GPT-5.1 Chat",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.1",
   "description": "GPT-5.1 Chat points to the GPT-5.1 snapshot currently used in ChatGPT.",
   "status": "active",
@@ -37,20 +37,26 @@
   "snapshots": ["gpt-5.1-chat-latest"],
   "_generated": {
     "name": "99cca463",
+    "family": "2089aff2",
     "description": "d75f6a0e",
-    "tagline": "d8316042",
     "status": "379ac110",
-    "model_type": "d669f408",
+    "knowledge_cutoff": "b0196d6e",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
     "max_input_tokens": "3f9281a0",
-    "knowledge_cutoff": "b0196d6e",
+    "model_type": "d669f408",
     "performance": "eccbc87e",
     "speed": "eccbc87e",
-    "family": "2089aff2",
+    "tagline": "d8316042",
     "capabilities": "fdacdfa5",
     "modalities": "6399757e",
     "tools": "1d5a765f",
-    "endpoints": "a913714d"
-  }
+    "endpoints": "a913714d",
+    "license": "9186c466",
+    "page_url": "ef4446a2",
+    "open_weight": "68934a3e"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-5.1-chat-latest",
+  "open_weight": false
 }

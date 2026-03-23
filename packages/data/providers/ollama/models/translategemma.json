@@ -3,14 +3,34 @@
   "name": "translategemma",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "vision": true
   },
   "_generated": {
     "name": "333c95d8",
-    "capabilities": "0fa77dc6",
-    "model_type": "5c212ca7"
+    "capabilities": "8a3b232e",
+    "model_type": "5c212ca7",
+    "description": "8fc2873b",
+    "page_url": "390e2497",
+    "tagline": "8fc2873b",
+    "context_window": "f7de594e",
+    "parameters": "a87ff679",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "modalities": "6399757e"
   },
-  "model_type": "translation"
+  "model_type": "translation",
+  "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
+  "page_url": "https://ollama.com/library/translategemma",
+  "tagline": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
+  "context_window": 131072,
+  "parameters": 4,
+  "license": "open-weight",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
 }

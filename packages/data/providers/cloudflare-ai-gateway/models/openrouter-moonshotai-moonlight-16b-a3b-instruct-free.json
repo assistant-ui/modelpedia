@@ -6,5 +6,9 @@
   "last_updated": "2026-03-22",
   "_generated": {
     "name": "cd07b825"
-  }
+  },
+  "family": "moonshot",
+  "model_type": "chat",
+  "parameters": 16,
+  "active_parameters": 3
 }

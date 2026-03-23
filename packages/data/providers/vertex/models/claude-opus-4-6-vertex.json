@@ -3,7 +3,7 @@
   "name": "Claude Opus 4.6",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "claude-opus",
   "context_window": 1000000,
   "max_output_tokens": 128000,
@@ -43,13 +43,15 @@
   },
   "_generated": {
     "name": "3b695ed7",
+    "family": "4e4c4b18",
     "context_window": "8155bc54",
     "max_output_tokens": "34434798",
-    "family": "4e4c4b18",
-    "pricing": "24493fba",
     "capabilities": "a19166f1",
     "modalities": "6399757e",
-    "model_type": "d669f408"
+    "pricing": "24493fba",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

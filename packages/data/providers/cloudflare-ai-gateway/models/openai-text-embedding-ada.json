@@ -13,5 +13,6 @@
     "name": "111e081e",
     "model_type": "764cb3de",
     "pricing": "5cbeedde"
-  }
+  },
+  "family": "text-embedding"
 }

@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-4o-mini Search Preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4o",
   "description": "GPT-4o mini Search Preview is a specialized model for web search in Chat Completions.",
   "context_window": 128000,
@@ -21,12 +21,18 @@
   },
   "_generated": {
     "name": "2f0338e0",
+    "family": "15249632",
     "description": "4c012354",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
-    "family": "15249632",
-    "pricing": "89a9c6e2",
+    "modalities": "68e53d93",
     "capabilities": "c8033cf7",
-    "modalities": "68e53d93"
-  }
+    "pricing": "89a9c6e2",
+    "model_type": "d669f408",
+    "release_date": "826a3ce0",
+    "tagline": "4c012354"
+  },
+  "model_type": "chat",
+  "release_date": "2025-03-12",
+  "tagline": "GPT-4o mini Search Preview is a specialized model for web search in Chat Completions."
 }

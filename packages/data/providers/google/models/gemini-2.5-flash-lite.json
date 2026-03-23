@@ -3,7 +3,7 @@
   "name": "gemini-2.5-flash-lite",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "gemini-2.5",
   "status": "active",
   "deprecation_date": "2026-07-22",
@@ -51,17 +51,25 @@
   "endpoints": ["generateContent", "streamGenerateContent"],
   "_generated": {
     "name": "d833df9b",
+    "family": "ea6b88bf",
     "status": "379ac110",
+    "deprecation_date": "79f611df",
+    "knowledge_cutoff": "3f358a56",
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
-    "knowledge_cutoff": "3f358a56",
-    "deprecation_date": "79f611df",
     "successor": "496b5612",
-    "family": "ea6b88bf",
-    "pricing": "a68544b0",
     "capabilities": "29b57eef",
     "modalities": "0b49b61e",
+    "pricing": "a68544b0",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
-  }
+    "endpoints": "20e16908",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "93ee1893",
+    "open_weight": "68934a3e"
+  },
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
+  "open_weight": false
 }

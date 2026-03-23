@@ -3,7 +3,7 @@
   "name": "omni-moderation",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Moderation models are free models designed to detect harmful content.",
   "status": "active",
   "model_type": "moderation",
@@ -37,14 +37,22 @@
   "_generated": {
     "name": "5da37138",
     "description": "8206f271",
-    "tagline": "e2c28ff4",
     "status": "379ac110",
     "model_type": "1e7a7b87",
     "performance": "eccbc87e",
     "speed": "eccbc87e",
-    "pricing": "8f4ac140",
+    "tagline": "e2c28ff4",
     "capabilities": "d3117eb0",
     "modalities": "6399757e",
-    "endpoints": "5692bd6c"
-  }
+    "pricing": "8f4ac140",
+    "endpoints": "5692bd6c",
+    "family": "5da37138",
+    "license": "9186c466",
+    "page_url": "f669e830",
+    "open_weight": "68934a3e"
+  },
+  "family": "omni-moderation",
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/omni-moderation-latest",
+  "open_weight": false
 }

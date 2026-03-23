@@ -3,7 +3,7 @@
   "name": "OpenRouter: deepseek/deepseek-chat",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "deepseek-chat",
   "pricing": {
     "input": 0.32,
@@ -12,6 +12,8 @@
   "_generated": {
     "name": "aa440db2",
     "family": "fbd79fd9",
-    "pricing": "a2c209e4"
-  }
+    "pricing": "a2c209e4",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

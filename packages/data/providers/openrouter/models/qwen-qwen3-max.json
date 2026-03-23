@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 Max",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "description": "Qwen3-Max is an updated release built on the Qwen3 series, offering major improvements in reasoning, instruction following, multilingual support, and long-tail knowledge coverage compared to the January 2025 version.",
   "context_window": 262144,
@@ -23,14 +23,20 @@
   },
   "_generated": {
     "name": "e07ae8d3",
+    "family": "48c385a0",
     "description": "bff98f4b",
     "context_window": "4a1d32eb",
     "max_output_tokens": "f4376436",
-    "family": "48c385a0",
-    "pricing": "d715ac02",
-    "capabilities": "ad177261",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "capabilities": "ad177261",
+    "pricing": "d715ac02",
+    "model_type": "d669f408",
+    "release_date": "142ddad6",
+    "tagline": "34bf2ba4",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "release_date": "2025-09-23",
+  "tagline": "Qwen3-Max is an updated release built on the Qwen3 series, offering major improvements in reasoning, instruction following, multilingual support, and long-tail knowledge coverage compared to the Janua",
+  "tools": ["function_calling"]
 }

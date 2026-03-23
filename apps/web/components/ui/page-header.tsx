@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
-function PageHeader({
+export function PageHeader({
   title,
   count,
   sub,
@@ -36,5 +36,3 @@ function PageHeader({
     </div>
   );
 }
-
-export { PageHeader };

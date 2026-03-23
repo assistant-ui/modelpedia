@@ -3,7 +3,7 @@
   "name": "GPT-5.3 series",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.3",
   "capabilities": {
     "streaming": true
@@ -16,6 +16,12 @@
     "name": "8da97601",
     "family": "a1a05172",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "d669f408",
+    "description": "5c619e43",
+    "tagline": "5c619e43"
+  },
+  "model_type": "chat",
+  "description": "NEW gpt-5.3-codex",
+  "tagline": "NEW gpt-5.3-codex"
 }

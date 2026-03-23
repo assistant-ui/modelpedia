@@ -3,7 +3,7 @@
   "name": "deepseek-r1-distill-llama-70b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "deepseek-r1",
   "status": "deprecated",
   "deprecation_date": "2025-08-12",
@@ -20,6 +20,10 @@
     "deprecation_date": "4ae0376c",
     "model_type": "d669f408",
     "successor": "02a78c1a",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "parameters": "7cbbc409",
+    "open_weight": "b326b506"
+  },
+  "parameters": 70,
+  "open_weight": true
 }

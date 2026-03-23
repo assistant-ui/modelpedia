@@ -1,0 +1,32 @@
+{
+  "id": "qwen3-vl-32b-instruct",
+  "name": "qwen3-vl-32b-instruct",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "qwen3",
+  "context_window": 129024,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "2bc56878",
+    "family": "48c385a0",
+    "context_window": "80303b0e",
+    "model_type": "d669f408",
+    "capabilities": "8d009641",
+    "modalities": "3ad4060a",
+    "endpoints": "75df3f1c"
+  },
+  "license": "apache-2.0",
+  "parameters": 32,
+  "provider": "qwen"
+}

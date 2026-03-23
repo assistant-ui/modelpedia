@@ -8,6 +8,18 @@ import {
 } from "@/lib/data";
 import { formatTokens } from "@/lib/format";
 
+function formatChangeDetail(
+  changes: Record<string, { from: unknown; to: unknown }> | undefined,
+): string {
+  if (!changes) return "—";
+  return Object.entries(changes)
+    .map(
+      ([k, { from, to }]) =>
+        `${k}: ${JSON.stringify(from)} → ${JSON.stringify(to)}`,
+    )
+    .join("; ");
+}
+
 export async function GET(
   _req: Request,
   { params }: { params: Promise<{ path?: string[] }> },
@@ -30,19 +42,16 @@ export async function GET(
   } else if (pathname === "/docs/api") {
     md = renderApiDocs();
   } else {
-    // /:provider/:model_id/changes (model changes)
     const changesMatch = pathname.match(/^\/([^/]+)\/(.+)\/changes$/);
     if (changesMatch) {
       md = renderModelChanges(changesMatch[1], changesMatch[2]);
     }
-    // /:provider/:model_id (model detail)
     if (!md) {
       const modelMatch = pathname.match(/^\/([^/]+)\/(.+)$/);
       if (modelMatch) {
         md = renderModel(modelMatch[1], modelMatch[2]);
       }
     }
-    // /:provider (provider detail)
     if (!md) {
       const providerMatch = pathname.match(/^\/([^/]+)$/);
       if (providerMatch) {
@@ -177,16 +186,9 @@ function renderChanges(): string {
     const date = new Date(entry.ts).toISOString().slice(0, 10);
     const provider = getProvider(entry.provider);
     const provName = provider?.name ?? entry.provider;
-    const changes = entry.changes
-      ? Object.entries(entry.changes)
-          .map(
-            ([k, { from, to }]) =>
-              `${k}: ${JSON.stringify(from)} → ${JSON.stringify(to)}`,
-          )
-          .join("; ")
-      : "—";
+    const detail = formatChangeDetail(entry.changes);
     lines.push(
-      `| ${date} | ${provName} | ${entry.model} | ${entry.action} | ${changes} |`,
+      `| ${date} | ${provName} | ${entry.model} | ${entry.action} | ${detail} |`,
     );
   }
 
@@ -266,15 +268,8 @@ function renderModelChanges(
     lines.push("| Date | Action | Changes |", "|------|--------|---------|");
     for (const entry of changes) {
       const date = new Date(entry.ts).toISOString().slice(0, 10);
-      const changes = entry.changes
-        ? Object.entries(entry.changes)
-            .map(
-              ([k, { from, to }]) =>
-                `${k}: ${JSON.stringify(from)} → ${JSON.stringify(to)}`,
-            )
-            .join("; ")
-        : "—";
-      lines.push(`| ${date} | ${entry.action} | ${changes} |`);
+      const detail = formatChangeDetail(entry.changes);
+      lines.push(`| ${date} | ${entry.action} | ${detail} |`);
     }
   }
 
@@ -344,7 +339,9 @@ function renderModel(provider: string, id: string): string | null {
     ] as const;
     for (const key of caps) {
       const val = model.capabilities[key];
-      const icon = val === true ? "✓" : val === false ? "✗" : "?";
+      let icon = "?";
+      if (val === true) icon = "✓";
+      else if (val === false) icon = "✗";
       lines.push(`- ${icon} ${key.replace(/_/g, " ")}`);
     }
   }

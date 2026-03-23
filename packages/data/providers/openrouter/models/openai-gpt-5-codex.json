@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5 Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5",
   "description": "GPT-5-Codex is a specialized version of GPT-5 optimized for software engineering and coding workflows.",
   "context_window": 400000,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "66012bbb",
+    "family": "aa904c16",
     "description": "eae2f064",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
-    "family": "aa904c16",
-    "pricing": "50bb1323",
+    "modalities": "6399757e",
     "capabilities": "f533f522",
-    "modalities": "6399757e"
-  }
+    "pricing": "50bb1323",
+    "model_type": "d669f408",
+    "release_date": "142ddad6",
+    "tagline": "eae2f064",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-09-23",
+  "tagline": "GPT-5-Codex is a specialized version of GPT-5 optimized for software engineering and coding workflows.",
+  "tools": ["function_calling"]
 }

@@ -1,0 +1,43 @@
+{
+  "id": "mistralai/ministral-3b",
+  "name": "Mistral: Ministral 3 3B 2512",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "ministral",
+  "description": "The smallest model in the Ministral 3 family, Ministral 3 3B is a powerful, efficient tiny language model with vision capabilities.",
+  "release_date": "2025-12-02",
+  "context_window": 131072,
+  "parameters": 3,
+  "model_type": "chat",
+  "tagline": "The smallest model in the Ministral 3 family, Ministral 3 3B is a powerful, efficient tiny language model with vision capabilities.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.1,
+    "cached_input": 0.01
+  },
+  "tools": ["function_calling"],
+  "snapshots": ["mistralai/ministral-3b-2512"],
+  "_generated": {
+    "name": "4e17a800",
+    "family": "d6661e63",
+    "description": "e8ac9711",
+    "release_date": "75f289bd",
+    "context_window": "f7de594e",
+    "parameters": "eccbc87e",
+    "model_type": "d669f408",
+    "tagline": "e8ac9711",
+    "capabilities": "ad177261",
+    "modalities": "6399757e",
+    "pricing": "d4480124",
+    "tools": "f0c1dc7e"
+  }
+}

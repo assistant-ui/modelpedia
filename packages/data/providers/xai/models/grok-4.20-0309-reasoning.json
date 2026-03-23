@@ -3,7 +3,7 @@
   "name": "grok-4.20-0309-reasoning",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-23",
   "release_date": "2026-03-09",
   "capabilities": {
     "streaming": true,
@@ -25,14 +25,22 @@
   },
   "_generated": {
     "name": "f5cfbdea",
-    "context_window": "805f7438",
     "release_date": "6bbd875b",
-    "family": "44972aca",
-    "reasoning_tokens": "b326b506",
-    "pricing": "9277b5ca",
     "capabilities": "0946b777",
+    "family": "44972aca",
+    "context_window": "805f7438",
+    "reasoning_tokens": "b326b506",
     "modalities": "6399757e",
-    "model_type": "17475f7f"
+    "pricing": "9277b5ca",
+    "model_type": "17475f7f",
+    "license": "9186c466",
+    "page_url": "0a63b508",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "license": "proprietary",
+  "page_url": "https://docs.x.ai/docs/models#grok-4.20-0309-reasoning",
+  "open_weight": false,
+  "tools": ["function_calling"]
 }

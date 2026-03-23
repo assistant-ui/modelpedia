@@ -3,7 +3,7 @@
   "name": "DeepSeek: deepseek-chat-v3.1:thinking",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "deepseek-chat",
   "pricing": {
     "input": 0.55,
@@ -12,6 +12,8 @@
   "_generated": {
     "name": "3f1e1771",
     "family": "fbd79fd9",
-    "pricing": "c944f26f"
-  }
+    "pricing": "c944f26f",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

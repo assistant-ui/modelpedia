@@ -3,12 +3,12 @@
   "name": "Mistral: devstral-small-2505:free",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "devstral",
-  "model_type": "chat",
+  "model_type": "code",
   "_generated": {
     "name": "58958b36",
     "family": "e626e93e",
-    "model_type": "d669f408"
+    "model_type": "b6cc3ff4"
   }
 }

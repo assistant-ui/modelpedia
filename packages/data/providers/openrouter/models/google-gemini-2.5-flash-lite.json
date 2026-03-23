@@ -3,7 +3,7 @@
   "name": "Google: Gemini 2.5 Flash Lite",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemini-2.5",
   "description": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency.",
   "context_window": 1048576,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "c90a888c",
+    "family": "ea6b88bf",
     "description": "35251cdb",
     "context_window": "7d28a051",
     "max_output_tokens": "3c9b5f1c",
-    "family": "ea6b88bf",
-    "pricing": "e9071edc",
+    "modalities": "0843b982",
     "capabilities": "f533f522",
-    "modalities": "0843b982"
-  }
+    "pricing": "e9071edc",
+    "model_type": "d669f408",
+    "release_date": "7b78b654",
+    "tagline": "35251cdb",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-07-22",
+  "tagline": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency.",
+  "tools": ["function_calling"]
 }

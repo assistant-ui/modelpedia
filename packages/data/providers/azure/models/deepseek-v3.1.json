@@ -3,7 +3,7 @@
   "name": "DeepSeek-V3.1",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek",
   "capabilities": {
     "streaming": true,
@@ -19,6 +19,10 @@
     "name": "92fd9533",
     "family": "4b81b92d",
     "capabilities": "3181ba37",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e",
+    "model_type": "d669f408"
+  },
+  "tools": ["function_calling"],
+  "model_type": "chat"
 }

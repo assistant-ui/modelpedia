@@ -3,7 +3,7 @@
   "name": "deepseek-v3.1-terminus",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek",
   "context_window": 131100,
   "capabilities": {
@@ -17,9 +17,11 @@
   },
   "_generated": {
     "name": "cbb6391b",
-    "context_window": "a683b9ae",
     "family": "4b81b92d",
+    "context_window": "a683b9ae",
+    "capabilities": "a281e83a",
     "pricing": "0f7797d7",
-    "capabilities": "a281e83a"
-  }
+    "tools": "f0c1dc7e"
+  },
+  "tools": ["function_calling"]
 }

@@ -1,0 +1,48 @@
+{
+  "id": "qwen/qwen3-30b-a3b-thinking",
+  "name": "Qwen: Qwen3 30B A3B Thinking 2507",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "qwen3",
+  "description": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking.",
+  "release_date": "2025-08-28",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "parameters": 30,
+  "active_parameters": 3,
+  "model_type": "chat",
+  "tagline": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.08,
+    "output": 0.4,
+    "cached_input": 0.08
+  },
+  "tools": ["function_calling"],
+  "snapshots": ["qwen/qwen3-30b-a3b-thinking-2507"],
+  "_generated": {
+    "name": "c516129e",
+    "family": "48c385a0",
+    "description": "1f3b9f86",
+    "release_date": "9e3c5ae9",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "model_type": "d669f408",
+    "tagline": "1f3b9f86",
+    "capabilities": "f533f522",
+    "modalities": "68e53d93",
+    "pricing": "7cab5fec",
+    "tools": "f0c1dc7e"
+  }
+}

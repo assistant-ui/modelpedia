@@ -2,11 +2,21 @@
   "id": "deepseek",
   "name": "DeepSeek",
   "region": "CN",
+  "headquarters": "Hangzhou, Zhejiang",
+  "founded": 2023,
   "url": "https://deepseek.com",
   "api_url": "https://api.deepseek.com/v1",
   "docs_url": "https://api-docs.deepseek.com",
   "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
   "description": "Chinese AI lab building open-source reasoning and chat models.",
   "type": "direct",
-  "free_tier": true
+  "playground_url": "https://chat.deepseek.com",
+  "openai_compatible": true,
+  "free_tier": true,
+  "github_url": "https://github.com/deepseek-ai",
+  "models_url": "https://platform.deepseek.com/api-docs/pricing",
+  "twitter_url": "https://x.com/deepseek_ai",
+  "discord_url": "https://discord.com/invite/Tc7c45Zzu5",
+  "terms_url": "https://cdn.deepseek.com/policies/en-US/deepseek-open-platform-terms-of-service.html",
+  "support_url": "https://api-docs.deepseek.com/faq"
 }

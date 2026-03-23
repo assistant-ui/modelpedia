@@ -3,13 +3,15 @@
   "name": "phi-4-multimodal-instruct",
   "created_by": "microsoft",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
   },
   "_generated": {
     "name": "6ab0d565",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "tools": "f0c1dc7e"
+  },
+  "tools": ["function_calling"]
 }

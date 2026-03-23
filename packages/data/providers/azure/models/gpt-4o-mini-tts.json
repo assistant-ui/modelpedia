@@ -3,7 +3,7 @@
   "name": "gpt-4o-mini-tts",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4o",
   "capabilities": {
     "streaming": true
@@ -15,9 +15,13 @@
   "model_type": "tts",
   "_generated": {
     "name": "857ddae3",
-    "model_type": "4e16a2cf",
     "family": "15249632",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "4e16a2cf",
+    "description": "44b0478e",
+    "tagline": "8546cf4e"
+  },
+  "description": "Text-to-speech model powered by GPT-4o mini. You can guide the voice to speak in a specific style or tone.",
+  "tagline": "Text-to-speech model powered by GPT-4o mini."
 }

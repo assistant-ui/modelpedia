@@ -3,15 +3,34 @@
   "name": "Qwen3-235B-A22B-Instruct-2507",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "alias": "Qwen/Qwen3-235B-A22B-Instruct",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "6dc008d1",
-    "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "page_url": "36ad69b1",
+    "release_date": "161bb403",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "architecture": "31b2172c",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 235,
+  "active_parameters": 22,
+  "page_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+  "release_date": "2025-07-21",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "architecture": "moe",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

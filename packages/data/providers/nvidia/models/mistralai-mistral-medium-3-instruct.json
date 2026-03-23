@@ -3,7 +3,7 @@
   "name": "mistral-medium-3-instruct",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "mistral-medium",
   "capabilities": {
     "streaming": true,
@@ -13,7 +13,9 @@
     "name": "39e4c79a",
     "family": "a57f1b52",
     "capabilities": "48995a4e",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

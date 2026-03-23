@@ -3,7 +3,7 @@
   "name": "OpenAI: o1-pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "o1",
   "description": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning.",
   "context_window": 200000,
@@ -22,12 +22,18 @@
   },
   "_generated": {
     "name": "dadfb4af",
+    "family": "e1ab0820",
     "description": "f45503b2",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
-    "family": "e1ab0820",
-    "pricing": "68249fcd",
+    "modalities": "6399757e",
     "capabilities": "ee598c3a",
-    "modalities": "6399757e"
-  }
+    "pricing": "68249fcd",
+    "model_type": "17475f7f",
+    "release_date": "2df47595",
+    "tagline": "f45503b2"
+  },
+  "model_type": "reasoning",
+  "release_date": "2025-03-19",
+  "tagline": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning."
 }

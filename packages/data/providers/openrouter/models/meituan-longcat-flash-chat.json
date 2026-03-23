@@ -3,7 +3,7 @@
   "name": "Meituan: LongCat Flash Chat",
   "created_by": "meituan",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "LongCat-Flash-Chat is a large-scale Mixture-of-Experts (MoE) model with 560B total parameters, of which 18.6B–31.3B (≈27B on average) are dynamically activated per input.",
   "context_window": 131072,
   "max_output_tokens": 131072,
@@ -25,8 +25,14 @@
     "description": "4d293302",
     "context_window": "f7de594e",
     "max_output_tokens": "f7de594e",
-    "pricing": "d7886180",
+    "modalities": "68e53d93",
     "capabilities": "ad177261",
-    "modalities": "68e53d93"
-  }
+    "pricing": "d7886180",
+    "release_date": "1c1c95de",
+    "tagline": "4d293302",
+    "tools": "f0c1dc7e"
+  },
+  "release_date": "2025-09-09",
+  "tagline": "LongCat-Flash-Chat is a large-scale Mixture-of-Experts (MoE) model with 560B total parameters, of which 18.6B–31.3B (≈27B on average) are dynamically activated per input.",
+  "tools": ["function_calling"]
 }

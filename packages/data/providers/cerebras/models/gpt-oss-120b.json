@@ -3,7 +3,7 @@
   "name": "OpenAI GPT OSS",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "gpt-oss",
   "context_window": 131000,
   "max_output_tokens": 40000,
@@ -35,16 +35,22 @@
     "endpoints": "d8fa1080",
     "model_card_url": "f3ef4573",
     "tokens_per_second": "e93028bd",
-    "parameters": "fcfd365c",
+    "parameters": "da4fb5c6",
     "precision": "c851ef38",
-    "huggingface_url": "e34c0783"
+    "huggingface_url": "e34c0783",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "status": "active",
   "endpoints": ["chat_completions"],
   "model_card_url": "https://openai.com/index/gpt-oss-model-card/",
   "tokens_per_second": 3000,
-  "parameters": "120 billion",
+  "parameters": 120,
   "precision": "FP16/FP8 (weights only)",
-  "huggingface_url": "https://huggingface.co/openai/gpt-oss-120b"
+  "huggingface_url": "https://huggingface.co/openai/gpt-oss-120b",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

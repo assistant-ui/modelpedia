@@ -3,7 +3,7 @@
   "name": "magistral-medium-2509",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "context_window": 128000,
   "alias": "magistral-medium",
@@ -23,10 +23,18 @@
     "name": "137c6834",
     "status": "379ac110",
     "context_window": "34434798",
-    "pricing": "383111d1",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
-    "model_type": "17475f7f"
+    "pricing": "383111d1",
+    "model_type": "17475f7f",
+    "family": "b2c75a88",
+    "license": "9186c466",
+    "page_url": "f333d527",
+    "open_weight": "68934a3e"
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "family": "magistral",
+  "license": "proprietary",
+  "page_url": "https://docs.mistral.ai/models/magistral-medium-1-2-25-09",
+  "open_weight": false
 }

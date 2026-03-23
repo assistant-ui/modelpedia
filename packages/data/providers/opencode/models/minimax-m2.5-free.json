@@ -12,5 +12,7 @@
     "name": "ab2d0e1e",
     "status": "379ac110",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "family": "minimax",
+  "model_type": "chat"
 }

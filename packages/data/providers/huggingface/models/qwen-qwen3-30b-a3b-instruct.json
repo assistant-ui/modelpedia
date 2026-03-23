@@ -3,15 +3,34 @@
   "name": "Qwen3-30B-A3B-Instruct-2507",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "snapshots": ["Qwen/Qwen3-30B-A3B-Instruct-2507"],
   "_generated": {
     "name": "fd1c0877",
-    "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "page_url": "83a7562f",
+    "release_date": "8ef4ed35",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "architecture": "31b2172c",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 30,
+  "active_parameters": 3,
+  "page_url": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "release_date": "2025-07-28",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "architecture": "moe",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

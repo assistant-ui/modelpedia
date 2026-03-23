@@ -3,12 +3,23 @@
   "name": "ultravox-v0-6-70b",
   "created_by": "unknown",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "9a2dcace",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "parameters": "7cbbc409",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "model_type": "9f84c007"
+  },
+  "parameters": 70,
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "model_type": "audio"
 }

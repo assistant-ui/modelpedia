@@ -3,13 +3,15 @@
   "name": "Azure OpenAI: phi-3-small-8k-instruct",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 0.15,
     "output": 0.6
   },
   "_generated": {
     "name": "d140e1c9",
-    "pricing": "89a9c6e2"
-  }
+    "pricing": "89a9c6e2",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

@@ -3,7 +3,7 @@
   "name": "ByteDance Seed: Seed 1.6",
   "created_by": "bytedance-seed",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Seed 1.6 is a general-purpose model released by the ByteDance Seed team.",
   "context_window": 262144,
   "max_output_tokens": 32768,
@@ -25,8 +25,14 @@
     "description": "1052bfe1",
     "context_window": "4a1d32eb",
     "max_output_tokens": "f4376436",
-    "pricing": "468d92b7",
+    "modalities": "1e916c3b",
     "capabilities": "f533f522",
-    "modalities": "1e916c3b"
-  }
+    "pricing": "468d92b7",
+    "release_date": "b3874102",
+    "tagline": "1052bfe1",
+    "tools": "f0c1dc7e"
+  },
+  "release_date": "2025-12-23",
+  "tagline": "Seed 1.6 is a general-purpose model released by the ByteDance Seed team.",
+  "tools": ["function_calling"]
 }

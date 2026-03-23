@@ -1,0 +1,27 @@
+{
+  "id": "wan2.2-animate-move",
+  "name": "wan2.2-animate-move",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "model_type": "video",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "37b5e5ea",
+    "model_type": "4d1b75ca",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "75df3f1c",
+    "family": "222d75c9"
+  },
+  "family": "wan2.2",
+  "license": "proprietary",
+  "provider": "qwen"
+}

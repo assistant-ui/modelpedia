@@ -3,7 +3,7 @@
   "name": "davinci-002",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "GPT base models can understand and generate natural language or code but are not trained with instruction following. These models are made to be replacements for our original GPT-3 base models and use the legacy Completions API. Most customers should use GPT-3.5 or GPT-4.",
   "status": "deprecated",
   "knowledge_cutoff": "2021-08",
@@ -62,16 +62,22 @@
   "_generated": {
     "name": "b6a39e85",
     "description": "e3072c59",
-    "tagline": "25a45b8b",
     "status": "2e2f74dc",
-    "model_type": "d669f408",
-    "max_output_tokens": "c76fe1d8",
     "knowledge_cutoff": "4778f833",
+    "max_output_tokens": "c76fe1d8",
+    "model_type": "d669f408",
     "performance": "c4ca4238",
     "speed": "eccbc87e",
-    "pricing": "492fd208",
+    "tagline": "25a45b8b",
     "capabilities": "d53dc8e8",
     "modalities": "68e53d93",
-    "endpoints": "69bfe5cd"
-  }
+    "pricing": "492fd208",
+    "endpoints": "69bfe5cd",
+    "license": "9186c466",
+    "page_url": "e5331a57",
+    "open_weight": "68934a3e"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/davinci-002",
+  "open_weight": false
 }

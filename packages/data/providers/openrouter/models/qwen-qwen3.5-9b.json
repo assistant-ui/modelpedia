@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3.5-9B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3.5",
   "description": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture.",
   "context_window": 256000,
@@ -22,11 +22,21 @@
   },
   "_generated": {
     "name": "6d3a11ee",
+    "family": "d548f421",
     "description": "9e4bfec6",
     "context_window": "2fd324cb",
-    "family": "d548f421",
-    "pricing": "ba9c4be9",
+    "modalities": "3ad4060a",
     "capabilities": "f533f522",
-    "modalities": "3ad4060a"
-  }
+    "pricing": "ba9c4be9",
+    "model_type": "d669f408",
+    "parameters": "45c48cce",
+    "release_date": "49946764",
+    "tagline": "9e4bfec6",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 9,
+  "release_date": "2026-03-10",
+  "tagline": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture.",
+  "tools": ["function_calling"]
 }

@@ -3,12 +3,20 @@
   "name": "una-cybertron-7b-v2-bf16",
   "created_by": "fblgit",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "c31aae1d",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "parameters": "8f14e45f",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "33496691"
+  },
+  "parameters": 7,
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#una-cybertron-7b-v2-bf16"
 }

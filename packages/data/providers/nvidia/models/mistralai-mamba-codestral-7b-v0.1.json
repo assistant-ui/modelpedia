@@ -10,5 +10,7 @@
   "_generated": {
     "name": "b3efd651",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 7
 }

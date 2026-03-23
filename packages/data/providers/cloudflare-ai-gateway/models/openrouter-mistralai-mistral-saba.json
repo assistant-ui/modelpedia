@@ -11,5 +11,7 @@
   "_generated": {
     "name": "2c43912d",
     "pricing": "143a4b96"
-  }
+  },
+  "family": "mistral-saba",
+  "model_type": "chat"
 }

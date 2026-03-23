@@ -3,14 +3,14 @@
   "name": "GPT-5.4",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.4",
   "description": "GPT-5.4 is our frontier model for complex professional work.",
   "status": "active",
   "knowledge_cutoff": "2025-08",
   "context_window": 1050000,
   "max_output_tokens": 128000,
-  "model_type": "reasoning",
+  "model_type": "chat",
   "reasoning_tokens": true,
   "performance": 5,
   "reasoning": 5,
@@ -59,19 +59,7 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "web_search",
-    "file_search",
-    "tool_search",
-    "image_generation",
-    "code_interpreter",
-    "hosted_shell",
-    "apply_patch",
-    "skills",
-    "computer_use",
-    "mcp"
-  ],
+  "tools": ["function_calling"],
   "endpoints": ["responses", "chat_completions", "batch"],
   "pricing_notes": [
     "For models with a 1.05M context window (GPT-5.4 and GPT-5.4 pro), prompts with >272K input tokens are priced at 2x input and 1.5x output for the full session for standard, batch, and flex.",
@@ -86,7 +74,7 @@
     "knowledge_cutoff": "5549a2cd",
     "context_window": "f170ebb2",
     "max_output_tokens": "34434798",
-    "model_type": "17475f7f",
+    "model_type": "d669f408",
     "reasoning_tokens": "b326b506",
     "performance": "e4da3b7f",
     "reasoning": "e4da3b7f",
@@ -95,8 +83,16 @@
     "capabilities": "e67897df",
     "modalities": "6399757e",
     "pricing": "87b7bc75",
-    "tools": "44af6f15",
+    "tools": "f0c1dc7e",
     "endpoints": "88e8abb4",
-    "pricing_notes": "e6282eda"
-  }
+    "pricing_notes": "e6282eda",
+    "license": "9186c466",
+    "page_url": "8d11c6d9",
+    "open_weight": "68934a3e",
+    "release_date": "e6626ce2"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-5.4",
+  "open_weight": false,
+  "release_date": "2026-03-05"
 }

@@ -3,7 +3,7 @@
   "name": "gpt-4-32k",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4",
   "status": "active",
   "pricing": {
@@ -31,8 +31,16 @@
   },
   "_generated": {
     "name": "677f805a",
-    "status": "379ac110",
     "family": "1be4bcd3",
-    "pricing": "cc553674"
-  }
+    "status": "379ac110",
+    "pricing": "cc553674",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "dc412e49",
+    "open_weight": "68934a3e"
+  },
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-4-32k",
+  "open_weight": false
 }

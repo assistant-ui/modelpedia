@@ -3,7 +3,7 @@
   "name": "OpenAI: o4 Mini High",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "o4",
   "description": "OpenAI o4-mini-high is the same model as [o4-mini](/openai/o4-mini) with reasoning_effort set to high.",
   "context_window": 200000,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "eece7ad2",
+    "family": "a842f941",
     "description": "a3240da1",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
-    "family": "a842f941",
-    "pricing": "7be5e225",
+    "modalities": "8b8b28d1",
     "capabilities": "f533f522",
-    "modalities": "8b8b28d1"
-  }
+    "pricing": "7be5e225",
+    "model_type": "17475f7f",
+    "release_date": "67604092",
+    "tagline": "a3240da1",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "reasoning",
+  "release_date": "2025-04-16",
+  "tagline": "OpenAI o4-mini-high is the same model as [o4-mini](/openai/o4-mini) with reasoning_effort set to high.",
+  "tools": ["function_calling"]
 }

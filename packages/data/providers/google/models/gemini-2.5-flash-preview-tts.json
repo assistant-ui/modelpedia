@@ -3,7 +3,7 @@
   "name": "gemini-2.5-flash-preview-tts",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "gemini-2.5",
   "status": "active",
   "context_window": 8192,
@@ -48,15 +48,21 @@
   "endpoints": ["generateContent", "streamGenerateContent"],
   "_generated": {
     "name": "40d130b5",
+    "family": "ea6b88bf",
     "status": "379ac110",
-    "model_type": "4e16a2cf",
     "context_window": "77441296",
     "max_output_tokens": "c76fe1d8",
-    "family": "ea6b88bf",
-    "pricing": "fb8a8807",
+    "model_type": "4e16a2cf",
     "capabilities": "29b57eef",
     "modalities": "0b49b61e",
+    "pricing": "fb8a8807",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
-  }
+    "endpoints": "20e16908",
+    "license": "9186c466",
+    "page_url": "160f666b",
+    "open_weight": "68934a3e"
+  },
+  "license": "proprietary",
+  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
+  "open_weight": false
 }

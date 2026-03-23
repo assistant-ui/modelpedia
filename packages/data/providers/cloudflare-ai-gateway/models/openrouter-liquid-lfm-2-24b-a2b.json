@@ -3,13 +3,19 @@
   "name": "OpenRouter: liquid/lfm-2-24b-a2b",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 0.03,
     "output": 0.12
   },
   "_generated": {
     "name": "56df36cb",
-    "pricing": "3b6defad"
-  }
+    "pricing": "3b6defad",
+    "parameters": "1ff1de77",
+    "active_parameters": "c81e728d",
+    "model_type": "d669f408"
+  },
+  "parameters": 24,
+  "active_parameters": 2,
+  "model_type": "chat"
 }

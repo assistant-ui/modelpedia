@@ -3,7 +3,7 @@
   "name": "grok-4.20-reasoning-beta",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "grok-4.20",
   "context_window": 2000000,
   "capabilities": {
@@ -18,11 +18,13 @@
   },
   "_generated": {
     "name": "d354daee",
-    "context_window": "805f7438",
     "family": "44972aca",
-    "pricing": "e205efd3",
+    "context_window": "805f7438",
     "capabilities": "a19166f1",
-    "model_type": "17475f7f"
+    "pricing": "e205efd3",
+    "model_type": "17475f7f",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "tools": ["function_calling"]
 }

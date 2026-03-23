@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3.5 397B A17B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3.5",
   "description": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency.",
   "context_window": 262144,
@@ -23,12 +23,24 @@
   },
   "_generated": {
     "name": "48f7124f",
+    "family": "d548f421",
     "description": "3221c39d",
     "context_window": "4a1d32eb",
     "max_output_tokens": "297ce0b3",
-    "family": "d548f421",
-    "pricing": "42caf6f2",
+    "modalities": "3ad4060a",
     "capabilities": "f533f522",
-    "modalities": "3ad4060a"
-  }
+    "pricing": "42caf6f2",
+    "model_type": "d669f408",
+    "parameters": "e46de7e1",
+    "active_parameters": "70efdf2e",
+    "release_date": "6c624983",
+    "tagline": "e6a5d2e5",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 397,
+  "active_parameters": 17,
+  "release_date": "2026-02-16",
+  "tagline": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher infere",
+  "tools": ["function_calling"]
 }

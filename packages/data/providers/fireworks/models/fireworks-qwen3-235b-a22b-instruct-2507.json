@@ -3,7 +3,7 @@
   "name": "qwen3-235b-a22b-instruct-2507",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "context_window": 262100,
   "alias": "fireworks/qwen3-235b-a22b-instruct",
@@ -12,13 +12,22 @@
   },
   "pricing": {
     "input": 0.22,
-    "output": 1
+    "output": 1,
+    "cached_input": 0.88
   },
   "_generated": {
     "name": "7d1468ab",
-    "context_window": "b23f4471",
     "family": "48c385a0",
-    "pricing": "ba3c55eb",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "b23f4471",
+    "capabilities": "0fa77dc6",
+    "pricing": "2e5314e7",
+    "model_type": "d669f408",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "page_url": "49e8bc1f"
+  },
+  "model_type": "chat",
+  "parameters": 235,
+  "active_parameters": 22,
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3-235b-a22b-instruct-2507"
 }

@@ -13,5 +13,7 @@
     "name": "f159dccc",
     "family": "c74cfb8e",
     "pricing": "bd10cf29"
-  }
+  },
+  "model_type": "reasoning",
+  "parameters": 1.5
 }

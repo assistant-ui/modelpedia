@@ -3,7 +3,7 @@
   "name": "llama-nemotron-embed-vl-1b-v2",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -12,7 +12,11 @@
   "model_type": "embed",
   "_generated": {
     "name": "0f782619",
+    "capabilities": "1a260abc",
     "model_type": "764cb3de",
-    "capabilities": "1a260abc"
-  }
+    "parameters": "c4ca4238",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 1,
+  "tools": ["function_calling"]
 }

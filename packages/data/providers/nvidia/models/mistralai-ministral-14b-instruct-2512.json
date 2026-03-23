@@ -3,7 +3,7 @@
   "name": "ministral-14b-instruct-2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "ministral",
   "alias": "mistralai/ministral-14b-instruct",
   "capabilities": {
@@ -14,7 +14,11 @@
     "name": "3af70a26",
     "family": "d6661e63",
     "capabilities": "48995a4e",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "parameters": "aab32389",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 14,
+  "tools": ["function_calling"]
 }

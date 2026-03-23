@@ -3,7 +3,7 @@
   "name": "claude-haiku-4.5",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "claude-haiku",
   "context_window": 200000,
   "capabilities": {
@@ -18,9 +18,13 @@
   },
   "_generated": {
     "name": "135ca290",
-    "context_window": "03e6c616",
     "family": "1cfb9795",
+    "context_window": "03e6c616",
+    "capabilities": "a19166f1",
     "pricing": "5b5c2081",
-    "capabilities": "a19166f1"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

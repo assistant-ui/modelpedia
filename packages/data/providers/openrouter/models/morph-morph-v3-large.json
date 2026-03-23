@@ -3,7 +3,7 @@
   "name": "Morph: Morph V3 Large",
   "created_by": "morph",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Morph's high-accuracy apply model for complex code edits.",
   "context_window": 262144,
   "max_output_tokens": 131072,
@@ -20,7 +20,11 @@
     "description": "cfbba1db",
     "context_window": "4a1d32eb",
     "max_output_tokens": "f7de594e",
+    "modalities": "68e53d93",
     "pricing": "35ba2750",
-    "modalities": "68e53d93"
-  }
+    "release_date": "dca51777",
+    "tagline": "cfbba1db"
+  },
+  "release_date": "2025-07-07",
+  "tagline": "Morph's high-accuracy apply model for complex code edits."
 }

@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-4",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4",
   "description": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning capabilities.",
   "context_window": 8191,
@@ -22,12 +22,20 @@
   },
   "_generated": {
     "name": "755f37c3",
+    "family": "1be4bcd3",
     "description": "af85a02e",
     "context_window": "4b2944df",
     "max_output_tokens": "f7efa4f8",
-    "family": "1be4bcd3",
-    "pricing": "b470b088",
+    "modalities": "68e53d93",
     "capabilities": "ad177261",
-    "modalities": "68e53d93"
-  }
+    "pricing": "b470b088",
+    "model_type": "d669f408",
+    "release_date": "a7ed5393",
+    "tagline": "f2a1962e",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2023-05-28",
+  "tagline": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and adva",
+  "tools": ["function_calling"]
 }

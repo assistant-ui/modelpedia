@@ -2,11 +2,19 @@
   "id": "minimax",
   "name": "MiniMax",
   "region": "CN",
+  "headquarters": "Shanghai, Shanghai",
+  "founded": 2021,
   "url": "https://www.minimax.io",
   "api_url": "https://api.minimax.io/v1",
   "docs_url": "https://platform.minimax.io/docs",
   "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
   "description": "Chinese AI company building multimodal models for chat, music, and video generation.",
   "type": "direct",
-  "free_tier": false
+  "openai_compatible": true,
+  "free_tier": false,
+  "twitter_url": "https://x.com/MiniMax_AI",
+  "discord_url": "https://discord.com/invite/minimax",
+  "blog_url": "https://www.minimax.io/news",
+  "terms_url": "https://www.minimax.io/platform/protocol/terms-of-service",
+  "support_url": "https://platform.minimax.io/cooperate"
 }

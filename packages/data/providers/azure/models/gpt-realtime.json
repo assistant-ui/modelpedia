@@ -3,7 +3,7 @@
   "name": "gpt-realtime",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-realtime",
   "knowledge_cutoff": "2023-10",
   "capabilities": {
@@ -15,9 +15,15 @@
   },
   "_generated": {
     "name": "f5032d33",
-    "knowledge_cutoff": "ffb42dbe",
     "family": "f5032d33",
+    "knowledge_cutoff": "ffb42dbe",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "9f84c007",
+    "description": "df8acbf2",
+    "tagline": "df8acbf2"
+  },
+  "model_type": "audio",
+  "description": "Audio model for real-time audio processing.",
+  "tagline": "Audio model for real-time audio processing."
 }

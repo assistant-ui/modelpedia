@@ -1,6 +1,7 @@
 import { fetchText, findHtmlTables, stripHtml } from "./parse.ts";
 import {
   inferFamily,
+  inferParameters,
   type ModelEntry,
   readSources,
   runGenerate,
@@ -366,9 +367,29 @@ async function main() {
     const extra: Record<string, unknown> = {};
     if (page.model_card_url) extra.model_card_url = page.model_card_url;
     if (ov?.speed) extra.tokens_per_second = ov.speed;
-    if (ov?.parameters) extra.parameters = ov.parameters;
     if (ov?.precision) extra.precision = ov.precision;
     if (ov?.huggingface_url) extra.huggingface_url = ov.huggingface_url;
+
+    // Parameters: prefer overview page, fall back to inferParameters from model ID
+    let parameters: number | undefined;
+    let active_parameters: number | undefined;
+    if (ov?.parameters) {
+      const paramMatch = ov.parameters.match(/([\d.]+)\s*billion/i);
+      if (paramMatch) parameters = Number(paramMatch[1]);
+    }
+    if (!parameters) {
+      const inferred = inferParameters(page.id);
+      if (inferred) {
+        parameters = inferred.parameters;
+        if (inferred.active_parameters)
+          active_parameters = inferred.active_parameters;
+      }
+    }
+
+    const caps =
+      Object.keys(page.capabilities).length > 0
+        ? page.capabilities
+        : { streaming: true };
 
     const entry: ModelEntry = {
       id: page.id,
@@ -377,13 +398,14 @@ async function main() {
       family: inferFamily(page.id),
       model_type: "chat",
       status: ov?.status ?? "active",
+      open_weight: true,
 
       context_window: page.context_window,
       max_output_tokens: page.max_output_tokens,
-      capabilities:
-        Object.keys(page.capabilities).length > 0
-          ? page.capabilities
-          : { streaming: true },
+      parameters,
+      active_parameters,
+      reasoning_tokens: caps.reasoning ? true : undefined,
+      capabilities: caps,
       modalities: page.modalities,
       endpoints:
         page.endpoints.length > 0 ? page.endpoints : ["chat_completions"],
@@ -405,6 +427,7 @@ async function main() {
       console.log(`Deprecations: ${deps.length} deprecated models`);
 
       for (const dep of deps) {
+        const depParams = inferParameters(dep.id);
         const entry: ModelEntry = {
           id: dep.id,
           name: dep.id,
@@ -413,6 +436,9 @@ async function main() {
           model_type: "chat",
           status: "deprecated",
           deprecation_date: dep.date,
+          open_weight: true,
+          parameters: depParams?.parameters,
+          active_parameters: depParams?.active_parameters,
           modalities: { input: ["text"], output: ["text"] },
         };
 

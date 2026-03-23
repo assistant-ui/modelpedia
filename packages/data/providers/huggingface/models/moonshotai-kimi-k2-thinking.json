@@ -3,12 +3,33 @@
   "name": "Kimi-K2-Thinking",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "e7beffe5",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "family": "c23da547",
+    "model_type": "d669f408",
+    "page_url": "8b9c053f",
+    "release_date": "0c1b20df",
+    "context_window": "4a1d32eb",
+    "license": "ddb0b7bc",
+    "parameters": "b4d168b4",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "family": "Kimi-K2",
+  "model_type": "chat",
+  "page_url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+  "release_date": "2025-11-04",
+  "context_window": 262144,
+  "license": "other",
+  "parameters": 1058,
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

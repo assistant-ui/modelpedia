@@ -170,7 +170,9 @@ export function normalizeDate(date: string | null | undefined): string | null {
  */
 export function inferFamily(modelId: string): string | undefined {
   const slash = modelId.indexOf("/");
-  const name = slash !== -1 ? modelId.slice(slash + 1) : modelId;
+  let name = slash !== -1 ? modelId.slice(slash + 1) : modelId;
+  // Normalize Google variant prefixes: gemini-live-2.5 → gemini-2.5, gemini-robotics-er-1.5 → gemini-1.5
+  name = name.replace(/^gemini-(?:live|robotics-\w+)-/i, "gemini-");
 
   // [regex, fixed_family] — null means use capture group m[1]
   const rules: [RegExp, string | null][] = [
@@ -204,6 +206,7 @@ export function inferFamily(modelId: string): string | undefined {
     [/^grok-imagine/, "grok-imagine"],
     // DeepSeek
     [/^deepseek-r\d+/, "deepseek-r1"],
+    [/^deepseek-reasoner/, "deepseek-reasoner"],
     [/^deepseek-chat/, "deepseek-chat"],
     [/^deepseek/, "deepseek"],
     // Mistral
@@ -216,11 +219,57 @@ export function inferFamily(modelId: string): string | undefined {
     [/^devstral/, "devstral"],
     [/^mixtral/, "mixtral"],
     // Meta
-    [/^(llama-\d+\.?\d*)/, null],
-    [/^llama-guard/, "llama-guard"],
+    [/^(?:meta-)?llama-?guard/i, "llama-guard"],
+    [/^codellama/i, "codellama"],
+    [/^(?:meta-)?(llama-\d+\.?\d*)/i, null],
     // Qwen
     [/^(qwen\d*\.?\d*)/, null],
     [/^qwq/, "qwq"],
+    // Cohere
+    [/^command-a/, "command-a"],
+    [/^command-r-plus/, "command-r-plus"],
+    [/^command-r\d*/, "command-r"],
+    [/^command/, "command"],
+    [/^c4ai-aya/, "aya"],
+    [/^embed/, "embed"],
+    [/^rerank/, "rerank"],
+    // Google non-gemini
+    [/^(imagen-\d+\.?\d*)/i, null],
+    [/^imagen/i, "imagen"],
+    [/^(veo-\d+\.?\d*)/i, null],
+    [/^gemini-embedding/, "gemini-embedding"],
+    [/^deep-research/, "deep-research"],
+    // ZAI / GLM
+    [/^(glm-\d+\.?\d*)/i, null],
+    [/^glm/i, "glm"],
+    // MiniMax
+    [/^minimax/i, "minimax"],
+    // Moonshot / Kimi
+    [/^(kimi-k\d+\.?\d*)/i, null],
+    [/^kimi/i, "kimi"],
+    [/^(moonshot-v\d+)/i, null],
+    [/^moonshot/i, "moonshot"],
+    // Mistral non-main
+    [/^magistral/, "magistral"],
+    [/^mistral-nemo/, "mistral-nemo"],
+    [/^mistral-saba/, "mistral-saba"],
+    [/^mistral-7b/, "mistral-7b"],
+    [/^mistral-embed/, "mistral-embed"],
+    [/^mistral-moderation/, "mistral-moderation"],
+    [/^voxtral/, "voxtral"],
+    // OpenAI non-gpt
+    [/^dall-e/, "dall-e"],
+    [/^sora-2/, "sora-2"],
+    [/^text-embedding/, "text-embedding"],
+    [/^omni-moderation/, "omni-moderation"],
+    [/^text-moderation/, "text-moderation"],
+    [/^tts/, "tts"],
+    [/^gpt-4\.5/, "gpt-4.5"],
+    // Qwen non-qwen
+    [/^(wan\d*\.?\d*)/i, null],
+    [/^wanx/, "wanx"],
+    // Perplexity
+    [/^sonar/, "sonar"],
     // Groq
     [/^compound/, "compound"],
     // Audio
@@ -235,6 +284,38 @@ export function inferFamily(modelId: string): string | undefined {
   return undefined;
 }
 
+// ── Parameter inference ──
+
+/**
+ * Extract parameter counts from model name/ID.
+ * Returns { parameters, active_parameters } in billions, or undefined.
+ *
+ * Examples:
+ *   "Llama-3.1-405B-Instruct"        → { parameters: 405 }
+ *   "qwen3-235b-a22b"                 → { parameters: 235, active_parameters: 22 }
+ *   "ministral-8b"                    → { parameters: 8 }
+ *   "gpt-5.4"                         → undefined (proprietary, no public params)
+ */
+export function inferParameters(
+  modelId: string,
+): { parameters: number; active_parameters?: number } | undefined {
+  const id = modelId.toLowerCase();
+  // MoE pattern: 235b-a22b
+  const moe = id.match(/(\d+)b[\s_-]*a(\d+)b/i);
+  if (moe) {
+    return {
+      parameters: Number(moe[1]),
+      active_parameters: Number(moe[2]),
+    };
+  }
+  // Standard pattern: 70B, 8b, 405B (must be preceded by - or start of known prefix)
+  const std = id.match(/(?:^|[-_])(\d+(?:\.\d+)?)b(?:[-_]|$)/i);
+  if (std) {
+    return { parameters: Number(std[1]) };
+  }
+  return undefined;
+}
+
 // ── Model type inference ──
 
 /**
@@ -245,10 +326,13 @@ export function inferModelType(
   modelId: string,
   endpoints?: string[],
 ): string | undefined {
-  // Strip provider prefix (e.g. "stability.sd3-5-large" → "sd3-5-large")
+  // Strip provider prefix (e.g. "stability.sd3-5-large" → "sd3-5-large", "anthropic/claude-opus" → "claude-opus")
+  // but keep version dots (e.g. "llama-3.1-8b" stays as-is)
   const raw = modelId.toLowerCase();
-  const dotIdx = raw.indexOf(".");
-  const id = dotIdx > 0 ? raw.slice(dotIdx + 1) : raw;
+  const slashIdx = raw.indexOf("/");
+  const stripped = slashIdx !== -1 ? raw.slice(slashIdx + 1) : raw;
+  const prefixMatch = stripped.match(/^([a-z]+)\./);
+  const id = prefixMatch ? stripped.slice(prefixMatch[0].length) : stripped;
 
   // Embedding
   if (/^text-embedding|embed/i.test(id)) return "embed";
@@ -288,24 +372,47 @@ export function inferModelType(
   // Rerank
   if (/rerank/i.test(id)) return "rerank";
   // Code (dedicated code models, not code-capable chat models)
-  if (/^codestral|^devstral/i.test(id)) return "code";
+  if (/^codestral|^devstral|^codellama|^codex/i.test(id)) return "code";
+  if (/^grok-code/i.test(id)) return "code";
   // Reasoning (generic, after specific o-series/deepseek checks)
   if (/reasoning/i.test(id)) return "reasoning";
+  // Realtime / search (specialized chat variants)
+  if (/realtime/i.test(id)) return "audio";
+  if (/search/i.test(id)) return "chat";
   // Translation
   if (/translate/i.test(id)) return "translation";
   // Qwen-specific: coder → code, omni with audio → audio
   if (/^qwen.*coder/i.test(id)) return "code";
-  if (/^qwen.*omni/i.test(id)) return "chat"; // multimodal chat
+  if (/^qwen.*omni/i.test(id)) return "chat";
   // Chat models (after more specific patterns above)
   if (/^command|^c4ai-aya|^qwen/i.test(id)) return "chat";
   if (/^nova[-_](?:pro|lite|micro|premier|2)/i.test(id)) return "chat";
-  if (/^llama|^jamba|^palmyra|^mixtral|^mistral|^ministral|^pixtral/i.test(id))
+  if (
+    /^(?:meta-)?llama|^jamba|^palmyra|^mixtral|^mistral|^ministral|^pixtral/i.test(
+      id,
+    )
+  )
     return "chat";
   if (/^titan[-_]t/i.test(id)) return "chat";
-  if (/^glm|^kimi|^nemotron|^minimax|^gpt-oss-\d/i.test(id)) return "chat";
+  if (/^glm|^kimi|^nemotron|^minimax|^gpt-oss|^m\d+-/i.test(id)) return "chat";
   if (/^claude/i.test(id)) return "chat";
   if (/^gemma/i.test(id)) return "chat";
-  if (/^r1|^v3/i.test(id)) return "chat"; // deepseek on bedrock: r1-v1:0, v3-v1:0
+  if (/^gemini/i.test(id)) return "chat";
+  if (/^grok/i.test(id)) return "chat";
+  if (/^wan.*(?:t2i|image)/i.test(id)) return "image";
+  if (/^wan/i.test(id)) return "video";
+  if (/^sonar/i.test(id)) return "chat";
+  if (/^moonshot/i.test(id)) return "chat";
+  if (/^deepseek[-_]v\d|^deepseek[-_]chat/i.test(id)) return "chat";
+  if (/^r1|^v3/i.test(id)) return "chat"; // deepseek on bedrock
+  if (/^gpt-\d|^gpt[-_]audio/i.test(id)) return "chat";
+  if (/^cogito|^granite|^lfm|^rnj|^mimo|^phi|^falcon/i.test(id)) return "chat";
+  if (/^computer-use/i.test(id)) return "chat";
+  if (/^ultravox/i.test(id)) return "audio";
+  if (/^cogview/i.test(id)) return "image";
+  if (/^cogvideo/i.test(id)) return "video";
+  if (/^tts$|^tts-/i.test(id)) return "tts";
+  if (/^composer/i.test(id)) return "chat"; // cursor composer
   // Reasoning
   if (/^(o\d+)(?:-|$)/.test(id)) return "reasoning";
   if (/^deepseek-r\d/i.test(id)) return "reasoning";
@@ -493,18 +600,26 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     "max_input_tokens",
     "model_type",
     "reasoning_tokens",
+    "license",
+    "parameters",
+    "active_parameters",
     "alias",
     "performance",
     "reasoning",
     "speed",
     "tagline",
+    "page_url",
     "successor",
+    "training_data_cutoff",
+    "architecture",
+    "open_weight",
   ] as const;
 
   const DATE_FIELDS = new Set([
     "release_date",
     "deprecation_date",
     "knowledge_cutoff",
+    "training_data_cutoff",
   ]);
 
   for (const key of scalars) {
@@ -561,9 +676,36 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
   }
 
   // Array fields
+  // Auto-derive open_weight from license if not explicitly set
+  if (data.open_weight == null && data.license) {
+    data.open_weight = data.license !== "proprietary";
+  }
+
+  // Auto-default modalities for chat/reasoning/code models
+  if (!data.modalities && data.model_type) {
+    const chatTypes = new Set([
+      "chat",
+      "reasoning",
+      "code",
+      "moderation",
+      "translation",
+    ]);
+    if (chatTypes.has(data.model_type as string)) {
+      data.modalities = { input: ["text"], output: ["text"] };
+    }
+  }
+
   for (const key of ["tools", "endpoints", "pricing_notes"] as const) {
     const val = entry[key] ?? (existing?.[key] as string[] | undefined);
     if (val && Array.isArray(val) && val.length > 0) data[key] = val;
+  }
+
+  // Auto-infer tools from capabilities if not explicitly set
+  if (
+    !data.tools &&
+    (data.capabilities as Record<string, unknown> | undefined)?.tool_call
+  ) {
+    data.tools = ["function_calling"];
   }
 
   // Provider-specific extra fields (not in ModelEntry schema but passed via spread)
@@ -722,6 +864,9 @@ export function upsertWithSnapshot(
     "description",
     "model_type",
     "reasoning_tokens",
+    "license",
+    "parameters",
+    "active_parameters",
     "performance",
     "reasoning",
     "speed",

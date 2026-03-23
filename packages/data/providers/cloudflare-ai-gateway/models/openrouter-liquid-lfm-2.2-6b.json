@@ -3,13 +3,17 @@
   "name": "OpenRouter: liquid/lfm-2.2-6b",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 0.01,
     "output": 0.02
   },
   "_generated": {
     "name": "97313e4a",
-    "pricing": "c22b9895"
-  }
+    "pricing": "c22b9895",
+    "parameters": "1679091c",
+    "model_type": "d669f408"
+  },
+  "parameters": 6,
+  "model_type": "chat"
 }

@@ -2,16 +2,24 @@
   "id": "vertex",
   "name": "Google Vertex AI",
   "region": "US",
+  "headquarters": "Mountain View, CA",
   "url": "https://cloud.google.com/vertex-ai",
   "api_url": "https://us-central1-aiplatform.googleapis.com/v1",
   "docs_url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models",
   "pricing_url": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
   "description": "Google Cloud Vertex AI provides enterprise access to Gemini, Claude, Llama, and Mistral models.",
   "type": "cloud",
+  "playground_url": "https://console.cloud.google.com/vertex-ai/generative",
   "status_url": "https://status.cloud.google.com",
   "sdk": {
     "python": "google-cloud-aiplatform",
     "javascript": "@google-cloud/vertexai"
   },
-  "free_tier": false
+  "openai_compatible": true,
+  "free_tier": false,
+  "models_url": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models",
+  "twitter_url": "https://x.com/GoogleDeepMind",
+  "blog_url": "https://cloud.google.com/blog/products/ai-machine-learning",
+  "terms_url": "https://cloud.google.com/terms/service-terms",
+  "support_url": "https://cloud.google.com/vertex-ai/docs/support/getting-support"
 }

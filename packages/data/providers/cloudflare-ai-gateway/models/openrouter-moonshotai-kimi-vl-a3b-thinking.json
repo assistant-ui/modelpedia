@@ -3,13 +3,17 @@
   "name": "OpenRouter: moonshotai/kimi-vl-a3b-thinking",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 0.02,
     "output": 0.08
   },
   "_generated": {
     "name": "63f1eac9",
-    "pricing": "1af5ed81"
-  }
+    "pricing": "1af5ed81",
+    "family": "0740f86b",
+    "model_type": "d669f408"
+  },
+  "family": "kimi",
+  "model_type": "chat"
 }

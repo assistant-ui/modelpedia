@@ -3,7 +3,7 @@
   "name": "gpt-oss-20b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-oss",
   "knowledge_cutoff": "2024-05-31",
   "context_window": 131072,
@@ -20,13 +20,21 @@
   },
   "_generated": {
     "name": "0f95b22f",
+    "family": "82d0cb0b",
+    "knowledge_cutoff": "83e324a8",
     "context_window": "f7de594e",
     "max_output_tokens": "f7de594e",
-    "knowledge_cutoff": "83e324a8",
-    "family": "82d0cb0b",
     "capabilities": "0946b777",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "parameters": "98f13708",
+    "tools": "f0c1dc7e",
+    "description": "48e3bea4",
+    "tagline": "48e3bea4"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 20,
+  "tools": ["function_calling"],
+  "description": "- Text in/text out only - Chat Completions API - Streaming - Function calling - Structured outputs - Reasoning - Available via managed compute and Foundry Local",
+  "tagline": "- Text in/text out only - Chat Completions API - Streaming - Function calling - Structured outputs - Reasoning - Available via managed compute and Foundry Local"
 }

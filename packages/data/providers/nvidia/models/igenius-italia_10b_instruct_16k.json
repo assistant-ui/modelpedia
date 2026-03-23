@@ -3,13 +3,17 @@
   "name": "italia_10b_instruct_16k",
   "created_by": "igenius",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
   },
   "_generated": {
     "name": "2d8b1fe6",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "d3d94468",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 10,
+  "tools": ["function_calling"]
 }

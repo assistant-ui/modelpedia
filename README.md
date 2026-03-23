@@ -10,7 +10,7 @@ Open catalog of AI models across providers. Compare specs, pricing, and capabili
 
 ## Features
 
-- 2000+ models across 30+ providers
+- 4000+ models across 30+ providers
 - Specs, pricing, capabilities, and modalities
 - Daily auto-updated from official provider APIs
 - Compare models side-by-side
@@ -30,7 +30,7 @@ const model = getModel("openai", "gpt-4o");
 console.log(model?.pricing); // { input: 2.5, output: 10, ... }
 ```
 
-See [packages/data/README.md](./packages/data/README.md) for full API docs.
+See [packages/npm/README.md](./packages/npm/README.md) for full API docs.
 
 ## Project Structure
 

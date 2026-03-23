@@ -3,7 +3,7 @@
   "name": "GPT-4.5 Preview (Deprecated)",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "description": "Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3",
   "status": "active",
   "knowledge_cutoff": "2023-09",
@@ -63,6 +63,18 @@
     "capabilities": "fdacdfa5",
     "modalities": "6399757e",
     "pricing": "812da844",
-    "endpoints": "1c48b50a"
-  }
+    "endpoints": "1c48b50a",
+    "family": "88f03a37",
+    "license": "9186c466",
+    "page_url": "9f6a14d1",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e",
+    "release_date": "0c569d59"
+  },
+  "family": "gpt-4.5",
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-4.5-preview",
+  "open_weight": false,
+  "tools": ["function_calling"],
+  "release_date": "2025-02-27"
 }

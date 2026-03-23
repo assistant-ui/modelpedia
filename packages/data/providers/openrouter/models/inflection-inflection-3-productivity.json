@@ -3,7 +3,7 @@
   "name": "Inflection: Inflection 3 Productivity",
   "created_by": "inflection",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Inflection 3 Productivity is optimized for following instructions.",
   "context_window": 8000,
   "max_output_tokens": 1024,
@@ -20,7 +20,11 @@
     "description": "919fe93f",
     "context_window": "67ff32d4",
     "max_output_tokens": "021bbc7e",
+    "modalities": "68e53d93",
     "pricing": "cf1c6d02",
-    "modalities": "68e53d93"
-  }
+    "release_date": "fe621604",
+    "tagline": "919fe93f"
+  },
+  "release_date": "2024-10-11",
+  "tagline": "Inflection 3 Productivity is optimized for following instructions."
 }

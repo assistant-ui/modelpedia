@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5.4 Pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.4",
   "description": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks.",
   "context_window": 1050000,
@@ -23,12 +23,20 @@
   },
   "_generated": {
     "name": "e3fb9233",
+    "family": "4651e8f0",
     "description": "0b0227eb",
     "context_window": "f170ebb2",
     "max_output_tokens": "34434798",
-    "family": "4651e8f0",
-    "pricing": "ba335d1c",
+    "modalities": "6399757e",
     "capabilities": "f533f522",
-    "modalities": "6399757e"
-  }
+    "pricing": "ba335d1c",
+    "model_type": "d669f408",
+    "release_date": "e6626ce2",
+    "tagline": "0b0227eb",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2026-03-05",
+  "tagline": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks.",
+  "tools": ["function_calling"]
 }

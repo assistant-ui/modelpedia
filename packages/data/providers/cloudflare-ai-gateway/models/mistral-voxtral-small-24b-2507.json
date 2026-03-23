@@ -3,15 +3,19 @@
   "name": "Mistral: voxtral-small-24b-2507",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
-  "model_type": "chat",
+  "last_updated": "2026-03-23",
+  "model_type": "audio",
   "pricing": {
     "input": 0.09999999999999999,
     "output": 0.3
   },
   "_generated": {
     "name": "177cfcd7",
-    "model_type": "d669f408",
-    "pricing": "a3896bf6"
-  }
+    "model_type": "9f84c007",
+    "pricing": "a3896bf6",
+    "family": "88a5dabd",
+    "parameters": "1ff1de77"
+  },
+  "family": "voxtral",
+  "parameters": 24
 }

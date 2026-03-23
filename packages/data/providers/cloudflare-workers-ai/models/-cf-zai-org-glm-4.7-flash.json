@@ -3,12 +3,23 @@
   "name": "glm-4.7-flash",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "80549e7d",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "family": "02d3d929",
+    "model_type": "d669f408",
+    "status": "379ac110",
+    "page_url": "4518224b",
+    "tools": "f0c1dc7e"
+  },
+  "family": "glm-4.7",
+  "model_type": "chat",
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#glm-4.7-flash",
+  "tools": ["function_calling"]
 }

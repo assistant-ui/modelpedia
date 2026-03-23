@@ -3,12 +3,31 @@
   "name": "Qwen3-1.7B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "78f34c87",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "c81e728d",
+    "page_url": "7fd8f3cc",
+    "release_date": "59488f52",
+    "context_window": "a422a18c",
+    "license": "60245731",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 2,
+  "page_url": "https://huggingface.co/Qwen/Qwen3-1.7B",
+  "release_date": "2025-04-27",
+  "context_window": 40960,
+  "license": "apache-2.0",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "Mistral: Ministral 3 14B 2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "ministral",
   "description": "The largest model in the Ministral 3 family, Ministral 3 14B offers frontier capabilities and performance comparable to its larger Mistral Small 3.2 24B counterpart.",
   "context_window": 262144,
@@ -22,13 +22,22 @@
   },
   "_generated": {
     "name": "26ead793",
+    "family": "d6661e63",
     "description": "277eae22",
     "context_window": "4a1d32eb",
-    "family": "d6661e63",
-    "pricing": "5082973b",
-    "capabilities": "ad177261",
     "modalities": "6399757e",
-    "model_type": "d669f408"
+    "capabilities": "ad177261",
+    "pricing": "5082973b",
+    "model_type": "d669f408",
+    "parameters": "aab32389",
+    "release_date": "75f289bd",
+    "tagline": "277eae22",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 14,
+  "release_date": "2025-12-02",
+  "alias": "mistralai/ministral-14b",
+  "tagline": "The largest model in the Ministral 3 family, Ministral 3 14B offers frontier capabilities and performance comparable to its larger Mistral Small 3.2 24B counterpart.",
+  "tools": ["function_calling"]
 }

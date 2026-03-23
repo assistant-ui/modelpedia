@@ -1,6 +1,7 @@
 import { fetchText, stripHtml } from "./parse.ts";
 import {
   inferFamily,
+  inferParameters,
   type ModelEntry,
   readSources,
   runGenerate,
@@ -21,9 +22,11 @@ interface TogetherModel {
   id?: string;
   name: string;
   created_by: string;
+  description?: string;
   context_window?: number;
   pricing_input?: number;
   pricing_output?: number;
+  page_url: string;
 }
 
 // ── Get model slugs from listing page ──
@@ -40,13 +43,24 @@ async function fetchModelSlugs(): Promise<string[]> {
 // ── Fetch model detail page ──
 
 async function fetchDetail(slug: string): Promise<TogetherModel | null> {
+  const pageUrl = `${MODEL_DETAIL_BASE}${slug}`;
   let html: string;
   try {
-    html = await fetchText(`${MODEL_DETAIL_BASE}${slug}`);
+    html = await fetchText(pageUrl);
   } catch {
     return null;
   }
   const text = stripHtml(html);
+
+  // Extract description from meta tags
+  const descMatch =
+    html.match(
+      /<meta\s+name=["']description["']\s+content=["']([^"']+)["']/i,
+    ) ??
+    html.match(
+      /<meta\s+property=["']og:description["']\s+content=["']([^"']+)["']/i,
+    );
+  const description = descMatch?.[1]?.trim() || undefined;
 
   // Find API model ID — pattern like "Qwen/Qwen3.5-397B-A17B"
   const apiIdMatch = html.match(
@@ -108,9 +122,11 @@ async function fetchDetail(slug: string): Promise<TogetherModel | null> {
     id: apiIdMatch?.[1],
     name: displayName,
     created_by: createdBy,
+    description,
     context_window: contextWindow,
     pricing_input: pricingInput,
     pricing_output: pricingOutput,
+    page_url: pageUrl,
   };
 }
 
@@ -143,13 +159,19 @@ async function main() {
   for (const m of details) {
     const modelId = m.id ?? m.slug;
 
+    const params = inferParameters(modelId);
+
     const entry: ModelEntry = {
       id: modelId,
       name: m.name,
       created_by: m.created_by,
       family: inferFamily(modelId),
+      description: m.description,
       context_window: m.context_window,
       capabilities: { streaming: true },
+      parameters: params?.parameters,
+      active_parameters: params?.active_parameters,
+      page_url: m.page_url,
     };
 
     if (m.pricing_input != null && m.pricing_output != null) {

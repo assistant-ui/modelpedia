@@ -3,7 +3,7 @@
   "name": "voxtral-mini-2602",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "alias": "voxtral-mini",
   "capabilities": {
@@ -18,10 +18,18 @@
   "_generated": {
     "name": "ce306dad",
     "status": "379ac110",
-    "context_window": "10e4d788",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
-    "model_type": "9f84c007"
+    "context_window": "10e4d788",
+    "model_type": "9f84c007",
+    "family": "88a5dabd",
+    "license": "60245731",
+    "page_url": "36e1103b",
+    "open_weight": "b326b506"
   },
-  "model_type": "audio"
+  "model_type": "audio",
+  "family": "voxtral",
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/voxtral-mini-transcribe-26-02",
+  "open_weight": true
 }

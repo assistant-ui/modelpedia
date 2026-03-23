@@ -3,7 +3,7 @@
   "name": "llama-guard-3-1b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-guard",
   "context_window": 131100,
   "capabilities": {
@@ -11,15 +11,20 @@
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "model_type": "moderation",
   "_generated": {
     "name": "fea99280",
-    "model_type": "1e7a7b87",
-    "context_window": "a683b9ae",
     "family": "3190be28",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "a683b9ae",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "model_type": "1e7a7b87",
+    "parameters": "c4ca4238",
+    "page_url": "7ee3e9f8"
+  },
+  "parameters": 1,
+  "page_url": "https://fireworks.ai/models/fireworks/llama-guard-3-1b"
 }

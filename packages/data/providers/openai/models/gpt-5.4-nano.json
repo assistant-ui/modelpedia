@@ -3,7 +3,7 @@
   "name": "GPT-5.4 nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.4",
   "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
   "status": "active",
@@ -11,7 +11,7 @@
   "context_window": 400000,
   "max_output_tokens": 128000,
   "max_input_tokens": 272000,
-  "model_type": "reasoning",
+  "model_type": "chat",
   "reasoning_tokens": true,
   "performance": 3,
   "reasoning": 3,
@@ -56,17 +56,7 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "web_search",
-    "file_search",
-    "image_generation",
-    "code_interpreter",
-    "hosted_shell",
-    "apply_patch",
-    "skills",
-    "mcp"
-  ],
+  "tools": ["function_calling"],
   "endpoints": ["responses", "chat_completions", "batch"],
   "pricing_notes": [
     "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 nano."
@@ -74,23 +64,32 @@
   "snapshots": ["gpt-5.4-nano-2026-03-17"],
   "_generated": {
     "name": "7cdda0eb",
+    "family": "4651e8f0",
     "description": "f8b66567",
-    "tagline": "37bf3cf0",
     "status": "379ac110",
-    "model_type": "17475f7f",
+    "knowledge_cutoff": "5549a2cd",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
     "max_input_tokens": "3f9281a0",
-    "knowledge_cutoff": "5549a2cd",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
     "performance": "eccbc87e",
     "reasoning": "eccbc87e",
     "speed": "a87ff679",
-    "family": "4651e8f0",
-    "reasoning_tokens": "b326b506",
-    "pricing": "93b5f44a",
+    "tagline": "37bf3cf0",
     "capabilities": "e67897df",
     "modalities": "6399757e",
-    "tools": "54d089fc",
-    "endpoints": "88e8abb4"
-  }
+    "pricing": "93b5f44a",
+    "tools": "f0c1dc7e",
+    "endpoints": "88e8abb4",
+    "pricing_notes": "4a0a1bde",
+    "license": "9186c466",
+    "page_url": "20815dd9",
+    "open_weight": "68934a3e",
+    "release_date": "56d4bd95"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-5.4-nano",
+  "open_weight": false,
+  "release_date": "2026-03-17"
 }

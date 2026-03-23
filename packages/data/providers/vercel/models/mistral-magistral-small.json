@@ -21,5 +21,6 @@
     "capabilities": "8d009641",
     "model_type": "d669f408"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "magistral"
 }

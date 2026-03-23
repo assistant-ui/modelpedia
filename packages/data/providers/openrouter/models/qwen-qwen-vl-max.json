@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen VL Max",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen",
   "description": "Qwen VL Max is a visual understanding model with 7500 tokens context length.",
   "context_window": 131072,
@@ -22,14 +22,20 @@
   },
   "_generated": {
     "name": "9efb651f",
+    "family": "a3af76f3",
     "description": "4137c449",
     "context_window": "f7de594e",
     "max_output_tokens": "f4376436",
-    "family": "a3af76f3",
-    "pricing": "11a6f40c",
-    "capabilities": "ad177261",
     "modalities": "6399757e",
-    "model_type": "d669f408"
+    "capabilities": "ad177261",
+    "pricing": "11a6f40c",
+    "model_type": "d669f408",
+    "release_date": "1e2d6a9b",
+    "tagline": "4137c449",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "release_date": "2025-02-01",
+  "tagline": "Qwen VL Max is a visual understanding model with 7500 tokens context length.",
+  "tools": ["function_calling"]
 }

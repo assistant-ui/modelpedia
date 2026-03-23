@@ -3,7 +3,7 @@
   "name": "Glm 5",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 202000,
   "capabilities": {
     "streaming": true
@@ -15,7 +15,13 @@
   "_generated": {
     "name": "c4b88afb",
     "context_window": "035efc14",
+    "capabilities": "0fa77dc6",
     "pricing": "7d15b491",
-    "capabilities": "0fa77dc6"
-  }
+    "family": "309daa86",
+    "model_type": "d669f408",
+    "page_url": "3a2fac6e"
+  },
+  "family": "glm-5",
+  "model_type": "chat",
+  "page_url": "https://www.together.ai/models/glm-5"
 }

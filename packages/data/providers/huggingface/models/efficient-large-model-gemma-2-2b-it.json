@@ -3,14 +3,37 @@
   "name": "gemma-2-2b-it",
   "created_by": "efficient-large-model",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemma-2",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "f324db56",
     "family": "e8114e3e",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "d0e5f276",
+    "page_url": "c7d6639a",
+    "description": "5c9e52bd",
+    "release_date": "1346c344",
+    "context_window": "77441296",
+    "license": "3fe02b16",
+    "tagline": "5c9e52bd",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 2.6,
+  "page_url": "https://huggingface.co/Efficient-Large-Model/gemma-2-2b-it",
+  "description": "**Model Page**: [Gemma](https://ai.google.dev/gemma/docs/base)",
+  "release_date": "2024-12-12",
+  "context_window": 8192,
+  "license": "gemma",
+  "tagline": "**Model Page**: [Gemma](https://ai.google.dev/gemma/docs/base)",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

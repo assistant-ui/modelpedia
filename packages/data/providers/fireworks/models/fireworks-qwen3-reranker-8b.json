@@ -3,7 +3,7 @@
   "name": "qwen3-reranker-8b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "context_window": 41000,
   "capabilities": {
@@ -11,15 +11,20 @@
   },
   "pricing": {
     "input": 0.2,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "model_type": "rerank",
   "_generated": {
     "name": "4fdf86e9",
-    "model_type": "477930e6",
-    "context_window": "225178b1",
     "family": "48c385a0",
-    "pricing": "10b547f8",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "225178b1",
+    "capabilities": "0fa77dc6",
+    "pricing": "f1152bb7",
+    "model_type": "477930e6",
+    "parameters": "c9f0f895",
+    "page_url": "ed3b563e"
+  },
+  "parameters": 8,
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3-reranker-8b"
 }

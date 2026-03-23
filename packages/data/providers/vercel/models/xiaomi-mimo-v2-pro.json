@@ -3,7 +3,7 @@
   "name": "mimo-v2-pro",
   "created_by": "xiaomi",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 1000000,
   "capabilities": {
     "streaming": true,
@@ -17,7 +17,9 @@
   "_generated": {
     "name": "2c1c8b32",
     "context_window": "8155bc54",
+    "capabilities": "a281e83a",
     "pricing": "7fd03be2",
-    "capabilities": "a281e83a"
-  }
+    "tools": "f0c1dc7e"
+  },
+  "tools": ["function_calling"]
 }

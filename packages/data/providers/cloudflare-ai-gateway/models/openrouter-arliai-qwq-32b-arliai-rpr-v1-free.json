@@ -8,5 +8,7 @@
   "_generated": {
     "name": "2f7b00e2",
     "family": "3a976110"
-  }
+  },
+  "model_type": "reasoning",
+  "parameters": 32
 }

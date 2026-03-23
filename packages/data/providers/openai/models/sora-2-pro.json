@@ -3,7 +3,7 @@
   "name": "Sora 2 Pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "model_type": "video",
   "performance": 5,
@@ -16,15 +16,20 @@
   "snapshots": ["sora-2-pro-2025-10-06", "sora-2-pro"],
   "_generated": {
     "name": "77091c9c",
-    "description": "5e9a5141",
-    "tagline": "6f072f44",
     "status": "379ac110",
     "model_type": "4d1b75ca",
     "performance": "e4da3b7f",
     "speed": "c4ca4238",
-    "pricing": "07fbfc53",
     "modalities": "33372894",
-    "endpoints": "577d4591"
+    "endpoints": "577d4591",
+    "description": "5e9a5141",
+    "tagline": "6f072f44",
+    "pricing": "07fbfc53",
+    "family": "3d185d44",
+    "license": "9186c466",
+    "release_date": "17ddf71c",
+    "page_url": "56dba0c4",
+    "open_weight": "68934a3e"
   },
   "description": "Sora 2 Pro is our state-of-the-art, most advanced media generation model, generating videos with synced audio.",
   "tagline": "Most advanced synced-audio video generation",
@@ -46,5 +51,10 @@
         ]
       }
     ]
-  }
+  },
+  "family": "sora-2",
+  "license": "proprietary",
+  "release_date": "2025-10-06",
+  "page_url": "https://platform.openai.com/docs/models/sora-2-pro",
+  "open_weight": false
 }

@@ -1,0 +1,45 @@
+{
+  "id": "qwen/qwen3-235b-a22b-thinking",
+  "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "qwen3",
+  "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks.",
+  "release_date": "2025-07-25",
+  "context_window": 131072,
+  "parameters": 235,
+  "active_parameters": 22,
+  "model_type": "chat",
+  "tagline": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 1.495
+  },
+  "tools": ["function_calling"],
+  "snapshots": ["qwen/qwen3-235b-a22b-thinking-2507"],
+  "_generated": {
+    "name": "e4d0e053",
+    "family": "48c385a0",
+    "description": "13d8134d",
+    "release_date": "fc8e67ab",
+    "context_window": "f7de594e",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "model_type": "d669f408",
+    "tagline": "13d8134d",
+    "capabilities": "f533f522",
+    "modalities": "68e53d93",
+    "pricing": "609c2e66",
+    "tools": "f0c1dc7e"
+  }
+}

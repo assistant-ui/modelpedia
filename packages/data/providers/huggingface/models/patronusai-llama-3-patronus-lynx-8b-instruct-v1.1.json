@@ -3,12 +3,37 @@
   "name": "Llama-3-Patronus-Lynx-8B-Instruct-v1.1",
   "created_by": "patronusai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "7acc91a7",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "family": "a18f0819",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "page_url": "d883d1a4",
+    "description": "9a703c92",
+    "release_date": "c01007e5",
+    "context_window": "f7de594e",
+    "license": "2c8e76b8",
+    "tagline": "74eefc83",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "family": "Llama-3",
+  "model_type": "chat",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/PatronusAI/Llama-3-Patronus-Lynx-8B-Instruct-v1.1",
+  "description": "Lynx is an open-source hallucination evaluation model. Patronus-Lynx-8B-Instruct-v1.1 was trained on a mix of datasets including CovidQA, PubmedQA, DROP, RAGTruth. The datasets contain a mix of hand-annotated and synthetic data. The maximum sequence length is 128000 tokens.",
+  "release_date": "2024-07-24",
+  "context_window": 131072,
+  "license": "cc-by-nc-4.0",
+  "tagline": "Lynx is an open-source hallucination evaluation model.",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

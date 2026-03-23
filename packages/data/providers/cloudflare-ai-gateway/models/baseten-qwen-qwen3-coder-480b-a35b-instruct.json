@@ -13,5 +13,8 @@
     "name": "c3b98375",
     "family": "48c385a0",
     "pricing": "cb400780"
-  }
+  },
+  "model_type": "code",
+  "parameters": 480,
+  "active_parameters": 35
 }

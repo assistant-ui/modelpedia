@@ -3,8 +3,10 @@
   "name": "OpenRouter: microsoft/phi-3-mini-128k-instruct:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "_generated": {
-    "name": "4b18286e"
-  }
+    "name": "4b18286e",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

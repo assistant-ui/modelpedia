@@ -8,5 +8,7 @@
   "_generated": {
     "name": "bbe2250a",
     "family": "54c5fe24"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 8
 }

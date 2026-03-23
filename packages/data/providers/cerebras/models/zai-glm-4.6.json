@@ -3,7 +3,7 @@
   "name": "zai-glm-4.6",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "status": "deprecated",
   "deprecation_date": "2026-01-20",
   "model_type": "chat",
@@ -18,6 +18,8 @@
     "deprecation_date": "76120ca1",
     "model_type": "d669f408",
     "successor": "895cf6b8",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "open_weight": "b326b506"
+  },
+  "open_weight": true
 }

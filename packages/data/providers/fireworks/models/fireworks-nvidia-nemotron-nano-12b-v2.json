@@ -3,19 +3,24 @@
   "name": "nvidia-nemotron-nano-12b-v2",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 128000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "00f7350e",
     "context_window": "34434798",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "parameters": "c20ad4d7",
+    "page_url": "ff1d4983"
+  },
+  "parameters": 12,
+  "page_url": "https://fireworks.ai/models/fireworks/nvidia-nemotron-nano-12b-v2"
 }

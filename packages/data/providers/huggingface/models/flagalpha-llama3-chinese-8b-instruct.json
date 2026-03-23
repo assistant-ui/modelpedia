@@ -3,12 +3,35 @@
   "name": "Llama3-Chinese-8B-Instruct",
   "created_by": "flagalpha",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "f898099e",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "page_url": "4c87e659",
+    "description": "03ebd643",
+    "release_date": "1439c7a3",
+    "context_window": "77441296",
+    "license": "60245731",
+    "tagline": "03ebd643",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/FlagAlpha/Llama3-Chinese-8B-Instruct",
+  "description": "Llama3-Chinese-8B-Instruct基于Llama3-8B中文微调对话模型，由Llama中文社区和AtomEcho（原子回声）联合研发，我们会持续提供更新的模型参数，模型训练过程见 [https://llama.family](https://llama.family)。",
+  "release_date": "2024-04-23",
+  "context_window": 8192,
+  "license": "apache-2.0",
+  "tagline": "Llama3-Chinese-8B-Instruct基于Llama3-8B中文微调对话模型，由Llama中文社区和AtomEcho（原子回声）联合研发，我们会持续提供更新的模型参数，模型训练过程见 [https://llama.family](https://llama.family)。",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "Claude Opus 4.6",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "claude-opus",
   "description": "The most intelligent model for building agents and coding",
   "status": "active",
@@ -59,7 +59,13 @@
     "training_data_cutoff": "5549a2cd",
     "adaptive_thinking": "b326b506",
     "priority_tier": "b326b506",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "page_url": "981b9ed8"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false,
+  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-6"
 }

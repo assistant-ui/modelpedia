@@ -3,12 +3,39 @@
   "name": "glm-4.7-flash",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "80549e7d",
-    "capabilities": "0fa77dc6"
+    "capabilities": "a281e83a",
+    "family": "02d3d929",
+    "model_type": "d669f408",
+    "description": "483ed03b",
+    "page_url": "fb6dc3c5",
+    "tagline": "483ed03b",
+    "context_window": "6ea395a4",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "reasoning_tokens": "b326b506",
+    "modalities": "68e53d93"
+  },
+  "family": "glm-4.7",
+  "model_type": "chat",
+  "description": "As the strongest model in the 30B class, GLM-4.7-Flash offers a new option for lightweight deployment that balances performance and efficiency.",
+  "page_url": "https://ollama.com/library/glm-4.7-flash",
+  "tagline": "As the strongest model in the 30B class, GLM-4.7-Flash offers a new option for lightweight deployment that balances performance and efficiency.",
+  "context_window": 202752,
+  "license": "open-weight",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "reasoning_tokens": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

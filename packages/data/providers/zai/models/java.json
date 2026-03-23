@@ -1,0 +1,21 @@
+{
+  "id": "java",
+  "name": "Java",
+  "created_by": "zai",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "license": "mit",
+  "page_url": "https://docs.z.ai/guides/image/cogview-4",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "3204ad2d",
+    "license": "3c4c3ba5",
+    "page_url": "de4ff307",
+    "modalities": "814867b9",
+    "open_weight": "b326b506"
+  }
+}

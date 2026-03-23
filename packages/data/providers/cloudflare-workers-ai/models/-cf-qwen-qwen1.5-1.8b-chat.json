@@ -3,14 +3,25 @@
   "name": "qwen1.5-1.8b-chat",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen1.5",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "5dd1df33",
     "family": "5b9bfb4a",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "f932bed2",
+    "status": "379ac110",
+    "page_url": "6ef09a6a",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 1.8,
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#qwen1.5-1.8b-chat",
+  "tools": ["function_calling"]
 }

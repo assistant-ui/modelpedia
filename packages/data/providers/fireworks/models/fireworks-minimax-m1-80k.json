@@ -3,17 +3,24 @@
   "name": "minimax-m1-80k",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "31ce7ffa",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "family": "c85916f0",
+    "model_type": "d669f408",
+    "page_url": "4ee248d7"
+  },
+  "family": "minimax",
+  "model_type": "chat",
+  "page_url": "https://fireworks.ai/models/fireworks/minimax-m1-80k"
 }

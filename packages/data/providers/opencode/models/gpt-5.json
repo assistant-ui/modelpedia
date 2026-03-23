@@ -3,20 +3,24 @@
   "name": "GPT 5",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5",
   "status": "active",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 1.07
+    "input": 1.07,
+    "output": 8.5,
+    "cached_input": 0.107
   },
   "_generated": {
     "name": "104088d5",
-    "status": "379ac110",
     "family": "aa904c16",
-    "pricing": "bd704085",
-    "capabilities": "0fa77dc6"
-  }
+    "status": "379ac110",
+    "capabilities": "0fa77dc6",
+    "pricing": "01052609",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

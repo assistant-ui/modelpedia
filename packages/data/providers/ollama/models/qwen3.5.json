@@ -3,14 +3,44 @@
   "name": "qwen3.5",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3.5",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "d548f421",
     "family": "d548f421",
-    "capabilities": "0fa77dc6"
+    "capabilities": "a19166f1",
+    "model_type": "d669f408",
+    "description": "a6035ec0",
+    "release_date": "6c624983",
+    "parameters": "e46de7e1",
+    "page_url": "429b0014",
+    "tagline": "a6035ec0",
+    "context_window": "4a1d32eb",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "reasoning_tokens": "b326b506",
+    "modalities": "6399757e"
+  },
+  "model_type": "chat",
+  "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+  "release_date": "2026-02-16",
+  "parameters": 397,
+  "page_url": "https://ollama.com/library/qwen3.5",
+  "tagline": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
+  "context_window": 262144,
+  "license": "open-weight",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "reasoning_tokens": true,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
   }
 }

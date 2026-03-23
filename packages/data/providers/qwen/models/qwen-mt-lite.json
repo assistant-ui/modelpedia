@@ -1,0 +1,32 @@
+{
+  "id": "qwen-mt-lite",
+  "name": "qwen-mt-lite",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "qwen",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.12,
+    "output": 0.36
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "ce4676b2",
+    "family": "a3af76f3",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "5d0a1504",
+    "endpoints": "75df3f1c"
+  },
+  "license": "apache-2.0",
+  "provider": "qwen"
+}

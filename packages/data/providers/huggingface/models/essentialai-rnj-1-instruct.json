@@ -3,12 +3,33 @@
   "name": "rnj-1-instruct",
   "created_by": "essentialai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "cea8336f",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "page_url": "f47c1310",
+    "description": "eecf64fd",
+    "release_date": "03c309ab",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "parameters": "5e20d6ed",
+    "tagline": "b8511d4a",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "page_url": "https://huggingface.co/EssentialAI/rnj-1-instruct",
+  "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models. These models perform well across a range of programming languages and boast strong agentic capabilities (e.g., inside agentic frameworks like mini-SWE-agent), while also excelling at tool-calling. They additionally exhibit strong capabilities in math and science.",
+  "release_date": "2025-12-04",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "parameters": 8.3,
+  "tagline": "style=\"vertical-align: middle;\" src=\"https://img.shields.io/badge/%F0%9F%8C%90%20Website-essential.ai-4b9fe1?color=4b9fe1&logoColor=white\"/>",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

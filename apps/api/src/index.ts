@@ -1,18 +1,48 @@
+import type { RateLimiter } from "cloudflare:workers";
 import type { Model } from "@modelpedia/data";
 import { allModels, getModel, getProvider, providers } from "@modelpedia/data";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { prettyJSON } from "hono/pretty-json";
 
-const api = new Hono();
+type Env = {
+  Bindings: {
+    API_RATE_LIMITER: RateLimiter;
+  };
+};
+
+const api = new Hono<Env>();
 
 // Root → redirect to docs
 api.get("/", (c) => c.redirect("https://modelpedia.dev/docs/api", 302));
 
-const app = new Hono();
+const app = new Hono<Env>();
 
 app.use("*", cors());
 app.use("*", prettyJSON());
+
+// Rate limiting middleware (60 req/min per IP)
+app.use("*", async (c, next) => {
+  const limiter = c.env?.API_RATE_LIMITER;
+  if (!limiter) return next();
+
+  const ip = c.req.header("cf-connecting-ip") ?? "unknown";
+  const { success } = await limiter.limit({ key: ip });
+
+  if (!success) {
+    return c.json(
+      {
+        error: {
+          message: "Rate limit exceeded. Max 60 requests per minute.",
+          status: 429,
+        },
+      },
+      429,
+    );
+  }
+
+  return next();
+});
 
 // ── Helpers ──
 
@@ -614,6 +644,81 @@ app.get("/families", (c) => {
     .sort((a, b) => b.model_count - a.model_count);
 
   return c.json(ok(families));
+});
+
+// ── Export ──
+
+app.get("/export", (c) => {
+  const format = c.req.query("format") ?? "json";
+  const provider = c.req.query("provider");
+  const modelId = c.req.query("model");
+
+  let models = allModels.filter((m) => m.status !== "deprecated");
+  if (provider) models = models.filter((m) => m.provider === provider);
+  if (modelId) models = models.filter((m) => m.id === modelId);
+
+  if (format === "csv") {
+    const headers = [
+      "id",
+      "name",
+      "provider",
+      "created_by",
+      "model_type",
+      "context_window",
+      "max_output_tokens",
+      "pricing_input",
+      "pricing_output",
+      "license",
+      "parameters",
+      "family",
+    ];
+    const rows = models.map((m) => [
+      m.id,
+      m.name,
+      m.provider,
+      m.created_by,
+      m.model_type ?? "",
+      m.context_window ?? "",
+      m.max_output_tokens ?? "",
+      m.pricing?.input ?? "",
+      m.pricing?.output ?? "",
+      m.license ?? "",
+      m.parameters ?? "",
+      m.family ?? "",
+    ]);
+    const csv = [
+      headers.join(","),
+      ...rows.map((r) =>
+        r.map((v) => `"${String(v).replace(/"/g, '""')}"`).join(","),
+      ),
+    ].join("\n");
+    return new Response(csv, {
+      headers: {
+        "Content-Type": "text/csv",
+        "Content-Disposition": "attachment; filename=modelpedia-models.csv",
+      },
+    });
+  }
+
+  const data = models.map((m) => ({
+    id: m.id,
+    name: m.name,
+    provider: m.provider,
+    created_by: m.created_by,
+    family: m.family,
+    model_type: m.model_type,
+    status: m.status,
+    context_window: m.context_window,
+    max_output_tokens: m.max_output_tokens,
+    pricing: m.pricing
+      ? { input: m.pricing.input, output: m.pricing.output }
+      : undefined,
+    license: m.license,
+    parameters: m.parameters,
+    capabilities: m.capabilities,
+  }));
+
+  return c.json(ok(data, { total: data.length }));
 });
 
 api.route("/v1", app);

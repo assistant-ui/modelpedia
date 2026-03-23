@@ -3,7 +3,7 @@
   "name": "seed-1.6",
   "created_by": "bytedance",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 256000,
   "capabilities": {
     "streaming": true,
@@ -17,7 +17,9 @@
   "_generated": {
     "name": "98d32f54",
     "context_window": "2fd324cb",
+    "capabilities": "a281e83a",
     "pricing": "468d92b7",
-    "capabilities": "a281e83a"
-  }
+    "tools": "f0c1dc7e"
+  },
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5",
   "description": "GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience.",
   "context_window": 400000,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "83b4d76d",
+    "family": "aa904c16",
     "description": "375d0060",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
-    "family": "aa904c16",
-    "pricing": "50bb1323",
+    "modalities": "6399757e",
     "capabilities": "f533f522",
-    "modalities": "6399757e"
-  }
+    "pricing": "50bb1323",
+    "model_type": "d669f408",
+    "release_date": "79c30d0c",
+    "tagline": "375d0060",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-08-07",
+  "tagline": "GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience.",
+  "tools": ["function_calling"]
 }

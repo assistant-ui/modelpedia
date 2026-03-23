@@ -11,5 +11,7 @@
   "_generated": {
     "name": "32a1827a",
     "pricing": "a20f6b46"
-  }
+  },
+  "family": "glm-5",
+  "model_type": "chat"
 }

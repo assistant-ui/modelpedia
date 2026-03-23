@@ -3,7 +3,7 @@
   "name": "Qwen: QwQ 32B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwq",
   "description": "QwQ is the reasoning model of the Qwen series.",
   "context_window": 131072,
@@ -22,14 +22,22 @@
   },
   "_generated": {
     "name": "0393d46c",
+    "family": "3a976110",
     "description": "d02cf4a6",
     "context_window": "f7de594e",
     "max_output_tokens": "f7de594e",
-    "family": "3a976110",
-    "pricing": "bb9d5ad8",
-    "capabilities": "05723a3e",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "capabilities": "05723a3e",
+    "pricing": "bb9d5ad8",
+    "model_type": "d669f408",
+    "parameters": "6364d3f0",
+    "release_date": "a5e693e5",
+    "tagline": "d02cf4a6",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 32,
+  "release_date": "2025-03-05",
+  "tagline": "QwQ is the reasoning model of the Qwen series.",
+  "tools": ["function_calling"]
 }

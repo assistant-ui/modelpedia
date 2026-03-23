@@ -3,12 +3,29 @@
   "name": "Olmo-3-7B-Instruct",
   "created_by": "allenai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "de8692f6",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "cfcd2084",
+    "page_url": "44a234dc",
+    "release_date": "e4be41d6",
+    "context_window": "297ce0b3",
+    "license": "60245731",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 0,
+  "page_url": "https://huggingface.co/allenai/Olmo-3-7B-Instruct",
+  "release_date": "2025-11-19",
+  "context_window": 65536,
+  "license": "apache-2.0",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

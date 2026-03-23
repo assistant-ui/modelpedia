@@ -3,7 +3,7 @@
   "name": "FLUX.2-flex",
   "created_by": "black-forest-labs",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -16,8 +16,10 @@
   "model_type": "image",
   "_generated": {
     "name": "28221c7c",
-    "model_type": "db8857fe",
     "capabilities": "1a260abc",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "db8857fe",
+    "tools": "f0c1dc7e"
+  },
+  "tools": ["function_calling"]
 }

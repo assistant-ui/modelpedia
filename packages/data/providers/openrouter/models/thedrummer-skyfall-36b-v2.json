@@ -3,7 +3,7 @@
   "name": "TheDrummer: Skyfall 36B V2",
   "created_by": "thedrummer",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Skyfall 36B v2 is an enhanced iteration of Mistral Small 2501, specifically fine-tuned for improved creativity, nuanced writing, role-playing, and coherent storytelling.",
   "context_window": 32768,
   "max_output_tokens": 32768,
@@ -20,7 +20,13 @@
     "description": "3e4bc91d",
     "context_window": "f4376436",
     "max_output_tokens": "f4376436",
+    "modalities": "68e53d93",
     "pricing": "1a2b5438",
-    "modalities": "68e53d93"
-  }
+    "parameters": "19ca14e7",
+    "release_date": "99f396a0",
+    "tagline": "3e4bc91d"
+  },
+  "parameters": 36,
+  "release_date": "2025-03-10",
+  "tagline": "Skyfall 36B v2 is an enhanced iteration of Mistral Small 2501, specifically fine-tuned for improved creativity, nuanced writing, role-playing, and coherent storytelling."
 }

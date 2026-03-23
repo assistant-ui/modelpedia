@@ -3,7 +3,7 @@
   "name": "EssentialAI: Rnj 1 Instruct",
   "created_by": "essentialai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Rnj-1 is an 8B-parameter, dense, open-weight model family developed by Essential AI and trained from scratch with a focus on programming, math, and scientific reasoning.",
   "context_window": 32768,
   "modalities": {
@@ -22,8 +22,14 @@
     "name": "3efca008",
     "description": "4e99059d",
     "context_window": "f4376436",
-    "pricing": "16a72b67",
+    "modalities": "68e53d93",
     "capabilities": "ad177261",
-    "modalities": "68e53d93"
-  }
+    "pricing": "16a72b67",
+    "release_date": "1916087a",
+    "tagline": "4e99059d",
+    "tools": "f0c1dc7e"
+  },
+  "release_date": "2025-12-07",
+  "tagline": "Rnj-1 is an 8B-parameter, dense, open-weight model family developed by Essential AI and trained from scratch with a focus on programming, math, and scientific reasoning.",
+  "tools": ["function_calling"]
 }

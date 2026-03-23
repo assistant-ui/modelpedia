@@ -3,7 +3,7 @@
   "name": "magistral-small",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "deprecated",
   "context_window": 40000,
   "capabilities": {
@@ -28,11 +28,19 @@
     "name": "c817a475",
     "status": "2e2f74dc",
     "context_window": "7c77f048",
-    "deprecation_date": "2bddea11",
-    "pricing": "2c3abb73",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
-    "model_type": "17475f7f"
+    "pricing": "2c3abb73",
+    "deprecation_date": "2bddea11",
+    "model_type": "17475f7f",
+    "family": "b2c75a88",
+    "license": "60245731",
+    "page_url": "570aeea6",
+    "open_weight": "b326b506"
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "family": "magistral",
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/magistral-small-1-0-25-06",
+  "open_weight": true
 }

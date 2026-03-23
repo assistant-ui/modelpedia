@@ -3,7 +3,7 @@
   "name": "EleutherAI: Llemma 7b",
   "created_by": "eleutherai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Llemma 7B is a language model for mathematics.",
   "context_window": 4096,
   "max_output_tokens": 4096,
@@ -20,7 +20,13 @@
     "description": "31875b50",
     "context_window": "f7efa4f8",
     "max_output_tokens": "f7efa4f8",
+    "modalities": "68e53d93",
     "pricing": "2ae97ac6",
-    "modalities": "68e53d93"
-  }
+    "parameters": "8f14e45f",
+    "release_date": "85c7118a",
+    "tagline": "31875b50"
+  },
+  "parameters": 7,
+  "release_date": "2025-04-14",
+  "tagline": "Llemma 7B is a language model for mathematics."
 }

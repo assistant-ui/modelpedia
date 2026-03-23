@@ -3,7 +3,7 @@
   "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemini-3.1",
   "description": "Gemini 3.1 Pro Preview Custom Tools is a variant of Gemini 3.1 Pro that improves tool selection behavior by preventing overuse of a general bash tool when more efficient third-party or user-defined functions are available.",
   "context_window": 1048576,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "340f6c40",
+    "family": "ea4a1a23",
     "description": "b06fc962",
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
-    "family": "ea4a1a23",
-    "pricing": "871170f7",
+    "modalities": "fa4eeb00",
     "capabilities": "f533f522",
-    "modalities": "fa4eeb00"
-  }
+    "pricing": "871170f7",
+    "model_type": "d669f408",
+    "release_date": "f2b68600",
+    "tagline": "f7e7ad34",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2026-02-25",
+  "tagline": "Gemini 3.1 Pro Preview Custom Tools is a variant of Gemini 3.1 Pro that improves tool selection behavior by preventing overuse of a general bash tool when more efficient third-party or user-defined fu",
+  "tools": ["function_calling"]
 }

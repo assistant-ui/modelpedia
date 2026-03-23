@@ -2,6 +2,8 @@
   "id": "vercel",
   "name": "Vercel AI Gateway",
   "region": "US",
+  "headquarters": "San Francisco, CA",
+  "founded": 2015,
   "url": "https://vercel.com/ai-gateway",
   "api_url": "https://gateway.ai.vercel.com/v1",
   "docs_url": "https://vercel.com/docs/ai-gateway",
@@ -11,5 +13,12 @@
   "sdk": {
     "javascript": "ai"
   },
-  "free_tier": false
+  "openai_compatible": true,
+  "free_tier": false,
+  "github_url": "https://github.com/vercel/ai",
+  "models_url": "https://sdk.vercel.ai/docs/foundations/providers-and-models",
+  "twitter_url": "https://x.com/vercel",
+  "blog_url": "https://vercel.com/blog",
+  "terms_url": "https://vercel.com/legal/terms",
+  "support_url": "https://vercel.com/help"
 }

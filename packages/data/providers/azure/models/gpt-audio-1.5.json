@@ -3,7 +3,7 @@
   "name": "gpt-audio-1.5",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-audio",
   "knowledge_cutoff": "2024-09",
   "capabilities": {
@@ -15,9 +15,15 @@
   },
   "_generated": {
     "name": "a649f503",
-    "knowledge_cutoff": "b0196d6e",
     "family": "29debdf1",
+    "knowledge_cutoff": "b0196d6e",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "description": "23fbfc5e",
+    "model_type": "d669f408",
+    "tagline": "23fbfc5e"
+  },
+  "description": "Audio model for audio and text generation.",
+  "model_type": "chat",
+  "tagline": "Audio model for audio and text generation."
 }

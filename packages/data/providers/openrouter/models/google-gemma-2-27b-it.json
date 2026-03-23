@@ -3,7 +3,7 @@
   "name": "Google: Gemma 2 27B",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemma-2",
   "description": "Gemma 2 27B by Google is an open model built from the same research and technology used to create the [Gemini models](/models?q=gemini).",
   "context_window": 8192,
@@ -21,12 +21,20 @@
   },
   "_generated": {
     "name": "4224b271",
+    "family": "e8114e3e",
     "description": "41cb9113",
     "context_window": "77441296",
     "max_output_tokens": "05192834",
-    "family": "e8114e3e",
-    "pricing": "9bef3d13",
+    "modalities": "68e53d93",
     "capabilities": "c8033cf7",
-    "modalities": "68e53d93"
-  }
+    "pricing": "9bef3d13",
+    "model_type": "d669f408",
+    "parameters": "02e74f10",
+    "release_date": "fe91e0f5",
+    "tagline": "41cb9113"
+  },
+  "model_type": "chat",
+  "parameters": 27,
+  "release_date": "2024-07-13",
+  "tagline": "Gemma 2 27B by Google is an open model built from the same research and technology used to create the [Gemini models](/models?q=gemini)."
 }

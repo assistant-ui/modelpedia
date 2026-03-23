@@ -3,14 +3,39 @@
   "name": "glm-ocr",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "vision": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "92555a0c",
-    "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "capabilities": "fc36814c",
+    "model_type": "d669f408",
+    "family": "cb6bfc11",
+    "description": "0ea6eecf",
+    "page_url": "ec255861",
+    "tagline": "0ea6eecf",
+    "context_window": "f7de594e",
+    "parameters": "a894124c",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "modalities": "6399757e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "glm",
+  "description": "GLM-OCR is a multimodal OCR model for complex document understanding, built on the GLM-V encoder–decoder architecture.",
+  "page_url": "https://ollama.com/library/glm-ocr",
+  "tagline": "GLM-OCR is a multimodal OCR model for complex document understanding, built on the GLM-V encoder–decoder architecture.",
+  "context_window": 131072,
+  "parameters": 0.9,
+  "license": "open-weight",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
 }

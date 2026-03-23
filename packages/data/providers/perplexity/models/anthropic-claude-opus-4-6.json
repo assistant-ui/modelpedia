@@ -3,7 +3,7 @@
   "name": "anthropic/claude-opus-4-6",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-23",
   "family": "claude-opus",
   "capabilities": {
     "streaming": true
@@ -16,7 +16,13 @@
   "_generated": {
     "name": "19204e5c",
     "family": "4e4c4b18",
+    "capabilities": "0fa77dc6",
     "pricing": "b3cc594d",
-    "capabilities": "0fa77dc6"
-  }
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
+  },
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false
 }

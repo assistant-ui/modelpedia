@@ -3,7 +3,7 @@
   "name": "computer-use-preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -15,6 +15,14 @@
   "_generated": {
     "name": "ce22af69",
     "capabilities": "48995a4e",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e",
+    "description": "60dafac7",
+    "model_type": "d669f408",
+    "tagline": "60dafac7"
+  },
+  "tools": ["function_calling"],
+  "description": "An experimental model trained for use with the Responses API computer use tool.",
+  "model_type": "chat",
+  "tagline": "An experimental model trained for use with the Responses API computer use tool."
 }

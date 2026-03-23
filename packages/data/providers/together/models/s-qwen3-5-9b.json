@@ -3,7 +3,7 @@
   "name": "Qwen3 5 9b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "context_window": 262000,
   "capabilities": {
@@ -15,9 +15,15 @@
   },
   "_generated": {
     "name": "cd95e449",
-    "context_window": "4ed74017",
     "family": "48c385a0",
+    "context_window": "4ed74017",
+    "capabilities": "0fa77dc6",
     "pricing": "fa2d2058",
-    "capabilities": "0fa77dc6"
-  }
+    "model_type": "d669f408",
+    "parameters": "45c48cce",
+    "page_url": "32603484"
+  },
+  "model_type": "chat",
+  "parameters": 9,
+  "page_url": "https://www.together.ai/models/qwen3-5-9b"
 }

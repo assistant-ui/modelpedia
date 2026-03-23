@@ -3,7 +3,7 @@
   "name": "grok-4.20-multi-agent-0309",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-23",
   "release_date": "2026-03-09",
   "capabilities": {
     "streaming": true,
@@ -25,12 +25,22 @@
   },
   "_generated": {
     "name": "54a3c065",
-    "context_window": "805f7438",
     "release_date": "6bbd875b",
-    "family": "44972aca",
-    "reasoning_tokens": "b326b506",
-    "pricing": "9277b5ca",
     "capabilities": "0946b777",
-    "modalities": "6399757e"
-  }
+    "family": "44972aca",
+    "context_window": "805f7438",
+    "reasoning_tokens": "b326b506",
+    "modalities": "6399757e",
+    "pricing": "9277b5ca",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "08e62300",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://docs.x.ai/docs/models#grok-4.20-multi-agent-0309",
+  "open_weight": false,
+  "tools": ["function_calling"]
 }

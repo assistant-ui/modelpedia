@@ -3,10 +3,12 @@
   "name": "OpenRouter: mistralai/devstral-2512:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "devstral",
   "_generated": {
     "name": "6c4c2865",
-    "family": "e626e93e"
-  }
+    "family": "e626e93e",
+    "model_type": "b6cc3ff4"
+  },
+  "model_type": "code"
 }

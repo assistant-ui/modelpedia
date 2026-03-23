@@ -3,14 +3,35 @@
   "name": "gemma3",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "79b545b7",
     "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "description": "85bf5b5b",
+    "release_date": "826a3ce0",
+    "page_url": "059b30e8",
+    "tagline": "85bf5b5b",
+    "context_window": "f7de594e",
+    "license": "3fe02b16",
+    "parameters": "a87ff679",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "description": "The current, most capable model that runs on a single GPU.",
+  "release_date": "2025-03-12",
+  "page_url": "https://ollama.com/library/gemma3",
+  "tagline": "The current, most capable model that runs on a single GPU.",
+  "context_window": 131072,
+  "license": "gemma",
+  "parameters": 4,
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

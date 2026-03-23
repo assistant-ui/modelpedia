@@ -3,7 +3,7 @@
   "name": "DeepSeek V3.2 (Reasoner)",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "deepseek-chat",
   "description": "DeepSeek-V3.2 in thinking mode with chain-of-thought reasoning.",
   "context_window": 128000,
@@ -35,7 +35,10 @@
     "model_type": "17475f7f",
     "modalities": "68e53d93",
     "endpoints": "d8fa1080",
-    "release_date": "0452719b"
+    "release_date": "0452719b",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "status": "active",
   "model_type": "reasoning",
@@ -52,5 +55,8 @@
     "deepseek-reasoner-2025-08-21",
     "deepseek-reasoner-2025-05-28",
     "deepseek-reasoner-2025-01-20"
-  ]
+  ],
+  "license": "mit",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

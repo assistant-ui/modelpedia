@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ChangesList } from "@/components/changes-list";
+import { ChangesList } from "@/components/shared/changes-list";
 import { PageHeader } from "@/components/ui/page-header";
 import { getChanges, providers } from "@/lib/data";
 
@@ -11,10 +11,9 @@ export const metadata: Metadata = {
 export default function ChangesPage() {
   const changes = getChanges();
 
-  const providerIcons: Record<string, string | undefined> = {};
-  for (const p of providers) {
-    providerIcons[p.id] = p.icon;
-  }
+  const providerIcons = Object.fromEntries(
+    providers.map((p) => [p.id, p.icon]),
+  );
 
   return (
     <>

@@ -17,5 +17,6 @@
     "model_type": "764cb3de",
     "pricing": "f67bf84f",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "family": "gemini-embedding"
 }

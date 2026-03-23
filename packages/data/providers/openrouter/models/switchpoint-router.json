@@ -3,7 +3,7 @@
   "name": "Switchpoint Router",
   "created_by": "switchpoint",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Switchpoint AI's router instantly analyzes your request and directs it to the optimal AI from an ever-evolving library.",
   "context_window": 131072,
   "modalities": {
@@ -21,8 +21,12 @@
     "name": "4a905e6e",
     "description": "de0e0e90",
     "context_window": "f7de594e",
-    "pricing": "7782bd8e",
+    "modalities": "68e53d93",
     "capabilities": "7107421f",
-    "modalities": "68e53d93"
-  }
+    "pricing": "7782bd8e",
+    "release_date": "c4808e8f",
+    "tagline": "de0e0e90"
+  },
+  "release_date": "2025-07-11",
+  "tagline": "Switchpoint AI's router instantly analyzes your request and directs it to the optimal AI from an ever-evolving library."
 }

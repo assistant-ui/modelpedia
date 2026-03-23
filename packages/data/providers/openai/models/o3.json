@@ -3,7 +3,7 @@
   "name": "o3",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "o3",
   "description": "o3 is a well-rounded and powerful model across domains. It sets a new",
   "status": "active",
@@ -55,34 +55,35 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "file_search",
-    "image_generation",
-    "code_interpreter",
-    "mcp",
-    "web_search"
-  ],
+  "tools": ["function_calling"],
   "endpoints": ["chat_completions", "responses", "batch"],
   "snapshots": ["o3-2025-04-16"],
   "_generated": {
     "name": "193049bc",
+    "family": "193049bc",
     "description": "0cbff98e",
-    "tagline": "4105e408",
     "status": "379ac110",
-    "model_type": "17475f7f",
+    "knowledge_cutoff": "1d431428",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
-    "knowledge_cutoff": "1d431428",
+    "model_type": "17475f7f",
+    "reasoning_tokens": "b326b506",
     "performance": "e4da3b7f",
     "reasoning": "e4da3b7f",
     "speed": "c4ca4238",
-    "family": "193049bc",
-    "reasoning_tokens": "b326b506",
-    "pricing": "5e39d62f",
+    "tagline": "4105e408",
     "capabilities": "e67897df",
     "modalities": "6399757e",
-    "tools": "87bd8291",
-    "endpoints": "ec55a017"
-  }
+    "pricing": "5e39d62f",
+    "tools": "f0c1dc7e",
+    "endpoints": "ec55a017",
+    "license": "9186c466",
+    "page_url": "3d3f6924",
+    "open_weight": "68934a3e",
+    "release_date": "67604092"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/o3",
+  "open_weight": false,
+  "release_date": "2025-04-16"
 }

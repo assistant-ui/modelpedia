@@ -3,7 +3,7 @@
   "name": "mistral-saba-2502",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "deprecated",
   "deprecation_date": "2025-06-10",
   "context_window": 32000,
@@ -18,11 +18,19 @@
   "_generated": {
     "name": "2891d89a",
     "status": "2e2f74dc",
-    "context_window": "10e4d788",
     "deprecation_date": "298b4e52",
+    "context_window": "10e4d788",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "family": "27f7c201",
+    "license": "60245731",
+    "page_url": "93d7cba2",
+    "open_weight": "b326b506"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "mistral-saba",
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/mistral-saba-25-02",
+  "open_weight": true
 }

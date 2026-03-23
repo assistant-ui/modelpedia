@@ -3,7 +3,7 @@
   "name": "Llama-Guard-3-8B",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -15,8 +15,24 @@
   "model_type": "moderation",
   "_generated": {
     "name": "c24222dc",
-    "model_type": "1e7a7b87",
     "capabilities": "48995a4e",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "1e7a7b87",
+    "family": "3190be28",
+    "license": "2464c384",
+    "parameters": "c9f0f895",
+    "page_url": "005be58f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "release_date": "34ea7d83",
+    "knowledge_cutoff": "37a6259c"
+  },
+  "family": "llama-guard",
+  "license": "llama3.1",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/meta-llama/Llama-Guard-3-8B",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "release_date": "2024-07-22",
+  "knowledge_cutoff": null
 }

@@ -3,7 +3,7 @@
   "name": "gemini-2.5-flash-preview-09-2025",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemini-2.5",
   "context_window": 1000000,
   "capabilities": {
@@ -18,9 +18,13 @@
   },
   "_generated": {
     "name": "3a46e1ba",
-    "context_window": "8155bc54",
     "family": "ea6b88bf",
+    "context_window": "8155bc54",
+    "capabilities": "a19166f1",
     "pricing": "8d495dc1",
-    "capabilities": "a19166f1"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

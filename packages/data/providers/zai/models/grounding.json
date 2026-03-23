@@ -1,0 +1,34 @@
+{
+  "id": "grounding",
+  "name": "Grounding",
+  "created_by": "zai",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "max_output_tokens": 16000,
+  "license": "mit",
+  "parameters": 106,
+  "active_parameters": 12,
+  "page_url": "https://docs.z.ai/guides/vlm/glm-4.5v",
+  "architecture": "moe",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "0091617d",
+    "max_output_tokens": "67510c89",
+    "license": "3c4c3ba5",
+    "parameters": "f0935e4c",
+    "active_parameters": "c20ad4d7",
+    "page_url": "a67a5daa",
+    "architecture": "31b2172c",
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "open_weight": "b326b506"
+  }
+}

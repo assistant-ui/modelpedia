@@ -3,7 +3,7 @@
   "name": "Free Models Router",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "The simplest way to get free inference.",
   "context_window": 200000,
   "modalities": {
@@ -19,7 +19,13 @@
     "name": "42c3bcd8",
     "description": "396b5f2f",
     "context_window": "03e6c616",
+    "modalities": "6399757e",
     "capabilities": "f533f522",
-    "modalities": "6399757e"
-  }
+    "release_date": "9f9b3d52",
+    "tagline": "396b5f2f",
+    "tools": "f0c1dc7e"
+  },
+  "release_date": "2026-02-01",
+  "tagline": "The simplest way to get free inference.",
+  "tools": ["function_calling"]
 }

@@ -4,9 +4,9 @@ import { Toast } from "@base-ui/react/toast";
 import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
-const toastManager = Toast.createToastManager();
+export const toastManager = Toast.createToastManager();
 
-function ToastProvider({ children }: { children: ReactNode }) {
+export function ToastProvider({ children }: { children: ReactNode }) {
   return (
     <Toast.Provider toastManager={toastManager}>
       {children}
@@ -45,5 +45,3 @@ function Toasts() {
     </Toast.Portal>
   );
 }
-
-export { ToastProvider, toastManager };

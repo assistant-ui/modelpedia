@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen-Max ",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen",
   "description": "Qwen-Max, based on Qwen2.5, provides the best inference performance among [Qwen models](/qwen), especially for complex multi-step tasks.",
   "context_window": 32768,
@@ -23,14 +23,20 @@
   },
   "_generated": {
     "name": "d81d4bb3",
+    "family": "a3af76f3",
     "description": "2b03e2c6",
     "context_window": "f4376436",
     "max_output_tokens": "77441296",
-    "family": "a3af76f3",
-    "pricing": "443b2cf7",
-    "capabilities": "ad177261",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "capabilities": "ad177261",
+    "pricing": "443b2cf7",
+    "model_type": "d669f408",
+    "release_date": "1e2d6a9b",
+    "tagline": "2b03e2c6",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "release_date": "2025-02-01",
+  "tagline": "Qwen-Max, based on Qwen2.5, provides the best inference performance among [Qwen models](/qwen), especially for complex multi-step tasks.",
+  "tools": ["function_calling"]
 }

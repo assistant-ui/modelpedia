@@ -3,6 +3,7 @@ import {
   filterModalities,
   inferFamily,
   type ModelEntry,
+  normalizeDate,
   readSources,
   runGenerate,
   upsertWithSnapshot,
@@ -55,7 +56,34 @@ function parseCaps(s: string): Record<string, boolean> {
   return caps;
 }
 
-function parseDocsModels(md: string): Map<string, DocsModel> {
+/**
+ * Extract knowledge cutoff from prose like:
+ *   "The knowledge cut-off date of Grok 3 and Grok 4 is November, 2024."
+ * Returns a map of model-prefix → normalised date (e.g. "grok-3" → "2024-11").
+ */
+function parseKnowledgeCutoffs(md: string): Map<string, string> {
+  const cutoffs = new Map<string, string>();
+  const re =
+    /knowledge\s+cut[- ]?off\s+(?:date\s+)?of\s+(.+?)\s+is\s+([A-Z][a-z]+,?\s+\d{4})/gi;
+  for (const m of md.matchAll(re)) {
+    const date = normalizeDate(m[2].replace(",", ""));
+    if (!date) continue;
+    // "Grok 3 and Grok 4" → ["grok-3", "grok-4"]
+    const names = m[1]
+      .split(/\s+and\s+|,\s*/i)
+      .map((n) => n.trim().toLowerCase().replace(/\s+/g, "-"))
+      .filter(Boolean);
+    for (const name of names) {
+      cutoffs.set(name, date);
+    }
+  }
+  return cutoffs;
+}
+
+function parseDocsModels(md: string): {
+  models: Map<string, DocsModel>;
+  knowledgeCutoffs: Map<string, string>;
+} {
   const models = new Map<string, DocsModel>();
 
   for (const line of md.split("\n")) {
@@ -105,15 +133,22 @@ function parseDocsModels(md: string): Map<string, DocsModel> {
     });
   }
 
-  return models;
+  const knowledgeCutoffs = parseKnowledgeCutoffs(md);
+
+  return { models, knowledgeCutoffs };
 }
 
 async function main() {
   console.log("Fetching xAI models from docs...");
 
   const docsMd = await fetch(DOCS_MD).then((r) => r.text());
-  const docsModels = parseDocsModels(docsMd);
+  const { models: docsModels, knowledgeCutoffs } = parseDocsModels(docsMd);
   console.log(`Parsed ${docsModels.size} models from docs`);
+  if (knowledgeCutoffs.size > 0) {
+    console.log(
+      `Found knowledge cutoffs: ${[...knowledgeCutoffs.entries()].map(([k, v]) => `${k}=${v}`).join(", ")}`,
+    );
+  }
 
   // Optional: API for release dates
   const apiKey = envOrNull("XAI_API_KEY");
@@ -139,15 +174,31 @@ async function main() {
       ? new Date(apiModel.created * 1000).toISOString().split("T")[0]
       : undefined;
 
+    // Match knowledge cutoff by prefix (e.g. "grok-4" matches "grok-4-1-fast-reasoning")
+    let knowledgeCutoff: string | undefined;
+    for (const [prefix, date] of knowledgeCutoffs) {
+      if (
+        id === prefix ||
+        id.startsWith(`${prefix}-`) ||
+        id.startsWith(`${prefix}.`)
+      ) {
+        knowledgeCutoff = date;
+        break;
+      }
+    }
+
     const entry: ModelEntry = {
       id,
       name: id,
       family: inferFamily(id),
+      license: "proprietary",
+      page_url: `https://docs.x.ai/docs/models#${id}`,
       context_window: doc.context_window,
       modalities: doc.modalities,
       capabilities: doc.capabilities,
       ...(doc.capabilities.reasoning ? { reasoning_tokens: true } : {}),
       release_date: releaseDate,
+      knowledge_cutoff: knowledgeCutoff,
     };
 
     if (doc.pricing) {

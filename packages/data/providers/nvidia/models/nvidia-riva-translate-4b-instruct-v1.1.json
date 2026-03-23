@@ -3,13 +3,19 @@
   "name": "riva-translate-4b-instruct-v1.1",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
   },
   "_generated": {
     "name": "856afe47",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "5c212ca7",
+    "parameters": "a87ff679",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "translation",
+  "parameters": 4,
+  "tools": ["function_calling"]
 }

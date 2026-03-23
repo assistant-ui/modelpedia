@@ -3,7 +3,7 @@
   "name": "GPT-4.1 mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "gpt-4.1",
   "description": "GPT-4.1 mini excels at instruction following and tool calling. It features a",
   "status": "active",
@@ -49,13 +49,7 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "web_search",
-    "file_search",
-    "code_interpreter",
-    "mcp"
-  ],
+  "tools": ["function_calling"],
   "endpoints": [
     "chat_completions",
     "responses",
@@ -79,7 +73,15 @@
     "capabilities": "ac9a94bc",
     "modalities": "6399757e",
     "pricing": "c1f7904e",
-    "tools": "907918a7",
-    "endpoints": "ebc03c48"
-  }
+    "tools": "f0c1dc7e",
+    "endpoints": "ebc03c48",
+    "license": "9186c466",
+    "page_url": "96e5d86d",
+    "open_weight": "68934a3e",
+    "release_date": "85c7118a"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-4.1-mini",
+  "open_weight": false,
+  "release_date": "2025-04-14"
 }

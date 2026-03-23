@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5.3-Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.3",
   "description": "GPT-5.3-Codex is OpenAI’s most advanced agentic coding model, combining the frontier software engineering performance of GPT-5.2-Codex with the broader reasoning and professional knowledge capabilities of GPT-5.2.",
   "context_window": 400000,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "fb49c245",
+    "family": "a1a05172",
     "description": "ae800adc",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
-    "family": "a1a05172",
-    "pricing": "b99db8a5",
+    "modalities": "6399757e",
     "capabilities": "f533f522",
-    "modalities": "6399757e"
-  }
+    "pricing": "b99db8a5",
+    "model_type": "d669f408",
+    "release_date": "2ad07f55",
+    "tagline": "f70a468c",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2026-02-24",
+  "tagline": "GPT-5.3-Codex is OpenAI’s most advanced agentic coding model, combining the frontier software engineering performance of GPT-5.2-Codex with the broader reasoning and professional knowledge capabilitie",
+  "tools": ["function_calling"]
 }

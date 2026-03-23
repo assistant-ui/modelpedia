@@ -1,0 +1,39 @@
+{
+  "id": "Llama-Guard-3-11B-Vision",
+  "name": "Llama-Guard-3-11B-Vision",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "llama-guard",
+  "release_date": "2024-09-20",
+  "knowledge_cutoff": null,
+  "license": "llama3.2",
+  "parameters": 11,
+  "page_url": "https://huggingface.co/meta-llama/Llama-Guard-3-11B-Vision",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a0fa5ee4",
+    "family": "3190be28",
+    "release_date": "4a8401c2",
+    "knowledge_cutoff": "37a6259c",
+    "license": "8c002029",
+    "parameters": "6512bd43",
+    "page_url": "b8e7fdc7",
+    "model_type": "d669f408",
+    "capabilities": "1a260abc",
+    "modalities": "6399757e",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  }
+}

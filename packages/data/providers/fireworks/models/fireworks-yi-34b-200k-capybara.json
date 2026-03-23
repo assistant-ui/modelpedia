@@ -3,19 +3,24 @@
   "name": "yi-34b-200k-capybara",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 200000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "0df90fb5",
     "context_window": "03e6c616",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "parameters": "e369853d",
+    "page_url": "38b2b597"
+  },
+  "parameters": 34,
+  "page_url": "https://fireworks.ai/models/fireworks/yi-34b-200k-capybara"
 }

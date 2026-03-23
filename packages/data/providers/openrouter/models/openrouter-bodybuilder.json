@@ -3,7 +3,7 @@
   "name": "Body Builder (beta)",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Transform your natural language requests into structured OpenRouter API request objects.",
   "context_window": 128000,
   "modalities": {
@@ -14,6 +14,10 @@
     "name": "784927b9",
     "description": "3be70f3d",
     "context_window": "34434798",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "release_date": "292ee6dc",
+    "tagline": "3be70f3d"
+  },
+  "release_date": "2025-12-05",
+  "tagline": "Transform your natural language requests into structured OpenRouter API request objects."
 }

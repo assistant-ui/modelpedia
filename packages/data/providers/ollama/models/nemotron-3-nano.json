@@ -3,14 +3,41 @@
   "name": "nemotron-3-nano",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "00aba647",
-    "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "capabilities": "a281e83a",
+    "model_type": "d669f408",
+    "description": "acafc647",
+    "release_date": "56423574",
+    "parameters": "34173cb3",
+    "page_url": "4c4c91e3",
+    "tagline": "acafc647",
+    "context_window": "4a1d32eb",
+    "license": "243fcabe",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "reasoning_tokens": "b326b506",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "description": "Nemotron-3-Nano is a new Standard for Efficient, Open, and Intelligent Agentic Models, now updated with a 4B parameter count model.",
+  "release_date": "2025-12-15",
+  "parameters": 30,
+  "page_url": "https://ollama.com/library/nemotron-3-nano",
+  "tagline": "Nemotron-3-Nano is a new Standard for Efficient, Open, and Intelligent Agentic Models, now updated with a 4B parameter count model.",
+  "context_window": 262144,
+  "license": "nvidia-open",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "reasoning_tokens": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

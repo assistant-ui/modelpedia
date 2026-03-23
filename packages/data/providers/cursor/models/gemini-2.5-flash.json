@@ -3,7 +3,7 @@
   "name": "Gemini 2.5 Flash",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemini-2.5",
   "capabilities": {
     "streaming": true,
@@ -26,13 +26,21 @@
   "speed": 4,
   "_generated": {
     "name": "4949fb26",
+    "family": "ea6b88bf",
+    "capabilities": "7ca28ec9",
+    "modalities": "6399757e",
+    "pricing": "1a0e496e",
     "context_window": "03e6c616",
     "max_context_window": "8155bc54",
     "performance": "eccbc87e",
     "speed": "a87ff679",
-    "family": "ea6b88bf",
-    "pricing": "1a0e496e",
-    "capabilities": "7ca28ec9",
-    "modalities": "6399757e"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e",
+    "page_url": "09dca87a",
+    "pricing_notes": "963e4ad1"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"],
+  "page_url": "https://cursor.com/docs/models-and-pricing#gemini-2-5-flash",
+  "pricing_notes": ["Hidden by default"]
 }

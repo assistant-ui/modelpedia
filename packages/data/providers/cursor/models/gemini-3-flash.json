@@ -3,7 +3,7 @@
   "name": "Gemini 3 Flash",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemini-3",
   "capabilities": {
     "streaming": true,
@@ -26,13 +26,21 @@
   "speed": 4,
   "_generated": {
     "name": "3693a991",
+    "family": "eb14e598",
+    "capabilities": "7ca28ec9",
+    "modalities": "6399757e",
+    "pricing": "a1f79f3d",
     "context_window": "03e6c616",
     "max_context_window": "8155bc54",
     "performance": "eccbc87e",
     "speed": "a87ff679",
-    "family": "eb14e598",
-    "pricing": "a1f79f3d",
-    "capabilities": "7ca28ec9",
-    "modalities": "6399757e"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e",
+    "page_url": "776cfca6",
+    "pricing_notes": "963e4ad1"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"],
+  "page_url": "https://cursor.com/docs/models-and-pricing#gemini-3-flash",
+  "pricing_notes": ["Hidden by default"]
 }

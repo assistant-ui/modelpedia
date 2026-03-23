@@ -3,7 +3,7 @@
   "name": "mercury-2",
   "created_by": "inception",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 128000,
   "capabilities": {
     "streaming": true,
@@ -17,7 +17,9 @@
   "_generated": {
     "name": "1ddc90f7",
     "context_window": "34434798",
+    "capabilities": "a281e83a",
     "pricing": "5b74b6c8",
-    "capabilities": "a281e83a"
-  }
+    "tools": "f0c1dc7e"
+  },
+  "tools": ["function_calling"]
 }

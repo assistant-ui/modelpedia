@@ -3,7 +3,7 @@
   "name": "gpt-5-codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5",
   "context_window": 400000,
   "capabilities": {
@@ -18,9 +18,13 @@
   },
   "_generated": {
     "name": "8303c87f",
-    "context_window": "2a3a2d28",
     "family": "aa904c16",
+    "context_window": "2a3a2d28",
+    "capabilities": "a19166f1",
     "pricing": "b092c164",
-    "capabilities": "a19166f1"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

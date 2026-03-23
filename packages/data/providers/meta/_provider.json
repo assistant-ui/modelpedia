@@ -2,11 +2,20 @@
   "id": "meta",
   "name": "Meta Llama",
   "region": "US",
+  "headquarters": "Menlo Park, CA",
+  "founded": 2004,
   "url": "https://llama.developer.meta.com",
   "api_url": "https://api.llama.developer.meta.com/v1",
   "docs_url": "https://llama.developer.meta.com/docs/models",
   "pricing_url": "https://llama.developer.meta.com/docs/getting-started/pricing",
   "description": "Creators of Llama, the leading open-source language model family.",
   "type": "direct",
-  "free_tier": true
+  "openai_compatible": false,
+  "free_tier": true,
+  "github_url": "https://github.com/meta-llama",
+  "models_url": "https://llama.meta.com/docs/overview",
+  "twitter_url": "https://x.com/AIatMeta",
+  "blog_url": "https://ai.meta.com/blog",
+  "terms_url": "https://www.llama.com/llama3/license",
+  "support_url": "https://llama.developer.meta.com/help"
 }

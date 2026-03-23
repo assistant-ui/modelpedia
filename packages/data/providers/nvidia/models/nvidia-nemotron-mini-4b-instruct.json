@@ -3,13 +3,19 @@
   "name": "nemotron-mini-4b-instruct",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
   },
   "_generated": {
     "name": "13d14686",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "a87ff679",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 4,
+  "tools": ["function_calling"]
 }

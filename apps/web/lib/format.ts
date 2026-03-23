@@ -35,6 +35,17 @@ export function formatPrice(value: number | null | undefined): string {
   return `$${rounded}`;
 }
 
+/** Format parameter count in billions (e.g. 70 → "70B", 0.5 → "500M") */
+export function formatParams(
+  total?: number | null,
+  active?: number | null,
+): string | null {
+  if (total == null) return null;
+  const fmt = (n: number) => (n < 1 ? `${Math.round(n * 1000)}M` : `${n}B`);
+  if (active != null) return `${fmt(total)} / ${fmt(active)}`;
+  return fmt(total);
+}
+
 /** Convert ISO 3166-1 alpha-2 region code to flag emoji */
 export function regionFlag(region: string): string {
   const code = region.toUpperCase();

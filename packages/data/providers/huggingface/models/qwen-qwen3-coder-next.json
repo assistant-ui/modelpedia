@@ -3,14 +3,33 @@
   "name": "Qwen3-Coder-Next",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "07d147bb",
-    "capabilities": "0fa77dc6",
-    "model_type": "b6cc3ff4"
+    "capabilities": "48995a4e",
+    "model_type": "b6cc3ff4",
+    "release_date": "806d6416",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "parameters": "f033ab37",
+    "active_parameters": "4341447b",
+    "page_url": "b732fb53",
+    "architecture": "31b2172c",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "code"
+  "model_type": "code",
+  "release_date": "2026-01-30",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "parameters": 80,
+  "active_parameters": 1.6,
+  "page_url": "https://huggingface.co/Qwen/Qwen3-Coder-Next",
+  "architecture": "moe",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

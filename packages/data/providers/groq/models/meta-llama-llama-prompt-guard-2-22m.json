@@ -3,7 +3,7 @@
   "name": "Llama Prompt Guard 2 22M",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "preview",
   "context_window": 512,
   "max_output_tokens": 512,
@@ -19,10 +19,12 @@
   "_generated": {
     "name": "900cd007",
     "status": "127aecde",
-    "model_type": "1e7a7b87",
     "context_window": "10a7cdd9",
     "max_output_tokens": "10a7cdd9",
+    "model_type": "1e7a7b87",
+    "modalities": "68e53d93",
     "pricing": "9207f1ad",
-    "modalities": "68e53d93"
-  }
+    "page_url": "7820a531"
+  },
+  "page_url": "https://console.groq.com/docs/models#meta-llama/llama-prompt-guard-2-22m"
 }

@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-4 Turbo",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4-turbo",
   "description": "The latest GPT-4 Turbo model with vision capabilities.",
   "context_window": 128000,
@@ -22,12 +22,20 @@
   },
   "_generated": {
     "name": "375cc107",
+    "family": "e55097d8",
     "description": "3a8d314e",
     "context_window": "34434798",
     "max_output_tokens": "f7efa4f8",
-    "family": "e55097d8",
-    "pricing": "d5468ada",
+    "modalities": "6399757e",
     "capabilities": "ad177261",
-    "modalities": "6399757e"
-  }
+    "pricing": "d5468ada",
+    "model_type": "d669f408",
+    "release_date": "b283eaaa",
+    "tagline": "3a8d314e",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2024-04-09",
+  "tagline": "The latest GPT-4 Turbo model with vision capabilities.",
+  "tools": ["function_calling"]
 }

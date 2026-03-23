@@ -3,7 +3,7 @@
   "name": "Mistral: Saba",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Mistral Saba is a 24B-parameter language model specifically designed for the Middle East and South Asia, delivering accurate and contextually relevant responses while maintaining efficient performance.",
   "context_window": 32768,
   "modalities": {
@@ -23,10 +23,18 @@
     "name": "8b0ee938",
     "description": "2ae96c73",
     "context_window": "f4376436",
-    "pricing": "9fe9e5ff",
-    "capabilities": "ad177261",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "capabilities": "ad177261",
+    "pricing": "9fe9e5ff",
+    "model_type": "d669f408",
+    "family": "27f7c201",
+    "release_date": "788147b1",
+    "tagline": "3da0047d",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "mistral-saba",
+  "release_date": "2025-02-17",
+  "tagline": "Mistral Saba is a 24B-parameter language model specifically designed for the Middle East and South Asia, delivering accurate and contextually relevant responses while maintaining efficient performance",
+  "tools": ["function_calling"]
 }

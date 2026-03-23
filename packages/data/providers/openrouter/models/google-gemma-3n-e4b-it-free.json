@@ -3,7 +3,7 @@
   "name": "Google: Gemma 3n 4B (free)",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemma-3n",
   "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets.",
   "context_window": 8192,
@@ -17,11 +17,17 @@
   },
   "_generated": {
     "name": "40ba13e3",
+    "family": "7d6f36e8",
     "description": "863c7747",
     "context_window": "77441296",
     "max_output_tokens": "05192834",
-    "family": "7d6f36e8",
+    "modalities": "68e53d93",
     "capabilities": "c8033cf7",
-    "modalities": "68e53d93"
-  }
+    "model_type": "d669f408",
+    "release_date": "c5fedeb7",
+    "tagline": "863c7747"
+  },
+  "model_type": "chat",
+  "release_date": "2025-05-20",
+  "tagline": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets."
 }

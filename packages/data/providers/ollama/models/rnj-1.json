@@ -3,12 +3,38 @@
   "name": "rnj-1",
   "created_by": "essentialai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "5d86851c",
-    "capabilities": "0fa77dc6"
+    "capabilities": "48995a4e",
+    "description": "4f317e53",
+    "release_date": "c41dad30",
+    "parameters": "c9f0f895",
+    "page_url": "6c0f718a",
+    "tagline": "4f317e53",
+    "context_window": "f4376436",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
+  "release_date": "2025-12-09",
+  "parameters": 8,
+  "page_url": "https://ollama.com/library/rnj-1",
+  "tagline": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models.",
+  "context_window": 32768,
+  "license": "open-weight",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

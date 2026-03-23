@@ -3,12 +3,31 @@
   "name": "Qwen2.5-1.5B-Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "7ab05f8a",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "60086472",
+    "page_url": "f9f3ee99",
+    "release_date": "9bf554a7",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 1.5,
+  "page_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+  "release_date": "2024-09-17",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

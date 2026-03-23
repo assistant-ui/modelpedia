@@ -3,9 +3,9 @@
   "name": "Mistral: devstral-2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "devstral",
-  "model_type": "chat",
+  "model_type": "code",
   "pricing": {
     "input": 0.39999999999999997,
     "output": 2
@@ -13,7 +13,7 @@
   "_generated": {
     "name": "da536d17",
     "family": "e626e93e",
-    "model_type": "d669f408",
+    "model_type": "b6cc3ff4",
     "pricing": "c1252b94"
   }
 }

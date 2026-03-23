@@ -3,7 +3,7 @@
   "name": "gemini-3.1-flash-lite-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemini-3.1",
   "context_window": 1000000,
   "capabilities": {
@@ -18,9 +18,13 @@
   },
   "_generated": {
     "name": "496b5612",
-    "context_window": "8155bc54",
     "family": "ea4a1a23",
+    "context_window": "8155bc54",
+    "capabilities": "a19166f1",
     "pricing": "f6d5b753",
-    "capabilities": "a19166f1"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

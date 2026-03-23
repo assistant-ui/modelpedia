@@ -3,18 +3,28 @@
   "name": "qwen3-max-preview",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
+  "context_window": 81920,
+  "model_type": "chat",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "reasoning": true
   },
-  "provider": "qwen",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
   "_generated": {
     "name": "22c934e7",
     "family": "48c385a0",
-    "capabilities": "48995a4e",
-    "model_type": "d669f408"
+    "context_window": "7e248a40",
+    "model_type": "d669f408",
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "endpoints": "75df3f1c"
   },
-  "model_type": "chat"
+  "license": "apache-2.0",
+  "provider": "qwen"
 }

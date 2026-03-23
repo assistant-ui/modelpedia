@@ -3,16 +3,41 @@
   "name": "ministral-3",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "ministral",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "vision": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "719bb36f",
     "family": "d6661e63",
-    "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "capabilities": "fc36814c",
+    "model_type": "d669f408",
+    "description": "d19a0e0b",
+    "release_date": "75f289bd",
+    "page_url": "6d23d0af",
+    "tagline": "d19a0e0b",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "parameters": "c9f0f895",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "modalities": "6399757e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "description": "The Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware.",
+  "release_date": "2025-12-02",
+  "page_url": "https://ollama.com/library/ministral-3",
+  "tagline": "The Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware.",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "parameters": 8,
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
 }

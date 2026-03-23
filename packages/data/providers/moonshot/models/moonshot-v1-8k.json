@@ -3,7 +3,7 @@
   "name": "Moonshot v1 8K",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "moonshot",
   "context_window": 8000,
   "capabilities": {
@@ -11,8 +11,14 @@
   },
   "_generated": {
     "name": "0171e05c",
-    "context_window": "67ff32d4",
     "family": "9126e350",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "67ff32d4",
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
+  },
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false
 }

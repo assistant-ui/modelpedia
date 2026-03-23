@@ -3,12 +3,18 @@
   "name": "bge-small-en-v1.5",
   "created_by": "baai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "b70fbc96",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "page_url": "ad778ae0"
+  },
+  "status": "active",
+  "model_type": "embed",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#bge-small-en-v1.5"
 }

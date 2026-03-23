@@ -3,7 +3,7 @@
   "name": "Sora 2",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "model_type": "video",
   "performance": 4,
@@ -16,15 +16,20 @@
   "snapshots": ["sora-2-2025-10-06", "sora-2-2025-12-08", "sora-2"],
   "_generated": {
     "name": "1bafc4f5",
-    "description": "d2082443",
-    "tagline": "4903a3c5",
     "status": "379ac110",
     "model_type": "4d1b75ca",
     "performance": "a87ff679",
     "speed": "c81e728d",
-    "pricing": "51cecb8f",
     "modalities": "33372894",
-    "endpoints": "577d4591"
+    "endpoints": "577d4591",
+    "description": "d2082443",
+    "tagline": "4903a3c5",
+    "pricing": "51cecb8f",
+    "family": "3d185d44",
+    "license": "9186c466",
+    "release_date": "57064400",
+    "page_url": "0fcbd598",
+    "open_weight": "68934a3e"
   },
   "description": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
   "tagline": "Flagship video generation with synced audio",
@@ -46,5 +51,10 @@
         ]
       }
     ]
-  }
+  },
+  "family": "sora-2",
+  "license": "proprietary",
+  "release_date": "2025-12-08",
+  "page_url": "https://platform.openai.com/docs/models/sora-2",
+  "open_weight": false
 }

@@ -13,5 +13,7 @@
     "name": "2a7a7926",
     "family": "d6661e63",
     "pricing": "7f851cba"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 8
 }

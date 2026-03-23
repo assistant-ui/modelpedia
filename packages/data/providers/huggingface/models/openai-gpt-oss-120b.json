@@ -3,14 +3,37 @@
   "name": "gpt-oss-120b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-oss",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "e8458743",
     "family": "82d0cb0b",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "da4fb5c6",
+    "page_url": "e34c0783",
+    "description": "349d7d44",
+    "release_date": "7a0b28c5",
+    "context_window": "f7de594e",
+    "license": "60245731",
+    "tagline": "349d7d44",
+    "architecture": "31b2172c",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 120,
+  "page_url": "https://huggingface.co/openai/gpt-oss-120b",
+  "description": "Welcome to the gpt-oss series, [OpenAI’s open-weight models](https://openai.com/open-models) designed for powerful reasoning, agentic tasks, and versatile developer use cases.",
+  "release_date": "2025-08-04",
+  "context_window": 131072,
+  "license": "apache-2.0",
+  "tagline": "Welcome to the gpt-oss series, [OpenAI’s open-weight models](https://openai.com/open-models) designed for powerful reasoning, agentic tasks, and versatile developer use cases.",
+  "architecture": "moe",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

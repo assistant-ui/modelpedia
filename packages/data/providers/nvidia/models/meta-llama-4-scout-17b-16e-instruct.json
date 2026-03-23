@@ -3,7 +3,7 @@
   "name": "llama-4-scout-17b-16e-instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-4",
   "capabilities": {
     "streaming": true,
@@ -12,6 +12,12 @@
   "_generated": {
     "name": "f515d1c6",
     "family": "3169363f",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "70efdf2e",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 17,
+  "tools": ["function_calling"]
 }

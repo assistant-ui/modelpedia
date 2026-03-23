@@ -13,5 +13,7 @@
     "name": "056d51fc",
     "model_type": "d669f408",
     "pricing": "4a55a07f"
-  }
+  },
+  "family": "mistral-7b",
+  "parameters": 7
 }

@@ -17,5 +17,6 @@
     "context_window": "34434798",
     "pricing": "24bc12da",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "model_type": "chat"
 }

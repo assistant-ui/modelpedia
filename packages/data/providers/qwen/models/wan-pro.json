@@ -1,0 +1,27 @@
+{
+  "id": "wan-pro",
+  "name": "wan-pro",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "37bb0117",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "75df3f1c",
+    "family": "2aadc089",
+    "model_type": "4d1b75ca"
+  },
+  "family": "wan",
+  "model_type": "video",
+  "license": "proprietary",
+  "provider": "qwen"
+}

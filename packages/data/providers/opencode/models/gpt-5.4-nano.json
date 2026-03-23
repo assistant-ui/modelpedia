@@ -3,20 +3,24 @@
   "name": "GPT 5.4 Nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.4",
   "status": "active",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.2
+    "input": 0.2,
+    "output": 1.25,
+    "cached_input": 0.02
   },
   "_generated": {
     "name": "9baea92d",
-    "status": "379ac110",
     "family": "4651e8f0",
-    "pricing": "a1032fd4",
-    "capabilities": "0fa77dc6"
-  }
+    "status": "379ac110",
+    "capabilities": "0fa77dc6",
+    "pricing": "8c430990",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

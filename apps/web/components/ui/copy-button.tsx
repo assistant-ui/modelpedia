@@ -4,7 +4,7 @@ import { Check, Copy } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/cn";
 
-function CopyButton({
+export function CopyButton({
   value,
   className,
 }: {
@@ -33,5 +33,3 @@ function CopyButton({
     </button>
   );
 }
-
-export { CopyButton };

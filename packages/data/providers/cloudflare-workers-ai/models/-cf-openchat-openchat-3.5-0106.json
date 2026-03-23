@@ -3,12 +3,18 @@
   "name": "openchat-3.5-0106",
   "created_by": "openchat",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "1be5af40",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "dc61c8d3"
+  },
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#openchat-3.5-0106"
 }

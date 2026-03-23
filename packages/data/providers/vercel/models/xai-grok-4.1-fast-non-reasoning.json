@@ -3,7 +3,7 @@
   "name": "grok-4.1-fast-non-reasoning",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "grok-4.1",
   "context_window": 2000000,
   "capabilities": {
@@ -16,11 +16,13 @@
   },
   "_generated": {
     "name": "8eb9e531",
-    "context_window": "805f7438",
     "family": "6b413309",
-    "pricing": "36539e12",
+    "context_window": "805f7438",
     "capabilities": "48995a4e",
-    "model_type": "17475f7f"
+    "pricing": "36539e12",
+    "model_type": "17475f7f",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "tools": ["function_calling"]
 }

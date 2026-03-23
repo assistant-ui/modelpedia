@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen-Plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen",
   "description": "Qwen-Plus, based on the Qwen2.5 foundation model, is a 131K context model with a balanced performance, speed, and cost combination.",
   "context_window": 1000000,
@@ -23,14 +23,21 @@
   },
   "_generated": {
     "name": "72d87a81",
+    "family": "a3af76f3",
     "description": "8f4076c5",
     "context_window": "8155bc54",
     "max_output_tokens": "f4376436",
-    "family": "a3af76f3",
-    "pricing": "9ff76ad2",
-    "capabilities": "ad177261",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "capabilities": "ad177261",
+    "pricing": "9ff76ad2",
+    "model_type": "d669f408",
+    "release_date": "1e2d6a9b",
+    "tagline": "c835925a",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "release_date": "2025-02-01",
+  "tagline": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination.",
+  "tools": ["function_calling"],
+  "snapshots": ["qwen/qwen-plus-2025-07-28"]
 }

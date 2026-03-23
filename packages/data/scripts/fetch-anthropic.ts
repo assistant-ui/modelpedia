@@ -367,14 +367,10 @@ async function main() {
     };
     const performance = family ? FAMILY_PERF[family] : undefined;
 
-    // Anthropic-specific fields stored alongside standard fields
+    // Anthropic-specific fields (provider extensions, not in ModelEntry schema)
     const anthropicFields: Record<string, unknown> = {};
     if (spec.extended_thinking != null)
       anthropicFields.extended_thinking = spec.extended_thinking;
-    if (spec.training_data_cutoff)
-      anthropicFields.training_data_cutoff = normalizeDate(
-        spec.training_data_cutoff,
-      );
     // Adaptive thinking: available on Opus 4.6, Sonnet 4.6 (not Haiku 4.5, not legacy)
     if (
       spec.extended_thinking &&
@@ -395,10 +391,15 @@ async function main() {
       name: spec.name,
       family,
       description: spec.description,
+      license: "proprietary",
+      page_url: `https://docs.anthropic.com/en/docs/about-claude/models#${id}`,
       status: spec.deprecated ? "deprecated" : "active",
       context_window: spec.context_window,
       max_output_tokens: spec.max_output_tokens,
       knowledge_cutoff: spec.knowledge_cutoff,
+      training_data_cutoff: spec.training_data_cutoff
+        ? normalizeDate(spec.training_data_cutoff)
+        : undefined,
       speed: latencyToSpeed(spec.latency),
       performance,
       reasoning: spec.extended_thinking ? performance : undefined,
@@ -480,6 +481,8 @@ async function main() {
       id,
       name,
       family: inferFamily(id),
+      license: "proprietary",
+      page_url: `https://docs.anthropic.com/en/docs/about-claude/models#${id}`,
       modalities: { input: ["text", "image"], output: ["text"] },
       capabilities: { streaming: true, vision: true, tool_call: true },
       tools: ["function_calling"],

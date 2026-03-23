@@ -1,6 +1,7 @@
 import { fetchText, stripHtml } from "./parse.ts";
 import {
   inferFamily,
+  inferParameters,
   type ModelEntry,
   readSources,
   runGenerate,
@@ -31,9 +32,11 @@ async function fetchModelSlugs(): Promise<string[]> {
 
 interface FireworksModel {
   slug: string;
+  page_url: string;
   context_window?: number;
   pricing_input?: number;
   pricing_output?: number;
+  pricing_cached_input?: number;
   created_by: string;
 }
 
@@ -82,9 +85,11 @@ async function fetchDetail(slug: string): Promise<FireworksModel | null> {
 
     let pricingInput: number | undefined;
     let pricingOutput: number | undefined;
+    let pricingCachedInput: number | undefined;
     if (dollars.length >= 3) {
       // Pattern: input, cached, output
       pricingInput = dollars[0];
+      pricingCachedInput = dollars[1];
       pricingOutput = dollars[2];
     } else if (dollars.length >= 2) {
       pricingInput = dollars[0];
@@ -93,9 +98,11 @@ async function fetchDetail(slug: string): Promise<FireworksModel | null> {
 
     return {
       slug,
+      page_url: `${MODEL_BASE}${slug}`,
       context_window: contextWindow,
       pricing_input: pricingInput,
       pricing_output: pricingOutput,
+      pricing_cached_input: pricingCachedInput,
       created_by: inferCreator(slug),
     };
   } catch {
@@ -139,14 +146,25 @@ async function main() {
       name: shortName,
       created_by: m.created_by,
       family: inferFamily(shortName),
+      page_url: m.page_url,
       context_window: m.context_window,
       capabilities: { streaming: true },
     };
+
+    const params = inferParameters(shortName);
+    if (params) {
+      entry.parameters = params.parameters;
+      if (params.active_parameters)
+        entry.active_parameters = params.active_parameters;
+    }
 
     if (m.pricing_input != null && m.pricing_output != null) {
       entry.pricing = {
         input: m.pricing_input,
         output: m.pricing_output,
+        ...(m.pricing_cached_input != null && {
+          cached_input: m.pricing_cached_input,
+        }),
       };
     }
 

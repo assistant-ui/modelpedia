@@ -3,12 +3,33 @@
   "name": "GritLM-7B",
   "created_by": "gritlm",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "f8abdf5d",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "74c5d923",
+    "page_url": "7d94dacc",
+    "description": "0482d3d7",
+    "release_date": "13b260ea",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "tagline": "32c8f28c",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 7.2,
+  "page_url": "https://huggingface.co/GritLM/GritLM-7B",
+  "description": "> GritLM is a generative representational instruction tuned language model. It unifies text representation (embedding) and text generation into a single model achieving state-of-the-art performance on both types of tasks.",
+  "release_date": "2024-02-11",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "tagline": "> GritLM is a generative representational instruction tuned language model.",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

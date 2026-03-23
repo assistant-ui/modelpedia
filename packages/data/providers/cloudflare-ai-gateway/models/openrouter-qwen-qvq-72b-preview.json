@@ -11,5 +11,8 @@
   "_generated": {
     "name": "1b600055",
     "pricing": "5fb91ff3"
-  }
+  },
+  "family": "qwen",
+  "model_type": "chat",
+  "parameters": 72
 }

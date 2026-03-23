@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 VL 235B A22B Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "description": "Qwen3-VL-235B-A22B Instruct is an open-weight multimodal model that unifies strong text generation with visual understanding across images and video.",
   "context_window": 262144,
@@ -22,13 +22,23 @@
   },
   "_generated": {
     "name": "cc47b356",
+    "family": "48c385a0",
     "description": "ac1c0eb2",
     "context_window": "4a1d32eb",
-    "family": "48c385a0",
-    "pricing": "6e0168a8",
-    "capabilities": "ad177261",
     "modalities": "6399757e",
-    "model_type": "d669f408"
+    "capabilities": "ad177261",
+    "pricing": "6e0168a8",
+    "model_type": "d669f408",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "release_date": "142ddad6",
+    "tagline": "ac1c0eb2",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 235,
+  "active_parameters": 22,
+  "release_date": "2025-09-23",
+  "tagline": "Qwen3-VL-235B-A22B Instruct is an open-weight multimodal model that unifies strong text generation with visual understanding across images and video.",
+  "tools": ["function_calling"]
 }

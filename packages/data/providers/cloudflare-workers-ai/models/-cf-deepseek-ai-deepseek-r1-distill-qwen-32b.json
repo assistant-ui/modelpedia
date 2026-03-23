@@ -3,14 +3,25 @@
   "name": "deepseek-r1-distill-qwen-32b",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek-r1",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "39b01de3",
     "family": "c74cfb8e",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "6364d3f0",
+    "status": "379ac110",
+    "page_url": "7a9303d0",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 32,
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#deepseek-r1-distill-qwen-32b",
+  "tools": ["function_calling"]
 }

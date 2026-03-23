@@ -1,0 +1,28 @@
+{
+  "id": "wan2.6-image",
+  "name": "wan2.6-image",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "model_type": "image",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "364c4507",
+    "model_type": "db8857fe",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e",
+    "endpoints": "75df3f1c",
+    "family": "68010df8"
+  },
+  "family": "wan2.6",
+  "license": "proprietary",
+  "provider": "qwen"
+}

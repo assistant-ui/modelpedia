@@ -3,13 +3,17 @@
   "name": "chatglm3-6b",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
   },
   "_generated": {
     "name": "64d1f266",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "1679091c",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 6,
+  "tools": ["function_calling"]
 }

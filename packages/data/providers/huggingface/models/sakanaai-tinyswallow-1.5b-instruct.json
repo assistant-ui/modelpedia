@@ -3,12 +3,33 @@
   "name": "TinySwallow-1.5B-Instruct",
   "created_by": "sakanaai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "69c93774",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "60086472",
+    "page_url": "5f4e6da1",
+    "description": "a9b00ab8",
+    "release_date": "180ee73e",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "tagline": "a9b00ab8",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 1.5,
+  "page_url": "https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct",
+  "description": "🤗 [Models](https://huggingface.co/SakanaAI) | 📚 [Paper](https://arxiv.org/abs/2501.16937) | 📝 [Blog](https://sakana.ai/taid-jp/) | 🐦 [Twitter](https://twitter.com/SakanaAILabs)",
+  "release_date": "2025-01-07",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "tagline": "🤗 [Models](https://huggingface.co/SakanaAI) | 📚 [Paper](https://arxiv.org/abs/2501.16937) | 📝 [Blog](https://sakana.ai/taid-jp/) | 🐦 [Twitter](https://twitter.com/SakanaAILabs)",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

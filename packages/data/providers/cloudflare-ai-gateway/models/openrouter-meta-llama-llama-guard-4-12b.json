@@ -3,9 +3,9 @@
   "name": "OpenRouter: meta-llama/llama-guard-4-12b",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "llama-guard",
-  "model_type": "moderation",
+  "model_type": "chat",
   "pricing": {
     "input": 0.18,
     "output": 0.18
@@ -13,7 +13,9 @@
   "_generated": {
     "name": "e866f3c5",
     "family": "3190be28",
-    "model_type": "1e7a7b87",
-    "pricing": "bd10cf29"
-  }
+    "model_type": "d669f408",
+    "pricing": "bd10cf29",
+    "parameters": "c20ad4d7"
+  },
+  "parameters": 12
 }

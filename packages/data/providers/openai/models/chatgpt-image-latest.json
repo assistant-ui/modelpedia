@@ -3,7 +3,7 @@
   "name": "chatgpt-image-latest",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "chatgpt",
   "description": "GPT Image Latest points to the image snapshot currently used in ChatGPT.",
   "status": "active",
@@ -67,15 +67,21 @@
   "snapshots": ["chatgpt-image-latest"],
   "_generated": {
     "name": "aecf32bc",
+    "family": "65aec523",
     "description": "93b819e1",
-    "tagline": "1cd73dee",
     "status": "379ac110",
     "model_type": "db8857fe",
     "performance": "e4da3b7f",
     "speed": "eccbc87e",
-    "family": "65aec523",
-    "pricing": "f27acd82",
+    "tagline": "1cd73dee",
     "modalities": "996cb582",
-    "endpoints": "af128fc0"
-  }
+    "pricing": "f27acd82",
+    "endpoints": "af128fc0",
+    "license": "9186c466",
+    "page_url": "0a6f7aab",
+    "open_weight": "68934a3e"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/chatgpt-image-latest",
+  "open_weight": false
 }

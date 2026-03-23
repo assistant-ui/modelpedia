@@ -13,5 +13,7 @@
     "name": "49e9070a",
     "family": "c74cfb8e",
     "pricing": "b95fa10f"
-  }
+  },
+  "model_type": "reasoning",
+  "parameters": 70
 }

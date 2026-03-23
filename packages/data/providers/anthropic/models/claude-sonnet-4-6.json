@@ -3,7 +3,7 @@
   "name": "Claude Sonnet 4.6",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "claude-sonnet",
   "description": "The best combination of speed and intelligence",
   "status": "active",
@@ -59,7 +59,13 @@
     "training_data_cutoff": "f534389f",
     "adaptive_thinking": "b326b506",
     "priority_tier": "b326b506",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "page_url": "777c7558"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false,
+  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-sonnet-4-6"
 }

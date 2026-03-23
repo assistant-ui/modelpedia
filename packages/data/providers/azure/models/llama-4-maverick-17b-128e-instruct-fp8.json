@@ -3,7 +3,7 @@
   "name": "Llama-4-Maverick-17B-128E-Instruct-FP8",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-4",
   "capabilities": {
     "streaming": true,
@@ -19,7 +19,11 @@
     "family": "3169363f",
     "capabilities": "1a260abc",
     "modalities": "6399757e",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "parameters": "70efdf2e",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 17,
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "grok-imagine-image-pro",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "release_date": "2026-01-28",
   "capabilities": {
     "streaming": true,
@@ -17,10 +17,18 @@
   },
   "_generated": {
     "name": "645c709d",
-    "model_type": "db8857fe",
     "release_date": "7b38667e",
-    "family": "a4576b5e",
     "capabilities": "48995a4e",
-    "modalities": "bbf9b8bb"
-  }
+    "family": "a4576b5e",
+    "model_type": "db8857fe",
+    "modalities": "bbf9b8bb",
+    "license": "9186c466",
+    "page_url": "a178c6cd",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
+  },
+  "license": "proprietary",
+  "page_url": "https://docs.x.ai/docs/models#grok-imagine-image-pro",
+  "open_weight": false,
+  "tools": ["function_calling"]
 }

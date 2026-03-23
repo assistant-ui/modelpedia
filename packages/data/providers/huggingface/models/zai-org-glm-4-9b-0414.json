@@ -3,12 +3,33 @@
   "name": "GLM-4-9B-0414",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "5ce66564",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "family": "01e27655",
+    "model_type": "d669f408",
+    "parameters": "b68de8f1",
+    "page_url": "0f76b030",
+    "release_date": "449b891b",
+    "context_window": "f4376436",
+    "license": "3c4c3ba5",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "family": "GLM-4",
+  "model_type": "chat",
+  "parameters": 9.4,
+  "page_url": "https://huggingface.co/zai-org/GLM-4-9B-0414",
+  "release_date": "2025-04-07",
+  "context_window": 32768,
+  "license": "mit",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

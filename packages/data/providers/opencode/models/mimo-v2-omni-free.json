@@ -3,7 +3,7 @@
   "name": "MiMo V2 Omni Free",
   "created_by": "xiaomi",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "capabilities": {
     "streaming": true
@@ -11,6 +11,8 @@
   "_generated": {
     "name": "c34970a1",
     "status": "379ac110",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

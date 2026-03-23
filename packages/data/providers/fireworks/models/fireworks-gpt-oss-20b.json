@@ -3,7 +3,7 @@
   "name": "gpt-oss-20b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-oss",
   "context_window": 131100,
   "capabilities": {
@@ -11,13 +11,20 @@
   },
   "pricing": {
     "input": 0.07,
-    "output": 0.3
+    "output": 0.3,
+    "cached_input": 0.04
   },
   "_generated": {
     "name": "0f95b22f",
-    "context_window": "a683b9ae",
     "family": "82d0cb0b",
-    "pricing": "457d8860",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "a683b9ae",
+    "capabilities": "0fa77dc6",
+    "pricing": "e19298dc",
+    "model_type": "d669f408",
+    "parameters": "98f13708",
+    "page_url": "85b412a4"
+  },
+  "model_type": "chat",
+  "parameters": 20,
+  "page_url": "https://fireworks.ai/models/fireworks/gpt-oss-20b"
 }

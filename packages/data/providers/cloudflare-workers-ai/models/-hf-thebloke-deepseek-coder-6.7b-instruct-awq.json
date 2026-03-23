@@ -3,14 +3,25 @@
   "name": "deepseek-coder-6.7b-instruct-awq",
   "created_by": "thebloke",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "746fa70d",
     "family": "4b81b92d",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "c3e22f2a",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "85324a28",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 6.7,
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#deepseek-coder-6.7b-instruct-awq",
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "Google: Gemini 3.1 Pro Preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemini-3.1",
   "description": "Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows.",
   "context_window": 1048576,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "cc7ea0a1",
+    "family": "ea4a1a23",
     "description": "724d1db2",
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
-    "family": "ea4a1a23",
-    "pricing": "871170f7",
+    "modalities": "b7a3ac68",
     "capabilities": "f533f522",
-    "modalities": "b7a3ac68"
-  }
+    "pricing": "871170f7",
+    "model_type": "d669f408",
+    "release_date": "1323dc51",
+    "tagline": "c0c69d8a",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2026-02-19",
+  "tagline": "Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows",
+  "tools": ["function_calling"]
 }

@@ -13,5 +13,7 @@
     "name": "78235150",
     "family": "83ec32db",
     "pricing": "ee3b139d"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 8
 }

@@ -3,7 +3,7 @@
   "name": "Writer: Palmyra X5",
   "created_by": "writer",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Palmyra X5 is Writer's most advanced model, purpose-built for building and scaling AI agents across the enterprise.",
   "context_window": 1040000,
   "max_output_tokens": 8192,
@@ -20,7 +20,13 @@
     "description": "968f4a3a",
     "context_window": "1bf8ad8b",
     "max_output_tokens": "77441296",
+    "modalities": "68e53d93",
     "pricing": "c1853e31",
-    "modalities": "68e53d93"
-  }
+    "model_type": "d669f408",
+    "release_date": "a9d1b041",
+    "tagline": "968f4a3a"
+  },
+  "model_type": "chat",
+  "release_date": "2026-01-21",
+  "tagline": "Palmyra X5 is Writer's most advanced model, purpose-built for building and scaling AI agents across the enterprise."
 }

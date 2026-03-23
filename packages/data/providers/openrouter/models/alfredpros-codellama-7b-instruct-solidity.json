@@ -3,7 +3,7 @@
   "name": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
   "created_by": "alfredpros",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "A finetuned 7 billion parameters Code LLaMA - Instruct model to generate Solidity smart contract using 4-bit QLoRA finetuning provided by PEFT library.",
   "context_window": 4096,
   "max_output_tokens": 4096,
@@ -20,7 +20,17 @@
     "description": "d832d70f",
     "context_window": "f7efa4f8",
     "max_output_tokens": "f7efa4f8",
+    "modalities": "68e53d93",
     "pricing": "2ae97ac6",
-    "modalities": "68e53d93"
-  }
+    "family": "cf323e30",
+    "model_type": "b6cc3ff4",
+    "parameters": "8f14e45f",
+    "release_date": "85c7118a",
+    "tagline": "d832d70f"
+  },
+  "family": "codellama",
+  "model_type": "code",
+  "parameters": 7,
+  "release_date": "2025-04-14",
+  "tagline": "A finetuned 7 billion parameters Code LLaMA - Instruct model to generate Solidity smart contract using 4-bit QLoRA finetuning provided by PEFT library."
 }

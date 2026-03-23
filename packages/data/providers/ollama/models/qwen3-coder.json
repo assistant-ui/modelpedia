@@ -3,7 +3,7 @@
   "name": "qwen3-coder",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "capabilities": {
     "streaming": true
@@ -12,7 +12,28 @@
     "name": "1cd1d1a6",
     "family": "48c385a0",
     "capabilities": "0fa77dc6",
-    "model_type": "b6cc3ff4"
+    "model_type": "b6cc3ff4",
+    "description": "25988deb",
+    "release_date": "7b78b654",
+    "parameters": "6ea2ef73",
+    "page_url": "9171faf1",
+    "tagline": "25988deb",
+    "context_window": "4a1d32eb",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
   },
-  "model_type": "code"
+  "model_type": "code",
+  "description": "Alibaba&#39;s performant long context models for agentic and coding tasks.",
+  "release_date": "2025-07-22",
+  "parameters": 480,
+  "page_url": "https://ollama.com/library/qwen3-coder",
+  "tagline": "Alibaba&#39;s performant long context models for agentic and coding tasks.",
+  "context_window": 262144,
+  "license": "open-weight",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

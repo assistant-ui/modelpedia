@@ -2,18 +2,28 @@
   "id": "openai",
   "name": "OpenAI",
   "region": "US",
+  "headquarters": "San Francisco, CA",
+  "founded": 2015,
   "url": "https://openai.com",
   "api_url": "https://api.openai.com/v1",
   "docs_url": "https://platform.openai.com/docs",
   "pricing_url": "https://openai.com/api/pricing",
-  "playground_url": "https://platform.openai.com/playground",
   "description": "Creator of GPT, DALL-E, and Sora. Builds frontier AI models for text, image, video, and audio.",
   "type": "direct",
+  "playground_url": "https://platform.openai.com/playground",
   "status_url": "https://status.openai.com",
   "changelog_url": "https://platform.openai.com/docs/changelog",
   "sdk": {
     "python": "openai",
     "javascript": "openai"
   },
-  "free_tier": false
+  "openai_compatible": false,
+  "free_tier": false,
+  "github_url": "https://github.com/openai",
+  "models_url": "https://platform.openai.com/docs/models",
+  "twitter_url": "https://x.com/openai",
+  "discord_url": "https://discord.com/invite/openai",
+  "blog_url": "https://openai.com/index",
+  "terms_url": "https://openai.com/policies/terms-of-use",
+  "support_url": "https://help.openai.com"
 }

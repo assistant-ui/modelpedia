@@ -3,7 +3,7 @@
   "name": "grok-3",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "grok-3",
   "capabilities": {
     "streaming": true,
@@ -17,6 +17,10 @@
     "name": "c41798c6",
     "family": "c41798c6",
     "capabilities": "48995a4e",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

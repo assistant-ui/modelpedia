@@ -1,0 +1,31 @@
+{
+  "id": "qwen2-57b-a14b-instruct",
+  "name": "qwen2-57b-a14b-instruct",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "qwen2",
+  "context_window": 65536,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "92557ac1",
+    "family": "66ff794a",
+    "context_window": "297ce0b3",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "75df3f1c"
+  },
+  "license": "apache-2.0",
+  "parameters": 57,
+  "active_parameters": 14,
+  "provider": "qwen"
+}

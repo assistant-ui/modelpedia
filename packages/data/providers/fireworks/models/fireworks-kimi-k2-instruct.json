@@ -3,19 +3,26 @@
   "name": "kimi-k2-instruct",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 131100,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "8b2004ee",
     "context_window": "a683b9ae",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "family": "0f7256d5",
+    "model_type": "d669f408",
+    "page_url": "eb5eecd0"
+  },
+  "family": "kimi-k2",
+  "model_type": "chat",
+  "page_url": "https://fireworks.ai/models/fireworks/kimi-k2-instruct"
 }

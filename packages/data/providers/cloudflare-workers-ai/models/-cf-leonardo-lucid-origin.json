@@ -3,12 +3,16 @@
   "name": "lucid-origin",
   "created_by": "leonardo",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "1c5194e3",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "status": "379ac110",
+    "page_url": "506eeb60"
+  },
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#lucid-origin"
 }

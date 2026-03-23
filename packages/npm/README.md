@@ -1,6 +1,6 @@
 # modelpedia
 
-Open catalog of AI model data — specs, pricing, and capabilities across 30+ providers and 2000+ models.
+Open catalog of AI model data — specs, pricing, and capabilities across 30+ providers and 4000+ models.
 
 [![npm version](https://img.shields.io/npm/v/modelpedia.svg)](https://www.npmjs.com/package/modelpedia)
 [![license](https://img.shields.io/npm/l/modelpedia.svg)](https://github.com/assistant-ui/modelpedia/blob/master/LICENSE)
@@ -82,7 +82,8 @@ Available: `modelpedia/openai`, `modelpedia/anthropic`, `modelpedia/google`, `mo
 | `model_type` | `string?` | `chat`, `reasoning`, `embed`, `image`, `video`, `tts`, `transcription`, `moderation`, `rerank`, `code` |
 | `context_window` | `number?` | Default context window (tokens) |
 | `max_output_tokens` | `number?` | Maximum output tokens |
-| `knowledge_cutoff` | `string?` | Training data cutoff (`YYYY-MM` or `YYYY-MM-DD`) |
+| `knowledge_cutoff` | `string?` | Model's effective knowledge boundary (`YYYY-MM` or `YYYY-MM-DD`) |
+| `training_data_cutoff` | `string?` | Training data cutoff date (may differ from knowledge_cutoff) |
 | `pricing` | `ModelPricing?` | Pricing per 1M tokens + detailed tiers |
 | `capabilities` | `ModelCapabilities?` | vision, tool_call, streaming, reasoning, etc. |
 | `modalities` | `ModelModalities?` | Input/output modality support (text, image, audio, video) |
@@ -92,6 +93,12 @@ Available: `modelpedia/openai`, `modelpedia/anthropic`, `modelpedia/google`, `mo
 | `performance` | `number?` | Intelligence rating (1-5) |
 | `reasoning` | `number?` | Reasoning rating (1-5) |
 | `speed` | `number?` | Speed rating (1-5) |
+| `architecture` | `string?` | Model architecture (`transformer`, `moe`, `ssm`, `hybrid`) |
+| `open_weight` | `boolean?` | Whether model weights are publicly available |
+| `api_compatibility` | `string[]?` | Compatible API formats (e.g. `["openai"]`) |
+| `license` | `string?` | SPDX ID, custom name, or `"proprietary"` |
+| `parameters` | `number?` | Total parameters in billions |
+| `active_parameters` | `number?` | Active parameters for MoE models |
 
 ### Pricing
 

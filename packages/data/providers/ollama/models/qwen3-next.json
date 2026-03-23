@@ -3,16 +3,43 @@
   "name": "qwen3-next",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "9260342a",
     "family": "48c385a0",
-    "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "capabilities": "a281e83a",
+    "model_type": "d669f408",
+    "description": "00b554db",
+    "release_date": "6b120f3c",
+    "parameters": "f033ab37",
+    "page_url": "a7587bee",
+    "tagline": "00b554db",
+    "context_window": "4a1d32eb",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "reasoning_tokens": "b326b506",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "description": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
+  "release_date": "2025-09-10",
+  "parameters": 80,
+  "page_url": "https://ollama.com/library/qwen3-next",
+  "tagline": "The first installment in the Qwen3-Next series with strong performance in terms of both parameter efficiency and inference speed.",
+  "context_window": 262144,
+  "license": "open-weight",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "reasoning_tokens": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

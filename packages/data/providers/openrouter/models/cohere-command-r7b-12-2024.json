@@ -3,7 +3,7 @@
   "name": "Cohere: Command R7B (12-2024)",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Command R7B (12-2024) is a small, fast update of the Command R+ model, delivered in December 2024.",
   "context_window": 128000,
   "max_output_tokens": 4000,
@@ -23,8 +23,16 @@
     "description": "e08898ef",
     "context_window": "34434798",
     "max_output_tokens": "1bd69c7d",
-    "pricing": "7aa8e26d",
+    "modalities": "68e53d93",
     "capabilities": "c8033cf7",
-    "modalities": "68e53d93"
-  }
+    "pricing": "7aa8e26d",
+    "family": "439d5b76",
+    "model_type": "d669f408",
+    "release_date": "e898442a",
+    "tagline": "e08898ef"
+  },
+  "family": "command-r",
+  "model_type": "chat",
+  "release_date": "2024-12-14",
+  "tagline": "Command R7B (12-2024) is a small, fast update of the Command R+ model, delivered in December 2024."
 }

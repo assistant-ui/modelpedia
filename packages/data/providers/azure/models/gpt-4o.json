@@ -3,7 +3,7 @@
   "name": "GPT-4o, GPT-4o mini, and GPT-4 Turbo",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4o",
   "capabilities": {
     "streaming": true,
@@ -17,6 +17,12 @@
     "name": "277cedd6",
     "family": "15249632",
     "capabilities": "8a3b232e",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "d669f408",
+    "description": "3b9d712f",
+    "tagline": "3b9d712f"
+  },
+  "model_type": "chat",
+  "description": "Capable Azure OpenAI models with multimodal versions, which can accept both text and images as input.",
+  "tagline": "Capable Azure OpenAI models with multimodal versions, which can accept both text and images as input."
 }

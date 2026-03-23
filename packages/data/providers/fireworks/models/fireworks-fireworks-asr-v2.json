@@ -3,17 +3,20 @@
   "name": "fireworks-asr-v2",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 0.0035,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "b2702bed",
-    "pricing": "8665fa33",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "be8d0646",
+    "page_url": "f86a27d0"
+  },
+  "page_url": "https://fireworks.ai/models/fireworks/fireworks-asr-v2"
 }

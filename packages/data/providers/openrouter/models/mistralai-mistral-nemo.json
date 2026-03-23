@@ -3,7 +3,7 @@
   "name": "Mistral: Mistral Nemo",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.",
   "context_window": 131072,
   "max_output_tokens": 16384,
@@ -24,10 +24,18 @@
     "description": "97e7ce7a",
     "context_window": "f7de594e",
     "max_output_tokens": "c76fe1d8",
-    "pricing": "6fc99b9e",
-    "capabilities": "ad177261",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "capabilities": "ad177261",
+    "pricing": "6fc99b9e",
+    "model_type": "d669f408",
+    "family": "75e1af53",
+    "release_date": "815d1f68",
+    "tagline": "97e7ce7a",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "mistral-nemo",
+  "release_date": "2024-07-19",
+  "tagline": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.",
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "Grok 4.20",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "grok-4.20",
   "capabilities": {
     "streaming": true,
@@ -25,13 +25,21 @@
   "speed": 4,
   "_generated": {
     "name": "de8c0626",
+    "family": "44972aca",
+    "capabilities": "a281e83a",
+    "modalities": "68e53d93",
+    "pricing": "9277b5ca",
     "context_window": "03e6c616",
     "max_context_window": "805f7438",
     "performance": "a87ff679",
     "speed": "a87ff679",
-    "family": "44972aca",
-    "pricing": "9277b5ca",
-    "capabilities": "a281e83a",
-    "modalities": "68e53d93"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e",
+    "page_url": "60d06fb1",
+    "pricing_notes": "7a779f01"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"],
+  "page_url": "https://cursor.com/docs/models-and-pricing#grok-4-20",
+  "pricing_notes": ["The cost is 2x when the input exceeds 200k tokens"]
 }

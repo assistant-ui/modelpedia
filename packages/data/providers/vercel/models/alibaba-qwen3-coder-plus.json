@@ -3,7 +3,7 @@
   "name": "qwen3-coder-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "context_window": 1000000,
   "capabilities": {
@@ -16,9 +16,13 @@
   },
   "_generated": {
     "name": "409b0797",
-    "context_window": "8155bc54",
     "family": "48c385a0",
+    "context_window": "8155bc54",
+    "capabilities": "48995a4e",
     "pricing": "5b5c2081",
-    "capabilities": "48995a4e"
-  }
+    "model_type": "b6cc3ff4",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "code",
+  "tools": ["function_calling"]
 }

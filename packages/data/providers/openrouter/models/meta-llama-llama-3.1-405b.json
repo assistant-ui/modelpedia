@@ -3,7 +3,7 @@
   "name": "Meta: Llama 3.1 405B (base)",
   "created_by": "meta-llama",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-3.1",
   "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors.",
   "context_window": 32768,
@@ -18,11 +18,19 @@
   },
   "_generated": {
     "name": "ccff2b58",
+    "family": "83ec32db",
     "description": "7847fd3f",
     "context_window": "f4376436",
     "max_output_tokens": "f4376436",
-    "family": "83ec32db",
+    "modalities": "68e53d93",
     "pricing": "da347ef5",
-    "modalities": "68e53d93"
-  }
+    "model_type": "d669f408",
+    "parameters": "bbcbff5c",
+    "release_date": "8dee3889",
+    "tagline": "7847fd3f"
+  },
+  "model_type": "chat",
+  "parameters": 405,
+  "release_date": "2024-08-02",
+  "tagline": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors."
 }

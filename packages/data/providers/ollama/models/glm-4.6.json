@@ -3,12 +3,35 @@
   "name": "glm-4.6",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "5a2dc6aa",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "family": "5a2dc6aa",
+    "model_type": "d669f408",
+    "description": "67411e3e",
+    "release_date": "d032c55c",
+    "page_url": "eaeb54b8",
+    "tagline": "67411e3e",
+    "context_window": "6ea395a4",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
+  },
+  "family": "glm-4.6",
+  "model_type": "chat",
+  "description": "Advanced agentic, reasoning and coding capabilities.",
+  "release_date": "2025-09-29",
+  "page_url": "https://ollama.com/library/glm-4.6",
+  "tagline": "Advanced agentic, reasoning and coding capabilities.",
+  "context_window": 202752,
+  "license": "open-weight",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

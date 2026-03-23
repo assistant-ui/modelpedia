@@ -3,7 +3,7 @@
   "name": "embeddinggemma-300m",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "model_type": "embed",
   "capabilities": {
     "streaming": true
@@ -11,6 +11,12 @@
   "_generated": {
     "name": "7768dbf1",
     "model_type": "764cb3de",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "family": "764cb3de",
+    "status": "379ac110",
+    "page_url": "05c31372"
+  },
+  "family": "embed",
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#embeddinggemma-300m"
 }

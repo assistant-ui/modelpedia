@@ -3,7 +3,7 @@
   "name": "gpt-4-1106-vision-preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4",
   "status": "active",
   "knowledge_cutoff": "2023-11",
@@ -22,15 +22,23 @@
   "endpoints": ["chat_completions", "responses", "assistants"],
   "_generated": {
     "name": "dd34bf1d",
+    "family": "1be4bcd3",
     "status": "379ac110",
+    "knowledge_cutoff": "d8e87106",
     "context_window": "34434798",
     "max_output_tokens": "f7efa4f8",
-    "knowledge_cutoff": "d8e87106",
     "performance": "c81e728d",
     "speed": "eccbc87e",
-    "family": "1be4bcd3",
     "capabilities": "9c665f5d",
     "modalities": "6399757e",
-    "endpoints": "5ea7876b"
-  }
+    "endpoints": "5ea7876b",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "faefa71c",
+    "open_weight": "68934a3e"
+  },
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-4-1106-vision-preview",
+  "open_weight": false
 }

@@ -1,6 +1,7 @@
 import { fetchText } from "./parse.ts";
 import {
   inferFamily,
+  inferParameters,
   type ModelEntry,
   readSources,
   runGenerate,
@@ -81,12 +82,18 @@ async function main() {
 
   let written = 0;
   for (const name of chatModels) {
+    const params = inferParameters(name);
+
     const entry: ModelEntry = {
       id: name,
       name,
       created_by: extractCreator(name),
       family: inferFamily(name),
       capabilities: { streaming: true },
+      modalities: { input: ["text"], output: ["text"] },
+      open_weight: true,
+      parameters: params?.parameters,
+      active_parameters: params?.active_parameters,
     };
 
     written += upsertWithSnapshot("baseten", entry);

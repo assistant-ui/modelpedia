@@ -3,12 +3,18 @@
   "name": "melotts",
   "created_by": "myshell",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "e228484f",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "page_url": "2a7686d3"
+  },
+  "status": "active",
+  "model_type": "tts",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#melotts"
 }

@@ -1,6 +1,7 @@
 import { fetchText } from "./parse.ts";
 import {
   inferFamily,
+  inferParameters,
   type ModelEntry,
   readSources,
   runGenerate,
@@ -68,6 +69,21 @@ function parseTags(tags: string): Record<string, boolean> {
   return caps;
 }
 
+/** Map Vercel type column values to model_type. */
+const TYPE_MAP: Record<string, string> = {
+  chat: "chat",
+  completion: "chat",
+  embedding: "embed",
+  image: "image",
+  transcription: "transcription",
+  "speech-to-text": "transcription",
+  object: "chat",
+};
+
+function mapModelType(vercelType: string): string | undefined {
+  return TYPE_MAP[vercelType.toLowerCase()];
+}
+
 async function main() {
   console.log("Fetching Vercel AI Gateway models...");
 
@@ -87,7 +103,7 @@ async function main() {
     const cells = line.split("|").map((c) => c.trim());
     // cells: ["", model, type, context, input, output, providers, tags, ""]
     const modelId = cells[1];
-    const _modelType = cells[2];
+    const modelType = cells[2];
     const context = cells[3];
     const inputPrice = cells[4];
     const outputPrice = cells[5];
@@ -107,6 +123,18 @@ async function main() {
       context_window: parseContext(context),
       capabilities: parseTags(tags),
     };
+
+    if (modelType) {
+      const mapped = mapModelType(modelType);
+      if (mapped) entry.model_type = mapped as ModelEntry["model_type"];
+    }
+
+    const params = inferParameters(modelId);
+    if (params) {
+      entry.parameters = params.parameters;
+      if (params.active_parameters)
+        entry.active_parameters = params.active_parameters;
+    }
 
     const inp = parseDollar(inputPrice);
     const out = parseDollar(outputPrice);

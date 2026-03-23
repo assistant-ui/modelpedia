@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen VL Plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen",
   "description": "Qwen's Enhanced Large Visual Language Model.",
   "context_window": 131072,
@@ -22,14 +22,18 @@
   },
   "_generated": {
     "name": "a599cc7f",
+    "family": "a3af76f3",
     "description": "d2245f48",
     "context_window": "f7de594e",
     "max_output_tokens": "77441296",
-    "family": "a3af76f3",
-    "pricing": "d5c6ff2a",
-    "capabilities": "c8033cf7",
     "modalities": "6399757e",
-    "model_type": "d669f408"
+    "capabilities": "c8033cf7",
+    "pricing": "d5c6ff2a",
+    "model_type": "d669f408",
+    "release_date": "6d791f55",
+    "tagline": "d2245f48"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "release_date": "2025-02-05",
+  "tagline": "Qwen's Enhanced Large Visual Language Model."
 }

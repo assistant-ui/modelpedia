@@ -15,5 +15,7 @@
     "capabilities": "48995a4e",
     "model_type": "17475f7f"
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "family": "grok-4",
+  "license": "proprietary"
 }

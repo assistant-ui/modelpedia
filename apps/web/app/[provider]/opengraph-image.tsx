@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { Logo } from "@/components/shared/logo";
 import { getProvider } from "@/lib/data";
 import { regionFlag } from "@/lib/format";
 
@@ -30,7 +31,7 @@ export default async function OGImage({
       >
         Not Found
       </div>,
-      { ...size },
+      size,
     );
   }
 
@@ -59,22 +60,7 @@ export default async function OGImage({
       }}
     >
       <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-        <div
-          style={{
-            display: "flex",
-            width: 36,
-            height: 36,
-            borderRadius: 8,
-            background: "#fafafa",
-            alignItems: "center",
-            justifyContent: "center",
-            fontSize: 18,
-            fontWeight: 700,
-            color: "#0a0a0b",
-          }}
-        >
-          M
-        </div>
+        <Logo size={36} color="#fafafa" />
         <div style={{ display: "flex", fontSize: 18, color: "#71717a" }}>
           modelpedia.dev
         </div>
@@ -134,6 +120,6 @@ export default async function OGImage({
         ))}
       </div>
     </div>,
-    { ...size },
+    size,
   );
 }

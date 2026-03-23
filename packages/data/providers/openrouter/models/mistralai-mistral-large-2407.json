@@ -3,7 +3,7 @@
   "name": "Mistral Large 2407",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "mistral-large",
   "description": "This is Mistral AI's flagship model, Mistral Large 2 (version mistral-large-2407).",
   "context_window": 131072,
@@ -22,13 +22,20 @@
   },
   "_generated": {
     "name": "b9cd72d3",
+    "family": "70f9d51d",
     "description": "76d602a1",
     "context_window": "f7de594e",
-    "family": "70f9d51d",
-    "pricing": "9277b5ca",
-    "capabilities": "ad177261",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "capabilities": "ad177261",
+    "pricing": "9277b5ca",
+    "model_type": "d669f408",
+    "release_date": "603a9d41",
+    "tagline": "76d602a1",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "release_date": "2024-11-19",
+  "alias": "mistralai/mistral-large",
+  "tagline": "This is Mistral AI's flagship model, Mistral Large 2 (version mistral-large-2407).",
+  "tools": ["function_calling"]
 }

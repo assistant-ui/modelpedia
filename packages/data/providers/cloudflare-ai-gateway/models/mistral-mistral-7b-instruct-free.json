@@ -8,5 +8,7 @@
   "_generated": {
     "name": "6d36804e",
     "model_type": "d669f408"
-  }
+  },
+  "family": "mistral-7b",
+  "parameters": 7
 }

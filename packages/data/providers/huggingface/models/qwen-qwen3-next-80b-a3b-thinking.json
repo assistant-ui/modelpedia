@@ -3,14 +3,37 @@
   "name": "Qwen3-Next-80B-A3B-Thinking",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "cbb086f1",
-    "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "f033ab37",
+    "active_parameters": "eccbc87e",
+    "page_url": "3d761429",
+    "description": "c7fde542",
+    "release_date": "1c1c95de",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "tagline": "7bcbf06f",
+    "architecture": "31b2172c",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 80,
+  "active_parameters": 3,
+  "page_url": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking",
+  "description": "Over the past few months, we have observed increasingly clear trends toward scaling both total parameters and context lengths in the pursuit of more powerful and agentic artificial intelligence (AI). We are excited to share our latest advancements in addressing these demands, centered on improving scaling efficiency through innovative model architecture. We call this next-generation foundation models **Qwen3-Next**.",
+  "release_date": "2025-09-09",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "tagline": "Over the past few months, we have observed increasingly clear trends toward scaling both total parameters and context lengths in the pursuit of more powerful and agentic artificial intelligence (AI).",
+  "architecture": "moe",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

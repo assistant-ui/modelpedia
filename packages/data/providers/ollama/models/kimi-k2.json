@@ -3,14 +3,37 @@
   "name": "kimi-k2",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "0f7256d5",
     "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "family": "0f7256d5",
+    "description": "f7685244",
+    "release_date": "4c7c3b08",
+    "parameters": "a9b7ba70",
+    "page_url": "8dd8c212",
+    "tagline": "41afb79d",
+    "context_window": "4a1d32eb",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "kimi-k2",
+  "description": "A state-of-the-art mixture-of-experts (MoE) language model. Kimi K2-Instruct-0905 demonstrates significant improvements in performance on public benchmarks and real-world coding agent tasks.",
+  "release_date": "2025-09-05",
+  "parameters": 1000,
+  "page_url": "https://ollama.com/library/kimi-k2",
+  "tagline": "A state-of-the-art mixture-of-experts (MoE) language model.",
+  "context_window": 262144,
+  "license": "open-weight",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

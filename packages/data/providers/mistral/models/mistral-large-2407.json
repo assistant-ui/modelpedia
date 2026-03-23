@@ -3,7 +3,7 @@
   "name": "mistral-large-2407",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "mistral-large",
   "status": "deprecated",
   "deprecation_date": "2024-11-30",
@@ -22,14 +22,20 @@
   },
   "_generated": {
     "name": "75e8911a",
-    "status": "2e2f74dc",
-    "context_window": "34434798",
-    "deprecation_date": "05154b0e",
     "family": "70f9d51d",
-    "pricing": "e205efd3",
+    "status": "2e2f74dc",
+    "deprecation_date": "05154b0e",
+    "context_window": "34434798",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "pricing": "e205efd3",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "page_url": "b6105f66",
+    "open_weight": "b326b506"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/mistral-large-2-0-24-07",
+  "open_weight": true
 }

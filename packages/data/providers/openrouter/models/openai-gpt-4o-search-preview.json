@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-4o Search Preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4o",
   "description": "GPT-4o Search Previewis a specialized model for web search in Chat Completions.",
   "context_window": 128000,
@@ -21,12 +21,18 @@
   },
   "_generated": {
     "name": "8f42f737",
+    "family": "15249632",
     "description": "5d657212",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
-    "family": "15249632",
-    "pricing": "cf1c6d02",
+    "modalities": "68e53d93",
     "capabilities": "c8033cf7",
-    "modalities": "68e53d93"
-  }
+    "pricing": "cf1c6d02",
+    "model_type": "d669f408",
+    "release_date": "826a3ce0",
+    "tagline": "5d657212"
+  },
+  "model_type": "chat",
+  "release_date": "2025-03-12",
+  "tagline": "GPT-4o Search Previewis a specialized model for web search in Chat Completions."
 }

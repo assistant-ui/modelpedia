@@ -3,7 +3,7 @@
   "name": "Llama-3.2-1B-Instruct-QLORA_INT4_EO8",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 131072,
   "capabilities": {
     "streaming": true,
@@ -17,6 +17,26 @@
     "name": "8bb6031c",
     "context_window": "f7de594e",
     "capabilities": "48995a4e",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "family": "40d4d5fc",
+    "model_type": "d669f408",
+    "license": "8c002029",
+    "parameters": "c4ca4238",
+    "page_url": "346400d1",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "release_date": "635c1b6e",
+    "knowledge_cutoff": "37a6259c",
+    "max_output_tokens": "f7de594e"
+  },
+  "family": "Llama-3.2",
+  "model_type": "chat",
+  "license": "llama3.2",
+  "parameters": 1,
+  "page_url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct-QLORA_INT4_EO8",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "release_date": "2024-10-23",
+  "knowledge_cutoff": null,
+  "max_output_tokens": 131072
 }

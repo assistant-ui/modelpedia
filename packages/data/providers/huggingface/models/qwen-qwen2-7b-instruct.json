@@ -3,14 +3,31 @@
   "name": "Qwen2-7B-Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "65e4afbe",
-    "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "5960276c",
+    "page_url": "ec0cf787",
+    "release_date": "d88c98b1",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 7.6,
+  "page_url": "https://huggingface.co/Qwen/Qwen2-7B-Instruct",
+  "release_date": "2024-06-04",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

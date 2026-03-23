@@ -1,0 +1,39 @@
+{
+  "id": "mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated",
+  "name": "Meta-Llama-3.1-8B-Instruct-abliterated",
+  "created_by": "mlabonne",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "Llama-3.1",
+  "page_url": "https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "_generated": {
+    "name": "837e9b88",
+    "family": "6cef7f07",
+    "page_url": "ebb64551",
+    "model_type": "d669f408",
+    "capabilities": "48995a4e",
+    "description": "bc03ff76",
+    "release_date": "c01007e5",
+    "context_window": "f7de594e",
+    "license": "2464c384",
+    "parameters": "c9f0f895",
+    "tagline": "bc03ff76",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "description": "This is an uncensored version of Llama 3.1 8B Instruct created with abliteration (see [this article](https://huggingface.co/blog/mlabonne/abliteration) to know more about it).",
+  "release_date": "2024-07-24",
+  "context_window": 131072,
+  "license": "llama3.1",
+  "parameters": 8,
+  "tagline": "This is an uncensored version of Llama 3.1 8B Instruct created with abliteration (see [this article](https://huggingface.co/blog/mlabonne/abliteration) to know more about it).",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
+}

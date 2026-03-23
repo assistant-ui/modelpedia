@@ -3,7 +3,7 @@
   "name": "qwen-image-2.0-pro",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwen",
   "model_type": "chat",
   "capabilities": {
@@ -21,6 +21,10 @@
     "model_type": "d669f408",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
-    "endpoints": "75df3f1c"
-  }
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "open_weight": "b326b506"
+  },
+  "license": "apache-2.0",
+  "open_weight": true
 }

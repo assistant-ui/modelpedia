@@ -4,11 +4,11 @@ import { Tooltip as BaseTooltip } from "@base-ui/react/tooltip";
 import type { ReactElement, ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
-function TooltipProvider({ children }: { children: ReactNode }) {
+export function TooltipProvider({ children }: { children: ReactNode }) {
   return <BaseTooltip.Provider delay={200}>{children}</BaseTooltip.Provider>;
 }
 
-function Tooltip({
+export function Tooltip({
   children,
   content,
   side,
@@ -42,5 +42,3 @@ function Tooltip({
     </BaseTooltip.Root>
   );
 }
-
-export { Tooltip, TooltipProvider };

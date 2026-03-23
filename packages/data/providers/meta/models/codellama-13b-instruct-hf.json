@@ -3,7 +3,7 @@
   "name": "CodeLlama-13b-Instruct-hf",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -15,6 +15,24 @@
   "_generated": {
     "name": "f5bf162e",
     "capabilities": "48995a4e",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "family": "cf323e30",
+    "model_type": "b6cc3ff4",
+    "license": "5e554d0d",
+    "parameters": "c51ce410",
+    "page_url": "f65ec70a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "release_date": "0c8576fe",
+    "knowledge_cutoff": "37a6259c"
+  },
+  "family": "codellama",
+  "model_type": "code",
+  "license": "llama2",
+  "parameters": 13,
+  "page_url": "https://huggingface.co/meta-llama/CodeLlama-13b-Instruct-hf",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "release_date": "2024-03-13",
+  "knowledge_cutoff": null
 }

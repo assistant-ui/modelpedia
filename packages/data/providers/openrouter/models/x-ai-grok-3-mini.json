@@ -3,7 +3,7 @@
   "name": "xAI: Grok 3 Mini",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "grok-3",
   "description": "A lightweight model that thinks before responding.",
   "context_window": 131072,
@@ -23,11 +23,19 @@
   },
   "_generated": {
     "name": "741d0cd8",
+    "family": "c41798c6",
     "description": "4531f4c2",
     "context_window": "f7de594e",
-    "family": "c41798c6",
-    "pricing": "17fa057e",
+    "modalities": "68e53d93",
     "capabilities": "f533f522",
-    "modalities": "68e53d93"
-  }
+    "pricing": "17fa057e",
+    "model_type": "d669f408",
+    "release_date": "298b4e52",
+    "tagline": "4531f4c2",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-06-10",
+  "tagline": "A lightweight model that thinks before responding.",
+  "tools": ["function_calling"]
 }

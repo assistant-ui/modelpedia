@@ -13,5 +13,7 @@
     "name": "77bb600d",
     "family": "48c385a0",
     "pricing": "8cdaccf7"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 14
 }

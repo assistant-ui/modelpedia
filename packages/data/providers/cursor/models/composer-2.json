@@ -3,7 +3,7 @@
   "name": "Composer 2",
   "created_by": "cursor",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -24,11 +24,17 @@
   "speed": 4,
   "_generated": {
     "name": "271866cc",
+    "capabilities": "7ca28ec9",
+    "modalities": "6399757e",
+    "pricing": "785da582",
     "context_window": "03e6c616",
     "performance": "e4da3b7f",
     "speed": "a87ff679",
-    "pricing": "785da582",
-    "capabilities": "7ca28ec9",
-    "modalities": "6399757e"
-  }
+    "tools": "f0c1dc7e",
+    "page_url": "84f0bf03",
+    "model_type": "d669f408"
+  },
+  "tools": ["function_calling"],
+  "page_url": "https://cursor.com/docs/models-and-pricing#cursor-composer-2",
+  "model_type": "chat"
 }

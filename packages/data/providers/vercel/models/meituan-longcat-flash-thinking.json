@@ -3,7 +3,7 @@
   "name": "longcat-flash-thinking-2601",
   "created_by": "meituan",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 32800,
   "capabilities": {
     "streaming": true,
@@ -18,7 +18,9 @@
   "_generated": {
     "name": "94ab86ea",
     "context_window": "74a190a6",
+    "capabilities": "a281e83a",
     "pricing": "9a7a9781",
-    "capabilities": "a281e83a"
-  }
+    "tools": "f0c1dc7e"
+  },
+  "tools": ["function_calling"]
 }

@@ -3,13 +3,15 @@
   "name": "Azure OpenAI: phi-3.5-mini-instruct",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 0.13,
     "output": 0.52
   },
   "_generated": {
     "name": "7c45740d",
-    "pricing": "61102b35"
-  }
+    "pricing": "61102b35",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

@@ -3,7 +3,7 @@
   "name": "gpt-4-0613",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4",
   "status": "active",
   "knowledge_cutoff": "2023-11",
@@ -28,15 +28,23 @@
   ],
   "_generated": {
     "name": "9ad9c863",
+    "family": "1be4bcd3",
     "status": "379ac110",
+    "knowledge_cutoff": "d8e87106",
     "context_window": "77441296",
     "max_output_tokens": "77441296",
-    "knowledge_cutoff": "d8e87106",
     "performance": "c81e728d",
     "speed": "eccbc87e",
-    "family": "1be4bcd3",
     "capabilities": "9c665f5d",
     "modalities": "68e53d93",
-    "endpoints": "ebc03c48"
-  }
+    "endpoints": "ebc03c48",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "cae9cf46",
+    "open_weight": "68934a3e"
+  },
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-4-0613",
+  "open_weight": false
 }

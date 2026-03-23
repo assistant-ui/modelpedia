@@ -3,7 +3,7 @@
   "name": "mistral-small",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "mistral-small",
   "context_window": 32000,
   "capabilities": {
@@ -17,11 +17,13 @@
   },
   "_generated": {
     "name": "275918a5",
-    "context_window": "10e4d788",
     "family": "275918a5",
-    "pricing": "53952343",
+    "context_window": "10e4d788",
     "capabilities": "fc36814c",
-    "model_type": "d669f408"
+    "pricing": "53952343",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "pixtral-large-2411",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "pixtral",
   "status": "active",
   "context_window": 128000,
@@ -22,13 +22,19 @@
   },
   "_generated": {
     "name": "ed5de2b3",
+    "family": "c606df51",
     "status": "379ac110",
     "context_window": "34434798",
-    "family": "c606df51",
-    "pricing": "e205efd3",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
-    "model_type": "d669f408"
+    "pricing": "e205efd3",
+    "model_type": "d669f408",
+    "license": "ab728f55",
+    "page_url": "a3a96493",
+    "open_weight": "b326b506"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "license": "mnpl",
+  "page_url": "https://docs.mistral.ai/models/pixtral-large-24-11",
+  "open_weight": true
 }

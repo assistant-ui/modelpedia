@@ -3,14 +3,15 @@
   "name": "GLM-4.7-Flash",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 200000,
   "max_output_tokens": 128000,
   "capabilities": {
     "streaming": true,
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "prompt_caching": true
   },
   "modalities": {
     "input": ["text"],
@@ -20,7 +21,29 @@
     "name": "55eb0a7f",
     "context_window": "03e6c616",
     "max_output_tokens": "34434798",
-    "capabilities": "0946b777",
-    "modalities": "68e53d93"
+    "capabilities": "97babf9a",
+    "modalities": "68e53d93",
+    "family": "02d3d929",
+    "model_type": "d669f408",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "description": "b51cfad7",
+    "page_url": "7e3aef75",
+    "tagline": "b51cfad7",
+    "pricing": "d7e97780"
+  },
+  "family": "glm-4.7",
+  "model_type": "chat",
+  "license": "mit",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "description": "GLM-4.7-Flash: Lightweight, Completely Free",
+  "page_url": "https://docs.z.ai/guides/llm/glm-4.7",
+  "tagline": "GLM-4.7-Flash: Lightweight, Completely Free",
+  "pricing": {
+    "input": 0,
+    "output": 0,
+    "cached_input": 0
   }
 }

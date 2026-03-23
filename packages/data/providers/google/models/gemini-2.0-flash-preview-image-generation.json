@@ -3,7 +3,7 @@
   "name": "gemini-2.0-flash-preview-image-generation",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "gemini-2.0",
   "status": "deprecated",
   "deprecation_date": "2025-11-14",
@@ -18,11 +18,17 @@
   },
   "_generated": {
     "name": "f28331b5",
+    "family": "dc4aadf6",
     "status": "2e2f74dc",
     "deprecation_date": "f42724e5",
     "successor": "418971ef",
-    "family": "dc4aadf6",
     "capabilities": "8a3b232e",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
+  },
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false
 }

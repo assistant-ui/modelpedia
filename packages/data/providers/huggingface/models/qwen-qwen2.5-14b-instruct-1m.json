@@ -3,12 +3,31 @@
   "name": "Qwen2.5-14B-Instruct-1M",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "7e7b4d16",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "9bf31c7f",
+    "page_url": "e5844502",
+    "release_date": "95a78e49",
+    "context_window": "689f147b",
+    "license": "60245731",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 15,
+  "page_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-1M",
+  "release_date": "2025-01-23",
+  "context_window": 1010000,
+  "license": "apache-2.0",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

@@ -19,5 +19,6 @@
     "family": "eb14e598",
     "pricing": "0aef5f9c",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "model_type": "chat"
 }

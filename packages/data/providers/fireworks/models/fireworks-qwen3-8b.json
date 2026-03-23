@@ -3,7 +3,7 @@
   "name": "qwen3-8b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "context_window": 41000,
   "capabilities": {
@@ -11,13 +11,20 @@
   },
   "pricing": {
     "input": 0.2,
-    "output": 0.2
+    "output": 0.2,
+    "cached_input": 0.1
   },
   "_generated": {
     "name": "8c32ff21",
-    "context_window": "225178b1",
     "family": "48c385a0",
-    "pricing": "ee3b139d",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "225178b1",
+    "capabilities": "0fa77dc6",
+    "pricing": "49996ce3",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "page_url": "afd7da3e"
+  },
+  "model_type": "chat",
+  "parameters": 8,
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3-8b"
 }

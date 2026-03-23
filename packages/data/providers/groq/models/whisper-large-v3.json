@@ -3,7 +3,7 @@
   "name": "Whisper",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "whisper",
   "status": "active",
   "model_type": "transcription",
@@ -13,9 +13,11 @@
   },
   "_generated": {
     "name": "b2e4cdb6",
+    "family": "7fbc43e3",
     "status": "379ac110",
     "model_type": "5e12d29a",
-    "family": "7fbc43e3",
-    "modalities": "b8e84832"
-  }
+    "modalities": "b8e84832",
+    "page_url": "8a637f48"
+  },
+  "page_url": "https://console.groq.com/docs/models#whisper-large-v3"
 }

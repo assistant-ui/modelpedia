@@ -3,7 +3,7 @@
   "name": "qwen-3-235b-a22b-thinking-2507",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwen",
   "status": "deprecated",
   "deprecation_date": "2025-11-14",
@@ -20,6 +20,12 @@
     "deprecation_date": "f42724e5",
     "model_type": "d669f408",
     "successor": "7beed575",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "open_weight": "b326b506"
+  },
+  "parameters": 235,
+  "active_parameters": 22,
+  "open_weight": true
 }

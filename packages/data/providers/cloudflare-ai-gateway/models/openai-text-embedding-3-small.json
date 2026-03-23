@@ -13,5 +13,6 @@
     "name": "d21de347",
     "model_type": "764cb3de",
     "pricing": "8d85a56c"
-  }
+  },
+  "family": "text-embedding"
 }

@@ -3,13 +3,19 @@
   "name": "OpenRouter: moonshotai/kimi-dev-72b",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 0.29,
     "output": 1.15
   },
   "_generated": {
     "name": "e136796b",
-    "pricing": "0d924da4"
-  }
+    "pricing": "0d924da4",
+    "family": "0740f86b",
+    "model_type": "d669f408",
+    "parameters": "32bb90e8"
+  },
+  "family": "kimi",
+  "model_type": "chat",
+  "parameters": 72
 }

@@ -3,7 +3,7 @@
   "name": "tts-hd",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
@@ -14,8 +14,14 @@
   "model_type": "tts",
   "_generated": {
     "name": "2d83c7da",
-    "model_type": "4e16a2cf",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "4e16a2cf",
+    "family": "4e16a2cf",
+    "description": "d70921d6",
+    "tagline": "d70921d6"
+  },
+  "family": "tts",
+  "description": "Text-to-speech model optimized for quality.",
+  "tagline": "Text-to-speech model optimized for quality."
 }

@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 Max Thinking",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "description": "Qwen3-Max-Thinking is the flagship reasoning model in the Qwen3 series, designed for high-stakes cognitive tasks that require deep, multi-step reasoning.",
   "context_window": 262144,
@@ -23,14 +23,20 @@
   },
   "_generated": {
     "name": "6f6647ec",
+    "family": "48c385a0",
     "description": "e20aee28",
     "context_window": "4a1d32eb",
     "max_output_tokens": "f4376436",
-    "family": "48c385a0",
-    "pricing": "ae8907c8",
-    "capabilities": "f533f522",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "capabilities": "f533f522",
+    "pricing": "ae8907c8",
+    "model_type": "d669f408",
+    "release_date": "4b53817b",
+    "tagline": "e20aee28",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "release_date": "2026-02-09",
+  "tagline": "Qwen3-Max-Thinking is the flagship reasoning model in the Qwen3 series, designed for high-stakes cognitive tasks that require deep, multi-step reasoning.",
+  "tools": ["function_calling"]
 }

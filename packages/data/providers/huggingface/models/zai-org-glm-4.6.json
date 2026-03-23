@@ -3,12 +3,37 @@
   "name": "GLM-4.6",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "0c51745a",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "family": "0c51745a",
+    "model_type": "d669f408",
+    "page_url": "de18f32f",
+    "description": "686623aa",
+    "release_date": "d032c55c",
+    "context_window": "6ea395a4",
+    "license": "3c4c3ba5",
+    "parameters": "fb7b9ffa",
+    "tagline": "686623aa",
+    "architecture": "31b2172c",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "family": "GLM-4.6",
+  "model_type": "chat",
+  "page_url": "https://huggingface.co/zai-org/GLM-4.6",
+  "description": "👋 Join our <a href=\"https://discord.gg/QR7SARHRxK\" target=\"_blank\">Discord</a> community.",
+  "release_date": "2025-09-29",
+  "context_window": 202752,
+  "license": "mit",
+  "parameters": 357,
+  "tagline": "👋 Join our <a href=\"https://discord.gg/QR7SARHRxK\" target=\"_blank\">Discord</a> community.",
+  "architecture": "moe",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

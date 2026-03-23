@@ -1,9 +1,9 @@
 import { type ComponentProps, forwardRef } from "react";
 import { cn } from "@/lib/cn";
 
-const Table = forwardRef<HTMLTableElement, ComponentProps<"table">>(
+export const Table = forwardRef<HTMLTableElement, ComponentProps<"table">>(
   ({ className, ...props }, ref) => (
-    <div className="relative w-full overflow-auto">
+    <div className="relative w-full overflow-hidden">
       <table
         ref={ref}
         className={cn("w-full caption-bottom text-sm", className)}
@@ -14,7 +14,7 @@ const Table = forwardRef<HTMLTableElement, ComponentProps<"table">>(
 );
 Table.displayName = "Table";
 
-const TableHeader = forwardRef<
+export const TableHeader = forwardRef<
   HTMLTableSectionElement,
   ComponentProps<"thead">
 >(({ className, ...props }, ref) => (
@@ -22,18 +22,19 @@ const TableHeader = forwardRef<
 ));
 TableHeader.displayName = "TableHeader";
 
-const TableBody = forwardRef<HTMLTableSectionElement, ComponentProps<"tbody">>(
-  ({ className, ...props }, ref) => (
-    <tbody
-      ref={ref}
-      className={cn("[&_tr:last-child]:border-0", className)}
-      {...props}
-    />
-  ),
-);
+export const TableBody = forwardRef<
+  HTMLTableSectionElement,
+  ComponentProps<"tbody">
+>(({ className, ...props }, ref) => (
+  <tbody
+    ref={ref}
+    className={cn("[&_tr:last-child]:border-0", className)}
+    {...props}
+  />
+));
 TableBody.displayName = "TableBody";
 
-const TableRow = forwardRef<HTMLTableRowElement, ComponentProps<"tr">>(
+export const TableRow = forwardRef<HTMLTableRowElement, ComponentProps<"tr">>(
   ({ className, ...props }, ref) => (
     <tr
       ref={ref}
@@ -47,7 +48,7 @@ const TableRow = forwardRef<HTMLTableRowElement, ComponentProps<"tr">>(
 );
 TableRow.displayName = "TableRow";
 
-const TableHead = forwardRef<HTMLTableCellElement, ComponentProps<"th">>(
+export const TableHead = forwardRef<HTMLTableCellElement, ComponentProps<"th">>(
   ({ className, ...props }, ref) => (
     <th
       ref={ref}
@@ -61,7 +62,7 @@ const TableHead = forwardRef<HTMLTableCellElement, ComponentProps<"th">>(
 );
 TableHead.displayName = "TableHead";
 
-const TableCell = forwardRef<HTMLTableCellElement, ComponentProps<"td">>(
+export const TableCell = forwardRef<HTMLTableCellElement, ComponentProps<"td">>(
   ({ className, ...props }, ref) => (
     <td
       ref={ref}
@@ -74,5 +75,3 @@ const TableCell = forwardRef<HTMLTableCellElement, ComponentProps<"td">>(
   ),
 );
 TableCell.displayName = "TableCell";
-
-export { Table, TableBody, TableCell, TableHead, TableHeader, TableRow };

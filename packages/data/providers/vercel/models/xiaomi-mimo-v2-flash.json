@@ -3,7 +3,7 @@
   "name": "mimo-v2-flash",
   "created_by": "xiaomi",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 262100,
   "capabilities": {
     "streaming": true,
@@ -17,7 +17,9 @@
   "_generated": {
     "name": "c80315f5",
     "context_window": "b23f4471",
+    "capabilities": "a281e83a",
     "pricing": "53952343",
-    "capabilities": "a281e83a"
-  }
+    "tools": "f0c1dc7e"
+  },
+  "tools": ["function_calling"]
 }
