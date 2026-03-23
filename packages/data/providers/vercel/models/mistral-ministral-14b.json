@@ -3,7 +3,7 @@
   "name": "ministral-14b",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "ministral",
   "context_window": 256000,
   "capabilities": {
@@ -16,12 +16,18 @@
   },
   "_generated": {
     "name": "0c244f8b",
-    "context_window": "2fd324cb",
     "family": "d6661e63",
-    "pricing": "ee3b139d",
+    "context_window": "2fd324cb",
     "capabilities": "8a3b232e",
-    "model_type": "d669f408"
+    "pricing": "ee3b139d",
+    "model_type": "d669f408",
+    "parameters": "aab32389",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 14
+  "parameters": 14,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

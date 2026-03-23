@@ -9,7 +9,8 @@
   "context_window": 256000,
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -25,15 +26,21 @@
     "family": "e626e93e",
     "status": "379ac110",
     "context_window": "2fd324cb",
-    "capabilities": "8a3b232e",
+    "capabilities": "fc36814c",
     "modalities": "6399757e",
     "pricing": "70b90c36",
     "model_type": "b6cc3ff4",
     "license": "9186c466",
     "page_url": "7ac52d6f",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "79ce2d31",
+    "tagline": "79ce2d31",
+    "tools": "f0c1dc7e"
   },
   "license": "proprietary",
   "page_url": "https://docs.mistral.ai/models/devstral-2-25-12",
-  "open_weight": false
+  "open_weight": false,
+  "description": "Our frontier code agents model for solving software engineering tasks; excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
+  "tagline": "Our frontier code agents model for solving software engineering tasks; excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
+  "tools": ["function_calling"]
 }

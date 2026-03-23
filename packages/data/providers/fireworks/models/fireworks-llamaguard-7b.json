@@ -22,9 +22,14 @@
     "model_type": "1e7a7b87",
     "family": "3190be28",
     "parameters": "8f14e45f",
-    "page_url": "5e97cee9"
+    "page_url": "5e97cee9",
+    "modalities": "68e53d93"
   },
   "family": "llama-guard",
   "parameters": 7,
-  "page_url": "https://fireworks.ai/models/fireworks/llamaguard-7b"
+  "page_url": "https://fireworks.ai/models/fireworks/llamaguard-7b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

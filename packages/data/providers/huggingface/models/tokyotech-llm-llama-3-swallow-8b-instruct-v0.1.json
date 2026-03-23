@@ -22,7 +22,8 @@
     "tagline": "8f8e123b",
     "architecture": "8832ea0f",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "family": "Llama-3",
   "model_type": "chat",
@@ -35,5 +36,9 @@
   "tagline": "Our Swallow model has undergone continual pre-training from the [Llama 3 family](https://huggingface.co/collections/meta-llama/meta-llama-3-66214712577ca38149ebb2b6), primarily with the addition of Japanese language data.",
   "architecture": "transformer",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

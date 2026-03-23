@@ -21,9 +21,14 @@
     "pricing": "cb03f68e",
     "model_type": "d669f408",
     "family": "75e1af53",
-    "page_url": "242666e6"
+    "page_url": "242666e6",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "family": "mistral-nemo",
-  "page_url": "https://fireworks.ai/models/fireworks/mistral-nemo-base-2407"
+  "page_url": "https://fireworks.ai/models/fireworks/mistral-nemo-base-2407",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -27,8 +27,14 @@
     "modalities": "68e53d93",
     "endpoints": "75df3f1c",
     "license": "60245731",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "2375fe80",
+    "page_url": "23162829",
+    "tagline": "0ad205d1"
   },
   "license": "apache-2.0",
-  "open_weight": true
+  "open_weight": true,
+  "description": "QwQ is a reasoning model trained on the Qwen2.5 base and significantly enhanced through reinforcement learning. It achieves performance comparable to the full-capacity DeepSeek-R1 on core metrics, such as AIME 24/25 and LiveCodeBench, and on certain general benchmarks, such as IFEval and LiveBench. [Usage](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are both located in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide (excluding Chinese Mainland).",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "tagline": "QwQ is a reasoning model trained on the Qwen2.5 base and significantly enhanced through reinforcement learning."
 }

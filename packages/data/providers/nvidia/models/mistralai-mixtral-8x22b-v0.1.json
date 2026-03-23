@@ -3,7 +3,7 @@
   "name": "mixtral-8x22b-v0.1",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "mixtral",
   "capabilities": {
     "streaming": true
@@ -11,7 +11,13 @@
   "_generated": {
     "name": "0b6991d8",
     "family": "3c47d372",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

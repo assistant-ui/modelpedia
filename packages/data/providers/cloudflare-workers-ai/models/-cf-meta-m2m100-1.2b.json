@@ -13,10 +13,15 @@
     "parameters": "56765472",
     "status": "379ac110",
     "model_type": "5c212ca7",
-    "page_url": "36ecf97f"
+    "page_url": "36ecf97f",
+    "modalities": "68e53d93"
   },
   "parameters": 1.2,
   "status": "active",
   "model_type": "translation",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#m2m100-1.2b"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#m2m100-1.2b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -4,7 +4,7 @@
   "created_by": "cohere",
   "source": "official",
   "last_updated": "2026-03-23",
-  "description": "N/A",
+  "description": "command-r7b-12-2024 is a small, fast update delivered in December 2024. It excels at RAG, tool use, agents, and similar tasks requiring complex reasoning and multiple steps.",
   "status": "active",
   "context_window": 128000,
   "max_output_tokens": 4000,
@@ -26,7 +26,7 @@
   "endpoints": ["chat"],
   "_generated": {
     "name": "ff113811",
-    "description": "4c512595",
+    "description": "00247484",
     "status": "379ac110",
     "context_window": "34434798",
     "max_output_tokens": "1bd69c7d",
@@ -39,10 +39,12 @@
     "family": "439d5b76",
     "license": "2c8e76b8",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "page_url": "87b70ed6"
   },
   "family": "command-r",
   "license": "cc-by-nc-4.0",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "page_url": "https://docs.cohere.com/docs/models#command-r7b-12-2024"
 }

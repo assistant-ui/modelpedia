@@ -20,7 +20,8 @@
     "context_window": "f7de594e",
     "tagline": "aebc4c06",
     "architecture": "8832ea0f",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "family": "Llama-3.2",
   "model_type": "chat",
@@ -31,5 +32,9 @@
   "context_window": 131072,
   "tagline": "This model is a fine-tuned version of [meta-llama/Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) on the [argilla-warehouse/apigen-smollm-trl-FC](https://huggingface.co/datasets/argilla-warehouse/apigen-smollm-trl-FC) dataset.",
   "architecture": "transformer",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

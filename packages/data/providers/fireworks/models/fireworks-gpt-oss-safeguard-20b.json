@@ -23,8 +23,13 @@
     "pricing": "cb03f68e",
     "model_type": "1e7a7b87",
     "parameters": "98f13708",
-    "page_url": "ef5a2204"
+    "page_url": "ef5a2204",
+    "modalities": "68e53d93"
   },
   "parameters": 20,
-  "page_url": "https://fireworks.ai/models/fireworks/gpt-oss-safeguard-20b"
+  "page_url": "https://fireworks.ai/models/fireworks/gpt-oss-safeguard-20b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

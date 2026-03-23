@@ -21,8 +21,18 @@
     "model_type": "d669f408",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
-    "endpoints": "75df3f1c"
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "provider": "a3af76f3",
+    "description": "99141dba",
+    "tagline": "c3dd529c",
+    "page_url": "23162829",
+    "open_weight": "b326b506"
   },
   "license": "apache-2.0",
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "Qwen text-to-image models excel at rendering complex text, especially bilingual Chinese-English text. [API reference](https://www.alibabacloud.com/help/en/document_detail/2975126.html) ## International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled globally, excluding Chinese Mainland.",
+  "tagline": "Qwen text-to-image models excel at rendering complex text, especially bilingual Chinese-English text.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": true
 }

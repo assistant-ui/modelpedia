@@ -22,9 +22,14 @@
     "pricing": "cb03f68e",
     "model_type": "17475f7f",
     "parameters": "7cbbc409",
-    "page_url": "bc1dfc85"
+    "page_url": "bc1dfc85",
+    "modalities": "68e53d93"
   },
   "model_type": "reasoning",
   "parameters": 70,
-  "page_url": "https://fireworks.ai/models/fireworks/deepseek-r1-distill-llama-70b"
+  "page_url": "https://fireworks.ai/models/fireworks/deepseek-r1-distill-llama-70b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

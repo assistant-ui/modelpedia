@@ -20,9 +20,14 @@
     "pricing": "cb03f68e",
     "model_type": "d669f408",
     "parameters": "7cbbc409",
-    "page_url": "f6c3a8ac"
+    "page_url": "f6c3a8ac",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 70,
-  "page_url": "https://fireworks.ai/models/fireworks/llama-v2-70b"
+  "page_url": "https://fireworks.ai/models/fireworks/llama-v2-70b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

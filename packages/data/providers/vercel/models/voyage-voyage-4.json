@@ -3,7 +3,7 @@
   "name": "voyage-4",
   "created_by": "voyage",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 32000,
   "capabilities": {
     "streaming": true
@@ -15,7 +15,9 @@
   "_generated": {
     "name": "b09ad972",
     "context_window": "10e4d788",
+    "capabilities": "0fa77dc6",
     "pricing": "7d2a4264",
-    "capabilities": "0fa77dc6"
-  }
+    "model_type": "764cb3de"
+  },
+  "model_type": "embed"
 }

@@ -23,10 +23,12 @@
     "parameters": "1ff1de77",
     "active_parameters": "c81e728d",
     "release_date": "f2b68600",
-    "tagline": "4972d99e"
+    "tagline": "4972d99e",
+    "model_type": "d669f408"
   },
   "parameters": 24,
   "active_parameters": 2,
   "release_date": "2026-02-25",
-  "tagline": "LFM2-24B-A2B is the largest model in the LFM2 family of hybrid architectures designed for efficient on-device deployment."
+  "tagline": "LFM2-24B-A2B is the largest model in the LFM2 family of hybrid architectures designed for efficient on-device deployment.",
+  "model_type": "chat"
 }

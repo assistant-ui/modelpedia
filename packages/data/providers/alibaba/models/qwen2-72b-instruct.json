@@ -27,9 +27,15 @@
     "endpoints": "75df3f1c",
     "license": "60245731",
     "parameters": "32bb90e8",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "3383c441",
+    "page_url": "23162829",
+    "tagline": "366b217c"
   },
   "license": "apache-2.0",
   "parameters": 72,
-  "open_weight": true
+  "open_weight": true,
+  "description": "The Qwen2 open-source model from Alibaba Cloud. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt)",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "tagline": "The Qwen2 open-source model from Alibaba Cloud."
 }

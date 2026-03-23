@@ -20,9 +20,14 @@
     "pricing": "2e5314e7",
     "family": "b85f9b4b",
     "model_type": "d669f408",
-    "page_url": "f47529d8"
+    "page_url": "f47529d8",
+    "modalities": "68e53d93"
   },
   "family": "glm-4",
   "model_type": "chat",
-  "page_url": "https://fireworks.ai/models/fireworks/glm-4p5-air"
+  "page_url": "https://fireworks.ai/models/fireworks/glm-4p5-air",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

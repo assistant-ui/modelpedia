@@ -18,7 +18,7 @@
   "pricing": {
     "input": 0.1,
     "output": 0.5,
-    "cached_input": 0.04
+    "cached_input": 0.1
   },
   "_generated": {
     "name": "49ce0060",
@@ -26,7 +26,7 @@
     "context_window": "4a1d32eb",
     "modalities": "68e53d93",
     "capabilities": "f533f522",
-    "pricing": "4d5d76eb",
+    "pricing": "82d280c1",
     "model_type": "d669f408",
     "parameters": "da4fb5c6",
     "active_parameters": "c20ad4d7",

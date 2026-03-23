@@ -14,9 +14,14 @@
     "capabilities": "a281e83a",
     "model_type": "17475f7f",
     "parameters": "a87ff679",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "model_type": "reasoning",
   "parameters": 4,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

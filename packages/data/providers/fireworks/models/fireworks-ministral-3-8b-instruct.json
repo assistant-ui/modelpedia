@@ -23,9 +23,14 @@
     "pricing": "cb03f68e",
     "model_type": "d669f408",
     "parameters": "c9f0f895",
-    "page_url": "581abdbc"
+    "page_url": "581abdbc",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 8,
-  "page_url": "https://fireworks.ai/models/fireworks/ministral-3-8b-instruct-2512"
+  "page_url": "https://fireworks.ai/models/fireworks/ministral-3-8b-instruct-2512",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

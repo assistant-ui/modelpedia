@@ -19,9 +19,14 @@
     "pricing": "e9d4566b",
     "family": "b85f9b4b",
     "model_type": "d669f408",
-    "page_url": "b024b9e6"
+    "page_url": "b024b9e6",
+    "modalities": "68e53d93"
   },
   "family": "glm-4",
   "model_type": "chat",
-  "page_url": "https://www.together.ai/models/glm-4-7"
+  "page_url": "https://www.together.ai/models/glm-4-7",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

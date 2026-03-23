@@ -33,9 +33,15 @@
     "endpoints": "75df3f1c",
     "license": "60245731",
     "parameters": "6364d3f0",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "5e82de74",
+    "page_url": "23162829",
+    "tagline": "3cfada54"
   },
   "license": "apache-2.0",
   "parameters": 32,
-  "open_weight": true
+  "open_weight": true,
+  "description": "QwQ is an inference model trained on Qwen2.5-32B. It uses reinforcement learning to significantly improve its reasoning ability. Its core metrics, including math and coding benchmarks (AIME 24/25, LiveCodeBench) and general benchmarks (IFEval, LiveBench), match those of the full DeepSeek-R1 model. Its performance on all metrics notably exceeds that of DeepSeek-R1-Distill-Qwen-32B, which is also based on Qwen2.5-32B. [Usage](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported. In this mode, the endpoint and data storage are located in the **Beijing region**, and inference computing resources are limited to Chinese Mainland.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "tagline": "QwQ is an inference model trained on Qwen2.5-32B."
 }

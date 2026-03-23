@@ -22,10 +22,23 @@
     "model_type": "17475f7f",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "description": "c28f2233",
+    "context_window": "34434798",
+    "tagline": "1a619b70",
+    "page_url": "9e7de306",
+    "modalities": "68e53d93"
   },
   "model_type": "reasoning",
   "license": "proprietary",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "description": "A high-performance reasoning model leveraging advanced multi-step Chain-of-Thought (CoT) reasoning and enhanced information retrieval for complex problem-solving.",
+  "context_window": 128000,
+  "tagline": "Advanced reasoning with enhanced multi-step analysis",
+  "page_url": "https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

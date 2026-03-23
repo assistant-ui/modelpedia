@@ -21,10 +21,15 @@
     "model_type": "d669f408",
     "parameters": "f033ab37",
     "active_parameters": "eccbc87e",
-    "page_url": "3876c021"
+    "page_url": "3876c021",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 80,
   "active_parameters": 3,
-  "page_url": "https://fireworks.ai/models/fireworks/qwen3-next-80b-a3b-thinking"
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3-next-80b-a3b-thinking",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

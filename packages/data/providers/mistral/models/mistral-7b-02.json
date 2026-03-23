@@ -24,12 +24,16 @@
     "license": "60245731",
     "parameters": "8f14e45f",
     "page_url": "27eeb2be",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "6a64cb9f",
+    "tagline": "6a64cb9f"
   },
   "model_type": "chat",
   "family": "mistral-7b",
   "license": "apache-2.0",
   "parameters": 7,
   "page_url": "https://docs.mistral.ai/models/mistral-7b-0-2",
-  "open_weight": true
+  "open_weight": true,
+  "description": "An update to our first open model with better context.",
+  "tagline": "An update to our first open model with better context."
 }

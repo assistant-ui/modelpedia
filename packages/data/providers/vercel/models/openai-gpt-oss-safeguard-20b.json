@@ -15,17 +15,22 @@
     "input": 0.07,
     "output": 0.3
   },
-  "model_type": "moderation",
+  "model_type": "chat",
   "_generated": {
     "name": "4773eb35",
     "family": "82d0cb0b",
     "context_window": "a683b9ae",
     "capabilities": "a281e83a",
     "pricing": "457d8860",
-    "model_type": "1e7a7b87",
+    "model_type": "d669f408",
     "parameters": "98f13708",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "parameters": 20,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

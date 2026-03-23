@@ -3,7 +3,7 @@
   "name": "magistral-small",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 128000,
   "capabilities": {
     "streaming": true,
@@ -17,10 +17,16 @@
   "_generated": {
     "name": "c817a475",
     "context_window": "34434798",
-    "pricing": "2c3abb73",
     "capabilities": "8d009641",
-    "model_type": "d669f408"
+    "pricing": "2c3abb73",
+    "model_type": "d669f408",
+    "family": "b2c75a88",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "family": "magistral"
+  "family": "magistral",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

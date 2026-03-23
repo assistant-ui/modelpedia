@@ -20,9 +20,14 @@
     "pricing": "cb03f68e",
     "family": "0f7256d5",
     "model_type": "d669f408",
-    "page_url": "eb5eecd0"
+    "page_url": "eb5eecd0",
+    "modalities": "68e53d93"
   },
   "family": "kimi-k2",
   "model_type": "chat",
-  "page_url": "https://fireworks.ai/models/fireworks/kimi-k2-instruct"
+  "page_url": "https://fireworks.ai/models/fireworks/kimi-k2-instruct",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

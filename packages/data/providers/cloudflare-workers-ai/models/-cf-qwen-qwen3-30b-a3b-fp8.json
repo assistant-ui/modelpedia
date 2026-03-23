@@ -19,12 +19,17 @@
     "active_parameters": "eccbc87e",
     "status": "379ac110",
     "page_url": "ff9a0be4",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 30,
   "active_parameters": 3,
   "status": "active",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#qwen3-30b-a3b-fp8",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

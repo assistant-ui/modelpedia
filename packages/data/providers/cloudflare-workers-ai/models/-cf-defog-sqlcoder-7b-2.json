@@ -13,10 +13,15 @@
     "parameters": "8f14e45f",
     "status": "379ac110",
     "model_type": "d669f408",
-    "page_url": "5eee5370"
+    "page_url": "5eee5370",
+    "modalities": "68e53d93"
   },
   "parameters": 7,
   "status": "active",
   "model_type": "chat",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#sqlcoder-7b-2"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#sqlcoder-7b-2",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

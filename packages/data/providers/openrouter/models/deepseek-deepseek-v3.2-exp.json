@@ -32,9 +32,11 @@
     "pricing": "0d7298a4",
     "release_date": "d032c55c",
     "tagline": "63778281",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "model_type": "d669f408"
   },
   "release_date": "2025-09-29",
   "tagline": "DeepSeek-V3.2-Exp is an experimental large language model released by DeepSeek as an intermediate step between V3.1 and future architectures.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "model_type": "chat"
 }

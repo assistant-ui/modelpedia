@@ -19,8 +19,13 @@
     "capabilities": "0fa77dc6",
     "pricing": "7959e9d6",
     "model_type": "d669f408",
-    "family": "309daa86"
+    "family": "309daa86",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "family": "glm-5"
+  "family": "glm-5",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -20,7 +20,8 @@
     "page_url": "a8a6a50c",
     "architecture": "31b2172c",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "model_type": "code",
   "parameters": 480,
@@ -31,5 +32,9 @@
   "page_url": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
   "architecture": "moe",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

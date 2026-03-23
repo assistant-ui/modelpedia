@@ -4,7 +4,7 @@
   "created_by": "cohere",
   "source": "official",
   "last_updated": "2026-03-23",
-  "description": "Unique per deployment",
+  "description": "A model that allows for text to be classified or turned into embeddings. English only.",
   "status": "active",
   "context_window": 512,
   "model_type": "embed",
@@ -20,7 +20,7 @@
   "endpoints": ["embed"],
   "_generated": {
     "name": "ad0d7f6b",
-    "description": "4f68c471",
+    "description": "ccc6559b",
     "status": "379ac110",
     "context_window": "10a7cdd9",
     "model_type": "764cb3de",
@@ -30,9 +30,11 @@
     "endpoints": "9f6acf8c",
     "family": "764cb3de",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "page_url": "5ef82597"
   },
   "family": "embed",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "page_url": "https://docs.cohere.com/docs/models#embed-english-v3.0"
 }

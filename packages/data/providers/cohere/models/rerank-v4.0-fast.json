@@ -4,7 +4,7 @@
   "created_by": "cohere",
   "source": "official",
   "last_updated": "2026-03-23",
-  "description": "Unique per deployment",
+  "description": "A light version of rerank-v4.0-pro , this is a multilingual model that allows for re-ranking English and non-english documents and semi-structured data (JSON). This model is better suited for low latency and high throughput use-cases than its pro variant.",
   "status": "active",
   "model_type": "rerank",
   "capabilities": {
@@ -16,7 +16,7 @@
   },
   "_generated": {
     "name": "e869920b",
-    "description": "4f68c471",
+    "description": "f3b45287",
     "status": "379ac110",
     "model_type": "477930e6",
     "capabilities": "0fa77dc6",
@@ -24,10 +24,16 @@
     "tagline": "4f68c471",
     "family": "477930e6",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "context_window": "10e4d788",
+    "page_url": "ac99c760",
+    "endpoints": "9a7b4962"
   },
   "tagline": "Unique per deployment",
   "family": "rerank",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "context_window": 32000,
+  "page_url": "https://docs.cohere.com/docs/models#rerank-v4.0-fast",
+  "endpoints": ["rerank"]
 }

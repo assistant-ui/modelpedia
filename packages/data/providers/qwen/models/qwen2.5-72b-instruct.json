@@ -27,9 +27,20 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "pricing": "00c137ad",
-    "endpoints": "75df3f1c"
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "parameters": "32bb90e8",
+    "provider": "a3af76f3",
+    "description": "64638eb7",
+    "tagline": "67372540",
+    "page_url": "23162829",
+    "open_weight": "b326b506"
   },
   "license": "apache-2.0",
   "parameters": 72,
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "Qwen2.5 is a large language model series from Qwen. This series includes multiple base and instruction-tuned models, with parameter counts that range from 7 billion to 72 billion. Key improvements over Qwen2 include the following: * Pre-trained on our latest large-scale dataset that contains up to 18 trillion tokens. * Expanded knowledge and significantly improved coding and math abilities, thanks to domain-specific expert models. * Better instruction following, long-text generation (over 8K tokens), structured data understanding (such as tables), and structured output generation (especially JSON). More robust handling of diverse system prompts, better role assumption, and conditional settings for chatbots. * Supports over 29 languages, such as Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, and Arabic. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) ## International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled globally, excluding Chinese Mainland.",
+  "tagline": "Qwen2.5 is a large language model series from Qwen.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": true
 }

@@ -20,9 +20,19 @@
     "capabilities": "8a3b232e",
     "modalities": "0843b982",
     "endpoints": "75df3f1c",
-    "family": "222d75c9"
+    "family": "222d75c9",
+    "license": "9186c466",
+    "provider": "a3af76f3",
+    "description": "f99b4470",
+    "tagline": "0ab0b5a1",
+    "page_url": "23162829",
+    "open_weight": "68934a3e"
   },
   "family": "wan2.2",
   "license": "proprietary",
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "You can generate natural-speaking, singing, or performing videos from a single portrait image and audio file. To use this model, call the following models in order. [wan2.2-s2v image detection](https://www.alibabacloud.com/help/en/document_detail/2978214.html) \\| [wan2.2-s2v video generation](https://www.alibabacloud.com/help/en/document_detail/2978215.html) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported. In this mode, the endpoint and data storage are located in the **Beijing region**, and inference computing resources are limited to Chinese Mainland.",
+  "tagline": "You can generate natural-speaking, singing, or performing videos from a single portrait image and audio file.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": false
 }

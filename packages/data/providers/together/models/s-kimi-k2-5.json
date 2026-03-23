@@ -19,9 +19,14 @@
     "pricing": "3a47d26f",
     "family": "0f7256d5",
     "model_type": "d669f408",
-    "page_url": "99aa30ca"
+    "page_url": "99aa30ca",
+    "modalities": "68e53d93"
   },
   "family": "kimi-k2",
   "model_type": "chat",
-  "page_url": "https://www.together.ai/models/kimi-k2-5"
+  "page_url": "https://www.together.ai/models/kimi-k2-5",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

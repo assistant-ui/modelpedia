@@ -3,15 +3,21 @@
   "name": "granite-guardian-3.0-8b",
   "created_by": "ibm",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "model_type": "moderation",
   "_generated": {
     "name": "667bd672",
+    "capabilities": "0fa77dc6",
     "model_type": "1e7a7b87",
-    "capabilities": "0fa77dc6"
+    "parameters": "c9f0f895",
+    "modalities": "68e53d93"
   },
-  "parameters": 8
+  "parameters": 8,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

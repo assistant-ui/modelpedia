@@ -27,8 +27,10 @@
     "capabilities": "c8033cf7",
     "pricing": "0ef670c7",
     "release_date": "aded74a0",
-    "tagline": "5a839d84"
+    "tagline": "5a839d84",
+    "model_type": "d669f408"
   },
   "release_date": "2025-01-10",
-  "tagline": "[Microsoft Research](/microsoft) Phi-4 is designed to perform well in complex reasoning tasks and can operate efficiently in situations with limited memory or where quick responses are needed."
+  "tagline": "[Microsoft Research](/microsoft) Phi-4 is designed to perform well in complex reasoning tasks and can operate efficiently in situations with limited memory or where quick responses are needed.",
+  "model_type": "chat"
 }

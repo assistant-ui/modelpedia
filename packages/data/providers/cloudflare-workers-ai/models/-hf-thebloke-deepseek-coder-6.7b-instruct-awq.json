@@ -17,11 +17,16 @@
     "status": "379ac110",
     "model_type": "d669f408",
     "page_url": "85324a28",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "parameters": 6.7,
   "status": "active",
   "model_type": "chat",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#deepseek-coder-6.7b-instruct-awq",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,7 +3,7 @@
   "name": "GPT 5 Nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5",
   "status": "active",
   "capabilities": {
@@ -11,9 +11,15 @@
   },
   "_generated": {
     "name": "4a5f2bfc",
-    "status": "379ac110",
     "family": "aa904c16",
-    "capabilities": "0fa77dc6"
+    "status": "379ac110",
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

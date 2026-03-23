@@ -19,10 +19,20 @@
     "modalities": "6399757e",
     "endpoints": "75df3f1c",
     "family": "fc63f06b",
-    "model_type": "4d1b75ca"
+    "model_type": "4d1b75ca",
+    "license": "9186c466",
+    "provider": "a3af76f3",
+    "description": "31b6b66e",
+    "tagline": "2786841b",
+    "page_url": "23162829",
+    "open_weight": "68934a3e"
   },
   "family": "wan2.5",
   "model_type": "video",
   "license": "proprietary",
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "Wan general image editing 2.5 supports subject-consistent editing using text, a single image, or multiple images. It also enables multi-image fusion creation. [API reference](https://www.alibabacloud.com/help/en/document_detail/2982258.html) ## International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are both located in the **Singapore region**. Model inference compute resources are dynamically scheduled globally, excluding Chinese Mainland.",
+  "tagline": "Wan general image editing 2.5 supports subject-consistent editing using text, a single image, or multiple images.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": false
 }

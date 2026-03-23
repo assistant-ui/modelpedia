@@ -33,10 +33,16 @@
     "license": "60245731",
     "parameters": "34173cb3",
     "active_parameters": "eccbc87e",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "bd788470",
+    "page_url": "23162829",
+    "tagline": "f9b688e9"
   },
   "license": "apache-2.0",
   "parameters": 30,
   "active_parameters": 3,
-  "open_weight": true
+  "open_weight": true,
+  "description": "Qwen3-Omni-Captioner is an open-source model built on Qwen3-Omni. It generates precise, comprehensive descriptions for complex audio, including ambient sounds, music, and sound effects, without requiring prompts. It detects speaker emotion, musical elements (such as genre and instruments), and sensitive content. Use cases include audio content analysis, security review, intent recognition, and audio editing. [Usage](https://www.alibabacloud.com/help/en/document_detail/2980468.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are both located in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide, excluding Chinese Mainland.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "tagline": "Qwen3-Omni-Captioner is an open-source model built on Qwen3-Omni."
 }

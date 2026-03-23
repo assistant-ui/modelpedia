@@ -33,10 +33,12 @@
     "family": "581e4682",
     "license": "2c8e76b8",
     "parameters": "6364d3f0",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "page_url": "c4ed6b47"
   },
   "family": "aya",
   "license": "cc-by-nc-4.0",
   "parameters": 32,
-  "open_weight": true
+  "open_weight": true,
+  "page_url": "https://docs.cohere.com/docs/models#c4ai-aya-vision-32b"
 }

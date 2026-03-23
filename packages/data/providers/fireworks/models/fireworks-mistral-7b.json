@@ -21,10 +21,15 @@
     "model_type": "d669f408",
     "family": "33212289",
     "parameters": "8f14e45f",
-    "page_url": "9886bb8b"
+    "page_url": "9886bb8b",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "family": "mistral-7b",
   "parameters": 7,
-  "page_url": "https://fireworks.ai/models/fireworks/mistral-7b"
+  "page_url": "https://fireworks.ai/models/fireworks/mistral-7b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

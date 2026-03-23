@@ -3,7 +3,7 @@
   "name": "MiniMax M2.5 Free",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "capabilities": {
     "streaming": true
@@ -11,8 +11,15 @@
   "_generated": {
     "name": "ab2d0e1e",
     "status": "379ac110",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "family": "c85916f0",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "minimax",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

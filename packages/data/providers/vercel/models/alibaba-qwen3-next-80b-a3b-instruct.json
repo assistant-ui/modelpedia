@@ -3,7 +3,7 @@
   "name": "qwen3-next-80b-a3b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "context_window": 262100,
   "capabilities": {
@@ -15,12 +15,20 @@
   },
   "_generated": {
     "name": "8418438a",
-    "context_window": "b23f4471",
     "family": "48c385a0",
+    "context_window": "b23f4471",
+    "capabilities": "0fa77dc6",
     "pricing": "1a367c4d",
-    "capabilities": "0fa77dc6"
+    "model_type": "d669f408",
+    "parameters": "f033ab37",
+    "active_parameters": "eccbc87e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 80,
-  "active_parameters": 3
+  "active_parameters": 3,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

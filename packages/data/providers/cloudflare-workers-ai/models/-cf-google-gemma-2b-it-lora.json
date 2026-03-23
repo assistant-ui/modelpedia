@@ -15,10 +15,15 @@
     "model_type": "d669f408",
     "parameters": "c81e728d",
     "status": "379ac110",
-    "page_url": "e551b962"
+    "page_url": "e551b962",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 2,
   "status": "active",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#gemma-2b-it-lora"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#gemma-2b-it-lora",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

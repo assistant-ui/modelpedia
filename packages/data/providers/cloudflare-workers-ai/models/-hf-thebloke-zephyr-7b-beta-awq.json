@@ -13,10 +13,15 @@
     "parameters": "8f14e45f",
     "status": "127aecde",
     "model_type": "d669f408",
-    "page_url": "d74633a5"
+    "page_url": "d74633a5",
+    "modalities": "68e53d93"
   },
   "parameters": 7,
   "status": "preview",
   "model_type": "chat",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#zephyr-7b-beta-awq"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#zephyr-7b-beta-awq",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -11,7 +11,8 @@
   "alias": "mistral-small",
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -27,16 +28,22 @@
     "status": "2e2f74dc",
     "deprecation_date": "70416073",
     "context_window": "34434798",
-    "capabilities": "8a3b232e",
+    "capabilities": "fc36814c",
     "modalities": "6399757e",
     "pricing": "53952343",
     "model_type": "d669f408",
     "license": "60245731",
     "page_url": "800e1f10",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "26f6bd5b",
+    "tagline": "26f6bd5b",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "license": "apache-2.0",
   "page_url": "https://docs.mistral.ai/models/mistral-small-3-1-25-03",
-  "open_weight": true
+  "open_weight": true,
+  "description": "A new leader in the small models category with image understanding capabilities, released March 2025.",
+  "tagline": "A new leader in the small models category with image understanding capabilities, released March 2025.",
+  "tools": ["function_calling"]
 }

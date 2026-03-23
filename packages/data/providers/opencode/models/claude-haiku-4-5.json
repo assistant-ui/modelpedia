@@ -21,7 +21,12 @@
     "status": "379ac110",
     "capabilities": "0fa77dc6",
     "pricing": "d7e92214",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

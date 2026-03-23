@@ -22,9 +22,14 @@
     "pricing": "cb03f68e",
     "model_type": "d669f408",
     "parameters": "c20ad4d7",
-    "page_url": "98b69e8d"
+    "page_url": "98b69e8d",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 12,
-  "page_url": "https://fireworks.ai/models/fireworks/gemma-3-12b-it"
+  "page_url": "https://fireworks.ai/models/fireworks/gemma-3-12b-it",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

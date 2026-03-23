@@ -15,10 +15,15 @@
     "family": "3190be28",
     "parameters": "8f14e45f",
     "status": "379ac110",
-    "page_url": "15841e74"
+    "page_url": "15841e74",
+    "modalities": "68e53d93"
   },
   "family": "llama-guard",
   "parameters": 7,
   "status": "active",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#llamaguard-7b-awq"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#llamaguard-7b-awq",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

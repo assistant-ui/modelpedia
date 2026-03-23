@@ -21,10 +21,23 @@
     "model_type": "d669f408",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "description": "a008b134",
+    "context_window": "34434798",
+    "tagline": "c5b3b715",
+    "page_url": "cae76267",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "description": "A lightweight, cost-effective search model optimized for quick, grounded answers with real-time web search.",
+  "context_window": 128000,
+  "tagline": "Fast answers with reliable search results",
+  "page_url": "https://docs.perplexity.ai/docs/sonar/models/sonar",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

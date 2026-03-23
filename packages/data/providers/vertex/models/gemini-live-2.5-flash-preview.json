@@ -3,7 +3,7 @@
   "name": "gemini-live-2.5-flash-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "status": "deprecated",
   "deprecation_date": "2025-12-09",
   "successor": "gemini-2.5-flash-native-audio-preview-12-2025",
@@ -21,8 +21,14 @@
     "deprecation_date": "c41dad30",
     "successor": "271a10ba",
     "capabilities": "8a3b232e",
-    "modalities": "6399757e"
+    "modalities": "6399757e",
+    "family": "ea6b88bf",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
   },
   "family": "gemini-2.5",
-  "model_type": "chat"
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false
 }

@@ -23,8 +23,14 @@
     "modalities": "68e53d93",
     "endpoints": "75df3f1c",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "836fb6c9",
+    "page_url": "23162829",
+    "tagline": "a556f27a"
   },
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "description": "Qwen-Turbo will no longer receive updates. Replace it with Qwen-Flash. Qwen-Flash uses flexible tiered pricing for more cost-effective billing. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are both located in the **Singapore region**. Model inference computing resources are dynamically scheduled worldwide (excluding Chinese Mainland).",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "tagline": "Qwen-Turbo will no longer receive updates."
 }

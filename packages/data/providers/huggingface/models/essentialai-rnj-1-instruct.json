@@ -20,7 +20,9 @@
     "tagline": "b8511d4a",
     "architecture": "8832ea0f",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "page_url": "https://huggingface.co/EssentialAI/rnj-1-instruct",
   "description": "Rnj-1 is a family of 8B parameter open-weight, dense models trained from scratch by Essential AI, optimized for code and STEM with capabilities on par with SOTA open-weight models. These models perform well across a range of programming languages and boast strong agentic capabilities (e.g., inside agentic frameworks like mini-SWE-agent), while also excelling at tool-calling. They additionally exhibit strong capabilities in math and science.",
@@ -31,5 +33,10 @@
   "tagline": "style=\"vertical-align: middle;\" src=\"https://img.shields.io/badge/%F0%9F%8C%90%20Website-essential.ai-4b9fe1?color=4b9fe1&logoColor=white\"/>",
   "architecture": "transformer",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

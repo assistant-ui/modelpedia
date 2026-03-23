@@ -3,7 +3,7 @@
   "name": "morph-v3-large",
   "created_by": "morph",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 81900,
   "capabilities": {
     "streaming": true
@@ -15,7 +15,14 @@
   "_generated": {
     "name": "35dcaf31",
     "context_window": "35a53eba",
+    "capabilities": "0fa77dc6",
     "pricing": "35ba2750",
-    "capabilities": "0fa77dc6"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

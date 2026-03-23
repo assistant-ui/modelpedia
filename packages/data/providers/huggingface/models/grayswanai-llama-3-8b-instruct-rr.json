@@ -20,7 +20,8 @@
     "context_window": "77441296",
     "tagline": "90c0488d",
     "architecture": "8832ea0f",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "family": "Llama-3",
   "model_type": "chat",
@@ -31,5 +32,9 @@
   "context_window": 8192,
   "tagline": "Llama-3-8B-Instruct-RR is a Llama-3 model with circuit breakers inserted using Representation Rerouting (RR).",
   "architecture": "transformer",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

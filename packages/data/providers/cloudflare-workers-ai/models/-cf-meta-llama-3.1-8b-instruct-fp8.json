@@ -17,11 +17,16 @@
     "parameters": "c9f0f895",
     "status": "379ac110",
     "page_url": "0f173b39",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 8,
   "status": "active",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#llama-3.1-8b-instruct-fp8",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

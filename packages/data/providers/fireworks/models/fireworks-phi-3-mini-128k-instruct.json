@@ -18,7 +18,14 @@
     "context_window": "a683b9ae",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
-    "page_url": "1931da6e"
+    "page_url": "1931da6e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "page_url": "https://fireworks.ai/models/fireworks/phi-3-mini-128k-instruct"
+  "page_url": "https://fireworks.ai/models/fireworks/phi-3-mini-128k-instruct",
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

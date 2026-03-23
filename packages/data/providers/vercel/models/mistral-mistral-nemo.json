@@ -20,9 +20,14 @@
     "pricing": "16a72b67",
     "model_type": "d669f408",
     "family": "75e1af53",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "family": "mistral-nemo",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -28,9 +28,11 @@
     "pricing": "a511aaae",
     "family": "84fc75f6",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "page_url": "76c4ab45"
   },
   "family": "command",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "page_url": "https://docs.cohere.com/docs/models#command-light-nightly"
 }

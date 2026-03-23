@@ -17,9 +17,9 @@
     "reasoning": true
   },
   "pricing": {
-    "input": 0.96,
-    "output": 3.2,
-    "cached_input": 0.192
+    "input": 1.2,
+    "output": 4,
+    "cached_input": 0.24
   },
   "_generated": {
     "name": "7d1d52e0",
@@ -28,7 +28,7 @@
     "max_output_tokens": "f7de594e",
     "modalities": "68e53d93",
     "capabilities": "f533f522",
-    "pricing": "b23e6a6b",
+    "pricing": "53feeb96",
     "family": "309daa86",
     "model_type": "d669f408",
     "release_date": "12ae3722",

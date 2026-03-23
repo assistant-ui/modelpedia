@@ -27,10 +27,15 @@
     "model_type": "d669f408",
     "license": "9186c466",
     "page_url": "1a485e82",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "license": "proprietary",
   "page_url": "https://platform.openai.com/docs/models/File Search Storage",
-  "open_weight": false
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

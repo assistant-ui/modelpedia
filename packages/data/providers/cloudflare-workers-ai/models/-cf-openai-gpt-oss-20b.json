@@ -16,10 +16,15 @@
     "model_type": "d669f408",
     "parameters": "98f13708",
     "status": "379ac110",
-    "page_url": "531f2e72"
+    "page_url": "531f2e72",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 20,
   "status": "active",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#gpt-oss-20b"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#gpt-oss-20b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

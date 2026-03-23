@@ -22,9 +22,14 @@
     "pricing": "cb03f68e",
     "model_type": "17475f7f",
     "parameters": "8f14e45f",
-    "page_url": "914bf5fb"
+    "page_url": "914bf5fb",
+    "modalities": "68e53d93"
   },
   "model_type": "reasoning",
   "parameters": 7,
-  "page_url": "https://fireworks.ai/models/fireworks/deepseek-r1-distill-qwen-7b"
+  "page_url": "https://fireworks.ai/models/fireworks/deepseek-r1-distill-qwen-7b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

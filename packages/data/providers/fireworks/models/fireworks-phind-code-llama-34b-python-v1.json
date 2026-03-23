@@ -19,8 +19,15 @@
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "parameters": "e369853d",
-    "page_url": "7d553231"
+    "page_url": "7d553231",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "parameters": 34,
-  "page_url": "https://fireworks.ai/models/fireworks/phind-code-llama-34b-python-v1"
+  "page_url": "https://fireworks.ai/models/fireworks/phind-code-llama-34b-python-v1",
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -16,12 +16,17 @@
     "parameters": "8f14e45f",
     "status": "379ac110",
     "page_url": "74ba3cc5",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "family": "mistral-7b",
   "parameters": 7,
   "status": "active",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#mistral-7b-instruct-v0.1",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

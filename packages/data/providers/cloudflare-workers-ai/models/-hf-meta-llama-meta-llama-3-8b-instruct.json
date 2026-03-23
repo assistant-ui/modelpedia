@@ -15,11 +15,16 @@
     "model_type": "d669f408",
     "parameters": "c9f0f895",
     "status": "379ac110",
-    "page_url": "caa92a7f"
+    "page_url": "caa92a7f",
+    "modalities": "68e53d93"
   },
   "family": "llama-3",
   "model_type": "chat",
   "parameters": 8,
   "status": "active",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#meta-llama-3-8b-instruct"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#meta-llama-3-8b-instruct",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

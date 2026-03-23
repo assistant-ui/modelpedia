@@ -20,10 +20,15 @@
     "parameters": "1ff1de77",
     "active_parameters": "c81e728d",
     "page_url": "0f0ccd28",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "parameters": 24,
   "active_parameters": 2,
   "page_url": "https://www.together.ai/models/lfm2-24b-a2b",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

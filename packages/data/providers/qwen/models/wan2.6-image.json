@@ -20,9 +20,19 @@
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
     "endpoints": "75df3f1c",
-    "family": "68010df8"
+    "family": "68010df8",
+    "license": "9186c466",
+    "provider": "a3af76f3",
+    "description": "55e333a5",
+    "tagline": "f73ddec9",
+    "page_url": "23162829",
+    "open_weight": "68934a3e"
   },
   "family": "wan2.6",
   "license": "proprietary",
-  "provider": "qwen"
+  "provider": "qwen",
+  "description": "Wan image generation models support image editing and mixed text-image outputs to meet diverse generation and integration needs. [API reference](https://www.alibabacloud.com/help/en/document_detail/3001143.html) ## Global In [global deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), both endpoint and data storage are located in the **US (Virginia) region**. Model inference compute resources are dynamically scheduled globally.",
+  "tagline": "Wan image generation models support image editing and mixed text-image outputs to meet diverse generation and integration needs.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": false
 }

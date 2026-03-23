@@ -16,10 +16,15 @@
     "model_type": "17475f7f",
     "parameters": "6364d3f0",
     "status": "379ac110",
-    "page_url": "dcf9b805"
+    "page_url": "dcf9b805",
+    "modalities": "68e53d93"
   },
   "model_type": "reasoning",
   "parameters": 32,
   "status": "active",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#qwq-32b"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#qwq-32b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

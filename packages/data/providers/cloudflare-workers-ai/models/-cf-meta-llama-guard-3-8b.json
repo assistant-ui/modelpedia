@@ -18,10 +18,15 @@
     "parameters": "c9f0f895",
     "status": "379ac110",
     "page_url": "56d8c2a4",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "parameters": 8,
   "status": "active",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#llama-guard-3-8b",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

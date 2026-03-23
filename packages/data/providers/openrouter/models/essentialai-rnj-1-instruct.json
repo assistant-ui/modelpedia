@@ -27,9 +27,11 @@
     "pricing": "16a72b67",
     "release_date": "1916087a",
     "tagline": "4e99059d",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "model_type": "d669f408"
   },
   "release_date": "2025-12-07",
   "tagline": "Rnj-1 is an 8B-parameter, dense, open-weight model family developed by Essential AI and trained from scratch with a focus on programming, math, and scientific reasoning.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "model_type": "chat"
 }

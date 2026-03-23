@@ -20,8 +20,13 @@
     "capabilities": "0fa77dc6",
     "pricing": "bff6af62",
     "model_type": "b6cc3ff4",
-    "page_url": "d4ecfc5b"
+    "page_url": "d4ecfc5b",
+    "modalities": "68e53d93"
   },
   "model_type": "code",
-  "page_url": "https://www.together.ai/models/qwen3-coder-next"
+  "page_url": "https://www.together.ai/models/qwen3-coder-next",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

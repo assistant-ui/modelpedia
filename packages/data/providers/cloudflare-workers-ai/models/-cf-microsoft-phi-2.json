@@ -14,10 +14,15 @@
     "status": "379ac110",
     "model_type": "d669f408",
     "page_url": "191b5e3f",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "status": "active",
   "model_type": "chat",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#phi-2",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

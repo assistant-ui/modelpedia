@@ -36,9 +36,11 @@
     "endpoints": "75df3f1c",
     "family": "439d5b76",
     "license": "2c8e76b8",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "page_url": "84fdfb53"
   },
   "family": "command-r",
   "license": "cc-by-nc-4.0",
-  "open_weight": true
+  "open_weight": true,
+  "page_url": "https://docs.cohere.com/docs/models#command-r-08-2024"
 }

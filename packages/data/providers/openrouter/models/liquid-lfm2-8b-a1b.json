@@ -23,10 +23,12 @@
     "parameters": "c9f0f895",
     "active_parameters": "c4ca4238",
     "release_date": "ba1efbec",
-    "tagline": "35aae5bd"
+    "tagline": "35aae5bd",
+    "model_type": "d669f408"
   },
   "parameters": 8,
   "active_parameters": 1,
   "release_date": "2025-10-20",
-  "tagline": "LFM2-8B-A1B is an efficient on-device Mixture-of-Experts (MoE) model from Liquid AI’s LFM2 family, built for fast, high-quality inference on edge hardware."
+  "tagline": "LFM2-8B-A1B is an efficient on-device Mixture-of-Experts (MoE) model from Liquid AI’s LFM2 family, built for fast, high-quality inference on edge hardware.",
+  "model_type": "chat"
 }

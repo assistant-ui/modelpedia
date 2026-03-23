@@ -3,7 +3,7 @@
   "name": "qwen3.5-122b-a10b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3.5",
   "capabilities": {
     "streaming": true
@@ -11,9 +11,17 @@
   "_generated": {
     "name": "846d704a",
     "family": "d548f421",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408",
+    "parameters": "a0a080f4",
+    "active_parameters": "d3d94468",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 122,
-  "active_parameters": 10
+  "active_parameters": 10,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

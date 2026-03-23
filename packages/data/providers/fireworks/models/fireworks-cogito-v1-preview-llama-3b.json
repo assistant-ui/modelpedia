@@ -19,8 +19,15 @@
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "parameters": "eccbc87e",
-    "page_url": "8e586b0c"
+    "page_url": "8e586b0c",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "parameters": 3,
-  "page_url": "https://fireworks.ai/models/fireworks/cogito-v1-preview-llama-3b"
+  "page_url": "https://fireworks.ai/models/fireworks/cogito-v1-preview-llama-3b",
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

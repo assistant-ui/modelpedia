@@ -15,10 +15,15 @@
     "parameters": "c3e22f2a",
     "status": "379ac110",
     "model_type": "d669f408",
-    "page_url": "11c69dc3"
+    "page_url": "11c69dc3",
+    "modalities": "68e53d93"
   },
   "parameters": 6.7,
   "status": "active",
   "model_type": "chat",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#deepseek-coder-6.7b-base-awq"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#deepseek-coder-6.7b-base-awq",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

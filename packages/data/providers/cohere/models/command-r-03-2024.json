@@ -40,10 +40,12 @@
     "family": "439d5b76",
     "license": "2c8e76b8",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "page_url": "c582afd8"
   },
   "family": "command-r",
   "license": "cc-by-nc-4.0",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "page_url": "https://docs.cohere.com/docs/models#command-r-03-2024"
 }

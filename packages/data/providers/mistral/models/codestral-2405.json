@@ -33,9 +33,13 @@
     "pricing": "8eb8395f",
     "license": "ab728f55",
     "page_url": "220f9e2d",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "ec3e1e9d",
+    "tagline": "ec3e1e9d"
   },
   "license": "mnpl",
   "page_url": "https://docs.mistral.ai/models/codestral-24-05",
-  "open_weight": true
+  "open_weight": true,
+  "description": "Our first cutting-edge language model for coding and FIM, released under the MNPL license.",
+  "tagline": "Our first cutting-edge language model for coding and FIM, released under the MNPL license."
 }

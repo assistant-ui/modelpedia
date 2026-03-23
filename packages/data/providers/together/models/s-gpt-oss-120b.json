@@ -21,9 +21,14 @@
     "pricing": "89a9c6e2",
     "model_type": "d669f408",
     "parameters": "da4fb5c6",
-    "page_url": "d2f45eaa"
+    "page_url": "d2f45eaa",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 120,
-  "page_url": "https://www.together.ai/models/gpt-oss-120b"
+  "page_url": "https://www.together.ai/models/gpt-oss-120b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -21,7 +21,8 @@
     "tagline": "1e3158cb",
     "architecture": "8832ea0f",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "page_url": "https://huggingface.co/m8than/Mistral-Nemo-Instruct-2407-lenient-chatfix",
@@ -33,5 +34,9 @@
   "tagline": "It's just mistral nemo 2407 with a less strict chat format.",
   "architecture": "transformer",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

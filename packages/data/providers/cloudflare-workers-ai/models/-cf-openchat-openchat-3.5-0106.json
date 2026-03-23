@@ -12,9 +12,14 @@
     "capabilities": "0fa77dc6",
     "status": "379ac110",
     "model_type": "d669f408",
-    "page_url": "dc61c8d3"
+    "page_url": "dc61c8d3",
+    "modalities": "68e53d93"
   },
   "status": "active",
   "model_type": "chat",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#openchat-3.5-0106"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#openchat-3.5-0106",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

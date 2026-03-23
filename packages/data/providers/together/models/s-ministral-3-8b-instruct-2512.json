@@ -22,9 +22,14 @@
     "pricing": "fa2d2058",
     "model_type": "d669f408",
     "parameters": "c9f0f895",
-    "page_url": "86e467da"
+    "page_url": "86e467da",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 8,
-  "page_url": "https://www.together.ai/models/ministral-3-8b-instruct-2512"
+  "page_url": "https://www.together.ai/models/ministral-3-8b-instruct-2512",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

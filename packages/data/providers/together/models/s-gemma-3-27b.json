@@ -21,9 +21,14 @@
     "pricing": "fa2d2058",
     "model_type": "d669f408",
     "parameters": "02e74f10",
-    "page_url": "dd2a7c8d"
+    "page_url": "dd2a7c8d",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 27,
-  "page_url": "https://www.together.ai/models/gemma-3-27b"
+  "page_url": "https://www.together.ai/models/gemma-3-27b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

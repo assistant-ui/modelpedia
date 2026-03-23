@@ -12,7 +12,14 @@
     "name": "c34970a1",
     "status": "379ac110",
     "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "family": "1a23786e",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "mimo",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

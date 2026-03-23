@@ -3,7 +3,7 @@
   "name": "mixtral-8x22b-instruct",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "mixtral",
   "context_window": 65500,
   "capabilities": {
@@ -15,11 +15,16 @@
   },
   "_generated": {
     "name": "0b1dd449",
-    "context_window": "90c532bc",
     "family": "3c47d372",
-    "pricing": "e8b0a8a5",
+    "context_window": "90c532bc",
     "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "pricing": "e8b0a8a5",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -20,7 +20,14 @@
     "context_window": "df026689",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
-    "page_url": "833b05dc"
+    "page_url": "833b05dc",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "page_url": "https://fireworks.ai/models/deepseek-ai/deepseek-v3p1-terminus"
+  "page_url": "https://fireworks.ai/models/deepseek-ai/deepseek-v3p1-terminus",
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

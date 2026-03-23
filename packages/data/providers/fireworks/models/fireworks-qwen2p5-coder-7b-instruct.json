@@ -22,9 +22,14 @@
     "pricing": "cb03f68e",
     "model_type": "b6cc3ff4",
     "parameters": "8f14e45f",
-    "page_url": "77f62398"
+    "page_url": "77f62398",
+    "modalities": "68e53d93"
   },
   "model_type": "code",
   "parameters": 7,
-  "page_url": "https://fireworks.ai/models/fireworks/qwen2p5-coder-7b-instruct"
+  "page_url": "https://fireworks.ai/models/fireworks/qwen2p5-coder-7b-instruct",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

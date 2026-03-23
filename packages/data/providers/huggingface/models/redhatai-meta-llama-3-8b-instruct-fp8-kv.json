@@ -18,7 +18,8 @@
     "release_date": "fc4e65a1",
     "context_window": "77441296",
     "architecture": "8832ea0f",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "family": "Llama-3",
   "model_type": "chat",
@@ -27,5 +28,9 @@
   "release_date": "2024-05-20",
   "context_window": 8192,
   "architecture": "transformer",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

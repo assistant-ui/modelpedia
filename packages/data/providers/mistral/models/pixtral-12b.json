@@ -10,7 +10,8 @@
   "context_window": 128000,
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -23,17 +24,23 @@
     "status": "2e2f74dc",
     "deprecation_date": "75f289bd",
     "context_window": "34434798",
-    "capabilities": "8a3b232e",
+    "capabilities": "fc36814c",
     "modalities": "6399757e",
     "model_type": "d669f408",
     "license": "60245731",
     "parameters": "c20ad4d7",
     "page_url": "8ccc2242",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "description": "36cb6627",
+    "tagline": "36cb6627",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "license": "apache-2.0",
   "parameters": 12,
   "page_url": "https://docs.mistral.ai/models/pixtral-12b-24-09",
-  "open_weight": true
+  "open_weight": true,
+  "description": "A 12B model with image understanding capabilities in addition to text.",
+  "tagline": "A 12B model with image understanding capabilities in addition to text.",
+  "tools": ["function_calling"]
 }

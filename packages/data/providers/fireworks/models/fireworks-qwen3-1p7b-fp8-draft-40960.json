@@ -21,8 +21,13 @@
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "d669f408",
-    "page_url": "c6105cef"
+    "page_url": "c6105cef",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "page_url": "https://fireworks.ai/models/fireworks/qwen3-1p7b-fp8-draft-40960"
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3-1p7b-fp8-draft-40960",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

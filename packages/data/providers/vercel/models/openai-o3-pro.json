@@ -22,9 +22,14 @@
     "context_window": "03e6c616",
     "capabilities": "a19166f1",
     "pricing": "30e855d9",
-    "model_type": "17475f7f",
-    "tools": "f0c1dc7e"
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
-  "model_type": "reasoning",
-  "tools": ["function_calling"]
+  "model_type": "chat",
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

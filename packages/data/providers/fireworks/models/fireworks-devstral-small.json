@@ -22,8 +22,13 @@
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "b6cc3ff4",
-    "page_url": "77ba09e3"
+    "page_url": "77ba09e3",
+    "modalities": "68e53d93"
   },
   "model_type": "code",
-  "page_url": "https://fireworks.ai/models/fireworks/devstral-small-2505"
+  "page_url": "https://fireworks.ai/models/fireworks/devstral-small-2505",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

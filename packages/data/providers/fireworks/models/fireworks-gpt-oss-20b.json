@@ -22,9 +22,14 @@
     "pricing": "e19298dc",
     "model_type": "d669f408",
     "parameters": "98f13708",
-    "page_url": "85b412a4"
+    "page_url": "85b412a4",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 20,
-  "page_url": "https://fireworks.ai/models/fireworks/gpt-oss-20b"
+  "page_url": "https://fireworks.ai/models/fireworks/gpt-oss-20b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }
