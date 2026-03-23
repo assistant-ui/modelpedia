@@ -2,6 +2,8 @@
   "name": "@modelpedia/api",
   "version": "0.0.0",
   "private": true,
+  "description": "api.modelpedia.dev — REST API on Cloudflare Workers",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
