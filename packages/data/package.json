@@ -46,6 +46,10 @@
     "fetch:all": "bun run fetch:openai && bun run fetch:anthropic && bun run fetch:google && bun run fetch:mistral && bun run fetch:deepseek && bun run fetch:xai && bun run fetch:cohere && bun run fetch:zai && bun run fetch:minimax && bun run fetch:alibaba && bun run fetch:meta && bun run fetch:moonshot && bun run fetch:cerebras && bun run fetch:baseten && bun run fetch:openrouter && bun run fetch:perplexity && bun run fetch:azure && bun run fetch:groq && bun run fetch:nvidia && bun run fetch:together && bun run fetch:fireworks && bun run fetch:amazon && bun run fetch:vercel && bun run fetch:vertex && bun run fetch:cloudflare-workers-ai && bun run fetch:cloudflare-ai-gateway && bun run fetch:opencode && bun run fetch:ollama && bun run fetch:huggingface && bun run fetch:qwen && bun run fetch:cursor"
   },
   "author": "AgentbaseAI Inc.",
+  "homepage": "https://modelpedia.dev",
+  "bugs": {
+    "url": "https://github.com/assistant-ui/modelpedia/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/assistant-ui/modelpedia",
