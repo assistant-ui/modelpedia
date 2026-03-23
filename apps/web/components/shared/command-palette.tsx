@@ -78,6 +78,22 @@ export function CommandPalette({
         if (mounted) close();
         else open();
       }
+      if (e.key === "/" && !mounted) {
+        const tag = (e.target as HTMLElement)?.tagName;
+        if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+        if ((e.target as HTMLElement)?.isContentEditable) return;
+        // Let SearchBar handle "/" on the home page
+        const searchInput = document.querySelector<HTMLInputElement>(
+          'input[placeholder="Search models..."]',
+        );
+        if (searchInput) {
+          e.preventDefault();
+          searchInput.focus();
+          return;
+        }
+        e.preventDefault();
+        open();
+      }
       if (e.key === "Escape" && mounted) {
         e.preventDefault();
         close();

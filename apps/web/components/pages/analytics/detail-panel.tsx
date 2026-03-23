@@ -141,7 +141,10 @@ function renderContent(selection: Selection, models: AnalyticsModel[]) {
       </div>
 
       {/* Grouped list */}
-      <div className="max-h-[50vh] overflow-y-auto">
+      <div
+        className="max-h-[50vh] overflow-y-auto"
+        style={{ scrollbarWidth: "none" }}
+      >
         {grouped.map((group, gi) => (
           <div key={group.provider}>
             {/* Provider section header */}
