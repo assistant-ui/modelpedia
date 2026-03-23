@@ -3,13 +3,17 @@
   "name": "HuggingFace: deepseek-ai/Deepseek-V3-0324",
   "created_by": "huggingface",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 1.25,
     "output": 1.25
   },
   "_generated": {
     "name": "f34d05d6",
-    "pricing": "79b45451"
-  }
+    "pricing": "79b45451",
+    "family": "4b81b92d",
+    "model_type": "d669f408"
+  },
+  "family": "deepseek",
+  "model_type": "chat"
 }

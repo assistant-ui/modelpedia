@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen2.5 VL 32B Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen2.5",
   "description": "Qwen2.5-VL-32B is a multimodal vision-language model fine-tuned through reinforcement learning for enhanced mathematical reasoning, structured outputs, and visual problem-solving capabilities.",
   "context_window": 128000,
@@ -20,11 +20,19 @@
   },
   "_generated": {
     "name": "2f6d177f",
+    "family": "45d84b68",
     "description": "4a2ebe7a",
     "context_window": "34434798",
-    "family": "45d84b68",
-    "pricing": "d6e0ad87",
+    "modalities": "6399757e",
     "capabilities": "c8033cf7",
-    "modalities": "6399757e"
-  }
+    "pricing": "d6e0ad87",
+    "model_type": "d669f408",
+    "parameters": "6364d3f0",
+    "release_date": "0a9347b5",
+    "tagline": "4a2ebe7a"
+  },
+  "model_type": "chat",
+  "parameters": 32,
+  "release_date": "2025-03-24",
+  "tagline": "Qwen2.5-VL-32B is a multimodal vision-language model fine-tuned through reinforcement learning for enhanced mathematical reasoning, structured outputs, and visual problem-solving capabilities."
 }

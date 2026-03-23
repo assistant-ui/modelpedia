@@ -23,5 +23,6 @@
     "capabilities": "d3117eb0",
     "modalities": "68e53d93",
     "endpoints": "20e16908"
-  }
+  },
+  "family": "gemini-embedding"
 }

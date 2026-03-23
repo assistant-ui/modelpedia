@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5 Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5",
   "description": "GPT-5 Mini is a compact version of GPT-5, designed to handle lighter-weight reasoning tasks.",
   "context_window": 400000,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "55d2fd01",
+    "family": "aa904c16",
     "description": "d15a2da1",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
-    "family": "aa904c16",
-    "pricing": "930a851a",
+    "modalities": "6399757e",
     "capabilities": "f533f522",
-    "modalities": "6399757e"
-  }
+    "pricing": "930a851a",
+    "model_type": "d669f408",
+    "release_date": "79c30d0c",
+    "tagline": "d15a2da1",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-08-07",
+  "tagline": "GPT-5 Mini is a compact version of GPT-5, designed to handle lighter-weight reasoning tasks.",
+  "tools": ["function_calling"]
 }

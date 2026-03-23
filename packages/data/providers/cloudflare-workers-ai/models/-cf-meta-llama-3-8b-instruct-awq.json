@@ -3,14 +3,25 @@
   "name": "llama-3-8b-instruct-awq",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-3",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "a555d1d1",
     "family": "a8d1600e",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "status": "379ac110",
+    "page_url": "f1904138",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 8,
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#llama-3-8b-instruct-awq",
+  "tools": ["function_calling"]
 }

@@ -2,6 +2,8 @@ import {
   buildPricing,
   envOrNull,
   inferFamily,
+  inferModelType,
+  inferParameters,
   type ModelEntry,
   runGenerate,
   upsertModel,
@@ -115,11 +117,17 @@ async function main() {
     // Use the full CF ID as model ID (e.g. "openai/gpt-4o")
     const gatewayModelId = cfModel.id;
 
+    const params = inferParameters(bareModel);
+    const modelType = inferModelType(bareModel);
+
     const entry: ModelEntry = {
       id: gatewayModelId,
       name: `${providerLabel}: ${bareModel}`,
       created_by: internalProvider,
       family: inferFamily(bareModel),
+      model_type: modelType,
+      parameters: params?.parameters,
+      active_parameters: params?.active_parameters,
     };
 
     // CF costs are per-token → convert to per-million-token

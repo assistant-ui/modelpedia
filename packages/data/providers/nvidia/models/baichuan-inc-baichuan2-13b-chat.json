@@ -3,13 +3,17 @@
   "name": "baichuan2-13b-chat",
   "created_by": "baichuan",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
   },
   "_generated": {
     "name": "c4cbb38e",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "c51ce410",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 13,
+  "tools": ["function_calling"]
 }

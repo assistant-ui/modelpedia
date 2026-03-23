@@ -3,7 +3,7 @@
   "name": "Mistral Large",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "mistral-large",
   "description": "This is Mistral AI's flagship model, Mistral Large 2 (version `mistral-large-2407`).",
   "context_window": 128000,
@@ -22,13 +22,24 @@
   },
   "_generated": {
     "name": "6461b222",
+    "family": "70f9d51d",
     "description": "30aa4dd3",
     "context_window": "34434798",
-    "family": "70f9d51d",
-    "pricing": "9277b5ca",
-    "capabilities": "ad177261",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "capabilities": "ad177261",
+    "pricing": "9277b5ca",
+    "model_type": "d669f408",
+    "release_date": "9147cd8c",
+    "tagline": "d79b05ff",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "release_date": "2024-02-26",
+  "tagline": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
+  "tools": ["function_calling"],
+  "snapshots": [
+    "mistralai/mistral-large-2512",
+    "mistralai/mistral-large-2411",
+    "mistralai/mistral-large-2407"
+  ]
 }

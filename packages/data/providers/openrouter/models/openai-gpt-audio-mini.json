@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT Audio Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-audio",
   "description": "A cost-efficient version of GPT Audio.",
   "context_window": 128000,
@@ -21,12 +21,16 @@
   },
   "_generated": {
     "name": "82ff8ffa",
+    "family": "29debdf1",
     "description": "24fe34a9",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
-    "family": "29debdf1",
-    "pricing": "e9aad47c",
+    "modalities": "cf05925d",
     "capabilities": "c8033cf7",
-    "modalities": "cf05925d"
-  }
+    "pricing": "e9aad47c",
+    "release_date": "aaadbdbb",
+    "tagline": "24fe34a9"
+  },
+  "release_date": "2026-01-19",
+  "tagline": "A cost-efficient version of GPT Audio."
 }

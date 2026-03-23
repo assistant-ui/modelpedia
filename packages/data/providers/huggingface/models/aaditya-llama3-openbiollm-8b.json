@@ -1,0 +1,32 @@
+{
+  "id": "aaditya/Llama3-OpenBioLLM-8B",
+  "name": "Llama3-OpenBioLLM-8B",
+  "created_by": "aaditya",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "page_url": "https://huggingface.co/aaditya/Llama3-OpenBioLLM-8B",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "f0cd661f",
+    "page_url": "e81948cf",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "description": "71aebfb5",
+    "release_date": "fd79eb8a",
+    "context_window": "77441296",
+    "license": "c1eeabcd",
+    "tagline": "71aebfb5",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506"
+  },
+  "description": "Introducing OpenBioLLM-8B: A State-of-the-Art Open Source Biomedical Large Language Model",
+  "release_date": "2024-04-20",
+  "context_window": 8192,
+  "license": "llama3",
+  "tagline": "Introducing OpenBioLLM-8B: A State-of-the-Art Open Source Biomedical Large Language Model",
+  "architecture": "transformer",
+  "open_weight": true
+}

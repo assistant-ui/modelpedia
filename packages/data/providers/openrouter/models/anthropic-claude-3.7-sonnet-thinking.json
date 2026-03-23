@@ -3,7 +3,7 @@
   "name": "Anthropic: Claude 3.7 Sonnet (thinking)",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "claude-sonnet",
   "description": "Claude 3.7 Sonnet is an advanced large language model with improved reasoning, coding, and problem-solving capabilities.",
   "status": "deprecated",
@@ -25,14 +25,22 @@
   },
   "_generated": {
     "name": "73e8aa67",
+    "family": "68d1c457",
     "description": "4054881d",
     "status": "2e2f74dc",
+    "deprecation_date": "ab530d19",
     "context_window": "03e6c616",
     "max_output_tokens": "762e98db",
-    "deprecation_date": "ab530d19",
-    "family": "68d1c457",
-    "pricing": "0deaf3da",
+    "modalities": "6399757e",
     "capabilities": "05723a3e",
-    "modalities": "6399757e"
-  }
+    "pricing": "0deaf3da",
+    "model_type": "d669f408",
+    "release_date": "81185fd7",
+    "tagline": "4054881d",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-02-24",
+  "tagline": "Claude 3.7 Sonnet is an advanced large language model with improved reasoning, coding, and problem-solving capabilities.",
+  "tools": ["function_calling"]
 }

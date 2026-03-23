@@ -11,5 +11,7 @@
   "_generated": {
     "name": "a4197685",
     "pricing": "16a72b67"
-  }
+  },
+  "family": "mistral-nemo",
+  "model_type": "chat"
 }

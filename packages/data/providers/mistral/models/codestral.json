@@ -3,7 +3,7 @@
   "name": "codestral",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "codestral",
   "status": "deprecated",
   "context_window": 32000,
@@ -24,13 +24,19 @@
   "model_type": "code",
   "_generated": {
     "name": "a0734f6e",
-    "status": "2e2f74dc",
-    "model_type": "b6cc3ff4",
-    "context_window": "10e4d788",
-    "deprecation_date": "9b08fa35",
     "family": "a0734f6e",
-    "pricing": "8eb8395f",
+    "status": "2e2f74dc",
+    "context_window": "10e4d788",
     "capabilities": "8a3b232e",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "pricing": "8eb8395f",
+    "deprecation_date": "9b08fa35",
+    "model_type": "b6cc3ff4",
+    "license": "ab728f55",
+    "page_url": "220f9e2d",
+    "open_weight": "b326b506"
+  },
+  "license": "mnpl",
+  "page_url": "https://docs.mistral.ai/models/codestral-24-05",
+  "open_weight": true
 }

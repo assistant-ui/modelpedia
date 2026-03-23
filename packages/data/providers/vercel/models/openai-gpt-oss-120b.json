@@ -3,7 +3,7 @@
   "name": "gpt-oss-120b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-oss",
   "context_window": 131100,
   "capabilities": {
@@ -17,9 +17,15 @@
   },
   "_generated": {
     "name": "e8458743",
-    "context_window": "a683b9ae",
     "family": "82d0cb0b",
+    "context_window": "a683b9ae",
+    "capabilities": "a281e83a",
     "pricing": "063f5006",
-    "capabilities": "a281e83a"
-  }
+    "model_type": "d669f408",
+    "parameters": "da4fb5c6",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 120,
+  "tools": ["function_calling"]
 }

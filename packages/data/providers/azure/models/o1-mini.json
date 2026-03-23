@@ -3,7 +3,7 @@
   "name": "o1-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "o1",
   "knowledge_cutoff": "2023-10",
   "capabilities": {
@@ -16,10 +16,14 @@
   "model_type": "reasoning",
   "_generated": {
     "name": "34f0dfa6",
-    "model_type": "17475f7f",
-    "knowledge_cutoff": "ffb42dbe",
     "family": "e1ab0820",
+    "knowledge_cutoff": "ffb42dbe",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "17475f7f",
+    "description": "f3f318d8",
+    "tagline": "c9f8a93b"
+  },
+  "description": "A faster and more cost-efficient option in the o1 series, ideal for coding tasks that require speed and lower resource consumption. - Global Standard deployment available by default. - Standard (regional) deployments are currently only available for select customers who received access as part of the o1-preview limited access release.",
+  "tagline": "A faster and more cost-efficient option in the o1 series, ideal for coding tasks that require speed and lower resource consumption."
 }

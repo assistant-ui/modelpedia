@@ -15,5 +15,6 @@
     "name": "d7b481eb",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93"
-  }
+  },
+  "model_type": "chat"
 }

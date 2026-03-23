@@ -3,7 +3,7 @@
   "name": "MiniMax: MiniMax M2-her",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "MiniMax M2-her is a dialogue-first large language model built for immersive roleplay, character-driven chat, and expressive multi-turn conversations.",
   "context_window": 65536,
   "max_output_tokens": 2048,
@@ -21,9 +21,15 @@
     "description": "0a598ca9",
     "context_window": "297ce0b3",
     "max_output_tokens": "05192834",
-    "pricing": "af2df236",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "pricing": "af2df236",
+    "model_type": "d669f408",
+    "family": "c85916f0",
+    "release_date": "661f8f2e",
+    "tagline": "0a598ca9"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "minimax",
+  "release_date": "2026-01-23",
+  "tagline": "MiniMax M2-her is a dialogue-first large language model built for immersive roleplay, character-driven chat, and expressive multi-turn conversations."
 }

@@ -3,14 +3,39 @@
   "name": "nemotron-cascade-2",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "498b6cf2",
-    "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "capabilities": "a281e83a",
+    "model_type": "d669f408",
+    "description": "5722922a",
+    "page_url": "307d3eec",
+    "tagline": "5722922a",
+    "context_window": "4a1d32eb",
+    "parameters": "34173cb3",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "reasoning_tokens": "b326b506",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "description": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
+  "page_url": "https://ollama.com/library/nemotron-cascade-2",
+  "tagline": "An open 30B MoE model from NVIDIA with 3B activated parameters that delivers strong reasoning and agentic capabilities.",
+  "context_window": 262144,
+  "parameters": 30,
+  "license": "open-weight",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "reasoning_tokens": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,7 +3,7 @@
   "name": "llama-3-1-8b-instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-3",
   "capabilities": {
     "streaming": true
@@ -12,7 +12,16 @@
     "name": "ba488e39",
     "family": "a8d1600e",
     "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 8,
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

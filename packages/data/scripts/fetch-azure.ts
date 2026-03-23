@@ -1,6 +1,7 @@
 import { fetchText, findHtmlTables, stripHtml } from "./parse.ts";
 import {
   inferFamily,
+  inferParameters,
   type ModelEntry,
   readSources,
   runGenerate,
@@ -22,6 +23,7 @@ const OPENAI_MODELS_URL = sources.docs as string;
 interface AzureModel {
   id: string;
   name: string;
+  description?: string;
   created_by: string;
   context_window?: number;
   max_output_tokens?: number;
@@ -96,6 +98,7 @@ async function fetchModels(): Promise<AzureModel[]> {
       let contextWindow: number | undefined;
       let maxOutput: number | undefined;
       let knowledgeCutoff: string | undefined;
+      let description: string | undefined;
 
       for (let i = 0; i < headers.length && i < texts.length; i++) {
         const h = headers[i];
@@ -117,6 +120,9 @@ async function fetchModels(): Promise<AzureModel[]> {
         }
         if (h.includes("training") || h.includes("cutoff")) {
           if (v && !v.includes("N/A")) knowledgeCutoff = v;
+        }
+        if (h.includes("description")) {
+          if (v && v.length > 5) description = v;
         }
       }
 
@@ -157,6 +163,7 @@ async function fetchModels(): Promise<AzureModel[]> {
       models.push({
         id,
         name: modelCell.split("(")[0].trim(),
+        description,
         created_by: createdBy,
         context_window: contextWindow,
         max_output_tokens: maxOutput,
@@ -180,9 +187,11 @@ async function main() {
 
   let written = 0;
   for (const m of models) {
+    const params = inferParameters(m.id);
     const entry: ModelEntry = {
       id: m.id,
       name: m.name,
+      description: m.description,
       created_by: m.created_by,
       family: inferFamily(m.id),
       context_window: m.context_window,
@@ -190,6 +199,8 @@ async function main() {
       knowledge_cutoff: m.knowledge_cutoff,
       capabilities: m.capabilities,
       modalities: m.modalities,
+      parameters: params?.parameters,
+      active_parameters: params?.active_parameters,
     };
 
     written += upsertWithSnapshot("azure", entry);

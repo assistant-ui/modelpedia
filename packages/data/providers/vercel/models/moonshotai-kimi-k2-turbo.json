@@ -3,7 +3,7 @@
   "name": "kimi-k2-turbo",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 256000,
   "capabilities": {
     "streaming": true,
@@ -16,7 +16,13 @@
   "_generated": {
     "name": "0cc92b9e",
     "context_window": "2fd324cb",
+    "capabilities": "48995a4e",
     "pricing": "b7d07ef2",
-    "capabilities": "48995a4e"
-  }
+    "family": "0f7256d5",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "family": "kimi-k2",
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

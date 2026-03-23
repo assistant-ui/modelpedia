@@ -11,5 +11,7 @@
   "_generated": {
     "name": "1db35d83",
     "pricing": "4a55a07f"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 9
 }

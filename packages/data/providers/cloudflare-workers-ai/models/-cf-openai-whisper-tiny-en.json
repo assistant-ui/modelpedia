@@ -3,7 +3,7 @@
   "name": "whisper-tiny-en",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "whisper",
   "capabilities": {
     "streaming": true
@@ -11,6 +11,12 @@
   "_generated": {
     "name": "76503709",
     "family": "7fbc43e3",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "model_type": "5e12d29a",
+    "status": "379ac110",
+    "page_url": "880021a9"
+  },
+  "model_type": "transcription",
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#whisper-tiny-en"
 }

@@ -3,7 +3,7 @@
   "name": "Llama 4 Maverick",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-4",
   "context_window": 1048000,
   "capabilities": {
@@ -15,9 +15,13 @@
   },
   "_generated": {
     "name": "44672f7d",
-    "context_window": "d2c8d32a",
     "family": "3169363f",
+    "context_window": "d2c8d32a",
+    "capabilities": "0fa77dc6",
     "pricing": "14737c2d",
-    "capabilities": "0fa77dc6"
-  }
+    "model_type": "d669f408",
+    "page_url": "c1789960"
+  },
+  "model_type": "chat",
+  "page_url": "https://www.together.ai/models/llama-4-maverick"
 }

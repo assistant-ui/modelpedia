@@ -9,6 +9,7 @@ import {
   buildPricing,
   inferFamily,
   inferModelType,
+  inferParameters,
   type ModelEntry,
   readSources,
   runGenerate,
@@ -109,12 +110,19 @@ async function main() {
       lookup(compare, name) ??
       (d?.current_snapshot ? lookup(compare, d.current_snapshot) : undefined);
 
+    const isOss = inferFamily(name) === "gpt-oss";
+    // Use slug for page_url; for snapshots, derive from alias name so alias doesn't inherit snapshot URL
+    const slugBase = d?.slug ?? name.replace(/-\d{4}-\d{2}-\d{2}$/, "");
+
     const entry: ModelEntry = {
       id: name,
       name: d?.display_name ?? name,
       family: inferFamily(name),
       description: d?.description,
       tagline: d?.tagline,
+      license: isOss ? "apache-2.0" : "proprietary",
+      open_weight: isOss,
+      page_url: `https://platform.openai.com/docs/models/${slugBase}`,
       status:
         d?.deprecated ||
         /deprecated/i.test(d?.tagline ?? "") ||
@@ -190,7 +198,12 @@ async function main() {
     } else {
       entry.model_type = inferModelType(name, c?.supported_endpoints);
     }
-    if (d?.supported_tools) entry.tools = d.supported_tools;
+    // Tools: use detail data, or infer function_calling from capabilities
+    if (d?.supported_tools) {
+      entry.tools = d.supported_tools;
+    } else if (caps.tool_call) {
+      entry.tools = ["function_calling"];
+    }
     if (c?.supported_endpoints) entry.endpoints = c.supported_endpoints;
     if (c?.reasoning_tokens) entry.reasoning_tokens = true;
     if (c?.performance) entry.performance = c.performance;
@@ -203,6 +216,17 @@ async function main() {
     // New detail fields
     if (d?.point_to) entry.successor = d.point_to;
     if (d?.pricing_notes) entry.pricing_notes = d.pricing_notes;
+
+    // Release date: extract from snapshot date in model ID (e.g. gpt-4o-2024-08-06)
+    const dateMatch = name.match(/(\d{4}-\d{2}-\d{2})$/);
+    if (dateMatch) entry.release_date = dateMatch[1];
+
+    const params = inferParameters(name);
+    if (params) {
+      entry.parameters = params.parameters;
+      if (params.active_parameters)
+        entry.active_parameters = params.active_parameters;
+    }
 
     entries.push(entry);
   }

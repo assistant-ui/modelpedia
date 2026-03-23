@@ -3,13 +3,15 @@
   "name": "Azure OpenAI: phi-4-multimodal",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 0.08,
     "output": 0.32
   },
   "_generated": {
     "name": "47c5e80a",
-    "pricing": "538664a0"
-  }
+    "pricing": "538664a0",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

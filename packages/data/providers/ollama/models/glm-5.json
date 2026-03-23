@@ -3,14 +3,39 @@
   "name": "glm-5",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "309daa86",
     "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "family": "309daa86",
+    "description": "a498f5ff",
+    "release_date": "d8edba92",
+    "page_url": "9f2e339f",
+    "tagline": "a498f5ff",
+    "context_window": "6ea395a4",
+    "parameters": "0537fb40",
+    "license": "6327aaea",
+    "active_parameters": "d645920e",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "glm-5",
+  "description": "A strong reasoning and agentic model from Z.ai with 744B total parameters (40B active), built for complex systems engineering and long-horizon tasks.",
+  "release_date": "2026-02-11",
+  "page_url": "https://ollama.com/library/glm-5",
+  "tagline": "A strong reasoning and agentic model from Z.ai with 744B total parameters (40B active), built for complex systems engineering and long-horizon tasks.",
+  "context_window": 202752,
+  "parameters": 744,
+  "license": "open-weight",
+  "active_parameters": 40,
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

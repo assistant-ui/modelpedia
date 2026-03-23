@@ -22,5 +22,7 @@
     "successor": "271a10ba",
     "capabilities": "8a3b232e",
     "modalities": "6399757e"
-  }
+  },
+  "family": "gemini-2.5",
+  "model_type": "chat"
 }

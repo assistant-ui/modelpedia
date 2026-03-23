@@ -3,7 +3,7 @@
   "name": "Claude 4 Sonnet",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "claude-sonnet",
   "capabilities": {
     "streaming": true,
@@ -26,14 +26,22 @@
   "speed": 3,
   "_generated": {
     "name": "29352026",
+    "family": "68d1c457",
+    "capabilities": "45192957",
+    "modalities": "6399757e",
+    "pricing": "fcf3f284",
     "context_window": "03e6c616",
     "performance": "a87ff679",
     "speed": "eccbc87e",
-    "family": "68d1c457",
-    "pricing": "fcf3f284",
-    "capabilities": "45192957",
-    "modalities": "6399757e",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e",
+    "page_url": "021a6e3f",
+    "pricing_notes": "2b8cd945"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "tools": ["function_calling"],
+  "page_url": "https://cursor.com/docs/models-and-pricing#claude-4-sonnet",
+  "pricing_notes": [
+    "Hidden by default; Thinking variant counts as 2 requests in legacy pricing"
+  ]
 }

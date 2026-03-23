@@ -3,7 +3,7 @@
   "name": "qwen-3-32b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen",
   "context_window": 131100,
   "capabilities": {
@@ -17,9 +17,15 @@
   },
   "_generated": {
     "name": "a9778359",
-    "context_window": "a683b9ae",
     "family": "a3af76f3",
+    "context_window": "a683b9ae",
+    "capabilities": "a281e83a",
     "pricing": "53952343",
-    "capabilities": "a281e83a"
-  }
+    "model_type": "d669f408",
+    "parameters": "6364d3f0",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 32,
+  "tools": ["function_calling"]
 }

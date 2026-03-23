@@ -3,7 +3,7 @@
   "name": "gemma-7b",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemma-7b",
   "context_window": 8200,
   "capabilities": {
@@ -11,13 +11,20 @@
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "4c956875",
-    "context_window": "486c0401",
     "family": "4c956875",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "486c0401",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "model_type": "d669f408",
+    "parameters": "8f14e45f",
+    "page_url": "26ddc635"
+  },
+  "model_type": "chat",
+  "parameters": 7,
+  "page_url": "https://fireworks.ai/models/fireworks/gemma-7b"
 }

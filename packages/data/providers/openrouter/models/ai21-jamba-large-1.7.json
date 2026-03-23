@@ -3,7 +3,7 @@
   "name": "AI21: Jamba Large 1.7",
   "created_by": "ai21",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Jamba Large 1.7 is the latest model in the Jamba open family, offering improvements in grounding, instruction-following, and overall efficiency.",
   "context_window": 256000,
   "max_output_tokens": 4096,
@@ -24,8 +24,16 @@
     "description": "65ed17e2",
     "context_window": "2fd324cb",
     "max_output_tokens": "f7efa4f8",
-    "pricing": "9d7f5a51",
+    "modalities": "68e53d93",
     "capabilities": "ad177261",
-    "modalities": "68e53d93"
-  }
+    "pricing": "9d7f5a51",
+    "model_type": "d669f408",
+    "release_date": "69ac8a13",
+    "tagline": "65ed17e2",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-08-08",
+  "tagline": "Jamba Large 1.7 is the latest model in the Jamba open family, offering improvements in grounding, instruction-following, and overall efficiency.",
+  "tools": ["function_calling"]
 }

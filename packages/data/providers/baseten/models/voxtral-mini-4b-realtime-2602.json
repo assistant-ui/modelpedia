@@ -3,7 +3,7 @@
   "name": "voxtral-mini-4b-realtime-2602",
   "created_by": "unknown",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "alias": "voxtral-mini-4b-realtime",
   "capabilities": {
     "streaming": true
@@ -11,7 +11,18 @@
   "_generated": {
     "name": "144423ec",
     "capabilities": "0fa77dc6",
-    "model_type": "9f84c007"
+    "model_type": "9f84c007",
+    "family": "88a5dabd",
+    "parameters": "a87ff679",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
   },
-  "model_type": "audio"
+  "model_type": "audio",
+  "family": "voxtral",
+  "parameters": 4,
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

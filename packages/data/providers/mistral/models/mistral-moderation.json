@@ -3,7 +3,7 @@
   "name": "mistral-moderation",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "context_window": 8000,
   "capabilities": {
@@ -19,9 +19,17 @@
   "_generated": {
     "name": "cdc0334b",
     "status": "379ac110",
-    "model_type": "1e7a7b87",
     "context_window": "67ff32d4",
     "capabilities": "8a3b232e",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "1e7a7b87",
+    "family": "cdc0334b",
+    "license": "60245731",
+    "page_url": "68432169",
+    "open_weight": "b326b506"
+  },
+  "family": "mistral-moderation",
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/mistral-moderation-24-11",
+  "open_weight": true
 }

@@ -3,20 +3,24 @@
   "name": "Gemini 3 Flash",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemini-3",
   "status": "active",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.5
+    "input": 0.5,
+    "output": 3,
+    "cached_input": 0.05
   },
   "_generated": {
     "name": "3693a991",
-    "status": "379ac110",
     "family": "eb14e598",
-    "pricing": "1621018b",
-    "capabilities": "0fa77dc6"
-  }
+    "status": "379ac110",
+    "capabilities": "0fa77dc6",
+    "pricing": "a1f79f3d",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

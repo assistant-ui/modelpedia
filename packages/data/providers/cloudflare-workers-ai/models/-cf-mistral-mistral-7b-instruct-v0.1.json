@@ -3,12 +3,25 @@
   "name": "mistral-7b-instruct-v0.1",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "b201ab8c",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "family": "33212289",
+    "parameters": "8f14e45f",
+    "status": "379ac110",
+    "page_url": "74ba3cc5",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "family": "mistral-7b",
+  "parameters": 7,
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#mistral-7b-instruct-v0.1",
+  "tools": ["function_calling"]
 }

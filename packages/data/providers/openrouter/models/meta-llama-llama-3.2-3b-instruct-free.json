@@ -3,7 +3,7 @@
   "name": "Meta: Llama 3.2 3B Instruct (free)",
   "created_by": "meta-llama",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-3.2",
   "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization.",
   "context_window": 131072,
@@ -13,9 +13,17 @@
   },
   "_generated": {
     "name": "9738eb74",
+    "family": "d4c42ce9",
     "description": "52f7845b",
     "context_window": "f7de594e",
-    "family": "d4c42ce9",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "d669f408",
+    "parameters": "eccbc87e",
+    "release_date": "edf1fb88",
+    "tagline": "52f7845b"
+  },
+  "model_type": "chat",
+  "parameters": 3,
+  "release_date": "2024-09-25",
+  "tagline": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization."
 }

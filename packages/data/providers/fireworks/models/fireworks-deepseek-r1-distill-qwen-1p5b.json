@@ -3,7 +3,7 @@
   "name": "deepseek-r1-distill-qwen-1p5b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek-r1",
   "context_window": 131100,
   "capabilities": {
@@ -11,13 +11,18 @@
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "710fa8b7",
-    "context_window": "a683b9ae",
     "family": "c74cfb8e",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "a683b9ae",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "model_type": "17475f7f",
+    "page_url": "49888190"
+  },
+  "model_type": "reasoning",
+  "page_url": "https://fireworks.ai/models/fireworks/deepseek-r1-distill-qwen-1p5b"
 }

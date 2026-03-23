@@ -13,5 +13,8 @@
     "name": "02dfd336",
     "family": "48c385a0",
     "pricing": "02506712"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 30,
+  "active_parameters": 3
 }

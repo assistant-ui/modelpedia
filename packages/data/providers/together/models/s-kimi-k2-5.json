@@ -3,7 +3,7 @@
   "name": "Kimi K2 5",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 262000,
   "capabilities": {
     "streaming": true
@@ -15,7 +15,13 @@
   "_generated": {
     "name": "7d6ce814",
     "context_window": "4ed74017",
+    "capabilities": "0fa77dc6",
     "pricing": "3a47d26f",
-    "capabilities": "0fa77dc6"
-  }
+    "family": "0f7256d5",
+    "model_type": "d669f408",
+    "page_url": "99aa30ca"
+  },
+  "family": "kimi-k2",
+  "model_type": "chat",
+  "page_url": "https://www.together.ai/models/kimi-k2-5"
 }

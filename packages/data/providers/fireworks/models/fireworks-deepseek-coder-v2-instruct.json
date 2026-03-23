@@ -3,7 +3,7 @@
   "name": "deepseek-coder-v2-instruct",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek",
   "context_window": 32800,
   "capabilities": {
@@ -11,13 +11,16 @@
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "9b11c620",
-    "context_window": "74a190a6",
     "family": "4b81b92d",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "74a190a6",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "page_url": "affe8cd4"
+  },
+  "page_url": "https://fireworks.ai/models/fireworks/deepseek-coder-v2-instruct"
 }

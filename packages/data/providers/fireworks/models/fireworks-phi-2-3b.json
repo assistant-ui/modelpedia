@@ -3,19 +3,24 @@
   "name": "phi-2-3b",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 2000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "21871cd0",
     "context_window": "08f90c1a",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "parameters": "eccbc87e",
+    "page_url": "dd6db2a8"
+  },
+  "parameters": 3,
+  "page_url": "https://fireworks.ai/models/fireworks/phi-2-3b"
 }

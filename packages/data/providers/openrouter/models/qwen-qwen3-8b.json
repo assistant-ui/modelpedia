@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 8B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "description": "Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue.",
   "context_window": 40960,
@@ -24,14 +24,22 @@
   },
   "_generated": {
     "name": "30619b9e",
+    "family": "48c385a0",
     "description": "7a5e8404",
     "context_window": "a422a18c",
     "max_output_tokens": "77441296",
-    "family": "48c385a0",
-    "pricing": "fea57b13",
-    "capabilities": "f533f522",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "capabilities": "f533f522",
+    "pricing": "fea57b13",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "release_date": "1487959c",
+    "tagline": "7a5e8404",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 8,
+  "release_date": "2025-04-28",
+  "tagline": "Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue.",
+  "tools": ["function_calling"]
 }

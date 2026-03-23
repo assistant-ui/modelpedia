@@ -3,7 +3,7 @@
   "name": "gpt-4o-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4o",
   "context_window": 128000,
   "capabilities": {
@@ -17,9 +17,13 @@
   },
   "_generated": {
     "name": "86dcd1b7",
-    "context_window": "34434798",
     "family": "15249632",
+    "context_window": "34434798",
+    "capabilities": "fc36814c",
     "pricing": "89a9c6e2",
-    "capabilities": "fc36814c"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

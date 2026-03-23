@@ -1,0 +1,36 @@
+{
+  "id": "qwen-math-plus",
+  "name": "qwen-math-plus",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "qwen",
+  "context_window": 4096,
+  "max_output_tokens": 3072,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.574,
+    "output": 1.721
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "35f4bd68",
+    "family": "a3af76f3",
+    "context_window": "f7efa4f8",
+    "max_output_tokens": "be767243",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "a504add7",
+    "endpoints": "75df3f1c"
+  },
+  "license": "proprietary",
+  "provider": "qwen"
+}

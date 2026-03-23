@@ -3,7 +3,7 @@
   "name": "o3-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "o3",
   "knowledge_cutoff": "2023-10",
   "capabilities": {
@@ -19,10 +19,16 @@
   "model_type": "reasoning",
   "_generated": {
     "name": "7ea41c2f",
-    "model_type": "17475f7f",
-    "knowledge_cutoff": "ffb42dbe",
     "family": "193049bc",
+    "knowledge_cutoff": "ffb42dbe",
     "capabilities": "0946b777",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "17475f7f",
+    "tools": "f0c1dc7e",
+    "description": "8558fed8",
+    "tagline": "77926f78"
+  },
+  "tools": ["function_calling"],
+  "description": "- Enhanced reasoning abilities . - Structured outputs. - Text-only processing. - Functions and tools.",
+  "tagline": "- Enhanced reasoning abilities ."
 }

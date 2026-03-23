@@ -3,7 +3,7 @@
   "name": "AionLabs: Aion-1.0",
   "created_by": "aion-labs",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Aion-1.0 is a multi-model system designed for high performance across various tasks, including reasoning and coding.",
   "context_window": 131072,
   "max_output_tokens": 32768,
@@ -23,8 +23,12 @@
     "description": "5242aeb4",
     "context_window": "f7de594e",
     "max_output_tokens": "f4376436",
-    "pricing": "2356a41b",
+    "modalities": "68e53d93",
     "capabilities": "7107421f",
-    "modalities": "68e53d93"
-  }
+    "pricing": "2356a41b",
+    "release_date": "583486a8",
+    "tagline": "5242aeb4"
+  },
+  "release_date": "2025-02-04",
+  "tagline": "Aion-1.0 is a multi-model system designed for high performance across various tasks, including reasoning and coding."
 }

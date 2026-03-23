@@ -3,7 +3,7 @@
   "name": "qwen2.5-coder-7b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen2.5",
   "capabilities": {
     "streaming": true,
@@ -12,6 +12,12 @@
   "_generated": {
     "name": "c007451b",
     "family": "45d84b68",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "b6cc3ff4",
+    "parameters": "8f14e45f",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "code",
+  "parameters": 7,
+  "tools": ["function_calling"]
 }

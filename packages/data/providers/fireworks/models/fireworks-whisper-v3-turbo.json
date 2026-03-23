@@ -3,19 +3,24 @@
   "name": "whisper-v3-turbo",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "whisper",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 0.0009,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "f4210c57",
     "family": "7fbc43e3",
-    "pricing": "f5b13319",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "09c25d77",
+    "model_type": "5e12d29a",
+    "page_url": "e605d331"
+  },
+  "model_type": "transcription",
+  "page_url": "https://fireworks.ai/models/fireworks/whisper-v3-turbo"
 }

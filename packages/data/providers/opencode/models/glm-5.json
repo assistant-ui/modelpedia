@@ -3,20 +3,24 @@
   "name": "GLM 5",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 1
+    "input": 1,
+    "output": 3.2,
+    "cached_input": 0.2
   },
   "_generated": {
     "name": "e4938687",
     "status": "379ac110",
-    "pricing": "1b478256",
     "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "pricing": "7959e9d6",
+    "model_type": "d669f408",
+    "family": "309daa86"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "glm-5"
 }

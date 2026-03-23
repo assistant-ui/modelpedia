@@ -12,5 +12,7 @@
     "name": "4c956875",
     "family": "4c956875",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 7
 }

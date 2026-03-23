@@ -3,12 +3,35 @@
   "name": "Mistral-Nemo-Instruct-2407-lenient-chatfix",
   "created_by": "m8than",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "e3e68cf8",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "page_url": "0376661b",
+    "description": "1e3158cb",
+    "release_date": "197f1bba",
+    "context_window": "f7de594e",
+    "license": "60245731",
+    "parameters": "c20ad4d7",
+    "tagline": "1e3158cb",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "page_url": "https://huggingface.co/m8than/Mistral-Nemo-Instruct-2407-lenient-chatfix",
+  "description": "It's just mistral nemo 2407 with a less strict chat format.",
+  "release_date": "2025-05-06",
+  "context_window": 131072,
+  "license": "apache-2.0",
+  "parameters": 12,
+  "tagline": "It's just mistral nemo 2407 with a less strict chat format.",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

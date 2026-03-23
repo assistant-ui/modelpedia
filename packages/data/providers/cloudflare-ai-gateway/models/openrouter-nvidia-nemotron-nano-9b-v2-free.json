@@ -6,5 +6,7 @@
   "last_updated": "2026-03-22",
   "_generated": {
     "name": "f50b28fa"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 9
 }

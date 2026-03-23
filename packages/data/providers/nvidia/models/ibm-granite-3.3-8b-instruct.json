@@ -3,13 +3,17 @@
   "name": "granite-3.3-8b-instruct",
   "created_by": "ibm",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
   },
   "_generated": {
     "name": "c80a1c8e",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "c9f0f895",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 8,
+  "tools": ["function_calling"]
 }

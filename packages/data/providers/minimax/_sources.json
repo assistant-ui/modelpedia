@@ -1,3 +1,4 @@
 {
-  "pricing": "https://platform.minimax.io/docs/guides/pricing-paygo.md"
+  "pricing": "https://platform.minimax.io/docs/guides/pricing-paygo.md",
+  "models": "https://platform.minimax.io/docs/api-reference/text-anthropic-api.md"
 }

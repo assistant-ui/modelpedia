@@ -329,6 +329,7 @@ async function main() {
         ? `DeepSeek ${versionLabel} (Reasoner)`
         : `DeepSeek ${versionLabel} (Chat)`,
       family: "deepseek-chat",
+      license: "mit",
       description: isReasoner
         ? `${latestVersion?.version ?? "DeepSeek-V3.2"} in thinking mode with chain-of-thought reasoning.`
         : `${latestVersion?.version ?? "DeepSeek-V3.2"} in non-thinking mode. Best for general chat, code, and tool use.`,
@@ -384,6 +385,7 @@ async function main() {
           ? `DeepSeek ${label} (Reasoner)`
           : `DeepSeek ${label} (Chat)`,
         family: "deepseek-chat",
+        license: "mit",
         model_type: wasReasoning ? "reasoning" : "chat",
         status: isCurrent ? "active" : "deprecated",
         release_date: v.date,

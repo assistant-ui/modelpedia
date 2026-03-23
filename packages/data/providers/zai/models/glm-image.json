@@ -1,0 +1,27 @@
+{
+  "id": "glm-image",
+  "name": "GLM-IMAGE",
+  "created_by": "zai",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "glm",
+  "license": "mit",
+  "page_url": "https://docs.z.ai/guides/image/glm-image",
+  "architecture": "hybrid",
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "9411cc52",
+    "family": "cb6bfc11",
+    "license": "3c4c3ba5",
+    "page_url": "6f5aab98",
+    "architecture": "4e0d2dc9",
+    "model_type": "d669f408",
+    "modalities": "814867b9",
+    "open_weight": "b326b506"
+  }
+}

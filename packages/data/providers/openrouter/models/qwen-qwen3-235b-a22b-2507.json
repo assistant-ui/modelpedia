@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 235B A22B Instruct 2507",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "description": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass.",
   "context_window": 262144,
@@ -22,13 +22,26 @@
   },
   "_generated": {
     "name": "b1abf939",
+    "family": "48c385a0",
     "description": "342f992b",
     "context_window": "4a1d32eb",
-    "family": "48c385a0",
-    "pricing": "44b94ddb",
-    "capabilities": "f533f522",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "capabilities": "f533f522",
+    "pricing": "44b94ddb",
+    "model_type": "d669f408",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "release_date": "161bb403",
+    "max_output_tokens": "77441296",
+    "tagline": "342f992b",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 235,
+  "active_parameters": 22,
+  "release_date": "2025-07-21",
+  "max_output_tokens": 8192,
+  "alias": "qwen/qwen3-235b-a22b",
+  "tagline": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass.",
+  "tools": ["function_calling"]
 }

@@ -10,5 +10,8 @@
   "_generated": {
     "name": "f1d50d5b",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "model_type": "chat",
+  "family": "mistral-nemo",
+  "parameters": 8
 }

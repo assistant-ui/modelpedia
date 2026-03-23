@@ -3,7 +3,7 @@
   "name": "Claude Opus 4.5",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "claude-opus",
   "status": "active",
   "knowledge_cutoff": "2025-05",
@@ -54,7 +54,13 @@
     "extended_thinking": "b326b506",
     "training_data_cutoff": "5549a2cd",
     "priority_tier": "b326b506",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "page_url": "9fb3fb0e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false,
+  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-5"
 }

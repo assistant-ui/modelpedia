@@ -11,5 +11,8 @@
   "_generated": {
     "name": "afb04925",
     "pricing": "4a55a07f"
-  }
+  },
+  "model_type": "chat",
+  "family": "mistral-7b",
+  "parameters": 7
 }

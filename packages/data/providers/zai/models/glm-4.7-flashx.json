@@ -3,14 +3,15 @@
   "name": "GLM-4.7-FlashX",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 200000,
   "max_output_tokens": 128000,
   "capabilities": {
     "streaming": true,
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "prompt_caching": true
   },
   "modalities": {
     "input": ["text"],
@@ -20,7 +21,29 @@
     "name": "c18a58e1",
     "context_window": "03e6c616",
     "max_output_tokens": "34434798",
-    "capabilities": "0946b777",
-    "modalities": "68e53d93"
+    "capabilities": "97babf9a",
+    "modalities": "68e53d93",
+    "family": "02d3d929",
+    "model_type": "d669f408",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "description": "6fe887c0",
+    "page_url": "7e3aef75",
+    "tagline": "6fe887c0",
+    "pricing": "d92d3379"
+  },
+  "family": "glm-4.7",
+  "model_type": "chat",
+  "license": "mit",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "description": "GLM-4.7-FlashX: Lightweight, High-Speed,and Affordable",
+  "page_url": "https://docs.z.ai/guides/llm/glm-4.7",
+  "tagline": "GLM-4.7-FlashX: Lightweight, High-Speed,and Affordable",
+  "pricing": {
+    "input": 0.07,
+    "output": 0.4,
+    "cached_input": 0.01
   }
 }

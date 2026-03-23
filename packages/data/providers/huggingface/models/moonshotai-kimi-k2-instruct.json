@@ -3,12 +3,33 @@
   "name": "Kimi-K2-Instruct",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "fc1f167d",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "family": "c23da547",
+    "model_type": "d669f408",
+    "page_url": "fec3e7dd",
+    "release_date": "c4808e8f",
+    "context_window": "f7de594e",
+    "license": "ddb0b7bc",
+    "parameters": "24146db4",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "family": "Kimi-K2",
+  "model_type": "chat",
+  "page_url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
+  "release_date": "2025-07-11",
+  "context_window": 131072,
+  "license": "other",
+  "parameters": 1026,
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

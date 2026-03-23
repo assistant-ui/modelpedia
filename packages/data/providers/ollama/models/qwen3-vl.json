@@ -3,16 +3,44 @@
   "name": "qwen3-vl",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "826954c2",
     "family": "48c385a0",
-    "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "capabilities": "a19166f1",
+    "model_type": "d669f408",
+    "description": "fdbfa2f2",
+    "release_date": "3cb5c95a",
+    "parameters": "577ef115",
+    "page_url": "d7d5b204",
+    "tagline": "fdbfa2f2",
+    "context_window": "4a1d32eb",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "reasoning_tokens": "b326b506",
+    "modalities": "6399757e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "description": "The most powerful vision-language model in the Qwen model family to date.",
+  "release_date": "2025-09-22",
+  "parameters": 235,
+  "page_url": "https://ollama.com/library/qwen3-vl",
+  "tagline": "The most powerful vision-language model in the Qwen model family to date.",
+  "context_window": 262144,
+  "license": "open-weight",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "reasoning_tokens": true,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  }
 }

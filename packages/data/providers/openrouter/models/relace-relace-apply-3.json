@@ -3,7 +3,7 @@
   "name": "Relace: Relace Apply 3",
   "created_by": "relace",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Relace Apply 3 is a specialized code-patching LLM that merges AI-suggested edits straight into your source files.",
   "context_window": 256000,
   "max_output_tokens": 128000,
@@ -20,7 +20,11 @@
     "description": "7c9549dd",
     "context_window": "2fd324cb",
     "max_output_tokens": "34434798",
+    "modalities": "68e53d93",
     "pricing": "14a7542d",
-    "modalities": "68e53d93"
-  }
+    "release_date": "9503bf58",
+    "tagline": "7c9549dd"
+  },
+  "release_date": "2025-09-26",
+  "tagline": "Relace Apply 3 is a specialized code-patching LLM that merges AI-suggested edits straight into your source files."
 }

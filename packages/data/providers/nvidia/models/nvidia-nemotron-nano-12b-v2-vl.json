@@ -3,7 +3,7 @@
   "name": "nemotron-nano-12b-v2-vl",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -11,6 +11,12 @@
   },
   "_generated": {
     "name": "93ba3e0f",
-    "capabilities": "1a260abc"
-  }
+    "capabilities": "1a260abc",
+    "model_type": "d669f408",
+    "parameters": "c20ad4d7",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 12,
+  "tools": ["function_calling"]
 }

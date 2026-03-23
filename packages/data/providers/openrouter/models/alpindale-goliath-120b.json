@@ -3,7 +3,7 @@
   "name": "Goliath 120B",
   "created_by": "alpindale",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "A large LLM created by combining two fine-tuned Llama 70B models into one 120B model.",
   "context_window": 6144,
   "max_output_tokens": 1024,
@@ -23,8 +23,14 @@
     "description": "497fab5d",
     "context_window": "197f76fe",
     "max_output_tokens": "021bbc7e",
-    "pricing": "6069ccff",
+    "modalities": "68e53d93",
     "capabilities": "c8033cf7",
-    "modalities": "68e53d93"
-  }
+    "pricing": "6069ccff",
+    "parameters": "da4fb5c6",
+    "release_date": "800fa2c8",
+    "tagline": "497fab5d"
+  },
+  "parameters": 120,
+  "release_date": "2023-11-10",
+  "tagline": "A large LLM created by combining two fine-tuned Llama 70B models into one 120B model."
 }

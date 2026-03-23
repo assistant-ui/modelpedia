@@ -3,7 +3,7 @@
   "name": "DeepSeek: R1 Distill Qwen 32B",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek-r1",
   "description": "DeepSeek R1 Distill Qwen 32B is a distilled large language model based on [Qwen 2.5 32B](https://huggingface.co/Qwen/Qwen2.5-32B), using outputs from [DeepSeek R1](/deepseek/deepseek-r1).",
   "context_window": 32768,
@@ -22,12 +22,20 @@
   },
   "_generated": {
     "name": "7dfd5d31",
+    "family": "c74cfb8e",
     "description": "1305f1ea",
     "context_window": "f4376436",
     "max_output_tokens": "f4376436",
-    "family": "c74cfb8e",
-    "pricing": "2c6b1f7c",
+    "modalities": "68e53d93",
     "capabilities": "ee598c3a",
-    "modalities": "68e53d93"
-  }
+    "pricing": "2c6b1f7c",
+    "model_type": "17475f7f",
+    "parameters": "6364d3f0",
+    "release_date": "fcfc42e9",
+    "tagline": "1305f1ea"
+  },
+  "model_type": "reasoning",
+  "parameters": 32,
+  "release_date": "2025-01-29",
+  "tagline": "DeepSeek R1 Distill Qwen 32B is a distilled large language model based on [Qwen 2.5 32B](https://huggingface.co/Qwen/Qwen2.5-32B), using outputs from [DeepSeek R1](/deepseek/deepseek-r1)."
 }

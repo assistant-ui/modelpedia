@@ -3,7 +3,7 @@
   "name": "DeepSeek: deepseek-chat-v2.5",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "deepseek-chat",
   "pricing": {
     "input": 2,
@@ -12,6 +12,8 @@
   "_generated": {
     "name": "d7c8025f",
     "family": "fbd79fd9",
-    "pricing": "dc324ffc"
-  }
+    "pricing": "dc324ffc",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

@@ -3,7 +3,7 @@
   "name": "gpt-5.4-nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.4",
   "knowledge_cutoff": "2025-08",
   "context_window": 400000,
@@ -21,11 +21,19 @@
   },
   "_generated": {
     "name": "af7a852f",
+    "family": "4651e8f0",
+    "knowledge_cutoff": "5549a2cd",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
-    "knowledge_cutoff": "5549a2cd",
-    "family": "4651e8f0",
     "capabilities": "781c5d26",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e",
+    "description": "573ba3c0",
+    "tagline": "d4e99fff"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"],
+  "description": "- Reasoning - Responses API . - Chat Completions API. - Structured outputs. - Text and image processing. - Functions, tools, and parallel tool calling. - Full summary of capabilities .",
+  "tagline": "- Reasoning - Responses API ."
 }

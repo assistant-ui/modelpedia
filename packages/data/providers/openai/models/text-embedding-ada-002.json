@@ -3,7 +3,7 @@
   "name": "text-embedding-ada-002",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "text-embedding-ada-002 is our improved, more performant version of our ada embedding model.",
   "status": "active",
   "model_type": "embed",
@@ -38,13 +38,21 @@
   "_generated": {
     "name": "46c23e4a",
     "description": "268b683d",
-    "tagline": "3c0c8cf6",
     "status": "379ac110",
     "model_type": "764cb3de",
     "performance": "c4ca4238",
     "speed": "c81e728d",
-    "pricing": "9c51fb62",
+    "tagline": "3c0c8cf6",
     "modalities": "68e53d93",
-    "endpoints": "fc976575"
-  }
+    "pricing": "9c51fb62",
+    "endpoints": "fc976575",
+    "family": "41411f76",
+    "license": "9186c466",
+    "page_url": "6f23ce9c",
+    "open_weight": "68934a3e"
+  },
+  "family": "text-embedding",
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/text-embedding-ada-002",
+  "open_weight": false
 }

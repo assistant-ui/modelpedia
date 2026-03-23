@@ -3,15 +3,15 @@
   "name": "DeepSeek: deepseek-reasoner",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-22",
-  "family": "deepseek",
+  "last_updated": "2026-03-23",
+  "family": "deepseek-reasoner",
   "pricing": {
     "input": 0.28,
     "output": 0.42
   },
   "_generated": {
     "name": "a77024ce",
-    "family": "4b81b92d",
+    "family": "aa49b78e",
     "pricing": "11daaba7"
   }
 }

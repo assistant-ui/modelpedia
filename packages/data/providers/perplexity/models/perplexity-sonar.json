@@ -3,7 +3,7 @@
   "name": "perplexity/sonar",
   "created_by": "perplexity",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -15,7 +15,17 @@
   },
   "_generated": {
     "name": "fa6bd07c",
+    "capabilities": "48995a4e",
     "pricing": "0d8e4d83",
-    "capabilities": "48995a4e"
-  }
+    "family": "8b8f2acb",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
+  },
+  "family": "sonar",
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false,
+  "tools": ["function_calling"]
 }

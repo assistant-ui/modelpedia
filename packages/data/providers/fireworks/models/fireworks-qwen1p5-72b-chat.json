@@ -3,7 +3,7 @@
   "name": "qwen1p5-72b-chat",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen1",
   "context_window": 32800,
   "capabilities": {
@@ -11,13 +11,20 @@
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "5f583b7c",
-    "context_window": "74a190a6",
     "family": "250362e8",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "74a190a6",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "model_type": "d669f408",
+    "parameters": "32bb90e8",
+    "page_url": "767112e6"
+  },
+  "model_type": "chat",
+  "parameters": 72,
+  "page_url": "https://fireworks.ai/models/fireworks/qwen1p5-72b-chat"
 }

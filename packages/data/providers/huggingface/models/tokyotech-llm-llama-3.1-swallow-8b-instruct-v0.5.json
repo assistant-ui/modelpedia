@@ -3,12 +3,37 @@
   "name": "Llama-3.1-Swallow-8B-Instruct-v0.5",
   "created_by": "tokyotech-llm",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "fb6c4d1f",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "family": "6cef7f07",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "page_url": "c9711004",
+    "description": "f3ee3fca",
+    "release_date": "ac3a61ad",
+    "context_window": "f7de594e",
+    "license": "4be9601c",
+    "tagline": "e4c79722",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "family": "Llama-3.1",
+  "model_type": "chat",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.5",
+  "description": "Llama 3.1 Swallow is a series of large language models (8B, 70B) that were built by continual pre-training on the [Meta Llama 3.1](https://huggingface.co/collections/meta-llama/llama-31-669fc079a0c406a149a5738f) models. Llama 3.1 Swallow enhanced the Japanese language capabilities of the original Llama 3.1 while retaining the English language capabilities.",
+  "release_date": "2025-06-12",
+  "context_window": 131072,
+  "license": "llama3.3",
+  "tagline": "Llama 3.1 Swallow is a series of large language models (8B, 70B) that were built by continual pre-training on the [Meta Llama 3.1](https://huggingface.co/collections/meta-llama/llama-31-669fc079a0c406a149a5738f) models.",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

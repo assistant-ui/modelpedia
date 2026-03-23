@@ -3,7 +3,7 @@
   "name": "grok-2-vision",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "grok-2",
   "context_window": 32800,
   "capabilities": {
@@ -17,9 +17,13 @@
   },
   "_generated": {
     "name": "92709c89",
-    "context_window": "74a190a6",
     "family": "78b98e57",
+    "context_window": "74a190a6",
+    "capabilities": "fc36814c",
     "pricing": "783da94d",
-    "capabilities": "fc36814c"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

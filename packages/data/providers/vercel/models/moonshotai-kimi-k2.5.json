@@ -3,7 +3,7 @@
   "name": "kimi-k2.5",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 262100,
   "capabilities": {
     "streaming": true,
@@ -18,7 +18,13 @@
   "_generated": {
     "name": "69ffee7b",
     "context_window": "b23f4471",
+    "capabilities": "a19166f1",
     "pricing": "3a47d26f",
-    "capabilities": "a19166f1"
-  }
+    "family": "69ffee7b",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "family": "kimi-k2.5",
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

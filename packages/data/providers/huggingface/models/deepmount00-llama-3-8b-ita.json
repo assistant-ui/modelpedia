@@ -3,12 +3,37 @@
   "name": "Llama-3-8b-Ita",
   "created_by": "deepmount00",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "278db16b",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "family": "a18f0819",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "page_url": "62573a2d",
+    "description": "5b519f8d",
+    "release_date": "cf964101",
+    "context_window": "77441296",
+    "license": "c1eeabcd",
+    "tagline": "4d4adc3b",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "family": "Llama-3",
+  "model_type": "chat",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/DeepMount00/Llama-3-8b-Ita",
+  "description": "**💡 Found this resource helpful?** Creating and maintaining open source AI models and datasets requires significant computational resources. If this work has been valuable to you, consider [supporting my research](https://buymeacoffee.com/michele.montebovi) to help me continue building tools that benefit the entire AI community. Every contribution directly funds more open source innovation! ☕",
+  "release_date": "2024-05-01",
+  "context_window": 8192,
+  "license": "llama3",
+  "tagline": "**💡 Found this resource helpful?** Creating and maintaining open source AI models and datasets requires significant computational resources.",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

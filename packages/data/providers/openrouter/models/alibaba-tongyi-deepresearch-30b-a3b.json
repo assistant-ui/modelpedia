@@ -3,7 +3,7 @@
   "name": "Tongyi DeepResearch 30B A3B",
   "created_by": "alibaba",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Tongyi DeepResearch is an agentic large language model developed by Tongyi Lab, with 30 billion total parameters activating only 3 billion per token.",
   "context_window": 131072,
   "max_output_tokens": 131072,
@@ -26,8 +26,20 @@
     "description": "16cb8faf",
     "context_window": "f7de594e",
     "max_output_tokens": "f7de594e",
-    "pricing": "a55b298b",
+    "modalities": "68e53d93",
     "capabilities": "f533f522",
-    "modalities": "68e53d93"
-  }
+    "pricing": "a55b298b",
+    "model_type": "d669f408",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "release_date": "ae10afe6",
+    "tagline": "16cb8faf",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 30,
+  "active_parameters": 3,
+  "release_date": "2025-09-18",
+  "tagline": "Tongyi DeepResearch is an agentic large language model developed by Tongyi Lab, with 30 billion total parameters activating only 3 billion per token.",
+  "tools": ["function_calling"]
 }

@@ -3,13 +3,17 @@
   "name": "rakutenai-7b-chat",
   "created_by": "rakuten",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
   },
   "_generated": {
     "name": "3040be3b",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "8f14e45f",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 7,
+  "tools": ["function_calling"]
 }

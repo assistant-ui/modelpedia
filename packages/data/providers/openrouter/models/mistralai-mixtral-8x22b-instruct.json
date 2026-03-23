@@ -3,7 +3,7 @@
   "name": "Mistral: Mixtral 8x22B Instruct",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "mixtral",
   "description": "Mistral's official instruct fine-tuned version of [Mixtral 8x22B](/models/mistralai/mixtral-8x22b).",
   "context_window": 65536,
@@ -22,13 +22,19 @@
   },
   "_generated": {
     "name": "a53a8fc3",
+    "family": "3c47d372",
     "description": "49cc5cbc",
     "context_window": "297ce0b3",
-    "family": "3c47d372",
-    "pricing": "9277b5ca",
-    "capabilities": "ad177261",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "capabilities": "ad177261",
+    "pricing": "9277b5ca",
+    "model_type": "d669f408",
+    "release_date": "3413c173",
+    "tagline": "49cc5cbc",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "release_date": "2024-04-17",
+  "tagline": "Mistral's official instruct fine-tuned version of [Mixtral 8x22B](/models/mistralai/mixtral-8x22b).",
+  "tools": ["function_calling"]
 }

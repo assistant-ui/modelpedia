@@ -3,7 +3,7 @@
   "name": "glm-4.6v-flash",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 128000,
   "capabilities": {
     "streaming": true,
@@ -18,7 +18,13 @@
   "_generated": {
     "name": "b18ea330",
     "context_window": "34434798",
+    "capabilities": "a19166f1",
     "pricing": "9a7a9781",
-    "capabilities": "a19166f1"
-  }
+    "family": "5a2dc6aa",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "family": "glm-4.6",
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

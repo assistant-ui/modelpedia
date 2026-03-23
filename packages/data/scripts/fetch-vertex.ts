@@ -2,6 +2,7 @@ import * as fs from "node:fs";
 import * as path from "node:path";
 import {
   buildPricing,
+  inferParameters,
   type ModelEntry,
   readSources,
   runGenerate,
@@ -334,6 +335,7 @@ async function main() {
       );
 
       // Build entry from Google model data (without Google pricing)
+      const params = inferParameters(google.id);
       const entry: ModelEntry = {
         id: google.id,
         name: google.name,
@@ -357,6 +359,12 @@ async function main() {
         performance: google.performance,
         reasoning: google.reasoning,
         speed: google.speed,
+        license: google.license,
+        parameters: google.parameters ?? params?.parameters,
+        active_parameters:
+          google.active_parameters ?? params?.active_parameters,
+        architecture: google.architecture,
+        open_weight: google.open_weight,
       };
 
       // Add Vertex-specific pricing
@@ -375,6 +383,12 @@ async function main() {
       entry.name.toLowerCase().replace(/\s+/g, "-"),
     );
     if (vertexPrice) entry.pricing = buildPricing(vertexPrice);
+    const params = inferParameters(entry.id);
+    if (params) {
+      entry.parameters = params.parameters;
+      if (params.active_parameters)
+        entry.active_parameters = params.active_parameters;
+    }
     written += upsertWithSnapshot("vertex", entry);
   }
 

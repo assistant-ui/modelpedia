@@ -3,12 +3,18 @@
   "name": "Minimax Speech 2 6 Turbo",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "0340d2e2",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "family": "c85916f0",
+    "model_type": "d669f408",
+    "page_url": "2c5c1975"
+  },
+  "family": "minimax",
+  "model_type": "chat",
+  "page_url": "https://www.together.ai/models/minimax-speech-2-6-turbo"
 }

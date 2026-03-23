@@ -2,12 +2,22 @@
   "id": "openrouter",
   "name": "OpenRouter",
   "region": "US",
+  "headquarters": "New York, NY",
+  "founded": 2023,
   "url": "https://openrouter.ai",
   "api_url": "https://openrouter.ai/api/v1",
   "docs_url": "https://openrouter.ai/docs",
   "pricing_url": "https://openrouter.ai/models",
   "description": "Unified API gateway providing access to 200+ models from multiple providers with standardized pricing.",
   "type": "aggregator",
+  "playground_url": "https://openrouter.ai/playground",
   "status_url": "https://status.openrouter.ai",
-  "free_tier": true
+  "openai_compatible": true,
+  "free_tier": true,
+  "github_url": "https://github.com/OpenRouterTeam",
+  "models_url": "https://openrouter.ai/models",
+  "twitter_url": "https://x.com/OpenRouterAI",
+  "discord_url": "https://discord.com/invite/openrouter",
+  "terms_url": "https://openrouter.ai/terms",
+  "support_url": "https://openrouter.ai/support"
 }

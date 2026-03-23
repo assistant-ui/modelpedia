@@ -3,7 +3,7 @@
   "name": "GPT-4.1 series",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4.1",
   "capabilities": {
     "streaming": true
@@ -16,6 +16,12 @@
     "name": "025091bd",
     "family": "d240daf4",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "d669f408",
+    "description": "8c4ac655",
+    "tagline": "8c4ac655"
+  },
+  "model_type": "chat",
+  "description": "gpt-4.1, gpt-4.1-mini, gpt-4.1-nano",
+  "tagline": "gpt-4.1, gpt-4.1-mini, gpt-4.1-nano"
 }

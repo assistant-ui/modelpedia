@@ -13,5 +13,8 @@
     "name": "cb63399a",
     "family": "48c385a0",
     "pricing": "d70e7f2d"
-  }
+  },
+  "model_type": "code",
+  "parameters": 30,
+  "active_parameters": 3
 }

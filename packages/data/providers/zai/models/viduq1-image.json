@@ -1,0 +1,21 @@
+{
+  "id": "viduq1-image",
+  "name": "VIDUQ1-IMAGE",
+  "created_by": "zai",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "license": "mit",
+  "page_url": "https://docs.z.ai/guides/video/vidu-q1",
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["video"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "058404af",
+    "license": "3c4c3ba5",
+    "page_url": "1c40ab01",
+    "modalities": "43c560c1",
+    "open_weight": "b326b506"
+  }
+}

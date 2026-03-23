@@ -3,14 +3,25 @@
   "name": "llama-3.3-70b-instruct-fp8-fast",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-3.3",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "f1500ac7",
     "family": "54c5fe24",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "7cbbc409",
+    "status": "379ac110",
+    "page_url": "2f4dc5eb",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 70,
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#llama-3.3-70b-instruct-fp8-fast",
+  "tools": ["function_calling"]
 }

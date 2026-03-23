@@ -3,7 +3,7 @@
   "name": "Google: Gemini 2.5 Flash",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemini-2.5",
   "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks.",
   "context_window": 1048576,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "ccb656e0",
+    "family": "ea6b88bf",
     "description": "4c9d3a8c",
     "context_window": "7d28a051",
     "max_output_tokens": "3c9b5f1c",
-    "family": "ea6b88bf",
-    "pricing": "1a0e496e",
+    "modalities": "af19b295",
     "capabilities": "f533f522",
-    "modalities": "af19b295"
-  }
+    "pricing": "1a0e496e",
+    "model_type": "d669f408",
+    "release_date": "41e2691d",
+    "tagline": "4c9d3a8c",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-06-17",
+  "tagline": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks.",
+  "tools": ["function_calling"]
 }

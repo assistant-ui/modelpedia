@@ -3,7 +3,7 @@
   "name": "qwen3.5-flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwen3.5",
   "context_window": 1000000,
   "max_output_tokens": 81920,
@@ -30,6 +30,10 @@
     "capabilities": "b011c6b4",
     "modalities": "68e53d93",
     "pricing": "aa5a4e42",
-    "endpoints": "75df3f1c"
-  }
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "open_weight": "b326b506"
+  },
+  "license": "apache-2.0",
+  "open_weight": true
 }

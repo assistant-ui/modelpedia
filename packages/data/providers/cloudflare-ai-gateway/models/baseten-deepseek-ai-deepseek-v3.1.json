@@ -3,7 +3,7 @@
   "name": "Baseten: deepseek-ai/deepseek-v3.1",
   "created_by": "baseten",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "deepseek",
   "pricing": {
     "input": 0.5,
@@ -12,6 +12,8 @@
   "_generated": {
     "name": "960f6bd2",
     "family": "4b81b92d",
-    "pricing": "2c3abb73"
-  }
+    "pricing": "2c3abb73",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

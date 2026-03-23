@@ -3,7 +3,7 @@
   "name": "Composer 1.5",
   "created_by": "cursor",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -24,11 +24,19 @@
   "speed": 4,
   "_generated": {
     "name": "b54b241e",
+    "capabilities": "7ca28ec9",
+    "modalities": "6399757e",
+    "pricing": "32a69858",
     "context_window": "03e6c616",
     "performance": "a87ff679",
     "speed": "a87ff679",
-    "pricing": "32a69858",
-    "capabilities": "7ca28ec9",
-    "modalities": "6399757e"
-  }
+    "tools": "f0c1dc7e",
+    "page_url": "0cad3209",
+    "model_type": "d669f408",
+    "pricing_notes": "963e4ad1"
+  },
+  "tools": ["function_calling"],
+  "page_url": "https://cursor.com/docs/models-and-pricing#cursor-composer-1-5",
+  "model_type": "chat",
+  "pricing_notes": ["Hidden by default"]
 }

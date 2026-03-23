@@ -17,5 +17,7 @@
     "context_window": "b23f4471",
     "pricing": "7fd03be2",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "family": "kimi-k2",
+  "model_type": "chat"
 }

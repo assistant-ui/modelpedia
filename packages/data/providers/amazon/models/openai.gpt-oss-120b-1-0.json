@@ -17,5 +17,7 @@
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93"
-  }
+  },
+  "family": "gpt-oss",
+  "parameters": 120
 }

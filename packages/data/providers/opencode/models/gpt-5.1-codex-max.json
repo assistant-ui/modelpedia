@@ -3,20 +3,24 @@
   "name": "GPT 5.1 Codex Max",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.1",
   "status": "active",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 1.25
+    "input": 1.25,
+    "output": 10,
+    "cached_input": 0.125
   },
   "_generated": {
     "name": "8a940bfd",
-    "status": "379ac110",
     "family": "2089aff2",
-    "pricing": "a5891d3a",
-    "capabilities": "0fa77dc6"
-  }
+    "status": "379ac110",
+    "capabilities": "0fa77dc6",
+    "pricing": "50bb1323",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

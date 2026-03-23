@@ -3,7 +3,7 @@
   "name": "mistral-7b-02",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "context_window": 32000,
   "capabilities": {
@@ -19,7 +19,17 @@
     "context_window": "10e4d788",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "family": "33212289",
+    "license": "60245731",
+    "parameters": "8f14e45f",
+    "page_url": "27eeb2be",
+    "open_weight": "b326b506"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "mistral-7b",
+  "license": "apache-2.0",
+  "parameters": 7,
+  "page_url": "https://docs.mistral.ai/models/mistral-7b-0-2",
+  "open_weight": true
 }

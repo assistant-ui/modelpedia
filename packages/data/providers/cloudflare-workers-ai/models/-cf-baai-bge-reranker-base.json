@@ -3,14 +3,18 @@
   "name": "bge-reranker-base",
   "created_by": "baai",
   "source": "official",
-  "last_updated": "2026-03-21",
-  "model_type": "rerank",
+  "last_updated": "2026-03-23",
+  "model_type": "classification",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "79dae5ae",
-    "model_type": "477930e6",
-    "capabilities": "0fa77dc6"
-  }
+    "model_type": "b815fc69",
+    "capabilities": "0fa77dc6",
+    "status": "379ac110",
+    "page_url": "047f5ee7"
+  },
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#bge-reranker-base"
 }

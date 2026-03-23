@@ -3,7 +3,7 @@
   "name": "qwen2p5-vl-32b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen2",
   "context_window": 128000,
   "capabilities": {
@@ -11,13 +11,20 @@
   },
   "pricing": {
     "input": 0.9,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "7b6a9e52",
-    "context_window": "34434798",
     "family": "66ff794a",
-    "pricing": "45b0b66e",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "34434798",
+    "capabilities": "0fa77dc6",
+    "pricing": "d5937f56",
+    "model_type": "d669f408",
+    "parameters": "6364d3f0",
+    "page_url": "6527a6c8"
+  },
+  "model_type": "chat",
+  "parameters": 32,
+  "page_url": "https://fireworks.ai/models/fireworks/qwen2p5-vl-32b-instruct"
 }

@@ -3,7 +3,7 @@
   "name": "o1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "o1",
   "knowledge_cutoff": "2023-10",
   "capabilities": {
@@ -20,10 +20,16 @@
   "model_type": "reasoning",
   "_generated": {
     "name": "e1ab0820",
-    "model_type": "17475f7f",
-    "knowledge_cutoff": "ffb42dbe",
     "family": "e1ab0820",
+    "knowledge_cutoff": "ffb42dbe",
     "capabilities": "781c5d26",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "17475f7f",
+    "tools": "f0c1dc7e",
+    "description": "a1f8d1dc",
+    "tagline": "77926f78"
+  },
+  "tools": ["function_calling"],
+  "description": "- Enhanced reasoning abilities . - Structured outputs. - Text and image processing. - Functions and tools.",
+  "tagline": "- Enhanced reasoning abilities ."
 }

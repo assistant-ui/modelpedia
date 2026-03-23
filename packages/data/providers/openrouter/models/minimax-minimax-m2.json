@@ -3,7 +3,7 @@
   "name": "MiniMax: MiniMax M2",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows.",
   "context_window": 196608,
   "max_output_tokens": 196608,
@@ -26,10 +26,18 @@
     "description": "82e751e5",
     "context_window": "0dd0d2bf",
     "max_output_tokens": "0dd0d2bf",
-    "pricing": "749bd917",
-    "capabilities": "f533f522",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "capabilities": "f533f522",
+    "pricing": "749bd917",
+    "model_type": "d669f408",
+    "family": "c85916f0",
+    "release_date": "ef996cad",
+    "tagline": "82e751e5",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "minimax",
+  "release_date": "2025-10-23",
+  "tagline": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows.",
+  "tools": ["function_calling"]
 }

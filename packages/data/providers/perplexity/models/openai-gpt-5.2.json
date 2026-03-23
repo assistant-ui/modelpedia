@@ -3,7 +3,7 @@
   "name": "openai/gpt-5.2",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.2",
   "capabilities": {
     "streaming": true
@@ -16,7 +16,13 @@
   "_generated": {
     "name": "0a57c1d4",
     "family": "f580564d",
+    "capabilities": "0fa77dc6",
     "pricing": "b99db8a5",
-    "capabilities": "0fa77dc6"
-  }
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
+  },
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false
 }

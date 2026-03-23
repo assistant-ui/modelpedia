@@ -3,7 +3,7 @@
   "name": "gpt-oss",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-oss",
   "capabilities": {
     "streaming": true,
@@ -17,6 +17,12 @@
     "name": "82d0cb0b",
     "family": "82d0cb0b",
     "capabilities": "b011c6b4",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "d669f408",
+    "description": "137ca895",
+    "tagline": "137ca895"
+  },
+  "model_type": "chat",
+  "description": "open-weight reasoning models",
+  "tagline": "open-weight reasoning models"
 }

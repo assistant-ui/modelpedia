@@ -3,7 +3,7 @@
   "name": "gpt-4o-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4o",
   "knowledge_cutoff": "2023-10",
   "capabilities": {
@@ -18,9 +18,17 @@
   },
   "_generated": {
     "name": "86dcd1b7",
-    "knowledge_cutoff": "ffb42dbe",
     "family": "15249632",
+    "knowledge_cutoff": "ffb42dbe",
     "capabilities": "ee30ca00",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e",
+    "description": "eaab8bc1",
+    "tagline": "3acf22af"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"],
+  "description": "- Fast, inexpensive, capable model ideal for replacing GPT-3.5 Turbo series models. - Text and image processing. - JSON Mode. - Parallel function calling.",
+  "tagline": "- Fast, inexpensive, capable model ideal for replacing GPT-3.5 Turbo series models."
 }

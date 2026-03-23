@@ -13,5 +13,7 @@
     "name": "fda542e4",
     "family": "c74cfb8e",
     "pricing": "0e5c31f1"
-  }
+  },
+  "model_type": "reasoning",
+  "parameters": 32
 }

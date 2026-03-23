@@ -22,5 +22,6 @@
     "capabilities": "8a3b232e",
     "model_type": "d669f408"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 14
 }

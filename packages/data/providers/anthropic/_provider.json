@@ -2,17 +2,28 @@
   "id": "anthropic",
   "name": "Anthropic",
   "region": "US",
+  "headquarters": "San Francisco, CA",
+  "founded": 2021,
   "url": "https://anthropic.com",
   "api_url": "https://api.anthropic.com/v1",
   "docs_url": "https://docs.anthropic.com",
   "pricing_url": "https://anthropic.com/pricing",
   "description": "AI safety company building Claude, a family of helpful, harmless, and honest AI assistants.",
   "type": "direct",
+  "playground_url": "https://console.anthropic.com",
   "status_url": "https://status.anthropic.com",
   "changelog_url": "https://docs.anthropic.com/en/docs/about-claude/models",
   "sdk": {
     "python": "anthropic",
     "javascript": "@anthropic-ai/sdk"
   },
-  "free_tier": false
+  "openai_compatible": false,
+  "free_tier": false,
+  "github_url": "https://github.com/anthropics",
+  "models_url": "https://docs.anthropic.com/en/docs/about-claude/models",
+  "twitter_url": "https://x.com/AnthropicAI",
+  "discord_url": "https://discord.com/invite/anthropic",
+  "blog_url": "https://www.anthropic.com/research",
+  "terms_url": "https://www.anthropic.com/legal/commercial-terms",
+  "support_url": "https://support.anthropic.com"
 }

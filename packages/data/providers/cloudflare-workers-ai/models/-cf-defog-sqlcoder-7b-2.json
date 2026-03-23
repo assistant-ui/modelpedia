@@ -3,12 +3,20 @@
   "name": "sqlcoder-7b-2",
   "created_by": "defog",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "9593c486",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "parameters": "8f14e45f",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "5eee5370"
+  },
+  "parameters": 7,
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#sqlcoder-7b-2"
 }

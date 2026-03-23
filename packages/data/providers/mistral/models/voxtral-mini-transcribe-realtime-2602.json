@@ -3,7 +3,7 @@
   "name": "voxtral-mini-transcribe-realtime-2602",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "alias": "voxtral-mini-transcribe-realtime",
   "capabilities": {
@@ -18,8 +18,16 @@
   "_generated": {
     "name": "42e7691c",
     "status": "379ac110",
-    "model_type": "5e12d29a",
     "capabilities": "8a3b232e",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "5e12d29a",
+    "family": "88a5dabd",
+    "license": "60245731",
+    "page_url": "80076711",
+    "open_weight": "b326b506"
+  },
+  "family": "voxtral",
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/voxtral-mini-transcribe-realtime-26-02",
+  "open_weight": true
 }

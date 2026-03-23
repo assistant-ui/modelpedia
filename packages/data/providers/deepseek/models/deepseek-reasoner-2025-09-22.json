@@ -3,7 +3,7 @@
   "name": "DeepSeek V3.1-Terminus (Reasoner)",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "deepseek-chat",
   "status": "deprecated",
   "release_date": "2025-09-22",
@@ -28,8 +28,12 @@
     "capabilities": "b011c6b4",
     "modalities": "68e53d93",
     "deprecation_date": "d032c55c",
-    "successor": "f0858228"
+    "successor": "f0858228",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506"
   },
   "deprecation_date": "2025-09-29",
-  "successor": "deepseek-reasoner-2025-09-29"
+  "successor": "deepseek-reasoner-2025-09-29",
+  "license": "mit",
+  "open_weight": true
 }

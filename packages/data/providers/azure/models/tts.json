@@ -3,7 +3,7 @@
   "name": "tts",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
@@ -14,6 +14,14 @@
   "_generated": {
     "name": "4e16a2cf",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "family": "4e16a2cf",
+    "description": "36badbce",
+    "model_type": "4e16a2cf",
+    "tagline": "36badbce"
+  },
+  "family": "tts",
+  "description": "Text-to-speech model optimized for speed.",
+  "model_type": "tts",
+  "tagline": "Text-to-speech model optimized for speed."
 }

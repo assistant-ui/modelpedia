@@ -2,11 +2,20 @@
   "id": "zai",
   "name": "Z.AI (Zhipu)",
   "region": "CN",
+  "headquarters": "Beijing, Beijing",
+  "founded": 2019,
   "url": "https://z.ai",
   "api_url": "https://api.z.ai/api/paas/v4",
   "docs_url": "https://docs.z.ai",
   "pricing_url": "https://z.ai/pricing",
   "description": "Zhipu AI builds GLM models for Chinese and multilingual AI applications.",
   "type": "direct",
-  "free_tier": true
+  "aliases": ["zhipu"],
+  "openai_compatible": true,
+  "free_tier": true,
+  "github_url": "https://github.com/THUDM",
+  "models_url": "https://open.bigmodel.cn/modelcenter/overview",
+  "twitter_url": "https://x.com/ZhipuAI",
+  "terms_url": "https://open.bigmodel.cn/dev/howuse/serviceagreement",
+  "support_url": "https://z.ai/contact"
 }

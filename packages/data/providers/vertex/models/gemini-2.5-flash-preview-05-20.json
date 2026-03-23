@@ -52,5 +52,6 @@
     "pricing": "eaae666f",
     "capabilities": "8a3b232e",
     "modalities": "6399757e"
-  }
+  },
+  "model_type": "chat"
 }

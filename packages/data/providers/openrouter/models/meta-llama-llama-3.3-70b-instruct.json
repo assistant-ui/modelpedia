@@ -3,7 +3,7 @@
   "name": "Meta: Llama 3.3 70B Instruct",
   "created_by": "meta-llama",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-3.3",
   "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out).",
   "context_window": 131072,
@@ -22,12 +22,22 @@
   },
   "_generated": {
     "name": "5c4baa70",
+    "family": "54c5fe24",
     "description": "1101908b",
     "context_window": "f7de594e",
     "max_output_tokens": "c76fe1d8",
-    "family": "54c5fe24",
-    "pricing": "7b29c39d",
+    "modalities": "68e53d93",
     "capabilities": "ad177261",
-    "modalities": "68e53d93"
-  }
+    "pricing": "7b29c39d",
+    "model_type": "d669f408",
+    "parameters": "7cbbc409",
+    "release_date": "725ace28",
+    "tagline": "1101908b",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 70,
+  "release_date": "2024-12-06",
+  "tagline": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out).",
+  "tools": ["function_calling"]
 }

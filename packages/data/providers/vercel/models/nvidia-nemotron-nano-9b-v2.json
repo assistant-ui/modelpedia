@@ -3,7 +3,7 @@
   "name": "nemotron-nano-9b-v2",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 131100,
   "capabilities": {
     "streaming": true,
@@ -17,7 +17,13 @@
   "_generated": {
     "name": "490e020f",
     "context_window": "a683b9ae",
+    "capabilities": "a281e83a",
     "pricing": "b6eb2e4e",
-    "capabilities": "a281e83a"
-  }
+    "model_type": "d669f408",
+    "parameters": "45c48cce",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 9,
+  "tools": ["function_calling"]
 }

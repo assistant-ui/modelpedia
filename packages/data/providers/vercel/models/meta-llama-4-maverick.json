@@ -3,7 +3,7 @@
   "name": "llama-4-maverick",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-4",
   "context_window": 524300,
   "capabilities": {
@@ -17,9 +17,13 @@
   },
   "_generated": {
     "name": "7bdf891b",
-    "context_window": "e1786268",
     "family": "3169363f",
+    "context_window": "e1786268",
+    "capabilities": "fc36814c",
     "pricing": "9fb15efe",
-    "capabilities": "fc36814c"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

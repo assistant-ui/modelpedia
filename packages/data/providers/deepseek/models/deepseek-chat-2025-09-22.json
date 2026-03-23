@@ -3,7 +3,7 @@
   "name": "DeepSeek V3.1-Terminus (Chat)",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "deepseek-chat",
   "status": "deprecated",
   "release_date": "2025-09-22",
@@ -25,8 +25,12 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "deprecation_date": "d032c55c",
-    "successor": "84ef64bd"
+    "successor": "84ef64bd",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506"
   },
   "deprecation_date": "2025-09-29",
-  "successor": "deepseek-chat-2025-09-29"
+  "successor": "deepseek-chat-2025-09-29",
+  "license": "mit",
+  "open_weight": true
 }

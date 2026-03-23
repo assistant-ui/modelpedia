@@ -3,7 +3,7 @@
   "name": "deepseek-v3.2",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek",
   "capabilities": {
     "streaming": true
@@ -11,6 +11,27 @@
   "_generated": {
     "name": "48d500c4",
     "family": "4b81b92d",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "description": "778f5f16",
+    "release_date": "75f289bd",
+    "page_url": "e8c06df0",
+    "tagline": "778f5f16",
+    "context_window": "7edab444",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "description": "DeepSeek-V3.2, a model that harmonizes high computational efficiency with superior reasoning and agent performance.",
+  "release_date": "2025-12-02",
+  "page_url": "https://ollama.com/library/deepseek-v3.2",
+  "tagline": "DeepSeek-V3.2, a model that harmonizes high computational efficiency with superior reasoning and agent performance.",
+  "context_window": 163840,
+  "license": "open-weight",
+  "open_weight": true,
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

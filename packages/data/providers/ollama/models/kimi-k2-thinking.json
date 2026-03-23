@@ -3,14 +3,35 @@
   "name": "kimi-k2-thinking",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "2a84c5e4",
     "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "family": "0f7256d5",
+    "description": "9a408571",
+    "release_date": "70416073",
+    "page_url": "1fc83758",
+    "tagline": "9a408571",
+    "context_window": "4a1d32eb",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "kimi-k2",
+  "description": "Kimi K2 Thinking, Moonshot AI&#39;s best open-source thinking model.",
+  "release_date": "2025-11-06",
+  "page_url": "https://ollama.com/library/kimi-k2-thinking",
+  "tagline": "Kimi K2 Thinking, Moonshot AI&#39;s best open-source thinking model.",
+  "context_window": 262144,
+  "license": "open-weight",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,18 +3,30 @@
   "name": "qwen2-72b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen2",
+  "context_window": 131072,
+  "max_output_tokens": 6144,
+  "model_type": "chat",
   "capabilities": {
-    "streaming": true,
-    "tool_call": true
+    "streaming": true
   },
-  "provider": "qwen",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
   "_generated": {
     "name": "7eb81422",
     "family": "66ff794a",
-    "capabilities": "48995a4e",
-    "model_type": "d669f408"
+    "context_window": "f7de594e",
+    "max_output_tokens": "197f76fe",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "75df3f1c"
   },
-  "model_type": "chat"
+  "license": "apache-2.0",
+  "parameters": 72,
+  "provider": "qwen"
 }

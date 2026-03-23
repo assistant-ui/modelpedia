@@ -1,0 +1,39 @@
+{
+  "id": "kimi-k2-0711-preview",
+  "name": "Kimi K2 (0711)",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "kimi",
+  "description": "MoE model with 1T total parameters and 32B active. Strong at code and agent tasks.",
+  "context_window": 128000,
+  "max_output_tokens": 32768,
+  "license": "mit",
+  "parameters": 1000,
+  "active_parameters": 32,
+  "architecture": "MoE",
+  "model_type": "chat",
+  "tagline": "MoE model with 1T total parameters and 32B active.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1f4a5b86",
+    "family": "0740f86b",
+    "description": "21cb586e",
+    "context_window": "34434798",
+    "max_output_tokens": "f4376436",
+    "license": "3c4c3ba5",
+    "parameters": "a9b7ba70",
+    "active_parameters": "6364d3f0",
+    "architecture": "c2d4b00d",
+    "model_type": "d669f408",
+    "tagline": "08ace6e4",
+    "capabilities": "48995a4e",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  }
+}

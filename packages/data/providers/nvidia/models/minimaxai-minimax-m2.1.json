@@ -10,5 +10,7 @@
   "_generated": {
     "name": "668bdaef",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "family": "minimax",
+  "model_type": "chat"
 }

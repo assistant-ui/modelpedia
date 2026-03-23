@@ -13,5 +13,7 @@
     "name": "d32bb18d",
     "family": "c74cfb8e",
     "pricing": "8268b658"
-  }
+  },
+  "model_type": "reasoning",
+  "parameters": 8
 }

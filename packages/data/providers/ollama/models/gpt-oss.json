@@ -3,7 +3,7 @@
   "name": "gpt-oss",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-oss",
   "capabilities": {
     "streaming": true
@@ -11,6 +11,29 @@
   "_generated": {
     "name": "82d0cb0b",
     "family": "82d0cb0b",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408",
+    "description": "216ed4f2",
+    "release_date": "67086b15",
+    "page_url": "b5c51282",
+    "tagline": "216ed4f2",
+    "context_window": "f7de594e",
+    "license": "60245731",
+    "parameters": "98f13708",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
+  },
+  "model_type": "chat",
+  "description": "OpenAI’s open-weight models designed for powerful reasoning, agentic tasks, and versatile developer use cases.",
+  "release_date": "2025-08-05",
+  "page_url": "https://ollama.com/library/gpt-oss",
+  "tagline": "OpenAI’s open-weight models designed for powerful reasoning, agentic tasks, and versatile developer use cases.",
+  "context_window": 131072,
+  "license": "apache-2.0",
+  "parameters": 20,
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

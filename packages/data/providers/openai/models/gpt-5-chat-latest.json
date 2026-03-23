@@ -3,7 +3,7 @@
   "name": "GPT-5 Chat",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5",
   "description": "GPT-5 Chat points to the GPT-5 snapshot previously used in ChatGPT.",
   "status": "active",
@@ -37,20 +37,26 @@
   "snapshots": ["gpt-5-chat-latest"],
   "_generated": {
     "name": "ca806a96",
+    "family": "aa904c16",
     "description": "bc796fee",
-    "tagline": "0fd44329",
     "status": "379ac110",
-    "model_type": "d669f408",
+    "knowledge_cutoff": "b0196d6e",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
     "max_input_tokens": "3f9281a0",
-    "knowledge_cutoff": "b0196d6e",
+    "model_type": "d669f408",
     "performance": "eccbc87e",
     "speed": "eccbc87e",
-    "family": "aa904c16",
+    "tagline": "0fd44329",
     "capabilities": "fdacdfa5",
     "modalities": "6399757e",
     "tools": "1d5a765f",
-    "endpoints": "72e91ba7"
-  }
+    "endpoints": "72e91ba7",
+    "license": "9186c466",
+    "page_url": "557c1ded",
+    "open_weight": "68934a3e"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-5-chat-latest",
+  "open_weight": false
 }

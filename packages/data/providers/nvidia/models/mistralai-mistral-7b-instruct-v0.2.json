@@ -3,13 +3,21 @@
   "name": "mistral-7b-instruct-v0.2",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
   },
   "_generated": {
     "name": "7617c9fd",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "family": "33212289",
+    "parameters": "8f14e45f",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "family": "mistral-7b",
+  "parameters": 7,
+  "tools": ["function_calling"]
 }

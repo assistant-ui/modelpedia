@@ -3,12 +3,20 @@
   "name": "flux-2-klein-9b",
   "created_by": "black-forest-labs",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "ddfaa1f4",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "model_type": "db8857fe",
+    "parameters": "45c48cce",
+    "status": "127aecde",
+    "page_url": "5776cd42"
+  },
+  "model_type": "image",
+  "parameters": 9,
+  "status": "preview",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#flux-2-klein-9b"
 }

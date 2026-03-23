@@ -117,16 +117,31 @@ async function fetchModelDetail(slug: string): Promise<ModelDetail | null> {
     mainText,
   );
 
+  // Description: first paragraph-like text after the model name heading
+  const descMatch = mainHtml.match(
+    /<p[^>]*>\s*((?:Our |A |An |The |This )[^<]{20,300}?\.)\s*<\/p>/i,
+  );
+  const description = descMatch
+    ? descMatch[1].replace(/\s+/g, " ").trim()
+    : undefined;
+
+  // Capabilities: detect function calling from feature list
+  const capabilities: string[] = [];
+  if (/Function\s*Calling/i.test(mainText)) {
+    capabilities.push("function_calling");
+  }
+
   // Reconstruct API ID from slug
   const apiId = idMatch?.[1] ?? slug.replace(/-(\d+)-(\d+)$/, "-$1$2");
 
   return {
     id: apiId,
     slug,
+    description,
     context_window: contextMatch ? Number(contextMatch[1]) * 1000 : undefined,
     pricing_input: priceMatch ? Number(priceMatch[1]) : undefined,
     pricing_output: priceMatch ? Number(priceMatch[2]) : undefined,
-    capabilities: [],
+    capabilities,
     vision: hasVision,
     deprecated: false,
   };
@@ -201,6 +216,14 @@ async function main() {
       id: detail.id,
       name: detail.id,
       family: inferFamily(detail.id),
+      page_url: `${MODEL_DETAIL_BASE}${detail.slug}`,
+      license: /^(mistral-medium|devstral-medium|magistral-medium)/i.test(
+        detail.id,
+      )
+        ? "proprietary"
+        : /^(codestral(?!-mamba)|pixtral-large)/i.test(detail.id)
+          ? "mnpl"
+          : "apache-2.0",
       description: apiModel?.description ?? detail.description,
       status: isDeprecated ? "deprecated" : "active",
       context_window: apiModel?.max_context_length ?? detail.context_window,
@@ -213,7 +236,8 @@ async function main() {
       },
       capabilities: {
         streaming: true,
-        ...(apiModel?.capabilities?.function_calling
+        ...(apiModel?.capabilities?.function_calling ||
+        detail.capabilities.includes("function_calling")
           ? { tool_call: true }
           : {}),
         ...(apiModel?.capabilities?.vision || detail.vision
@@ -221,9 +245,6 @@ async function main() {
           : {}),
         ...(apiModel?.capabilities?.fine_tuning ? { fine_tuning: true } : {}),
       },
-      ...(apiModel?.capabilities?.function_calling
-        ? { tools: ["function_calling"] }
-        : {}),
     };
 
     if (detail.pricing_input != null && detail.pricing_output != null) {

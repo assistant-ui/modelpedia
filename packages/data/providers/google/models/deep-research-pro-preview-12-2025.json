@@ -3,7 +3,7 @@
   "name": "deep-research-pro-preview-12-2025",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "status": "active",
   "context_window": 1048576,
   "max_output_tokens": 65536,
@@ -25,12 +25,20 @@
   "_generated": {
     "name": "2548f07c",
     "status": "379ac110",
-    "model_type": "17475f7f",
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
+    "model_type": "17475f7f",
     "capabilities": "29b57eef",
     "modalities": "08235294",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
-  }
+    "endpoints": "20e16908",
+    "family": "4b37ac1d",
+    "license": "9186c466",
+    "page_url": "459e0f14",
+    "open_weight": "68934a3e"
+  },
+  "family": "deep-research",
+  "license": "proprietary",
+  "page_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-pro-preview-12-2025",
+  "open_weight": false
 }

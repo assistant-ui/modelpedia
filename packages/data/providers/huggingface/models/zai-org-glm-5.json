@@ -3,12 +3,37 @@
   "name": "GLM-5",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "bfb92394",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "family": "bfb92394",
+    "model_type": "d669f408",
+    "page_url": "15cb2069",
+    "description": "d4c39df6",
+    "release_date": "d8edba92",
+    "context_window": "6ea395a4",
+    "license": "3c4c3ba5",
+    "parameters": "872488f8",
+    "tagline": "ae1efab3",
+    "architecture": "31b2172c",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "family": "GLM-5",
+  "model_type": "chat",
+  "page_url": "https://huggingface.co/zai-org/GLM-5",
+  "description": "👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\"_blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\"_blank\">Discord</a> community.",
+  "release_date": "2026-02-11",
+  "context_window": 202752,
+  "license": "mit",
+  "parameters": 754,
+  "tagline": "👋 Join our <a href=\"https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/wechat.png\" target=\"_blank\">WeChat</a> or <a href=\"https://discord.gg/QR7SARHRxK\" target=\"_blank\">Discord",
+  "architecture": "moe",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

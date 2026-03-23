@@ -3,7 +3,7 @@
   "name": "qwen2.5-math-72b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwen2.5",
   "context_window": 4096,
   "max_output_tokens": 3072,
@@ -29,6 +29,12 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "pricing": "a504add7",
-    "endpoints": "75df3f1c"
-  }
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "parameters": "32bb90e8",
+    "open_weight": "b326b506"
+  },
+  "license": "apache-2.0",
+  "parameters": 72,
+  "open_weight": true
 }

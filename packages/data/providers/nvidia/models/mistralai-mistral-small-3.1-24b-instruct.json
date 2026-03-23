@@ -3,7 +3,7 @@
   "name": "mistral-small-3.1-24b-instruct-2503",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "mistral-small",
   "capabilities": {
     "streaming": true,
@@ -13,6 +13,12 @@
   "_generated": {
     "name": "73106d4c",
     "family": "275918a5",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "1ff1de77",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 24,
+  "tools": ["function_calling"]
 }

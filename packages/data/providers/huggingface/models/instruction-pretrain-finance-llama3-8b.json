@@ -3,12 +3,30 @@
   "name": "finance-Llama3-8B",
   "created_by": "instruction-pretrain",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "04ec231d",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "parameters": "c9f0f895",
+    "page_url": "9995f419",
+    "description": "335f2823",
+    "release_date": "867b0729",
+    "context_window": "77441296",
+    "license": "c1eeabcd",
+    "tagline": "335f2823",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506"
+  },
+  "parameters": 8,
+  "page_url": "https://huggingface.co/instruction-pretrain/finance-Llama3-8B",
+  "description": "This repo contains the **finance model developed from Llama3-8B** in our paper [Instruction Pre-Training: Language Models are Supervised Multitask Learners](https://huggingface.co/papers/2406.14491).",
+  "release_date": "2024-06-18",
+  "context_window": 8192,
+  "license": "llama3",
+  "tagline": "This repo contains the **finance model developed from Llama3-8B** in our paper [Instruction Pre-Training: Language Models are Supervised Multitask Learners](https://huggingface.co/papers/2406.14491).",
+  "architecture": "transformer",
+  "open_weight": true
 }

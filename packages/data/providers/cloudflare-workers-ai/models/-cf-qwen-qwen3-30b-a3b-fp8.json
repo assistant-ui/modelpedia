@@ -3,14 +3,28 @@
   "name": "qwen3-30b-a3b-fp8",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "66fdd1f8",
     "family": "48c385a0",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "a281e83a",
+    "model_type": "d669f408",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "status": "379ac110",
+    "page_url": "ff9a0be4",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 30,
+  "active_parameters": 3,
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#qwen3-30b-a3b-fp8",
+  "tools": ["function_calling"]
 }

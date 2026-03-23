@@ -3,7 +3,7 @@
   "name": "devstral-2",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "devstral",
   "capabilities": {
     "streaming": true
@@ -11,8 +11,29 @@
   "model_type": "code",
   "_generated": {
     "name": "00e7b6e7",
-    "model_type": "b6cc3ff4",
     "family": "e626e93e",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "model_type": "b6cc3ff4",
+    "description": "ae45a6c5",
+    "release_date": "57064400",
+    "parameters": "202cb962",
+    "page_url": "b31e177b",
+    "tagline": "ae45a6c5",
+    "context_window": "4a1d32eb",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
+  },
+  "description": "123B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
+  "release_date": "2025-12-08",
+  "parameters": 123,
+  "page_url": "https://ollama.com/library/devstral-2",
+  "tagline": "123B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
+  "context_window": 262144,
+  "license": "mit",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

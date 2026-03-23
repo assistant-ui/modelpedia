@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3.5 Plus 2026-02-15",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3.5",
   "description": "The Qwen3.5 native vision-language series Plus models are built on a hybrid architecture that integrates linear attention mechanisms with sparse mixture-of-experts models, achieving higher inference efficiency.",
   "context_window": 1000000,
@@ -23,12 +23,20 @@
   },
   "_generated": {
     "name": "309c9d1d",
+    "family": "d548f421",
     "description": "6d8e194d",
     "context_window": "8155bc54",
     "max_output_tokens": "297ce0b3",
-    "family": "d548f421",
-    "pricing": "21b8e26e",
+    "modalities": "3ad4060a",
     "capabilities": "f533f522",
-    "modalities": "3ad4060a"
-  }
+    "pricing": "21b8e26e",
+    "model_type": "d669f408",
+    "release_date": "6c624983",
+    "tagline": "8b15074c",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2026-02-16",
+  "tagline": "The Qwen3.5 native vision-language series Plus models are built on a hybrid architecture that integrates linear attention mechanisms with sparse mixture-of-experts models, achieving higher inference e",
+  "tools": ["function_calling"]
 }

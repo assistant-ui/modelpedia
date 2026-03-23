@@ -3,7 +3,7 @@
   "name": "Llama 3.3 70B",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-3.3",
   "status": "active",
   "context_window": 131072,
@@ -24,13 +24,21 @@
   },
   "_generated": {
     "name": "16c0ae7e",
+    "family": "54c5fe24",
     "status": "379ac110",
-    "model_type": "d669f408",
     "context_window": "f7de594e",
     "max_output_tokens": "f4376436",
-    "family": "54c5fe24",
-    "pricing": "da87c3a0",
+    "model_type": "d669f408",
     "capabilities": "6c301a15",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "pricing": "da87c3a0",
+    "parameters": "7cbbc409",
+    "speed": "92c8c96e",
+    "page_url": "76143566",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 70,
+  "speed": 280,
+  "page_url": "https://console.groq.com/docs/models#llama-3.3-70b-versatile",
+  "tools": ["function_calling"]
 }

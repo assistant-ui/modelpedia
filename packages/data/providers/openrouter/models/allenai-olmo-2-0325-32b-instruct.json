@@ -3,7 +3,7 @@
   "name": "AllenAI: Olmo 2 32B Instruct",
   "created_by": "allenai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "OLMo-2 32B Instruct is a supervised instruction-finetuned variant of the OLMo-2 32B March 2025 base model.",
   "context_window": 128000,
   "modalities": {
@@ -18,7 +18,13 @@
     "name": "ed1f605d",
     "description": "c7cf6dfb",
     "context_window": "34434798",
+    "modalities": "68e53d93",
     "pricing": "6aa94ff1",
-    "modalities": "68e53d93"
-  }
+    "parameters": "6364d3f0",
+    "release_date": "e0a4c199",
+    "tagline": "c7cf6dfb"
+  },
+  "parameters": 32,
+  "release_date": "2025-03-14",
+  "tagline": "OLMo-2 32B Instruct is a supervised instruction-finetuned variant of the OLMo-2 32B March 2025 base model."
 }

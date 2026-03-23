@@ -3,14 +3,31 @@
   "name": "Qwen3-32B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "11c5e488",
-    "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "6364d3f0",
+    "page_url": "7d8c5ffd",
+    "release_date": "59488f52",
+    "context_window": "a422a18c",
+    "license": "60245731",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 32,
+  "page_url": "https://huggingface.co/Qwen/Qwen3-32B",
+  "release_date": "2025-04-27",
+  "context_window": 40960,
+  "license": "apache-2.0",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

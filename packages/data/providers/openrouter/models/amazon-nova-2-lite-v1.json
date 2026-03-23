@@ -3,7 +3,7 @@
   "name": "Amazon: Nova 2 Lite",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Nova 2 Lite is a fast, cost-effective reasoning model for everyday workloads that can process text, images, and videos to generate text.",
   "context_window": 1000000,
   "max_output_tokens": 65535,
@@ -24,8 +24,16 @@
     "description": "aa8b0d71",
     "context_window": "8155bc54",
     "max_output_tokens": "3c9b5f1c",
-    "pricing": "8d495dc1",
+    "modalities": "3ad4060a",
     "capabilities": "05723a3e",
-    "modalities": "3ad4060a"
-  }
+    "pricing": "8d495dc1",
+    "model_type": "d669f408",
+    "release_date": "75f289bd",
+    "tagline": "aa8b0d71",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-12-02",
+  "tagline": "Nova 2 Lite is a fast, cost-effective reasoning model for everyday workloads that can process text, images, and videos to generate text.",
+  "tools": ["function_calling"]
 }

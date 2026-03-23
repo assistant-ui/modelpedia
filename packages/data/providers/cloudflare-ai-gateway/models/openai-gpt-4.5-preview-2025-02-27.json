@@ -11,5 +11,7 @@
   "_generated": {
     "name": "fa9f43de",
     "pricing": "59fef76f"
-  }
+  },
+  "family": "gpt-4.5",
+  "model_type": "chat"
 }

@@ -1,0 +1,28 @@
+{
+  "id": "wan2.2-s2v-detect",
+  "name": "wan2.2-s2v-detect",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "model_type": "video",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "9e76c9a1",
+    "model_type": "4d1b75ca",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e",
+    "endpoints": "75df3f1c",
+    "family": "222d75c9"
+  },
+  "family": "wan2.2",
+  "license": "proprietary",
+  "provider": "qwen"
+}

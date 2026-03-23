@@ -3,7 +3,7 @@
   "name": "Meta: Llama 3.1 70B Instruct",
   "created_by": "meta-llama",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-3.1",
   "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors.",
   "context_window": 131072,
@@ -21,11 +21,21 @@
   },
   "_generated": {
     "name": "9e5e5c2e",
+    "family": "83ec32db",
     "description": "7847fd3f",
     "context_window": "f7de594e",
-    "family": "83ec32db",
-    "pricing": "1982766c",
+    "modalities": "68e53d93",
     "capabilities": "ad177261",
-    "modalities": "68e53d93"
-  }
+    "pricing": "1982766c",
+    "model_type": "d669f408",
+    "parameters": "7cbbc409",
+    "release_date": "7be3efeb",
+    "tagline": "7847fd3f",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 70,
+  "release_date": "2024-07-23",
+  "tagline": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors.",
+  "tools": ["function_calling"]
 }

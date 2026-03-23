@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5 Image Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5",
   "description": "GPT-5 Image Mini combines OpenAI's advanced language capabilities, powered by [GPT-5 Mini](https://openrouter.ai/openai/gpt-5-mini), with GPT Image 1 Mini for efficient image generation.",
   "context_window": 400000,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "7f3384dd",
+    "family": "aa904c16",
     "description": "4cb06e2b",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
-    "family": "aa904c16",
-    "pricing": "b65bb3ae",
+    "modalities": "f5e0517a",
     "capabilities": "f533f522",
-    "modalities": "f5e0517a"
-  }
+    "pricing": "b65bb3ae",
+    "model_type": "d669f408",
+    "release_date": "afca85c1",
+    "tagline": "4cb06e2b",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-10-16",
+  "tagline": "GPT-5 Image Mini combines OpenAI's advanced language capabilities, powered by [GPT-5 Mini](https://openrouter.ai/openai/gpt-5-mini), with GPT Image 1 Mini for efficient image generation.",
+  "tools": ["function_calling"]
 }

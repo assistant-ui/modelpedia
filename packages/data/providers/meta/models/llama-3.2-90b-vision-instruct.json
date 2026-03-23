@@ -1,0 +1,43 @@
+{
+  "id": "Llama-3.2-90B-Vision-Instruct",
+  "name": "Llama-3.2-90B-Vision-Instruct",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "Llama-3.2",
+  "release_date": "2024-09-19",
+  "knowledge_cutoff": "2023-12",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "license": "llama3.2",
+  "parameters": 89,
+  "page_url": "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "389524ae",
+    "family": "40d4d5fc",
+    "release_date": "1e8d9d5f",
+    "knowledge_cutoff": "06c60023",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "license": "8c002029",
+    "parameters": "7647966b",
+    "page_url": "7b2dab7d",
+    "model_type": "d669f408",
+    "capabilities": "1a260abc",
+    "modalities": "6399757e",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  }
+}

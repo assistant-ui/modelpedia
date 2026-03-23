@@ -2,14 +2,24 @@
   "id": "fireworks",
   "name": "Fireworks AI",
   "region": "US",
+  "headquarters": "Redwood City, CA",
+  "founded": 2022,
   "url": "https://fireworks.ai",
   "api_url": "https://api.fireworks.ai/inference/v1",
   "docs_url": "https://docs.fireworks.ai",
   "pricing_url": "https://fireworks.ai/pricing",
   "description": "Fast inference platform optimized for production AI workloads with 250+ models.",
-  "type": "aggregator",
+  "type": "cloud",
+  "playground_url": "https://fireworks.ai/playground",
   "sdk": {
     "python": "fireworks-ai"
   },
-  "free_tier": true
+  "openai_compatible": true,
+  "free_tier": true,
+  "models_url": "https://fireworks.ai/models",
+  "twitter_url": "https://x.com/FireworksAI_HQ",
+  "discord_url": "https://discord.com/invite/fireworks-ai",
+  "blog_url": "https://fireworks.ai/blog",
+  "terms_url": "https://fireworks.ai/terms-of-service",
+  "support_url": "https://fireworks.ai/contact"
 }

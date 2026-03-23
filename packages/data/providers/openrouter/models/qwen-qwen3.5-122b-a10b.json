@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3.5-122B-A10B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3.5",
   "description": "The Qwen3.5 122B-A10B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency.",
   "context_window": 262144,
@@ -23,12 +23,24 @@
   },
   "_generated": {
     "name": "874314a2",
+    "family": "d548f421",
     "description": "ecd0e26f",
     "context_window": "4a1d32eb",
     "max_output_tokens": "297ce0b3",
-    "family": "d548f421",
-    "pricing": "6113d4cf",
+    "modalities": "3ad4060a",
     "capabilities": "f533f522",
-    "modalities": "3ad4060a"
-  }
+    "pricing": "6113d4cf",
+    "model_type": "d669f408",
+    "parameters": "a0a080f4",
+    "active_parameters": "d3d94468",
+    "release_date": "f2b68600",
+    "tagline": "80f07f74",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 122,
+  "active_parameters": 10,
+  "release_date": "2026-02-25",
+  "tagline": "The Qwen3.5 122B-A10B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference eff",
+  "tools": ["function_calling"]
 }

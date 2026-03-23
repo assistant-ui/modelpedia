@@ -3,12 +3,21 @@
   "name": "nova-3",
   "created_by": "deepgram",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "c0803038",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "page_url": "6d4befb4",
+    "tools": "f0c1dc7e"
+  },
+  "status": "active",
+  "model_type": "transcription",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#nova-3",
+  "tools": ["function_calling"]
 }

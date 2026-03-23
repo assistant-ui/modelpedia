@@ -13,5 +13,7 @@
     "name": "064d4006",
     "family": "48c385a0",
     "pricing": "4a81ba90"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 32
 }

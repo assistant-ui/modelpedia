@@ -3,7 +3,7 @@
   "name": "Perplexity: Sonar Pro",
   "created_by": "perplexity",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Note: Sonar Pro pricing includes Perplexity search pricing.",
   "context_window": 200000,
   "max_output_tokens": 8000,
@@ -20,7 +20,15 @@
     "description": "f488229b",
     "context_window": "03e6c616",
     "max_output_tokens": "67ff32d4",
+    "modalities": "6399757e",
     "pricing": "7939f0ff",
-    "modalities": "6399757e"
-  }
+    "family": "8b8f2acb",
+    "model_type": "d669f408",
+    "release_date": "24d5559e",
+    "tagline": "f488229b"
+  },
+  "family": "sonar",
+  "model_type": "chat",
+  "release_date": "2025-03-07",
+  "tagline": "Note: Sonar Pro pricing includes Perplexity search pricing."
 }

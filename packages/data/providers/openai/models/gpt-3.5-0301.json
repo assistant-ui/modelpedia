@@ -3,7 +3,7 @@
   "name": "gpt-3.5-0301",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-3.5",
   "status": "active",
   "knowledge_cutoff": "2021-08",
@@ -21,15 +21,23 @@
   "endpoints": ["chat_completions", "responses"],
   "_generated": {
     "name": "c47b4929",
+    "family": "7601054d",
     "status": "379ac110",
+    "knowledge_cutoff": "4778f833",
     "context_window": "7f4b18de",
     "max_output_tokens": "f7efa4f8",
-    "knowledge_cutoff": "4778f833",
     "performance": "c4ca4238",
     "speed": "c81e728d",
-    "family": "7601054d",
     "capabilities": "d53dc8e8",
     "modalities": "68e53d93",
-    "endpoints": "72e91ba7"
-  }
+    "endpoints": "72e91ba7",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "e11f1390",
+    "open_weight": "68934a3e"
+  },
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-3.5-0301",
+  "open_weight": false
 }

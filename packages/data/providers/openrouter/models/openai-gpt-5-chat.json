@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5 Chat",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5",
   "description": "GPT-5 Chat is designed for advanced, natural, multimodal, and context-aware conversations for enterprise applications.",
   "context_window": 128000,
@@ -22,12 +22,18 @@
   },
   "_generated": {
     "name": "e83ae7a3",
+    "family": "aa904c16",
     "description": "f9ab665b",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
-    "family": "aa904c16",
-    "pricing": "50bb1323",
+    "modalities": "8b8b28d1",
     "capabilities": "c8033cf7",
-    "modalities": "8b8b28d1"
-  }
+    "pricing": "50bb1323",
+    "model_type": "d669f408",
+    "release_date": "79c30d0c",
+    "tagline": "f9ab665b"
+  },
+  "model_type": "chat",
+  "release_date": "2025-08-07",
+  "tagline": "GPT-5 Chat is designed for advanced, natural, multimodal, and context-aware conversations for enterprise applications."
 }

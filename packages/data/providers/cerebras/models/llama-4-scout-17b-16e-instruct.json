@@ -3,7 +3,7 @@
   "name": "llama-4-scout-17b-16e-instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "llama-4",
   "status": "deprecated",
   "deprecation_date": "2025-11-03",
@@ -20,6 +20,10 @@
     "deprecation_date": "3c526217",
     "model_type": "d669f408",
     "successor": "7beed575",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "parameters": "70efdf2e",
+    "open_weight": "b326b506"
+  },
+  "parameters": 17,
+  "open_weight": true
 }

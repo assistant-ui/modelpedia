@@ -3,7 +3,7 @@
   "name": "qwq-32b",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwq",
   "context_window": 131100,
   "capabilities": {
@@ -11,13 +11,20 @@
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "2d469a71",
-    "context_window": "a683b9ae",
     "family": "3a976110",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "a683b9ae",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "model_type": "17475f7f",
+    "parameters": "6364d3f0",
+    "page_url": "e2720bfd"
+  },
+  "model_type": "reasoning",
+  "parameters": 32,
+  "page_url": "https://fireworks.ai/models/fireworks/qwq-32b"
 }

@@ -3,12 +3,33 @@
   "name": "Sakura-SOLAR-Instruct-CarbonVillain-en-10.7B-v2-slerp",
   "created_by": "invalid-coder",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "520171fc",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "6512bd43",
+    "page_url": "034fc7a2",
+    "description": "c4bd79d1",
+    "release_date": "d725b081",
+    "context_window": "f7efa4f8",
+    "license": "60245731",
+    "tagline": "a4cbfebd",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 11,
+  "page_url": "https://huggingface.co/invalid-coder/Sakura-SOLAR-Instruct-CarbonVillain-en-10.7B-v2-slerp",
+  "description": "NeuralPipe-7B-slerp is a merge of the following models using [LazyMergekit](https://colab.research.google.com/drive/1obulZ1ROXHjYLn6PPZJwRR6GzgQogxxb?usp=sharing): * [jeonsworld/CarbonVillain-en-10.7B-v2](https://huggingface.co/jeonsworld/CarbonVillain-en-10.7B-v2) * [kyujinpy/Sakura-SOLAR-Instruct](https://huggingface.co/kyujinpy/Sakura-SOLAR-Instruct)",
+  "release_date": "2024-01-10",
+  "context_window": 4096,
+  "license": "apache-2.0",
+  "tagline": "NeuralPipe-7B-slerp is a merge of the following models using [LazyMergekit](https://colab.research.google.com/drive/1obulZ1ROXHjYLn6PPZJwRR6GzgQogxxb?usp=sharing): * [jeonsworld/CarbonVillain-en-10.7B",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

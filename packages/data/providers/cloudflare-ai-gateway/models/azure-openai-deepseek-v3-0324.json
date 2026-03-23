@@ -3,7 +3,7 @@
   "name": "Azure OpenAI: deepseek-v3-0324",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "deepseek",
   "pricing": {
     "input": 1.1400000000000001,
@@ -12,6 +12,8 @@
   "_generated": {
     "name": "7b40365c",
     "family": "4b81b92d",
-    "pricing": "5a8bb898"
-  }
+    "pricing": "5a8bb898",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

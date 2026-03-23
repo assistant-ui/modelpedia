@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-4.1 Nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4.1",
   "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series.",
   "context_window": 1047576,
@@ -23,12 +23,20 @@
   },
   "_generated": {
     "name": "bf6baa94",
+    "family": "d240daf4",
     "description": "5dda0cf6",
     "context_window": "55410616",
     "max_output_tokens": "f4376436",
-    "family": "d240daf4",
-    "pricing": "26648b28",
+    "modalities": "8b8b28d1",
     "capabilities": "ad177261",
-    "modalities": "8b8b28d1"
-  }
+    "pricing": "26648b28",
+    "model_type": "d669f408",
+    "release_date": "85c7118a",
+    "tagline": "5dda0cf6",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-04-14",
+  "tagline": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series.",
+  "tools": ["function_calling"]
 }

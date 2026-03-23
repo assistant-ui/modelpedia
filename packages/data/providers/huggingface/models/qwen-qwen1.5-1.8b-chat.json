@@ -3,12 +3,31 @@
   "name": "Qwen1.5-1.8B-Chat",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "f2ae5af5",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "f932bed2",
+    "page_url": "f8c75625",
+    "release_date": "457fab86",
+    "context_window": "f4376436",
+    "license": "ddb0b7bc",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 1.8,
+  "page_url": "https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat",
+  "release_date": "2024-01-30",
+  "context_window": 32768,
+  "license": "other",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

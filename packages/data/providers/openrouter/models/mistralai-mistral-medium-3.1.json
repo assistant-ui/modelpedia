@@ -3,7 +3,7 @@
   "name": "Mistral: Mistral Medium 3.1",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "mistral-medium",
   "description": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost.",
   "context_window": 131072,
@@ -22,11 +22,19 @@
   },
   "_generated": {
     "name": "c23818db",
+    "family": "a57f1b52",
     "description": "8b122262",
     "context_window": "f7de594e",
-    "family": "a57f1b52",
-    "pricing": "e7be2550",
+    "modalities": "6399757e",
     "capabilities": "ad177261",
-    "modalities": "6399757e"
-  }
+    "pricing": "e7be2550",
+    "model_type": "d669f408",
+    "release_date": "ab9b808c",
+    "tagline": "a32981e8",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-08-13",
+  "tagline": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced opera",
+  "tools": ["function_calling"]
 }

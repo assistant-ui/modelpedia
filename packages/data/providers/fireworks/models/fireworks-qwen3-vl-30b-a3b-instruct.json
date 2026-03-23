@@ -3,7 +3,7 @@
   "name": "qwen3-vl-30b-a3b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "context_window": 262100,
   "capabilities": {
@@ -11,13 +11,22 @@
   },
   "pricing": {
     "input": 0.15,
-    "output": 1
+    "output": 1,
+    "cached_input": 0.6
   },
   "_generated": {
     "name": "6a12dad4",
-    "context_window": "b23f4471",
     "family": "48c385a0",
-    "pricing": "a568b9be",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "b23f4471",
+    "capabilities": "0fa77dc6",
+    "pricing": "6281dcf5",
+    "model_type": "d669f408",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "page_url": "a1f9d89b"
+  },
+  "model_type": "chat",
+  "parameters": 30,
+  "active_parameters": 3,
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3-vl-30b-a3b-instruct"
 }

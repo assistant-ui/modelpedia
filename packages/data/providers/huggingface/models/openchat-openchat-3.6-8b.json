@@ -3,13 +3,34 @@
   "name": "openchat-3.6-8b-20240522",
   "created_by": "openchat",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "snapshots": ["openchat/openchat-3.6-8b-20240522"],
   "_generated": {
     "name": "1c76e7a8",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "c9f0f895",
+    "page_url": "21bf6173",
+    "description": "f5d80dfd",
+    "release_date": "64ca6fad",
+    "context_window": "77441296",
+    "license": "c1eeabcd",
+    "tagline": "9af380a0",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 8,
+  "page_url": "https://huggingface.co/openchat/openchat-3.6-8b-20240522",
+  "description": "To use this model, we highly recommend installing the OpenChat package by following the [installation guide](https://github.com/imoneoi/openchat#installation) in our repository and using the OpenChat OpenAI-compatible API server by running the serving command from the table below. The server is optimized for high-throughput deployment using [vLLM](https://github.com/vllm-project/vllm) and can run on a consumer GPU with 24GB RAM.",
+  "release_date": "2024-05-07",
+  "context_window": 8192,
+  "license": "llama3",
+  "tagline": "To use this model, we highly recommend installing the OpenChat package by following the [installation guide](https://github.com/imoneoi/openchat#installation) in our repository and using the OpenChat OpenAI-compatible API server by running the serving command from the table below.",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

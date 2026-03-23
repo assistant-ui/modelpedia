@@ -3,12 +3,35 @@
   "name": "Qwen2.5-72B-Instruct-abliterated",
   "created_by": "huihui-ai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "2404076d",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "d2ddea18",
+    "page_url": "f77bf760",
+    "description": "5e9500ae",
+    "release_date": "a723afaa",
+    "context_window": "f4376436",
+    "license": "ddb0b7bc",
+    "tagline": "2b730e37",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 73,
+  "page_url": "https://huggingface.co/huihui-ai/Qwen2.5-72B-Instruct-abliterated",
+  "description": "This is an uncensored version of [Qwen/Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct) created with abliteration (see [remove-refusals-with-transformers](https://github.com/Sumandora/remove-refusals-with-transformers) to know more about it). This is a crude, proof-of-concept implementation to remove refusals from an LLM model without using TransformerLens.",
+  "release_date": "2024-10-26",
+  "context_window": 32768,
+  "license": "other",
+  "tagline": "This is an uncensored version of [Qwen/Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct) created with abliteration (see [remove-refusals-with-transformers](https://github.com/Sumandora/remove-refusals-with-transformers) to know more about it).",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

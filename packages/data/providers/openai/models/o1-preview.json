@@ -3,7 +3,7 @@
   "name": "o1 Preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "o1",
   "status": "deprecated",
   "knowledge_cutoff": "2023-09",
@@ -43,9 +43,19 @@
     "endpoints": "6558e44b",
     "description": "f5e9182d",
     "tagline": "ce167a6e",
-    "successor": "e1ab0820"
+    "successor": "e1ab0820",
+    "license": "9186c466",
+    "release_date": "928ac16b",
+    "page_url": "e8d0449e",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
   },
   "description": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
   "tagline": "Preview of our first o-series reasoning model",
-  "successor": "o1"
+  "successor": "o1",
+  "license": "proprietary",
+  "release_date": "2024-09-12",
+  "page_url": "https://platform.openai.com/docs/models/o1-preview",
+  "open_weight": false,
+  "tools": ["function_calling"]
 }

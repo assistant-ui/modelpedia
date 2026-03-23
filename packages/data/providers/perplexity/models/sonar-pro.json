@@ -3,7 +3,7 @@
   "name": "sonar-pro",
   "created_by": "perplexity",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "sonar",
   "capabilities": {
     "streaming": true,
@@ -16,7 +16,15 @@
   "_generated": {
     "name": "e40022c7",
     "family": "8b8f2acb",
+    "capabilities": "48995a4e",
     "pricing": "7939f0ff",
-    "capabilities": "48995a4e"
-  }
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false,
+  "tools": ["function_calling"]
 }

@@ -24,5 +24,8 @@
     "release_date": "ba6f7b94",
     "capabilities": "0946b777",
     "modalities": "68e53d93"
-  }
+  },
+  "family": "grok-3",
+  "model_type": "chat",
+  "license": "proprietary"
 }

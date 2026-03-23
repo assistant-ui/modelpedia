@@ -26,5 +26,8 @@
     "release_date": "3cd240bc",
     "capabilities": "0946b777",
     "modalities": "68e53d93"
-  }
+  },
+  "family": "grok-code",
+  "model_type": "code",
+  "license": "proprietary"
 }

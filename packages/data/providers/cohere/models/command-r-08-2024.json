@@ -3,7 +3,7 @@
   "name": "command-r-08-2024",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "description": "command-r-08-2024 is an update of the Command R model, delivered in August 2024. Find more information here",
   "status": "active",
   "context_window": 128000,
@@ -33,6 +33,12 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "pricing": "cf1c6d02",
-    "endpoints": "75df3f1c"
-  }
+    "endpoints": "75df3f1c",
+    "family": "439d5b76",
+    "license": "2c8e76b8",
+    "open_weight": "b326b506"
+  },
+  "family": "command-r",
+  "license": "cc-by-nc-4.0",
+  "open_weight": true
 }

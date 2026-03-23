@@ -13,5 +13,7 @@
     "name": "dd501530",
     "family": "83ec32db",
     "pricing": "fc97b676"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 8
 }

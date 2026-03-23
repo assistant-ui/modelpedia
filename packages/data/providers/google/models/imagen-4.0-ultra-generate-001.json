@@ -3,7 +3,7 @@
   "name": "imagen-4.0-ultra-generate-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "status": "active",
   "deprecation_date": "2026-06-24",
   "successor": ["gemini-3-pro-image-preview", "gemini-2.5-flash-image"],
@@ -15,9 +15,15 @@
   "_generated": {
     "name": "1f64ce27",
     "status": "379ac110",
-    "model_type": "db8857fe",
     "deprecation_date": "b7ac61f6",
     "successor": "27695f0c",
-    "modalities": "814867b9"
-  }
+    "model_type": "db8857fe",
+    "modalities": "814867b9",
+    "family": "becf3f6b",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
+  },
+  "family": "imagen-4.0",
+  "license": "proprietary",
+  "open_weight": false
 }

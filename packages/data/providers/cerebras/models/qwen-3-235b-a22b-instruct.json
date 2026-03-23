@@ -3,7 +3,7 @@
   "name": "Qwen 3 235B Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwen",
   "context_window": 131000,
   "max_output_tokens": 40000,
@@ -35,16 +35,20 @@
     "endpoints": "772bacef",
     "model_card_url": "36ad69b1",
     "tokens_per_second": "f0dd4a99",
-    "parameters": "e2f12399",
+    "parameters": "577ef115",
     "precision": "c851ef38",
-    "huggingface_url": "36ad69b1"
+    "huggingface_url": "36ad69b1",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "status": "preview",
   "endpoints": ["chat_completions", "completions"],
   "model_card_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
   "tokens_per_second": 1400,
-  "parameters": "235 billion",
+  "parameters": 235,
   "precision": "FP16/FP8 (weights only)",
-  "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507"
+  "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

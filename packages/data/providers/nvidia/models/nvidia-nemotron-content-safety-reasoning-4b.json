@@ -3,7 +3,7 @@
   "name": "nemotron-content-safety-reasoning-4b",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -12,7 +12,11 @@
   "_generated": {
     "name": "d9ab44e2",
     "capabilities": "a281e83a",
-    "model_type": "17475f7f"
+    "model_type": "17475f7f",
+    "parameters": "a87ff679",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "parameters": 4,
+  "tools": ["function_calling"]
 }

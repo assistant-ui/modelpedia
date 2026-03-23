@@ -3,7 +3,7 @@
   "name": "Meta: Llama Guard 4 12B",
   "created_by": "meta-llama",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-guard",
   "description": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification.",
   "context_window": 163840,
@@ -20,13 +20,19 @@
   },
   "_generated": {
     "name": "6c38d728",
+    "family": "3190be28",
     "description": "169a325f",
     "context_window": "7edab444",
-    "family": "3190be28",
-    "pricing": "bd10cf29",
-    "capabilities": "c8033cf7",
     "modalities": "8b8b28d1",
-    "model_type": "1e7a7b87"
+    "capabilities": "c8033cf7",
+    "pricing": "bd10cf29",
+    "model_type": "1e7a7b87",
+    "parameters": "c20ad4d7",
+    "release_date": "6997487e",
+    "tagline": "169a325f"
   },
-  "model_type": "moderation"
+  "model_type": "moderation",
+  "parameters": 12,
+  "release_date": "2025-04-30",
+  "tagline": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification."
 }

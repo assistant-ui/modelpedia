@@ -1,0 +1,30 @@
+{
+  "id": "moonshot-v1-8k-vision-preview",
+  "name": "Moonshot v1 8K Vision",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "moonshot",
+  "context_window": 8000,
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "7b8aecf8",
+    "family": "9126e350",
+    "context_window": "67ff32d4",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e",
+    "open_weight": "68934a3e"
+  }
+}

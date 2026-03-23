@@ -1,0 +1,28 @@
+{
+  "id": "qwen-turbo",
+  "name": "qwen-turbo",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "qwen",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "8ba166bc",
+    "family": "a3af76f3",
+    "model_type": "d669f408",
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "endpoints": "75df3f1c"
+  },
+  "license": "proprietary",
+  "provider": "qwen"
+}

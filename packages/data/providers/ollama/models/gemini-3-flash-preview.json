@@ -1,9 +1,9 @@
 {
   "id": "gemini-3-flash-preview",
   "name": "gemini-3-flash-preview",
-  "created_by": "unknown",
+  "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemini-3",
   "capabilities": {
     "streaming": true
@@ -11,6 +11,25 @@
   "_generated": {
     "name": "9b43126f",
     "family": "eb14e598",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "model_type": "d669f408",
+    "description": "1bfd7f1a",
+    "release_date": "f8b75b68",
+    "page_url": "279d118c",
+    "tagline": "1bfd7f1a",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
+  },
+  "model_type": "chat",
+  "description": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost.",
+  "release_date": "2025-12-17",
+  "page_url": "https://ollama.com/library/gemini-3-flash-preview",
+  "tagline": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost.",
+  "license": "open-weight",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

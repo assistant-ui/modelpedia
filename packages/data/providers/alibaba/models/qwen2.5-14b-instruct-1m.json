@@ -3,7 +3,7 @@
   "name": "qwen2.5-14b-instruct-1m",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwen2.5",
   "context_window": 1008192,
   "max_output_tokens": 8192,
@@ -29,6 +29,12 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "pricing": "d49de7db",
-    "endpoints": "75df3f1c"
-  }
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "parameters": "aab32389",
+    "open_weight": "b326b506"
+  },
+  "license": "apache-2.0",
+  "parameters": 14,
+  "open_weight": true
 }

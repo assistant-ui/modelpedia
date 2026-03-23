@@ -3,7 +3,7 @@
   "name": "devstral-2-123b-instruct-2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "devstral",
   "capabilities": {
     "streaming": true,
@@ -14,7 +14,11 @@
     "name": "36663944",
     "family": "e626e93e",
     "capabilities": "48995a4e",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "parameters": "202cb962",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 123,
+  "tools": ["function_calling"]
 }

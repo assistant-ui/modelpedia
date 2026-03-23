@@ -3,7 +3,7 @@
   "name": "o3-pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "o3",
   "knowledge_cutoff": "2024-05-31",
   "capabilities": {
@@ -19,10 +19,16 @@
   "model_type": "reasoning",
   "_generated": {
     "name": "363d2093",
-    "model_type": "17475f7f",
-    "knowledge_cutoff": "83e324a8",
     "family": "193049bc",
+    "knowledge_cutoff": "83e324a8",
     "capabilities": "068872da",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "17475f7f",
+    "tools": "f0c1dc7e",
+    "description": "63b836ac",
+    "tagline": "df21878e"
+  },
+  "tools": ["function_calling"],
+  "description": "- Responses API . - Structured outputs. - Text and image processing. - Functions and tools. Full summary of capabilities .",
+  "tagline": "- Responses API ."
 }

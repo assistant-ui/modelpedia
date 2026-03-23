@@ -3,7 +3,7 @@
   "name": "mistral-document-ai-2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "alias": "mistral-document-ai",
   "capabilities": {
     "streaming": true,
@@ -19,7 +19,9 @@
     "name": "1119bd3f",
     "capabilities": "ee30ca00",
     "modalities": "6399757e",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "Google: Gemini 2.5 Pro Preview 06-05",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemini-2.5",
   "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks.",
   "context_window": 1048576,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "1d053571",
+    "family": "ea6b88bf",
     "description": "645e310a",
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
-    "family": "ea6b88bf",
-    "pricing": "50bb1323",
+    "modalities": "b1cc57a5",
     "capabilities": "f533f522",
-    "modalities": "b1cc57a5"
-  }
+    "pricing": "50bb1323",
+    "model_type": "d669f408",
+    "release_date": "f6aec5de",
+    "tagline": "645e310a",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-06-05",
+  "tagline": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks.",
+  "tools": ["function_calling"]
 }

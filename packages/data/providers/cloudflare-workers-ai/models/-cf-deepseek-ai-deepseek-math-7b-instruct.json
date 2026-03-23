@@ -3,14 +3,23 @@
   "name": "deepseek-math-7b-instruct",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "be81cd41",
     "family": "4b81b92d",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "8f14e45f",
+    "status": "379ac110",
+    "page_url": "76115cee",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 7,
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#deepseek-math-7b-instruct",
+  "tools": ["function_calling"]
 }

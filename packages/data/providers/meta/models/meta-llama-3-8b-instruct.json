@@ -3,7 +3,7 @@
   "name": "Meta-Llama-3-8B-Instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 8192,
   "capabilities": {
     "streaming": true,
@@ -17,6 +17,26 @@
     "name": "312feb68",
     "context_window": "77441296",
     "capabilities": "48995a4e",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "family": "a18f0819",
+    "model_type": "d669f408",
+    "license": "c1eeabcd",
+    "parameters": "c9f0f895",
+    "page_url": "0f37a05a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "release_date": "3413c173",
+    "knowledge_cutoff": "37a6259c",
+    "max_output_tokens": "77441296"
+  },
+  "family": "Llama-3",
+  "model_type": "chat",
+  "license": "llama3",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "release_date": "2024-04-17",
+  "knowledge_cutoff": null,
+  "max_output_tokens": 8192
 }

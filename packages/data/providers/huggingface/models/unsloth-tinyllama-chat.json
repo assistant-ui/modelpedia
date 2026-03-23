@@ -3,12 +3,33 @@
   "name": "tinyllama-chat",
   "created_by": "unsloth",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "882acb10",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "page_url": "b3fa9481",
+    "description": "6c2b556d",
+    "release_date": "9dbb6bac",
+    "context_window": "05192834",
+    "license": "60245731",
+    "parameters": "777d45bb",
+    "tagline": "b62c0976",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "page_url": "https://huggingface.co/unsloth/tinyllama-chat",
+  "description": "[<img src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/Discord%20button.png\" width=\"200\"/>](https://discord.gg/u54VK8m8tk) [<img src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/buy%20me%20a%20coffee%20button.png\" width=\"200\"/>](https://ko-fi.com/unsloth) [<img src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/unsloth%20made%20with%20love.png\" width=\"200\"/>](https://github.com/unslothai/unsloth)",
+  "release_date": "2024-02-14",
+  "context_window": 2048,
+  "license": "apache-2.0",
+  "parameters": 1.1,
+  "tagline": "[<img src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/Discord%20button.png\" width=\"200\"/>](https://discord.gg/u54VK8m8tk) [<img src=\"https://raw.githubusercontent.com/unslothai/un",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

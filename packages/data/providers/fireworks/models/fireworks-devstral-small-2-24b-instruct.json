@@ -3,20 +3,27 @@
   "name": "devstral-small-2-24b-instruct-2512",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "devstral",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "snapshots": ["fireworks/devstral-small-2-24b-instruct-2512"],
   "_generated": {
     "name": "5c9803dd",
     "family": "e626e93e",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "model_type": "b6cc3ff4",
+    "parameters": "1ff1de77",
+    "page_url": "a7c64047"
+  },
+  "model_type": "code",
+  "parameters": 24,
+  "page_url": "https://fireworks.ai/models/fireworks/devstral-small-2-24b-instruct-2512"
 }

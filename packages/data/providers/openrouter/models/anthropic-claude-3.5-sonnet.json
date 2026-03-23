@@ -3,7 +3,7 @@
   "name": "Anthropic: Claude 3.5 Sonnet",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "claude-sonnet",
   "description": "New Claude 3.5 Sonnet delivers better-than-Opus capabilities, faster-than-Sonnet speeds, at the same Sonnet prices.",
   "context_window": 200000,
@@ -22,12 +22,20 @@
   },
   "_generated": {
     "name": "d21e1066",
+    "family": "68d1c457",
     "description": "c160575a",
     "context_window": "03e6c616",
     "max_output_tokens": "77441296",
-    "family": "68d1c457",
-    "pricing": "713d689d",
+    "modalities": "6399757e",
     "capabilities": "ce9e2425",
-    "modalities": "6399757e"
-  }
+    "pricing": "713d689d",
+    "model_type": "d669f408",
+    "release_date": "71d9a6b5",
+    "tagline": "c160575a",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2024-10-22",
+  "tagline": "New Claude 3.5 Sonnet delivers better-than-Opus capabilities, faster-than-Sonnet speeds, at the same Sonnet prices.",
+  "tools": ["function_calling"]
 }

@@ -3,19 +3,24 @@
   "name": "llama4-scout-instruct-basic",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 1048600,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 0.15,
-    "output": 1
+    "output": 1,
+    "cached_input": 0.6
   },
   "_generated": {
     "name": "9180ba8f",
     "context_window": "c7956686",
-    "pricing": "a568b9be",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "6281dcf5",
+    "model_type": "d669f408",
+    "page_url": "4cfe4312"
+  },
+  "model_type": "chat",
+  "page_url": "https://fireworks.ai/models/fireworks/llama4-scout-instruct-basic"
 }

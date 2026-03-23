@@ -3,7 +3,7 @@
   "name": "Tencent: Hunyuan A13B Instruct",
   "created_by": "tencent",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Hunyuan-A13B is a 13B active parameter Mixture-of-Experts (MoE) language model developed by Tencent, with a total parameter count of 80B and support for reasoning via Chain-of-Thought.",
   "context_window": 131072,
   "max_output_tokens": 131072,
@@ -24,8 +24,12 @@
     "description": "1702935a",
     "context_window": "f7de594e",
     "max_output_tokens": "f7de594e",
-    "pricing": "5990c46b",
+    "modalities": "68e53d93",
     "capabilities": "ee598c3a",
-    "modalities": "68e53d93"
-  }
+    "pricing": "5990c46b",
+    "release_date": "cdd1996a",
+    "tagline": "1702935a"
+  },
+  "release_date": "2025-07-08",
+  "tagline": "Hunyuan-A13B is a 13B active parameter Mixture-of-Experts (MoE) language model developed by Tencent, with a total parameter count of 80B and support for reasoning via Chain-of-Thought."
 }

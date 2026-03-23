@@ -3,7 +3,7 @@
   "name": "grok-4.20-multi-agent-beta",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "grok-4.20",
   "context_window": 2000000,
   "capabilities": {
@@ -17,9 +17,13 @@
   },
   "_generated": {
     "name": "3691cb05",
-    "context_window": "805f7438",
     "family": "44972aca",
+    "context_window": "805f7438",
+    "capabilities": "a281e83a",
     "pricing": "e205efd3",
-    "capabilities": "a281e83a"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

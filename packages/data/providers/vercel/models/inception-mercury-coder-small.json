@@ -3,7 +3,7 @@
   "name": "mercury-coder-small",
   "created_by": "inception",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 32000,
   "capabilities": {
     "streaming": true,
@@ -16,7 +16,9 @@
   "_generated": {
     "name": "3848a898",
     "context_window": "10e4d788",
+    "capabilities": "48995a4e",
     "pricing": "f691bdc3",
-    "capabilities": "48995a4e"
-  }
+    "tools": "f0c1dc7e"
+  },
+  "tools": ["function_calling"]
 }

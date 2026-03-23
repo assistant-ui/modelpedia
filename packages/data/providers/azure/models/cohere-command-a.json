@@ -3,7 +3,7 @@
   "name": "Cohere-command-a",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -16,6 +16,8 @@
   "_generated": {
     "name": "2d65503b",
     "capabilities": "6c301a15",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "tools": ["function_calling"]
 }

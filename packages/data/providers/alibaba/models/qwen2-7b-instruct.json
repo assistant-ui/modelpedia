@@ -3,7 +3,7 @@
   "name": "qwen2-7b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwen2",
   "context_window": 131072,
   "model_type": "chat",
@@ -22,6 +22,12 @@
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
-    "endpoints": "75df3f1c"
-  }
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "parameters": "8f14e45f",
+    "open_weight": "b326b506"
+  },
+  "license": "apache-2.0",
+  "parameters": 7,
+  "open_weight": true
 }

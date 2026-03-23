@@ -13,5 +13,7 @@
     "name": "435ebeef",
     "family": "54c5fe24",
     "pricing": "2b96911d"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 70
 }

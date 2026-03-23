@@ -3,7 +3,7 @@
   "name": "DeepSeek Coder-V2-0614 (Chat)",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "deepseek-chat",
   "status": "deprecated",
   "release_date": "2024-06-14",
@@ -25,8 +25,12 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "deprecation_date": "7f069954",
-    "successor": "52194ba4"
+    "successor": "52194ba4",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506"
   },
   "deprecation_date": "2024-06-28",
-  "successor": "deepseek-chat-2024-06-28"
+  "successor": "deepseek-chat-2024-06-28",
+  "license": "mit",
+  "open_weight": true
 }

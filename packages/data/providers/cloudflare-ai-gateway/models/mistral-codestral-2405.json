@@ -3,9 +3,9 @@
   "name": "Mistral: codestral-2405",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "codestral",
-  "model_type": "chat",
+  "model_type": "code",
   "pricing": {
     "input": 0.2,
     "output": 0.6
@@ -13,7 +13,7 @@
   "_generated": {
     "name": "9fd92add",
     "family": "a0734f6e",
-    "model_type": "d669f408",
+    "model_type": "b6cc3ff4",
     "pricing": "d6e0ad87"
   }
 }

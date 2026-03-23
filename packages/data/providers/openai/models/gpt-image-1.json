@@ -3,7 +3,7 @@
   "name": "GPT Image 1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-image-1",
   "description": "GPT Image 1 is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.",
   "status": "active",
@@ -66,15 +66,21 @@
   "snapshots": ["gpt-image-1"],
   "_generated": {
     "name": "ccb6410c",
+    "family": "480da012",
     "description": "5761f0fa",
-    "tagline": "804cd982",
     "status": "379ac110",
     "model_type": "db8857fe",
     "performance": "a87ff679",
     "speed": "c4ca4238",
-    "family": "480da012",
-    "pricing": "4efcaacd",
+    "tagline": "804cd982",
     "modalities": "bbf9b8bb",
-    "endpoints": "b1b7ee5d"
-  }
+    "pricing": "4efcaacd",
+    "endpoints": "b1b7ee5d",
+    "license": "9186c466",
+    "page_url": "dea4284d",
+    "open_weight": "68934a3e"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-image-1",
+  "open_weight": false
 }

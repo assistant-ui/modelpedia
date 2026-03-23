@@ -3,7 +3,7 @@
   "name": "deepseek-v3p1",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek",
   "context_window": 163800,
   "capabilities": {
@@ -11,13 +11,16 @@
   },
   "pricing": {
     "input": 0.56,
-    "output": 1.68
+    "output": 1.68,
+    "cached_input": 0.28
   },
   "_generated": {
     "name": "b77e7e02",
-    "context_window": "df026689",
     "family": "4b81b92d",
-    "pricing": "e32861c4",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "df026689",
+    "capabilities": "0fa77dc6",
+    "pricing": "6d8a359f",
+    "page_url": "9f9671ff"
+  },
+  "page_url": "https://fireworks.ai/models/fireworks/deepseek-v3p1"
 }

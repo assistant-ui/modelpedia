@@ -3,7 +3,7 @@
   "name": "gemma-2-9b-cpt-sahabatai-instruct",
   "created_by": "gotocompany",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemma-2",
   "capabilities": {
     "streaming": true,
@@ -12,6 +12,12 @@
   "_generated": {
     "name": "2acea89c",
     "family": "e8114e3e",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "45c48cce",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 9,
+  "tools": ["function_calling"]
 }

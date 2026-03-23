@@ -1,6 +1,7 @@
 import { fetchJson } from "./parse.ts";
 import {
   inferFamily,
+  inferParameters,
   type ModelEntry,
   readSources,
   runGenerate,
@@ -97,6 +98,13 @@ async function main() {
       release_date: releaseDate,
       capabilities: inferCaps(m.id),
     };
+
+    const params = inferParameters(name);
+    if (params) {
+      entry.parameters = params.parameters;
+      if (params.active_parameters)
+        entry.active_parameters = params.active_parameters;
+    }
 
     written += upsertWithSnapshot("nvidia", entry);
   }

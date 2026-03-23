@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-3.5 Turbo Instruct",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-3.5",
   "description": "This model is a variant of GPT-3.5 Turbo tuned for instructional prompts and omitting chat-related optimizations.",
   "context_window": 4095,
@@ -21,12 +21,18 @@
   },
   "_generated": {
     "name": "414fd3eb",
+    "family": "7601054d",
     "description": "aa6d253a",
     "context_window": "3983e151",
     "max_output_tokens": "f7efa4f8",
-    "family": "7601054d",
-    "pricing": "1f3e596f",
+    "modalities": "68e53d93",
     "capabilities": "c8033cf7",
-    "modalities": "68e53d93"
-  }
+    "pricing": "1f3e596f",
+    "model_type": "d669f408",
+    "release_date": "182b5357",
+    "tagline": "aa6d253a"
+  },
+  "model_type": "chat",
+  "release_date": "2023-09-28",
+  "tagline": "This model is a variant of GPT-3.5 Turbo tuned for instructional prompts and omitting chat-related optimizations."
 }

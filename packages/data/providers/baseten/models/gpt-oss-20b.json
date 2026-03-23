@@ -3,7 +3,7 @@
   "name": "gpt-oss-20b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-oss",
   "capabilities": {
     "streaming": true
@@ -12,7 +12,16 @@
     "name": "0f95b22f",
     "family": "82d0cb0b",
     "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "parameters": "98f13708",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "parameters": 20,
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

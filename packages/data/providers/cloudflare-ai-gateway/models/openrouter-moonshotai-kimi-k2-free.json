@@ -3,8 +3,12 @@
   "name": "OpenRouter: moonshotai/kimi-k2:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "_generated": {
-    "name": "4d9d4a6b"
-  }
+    "name": "4d9d4a6b",
+    "family": "0f7256d5",
+    "model_type": "d669f408"
+  },
+  "family": "kimi-k2",
+  "model_type": "chat"
 }

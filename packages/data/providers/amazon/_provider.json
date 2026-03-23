@@ -2,16 +2,25 @@
   "id": "amazon",
   "name": "Amazon Bedrock",
   "region": "US",
+  "headquarters": "Seattle, WA",
+  "founded": 2006,
   "url": "https://aws.amazon.com/bedrock",
   "api_url": "https://bedrock-runtime.us-east-1.amazonaws.com",
   "docs_url": "https://docs.aws.amazon.com/bedrock",
   "pricing_url": "https://aws.amazon.com/bedrock/pricing",
   "description": "AWS Bedrock provides managed access to foundation models from Amazon, Anthropic, Meta, Mistral, and more.",
   "type": "cloud",
+  "playground_url": "https://console.aws.amazon.com/bedrock",
   "status_url": "https://health.aws.amazon.com",
   "sdk": {
     "python": "boto3",
     "javascript": "@aws-sdk/client-bedrock-runtime"
   },
-  "free_tier": false
+  "openai_compatible": false,
+  "free_tier": false,
+  "models_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html",
+  "twitter_url": "https://x.com/awscloud",
+  "blog_url": "https://aws.amazon.com/blogs/machine-learning",
+  "terms_url": "https://aws.amazon.com/service-terms",
+  "support_url": "https://aws.amazon.com/contact-us"
 }

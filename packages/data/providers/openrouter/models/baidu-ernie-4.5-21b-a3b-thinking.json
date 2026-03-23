@@ -3,7 +3,7 @@
   "name": "Baidu: ERNIE 4.5 21B A3B Thinking",
   "created_by": "baidu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "ERNIE-4.5-21B-A3B-Thinking is Baidu's upgraded lightweight MoE model, refined to boost reasoning depth and quality for top-tier performance in logical puzzles, math, science, coding, text generation, ",
   "context_window": 131072,
   "max_output_tokens": 65536,
@@ -23,8 +23,16 @@
     "description": "06debbda",
     "context_window": "f7de594e",
     "max_output_tokens": "297ce0b3",
-    "pricing": "883b5325",
+    "modalities": "68e53d93",
     "capabilities": "7107421f",
-    "modalities": "68e53d93"
-  }
+    "pricing": "883b5325",
+    "parameters": "3c59dc04",
+    "active_parameters": "eccbc87e",
+    "release_date": "35c42317",
+    "tagline": "06debbda"
+  },
+  "parameters": 21,
+  "active_parameters": 3,
+  "release_date": "2025-10-09",
+  "tagline": "ERNIE-4.5-21B-A3B-Thinking is Baidu's upgraded lightweight MoE model, refined to boost reasoning depth and quality for top-tier performance in logical puzzles, math, science, coding, text generation, "
 }

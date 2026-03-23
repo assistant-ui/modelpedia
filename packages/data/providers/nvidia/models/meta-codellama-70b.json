@@ -10,5 +10,8 @@
   "_generated": {
     "name": "e70b8c7f",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "family": "codellama",
+  "model_type": "code",
+  "parameters": 70
 }

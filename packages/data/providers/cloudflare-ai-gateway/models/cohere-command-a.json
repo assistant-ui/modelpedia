@@ -11,5 +11,7 @@
   "_generated": {
     "name": "cb6c8790",
     "pricing": "cf1c6d02"
-  }
+  },
+  "family": "command-a",
+  "model_type": "chat"
 }

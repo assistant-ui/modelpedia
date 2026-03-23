@@ -3,18 +3,24 @@
   "name": "Kimi K2.5",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.6
+    "input": 0.6,
+    "output": 3,
+    "cached_input": 0.1
   },
   "_generated": {
     "name": "52aa7dab",
     "status": "379ac110",
-    "pricing": "07a1a477",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "b1e4b497",
+    "family": "69ffee7b",
+    "model_type": "d669f408"
+  },
+  "family": "kimi-k2.5",
+  "model_type": "chat"
 }

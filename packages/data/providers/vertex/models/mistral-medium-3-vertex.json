@@ -3,7 +3,7 @@
   "name": "Mistral Medium 3",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "mistral-medium",
   "capabilities": {
     "streaming": true,
@@ -33,10 +33,12 @@
   "_generated": {
     "name": "e7fceec6",
     "family": "a57f1b52",
-    "pricing": "ff7c2202",
     "capabilities": "48995a4e",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "pricing": "ff7c2202",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

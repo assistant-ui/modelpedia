@@ -3,12 +3,19 @@
   "name": "nvidia-nemotron-super",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "5efb8a1b",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

@@ -3,19 +3,24 @@
   "name": "cogito-671b-v2-p1",
   "created_by": "cogito",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 163800,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 1.2,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "e1063dbf",
     "context_window": "df026689",
-    "pricing": "36339cd5",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "0e4b5a71",
+    "parameters": "5dd9db5e",
+    "page_url": "ac683821"
+  },
+  "parameters": 671,
+  "page_url": "https://fireworks.ai/models/cogito/cogito-671b-v2-p1"
 }

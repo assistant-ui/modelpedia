@@ -3,7 +3,7 @@
   "name": "gpt-4",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4",
   "knowledge_cutoff": "2023-12",
   "capabilities": {
@@ -16,9 +16,15 @@
   },
   "_generated": {
     "name": "1be4bcd3",
-    "knowledge_cutoff": "06c60023",
     "family": "1be4bcd3",
+    "knowledge_cutoff": "06c60023",
     "capabilities": "8a3b232e",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "d669f408",
+    "description": "554b14c7",
+    "tagline": "40089418"
+  },
+  "model_type": "chat",
+  "description": "New generally available model. - Replacement for all previous GPT-4 preview models ( vision-preview , 1106-Preview , 0125-Preview ). - Feature availability is currently different, depending on the method of input and the deployment type.",
+  "tagline": "New generally available model."
 }

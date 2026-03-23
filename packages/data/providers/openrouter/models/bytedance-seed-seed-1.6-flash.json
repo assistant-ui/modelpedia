@@ -3,7 +3,7 @@
   "name": "ByteDance Seed: Seed 1.6 Flash",
   "created_by": "bytedance-seed",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Seed 1.6 Flash is an ultra-fast multimodal deep thinking model by ByteDance Seed, supporting both text and visual understanding.",
   "context_window": 262144,
   "max_output_tokens": 32768,
@@ -25,8 +25,14 @@
     "description": "5d5f5401",
     "context_window": "4a1d32eb",
     "max_output_tokens": "f4376436",
-    "pricing": "b6208862",
+    "modalities": "1e916c3b",
     "capabilities": "f533f522",
-    "modalities": "1e916c3b"
-  }
+    "pricing": "b6208862",
+    "release_date": "b3874102",
+    "tagline": "5d5f5401",
+    "tools": "f0c1dc7e"
+  },
+  "release_date": "2025-12-23",
+  "tagline": "Seed 1.6 Flash is an ultra-fast multimodal deep thinking model by ByteDance Seed, supporting both text and visual understanding.",
+  "tools": ["function_calling"]
 }

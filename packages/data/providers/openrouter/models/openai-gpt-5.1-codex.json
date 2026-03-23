@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5.1-Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.1",
   "description": "GPT-5.1-Codex is a specialized version of GPT-5.1 optimized for software engineering and coding workflows.",
   "context_window": 400000,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "77a32818",
+    "family": "2089aff2",
     "description": "223fcaf5",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
-    "family": "2089aff2",
-    "pricing": "50bb1323",
+    "modalities": "6399757e",
     "capabilities": "f533f522",
-    "modalities": "6399757e"
-  }
+    "pricing": "50bb1323",
+    "model_type": "d669f408",
+    "release_date": "c4b1d0fd",
+    "tagline": "223fcaf5",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-11-13",
+  "tagline": "GPT-5.1-Codex is a specialized version of GPT-5.1 optimized for software engineering and coding workflows.",
+  "tools": ["function_calling"]
 }

@@ -13,5 +13,7 @@
     "name": "30484815",
     "family": "d4c42ce9",
     "pricing": "e339168e"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 1
 }

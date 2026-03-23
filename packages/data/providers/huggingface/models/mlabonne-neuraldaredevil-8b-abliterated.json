@@ -3,12 +3,33 @@
   "name": "NeuralDaredevil-8B-abliterated",
   "created_by": "mlabonne",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "2fde7652",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "c9f0f895",
+    "page_url": "36cfc8ae",
+    "description": "f20918ae",
+    "release_date": "dd448714",
+    "context_window": "77441296",
+    "license": "c1eeabcd",
+    "tagline": "d613dc5a",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 8,
+  "page_url": "https://huggingface.co/mlabonne/NeuralDaredevil-8B-abliterated",
+  "description": "This is a DPO fine-tune of [mlabonne/Daredevil-8-abliterated](https://huggingface.co/mlabonne/Daredevil-8B-abliterated), trained on one epoch of [mlabonne/orpo-dpo-mix-40k](https://huggingface.co/datasets/mlabonne/orpo-dpo-mix-40k). The DPO fine-tuning successfully recovers the performance loss due to the abliteration process, making it an excellent uncensored model.",
+  "release_date": "2024-05-27",
+  "context_window": 8192,
+  "license": "llama3",
+  "tagline": "This is a DPO fine-tune of [mlabonne/Daredevil-8-abliterated](https://huggingface.co/mlabonne/Daredevil-8B-abliterated), trained on one epoch of [mlabonne/orpo-dpo-mix-40k](https://huggingface.co/datasets/mlabonne/orpo-dpo-mix-40k).",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

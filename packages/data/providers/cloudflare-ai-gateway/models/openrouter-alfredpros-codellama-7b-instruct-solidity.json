@@ -11,5 +11,8 @@
   "_generated": {
     "name": "aeab797d",
     "pricing": "a1b65046"
-  }
+  },
+  "family": "codellama",
+  "model_type": "code",
+  "parameters": 7
 }

@@ -3,7 +3,7 @@
   "name": "o3",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "o3",
   "knowledge_cutoff": "2024-05-31",
   "capabilities": {
@@ -20,10 +20,16 @@
   "model_type": "reasoning",
   "_generated": {
     "name": "193049bc",
-    "model_type": "17475f7f",
-    "knowledge_cutoff": "83e324a8",
     "family": "193049bc",
+    "knowledge_cutoff": "83e324a8",
     "capabilities": "781c5d26",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "17475f7f",
+    "tools": "f0c1dc7e",
+    "description": "f5859444",
+    "tagline": "0738aacf"
+  },
+  "tools": ["function_calling"],
+  "description": "- New reasoning model, offering enhanced reasoning abilities . - Chat Completions API. - Responses API . - Structured outputs. - Text and image processing. - Functions, tools, and parallel tool calling. Full summary of capabilities .",
+  "tagline": "- New reasoning model, offering enhanced reasoning abilities ."
 }

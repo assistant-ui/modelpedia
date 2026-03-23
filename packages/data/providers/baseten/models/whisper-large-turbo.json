@@ -3,7 +3,7 @@
   "name": "whisper-large-turbo",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "whisper",
   "capabilities": {
     "streaming": true
@@ -11,8 +11,15 @@
   "model_type": "transcription",
   "_generated": {
     "name": "203df80b",
-    "model_type": "5e12d29a",
     "family": "7fbc43e3",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "model_type": "5e12d29a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

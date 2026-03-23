@@ -3,14 +3,41 @@
   "name": "nemotron-3-super",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "03128f2d",
-    "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "capabilities": "a281e83a",
+    "model_type": "d669f408",
+    "description": "056a20e0",
+    "release_date": "81f079f9",
+    "page_url": "dc467aeb",
+    "tagline": "056a20e0",
+    "context_window": "4a1d32eb",
+    "parameters": "da4fb5c6",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "reasoning_tokens": "b326b506",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "description": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
+  "release_date": "2026-03-11",
+  "page_url": "https://ollama.com/library/nemotron-3-super",
+  "tagline": "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications.",
+  "context_window": 262144,
+  "parameters": 120,
+  "license": "open-weight",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "reasoning_tokens": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,7 +3,7 @@
   "name": "gpt-image-1-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-image-1",
   "description": "A cost-efficient version of GPT Image 1. It is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.",
   "status": "active",
@@ -66,15 +66,21 @@
   "snapshots": ["gpt-image-1-mini"],
   "_generated": {
     "name": "f3697652",
+    "family": "480da012",
     "description": "f23850fe",
-    "tagline": "0204dbdd",
     "status": "379ac110",
     "model_type": "db8857fe",
     "performance": "a87ff679",
     "speed": "c4ca4238",
-    "family": "480da012",
-    "pricing": "0d2e6065",
+    "tagline": "0204dbdd",
     "modalities": "bbf9b8bb",
-    "endpoints": "d1ef3613"
-  }
+    "pricing": "0d2e6065",
+    "endpoints": "d1ef3613",
+    "license": "9186c466",
+    "page_url": "7e1165e7",
+    "open_weight": "68934a3e"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-image-1-mini",
+  "open_weight": false
 }

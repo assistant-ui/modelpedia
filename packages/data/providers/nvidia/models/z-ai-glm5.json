@@ -10,5 +10,7 @@
   "_generated": {
     "name": "47bdb7f1",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "model_type": "chat",
+  "family": "glm"
 }

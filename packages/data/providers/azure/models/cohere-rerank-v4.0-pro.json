@@ -3,7 +3,7 @@
   "name": "Cohere-rerank-v4.0-pro",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -16,8 +16,10 @@
   "model_type": "rerank",
   "_generated": {
     "name": "221b48dd",
-    "model_type": "477930e6",
     "capabilities": "6c301a15",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "477930e6",
+    "tools": "f0c1dc7e"
+  },
+  "tools": ["function_calling"]
 }

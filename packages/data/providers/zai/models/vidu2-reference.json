@@ -1,0 +1,21 @@
+{
+  "id": "vidu2-reference",
+  "name": "VIDU2-REFERENCE",
+  "created_by": "zai",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "license": "mit",
+  "page_url": "https://docs.z.ai/guides/video/vidu2",
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["video"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "9fa2bf72",
+    "license": "3c4c3ba5",
+    "page_url": "040ff0ac",
+    "modalities": "43c560c1",
+    "open_weight": "b326b506"
+  }
+}

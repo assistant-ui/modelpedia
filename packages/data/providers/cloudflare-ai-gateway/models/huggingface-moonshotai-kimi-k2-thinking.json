@@ -3,13 +3,17 @@
   "name": "HuggingFace: moonshotai/Kimi-K2-Thinking",
   "created_by": "huggingface",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 0.6,
     "output": 2.5
   },
   "_generated": {
     "name": "e665bf44",
-    "pricing": "97d9061a"
-  }
+    "pricing": "97d9061a",
+    "family": "c23da547",
+    "model_type": "d669f408"
+  },
+  "family": "Kimi-K2",
+  "model_type": "chat"
 }

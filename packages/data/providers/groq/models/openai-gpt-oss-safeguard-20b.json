@@ -3,7 +3,7 @@
   "name": "Safety GPT OSS 20B",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-oss",
   "status": "preview",
   "context_window": 131072,
@@ -19,12 +19,18 @@
   },
   "_generated": {
     "name": "3f9f1958",
+    "family": "82d0cb0b",
     "status": "127aecde",
-    "model_type": "1e7a7b87",
     "context_window": "f7de594e",
     "max_output_tokens": "297ce0b3",
-    "family": "82d0cb0b",
+    "model_type": "1e7a7b87",
+    "modalities": "68e53d93",
     "pricing": "b6208862",
-    "modalities": "68e53d93"
-  }
+    "parameters": "98f13708",
+    "speed": "a9b7ba70",
+    "page_url": "435493ae"
+  },
+  "parameters": 20,
+  "speed": 1000,
+  "page_url": "https://console.groq.com/docs/models#openai/gpt-oss-safeguard-20b"
 }

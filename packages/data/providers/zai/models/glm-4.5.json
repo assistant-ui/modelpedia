@@ -3,14 +3,15 @@
   "name": "GLM-4.5",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 128000,
   "max_output_tokens": 96000,
   "capabilities": {
     "streaming": true,
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "prompt_caching": true
   },
   "modalities": {
     "input": ["text"],
@@ -20,7 +21,35 @@
     "name": "9ddeed20",
     "context_window": "34434798",
     "max_output_tokens": "d814795f",
-    "capabilities": "0946b777",
-    "modalities": "68e53d93"
+    "capabilities": "97babf9a",
+    "modalities": "68e53d93",
+    "family": "e8ea1e1e",
+    "model_type": "d669f408",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "description": "ebca92f5",
+    "parameters": "82cec960",
+    "active_parameters": "6364d3f0",
+    "page_url": "81215840",
+    "architecture": "31b2172c",
+    "tagline": "7b77d05d",
+    "pricing": "7c62fb45"
+  },
+  "family": "glm-4.5",
+  "model_type": "chat",
+  "license": "mit",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "description": "The first-principle measure of AGI lies in integrating more general intelligence capabilities without compromising existing functions. GLM-4.5 represents our first complete realization of this concept. It combines advanced reasoning, coding, and agent capabilities within a single model, achieving a significant technological breakthrough by natively fusing reasoning, coding, and agent abilities to meet the complex demands of agent-based applications.",
+  "parameters": 355,
+  "active_parameters": 32,
+  "page_url": "https://docs.z.ai/guides/llm/glm-4.5",
+  "architecture": "moe",
+  "tagline": "The first-principle measure of AGI lies in integrating more general intelligence capabilities without compromising existing functions.",
+  "pricing": {
+    "input": 0.6,
+    "output": 2.2,
+    "cached_input": 0.11
   }
 }

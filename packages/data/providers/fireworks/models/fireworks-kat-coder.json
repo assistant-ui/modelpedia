@@ -3,19 +3,22 @@
   "name": "kat-coder",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 262100,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "6bbe34db",
     "context_window": "b23f4471",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "page_url": "c877ef8e"
+  },
+  "page_url": "https://fireworks.ai/models/fireworks/kat-coder"
 }

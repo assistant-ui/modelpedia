@@ -3,14 +3,23 @@
   "name": "gpt-oss-120b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-oss",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "e8458743",
     "family": "82d0cb0b",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "b011c6b4",
+    "model_type": "d669f408",
+    "parameters": "da4fb5c6",
+    "status": "379ac110",
+    "page_url": "e249c539"
+  },
+  "model_type": "chat",
+  "parameters": 120,
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#gpt-oss-120b"
 }

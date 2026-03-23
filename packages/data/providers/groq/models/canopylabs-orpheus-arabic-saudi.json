@@ -3,7 +3,7 @@
   "name": "Canopy Labs Orpheus Arabic Saudi",
   "created_by": "canopy-labs",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "preview",
   "context_window": 4000,
   "max_output_tokens": 50000,
@@ -15,9 +15,11 @@
   "_generated": {
     "name": "2ff17c97",
     "status": "127aecde",
-    "model_type": "4e16a2cf",
     "context_window": "1bd69c7d",
     "max_output_tokens": "1017bfd4",
-    "modalities": "601e776d"
-  }
+    "model_type": "4e16a2cf",
+    "modalities": "601e776d",
+    "page_url": "46f25510"
+  },
+  "page_url": "https://console.groq.com/docs/models#canopylabs/orpheus-arabic-saudi"
 }

@@ -3,14 +3,25 @@
   "name": "qwen2.5-coder-32b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen2.5",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "81ca56e2",
     "family": "45d84b68",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "b6cc3ff4",
+    "parameters": "6364d3f0",
+    "status": "379ac110",
+    "page_url": "ea9f1f47",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "code",
+  "parameters": 32,
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#qwen2.5-coder-32b-instruct",
+  "tools": ["function_calling"]
 }

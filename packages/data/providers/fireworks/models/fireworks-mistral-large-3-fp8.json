@@ -3,7 +3,7 @@
   "name": "mistral-large-3-fp8",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "mistral-large",
   "context_window": 256000,
   "capabilities": {
@@ -11,13 +11,18 @@
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "d52feea5",
-    "context_window": "2fd324cb",
     "family": "70f9d51d",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "2fd324cb",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "model_type": "d669f408",
+    "page_url": "783b082d"
+  },
+  "model_type": "chat",
+  "page_url": "https://fireworks.ai/models/fireworks/mistral-large-3-fp8"
 }

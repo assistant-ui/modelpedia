@@ -88,12 +88,34 @@ function parseModels(html: string) {
   const tables = [...html.matchAll(/<table[^>]*>([\s\S]*?)<\/table>/g)];
 
   for (const table of tables) {
-    // We need raw cell HTML to extract <code> tags, so parse rows manually
-    // but use parseHtmlTable for stripped-text cells
     const rowMatches = [...table[1].matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)];
+    if (rowMatches.length === 0) continue;
 
-    for (const rowMatch of rowMatches) {
-      const row = rowMatch[1];
+    // Build column index from the header row (<th> cells)
+    const headerRow = rowMatches[0][1];
+    const headers: string[] = [];
+    const thRegex = /<th[^>]*>([\s\S]*?)<\/th>/gi;
+    let thMatch;
+    while ((thMatch = thRegex.exec(headerRow)) !== null) {
+      headers.push(stripHtml(thMatch[1]).toLowerCase().trim());
+    }
+    if (headers.length === 0) continue;
+
+    // Map known column names to their indices
+    const col = (name: string) => headers.findIndex((h) => h.includes(name));
+    const statusIdx = col("status");
+    const descIdx = col("description");
+    const modalityIdx = headers.findIndex(
+      (h) => h.includes("modality") || h.includes("modalities"),
+    );
+    const contextIdx = col("context");
+    const maxOutputIdx = headers.findIndex(
+      (h) => h.includes("maximum output") || h.includes("max output"),
+    );
+    const endpointIdx = col("endpoint");
+
+    for (let ri = 1; ri < rowMatches.length; ri++) {
+      const row = rowMatches[ri][1];
 
       // Extract raw <td> contents (need HTML for <code> extraction)
       const tds: string[] = [];
@@ -103,7 +125,7 @@ function parseModels(html: string) {
         tds.push(tdMatch[1]);
       }
 
-      if (tds.length < 5) continue;
+      if (tds.length < 3) continue;
 
       // Find model ID in <code> tag in first column
       const codeMatch = tds[0].match(/<code[^>]*>([^<]+)<\/code>/);
@@ -120,14 +142,15 @@ function parseModels(html: string) {
       )
         continue;
 
-      // Table columns vary but typically:
-      // Model Name | Status | Description | Modality | Context Length | Max Output | Endpoints
-      const status = stripHtml(tds[1]).toLowerCase();
-      const description = stripHtml(tds[2]);
-      const modality = stripHtml(tds[3]).toLowerCase();
-      const contextStr = stripHtml(tds[4]);
-      const maxOutputStr = tds[5] ? stripHtml(tds[5]) : "";
-      const endpointStr = tds[6] ? stripHtml(tds[6]) : "";
+      // Read cells by header index (falls back to "" when column is absent)
+      const cell = (idx: number) =>
+        idx >= 0 && idx < tds.length ? stripHtml(tds[idx]) : "";
+      const status = cell(statusIdx).toLowerCase();
+      const description = cell(descIdx);
+      const modality = cell(modalityIdx).toLowerCase();
+      const contextStr = cell(contextIdx);
+      const maxOutputStr = cell(maxOutputIdx);
+      const endpointStr = cell(endpointIdx);
 
       const context_window = parseTokenCount(contextStr);
       const max_output_tokens = parseTokenCount(maxOutputStr);
@@ -152,15 +175,20 @@ function parseModels(html: string) {
       if (epLower.includes("rerank")) endpoints.push("rerank");
       if (epLower.includes("classify")) endpoints.push("classify");
 
-      // Capabilities from description
+      // Capabilities — only chat-endpoint models support streaming & tool use
+      const isChat = endpoints.includes("chat");
       const descLower = description.toLowerCase();
-      const capabilities: Record<string, boolean> = { streaming: true };
-      if (descLower.includes("tool")) capabilities.tool_call = true;
+      const capabilities: Record<string, boolean> = {};
+      if (isChat) {
+        capabilities.streaming = true;
+        if (descLower.includes("tool use") || descLower.includes("tool_use"))
+          capabilities.tool_call = true;
+        if (descLower.includes("reason")) capabilities.reasoning = true;
+        if (descLower.includes("structured") || descLower.includes("json"))
+          capabilities.structured_output = true;
+      }
       if (descLower.includes("vision") || descLower.includes("image"))
         capabilities.vision = true;
-      if (descLower.includes("reason")) capabilities.reasoning = true;
-      if (descLower.includes("structured") || descLower.includes("json"))
-        capabilities.structured_output = true;
 
       // Modalities
       const inputMods: string[] = ["text"];
@@ -185,6 +213,10 @@ function parseModels(html: string) {
         id,
         name: id,
         family: inferFamily(id),
+        license: /^(c4ai-aya|command-[ra])/i.test(id)
+          ? "cc-by-nc-4.0"
+          : "proprietary",
+        page_url: `https://docs.cohere.com/docs/models#${id}`,
         description: description || undefined,
         status: isDeprecated ? "deprecated" : "active",
         deprecation_date: deprecation_date,

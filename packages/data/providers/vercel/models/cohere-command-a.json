@@ -3,7 +3,7 @@
   "name": "command-a",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 256000,
   "capabilities": {
     "streaming": true,
@@ -16,7 +16,13 @@
   "_generated": {
     "name": "8e3865ab",
     "context_window": "2fd324cb",
+    "capabilities": "48995a4e",
     "pricing": "cf1c6d02",
-    "capabilities": "48995a4e"
-  }
+    "family": "8e3865ab",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "family": "command-a",
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

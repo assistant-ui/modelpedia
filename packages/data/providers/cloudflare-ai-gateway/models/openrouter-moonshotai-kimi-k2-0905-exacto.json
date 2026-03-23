@@ -3,13 +3,17 @@
   "name": "OpenRouter: moonshotai/kimi-k2-0905:exacto",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 0.6,
     "output": 2.5
   },
   "_generated": {
     "name": "d8bc1b33",
-    "pricing": "97d9061a"
-  }
+    "pricing": "97d9061a",
+    "family": "0f7256d5",
+    "model_type": "d669f408"
+  },
+  "family": "kimi-k2",
+  "model_type": "chat"
 }

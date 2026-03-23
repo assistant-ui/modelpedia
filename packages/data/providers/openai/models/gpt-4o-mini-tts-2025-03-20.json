@@ -3,7 +3,7 @@
   "name": "gpt-4o-mini-tts-2025-03-20",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4o",
   "status": "active",
   "model_type": "tts",
@@ -17,16 +17,20 @@
   "endpoints": ["speech_generation"],
   "_generated": {
     "name": "59965389",
-    "description": "fe59c67c",
-    "tagline": "defab719",
+    "family": "15249632",
     "status": "379ac110",
     "model_type": "4e16a2cf",
     "performance": "a87ff679",
     "speed": "a87ff679",
-    "family": "15249632",
-    "pricing": "defc769f",
     "modalities": "601e776d",
-    "endpoints": "1d7fad2a"
+    "endpoints": "1d7fad2a",
+    "description": "fe59c67c",
+    "tagline": "defab719",
+    "pricing": "defc769f",
+    "license": "9186c466",
+    "release_date": "c68d2cee",
+    "page_url": "d9907883",
+    "open_weight": "68934a3e"
   },
   "description": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model. Use it to convert text to natural sounding spoken text. The maximum number of input tokens is 2000.",
   "tagline": "GPT-4o mini TTS is a text-to-speech model built on GPT-4o mini, a fast and powerful language model.",
@@ -56,5 +60,9 @@
       }
     ],
     "input": 0.6
-  }
+  },
+  "license": "proprietary",
+  "release_date": "2025-03-20",
+  "page_url": "https://platform.openai.com/docs/models/gpt-4o-mini-tts",
+  "open_weight": false
 }

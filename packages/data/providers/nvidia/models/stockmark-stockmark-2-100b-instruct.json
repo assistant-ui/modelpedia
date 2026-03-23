@@ -3,13 +3,17 @@
   "name": "stockmark-2-100b-instruct",
   "created_by": "stockmark",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
   },
   "_generated": {
     "name": "8192f793",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "f899139d",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 100,
+  "tools": ["function_calling"]
 }

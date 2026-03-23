@@ -3,7 +3,7 @@
   "name": "qwen3-embedding-0.6b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "model_type": "embed",
   "capabilities": {
@@ -11,8 +11,14 @@
   },
   "_generated": {
     "name": "f2723657",
-    "model_type": "764cb3de",
     "family": "48c385a0",
-    "capabilities": "0fa77dc6"
-  }
+    "model_type": "764cb3de",
+    "capabilities": "0fa77dc6",
+    "parameters": "e95e1ca2",
+    "status": "379ac110",
+    "page_url": "67e55872"
+  },
+  "parameters": 0.6,
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#qwen3-embedding-0.6b"
 }

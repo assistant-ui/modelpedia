@@ -11,5 +11,7 @@
   "_generated": {
     "name": "39a331bf",
     "pricing": "5418a9a1"
-  }
+  },
+  "family": "sonar",
+  "model_type": "chat"
 }

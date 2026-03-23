@@ -3,7 +3,7 @@
   "name": "Mistral-Large-3",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "mistral-large",
   "capabilities": {
     "streaming": true,
@@ -20,7 +20,9 @@
     "family": "70f9d51d",
     "capabilities": "ee30ca00",
     "modalities": "6399757e",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

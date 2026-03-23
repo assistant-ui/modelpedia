@@ -3,17 +3,20 @@
   "name": "japanese-stable-diffusion-xl",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "55e78da1",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "page_url": "5e001653"
+  },
+  "page_url": "https://fireworks.ai/models/fireworks/japanese-stable-diffusion-xl"
 }

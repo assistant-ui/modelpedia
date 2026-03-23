@@ -1,0 +1,43 @@
+{
+  "id": "mistralai/ministral-8b",
+  "name": "Mistral: Ministral 3 8B 2512",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "ministral",
+  "description": "A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities.",
+  "release_date": "2025-12-02",
+  "context_window": 262144,
+  "parameters": 8,
+  "model_type": "chat",
+  "tagline": "A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.15,
+    "cached_input": 0.015
+  },
+  "tools": ["function_calling"],
+  "snapshots": ["mistralai/ministral-8b-2512"],
+  "_generated": {
+    "name": "9aa8c609",
+    "family": "d6661e63",
+    "description": "9411538b",
+    "release_date": "75f289bd",
+    "context_window": "4a1d32eb",
+    "parameters": "c9f0f895",
+    "model_type": "d669f408",
+    "tagline": "9411538b",
+    "capabilities": "ad177261",
+    "modalities": "6399757e",
+    "pricing": "4dbaeeed",
+    "tools": "f0c1dc7e"
+  }
+}

@@ -107,6 +107,8 @@ export interface ModelData {
   description?: string;
   /** One-line tagline / subtitle */
   tagline?: string;
+  /** URL to the model's official page / introduction page */
+  page_url?: string;
   /** Current lifecycle status */
   status?: ModelStatus;
   /** Release date (YYYY-MM-DD), null if not applicable */
@@ -143,6 +145,7 @@ export interface ModelData {
     | "moderation"
     | "code"
     | "translation"
+    | "classification"
     | "other";
   /** Supported tools and integrations (e.g. "function_calling", "web_search", "computer_use", "mcp") */
   tools?: string[];
@@ -150,6 +153,12 @@ export interface ModelData {
   endpoints?: string[];
   /** Whether output includes reasoning/thinking tokens (o-series, extended thinking) */
   reasoning_tokens?: boolean;
+  /** License: SPDX ID ("apache-2.0", "mit"), custom name ("llama-3.3"), or "proprietary" */
+  license?: string;
+  /** Total parameters in billions (e.g. 70 for 70B) */
+  parameters?: number;
+  /** Active parameters in billions for MoE architectures (e.g. 22 for 235B-A22B) */
+  active_parameters?: number;
   /**
    * For alias models: list of snapshot IDs this alias has pointed to.
    * e.g. on "claude-opus-4-6": ["claude-opus-4-6-20260101", "claude-opus-4-6-20260701"]
@@ -171,7 +180,13 @@ export interface ModelData {
   successor?: string | string[];
   /** Pricing notes/caveats (e.g. long-context surcharges, regional uplifts) */
   pricing_notes?: string[];
-  /** Provider-specific extra fields (extended_thinking, training_data_cutoff, etc.) */
+  /** Training data cutoff date (YYYY-MM or YYYY-MM-DD). Distinct from knowledge_cutoff which is the model's effective knowledge boundary. */
+  training_data_cutoff?: string | null;
+  /** Model architecture (e.g. "transformer", "moe", "ssm", "hybrid") */
+  architecture?: string;
+  /** Whether the model weights are publicly available for download */
+  open_weight?: boolean;
+  /** Provider-specific extra fields */
   [key: string]: unknown;
 }
 
@@ -194,10 +209,14 @@ export interface Provider {
   description?: string;
   /** Provider type: direct (creates models), aggregator (resells), cloud (platform) */
   type?: ProviderType;
+  /** Alternative names / IDs this provider is known by (e.g. ["zhipu"] for "zai") */
+  aliases?: string[];
   /** Headquarters country, ISO 3166-1 alpha-2 (e.g. "US", "CN", "FR") */
   region: string;
-  /** General training data cutoff for this provider's latest models (YYYY-MM or YYYY-MM-DD) */
-  knowledge_cutoff?: string;
+  /** Headquarters city (e.g. "San Francisco, CA", "Paris", "Beijing") */
+  headquarters?: string;
+  /** Year the company was founded (e.g. 2021) */
+  founded?: number;
   /** Provider website URL */
   url: string;
   /** API base URL */
@@ -216,10 +235,26 @@ export interface Provider {
   sdk?: Record<string, string>;
   /** Whether the provider offers a free tier / free credits */
   free_tier?: boolean;
+  /** Whether the API is OpenAI-compatible (accepts OpenAI SDK requests) */
+  openai_compatible?: boolean;
+  /** GitHub organization or repository URL */
+  github_url?: string;
+  /** URL to the provider's model listing / catalog page */
+  models_url?: string;
+  /** URL to the provider's tokenizer tool */
+  tokenizer_url?: string;
+  /** X/Twitter profile URL */
+  twitter_url?: string;
+  /** Discord community invite URL */
+  discord_url?: string;
+  /** Official blog or research blog URL */
+  blog_url?: string;
+  /** Terms of service URL */
+  terms_url?: string;
+  /** Support or contact page URL */
+  support_url?: string;
   /** Inline SVG icon (monochrome, viewBox 0 0 24 24, fill="currentColor"). Auto-read from icon.svg. */
   icon?: string;
-  /** Provider-specific extra fields */
-  [key: string]: unknown;
 }
 
 /** A single entry in the changes log */

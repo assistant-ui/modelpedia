@@ -20,5 +20,6 @@
     "capabilities": "b011c6b4",
     "model_type": "17475f7f"
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "family": "sonar"
 }

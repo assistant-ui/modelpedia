@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5.2-Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.2",
   "description": "GPT-5.2-Codex is an upgraded version of GPT-5.1-Codex optimized for software engineering and coding workflows.",
   "context_window": 400000,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "a664bdd4",
+    "family": "f580564d",
     "description": "bea1c535",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
-    "family": "f580564d",
-    "pricing": "b99db8a5",
+    "modalities": "6399757e",
     "capabilities": "f533f522",
-    "modalities": "6399757e"
-  }
+    "pricing": "b99db8a5",
+    "model_type": "d669f408",
+    "release_date": "d72531e7",
+    "tagline": "bea1c535",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2026-01-14",
+  "tagline": "GPT-5.2-Codex is an upgraded version of GPT-5.1-Codex optimized for software engineering and coding workflows.",
+  "tools": ["function_calling"]
 }

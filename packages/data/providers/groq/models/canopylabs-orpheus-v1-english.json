@@ -3,7 +3,7 @@
   "name": "Canopy Labs Orpheus V1 English",
   "created_by": "canopy-labs",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "preview",
   "context_window": 4000,
   "max_output_tokens": 50000,
@@ -15,9 +15,11 @@
   "_generated": {
     "name": "0fba1fc6",
     "status": "127aecde",
-    "model_type": "4e16a2cf",
     "context_window": "1bd69c7d",
     "max_output_tokens": "1017bfd4",
-    "modalities": "601e776d"
-  }
+    "model_type": "4e16a2cf",
+    "modalities": "601e776d",
+    "page_url": "f20ea6ae"
+  },
+  "page_url": "https://console.groq.com/docs/models#canopylabs/orpheus-v1-english"
 }

@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-3.5 Turbo 16k",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-3.5",
   "description": "This model offers four times the context length of gpt-3.5-turbo, allowing it to support approximately 20 pages of text in a single request at a higher cost.",
   "context_window": 16385,
@@ -22,12 +22,20 @@
   },
   "_generated": {
     "name": "1c3592ca",
+    "family": "7601054d",
     "description": "4d139460",
     "context_window": "7f4b18de",
     "max_output_tokens": "f7efa4f8",
-    "family": "7601054d",
-    "pricing": "1a73c315",
+    "modalities": "68e53d93",
     "capabilities": "ad177261",
-    "modalities": "68e53d93"
-  }
+    "pricing": "1a73c315",
+    "model_type": "d669f408",
+    "release_date": "855d5ca8",
+    "tagline": "4d139460",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2023-08-28",
+  "tagline": "This model offers four times the context length of gpt-3.5-turbo, allowing it to support approximately 20 pages of text in a single request at a higher cost.",
+  "tools": ["function_calling"]
 }

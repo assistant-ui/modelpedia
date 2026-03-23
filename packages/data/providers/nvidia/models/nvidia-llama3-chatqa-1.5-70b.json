@@ -3,13 +3,19 @@
   "name": "llama3-chatqa-1.5-70b",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
   },
   "_generated": {
     "name": "82e871e4",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "7cbbc409",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 70,
+  "tools": ["function_calling"]
 }

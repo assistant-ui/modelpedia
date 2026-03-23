@@ -3,7 +3,7 @@
   "name": "Sora",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
@@ -14,8 +14,12 @@
   "model_type": "video",
   "_generated": {
     "name": "26ea6093",
-    "model_type": "4d1b75ca",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "4d1b75ca",
+    "description": "0dbd39e8",
+    "tagline": "0dbd39e8"
+  },
+  "description": "NEW sora-2",
+  "tagline": "NEW sora-2"
 }

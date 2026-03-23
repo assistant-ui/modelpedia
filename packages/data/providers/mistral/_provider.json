@@ -2,16 +2,28 @@
   "id": "mistral",
   "name": "Mistral AI",
   "region": "FR",
+  "headquarters": "Paris, Île-de-France",
+  "founded": 2023,
   "url": "https://mistral.ai",
   "api_url": "https://api.mistral.ai/v1",
   "docs_url": "https://docs.mistral.ai",
   "pricing_url": "https://mistral.ai/products",
   "description": "European AI company building open and commercial language models optimized for efficiency.",
   "type": "direct",
+  "playground_url": "https://console.mistral.ai",
   "status_url": "https://status.mistral.ai",
+  "changelog_url": "https://docs.mistral.ai/getting-started/changelog/",
   "sdk": {
     "python": "mistralai",
     "javascript": "@mistralai/mistralai"
   },
-  "free_tier": true
+  "openai_compatible": true,
+  "free_tier": true,
+  "github_url": "https://github.com/mistralai",
+  "models_url": "https://docs.mistral.ai/getting-started/models/",
+  "twitter_url": "https://x.com/MistralAI",
+  "discord_url": "https://discord.com/invite/mistralai",
+  "blog_url": "https://mistral.ai/news",
+  "terms_url": "https://mistral.ai/terms-of-use",
+  "support_url": "https://help.mistral.ai"
 }

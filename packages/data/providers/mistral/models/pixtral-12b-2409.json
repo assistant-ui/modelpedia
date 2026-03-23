@@ -3,7 +3,7 @@
   "name": "pixtral-12b-2409",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "pixtral",
   "status": "deprecated",
   "deprecation_date": "2025-12-02",
@@ -19,13 +19,21 @@
   },
   "_generated": {
     "name": "1f583ab0",
-    "status": "2e2f74dc",
-    "context_window": "34434798",
-    "deprecation_date": "75f289bd",
     "family": "c606df51",
+    "status": "2e2f74dc",
+    "deprecation_date": "75f289bd",
+    "context_window": "34434798",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "license": "60245731",
+    "parameters": "c20ad4d7",
+    "page_url": "8ccc2242",
+    "open_weight": "b326b506"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "parameters": 12,
+  "page_url": "https://docs.mistral.ai/models/pixtral-12b-24-09",
+  "open_weight": true
 }

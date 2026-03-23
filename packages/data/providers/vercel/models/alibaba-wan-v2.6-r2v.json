@@ -15,5 +15,7 @@
     "name": "b5aecc3a",
     "pricing": "9a7a9781",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "family": "wan",
+  "model_type": "video"
 }

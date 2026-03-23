@@ -2,11 +2,20 @@
   "id": "perplexity",
   "name": "Perplexity",
   "region": "US",
+  "headquarters": "San Francisco, CA",
+  "founded": 2022,
   "url": "https://perplexity.ai",
   "api_url": "https://api.perplexity.ai",
   "docs_url": "https://docs.perplexity.ai",
   "pricing_url": "https://docs.perplexity.ai/guides/pricing",
   "description": "AI-powered search engine offering Sonar models with built-in web search and citations.",
   "type": "direct",
-  "free_tier": false
+  "openai_compatible": true,
+  "free_tier": false,
+  "models_url": "https://docs.perplexity.ai/guides/model-cards",
+  "twitter_url": "https://x.com/perplexity_ai",
+  "discord_url": "https://discord.com/invite/perplexity-ai",
+  "blog_url": "https://www.perplexity.ai/hub/blog",
+  "terms_url": "https://www.perplexity.ai/hub/legal/perplexity-api-terms-of-service",
+  "support_url": "https://www.perplexity.ai/hub/helpcenter"
 }

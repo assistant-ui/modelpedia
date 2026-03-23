@@ -3,12 +3,35 @@
   "name": "Qwen2.5-7B-Instruct-Uncensored",
   "created_by": "orion-zhen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "54597bc4",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "5960276c",
+    "page_url": "ec2bc612",
+    "description": "9d640c9d",
+    "release_date": "f93d8851",
+    "context_window": "f4376436",
+    "license": "88a126a5",
+    "tagline": "50929a4e",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 7.6,
+  "page_url": "https://huggingface.co/Orion-zhen/Qwen2.5-7B-Instruct-Uncensored",
+  "description": "This model is an uncensored fine-tune version of Qwen2.5-7B-Instruct. However, I can still notice that though uncensored, the model fails to generate detailed descriptions on certain extreme scenarios, which might be associated with deletion on some pretrain datasets in Qwen's pretraining stage.",
+  "release_date": "2024-09-26",
+  "context_window": 32768,
+  "license": "gpl-3.0",
+  "tagline": "This model is an uncensored fine-tune version of Qwen2.5-7B-Instruct.",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

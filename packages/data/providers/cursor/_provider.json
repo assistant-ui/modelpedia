@@ -2,11 +2,20 @@
   "id": "cursor",
   "name": "Cursor",
   "region": "US",
+  "headquarters": "San Francisco, CA",
+  "founded": 2022,
   "url": "https://cursor.com",
   "api_url": "https://api.cursor.com",
   "docs_url": "https://cursor.com/docs",
   "pricing_url": "https://cursor.com/docs/models-and-pricing",
   "description": "AI-powered code editor providing access to multiple frontier models for software development.",
-  "type": "aggregator",
-  "free_tier": true
+  "type": "cloud",
+  "openai_compatible": false,
+  "free_tier": true,
+  "models_url": "https://cursor.com/docs/models-and-pricing",
+  "twitter_url": "https://x.com/cursor_ai",
+  "discord_url": "https://discord.com/invite/cursor",
+  "blog_url": "https://cursor.com/blog",
+  "terms_url": "https://cursor.com/terms-of-service",
+  "support_url": "https://cursor.com/help"
 }

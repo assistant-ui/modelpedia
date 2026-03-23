@@ -3,12 +3,23 @@
   "name": "openhermes-2.5-mistral-7b-awq",
   "created_by": "thebloke",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "10d73a71",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "8f14e45f",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "b359cab0",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 7,
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#openhermes-2.5-mistral-7b-awq",
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "Llama 4 Scout 17B 16E",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-4",
   "status": "preview",
   "context_window": 131072,
@@ -24,13 +24,21 @@
   },
   "_generated": {
     "name": "8a7a9edd",
+    "family": "3169363f",
     "status": "127aecde",
-    "model_type": "d669f408",
     "context_window": "f7de594e",
     "max_output_tokens": "77441296",
-    "family": "3169363f",
-    "pricing": "8a0e7cc2",
+    "model_type": "d669f408",
     "capabilities": "6c301a15",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "pricing": "8a0e7cc2",
+    "parameters": "70efdf2e",
+    "speed": "b137fdd1",
+    "page_url": "fbf51148",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 17,
+  "speed": 750,
+  "page_url": "https://console.groq.com/docs/models#meta-llama/llama-4-scout-17b-16e-instruct",
+  "tools": ["function_calling"]
 }

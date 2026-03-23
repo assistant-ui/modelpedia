@@ -3,7 +3,7 @@
   "name": "xAI: Grok 3 Beta",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "grok-3",
   "description": "Grok 3 is the latest model from xAI.",
   "context_window": 131072,
@@ -22,11 +22,19 @@
   },
   "_generated": {
     "name": "5a650696",
+    "family": "c41798c6",
     "description": "d4641309",
     "context_window": "f7de594e",
-    "family": "c41798c6",
-    "pricing": "f6abd316",
+    "modalities": "68e53d93",
     "capabilities": "ad177261",
-    "modalities": "68e53d93"
-  }
+    "pricing": "f6abd316",
+    "model_type": "d669f408",
+    "release_date": "a9d448cf",
+    "tagline": "d4641309",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-04-09",
+  "tagline": "Grok 3 is the latest model from xAI.",
+  "tools": ["function_calling"]
 }

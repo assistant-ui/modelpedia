@@ -1,6 +1,7 @@
 import { fetchText } from "./parse.ts";
 import {
   inferFamily,
+  inferParameters,
   type ModelEntry,
   readSources,
   runGenerate,
@@ -14,6 +15,8 @@ import {
 
 const sources = readSources("alibaba");
 const DOCS_MD = sources.docs as string;
+// Derive the HTML page URL from the .md endpoint
+const PAGE_URL = DOCS_MD.replace(/\.md$/, "");
 
 async function main() {
   console.log("Fetching Alibaba Cloud models from docs...");
@@ -28,6 +31,16 @@ async function main() {
   for (const part of parts) {
     const tableMatch = part.match(/<table>([\s\S]*?)<\/table>/);
     if (!tableMatch) continue;
+
+    // Extract section description: text between heading and first table
+    const beforeTable = part.slice(0, tableMatch.index);
+    const descriptionText = beforeTable
+      .replace(/^[^\n]*\n/, "") // drop heading title line
+      .replace(/<[^>]+>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+    const sectionDescription =
+      descriptionText.length > 10 ? descriptionText : undefined;
 
     const rows = [...tableMatch[1].matchAll(/<tr>([\s\S]*?)<\/tr>/g)];
 
@@ -110,13 +123,27 @@ async function main() {
       const outputMods: string[] = ["text"];
       if (allText.includes("audio output")) outputMods.push("audio");
 
+      // Infer parameter counts from model ID (e.g. 72b, 235b-a22b)
+      const params = inferParameters(modelId);
+
       const entry: ModelEntry = {
         id: modelId,
         name: modelId,
         created_by: "qwen",
         family: inferFamily(modelId),
+        description: sectionDescription,
+        page_url: PAGE_URL,
+        license:
+          /^qwen-(max|plus|turbo|vl-max|vl-plus|long|math|omni-turbo)/i.test(
+            modelId,
+          ) || /^qwen3\.5-(plus|max)/i.test(modelId)
+            ? "proprietary"
+            : /^(qwen|qwq)/i.test(modelId)
+              ? "apache-2.0"
+              : "proprietary",
         context_window,
         max_output_tokens,
+        ...(params ?? {}),
         capabilities,
         modalities: { input: inputMods, output: outputMods },
         endpoints: ["chat"],

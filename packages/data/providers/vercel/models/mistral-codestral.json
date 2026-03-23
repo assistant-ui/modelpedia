@@ -3,7 +3,7 @@
   "name": "codestral",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "codestral",
   "context_window": 128000,
   "capabilities": {
@@ -16,11 +16,13 @@
   },
   "_generated": {
     "name": "a0734f6e",
-    "context_window": "34434798",
     "family": "a0734f6e",
-    "pricing": "8eb8395f",
+    "context_window": "34434798",
     "capabilities": "48995a4e",
-    "model_type": "d669f408"
+    "pricing": "8eb8395f",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

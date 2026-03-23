@@ -3,10 +3,14 @@
   "name": "OpenRouter: qwen/qwq-32b-preview:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwq",
   "_generated": {
     "name": "64c5c27a",
-    "family": "3a976110"
-  }
+    "family": "3a976110",
+    "model_type": "17475f7f",
+    "parameters": "6364d3f0"
+  },
+  "model_type": "reasoning",
+  "parameters": 32
 }

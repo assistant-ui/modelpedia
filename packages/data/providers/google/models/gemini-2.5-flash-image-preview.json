@@ -3,7 +3,7 @@
   "name": "gemini-2.5-flash-image-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "gemini-2.5",
   "status": "deprecated",
   "deprecation_date": "2026-01-15",
@@ -18,11 +18,17 @@
   },
   "_generated": {
     "name": "54ec7071",
+    "family": "ea6b88bf",
     "status": "2e2f74dc",
     "deprecation_date": "9e27f046",
     "successor": "418971ef",
-    "family": "ea6b88bf",
     "capabilities": "8a3b232e",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
+  },
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false
 }

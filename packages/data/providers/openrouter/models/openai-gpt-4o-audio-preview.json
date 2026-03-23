@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-4o Audio",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4o",
   "description": "The gpt-4o-audio-preview model adds support for audio inputs as prompts.",
   "context_window": 128000,
@@ -22,12 +22,20 @@
   },
   "_generated": {
     "name": "6a779955",
+    "family": "15249632",
     "description": "9c6b2969",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
-    "family": "15249632",
-    "pricing": "cf1c6d02",
+    "modalities": "881a3f7f",
     "capabilities": "ad177261",
-    "modalities": "881a3f7f"
-  }
+    "pricing": "cf1c6d02",
+    "model_type": "d669f408",
+    "release_date": "bb3abd6f",
+    "tagline": "9c6b2969",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-08-15",
+  "tagline": "The gpt-4o-audio-preview model adds support for audio inputs as prompts.",
+  "tools": ["function_calling"]
 }

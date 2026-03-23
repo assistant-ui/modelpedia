@@ -3,7 +3,7 @@
   "name": "GPT-5.2 Chat",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.2",
   "description": "GPT-5.2 Chat points to the GPT-5.2 snapshot currently used in ChatGPT.",
   "status": "active",
@@ -55,21 +55,27 @@
   "snapshots": ["gpt-5.2-chat-latest"],
   "_generated": {
     "name": "b0290d7c",
+    "family": "f580564d",
     "description": "ad50ba82",
-    "tagline": "aa4c32a7",
     "status": "379ac110",
-    "model_type": "d669f408",
+    "knowledge_cutoff": "5549a2cd",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
     "max_input_tokens": "3f9281a0",
-    "knowledge_cutoff": "5549a2cd",
+    "model_type": "d669f408",
     "performance": "eccbc87e",
     "speed": "eccbc87e",
-    "family": "f580564d",
-    "pricing": "745a23d5",
+    "tagline": "aa4c32a7",
     "capabilities": "fdacdfa5",
     "modalities": "6399757e",
+    "pricing": "745a23d5",
     "tools": "1d5a765f",
-    "endpoints": "a913714d"
-  }
+    "endpoints": "a913714d",
+    "license": "9186c466",
+    "page_url": "6b0f1cc5",
+    "open_weight": "68934a3e"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-5.2-chat-latest",
+  "open_weight": false
 }

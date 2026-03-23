@@ -3,7 +3,7 @@
   "name": "llama-3-swallow-70b-instruct-v0.1",
   "created_by": "tokyotech-llm",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-3",
   "capabilities": {
     "streaming": true,
@@ -12,6 +12,12 @@
   "_generated": {
     "name": "08952a23",
     "family": "a8d1600e",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "7cbbc409",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 70,
+  "tools": ["function_calling"]
 }

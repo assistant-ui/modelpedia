@@ -1,0 +1,43 @@
+{
+  "id": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+  "name": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "Llama-4",
+  "release_date": "2025-04-01",
+  "knowledge_cutoff": null,
+  "context_window": 1048576,
+  "max_output_tokens": 16384,
+  "license": "llama4",
+  "parameters": 402,
+  "page_url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ae425639",
+    "family": "4fef0f45",
+    "release_date": "e34c5e92",
+    "knowledge_cutoff": "37a6259c",
+    "context_window": "7d28a051",
+    "max_output_tokens": "c76fe1d8",
+    "license": "ee5e92e7",
+    "parameters": "69cb3ea3",
+    "page_url": "d5a1de78",
+    "model_type": "d669f408",
+    "capabilities": "1a260abc",
+    "modalities": "6399757e",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  }
+}

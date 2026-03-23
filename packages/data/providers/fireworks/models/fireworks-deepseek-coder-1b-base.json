@@ -3,7 +3,7 @@
   "name": "deepseek-coder-1b-base",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek",
   "context_window": 16400,
   "capabilities": {
@@ -11,13 +11,18 @@
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "82d42659",
-    "context_window": "e375a58e",
     "family": "4b81b92d",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "e375a58e",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "parameters": "c4ca4238",
+    "page_url": "bcab8c95"
+  },
+  "parameters": 1,
+  "page_url": "https://fireworks.ai/models/fireworks/deepseek-coder-1b-base"
 }

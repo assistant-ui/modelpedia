@@ -3,7 +3,7 @@
   "name": "NVIDIA: Llama 3.1 Nemotron Ultra 253B v1",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-3.1",
   "description": "Llama-3.1-Nemotron-Ultra-253B-v1 is a large language model (LLM) optimized for advanced reasoning, human-interactive chat, retrieval-augmented generation (RAG), and tool-calling tasks.",
   "context_window": 131072,
@@ -21,11 +21,19 @@
   },
   "_generated": {
     "name": "7c0d5189",
+    "family": "83ec32db",
     "description": "f67e00d7",
     "context_window": "f7de594e",
-    "family": "83ec32db",
-    "pricing": "b6a09cab",
+    "modalities": "68e53d93",
     "capabilities": "ee598c3a",
-    "modalities": "68e53d93"
-  }
+    "pricing": "b6a09cab",
+    "model_type": "d669f408",
+    "parameters": "c24cd76e",
+    "release_date": "69fc7fbd",
+    "tagline": "f67e00d7"
+  },
+  "model_type": "chat",
+  "parameters": 253,
+  "release_date": "2025-04-08",
+  "tagline": "Llama-3.1-Nemotron-Ultra-253B-v1 is a large language model (LLM) optimized for advanced reasoning, human-interactive chat, retrieval-augmented generation (RAG), and tool-calling tasks."
 }

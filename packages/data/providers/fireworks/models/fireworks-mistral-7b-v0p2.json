@@ -3,19 +3,28 @@
   "name": "mistral-7b-v0p2",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 32800,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "f36a8f6f",
     "context_window": "74a190a6",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "model_type": "d669f408",
+    "family": "33212289",
+    "parameters": "8f14e45f",
+    "page_url": "e3999a1c"
+  },
+  "model_type": "chat",
+  "family": "mistral-7b",
+  "parameters": 7,
+  "page_url": "https://fireworks.ai/models/fireworks/mistral-7b-v0p2"
 }

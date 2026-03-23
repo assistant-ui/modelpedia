@@ -3,7 +3,7 @@
   "name": "ministral-3b-2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "ministral",
   "status": "active",
   "context_window": 256000,
@@ -22,13 +22,21 @@
   },
   "_generated": {
     "name": "812a3627",
+    "family": "d6661e63",
     "status": "379ac110",
     "context_window": "2fd324cb",
-    "family": "d6661e63",
-    "pricing": "dabb026f",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
-    "model_type": "d669f408"
+    "pricing": "dabb026f",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "parameters": "eccbc87e",
+    "page_url": "106e4b11",
+    "open_weight": "b326b506"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "parameters": 3,
+  "page_url": "https://docs.mistral.ai/models/ministral-3-3b-25-12",
+  "open_weight": true
 }

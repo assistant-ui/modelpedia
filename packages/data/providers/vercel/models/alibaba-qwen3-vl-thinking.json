@@ -3,7 +3,7 @@
   "name": "qwen3-vl-thinking",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "context_window": 256000,
   "capabilities": {
@@ -18,9 +18,13 @@
   },
   "_generated": {
     "name": "eb07c3e4",
-    "context_window": "2fd324cb",
     "family": "48c385a0",
+    "context_window": "2fd324cb",
+    "capabilities": "a19166f1",
     "pricing": "83d039f0",
-    "capabilities": "a19166f1"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

@@ -3,14 +3,31 @@
   "name": "gemma-2-2b-jpn-it",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gemma-2",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "e133593c",
     "family": "e8114e3e",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "d0e5f276",
+    "page_url": "2da49774",
+    "release_date": "edf1fb88",
+    "license": "3fe02b16",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 2.6,
+  "page_url": "https://huggingface.co/google/gemma-2-2b-jpn-it",
+  "release_date": "2024-09-25",
+  "license": "gemma",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "Amazon: Nova Lite 1.0",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Amazon Nova Lite 1.0 is a very low-cost multimodal model from Amazon that focused on fast processing of image, video, and text inputs to generate text output.",
   "context_window": 300000,
   "max_output_tokens": 5120,
@@ -23,8 +23,16 @@
     "description": "7a9a9039",
     "context_window": "1ded704c",
     "max_output_tokens": "6aadca7b",
-    "pricing": "8cdaccf7",
+    "modalities": "6399757e",
     "capabilities": "ce9e2425",
-    "modalities": "6399757e"
-  }
+    "pricing": "8cdaccf7",
+    "model_type": "d669f408",
+    "release_date": "261bf75d",
+    "tagline": "7a9a9039",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2024-12-05",
+  "tagline": "Amazon Nova Lite 1.0 is a very low-cost multimodal model from Amazon that focused on fast processing of image, video, and text inputs to generate text output.",
+  "tools": ["function_calling"]
 }

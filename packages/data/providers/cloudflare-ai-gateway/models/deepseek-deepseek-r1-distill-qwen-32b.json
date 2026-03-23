@@ -13,5 +13,7 @@
     "name": "1d1ae288",
     "family": "c74cfb8e",
     "pricing": "2c6b1f7c"
-  }
+  },
+  "model_type": "reasoning",
+  "parameters": 32
 }

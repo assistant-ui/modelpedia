@@ -3,13 +3,17 @@
   "name": "OpenRouter: deepcogito/cogito-v2-preview-llama-405B",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 3.5,
     "output": 3.5
   },
   "_generated": {
     "name": "5c86e1f8",
-    "pricing": "cfdeac37"
-  }
+    "pricing": "cfdeac37",
+    "parameters": "bbcbff5c",
+    "model_type": "d669f408"
+  },
+  "parameters": 405,
+  "model_type": "chat"
 }

@@ -14,5 +14,6 @@
     "status": "379ac110",
     "family": "ea4a1a23",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "model_type": "chat"
 }

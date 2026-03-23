@@ -3,7 +3,7 @@
   "name": "minimax-m2.7-highspeed",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 204800,
   "capabilities": {
     "streaming": true,
@@ -18,7 +18,13 @@
   "_generated": {
     "name": "71f0d291",
     "context_window": "65d646a4",
+    "capabilities": "a19166f1",
     "pricing": "e9aad47c",
-    "capabilities": "a19166f1"
-  }
+    "family": "c85916f0",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "family": "minimax",
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

@@ -3,13 +3,15 @@
   "name": "OpenRouter: microsoft/phi-4-multimodal-instruct",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 0.049999999999999996,
     "output": 0.09999999999999999
   },
   "_generated": {
     "name": "125cc07a",
-    "pricing": "aaf6a307"
-  }
+    "pricing": "aaf6a307",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

@@ -13,5 +13,6 @@
     "capabilities": "0fa77dc6",
     "model_type": "d669f408"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "magistral"
 }

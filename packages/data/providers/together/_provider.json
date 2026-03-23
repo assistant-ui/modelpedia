@@ -2,15 +2,25 @@
   "id": "together",
   "name": "Together AI",
   "region": "US",
+  "headquarters": "San Francisco, CA",
+  "founded": 2022,
   "url": "https://www.together.ai",
   "api_url": "https://api.together.xyz/v1",
   "docs_url": "https://docs.together.ai",
   "pricing_url": "https://www.together.ai/pricing",
   "description": "Open-source AI inference and fine-tuning platform with 100+ models.",
-  "type": "aggregator",
+  "type": "cloud",
+  "playground_url": "https://api.together.ai/playground",
   "sdk": {
     "python": "together",
     "javascript": "together-ai"
   },
-  "free_tier": true
+  "openai_compatible": true,
+  "free_tier": true,
+  "github_url": "https://github.com/togethercomputer",
+  "models_url": "https://docs.together.ai/docs/serverless-models",
+  "twitter_url": "https://x.com/togethercompute",
+  "blog_url": "https://www.together.ai/blog",
+  "terms_url": "https://www.together.ai/terms-of-service",
+  "support_url": "https://www.together.ai/support"
 }

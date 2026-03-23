@@ -3,7 +3,7 @@
   "name": "grok-4",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "grok-4",
   "context_window": 256000,
   "capabilities": {
@@ -18,9 +18,13 @@
   },
   "_generated": {
     "name": "0d5416ff",
-    "context_window": "2fd324cb",
     "family": "0d5416ff",
+    "context_window": "2fd324cb",
+    "capabilities": "a19166f1",
     "pricing": "7939f0ff",
-    "capabilities": "a19166f1"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "Lfm2 24b A2b",
   "created_by": "liquid",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 32000,
   "capabilities": {
     "streaming": true
@@ -15,7 +15,15 @@
   "_generated": {
     "name": "4d50c596",
     "context_window": "10e4d788",
+    "capabilities": "0fa77dc6",
     "pricing": "3b6defad",
-    "capabilities": "0fa77dc6"
-  }
+    "parameters": "1ff1de77",
+    "active_parameters": "c81e728d",
+    "page_url": "0f0ccd28",
+    "model_type": "d669f408"
+  },
+  "parameters": 24,
+  "active_parameters": 2,
+  "page_url": "https://www.together.ai/models/lfm2-24b-a2b",
+  "model_type": "chat"
 }

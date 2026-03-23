@@ -3,7 +3,7 @@
   "name": "Qwen3 Coder Next",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "context_window": 262000,
   "capabilities": {
@@ -15,9 +15,13 @@
   },
   "_generated": {
     "name": "2e1ef73c",
-    "context_window": "4ed74017",
     "family": "48c385a0",
+    "context_window": "4ed74017",
+    "capabilities": "0fa77dc6",
     "pricing": "bff6af62",
-    "capabilities": "0fa77dc6"
-  }
+    "model_type": "b6cc3ff4",
+    "page_url": "d4ecfc5b"
+  },
+  "model_type": "code",
+  "page_url": "https://www.together.ai/models/qwen3-coder-next"
 }

@@ -3,7 +3,7 @@
   "name": "llama-4-scout",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-4",
   "context_window": 131100,
   "capabilities": {
@@ -17,9 +17,13 @@
   },
   "_generated": {
     "name": "862df853",
-    "context_window": "a683b9ae",
     "family": "3169363f",
+    "context_window": "a683b9ae",
+    "capabilities": "fc36814c",
     "pricing": "cacab766",
-    "capabilities": "fc36814c"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

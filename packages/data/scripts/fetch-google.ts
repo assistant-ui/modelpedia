@@ -42,6 +42,8 @@ async function fetchModelSlugs(): Promise<string[]> {
 
 interface ModelSpec {
   id: string;
+  description?: string;
+  page_url: string;
   input_tokens?: number;
   output_tokens?: number;
   knowledge_cutoff?: string;
@@ -58,6 +60,21 @@ async function fetchModelSpec(slug: string): Promise<ModelSpec | null> {
 
   // Model ID - the slug itself is the ID
   const id = slug;
+  const page_url = `https://ai.google.dev/gemini-api/docs/models/${slug}`;
+
+  // Description — the intro paragraph sits between the page title and
+  // "Try in Google AI Studio" in the stripped text.
+  let description: string | undefined;
+  const descMatch = text.match(
+    /((?:Our |A |The |An )\S[\s\S]*?)\s+Try in Google AI Studio/i,
+  );
+  if (descMatch) {
+    const raw = descMatch[1].trim();
+    // Skip deprecation notices — they are not real descriptions
+    if (!/^This model is deprecated/i.test(raw) && raw.length >= 20) {
+      description = raw;
+    }
+  }
 
   // Input token limit
   const inputMatch = text.match(
@@ -131,6 +148,8 @@ async function fetchModelSpec(slug: string): Promise<ModelSpec | null> {
     if (id.startsWith(prefix)) {
       return {
         id,
+        description,
+        page_url,
         input_tokens: inputTokens,
         output_tokens: outputTokens,
         knowledge_cutoff: knowledgeCutoff,
@@ -144,6 +163,8 @@ async function fetchModelSpec(slug: string): Promise<ModelSpec | null> {
   if (id.includes("embedding")) {
     return {
       id,
+      description,
+      page_url,
       input_tokens: inputTokens,
       output_tokens: outputTokens,
       knowledge_cutoff: knowledgeCutoff,
@@ -155,6 +176,8 @@ async function fetchModelSpec(slug: string): Promise<ModelSpec | null> {
 
   return {
     id,
+    description,
+    page_url,
     input_tokens: inputTokens,
     output_tokens: outputTokens,
     knowledge_cutoff: knowledgeCutoff,
@@ -427,8 +450,10 @@ async function main() {
     const entry: ModelEntry = {
       id: spec.id,
       name: api?.displayName ?? spec.id,
-      description: api?.description,
+      description: api?.description ?? spec.description,
       family: inferFamily(spec.id),
+      page_url: spec.page_url,
+      license: /^gemma/i.test(spec.id) ? "apache-2.0" : "proprietary",
       status: isShutdown ? "deprecated" : "active",
       context_window: api?.inputTokenLimit ?? spec.input_tokens,
       max_output_tokens: api?.outputTokenLimit ?? spec.output_tokens,
@@ -489,6 +514,7 @@ async function main() {
       name: api?.displayName ?? id,
       description: api?.description,
       family: inferFamily(id),
+      license: /^gemma/i.test(id) ? "apache-2.0" : "proprietary",
       status: isShutdown ? "deprecated" : "active",
       context_window: api?.inputTokenLimit,
       max_output_tokens: api?.outputTokenLimit,
@@ -527,6 +553,7 @@ async function main() {
         name: api.displayName,
         description: api.description,
         family: inferFamily(id),
+        license: /^gemma/i.test(id) ? "apache-2.0" : "proprietary",
         status: dep ? "deprecated" : "active",
         context_window: api.inputTokenLimit,
         max_output_tokens: api.outputTokenLimit,

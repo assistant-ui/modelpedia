@@ -3,7 +3,7 @@
   "name": "o4-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "o4",
   "context_window": 200000,
   "capabilities": {
@@ -18,9 +18,13 @@
   },
   "_generated": {
     "name": "0ad044e2",
-    "context_window": "03e6c616",
     "family": "a842f941",
+    "context_window": "03e6c616",
+    "capabilities": "a19166f1",
     "pricing": "20e8e5b9",
-    "capabilities": "a19166f1"
-  }
+    "model_type": "17475f7f",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "reasoning",
+  "tools": ["function_calling"]
 }

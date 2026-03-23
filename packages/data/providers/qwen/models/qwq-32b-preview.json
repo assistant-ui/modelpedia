@@ -1,0 +1,38 @@
+{
+  "id": "qwq-32b-preview",
+  "name": "qwq-32b-preview",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "qwq",
+  "context_window": 32768,
+  "max_output_tokens": 16384,
+  "model_type": "reasoning",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.287,
+    "output": 0.861
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "db81c479",
+    "family": "3a976110",
+    "context_window": "f4376436",
+    "max_output_tokens": "c76fe1d8",
+    "model_type": "17475f7f",
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "pricing": "24fc5ef4",
+    "endpoints": "75df3f1c"
+  },
+  "license": "apache-2.0",
+  "parameters": 32,
+  "provider": "qwen"
+}

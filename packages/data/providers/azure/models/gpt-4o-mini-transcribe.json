@@ -3,7 +3,7 @@
   "name": "gpt-4o-mini-transcribe",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4o",
   "capabilities": {
     "streaming": true
@@ -15,9 +15,13 @@
   "model_type": "transcription",
   "_generated": {
     "name": "3f6bf75d",
-    "model_type": "5e12d29a",
     "family": "15249632",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "5e12d29a",
+    "description": "4ffc84a2",
+    "tagline": "4ffc84a2"
+  },
+  "description": "Speech-to-text model powered by GPT-4o mini.",
+  "tagline": "Speech-to-text model powered by GPT-4o mini."
 }

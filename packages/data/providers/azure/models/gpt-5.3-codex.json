@@ -17,5 +17,6 @@
     "family": "a1a05172",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93"
-  }
+  },
+  "model_type": "chat"
 }

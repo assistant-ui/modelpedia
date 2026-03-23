@@ -3,7 +3,7 @@
   "name": "Arcee AI: Spotlight",
   "created_by": "arcee-ai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Spotlight is a 7‑billion‑parameter vision‑language model derived from Qwen 2.5‑VL and fine‑tuned by Arcee AI for tight image‑text grounding tasks.",
   "context_window": 131072,
   "max_output_tokens": 65537,
@@ -20,7 +20,11 @@
     "description": "be9412be",
     "context_window": "f7de594e",
     "max_output_tokens": "1332bd1d",
+    "modalities": "8b8b28d1",
     "pricing": "bd10cf29",
-    "modalities": "8b8b28d1"
-  }
+    "release_date": "be9965ce",
+    "tagline": "be9412be"
+  },
+  "release_date": "2025-05-05",
+  "tagline": "Spotlight is a 7‑billion‑parameter vision‑language model derived from Qwen 2.5‑VL and fine‑tuned by Arcee AI for tight image‑text grounding tasks."
 }

@@ -3,13 +3,15 @@
   "name": "OpenRouter: xiaomi/mimo-v2-omni",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 0.39999999999999997,
     "output": 2
   },
   "_generated": {
     "name": "f5b02f1c",
-    "pricing": "c1252b94"
-  }
+    "pricing": "c1252b94",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

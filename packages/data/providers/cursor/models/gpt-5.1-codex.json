@@ -3,7 +3,7 @@
   "name": "GPT-5.1 Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.1",
   "capabilities": {
     "streaming": true,
@@ -25,12 +25,20 @@
   "speed": 3,
   "_generated": {
     "name": "c6ccf75f",
+    "family": "2089aff2",
+    "capabilities": "45192957",
+    "modalities": "6399757e",
+    "pricing": "50bb1323",
     "context_window": "3f9281a0",
     "performance": "a87ff679",
     "speed": "eccbc87e",
-    "family": "2089aff2",
-    "pricing": "50bb1323",
-    "capabilities": "45192957",
-    "modalities": "6399757e"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e",
+    "page_url": "06949a46",
+    "pricing_notes": "d6542f4d"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"],
+  "page_url": "https://cursor.com/docs/models-and-pricing#gpt-5-1-codex",
+  "pricing_notes": ["Hidden by default; Agentic and reasoning capabilities"]
 }

@@ -3,7 +3,7 @@
   "name": "GPT-4o Transcribe",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4o",
   "description": "GPT-4o Transcribe is a speech-to-text model that uses GPT-4o to transcribe audio.",
   "status": "active",
@@ -50,18 +50,24 @@
   "snapshots": ["gpt-4o-transcribe"],
   "_generated": {
     "name": "04ad7ace",
+    "family": "15249632",
     "description": "fbfc82bb",
-    "tagline": "08622bab",
     "status": "379ac110",
-    "model_type": "5e12d29a",
+    "knowledge_cutoff": "1d431428",
     "context_window": "67510c89",
     "max_output_tokens": "08f90c1a",
-    "knowledge_cutoff": "1d431428",
+    "model_type": "5e12d29a",
     "performance": "a87ff679",
     "speed": "eccbc87e",
-    "family": "15249632",
-    "pricing": "a3f2b1b6",
+    "tagline": "08622bab",
     "modalities": "7cee5e0e",
-    "endpoints": "250917d3"
-  }
+    "pricing": "a3f2b1b6",
+    "endpoints": "250917d3",
+    "license": "9186c466",
+    "page_url": "3ba0d3e4",
+    "open_weight": "68934a3e"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-4o-transcribe",
+  "open_weight": false
 }

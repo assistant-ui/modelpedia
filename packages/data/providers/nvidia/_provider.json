@@ -2,14 +2,23 @@
   "id": "nvidia",
   "name": "NVIDIA",
   "region": "US",
+  "headquarters": "Santa Clara, CA",
+  "founded": 1993,
   "url": "https://build.nvidia.com",
   "api_url": "https://integrate.api.nvidia.com/v1",
   "docs_url": "https://docs.api.nvidia.com",
   "pricing_url": "https://build.nvidia.com/pricing",
   "description": "NVIDIA NIM provides optimized inference for 190+ models on NVIDIA GPU infrastructure.",
-  "type": "aggregator",
+  "type": "cloud",
+  "playground_url": "https://build.nvidia.com",
   "sdk": {
     "python": "openai"
   },
-  "free_tier": true
+  "openai_compatible": true,
+  "free_tier": true,
+  "models_url": "https://build.nvidia.com/explore/discover",
+  "twitter_url": "https://x.com/nvidia",
+  "blog_url": "https://blogs.nvidia.com",
+  "terms_url": "https://developer.nvidia.com/legal/terms",
+  "support_url": "https://forums.developer.nvidia.com"
 }

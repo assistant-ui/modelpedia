@@ -3,7 +3,7 @@
   "name": "deepseek-v3",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "deepseek",
   "context_window": 163800,
   "capabilities": {
@@ -16,9 +16,11 @@
   },
   "_generated": {
     "name": "61b133fc",
-    "context_window": "df026689",
     "family": "4b81b92d",
+    "context_window": "df026689",
+    "capabilities": "48995a4e",
     "pricing": "4e37eb25",
-    "capabilities": "48995a4e"
-  }
+    "tools": "f0c1dc7e"
+  },
+  "tools": ["function_calling"]
 }

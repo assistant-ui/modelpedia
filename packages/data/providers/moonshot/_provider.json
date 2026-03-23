@@ -2,11 +2,18 @@
   "id": "moonshot",
   "name": "Moonshot AI (Kimi)",
   "region": "CN",
+  "headquarters": "Beijing, Beijing",
+  "founded": 2023,
   "url": "https://platform.moonshot.ai",
   "api_url": "https://api.moonshot.ai/v1",
   "docs_url": "https://platform.moonshot.ai/docs/intro",
   "pricing_url": "https://platform.moonshot.ai/docs/pricing/chat",
   "description": "Chinese AI company building Kimi, a long-context AI assistant.",
   "type": "direct",
-  "free_tier": false
+  "openai_compatible": true,
+  "free_tier": false,
+  "twitter_url": "https://x.com/Kimi_Moonshot",
+  "discord_url": "https://discord.com/invite/TYU2fdJykW",
+  "terms_url": "https://platform.moonshot.ai/docs/agreement/modeluse",
+  "support_url": "https://forum.moonshot.ai"
 }

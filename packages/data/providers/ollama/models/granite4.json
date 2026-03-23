@@ -3,12 +3,34 @@
   "name": "granite4",
   "created_by": "ibm",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "d77a005a",
-    "capabilities": "0fa77dc6"
+    "capabilities": "48995a4e",
+    "description": "95de2cde",
+    "page_url": "4bf607f9",
+    "tagline": "95de2cde",
+    "context_window": "f7de594e",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "description": "Granite 4 features improved instruction following (IF) and tool-calling capabilities, making them more effective in enterprise applications.",
+  "page_url": "https://ollama.com/library/granite4",
+  "tagline": "Granite 4 features improved instruction following (IF) and tool-calling capabilities, making them more effective in enterprise applications.",
+  "context_window": 131072,
+  "license": "apache-2.0",
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

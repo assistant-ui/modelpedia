@@ -3,7 +3,7 @@
   "name": "Compound",
   "created_by": "groq",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "compound",
   "status": "active",
   "context_window": 131072,
@@ -20,12 +20,18 @@
   },
   "_generated": {
     "name": "a8e51bc6",
+    "family": "ae78db21",
     "status": "379ac110",
-    "model_type": "d669f408",
     "context_window": "f7de594e",
     "max_output_tokens": "77441296",
-    "family": "ae78db21",
+    "model_type": "d669f408",
     "capabilities": "6c301a15",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "speed": "f5f8590c",
+    "page_url": "0abc5d04",
+    "tools": "f0c1dc7e"
+  },
+  "speed": 450,
+  "page_url": "https://console.groq.com/docs/models#groq/compound",
+  "tools": ["function_calling"]
 }

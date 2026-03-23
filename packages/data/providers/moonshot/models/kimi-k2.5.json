@@ -3,7 +3,7 @@
   "name": "Kimi K2.5",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "kimi",
   "description": "Kimi's most intelligent model with native multimodal support, thinking/non-thinking modes.",
   "context_window": 256000,
@@ -20,11 +20,19 @@
   "tagline": "Kimi's most intelligent model with native multimodal support, thinking/non-thinking modes.",
   "_generated": {
     "name": "52aa7dab",
-    "description": "7d0e28f3",
-    "tagline": "7d0e28f3",
-    "context_window": "2fd324cb",
     "family": "0740f86b",
+    "description": "7d0e28f3",
+    "context_window": "2fd324cb",
     "capabilities": "a19166f1",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "tagline": "7d0e28f3",
+    "model_type": "d669f408",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "license": "mit",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

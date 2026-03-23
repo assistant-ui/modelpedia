@@ -3,12 +3,35 @@
   "name": "LLaMAntino-3-ANITA-8B-Inst-DPO-ITA",
   "created_by": "swap-uniba",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "3e6c5ffa",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "page_url": "edb575ee",
+    "description": "fa0ba1bd",
+    "release_date": "5990dc90",
+    "context_window": "77441296",
+    "license": "c1eeabcd",
+    "tagline": "fa0ba1bd",
+    "architecture": "8832ea0f",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA",
+  "description": "📣 New MODEL FAMILY❗ [https://huggingface.co/m-polignano/ANITA-NEXT-24B-Magistral-2506-VISION-ITA](https://huggingface.co/m-polignano/ANITA-NEXT-24B-Magistral-2506-VISION-ITA)",
+  "release_date": "2024-04-29",
+  "context_window": 8192,
+  "license": "llama3",
+  "tagline": "📣 New MODEL FAMILY❗ [https://huggingface.co/m-polignano/ANITA-NEXT-24B-Magistral-2506-VISION-ITA](https://huggingface.co/m-polignano/ANITA-NEXT-24B-Magistral-2506-VISION-ITA)",
+  "architecture": "transformer",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

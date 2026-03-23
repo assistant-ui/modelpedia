@@ -3,7 +3,7 @@
   "name": "GPT-5.4 mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.4",
   "description": "GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient",
   "status": "active",
@@ -11,7 +11,7 @@
   "context_window": 400000,
   "max_output_tokens": 128000,
   "max_input_tokens": 272000,
-  "model_type": "reasoning",
+  "model_type": "chat",
   "reasoning_tokens": true,
   "performance": 4,
   "reasoning": 4,
@@ -56,19 +56,7 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "web_search",
-    "file_search",
-    "tool_search",
-    "image_generation",
-    "code_interpreter",
-    "hosted_shell",
-    "apply_patch",
-    "skills",
-    "computer_use",
-    "mcp"
-  ],
+  "tools": ["function_calling"],
   "endpoints": ["responses", "chat_completions", "batch"],
   "pricing_notes": [
     "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 mini."
@@ -76,23 +64,32 @@
   "snapshots": ["gpt-5.4-mini-2026-03-17"],
   "_generated": {
     "name": "bcfe9cca",
+    "family": "4651e8f0",
     "description": "52ee5ed1",
-    "tagline": "1bab51a8",
     "status": "379ac110",
-    "model_type": "17475f7f",
+    "knowledge_cutoff": "5549a2cd",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
     "max_input_tokens": "3f9281a0",
-    "knowledge_cutoff": "5549a2cd",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
     "performance": "a87ff679",
     "reasoning": "a87ff679",
     "speed": "a87ff679",
-    "family": "4651e8f0",
-    "reasoning_tokens": "b326b506",
-    "pricing": "47500a58",
+    "tagline": "1bab51a8",
     "capabilities": "e67897df",
     "modalities": "6399757e",
-    "tools": "44af6f15",
-    "endpoints": "88e8abb4"
-  }
+    "pricing": "47500a58",
+    "tools": "f0c1dc7e",
+    "endpoints": "88e8abb4",
+    "pricing_notes": "a7efc7e9",
+    "license": "9186c466",
+    "page_url": "5a1c8d86",
+    "open_weight": "68934a3e",
+    "release_date": "56d4bd95"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-5.4-mini",
+  "open_weight": false,
+  "release_date": "2026-03-17"
 }

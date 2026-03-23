@@ -11,5 +11,7 @@
   "_generated": {
     "name": "5e1e70d4",
     "pricing": "570a8792"
-  }
+  },
+  "family": "minimax",
+  "model_type": "chat"
 }

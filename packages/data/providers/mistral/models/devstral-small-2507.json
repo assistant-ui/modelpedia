@@ -3,7 +3,7 @@
   "name": "devstral-small-2507",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "devstral",
   "status": "active",
   "context_window": 128000,
@@ -23,12 +23,18 @@
   "model_type": "code",
   "_generated": {
     "name": "e59d7969",
-    "status": "379ac110",
-    "model_type": "b6cc3ff4",
-    "context_window": "34434798",
     "family": "e626e93e",
-    "pricing": "53952343",
+    "status": "379ac110",
+    "context_window": "34434798",
     "capabilities": "8a3b232e",
-    "modalities": "6399757e"
-  }
+    "modalities": "6399757e",
+    "pricing": "53952343",
+    "model_type": "b6cc3ff4",
+    "license": "60245731",
+    "page_url": "60d6db2c",
+    "open_weight": "b326b506"
+  },
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/devstral-small-1-1-25-07",
+  "open_weight": true
 }

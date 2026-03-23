@@ -3,7 +3,7 @@
   "name": "llama-3.1-405b-instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "llama-3.1",
   "capabilities": {
     "streaming": true,
@@ -12,6 +12,12 @@
   "_generated": {
     "name": "8f759b83",
     "family": "83ec32db",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "model_type": "d669f408",
+    "parameters": "bbcbff5c",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 405,
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "qwen-plus-character",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwen",
   "context_window": 32768,
   "max_output_tokens": 4000,
@@ -29,6 +29,10 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "pricing": "78aa1114",
-    "endpoints": "75df3f1c"
-  }
+    "endpoints": "75df3f1c",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
+  },
+  "license": "proprietary",
+  "open_weight": false
 }

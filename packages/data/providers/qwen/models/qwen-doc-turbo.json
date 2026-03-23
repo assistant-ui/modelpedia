@@ -1,0 +1,36 @@
+{
+  "id": "qwen-doc-turbo",
+  "name": "qwen-doc-turbo",
+  "created_by": "qwen",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "qwen",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.087,
+    "output": 0.144
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "5508308e",
+    "family": "a3af76f3",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "db951532",
+    "endpoints": "75df3f1c"
+  },
+  "license": "apache-2.0",
+  "provider": "qwen"
+}

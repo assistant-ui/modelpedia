@@ -3,7 +3,7 @@
   "name": "trinity-large-preview",
   "created_by": "arcee",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 131000,
   "capabilities": {
     "streaming": true,
@@ -16,7 +16,9 @@
   "_generated": {
     "name": "734806a6",
     "context_window": "834bd590",
+    "capabilities": "48995a4e",
     "pricing": "f691bdc3",
-    "capabilities": "48995a4e"
-  }
+    "tools": "f0c1dc7e"
+  },
+  "tools": ["function_calling"]
 }

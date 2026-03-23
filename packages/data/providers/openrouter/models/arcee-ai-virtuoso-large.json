@@ -3,7 +3,7 @@
   "name": "Arcee AI: Virtuoso Large",
   "created_by": "arcee-ai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Virtuoso‑Large is Arcee's top‑tier general‑purpose LLM at 72 B parameters, tuned to tackle cross‑domain reasoning, creative writing and enterprise QA.",
   "context_window": 131072,
   "max_output_tokens": 64000,
@@ -23,8 +23,14 @@
     "description": "7a790707",
     "context_window": "f7de594e",
     "max_output_tokens": "762e98db",
-    "pricing": "cec02da8",
+    "modalities": "68e53d93",
     "capabilities": "ce9e2425",
-    "modalities": "68e53d93"
-  }
+    "pricing": "cec02da8",
+    "release_date": "be9965ce",
+    "tagline": "7a790707",
+    "tools": "f0c1dc7e"
+  },
+  "release_date": "2025-05-05",
+  "tagline": "Virtuoso‑Large is Arcee's top‑tier general‑purpose LLM at 72 B parameters, tuned to tackle cross‑domain reasoning, creative writing and enterprise QA.",
+  "tools": ["function_calling"]
 }

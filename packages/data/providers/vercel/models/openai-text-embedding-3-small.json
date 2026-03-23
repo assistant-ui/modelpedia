@@ -17,5 +17,6 @@
     "model_type": "764cb3de",
     "pricing": "8d85a56c",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "family": "text-embedding"
 }

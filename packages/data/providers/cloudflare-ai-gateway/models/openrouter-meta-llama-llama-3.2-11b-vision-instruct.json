@@ -13,5 +13,7 @@
     "name": "c234ccaf",
     "family": "d4c42ce9",
     "pricing": "12e7d89d"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 11
 }

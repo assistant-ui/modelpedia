@@ -11,5 +11,8 @@
   "_generated": {
     "name": "37e3adbf",
     "pricing": "651d3042"
-  }
+  },
+  "family": "llama-3",
+  "model_type": "chat",
+  "parameters": 8
 }

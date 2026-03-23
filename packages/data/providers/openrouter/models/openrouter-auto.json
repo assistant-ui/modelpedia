@@ -3,7 +3,7 @@
   "name": "Auto Router",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.",
   "context_window": 2000000,
   "modalities": {
@@ -19,7 +19,13 @@
     "name": "4420e201",
     "description": "b49f0d12",
     "context_window": "805f7438",
+    "modalities": "bedbbc8b",
     "capabilities": "f533f522",
-    "modalities": "bedbbc8b"
-  }
+    "release_date": "8565ad2e",
+    "tagline": "b49f0d12",
+    "tools": "f0c1dc7e"
+  },
+  "release_date": "2023-11-08",
+  "tagline": "Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.",
+  "tools": ["function_calling"]
 }

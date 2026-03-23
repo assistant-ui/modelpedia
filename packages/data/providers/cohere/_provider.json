@@ -2,16 +2,27 @@
   "id": "cohere",
   "name": "Cohere",
   "region": "CA",
+  "headquarters": "Toronto, ON",
+  "founded": 2019,
   "url": "https://cohere.com",
   "api_url": "https://api.cohere.com/v2",
   "docs_url": "https://docs.cohere.com",
   "pricing_url": "https://cohere.com/pricing",
   "description": "Enterprise AI platform specializing in text generation, embeddings, and reranking for RAG.",
   "type": "direct",
+  "playground_url": "https://dashboard.cohere.com/playground",
   "status_url": "https://status.cohere.com",
   "sdk": {
     "python": "cohere",
     "javascript": "cohere-ai"
   },
-  "free_tier": true
+  "openai_compatible": false,
+  "free_tier": true,
+  "github_url": "https://github.com/cohere-ai",
+  "models_url": "https://docs.cohere.com/docs/models",
+  "twitter_url": "https://x.com/CohereAI",
+  "discord_url": "https://discord.com/invite/co-mmunity",
+  "blog_url": "https://cohere.com/blog",
+  "terms_url": "https://cohere.com/terms-of-use",
+  "support_url": "https://cohere.com/contact-sales"
 }

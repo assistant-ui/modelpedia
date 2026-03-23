@@ -3,7 +3,7 @@
   "name": "grok-code-fast-1",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "grok-code",
   "context_window": 256000,
   "capabilities": {
@@ -17,9 +17,13 @@
   },
   "_generated": {
     "name": "e06e17a4",
-    "context_window": "2fd324cb",
     "family": "378ba70c",
+    "context_window": "2fd324cb",
+    "capabilities": "a281e83a",
     "pricing": "0532f1d5",
-    "capabilities": "a281e83a"
-  }
+    "model_type": "b6cc3ff4",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "code",
+  "tools": ["function_calling"]
 }

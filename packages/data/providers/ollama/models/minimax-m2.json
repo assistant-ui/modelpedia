@@ -3,14 +3,35 @@
   "name": "minimax-m2",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "b162f864",
     "capabilities": "0fa77dc6",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "family": "c85916f0",
+    "description": "57108a7d",
+    "release_date": "7600ba0c",
+    "page_url": "6a41e09a",
+    "tagline": "57108a7d",
+    "context_window": "65d646a4",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "minimax",
+  "description": "MiniMax M2 is a high-efficiency large language model built for coding and agentic workflows.",
+  "release_date": "2025-10-27",
+  "page_url": "https://ollama.com/library/minimax-m2",
+  "tagline": "MiniMax M2 is a high-efficiency large language model built for coding and agentic workflows.",
+  "context_window": 204800,
+  "license": "open-weight",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

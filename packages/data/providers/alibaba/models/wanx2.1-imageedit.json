@@ -3,7 +3,7 @@
   "name": "wanx2.1-imageedit",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "model_type": "image",
   "capabilities": {
     "streaming": true,
@@ -19,6 +19,12 @@
     "model_type": "db8857fe",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
-    "endpoints": "75df3f1c"
-  }
+    "endpoints": "75df3f1c",
+    "family": "2aadc089",
+    "license": "9186c466",
+    "open_weight": "68934a3e"
+  },
+  "family": "wan",
+  "license": "proprietary",
+  "open_weight": false
 }

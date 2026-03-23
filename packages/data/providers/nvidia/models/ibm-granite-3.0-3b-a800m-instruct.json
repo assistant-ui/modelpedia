@@ -3,13 +3,17 @@
   "name": "granite-3.0-3b-a800m-instruct",
   "created_by": "ibm",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
   },
   "_generated": {
     "name": "cec29d6d",
-    "capabilities": "48995a4e"
-  }
+    "capabilities": "48995a4e",
+    "parameters": "eccbc87e",
+    "tools": "f0c1dc7e"
+  },
+  "parameters": 3,
+  "tools": ["function_calling"]
 }

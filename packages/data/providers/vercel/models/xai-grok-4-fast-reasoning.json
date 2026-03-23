@@ -3,7 +3,7 @@
   "name": "grok-4-fast-reasoning",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "grok-4",
   "context_window": 2000000,
   "capabilities": {
@@ -17,11 +17,13 @@
   },
   "_generated": {
     "name": "46ffb353",
-    "context_window": "805f7438",
     "family": "0d5416ff",
-    "pricing": "36539e12",
+    "context_window": "805f7438",
     "capabilities": "a281e83a",
-    "model_type": "17475f7f"
+    "pricing": "36539e12",
+    "model_type": "17475f7f",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "tools": ["function_calling"]
 }

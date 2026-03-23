@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5.2 Pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-5.2",
   "description": "GPT-5.2 Pro is OpenAI’s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro.",
   "context_window": 400000,
@@ -23,12 +23,20 @@
   },
   "_generated": {
     "name": "3b3ee8e1",
+    "family": "f580564d",
     "description": "1c904e0f",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
-    "family": "f580564d",
-    "pricing": "a65a912a",
+    "modalities": "8b8b28d1",
     "capabilities": "f533f522",
-    "modalities": "8b8b28d1"
-  }
+    "pricing": "a65a912a",
+    "model_type": "d669f408",
+    "release_date": "7b4e98b0",
+    "tagline": "1c904e0f",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-12-10",
+  "tagline": "GPT-5.2 Pro is OpenAI’s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro.",
+  "tools": ["function_calling"]
 }

@@ -13,5 +13,7 @@
     "name": "d314ec33",
     "family": "c74cfb8e",
     "capabilities": "b011c6b4"
-  }
+  },
+  "model_type": "reasoning",
+  "parameters": 8
 }

@@ -2,16 +2,27 @@
   "id": "groq",
   "name": "Groq",
   "region": "US",
+  "headquarters": "Mountain View, CA",
+  "founded": 2016,
   "url": "https://groq.com",
   "api_url": "https://api.groq.com/openai/v1",
   "docs_url": "https://console.groq.com/docs",
   "pricing_url": "https://groq.com/pricing",
   "description": "Ultra-fast inference platform powered by custom LPU hardware for low-latency AI.",
-  "type": "aggregator",
+  "type": "cloud",
+  "playground_url": "https://console.groq.com/playground",
   "status_url": "https://status.groq.com",
   "sdk": {
     "python": "groq",
     "javascript": "groq-sdk"
   },
-  "free_tier": true
+  "openai_compatible": true,
+  "free_tier": true,
+  "github_url": "https://github.com/groq",
+  "models_url": "https://console.groq.com/docs/models",
+  "twitter_url": "https://x.com/GroqInc",
+  "discord_url": "https://discord.com/invite/groq",
+  "blog_url": "https://groq.com/blog",
+  "terms_url": "https://groq.com/terms-of-use",
+  "support_url": "https://groq.com/contact"
 }

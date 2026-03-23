@@ -3,7 +3,7 @@
   "name": "whisper",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
@@ -15,9 +15,13 @@
   "model_type": "transcription",
   "_generated": {
     "name": "7fbc43e3",
-    "model_type": "5e12d29a",
-    "family": "7fbc43e3",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "family": "7fbc43e3",
+    "model_type": "5e12d29a",
+    "description": "f8d81449",
+    "tagline": "f8d81449"
+  },
+  "description": "General-purpose speech recognition model.",
+  "tagline": "General-purpose speech recognition model."
 }

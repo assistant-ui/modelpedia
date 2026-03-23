@@ -3,12 +3,35 @@
   "name": "minimax-m2.7",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "9dc6e0e4",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "family": "c85916f0",
+    "model_type": "d669f408",
+    "description": "568e1a1e",
+    "release_date": "e6131053",
+    "page_url": "e7966a4a",
+    "tagline": "568e1a1e",
+    "context_window": "65d646a4",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
+  },
+  "family": "minimax",
+  "model_type": "chat",
+  "description": "MiniMax&#39;s M2-series model for coding, agentic workflows, and professional productivity.",
+  "release_date": "2026-03-18",
+  "page_url": "https://ollama.com/library/minimax-m2.7",
+  "tagline": "MiniMax&#39;s M2-series model for coding, agentic workflows, and professional productivity.",
+  "context_window": 204800,
+  "license": "open-weight",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

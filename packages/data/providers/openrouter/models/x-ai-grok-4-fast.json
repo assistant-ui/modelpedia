@@ -3,7 +3,7 @@
   "name": "xAI: Grok 4 Fast",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "grok-4",
   "description": "Grok 4 Fast is xAI's latest multimodal model with SOTA cost-efficiency and a 2M token context window.",
   "context_window": 2000000,
@@ -24,12 +24,20 @@
   },
   "_generated": {
     "name": "fecf3e65",
+    "family": "0d5416ff",
     "description": "83918dee",
     "context_window": "805f7438",
     "max_output_tokens": "5ecc6131",
-    "family": "0d5416ff",
-    "pricing": "25a4c630",
+    "modalities": "6399757e",
     "capabilities": "f533f522",
-    "modalities": "6399757e"
-  }
+    "pricing": "25a4c630",
+    "model_type": "d669f408",
+    "release_date": "188a9399",
+    "tagline": "83918dee",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2025-09-19",
+  "tagline": "Grok 4 Fast is xAI's latest multimodal model with SOTA cost-efficiency and a 2M token context window.",
+  "tools": ["function_calling"]
 }

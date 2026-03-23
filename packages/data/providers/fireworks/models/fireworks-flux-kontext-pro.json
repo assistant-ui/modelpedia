@@ -3,17 +3,22 @@
   "name": "flux-kontext-pro",
   "created_by": "stability",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 0.04,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "731ec69a",
-    "pricing": "b1f758ce",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "f79ba102",
+    "model_type": "db8857fe",
+    "page_url": "b3d3ee14"
+  },
+  "model_type": "image",
+  "page_url": "https://fireworks.ai/models/fireworks/flux-kontext-pro"
 }

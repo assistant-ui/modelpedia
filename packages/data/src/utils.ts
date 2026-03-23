@@ -22,7 +22,10 @@ export function getModelsByCreator(creator: string): Model[] {
 }
 
 export function getProvider(id: string): ProviderWithModels | undefined {
-  return providers.find((p) => p.id === id);
+  return (
+    providers.find((p) => p.id === id) ??
+    providers.find((p) => p.aliases?.includes(id))
+  );
 }
 
 export function getAllProviders(): ProviderWithModels[] {

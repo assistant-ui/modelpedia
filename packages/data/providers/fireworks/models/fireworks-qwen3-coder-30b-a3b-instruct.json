@@ -3,7 +3,7 @@
   "name": "qwen3-coder-30b-a3b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "context_window": 262100,
   "capabilities": {
@@ -11,13 +11,22 @@
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "970f20cb",
-    "context_window": "b23f4471",
     "family": "48c385a0",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "b23f4471",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "model_type": "b6cc3ff4",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "page_url": "850c1cf8"
+  },
+  "model_type": "code",
+  "parameters": 30,
+  "active_parameters": 3,
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3-coder-30b-a3b-instruct"
 }

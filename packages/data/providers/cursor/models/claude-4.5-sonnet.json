@@ -3,7 +3,7 @@
   "name": "Claude 4.5 Sonnet",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "claude-sonnet",
   "capabilities": {
     "streaming": true,
@@ -27,13 +27,23 @@
   "speed": 3,
   "_generated": {
     "name": "66613ac1",
+    "family": "68d1c457",
+    "capabilities": "45192957",
+    "modalities": "6399757e",
+    "pricing": "fcf3f284",
     "context_window": "03e6c616",
     "max_context_window": "8155bc54",
     "performance": "a87ff679",
     "speed": "eccbc87e",
-    "family": "68d1c457",
-    "pricing": "fcf3f284",
-    "capabilities": "45192957",
-    "modalities": "6399757e"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e",
+    "page_url": "7271a23e",
+    "pricing_notes": "e0d697f4"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"],
+  "page_url": "https://cursor.com/docs/models-and-pricing#claude-4-5-sonnet",
+  "pricing_notes": [
+    "Hidden by default; Requires Max Mode on request-based plans; The cost is 2x when the input exceeds 200k tokens"
+  ]
 }

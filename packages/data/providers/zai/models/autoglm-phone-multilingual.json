@@ -1,0 +1,25 @@
+{
+  "id": "autoglm-phone-multilingual",
+  "name": "AUTOGLM-PHONE-MULTILINGUAL",
+  "created_by": "zai",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "license": "mit",
+  "page_url": "https://docs.z.ai/guides/vlm/autoglm-phone-multilingual",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "b00531f4",
+    "license": "3c4c3ba5",
+    "page_url": "8922186f",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "open_weight": "b326b506"
+  }
+}

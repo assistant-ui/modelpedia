@@ -3,7 +3,7 @@
   "name": "codestral-mamba-7b-01",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "codestral",
   "status": "active",
   "context_window": 256000,
@@ -17,11 +17,19 @@
   "model_type": "code",
   "_generated": {
     "name": "90e13f7f",
-    "status": "379ac110",
-    "model_type": "b6cc3ff4",
-    "context_window": "2fd324cb",
     "family": "a0734f6e",
+    "status": "379ac110",
+    "context_window": "2fd324cb",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "model_type": "b6cc3ff4",
+    "license": "60245731",
+    "parameters": "8f14e45f",
+    "page_url": "d67985e6",
+    "open_weight": "b326b506"
+  },
+  "license": "apache-2.0",
+  "parameters": 7,
+  "page_url": "https://docs.mistral.ai/models/codestral-mamba-7b-0-1",
+  "open_weight": true
 }

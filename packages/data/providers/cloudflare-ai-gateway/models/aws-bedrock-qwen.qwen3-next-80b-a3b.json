@@ -15,5 +15,7 @@
     "family": "4f268b83",
     "model_type": "d669f408",
     "pricing": "e0e3f1f5"
-  }
+  },
+  "parameters": 80,
+  "active_parameters": 3
 }

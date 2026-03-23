@@ -3,12 +3,21 @@
   "name": "granite-4.0-h-micro",
   "created_by": "ibm",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "4074cf42",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "96adee47",
+    "tools": "f0c1dc7e"
+  },
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#granite-4.0-h-micro",
+  "tools": ["function_calling"]
 }

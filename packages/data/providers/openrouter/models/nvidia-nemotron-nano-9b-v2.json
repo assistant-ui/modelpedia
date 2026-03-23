@@ -3,7 +3,7 @@
   "name": "NVIDIA: Nemotron Nano 9B V2",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks.",
   "context_window": 131072,
   "modalities": {
@@ -23,8 +23,18 @@
     "name": "06027909",
     "description": "192cbb95",
     "context_window": "f7de594e",
-    "pricing": "cd345e8e",
+    "modalities": "68e53d93",
     "capabilities": "f533f522",
-    "modalities": "68e53d93"
-  }
+    "pricing": "cd345e8e",
+    "model_type": "d669f408",
+    "parameters": "45c48cce",
+    "release_date": "4c7c3b08",
+    "tagline": "192cbb95",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 9,
+  "release_date": "2025-09-05",
+  "tagline": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks.",
+  "tools": ["function_calling"]
 }

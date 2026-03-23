@@ -3,7 +3,7 @@
   "name": "qwen3.5-397b-a17b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "qwen3.5",
   "context_window": 262144,
   "max_output_tokens": 81920,
@@ -25,6 +25,14 @@
     "model_type": "d669f408",
     "capabilities": "b011c6b4",
     "modalities": "68e53d93",
-    "endpoints": "75df3f1c"
-  }
+    "endpoints": "75df3f1c",
+    "license": "60245731",
+    "parameters": "e46de7e1",
+    "active_parameters": "70efdf2e",
+    "open_weight": "b326b506"
+  },
+  "license": "apache-2.0",
+  "parameters": 397,
+  "active_parameters": 17,
+  "open_weight": true
 }

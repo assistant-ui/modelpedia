@@ -3,7 +3,7 @@
   "name": "glm-4.5v",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "context_window": 66000,
   "capabilities": {
     "streaming": true,
@@ -18,7 +18,13 @@
   "_generated": {
     "name": "25a7af7e",
     "context_window": "8b4ac866",
+    "capabilities": "a19166f1",
     "pricing": "b6a09cab",
-    "capabilities": "a19166f1"
-  }
+    "family": "e8ea1e1e",
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "family": "glm-4.5",
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

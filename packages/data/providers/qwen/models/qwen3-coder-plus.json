@@ -3,18 +3,29 @@
   "name": "qwen3-coder-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
+  "context_window": 1000000,
+  "max_output_tokens": 65536,
+  "model_type": "code",
   "capabilities": {
-    "streaming": true,
-    "tool_call": true
+    "streaming": true
   },
-  "provider": "qwen",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
   "_generated": {
     "name": "409b0797",
     "family": "48c385a0",
-    "capabilities": "48995a4e",
-    "model_type": "b6cc3ff4"
+    "context_window": "8155bc54",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "b6cc3ff4",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "75df3f1c"
   },
-  "model_type": "code"
+  "license": "apache-2.0",
+  "provider": "qwen"
 }

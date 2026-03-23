@@ -3,7 +3,7 @@
   "name": "gpt-oss-safeguard-120b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-oss",
   "context_window": 131100,
   "capabilities": {
@@ -11,15 +11,20 @@
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "model_type": "moderation",
   "_generated": {
     "name": "01a88892",
-    "model_type": "1e7a7b87",
-    "context_window": "a683b9ae",
     "family": "82d0cb0b",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "a683b9ae",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "model_type": "1e7a7b87",
+    "parameters": "da4fb5c6",
+    "page_url": "fa55cb4b"
+  },
+  "parameters": 120,
+  "page_url": "https://fireworks.ai/models/fireworks/gpt-oss-safeguard-120b"
 }

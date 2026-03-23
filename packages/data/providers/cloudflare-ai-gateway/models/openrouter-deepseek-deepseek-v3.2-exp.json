@@ -3,7 +3,7 @@
   "name": "OpenRouter: deepseek/deepseek-v3.2-exp",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "deepseek",
   "pricing": {
     "input": 0.27,
@@ -12,6 +12,8 @@
   "_generated": {
     "name": "01e83d1f",
     "family": "4b81b92d",
-    "pricing": "0d7298a4"
-  }
+    "pricing": "0d7298a4",
+    "model_type": "d669f408"
+  },
+  "model_type": "chat"
 }

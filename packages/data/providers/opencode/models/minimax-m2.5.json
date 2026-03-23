@@ -3,18 +3,25 @@
   "name": "MiniMax M2.5",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.3
+    "input": 0.3,
+    "output": 1.2,
+    "cached_input": 0.06,
+    "cache_write": 0.375
   },
   "_generated": {
     "name": "fbc8323f",
     "status": "379ac110",
-    "pricing": "c2423732",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "pricing": "61b3aa5c",
+    "family": "c85916f0",
+    "model_type": "d669f408"
+  },
+  "family": "minimax",
+  "model_type": "chat"
 }

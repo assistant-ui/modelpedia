@@ -3,7 +3,7 @@
   "name": "o4-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "o4",
   "description": "o4-mini is our latest small o-series model. It's optimized for fast,",
   "status": "active",
@@ -52,13 +52,7 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "file_search",
-    "code_interpreter",
-    "mcp",
-    "web_search"
-  ],
+  "tools": ["function_calling"],
   "endpoints": ["chat_completions", "responses", "batch", "fine_tuning"],
   "snapshots": ["o4-mini-2025-04-16"],
   "_generated": {
@@ -78,7 +72,15 @@
     "capabilities": "3e473f74",
     "modalities": "6399757e",
     "pricing": "c2c03eaa",
-    "tools": "fab5356d",
-    "endpoints": "b36a99d3"
-  }
+    "tools": "f0c1dc7e",
+    "endpoints": "b36a99d3",
+    "license": "9186c466",
+    "page_url": "5b6ed93a",
+    "open_weight": "68934a3e",
+    "release_date": "67604092"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/o4-mini",
+  "open_weight": false,
+  "release_date": "2025-04-16"
 }

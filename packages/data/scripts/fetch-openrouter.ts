@@ -3,18 +3,16 @@ import {
   filterModalities,
   firstSentence,
   inferFamily,
-  readModelJson,
+  inferParameters,
+  type ModelEntry,
   readSources,
   runGenerate,
-  sanitizeModelId,
-  today,
-  writeModelJson,
+  upsertWithSnapshot,
 } from "./shared.ts";
 
 /**
- * Fetch from OpenRouter's public API (no key needed). Two jobs:
- * 1. Write ALL OpenRouter models to providers/openrouter/models/
- * 2. Enrich existing provider models with missing technical specs
+ * Fetch from OpenRouter's public API (no key needed).
+ * Writes ALL OpenRouter models to providers/openrouter/models/
  */
 
 const sources = readSources("openrouter");
@@ -79,62 +77,9 @@ function toPerMillion(perToken: string | undefined): number | undefined {
   return Math.round(n * 1_000_000 * 1000) / 1000;
 }
 
-// ── Job 1: Write OpenRouter provider models ──
-
-function writeOpenRouterModels(models: ORModel[]): number {
-  console.log("\n[1/2] Writing OpenRouter provider models...");
-  let written = 0;
-
-  for (const m of models) {
-    const fileId = sanitizeModelId(m.id);
-    const existing = readModelJson("openrouter", fileId);
-    if (existing?.source === "community") continue;
-
-    const data: Record<string, unknown> = {
-      id: m.id,
-      name: m.name,
-      created_by: extractCreatedBy(m.id),
-      source: "official",
-      last_updated: today(),
-    };
-
-    const family = inferFamily(m.id);
-    if (family) data.family = family;
-
-    if (m.description) data.description = firstSentence(m.description);
-    if (m.expiration_date) {
-      data.status = "deprecated";
-      data.deprecation_date = m.expiration_date;
-    }
-
-    if (m.context_length) data.context_window = m.context_length;
-    if (m.top_provider.max_completion_tokens) {
-      data.max_output_tokens = m.top_provider.max_completion_tokens;
-    }
-
-    const mods = filterModalities(
-      m.architecture.input_modalities,
-      m.architecture.output_modalities,
-    );
-    if (mods.input.length > 0 || mods.output.length > 0) data.modalities = mods;
-
-    const caps = mapCapabilities(m.supported_parameters);
-    if (Object.keys(caps).length > 0) data.capabilities = caps;
-
-    const pricing: Record<string, number | null> = {};
-    const inp = toPerMillion(m.pricing.prompt);
-    const out = toPerMillion(m.pricing.completion);
-    const cached = toPerMillion(m.pricing.input_cache_read);
-    if (inp !== undefined) pricing.input = inp;
-    if (out !== undefined) pricing.output = out;
-    if (cached !== undefined) pricing.cached_input = cached;
-    if (Object.keys(pricing).length > 0) data.pricing = pricing;
-
-    writeModelJson("openrouter", fileId, data);
-    written++;
-  }
-
-  return written;
+/** Convert Unix timestamp (seconds) to YYYY-MM-DD. */
+function unixToDate(ts: number): string {
+  return new Date(ts * 1000).toISOString().split("T")[0];
 }
 
 // ── Main ──
@@ -144,9 +89,62 @@ async function main() {
   const json = await fetchJson<{ data: ORModel[] }>(API_URL);
   console.log(`Got ${json.data.length} models from OpenRouter`);
 
-  const orWritten = writeOpenRouterModels(json.data);
-  console.log(`Wrote ${orWritten} models`);
+  let written = 0;
 
+  for (const m of json.data) {
+    const entry: ModelEntry = {
+      id: m.id,
+      name: m.name,
+      created_by: extractCreatedBy(m.id),
+      family: inferFamily(m.id),
+    };
+
+    if (m.description) entry.description = firstSentence(m.description);
+
+    // Release date from API created timestamp
+    if (m.created) entry.release_date = unixToDate(m.created);
+
+    if (m.expiration_date) {
+      entry.status = "deprecated";
+      entry.deprecation_date = m.expiration_date;
+    }
+
+    if (m.context_length) entry.context_window = m.context_length;
+    if (m.top_provider.max_completion_tokens) {
+      entry.max_output_tokens = m.top_provider.max_completion_tokens;
+    }
+
+    const mods = filterModalities(
+      m.architecture.input_modalities,
+      m.architecture.output_modalities,
+    );
+    if (mods.input.length > 0 || mods.output.length > 0)
+      entry.modalities = mods;
+
+    const caps = mapCapabilities(m.supported_parameters);
+    if (Object.keys(caps).length > 0) entry.capabilities = caps;
+
+    const pricing: Record<string, number | null> = {};
+    const inp = toPerMillion(m.pricing.prompt);
+    const out = toPerMillion(m.pricing.completion);
+    const cached = toPerMillion(m.pricing.input_cache_read);
+    if (inp !== undefined) pricing.input = inp;
+    if (out !== undefined) pricing.output = out;
+    if (cached !== undefined) pricing.cached_input = cached;
+    if (Object.keys(pricing).length > 0) entry.pricing = pricing;
+
+    // Infer parameters from model ID (e.g. "llama-3.1-405b" → 405)
+    const params = inferParameters(m.id);
+    if (params) {
+      entry.parameters = params.parameters;
+      if (params.active_parameters)
+        entry.active_parameters = params.active_parameters;
+    }
+
+    written += upsertWithSnapshot("openrouter", entry);
+  }
+
+  console.log(`Wrote ${written} models`);
   runGenerate();
 }
 

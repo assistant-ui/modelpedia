@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-4o (2024-08-06)",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-4o",
   "description": "The 2024-08-06 version of GPT-4o offers improved performance in structured outputs, with the ability to supply a JSON schema in the respone_format.",
   "context_window": 128000,
@@ -23,12 +23,21 @@
   },
   "_generated": {
     "name": "4b8fb481",
+    "family": "15249632",
     "description": "a2082a13",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
-    "family": "15249632",
-    "pricing": "042a06e1",
+    "modalities": "6399757e",
     "capabilities": "ad177261",
-    "modalities": "6399757e"
-  }
+    "pricing": "042a06e1",
+    "model_type": "d669f408",
+    "release_date": "1d54b01d",
+    "tagline": "a2082a13",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2024-08-06",
+  "alias": "openai/gpt-4o",
+  "tagline": "The 2024-08-06 version of GPT-4o offers improved performance in structured outputs, with the ability to supply a JSON schema in the respone_format.",
+  "tools": ["function_calling"]
 }

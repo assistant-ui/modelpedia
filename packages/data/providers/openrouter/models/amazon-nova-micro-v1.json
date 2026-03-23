@@ -3,7 +3,7 @@
   "name": "Amazon: Nova Micro 1.0",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "description": "Amazon Nova Micro 1.0 is a text-only model that delivers the lowest latency responses in the Amazon Nova family of models at a very low cost.",
   "context_window": 128000,
   "max_output_tokens": 5120,
@@ -23,8 +23,16 @@
     "description": "ceed78a2",
     "context_window": "34434798",
     "max_output_tokens": "6aadca7b",
-    "pricing": "3a48531d",
+    "modalities": "68e53d93",
     "capabilities": "ce9e2425",
-    "modalities": "68e53d93"
-  }
+    "pricing": "3a48531d",
+    "model_type": "d669f408",
+    "release_date": "261bf75d",
+    "tagline": "ceed78a2",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2024-12-05",
+  "tagline": "Amazon Nova Micro 1.0 is a text-only model that delivers the lowest latency responses in the Amazon Nova family of models at a very low cost.",
+  "tools": ["function_calling"]
 }

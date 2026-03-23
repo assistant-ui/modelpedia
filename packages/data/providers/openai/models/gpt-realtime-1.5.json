@@ -3,7 +3,7 @@
   "name": "gpt-realtime-1.5",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "gpt-realtime",
   "description": "GPT-Reatime-1.5 is our flagship audio model for voice agents & customer support.",
   "status": "active",
@@ -64,18 +64,28 @@
   "snapshots": ["gpt-realtime-1.5"],
   "_generated": {
     "name": "ba790d92",
+    "family": "f5032d33",
     "description": "70905875",
-    "tagline": "25bac9df",
     "status": "379ac110",
+    "knowledge_cutoff": "b0196d6e",
     "context_window": "10e4d788",
     "max_output_tokens": "f7efa4f8",
-    "knowledge_cutoff": "b0196d6e",
     "performance": "e4da3b7f",
     "speed": "a87ff679",
-    "family": "f5032d33",
-    "pricing": "e5a44c7e",
+    "tagline": "25bac9df",
     "capabilities": "ce9e2425",
     "modalities": "96cad1df",
-    "endpoints": "c7ed7203"
-  }
+    "pricing": "e5a44c7e",
+    "endpoints": "c7ed7203",
+    "model_type": "9f84c007",
+    "license": "9186c466",
+    "page_url": "391bc1ed",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "audio",
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-realtime-1.5",
+  "open_weight": false,
+  "tools": ["function_calling"]
 }

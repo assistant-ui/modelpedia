@@ -3,7 +3,7 @@
   "name": "DeepSeek R1-0528 (Reasoner)",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "deepseek-chat",
   "status": "deprecated",
   "release_date": "2025-05-28",
@@ -28,8 +28,12 @@
     "capabilities": "b011c6b4",
     "modalities": "68e53d93",
     "deprecation_date": "d9d01c83",
-    "successor": "d9b5fd92"
+    "successor": "d9b5fd92",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506"
   },
   "deprecation_date": "2025-08-21",
-  "successor": "deepseek-reasoner-2025-08-21"
+  "successor": "deepseek-reasoner-2025-08-21",
+  "license": "mit",
+  "open_weight": true
 }

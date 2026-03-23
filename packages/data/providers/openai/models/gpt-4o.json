@@ -3,7 +3,7 @@
   "name": "GPT-4o",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "gpt-4o",
   "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
   "status": "active",
@@ -49,14 +49,7 @@
       }
     ]
   },
-  "tools": [
-    "function_calling",
-    "web_search",
-    "file_search",
-    "image_generation",
-    "code_interpreter",
-    "mcp"
-  ],
+  "tools": ["function_calling"],
   "endpoints": ["chat_completions", "responses", "assistants", "batch"],
   "snapshots": ["gpt-4o-2024-11-20", "gpt-4o-2024-08-06", "gpt-4o-2024-05-13"],
   "_generated": {
@@ -74,7 +67,15 @@
     "capabilities": "1937a3c0",
     "modalities": "6399757e",
     "pricing": "81e43e77",
-    "tools": "1d5a765f",
-    "endpoints": "1c48b50a"
-  }
+    "tools": "f0c1dc7e",
+    "endpoints": "1c48b50a",
+    "license": "9186c466",
+    "page_url": "07c95f3a",
+    "open_weight": "68934a3e",
+    "release_date": "090277ab"
+  },
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/gpt-4o",
+  "open_weight": false,
+  "release_date": "2024-11-20"
 }

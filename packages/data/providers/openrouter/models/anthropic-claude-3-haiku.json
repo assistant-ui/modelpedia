@@ -3,7 +3,7 @@
   "name": "Anthropic: Claude 3 Haiku",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "claude-haiku",
   "description": "Claude 3 Haiku is Anthropic's fastest and most compact model for\nnear-instant responsiveness. Quick and accurate targeted performance.\n\nSee the launch announcement and benchmark results [here](https:/",
   "context_window": 200000,
@@ -22,12 +22,20 @@
   },
   "_generated": {
     "name": "4abf5522",
+    "family": "1cfb9795",
     "description": "9d9e55b4",
     "context_window": "03e6c616",
     "max_output_tokens": "f7efa4f8",
-    "family": "1cfb9795",
-    "pricing": "9e6522f6",
+    "modalities": "6399757e",
     "capabilities": "ce9e2425",
-    "modalities": "6399757e"
-  }
+    "pricing": "9e6522f6",
+    "model_type": "d669f408",
+    "release_date": "0c8576fe",
+    "tagline": "9d9e55b4",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "release_date": "2024-03-13",
+  "tagline": "Claude 3 Haiku is Anthropic's fastest and most compact model for\nnear-instant responsiveness. Quick and accurate targeted performance.\n\nSee the launch announcement and benchmark results [here](https:/",
+  "tools": ["function_calling"]
 }

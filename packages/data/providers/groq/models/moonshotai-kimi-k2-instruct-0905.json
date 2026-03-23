@@ -3,7 +3,7 @@
   "name": "Kimi K2 0905",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "preview",
   "context_window": 262144,
   "max_output_tokens": 16384,
@@ -24,11 +24,19 @@
   "_generated": {
     "name": "739b6e84",
     "status": "127aecde",
-    "model_type": "d669f408",
     "context_window": "4a1d32eb",
     "max_output_tokens": "c76fe1d8",
-    "pricing": "7fd03be2",
+    "model_type": "d669f408",
     "capabilities": "6c301a15",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "pricing": "7fd03be2",
+    "family": "0f7256d5",
+    "speed": "3644a684",
+    "page_url": "a4c3bd06",
+    "tools": "f0c1dc7e"
+  },
+  "family": "kimi-k2",
+  "speed": 200,
+  "page_url": "https://console.groq.com/docs/models#moonshotai/kimi-k2-instruct-0905",
+  "tools": ["function_calling"]
 }

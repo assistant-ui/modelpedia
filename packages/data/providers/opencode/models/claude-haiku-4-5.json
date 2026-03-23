@@ -3,21 +3,24 @@
   "name": "Claude Haiku 4.5",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "claude-haiku",
   "status": "active",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 1
+    "input": 1,
+    "output": 5,
+    "cached_input": 0.1,
+    "cache_write": 1.25
   },
   "_generated": {
     "name": "61746f3c",
-    "status": "379ac110",
     "family": "1cfb9795",
-    "pricing": "1b478256",
+    "status": "379ac110",
     "capabilities": "0fa77dc6",
+    "pricing": "d7e92214",
     "model_type": "d669f408"
   },
   "model_type": "chat"

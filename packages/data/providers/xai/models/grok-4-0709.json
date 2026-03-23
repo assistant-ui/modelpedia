@@ -13,5 +13,8 @@
     "name": "02752036",
     "release_date": "0ebd8cbe",
     "capabilities": "48995a4e"
-  }
+  },
+  "family": "grok-4",
+  "model_type": "chat",
+  "license": "proprietary"
 }

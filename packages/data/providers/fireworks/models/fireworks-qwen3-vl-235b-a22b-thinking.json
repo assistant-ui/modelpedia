@@ -3,7 +3,7 @@
   "name": "qwen3-vl-235b-a22b-thinking",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen3",
   "context_window": 262100,
   "capabilities": {
@@ -11,13 +11,22 @@
   },
   "pricing": {
     "input": 1,
-    "output": 1
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "6d11f3a0",
-    "context_window": "b23f4471",
     "family": "48c385a0",
-    "pricing": "5418a9a1",
-    "capabilities": "0fa77dc6"
-  }
+    "context_window": "b23f4471",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "model_type": "d669f408",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "page_url": "46c336bb"
+  },
+  "model_type": "chat",
+  "parameters": 235,
+  "active_parameters": 22,
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3-vl-235b-a22b-thinking"
 }

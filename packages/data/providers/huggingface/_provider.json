@@ -2,6 +2,8 @@
   "id": "huggingface",
   "name": "Hugging Face",
   "region": "US",
+  "headquarters": "New York, NY",
+  "founded": 2016,
   "url": "https://huggingface.co",
   "api_url": "https://router.huggingface.co/v1",
   "docs_url": "https://huggingface.co/docs/api-inference",
@@ -12,5 +14,13 @@
     "python": "huggingface_hub",
     "javascript": "@huggingface/inference"
   },
-  "free_tier": true
+  "openai_compatible": true,
+  "free_tier": true,
+  "github_url": "https://github.com/huggingface",
+  "models_url": "https://huggingface.co/models",
+  "twitter_url": "https://x.com/huggingface",
+  "discord_url": "https://discord.com/invite/hugging-face-879548962464493619",
+  "blog_url": "https://huggingface.co/blog",
+  "terms_url": "https://huggingface.co/terms-of-service",
+  "support_url": "https://huggingface.co/support"
 }

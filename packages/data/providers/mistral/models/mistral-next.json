@@ -3,7 +3,7 @@
   "name": "mistral-next",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "capabilities": {
     "streaming": true
@@ -17,7 +17,13 @@
     "status": "379ac110",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "license": "60245731",
+    "page_url": "a2329a10",
+    "open_weight": "b326b506"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/mistral-next",
+  "open_weight": true
 }

@@ -3,7 +3,7 @@
   "name": "claude-sonnet-4",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "claude-sonnet",
   "context_window": 1000000,
   "capabilities": {
@@ -18,9 +18,13 @@
   },
   "_generated": {
     "name": "ea414d8a",
-    "context_window": "8155bc54",
     "family": "68d1c457",
+    "context_window": "8155bc54",
+    "capabilities": "a19166f1",
     "pricing": "7939f0ff",
-    "capabilities": "a19166f1"
-  }
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "tools": ["function_calling"]
 }

@@ -12,5 +12,8 @@
     "name": "846d704a",
     "family": "d548f421",
     "capabilities": "0fa77dc6"
-  }
+  },
+  "model_type": "chat",
+  "parameters": 122,
+  "active_parameters": 10
 }

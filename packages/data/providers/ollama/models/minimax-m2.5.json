@@ -3,12 +3,35 @@
   "name": "minimax-m2.5",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "f00ef4f7",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "family": "c85916f0",
+    "model_type": "d669f408",
+    "description": "5501afb9",
+    "release_date": "4c1b6684",
+    "page_url": "ae821374",
+    "tagline": "5501afb9",
+    "context_window": "6ea395a4",
+    "license": "6327aaea",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
+  },
+  "family": "minimax",
+  "model_type": "chat",
+  "description": "MiniMax-M2.5 is a state-of-the-art large language model designed for real-world productivity and coding tasks.",
+  "release_date": "2026-02-12",
+  "page_url": "https://ollama.com/library/minimax-m2.5",
+  "tagline": "MiniMax-M2.5 is a state-of-the-art large language model designed for real-world productivity and coding tasks.",
+  "context_window": 202752,
+  "license": "open-weight",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

@@ -3,7 +3,7 @@
   "name": "grok-4-1-fast-reasoning",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-23",
   "release_date": "2025-11-19",
   "capabilities": {
     "streaming": true,
@@ -25,14 +25,22 @@
   },
   "_generated": {
     "name": "c4c535e4",
-    "context_window": "805f7438",
     "release_date": "e4be41d6",
-    "family": "0d5416ff",
-    "reasoning_tokens": "b326b506",
-    "pricing": "25a4c630",
     "capabilities": "0946b777",
+    "family": "0d5416ff",
+    "context_window": "805f7438",
+    "reasoning_tokens": "b326b506",
     "modalities": "6399757e",
-    "model_type": "17475f7f"
+    "pricing": "25a4c630",
+    "model_type": "17475f7f",
+    "license": "9186c466",
+    "page_url": "45fdad8c",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "license": "proprietary",
+  "page_url": "https://docs.x.ai/docs/models#grok-4-1-fast-reasoning",
+  "open_weight": false,
+  "tools": ["function_calling"]
 }

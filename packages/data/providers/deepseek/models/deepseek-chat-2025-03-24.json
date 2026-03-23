@@ -3,7 +3,7 @@
   "name": "DeepSeek V3-0324 (Chat)",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "family": "deepseek-chat",
   "status": "deprecated",
   "release_date": "2025-03-24",
@@ -25,8 +25,12 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "deprecation_date": "d9d01c83",
-    "successor": "3fdea020"
+    "successor": "3fdea020",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506"
   },
   "deprecation_date": "2025-08-21",
-  "successor": "deepseek-chat-2025-08-21"
+  "successor": "deepseek-chat-2025-08-21",
+  "license": "mit",
+  "open_weight": true
 }

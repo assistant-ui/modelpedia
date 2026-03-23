@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen2.5 7B Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "qwen",
   "description": "Qwen2.5 7B is the latest series of Qwen large language models.",
   "context_window": 32768,
@@ -21,11 +21,21 @@
   },
   "_generated": {
     "name": "6be0c89b",
+    "family": "a3af76f3",
     "description": "65c0ebf8",
     "context_window": "f4376436",
-    "family": "a3af76f3",
-    "pricing": "db99bfb3",
+    "modalities": "68e53d93",
     "capabilities": "ad177261",
-    "modalities": "68e53d93"
-  }
+    "pricing": "db99bfb3",
+    "model_type": "d669f408",
+    "parameters": "8f14e45f",
+    "release_date": "6374e66f",
+    "tagline": "65c0ebf8",
+    "tools": "f0c1dc7e"
+  },
+  "model_type": "chat",
+  "parameters": 7,
+  "release_date": "2024-10-16",
+  "tagline": "Qwen2.5 7B is the latest series of Qwen large language models.",
+  "tools": ["function_calling"]
 }

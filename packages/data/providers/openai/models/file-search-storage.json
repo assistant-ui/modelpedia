@@ -3,7 +3,7 @@
   "name": "File Search Storage",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "status": "active",
   "pricing": {
     "tiers": [
@@ -23,6 +23,14 @@
   "_generated": {
     "name": "81658606",
     "status": "379ac110",
-    "pricing": "9d6beb64"
-  }
+    "pricing": "9d6beb64",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "1a485e82",
+    "open_weight": "68934a3e"
+  },
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://platform.openai.com/docs/models/File Search Storage",
+  "open_weight": false
 }

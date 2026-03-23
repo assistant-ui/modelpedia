@@ -3,12 +3,33 @@
   "name": "Llama-3-8B-Instruct-RR",
   "created_by": "grayswanai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "85b15459",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "48995a4e",
+    "family": "a18f0819",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "page_url": "1af8ee04",
+    "description": "90c0488d",
+    "release_date": "ae51b645",
+    "context_window": "77441296",
+    "tagline": "90c0488d",
+    "architecture": "8832ea0f",
+    "tools": "f0c1dc7e"
+  },
+  "family": "Llama-3",
+  "model_type": "chat",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/GraySwanAI/Llama-3-8B-Instruct-RR",
+  "description": "Llama-3-8B-Instruct-RR is a Llama-3 model with circuit breakers inserted using Representation Rerouting (RR).",
+  "release_date": "2024-07-08",
+  "context_window": 8192,
+  "tagline": "Llama-3-8B-Instruct-RR is a Llama-3 model with circuit breakers inserted using Representation Rerouting (RR).",
+  "architecture": "transformer",
+  "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "mistral-nemotron",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -11,7 +11,11 @@
   "_generated": {
     "name": "12e24214",
     "capabilities": "48995a4e",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "family": "75e1af53",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "family": "mistral-nemo",
+  "tools": ["function_calling"]
 }

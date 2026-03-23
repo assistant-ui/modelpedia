@@ -3,13 +3,17 @@
   "name": "OpenRouter: moonshotai/kimi-k2.5-0127",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "pricing": {
     "input": 0.44999999999999996,
     "output": 2.2
   },
   "_generated": {
     "name": "c93b0573",
-    "pricing": "375c7b9c"
-  }
+    "pricing": "375c7b9c",
+    "family": "69ffee7b",
+    "model_type": "d669f408"
+  },
+  "family": "kimi-k2.5",
+  "model_type": "chat"
 }

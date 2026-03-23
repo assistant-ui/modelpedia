@@ -21,5 +21,6 @@
     "knowledge_cutoff": "b61a1a89",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93"
-  }
+  },
+  "family": "text-embedding"
 }

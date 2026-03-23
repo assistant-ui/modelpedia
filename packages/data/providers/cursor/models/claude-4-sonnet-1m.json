@@ -3,7 +3,7 @@
   "name": "Claude 4 Sonnet 1M",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-23",
   "family": "claude-sonnet",
   "capabilities": {
     "streaming": true,
@@ -26,14 +26,22 @@
   "speed": 3,
   "_generated": {
     "name": "681956d3",
+    "family": "68d1c457",
+    "capabilities": "45192957",
+    "modalities": "6399757e",
+    "pricing": "b5d5ca3d",
     "max_context_window": "8155bc54",
     "performance": "a87ff679",
     "speed": "eccbc87e",
-    "family": "68d1c457",
-    "pricing": "b5d5ca3d",
-    "capabilities": "45192957",
-    "modalities": "6399757e",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "tools": "f0c1dc7e",
+    "page_url": "d23e1b70",
+    "pricing_notes": "1c51f441"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "tools": ["function_calling"],
+  "page_url": "https://cursor.com/docs/models-and-pricing#claude-4-sonnet-1m",
+  "pricing_notes": [
+    "Hidden by default; Thinking variant counts as 2 requests in legacy pricing; This model can be very expensive due to the large context window; The cost is 2x when the input exceeds 200k tokens"
+  ]
 }
