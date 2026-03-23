@@ -47,6 +47,17 @@ export const PROVIDER_TYPE_TIER: Record<string, number> = {
   aggregator: 0,
 };
 
+/** Top-tier providers shown on the home page */
+export const FEATURED_PROVIDERS = [
+  "openai",
+  "anthropic",
+  "google",
+  "meta",
+  "deepseek",
+  "xai",
+  "qwen",
+] as const;
+
 export const TYPE_LABELS: Record<string, string> = {
   direct: "Model Provider",
   aggregator: "API Gateway",
