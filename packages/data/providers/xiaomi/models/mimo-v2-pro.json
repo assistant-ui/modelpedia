@@ -1,0 +1,77 @@
+{
+  "id": "MiMo-V2-Pro",
+  "name": "MiMo-V2-Pro",
+  "created_by": "xiaomi",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "mimo",
+  "description": "Flagship foundation model with 1M-token context and top-tier agentic capabilities.",
+  "status": "active",
+  "release_date": "2026-03-18",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "parameters": 1000,
+  "active_parameters": 42,
+  "page_url": "https://mimo.xiaomi.com/mimo-v2-pro",
+  "architecture": "moe",
+  "open_weight": false,
+  "tagline": "Flagship foundation model with 1M-token context and top-tier agentic capabilities.",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true,
+    "tool_call": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 3,
+    "cached_input": 0.2,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Cache Read", "Cache Write"],
+        "rows": [
+          {
+            "label": "Up to 256K context",
+            "values": [1, 3, 0.2, null]
+          },
+          {
+            "label": "256K–1M context",
+            "values": [2, 6, 0.4, null]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "28ea8df2",
+    "family": "1a23786e",
+    "description": "4b9819eb",
+    "status": "379ac110",
+    "release_date": "e6131053",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "17475f7f",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "parameters": "a9b7ba70",
+    "active_parameters": "a1d0c6e8",
+    "page_url": "2e68e53e",
+    "architecture": "31b2172c",
+    "open_weight": "68934a3e",
+    "tagline": "4b9819eb",
+    "capabilities": "c0afc14f",
+    "modalities": "68e53d93",
+    "pricing": "4bcf9add",
+    "tools": "f0c1dc7e"
+  }
+}

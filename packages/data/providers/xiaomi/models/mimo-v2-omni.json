@@ -1,0 +1,54 @@
+{
+  "id": "MiMo-V2-Omni",
+  "name": "MiMo-V2-Omni",
+  "created_by": "xiaomi",
+  "source": "official",
+  "last_updated": "2026-03-23",
+  "family": "mimo",
+  "description": "Omni-modal agentic model that understands text, image, audio, and video inputs.",
+  "status": "active",
+  "release_date": "2026-03-18",
+  "context_window": 256000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "page_url": "https://mimo.xiaomi.com/mimo-v2-omni",
+  "open_weight": false,
+  "tagline": "Omni-modal agentic model that understands text, image, audio, and video inputs.",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true,
+    "vision": true,
+    "tool_call": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.4,
+    "output": 2
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "adf718d7",
+    "family": "1a23786e",
+    "description": "f8f13612",
+    "status": "379ac110",
+    "release_date": "e6131053",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "page_url": "20ba8570",
+    "open_weight": "68934a3e",
+    "tagline": "f8f13612",
+    "capabilities": "2db414cf",
+    "modalities": "0843b982",
+    "pricing": "70b90c36",
+    "tools": "f0c1dc7e"
+  }
+}

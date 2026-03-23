@@ -32,9 +32,10 @@ import { provider as together } from './providers/together';
 import { provider as vercel } from './providers/vercel';
 import { provider as vertex } from './providers/vertex';
 import { provider as xai } from './providers/xai';
+import { provider as xiaomi } from './providers/xiaomi';
 import { provider as zai } from './providers/zai';
 
-export const providers: ProviderWithModels[] = [alibaba, amazon, anthropic, azure, baseten, cerebras, cloudflare_ai_gateway, cloudflare_workers_ai, cohere, cursor, deepseek, fireworks, google, groq, huggingface, meta, minimax, mistral, moonshot, nvidia, ollama, openai, opencode, openrouter, perplexity, qwen, together, vercel, vertex, xai, zai];
+export const providers: ProviderWithModels[] = [alibaba, amazon, anthropic, azure, baseten, cerebras, cloudflare_ai_gateway, cloudflare_workers_ai, cohere, cursor, deepseek, fireworks, google, groq, huggingface, meta, minimax, mistral, moonshot, nvidia, ollama, openai, opencode, openrouter, perplexity, qwen, together, vercel, vertex, xai, xiaomi, zai];
 
 export const allModels: Model[] = providers.flatMap((p) =>
   p.models.map((m) => ({ ...m, provider: p.id }))

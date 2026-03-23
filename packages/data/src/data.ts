@@ -34774,13 +34774,7 @@ export const providers: ProviderWithModels[] = [
           "output": 8
         },
         "family": "sonar",
-        "model_type": "chat",
-        "license": "proprietary",
-        "open_weight": false,
-        "capabilities": {
-          "streaming": true,
-          "tool_call": true
-        }
+        "model_type": "chat"
       },
       {
         "id": "perplexity-ai/sonar-pro",
@@ -34793,13 +34787,7 @@ export const providers: ProviderWithModels[] = [
           "output": 15
         },
         "family": "sonar",
-        "model_type": "chat",
-        "license": "proprietary",
-        "open_weight": false,
-        "capabilities": {
-          "streaming": true,
-          "tool_call": true
-        }
+        "model_type": "chat"
       },
       {
         "id": "perplexity-ai/sonar-reasoning-pro",
@@ -34812,14 +34800,7 @@ export const providers: ProviderWithModels[] = [
           "input": 2,
           "output": 8
         },
-        "family": "sonar",
-        "license": "proprietary",
-        "open_weight": false,
-        "capabilities": {
-          "streaming": true,
-          "tool_call": true,
-          "reasoning": true
-        }
+        "family": "sonar"
       },
       {
         "id": "perplexity-ai/sonar-reasoning",
@@ -34845,13 +34826,7 @@ export const providers: ProviderWithModels[] = [
           "output": 1
         },
         "family": "sonar",
-        "model_type": "chat",
-        "license": "proprietary",
-        "open_weight": false,
-        "capabilities": {
-          "streaming": true,
-          "tool_call": true
-        }
+        "model_type": "chat"
       },
       {
         "id": "replicate/deepseek-ai/deepseek-r1",
@@ -81492,9 +81467,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "capabilities": {
-          "reasoning": true,
-          "streaming": true,
-          "tool_call": true
+          "reasoning": true
         },
         "pricing": {
           "input": 2,
@@ -81503,9 +81476,7 @@ export const providers: ProviderWithModels[] = [
         "family": "sonar",
         "model_type": "chat",
         "release_date": "2025-03-07",
-        "tagline": "Sonar Deep Research is a research-focused model designed for multi-step retrieval, synthesis, and reasoning across complex topics.",
-        "license": "proprietary",
-        "open_weight": false
+        "tagline": "Sonar Deep Research is a research-focused model designed for multi-step retrieval, synthesis, and reasoning across complex topics."
       },
       {
         "id": "perplexity/sonar-pro-search",
@@ -81563,13 +81534,7 @@ export const providers: ProviderWithModels[] = [
         "family": "sonar",
         "model_type": "chat",
         "release_date": "2025-03-07",
-        "tagline": "Note: Sonar Pro pricing includes Perplexity search pricing.",
-        "license": "proprietary",
-        "open_weight": false,
-        "capabilities": {
-          "streaming": true,
-          "tool_call": true
-        }
+        "tagline": "Note: Sonar Pro pricing includes Perplexity search pricing."
       },
       {
         "id": "perplexity/sonar-reasoning-pro",
@@ -81589,9 +81554,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "capabilities": {
-          "reasoning": true,
-          "streaming": true,
-          "tool_call": true
+          "reasoning": true
         },
         "pricing": {
           "input": 2,
@@ -81600,9 +81563,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "reasoning",
         "family": "sonar",
         "release_date": "2025-03-07",
-        "tagline": "Note: Sonar Pro pricing includes Perplexity search pricing.",
-        "license": "proprietary",
-        "open_weight": false
+        "tagline": "Note: Sonar Pro pricing includes Perplexity search pricing."
       },
       {
         "id": "perplexity/sonar",
@@ -81628,13 +81589,7 @@ export const providers: ProviderWithModels[] = [
         "family": "sonar",
         "model_type": "chat",
         "release_date": "2025-01-27",
-        "tagline": "Sonar is lightweight, affordable, fast, and simple to use — now featuring citations and the ability to customize sources.",
-        "license": "proprietary",
-        "open_weight": false,
-        "capabilities": {
-          "streaming": true,
-          "tool_call": true
-        }
+        "tagline": "Sonar is lightweight, affordable, fast, and simple to use — now featuring citations and the ability to customize sources."
       },
       {
         "id": "prime-intellect/intellect-3",
@@ -84496,7 +84451,9 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "tool_call": true,
           "structured_output": true,
-          "reasoning": true
+          "reasoning": true,
+          "streaming": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 0.09,
@@ -84507,7 +84464,13 @@ export const providers: ProviderWithModels[] = [
         "tagline": "MiMo-V2-Flash is an open-source foundation language model developed by Xiaomi.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "knowledge_cutoff": "2024-12",
+        "license": "mit",
+        "parameters": 309,
+        "active_parameters": 15,
+        "architecture": "moe",
+        "open_weight": true
       },
       {
         "id": "xiaomi/mimo-v2-omni",
@@ -84532,7 +84495,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "tool_call": true,
           "structured_output": true,
-          "reasoning": true
+          "reasoning": true,
+          "streaming": true,
+          "vision": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 0.4,
@@ -84543,7 +84509,9 @@ export const providers: ProviderWithModels[] = [
         "tagline": "MiMo-V2-Omni is a frontier omni-modal model that natively processes image, video, and audio inputs within a unified architecture.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "xiaomi/mimo-v2-pro",
@@ -84565,7 +84533,9 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "tool_call": true,
           "structured_output": true,
-          "reasoning": true
+          "reasoning": true,
+          "streaming": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 1,
@@ -84576,7 +84546,12 @@ export const providers: ProviderWithModels[] = [
         "tagline": "MiMo-V2-Pro is Xiaomi's flagship foundation model, featuring over 1T total parameters and a 1M context length, deeply optimized for agentic scenarios.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "license": "proprietary",
+        "parameters": 1000,
+        "active_parameters": 42,
+        "architecture": "moe",
+        "open_weight": false
       },
       {
         "id": "z-ai/glm-4-32b",
@@ -84966,7 +84941,7 @@ export const providers: ProviderWithModels[] = [
     "docs_url": "https://docs.perplexity.ai",
     "pricing_url": "https://docs.perplexity.ai/guides/pricing",
     "description": "AI-powered search engine offering Sonar models with built-in web search and citations.",
-    "type": "direct",
+    "type": "cloud",
     "openai_compatible": true,
     "free_tier": false,
     "models_url": "https://docs.perplexity.ai/guides/model-cards",
@@ -84985,7 +84960,10 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "claude-haiku",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
         },
         "pricing": {
           "input": 1,
@@ -84994,7 +84972,22 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "description": "The fastest model with near-frontier intelligence",
+        "tagline": "The fastest model with near-frontier intelligence",
+        "context_window": 200000,
+        "max_output_tokens": 64000,
+        "knowledge_cutoff": "2025-02",
+        "training_data_cutoff": "2025-07",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       },
       {
         "id": "anthropic/claude-opus-4-5",
@@ -85004,7 +84997,10 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "claude-opus",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
         },
         "pricing": {
           "input": 5,
@@ -85013,7 +85009,20 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "context_window": 200000,
+        "max_output_tokens": 64000,
+        "knowledge_cutoff": "2025-05",
+        "training_data_cutoff": "2025-08",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       },
       {
         "id": "anthropic/claude-opus-4-6",
@@ -85023,7 +85032,10 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "claude-opus",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
         },
         "pricing": {
           "input": 5,
@@ -85032,7 +85044,22 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "description": "The most intelligent model for building agents and coding",
+        "tagline": "The most intelligent model for building agents and coding",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-05",
+        "training_data_cutoff": "2025-08",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       },
       {
         "id": "anthropic/claude-sonnet-4-5",
@@ -85042,7 +85069,10 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "claude-sonnet",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
         },
         "pricing": {
           "input": 3,
@@ -85051,7 +85081,20 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "context_window": 1000000,
+        "max_output_tokens": 64000,
+        "knowledge_cutoff": "2025-01",
+        "training_data_cutoff": "2025-07",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       },
       {
         "id": "anthropic/claude-sonnet-4-6",
@@ -85061,7 +85104,10 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "claude-sonnet",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
         },
         "pricing": {
           "input": 3,
@@ -85070,7 +85116,22 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "description": "The best combination of speed and intelligence",
+        "tagline": "The best combination of speed and intelligence",
+        "context_window": 1000000,
+        "max_output_tokens": 64000,
+        "knowledge_cutoff": "2025-08",
+        "training_data_cutoff": "2026-01",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       },
       {
         "id": "google/gemini-2.5-flash",
@@ -85080,11 +85141,32 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "gemini-2.5",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "knowledge_cutoff": "2025-01",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "image",
+            "audio"
+          ]
+        }
       },
       {
         "id": "google/gemini-2.5-pro",
@@ -85094,7 +85176,12 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "gemini-2.5",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true
         },
         "pricing": {
           "input": 1.25,
@@ -85102,7 +85189,23 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "knowledge_cutoff": "2025-01",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "image",
+            "audio"
+          ]
+        }
       },
       {
         "id": "google/gemini-3-flash-preview",
@@ -85112,7 +85215,12 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "gemini-3",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true
         },
         "pricing": {
           "input": 0.5,
@@ -85120,7 +85228,23 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "knowledge_cutoff": "2025-01",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "image",
+            "audio"
+          ]
+        }
       },
       {
         "id": "google/gemini-3-pro-preview",
@@ -85130,11 +85254,32 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "gemini-3",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "knowledge_cutoff": "2025-01",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "image",
+            "audio"
+          ]
+        }
       },
       {
         "id": "google/gemini-3.1-pro-preview",
@@ -85144,7 +85289,12 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "gemini-3.1",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true
         },
         "pricing": {
           "input": 2,
@@ -85152,7 +85302,23 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "knowledge_cutoff": "2025-01",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "image",
+            "audio"
+          ]
+        }
       },
       {
         "id": "nvidia/nemotron-3-super-120b-a12b",
@@ -85181,7 +85347,11 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "gpt-5",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
         },
         "pricing": {
           "input": 0.25,
@@ -85190,7 +85360,22 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for",
+        "tagline": "Near-frontier intelligence for cost sensitive, low latency, high volume workloads",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "max_input_tokens": 272000,
+        "knowledge_cutoff": "2024-05",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       },
       {
         "id": "openai/gpt-5.1",
@@ -85200,7 +85385,11 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "gpt-5.1",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
         },
         "pricing": {
           "input": 1.25,
@@ -85209,7 +85398,21 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "description": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.",
+        "tagline": "The best model for coding and agentic tasks with configurable reasoning effort",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2024-09",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       },
       {
         "id": "openai/gpt-5.2",
@@ -85219,7 +85422,11 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "gpt-5.2",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
         },
         "pricing": {
           "input": 1.75,
@@ -85228,7 +85435,21 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "description": "GPT-5.2 is our previous frontier model for complex professional work.",
+        "tagline": "Previous frontier model for professional work with configurable reasoning effort",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-08",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       },
       {
         "id": "openai/gpt-5.4",
@@ -85238,7 +85459,11 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "gpt-5.4",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true
         },
         "pricing": {
           "input": 2.5,
@@ -85247,7 +85472,21 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "description": "GPT-5.4 is our frontier model for complex professional work.",
+        "tagline": "Best intelligence at scale for agentic, coding, and professional workflows",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-08",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       },
       {
         "id": "perplexity/sonar",
@@ -85369,7 +85608,9 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-23",
         "family": "grok-4",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true
         },
         "pricing": {
           "input": 0.2,
@@ -85378,7 +85619,17 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "reasoning",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "context_window": 2000000,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       }
     ]
   },
@@ -94111,9 +94362,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "tools": [
           "function_calling"
-        ],
-        "license": "proprietary",
-        "open_weight": false
+        ]
       },
       {
         "id": "perplexity/sonar-reasoning-pro",
@@ -94124,17 +94373,14 @@ export const providers: ProviderWithModels[] = [
         "context_window": 127000,
         "capabilities": {
           "streaming": true,
-          "reasoning": true,
-          "tool_call": true
+          "reasoning": true
         },
         "pricing": {
           "input": 2,
           "output": 8
         },
         "model_type": "reasoning",
-        "family": "sonar",
-        "license": "proprietary",
-        "open_weight": false
+        "family": "sonar"
       },
       {
         "id": "perplexity/sonar-reasoning",
@@ -94174,9 +94420,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "tools": [
           "function_calling"
-        ],
-        "license": "proprietary",
-        "open_weight": false
+        ]
       },
       {
         "id": "prime-intellect/intellect-3",
@@ -94852,7 +95096,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "reasoning": true
+          "reasoning": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 0.1,
@@ -94860,7 +95105,24 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling"
-        ]
+        ],
+        "description": "309B MoE reasoning model with 15B active parameters. Fast inference at 150 tokens/s.",
+        "tagline": "309B MoE reasoning model with 15B active parameters.",
+        "max_output_tokens": 64000,
+        "knowledge_cutoff": "2024-12",
+        "license": "mit",
+        "parameters": 309,
+        "active_parameters": 15,
+        "architecture": "moe",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       },
       {
         "id": "xiaomi/mimo-v2-pro",
@@ -94872,7 +95134,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "reasoning": true
+          "reasoning": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 1,
@@ -94880,7 +95143,23 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling"
-        ]
+        ],
+        "description": "Flagship foundation model with 1M-token context and top-tier agentic capabilities.",
+        "tagline": "Flagship foundation model with 1M-token context and top-tier agentic capabilities.",
+        "max_output_tokens": 128000,
+        "license": "proprietary",
+        "parameters": 1000,
+        "active_parameters": 42,
+        "architecture": "moe",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       },
       {
         "id": "zai/glm-4.5-air",
@@ -98705,6 +98984,222 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ]
+      }
+    ]
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi MiMo",
+    "region": "CN",
+    "headquarters": "Beijing, Beijing",
+    "founded": 2010,
+    "url": "https://mimo.xiaomi.com",
+    "api_url": "https://api.xiaomimimo.com/v1",
+    "docs_url": "https://platform.xiaomimimo.com",
+    "pricing_url": "https://platform.xiaomimimo.com",
+    "description": "Xiaomi's AI lab building open-weight reasoning and agentic models.",
+    "type": "direct",
+    "playground_url": "https://aistudio.xiaomimimo.com",
+    "openai_compatible": true,
+    "free_tier": false,
+    "github_url": "https://github.com/XiaomiMiMo",
+    "models_url": "https://platform.xiaomimimo.com",
+    "twitter_url": "https://x.com/Xiaomi",
+    "blog_url": "https://mimo.xiaomi.com/blog",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n  <path d=\"M2 4a2 2 0 012-2h16a2 2 0 012 2v16a2 2 0 01-2 2H4a2 2 0 01-2-2V4zm5.5 4.5v7h1.75v-4.375L12 15.5l2.75-4.375V15.5h1.75v-7h-1.75L12 13 9.25 8.5H7.5z\"/>\n</svg>",
+    "models": [
+      {
+        "id": "MiMo-V2-Flash",
+        "name": "MiMo-V2-Flash",
+        "created_by": "xiaomi",
+        "source": "official",
+        "last_updated": "2026-03-23",
+        "family": "mimo",
+        "description": "309B MoE reasoning model with 15B active parameters. Fast inference at 150 tokens/s.",
+        "status": "active",
+        "release_date": "2025-12-16",
+        "knowledge_cutoff": "2024-12",
+        "context_window": 256000,
+        "max_output_tokens": 64000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "license": "mit",
+        "parameters": 309,
+        "active_parameters": 15,
+        "page_url": "https://mimo.xiaomi.com/mimo-v2-flash",
+        "architecture": "moe",
+        "open_weight": true,
+        "tagline": "309B MoE reasoning model with 15B active parameters.",
+        "capabilities": {
+          "streaming": true,
+          "reasoning": true,
+          "tool_call": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
+        },
+        "tools": [
+          "function_calling"
+        ]
+      },
+      {
+        "id": "MiMo-V2-Omni",
+        "name": "MiMo-V2-Omni",
+        "created_by": "xiaomi",
+        "source": "official",
+        "last_updated": "2026-03-23",
+        "family": "mimo",
+        "description": "Omni-modal agentic model that understands text, image, audio, and video inputs.",
+        "status": "active",
+        "release_date": "2026-03-18",
+        "context_window": 256000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "reasoning_tokens": true,
+        "license": "proprietary",
+        "page_url": "https://mimo.xiaomi.com/mimo-v2-omni",
+        "open_weight": false,
+        "tagline": "Omni-modal agentic model that understands text, image, audio, and video inputs.",
+        "capabilities": {
+          "streaming": true,
+          "reasoning": true,
+          "vision": true,
+          "tool_call": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 2
+        },
+        "tools": [
+          "function_calling"
+        ]
+      },
+      {
+        "id": "MiMo-V2-Pro",
+        "name": "MiMo-V2-Pro",
+        "created_by": "xiaomi",
+        "source": "official",
+        "last_updated": "2026-03-23",
+        "family": "mimo",
+        "description": "Flagship foundation model with 1M-token context and top-tier agentic capabilities.",
+        "status": "active",
+        "release_date": "2026-03-18",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "license": "proprietary",
+        "parameters": 1000,
+        "active_parameters": 42,
+        "page_url": "https://mimo.xiaomi.com/mimo-v2-pro",
+        "architecture": "moe",
+        "open_weight": false,
+        "tagline": "Flagship foundation model with 1M-token context and top-tier agentic capabilities.",
+        "capabilities": {
+          "streaming": true,
+          "reasoning": true,
+          "tool_call": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1,
+          "output": 3,
+          "cached_input": 0.2,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Output",
+                "Cache Read",
+                "Cache Write"
+              ],
+              "rows": [
+                {
+                  "label": "Up to 256K context",
+                  "values": [
+                    1,
+                    3,
+                    0.2,
+                    null
+                  ]
+                },
+                {
+                  "label": "256K–1M context",
+                  "values": [
+                    2,
+                    6,
+                    0.4,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ]
+      },
+      {
+        "id": "MiMo-V2-TTS",
+        "name": "MiMo-V2-TTS",
+        "created_by": "xiaomi",
+        "source": "official",
+        "last_updated": "2026-03-23",
+        "family": "mimo",
+        "description": "Versatile speech synthesis with emotion control, dialect support, and singing.",
+        "status": "active",
+        "release_date": "2026-03-18",
+        "context_window": 8000,
+        "max_output_tokens": 8000,
+        "model_type": "tts",
+        "license": "proprietary",
+        "page_url": "https://mimo.xiaomi.com/mimo-v2-tts",
+        "open_weight": false,
+        "tagline": "Versatile speech synthesis with emotion control, dialect support, and singing.",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        }
       }
     ]
   },
