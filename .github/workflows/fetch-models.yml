@@ -91,17 +91,25 @@ jobs:
           git commit -m "data: update model data $(date +%Y-%m-%d)"
           git push origin "$BRANCH" --force
 
-          SUMMARY=$(cd packages/data && bun run changes -- HEAD~1 --dry-run 2>&1 | head -200)
+          # Build a short summary: count creates/updates/deletes per provider
+          RAW=$(cd packages/data && bun run changes -- HEAD~1 --dry-run 2>&1)
+          STATS=$(echo "$RAW" | grep -E '^\s+(created|updated|deleted):' || true)
+          PROVIDERS=$(echo "$RAW" | grep -cE '^\s+[+Δ-] ' || true)
+          SUMMARY="**${PROVIDERS} model changes** on $(date +%Y-%m-%d)"
+          if [ -n "$STATS" ]; then
+            SUMMARY="${SUMMARY}"$'\n\n'"$(echo "$STATS" | sed 's/^  /- /')"
+          fi
 
           # Create PR if none exists, otherwise update the existing one
           EXISTING_PR=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
+          BODY=$(printf '## Automated model data update\n\n%s\n\n> Auto-created by the fetch-models workflow.\n> Changes will be detected on merge.' "$SUMMARY")
           if [ -n "$EXISTING_PR" ]; then
             gh pr edit "$EXISTING_PR" \
               --title "data: update model data $(date +%Y-%m-%d)" \
-              --body "$(printf '## Automated model data update\n\n```\n%s\n```\n\n> Auto-created by the fetch-models workflow.\n> Changes will be detected on merge.' "$SUMMARY")"
+              --body "$BODY"
             echo "Updated PR #$EXISTING_PR"
           else
             gh pr create \
               --title "data: update model data $(date +%Y-%m-%d)" \
-              --body "$(printf '## Automated model data update\n\n```\n%s\n```\n\n> Auto-created by the fetch-models workflow.\n> Changes will be detected on merge.' "$SUMMARY")"
+              --body "$BODY"
           fi
