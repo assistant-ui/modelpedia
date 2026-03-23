@@ -20,24 +20,14 @@ import {
   getModel,
   getModelWithInheritance,
   getProvider,
-  providers,
 } from "@/lib/data";
 import { formatTokens } from "@/lib/format";
 import { parseIdSegments } from "@/lib/parse-id";
 import { normalizeModelId } from "@/lib/search";
 
-type Params = { provider: string; id: string[] };
+export const revalidate = 3600;
 
-export function generateStaticParams() {
-  const directProviderIds = new Set(
-    providers.filter((p) => p.type === "direct").map((p) => p.id),
-  );
-  return allModels
-    .filter(
-      (m) => directProviderIds.has(m.provider) && m.status !== "deprecated",
-    )
-    .map((m) => ({ provider: m.provider, id: [m.id] }));
-}
+type Params = { provider: string; id: string[] };
 
 export async function generateMetadata({
   params,
