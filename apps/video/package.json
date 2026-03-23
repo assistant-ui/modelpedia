@@ -1,0 +1,27 @@
+{
+  "name": "@modelpedia/video",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion render Showcase out/modelpedia.mp4",
+    "capture": "npx tsx capture.ts"
+  },
+  "dependencies": {
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "remotion": "^4.0.0",
+    "@remotion/cli": "^4.0.0",
+    "@remotion/google-fonts": "^4.0.0",
+    "@remotion/transitions": "^4.0.0",
+    "@remotion/tailwind-v4": "^4.0.0",
+    "tailwindcss": "catalog:"
+  },
+  "devDependencies": {
+    "typescript": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "playwright": "^1.52.0",
+    "tsx": "^4.19.0"
+  }
+}
