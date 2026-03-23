@@ -15,11 +15,30 @@ const VIEWPORT = { width: 1920, height: 1080 };
 
 // Script injected before every page load to force dark mode
 const DARK_MODE_INIT_SCRIPT = `
-  // Force next-themes to use dark mode
+  // Force next-themes to use dark mode via localStorage
   localStorage.setItem("theme", "dark");
-  // Set class immediately on html element
+  // Set dark class immediately on html element (next-themes uses class-based dark mode)
   document.documentElement.classList.add("dark");
   document.documentElement.style.colorScheme = "dark";
+
+  // Also inject a style tag that forces dark mode CSS variables immediately
+  // This ensures dark mode even if the theme system hasn't hydrated yet
+  const style = document.createElement("style");
+  style.textContent = \`
+    :root {
+      --background: oklch(0.145 0 0) !important;
+      --foreground: oklch(0.95 0 0) !important;
+      --muted: oklch(0.22 0 0) !important;
+      --muted-foreground: oklch(0.65 0 0) !important;
+      --border: oklch(1 0 0 / 10%) !important;
+      --input: oklch(1 0 0 / 5%) !important;
+      --ring: oklch(1 0 0 / 15%) !important;
+      --accent: oklch(1 0 0 / 5%) !important;
+      --accent-foreground: oklch(0.85 0 0) !important;
+      color-scheme: dark !important;
+    }
+  \`;
+  document.head.appendChild(style);
 `;
 
 async function sleep(ms: number) {
@@ -62,16 +81,20 @@ async function main() {
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
   });
   const githubPage = await githubCtx.newPage();
-  await githubPage.goto("https://github.com/assistant-ui/modelpedia", {
-    waitUntil: "networkidle",
-    timeout: 15000,
-  });
-  await sleep(2000);
-  await githubPage.screenshot({
-    path: join(SCREENSHOTS_DIR, "github.png"),
-    type: "png",
-  });
-  console.log("  ✓ github.png");
+  try {
+    await githubPage.goto("https://github.com/assistant-ui/modelpedia", {
+      waitUntil: "domcontentloaded",
+      timeout: 30000,
+    });
+    await sleep(3000);
+    await githubPage.screenshot({
+      path: join(SCREENSHOTS_DIR, "github.png"),
+      type: "png",
+    });
+    console.log("  ✓ github.png");
+  } catch (e) {
+    console.log("  ⚠ GitHub screenshot failed, keeping previous version");
+  }
   await githubCtx.close();
 
   // ── Screen Recordings ────────────────────────────────────────
@@ -161,7 +184,7 @@ async function main() {
   // Recording 2: Compare page — pre-select two models via URL
   await record(
     "compare",
-    `${BASE_URL}/compare?a=openai/gpt-4o&b=anthropic/claude-3-5-sonnet`,
+    `${BASE_URL}/compare?a=openai/gpt-4o&b=anthropic/claude-sonnet-4-5`,
     async (p) => {
       await sleep(2000);
 
