@@ -3,7 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "description": "api.modelpedia.dev — REST API on Cloudflare Workers",
+  "author": "AgentbaseAI Inc.",
   "license": "MIT",
+  "homepage": "https://modelpedia.dev",
+  "bugs": {
+    "url": "https://github.com/assistant-ui/modelpedia/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/assistant-ui/modelpedia",
+    "directory": "apps/api"
+  },
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
