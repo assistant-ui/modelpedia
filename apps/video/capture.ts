@@ -13,6 +13,15 @@ const SCREENSHOTS_DIR = join(__dirname, "public", "screenshots");
 const RECORDINGS_DIR = join(__dirname, "public", "recordings");
 const VIEWPORT = { width: 1920, height: 1080 };
 
+// Script injected before every page load to force dark mode
+const DARK_MODE_INIT_SCRIPT = `
+  // Force next-themes to use dark mode
+  localStorage.setItem("theme", "dark");
+  // Set class immediately on html element
+  document.documentElement.classList.add("dark");
+  document.documentElement.style.colorScheme = "dark";
+`;
+
 async function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -31,31 +40,42 @@ async function main() {
     deviceScaleFactor: 2,
     colorScheme: "dark",
   });
+  // Inject dark mode script before any page loads in this context
+  await screenshotCtx.addInitScript(DARK_MODE_INIT_SCRIPT);
   const page = await screenshotCtx.newPage();
 
   await page.goto(BASE_URL, { waitUntil: "networkidle" });
-  await sleep(1000);
+  await sleep(1500);
   await page.screenshot({
     path: join(SCREENSHOTS_DIR, "homepage.png"),
     type: "png",
   });
   console.log("  ✓ homepage.png");
+  await screenshotCtx.close();
 
   console.log("📸 Capturing GitHub screenshot...");
-  await page.goto("https://github.com/assistant-ui/modelpedia", {
-    waitUntil: "networkidle",
+  const githubCtx = await browser.newContext({
+    viewport: VIEWPORT,
+    deviceScaleFactor: 2,
+    colorScheme: "dark",
+    userAgent:
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
   });
-  await sleep(1000);
-  await page.screenshot({
+  const githubPage = await githubCtx.newPage();
+  await githubPage.goto("https://github.com/assistant-ui/modelpedia", {
+    waitUntil: "networkidle",
+    timeout: 15000,
+  });
+  await sleep(2000);
+  await githubPage.screenshot({
     path: join(SCREENSHOTS_DIR, "github.png"),
     type: "png",
   });
   console.log("  ✓ github.png");
-  await screenshotCtx.close();
+  await githubCtx.close();
 
   // ── Screen Recordings ────────────────────────────────────────
 
-  // Helper: create a recording context, perform actions, close to flush video
   async function record(
     name: string,
     url: string,
@@ -70,23 +90,22 @@ async function main() {
       colorScheme: "dark",
       recordVideo: { dir: tmpDir, size: VIEWPORT },
     });
+    // Inject dark mode before page loads
+    await ctx.addInitScript(DARK_MODE_INIT_SCRIPT);
     const recPage = await ctx.newPage();
 
     await recPage.goto(url, { waitUntil: "networkidle" });
-    await sleep(500);
+    await sleep(800);
 
     await actions(recPage);
 
-    // Close context to flush video file
     const videoPath = await recPage.video()?.path();
     await ctx.close();
 
-    // Rename the temp video to our target name
     if (videoPath) {
       renameSync(videoPath, join(RECORDINGS_DIR, `${name}.webm`));
     }
 
-    // Clean up tmp dir
     try {
       const { rmSync } = await import("node:fs");
       rmSync(tmpDir, { recursive: true, force: true });
@@ -119,8 +138,8 @@ async function main() {
       await p.keyboard.type("claude", { delay: 100 });
       await sleep(1500);
 
-      // Clear and type another query
-      await p.keyboard.press("Control+A");
+      // Clear search
+      await p.keyboard.press("Meta+A");
       await p.keyboard.press("Backspace");
       await sleep(500);
     } catch {
@@ -139,52 +158,29 @@ async function main() {
     await sleep(500);
   });
 
-  // Recording 2: Compare page — select two models, scroll
-  await record("compare", `${BASE_URL}/compare`, async (p) => {
-    await sleep(1000);
+  // Recording 2: Compare page — pre-select two models via URL
+  await record(
+    "compare",
+    `${BASE_URL}/compare?a=openai/gpt-4o&b=anthropic/claude-3-5-sonnet`,
+    async (p) => {
+      await sleep(2000);
 
-    // Try to interact with model pickers
-    try {
-      // Click first model picker
-      const pickers = p.locator(
-        'button:has-text("Select"), [role="combobox"], select',
-      );
-      const firstPicker = pickers.first();
-      await firstPicker.click({ timeout: 3000 });
-      await sleep(500);
+      // Scroll through the comparison table slowly
+      for (let i = 0; i < 8; i++) {
+        await p.mouse.wheel(0, 200);
+        await sleep(600);
+      }
 
-      // Type to search for a model
-      await p.keyboard.type("gpt-4o", { delay: 80 });
-      await sleep(800);
-      await p.keyboard.press("Enter");
+      // Scroll back to top
+      await p.mouse.wheel(0, -2000);
       await sleep(1000);
-
-      // Click second picker
-      const secondPicker = pickers.nth(1);
-      await secondPicker.click({ timeout: 3000 });
-      await sleep(500);
-      await p.keyboard.type("claude", { delay: 80 });
-      await sleep(800);
-      await p.keyboard.press("Enter");
-      await sleep(1000);
-    } catch {
-      console.log("  ⚠ Model pickers not found, skipping selection");
-    }
-
-    // Scroll through comparison
-    for (let i = 0; i < 6; i++) {
-      await p.mouse.wheel(0, 250);
-      await sleep(500);
-    }
-
-    await sleep(500);
-  });
+    },
+  );
 
   // Recording 3: Changes page — scroll through updates
   await record("changes", `${BASE_URL}/changes`, async (p) => {
     await sleep(1000);
 
-    // Slow scroll through changes
     for (let i = 0; i < 8; i++) {
       await p.mouse.wheel(0, 180);
       await sleep(500);

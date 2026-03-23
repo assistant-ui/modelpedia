@@ -32,13 +32,13 @@ export const TabChaos: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  // Phase 1: Tabs appear (0–5s)
-  const tabsPhaseEnd = 5 * fps;
-  // Phase 2: Question types (5–6.5s)
-  const questionStart = 5 * fps;
-  const questionEnd = 6.5 * fps;
-  // Phase 3: Blur + subtitle (6.5–8s)
-  const blurStart = 6.5 * fps;
+  // Phase 1: Tabs appear (0–3s) — faster pacing
+  const tabsPhaseEnd = 3 * fps;
+  // Phase 2: Question types (3.5–5.5s)
+  const questionStart = 3.5 * fps;
+  const questionEnd = 5.5 * fps;
+  // Phase 3: Blur + subtitle (5.5–8s)
+  const blurStart = 5.5 * fps;
 
   const blur = interpolate(frame, [blurStart, blurStart + 15], [0, 20], {
     extrapolateLeft: "clamp",
@@ -123,13 +123,16 @@ export const TabChaos: React.FC = () => {
           }}
         >
           {tabs.map((tab, i) => {
-            const delay = i * 8;
-            const tabProgress = spring({
-              frame,
-              fps,
-              delay,
-              config: { damping: 15, stiffness: 200 },
-            });
+            const delay = i * 3;
+            const tabProgress =
+              i === 0
+                ? 1
+                : spring({
+                    frame,
+                    fps,
+                    delay,
+                    config: { damping: 15, stiffness: 200 },
+                  });
             const isActive = i === cursorTab && frame < tabsPhaseEnd;
 
             return (
