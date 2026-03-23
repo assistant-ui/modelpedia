@@ -91,7 +91,7 @@ jobs:
           git commit -m "data: update model data $(date +%Y-%m-%d)"
           git push origin "$BRANCH" --force
 
-          SUMMARY=$(cd packages/data && bun run changes -- HEAD~1 --dry-run 2>&1)
+          SUMMARY=$(cd packages/data && bun run changes -- HEAD~1 --dry-run 2>&1 | head -200)
 
           # Create PR if none exists, otherwise update the existing one
           EXISTING_PR=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
