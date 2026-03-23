@@ -39,9 +39,9 @@ export function CapabilityHeatmap({
   const caps = Object.keys(CAP_LABELS);
 
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-hidden overflow-x-auto rounded-md ring-1 ring-border">
       <div
-        className="grid gap-px overflow-hidden rounded-md bg-border ring-1 ring-border"
+        className="grid gap-px bg-border"
         style={{
           gridTemplateColumns: `1fr repeat(${caps.length}, 4rem)`,
         }}
