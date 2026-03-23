@@ -54,7 +54,7 @@ jobs:
             fetch:azure fetch:groq fetch:nvidia fetch:together
             fetch:fireworks fetch:amazon fetch:vercel fetch:vertex
             fetch:cloudflare-workers-ai fetch:cloudflare-ai-gateway fetch:opencode fetch:ollama fetch:huggingface
-            fetch:qwen
+            fetch:qwen fetch:xiaomi
           )
           for script in "${scripts[@]}"; do
             echo "::group::$script"
@@ -84,11 +84,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+          # Determine default branch
+          DEFAULT_BRANCH=$(git remote show origin | sed -n 's/.*HEAD branch: //p')
+
           # Check if branch already exists on remote
           if git ls-remote --exit-code origin "refs/heads/$BRANCH" >/dev/null 2>&1; then
             git fetch origin "$BRANCH"
             git checkout "$BRANCH"
-            git reset --hard origin/master
+            git reset --hard "origin/$DEFAULT_BRANCH"
           else
             git checkout -b "$BRANCH"
           fi
