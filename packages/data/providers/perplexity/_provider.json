@@ -9,7 +9,7 @@
   "docs_url": "https://docs.perplexity.ai",
   "pricing_url": "https://docs.perplexity.ai/guides/pricing",
   "description": "AI-powered search engine offering Sonar models with built-in web search and citations.",
-  "type": "direct",
+  "type": "cloud",
   "openai_compatible": true,
   "free_tier": false,
   "models_url": "https://docs.perplexity.ai/guides/model-cards",

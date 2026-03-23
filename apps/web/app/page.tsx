@@ -5,6 +5,7 @@ import { SearchBar } from "@/components/pages/home/search-bar";
 import { StatsGrid } from "@/components/pages/home/stats-grid";
 import { ButtonLink } from "@/components/ui/button";
 import { Section } from "@/components/ui/section";
+import { FEATURED_PROVIDERS } from "@/lib/constants";
 import { allModels, getProvider, providers } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -16,9 +17,9 @@ export const metadata: Metadata = {
 export default function HomePage() {
   const families = new Set(allModels.map((m) => m.family).filter(Boolean));
 
-  const directProviders = [...providers]
-    .filter((p) => p.type === "direct")
-    .sort((a, b) => a.name.localeCompare(b.name));
+  const featuredProviders = FEATURED_PROVIDERS.map((id) =>
+    providers.find((p) => p.id === id),
+  ).filter((p): p is NonNullable<typeof p> => Boolean(p));
 
   return (
     <>
@@ -87,8 +88,8 @@ export default function HomePage() {
         </div>
       </div>
 
-      <Section title="Providers">
-        <ProviderGrid providers={directProviders} total={providers.length} />
+      <Section title="Featured Providers">
+        <ProviderGrid providers={featuredProviders} total={providers.length} />
       </Section>
 
       <Disclaimer />

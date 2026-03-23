@@ -244,6 +244,8 @@ export function inferFamily(modelId: string): string | undefined {
     [/^glm/i, "glm"],
     // MiniMax
     [/^minimax/i, "minimax"],
+    // Xiaomi MiMo
+    [/^mimo/i, "mimo"],
     // Moonshot / Kimi
     [/^(kimi-k\d+\.?\d*)/i, null],
     [/^kimi/i, "kimi"],

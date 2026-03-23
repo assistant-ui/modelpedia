@@ -1,0 +1,20 @@
+{
+  "id": "xiaomi",
+  "name": "Xiaomi MiMo",
+  "region": "CN",
+  "headquarters": "Beijing, Beijing",
+  "founded": 2010,
+  "url": "https://mimo.xiaomi.com",
+  "api_url": "https://api.xiaomimimo.com/v1",
+  "docs_url": "https://platform.xiaomimimo.com",
+  "pricing_url": "https://platform.xiaomimimo.com",
+  "description": "Xiaomi's AI lab building open-weight reasoning and agentic models.",
+  "type": "direct",
+  "playground_url": "https://aistudio.xiaomimimo.com",
+  "openai_compatible": true,
+  "free_tier": false,
+  "github_url": "https://github.com/XiaomiMiMo",
+  "models_url": "https://platform.xiaomimimo.com",
+  "twitter_url": "https://x.com/Xiaomi",
+  "blog_url": "https://mimo.xiaomi.com/blog"
+}
