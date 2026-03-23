@@ -25,7 +25,7 @@ import {
   getModelsByCreator,
 } from "modelpedia";
 
-// All models (2000+)
+// All models (4000+)
 console.log(allModels.length);
 
 // Find a specific model
@@ -95,7 +95,6 @@ Available: `modelpedia/openai`, `modelpedia/anthropic`, `modelpedia/google`, `mo
 | `speed` | `number?` | Speed rating (1-5) |
 | `architecture` | `string?` | Model architecture (`transformer`, `moe`, `ssm`, `hybrid`) |
 | `open_weight` | `boolean?` | Whether model weights are publicly available |
-| `api_compatibility` | `string[]?` | Compatible API formats (e.g. `["openai"]`) |
 | `license` | `string?` | SPDX ID, custom name, or `"proprietary"` |
 | `parameters` | `number?` | Total parameters in billions |
 | `active_parameters` | `number?` | Active parameters for MoE models |
@@ -131,7 +130,7 @@ model.pricing?.tiers  // PricingTier[] — text tokens, audio tokens, image gene
 
 ## Providers
 
-Alibaba Cloud, Amazon Bedrock, Anthropic, Azure, Baseten, Cerebras, Cloudflare, Cohere, Cursor, DeepSeek, Fireworks, Google, Groq, Hugging Face, Meta, Minimax, Mistral, Moonshot, NVIDIA, Ollama, OpenAI, OpenCode, OpenRouter, Perplexity, Qwen, Together AI, Vercel, Vertex AI, xAI, Z.AI, and more.
+Alibaba Cloud, Amazon Bedrock, Anthropic, Azure, Baseten, Cerebras, Cloudflare (Workers AI, AI Gateway), Cohere, Cursor, DeepSeek, Fireworks, Google, Groq, Hugging Face, Meta, Minimax, Mistral, Moonshot, NVIDIA, Ollama, OpenAI, OpenCode, OpenRouter, Perplexity, Qwen, Together AI, Vercel, Vertex AI, xAI, and Z.AI.
 
 ## Data Updates
 
