@@ -13,14 +13,14 @@ catalog:
   react-grab: ^0.1.28
 
   # TypeScript
-  typescript: ^5.9.3
+  typescript: ^6.0.2
 
   # Tailwind CSS
   tailwindcss: ^4.2.2
   "@tailwindcss/postcss": ^4.2.2
 
   # Hono
-  hono: ^4.12.8
+  hono: ^4.12.9
 
   # Cloudflare
   wrangler: ^4.76.0
