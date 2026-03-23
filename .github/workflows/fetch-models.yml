@@ -84,17 +84,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Determine default branch
-          DEFAULT_BRANCH=$(git remote show origin | sed -n 's/.*HEAD branch: //p')
-
-          # Check if branch already exists on remote
-          if git ls-remote --exit-code origin "refs/heads/$BRANCH" >/dev/null 2>&1; then
-            git fetch origin "$BRANCH"
-            git checkout "$BRANCH"
-            git reset --hard "origin/$DEFAULT_BRANCH"
-          else
-            git checkout -b "$BRANCH"
-          fi
+          # Create or reset branch from current HEAD (which is default branch + fetched data)
+          git checkout -B "$BRANCH"
 
           git add packages/data/providers packages/data/src/data.ts
           git commit -m "data: update model data $(date +%Y-%m-%d)"
