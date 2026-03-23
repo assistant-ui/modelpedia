@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { ProviderIcon } from "@/components/provider-icon";
+import { ProviderIcon } from "@/components/shared/provider-icon";
+import { cn } from "@/lib/cn";
 import type { ChangeEntry as ChangeEntryData } from "@/lib/data";
 import { formatDate, formatValue } from "@/lib/format";
 
@@ -46,7 +47,6 @@ function DiffPair({
   );
 }
 
-/** Compact inline diff for object fields like pricing */
 function InlineObjDiff({
   field,
   from,
@@ -104,12 +104,10 @@ function ChangeField({
   );
 }
 
-/** For create actions, show changed fields as compact tags */
 function CreateSummary({ changes }: { changes: Record<string, unknown> }) {
-  const fields = Object.keys(changes);
   return (
     <div className="flex flex-wrap gap-1.5">
-      {fields.map((f) => (
+      {Object.keys(changes).map((f) => (
         <span
           key={f}
           className="rounded bg-green-500/10 px-1.5 py-0.5 font-mono text-green-500 text-xs"
@@ -149,7 +147,10 @@ export function ChangeEntry({
           </span>
         )}
         <span
-          className={`shrink-0 rounded px-1.5 py-0.5 text-xs ${ACTION_COLORS[entry.action] ?? DEFAULT_ACTION_COLOR}`}
+          className={cn(
+            "shrink-0 rounded px-1.5 py-0.5 text-xs",
+            ACTION_COLORS[entry.action] ?? DEFAULT_ACTION_COLOR,
+          )}
         >
           {entry.action}
         </span>

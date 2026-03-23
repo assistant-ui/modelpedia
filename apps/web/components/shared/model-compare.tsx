@@ -29,11 +29,13 @@ import {
 } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense } from "react";
+import { ModelPicker } from "@/components/shared/model-picker";
+import { ProviderIcon } from "@/components/shared/provider-icon";
+import { Tooltip } from "@/components/ui/tooltip";
+import { cn } from "@/lib/cn";
 import { PERF_LABELS, REASONING_LABELS, SPEED_LABELS } from "@/lib/constants";
+import type { ModelCapabilities } from "@/lib/data";
 import { formatPrice, formatTokens } from "@/lib/format";
-import { ModelPicker } from "./model-picker";
-import { ProviderIcon } from "./provider-icon";
-import { Tooltip } from "./ui/tooltip";
 
 interface CompareModel {
   id: string;
@@ -57,7 +59,7 @@ interface CompareModel {
   performance?: number;
   reasoning?: number;
   speed?: number;
-  capabilities?: Record<string, boolean>;
+  capabilities?: ModelCapabilities;
   modalities?: { input?: string[]; output?: string[] };
   pricing?: {
     input?: number | null;
@@ -69,6 +71,7 @@ interface CompareModel {
   };
   tools?: string[];
   endpoints?: string[];
+  [key: string]: unknown;
 }
 
 function CompareRow({
@@ -88,13 +91,13 @@ function CompareRow({
     "flex items-center border-border border-l px-4 py-2.5 font-mono text-foreground text-sm";
   const diffCls = diff ? " bg-yellow-500/8" : "";
   return (
-    <div className="grid grid-cols-3 border-border border-t">
+    <div className="grid grid-cols-1 border-border border-t sm:grid-cols-3">
       <div className="flex items-center gap-2 px-4 py-2.5 text-muted-foreground text-sm">
         {Icon && <Icon size={14} className="shrink-0" />}
         {label}
       </div>
-      <div className={`${cell}${diffCls}`}>{a ?? "—"}</div>
-      <div className={`${cell}${diffCls}`}>{b ?? "—"}</div>
+      <div className={cn(cell, diffCls)}>{a ?? "—"}</div>
+      <div className={cn(cell, diffCls)}>{b ?? "—"}</div>
     </div>
   );
 }
@@ -136,7 +139,10 @@ function RatingDots({
         {Array.from({ length: max }, (_, i) => (
           <span
             key={i}
-            className={`h-2 w-2 rounded-full ${i < value ? "bg-foreground" : "bg-border"}`}
+            className={cn(
+              "h-2 w-2 rounded-full",
+              i < value ? "bg-foreground" : "bg-border",
+            )}
           />
         ))}
       </span>
@@ -144,17 +150,63 @@ function RatingDots({
   );
 }
 
+function optionalTokens(value?: number | null): string | null {
+  return value ? formatTokens(value) : null;
+}
+
+function boolLabel(value?: boolean | null): string | null {
+  if (value == null) return null;
+  return value ? "Yes" : "No";
+}
+
 function CapBadge({ supported }: { supported?: boolean }) {
   if (supported === undefined)
     return <span className="text-muted-foreground">—</span>;
-  return supported ? (
-    <span className="text-foreground">Yes</span>
-  ) : (
-    <span className="text-muted-foreground">No</span>
+  return (
+    <span className={supported ? "text-foreground" : "text-muted-foreground"}>
+      {supported ? "Yes" : "No"}
+    </span>
   );
 }
 
-const CAP_KEYS: [string, string, LucideIcon][] = [
+function ModelHeader({ model }: { model: CompareModel }) {
+  return (
+    <a
+      href={`/${model.provider}/${model.id}`}
+      className="flex min-w-0 items-center gap-2 border-border border-l px-4 py-3 transition-colors duration-200 hover:bg-accent"
+    >
+      <ProviderIcon
+        provider={model.providerIcon ? { icon: model.providerIcon } : null}
+        size={14}
+      />
+      <span className="truncate font-medium text-foreground text-sm">
+        {model.name}
+      </span>
+    </a>
+  );
+}
+
+function CreatorLink({
+  id,
+  name,
+  icon,
+}: {
+  id?: string;
+  name?: string;
+  icon?: string;
+}) {
+  return (
+    <a
+      href={`/${id}`}
+      className="flex items-center gap-1.5 transition-colors duration-200 hover:text-accent-foreground"
+    >
+      <ProviderIcon provider={icon ? { icon } : null} size={13} />
+      {name ?? id}
+    </a>
+  );
+}
+
+const CAP_KEYS: [keyof ModelCapabilities, string, LucideIcon][] = [
   ["reasoning", "Reasoning", Brain],
   ["vision", "Vision", Eye],
   ["tool_call", "Tool calling", Hammer],
@@ -206,32 +258,10 @@ function CompareInner({ models }: { models: CompareModel[] }) {
 
       {a && b ? (
         <div className="overflow-hidden rounded-md ring-1 ring-border">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-1 sm:grid-cols-3">
             <div className="px-4 py-3 text-muted-foreground text-xs uppercase tracking-wider" />
-            <a
-              href={`/${a.provider}/${a.id}`}
-              className="flex min-w-0 items-center gap-2 border-border border-l px-4 py-3 transition-colors duration-200 hover:bg-accent"
-            >
-              <ProviderIcon
-                provider={a.providerIcon ? { icon: a.providerIcon } : null}
-                size={14}
-              />
-              <span className="truncate font-medium text-foreground text-sm">
-                {a.name}
-              </span>
-            </a>
-            <a
-              href={`/${b.provider}/${b.id}`}
-              className="flex min-w-0 items-center gap-2 border-border border-l px-4 py-3 transition-colors duration-200 hover:bg-accent"
-            >
-              <ProviderIcon
-                provider={b.providerIcon ? { icon: b.providerIcon } : null}
-                size={14}
-              />
-              <span className="truncate font-medium text-foreground text-sm">
-                {b.name}
-              </span>
-            </a>
+            <ModelHeader model={a} />
+            <ModelHeader model={b} />
           </div>
 
           <CompareRow
@@ -239,28 +269,18 @@ function CompareInner({ models }: { models: CompareModel[] }) {
             label="Creator"
             diff={neq(a.created_by, b.created_by)}
             a={
-              <a
-                href={`/${a.created_by}`}
-                className="flex items-center gap-1.5 transition-colors duration-200 hover:text-accent-foreground"
-              >
-                <ProviderIcon
-                  provider={a.creatorIcon ? { icon: a.creatorIcon } : null}
-                  size={13}
-                />
-                {a.creatorName ?? a.created_by}
-              </a>
+              <CreatorLink
+                id={a.created_by}
+                name={a.creatorName}
+                icon={a.creatorIcon}
+              />
             }
             b={
-              <a
-                href={`/${b.created_by}`}
-                className="flex items-center gap-1.5 transition-colors duration-200 hover:text-accent-foreground"
-              >
-                <ProviderIcon
-                  provider={b.creatorIcon ? { icon: b.creatorIcon } : null}
-                  size={13}
-                />
-                {b.creatorName ?? b.created_by}
-              </a>
+              <CreatorLink
+                id={b.created_by}
+                name={b.creatorName}
+                icon={b.creatorIcon}
+              />
             }
           />
           <CompareRow
@@ -280,8 +300,8 @@ function CompareInner({ models }: { models: CompareModel[] }) {
           <CompareRow
             icon={Puzzle}
             label="Status"
-            a={a.status ?? "—"}
-            b={b.status ?? "—"}
+            a={a.status}
+            b={b.status}
             diff={neq(a.status, b.status)}
           />
           <CompareRow
@@ -294,29 +314,29 @@ function CompareInner({ models }: { models: CompareModel[] }) {
           <CompareRow
             icon={MessageSquare}
             label="Context"
-            a={a.context_window ? formatTokens(a.context_window) : null}
-            b={b.context_window ? formatTokens(b.context_window) : null}
+            a={optionalTokens(a.context_window)}
+            b={optionalTokens(b.context_window)}
             diff={neq(a.context_window, b.context_window)}
           />
           <CompareRow
             icon={Maximize}
             label="Max context"
-            a={a.max_context_window ? formatTokens(a.max_context_window) : null}
-            b={b.max_context_window ? formatTokens(b.max_context_window) : null}
+            a={optionalTokens(a.max_context_window)}
+            b={optionalTokens(b.max_context_window)}
             diff={neq(a.max_context_window, b.max_context_window)}
           />
           <CompareRow
             icon={Maximize}
             label="Max output"
-            a={a.max_output_tokens ? formatTokens(a.max_output_tokens) : null}
-            b={b.max_output_tokens ? formatTokens(b.max_output_tokens) : null}
+            a={optionalTokens(a.max_output_tokens)}
+            b={optionalTokens(b.max_output_tokens)}
             diff={neq(a.max_output_tokens, b.max_output_tokens)}
           />
           <CompareRow
             icon={Maximize}
             label="Max input"
-            a={a.max_input_tokens ? formatTokens(a.max_input_tokens) : null}
-            b={b.max_input_tokens ? formatTokens(b.max_input_tokens) : null}
+            a={optionalTokens(a.max_input_tokens)}
+            b={optionalTokens(b.max_input_tokens)}
             diff={neq(a.max_input_tokens, b.max_input_tokens)}
           />
           <CompareRow
@@ -393,20 +413,8 @@ function CompareInner({ models }: { models: CompareModel[] }) {
           <CompareRow
             icon={Zap}
             label="Reasoning tokens"
-            a={
-              a.reasoning_tokens != null
-                ? a.reasoning_tokens
-                  ? "Yes"
-                  : "No"
-                : null
-            }
-            b={
-              b.reasoning_tokens != null
-                ? b.reasoning_tokens
-                  ? "Yes"
-                  : "No"
-                : null
-            }
+            a={boolLabel(a.reasoning_tokens)}
+            b={boolLabel(b.reasoning_tokens)}
             diff={neq(a.reasoning_tokens, b.reasoning_tokens)}
           />
 

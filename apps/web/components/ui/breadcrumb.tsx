@@ -2,7 +2,7 @@ import { cn } from "@/lib/cn";
 
 type BreadcrumbItem = string | [label: string, href?: string];
 
-function Breadcrumb({
+export function Breadcrumb({
   items,
   className,
 }: {
@@ -42,5 +42,3 @@ function Breadcrumb({
     </nav>
   );
 }
-
-export { Breadcrumb };

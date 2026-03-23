@@ -2,12 +2,20 @@
 
 import type { ColumnDef } from "@tanstack/react-table";
 import { useState } from "react";
-import { ProviderIcon } from "@/components/provider-icon";
+import { ProviderIcon } from "@/components/shared/provider-icon";
+import { Badge } from "@/components/ui/badge";
+import { Checkbox } from "@/components/ui/checkbox";
+import { DataTable } from "@/components/ui/data-table";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+} from "@/components/ui/select";
+import { cn } from "@/lib/cn";
 import { CAP_LABELS } from "@/lib/constants";
-import { formatPrice, formatTokens } from "@/lib/format";
-import { DataTable } from "./data-table";
-import { Checkbox } from "./ui/checkbox";
-import { Select, SelectContent, SelectItem, SelectTrigger } from "./ui/select";
+import type { ModelCapabilities } from "@/lib/data";
+import { formatParams, formatPrice, formatTokens } from "@/lib/format";
 
 export interface ModelItem {
   id: string;
@@ -18,9 +26,13 @@ export interface ModelItem {
   status?: string;
   model_type?: string;
   context_window?: number | null;
-  capabilities?: Record<string, boolean>;
+  capabilities?: ModelCapabilities;
   pricing?: { input?: number | null; output?: number | null };
   providerIcon?: string;
+  license?: string;
+  parameters?: number | null;
+  active_parameters?: number | null;
+  [key: string]: unknown;
 }
 
 function modelFilterFn(row: ModelItem, query: string): boolean {
@@ -31,12 +43,12 @@ function modelFilterFn(row: ModelItem, query: string): boolean {
   return terms.every((t) => target.includes(t));
 }
 
-function capBadges(caps: Record<string, boolean> | undefined) {
+function capBadges(caps: ModelCapabilities | undefined) {
   if (!caps) return null;
   return (
     <span className="flex gap-0.5">
       {CAP_LABELS.map(([key, letter]) =>
-        caps[key] ? (
+        caps[key as keyof ModelCapabilities] ? (
           <span
             key={key}
             className="flex h-4 w-4 items-center justify-center rounded bg-muted text-[10px] text-foreground"
@@ -50,21 +62,6 @@ function capBadges(caps: Record<string, boolean> | undefined) {
   );
 }
 
-function capLegend() {
-  return (
-    <div className="hidden flex-wrap gap-x-2.5 gap-y-1 text-[11px] text-muted-foreground/60 md:flex">
-      {CAP_LABELS.map(([key, letter]) => (
-        <span key={key} className="flex items-center gap-1">
-          <span className="flex h-3.5 w-3.5 items-center justify-center rounded bg-muted text-[9px] text-muted-foreground">
-            {letter}
-          </span>
-          {key.replace(/_/g, " ")}
-        </span>
-      ))}
-    </div>
-  );
-}
-
 function buildColumns(showProvider?: boolean): ColumnDef<ModelItem>[] {
   return [
     {
@@ -72,11 +69,15 @@ function buildColumns(showProvider?: boolean): ColumnDef<ModelItem>[] {
       accessorFn: (row) => row.name,
       header: "Model",
       enableSorting: false,
+      meta: { className: "max-w-0 w-full" },
       cell: ({ row }) => {
         const m = row.original;
         return (
           <div
-            className={`flex items-center gap-2 ${m.status === "deprecated" ? "opacity-50" : ""}`}
+            className={cn(
+              "flex min-w-0 items-center gap-2",
+              m.status === "deprecated" && "opacity-50",
+            )}
           >
             {showProvider && (
               <ProviderIcon
@@ -84,11 +85,22 @@ function buildColumns(showProvider?: boolean): ColumnDef<ModelItem>[] {
                 size={13}
               />
             )}
-            <div className="min-w-0">
-              <span className="block truncate text-foreground text-sm">
-                {m.name}
+            <div className="min-w-0 overflow-hidden">
+              <span className="flex items-center gap-1.5">
+                <span className="truncate text-foreground text-sm">
+                  {m.name}
+                </span>
+                {m.license && m.license !== "proprietary" && (
+                  <Badge
+                    variant="green"
+                    title={m.license}
+                    className="shrink-0 text-[10px]"
+                  >
+                    OSS
+                  </Badge>
+                )}
               </span>
-              <span className="block truncate font-mono text-muted-foreground text-xs">
+              <span className="truncate font-mono text-muted-foreground text-xs">
                 {m.id}
               </span>
             </div>
@@ -119,6 +131,24 @@ function buildColumns(showProvider?: boolean): ColumnDef<ModelItem>[] {
         return v ? (
           <span className="font-mono text-muted-foreground text-sm tabular-nums">
             {formatTokens(v)}
+          </span>
+        ) : null;
+      },
+    },
+    {
+      id: "params",
+      accessorFn: (row) => row.parameters ?? -1,
+      header: "Params",
+      sortingFn: "basic",
+      meta: {
+        className: "hidden sm:table-cell",
+        headerClassName: "hidden sm:table-cell",
+      },
+      cell: ({ row }) => {
+        const m = row.original;
+        return m.parameters != null ? (
+          <span className="font-mono text-muted-foreground text-sm tabular-nums">
+            {formatParams(m.parameters, m.active_parameters)}
           </span>
         ) : null;
       },
@@ -163,6 +193,17 @@ export function ModelList({
 }) {
   const [showDeprecated, setShowDeprecated] = useState(false);
   const [typeFilter, setTypeFilter] = useState("");
+  const [capFilters, setCapFilters] = useState<Set<string>>(new Set());
+  const [ossOnly, setOssOnly] = useState(false);
+
+  function toggleCap(key: string) {
+    setCapFilters((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  }
 
   const deprecatedCount = models.filter(
     (m) => m.status === "deprecated",
@@ -181,6 +222,18 @@ export function ModelList({
     data = data.filter((m) => m.model_type === typeFilter);
   }
 
+  if (capFilters.size > 0) {
+    data = data.filter((m) =>
+      [...capFilters].every(
+        (cap) => m.capabilities?.[cap as keyof ModelCapabilities],
+      ),
+    );
+  }
+
+  if (ossOnly) {
+    data = data.filter((m) => m.license && m.license !== "proprietary");
+  }
+
   const columns = buildColumns(showProvider);
 
   return (
@@ -194,7 +247,7 @@ export function ModelList({
       getRowHref={(m) => `/${m.provider}/${m.id}`}
       toolbar={
         <div className="space-y-3">
-          <div className="flex items-center gap-3">
+          <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:gap-3">
             {types.length > 1 && (
               <div className="flex items-center gap-1.5 text-muted-foreground text-xs">
                 <span>Type</span>
@@ -218,6 +271,12 @@ export function ModelList({
                 </Select>
               </div>
             )}
+            <Checkbox
+              checked={ossOnly}
+              onCheckedChange={(v) => setOssOnly(v === true)}
+              label="OSS"
+              className="shrink-0 text-muted-foreground text-xs"
+            />
             {deprecatedCount > 0 && (
               <Checkbox
                 checked={showDeprecated}
@@ -227,7 +286,36 @@ export function ModelList({
               />
             )}
           </div>
-          {capLegend()}
+          <div className="hidden flex-wrap gap-x-1 gap-y-1 md:flex">
+            {CAP_LABELS.map(([key, letter]) => {
+              const active = capFilters.has(key);
+              return (
+                <button
+                  type="button"
+                  key={key}
+                  onClick={() => toggleCap(key)}
+                  className={cn(
+                    "flex items-center gap-1 rounded-md px-1.5 py-1 text-[11px] transition-colors",
+                    active
+                      ? "bg-foreground/10 text-foreground"
+                      : "text-muted-foreground/60 hover:text-muted-foreground",
+                  )}
+                >
+                  <span
+                    className={cn(
+                      "flex h-3.5 w-3.5 items-center justify-center rounded text-[9px]",
+                      active
+                        ? "bg-foreground text-background"
+                        : "bg-muted text-muted-foreground",
+                    )}
+                  >
+                    {letter}
+                  </span>
+                  {key.replace(/_/g, " ")}
+                </button>
+              );
+            })}
+          </div>
         </div>
       }
     />

@@ -3,6 +3,13 @@
 import { useState } from "react";
 import { highlight } from "sugar-high";
 import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/cn";
+
+function buttonLabel(loading: boolean, visible: boolean): string {
+  if (loading) return "...";
+  if (visible) return "Hide";
+  return "Try";
+}
 
 export function ApiEndpoint({
   path,
@@ -65,7 +72,7 @@ export function ApiEndpoint({
           className="ml-auto shrink-0"
           onClick={handleTry}
         >
-          {loading ? "..." : visible ? "Hide" : "Try"}
+          {buttonLabel(loading, visible)}
         </Button>
       </div>
       {params && (
@@ -73,7 +80,10 @@ export function ApiEndpoint({
           {params.map(([name, desc], i) => (
             <div
               key={name}
-              className={`grid grid-cols-1 px-3 py-2 sm:grid-cols-[1fr_2fr] ${i > 0 ? "border-border border-t" : ""}`}
+              className={cn(
+                "grid grid-cols-1 px-3 py-2 sm:grid-cols-[1fr_2fr]",
+                i > 0 && "border-border border-t",
+              )}
             >
               <code className="text-foreground">{name}</code>
               <span className="text-muted-foreground">{desc}</span>

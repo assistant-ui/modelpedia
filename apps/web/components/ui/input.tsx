@@ -4,7 +4,7 @@ import { Input as BaseInput } from "@base-ui/react/input";
 import { type ComponentPropsWithoutRef, forwardRef } from "react";
 import { cn } from "@/lib/cn";
 
-const Input = forwardRef<
+export const Input = forwardRef<
   HTMLInputElement,
   ComponentPropsWithoutRef<typeof BaseInput>
 >(({ className, ...props }, ref) => (
@@ -18,5 +18,3 @@ const Input = forwardRef<
   />
 ));
 Input.displayName = "Input";
-
-export { Input };

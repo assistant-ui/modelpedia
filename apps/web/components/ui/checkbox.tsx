@@ -5,7 +5,7 @@ import { Check, Minus } from "lucide-react";
 import { type ComponentPropsWithoutRef, forwardRef } from "react";
 import { cn } from "@/lib/cn";
 
-const Checkbox = forwardRef<
+export const Checkbox = forwardRef<
   HTMLButtonElement,
   ComponentPropsWithoutRef<typeof BaseCheckbox.Root> & {
     label?: string;
@@ -42,5 +42,3 @@ const Checkbox = forwardRef<
   </label>
 ));
 Checkbox.displayName = "Checkbox";
-
-export { Checkbox };

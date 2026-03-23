@@ -1,8 +1,10 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import { ProviderIcon } from "@/components/provider-icon";
-import { PROVIDER_TIER } from "@/lib/constants";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { ProviderIcon } from "@/components/shared/provider-icon";
+import { cn } from "@/lib/cn";
+import { PROVIDER_TYPE_TIER } from "@/lib/constants";
+import { getProvider } from "@/lib/data";
 import { multiSearch } from "@/lib/search";
 
 interface PickerModel {
@@ -11,6 +13,10 @@ interface PickerModel {
   provider: string;
   providerName: string;
   providerIcon?: string;
+}
+
+function toIconProp(icon?: string) {
+  return icon ? { icon } : null;
 }
 
 export function ModelPicker({
@@ -38,7 +44,8 @@ export function ModelPicker({
   const filtered = query
     ? multiSearch(models, query, {
         target: (m) => `${m.providerName} ${m.name} ${m.id}`,
-        bonus: (m) => PROVIDER_TIER[m.provider] ?? 0,
+        bonus: (m) =>
+          PROVIDER_TYPE_TIER[getProvider(m.provider)?.type ?? "direct"] ?? 0,
         limit: 30,
       })
     : [];
@@ -52,19 +59,19 @@ export function ModelPicker({
     });
   }
 
-  function hide() {
+  const hide = useCallback(() => {
     setOpen(false);
     timeoutRef.current = setTimeout(() => {
       setVisible(false);
       setQuery("");
     }, 150);
-  }
+  }, []);
 
   useEffect(() => {
     if (!visible) return;
-    const handler = (e: MouseEvent) => {
+    function handler(e: MouseEvent) {
       if (ref.current && !ref.current.contains(e.target as Node)) hide();
-    };
+    }
     document.addEventListener("mousedown", handler);
     return () => document.removeEventListener("mousedown", handler);
   }, [visible, hide]);
@@ -83,9 +90,7 @@ export function ModelPicker({
         {current ? (
           <span className="flex min-w-0 items-center gap-2 truncate text-foreground">
             <ProviderIcon
-              provider={
-                current.providerIcon ? { icon: current.providerIcon } : null
-              }
+              provider={toIconProp(current.providerIcon)}
               size={14}
             />
             {current.name}
@@ -96,11 +101,12 @@ export function ModelPicker({
       </button>
       {visible && (
         <div
-          className={`absolute top-12 right-0 left-0 z-20 origin-top overflow-hidden rounded-md bg-muted ring-1 ring-border transition-all duration-150 ${
+          className={cn(
+            "absolute top-12 right-0 left-0 z-20 origin-top overflow-hidden rounded-md bg-muted ring-1 ring-border transition-all duration-150",
             open
               ? "scale-100 opacity-100"
-              : "pointer-events-none scale-95 opacity-0"
-          }`}
+              : "pointer-events-none scale-95 opacity-0",
+          )}
         >
           <div className="p-2">
             <input
@@ -132,12 +138,13 @@ export function ModelPicker({
                 <button
                   key={key}
                   onClick={() => select(key)}
-                  className={`flex w-full items-center gap-2 px-3 py-2 text-left text-sm transition-colors duration-200 hover:bg-accent ${
-                    key === selected ? "bg-accent" : ""
-                  }`}
+                  className={cn(
+                    "flex w-full items-center gap-2 px-3 py-2 text-left text-sm transition-colors duration-200 hover:bg-accent",
+                    key === selected && "bg-accent",
+                  )}
                 >
                   <ProviderIcon
-                    provider={m.providerIcon ? { icon: m.providerIcon } : null}
+                    provider={toIconProp(m.providerIcon)}
                     size={13}
                   />
                   <div className="min-w-0 flex-1">

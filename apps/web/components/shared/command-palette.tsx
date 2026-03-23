@@ -2,7 +2,7 @@
 
 import { Search } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   Command,
   CommandEmpty,
@@ -11,7 +11,9 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command";
-import { PROVIDER_TIER } from "@/lib/constants";
+import { cn } from "@/lib/cn";
+import { PROVIDER_TYPE_TIER } from "@/lib/constants";
+import { getProvider } from "@/lib/data";
 import { multiSearch } from "@/lib/search";
 
 interface SearchItem {
@@ -21,6 +23,18 @@ interface SearchItem {
   href: string;
   sub?: string;
   icon?: string;
+}
+
+function ItemIcon({ html, size }: { html: string; size: string }) {
+  return (
+    <span
+      className={cn(
+        "flex shrink-0 items-center justify-center text-foreground [&>svg]:h-full [&>svg]:w-full",
+        size,
+      )}
+      dangerouslySetInnerHTML={{ __html: html }}
+    />
+  );
 }
 
 export function CommandPalette({
@@ -38,15 +52,15 @@ export function CommandPalette({
   const router = useRouter();
   const closingRef = useRef(false);
 
-  function open() {
+  const open = useCallback(() => {
     if (closingRef.current) return;
     setMounted(true);
     requestAnimationFrame(() => {
       requestAnimationFrame(() => setVisible(true));
     });
-  }
+  }, []);
 
-  function close() {
+  const close = useCallback(() => {
     if (closingRef.current) return;
     closingRef.current = true;
     setVisible(false);
@@ -55,10 +69,10 @@ export function CommandPalette({
       setQuery("");
       closingRef.current = false;
     }, 200);
-  }
+  }, []);
 
   useEffect(() => {
-    const down = (e: KeyboardEvent) => {
+    function down(e: KeyboardEvent) {
       if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
         e.preventDefault();
         if (mounted) close();
@@ -68,7 +82,7 @@ export function CommandPalette({
         e.preventDefault();
         close();
       }
-    };
+    }
     document.addEventListener("keydown", down);
     return () => document.removeEventListener("keydown", down);
   }, [mounted, close, open]);
@@ -94,7 +108,9 @@ export function CommandPalette({
               let b = 0;
               if (m.name.toLowerCase() === query.toLowerCase()) b += 30;
               const provider = m.href.split("/")[1];
-              b += PROVIDER_TIER[provider] ?? 0;
+              b +=
+                PROVIDER_TYPE_TIER[getProvider(provider)?.type ?? "direct"] ??
+                0;
               return b;
             },
             limit: 20,
@@ -128,10 +144,16 @@ export function CommandPalette({
           onClick={close}
         >
           <div
-            className={`fixed inset-0 bg-background/80 transition-opacity duration-200 ${visible ? "opacity-100" : "opacity-0"}`}
+            className={cn(
+              "fixed inset-0 bg-background/80 transition-opacity duration-200",
+              visible ? "opacity-100" : "opacity-0",
+            )}
           />
           <div
-            className={`relative mx-4 w-full max-w-lg transition-all duration-200 ${visible ? "scale-100 opacity-100" : "scale-95 opacity-0"}`}
+            className={cn(
+              "relative mx-4 w-full max-w-lg transition-all duration-200",
+              visible ? "scale-100 opacity-100" : "scale-95 opacity-0",
+            )}
             onClick={(e) => e.stopPropagation()}
           >
             <Command shouldFilter={false}>
@@ -167,10 +189,7 @@ export function CommandPalette({
                           onSelect={() => select(item.href)}
                         >
                           {item.icon && (
-                            <span
-                              className="flex h-4 w-4 shrink-0 items-center justify-center text-foreground [&>svg]:h-full [&>svg]:w-full"
-                              dangerouslySetInnerHTML={{ __html: item.icon }}
-                            />
+                            <ItemIcon html={item.icon} size="h-4 w-4" />
                           )}
                           {item.name}
                         </CommandItem>
@@ -202,10 +221,7 @@ export function CommandPalette({
                         onSelect={() => select(item.href)}
                       >
                         {item.icon && (
-                          <span
-                            className="flex h-4 w-4 shrink-0 items-center justify-center text-foreground [&>svg]:h-full [&>svg]:w-full"
-                            dangerouslySetInnerHTML={{ __html: item.icon }}
-                          />
+                          <ItemIcon html={item.icon} size="h-4 w-4" />
                         )}
                         {item.name}
                       </CommandItem>
@@ -222,10 +238,7 @@ export function CommandPalette({
                         onSelect={() => select(item.href)}
                       >
                         {item.icon && (
-                          <span
-                            className="flex h-3.5 w-3.5 shrink-0 items-center justify-center text-foreground [&>svg]:h-full [&>svg]:w-full"
-                            dangerouslySetInnerHTML={{ __html: item.icon }}
-                          />
+                          <ItemIcon html={item.icon} size="h-3.5 w-3.5" />
                         )}
                         <span className="min-w-0 flex-1 truncate">
                           {item.name}

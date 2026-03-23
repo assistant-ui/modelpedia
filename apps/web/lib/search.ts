@@ -1,3 +1,5 @@
+const WORD_SEPARATORS = "- /";
+
 /** Fuzzy match a pattern against text, returning a score or -1 if no match */
 export function fuzzyMatch(text: string, pattern: string): number {
   let ti = 0;
@@ -9,12 +11,7 @@ export function fuzzyMatch(text: string, pattern: string): number {
       score += 1 + consecutive;
       consecutive++;
       pi++;
-      if (
-        ti === 0 ||
-        text[ti - 1] === "-" ||
-        text[ti - 1] === " " ||
-        text[ti - 1] === "/"
-      ) {
+      if (ti === 0 || WORD_SEPARATORS.includes(text[ti - 1])) {
         score += 3;
       }
     } else {
@@ -42,21 +39,15 @@ export function multiSearch<T>(
   if (terms.length === 0) return [];
 
   const results: { item: T; score: number }[] = [];
-  for (const item of items) {
+  outer: for (const item of items) {
     const target = options.target(item).toLowerCase();
     let total = 0;
-    let allMatch = true;
     for (const term of terms) {
       const s = fuzzyMatch(target, term);
-      if (s < 0) {
-        allMatch = false;
-        break;
-      }
+      if (s < 0) continue outer;
       total += s;
     }
-    if (allMatch) {
-      results.push({ item, score: total + (options.bonus?.(item) ?? 0) });
-    }
+    results.push({ item, score: total + (options.bonus?.(item) ?? 0) });
   }
 
   return results

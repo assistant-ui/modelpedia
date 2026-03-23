@@ -10,11 +10,10 @@ import {
   type SortingState,
   useReactTable,
 } from "@tanstack/react-table";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { type MouseEvent, useState } from "react";
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
+import { Input } from "@/components/ui/input";
+import { Pagination } from "@/components/ui/pagination";
 import {
   Table,
   TableBody,
@@ -22,9 +21,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "./ui/table";
-
-type ColumnMeta = Record<string, string> | undefined;
+} from "@/components/ui/table";
+import { cn } from "@/lib/cn";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
@@ -36,6 +34,7 @@ interface DataTableProps<TData, TValue> {
   toolbar?: React.ReactNode;
   globalFilterFn?: (row: TData, query: string) => boolean;
   getRowHref?: (row: TData) => string;
+  getRowClassName?: (row: TData) => string;
 }
 
 export function DataTable<TData, TValue>({
@@ -48,6 +47,7 @@ export function DataTable<TData, TValue>({
   toolbar,
   globalFilterFn,
   getRowHref,
+  getRowClassName,
 }: DataTableProps<TData, TValue>) {
   const router = useRouter();
   const [sorting, setSorting] = useState<SortingState>([]);
@@ -93,7 +93,9 @@ export function DataTable<TData, TValue>({
             {table.getHeaderGroups().map((headerGroup) => (
               <TableRow key={headerGroup.id} className="hover:bg-transparent">
                 {headerGroup.headers.map((header) => {
-                  const meta = header.column.columnDef.meta as ColumnMeta;
+                  const meta = header.column.columnDef.meta as
+                    | Record<string, string>
+                    | undefined;
                   const headerCls =
                     meta?.headerClassName ?? meta?.className ?? "";
                   const sortCls = header.column.getCanSort()
@@ -102,7 +104,7 @@ export function DataTable<TData, TValue>({
                   return (
                     <TableHead
                       key={header.id}
-                      className={`${headerCls} ${sortCls}`}
+                      className={cn(headerCls, sortCls)}
                       onClick={header.column.getToggleSortingHandler()}
                     >
                       {header.isPlaceholder
@@ -133,10 +135,11 @@ export function DataTable<TData, TValue>({
                       router.push(href);
                     }
                   : undefined;
+                const rowCls = getRowClassName?.(row.original) ?? "";
                 return (
                   <TableRow
                     key={row.id}
-                    className={href ? "cursor-pointer" : ""}
+                    className={cn(href && "cursor-pointer", rowCls)}
                     onClick={handleRowClick}
                   >
                     {row.getVisibleCells().map((cell) => {
@@ -171,35 +174,16 @@ export function DataTable<TData, TValue>({
           </TableBody>
         </Table>
       </div>
-      {totalPages > 1 && (
-        <div className="mt-4 flex items-center justify-between text-muted-foreground text-xs">
-          <span>
-            {pageIndex * pageSize + 1}–
-            {Math.min((pageIndex + 1) * pageSize, totalRows)} of {totalRows}
-          </span>
-          <div className="flex items-center gap-1">
-            <Button
-              variant="ghost"
-              size="icon"
-              disabled={!table.getCanPreviousPage()}
-              onClick={() => table.previousPage()}
-            >
-              <ChevronLeft size={14} />
-            </Button>
-            <span className="px-2 font-mono tabular-nums">
-              {pageIndex + 1} / {totalPages}
-            </span>
-            <Button
-              variant="ghost"
-              size="icon"
-              disabled={!table.getCanNextPage()}
-              onClick={() => table.nextPage()}
-            >
-              <ChevronRight size={14} />
-            </Button>
-          </div>
-        </div>
-      )}
+      <Pagination
+        pageIndex={pageIndex}
+        totalPages={totalPages}
+        totalRows={totalRows}
+        pageSize={pageSize}
+        onPrevious={() => table.previousPage()}
+        onNext={() => table.nextPage()}
+        canPrevious={table.getCanPreviousPage()}
+        canNext={table.getCanNextPage()}
+      />
     </div>
   );
 }

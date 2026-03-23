@@ -1,6 +1,11 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import { cn } from "@/lib/cn";
+
+const ACTIVE = "text-foreground";
+const INACTIVE =
+  "text-muted-foreground transition-colors duration-200 hover:text-foreground";
 
 export function FormatToggle() {
   const [isAI, setIsAI] = useState(false);
@@ -51,21 +56,20 @@ export function FormatToggle() {
           onClick={toggleFormat}
           className="flex items-center rounded-md bg-muted text-xs ring-1 ring-border transition-colors duration-200"
         >
-          <span
-            className={`px-3 py-1.5 ${isAI ? "text-muted-foreground transition-colors duration-200 hover:text-foreground" : "text-foreground"}`}
-          >
+          <span className={cn("px-3 py-1.5", isAI ? INACTIVE : ACTIVE)}>
             Human
           </span>
-          <span
-            className={`px-3 py-1.5 ${isAI ? "text-foreground" : "text-muted-foreground transition-colors duration-200 hover:text-foreground"}`}
-          >
+          <span className={cn("px-3 py-1.5", isAI ? ACTIVE : INACTIVE)}>
             AI
           </span>
         </button>
       </div>
       {visible && (
         <div
-          className={`fixed inset-0 z-40 bg-background transition-opacity duration-200 ${isAI ? "opacity-100" : "opacity-0"}`}
+          className={cn(
+            "fixed inset-0 z-40 bg-background transition-opacity duration-200",
+            isAI ? "opacity-100" : "opacity-0",
+          )}
         >
           <div className="mx-auto flex h-12 max-w-3xl items-center px-6 text-sm">
             <span className="font-mono text-foreground">AI Format</span>

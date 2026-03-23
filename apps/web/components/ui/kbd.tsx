@@ -1,7 +1,7 @@
 import type { ComponentProps } from "react";
 import { cn } from "@/lib/cn";
 
-function Kbd({ className, ...props }: ComponentProps<"kbd">) {
+export function Kbd({ className, ...props }: ComponentProps<"kbd">) {
   return (
     <kbd
       className={cn(
@@ -12,5 +12,3 @@ function Kbd({ className, ...props }: ComponentProps<"kbd">) {
     />
   );
 }
-
-export { Kbd };

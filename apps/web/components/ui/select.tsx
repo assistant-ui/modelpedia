@@ -2,12 +2,14 @@
 
 import { Select as SelectPrimitive } from "@base-ui/react/select";
 import { Check, ChevronDown } from "lucide-react";
-import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
-const Select = SelectPrimitive.Root;
+export const Select = SelectPrimitive.Root;
 
-function SelectValue({ className, ...props }: SelectPrimitive.Value.Props) {
+export function SelectValue({
+  className,
+  ...props
+}: SelectPrimitive.Value.Props) {
   return (
     <SelectPrimitive.Value
       className={cn("flex flex-1 text-left", className)}
@@ -16,7 +18,7 @@ function SelectValue({ className, ...props }: SelectPrimitive.Value.Props) {
   );
 }
 
-function SelectTrigger({
+export function SelectTrigger({
   className,
   children,
   ...props
@@ -37,7 +39,7 @@ function SelectTrigger({
   );
 }
 
-function SelectContent({
+export function SelectContent({
   className,
   children,
   side = "bottom",
@@ -68,7 +70,7 @@ function SelectContent({
   );
 }
 
-function SelectItem({
+export function SelectItem({
   className,
   children,
   ...props
@@ -91,11 +93,11 @@ function SelectItem({
   );
 }
 
-function SelectSeparator({ className }: { className?: string }) {
+export function SelectSeparator({ className }: { className?: string }) {
   return <div className={cn("-mx-1 my-1 h-px bg-border", className)} />;
 }
 
-function SelectLabel({
+export function SelectLabel({
   className,
   ...props
 }: SelectPrimitive.GroupLabel.Props) {
@@ -107,15 +109,4 @@ function SelectLabel({
   );
 }
 
-const SelectGroup = SelectPrimitive.Group;
-
-export {
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectLabel,
-  SelectSeparator,
-  SelectTrigger,
-  SelectValue,
-};
+export const SelectGroup = SelectPrimitive.Group;

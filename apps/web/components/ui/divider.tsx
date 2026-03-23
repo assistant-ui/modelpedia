@@ -1,6 +1,6 @@
 import { cn } from "@/lib/cn";
 
-function Divider({ className }: { className?: string }) {
+export function Divider({ className }: { className?: string }) {
   return (
     <div
       role="separator"
@@ -11,5 +11,3 @@ function Divider({ className }: { className?: string }) {
     />
   );
 }
-
-export { Divider };

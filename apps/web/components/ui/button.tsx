@@ -3,7 +3,7 @@ import Link from "next/link";
 import { type ComponentProps, forwardRef } from "react";
 import { cn } from "@/lib/cn";
 
-const buttonVariants = cva(
+export const buttonVariants = cva(
   "inline-flex items-center justify-center gap-2 rounded-md font-medium transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
   {
     variants: {
@@ -27,14 +27,10 @@ const buttonVariants = cva(
   },
 );
 
-export { buttonVariants };
-
-// ── Button ──
-
 type ButtonProps = ComponentProps<"button"> &
   VariantProps<typeof buttonVariants>;
 
-const Button = forwardRef<HTMLButtonElement, ButtonProps>(
+export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant, size, ...props }, ref) => (
     <button
       ref={ref}
@@ -45,12 +41,10 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
 );
 Button.displayName = "Button";
 
-// ── ButtonLink (Next.js Link) ──
-
 type ButtonLinkProps = ComponentProps<typeof Link> &
   VariantProps<typeof buttonVariants>;
 
-const ButtonLink = forwardRef<HTMLAnchorElement, ButtonLinkProps>(
+export const ButtonLink = forwardRef<HTMLAnchorElement, ButtonLinkProps>(
   ({ className, variant, size, ...props }, ref) => (
     <Link
       ref={ref}
@@ -61,12 +55,10 @@ const ButtonLink = forwardRef<HTMLAnchorElement, ButtonLinkProps>(
 );
 ButtonLink.displayName = "ButtonLink";
 
-// ── ButtonAnchor (plain <a>) ──
-
 type ButtonAnchorProps = ComponentProps<"a"> &
   VariantProps<typeof buttonVariants>;
 
-const ButtonAnchor = forwardRef<HTMLAnchorElement, ButtonAnchorProps>(
+export const ButtonAnchor = forwardRef<HTMLAnchorElement, ButtonAnchorProps>(
   ({ className, variant, size, ...props }, ref) => (
     <a
       ref={ref}
@@ -76,5 +68,3 @@ const ButtonAnchor = forwardRef<HTMLAnchorElement, ButtonAnchorProps>(
   ),
 );
 ButtonAnchor.displayName = "ButtonAnchor";
-
-export { Button, ButtonAnchor, ButtonLink };

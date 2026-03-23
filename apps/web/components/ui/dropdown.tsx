@@ -4,15 +4,15 @@ import { Menu } from "@base-ui/react/menu";
 import type { ReactElement, ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
-function Dropdown({ children }: { children: ReactNode }) {
+export function Dropdown({ children }: { children: ReactNode }) {
   return <Menu.Root>{children}</Menu.Root>;
 }
 
-function DropdownTrigger({ children }: { children: ReactNode }) {
+export function DropdownTrigger({ children }: { children: ReactNode }) {
   return <Menu.Trigger render={children as ReactElement} />;
 }
 
-function DropdownContent({
+export function DropdownContent({
   children,
   align = "end",
   className,
@@ -37,7 +37,7 @@ function DropdownContent({
   );
 }
 
-function DropdownItem({
+export function DropdownItem({
   children,
   onSelect,
   href,
@@ -55,11 +55,13 @@ function DropdownItem({
       onClick={onSelect}
       render={
         href ? (
-          external ? (
-            <a href={href} target="_blank" rel="noopener noreferrer" />
-          ) : (
-            <a href={href} />
-          )
+          <a
+            href={href}
+            {...(external && {
+              target: "_blank",
+              rel: "noopener noreferrer",
+            })}
+          />
         ) : undefined
       }
       className={cn(
@@ -72,11 +74,11 @@ function DropdownItem({
   );
 }
 
-function DropdownSeparator({ className }: { className?: string }) {
+export function DropdownSeparator({ className }: { className?: string }) {
   return <Menu.Separator className={cn("my-1 h-px bg-border", className)} />;
 }
 
-function DropdownLabel({
+export function DropdownLabel({
   children,
   className,
 }: {
@@ -89,12 +91,3 @@ function DropdownLabel({
     </div>
   );
 }
-
-export {
-  Dropdown,
-  DropdownContent,
-  DropdownItem,
-  DropdownLabel,
-  DropdownSeparator,
-  DropdownTrigger,
-};
