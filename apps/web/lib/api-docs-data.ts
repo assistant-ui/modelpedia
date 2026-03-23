@@ -1,13 +1,22 @@
 export const API_BASE = "https://api.modelpedia.dev";
 
+export interface McpTool {
+  name: string;
+  desc: string;
+  params?: [string, string][];
+}
+
+export interface Endpoint {
+  path: string;
+  desc: string;
+  tryPath: string;
+  params?: [string, string][];
+  mcp?: McpTool;
+}
+
 export const sections: {
   title: string;
-  endpoints: {
-    path: string;
-    desc: string;
-    tryPath: string;
-    params?: [string, string][];
-  }[];
+  endpoints: Endpoint[];
 }[] = [
   {
     title: "Overview",
@@ -16,6 +25,10 @@ export const sections: {
         path: "/v1/stats",
         desc: "Registry statistics: provider, model, family, creator counts.",
         tryPath: `${API_BASE}/v1/stats`,
+        mcp: {
+          name: "get_stats",
+          desc: "Get overall Modelpedia statistics.",
+        },
       },
       {
         path: "/v1/search",
@@ -25,6 +38,14 @@ export const sections: {
           ["q", "Search query (min 2 chars, required)"],
           ["limit", "Max model results (default 20, max 50)"],
         ],
+        mcp: {
+          name: "search",
+          desc: "Search across providers and models by name, ID, or family.",
+          params: [
+            ["q", "Search query (min 2 characters, required)"],
+            ["limit", "Max model results (default 20)"],
+          ],
+        },
       },
     ],
   },
@@ -35,11 +56,20 @@ export const sections: {
         path: "/v1/providers",
         desc: "All providers with model counts.",
         tryPath: `${API_BASE}/v1/providers`,
+        mcp: {
+          name: "list_providers",
+          desc: "List all AI model providers.",
+        },
       },
       {
         path: "/v1/providers/:id",
         desc: "Single provider with full details and models.",
         tryPath: `${API_BASE}/v1/providers/openai`,
+        mcp: {
+          name: "get_provider",
+          desc: "Get detailed information about a specific provider.",
+          params: [["id", "Provider ID (e.g. 'openai', 'anthropic')"]],
+        },
       },
       {
         path: "/v1/providers/compare",
@@ -71,11 +101,36 @@ export const sections: {
           ["limit", "Max 500, default 100"],
           ["offset", "Default 0"],
         ],
+        mcp: {
+          name: "list_models",
+          desc: "List and filter AI models.",
+          params: [
+            ["provider", "Filter by provider ID"],
+            ["family", "Filter by model family"],
+            ["creator", "Filter by creator"],
+            ["status", "active | deprecated | preview"],
+            ["capability", "e.g. 'vision', 'tool_call', 'reasoning'"],
+            ["model_type", "e.g. 'chat', 'embed'"],
+            ["q", "Text search query"],
+            ["sort", "price_input | price_output | context_window | name"],
+            ["order", "asc | desc"],
+            ["limit", "Max results (default 20, max 100)"],
+            ["offset", "Offset for pagination"],
+          ],
+        },
       },
       {
         path: "/v1/models/:provider/:id",
         desc: "Single model details. Supports / in IDs.",
         tryPath: `${API_BASE}/v1/models/openai/gpt-4o`,
+        mcp: {
+          name: "get_model",
+          desc: "Get detailed information about a specific model.",
+          params: [
+            ["provider", "Provider ID (e.g. 'openai')"],
+            ["model_id", "Model ID (e.g. 'gpt-4o')"],
+          ],
+        },
       },
       {
         path: "/v1/models/compare",
@@ -84,6 +139,13 @@ export const sections: {
         params: [
           ["ids", "Comma-separated provider/model IDs (2-10, required)"],
         ],
+        mcp: {
+          name: "compare_models",
+          desc: "Compare multiple models side by side.",
+          params: [
+            ["ids", "Array of model IDs in 'provider/model' format (min 2)"],
+          ],
+        },
       },
       {
         path: "/v1/models/latest",
@@ -108,6 +170,19 @@ export const sections: {
           ["limit", "Max 500, default 100"],
           ["offset", "Default 0"],
         ],
+        mcp: {
+          name: "recommend_models",
+          desc: "Get model recommendations based on requirements.",
+          params: [
+            ["capability", "Array of required capabilities"],
+            ["model_type", "e.g. 'chat', 'embed'"],
+            ["min_context_window", "Minimum context window in tokens"],
+            ["max_price_input", "Max input price per 1M tokens (USD)"],
+            ["input_modality", "text | image | audio | video"],
+            ["output_modality", "text | image | audio | video"],
+            ["limit", "Max results (default 10)"],
+          ],
+        },
       },
       {
         path: "/v1/models/types",
@@ -123,11 +198,19 @@ export const sections: {
         path: "/v1/families",
         desc: "Model families with counts and metadata.",
         tryPath: `${API_BASE}/v1/families`,
+        mcp: {
+          name: "list_families",
+          desc: "List all model families with model counts and associated providers.",
+        },
       },
       {
         path: "/v1/capabilities",
         desc: "All capabilities with model and provider counts.",
         tryPath: `${API_BASE}/v1/capabilities`,
+        mcp: {
+          name: "list_capabilities",
+          desc: "List all available model capabilities with counts.",
+        },
       },
       {
         path: "/v1/creators",
@@ -165,6 +248,18 @@ export const sections: {
           ["limit", "Max 500, default 100"],
           ["offset", "Default 0"],
         ],
+        mcp: {
+          name: "compare_pricing",
+          desc: "Compare pricing across models.",
+          params: [
+            ["ids", "Array of model IDs in 'provider/model' format"],
+            ["min_price_input", "Min input price per 1M tokens"],
+            ["max_price_input", "Max input price per 1M tokens"],
+            ["sort", "price_input (default) | price_output"],
+            ["order", "asc | desc"],
+            ["limit", "Max results (default 20)"],
+          ],
+        },
       },
     ],
   },

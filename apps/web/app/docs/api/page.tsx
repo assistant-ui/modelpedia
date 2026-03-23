@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
-import { ApiEndpoint } from "@/components/shared/api-endpoint";
+import { EndpointCard } from "@/components/shared/endpoint-card";
 import { PageHeader } from "@/components/ui/page-header";
 import { Row } from "@/components/ui/row";
 import { Section } from "@/components/ui/section";
 import { API_BASE, sections } from "@/lib/api-docs-data";
+import { McpSetup } from "./mcp-setup";
 
 export const metadata: Metadata = {
   title: "API",
   description:
-    "REST API reference for querying AI models, providers, and capabilities. JSON, no auth, CORS enabled.",
+    "REST API and MCP server for querying AI models, providers, and capabilities. JSON, no auth, CORS enabled.",
 };
 
 export default function ApiDocsPage() {
@@ -16,13 +17,19 @@ export default function ApiDocsPage() {
     <>
       <PageHeader
         title="API Reference"
-        sub="REST API for querying models, providers, and capabilities"
+        sub="REST API and MCP server for querying models, providers, and capabilities"
       />
       <div className="mb-8 overflow-hidden rounded-md ring-1 ring-border">
         <div className="flex items-center justify-between px-4 py-3">
-          <span className="text-muted-foreground text-sm">Base URL</span>
-          <code className="font-mono text-foreground text-sm">
+          <span className="text-muted-foreground text-sm">REST</span>
+          <code className="truncate font-mono text-foreground text-sm">
             {API_BASE}/v1
+          </code>
+        </div>
+        <div className="flex items-center justify-between gap-4 border-border border-t px-4 py-3">
+          <span className="text-muted-foreground text-sm">MCP</span>
+          <code className="truncate font-mono text-foreground text-sm">
+            {API_BASE}/mcp
           </code>
         </div>
         <div className="flex items-center justify-between border-border border-t px-4 py-3">
@@ -37,16 +44,21 @@ export default function ApiDocsPage() {
         </div>
       </div>
 
+      <Section title="MCP Setup">
+        <McpSetup />
+      </Section>
+
       {sections.map((section) => (
         <Section key={section.title} title={section.title}>
           <div className="space-y-4">
             {section.endpoints.map((ep) => (
-              <ApiEndpoint
+              <EndpointCard
                 key={ep.path}
                 path={ep.path}
                 tryPath={ep.tryPath}
                 description={ep.desc}
                 params={ep.params}
+                mcp={ep.mcp}
               />
             ))}
           </div>
@@ -89,7 +101,7 @@ export default function ApiDocsPage() {
             label="modalities.*"
             value='Array of: "text", "image", "audio", "video"'
           />
-          <Row label="performance / speed" value="1–5 scale" />
+          <Row label="performance / speed" value="1-5 scale" />
           <Row label="status" value='"active" | "deprecated" | "preview"' />
         </div>
       </Section>
@@ -98,7 +110,10 @@ export default function ApiDocsPage() {
         <div className="overflow-hidden rounded-md text-sm ring-1 ring-border">
           <Row label="Auth" value="None required" />
           <Row label="CORS" value="Enabled on all endpoints" />
-          <Row label="Rate limit" value="No rate limit" />
+          <Row
+            label="Rate limit"
+            value="60 requests per minute per IP (REST API only)"
+          />
         </div>
       </Section>
     </>

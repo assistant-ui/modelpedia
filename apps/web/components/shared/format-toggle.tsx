@@ -51,7 +51,7 @@ export function FormatToggle() {
 
   return (
     <>
-      <div className="fixed bottom-20 left-1/2 z-50 -translate-x-1/2 sm:bottom-6">
+      <div className="fixed bottom-20 left-1/2 z-50 hidden -translate-x-1/2 sm:bottom-6 sm:block">
         <button
           onClick={toggleFormat}
           className="flex items-center rounded-md bg-muted text-xs ring-1 ring-border transition-colors duration-200"
