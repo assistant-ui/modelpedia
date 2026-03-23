@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { ModelList } from "@/components/model-list";
+import { ModelList } from "@/components/shared/model-list";
 import { PageHeader } from "@/components/ui/page-header";
-import { PROVIDER_TIER } from "@/lib/constants";
+import { PROVIDER_TYPE_TIER } from "@/lib/constants";
 import { allModels, getProvider } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -20,22 +20,15 @@ export default async function ModelsPage({
     .map((m) => {
       const p = getProvider(m.provider);
       return {
-        id: m.id,
-        name: m.name,
-        provider: m.provider,
-        created_by: m.created_by,
-        family: m.family,
-        status: m.status,
-        model_type: m.model_type,
-        context_window: m.context_window,
-        capabilities: m.capabilities as Record<string, boolean> | undefined,
-        pricing: m.pricing,
+        ...m,
         providerIcon: p?.icon,
+        providerType: p?.type ?? "direct",
       };
     })
     .sort(
       (a, b) =>
-        (PROVIDER_TIER[b.provider] ?? 0) - (PROVIDER_TIER[a.provider] ?? 0),
+        (PROVIDER_TYPE_TIER[b.providerType] ?? 0) -
+        (PROVIDER_TYPE_TIER[a.providerType] ?? 0),
     );
 
   return (

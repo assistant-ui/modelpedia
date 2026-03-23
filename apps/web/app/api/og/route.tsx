@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { Logo } from "@/components/shared/logo";
 import { getModel, getProvider } from "@/lib/data";
 import { formatTokens } from "@/lib/format";
 
@@ -55,11 +56,13 @@ export async function GET(request: Request) {
         .map(([k]) => k.replace(/_/g, " "))
     : [];
 
-  const desc = model.description
-    ? model.description.length > 100
-      ? `${model.description.slice(0, 100)}...`
-      : model.description
-    : null;
+  let desc: string | null = null;
+  if (model.description) {
+    desc =
+      model.description.length > 100
+        ? `${model.description.slice(0, 100)}...`
+        : model.description;
+  }
 
   return new ImageResponse(
     <div
@@ -75,22 +78,7 @@ export async function GET(request: Request) {
       }}
     >
       <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-        <div
-          style={{
-            display: "flex",
-            width: 36,
-            height: 36,
-            borderRadius: 8,
-            background: "#fafafa",
-            alignItems: "center",
-            justifyContent: "center",
-            fontSize: 18,
-            fontWeight: 700,
-            color: "#0a0a0b",
-          }}
-        >
-          M
-        </div>
+        <Logo size={36} color="#fafafa" />
         <div style={{ display: "flex", fontSize: 18, color: "#71717a" }}>
           {`${providerInfo?.name ?? provider} · modelpedia.dev`}
         </div>

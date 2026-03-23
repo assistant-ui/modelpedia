@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
-import { ProviderIcon } from "@/components/provider-icon";
+import { Disclaimer } from "@/components/pages/home/disclaimer";
+import { ProviderGrid } from "@/components/pages/home/provider-grid";
+import { SearchBar } from "@/components/pages/home/search-bar";
+import { StatsGrid } from "@/components/pages/home/stats-grid";
 import { ButtonLink } from "@/components/ui/button";
-import { allModels, providers } from "@/lib/data";
+import { Section } from "@/components/ui/section";
+import { allModels, getProvider, providers } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Open catalog of AI models",
+  title: "modelpedia - Open catalog of AI models",
   description:
     "Browse, compare, and search AI models across providers. Specs, pricing, and capabilities in one place.",
 };
@@ -12,39 +16,59 @@ export const metadata: Metadata = {
 export default function HomePage() {
   const families = new Set(allModels.map((m) => m.family).filter(Boolean));
 
+  const directProviders = [...providers]
+    .filter((p) => p.type === "direct")
+    .sort((a, b) => a.name.localeCompare(b.name));
+
   return (
     <>
-      <div className="mb-10">
-        <h1 className="text-balance font-medium text-2xl text-foreground tracking-tight">
-          modelpedia
-        </h1>
-        <p className="mt-2 text-balance text-muted-foreground leading-relaxed">
-          Open catalog of AI models across providers. Compare specs, pricing,
-          and capabilities.
-        </p>
-
-        <div className="mt-6 grid grid-cols-3 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border">
-          <div className="bg-background px-4 py-4">
-            <div className="font-medium font-mono text-2xl text-foreground">
-              {allModels.length}
-            </div>
-            <div className="mt-1 text-muted-foreground text-xs">Models</div>
-          </div>
-          <div className="bg-background px-4 py-4">
-            <div className="font-medium font-mono text-2xl text-foreground">
-              {providers.length}
-            </div>
-            <div className="mt-1 text-muted-foreground text-xs">Providers</div>
-          </div>
-          <div className="bg-background px-4 py-4">
-            <div className="font-medium font-mono text-2xl text-foreground">
-              {families.size}
-            </div>
-            <div className="mt-1 text-muted-foreground text-xs">Families</div>
-          </div>
+      <div className="mb-10 space-y-6">
+        <div>
+          <h1 className="text-balance font-medium text-2xl text-foreground tracking-tight">
+            modelpedia
+          </h1>
+          <p className="mt-2 text-balance text-muted-foreground leading-relaxed">
+            Open catalog of AI models across providers. Compare specs, pricing,
+            and capabilities.
+          </p>
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
+        <SearchBar
+          items={[
+            ...providers.map((p) => ({
+              id: `p-${p.id}`,
+              name: p.name,
+              href: `/${p.id}`,
+              sub: `${p.models.length} models`,
+              icon: p.icon,
+              type: "provider" as const,
+            })),
+            ...allModels
+              .filter((m) => m.status !== "deprecated" && !m.alias)
+              .map((m) => {
+                const p = getProvider(m.provider);
+                return {
+                  id: `${m.provider}/${m.id}`,
+                  name: m.name,
+                  href: `/${m.provider}/${m.id}`,
+                  sub: p?.name ?? m.provider,
+                  icon: p?.icon,
+                  type: "model" as const,
+                  providerType: (p?.type as string) ?? "direct",
+                };
+              }),
+          ]}
+        />
+
+        <StatsGrid
+          items={[
+            { label: "Models", value: allModels.length },
+            { label: "Providers", value: providers.length },
+            { label: "Families", value: families.size },
+          ]}
+        />
+
+        <div className="flex flex-wrap gap-2">
           <ButtonLink href="/models" size="sm">
             Browse all models
           </ButtonLink>
@@ -60,30 +84,11 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="mb-4 text-muted-foreground text-sm">Providers</div>
-      <div className="grid grid-cols-1 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-2 md:grid-cols-3">
-        {[...providers]
-          .sort((a, b) => a.name.localeCompare(b.name))
-          .map((p) => {
-            return (
-              <a
-                key={p.id}
-                href={`/${p.id}`}
-                className="flex items-center gap-3 bg-background px-4 py-4 transition-colors duration-200 hover:bg-accent"
-              >
-                <ProviderIcon provider={p} size={20} />
-                <div className="min-w-0 flex-1">
-                  <div className="font-medium text-foreground text-sm">
-                    {p.name}
-                  </div>
-                  <div className="text-muted-foreground text-xs">
-                    {p.models.length} models · {p.region}
-                  </div>
-                </div>
-              </a>
-            );
-          })}
-      </div>
+      <Section title="Providers">
+        <ProviderGrid providers={directProviders} total={providers.length} />
+      </Section>
+
+      <Disclaimer />
     </>
   );
 }
