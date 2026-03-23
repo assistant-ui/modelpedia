@@ -17,6 +17,7 @@
     "generate": "pnpm --filter @modelpedia/data generate",
     "validate": "pnpm --filter @modelpedia/data validate",
     "fetch:all": "pnpm --filter @modelpedia/data fetch:all",
+    "cleanup": "bash scripts/cleanup-monorepo.sh",
     "deps:check": "npx taze major -f -r",
     "deps:update": "npx taze major -f -w -r && rm -f pnpm-lock.yaml && pnpm install",
     "prepare": "husky"

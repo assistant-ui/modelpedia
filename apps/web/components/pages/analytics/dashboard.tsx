@@ -1,6 +1,12 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  useSyncExternalStore,
+} from "react";
 import { CapabilityHeatmap } from "@/components/pages/analytics/capability-heatmap";
 import { ContextDistributionChart } from "@/components/pages/analytics/context-distribution";
 import { ContextTimeline } from "@/components/pages/analytics/context-timeline";
@@ -22,10 +28,25 @@ import { Section } from "@/components/ui/section";
 import type { AnalyticsData, Selection } from "@/lib/analytics";
 import { cn } from "@/lib/cn";
 
+const XL = "(min-width: 1280px)";
+function useIsXl() {
+  const subscribe = useCallback((cb: () => void) => {
+    const mql = window.matchMedia(XL);
+    mql.addEventListener("change", cb);
+    return () => mql.removeEventListener("change", cb);
+  }, []);
+  return useSyncExternalStore(
+    subscribe,
+    () => window.matchMedia(XL).matches,
+    () => false,
+  );
+}
+
 export function AnalyticsDashboard({ data }: { data: AnalyticsData }) {
   const [selection, setSelection] = useState<Selection | null>(null);
   const [visible, setVisible] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
+  const isXl = useIsXl();
 
   useEffect(() => {
     if (selection) {
@@ -171,7 +192,7 @@ export function AnalyticsDashboard({ data }: { data: AnalyticsData }) {
         <div
           ref={panelRef}
           className={cn(
-            "fixed top-48 z-30 hidden w-72 transition-all duration-200 xl:block",
+            "fixed top-[13.125rem] z-30 hidden w-72 transition-all duration-200 xl:block",
             visible ? "translate-x-0 opacity-100" : "translate-x-2 opacity-0",
           )}
           style={{ left: "calc(50% + 25rem)" }}
@@ -188,12 +209,12 @@ export function AnalyticsDashboard({ data }: { data: AnalyticsData }) {
 
       {/* Mobile: bottom drawer */}
       <Drawer
-        open={selection !== null}
+        open={!isXl && selection !== null}
         onOpenChange={(open) => {
           if (!open) setSelection(null);
         }}
       >
-        <DrawerContent className="xl:hidden">
+        <DrawerContent>
           {selection && (
             <DetailPanel
               selection={selection}

@@ -75,11 +75,14 @@ export default function HomePage() {
           <ButtonLink href="/compare" size="sm">
             Compare models
           </ButtonLink>
+          <ButtonLink href="/docs/api" size="sm">
+            API Reference
+          </ButtonLink>
           <ButtonLink href="/changes" size="sm">
             Recent changes
           </ButtonLink>
-          <ButtonLink href="/docs/api" size="sm">
-            API Reference
+          <ButtonLink href="/analytics" size="sm">
+            Analytics
           </ButtonLink>
         </div>
       </div>

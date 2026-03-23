@@ -4,6 +4,7 @@ import { allModels, getModel, getProvider, providers } from "@modelpedia/data";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { prettyJSON } from "hono/pretty-json";
+import { handleMcp } from "./mcp";
 
 type Env = {
   Bindings: {
@@ -15,6 +16,9 @@ const api = new Hono<Env>();
 
 // Root → redirect to docs
 api.get("/", (c) => c.redirect("https://modelpedia.dev/docs/api", 302));
+
+// MCP endpoint
+api.all("/mcp", handleMcp);
 
 const app = new Hono<Env>();
 
