@@ -29,14 +29,17 @@ function featuresToCapabilities(
   const t = new Set(tools ?? []);
   const caps: Record<string, boolean> = {};
 
-  if (f.has("streaming")) caps.streaming = true;
-  if (f.has("image_input") || t.has("image_generation")) caps.vision = true;
-  if (f.has("function_calling") || t.has("function_calling"))
-    caps.tool_call = true;
-  if (f.has("structured_outputs")) caps.structured_output = true;
-  if (f.has("json_mode")) caps.json_mode = true;
-  if (f.has("fine_tuning")) caps.fine_tuning = true;
-  if (reasoning) caps.reasoning = true;
+  caps.streaming = f.has("streaming");
+  caps.vision = f.has("image_input") || t.has("image_generation");
+  caps.tool_call = f.has("function_calling") || t.has("function_calling");
+  caps.structured_output = f.has("structured_outputs");
+  caps.json_mode = f.has("json_mode");
+  caps.fine_tuning = f.has("fine_tuning");
+  caps.reasoning = reasoning;
+
+  // Only return explicit true/false when we have authoritative feature data;
+  // when features is undefined (no compare data), return empty so nulls are preserved
+  if (!features) return {};
 
   return caps;
 }
