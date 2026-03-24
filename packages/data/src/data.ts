@@ -117868,7 +117868,7 @@ export const providers: ProviderWithModels[] = [
         "id": "grok-1.5",
         "name": "Grok-1.5",
         "created_by": "xai",
-        "source": "manual",
+        "source": "community",
         "family": "grok-1.5",
         "description": "Grok-1.5 featured a 128K context window (16x increase over Grok-1) and improved reasoning in math and code.",
         "tagline": "128K context with improved reasoning in math and code.",
@@ -117889,13 +117889,14 @@ export const providers: ProviderWithModels[] = [
         },
         "capabilities": {
           "streaming": true
-        }
+        },
+        "last_updated": "2026-03-24"
       },
       {
         "id": "grok-1",
         "name": "Grok-1",
         "created_by": "xai",
-        "source": "manual",
+        "source": "community",
         "family": "grok-1",
         "description": "Grok-1 is a 314B parameter Mixture-of-Experts model open-sourced by xAI under the Apache 2.0 license.",
         "tagline": "314B MoE model, xAI's first open-source release.",
@@ -117919,13 +117920,14 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "fine_tuning": true
-        }
+        },
+        "last_updated": "2026-03-24"
       },
       {
         "id": "grok-2-mini",
         "name": "Grok-2 Mini",
         "created_by": "xai",
-        "source": "manual",
+        "source": "community",
         "family": "grok-2",
         "description": "Grok-2 Mini is a smaller, faster variant of Grok-2 balancing speed and answer quality.",
         "tagline": "Smaller, faster variant of Grok-2.",
@@ -117949,13 +117951,14 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true
-        }
+        },
+        "last_updated": "2026-03-24"
       },
       {
         "id": "grok-2",
         "name": "Grok-2",
         "created_by": "xai",
-        "source": "manual",
+        "source": "community",
         "family": "grok-2",
         "description": "Grok-2 is xAI's frontier model with enhanced reasoning, tool use, and vision capabilities.",
         "tagline": "Frontier model with enhanced reasoning, tool use, and vision.",
@@ -117979,7 +117982,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true
-        }
+        },
+        "last_updated": "2026-03-24"
       },
       {
         "id": "grok-3-mini",

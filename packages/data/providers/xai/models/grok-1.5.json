@@ -2,7 +2,7 @@
   "id": "grok-1.5",
   "name": "Grok-1.5",
   "created_by": "xai",
-  "source": "manual",
+  "source": "community",
   "family": "grok-1.5",
   "description": "Grok-1.5 featured a 128K context window (16x increase over Grok-1) and improved reasoning in math and code.",
   "tagline": "128K context with improved reasoning in math and code.",
@@ -19,5 +19,6 @@
   },
   "capabilities": {
     "streaming": true
-  }
+  },
+  "last_updated": "2026-03-24"
 }

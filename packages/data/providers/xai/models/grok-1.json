@@ -2,7 +2,7 @@
   "id": "grok-1",
   "name": "Grok-1",
   "created_by": "xai",
-  "source": "manual",
+  "source": "community",
   "family": "grok-1",
   "description": "Grok-1 is a 314B parameter Mixture-of-Experts model open-sourced by xAI under the Apache 2.0 license.",
   "tagline": "314B MoE model, xAI's first open-source release.",
@@ -21,5 +21,6 @@
   },
   "capabilities": {
     "streaming": true
-  }
+  },
+  "last_updated": "2026-03-24"
 }
