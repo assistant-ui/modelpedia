@@ -28,14 +28,6 @@ interface HeaderProps {
       sub: string;
       icon?: string;
     }[];
-    models: {
-      type: "model";
-      id: string;
-      name: string;
-      href: string;
-      sub: string;
-      icon?: string;
-    }[];
   };
 }
 
@@ -88,7 +80,6 @@ export function Header({ commandPaletteData }: HeaderProps) {
             href: link.href,
           }))}
           providers={commandPaletteData.providers}
-          models={commandPaletteData.models}
         />
       </div>
     </nav>

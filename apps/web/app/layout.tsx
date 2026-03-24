@@ -4,7 +4,7 @@ import { Footer } from "@/components/shared/footer";
 import { FormatToggle } from "@/components/shared/format-toggle";
 import { Header } from "@/components/shared/header";
 import { cn } from "@/lib/cn";
-import { allModels, getProvider, providers } from "@/lib/data";
+import { providers } from "@/lib/data";
 import { geistMono, geistSans } from "@/styles/font";
 import "@/styles/globals.css";
 import { Provider } from "./provider";
@@ -81,19 +81,6 @@ export default async function RootLayout({
       sub: `${p.models.length} models`,
       icon: p.icon,
     })),
-    models: allModels
-      .filter((m) => m.status !== "deprecated")
-      .map((m) => {
-        const p = getProvider(m.provider);
-        return {
-          type: "model" as const,
-          id: `${m.provider}/${m.id}`,
-          name: m.name,
-          href: `/${m.provider}/${m.id}`,
-          sub: p?.name ?? m.provider,
-          icon: p?.icon,
-        };
-      }),
   };
 
   return (
