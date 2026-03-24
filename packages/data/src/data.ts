@@ -5903,7 +5903,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "An experimental model trained for use with the Responses API computer use tool.",
         "context_window": 8192,
         "max_output_tokens": 1024,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -6215,7 +6215,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Smaller, faster version of GPT-4.1",
         "context_window": 1047576,
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -6249,7 +6249,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Fastest, most cost-efficient version of GPT-4.1",
         "context_window": 1047576,
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -6283,7 +6283,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "gpt-4.1, gpt-4.1-mini, gpt-4.1-nano",
         "context_window": 1047576,
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -6443,7 +6443,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Speech-to-text model powered by GPT-4o mini.",
         "context_window": 16000,
         "max_output_tokens": 2000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -6565,7 +6565,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Speech-to-text model with automatic speech recognition.",
         "context_window": 16000,
         "max_output_tokens": 2000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -6592,7 +6592,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Speech-to-text model powered by GPT-4o.",
         "context_window": 16000,
         "max_output_tokens": 2000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -6627,7 +6627,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Capable Azure OpenAI models with multimodal versions, which can accept both text and images as input.",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -7465,7 +7465,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Most powerful open-weight model, fits into an H100 GPU",
         "context_window": 131072,
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -8767,7 +8767,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Most powerful open-weight model, fits into an H100 GPU",
         "context_window": 131072,
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0"
       },
       {
@@ -8802,7 +8802,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Medium-sized open-weight model for low latency",
         "context_window": 131072,
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0"
       },
       {
@@ -9441,7 +9441,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "description": "\\",
         "tagline": "Most powerful open-weight model, fits into an H100 GPU",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0"
       },
       {
@@ -25959,7 +25959,7 @@ export const providers: ProviderWithModels[] = [
         "description": "GPT base models can understand and generate natural language or code but are not trained with instruction following. These models are made to be replacements for our original GPT-3 base models and use the legacy Completions API. Most customers should use GPT-3.5 or GPT-4.",
         "tagline": "Replacement for the GPT-3 ada and babbage base models",
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
@@ -26006,7 +26006,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4o model used in ChatGPT",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
@@ -26052,7 +26052,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Fast reasoning model optimized for the Codex CLI",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -26110,7 +26110,7 @@ export const providers: ProviderWithModels[] = [
         "description": "GPT base models can understand and generate natural language or code but are not trained with instruction following. These models are made to be replacements for our original GPT-3 base models and use the legacy Completions API. Most customers should use GPT-3.5 or GPT-4.",
         "tagline": "Replacement for the GPT-3 curie and davinci base models",
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
@@ -26197,7 +26197,7 @@ export const providers: ProviderWithModels[] = [
         },
         "context_window": 16385,
         "max_output_tokens": 4096,
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -26254,7 +26254,7 @@ export const providers: ProviderWithModels[] = [
         },
         "context_window": 16385,
         "max_output_tokens": 4096,
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -26313,7 +26313,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Legacy GPT model for cheaper chat and non-chat tasks",
         "context_window": 16385,
         "max_output_tokens": 4096,
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -26393,7 +26393,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "An older model only compatible with the legacy Completions endpoint",
         "context_window": 4096,
         "max_output_tokens": 4096,
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -26430,7 +26430,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Legacy GPT model for cheaper chat and non-chat tasks",
         "context_window": 16385,
         "max_output_tokens": 4096,
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -26568,7 +26568,7 @@ export const providers: ProviderWithModels[] = [
         },
         "context_window": 8192,
         "max_output_tokens": 8192,
-        "knowledge_cutoff": "2023-11",
+        "knowledge_cutoff": "2023-12",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -26625,7 +26625,7 @@ export const providers: ProviderWithModels[] = [
         },
         "context_window": 128000,
         "max_output_tokens": 4096,
-        "knowledge_cutoff": "2023-11",
+        "knowledge_cutoff": "2023-12",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -26748,7 +26748,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model.",
         "context_window": 128000,
         "max_output_tokens": 4096,
-        "knowledge_cutoff": "2023-11",
+        "knowledge_cutoff": "2023-12",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -26811,7 +26811,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "An older high-intelligence GPT model",
         "context_window": 128000,
         "max_output_tokens": 4096,
-        "knowledge_cutoff": "2023-11",
+        "knowledge_cutoff": "2023-12",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -26870,7 +26870,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4.1 excels at instruction following and tool calling, with broad",
         "context_window": 1047576,
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -26908,7 +26908,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4.1 mini excels at instruction following and tool calling.",
         "context_window": 1047576,
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -26946,7 +26946,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Smaller, faster version of GPT-4.1",
         "context_window": 1047576,
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -26984,7 +26984,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4.1 nano excels at instruction following and tool calling.",
         "context_window": 1047576,
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27022,7 +27022,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Fastest, most cost-efficient version of GPT-4.1",
         "context_window": 1047576,
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27060,7 +27060,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Smartest non-reasoning model",
         "context_window": 1047576,
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27140,7 +27140,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Deprecated - a research preview of GPT-4.5.",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27178,7 +27178,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Deprecated large model.",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27216,7 +27216,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "An older high-intelligence GPT model",
         "context_window": 8192,
         "max_output_tokens": 8192,
-        "knowledge_cutoff": "2023-11",
+        "knowledge_cutoff": "2023-12",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27254,7 +27254,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "context_window": 128000,
         "max_output_tokens": 4096,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27292,7 +27292,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27330,7 +27330,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27368,7 +27368,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4o models capable of audio inputs and outputs",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27426,7 +27426,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27464,7 +27464,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API.",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27501,7 +27501,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Fast, affordable small model for web search",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27538,7 +27538,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Fast, affordable small model for focused tasks",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27589,7 +27589,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-4o Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API.",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27626,7 +27626,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT model for web search in Chat Completions",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -27663,7 +27663,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Fast, intelligent, flexible GPT model",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29227,7 +29227,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "A cost-efficient version of GPT Audio",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29264,7 +29264,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "For audio inputs and outputs with Chat Completions API",
         "context_window": 128000,
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29323,7 +29323,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Most powerful open-weight model, fits into an H100 GPU",
         "context_window": 131072,
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0",
         "open_weight": true,
         "capabilities": {
@@ -29379,7 +29379,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Medium-sized open-weight model for low latency",
         "context_window": 131072,
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0",
         "open_weight": true,
         "capabilities": {
@@ -29439,7 +29439,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "The o1 series of models are trained with reinforcement learning to perform complex reasoning.",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29498,7 +29498,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "The o1 reasoning model is designed to solve hard problems across domains.",
         "context_window": 128000,
         "max_output_tokens": 65536,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29535,7 +29535,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "A small model alternative to o1",
         "context_window": 128000,
         "max_output_tokens": 65536,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29572,7 +29572,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning.",
         "context_window": 128000,
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29609,7 +29609,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Preview of our first o-series reasoning model",
         "context_window": 128000,
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29646,7 +29646,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Version of o1 with more compute for better responses",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29684,7 +29684,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Previous full o-series reasoning model",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29722,7 +29722,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "o3 is a well-rounded and powerful model across domains.",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29760,7 +29760,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "o3-deep-research is our most advanced model for deep research,",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29798,7 +29798,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Our most powerful deep research model",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29836,7 +29836,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "o3-mini is our newest small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini.",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29916,7 +29916,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "A small model alternative to o3",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29954,7 +29954,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "The o-series of models are trained with reinforcement learning to think",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -29992,7 +29992,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Version of o3 with more compute for better responses",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -30030,7 +30030,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Reasoning model for complex tasks, succeeded by GPT-5",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -30068,7 +30068,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "o4-mini is our latest small o-series model.",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -30106,7 +30106,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "o4-mini-deep-research is our faster, more affordable deep",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -30144,7 +30144,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Faster, more affordable deep research model",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -30224,7 +30224,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Fast, cost-efficient reasoning model, succeeded by GPT-5 mini",
         "context_window": 200000,
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -30467,7 +30467,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "license": "proprietary",
         "open_weight": false
       },
@@ -54288,7 +54288,7 @@ export const providers: ProviderWithModels[] = [
         "description": "\\",
         "tagline": "Most powerful open-weight model, fits into an H100 GPU",
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -54329,7 +54329,7 @@ export const providers: ProviderWithModels[] = [
         "description": "\\",
         "tagline": "Medium-sized open-weight model for low latency",
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -61975,7 +61975,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "description": "\\",
         "tagline": "Most powerful open-weight model, fits into an H100 GPU",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -62020,7 +62020,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "description": "\\",
         "tagline": "Medium-sized open-weight model for low latency",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -62427,7 +62427,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Meta-Llama-3-8B-Instruct-abliterated-v3",
         "created_by": "failspy",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-03-24",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -62446,7 +62446,15 @@ export const providers: ProviderWithModels[] = [
         "open_weight": true,
         "tools": [
           "function_calling"
-        ]
+        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       },
       {
         "id": "Featherless-Chat-Models/Mistral-7B-Instruct-v0.2",
@@ -63378,7 +63386,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05"
+        "knowledge_cutoff": "2024-06"
       },
       {
         "id": "openai/gpt-oss-20b",
@@ -63419,7 +63427,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05"
+        "knowledge_cutoff": "2024-06"
       },
       {
         "id": "openai/gpt-oss-safeguard-20b",
@@ -74268,7 +74276,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Most powerful open-weight model, fits into an H100 GPU",
         "context_window": 131072,
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -74303,7 +74311,7 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Medium-sized open-weight model for low latency",
         "context_window": 131072,
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -76133,7 +76141,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "description": "GPT base models can understand and generate natural language or code but are not trained with instruction following. These models are made to be replacements for our original GPT-3 base models and use the legacy Completions API. Most customers should use GPT-3.5 or GPT-4.",
         "status": "deprecated",
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "max_output_tokens": 16384,
         "model_type": "chat",
         "performance": 1,
@@ -76238,7 +76246,7 @@ export const providers: ProviderWithModels[] = [
         "family": "chatgpt",
         "description": "ChatGPT-4o points to the GPT-4o snapshot currently used in ChatGPT. We recommend using an API model like [GPT-5](/api/docs/models/gpt-5) or [GPT-4o](/api/docs/models/gpt-4o) for most API integrations, but feel free to use this ChatGPT-4o model to test our latest improvements for chat use cases.",
         "status": "deprecated",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -76465,7 +76473,7 @@ export const providers: ProviderWithModels[] = [
         "family": "codex",
         "description": "codex-mini-latest is a fine-tuned version of o4-mini specifically",
         "status": "deprecated",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "reasoning_tokens": true,
@@ -76539,7 +76547,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "description": "The computer-use-preview model is a specialized model for the computer use",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 8192,
         "max_output_tokens": 1024,
         "reasoning_tokens": true,
@@ -76623,7 +76631,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "description": "The computer-use-preview model is a specialized model for the computer use",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 8192,
         "max_output_tokens": 1024,
         "reasoning_tokens": true,
@@ -76841,7 +76849,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "description": "GPT base models can understand and generate natural language or code but are not trained with instruction following. These models are made to be replacements for our original GPT-3 base models and use the legacy Completions API. Most customers should use GPT-3.5 or GPT-4.",
         "status": "deprecated",
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "max_output_tokens": 16384,
         "model_type": "chat",
         "performance": 1,
@@ -76983,7 +76991,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "family": "gpt-3.5",
         "status": "active",
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "context_window": 16385,
         "max_output_tokens": 4096,
         "performance": 1,
@@ -77022,7 +77030,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "family": "gpt-3.5",
         "status": "active",
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "context_window": 16385,
         "max_output_tokens": 4096,
         "performance": 1,
@@ -77064,7 +77072,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "family": "gpt-3.5",
         "status": "active",
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "context_window": 16385,
         "max_output_tokens": 4096,
         "performance": 1,
@@ -77106,7 +77114,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-3.5",
         "description": "GPT-3.5 Turbo models can understand and generate natural language or code and have been optimized for chat using the Chat Completions API but work well for non-chat tasks as well. As of July 2024, use gpt-4o-mini in place of GPT-3.5 Turbo, as it is cheaper, more capable, multimodal, and just as fast. GPT-3.5 Turbo is still available for use in the API.",
         "status": "active",
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "context_window": 16385,
         "max_output_tokens": 4096,
         "model_type": "chat",
@@ -77184,7 +77192,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-3.5",
         "description": "Similar capabilities as GPT-3 era models. Compatible with legacy Completions endpoint and not Chat Completions.",
         "status": "deprecated",
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "context_window": 4096,
         "max_output_tokens": 4096,
         "model_type": "chat",
@@ -77251,7 +77259,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-3.5",
         "description": "GPT-3.5 Turbo models can understand and generate natural language or code and have been optimized for chat using the Chat Completions API but work well for non-chat tasks as well. As of July 2024, use gpt-4o-mini in place of GPT-3.5 Turbo, as it is cheaper, more capable, multimodal, and just as fast. GPT-3.5 Turbo is still available for use in the API.",
         "status": "active",
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "context_window": 16385,
         "max_output_tokens": 4096,
         "model_type": "chat",
@@ -77362,7 +77370,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "family": "gpt-4",
         "status": "active",
-        "knowledge_cutoff": "2023-11",
+        "knowledge_cutoff": "2023-12",
         "context_window": 8192,
         "max_output_tokens": 8192,
         "performance": 2,
@@ -77405,7 +77413,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "family": "gpt-4",
         "status": "active",
-        "knowledge_cutoff": "2023-11",
+        "knowledge_cutoff": "2023-12",
         "context_window": 128000,
         "max_output_tokens": 4096,
         "performance": 2,
@@ -77499,7 +77507,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "family": "gpt-4-turbo",
         "status": "active",
-        "knowledge_cutoff": "2023-11",
+        "knowledge_cutoff": "2023-12",
         "context_window": 128000,
         "max_output_tokens": 4096,
         "alias": "gpt-4-turbo",
@@ -77609,7 +77617,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "family": "gpt-4-turbo",
         "status": "active",
-        "knowledge_cutoff": "2023-11",
+        "knowledge_cutoff": "2023-12",
         "context_window": 128000,
         "max_output_tokens": 4096,
         "performance": 2,
@@ -77695,7 +77703,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4.1",
         "description": "GPT-4.1 excels at instruction following and tool calling, with broad",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 1047576,
         "max_output_tokens": 32768,
         "model_type": "chat",
@@ -77785,7 +77793,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4.1",
         "description": "GPT-4.1 mini excels at instruction following and tool calling. It features a",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 1047576,
         "max_output_tokens": 32768,
         "model_type": "chat",
@@ -77875,7 +77883,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4.1",
         "description": "GPT-4.1 mini excels at instruction following and tool calling. It features a",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 1047576,
         "max_output_tokens": 32768,
         "model_type": "chat",
@@ -77967,7 +77975,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4.1",
         "description": "GPT-4.1 nano excels at instruction following and tool calling. It features a",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 1047576,
         "max_output_tokens": 32768,
         "model_type": "chat",
@@ -78057,7 +78065,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4.1",
         "description": "GPT-4.1 nano excels at instruction following and tool calling. It features a",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 1047576,
         "max_output_tokens": 32768,
         "model_type": "chat",
@@ -78149,7 +78157,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4.1",
         "description": "GPT-4.1 excels at instruction following and tool calling, with broad",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 1047576,
         "max_output_tokens": 32768,
         "model_type": "chat",
@@ -78240,7 +78248,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "description": "Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -78326,7 +78334,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "description": "Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -78415,7 +78423,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4",
         "description": "GPT-4 is an older version of a high-intelligence GPT model, usable in Chat Completions.",
         "status": "active",
-        "knowledge_cutoff": "2023-11",
+        "knowledge_cutoff": "2023-12",
         "context_window": 8192,
         "max_output_tokens": 8192,
         "model_type": "chat",
@@ -78497,7 +78505,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 4096,
         "model_type": "chat",
@@ -78583,7 +78591,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -78673,7 +78681,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -78762,7 +78770,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "This is a preview release of the GPT-4o Audio models. These models accept",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -78853,7 +78861,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "This is a preview release of the GPT-4o Audio models. These models accept",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -78944,7 +78952,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "This is a preview release of the GPT-4o Audio models. These models accept",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -79035,7 +79043,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "This is a preview release of the GPT-4o Audio models. These models accept",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -79130,7 +79138,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -79220,7 +79228,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "This is a preview release of the smaller GPT-4o Audio mini model. It's designed to input audio or create audio outputs via the REST API.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -79311,7 +79319,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "This is a preview release of the smaller GPT-4o Audio mini model. It's designed to input audio or create audio outputs via the REST API.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -79404,7 +79412,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "This is a preview release of the GPT-4o-mini Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 16000,
         "max_output_tokens": 4096,
         "alias": "gpt-4o-mini-realtime-preview",
@@ -79496,7 +79504,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "This is a preview release of the GPT-4o-mini Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 16000,
         "max_output_tokens": 4096,
         "performance": 2,
@@ -79590,7 +79598,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "alias": "gpt-4o-mini-search-preview",
@@ -79657,7 +79665,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "performance": 2,
@@ -79725,7 +79733,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "family": "gpt-4o",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 16000,
         "max_output_tokens": 2000,
         "model_type": "transcription",
@@ -79804,7 +79812,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "family": "gpt-4o",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 16000,
         "max_output_tokens": 2000,
         "model_type": "transcription",
@@ -79883,7 +79891,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "family": "gpt-4o",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 16000,
         "max_output_tokens": 2000,
         "model_type": "transcription",
@@ -80188,7 +80196,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -80280,7 +80288,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 16000,
         "max_output_tokens": 4096,
         "alias": "gpt-4o-realtime-preview",
@@ -80372,7 +80380,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 16000,
         "max_output_tokens": 4096,
         "alias": "gpt-4o-realtime-preview",
@@ -80464,7 +80472,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 32000,
         "max_output_tokens": 4096,
         "alias": "gpt-4o-realtime-preview",
@@ -80556,7 +80564,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 32000,
         "max_output_tokens": 4096,
         "performance": 3,
@@ -80652,7 +80660,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "GPT-4o Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "alias": "gpt-4o-search-preview",
@@ -80719,7 +80727,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "GPT-4o Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "performance": 3,
@@ -80788,7 +80796,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "GPT-4o Transcribe Diarize is an automatic speech recognition (ASR) model with built-in speaker diarization, meaning it associates audio segments with different speakers in a conversation. This model is only available in the Transcription API.",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 16000,
         "max_output_tokens": 2000,
         "model_type": "transcription",
@@ -80867,7 +80875,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "GPT-4o Transcribe is a speech-to-text model that uses GPT-4o to transcribe audio.",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 16000,
         "max_output_tokens": 2000,
         "model_type": "transcription",
@@ -80947,7 +80955,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-4o",
         "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -84121,7 +84129,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-audio",
         "description": "The gpt-audio model is our first generally available audio model. It accepts",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -84212,7 +84220,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-audio",
         "description": "A cost-efficient version of GPT Audio. It accepts audio inputs and outputs, and can be used in the Chat Completions REST API.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -84303,7 +84311,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-audio",
         "description": "A cost-efficient version of GPT Audio. It accepts audio inputs and outputs, and can be used in the Chat Completions REST API.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -84394,7 +84402,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-audio",
         "description": "A cost-efficient version of GPT Audio. It accepts audio inputs and outputs, and can be used in the Chat Completions REST API.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -84488,7 +84496,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-audio",
         "description": "The gpt-audio model is our first generally available audio model. It accepts",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 16384,
         "model_type": "chat",
@@ -85084,7 +85092,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-oss",
         "description": "\\",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 131072,
         "max_output_tokens": 131072,
         "model_type": "reasoning",
@@ -85138,7 +85146,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-oss",
         "description": "\\",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 131072,
         "max_output_tokens": 131072,
         "model_type": "reasoning",
@@ -85305,7 +85313,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-realtime",
         "description": "This is our first general-availability realtime model, capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 32000,
         "max_output_tokens": 4096,
         "alias": "gpt-realtime",
@@ -85417,7 +85425,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-realtime",
         "description": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 32000,
         "max_output_tokens": 4096,
         "alias": "gpt-realtime-mini",
@@ -85529,7 +85537,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-realtime",
         "description": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 32000,
         "max_output_tokens": 4096,
         "alias": "gpt-realtime-mini",
@@ -85641,7 +85649,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-realtime",
         "description": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 32000,
         "max_output_tokens": 4096,
         "performance": 4,
@@ -85756,7 +85764,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gpt-realtime",
         "description": "This is our first general-availability realtime model, capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 32000,
         "max_output_tokens": 4096,
         "performance": 5,
@@ -85870,7 +85878,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o1",
         "description": "The o1 series of models are trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "reasoning",
@@ -85958,7 +85966,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o1",
         "description": "The o1 reasoning model is designed to solve hard problems across domains. o1-mini is a faster and more affordable reasoning model, but we recommend using the newer o3-mini model that features higher intelligence at the same latency and price as o1-mini.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 65536,
         "model_type": "reasoning",
@@ -86039,7 +86047,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o1",
         "description": "The o1 reasoning model is designed to solve hard problems across domains. o1-mini is a faster and more affordable reasoning model, but we recommend using the newer o3-mini model that features higher intelligence at the same latency and price as o1-mini.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 65536,
         "model_type": "reasoning",
@@ -86127,7 +86135,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "family": "o1",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 32768,
         "model_type": "reasoning",
@@ -86175,7 +86183,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "family": "o1",
         "status": "deprecated",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 128000,
         "max_output_tokens": 32768,
         "model_type": "reasoning",
@@ -86227,7 +86235,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o1",
         "description": "The o1 series of models are trained with reinforcement learning to think",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "reasoning",
@@ -86312,7 +86320,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o1",
         "description": "The o1 series of models are trained with reinforcement learning to think",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "reasoning",
@@ -86399,7 +86407,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o1",
         "description": "The o1 series of models are trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "reasoning",
@@ -86489,7 +86497,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o3",
         "description": "o3 is a well-rounded and powerful model across domains. It sets a new",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "reasoning",
@@ -86584,7 +86592,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o3",
         "description": "o3-deep-research is our most advanced model for deep research,",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "chat",
@@ -86667,7 +86675,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o3",
         "description": "o3-deep-research is our most advanced model for deep research,",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "chat",
@@ -86757,7 +86765,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o3",
         "description": "o3-mini is our newest small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini. o3-mini supports key developer features, like Structured Outputs, function calling, and Batch API.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "reasoning",
@@ -86844,7 +86852,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o3",
         "description": "o3-mini is our newest small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini. o3-mini supports key developer features, like Structured Outputs, function calling, and Batch API.",
         "status": "active",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "reasoning",
@@ -86933,7 +86941,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o3",
         "description": "The o-series of models are trained with reinforcement learning to think",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "reasoning",
@@ -87018,7 +87026,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o3",
         "description": "The o-series of models are trained with reinforcement learning to think",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "reasoning",
@@ -87105,7 +87113,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o3",
         "description": "o3 is a well-rounded and powerful model across domains. It sets a new",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "reasoning",
@@ -87202,7 +87210,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o4",
         "description": "o4-mini is our latest small o-series model. It's optimized for fast,",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "reasoning",
@@ -87293,7 +87301,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o4",
         "description": "o4-mini-deep-research is our faster, more affordable deep",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "chat",
@@ -87376,7 +87384,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o4",
         "description": "o4-mini-deep-research is our faster, more affordable deep",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "chat",
@@ -87466,7 +87474,7 @@ export const providers: ProviderWithModels[] = [
         "family": "o4",
         "description": "o4-mini is our latest small o-series model. It's optimized for fast,",
         "status": "active",
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "context_window": 200000,
         "max_output_tokens": 100000,
         "model_type": "reasoning",
@@ -88154,7 +88162,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-24",
         "status": "active",
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "max_output_tokens": 32768,
         "model_type": "moderation",
         "performance": 2,
@@ -88183,7 +88191,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "description": "Moderation models are free models designed to detect harmful content. This is our text only moderation model; we expect omni-moderation-* models to be the best default moving forward.",
         "status": "deprecated",
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "max_output_tokens": 32768,
         "model_type": "moderation",
         "performance": 2,
@@ -88236,7 +88244,7 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-03-24",
         "description": "Moderation models are free models designed to detect harmful content. This is our text only moderation model; we expect omni-moderation-* models to be the best default moving forward.",
         "status": "deprecated",
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "max_output_tokens": 32768,
         "model_type": "moderation",
         "performance": 2,
@@ -96190,7 +96198,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "license": "proprietary",
         "open_weight": false
       },
@@ -96262,7 +96270,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "release_date": "2023-09-28",
         "tagline": "This model is a variant of GPT-3.5 Turbo tuned for instructional prompts and omitting chat-related optimizations.",
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "license": "proprietary",
         "open_weight": false
       },
@@ -96304,7 +96312,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "license": "proprietary",
         "open_weight": false
       },
@@ -96451,7 +96459,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2023-11",
+        "knowledge_cutoff": "2023-12",
         "license": "proprietary",
         "open_weight": false
       },
@@ -96495,7 +96503,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -96539,7 +96547,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -96583,7 +96591,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -96625,7 +96633,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2023-11",
+        "knowledge_cutoff": "2023-12",
         "license": "proprietary",
         "open_weight": false
       },
@@ -96670,7 +96678,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -96715,7 +96723,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -96760,7 +96768,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -96803,7 +96811,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -96883,7 +96891,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -96921,7 +96929,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "release_date": "2025-03-12",
         "tagline": "GPT-4o mini Search Preview is a specialized model for web search in Chat Completions.",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -96968,7 +96976,7 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "openai/gpt-4o-mini-2024-07-18"
         ],
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -97006,7 +97014,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "release_date": "2025-03-12",
         "tagline": "GPT-4o Search Previewis a specialized model for web search in Chat Completions.",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -97055,7 +97063,7 @@ export const providers: ProviderWithModels[] = [
           "openai/gpt-4o-2024-08-06",
           "openai/gpt-4o-2024-05-13"
         ],
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -98056,7 +98064,7 @@ export const providers: ProviderWithModels[] = [
         "release_date": "2026-01-19",
         "tagline": "A cost-efficient version of GPT Audio.",
         "model_type": "chat",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -98096,7 +98104,7 @@ export const providers: ProviderWithModels[] = [
         "release_date": "2026-01-19",
         "tagline": "The gpt-audio model is OpenAI's first generally available audio model.",
         "model_type": "chat",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -98168,7 +98176,7 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -98241,7 +98249,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -98318,7 +98326,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "reasoning",
         "release_date": "2025-03-19",
         "tagline": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning.",
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -98362,7 +98370,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -98406,7 +98414,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -98485,7 +98493,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -98528,7 +98536,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -98572,7 +98580,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -98616,7 +98624,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -98697,7 +98705,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -106831,7 +106839,7 @@ export const providers: ProviderWithModels[] = [
         "description": "\\",
         "tagline": "Most powerful open-weight model, fits into an H100 GPU",
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -111564,7 +111572,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Similar capabilities as GPT-3 era models. Compatible with legacy Completions endpoint and not Chat Completions.",
         "tagline": "An older model only compatible with the legacy Completions endpoint",
         "max_output_tokens": 4096,
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "license": "proprietary",
         "open_weight": false
       },
@@ -111602,7 +111610,7 @@ export const providers: ProviderWithModels[] = [
         "description": "GPT-3.5 Turbo models can understand and generate natural language or code and have been optimized for chat using the Chat Completions API but work well for non-chat tasks as well. As of July 2024, use gpt-4o-mini in place of GPT-3.5 Turbo, as it is cheaper, more capable, multimodal, and just as fast. GPT-3.5 Turbo is still available for use in the API.",
         "tagline": "Legacy GPT model for cheaper chat and non-chat tasks",
         "max_output_tokens": 4096,
-        "knowledge_cutoff": "2021-08",
+        "knowledge_cutoff": "2021-09",
         "license": "proprietary",
         "open_weight": false
       },
@@ -111643,7 +111651,7 @@ export const providers: ProviderWithModels[] = [
         "description": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model. It was designed to be a cheaper, better version of GPT-4. Today, we recommend using a newer model like GPT-4o.",
         "tagline": "An older high-intelligence GPT model",
         "max_output_tokens": 4096,
-        "knowledge_cutoff": "2023-11",
+        "knowledge_cutoff": "2023-12",
         "license": "proprietary",
         "open_weight": false
       },
@@ -111684,7 +111692,7 @@ export const providers: ProviderWithModels[] = [
         "description": "GPT-4.1 mini excels at instruction following and tool calling. It features a",
         "tagline": "Smaller, faster version of GPT-4.1",
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -111725,7 +111733,7 @@ export const providers: ProviderWithModels[] = [
         "description": "GPT-4.1 nano excels at instruction following and tool calling. It features a",
         "tagline": "Fastest, most cost-efficient version of GPT-4.1",
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -111766,7 +111774,7 @@ export const providers: ProviderWithModels[] = [
         "description": "GPT-4.1 excels at instruction following and tool calling, with broad",
         "tagline": "Smartest non-reasoning model",
         "max_output_tokens": 32768,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -111803,7 +111811,7 @@ export const providers: ProviderWithModels[] = [
         "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
         "tagline": "Fast, affordable small model for web search",
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -111844,7 +111852,7 @@ export const providers: ProviderWithModels[] = [
         "description": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
         "tagline": "Fast, affordable small model for focused tasks",
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -111885,7 +111893,7 @@ export const providers: ProviderWithModels[] = [
         "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "tagline": "Fast, intelligent, flexible GPT model",
         "max_output_tokens": 16384,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -112834,7 +112842,7 @@ export const providers: ProviderWithModels[] = [
         "description": "\\",
         "tagline": "Most powerful open-weight model, fits into an H100 GPU",
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -112876,7 +112884,7 @@ export const providers: ProviderWithModels[] = [
         "description": "\\",
         "tagline": "Medium-sized open-weight model for low latency",
         "max_output_tokens": 131072,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -112948,7 +112956,7 @@ export const providers: ProviderWithModels[] = [
         "description": "The o1 series of models are trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
         "tagline": "Previous full o-series reasoning model",
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -112989,7 +112997,7 @@ export const providers: ProviderWithModels[] = [
         "description": "o3-deep-research is our most advanced model for deep research,",
         "tagline": "Our most powerful deep research model",
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -113030,7 +113038,7 @@ export const providers: ProviderWithModels[] = [
         "description": "o3-mini is our newest small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini. o3-mini supports key developer features, like Structured Outputs, function calling, and Batch API.",
         "tagline": "A small model alternative to o3",
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2023-09",
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -113071,7 +113079,7 @@ export const providers: ProviderWithModels[] = [
         "description": "The o-series of models are trained with reinforcement learning to think",
         "tagline": "Version of o3 with more compute for better responses",
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -113112,7 +113120,7 @@ export const providers: ProviderWithModels[] = [
         "description": "o3 is a well-rounded and powerful model across domains. It sets a new",
         "tagline": "Reasoning model for complex tasks, succeeded by GPT-5",
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -113153,7 +113161,7 @@ export const providers: ProviderWithModels[] = [
         "description": "o4-mini is our latest small o-series model. It's optimized for fast,",
         "tagline": "Fast, cost-efficient reasoning model, succeeded by GPT-5 mini",
         "max_output_tokens": 100000,
-        "knowledge_cutoff": "2024-05",
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },

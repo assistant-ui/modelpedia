@@ -3,14 +3,15 @@
   "name": "Meta-Llama-3-8B-Instruct-abliterated-v3",
   "created_by": "failspy",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "f6a812f8",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "family": "a18f0819",
     "model_type": "d669f408",
     "parameters": "c9f0f895",
@@ -22,7 +23,8 @@
     "tagline": "f6571125",
     "architecture": "8832ea0f",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "modalities": "68e53d93"
   },
   "family": "Llama-3",
   "model_type": "chat",
@@ -35,5 +37,9 @@
   "tagline": "[My Jupyter \"cookbook\" to replicate the methodology can be found here, refined library coming soon](https://huggingface.co/failspy/llama-3-70B-Instruct-abliterated/blob/main/ortho_cookbook.ipynb)",
   "architecture": "transformer",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }
