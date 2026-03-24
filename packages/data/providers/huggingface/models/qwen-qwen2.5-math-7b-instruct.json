@@ -3,14 +3,15 @@
   "name": "Qwen2.5-Math-7B-Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "fdb0f91c",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "model_type": "d669f408",
     "parameters": "5960276c",
     "page_url": "a654cf92",

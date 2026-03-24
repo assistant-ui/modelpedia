@@ -3,7 +3,7 @@
   "name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "llama-3.3",
   "description": "Llama-3.3-Nemotron-Super-49B-v1.5 is a 49B-parameter, English-centric reasoning/chat model derived from Meta’s Llama-3.3-70B-Instruct with a 128K context.",
   "context_window": 131072,
@@ -14,7 +14,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.1,
@@ -26,7 +27,7 @@
     "description": "694c076a",
     "context_window": "f7de594e",
     "modalities": "68e53d93",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "aa5a4e42",
     "model_type": "d669f408",
     "parameters": "f457c545",

@@ -3,7 +3,7 @@
   "name": "Xiaomi: MiMo-V2-Omni",
   "created_by": "xiaomi",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "description": "MiMo-V2-Omni is a frontier omni-modal model that natively processes image, video, and audio inputs within a unified architecture.",
   "context_window": 262144,
   "max_output_tokens": 65536,
@@ -14,7 +14,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.4,
@@ -27,7 +28,7 @@
     "context_window": "4a1d32eb",
     "max_output_tokens": "297ce0b3",
     "modalities": "fa4eeb00",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "77c4b8ce",
     "release_date": "e6131053",
     "tagline": "5e6a6714",

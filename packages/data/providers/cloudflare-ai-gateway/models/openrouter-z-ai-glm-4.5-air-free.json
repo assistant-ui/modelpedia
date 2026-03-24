@@ -3,10 +3,17 @@
   "name": "OpenRouter: z-ai/glm-4.5-air:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "_generated": {
-    "name": "836db2d1"
+    "name": "836db2d1",
+    "family": "e8ea1e1e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "glm-4.5",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

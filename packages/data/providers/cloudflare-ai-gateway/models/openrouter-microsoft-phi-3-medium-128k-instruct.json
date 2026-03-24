@@ -3,7 +3,7 @@
   "name": "OpenRouter: microsoft/phi-3-medium-128k-instruct",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 1,
     "output": 1
@@ -11,7 +11,12 @@
   "_generated": {
     "name": "a96896c6",
     "pricing": "5418a9a1",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

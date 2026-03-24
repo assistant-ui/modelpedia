@@ -3,7 +3,7 @@
   "name": "Azure OpenAI: claude-opus-4-1",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "claude-opus",
   "pricing": {
     "input": 15,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "d7024da6",
     "family": "4e4c4b18",
-    "pricing": "678b0410"
+    "pricing": "678b0410",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,14 +3,15 @@
   "name": "qwen3.5-397b-a17b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen3.5",
   "context_window": 262144,
   "max_output_tokens": 81920,
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
-    "reasoning": true
+    "reasoning": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -23,7 +24,7 @@
     "context_window": "4a1d32eb",
     "max_output_tokens": "7e248a40",
     "model_type": "d669f408",
-    "capabilities": "b011c6b4",
+    "capabilities": "034b2f91",
     "modalities": "68e53d93",
     "endpoints": "75df3f1c",
     "license": "60245731",

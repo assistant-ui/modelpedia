@@ -3,7 +3,7 @@
   "name": "Mistral: magistral-medium-2506:thinking",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "model_type": "reasoning",
   "pricing": {
     "input": 2,
@@ -13,7 +13,12 @@
     "name": "ac77f981",
     "model_type": "17475f7f",
     "pricing": "383111d1",
-    "family": "b2c75a88"
+    "family": "b2c75a88",
+    "modalities": "68e53d93"
   },
-  "family": "magistral"
+  "family": "magistral",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

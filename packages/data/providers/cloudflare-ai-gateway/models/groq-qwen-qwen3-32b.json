@@ -3,7 +3,7 @@
   "name": "Groq: qwen/qwen3-32b",
   "created_by": "groq",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "qwen3",
   "pricing": {
     "input": 0.29,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "9ac37658",
     "family": "48c385a0",
-    "pricing": "7d5458b9"
+    "pricing": "7d5458b9",
+    "model_type": "d669f408",
+    "parameters": "6364d3f0",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 32
+  "parameters": 32,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

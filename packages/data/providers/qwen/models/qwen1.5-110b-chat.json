@@ -3,13 +3,14 @@
   "name": "qwen1.5-110b-chat",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen1.5",
   "context_window": 8000,
   "max_output_tokens": 2000,
   "model_type": "chat",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -22,7 +23,7 @@
     "context_window": "67ff32d4",
     "max_output_tokens": "08f90c1a",
     "model_type": "d669f408",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "modalities": "68e53d93",
     "endpoints": "75df3f1c",
     "license": "60245731",

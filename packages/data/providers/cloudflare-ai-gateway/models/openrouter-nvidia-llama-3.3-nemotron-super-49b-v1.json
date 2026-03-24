@@ -3,7 +3,7 @@
   "name": "OpenRouter: nvidia/llama-3.3-nemotron-super-49b-v1",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-3.3",
   "pricing": {
     "input": 0.13,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "3b51a202",
     "family": "54c5fe24",
-    "pricing": "9231f222"
+    "pricing": "9231f222",
+    "model_type": "d669f408",
+    "parameters": "f457c545",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 49
+  "parameters": 49,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

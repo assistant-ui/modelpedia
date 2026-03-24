@@ -3,16 +3,17 @@
   "name": "devstral-2",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "devstral",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "model_type": "code",
   "_generated": {
     "name": "00e7b6e7",
     "family": "e626e93e",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "model_type": "b6cc3ff4",
     "description": "ae45a6c5",
     "release_date": "57064400",

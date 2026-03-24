@@ -122,7 +122,10 @@ async function main() {
       tagline: d?.tagline,
       license: isOss ? "apache-2.0" : "proprietary",
       open_weight: isOss,
-      page_url: `https://platform.openai.com/docs/models/${slugBase}`,
+      page_url:
+        slugBase === name
+          ? `https://developers.openai.com/api/docs/models/${name}`
+          : `https://developers.openai.com/api/docs/models/${slugBase}?snapshot=${name}`,
       status:
         d?.deprecated ||
         /deprecated/i.test(d?.tagline ?? "") ||

@@ -3,7 +3,7 @@
   "name": "GPT-5.2 Chat",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-5.2",
   "description": "GPT-5.2 Chat points to the GPT-5.2 snapshot currently used in ChatGPT.",
   "status": "active",
@@ -19,7 +19,8 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -66,16 +67,16 @@
     "performance": "eccbc87e",
     "speed": "eccbc87e",
     "tagline": "aa4c32a7",
-    "capabilities": "fdacdfa5",
+    "capabilities": "96c3a656",
     "modalities": "6399757e",
     "pricing": "745a23d5",
     "tools": "1d5a765f",
     "endpoints": "a913714d",
     "license": "9186c466",
-    "page_url": "6b0f1cc5",
+    "page_url": "e3ea64b8",
     "open_weight": "68934a3e"
   },
   "license": "proprietary",
-  "page_url": "https://platform.openai.com/docs/models/gpt-5.2-chat-latest",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.2-chat-latest",
   "open_weight": false
 }

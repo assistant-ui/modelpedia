@@ -3,7 +3,7 @@
   "name": "OpenAI: o3 Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "o3",
   "description": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding.",
   "context_window": 200000,
@@ -15,7 +15,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 1.1,
@@ -29,7 +30,7 @@
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
     "modalities": "68e53d93",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "71db483b",
     "model_type": "17475f7f",
     "release_date": "8e2cb9dd",

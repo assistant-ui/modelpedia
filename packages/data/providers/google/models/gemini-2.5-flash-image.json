@@ -3,7 +3,7 @@
   "name": "gemini-2.5-flash-image",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gemini-2.5",
   "status": "active",
   "deprecation_date": "2026-10-02",
@@ -17,7 +17,8 @@
     "structured_output": true,
     "reasoning": true,
     "batch": true,
-    "vision": true
+    "vision": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
@@ -57,7 +58,7 @@
     "context_window": "297ce0b3",
     "max_output_tokens": "f4376436",
     "successor": "f2606b99",
-    "capabilities": "29b57eef",
+    "capabilities": "fdff467b",
     "modalities": "0b49b61e",
     "pricing": "e7e5842a",
     "tools": "f0c1dc7e",

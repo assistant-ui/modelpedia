@@ -3,7 +3,7 @@
   "name": "xAI: Grok 4.20 Beta",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "grok-4.20",
   "description": "Grok 4.20 Beta is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities.",
   "context_window": 2000000,
@@ -14,7 +14,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 2,
@@ -27,7 +28,7 @@
     "description": "9b84dca6",
     "context_window": "805f7438",
     "modalities": "6399757e",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "9277b5ca",
     "model_type": "d669f408",
     "release_date": "96ba6f81",

@@ -3,13 +3,14 @@
   "name": "gemma3",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "79b545b7",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "model_type": "d669f408",
     "description": "85bf5b5b",
     "release_date": "826a3ce0",

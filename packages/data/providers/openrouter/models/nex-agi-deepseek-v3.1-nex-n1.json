@@ -3,7 +3,7 @@
   "name": "Nex AGI: DeepSeek V3.1 Nex N1",
   "created_by": "nex-agi",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "deepseek",
   "description": "DeepSeek V3.1 Nex-N1 is the flagship release of the Nex-N1 series — a post-trained model designed to highlight agent autonomy, tool use, and real-world productivity.",
   "context_window": 131072,
@@ -14,7 +14,8 @@
   },
   "capabilities": {
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.27,
@@ -27,7 +28,7 @@
     "context_window": "f7de594e",
     "max_output_tokens": "7edab444",
     "modalities": "68e53d93",
-    "capabilities": "ad177261",
+    "capabilities": "6c9aa67e",
     "pricing": "0f7797d7",
     "release_date": "57064400",
     "tagline": "cee355cc",

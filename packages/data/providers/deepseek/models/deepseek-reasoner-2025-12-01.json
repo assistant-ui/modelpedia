@@ -3,7 +3,7 @@
   "name": "DeepSeek V3.2 (Reasoner)",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "deepseek-chat",
   "description": "DeepSeek-V3 in thinking mode with chain-of-thought reasoning.",
   "status": "active",
@@ -18,7 +18,8 @@
     "streaming": true,
     "json_mode": true,
     "tool_call": true,
-    "reasoning": true
+    "reasoning": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -41,7 +42,7 @@
     "model_type": "17475f7f",
     "reasoning_tokens": "b326b506",
     "tagline": "90ad5718",
-    "capabilities": "ef996ff1",
+    "capabilities": "3938d31c",
     "modalities": "68e53d93",
     "pricing": "f1b8e1d4",
     "endpoints": "d8fa1080",

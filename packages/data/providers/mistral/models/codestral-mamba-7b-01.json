@@ -3,12 +3,13 @@
   "name": "codestral-mamba-7b-01",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "codestral",
   "status": "active",
   "context_window": 256000,
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -20,7 +21,7 @@
     "family": "a0734f6e",
     "status": "379ac110",
     "context_window": "2fd324cb",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "modalities": "68e53d93",
     "model_type": "b6cc3ff4",
     "license": "60245731",

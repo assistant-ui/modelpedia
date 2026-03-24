@@ -3,7 +3,7 @@
   "name": "codestral-2508",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "codestral",
   "status": "active",
   "context_window": 128000,
@@ -11,7 +11,8 @@
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -27,7 +28,7 @@
     "family": "a0734f6e",
     "status": "379ac110",
     "context_window": "34434798",
-    "capabilities": "fc36814c",
+    "capabilities": "62b3fd83",
     "modalities": "6399757e",
     "pricing": "8eb8395f",
     "model_type": "b6cc3ff4",

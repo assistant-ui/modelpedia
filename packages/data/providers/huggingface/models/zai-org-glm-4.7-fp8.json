@@ -3,14 +3,15 @@
   "name": "GLM-4.7-FP8",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "21be6158",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "family": "6dbcba88",
     "model_type": "d669f408",
     "page_url": "0a29ca46",

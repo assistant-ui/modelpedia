@@ -3,7 +3,7 @@
   "name": "Mistral: Mistral Small 4",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "mistral-small",
   "description": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system.",
   "context_window": 262144,
@@ -14,7 +14,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.15,
@@ -27,7 +28,7 @@
     "description": "81cc48ef",
     "context_window": "4a1d32eb",
     "modalities": "6399757e",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "e5cfa60c",
     "model_type": "d669f408",
     "release_date": "bd6509e2",

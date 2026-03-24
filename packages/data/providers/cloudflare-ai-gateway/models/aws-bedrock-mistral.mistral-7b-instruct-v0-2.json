@@ -3,7 +3,7 @@
   "name": "Amazon Bedrock: mistral.mistral-7b-instruct-v0:2",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "chat",
   "pricing": {
     "input": 0.11,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "74b7b40f",
     "model_type": "d669f408",
-    "pricing": "5630a02b"
+    "pricing": "5630a02b",
+    "parameters": "8f14e45f",
+    "modalities": "68e53d93"
   },
-  "parameters": 7
+  "parameters": 7,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

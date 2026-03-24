@@ -3,16 +3,24 @@
   "name": "OpenRouter: thudm/glm-4.1v-9b-thinking",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.035,
     "output": 0.13799999999999998
   },
   "_generated": {
     "name": "2cdfe35a",
-    "pricing": "b2fe213d"
+    "pricing": "b2fe213d",
+    "family": "7aa0a8e2",
+    "model_type": "d669f408",
+    "parameters": "45c48cce",
+    "modalities": "68e53d93"
   },
   "family": "glm-4.1",
   "model_type": "chat",
-  "parameters": 9
+  "parameters": 9,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

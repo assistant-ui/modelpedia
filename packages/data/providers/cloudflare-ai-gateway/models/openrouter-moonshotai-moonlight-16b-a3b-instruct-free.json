@@ -3,12 +3,21 @@
   "name": "OpenRouter: moonshotai/moonlight-16b-a3b-instruct:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "_generated": {
-    "name": "cd07b825"
+    "name": "cd07b825",
+    "family": "9126e350",
+    "model_type": "d669f408",
+    "parameters": "c74d97b0",
+    "active_parameters": "eccbc87e",
+    "modalities": "68e53d93"
   },
   "family": "moonshot",
   "model_type": "chat",
   "parameters": 16,
-  "active_parameters": 3
+  "active_parameters": 3,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

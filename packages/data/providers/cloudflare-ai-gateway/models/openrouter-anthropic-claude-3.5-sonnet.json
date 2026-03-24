@@ -3,7 +3,7 @@
   "name": "OpenRouter: anthropic/claude-3.5-sonnet",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "claude-sonnet",
   "pricing": {
     "input": 6,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "84b7c9e6",
     "family": "68d1c457",
-    "pricing": "3706288e"
+    "pricing": "3706288e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

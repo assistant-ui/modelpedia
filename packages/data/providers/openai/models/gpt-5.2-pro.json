@@ -3,7 +3,7 @@
   "name": "gpt-5.2-pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-5.2",
   "status": "active",
   "knowledge_cutoff": "2025-08",
@@ -68,7 +68,7 @@
     "endpoints": "acb164ea",
     "model_type": "d669f408",
     "license": "9186c466",
-    "page_url": "4328e12b",
+    "page_url": "1f32ff80",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "release_date": "26371115"
@@ -76,7 +76,7 @@
   "snapshots": ["gpt-5.2-pro-2025-12-11"],
   "model_type": "chat",
   "license": "proprietary",
-  "page_url": "https://platform.openai.com/docs/models/gpt-5.2-pro",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.2-pro?snapshot=gpt-5.2-pro-2025-12-11",
   "open_weight": false,
   "tools": ["function_calling"],
   "release_date": "2025-12-11"

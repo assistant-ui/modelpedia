@@ -3,12 +3,19 @@
   "name": "OpenRouter: meta-llama/llama-3-8b-instruct:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-3",
   "_generated": {
     "name": "66990722",
-    "family": "a8d1600e"
+    "family": "a8d1600e",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 8
+  "parameters": 8,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,15 +3,16 @@
   "name": "mistral-large-3",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "mistral-large",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "8a42a963",
     "family": "70f9d51d",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "model_type": "d669f408",
     "description": "2d2d214c",
     "release_date": "75f289bd",

@@ -3,7 +3,7 @@
   "name": "Z.ai: GLM 4.7",
   "created_by": "z-ai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "description": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution.",
   "context_window": 202752,
   "max_output_tokens": 65535,
@@ -14,7 +14,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.39,
@@ -27,7 +28,7 @@
     "context_window": "6ea395a4",
     "max_output_tokens": "3c9b5f1c",
     "modalities": "68e53d93",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "eafaed7f",
     "family": "02d3d929",
     "model_type": "d669f408",

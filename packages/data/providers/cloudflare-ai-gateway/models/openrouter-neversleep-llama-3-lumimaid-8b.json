@@ -3,7 +3,7 @@
   "name": "OpenRouter: neversleep/llama-3-lumimaid-8b",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-3",
   "pricing": {
     "input": 0.7999999999999999,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "5bd269ba",
     "family": "a8d1600e",
-    "pricing": "a1b65046"
+    "pricing": "a1b65046",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 8
+  "parameters": 8,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

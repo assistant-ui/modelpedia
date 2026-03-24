@@ -3,7 +3,7 @@
   "name": "OpenAI: o3 Deep Research",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "o3",
   "description": "o3-deep-research is OpenAI's advanced model for deep research, designed to tackle complex, multi-step research tasks.",
   "context_window": 200000,
@@ -15,7 +15,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 10,
@@ -29,7 +30,7 @@
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
     "modalities": "8b8b28d1",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "bc1f08e3",
     "model_type": "d669f408",
     "release_date": "60fda614",

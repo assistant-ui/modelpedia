@@ -3,16 +3,24 @@
   "name": "Replicate: meta/meta-llama-3-70b-instruct",
   "created_by": "replicate",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.65,
     "output": 2.75
   },
   "_generated": {
     "name": "7943eb64",
-    "pricing": "9e44b669"
+    "pricing": "9e44b669",
+    "family": "a8d1600e",
+    "model_type": "d669f408",
+    "parameters": "7cbbc409",
+    "modalities": "68e53d93"
   },
   "family": "llama-3",
   "model_type": "chat",
-  "parameters": 70
+  "parameters": 70,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

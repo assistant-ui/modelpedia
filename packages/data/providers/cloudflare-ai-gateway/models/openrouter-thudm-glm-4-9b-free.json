@@ -3,10 +3,17 @@
   "name": "OpenRouter: thudm/glm-4-9b:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "_generated": {
-    "name": "59b025d4"
+    "name": "59b025d4",
+    "family": "b85f9b4b",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "glm-4",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

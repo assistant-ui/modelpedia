@@ -3,7 +3,7 @@
   "name": "OpenRouter: anthropic/claude-haiku-4.5",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "claude-haiku",
   "pricing": {
     "input": 1,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "a6016b35",
     "family": "1cfb9795",
-    "pricing": "5b5c2081"
+    "pricing": "5b5c2081",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

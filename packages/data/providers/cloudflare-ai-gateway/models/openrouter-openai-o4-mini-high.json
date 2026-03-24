@@ -3,7 +3,7 @@
   "name": "OpenRouter: openai/o4-mini-high",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "o4",
   "pricing": {
     "input": 1.1,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "978bc8bf",
     "family": "a842f941",
-    "pricing": "20e8e5b9"
+    "pricing": "20e8e5b9",
+    "model_type": "17475f7f",
+    "modalities": "68e53d93"
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

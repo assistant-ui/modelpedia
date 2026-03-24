@@ -3,7 +3,7 @@
   "name": "OpenAI GPT OSS",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-oss",
   "context_window": 131000,
   "max_output_tokens": 40000,
@@ -12,7 +12,8 @@
     "tool_call": true,
     "structured_output": true,
     "reasoning": true,
-    "prompt_caching": true
+    "prompt_caching": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -27,7 +28,7 @@
     "family": "82d0cb0b",
     "context_window": "834bd590",
     "max_output_tokens": "7c77f048",
-    "capabilities": "97babf9a",
+    "capabilities": "b8626b7e",
     "modalities": "68e53d93",
     "pricing": "063f5006",
     "model_type": "d669f408",

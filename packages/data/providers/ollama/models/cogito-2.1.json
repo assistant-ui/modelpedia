@@ -3,13 +3,14 @@
   "name": "cogito-2.1",
   "created_by": "deepcogito",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "ff1964ae",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "description": "347f5be2",
     "release_date": "e4be41d6",
     "parameters": "5dd9db5e",

@@ -3,7 +3,7 @@
   "name": "Azure OpenAI: llama-4-maverick-17b-128e-instruct-fp8",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-4",
   "pricing": {
     "input": 0.25,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "2faa5634",
     "family": "3169363f",
-    "pricing": "f691bdc3"
+    "pricing": "f691bdc3",
+    "model_type": "d669f408",
+    "parameters": "70efdf2e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 17
+  "parameters": 17,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

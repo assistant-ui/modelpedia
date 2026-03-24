@@ -3,15 +3,22 @@
   "name": "OpenRouter: z-ai/glm-4.6-20251208",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.3,
     "output": 0.8999999999999999
   },
   "_generated": {
     "name": "9adfabc5",
-    "pricing": "cfa7f421"
+    "pricing": "cfa7f421",
+    "family": "5a2dc6aa",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "glm-4.6",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

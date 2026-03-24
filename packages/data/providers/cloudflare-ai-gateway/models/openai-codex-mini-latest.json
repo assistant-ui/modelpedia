@@ -3,7 +3,7 @@
   "name": "OpenAI: codex-mini-latest",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "codex",
   "pricing": {
     "input": 1.5,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "39f16f8b",
     "family": "97c0ee50",
-    "pricing": "ac8f16a5"
+    "pricing": "ac8f16a5",
+    "model_type": "b6cc3ff4",
+    "modalities": "68e53d93"
   },
-  "model_type": "code"
+  "model_type": "code",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

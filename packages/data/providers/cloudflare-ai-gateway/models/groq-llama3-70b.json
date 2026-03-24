@@ -3,15 +3,22 @@
   "name": "Groq: Llama3-70b",
   "created_by": "groq",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.59,
     "output": 0.7899999999999999
   },
   "_generated": {
     "name": "ce38d435",
-    "pricing": "2ad5b5a1"
+    "pricing": "2ad5b5a1",
+    "model_type": "d669f408",
+    "parameters": "7cbbc409",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 70
+  "parameters": 70,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

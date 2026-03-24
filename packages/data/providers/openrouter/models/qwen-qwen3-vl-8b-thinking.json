@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 VL 8B Thinking",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen3",
   "description": "Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences.",
   "context_window": 131072,
@@ -15,7 +15,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.117,
@@ -28,7 +29,7 @@
     "context_window": "f7de594e",
     "max_output_tokens": "f4376436",
     "modalities": "8b8b28d1",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "e6cc5932",
     "model_type": "d669f408",
     "parameters": "c9f0f895",

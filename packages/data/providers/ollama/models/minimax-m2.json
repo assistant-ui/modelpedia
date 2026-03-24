@@ -3,13 +3,14 @@
   "name": "minimax-m2",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "b162f864",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "model_type": "d669f408",
     "family": "c85916f0",
     "description": "57108a7d",

@@ -3,7 +3,7 @@
   "name": "Amazon Bedrock: qwen.qwen3-coder-480b-a35b-v1:0",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "qwen.",
   "model_type": "code",
   "pricing": {
@@ -14,8 +14,15 @@
     "name": "77679310",
     "family": "4f268b83",
     "model_type": "b6cc3ff4",
-    "pricing": "f7f5ddcb"
+    "pricing": "f7f5ddcb",
+    "parameters": "6ea2ef73",
+    "active_parameters": "1c383cd3",
+    "modalities": "68e53d93"
   },
   "parameters": 480,
-  "active_parameters": 35
+  "active_parameters": 35,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

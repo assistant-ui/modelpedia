@@ -3,7 +3,7 @@
   "name": "Z.ai: GLM 5",
   "created_by": "z-ai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "description": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows.",
   "context_window": 80000,
   "max_output_tokens": 131072,
@@ -14,7 +14,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.72,
@@ -26,7 +27,7 @@
     "context_window": "144fdd8b",
     "max_output_tokens": "f7de594e",
     "modalities": "68e53d93",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "e6f0f181",
     "family": "309daa86",
     "model_type": "d669f408",

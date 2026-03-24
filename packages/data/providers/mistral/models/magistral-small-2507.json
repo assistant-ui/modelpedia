@@ -3,7 +3,7 @@
   "name": "magistral-small-2507",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "status": "deprecated",
   "deprecation_date": "2025-10-31",
   "context_window": 40000,
@@ -11,7 +11,8 @@
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -26,7 +27,7 @@
     "status": "2e2f74dc",
     "deprecation_date": "2bddea11",
     "context_window": "7c77f048",
-    "capabilities": "fc36814c",
+    "capabilities": "62b3fd83",
     "modalities": "6399757e",
     "pricing": "2c3abb73",
     "model_type": "17475f7f",

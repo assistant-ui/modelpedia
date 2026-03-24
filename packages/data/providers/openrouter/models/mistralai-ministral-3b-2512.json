@@ -3,7 +3,7 @@
   "name": "Mistral: Ministral 3 3B 2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "ministral",
   "description": "The smallest model in the Ministral 3 family, Ministral 3 3B is a powerful, efficient tiny language model with vision capabilities.",
   "context_window": 131072,
@@ -13,7 +13,8 @@
   },
   "capabilities": {
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.1,
@@ -26,7 +27,7 @@
     "description": "e8ac9711",
     "context_window": "f7de594e",
     "modalities": "6399757e",
-    "capabilities": "ad177261",
+    "capabilities": "6c9aa67e",
     "pricing": "d4480124",
     "model_type": "d669f408",
     "parameters": "eccbc87e",

@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-4.1 Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-4.1",
   "description": "GPT-4.1 Mini is a mid-sized model delivering performance competitive with GPT-4o at substantially lower latency and cost.",
   "context_window": 1047576,
@@ -14,7 +14,8 @@
   },
   "capabilities": {
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.4,
@@ -28,7 +29,7 @@
     "context_window": "55410616",
     "max_output_tokens": "f4376436",
     "modalities": "8b8b28d1",
-    "capabilities": "ad177261",
+    "capabilities": "6c9aa67e",
     "pricing": "cbd23526",
     "model_type": "d669f408",
     "release_date": "85c7118a",

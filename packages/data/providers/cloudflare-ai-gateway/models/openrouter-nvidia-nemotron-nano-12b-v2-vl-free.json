@@ -3,10 +3,17 @@
   "name": "OpenRouter: nvidia/nemotron-nano-12b-v2-vl:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "_generated": {
-    "name": "39c2a179"
+    "name": "39c2a179",
+    "model_type": "d669f408",
+    "parameters": "c20ad4d7",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 12
+  "parameters": 12,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

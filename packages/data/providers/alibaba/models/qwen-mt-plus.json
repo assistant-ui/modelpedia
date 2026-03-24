@@ -3,13 +3,14 @@
   "name": "qwen-mt-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen",
   "context_window": 16384,
   "max_output_tokens": 8192,
   "model_type": "chat",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -26,7 +27,7 @@
     "context_window": "c76fe1d8",
     "max_output_tokens": "77441296",
     "model_type": "d669f408",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "modalities": "68e53d93",
     "pricing": "575378a0",
     "endpoints": "75df3f1c",

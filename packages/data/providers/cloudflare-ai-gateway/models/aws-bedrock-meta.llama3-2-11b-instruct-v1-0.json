@@ -3,7 +3,7 @@
   "name": "Amazon Bedrock: meta.llama3-2-11b-instruct-v1:0",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "chat",
   "pricing": {
     "input": 0.16,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "23961625",
     "model_type": "d669f408",
-    "pricing": "d03075ca"
+    "pricing": "d03075ca",
+    "parameters": "6512bd43",
+    "modalities": "68e53d93"
   },
-  "parameters": 11
+  "parameters": 11,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,7 +3,7 @@
   "name": "xAI: Grok Code Fast 1",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "grok-code",
   "description": "Grok Code Fast 1 is a speedy and economical reasoning model that excels at agentic coding.",
   "context_window": 256000,
@@ -15,7 +15,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.2,
@@ -29,7 +30,7 @@
     "context_window": "2fd324cb",
     "max_output_tokens": "b7a78274",
     "modalities": "68e53d93",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "fa15285e",
     "model_type": "b6cc3ff4",
     "release_date": "5b0c513c",

@@ -3,7 +3,7 @@
   "name": "embed-multilingual-v3.0",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "description": "Provides multilingual classification and embedding support. See supported languages here.",
   "status": "active",
   "context_window": 512,

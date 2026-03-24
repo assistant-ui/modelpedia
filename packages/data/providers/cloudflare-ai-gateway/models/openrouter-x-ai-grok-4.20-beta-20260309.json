@@ -3,7 +3,7 @@
   "name": "OpenRouter: x-ai/grok-4.20-beta-20260309",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "grok-4.20",
   "pricing": {
     "input": 2,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "bbbe214e",
     "family": "44972aca",
-    "pricing": "e205efd3"
+    "pricing": "e205efd3",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,7 +3,7 @@
   "name": "GPT-5 nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-5",
   "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for",
   "status": "active",
@@ -22,7 +22,8 @@
     "vision": true,
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -74,18 +75,18 @@
     "reasoning": "c81e728d",
     "speed": "e4da3b7f",
     "tagline": "b641cfdd",
-    "capabilities": "e67897df",
+    "capabilities": "4175d4df",
     "modalities": "6399757e",
     "pricing": "c144148c",
     "tools": "f0c1dc7e",
     "endpoints": "ec55a017",
     "license": "9186c466",
-    "page_url": "e3442aa3",
+    "page_url": "ee904c9b",
     "open_weight": "68934a3e",
     "release_date": "79c30d0c"
   },
   "license": "proprietary",
-  "page_url": "https://platform.openai.com/docs/models/gpt-5-nano",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5-nano?snapshot=gpt-5-nano-2025-08-07",
   "open_weight": false,
   "release_date": "2025-08-07"
 }

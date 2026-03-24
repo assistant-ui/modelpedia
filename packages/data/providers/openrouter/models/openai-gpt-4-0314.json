@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-4 (older v0314)",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-4",
   "description": "GPT-4-0314 is the first version of GPT-4 released, with a context length of 8,192 tokens, and was supported until June 14.",
   "context_window": 8191,
@@ -14,7 +14,8 @@
   },
   "capabilities": {
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 30,
@@ -27,7 +28,7 @@
     "context_window": "4b2944df",
     "max_output_tokens": "f7efa4f8",
     "modalities": "68e53d93",
-    "capabilities": "ad177261",
+    "capabilities": "6c9aa67e",
     "pricing": "b470b088",
     "model_type": "d669f408",
     "release_date": "a7ed5393",

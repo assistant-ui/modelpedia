@@ -3,7 +3,7 @@
   "name": "lyria-realtime-exp",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "status": "active",
   "model_type": "tts",
   "capabilities": {
@@ -12,7 +12,8 @@
     "structured_output": true,
     "reasoning": true,
     "batch": true,
-    "vision": true
+    "vision": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -24,7 +25,7 @@
     "name": "43fb9577",
     "status": "379ac110",
     "model_type": "4e16a2cf",
-    "capabilities": "29b57eef",
+    "capabilities": "fdff467b",
     "modalities": "601e776d",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",

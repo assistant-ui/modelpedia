@@ -3,15 +3,22 @@
   "name": "OpenAI: gpt-4.5-preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0,
     "output": 150
   },
   "_generated": {
     "name": "711e9bcc",
-    "pricing": "e1a8a427"
+    "pricing": "e1a8a427",
+    "family": "88f03a37",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "gpt-4.5",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

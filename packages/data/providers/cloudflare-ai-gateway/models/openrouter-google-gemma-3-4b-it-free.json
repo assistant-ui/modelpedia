@@ -3,12 +3,19 @@
   "name": "OpenRouter: google/gemma-3-4b-it:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gemma-3",
   "_generated": {
     "name": "cef8de97",
-    "family": "d9e10ad8"
+    "family": "d9e10ad8",
+    "model_type": "d669f408",
+    "parameters": "a87ff679",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 4
+  "parameters": 4,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

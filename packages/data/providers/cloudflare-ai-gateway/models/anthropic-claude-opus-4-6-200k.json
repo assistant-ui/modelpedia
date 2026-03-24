@@ -3,7 +3,7 @@
   "name": "Anthropic: claude-opus-4-6-200k",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "claude-opus",
   "pricing": {
     "input": 10,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "8c1608b2",
     "family": "4e4c4b18",
-    "pricing": "f73fcbe4"
+    "pricing": "f73fcbe4",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

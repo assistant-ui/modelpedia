@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5.4",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-5.4",
   "description": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system.",
   "context_window": 1050000,
@@ -15,7 +15,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 2.5,
@@ -29,7 +30,7 @@
     "context_window": "f170ebb2",
     "max_output_tokens": "34434798",
     "modalities": "6399757e",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "d9873b8b",
     "model_type": "d669f408",
     "release_date": "e6626ce2",

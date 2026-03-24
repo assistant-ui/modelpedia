@@ -3,14 +3,20 @@
   "name": "OpenRouter: ai21/jamba-mini-1.7",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.19999999999999998,
     "output": 0.39999999999999997
   },
   "_generated": {
     "name": "a8c58446",
-    "pricing": "b77fe341"
+    "pricing": "b77fe341",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

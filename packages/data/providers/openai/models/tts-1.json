@@ -3,7 +3,7 @@
   "name": "TTS-1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "description": "TTS is a model that converts text to natural sounding spoken text. The tts-1 model is optimized for realtime text-to-speech use cases. Use it with the Speech endpoint in the Audio API.",
   "status": "active",
   "model_type": "tts",
@@ -44,11 +44,11 @@
     "endpoints": "1d7fad2a",
     "family": "4e16a2cf",
     "license": "9186c466",
-    "page_url": "e1a2c3bb",
+    "page_url": "add1629d",
     "open_weight": "68934a3e"
   },
   "family": "tts",
   "license": "proprietary",
-  "page_url": "https://platform.openai.com/docs/models/tts-1",
+  "page_url": "https://developers.openai.com/api/docs/models/tts-1",
   "open_weight": false
 }

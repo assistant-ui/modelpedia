@@ -3,7 +3,7 @@
   "name": "OpenRouter: mistralai/devstral-medium-2507",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "devstral",
   "pricing": {
     "input": 0.39999999999999997,
@@ -13,7 +13,12 @@
     "name": "2ca78262",
     "family": "e626e93e",
     "pricing": "c1252b94",
-    "model_type": "b6cc3ff4"
+    "model_type": "b6cc3ff4",
+    "modalities": "68e53d93"
   },
-  "model_type": "code"
+  "model_type": "code",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

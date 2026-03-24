@@ -3,7 +3,7 @@
   "name": "OpenRouter: qwen/qwen3.5-plus-02-15",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "qwen3.5",
   "pricing": {
     "input": 0.26,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "a8cc554e",
     "family": "d548f421",
-    "pricing": "21b8e26e"
+    "pricing": "21b8e26e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

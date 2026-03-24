@@ -3,7 +3,7 @@
   "name": "Workers AI: llama-3.1-8b-instruct-awq",
   "created_by": "cloudflare-workers-ai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-3.1",
   "pricing": {
     "input": 120000,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "4fa779c3",
     "family": "83ec32db",
-    "pricing": "28bf0c7a"
+    "pricing": "28bf0c7a",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 8
+  "parameters": 8,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

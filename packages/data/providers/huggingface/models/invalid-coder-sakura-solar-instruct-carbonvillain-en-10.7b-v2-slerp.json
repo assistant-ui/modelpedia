@@ -3,14 +3,15 @@
   "name": "Sakura-SOLAR-Instruct-CarbonVillain-en-10.7B-v2-slerp",
   "created_by": "invalid-coder",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "520171fc",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "parameters": "6512bd43",
     "page_url": "034fc7a2",
     "description": "c4bd79d1",

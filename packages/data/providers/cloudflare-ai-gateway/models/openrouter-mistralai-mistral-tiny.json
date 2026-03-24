@@ -3,14 +3,20 @@
   "name": "OpenRouter: mistralai/mistral-tiny",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.25,
     "output": 0.25
   },
   "_generated": {
     "name": "728477f9",
-    "pricing": "4dba8a3d"
+    "pricing": "4dba8a3d",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

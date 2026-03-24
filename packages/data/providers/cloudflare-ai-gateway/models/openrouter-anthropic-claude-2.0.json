@@ -3,7 +3,7 @@
   "name": "OpenRouter: anthropic/claude-2.0",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "claude",
   "pricing": {
     "input": 8,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "3564930b",
     "family": "c529ee89",
-    "pricing": "da4b2e9d"
+    "pricing": "da4b2e9d",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

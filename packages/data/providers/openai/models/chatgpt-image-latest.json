@@ -3,7 +3,7 @@
   "name": "chatgpt-image-latest",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "chatgpt",
   "description": "GPT Image Latest points to the image snapshot currently used in ChatGPT.",
   "status": "active",
@@ -78,10 +78,10 @@
     "pricing": "f27acd82",
     "endpoints": "af128fc0",
     "license": "9186c466",
-    "page_url": "0a6f7aab",
+    "page_url": "50159502",
     "open_weight": "68934a3e"
   },
   "license": "proprietary",
-  "page_url": "https://platform.openai.com/docs/models/chatgpt-image-latest",
+  "page_url": "https://developers.openai.com/api/docs/models/chatgpt-image-latest",
   "open_weight": false
 }

@@ -3,12 +3,19 @@
   "name": "Mistral: mistral-small-3.2-24b-instruct:free",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "mistral-small",
   "_generated": {
     "name": "a767620a",
-    "family": "275918a5"
+    "family": "275918a5",
+    "model_type": "d669f408",
+    "parameters": "1ff1de77",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 24
+  "parameters": 24,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

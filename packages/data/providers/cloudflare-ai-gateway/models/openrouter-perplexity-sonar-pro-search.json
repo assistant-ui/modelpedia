@@ -3,15 +3,22 @@
   "name": "OpenRouter: perplexity/sonar-pro-search",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 3,
     "output": 15
   },
   "_generated": {
     "name": "62af1bcc",
-    "pricing": "7939f0ff"
+    "pricing": "7939f0ff",
+    "family": "8b8f2acb",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "sonar",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

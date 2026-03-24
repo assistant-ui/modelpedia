@@ -3,15 +3,16 @@
   "name": "qwen3-coder",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen3",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "1cd1d1a6",
     "family": "48c385a0",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "model_type": "b6cc3ff4",
     "description": "25988deb",
     "release_date": "7b78b654",

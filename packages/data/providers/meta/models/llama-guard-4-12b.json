@@ -3,7 +3,7 @@
   "name": "Llama-Guard-4-12B",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "llama-guard",
   "release_date": "2025-04-23",
   "knowledge_cutoff": null,
@@ -13,7 +13,8 @@
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -30,7 +31,7 @@
     "parameters": "c20ad4d7",
     "page_url": "a00786a8",
     "model_type": "d669f408",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "modalities": "68e53d93",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e"

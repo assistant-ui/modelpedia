@@ -3,7 +3,7 @@
   "name": "OpenAI: gpt-5-pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gpt-5",
   "pricing": {
     "input": 15,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "4c3cce1b",
     "family": "aa904c16",
-    "pricing": "46a74c13"
+    "pricing": "46a74c13",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

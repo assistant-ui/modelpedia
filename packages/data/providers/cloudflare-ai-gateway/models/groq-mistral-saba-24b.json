@@ -3,16 +3,24 @@
   "name": "Groq: mistral-saba-24b",
   "created_by": "groq",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.7899999999999999,
     "output": 0.7899999999999999
   },
   "_generated": {
     "name": "57a2527b",
-    "pricing": "94d0e395"
+    "pricing": "94d0e395",
+    "family": "27f7c201",
+    "model_type": "d669f408",
+    "parameters": "1ff1de77",
+    "modalities": "68e53d93"
   },
   "family": "mistral-saba",
   "model_type": "chat",
-  "parameters": 24
+  "parameters": 24,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

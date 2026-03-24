@@ -3,7 +3,7 @@
   "name": "Mistral: mistral-saba",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "chat",
   "pricing": {
     "input": 0.19999999999999998,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "af708b38",
     "model_type": "d669f408",
-    "pricing": "143a4b96"
+    "pricing": "143a4b96",
+    "family": "27f7c201",
+    "modalities": "68e53d93"
   },
-  "family": "mistral-saba"
+  "family": "mistral-saba",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

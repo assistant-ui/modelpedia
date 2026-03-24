@@ -3,7 +3,7 @@
   "name": "Azure OpenAI: llama-4-scout-17b-16e-instruct",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-4",
   "pricing": {
     "input": 0.19999999999999998,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "0e946685",
     "family": "3169363f",
-    "pricing": "5caf75cc"
+    "pricing": "5caf75cc",
+    "model_type": "d669f408",
+    "parameters": "70efdf2e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 17
+  "parameters": 17,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

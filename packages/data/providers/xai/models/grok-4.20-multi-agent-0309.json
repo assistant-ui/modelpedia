@@ -3,13 +3,14 @@
   "name": "grok-4.20-multi-agent-0309",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "release_date": "2026-03-09",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "family": "grok-4.20",
   "context_window": 2000000,
@@ -26,7 +27,7 @@
   "_generated": {
     "name": "54a3c065",
     "release_date": "6bbd875b",
-    "capabilities": "0946b777",
+    "capabilities": "55f30939",
     "family": "44972aca",
     "context_window": "805f7438",
     "reasoning_tokens": "b326b506",

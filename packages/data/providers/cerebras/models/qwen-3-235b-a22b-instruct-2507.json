@@ -3,7 +3,7 @@
   "name": "Qwen 3 235B Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen",
   "context_window": 131000,
   "max_output_tokens": 40000,
@@ -12,7 +12,8 @@
     "streaming": true,
     "tool_call": true,
     "structured_output": true,
-    "prompt_caching": true
+    "prompt_caching": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -27,7 +28,7 @@
     "family": "a3af76f3",
     "context_window": "834bd590",
     "max_output_tokens": "7c77f048",
-    "capabilities": "9d08fb17",
+    "capabilities": "abfc5244",
     "modalities": "68e53d93",
     "pricing": "11cfe106",
     "model_type": "d669f408",

@@ -3,7 +3,7 @@
   "name": "OpenRouter: qwen/qwq-32b-preview",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwq",
   "pricing": {
     "input": 0.19999999999999998,
@@ -14,8 +14,13 @@
     "family": "3a976110",
     "pricing": "4a55a07f",
     "model_type": "17475f7f",
-    "parameters": "6364d3f0"
+    "parameters": "6364d3f0",
+    "modalities": "68e53d93"
   },
   "model_type": "reasoning",
-  "parameters": 32
+  "parameters": 32,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

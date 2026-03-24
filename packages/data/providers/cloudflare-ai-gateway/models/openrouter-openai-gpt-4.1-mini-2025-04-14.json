@@ -3,7 +3,7 @@
   "name": "OpenRouter: openai/gpt-4.1-mini-2025-04-14",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gpt-4.1",
   "pricing": {
     "input": 0.39999999999999997,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "53e1532d",
     "family": "d240daf4",
-    "pricing": "5f3bf0de"
+    "pricing": "5f3bf0de",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

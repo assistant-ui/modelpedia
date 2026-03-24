@@ -3,14 +3,15 @@
   "name": "Qwen2.5-Coder-32B-Instruct",
   "created_by": "unsloth",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "cac2ee3f",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "model_type": "b6cc3ff4",
     "parameters": "182be0c5",
     "page_url": "bf5919a6",

@@ -3,7 +3,7 @@
   "name": "OpenRouter: x-ai/grok-3-beta",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "grok-3",
   "pricing": {
     "input": 3,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "19f8ca41",
     "family": "c41798c6",
-    "pricing": "7939f0ff"
+    "pricing": "7939f0ff",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

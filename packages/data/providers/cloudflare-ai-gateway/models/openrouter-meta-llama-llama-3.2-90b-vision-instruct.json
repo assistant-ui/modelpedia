@@ -3,7 +3,7 @@
   "name": "OpenRouter: meta-llama/llama-3.2-90b-vision-instruct",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-3.2",
   "pricing": {
     "input": 0.35,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "f71b4681",
     "family": "d4c42ce9",
-    "pricing": "6c0552c7"
+    "pricing": "6c0552c7",
+    "model_type": "d669f408",
+    "parameters": "8613985e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 90
+  "parameters": 90,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,14 +3,15 @@
   "name": "o3-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "o3",
   "knowledge_cutoff": "2023-10",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -21,7 +22,7 @@
     "name": "7ea41c2f",
     "family": "193049bc",
     "knowledge_cutoff": "ffb42dbe",
-    "capabilities": "0946b777",
+    "capabilities": "55f30939",
     "modalities": "68e53d93",
     "model_type": "17475f7f",
     "tools": "f0c1dc7e",

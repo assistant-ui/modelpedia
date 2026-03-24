@@ -3,11 +3,11 @@
   "name": "GPT-4o mini Search Preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-4o",
   "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
   "status": "active",
-  "knowledge_cutoff": "2023-10",
+  "knowledge_cutoff": "2023-09",
   "context_window": 128000,
   "max_output_tokens": 16384,
   "performance": 2,
@@ -16,7 +16,8 @@
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -46,25 +47,25 @@
     "family": "15249632",
     "description": "7e9c1d49",
     "status": "379ac110",
-    "knowledge_cutoff": "ffb42dbe",
+    "knowledge_cutoff": "7b971392",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
     "performance": "c81e728d",
     "speed": "a87ff679",
     "tagline": "75d14b10",
-    "capabilities": "66baa213",
+    "capabilities": "7cdad12f",
     "modalities": "68e53d93",
     "pricing": "664250ce",
     "endpoints": "d8fa1080",
     "model_type": "d669f408",
     "license": "9186c466",
-    "page_url": "9129be5a",
+    "page_url": "e3c2db51",
     "open_weight": "68934a3e",
     "release_date": "53813ccd"
   },
   "model_type": "chat",
   "license": "proprietary",
-  "page_url": "https://platform.openai.com/docs/models/gpt-4o-mini-search-preview",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-search-preview?snapshot=gpt-4o-mini-search-preview-2025-03-11",
   "open_weight": false,
   "release_date": "2025-03-11"
 }

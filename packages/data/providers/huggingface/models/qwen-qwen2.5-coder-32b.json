@@ -3,14 +3,15 @@
   "name": "Qwen2.5-Coder-32B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "df155870",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "model_type": "b6cc3ff4",
     "parameters": "182be0c5",
     "page_url": "ddb0bfb6",

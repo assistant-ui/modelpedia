@@ -3,14 +3,15 @@
   "name": "GLM-4.5-Air",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "1a8fb936",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "family": "9ddeed20",
     "model_type": "d669f408",
     "page_url": "0f988960",

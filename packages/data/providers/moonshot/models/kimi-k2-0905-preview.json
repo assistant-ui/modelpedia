@@ -3,13 +3,14 @@
   "name": "Kimi K2 (0905)",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "kimi",
   "description": "Enhanced agentic coding, front-end aesthetics, context understanding.",
   "context_window": 256000,
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "tagline": "Enhanced agentic coding, front-end aesthetics, context understanding.",
   "_generated": {
@@ -17,7 +18,7 @@
     "family": "0740f86b",
     "description": "2d592e94",
     "context_window": "2fd324cb",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "tagline": "2d592e94",
     "model_type": "d669f408",
     "license": "3c4c3ba5",

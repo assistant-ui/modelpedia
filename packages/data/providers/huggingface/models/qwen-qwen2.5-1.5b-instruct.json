@@ -3,14 +3,15 @@
   "name": "Qwen2.5-1.5B-Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "7ab05f8a",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "model_type": "d669f408",
     "parameters": "60086472",
     "page_url": "f9f3ee99",

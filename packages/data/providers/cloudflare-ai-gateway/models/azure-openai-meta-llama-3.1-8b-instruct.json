@@ -3,16 +3,24 @@
   "name": "Azure OpenAI: meta-llama-3.1-8b-instruct",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.3,
     "output": 0.61
   },
   "_generated": {
     "name": "7aa8f7a9",
-    "pricing": "651d3042"
+    "pricing": "651d3042",
+    "family": "83ec32db",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "modalities": "68e53d93"
   },
   "family": "llama-3.1",
   "model_type": "chat",
-  "parameters": 8
+  "parameters": 8,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

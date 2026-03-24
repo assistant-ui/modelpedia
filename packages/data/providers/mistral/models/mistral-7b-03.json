@@ -3,11 +3,12 @@
   "name": "mistral-7b-03",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "status": "active",
   "context_window": 32000,
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -17,7 +18,7 @@
     "name": "ba5f537e",
     "status": "379ac110",
     "context_window": "10e4d788",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "modalities": "68e53d93",
     "model_type": "d669f408",
     "family": "33212289",

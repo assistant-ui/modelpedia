@@ -3,7 +3,7 @@
   "name": "Amazon Bedrock: mistral.devstral-2-123b",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "code",
   "pricing": {
     "input": 0.39999999999999997,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "02ca3692",
     "model_type": "b6cc3ff4",
-    "pricing": "c1252b94"
+    "pricing": "c1252b94",
+    "parameters": "202cb962",
+    "modalities": "68e53d93"
   },
-  "parameters": 123
+  "parameters": 123,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

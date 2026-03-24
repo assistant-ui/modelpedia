@@ -3,11 +3,17 @@
   "name": "Google AI Studio: gemini-2.0-pro-exp-02-05:free",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gemini-2.0",
   "_generated": {
     "name": "fcda5bc1",
-    "family": "dc4aadf6"
+    "family": "dc4aadf6",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

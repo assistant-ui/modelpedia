@@ -3,15 +3,22 @@
   "name": "Groq: gemma2-9b-it",
   "created_by": "groq",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.19999999999999998,
     "output": 0.19999999999999998
   },
   "_generated": {
     "name": "1db35d83",
-    "pricing": "4a55a07f"
+    "pricing": "4a55a07f",
+    "model_type": "d669f408",
+    "parameters": "45c48cce",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 9
+  "parameters": 9,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

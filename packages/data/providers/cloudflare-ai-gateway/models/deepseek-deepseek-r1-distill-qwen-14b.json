@@ -3,7 +3,7 @@
   "name": "DeepSeek: deepseek-r1-distill-qwen-14b",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "deepseek-r1",
   "pricing": {
     "input": 0.15,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "543e8cbe",
     "family": "c74cfb8e",
-    "pricing": "16a72b67"
+    "pricing": "16a72b67",
+    "model_type": "17475f7f",
+    "parameters": "aab32389",
+    "modalities": "68e53d93"
   },
   "model_type": "reasoning",
-  "parameters": 14
+  "parameters": 14,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

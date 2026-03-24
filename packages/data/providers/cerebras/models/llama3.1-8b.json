@@ -3,13 +3,14 @@
   "name": "Llama 3.1 8B",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "context_window": 32000,
   "max_output_tokens": 8000,
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -23,7 +24,7 @@
     "name": "051379cb",
     "context_window": "10e4d788",
     "max_output_tokens": "67ff32d4",
-    "capabilities": "1d6c1abb",
+    "capabilities": "85ac183e",
     "modalities": "68e53d93",
     "pricing": "dabb026f",
     "status": "379ac110",

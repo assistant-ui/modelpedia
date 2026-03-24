@@ -3,12 +3,19 @@
   "name": "OpenRouter: qwen/qwen-2.5-coder-32b-instruct:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "qwen",
   "_generated": {
     "name": "dd4420c8",
-    "family": "a3af76f3"
+    "family": "a3af76f3",
+    "model_type": "b6cc3ff4",
+    "parameters": "6364d3f0",
+    "modalities": "68e53d93"
   },
   "model_type": "code",
-  "parameters": 32
+  "parameters": 32,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

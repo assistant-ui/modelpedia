@@ -3,12 +3,19 @@
   "name": "OpenRouter: qwen/qwen2.5-vl-32b-instruct:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "qwen2.5",
   "_generated": {
     "name": "99b3a8e8",
-    "family": "45d84b68"
+    "family": "45d84b68",
+    "model_type": "d669f408",
+    "parameters": "6364d3f0",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 32
+  "parameters": 32,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

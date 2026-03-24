@@ -3,10 +3,17 @@
   "name": "OpenRouter: mistralai/mistral-nemo:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "_generated": {
-    "name": "9edeff64"
+    "name": "9edeff64",
+    "family": "75e1af53",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "mistral-nemo",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

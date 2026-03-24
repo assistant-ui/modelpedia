@@ -3,7 +3,7 @@
   "name": "Workers AI: llama-guard-3-8b",
   "created_by": "cloudflare-workers-ai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "llama-guard",
   "model_type": "chat",
   "pricing": {
@@ -15,7 +15,12 @@
     "family": "3190be28",
     "model_type": "d669f408",
     "pricing": "07b7a345",
-    "parameters": "c9f0f895"
+    "parameters": "c9f0f895",
+    "modalities": "68e53d93"
   },
-  "parameters": 8
+  "parameters": 8,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

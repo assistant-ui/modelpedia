@@ -3,7 +3,7 @@
   "name": "Mistral: pixtral-12b-latest",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "pixtral",
   "model_type": "chat",
   "pricing": {
@@ -14,7 +14,13 @@
     "name": "689e8d1a",
     "family": "c606df51",
     "model_type": "d669f408",
-    "pricing": "16a72b67"
+    "pricing": "16a72b67",
+    "parameters": "c20ad4d7",
+    "modalities": "68e53d93"
   },
-  "parameters": 12
+  "parameters": 12,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

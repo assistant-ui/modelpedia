@@ -3,7 +3,7 @@
   "name": "Groq: mixtral-8x7b-32768",
   "created_by": "groq",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "mixtral",
   "pricing": {
     "input": 0.24,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "0856aed7",
     "family": "3c47d372",
-    "pricing": "f4b839bc"
+    "pricing": "f4b839bc",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

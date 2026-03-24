@@ -28,16 +28,30 @@ function capBadges(caps: ModelCapabilities | undefined) {
   if (!caps) return null;
   return (
     <span className="flex gap-0.5">
-      {CAP_BADGES.map(([key, letter]) =>
-        caps[key as keyof ModelCapabilities] ? (
-          <span
-            key={key}
-            className="flex h-3.5 w-3.5 items-center justify-center rounded bg-muted text-[9px] text-muted-foreground"
-          >
-            {letter}
-          </span>
-        ) : null,
-      )}
+      {CAP_BADGES.map(([key, letter]) => {
+        const val = caps[key as keyof ModelCapabilities];
+        if (val === true) {
+          return (
+            <span
+              key={key}
+              className="flex h-3.5 w-3.5 items-center justify-center rounded bg-muted text-[9px] text-muted-foreground"
+            >
+              {letter}
+            </span>
+          );
+        }
+        if (val == null) {
+          return (
+            <span
+              key={key}
+              className="flex h-3.5 w-3.5 items-center justify-center rounded bg-muted text-[9px] text-muted-foreground/30"
+            >
+              {letter}
+            </span>
+          );
+        }
+        return null;
+      })}
     </span>
   );
 }

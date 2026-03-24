@@ -3,15 +3,22 @@
   "name": "Cohere: command-r7b",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.0375,
     "output": 0.15
   },
   "_generated": {
     "name": "70a27e8f",
-    "pricing": "4602d22c"
+    "pricing": "4602d22c",
+    "family": "439d5b76",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "command-r",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

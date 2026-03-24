@@ -3,15 +3,22 @@
   "name": "Groq: llama3-groq-8b-8192-tool-use-preview",
   "created_by": "groq",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.19,
     "output": 0.19
   },
   "_generated": {
     "name": "2bca3163",
-    "pricing": "d6e60ec4"
+    "pricing": "d6e60ec4",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 8
+  "parameters": 8,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

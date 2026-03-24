@@ -3,12 +3,19 @@
   "name": "OpenRouter: arliai/qwq-32b-arliai-rpr-v1:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "qwq",
   "_generated": {
     "name": "2f7b00e2",
-    "family": "3a976110"
+    "family": "3a976110",
+    "model_type": "17475f7f",
+    "parameters": "6364d3f0",
+    "modalities": "68e53d93"
   },
   "model_type": "reasoning",
-  "parameters": 32
+  "parameters": 32,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

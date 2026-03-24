@@ -3,10 +3,11 @@
   "name": "mistral-next",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "status": "active",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -15,7 +16,7 @@
   "_generated": {
     "name": "303b8d59",
     "status": "379ac110",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "modalities": "68e53d93",
     "model_type": "d669f408",
     "license": "60245731",

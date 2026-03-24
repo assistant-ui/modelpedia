@@ -3,15 +3,22 @@
   "name": "OpenRouter: nousresearch/hermes-2-pro-llama-3-8b",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.14,
     "output": 0.14
   },
   "_generated": {
     "name": "fcee2b0d",
-    "pricing": "046d6107"
+    "pricing": "046d6107",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 8
+  "parameters": 8,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

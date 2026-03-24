@@ -3,7 +3,7 @@
   "name": "Azure OpenAI: gpt-4-turbo",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gpt-4-turbo",
   "pricing": {
     "input": 10,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "c52a9d84",
     "family": "e55097d8",
-    "pricing": "d5468ada"
+    "pricing": "d5468ada",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

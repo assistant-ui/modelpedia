@@ -3,7 +3,7 @@
   "name": "Replicate: replicate-internal/llama-405b-instruct-vllm",
   "created_by": "replicate",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-405",
   "pricing": {
     "input": 9.5,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "e6ac8497",
     "family": "330ee2e4",
-    "pricing": "263cf14e"
+    "pricing": "263cf14e",
+    "model_type": "d669f408",
+    "parameters": "bbcbff5c",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 405
+  "parameters": 405,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

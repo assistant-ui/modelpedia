@@ -3,7 +3,7 @@
   "name": "Mistral: ministral-14b-2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "ministral",
   "model_type": "chat",
   "pricing": {
@@ -14,7 +14,13 @@
     "name": "6335e1a4",
     "family": "d6661e63",
     "model_type": "d669f408",
-    "pricing": "4a55a07f"
+    "pricing": "4a55a07f",
+    "parameters": "aab32389",
+    "modalities": "68e53d93"
   },
-  "parameters": 14
+  "parameters": 14,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

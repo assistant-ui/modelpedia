@@ -3,7 +3,7 @@
   "name": "xAI: grok-4.20-experimental-beta-0304-non-reasoning",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "grok-4.20",
   "model_type": "reasoning",
   "pricing": {
@@ -14,6 +14,11 @@
     "name": "08ec009e",
     "family": "44972aca",
     "model_type": "17475f7f",
-    "pricing": "e205efd3"
+    "pricing": "e205efd3",
+    "modalities": "68e53d93"
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

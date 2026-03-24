@@ -3,15 +3,22 @@
   "name": "OpenRouter: nousresearch/nous-hermes-llama2-13b",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.18,
     "output": 0.18
   },
   "_generated": {
     "name": "1a2588ac",
-    "pricing": "bd10cf29"
+    "pricing": "bd10cf29",
+    "model_type": "d669f408",
+    "parameters": "c51ce410",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 13
+  "parameters": 13,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

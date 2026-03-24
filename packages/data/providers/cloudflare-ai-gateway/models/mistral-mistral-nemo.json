@@ -3,7 +3,7 @@
   "name": "Mistral: mistral-nemo",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "chat",
   "pricing": {
     "input": 0.02,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "9754c1c1",
     "model_type": "d669f408",
-    "pricing": "6fc99b9e"
+    "pricing": "6fc99b9e",
+    "family": "75e1af53",
+    "modalities": "68e53d93"
   },
-  "family": "mistral-nemo"
+  "family": "mistral-nemo",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

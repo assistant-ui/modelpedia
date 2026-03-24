@@ -3,7 +3,7 @@
   "name": "Google: Gemma 3 12B",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gemma-3",
   "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
   "context_window": 131072,
@@ -12,7 +12,8 @@
     "output": ["text"]
   },
   "capabilities": {
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.04,
@@ -24,7 +25,7 @@
     "description": "74f4d36c",
     "context_window": "f7de594e",
     "modalities": "6399757e",
-    "capabilities": "c8033cf7",
+    "capabilities": "dbb5b7fe",
     "pricing": "5bd70b32",
     "model_type": "d669f408",
     "parameters": "c20ad4d7",

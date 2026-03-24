@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen-Plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen",
   "description": "Qwen-Plus, based on the Qwen2.5 foundation model, is a 131K context model with a balanced performance, speed, and cost combination.",
   "context_window": 1000000,
@@ -14,7 +14,8 @@
   },
   "capabilities": {
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.26,
@@ -28,7 +29,7 @@
     "context_window": "8155bc54",
     "max_output_tokens": "f4376436",
     "modalities": "68e53d93",
-    "capabilities": "ad177261",
+    "capabilities": "6c9aa67e",
     "pricing": "9ff76ad2",
     "model_type": "d669f408",
     "release_date": "1e2d6a9b",

@@ -3,7 +3,7 @@
   "name": "Groq: meta-llama/llama-guard-4-12b",
   "created_by": "groq",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "llama-guard",
   "model_type": "chat",
   "pricing": {
@@ -15,7 +15,12 @@
     "family": "3190be28",
     "model_type": "d669f408",
     "pricing": "4a55a07f",
-    "parameters": "c20ad4d7"
+    "parameters": "c20ad4d7",
+    "modalities": "68e53d93"
   },
-  "parameters": 12
+  "parameters": 12,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

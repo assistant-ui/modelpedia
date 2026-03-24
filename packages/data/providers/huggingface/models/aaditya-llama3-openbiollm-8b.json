@@ -3,17 +3,18 @@
   "name": "Llama3-OpenBioLLM-8B",
   "created_by": "aaditya",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "page_url": "https://huggingface.co/aaditya/Llama3-OpenBioLLM-8B",
   "model_type": "chat",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "f0cd661f",
     "page_url": "e81948cf",
     "model_type": "d669f408",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "description": "71aebfb5",
     "release_date": "fd79eb8a",
     "context_window": "77441296",

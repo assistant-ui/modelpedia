@@ -3,15 +3,22 @@
   "name": "OpenRouter: z-ai/glm-5-turbo",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.96,
     "output": 3.1999999999999997
   },
   "_generated": {
     "name": "50d5bc09",
-    "pricing": "6b392be1"
+    "pricing": "6b392be1",
+    "family": "309daa86",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "glm-5",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }
