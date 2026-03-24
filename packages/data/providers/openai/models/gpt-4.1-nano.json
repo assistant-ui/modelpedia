@@ -20,7 +20,7 @@
     "tool_call": true,
     "structured_output": true,
     "fine_tuning": true,
-    "json_mode": false,
+    "json_mode": true,
     "reasoning": false,
     "batch": true
   },
@@ -73,7 +73,7 @@
     "performance": "c81e728d",
     "speed": "e4da3b7f",
     "tagline": "a2353111",
-    "capabilities": "6cb993a0",
+    "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
     "pricing": "aa763141",
     "tools": "f0c1dc7e",

@@ -3,11 +3,13 @@
   "name": "grok-imagine-image",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "release_date": "2026-01-28",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "batch": true,
+    "vision": true
   },
   "family": "grok-imagine",
   "model_type": "image",
@@ -18,7 +20,7 @@
   "_generated": {
     "name": "912e2434",
     "release_date": "7b38667e",
-    "capabilities": "48995a4e",
+    "capabilities": "5700f071",
     "family": "a4576b5e",
     "model_type": "db8857fe",
     "modalities": "bbf9b8bb",

@@ -9,7 +9,9 @@
     "streaming": true,
     "tool_call": true,
     "structured_output": true,
-    "json_mode": true
+    "json_mode": true,
+    "batch": true,
+    "vision": true
   },
   "family": "grok-4",
   "context_window": 2000000,
@@ -25,19 +27,18 @@
   "_generated": {
     "name": "0eda431f",
     "release_date": "e4be41d6",
-    "capabilities": "85ac183e",
+    "capabilities": "3c639632",
     "family": "0d5416ff",
     "context_window": "805f7438",
     "modalities": "6399757e",
     "pricing": "25a4c630",
-    "model_type": "17475f7f",
     "license": "9186c466",
     "page_url": "acec5ea3",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "knowledge_cutoff": "88ec15a4"
   },
-  "model_type": "reasoning",
+  "model_type": "chat",
   "license": "proprietary",
   "page_url": "https://docs.x.ai/docs/models#grok-4-1-fast-non-reasoning",
   "open_weight": false,

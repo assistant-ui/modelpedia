@@ -20,7 +20,7 @@
     "vision": true,
     "tool_call": true,
     "structured_output": true,
-    "json_mode": false,
+    "json_mode": true,
     "fine_tuning": false,
     "reasoning": false
   },
@@ -69,7 +69,7 @@
     "performance": "eccbc87e",
     "speed": "eccbc87e",
     "tagline": "aa4c32a7",
-    "capabilities": "54133dda",
+    "capabilities": "ba4a328d",
     "modalities": "6399757e",
     "pricing": "745a23d5",
     "tools": "1d5a765f",

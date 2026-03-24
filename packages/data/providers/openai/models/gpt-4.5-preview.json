@@ -18,7 +18,7 @@
     "vision": true,
     "tool_call": true,
     "structured_output": true,
-    "json_mode": false,
+    "json_mode": true,
     "fine_tuning": false,
     "reasoning": false,
     "batch": true
@@ -64,7 +64,7 @@
     "performance": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "956dc0c5",
-    "capabilities": "3edceb05",
+    "capabilities": "299e8d16",
     "modalities": "6399757e",
     "pricing": "812da844",
     "endpoints": "1c48b50a",

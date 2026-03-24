@@ -3,12 +3,13 @@
   "name": "grok-3",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-24",
   "release_date": "2025-04-04",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "context_window": 131072,
   "description": "Grok 3 is the latest model from xAI.",
@@ -18,13 +19,24 @@
   },
   "_generated": {
     "name": "c41798c6",
-    "description": "d4641309",
-    "context_window": "f7de594e",
     "release_date": "ba6f7b94",
-    "capabilities": "1d6c1abb",
-    "modalities": "68e53d93"
+    "capabilities": "85ac183e",
+    "context_window": "f7de594e",
+    "description": "d4641309",
+    "modalities": "68e53d93",
+    "family": "c41798c6",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "status": "2e2f74dc",
+    "tagline": "d4641309",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
   },
   "family": "grok-3",
   "model_type": "chat",
-  "license": "proprietary"
+  "license": "proprietary",
+  "status": "deprecated",
+  "tagline": "Grok 3 is the latest model from xAI.",
+  "open_weight": false,
+  "tools": ["function_calling"]
 }

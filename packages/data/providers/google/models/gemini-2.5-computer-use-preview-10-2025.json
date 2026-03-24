@@ -18,8 +18,8 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image"]
+    "input": ["text", "image"],
+    "output": ["text"]
   },
   "pricing": {
     "input": 1.25,
@@ -51,7 +51,7 @@
     "context_window": "34434798",
     "max_output_tokens": "762e98db",
     "capabilities": "fdff467b",
-    "modalities": "08235294",
+    "modalities": "6399757e",
     "pricing": "85718a80",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
