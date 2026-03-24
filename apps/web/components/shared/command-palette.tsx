@@ -12,8 +12,6 @@ import {
   CommandList,
 } from "@/components/ui/command";
 import { cn } from "@/lib/cn";
-import { PROVIDER_TYPE_TIER } from "@/lib/constants";
-import { getProvider } from "@/lib/data";
 import { multiSearch } from "@/lib/search";
 
 interface SearchItem {
@@ -40,17 +38,18 @@ function ItemIcon({ html, size }: { html: string; size: string }) {
 export function CommandPalette({
   pages,
   providers,
-  models,
 }: {
   pages: SearchItem[];
   providers: SearchItem[];
-  models: SearchItem[];
 }) {
   const [mounted, setMounted] = useState(false);
   const [visible, setVisible] = useState(false);
   const [query, setQuery] = useState("");
+  const [modelResults, setModelResults] = useState<SearchItem[]>([]);
+  const [loading, setLoading] = useState(false);
   const router = useRouter();
   const closingRef = useRef(false);
+  const abortRef = useRef<AbortController | null>(null);
 
   const open = useCallback(() => {
     if (closingRef.current) return;
@@ -67,6 +66,7 @@ export function CommandPalette({
     setTimeout(() => {
       setMounted(false);
       setQuery("");
+      setModelResults([]);
       closingRef.current = false;
     }, 200);
   }, []);
@@ -103,6 +103,35 @@ export function CommandPalette({
     return () => document.removeEventListener("keydown", down);
   }, [mounted, close, open]);
 
+  // Fetch model results from API when query changes
+  useEffect(() => {
+    if (query.length < 2) {
+      setModelResults([]);
+      return;
+    }
+
+    abortRef.current?.abort();
+    const controller = new AbortController();
+    abortRef.current = controller;
+
+    setLoading(true);
+    fetch(`/api/search?q=${encodeURIComponent(query)}`, {
+      signal: controller.signal,
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (!controller.signal.aborted) {
+          setModelResults(data.models ?? []);
+          setLoading(false);
+        }
+      })
+      .catch(() => {
+        if (!controller.signal.aborted) setLoading(false);
+      });
+
+    return () => controller.abort();
+  }, [query]);
+
   const filteredPages = useMemo(
     () => (query ? multiSearch(pages, query, { target: (p) => p.name }) : []),
     [query, pages],
@@ -114,26 +143,6 @@ export function CommandPalette({
     [query, providers],
   );
 
-  const filteredModels = useMemo(
-    () =>
-      query.length < 2
-        ? []
-        : multiSearch(models, query, {
-            target: (m) => `${m.name} ${m.sub ?? ""} ${m.id}`,
-            bonus: (m) => {
-              let b = 0;
-              if (m.name.toLowerCase() === query.toLowerCase()) b += 30;
-              const provider = m.href.split("/")[1];
-              b +=
-                PROVIDER_TYPE_TIER[getProvider(provider)?.type ?? "direct"] ??
-                0;
-              return b;
-            },
-            limit: 20,
-          }),
-    [query, models],
-  );
-
   function select(href: string) {
     close();
     setTimeout(() => router.push(href), 200);
@@ -142,7 +151,7 @@ export function CommandPalette({
   const hasResults =
     filteredPages.length > 0 ||
     filteredProviders.length > 0 ||
-    filteredModels.length > 0;
+    modelResults.length > 0;
 
   return (
     <>
@@ -180,7 +189,7 @@ export function CommandPalette({
                 autoFocus
               />
               <CommandList>
-                {query.length > 0 && !hasResults && (
+                {query.length > 0 && !hasResults && !loading && (
                   <CommandEmpty>No results found.</CommandEmpty>
                 )}
 
@@ -245,9 +254,9 @@ export function CommandPalette({
                   </CommandGroup>
                 )}
 
-                {filteredModels.length > 0 && (
+                {modelResults.length > 0 && (
                   <CommandGroup heading="Models">
-                    {filteredModels.map((item) => (
+                    {modelResults.map((item) => (
                       <CommandItem
                         key={item.id}
                         value={item.id}

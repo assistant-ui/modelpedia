@@ -5,6 +5,16 @@ import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { prettyJSON } from "hono/pretty-json";
 import { handleMcp } from "./mcp";
+import {
+  aggregateByKey,
+  aggregateCapabilities,
+  aggregateFamilies,
+  comparePricing,
+  filterModels,
+  type SortField,
+  searchAll,
+  sortModels,
+} from "./query";
 
 type Env = {
   Bindings: {
@@ -165,64 +175,19 @@ app.get("/providers/:id", (c) => {
 // ── GET /v1/models ──
 
 app.get("/models", (c) => {
-  let models: Model[] = [...allModels];
+  const models = filterModels([...allModels], {
+    provider: c.req.query("provider"),
+    family: c.req.query("family"),
+    creator: c.req.query("creator"),
+    status: c.req.query("status"),
+    capability: c.req.query("capability"),
+    q: c.req.query("q"),
+  });
 
-  const provider = c.req.query("provider");
-  if (provider) models = models.filter((m) => m.provider === provider);
-
-  const family = c.req.query("family");
-  if (family) models = models.filter((m) => m.family === family);
-
-  const creator = c.req.query("creator");
-  if (creator) models = models.filter((m) => m.created_by === creator);
-
-  const status = c.req.query("status");
-  if (status) models = models.filter((m) => m.status === status);
-
-  const capability = c.req.query("capability");
-  if (capability) {
-    models = models.filter(
-      (m) => m.capabilities?.[capability as keyof typeof m.capabilities],
-    );
-  }
-
-  const q = c.req.query("q")?.toLowerCase();
-  if (q) {
-    models = models.filter(
-      (m) =>
-        m.id.toLowerCase().includes(q) ||
-        m.name.toLowerCase().includes(q) ||
-        m.description?.toLowerCase().includes(q) ||
-        m.family?.toLowerCase().includes(q) ||
-        m.created_by?.toLowerCase().includes(q),
-    );
-  }
-
-  // Sort
-  const sort = c.req.query("sort");
-  const order = c.req.query("order") === "desc" ? -1 : 1;
+  const sort = c.req.query("sort") as SortField | undefined;
   if (sort) {
-    models.sort((a, b) => {
-      let va: number | string | undefined;
-      let vb: number | string | undefined;
-      if (sort === "price_input") {
-        va = a.pricing?.input ?? undefined;
-        vb = b.pricing?.input ?? undefined;
-      } else if (sort === "price_output") {
-        va = a.pricing?.output ?? undefined;
-        vb = b.pricing?.output ?? undefined;
-      } else if (sort === "context_window") {
-        va = a.context_window ?? undefined;
-        vb = b.context_window ?? undefined;
-      } else if (sort === "name") {
-        va = a.name.toLowerCase();
-        vb = b.name.toLowerCase();
-      }
-      if (va == null && vb == null) return 0;
-      if (va == null) return 1;
-      if (vb == null) return -1;
-      return va < vb ? -order : va > vb ? order : 0;
-    });
+    const order = c.req.query("order") === "desc" ? -1 : 1;
+    sortModels(models, sort, order as 1 | -1);
   }
 
   const { limit, offset } = paginate(c);
@@ -333,15 +298,7 @@ app.get("/models/recommend", (c) => {
     );
   }
 
-  // Sort: prefer models with pricing info, then by price (cheapest first)
-  models.sort((a, b) => {
-    const pa = a.pricing?.input;
-    const pb = b.pricing?.input;
-    if (pa == null && pb == null) return 0;
-    if (pa == null) return 1;
-    if (pb == null) return -1;
-    return pa - pb;
-  });
+  sortModels(models, "price_input");
 
   const { limit, offset } = paginate(c);
 
@@ -357,25 +314,9 @@ app.get("/models/recommend", (c) => {
 // ── GET /v1/models/types ──
 
 app.get("/models/types", (c) => {
-  const typeMap = new Map<string, { count: number; providers: Set<string> }>();
-
-  for (const m of allModels) {
-    const t = m.model_type ?? "unknown";
-    const entry = typeMap.get(t) ?? { count: 0, providers: new Set() };
-    entry.count++;
-    entry.providers.add(m.provider);
-    typeMap.set(t, entry);
-  }
-
-  const types = [...typeMap.entries()]
-    .map(([name, info]) => ({
-      name,
-      model_count: info.count,
-      provider_count: info.providers.size,
-    }))
-    .sort((a, b) => b.model_count - a.model_count);
-
-  return c.json(ok(types));
+  return c.json(
+    ok(aggregateByKey(allModels, (m) => m.model_type ?? "unknown")),
+  );
 });
 
 // ── GET /v1/models/:provider/:id ──
@@ -432,7 +373,6 @@ app.get("/pricing/compare", (c) => {
   let models: Model[];
 
   if (ids && ids.length > 0) {
-    // Compare specific models
     models = ids
       .map((id) => {
         const [provider, ...rest] = id.split("/");
@@ -440,87 +380,29 @@ app.get("/pricing/compare", (c) => {
       })
       .filter((m): m is Model => m != null);
   } else {
-    // Filter all models with pricing data
     models = allModels.filter(
       (m) => m.pricing?.input != null || m.pricing?.output != null,
     );
   }
 
-  // Optional price range filters
-  const minInput = Number(c.req.query("min_price_input")) || 0;
-  const maxInput = Number(c.req.query("max_price_input")) || 0;
-  if (minInput > 0) {
-    models = models.filter((m) => (m.pricing?.input ?? 0) >= minInput);
-  }
-  if (maxInput > 0) {
-    models = models.filter(
-      (m) => m.pricing?.input != null && m.pricing.input <= maxInput,
-    );
-  }
-
-  // Sort by input price ascending by default
-  const sort = c.req.query("sort") ?? "price_input";
-  const order = c.req.query("order") === "desc" ? -1 : 1;
-  models.sort((a, b) => {
-    const va =
-      sort === "price_output"
-        ? (a.pricing?.output ?? undefined)
-        : (a.pricing?.input ?? undefined);
-    const vb =
-      sort === "price_output"
-        ? (b.pricing?.output ?? undefined)
-        : (b.pricing?.input ?? undefined);
-    if (va == null && vb == null) return 0;
-    if (va == null) return 1;
-    if (vb == null) return -1;
-    return va < vb ? -order : va > vb ? order : 0;
+  const { limit, offset } = paginate(c);
+  const result = comparePricing(models, {
+    min_price_input: Number(c.req.query("min_price_input")) || undefined,
+    max_price_input: Number(c.req.query("max_price_input")) || undefined,
+    sort:
+      (c.req.query("sort") as "price_input" | "price_output") ?? "price_input",
+    order: (c.req.query("order") === "desc" ? -1 : 1) as 1 | -1,
+    limit,
+    offset,
   });
 
-  const { limit, offset } = paginate(c);
-
-  const result = models.slice(offset, offset + limit).map((m) => ({
-    id: `${m.provider}/${m.id}`,
-    name: m.name,
-    provider: m.provider,
-    model_type: m.model_type,
-    pricing: m.pricing,
-    context_window: m.context_window,
-  }));
-
-  return c.json(
-    ok(result, {
-      total: models.length,
-      limit,
-      offset,
-    }),
-  );
+  return c.json(ok(result.items, { total: result.total, limit, offset }));
 });
 
 // ── GET /v1/capabilities ──
 
 app.get("/capabilities", (c) => {
-  const capMap = new Map<string, { count: number; providers: Set<string> }>();
-
-  for (const m of allModels) {
-    if (!m.capabilities) continue;
-    for (const [key, val] of Object.entries(m.capabilities)) {
-      if (!val) continue;
-      const entry = capMap.get(key) ?? { count: 0, providers: new Set() };
-      entry.count++;
-      entry.providers.add(m.provider);
-      capMap.set(key, entry);
-    }
-  }
-
-  const capabilities = [...capMap.entries()]
-    .map(([name, info]) => ({
-      name,
-      model_count: info.count,
-      provider_count: info.providers.size,
-    }))
-    .sort((a, b) => b.model_count - a.model_count);
-
-  return c.json(ok(capabilities));
+  return c.json(ok(aggregateCapabilities(allModels)));
 });
 
 // ── GET /v1/modalities ──
@@ -554,100 +436,36 @@ app.get("/modalities", (c) => {
 // ── GET /v1/tools ──
 
 app.get("/tools", (c) => {
-  const toolMap = new Map<string, { count: number; providers: Set<string> }>();
-
-  for (const m of allModels) {
-    if (!m.tools) continue;
-    for (const tool of m.tools) {
-      const entry = toolMap.get(tool) ?? { count: 0, providers: new Set() };
-      entry.count++;
-      entry.providers.add(m.provider);
-      toolMap.set(tool, entry);
-    }
-  }
-
-  const tools = [...toolMap.entries()]
-    .map(([name, info]) => ({
-      name,
-      model_count: info.count,
-      provider_count: info.providers.size,
-    }))
-    .sort((a, b) => b.model_count - a.model_count);
-
-  return c.json(ok(tools));
+  return c.json(
+    ok(aggregateByKey(allModels, (m) => m.tools as string[] | undefined)),
+  );
 });
 
 // ── GET /v1/search ──
 
 app.get("/search", (c) => {
-  const q = c.req.query("q")?.toLowerCase();
+  const q = c.req.query("q");
   if (!q || q.length < 2)
     return c.json(err("Query must be at least 2 characters", 400), 400);
 
   const limit = Math.min(Number(c.req.query("limit")) || 20, 50);
+  const result = searchAll(q, limit);
 
-  const matchedProviders = providers
-    .filter(
-      (p) => p.name.toLowerCase().includes(q) || p.id.toLowerCase().includes(q),
-    )
-    .slice(0, 5)
-    .map((p) => ({
-      type: "provider",
-      id: p.id,
-      name: p.name,
-      url: `/${p.id}`,
-    }));
-
-  const matchedModels = allModels
-    .filter(
-      (m) =>
-        m.id.toLowerCase().includes(q) ||
-        m.name.toLowerCase().includes(q) ||
-        m.family?.toLowerCase().includes(q),
-    )
-    .slice(0, limit)
-    .map((m) => ({
-      type: "model",
-      id: `${m.provider}/${m.id}`,
-      name: m.name,
-      provider: m.provider,
-      url: `/${m.provider}/${m.id}`,
-    }));
-
-  return c.json(ok({ providers: matchedProviders, models: matchedModels }));
+  return c.json(
+    ok({
+      providers: result.providers.map((p) => ({ ...p, url: `/${p.id}` })),
+      models: result.models.map((m) => ({
+        ...m,
+        url: `/${m.provider}/${m.id.split("/").slice(1).join("/")}`,
+      })),
+    }),
+  );
 });
 
 // ── GET /v1/families ──
 
 app.get("/families", (c) => {
-  const familyMap = new Map<
-    string,
-    { count: number; providers: Set<string>; creators: Set<string> }
-  >();
-
-  for (const m of allModels) {
-    if (!m.family) continue;
-    const entry = familyMap.get(m.family) ?? {
-      count: 0,
-      providers: new Set(),
-      creators: new Set(),
-    };
-    entry.count++;
-    entry.providers.add(m.provider);
-    if (m.created_by) entry.creators.add(m.created_by);
-    familyMap.set(m.family, entry);
-  }
-
-  const families = [...familyMap.entries()]
-    .map(([name, info]) => ({
-      name,
-      model_count: info.count,
-      providers: [...info.providers],
-      creators: [...info.creators],
-    }))
-    .sort((a, b) => b.model_count - a.model_count);
-
-  return c.json(ok(families));
+  return c.json(ok(aggregateFamilies(allModels)));
 });
 
 // ── Export ──
