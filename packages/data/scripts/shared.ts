@@ -699,6 +699,14 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     }
   }
 
+  // endpoints containing "batch" implies batch capability
+  if (data.capabilities && Array.isArray(data.endpoints)) {
+    const c = data.capabilities as Record<string, unknown>;
+    if ((data.endpoints as string[]).includes("batch") && c.batch == null) {
+      c.batch = true;
+    }
+  }
+
   // Auto-default modalities for chat/reasoning/code models
   if (!data.modalities && data.model_type) {
     const chatTypes = new Set([
