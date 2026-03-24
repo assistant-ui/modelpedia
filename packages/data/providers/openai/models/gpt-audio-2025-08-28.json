@@ -17,7 +17,12 @@
   "tagline": "The gpt-audio model is our first generally available audio model.",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "vision": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
   },
   "modalities": {
     "input": ["text", "audio"],
@@ -64,7 +69,7 @@
     "performance": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "3fd8480f",
-    "capabilities": "48995a4e",
+    "capabilities": "e8cba1a0",
     "modalities": "cf05925d",
     "pricing": "6013bf87",
     "endpoints": "d8fa1080",

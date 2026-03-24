@@ -158,6 +158,14 @@ function generate() {
       if (caps.structured_output && caps.json_mode == null) {
         caps.json_mode = true;
       }
+      // endpoints containing "batch" implies batch capability
+      if (
+        Array.isArray(m.endpoints) &&
+        (m.endpoints as string[]).includes("batch") &&
+        caps.batch == null
+      ) {
+        caps.batch = true;
+      }
     }
   }
 

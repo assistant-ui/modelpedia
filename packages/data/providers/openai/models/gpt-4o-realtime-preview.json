@@ -14,7 +14,13 @@
   "speed": 4,
   "tagline": "Model capable of realtime text and audio inputs and outputs",
   "capabilities": {
-    "tool_call": true
+    "tool_call": true,
+    "streaming": false,
+    "vision": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
   },
   "modalities": {
     "input": ["text", "audio"],
@@ -66,7 +72,7 @@
     "performance": "eccbc87e",
     "speed": "a87ff679",
     "tagline": "03ab6452",
-    "capabilities": "ce9e2425",
+    "capabilities": "67f48281",
     "modalities": "cf05925d",
     "pricing": "f059fd86",
     "endpoints": "c7ed7203",

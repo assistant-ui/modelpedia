@@ -19,7 +19,12 @@
   "tagline": "The o1 reasoning model is designed to solve hard problems across domains.",
   "capabilities": {
     "streaming": true,
-    "reasoning": true
+    "reasoning": true,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false
   },
   "modalities": {
     "input": ["text"],
@@ -64,7 +69,7 @@
     "reasoning": "eccbc87e",
     "speed": "c81e728d",
     "tagline": "e5702aa7",
-    "capabilities": "b011c6b4",
+    "capabilities": "b9aba792",
     "modalities": "68e53d93",
     "pricing": "ea08eb92",
     "endpoints": "6558e44b",

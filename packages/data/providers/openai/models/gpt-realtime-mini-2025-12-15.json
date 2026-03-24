@@ -15,7 +15,13 @@
   "speed": 5,
   "tagline": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
   "capabilities": {
-    "tool_call": true
+    "tool_call": true,
+    "streaming": false,
+    "vision": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
   },
   "modalities": {
     "input": ["text", "image", "audio"],
@@ -73,7 +79,7 @@
     "performance": "a87ff679",
     "speed": "e4da3b7f",
     "tagline": "54827e41",
-    "capabilities": "ce9e2425",
+    "capabilities": "67f48281",
     "modalities": "d78a8420",
     "pricing": "dffaf5b0",
     "endpoints": "c7ed7203",

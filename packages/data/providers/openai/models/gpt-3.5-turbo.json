@@ -16,7 +16,14 @@
   "tagline": "Legacy GPT model for cheaper chat and non-chat tasks",
   "successor": "gpt-4o-mini",
   "capabilities": {
-    "fine_tuning": true
+    "fine_tuning": true,
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "reasoning": false,
+    "batch": true
   },
   "modalities": {
     "input": ["text"],
@@ -79,7 +86,7 @@
     "speed": "c81e728d",
     "tagline": "7d9cd0cf",
     "successor": "86dcd1b7",
-    "capabilities": "d53dc8e8",
+    "capabilities": "b1cc1d6c",
     "modalities": "68e53d93",
     "pricing": "2cf1d383",
     "endpoints": "b36a99d3",

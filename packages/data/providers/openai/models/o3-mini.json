@@ -18,11 +18,13 @@
   "tagline": "A small model alternative to o3",
   "capabilities": {
     "streaming": true,
-    "vision": true,
+    "vision": false,
     "tool_call": true,
     "structured_output": true,
     "reasoning": true,
-    "json_mode": true
+    "json_mode": false,
+    "fine_tuning": false,
+    "batch": true
   },
   "modalities": {
     "input": ["text"],
@@ -69,7 +71,7 @@
     "reasoning": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "b94a0450",
-    "capabilities": "4175d4df",
+    "capabilities": "634ba283",
     "modalities": "68e53d93",
     "pricing": "ea08eb92",
     "tools": "f0c1dc7e",

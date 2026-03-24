@@ -14,7 +14,12 @@
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "tool_call": true
+    "tool_call": true,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false,
+    "batch": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -31,7 +36,7 @@
     "max_output_tokens": "f7efa4f8",
     "performance": "c81e728d",
     "speed": "eccbc87e",
-    "capabilities": "fc36814c",
+    "capabilities": "5dc39f53",
     "modalities": "6399757e",
     "endpoints": "1c48b50a",
     "description": "43471c17",

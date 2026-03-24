@@ -21,7 +21,8 @@
     "tool_call": true,
     "structured_output": true,
     "reasoning": true,
-    "json_mode": true
+    "json_mode": false,
+    "fine_tuning": false
   },
   "modalities": {
     "input": ["text", "image"],
@@ -60,7 +61,7 @@
     "reasoning": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "6d7373b5",
-    "capabilities": "4175d4df",
+    "capabilities": "ab874a2e",
     "modalities": "6399757e",
     "pricing": "d90562d8",
     "endpoints": "acb164ea",

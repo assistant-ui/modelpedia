@@ -16,7 +16,13 @@
   "speed": 5,
   "tagline": "A cost-efficient version of GPT Audio.",
   "capabilities": {
-    "tool_call": true
+    "tool_call": true,
+    "streaming": false,
+    "vision": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
   },
   "modalities": {
     "input": ["text", "audio"],
@@ -63,7 +69,7 @@
     "performance": "a87ff679",
     "speed": "e4da3b7f",
     "tagline": "24fe34a9",
-    "capabilities": "ce9e2425",
+    "capabilities": "67f48281",
     "modalities": "cf05925d",
     "pricing": "21a3a525",
     "endpoints": "d8fa1080",

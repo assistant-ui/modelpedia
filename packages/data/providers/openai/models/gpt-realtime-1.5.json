@@ -14,7 +14,13 @@
   "speed": 4,
   "tagline": "The best voice model for audio in, audio out.",
   "capabilities": {
-    "tool_call": true
+    "tool_call": true,
+    "streaming": false,
+    "vision": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
   },
   "modalities": {
     "input": ["text", "audio", "image"],
@@ -73,7 +79,7 @@
     "performance": "e4da3b7f",
     "speed": "a87ff679",
     "tagline": "25bac9df",
-    "capabilities": "ce9e2425",
+    "capabilities": "67f48281",
     "modalities": "96cad1df",
     "pricing": "e5a44c7e",
     "endpoints": "c7ed7203",

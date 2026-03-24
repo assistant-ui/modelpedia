@@ -12,7 +12,14 @@
   "performance": 1,
   "speed": 2,
   "capabilities": {
-    "fine_tuning": true
+    "fine_tuning": true,
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "reasoning": false,
+    "batch": true
   },
   "modalities": {
     "input": ["text"],
@@ -28,7 +35,7 @@
     "max_output_tokens": "f7efa4f8",
     "performance": "c4ca4238",
     "speed": "c81e728d",
-    "capabilities": "d53dc8e8",
+    "capabilities": "b1cc1d6c",
     "modalities": "68e53d93",
     "endpoints": "ec55a017",
     "model_type": "d669f408",

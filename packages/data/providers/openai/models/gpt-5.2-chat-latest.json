@@ -20,7 +20,9 @@
     "vision": true,
     "tool_call": true,
     "structured_output": true,
-    "json_mode": true
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
   },
   "modalities": {
     "input": ["text", "image"],
@@ -67,7 +69,7 @@
     "performance": "eccbc87e",
     "speed": "eccbc87e",
     "tagline": "aa4c32a7",
-    "capabilities": "96c3a656",
+    "capabilities": "54133dda",
     "modalities": "6399757e",
     "pricing": "745a23d5",
     "tools": "1d5a765f",

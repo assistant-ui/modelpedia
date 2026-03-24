@@ -21,8 +21,10 @@
     "tool_call": true,
     "structured_output": true,
     "reasoning": true,
-    "fine_tuning": true,
-    "json_mode": true
+    "fine_tuning": false,
+    "json_mode": false,
+    "vision": false,
+    "batch": true
   },
   "modalities": {
     "input": ["text"],
@@ -45,7 +47,7 @@
     "reasoning": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "254cefba",
-    "capabilities": "c25050ad",
+    "capabilities": "1bfaf8e4",
     "modalities": "68e53d93",
     "tools": "67477b86",
     "endpoints": "6f01fd6c",

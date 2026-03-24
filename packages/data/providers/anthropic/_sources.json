@@ -1,5 +1,8 @@
 {
   "models": "https://platform.claude.com/docs/en/about-claude/models/overview.md",
   "pricing": "https://platform.claude.com/docs/en/about-claude/pricing.md",
-  "api": "https://api.anthropic.com/v1/models"
+  "api": "https://api.anthropic.com/v1/models",
+  "structured_outputs": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs",
+  "batch": "https://platform.claude.com/docs/en/build-with-claude/batch-processing",
+  "deprecations": "https://platform.claude.com/docs/en/about-claude/model-deprecations.md"
 }

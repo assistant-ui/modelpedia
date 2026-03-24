@@ -15,7 +15,14 @@
   "speed": 2,
   "tagline": "Legacy GPT model for cheaper chat and non-chat tasks",
   "capabilities": {
-    "fine_tuning": true
+    "fine_tuning": true,
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "reasoning": false,
+    "batch": true
   },
   "modalities": {
     "input": ["text"],
@@ -58,7 +65,7 @@
     "performance": "c4ca4238",
     "speed": "c81e728d",
     "tagline": "7d9cd0cf",
-    "capabilities": "d53dc8e8",
+    "capabilities": "b1cc1d6c",
     "modalities": "68e53d93",
     "pricing": "5f8a1a5e",
     "endpoints": "ec55a017",

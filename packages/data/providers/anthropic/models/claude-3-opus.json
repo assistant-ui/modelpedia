@@ -3,12 +3,13 @@
   "name": "Claude Opus 3",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "claude-opus",
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "tool_call": true
+    "tool_call": true,
+    "batch": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -27,7 +28,7 @@
   "_generated": {
     "name": "bcdcd8bd",
     "family": "4e4c4b18",
-    "capabilities": "fc36814c",
+    "capabilities": "29417d42",
     "modalities": "6399757e",
     "pricing": "68f59998",
     "tools": "f0c1dc7e",
@@ -35,10 +36,14 @@
     "model_type": "d669f408",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "page_url": "9f5c4e87"
+    "page_url": "9f5c4e87",
+    "status": "2e2f74dc",
+    "successor": "01ea5f9f"
   },
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
-  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-3-opus"
+  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-3-opus",
+  "status": "deprecated",
+  "successor": "claude-opus-4-6"
 }

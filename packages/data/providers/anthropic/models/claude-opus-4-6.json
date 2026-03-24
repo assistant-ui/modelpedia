@@ -3,7 +3,7 @@
   "name": "Claude Opus 4.6",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "claude-opus",
   "description": "The most intelligent model for building agents and coding",
   "status": "active",
@@ -18,7 +18,10 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "reasoning": true
+    "reasoning": true,
+    "structured_output": true,
+    "json_mode": true,
+    "batch": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -50,7 +53,7 @@
     "reasoning": "e4da3b7f",
     "speed": "eccbc87e",
     "tagline": "38adf84d",
-    "capabilities": "a19166f1",
+    "capabilities": "1616fc33",
     "modalities": "6399757e",
     "pricing": "714a9045",
     "tools": "abde16bc",

@@ -237,6 +237,86 @@ function parsePricingMarkdown(md: string): {
   return { pricing, batch };
 }
 
+// ── Parse deprecations page ──
+
+interface DeprecationInfo {
+  status: "active" | "deprecated" | "legacy" | "retired";
+  deprecation_date?: string;
+  retirement_date?: string;
+  successor?: string;
+}
+
+function parseDeprecationsMarkdown(md: string): Map<string, DeprecationInfo> {
+  const result = new Map<string, DeprecationInfo>();
+  const lines = md.split("\n");
+  let i = 0;
+
+  // 1. Parse the main model status table
+  while (i < lines.length) {
+    if (
+      lines[i].startsWith("|") &&
+      /api model name/i.test(lines[i]) &&
+      /current state/i.test(lines[i])
+    ) {
+      break;
+    }
+    i++;
+  }
+  if (i < lines.length) {
+    const tableLines: string[] = [];
+    while (i < lines.length && lines[i].startsWith("|")) {
+      tableLines.push(lines[i]);
+      i++;
+    }
+    const rows = parseMarkdownTable(tableLines);
+    for (const row of rows.slice(1)) {
+      const id = row[0]?.replace(/`/g, "").trim();
+      const state = row[1]?.toLowerCase().trim() as DeprecationInfo["status"];
+      const depDate = row[2]?.trim();
+      const retDate = row[3]?.trim();
+      if (!id || !state) continue;
+      result.set(id, {
+        status: state,
+        deprecation_date: /\d{4}/.test(depDate ?? "")
+          ? normalizeDate(depDate!)
+          : undefined,
+        retirement_date: /\d{4}/.test(retDate ?? "")
+          ? normalizeDate(retDate!.replace(/^Not sooner than\s*/i, ""))
+          : undefined,
+      });
+    }
+  }
+
+  // 2. Parse deprecation history tables for successor mappings
+  for (; i < lines.length; i++) {
+    if (
+      !lines[i].startsWith("|") ||
+      !/deprecated model/i.test(lines[i]) ||
+      !/replacement/i.test(lines[i])
+    )
+      continue;
+    const tableLines: string[] = [];
+    while (i < lines.length && lines[i].startsWith("|")) {
+      tableLines.push(lines[i]);
+      i++;
+    }
+    const rows = parseMarkdownTable(tableLines);
+    for (const row of rows.slice(1)) {
+      const depModel = row[1]?.replace(/`/g, "").trim();
+      const replacement = row[2]?.replace(/`/g, "").trim();
+      if (!depModel || !replacement) continue;
+      const existing = result.get(depModel);
+      if (existing) {
+        existing.successor = replacement;
+      } else {
+        result.set(depModel, { status: "retired", successor: replacement });
+      }
+    }
+  }
+
+  return result;
+}
+
 // ── Name → ID mapping ──
 
 const NAME_TO_ID: Record<string, string> = {
@@ -300,16 +380,20 @@ async function fetchApiModels(apiKey: string): Promise<Map<string, ApiModel>> {
 async function main() {
   console.log("Fetching Anthropic models from docs (.md)...");
 
-  const [modelsMd, pricingMd] = await Promise.all([
+  const DEPRECATIONS_MD = sources.deprecations as string;
+
+  const [modelsMd, pricingMd, deprecationsMd] = await Promise.all([
     fetch(MODELS_MD).then((r) => r.text()),
     fetch(PRICING_MD).then((r) => r.text()),
+    fetch(DEPRECATIONS_MD).then((r) => r.text()),
   ]);
 
   const specs = parseModelsMarkdown(modelsMd);
   const { pricing, batch } = parsePricingMarkdown(pricingMd);
+  const deprecations = parseDeprecationsMarkdown(deprecationsMd);
 
   console.log(
-    `Parsed: ${specs.length} models from docs, ${pricing.size} pricing, ${batch.size} batch`,
+    `Parsed: ${specs.length} models from docs, ${pricing.size} pricing, ${batch.size} batch, ${deprecations.size} deprecation entries`,
   );
 
   // Optional API for release dates
@@ -380,11 +464,19 @@ async function main() {
     // Priority tier: all current models support it
     if (!spec.deprecated) anthropicFields.priority_tier = true;
 
-    // Successor for deprecated models
-    let successor: string | undefined;
-    if (spec.deprecated) {
-      if (id.includes("claude-3-haiku")) successor = "claude-haiku-4-5";
-    }
+    // Deprecation info from deprecations page
+    // Try exact match first, then find snapshot entries that start with this alias
+    const dep =
+      deprecations.get(id) ??
+      [...deprecations.entries()].find(
+        ([k]) => k.startsWith(`${id}-`) && /\d{8}$/.test(k),
+      )?.[1];
+    const status =
+      dep?.status === "retired" || dep?.status === "deprecated"
+        ? "deprecated"
+        : spec.deprecated
+          ? "deprecated"
+          : "active";
 
     const entry: ModelEntry = {
       id,
@@ -393,7 +485,9 @@ async function main() {
       description: spec.description,
       license: "proprietary",
       page_url: `https://docs.anthropic.com/en/docs/about-claude/models#${id}`,
-      status: spec.deprecated ? "deprecated" : "active",
+      status,
+      deprecation_date: dep?.deprecation_date,
+      successor: dep?.successor,
       context_window: spec.context_window,
       max_output_tokens: spec.max_output_tokens,
       knowledge_cutoff: spec.knowledge_cutoff,
@@ -408,11 +502,13 @@ async function main() {
         streaming: true,
         vision: true,
         tool_call: true,
-        ...(spec.extended_thinking ? { reasoning: true } : {}),
+        ...(!spec.deprecated ? { batch: true } : {}),
+        ...(spec.extended_thinking
+          ? { reasoning: true, structured_output: true, json_mode: true }
+          : {}),
       },
       tools,
       endpoints: ["messages"],
-      successor,
       ...anthropicFields,
       ...extra,
     } as ModelEntry;
@@ -477,14 +573,29 @@ async function main() {
     seen.add(id);
     const b = findBatch(name);
     const apiModel = apiModels.get(id);
+    const dep =
+      deprecations.get(id) ??
+      [...deprecations.entries()].find(
+        ([k]) => k.startsWith(`${id}-`) && /\d{8}$/.test(k),
+      )?.[1];
+    const isDeprecated =
+      dep?.status === "retired" || dep?.status === "deprecated";
     const entry: ModelEntry = {
       id,
       name,
       family: inferFamily(id),
       license: "proprietary",
       page_url: `https://docs.anthropic.com/en/docs/about-claude/models#${id}`,
+      status: isDeprecated ? "deprecated" : undefined,
+      deprecation_date: dep?.deprecation_date,
+      successor: dep?.successor,
       modalities: { input: ["text", "image"], output: ["text"] },
-      capabilities: { streaming: true, vision: true, tool_call: true },
+      capabilities: {
+        streaming: true,
+        vision: true,
+        tool_call: true,
+        ...(!isDeprecated ? { batch: true } : {}),
+      },
       tools: ["function_calling"],
       endpoints: ["messages"],
       pricing: {

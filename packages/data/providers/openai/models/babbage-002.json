@@ -14,7 +14,13 @@
   "tagline": "Replacement for the GPT-3 ada and babbage base models",
   "successor": "gpt-4o",
   "capabilities": {
-    "fine_tuning": true
+    "fine_tuning": true,
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "reasoning": false
   },
   "modalities": {
     "input": ["text"],
@@ -71,7 +77,7 @@
     "speed": "eccbc87e",
     "tagline": "5caceb1c",
     "successor": "15249632",
-    "capabilities": "d53dc8e8",
+    "capabilities": "77cb67d9",
     "modalities": "68e53d93",
     "pricing": "f860ed24",
     "endpoints": "69bfe5cd",
