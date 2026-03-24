@@ -2,7 +2,7 @@
   "id": "grok-2",
   "name": "Grok-2",
   "created_by": "xai",
-  "source": "manual",
+  "source": "community",
   "family": "grok-2",
   "description": "Grok-2 is xAI's frontier model with enhanced reasoning, tool use, and vision capabilities.",
   "tagline": "Frontier model with enhanced reasoning, tool use, and vision.",
