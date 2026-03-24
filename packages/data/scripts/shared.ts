@@ -683,6 +683,22 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     data.open_weight = data.license !== "proprietary";
   }
 
+  // Auto-infer fine_tuning for non-proprietary (open-weight) models
+  if (data.capabilities && data.license && data.license !== "proprietary") {
+    const c = data.capabilities as Record<string, unknown>;
+    if (c.fine_tuning == null) {
+      c.fine_tuning = true;
+    }
+  }
+
+  // structured_output implies json_mode
+  if (data.capabilities) {
+    const c = data.capabilities as Record<string, unknown>;
+    if (c.structured_output && c.json_mode == null) {
+      c.json_mode = true;
+    }
+  }
+
   // Auto-default modalities for chat/reasoning/code models
   if (!data.modalities && data.model_type) {
     const chatTypes = new Set([
