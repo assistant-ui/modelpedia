@@ -45,7 +45,9 @@ export function ModelDetailHeader({
         <h1 className="font-medium text-foreground text-lg tracking-tight">
           {model.name}
         </h1>
-        {model.model_type && <Badge>{model.model_type}</Badge>}
+        {model.model_type && model.model_type !== "chat" && (
+          <Badge>{model.model_type}</Badge>
+        )}
         {model.status === "deprecated" && (
           <Badge variant="red">deprecated</Badge>
         )}
