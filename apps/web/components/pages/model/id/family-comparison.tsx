@@ -83,17 +83,26 @@ const columns: ColumnDef<Model>[] = [
     cell: ({ row }) => {
       const m = row.original;
       return (
-        <div
+        <span
           className={cn(
-            "flex items-center gap-2",
+            "text-foreground",
             m.status === "deprecated" && "opacity-50",
           )}
         >
-          <span className="text-foreground">{m.name}</span>
-          {capBadges(m.capabilities)}
-        </div>
+          {m.name}
+        </span>
       );
     },
+  },
+  {
+    id: "caps",
+    header: "Caps",
+    enableSorting: false,
+    meta: {
+      className: "hidden md:table-cell",
+      headerClassName: "hidden md:table-cell",
+    },
+    cell: ({ row }) => capBadges(row.original.capabilities),
   },
   {
     id: "perf",
@@ -118,26 +127,24 @@ const columns: ColumnDef<Model>[] = [
   tokenColumn("context_window", "Context"),
   tokenColumn("max_output_tokens", "Max out"),
   {
-    id: "input_price",
+    id: "pricing",
     accessorFn: (row) => row.pricing?.input ?? -1,
-    header: "Input",
+    header: "Pricing",
     sortingFn: "basic",
-    cell: ({ row }) => (
-      <span className="font-mono text-foreground tabular-nums">
-        {formatPrice(row.original.pricing?.input)}
-      </span>
-    ),
-  },
-  {
-    id: "output_price",
-    accessorFn: (row) => row.pricing?.output ?? -1,
-    header: "Output",
-    sortingFn: "basic",
-    cell: ({ row }) => (
-      <span className="font-mono text-muted-foreground tabular-nums">
-        {formatPrice(row.original.pricing?.output)}
-      </span>
-    ),
+    cell: ({ row }) => {
+      const p = row.original.pricing;
+      if (p?.input == null && p?.output == null) return null;
+      return (
+        <span className="font-mono tabular-nums">
+          <span className="block text-foreground text-xs">
+            {formatPrice(p?.input)}
+          </span>
+          <span className="block text-muted-foreground text-xs">
+            {formatPrice(p?.output)}
+          </span>
+        </span>
+      );
+    },
   },
 ];
 

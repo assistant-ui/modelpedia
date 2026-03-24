@@ -3,7 +3,7 @@
   "name": "grok-4-fast-non-reasoning",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-24",
   "release_date": "2025-09-04",
   "capabilities": {
     "streaming": true,
@@ -13,9 +13,22 @@
     "name": "74756c0b",
     "release_date": "d9b57e93",
     "capabilities": "48995a4e",
-    "model_type": "17475f7f"
+    "model_type": "17475f7f",
+    "family": "0d5416ff",
+    "license": "9186c466",
+    "status": "2e2f74dc",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
   },
   "model_type": "reasoning",
   "family": "grok-4",
-  "license": "proprietary"
+  "license": "proprietary",
+  "status": "deprecated",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"]
 }

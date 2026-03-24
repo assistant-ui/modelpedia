@@ -22,7 +22,7 @@
     "tool_call": true,
     "structured_output": true,
     "reasoning": true,
-    "json_mode": false,
+    "json_mode": true,
     "streaming": false,
     "fine_tuning": false,
     "batch": true
@@ -69,7 +69,7 @@
     "reasoning": "a87ff679",
     "speed": "c4ca4238",
     "tagline": "ea477ac7",
-    "capabilities": "d2bc0db6",
+    "capabilities": "91876c96",
     "modalities": "6399757e",
     "pricing": "b31251fb",
     "endpoints": "6f01fd6c",

@@ -19,7 +19,7 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image"]
+    "output": ["text"]
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -30,7 +30,7 @@
     "max_output_tokens": "297ce0b3",
     "model_type": "17475f7f",
     "capabilities": "fdff467b",
-    "modalities": "08235294",
+    "modalities": "c569b149",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "family": "4b37ac1d",

@@ -18,8 +18,8 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "video", "audio"],
-    "output": ["text", "image"]
+    "input": ["text", "image"],
+    "output": ["text"]
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -30,7 +30,7 @@
     "context_window": "34434798",
     "max_output_tokens": "762e98db",
     "capabilities": "fdff467b",
-    "modalities": "08235294",
+    "modalities": "6399757e",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "model_type": "d669f408",

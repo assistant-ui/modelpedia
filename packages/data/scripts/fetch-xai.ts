@@ -6,6 +6,7 @@ import {
   normalizeDate,
   readSources,
   runGenerate,
+  upsertModel,
   upsertWithSnapshot,
 } from "./shared.ts";
 
@@ -49,7 +50,7 @@ function parseModalities(s: string): { input: string[]; output: string[] } {
 }
 
 function parseCaps(s: string): Record<string, boolean> {
-  const caps: Record<string, boolean> = { streaming: true };
+  const caps: Record<string, boolean> = { streaming: true, batch: true };
   if (s.includes("functions")) caps.tool_call = true;
   if (s.includes("structured")) caps.structured_output = true;
   if (s.includes("reasoning")) caps.reasoning = true;
@@ -195,7 +196,10 @@ async function main() {
       page_url: `https://docs.x.ai/docs/models#${id}`,
       context_window: doc.context_window,
       modalities: doc.modalities,
-      capabilities: doc.capabilities,
+      capabilities: {
+        ...doc.capabilities,
+        ...(doc.modalities.input.includes("image") ? { vision: true } : {}),
+      },
       ...(doc.capabilities.reasoning ? { reasoning_tokens: true } : {}),
       release_date: releaseDate,
       knowledge_cutoff: knowledgeCutoff,
@@ -206,6 +210,20 @@ async function main() {
     }
 
     written += upsertWithSnapshot("xai", entry);
+  }
+
+  // Mark models not on docs page as deprecated
+  const activeIds = new Set(docsModels.keys());
+  const modelsDir = new URL("../providers/xai/models/", import.meta.url);
+  for (const file of await Array.fromAsync(
+    new Bun.Glob("*.json").scan(modelsDir.pathname),
+  )) {
+    const id = file.replace(".json", "");
+    if (activeIds.has(id)) continue;
+    const existing = await Bun.file(`${modelsDir.pathname}/${file}`).json();
+    if (existing.status === "deprecated") continue;
+    upsertModel("xai", { id, name: id, status: "deprecated" } as ModelEntry);
+    written++;
   }
 
   console.log(`Wrote ${written} models`);

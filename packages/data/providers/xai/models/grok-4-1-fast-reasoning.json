@@ -10,7 +10,9 @@
     "tool_call": true,
     "structured_output": true,
     "reasoning": true,
-    "json_mode": true
+    "json_mode": true,
+    "batch": true,
+    "vision": true
   },
   "family": "grok-4",
   "context_window": 2000000,
@@ -27,7 +29,7 @@
   "_generated": {
     "name": "c4c535e4",
     "release_date": "e4be41d6",
-    "capabilities": "55f30939",
+    "capabilities": "8c9c2bff",
     "family": "0d5416ff",
     "context_window": "805f7438",
     "reasoning_tokens": "b326b506",

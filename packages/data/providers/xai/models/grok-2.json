@@ -1,0 +1,25 @@
+{
+  "id": "grok-2",
+  "name": "Grok-2",
+  "created_by": "xai",
+  "source": "manual",
+  "family": "grok-2",
+  "description": "Grok-2 is xAI's frontier model with enhanced reasoning, tool use, and vision capabilities.",
+  "tagline": "Frontier model with enhanced reasoning, tool use, and vision.",
+  "status": "deprecated",
+  "release_date": "2024-08-13",
+  "context_window": 131072,
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false,
+  "page_url": "https://x.ai/news/grok-2",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true
+  }
+}

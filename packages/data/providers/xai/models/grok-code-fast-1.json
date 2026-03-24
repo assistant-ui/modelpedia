@@ -3,13 +3,14 @@
   "name": "grok-code-fast-1",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-20",
+  "last_updated": "2026-03-24",
   "release_date": "2025-08-24",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "context_window": 256000,
   "max_output_tokens": 10000,
@@ -20,14 +21,25 @@
   },
   "_generated": {
     "name": "e06e17a4",
-    "description": "d91121dc",
+    "release_date": "3cd240bc",
+    "capabilities": "55f30939",
     "context_window": "2fd324cb",
     "max_output_tokens": "b7a78274",
-    "release_date": "3cd240bc",
-    "capabilities": "0946b777",
-    "modalities": "68e53d93"
+    "description": "d91121dc",
+    "modalities": "68e53d93",
+    "family": "378ba70c",
+    "model_type": "b6cc3ff4",
+    "license": "9186c466",
+    "status": "2e2f74dc",
+    "tagline": "d91121dc",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
   },
   "family": "grok-code",
   "model_type": "code",
-  "license": "proprietary"
+  "license": "proprietary",
+  "status": "deprecated",
+  "tagline": "Grok Code Fast 1 is a speedy and economical reasoning model that excels at agentic coding.",
+  "open_weight": false,
+  "tools": ["function_calling"]
 }
