@@ -117889,7 +117889,8 @@ export const providers: ProviderWithModels[] = [
         },
         "capabilities": {
           "streaming": true
-        }
+        },
+        "last_updated": "2026-03-24"
       },
       {
         "id": "grok-1",
@@ -117919,7 +117920,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "fine_tuning": true
-        }
+        },
+        "last_updated": "2026-03-24"
       },
       {
         "id": "grok-2-mini",
@@ -117949,7 +117951,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true
-        }
+        },
+        "last_updated": "2026-03-24"
       },
       {
         "id": "grok-2",
@@ -117979,7 +117982,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true
-        }
+        },
+        "last_updated": "2026-03-24"
       },
       {
         "id": "grok-3-mini",
