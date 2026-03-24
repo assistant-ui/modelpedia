@@ -3,7 +3,7 @@
   "name": "Mistral: mistral-small-2503",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "mistral-small",
   "model_type": "chat",
   "pricing": {
@@ -14,6 +14,11 @@
     "name": "1167fc42",
     "family": "275918a5",
     "model_type": "d669f408",
-    "pricing": "a3896bf6"
+    "pricing": "a3896bf6",
+    "modalities": "68e53d93"
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

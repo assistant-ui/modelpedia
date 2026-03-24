@@ -3,10 +3,17 @@
   "name": "OpenRouter: nousresearch/deephermes-3-mistral-24b-preview:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "_generated": {
-    "name": "cd3ab449"
+    "name": "cd3ab449",
+    "model_type": "d669f408",
+    "parameters": "1ff1de77",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 24
+  "parameters": 24,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

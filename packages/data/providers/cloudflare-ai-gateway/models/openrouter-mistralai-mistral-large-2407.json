@@ -3,7 +3,7 @@
   "name": "OpenRouter: mistralai/mistral-large-2407",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "mistral-large",
   "pricing": {
     "input": 2,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "20f8678e",
     "family": "70f9d51d",
-    "pricing": "e205efd3"
+    "pricing": "e205efd3",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

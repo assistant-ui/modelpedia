@@ -3,15 +3,22 @@
   "name": "OpenRouter: nousresearch/hermes-4-70b",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.13,
     "output": 0.39999999999999997
   },
   "_generated": {
     "name": "5f17c16d",
-    "pricing": "9231f222"
+    "pricing": "9231f222",
+    "model_type": "d669f408",
+    "parameters": "7cbbc409",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 70
+  "parameters": 70,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

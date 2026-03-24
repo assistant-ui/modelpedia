@@ -3,14 +3,20 @@
   "name": "Perplexity: r1-1776",
   "created_by": "perplexity",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 2,
     "output": 8
   },
   "_generated": {
     "name": "6c2ff2ad",
-    "pricing": "9d7f5a51"
+    "pricing": "9d7f5a51",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

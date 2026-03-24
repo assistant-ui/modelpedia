@@ -3,11 +3,12 @@
   "name": "Llama-3.1-405B-Instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "context_window": 131072,
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -16,7 +17,7 @@
   "_generated": {
     "name": "14afcf6e",
     "context_window": "f7de594e",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "modalities": "68e53d93",
     "family": "6cef7f07",
     "model_type": "d669f408",

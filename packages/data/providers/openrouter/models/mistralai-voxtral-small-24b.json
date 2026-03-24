@@ -3,7 +3,7 @@
   "name": "Mistral: Voxtral Small 24B 2507",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "voxtral",
   "description": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance.",
   "release_date": "2025-10-30",
@@ -13,7 +13,8 @@
   "tagline": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance.",
   "capabilities": {
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "audio"],
@@ -35,7 +36,7 @@
     "parameters": "1ff1de77",
     "model_type": "9f84c007",
     "tagline": "b6fb7594",
-    "capabilities": "ad177261",
+    "capabilities": "6c9aa67e",
     "modalities": "d65b34d6",
     "pricing": "8e470dd0",
     "tools": "f0c1dc7e"

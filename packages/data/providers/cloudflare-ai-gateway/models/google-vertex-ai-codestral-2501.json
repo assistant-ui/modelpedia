@@ -3,7 +3,7 @@
   "name": "Google Vertex AI: codestral-2501",
   "created_by": "vertex",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "codestral",
   "pricing": {
     "input": 0.3,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "3afd5bbf",
     "family": "a0734f6e",
-    "pricing": "8eb8395f"
+    "pricing": "8eb8395f",
+    "model_type": "b6cc3ff4",
+    "modalities": "68e53d93"
   },
-  "model_type": "code"
+  "model_type": "code",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

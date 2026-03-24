@@ -3,7 +3,7 @@
   "name": "OpenRouter: mistralai/magistral-small-2506",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.5,
     "output": 1.5
@@ -12,8 +12,13 @@
     "name": "4fcf6c1b",
     "pricing": "2c3abb73",
     "family": "b2c75a88",
-    "model_type": "17475f7f"
+    "model_type": "17475f7f",
+    "modalities": "68e53d93"
   },
   "family": "magistral",
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

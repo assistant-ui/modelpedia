@@ -3,7 +3,7 @@
   "name": "Mistral: magistral-small",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "model_type": "reasoning",
   "pricing": {
     "input": 0.5,
@@ -13,7 +13,12 @@
     "name": "1ecd7c02",
     "model_type": "17475f7f",
     "pricing": "2c3abb73",
-    "family": "b2c75a88"
+    "family": "b2c75a88",
+    "modalities": "68e53d93"
   },
-  "family": "magistral"
+  "family": "magistral",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

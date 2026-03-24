@@ -3,7 +3,7 @@
   "name": "xAI: grok-4-07-09",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "grok-4",
   "pricing": {
     "input": 3,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "6a5615ca",
     "family": "0d5416ff",
-    "pricing": "7939f0ff"
+    "pricing": "7939f0ff",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

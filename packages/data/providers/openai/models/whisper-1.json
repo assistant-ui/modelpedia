@@ -3,7 +3,7 @@
   "name": "Whisper",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "whisper",
   "description": "Whisper is a general-purpose speech recognition model, trained on a large dataset of diverse audio. You can also use it as a multitask model to perform multilingual speech recognition as well as speech translation and language identification.",
   "status": "active",
@@ -45,10 +45,10 @@
     "pricing": "8d5fba9a",
     "endpoints": "65ab23a8",
     "license": "9186c466",
-    "page_url": "534a4f0f",
+    "page_url": "11933fc3",
     "open_weight": "68934a3e"
   },
   "license": "proprietary",
-  "page_url": "https://platform.openai.com/docs/models/whisper-1",
+  "page_url": "https://developers.openai.com/api/docs/models/whisper-1",
   "open_weight": false
 }

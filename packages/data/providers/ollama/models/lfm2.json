@@ -3,14 +3,15 @@
   "name": "lfm2",
   "created_by": "liquid",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "41a06e57",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "description": "d644d12a",
     "page_url": "dbcf4abd",
     "tagline": "44fe6af4",

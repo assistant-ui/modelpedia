@@ -3,7 +3,7 @@
   "name": "DeepSeek: DeepSeek V3.2 Speciale",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "deepseek",
   "description": "DeepSeek-V3.2-Speciale is a high-compute variant of DeepSeek-V3.2 optimized for maximum reasoning and agentic performance.",
   "context_window": 163840,
@@ -14,7 +14,8 @@
   },
   "capabilities": {
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.4,
@@ -28,7 +29,7 @@
     "context_window": "7edab444",
     "max_output_tokens": "7edab444",
     "modalities": "68e53d93",
-    "capabilities": "ee598c3a",
+    "capabilities": "d53412cf",
     "pricing": "31c65d70",
     "release_date": "0452719b",
     "tagline": "8c1441f1",

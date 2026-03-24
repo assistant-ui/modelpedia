@@ -3,7 +3,7 @@
   "name": "OpenRouter: mistralai/mixtral-8x7b-instruct:nitro",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "mixtral",
   "pricing": {
     "input": 0.54,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "47eb2776",
     "family": "3c47d372",
-    "pricing": "51b551df"
+    "pricing": "51b551df",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

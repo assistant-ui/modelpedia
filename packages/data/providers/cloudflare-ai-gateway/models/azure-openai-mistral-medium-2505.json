@@ -3,7 +3,7 @@
   "name": "Azure OpenAI: mistral-medium-2505",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "mistral-medium",
   "pricing": {
     "input": 0.39999999999999997,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "759cd925",
     "family": "a57f1b52",
-    "pricing": "c1252b94"
+    "pricing": "c1252b94",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,14 +3,20 @@
   "name": "OpenRouter: relace/relace-search",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 1,
     "output": 3
   },
   "_generated": {
     "name": "68da38d5",
-    "pricing": "7fd03be2"
+    "pricing": "7fd03be2",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

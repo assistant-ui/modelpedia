@@ -3,7 +3,7 @@
   "name": "MiMo-V2-Flash",
   "created_by": "xiaomi",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "mimo",
   "description": "309B MoE reasoning model with 15B active parameters. Fast inference at 150 tokens/s.",
   "status": "active",
@@ -24,7 +24,8 @@
     "streaming": true,
     "reasoning": true,
     "tool_call": true,
-    "json_mode": true
+    "json_mode": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -53,7 +54,7 @@
     "architecture": "31b2172c",
     "open_weight": "b326b506",
     "tagline": "f2984e03",
-    "capabilities": "c0afc14f",
+    "capabilities": "c29cc6a7",
     "modalities": "68e53d93",
     "pricing": "53952343",
     "tools": "f0c1dc7e"

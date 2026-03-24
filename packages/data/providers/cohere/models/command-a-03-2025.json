@@ -3,7 +3,7 @@
   "name": "command-a-03-2025",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "description": "Command A is our most performant model to date, excelling at tool use, agents, retrieval augmented generation (RAG), and multilingual use cases. Command A has a context length of 256K, only requires two GPUs to run, and has 150% higher throughput compared to Command R+ 08-2024.",
   "status": "active",
   "context_window": 256000,
@@ -12,7 +12,8 @@
   "tagline": "Command A is our most performant model to date, excelling at tool use, agents, retrieval augmented generation (RAG), and multilingual use cases.",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -31,7 +32,7 @@
     "max_output_tokens": "67ff32d4",
     "model_type": "d669f408",
     "tagline": "5676e01d",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "modalities": "68e53d93",
     "pricing": "ac91204c",
     "endpoints": "75df3f1c",

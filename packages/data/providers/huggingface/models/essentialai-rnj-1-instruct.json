@@ -3,14 +3,15 @@
   "name": "rnj-1-instruct",
   "created_by": "essentialai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "cea8336f",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "page_url": "f47c1310",
     "description": "eecf64fd",
     "release_date": "03c309ab",

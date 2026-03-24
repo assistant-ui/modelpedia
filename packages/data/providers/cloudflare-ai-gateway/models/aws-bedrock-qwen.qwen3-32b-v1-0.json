@@ -3,7 +3,7 @@
   "name": "Amazon Bedrock: qwen.qwen3-32b-v1:0",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "qwen.",
   "model_type": "chat",
   "pricing": {
@@ -14,7 +14,13 @@
     "name": "a3852efd",
     "family": "4f268b83",
     "model_type": "d669f408",
-    "pricing": "89a9c6e2"
+    "pricing": "89a9c6e2",
+    "parameters": "6364d3f0",
+    "modalities": "68e53d93"
   },
-  "parameters": 32
+  "parameters": 32,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

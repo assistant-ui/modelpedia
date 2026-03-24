@@ -3,15 +3,16 @@
   "name": "Apertus-8B-Instruct-2509",
   "created_by": "swiss-ai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "snapshots": ["swiss-ai/Apertus-8B-Instruct-2509"],
   "_generated": {
     "name": "69e7baf5",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "parameters": "c9f0f895",
     "page_url": "957d1b8b",
     "release_date": "ab9b808c",

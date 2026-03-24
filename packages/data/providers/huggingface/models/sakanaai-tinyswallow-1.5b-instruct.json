@@ -3,14 +3,15 @@
   "name": "TinySwallow-1.5B-Instruct",
   "created_by": "sakanaai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "69c93774",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "parameters": "60086472",
     "page_url": "5f4e6da1",
     "description": "a9b00ab8",

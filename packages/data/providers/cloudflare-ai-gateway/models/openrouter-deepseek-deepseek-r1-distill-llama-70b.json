@@ -3,7 +3,7 @@
   "name": "OpenRouter: deepseek/deepseek-r1-distill-llama-70b",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "deepseek-r1",
   "pricing": {
     "input": 0.7,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "49e9070a",
     "family": "c74cfb8e",
-    "pricing": "b95fa10f"
+    "pricing": "b95fa10f",
+    "model_type": "17475f7f",
+    "parameters": "7cbbc409",
+    "modalities": "68e53d93"
   },
   "model_type": "reasoning",
-  "parameters": 70
+  "parameters": 70,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

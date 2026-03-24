@@ -3,7 +3,7 @@
   "name": "gpt-5-mini-2025-08-07",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-5",
   "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for",
   "status": "active",
@@ -23,7 +23,8 @@
     "vision": true,
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -77,19 +78,19 @@
     "reasoning": "eccbc87e",
     "speed": "a87ff679",
     "tagline": "d1cb81bb",
-    "capabilities": "e67897df",
+    "capabilities": "4175d4df",
     "modalities": "6399757e",
     "pricing": "3ed6285a",
     "endpoints": "ec55a017",
     "license": "9186c466",
     "release_date": "79c30d0c",
-    "page_url": "d4e95648",
+    "page_url": "defe53f9",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e"
   },
   "license": "proprietary",
   "release_date": "2025-08-07",
-  "page_url": "https://platform.openai.com/docs/models/gpt-5-mini",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5-mini?snapshot=gpt-5-mini-2025-08-07",
   "open_weight": false,
   "tools": ["function_calling"]
 }

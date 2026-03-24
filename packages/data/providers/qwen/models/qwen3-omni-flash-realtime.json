@@ -3,13 +3,14 @@
   "name": "qwen3-omni-flash-realtime",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen3",
   "context_window": 65536,
   "max_output_tokens": 16384,
   "model_type": "chat",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text", "audio"],
@@ -22,7 +23,7 @@
     "context_window": "297ce0b3",
     "max_output_tokens": "c76fe1d8",
     "model_type": "d669f408",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "modalities": "d65b34d6",
     "endpoints": "75df3f1c",
     "license": "60245731",

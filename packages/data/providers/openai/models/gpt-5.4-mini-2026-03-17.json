@@ -3,7 +3,7 @@
   "name": "gpt-5.4-mini-2026-03-17",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-5.4",
   "description": "GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient",
   "status": "active",
@@ -23,7 +23,8 @@
     "vision": true,
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -73,19 +74,19 @@
     "reasoning": "a87ff679",
     "speed": "a87ff679",
     "tagline": "52ee5ed1",
-    "capabilities": "e67897df",
+    "capabilities": "4175d4df",
     "modalities": "6399757e",
     "pricing": "47500a58",
     "endpoints": "88e8abb4",
     "license": "9186c466",
     "release_date": "56d4bd95",
-    "page_url": "5a1c8d86",
+    "page_url": "af48c961",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e"
   },
   "license": "proprietary",
   "release_date": "2026-03-17",
-  "page_url": "https://platform.openai.com/docs/models/gpt-5.4-mini",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.4-mini?snapshot=gpt-5.4-mini-2026-03-17",
   "open_weight": false,
   "tools": ["function_calling"]
 }

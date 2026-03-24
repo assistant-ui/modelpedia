@@ -3,7 +3,7 @@
   "name": "Kimi K2 Thinking Turbo",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "kimi",
   "description": "Deep reasoning with high speed output.",
   "context_window": 256000,
@@ -12,7 +12,8 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "reasoning": true
+    "reasoning": true,
+    "fine_tuning": true
   },
   "tagline": "Deep reasoning with high speed output.",
   "_generated": {
@@ -22,7 +23,7 @@
     "context_window": "2fd324cb",
     "reasoning_tokens": "b326b506",
     "speed": "e4da3b7f",
-    "capabilities": "a281e83a",
+    "capabilities": "4043afaa",
     "tagline": "39a70c68",
     "model_type": "d669f408",
     "license": "3c4c3ba5",

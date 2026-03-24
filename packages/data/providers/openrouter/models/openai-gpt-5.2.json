@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5.2",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-5.2",
   "description": "GPT-5.2 is the latest frontier-grade model in the GPT-5 series, offering stronger agentic and long context perfomance compared to GPT-5.1.",
   "context_window": 400000,
@@ -15,7 +15,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 1.75,
@@ -29,7 +30,7 @@
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
     "modalities": "8b8b28d1",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "b99db8a5",
     "model_type": "d669f408",
     "release_date": "7b4e98b0",

@@ -3,7 +3,7 @@
   "name": "OpenRouter: google/gemini-3-pro-preview-20251117",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gemini-3",
   "pricing": {
     "input": 2,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "00cdf29c",
     "family": "eb14e598",
-    "pricing": "0aef5f9c"
+    "pricing": "0aef5f9c",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

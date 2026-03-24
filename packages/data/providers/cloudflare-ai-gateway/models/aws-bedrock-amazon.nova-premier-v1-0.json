@@ -3,7 +3,7 @@
   "name": "Amazon Bedrock: amazon.nova-premier-v1:0",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "chat",
   "pricing": {
     "input": 2.5,
@@ -12,6 +12,11 @@
   "_generated": {
     "name": "eaa32c99",
     "model_type": "d669f408",
-    "pricing": "23d81c11"
+    "pricing": "23d81c11",
+    "modalities": "68e53d93"
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

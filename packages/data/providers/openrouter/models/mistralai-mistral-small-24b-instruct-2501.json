@@ -3,7 +3,7 @@
   "name": "Mistral: Mistral Small 3",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "mistral-small",
   "description": "Mistral Small 3 is a 24B-parameter language model optimized for low-latency performance across common AI tasks.",
   "context_window": 32768,
@@ -14,7 +14,8 @@
   },
   "capabilities": {
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.05,
@@ -27,7 +28,7 @@
     "context_window": "f4376436",
     "max_output_tokens": "c76fe1d8",
     "modalities": "68e53d93",
-    "capabilities": "ad177261",
+    "capabilities": "6c9aa67e",
     "pricing": "2d9c62a3",
     "model_type": "d669f408",
     "parameters": "1ff1de77",

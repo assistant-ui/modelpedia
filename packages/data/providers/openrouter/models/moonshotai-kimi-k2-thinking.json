@@ -3,7 +3,7 @@
   "name": "MoonshotAI: Kimi K2 Thinking",
   "created_by": "moonshotai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "description": "Kimi K2 Thinking is Moonshot AI’s most advanced open reasoning model to date, extending the K2 series into agentic, long-horizon reasoning.",
   "context_window": 131072,
   "modalities": {
@@ -13,7 +13,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.47,
@@ -25,7 +26,7 @@
     "description": "8dc3acf1",
     "context_window": "f7de594e",
     "modalities": "68e53d93",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "41bcd880",
     "family": "0f7256d5",
     "model_type": "d669f408",

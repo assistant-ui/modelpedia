@@ -3,7 +3,7 @@
   "name": "Mistral: devstral-small-2505",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "devstral",
   "model_type": "code",
   "pricing": {
@@ -14,6 +14,11 @@
     "name": "64a7aa50",
     "family": "e626e93e",
     "model_type": "b6cc3ff4",
-    "pricing": "c1c319d4"
+    "pricing": "c1c319d4",
+    "modalities": "68e53d93"
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

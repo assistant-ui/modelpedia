@@ -3,7 +3,7 @@
   "name": "xAI: Grok 4",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "grok-4",
   "description": "Grok 4 is xAI's latest reasoning model with a 256k context window.",
   "context_window": 256000,
@@ -14,7 +14,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 3,
@@ -27,7 +28,7 @@
     "description": "5bb66784",
     "context_window": "2fd324cb",
     "modalities": "8b8b28d1",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "f6abd316",
     "model_type": "d669f408",
     "release_date": "0ebd8cbe",

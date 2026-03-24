@@ -3,7 +3,7 @@
   "name": "Amazon Bedrock: mistral.magistral-small-2509",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "reasoning",
   "pricing": {
     "input": 0.5,
@@ -12,6 +12,11 @@
   "_generated": {
     "name": "c2f40aa7",
     "model_type": "17475f7f",
-    "pricing": "2c3abb73"
+    "pricing": "2c3abb73",
+    "modalities": "68e53d93"
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

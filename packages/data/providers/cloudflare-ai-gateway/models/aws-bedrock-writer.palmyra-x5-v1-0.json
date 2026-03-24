@@ -3,7 +3,7 @@
   "name": "Amazon Bedrock: writer.palmyra-x5-v1:0",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "chat",
   "pricing": {
     "input": 0.6,
@@ -12,6 +12,11 @@
   "_generated": {
     "name": "6d6cde4f",
     "model_type": "d669f408",
-    "pricing": "c1853e31"
+    "pricing": "c1853e31",
+    "modalities": "68e53d93"
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

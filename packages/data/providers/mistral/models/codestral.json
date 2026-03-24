@@ -3,14 +3,15 @@
   "name": "codestral",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "codestral",
   "status": "deprecated",
   "context_window": 32000,
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -28,7 +29,7 @@
     "family": "a0734f6e",
     "status": "2e2f74dc",
     "context_window": "10e4d788",
-    "capabilities": "fc36814c",
+    "capabilities": "62b3fd83",
     "modalities": "68e53d93",
     "pricing": "8eb8395f",
     "deprecation_date": "9b08fa35",

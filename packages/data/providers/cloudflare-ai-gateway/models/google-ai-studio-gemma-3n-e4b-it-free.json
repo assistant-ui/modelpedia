@@ -3,11 +3,17 @@
   "name": "Google AI Studio: gemma-3n-e4b-it:free",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gemma-3n",
   "_generated": {
     "name": "5cf4c158",
-    "family": "7d6f36e8"
+    "family": "7d6f36e8",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

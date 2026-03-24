@@ -3,11 +3,17 @@
   "name": "Mistral: mistral-nemo:free",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "chat",
   "_generated": {
     "name": "3ad82678",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "family": "75e1af53",
+    "modalities": "68e53d93"
   },
-  "family": "mistral-nemo"
+  "family": "mistral-nemo",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

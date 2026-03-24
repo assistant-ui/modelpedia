@@ -3,7 +3,7 @@
   "name": "OpenRouter: liquid/lfm-40b",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.15,
     "output": 0.15
@@ -12,8 +12,13 @@
     "name": "2a8bd7f6",
     "pricing": "16a72b67",
     "parameters": "d645920e",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "parameters": 40,
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

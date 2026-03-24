@@ -3,7 +3,7 @@
   "name": "Baseten: qwen/qwen3-coder-480b-a35b-instruct",
   "created_by": "baseten",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "qwen3",
   "pricing": {
     "input": 0.38,
@@ -12,9 +12,17 @@
   "_generated": {
     "name": "c3b98375",
     "family": "48c385a0",
-    "pricing": "cb400780"
+    "pricing": "cb400780",
+    "model_type": "b6cc3ff4",
+    "parameters": "6ea2ef73",
+    "active_parameters": "1c383cd3",
+    "modalities": "68e53d93"
   },
   "model_type": "code",
   "parameters": 480,
-  "active_parameters": 35
+  "active_parameters": 35,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

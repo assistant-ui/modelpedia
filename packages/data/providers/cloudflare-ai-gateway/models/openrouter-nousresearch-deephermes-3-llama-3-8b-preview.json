@@ -3,15 +3,22 @@
   "name": "OpenRouter: nousresearch/deephermes-3-llama-3-8b-preview",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.03,
     "output": 0.11
   },
   "_generated": {
     "name": "05e5c26c",
-    "pricing": "f7b03cb1"
+    "pricing": "f7b03cb1",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 8
+  "parameters": 8,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

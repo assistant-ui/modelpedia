@@ -3,7 +3,7 @@
   "name": "Mistral: mistral-7b-instruct",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "chat",
   "pricing": {
     "input": 0.19999999999999998,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "056d51fc",
     "model_type": "d669f408",
-    "pricing": "4a55a07f"
+    "pricing": "4a55a07f",
+    "family": "33212289",
+    "parameters": "8f14e45f",
+    "modalities": "68e53d93"
   },
   "family": "mistral-7b",
-  "parameters": 7
+  "parameters": 7,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

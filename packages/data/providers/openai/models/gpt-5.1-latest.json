@@ -3,7 +3,7 @@
   "name": "gpt-5.1-latest",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-5.1",
   "status": "active",
   "pricing": {
@@ -31,13 +31,13 @@
     "pricing": "53068594",
     "model_type": "d669f408",
     "license": "9186c466",
-    "page_url": "31d1e0cd",
+    "page_url": "8c72459e",
     "open_weight": "68934a3e",
     "modalities": "68e53d93"
   },
   "model_type": "chat",
   "license": "proprietary",
-  "page_url": "https://platform.openai.com/docs/models/gpt-5.1-latest",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.1-latest",
   "open_weight": false,
   "modalities": {
     "input": ["text"],

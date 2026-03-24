@@ -3,14 +3,20 @@
   "name": "OpenRouter: amazon/nova-pro-v1",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.7999999999999999,
     "output": 3.1999999999999997
   },
   "_generated": {
     "name": "b366163c",
-    "pricing": "6dc9d3a4"
+    "pricing": "6dc9d3a4",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Google AI Studio: gemma-3-4b-it",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gemma-3",
   "pricing": {
     "input": 0.04,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "4f1099d3",
     "family": "d9e10ad8",
-    "pricing": "6a26528c"
+    "pricing": "6a26528c",
+    "model_type": "d669f408",
+    "parameters": "a87ff679",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 4
+  "parameters": 4,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,7 +3,7 @@
   "name": "GPT-5",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-5",
   "description": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.",
   "status": "active",
@@ -22,7 +22,8 @@
     "vision": true,
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -78,18 +79,18 @@
     "reasoning": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "d54914e7",
-    "capabilities": "e67897df",
+    "capabilities": "4175d4df",
     "modalities": "6399757e",
     "pricing": "a6f9ea96",
     "tools": "f0c1dc7e",
     "endpoints": "ec55a017",
     "license": "9186c466",
-    "page_url": "b0e24165",
+    "page_url": "4c2a6ae5",
     "open_weight": "68934a3e",
     "release_date": "79c30d0c"
   },
   "license": "proprietary",
-  "page_url": "https://platform.openai.com/docs/models/gpt-5",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5?snapshot=gpt-5-2025-08-07",
   "open_weight": false,
   "release_date": "2025-08-07"
 }

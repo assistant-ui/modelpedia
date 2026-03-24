@@ -3,7 +3,7 @@
   "name": "Kwaipilot: KAT-Coder-Pro V1",
   "created_by": "kwaipilot",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "description": "KAT-Coder-Pro V1 is KwaiKAT's most advanced agentic coding model in the KAT-Coder series.",
   "context_window": 256000,
   "max_output_tokens": 128000,
@@ -13,7 +13,8 @@
   },
   "capabilities": {
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.207,
@@ -26,7 +27,7 @@
     "context_window": "2fd324cb",
     "max_output_tokens": "34434798",
     "modalities": "68e53d93",
-    "capabilities": "ad177261",
+    "capabilities": "6c9aa67e",
     "pricing": "fba6aed2",
     "release_date": "ff1e616a",
     "tagline": "7bac45bd",

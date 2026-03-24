@@ -3,7 +3,7 @@
   "name": "DeepSeek V3.1 (Reasoner)",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "deepseek-chat",
   "status": "deprecated",
   "release_date": "2025-08-21",
@@ -12,7 +12,8 @@
   "alias": "deepseek-reasoner",
   "capabilities": {
     "streaming": true,
-    "reasoning": true
+    "reasoning": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -25,7 +26,7 @@
     "release_date": "d9d01c83",
     "model_type": "17475f7f",
     "reasoning_tokens": "b326b506",
-    "capabilities": "b011c6b4",
+    "capabilities": "034b2f91",
     "modalities": "68e53d93",
     "deprecation_date": "3cb5c95a",
     "successor": "c8010f5c",

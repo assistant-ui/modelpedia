@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen VL Plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen",
   "description": "Qwen's Enhanced Large Visual Language Model.",
   "context_window": 131072,
@@ -13,7 +13,8 @@
     "output": ["text"]
   },
   "capabilities": {
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.137,
@@ -27,7 +28,7 @@
     "context_window": "f7de594e",
     "max_output_tokens": "77441296",
     "modalities": "6399757e",
-    "capabilities": "c8033cf7",
+    "capabilities": "dbb5b7fe",
     "pricing": "d5c6ff2a",
     "model_type": "d669f408",
     "release_date": "6d791f55",

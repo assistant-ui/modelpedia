@@ -3,12 +3,19 @@
   "name": "Google AI Studio: gemma-3-12b-it:free",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gemma-3",
   "_generated": {
     "name": "363d667b",
-    "family": "d9e10ad8"
+    "family": "d9e10ad8",
+    "model_type": "d669f408",
+    "parameters": "c20ad4d7",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 12
+  "parameters": 12,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

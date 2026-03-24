@@ -3,10 +3,17 @@
   "name": "OpenRouter: minimax/minimax-m1:extended",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "_generated": {
-    "name": "0e6a6c9a"
+    "name": "0e6a6c9a",
+    "family": "c85916f0",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "minimax",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

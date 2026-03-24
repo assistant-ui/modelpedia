@@ -3,10 +3,15 @@
   "name": "OpenRouter: microsoft/phi-4-reasoning:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "reasoning",
   "_generated": {
     "name": "7aa48eac",
-    "model_type": "17475f7f"
+    "model_type": "17475f7f",
+    "modalities": "68e53d93"
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

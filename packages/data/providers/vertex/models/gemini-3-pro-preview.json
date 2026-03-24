@@ -3,7 +3,7 @@
   "name": "gemini-3-pro-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gemini-3",
   "status": "deprecated",
   "deprecation_date": "2026-03-09",
@@ -17,7 +17,8 @@
     "structured_output": true,
     "reasoning": true,
     "batch": true,
-    "vision": true
+    "vision": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
@@ -61,7 +62,7 @@
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
     "successor": "cd1b7cdc",
-    "capabilities": "29b57eef",
+    "capabilities": "fdff467b",
     "modalities": "0b49b61e",
     "pricing": "fe58260b",
     "tools": "f0c1dc7e",

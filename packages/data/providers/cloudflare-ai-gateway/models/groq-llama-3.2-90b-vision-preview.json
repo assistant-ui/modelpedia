@@ -3,7 +3,7 @@
   "name": "Groq: llama-3.2-90b-vision-preview",
   "created_by": "groq",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-3.2",
   "pricing": {
     "input": 0.9,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "fc04dbb7",
     "family": "d4c42ce9",
-    "pricing": "a32adb8d"
+    "pricing": "a32adb8d",
+    "model_type": "d669f408",
+    "parameters": "8613985e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 90
+  "parameters": 90,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

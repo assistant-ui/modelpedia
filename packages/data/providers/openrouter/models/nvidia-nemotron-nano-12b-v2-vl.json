@@ -3,7 +3,7 @@
   "name": "NVIDIA: Nemotron Nano 12B 2 VL",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "description": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence.",
   "context_window": 131072,
   "modalities": {
@@ -12,7 +12,8 @@
   },
   "capabilities": {
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.2,
@@ -23,7 +24,7 @@
     "description": "f56a462b",
     "context_window": "f7de594e",
     "modalities": "1e916c3b",
-    "capabilities": "ee598c3a",
+    "capabilities": "d53412cf",
     "pricing": "d6e0ad87",
     "model_type": "d669f408",
     "parameters": "c20ad4d7",

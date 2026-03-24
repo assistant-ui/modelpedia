@@ -3,7 +3,7 @@
   "name": "OpenAI: gpt-4-0314",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gpt-4",
   "pricing": {
     "input": 30,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "e34e123a",
     "family": "1be4bcd3",
-    "pricing": "b470b088"
+    "pricing": "b470b088",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

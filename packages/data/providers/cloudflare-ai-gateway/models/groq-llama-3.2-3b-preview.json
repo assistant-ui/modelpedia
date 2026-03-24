@@ -3,7 +3,7 @@
   "name": "Groq: llama-3.2-3b-preview",
   "created_by": "groq",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-3.2",
   "pricing": {
     "input": 0.06,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "8fd9f3fe",
     "family": "d4c42ce9",
-    "pricing": "15a2ea5b"
+    "pricing": "15a2ea5b",
+    "model_type": "d669f408",
+    "parameters": "eccbc87e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 3
+  "parameters": 3,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

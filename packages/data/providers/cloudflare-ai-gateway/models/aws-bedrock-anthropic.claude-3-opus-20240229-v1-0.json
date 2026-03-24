@@ -3,7 +3,7 @@
   "name": "Amazon Bedrock: anthropic.claude-3-opus-20240229-v1:0",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "chat",
   "pricing": {
     "input": 15,
@@ -12,6 +12,11 @@
   "_generated": {
     "name": "3c671d69",
     "model_type": "d669f408",
-    "pricing": "678b0410"
+    "pricing": "678b0410",
+    "modalities": "68e53d93"
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

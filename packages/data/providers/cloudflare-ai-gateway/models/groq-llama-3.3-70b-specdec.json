@@ -3,7 +3,7 @@
   "name": "Groq: llama-3.3-70b-specdec",
   "created_by": "groq",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-3.3",
   "pricing": {
     "input": 0.59,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "ef99fc57",
     "family": "54c5fe24",
-    "pricing": "4ec75faa"
+    "pricing": "4ec75faa",
+    "model_type": "d669f408",
+    "parameters": "7cbbc409",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 70
+  "parameters": 70,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

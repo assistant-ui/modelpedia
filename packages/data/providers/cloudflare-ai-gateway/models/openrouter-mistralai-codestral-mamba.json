@@ -3,7 +3,7 @@
   "name": "OpenRouter: mistralai/codestral-mamba",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "codestral",
   "pricing": {
     "input": 0.25,
@@ -13,7 +13,12 @@
     "name": "8dde1ba4",
     "family": "a0734f6e",
     "pricing": "4dba8a3d",
-    "model_type": "b6cc3ff4"
+    "model_type": "b6cc3ff4",
+    "modalities": "68e53d93"
   },
-  "model_type": "code"
+  "model_type": "code",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

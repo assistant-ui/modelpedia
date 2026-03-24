@@ -3,18 +3,19 @@
   "name": "devstral-small-2",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "devstral",
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "model_type": "code",
   "_generated": {
     "name": "81589537",
     "family": "e626e93e",
-    "capabilities": "fc36814c",
+    "capabilities": "62b3fd83",
     "model_type": "b6cc3ff4",
     "description": "ee7b2110",
     "release_date": "c41dad30",

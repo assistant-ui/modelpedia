@@ -3,7 +3,7 @@
   "name": "OpenAI: omni-moderation-latest-intents",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "moderation",
   "pricing": {
     "input": 0.19999999999999998,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "9bffa818",
     "model_type": "1e7a7b87",
-    "pricing": "4a55a07f"
+    "pricing": "4a55a07f",
+    "family": "5da37138",
+    "modalities": "68e53d93"
   },
-  "family": "omni-moderation"
+  "family": "omni-moderation",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

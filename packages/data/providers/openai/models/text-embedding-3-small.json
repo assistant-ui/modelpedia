@@ -3,7 +3,7 @@
   "name": "text-embedding-3-small",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "description": "text-embedding-3-small is our improved, more performant version of our ada embedding model.",
   "status": "active",
   "model_type": "embed",
@@ -48,11 +48,11 @@
     "endpoints": "fc976575",
     "family": "41411f76",
     "license": "9186c466",
-    "page_url": "0a8be54b",
+    "page_url": "f60c4f55",
     "open_weight": "68934a3e"
   },
   "family": "text-embedding",
   "license": "proprietary",
-  "page_url": "https://platform.openai.com/docs/models/text-embedding-3-small",
+  "page_url": "https://developers.openai.com/api/docs/models/text-embedding-3-small",
   "open_weight": false
 }

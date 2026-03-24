@@ -3,14 +3,20 @@
   "name": "OpenRouter: ai21/jamba-1-5-large",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 2,
     "output": 8
   },
   "_generated": {
     "name": "568b3785",
-    "pricing": "9d7f5a51"
+    "pricing": "9d7f5a51",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

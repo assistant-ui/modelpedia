@@ -3,7 +3,7 @@
   "name": "Azure OpenAI: phi-3-medium-4k-instruct",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.16999999999999998,
     "output": 0.6799999999999999
@@ -11,7 +11,12 @@
   "_generated": {
     "name": "8dfc4815",
     "pricing": "0912b687",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

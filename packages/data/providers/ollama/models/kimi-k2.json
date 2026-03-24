@@ -3,13 +3,14 @@
   "name": "kimi-k2",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "0f7256d5",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "model_type": "d669f408",
     "family": "0f7256d5",
     "description": "f7685244",

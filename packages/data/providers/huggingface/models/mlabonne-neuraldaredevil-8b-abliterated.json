@@ -3,14 +3,15 @@
   "name": "NeuralDaredevil-8B-abliterated",
   "created_by": "mlabonne",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "2fde7652",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "parameters": "c9f0f895",
     "page_url": "36cfc8ae",
     "description": "f20918ae",

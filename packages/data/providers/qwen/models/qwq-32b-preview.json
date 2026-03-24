@@ -3,14 +3,15 @@
   "name": "qwq-32b-preview",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwq",
   "context_window": 32768,
   "max_output_tokens": 16384,
   "model_type": "reasoning",
   "capabilities": {
     "streaming": true,
-    "reasoning": true
+    "reasoning": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -27,7 +28,7 @@
     "context_window": "f4376436",
     "max_output_tokens": "c76fe1d8",
     "model_type": "17475f7f",
-    "capabilities": "b011c6b4",
+    "capabilities": "034b2f91",
     "modalities": "68e53d93",
     "pricing": "24fc5ef4",
     "endpoints": "75df3f1c",

@@ -3,15 +3,22 @@
   "name": "OpenRouter: cohere/command-r",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.5,
     "output": 1.5
   },
   "_generated": {
     "name": "1b2b82d1",
-    "pricing": "2c3abb73"
+    "pricing": "2c3abb73",
+    "family": "439d5b76",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "command-r",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

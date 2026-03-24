@@ -3,16 +3,24 @@
   "name": "OpenRouter: alfredpros/codellama-7b-instruct-solidity",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.7999999999999999,
     "output": 1.2
   },
   "_generated": {
     "name": "aeab797d",
-    "pricing": "a1b65046"
+    "pricing": "a1b65046",
+    "family": "cf323e30",
+    "model_type": "b6cc3ff4",
+    "parameters": "8f14e45f",
+    "modalities": "68e53d93"
   },
   "family": "codellama",
   "model_type": "code",
-  "parameters": 7
+  "parameters": 7,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

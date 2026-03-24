@@ -3,10 +3,10 @@
   "name": "o1 Preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "o1",
   "status": "deprecated",
-  "knowledge_cutoff": "2023-10",
+  "knowledge_cutoff": "2023-09",
   "context_window": 128000,
   "max_output_tokens": 32768,
   "model_type": "reasoning",
@@ -18,7 +18,8 @@
     "streaming": true,
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -30,7 +31,7 @@
     "name": "aa58b744",
     "family": "e1ab0820",
     "status": "2e2f74dc",
-    "knowledge_cutoff": "ffb42dbe",
+    "knowledge_cutoff": "7b971392",
     "context_window": "34434798",
     "max_output_tokens": "f4376436",
     "model_type": "17475f7f",
@@ -38,7 +39,7 @@
     "performance": "eccbc87e",
     "reasoning": "eccbc87e",
     "speed": "c4ca4238",
-    "capabilities": "0946b777",
+    "capabilities": "55f30939",
     "modalities": "68e53d93",
     "endpoints": "6558e44b",
     "description": "f5e9182d",
@@ -46,7 +47,7 @@
     "successor": "e1ab0820",
     "license": "9186c466",
     "release_date": "928ac16b",
-    "page_url": "e8d0449e",
+    "page_url": "3da13601",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e"
   },
@@ -55,7 +56,7 @@
   "successor": "o1",
   "license": "proprietary",
   "release_date": "2024-09-12",
-  "page_url": "https://platform.openai.com/docs/models/o1-preview",
+  "page_url": "https://developers.openai.com/api/docs/models/o1-preview",
   "open_weight": false,
   "tools": ["function_calling"]
 }

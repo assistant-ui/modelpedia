@@ -3,15 +3,22 @@
   "name": "OpenRouter: z-ai/glm-4.5-air",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.13,
     "output": 0.85
   },
   "_generated": {
     "name": "894ee945",
-    "pricing": "1ae6e7a1"
+    "pricing": "1ae6e7a1",
+    "family": "e8ea1e1e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "glm-4.5",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

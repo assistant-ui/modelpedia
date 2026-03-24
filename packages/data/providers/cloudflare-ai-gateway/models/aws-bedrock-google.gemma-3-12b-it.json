@@ -3,7 +3,7 @@
   "name": "Amazon Bedrock: google.gemma-3-12b-it",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "chat",
   "pricing": {
     "input": 0.049999999999999996,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "492e4066",
     "model_type": "d669f408",
-    "pricing": "aaf6a307"
+    "pricing": "aaf6a307",
+    "parameters": "c20ad4d7",
+    "modalities": "68e53d93"
   },
-  "parameters": 12
+  "parameters": 12,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,11 +3,17 @@
   "name": "OpenRouter: meta-llama/llama-4-maverick:free",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-4",
   "_generated": {
     "name": "8a58f001",
-    "family": "3169363f"
+    "family": "3169363f",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

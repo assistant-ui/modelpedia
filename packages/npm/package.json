@@ -1,6 +1,6 @@
 {
   "name": "modelpedia",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Open catalog of AI model data — specs, pricing, and capabilities across 30+ providers and 4000+ models",
   "type": "module",
   "main": "./dist/index.cjs",

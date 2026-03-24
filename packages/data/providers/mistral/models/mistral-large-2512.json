@@ -3,7 +3,7 @@
   "name": "mistral-large-2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "mistral-large",
   "status": "active",
   "context_window": 256000,
@@ -11,7 +11,8 @@
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -26,18 +27,22 @@
     "family": "70f9d51d",
     "status": "379ac110",
     "context_window": "2fd324cb",
-    "capabilities": "fc36814c",
+    "capabilities": "62b3fd83",
     "modalities": "6399757e",
     "pricing": "2c3abb73",
     "model_type": "d669f408",
     "license": "60245731",
     "page_url": "980fd82e",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "description": "08cfb80c",
+    "tagline": "08cfb80c"
   },
   "model_type": "chat",
   "license": "apache-2.0",
   "page_url": "https://docs.mistral.ai/models/mistral-large-3-25-12",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "description": "Our first and larger SOTA model for enterprise use cases with powerfull chat capabilities.",
+  "tagline": "Our first and larger SOTA model for enterprise use cases with powerfull chat capabilities."
 }

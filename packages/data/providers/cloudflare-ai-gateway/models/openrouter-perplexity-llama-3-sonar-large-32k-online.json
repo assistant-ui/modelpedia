@@ -3,7 +3,7 @@
   "name": "OpenRouter: perplexity/llama-3-sonar-large-32k-online",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-3",
   "pricing": {
     "input": 1,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "8e49013a",
     "family": "a8d1600e",
-    "pricing": "5418a9a1"
+    "pricing": "5418a9a1",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

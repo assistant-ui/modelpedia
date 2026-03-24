@@ -3,7 +3,7 @@
   "name": "OpenRouter: openai/o3-deep-research",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "o3",
   "pricing": {
     "input": 10,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "8bfb9066",
     "family": "193049bc",
-    "pricing": "2cfa6cc0"
+    "pricing": "2cfa6cc0",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

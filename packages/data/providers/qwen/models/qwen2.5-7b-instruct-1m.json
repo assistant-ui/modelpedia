@@ -3,11 +3,12 @@
   "name": "qwen2.5-7b-instruct-1m",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen2.5",
   "model_type": "chat",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -22,7 +23,7 @@
     "name": "9d9f072a",
     "family": "45d84b68",
     "model_type": "d669f408",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "modalities": "68e53d93",
     "pricing": "c8b8da38",
     "endpoints": "75df3f1c",

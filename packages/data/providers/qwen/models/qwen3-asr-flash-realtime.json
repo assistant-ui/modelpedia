@@ -3,11 +3,12 @@
   "name": "qwen3-asr-flash-realtime",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen3",
   "model_type": "chat",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -18,7 +19,7 @@
     "name": "0ac8f46f",
     "family": "48c385a0",
     "model_type": "d669f408",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "modalities": "68e53d93",
     "endpoints": "75df3f1c",
     "license": "60245731",

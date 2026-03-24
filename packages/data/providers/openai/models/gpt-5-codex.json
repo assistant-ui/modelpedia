@@ -3,7 +3,7 @@
   "name": "GPT-5-Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-5",
   "description": "GPT-5-Codex is a version of GPT-5 optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.",
   "status": "active",
@@ -22,7 +22,8 @@
     "vision": true,
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -64,16 +65,16 @@
     "reasoning": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "3fdd16f9",
-    "capabilities": "e67897df",
+    "capabilities": "4175d4df",
     "modalities": "6399757e",
     "pricing": "53068594",
     "tools": "4db09141",
     "endpoints": "acb164ea",
     "license": "9186c466",
-    "page_url": "7a083885",
+    "page_url": "3e13b697",
     "open_weight": "68934a3e"
   },
   "license": "proprietary",
-  "page_url": "https://platform.openai.com/docs/models/gpt-5-codex",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5-codex",
   "open_weight": false
 }

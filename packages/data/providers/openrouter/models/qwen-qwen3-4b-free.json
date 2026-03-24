@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 4B (free)",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen3",
   "description": "Qwen3-4B is a 4 billion parameter dense language model from the Qwen3 series, designed to support both general-purpose and reasoning-intensive tasks.",
   "status": "deprecated",
@@ -16,7 +16,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "_generated": {
     "name": "a1442a65",
@@ -26,7 +27,7 @@
     "deprecation_date": "c019c0fb",
     "context_window": "a422a18c",
     "modalities": "68e53d93",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "model_type": "d669f408",
     "release_date": "6997487e",
     "tagline": "cd4026e4",

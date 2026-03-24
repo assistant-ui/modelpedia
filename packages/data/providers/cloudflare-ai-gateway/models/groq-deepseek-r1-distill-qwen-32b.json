@@ -3,7 +3,7 @@
   "name": "Groq: deepseek-r1-distill-qwen-32b",
   "created_by": "groq",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "deepseek-r1",
   "pricing": {
     "input": 0.29,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "fda542e4",
     "family": "c74cfb8e",
-    "pricing": "0e5c31f1"
+    "pricing": "0e5c31f1",
+    "model_type": "17475f7f",
+    "parameters": "6364d3f0",
+    "modalities": "68e53d93"
   },
   "model_type": "reasoning",
-  "parameters": 32
+  "parameters": 32,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

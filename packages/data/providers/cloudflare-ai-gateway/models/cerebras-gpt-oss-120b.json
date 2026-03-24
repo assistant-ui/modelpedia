@@ -3,7 +3,7 @@
   "name": "cerebras: gpt-oss-120b",
   "created_by": "cerebras",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gpt-oss",
   "pricing": {
     "input": 0.25,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "0499e73f",
     "family": "82d0cb0b",
-    "pricing": "aa524fef"
+    "pricing": "aa524fef",
+    "model_type": "d669f408",
+    "parameters": "da4fb5c6",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 120
+  "parameters": 120,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

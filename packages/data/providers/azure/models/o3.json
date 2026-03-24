@@ -3,7 +3,7 @@
   "name": "o3",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "o3",
   "knowledge_cutoff": "2024-05-31",
   "capabilities": {
@@ -11,7 +11,8 @@
     "tool_call": true,
     "structured_output": true,
     "reasoning": true,
-    "vision": true
+    "vision": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -22,7 +23,7 @@
     "name": "193049bc",
     "family": "193049bc",
     "knowledge_cutoff": "83e324a8",
-    "capabilities": "781c5d26",
+    "capabilities": "d1034176",
     "modalities": "6399757e",
     "model_type": "17475f7f",
     "tools": "f0c1dc7e",

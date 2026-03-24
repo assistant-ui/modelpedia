@@ -3,7 +3,7 @@
   "name": "Deep Cogito: Cogito v2.1 671B",
   "created_by": "deepcogito",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "description": "Cogito v2.1 671B MoE represents one of the strongest open models globally, matching performance of frontier closed and open models.",
   "context_window": 128000,
   "modalities": {
@@ -12,7 +12,8 @@
   },
   "capabilities": {
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 1.25,
@@ -23,7 +24,7 @@
     "description": "8722e3a9",
     "context_window": "34434798",
     "modalities": "68e53d93",
-    "capabilities": "ee598c3a",
+    "capabilities": "d53412cf",
     "pricing": "79b45451",
     "parameters": "5dd9db5e",
     "release_date": "c4b1d0fd",

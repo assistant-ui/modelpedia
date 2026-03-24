@@ -3,7 +3,7 @@
   "name": "Amazon Bedrock: anthropic.claude-3-5-sonnet-20241022-v2",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "chat",
   "pricing": {
     "input": 3,
@@ -12,6 +12,11 @@
   "_generated": {
     "name": "fcf4c94c",
     "model_type": "d669f408",
-    "pricing": "7939f0ff"
+    "pricing": "7939f0ff",
+    "modalities": "68e53d93"
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

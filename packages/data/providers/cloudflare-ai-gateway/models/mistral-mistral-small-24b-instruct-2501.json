@@ -3,7 +3,7 @@
   "name": "Mistral: mistral-small-24b-instruct-2501",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "mistral-small",
   "model_type": "chat",
   "pricing": {
@@ -14,7 +14,13 @@
     "name": "dfd64c75",
     "family": "275918a5",
     "model_type": "d669f408",
-    "pricing": "574f99cf"
+    "pricing": "574f99cf",
+    "parameters": "1ff1de77",
+    "modalities": "68e53d93"
   },
-  "parameters": 24
+  "parameters": 24,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,7 +3,7 @@
   "name": "cerebras: qwen-3-235b-a22b-instruct-2507",
   "created_by": "cerebras",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "qwen",
   "pricing": {
     "input": 0.6,
@@ -12,9 +12,17 @@
   "_generated": {
     "name": "f48765a0",
     "family": "a3af76f3",
-    "pricing": "11cfe106"
+    "pricing": "11cfe106",
+    "model_type": "d669f408",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 235,
-  "active_parameters": 22
+  "active_parameters": 22,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

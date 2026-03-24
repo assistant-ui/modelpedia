@@ -3,15 +3,22 @@
   "name": "OpenRouter: nousresearch/hermes-3-llama-3.1-405b",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 1,
     "output": 1
   },
   "_generated": {
     "name": "0367a8d2",
-    "pricing": "5418a9a1"
+    "pricing": "5418a9a1",
+    "model_type": "d669f408",
+    "parameters": "bbcbff5c",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 405
+  "parameters": 405,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

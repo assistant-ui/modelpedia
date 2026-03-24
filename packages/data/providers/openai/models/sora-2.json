@@ -3,7 +3,7 @@
   "name": "Sora 2",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "status": "active",
   "model_type": "video",
   "performance": 4,
@@ -28,7 +28,7 @@
     "family": "3d185d44",
     "license": "9186c466",
     "release_date": "57064400",
-    "page_url": "0fcbd598",
+    "page_url": "841d44a8",
     "open_weight": "68934a3e"
   },
   "description": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
@@ -55,6 +55,6 @@
   "family": "sora-2",
   "license": "proprietary",
   "release_date": "2025-12-08",
-  "page_url": "https://platform.openai.com/docs/models/sora-2",
+  "page_url": "https://developers.openai.com/api/docs/models/sora-2",
   "open_weight": false
 }

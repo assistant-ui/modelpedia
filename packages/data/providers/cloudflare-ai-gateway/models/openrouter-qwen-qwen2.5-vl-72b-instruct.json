@@ -3,7 +3,7 @@
   "name": "OpenRouter: qwen/qwen2.5-vl-72b-instruct",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "qwen2.5",
   "pricing": {
     "input": 0.7999999999999999,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "805fbace",
     "family": "45d84b68",
-    "pricing": "17135ab7"
+    "pricing": "17135ab7",
+    "model_type": "d669f408",
+    "parameters": "32bb90e8",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 72
+  "parameters": 72,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

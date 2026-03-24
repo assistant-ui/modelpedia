@@ -3,7 +3,7 @@
   "name": "Azure OpenAI: llama-3.2-90b-vision-instruct",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-3.2",
   "pricing": {
     "input": 2.04,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "bd0c929f",
     "family": "d4c42ce9",
-    "pricing": "4a9df071"
+    "pricing": "4a9df071",
+    "model_type": "d669f408",
+    "parameters": "8613985e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 90
+  "parameters": 90,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

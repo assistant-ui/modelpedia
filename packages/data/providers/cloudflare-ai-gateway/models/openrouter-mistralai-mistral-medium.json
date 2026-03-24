@@ -3,7 +3,7 @@
   "name": "OpenRouter: mistralai/mistral-medium",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "mistral-medium",
   "pricing": {
     "input": 2.75,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "c03c2e2f",
     "family": "a57f1b52",
-    "pricing": "2229af64"
+    "pricing": "2229af64",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

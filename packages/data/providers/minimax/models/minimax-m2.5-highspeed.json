@@ -3,11 +3,12 @@
   "name": "MiniMax-M2.5-highspeed",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "minimax",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "pricing": {
     "input": 0.6,
@@ -18,7 +19,7 @@
   "_generated": {
     "name": "0dc94ac0",
     "family": "c85916f0",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "pricing": "712e1041",
     "model_type": "d669f408",
     "license": "3c4c3ba5",

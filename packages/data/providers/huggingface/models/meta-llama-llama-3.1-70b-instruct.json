@@ -3,14 +3,15 @@
   "name": "Llama-3.1-70B-Instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "030f97cb",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "family": "6cef7f07",
     "model_type": "d669f408",
     "parameters": "e2c420d9",

@@ -3,7 +3,7 @@
   "name": "Kimi K2 Thinking",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "kimi",
   "description": "Long-term thinking, multi-step tool usage, complex problem solving.",
   "context_window": 256000,
@@ -11,7 +11,8 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "reasoning": true
+    "reasoning": true,
+    "fine_tuning": true
   },
   "tagline": "Long-term thinking, multi-step tool usage, complex problem solving.",
   "_generated": {
@@ -20,7 +21,7 @@
     "description": "0223f52a",
     "context_window": "2fd324cb",
     "reasoning_tokens": "b326b506",
-    "capabilities": "a281e83a",
+    "capabilities": "4043afaa",
     "tagline": "0223f52a",
     "model_type": "d669f408",
     "license": "3c4c3ba5",

@@ -3,7 +3,7 @@
   "name": "Kimi K2 (0711)",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "kimi",
   "description": "MoE model with 1T total parameters and 32B active. Strong at code and agent tasks.",
   "context_window": 128000,
@@ -16,7 +16,8 @@
   "tagline": "MoE model with 1T total parameters and 32B active.",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "open_weight": true,
   "tools": ["function_calling"],
@@ -32,7 +33,7 @@
     "architecture": "c2d4b00d",
     "model_type": "d669f408",
     "tagline": "08ace6e4",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "modalities": "68e53d93"

@@ -3,14 +3,15 @@
   "name": "Qwen3-Coder-Next",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "07d147bb",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "model_type": "b6cc3ff4",
     "release_date": "806d6416",
     "context_window": "4a1d32eb",

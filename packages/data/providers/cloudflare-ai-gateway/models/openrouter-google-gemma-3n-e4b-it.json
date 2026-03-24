@@ -3,7 +3,7 @@
   "name": "OpenRouter: google/gemma-3n-e4b-it",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gemma-3n",
   "pricing": {
     "input": 0.02,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "bec0f9bf",
     "family": "7d6f36e8",
-    "pricing": "6fc99b9e"
+    "pricing": "6fc99b9e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

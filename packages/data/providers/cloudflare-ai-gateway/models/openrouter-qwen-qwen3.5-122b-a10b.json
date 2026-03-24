@@ -3,7 +3,7 @@
   "name": "OpenRouter: qwen/qwen3.5-122b-a10b",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "qwen3.5",
   "pricing": {
     "input": 0.26,
@@ -12,9 +12,17 @@
   "_generated": {
     "name": "5b67888d",
     "family": "d548f421",
-    "pricing": "6113d4cf"
+    "pricing": "6113d4cf",
+    "model_type": "d669f408",
+    "parameters": "a0a080f4",
+    "active_parameters": "d3d94468",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 122,
-  "active_parameters": 10
+  "active_parameters": 10,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

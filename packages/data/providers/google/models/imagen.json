@@ -3,7 +3,7 @@
   "name": "imagen",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "status": "active",
   "context_window": 480,
   "model_type": "image",
@@ -13,7 +13,8 @@
     "structured_output": true,
     "reasoning": true,
     "batch": true,
-    "vision": true
+    "vision": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -26,7 +27,7 @@
     "status": "379ac110",
     "context_window": "6ea2ef73",
     "model_type": "db8857fe",
-    "capabilities": "29b57eef",
+    "capabilities": "fdff467b",
     "modalities": "814867b9",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",

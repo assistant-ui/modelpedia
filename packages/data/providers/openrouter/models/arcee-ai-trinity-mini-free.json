@@ -3,7 +3,7 @@
   "name": "Arcee AI: Trinity Mini (free)",
   "created_by": "arcee-ai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "description": "Trinity Mini is a 26B-parameter (3B active) sparse mixture-of-experts language model featuring 128 experts with 8 active per token.",
   "context_window": 131072,
   "modalities": {
@@ -13,14 +13,15 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "_generated": {
     "name": "e9d4ff28",
     "description": "bfc8d0e0",
     "context_window": "f7de594e",
     "modalities": "68e53d93",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "release_date": "0452719b",
     "tagline": "bfc8d0e0",
     "tools": "f0c1dc7e"

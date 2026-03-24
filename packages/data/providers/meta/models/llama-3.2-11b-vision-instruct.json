@@ -3,7 +3,7 @@
   "name": "Llama-3.2-11B-Vision-Instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "Llama-3.2",
   "release_date": "2024-09-18",
   "knowledge_cutoff": "2023-12",
@@ -16,7 +16,8 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "vision": true
+    "vision": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -35,7 +36,7 @@
     "parameters": "6512bd43",
     "page_url": "cb0b3541",
     "model_type": "d669f408",
-    "capabilities": "1a260abc",
+    "capabilities": "4e827c07",
     "modalities": "6399757e",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e"

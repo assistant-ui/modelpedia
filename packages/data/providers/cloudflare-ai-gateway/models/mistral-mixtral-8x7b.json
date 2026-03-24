@@ -3,7 +3,7 @@
   "name": "Mistral: mixtral-8x7b",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "mixtral",
   "model_type": "chat",
   "pricing": {
@@ -14,6 +14,11 @@
     "name": "c6160c81",
     "family": "3c47d372",
     "model_type": "d669f408",
-    "pricing": "d7891837"
+    "pricing": "d7891837",
+    "modalities": "68e53d93"
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

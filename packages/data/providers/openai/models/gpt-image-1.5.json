@@ -3,7 +3,7 @@
   "name": "GPT Image 1.5",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-image-1.5",
   "description": "GPT Image 1.5 is our latest image generation model, with better instruction following and adherence to prompts. Learn more in our [GPT Image 1.5 usage guide](/api/docs/guides/image-generation).",
   "status": "active",
@@ -78,12 +78,12 @@
     "pricing": "f27acd82",
     "endpoints": "af128fc0",
     "license": "9186c466",
-    "page_url": "fc28e11a",
+    "page_url": "d65d7911",
     "open_weight": "68934a3e",
     "release_date": "799b50a0"
   },
   "license": "proprietary",
-  "page_url": "https://platform.openai.com/docs/models/gpt-image-1.5",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-image-1.5?snapshot=gpt-image-1.5-2025-12-16",
   "open_weight": false,
   "release_date": "2025-12-16"
 }

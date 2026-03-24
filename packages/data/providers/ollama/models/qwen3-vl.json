@@ -3,18 +3,19 @@
   "name": "qwen3-vl",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen3",
   "capabilities": {
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "reasoning": true
+    "reasoning": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "826954c2",
     "family": "48c385a0",
-    "capabilities": "a19166f1",
+    "capabilities": "f7041f91",
     "model_type": "d669f408",
     "description": "fdbfa2f2",
     "release_date": "3cb5c95a",

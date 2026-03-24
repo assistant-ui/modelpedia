@@ -3,15 +3,22 @@
   "name": "Groq: llama2-70b-4096",
   "created_by": "groq",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.7,
     "output": 0.7999999999999999
   },
   "_generated": {
     "name": "969feb95",
-    "pricing": "b95fa10f"
+    "pricing": "b95fa10f",
+    "model_type": "d669f408",
+    "parameters": "7cbbc409",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 70
+  "parameters": 70,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

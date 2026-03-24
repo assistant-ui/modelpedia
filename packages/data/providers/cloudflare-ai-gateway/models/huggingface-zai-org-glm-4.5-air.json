@@ -3,15 +3,22 @@
   "name": "HuggingFace: zai-org/GLM-4.5-Air",
   "created_by": "huggingface",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.19999999999999998,
     "output": 1.1
   },
   "_generated": {
     "name": "176a9357",
-    "pricing": "54537265"
+    "pricing": "54537265",
+    "family": "9ddeed20",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "GLM-4.5",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

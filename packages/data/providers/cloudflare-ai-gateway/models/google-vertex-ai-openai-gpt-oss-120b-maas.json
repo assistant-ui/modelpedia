@@ -3,7 +3,7 @@
   "name": "Google Vertex AI: openai/gpt-oss-120b-maas",
   "created_by": "vertex",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gpt-oss",
   "pricing": {
     "input": 0.09,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "5bf21aad",
     "family": "82d0cb0b",
-    "pricing": "bdf7ef66"
+    "pricing": "bdf7ef66",
+    "model_type": "d669f408",
+    "parameters": "da4fb5c6",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 120
+  "parameters": 120,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

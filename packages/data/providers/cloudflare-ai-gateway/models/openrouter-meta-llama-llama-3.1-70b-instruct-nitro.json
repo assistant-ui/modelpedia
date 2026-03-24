@@ -3,7 +3,7 @@
   "name": "OpenRouter: meta-llama/llama-3.1-70b-instruct:nitro",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-3.1",
   "pricing": {
     "input": 3.25,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "8186823a",
     "family": "83ec32db",
-    "pricing": "af0c6574"
+    "pricing": "af0c6574",
+    "model_type": "d669f408",
+    "parameters": "7cbbc409",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 70
+  "parameters": 70,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,7 +3,7 @@
   "name": "xAI: grok-4-fast-non-reasoning",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "grok-4",
   "model_type": "reasoning",
   "pricing": {
@@ -14,6 +14,11 @@
     "name": "f34fe98c",
     "family": "0d5416ff",
     "model_type": "17475f7f",
-    "pricing": "61fbe0c4"
+    "pricing": "61fbe0c4",
+    "modalities": "68e53d93"
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

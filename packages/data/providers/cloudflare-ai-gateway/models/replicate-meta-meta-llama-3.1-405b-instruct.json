@@ -3,16 +3,24 @@
   "name": "Replicate: meta/meta-llama-3.1-405b-instruct",
   "created_by": "replicate",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 9.5,
     "output": 9.5
   },
   "_generated": {
     "name": "e8514ea5",
-    "pricing": "263cf14e"
+    "pricing": "263cf14e",
+    "family": "83ec32db",
+    "model_type": "d669f408",
+    "parameters": "bbcbff5c",
+    "modalities": "68e53d93"
   },
   "family": "llama-3.1",
   "model_type": "chat",
-  "parameters": 405
+  "parameters": 405,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

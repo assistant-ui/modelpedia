@@ -3,7 +3,7 @@
   "name": "gemini-3-flash-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gemini-3",
   "status": "deprecated",
   "deprecation_date": "2025-12-17",
@@ -16,7 +16,8 @@
     "structured_output": true,
     "reasoning": true,
     "batch": true,
-    "vision": true
+    "vision": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
@@ -56,7 +57,7 @@
     "knowledge_cutoff": "3f358a56",
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
-    "capabilities": "29b57eef",
+    "capabilities": "fdff467b",
     "modalities": "0b49b61e",
     "pricing": "9b2e35d6",
     "tools": "f0c1dc7e",

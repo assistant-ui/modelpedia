@@ -3,7 +3,7 @@
   "name": "command-r-03-2024",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "description": "Command R is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models. It can be used for complex workflows like code generation, retrieval augmented generation (RAG), tool use, and agents.",
   "status": "deprecated",
   "context_window": 128000,
@@ -13,7 +13,8 @@
   "tagline": "Command R is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models.",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -33,7 +34,7 @@
     "successor": "a91df70c",
     "model_type": "d669f408",
     "tagline": "1987b19f",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "modalities": "68e53d93",
     "pricing": "2c3abb73",
     "endpoints": "75df3f1c",

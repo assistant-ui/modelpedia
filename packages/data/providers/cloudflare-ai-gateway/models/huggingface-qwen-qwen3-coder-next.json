@@ -3,14 +3,20 @@
   "name": "HuggingFace: Qwen/Qwen3-Coder-Next",
   "created_by": "huggingface",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.19999999999999998,
     "output": 1.5
   },
   "_generated": {
     "name": "5fc4dc20",
-    "pricing": "d98c5970"
+    "pricing": "d98c5970",
+    "model_type": "b6cc3ff4",
+    "modalities": "68e53d93"
   },
-  "model_type": "code"
+  "model_type": "code",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

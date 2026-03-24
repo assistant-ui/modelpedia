@@ -3,7 +3,7 @@
   "name": "xAI: Grok 4.20 Multi-Agent Beta",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "grok-4.20",
   "description": "Grok 4.20 Multi-Agent Beta is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows.",
   "context_window": 2000000,
@@ -13,7 +13,8 @@
   },
   "capabilities": {
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 2,
@@ -26,7 +27,7 @@
     "description": "3f6e003e",
     "context_window": "805f7438",
     "modalities": "6399757e",
-    "capabilities": "ee598c3a",
+    "capabilities": "d53412cf",
     "pricing": "9277b5ca",
     "model_type": "d669f408",
     "release_date": "96ba6f81",

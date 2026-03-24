@@ -3,13 +3,14 @@
   "name": "glm-4.7",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "02d3d929",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "family": "02d3d929",
     "model_type": "d669f408",
     "description": "b958d207",

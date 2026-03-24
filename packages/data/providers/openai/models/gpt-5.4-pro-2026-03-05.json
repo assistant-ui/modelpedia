@@ -3,7 +3,7 @@
   "name": "gpt-5.4-pro-2026-03-05",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gpt-5.4",
   "status": "active",
   "knowledge_cutoff": "2025-08",
@@ -70,14 +70,14 @@
     "model_type": "d669f408",
     "license": "9186c466",
     "release_date": "e6626ce2",
-    "page_url": "5443f1bc",
+    "page_url": "2bf170b3",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "license": "proprietary",
   "release_date": "2026-03-05",
-  "page_url": "https://platform.openai.com/docs/models/gpt-5.4-pro",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.4-pro?snapshot=gpt-5.4-pro-2026-03-05",
   "open_weight": false,
   "tools": ["function_calling"]
 }

@@ -3,7 +3,7 @@
   "name": "Azure OpenAI: o1-preview",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "o1",
   "pricing": {
     "input": 16.5,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "ca837fd7",
     "family": "e1ab0820",
-    "pricing": "e511a70b"
+    "pricing": "e511a70b",
+    "model_type": "17475f7f",
+    "modalities": "68e53d93"
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

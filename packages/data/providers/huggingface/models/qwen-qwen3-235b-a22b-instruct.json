@@ -3,15 +3,16 @@
   "name": "Qwen3-235B-A22B-Instruct-2507",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "snapshots": ["Qwen/Qwen3-235B-A22B-Instruct-2507"],
   "_generated": {
     "name": "6dc008d1",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "model_type": "d669f408",
     "parameters": "577ef115",
     "active_parameters": "b6d767d2",

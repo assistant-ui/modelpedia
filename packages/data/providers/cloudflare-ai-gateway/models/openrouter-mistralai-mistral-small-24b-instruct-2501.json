@@ -3,7 +3,7 @@
   "name": "OpenRouter: mistralai/mistral-small-24b-instruct-2501",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "mistral-small",
   "pricing": {
     "input": 0.049999999999999996,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "126fccee",
     "family": "275918a5",
-    "pricing": "574f99cf"
+    "pricing": "574f99cf",
+    "model_type": "d669f408",
+    "parameters": "1ff1de77",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 24
+  "parameters": 24,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

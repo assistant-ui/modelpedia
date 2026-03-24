@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3.5-Flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen3.5",
   "description": "The Qwen3.5 native vision-language Flash models are built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency.",
   "context_window": 1000000,
@@ -15,7 +15,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.065,
@@ -28,7 +29,7 @@
     "context_window": "8155bc54",
     "max_output_tokens": "297ce0b3",
     "modalities": "3ad4060a",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "c281b5b5",
     "model_type": "d669f408",
     "release_date": "f2b68600",

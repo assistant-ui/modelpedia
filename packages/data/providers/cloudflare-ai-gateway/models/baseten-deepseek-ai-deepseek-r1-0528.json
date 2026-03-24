@@ -3,7 +3,7 @@
   "name": "Baseten: deepseek-ai/deepseek-r1-0528",
   "created_by": "baseten",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "deepseek-r1",
   "pricing": {
     "input": 2.5500000000000003,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "c563706f",
     "family": "c74cfb8e",
-    "pricing": "7e20fd10"
+    "pricing": "7e20fd10",
+    "model_type": "17475f7f",
+    "modalities": "68e53d93"
   },
-  "model_type": "reasoning"
+  "model_type": "reasoning",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

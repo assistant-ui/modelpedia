@@ -3,16 +3,24 @@
   "name": "HuggingFace: Qwen/Qwen3-Next-80B-A3B-Instruct",
   "created_by": "huggingface",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.25,
     "output": 1
   },
   "_generated": {
     "name": "13b0e49a",
-    "pricing": "f691bdc3"
+    "pricing": "f691bdc3",
+    "model_type": "d669f408",
+    "parameters": "f033ab37",
+    "active_parameters": "eccbc87e",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 80,
-  "active_parameters": 3
+  "active_parameters": 3,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

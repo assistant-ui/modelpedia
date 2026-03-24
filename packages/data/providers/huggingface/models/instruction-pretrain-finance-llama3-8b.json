@@ -3,13 +3,14 @@
   "name": "finance-Llama3-8B",
   "created_by": "instruction-pretrain",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "04ec231d",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "parameters": "c9f0f895",
     "page_url": "9995f419",
     "description": "335f2823",

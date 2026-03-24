@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3.5 397B A17B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen3.5",
   "description": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency.",
   "context_window": 262144,
@@ -15,7 +15,8 @@
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
-    "reasoning": true
+    "reasoning": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.39,
@@ -28,7 +29,7 @@
     "context_window": "4a1d32eb",
     "max_output_tokens": "297ce0b3",
     "modalities": "3ad4060a",
-    "capabilities": "f533f522",
+    "capabilities": "03fbefb4",
     "pricing": "42caf6f2",
     "model_type": "d669f408",
     "parameters": "e46de7e1",

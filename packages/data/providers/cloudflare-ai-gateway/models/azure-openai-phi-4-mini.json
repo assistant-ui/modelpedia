@@ -3,7 +3,7 @@
   "name": "Azure OpenAI: phi-4-mini",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.075,
     "output": 0.3
@@ -11,7 +11,12 @@
   "_generated": {
     "name": "a3f521fb",
     "pricing": "b6208862",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

@@ -3,7 +3,7 @@
   "name": "OpenRouter: meta-llama/llama-3.2-1b-instruct",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "llama-3.2",
   "pricing": {
     "input": 0.027,
@@ -12,8 +12,15 @@
   "_generated": {
     "name": "a3b8665a",
     "family": "d4c42ce9",
-    "pricing": "53e81aa5"
+    "pricing": "53e81aa5",
+    "model_type": "d669f408",
+    "parameters": "c4ca4238",
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 1
+  "parameters": 1,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

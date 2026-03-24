@@ -3,7 +3,7 @@
   "name": "Amazon Bedrock: amazon.nova-lite-v1:0",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "chat",
   "pricing": {
     "input": 0.06,
@@ -12,6 +12,11 @@
   "_generated": {
     "name": "bb85f6e5",
     "model_type": "d669f408",
-    "pricing": "8cdaccf7"
+    "pricing": "8cdaccf7",
+    "modalities": "68e53d93"
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
   }
 }

@@ -3,7 +3,7 @@
   "name": "Azure OpenAI: grok-code-fast-1",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "grok-code",
   "pricing": {
     "input": 0.19999999999999998,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "97127afd",
     "family": "378ba70c",
-    "pricing": "d98c5970"
+    "pricing": "d98c5970",
+    "model_type": "b6cc3ff4",
+    "modalities": "68e53d93"
   },
-  "model_type": "code"
+  "model_type": "code",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

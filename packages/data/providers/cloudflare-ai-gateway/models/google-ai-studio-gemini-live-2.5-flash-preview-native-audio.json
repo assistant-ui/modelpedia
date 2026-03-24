@@ -3,15 +3,22 @@
   "name": "Google AI Studio: gemini-live-2.5-flash-preview-native-audio",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "pricing": {
     "input": 0.5,
     "output": 2
   },
   "_generated": {
     "name": "c87508c6",
-    "pricing": "c86e251d"
+    "pricing": "c86e251d",
+    "family": "ea6b88bf",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
   "family": "gemini-2.5",
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

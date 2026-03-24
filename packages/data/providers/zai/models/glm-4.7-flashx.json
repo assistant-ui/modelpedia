@@ -3,7 +3,7 @@
   "name": "GLM-4.7-FlashX",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "context_window": 200000,
   "max_output_tokens": 128000,
   "capabilities": {
@@ -11,7 +11,9 @@
     "tool_call": true,
     "structured_output": true,
     "reasoning": true,
-    "prompt_caching": true
+    "prompt_caching": true,
+    "fine_tuning": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -21,7 +23,7 @@
     "name": "c18a58e1",
     "context_window": "03e6c616",
     "max_output_tokens": "34434798",
-    "capabilities": "97babf9a",
+    "capabilities": "2582d2f2",
     "modalities": "68e53d93",
     "family": "02d3d929",
     "model_type": "d669f408",

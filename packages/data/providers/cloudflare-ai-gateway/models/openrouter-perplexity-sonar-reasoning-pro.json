@@ -3,7 +3,7 @@
   "name": "OpenRouter: perplexity/sonar-reasoning-pro",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "reasoning",
   "pricing": {
     "input": 2,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "01750f2a",
     "model_type": "17475f7f",
-    "pricing": "9d7f5a51"
+    "pricing": "9d7f5a51",
+    "family": "8b8f2acb",
+    "modalities": "68e53d93"
   },
-  "family": "sonar"
+  "family": "sonar",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

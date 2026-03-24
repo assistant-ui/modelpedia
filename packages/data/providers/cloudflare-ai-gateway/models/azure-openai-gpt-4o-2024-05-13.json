@@ -3,7 +3,7 @@
   "name": "Azure OpenAI: gpt-4o-2024-05-13",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gpt-4o",
   "pricing": {
     "input": 5,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "c2b87be5",
     "family": "15249632",
-    "pricing": "dbc0b754"
+    "pricing": "dbc0b754",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

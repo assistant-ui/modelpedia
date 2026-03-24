@@ -3,7 +3,7 @@
   "name": "Inception: Mercury",
   "created_by": "inception",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "description": "Mercury is the first diffusion large language model (dLLM).",
   "status": "deprecated",
   "deprecation_date": "2026-04-15",
@@ -15,7 +15,8 @@
   },
   "capabilities": {
     "tool_call": true,
-    "structured_output": true
+    "structured_output": true,
+    "json_mode": true
   },
   "pricing": {
     "input": 0.25,
@@ -30,7 +31,7 @@
     "context_window": "34434798",
     "max_output_tokens": "10e4d788",
     "modalities": "68e53d93",
-    "capabilities": "ad177261",
+    "capabilities": "6c9aa67e",
     "pricing": "966083ea",
     "release_date": "f083d14e",
     "tagline": "92a178f9",

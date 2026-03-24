@@ -3,11 +3,17 @@
   "name": "OpenAI: text-moderation-007",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "model_type": "moderation",
   "_generated": {
     "name": "d7390ec3",
-    "model_type": "1e7a7b87"
+    "model_type": "1e7a7b87",
+    "family": "af24ddfe",
+    "modalities": "68e53d93"
   },
-  "family": "text-moderation"
+  "family": "text-moderation",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

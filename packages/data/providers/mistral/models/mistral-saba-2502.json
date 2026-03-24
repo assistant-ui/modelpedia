@@ -3,13 +3,14 @@
   "name": "mistral-saba-2502",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "status": "deprecated",
   "deprecation_date": "2025-06-10",
   "context_window": 32000,
   "alias": "mistral-saba",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -20,7 +21,7 @@
     "status": "2e2f74dc",
     "deprecation_date": "298b4e52",
     "context_window": "10e4d788",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "modalities": "68e53d93",
     "model_type": "d669f408",
     "family": "27f7c201",

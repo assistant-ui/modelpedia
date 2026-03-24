@@ -3,11 +3,12 @@
   "name": "qwen-mt-flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "qwen",
   "model_type": "chat",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -22,7 +23,7 @@
     "name": "1664111c",
     "family": "a3af76f3",
     "model_type": "d669f408",
-    "capabilities": "0fa77dc6",
+    "capabilities": "9c665f5d",
     "modalities": "68e53d93",
     "pricing": "351cdbcb",
     "endpoints": "75df3f1c",

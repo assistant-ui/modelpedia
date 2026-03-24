@@ -3,16 +3,17 @@
   "name": "gemma-2-2b-it",
   "created_by": "efficient-large-model",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "gemma-2",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "f324db56",
     "family": "e8114e3e",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "model_type": "d669f408",
     "parameters": "d0e5f276",
     "page_url": "c7d6639a",

@@ -3,7 +3,7 @@
   "name": "OpenRouter: openai/gpt-4-turbo-preview",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "gpt-4-turbo",
   "pricing": {
     "input": 10,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "8812f150",
     "family": "e55097d8",
-    "pricing": "d5468ada"
+    "pricing": "d5468ada",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

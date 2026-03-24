@@ -3,14 +3,15 @@
   "name": "lfm2.5-thinking",
   "created_by": "liquid",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "_generated": {
     "name": "f373244e",
-    "capabilities": "48995a4e",
+    "capabilities": "5780d00a",
     "description": "84e2683f",
     "page_url": "9806fd29",
     "tagline": "84e2683f",

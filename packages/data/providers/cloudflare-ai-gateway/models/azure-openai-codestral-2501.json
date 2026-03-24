@@ -3,7 +3,7 @@
   "name": "Azure OpenAI: codestral-2501",
   "created_by": "azure",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-24",
   "family": "codestral",
   "pricing": {
     "input": 0.3,
@@ -12,7 +12,13 @@
   "_generated": {
     "name": "2b7b15c6",
     "family": "a0734f6e",
-    "pricing": "cfa7f421"
+    "pricing": "cfa7f421",
+    "model_type": "b6cc3ff4",
+    "modalities": "68e53d93"
   },
-  "model_type": "code"
+  "model_type": "code",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

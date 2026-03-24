@@ -3,11 +3,12 @@
   "name": "GLM-4.5V",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "max_output_tokens": 16000,
   "capabilities": {
     "streaming": true,
-    "reasoning": true
+    "reasoning": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -16,7 +17,7 @@
   "_generated": {
     "name": "2625801d",
     "max_output_tokens": "67510c89",
-    "capabilities": "b011c6b4",
+    "capabilities": "034b2f91",
     "modalities": "68e53d93",
     "family": "e8ea1e1e",
     "model_type": "d669f408",
