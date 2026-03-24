@@ -1,6 +1,7 @@
 import {
   Braces,
   Brain,
+  CircleHelp,
   Eye,
   Hammer,
   Layers,
@@ -10,6 +11,7 @@ import {
 } from "lucide-react";
 import { InheritedBadge } from "@/components/shared/model-detail";
 import { Section } from "@/components/ui/section";
+import { Tooltip } from "@/components/ui/tooltip";
 import { cn } from "@/lib/cn";
 import type { EnrichedModel } from "@/lib/data";
 
@@ -38,6 +40,7 @@ export function CapabilitiesGrid({
       <div className="grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-4">
         {CAP_KEYS.map((key) => {
           const val = model.capabilities?.[key];
+          const unknown = val == null;
           const { label, icon: Icon } = CAP_MAP[key];
           const isInherited = inherited?.has(`capabilities.${key}`);
           return (
@@ -60,6 +63,14 @@ export function CapabilitiesGrid({
               >
                 {label}
               </span>
+              {unknown && (
+                <Tooltip content="No data available">
+                  <CircleHelp
+                    size={12}
+                    className="shrink-0 text-muted-foreground/40"
+                  />
+                </Tooltip>
+              )}
               {isInherited && <InheritedBadge from={model.inheritedFrom} />}
             </div>
           );

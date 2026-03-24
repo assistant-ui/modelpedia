@@ -160,8 +160,12 @@ function boolLabel(value?: boolean | null): string | null {
 }
 
 function CapBadge({ supported }: { supported?: boolean }) {
-  if (supported === undefined)
-    return <span className="text-muted-foreground">—</span>;
+  if (supported == null)
+    return (
+      <Tooltip content="No data available">
+        <span className="cursor-default text-muted-foreground">—</span>
+      </Tooltip>
+    );
   return (
     <span className={supported ? "text-foreground" : "text-muted-foreground"}>
       {supported ? "Yes" : "No"}

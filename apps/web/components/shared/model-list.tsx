@@ -15,7 +15,7 @@ import {
 import { cn } from "@/lib/cn";
 import { CAP_LABELS } from "@/lib/constants";
 import type { ModelCapabilities } from "@/lib/data";
-import { formatParams, formatPrice, formatTokens } from "@/lib/format";
+import { formatPrice, formatTokens } from "@/lib/format";
 
 export interface ModelItem {
   id: string;
@@ -47,17 +47,32 @@ function capBadges(caps: ModelCapabilities | undefined) {
   if (!caps) return null;
   return (
     <span className="flex gap-0.5">
-      {CAP_LABELS.map(([key, letter]) =>
-        caps[key as keyof ModelCapabilities] ? (
-          <span
-            key={key}
-            className="flex h-4 w-4 items-center justify-center rounded bg-muted text-[10px] text-foreground"
-            title={key.replace(/_/g, " ")}
-          >
-            {letter}
-          </span>
-        ) : null,
-      )}
+      {CAP_LABELS.map(([key, letter]) => {
+        const val = caps[key as keyof ModelCapabilities];
+        if (val === true) {
+          return (
+            <span
+              key={key}
+              className="flex h-4 w-4 items-center justify-center rounded bg-muted text-[10px] text-foreground"
+              title={key.replace(/_/g, " ")}
+            >
+              {letter}
+            </span>
+          );
+        }
+        if (val == null) {
+          return (
+            <span
+              key={key}
+              className="flex h-4 w-4 items-center justify-center rounded bg-muted text-[10px] text-muted-foreground/30"
+              title={`${key.replace(/_/g, " ")} (no data)`}
+            >
+              {letter}
+            </span>
+          );
+        }
+        return null;
+      })}
     </span>
   );
 }
@@ -131,24 +146,6 @@ function buildColumns(showProvider?: boolean): ColumnDef<ModelItem>[] {
         return v ? (
           <span className="font-mono text-muted-foreground text-sm tabular-nums">
             {formatTokens(v)}
-          </span>
-        ) : null;
-      },
-    },
-    {
-      id: "params",
-      accessorFn: (row) => row.parameters ?? -1,
-      header: "Params",
-      sortingFn: "basic",
-      meta: {
-        className: "hidden sm:table-cell",
-        headerClassName: "hidden sm:table-cell",
-      },
-      cell: ({ row }) => {
-        const m = row.original;
-        return m.parameters != null ? (
-          <span className="font-mono text-muted-foreground text-sm tabular-nums">
-            {formatParams(m.parameters, m.active_parameters)}
           </span>
         ) : null;
       },
