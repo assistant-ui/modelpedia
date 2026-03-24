@@ -155,7 +155,7 @@ function generate() {
         caps.fine_tuning = true;
       }
       // structured_output implies json_mode
-      if (caps.structured_output && caps.json_mode == null) {
+      if (caps.structured_output && !caps.json_mode) {
         caps.json_mode = true;
       }
       // endpoints containing "batch" implies batch capability

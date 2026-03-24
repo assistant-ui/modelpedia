@@ -56,7 +56,10 @@ async function fetchModelSpec(slug: string): Promise<ModelSpec | null> {
   const res = await fetch(`${MODELS_PAGE}/${slug}`);
   if (!res.ok) return null;
   const html = await res.text();
-  const text = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+  const text = html
+    .replace(/<(style|script|nav|header|footer|head)[\s\S]*?<\/\1>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ");
 
   // Model ID - the slug itself is the ID
   const id = slug;
@@ -66,7 +69,7 @@ async function fetchModelSpec(slug: string): Promise<ModelSpec | null> {
   // "Try in Google AI Studio" in the stripped text.
   let description: string | undefined;
   const descMatch = text.match(
-    /((?:Our |A |The |An )\S[\s\S]*?)\s+Try in Google AI Studio/i,
+    /((?:Our |A |The |An )\S[\s\S]*?)\s+Try in Google AI Studio/,
   );
   if (descMatch) {
     const raw = descMatch[1].trim();

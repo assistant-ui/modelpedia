@@ -377,7 +377,7 @@ export function inferModelType(
   if (/^codestral|^devstral|^codellama|^codex/i.test(id)) return "code";
   if (/^grok-code/i.test(id)) return "code";
   // Reasoning (generic, after specific o-series/deepseek checks)
-  if (/reasoning/i.test(id)) return "reasoning";
+  if (/(?<!non-)reasoning/i.test(id)) return "reasoning";
   // Realtime / search (specialized chat variants)
   if (/realtime/i.test(id)) return "audio";
   if (/search/i.test(id)) return "chat";
@@ -694,7 +694,7 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
   // structured_output implies json_mode
   if (data.capabilities) {
     const c = data.capabilities as Record<string, unknown>;
-    if (c.structured_output && c.json_mode == null) {
+    if (c.structured_output && !c.json_mode) {
       c.json_mode = true;
     }
   }
