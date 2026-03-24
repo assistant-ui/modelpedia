@@ -1,0 +1,25 @@
+{
+  "id": "grok-1",
+  "name": "Grok-1",
+  "created_by": "xai",
+  "source": "manual",
+  "family": "grok-1",
+  "description": "Grok-1 is a 314B parameter Mixture-of-Experts model open-sourced by xAI under the Apache 2.0 license.",
+  "tagline": "314B MoE model, xAI's first open-source release.",
+  "status": "deprecated",
+  "release_date": "2024-03-17",
+  "context_window": 8192,
+  "parameters": 314,
+  "active_parameters": 86,
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "open_weight": true,
+  "page_url": "https://x.ai/news/grok-os",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "capabilities": {
+    "streaming": true
+  }
+}
