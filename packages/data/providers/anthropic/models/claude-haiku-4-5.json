@@ -3,7 +3,7 @@
   "name": "Claude Haiku 4.5",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "claude-haiku",
   "description": "The fastest model with near-frontier intelligence",
   "status": "active",
@@ -18,7 +18,10 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "reasoning": true
+    "reasoning": true,
+    "structured_output": true,
+    "json_mode": true,
+    "batch": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -50,7 +53,7 @@
     "reasoning": "eccbc87e",
     "speed": "e4da3b7f",
     "tagline": "43be3531",
-    "capabilities": "a19166f1",
+    "capabilities": "1616fc33",
     "modalities": "6399757e",
     "pricing": "48ecc1a7",
     "tools": "abde16bc",

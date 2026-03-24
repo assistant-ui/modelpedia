@@ -3,12 +3,13 @@
   "name": "Claude Haiku 3",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "claude-haiku",
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "tool_call": true
+    "tool_call": true,
+    "batch": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -27,7 +28,7 @@
   "_generated": {
     "name": "51f03323",
     "family": "1cfb9795",
-    "capabilities": "fc36814c",
+    "capabilities": "29417d42",
     "modalities": "6399757e",
     "pricing": "3c583b0b",
     "tools": "f0c1dc7e",
@@ -35,10 +36,16 @@
     "model_type": "d669f408",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "page_url": "29268b32"
+    "page_url": "29268b32",
+    "status": "2e2f74dc",
+    "deprecation_date": "1323dc51",
+    "successor": "aeddba50"
   },
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
-  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-3-haiku"
+  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-3-haiku",
+  "status": "deprecated",
+  "deprecation_date": "2026-02-19",
+  "successor": "claude-haiku-4-5-20251001"
 }

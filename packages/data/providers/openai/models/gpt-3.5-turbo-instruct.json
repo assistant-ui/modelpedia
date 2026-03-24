@@ -15,7 +15,13 @@
   "speed": 2,
   "tagline": "An older model only compatible with the legacy Completions endpoint",
   "capabilities": {
-    "fine_tuning": true
+    "fine_tuning": true,
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "reasoning": false
   },
   "modalities": {
     "input": ["text"],
@@ -52,7 +58,7 @@
     "performance": "c4ca4238",
     "speed": "c81e728d",
     "tagline": "1233a25c",
-    "capabilities": "d53dc8e8",
+    "capabilities": "77cb67d9",
     "modalities": "68e53d93",
     "pricing": "edca0a42",
     "endpoints": "72e91ba7",

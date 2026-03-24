@@ -17,7 +17,12 @@
   "tagline": "This is a preview release of the smaller GPT-4o Audio mini model.",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "vision": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
   },
   "modalities": {
     "input": ["text", "audio"],
@@ -64,7 +69,7 @@
     "performance": "c81e728d",
     "speed": "a87ff679",
     "tagline": "8203c14c",
-    "capabilities": "48995a4e",
+    "capabilities": "e8cba1a0",
     "modalities": "cf05925d",
     "pricing": "688cb68b",
     "endpoints": "d8fa1080",

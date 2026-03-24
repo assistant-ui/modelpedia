@@ -17,7 +17,12 @@
   "tagline": "This is a preview release of the GPT-4o Audio models.",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "vision": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
   },
   "modalities": {
     "input": ["text", "audio"],
@@ -64,7 +69,7 @@
     "performance": "eccbc87e",
     "speed": "eccbc87e",
     "tagline": "dac69fbc",
-    "capabilities": "48995a4e",
+    "capabilities": "e8cba1a0",
     "modalities": "cf05925d",
     "pricing": "ae3d21b8",
     "endpoints": "d8fa1080",

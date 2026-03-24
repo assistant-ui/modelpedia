@@ -80,10 +80,21 @@
     "license": "9186c466",
     "release_date": "799b50a0",
     "page_url": "d65d7911",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "capabilities": "ec32b5a4"
   },
   "license": "proprietary",
   "release_date": "2025-12-16",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-image-1.5?snapshot=gpt-image-1.5-2025-12-16",
-  "open_weight": false
+  "open_weight": false,
+  "capabilities": {
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false,
+    "batch": true
+  }
 }

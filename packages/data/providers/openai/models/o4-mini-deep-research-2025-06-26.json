@@ -20,7 +20,12 @@
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "reasoning": true
+    "reasoning": true,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "batch": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -65,7 +70,7 @@
     "reasoning": "a87ff679",
     "speed": "eccbc87e",
     "tagline": "9ebc679a",
-    "capabilities": "8d009641",
+    "capabilities": "0651f887",
     "modalities": "6399757e",
     "pricing": "e36f1250",
     "endpoints": "6f01fd6c",

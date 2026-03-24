@@ -19,7 +19,9 @@
     "tool_call": true,
     "structured_output": true,
     "reasoning": true,
-    "json_mode": true
+    "json_mode": false,
+    "vision": false,
+    "fine_tuning": false
   },
   "modalities": {
     "input": ["text"],
@@ -39,7 +41,7 @@
     "performance": "eccbc87e",
     "reasoning": "eccbc87e",
     "speed": "c4ca4238",
-    "capabilities": "55f30939",
+    "capabilities": "e4bf8213",
     "modalities": "68e53d93",
     "endpoints": "6558e44b",
     "description": "f5e9182d",

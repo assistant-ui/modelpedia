@@ -17,7 +17,13 @@
   "successor": "gpt-4o",
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "reasoning": false,
+    "batch": true
   },
   "modalities": {
     "input": ["text"],
@@ -67,7 +73,7 @@
     "speed": "eccbc87e",
     "tagline": "a3fc0b7c",
     "successor": "15249632",
-    "capabilities": "9c665f5d",
+    "capabilities": "5a69b112",
     "modalities": "68e53d93",
     "pricing": "5d4244b3",
     "endpoints": "ebc03c48",

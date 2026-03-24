@@ -3,7 +3,7 @@
   "name": "Claude Sonnet 4.5",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-24",
   "family": "claude-sonnet",
   "status": "active",
   "knowledge_cutoff": "2025-01",
@@ -16,7 +16,10 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "reasoning": true
+    "reasoning": true,
+    "structured_output": true,
+    "json_mode": true,
+    "batch": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -46,7 +49,7 @@
     "performance": "a87ff679",
     "reasoning": "a87ff679",
     "speed": "a87ff679",
-    "capabilities": "a19166f1",
+    "capabilities": "1616fc33",
     "modalities": "6399757e",
     "pricing": "fb84d495",
     "tools": "abde16bc",

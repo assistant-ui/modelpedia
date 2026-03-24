@@ -13,7 +13,12 @@
   "speed": 3,
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "reasoning": false
   },
   "modalities": {
     "input": ["text", "image"],
@@ -29,7 +34,7 @@
     "max_output_tokens": "f7efa4f8",
     "performance": "c81e728d",
     "speed": "eccbc87e",
-    "capabilities": "9c665f5d",
+    "capabilities": "ba6a0add",
     "modalities": "6399757e",
     "endpoints": "5ea7876b",
     "model_type": "d669f408",

@@ -19,7 +19,12 @@
   "successor": "o3-mini",
   "capabilities": {
     "streaming": true,
-    "reasoning": true
+    "reasoning": true,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false
   },
   "modalities": {
     "input": ["text"],
@@ -67,7 +72,7 @@
     "speed": "c81e728d",
     "tagline": "9ccc5290",
     "successor": "7ea41c2f",
-    "capabilities": "b011c6b4",
+    "capabilities": "b9aba792",
     "modalities": "68e53d93",
     "pricing": "ea08eb92",
     "tools": "25473f2d",

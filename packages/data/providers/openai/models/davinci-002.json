@@ -13,7 +13,13 @@
   "speed": 3,
   "tagline": "Replacement for the GPT-3 curie and davinci base models",
   "capabilities": {
-    "fine_tuning": true
+    "fine_tuning": true,
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "reasoning": false
   },
   "modalities": {
     "input": ["text"],
@@ -69,7 +75,7 @@
     "performance": "c4ca4238",
     "speed": "eccbc87e",
     "tagline": "25a45b8b",
-    "capabilities": "d53dc8e8",
+    "capabilities": "77cb67d9",
     "modalities": "68e53d93",
     "pricing": "492fd208",
     "endpoints": "69bfe5cd",

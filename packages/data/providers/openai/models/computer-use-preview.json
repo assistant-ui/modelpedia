@@ -16,7 +16,13 @@
   "tagline": "Specialized model for computer use tool",
   "capabilities": {
     "tool_call": true,
-    "reasoning": true
+    "reasoning": true,
+    "streaming": false,
+    "vision": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "batch": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -59,7 +65,7 @@
     "reasoning": "c81e728d",
     "speed": "c81e728d",
     "tagline": "8f3e2808",
-    "capabilities": "05723a3e",
+    "capabilities": "ee90b87a",
     "modalities": "6399757e",
     "pricing": "def0b895",
     "endpoints": "6f01fd6c",

@@ -16,7 +16,12 @@
   "tagline": "GPT-4o model used in ChatGPT",
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
   },
   "modalities": {
     "input": ["text", "image"],
@@ -53,7 +58,7 @@
     "performance": "eccbc87e",
     "speed": "eccbc87e",
     "tagline": "797eb169",
-    "capabilities": "8a3b232e",
+    "capabilities": "e44a8cfe",
     "modalities": "6399757e",
     "pricing": "62f384a6",
     "endpoints": "72e91ba7",

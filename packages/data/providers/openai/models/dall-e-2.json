@@ -47,10 +47,20 @@
     "family": "76fb8555",
     "license": "9186c466",
     "page_url": "2416d7fe",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "capabilities": "e6b78b42"
   },
   "family": "dall-e",
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/dall-e-2",
-  "open_weight": false
+  "open_weight": false,
+  "capabilities": {
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
+  }
 }
