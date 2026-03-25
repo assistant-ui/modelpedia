@@ -3,18 +3,18 @@
   "name": "Sora 2 Pro",
   "created_by": "unknown",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-25",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 0.14,
-    "output": 2.4
+    "output": 3
   },
   "_generated": {
     "name": "77091c9c",
     "capabilities": "0fa77dc6",
-    "pricing": "060183d1",
+    "pricing": "e5b26605",
     "model_type": "4d1b75ca",
     "family": "3d185d44",
     "page_url": "0ccf1442"

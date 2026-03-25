@@ -3,7 +3,7 @@
   "name": "claude-3.5-sonnet-20240620",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-03-25",
   "family": "claude-sonnet",
   "context_window": 200000,
   "capabilities": {

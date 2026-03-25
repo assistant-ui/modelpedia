@@ -3,7 +3,7 @@
   "name": "mistral-moderation",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-03-25",
   "status": "active",
   "context_window": 8000,
   "capabilities": {

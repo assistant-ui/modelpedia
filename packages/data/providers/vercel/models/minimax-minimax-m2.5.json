@@ -3,7 +3,7 @@
   "name": "minimax-m2.5",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-25",
   "context_window": 204800,
   "capabilities": {
     "streaming": true,
@@ -11,14 +11,14 @@
     "reasoning": true
   },
   "pricing": {
-    "input": 0.3,
-    "output": 1.2
+    "input": 0.27,
+    "output": 0.95
   },
   "_generated": {
     "name": "f00ef4f7",
     "context_window": "65d646a4",
     "capabilities": "a281e83a",
-    "pricing": "ea3f0b86",
+    "pricing": "4eed2b83",
     "family": "c85916f0",
     "model_type": "d669f408",
     "tools": "f0c1dc7e",

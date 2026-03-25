@@ -1,0 +1,23 @@
+{
+  "id": "disable_reasoning",
+  "name": "disable_reasoning",
+  "created_by": "unknown",
+  "source": "official",
+  "last_updated": "2026-03-25",
+  "status": "deprecated",
+  "deprecation_date": "2026-03-24",
+  "model_type": "chat",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "458437bb",
+    "status": "2e2f74dc",
+    "deprecation_date": "3c215d49",
+    "model_type": "d669f408",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
+  }
+}

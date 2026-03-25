@@ -3,7 +3,7 @@
   "name": "gpt-5.4-mini-2026-03-17",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-03-25",
   "family": "gpt-5.4",
   "description": "GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient",
   "status": "active",
@@ -55,6 +55,10 @@
           {
             "label": "Flex",
             "values": [0.375, 0.0375, 2.25]
+          },
+          {
+            "label": "Priority",
+            "values": [1.5, 0.15, 9]
           }
         ]
       }
@@ -78,7 +82,7 @@
     "tagline": "52ee5ed1",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "47500a58",
+    "pricing": "403fc13e",
     "endpoints": "88e8abb4",
     "license": "9186c466",
     "release_date": "56d4bd95",
