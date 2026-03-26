@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen-Plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-03-26",
   "family": "qwen",
   "description": "Qwen-Plus, based on the Qwen2.5 foundation model, is a 131K context model with a balanced performance, speed, and cost combination.",
   "context_window": 1000000,

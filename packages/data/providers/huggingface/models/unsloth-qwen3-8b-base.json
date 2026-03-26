@@ -1,0 +1,34 @@
+{
+  "id": "unsloth/Qwen3-8B-Base",
+  "name": "Qwen3-8B-Base",
+  "created_by": "unsloth",
+  "source": "official",
+  "release_date": "2025-04-28",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "page_url": "https://huggingface.co/unsloth/Qwen3-8B-Base",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "243c6cb3",
+    "release_date": "1487959c",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "page_url": "88b54742",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "capabilities": "9c665f5d",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-03-26"
+}

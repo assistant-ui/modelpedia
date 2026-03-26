@@ -3,7 +3,7 @@
   "name": "Mistral Large",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-03-26",
   "family": "mistral-large",
   "description": "This is Mistral AI's flagship model, Mistral Large 2 (version `mistral-large-2407`).",
   "context_window": 128000,
