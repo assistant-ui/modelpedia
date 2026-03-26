@@ -587,7 +587,6 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
   data.created_by =
     entry.created_by ?? (existing?.created_by as string) ?? provider;
   data.source = "official";
-  data.last_updated = today();
 
   const scalars = [
     "family",
@@ -784,6 +783,9 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
       `  update ${provider}/models/${modelId}.json [${Object.keys(changedFields).join(", ")}]`,
     );
   }
+
+  // Only update last_updated when there are real data changes (or new model)
+  data.last_updated = today();
 
   writeModelJson(provider, modelId, data);
   return true;
