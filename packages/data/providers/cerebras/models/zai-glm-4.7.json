@@ -3,7 +3,7 @@
   "name": "Z.ai GLM 4.7",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-03-26",
   "context_window": 131000,
   "max_output_tokens": 40000,
   "capabilities": {
@@ -29,7 +29,7 @@
     "capabilities": "b8626b7e",
     "modalities": "68e53d93",
     "pricing": "c31ca41c",
-    "status": "127aecde",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "endpoints": "d8fa1080",
     "model_card_url": "18a4a917",
@@ -39,9 +39,10 @@
     "huggingface_url": "18a4a917",
     "reasoning_tokens": "b326b506",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "3c215d49"
   },
-  "status": "preview",
+  "status": "deprecated",
   "model_type": "chat",
   "endpoints": ["chat_completions"],
   "model_card_url": "https://huggingface.co/zai-org/GLM-4.7",
@@ -51,5 +52,6 @@
   "huggingface_url": "https://huggingface.co/zai-org/GLM-4.7",
   "reasoning_tokens": true,
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-03-24"
 }

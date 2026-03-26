@@ -3,7 +3,7 @@
   "name": "GPT-4o Audio",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-03-26",
   "family": "gpt-4o",
   "description": "This is a preview release of the GPT-4o Audio models. These models accept",
   "status": "active",

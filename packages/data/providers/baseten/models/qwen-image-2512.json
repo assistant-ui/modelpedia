@@ -1,0 +1,26 @@
+{
+  "id": "qwen-image-2512",
+  "name": "qwen-image-2512",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen",
+  "model_type": "chat",
+  "alias": "qwen-image",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "f82ca114",
+    "family": "a3af76f3",
+    "model_type": "d669f408",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-03-26"
+}

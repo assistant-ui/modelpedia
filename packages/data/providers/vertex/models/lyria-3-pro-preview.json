@@ -1,0 +1,39 @@
+{
+  "id": "lyria-3-pro-preview",
+  "name": "lyria-3-pro-preview",
+  "created_by": "google",
+  "source": "official",
+  "status": "active",
+  "context_window": 131072,
+  "model_type": "tts",
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "9ded6f40",
+    "status": "379ac110",
+    "context_window": "f7de594e",
+    "model_type": "4e16a2cf",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "fdff467b",
+    "modalities": "601e776d",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-03-26"
+}

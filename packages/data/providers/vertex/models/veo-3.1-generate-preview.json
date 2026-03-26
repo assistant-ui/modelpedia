@@ -3,8 +3,8 @@
   "name": "veo-3.1-generate-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-24",
-  "status": "active",
+  "last_updated": "2026-03-26",
+  "status": "deprecated",
   "context_window": 1024,
   "model_type": "video",
   "capabilities": {
@@ -24,7 +24,7 @@
   "endpoints": ["generateContent", "streamGenerateContent"],
   "_generated": {
     "name": "102deb3f",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "021bbc7e",
     "model_type": "4d1b75ca",
     "capabilities": "fdff467b",
@@ -35,11 +35,13 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "description": "debbbba4",
-    "tagline": "0cc905e7"
+    "tagline": "0cc905e7",
+    "deprecation_date": "3c659a30"
   },
   "family": "veo-3.1",
   "license": "proprietary",
   "open_weight": false,
   "description": "A state-of-the-art cinematic engine designed for high-end creative storytelling and experimental video production. Veo 3.1 is best for professional-grade 4K output, natively synchronized audio generation, and complex camera movements that require the highest level of temporal consistency and artistic control.",
-  "tagline": "A state-of-the-art cinematic engine designed for high-end creative storytelling and experimental video production."
+  "tagline": "A state-of-the-art cinematic engine designed for high-end creative storytelling and experimental video production.",
+  "deprecation_date": "2025-10-15"
 }
