@@ -3,7 +3,7 @@
   "name": "o1-pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-03-27",
   "family": "o1",
   "description": "The o1 series of models are trained with reinforcement learning to think",
   "status": "active",

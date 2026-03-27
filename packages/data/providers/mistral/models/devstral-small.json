@@ -3,7 +3,7 @@
   "name": "devstral-small",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-03-27",
   "family": "devstral",
   "status": "deprecated",
   "context_window": 128000,

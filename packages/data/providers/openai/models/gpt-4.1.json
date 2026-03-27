@@ -3,7 +3,7 @@
   "name": "GPT-4.1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-03-27",
   "family": "gpt-4.1",
   "description": "GPT-4.1 excels at instruction following and tool calling, with broad",
   "status": "active",

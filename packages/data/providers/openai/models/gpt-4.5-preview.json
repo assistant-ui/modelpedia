@@ -3,7 +3,7 @@
   "name": "GPT-4.5 Preview (Deprecated)",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-03-27",
   "description": "Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3",
   "status": "active",
   "knowledge_cutoff": "2023-10",

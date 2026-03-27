@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 235B A22B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-03-27",
   "family": "qwen3",
   "description": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass.",
   "context_window": 131072,

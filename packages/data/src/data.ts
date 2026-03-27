@@ -9860,7 +9860,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Z.ai GLM 4.7",
         "created_by": "zhipu",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "context_window": 131000,
         "max_output_tokens": 40000,
         "capabilities": {
@@ -49492,6 +49492,28 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://docs.cohere.com/docs/models#c4ai-aya-vision-8b"
       },
       {
+        "id": "cohere-transcribe-03-2026",
+        "name": "cohere-transcribe-03-2026",
+        "created_by": "cohere",
+        "source": "official",
+        "description": "Open source research release focused on high-accuracy, multilingual speech transcription.",
+        "status": "active",
+        "license": "proprietary",
+        "page_url": "https://docs.cohere.com/docs/models#cohere-transcribe-03-2026",
+        "model_type": "transcription",
+        "tagline": "Open source research release focused on high-accuracy, multilingual speech transcription.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weight": false,
+        "last_updated": "2026-03-27"
+      },
+      {
         "id": "command-a-03-2025",
         "name": "command-a-03-2025",
         "created_by": "cohere",
@@ -49926,7 +49948,7 @@ export const providers: ProviderWithModels[] = [
         "name": "embed-english-light-v3.0",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "description": "A smaller, faster version of embed-english-v3.0 . Almost as capable, but a lot faster. English only.",
         "status": "active",
         "context_window": 512,
@@ -49983,7 +50005,7 @@ export const providers: ProviderWithModels[] = [
         "name": "embed-english-v3.0",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "description": "A model that allows for text to be classified or turned into embeddings. English only.",
         "status": "active",
         "context_window": 512,
@@ -50014,7 +50036,7 @@ export const providers: ProviderWithModels[] = [
         "name": "embed-multilingual-light-v3.0",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "description": "A smaller, faster version of embed-multilingual-v3.0 . Almost as capable, but a lot faster. Supports multiple languages.",
         "status": "active",
         "context_window": 512,
@@ -50071,7 +50093,7 @@ export const providers: ProviderWithModels[] = [
         "name": "embed-multilingual-v3.0",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "description": "Provides multilingual classification and embedding support. See supported languages here.",
         "status": "active",
         "context_window": 512,
@@ -50102,7 +50124,7 @@ export const providers: ProviderWithModels[] = [
         "name": "embed-v4.0",
         "created_by": "cohere",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "description": "A model that allows for text and images to be classified or turned into embeddings",
         "status": "active",
         "context_window": 128000,
@@ -59656,11 +59678,11 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash-live-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-03-27",
         "family": "gemini-2.0",
         "status": "deprecated",
         "deprecation_date": "2025-12-09",
-        "successor": "gemini-2.5-flash-native-audio-preview-12-2025",
+        "successor": "gemini-3.1-flash-live-preview",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -60108,9 +60130,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-native-audio-preview-12-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-03-27",
         "family": "gemini-2.5",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 131072,
         "max_output_tokens": 8192,
@@ -60148,7 +60170,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
         "open_weight": false,
         "description": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash. It processes continuous streams of audio, video, or text to deliver immediate, human-like spoken responses, creating a natural conversational experience for your users.",
-        "tagline": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash."
+        "tagline": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash.",
+        "deprecation_date": "2025-12-12",
+        "successor": "gemini-3.1-flash-live-preview"
       },
       {
         "id": "gemini-2.5-flash-preview-05-20",
@@ -61036,6 +61060,77 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks."
       },
       {
+        "id": "gemini-3.1-flash-live-preview",
+        "name": "gemini-3.1-flash-live-preview",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3.1",
+        "status": "deprecated",
+        "deprecation_date": "2026-03-11",
+        "knowledge_cutoff": "2025-01",
+        "context_window": 131072,
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "image",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 4.5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.75,
+                    null,
+                    4.5
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": false,
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-03-27"
+      },
+      {
         "id": "gemini-3.1-pro-preview",
         "name": "gemini-3.1-pro-preview",
         "created_by": "google",
@@ -61225,10 +61320,10 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-live-2.5-flash-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-03-27",
         "status": "deprecated",
         "deprecation_date": "2025-12-09",
-        "successor": "gemini-2.5-flash-native-audio-preview-12-2025",
+        "successor": "gemini-3.1-flash-live-preview",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -68153,7 +68248,7 @@ export const providers: ProviderWithModels[] = [
         "name": "codestral",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "codestral",
         "status": "deprecated",
         "context_window": 32000,
@@ -68429,7 +68524,7 @@ export const providers: ProviderWithModels[] = [
         "name": "devstral-small",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "devstral",
         "status": "deprecated",
         "context_window": 128000,
@@ -68589,7 +68684,7 @@ export const providers: ProviderWithModels[] = [
         "name": "magistral-medium",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "status": "deprecated",
         "context_window": 40000,
         "capabilities": {
@@ -68751,7 +68846,7 @@ export const providers: ProviderWithModels[] = [
         "name": "magistral-small",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "status": "deprecated",
         "context_window": 40000,
         "capabilities": {
@@ -68950,7 +69045,7 @@ export const providers: ProviderWithModels[] = [
         "name": "ministral-3b",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "ministral",
         "status": "deprecated",
         "context_window": 128000,
@@ -69069,7 +69164,7 @@ export const providers: ProviderWithModels[] = [
         "name": "ministral-8b",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "ministral",
         "status": "deprecated",
         "context_window": 128000,
@@ -69412,7 +69507,7 @@ export const providers: ProviderWithModels[] = [
         "name": "mistral-large",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "mistral-large",
         "status": "deprecated",
         "context_window": 32000,
@@ -69565,7 +69660,7 @@ export const providers: ProviderWithModels[] = [
         "name": "mistral-medium",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "mistral-medium",
         "status": "deprecated",
         "context_window": 32000,
@@ -69677,7 +69772,7 @@ export const providers: ProviderWithModels[] = [
         "name": "mistral-moderation",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "status": "active",
         "context_window": 8000,
         "capabilities": {
@@ -70195,7 +70290,7 @@ export const providers: ProviderWithModels[] = [
         "name": "mistral-small",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "mistral-small",
         "status": "deprecated",
         "context_window": 32000,
@@ -70393,7 +70488,7 @@ export const providers: ProviderWithModels[] = [
         "name": "voxtral-mini-2507",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "status": "active",
         "context_window": 32000,
         "alias": "voxtral-mini",
@@ -70533,7 +70628,7 @@ export const providers: ProviderWithModels[] = [
         "name": "voxtral-mini",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "status": "active",
         "context_window": 32000,
         "capabilities": {
@@ -70637,6 +70732,76 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ]
+      },
+      {
+        "id": "voxtral-tts-2603",
+        "name": "voxtral-tts-2603",
+        "created_by": "mistral",
+        "source": "official",
+        "family": "voxtral",
+        "description": "Our state-of-the-art text-to-speech model with zero-shot voice cloning. Supports 9 languages, streaming with ~100ms time-to-first-audio, and no transcript required for voice prompts.",
+        "status": "active",
+        "model_type": "tts",
+        "license": "apache-2.0",
+        "alias": "voxtral-tts",
+        "page_url": "https://docs.mistral.ai/models/voxtral-tts-26-03",
+        "tagline": "Our state-of-the-art text-to-speech model with zero-shot voice cloning.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-03-27"
+      },
+      {
+        "id": "voxtral-tts",
+        "name": "voxtral-tts",
+        "created_by": "mistral",
+        "source": "official",
+        "family": "voxtral",
+        "description": "Our state-of-the-art text-to-speech model with zero-shot voice cloning. Supports 9 languages, streaming with ~100ms time-to-first-audio, and no transcript required for voice prompts.",
+        "status": "active",
+        "license": "apache-2.0",
+        "page_url": "https://docs.mistral.ai/models/voxtral-tts-26-03",
+        "model_type": "tts",
+        "tagline": "Our state-of-the-art text-to-speech model with zero-shot voice cloning.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "snapshots": [
+          "voxtral-tts-2603"
+        ],
+        "last_updated": "2026-03-27"
       }
     ]
   },
@@ -76795,7 +76960,7 @@ export const providers: ProviderWithModels[] = [
         "name": "computer-use-preview",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "description": "The computer-use-preview model is a specialized model for the computer use",
         "status": "active",
         "knowledge_cutoff": "2023-10",
@@ -77781,7 +77946,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4 Turbo",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4-turbo",
         "status": "active",
         "knowledge_cutoff": "2023-12",
@@ -78046,7 +78211,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4.1 mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4.1",
         "description": "GPT-4.1 mini excels at instruction following and tool calling. It features a",
         "status": "active",
@@ -78228,7 +78393,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4.1 nano",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4.1",
         "description": "GPT-4.1 nano excels at instruction following and tool calling. It features a",
         "status": "active",
@@ -78320,7 +78485,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4.1",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4.1",
         "description": "GPT-4.1 excels at instruction following and tool calling, with broad",
         "status": "active",
@@ -78498,7 +78663,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4.5 Preview (Deprecated)",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "description": "Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3",
         "status": "active",
         "knowledge_cutoff": "2023-10",
@@ -79206,7 +79371,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o Audio",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4o",
         "description": "This is a preview release of the GPT-4o Audio models. These models accept",
         "status": "active",
@@ -79482,7 +79647,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o mini Audio",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4o",
         "description": "This is a preview release of the smaller GPT-4o Audio mini model. It's designed to input audio or create audio outputs via the REST API.",
         "status": "active",
@@ -79667,7 +79832,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o mini Realtime",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4o",
         "description": "This is a preview release of the GPT-4o-mini Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
         "status": "active",
@@ -79828,7 +79993,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o mini Search Preview",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4o",
         "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
         "status": "active",
@@ -80055,7 +80220,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o mini Transcribe",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4o",
         "status": "active",
         "knowledge_cutoff": "2024-06",
@@ -80086,7 +80251,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "tiers": [
             {
-              "label": "Text tokens",
+              "label": "Audio tokens",
               "unit": "Per 1M tokens",
               "columns": [
                 "Input",
@@ -80099,25 +80264,6 @@ export const providers: ProviderWithModels[] = [
                   "values": [
                     1.25,
                     5,
-                    0.003
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Audio tokens",
-              "unit": "Per 1M tokens",
-              "columns": [
-                "Input",
-                "Output",
-                "Estimated cost"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    3,
-                    null,
                     0.003
                   ]
                 }
@@ -80283,7 +80429,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o mini TTS",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4o",
         "status": "active",
         "model_type": "tts",
@@ -80359,7 +80505,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4o",
         "description": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
         "status": "active",
@@ -80727,7 +80873,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o Realtime",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4o",
         "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
         "status": "active",
@@ -80890,7 +81036,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o Search Preview",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4o",
         "description": "GPT-4o Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
         "status": "active",
@@ -80959,7 +81105,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o Transcribe Diarize",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-03-27",
         "family": "gpt-4o",
         "description": "GPT-4o Transcribe Diarize is an automatic speech recognition (ASR) model with built-in speaker diarization, meaning it associates audio segments with different speakers in a conversation. This model is only available in the Transcription API.",
         "status": "active",
@@ -80982,7 +81128,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "tiers": [
             {
-              "label": "Text tokens",
+              "label": "Audio tokens",
               "unit": "Per 1M tokens",
               "columns": [
                 "Input",
@@ -80995,25 +81141,6 @@ export const providers: ProviderWithModels[] = [
                   "values": [
                     2.5,
                     10,
-                    0.006
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Audio tokens",
-              "unit": "Per 1M tokens",
-              "columns": [
-                "Input",
-                "Output",
-                "Estimated cost"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    6,
-                    null,
                     0.006
                   ]
                 }
@@ -81038,7 +81165,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o Transcribe",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-03-27",
         "family": "gpt-4o",
         "description": "GPT-4o Transcribe is a speech-to-text model that uses GPT-4o to transcribe audio.",
         "status": "active",
@@ -81061,7 +81188,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "tiers": [
             {
-              "label": "Text tokens",
+              "label": "Audio tokens",
               "unit": "Per 1M tokens",
               "columns": [
                 "Input",
@@ -81074,25 +81201,6 @@ export const providers: ProviderWithModels[] = [
                   "values": [
                     2.5,
                     10,
-                    0.006
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Audio tokens",
-              "unit": "Per 1M tokens",
-              "columns": [
-                "Input",
-                "Output",
-                "Estimated cost"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    6,
-                    null,
                     0.006
                   ]
                 }
@@ -81118,7 +81226,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4o",
         "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
         "status": "active",
@@ -81597,7 +81705,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5 mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-5",
         "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for",
         "status": "active",
@@ -81799,7 +81907,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5 nano",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-5",
         "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for",
         "status": "active",
@@ -81980,7 +82088,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-5-pro",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-5",
         "status": "active",
         "knowledge_cutoff": "2024-09",
@@ -82497,7 +82605,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.1",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-5.1",
         "description": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.",
         "status": "active",
@@ -82953,7 +83061,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-5.2-pro",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-5.2",
         "status": "active",
         "knowledge_cutoff": "2025-08",
@@ -83044,7 +83152,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.2",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-5.2",
         "description": "GPT-5.2 is our previous frontier model for complex professional work.",
         "status": "active",
@@ -83515,7 +83623,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.4 mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-5.4",
         "description": "GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient",
         "status": "active",
@@ -83720,7 +83828,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.4 nano",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-5.4",
         "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
         "status": "active",
@@ -83910,7 +84018,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-5.4-pro",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-5.4",
         "status": "active",
         "knowledge_cutoff": "2025-08",
@@ -84001,7 +84109,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.4",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-5.4",
         "description": "GPT-5.4 is our frontier model for complex professional work.",
         "status": "active",
@@ -84110,7 +84218,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-5",
         "description": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.",
         "status": "active",
@@ -84581,7 +84689,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-audio-mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-audio",
         "description": "A cost-efficient version of GPT Audio. It accepts audio inputs and outputs, and can be used in the Chat Completions REST API.",
         "status": "active",
@@ -84675,7 +84783,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-audio",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-audio",
         "description": "The gpt-audio model is our first generally available audio model. It accepts",
         "status": "active",
@@ -85013,7 +85121,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT Image 1.5",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-image-1.5",
         "description": "GPT Image 1.5 is our latest image generation model, with better instruction following and adherence to prompts. Learn more in our [GPT Image 1.5 usage guide](/api/docs/guides/image-generation).",
         "status": "active",
@@ -85828,7 +85936,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-realtime-mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-realtime",
         "description": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
         "status": "active",
@@ -85943,7 +86051,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-realtime",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-realtime",
         "description": "This is our first general-availability realtime model, capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
         "status": "active",
@@ -86226,7 +86334,7 @@ export const providers: ProviderWithModels[] = [
         "name": "o1-mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "o1",
         "description": "The o1 reasoning model is designed to solve hard problems across domains. o1-mini is a faster and more affordable reasoning model, but we recommend using the newer o3-mini model that features higher intelligence at the same latency and price as o1-mini.",
         "status": "active",
@@ -86363,7 +86471,7 @@ export const providers: ProviderWithModels[] = [
         "name": "o1 Preview",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "o1",
         "status": "deprecated",
         "knowledge_cutoff": "2023-10",
@@ -86499,7 +86607,7 @@ export const providers: ProviderWithModels[] = [
         "name": "o1-pro",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "o1",
         "description": "The o1 series of models are trained with reinforcement learning to think",
         "status": "active",
@@ -86586,7 +86694,7 @@ export const providers: ProviderWithModels[] = [
         "name": "o1",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "o1",
         "description": "The o1 series of models are trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
         "status": "active",
@@ -86854,7 +86962,7 @@ export const providers: ProviderWithModels[] = [
         "name": "o3-deep-research",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "o3",
         "description": "o3-deep-research is our most advanced model for deep research,",
         "status": "active",
@@ -87031,7 +87139,7 @@ export const providers: ProviderWithModels[] = [
         "name": "o3-mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "o3",
         "description": "o3-mini is our newest small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini. o3-mini supports key developer features, like Structured Outputs, function calling, and Batch API.",
         "status": "active",
@@ -87205,7 +87313,7 @@ export const providers: ProviderWithModels[] = [
         "name": "o3-pro",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "o3",
         "description": "The o-series of models are trained with reinforcement learning to think",
         "status": "active",
@@ -87292,7 +87400,7 @@ export const providers: ProviderWithModels[] = [
         "name": "o3",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "o3",
         "description": "o3 is a well-rounded and powerful model across domains. It sets a new",
         "status": "active",
@@ -87563,7 +87671,7 @@ export const providers: ProviderWithModels[] = [
         "name": "o4-mini-deep-research",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "o4",
         "description": "o4-mini-deep-research is our faster, more affordable deep",
         "status": "active",
@@ -87653,7 +87761,7 @@ export const providers: ProviderWithModels[] = [
         "name": "o4-mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "o4",
         "description": "o4-mini is our latest small o-series model. It's optimized for fast,",
         "status": "active",
@@ -88055,8 +88163,8 @@ export const providers: ProviderWithModels[] = [
         "name": "Sora 2 Pro",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
-        "status": "active",
+        "last_updated": "2026-03-27",
+        "status": "deprecated",
         "model_type": "video",
         "performance": 5,
         "speed": 1,
@@ -88113,8 +88221,8 @@ export const providers: ProviderWithModels[] = [
         "name": "Sora 2",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
-        "status": "active",
+        "last_updated": "2026-03-27",
+        "status": "deprecated",
         "model_type": "video",
         "performance": 4,
         "speed": 2,
@@ -94846,7 +94954,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Mistral Large",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "mistral-large",
         "description": "This is Mistral AI's flagship model, Mistral Large 2 (version `mistral-large-2407`).",
         "context_window": 128000,
@@ -97121,10 +97229,10 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o-mini",
-        "name": "OpenAI: GPT-4o-mini",
+        "name": "OpenAI: GPT-4o-mini (2024-07-18)",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4o",
         "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs.",
         "context_window": 128000,
@@ -97206,14 +97314,14 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o",
-        "name": "OpenAI: GPT-4o",
+        "name": "OpenAI: GPT-4o (2024-05-13)",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "gpt-4o",
         "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs.",
         "context_window": 128000,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 4096,
         "modalities": {
           "input": [
             "text",
@@ -97234,8 +97342,8 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 2.5,
-          "output": 10,
+          "input": 5,
+          "output": 15,
           "cached_input": 1.25
         },
         "model_type": "chat",
@@ -99392,7 +99500,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen-Plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "qwen",
         "description": "Qwen-Plus, based on the Qwen2.5 foundation model, is a 131K context model with a balanced performance, speed, and cost combination.",
         "context_window": 1000000,
@@ -99789,7 +99897,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 235B A22B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "qwen3",
         "description": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass.",
         "context_window": 131072,
@@ -101191,13 +101299,13 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.2,
-          "output": 0.2
+          "input": 0.1,
+          "output": 0.1
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-03-26"
+        "last_updated": "2026-03-27"
       },
       {
         "id": "relace/relace-apply-3",
@@ -101431,9 +101539,9 @@ export const providers: ProviderWithModels[] = [
         "name": "StepFun: Step 3.5 Flash",
         "created_by": "stepfun",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-03-27",
         "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model.",
-        "context_window": 256000,
+        "context_window": 262144,
         "max_output_tokens": 256000,
         "modalities": {
           "input": [
@@ -101445,7 +101553,9 @@ export const providers: ProviderWithModels[] = [
         },
         "capabilities": {
           "tool_call": true,
-          "reasoning": true
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 0.1,
@@ -108464,7 +108574,7 @@ export const providers: ProviderWithModels[] = [
         "name": "claude-3.5-sonnet-20240620",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "family": "claude-sonnet",
         "context_window": 200000,
         "capabilities": {
@@ -110319,7 +110429,7 @@ export const providers: ProviderWithModels[] = [
         "name": "longcat-flash-thinking-2601",
         "created_by": "meituan",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-03-27",
         "context_window": 32800,
         "capabilities": {
           "streaming": true,
@@ -115484,11 +115594,11 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash-live-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-03-27",
         "family": "gemini-2.0",
         "status": "deprecated",
         "deprecation_date": "2025-12-09",
-        "successor": "gemini-2.5-flash-native-audio-preview-12-2025",
+        "successor": "gemini-3.1-flash-live-preview",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -116038,9 +116148,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-native-audio-preview-12-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-03-27",
         "family": "gemini-2.5",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 131072,
         "max_output_tokens": 8192,
@@ -116120,7 +116230,9 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "description": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash. It processes continuous streams of audio, video, or text to deliver immediate, human-like spoken responses, creating a natural conversational experience for your users.",
-        "tagline": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash."
+        "tagline": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash.",
+        "deprecation_date": "2025-12-12",
+        "successor": "gemini-3.1-flash-live-preview"
       },
       {
         "id": "gemini-2.5-flash-preview-05-20",
@@ -117359,6 +117471,51 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks."
       },
       {
+        "id": "gemini-3.1-flash-live-preview",
+        "name": "gemini-3.1-flash-live-preview",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3.1",
+        "status": "deprecated",
+        "deprecation_date": "2026-03-11",
+        "knowledge_cutoff": "2025-01",
+        "context_window": 131072,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "image",
+            "audio"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-03-27"
+      },
+      {
         "id": "gemini-3.1-pro-preview",
         "name": "gemini-3.1-pro-preview",
         "created_by": "google",
@@ -117552,10 +117709,10 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-live-2.5-flash-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-03-27",
         "status": "deprecated",
         "deprecation_date": "2025-12-09",
-        "successor": "gemini-2.5-flash-native-audio-preview-12-2025",
+        "successor": "gemini-3.1-flash-live-preview",
         "capabilities": {
           "streaming": true,
           "vision": true

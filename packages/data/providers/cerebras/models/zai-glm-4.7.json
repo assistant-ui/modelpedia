@@ -3,7 +3,7 @@
   "name": "Z.ai GLM 4.7",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-03-27",
   "context_window": 131000,
   "max_output_tokens": 40000,
   "capabilities": {

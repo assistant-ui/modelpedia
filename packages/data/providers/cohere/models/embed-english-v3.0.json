@@ -3,7 +3,7 @@
   "name": "embed-english-v3.0",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-03-27",
   "description": "A model that allows for text to be classified or turned into embeddings. English only.",
   "status": "active",
   "context_window": 512,

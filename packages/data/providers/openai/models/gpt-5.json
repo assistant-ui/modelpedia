@@ -3,7 +3,7 @@
   "name": "GPT-5",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-03-27",
   "family": "gpt-5",
   "description": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.",
   "status": "active",
