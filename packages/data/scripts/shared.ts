@@ -555,6 +555,62 @@ function protectUserEdits(
   return newGenerated;
 }
 
+// Cache the original on-disk state per model (before any writes in this run).
+// Used to detect when multiple passes produce the same final result as the original.
+const _originalOnDisk = new Map<
+  string,
+  { data: Record<string, unknown>; raw: string }
+>();
+
+function getOriginal(
+  provider: string,
+  modelId: string,
+): Record<string, unknown> | null {
+  const key = `${provider}/${modelId}`;
+  if (_originalOnDisk.has(key)) return _originalOnDisk.get(key)!.data;
+  const filePath = path.join(
+    PROVIDERS_DIR,
+    provider,
+    "models",
+    `${modelId}.json`,
+  );
+  if (!fs.existsSync(filePath)) return null;
+  const raw = fs.readFileSync(filePath, "utf-8");
+  const data = JSON.parse(raw) as Record<string, unknown>;
+  _originalOnDisk.set(key, { data: JSON.parse(JSON.stringify(data)), raw });
+  return data;
+}
+
+function restoreOriginal(provider: string, modelId: string): void {
+  const key = `${provider}/${modelId}`;
+  const cached = _originalOnDisk.get(key);
+  if (!cached) return;
+  const filePath = path.join(
+    PROVIDERS_DIR,
+    provider,
+    "models",
+    `${modelId}.json`,
+  );
+  fs.writeFileSync(filePath, cached.raw, "utf-8");
+}
+
+/**
+ * Compare two model records ignoring last_updated and _generated.
+ */
+function dataEqual(
+  a: Record<string, unknown>,
+  b: Record<string, unknown>,
+): boolean {
+  const skip = new Set(["last_updated", "_generated"]);
+  const keysA = Object.keys(a).filter((k) => !skip.has(k));
+  const keysB = Object.keys(b).filter((k) => !skip.has(k));
+  if (keysA.length !== keysB.length) return false;
+  for (const k of keysA) {
+    if (JSON.stringify(a[k]) !== JSON.stringify(b[k])) return false;
+  }
+  return true;
+}
+
 /**
  * Upsert a model entry, merging with existing data.
  * Skips if existing model has source: "community".
@@ -562,6 +618,7 @@ function protectUserEdits(
 export function upsertModel(provider: string, entry: ModelEntry): boolean {
   const modelId = sanitizeModelId(entry.id);
   const existing = readModelJson(provider, modelId);
+  const original = getOriginal(provider, modelId);
 
   if (existing && existing.source === "community") {
     console.log(`  skip ${modelId} (community)`);
@@ -765,27 +822,34 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
 
   data._generated = protectUserEdits(data, existing, generated);
 
-  // Diff: log what changed and record to changes
-  if (existing) {
-    const changedFields: Record<string, { from: unknown; to: unknown }> = {};
-    for (const [k, v] of Object.entries(data)) {
-      const oldVal = existing[k];
-      if (k === "last_updated" || k === "_generated") continue;
-      if (JSON.stringify(v) !== JSON.stringify(oldVal)) {
-        changedFields[k] = { from: oldVal, to: v };
-      }
+  // Compare against the original on-disk state (before any writes in this run).
+  // This handles cases where a model is processed multiple times (e.g. multiple
+  // snapshots overwriting the same alias file) — the final result may match the
+  // original even though intermediate writes differed.
+  if (original && dataEqual(data, original)) {
+    // Restore original file byte-for-byte if intermediate writes modified it
+    if (existing && !dataEqual(existing, original)) {
+      restoreOriginal(provider, modelId);
     }
-    if (Object.keys(changedFields).length === 0) {
-      console.log(`  skip ${modelId} (no changes)`);
-      return false;
-    }
-    console.log(
-      `  update ${provider}/models/${modelId}.json [${Object.keys(changedFields).join(", ")}]`,
-    );
+    console.log(`  skip ${modelId} (no changes)`);
+    return false;
   }
 
   // Only update last_updated when there are real data changes (or new model)
   data.last_updated = today();
+
+  if (existing) {
+    const changed: string[] = [];
+    for (const [k, v] of Object.entries(data)) {
+      if (k === "last_updated" || k === "_generated") continue;
+      if (JSON.stringify(v) !== JSON.stringify((original ?? existing)[k])) {
+        changed.push(k);
+      }
+    }
+    console.log(
+      `  update ${provider}/models/${modelId}.json [${changed.join(", ")}]`,
+    );
+  }
 
   writeModelJson(provider, modelId, data);
   return true;
