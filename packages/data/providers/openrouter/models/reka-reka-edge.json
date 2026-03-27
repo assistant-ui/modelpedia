@@ -18,8 +18,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.2,
-    "output": 0.2
+    "input": 0.1,
+    "output": 0.1
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -31,8 +31,8 @@
     "tagline": "2c044f9b",
     "capabilities": "6c9aa67e",
     "modalities": "1e916c3b",
-    "pricing": "ee3b139d",
+    "pricing": "dabb026f",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-03-26"
+  "last_updated": "2026-03-27"
 }

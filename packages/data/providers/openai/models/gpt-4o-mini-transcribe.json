@@ -3,7 +3,7 @@
   "name": "GPT-4o mini Transcribe",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-03-27",
   "family": "gpt-4o",
   "status": "active",
   "knowledge_cutoff": "2024-06",
@@ -35,7 +35,7 @@
     "endpoints": "250917d3",
     "description": "72014020",
     "tagline": "c1727642",
-    "pricing": "f37c4235",
+    "pricing": "0de5876d",
     "license": "9186c466",
     "release_date": "56423574",
     "page_url": "f4721e5e",
@@ -46,24 +46,13 @@
   "pricing": {
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Output", "Estimated cost"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [1.25, 5, 0.003]
-          }
-        ]
-      },
-      {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Output", "Estimated cost"],
         "rows": [
           {
             "label": "Standard",
-            "values": [3, null, 0.003]
+            "values": [1.25, 5, 0.003]
           }
         ]
       }

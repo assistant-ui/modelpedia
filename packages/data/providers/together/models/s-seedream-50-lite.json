@@ -1,0 +1,21 @@
+{
+  "id": "s/seedream-50-lite",
+  "name": "Seedream 50 Lite",
+  "created_by": "unknown",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/seedream-50-lite",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.034,
+    "output": 0.04
+  },
+  "_generated": {
+    "name": "3ab4a7db",
+    "page_url": "1fb0dde9",
+    "capabilities": "0fa77dc6",
+    "pricing": "2ff10706"
+  },
+  "last_updated": "2026-03-27"
+}
