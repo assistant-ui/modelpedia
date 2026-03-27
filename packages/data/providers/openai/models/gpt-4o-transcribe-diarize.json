@@ -3,7 +3,7 @@
   "name": "GPT-4o Transcribe Diarize",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-03-27",
   "family": "gpt-4o",
   "description": "GPT-4o Transcribe Diarize is an automatic speech recognition (ASR) model with built-in speaker diarization, meaning it associates audio segments with different speakers in a conversation. This model is only available in the Transcription API.",
   "status": "active",
@@ -21,24 +21,13 @@
   "pricing": {
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Output", "Estimated cost"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [2.5, 10, 0.006]
-          }
-        ]
-      },
-      {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Output", "Estimated cost"],
         "rows": [
           {
             "label": "Standard",
-            "values": [6, null, 0.006]
+            "values": [2.5, 10, 0.006]
           }
         ]
       }
@@ -61,7 +50,7 @@
     "speed": "eccbc87e",
     "tagline": "f0f62532",
     "modalities": "d65b34d6",
-    "pricing": "a3f2b1b6",
+    "pricing": "0b2fe286",
     "endpoints": "545be5cb",
     "license": "9186c466",
     "page_url": "69f0f317",
