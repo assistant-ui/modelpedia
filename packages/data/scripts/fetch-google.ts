@@ -325,14 +325,20 @@ async function fetchDeprecations(): Promise<Map<string, DeprecationInfo>> {
       )
         continue;
 
-      // Find shutdown date and replacement(s)
-      const dates = texts.filter((t) => /\w+ \d+, \d{4}/.test(t));
-      const shutdown = dates.length >= 2 ? dates[1] : dates[0];
+      // Table columns: Model | Release | Shutdown | Replacement
+      // Use the shutdown column (index 2) directly — don't guess from all dates.
+      // If the shutdown cell is empty or not a date, the model is not deprecated.
+      const DATE_RE = /\w+ \d+, \d{4}/;
+      const shutdown =
+        texts.length >= 3 && DATE_RE.test(texts[2]) ? texts[2] : undefined;
       const rawReplacement = texts[texts.length - 1];
       const replacements = rawReplacement
         .split(/\s*or\s*|,\s*/)
         .map((s) => s.trim())
         .filter((s) => s && s !== modelId);
+
+      // Only record models that actually have a shutdown date
+      if (!shutdown) continue;
 
       depMap.set(modelId, {
         shutdown,
