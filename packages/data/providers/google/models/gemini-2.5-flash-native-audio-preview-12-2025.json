@@ -5,7 +5,7 @@
   "source": "official",
   "last_updated": "2026-03-27",
   "family": "gemini-2.5",
-  "status": "deprecated",
+  "status": "active",
   "knowledge_cutoff": "2025-01",
   "context_window": 131072,
   "max_output_tokens": 8192,
@@ -27,7 +27,7 @@
   "_generated": {
     "name": "271a10ba",
     "family": "ea6b88bf",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "knowledge_cutoff": "3f358a56",
     "context_window": "f7de594e",
     "max_output_tokens": "77441296",
@@ -40,16 +40,12 @@
     "page_url": "747b60f8",
     "open_weight": "68934a3e",
     "description": "a9e836f5",
-    "tagline": "e7ba59e3",
-    "deprecation_date": "23dc170c",
-    "successor": "f8a33351"
+    "tagline": "e7ba59e3"
   },
   "model_type": "chat",
   "license": "proprietary",
   "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
   "open_weight": false,
   "description": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash. It processes continuous streams of audio, video, or text to deliver immediate, human-like spoken responses, creating a natural conversational experience for your users.",
-  "tagline": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash.",
-  "deprecation_date": "2025-12-12",
-  "successor": "gemini-3.1-flash-live-preview"
+  "tagline": "The Live API enables low-latency, real-time voice and video interactions with Gemini 2.5 Flash."
 }

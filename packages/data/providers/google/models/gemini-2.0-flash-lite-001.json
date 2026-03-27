@@ -3,11 +3,9 @@
   "name": "gemini-2.0-flash-lite-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-03-27",
   "family": "gemini-2.0",
   "status": "active",
-  "deprecation_date": "2026-06-01",
-  "successor": "gemini-2.5-flash-lite",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -20,8 +18,6 @@
     "name": "caf6ac52",
     "family": "dc4aadf6",
     "status": "379ac110",
-    "deprecation_date": "80eaf594",
-    "successor": "d833df9b",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
     "model_type": "d669f408",

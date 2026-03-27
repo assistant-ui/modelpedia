@@ -733,6 +733,12 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     data.pricing = pricing;
   }
 
+  // Clear deprecation fields when status is not deprecated
+  if (data.status && data.status !== "deprecated") {
+    delete data.deprecation_date;
+    delete data.successor;
+  }
+
   // Array fields
   // Auto-derive open_weight from license if not explicitly set
   if (data.open_weight == null && data.license) {
