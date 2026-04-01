@@ -1,0 +1,32 @@
+{
+  "id": "google/lyria-3-pro-preview",
+  "name": "Google: Lyria 3 Pro Preview",
+  "created_by": "google",
+  "source": "official",
+  "description": "Full-length songs are priced at $0.08 per song.",
+  "release_date": "2026-03-30",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "model_type": "tts",
+  "tagline": "Full-length songs are priced at $0.08 per song.",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text", "audio"]
+  },
+  "_generated": {
+    "name": "021bea89",
+    "description": "9b24f72e",
+    "release_date": "1a4d1d81",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "4e16a2cf",
+    "tagline": "9b24f72e",
+    "capabilities": "dbb5b7fe",
+    "modalities": "cc48d9a5"
+  },
+  "last_updated": "2026-04-01"
+}

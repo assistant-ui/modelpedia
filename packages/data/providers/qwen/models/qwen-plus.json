@@ -3,7 +3,7 @@
   "name": "qwen-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-01",
   "family": "qwen",
   "model_type": "chat",
   "capabilities": {
@@ -24,14 +24,14 @@
     "endpoints": "75df3f1c",
     "license": "9186c466",
     "provider": "a3af76f3",
-    "description": "12ab746c",
+    "description": "5d01798b",
     "tagline": "6af4966d",
     "page_url": "23162829",
     "open_weight": "68934a3e"
   },
   "license": "proprietary",
   "provider": "qwen",
-  "description": "A balanced model with inference performance, cost, and speed between Qwen-Max and Qwen-Flash, ideal for moderately complex tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) Qwen3.5 Plus supports text, image, and video inputs. It performs on par with Qwen3 Max on plain-text tasks while delivering superior performance at a lower cost. In multimodal capabilities, it delivers significant improvements over the Qwen3 VL series. #### International In the [International deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are located in the **Singapore region**. Inference computing resources are dynamically scheduled worldwide, excluding Chinese Mainland.",
+  "description": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video inputs. Its performance on plain text tasks is comparable to that of Qwen3 Max, while offering superior efficiency at a lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International Under [International Deployment Mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), access points and data storage are both located in the **Singapore region**, and model inference compute resources are dynamically scheduled globally (excluding the Chinese Mainland).",
   "tagline": "A balanced model with inference performance, cost, and speed between Qwen-Max and Qwen-Flash, ideal for moderately complex tasks.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": false

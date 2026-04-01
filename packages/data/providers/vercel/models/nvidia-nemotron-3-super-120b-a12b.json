@@ -1,0 +1,32 @@
+{
+  "id": "nvidia/nemotron-3-super-120b-a12b",
+  "name": "nemotron-3-super-120b-a12b",
+  "created_by": "nvidia",
+  "source": "official",
+  "context_window": 256000,
+  "model_type": "chat",
+  "parameters": 120,
+  "active_parameters": 12,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.65
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "cb9b4668",
+    "context_window": "2fd324cb",
+    "model_type": "d669f408",
+    "parameters": "da4fb5c6",
+    "active_parameters": "c20ad4d7",
+    "capabilities": "0fa77dc6",
+    "pricing": "d970cf85",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-01"
+}

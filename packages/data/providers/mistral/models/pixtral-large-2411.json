@@ -3,9 +3,9 @@
   "name": "pixtral-large-2411",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-01",
   "family": "pixtral",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 128000,
   "alias": "pixtral-large",
   "capabilities": {
@@ -25,7 +25,7 @@
   "_generated": {
     "name": "ed5de2b3",
     "family": "c606df51",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "34434798",
     "capabilities": "62b3fd83",
     "modalities": "6399757e",
@@ -34,11 +34,13 @@
     "license": "ab728f55",
     "page_url": "a3a96493",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "f538b4ff"
   },
   "model_type": "chat",
   "license": "mnpl",
   "page_url": "https://docs.mistral.ai/models/pixtral-large-24-11",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-02-27"
 }

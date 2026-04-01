@@ -1,0 +1,38 @@
+{
+  "id": "qwen/qwen3.6-plus-preview:free",
+  "name": "Qwen: Qwen3.6 Plus Preview (free)",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.6",
+  "description": "Qwen 3.6 Plus Preview is the next-generation evolution of the Qwen Plus series, featuring an advanced hybrid architecture that improves efficiency and scalability.",
+  "release_date": "2026-03-30",
+  "context_window": 1000000,
+  "max_output_tokens": 32000,
+  "model_type": "chat",
+  "tagline": "Qwen 3.6 Plus Preview is the next-generation evolution of the Qwen Plus series, featuring an advanced hybrid architecture that improves efficiency and scalability.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "18ce1295",
+    "family": "1bc2d26f",
+    "description": "dbc9dc63",
+    "release_date": "1a4d1d81",
+    "context_window": "8155bc54",
+    "max_output_tokens": "10e4d788",
+    "model_type": "d669f408",
+    "tagline": "dbc9dc63",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-01"
+}

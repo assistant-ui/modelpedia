@@ -3,9 +3,9 @@
   "name": "mistral-large-2411",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-01",
   "family": "mistral-large",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 128000,
   "alias": "mistral-large",
   "capabilities": {
@@ -19,24 +19,25 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 2,
-    "output": 6
+    "input": 0.5,
+    "output": 1.5
   },
   "_generated": {
     "name": "c595edf7",
     "family": "70f9d51d",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "34434798",
     "capabilities": "62b3fd83",
     "modalities": "6399757e",
-    "pricing": "e205efd3",
+    "pricing": "2c3abb73",
     "model_type": "d669f408",
     "license": "60245731",
     "page_url": "bbc76209",
     "open_weight": "b326b506",
     "description": "f7caa5c1",
     "tagline": "f7caa5c1",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "f538b4ff"
   },
   "model_type": "chat",
   "license": "apache-2.0",
@@ -44,5 +45,6 @@
   "open_weight": true,
   "description": "Our top-tier large model for high-complexity tasks with the lastest version released November 2024.",
   "tagline": "Our top-tier large model for high-complexity tasks with the lastest version released November 2024.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-02-27"
 }

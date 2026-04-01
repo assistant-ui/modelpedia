@@ -1,0 +1,34 @@
+{
+  "id": "veo-3.1-lite-generate-preview",
+  "name": "veo-3.1-lite-generate-preview",
+  "created_by": "google",
+  "source": "official",
+  "family": "veo-3.1",
+  "status": "active",
+  "context_window": 1024,
+  "model_type": "video",
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "bf542e3f",
+    "family": "0fa3bcca",
+    "status": "379ac110",
+    "context_window": "021bbc7e",
+    "model_type": "4d1b75ca",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "8a3b232e",
+    "modalities": "85fd0565",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-04-01"
+}

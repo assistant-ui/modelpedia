@@ -3,7 +3,7 @@
   "name": "qwen2.5-72b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-01",
   "family": "qwen2.5",
   "context_window": 131072,
   "model_type": "chat",
@@ -32,7 +32,7 @@
     "license": "60245731",
     "parameters": "32bb90e8",
     "provider": "a3af76f3",
-    "description": "64638eb7",
+    "description": "cc995268",
     "tagline": "67372540",
     "page_url": "23162829",
     "open_weight": "b326b506"
@@ -40,7 +40,7 @@
   "license": "apache-2.0",
   "parameters": 72,
   "provider": "qwen",
-  "description": "Qwen2.5 is a large language model series from Qwen. This series includes multiple base and instruction-tuned models, with parameter counts that range from 7 billion to 72 billion. Key improvements over Qwen2 include the following: * Pre-trained on our latest large-scale dataset that contains up to 18 trillion tokens. * Expanded knowledge and significantly improved coding and math abilities, thanks to domain-specific expert models. * Better instruction following, long-text generation (over 8K tokens), structured data understanding (such as tables), and structured output generation (especially JSON). More robust handling of diverse system prompts, better role assumption, and conditional settings for chatbots. * Supports over 29 languages, such as Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, and Arabic. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) ## International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled globally, excluding Chinese Mainland.",
+  "description": "Qwen2.5 is part of the Qwen Large Language Model (LLM) series. We released a series of base language models and instruction-tuned language models with parameter scales ranging from 7 billion to 72 billion. Qwen2.5 improves upon Qwen2 in the following ways: * Pre-trained on our latest large-scale dataset containing up to 18 trillion tokens. * Significantly expanded knowledge and greatly enhanced coding and math capabilities due to our domain-expert models. * Major improvements in instruction following, long-text generation (over 8K tokens), structured data understanding (such as tables), and structured output generation (especially JSON). More resilient to diverse system prompts, enhancing chatbot role-playing and conditional setup. * Supports over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, and Arabic. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) ## International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), endpoints and data storage are located in **Singapore region**. Model inference compute resources are dynamically scheduled globally (excluding the Chinese mainland).",
   "tagline": "Qwen2.5 is a large language model series from Qwen.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": true

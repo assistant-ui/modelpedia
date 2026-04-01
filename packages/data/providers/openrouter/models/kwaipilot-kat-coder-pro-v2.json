@@ -1,0 +1,39 @@
+{
+  "id": "kwaipilot/kat-coder-pro-v2",
+  "name": "Kwaipilot: KAT-Coder-Pro V2",
+  "created_by": "kwaipilot",
+  "source": "official",
+  "description": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration.",
+  "release_date": "2026-03-27",
+  "context_window": 256000,
+  "max_output_tokens": 80000,
+  "tagline": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2,
+    "cached_input": 0.06
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8ea58a03",
+    "description": "03f5d3de",
+    "release_date": "d7d7ff90",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "144fdd8b",
+    "tagline": "03f5d3de",
+    "capabilities": "6c9aa67e",
+    "modalities": "68e53d93",
+    "pricing": "0c734839",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-01"
+}

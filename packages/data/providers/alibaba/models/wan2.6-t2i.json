@@ -3,7 +3,7 @@
   "name": "wan2.6-t2i",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-01",
   "model_type": "image",
   "capabilities": {
     "streaming": true,
@@ -23,14 +23,14 @@
     "family": "68010df8",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "description": "36f01c64",
+    "description": "7da4e56d",
     "page_url": "23162829",
     "tagline": "cd319632"
   },
   "family": "wan2.6",
   "license": "proprietary",
   "open_weight": false,
-  "description": "Wan text-to-image models generate high-quality images from simple text prompts. [API reference](https://www.alibabacloud.com/help/en/document_detail/2862677.html) \\| [Try it online](https://wan.video/wanxiang/creation) ## Global In the [global deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are located in the **US (Virginia) region**. Model inference compute resources are dynamically scheduled globally.",
+  "description": "The Wan text-to-image model generates high-quality images from text. [API reference](https://www.alibabacloud.com/help/en/document_detail/2862677.html) \\| [Try online](https://wan.video/wanxiang/creation) ## Global In the [Global deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), endpoint and data storage are located in the **US (Virginia) region** **or Germany (Frankfurt) region**, and model inference computing resources are dynamically scheduled globally. > wan2.6-t2i currently only supports global deployment mode in the US (Virginia) region.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "Wan text-to-image models generate high-quality images from simple text prompts."
 }

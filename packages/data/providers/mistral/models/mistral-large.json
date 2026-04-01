@@ -3,7 +3,7 @@
   "name": "mistral-large",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-04-01",
   "family": "mistral-large",
   "status": "deprecated",
   "context_window": 32000,
@@ -18,8 +18,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 2,
-    "output": 6
+    "input": 0.5,
+    "output": 1.5
   },
   "snapshots": [
     "mistral-large-2512",
@@ -27,7 +27,6 @@
     "mistral-large-2407",
     "mistral-large-2402"
   ],
-  "deprecation_date": "2024-11-30",
   "_generated": {
     "name": "70f9d51d",
     "family": "70f9d51d",
@@ -35,15 +34,15 @@
     "context_window": "10e4d788",
     "capabilities": "62b3fd83",
     "modalities": "68e53d93",
-    "pricing": "e205efd3",
-    "deprecation_date": "05154b0e",
+    "pricing": "2c3abb73",
     "model_type": "d669f408",
     "license": "60245731",
     "page_url": "aac7a2de",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "description": "08cfb80c",
-    "tagline": "f7caa5c1"
+    "tagline": "f7caa5c1",
+    "deprecation_date": "05154b0e"
   },
   "model_type": "chat",
   "license": "apache-2.0",
@@ -51,5 +50,6 @@
   "open_weight": true,
   "tools": ["function_calling"],
   "description": "Our first and larger SOTA model for enterprise use cases with powerfull chat capabilities.",
-  "tagline": "Our top-tier large model for high-complexity tasks with the lastest version released November 2024."
+  "tagline": "Our top-tier large model for high-complexity tasks with the lastest version released November 2024.",
+  "deprecation_date": "2024-11-30"
 }

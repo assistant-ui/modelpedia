@@ -3,10 +3,10 @@
   "name": "StepFun: Step 3.5 Flash",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-03-27",
+  "last_updated": "2026-04-01",
   "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model.",
   "context_window": 262144,
-  "max_output_tokens": 256000,
+  "max_output_tokens": 65536,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -26,7 +26,7 @@
     "name": "9adbecc9",
     "description": "022938e2",
     "context_window": "4a1d32eb",
-    "max_output_tokens": "2fd324cb",
+    "max_output_tokens": "297ce0b3",
     "modalities": "68e53d93",
     "capabilities": "9346c8a7",
     "pricing": "341f9351",

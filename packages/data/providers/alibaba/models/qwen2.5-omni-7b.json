@@ -3,7 +3,7 @@
   "name": "qwen2.5-omni-7b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-01",
   "family": "qwen2.5",
   "context_window": 32768,
   "max_output_tokens": 2048,
@@ -29,14 +29,14 @@
     "license": "60245731",
     "parameters": "8f14e45f",
     "open_weight": "b326b506",
-    "description": "21290815",
+    "description": "1c746971",
     "page_url": "23162829",
     "tagline": "84b90939"
   },
   "license": "apache-2.0",
   "parameters": 7,
   "open_weight": true,
-  "description": "This is a new multimodal understanding and generation model built on Qwen2.5. It supports text, image, audio, and video inputs. It generates text and speech simultaneously in streaming mode. Its multimodal understanding speed is significantly improved. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) ## International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled globally, excluding Chinese Mainland.",
+  "description": "A new multimodal understanding and generation LLM trained from Qwen2.5, supporting text, image, audio, and video input understanding. Capable of simultaneous streaming generation of text and speech, with significantly improved multimodal content understanding speed. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) ## International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), endpoints and data storage are located in **Singapore region**. Model inference compute resources are dynamically scheduled globally (excluding the Chinese mainland).",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "This is a new multimodal understanding and generation model built on Qwen2.5."
 }

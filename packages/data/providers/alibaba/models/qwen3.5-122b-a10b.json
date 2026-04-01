@@ -3,7 +3,7 @@
   "name": "qwen3.5-122b-a10b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-01",
   "family": "qwen3.5",
   "context_window": 262144,
   "max_output_tokens": 81920,
@@ -31,7 +31,7 @@
     "parameters": "a0a080f4",
     "active_parameters": "d3d94468",
     "open_weight": "b326b506",
-    "description": "c57cd06b",
+    "description": "e600cd52",
     "page_url": "23162829",
     "tagline": "d726fd41"
   },
@@ -39,7 +39,7 @@
   "parameters": 122,
   "active_parameters": 10,
   "open_weight": true,
-  "description": "Supports text, image, and video inputs. It performs on par with Qwen3 Max on plain-text tasks while delivering superior performance at a lower cost. In multimodal capabilities, it delivers significant improvements over the Qwen3 VL series.",
+  "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "Supports text, image, and video inputs."
 }

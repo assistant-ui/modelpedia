@@ -3,7 +3,7 @@
   "name": "qwen-mt-flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-01",
   "family": "qwen",
   "model_type": "chat",
   "capabilities": {
@@ -29,13 +29,13 @@
     "endpoints": "75df3f1c",
     "license": "60245731",
     "open_weight": "b326b506",
-    "description": "2c938245",
+    "description": "00e8cba9",
     "page_url": "23162829",
     "tagline": "4fbbeb44"
   },
   "license": "apache-2.0",
   "open_weight": true,
-  "description": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3. It supports translation between 92 languages, such as Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. It features comprehensive upgrades in model performance and translation quality. The model offers more stable glossary customization, format retention, and domain-specific prompting, making translations more accurate and natural. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are both located in the **Singapore** region. Model inference computing resources are dynamically scheduled worldwide (excluding Chinese Mainland).",
+  "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), both the endpoint and data storage are located in the **Singapore** region. Model inference computing resources are dynamically scheduled worldwide, except in the Chinese Mainland.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3."
 }
