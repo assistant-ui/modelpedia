@@ -22,8 +22,8 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
-    "@hono/mcp": "^0.2.4",
-    "@modelcontextprotocol/sdk": "^1.27.1",
+    "@hono/mcp": "^0.2.5",
+    "@modelcontextprotocol/sdk": "^1.29.0",
     "@modelpedia/data": "workspace:*",
     "hono": "catalog:",
     "zod": "^4.3.6"
