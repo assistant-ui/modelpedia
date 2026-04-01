@@ -1,0 +1,42 @@
+{
+  "id": "x-ai/grok-4.20",
+  "name": "xAI: Grok 4.20",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4.20",
+  "description": "Grok 4.20 is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities.",
+  "release_date": "2026-03-31",
+  "context_window": 2000000,
+  "model_type": "chat",
+  "tagline": "Grok 4.20 is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6,
+    "cached_input": 0.2
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a3aac4cb",
+    "family": "44972aca",
+    "description": "93c9abc9",
+    "release_date": "3c0c39b4",
+    "context_window": "805f7438",
+    "model_type": "d669f408",
+    "tagline": "93c9abc9",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "9277b5ca",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-01"
+}

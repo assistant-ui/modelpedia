@@ -3,7 +3,7 @@
   "name": "wan2.6-image",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-01",
   "model_type": "image",
   "capabilities": {
     "streaming": true,
@@ -23,14 +23,14 @@
     "family": "68010df8",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "description": "55e333a5",
+    "description": "cbc4ddc8",
     "page_url": "23162829",
     "tagline": "f73ddec9"
   },
   "family": "wan2.6",
   "license": "proprietary",
   "open_weight": false,
-  "description": "Wan image generation models support image editing and mixed text-image outputs to meet diverse generation and integration needs. [API reference](https://www.alibabacloud.com/help/en/document_detail/3001143.html) ## Global In [global deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), both endpoint and data storage are located in the **US (Virginia) region**. Model inference compute resources are dynamically scheduled globally.",
+  "description": "The Wan image generation model supports text-to-image, text-to-series, image-to-series, image editing, and multi-image reference generation, meeting diverse generation and integration needs. [API reference - 2.7](https://www.alibabacloud.com/help/en/document_detail/3026980.html) \\| [API reference - 2.6](https://www.alibabacloud.com/help/en/document_detail/3001143.html) Billing rule: You are charged for the number of **successfully generated images**. Failed attempts are not billed and do not consume your free quota. ## Global In the [Global deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), endpoint and data storage are located in the **US (Virginia) region** **or Germany (Frankfurt) region**, and model inference computing resources are dynamically scheduled globally. > wan2.6-image currently only supports global deployment mode in the US (Virginia) region.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "Wan image generation models support image editing and mixed text-image outputs to meet diverse generation and integration needs."
 }

@@ -1,0 +1,32 @@
+{
+  "id": "google/lyria-3-clip-preview",
+  "name": "Google: Lyria 3 Clip Preview",
+  "created_by": "google",
+  "source": "official",
+  "description": "30 second duration clips are priced at $0.04 per clip.",
+  "release_date": "2026-03-30",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "model_type": "tts",
+  "tagline": "30 second duration clips are priced at $0.04 per clip.",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text", "audio"]
+  },
+  "_generated": {
+    "name": "603b17c8",
+    "description": "667bbc05",
+    "release_date": "1a4d1d81",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "4e16a2cf",
+    "tagline": "667bbc05",
+    "capabilities": "dbb5b7fe",
+    "modalities": "cc48d9a5"
+  },
+  "last_updated": "2026-04-01"
+}

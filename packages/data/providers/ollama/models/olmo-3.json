@@ -1,0 +1,34 @@
+{
+  "id": "olmo-3",
+  "name": "olmo-3",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
+  "context_window": 65536,
+  "license": "open-weight",
+  "parameters": 7,
+  "page_url": "https://ollama.com/library/olmo-3",
+  "open_weight": true,
+  "tagline": "Olmo is a series of Open language models designed to enable the science of language models.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "66d17f1f",
+    "description": "2954d937",
+    "context_window": "297ce0b3",
+    "license": "6327aaea",
+    "parameters": "8f14e45f",
+    "page_url": "cbd1b3f5",
+    "open_weight": "b326b506",
+    "tagline": "d52d45d3",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-01"
+}

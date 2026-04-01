@@ -3,8 +3,8 @@
   "name": "voxtral-mini",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-26",
-  "status": "active",
+  "last_updated": "2026-04-01",
+  "status": "deprecated",
   "context_window": 32000,
   "capabilities": {
     "streaming": true,
@@ -19,7 +19,7 @@
   "snapshots": ["voxtral-mini-2507", "voxtral-mini-2602"],
   "_generated": {
     "name": "4120b5ed",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "10e4d788",
     "capabilities": "62b3fd83",
     "modalities": "6399757e",
@@ -30,7 +30,8 @@
     "open_weight": "b326b506",
     "description": "ee28d823",
     "tagline": "dd0828b9",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "f538b4ff"
   },
   "model_type": "audio",
   "family": "voxtral",
@@ -39,5 +40,6 @@
   "open_weight": true,
   "description": "A mini version of our first audio input model.",
   "tagline": "An efficient audio input model, fine-tuned and optimized for transcription purposes only.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-02-27"
 }

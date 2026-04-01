@@ -3,7 +3,7 @@
   "name": "qwq-32b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-01",
   "family": "qwq",
   "context_window": 131072,
   "max_output_tokens": 32768,
@@ -35,7 +35,7 @@
     "license": "60245731",
     "parameters": "6364d3f0",
     "provider": "a3af76f3",
-    "description": "5e82de74",
+    "description": "ffb9f7ad",
     "tagline": "3cfada54",
     "page_url": "23162829",
     "open_weight": "b326b506"
@@ -43,7 +43,7 @@
   "license": "apache-2.0",
   "parameters": 32,
   "provider": "qwen",
-  "description": "QwQ is an inference model trained on Qwen2.5-32B. It uses reinforcement learning to significantly improve its reasoning ability. Its core metrics, including math and coding benchmarks (AIME 24/25, LiveCodeBench) and general benchmarks (IFEval, LiveBench), match those of the full DeepSeek-R1 model. Its performance on all metrics notably exceeds that of DeepSeek-R1-Distill-Qwen-32B, which is also based on Qwen2.5-32B. [Usage](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported. In this mode, the endpoint and data storage are located in the **Beijing region**, and inference computing resources are limited to Chinese Mainland.",
+  "description": "QwQ is a reasoning model trained from Qwen2.5-32B, with significantly enhanced reasoning capabilities through reinforcement learning. Its core metrics (AIME 24/25, LiveCodeBench) and some general metrics (IFEval, LiveBench, etc.) match DeepSeek-R1 full version levels and significantly outperform DeepSeek-R1-Distill-Qwen-32B, which is also based on Qwen2.5-32B. [Usage](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported. Endpoint and data storage are located in the **Beijing region**, and model inference computing resources are restricted to Chinese Mainland.",
   "tagline": "QwQ is an inference model trained on Qwen2.5-32B.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": true

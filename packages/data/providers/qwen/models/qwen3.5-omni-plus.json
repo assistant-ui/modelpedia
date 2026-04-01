@@ -1,0 +1,42 @@
+{
+  "id": "qwen3.5-omni-plus",
+  "name": "qwen3.5-omni-plus",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.5",
+  "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International In the [International deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), endpoint and data storage are located in the **Singapore region**, while model inference computing resources are dynamically scheduled globally (excluding Chinese Mainland).",
+  "context_window": 262144,
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "tagline": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "86bb6c66",
+    "family": "d548f421",
+    "description": "9f42587a",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "tagline": "8abae13d",
+    "page_url": "23162829",
+    "open_weight": "b326b506",
+    "capabilities": "4043afaa",
+    "modalities": "d65b34d6",
+    "tools": "f0c1dc7e",
+    "endpoints": "75df3f1c"
+  },
+  "last_updated": "2026-04-01"
+}

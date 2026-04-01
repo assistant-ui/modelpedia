@@ -1,13 +1,13 @@
 {
   "id": "openai/gpt-4o",
-  "name": "OpenAI: GPT-4o (2024-05-13)",
+  "name": "OpenAI: GPT-4o",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-27",
+  "last_updated": "2026-04-01",
   "family": "gpt-4o",
   "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs.",
   "context_window": 128000,
-  "max_output_tokens": 4096,
+  "max_output_tokens": 16384,
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -18,19 +18,19 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 5,
-    "output": 15,
+    "input": 2.5,
+    "output": 10,
     "cached_input": 1.25
   },
   "_generated": {
-    "name": "e4af51d7",
+    "name": "5cdf052e",
     "family": "15249632",
     "description": "66c2a20e",
     "context_window": "34434798",
-    "max_output_tokens": "f7efa4f8",
+    "max_output_tokens": "c76fe1d8",
     "modalities": "6399757e",
     "capabilities": "6c9aa67e",
-    "pricing": "5ed554c8",
+    "pricing": "042a06e1",
     "model_type": "d669f408",
     "release_date": "836378f5",
     "tagline": "8630e402",

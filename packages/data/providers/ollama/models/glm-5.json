@@ -3,14 +3,16 @@
   "name": "glm-5",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-01",
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "309daa86",
-    "capabilities": "9c665f5d",
+    "capabilities": "dcffc891",
     "model_type": "d669f408",
     "family": "309daa86",
     "description": "a498f5ff",
@@ -22,7 +24,9 @@
     "license": "6327aaea",
     "active_parameters": "d645920e",
     "open_weight": "b326b506",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "reasoning_tokens": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "family": "glm-5",
@@ -38,5 +42,7 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "reasoning_tokens": true,
+  "tools": ["function_calling"]
 }

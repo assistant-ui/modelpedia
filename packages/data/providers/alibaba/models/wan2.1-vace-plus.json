@@ -3,7 +3,7 @@
   "name": "wan2.1-vace-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-01",
   "model_type": "video",
   "capabilities": {
     "streaming": true
@@ -22,14 +22,14 @@
     "family": "3663b84b",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "description": "361325d5",
+    "description": "e2755160",
     "page_url": "23162829",
     "tagline": "c593e909"
   },
   "family": "wan2.1",
   "license": "proprietary",
   "open_weight": false,
-  "description": "Wan general video editing models support multimodal inputs, including text, images, and video, and perform both video generation and general editing tasks. [API reference](https://www.alibabacloud.com/help/en/document_detail/2922183.html) \\| [Try it online](https://wan.video/wanxiang/videoCreation?tab=edit) ## International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled globally, excluding Chinese Mainland.",
+  "description": "The Wan general video editing unified model accepts multimodal inputs---including text, images, and videos---and performs both video generation and general editing tasks. [API reference](https://www.alibabacloud.com/help/en/document_detail/2922183.html) \\| [Try it now](https://wan.video/wanxiang/videoCreation?tab=edit) ## International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), both the access point and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide (excluding the Chinese mainland).",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "Wan general video editing models support multimodal inputs, including text, images, and video, and perform both video generation and general editing tasks."
 }

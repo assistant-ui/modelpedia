@@ -3,7 +3,7 @@
   "name": "qwen2-72b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-01",
   "family": "qwen2",
   "context_window": 131072,
   "max_output_tokens": 6144,
@@ -29,14 +29,14 @@
     "license": "60245731",
     "parameters": "32bb90e8",
     "open_weight": "b326b506",
-    "description": "3383c441",
+    "description": "24b6ed00",
     "page_url": "23162829",
     "tagline": "366b217c"
   },
   "license": "apache-2.0",
   "parameters": 72,
   "open_weight": true,
-  "description": "The Qwen2 open-source model from Alibaba Cloud. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt)",
+  "description": "Alibaba Cloud's Qwen2 open-source version. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt)",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "The Qwen2 open-source model from Alibaba Cloud."
 }

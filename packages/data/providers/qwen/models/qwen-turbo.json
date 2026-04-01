@@ -3,7 +3,7 @@
   "name": "qwen-turbo",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-01",
   "family": "qwen",
   "model_type": "chat",
   "capabilities": {
@@ -24,14 +24,14 @@
     "endpoints": "75df3f1c",
     "license": "9186c466",
     "provider": "a3af76f3",
-    "description": "836fb6c9",
+    "description": "2e39fa94",
     "tagline": "a556f27a",
     "page_url": "23162829",
     "open_weight": "68934a3e"
   },
   "license": "proprietary",
   "provider": "qwen",
-  "description": "Qwen-Turbo will no longer receive updates. Replace it with Qwen-Flash. Qwen-Flash uses flexible tiered pricing for more cost-effective billing. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are both located in the **Singapore region**. Model inference computing resources are dynamically scheduled worldwide (excluding Chinese Mainland).",
+  "description": "Qwen-Turbo is no longer updated. Replace it with Qwen-Flash. Qwen-Flash uses a flexible tiered pricing model for fairer billing. [Usage instructions](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Deep thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), endpoints and data storage are in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese Mainland.",
   "tagline": "Qwen-Turbo will no longer receive updates.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": false

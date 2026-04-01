@@ -3,7 +3,7 @@
   "name": "wan2.2-kf2v-flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-01",
   "model_type": "video",
   "capabilities": {
     "streaming": true
@@ -22,7 +22,7 @@
     "family": "222d75c9",
     "license": "9186c466",
     "provider": "a3af76f3",
-    "description": "9c19e3c1",
+    "description": "4ee34bd5",
     "tagline": "d698878b",
     "page_url": "23162829",
     "open_weight": "68934a3e"
@@ -30,7 +30,7 @@
   "family": "wan2.2",
   "license": "proprietary",
   "provider": "qwen",
-  "description": "Wan first-and-last-frame video generation models generate smooth, fluid videos from just two input frames, the first and last, plus a prompt. Videos feature rich artistic styles and cinematic quality. [API reference](https://www.alibabacloud.com/help/en/document_detail/2880649.html) \\| [Try it online](https://wan.video/wanxiang/videoCreation) ## International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled globally, excluding Chinese Mainland.",
+  "description": "The Wan first-and-last-frame image-to-video model generates smooth, fluid videos using just two images---the first and last frames---plus your prompt. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2880649.html) \\| [Try it now](https://wan.video/wanxiang/videoCreation) ## International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), both the access point and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide (excluding the Chinese mainland).",
   "tagline": "Wan first-and-last-frame video generation models generate smooth, fluid videos from just two input frames, the first and last, plus a prompt.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": false

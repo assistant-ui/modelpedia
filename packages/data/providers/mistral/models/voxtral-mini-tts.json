@@ -1,0 +1,41 @@
+{
+  "id": "voxtral-mini-tts",
+  "name": "voxtral-mini-tts",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "voxtral",
+  "description": "Our state-of-the-art text-to-speech model with zero-shot voice cloning. Supports 9 languages, streaming with ~90ms time-to-first-audio, and no transcript required for voice prompts.",
+  "status": "active",
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/voxtral-tts-26-03",
+  "model_type": "tts",
+  "tagline": "Our state-of-the-art text-to-speech model with zero-shot voice cloning.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "snapshots": ["voxtral-mini-tts-2603"],
+  "_generated": {
+    "name": "02649d36",
+    "family": "88a5dabd",
+    "description": "fbef4d0b",
+    "status": "379ac110",
+    "license": "60245731",
+    "page_url": "48156514",
+    "model_type": "4e16a2cf",
+    "tagline": "619b997e",
+    "capabilities": "4e827c07",
+    "modalities": "6399757e",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-01"
+}
