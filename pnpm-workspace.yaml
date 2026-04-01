@@ -9,8 +9,8 @@ catalog:
   react-dom: ^19.2.4
 
   # Next.js
-  next: ^16.2.1
-  react-grab: ^0.1.28
+  next: ^16.2.2
+  react-grab: ^0.1.29
 
   # TypeScript
   typescript: ^6.0.2
@@ -23,7 +23,7 @@ catalog:
   hono: ^4.12.9
 
   # Cloudflare
-  wrangler: ^4.76.0
+  wrangler: ^4.79.0
 
   # Types
   "@types/node": ^25.5.0
