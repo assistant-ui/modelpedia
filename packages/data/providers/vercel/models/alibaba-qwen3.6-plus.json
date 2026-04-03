@@ -1,0 +1,35 @@
+{
+  "id": "alibaba/qwen3.6-plus",
+  "name": "qwen3.6-plus",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.6",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 3
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f72b0afb",
+    "family": "1bc2d26f",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "ad477c96",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-03"
+}

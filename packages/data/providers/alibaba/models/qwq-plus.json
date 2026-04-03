@@ -3,7 +3,7 @@
   "name": "qwq-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-04-03",
   "family": "qwq",
   "context_window": 131072,
   "max_output_tokens": 32768,
@@ -29,13 +29,13 @@
     "endpoints": "75df3f1c",
     "license": "60245731",
     "open_weight": "b326b506",
-    "description": "3ab4a91b",
+    "description": "712dbcfe",
     "page_url": "23162829",
     "tagline": "0ad205d1"
   },
   "license": "apache-2.0",
   "open_weight": true,
-  "description": "The QwQ reasoning model, trained on the Qwen2.5 model, uses reinforcement learning to significantly improve its model inference capabilities. The model's core metrics for math and code (AIME 24/25, LiveCodeBench) and general metrics (IFEval, LiveBench) are on par with the full-performance version of DeepSeek-R1. [Usage](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), endpoints and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese Mainland.",
+  "description": "The QwQ reasoning model, trained on the Qwen2.5 model, uses reinforcement learning to significantly improve its model inference capabilities. The model's core metrics for math and code (AIME 24/25, LiveCodeBench) and general metrics (IFEval, LiveBench) are on par with the full-performance version of DeepSeek-R1. [Usage](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "QwQ is a reasoning model trained on the Qwen2.5 base and significantly enhanced through reinforcement learning."
 }

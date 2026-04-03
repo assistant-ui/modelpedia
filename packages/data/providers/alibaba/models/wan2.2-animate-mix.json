@@ -3,7 +3,7 @@
   "name": "wan2.2-animate-mix",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-04-03",
   "model_type": "video",
   "capabilities": {
     "streaming": true
@@ -22,14 +22,14 @@
     "family": "222d75c9",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "description": "5bf592bc",
+    "description": "c32f326e",
     "page_url": "23162829",
     "tagline": "38dcdbfe"
   },
   "family": "wan2.2",
   "license": "proprietary",
   "open_weight": false,
-  "description": "Offers standard and professional service modes. Uses a portrait image and reference video to replace the main subject in the video with the portrait image, while preserving the original video's scene, lighting, and hue. [API reference](https://www.alibabacloud.com/help/en/document_detail/2982219.html) ## International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), both the access point and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide (excluding the Chinese mainland).",
+  "description": "Offers standard and professional service modes. Uses a portrait image and reference video to replace the main subject in the video with the portrait image, while preserving the original video's scene, lighting, and hue. [API reference](https://www.alibabacloud.com/help/en/document_detail/2982219.html) ## International When the service deployment scope is[Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "This service offers Standard and Professional modes."
 }

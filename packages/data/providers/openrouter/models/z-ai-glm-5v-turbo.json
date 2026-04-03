@@ -1,0 +1,44 @@
+{
+  "id": "z-ai/glm-5v-turbo",
+  "name": "Z.ai: GLM 5V Turbo",
+  "created_by": "z-ai",
+  "source": "official",
+  "family": "glm-5",
+  "description": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks.",
+  "release_date": "2026-04-01",
+  "context_window": 202752,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.2,
+    "output": 4,
+    "cached_input": 0.24
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d078a278",
+    "family": "309daa86",
+    "description": "cfbc9627",
+    "release_date": "f68ebedb",
+    "context_window": "6ea395a4",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "cfbc9627",
+    "capabilities": "03fbefb4",
+    "modalities": "1e916c3b",
+    "pricing": "53feeb96",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-03"
+}

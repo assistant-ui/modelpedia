@@ -3,7 +3,7 @@
   "name": "wan2.6-r2v",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-04-03",
   "model_type": "video",
   "capabilities": {
     "streaming": true
@@ -22,7 +22,7 @@
     "family": "68010df8",
     "license": "9186c466",
     "provider": "a3af76f3",
-    "description": "3118cc40",
+    "description": "235cab66",
     "tagline": "add094ae",
     "page_url": "23162829",
     "open_weight": "68934a3e"
@@ -30,7 +30,7 @@
   "family": "wan2.6",
   "license": "proprietary",
   "provider": "qwen",
-  "description": "The Wan reference-to-video model lets you generate performance videos using characters and voices from reference videos or images. [API reference](https://www.alibabacloud.com/help/en/document_detail/3001146.html) Billing rule: Both input and output videos are billed by **video duration in seconds**. Failed requests are not billed and do not consume your free quota. * Input video duration is capped at **5 seconds** . See [Wan reference-to-video](https://www.alibabacloud.com/help/en/document_detail/3001146.html#f79461ca408qn) for details. * Output video duration equals the **duration of successfully generated video**. ## Global In the [Global deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), endpoint and data storage are located in the **US (Virginia) region** **or Germany (Frankfurt) region**, and model inference computing resources are dynamically scheduled globally. > The wan2.6-r2v model supports only global deployment mode in the US (Virginia) region.",
+  "description": "The Wan reference-to-video model lets you generate performance videos using characters and voices from reference videos or images. [API reference](https://www.alibabacloud.com/help/en/document_detail/3001146.html) Billing rule: Both input and output videos are billed by **video duration in seconds**. Failed requests are not billed and do not consume your free quota. * Input video duration is capped at **5 seconds** . See [Wan reference-to-video](https://www.alibabacloud.com/help/en/document_detail/3001146.html#f79461ca408qn) for details. * Output video duration equals the **duration of successfully generated video**. ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide. > The wan2.6-r2v model supports only the global service deployment scope in the US (Virginia) region.",
   "tagline": "The Wan reference-to-video model generates performance videos by referencing a character's appearance from an input video or image, the voice from the input video, and text prompts.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": false

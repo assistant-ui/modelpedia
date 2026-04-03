@@ -3,7 +3,7 @@
   "name": "qwen-voice-enrollment",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-03",
   "family": "qwen",
   "model_type": "chat",
   "capabilities": {
@@ -24,13 +24,13 @@
     "endpoints": "75df3f1c",
     "license": "60245731",
     "open_weight": "b326b506",
-    "description": "f589fe14",
+    "description": "c15042ec",
     "page_url": "23162829",
     "tagline": "9d6c3e45"
   },
   "license": "apache-2.0",
   "open_weight": true,
-  "description": "Voice cloning uses a large model for feature extraction, allowing you to clone voices without training. Provide 10 to 20 seconds of audio to generate a highly similar and natural-sounding custom voice. [Usage](https://www.alibabacloud.com/help/en/document_detail/2938790.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2975034.html) #### International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoints and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide (excluding Chinese Mainland).",
+  "description": "Voice cloning uses a large model for feature extraction, allowing you to clone voices without training. Provide 10 to 20 seconds of audio to generate a highly similar and natural-sounding custom voice. [Usage](https://www.alibabacloud.com/help/en/document_detail/2938790.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2975034.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "Voice cloning uses a large model for feature extraction, allowing you to clone voices without training."
 }
