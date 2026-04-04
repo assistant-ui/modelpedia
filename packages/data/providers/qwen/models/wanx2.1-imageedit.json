@@ -3,7 +3,7 @@
   "name": "wanx2.1-imageedit",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-04-03",
   "model_type": "image",
   "capabilities": {
     "streaming": true,
@@ -23,7 +23,7 @@
     "family": "2aadc089",
     "license": "9186c466",
     "provider": "a3af76f3",
-    "description": "17273df4",
+    "description": "bb1979b9",
     "tagline": "ef938036",
     "page_url": "23162829",
     "open_weight": "68934a3e"
@@ -31,7 +31,7 @@
   "family": "wan",
   "license": "proprietary",
   "provider": "qwen",
-  "description": "The Wan general image editing model supports diverse image editing tasks using simple instructions. Use it for image outpainting, watermark removal, style transfer, image inpainting, and image enhancement. [Usage](https://www.alibabacloud.com/help/en/document_detail/2874281.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2868981.html) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported. Endpoint and data storage are located in the **Beijing region**, and model inference computing resources are restricted to Chinese Mainland.",
+  "description": "The Wan general image editing model supports diverse image editing tasks using simple instructions. Use it for image outpainting, watermark removal, style transfer, image inpainting, and image enhancement. [Usage](https://www.alibabacloud.com/help/en/document_detail/2874281.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2868981.html) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
   "tagline": "Wan general image editing models enable diverse image editing tasks using simple instructions.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": false

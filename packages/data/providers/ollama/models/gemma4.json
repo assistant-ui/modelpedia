@@ -1,0 +1,38 @@
+{
+  "id": "gemma4",
+  "name": "gemma4",
+  "created_by": "google",
+  "source": "official",
+  "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
+  "context_window": 131072,
+  "license": "open-weight",
+  "page_url": "https://ollama.com/library/gemma4",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "Gemma 4 models are designed to deliver frontier-level performance at each size.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "57c752f5",
+    "description": "57a17c5a",
+    "context_window": "f7de594e",
+    "license": "6327aaea",
+    "page_url": "fed1b66a",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "eb593117",
+    "capabilities": "62b3fd83",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-03"
+}

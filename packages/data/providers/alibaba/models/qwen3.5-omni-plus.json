@@ -4,7 +4,7 @@
   "created_by": "qwen",
   "source": "official",
   "family": "qwen3.5",
-  "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International In the [International deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), endpoint and data storage are located in the **Singapore region**, while model inference computing resources are dynamically scheduled globally (excluding Chinese Mainland).",
+  "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
   "context_window": 262144,
   "license": "apache-2.0",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
@@ -26,7 +26,7 @@
   "_generated": {
     "name": "86bb6c66",
     "family": "d548f421",
-    "description": "9f42587a",
+    "description": "c20398e3",
     "context_window": "4a1d32eb",
     "license": "60245731",
     "page_url": "23162829",
@@ -38,5 +38,5 @@
     "endpoints": "75df3f1c",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-01"
+  "last_updated": "2026-04-03"
 }

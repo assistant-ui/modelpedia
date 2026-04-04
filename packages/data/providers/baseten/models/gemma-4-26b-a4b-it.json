@@ -1,0 +1,29 @@
+{
+  "id": "gemma-4-26b-a4b-it",
+  "name": "gemma-4-26b-a4b-it",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "parameters": 26,
+  "active_parameters": 4,
+  "open_weight": true,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "9a69ac11",
+    "family": "811b6704",
+    "parameters": "4e732ced",
+    "active_parameters": "a87ff679",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-03"
+}

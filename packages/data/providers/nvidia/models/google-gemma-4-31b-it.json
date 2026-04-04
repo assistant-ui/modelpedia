@@ -1,0 +1,25 @@
+{
+  "id": "google/gemma-4-31b-it",
+  "name": "gemma-4-31b-it",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "parameters": 31,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "80cf5031",
+    "family": "811b6704",
+    "parameters": "c16a5320",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-03"
+}

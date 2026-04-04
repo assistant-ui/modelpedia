@@ -1,0 +1,35 @@
+{
+  "id": "wan2.7-i2v",
+  "name": "wan2.7-i2v",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "wan2.7",
+  "description": "The Wan image-to-video model has been upgraded to support multimodal inputs (text, image, audio, and video), and can perform three types of tasks: **first-frame-to-video, first-and-last-frame-to-video, and video continuation** . [API reference](https://www.alibabacloud.com/help/en/document_detail/3025059.html) ## International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "model_type": "video",
+  "tagline": "The Wan image-to-video model has been upgraded to support multimodal inputs (text, image, audio, and video), and can perform three types of tasks: **first-frame-to-video, first-and-last-frame-to-video, and video continuation** .",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "video"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "ed06a367",
+    "family": "7524937d",
+    "description": "355031c1",
+    "license": "9186c466",
+    "page_url": "23162829",
+    "model_type": "4d1b75ca",
+    "tagline": "1d7b1815",
+    "capabilities": "0fa77dc6",
+    "modalities": "901ff664",
+    "open_weight": "68934a3e",
+    "endpoints": "75df3f1c"
+  },
+  "last_updated": "2026-04-03"
+}

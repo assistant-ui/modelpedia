@@ -1,0 +1,38 @@
+{
+  "id": "rekaai/reka-edge",
+  "name": "Reka Edge",
+  "created_by": "rekaai",
+  "source": "official",
+  "description": "Reka Edge is an extremely efficient 7B multimodal vision-language model that accepts image/video+text inputs and generates text outputs.",
+  "release_date": "2026-03-20",
+  "context_window": 16384,
+  "max_output_tokens": 16384,
+  "tagline": "Reka Edge is an extremely efficient 7B multimodal vision-language model that accepts image/video+text inputs and generates text outputs.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.1
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "30e489a3",
+    "description": "2c044f9b",
+    "release_date": "d91bb602",
+    "context_window": "c76fe1d8",
+    "max_output_tokens": "c76fe1d8",
+    "tagline": "2c044f9b",
+    "capabilities": "6c9aa67e",
+    "modalities": "1e916c3b",
+    "pricing": "dabb026f",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-03"
+}

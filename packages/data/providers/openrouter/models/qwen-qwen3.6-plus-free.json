@@ -1,0 +1,38 @@
+{
+  "id": "qwen/qwen3.6-plus:free",
+  "name": "Qwen: Qwen3.6 Plus (free)",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.6",
+  "description": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference.",
+  "release_date": "2026-04-02",
+  "context_window": 1000000,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2833d5a5",
+    "family": "1bc2d26f",
+    "description": "1edf4c6b",
+    "release_date": "ea3c9722",
+    "context_window": "8155bc54",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "1edf4c6b",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-03"
+}

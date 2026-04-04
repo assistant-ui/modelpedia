@@ -3,7 +3,7 @@
   "name": "wan2.5-i2i-preview",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-04-03",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -22,7 +22,7 @@
     "model_type": "4d1b75ca",
     "license": "9186c466",
     "provider": "a3af76f3",
-    "description": "cb84abe4",
+    "description": "710f4b80",
     "tagline": "2786841b",
     "page_url": "23162829",
     "open_weight": "68934a3e"
@@ -31,7 +31,7 @@
   "model_type": "video",
   "license": "proprietary",
   "provider": "qwen",
-  "description": "The Wan general image editing 2.5 model supports inputting text, a single image, or multiple images to perform subject-consistent image editing and multi-image fusion creation. [API reference](https://www.alibabacloud.com/help/en/document_detail/2982258.html) ## International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoint and data storage are both located in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide (excluding the Chinese mainland).",
+  "description": "The Wan general image editing 2.5 model supports inputting text, a single image, or multiple images to perform subject-consistent image editing and multi-image fusion creation. [API reference](https://www.alibabacloud.com/help/en/document_detail/2982258.html) ## International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
   "tagline": "Wan general image editing 2.5 supports subject-consistent editing using text, a single image, or multiple images.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": false

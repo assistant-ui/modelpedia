@@ -1,0 +1,35 @@
+{
+  "id": "zai/glm-5v-turbo",
+  "name": "glm-5v-turbo",
+  "created_by": "zhipu",
+  "source": "official",
+  "family": "glm-5",
+  "context_window": 200000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1.2,
+    "output": 4
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "711cb934",
+    "family": "309daa86",
+    "context_window": "03e6c616",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "2a724949",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-03"
+}

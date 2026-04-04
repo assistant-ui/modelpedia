@@ -3,7 +3,7 @@
   "name": "qwen3-asr-flash-realtime",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-03",
   "family": "qwen3",
   "model_type": "chat",
   "capabilities": {
@@ -24,14 +24,14 @@
     "endpoints": "75df3f1c",
     "license": "60245731",
     "provider": "a3af76f3",
-    "description": "bcb09c44",
+    "description": "c93066a2",
     "tagline": "1bec10bb",
     "page_url": "23162829",
     "open_weight": "b326b506"
   },
   "license": "apache-2.0",
   "provider": "qwen",
-  "description": "Qwen Real-Time Speech Recognition is a model with automatic language detection. It supports 11 languages and delivers accurate transcription even in complex audio environments. [How to use](https://www.alibabacloud.com/help/en/document_detail/2989727.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2987031.html) #### International In [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), endpoints and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled across global regions, excluding Chinese Mainland.",
+  "description": "Qwen Real-Time Speech Recognition is a model with automatic language detection. It supports 11 languages and delivers accurate transcription even in complex audio environments. [How to use](https://www.alibabacloud.com/help/en/document_detail/2989727.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2987031.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
   "tagline": "Qwen Real-Time Speech Recognition is a model with automatic language detection.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": true

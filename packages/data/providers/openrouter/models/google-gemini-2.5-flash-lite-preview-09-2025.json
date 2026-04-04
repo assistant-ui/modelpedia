@@ -3,11 +3,11 @@
   "name": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-03",
   "family": "gemini-2.5",
   "description": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency.",
   "context_window": 1048576,
-  "max_output_tokens": 65536,
+  "max_output_tokens": 65535,
   "modalities": {
     "input": ["text", "image", "audio", "video"],
     "output": ["text"]
@@ -28,7 +28,7 @@
     "family": "ea6b88bf",
     "description": "35251cdb",
     "context_window": "7d28a051",
-    "max_output_tokens": "297ce0b3",
+    "max_output_tokens": "3c9b5f1c",
     "modalities": "0843b982",
     "capabilities": "03fbefb4",
     "pricing": "e9071edc",

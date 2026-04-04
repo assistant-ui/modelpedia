@@ -1,0 +1,32 @@
+{
+  "id": "arcee-ai/trinity-large-thinking",
+  "name": "trinity-large-thinking",
+  "created_by": "arcee",
+  "source": "official",
+  "context_window": 262100,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 0.9
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "042346c8",
+    "context_window": "b23f4471",
+    "model_type": "d669f408",
+    "capabilities": "a281e83a",
+    "pricing": "f638a38f",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-03"
+}

@@ -3,7 +3,7 @@
   "name": "qwq-32b-preview",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-04-03",
   "family": "qwq",
   "context_window": 32768,
   "max_output_tokens": 16384,
@@ -35,7 +35,7 @@
     "license": "60245731",
     "parameters": "6364d3f0",
     "provider": "a3af76f3",
-    "description": "fff1a13f",
+    "description": "8445c968",
     "tagline": "ac8c2f53",
     "page_url": "23162829",
     "open_weight": "b326b506"
@@ -43,7 +43,7 @@
   "license": "apache-2.0",
   "parameters": 32,
   "provider": "qwen",
-  "description": "qwq-32b-preview is an experimental research model developed by the Qwen team in 2024, focused on enhancing AI reasoning capabilities, especially in math and programming. See [QwQ official blog](https://qwenlm.github.io/zh/blog/qwq-32b-preview/#%E6%A8%A1%E5%9E%8B%E5%B1%80%E9%99%90%E6%80%A7) for model limitations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwq-32b-preview) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported. Endpoint and data storage are located in the **Beijing region**, and model inference computing resources are restricted to Chinese Mainland.",
+  "description": "qwq-32b-preview is an experimental research model developed by the Qwen team in 2024, focused on enhancing AI reasoning capabilities, especially in math and programming. See [QwQ official blog](https://qwenlm.github.io/zh/blog/qwq-32b-preview/#%E6%A8%A1%E5%9E%8B%E5%B1%80%E9%99%90%E6%80%A7) for model limitations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwq-32b-preview) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
   "tagline": "qwq-32b-preview is an experimental research model developed by the Qwen team in 2024.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": true

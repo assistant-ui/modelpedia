@@ -3,7 +3,7 @@
   "name": "qwen2.5-math-72b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-04-03",
   "family": "qwen2.5",
   "context_window": 4096,
   "max_output_tokens": 3072,
@@ -34,14 +34,14 @@
     "license": "60245731",
     "parameters": "32bb90e8",
     "open_weight": "b326b506",
-    "description": "65a78610",
+    "description": "c3390d65",
     "page_url": "23162829",
     "tagline": "8211e6d7"
   },
   "license": "apache-2.0",
   "parameters": 72,
   "open_weight": true,
-  "description": "Qwen-Math is a language model built on the Qwen model to solve math problems. Qwen2.5-Math supports **Chinese** and **English** and integrates multiple inference methods, such as Chain of Thought (CoT), Program of Thought (PoT), and Tool-Integrated Reasoning (TIR). [How to use](https://www.alibabacloud.com/help/en/document_detail/2849934.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwen2.5-math-72b-instruct) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported. Endpoint and data storage are located in the **Beijing region**, and model inference computing resources are restricted to Chinese Mainland.",
+  "description": "Qwen-Math is a language model built on the Qwen model to solve math problems. Qwen2.5-Math supports **Chinese** and **English** and integrates multiple inference methods, such as Chain of Thought (CoT), Program of Thought (PoT), and Tool-Integrated Reasoning (TIR). [How to use](https://www.alibabacloud.com/help/en/document_detail/2849934.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwen2.5-math-72b-instruct) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "A language model built on Qwen, specialized for solving math problems."
 }

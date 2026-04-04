@@ -1,0 +1,25 @@
+{
+  "id": "gemma-4-e2b-it",
+  "name": "gemma-4-e2b-it",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "open_weight": true,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "0e70692f",
+    "family": "811b6704",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-03"
+}

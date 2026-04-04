@@ -1,6 +1,6 @@
 {
   "id": "rekaai/reka-flash-3",
-  "name": "Reka: Flash 3",
+  "name": "Reka Flash 3",
   "created_by": "rekaai",
   "source": "official",
   "description": "Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka.",
@@ -20,7 +20,7 @@
     "output": 0.2
   },
   "_generated": {
-    "name": "48989f34",
+    "name": "37ed0b74",
     "description": "1c26efb2",
     "release_date": "826a3ce0",
     "context_window": "297ce0b3",
@@ -30,5 +30,5 @@
     "modalities": "68e53d93",
     "pricing": "4a468643"
   },
-  "last_updated": "2026-04-01"
+  "last_updated": "2026-04-03"
 }

@@ -3,7 +3,7 @@
   "name": "wan2.6-t2v",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-04-03",
   "model_type": "video",
   "capabilities": {
     "streaming": true
@@ -22,7 +22,7 @@
     "family": "68010df8",
     "license": "9186c466",
     "provider": "a3af76f3",
-    "description": "6d74e85e",
+    "description": "e38d803b",
     "tagline": "dd95ffa6",
     "page_url": "23162829",
     "open_weight": "68934a3e"
@@ -30,7 +30,7 @@
   "family": "wan2.6",
   "license": "proprietary",
   "provider": "qwen",
-  "description": "The Wan text-to-video model generates videos from a single sentence. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2865250.html) \\| [Try it now](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global In the [Global deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), endpoint and data storage are located in the **US (Virginia) region** **or Germany (Frankfurt) region**, and model inference computing resources are dynamically scheduled globally. > The wan2.6-t2v model supports only global deployment mode in the US (Virginia) region.",
+  "description": "The Wan text-to-video model generates videos from a single sentence. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2865250.html) \\| [Try it now](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide. > The wan2.6-t2v model supports only the global service deployment scope in the US (Virginia) region.",
   "tagline": "Wan text-to-video models generate videos from a single sentence, delivering rich artistic styles and cinematic quality.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": false

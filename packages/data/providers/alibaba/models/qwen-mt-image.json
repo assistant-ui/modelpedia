@@ -3,7 +3,7 @@
   "name": "qwen-mt-image",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-04-03",
   "family": "qwen",
   "model_type": "chat",
   "capabilities": {
@@ -25,13 +25,13 @@
     "endpoints": "75df3f1c",
     "license": "60245731",
     "open_weight": "b326b506",
-    "description": "2ebe4079",
+    "description": "4998e587",
     "page_url": "23162829",
     "tagline": "42103514"
   },
   "license": "apache-2.0",
   "open_weight": true,
-  "description": "The Qwen image translation models supports translating text in images from 11 languages into Chinese or English. It accurately preserves original layout and content information and offers customizable features such as glossary definition, sensitive words filter, and image entity detection. [API reference](https://www.alibabacloud.com/help/en/document_detail/2977163.html) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported. Endpoint and data storage are located in the **Beijing region**, and model inference computing resources are restricted to Chinese Mainland.",
+  "description": "The Qwen image translation models supports translating text in images from 11 languages into Chinese or English. It accurately preserves original layout and content information and offers customizable features such as glossary definition, sensitive words filter, and image entity detection. [API reference](https://www.alibabacloud.com/help/en/document_detail/2977163.html) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "Qwen image translation models support translating text in images from 11 languages into Chinese or English."
 }

@@ -3,7 +3,7 @@
   "name": "qwen3-tts-instruct-flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-03",
   "family": "qwen3",
   "model_type": "tts",
   "capabilities": {
@@ -24,14 +24,14 @@
     "endpoints": "75df3f1c",
     "license": "60245731",
     "provider": "a3af76f3",
-    "description": "41cdea88",
+    "description": "c668a214",
     "tagline": "c83d2447",
     "page_url": "23162829",
     "open_weight": "b326b506"
   },
   "license": "apache-2.0",
   "provider": "qwen",
-  "description": "Supports mixed-language text input and streaming audio output. [Usage](https://www.alibabacloud.com/help/en/document_detail/2879134.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2881635.html) #### International In the [international deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), the endpoints and data storage are located in the **Singapore region**. Model inference compute resources are dynamically scheduled worldwide (excluding Chinese Mainland). ##### **Qwen3-TTS-Instruct-Flash**",
+  "description": "Supports mixed-language text input and streaming audio output. [Usage](https://www.alibabacloud.com/help/en/document_detail/2879134.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2881635.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. ##### **Qwen3-TTS-Instruct-Flash**",
   "tagline": "Supports mixed-language text input and streaming audio output.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": true

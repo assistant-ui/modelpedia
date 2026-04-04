@@ -1,0 +1,35 @@
+{
+  "id": "wan2.7-videoedit",
+  "name": "wan2.7-videoedit",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "wan2.7",
+  "description": "The Wan video editing model supports multimodal inputs, including text, images, and video, enabling video generation and general editing tasks. [API reference (Video Editing 2.7)](https://www.alibabacloud.com/help/en/document_detail/3021842.html) \\| [API reference (Video Editing 2.1)](https://www.alibabacloud.com/help/en/document_detail/2922183.html) ## International When the service deployment scope is[Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
+  "model_type": "video",
+  "license": "proprietary",
+  "tagline": "The Wan video editing model supports multimodal inputs, including text, images, and video, enabling video generation and general editing tasks.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "video"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "f00d9add",
+    "family": "7524937d",
+    "description": "aaadd549",
+    "model_type": "4d1b75ca",
+    "license": "9186c466",
+    "tagline": "e2f71b5e",
+    "page_url": "23162829",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "901ff664",
+    "endpoints": "75df3f1c"
+  },
+  "last_updated": "2026-04-03"
+}
