@@ -32,7 +32,9 @@
     "tagline": "eb593117",
     "capabilities": "62b3fd83",
     "modalities": "6399757e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "parameters": "4e732ced"
   },
-  "last_updated": "2026-04-03"
+  "last_updated": "2026-04-04",
+  "parameters": 26
 }
