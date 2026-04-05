@@ -14,7 +14,8 @@
   "capabilities": {
     "structured_output": true,
     "reasoning": true,
-    "json_mode": true
+    "json_mode": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["image", "text", "video"],
@@ -34,9 +35,11 @@
     "parameters": "c16a5320",
     "model_type": "d669f408",
     "tagline": "478a3248",
-    "capabilities": "d53412cf",
+    "capabilities": "83495353",
     "modalities": "1e916c3b",
-    "pricing": "26e68883"
+    "pricing": "26e68883",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-03"
+  "last_updated": "2026-04-04",
+  "tools": ["function_calling"]
 }

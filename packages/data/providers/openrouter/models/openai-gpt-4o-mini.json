@@ -1,9 +1,9 @@
 {
   "id": "openai/gpt-4o-mini",
-  "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+  "name": "OpenAI: GPT-4o-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-27",
+  "last_updated": "2026-04-04",
   "family": "gpt-4o",
   "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs.",
   "context_window": 128000,
@@ -23,7 +23,7 @@
     "cached_input": 0.075
   },
   "_generated": {
-    "name": "3565492b",
+    "name": "804fd5f9",
     "family": "15249632",
     "description": "ab999886",
     "context_window": "34434798",

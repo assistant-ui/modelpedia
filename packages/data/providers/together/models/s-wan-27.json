@@ -1,0 +1,25 @@
+{
+  "id": "s/wan-27",
+  "name": "Wan 27",
+  "created_by": "unknown",
+  "source": "official",
+  "family": "wan",
+  "page_url": "https://www.together.ai/models/wan-27",
+  "model_type": "video",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 3,
+    "output": 0.8
+  },
+  "_generated": {
+    "name": "1716f75c",
+    "family": "2aadc089",
+    "page_url": "ac0eafaa",
+    "model_type": "4d1b75ca",
+    "capabilities": "0fa77dc6",
+    "pricing": "eb5e6399"
+  },
+  "last_updated": "2026-04-04"
+}

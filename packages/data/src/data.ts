@@ -76084,7 +76084,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-03"
+        "last_updated": "2026-04-04",
+        "parameters": 26
       },
       {
         "id": "glm-4.6",
@@ -93717,19 +93718,21 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets."
       },
       {
-        "id": "google/gemma-4-31b-it",
-        "name": "Google: Gemma 4 31B",
+        "id": "google/gemma-4-26b-a4b-it",
+        "name": "Google: Gemma 4 26B A4B ",
         "created_by": "google",
         "source": "official",
         "family": "gemma-4",
-        "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output.",
-        "release_date": "2026-04-02",
+        "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind.",
+        "release_date": "2026-04-03",
         "context_window": 262144,
-        "max_output_tokens": 131072,
-        "parameters": 31,
+        "max_output_tokens": 262144,
+        "parameters": 26,
+        "active_parameters": 4,
         "model_type": "chat",
-        "tagline": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output.",
+        "tagline": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind.",
         "capabilities": {
+          "tool_call": true,
           "structured_output": true,
           "reasoning": true,
           "json_mode": true
@@ -93745,10 +93748,51 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
+          "input": 0.13,
+          "output": 0.4
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-04"
+      },
+      {
+        "id": "google/gemma-4-31b-it",
+        "name": "Google: Gemma 4 31B",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-4",
+        "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output.",
+        "release_date": "2026-04-02",
+        "context_window": 262144,
+        "max_output_tokens": 131072,
+        "parameters": 31,
+        "model_type": "chat",
+        "tagline": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output.",
+        "capabilities": {
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
           "input": 0.14,
           "output": 0.4
         },
-        "last_updated": "2026-04-03"
+        "last_updated": "2026-04-04",
+        "tools": [
+          "function_calling"
+        ]
       },
       {
         "id": "google/lyria-3-clip-preview",
@@ -94945,7 +94989,7 @@ export const providers: ProviderWithModels[] = [
         "name": "MiniMax: MiniMax M2.5",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-04-03",
+        "last_updated": "2026-04-04",
         "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity.",
         "context_window": 196608,
         "max_output_tokens": 65536,
@@ -94967,7 +95011,7 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.118,
-          "output": 1,
+          "output": 0.99,
           "cached_input": 0.059
         },
         "family": "minimax",
@@ -96521,10 +96565,10 @@ export const providers: ProviderWithModels[] = [
         "name": "MoonshotAI: Kimi K2.5",
         "created_by": "moonshotai",
         "source": "official",
-        "last_updated": "2026-04-03",
+        "last_updated": "2026-04-04",
         "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm.",
         "context_window": 262144,
-        "max_output_tokens": 65535,
+        "max_output_tokens": 262144,
         "modalities": {
           "input": [
             "text",
@@ -96542,8 +96586,8 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.383,
-          "output": 1.909,
-          "cached_input": 0.191
+          "output": 1.72,
+          "cached_input": 0.194
         },
         "family": "kimi-k2.5",
         "model_type": "chat",
@@ -97973,10 +98017,10 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o-mini",
-        "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+        "name": "OpenAI: GPT-4o-mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-04",
         "family": "gpt-4o",
         "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs.",
         "context_window": 128000,
@@ -98058,14 +98102,14 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o",
-        "name": "OpenAI: GPT-4o",
+        "name": "OpenAI: GPT-4o (2024-05-13)",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-01",
+        "last_updated": "2026-04-04",
         "family": "gpt-4o",
         "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs.",
         "context_window": 128000,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 4096,
         "modalities": {
           "input": [
             "text",
@@ -98086,8 +98130,8 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 2.5,
-          "output": 10,
+          "input": 5,
+          "output": 15,
           "cached_input": 1.25
         },
         "model_type": "chat",
@@ -108318,12 +108362,12 @@ export const providers: ProviderWithModels[] = [
         "name": "Google Veo 3 0",
         "created_by": "unknown",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-04",
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 0.14,
+          "input": 0.8,
           "output": 1.6
         },
         "page_url": "https://www.together.ai/models/google-veo-3-0"
@@ -108773,12 +108817,12 @@ export const providers: ProviderWithModels[] = [
         "name": "Sora 2 Pro",
         "created_by": "unknown",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-04-04",
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 0.14,
+          "input": 0.8,
           "output": 3
         },
         "model_type": "video",
@@ -108802,6 +108846,23 @@ export const providers: ProviderWithModels[] = [
         "family": "wan",
         "model_type": "image",
         "page_url": "https://www.together.ai/models/wan-2-6-image"
+      },
+      {
+        "id": "s/wan-27",
+        "name": "Wan 27",
+        "created_by": "unknown",
+        "source": "official",
+        "family": "wan",
+        "page_url": "https://www.together.ai/models/wan-27",
+        "model_type": "video",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 3,
+          "output": 0.8
+        },
+        "last_updated": "2026-04-04"
       }
     ]
   },
