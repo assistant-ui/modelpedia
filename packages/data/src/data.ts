@@ -48059,6 +48059,34 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "@cf/google/gemma-4-26b-a4b-it",
+        "name": "gemma-4-26b-a4b-it",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-4",
+        "status": "active",
+        "model_type": "chat",
+        "parameters": 26,
+        "active_parameters": 4,
+        "page_url": "https://developers.cloudflare.com/workers-ai/models/#gemma-4-26b-a4b-it",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-05"
+      },
+      {
         "id": "@cf/google/gemma-7b-it-lora",
         "name": "gemma-7b-it-lora",
         "created_by": "google",
@@ -62975,6 +63003,30 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "dphn/Dolphin-Mistral-24B-Venice-Edition",
+        "name": "Dolphin-Mistral-24B-Venice-Edition",
+        "created_by": "dphn",
+        "source": "official",
+        "description": "Website: https://dphn.ai Twitter: https://x.com/dphnAI Web Chat: https://chat.dphn.ai Telegram bot: https://t.me/DolphinAI_bot",
+        "release_date": "2025-06-12",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 24,
+        "page_url": "https://huggingface.co/dphn/Dolphin-Mistral-24B-Venice-Edition",
+        "architecture": "transformer",
+        "tagline": "Website: https://dphn.ai Twitter: https://x.com/dphnAI Web Chat: https://chat.dphn.ai Telegram bot: https://t.me/DolphinAI_bot",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-05"
+      },
+      {
         "id": "Efficient-Large-Model/gemma-2-2b-it",
         "name": "gemma-2-2b-it",
         "created_by": "efficient-large-model",
@@ -76070,7 +76122,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "fine_tuning": true
+          "fine_tuning": true,
+          "reasoning": true
         },
         "modalities": {
           "input": [
@@ -76084,8 +76137,10 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-04",
-        "parameters": 26
+        "last_updated": "2026-04-05",
+        "parameters": 31,
+        "release_date": "2026-04-02",
+        "reasoning_tokens": true
       },
       {
         "id": "glm-4.6",
@@ -109427,9 +109482,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-thinking",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-05",
         "family": "qwen3",
-        "context_window": 256000,
+        "context_window": 131100,
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -109437,8 +109492,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.22,
-          "output": 0.88
+          "input": 0.4,
+          "output": 3.95
         },
         "model_type": "chat",
         "tools": [
@@ -112113,9 +112168,9 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-4-maverick",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-05",
         "family": "llama-4",
-        "context_window": 524300,
+        "context_window": 131100,
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -116364,7 +116419,7 @@ export const providers: ProviderWithModels[] = [
         "name": "glm-4.7",
         "created_by": "zhipu",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-05",
         "context_window": 204800,
         "capabilities": {
           "streaming": true,
@@ -116372,8 +116427,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.43,
-          "output": 1.75
+          "input": 2.25,
+          "output": 2.75
         },
         "family": "glm-4.7",
         "model_type": "chat",
