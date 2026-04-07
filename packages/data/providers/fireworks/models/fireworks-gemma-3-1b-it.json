@@ -1,0 +1,33 @@
+{
+  "id": "fireworks/gemma-3-1b-it",
+  "name": "gemma-3-1b-it",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-3",
+  "parameters": 1,
+  "page_url": "https://fireworks.ai/models/fireworks/gemma-3-1b-it",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "b15094e9",
+    "family": "d9e10ad8",
+    "parameters": "c4ca4238",
+    "page_url": "5ff69154",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-07"
+}

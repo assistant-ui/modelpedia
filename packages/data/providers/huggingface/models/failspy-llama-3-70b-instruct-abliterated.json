@@ -1,0 +1,43 @@
+{
+  "id": "failspy/llama-3-70B-Instruct-abliterated",
+  "name": "llama-3-70B-Instruct-abliterated",
+  "created_by": "failspy",
+  "source": "official",
+  "family": "llama-3",
+  "description": "This is meta-llama/Llama-3-70B-Instruct with orthogonalized bfloat16 safetensor weights, generated with the methodology that was described in the preview paper/blog post: '[Refusal in LLMs is mediated by a single direction](https://www.alignmentforum.org/posts/jGuXSZgv6qfdhMCuJ/refusal-in-llms-is-mediated-by-a-single-direction)' which I encourage you to read to understand more.",
+  "release_date": "2024-05-07",
+  "context_window": 8192,
+  "license": "llama3",
+  "page_url": "https://huggingface.co/failspy/llama-3-70B-Instruct-abliterated",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "This is meta-llama/Llama-3-70B-Instruct with orthogonalized bfloat16 safetensor weights, generated with the methodology that was described in the preview paper/blog post: '[Refusal in LLMs is mediated",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e16ad289",
+    "family": "a8d1600e",
+    "description": "d208bd63",
+    "release_date": "64ca6fad",
+    "context_window": "77441296",
+    "license": "c1eeabcd",
+    "page_url": "dee081e2",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "70790e56",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-07"
+}

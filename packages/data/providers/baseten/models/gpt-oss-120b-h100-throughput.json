@@ -1,0 +1,27 @@
+{
+  "id": "gpt-oss-120b-h100-throughput",
+  "name": "gpt-oss-120b-h100-throughput",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-oss",
+  "parameters": 120,
+  "open_weight": true,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "84165e7d",
+    "family": "82d0cb0b",
+    "parameters": "da4fb5c6",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-07"
+}

@@ -3,8 +3,8 @@
   "name": "Nous: Hermes 3 405B Instruct (free)",
   "created_by": "nousresearch",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.",
+  "last_updated": "2026-04-07",
+  "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coheren",
   "context_window": 131072,
   "modalities": {
     "input": ["text"],
@@ -12,7 +12,7 @@
   },
   "_generated": {
     "name": "9c37c9a8",
-    "description": "a388281e",
+    "description": "a936cce1",
     "context_window": "f7de594e",
     "modalities": "68e53d93",
     "model_type": "d669f408",

@@ -1,0 +1,25 @@
+{
+  "id": "whisper-large-v3",
+  "name": "whisper-large-v3",
+  "created_by": "openai",
+  "source": "official",
+  "family": "whisper",
+  "open_weight": true,
+  "model_type": "transcription",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "4459347e",
+    "family": "7fbc43e3",
+    "open_weight": "b326b506",
+    "model_type": "5e12d29a",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-07"
+}

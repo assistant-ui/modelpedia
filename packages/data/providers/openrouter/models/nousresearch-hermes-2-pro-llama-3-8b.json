@@ -3,8 +3,8 @@
   "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
   "created_by": "nousresearch",
   "source": "official",
-  "last_updated": "2026-03-24",
-  "description": "Hermes 2 Pro is an upgraded, retrained version of Nous Hermes 2, consisting of an updated and cleaned version of the OpenHermes 2.5 Dataset, as well as a newly introduced Function Calling and JSON Mod",
+  "last_updated": "2026-04-07",
+  "description": "Hermes 2 Pro is an upgraded, retrained version of Nous Hermes 2, consisting of an updated and cleaned version of the OpenHermes 2.5 Dataset, as well as a newly introduced...",
   "context_window": 8192,
   "max_output_tokens": 8192,
   "modalities": {
@@ -21,7 +21,7 @@
   },
   "_generated": {
     "name": "772cc5af",
-    "description": "2106e259",
+    "description": "fb9db44c",
     "context_window": "77441296",
     "max_output_tokens": "77441296",
     "modalities": "68e53d93",

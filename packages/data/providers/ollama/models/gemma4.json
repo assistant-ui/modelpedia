@@ -14,7 +14,8 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -30,11 +31,15 @@
     "open_weight": "b326b506",
     "model_type": "d669f408",
     "tagline": "eb593117",
-    "capabilities": "62b3fd83",
+    "capabilities": "3e581b07",
     "modalities": "6399757e",
     "tools": "f0c1dc7e",
-    "parameters": "4e732ced"
+    "parameters": "c16a5320",
+    "release_date": "ea3c9722",
+    "reasoning_tokens": "b326b506"
   },
-  "last_updated": "2026-04-04",
-  "parameters": 26
+  "last_updated": "2026-04-07",
+  "parameters": 31,
+  "release_date": "2026-04-02",
+  "reasoning_tokens": true
 }

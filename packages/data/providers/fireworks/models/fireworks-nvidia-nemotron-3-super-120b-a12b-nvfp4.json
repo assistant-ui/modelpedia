@@ -1,0 +1,28 @@
+{
+  "id": "fireworks/nvidia-nemotron-3-super-120b-a12b-nvfp4",
+  "name": "nvidia-nemotron-3-super-120b-a12b-nvfp4",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 262100,
+  "parameters": 120,
+  "active_parameters": 12,
+  "page_url": "https://fireworks.ai/models/fireworks/nvidia-nemotron-3-super-120b-a12b-nvfp4",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "_generated": {
+    "name": "fc4fb4e0",
+    "context_window": "b23f4471",
+    "parameters": "da4fb5c6",
+    "active_parameters": "c20ad4d7",
+    "page_url": "7984fbc8",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e"
+  },
+  "last_updated": "2026-04-07"
+}
