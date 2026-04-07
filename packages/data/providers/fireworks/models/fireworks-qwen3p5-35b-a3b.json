@@ -1,0 +1,37 @@
+{
+  "id": "fireworks/qwen3p5-35b-a3b",
+  "name": "qwen3p5-35b-a3b",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3",
+  "context_window": 262100,
+  "parameters": 35,
+  "active_parameters": 3,
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3p5-35b-a3b",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "0ccf9f0d",
+    "family": "48c385a0",
+    "context_window": "b23f4471",
+    "parameters": "1c383cd3",
+    "active_parameters": "eccbc87e",
+    "page_url": "a8ee5e7c",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-07"
+}

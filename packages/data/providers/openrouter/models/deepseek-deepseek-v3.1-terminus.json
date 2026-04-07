@@ -3,9 +3,9 @@
   "name": "DeepSeek: DeepSeek V3.1 Terminus",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-07",
   "family": "deepseek",
-  "description": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent capabilities, further optimizing the model's performance in coding and search agents.",
+  "description": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language cons",
   "context_window": 163840,
   "max_output_tokens": 65536,
   "modalities": {
@@ -26,7 +26,7 @@
   "_generated": {
     "name": "6fa60e30",
     "family": "4b81b92d",
-    "description": "781d7f78",
+    "description": "5d473b75",
     "context_window": "7edab444",
     "max_output_tokens": "297ce0b3",
     "modalities": "68e53d93",

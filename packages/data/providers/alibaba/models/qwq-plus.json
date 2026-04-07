@@ -3,7 +3,7 @@
   "name": "qwq-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-03",
+  "last_updated": "2026-04-07",
   "family": "qwq",
   "context_window": 131072,
   "max_output_tokens": 32768,
@@ -29,13 +29,18 @@
     "endpoints": "75df3f1c",
     "license": "60245731",
     "open_weight": "b326b506",
-    "description": "712dbcfe",
+    "description": "5b355b27",
     "page_url": "23162829",
-    "tagline": "0ad205d1"
+    "tagline": "0ad205d1",
+    "pricing": "9c3ad645"
   },
   "license": "apache-2.0",
   "open_weight": true,
-  "description": "The QwQ reasoning model, trained on the Qwen2.5 model, uses reinforcement learning to significantly improve its model inference capabilities. The model's core metrics for math and code (AIME 24/25, LiveCodeBench) and general metrics (IFEval, LiveBench) are on par with the full-performance version of DeepSeek-R1. [Usage](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+  "description": "QwQ is a reasoning model trained on the Qwen2.5 architecture. It significantly improves reasoning ability through reinforcement learning. Its core metrics, including AIME 24/25 and LiveCodeBench, and general metrics, such as IFEval and LiveBench, match the full-capability version of DeepSeek-R1.[How to use](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in **the Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "tagline": "QwQ is a reasoning model trained on the Qwen2.5 base and significantly enhanced through reinforcement learning."
+  "tagline": "QwQ is a reasoning model trained on the Qwen2.5 base and significantly enhanced through reinforcement learning.",
+  "pricing": {
+    "input": 0.8,
+    "output": 2.4
+  }
 }

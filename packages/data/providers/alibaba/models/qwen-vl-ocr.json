@@ -3,7 +3,7 @@
   "name": "qwen-vl-ocr",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-03",
+  "last_updated": "2026-04-07",
   "family": "qwen",
   "context_window": 38192,
   "max_output_tokens": 8192,
@@ -34,13 +34,13 @@
     "endpoints": "75df3f1c",
     "license": "60245731",
     "open_weight": "b326b506",
-    "description": "938f8615",
+    "description": "98fe9d85",
     "page_url": "23162829",
     "tagline": "3bb63476"
   },
   "license": "apache-2.0",
   "open_weight": true,
-  "description": "Qwen-OCR is a model specifically designed for text extraction. Compared to Qwen-VL models, it focuses more on extracting text from documents, tables, test questions, and handwritten images. It can recognize multiple languages, including English, French, Japanese, Korean, German, Russian, and Italian.[Usage](https://www.alibabacloud.com/help/en/document_detail/2860683.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2996283.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+  "description": "The Qwen-OCR model is designed for text extraction. Unlike the Qwen-VL model, it focuses on extracting text from images of documents, tables, exam papers, and handwriting. The model can detect multiple languages, including English, French, Japanese, Korean, German, Russian, and Italian. [How to use](https://www.alibabacloud.com/help/en/document_detail/2860683.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2996283.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) #### International For [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment, data is stored in the **Singapore** access region. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "Qwen-OCR is a model that specializes in text extraction."
 }

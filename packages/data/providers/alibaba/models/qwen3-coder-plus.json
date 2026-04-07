@@ -3,7 +3,7 @@
   "name": "qwen3-coder-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-03",
+  "last_updated": "2026-04-07",
   "family": "qwen3",
   "context_window": 1000000,
   "max_output_tokens": 65536,
@@ -28,13 +28,13 @@
     "endpoints": "75df3f1c",
     "license": "60245731",
     "open_weight": "b326b506",
-    "description": "111d939b",
+    "description": "9f6e9138",
     "page_url": "23162829",
     "tagline": "25d20c07"
   },
   "license": "apache-2.0",
   "open_weight": true,
-  "description": "Qwen code models: The latest Qwen3-Coder-Plus series are code generation models built on Qwen3, featuring robust Coding Agent capabilities. They excel at tool calling and environment interaction, enabling autonomous programming with exceptional coding skills while retaining general-purpose functionality. [Usage](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/efm/model_experience_center/text?currentTab=textChat&modelId=qwen3-coder-plus) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+  "description": "Qwen-Coder provides code models. The latest Qwen3-Coder-Plus series models are code generation models built on Qwen3. They feature powerful Coding Agent capabilities for tool calling and environment interaction, enabling autonomous programming. These models provide excellent coding performance and versatile general-purpose abilities. [How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/efm/model_experience_center/text?currentTab=textChat&modelId=qwen3-coder-plus) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore** access region. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "Qwen-Coder is a code generation model."
 }
