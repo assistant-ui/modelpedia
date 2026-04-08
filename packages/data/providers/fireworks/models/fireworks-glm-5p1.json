@@ -1,0 +1,33 @@
+{
+  "id": "fireworks/glm-5p1",
+  "name": "glm-5p1",
+  "created_by": "zhipu",
+  "source": "official",
+  "family": "glm-5",
+  "context_window": 202800,
+  "page_url": "https://fireworks.ai/models/fireworks/glm-5p1",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.4,
+    "output": 4.4,
+    "cached_input": 0.26
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "a1efbaa3",
+    "family": "309daa86",
+    "context_window": "cfc99a83",
+    "page_url": "630f4a2b",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "fbb9d87e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-08"
+}

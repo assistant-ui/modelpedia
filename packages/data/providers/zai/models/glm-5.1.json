@@ -1,0 +1,47 @@
+{
+  "id": "glm-5.1",
+  "name": "GLM-5.1",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5.1",
+  "context_window": 200000,
+  "max_output_tokens": 128000,
+  "license": "mit",
+  "page_url": "https://docs.z.ai/guides/llm/glm-5.1",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "prompt_caching": true,
+    "fine_tuning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.4,
+    "output": 4.4,
+    "cached_input": 0.26
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "751e8f2b",
+    "family": "feb32a37",
+    "context_window": "03e6c616",
+    "max_output_tokens": "34434798",
+    "license": "3c4c3ba5",
+    "page_url": "fd3afa93",
+    "model_type": "d669f408",
+    "capabilities": "2582d2f2",
+    "modalities": "68e53d93",
+    "pricing": "fbb9d87e",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-08"
+}

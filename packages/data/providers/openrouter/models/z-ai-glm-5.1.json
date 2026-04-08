@@ -1,0 +1,41 @@
+{
+  "id": "z-ai/glm-5.1",
+  "name": "Z.ai: GLM 5.1",
+  "created_by": "z-ai",
+  "source": "official",
+  "family": "glm-5.1",
+  "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks.",
+  "release_date": "2026-04-07",
+  "context_window": 202752,
+  "model_type": "chat",
+  "tagline": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.26,
+    "output": 3.96
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f196a44f",
+    "family": "feb32a37",
+    "description": "92718637",
+    "release_date": "3eaa38a6",
+    "context_window": "6ea395a4",
+    "model_type": "d669f408",
+    "tagline": "92718637",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "7af2419b",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-08"
+}

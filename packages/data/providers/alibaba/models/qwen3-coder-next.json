@@ -3,7 +3,7 @@
   "name": "qwen3-coder-next",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-07",
+  "last_updated": "2026-04-08",
   "family": "qwen3",
   "context_window": 262144,
   "max_output_tokens": 65536,
@@ -28,13 +28,13 @@
     "endpoints": "75df3f1c",
     "license": "60245731",
     "open_weight": "b326b506",
-    "description": "cf965f77",
+    "description": "8cc1a4ed",
     "page_url": "23162829",
     "tagline": "3e4c55da"
   },
   "license": "apache-2.0",
   "open_weight": true,
-  "description": "An open-source code model from Qwen. The latest Qwen3-Coder series delivers strong Coding Agent capabilities. It excels at tool calling and environment interaction. It supports autonomous programming and delivers outstanding coding performance while maintaining broad general-purpose abilities.[How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+  "description": "An open-source code model from Qwen. The latest Qwen3-Coder series delivers strong Coding Agent capabilities. It excels at tool calling and environment interaction. It supports autonomous programming and delivers outstanding coding performance while maintaining broad general-purpose abilities.[How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "The open-source Qwen code model."
 }

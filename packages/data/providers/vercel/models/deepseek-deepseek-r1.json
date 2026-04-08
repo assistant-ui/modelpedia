@@ -3,9 +3,9 @@
   "name": "deepseek-r1",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-08",
   "family": "deepseek-r1",
-  "context_window": 163800,
+  "context_window": 160000,
   "capabilities": {
     "streaming": true,
     "reasoning": true
@@ -17,7 +17,7 @@
   "_generated": {
     "name": "c74cfb8e",
     "family": "c74cfb8e",
-    "context_window": "df026689",
+    "context_window": "523ab41e",
     "capabilities": "b011c6b4",
     "pricing": "f08df6be",
     "model_type": "d669f408",

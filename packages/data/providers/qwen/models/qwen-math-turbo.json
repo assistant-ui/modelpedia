@@ -3,7 +3,7 @@
   "name": "qwen-math-turbo",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-07",
+  "last_updated": "2026-04-08",
   "family": "qwen",
   "model_type": "chat",
   "capabilities": {
@@ -28,14 +28,14 @@
     "endpoints": "75df3f1c",
     "license": "9186c466",
     "provider": "a3af76f3",
-    "description": "9492ee74",
+    "description": "778b9e16",
     "tagline": "2f6abdd6",
     "page_url": "23162829",
     "open_weight": "68934a3e"
   },
   "license": "proprietary",
   "provider": "qwen",
-  "description": "The Qwen-Math model is a language model designed to solve math problems.[How to use](https://www.alibabacloud.com/help/en/document_detail/2849934.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwen-math-plus?modelGroup=qwen-math-plus) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
+  "description": "The Qwen-Math model is a language model designed specifically for solving mathematical problems. [Usage](https://www.alibabacloud.com/help/en/document_detail/2849934.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwen-math-plus?modelGroup=qwen-math-plus) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
   "tagline": "Qwen-Math is a language model that specializes in solving mathematical problems.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": false

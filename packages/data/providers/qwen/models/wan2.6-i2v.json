@@ -3,7 +3,7 @@
   "name": "wan2.6-i2v",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-03",
+  "last_updated": "2026-04-08",
   "model_type": "video",
   "capabilities": {
     "streaming": true
@@ -22,7 +22,7 @@
     "family": "68010df8",
     "license": "9186c466",
     "provider": "a3af76f3",
-    "description": "5d94a9c7",
+    "description": "ebc3f454",
     "tagline": "a373f6ea",
     "page_url": "23162829",
     "open_weight": "68934a3e"
@@ -30,7 +30,7 @@
   "family": "wan2.6",
   "license": "proprietary",
   "provider": "qwen",
-  "description": "The Wan image-to-video model uses your input image as the first frame, then generates a video based on your prompt. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2867393.html) \\| [Try it now](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide. > The wan2.6-i2v model supports only the global service deployment scope in the US (Virginia) region.",
+  "description": "The Wan image-to-video model uses your input image as the first frame, then generates a video based on your prompt. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2867393.html) \\| [Try it now](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide.",
   "tagline": "Wan image-to-video models use your input image as the first frame, then generate a video based on your prompt, delivering rich artistic styles and cinematic quality.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": false
