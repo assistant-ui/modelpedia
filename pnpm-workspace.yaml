@@ -20,7 +20,7 @@ catalog:
   "@tailwindcss/postcss": ^4.2.2
 
   # Hono
-  hono: ^4.12.9
+  hono: ^4.12.12
 
   # Cloudflare
   wrangler: ^4.79.0
