@@ -3,9 +3,9 @@
   "name": "MoonshotAI: Kimi K2 0905",
   "created_by": "moonshotai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-08",
   "description": "Kimi K2 0905 is the September update of [Kimi K2 0711](moonshotai/kimi-k2).",
-  "context_window": 131072,
+  "context_window": 262144,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -23,7 +23,7 @@
   "_generated": {
     "name": "f02e2c45",
     "description": "e8e0ff57",
-    "context_window": "f7de594e",
+    "context_window": "4a1d32eb",
     "modalities": "68e53d93",
     "capabilities": "6c9aa67e",
     "pricing": "b2f7fd17",
@@ -31,11 +31,13 @@
     "model_type": "d669f408",
     "release_date": "d9b57e93",
     "tagline": "e8e0ff57",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "max_output_tokens": "4a1d32eb"
   },
   "family": "kimi-k2",
   "model_type": "chat",
   "release_date": "2025-09-04",
   "tagline": "Kimi K2 0905 is the September update of [Kimi K2 0711](moonshotai/kimi-k2).",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "max_output_tokens": 262144
 }

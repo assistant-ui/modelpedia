@@ -4,7 +4,7 @@
   "created_by": "qwen",
   "source": "official",
   "family": "qwen3.5",
-  "description": "The Qwen-Omni model accepts combined inputs from multiple modalities, such as text, images, audio, and video, and generates responses in text or speech format. The model provides a variety of expressive, human-like voices and supports audio output in multiple languages and dialects. It is suitable for audio and video chat scenarios, such as visual recognition, emotion perception, and education and training.[How to use](https://www.alibabacloud.com/help/en/document_detail/2867839.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International For [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployments, data is stored in the **Singapore** access region. Model inference compute resources are scheduled dynamically globally, excluding the Chinese mainland.",
+  "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
   "context_window": 262144,
   "model_type": "chat",
   "license": "apache-2.0",
@@ -24,7 +24,7 @@
   "_generated": {
     "name": "efc0d7bf",
     "family": "d548f421",
-    "description": "9bb3c1bd",
+    "description": "c20398e3",
     "context_window": "4a1d32eb",
     "model_type": "d669f408",
     "license": "60245731",
@@ -35,5 +35,5 @@
     "modalities": "d65b34d6",
     "endpoints": "75df3f1c"
   },
-  "last_updated": "2026-04-07"
+  "last_updated": "2026-04-08"
 }

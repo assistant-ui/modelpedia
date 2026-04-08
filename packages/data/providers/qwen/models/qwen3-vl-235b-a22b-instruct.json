@@ -3,7 +3,7 @@
   "name": "qwen3-vl-235b-a22b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-07",
+  "last_updated": "2026-04-08",
   "family": "qwen3",
   "context_window": 129024,
   "model_type": "chat",
@@ -30,7 +30,7 @@
     "parameters": "577ef115",
     "active_parameters": "b6d767d2",
     "provider": "a3af76f3",
-    "description": "e48b121e",
+    "description": "bcb9ea69",
     "tagline": "66252091",
     "page_url": "23162829",
     "open_weight": "b326b506"
@@ -39,7 +39,7 @@
   "parameters": 235,
   "active_parameters": 22,
   "provider": "qwen",
-  "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+  "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
   "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "open_weight": true

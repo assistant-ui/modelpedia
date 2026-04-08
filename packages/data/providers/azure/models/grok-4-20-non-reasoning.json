@@ -1,0 +1,27 @@
+{
+  "id": "grok-4-20-non-reasoning",
+  "name": "grok-4-20-non-reasoning",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2d68aa10",
+    "family": "0d5416ff",
+    "model_type": "d669f408",
+    "capabilities": "a281e83a",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-08"
+}

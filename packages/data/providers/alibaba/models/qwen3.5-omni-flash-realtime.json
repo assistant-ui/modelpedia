@@ -4,7 +4,7 @@
   "created_by": "qwen",
   "source": "official",
   "family": "qwen3.5",
-  "description": "Unlike Qwen-Omni, this model supports streaming audio input and has a built-in Voice Activity Detection (VAD) feature that automatically detects the start and end of user speech. [How to use](https://www.alibabacloud.com/help/en/document_detail/2880812.html)｜[Client events](https://www.alibabacloud.com/help/en/document_detail/2922854.html)｜[Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore** access region. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+  "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
   "context_window": 262144,
   "max_output_tokens": 65536,
   "license": "apache-2.0",
@@ -24,7 +24,7 @@
   "_generated": {
     "name": "af8bed5e",
     "family": "d548f421",
-    "description": "e0c3a32a",
+    "description": "2fde53c9",
     "context_window": "4a1d32eb",
     "max_output_tokens": "297ce0b3",
     "license": "60245731",
@@ -36,5 +36,5 @@
     "open_weight": "b326b506",
     "endpoints": "75df3f1c"
   },
-  "last_updated": "2026-04-07"
+  "last_updated": "2026-04-08"
 }

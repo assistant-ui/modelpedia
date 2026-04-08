@@ -3,7 +3,7 @@
   "name": "qwen3-omni-30b-a3b-captioner",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-07",
+  "last_updated": "2026-04-08",
   "family": "qwen3",
   "context_window": 65536,
   "max_output_tokens": 32768,
@@ -35,7 +35,7 @@
     "parameters": "34173cb3",
     "active_parameters": "eccbc87e",
     "open_weight": "b326b506",
-    "description": "f958d84d",
+    "description": "c517b5c0",
     "page_url": "23162829",
     "tagline": "f9b688e9"
   },
@@ -43,7 +43,7 @@
   "parameters": 30,
   "active_parameters": 3,
   "open_weight": true,
-  "description": "Qwen3-Omni-Captioner is an open-source model based on Qwen3-Omni. Without any prompts, it automatically generates accurate, comprehensive descriptions for complex audio, ambient sounds, music, film sound effects, and more. It detects speaker emotions, musical elements (such as genre and instruments), sensitive information, and is suitable for audio content analysis, security review, intent recognition, audio editing, and other fields. [Usage](https://www.alibabacloud.com/help/en/document_detail/2980468.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International For [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployments, data is stored in the **Singapore region**. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+  "description": "Qwen3-Omni-Captioner is an open-source model based on Qwen3-Omni. Without any prompts, it automatically generates accurate, comprehensive descriptions for complex audio, ambient sounds, music, film sound effects, and more. It detects speaker emotions, musical elements (such as genre and instruments), sensitive information, and is suitable for audio content analysis, security review, intent recognition, audio editing, and other fields. [Usage](https://www.alibabacloud.com/help/en/document_detail/2980468.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "Qwen3-Omni-Captioner is an open-source model built on Qwen3-Omni."
 }

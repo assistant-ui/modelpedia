@@ -1,0 +1,44 @@
+{
+  "id": "glm-5.1",
+  "name": "glm-5.1",
+  "created_by": "zhipu",
+  "source": "official",
+  "family": "glm-5.1",
+  "description": "GLM-5.1 is our next-generation flagship model for agentic engineering, with significantly stronger coding capabilities than its predecessor. It achieves state-of-the-art performance on SWE-Bench Pro and leads GLM-5 by a wide margin.",
+  "release_date": "2026-04-07",
+  "context_window": 202752,
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "page_url": "https://ollama.com/library/glm-5.1",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "GLM-5.1 is our next-generation flagship model for agentic engineering, with significantly stronger coding capabilities than its predecessor.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "feb32a37",
+    "family": "feb32a37",
+    "description": "cf079de5",
+    "release_date": "3eaa38a6",
+    "context_window": "6ea395a4",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "page_url": "f3569222",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "49ca851a",
+    "capabilities": "4043afaa",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-08"
+}

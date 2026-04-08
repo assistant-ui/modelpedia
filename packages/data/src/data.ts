@@ -30,7 +30,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-deep-research",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "context_window": 1000000,
         "max_output_tokens": 32768,
@@ -56,7 +56,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "The Qwen deep research model breaks down complex problems, performs inference and analysis with web search, and generates research reports. [How to use](https://www.alibabacloud.com/help/en/document_detail/2975991.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
+        "description": "The Qwen deep research model breaks down complex problems, performs inference and analysis using web search, and generates research reports. [Usage](https://www.alibabacloud.com/help/en/document_detail/2975991.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The Qwen deep research model can break down complex problems, perform reasoning and analysis using web searches, and generate research reports.[Usage](https://www.alibabacloud.com/help/en/document_detail/2975991.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported."
       },
@@ -65,7 +65,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-doc-turbo",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "context_window": 262144,
         "max_output_tokens": 32768,
@@ -91,7 +91,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "The Qwen data mining model extracts structured information from documents for tasks such as data annotation and content moderation.[How to use](https://www.alibabacloud.com/help/en/document_detail/2948885.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
+        "description": "You can use the Qwen data mining model to extract structured information from documents for data annotation, content moderation, and other tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2948885.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The Qwen data mining model extracts structured information from documents for use in data annotation, content moderation, and other applications."
       },
@@ -100,7 +100,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "context_window": 995904,
         "max_output_tokens": 32768,
@@ -123,7 +123,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks. Qwen-Flash uses flexible tiered pricing, which is more cost-effective than Qwen-Turbo.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs. Qwen-Flash features flexible tiered pricing, resulting in more reasonable billing compared to Qwen-Turbo. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks."
       },
@@ -163,7 +163,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-math-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "context_window": 4096,
         "max_output_tokens": 3072,
@@ -188,7 +188,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "proprietary",
         "open_weight": false,
-        "description": "The Qwen-Math model is a language model designed to solve math problems.[How to use](https://www.alibabacloud.com/help/en/document_detail/2849934.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwen-math-plus?modelGroup=qwen-math-plus) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
+        "description": "The Qwen-Math model is a language model designed specifically for solving mathematical problems. [Usage](https://www.alibabacloud.com/help/en/document_detail/2849934.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwen-math-plus?modelGroup=qwen-math-plus) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Qwen-Math is a language model that specializes in solving mathematical problems."
       },
@@ -197,7 +197,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-math-turbo",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -220,7 +220,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "proprietary",
         "open_weight": false,
-        "description": "The Qwen-Math model is a language model designed to solve math problems.[How to use](https://www.alibabacloud.com/help/en/document_detail/2849934.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwen-math-plus?modelGroup=qwen-math-plus) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
+        "description": "The Qwen-Math model is a language model designed specifically for solving mathematical problems. [Usage](https://www.alibabacloud.com/help/en/document_detail/2849934.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwen-math-plus?modelGroup=qwen-math-plus) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Qwen-Math is a language model that specializes in solving mathematical problems."
       },
@@ -229,7 +229,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-mt-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -253,7 +253,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "This flagship translation Large Language Model (LLM), a full upgrade based on Qwen3, supports translation between 92 languages, such as Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model features upgraded performance and translation quality, offering more stable terminology customization, format fidelity, and domain prompt capabilities for more accurate and natural translations.[How to use](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3."
       },
@@ -293,7 +293,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-mt-lite",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -317,7 +317,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "This flagship translation Large Language Model (LLM), a full upgrade based on Qwen3, supports translation between 92 languages, such as Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model features upgraded performance and translation quality, offering more stable terminology customization, format fidelity, and domain prompt capabilities for more accurate and natural translations.[How to use](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3."
       },
@@ -326,7 +326,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-mt-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "context_window": 16384,
         "max_output_tokens": 8192,
@@ -352,7 +352,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "This flagship translation Large Language Model (LLM), a full upgrade based on Qwen3, supports translation between 92 languages, such as Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model features upgraded performance and translation quality, offering more stable terminology customization, format fidelity, and domain prompt capabilities for more accurate and natural translations.[How to use](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3."
       },
@@ -361,7 +361,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-mt-turbo",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -385,7 +385,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "This flagship translation Large Language Model (LLM), a full upgrade based on Qwen3, supports translation between 92 languages, such as Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model features upgraded performance and translation quality, offering more stable terminology customization, format fidelity, and domain prompt capabilities for more accurate and natural translations.[How to use](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3."
       },
@@ -462,7 +462,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -482,7 +482,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "proprietary",
         "open_weight": false,
-        "description": "This model offers a balance of performance, cost, and speed, positioning it between Qwen-Max and Qwen-Flash. It is ideal for tasks of moderate complexity.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt)｜[Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video input. Its performance on plain text tasks is comparable to Qwen3 Max but with higher efficiency and lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video inputs. Its performance on plain text tasks is comparable to that of Qwen3 Max, while offering superior efficiency at a lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "A balanced model with inference performance, cost, and speed between Qwen-Max and Qwen-Flash, ideal for moderately complex tasks."
       },
@@ -491,7 +491,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-turbo",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -511,7 +511,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "proprietary",
         "open_weight": false,
-        "description": "Qwen-Turbo will no longer be updated. We recommend replacing it with Qwen-Flash. Qwen-Flash uses flexible tiered pricing, which is more cost-effective.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt)｜[Deep thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Turbo is no longer updated. Replace it with Qwen-Flash. Qwen-Flash uses a flexible tiered pricing model for fairer billing. [Usage instructions](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Deep thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Qwen-Turbo will no longer receive updates."
       },
@@ -520,7 +520,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-vl-ocr",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "context_window": 38192,
         "max_output_tokens": 8192,
@@ -549,7 +549,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "The Qwen-OCR model is designed for text extraction. Unlike the Qwen-VL model, it focuses on extracting text from images of documents, tables, exam papers, and handwriting. The model can detect multiple languages, including English, French, Japanese, Korean, German, Russian, and Italian. [How to use](https://www.alibabacloud.com/help/en/document_detail/2860683.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2996283.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) #### International For [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment, data is stored in the **Singapore** access region. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-OCR is a model specifically designed for text extraction. Compared to Qwen-VL models, it focuses more on extracting text from documents, tables, test questions, and handwritten images. It can recognize multiple languages, including English, French, Japanese, Korean, German, Russian, and Italian.[Usage](https://www.alibabacloud.com/help/en/document_detail/2860683.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2996283.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Qwen-OCR is a model that specializes in text extraction."
       },
@@ -1111,7 +1111,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-coder-next",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 262144,
         "max_output_tokens": 65536,
@@ -1133,7 +1133,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "An open-source code model from Qwen. The latest Qwen3-Coder series delivers strong Coding Agent capabilities. It excels at tool calling and environment interaction. It supports autonomous programming and delivers outstanding coding performance while maintaining broad general-purpose abilities.[How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "An open-source code model from Qwen. The latest Qwen3-Coder series delivers strong Coding Agent capabilities. It excels at tool calling and environment interaction. It supports autonomous programming and delivers outstanding coding performance while maintaining broad general-purpose abilities.[How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The open-source Qwen code model."
       },
@@ -1142,7 +1142,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-coder-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 1000000,
         "max_output_tokens": 65536,
@@ -1164,7 +1164,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "Qwen-Coder provides code models. The latest Qwen3-Coder-Plus series models are code generation models built on Qwen3. They feature powerful Coding Agent capabilities for tool calling and environment interaction, enabling autonomous programming. These models provide excellent coding performance and versatile general-purpose abilities. [How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/efm/model_experience_center/text?currentTab=textChat&modelId=qwen3-coder-plus) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore** access region. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen code models: The latest Qwen3-Coder-Plus series are code generation models built on Qwen3, featuring robust Coding Agent capabilities. They excel at tool calling and environment interaction, enabling autonomous programming with exceptional coding skills while retaining general-purpose functionality. [Usage](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/efm/model_experience_center/text?currentTab=textChat&modelId=qwen3-coder-plus) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Qwen-Coder is a code generation model."
       },
@@ -1235,7 +1235,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-max-preview",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 81920,
         "model_type": "chat",
@@ -1257,7 +1257,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "The best-performing model in the Qwen series, ideal for complex, multi-step tasks.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt)｜[Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks."
       },
@@ -1266,7 +1266,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-max",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 262144,
         "max_output_tokens": 81920,
@@ -1293,7 +1293,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "description": "The best-performing model in the Qwen series, ideal for complex, multi-step tasks.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt)｜[Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks."
       },
@@ -1302,7 +1302,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-omni-30b-a3b-captioner",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 65536,
         "max_output_tokens": 32768,
@@ -1331,7 +1331,7 @@ export const providers: ProviderWithModels[] = [
         "parameters": 30,
         "active_parameters": 3,
         "open_weight": true,
-        "description": "Qwen3-Omni-Captioner is an open-source model based on Qwen3-Omni. Without any prompts, it automatically generates accurate, comprehensive descriptions for complex audio, ambient sounds, music, film sound effects, and more. It detects speaker emotions, musical elements (such as genre and instruments), sensitive information, and is suitable for audio content analysis, security review, intent recognition, audio editing, and other fields. [Usage](https://www.alibabacloud.com/help/en/document_detail/2980468.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International For [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployments, data is stored in the **Singapore region**. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen3-Omni-Captioner is an open-source model based on Qwen3-Omni. Without any prompts, it automatically generates accurate, comprehensive descriptions for complex audio, ambient sounds, music, film sound effects, and more. It detects speaker emotions, musical elements (such as genre and instruments), sensitive information, and is suitable for audio content analysis, security review, intent recognition, audio editing, and other fields. [Usage](https://www.alibabacloud.com/help/en/document_detail/2980468.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Qwen3-Omni-Captioner is an open-source model built on Qwen3-Omni."
       },
@@ -1340,7 +1340,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-omni-flash-realtime",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 65536,
         "max_output_tokens": 16384,
@@ -1363,7 +1363,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "Unlike Qwen-Omni, this model supports streaming audio input and has a built-in Voice Activity Detection (VAD) feature that automatically detects the start and end of user speech. [How to use](https://www.alibabacloud.com/help/en/document_detail/2880812.html)｜[Client events](https://www.alibabacloud.com/help/en/document_detail/2922854.html)｜[Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore** access region. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in Voice Activity Detection (VAD) to automatically detect the start and end of user speech."
       },
@@ -1372,7 +1372,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-omni-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 65536,
         "max_output_tokens": 32768,
@@ -1396,7 +1396,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "The Qwen-Omni model accepts combined inputs from multiple modalities, such as text, images, audio, and video, and generates responses in text or speech format. The model provides a variety of expressive, human-like voices and supports audio output in multiple languages and dialects. It is suitable for audio and video chat scenarios, such as visual recognition, emotion perception, and education and training.[How to use](https://www.alibabacloud.com/help/en/document_detail/2867839.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International For [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployments, data is stored in the **Singapore** access region. Model inference compute resources are scheduled dynamically globally, excluding the Chinese mainland.",
+        "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Qwen-Omni accepts multimodal inputs, such as text, images, audio, and video, and generates text or speech responses."
       },
@@ -1463,7 +1463,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-235b-a22b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 129024,
         "model_type": "chat",
@@ -1490,7 +1490,7 @@ export const providers: ProviderWithModels[] = [
         "parameters": 235,
         "active_parameters": 22,
         "open_weight": true,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud."
       },
@@ -1499,7 +1499,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-235b-a22b-thinking",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 126976,
         "model_type": "chat",
@@ -1530,7 +1530,7 @@ export const providers: ProviderWithModels[] = [
         "parameters": 235,
         "active_parameters": 22,
         "open_weight": true,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud."
       },
@@ -1539,7 +1539,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-30b-a3b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 129024,
         "model_type": "chat",
@@ -1566,7 +1566,7 @@ export const providers: ProviderWithModels[] = [
         "parameters": 30,
         "active_parameters": 3,
         "open_weight": true,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud."
       },
@@ -1575,7 +1575,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-30b-a3b-thinking",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 126976,
         "model_type": "chat",
@@ -1606,7 +1606,7 @@ export const providers: ProviderWithModels[] = [
         "parameters": 30,
         "active_parameters": 3,
         "open_weight": true,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud."
       },
@@ -1615,7 +1615,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-32b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 129024,
         "model_type": "chat",
@@ -1641,7 +1641,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "parameters": 32,
         "open_weight": true,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud."
       },
@@ -1650,7 +1650,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-32b-thinking",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 131072,
         "max_output_tokens": 81920,
@@ -1681,7 +1681,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "parameters": 32,
         "open_weight": true,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud."
       },
@@ -1690,7 +1690,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-8b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 129024,
         "model_type": "chat",
@@ -1716,7 +1716,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "parameters": 8,
         "open_weight": true,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud."
       },
@@ -1725,7 +1725,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-8b-thinking",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 126976,
         "model_type": "chat",
@@ -1755,7 +1755,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "parameters": 8,
         "open_weight": true,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud."
       },
@@ -1764,7 +1764,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 81920,
         "model_type": "chat",
@@ -1789,7 +1789,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "Qwen-VL is a text generation model with visual understanding capabilities. It can perform OCR, summarize content, and reason about images. For example, it can extract properties from product photos or solve problems shown in diagrams. [How to use](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen-VL models are billed based on the total number of input and output tokens. For information about how image and video tokens are calculated, see [Image and video understanding](https://www.alibabacloud.com/help/en/document_detail/2845871.html#7487c7f6eakzl). #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-VL is a text generation model with visual (image) understanding capabilities. It performs OCR (Optical Character Recognition) and further summarizes and infers. For example, it extracts properties from product photos and solves problems based on exercise diagrams. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen-VL models are billed based on the total number of input and output tokens. For rules on calculating image tokens, see [Image and Video Understanding](https://www.alibabacloud.com/help/en/document_detail/2845871.html#7487c7f6eakzl). #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Qwen-VL is a text generation model with visual (image) understanding capabilities."
       },
@@ -1798,7 +1798,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 262144,
         "max_output_tokens": 81920,
@@ -1824,7 +1824,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "Qwen-VL is a text generation model with visual understanding capabilities. It can perform OCR, summarize content, and reason about images. For example, it can extract properties from product photos or solve problems shown in diagrams. [How to use](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen-VL models are billed based on the total number of input and output tokens. For information about how image and video tokens are calculated, see [Image and video understanding](https://www.alibabacloud.com/help/en/document_detail/2845871.html#7487c7f6eakzl). #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-VL is a text generation model with visual (image) understanding capabilities. It performs OCR (Optical Character Recognition) and further summarizes and infers. For example, it extracts properties from product photos and solves problems based on exercise diagrams. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen-VL models are billed based on the total number of input and output tokens. For rules on calculating image tokens, see [Image and Video Understanding](https://www.alibabacloud.com/help/en/document_detail/2845871.html#7487c7f6eakzl). #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Qwen-VL is a text generation model with visual (image) understanding capabilities."
       },
@@ -1833,7 +1833,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-122b-a10b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3.5",
         "context_window": 262144,
         "max_output_tokens": 81920,
@@ -1858,7 +1858,7 @@ export const providers: ProviderWithModels[] = [
         "parameters": 122,
         "active_parameters": 10,
         "open_weight": true,
-        "description": "This model supports text, image, and video inputs. Its performance on plain text tasks is comparable to Qwen3 Max, but it offers better performance at a lower cost. The multimodal capabilities are a significant improvement over the Qwen3 VL series.",
+        "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Supports text, image, and video inputs."
       },
@@ -1867,7 +1867,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-27b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3.5",
         "context_window": 262144,
         "max_output_tokens": 81920,
@@ -1891,7 +1891,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "parameters": 27,
         "open_weight": true,
-        "description": "This model supports text, image, and video inputs. Its performance on plain text tasks is comparable to Qwen3 Max, but it offers better performance at a lower cost. The multimodal capabilities are a significant improvement over the Qwen3 VL series.",
+        "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Supports text, image, and video inputs."
       },
@@ -1900,7 +1900,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-35b-a3b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3.5",
         "context_window": 262144,
         "max_output_tokens": 81920,
@@ -1925,7 +1925,7 @@ export const providers: ProviderWithModels[] = [
         "parameters": 35,
         "active_parameters": 3,
         "open_weight": true,
-        "description": "This model supports text, image, and video inputs. Its performance on plain text tasks is comparable to Qwen3 Max, but it offers better performance at a lower cost. The multimodal capabilities are a significant improvement over the Qwen3 VL series.",
+        "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Supports text, image, and video inputs."
       },
@@ -1934,7 +1934,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-397b-a17b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3.5",
         "context_window": 262144,
         "max_output_tokens": 81920,
@@ -1959,7 +1959,7 @@ export const providers: ProviderWithModels[] = [
         "parameters": 397,
         "active_parameters": 17,
         "open_weight": true,
-        "description": "This model supports text, image, and video inputs. Its performance on plain text tasks is comparable to Qwen3 Max, but it offers better performance at a lower cost. The multimodal capabilities are a significant improvement over the Qwen3 VL series.",
+        "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Supports text, image, and video inputs."
       },
@@ -1968,7 +1968,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3.5",
         "context_window": 1000000,
         "max_output_tokens": 81920,
@@ -1995,7 +1995,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks. Qwen-Flash uses flexible tiered pricing, which is more cost-effective than Qwen-Turbo.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs. Qwen-Flash features flexible tiered pricing, resulting in more reasonable billing compared to Qwen-Turbo. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks."
       },
@@ -2005,7 +2005,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "Unlike Qwen-Omni, this model supports streaming audio input and has a built-in Voice Activity Detection (VAD) feature that automatically detects the start and end of user speech. [How to use](https://www.alibabacloud.com/help/en/document_detail/2880812.html)｜[Client events](https://www.alibabacloud.com/help/en/document_detail/2922854.html)｜[Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore** access region. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "max_output_tokens": 65536,
         "license": "apache-2.0",
@@ -2029,7 +2029,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-07"
+        "last_updated": "2026-04-08"
       },
       {
         "id": "qwen3.5-omni-flash",
@@ -2037,7 +2037,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "The Qwen-Omni model accepts combined inputs from multiple modalities, such as text, images, audio, and video, and generates responses in text or speech format. The model provides a variety of expressive, human-like voices and supports audio output in multiple languages and dialects. It is suitable for audio and video chat scenarios, such as visual recognition, emotion perception, and education and training.[How to use](https://www.alibabacloud.com/help/en/document_detail/2867839.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International For [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployments, data is stored in the **Singapore** access region. Model inference compute resources are scheduled dynamically globally, excluding the Chinese mainland.",
+        "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "license": "apache-2.0",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
@@ -2061,7 +2061,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-07"
+        "last_updated": "2026-04-08"
       },
       {
         "id": "qwen3.5-omni-plus-realtime",
@@ -2069,7 +2069,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "Unlike Qwen-Omni, this model supports streaming audio input and has a built-in Voice Activity Detection (VAD) feature that automatically detects the start and end of user speech. [How to use](https://www.alibabacloud.com/help/en/document_detail/2880812.html)｜[Client events](https://www.alibabacloud.com/help/en/document_detail/2922854.html)｜[Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore** access region. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "max_output_tokens": 65536,
         "license": "apache-2.0",
@@ -2094,7 +2094,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "tools": [
           "function_calling"
         ]
@@ -2105,7 +2105,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "The Qwen-Omni model accepts combined inputs from multiple modalities, such as text, images, audio, and video, and generates responses in text or speech format. The model provides a variety of expressive, human-like voices and supports audio output in multiple languages and dialects. It is suitable for audio and video chat scenarios, such as visual recognition, emotion perception, and education and training.[How to use](https://www.alibabacloud.com/help/en/document_detail/2867839.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International For [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployments, data is stored in the **Singapore** access region. Model inference compute resources are scheduled dynamically globally, excluding the Chinese mainland.",
+        "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "license": "apache-2.0",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
@@ -2133,14 +2133,14 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-07"
+        "last_updated": "2026-04-08"
       },
       {
         "id": "qwen3.5-plus",
         "name": "qwen3.5-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3.5",
         "context_window": 1000000,
         "model_type": "chat",
@@ -2161,7 +2161,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "proprietary",
         "open_weight": false,
-        "description": "This model offers a balance of performance, cost, and speed, positioning it between Qwen-Max and Qwen-Flash. It is ideal for tasks of moderate complexity.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt)｜[Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video input. Its performance on plain text tasks is comparable to Qwen3 Max but with higher efficiency and lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video inputs. Its performance on plain text tasks is comparable to that of Qwen3 Max, while offering superior efficiency at a lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "A balanced model with inference performance, cost, and speed between Qwen-Max and Qwen-Flash, ideal for moderately complex tasks."
       },
@@ -2171,7 +2171,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.6",
-        "description": "This model offers a balance of performance, cost, and speed, positioning it between Qwen-Max and Qwen-Flash. It is ideal for tasks of moderate complexity.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt)｜[Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video input. Its performance on plain text tasks is comparable to Qwen3 Max but with higher efficiency and lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video inputs. Its performance on plain text tasks is comparable to that of Qwen3 Max, while offering superior efficiency at a lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 1000000,
         "license": "apache-2.0",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
@@ -2194,7 +2194,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-07"
+        "last_updated": "2026-04-08"
       },
       {
         "id": "qwq-32b-preview",
@@ -2275,7 +2275,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwq-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwq",
         "context_window": 131072,
         "max_output_tokens": 32768,
@@ -2298,7 +2298,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "QwQ is a reasoning model trained on the Qwen2.5 architecture. It significantly improves reasoning ability through reinforcement learning. Its core metrics, including AIME 24/25 and LiveCodeBench, and general metrics, such as IFEval and LiveBench, match the full-capability version of DeepSeek-R1.[How to use](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in **the Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "The QwQ reasoning model, trained on the Qwen2.5 model, uses reinforcement learning to significantly improve its model inference capabilities. The model's core metrics for math and code (AIME 24/25, LiveCodeBench) and general metrics (IFEval, LiveBench) are on par with the full-performance version of DeepSeek-R1. [Usage](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "QwQ is a reasoning model trained on the Qwen2.5 base and significantly enhanced through reinforcement learning.",
         "pricing": {
@@ -2571,7 +2571,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.6-i2v",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-03",
+        "last_updated": "2026-04-08",
         "model_type": "video",
         "capabilities": {
           "streaming": true
@@ -2591,7 +2591,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.6",
         "license": "proprietary",
         "open_weight": false,
-        "description": "The Wan image-to-video model uses your input image as the first frame, then generates a video based on your prompt. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2867393.html) \\| [Try it now](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide. > The wan2.6-i2v model supports only the global service deployment scope in the US (Virginia) region.",
+        "description": "The Wan image-to-video model uses your input image as the first frame, then generates a video based on your prompt. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2867393.html) \\| [Try it now](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Wan image-to-video models use your input image as the first frame, then generate a video based on your prompt, delivering rich artistic styles and cinematic quality."
       },
@@ -2600,7 +2600,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.6-image",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-03",
+        "last_updated": "2026-04-08",
         "model_type": "image",
         "capabilities": {
           "streaming": true,
@@ -2621,7 +2621,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.6",
         "license": "proprietary",
         "open_weight": false,
-        "description": "The Wan image generation model supports text-to-image, text-to-series, image-to-series, image editing, and multi-image reference generation, meeting diverse generation and integration needs. [API reference - 2.7](https://www.alibabacloud.com/help/en/document_detail/3026980.html) \\| [API reference - 2.6](https://www.alibabacloud.com/help/en/document_detail/3001143.html) Billing rule: You are charged for the number of **successfully generated images**. Failed attempts are not billed and do not consume your free quota. ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide. > wan2.6-image currently only supports the global service deployment scope in the US (Virginia) region.",
+        "description": "The Wan image generation model supports text-to-image, text-to-series, image-to-series, image editing, and multi-image reference generation, meeting diverse generation and integration needs. [API reference - 2.7](https://www.alibabacloud.com/help/en/document_detail/3026980.html) \\| [API reference - 2.6](https://www.alibabacloud.com/help/en/document_detail/3001143.html) Billing rule: You are charged for the number of **successfully generated images**. Failed attempts are not billed and do not consume your free quota. ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Wan image generation models support image editing and mixed text-image outputs to meet diverse generation and integration needs."
       },
@@ -2660,7 +2660,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.6-t2i",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-03",
+        "last_updated": "2026-04-08",
         "model_type": "image",
         "capabilities": {
           "streaming": true,
@@ -2681,7 +2681,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.6",
         "license": "proprietary",
         "open_weight": false,
-        "description": "The Wan text-to-image model generates high-quality images from text. [API reference](https://www.alibabacloud.com/help/en/document_detail/2862677.html) \\| [Try online](https://wan.video/wanxiang/creation) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide. > wan2.6-t2i currently only supports the global service deployment scope in the US (Virginia) region.",
+        "description": "The Wan text-to-image model generates high-quality images from text. [API reference](https://www.alibabacloud.com/help/en/document_detail/2862677.html) \\| [Try online](https://wan.video/wanxiang/creation) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Wan text-to-image models generate high-quality images from simple text prompts."
       },
@@ -2690,7 +2690,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.6-t2v",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-03",
+        "last_updated": "2026-04-08",
         "model_type": "video",
         "capabilities": {
           "streaming": true
@@ -2710,7 +2710,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.6",
         "license": "proprietary",
         "open_weight": false,
-        "description": "The Wan text-to-video model generates videos from a single sentence. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2865250.html) \\| [Try it now](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide. > The wan2.6-t2v model supports only the global service deployment scope in the US (Virginia) region.",
+        "description": "The Wan text-to-video model generates videos from a single sentence. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2865250.html) \\| [Try it now](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Wan text-to-video models generate videos from a single sentence, delivering rich artistic styles and cinematic quality."
       },
@@ -5633,9 +5633,9 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Opus 4.6",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-08",
         "family": "claude-opus",
-        "description": "The most intelligent model for building agents and coding",
+        "description": "The most intelligent broadly available model for agents and coding",
         "status": "active",
         "knowledge_cutoff": "2025-05",
         "context_window": 1000000,
@@ -7887,6 +7887,56 @@ export const providers: ProviderWithModels[] = [
         "context_window": 131072,
         "license": "proprietary",
         "open_weight": false
+      },
+      {
+        "id": "grok-4-20-non-reasoning",
+        "name": "grok-4-20-non-reasoning",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-4",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-08"
+      },
+      {
+        "id": "grok-4-20-reasoning",
+        "name": "grok-4-20-reasoning",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-4",
+        "model_type": "reasoning",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-08"
       },
       {
         "id": "grok-4-fast-non-reasoning",
@@ -11934,7 +11984,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "The most intelligent model for building agents and coding",
+        "description": "The most intelligent broadly available model for agents and coding",
         "tagline": "The most intelligent model for building agents and coding",
         "context_window": 1000000,
         "max_output_tokens": 128000,
@@ -54834,6 +54884,33 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "fireworks/glm-5p1",
+        "name": "glm-5p1",
+        "created_by": "zhipu",
+        "source": "official",
+        "family": "glm-5",
+        "context_window": 202800,
+        "page_url": "https://fireworks.ai/models/fireworks/glm-5p1",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cached_input": 0.26
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-08"
+      },
+      {
         "id": "fireworks/gpt-oss-120b",
         "name": "gpt-oss-120b",
         "created_by": "openai",
@@ -59299,7 +59376,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
         "license": "apache-2.0",
         "open_weight": true
@@ -59335,7 +59412,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
         "license": "apache-2.0",
         "open_weight": true
@@ -59371,7 +59448,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
         "license": "apache-2.0",
         "open_weight": true
@@ -59407,7 +59484,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
         "license": "apache-2.0",
         "open_weight": true
@@ -59441,7 +59518,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
         "context_window": 129024,
         "license": "apache-2.0",
@@ -59477,7 +59554,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
         "license": "apache-2.0",
         "open_weight": true
@@ -66110,7 +66187,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "An open-source code model from Qwen. The latest Qwen3-Coder series delivers strong Coding Agent capabilities. It excels at tool calling and environment interaction. It supports autonomous programming and delivers outstanding coding performance while maintaining broad general-purpose abilities.[How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "An open-source code model from Qwen. The latest Qwen3-Coder series delivers strong Coding Agent capabilities. It excels at tool calling and environment interaction. It supports autonomous programming and delivers outstanding coding performance while maintaining broad general-purpose abilities.[How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The open-source Qwen code model.",
         "max_output_tokens": 65536
       },
@@ -75761,7 +75838,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "This model supports text, image, and video inputs. Its performance on plain text tasks is comparable to Qwen3 Max, but it offers better performance at a lower cost. The multimodal capabilities are a significant improvement over the Qwen3 VL series.",
+        "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
         "tagline": "Supports text, image, and video inputs.",
         "context_window": 262144,
         "max_output_tokens": 81920,
@@ -75791,7 +75868,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "This model supports text, image, and video inputs. Its performance on plain text tasks is comparable to Qwen3 Max, but it offers better performance at a lower cost. The multimodal capabilities are a significant improvement over the Qwen3 VL series.",
+        "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
         "tagline": "Supports text, image, and video inputs.",
         "context_window": 262144,
         "max_output_tokens": 81920,
@@ -76548,6 +76625,40 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "glm-5.1",
+        "name": "glm-5.1",
+        "created_by": "zhipu",
+        "source": "official",
+        "family": "glm-5.1",
+        "description": "GLM-5.1 is our next-generation flagship model for agentic engineering, with significantly stronger coding capabilities than its predecessor. It achieves state-of-the-art performance on SWE-Bench Pro and leads GLM-5 by a wide margin.",
+        "release_date": "2026-04-07",
+        "context_window": 202752,
+        "reasoning_tokens": true,
+        "license": "open-weight",
+        "page_url": "https://ollama.com/library/glm-5.1",
+        "open_weight": true,
+        "model_type": "chat",
+        "tagline": "GLM-5.1 is our next-generation flagship model for agentic engineering, with significantly stronger coding capabilities than its predecessor.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-08"
       },
       {
         "id": "glm-5",
@@ -89853,7 +89964,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "The most intelligent model for building agents and coding",
+        "description": "The most intelligent broadly available model for agents and coding",
         "tagline": "The most intelligent model for building agents and coding",
         "context_window": 1000000,
         "max_output_tokens": 128000,
@@ -90003,6 +90114,32 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "glm-5.1",
+        "name": "GLM 5.1",
+        "created_by": "zhipu",
+        "source": "official",
+        "family": "glm-5.1",
+        "status": "active",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cached_input": 0.26
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-08"
       },
       {
         "id": "glm-5",
@@ -91728,6 +91865,43 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ]
+      },
+      {
+        "id": "anthropic/claude-opus-4.6-fast",
+        "name": "Anthropic: Claude Opus 4.6 (Fast)",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "description": "Fast-mode variant of [Opus 4.6](/anthropic/claude-opus-4.6) - identical capabilities with higher output speed at premium 6x pricing.",
+        "release_date": "2026-04-07",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "tagline": "Fast-mode variant of [Opus 4.6](/anthropic/claude-opus-4.6) - identical capabilities with higher output speed at premium 6x pricing.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 30,
+          "output": 150,
+          "cached_input": 3
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-08"
       },
       {
         "id": "anthropic/claude-opus-4.6",
@@ -94091,6 +94265,41 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets."
       },
       {
+        "id": "google/gemma-4-26b-a4b-it:free",
+        "name": "Google: Gemma 4 26B A4B  (free)",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-4",
+        "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind.",
+        "release_date": "2026-04-03",
+        "context_window": 262144,
+        "max_output_tokens": 32768,
+        "parameters": 26,
+        "active_parameters": 4,
+        "model_type": "chat",
+        "tagline": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-08"
+      },
+      {
         "id": "google/gemma-4-26b-a4b-it",
         "name": "Google: Gemma 4 26B A4B ",
         "created_by": "google",
@@ -94128,6 +94337,40 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-04-04"
+      },
+      {
+        "id": "google/gemma-4-31b-it:free",
+        "name": "Google: Gemma 4 31B (free)",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-4",
+        "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output.",
+        "release_date": "2026-04-02",
+        "context_window": 262144,
+        "max_output_tokens": 32768,
+        "parameters": 31,
+        "model_type": "chat",
+        "tagline": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-08"
       },
       {
         "id": "google/gemma-4-31b-it",
@@ -96869,9 +97112,9 @@ export const providers: ProviderWithModels[] = [
         "name": "MoonshotAI: Kimi K2 0905",
         "created_by": "moonshotai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-08",
         "description": "Kimi K2 0905 is the September update of [Kimi K2 0711](moonshotai/kimi-k2).",
-        "context_window": 131072,
+        "context_window": 262144,
         "modalities": {
           "input": [
             "text"
@@ -96896,16 +97139,17 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Kimi K2 0905 is the September update of [Kimi K2 0711](moonshotai/kimi-k2).",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "max_output_tokens": 262144
       },
       {
         "id": "moonshotai/kimi-k2-thinking",
         "name": "MoonshotAI: Kimi K2 Thinking",
         "created_by": "moonshotai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-08",
         "description": "Kimi K2 Thinking is Moonshot AI’s most advanced open reasoning model to date, extending the K2 series into agentic, long-horizon reasoning.",
-        "context_window": 131072,
+        "context_window": 262144,
         "modalities": {
           "input": [
             "text"
@@ -96921,8 +97165,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.47,
-          "output": 2,
+          "input": 0.6,
+          "output": 2.5,
           "cached_input": 0.141
         },
         "family": "kimi-k2",
@@ -96938,10 +97182,10 @@ export const providers: ProviderWithModels[] = [
         "name": "MoonshotAI: Kimi K2.5",
         "created_by": "moonshotai",
         "source": "official",
-        "last_updated": "2026-04-04",
+        "last_updated": "2026-04-08",
         "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm.",
         "context_window": 262144,
-        "max_output_tokens": 262144,
+        "max_output_tokens": 65535,
         "modalities": {
           "input": [
             "text",
@@ -96960,7 +97204,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.383,
           "output": 1.72,
-          "cached_input": 0.194
+          "cached_input": 0.191
         },
         "family": "kimi-k2.5",
         "model_type": "chat",
@@ -98475,14 +98719,14 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o",
-        "name": "OpenAI: GPT-4o (2024-05-13)",
+        "name": "OpenAI: GPT-4o",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-04",
+        "last_updated": "2026-04-08",
         "family": "gpt-4o",
         "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs.",
         "context_window": 128000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 16384,
         "modalities": {
           "input": [
             "text",
@@ -98503,8 +98747,8 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 5,
-          "output": 15,
+          "input": 2.5,
+          "output": 10,
           "cached_input": 1.25
         },
         "model_type": "chat",
@@ -102467,6 +102711,47 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-01"
       },
       {
+        "id": "qwen/qwen3.6-plus",
+        "name": "Qwen: Qwen3.6 Plus",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3.6",
+        "description": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference.",
+        "release_date": "2026-04-02",
+        "context_window": 1000000,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "tagline": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.325,
+          "output": 1.95
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-08",
+        "license": "apache-2.0",
+        "open_weight": true
+      },
+      {
         "id": "qwen/qwq-32b",
         "name": "Qwen: QwQ 32B",
         "created_by": "qwen",
@@ -104062,6 +104347,40 @@ export const providers: ProviderWithModels[] = [
         ]
       },
       {
+        "id": "z-ai/glm-5.1",
+        "name": "Z.ai: GLM 5.1",
+        "created_by": "z-ai",
+        "source": "official",
+        "family": "glm-5.1",
+        "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks.",
+        "release_date": "2026-04-07",
+        "context_window": 202752,
+        "model_type": "chat",
+        "tagline": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.26,
+          "output": 3.96
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-08"
+      },
+      {
         "id": "z-ai/glm-5",
         "name": "Z.ai: GLM 5",
         "created_by": "z-ai",
@@ -104266,7 +104585,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "The most intelligent model for building agents and coding",
+        "description": "The most intelligent broadly available model for agents and coding",
         "tagline": "The most intelligent model for building agents and coding",
         "context_window": 1000000,
         "max_output_tokens": 128000,
@@ -104996,7 +105315,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-deep-research",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "context_window": 1000000,
         "max_output_tokens": 32768,
@@ -105021,7 +105340,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "The Qwen deep research model breaks down complex problems, performs inference and analysis with web search, and generates research reports. [How to use](https://www.alibabacloud.com/help/en/document_detail/2975991.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
+        "description": "The Qwen deep research model breaks down complex problems, performs inference and analysis using web search, and generates research reports. [Usage](https://www.alibabacloud.com/help/en/document_detail/2975991.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
         "tagline": "The Qwen deep research model can break down complex problems, perform reasoning and analysis using web searches, and generate research reports.[Usage](https://www.alibabacloud.com/help/en/document_detail/2975991.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese Mainland deployment mode](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) is supported.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -105031,7 +105350,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-doc-turbo",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "context_window": 262144,
         "max_output_tokens": 32768,
@@ -105056,7 +105375,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "The Qwen data mining model extracts structured information from documents for tasks such as data annotation and content moderation.[How to use](https://www.alibabacloud.com/help/en/document_detail/2948885.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
+        "description": "You can use the Qwen data mining model to extract structured information from documents for data annotation, content moderation, and other tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2948885.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
         "tagline": "The Qwen data mining model extracts structured information from documents for use in data annotation, content moderation, and other applications.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -105066,7 +105385,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "context_window": 995904,
         "max_output_tokens": 32768,
@@ -105088,7 +105407,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks. Qwen-Flash uses flexible tiered pricing, which is more cost-effective than Qwen-Turbo.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs. Qwen-Flash features flexible tiered pricing, resulting in more reasonable billing compared to Qwen-Turbo. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -105201,7 +105520,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-math-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "context_window": 4096,
         "max_output_tokens": 3072,
@@ -105225,7 +105544,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "proprietary",
-        "description": "The Qwen-Math model is a language model designed to solve math problems.[How to use](https://www.alibabacloud.com/help/en/document_detail/2849934.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwen-math-plus?modelGroup=qwen-math-plus) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
+        "description": "The Qwen-Math model is a language model designed specifically for solving mathematical problems. [Usage](https://www.alibabacloud.com/help/en/document_detail/2849934.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwen-math-plus?modelGroup=qwen-math-plus) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
         "tagline": "Qwen-Math is a language model that specializes in solving mathematical problems.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": false
@@ -105249,7 +105568,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-math-turbo",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -105271,7 +105590,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "proprietary",
-        "description": "The Qwen-Math model is a language model designed to solve math problems.[How to use](https://www.alibabacloud.com/help/en/document_detail/2849934.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwen-math-plus?modelGroup=qwen-math-plus) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
+        "description": "The Qwen-Math model is a language model designed specifically for solving mathematical problems. [Usage](https://www.alibabacloud.com/help/en/document_detail/2849934.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/model-market/detail/qwen-math-plus?modelGroup=qwen-math-plus) **Note** Only the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment scope is supported. Data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
         "tagline": "Qwen-Math is a language model that specializes in solving mathematical problems.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": false
@@ -105295,7 +105614,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-mt-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -105318,7 +105637,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "This flagship translation Large Language Model (LLM), a full upgrade based on Qwen3, supports translation between 92 languages, such as Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model features upgraded performance and translation quality, offering more stable terminology customization, format fidelity, and domain prompt capabilities for more accurate and natural translations.[How to use](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -105359,7 +105678,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-mt-lite",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -105382,7 +105701,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "This flagship translation Large Language Model (LLM), a full upgrade based on Qwen3, supports translation between 92 languages, such as Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model features upgraded performance and translation quality, offering more stable terminology customization, format fidelity, and domain prompt capabilities for more accurate and natural translations.[How to use](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -105392,7 +105711,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-mt-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "context_window": 16384,
         "max_output_tokens": 8192,
@@ -105417,7 +105736,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "This flagship translation Large Language Model (LLM), a full upgrade based on Qwen3, supports translation between 92 languages, such as Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model features upgraded performance and translation quality, offering more stable terminology customization, format fidelity, and domain prompt capabilities for more accurate and natural translations.[How to use](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -105427,7 +105746,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-mt-turbo",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -105450,7 +105769,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "This flagship translation Large Language Model (LLM), a full upgrade based on Qwen3, supports translation between 92 languages, such as Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model features upgraded performance and translation quality, offering more stable terminology customization, format fidelity, and domain prompt capabilities for more accurate and natural translations.[How to use](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -105640,7 +105959,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -105659,7 +105978,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "proprietary",
-        "description": "This model offers a balance of performance, cost, and speed, positioning it between Qwen-Max and Qwen-Flash. It is ideal for tasks of moderate complexity.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt)｜[Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video input. Its performance on plain text tasks is comparable to Qwen3 Max but with higher efficiency and lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video inputs. Its performance on plain text tasks is comparable to that of Qwen3 Max, while offering superior efficiency at a lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "A balanced model with inference performance, cost, and speed between Qwen-Max and Qwen-Flash, ideal for moderately complex tasks.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": false
@@ -105711,7 +106030,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-turbo",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "model_type": "chat",
         "capabilities": {
@@ -105730,7 +106049,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "proprietary",
-        "description": "Qwen-Turbo will no longer be updated. We recommend replacing it with Qwen-Flash. Qwen-Flash uses flexible tiered pricing, which is more cost-effective.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt)｜[Deep thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Turbo is no longer updated. Replace it with Qwen-Flash. Qwen-Flash uses a flexible tiered pricing model for fairer billing. [Usage instructions](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Deep thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Qwen-Turbo will no longer receive updates.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": false
@@ -105884,7 +106203,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-vl-ocr",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen",
         "context_window": 38192,
         "max_output_tokens": 8192,
@@ -105912,7 +106231,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "The Qwen-OCR model is designed for text extraction. Unlike the Qwen-VL model, it focuses on extracting text from images of documents, tables, exam papers, and handwriting. The model can detect multiple languages, including English, French, Japanese, Korean, German, Russian, and Italian. [How to use](https://www.alibabacloud.com/help/en/document_detail/2860683.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2996283.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) #### International For [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployment, data is stored in the **Singapore** access region. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-OCR is a model specifically designed for text extraction. Compared to Qwen-VL models, it focuses more on extracting text from documents, tables, test questions, and handwritten images. It can recognize multiple languages, including English, French, Japanese, Korean, German, Russian, and Italian.[Usage](https://www.alibabacloud.com/help/en/document_detail/2860683.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2996283.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Qwen-OCR is a model that specializes in text extraction.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -106780,7 +107099,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-coder-next",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 262144,
         "max_output_tokens": 65536,
@@ -106801,7 +107120,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "An open-source code model from Qwen. The latest Qwen3-Coder series delivers strong Coding Agent capabilities. It excels at tool calling and environment interaction. It supports autonomous programming and delivers outstanding coding performance while maintaining broad general-purpose abilities.[How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "An open-source code model from Qwen. The latest Qwen3-Coder series delivers strong Coding Agent capabilities. It excels at tool calling and environment interaction. It supports autonomous programming and delivers outstanding coding performance while maintaining broad general-purpose abilities.[How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The open-source Qwen code model.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -106811,7 +107130,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-coder-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 1000000,
         "max_output_tokens": 65536,
@@ -106832,7 +107151,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "Qwen-Coder provides code models. The latest Qwen3-Coder-Plus series models are code generation models built on Qwen3. They feature powerful Coding Agent capabilities for tool calling and environment interaction, enabling autonomous programming. These models provide excellent coding performance and versatile general-purpose abilities. [How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/efm/model_experience_center/text?currentTab=textChat&modelId=qwen3-coder-plus) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore** access region. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen code models: The latest Qwen3-Coder-Plus series are code generation models built on Qwen3, featuring robust Coding Agent capabilities. They excel at tool calling and environment interaction, enabling autonomous programming with exceptional coding skills while retaining general-purpose functionality. [Usage](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/efm/model_experience_center/text?currentTab=textChat&modelId=qwen3-coder-plus) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Qwen-Coder is a code generation model.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -106904,7 +107223,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-max-preview",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 81920,
         "model_type": "chat",
@@ -106925,7 +107244,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "The best-performing model in the Qwen series, ideal for complex, multi-step tasks.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt)｜[Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -106935,7 +107254,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-max",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 262144,
         "max_output_tokens": 81920,
@@ -106958,7 +107277,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "The best-performing model in the Qwen series, ideal for complex, multi-step tasks.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt)｜[Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true,
@@ -107005,7 +107324,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-omni-30b-a3b-captioner",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 65536,
         "max_output_tokens": 32768,
@@ -107033,7 +107352,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "parameters": 30,
         "active_parameters": 3,
-        "description": "Qwen3-Omni-Captioner is an open-source model based on Qwen3-Omni. Without any prompts, it automatically generates accurate, comprehensive descriptions for complex audio, ambient sounds, music, film sound effects, and more. It detects speaker emotions, musical elements (such as genre and instruments), sensitive information, and is suitable for audio content analysis, security review, intent recognition, audio editing, and other fields. [Usage](https://www.alibabacloud.com/help/en/document_detail/2980468.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International For [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployments, data is stored in the **Singapore region**. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen3-Omni-Captioner is an open-source model based on Qwen3-Omni. Without any prompts, it automatically generates accurate, comprehensive descriptions for complex audio, ambient sounds, music, film sound effects, and more. It detects speaker emotions, musical elements (such as genre and instruments), sensitive information, and is suitable for audio content analysis, security review, intent recognition, audio editing, and other fields. [Usage](https://www.alibabacloud.com/help/en/document_detail/2980468.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Qwen3-Omni-Captioner is an open-source model built on Qwen3-Omni.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107058,7 +107377,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-omni-flash-realtime",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 65536,
         "max_output_tokens": 16384,
@@ -107080,7 +107399,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "Unlike Qwen-Omni, this model supports streaming audio input and has a built-in Voice Activity Detection (VAD) feature that automatically detects the start and end of user speech. [How to use](https://www.alibabacloud.com/help/en/document_detail/2880812.html)｜[Client events](https://www.alibabacloud.com/help/en/document_detail/2922854.html)｜[Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore** access region. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in Voice Activity Detection (VAD) to automatically detect the start and end of user speech.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107090,7 +107409,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-omni-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 65536,
         "max_output_tokens": 32768,
@@ -107113,7 +107432,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "The Qwen-Omni model accepts combined inputs from multiple modalities, such as text, images, audio, and video, and generates responses in text or speech format. The model provides a variety of expressive, human-like voices and supports audio output in multiple languages and dialects. It is suitable for audio and video chat scenarios, such as visual recognition, emotion perception, and education and training.[How to use](https://www.alibabacloud.com/help/en/document_detail/2867839.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International For [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployments, data is stored in the **Singapore** access region. Model inference compute resources are scheduled dynamically globally, excluding the Chinese mainland.",
+        "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Qwen-Omni accepts multimodal inputs, such as text, images, audio, and video, and generates text or speech responses.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107196,7 +107515,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-235b-a22b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 129024,
         "model_type": "chat",
@@ -107222,7 +107541,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "parameters": 235,
         "active_parameters": 22,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107232,7 +107551,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-235b-a22b-thinking",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 126976,
         "model_type": "chat",
@@ -107262,7 +107581,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "parameters": 235,
         "active_parameters": 22,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107272,7 +107591,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-30b-a3b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 129024,
         "model_type": "chat",
@@ -107298,7 +107617,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "parameters": 30,
         "active_parameters": 3,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107308,7 +107627,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-30b-a3b-thinking",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 126976,
         "model_type": "chat",
@@ -107338,7 +107657,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "parameters": 30,
         "active_parameters": 3,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107348,7 +107667,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-32b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 129024,
         "model_type": "chat",
@@ -107373,7 +107692,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "parameters": 32,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107383,7 +107702,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-32b-thinking",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 131072,
         "max_output_tokens": 81920,
@@ -107413,7 +107732,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "parameters": 32,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107423,7 +107742,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-8b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 129024,
         "model_type": "chat",
@@ -107448,7 +107767,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "parameters": 8,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107458,7 +107777,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-8b-thinking",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 126976,
         "model_type": "chat",
@@ -107487,7 +107806,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "parameters": 8,
-        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) The Qwen3-VL model offers significant improvements over Qwen2.5-VL: * **Agent interaction:** Operates computer or mobile phone interfaces, detects GUI elements, understands features, and invokes tools to perform tasks. It achieves top-tier performance in evaluations such as OS World. * **Visual encoding:** Generates code from images or videos. This can be used to create HTML, CSS, and JS code from design mockups, website screenshots, and more. * **Spatial intelligence:** Supports 2D and 3D positioning. It accurately determines object orientation, perspective changes, and occlusion relationships. * **Long video understanding:** Supports understanding of video content up to 20 minutes long and can pinpoint events with second-level accuracy. * **Deep thinking:** Excels at capturing details, analyzing causality, and achieves top-tier performance in evaluations such as MathVista and MMMU. * **OCR:** Language support is extended to 33 languages. It performs more stably in scenarios with complex lighting, blur, and tilt. The recognition accuracy for rare characters, ancient script, and technical terms is significantly improved. **Supported languages** A total of 33 languages are supported: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Turkish, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107497,7 +107816,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 81920,
         "model_type": "chat",
@@ -107521,7 +107840,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "Qwen-VL is a text generation model with visual understanding capabilities. It can perform OCR, summarize content, and reason about images. For example, it can extract properties from product photos or solve problems shown in diagrams. [How to use](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen-VL models are billed based on the total number of input and output tokens. For information about how image and video tokens are calculated, see [Image and video understanding](https://www.alibabacloud.com/help/en/document_detail/2845871.html#7487c7f6eakzl). #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-VL is a text generation model with visual (image) understanding capabilities. It performs OCR (Optical Character Recognition) and further summarizes and infers. For example, it extracts properties from product photos and solves problems based on exercise diagrams. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen-VL models are billed based on the total number of input and output tokens. For rules on calculating image tokens, see [Image and Video Understanding](https://www.alibabacloud.com/help/en/document_detail/2845871.html#7487c7f6eakzl). #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Qwen-VL is a text generation model with visual (image) understanding capabilities.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107531,7 +107850,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3",
         "context_window": 262144,
         "max_output_tokens": 81920,
@@ -107556,7 +107875,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "Qwen-VL is a text generation model with visual understanding capabilities. It can perform OCR, summarize content, and reason about images. For example, it can extract properties from product photos or solve problems shown in diagrams. [How to use](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen-VL models are billed based on the total number of input and output tokens. For information about how image and video tokens are calculated, see [Image and video understanding](https://www.alibabacloud.com/help/en/document_detail/2845871.html#7487c7f6eakzl). #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-VL is a text generation model with visual (image) understanding capabilities. It performs OCR (Optical Character Recognition) and further summarizes and infers. For example, it extracts properties from product photos and solves problems based on exercise diagrams. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen-VL models are billed based on the total number of input and output tokens. For rules on calculating image tokens, see [Image and Video Understanding](https://www.alibabacloud.com/help/en/document_detail/2845871.html#7487c7f6eakzl). #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Qwen-VL is a text generation model with visual (image) understanding capabilities.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107566,7 +107885,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-122b-a10b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3.5",
         "context_window": 262144,
         "max_output_tokens": 81920,
@@ -107590,7 +107909,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "parameters": 122,
         "active_parameters": 10,
-        "description": "This model supports text, image, and video inputs. Its performance on plain text tasks is comparable to Qwen3 Max, but it offers better performance at a lower cost. The multimodal capabilities are a significant improvement over the Qwen3 VL series.",
+        "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
         "tagline": "Supports text, image, and video inputs.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107600,7 +107919,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-27b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3.5",
         "context_window": 262144,
         "max_output_tokens": 81920,
@@ -107623,7 +107942,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "parameters": 27,
-        "description": "This model supports text, image, and video inputs. Its performance on plain text tasks is comparable to Qwen3 Max, but it offers better performance at a lower cost. The multimodal capabilities are a significant improvement over the Qwen3 VL series.",
+        "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
         "tagline": "Supports text, image, and video inputs.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107633,7 +107952,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-35b-a3b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3.5",
         "context_window": 262144,
         "max_output_tokens": 81920,
@@ -107657,7 +107976,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "parameters": 35,
         "active_parameters": 3,
-        "description": "This model supports text, image, and video inputs. Its performance on plain text tasks is comparable to Qwen3 Max, but it offers better performance at a lower cost. The multimodal capabilities are a significant improvement over the Qwen3 VL series.",
+        "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
         "tagline": "Supports text, image, and video inputs.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107667,7 +107986,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-397b-a17b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3.5",
         "context_window": 262144,
         "max_output_tokens": 81920,
@@ -107691,7 +108010,7 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0",
         "parameters": 397,
         "active_parameters": 17,
-        "description": "This model supports text, image, and video inputs. Its performance on plain text tasks is comparable to Qwen3 Max, but it offers better performance at a lower cost. The multimodal capabilities are a significant improvement over the Qwen3 VL series.",
+        "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
         "tagline": "Supports text, image, and video inputs.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107701,7 +108020,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3.5",
         "context_window": 1000000,
         "max_output_tokens": 81920,
@@ -107727,7 +108046,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks. Qwen-Flash uses flexible tiered pricing, which is more cost-effective than Qwen-Turbo.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs. Qwen-Flash features flexible tiered pricing, resulting in more reasonable billing compared to Qwen-Turbo. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107738,7 +108057,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "Unlike Qwen-Omni, this model supports streaming audio input and has a built-in Voice Activity Detection (VAD) feature that automatically detects the start and end of user speech. [How to use](https://www.alibabacloud.com/help/en/document_detail/2880812.html)｜[Client events](https://www.alibabacloud.com/help/en/document_detail/2922854.html)｜[Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore** access region. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "max_output_tokens": 65536,
         "model_type": "audio",
@@ -107762,7 +108081,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-07"
+        "last_updated": "2026-04-08"
       },
       {
         "id": "qwen3.5-omni-flash",
@@ -107770,7 +108089,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "The Qwen-Omni model accepts combined inputs from multiple modalities, such as text, images, audio, and video, and generates responses in text or speech format. The model provides a variety of expressive, human-like voices and supports audio output in multiple languages and dialects. It is suitable for audio and video chat scenarios, such as visual recognition, emotion perception, and education and training.[How to use](https://www.alibabacloud.com/help/en/document_detail/2867839.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International For [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployments, data is stored in the **Singapore** access region. Model inference compute resources are scheduled dynamically globally, excluding the Chinese mainland.",
+        "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "model_type": "chat",
         "license": "apache-2.0",
@@ -107794,7 +108113,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-07"
+        "last_updated": "2026-04-08"
       },
       {
         "id": "qwen3.5-omni-plus-realtime",
@@ -107802,7 +108121,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "Unlike Qwen-Omni, this model supports streaming audio input and has a built-in Voice Activity Detection (VAD) feature that automatically detects the start and end of user speech. [How to use](https://www.alibabacloud.com/help/en/document_detail/2880812.html)｜[Client events](https://www.alibabacloud.com/help/en/document_detail/2922854.html)｜[Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore** access region. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "max_output_tokens": 65536,
         "model_type": "audio",
@@ -107827,7 +108146,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "tools": [
           "function_calling"
         ]
@@ -107838,7 +108157,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "The Qwen-Omni model accepts combined inputs from multiple modalities, such as text, images, audio, and video, and generates responses in text or speech format. The model provides a variety of expressive, human-like voices and supports audio output in multiple languages and dialects. It is suitable for audio and video chat scenarios, such as visual recognition, emotion perception, and education and training.[How to use](https://www.alibabacloud.com/help/en/document_detail/2867839.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International For [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) service deployments, data is stored in the **Singapore** access region. Model inference compute resources are scheduled dynamically globally, excluding the Chinese mainland.",
+        "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "model_type": "chat",
         "license": "apache-2.0",
@@ -107866,14 +108185,14 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-07"
+        "last_updated": "2026-04-08"
       },
       {
         "id": "qwen3.5-plus",
         "name": "qwen3.5-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwen3.5",
         "context_window": 1000000,
         "model_type": "chat",
@@ -107893,7 +108212,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "proprietary",
-        "description": "This model offers a balance of performance, cost, and speed, positioning it between Qwen-Max and Qwen-Flash. It is ideal for tasks of moderate complexity.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt)｜[Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video input. Its performance on plain text tasks is comparable to Qwen3 Max but with higher efficiency and lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video inputs. Its performance on plain text tasks is comparable to that of Qwen3 Max, while offering superior efficiency at a lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "A balanced model with inference performance, cost, and speed between Qwen-Max and Qwen-Flash, ideal for moderately complex tasks.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": false
@@ -107904,7 +108223,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.6",
-        "description": "This model offers a balance of performance, cost, and speed, positioning it between Qwen-Max and Qwen-Flash. It is ideal for tasks of moderate complexity.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt)｜[Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video input. Its performance on plain text tasks is comparable to Qwen3 Max but with higher efficiency and lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video inputs. Its performance on plain text tasks is comparable to that of Qwen3 Max, while offering superior efficiency at a lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 1000000,
         "model_type": "chat",
         "license": "apache-2.0",
@@ -107927,7 +108246,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-07"
+        "last_updated": "2026-04-08"
       },
       {
         "id": "qwen3",
@@ -108023,7 +108342,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwq-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-08",
         "family": "qwq",
         "context_window": 131072,
         "max_output_tokens": 32768,
@@ -108045,7 +108364,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "QwQ is a reasoning model trained on the Qwen2.5 architecture. It significantly improves reasoning ability through reinforcement learning. Its core metrics, including AIME 24/25 and LiveCodeBench, and general metrics, such as IFEval and LiveBench, match the full-capability version of DeepSeek-R1.[How to use](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in **the Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "The QwQ reasoning model, trained on the Qwen2.5 model, uses reinforcement learning to significantly improve its model inference capabilities. The model's core metrics for math and code (AIME 24/25, LiveCodeBench) and general metrics (IFEval, LiveBench) are on par with the full-performance version of DeepSeek-R1. [Usage](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "QwQ is a reasoning model trained on the Qwen2.5 base and significantly enhanced through reinforcement learning.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true,
@@ -108319,7 +108638,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.6-i2v",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-03",
+        "last_updated": "2026-04-08",
         "model_type": "video",
         "capabilities": {
           "streaming": true
@@ -108338,7 +108657,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "family": "wan2.6",
         "license": "proprietary",
-        "description": "The Wan image-to-video model uses your input image as the first frame, then generates a video based on your prompt. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2867393.html) \\| [Try it now](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide. > The wan2.6-i2v model supports only the global service deployment scope in the US (Virginia) region.",
+        "description": "The Wan image-to-video model uses your input image as the first frame, then generates a video based on your prompt. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2867393.html) \\| [Try it now](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide.",
         "tagline": "Wan image-to-video models use your input image as the first frame, then generate a video based on your prompt, delivering rich artistic styles and cinematic quality.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": false
@@ -108348,7 +108667,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.6-image",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-03",
+        "last_updated": "2026-04-08",
         "model_type": "image",
         "capabilities": {
           "streaming": true,
@@ -108368,7 +108687,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "family": "wan2.6",
         "license": "proprietary",
-        "description": "The Wan image generation model supports text-to-image, text-to-series, image-to-series, image editing, and multi-image reference generation, meeting diverse generation and integration needs. [API reference - 2.7](https://www.alibabacloud.com/help/en/document_detail/3026980.html) \\| [API reference - 2.6](https://www.alibabacloud.com/help/en/document_detail/3001143.html) Billing rule: You are charged for the number of **successfully generated images**. Failed attempts are not billed and do not consume your free quota. ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide. > wan2.6-image currently only supports the global service deployment scope in the US (Virginia) region.",
+        "description": "The Wan image generation model supports text-to-image, text-to-series, image-to-series, image editing, and multi-image reference generation, meeting diverse generation and integration needs. [API reference - 2.7](https://www.alibabacloud.com/help/en/document_detail/3026980.html) \\| [API reference - 2.6](https://www.alibabacloud.com/help/en/document_detail/3001143.html) Billing rule: You are charged for the number of **successfully generated images**. Failed attempts are not billed and do not consume your free quota. ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide.",
         "tagline": "Wan image generation models support image editing and mixed text-image outputs to meet diverse generation and integration needs.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": false
@@ -108408,7 +108727,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.6-t2i",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-03",
+        "last_updated": "2026-04-08",
         "model_type": "image",
         "capabilities": {
           "streaming": true,
@@ -108428,7 +108747,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "family": "wan2.6",
         "license": "proprietary",
-        "description": "The Wan text-to-image model generates high-quality images from text. [API reference](https://www.alibabacloud.com/help/en/document_detail/2862677.html) \\| [Try online](https://wan.video/wanxiang/creation) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide. > wan2.6-t2i currently only supports the global service deployment scope in the US (Virginia) region.",
+        "description": "The Wan text-to-image model generates high-quality images from text. [API reference](https://www.alibabacloud.com/help/en/document_detail/2862677.html) \\| [Try online](https://wan.video/wanxiang/creation) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide.",
         "tagline": "Wan text-to-image models generate high-quality images from simple text prompts.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": false
@@ -108438,7 +108757,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.6-t2v",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-03",
+        "last_updated": "2026-04-08",
         "model_type": "video",
         "capabilities": {
           "streaming": true
@@ -108457,7 +108776,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "family": "wan2.6",
         "license": "proprietary",
-        "description": "The Wan text-to-video model generates videos from a single sentence. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2865250.html) \\| [Try it now](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide. > The wan2.6-t2v model supports only the global service deployment scope in the US (Virginia) region.",
+        "description": "The Wan text-to-video model generates videos from a single sentence. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2865250.html) \\| [Try it now](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global When the service deployment scope is [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **US (Virginia)** **or Germany (Frankfurt)****access region**. Model inference compute resources are dynamically scheduled worldwide.",
         "tagline": "Wan text-to-video models generate videos from a single sentence, delivering rich artistic styles and cinematic quality.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": false
@@ -108737,6 +109056,32 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "s/glm-51",
+        "name": "Glm 51",
+        "created_by": "zhipu",
+        "source": "official",
+        "family": "glm-51",
+        "context_window": 200000,
+        "page_url": "https://www.together.ai/models/glm-51",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.15
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-08"
       },
       {
         "id": "s/google-veo-3-0",
@@ -109161,7 +109506,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "An open-source code model from Qwen. The latest Qwen3-Coder series delivers strong Coding Agent capabilities. It excels at tool calling and environment interaction. It supports autonomous programming and delivers outstanding coding performance while maintaining broad general-purpose abilities.[How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "An open-source code model from Qwen. The latest Qwen3-Coder series delivers strong Coding Agent capabilities. It excels at tool calling and environment interaction. It supports autonomous programming and delivers outstanding coding performance while maintaining broad general-purpose abilities.[How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The open-source Qwen code model.",
         "max_output_tokens": 65536,
         "license": "apache-2.0",
@@ -109492,7 +109837,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "An open-source code model from Qwen. The latest Qwen3-Coder series delivers strong Coding Agent capabilities. It excels at tool calling and environment interaction. It supports autonomous programming and delivers outstanding coding performance while maintaining broad general-purpose abilities.[How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "An open-source code model from Qwen. The latest Qwen3-Coder series delivers strong Coding Agent capabilities. It excels at tool calling and environment interaction. It supports autonomous programming and delivers outstanding coding performance while maintaining broad general-purpose abilities.[How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The open-source Qwen code model.",
         "max_output_tokens": 65536,
         "license": "apache-2.0",
@@ -109527,7 +109872,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "Qwen-Coder provides code models. The latest Qwen3-Coder-Plus series models are code generation models built on Qwen3. They feature powerful Coding Agent capabilities for tool calling and environment interaction, enabling autonomous programming. These models provide excellent coding performance and versatile general-purpose abilities. [How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/efm/model_experience_center/text?currentTab=textChat&modelId=qwen3-coder-plus) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore** access region. Model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen code models: The latest Qwen3-Coder-Plus series are code generation models built on Qwen3, featuring robust Coding Agent capabilities. They excel at tool calling and environment interaction, enabling autonomous programming with exceptional coding skills while retaining general-purpose functionality. [Usage](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://bailian.console.alibabacloud.com/?tab=model#/efm/model_experience_center/text?currentTab=textChat&modelId=qwen3-coder-plus) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Qwen-Coder is a code generation model.",
         "max_output_tokens": 65536,
         "license": "apache-2.0",
@@ -109646,7 +109991,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "The best-performing model in the Qwen series, ideal for complex, multi-step tasks.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt)｜[Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks.",
         "license": "apache-2.0",
         "open_weight": true
@@ -109711,7 +110056,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "The best-performing model in the Qwen series, ideal for complex, multi-step tasks.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt)｜[Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks.",
         "max_output_tokens": 81920,
         "license": "apache-2.0",
@@ -109865,7 +110210,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks. Qwen-Flash uses flexible tiered pricing, which is more cost-effective than Qwen-Turbo.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs. Qwen-Flash features flexible tiered pricing, resulting in more reasonable billing compared to Qwen-Turbo. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks.",
         "max_output_tokens": 81920,
         "license": "apache-2.0",
@@ -109901,7 +110246,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "This model offers a balance of performance, cost, and speed, positioning it between Qwen-Max and Qwen-Flash. It is ideal for tasks of moderate complexity.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt)｜[Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video input. Its performance on plain text tasks is comparable to Qwen3 Max but with higher efficiency and lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video inputs. Its performance on plain text tasks is comparable to that of Qwen3 Max, while offering superior efficiency at a lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "A balanced model with inference performance, cost, and speed between Qwen-Max and Qwen-Flash, ideal for moderately complex tasks.",
         "license": "proprietary",
         "open_weight": false
@@ -109937,7 +110282,7 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-04-03",
-        "description": "This model offers a balance of performance, cost, and speed, positioning it between Qwen-Max and Qwen-Flash. It is ideal for tasks of moderate complexity.[How to use](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt)｜[Thinking mode](https://www.alibabacloud.com/help/en/document_detail/2870973.html)｜[API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html)｜[Try it online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video input. Its performance on plain text tasks is comparable to Qwen3 Max but with higher efficiency and lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data is stored in the **Singapore access region**, and model inference compute resources are dynamically scheduled globally, excluding the Chinese mainland.",
+        "description": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) > Qwen3.5 Plus supports text, image, and video inputs. Its performance on plain text tasks is comparable to that of Qwen3 Max, while offering superior efficiency at a lower cost. Its multimodal capabilities are a significant improvement over the Qwen3 VL series. #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Qwen-Plus offers balanced capabilities: inference quality, cost, and speed are between Qwen-Max and Qwen-Flash, making it ideal for medium-complexity tasks.",
         "license": "apache-2.0",
         "open_weight": true
@@ -111016,9 +111361,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-r1",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-08",
         "family": "deepseek-r1",
-        "context_window": 163800,
+        "context_window": 160000,
         "capabilities": {
           "streaming": true,
           "reasoning": true
@@ -116801,6 +117146,36 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "zai/glm-5.1",
+        "name": "glm-5.1",
+        "created_by": "zhipu",
+        "source": "official",
+        "family": "glm-5.1",
+        "context_window": 202800,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-08"
+      },
+      {
         "id": "zai/glm-5",
         "name": "glm-5",
         "created_by": "zhipu",
@@ -117030,7 +117405,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "description": "The most intelligent model for building agents and coding",
+        "description": "The most intelligent broadly available model for agents and coding",
         "tagline": "The most intelligent model for building agents and coding",
         "knowledge_cutoff": "2025-05",
         "training_data_cutoff": "2025-08",
@@ -121557,6 +121932,45 @@ export const providers: ProviderWithModels[] = [
           "output": 4,
           "cached_input": 0.24
         }
+      },
+      {
+        "id": "glm-5.1",
+        "name": "GLM-5.1",
+        "created_by": "zai",
+        "source": "official",
+        "family": "glm-5.1",
+        "context_window": 200000,
+        "max_output_tokens": 128000,
+        "license": "mit",
+        "page_url": "https://docs.z.ai/guides/llm/glm-5.1",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "prompt_caching": true,
+          "fine_tuning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cached_input": 0.26
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-08"
       },
       {
         "id": "glm-5",

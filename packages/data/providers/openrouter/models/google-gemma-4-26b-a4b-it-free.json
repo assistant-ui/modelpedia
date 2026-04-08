@@ -1,0 +1,42 @@
+{
+  "id": "google/gemma-4-26b-a4b-it:free",
+  "name": "Google: Gemma 4 26B A4B  (free)",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind.",
+  "release_date": "2026-04-03",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "parameters": 26,
+  "active_parameters": 4,
+  "model_type": "chat",
+  "tagline": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text", "video"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e6d4f55e",
+    "family": "811b6704",
+    "description": "b4d695e8",
+    "release_date": "18e99417",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "parameters": "4e732ced",
+    "active_parameters": "a87ff679",
+    "model_type": "d669f408",
+    "tagline": "b4d695e8",
+    "capabilities": "03fbefb4",
+    "modalities": "1e916c3b",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-08"
+}
