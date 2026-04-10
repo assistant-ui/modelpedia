@@ -3,15 +3,15 @@
   "name": "Ministral 3 8b Instruct 2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-10",
   "family": "ministral",
   "context_window": 256000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.1,
-    "output": 0.15
+    "input": 0.5,
+    "output": 2.8
   },
   "snapshots": ["s/ministral-3-8b-instruct-2512"],
   "_generated": {
@@ -19,7 +19,7 @@
     "family": "d6661e63",
     "context_window": "2fd324cb",
     "capabilities": "0fa77dc6",
-    "pricing": "fa2d2058",
+    "pricing": "3a47d26f",
     "model_type": "d669f408",
     "parameters": "c9f0f895",
     "page_url": "86e467da",

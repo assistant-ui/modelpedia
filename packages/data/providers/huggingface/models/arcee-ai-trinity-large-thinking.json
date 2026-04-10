@@ -1,0 +1,38 @@
+{
+  "id": "arcee-ai/Trinity-Large-Thinking",
+  "name": "Trinity-Large-Thinking",
+  "created_by": "arcee-ai",
+  "source": "official",
+  "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/6435718aaaef013d1aec3b8b/i-v1KyAMOW_mgVGeic9WJ.png\" alt=\"Arcee Trinity Large Thinking\" style=\"max-width: 100%; height: auto;\" >",
+  "release_date": "2026-04-01",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "parameters": 399,
+  "active_parameters": 6.2,
+  "page_url": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking",
+  "architecture": "moe",
+  "tagline": "src=\"https://cdn-uploads.huggingface.co/production/uploads/6435718aaaef013d1aec3b8b/i-v1KyAMOW_mgVGeic9WJ.png\" alt=\"Arcee Trinity Large Thinking\" style=\"max-width: 100%; height: auto;\" >",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6d332e40",
+    "description": "5d59575b",
+    "release_date": "f68ebedb",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "parameters": "352fe25d",
+    "active_parameters": "7a22247d",
+    "page_url": "73f8c2db",
+    "architecture": "31b2172c",
+    "tagline": "5d59575b",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-10"
+}

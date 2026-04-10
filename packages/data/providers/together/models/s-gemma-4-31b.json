@@ -1,0 +1,34 @@
+{
+  "id": "s/gemma-4-31b",
+  "name": "Gemma 4 31b",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "context_window": 256000,
+  "parameters": 31,
+  "page_url": "https://www.together.ai/models/gemma-4-31b",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.5
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "551f8ec7",
+    "family": "811b6704",
+    "context_window": "2fd324cb",
+    "parameters": "c16a5320",
+    "page_url": "8c36bcd2",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "36539e12",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-10"
+}

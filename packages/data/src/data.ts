@@ -1340,7 +1340,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-omni-flash-realtime",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-08",
+        "last_updated": "2026-04-10",
         "family": "qwen3",
         "context_window": 65536,
         "max_output_tokens": 16384,
@@ -1363,7 +1363,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input with built-in VAD (Voice Activity Detection) to automatically detect the start and end of user speech. [Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in Voice Activity Detection (VAD) to automatically detect the start and end of user speech."
       },
@@ -1372,7 +1372,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-omni-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-08",
+        "last_updated": "2026-04-10",
         "family": "qwen3",
         "context_window": 65536,
         "max_output_tokens": 32768,
@@ -1396,7 +1396,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+        "description": "The Qwen-Omni model accepts multimodal inputs including text, images, audio, and video, and generates text or speech responses. It offers a variety of expressive human-like voices and supports multilingual and dialect speech output, applicable to scenarios such as visual recognition, emotion sensing, and educational training. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "Qwen-Omni accepts multimodal inputs, such as text, images, audio, and video, and generates text or speech responses."
       },
@@ -2005,7 +2005,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input with built-in VAD (Voice Activity Detection) to automatically detect the start and end of user speech. [Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "max_output_tokens": 65536,
         "license": "apache-2.0",
@@ -2029,7 +2029,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-08"
+        "last_updated": "2026-04-10"
       },
       {
         "id": "qwen3.5-omni-flash",
@@ -2037,7 +2037,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+        "description": "The Qwen-Omni model accepts multimodal inputs including text, images, audio, and video, and generates text or speech responses. It offers a variety of expressive human-like voices and supports multilingual and dialect speech output, applicable to scenarios such as visual recognition, emotion sensing, and educational training. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "license": "apache-2.0",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
@@ -2061,7 +2061,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-08"
+        "last_updated": "2026-04-10"
       },
       {
         "id": "qwen3.5-omni-plus-realtime",
@@ -2069,7 +2069,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input with built-in VAD (Voice Activity Detection) to automatically detect the start and end of user speech. [Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "max_output_tokens": 65536,
         "license": "apache-2.0",
@@ -2094,7 +2094,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-08",
+        "last_updated": "2026-04-10",
         "tools": [
           "function_calling"
         ]
@@ -2105,7 +2105,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+        "description": "The Qwen-Omni model accepts multimodal inputs including text, images, audio, and video, and generates text or speech responses. It offers a variety of expressive human-like voices and supports multilingual and dialect speech output, applicable to scenarios such as visual recognition, emotion sensing, and educational training. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "license": "apache-2.0",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
@@ -2133,7 +2133,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-08"
+        "last_updated": "2026-04-10"
       },
       {
         "id": "qwen3.5-plus",
@@ -63235,6 +63235,31 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-01"
       },
       {
+        "id": "arcee-ai/Trinity-Large-Thinking",
+        "name": "Trinity-Large-Thinking",
+        "created_by": "arcee-ai",
+        "source": "official",
+        "description": "src=\"https://cdn-uploads.huggingface.co/production/uploads/6435718aaaef013d1aec3b8b/i-v1KyAMOW_mgVGeic9WJ.png\" alt=\"Arcee Trinity Large Thinking\" style=\"max-width: 100%; height: auto;\" >",
+        "release_date": "2026-04-01",
+        "context_window": 262144,
+        "license": "apache-2.0",
+        "parameters": 399,
+        "active_parameters": 6.2,
+        "page_url": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking",
+        "architecture": "moe",
+        "tagline": "src=\"https://cdn-uploads.huggingface.co/production/uploads/6435718aaaef013d1aec3b8b/i-v1KyAMOW_mgVGeic9WJ.png\" alt=\"Arcee Trinity Large Thinking\" style=\"max-width: 100%; height: auto;\" >",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-10"
+      },
+      {
         "id": "argilla/Llama-3.2-1B-Instruct-APIGen-FC-v0.1",
         "name": "Llama-3.2-1B-Instruct-APIGen-FC-v0.1",
         "created_by": "argilla",
@@ -67241,6 +67266,38 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "zai-org/GLM-5.1-FP8",
+        "name": "GLM-5.1-FP8",
+        "created_by": "zhipu",
+        "source": "official",
+        "family": "GLM-5.1",
+        "release_date": "2026-04-03",
+        "context_window": 202752,
+        "license": "mit",
+        "parameters": 754,
+        "page_url": "https://huggingface.co/zai-org/GLM-5.1-FP8",
+        "architecture": "moe",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-10"
       },
       {
         "id": "zai-org/GLM-5",
@@ -92162,7 +92219,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Arcee AI: Trinity Large Preview (free)",
         "created_by": "arcee-ai",
         "source": "official",
-        "last_updated": "2026-04-01",
+        "last_updated": "2026-04-10",
         "description": "Trinity-Large-Preview is a frontier-scale open-weight language model from Arcee, built as a 400B-parameter sparse Mixture-of-Experts with 13B active parameters per token using 4-of-256 expert routing.",
         "context_window": 131000,
         "modalities": {
@@ -92184,7 +92241,7 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "status": "deprecated",
-        "deprecation_date": "2026-04-10"
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "arcee-ai/trinity-large-thinking",
@@ -95535,7 +95592,7 @@ export const providers: ProviderWithModels[] = [
         "name": "MiniMax: MiniMax M2.1",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-10",
         "description": "MiniMax-M2.1 is a lightweight, state-of-the-art large language model optimized for coding, agentic workflows, and modern application development.",
         "context_window": 196608,
         "modalities": {
@@ -95555,9 +95612,9 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.27,
+          "input": 0.29,
           "output": 0.95,
-          "cached_input": 0.029
+          "cached_input": 0.03
         },
         "family": "minimax",
         "model_type": "chat",
@@ -95566,6 +95623,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
+        "max_output_tokens": 196608,
         "license": "mit",
         "open_weight": true
       },
@@ -98719,14 +98777,14 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o",
-        "name": "OpenAI: GPT-4o",
+        "name": "OpenAI: GPT-4o (2024-05-13)",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-08",
+        "last_updated": "2026-04-10",
         "family": "gpt-4o",
         "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs.",
         "context_window": 128000,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 4096,
         "modalities": {
           "input": [
             "text",
@@ -98747,8 +98805,8 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 2.5,
-          "output": 10,
+          "input": 5,
+          "output": 15,
           "cached_input": 1.25
         },
         "model_type": "chat",
@@ -107377,7 +107435,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-omni-flash-realtime",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-08",
+        "last_updated": "2026-04-10",
         "family": "qwen3",
         "context_window": 65536,
         "max_output_tokens": 16384,
@@ -107399,7 +107457,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input with built-in VAD (Voice Activity Detection) to automatically detect the start and end of user speech. [Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in Voice Activity Detection (VAD) to automatically detect the start and end of user speech.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -107409,7 +107467,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-omni-flash",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-08",
+        "last_updated": "2026-04-10",
         "family": "qwen3",
         "context_window": 65536,
         "max_output_tokens": 32768,
@@ -107432,7 +107490,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+        "description": "The Qwen-Omni model accepts multimodal inputs including text, images, audio, and video, and generates text or speech responses. It offers a variety of expressive human-like voices and supports multilingual and dialect speech output, applicable to scenarios such as visual recognition, emotion sensing, and educational training. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "tagline": "Qwen-Omni accepts multimodal inputs, such as text, images, audio, and video, and generates text or speech responses.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -108057,7 +108115,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input with built-in VAD (Voice Activity Detection) to automatically detect the start and end of user speech. [Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "max_output_tokens": 65536,
         "model_type": "audio",
@@ -108081,7 +108139,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-08"
+        "last_updated": "2026-04-10"
       },
       {
         "id": "qwen3.5-omni-flash",
@@ -108089,7 +108147,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+        "description": "The Qwen-Omni model accepts multimodal inputs including text, images, audio, and video, and generates text or speech responses. It offers a variety of expressive human-like voices and supports multilingual and dialect speech output, applicable to scenarios such as visual recognition, emotion sensing, and educational training. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "model_type": "chat",
         "license": "apache-2.0",
@@ -108113,7 +108171,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-08"
+        "last_updated": "2026-04-10"
       },
       {
         "id": "qwen3.5-omni-plus-realtime",
@@ -108121,7 +108179,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+        "description": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input with built-in VAD (Voice Activity Detection) to automatically detect the start and end of user speech. [Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "max_output_tokens": 65536,
         "model_type": "audio",
@@ -108146,7 +108204,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-08",
+        "last_updated": "2026-04-10",
         "tools": [
           "function_calling"
         ]
@@ -108157,7 +108215,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.5",
-        "description": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form. It offers multiple expressive, human-like voices and supports multilingual and dialect speech output. You can use it in audio-video chat scenarios such as visual recognition, emotion perception, and education and training.[Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
+        "description": "The Qwen-Omni model accepts multimodal inputs including text, images, audio, and video, and generates text or speech responses. It offers a variety of expressive human-like voices and supports multilingual and dialect speech output, applicable to scenarios such as visual recognition, emotion sensing, and educational training. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**. Model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland.",
         "context_window": 262144,
         "model_type": "chat",
         "license": "apache-2.0",
@@ -108185,7 +108243,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-04-08"
+        "last_updated": "2026-04-10"
       },
       {
         "id": "qwen3.5-plus",
@@ -108940,15 +108998,15 @@ export const providers: ProviderWithModels[] = [
         "name": "Deepseek V3 2 Exp",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-10",
         "family": "deepseek",
         "context_window": 128000,
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 2,
-          "output": 2
+          "input": 0.5,
+          "output": 2.8
         },
         "page_url": "https://www.together.ai/models/deepseek-v3-2-exp",
         "model_type": "chat",
@@ -108983,15 +109041,15 @@ export const providers: ProviderWithModels[] = [
         "name": "Gemma 3 27b",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-10",
         "family": "gemma-3",
         "context_window": 64000,
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 0.1,
-          "output": 0.15
+          "input": 0.5,
+          "output": 2.8
         },
         "model_type": "chat",
         "parameters": 27,
@@ -109004,6 +109062,33 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "s/gemma-4-31b",
+        "name": "Gemma 4 31b",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-4",
+        "context_window": 256000,
+        "parameters": 31,
+        "page_url": "https://www.together.ai/models/gemma-4-31b",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 0.5
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-10"
       },
       {
         "id": "s/glm-4-7",
@@ -109070,8 +109155,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true
         },
         "pricing": {
-          "input": 0.1,
-          "output": 0.15
+          "input": 1.4,
+          "output": 4.4
         },
         "modalities": {
           "input": [
@@ -109081,7 +109166,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-08"
+        "last_updated": "2026-04-10"
       },
       {
         "id": "s/google-veo-3-0",
@@ -109313,7 +109398,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Ministral 3 8b Instruct 2512",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-10",
         "family": "ministral",
         "context_window": 256000,
         "alias": "s/ministral-3-8b-instruct",
@@ -109321,8 +109406,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true
         },
         "pricing": {
-          "input": 0.1,
-          "output": 0.15
+          "input": 0.5,
+          "output": 2.8
         },
         "model_type": "chat",
         "parameters": 8,
@@ -109341,15 +109426,15 @@ export const providers: ProviderWithModels[] = [
         "name": "Ministral 3 8b Instruct 2512",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-10",
         "family": "ministral",
         "context_window": 256000,
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 0.1,
-          "output": 0.15
+          "input": 0.5,
+          "output": 2.8
         },
         "snapshots": [
           "s/ministral-3-8b-instruct-2512"
@@ -109387,13 +109472,13 @@ export const providers: ProviderWithModels[] = [
         "name": "Nvidia Nemotron 3 Super",
         "created_by": "nvidia",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-10",
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 1,
-          "output": 3.2
+          "input": 1.4,
+          "output": 4.4
         },
         "page_url": "https://www.together.ai/models/nvidia-nemotron-3-super"
       },
