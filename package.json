@@ -32,10 +32,10 @@
   "author": "AgentbaseAI Inc.",
   "license": "MIT",
   "devDependencies": {
-    "@biomejs/biome": "^2.4.10",
+    "@biomejs/biome": "^2.4.11",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
-    "turbo": "^2.9.3"
+    "turbo": "^2.9.6"
   },
   "packageManager": "pnpm@10.33.0"
 }
