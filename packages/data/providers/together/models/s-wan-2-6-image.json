@@ -3,20 +3,20 @@
   "name": "Wan 2 6 Image",
   "created_by": "unknown",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-12",
   "context_window": 32000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.03,
+    "input": 0.134,
     "output": 0.03
   },
   "_generated": {
     "name": "8400c7b6",
     "context_window": "10e4d788",
     "capabilities": "0fa77dc6",
-    "pricing": "9207f1ad",
+    "pricing": "502fe45f",
     "family": "2aadc089",
     "model_type": "db8857fe",
     "page_url": "2bd87197"

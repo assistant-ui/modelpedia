@@ -1,0 +1,30 @@
+{
+  "id": "s/minimax-m2-7",
+  "name": "Minimax M2 7",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "page_url": "https://www.together.ai/models/minimax-m2-7",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 1.2
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "8a0219f6",
+    "family": "c85916f0",
+    "page_url": "b3b729ad",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "154bd04c",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-12"
+}
