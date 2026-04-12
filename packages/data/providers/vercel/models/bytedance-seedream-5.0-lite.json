@@ -1,0 +1,21 @@
+{
+  "id": "bytedance/seedream-5.0-lite",
+  "name": "seedream-5.0-lite",
+  "created_by": "bytedance",
+  "source": "official",
+  "model_type": "image",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "a297953f",
+    "model_type": "db8857fe",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-04-12"
+}

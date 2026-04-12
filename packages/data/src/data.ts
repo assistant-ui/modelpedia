@@ -67300,6 +67300,38 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-10"
       },
       {
+        "id": "zai-org/GLM-5.1",
+        "name": "GLM-5.1",
+        "created_by": "zhipu",
+        "source": "official",
+        "family": "GLM-5.1",
+        "release_date": "2026-04-03",
+        "context_window": 202752,
+        "license": "mit",
+        "parameters": 754,
+        "page_url": "https://huggingface.co/zai-org/GLM-5.1",
+        "architecture": "moe",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-12"
+      },
+      {
         "id": "zai-org/GLM-5",
         "name": "GLM-5",
         "created_by": "zhipu",
@@ -73909,6 +73941,32 @@ export const providers: ProviderWithModels[] = [
         "open_weight": true
       },
       {
+        "id": "minimaxai/minimax-m2.7",
+        "name": "minimax-m2.7",
+        "created_by": "minimax",
+        "source": "official",
+        "family": "minimax",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-12",
+        "description": "Beginning the journey of recursive self-improvement",
+        "tagline": "Beginning the journey of recursive self-improvement",
+        "context_window": 204800,
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
         "id": "mistralai/codestral-22b-instruct-v0.1",
         "name": "codestral-22b-instruct-v0.1",
         "created_by": "mistral",
@@ -77438,7 +77496,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-12",
         "family": "qwen3",
         "capabilities": {
           "streaming": true,
@@ -77462,8 +77520,7 @@ export const providers: ProviderWithModels[] = [
         "reasoning_tokens": true,
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "text"
@@ -91780,13 +91837,13 @@ export const providers: ProviderWithModels[] = [
         "name": "Anthropic: Claude 3.7 Sonnet",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-12",
         "family": "claude-sonnet",
         "description": "Claude 3.7 Sonnet is an advanced large language model with improved reasoning, coding, and problem-solving capabilities.",
         "status": "deprecated",
         "deprecation_date": "2026-05-05",
         "context_window": 200000,
-        "max_output_tokens": 64000,
+        "max_output_tokens": 128000,
         "modalities": {
           "input": [
             "text",
@@ -92111,10 +92168,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Anthropic: Claude Sonnet 4",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-12",
         "family": "claude-sonnet",
         "description": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability.",
-        "context_window": 200000,
+        "context_window": 1000000,
         "max_output_tokens": 64000,
         "modalities": {
           "input": [
@@ -94387,13 +94444,13 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.13,
+          "input": 0.12,
           "output": 0.4
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-04"
+        "last_updated": "2026-04-12"
       },
       {
         "id": "google/gemma-4-31b-it:free",
@@ -95156,7 +95213,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Meta: Llama 3.2 11B Vision Instruct",
         "created_by": "meta-llama",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-12",
         "family": "llama-3.2",
         "description": "Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data.",
         "context_window": 131072,
@@ -95175,8 +95232,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.049,
-          "output": 0.049
+          "input": 0.245,
+          "output": 0.245
         },
         "model_type": "chat",
         "parameters": 11,
@@ -96756,10 +96813,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Mistral: Mistral Small 3.1 24B",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-12",
         "family": "mistral-small",
         "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities.",
-        "context_window": 131072,
+        "context_window": 128000,
         "max_output_tokens": 131072,
         "modalities": {
           "input": [
@@ -96775,8 +96832,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.03,
-          "output": 0.11,
+          "input": 0.35,
+          "output": 0.56,
           "cached_input": 0.015
         },
         "model_type": "chat",
@@ -98777,14 +98834,14 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o",
-        "name": "OpenAI: GPT-4o (2024-05-13)",
+        "name": "OpenAI: GPT-4o",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-10",
+        "last_updated": "2026-04-12",
         "family": "gpt-4o",
         "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs.",
         "context_window": 128000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 16384,
         "modalities": {
           "input": [
             "text",
@@ -98805,8 +98862,8 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 5,
-          "output": 15,
+          "input": 2.5,
+          "output": 10,
           "cached_input": 1.25
         },
         "model_type": "chat",
@@ -99026,7 +99083,7 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: GPT-5 Nano",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-12",
         "family": "gpt-5",
         "description": "GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments.",
         "context_window": 400000,
@@ -99053,7 +99110,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.05,
           "output": 0.4,
-          "cached_input": 0.005
+          "cached_input": 0.01
         },
         "model_type": "chat",
         "release_date": "2025-08-07",
@@ -99193,11 +99250,11 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: GPT-5.1-Codex-Mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-12",
         "family": "gpt-5.1",
         "description": "GPT-5.1-Codex-Mini is a smaller and faster version of GPT-5.1-Codex",
         "context_window": 400000,
-        "max_output_tokens": 100000,
+        "max_output_tokens": 128000,
         "modalities": {
           "input": [
             "image",
@@ -99219,7 +99276,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.25,
           "output": 2,
-          "cached_input": 0.025
+          "cached_input": 0.03
         },
         "model_type": "chat",
         "release_date": "2025-11-13",
@@ -99279,7 +99336,7 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: GPT-5.1",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-12",
         "family": "gpt-5.1",
         "description": "GPT-5.1 is the latest frontier-grade model in the GPT-5 series, offering stronger general-purpose reasoning, improved instruction adherence, and a more natural conversational style compared to GPT-5.",
         "context_window": 400000,
@@ -99306,7 +99363,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1.25,
           "output": 10,
-          "cached_input": 0.125
+          "cached_input": 0.13
         },
         "model_type": "chat",
         "release_date": "2025-11-13",
@@ -99323,11 +99380,11 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: GPT-5.2 Chat",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-12",
         "family": "gpt-5.2",
         "description": "GPT-5.2 Chat (AKA Instant) is the fast, lightweight member of the 5.2 family, optimized for low-latency chat while retaining strong general intelligence.",
         "context_window": 128000,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 32000,
         "modalities": {
           "input": [
             "image",
@@ -99977,7 +100034,7 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: gpt-oss-20b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-12",
         "family": "gpt-oss",
         "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
         "context_window": 131072,
@@ -100002,7 +100059,7 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.03,
-          "output": 0.11,
+          "output": 0.14,
           "cached_input": 0.015
         },
         "model_type": "chat",
@@ -103263,7 +103320,7 @@ export const providers: ProviderWithModels[] = [
         "name": "TheDrummer: Cydonia 24B V4.1",
         "created_by": "thedrummer",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-12",
         "description": "Uncensored and creative writing model based on Mistral Small 3.2 24B with good recall, prompt adherence, and intelligence.",
         "context_window": 131072,
         "max_output_tokens": 131072,
@@ -103277,7 +103334,8 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.3,
-          "output": 0.5
+          "output": 0.5,
+          "cached_input": 0.15
         },
         "parameters": 24,
         "release_date": "2025-09-27",
@@ -104430,13 +104488,15 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 1.26,
-          "output": 3.96
+          "input": 0.95,
+          "output": 3.15,
+          "cached_input": 0.475
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-08"
+        "last_updated": "2026-04-12",
+        "max_output_tokens": 65535
       },
       {
         "id": "z-ai/glm-5",
@@ -109024,13 +109084,13 @@ export const providers: ProviderWithModels[] = [
         "name": "Flux 2 Pro",
         "created_by": "black-forest-labs",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-12",
         "context_window": 32000,
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 0.034,
+          "input": 0.134,
           "output": 0.03
         },
         "model_type": "image",
@@ -109173,12 +109233,12 @@ export const providers: ProviderWithModels[] = [
         "name": "Google Veo 3 0",
         "created_by": "unknown",
         "source": "official",
-        "last_updated": "2026-04-04",
+        "last_updated": "2026-04-12",
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 0.8,
+          "input": 0.19,
           "output": 1.6
         },
         "page_url": "https://www.together.ai/models/google-veo-3-0"
@@ -109188,14 +109248,14 @@ export const providers: ProviderWithModels[] = [
         "name": "Gpt Image 1 5",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-12",
         "family": "gpt-image-1",
         "context_window": 32000,
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 0.03,
+          "input": 0.134,
           "output": 0.034
         },
         "model_type": "image",
@@ -109371,6 +109431,31 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "s/minimax-m2-7",
+        "name": "Minimax M2 7",
+        "created_by": "minimax",
+        "source": "official",
+        "family": "minimax",
+        "page_url": "https://www.together.ai/models/minimax-m2-7",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.06,
+          "output": 1.2
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-12"
       },
       {
         "id": "s/minimax-speech-2-6-turbo",
@@ -109618,10 +109703,11 @@ export const providers: ProviderWithModels[] = [
           "streaming": true
         },
         "pricing": {
-          "input": 0.034,
+          "input": 0.03,
           "output": 0.04
         },
-        "last_updated": "2026-03-27"
+        "last_updated": "2026-04-12",
+        "context_window": 32000
       },
       {
         "id": "s/sora-2-pro",
@@ -109645,13 +109731,13 @@ export const providers: ProviderWithModels[] = [
         "name": "Wan 2 6 Image",
         "created_by": "unknown",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-12",
         "context_window": 32000,
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 0.03,
+          "input": 0.134,
           "output": 0.03
         },
         "family": "wan",
@@ -111381,6 +111467,51 @@ export const providers: ProviderWithModels[] = [
           "output": 0
         },
         "model_type": "video"
+      },
+      {
+        "id": "bytedance/seedream-4.0",
+        "name": "seedream-4.0",
+        "created_by": "bytedance",
+        "source": "official",
+        "model_type": "image",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "last_updated": "2026-04-12"
+      },
+      {
+        "id": "bytedance/seedream-4.5",
+        "name": "seedream-4.5",
+        "created_by": "bytedance",
+        "source": "official",
+        "model_type": "image",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "last_updated": "2026-04-12"
+      },
+      {
+        "id": "bytedance/seedream-5.0-lite",
+        "name": "seedream-5.0-lite",
+        "created_by": "bytedance",
+        "source": "official",
+        "model_type": "image",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "last_updated": "2026-04-12"
       },
       {
         "id": "cohere/command-a",
