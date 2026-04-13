@@ -3,18 +3,18 @@
   "name": "Google Veo 3 0",
   "created_by": "unknown",
   "source": "official",
-  "last_updated": "2026-04-04",
+  "last_updated": "2026-04-12",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.8,
+    "input": 0.19,
     "output": 1.6
   },
   "_generated": {
     "name": "28acc21d",
     "capabilities": "0fa77dc6",
-    "pricing": "e5b9aeb6",
+    "pricing": "6b7b9240",
     "page_url": "3f3e003c"
   },
   "page_url": "https://www.together.ai/models/google-veo-3-0"

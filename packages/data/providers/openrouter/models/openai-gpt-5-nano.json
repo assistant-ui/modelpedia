@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5 Nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-12",
   "family": "gpt-5",
   "description": "GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments.",
   "context_window": 400000,
@@ -21,7 +21,7 @@
   "pricing": {
     "input": 0.05,
     "output": 0.4,
-    "cached_input": 0.005
+    "cached_input": 0.01
   },
   "_generated": {
     "name": "3d6fd94d",
@@ -31,7 +31,7 @@
     "max_output_tokens": "34434798",
     "modalities": "6399757e",
     "capabilities": "03fbefb4",
-    "pricing": "63b50152",
+    "pricing": "5c1e07b8",
     "model_type": "d669f408",
     "release_date": "79c30d0c",
     "tagline": "aeab06e6",

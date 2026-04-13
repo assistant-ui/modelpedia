@@ -3,7 +3,7 @@
   "name": "TheDrummer: Cydonia 24B V4.1",
   "created_by": "thedrummer",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-12",
   "description": "Uncensored and creative writing model based on Mistral Small 3.2 24B with good recall, prompt adherence, and intelligence.",
   "context_window": 131072,
   "max_output_tokens": 131072,
@@ -13,7 +13,8 @@
   },
   "pricing": {
     "input": 0.3,
-    "output": 0.5
+    "output": 0.5,
+    "cached_input": 0.15
   },
   "_generated": {
     "name": "b683b1a2",
@@ -21,7 +22,7 @@
     "context_window": "f7de594e",
     "max_output_tokens": "f7de594e",
     "modalities": "68e53d93",
-    "pricing": "6599547f",
+    "pricing": "37589f9b",
     "parameters": "1ff1de77",
     "release_date": "d5219b9d",
     "tagline": "83ad06b4"

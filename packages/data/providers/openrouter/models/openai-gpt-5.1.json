@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5.1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-12",
   "family": "gpt-5.1",
   "description": "GPT-5.1 is the latest frontier-grade model in the GPT-5 series, offering stronger general-purpose reasoning, improved instruction adherence, and a more natural conversational style compared to GPT-5.",
   "context_window": 400000,
@@ -21,7 +21,7 @@
   "pricing": {
     "input": 1.25,
     "output": 10,
-    "cached_input": 0.125
+    "cached_input": 0.13
   },
   "_generated": {
     "name": "1678f065",
@@ -31,7 +31,7 @@
     "max_output_tokens": "34434798",
     "modalities": "8b8b28d1",
     "capabilities": "03fbefb4",
-    "pricing": "50bb1323",
+    "pricing": "be72adc3",
     "model_type": "d669f408",
     "release_date": "c4b1d0fd",
     "tagline": "b2c5dc69",

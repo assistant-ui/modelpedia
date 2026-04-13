@@ -3,7 +3,7 @@
   "name": "qwen3-vl",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-12",
   "family": "qwen3",
   "capabilities": {
     "streaming": true,
@@ -27,7 +27,7 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "reasoning_tokens": "b326b506",
-    "modalities": "6399757e"
+    "modalities": "68e53d93"
   },
   "model_type": "chat",
   "description": "The most powerful vision-language model in the Qwen model family to date.",
@@ -41,7 +41,7 @@
   "tools": ["function_calling"],
   "reasoning_tokens": true,
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   }
 }
