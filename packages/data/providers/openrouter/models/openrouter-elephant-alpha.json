@@ -1,0 +1,33 @@
+{
+  "id": "openrouter/elephant-alpha",
+  "name": "Elephant",
+  "created_by": "openrouter",
+  "source": "official",
+  "description": "Elephant Alpha is a 100B-parameter text model focused on intelligence efficiency, delivering strong reasoning performance while minimizing token usage.",
+  "release_date": "2026-04-13",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "tagline": "Elephant Alpha is a 100B-parameter text model focused on intelligence efficiency, delivering strong reasoning performance while minimizing token usage.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "301c13f1",
+    "description": "c680cae8",
+    "release_date": "50d3cf56",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "tagline": "c680cae8",
+    "capabilities": "6c9aa67e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-14"
+}
