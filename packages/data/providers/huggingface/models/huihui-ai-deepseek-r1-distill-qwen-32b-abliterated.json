@@ -1,0 +1,38 @@
+{
+  "id": "huihui-ai/DeepSeek-R1-Distill-Qwen-32B-abliterated",
+  "name": "DeepSeek-R1-Distill-Qwen-32B-abliterated",
+  "created_by": "huihui-ai",
+  "source": "official",
+  "description": "This is an uncensored version of [deepseek-ai/DeepSeek-R1-Distill-Qwen-32B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) created with abliteration (see [remove-refusals-with-transformers](https://github.com/Sumandora/remove-refusals-with-transformers) to know more about it). This is a crude, proof-of-concept implementation to remove refusals from an LLM model without using TransformerLens.",
+  "release_date": "2025-01-22",
+  "context_window": 131072,
+  "parameters": 33,
+  "page_url": "https://huggingface.co/huihui-ai/DeepSeek-R1-Distill-Qwen-32B-abliterated",
+  "architecture": "transformer",
+  "model_type": "reasoning",
+  "tagline": "This is an uncensored version of [deepseek-ai/DeepSeek-R1-Distill-Qwen-32B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) created with abliteration (see [remove-refusals-with-transformers](https://github.com/Sumandora/remove-refusals-with-transformers) to know more about it).",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "fd689f55",
+    "description": "fb1b7840",
+    "release_date": "5acdab6e",
+    "context_window": "f7de594e",
+    "parameters": "182be0c5",
+    "page_url": "cb3526bd",
+    "architecture": "8832ea0f",
+    "model_type": "17475f7f",
+    "tagline": "33dc0da0",
+    "capabilities": "48995a4e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-14"
+}

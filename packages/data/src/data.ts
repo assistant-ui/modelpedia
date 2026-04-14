@@ -56231,6 +56231,33 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "fireworks/minimax-m2p7",
+        "name": "minimax-m2p7",
+        "created_by": "minimax",
+        "source": "official",
+        "family": "minimax",
+        "context_window": 196600,
+        "page_url": "https://fireworks.ai/models/fireworks/minimax-m2p7",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 1.2,
+          "cached_input": 0.06
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-14"
+      },
+      {
         "id": "fireworks/ministral-3-14b-instruct-2512",
         "name": "ministral-3-14b-instruct-2512",
         "created_by": "mistral",
@@ -63782,6 +63809,36 @@ export const providers: ProviderWithModels[] = [
         ]
       },
       {
+        "id": "huihui-ai/DeepSeek-R1-Distill-Qwen-32B-abliterated",
+        "name": "DeepSeek-R1-Distill-Qwen-32B-abliterated",
+        "created_by": "huihui-ai",
+        "source": "official",
+        "description": "This is an uncensored version of [deepseek-ai/DeepSeek-R1-Distill-Qwen-32B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) created with abliteration (see [remove-refusals-with-transformers](https://github.com/Sumandora/remove-refusals-with-transformers) to know more about it). This is a crude, proof-of-concept implementation to remove refusals from an LLM model without using TransformerLens.",
+        "release_date": "2025-01-22",
+        "context_window": 131072,
+        "parameters": 33,
+        "page_url": "https://huggingface.co/huihui-ai/DeepSeek-R1-Distill-Qwen-32B-abliterated",
+        "architecture": "transformer",
+        "model_type": "reasoning",
+        "tagline": "This is an uncensored version of [deepseek-ai/DeepSeek-R1-Distill-Qwen-32B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) created with abliteration (see [remove-refusals-with-transformers](https://github.com/Sumandora/remove-refusals-with-transformers) to know more about it).",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-14"
+      },
+      {
         "id": "huihui-ai/Qwen2.5-72B-Instruct-abliterated",
         "name": "Qwen2.5-72B-Instruct-abliterated",
         "created_by": "huihui-ai",
@@ -66312,6 +66369,37 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "RedHatAI/Qwen2-7B-Instruct-FP8",
+        "name": "Qwen2-7B-Instruct-FP8",
+        "created_by": "redhatai",
+        "source": "official",
+        "release_date": "2024-06-14",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 7.6,
+        "page_url": "https://huggingface.co/RedHatAI/Qwen2-7B-Instruct-FP8",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-14"
       },
       {
         "id": "SakanaAI/TinySwallow-1.5B-Instruct",
@@ -92326,12 +92414,13 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.22,
-          "output": 0.85
+          "output": 0.85,
+          "cached_input": 0.06
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-03"
+        "last_updated": "2026-04-14"
       },
       {
         "id": "arcee-ai/trinity-mini:free",
@@ -92726,7 +92815,7 @@ export const providers: ProviderWithModels[] = [
         "name": "ByteDance: UI-TARS 7B ",
         "created_by": "bytedance",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-14",
         "description": "UI-TARS-1.5 is a multimodal vision-language agent optimized for GUI-based environments, including desktop interfaces, web browsers, mobile systems, and games.",
         "context_window": 128000,
         "max_output_tokens": 2048,
@@ -92741,7 +92830,8 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.1,
-          "output": 0.2
+          "output": 0.2,
+          "cached_input": 0.1
         },
         "parameters": 7,
         "release_date": "2025-07-22",
@@ -93056,7 +93146,7 @@ export const providers: ProviderWithModels[] = [
         "name": "DeepSeek: R1 0528",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-14",
         "family": "deepseek-r1",
         "description": "May 28th update to the [original DeepSeek R1](/deepseek/deepseek-r1) Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens.",
         "context_window": 163840,
@@ -93076,9 +93166,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.45,
+          "input": 0.5,
           "output": 2.15,
-          "cached_input": 0.225
+          "cached_input": 0.35
         },
         "model_type": "reasoning",
         "release_date": "2025-05-28",
@@ -94444,13 +94534,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.12,
-          "output": 0.4
+          "input": 0.08,
+          "output": 0.35,
+          "cached_input": 0.01
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-12"
+        "last_updated": "2026-04-14"
       },
       {
         "id": "google/gemma-4-31b-it:free",
@@ -94516,10 +94607,11 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.14,
-          "output": 0.4
+          "input": 0.13,
+          "output": 0.38,
+          "cached_input": 0.02
         },
-        "last_updated": "2026-04-04",
+        "last_updated": "2026-04-14",
         "tools": [
           "function_calling"
         ]
@@ -95689,10 +95781,10 @@ export const providers: ProviderWithModels[] = [
         "name": "MiniMax: MiniMax M2.5 (free)",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-14",
         "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity.",
         "context_window": 196608,
-        "max_output_tokens": 196608,
+        "max_output_tokens": 8192,
         "modalities": {
           "input": [
             "text"
@@ -95760,9 +95852,9 @@ export const providers: ProviderWithModels[] = [
         "name": "MiniMax: MiniMax M2.7",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-14",
         "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement.",
-        "context_window": 204800,
+        "context_window": 196608,
         "max_output_tokens": 131072,
         "modalities": {
           "input": [
@@ -95782,7 +95874,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.3,
           "output": 1.2,
-          "cached_input": 0.06
+          "cached_input": 0.059
         },
         "family": "minimax",
         "model_type": "chat",
@@ -100005,11 +100097,11 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: gpt-oss-20b (free)",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-14",
         "family": "gpt-oss",
         "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
         "context_window": 131072,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 8192,
         "modalities": {
           "input": [
             "text"
@@ -100579,6 +100671,34 @@ export const providers: ProviderWithModels[] = [
         },
         "release_date": "2025-12-05",
         "tagline": "Transform your natural language requests into structured OpenRouter API request objects."
+      },
+      {
+        "id": "openrouter/elephant-alpha",
+        "name": "Elephant",
+        "created_by": "openrouter",
+        "source": "official",
+        "description": "Elephant Alpha is a 100B-parameter text model focused on intelligence efficiency, delivering strong reasoning performance while minimizing token usage.",
+        "release_date": "2026-04-13",
+        "context_window": 262144,
+        "max_output_tokens": 32768,
+        "tagline": "Elephant Alpha is a 100B-parameter text model focused on intelligence efficiency, delivering strong reasoning performance while minimizing token usage.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-14"
       },
       {
         "id": "openrouter/free",
@@ -101887,11 +102007,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 Coder Next",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-14",
         "family": "qwen3",
         "description": "Qwen3-Coder-Next is an open-weight causal language model optimized for coding agents and local development workflows.",
         "context_window": 262144,
-        "max_output_tokens": 65536,
+        "max_output_tokens": 262144,
         "modalities": {
           "input": [
             "text"
@@ -101908,9 +102028,9 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.12,
-          "output": 0.75,
-          "cached_input": 0.06
+          "input": 0.15,
+          "output": 0.8,
+          "cached_input": 0.12
         },
         "model_type": "code",
         "release_date": "2026-02-04",
@@ -103379,7 +103499,7 @@ export const providers: ProviderWithModels[] = [
         "name": "TheDrummer: Skyfall 36B V2",
         "created_by": "thedrummer",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-14",
         "description": "Skyfall 36B v2 is an enhanced iteration of Mistral Small 2501, specifically fine-tuned for improved creativity, nuanced writing, role-playing, and coherent storytelling.",
         "context_window": 32768,
         "max_output_tokens": 32768,
@@ -103393,7 +103513,8 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.55,
-          "output": 0.8
+          "output": 0.8,
+          "cached_input": 0.25
         },
         "parameters": 36,
         "release_date": "2025-03-10",
@@ -111561,6 +111682,35 @@ export const providers: ProviderWithModels[] = [
         "description": "A model that allows for text and images to be classified or turned into embeddings",
         "tagline": "Text, Images, Mixed texts/images (i.e.",
         "context_window": 128000,
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      {
+        "id": "cohere/rerank-v3.5",
+        "name": "rerank-v3.5",
+        "created_by": "cohere",
+        "source": "official",
+        "family": "rerank",
+        "context_window": 4100,
+        "model_type": "rerank",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "last_updated": "2026-04-14",
+        "description": "A model that allows for re-ranking English Language documents and semi-structured data (JSON). This model has a context length of 4096 tokens.",
+        "tagline": "Unique per deployment",
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
