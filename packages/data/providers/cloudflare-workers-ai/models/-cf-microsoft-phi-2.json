@@ -3,7 +3,7 @@
   "name": "phi-2",
   "created_by": "microsoft",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-16",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -11,13 +11,13 @@
   "_generated": {
     "name": "2b57dcb9",
     "capabilities": "48995a4e",
-    "status": "379ac110",
+    "status": "127aecde",
     "model_type": "d669f408",
     "page_url": "191b5e3f",
     "tools": "f0c1dc7e",
     "modalities": "68e53d93"
   },
-  "status": "active",
+  "status": "preview",
   "model_type": "chat",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#phi-2",
   "tools": ["function_calling"],

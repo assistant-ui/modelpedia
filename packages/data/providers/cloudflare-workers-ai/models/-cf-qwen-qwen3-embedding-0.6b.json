@@ -3,22 +3,26 @@
   "name": "qwen3-embedding-0.6b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-16",
   "family": "qwen3",
   "model_type": "embed",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "f2723657",
     "family": "48c385a0",
     "model_type": "764cb3de",
-    "capabilities": "0fa77dc6",
+    "capabilities": "a281e83a",
     "parameters": "e95e1ca2",
     "status": "379ac110",
-    "page_url": "67e55872"
+    "page_url": "67e55872",
+    "tools": "f0c1dc7e"
   },
   "parameters": 0.6,
   "status": "active",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#qwen3-embedding-0.6b"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#qwen3-embedding-0.6b",
+  "tools": ["function_calling"]
 }

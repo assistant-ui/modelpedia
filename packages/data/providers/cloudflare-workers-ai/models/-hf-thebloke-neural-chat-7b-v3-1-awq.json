@@ -3,18 +3,21 @@
   "name": "neural-chat-7b-v3-1-awq",
   "created_by": "thebloke",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-16",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "d26b2918",
-    "capabilities": "0fa77dc6",
+    "capabilities": "a281e83a",
     "parameters": "8f14e45f",
     "status": "379ac110",
     "model_type": "d669f408",
     "page_url": "ff518322",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
   },
   "parameters": 7,
   "status": "active",
@@ -23,5 +26,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "tools": ["function_calling"]
 }

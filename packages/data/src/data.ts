@@ -4985,7 +4985,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Sonnet 3.7",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-16",
         "family": "claude-sonnet",
         "capabilities": {
           "streaming": true,
@@ -5022,7 +5022,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-3-7-sonnet",
         "status": "deprecated",
         "deprecation_date": "2025-10-28",
-        "successor": "claude-opus-4-6"
+        "successor": "claude-sonnet-4-6"
       },
       {
         "id": "claude-3-haiku-20240307",
@@ -5122,7 +5122,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Opus 3",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-16",
         "family": "claude-opus",
         "capabilities": {
           "streaming": true,
@@ -5158,7 +5158,7 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-3-opus",
         "status": "deprecated",
-        "successor": "claude-opus-4-6"
+        "successor": "claude-opus-4-7"
       },
       {
         "id": "claude-haiku-4-5-20251001",
@@ -5512,7 +5512,7 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-20250514",
         "deprecation_date": "2026-04-14",
-        "successor": "claude-opus-4-6"
+        "successor": "claude-opus-4-7"
       },
       {
         "id": "claude-opus-4-5-20251101",
@@ -5688,6 +5688,58 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-6"
+      },
+      {
+        "id": "claude-opus-4-7",
+        "name": "Claude Opus 4.7",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "description": "Our most capable generally available model for complex reasoning and agentic coding",
+        "status": "active",
+        "knowledge_cutoff": "2026-01",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "license": "proprietary",
+        "performance": 5,
+        "speed": 3,
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-7",
+        "training_data_cutoff": "2026-01",
+        "model_type": "chat",
+        "tagline": "Our most capable generally available model for complex reasoning and agentic coding",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cache_write": 6.25,
+          "cached_input": 0.5,
+          "batch_input": 2.5,
+          "batch_output": 12.5
+        },
+        "open_weight": false,
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "messages"
+        ],
+        "extended_thinking": false,
+        "priority_tier": true,
+        "last_updated": "2026-04-16"
       },
       {
         "id": "claude-sonnet-4-0",
@@ -47789,14 +47841,14 @@ export const providers: ProviderWithModels[] = [
         "name": "gemma-sea-lion-v4-27b-it",
         "created_by": "aisingapore",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
           "streaming": true,
           "tool_call": true
         },
         "model_type": "chat",
         "parameters": 27,
-        "status": "active",
+        "status": "preview",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#gemma-sea-lion-v4-27b-it",
         "tools": [
           "function_calling"
@@ -47815,11 +47867,11 @@ export const providers: ProviderWithModels[] = [
         "name": "bge-base-en-v1.5",
         "created_by": "baai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
           "streaming": true
         },
-        "status": "active",
+        "status": "preview",
         "model_type": "embed",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#bge-base-en-v1.5"
       },
@@ -47854,8 +47906,8 @@ export const providers: ProviderWithModels[] = [
         "name": "bge-reranker-base",
         "created_by": "baai",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "model_type": "classification",
+        "last_updated": "2026-04-16",
+        "model_type": "rerank",
         "capabilities": {
           "streaming": true
         },
@@ -47906,13 +47958,13 @@ export const providers: ProviderWithModels[] = [
         "name": "flux-2-klein-4b",
         "created_by": "black-forest-labs",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
           "streaming": true
         },
         "model_type": "image",
         "parameters": 4,
-        "status": "preview",
+        "status": "active",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#flux-2-klein-4b"
       },
       {
@@ -47920,13 +47972,13 @@ export const providers: ProviderWithModels[] = [
         "name": "flux-2-klein-9b",
         "created_by": "black-forest-labs",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
           "streaming": true
         },
         "model_type": "image",
         "parameters": 9,
-        "status": "preview",
+        "status": "active",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#flux-2-klein-9b"
       },
       {
@@ -48003,12 +48055,12 @@ export const providers: ProviderWithModels[] = [
         "name": "nova-3",
         "created_by": "deepgram",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
           "streaming": true,
           "tool_call": true
         },
-        "status": "active",
+        "status": "preview",
         "model_type": "transcription",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#nova-3",
         "tools": [
@@ -48038,13 +48090,13 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-r1-distill-qwen-32b",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "family": "deepseek-r1",
         "capabilities": {
           "streaming": true,
           "tool_call": true
         },
-        "model_type": "chat",
+        "model_type": "reasoning",
         "parameters": 32,
         "status": "active",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#deepseek-r1-distill-qwen-32b",
@@ -48108,10 +48160,11 @@ export const providers: ProviderWithModels[] = [
         "name": "detr-resnet-50",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "reasoning": true
         },
         "status": "active",
         "model_type": "classification",
@@ -48125,12 +48178,12 @@ export const providers: ProviderWithModels[] = [
         "name": "una-cybertron-7b-v2-bf16",
         "created_by": "fblgit",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
           "streaming": true
         },
         "parameters": 7,
-        "status": "active",
+        "status": "preview",
         "model_type": "chat",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#una-cybertron-7b-v2-bf16",
         "modalities": {
@@ -48184,7 +48237,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemma-3-12b-it",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "family": "gemma-3",
         "capabilities": {
           "streaming": true,
@@ -48193,7 +48246,7 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "parameters": 12,
-        "status": "active",
+        "status": "preview",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#gemma-3-12b-it",
         "tools": [
           "function_calling"
@@ -48284,10 +48337,11 @@ export const providers: ProviderWithModels[] = [
         "name": "granite-4.0-h-micro",
         "created_by": "ibm",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "reasoning": true
         },
         "status": "active",
         "model_type": "chat",
@@ -48309,11 +48363,11 @@ export const providers: ProviderWithModels[] = [
         "name": "lucid-origin",
         "created_by": "leonardo",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
           "streaming": true
         },
-        "status": "active",
+        "status": "preview",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#lucid-origin"
       },
       {
@@ -48321,12 +48375,12 @@ export const providers: ProviderWithModels[] = [
         "name": "phoenix-1.0",
         "created_by": "leonardo",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
           "streaming": true,
           "tool_call": true
         },
-        "status": "active",
+        "status": "preview",
         "model_type": "image",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#phoenix-1.0",
         "tools": [
@@ -48338,14 +48392,14 @@ export const providers: ProviderWithModels[] = [
         "name": "llava-1.5-7b-hf",
         "created_by": "llava-hf",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
           "vision": true
         },
         "parameters": 7,
-        "status": "active",
+        "status": "preview",
         "model_type": "chat",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#llava-1.5-7b-hf",
         "tools": [
@@ -48405,7 +48459,7 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-2-7b-chat-int8",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "family": "llama-2",
         "capabilities": {
           "streaming": true,
@@ -48413,7 +48467,7 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "parameters": 7,
-        "status": "active",
+        "status": "preview",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#llama-2-7b-chat-int8",
         "tools": [
           "function_calling"
@@ -48651,11 +48705,12 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-3.2-1b-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "family": "llama-3.2",
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "vision": true
         },
         "model_type": "chat",
         "parameters": 1,
@@ -48732,10 +48787,11 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-4-scout-17b-16e-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "family": "llama-4",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true
         },
         "model_type": "chat",
         "parameters": 17,
@@ -48748,19 +48804,23 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ]
       },
       {
         "id": "@cf/meta/llama-guard-3-8b",
         "name": "llama-guard-3-8b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "family": "llama-guard",
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "vision": true
         },
         "parameters": 8,
         "status": "active",
@@ -48831,12 +48891,12 @@ export const providers: ProviderWithModels[] = [
         "name": "phi-2",
         "created_by": "microsoft",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
           "streaming": true,
           "tool_call": true
         },
-        "status": "active",
+        "status": "preview",
         "model_type": "chat",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#phi-2",
         "tools": [
@@ -48856,10 +48916,11 @@ export const providers: ProviderWithModels[] = [
         "name": "resnet-50",
         "created_by": "microsoft",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "reasoning": true
         },
         "status": "active",
         "model_type": "classification",
@@ -48927,7 +48988,7 @@ export const providers: ProviderWithModels[] = [
         "name": "mistral-small-3.1-24b-instruct",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "family": "mistral-small",
         "capabilities": {
           "streaming": true,
@@ -48936,7 +48997,7 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "parameters": 24,
-        "status": "active",
+        "status": "preview",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#mistral-small-3.1-24b-instruct",
         "tools": [
           "function_calling"
@@ -49022,11 +49083,12 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-oss-120b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "family": "gpt-oss",
         "capabilities": {
           "streaming": true,
-          "reasoning": true
+          "reasoning": true,
+          "tool_call": true
         },
         "model_type": "chat",
         "parameters": 120,
@@ -49039,18 +49101,22 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ]
       },
       {
         "id": "@cf/openai/gpt-oss-20b",
         "name": "gpt-oss-20b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "family": "gpt-oss",
         "capabilities": {
           "streaming": true,
-          "reasoning": true
+          "reasoning": true,
+          "tool_call": true
         },
         "model_type": "chat",
         "parameters": 20,
@@ -49063,7 +49129,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ]
       },
       {
         "id": "@cf/openai/whisper-large-v3-turbo",
@@ -49098,18 +49167,26 @@ export const providers: ProviderWithModels[] = [
         "name": "whisper",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "family": "whisper",
         "capabilities": {
           "streaming": true,
           "tool_call": true
         },
-        "model_type": "transcription",
-        "status": "active",
+        "model_type": "translation",
+        "status": "preview",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#whisper",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       },
       {
         "id": "@cf/openchat/openchat-3.5-0106",
@@ -49151,9 +49228,10 @@ export const providers: ProviderWithModels[] = [
         "name": "smart-turn-v2",
         "created_by": "pipecat-ai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "vision": true
         },
         "status": "active",
         "model_type": "audio",
@@ -49324,15 +49402,20 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-embedding-0.6b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "family": "qwen3",
         "model_type": "embed",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true
         },
         "parameters": 0.6,
         "status": "active",
-        "page_url": "https://developers.cloudflare.com/workers-ai/models/#qwen3-embedding-0.6b"
+        "page_url": "https://developers.cloudflare.com/workers-ai/models/#qwen3-embedding-0.6b",
+        "tools": [
+          "function_calling"
+        ]
       },
       {
         "id": "@cf/qwen/qwq-32b",
@@ -49406,12 +49489,12 @@ export const providers: ProviderWithModels[] = [
         "name": "discolm-german-7b-v1-awq",
         "created_by": "thebloke",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
           "streaming": true
         },
         "parameters": 7,
-        "status": "active",
+        "status": "preview",
         "model_type": "chat",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#discolm-german-7b-v1-awq",
         "modalities": {
@@ -49528,11 +49611,13 @@ export const providers: ProviderWithModels[] = [
         "name": "gemma-7b-it",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "family": "gemma-7b",
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
         },
         "model_type": "chat",
         "parameters": 7,
@@ -49768,9 +49853,11 @@ export const providers: ProviderWithModels[] = [
         "name": "neural-chat-7b-v3-1-awq",
         "created_by": "thebloke",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-16",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true
         },
         "parameters": 7,
         "status": "active",
@@ -49783,7 +49870,10 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "tools": [
+          "function_calling"
+        ]
       },
       {
         "id": "@hf/thebloke/openhermes-2.5-mistral-7b-awq",
@@ -77938,6 +78028,41 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "qwen3.6",
+        "name": "qwen3.6",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3.6",
+        "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "license": "open-weight",
+        "page_url": "https://ollama.com/library/qwen3.6",
+        "open_weight": true,
+        "model_type": "chat",
+        "tagline": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-16"
+      },
+      {
         "id": "rnj-1",
         "name": "rnj-1",
         "created_by": "essentialai",
@@ -92495,6 +92620,43 @@ export const providers: ProviderWithModels[] = [
         ]
       },
       {
+        "id": "anthropic/claude-opus-4.7",
+        "name": "Anthropic: Claude Opus 4.7",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "description": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents.",
+        "release_date": "2026-04-15",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "tagline": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cached_input": 0.5
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-16"
+      },
+      {
         "id": "anthropic/claude-opus-4",
         "name": "Anthropic: Claude Opus 4",
         "created_by": "anthropic",
@@ -94886,14 +95048,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.08,
-          "output": 0.35,
-          "cached_input": 0.01
+          "input": 0.07,
+          "output": 0.4,
+          "cached_input": 0.04
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-14"
+        "last_updated": "2026-04-16"
       },
       {
         "id": "google/gemma-4-31b-it:free",
@@ -97802,7 +97964,7 @@ export const providers: ProviderWithModels[] = [
         "name": "MoonshotAI: Kimi K2 0711",
         "created_by": "moonshotai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-04-16",
         "description": "Kimi K2 Instruct is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass.",
         "context_window": 131072,
         "modalities": {
@@ -97829,7 +97991,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "max_output_tokens": 131072
+        "max_output_tokens": 32768
       },
       {
         "id": "morph/morph-v3-fast",

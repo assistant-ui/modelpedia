@@ -62,12 +62,12 @@
     "open_weight": "68934a3e",
     "page_url": "054031ed",
     "deprecation_date": "9682f27c",
-    "successor": "01ea5f9f"
+    "successor": "f0177cd3"
   },
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
   "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-20250514",
   "deprecation_date": "2026-04-14",
-  "successor": "claude-opus-4-6"
+  "successor": "claude-opus-4-7"
 }
