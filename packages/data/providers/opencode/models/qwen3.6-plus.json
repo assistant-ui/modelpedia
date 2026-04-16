@@ -1,0 +1,32 @@
+{
+  "id": "qwen3.6-plus",
+  "name": "Qwen3.6 Plus",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.6",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 3,
+    "cached_input": 0.05,
+    "cache_write": 0.625
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "bf8cca66",
+    "family": "1bc2d26f",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "9f86775b",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-16"
+}

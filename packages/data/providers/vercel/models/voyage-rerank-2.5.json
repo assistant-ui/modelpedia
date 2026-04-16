@@ -1,0 +1,25 @@
+{
+  "id": "voyage/rerank-2.5",
+  "name": "rerank-2.5",
+  "created_by": "voyage",
+  "source": "official",
+  "family": "rerank",
+  "context_window": 32000,
+  "model_type": "rerank",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0
+  },
+  "_generated": {
+    "name": "32830ab7",
+    "family": "477930e6",
+    "context_window": "10e4d788",
+    "model_type": "477930e6",
+    "capabilities": "0fa77dc6",
+    "pricing": "edbb3c0f"
+  },
+  "last_updated": "2026-04-16"
+}

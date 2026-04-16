@@ -1,0 +1,29 @@
+{
+  "id": "meta-llama/llama-guard-4-12b:free",
+  "name": "Meta: Llama Guard 4 12B (free)",
+  "created_by": "meta-llama",
+  "source": "official",
+  "family": "llama-guard",
+  "description": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification.",
+  "release_date": "2025-04-30",
+  "context_window": 163840,
+  "max_output_tokens": 65000,
+  "model_type": "chat",
+  "tagline": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification.",
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "73e00dd7",
+    "family": "3190be28",
+    "description": "169a325f",
+    "release_date": "6997487e",
+    "context_window": "7edab444",
+    "max_output_tokens": "fe7f71d0",
+    "model_type": "d669f408",
+    "tagline": "169a325f",
+    "modalities": "8b8b28d1"
+  },
+  "last_updated": "2026-04-16"
+}

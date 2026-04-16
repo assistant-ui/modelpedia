@@ -3,21 +3,21 @@
   "name": "kimi-k2-0905",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "context_window": 262100,
+  "last_updated": "2026-04-16",
+  "context_window": 256000,
   "capabilities": {
     "streaming": true,
     "tool_call": true
   },
   "pricing": {
-    "input": 1,
-    "output": 3
+    "input": 0.6,
+    "output": 2.5
   },
   "_generated": {
     "name": "a50a1dab",
-    "context_window": "b23f4471",
+    "context_window": "2fd324cb",
     "capabilities": "48995a4e",
-    "pricing": "7fd03be2",
+    "pricing": "97d9061a",
     "family": "0f7256d5",
     "model_type": "d669f408",
     "modalities": "68e53d93",

@@ -1,0 +1,49 @@
+{
+  "id": "gemini-3.1-flash-tts-preview",
+  "name": "gemini-3.1-flash-tts-preview",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.1",
+  "description": "The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and new expressive audio tags for precise narration control.",
+  "status": "active",
+  "knowledge_cutoff": "2025-01",
+  "context_window": 8192,
+  "max_output_tokens": 16384,
+  "model_type": "tts",
+  "license": "proprietary",
+  "tagline": "The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and new expressive audio tags for precise narration control.",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["text", "image", "audio"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "fb9d763d",
+    "family": "ea4a1a23",
+    "description": "d8abb286",
+    "status": "379ac110",
+    "knowledge_cutoff": "3f358a56",
+    "context_window": "77441296",
+    "max_output_tokens": "c76fe1d8",
+    "model_type": "4e16a2cf",
+    "license": "9186c466",
+    "tagline": "d8abb286",
+    "open_weight": "68934a3e",
+    "capabilities": "fdff467b",
+    "modalities": "a8211f74",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-04-16"
+}
