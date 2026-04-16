@@ -3,13 +3,14 @@
   "name": "smart-turn-v2",
   "created_by": "pipecat-ai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-16",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "vision": true
   },
   "_generated": {
     "name": "bd34c4a7",
-    "capabilities": "0fa77dc6",
+    "capabilities": "8a3b232e",
     "status": "379ac110",
     "model_type": "9f84c007",
     "page_url": "f6f1eb2f"

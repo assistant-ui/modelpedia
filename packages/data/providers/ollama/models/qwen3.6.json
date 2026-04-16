@@ -1,0 +1,43 @@
+{
+  "id": "qwen3.6",
+  "name": "qwen3.6",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.6",
+  "description": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+  "context_window": 262144,
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "page_url": "https://ollama.com/library/qwen3.6",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "Qwen3.6 delivers substantial upgrades in agentic coding and thinking preservation than previous Qwen models.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1bc2d26f",
+    "family": "1bc2d26f",
+    "description": "5ff2345f",
+    "context_window": "4a1d32eb",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "page_url": "611ea0da",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "5ff2345f",
+    "capabilities": "f7041f91",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-16"
+}
