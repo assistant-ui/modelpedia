@@ -1,0 +1,35 @@
+{
+  "id": "medgemma1.5",
+  "name": "medgemma1.5",
+  "created_by": "google",
+  "source": "official",
+  "description": "MedGemma 1.5 4B is an updated version of the MedGemma 4B model.",
+  "context_window": 131072,
+  "license": "open-weight",
+  "parameters": 4,
+  "page_url": "https://ollama.com/library/medgemma1.5",
+  "open_weight": true,
+  "tagline": "MedGemma 1.5 4B is an updated version of the MedGemma 4B model.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "bf3bea3d",
+    "description": "c78c01ab",
+    "context_window": "f7de594e",
+    "license": "6327aaea",
+    "parameters": "a87ff679",
+    "page_url": "fa7555a5",
+    "open_weight": "b326b506",
+    "tagline": "c78c01ab",
+    "capabilities": "91e36286",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-04-16"
+}

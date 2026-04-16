@@ -1,0 +1,18 @@
+{
+  "id": "nvidia/ising-calibration-1-35b-a3b",
+  "name": "ising-calibration-1-35b-a3b",
+  "created_by": "nvidia",
+  "source": "official",
+  "parameters": 35,
+  "active_parameters": 3,
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "61d4f1ee",
+    "parameters": "1c383cd3",
+    "active_parameters": "eccbc87e",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-04-16"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "medgemma",
+  "name": "medgemma",
+  "created_by": "google",
+  "source": "official",
+  "description": "MedGemma is a collection of Gemma 3 variants that are trained for performance on medical text and image comprehension.",
+  "context_window": 131072,
+  "license": "open-weight",
+  "parameters": 4,
+  "page_url": "https://ollama.com/library/medgemma",
+  "open_weight": true,
+  "tagline": "MedGemma is a collection of Gemma 3 variants that are trained for performance on medical text and image comprehension.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "1c8471d1",
+    "description": "9a4cf10b",
+    "context_window": "f7de594e",
+    "license": "6327aaea",
+    "parameters": "a87ff679",
+    "page_url": "4995443a",
+    "open_weight": "b326b506",
+    "tagline": "9a4cf10b",
+    "capabilities": "91e36286",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-04-16"
+}
