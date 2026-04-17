@@ -20,7 +20,10 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "batch": true
+    "batch": true,
+    "reasoning": true,
+    "structured_output": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -32,12 +35,12 @@
     "cache_write": 6.25,
     "cached_input": 0.5,
     "batch_input": 2.5,
-    "batch_output": 12.5
+    "batch_output": 12.5,
+    "cache_write_1h": 10
   },
   "open_weight": false,
-  "tools": ["function_calling"],
+  "tools": ["function_calling", "computer_use", "mcp"],
   "endpoints": ["messages"],
-  "extended_thinking": false,
   "priority_tier": true,
   "_generated": {
     "name": "b2cc0a0f",
@@ -54,14 +57,25 @@
     "training_data_cutoff": "f534389f",
     "model_type": "d669f408",
     "tagline": "7bc17640",
-    "capabilities": "29417d42",
+    "capabilities": "174773ec",
     "modalities": "6399757e",
-    "pricing": "714a9045",
+    "pricing": "93ccf380",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e",
+    "tools": "abde16bc",
     "endpoints": "94bb8b7a",
-    "extended_thinking": "68934a3e",
-    "priority_tier": "b326b506"
+    "priority_tier": "b326b506",
+    "reasoning": "e4da3b7f",
+    "thinking_modes": "a8582e89",
+    "bedrock_id": "cc594098",
+    "vertex_id": "f0177cd3",
+    "retirement_date": "454db793",
+    "batch_max_output_tokens": "1ded704c"
   },
-  "last_updated": "2026-04-16"
+  "last_updated": "2026-04-16",
+  "reasoning": 5,
+  "thinking_modes": ["adaptive"],
+  "bedrock_id": "anthropic.claude-opus-4-7",
+  "vertex_id": "claude-opus-4-7",
+  "retirement_date": "2027-04-16",
+  "batch_max_output_tokens": 300000
 }

@@ -3,7 +3,7 @@
   "name": "Claude Haiku 4.5",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-16",
   "family": "claude-haiku",
   "description": "The fastest model with near-frontier intelligence",
   "status": "active",
@@ -34,11 +34,11 @@
     "cache_write": 1.25,
     "cached_input": 0.1,
     "batch_input": 0.5,
-    "batch_output": 2.5
+    "batch_output": 2.5,
+    "cache_write_1h": 2
   },
   "tools": ["function_calling", "computer_use", "mcp"],
   "endpoints": ["messages"],
-  "extended_thinking": true,
   "training_data_cutoff": "2025-07",
   "priority_tier": true,
   "_generated": {
@@ -55,19 +55,28 @@
     "tagline": "43be3531",
     "capabilities": "1616fc33",
     "modalities": "6399757e",
-    "pricing": "48ecc1a7",
+    "pricing": "7ccb31e8",
     "tools": "abde16bc",
     "endpoints": "94bb8b7a",
-    "extended_thinking": "b326b506",
     "training_data_cutoff": "bfdca3f9",
     "priority_tier": "b326b506",
     "model_type": "d669f408",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "page_url": "4f04c1f6"
+    "page_url": "4f04c1f6",
+    "release_date": "e95fbf17",
+    "thinking_modes": "3f7ae0d0",
+    "bedrock_id": "d707f9d5",
+    "vertex_id": "e1b3d8be",
+    "retirement_date": "b3e9e1a3"
   },
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
-  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-haiku-4-5-20251001"
+  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-haiku-4-5-20251001",
+  "release_date": "2025-10-01",
+  "thinking_modes": ["extended"],
+  "bedrock_id": "anthropic.claude-haiku-4-5-20251001-v1:0",
+  "vertex_id": "claude-haiku-4-5@20251001",
+  "retirement_date": "2026-10-15"
 }

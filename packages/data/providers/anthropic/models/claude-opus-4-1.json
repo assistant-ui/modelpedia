@@ -3,7 +3,7 @@
   "name": "Claude Opus 4.1",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-16",
   "family": "claude-opus",
   "status": "active",
   "knowledge_cutoff": "2025-01",
@@ -31,11 +31,11 @@
     "cache_write": 18.75,
     "cached_input": 1.5,
     "batch_input": 7.5,
-    "batch_output": 37.5
+    "batch_output": 37.5,
+    "cache_write_1h": 30
   },
   "tools": ["function_calling", "computer_use", "mcp"],
   "endpoints": ["messages"],
-  "extended_thinking": true,
   "training_data_cutoff": "2025-03",
   "priority_tier": true,
   "snapshots": ["claude-opus-4-1-20250805"],
@@ -51,19 +51,26 @@
     "speed": "eccbc87e",
     "capabilities": "1616fc33",
     "modalities": "6399757e",
-    "pricing": "68f59998",
+    "pricing": "5bc633e0",
     "tools": "abde16bc",
     "endpoints": "94bb8b7a",
-    "extended_thinking": "b326b506",
     "training_data_cutoff": "c0a4d377",
     "priority_tier": "b326b506",
     "model_type": "d669f408",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "page_url": "5f68eb5f"
+    "page_url": "5f68eb5f",
+    "thinking_modes": "3f7ae0d0",
+    "bedrock_id": "7dc72bb9",
+    "vertex_id": "8b03b4e0",
+    "retirement_date": "b45c58db"
   },
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
-  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-1"
+  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-1",
+  "thinking_modes": ["extended"],
+  "bedrock_id": "anthropic.claude-opus-4-1-20250805-v1:0",
+  "vertex_id": "claude-opus-4-1@20250805",
+  "retirement_date": "2026-08-05"
 }

@@ -32,11 +32,11 @@
     "cache_write": 18.75,
     "cached_input": 1.5,
     "batch_input": 7.5,
-    "batch_output": 37.5
+    "batch_output": 37.5,
+    "cache_write_1h": 30
   },
   "tools": ["function_calling", "computer_use", "mcp"],
   "endpoints": ["messages"],
-  "extended_thinking": true,
   "training_data_cutoff": "2025-03",
   "priority_tier": true,
   "_generated": {
@@ -51,10 +51,9 @@
     "speed": "eccbc87e",
     "capabilities": "1616fc33",
     "modalities": "6399757e",
-    "pricing": "68f59998",
+    "pricing": "5bc633e0",
     "tools": "abde16bc",
     "endpoints": "94bb8b7a",
-    "extended_thinking": "b326b506",
     "training_data_cutoff": "c0a4d377",
     "priority_tier": "b326b506",
     "model_type": "d669f408",
@@ -62,12 +61,22 @@
     "open_weight": "68934a3e",
     "page_url": "054031ed",
     "deprecation_date": "9682f27c",
-    "successor": "f0177cd3"
+    "successor": "f0177cd3",
+    "release_date": "c0463868",
+    "thinking_modes": "3f7ae0d0",
+    "bedrock_id": "b7d98540",
+    "vertex_id": "39da097b",
+    "retirement_date": "cc23f918"
   },
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
   "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-20250514",
   "deprecation_date": "2026-04-14",
-  "successor": "claude-opus-4-7"
+  "successor": "claude-opus-4-7",
+  "release_date": "2025-05-14",
+  "thinking_modes": ["extended"],
+  "bedrock_id": "anthropic.claude-opus-4-20250514-v1:0",
+  "vertex_id": "claude-opus-4@20250514",
+  "retirement_date": "2026-06-15"
 }

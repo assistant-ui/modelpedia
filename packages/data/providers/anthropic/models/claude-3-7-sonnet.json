@@ -21,7 +21,8 @@
     "cache_write": 3.75,
     "cached_input": 0.3,
     "batch_input": 1.5,
-    "batch_output": 7.5
+    "batch_output": 7.5,
+    "cache_write_1h": 6
   },
   "tools": ["function_calling"],
   "endpoints": ["messages"],
@@ -30,7 +31,7 @@
     "family": "68d1c457",
     "capabilities": "29417d42",
     "modalities": "6399757e",
-    "pricing": "fb84d495",
+    "pricing": "d102a379",
     "tools": "f0c1dc7e",
     "endpoints": "94bb8b7a",
     "model_type": "d669f408",
@@ -39,7 +40,8 @@
     "page_url": "f8b9814b",
     "status": "2e2f74dc",
     "deprecation_date": "9606ea78",
-    "successor": "8b41d877"
+    "successor": "8b41d877",
+    "retirement_date": "1323dc51"
   },
   "model_type": "chat",
   "license": "proprietary",
@@ -47,5 +49,6 @@
   "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-3-7-sonnet",
   "status": "deprecated",
   "deprecation_date": "2025-10-28",
-  "successor": "claude-sonnet-4-6"
+  "successor": "claude-sonnet-4-6",
+  "retirement_date": "2026-02-19"
 }
