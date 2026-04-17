@@ -28,6 +28,9 @@ npm-debug.log*
 *.pem
 *.tsbuildinfo
 
+# Fetch script local cache
+.cache/
+
 # ai
 .agent
 .claude
