@@ -284,6 +284,11 @@ export default async function ModelDetailPage({
         <PricingSection
           pricing={model.pricing}
           pricingNotes={model.pricing_notes}
+          fastModePricing={
+            model.fast_mode_pricing as
+              | { input: number; output: number }
+              | undefined
+          }
         />
       )}
 

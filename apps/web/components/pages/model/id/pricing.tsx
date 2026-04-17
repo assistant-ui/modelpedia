@@ -6,11 +6,16 @@ import type { ModelPricing } from "@/lib/data";
 export function PricingSection({
   pricing,
   pricingNotes,
+  fastModePricing,
 }: {
   pricing: ModelPricing;
   pricingNotes?: string[];
+  fastModePricing?: { input: number; output: number };
 }) {
   if (!Object.values(pricing).some((v) => v != null)) return null;
+
+  const has1hCache = pricing.cache_write_1h != null;
+  const cacheWriteLabel = has1hCache ? "Cache write (5m)" : "Cache write";
 
   return (
     <Section id="pricing" title="Pricing">
@@ -67,11 +72,31 @@ export function PricingSection({
           <div className="grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-3 lg:grid-cols-6">
             <PriceCell label="Input" value={pricing.input} />
             <PriceCell label="Output" value={pricing.output} />
-            <PriceCell label="Cache write" value={pricing.cache_write} />
+            <PriceCell label={cacheWriteLabel} value={pricing.cache_write} />
+            {has1hCache && (
+              <PriceCell
+                label="Cache write (1h)"
+                value={pricing.cache_write_1h}
+              />
+            )}
             <PriceCell label="Cache read" value={pricing.cached_input} />
             <PriceCell label="Batch in" value={pricing.batch_input} />
             <PriceCell label="Batch out" value={pricing.batch_output} />
           </div>
+          {fastModePricing && (
+            <div className="mt-4 rounded-md ring-1 ring-border">
+              <div className="border-border border-b px-4 py-2 text-xs">
+                <span className="text-foreground">Fast mode</span>{" "}
+                <span className="text-muted-foreground">
+                  (beta, research preview)
+                </span>
+              </div>
+              <div className="grid grid-cols-2 gap-px overflow-hidden rounded-b-md bg-border">
+                <PriceCell label="Input" value={fastModePricing.input} />
+                <PriceCell label="Output" value={fastModePricing.output} />
+              </div>
+            </div>
+          )}
           <PricingNotes notes={pricingNotes} className="mt-4" />
         </>
       )}
