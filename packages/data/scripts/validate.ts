@@ -200,6 +200,7 @@ function validateModel(filePath: string, _providerId: string): Result {
         "output",
         "cached_input",
         "cache_write",
+        "cache_write_1h",
         "batch_input",
         "batch_output",
         "cached_output",
