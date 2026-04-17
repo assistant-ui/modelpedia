@@ -96,6 +96,62 @@ export function filterModalities(input: string[], output: string[]) {
   };
 }
 
+// ── Markdown ──
+
+/**
+ * Parse a markdown pipe table into rows × cells. Drops separator rows and
+ * strips bold markers. Lines without a leading `|` are ignored — pass only
+ * the table slice.
+ */
+export function parseMarkdownTable(lines: string[]): string[][] {
+  const rows: string[][] = [];
+  for (const line of lines) {
+    if (!line.startsWith("|")) continue;
+    // Separator row: contains only `|`, `:`, `-`, whitespace.
+    if (line.replace(/[|:\-\s]/g, "") === "") continue;
+    const cells = line
+      .split("|")
+      .slice(1, -1)
+      .map((c) => c.replace(/\*\*/g, "").trim());
+    rows.push(cells);
+  }
+  return rows;
+}
+
+// ── HTTP cache ──
+
+/**
+ * Fetch `url` with a simple on-disk TTL cache. Cache files are keyed by
+ * `label` under `.cache/<scope>/`. Bypass with `FETCH_NO_CACHE=1`.
+ *
+ * Designed for fetch scripts that hit a small set of slow docs endpoints —
+ * keeps dev iterations fast without leaking cache state across providers.
+ */
+export async function fetchCached(
+  url: string,
+  opts: { scope: string; label: string; ttlMs?: number },
+): Promise<string> {
+  const ttl = opts.ttlMs ?? 10 * 60 * 1000;
+  const dir = path.join(ROOT, ".cache", opts.scope);
+  fs.mkdirSync(dir, { recursive: true });
+  const cachePath = path.join(dir, `${opts.label}.txt`);
+  const bypass = process.env.FETCH_NO_CACHE === "1";
+  if (!bypass && fs.existsSync(cachePath)) {
+    const ageMs = Date.now() - fs.statSync(cachePath).mtimeMs;
+    if (ageMs < ttl) {
+      console.log(
+        `  cache hit: ${opts.scope}/${opts.label} (${Math.round(ageMs / 1000)}s old)`,
+      );
+      return fs.readFileSync(cachePath, "utf-8");
+    }
+  }
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`${opts.label} fetch failed: ${res.status}`);
+  const body = await res.text();
+  fs.writeFileSync(cachePath, body, "utf-8");
+  return body;
+}
+
 // ── Date normalization ──
 
 const MONTH_MAP: Record<string, string> = {
@@ -651,10 +707,12 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
     "status",
     "release_date",
     "deprecation_date",
+    "retirement_date",
     "knowledge_cutoff",
     "context_window",
     "max_context_window",
     "max_output_tokens",
+    "batch_max_output_tokens",
     "max_input_tokens",
     "model_type",
     "reasoning_tokens",
@@ -676,6 +734,7 @@ export function upsertModel(provider: string, entry: ModelEntry): boolean {
   const DATE_FIELDS = new Set([
     "release_date",
     "deprecation_date",
+    "retirement_date",
     "knowledge_cutoff",
     "training_data_cutoff",
   ]);

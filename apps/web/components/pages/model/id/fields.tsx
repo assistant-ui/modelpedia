@@ -10,6 +10,11 @@ function boolDisplay(value: boolean | undefined | null): string {
   return value ? "Yes" : "No";
 }
 
+const THINKING_MODE_LABELS: Record<string, string> = {
+  extended: "Extended",
+  adaptive: "Adaptive",
+};
+
 function creatorHref(
   originalModel: { provider: string; id: string } | null,
   creatorProvider: Provider | null | undefined,
@@ -125,6 +130,14 @@ export function DetailsGrid({
           dateTime={model.deprecation_date ?? undefined}
           inheritedFrom={inh("deprecation_date")}
         />
+        {model.retirement_date && (
+          <DetailCell
+            label="Retirement date"
+            value={model.retirement_date}
+            dateTime={model.retirement_date}
+            inheritedFrom={inh("retirement_date")}
+          />
+        )}
         <DetailCell
           label="Type"
           value={model.model_type ?? "—"}
@@ -143,6 +156,13 @@ export function DetailsGrid({
               : "—"
           }
         />
+        {model.batch_max_output_tokens != null && (
+          <DetailCell
+            label="Max output (batch)"
+            value={`${formatTokens(model.batch_max_output_tokens)} tokens`}
+            inheritedFrom={inh("batch_max_output_tokens")}
+          />
+        )}
         {successors && (
           <DetailCell
             label="Successor"
@@ -150,18 +170,15 @@ export function DetailsGrid({
             href={`/${model.provider}/${successors[0]}`}
           />
         )}
-        {typeof model.extended_thinking === "boolean" && (
-          <DetailCell
-            label="Extended thinking"
-            value={model.extended_thinking ? "Yes" : "No"}
-          />
-        )}
-        {typeof model.adaptive_thinking === "boolean" && (
-          <DetailCell
-            label="Adaptive thinking"
-            value={model.adaptive_thinking ? "Yes" : "No"}
-          />
-        )}
+        {Array.isArray(model.thinking_modes) &&
+          model.thinking_modes.length > 0 && (
+            <DetailCell
+              label="Thinking modes"
+              value={model.thinking_modes
+                .map((m) => THINKING_MODE_LABELS[m] ?? m)
+                .join(", ")}
+            />
+          )}
         {typeof model.priority_tier === "boolean" && (
           <DetailCell
             label="Priority tier"
@@ -175,6 +192,12 @@ export function DetailsGrid({
         />
         {model.capabilities?.prompt_caching && (
           <DetailCell label="Prompt caching" value="Supported" />
+        )}
+        {typeof model.bedrock_id === "string" && (
+          <DetailCell label="AWS Bedrock ID" value={model.bedrock_id} />
+        )}
+        {typeof model.vertex_id === "string" && (
+          <DetailCell label="GCP Vertex ID" value={model.vertex_id} />
         )}
         <DetailCell label="Source" value={model.source} />
         <DetailCell

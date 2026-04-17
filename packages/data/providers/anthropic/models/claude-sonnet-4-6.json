@@ -3,7 +3,7 @@
   "name": "Claude Sonnet 4.6",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-16",
   "family": "claude-sonnet",
   "description": "The best combination of speed and intelligence",
   "status": "active",
@@ -33,13 +33,12 @@
     "cache_write": 3.75,
     "cached_input": 0.3,
     "batch_input": 1.5,
-    "batch_output": 7.5
+    "batch_output": 7.5,
+    "cache_write_1h": 6
   },
   "tools": ["function_calling", "computer_use", "mcp"],
   "endpoints": ["messages"],
-  "extended_thinking": true,
   "training_data_cutoff": "2026-01",
-  "adaptive_thinking": true,
   "priority_tier": true,
   "_generated": {
     "name": "50184618",
@@ -55,20 +54,28 @@
     "tagline": "fe63dd05",
     "capabilities": "1616fc33",
     "modalities": "6399757e",
-    "pricing": "fb84d495",
+    "pricing": "d102a379",
     "tools": "abde16bc",
     "endpoints": "94bb8b7a",
-    "extended_thinking": "b326b506",
     "training_data_cutoff": "f534389f",
-    "adaptive_thinking": "b326b506",
     "priority_tier": "b326b506",
     "model_type": "d669f408",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "page_url": "777c7558"
+    "page_url": "777c7558",
+    "thinking_modes": "79e5fb75",
+    "bedrock_id": "d52a7741",
+    "vertex_id": "8b41d877",
+    "retirement_date": "95236215",
+    "batch_max_output_tokens": "1ded704c"
   },
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
-  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-sonnet-4-6"
+  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-sonnet-4-6",
+  "thinking_modes": ["extended", "adaptive"],
+  "bedrock_id": "anthropic.claude-sonnet-4-6",
+  "vertex_id": "claude-sonnet-4-6",
+  "retirement_date": "2027-02-17",
+  "batch_max_output_tokens": 300000
 }

@@ -3,7 +3,7 @@
   "name": "Claude Opus 4.6",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-04-08",
+  "last_updated": "2026-04-16",
   "family": "claude-opus",
   "description": "The most intelligent broadly available model for agents and coding",
   "status": "active",
@@ -33,13 +33,12 @@
     "cache_write": 6.25,
     "cached_input": 0.5,
     "batch_input": 2.5,
-    "batch_output": 12.5
+    "batch_output": 12.5,
+    "cache_write_1h": 10
   },
   "tools": ["function_calling", "computer_use", "mcp"],
   "endpoints": ["messages"],
-  "extended_thinking": true,
   "training_data_cutoff": "2025-08",
-  "adaptive_thinking": true,
   "priority_tier": true,
   "_generated": {
     "name": "3b695ed7",
@@ -55,20 +54,33 @@
     "tagline": "38adf84d",
     "capabilities": "1616fc33",
     "modalities": "6399757e",
-    "pricing": "714a9045",
+    "pricing": "93ccf380",
     "tools": "abde16bc",
     "endpoints": "94bb8b7a",
-    "extended_thinking": "b326b506",
     "training_data_cutoff": "5549a2cd",
-    "adaptive_thinking": "b326b506",
     "priority_tier": "b326b506",
     "model_type": "d669f408",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "page_url": "981b9ed8"
+    "page_url": "981b9ed8",
+    "thinking_modes": "3f7ae0d0",
+    "bedrock_id": "c1f2e8a5",
+    "vertex_id": "01ea5f9f",
+    "retirement_date": "c2546975",
+    "batch_max_output_tokens": "1ded704c",
+    "fast_mode_pricing": "a57f537b"
   },
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
-  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-6"
+  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-6",
+  "thinking_modes": ["extended"],
+  "bedrock_id": "anthropic.claude-opus-4-6-v1",
+  "vertex_id": "claude-opus-4-6",
+  "retirement_date": "2027-02-05",
+  "batch_max_output_tokens": 300000,
+  "fast_mode_pricing": {
+    "input": 30,
+    "output": 150
+  }
 }

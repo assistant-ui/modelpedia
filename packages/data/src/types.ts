@@ -53,8 +53,10 @@ export interface ModelPricing {
   output?: number | null;
   /** Cost per 1M cached input tokens (cache read) */
   cached_input?: number | null;
-  /** Cost per 1M tokens written to cache (cache write) */
+  /** Cost per 1M tokens written to cache (cache write, 5-minute default) */
   cache_write?: number | null;
+  /** Cost per 1M tokens written to cache with 1-hour TTL (Anthropic) */
+  cache_write_1h?: number | null;
   /** Cost per 1M batch input tokens */
   batch_input?: number | null;
   /** Cost per 1M batch output tokens */
@@ -115,6 +117,8 @@ export interface ModelData {
   release_date?: string | null;
   /** Deprecation date (YYYY-MM-DD), null if not deprecated */
   deprecation_date?: string | null;
+  /** Tentative retirement / shutdown date (YYYY-MM-DD) — after this, requests fail */
+  retirement_date?: string | null;
   /** Training data cutoff (YYYY-MM or YYYY-MM-DD), null if not disclosed */
   knowledge_cutoff?: string | null;
   /** Default context window in tokens, null if unlimited */
@@ -123,6 +127,8 @@ export interface ModelData {
   max_context_window?: number | null;
   /** Maximum output tokens per request, null if unlimited */
   max_output_tokens?: number | null;
+  /** Maximum output tokens per request in batch mode, if higher than max_output_tokens (e.g. Anthropic 300k beta) */
+  batch_max_output_tokens?: number | null;
   /** Maximum input tokens per request (if different from context_window), null if same */
   max_input_tokens?: number | null;
   /** Model capabilities */
