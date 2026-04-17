@@ -1,8 +1,13 @@
+import * as fs from "node:fs";
+import * as path from "node:path";
 import {
   envOrNull,
+  fetchCached,
   inferFamily,
   type ModelEntry,
   normalizeDate,
+  PROVIDERS_DIR,
+  parseMarkdownTable,
   readSources,
   runGenerate,
   upsertModel,
@@ -21,6 +26,9 @@ interface ModelSpec {
   training_data_cutoff?: string;
   latency?: string;
   extended_thinking?: boolean;
+  adaptive_thinking?: boolean;
+  bedrock_id?: string;
+  vertex_id?: string;
   deprecated?: boolean;
   pricing_input?: number;
   pricing_output?: number;
@@ -31,23 +39,6 @@ interface ModelSpec {
 const sources = readSources("anthropic");
 const MODELS_MD = sources.models as string;
 const PRICING_MD = sources.pricing as string;
-
-// ── Markdown table parser ──
-
-function parseMarkdownTable(lines: string[]): string[][] {
-  const rows: string[][] = [];
-  for (const line of lines) {
-    if (!line.startsWith("|")) continue;
-    // Skip separator rows
-    if (/^\|[\s:-]+\|$/.test(line.replace(/[|:\-\s]/g, ""))) continue;
-    const cells = line
-      .split("|")
-      .slice(1, -1)
-      .map((c) => c.replace(/\*\*/g, "").trim());
-    rows.push(cells);
-  }
-  return rows;
-}
 
 function parseTokenCount(s: string): number | undefined {
   // Handle: "1M tokens", "200k tokens", "128k tokens",
@@ -143,6 +134,20 @@ function parseModelsMarkdown(md: string): ModelSpec[] {
           m.latency = val;
         } else if (feature.includes("Extended thinking")) {
           m.extended_thinking = val === "Yes";
+        } else if (feature.includes("Adaptive thinking")) {
+          m.adaptive_thinking = val === "Yes";
+        } else if (feature.includes("AWS Bedrock ID")) {
+          const clean = val
+            .replace(/<sup>.*?<\/sup>/g, "")
+            .replace(/<[^>]+>/g, "")
+            .trim();
+          if (clean && clean !== "N/A") m.bedrock_id = clean;
+        } else if (feature.includes("Vertex AI ID")) {
+          const clean = val
+            .replace(/<sup>.*?<\/sup>/g, "")
+            .replace(/<[^>]+>/g, "")
+            .trim();
+          if (clean && clean !== "N/A") m.vertex_id = clean;
         }
       }
     }
@@ -156,17 +161,27 @@ function parseModelsMarkdown(md: string): ModelSpec[] {
 
 // ── Parse pricing page ──
 
+interface ModelPricing {
+  input: number;
+  output: number;
+  cached_input: number;
+  cache_write: number;
+  cache_write_1h?: number;
+}
+
+function cleanPricingName(s: string): string {
+  return s
+    .replace(/\(?\[.*?\]\(.*?\)\)?/g, "")
+    .replace(/\(deprecated\)/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function parsePricingMarkdown(md: string): {
-  pricing: Map<
-    string,
-    { input: number; output: number; cached_input: number; cache_write: number }
-  >;
+  pricing: Map<string, ModelPricing>;
   batch: Map<string, { batch_input: number; batch_output: number }>;
 } {
-  const pricing = new Map<
-    string,
-    { input: number; output: number; cached_input: number; cache_write: number }
-  >();
+  const pricing = new Map<string, ModelPricing>();
   const batch = new Map<
     string,
     { batch_input: number; batch_output: number }
@@ -190,41 +205,59 @@ function parsePricingMarkdown(md: string): {
     const rows = parseMarkdownTable(tableLines);
     if (rows.length < 2) continue;
 
-    const header = rows[0].join(" ").toLowerCase();
+    const headers = rows[0].map((h) => h.toLowerCase());
+    const headerStr = headers.join(" ");
 
-    if (header.includes("base input") && header.includes("cache")) {
-      // Model pricing: Model | Base Input | 5m Cache Writes | 1h Cache Writes | Cache Hits | Output
+    if (headerStr.includes("base input") && headerStr.includes("cache")) {
+      // Model pricing: resolve columns by header, not by index, so upstream
+      // column order changes don't silently shift values.
+      const inputIdx = headers.findIndex((h) => h.includes("base input"));
+      const cache5mIdx = headers.findIndex((h) =>
+        /5\s*m(?:in)?\s*cache/.test(h),
+      );
+      const cache1hIdx = headers.findIndex((h) =>
+        /1\s*h(?:our|r)?\s*cache/.test(h),
+      );
+      const hitsIdx = headers.findIndex((h) => h.includes("cache hit"));
+      const outputIdx = headers.findIndex(
+        (h) => h.includes("output") && !h.includes("batch"),
+      );
+
       for (const row of rows.slice(1)) {
-        const name = row[0]
-          ?.replace(/\(?\[.*?\]\(.*?\)\)?/g, "")
-          .replace(/\(deprecated\)/g, "")
-          .replace(/\s+/g, " ")
-          .trim();
-        const input = parseDollar(row[1]);
-        const cacheWrite = parseDollar(row[2]);
-        const cachedInput = parseDollar(row[4]);
-        const output = parseDollar(row[5]);
+        const name = cleanPricingName(row[0] ?? "");
+        const input = inputIdx >= 0 ? parseDollar(row[inputIdx]) : undefined;
+        const output = outputIdx >= 0 ? parseDollar(row[outputIdx]) : undefined;
+        const cacheWrite5m =
+          cache5mIdx >= 0 ? parseDollar(row[cache5mIdx]) : undefined;
+        const cacheWrite1h =
+          cache1hIdx >= 0 ? parseDollar(row[cache1hIdx]) : undefined;
+        const cachedInput =
+          hitsIdx >= 0 ? parseDollar(row[hitsIdx]) : undefined;
+
         if (name && input != null && output != null) {
-          pricing.set(name, {
+          const entry: ModelPricing = {
             input,
             output,
-            cache_write: cacheWrite ?? input * 1.25,
+            cache_write: cacheWrite5m ?? input * 1.25,
             cached_input: cachedInput ?? input * 0.1,
-          });
+          };
+          if (cacheWrite1h != null) entry.cache_write_1h = cacheWrite1h;
+          pricing.set(name, entry);
         }
       }
     } else if (
-      header.includes("batch input") &&
-      header.includes("batch output")
+      headerStr.includes("batch input") &&
+      headerStr.includes("batch output")
     ) {
+      const batchInIdx = headers.findIndex((h) => h.includes("batch input"));
+      const batchOutIdx = headers.findIndex((h) => h.includes("batch output"));
+
       for (const row of rows.slice(1)) {
-        const name = row[0]
-          ?.replace(/\(?\[.*?\]\(.*?\)\)?/g, "")
-          .replace(/\(deprecated\)/g, "")
-          .replace(/\s+/g, " ")
-          .trim();
-        const batchIn = parseDollar(row[1]);
-        const batchOut = parseDollar(row[2]);
+        const name = cleanPricingName(row[0] ?? "");
+        const batchIn =
+          batchInIdx >= 0 ? parseDollar(row[batchInIdx]) : undefined;
+        const batchOut =
+          batchOutIdx >= 0 ? parseDollar(row[batchOutIdx]) : undefined;
         if (name && batchIn != null && batchOut != null) {
           batch.set(name, { batch_input: batchIn, batch_output: batchOut });
         }
@@ -235,6 +268,94 @@ function parsePricingMarkdown(md: string): {
   }
 
   return { pricing, batch };
+}
+
+// ── Parse batch extended-output beta ──
+//
+// Upstream note (on the models overview page):
+//   "On the Message Batches API, Opus 4.7, Opus 4.6, and Sonnet 4.6 support
+//    up to 300k output tokens by using the `output-300k-...` beta header."
+// Extract the model list + token count so we can surface it per model.
+
+interface BatchExtendedOutput {
+  models: string[];
+  tokens: number;
+}
+
+function parseBatchExtendedOutput(md: string): BatchExtendedOutput | null {
+  const phraseIdx = md.search(/support\s+up\s+to\s+\d+k\s+output\s+tokens/i);
+  if (phraseIdx < 0) return null;
+
+  const tail = md.slice(phraseIdx);
+  const countMatch = tail.match(
+    /support\s+up\s+to\s+(\d+)k\s+output\s+tokens/i,
+  );
+  if (!countMatch) return null;
+  const tokens = Number(countMatch[1]) * 1000;
+
+  // Grab a short window of text before the phrase to scrape the model list.
+  const before = md.slice(Math.max(0, phraseIdx - 300), phraseIdx);
+  const modelRegex = /(?:Claude\s+)?(?:Opus|Sonnet|Haiku)\s+\d+(?:\.\d+)?/gi;
+  const models = Array.from(before.matchAll(modelRegex), (m) =>
+    /^claude\b/i.test(m[0]) ? m[0] : `Claude ${m[0]}`,
+  );
+  if (models.length === 0) return null;
+
+  return { models, tokens };
+}
+
+// ── Parse fast mode pricing (Anthropic-specific premium tier) ──
+
+interface FastModePricing {
+  models: string[]; // display names, e.g. ["Claude Opus 4.6"]
+  input: number;
+  output: number;
+}
+
+function parseFastModePricing(md: string): FastModePricing | null {
+  const hdrIdx = md.search(/###\s+Fast\s+mode\s+pricing/i);
+  if (hdrIdx === -1) return null;
+
+  // Slice to end of this H3 section
+  const rest = md.slice(hdrIdx);
+  const nextSection = rest.slice(3).search(/^###\s+/m);
+  const section = nextSection >= 0 ? rest.slice(0, nextSection + 3) : rest;
+
+  // Extract supported model names from prose ("... supported on Opus 4.6:").
+  // Allow `.` inside the captured span so version numbers like "4.6" survive,
+  // but stop at end-of-sentence markers (:, newline).
+  const sup = section.match(/supported\s+on\s+([^:\n]+?)\s*[:\n]/i);
+  const models: string[] = [];
+  if (sup) {
+    for (const part of sup[1].split(/\s*(?:,|\band\b)\s*/)) {
+      const trimmed = part.replace(/\s+/g, " ").trim().replace(/\.$/, "");
+      if (!trimmed) continue;
+      models.push(/^claude\b/i.test(trimmed) ? trimmed : `Claude ${trimmed}`);
+    }
+  }
+
+  // Pull the first pipe-table in the section
+  const lines = section.split("\n");
+  let i = lines.findIndex((l) => l.startsWith("|"));
+  if (i < 0) return null;
+  const tableLines: string[] = [];
+  while (i < lines.length && lines[i].startsWith("|")) {
+    tableLines.push(lines[i]);
+    i++;
+  }
+  const rows = parseMarkdownTable(tableLines);
+  if (rows.length < 2) return null;
+
+  const headers = rows[0].map((h) => h.toLowerCase());
+  const inputIdx = headers.findIndex((h) => h.includes("input"));
+  const outputIdx = headers.findIndex((h) => h.includes("output"));
+  if (inputIdx < 0 || outputIdx < 0) return null;
+
+  const input = parseDollar(rows[1][inputIdx] ?? "");
+  const output = parseDollar(rows[1][outputIdx] ?? "");
+  if (input == null || output == null) return null;
+
+  return { models, input, output };
 }
 
 // ── Parse deprecations page ──
@@ -343,6 +464,32 @@ function latencyToSpeed(latency: string | undefined): number | undefined {
   return undefined;
 }
 
+/** Extract YYYY-MM-DD from a dated snapshot suffix (e.g. claude-opus-4-5-20251101). */
+function dateFromSnapshotId(id: string): string | undefined {
+  const m = id.match(/-(\d{4})(\d{2})(\d{2})$/);
+  if (!m) return undefined;
+  return `${m[1]}-${m[2]}-${m[3]}`;
+}
+
+/**
+ * Resolve a pricing-table display name to a model ID.
+ * Falls back to the NAME_TO_ID table for 3.x (inverted) naming, then to a
+ * deterministic rule for 4.x+ names so new releases don't need a mapping bump.
+ */
+function nameToId(name: string): string | undefined {
+  if (NAME_TO_ID[name]) return NAME_TO_ID[name];
+  // "Claude Opus 4.7" → "claude-opus-4-7", "Claude Sonnet 5" → "claude-sonnet-5-0"
+  const m = name.match(/^Claude\s+(Opus|Sonnet|Haiku)\s+(\d+)(?:\.(\d+))?$/i);
+  if (!m) return undefined;
+  const family = m[1].toLowerCase();
+  const major = m[2];
+  // Only auto-derive for 4.x+ (3.x and older use inverted "claude-3-5-haiku" style,
+  // which must stay in NAME_TO_ID).
+  if (Number(major) < 4) return undefined;
+  const minor = m[3] ?? "0";
+  return `claude-${family}-${major}-${minor}`;
+}
+
 // ── API fetch (optional, for release dates) ──
 
 interface ApiModel {
@@ -382,15 +529,30 @@ async function main() {
 
   const DEPRECATIONS_MD = sources.deprecations as string;
 
-  const [modelsMd, pricingMd, deprecationsMd] = await Promise.all([
-    fetch(MODELS_MD).then((r) => r.text()),
-    fetch(PRICING_MD).then((r) => r.text()),
-    fetch(DEPRECATIONS_MD).then((r) => r.text()),
+  const [modelsRes, pricingRes, deprecationsRes] = await Promise.allSettled([
+    fetchCached(MODELS_MD, { scope: "anthropic", label: "models" }),
+    fetchCached(PRICING_MD, { scope: "anthropic", label: "pricing" }),
+    fetchCached(DEPRECATIONS_MD, { scope: "anthropic", label: "deprecations" }),
   ]);
+  if (modelsRes.status !== "fulfilled")
+    throw new Error(`Failed to fetch models page: ${modelsRes.reason}`);
+  if (pricingRes.status !== "fulfilled")
+    throw new Error(`Failed to fetch pricing page: ${pricingRes.reason}`);
+  const modelsMd = modelsRes.value;
+  const pricingMd = pricingRes.value;
+  const deprecationsMd =
+    deprecationsRes.status === "fulfilled" ? deprecationsRes.value : "";
+  if (deprecationsRes.status !== "fulfilled") {
+    console.warn(
+      `Deprecations page fetch failed — continuing without: ${deprecationsRes.reason}`,
+    );
+  }
 
   const specs = parseModelsMarkdown(modelsMd);
   const { pricing, batch } = parsePricingMarkdown(pricingMd);
   const deprecations = parseDeprecationsMarkdown(deprecationsMd);
+  const fastMode = parseFastModePricing(pricingMd);
+  const batchExtended = parseBatchExtendedOutput(modelsMd);
 
   console.log(
     `Parsed: ${specs.length} models from docs, ${pricing.size} pricing, ${batch.size} batch, ${deprecations.size} deprecation entries`,
@@ -405,18 +567,12 @@ async function main() {
     console.log(`Found ${apiModels.size} models from API`);
   }
 
-  function findPricing(name: string) {
-    if (pricing.has(name)) return pricing.get(name);
-    for (const [k, v] of pricing)
-      if (name.includes(k) || k.includes(name)) return v;
-    return undefined;
-  }
-  function findBatch(name: string) {
-    if (batch.has(name)) return batch.get(name);
-    for (const [k, v] of batch)
-      if (name.includes(k) || k.includes(name)) return v;
-    return undefined;
-  }
+  // Exact-match lookups. Both tables are keyed by cleaned display names
+  // (via cleanPricingName), so a substring fallback would just risk cross-
+  // matching versions (e.g. "Claude Opus 4" vs "Claude Opus 4.7"). If an
+  // upstream label drifts, better to fail loudly than silently mispricing.
+  const findPricing = (name: string) => pricing.get(name);
+  const findBatch = (name: string) => batch.get(name);
 
   const seen = new Set<string>();
   let written = 0;
@@ -439,8 +595,15 @@ async function main() {
     const b = findBatch(spec.name);
     const apiModel = apiModels.get(id);
 
+    // Thinking modes: collect each parsed mode into a single array so new
+    // modes (e.g. "radical") can be added without new boolean fields.
+    const thinkingModes: string[] = [];
+    if (spec.extended_thinking) thinkingModes.push("extended");
+    if (spec.adaptive_thinking) thinkingModes.push("adaptive");
+    const hasThinking = thinkingModes.length > 0;
+
     const tools: string[] = ["function_calling"];
-    if (spec.extended_thinking) tools.push("computer_use", "mcp");
+    if (hasThinking) tools.push("computer_use", "mcp");
 
     // Infer performance rating from model family
     const family = inferFamily(id);
@@ -453,16 +616,19 @@ async function main() {
 
     // Anthropic-specific fields (provider extensions, not in ModelEntry schema)
     const anthropicFields: Record<string, unknown> = {};
-    if (spec.extended_thinking != null)
-      anthropicFields.extended_thinking = spec.extended_thinking;
-    // Adaptive thinking: available on Opus 4.6, Sonnet 4.6 (not Haiku 4.5, not legacy)
-    if (
-      spec.extended_thinking &&
-      (id.includes("opus-4-6") || id.includes("sonnet-4-6"))
-    )
-      anthropicFields.adaptive_thinking = true;
+    if (thinkingModes.length > 0)
+      anthropicFields.thinking_modes = thinkingModes;
+    if (spec.bedrock_id) anthropicFields.bedrock_id = spec.bedrock_id;
+    if (spec.vertex_id) anthropicFields.vertex_id = spec.vertex_id;
     // Priority tier: all current models support it
     if (!spec.deprecated) anthropicFields.priority_tier = true;
+    // Fast mode (beta premium pricing) — only on specific models
+    if (fastMode?.models.includes(spec.name)) {
+      anthropicFields.fast_mode_pricing = {
+        input: fastMode.input,
+        output: fastMode.output,
+      };
+    }
 
     // Deprecation info from deprecations page
     // Try exact match first, then find snapshot entries that start with this alias
@@ -487,23 +653,27 @@ async function main() {
       page_url: `https://docs.anthropic.com/en/docs/about-claude/models#${id}`,
       status,
       deprecation_date: dep?.deprecation_date,
+      retirement_date: dep?.retirement_date,
       successor: dep?.successor,
       context_window: spec.context_window,
       max_output_tokens: spec.max_output_tokens,
+      batch_max_output_tokens: batchExtended?.models.includes(spec.name)
+        ? batchExtended.tokens
+        : undefined,
       knowledge_cutoff: spec.knowledge_cutoff,
       training_data_cutoff: spec.training_data_cutoff
         ? normalizeDate(spec.training_data_cutoff)
         : undefined,
       speed: latencyToSpeed(spec.latency),
       performance,
-      reasoning: spec.extended_thinking ? performance : undefined,
+      reasoning: hasThinking ? performance : undefined,
       modalities: { input: ["text", "image"], output: ["text"] },
       capabilities: {
         streaming: true,
         vision: true,
         tool_call: true,
         ...(!spec.deprecated ? { batch: true } : {}),
-        ...(spec.extended_thinking
+        ...(hasThinking
           ? { reasoning: true, structured_output: true, json_mode: true }
           : {}),
       },
@@ -519,6 +689,9 @@ async function main() {
         output: p.output,
         cache_write: p.cache_write,
         cached_input: p.cached_input,
+        ...(p.cache_write_1h != null
+          ? { cache_write_1h: p.cache_write_1h }
+          : {}),
         ...(b
           ? { batch_input: b.batch_input, batch_output: b.batch_output }
           : {}),
@@ -527,6 +700,10 @@ async function main() {
 
     if (apiModel?.created_at) {
       entry.release_date = apiModel.created_at.split("T")[0];
+    } else {
+      // Fallback: snapshot IDs encode their release date as YYYYMMDD suffix.
+      const fromId = dateFromSnapshotId(id);
+      if (fromId) entry.release_date = fromId;
     }
 
     return entry;
@@ -568,7 +745,7 @@ async function main() {
 
   // Pricing-only models not in overview
   for (const [name, p] of pricing) {
-    const id = NAME_TO_ID[name];
+    const id = nameToId(name);
     if (!id || seen.has(id)) continue;
     seen.add(id);
     const b = findBatch(name);
@@ -588,6 +765,7 @@ async function main() {
       page_url: `https://docs.anthropic.com/en/docs/about-claude/models#${id}`,
       status: isDeprecated ? "deprecated" : undefined,
       deprecation_date: dep?.deprecation_date,
+      retirement_date: dep?.retirement_date,
       successor: dep?.successor,
       modalities: { input: ["text", "image"], output: ["text"] },
       capabilities: {
@@ -603,14 +781,50 @@ async function main() {
         output: p.output,
         cache_write: p.cache_write,
         cached_input: p.cached_input,
+        ...(p.cache_write_1h != null
+          ? { cache_write_1h: p.cache_write_1h }
+          : {}),
         ...(b
           ? { batch_input: b.batch_input, batch_output: b.batch_output }
           : {}),
       },
     };
-    if (apiModel?.created_at)
+    if (apiModel?.created_at) {
       entry.release_date = apiModel.created_at.split("T")[0];
+    } else {
+      const fromId = dateFromSnapshotId(id);
+      if (fromId) entry.release_date = fromId;
+    }
     if (upsertModel("anthropic", entry)) written++;
+  }
+
+  // One-time migration: drop legacy boolean thinking fields now that
+  // thinking_modes supersedes them. Idempotent — safe to keep running.
+  const LEGACY_FIELDS = ["extended_thinking", "adaptive_thinking"] as const;
+  const modelDir = path.join(PROVIDERS_DIR, "anthropic", "models");
+  for (const file of fs.readdirSync(modelDir)) {
+    if (!file.endsWith(".json")) continue;
+    const filePath = path.join(modelDir, file);
+    const data = JSON.parse(fs.readFileSync(filePath, "utf-8")) as Record<
+      string,
+      unknown
+    >;
+    const gen = data._generated as Record<string, string> | undefined;
+    let changed = false;
+    for (const key of LEGACY_FIELDS) {
+      if (key in data) {
+        delete data[key];
+        changed = true;
+      }
+      if (gen && key in gen) {
+        delete gen[key];
+        changed = true;
+      }
+    }
+    if (changed) {
+      fs.writeFileSync(filePath, `${JSON.stringify(data, null, 2)}\n`, "utf-8");
+      console.log(`  cleaned legacy fields from ${file}`);
+    }
   }
 
   console.log(`Wrote ${written} models`);
