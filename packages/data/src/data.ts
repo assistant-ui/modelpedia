@@ -4941,7 +4941,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Haiku 3.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-16",
         "family": "claude-haiku",
         "capabilities": {
           "streaming": true,
@@ -4964,7 +4964,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 1,
           "cached_input": 0.08,
           "batch_input": 0.4,
-          "batch_output": 2
+          "batch_output": 2,
+          "cache_write_1h": 1.6
         },
         "tools": [
           "function_calling"
@@ -4978,7 +4979,8 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-3-5-haiku",
         "status": "deprecated",
         "deprecation_date": "2025-12-19",
-        "successor": "claude-haiku-4-5-20251001"
+        "successor": "claude-haiku-4-5-20251001",
+        "retirement_date": "2026-02-19"
       },
       {
         "id": "claude-3-7-sonnet",
@@ -5008,7 +5010,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 3.75,
           "cached_input": 0.3,
           "batch_input": 1.5,
-          "batch_output": 7.5
+          "batch_output": 7.5,
+          "cache_write_1h": 6
         },
         "tools": [
           "function_calling"
@@ -5022,14 +5025,15 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-3-7-sonnet",
         "status": "deprecated",
         "deprecation_date": "2025-10-28",
-        "successor": "claude-sonnet-4-6"
+        "successor": "claude-sonnet-4-6",
+        "retirement_date": "2026-02-19"
       },
       {
         "id": "claude-3-haiku-20240307",
         "name": "Claude Haiku 3",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-16",
         "family": "claude-haiku",
         "status": "deprecated",
         "context_window": 200000,
@@ -5057,7 +5061,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 0.3,
           "cached_input": 0.03,
           "batch_input": 0.125,
-          "batch_output": 0.625
+          "batch_output": 0.625,
+          "cache_write_1h": 0.5
         },
         "tools": [
           "function_calling"
@@ -5065,20 +5070,23 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": false,
         "training_data_cutoff": "2023-08",
         "model_type": "chat",
         "license": "proprietary",
         "open_weight": false,
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-3-haiku-20240307",
-        "deprecation_date": "2026-02-19"
+        "deprecation_date": "2026-02-19",
+        "release_date": "2024-03-07",
+        "bedrock_id": "anthropic.claude-3-haiku-20240307-v1:0",
+        "vertex_id": "claude-3-haiku@20240307",
+        "retirement_date": "2026-04-20"
       },
       {
         "id": "claude-3-haiku",
         "name": "Claude Haiku 3",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-16",
         "family": "claude-haiku",
         "capabilities": {
           "streaming": true,
@@ -5101,7 +5109,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 0.3,
           "cached_input": 0.03,
           "batch_input": 0.125,
-          "batch_output": 0.625
+          "batch_output": 0.625,
+          "cache_write_1h": 0.5
         },
         "tools": [
           "function_calling"
@@ -5115,7 +5124,8 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-3-haiku",
         "status": "deprecated",
         "deprecation_date": "2026-02-19",
-        "successor": "claude-haiku-4-5-20251001"
+        "successor": "claude-haiku-4-5-20251001",
+        "retirement_date": "2026-04-20"
       },
       {
         "id": "claude-3-opus",
@@ -5145,7 +5155,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 18.75,
           "cached_input": 1.5,
           "batch_input": 7.5,
-          "batch_output": 37.5
+          "batch_output": 37.5,
+          "cache_write_1h": 30
         },
         "tools": [
           "function_calling"
@@ -5165,7 +5176,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Haiku 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-16",
         "family": "claude-haiku",
         "description": "The fastest model with near-frontier intelligence",
         "status": "active",
@@ -5201,7 +5212,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 1.25,
           "cached_input": 0.1,
           "batch_input": 0.5,
-          "batch_output": 2.5
+          "batch_output": 2.5,
+          "cache_write_1h": 2
         },
         "tools": [
           "function_calling",
@@ -5211,20 +5223,26 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": true,
         "training_data_cutoff": "2025-07",
         "priority_tier": true,
         "model_type": "chat",
         "license": "proprietary",
         "open_weight": false,
-        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-haiku-4-5-20251001"
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-haiku-4-5-20251001",
+        "release_date": "2025-10-01",
+        "thinking_modes": [
+          "extended"
+        ],
+        "bedrock_id": "anthropic.claude-haiku-4-5-20251001-v1:0",
+        "vertex_id": "claude-haiku-4-5@20251001",
+        "retirement_date": "2026-10-15"
       },
       {
         "id": "claude-haiku-4-5",
         "name": "Claude Haiku 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-16",
         "family": "claude-haiku",
         "description": "The fastest model with near-frontier intelligence",
         "status": "active",
@@ -5259,7 +5277,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 1.25,
           "cached_input": 0.1,
           "batch_input": 0.5,
-          "batch_output": 2.5
+          "batch_output": 2.5,
+          "cache_write_1h": 2
         },
         "tools": [
           "function_calling",
@@ -5269,7 +5288,6 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": true,
         "training_data_cutoff": "2025-07",
         "priority_tier": true,
         "snapshots": [
@@ -5278,7 +5296,13 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "proprietary",
         "open_weight": false,
-        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-haiku-4-5"
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-haiku-4-5",
+        "thinking_modes": [
+          "extended"
+        ],
+        "bedrock_id": "anthropic.claude-haiku-4-5-20251001-v1:0",
+        "vertex_id": "claude-haiku-4-5@20251001",
+        "retirement_date": "2026-10-15"
       },
       {
         "id": "claude-opus-4-0",
@@ -5318,7 +5342,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 18.75,
           "cached_input": 1.5,
           "batch_input": 7.5,
-          "batch_output": 37.5
+          "batch_output": 37.5,
+          "cache_write_1h": 30
         },
         "tools": [
           "function_calling",
@@ -5328,7 +5353,6 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": true,
         "training_data_cutoff": "2025-03",
         "priority_tier": true,
         "snapshots": [
@@ -5337,14 +5361,19 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "proprietary",
         "open_weight": false,
-        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-0"
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-0",
+        "thinking_modes": [
+          "extended"
+        ],
+        "bedrock_id": "anthropic.claude-opus-4-20250514-v1:0",
+        "vertex_id": "claude-opus-4@20250514"
       },
       {
         "id": "claude-opus-4-1-20250805",
         "name": "Claude Opus 4.1",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-16",
         "family": "claude-opus",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -5378,7 +5407,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 18.75,
           "cached_input": 1.5,
           "batch_input": 7.5,
-          "batch_output": 37.5
+          "batch_output": 37.5,
+          "cache_write_1h": 30
         },
         "tools": [
           "function_calling",
@@ -5388,20 +5418,26 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": true,
         "training_data_cutoff": "2025-03",
         "priority_tier": true,
         "model_type": "chat",
         "license": "proprietary",
         "open_weight": false,
-        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-1-20250805"
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-1-20250805",
+        "release_date": "2025-08-05",
+        "thinking_modes": [
+          "extended"
+        ],
+        "bedrock_id": "anthropic.claude-opus-4-1-20250805-v1:0",
+        "vertex_id": "claude-opus-4-1@20250805",
+        "retirement_date": "2026-08-05"
       },
       {
         "id": "claude-opus-4-1",
         "name": "Claude Opus 4.1",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-16",
         "family": "claude-opus",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -5434,7 +5470,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 18.75,
           "cached_input": 1.5,
           "batch_input": 7.5,
-          "batch_output": 37.5
+          "batch_output": 37.5,
+          "cache_write_1h": 30
         },
         "tools": [
           "function_calling",
@@ -5444,7 +5481,6 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": true,
         "training_data_cutoff": "2025-03",
         "priority_tier": true,
         "snapshots": [
@@ -5453,7 +5489,13 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "proprietary",
         "open_weight": false,
-        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-1"
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-1",
+        "thinking_modes": [
+          "extended"
+        ],
+        "bedrock_id": "anthropic.claude-opus-4-1-20250805-v1:0",
+        "vertex_id": "claude-opus-4-1@20250805",
+        "retirement_date": "2026-08-05"
       },
       {
         "id": "claude-opus-4-20250514",
@@ -5494,7 +5536,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 18.75,
           "cached_input": 1.5,
           "batch_input": 7.5,
-          "batch_output": 37.5
+          "batch_output": 37.5,
+          "cache_write_1h": 30
         },
         "tools": [
           "function_calling",
@@ -5504,7 +5547,6 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": true,
         "training_data_cutoff": "2025-03",
         "priority_tier": true,
         "model_type": "chat",
@@ -5512,14 +5554,21 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-20250514",
         "deprecation_date": "2026-04-14",
-        "successor": "claude-opus-4-7"
+        "successor": "claude-opus-4-7",
+        "release_date": "2025-05-14",
+        "thinking_modes": [
+          "extended"
+        ],
+        "bedrock_id": "anthropic.claude-opus-4-20250514-v1:0",
+        "vertex_id": "claude-opus-4@20250514",
+        "retirement_date": "2026-06-15"
       },
       {
         "id": "claude-opus-4-5-20251101",
         "name": "Claude Opus 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-16",
         "family": "claude-opus",
         "status": "active",
         "knowledge_cutoff": "2025-05",
@@ -5553,7 +5602,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 6.25,
           "cached_input": 0.5,
           "batch_input": 2.5,
-          "batch_output": 12.5
+          "batch_output": 12.5,
+          "cache_write_1h": 10
         },
         "tools": [
           "function_calling",
@@ -5563,20 +5613,26 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": true,
         "training_data_cutoff": "2025-08",
         "priority_tier": true,
         "model_type": "chat",
         "license": "proprietary",
         "open_weight": false,
-        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-5-20251101"
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-5-20251101",
+        "release_date": "2025-11-01",
+        "thinking_modes": [
+          "extended"
+        ],
+        "bedrock_id": "anthropic.claude-opus-4-5-20251101-v1:0",
+        "vertex_id": "claude-opus-4-5@20251101",
+        "retirement_date": "2026-11-24"
       },
       {
         "id": "claude-opus-4-5",
         "name": "Claude Opus 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-16",
         "family": "claude-opus",
         "status": "active",
         "knowledge_cutoff": "2025-05",
@@ -5609,7 +5665,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 6.25,
           "cached_input": 0.5,
           "batch_input": 2.5,
-          "batch_output": 12.5
+          "batch_output": 12.5,
+          "cache_write_1h": 10
         },
         "tools": [
           "function_calling",
@@ -5619,7 +5676,6 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": true,
         "training_data_cutoff": "2025-08",
         "priority_tier": true,
         "snapshots": [
@@ -5628,14 +5684,20 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "proprietary",
         "open_weight": false,
-        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-5"
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-5",
+        "thinking_modes": [
+          "extended"
+        ],
+        "bedrock_id": "anthropic.claude-opus-4-5-20251101-v1:0",
+        "vertex_id": "claude-opus-4-5@20251101",
+        "retirement_date": "2026-11-24"
       },
       {
         "id": "claude-opus-4-6",
         "name": "Claude Opus 4.6",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-04-08",
+        "last_updated": "2026-04-16",
         "family": "claude-opus",
         "description": "The most intelligent broadly available model for agents and coding",
         "status": "active",
@@ -5670,7 +5732,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 6.25,
           "cached_input": 0.5,
           "batch_input": 2.5,
-          "batch_output": 12.5
+          "batch_output": 12.5,
+          "cache_write_1h": 10
         },
         "tools": [
           "function_calling",
@@ -5680,14 +5743,23 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": true,
         "training_data_cutoff": "2025-08",
-        "adaptive_thinking": true,
         "priority_tier": true,
         "model_type": "chat",
         "license": "proprietary",
         "open_weight": false,
-        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-6"
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-6",
+        "thinking_modes": [
+          "extended"
+        ],
+        "bedrock_id": "anthropic.claude-opus-4-6-v1",
+        "vertex_id": "claude-opus-4-6",
+        "retirement_date": "2027-02-05",
+        "batch_max_output_tokens": 300000,
+        "fast_mode_pricing": {
+          "input": 30,
+          "output": 150
+        }
       },
       {
         "id": "claude-opus-4-7",
@@ -5711,7 +5783,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "batch": true
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "modalities": {
           "input": [
@@ -5728,18 +5803,28 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 6.25,
           "cached_input": 0.5,
           "batch_input": 2.5,
-          "batch_output": 12.5
+          "batch_output": 12.5,
+          "cache_write_1h": 10
         },
         "open_weight": false,
         "tools": [
-          "function_calling"
+          "function_calling",
+          "computer_use",
+          "mcp"
         ],
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": false,
         "priority_tier": true,
-        "last_updated": "2026-04-16"
+        "last_updated": "2026-04-16",
+        "reasoning": 5,
+        "thinking_modes": [
+          "adaptive"
+        ],
+        "bedrock_id": "anthropic.claude-opus-4-7",
+        "vertex_id": "claude-opus-4-7",
+        "retirement_date": "2027-04-16",
+        "batch_max_output_tokens": 300000
       },
       {
         "id": "claude-sonnet-4-0",
@@ -5779,7 +5864,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 3.75,
           "cached_input": 0.3,
           "batch_input": 1.5,
-          "batch_output": 7.5
+          "batch_output": 7.5,
+          "cache_write_1h": 6
         },
         "tools": [
           "function_calling",
@@ -5789,7 +5875,6 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": true,
         "training_data_cutoff": "2025-03",
         "priority_tier": true,
         "snapshots": [
@@ -5798,7 +5883,12 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "proprietary",
         "open_weight": false,
-        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-sonnet-4-0"
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-sonnet-4-0",
+        "thinking_modes": [
+          "extended"
+        ],
+        "bedrock_id": "anthropic.claude-sonnet-4-20250514-v1:0",
+        "vertex_id": "claude-sonnet-4@20250514"
       },
       {
         "id": "claude-sonnet-4-20250514",
@@ -5839,7 +5929,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 3.75,
           "cached_input": 0.3,
           "batch_input": 1.5,
-          "batch_output": 7.5
+          "batch_output": 7.5,
+          "cache_write_1h": 6
         },
         "tools": [
           "function_calling",
@@ -5849,7 +5940,6 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": true,
         "training_data_cutoff": "2025-03",
         "priority_tier": true,
         "model_type": "chat",
@@ -5857,14 +5947,21 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-sonnet-4-20250514",
         "deprecation_date": "2026-04-14",
-        "successor": "claude-sonnet-4-6"
+        "successor": "claude-sonnet-4-6",
+        "release_date": "2025-05-14",
+        "thinking_modes": [
+          "extended"
+        ],
+        "bedrock_id": "anthropic.claude-sonnet-4-20250514-v1:0",
+        "vertex_id": "claude-sonnet-4@20250514",
+        "retirement_date": "2026-06-15"
       },
       {
         "id": "claude-sonnet-4-5-20250929",
         "name": "Claude Sonnet 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-04-01",
+        "last_updated": "2026-04-16",
         "family": "claude-sonnet",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -5898,7 +5995,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 3.75,
           "cached_input": 0.3,
           "batch_input": 1.5,
-          "batch_output": 7.5
+          "batch_output": 7.5,
+          "cache_write_1h": 6
         },
         "tools": [
           "function_calling",
@@ -5908,20 +6006,26 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": true,
         "training_data_cutoff": "2025-07",
         "priority_tier": true,
         "model_type": "chat",
         "license": "proprietary",
         "open_weight": false,
-        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-sonnet-4-5-20250929"
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-sonnet-4-5-20250929",
+        "release_date": "2025-09-29",
+        "thinking_modes": [
+          "extended"
+        ],
+        "bedrock_id": "anthropic.claude-sonnet-4-5-20250929-v1:0",
+        "vertex_id": "claude-sonnet-4-5@20250929",
+        "retirement_date": "2026-09-29"
       },
       {
         "id": "claude-sonnet-4-5",
         "name": "Claude Sonnet 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-04-01",
+        "last_updated": "2026-04-16",
         "family": "claude-sonnet",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -5954,7 +6058,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 3.75,
           "cached_input": 0.3,
           "batch_input": 1.5,
-          "batch_output": 7.5
+          "batch_output": 7.5,
+          "cache_write_1h": 6
         },
         "tools": [
           "function_calling",
@@ -5964,7 +6069,6 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": true,
         "training_data_cutoff": "2025-07",
         "priority_tier": true,
         "snapshots": [
@@ -5973,14 +6077,20 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "proprietary",
         "open_weight": false,
-        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-sonnet-4-5"
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-sonnet-4-5",
+        "thinking_modes": [
+          "extended"
+        ],
+        "bedrock_id": "anthropic.claude-sonnet-4-5-20250929-v1:0",
+        "vertex_id": "claude-sonnet-4-5@20250929",
+        "retirement_date": "2026-09-29"
       },
       {
         "id": "claude-sonnet-4-6",
         "name": "Claude Sonnet 4.6",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-16",
         "family": "claude-sonnet",
         "description": "The best combination of speed and intelligence",
         "status": "active",
@@ -6015,7 +6125,8 @@ export const providers: ProviderWithModels[] = [
           "cache_write": 3.75,
           "cached_input": 0.3,
           "batch_input": 1.5,
-          "batch_output": 7.5
+          "batch_output": 7.5,
+          "cache_write_1h": 6
         },
         "tools": [
           "function_calling",
@@ -6025,14 +6136,20 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "messages"
         ],
-        "extended_thinking": true,
         "training_data_cutoff": "2026-01",
-        "adaptive_thinking": true,
         "priority_tier": true,
         "model_type": "chat",
         "license": "proprietary",
         "open_weight": false,
-        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-sonnet-4-6"
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-sonnet-4-6",
+        "thinking_modes": [
+          "extended",
+          "adaptive"
+        ],
+        "bedrock_id": "anthropic.claude-sonnet-4-6",
+        "vertex_id": "claude-sonnet-4-6",
+        "retirement_date": "2027-02-17",
+        "batch_max_output_tokens": 300000
       }
     ]
   },
