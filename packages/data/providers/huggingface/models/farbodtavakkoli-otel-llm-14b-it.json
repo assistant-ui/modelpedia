@@ -1,0 +1,34 @@
+{
+  "id": "farbodtavakkoli/OTel-LLM-14B-IT",
+  "name": "OTel-LLM-14B-IT",
+  "created_by": "farbodtavakkoli",
+  "source": "official",
+  "description": "**OTel-LLM-14B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+  "release_date": "2026-02-11",
+  "context_window": 40960,
+  "license": "apache-2.0",
+  "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-14B-IT",
+  "architecture": "transformer",
+  "tagline": "**OTel-LLM-14B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "de4dc6b7",
+    "description": "e8d43c57",
+    "release_date": "d8edba92",
+    "context_window": "a422a18c",
+    "license": "60245731",
+    "page_url": "2fb8a0cc",
+    "architecture": "8832ea0f",
+    "tagline": "7f5cd821",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-17"
+}

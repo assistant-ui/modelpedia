@@ -9236,6 +9236,27 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat"
       },
       {
+        "id": "deepseek-v3",
+        "name": "deepseek-v3",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "open_weight": true,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-17"
+      },
+      {
         "id": "gemma-4-26b-a4b-it",
         "name": "gemma-4-26b-a4b-it",
         "created_by": "google",
@@ -55457,15 +55478,15 @@ export const providers: ProviderWithModels[] = [
         "name": "kimi-k2-instruct-0905",
         "created_by": "moonshot",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-17",
         "context_window": 262100,
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 0.6,
-          "output": 2.5,
-          "cached_input": 0.3
+          "input": 1,
+          "output": 1,
+          "cached_input": 1
         },
         "family": "kimi-k2",
         "model_type": "chat",
@@ -55511,7 +55532,7 @@ export const providers: ProviderWithModels[] = [
         "name": "kimi-k2-thinking",
         "created_by": "moonshot",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-17",
         "context_window": 262100,
         "capabilities": {
           "streaming": true,
@@ -55520,9 +55541,9 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.6,
-          "output": 2.5,
-          "cached_input": 0.3
+          "input": 1,
+          "output": 1,
+          "cached_input": 1
         },
         "family": "kimi-k2",
         "model_type": "chat",
@@ -56444,15 +56465,15 @@ export const providers: ProviderWithModels[] = [
         "name": "minimax-m2p1",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-17",
         "context_window": 196600,
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 0.3,
-          "output": 1.2,
-          "cached_input": 0.03
+          "input": 1,
+          "output": 1,
+          "cached_input": 1
         },
         "family": "minimax",
         "model_type": "chat",
@@ -63964,6 +63985,284 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "farbodtavakkoli/OTel-LLM-0.6B-IT",
+        "name": "OTel-LLM-0.6B-IT",
+        "created_by": "farbodtavakkoli",
+        "source": "official",
+        "description": "**OTel-LLM-0.6B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "release_date": "2026-02-11",
+        "context_window": 40960,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-0.6B-IT",
+        "architecture": "transformer",
+        "tagline": "**OTel-LLM-0.6B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-17"
+      },
+      {
+        "id": "farbodtavakkoli/OTel-LLM-1.2B-IT",
+        "name": "OTel-LLM-1.2B-IT",
+        "created_by": "farbodtavakkoli",
+        "source": "official",
+        "description": "**OTel-LLM-1.2B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "release_date": "2026-03-10",
+        "context_window": 128000,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-1.2B-IT",
+        "architecture": "transformer",
+        "tagline": "**OTel-LLM-1.2B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-17"
+      },
+      {
+        "id": "farbodtavakkoli/OTel-LLM-1.7B-IT",
+        "name": "OTel-LLM-1.7B-IT",
+        "created_by": "farbodtavakkoli",
+        "source": "official",
+        "description": "**OTel-LLM-1.7B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "release_date": "2026-02-11",
+        "context_window": 40960,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-1.7B-IT",
+        "architecture": "transformer",
+        "tagline": "**OTel-LLM-1.7B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-17"
+      },
+      {
+        "id": "farbodtavakkoli/OTel-LLM-14B-IT",
+        "name": "OTel-LLM-14B-IT",
+        "created_by": "farbodtavakkoli",
+        "source": "official",
+        "description": "**OTel-LLM-14B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "release_date": "2026-02-11",
+        "context_window": 40960,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-14B-IT",
+        "architecture": "transformer",
+        "tagline": "**OTel-LLM-14B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-17"
+      },
+      {
+        "id": "farbodtavakkoli/OTel-LLM-1B-IT",
+        "name": "OTel-LLM-1B-IT",
+        "created_by": "farbodtavakkoli",
+        "source": "official",
+        "description": "**OTel-LLM-1B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "release_date": "2026-02-11",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 1,
+        "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-1B-IT",
+        "architecture": "transformer",
+        "tagline": "**OTel-LLM-1B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-17"
+      },
+      {
+        "id": "farbodtavakkoli/OTel-LLM-20B-IT",
+        "name": "OTel-LLM-20B-IT",
+        "created_by": "farbodtavakkoli",
+        "source": "official",
+        "description": "**OTel-LLM-20B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "release_date": "2026-02-13",
+        "context_window": 131072,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-20B-IT",
+        "architecture": "moe",
+        "tagline": "**OTel-LLM-20B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-17"
+      },
+      {
+        "id": "farbodtavakkoli/OTel-LLM-270M-IT",
+        "name": "OTel-LLM-270M-IT",
+        "created_by": "farbodtavakkoli",
+        "source": "official",
+        "description": "**OTel-LLM-270M-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "release_date": "2026-02-11",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 0.27,
+        "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-270M-IT",
+        "architecture": "transformer",
+        "tagline": "**OTel-LLM-270M-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-17"
+      },
+      {
+        "id": "farbodtavakkoli/OTel-LLM-32B-IT",
+        "name": "OTel-LLM-32B-IT",
+        "created_by": "farbodtavakkoli",
+        "source": "official",
+        "description": "**OTel-LLM-32B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "release_date": "2026-02-11",
+        "context_window": 65536,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-32B-IT",
+        "architecture": "transformer",
+        "tagline": "**OTel-LLM-32B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-17"
+      },
+      {
+        "id": "farbodtavakkoli/OTel-LLM-4B-IT",
+        "name": "OTel-LLM-4B-IT",
+        "created_by": "farbodtavakkoli",
+        "source": "official",
+        "description": "**OTel-LLM-4B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "release_date": "2026-02-11",
+        "license": "apache-2.0",
+        "parameters": 4.3,
+        "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-4B-IT",
+        "architecture": "transformer",
+        "tagline": "**OTel-LLM-4B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-17"
+      },
+      {
+        "id": "farbodtavakkoli/OTel-LLM-7B-IT",
+        "name": "OTel-LLM-7B-IT",
+        "created_by": "farbodtavakkoli",
+        "source": "official",
+        "description": "**OTel-LLM-7B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "release_date": "2026-02-11",
+        "context_window": 65536,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-7B-IT",
+        "architecture": "transformer",
+        "tagline": "**OTel-LLM-7B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-17"
+      },
+      {
+        "id": "farbodtavakkoli/OTel-LLM-8.2B-IT",
+        "name": "OTel-LLM-8.2B-IT",
+        "created_by": "farbodtavakkoli",
+        "source": "official",
+        "description": "**OTel-LLM-8.2B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "release_date": "2026-02-11",
+        "context_window": 40960,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-8.2B-IT",
+        "architecture": "transformer",
+        "tagline": "**OTel-LLM-8.2B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-17"
+      },
+      {
+        "id": "farbodtavakkoli/OTel-LLM-8.3B-IT",
+        "name": "OTel-LLM-8.3B-IT",
+        "created_by": "farbodtavakkoli",
+        "source": "official",
+        "description": "**OTel-LLM-8.3B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "release_date": "2026-02-11",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-8.3B-IT",
+        "architecture": "transformer",
+        "tagline": "**OTel-LLM-8.3B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-17"
       },
       {
         "id": "fdtn-ai/Foundation-Sec-8B-Instruct",
@@ -75767,6 +76066,29 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true
         }
+      },
+      {
+        "id": "nvidia/nemotron-3-content-safety",
+        "name": "nemotron-3-content-safety",
+        "created_by": "nvidia",
+        "source": "official",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-17"
       },
       {
         "id": "nvidia/nemotron-3-nano-30b-a3b",
@@ -90703,6 +91025,47 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false
       },
       {
+        "id": "claude-opus-4-7",
+        "name": "Claude Opus 4.7",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "status": "active",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cached_input": 0.5,
+          "cache_write": 6.25
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-17",
+        "description": "Our most capable generally available model for complex reasoning and agentic coding",
+        "tagline": "Our most capable generally available model for complex reasoning and agentic coding",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
         "id": "claude-sonnet-4-5",
         "name": "Claude Sonnet 4.5",
         "created_by": "anthropic",
@@ -92743,7 +93106,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "claude-opus",
         "description": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents.",
-        "release_date": "2026-04-15",
+        "release_date": "2026-04-16",
         "context_window": 1000000,
         "max_output_tokens": 128000,
         "model_type": "chat",
@@ -92771,7 +93134,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-16"
+        "last_updated": "2026-04-17"
       },
       {
         "id": "anthropic/claude-opus-4",
@@ -94105,12 +94468,12 @@ export const providers: ProviderWithModels[] = [
         "name": "Google: Gemini 2.0 Flash",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-17",
         "family": "gemini-2.0",
         "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5).",
         "status": "deprecated",
         "deprecation_date": "2026-06-01",
-        "context_window": 1048576,
+        "context_window": 1000000,
         "max_output_tokens": 8192,
         "modalities": {
           "input": [
@@ -99496,10 +99859,10 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o-mini",
-        "name": "OpenAI: GPT-4o-mini",
+        "name": "OpenAI: GPT-4o-mini (2024-07-18)",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-04",
+        "last_updated": "2026-04-17",
         "family": "gpt-4o",
         "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs.",
         "context_window": 128000,
@@ -99581,14 +99944,14 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o",
-        "name": "OpenAI: GPT-4o",
+        "name": "OpenAI: GPT-4o (2024-05-13)",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-12",
+        "last_updated": "2026-04-17",
         "family": "gpt-4o",
         "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs.",
         "context_window": 128000,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 4096,
         "modalities": {
           "input": [
             "text",
@@ -99609,8 +99972,8 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 2.5,
-          "output": 10,
+          "input": 5,
+          "output": 15,
           "cached_input": 1.25
         },
         "model_type": "chat",
@@ -102010,10 +102373,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen2.5 VL 72B Instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-17",
         "family": "qwen2.5",
         "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects.",
-        "context_window": 32768,
+        "context_window": 32000,
         "max_output_tokens": 32768,
         "modalities": {
           "input": [
@@ -102029,8 +102392,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.8,
-          "output": 0.8
+          "input": 0.25,
+          "output": 0.75
         },
         "model_type": "chat",
         "parameters": 72,
@@ -102116,10 +102479,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 235B A22B Thinking 2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-17",
         "family": "qwen3",
         "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks.",
-        "context_window": 131072,
+        "context_window": 262144,
         "modalities": {
           "input": [
             "text"
@@ -102137,8 +102500,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.15,
-          "output": 1.495
+          "input": 0.13,
+          "output": 0.6
         },
         "model_type": "chat",
         "parameters": 235,
@@ -102149,6 +102512,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
+        "max_output_tokens": 262144,
         "license": "apache-2.0"
       },
       {
@@ -102156,11 +102520,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 235B A22B Thinking 2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-17",
         "family": "qwen3",
         "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks.",
         "release_date": "2025-07-25",
-        "context_window": 131072,
+        "context_window": 262144,
         "parameters": 235,
         "active_parameters": 22,
         "model_type": "chat",
@@ -102182,8 +102546,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.15,
-          "output": 1.495
+          "input": 0.13,
+          "output": 0.6
         },
         "tools": [
           "function_calling"
@@ -102191,6 +102555,7 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "qwen/qwen3-235b-a22b-thinking-2507"
         ],
+        "max_output_tokens": 262144,
         "license": "apache-2.0"
       },
       {
@@ -103386,7 +103751,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3.5 397B A17B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-17",
         "family": "qwen3.5",
         "description": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency.",
         "context_window": 262144,
@@ -103411,7 +103776,8 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.39,
-          "output": 2.34
+          "output": 2.34,
+          "cached_input": 0.195
         },
         "model_type": "chat",
         "parameters": 397,
@@ -111756,6 +112122,37 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "anthropic/claude-opus-4.7",
+        "name": "claude-opus-4.7",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-17"
+      },
+      {
         "id": "anthropic/claude-opus-4",
         "name": "claude-opus-4",
         "created_by": "anthropic",
@@ -117425,12 +117822,13 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4-fast-non-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-17",
         "family": "grok-4",
         "context_window": 2000000,
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "vision": true
         },
         "pricing": {
           "input": 0.2,
@@ -117456,13 +117854,14 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4-fast-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-17",
         "family": "grok-4",
         "context_window": 2000000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "reasoning": true
+          "reasoning": true,
+          "vision": true
         },
         "pricing": {
           "input": 0.2,
@@ -117488,12 +117887,13 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4.1-fast-non-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-17",
         "family": "grok-4.1",
         "context_window": 2000000,
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "vision": true
         },
         "pricing": {
           "input": 0.2,
@@ -117517,13 +117917,14 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4.1-fast-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-17",
         "family": "grok-4.1",
         "context_window": 2000000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "reasoning": true
+          "reasoning": true,
+          "vision": true
         },
         "pricing": {
           "input": 0.2,
@@ -117547,13 +117948,14 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4.20-multi-agent-beta",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-17",
         "family": "grok-4.20",
         "context_window": 2000000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "reasoning": true
+          "reasoning": true,
+          "vision": true
         },
         "pricing": {
           "input": 2,
@@ -117577,14 +117979,15 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4.20-multi-agent",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-17",
         "family": "grok-4.20",
         "context_window": 2000000,
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "reasoning": true
+          "reasoning": true,
+          "vision": true
         },
         "pricing": {
           "input": 2,

@@ -5,7 +5,7 @@
   "source": "official",
   "family": "claude-opus",
   "description": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents.",
-  "release_date": "2026-04-15",
+  "release_date": "2026-04-16",
   "context_window": 1000000,
   "max_output_tokens": 128000,
   "model_type": "chat",
@@ -30,7 +30,7 @@
     "name": "f73ba05f",
     "family": "4e4c4b18",
     "description": "fe8dcd9b",
-    "release_date": "45ecd7af",
+    "release_date": "008001ac",
     "context_window": "8155bc54",
     "max_output_tokens": "34434798",
     "model_type": "d669f408",
@@ -40,5 +40,5 @@
     "pricing": "b3cc594d",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-16"
+  "last_updated": "2026-04-17"
 }
