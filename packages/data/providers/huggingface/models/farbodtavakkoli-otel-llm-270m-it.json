@@ -1,0 +1,36 @@
+{
+  "id": "farbodtavakkoli/OTel-LLM-270M-IT",
+  "name": "OTel-LLM-270M-IT",
+  "created_by": "farbodtavakkoli",
+  "source": "official",
+  "description": "**OTel-LLM-270M-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+  "release_date": "2026-02-11",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "parameters": 0.27,
+  "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-270M-IT",
+  "architecture": "transformer",
+  "tagline": "**OTel-LLM-270M-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d1b8aa44",
+    "description": "73e7e4ee",
+    "release_date": "d8edba92",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "parameters": "25bfdc69",
+    "page_url": "496cd770",
+    "architecture": "8832ea0f",
+    "tagline": "bdff3cb6",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-17"
+}

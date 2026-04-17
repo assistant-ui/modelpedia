@@ -1,0 +1,35 @@
+{
+  "id": "anthropic/claude-opus-4.7",
+  "name": "claude-opus-4.7",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 5,
+    "output": 25
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9b9786ab",
+    "family": "4e4c4b18",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "be2d1ab0",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-17"
+}
