@@ -3,7 +3,7 @@
   "name": "codex-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-21",
   "family": "codex",
   "capabilities": {
     "streaming": true
@@ -18,10 +18,10 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "model_type": "b6cc3ff4",
-    "description": "2b2e63a5",
+    "description": "5da7509b",
     "tagline": "2b2e63a5"
   },
   "model_type": "code",
-  "description": "Fine-tuned version of o4-mini.",
+  "description": "Fine-tuned version of o4-mini .",
   "tagline": "Fine-tuned version of o4-mini."
 }

@@ -1,0 +1,37 @@
+{
+  "id": "tiny-aya-earth",
+  "name": "tiny-aya-earth",
+  "created_by": "cohere",
+  "source": "official",
+  "description": "Tiny Aya Earth is a 3.35B region-specialized multilingual model, best for West Asian and African languages. Supports 70 languages.",
+  "status": "active",
+  "context_window": 8000,
+  "max_output_tokens": 8000,
+  "license": "proprietary",
+  "page_url": "https://docs.cohere.com/docs/models#tiny-aya-earth",
+  "tagline": "Tiny Aya Earth is a 3.35B region-specialized multilingual model, best for West Asian and African languages.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "ca88f4de",
+    "description": "34860cc1",
+    "status": "379ac110",
+    "context_window": "67ff32d4",
+    "max_output_tokens": "67ff32d4",
+    "license": "9186c466",
+    "page_url": "c67e0fc6",
+    "tagline": "68370fba",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e",
+    "endpoints": "75df3f1c"
+  },
+  "last_updated": "2026-04-21"
+}

@@ -37,7 +37,9 @@
     "tagline": "5ff2345f",
     "capabilities": "f7041f91",
     "modalities": "6399757e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "parameters": "1c383cd3"
   },
-  "last_updated": "2026-04-16"
+  "last_updated": "2026-04-21",
+  "parameters": 35
 }

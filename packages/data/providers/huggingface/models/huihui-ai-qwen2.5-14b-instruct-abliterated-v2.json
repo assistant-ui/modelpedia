@@ -1,0 +1,43 @@
+{
+  "id": "huihui-ai/Qwen2.5-14B-Instruct-abliterated-v2",
+  "name": "Qwen2.5-14B-Instruct-abliterated-v2",
+  "created_by": "huihui-ai",
+  "source": "official",
+  "description": "This is an uncensored version of [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct) created with abliteration (see [this article](https://huggingface.co/blog/mlabonne/abliteration) to know more about it).",
+  "release_date": "2024-10-09",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "parameters": 15,
+  "page_url": "https://huggingface.co/huihui-ai/Qwen2.5-14B-Instruct-abliterated-v2",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "This is an uncensored version of [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct) created with abliteration (see [this article](https://huggingface.co/blog/mlabonne/abliteratio",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c721d5db",
+    "description": "e8c47031",
+    "release_date": "b7bdf67f",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "parameters": "9bf31c7f",
+    "page_url": "af2a7ed3",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "b10b5396",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-21"
+}

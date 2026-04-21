@@ -1,0 +1,37 @@
+{
+  "id": "tiny-aya-global",
+  "name": "tiny-aya-global",
+  "created_by": "cohere",
+  "source": "official",
+  "description": "Tiny Aya Global is a 3.35B instruction-tuned multilingual model with the best balance across languages and regions. Supports 70 languages.",
+  "status": "active",
+  "context_window": 8000,
+  "max_output_tokens": 8000,
+  "license": "proprietary",
+  "page_url": "https://docs.cohere.com/docs/models#tiny-aya-global",
+  "tagline": "Tiny Aya Global is a 3.35B instruction-tuned multilingual model with the best balance across languages and regions.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "98275314",
+    "description": "4e5640e6",
+    "status": "379ac110",
+    "context_window": "67ff32d4",
+    "max_output_tokens": "67ff32d4",
+    "license": "9186c466",
+    "page_url": "521bcc09",
+    "tagline": "992248e3",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e",
+    "endpoints": "75df3f1c"
+  },
+  "last_updated": "2026-04-21"
+}

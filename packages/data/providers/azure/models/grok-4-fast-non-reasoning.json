@@ -1,9 +1,9 @@
 {
   "id": "grok-4-fast-non-reasoning",
-  "name": "grok-4-fast-non-reasoning",
+  "name": "grok-4-fast-non-reasoning Preview",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-21",
   "family": "grok-4",
   "capabilities": {
     "streaming": true,
@@ -16,7 +16,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "74756c0b",
+    "name": "7d071e74",
     "family": "0d5416ff",
     "capabilities": "45192957",
     "modalities": "6399757e",

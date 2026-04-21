@@ -1,9 +1,9 @@
 {
   "id": "flux.1-kontext-pro",
-  "name": "FLUX.1-Kontext-pro",
+  "name": "FLUX.1-Kontext-pro Preview",
   "created_by": "black-forest-labs",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-21",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -15,7 +15,7 @@
   },
   "model_type": "image",
   "_generated": {
-    "name": "66cbbb70",
+    "name": "d5db2320",
     "capabilities": "1a260abc",
     "modalities": "6399757e",
     "model_type": "db8857fe",

@@ -1,9 +1,9 @@
 {
   "id": "mistral-document-ai-2505",
-  "name": "mistral-document-ai-2505",
+  "name": "mistral-document-ai-2505 Preview",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-21",
   "alias": "mistral-document-ai",
   "capabilities": {
     "streaming": true,
@@ -16,7 +16,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "092d64bb",
+    "name": "4613239d",
     "capabilities": "ee30ca00",
     "modalities": "6399757e",
     "model_type": "d669f408",

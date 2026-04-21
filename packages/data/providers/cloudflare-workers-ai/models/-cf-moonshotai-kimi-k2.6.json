@@ -1,0 +1,31 @@
+{
+  "id": "@cf/moonshotai/kimi-k2.6",
+  "name": "kimi-k2.6",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k2.6",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#kimi-k2.6",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "46a7f2ca",
+    "family": "46a7f2ca",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "4531ebbd",
+    "capabilities": "1a260abc",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-21"
+}

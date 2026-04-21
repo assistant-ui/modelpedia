@@ -1,0 +1,37 @@
+{
+  "id": "tiny-aya-fire",
+  "name": "tiny-aya-fire",
+  "created_by": "cohere",
+  "source": "official",
+  "description": "Tiny Aya Fire is a 3.35B region-specialized multilingual model, best for South Asian languages. Supports 70 languages.",
+  "status": "active",
+  "context_window": 8000,
+  "max_output_tokens": 8000,
+  "license": "proprietary",
+  "page_url": "https://docs.cohere.com/docs/models#tiny-aya-fire",
+  "tagline": "Tiny Aya Fire is a 3.35B region-specialized multilingual model, best for South Asian languages.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "0890f117",
+    "description": "311cebce",
+    "status": "379ac110",
+    "context_window": "67ff32d4",
+    "max_output_tokens": "67ff32d4",
+    "license": "9186c466",
+    "page_url": "647998a2",
+    "tagline": "1857c444",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e",
+    "endpoints": "75df3f1c"
+  },
+  "last_updated": "2026-04-21"
+}

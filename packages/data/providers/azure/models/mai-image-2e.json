@@ -1,6 +1,6 @@
 {
   "id": "mai-image-2e",
-  "name": "MAI-Image-2e",
+  "name": "MAI-Image-2e Preview",
   "created_by": "microsoft",
   "source": "official",
   "capabilities": {
@@ -14,10 +14,10 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "212d3196",
+    "name": "bde62f74",
     "capabilities": "1a260abc",
     "modalities": "6399757e",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-16"
+  "last_updated": "2026-04-21"
 }

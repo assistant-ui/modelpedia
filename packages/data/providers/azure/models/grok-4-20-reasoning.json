@@ -1,6 +1,6 @@
 {
   "id": "grok-4-20-reasoning",
-  "name": "grok-4-20-reasoning",
+  "name": "grok-4-20-reasoning Preview",
   "created_by": "xai",
   "source": "official",
   "family": "grok-4",
@@ -16,12 +16,12 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "98dadc84",
+    "name": "0ea37dd6",
     "family": "0d5416ff",
     "model_type": "17475f7f",
     "capabilities": "a281e83a",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-08"
+  "last_updated": "2026-04-21"
 }

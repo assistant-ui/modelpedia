@@ -3,7 +3,7 @@
   "name": "wan2.1-vace-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-03",
+  "last_updated": "2026-04-21",
   "model_type": "video",
   "capabilities": {
     "streaming": true
@@ -22,14 +22,14 @@
     "family": "3663b84b",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "description": "aaadd549",
+    "description": "56664c2f",
     "page_url": "23162829",
     "tagline": "c593e909"
   },
   "family": "wan2.1",
   "license": "proprietary",
   "open_weight": false,
-  "description": "The Wan video editing model supports multimodal inputs, including text, images, and video, enabling video generation and general editing tasks. [API reference (Video Editing 2.7)](https://www.alibabacloud.com/help/en/document_detail/3021842.html) \\| [API reference (Video Editing 2.1)](https://www.alibabacloud.com/help/en/document_detail/2922183.html) ## International When the service deployment scope is[Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Beijing access region**. Model inference compute resources are limited to the Chinese mainland.",
+  "description": "The Wan video editing model supports multimodal inputs, including text, images, and video, enabling video generation and general editing tasks. [API reference (Video Editing 2.7)](https://www.alibabacloud.com/help/en/document_detail/3021842.html) \\| [API reference (Video Editing 2.1)](https://www.alibabacloud.com/help/en/document_detail/2922183.html) ## International If you select the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are restricted to the Chinese mainland. Static data is stored in your selected region. Supported region: China (Beijing).",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
   "tagline": "Wan general video editing models support multimodal inputs, including text, images, and video, and perform both video generation and general editing tasks."
 }

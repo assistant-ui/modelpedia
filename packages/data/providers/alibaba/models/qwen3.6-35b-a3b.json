@@ -1,0 +1,39 @@
+{
+  "id": "qwen3.6-35b-a3b",
+  "name": "qwen3.6-35b-a3b",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.6",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "parameters": 35,
+  "active_parameters": 3,
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "b4a540a6",
+    "family": "1bc2d26f",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "parameters": "1c383cd3",
+    "active_parameters": "eccbc87e",
+    "page_url": "23162829",
+    "model_type": "d669f408",
+    "capabilities": "034b2f91",
+    "modalities": "68e53d93",
+    "open_weight": "b326b506",
+    "endpoints": "75df3f1c"
+  },
+  "last_updated": "2026-04-21"
+}

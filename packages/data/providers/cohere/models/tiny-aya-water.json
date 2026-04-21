@@ -1,0 +1,37 @@
+{
+  "id": "tiny-aya-water",
+  "name": "tiny-aya-water",
+  "created_by": "cohere",
+  "source": "official",
+  "description": "Tiny Aya Water is a 3.35B region-specialized multilingual model, best for European and Asia-Pacific languages. Supports 70 languages.",
+  "status": "active",
+  "context_window": 8000,
+  "max_output_tokens": 8000,
+  "license": "proprietary",
+  "page_url": "https://docs.cohere.com/docs/models#tiny-aya-water",
+  "tagline": "Tiny Aya Water is a 3.35B region-specialized multilingual model, best for European and Asia-Pacific languages.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "4c0ed02c",
+    "description": "9220b645",
+    "status": "379ac110",
+    "context_window": "67ff32d4",
+    "max_output_tokens": "67ff32d4",
+    "license": "9186c466",
+    "page_url": "86202f61",
+    "tagline": "5d56bd49",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e",
+    "endpoints": "75df3f1c"
+  },
+  "last_updated": "2026-04-21"
+}
