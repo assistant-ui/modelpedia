@@ -1,9 +1,9 @@
 {
   "id": "kimi-k2.5",
-  "name": "Kimi-K2.5",
+  "name": "Kimi-K2.5 Preview",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-21",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -15,7 +15,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "7b136188",
+    "name": "fcbe7c8c",
     "capabilities": "45192957",
     "modalities": "6399757e",
     "family": "69ffee7b",

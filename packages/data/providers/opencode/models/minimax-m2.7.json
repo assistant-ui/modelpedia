@@ -1,0 +1,32 @@
+{
+  "id": "minimax-m2.7",
+  "name": "MiniMax M2.7",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2,
+    "cached_input": 0.06,
+    "cache_write": 0.375
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "e558b68a",
+    "family": "c85916f0",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "61b3aa5c",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-21"
+}

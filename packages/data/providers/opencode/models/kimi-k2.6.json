@@ -1,0 +1,31 @@
+{
+  "id": "kimi-k2.6",
+  "name": "Kimi K2.6",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k2.6",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.95,
+    "output": 4,
+    "cached_input": 0.16
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "1bf1a995",
+    "family": "46a7f2ca",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "0d48a54a",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-21"
+}

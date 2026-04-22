@@ -1,9 +1,9 @@
 {
   "id": "grok-code-fast-1",
-  "name": "grok-code-fast-1",
+  "name": "grok-code-fast-1 Preview",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-21",
   "family": "grok-code",
   "capabilities": {
     "streaming": true,
@@ -14,7 +14,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "e06e17a4",
+    "name": "f8e00956",
     "family": "378ba70c",
     "capabilities": "48995a4e",
     "modalities": "68e53d93",

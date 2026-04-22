@@ -1,0 +1,39 @@
+{
+  "id": "qwen3.6-flash",
+  "name": "qwen3.6-flash",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.6",
+  "description": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs. Qwen-Flash features flexible tiered pricing, resulting in more reasonable billing compared to Qwen-Turbo. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
+  "context_window": 1000000,
+  "license": "apache-2.0",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "model_type": "chat",
+  "tagline": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs.",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "2dfcf5c9",
+    "family": "1bc2d26f",
+    "description": "c7e9b9c3",
+    "context_window": "8155bc54",
+    "license": "60245731",
+    "page_url": "23162829",
+    "model_type": "d669f408",
+    "tagline": "9807583e",
+    "capabilities": "034b2f91",
+    "modalities": "68e53d93",
+    "open_weight": "b326b506",
+    "endpoints": "75df3f1c"
+  },
+  "last_updated": "2026-04-21"
+}

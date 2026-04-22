@@ -1,0 +1,23 @@
+{
+  "id": "z-ai/glm-5.1",
+  "name": "glm-5.1",
+  "created_by": "zhipu",
+  "source": "official",
+  "family": "glm-5.1",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "feb32a37",
+    "family": "feb32a37",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-21"
+}

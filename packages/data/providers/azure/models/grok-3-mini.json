@@ -1,9 +1,9 @@
 {
   "id": "grok-3-mini",
-  "name": "grok-3-mini",
+  "name": "grok-3-mini Preview",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-21",
   "family": "grok-3",
   "capabilities": {
     "streaming": true,
@@ -14,7 +14,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "4c68661f",
+    "name": "c326b607",
     "family": "c41798c6",
     "capabilities": "48995a4e",
     "modalities": "68e53d93",

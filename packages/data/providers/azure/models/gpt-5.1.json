@@ -3,7 +3,7 @@
   "name": "GPT-5.1 series",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-21",
   "family": "gpt-5.1",
   "capabilities": {
     "streaming": true
@@ -18,10 +18,10 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "model_type": "d669f408",
-    "description": "a70009a0",
+    "description": "2c5c6403",
     "tagline": "a70009a0"
   },
   "model_type": "chat",
-  "description": "NEW gpt-5.1 , gpt-5.1-chat , gpt-5.1-codex , gpt-5.1-codex-mini",
+  "description": "NEW gpt-5.1 , gpt-5.1-chat Preview , gpt-5.1-codex , gpt-5.1-codex-mini",
   "tagline": "NEW gpt-5.1 , gpt-5.1-chat , gpt-5.1-codex , gpt-5.1-codex-mini"
 }

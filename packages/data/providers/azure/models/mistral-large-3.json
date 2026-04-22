@@ -1,9 +1,9 @@
 {
   "id": "mistral-large-3",
-  "name": "Mistral-Large-3",
+  "name": "Mistral-Large-3 Preview",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-21",
   "family": "mistral-large",
   "capabilities": {
     "streaming": true,
@@ -16,7 +16,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "9690c100",
+    "name": "bfd3bdc1",
     "family": "70f9d51d",
     "capabilities": "ee30ca00",
     "modalities": "6399757e",

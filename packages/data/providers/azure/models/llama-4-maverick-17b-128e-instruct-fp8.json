@@ -1,9 +1,9 @@
 {
   "id": "llama-4-maverick-17b-128e-instruct-fp8",
-  "name": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+  "name": "Llama-4-Maverick-17B-128E-Instruct-FP8 Preview",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-21",
   "family": "llama-4",
   "capabilities": {
     "streaming": true,
@@ -15,7 +15,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "ae425639",
+    "name": "dc08f825",
     "family": "3169363f",
     "capabilities": "1a260abc",
     "modalities": "6399757e",
