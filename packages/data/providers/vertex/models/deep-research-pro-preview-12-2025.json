@@ -3,7 +3,7 @@
   "name": "deep-research-pro-preview-12-2025",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-04-16",
+  "last_updated": "2026-04-22",
   "status": "active",
   "context_window": 1048576,
   "max_output_tokens": 65536,
@@ -19,7 +19,7 @@
   },
   "modalities": {
     "input": ["text", "image", "video", "audio"],
-    "output": ["text", "audio"]
+    "output": ["text"]
   },
   "tools": ["function_calling"],
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -30,7 +30,7 @@
     "max_output_tokens": "297ce0b3",
     "model_type": "17475f7f",
     "capabilities": "fdff467b",
-    "modalities": "939d1ceb",
+    "modalities": "c569b149",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "family": "4b37ac1d",

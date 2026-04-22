@@ -1,0 +1,41 @@
+{
+  "id": "qwen3.6-max-preview",
+  "name": "qwen3.6-max-preview",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.6",
+  "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
+  "context_window": 262144,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "tagline": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks.",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "06389aca",
+    "family": "1bc2d26f",
+    "description": "461193ec",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "tagline": "edebaf33",
+    "page_url": "23162829",
+    "open_weight": "b326b506",
+    "capabilities": "034b2f91",
+    "modalities": "68e53d93",
+    "endpoints": "75df3f1c"
+  },
+  "last_updated": "2026-04-22"
+}

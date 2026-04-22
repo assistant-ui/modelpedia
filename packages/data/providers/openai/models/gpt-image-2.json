@@ -1,0 +1,91 @@
+{
+  "id": "gpt-image-2",
+  "name": "GPT Image 2",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2",
+  "description": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our [image generation guide](/api/docs/guides/image-generation), or see the [pricing page](/api/docs/pricing#image-generation) and [image generation calculator](/api/docs/guides/image-generation#calculating-costs) for cost estimates.",
+  "status": "active",
+  "model_type": "image",
+  "license": "proprietary",
+  "performance": 5,
+  "speed": 3,
+  "tagline": "State-of-the-art image generation model",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-image-2?snapshot=gpt-image-2-2026-04-21",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 10,
+    "cached_input": 1.25,
+    "batch_input": 2.5,
+    "batch_output": 5,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 1.25, 10]
+          },
+          {
+            "label": "Batch",
+            "values": [2.5, 0.625, 5]
+          }
+        ]
+      },
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [8, 2, 30]
+          },
+          {
+            "label": "Batch",
+            "values": [4, 1, 15]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["batch", "image_generation", "image_edit"],
+  "snapshots": ["gpt-image-2-2026-04-21"],
+  "_generated": {
+    "name": "8644edb0",
+    "family": "c79be345",
+    "description": "4d8702a7",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "license": "9186c466",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "tagline": "49145a2c",
+    "page_url": "07fb0660",
+    "open_weight": "68934a3e",
+    "capabilities": "ec32b5a4",
+    "modalities": "bbf9b8bb",
+    "pricing": "76933ea9",
+    "endpoints": "af128fc0",
+    "release_date": "5029e96d"
+  },
+  "last_updated": "2026-04-22",
+  "release_date": "2026-04-21"
+}

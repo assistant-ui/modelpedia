@@ -1,0 +1,16 @@
+{
+  "id": "ling-2.6-flash",
+  "name": "Ling 2.6 Flash",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "ae2078e3",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-04-22"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "~anthropic/claude-opus-latest",
+  "name": "Anthropic: Claude Opus Latest",
+  "created_by": "~anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "description": "This model always redirects to the latest model in the Claude Opus family.",
+  "release_date": "2026-04-21",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "This model always redirects to the latest model in the Claude Opus family.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 25,
+    "cached_input": 0.5
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8522d6a9",
+    "family": "4e4c4b18",
+    "description": "325f50fc",
+    "release_date": "5029e96d",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "325f50fc",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "b3cc594d",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-22"
+}

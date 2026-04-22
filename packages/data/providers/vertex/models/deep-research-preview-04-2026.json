@@ -1,0 +1,36 @@
+{
+  "id": "deep-research-preview-04-2026",
+  "name": "deep-research-preview-04-2026",
+  "created_by": "google",
+  "source": "official",
+  "family": "deep-research",
+  "status": "active",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "model_type": "reasoning",
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "53017d47",
+    "family": "4b37ac1d",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "17475f7f",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "8a3b232e",
+    "modalities": "c569b149",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-04-22"
+}
