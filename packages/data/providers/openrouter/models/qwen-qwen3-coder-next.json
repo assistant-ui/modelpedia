@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 Coder Next",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-14",
+  "last_updated": "2026-04-22",
   "family": "qwen3",
   "description": "Qwen3-Coder-Next is an open-weight causal language model optimized for coding agents and local development workflows.",
   "context_window": 262144,
@@ -20,7 +20,7 @@
   "pricing": {
     "input": 0.15,
     "output": 0.8,
-    "cached_input": 0.12
+    "cached_input": 0.11
   },
   "_generated": {
     "name": "cb74ab6e",
@@ -30,7 +30,7 @@
     "max_output_tokens": "4a1d32eb",
     "modalities": "68e53d93",
     "capabilities": "6c9aa67e",
-    "pricing": "a23445aa",
+    "pricing": "2054b0ba",
     "model_type": "b6cc3ff4",
     "release_date": "7e13f8bd",
     "tagline": "4bfbd122",

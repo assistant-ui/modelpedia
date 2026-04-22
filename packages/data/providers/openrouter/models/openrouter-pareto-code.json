@@ -1,0 +1,23 @@
+{
+  "id": "openrouter/pareto-code",
+  "name": "Pareto Code Router",
+  "created_by": "openrouter",
+  "source": "official",
+  "description": "The Pareto Router is a way to have OpenRouter always pick a strong coding model for your needs without committing to a specific one.",
+  "release_date": "2026-04-21",
+  "context_window": 200000,
+  "tagline": "The Pareto Router is a way to have OpenRouter always pick a strong coding model for your needs without committing to a specific one.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "fcea9428",
+    "description": "8255af4c",
+    "release_date": "5029e96d",
+    "context_window": "03e6c616",
+    "tagline": "8255af4c",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-22"
+}

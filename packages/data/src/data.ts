@@ -1235,7 +1235,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-max-preview",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-04-22",
         "family": "qwen3",
         "context_window": 81920,
         "model_type": "chat",
@@ -1257,7 +1257,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true,
-        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### 国际 If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks."
       },
@@ -1266,10 +1266,10 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-max",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-04-22",
         "family": "qwen3",
-        "context_window": 262144,
-        "max_output_tokens": 81920,
+        "context_window": 258048,
+        "max_output_tokens": 32768,
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -1293,7 +1293,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### 国际 If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks."
       },
@@ -2228,6 +2228,38 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-21"
       },
       {
+        "id": "qwen3.6-max-preview",
+        "name": "qwen3.6-max-preview",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3.6",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
+        "context_window": 262144,
+        "max_output_tokens": 131072,
+        "license": "apache-2.0",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+        "model_type": "chat",
+        "tagline": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks.",
+        "capabilities": {
+          "streaming": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat"
+        ],
+        "last_updated": "2026-04-22"
+      },
+      {
         "id": "qwen3.6-plus",
         "name": "qwen3.6-plus",
         "created_by": "qwen",
@@ -2692,7 +2724,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.6-r2v",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-04-22",
         "model_type": "video",
         "capabilities": {
           "streaming": true
@@ -2713,7 +2745,7 @@ export const providers: ProviderWithModels[] = [
         "family": "wan2.6",
         "license": "proprietary",
         "open_weight": false,
-        "description": "The Wan reference-to-video model lets you generate performance videos using characters and voices from reference videos or images. [API reference](https://www.alibabacloud.com/help/en/document_detail/3001146.html) Billing rule: Both input and output videos are billed by **video duration in seconds**. Failed requests are not billed and do not consume your free quota. * Input video duration is capped at **5 seconds** . See [Wan reference-to-video](https://www.alibabacloud.com/help/en/document_detail/3001146.html#f79461ca408qn) for details. * Output video duration equals the **duration of successfully generated video**. ## Global If you select the [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide. Static data is stored in your selected region. Supported regions: US (Virginia) and Germany (Frankfurt). > The wan2.6-r2v model supports only the global service deployment scope in the US (Virginia) region.",
+        "description": "The Wan reference-to-video model lets you generate performance videos using characters and voices from reference videos or images. [API reference](https://www.alibabacloud.com/help/en/document_detail/3001146.html) Billing rule: Both input and output videos are billed by **video duration in seconds**. Failed requests are not billed and do not consume your free quota. * Input video duration is capped at **5 seconds** . See [Wan reference-to-video](https://www.alibabacloud.com/help/en/document_detail/3001146.html#f79461ca408qn) for details. * Output video duration equals the **duration of successfully generated video**. ## Global If you select the [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide. Static data is stored in your selected region. Supported regions: US (Virginia) and Germany (Frankfurt).",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "tagline": "The Wan reference-to-video model generates performance videos by referencing a character's appearance from an input video or image, the voice from the input video, and text prompts."
       },
@@ -7881,8 +7913,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "model_type": "image",
-        "description": "GPT Image 1.5 is our latest image generation model, with better instruction following and adherence to prompts. Learn more in our [GPT Image 1.5 usage guide](/api/docs/guides/image-generation).",
-        "tagline": "State-of-the-art image generation model",
+        "description": "GPT Image 1.5 is our previous image generation model, with better instruction following and adherence to prompts. Learn more in our [GPT Image 1.5 usage guide](/api/docs/guides/image-generation).",
+        "tagline": "Our previous image generation model",
         "license": "proprietary",
         "open_weight": false
       },
@@ -60125,6 +60157,35 @@ export const providers: ProviderWithModels[] = [
         "open_weight": true
       },
       {
+        "id": "fireworks/qwen3p5-122b-a10b",
+        "name": "qwen3p5-122b-a10b",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3",
+        "context_window": 262100,
+        "parameters": 122,
+        "active_parameters": 10,
+        "page_url": "https://fireworks.ai/models/fireworks/qwen3p5-122b-a10b",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 1,
+          "cached_input": 1
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-22"
+      },
+      {
         "id": "fireworks/qwen3p5-27b",
         "name": "qwen3p5-27b",
         "created_by": "qwen",
@@ -60714,11 +60775,79 @@ export const providers: ProviderWithModels[] = [
     "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" fill-rule=\"evenodd\">\n  <path d=\"M23 12.245c0-.905-.075-1.565-.236-2.25h-10.54v4.083h6.186c-.124 1.014-.797 2.542-2.294 3.569l-.021.136 3.332 2.53.23.022C21.779 18.417 23 15.593 23 12.245z\"/>\n  <path d=\"M12.225 23c3.03 0 5.574-.978 7.433-2.665l-3.542-2.688c-.948.648-2.22 1.1-3.891 1.1a6.745 6.745 0 01-6.386-4.572l-.132.011-3.465 2.628-.045.124C4.043 20.531 7.835 23 12.225 23z\"/>\n  <path d=\"M5.84 14.175A6.65 6.65 0 015.463 12c0-.758.138-1.491.361-2.175l-.006-.147-3.508-2.67-.115.054A10.831 10.831 0 001 12c0 1.772.436 3.447 1.197 4.938l3.642-2.763z\"/>\n  <path d=\"M12.225 5.253c2.108 0 3.529.892 4.34 1.638l3.167-3.031C17.787 2.088 15.255 1 12.225 1 7.834 1 4.043 3.469 2.197 7.062l3.63 2.763a6.77 6.77 0 016.398-4.572z\"/>\n</svg>",
     "models": [
       {
+        "id": "deep-research-max-preview-04-2026",
+        "name": "deep-research-max-preview-04-2026",
+        "created_by": "google",
+        "source": "official",
+        "family": "deep-research",
+        "status": "active",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "page_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-max-preview-04-2026",
+        "model_type": "reasoning",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weight": false,
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-04-22"
+      },
+      {
+        "id": "deep-research-preview-04-2026",
+        "name": "deep-research-preview-04-2026",
+        "created_by": "google",
+        "source": "official",
+        "family": "deep-research",
+        "status": "active",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "page_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-preview-04-2026",
+        "model_type": "reasoning",
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weight": false,
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-04-22"
+      },
+      {
         "id": "deep-research-pro-preview-12-2025",
         "name": "deep-research-pro-preview-12-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-04-16",
+        "last_updated": "2026-04-22",
         "status": "active",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -60740,8 +60869,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "audio"
+            "text"
           ]
         },
         "tools": [
@@ -61124,7 +61252,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-computer-use-preview-10-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-04-16",
+        "last_updated": "2026-04-22",
         "family": "gemini-2.5",
         "status": "active",
         "context_window": 128000,
@@ -61144,8 +61272,7 @@ export const providers: ProviderWithModels[] = [
             "image"
           ],
           "output": [
-            "text",
-            "audio"
+            "text"
           ]
         },
         "pricing": {
@@ -64310,6 +64437,28 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-17"
       },
       {
+        "id": "farbodtavakkoli/OTel-LLM-12B-IT",
+        "name": "OTel-LLM-12B-IT",
+        "created_by": "farbodtavakkoli",
+        "source": "official",
+        "description": "**OTel-LLM-12B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "release_date": "2026-02-11",
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-12B-IT",
+        "architecture": "transformer",
+        "tagline": "**OTel-LLM-12B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-22"
+      },
+      {
         "id": "farbodtavakkoli/OTel-LLM-14B-IT",
         "name": "OTel-LLM-14B-IT",
         "created_by": "farbodtavakkoli",
@@ -64402,6 +64551,28 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-04-17"
+      },
+      {
+        "id": "farbodtavakkoli/OTel-LLM-27B-IT",
+        "name": "OTel-LLM-27B-IT",
+        "created_by": "farbodtavakkoli",
+        "source": "official",
+        "description": "**OTel-LLM-27B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+        "release_date": "2026-02-11",
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-27B-IT",
+        "architecture": "transformer",
+        "tagline": "**OTel-LLM-27B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-22"
       },
       {
         "id": "farbodtavakkoli/OTel-LLM-32B-IT",
@@ -79115,14 +79286,14 @@ export const providers: ProviderWithModels[] = [
         "name": "chatgpt-image-latest",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-22",
         "family": "chatgpt",
-        "description": "GPT Image Latest points to the image snapshot currently used in ChatGPT.",
+        "description": "This points to the Image snapshot previously used in ChatGPT. We recommend gpt-image-2 for API use.",
         "status": "active",
         "model_type": "image",
         "performance": 5,
         "speed": 3,
-        "tagline": "Image model used in ChatGPT.",
+        "tagline": "Previous image model used in ChatGPT.",
         "modalities": {
           "input": [
             "text",
@@ -87425,9 +87596,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-image-1.5-2025-12-16",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-22",
         "family": "gpt-image-1.5",
-        "description": "GPT Image 1.5 is our latest image generation model, with better instruction following and adherence to prompts. Learn more in our [GPT Image 1.5 usage guide](/api/docs/guides/image-generation).",
+        "description": "GPT Image 1.5 is our previous image generation model, with better instruction following and adherence to prompts. Learn more in our [GPT Image 1.5 usage guide](/api/docs/guides/image-generation).",
         "status": "active",
         "model_type": "image",
         "alias": "gpt-image-1.5",
@@ -87553,14 +87724,14 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT Image 1.5",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-04-22",
         "family": "gpt-image-1.5",
-        "description": "GPT Image 1.5 is our latest image generation model, with better instruction following and adherence to prompts. Learn more in our [GPT Image 1.5 usage guide](/api/docs/guides/image-generation).",
+        "description": "GPT Image 1.5 is our previous image generation model, with better instruction following and adherence to prompts. Learn more in our [GPT Image 1.5 usage guide](/api/docs/guides/image-generation).",
         "status": "active",
         "model_type": "image",
         "performance": 5,
         "speed": 3,
-        "tagline": "State-of-the-art image generation model",
+        "tagline": "Our previous image generation model",
         "modalities": {
           "input": [
             "text",
@@ -87805,6 +87976,220 @@ export const providers: ProviderWithModels[] = [
           "reasoning": false,
           "batch": true
         }
+      },
+      {
+        "id": "gpt-image-2-2026-04-21",
+        "name": "gpt-image-2-2026-04-21",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-image-2",
+        "description": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our [image generation guide](/api/docs/guides/image-generation), or see the [pricing page](/api/docs/pricing#image-generation) and [image generation calculator](/api/docs/guides/image-generation#calculating-costs) for cost estimates.",
+        "status": "active",
+        "release_date": "2026-04-21",
+        "model_type": "image",
+        "license": "proprietary",
+        "alias": "gpt-image-2",
+        "performance": 5,
+        "speed": 3,
+        "page_url": "https://developers.openai.com/api/docs/models/gpt-image-2?snapshot=gpt-image-2-2026-04-21",
+        "open_weight": false,
+        "tagline": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing.",
+        "capabilities": {
+          "streaming": false,
+          "vision": false,
+          "tool_call": false,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
+          "reasoning": false,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 10,
+          "cached_input": 1.25,
+          "batch_input": 2.5,
+          "batch_output": 5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    1.25,
+                    10
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    2.5,
+                    0.625,
+                    5
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    8,
+                    2,
+                    30
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    4,
+                    1,
+                    15
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "batch",
+          "image_generation",
+          "image_edit"
+        ],
+        "last_updated": "2026-04-22"
+      },
+      {
+        "id": "gpt-image-2",
+        "name": "GPT Image 2",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-image-2",
+        "description": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our [image generation guide](/api/docs/guides/image-generation), or see the [pricing page](/api/docs/pricing#image-generation) and [image generation calculator](/api/docs/guides/image-generation#calculating-costs) for cost estimates.",
+        "status": "active",
+        "model_type": "image",
+        "license": "proprietary",
+        "performance": 5,
+        "speed": 3,
+        "tagline": "State-of-the-art image generation model",
+        "page_url": "https://developers.openai.com/api/docs/models/gpt-image-2?snapshot=gpt-image-2-2026-04-21",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": false,
+          "vision": false,
+          "tool_call": false,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
+          "reasoning": false,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 10,
+          "cached_input": 1.25,
+          "batch_input": 2.5,
+          "batch_output": 5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    1.25,
+                    10
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    2.5,
+                    0.625,
+                    5
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    8,
+                    2,
+                    30
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    4,
+                    1,
+                    15
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "batch",
+          "image_generation",
+          "image_edit"
+        ],
+        "snapshots": [
+          "gpt-image-2-2026-04-21"
+        ],
+        "last_updated": "2026-04-22",
+        "release_date": "2026-04-21"
       },
       {
         "id": "gpt-oss-120b",
@@ -92245,6 +92630,17 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-21"
       },
       {
+        "id": "ling-2.6-flash",
+        "name": "Ling 2.6 Flash",
+        "created_by": "unknown",
+        "source": "official",
+        "status": "active",
+        "capabilities": {
+          "streaming": true
+        },
+        "last_updated": "2026-04-22"
+      },
+      {
         "id": "mimo-v2-omni-free",
         "name": "MiMo V2 Omni Free",
         "created_by": "xiaomi",
@@ -92508,6 +92904,43 @@ export const providers: ProviderWithModels[] = [
     "support_url": "https://openrouter.ai/support",
     "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" fill-rule=\"evenodd\">\n  <path d=\"M16.804 1.957l7.22 4.105v.087L16.73 10.21l.017-2.117-.821-.03c-1.059-.028-1.611.002-2.268.11-1.064.175-2.038.577-3.147 1.352L8.345 11.03c-.284.195-.495.336-.68.455l-.515.322-.397.234.385.23.53.338c.476.314 1.17.796 2.701 1.866 1.11.775 2.083 1.177 3.147 1.352l.3.045c.694.091 1.375.094 2.825.033l.022-2.159 7.22 4.105v.087L16.589 22l.014-1.862-.635.022c-1.386.042-2.137.002-3.138-.162-1.694-.28-3.26-.926-4.881-2.059l-2.158-1.5a21.997 21.997 0 00-.755-.498l-.467-.28a55.927 55.927 0 00-.76-.43C2.908 14.73.563 14.116 0 14.116V9.888l.14.004c.564-.007 2.91-.622 3.809-1.124l1.016-.58.438-.274c.428-.28 1.072-.726 2.686-1.853 1.621-1.133 3.186-1.78 4.881-2.059 1.152-.19 1.974-.213 3.814-.138l.02-1.907z\"/>\n</svg>",
     "models": [
+      {
+        "id": "~anthropic/claude-opus-latest",
+        "name": "Anthropic: Claude Opus Latest",
+        "created_by": "~anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "description": "This model always redirects to the latest model in the Claude Opus family.",
+        "release_date": "2026-04-21",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "tagline": "This model always redirects to the latest model in the Claude Opus family.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cached_input": 0.5
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-22"
+      },
       {
         "id": "ai21/jamba-large-1.7",
         "name": "AI21: Jamba Large 1.7",
@@ -95932,14 +96365,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.08,
+          "input": 0.07,
           "output": 0.35,
-          "cached_input": 0.01
+          "cached_input": 0.04
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-21"
+        "last_updated": "2026-04-22"
       },
       {
         "id": "google/gemma-4-31b-it:free",
@@ -96238,6 +96671,34 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ]
+      },
+      {
+        "id": "inclusionai/ling-2.6-flash:free",
+        "name": "inclusionAI: Ling-2.6-flash (free)",
+        "created_by": "inclusionai",
+        "source": "official",
+        "description": "Ling-2.6-flash is an instant (instruct) model from inclusionAI with 104B total parameters and 7.4B active parameters, designed for real-world agents that require fast responses, strong execution, and ",
+        "release_date": "2026-04-21",
+        "context_window": 262144,
+        "max_output_tokens": 32768,
+        "tagline": "Ling-2.6-flash is an instant (instruct) model from inclusionAI with 104B total parameters and 7.4B active parameters, designed for real-world agents that require fast responses, strong execution, and ",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-22"
       },
       {
         "id": "inflection/inflection-3-pi",
@@ -96837,11 +97298,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Meta: Llama 3.3 70B Instruct",
         "created_by": "meta-llama",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-04-22",
         "family": "llama-3.3",
         "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out).",
         "context_window": 131072,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 16384,
         "modalities": {
           "input": [
             "text"
@@ -96856,8 +97317,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.12,
-          "output": 0.38
+          "input": 0.1,
+          "output": 0.32
         },
         "model_type": "chat",
         "parameters": 70,
@@ -98871,14 +99332,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.6,
-          "output": 2.8,
+          "input": 0.8,
+          "output": 3.5,
           "cached_input": 0.2
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-21"
+        "last_updated": "2026-04-22"
       },
       {
         "id": "moonshotai/kimi-k2",
@@ -100300,10 +100761,10 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o-mini",
-        "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+        "name": "OpenAI: GPT-4o-mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-17",
+        "last_updated": "2026-04-22",
         "family": "gpt-4o",
         "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs.",
         "context_window": 128000,
@@ -100385,14 +100846,14 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o",
-        "name": "OpenAI: GPT-4o (2024-05-13)",
+        "name": "OpenAI: GPT-4o",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-17",
+        "last_updated": "2026-04-22",
         "family": "gpt-4o",
         "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs.",
         "context_window": 128000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 16384,
         "modalities": {
           "input": [
             "text",
@@ -100413,8 +100874,8 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 5,
-          "output": 15,
+          "input": 2.5,
+          "output": 10,
           "cached_input": 1.25
         },
         "model_type": "chat",
@@ -101171,6 +101632,40 @@ export const providers: ProviderWithModels[] = [
         "knowledge_cutoff": "2025-08",
         "license": "proprietary",
         "open_weight": false
+      },
+      {
+        "id": "openai/gpt-5.4-image-2",
+        "name": "OpenAI: GPT-5.4 Image 2",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.4",
+        "description": "[GPT-5.4](https://openrouter.ai/openai/gpt-5.4) Image 2 combines OpenAI's GPT-5.4 model with state-of-the-art image generation capabilities from GPT Image 2.",
+        "release_date": "2026-04-21",
+        "context_window": 272000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "tagline": "[GPT-5.4](https://openrouter.ai/openai/gpt-5.4) Image 2 combines OpenAI's GPT-5.4 model with state-of-the-art image generation capabilities from GPT Image 2.",
+        "capabilities": {
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "image",
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 8,
+          "output": 15,
+          "cached_input": 2
+        },
+        "last_updated": "2026-04-22"
       },
       {
         "id": "openai/gpt-5.4-mini",
@@ -102085,8 +102580,8 @@ export const providers: ProviderWithModels[] = [
         "name": "Auto Router",
         "created_by": "openrouter",
         "source": "official",
-        "last_updated": "2026-03-24",
-        "description": "Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.",
+        "last_updated": "2026-04-22",
+        "description": "\"Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.",
         "context_window": 2000000,
         "modalities": {
           "input": [
@@ -102187,6 +102682,25 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ]
+      },
+      {
+        "id": "openrouter/pareto-code",
+        "name": "Pareto Code Router",
+        "created_by": "openrouter",
+        "source": "official",
+        "description": "The Pareto Router is a way to have OpenRouter always pick a strong coding model for your needs without committing to a specific one.",
+        "release_date": "2026-04-21",
+        "context_window": 200000,
+        "tagline": "The Pareto Router is a way to have OpenRouter always pick a strong coding model for your needs without committing to a specific one.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-22"
       },
       {
         "id": "perplexity/sonar-deep-research",
@@ -102920,7 +103434,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 235B A22B Thinking 2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-17",
+        "last_updated": "2026-04-22",
         "family": "qwen3",
         "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks.",
         "context_window": 262144,
@@ -102954,6 +103468,8 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "max_output_tokens": 262144,
+        "status": "deprecated",
+        "deprecation_date": "2026-04-22",
         "license": "apache-2.0"
       },
       {
@@ -102961,7 +103477,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 235B A22B Thinking 2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-17",
+        "last_updated": "2026-04-22",
         "family": "qwen3",
         "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks.",
         "release_date": "2025-07-25",
@@ -102997,6 +103513,8 @@ export const providers: ProviderWithModels[] = [
           "qwen/qwen3-235b-a22b-thinking-2507"
         ],
         "max_output_tokens": 262144,
+        "status": "deprecated",
+        "deprecation_date": "2026-04-22",
         "license": "apache-2.0"
       },
       {
@@ -103468,7 +103986,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 Coder Next",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-14",
+        "last_updated": "2026-04-22",
         "family": "qwen3",
         "description": "Qwen3-Coder-Next is an open-weight causal language model optimized for coding agents and local development workflows.",
         "context_window": 262144,
@@ -103491,7 +104009,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.15,
           "output": 0.8,
-          "cached_input": 0.12
+          "cached_input": 0.11
         },
         "model_type": "code",
         "release_date": "2026-02-04",
@@ -104453,7 +104971,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: QwQ 32B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-22",
         "family": "qwq",
         "description": "QwQ is the reasoning model of the Qwen series.",
         "context_window": 131072,
@@ -104483,6 +105001,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
+        "status": "deprecated",
+        "deprecation_date": "2026-04-29",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -106071,24 +106591,24 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.698,
-          "output": 4.4,
-          "cached_input": 0.26
+          "input": 1.05,
+          "output": 3.5,
+          "cached_input": 0.525
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-21",
-        "max_output_tokens": 131072
+        "last_updated": "2026-04-22",
+        "max_output_tokens": 65535
       },
       {
         "id": "z-ai/glm-5",
         "name": "Z.ai: GLM 5",
         "created_by": "z-ai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-22",
         "description": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows.",
-        "context_window": 80000,
+        "context_window": 202752,
         "max_output_tokens": 131072,
         "modalities": {
           "input": [
@@ -106105,8 +106625,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.72,
-          "output": 2.3
+          "input": 0.65,
+          "output": 2.08,
+          "cached_input": 0.13
         },
         "family": "glm-5",
         "model_type": "chat",
@@ -109043,7 +109564,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-max-preview",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-04-22",
         "family": "qwen3",
         "context_window": 81920,
         "model_type": "chat",
@@ -109064,7 +109585,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### 国际 If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true
@@ -109074,10 +109595,10 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-max",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-04-22",
         "family": "qwen3",
-        "context_window": 262144,
-        "max_output_tokens": 81920,
+        "context_window": 258048,
+        "max_output_tokens": 32768,
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -109097,7 +109618,7 @@ export const providers: ProviderWithModels[] = [
           "chat"
         ],
         "license": "apache-2.0",
-        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### 国际 If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": true,
@@ -110100,6 +110621,38 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-21"
       },
       {
+        "id": "qwen3.6-max-preview",
+        "name": "qwen3.6-max-preview",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3.6",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
+        "context_window": 262144,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
+        "license": "apache-2.0",
+        "tagline": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks.",
+        "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat"
+        ],
+        "last_updated": "2026-04-22"
+      },
+      {
         "id": "qwen3.6-plus",
         "name": "qwen3.6-plus",
         "created_by": "qwen",
@@ -110579,7 +111132,7 @@ export const providers: ProviderWithModels[] = [
         "name": "wan2.6-r2v",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-04-22",
         "model_type": "video",
         "capabilities": {
           "streaming": true
@@ -110599,7 +111152,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "family": "wan2.6",
         "license": "proprietary",
-        "description": "The Wan reference-to-video model lets you generate performance videos using characters and voices from reference videos or images. [API reference](https://www.alibabacloud.com/help/en/document_detail/3001146.html) Billing rule: Both input and output videos are billed by **video duration in seconds**. Failed requests are not billed and do not consume your free quota. * Input video duration is capped at **5 seconds** . See [Wan reference-to-video](https://www.alibabacloud.com/help/en/document_detail/3001146.html#f79461ca408qn) for details. * Output video duration equals the **duration of successfully generated video**. ## Global If you select the [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide. Static data is stored in your selected region. Supported regions: US (Virginia) and Germany (Frankfurt). > The wan2.6-r2v model supports only the global service deployment scope in the US (Virginia) region.",
+        "description": "The Wan reference-to-video model lets you generate performance videos using characters and voices from reference videos or images. [API reference](https://www.alibabacloud.com/help/en/document_detail/3001146.html) Billing rule: Both input and output videos are billed by **video duration in seconds**. Failed requests are not billed and do not consume your free quota. * Input video duration is capped at **5 seconds** . See [Wan reference-to-video](https://www.alibabacloud.com/help/en/document_detail/3001146.html#f79461ca408qn) for details. * Output video duration equals the **duration of successfully generated video**. ## Global If you select the [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide. Static data is stored in your selected region. Supported regions: US (Virginia) and Germany (Frankfurt).",
         "tagline": "The Wan reference-to-video model generates performance videos by referencing a character's appearance from an input video or image, the voice from the input video, and text prompts.",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
         "open_weight": false
@@ -111116,6 +111669,32 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "s/kimi-k26",
+        "name": "Kimi K26",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "kimi-k26",
+        "context_window": 256000,
+        "page_url": "https://www.together.ai/models/kimi-k26",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 2.8
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-22"
       },
       {
         "id": "s/lfm2-24b-a2b",
@@ -111688,7 +112267,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "reasoning": true
+          "reasoning": true,
+          "fine_tuning": true
         },
         "pricing": {
           "input": 1.3,
@@ -111705,7 +112285,12 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-21"
+        "last_updated": "2026-04-21",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
+        "tagline": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks.",
+        "max_output_tokens": 131072,
+        "license": "apache-2.0",
+        "open_weight": true
       },
       {
         "id": "alibaba/qwen3-235b-a22b-thinking",
@@ -111957,7 +112542,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### 国际 If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks.",
         "license": "apache-2.0",
         "open_weight": true
@@ -112022,9 +112607,9 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### 国际 If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
+        "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks.",
-        "max_output_tokens": 81920,
+        "max_output_tokens": 32768,
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -117451,8 +118036,8 @@ export const providers: ProviderWithModels[] = [
           "output": 32
         },
         "model_type": "image",
-        "description": "GPT Image 1.5 is our latest image generation model, with better instruction following and adherence to prompts. Learn more in our [GPT Image 1.5 usage guide](/api/docs/guides/image-generation).",
-        "tagline": "State-of-the-art image generation model",
+        "description": "GPT Image 1.5 is our previous image generation model, with better instruction following and adherence to prompts. Learn more in our [GPT Image 1.5 usage guide](/api/docs/guides/image-generation).",
+        "tagline": "Our previous image generation model",
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
@@ -117490,6 +118075,42 @@ export const providers: ProviderWithModels[] = [
         "model_type": "image",
         "description": "GPT Image 1 is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.",
         "tagline": "Our previous image generation model",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
+      },
+      {
+        "id": "openai/gpt-image-2",
+        "name": "gpt-image-2",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-image-2",
+        "model_type": "image",
+        "capabilities": {
+          "streaming": true,
+          "vision": false,
+          "tool_call": false,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
+          "reasoning": false,
+          "batch": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30
+        },
+        "last_updated": "2026-04-22",
+        "description": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our [image generation guide](/api/docs/guides/image-generation), or see the [pricing page](/api/docs/pricing#image-generation) and [image generation calculator](/api/docs/guides/image-generation#calculating-costs) for cost estimates.",
+        "tagline": "State-of-the-art image generation model",
         "license": "proprietary",
         "open_weight": false,
         "modalities": {
@@ -119695,11 +120316,77 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false
       },
       {
+        "id": "deep-research-max-preview-04-2026",
+        "name": "deep-research-max-preview-04-2026",
+        "created_by": "google",
+        "source": "official",
+        "family": "deep-research",
+        "status": "active",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "model_type": "reasoning",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-04-22"
+      },
+      {
+        "id": "deep-research-preview-04-2026",
+        "name": "deep-research-preview-04-2026",
+        "created_by": "google",
+        "source": "official",
+        "family": "deep-research",
+        "status": "active",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "model_type": "reasoning",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-04-22"
+      },
+      {
         "id": "deep-research-pro-preview-12-2025",
         "name": "deep-research-pro-preview-12-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-04-16",
+        "last_updated": "2026-04-22",
         "status": "active",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -119721,8 +120408,7 @@ export const providers: ProviderWithModels[] = [
             "audio"
           ],
           "output": [
-            "text",
-            "audio"
+            "text"
           ]
         },
         "tools": [
@@ -120231,7 +120917,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-computer-use-preview-10-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-04-16",
+        "last_updated": "2026-04-22",
         "family": "gemini-2.5",
         "status": "active",
         "context_window": 128000,
@@ -120251,8 +120937,7 @@ export const providers: ProviderWithModels[] = [
             "image"
           ],
           "output": [
-            "text",
-            "audio"
+            "text"
           ]
         },
         "tools": [
