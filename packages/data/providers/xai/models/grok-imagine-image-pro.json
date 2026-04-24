@@ -3,7 +3,7 @@
   "name": "grok-imagine-image-pro",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-24",
   "release_date": "2026-01-28",
   "capabilities": {
     "streaming": true,
@@ -27,10 +27,12 @@
     "license": "9186c466",
     "page_url": "a178c6cd",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "license": "proprietary",
   "page_url": "https://docs.x.ai/docs/models#grok-imagine-image-pro",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

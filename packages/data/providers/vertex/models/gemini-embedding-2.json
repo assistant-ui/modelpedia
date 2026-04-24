@@ -1,0 +1,33 @@
+{
+  "id": "gemini-embedding-2",
+  "name": "gemini-embedding-2",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-embedding",
+  "status": "active",
+  "context_window": 8192,
+  "model_type": "embed",
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "916b7eae",
+    "family": "c3d96d58",
+    "status": "379ac110",
+    "context_window": "77441296",
+    "model_type": "764cb3de",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "d3117eb0",
+    "modalities": "68e53d93",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-04-24"
+}

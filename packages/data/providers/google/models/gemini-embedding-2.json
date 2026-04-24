@@ -1,0 +1,56 @@
+{
+  "id": "gemini-embedding-2",
+  "name": "gemini-embedding-2",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-embedding",
+  "status": "active",
+  "context_window": 8192,
+  "license": "proprietary",
+  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
+  "model_type": "embed",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.2, null, null]
+          },
+          {
+            "label": "Batch",
+            "values": [null, null, null]
+          }
+        ]
+      }
+    ]
+  },
+  "open_weight": false,
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "916b7eae",
+    "family": "c3d96d58",
+    "status": "379ac110",
+    "context_window": "77441296",
+    "license": "9186c466",
+    "page_url": "506f9d2d",
+    "model_type": "764cb3de",
+    "capabilities": "d3117eb0",
+    "modalities": "68e53d93",
+    "pricing": "000af397",
+    "open_weight": "68934a3e",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-04-24"
+}
