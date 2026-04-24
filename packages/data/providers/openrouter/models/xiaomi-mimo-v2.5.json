@@ -1,0 +1,44 @@
+{
+  "id": "xiaomi/mimo-v2.5",
+  "name": "Xiaomi: MiMo-V2.5",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "description": "MiMo-V2.5 is a native omnimodal model by Xiaomi.",
+  "release_date": "2026-04-22",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "MiMo-V2.5 is a native omnimodal model by Xiaomi.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "audio", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.4,
+    "output": 2,
+    "cached_input": 0.08
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d9f1dd47",
+    "family": "1a23786e",
+    "description": "f42ecddc",
+    "release_date": "c48b287d",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "f42ecddc",
+    "capabilities": "03fbefb4",
+    "modalities": "fa4eeb00",
+    "pricing": "77c4b8ce",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-24"
+}

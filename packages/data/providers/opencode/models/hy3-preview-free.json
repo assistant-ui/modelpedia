@@ -1,0 +1,16 @@
+{
+  "id": "hy3-preview-free",
+  "name": "Hy3 Preview Free",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "98c8a290",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-04-24"
+}

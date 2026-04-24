@@ -1,0 +1,14 @@
+{
+  "id": "nvidia/ai-synthetic-video-detector",
+  "name": "ai-synthetic-video-detector",
+  "created_by": "nvidia",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "fa93ec14",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-04-24"
+}

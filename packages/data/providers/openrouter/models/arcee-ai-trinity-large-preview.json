@@ -1,0 +1,36 @@
+{
+  "id": "arcee-ai/trinity-large-preview",
+  "name": "Arcee AI: Trinity Large Preview",
+  "created_by": "arcee-ai",
+  "source": "official",
+  "description": "Trinity-Large-Preview is a frontier-scale open-weight language model from Arcee, built as a 400B-parameter sparse Mixture-of-Experts with 13B active parameters per token using 4-of-256 expert routing.",
+  "release_date": "2026-01-27",
+  "context_window": 131000,
+  "tagline": "Trinity-Large-Preview is a frontier-scale open-weight language model from Arcee, built as a 400B-parameter sparse Mixture-of-Experts with 13B active parameters per token using 4-of-256 expert routing.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.45
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b407f4a4",
+    "description": "85dca2d3",
+    "release_date": "a6a6b128",
+    "context_window": "834bd590",
+    "tagline": "85dca2d3",
+    "capabilities": "6c9aa67e",
+    "modalities": "68e53d93",
+    "pricing": "ae27fbfc",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-24"
+}
