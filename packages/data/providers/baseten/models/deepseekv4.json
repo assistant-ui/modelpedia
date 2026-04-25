@@ -1,0 +1,23 @@
+{
+  "id": "deepseekv4",
+  "name": "deepseekv4",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "722fa633",
+    "family": "4b81b92d",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-25"
+}

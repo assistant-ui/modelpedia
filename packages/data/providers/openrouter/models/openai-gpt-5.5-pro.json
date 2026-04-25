@@ -1,0 +1,43 @@
+{
+  "id": "openai/gpt-5.5-pro",
+  "name": "OpenAI: GPT-5.5 Pro",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.5",
+  "description": "GPT-5.5 Pro is OpenAI’s high-capability model optimized for deep reasoning and accuracy on complex, high-stakes workloads.",
+  "release_date": "2026-04-24",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "GPT-5.5 Pro is OpenAI’s high-capability model optimized for deep reasoning and accuracy on complex, high-stakes workloads.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 30,
+    "output": 180
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "69c2cda2",
+    "family": "7011ad8c",
+    "description": "4f94395c",
+    "release_date": "173d2bb2",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "4f94395c",
+    "capabilities": "03fbefb4",
+    "modalities": "8b8b28d1",
+    "pricing": "ba335d1c",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-25"
+}
