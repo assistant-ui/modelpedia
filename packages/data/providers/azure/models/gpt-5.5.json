@@ -1,0 +1,27 @@
+{
+  "id": "gpt-5.5",
+  "name": "GPT-5.5 series",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.5",
+  "description": "NEW gpt-5.5",
+  "model_type": "chat",
+  "tagline": "NEW gpt-5.5",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "40b772a3",
+    "family": "7011ad8c",
+    "description": "6ae3a977",
+    "model_type": "d669f408",
+    "tagline": "6ae3a977",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-25"
+}

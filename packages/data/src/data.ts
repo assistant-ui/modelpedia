@@ -7437,7 +7437,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.1 series",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-04-25",
         "family": "gpt-5.1",
         "capabilities": {
           "streaming": true,
@@ -7458,7 +7458,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "model_type": "chat",
-        "description": "NEW gpt-5.1 , gpt-5.1-chat Preview , gpt-5.1-codex , gpt-5.1-codex-mini",
+        "description": "gpt-5.1 , gpt-5.1-chat Preview , gpt-5.1-codex , gpt-5.1-codex-mini",
         "tagline": "NEW gpt-5.1 , gpt-5.1-chat , gpt-5.1-codex , gpt-5.1-codex-mini",
         "context_window": 400000,
         "max_output_tokens": 128000,
@@ -7525,7 +7525,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.2 series",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-04-25",
         "family": "gpt-5.2",
         "capabilities": {
           "streaming": true,
@@ -7546,7 +7546,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "model_type": "chat",
-        "description": "NEW gpt-5.2-codex , gpt-5.2 , gpt-5.2-chat Preview",
+        "description": "gpt-5.2-codex , gpt-5.2 , gpt-5.2-chat Preview",
         "tagline": "NEW gpt-5.2-codex , gpt-5.2 , gpt-5.2-chat ( Preview )",
         "context_window": 400000,
         "max_output_tokens": 128000,
@@ -7613,7 +7613,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.3 series",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-04-25",
         "family": "gpt-5.3",
         "capabilities": {
           "streaming": true
@@ -7627,7 +7627,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "model_type": "chat",
-        "description": "NEW gpt-5.3-chat , gpt-5.3-codex",
+        "description": "gpt-5.3-chat , gpt-5.3-codex",
         "tagline": "NEW gpt-5.3-codex"
       },
       {
@@ -7788,6 +7788,40 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "model_type": "chat"
+      },
+      {
+        "id": "gpt-5.5",
+        "name": "GPT-5.5 series",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.5",
+        "description": "NEW gpt-5.5",
+        "model_type": "chat",
+        "tagline": "NEW gpt-5.5",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "reasoning": true,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-25",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-12",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "gpt-5",
@@ -9399,6 +9433,47 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-04-17"
+      },
+      {
+        "id": "deepseek-v4",
+        "name": "deepseek-v4",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "open_weight": true,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-25"
+      },
+      {
+        "id": "deepseekv4",
+        "name": "deepseekv4",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-25"
       },
       {
         "id": "gemma-4-26b-a4b-it",
@@ -30007,7 +30082,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "description": "GPT-5.4 is our frontier model for complex professional work.",
-        "tagline": "Best intelligence at scale for agentic, coding, and professional workflows",
+        "tagline": "A more affordable model for coding and professional work.",
         "context_window": 1050000,
         "max_output_tokens": 128000,
         "knowledge_cutoff": "2025-08",
@@ -52595,7 +52670,7 @@ export const providers: ProviderWithModels[] = [
           "Requires Max Mode on request-based plans; Agentic and reasoning capabilities; 90% discount on cached input tokens; Fast mode is 15% faster with 2x pricing; Long context (Max Mode) supports up to 1M tokens with 2x input pricing"
         ],
         "description": "GPT-5.4 is our frontier model for complex professional work.",
-        "tagline": "Best intelligence at scale for agentic, coding, and professional workflows",
+        "tagline": "A more affordable model for coding and professional work.",
         "max_output_tokens": 128000,
         "knowledge_cutoff": "2025-08",
         "license": "proprietary",
@@ -53415,6 +53490,85 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ]
+      },
+      {
+        "id": "deepseek-v4-flash *",
+        "name": "DeepSeek V3.2 (Chat)",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek-chat",
+        "description": "DeepSeek-V3.2 in non-thinking mode. Best for general chat, code, and tool use.",
+        "status": "active",
+        "max_output_tokens": 384000,
+        "model_type": "chat",
+        "license": "mit",
+        "tagline": "DeepSeek-V3.2 in non-thinking mode.",
+        "capabilities": {
+          "streaming": true,
+          "json_mode": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.28,
+          "cached_input": 0.028
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-25"
+      },
+      {
+        "id": "deepseek-v4-pro",
+        "name": "DeepSeek V3.2 (Chat)",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek-chat",
+        "description": "DeepSeek-V3.2 in non-thinking mode. Best for general chat, code, and tool use.",
+        "status": "active",
+        "model_type": "chat",
+        "license": "mit",
+        "tagline": "DeepSeek-V3.2 in non-thinking mode.",
+        "capabilities": {
+          "streaming": true,
+          "json_mode": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.28,
+          "cached_input": 0.028
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-25"
       }
     ]
   },
@@ -73924,6 +74078,53 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "deepseek-ai/deepseek-v4-flash",
+        "name": "deepseek-v4-flash",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-25"
+      },
+      {
+        "id": "deepseek-ai/deepseek-v4-pro",
+        "name": "deepseek-v4-pro",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "json_mode": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-25",
+        "description": "DeepSeek-V3.2 in non-thinking mode. Best for general chat, code, and tool use.",
+        "tagline": "DeepSeek-V3.2 in non-thinking mode.",
+        "license": "mit",
+        "open_weight": true
+      },
+      {
         "id": "google/codegemma-1.1-7b",
         "name": "codegemma-1.1-7b",
         "created_by": "google",
@@ -77912,6 +78113,40 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "deepseek-v4-flash",
+        "name": "deepseek-v4-flash",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "description": "DeepSeek-V4-Flash is a preview of the DeepSeek-V4 series, a Mixture-of-Experts model with 284B total parameters and 13B activated, built for efficient reasoning across a 1M-token context window.",
+        "release_date": "2026-04-24",
+        "reasoning_tokens": true,
+        "license": "open-weight",
+        "parameters": 284,
+        "page_url": "https://ollama.com/library/deepseek-v4-flash",
+        "open_weight": true,
+        "model_type": "chat",
+        "tagline": "DeepSeek-V4-Flash is a preview of the DeepSeek-V4 series, a Mixture-of-Experts model with 284B total parameters and 13B activated, built for efficient reasoning across a 1M-token context window.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-25"
       },
       {
         "id": "devstral-2",
@@ -86815,7 +87050,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.4",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-26",
+        "last_updated": "2026-04-25",
         "family": "gpt-5.4",
         "description": "GPT-5.4 is our frontier model for complex professional work.",
         "status": "active",
@@ -86827,7 +87062,7 @@ export const providers: ProviderWithModels[] = [
         "performance": 5,
         "reasoning": 5,
         "speed": 3,
-        "tagline": "Best intelligence at scale for agentic, coding, and professional workflows",
+        "tagline": "A more affordable model for coding and professional work.",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -86918,6 +87153,402 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://developers.openai.com/api/docs/models/gpt-5.4?snapshot=gpt-5.4-2026-03-05",
         "open_weight": false,
         "release_date": "2026-03-05"
+      },
+      {
+        "id": "gpt-5.5-2026-04-23",
+        "name": "gpt-5.5-2026-04-23",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.5",
+        "description": "GPT-5.5 is our newest frontier model for the most complex professional work.",
+        "status": "active",
+        "release_date": "2026-04-23",
+        "knowledge_cutoff": "2025-12",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "reasoning_tokens": true,
+        "license": "proprietary",
+        "alias": "gpt-5.5",
+        "performance": 5,
+        "reasoning": 5,
+        "speed": 4,
+        "page_url": "https://developers.openai.com/api/docs/models/gpt-5.5?snapshot=gpt-5.5-2026-04-23",
+        "open_weight": false,
+        "tagline": "GPT-5.5 is our newest frontier model for the most complex professional work.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "reasoning": true,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cached_input": 0.5,
+          "batch_input": 2.5,
+          "batch_output": 15,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    0.5,
+                    30
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    2.5,
+                    0.25,
+                    15
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    2.5,
+                    0.25,
+                    15
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    12.5,
+                    1.25,
+                    75
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "responses",
+          "chat_completions",
+          "batch"
+        ],
+        "last_updated": "2026-04-25"
+      },
+      {
+        "id": "gpt-5.5-pro-2026-04-23",
+        "name": "gpt-5.5-pro-2026-04-23",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.5",
+        "status": "active",
+        "release_date": "2026-04-23",
+        "knowledge_cutoff": "2025-12",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "reasoning_tokens": true,
+        "license": "proprietary",
+        "alias": "gpt-5.5-pro",
+        "performance": 5,
+        "reasoning": 5,
+        "speed": 1,
+        "page_url": "https://developers.openai.com/api/docs/models/gpt-5.5-pro?snapshot=gpt-5.5-pro-2026-04-23",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": false,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "reasoning": true,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 30,
+          "output": 180,
+          "batch_input": 15,
+          "batch_output": 90,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    30,
+                    null,
+                    180
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    15,
+                    null,
+                    90
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    15,
+                    null,
+                    90
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "responses",
+          "batch"
+        ],
+        "last_updated": "2026-04-25"
+      },
+      {
+        "id": "gpt-5.5-pro",
+        "name": "gpt-5.5-pro",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.5",
+        "status": "active",
+        "knowledge_cutoff": "2025-12",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "reasoning_tokens": true,
+        "license": "proprietary",
+        "performance": 5,
+        "reasoning": 5,
+        "speed": 1,
+        "page_url": "https://developers.openai.com/api/docs/models/gpt-5.5-pro?snapshot=gpt-5.5-pro-2026-04-23",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": false,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "reasoning": true,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 30,
+          "output": 180,
+          "batch_input": 15,
+          "batch_output": 90,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    30,
+                    null,
+                    180
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    15,
+                    null,
+                    90
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    15,
+                    null,
+                    90
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "responses",
+          "batch"
+        ],
+        "last_updated": "2026-04-25",
+        "release_date": "2026-04-23",
+        "snapshots": [
+          "gpt-5.5-pro-2026-04-23"
+        ]
+      },
+      {
+        "id": "gpt-5.5",
+        "name": "GPT-5.5",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.5",
+        "description": "GPT-5.5 is our newest frontier model for the most complex professional work.",
+        "status": "active",
+        "knowledge_cutoff": "2025-12",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "reasoning_tokens": true,
+        "license": "proprietary",
+        "performance": 5,
+        "reasoning": 5,
+        "speed": 4,
+        "tagline": "A new class of intelligence for coding and professional work.",
+        "page_url": "https://developers.openai.com/api/docs/models/gpt-5.5?snapshot=gpt-5.5-2026-04-23",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "reasoning": true,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cached_input": 0.5,
+          "batch_input": 2.5,
+          "batch_output": 15,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    0.5,
+                    30
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    2.5,
+                    0.25,
+                    15
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    2.5,
+                    0.25,
+                    15
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    12.5,
+                    1.25,
+                    75
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "responses",
+          "chat_completions",
+          "batch"
+        ],
+        "pricing_notes": [
+          "For GPT-5.5, prompts with >272K input tokens are priced at 2x input and 1.5x output for the full session for standard, batch, and flex.",
+          "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.5."
+        ],
+        "snapshots": [
+          "gpt-5.5-2026-04-23"
+        ],
+        "last_updated": "2026-04-25",
+        "release_date": "2026-04-23"
       },
       {
         "id": "gpt-5",
@@ -92622,10 +93253,83 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "description": "GPT-5.4 is our frontier model for complex professional work.",
-        "tagline": "Best intelligence at scale for agentic, coding, and professional workflows",
+        "tagline": "A more affordable model for coding and professional work.",
         "context_window": 1050000,
         "max_output_tokens": 128000,
         "knowledge_cutoff": "2025-08",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "gpt-5.5-pro",
+        "name": "GPT 5.5 Pro",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.5",
+        "status": "active",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "reasoning": true,
+          "batch": true
+        },
+        "pricing": {
+          "input": 30,
+          "output": 180,
+          "cached_input": 30
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-25",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-12",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "gpt-5.5",
+        "name": "GPT 5.5",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.5",
+        "status": "active",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "reasoning": true,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-25",
+        "description": "GPT-5.5 is our newest frontier model for the most complex professional work.",
+        "tagline": "A new class of intelligence for coding and professional work.",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-12",
         "license": "proprietary",
         "open_weight": false
       },
@@ -93404,7 +94108,7 @@ export const providers: ProviderWithModels[] = [
         "name": "AllenAI: Olmo 3.1 32B Instruct",
         "created_by": "allenai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "description": "Olmo 3.1 32B Instruct is a large-scale, 32-billion-parameter instruction-tuned language model engineered for high-performance conversational AI, multi-turn dialogue, and practical instruction following.",
         "context_window": 65536,
         "modalities": {
@@ -93429,7 +94133,8 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Olmo 3.1 32B Instruct is a large-scale, 32-billion-parameter instruction-tuned language model engineered for high-performance conversational AI, multi-turn dialogue, and practical instruction followin",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "max_output_tokens": 16384
       },
       {
         "id": "allenai/olmo-3.1-32b-think",
@@ -95037,7 +95742,7 @@ export const providers: ProviderWithModels[] = [
         "name": "DeepSeek: DeepSeek V3 0324",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "deepseek-chat",
         "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.",
         "context_window": 163840,
@@ -95065,7 +95770,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "model_type": "chat"
+        "model_type": "chat",
+        "max_output_tokens": 16384
       },
       {
         "id": "deepseek/deepseek-chat-v3.1",
@@ -95107,11 +95813,11 @@ export const providers: ProviderWithModels[] = [
         "name": "DeepSeek: DeepSeek V3",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "deepseek-chat",
         "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions.",
         "context_window": 163840,
-        "max_output_tokens": 163840,
+        "max_output_tokens": 16384,
         "modalities": {
           "input": [
             "text"
@@ -95145,11 +95851,11 @@ export const providers: ProviderWithModels[] = [
         "name": "DeepSeek: R1 0528",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-04-14",
+        "last_updated": "2026-04-25",
         "family": "deepseek-r1",
         "description": "May 28th update to the [original DeepSeek R1](/deepseek/deepseek-r1) Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens.",
         "context_window": 163840,
-        "max_output_tokens": 65536,
+        "max_output_tokens": 32768,
         "modalities": {
           "input": [
             "text"
@@ -95278,11 +95984,11 @@ export const providers: ProviderWithModels[] = [
         "name": "DeepSeek: DeepSeek V3.1 Terminus",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-25",
         "family": "deepseek",
         "description": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language cons",
         "context_window": 163840,
-        "max_output_tokens": 65536,
+        "max_output_tokens": 32768,
         "modalities": {
           "input": [
             "text"
@@ -95411,6 +96117,82 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "max_output_tokens": 65536
+      },
+      {
+        "id": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek: DeepSeek V4 Flash",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window.",
+        "release_date": "2026-04-24",
+        "context_window": 1048576,
+        "max_output_tokens": 384000,
+        "model_type": "chat",
+        "tagline": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.28,
+          "cached_input": 0.028
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-25"
+      },
+      {
+        "id": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek: DeepSeek V4 Pro",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window.",
+        "release_date": "2026-04-24",
+        "context_window": 1048576,
+        "max_output_tokens": 384000,
+        "model_type": "chat",
+        "tagline": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.74,
+          "output": 3.48,
+          "cached_input": 0.145
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-25",
+        "license": "mit",
+        "open_weight": true
       },
       {
         "id": "eleutherai/llemma_7b",
@@ -96246,7 +97028,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Google: Gemma 3 12B",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "gemma-3",
         "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
         "context_window": 131072,
@@ -96261,7 +97043,8 @@ export const providers: ProviderWithModels[] = [
         },
         "capabilities": {
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "tool_call": true
         },
         "pricing": {
           "input": 0.04,
@@ -96270,7 +97053,11 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "parameters": 12,
         "release_date": "2025-03-13",
-        "tagline": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs."
+        "tagline": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
+        "max_output_tokens": 16384,
+        "tools": [
+          "function_calling"
+        ]
       },
       {
         "id": "google/gemma-3-27b-it:free",
@@ -96305,7 +97092,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Google: Gemma 3 27B",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "gemma-3",
         "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
         "context_window": 131072,
@@ -96321,7 +97108,8 @@ export const providers: ProviderWithModels[] = [
         },
         "capabilities": {
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "tool_call": true
         },
         "pricing": {
           "input": 0.08,
@@ -96330,7 +97118,10 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "parameters": 27,
         "release_date": "2025-03-12",
-        "tagline": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs."
+        "tagline": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
+        "tools": [
+          "function_calling"
+        ]
       },
       {
         "id": "google/gemma-3-4b-it:free",
@@ -96365,7 +97156,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Google: Gemma 3 4B",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "gemma-3",
         "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
         "context_window": 131072,
@@ -96389,7 +97180,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "parameters": 4,
         "release_date": "2025-03-13",
-        "tagline": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs."
+        "tagline": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
+        "max_output_tokens": 16384
       },
       {
         "id": "google/gemma-3n-e2b-it:free",
@@ -96586,7 +97378,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output.",
         "release_date": "2026-04-02",
         "context_window": 262144,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 16384,
         "parameters": 31,
         "model_type": "chat",
         "tagline": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output.",
@@ -96611,7 +97403,7 @@ export const providers: ProviderWithModels[] = [
           "output": 0.38,
           "cached_input": 0.02
         },
-        "last_updated": "2026-04-14",
+        "last_updated": "2026-04-25",
         "tools": [
           "function_calling"
         ]
@@ -97296,7 +98088,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Meta: Llama 3.1 70B Instruct",
         "created_by": "meta-llama",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "llama-3.1",
         "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors.",
         "context_window": 131072,
@@ -97323,7 +98115,8 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "max_output_tokens": 16384
       },
       {
         "id": "meta-llama/llama-3.1-8b-instruct",
@@ -97653,7 +98446,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Meta: Llama Guard 4 12B",
         "created_by": "meta-llama",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "llama-guard",
         "description": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification.",
         "context_window": 163840,
@@ -97677,7 +98470,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "moderation",
         "parameters": 12,
         "release_date": "2025-04-30",
-        "tagline": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification."
+        "tagline": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification.",
+        "max_output_tokens": 16384
       },
       {
         "id": "microsoft/phi-4",
@@ -97895,10 +98689,10 @@ export const providers: ProviderWithModels[] = [
         "name": "MiniMax: MiniMax M2.5",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-04-24",
+        "last_updated": "2026-04-25",
         "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity.",
         "context_window": 196608,
-        "max_output_tokens": 65536,
+        "max_output_tokens": 131072,
         "modalities": {
           "input": [
             "text"
@@ -99021,7 +99815,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Mistral: Mistral Small 3.2 24B",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "mistral-small",
         "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling.",
         "context_window": 128000,
@@ -99049,7 +99843,8 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "max_output_tokens": 16384
       },
       {
         "id": "mistralai/mistral-small-creative",
@@ -99743,7 +100538,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Nous: Hermes 3 70B Instruct",
         "created_by": "nousresearch",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-04-25",
         "description": "Hermes 3 is a generalist language model with many improvements over [Hermes 2](/models/nousresearch/nous-hermes-2-mistral-7b-dpo), including advanced agentic capabilities, much better roleplaying, rea",
         "context_window": 131072,
         "modalities": {
@@ -99765,7 +100560,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "parameters": 70,
         "release_date": "2024-08-18",
-        "tagline": "Hermes 3 is a generalist language model with many improvements over [Hermes 2](/models/nousresearch/nous-hermes-2-mistral-7b-dpo), including advanced agentic capabilities, much better roleplaying, rea"
+        "tagline": "Hermes 3 is a generalist language model with many improvements over [Hermes 2](/models/nousresearch/nous-hermes-2-mistral-7b-dpo), including advanced agentic capabilities, much better roleplaying, rea",
+        "max_output_tokens": 16384
       },
       {
         "id": "nousresearch/hermes-4-405b",
@@ -99898,7 +100694,7 @@ export const providers: ProviderWithModels[] = [
         "name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
         "created_by": "nvidia",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "llama-3.3",
         "description": "Llama-3.3-Nemotron-Super-49B-v1.5 is a 49B-parameter, English-centric reasoning/chat model derived from Meta’s Llama-3.3-70B-Instruct with a 128K context.",
         "context_window": 131072,
@@ -99926,7 +100722,8 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Llama-3.3-Nemotron-Super-49B-v1.5 is a 49B-parameter, English-centric reasoning/chat model derived from Meta’s Llama-3.3-70B-Instruct with a 128K context.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "max_output_tokens": 16384
       },
       {
         "id": "nvidia/nemotron-3-nano-30b-a3b:free",
@@ -99962,7 +100759,7 @@ export const providers: ProviderWithModels[] = [
         "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
         "created_by": "nvidia",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "description": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems.",
         "context_window": 262144,
         "modalities": {
@@ -99990,7 +100787,8 @@ export const providers: ProviderWithModels[] = [
         "tagline": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "max_output_tokens": 228000
       },
       {
         "id": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -100096,7 +100894,7 @@ export const providers: ProviderWithModels[] = [
         "name": "NVIDIA: Nemotron Nano 12B 2 VL",
         "created_by": "nvidia",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "description": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence.",
         "context_window": 131072,
         "modalities": {
@@ -100121,7 +100919,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "parameters": 12,
         "release_date": "2025-10-28",
-        "tagline": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence."
+        "tagline": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence.",
+        "max_output_tokens": 16384
       },
       {
         "id": "nvidia/nemotron-nano-9b-v2:free",
@@ -100158,7 +100957,7 @@ export const providers: ProviderWithModels[] = [
         "name": "NVIDIA: Nemotron Nano 9B V2",
         "created_by": "nvidia",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks.",
         "context_window": 131072,
         "modalities": {
@@ -100185,7 +100984,8 @@ export const providers: ProviderWithModels[] = [
         "tagline": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "max_output_tokens": 16384
       },
       {
         "id": "openai/gpt-3.5-turbo-0613",
@@ -102045,6 +102845,93 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false
       },
       {
+        "id": "openai/gpt-5.5-pro",
+        "name": "OpenAI: GPT-5.5 Pro",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.5",
+        "description": "GPT-5.5 Pro is OpenAI’s high-capability model optimized for deep reasoning and accuracy on complex, high-stakes workloads.",
+        "release_date": "2026-04-24",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "tagline": "GPT-5.5 Pro is OpenAI’s high-capability model optimized for deep reasoning and accuracy on complex, high-stakes workloads.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": false,
+          "vision": true,
+          "fine_tuning": false,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 30,
+          "output": 180
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-25",
+        "knowledge_cutoff": "2025-12",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "openai/gpt-5.5",
+        "name": "OpenAI: GPT-5.5",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.5",
+        "description": "GPT-5.5 is OpenAI’s frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks.",
+        "release_date": "2026-04-24",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "tagline": "GPT-5.5 is OpenAI’s frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true,
+          "vision": true,
+          "fine_tuning": false,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cached_input": 0.5
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-25",
+        "knowledge_cutoff": "2025-12",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
         "id": "openai/gpt-5",
         "name": "OpenAI: GPT-5",
         "created_by": "openai",
@@ -102209,7 +103096,7 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: gpt-oss-120b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "gpt-oss",
         "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases.",
         "context_window": 131072,
@@ -103597,7 +104484,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 235B A22B Instruct 2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "qwen3",
         "description": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass.",
         "context_window": 262144,
@@ -103623,7 +104510,7 @@ export const providers: ProviderWithModels[] = [
         "parameters": 235,
         "active_parameters": 22,
         "release_date": "2025-07-21",
-        "max_output_tokens": 8192,
+        "max_output_tokens": 16384,
         "alias": "qwen/qwen3-235b-a22b",
         "tagline": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass.",
         "tools": [
@@ -103934,11 +104821,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 30B A3B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "qwen3",
         "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks.",
         "context_window": 40960,
-        "max_output_tokens": 40960,
+        "max_output_tokens": 16384,
         "modalities": {
           "input": [
             "text"
@@ -104187,7 +105074,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 Coder Next",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-22",
+        "last_updated": "2026-04-25",
         "family": "qwen3",
         "description": "Qwen3-Coder-Next is an open-weight causal language model optimized for coding agents and local development workflows.",
         "context_window": 262144,
@@ -104208,9 +105095,9 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.15,
+          "input": 0.14,
           "output": 0.8,
-          "cached_input": 0.11
+          "cached_input": 0.09
         },
         "model_type": "code",
         "release_date": "2026-02-04",
@@ -104265,7 +105152,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 Coder 480B A35B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "qwen3",
         "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team.",
         "context_window": 262144,
@@ -104294,7 +105181,8 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "max_output_tokens": 65536
       },
       {
         "id": "qwen/qwen3-max-thinking",
@@ -104407,7 +105295,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 Next 80B A3B Instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "qwen3",
         "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces.",
         "context_window": 262144,
@@ -104438,6 +105326,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
+        "max_output_tokens": 16384,
         "license": "apache-2.0"
       },
       {
@@ -104485,7 +105374,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 VL 235B A22B Instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "family": "qwen3",
         "description": "Qwen3-VL-235B-A22B Instruct is an open-weight multimodal model that unifies strong text generation with visual understanding across images and video.",
         "context_window": 262144,
@@ -104520,6 +105409,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
+        "max_output_tokens": 16384,
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -105393,7 +106283,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Sao10K: Llama 3 8B Lunaris",
         "created_by": "sao10k",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "description": "Lunaris 8B is a versatile generalist and roleplaying model based on Llama 3.",
         "context_window": 8192,
         "modalities": {
@@ -105414,7 +106304,8 @@ export const providers: ProviderWithModels[] = [
         },
         "parameters": 8,
         "release_date": "2024-08-13",
-        "tagline": "Lunaris 8B is a versatile generalist and roleplaying model based on Llama 3."
+        "tagline": "Lunaris 8B is a versatile generalist and roleplaying model based on Llama 3.",
+        "max_output_tokens": 16384
       },
       {
         "id": "sao10k/l3.1-70b-hanami-x1",
@@ -105643,7 +106534,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-24"
+        "last_updated": "2026-04-25",
+        "status": "deprecated",
+        "deprecation_date": "2026-05-08"
       },
       {
         "id": "thedrummer/cydonia-24b-v4.1",
@@ -106729,10 +107622,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Z.ai: GLM 4.6V",
         "created_by": "z-ai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "description": "GLM-4.6V is a large multimodal model designed for high-fidelity visual understanding and long-context reasoning across images, documents, and mixed media.",
         "context_window": 131072,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 24000,
         "modalities": {
           "input": [
             "image",
@@ -106751,7 +107644,8 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.3,
-          "output": 0.9
+          "output": 0.9,
+          "cached_input": 0.05
         },
         "family": "glm-4.6",
         "model_type": "chat",
@@ -106766,7 +107660,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Z.ai: GLM 4.7 Flash",
         "created_by": "z-ai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-25",
         "description": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency.",
         "context_window": 202752,
         "modalities": {
@@ -106794,7 +107688,8 @@ export const providers: ProviderWithModels[] = [
         "tagline": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "max_output_tokens": 16384
       },
       {
         "id": "z-ai/glm-4.7",
@@ -106909,10 +107804,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Z.ai: GLM 5",
         "created_by": "z-ai",
         "source": "official",
-        "last_updated": "2026-04-24",
+        "last_updated": "2026-04-25",
         "description": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows.",
         "context_window": 202752,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 16384,
         "modalities": {
           "input": [
             "text"
@@ -107664,7 +108559,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "description": "GPT-5.4 is our frontier model for complex professional work.",
-        "tagline": "Best intelligence at scale for agentic, coding, and professional workflows",
+        "tagline": "A more affordable model for coding and professional work.",
         "context_window": 1050000,
         "max_output_tokens": 128000,
         "knowledge_cutoff": "2025-08"
@@ -111730,6 +112625,64 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "s/deepseek-v4-flash",
+        "name": "Deepseek V4 Flash",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "page_url": "https://www.together.ai/models/deepseek-v4-flash",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1.2,
+          "output": 4.5
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-25"
+      },
+      {
+        "id": "s/deepseek-v4-pro",
+        "name": "Deepseek V4 Pro",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "context_window": 512000,
+        "page_url": "https://www.together.ai/models/deepseek-v4-pro",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "json_mode": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 4.4
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-04-25",
+        "description": "DeepSeek-V3.2 in non-thinking mode. Best for general chat, code, and tool use.",
+        "tagline": "DeepSeek-V3.2 in non-thinking mode.",
+        "license": "mit",
+        "open_weight": true
+      },
+      {
         "id": "s/flux-2-pro",
         "name": "Flux 2 Pro",
         "created_by": "black-forest-labs",
@@ -111751,15 +112704,15 @@ export const providers: ProviderWithModels[] = [
         "name": "Gemma 3 27b",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-04-10",
+        "last_updated": "2026-04-25",
         "family": "gemma-3",
         "context_window": 64000,
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 0.5,
-          "output": 2.8
+          "input": 1.2,
+          "output": 4.5
         },
         "model_type": "chat",
         "parameters": 27,
@@ -112016,7 +112969,7 @@ export const providers: ProviderWithModels[] = [
           "streaming": true
         },
         "pricing": {
-          "input": 1.2,
+          "input": 0.2,
           "output": 4.5
         },
         "modalities": {
@@ -112027,7 +112980,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-24"
+        "last_updated": "2026-04-25"
       },
       {
         "id": "s/lfm2-24b-a2b",
@@ -112233,13 +113186,13 @@ export const providers: ProviderWithModels[] = [
         "name": "Nvidia Nemotron 3 Super",
         "created_by": "nvidia",
         "source": "official",
-        "last_updated": "2026-04-10",
+        "last_updated": "2026-04-25",
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 1.4,
-          "output": 4.4
+          "input": 1.2,
+          "output": 4.5
         },
         "page_url": "https://www.together.ai/models/nvidia-nemotron-3-super"
       },
@@ -114584,6 +115537,72 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "deepseek/deepseek-v4-flash",
+        "name": "deepseek-v4-flash",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.28
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-25"
+      },
+      {
+        "id": "deepseek/deepseek-v4-pro",
+        "name": "deepseek-v4-pro",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "json_mode": true,
+          "fine_tuning": true
+        },
+        "pricing": {
+          "input": 1.74,
+          "output": 3.48
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-25",
+        "description": "DeepSeek-V3.2 in non-thinking mode. Best for general chat, code, and tool use.",
+        "tagline": "DeepSeek-V3.2 in non-thinking mode.",
+        "license": "mit",
+        "open_weight": true
       },
       {
         "id": "google/gemini-2.0-flash-lite",
@@ -118282,9 +119301,89 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "description": "GPT-5.4 is our frontier model for complex professional work.",
-        "tagline": "Best intelligence at scale for agentic, coding, and professional workflows",
+        "tagline": "A more affordable model for coding and professional work.",
         "max_output_tokens": 128000,
         "knowledge_cutoff": "2025-08",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "openai/gpt-5.5-pro",
+        "name": "gpt-5.5-pro",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.5",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "batch": true
+        },
+        "pricing": {
+          "input": 30,
+          "output": 180
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-25",
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-12",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "openai/gpt-5.5",
+        "name": "gpt-5.5",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.5",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "batch": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-25",
+        "description": "GPT-5.5 is our newest frontier model for the most complex professional work.",
+        "tagline": "A new class of intelligence for coding and professional work.",
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-12",
         "license": "proprietary",
         "open_weight": false
       },

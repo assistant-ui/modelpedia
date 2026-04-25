@@ -1,0 +1,101 @@
+{
+  "id": "gpt-5.5",
+  "name": "GPT-5.5",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.5",
+  "description": "GPT-5.5 is our newest frontier model for the most complex professional work.",
+  "status": "active",
+  "knowledge_cutoff": "2025-12",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "performance": 5,
+  "reasoning": 5,
+  "speed": 4,
+  "tagline": "A new class of intelligence for coding and professional work.",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.5?snapshot=gpt-5.5-2026-04-23",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "fine_tuning": false,
+    "reasoning": true,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 30,
+    "cached_input": 0.5,
+    "batch_input": 2.5,
+    "batch_output": 15,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 0.5, 30]
+          },
+          {
+            "label": "Batch",
+            "values": [2.5, 0.25, 15]
+          },
+          {
+            "label": "Flex",
+            "values": [2.5, 0.25, 15]
+          },
+          {
+            "label": "Priority",
+            "values": [12.5, 1.25, 75]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["responses", "chat_completions", "batch"],
+  "pricing_notes": [
+    "For GPT-5.5, prompts with >272K input tokens are priced at 2x input and 1.5x output for the full session for standard, batch, and flex.",
+    "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.5."
+  ],
+  "snapshots": ["gpt-5.5-2026-04-23"],
+  "_generated": {
+    "name": "6fbd821e",
+    "family": "7011ad8c",
+    "description": "a4105091",
+    "status": "379ac110",
+    "knowledge_cutoff": "4d1f0710",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "a87ff679",
+    "tagline": "198f77dd",
+    "page_url": "19a289d9",
+    "open_weight": "68934a3e",
+    "capabilities": "822aa4d1",
+    "modalities": "6399757e",
+    "pricing": "ad410ee9",
+    "tools": "f0c1dc7e",
+    "endpoints": "88e8abb4",
+    "pricing_notes": "f99f0e39",
+    "release_date": "a87679d0"
+  },
+  "last_updated": "2026-04-25",
+  "release_date": "2026-04-23"
+}

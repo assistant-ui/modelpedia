@@ -1,0 +1,23 @@
+{
+  "id": "deepseek-ai/deepseek-v4-flash",
+  "name": "deepseek-v4-flash",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "035b3215",
+    "family": "4b81b92d",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-04-25"
+}

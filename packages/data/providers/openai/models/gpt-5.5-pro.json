@@ -1,0 +1,87 @@
+{
+  "id": "gpt-5.5-pro",
+  "name": "gpt-5.5-pro",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.5",
+  "status": "active",
+  "knowledge_cutoff": "2025-12",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "performance": 5,
+  "reasoning": 5,
+  "speed": 1,
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.5-pro?snapshot=gpt-5.5-pro-2026-04-23",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": false,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "fine_tuning": false,
+    "reasoning": true,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 30,
+    "output": 180,
+    "batch_input": 15,
+    "batch_output": 90,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [30, null, 180]
+          },
+          {
+            "label": "Batch",
+            "values": [15, null, 90]
+          },
+          {
+            "label": "Flex",
+            "values": [15, null, 90]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["responses", "batch"],
+  "_generated": {
+    "name": "ce75577d",
+    "family": "7011ad8c",
+    "status": "379ac110",
+    "knowledge_cutoff": "4d1f0710",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "c4ca4238",
+    "page_url": "4bc65f71",
+    "open_weight": "68934a3e",
+    "capabilities": "bcd7f168",
+    "modalities": "6399757e",
+    "pricing": "89cf06e0",
+    "tools": "f0c1dc7e",
+    "endpoints": "6f01fd6c",
+    "release_date": "a87679d0"
+  },
+  "last_updated": "2026-04-25",
+  "release_date": "2026-04-23",
+  "snapshots": ["gpt-5.5-pro-2026-04-23"]
+}

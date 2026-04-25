@@ -1,0 +1,35 @@
+{
+  "id": "openai/gpt-5.5-pro",
+  "name": "gpt-5.5-pro",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.5",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 30,
+    "output": 180
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ce75577d",
+    "family": "7011ad8c",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "ba335d1c",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-25"
+}

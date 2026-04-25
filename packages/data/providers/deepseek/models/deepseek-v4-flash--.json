@@ -1,0 +1,48 @@
+{
+  "id": "deepseek-v4-flash *",
+  "name": "DeepSeek V3.2 (Chat)",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek-chat",
+  "description": "DeepSeek-V3.2 in non-thinking mode. Best for general chat, code, and tool use.",
+  "status": "active",
+  "max_output_tokens": 384000,
+  "model_type": "chat",
+  "license": "mit",
+  "tagline": "DeepSeek-V3.2 in non-thinking mode.",
+  "capabilities": {
+    "streaming": true,
+    "json_mode": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.28,
+    "cached_input": 0.028
+  },
+  "open_weight": true,
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "cc212327",
+    "family": "fbd79fd9",
+    "description": "6eaaf2ae",
+    "status": "379ac110",
+    "max_output_tokens": "c58e26bd",
+    "model_type": "d669f408",
+    "license": "3c4c3ba5",
+    "tagline": "7d65cf30",
+    "capabilities": "63c5e43f",
+    "modalities": "68e53d93",
+    "pricing": "e83de778",
+    "open_weight": "b326b506",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-25"
+}

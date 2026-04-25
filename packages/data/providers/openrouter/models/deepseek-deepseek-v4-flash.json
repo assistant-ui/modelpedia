@@ -1,0 +1,44 @@
+{
+  "id": "deepseek/deepseek-v4-flash",
+  "name": "DeepSeek: DeepSeek V4 Flash",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window.",
+  "release_date": "2026-04-24",
+  "context_window": 1048576,
+  "max_output_tokens": 384000,
+  "model_type": "chat",
+  "tagline": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.28,
+    "cached_input": 0.028
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9246e60b",
+    "family": "4b81b92d",
+    "description": "b8f54878",
+    "release_date": "173d2bb2",
+    "context_window": "7d28a051",
+    "max_output_tokens": "c58e26bd",
+    "model_type": "d669f408",
+    "tagline": "b8f54878",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "e83de778",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-25"
+}

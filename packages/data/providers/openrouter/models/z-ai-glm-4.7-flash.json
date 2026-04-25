@@ -3,7 +3,7 @@
   "name": "Z.ai: GLM 4.7 Flash",
   "created_by": "z-ai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-25",
   "description": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency.",
   "context_window": 202752,
   "modalities": {
@@ -32,11 +32,13 @@
     "model_type": "d669f408",
     "release_date": "aaadbdbb",
     "tagline": "5af35808",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "max_output_tokens": "c76fe1d8"
   },
   "family": "glm-4.7",
   "model_type": "chat",
   "release_date": "2026-01-19",
   "tagline": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "max_output_tokens": 16384
 }

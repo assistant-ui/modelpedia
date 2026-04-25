@@ -1,0 +1,34 @@
+{
+  "id": "deepseek/deepseek-v4-flash",
+  "name": "deepseek-v4-flash",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.28
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "035b3215",
+    "family": "4b81b92d",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "a281e83a",
+    "pricing": "5d28482e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-25"
+}
