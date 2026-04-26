@@ -1,0 +1,21 @@
+{
+  "id": "flux-pro-1.1-ultra",
+  "name": "FLUX 1.1 [pro] Ultra",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-1.1",
+  "description": "FLUX 1.1 [pro] with up to 4MP resolution and optional Raw mode for photographic authenticity. Supports image-to-image.",
+  "tagline": "FLUX 1.1 [pro] up to 4MP with raw mode.",
+  "status": "active",
+  "model_type": "image",
+  "release_date": "2024-11-06",
+  "open_weight": false,
+  "license": "proprietary",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["/v1/flux-pro-1.1-ultra"],
+  "pricing_notes": ["$0.06/image (6 credits) for ultra and raw modes."]
+}

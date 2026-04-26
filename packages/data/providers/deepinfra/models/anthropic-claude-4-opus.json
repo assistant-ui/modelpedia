@@ -1,0 +1,46 @@
+{
+  "id": "anthropic/claude-4-opus",
+  "name": "claude-4-opus",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "claude-opus",
+  "description": "Anthropic’s most powerful model yet and the state-of-the-art coding model. It delivers sustained performance on long-running tasks that require focused effort and thousands of steps, significantly expanding what AI agents can solve. Claude Opus 4 is ideal for powering frontier agent products and features.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 200000,
+  "open_weight": false,
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 16.5,
+    "output": 82.5
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "tagline": "Anthropic’s most powerful model yet and the state-of-the-art coding model.",
+  "_generated": {
+    "name": "ac838d97",
+    "family": "4e4c4b18",
+    "description": "c76c4613",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "03e6c616",
+    "open_weight": "68934a3e",
+    "capabilities": "c541f548",
+    "modalities": "6399757e",
+    "pricing": "61a0fe33",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "tagline": "d5bb7b0e"
+  }
+}

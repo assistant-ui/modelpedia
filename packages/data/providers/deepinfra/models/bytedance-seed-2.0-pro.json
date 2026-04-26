@@ -1,0 +1,53 @@
+{
+  "id": "ByteDance/Seed-2.0-pro",
+  "name": "Seed-2.0-pro",
+  "created_by": "bytedance",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "seed",
+  "description": "Built for the Agent era, it delivers stable performance in complex reasoning and long-horizon tasks, including multi-step planning, visual-text reasoning, video understanding, and advanced analysis.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 256000,
+  "reasoning_tokens": true,
+  "open_weight": false,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 3,
+    "cached_input": 0.1
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "tagline": "Built for the Agent era, it delivers stable performance in complex reasoning and long-horizon tasks, including multi-step planning, visual-text reasoning, video understanding, and advanced analysis.",
+  "_generated": {
+    "name": "70f58481",
+    "family": "35cca968",
+    "description": "df688f58",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "2fd324cb",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "68934a3e",
+    "license": "60245731",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "7d1b7125",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "tagline": "df688f58"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Bria/video_mask_by_prompt",
+  "name": "video_mask_by_prompt",
+  "created_by": "bria",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "bria",
+  "description": "Identify and segment objects across video frames using a text prompt. The easiest way to create a mask to modify your videos.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "tagline": "Identify and segment objects across video frames using a text prompt.",
+  "_generated": {
+    "name": "deb73ac7",
+    "family": "08e987c0",
+    "description": "7ce424a4",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "tagline": "40cf4363"
+  }
+}

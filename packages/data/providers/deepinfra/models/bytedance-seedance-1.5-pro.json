@@ -1,0 +1,31 @@
+{
+  "id": "ByteDance/Seedance-1.5-Pro",
+  "name": "Seedance-1.5-Pro",
+  "created_by": "bytedance",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "bytedance",
+  "description": "ByteDance's Seedance 1.5 Pro is a professional video model using V2A native generation for integrated, synced audio-visual output, enhancing efficiency of professional video creation.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "license": "apache-2.0",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "tagline": "ByteDance's Seedance 1.5 Pro is a professional video model using V2A native generation for integrated, synced audio-visual output, enhancing efficiency of professional video creation.",
+  "_generated": {
+    "name": "2e1aaf97",
+    "family": "7ffdb12b",
+    "description": "6a04fe9c",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "license": "60245731",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "tagline": "6a04fe9c"
+  }
+}

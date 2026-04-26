@@ -1,0 +1,31 @@
+{
+  "id": "palmyra-fin",
+  "name": "Palmyra Fin",
+  "created_by": "writer",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "palmyra-fin",
+  "description": "Financial-domain LLM for market analysis, risk assessment, and synthesis of long financial documents. First AI model to pass the CFA Level III sample multiple-choice section.",
+  "status": "deprecated",
+  "deprecation_date": "2026-07-13",
+  "successor": "palmyra-x5",
+  "release_date": "2024-07-31",
+  "model_type": "chat",
+  "context_window": 128000,
+  "max_output_tokens": 4096,
+  "license": "proprietary",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 5,
+    "output": 12
+  },
+  "page_url": "https://dev.writer.com/home/models"
+}

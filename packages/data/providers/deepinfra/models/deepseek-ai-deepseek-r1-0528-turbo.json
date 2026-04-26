@@ -1,0 +1,49 @@
+{
+  "id": "deepseek-ai/DeepSeek-R1-0528-Turbo",
+  "name": "DeepSeek-R1-0528-Turbo",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "deepseek-r1",
+  "description": "The DeepSeek R1 0528 turbo model is a state of the art reasoning model that can generate very quick responses",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 32768,
+  "open_weight": true,
+  "license": "deepseek",
+  "capabilities": {
+    "tool_call": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 3
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "tagline": "The DeepSeek R1 0528 turbo model is a state of the art reasoning model that can generate very quick responses",
+  "_generated": {
+    "name": "1238c299",
+    "family": "c74cfb8e",
+    "description": "78cebae7",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f4376436",
+    "open_weight": "b326b506",
+    "license": "4b81b92d",
+    "capabilities": "6374a2f8",
+    "modalities": "68e53d93",
+    "pricing": "7fd03be2",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee",
+    "tagline": "78cebae7"
+  }
+}

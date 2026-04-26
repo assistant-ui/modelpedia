@@ -1,0 +1,20 @@
+{
+  "id": "flux-1-kontext-dev",
+  "name": "FLUX.1 Kontext [dev]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-kontext",
+  "description": "Open-weights image editing model from the FLUX.1 Kontext line. Hugging Face only; not callable via the BFL API.",
+  "tagline": "Open-weight FLUX.1 Kontext.",
+  "status": "active",
+  "model_type": "image",
+  "release_date": "2025-06-26",
+  "open_weight": true,
+  "license": "flux-1-dev-non-commercial",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "pricing_notes": ["Local use; non-commercial license."]
+}

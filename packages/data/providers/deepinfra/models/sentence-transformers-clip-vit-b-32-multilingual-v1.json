@@ -1,0 +1,36 @@
+{
+  "id": "sentence-transformers/clip-ViT-B-32-multilingual-v1",
+  "name": "clip-ViT-B-32-multilingual-v1",
+  "created_by": "sentence-transformers",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "sentence-transformers",
+  "description": "This model is a multilingual version of the OpenAI CLIP-ViT-B32 model, which maps text and images to a common dense vector space. It includes a text embedding model that works for 50+ languages and an image encoder from CLIP. The model was trained using Multilingual Knowledge Distillation, where a multilingual DistilBERT model was trained as a student model to align the vector space of the original CLIP image encoder across many languages.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "tagline": "This model is a multilingual version of the OpenAI CLIP-ViT-B32 model, which maps text and images to a common dense vector space.",
+  "_generated": {
+    "name": "a712fa70",
+    "family": "c8444f17",
+    "description": "f817b103",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "tagline": "9b7a4037"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "Qwen/Qwen3-TTS",
+  "name": "Qwen3-TTS",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen3",
+  "description": "Qwen3-TTS is an advanced text-to-speech model by Alibaba's Qwen team, delivering stable, expressive, and low-latency speech generation across 10 languages. Key capabilities: - 9 preset voices — Vivian, Serena, Uncle_Fu, Dylan, Eric, Ryan, Aiden, Ono_Anna, Sohee — covering diverse genders, ages, and accents - Voice cloning — clone any voice from a short (~3s) audio sample via the voice_id parameter - Instruction control — adjust tone, emotion, and speaking style with natural language (e.g. \"sp...",
+  "status": "active",
+  "model_type": "tts",
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "pricing_notes": ["$20.0000 per 1M input characters"],
+  "tagline": "Qwen3-TTS is an advanced text-to-speech model by Alibaba's Qwen team, delivering stable, expressive, and low-latency speech generation across 10 languages.",
+  "_generated": {
+    "name": "a76b83b3",
+    "family": "48c385a0",
+    "description": "9e56f997",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "9c665f5d",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "pricing_notes": "327e7c02",
+    "tagline": "6a55b161"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "openai/gpt-oss-120b-Turbo",
+  "name": "gpt-oss-120b-Turbo",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "gpt-oss",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 131072,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "proprietary",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "bfloat16",
+  "_generated": {
+    "name": "f89fce05",
+    "family": "82d0cb0b",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "license": "9186c466",
+    "capabilities": "a17ad43b",
+    "modalities": "68e53d93",
+    "pricing": "89a9c6e2",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "45ae6e17"
+  }
+}

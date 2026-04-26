@@ -1,0 +1,50 @@
+{
+  "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+  "name": "Qwen3-Next-80B-A3B-Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen3",
+  "description": "Over the past few months, we have observed increasingly clear trends toward scaling both total parameters and context lengths in the pursuit of more powerful and agentic artificial intelligence (AI). We are excited to share our latest advancements in addressing these demands, centered on improving scaling efficiency through innovative model architecture. We call this next-generation foundation models Qwen3-Next.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 262144,
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.09,
+    "output": 1.1
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "Over the past few months, we have observed increasingly clear trends toward scaling both total parameters and context lengths in the pursuit of more powerful and agentic artificial intelligence (AI).",
+  "_generated": {
+    "name": "5d2e35f6",
+    "family": "48c385a0",
+    "description": "c6acd04c",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "4a1d32eb",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "1a367c4d",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "7bcbf06f"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "jina-embeddings-v4",
+  "name": "Jina Embeddings v4",
+  "created_by": "jina",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "jina-embeddings-v4",
+  "description": "3.8B-parameter multimodal embedding model on Qwen2.5-VL-3B-Instruct with single- and multi-vector retrieval. Supports 89 languages.",
+  "tagline": "Multimodal text and image embeddings.",
+  "status": "active",
+  "model_type": "embed",
+  "context_window": 32768,
+  "release_date": "2025-06-24",
+  "license": "qwen-research",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": []
+  },
+  "endpoints": ["embeddings"],
+  "pricing": {
+    "input": 0.05
+  },
+  "pricing_notes": [
+    "Free of charge via API under Qwen Research License (non-commercial). Commercial use requires separate license."
+  ],
+  "output_dimensions": [128, 256, 512, 1024, 2048]
+}

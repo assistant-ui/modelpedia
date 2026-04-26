@@ -1,0 +1,35 @@
+{
+  "id": "canopylabs/orpheus-3b-0.1-ft",
+  "name": "orpheus-3b-0.1-ft",
+  "created_by": "canopylabs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "canopylabs",
+  "description": "Orpheus TTS is a state-of-the-art, Llama-based Speech-LLM designed for high-quality, empathetic text-to-speech generation. This model has been finetuned to deliver human-level speech synthesis, achieving exceptional clarity, expressiveness, and real-time streaming performances.",
+  "status": "active",
+  "model_type": "tts",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "pricing_notes": ["$7.0000 per 1M input characters"],
+  "tagline": "Orpheus TTS is a state-of-the-art, Llama-based Speech-LLM designed for high-quality, empathetic text-to-speech generation.",
+  "_generated": {
+    "name": "bccc961c",
+    "family": "dfb0dcbb",
+    "description": "55290350",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "pricing_notes": "ecddc70e",
+    "tagline": "953b22c7"
+  }
+}

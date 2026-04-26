@@ -1,0 +1,35 @@
+{
+  "id": "sesame/csm-1b",
+  "name": "csm-1b",
+  "created_by": "sesame",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "sesame",
+  "description": "CSM (Conversational Speech Model) is a speech generation model from Sesame that generates RVQ audio codes from text and audio inputs. The model architecture employs a Llama backbone and a smaller audio decoder that produces Mimi audio codes.",
+  "status": "active",
+  "model_type": "tts",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "pricing_notes": ["$7.0000 per 1M input characters"],
+  "tagline": "CSM (Conversational Speech Model) is a speech generation model from Sesame that generates RVQ audio codes from text and audio inputs.",
+  "_generated": {
+    "name": "c5f67104",
+    "family": "fe10fc9d",
+    "description": "639a33be",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "pricing_notes": "ecddc70e",
+    "tagline": "c1724973"
+  }
+}

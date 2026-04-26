@@ -1,0 +1,31 @@
+{
+  "id": "Pixverse/Pixverse-T2V-HD",
+  "name": "Pixverse-T2V-HD",
+  "created_by": "pixverse",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "pixverse",
+  "description": "The 1080p high-fidelity mode in PixVerse renders videos with significantly enhanced sharpness and visual clarity, capturing intricate details and providing a crisp, professional-grade quality suitable for more polished projects.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["$0.4000 per image unit (0x0 default)"],
+  "tagline": "The 1080p high-fidelity mode in PixVerse renders videos with significantly enhanced sharpness and visual clarity, capturing intricate details and providing a crisp, professional-grade quality suitable",
+  "_generated": {
+    "name": "71f5ea89",
+    "family": "2063304a",
+    "description": "d5d93eb7",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "c5366521",
+    "tagline": "93ed1e63"
+  }
+}

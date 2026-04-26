@@ -1,0 +1,51 @@
+{
+  "id": "deepseek-ai/DeepSeek-V3.2",
+  "name": "DeepSeek-V3.2",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "deepseek-v3",
+  "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism that reduces training and inference cost while preserving quality in long-context scenarios. A scalable reinforcement learning post-training framework further improves reasoning, with reported performance in the GPT-5 class, and the model has demonstrated gold...",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 163840,
+  "open_weight": true,
+  "license": "deepseek",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.26,
+    "output": 0.38,
+    "cached_input": 0.13
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "tagline": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance.",
+  "_generated": {
+    "name": "6e661ac6",
+    "family": "61b133fc",
+    "description": "f7e61d63",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "7edab444",
+    "open_weight": "b326b506",
+    "license": "4b81b92d",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "b2436d72",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee",
+    "tagline": "fe1de924"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "allenai/olmOCR-2-7B-1025",
+  "name": "olmOCR-2-7B-1025",
+  "created_by": "allenai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "allenai",
+  "description": "olmOCR is a specialized AI tool that converts PDF documents into clean, structured text while preserving important formatting and layout information. What makes olmOCR particularly valuable for developers is its ability to handle challenging PDFs that traditional OCR tools struggle with—including complex layouts, poor-quality scans, handwritten text, and documents with mixed content types. Built on a fine-tuned 7B vision-language model, olmOCR provides enterprise-grade PDF processing at a fra...",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 16384,
+  "open_weight": true,
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.09,
+    "output": 0.19
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "olmOCR is a specialized AI tool that converts PDF documents into clean, structured text while preserving important formatting and layout information.",
+  "_generated": {
+    "name": "9aadf213",
+    "family": "45d1608f",
+    "description": "19cf4479",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "c76fe1d8",
+    "open_weight": "b326b506",
+    "capabilities": "36d0de0b",
+    "modalities": "6399757e",
+    "pricing": "0570b3a2",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "849de9e2"
+  }
+}

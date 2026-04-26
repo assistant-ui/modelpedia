@@ -1,0 +1,35 @@
+{
+  "id": "step-3",
+  "name": "Step 3",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-3",
+  "description": "Multimodal reasoning model with strong visual perception, MoE architecture (321B total, 38B active). Handles cross-domain knowledge with image understanding.",
+  "tagline": "Cost-effective multimodal intelligence.",
+  "status": "active",
+  "model_type": "reasoning",
+  "context_window": 64000,
+  "reasoning_tokens": true,
+  "license": "apache-2.0",
+  "open_weight": true,
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.208,
+    "cached_input": 0.042,
+    "output": 0.556
+  },
+  "pricing_notes": [
+    "Tiered: <=4k input/output 1.5/4 CNY/M; 4k-64k input 4/10 CNY/M. Listed price is base tier."
+  ]
+}

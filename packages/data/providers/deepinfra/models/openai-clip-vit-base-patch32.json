@@ -1,0 +1,37 @@
+{
+  "id": "openai/clip-vit-base-patch32",
+  "name": "clip-vit-base-patch32",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "openai",
+  "description": "The CLIP model was developed by OpenAI to investigate the robustness of computer vision models. It uses a Vision Transformer architecture and was trained on a large dataset of image-caption pairs. The model shows promise in various computer vision tasks but also has limitations, including difficulties with fine-grained classification and potential biases in certain applications.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": true,
+  "license": "proprietary",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.000500 per second"],
+  "tagline": "The CLIP model was developed by OpenAI to investigate the robustness of computer vision models.",
+  "_generated": {
+    "name": "30b54572",
+    "family": "59f82feb",
+    "description": "cfe3c235",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "b326b506",
+    "license": "9186c466",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "44b95543",
+    "tagline": "b9dbf021"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Wan-AI/Wan2.2-T2V-A14B",
+  "name": "Wan2.2-T2V-A14B",
+  "created_by": "wan-ai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "Wan2.2",
+  "description": "The Wan2.2 T2V A14B is a next-generation 14B-parameter video foundation model by Wan-AI featuring a novel two-stage denoising architecture. It produces 480P videos with improved visual coherence and detail, generating 2 or 5 second clips at 16fps from text prompts.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "tagline": "The Wan2.2 T2V A14B is a next-generation 14B-parameter video foundation model by Wan-AI featuring a novel two-stage denoising architecture.",
+  "_generated": {
+    "name": "5d8518b9",
+    "family": "755f9a30",
+    "description": "e96d5836",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "b326b506",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "tagline": "2bed663c"
+  }
+}

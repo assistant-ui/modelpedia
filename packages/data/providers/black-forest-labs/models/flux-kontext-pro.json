@@ -1,0 +1,21 @@
+{
+  "id": "flux-kontext-pro",
+  "name": "FLUX.1 Kontext [pro]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-kontext",
+  "description": "Context-aware image editing and text-to-image. Legacy FLUX.1 line; BFL recommends FLUX.2 [pro] for new projects.",
+  "tagline": "Legacy FLUX.1 Kontext [pro].",
+  "status": "deprecated",
+  "model_type": "image",
+  "release_date": "2025-05-29",
+  "open_weight": false,
+  "license": "proprietary",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["/v1/flux-kontext-pro"],
+  "pricing_notes": ["$0.04/image (4 credits)."]
+}

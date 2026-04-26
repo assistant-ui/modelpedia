@@ -1,0 +1,50 @@
+{
+  "id": "Meta-Llama-3.3-70B-Instruct",
+  "name": "Llama 3.3 70B Instruct",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "llama-3",
+  "description": "Meta's Llama 3.3 70B instruction-tuned model.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 131072,
+  "max_output_tokens": 3072,
+  "open_weight": true,
+  "license": "llama-3.3",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.6,
+    "output": 1.2
+  },
+  "tagline": "Meta's Llama 3.3 70B instruction-tuned model.",
+  "_generated": {
+    "name": "b221ba60",
+    "family": "a8d1600e",
+    "description": "5ca671c4",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "max_output_tokens": "be767243",
+    "open_weight": "b326b506",
+    "license": "54c5fe24",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "11cfe106",
+    "tagline": "5ca671c4"
+  }
+}

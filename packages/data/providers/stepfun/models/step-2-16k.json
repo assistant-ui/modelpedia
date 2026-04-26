@@ -1,0 +1,28 @@
+{
+  "id": "step-2-16k",
+  "name": "Step 2 16k",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-2",
+  "description": "Trillion-parameter MoE general-purpose model. Bilingual Chinese/English, strong on resource processing and intent recognition.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 16000,
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "tool_call": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 5.278,
+    "cached_input": 1.056,
+    "output": 16.667
+  }
+}

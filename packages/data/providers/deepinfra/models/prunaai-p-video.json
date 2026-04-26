@@ -1,0 +1,31 @@
+{
+  "id": "PrunaAI/p-video",
+  "name": "p-video",
+  "created_by": "prunaai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "prunaai",
+  "description": "Real-time AI video generation from text, images, and audio. Supports up to 1080p at 48 FPS with built-in audio generation, draft mode for 4x faster previews, and prompt upsampling.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["$0.02 / second"],
+  "tagline": "Real-time AI video generation from text, images, and audio.",
+  "_generated": {
+    "name": "8d89db0c",
+    "family": "6edcbacf",
+    "description": "6d5b734b",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "502e1ab7",
+    "tagline": "ac8de15b"
+  }
+}

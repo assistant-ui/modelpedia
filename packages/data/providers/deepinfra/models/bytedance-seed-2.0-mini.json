@@ -1,0 +1,53 @@
+{
+  "id": "ByteDance/Seed-2.0-mini",
+  "name": "Seed-2.0-mini",
+  "created_by": "bytedance",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "seed",
+  "description": "Built for low-latency, high-concurrency, cost-sensitive use cases, with flexible deployment, four-tier thinking, and multimodal",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 256000,
+  "reasoning_tokens": true,
+  "open_weight": false,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.4,
+    "cached_input": 0.02
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "tagline": "Built for low-latency, high-concurrency, cost-sensitive use cases, with flexible deployment, four-tier thinking, and multimodal",
+  "_generated": {
+    "name": "d6b48fe4",
+    "family": "35cca968",
+    "description": "eec1c137",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "2fd324cb",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "68934a3e",
+    "license": "60245731",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "35c70c86",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "tagline": "eec1c137"
+  }
+}

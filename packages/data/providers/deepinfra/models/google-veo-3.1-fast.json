@@ -1,0 +1,31 @@
+{
+  "id": "google/veo-3.1-fast",
+  "name": "veo-3.1-fast",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "veo-3.1",
+  "description": "Veo 3.1 is the latest text-to-video model from Google that generates high-fidelity, cinematic videos with synchronized audio from a simple text prompt. It excels at creating realistic and imaginative scenes with a deep understanding of natural language and visual dynamics.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "license": "gemma",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "tagline": "Veo 3.1 is the latest text-to-video model from Google that generates high-fidelity, cinematic videos with synchronized audio from a simple text prompt.",
+  "_generated": {
+    "name": "136e692b",
+    "family": "0fa3bcca",
+    "description": "212aa454",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "license": "3fe02b16",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "tagline": "5c2412e6"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "meta-llama/Llama-Guard-4-12B",
+  "name": "Llama-Guard-4-12B",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "llama-guard",
+  "description": "Llama Guard 4 is a natively multimodal safety classifier with 12 billion parameters trained jointly on text and multiple images. Llama Guard 4 is a dense architecture pruned from the Llama 4 Scout pre-trained model and fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM inputs (prompt classification) and in LLM responses (response classification). It itself acts as an LLM: it generates text in its output that indicates whe...",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 163840,
+  "open_weight": true,
+  "capabilities": {
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.18,
+    "output": 0.18
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "bfloat16",
+  "license": "llama",
+  "tagline": "Llama Guard 4 is a natively multimodal safety classifier with 12 billion parameters trained jointly on text and multiple images.",
+  "_generated": {
+    "name": "80c34aa5",
+    "family": "3190be28",
+    "description": "23009637",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "7edab444",
+    "open_weight": "b326b506",
+    "capabilities": "944b5fe5",
+    "modalities": "6399757e",
+    "pricing": "bd10cf29",
+    "endpoints": "d8fa1080",
+    "quantization": "45ae6e17",
+    "license": "045d737e",
+    "tagline": "8433c2fd"
+  }
+}

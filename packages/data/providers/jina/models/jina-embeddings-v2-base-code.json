@@ -1,0 +1,25 @@
+{
+  "id": "jina-embeddings-v2-base-code",
+  "name": "Jina Embeddings v2 Base Code",
+  "created_by": "jina",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "jina-embeddings-v2",
+  "description": "English embedding model specialized for code retrieval across 30 programming languages with 8K context.",
+  "tagline": "Code embeddings, natural-language queries.",
+  "status": "active",
+  "model_type": "embed",
+  "context_window": 8192,
+  "release_date": "2024-02-05",
+  "license": "apache-2.0",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": []
+  },
+  "endpoints": ["embeddings"],
+  "pricing": {
+    "input": 0.05
+  },
+  "output_dimensions": [768]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "jina-clip-v2",
+  "name": "Jina CLIP v2",
+  "created_by": "jina",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "jina-clip",
+  "description": "865M-parameter multimodal multilingual embedding model for text-image retrieval across 89 languages with 512x512 image resolution.",
+  "tagline": "Multilingual CLIP-style multimodal embeddings.",
+  "status": "active",
+  "model_type": "embed",
+  "context_window": 8192,
+  "release_date": "2024-11-05",
+  "license": "cc-by-nc-4.0",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": []
+  },
+  "endpoints": ["embeddings"],
+  "pricing": {
+    "input": 0.05
+  },
+  "output_dimensions": [64, 128, 256, 512, 768, 1024]
+}

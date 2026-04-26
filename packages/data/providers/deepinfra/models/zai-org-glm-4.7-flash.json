@@ -1,0 +1,54 @@
+{
+  "id": "zai-org/GLM-4.7-Flash",
+  "name": "GLM-4.7-Flash",
+  "created_by": "zhipu",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "GLM-4.7",
+  "description": "GLM-4.7-Flash is a 30B-A3B MoE model. As the strongest model in the 30B class, GLM-4.7-Flash offers a new option for lightweight deployment that balances performance and efficiency.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 202752,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "mit",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0.4,
+    "cached_input": 0.01
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "bfloat16",
+  "tagline": "GLM-4.7-Flash is a 30B-A3B MoE model.",
+  "_generated": {
+    "name": "55eb0a7f",
+    "family": "6dbcba88",
+    "description": "216495d1",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "6ea395a4",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "license": "3c4c3ba5",
+    "capabilities": "882e371a",
+    "modalities": "68e53d93",
+    "pricing": "1215d2e7",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "45ae6e17",
+    "tagline": "cb83a3fc"
+  }
+}

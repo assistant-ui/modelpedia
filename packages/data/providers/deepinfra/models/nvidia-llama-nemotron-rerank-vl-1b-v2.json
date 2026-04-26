@@ -1,0 +1,31 @@
+{
+  "id": "nvidia/llama-nemotron-rerank-vl-1b-v2",
+  "name": "llama-nemotron-rerank-vl-1b-v2",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "llama",
+  "description": "The llama-nemotron-rerank-vl-1b-v2 is a 1.7B parameter multimodal reranking model designed to evaluate and order the relevance of document images and text against specific user queries. It excels at understanding complex visual content like charts, tables, and infographics.",
+  "status": "active",
+  "model_type": "rerank",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["rerank"],
+  "quantization": "bf16",
+  "tagline": "The llama-nemotron-rerank-vl-1b-v2 is a 1.7B parameter multimodal reranking model designed to evaluate and order the relevance of document images and text against specific user queries.",
+  "_generated": {
+    "name": "ba4e849d",
+    "family": "045d737e",
+    "description": "f9fb7302",
+    "status": "379ac110",
+    "model_type": "477930e6",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "endpoints": "9a7b4962",
+    "quantization": "d1485d47",
+    "tagline": "9742d19c"
+  }
+}

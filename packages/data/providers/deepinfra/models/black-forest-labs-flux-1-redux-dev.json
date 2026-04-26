@@ -1,0 +1,38 @@
+{
+  "id": "black-forest-labs/FLUX-1-Redux-dev",
+  "name": "FLUX-1-Redux-dev",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux",
+  "description": "FLUX.1 Redux [dev] is an image variation generation adapter for all FLUX.1 base models. It enables users to refine images with slight variations and supports text-based restyling via API. Integrated with FLUX1.1 [pro] Ultra, it allows for high-quality 4-megapixel outputs. The model can be used with Diffusers in Python for efficient image generation. While powerful, it has ethical and factual limitations and is governed by a non-commercial license.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": true,
+  "license": "flux",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0120 per image unit (1024x1024 default)"],
+  "tagline": "FLUX.1 Redux [dev] is an image variation generation adapter for all FLUX.1 base models.",
+  "_generated": {
+    "name": "4fd6988d",
+    "family": "c4784ca2",
+    "description": "3840f023",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "b326b506",
+    "license": "c4784ca2",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "7f38c4a4",
+    "tagline": "d966478a"
+  }
+}

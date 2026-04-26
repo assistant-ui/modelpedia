@@ -1,0 +1,26 @@
+{
+  "id": "writer",
+  "name": "Writer",
+  "region": "US",
+  "headquarters": "San Francisco, CA",
+  "founded": 2020,
+  "url": "https://writer.com",
+  "api_url": "https://api.writer.com/v1",
+  "docs_url": "https://dev.writer.com",
+  "pricing_url": "https://dev.writer.com/home/models",
+  "description": "Enterprise generative AI platform building the proprietary Palmyra family of LLMs for agentic workflows, RAG, and domain-specific use cases.",
+  "type": "direct",
+  "playground_url": "https://app.writer.com",
+  "changelog_url": "https://dev.writer.com/home/changelog",
+  "sdk": {
+    "python": "writer-sdk",
+    "javascript": "writer-sdk"
+  },
+  "openai_compatible": false,
+  "free_tier": false,
+  "github_url": "https://github.com/writer",
+  "models_url": "https://dev.writer.com/home/models",
+  "twitter_url": "https://x.com/Get_Writer",
+  "blog_url": "https://writer.com/blog/",
+  "support_url": "https://support.writer.com"
+}

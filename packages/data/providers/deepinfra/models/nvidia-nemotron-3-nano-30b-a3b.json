@@ -1,0 +1,48 @@
+{
+  "id": "nvidia/Nemotron-3-Nano-30B-A3B",
+  "name": "Nemotron-3-Nano-30B-A3B",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "nemotron",
+  "description": "NVIDIA Nemotron 3 Nano is an open small reasoning model optimized for fast, cost-efficient inference in agentic and production workloads. Built with a hybrid Mixture-of-Experts (MoE) and Mamba-Transformer architecture, it delivers strong multi-step reasoning, high token throughput, stable latency with predictable cost, and efficient deployment for agent-based systems. Designed for real-world AI systems where reasoning can generate significantly more tokens per prompt, Nemotron Nano reduces co...",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 262144,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.2
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "tagline": "NVIDIA Nemotron 3 Nano is an open small reasoning model optimized for fast, cost-efficient inference in agentic and production workloads.",
+  "_generated": {
+    "name": "c626257f",
+    "family": "968f6c63",
+    "description": "65b298be",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "4a1d32eb",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "capabilities": "3d69c795",
+    "modalities": "68e53d93",
+    "pricing": "6aa94ff1",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee",
+    "tagline": "59a40d81"
+  }
+}

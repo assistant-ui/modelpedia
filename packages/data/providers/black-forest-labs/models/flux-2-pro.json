@@ -1,0 +1,23 @@
+{
+  "id": "flux-2-pro",
+  "name": "FLUX.2 [pro]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-2",
+  "description": "Production-grade default model for FLUX.2 text-to-image generation and image editing. Supports up to 10 reference images and 4MP output.",
+  "tagline": "Recommended default for image generation and editing.",
+  "status": "active",
+  "model_type": "image",
+  "release_date": "2025-11-25",
+  "open_weight": false,
+  "license": "proprietary",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["/v1/flux-2-pro"],
+  "pricing_notes": [
+    "From $0.03/image (text-to-image), from $0.045/image (editing); megapixel-scaled."
+  ]
+}

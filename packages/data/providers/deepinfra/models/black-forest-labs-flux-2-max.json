@@ -1,0 +1,38 @@
+{
+  "id": "black-forest-labs/FLUX-2-max",
+  "name": "FLUX-2-max",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-2",
+  "description": "The new top-tier image model from Black Forest Labs, significantly pushing image quality and editing consistency",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "license": "flux",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.1000 per image unit (0x0 default)"],
+  "tagline": "The new top-tier image model from Black Forest Labs, significantly pushing image quality and editing consistency",
+  "_generated": {
+    "name": "5726b08c",
+    "family": "a844a160",
+    "description": "e8172eed",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "license": "c4784ca2",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "692350f4",
+    "tagline": "e8172eed"
+  }
+}

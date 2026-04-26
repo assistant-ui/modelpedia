@@ -1,0 +1,50 @@
+{
+  "id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "name": "Meta-Llama-3.1-70B-Instruct-Turbo",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "Llama-3.1",
+  "description": "Meta developed and released the Meta Llama 3.1 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8B, 70B and 405B sizes",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 131072,
+  "open_weight": true,
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.4,
+    "output": 0.4
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "license": "llama",
+  "tagline": "Meta developed and released the Meta Llama 3.1 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8B, 70B and 405B sizes",
+  "_generated": {
+    "name": "9cd0abdd",
+    "family": "6cef7f07",
+    "description": "0ab43b76",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "open_weight": "b326b506",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "1982766c",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "license": "045d737e",
+    "tagline": "0ab43b76"
+  }
+}

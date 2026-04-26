@@ -1,0 +1,38 @@
+{
+  "id": "ByteDance/Seedream-4.5",
+  "name": "Seedream-4.5",
+  "created_by": "bytedance",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "bytedance",
+  "description": "The latest image model, delivering better editing consistency, improved multi-image fusion, finer detail control, natural small text and faces, and harmonious, aesthetic visuals.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "license": "apache-2.0",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0400 per image unit (0x0 default)"],
+  "tagline": "The latest image model, delivering better editing consistency, improved multi-image fusion, finer detail control, natural small text and faces, and harmonious, aesthetic visuals.",
+  "_generated": {
+    "name": "3be00c8b",
+    "family": "7ffdb12b",
+    "description": "d795c3e4",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "license": "60245731",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "05714ce8",
+    "tagline": "d795c3e4"
+  }
+}

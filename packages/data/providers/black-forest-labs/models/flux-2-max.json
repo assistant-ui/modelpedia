@@ -1,0 +1,21 @@
+{
+  "id": "flux-2-max",
+  "name": "FLUX.2 [max]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-2",
+  "description": "Highest-quality FLUX.2 model with web grounding search, up to 8 references via API and 10 in playground.",
+  "tagline": "Highest quality FLUX.2.",
+  "status": "active",
+  "model_type": "image",
+  "release_date": "2025-12-16",
+  "open_weight": false,
+  "license": "proprietary",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["/v1/flux-2-max"],
+  "pricing_notes": ["From $0.07/image; megapixel-scaled."]
+}

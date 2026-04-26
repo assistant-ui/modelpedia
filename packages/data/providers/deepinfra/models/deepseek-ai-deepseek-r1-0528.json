@@ -1,0 +1,51 @@
+{
+  "id": "deepseek-ai/DeepSeek-R1-0528",
+  "name": "DeepSeek-R1-0528",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "deepseek-r1",
+  "description": "The DeepSeek R1 model has undergone a minor version upgrade, with the current version being DeepSeek-R1-0528.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 163840,
+  "open_weight": true,
+  "license": "deepseek",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 2.15,
+    "cached_input": 0.35
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "tagline": "The DeepSeek R1 model has undergone a minor version upgrade, with the current version being DeepSeek-R1-0528.",
+  "_generated": {
+    "name": "2720e293",
+    "family": "c74cfb8e",
+    "description": "e09ff7ad",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "7edab444",
+    "open_weight": "b326b506",
+    "license": "4b81b92d",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "0e072b08",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee",
+    "tagline": "e09ff7ad"
+  }
+}

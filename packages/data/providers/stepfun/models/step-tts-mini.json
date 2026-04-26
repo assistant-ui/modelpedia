@@ -1,0 +1,19 @@
+{
+  "id": "step-tts-mini",
+  "name": "Step TTS Mini",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-tts",
+  "description": "Compact TTS with 9 emotions, 13 styles, 3 languages, 10s voice cloning.",
+  "status": "active",
+  "model_type": "tts",
+  "license": "proprietary",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "pricing_notes": ["0.9 CNY per 10k characters."]
+}

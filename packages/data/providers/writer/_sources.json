@@ -1,0 +1,6 @@
+{
+  "models": "https://dev.writer.com/home/models.md",
+  "list_models_api": "https://api.writer.com/v1/models",
+  "llms_index": "https://dev.writer.com/llms.txt",
+  "changelog": "https://dev.writer.com/home/changelog.md"
+}

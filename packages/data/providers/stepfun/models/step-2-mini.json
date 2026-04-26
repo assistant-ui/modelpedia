@@ -1,0 +1,28 @@
+{
+  "id": "step-2-mini",
+  "name": "Step 2 Mini",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-2",
+  "description": "Ultra-fast text model based on MFA attention. Strong at code, translation, summarization, and role-play. Lowest cost in the Step-2 line.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 32000,
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "tool_call": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.139,
+    "cached_input": 0.028,
+    "output": 0.278
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "jina-embeddings-v5-text-small",
+  "name": "Jina Embeddings v5 Text Small",
+  "created_by": "jina",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "jina-embeddings-v5",
+  "description": "677M-parameter multilingual text embedding model on Qwen3-0.6B-Base with task-specific LoRA adapters and Matryoshka representation learning.",
+  "tagline": "Fifth-generation small multilingual embeddings.",
+  "status": "active",
+  "model_type": "embed",
+  "context_window": 32768,
+  "release_date": "2026-02-18",
+  "license": "jina-ai",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": []
+  },
+  "endpoints": ["embeddings"],
+  "pricing": {
+    "input": 0.05
+  },
+  "output_dimensions": [32, 64, 128, 256, 512, 768, 1024]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "Qwen/Qwen-Image-Max",
+  "name": "Qwen-Image-Max",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen",
+  "description": "Compared with the Plus series, it significantly reduces the “AI-like” feel in generated images, enhancing their realism. It delivers more lifelike material textures for human subjects, finer and more detailed natural textures, and more visually appealing text rendering.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "license": "apache-2.0",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0750 per image unit (0x0 default)"],
+  "tagline": "Compared with the Plus series, it significantly reduces the “AI-like” feel in generated images, enhancing their realism.",
+  "_generated": {
+    "name": "839ae0b4",
+    "family": "a3af76f3",
+    "description": "dbc7c516",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "license": "60245731",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "ab5c4486",
+    "tagline": "d38e8902"
+  }
+}

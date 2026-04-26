@@ -1,0 +1,33 @@
+{
+  "id": "thenlper/gte-base",
+  "name": "gte-base",
+  "created_by": "thenlper",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "thenlper",
+  "description": "The GTE models are trained by Alibaba DAMO Academy. They are mainly based on the BERT framework and currently offer three different sizes of models, including GTE-large, GTE-base, and GTE-small. The GTE models are trained on a large-scale corpus of relevance text pairs, covering a wide range of domains and scenarios. This enables the GTE models to be applied to various downstream tasks of text embeddings, including information retrieval, semantic textual similarity, text reranking, etc.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "tagline": "The GTE models are trained by Alibaba DAMO Academy.",
+  "_generated": {
+    "name": "aa912466",
+    "family": "2772f4e9",
+    "description": "413b81bf",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "tagline": "1353a44a"
+  }
+}

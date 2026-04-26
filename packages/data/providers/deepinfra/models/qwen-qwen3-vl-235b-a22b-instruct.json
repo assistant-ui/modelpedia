@@ -1,0 +1,52 @@
+{
+  "id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+  "name": "Qwen3-VL-235B-A22B-Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen3",
+  "description": "Meet Qwen3-VL — the most powerful vision-language model in the Qwen series to date. This generation delivers comprehensive upgrades across the board: superior text understanding & generation, deeper visual perception & reasoning, extended context length, enhanced spatial and video dynamics comprehension, and stronger agent interaction capabilities.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 262144,
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.88,
+    "cached_input": 0.11
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "Meet Qwen3-VL — the most powerful vision-language model in the Qwen series to date.",
+  "_generated": {
+    "name": "55447c3b",
+    "family": "48c385a0",
+    "description": "2298e88a",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "4a1d32eb",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "bfede2e3",
+    "modalities": "6399757e",
+    "pricing": "6e0168a8",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "ce04635e"
+  }
+}

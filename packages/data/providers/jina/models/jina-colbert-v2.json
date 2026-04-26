@@ -1,0 +1,25 @@
+{
+  "id": "jina-colbert-v2",
+  "name": "Jina ColBERT v2",
+  "created_by": "jina",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "jina-colbert",
+  "description": "Late-interaction multilingual retrieval model across 89 languages with user-controlled embedding sizes.",
+  "tagline": "Multilingual late-interaction retrieval.",
+  "status": "active",
+  "model_type": "embed",
+  "context_window": 8192,
+  "release_date": "2024-08-30",
+  "license": "cc-by-nc-4.0",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": []
+  },
+  "endpoints": ["embeddings"],
+  "pricing": {
+    "input": 0.05
+  },
+  "output_dimensions": [64, 96, 128]
+}

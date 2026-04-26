@@ -1,0 +1,31 @@
+{
+  "id": "palmyra-med",
+  "name": "Palmyra Med",
+  "created_by": "writer",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "palmyra-med",
+  "description": "Healthcare-focused LLM tuned for medical coding (RxNorm, ICD-10-CM, SNOMED CT), clinical decision support, and medical document summarization.",
+  "status": "deprecated",
+  "deprecation_date": "2026-07-13",
+  "successor": "palmyra-x5",
+  "release_date": "2024-07-31",
+  "model_type": "chat",
+  "context_window": 32000,
+  "max_output_tokens": 4096,
+  "license": "proprietary",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 5,
+    "output": 12
+  },
+  "page_url": "https://dev.writer.com/home/models"
+}

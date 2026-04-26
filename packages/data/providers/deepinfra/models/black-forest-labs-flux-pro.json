@@ -1,0 +1,38 @@
+{
+  "id": "black-forest-labs/FLUX-pro",
+  "name": "FLUX-pro",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux",
+  "description": "Black Forest Labs' first flagship model based on Flux latent rectified flow transformers",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "license": "flux",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0500 per image unit (0x0 default)"],
+  "tagline": "Black Forest Labs' first flagship model based on Flux latent rectified flow transformers",
+  "_generated": {
+    "name": "9121a1b1",
+    "family": "c4784ca2",
+    "description": "2f8dbe4e",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "license": "c4784ca2",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "d5ac3986",
+    "tagline": "2f8dbe4e"
+  }
+}

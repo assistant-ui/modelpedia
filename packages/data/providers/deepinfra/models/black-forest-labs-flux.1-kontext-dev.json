@@ -1,0 +1,38 @@
+{
+  "id": "black-forest-labs/FLUX.1-Kontext-dev",
+  "name": "FLUX.1-Kontext-dev",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux",
+  "description": "FLUX.1 Kontext [dev] is a 12-billion-parameter image editing model that transforms visuals based on natural language instructions. It allows highly consistent, multi-step edits and is released with open weights under a non-commercial license to empower artists and researchers.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": true,
+  "license": "flux",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0100 per image unit (1024x1024 default)"],
+  "tagline": "FLUX.1 Kontext [dev] is a 12-billion-parameter image editing model that transforms visuals based on natural language instructions.",
+  "_generated": {
+    "name": "ac90538e",
+    "family": "c4784ca2",
+    "description": "28764438",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "b326b506",
+    "license": "c4784ca2",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "1c097086",
+    "tagline": "eaaf77c0"
+  }
+}

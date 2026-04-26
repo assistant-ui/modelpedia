@@ -1,0 +1,18 @@
+{
+  "id": "stepfun",
+  "name": "StepFun",
+  "region": "CN",
+  "headquarters": "Shanghai, Shanghai",
+  "founded": 2023,
+  "url": "https://www.stepfun.com",
+  "api_url": "https://api.stepfun.com/v1",
+  "docs_url": "https://platform.stepfun.com/docs",
+  "pricing_url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+  "description": "Chinese AI startup founded by ex-Microsoft engineers, building the Step series of foundation, reasoning, vision, and audio models.",
+  "type": "direct",
+  "openai_compatible": true,
+  "free_tier": false,
+  "github_url": "https://github.com/stepfun-ai",
+  "models_url": "https://platform.stepfun.com/docs/zh/guides/models/overview",
+  "blog_url": "https://www.stepfun.com/research"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "PaddlePaddle/PaddleOCR-VL-0.9B",
+  "name": "PaddleOCR-VL-0.9B",
+  "created_by": "paddlepaddle",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "paddlepaddle",
+  "description": "PaddleOCR-VL is a SOTA and resource-efficient model tailored for document parsing. Its core component is PaddleOCR-VL-0.9B, a compact yet powerful vision-language model (VLM) that integrates a NaViT-style dynamic resolution visual encoder with the ERNIE-4.5-0.3B language model to enable accurate element recognition. This innovative model efficiently supports 109 languages and excels in recognizing complex elements (e.g., text, tables, formulas, and charts), while maintaining minimal resource ...",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 16384,
+  "open_weight": true,
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.8
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "bfloat16",
+  "tagline": "PaddleOCR-VL is a SOTA and resource-efficient model tailored for document parsing.",
+  "_generated": {
+    "name": "81c45e94",
+    "family": "9236267b",
+    "description": "b8233534",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "c76fe1d8",
+    "open_weight": "b326b506",
+    "capabilities": "36d0de0b",
+    "modalities": "6399757e",
+    "pricing": "6420c6a6",
+    "endpoints": "d8fa1080",
+    "quantization": "45ae6e17",
+    "tagline": "de0be034"
+  }
+}

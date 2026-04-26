@@ -1,0 +1,35 @@
+{
+  "id": "Bria/enhance",
+  "name": "enhance",
+  "created_by": "bria",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "bria",
+  "description": "Bria Enhance improves overall image quality by sharpening details, balancing colors, and boosting clarity for crisp, professional visuals. Trained only on licensed data, it’s safe, reliable, and ready for commercial use.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0400 per image unit (0x0 default)"],
+  "tagline": "Bria Enhance improves overall image quality by sharpening details, balancing colors, and boosting clarity for crisp, professional visuals.",
+  "_generated": {
+    "name": "7016f96f",
+    "family": "08e987c0",
+    "description": "cfda6f46",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "05714ce8",
+    "tagline": "1ef75c0e"
+  }
+}

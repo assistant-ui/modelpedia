@@ -1,0 +1,36 @@
+{
+  "id": "google/embeddinggemma-300m",
+  "name": "embeddinggemma-300m",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "embed",
+  "description": "ChatGPT said: EmbeddingGemma is a 300M parameter multilingual open embedding model from Google DeepMind, designed for efficient deployment even on low-resource devices, producing high-quality text vector representations for tasks such as search, classification, clustering, and semantic similarity.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "license": "gemma",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "tagline": "ChatGPT said: EmbeddingGemma is a 300M parameter multilingual open embedding model from Google DeepMind, designed for efficient deployment even on low-resource devices, producing high-quality text vec",
+  "_generated": {
+    "name": "7768dbf1",
+    "family": "764cb3de",
+    "description": "20073381",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "license": "3fe02b16",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "tagline": "57020105"
+  }
+}

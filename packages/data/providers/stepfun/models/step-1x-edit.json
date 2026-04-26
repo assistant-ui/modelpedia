@@ -1,0 +1,18 @@
+{
+  "id": "step-1x-edit",
+  "name": "Step 1x Edit",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-1x",
+  "description": "Image editing model. 512-character prompts, source image up to 1024x1024.",
+  "status": "active",
+  "model_type": "image",
+  "license": "proprietary",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images_edits"]
+}

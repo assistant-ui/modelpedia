@@ -1,0 +1,28 @@
+{
+  "id": "DeepSeek-R1-Distill-Llama-70B",
+  "name": "DeepSeek R1 Distill Llama 70B",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "deepseek-r1-distill",
+  "description": "DeepSeek R1 reasoning distilled into a Llama 70B base.",
+  "status": "active",
+  "model_type": "reasoning",
+  "context_window": 32768,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "llama-3",
+  "capabilities": {
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.7,
+    "output": 1.4
+  }
+}

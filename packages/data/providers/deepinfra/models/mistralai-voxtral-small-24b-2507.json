@@ -1,0 +1,38 @@
+{
+  "id": "mistralai/Voxtral-Small-24B-2507",
+  "name": "Voxtral-Small-24B-2507",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "mistralai",
+  "description": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance. It excels at speech transcription, translation and audio understanding.",
+  "status": "active",
+  "model_type": "transcription",
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "quantization": "bf16",
+  "tagline": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance.",
+  "_generated": {
+    "name": "40a4dfa8",
+    "family": "0af37b8d",
+    "description": "4854b3f5",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "9c665f5d",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "quantization": "d1485d47",
+    "tagline": "b6fb7594"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "MiniMax-M2.5",
+  "name": "MiniMax M2.5",
+  "created_by": "minimax",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "minimax-m2",
+  "description": "MiniMax M2.5 agentic and coding-focused open-weights model with long context.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 163840,
+  "max_output_tokens": 163840,
+  "open_weight": true,
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2
+  },
+  "tagline": "MiniMax M2.5 agentic and coding-focused open-weights model with long context.",
+  "_generated": {
+    "name": "fbc8323f",
+    "family": "b162f864",
+    "description": "dc5a3baa",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "7edab444",
+    "max_output_tokens": "7edab444",
+    "open_weight": "b326b506",
+    "capabilities": "ef09f446",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "ea3f0b86",
+    "tagline": "dc5a3baa"
+  }
+}

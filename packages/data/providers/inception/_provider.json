@@ -1,0 +1,18 @@
+{
+  "id": "inception",
+  "name": "Inception Labs",
+  "region": "US",
+  "headquarters": "Palo Alto, CA",
+  "founded": 2024,
+  "url": "https://www.inceptionlabs.ai",
+  "api_url": "https://api.inceptionlabs.ai/v1",
+  "docs_url": "https://docs.inceptionlabs.ai",
+  "pricing_url": "https://docs.inceptionlabs.ai/get-started/models",
+  "description": "AI lab pioneering diffusion large language models (dLLMs) with the Mercury family for fast parallel-token generation.",
+  "type": "direct",
+  "playground_url": "https://platform.inceptionlabs.ai",
+  "openai_compatible": true,
+  "free_tier": true,
+  "models_url": "https://docs.inceptionlabs.ai/get-started/models",
+  "blog_url": "https://www.inceptionlabs.ai/blog"
+}

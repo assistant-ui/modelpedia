@@ -1,0 +1,25 @@
+{
+  "id": "jina-embeddings-v5-text-nano",
+  "name": "Jina Embeddings v5 Text Nano",
+  "created_by": "jina",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "jina-embeddings-v5",
+  "description": "239M-parameter multilingual text embedding model on EuroBERT-210M with Matryoshka representation learning.",
+  "tagline": "Lightweight v5 multilingual embeddings.",
+  "status": "active",
+  "model_type": "embed",
+  "context_window": 8192,
+  "release_date": "2026-02-18",
+  "license": "jina-ai",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": []
+  },
+  "endpoints": ["embeddings"],
+  "pricing": {
+    "input": 0.02
+  },
+  "output_dimensions": [32, 64, 128, 256, 512, 768]
+}

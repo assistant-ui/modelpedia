@@ -1,0 +1,21 @@
+{
+  "id": "recraftv4_pro",
+  "name": "Recraft V4 Pro",
+  "created_by": "recraft",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "recraft-v4",
+  "description": "High-fidelity 2048x2048 raster tier of Recraft V4 with improved anatomy and realism for print-grade output.",
+  "tagline": "Print-grade raster Recraft V4.",
+  "status": "active",
+  "model_type": "image",
+  "release_date": "2026-02-01",
+  "open_weight": false,
+  "license": "proprietary",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.25 per image (250 API units)."]
+}

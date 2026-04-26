@@ -1,0 +1,5 @@
+{
+  "openapi": "https://api.bfl.ai/openapi.json",
+  "pricing": "https://docs.bfl.ml/quick_start/pricing.md",
+  "llms": "https://docs.bfl.ai/llms.txt"
+}

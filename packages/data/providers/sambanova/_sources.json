@@ -1,0 +1,6 @@
+{
+  "models": "https://api.sambanova.ai/v1/models",
+  "model_list": "https://sambanova-systems.mintlify.dev/docs/en/v0.5.17/models/sambacloud-models.md",
+  "rate_limits": "https://sambanova-systems.mintlify.dev/docs/en/v0.5.17/models/rate-limits.md",
+  "pricing": "https://cloud.sambanova.ai/plans/pricing"
+}

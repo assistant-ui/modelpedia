@@ -1,0 +1,54 @@
+{
+  "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+  "name": "Qwen3-235B-A22B-Thinking-2507",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen3",
+  "description": "Qwen3-235B-A22B-Thinking-2507 is the Qwen3's new model with scaling the thinking capability of Qwen3-235B-A22B, improving both the quality and depth of reasoning.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 262144,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.23,
+    "output": 2.3,
+    "cached_input": 0.2
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "Qwen3-235B-A22B-Thinking-2507 is the Qwen3's new model with scaling the thinking capability of Qwen3-235B-A22B, improving both the quality and depth of reasoning.",
+  "_generated": {
+    "name": "48f2fc4a",
+    "family": "48c385a0",
+    "description": "535674ca",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "4a1d32eb",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "882e371a",
+    "modalities": "68e53d93",
+    "pricing": "1fe47f95",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "535674ca"
+  }
+}

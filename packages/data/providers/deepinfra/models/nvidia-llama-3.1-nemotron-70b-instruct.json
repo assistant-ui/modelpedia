@@ -1,0 +1,47 @@
+{
+  "id": "nvidia/Llama-3.1-Nemotron-70B-Instruct",
+  "name": "Llama-3.1-Nemotron-70B-Instruct",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "Llama-3.1",
+  "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries. This model reaches Arena Hard of 85.0, AlpacaEval 2 LC of 57.6 and GPT-4-Turbo MT-Bench of 8.98, which are known to be predictive of LMSys Chatbot Arena Elo. As of 16th Oct 2024, this model is #1 on all three automatic alignment benchmarks (verified tab for AlpacaEval 2 LC), edging out strong frontier models such as GPT-4o and Claude 3.5 Sonnet.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 131072,
+  "open_weight": true,
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.2,
+    "output": 1.2
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
+  "_generated": {
+    "name": "65758de1",
+    "family": "6cef7f07",
+    "description": "91382859",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "open_weight": "b326b506",
+    "capabilities": "ef09f446",
+    "modalities": "68e53d93",
+    "pricing": "e8b0a8a5",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "7cb99427"
+  }
+}

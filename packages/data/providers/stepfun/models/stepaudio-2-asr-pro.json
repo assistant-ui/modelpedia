@@ -1,0 +1,18 @@
+{
+  "id": "stepaudio-2-asr-pro",
+  "name": "StepAudio 2 ASR Pro",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "stepaudio",
+  "description": "32B-parameter speech recognition model for higher accuracy.",
+  "status": "active",
+  "model_type": "transcription",
+  "license": "proprietary",
+  "open_weight": false,
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"]
+}

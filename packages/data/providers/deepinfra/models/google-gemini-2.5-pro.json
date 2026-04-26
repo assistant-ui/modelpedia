@@ -1,0 +1,52 @@
+{
+  "id": "google/gemini-2.5-pro",
+  "name": "gemini-2.5-pro",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "gemini-2.5",
+  "description": "Gemini 2.5 Pro is Google's the most advanced thinking model, designed to tackle increasingly complex problems. Gemini 2.5 Pro leads common benchmarks by meaningful margins and showcases strong reasoning and code capabilities. Gemini 2.5 models are thinking models, capable of reasoning through their thoughts before responding, resulting in enhanced performance and improved accuracy. The Gemini 2.5 Pro model is now available on DeepInfra.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 1000000,
+  "reasoning_tokens": true,
+  "open_weight": false,
+  "license": "gemma",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 10
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "tagline": "Gemini 2.5 Pro is Google's the most advanced thinking model, designed to tackle increasingly complex problems.",
+  "_generated": {
+    "name": "a9e2bed2",
+    "family": "ea6b88bf",
+    "description": "1e0f598c",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "8155bc54",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "68934a3e",
+    "license": "3fe02b16",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "b092c164",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "tagline": "5c6117e5"
+  }
+}

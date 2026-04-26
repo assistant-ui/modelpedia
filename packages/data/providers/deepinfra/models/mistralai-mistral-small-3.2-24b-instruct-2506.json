@@ -1,0 +1,51 @@
+{
+  "id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+  "name": "Mistral-Small-3.2-24B-Instruct-2506",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "mistral",
+  "description": "Mistral-Small-3.2-24B-Instruct is a drop-in upgrade over the 3.1 release, with markedly better instruction following, roughly half the infinite-generation errors, and a more robust function-calling interface—while otherwise matching or slightly improving on all previous text and vision benchmarks.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 128000,
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.075,
+    "output": 0.2
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "Mistral-Small-3.2-24B-Instruct is a drop-in upgrade over the 3.1 release, with markedly better instruction following, roughly half the infinite-generation errors, and a more robust function-calling in",
+  "_generated": {
+    "name": "e800d822",
+    "family": "a609ac21",
+    "description": "e198105c",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "bfede2e3",
+    "modalities": "6399757e",
+    "pricing": "88ba6bad",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "b9e2bfef"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "ByteDance/Seed-1.8",
+  "name": "Seed-1.8",
+  "created_by": "bytedance",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "bytedance",
+  "description": "Optimized specifically for multimodal agent scenarios. It features enhanced agent capabilities, upgraded multimodal comprehension, and more flexible context management.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 256000,
+  "reasoning_tokens": true,
+  "open_weight": false,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 2,
+    "cached_input": 0.05
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "tagline": "Optimized specifically for multimodal agent scenarios.",
+  "_generated": {
+    "name": "095ba78c",
+    "family": "7ffdb12b",
+    "description": "7b00ec0f",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "2fd324cb",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "68934a3e",
+    "license": "60245731",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "c3464c99",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "tagline": "336c14a6"
+  }
+}

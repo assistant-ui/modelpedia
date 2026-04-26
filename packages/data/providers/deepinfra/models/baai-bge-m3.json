@@ -1,0 +1,38 @@
+{
+  "id": "BAAI/bge-m3",
+  "name": "bge-m3",
+  "created_by": "baai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "bge",
+  "description": "BGE-M3 is a versatile text embedding model that supports multi-functionality, multi-linguality, and multi-granularity, allowing it to perform dense retrieval, multi-vector retrieval, and sparse retrieval in over 100 languages and with input sizes up to 8192 tokens. The model can be used in a retrieval pipeline with hybrid retrieval and re-ranking to achieve higher accuracy and stronger generalization capabilities. BGE-M3 has shown state-of-the-art performance on several benchmarks, including ...",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "license": "mit",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "quantization": "fp32",
+  "tagline": "BGE-M3 is a versatile text embedding model that supports multi-functionality, multi-linguality, and multi-granularity, allowing it to perform dense retrieval, multi-vector retrieval, and sparse retrieval in over 100 languages and with input sizes up to 8192 tokens.",
+  "_generated": {
+    "name": "9815efb3",
+    "family": "54ccc70e",
+    "description": "1eb380ab",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "license": "3c4c3ba5",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "quantization": "49651676",
+    "tagline": "49703c10"
+  }
+}

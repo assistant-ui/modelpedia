@@ -1,0 +1,36 @@
+{
+  "id": "BAAI/bge-en-icl",
+  "name": "bge-en-icl",
+  "created_by": "baai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "bge",
+  "description": "A LLM-based embedding model with in-context learning capabilities that achieves SOTA performance on BEIR and AIR-Bench. It leverages few-shot examples to enhance task performance.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "license": "mit",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "tagline": "A LLM-based embedding model with in-context learning capabilities that achieves SOTA performance on BEIR and AIR-Bench.",
+  "_generated": {
+    "name": "d2bc5e25",
+    "family": "54ccc70e",
+    "description": "cefe206c",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "license": "3c4c3ba5",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "tagline": "677b02c0"
+  }
+}

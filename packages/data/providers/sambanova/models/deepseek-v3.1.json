@@ -1,0 +1,53 @@
+{
+  "id": "DeepSeek-V3.1",
+  "name": "DeepSeek V3.1",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "deepseek-v3",
+  "description": "Hybrid reasoning MoE model with switchable thinking and non-thinking modes.",
+  "status": "active",
+  "model_type": "reasoning",
+  "context_window": 131072,
+  "max_output_tokens": 7168,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "deepseek",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 3,
+    "output": 4.5
+  },
+  "tagline": "Hybrid reasoning MoE model with switchable thinking and non-thinking modes.",
+  "_generated": {
+    "name": "28e7ca2e",
+    "family": "61b133fc",
+    "description": "aa849e84",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "f7de594e",
+    "max_output_tokens": "0b368095",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "license": "4b81b92d",
+    "capabilities": "83a28072",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "0e9be77f",
+    "tagline": "aa849e84"
+  }
+}

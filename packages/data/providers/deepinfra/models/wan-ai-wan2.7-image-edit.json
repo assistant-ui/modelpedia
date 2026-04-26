@@ -1,0 +1,35 @@
+{
+  "id": "Wan-AI/Wan2.7-Image-Edit",
+  "name": "Wan2.7-Image-Edit",
+  "created_by": "wan-ai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "Wan2.7",
+  "description": "Bleeding edge image model supporting generation and editing, text to image, text/image to sequential images, image editing, multi-image reference generation, and interactive editing. Delivers enhanced performance in text rendering, subject consistency, and complex instruction following",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0300 per image unit (0x0 default)"],
+  "tagline": "Bleeding edge image model supporting generation and editing, text to image, text/image to sequential images, image editing, multi-image reference generation, and interactive editing.",
+  "_generated": {
+    "name": "75928ab9",
+    "family": "03ccd3d6",
+    "description": "06e88423",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "fba4c044",
+    "tagline": "8a4b970e"
+  }
+}

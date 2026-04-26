@@ -1,0 +1,38 @@
+{
+  "id": "black-forest-labs/FLUX-1-dev",
+  "name": "FLUX-1-dev",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux",
+  "description": "FLUX.1-dev is a state-of-the-art 12 billion parameter rectified flow transformer developed by Black Forest Labs. This model excels in text-to-image generation, providing highly accurate and detailed outputs. It is particularly well-regarded for its ability to follow complex prompts and generate anatomically accurate images, especially with challenging details like hands and faces.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": true,
+  "license": "flux",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0090 per image unit (1024x1024 default)"],
+  "tagline": "FLUX.1-dev is a state-of-the-art 12 billion parameter rectified flow transformer developed by Black Forest Labs.",
+  "_generated": {
+    "name": "4cfd6da1",
+    "family": "c4784ca2",
+    "description": "879ef7fd",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "b326b506",
+    "license": "c4784ca2",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "2eacca47",
+    "tagline": "ee560adc"
+  }
+}

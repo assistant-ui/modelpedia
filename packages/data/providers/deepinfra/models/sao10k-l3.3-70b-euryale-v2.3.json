@@ -1,0 +1,44 @@
+{
+  "id": "Sao10K/L3.3-70B-Euryale-v2.3",
+  "name": "L3.3-70B-Euryale-v2.3",
+  "created_by": "sao10k",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "sao10k",
+  "description": "L3.3-70B-Euryale-v2.3 is a model focused on creative roleplay from Sao10k",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 131072,
+  "open_weight": true,
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.85,
+    "output": 0.85
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "L3.3-70B-Euryale-v2.3 is a model focused on creative roleplay from Sao10k",
+  "_generated": {
+    "name": "5b1ecccf",
+    "family": "6d838a57",
+    "description": "442bf649",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "open_weight": "b326b506",
+    "capabilities": "ac49c06e",
+    "modalities": "68e53d93",
+    "pricing": "379b9276",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "442bf649"
+  }
+}

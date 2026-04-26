@@ -1,0 +1,35 @@
+{
+  "id": "ClarityAI/crystal",
+  "name": "crystal",
+  "created_by": "clarityai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "clarityai",
+  "description": "ClarityAI/crystal is a specialized upscaler optimized for portraits, faces, and products, delivering high-precision enhancements with adjustable detail levels for sharp, natural results.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0500 per image unit (0x0 default)"],
+  "tagline": "ClarityAI/crystal is a specialized upscaler optimized for portraits, faces, and products, delivering high-precision enhancements with adjustable detail levels for sharp, natural results.",
+  "_generated": {
+    "name": "1efc86c4",
+    "family": "e045c156",
+    "description": "5800e34c",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "d5ac3986",
+    "tagline": "5800e34c"
+  }
+}

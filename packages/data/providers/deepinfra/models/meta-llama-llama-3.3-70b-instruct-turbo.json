@@ -1,0 +1,50 @@
+{
+  "id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "name": "Llama-3.3-70B-Instruct-Turbo",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "Llama-3.3",
+  "description": "Llama 3.3-70B Turbo is a highly optimized version of the Llama 3.3-70B model, utilizing FP8 quantization to deliver significantly faster inference speeds with a minor trade-off in accuracy. The model is designed to be helpful, safe, and flexible, with a focus on responsible deployment and mitigating potential risks such as bias, toxicity, and misinformation. It achieves state-of-the-art performance on various benchmarks, including conversational tasks, language translation, and text generation.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 131072,
+  "open_weight": true,
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.32
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "license": "llama",
+  "tagline": "Llama 3.3-70B Turbo is a highly optimized version of the Llama 3.3-70B model, utilizing FP8 quantization to deliver significantly faster inference speeds with a minor trade-off in accuracy.",
+  "_generated": {
+    "name": "f10b129b",
+    "family": "7c5833c2",
+    "description": "4d801bea",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "open_weight": "b326b506",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "7b29c39d",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "license": "045d737e",
+    "tagline": "88e3c6a4"
+  }
+}

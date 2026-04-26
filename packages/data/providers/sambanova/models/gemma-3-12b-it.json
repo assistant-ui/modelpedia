@@ -1,0 +1,47 @@
+{
+  "id": "gemma-3-12b-it",
+  "name": "Gemma 3 12B IT",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "gemma-3",
+  "description": "Google Gemma 3 12B instruction-tuned open-weights model.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "open_weight": true,
+  "license": "gemma",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.2,
+    "output": 0.35
+  },
+  "tagline": "Google Gemma 3 12B instruction-tuned open-weights model.",
+  "_generated": {
+    "name": "f56daafc",
+    "family": "d9e10ad8",
+    "description": "c7e4e5ff",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "open_weight": "b326b506",
+    "license": "3fe02b16",
+    "capabilities": "404a921d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "pricing": "0a9a9436",
+    "tagline": "c7e4e5ff"
+  }
+}

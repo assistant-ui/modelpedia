@@ -1,0 +1,36 @@
+{
+  "id": "sentence-transformers/clip-ViT-B-32",
+  "name": "clip-ViT-B-32",
+  "created_by": "sentence-transformers",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "sentence-transformers",
+  "description": "The CLIP model maps text and images to a shared vector space, enabling various applications such as image search, zero-shot image classification, and image clustering. The model can be used easily after installation, and its performance is demonstrated through zero-shot ImageNet validation set accuracy scores. Multilingual versions of the model are also available for 50+ languages.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "tagline": "The CLIP model maps text and images to a shared vector space, enabling various applications such as image search, zero-shot image classification, and image clustering.",
+  "_generated": {
+    "name": "6ab05837",
+    "family": "c8444f17",
+    "description": "3a62b46b",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "tagline": "959d86f3"
+  }
+}

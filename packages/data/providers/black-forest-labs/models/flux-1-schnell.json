@@ -1,0 +1,20 @@
+{
+  "id": "flux-1-schnell",
+  "name": "FLUX.1 [schnell]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-1",
+  "description": "12B distilled sibling of FLUX.1 [dev] generating near-quality images in 1 to 4 sampling steps. Apache 2.0 open weights with no commercial restrictions.",
+  "tagline": "Fast 12B Apache-2.0 FLUX.1.",
+  "status": "active",
+  "model_type": "image",
+  "release_date": "2024-08-01",
+  "open_weight": true,
+  "license": "apache-2.0",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "pricing_notes": ["Free open weights; not exposed via BFL API."]
+}

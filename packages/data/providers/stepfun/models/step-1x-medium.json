@@ -1,0 +1,18 @@
+{
+  "id": "step-1x-medium",
+  "name": "Step 1x Medium",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-1x",
+  "description": "Text-to-image generation model. Up to 1024-character prompts, one image per request.",
+  "status": "active",
+  "model_type": "image",
+  "license": "proprietary",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images_generations"]
+}

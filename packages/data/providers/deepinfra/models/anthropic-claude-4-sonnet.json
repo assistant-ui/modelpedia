@@ -1,0 +1,46 @@
+{
+  "id": "anthropic/claude-4-sonnet",
+  "name": "claude-4-sonnet",
+  "created_by": "anthropic",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "claude-sonnet",
+  "description": "Anthropic's mid-size model with superior intelligence for high-volume uses in coding, in-depth research, agents, & more.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 200000,
+  "open_weight": false,
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3.3,
+    "output": 16.5
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "tagline": "Anthropic's mid-size model with superior intelligence for high-volume uses in coding, in-depth research, agents, & more.",
+  "_generated": {
+    "name": "93d8b1e1",
+    "family": "68d1c457",
+    "description": "2c01859d",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "03e6c616",
+    "open_weight": "68934a3e",
+    "capabilities": "c541f548",
+    "modalities": "6399757e",
+    "pricing": "87c61f00",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "tagline": "2c01859d"
+  }
+}

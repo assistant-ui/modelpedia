@@ -1,0 +1,19 @@
+{
+  "id": "reka",
+  "name": "Reka AI",
+  "region": "US",
+  "headquarters": "San Francisco, CA",
+  "founded": 2022,
+  "url": "https://www.reka.ai",
+  "api_url": "https://api.reka.ai/v1",
+  "docs_url": "https://docs.reka.ai",
+  "pricing_url": "https://docs.reka.ai/pricing",
+  "description": "AI lab building multimodal foundation models with native text, image, audio, and video understanding.",
+  "type": "direct",
+  "playground_url": "https://platform.reka.ai",
+  "openai_compatible": false,
+  "free_tier": true,
+  "github_url": "https://github.com/reka-ai",
+  "models_url": "https://api.reka.ai/v1/models",
+  "blog_url": "https://reka.ai/news"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "google/gemma-3-27b-it",
+  "name": "gemma-3-27b-it",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "gemma-3",
+  "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3 27B is Google's latest open source model, successor to Gemma 2",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 131072,
+  "open_weight": true,
+  "license": "gemma",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.08,
+    "output": 0.16
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
+  "_generated": {
+    "name": "fa7588bf",
+    "family": "d9e10ad8",
+    "description": "85a39b89",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "open_weight": "b326b506",
+    "license": "3fe02b16",
+    "capabilities": "bfede2e3",
+    "modalities": "6399757e",
+    "pricing": "3cac3591",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "74f4d36c"
+  }
+}

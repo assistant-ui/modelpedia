@@ -1,0 +1,38 @@
+{
+  "id": "black-forest-labs/FLUX-2-pro",
+  "name": "FLUX-2-pro",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-2",
+  "description": "Multi-reference visual intelligence with unprecedented detail, color precision, and spatial reasoning. The most advanced image generation and editing model. Generate photorealistic images with precise control.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "license": "flux",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0150 per image unit (0x0 default)"],
+  "tagline": "Multi-reference visual intelligence with unprecedented detail, color precision, and spatial reasoning.",
+  "_generated": {
+    "name": "48ad96b9",
+    "family": "a844a160",
+    "description": "21825ce1",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "license": "c4784ca2",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "8304c9b2",
+    "tagline": "7d8b14fe"
+  }
+}

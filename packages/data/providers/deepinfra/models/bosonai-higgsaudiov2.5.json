@@ -1,0 +1,35 @@
+{
+  "id": "bosonai/HiggsAudioV2.5",
+  "name": "HiggsAudioV2.5",
+  "created_by": "bosonai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "bosonai",
+  "description": "HiggsAudioV2.5 is a high-quality neural text-to-speech (TTS) model designed for natural-sounding voice generation across a wide range of use cases. It focuses on clarity, stable prosody, and consistent pacing, making it suitable for both short prompts and longer narration.",
+  "status": "active",
+  "model_type": "tts",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "pricing_notes": ["$20.0000 per 1M input characters"],
+  "tagline": "HiggsAudioV2.5 is a high-quality neural text-to-speech (TTS) model designed for natural-sounding voice generation across a wide range of use cases.",
+  "_generated": {
+    "name": "ea7142dd",
+    "family": "a4900194",
+    "description": "1d810d80",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "pricing_notes": "327e7c02",
+    "tagline": "7740bd49"
+  }
+}

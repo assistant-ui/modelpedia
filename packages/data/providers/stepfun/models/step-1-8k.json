@@ -1,0 +1,27 @@
+{
+  "id": "step-1-8k",
+  "name": "Step 1 8k",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-1",
+  "description": "Hundred-billion parameter classic model with 8k context. Cost-effective option for short-context tasks like customer service and content generation.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 8000,
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.694,
+    "cached_input": 0.139,
+    "output": 2.778
+  }
+}

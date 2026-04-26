@@ -1,0 +1,45 @@
+{
+  "id": "allenai/Olmo-3.1-32B-Instruct",
+  "name": "Olmo-3.1-32B-Instruct",
+  "created_by": "allenai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "allenai",
+  "description": "Olmo is a series of Open language models, developed by Allen Institute for AI (Ai2), designed to enable the science of language models.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 65536,
+  "open_weight": true,
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.6
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "tagline": "Olmo is a series of Open language models, developed by Allen Institute for AI (Ai2), designed to enable the science of language models.",
+  "_generated": {
+    "name": "0f6e3286",
+    "family": "45d1608f",
+    "description": "7d8f1c4b",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "297ce0b3",
+    "open_weight": "b326b506",
+    "capabilities": "ef09f446",
+    "modalities": "68e53d93",
+    "pricing": "d6e0ad87",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "tagline": "7d8f1c4b"
+  }
+}

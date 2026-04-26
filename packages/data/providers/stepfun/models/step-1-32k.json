@@ -1,0 +1,27 @@
+{
+  "id": "step-1-32k",
+  "name": "Step 1 32k",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-1",
+  "description": "Step 1 with extended 32k context. Suited for Q&A assistants, content editing, and industry analysis.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 32000,
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 2.083,
+    "cached_input": 0.417,
+    "output": 9.722
+  }
+}

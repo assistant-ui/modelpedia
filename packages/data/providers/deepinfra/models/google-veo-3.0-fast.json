@@ -1,0 +1,31 @@
+{
+  "id": "google/veo-3.0-fast",
+  "name": "veo-3.0-fast",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "veo-3.0",
+  "description": "Veo 3 Fast is a speed-optimized version of the Veo 3 model, designed for rapid video creation. While maintaining high quality, it delivers results in a fraction of the time, making it ideal for quick iterations and dynamic content generation.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "license": "gemma",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "tagline": "Veo 3 Fast is a speed-optimized version of the Veo 3 model, designed for rapid video creation.",
+  "_generated": {
+    "name": "8528d0d3",
+    "family": "adc96752",
+    "description": "d160a501",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "license": "3fe02b16",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "tagline": "0fdbbbd8"
+  }
+}

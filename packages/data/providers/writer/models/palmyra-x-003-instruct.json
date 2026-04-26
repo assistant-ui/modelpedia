@@ -1,0 +1,30 @@
+{
+  "id": "palmyra-x-003-instruct",
+  "name": "Palmyra X 003 Instruct",
+  "created_by": "writer",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "palmyra-x",
+  "description": "Instruction-following model proficient in detailed multilingual responses and structured document generation.",
+  "status": "deprecated",
+  "deprecation_date": "2026-07-13",
+  "successor": "palmyra-x5",
+  "model_type": "chat",
+  "context_window": 32000,
+  "max_output_tokens": 4096,
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 7.5,
+    "output": 22.5
+  },
+  "page_url": "https://dev.writer.com/home/models"
+}

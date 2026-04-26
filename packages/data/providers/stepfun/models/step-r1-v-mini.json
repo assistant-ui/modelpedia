@@ -1,0 +1,30 @@
+{
+  "id": "step-r1-v-mini",
+  "name": "Step R1 V Mini",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-r",
+  "description": "Compact visual reasoning model. Strong at image understanding, math, coding, and chain-of-thought over images.",
+  "status": "active",
+  "model_type": "reasoning",
+  "context_window": 100000,
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "vision": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.347,
+    "cached_input": 0.069,
+    "output": 1.111
+  }
+}

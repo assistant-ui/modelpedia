@@ -1,0 +1,54 @@
+{
+  "id": "Qwen/Qwen3.5-27B",
+  "name": "Qwen3.5-27B",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen3",
+  "description": "Qwen3.5-27B is Alibaba's largest dense Qwen3.5 model, delivering near-frontier quality across reasoning, coding, and instruction following. It features a 262K token context window (extensible to 1M), thinking/reasoning mode, tool calling, multi-token prediction, and support for 201 languages. Best suited for production deployments and complex enterprise tasks requiring top-tier performance.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 262144,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.26,
+    "output": 2.6
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "Qwen3.5-27B is Alibaba's largest dense Qwen3.5 model, delivering near-frontier quality across reasoning, coding, and instruction following.",
+  "_generated": {
+    "name": "b24a43f6",
+    "family": "48c385a0",
+    "description": "bec02bc4",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "4a1d32eb",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "a54f2ee5",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "12e9c806"
+  }
+}

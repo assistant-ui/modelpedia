@@ -1,0 +1,34 @@
+{
+  "id": "mercury",
+  "name": "Mercury",
+  "created_by": "inception",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "mercury",
+  "description": "First-generation diffusion LLM running 5-10x faster than speed-optimized autoregressive models like GPT-4.1 Nano and Claude 3.5 Haiku.",
+  "tagline": "The first diffusion large language model.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 128000,
+  "max_output_tokens": 32000,
+  "release_date": "2025-06-26",
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.25,
+    "output": 0.75,
+    "cached_input": 0.025
+  }
+}

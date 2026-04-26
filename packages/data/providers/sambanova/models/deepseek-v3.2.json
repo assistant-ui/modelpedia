@@ -1,0 +1,53 @@
+{
+  "id": "DeepSeek-V3.2",
+  "name": "DeepSeek V3.2",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "deepseek-v3",
+  "description": "Preview release of DeepSeek V3.2 on SambaCloud, high volume lane with limited context.",
+  "status": "preview",
+  "model_type": "reasoning",
+  "context_window": 32768,
+  "max_output_tokens": 7168,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "deepseek",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 3,
+    "output": 4.5
+  },
+  "tagline": "Preview release of DeepSeek V3.2 on SambaCloud, high volume lane with limited context.",
+  "_generated": {
+    "name": "da28e7f5",
+    "family": "61b133fc",
+    "description": "42c9f939",
+    "status": "127aecde",
+    "model_type": "17475f7f",
+    "context_window": "f4376436",
+    "max_output_tokens": "0b368095",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "license": "4b81b92d",
+    "capabilities": "83a28072",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "0e9be77f",
+    "tagline": "42c9f939"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "step-2-16k-exp",
+  "name": "Step 2 16k Experimental",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-2",
+  "description": "Experimental snapshot of Step 2 16k with rolling updates. Not recommended for production.",
+  "status": "preview",
+  "model_type": "chat",
+  "context_window": 16000,
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"]
+}

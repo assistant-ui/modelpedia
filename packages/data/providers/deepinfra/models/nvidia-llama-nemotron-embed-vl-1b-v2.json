@@ -1,0 +1,33 @@
+{
+  "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "name": "llama-nemotron-embed-vl-1b-v2",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "llama",
+  "description": "The llama-nemotron-embed-vl-1b-v2 is a high-performance multimodal embedding model designed to transform text queries and document images into dense vector representations for advanced retrieval systems. It excels at understanding complex visual content like charts, tables, and infographics.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "tagline": "The llama-nemotron-embed-vl-1b-v2 is a high-performance multimodal embedding model designed to transform text queries and document images into dense vector representations for advanced retrieval systems.",
+  "_generated": {
+    "name": "0f782619",
+    "family": "045d737e",
+    "description": "335626e7",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "tagline": "43297461"
+  }
+}

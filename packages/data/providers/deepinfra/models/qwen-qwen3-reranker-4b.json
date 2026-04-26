@@ -1,0 +1,31 @@
+{
+  "id": "Qwen/Qwen3-Reranker-4B",
+  "name": "Qwen3-Reranker-4B",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen3",
+  "description": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B)",
+  "status": "active",
+  "model_type": "rerank",
+  "open_weight": true,
+  "license": "apache-2.0",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["rerank"],
+  "tagline": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks.",
+  "_generated": {
+    "name": "1fd5f93d",
+    "family": "48c385a0",
+    "description": "0a303127",
+    "status": "379ac110",
+    "model_type": "477930e6",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "modalities": "68e53d93",
+    "endpoints": "9a7b4962",
+    "tagline": "871da9b2"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+  "name": "DeepSeek-R1-Distill-Llama-70B",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "llama",
+  "description": "DeepSeek-R1-Distill-Llama-70B is a highly efficient language model that leverages knowledge distillation to achieve state-of-the-art performance. This model distills the reasoning patterns of larger models into a smaller, more agile architecture, resulting in exceptional results on benchmarks like AIME 2024, MATH-500, and LiveCodeBench. With 70 billion parameters, DeepSeek-R1-Distill-Llama-70B offers a unique balance of accuracy and efficiency, making it an ideal choice for a wide range of na...",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 131072,
+  "open_weight": true,
+  "license": "deepseek",
+  "capabilities": {
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.7,
+    "output": 0.8
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "DeepSeek-R1-Distill-Llama-70B is a highly efficient language model that leverages knowledge distillation to achieve state-of-the-art performance.",
+  "_generated": {
+    "name": "d0ec7e44",
+    "family": "045d737e",
+    "description": "37c01126",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "open_weight": "b326b506",
+    "license": "4b81b92d",
+    "capabilities": "e7839967",
+    "modalities": "68e53d93",
+    "pricing": "39b99d6d",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "4d708a9b"
+  }
+}

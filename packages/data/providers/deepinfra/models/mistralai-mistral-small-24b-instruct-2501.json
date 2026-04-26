@@ -1,0 +1,47 @@
+{
+  "id": "mistralai/Mistral-Small-24B-Instruct-2501",
+  "name": "Mistral-Small-24B-Instruct-2501",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "mistral",
+  "description": "Mistral Small 3 is a 24B-parameter language model optimized for low-latency performance across common AI tasks. Released under the Apache 2.0 license, it features both pre-trained and instruction-tuned versions designed for efficient local deployment. The model achieves 81% accuracy on the MMLU benchmark and performs competitively with larger models like Llama 3.3 70B and Qwen 32B, while operating at three times the speed on equivalent hardware.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 32768,
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.08
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "Mistral Small 3 is a 24B-parameter language model optimized for low-latency performance across common AI tasks.",
+  "_generated": {
+    "name": "3da8d5c4",
+    "family": "a609ac21",
+    "description": "5a3964af",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f4376436",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "404a921d",
+    "modalities": "68e53d93",
+    "pricing": "2d9c62a3",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "f23c9e30"
+  }
+}

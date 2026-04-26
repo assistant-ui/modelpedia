@@ -1,0 +1,21 @@
+{
+  "id": "black-forest-labs",
+  "name": "Black Forest Labs",
+  "region": "DE",
+  "headquarters": "Freiburg, Germany",
+  "founded": 2024,
+  "url": "https://bfl.ai",
+  "api_url": "https://api.bfl.ai/v1",
+  "docs_url": "https://docs.bfl.ai",
+  "pricing_url": "https://bfl.ai/pricing",
+  "description": "German AI lab creating the FLUX family of state-of-the-art image generation and editing models.",
+  "type": "direct",
+  "playground_url": "https://playground.bfl.ai",
+  "changelog_url": "https://docs.bfl.ml/release-notes",
+  "openai_compatible": false,
+  "free_tier": false,
+  "github_url": "https://github.com/black-forest-labs",
+  "models_url": "https://huggingface.co/black-forest-labs",
+  "blog_url": "https://bfl.ai/announcements",
+  "support_url": "https://help.bfl.ai"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sentence-transformers/paraphrase-MiniLM-L6-v2",
+  "name": "paraphrase-MiniLM-L6-v2",
+  "created_by": "sentence-transformers",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "sentence-transformers",
+  "description": "We present a sentence similarity model based on the Sentence Transformers architecture, which maps sentences to a 384-dimensional dense vector space. The model uses a pre-trained BERT encoder and applies mean pooling on top of the contextualized word embeddings to obtain sentence embeddings. We evaluate the model on the Sentence Embeddings Benchmark.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "tagline": "We present a sentence similarity model based on the Sentence Transformers architecture, which maps sentences to a 384-dimensional dense vector space.",
+  "_generated": {
+    "name": "82994c99",
+    "family": "c8444f17",
+    "description": "b9011d57",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "tagline": "8a7bc2c7"
+  }
+}

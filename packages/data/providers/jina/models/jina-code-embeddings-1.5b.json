@@ -1,0 +1,25 @@
+{
+  "id": "jina-code-embeddings-1.5b",
+  "name": "Jina Code Embeddings 1.5B",
+  "created_by": "jina",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "jina-code-embeddings",
+  "description": "1.54B-parameter code embedding model on Qwen2.5-Coder-1.5B with last-token pooling and Matryoshka representations.",
+  "tagline": "Larger Qwen-Coder code embeddings.",
+  "status": "active",
+  "model_type": "embed",
+  "context_window": 32768,
+  "release_date": "2025-09-01",
+  "license": "apache-2.0",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": []
+  },
+  "endpoints": ["embeddings"],
+  "pricing": {
+    "input": 0.05
+  },
+  "output_dimensions": [128, 256, 512, 1024, 1536]
+}

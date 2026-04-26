@@ -1,0 +1,38 @@
+{
+  "id": "Qwen/Qwen-Image-Edit",
+  "name": "Qwen-Image-Edit",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen",
+  "description": "Qwen-Image-Edit is a next-generation image editing model built on top of Qwen-Image, designed for both semantic and appearance-level edits. It excels at tasks like precise text modifications, style transfers, viewpoint transformations, and element adjustments while preserving overall visual consistency.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0250 per image unit (1024x1024 default)"],
+  "tagline": "Qwen-Image-Edit is a next-generation image editing model built on top of Qwen-Image, designed for both semantic and appearance-level edits.",
+  "_generated": {
+    "name": "0e326509",
+    "family": "a3af76f3",
+    "description": "410ddeb9",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "fc875c11",
+    "tagline": "f0ce1549"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "Qwen/Qwen-Image-Edit-Max",
+  "name": "Qwen-Image-Edit-Max",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen",
+  "description": "Enhanced industrial design and geometric reasoning, improved character consistency, reduced offset issues, and integrated LoRA capabilities",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "license": "apache-2.0",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0750 per image unit (0x0 default)"],
+  "tagline": "Enhanced industrial design and geometric reasoning, improved character consistency, reduced offset issues, and integrated LoRA capabilities",
+  "_generated": {
+    "name": "e86ebc76",
+    "family": "a3af76f3",
+    "description": "e5717e5c",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "license": "60245731",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "ab5c4486",
+    "tagline": "e5717e5c"
+  }
+}

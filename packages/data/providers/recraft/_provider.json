@@ -1,0 +1,21 @@
+{
+  "id": "recraft",
+  "name": "Recraft",
+  "region": "GB",
+  "headquarters": "London, UK",
+  "founded": 2022,
+  "url": "https://www.recraft.ai",
+  "api_url": "https://external.api.recraft.ai/v1",
+  "docs_url": "https://www.recraft.ai/docs",
+  "pricing_url": "https://www.recraft.ai/docs/api-reference/pricing",
+  "description": "AI image platform for designers; produces both raster and editable vector (SVG) outputs with brand-style preservation.",
+  "type": "direct",
+  "playground_url": "https://app.recraft.ai",
+  "openai_compatible": true,
+  "free_tier": true,
+  "models_url": "https://www.recraft.ai/docs/recraft-models/choosing-a-model",
+  "blog_url": "https://www.recraft.ai/blog",
+  "discord_url": "https://discord.gg/recraft-ai",
+  "support_url": "https://www.recraft.ai/docs/support-and-faq/contact-support",
+  "terms_url": "https://www.recraft.ai/docs/trust-and-security/legal-and-policy-documents"
+}

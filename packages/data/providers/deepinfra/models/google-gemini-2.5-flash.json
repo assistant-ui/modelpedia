@@ -1,0 +1,52 @@
+{
+  "id": "google/gemini-2.5-flash",
+  "name": "gemini-2.5-flash",
+  "created_by": "google",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "gemini-2.5",
+  "description": "Gemini 2.5 Flash is Google's latest thinking model, designed to tackle increasingly complex problems. It's capable of reasoning through their thoughts before responding, resulting in enhanced performance and improved accuracy. Gemini 2.5 Flash: best for balancing reasoning and speed.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 1000000,
+  "reasoning_tokens": true,
+  "open_weight": false,
+  "license": "gemma",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 2.5
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "tagline": "Gemini 2.5 Flash is Google's latest thinking model, designed to tackle increasingly complex problems.",
+  "_generated": {
+    "name": "3b4524e7",
+    "family": "ea6b88bf",
+    "description": "f9ac58f2",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "8155bc54",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "68934a3e",
+    "license": "3fe02b16",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "8d495dc1",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "tagline": "7e70f439"
+  }
+}

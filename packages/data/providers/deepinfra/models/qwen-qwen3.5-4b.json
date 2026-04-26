@@ -1,0 +1,54 @@
+{
+  "id": "Qwen/Qwen3.5-4B",
+  "name": "Qwen3.5-4B",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen3",
+  "description": "Qwen3.5-4B is a mid-size model from Alibaba's Qwen3.5 series that delivers a strong balance of performance and efficiency. It features a 262K token context window (extensible to 1M with YaRN), thinking/reasoning mode, tool calling, and support for 201 languages. Well-suited for complex reasoning, code generation, and agentic applications.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 262144,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.15
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "Qwen3.5-4B is a mid-size model from Alibaba's Qwen3.5 series that delivers a strong balance of performance and efficiency.",
+  "_generated": {
+    "name": "ffd88858",
+    "family": "48c385a0",
+    "description": "351ef936",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "4a1d32eb",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "df889084",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "a83833b1"
+  }
+}

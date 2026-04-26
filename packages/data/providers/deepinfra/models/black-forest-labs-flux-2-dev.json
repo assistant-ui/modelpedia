@@ -1,0 +1,38 @@
+{
+  "id": "black-forest-labs/FLUX-2-dev",
+  "name": "FLUX-2-dev",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-2",
+  "description": "Brand-new Flux2 Dev introduces a faster, more modular architecture for next-generation image generation pipelines. It delivers improved performance, cleaner control APIs, and a significantly more flexible development workflow for custom inference setups.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": true,
+  "license": "flux",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0100 per image unit (1024x1024 default)"],
+  "tagline": "Brand-new Flux2 Dev introduces a faster, more modular architecture for next-generation image generation pipelines.",
+  "_generated": {
+    "name": "6dc006f1",
+    "family": "a844a160",
+    "description": "843dd444",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "b326b506",
+    "license": "c4784ca2",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "1c097086",
+    "tagline": "6f57b6a9"
+  }
+}

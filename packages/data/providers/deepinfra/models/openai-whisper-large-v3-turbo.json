@@ -1,0 +1,35 @@
+{
+  "id": "openai/whisper-large-v3-turbo",
+  "name": "whisper-large-v3-turbo",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "whisper",
+  "description": "Whisper is a state-of-the-art model for automatic speech recognition (ASR) and speech translation, proposed in the paper \"Robust Speech Recognition via Large-Scale Weak Supervision\" by Alec Radford et al. from OpenAI. Trained on >5M hours of labeled data, Whisper demonstrates a strong ability to generalise to many datasets and domains in a zero-shot setting. Whisper large-v3-turbo is a finetuned version of a pruned Whisper large-v3. In other words, it's the exact same model, except that the n...",
+  "status": "active",
+  "model_type": "transcription",
+  "open_weight": true,
+  "license": "proprietary",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "tagline": "Whisper is a state-of-the-art model for automatic speech recognition (ASR) and speech translation, proposed in the paper \"Robust Speech Recognition via Large-Scale Weak Supervision\" by Alec Radford et al.",
+  "_generated": {
+    "name": "ae9d9d9e",
+    "family": "7fbc43e3",
+    "description": "e4f757b8",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "open_weight": "b326b506",
+    "license": "9186c466",
+    "capabilities": "0fa77dc6",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "tagline": "fe7085ca"
+  }
+}

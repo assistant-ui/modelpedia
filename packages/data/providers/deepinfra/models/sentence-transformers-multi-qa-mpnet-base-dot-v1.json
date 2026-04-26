@@ -1,0 +1,36 @@
+{
+  "id": "sentence-transformers/multi-qa-mpnet-base-dot-v1",
+  "name": "multi-qa-mpnet-base-dot-v1",
+  "created_by": "sentence-transformers",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "sentence-transformers",
+  "description": "We present a sentence transformation model that maps sentences and paragraphs to a 768-dimensional dense vector space, suitable for semantic search tasks. The model is trained on 215 million question-answer pairs from various sources, including WikiAnswers, PAQ, Stack Exchange, MS MARCO, GOOAQ, Amazon QA, Yahoo Answers, Search QA, ELI5, and Natural Questions. Our model uses a contrastive learning objective.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "tagline": "We present a sentence transformation model that maps sentences and paragraphs to a 768-dimensional dense vector space, suitable for semantic search tasks.",
+  "_generated": {
+    "name": "ad5429e3",
+    "family": "c8444f17",
+    "description": "073c3b0f",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "tagline": "cfada39d"
+  }
+}
