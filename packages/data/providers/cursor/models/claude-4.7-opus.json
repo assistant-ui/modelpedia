@@ -1,0 +1,49 @@
+{
+  "id": "claude-4.7-opus",
+  "name": "Claude 4.7 Opus",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "context_window": 200000,
+  "max_context_window": 1000000,
+  "performance": 5,
+  "speed": 3,
+  "page_url": "https://cursor.com/docs/models-and-pricing#claude-opus-4-7",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 25,
+    "cache_write": 6.25,
+    "cached_input": 0.5
+  },
+  "pricing_notes": [
+    "Requires Max Mode on request-based plans; Up to 1M tokens in Max Mode at the same per-token rates (no long-context surcharge)"
+  ],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ec86d23d",
+    "family": "4e4c4b18",
+    "context_window": "03e6c616",
+    "max_context_window": "8155bc54",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "page_url": "e2976f91",
+    "model_type": "d669f408",
+    "capabilities": "7ca28ec9",
+    "modalities": "6399757e",
+    "pricing": "bd5536c6",
+    "pricing_notes": "25b48254",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-04-26"
+}
