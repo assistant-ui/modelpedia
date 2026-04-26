@@ -8188,7 +8188,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
-          "json_mode": true
+          "json_mode": true,
+          "batch": true
         },
         "modalities": {
           "input": [
@@ -8205,6 +8206,7 @@ export const providers: ProviderWithModels[] = [
         "description": "A lightweight model that thinks before responding.",
         "tagline": "A lightweight model that thinks before responding.",
         "context_window": 131072,
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false
       },
@@ -8219,7 +8221,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "batch": true
         },
         "modalities": {
           "input": [
@@ -8236,6 +8239,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Grok 3 is the latest model from xAI.",
         "tagline": "Grok 3 is the latest model from xAI.",
         "context_window": 131072,
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false
       },
@@ -8300,7 +8304,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "reasoning": true,
-          "vision": true
+          "vision": true,
+          "batch": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "modalities": {
           "input": [
@@ -8315,6 +8322,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
+        "context_window": 2000000,
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false
       },
@@ -8329,7 +8338,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "reasoning": true,
-          "vision": true
+          "vision": true,
+          "batch": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "modalities": {
           "input": [
@@ -8344,6 +8356,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
+        "context_window": 2000000,
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false
       },
@@ -8437,7 +8451,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
-          "json_mode": true
+          "json_mode": true,
+          "batch": true
         },
         "modalities": {
           "input": [
@@ -10259,6 +10274,610 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-04-07"
+      }
+    ]
+  },
+  {
+    "id": "black-forest-labs",
+    "name": "Black Forest Labs",
+    "region": "DE",
+    "headquarters": "Freiburg, Germany",
+    "founded": 2024,
+    "url": "https://bfl.ai",
+    "api_url": "https://api.bfl.ai/v1",
+    "docs_url": "https://docs.bfl.ai",
+    "pricing_url": "https://bfl.ai/pricing",
+    "description": "German AI lab creating the FLUX family of state-of-the-art image generation and editing models.",
+    "type": "direct",
+    "playground_url": "https://playground.bfl.ai",
+    "changelog_url": "https://docs.bfl.ml/release-notes",
+    "openai_compatible": false,
+    "free_tier": false,
+    "github_url": "https://github.com/black-forest-labs",
+    "models_url": "https://huggingface.co/black-forest-labs",
+    "blog_url": "https://bfl.ai/announcements",
+    "support_url": "https://help.bfl.ai",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n  <path d=\"M12 2L3 7v10l9 5 9-5V7l-9-5zm0 2.311L18.764 8 12 11.689 5.236 8 12 4.311zM5 9.5l6 3.273v7.34l-6-3.333V9.5zm14 0v7.28l-6 3.333v-7.34l6-3.273z\"/>\n</svg>",
+    "models": [
+      {
+        "id": "flux-1-dev",
+        "name": "FLUX.1 [dev] (open weights)",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-1",
+        "description": "Open-weight 12B FLUX.1 [dev] checkpoint distributed on Hugging Face for non-commercial use. Hosted inference is exposed via /v1/flux-dev.",
+        "tagline": "Open-weight FLUX.1 [dev] 12B.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2024-08-01",
+        "open_weight": true,
+        "license": "flux-1-dev-non-commercial",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing_notes": [
+          "Free local use under non-commercial license."
+        ]
+      },
+      {
+        "id": "flux-1-kontext-dev",
+        "name": "FLUX.1 Kontext [dev]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-kontext",
+        "description": "Open-weights image editing model from the FLUX.1 Kontext line. Hugging Face only; not callable via the BFL API.",
+        "tagline": "Open-weight FLUX.1 Kontext.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2025-06-26",
+        "open_weight": true,
+        "license": "flux-1-dev-non-commercial",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing_notes": [
+          "Local use; non-commercial license."
+        ]
+      },
+      {
+        "id": "flux-1-schnell",
+        "name": "FLUX.1 [schnell]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-1",
+        "description": "12B distilled sibling of FLUX.1 [dev] generating near-quality images in 1 to 4 sampling steps. Apache 2.0 open weights with no commercial restrictions.",
+        "tagline": "Fast 12B Apache-2.0 FLUX.1.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2024-08-01",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing_notes": [
+          "Free open weights; not exposed via BFL API."
+        ]
+      },
+      {
+        "id": "flux-2-dev",
+        "name": "FLUX.2 [dev]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-2",
+        "description": "Local development variant of FLUX.2 with full customization for non-commercial use. Not exposed via the BFL API; available on Hugging Face.",
+        "tagline": "Local-only FLUX.2 for non-commercial development.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": true,
+        "license": "flux-1-dev-non-commercial",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "pricing_notes": [
+          "Free local use under non-commercial license."
+        ]
+      },
+      {
+        "id": "flux-2-flex",
+        "name": "FLUX.2 [flex]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-2",
+        "description": "FLUX.2 variant with adjustable steps and guidance, tuned for typography and editing workflows. Up to 8 references via API.",
+        "tagline": "Flexible FLUX.2 for typography and editing.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2025-11-25",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-2-flex"
+        ],
+        "pricing_notes": [
+          "From $0.06/image; megapixel-scaled."
+        ]
+      },
+      {
+        "id": "flux-2-klein-4b",
+        "name": "FLUX.2 [klein] 4B",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-2",
+        "description": "Lightweight 4B-parameter FLUX.2 flow model for sub-second inference; ~13 GB VRAM. Open base weights under Apache 2.0.",
+        "tagline": "Fastest, most lightweight FLUX.2.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2026-01-15",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-2-klein-4b"
+        ],
+        "pricing_notes": [
+          "From $0.014/image + $0.001/MP."
+        ]
+      },
+      {
+        "id": "flux-2-klein-9b-preview",
+        "name": "FLUX.2 [klein] 9B Preview",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-2",
+        "description": "Latest [klein] 9B with KV caching improvements for faster editing workflows.",
+        "tagline": "[klein] 9B with KV caching.",
+        "status": "preview",
+        "model_type": "image",
+        "open_weight": false,
+        "license": "flux-1-dev-non-commercial",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-2-klein-9b-preview"
+        ],
+        "pricing_notes": [
+          "From $0.015/image + $0.002/MP."
+        ]
+      },
+      {
+        "id": "flux-2-klein-9b",
+        "name": "FLUX.2 [klein] 9B",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-2",
+        "description": "Balanced 9B FLUX.2 flow model with 8B text embedder; sub-second inference at ~24 GB VRAM. Open base weights under FLUX non-commercial license.",
+        "tagline": "Balanced quality and speed for [klein].",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2026-01-15",
+        "open_weight": true,
+        "license": "flux-1-dev-non-commercial",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-2-klein-9b"
+        ],
+        "pricing_notes": [
+          "From $0.015/image + $0.002/MP."
+        ]
+      },
+      {
+        "id": "flux-2-max",
+        "name": "FLUX.2 [max]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-2",
+        "description": "Highest-quality FLUX.2 model with web grounding search, up to 8 references via API and 10 in playground.",
+        "tagline": "Highest quality FLUX.2.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2025-12-16",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-2-max"
+        ],
+        "pricing_notes": [
+          "From $0.07/image; megapixel-scaled."
+        ]
+      },
+      {
+        "id": "flux-2-pro-preview",
+        "name": "FLUX.2 [pro] Preview",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-2",
+        "description": "Latest [pro] improvements and optimizations promoted ahead of the stable [pro] snapshot.",
+        "tagline": "Preview channel for FLUX.2 [pro].",
+        "status": "preview",
+        "model_type": "image",
+        "release_date": "2026-03-03",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-2-pro-preview"
+        ],
+        "pricing_notes": [
+          "From $0.03/image; megapixel-scaled."
+        ]
+      },
+      {
+        "id": "flux-2-pro",
+        "name": "FLUX.2 [pro]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-2",
+        "description": "Production-grade default model for FLUX.2 text-to-image generation and image editing. Supports up to 10 reference images and 4MP output.",
+        "tagline": "Recommended default for image generation and editing.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2025-11-25",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-2-pro"
+        ],
+        "pricing_notes": [
+          "From $0.03/image (text-to-image), from $0.045/image (editing); megapixel-scaled."
+        ]
+      },
+      {
+        "id": "flux-dev",
+        "name": "FLUX.1 [dev]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-1",
+        "description": "12B-parameter FLUX.1 [dev] model for text-to-image generation. Open weights for non-commercial use; also exposed via BFL API for hosted inference.",
+        "tagline": "FLUX.1 12B open-weight dev model.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2024-08-01",
+        "open_weight": true,
+        "license": "flux-1-dev-non-commercial",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-dev"
+        ],
+        "pricing_notes": [
+          "$0.025/image via API (per docs); weights free for non-commercial use."
+        ]
+      },
+      {
+        "id": "flux-kontext-max",
+        "name": "FLUX.1 Kontext [max]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-kontext",
+        "description": "Higher-quality variant of Kontext with stronger editing fidelity. Legacy; superseded by FLUX.2 [max] for new projects.",
+        "tagline": "Legacy FLUX.1 Kontext [max].",
+        "status": "deprecated",
+        "model_type": "image",
+        "release_date": "2025-05-29",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-kontext-max"
+        ],
+        "pricing_notes": [
+          "$0.08/image (8 credits)."
+        ]
+      },
+      {
+        "id": "flux-kontext-pro",
+        "name": "FLUX.1 Kontext [pro]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-kontext",
+        "description": "Context-aware image editing and text-to-image. Legacy FLUX.1 line; BFL recommends FLUX.2 [pro] for new projects.",
+        "tagline": "Legacy FLUX.1 Kontext [pro].",
+        "status": "deprecated",
+        "model_type": "image",
+        "release_date": "2025-05-29",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-kontext-pro"
+        ],
+        "pricing_notes": [
+          "$0.04/image (4 credits)."
+        ]
+      },
+      {
+        "id": "flux-pro-1.0-expand",
+        "name": "FLUX.1 Expand [pro]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-1-tools",
+        "description": "Expands an image by adding pixels on any side while maintaining context.",
+        "tagline": "Outpainting by side for FLUX.1.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2024-11-01",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-pro-1.0-expand"
+        ],
+        "pricing_notes": [
+          "Per BFL pricing page; megapixel-scaled."
+        ]
+      },
+      {
+        "id": "flux-pro-1.0-fill-finetuned",
+        "name": "FLUX.1 Fill [pro] Finetuned",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-1-tools",
+        "description": "Inference endpoint for user-finetuned FLUX.1 Fill [pro] models with input image and mask.",
+        "tagline": "Inference for finetuned FLUX.1 Fill [pro].",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-pro-1.0-fill-finetuned"
+        ],
+        "pricing_notes": [
+          "$0.05/image (5 credits)."
+        ]
+      },
+      {
+        "id": "flux-pro-1.0-fill",
+        "name": "FLUX.1 Fill [pro]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-1-tools",
+        "description": "Text-driven inpainting and outpainting using an input image and mask.",
+        "tagline": "Inpainting and outpainting for FLUX.1.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2024-11-01",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-pro-1.0-fill"
+        ],
+        "pricing_notes": [
+          "$0.05/image (5 credits)."
+        ]
+      },
+      {
+        "id": "flux-pro-1.1-ultra-finetuned",
+        "name": "FLUX 1.1 [pro] Ultra Finetuned",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-1.1",
+        "description": "Inference endpoint for user-finetuned FLUX 1.1 [pro] Ultra models created via the BFL finetune API.",
+        "tagline": "Inference for finetuned FLUX 1.1 [pro] Ultra.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-pro-1.1-ultra-finetuned"
+        ],
+        "pricing_notes": [
+          "$0.06/image (6 credits)."
+        ]
+      },
+      {
+        "id": "flux-pro-1.1-ultra",
+        "name": "FLUX 1.1 [pro] Ultra",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-1.1",
+        "description": "FLUX 1.1 [pro] with up to 4MP resolution and optional Raw mode for photographic authenticity. Supports image-to-image.",
+        "tagline": "FLUX 1.1 [pro] up to 4MP with raw mode.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2024-11-06",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-pro-1.1-ultra"
+        ],
+        "pricing_notes": [
+          "$0.06/image (6 credits) for ultra and raw modes."
+        ]
+      },
+      {
+        "id": "flux-pro-1.1",
+        "name": "FLUX 1.1 [pro]",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-1.1",
+        "description": "Fast and reliable text-to-image baseline with strong prompt adherence. Sometimes called FLUX1.1 [pro].",
+        "tagline": "Fast and reliable FLUX 1.1 baseline.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2024-10-02",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "/v1/flux-pro-1.1"
+        ],
+        "pricing_notes": [
+          "$0.04/image (4 credits)."
+        ]
       }
     ]
   },
@@ -22553,6 +23172,7 @@ export const providers: ProviderWithModels[] = [
         "description": "A lightweight model that thinks before responding.",
         "tagline": "A lightweight model that thinks before responding.",
         "context_window": 131072,
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
@@ -22560,7 +23180,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
-          "json_mode": true
+          "json_mode": true,
+          "batch": true
         }
       },
       {
@@ -22586,13 +23207,15 @@ export const providers: ProviderWithModels[] = [
         "description": "Grok 3 is the latest model from xAI.",
         "tagline": "Grok 3 is the latest model from xAI.",
         "context_window": 131072,
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "batch": true
         }
       },
       {
@@ -22615,11 +23238,18 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "context_window": 256000,
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "batch": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "json_mode": true
         }
       },
       {
@@ -22751,11 +23381,17 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "context_window": 2000000,
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "batch": true,
+          "structured_output": true,
+          "vision": true,
+          "json_mode": true
         }
       },
       {
@@ -22799,11 +23435,18 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "context_window": 2000000,
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false,
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "batch": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "json_mode": true
         }
       },
       {
@@ -23151,7 +23794,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
-          "json_mode": true
+          "json_mode": true,
+          "batch": true
         }
       },
       {
@@ -51696,7 +52340,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude 4.6 Opus",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-26",
         "family": "claude-opus",
         "capabilities": {
           "streaming": true,
@@ -51729,7 +52373,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "page_url": "https://cursor.com/docs/models-and-pricing#claude-opus-4-6",
         "pricing_notes": [
-          "Requires Max Mode on request-based plans; Up to 1M tokens in Max Mode at the same per-token rates (no long-context surcharge)"
+          "Hidden by default; Requires Max Mode on request-based plans; Up to 1M tokens in Max Mode at the same per-token rates (no long-context surcharge)"
         ]
       },
       {
@@ -51772,6 +52416,47 @@ export const providers: ProviderWithModels[] = [
         "pricing_notes": [
           "Requires Max Mode on request-based plans; The cost is 2x when the input exceeds 200k tokens"
         ]
+      },
+      {
+        "id": "claude-4.7-opus",
+        "name": "Claude 4.7 Opus",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 5,
+        "speed": 3,
+        "page_url": "https://cursor.com/docs/models-and-pricing#claude-opus-4-7",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cache_write": 6.25,
+          "cached_input": 0.5
+        },
+        "pricing_notes": [
+          "Requires Max Mode on request-based plans; Up to 1M tokens in Max Mode at the same per-token rates (no long-context surcharge)"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-26"
       },
       {
         "id": "composer-1.5",
@@ -52631,7 +53316,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.4",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-26",
         "family": "gpt-5.4",
         "capabilities": {
           "streaming": true,
@@ -52667,12 +53352,62 @@ export const providers: ProviderWithModels[] = [
         ],
         "page_url": "https://cursor.com/docs/models-and-pricing#gpt-5-4",
         "pricing_notes": [
-          "Requires Max Mode on request-based plans; Agentic and reasoning capabilities; 90% discount on cached input tokens; Fast mode is 15% faster with 2x pricing; Long context (Max Mode) supports up to 1M tokens with 2x input pricing"
+          "Hidden by default; Requires Max Mode on request-based plans; Agentic and reasoning capabilities; 90% discount on cached input tokens; Fast mode is 15% faster with 2x pricing; Long context (Max Mode) supports up to 1M tokens with 2x input pricing"
         ],
         "description": "GPT-5.4 is our frontier model for complex professional work.",
         "tagline": "A more affordable model for coding and professional work.",
         "max_output_tokens": 128000,
         "knowledge_cutoff": "2025-08",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "gpt-5.5",
+        "name": "GPT-5.5",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.5",
+        "context_window": 272000,
+        "max_context_window": 1000000,
+        "performance": 5,
+        "speed": 3,
+        "page_url": "https://cursor.com/docs/models-and-pricing#gpt-5-5",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cached_input": 0.5
+        },
+        "pricing_notes": [
+          "Requires Max Mode on request-based plans; Agentic and reasoning capabilities; More token-efficient than GPT-5.4 on comparable tasks; Improved persistence on long-running tasks; Fast mode is available at higher rates; Long context (Max Mode) supports up to 1M tokens with 2x input pricing"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-26",
+        "description": "GPT-5.5 is our newest frontier model for the most complex professional work.",
+        "tagline": "A new class of intelligence for coding and professional work.",
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-12",
         "license": "proprietary",
         "open_weight": false
       },
@@ -52808,6 +53543,6632 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 32768,
         "license": "mit",
         "open_weight": true
+      }
+    ]
+  },
+  {
+    "id": "deepinfra",
+    "name": "DeepInfra",
+    "region": "US",
+    "headquarters": "Palo Alto, CA",
+    "founded": 2022,
+    "url": "https://deepinfra.com",
+    "api_url": "https://api.deepinfra.com/v1/openai",
+    "docs_url": "https://deepinfra.com/docs",
+    "pricing_url": "https://deepinfra.com/pricing",
+    "description": "Serverless inference cloud for open-weight LLMs, image, video, TTS, transcription, embedding, and reranker models with an OpenAI-compatible API.",
+    "type": "cloud",
+    "playground_url": "https://deepinfra.com/chat",
+    "status_url": "https://status.deepinfra.com",
+    "openai_compatible": true,
+    "free_tier": false,
+    "github_url": "https://github.com/deepinfra",
+    "models_url": "https://deepinfra.com/models",
+    "twitter_url": "https://x.com/DeepInfra",
+    "discord_url": "https://discord.gg/deepinfra",
+    "blog_url": "https://deepinfra.com/blog",
+    "terms_url": "https://deepinfra.com/terms",
+    "support_url": "https://deepinfra.com/contact",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n  <path d=\"M2 4h6.5c3.6 0 6 2.95 6 6.5v3c0 3.55-2.4 6.5-6 6.5H2V4zm3 3v10h3.4c1.95 0 3.1-1.65 3.1-3.5v-3c0-1.85-1.15-3.5-3.1-3.5H5z\"/>\n  <path d=\"M16.5 4h3v16h-3z\"/>\n</svg>",
+    "models": [
+      {
+        "id": "allenai/Olmo-3.1-32B-Instruct",
+        "name": "Olmo-3.1-32B-Instruct",
+        "created_by": "allenai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "allenai",
+        "description": "Olmo is a series of Open language models, developed by Allen Institute for AI (Ai2), designed to enable the science of language models.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 65536,
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 0.6
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tagline": "Olmo is a series of Open language models, developed by Allen Institute for AI (Ai2), designed to enable the science of language models."
+      },
+      {
+        "id": "allenai/olmOCR-2-7B-1025",
+        "name": "olmOCR-2-7B-1025",
+        "created_by": "allenai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "allenai",
+        "description": "olmOCR is a specialized AI tool that converts PDF documents into clean, structured text while preserving important formatting and layout information. What makes olmOCR particularly valuable for developers is its ability to handle challenging PDFs that traditional OCR tools struggle with—including complex layouts, poor-quality scans, handwritten text, and documents with mixed content types. Built on a fine-tuned 7B vision-language model, olmOCR provides enterprise-grade PDF processing at a fra...",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 16384,
+        "open_weight": true,
+        "capabilities": {
+          "structured_output": true,
+          "json_mode": true,
+          "vision": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.09,
+          "output": 0.19
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "olmOCR is a specialized AI tool that converts PDF documents into clean, structured text while preserving important formatting and layout information."
+      },
+      {
+        "id": "anthropic/claude-3-7-sonnet-latest",
+        "name": "claude-3-7-sonnet-latest",
+        "created_by": "anthropic",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "claude-sonnet",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 200000,
+        "open_weight": false,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "vision": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 3.3,
+          "output": 16.5,
+          "cached_input": 0.33
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ]
+      },
+      {
+        "id": "anthropic/claude-4-opus",
+        "name": "claude-4-opus",
+        "created_by": "anthropic",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "claude-opus",
+        "description": "Anthropic’s most powerful model yet and the state-of-the-art coding model. It delivers sustained performance on long-running tasks that require focused effort and thousands of steps, significantly expanding what AI agents can solve. Claude Opus 4 is ideal for powering frontier agent products and features.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 200000,
+        "open_weight": false,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "vision": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 16.5,
+          "output": 82.5
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tagline": "Anthropic’s most powerful model yet and the state-of-the-art coding model."
+      },
+      {
+        "id": "anthropic/claude-4-sonnet",
+        "name": "claude-4-sonnet",
+        "created_by": "anthropic",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "claude-sonnet",
+        "description": "Anthropic's mid-size model with superior intelligence for high-volume uses in coding, in-depth research, agents, & more.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 200000,
+        "open_weight": false,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "vision": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 3.3,
+          "output": 16.5
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tagline": "Anthropic's mid-size model with superior intelligence for high-volume uses in coding, in-depth research, agents, & more."
+      },
+      {
+        "id": "BAAI/bge-base-en-v1.5",
+        "name": "bge-base-en-v1.5",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bge",
+        "description": "BGE embedding is a general Embedding Model. It is pre-trained using retromae and trained on large-scale pair data using contrastive learning. Note that the goal of pre-training is to reconstruct the text, and the pre-trained model cannot be used for similarity calculation directly, it needs to be fine-tuned",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "mit",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "BGE embedding is a general Embedding Model."
+      },
+      {
+        "id": "BAAI/bge-en-icl",
+        "name": "bge-en-icl",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bge",
+        "description": "A LLM-based embedding model with in-context learning capabilities that achieves SOTA performance on BEIR and AIR-Bench. It leverages few-shot examples to enhance task performance.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "mit",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "A LLM-based embedding model with in-context learning capabilities that achieves SOTA performance on BEIR and AIR-Bench."
+      },
+      {
+        "id": "BAAI/bge-large-en-v1.5",
+        "name": "bge-large-en-v1.5",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bge",
+        "description": "BGE embedding is a general Embedding Model. It is pre-trained using retromae and trained on large-scale pair data using contrastive learning. Note that the goal of pre-training is to reconstruct the text, and the pre-trained model cannot be used for similarity calculation directly, it needs to be fine-tuned",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "mit",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "BGE embedding is a general Embedding Model."
+      },
+      {
+        "id": "BAAI/bge-m3-multi",
+        "name": "bge-m3-multi",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bge",
+        "description": "BGE-M3 is a multilingual text embedding model developed by BAAI, distinguished by its Multi-Linguality (supporting 100+ languages), Multi-Functionality (unified dense, multi-vector, and sparse retrieval), and Multi-Granularity (handling inputs from short queries to 8192-token documents). It achieves state-of-the-art retrieval performance across diverse benchmarks while maintaining a single model for multiple retrieval modes.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "mit",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "BGE-M3 is a multilingual text embedding model developed by BAAI, distinguished by its Multi-Linguality (supporting 100+ languages), Multi-Functionality (unified dense, multi-vector, and sparse retrieval), and Multi-Granularity (handling inputs from short queries to 8192-token documents)."
+      },
+      {
+        "id": "BAAI/bge-m3",
+        "name": "bge-m3",
+        "created_by": "baai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bge",
+        "description": "BGE-M3 is a versatile text embedding model that supports multi-functionality, multi-linguality, and multi-granularity, allowing it to perform dense retrieval, multi-vector retrieval, and sparse retrieval in over 100 languages and with input sizes up to 8192 tokens. The model can be used in a retrieval pipeline with hybrid retrieval and re-ranking to achieve higher accuracy and stronger generalization capabilities. BGE-M3 has shown state-of-the-art performance on several benchmarks, including ...",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "mit",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "quantization": "fp32",
+        "tagline": "BGE-M3 is a versatile text embedding model that supports multi-functionality, multi-linguality, and multi-granularity, allowing it to perform dense retrieval, multi-vector retrieval, and sparse retrieval in over 100 languages and with input sizes up to 8192 tokens."
+      },
+      {
+        "id": "black-forest-labs/FLUX-1-dev",
+        "name": "FLUX-1-dev",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux",
+        "description": "FLUX.1-dev is a state-of-the-art 12 billion parameter rectified flow transformer developed by Black Forest Labs. This model excels in text-to-image generation, providing highly accurate and detailed outputs. It is particularly well-regarded for its ability to follow complex prompts and generate anatomically accurate images, especially with challenging details like hands and faces.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": true,
+        "license": "flux",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0090 per image unit (1024x1024 default)"
+        ],
+        "tagline": "FLUX.1-dev is a state-of-the-art 12 billion parameter rectified flow transformer developed by Black Forest Labs."
+      },
+      {
+        "id": "black-forest-labs/FLUX-1-Redux-dev",
+        "name": "FLUX-1-Redux-dev",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux",
+        "description": "FLUX.1 Redux [dev] is an image variation generation adapter for all FLUX.1 base models. It enables users to refine images with slight variations and supports text-based restyling via API. Integrated with FLUX1.1 [pro] Ultra, it allows for high-quality 4-megapixel outputs. The model can be used with Diffusers in Python for efficient image generation. While powerful, it has ethical and factual limitations and is governed by a non-commercial license.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": true,
+        "license": "flux",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0120 per image unit (1024x1024 default)"
+        ],
+        "tagline": "FLUX.1 Redux [dev] is an image variation generation adapter for all FLUX.1 base models."
+      },
+      {
+        "id": "black-forest-labs/FLUX-1-schnell",
+        "name": "FLUX-1-schnell",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux",
+        "description": "FLUX.1 [schnell] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions. This model offers cutting-edge output quality and competitive prompt following, matching the performance of closed source alternatives. Trained using latent adversarial diffusion distillation, FLUX.1 [schnell] can generate high-quality images in only 1 to 4 steps.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": true,
+        "license": "flux",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0005 per image unit (1024x1024 default)"
+        ],
+        "tagline": "FLUX.1 [schnell] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions."
+      },
+      {
+        "id": "black-forest-labs/FLUX-1.1-pro",
+        "name": "FLUX-1.1-pro",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux",
+        "description": "Black Forest Labs' latest state-of-the art proprietary model sporting top of the line prompt following, visual quality, details and output diversity.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "license": "flux",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0400 per image unit (0x0 default)"
+        ],
+        "tagline": "Black Forest Labs' latest state-of-the art proprietary model sporting top of the line prompt following, visual quality, details and output diversity."
+      },
+      {
+        "id": "black-forest-labs/FLUX-2-dev",
+        "name": "FLUX-2-dev",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-2",
+        "description": "Brand-new Flux2 Dev introduces a faster, more modular architecture for next-generation image generation pipelines. It delivers improved performance, cleaner control APIs, and a significantly more flexible development workflow for custom inference setups.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": true,
+        "license": "flux",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0100 per image unit (1024x1024 default)"
+        ],
+        "tagline": "Brand-new Flux2 Dev introduces a faster, more modular architecture for next-generation image generation pipelines."
+      },
+      {
+        "id": "black-forest-labs/FLUX-2-klein-4b",
+        "name": "FLUX-2-klein-4b",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-2",
+        "description": "The fastest model of the Flux 2 family. Frontier visual intelligence — state-of-the-art image generation and editing from Black Forest Labs",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": true,
+        "license": "flux",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0140 per image unit (1024x1024 default)"
+        ],
+        "tagline": "The fastest model of the Flux 2 family."
+      },
+      {
+        "id": "black-forest-labs/FLUX-2-klein-9b",
+        "name": "FLUX-2-klein-9b",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-2",
+        "description": "The best quality-to-latency ratio, production apps model of the Flux 2 family. Frontier visual intelligence — state-of-the-art image generation and editing from Black Forest Labs",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": true,
+        "license": "flux",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0150 per image unit (1024x1024 default)"
+        ],
+        "tagline": "The best quality-to-latency ratio, production apps model of the Flux 2 family."
+      },
+      {
+        "id": "black-forest-labs/FLUX-2-max",
+        "name": "FLUX-2-max",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-2",
+        "description": "The new top-tier image model from Black Forest Labs, significantly pushing image quality and editing consistency",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "license": "flux",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.1000 per image unit (0x0 default)"
+        ],
+        "tagline": "The new top-tier image model from Black Forest Labs, significantly pushing image quality and editing consistency"
+      },
+      {
+        "id": "black-forest-labs/FLUX-2-pro",
+        "name": "FLUX-2-pro",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux-2",
+        "description": "Multi-reference visual intelligence with unprecedented detail, color precision, and spatial reasoning. The most advanced image generation and editing model. Generate photorealistic images with precise control.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "license": "flux",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0150 per image unit (0x0 default)"
+        ],
+        "tagline": "Multi-reference visual intelligence with unprecedented detail, color precision, and spatial reasoning."
+      },
+      {
+        "id": "black-forest-labs/FLUX-pro",
+        "name": "FLUX-pro",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux",
+        "description": "Black Forest Labs' first flagship model based on Flux latent rectified flow transformers",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "license": "flux",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0500 per image unit (0x0 default)"
+        ],
+        "tagline": "Black Forest Labs' first flagship model based on Flux latent rectified flow transformers"
+      },
+      {
+        "id": "black-forest-labs/FLUX.1-Kontext-dev",
+        "name": "FLUX.1-Kontext-dev",
+        "created_by": "black-forest-labs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux",
+        "description": "FLUX.1 Kontext [dev] is a 12-billion-parameter image editing model that transforms visuals based on natural language instructions. It allows highly consistent, multi-step edits and is released with open weights under a non-commercial license to empower artists and researchers.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": true,
+        "license": "flux",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0100 per image unit (1024x1024 default)"
+        ],
+        "tagline": "FLUX.1 Kontext [dev] is a 12-billion-parameter image editing model that transforms visuals based on natural language instructions."
+      },
+      {
+        "id": "bosonai/HiggsAudioV2.5",
+        "name": "HiggsAudioV2.5",
+        "created_by": "bosonai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bosonai",
+        "description": "HiggsAudioV2.5 is a high-quality neural text-to-speech (TTS) model designed for natural-sounding voice generation across a wide range of use cases. It focuses on clarity, stable prosody, and consistent pacing, making it suitable for both short prompts and longer narration.",
+        "status": "active",
+        "model_type": "tts",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "$20.0000 per 1M input characters"
+        ],
+        "tagline": "HiggsAudioV2.5 is a high-quality neural text-to-speech (TTS) model designed for natural-sounding voice generation across a wide range of use cases."
+      },
+      {
+        "id": "Bria/blur_background",
+        "name": "blur_background",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Bria Blur Background softens and de-emphasizes image backgrounds while keeping the subject sharp and clear for professional-quality results. Trained fully on licensed data, it delivers safe, natural, and commercial-ready outputs.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0400 per image unit (0x0 default)"
+        ],
+        "tagline": "Bria Blur Background softens and de-emphasizes image backgrounds while keeping the subject sharp and clear for professional-quality results."
+      },
+      {
+        "id": "Bria/Bria-3.2-vector",
+        "name": "Bria-3.2-vector",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Bria 3.2 is the next-generation commercial-ready text-to-image model. With just 4 billion parameters, it provides exceptional aesthetics and text rendering, evaluated to be on par to leading open-source models, and outperforming other licensed models.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0400 per image unit (0x0 default)"
+        ],
+        "tagline": "Bria 3.2 is the next-generation commercial-ready text-to-image model."
+      },
+      {
+        "id": "Bria/Bria-3.2",
+        "name": "Bria-3.2",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Bria 3.2 is the next-generation commercial-ready text-to-image model. With just 4 billion parameters, it provides exceptional aesthetics and text rendering, evaluated to be on par to leading open-source models, and outperforming other licensed models.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0400 per image unit (0x0 default)"
+        ],
+        "tagline": "Bria 3.2 is the next-generation commercial-ready text-to-image model."
+      },
+      {
+        "id": "Bria/enhance",
+        "name": "enhance",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Bria Enhance improves overall image quality by sharpening details, balancing colors, and boosting clarity for crisp, professional visuals. Trained only on licensed data, it’s safe, reliable, and ready for commercial use.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0400 per image unit (0x0 default)"
+        ],
+        "tagline": "Bria Enhance improves overall image quality by sharpening details, balancing colors, and boosting clarity for crisp, professional visuals."
+      },
+      {
+        "id": "Bria/erase",
+        "name": "erase",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Bria Eraser enables precise removal of unwanted objects from images while maintaining high-quality outputs. Trained exclusively on licensed data for safe and risk-free commercial use",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0400 per image unit (0x0 default)"
+        ],
+        "tagline": "Bria Eraser enables precise removal of unwanted objects from images while maintaining high-quality outputs."
+      },
+      {
+        "id": "Bria/erase_foreground",
+        "name": "erase_foreground",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Bria Erase Foreground precisely removes main subjects or foreground objects from images. Built entirely on licensed data, it is safe and optimized for professional and commercial use.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0400 per image unit (0x0 default)"
+        ],
+        "tagline": "Bria Erase Foreground precisely removes main subjects or foreground objects from images."
+      },
+      {
+        "id": "Bria/expand",
+        "name": "expand",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Bria Expand expands images beyond their borders in high quality. Resizing the image by generating new pixels to expand to the desired aspect ratio. Trained exclusively on licensed data for safe and risk-free commercial use.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0400 per image unit (0x0 default)"
+        ],
+        "tagline": "Bria Expand expands images beyond their borders in high quality."
+      },
+      {
+        "id": "Bria/fibo",
+        "name": "fibo",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "FIBO is an open-source, JSON-native text-to-image model trained on detailed structured descriptions (over 1,000+ words per image), providing fine-grained control over light, composition, and camera parameters.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0400 per image unit (0x0 default)"
+        ],
+        "tagline": "FIBO is an open-source, JSON-native text-to-image model trained on detailed structured descriptions (over 1,000+ words per image), providing fine-grained control over light, composition, and camera pa"
+      },
+      {
+        "id": "Bria/fibo_edit",
+        "name": "fibo_edit",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "🥳 For a limited time, Fibo Edit is free on DeepInfra 🥳 YOUR AI, YOUR RULES. Visual Generation for Production-Grade. FIBO Edit. An open-source image editing model with native masking and a lightweight 8B architecture.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0400 per image unit (0x0 default)"
+        ],
+        "tagline": "🥳 For a limited time, Fibo Edit is free on DeepInfra 🥳 YOUR AI, YOUR RULES."
+      },
+      {
+        "id": "Bria/gen_fill",
+        "name": "gen_fill",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Bria GenFill enables high-quality object addition or visual transformation. Trained exclusively on licensed data for safe and risk-free commercial use.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0400 per image unit (0x0 default)"
+        ],
+        "tagline": "Bria GenFill enables high-quality object addition or visual transformation."
+      },
+      {
+        "id": "Bria/remove_background",
+        "name": "remove_background",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Bria RMBG 2.0 enables seamless removal of backgrounds from images, ideal for professional editing tasks. Trained exclusively on licensed data for safe and risk-free commercial use.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0180 per image unit (0x0 default)"
+        ],
+        "tagline": "Bria RMBG 2.0 enables seamless removal of backgrounds from images, ideal for professional editing tasks."
+      },
+      {
+        "id": "Bria/replace_background",
+        "name": "replace_background",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Bria Background Generation allows for efficient swapping of backgrounds in images via text prompts or reference image, delivering realistic and polished results. Trained exclusively on licensed data for safe and risk-free commercial use.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0400 per image unit (0x0 default)"
+        ],
+        "tagline": "Bria Background Generation allows for efficient swapping of backgrounds in images via text prompts or reference image, delivering realistic and polished results."
+      },
+      {
+        "id": "Bria/video_eraser",
+        "name": "video_eraser",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Remove unwanted objects or regions from video using a mask, reconstructs the background with intelligent content-aware fill.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "tagline": "Remove unwanted objects or regions from video using a mask, reconstructs the background with intelligent content-aware fill."
+      },
+      {
+        "id": "Bria/video_foreground_mask",
+        "name": "video_foreground_mask",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Automatically identify and segment foreground objects across video frames and generate a mask. No prompts, just a video.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "tagline": "Automatically identify and segment foreground objects across video frames and generate a mask."
+      },
+      {
+        "id": "Bria/video_increase_resolution",
+        "name": "video_increase_resolution",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Increase video resolution up to 8K with advanced AI upscaling. Bring your videos to the big screen, ready for the screens of tomorrow.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "tagline": "Increase video resolution up to 8K with advanced AI upscaling."
+      },
+      {
+        "id": "Bria/video_mask_by_key_points",
+        "name": "video_mask_by_key_points",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Identify and segment objects across video frames using specific coordinate points. Just point in the right direction and the model will figure out by itself which object should be masked.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "tagline": "Identify and segment objects across video frames using specific coordinate points."
+      },
+      {
+        "id": "Bria/video_mask_by_prompt",
+        "name": "video_mask_by_prompt",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Identify and segment objects across video frames using a text prompt. The easiest way to create a mask to modify your videos.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "tagline": "Identify and segment objects across video frames using a text prompt."
+      },
+      {
+        "id": "Bria/video_remove_background",
+        "name": "video_remove_background",
+        "created_by": "bria",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bria",
+        "description": "Light and fast. Remove the background of your videos to bring the foreground elements to focus. No more unwanted distractions.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "tagline": "Light and fast."
+      },
+      {
+        "id": "ByteDance/Seed-1.8",
+        "name": "Seed-1.8",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bytedance",
+        "description": "Optimized specifically for multimodal agent scenarios. It features enhanced agent capabilities, upgraded multimodal comprehension, and more flexible context management.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 256000,
+        "reasoning_tokens": true,
+        "open_weight": false,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 2,
+          "cached_input": 0.05
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tagline": "Optimized specifically for multimodal agent scenarios."
+      },
+      {
+        "id": "ByteDance/Seed-2.0-mini",
+        "name": "Seed-2.0-mini",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "seed",
+        "description": "Built for low-latency, high-concurrency, cost-sensitive use cases, with flexible deployment, four-tier thinking, and multimodal",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 256000,
+        "reasoning_tokens": true,
+        "open_weight": false,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.4,
+          "cached_input": 0.02
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tagline": "Built for low-latency, high-concurrency, cost-sensitive use cases, with flexible deployment, four-tier thinking, and multimodal"
+      },
+      {
+        "id": "ByteDance/Seed-2.0-pro",
+        "name": "Seed-2.0-pro",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "seed",
+        "description": "Built for the Agent era, it delivers stable performance in complex reasoning and long-horizon tasks, including multi-step planning, visual-text reasoning, video understanding, and advanced analysis.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 256000,
+        "reasoning_tokens": true,
+        "open_weight": false,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 3,
+          "cached_input": 0.1
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tagline": "Built for the Agent era, it delivers stable performance in complex reasoning and long-horizon tasks, including multi-step planning, visual-text reasoning, video understanding, and advanced analysis."
+      },
+      {
+        "id": "ByteDance/Seedance-1.5-Pro",
+        "name": "Seedance-1.5-Pro",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bytedance",
+        "description": "ByteDance's Seedance 1.5 Pro is a professional video model using V2A native generation for integrated, synced audio-visual output, enhancing efficiency of professional video creation.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "license": "apache-2.0",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "tagline": "ByteDance's Seedance 1.5 Pro is a professional video model using V2A native generation for integrated, synced audio-visual output, enhancing efficiency of professional video creation."
+      },
+      {
+        "id": "ByteDance/Seedream-4.5",
+        "name": "Seedream-4.5",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bytedance",
+        "description": "The latest image model, delivering better editing consistency, improved multi-image fusion, finer detail control, natural small text and faces, and harmonious, aesthetic visuals.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0400 per image unit (0x0 default)"
+        ],
+        "tagline": "The latest image model, delivering better editing consistency, improved multi-image fusion, finer detail control, natural small text and faces, and harmonious, aesthetic visuals."
+      },
+      {
+        "id": "ByteDance/Seedream-4",
+        "name": "Seedream-4",
+        "created_by": "bytedance",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "bytedance",
+        "description": "Seedream 4.0 is a SOTA multimodal image creation model built on leading architecture. It breaks through the boundaries of traditional text-to-image models by natively supporting text, single-image, and multi-image inputs. Users can freely combine text and images to achieve diverse creative modes within a single model—such as multi-image blending, image editing, and sequentially batch image generation, featuring subject consistency, making image creation more free and controllable.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0400 per image unit (0x0 default)"
+        ],
+        "tagline": "Seedream 4.0 is a SOTA multimodal image creation model built on leading architecture."
+      },
+      {
+        "id": "canopylabs/orpheus-3b-0.1-ft",
+        "name": "orpheus-3b-0.1-ft",
+        "created_by": "canopylabs",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "canopylabs",
+        "description": "Orpheus TTS is a state-of-the-art, Llama-based Speech-LLM designed for high-quality, empathetic text-to-speech generation. This model has been finetuned to deliver human-level speech synthesis, achieving exceptional clarity, expressiveness, and real-time streaming performances.",
+        "status": "active",
+        "model_type": "tts",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "$7.0000 per 1M input characters"
+        ],
+        "tagline": "Orpheus TTS is a state-of-the-art, Llama-based Speech-LLM designed for high-quality, empathetic text-to-speech generation."
+      },
+      {
+        "id": "ClarityAI/creative",
+        "name": "creative",
+        "created_by": "clarityai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "clarityai",
+        "description": "ClarityAI/creative is an AI-powered image upscaler that enhances details, adds realism, and creatively modifies images to improve their quality and visual appeal.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0500 per image unit (0x0 default)"
+        ],
+        "tagline": "ClarityAI/creative is an AI-powered image upscaler that enhances details, adds realism, and creatively modifies images to improve their quality and visual appeal."
+      },
+      {
+        "id": "ClarityAI/crystal",
+        "name": "crystal",
+        "created_by": "clarityai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "clarityai",
+        "description": "ClarityAI/crystal is a specialized upscaler optimized for portraits, faces, and products, delivering high-precision enhancements with adjustable detail levels for sharp, natural results.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0500 per image unit (0x0 default)"
+        ],
+        "tagline": "ClarityAI/crystal is a specialized upscaler optimized for portraits, faces, and products, delivering high-precision enhancements with adjustable detail levels for sharp, natural results."
+      },
+      {
+        "id": "ClarityAI/flux",
+        "name": "flux",
+        "created_by": "clarityai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "flux",
+        "description": "ClarityAI/flux integrates the Flux AI model into the upscaling process, enabling high-resolution enhancements with superior face preservation and support for LoRAs to apply specific styles or identities.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.2000 per image unit (0x0 default)"
+        ],
+        "tagline": "ClarityAI/flux integrates the Flux AI model into the upscaling process, enabling high-resolution enhancements with superior face preservation and support for LoRAs to apply specific styles or identiti"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-R1-0528-Turbo",
+        "name": "DeepSeek-R1-0528-Turbo",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-r1",
+        "description": "The DeepSeek R1 0528 turbo model is a state of the art reasoning model that can generate very quick responses",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 32768,
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "tool_call": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1,
+          "output": 3
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "The DeepSeek R1 0528 turbo model is a state of the art reasoning model that can generate very quick responses"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-R1-0528",
+        "name": "DeepSeek-R1-0528",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-r1",
+        "description": "The DeepSeek R1 model has undergone a minor version upgrade, with the current version being DeepSeek-R1-0528.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 163840,
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 2.15,
+          "cached_input": 0.35
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "The DeepSeek R1 model has undergone a minor version upgrade, with the current version being DeepSeek-R1-0528."
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+        "name": "DeepSeek-R1-Distill-Llama-70B",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "llama",
+        "description": "DeepSeek-R1-Distill-Llama-70B is a highly efficient language model that leverages knowledge distillation to achieve state-of-the-art performance. This model distills the reasoning patterns of larger models into a smaller, more agile architecture, resulting in exceptional results on benchmarks like AIME 2024, MATH-500, and LiveCodeBench. With 70 billion parameters, DeepSeek-R1-Distill-Llama-70B offers a unique balance of accuracy and efficiency, making it an ideal choice for a wide range of na...",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.7,
+          "output": 0.8
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "DeepSeek-R1-Distill-Llama-70B is a highly efficient language model that leverages knowledge distillation to achieve state-of-the-art performance."
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V3-0324",
+        "name": "DeepSeek-V3-0324",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-v3",
+        "description": "DeepSeek-V3-0324, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token, an improved iteration over DeepSeek-V3.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 163840,
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 0.77,
+          "cached_input": 0.135
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "DeepSeek-V3-0324, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token, an improved iteration over DeepSeek-V3."
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+        "name": "DeepSeek-V3.1-Terminus",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-v3",
+        "description": "DeepSeek-V3.1 Terminus is an update to DeepSeek V3.1 that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent capabilities, further optimizing the model's performance in coding and search agents. It is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes. It extends the DeepSeek-V3 base with a two-phase long-context training process. Users can control the reas...",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 163840,
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.21,
+          "output": 0.79,
+          "cached_input": 0.13
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "DeepSeek-V3.1 Terminus is an update to DeepSeek V3.1 that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent capabilities, further optimizing the model's performance in coding and search agents."
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V3.1",
+        "name": "DeepSeek-V3.1",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-v3",
+        "description": "DeepSeek-V3.1 is post-trained on the top of DeepSeek-V3.1-Base, which is built upon the original V3 base checkpoint through a two-phase long context extension approach, following the methodology outlined in the original DeepSeek-V3 report. We have expanded our dataset by collecting additional long documents and substantially extending both training phases. The 32K extension phase has been increased 10-fold to 630B tokens, while the 128K extension phase has been extended by 3.3x to 209B tokens...",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 163840,
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.21,
+          "output": 0.79,
+          "cached_input": 0.13
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "DeepSeek-V3.1 is post-trained on the top of DeepSeek-V3.1-Base, which is built upon the original V3 base checkpoint through a two-phase long context extension approach, following the methodology outlined in the original DeepSeek-V3 report."
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V3.2",
+        "name": "DeepSeek-V3.2",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-v3",
+        "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism that reduces training and inference cost while preserving quality in long-context scenarios. A scalable reinforcement learning post-training framework further improves reasoning, with reported performance in the GPT-5 class, and the model has demonstrated gold...",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 163840,
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.26,
+          "output": 0.38,
+          "cached_input": 0.13
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance."
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V3",
+        "name": "DeepSeek-V3",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-v3",
+        "description": "DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. To achieve efficient inference and cost-effective training, DeepSeek-V3 adopts Multi-head Latent Attention (MLA) and DeepSeekMoE architectures, which were thoroughly validated in DeepSeek-V2.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 163840,
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.32,
+          "output": 0.89
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token."
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Flash",
+        "name": "DeepSeek-V4-Flash",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-v4",
+        "description": "DeepSeek V4 Flash is an efficiency-focused MoE model with 284B total parameters (13B active) and a 1M-token context window. It's tuned for fast inference and high-throughput use cases while still holding up on reasoning and coding tasks.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 1048576,
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.28,
+          "cached_input": 0.028
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "DeepSeek V4 Flash is an efficiency-focused MoE model with 284B total parameters (13B active) and a 1M-token context window."
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Pro",
+        "name": "DeepSeek-V4-Pro",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-v4",
+        "description": "DeepSeek V4 Pro is an MoE model with 1.6T total parameters (49B active) and a 1M-token context window. It's built for advanced reasoning, coding, and long-running agent tasks, and performs well on knowledge, math, and software engineering benchmarks.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 65536,
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.74,
+          "output": 3.48,
+          "cached_input": 0.145
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "DeepSeek V4 Pro is an MoE model with 1.6T total parameters (49B active) and a 1M-token context window."
+      },
+      {
+        "id": "deepseek-ai/Janus-Pro-1B",
+        "name": "Janus-Pro-1B",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-ai",
+        "description": "Janus-Pro is a novel autoregressive framework that unifies multimodal understanding and generation. It addresses the limitations of previous approaches by decoupling visual encoding into separate pathways, while still utilizing a single, unified transformer architecture for processing. The decoupling not only alleviates the conflict between the visual encoder’s roles in understanding and generation, but also enhances the framework’s flexibility. Janus-Pro surpasses previous unified model and ...",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0005 per image unit (0x0 default)"
+        ],
+        "tagline": "Janus-Pro is a novel autoregressive framework that unifies multimodal understanding and generation."
+      },
+      {
+        "id": "deepseek-ai/Janus-Pro-7B",
+        "name": "Janus-Pro-7B",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-ai",
+        "description": "Janus-Pro is a novel autoregressive framework that unifies multimodal understanding and generation. It addresses the limitations of previous approaches by decoupling visual encoding into separate pathways, while still utilizing a single, unified transformer architecture for processing. The decoupling not only alleviates the conflict between the visual encoder’s roles in understanding and generation, but also enhances the framework’s flexibility. Janus-Pro surpasses previous unified model and ...",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0020 per image unit (0x0 default)"
+        ],
+        "tagline": "Janus-Pro is a novel autoregressive framework that unifies multimodal understanding and generation."
+      },
+      {
+        "id": "google/embeddinggemma-300m",
+        "name": "embeddinggemma-300m",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "embed",
+        "description": "ChatGPT said: EmbeddingGemma is a 300M parameter multilingual open embedding model from Google DeepMind, designed for efficient deployment even on low-resource devices, producing high-quality text vector representations for tasks such as search, classification, clustering, and semantic similarity.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "gemma",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "ChatGPT said: EmbeddingGemma is a 300M parameter multilingual open embedding model from Google DeepMind, designed for efficient deployment even on low-resource devices, producing high-quality text vec"
+      },
+      {
+        "id": "google/gemini-2.5-flash",
+        "name": "gemini-2.5-flash",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "gemini-2.5",
+        "description": "Gemini 2.5 Flash is Google's latest thinking model, designed to tackle increasingly complex problems. It's capable of reasoning through their thoughts before responding, resulting in enhanced performance and improved accuracy. Gemini 2.5 Flash: best for balancing reasoning and speed.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 1000000,
+        "reasoning_tokens": true,
+        "open_weight": false,
+        "license": "gemma",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 2.5
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tagline": "Gemini 2.5 Flash is Google's latest thinking model, designed to tackle increasingly complex problems.",
+        "max_output_tokens": 65536,
+        "knowledge_cutoff": "2025-01"
+      },
+      {
+        "id": "google/gemini-2.5-pro",
+        "name": "gemini-2.5-pro",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "gemini-2.5",
+        "description": "Gemini 2.5 Pro is Google's the most advanced thinking model, designed to tackle increasingly complex problems. Gemini 2.5 Pro leads common benchmarks by meaningful margins and showcases strong reasoning and code capabilities. Gemini 2.5 models are thinking models, capable of reasoning through their thoughts before responding, resulting in enhanced performance and improved accuracy. The Gemini 2.5 Pro model is now available on DeepInfra.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 1000000,
+        "reasoning_tokens": true,
+        "open_weight": false,
+        "license": "gemma",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 10
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tagline": "Gemini 2.5 Pro is Google's the most advanced thinking model, designed to tackle increasingly complex problems.",
+        "max_output_tokens": 65536,
+        "knowledge_cutoff": "2025-01"
+      },
+      {
+        "id": "google/gemma-3-12b-it",
+        "name": "gemma-3-12b-it",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "gemma-3",
+        "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3-12B is Google's latest open source model, successor to Gemma 2",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "license": "gemma",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.04,
+          "output": 0.13
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "bfloat16",
+        "tagline": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs."
+      },
+      {
+        "id": "google/gemma-3-27b-it",
+        "name": "gemma-3-27b-it",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "gemma-3",
+        "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3 27B is Google's latest open source model, successor to Gemma 2",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "license": "gemma",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.08,
+          "output": 0.16
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs."
+      },
+      {
+        "id": "google/gemma-3-4b-it",
+        "name": "gemma-3-4b-it",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "gemma-3",
+        "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3-12B is Google's latest open source model, successor to Gemma 2",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "license": "gemma",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.04,
+          "output": 0.08
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "bfloat16",
+        "tagline": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs."
+      },
+      {
+        "id": "google/gemma-4-26B-A4B-it",
+        "name": "gemma-4-26B-A4B-it",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "gemma-4",
+        "description": "Efficient, MoE variant of Gemma 4. Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input and generating text output.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "gemma",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.07,
+          "output": 0.34
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Efficient, MoE variant of Gemma 4."
+      },
+      {
+        "id": "google/gemma-4-31B-it",
+        "name": "gemma-4-31B-it",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "gemma-4",
+        "description": "Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input and generating text output.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "gemma",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.13,
+          "output": 0.38
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Gemma is a family of open models built by Google DeepMind."
+      },
+      {
+        "id": "google/veo-3.0-fast",
+        "name": "veo-3.0-fast",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "veo-3.0",
+        "description": "Veo 3 Fast is a speed-optimized version of the Veo 3 model, designed for rapid video creation. While maintaining high quality, it delivers results in a fraction of the time, making it ideal for quick iterations and dynamic content generation.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "license": "gemma",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "tagline": "Veo 3 Fast is a speed-optimized version of the Veo 3 model, designed for rapid video creation."
+      },
+      {
+        "id": "google/veo-3.0",
+        "name": "veo-3.0",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "veo-3.0",
+        "description": "Veo 3 is a state-of-the-art text-to-video model from Google that generates high-fidelity, cinematic videos with synchronized audio from a simple text prompt. It excels at creating realistic and imaginative scenes with a deep understanding of natural language and visual dynamics.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "license": "gemma",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "tagline": "Veo 3 is a state-of-the-art text-to-video model from Google that generates high-fidelity, cinematic videos with synchronized audio from a simple text prompt."
+      },
+      {
+        "id": "google/veo-3.1-fast",
+        "name": "veo-3.1-fast",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "veo-3.1",
+        "description": "Veo 3.1 is the latest text-to-video model from Google that generates high-fidelity, cinematic videos with synchronized audio from a simple text prompt. It excels at creating realistic and imaginative scenes with a deep understanding of natural language and visual dynamics.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "license": "gemma",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "tagline": "Veo 3.1 is the latest text-to-video model from Google that generates high-fidelity, cinematic videos with synchronized audio from a simple text prompt."
+      },
+      {
+        "id": "google/veo-3.1",
+        "name": "veo-3.1",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "veo-3.1",
+        "description": "Veo 3.1 is the latest text-to-video model from Google that generates high-fidelity, cinematic videos with synchronized audio from a simple text prompt. It excels at creating realistic and imaginative scenes with a deep understanding of natural language and visual dynamics.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "license": "gemma",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "tagline": "Veo 3.1 is the latest text-to-video model from Google that generates high-fidelity, cinematic videos with synchronized audio from a simple text prompt."
+      },
+      {
+        "id": "Gryphe/MythoMax-L2-13b",
+        "name": "MythoMax-L2-13b",
+        "created_by": "gryphe",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "gryphe",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 4096,
+        "open_weight": true,
+        "capabilities": {
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 0.4
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp16"
+      },
+      {
+        "id": "hexgrad/Kokoro-82M",
+        "name": "Kokoro-82M",
+        "created_by": "hexgrad",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "hexgrad",
+        "description": "Kokoro is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, Kokoro can be deployed anywhere from production environments to personal projects.",
+        "status": "active",
+        "model_type": "tts",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "$0.6200 per 1M input characters"
+        ],
+        "tagline": "Kokoro is an open-weight TTS model with 82 million parameters."
+      },
+      {
+        "id": "intfloat/e5-base-v2",
+        "name": "e5-base-v2",
+        "created_by": "intfloat",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "e5",
+        "description": "Text Embeddings by Weakly-Supervised Contrastive Pre-training. Model has 24 layers and 1024 out dim.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "mit",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "Text Embeddings by Weakly-Supervised Contrastive Pre-training."
+      },
+      {
+        "id": "intfloat/e5-large-v2",
+        "name": "e5-large-v2",
+        "created_by": "intfloat",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "e5",
+        "description": "Text Embeddings by Weakly-Supervised Contrastive Pre-training. Model has 24 layers and 1024 out dim.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "mit",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "Text Embeddings by Weakly-Supervised Contrastive Pre-training."
+      },
+      {
+        "id": "intfloat/multilingual-e5-large-instruct",
+        "name": "multilingual-e5-large-instruct",
+        "created_by": "intfloat",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "e5",
+        "description": "The Multilingual-E5 models, initialized from XLM-RoBERTa, support up to 512 tokens per input — any longer text will be silently truncated. To ensure optimal performance, always prefix inputs with “query:” or “passage:”, as the model was explicitly trained with this format.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "mit",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "The Multilingual-E5 models, initialized from XLM-RoBERTa, support up to 512 tokens per input — any longer text will be silently truncated."
+      },
+      {
+        "id": "intfloat/multilingual-e5-large",
+        "name": "multilingual-e5-large",
+        "created_by": "intfloat",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "e5",
+        "description": "The Multilingual-E5-large model is a 24-layer text embedding model with an embedding size of 1024, trained on a mixture of multilingual datasets and supporting 100 languages.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "mit",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "quantization": "fp32",
+        "tagline": "The Multilingual-E5-large model is a 24-layer text embedding model with an embedding size of 1024, trained on a mixture of multilingual datasets and supporting 100 languages."
+      },
+      {
+        "id": "inworld-ai/inworld-tts-1.5-max",
+        "name": "inworld-tts-1.5-max",
+        "created_by": "inworld-ai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "inworld-ai",
+        "description": "High-quality multilingual text-to-speech model by Inworld AI with 130+ preset voices across 15 languages. Supports voice cloning, word-level timestamps, and streaming. Optimized for natural, expressive speech with <250ms time-to-first-audio.",
+        "status": "active",
+        "model_type": "tts",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "$50.0000 per 1M input characters"
+        ],
+        "tagline": "High-quality multilingual text-to-speech model by Inworld AI with 130+ preset voices across 15 languages."
+      },
+      {
+        "id": "inworld-ai/inworld-tts-1.5-mini",
+        "name": "inworld-tts-1.5-mini",
+        "created_by": "inworld-ai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "inworld-ai",
+        "description": "Fast multilingual text-to-speech model by Inworld AI with 130+ preset voices across 15 languages. Supports voice cloning, word-level timestamps, and streaming. Optimized for low-latency applications with <130ms time-to-first-audio.",
+        "status": "active",
+        "model_type": "tts",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "$25.0000 per 1M input characters"
+        ],
+        "tagline": "Fast multilingual text-to-speech model by Inworld AI with 130+ preset voices across 15 languages."
+      },
+      {
+        "id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+        "name": "Llama-3.2-11B-Vision-Instruct",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Llama-3.2",
+        "description": "Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and visual question answering, bridging the gap between language generation and visual reasoning. Pre-trained on a massive dataset of image-text pairs, it performs well in complex, high-accuracy image analysis. Its ability to integrate visual understanding with language processing makes it an ideal solution for industrie...",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "capabilities": {
+          "structured_output": true,
+          "json_mode": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.245,
+          "output": 0.245
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "license": "llama",
+        "tagline": "Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data.",
+        "max_output_tokens": 131072,
+        "knowledge_cutoff": "2023-12",
+        "parameters": 11
+      },
+      {
+        "id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+        "name": "Llama-3.3-70B-Instruct-Turbo",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Llama-3.3",
+        "description": "Llama 3.3-70B Turbo is a highly optimized version of the Llama 3.3-70B model, utilizing FP8 quantization to deliver significantly faster inference speeds with a minor trade-off in accuracy. The model is designed to be helpful, safe, and flexible, with a focus on responsible deployment and mitigating potential risks such as bias, toxicity, and misinformation. It achieves state-of-the-art performance on various benchmarks, including conversational tasks, language translation, and text generation.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.32
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "license": "llama",
+        "tagline": "Llama 3.3-70B Turbo is a highly optimized version of the Llama 3.3-70B model, utilizing FP8 quantization to deliver significantly faster inference speeds with a minor trade-off in accuracy."
+      },
+      {
+        "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "name": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Llama-4",
+        "description": "The Llama 4 collection of models are natively multimodal AI models that enable text and multimodal experiences. These models leverage a mixture-of-experts architecture to offer industry-leading performance in text and image understanding. Llama 4 Maverick, a 17 billion parameter model with 128 experts",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 1048576,
+        "open_weight": true,
+        "capabilities": {
+          "structured_output": true,
+          "json_mode": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "license": "llama",
+        "tagline": "The Llama 4 collection of models are natively multimodal AI models that enable text and multimodal experiences.",
+        "max_output_tokens": 16384,
+        "parameters": 402
+      },
+      {
+        "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+        "name": "Llama-4-Scout-17B-16E-Instruct",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Llama-4",
+        "description": "The Llama 4 collection of models are natively multimodal AI models that enable text and multimodal experiences. These models leverage a mixture-of-experts architecture to offer industry-leading performance in text and image understanding. Llama 4 Scout, a 17 billion parameter model with 16 experts",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 327680,
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.08,
+          "output": 0.3
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "license": "llama",
+        "tagline": "The Llama 4 collection of models are natively multimodal AI models that enable text and multimodal experiences.",
+        "max_output_tokens": 16384,
+        "parameters": 17
+      },
+      {
+        "id": "meta-llama/Llama-Guard-4-12B",
+        "name": "Llama-Guard-4-12B",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "llama-guard",
+        "description": "Llama Guard 4 is a natively multimodal safety classifier with 12 billion parameters trained jointly on text and multiple images. Llama Guard 4 is a dense architecture pruned from the Llama 4 Scout pre-trained model and fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM inputs (prompt classification) and in LLM responses (response classification). It itself acts as an LLM: it generates text in its output that indicates whe...",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 163840,
+        "open_weight": true,
+        "capabilities": {
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.18,
+          "output": 0.18
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "bfloat16",
+        "license": "llama",
+        "tagline": "Llama Guard 4 is a natively multimodal safety classifier with 12 billion parameters trained jointly on text and multiple images.",
+        "parameters": 12
+      },
+      {
+        "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "name": "Meta-Llama-3-8B-Instruct",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Llama-3",
+        "description": "Meta developed and released the Meta Llama 3 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8 and 70B sizes.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 8192,
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0.04
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "bfloat16",
+        "license": "llama",
+        "tagline": "Meta developed and released the Meta Llama 3 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8 and 70B sizes.",
+        "max_output_tokens": 8192,
+        "parameters": 8
+      },
+      {
+        "id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+        "name": "Meta-Llama-3.1-70B-Instruct-Turbo",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Llama-3.1",
+        "description": "Meta developed and released the Meta Llama 3.1 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8B, 70B and 405B sizes",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 0.4
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "license": "llama",
+        "tagline": "Meta developed and released the Meta Llama 3.1 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8B, 70B and 405B sizes"
+      },
+      {
+        "id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "name": "Meta-Llama-3.1-70B-Instruct",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Llama-3.1",
+        "description": "Meta developed and released the Meta Llama 3.1 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8B, 70B and 405B sizes",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 0.4
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "bfloat16",
+        "license": "llama",
+        "tagline": "Meta developed and released the Meta Llama 3.1 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8B, 70B and 405B sizes"
+      },
+      {
+        "id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+        "name": "Meta-Llama-3.1-8B-Instruct-Turbo",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Llama-3.1",
+        "description": "Meta developed and released the Meta Llama 3.1 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8B, 70B and 405B sizes",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.02,
+          "output": 0.03
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "license": "llama",
+        "tagline": "Meta developed and released the Meta Llama 3.1 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8B, 70B and 405B sizes"
+      },
+      {
+        "id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "name": "Meta-Llama-3.1-8B-Instruct",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Llama-3.1",
+        "description": "Meta developed and released the Meta Llama 3.1 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8B, 70B and 405B sizes",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.02,
+          "output": 0.05
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "bfloat16",
+        "license": "llama",
+        "tagline": "Meta developed and released the Meta Llama 3.1 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8B, 70B and 405B sizes"
+      },
+      {
+        "id": "microsoft/phi-4",
+        "name": "phi-4",
+        "created_by": "microsoft",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "phi-4",
+        "description": "Phi-4 is a model built upon a blend of synthetic datasets, data from filtered public domain websites, and acquired academic books and Q&A datasets. The goal of this approach was to ensure that small capable models were trained with data focused on high quality and advanced reasoning.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 16384,
+        "open_weight": true,
+        "capabilities": {
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.07,
+          "output": 0.14
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "bfloat16",
+        "tagline": "Phi-4 is a model built upon a blend of synthetic datasets, data from filtered public domain websites, and acquired academic books and Q&A datasets."
+      },
+      {
+        "id": "MiniMaxAI/MiniMax-M2.5",
+        "name": "MiniMax-M2.5",
+        "created_by": "minimax",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "minimax",
+        "description": "MiniMax M2.5 is SOTA in coding, agentic tool use and search, office work, and a range of other economically valuable tasks, boasting scores of 80.2% in SWE-Bench Verified, 51.3% in Multi-SWE-Bench, and 76.3% in BrowseComp (with context management).",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 196608,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "minimax",
+        "capabilities": {
+          "tool_call": true,
+          "json_mode": true,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 1.15,
+          "cached_input": 0.03
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "MiniMax M2.5 is SOTA in coding, agentic tool use and search, office work, and a range of other economically valuable tasks, boasting scores of 80.2% in SWE-Bench Verified, 51.3% in Multi-SWE-Bench, an"
+      },
+      {
+        "id": "mistralai/Mistral-Nemo-Instruct-2407",
+        "name": "Mistral-Nemo-Instruct-2407",
+        "created_by": "mistral",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "mistral",
+        "description": "12B model trained jointly by Mistral AI and NVIDIA, it significantly outperforms existing models smaller or similar in size.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.02,
+          "output": 0.04
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "12B model trained jointly by Mistral AI and NVIDIA, it significantly outperforms existing models smaller or similar in size."
+      },
+      {
+        "id": "mistralai/Mistral-Small-24B-Instruct-2501",
+        "name": "Mistral-Small-24B-Instruct-2501",
+        "created_by": "mistral",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "mistral",
+        "description": "Mistral Small 3 is a 24B-parameter language model optimized for low-latency performance across common AI tasks. Released under the Apache 2.0 license, it features both pre-trained and instruction-tuned versions designed for efficient local deployment. The model achieves 81% accuracy on the MMLU benchmark and performs competitively with larger models like Llama 3.3 70B and Qwen 32B, while operating at three times the speed on equivalent hardware.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 32768,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0.08
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Mistral Small 3 is a 24B-parameter language model optimized for low-latency performance across common AI tasks."
+      },
+      {
+        "id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+        "name": "Mistral-Small-3.2-24B-Instruct-2506",
+        "created_by": "mistral",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "mistral",
+        "description": "Mistral-Small-3.2-24B-Instruct is a drop-in upgrade over the 3.1 release, with markedly better instruction following, roughly half the infinite-generation errors, and a more robust function-calling interface—while otherwise matching or slightly improving on all previous text and vision benchmarks.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 128000,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.075,
+          "output": 0.2
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Mistral-Small-3.2-24B-Instruct is a drop-in upgrade over the 3.1 release, with markedly better instruction following, roughly half the infinite-generation errors, and a more robust function-calling in"
+      },
+      {
+        "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+        "name": "Mixtral-8x7B-Instruct-v0.1",
+        "created_by": "mistral",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "mixtral",
+        "description": "Mixtral is mixture of expert large language model (LLM) from Mistral AI. This is state of the art machine learning model using a mixture 8 of experts (MoE) 7b models. During inference 2 expers are selected. This architecture allows large models to be fast and cheap at inference. The Mixtral-8x7B outperforms Llama 2 70B on most benchmarks.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 32768,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.54,
+          "output": 0.54
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Mixtral is mixture of expert large language model (LLM) from Mistral AI."
+      },
+      {
+        "id": "mistralai/Voxtral-Mini-3B-2507",
+        "name": "Voxtral-Mini-3B-2507",
+        "created_by": "mistral",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "mistralai",
+        "description": "Voxtral Mini is an enhancement of Ministral 3B, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance. It excels at speech transcription, translation and audio understanding.",
+        "status": "active",
+        "model_type": "transcription",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "audio_transcriptions"
+        ],
+        "quantization": "bf16",
+        "tagline": "Voxtral Mini is an enhancement of Ministral 3B, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance."
+      },
+      {
+        "id": "mistralai/Voxtral-Small-24B-2507",
+        "name": "Voxtral-Small-24B-2507",
+        "created_by": "mistral",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "mistralai",
+        "description": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance. It excels at speech transcription, translation and audio understanding.",
+        "status": "active",
+        "model_type": "transcription",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "audio_transcriptions"
+        ],
+        "quantization": "bf16",
+        "tagline": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance."
+      },
+      {
+        "id": "moonshotai/Kimi-K2.5",
+        "name": "Kimi-K2.5",
+        "created_by": "moonshot",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Kimi-K2.5",
+        "description": "Kimi K2.5 is an open-source, native multimodal agentic model built through continual pretraining on approximately 15 trillion mixed visual and text tokens atop Kimi-K2-Base. It seamlessly integrates vision and language understanding with advanced agentic capabilities, instant and thinking modes, as well as conversational and agentic paradigms.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "modified-mit",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.45,
+          "output": 2.25,
+          "cached_input": 0.07
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "Kimi K2.5 is an open-source, native multimodal agentic model built through continual pretraining on approximately 15 trillion mixed visual and text tokens atop Kimi-K2-Base.",
+        "max_output_tokens": 32768
+      },
+      {
+        "id": "moonshotai/Kimi-K2.6",
+        "name": "Kimi-K2.6",
+        "created_by": "moonshot",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Kimi-K2.6",
+        "description": "Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "modified-mit",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 3.5,
+          "cached_input": 0.15
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orc"
+      },
+      {
+        "id": "NousResearch/Hermes-3-Llama-3.1-405B",
+        "name": "Hermes-3-Llama-3.1-405B",
+        "created_by": "nousresearch",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "llama-3.1",
+        "description": "Hermes 3 is a cutting-edge language model that offers advanced capabilities in roleplaying, reasoning, and conversation. It's a fine-tuned version of the Llama-3.1 405B foundation model, designed to align with user needs and provide powerful control. Key features include reliable function calling, structured output, generalist assistant capabilities, and improved code generation. Hermes 3 is competitive with Llama-3.1 Instruct models, with its own strengths and weaknesses.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "capabilities": {
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1,
+          "output": 1
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Hermes 3 is a cutting-edge language model that offers advanced capabilities in roleplaying, reasoning, and conversation."
+      },
+      {
+        "id": "NousResearch/Hermes-3-Llama-3.1-70B",
+        "name": "Hermes-3-Llama-3.1-70B",
+        "created_by": "nousresearch",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "llama-3.1",
+        "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "capabilities": {
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 0.3
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coheren"
+      },
+      {
+        "id": "nvidia/Llama-3.1-Nemotron-70B-Instruct",
+        "name": "Llama-3.1-Nemotron-70B-Instruct",
+        "created_by": "nvidia",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Llama-3.1",
+        "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries. This model reaches Arena Hard of 85.0, AlpacaEval 2 LC of 57.6 and GPT-4-Turbo MT-Bench of 8.98, which are known to be predictive of LMSys Chatbot Arena Elo. As of 16th Oct 2024, this model is #1 on all three automatic alignment benchmarks (verified tab for AlpacaEval 2 LC), edging out strong frontier models such as GPT-4o and Claude 3.5 Sonnet.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.2,
+          "output": 1.2
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries."
+      },
+      {
+        "id": "nvidia/Llama-3.3-Nemotron-Super-49B-v1.5",
+        "name": "Llama-3.3-Nemotron-Super-49B-v1.5",
+        "created_by": "nvidia",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Llama-3.3",
+        "description": "Llama-3.3-Nemotron-Super-49B-v1.5 is a large language model (LLM) optimized for advanced reasoning, conversational interactions, retrieval-augmented generation (RAG), and tool-calling tasks. Derived from Meta's Llama-3.3-70B-Instruct, it employs a Neural Architecture Search (NAS) approach, significantly enhancing efficiency and reducing memory requirements.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.4
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Llama-3.3-Nemotron-Super-49B-v1.5 is a large language model (LLM) optimized for advanced reasoning, conversational interactions, retrieval-augmented generation (RAG), and tool-calling tasks."
+      },
+      {
+        "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
+        "name": "llama-nemotron-embed-vl-1b-v2",
+        "created_by": "nvidia",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "llama",
+        "description": "The llama-nemotron-embed-vl-1b-v2 is a high-performance multimodal embedding model designed to transform text queries and document images into dense vector representations for advanced retrieval systems. It excels at understanding complex visual content like charts, tables, and infographics.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "The llama-nemotron-embed-vl-1b-v2 is a high-performance multimodal embedding model designed to transform text queries and document images into dense vector representations for advanced retrieval systems."
+      },
+      {
+        "id": "nvidia/llama-nemotron-rerank-vl-1b-v2",
+        "name": "llama-nemotron-rerank-vl-1b-v2",
+        "created_by": "nvidia",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "llama",
+        "description": "The llama-nemotron-rerank-vl-1b-v2 is a 1.7B parameter multimodal reranking model designed to evaluate and order the relevance of document images and text against specific user queries. It excels at understanding complex visual content like charts, tables, and infographics.",
+        "status": "active",
+        "model_type": "rerank",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "rerank"
+        ],
+        "quantization": "bf16",
+        "tagline": "The llama-nemotron-rerank-vl-1b-v2 is a 1.7B parameter multimodal reranking model designed to evaluate and order the relevance of document images and text against specific user queries."
+      },
+      {
+        "id": "nvidia/Nemotron-3-Nano-30B-A3B",
+        "name": "Nemotron-3-Nano-30B-A3B",
+        "created_by": "nvidia",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "nemotron",
+        "description": "NVIDIA Nemotron 3 Nano is an open small reasoning model optimized for fast, cost-efficient inference in agentic and production workloads. Built with a hybrid Mixture-of-Experts (MoE) and Mamba-Transformer architecture, it delivers strong multi-step reasoning, high token throughput, stable latency with predictable cost, and efficient deployment for agent-based systems. Designed for real-world AI systems where reasoning can generate significantly more tokens per prompt, Nemotron Nano reduces co...",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0.2
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "NVIDIA Nemotron 3 Nano is an open small reasoning model optimized for fast, cost-efficient inference in agentic and production workloads."
+      },
+      {
+        "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B",
+        "name": "NVIDIA-Nemotron-3-Super-120B-A12B",
+        "created_by": "nvidia",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "nemotron",
+        "description": "NVIDIA Nemotron 3 Super is a hybrid Mixture-of-Experts (MoE) model engineered for highest compute efficiency and accuracy in multi-agent applications and specialized agentic systems. It is optimized to run many collaborating agents per application on a single GPU, delivering high accuracy for reasoning, tool use, and instruction following.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.5
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "bfloat16",
+        "tagline": "NVIDIA Nemotron 3 Super is a hybrid Mixture-of-Experts (MoE) model engineered for highest compute efficiency and accuracy in multi-agent applications and specialized agentic systems."
+      },
+      {
+        "id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL",
+        "name": "NVIDIA-Nemotron-Nano-12B-v2-VL",
+        "created_by": "nvidia",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "nemotron",
+        "description": "NVIDIA Nemotron 2 Nano VL extends the Nemotron family into multi-modal reasoning and document intelligence. This auto-regressive vision-language model enables multi-image reasoning, video understanding, visual Q&A and document analysis and summarization. Optimized for enterprise AI workflows, it powers multimodal agentic systems such as visual copilots, document assistants, and knowledge automation pipelines.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "capabilities": {
+          "reasoning": true,
+          "vision": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 0.6
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "NVIDIA Nemotron 2 Nano VL extends the Nemotron family into multi-modal reasoning and document intelligence."
+      },
+      {
+        "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+        "name": "NVIDIA-Nemotron-Nano-9B-v2",
+        "created_by": "nvidia",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "nemotron",
+        "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and tasks by first generating a reasoning trace and then concluding with a final response. The model's reasoning capabilities can be controlled via a system prompt. If the user prefers the model to provide its final answer without intermediate reasoning traces, it can be configured to do so.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.04,
+          "output": 0.16
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "bfloat16",
+        "tagline": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks."
+      },
+      {
+        "id": "openai/clip-vit-base-patch32",
+        "name": "clip-vit-base-patch32",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "openai",
+        "description": "The CLIP model was developed by OpenAI to investigate the robustness of computer vision models. It uses a Vision Transformer architecture and was trained on a large dataset of image-caption pairs. The model shows promise in various computer vision tasks but also has limitations, including difficulties with fine-grained classification and potential biases in certain applications.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": true,
+        "license": "proprietary",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.000500 per second"
+        ],
+        "tagline": "The CLIP model was developed by OpenAI to investigate the robustness of computer vision models."
+      },
+      {
+        "id": "openai/clip-vit-large-patch14-336",
+        "name": "clip-vit-large-patch14-336",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "openai",
+        "description": "A zero-shot-image-classification model released by OpenAI. The clip-vit-large-patch14-336 model was trained from scratch on an unknown dataset and achieves unspecified results on the evaluation set. The model's intended uses and limitations, as well as its training and evaluation data, are not provided. The training procedure used an unknown optimizer and precision, and the framework versions included Transformers 4.21.3, TensorFlow 2.8.2, and Tokenizers 0.12.1.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": true,
+        "license": "proprietary",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.000500 per second"
+        ],
+        "tagline": "A zero-shot-image-classification model released by OpenAI."
+      },
+      {
+        "id": "openai/gpt-oss-120b-Turbo",
+        "name": "gpt-oss-120b-Turbo",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "gpt-oss",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "proprietary",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "bfloat16"
+      },
+      {
+        "id": "openai/gpt-oss-120b",
+        "name": "gpt-oss-120b",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "gpt-oss",
+        "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. The model supports configurable reasoning depth, full chain-of-thought access, and native tool use, including function calling, browsing, and structured output generation.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "proprietary",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": false,
+          "vision": false,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.039,
+          "output": 0.19
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "bfloat16",
+        "tagline": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases.",
+        "max_output_tokens": 131072,
+        "knowledge_cutoff": "2024-06",
+        "parameters": 120
+      },
+      {
+        "id": "openai/gpt-oss-20b",
+        "name": "gpt-oss-20b",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "gpt-oss",
+        "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for lower-latency inference. The model is trained in OpenAI’s Harmony response format and supports reasoning level configuration, fine-tuning, and agentic capabilities including function calling, tool use, and structured outputs.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "proprietary",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": false,
+          "vision": false,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0.14
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "bfloat16",
+        "tagline": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
+        "max_output_tokens": 131072,
+        "knowledge_cutoff": "2024-06",
+        "parameters": 20
+      },
+      {
+        "id": "openai/whisper-large-v3-turbo",
+        "name": "whisper-large-v3-turbo",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "whisper",
+        "description": "Whisper is a state-of-the-art model for automatic speech recognition (ASR) and speech translation, proposed in the paper \"Robust Speech Recognition via Large-Scale Weak Supervision\" by Alec Radford et al. from OpenAI. Trained on >5M hours of labeled data, Whisper demonstrates a strong ability to generalise to many datasets and domains in a zero-shot setting. Whisper large-v3-turbo is a finetuned version of a pruned Whisper large-v3. In other words, it's the exact same model, except that the n...",
+        "status": "active",
+        "model_type": "transcription",
+        "open_weight": true,
+        "license": "proprietary",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "audio_transcriptions"
+        ],
+        "tagline": "Whisper is a state-of-the-art model for automatic speech recognition (ASR) and speech translation, proposed in the paper \"Robust Speech Recognition via Large-Scale Weak Supervision\" by Alec Radford et al."
+      },
+      {
+        "id": "openai/whisper-large-v3",
+        "name": "whisper-large-v3",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "whisper",
+        "description": "Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multi-task model that can perform multilingual speech recognition as well as speech translation and language identification.",
+        "status": "active",
+        "model_type": "transcription",
+        "open_weight": true,
+        "license": "proprietary",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "audio_transcriptions"
+        ],
+        "tagline": "Whisper is a general-purpose speech recognition model."
+      },
+      {
+        "id": "PaddlePaddle/PaddleOCR-VL-0.9B",
+        "name": "PaddleOCR-VL-0.9B",
+        "created_by": "paddlepaddle",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "paddlepaddle",
+        "description": "PaddleOCR-VL is a SOTA and resource-efficient model tailored for document parsing. Its core component is PaddleOCR-VL-0.9B, a compact yet powerful vision-language model (VLM) that integrates a NaViT-style dynamic resolution visual encoder with the ERNIE-4.5-0.3B language model to enable accurate element recognition. This innovative model efficiently supports 109 languages and excels in recognizing complex elements (e.g., text, tables, formulas, and charts), while maintaining minimal resource ...",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 16384,
+        "open_weight": true,
+        "capabilities": {
+          "structured_output": true,
+          "json_mode": true,
+          "vision": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.8
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "bfloat16",
+        "tagline": "PaddleOCR-VL is a SOTA and resource-efficient model tailored for document parsing."
+      },
+      {
+        "id": "Pixverse/Pixverse-T2V-HD",
+        "name": "Pixverse-T2V-HD",
+        "created_by": "pixverse",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "pixverse",
+        "description": "The 1080p high-fidelity mode in PixVerse renders videos with significantly enhanced sharpness and visual clarity, capturing intricate details and providing a crisp, professional-grade quality suitable for more polished projects.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "pricing_notes": [
+          "$0.4000 per image unit (0x0 default)"
+        ],
+        "tagline": "The 1080p high-fidelity mode in PixVerse renders videos with significantly enhanced sharpness and visual clarity, capturing intricate details and providing a crisp, professional-grade quality suitable"
+      },
+      {
+        "id": "Pixverse/Pixverse-T2V",
+        "name": "Pixverse-T2V",
+        "created_by": "pixverse",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "pixverse",
+        "description": "PixVerse's 720p resolution offers a fast and reliable option for generating standard HD videos, ideal for quick previews and social media content where generation speed is prioritized over maximum detail.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "pricing_notes": [
+          "$0.2000 per image unit (0x0 default)"
+        ],
+        "tagline": "PixVerse's 720p resolution offers a fast and reliable option for generating standard HD videos, ideal for quick previews and social media content where generation speed is prioritized over maximum det"
+      },
+      {
+        "id": "PrunaAI/p-image-Edit",
+        "name": "p-image-Edit",
+        "created_by": "prunaai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "prunaai",
+        "description": "P-Image-Edit is a high-precision image editing model that applies complex transformations, insertions, removals, and style adjustments in under a second. It delivers state-of-the-art accuracy, clean boundaries, and reliable prompt alignment, making multi-step edits fast, consistent, and production-ready.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0100 per image unit (0x0 default)"
+        ],
+        "tagline": "P-Image-Edit is a high-precision image editing model that applies complex transformations, insertions, removals, and style adjustments in under a second."
+      },
+      {
+        "id": "PrunaAI/p-image",
+        "name": "p-image",
+        "created_by": "prunaai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "prunaai",
+        "description": "P-Image is a state-of-the-art real-time generation model with exceptional text rendering, fine-detail accuracy, and rock-solid prompt adherence. It’s built for instant creativity at high-fidelity images in about one second at a fraction of typical model costs.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0050 per image unit (0x0 default)"
+        ],
+        "tagline": "P-Image is a state-of-the-art real-time generation model with exceptional text rendering, fine-detail accuracy, and rock-solid prompt adherence."
+      },
+      {
+        "id": "PrunaAI/p-video",
+        "name": "p-video",
+        "created_by": "prunaai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "prunaai",
+        "description": "Real-time AI video generation from text, images, and audio. Supports up to 1080p at 48 FPS with built-in audio generation, draft mode for 4x faster previews, and prompt upsampling.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "pricing_notes": [
+          "$0.02 / second"
+        ],
+        "tagline": "Real-time AI video generation from text, images, and audio."
+      },
+      {
+        "id": "Qwen/Qwen-Image-Edit-Max",
+        "name": "Qwen-Image-Edit-Max",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen",
+        "description": "Enhanced industrial design and geometric reasoning, improved character consistency, reduced offset issues, and integrated LoRA capabilities",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0750 per image unit (0x0 default)"
+        ],
+        "tagline": "Enhanced industrial design and geometric reasoning, improved character consistency, reduced offset issues, and integrated LoRA capabilities"
+      },
+      {
+        "id": "Qwen/Qwen-Image-Edit",
+        "name": "Qwen-Image-Edit",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen",
+        "description": "Qwen-Image-Edit is a next-generation image editing model built on top of Qwen-Image, designed for both semantic and appearance-level edits. It excels at tasks like precise text modifications, style transfers, viewpoint transformations, and element adjustments while preserving overall visual consistency.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0250 per image unit (1024x1024 default)"
+        ],
+        "tagline": "Qwen-Image-Edit is a next-generation image editing model built on top of Qwen-Image, designed for both semantic and appearance-level edits."
+      },
+      {
+        "id": "Qwen/Qwen-Image-Max",
+        "name": "Qwen-Image-Max",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen",
+        "description": "Compared with the Plus series, it significantly reduces the “AI-like” feel in generated images, enhancing their realism. It delivers more lifelike material textures for human subjects, finer and more detailed natural textures, and more visually appealing text rendering.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0750 per image unit (0x0 default)"
+        ],
+        "tagline": "Compared with the Plus series, it significantly reduces the “AI-like” feel in generated images, enhancing their realism."
+      },
+      {
+        "id": "Qwen/Qwen2.5-72B-Instruct",
+        "name": "Qwen2.5-72B-Instruct",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen2.5",
+        "description": "Qwen2.5 is a model pretrained on a large-scale dataset of up to 18 trillion tokens, offering significant improvements in knowledge, coding, mathematics, and instruction following compared to its predecessor Qwen2. The model also features enhanced capabilities in generating long texts, understanding structured data, and generating structured outputs, while supporting multilingual capabilities for over 29 languages.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 32768,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.36,
+          "output": 0.4
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Qwen2.5 is a model pretrained on a large-scale dataset of up to 18 trillion tokens, offering significant improvements in knowledge, coding, mathematics, and instruction following compared to its predecessor Qwen2."
+      },
+      {
+        "id": "Qwen/Qwen3-14B",
+        "name": "Qwen3-14B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, instruction-following, agent capabilities, and multilingual support.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 40960,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0.24
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models."
+      },
+      {
+        "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+        "name": "Qwen3-235B-A22B-Instruct-2507",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3-235B-A22B-Instruct-2507 is the updated version of the Qwen3-235B-A22B non-thinking mode, featuring Significant improvements in general capabilities, including instruction following, logical reasoning, text comprehension, mathematics, science, coding and tool usage.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.071,
+          "output": 0.1
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Qwen3-235B-A22B-Instruct-2507 is the updated version of the Qwen3-235B-A22B non-thinking mode, featuring Significant improvements in general capabilities, including instruction following, logical reas"
+      },
+      {
+        "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+        "name": "Qwen3-235B-A22B-Thinking-2507",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3-235B-A22B-Thinking-2507 is the Qwen3's new model with scaling the thinking capability of Qwen3-235B-A22B, improving both the quality and depth of reasoning.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.23,
+          "output": 2.3,
+          "cached_input": 0.2
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Qwen3-235B-A22B-Thinking-2507 is the Qwen3's new model with scaling the thinking capability of Qwen3-235B-A22B, improving both the quality and depth of reasoning."
+      },
+      {
+        "id": "Qwen/Qwen3-30B-A3B",
+        "name": "Qwen3-30B-A3B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, instruction-following, agent capabilities, and multilingual support",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 40960,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.08,
+          "output": 0.28
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models."
+      },
+      {
+        "id": "Qwen/Qwen3-32B",
+        "name": "Qwen3-32B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, instruction-following, agent capabilities, and multilingual support",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 40960,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.08,
+          "output": 0.28
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models."
+      },
+      {
+        "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo",
+        "name": "Qwen3-Coder-480B-A35B-Instruct-Turbo",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3-Coder-480B-A35B-Instruct is the Qwen3's most agentic code model, featuring Significant Performance on Agentic Coding, Agentic Browser-Use and other foundational coding tasks, achieving results comparable to Claude Sonnet.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 1,
+          "cached_input": 0.1
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "Qwen3-Coder-480B-A35B-Instruct is the Qwen3's most agentic code model, featuring Significant Performance on Agentic Coding, Agentic Browser-Use and other foundational coding tasks, achieving results c"
+      },
+      {
+        "id": "Qwen/Qwen3-Embedding-0.6B-batch",
+        "name": "Qwen3-Embedding-0.6B-batch",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B).",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks."
+      },
+      {
+        "id": "Qwen/Qwen3-Embedding-0.6B",
+        "name": "Qwen3-Embedding-0.6B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B).",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks."
+      },
+      {
+        "id": "Qwen/Qwen3-Embedding-4B-batch",
+        "name": "Qwen3-Embedding-4B-batch",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B).",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks."
+      },
+      {
+        "id": "Qwen/Qwen3-Embedding-4B",
+        "name": "Qwen3-Embedding-4B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B).",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks."
+      },
+      {
+        "id": "Qwen/Qwen3-Embedding-8B-batch",
+        "name": "Qwen3-Embedding-8B-batch",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B).",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks."
+      },
+      {
+        "id": "Qwen/Qwen3-Embedding-8B",
+        "name": "Qwen3-Embedding-8B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B).",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks."
+      },
+      {
+        "id": "Qwen/Qwen3-Max-Thinking",
+        "name": "Qwen3-Max-Thinking",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "The latest flagship reasoning model in the Qwen3 family. Further enhanced by multiple innovations like adaptive tool-use and advanced test-time scaling techniques",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 256000,
+        "open_weight": false,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.2,
+          "output": 6,
+          "cached_input": 0.24
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tagline": "The latest flagship reasoning model in the Qwen3 family."
+      },
+      {
+        "id": "Qwen/Qwen3-Max",
+        "name": "Qwen3-Max",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "The latest flagship model in the Qwen family. State-of-the-art results across a comprehensive suite of benchmarks — including knowledge, reasoning, coding, instruction following, human preference alignment, agent tasks, and multilingual understanding.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 256000,
+        "open_weight": false,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.2,
+          "output": 6,
+          "cached_input": 0.24
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tagline": "The latest flagship model in the Qwen family."
+      },
+      {
+        "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+        "name": "Qwen3-Next-80B-A3B-Instruct",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Over the past few months, we have observed increasingly clear trends toward scaling both total parameters and context lengths in the pursuit of more powerful and agentic artificial intelligence (AI). We are excited to share our latest advancements in addressing these demands, centered on improving scaling efficiency through innovative model architecture. We call this next-generation foundation models Qwen3-Next.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.09,
+          "output": 1.1
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Over the past few months, we have observed increasingly clear trends toward scaling both total parameters and context lengths in the pursuit of more powerful and agentic artificial intelligence (AI)."
+      },
+      {
+        "id": "Qwen/Qwen3-Reranker-0.6B",
+        "name": "Qwen3-Reranker-0.6B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B)",
+        "status": "active",
+        "model_type": "rerank",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "rerank"
+        ],
+        "tagline": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks."
+      },
+      {
+        "id": "Qwen/Qwen3-Reranker-4B",
+        "name": "Qwen3-Reranker-4B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B)",
+        "status": "active",
+        "model_type": "rerank",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "rerank"
+        ],
+        "tagline": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks."
+      },
+      {
+        "id": "Qwen/Qwen3-Reranker-8B",
+        "name": "Qwen3-Reranker-8B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B)",
+        "status": "active",
+        "model_type": "rerank",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "rerank"
+        ],
+        "tagline": "The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks."
+      },
+      {
+        "id": "Qwen/Qwen3-TTS-VoiceDesign",
+        "name": "Qwen3-TTS-VoiceDesign",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "● Qwen3-TTS-VoiceDesign is a voice design variant of Qwen3-TTS by Alibaba's Qwen team. Instead of selecting from preset voices, you describe the voice you want in natural language — and the model generates speech in that voice. Key capabilities: - Natural language voice control — describe any voice with free text (e.g. \"a deep male voice with a calm, authoritative presence\", \"a young cheerful female with a warm and friendly tone\") - 10 languages — English, Chinese, Japanese, Korean, German, F...",
+        "status": "active",
+        "model_type": "tts",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "$20.0000 per 1M input characters"
+        ],
+        "tagline": "● Qwen3-TTS-VoiceDesign is a voice design variant of Qwen3-TTS by Alibaba's Qwen team."
+      },
+      {
+        "id": "Qwen/Qwen3-TTS",
+        "name": "Qwen3-TTS",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3-TTS is an advanced text-to-speech model by Alibaba's Qwen team, delivering stable, expressive, and low-latency speech generation across 10 languages. Key capabilities: - 9 preset voices — Vivian, Serena, Uncle_Fu, Dylan, Eric, Ryan, Aiden, Ono_Anna, Sohee — covering diverse genders, ages, and accents - Voice cloning — clone any voice from a short (~3s) audio sample via the voice_id parameter - Instruction control — adjust tone, emotion, and speaking style with natural language (e.g. \"sp...",
+        "status": "active",
+        "model_type": "tts",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "$20.0000 per 1M input characters"
+        ],
+        "tagline": "Qwen3-TTS is an advanced text-to-speech model by Alibaba's Qwen team, delivering stable, expressive, and low-latency speech generation across 10 languages."
+      },
+      {
+        "id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+        "name": "Qwen3-VL-235B-A22B-Instruct",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Meet Qwen3-VL — the most powerful vision-language model in the Qwen series to date. This generation delivers comprehensive upgrades across the board: superior text understanding & generation, deeper visual perception & reasoning, extended context length, enhanced spatial and video dynamics comprehension, and stronger agent interaction capabilities.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 0.88,
+          "cached_input": 0.11
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Meet Qwen3-VL — the most powerful vision-language model in the Qwen series to date."
+      },
+      {
+        "id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+        "name": "Qwen3-VL-30B-A3B-Instruct",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Meet Qwen3-VL — the most powerful vision-language model in the Qwen series to date. This generation delivers comprehensive upgrades across the board: superior text understanding & generation, deeper visual perception & reasoning, extended context length, enhanced spatial and video dynamics comprehension, and stronger agent interaction capabilities.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Meet Qwen3-VL — the most powerful vision-language model in the Qwen series to date."
+      },
+      {
+        "id": "Qwen/Qwen3.5-0.8B",
+        "name": "Qwen3.5-0.8B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3.5-0.8B is Alibaba's smallest model in the Qwen3.5 series, featuring a hybrid Gated Delta Networks and sparse Mixture-of-Experts architecture. Despite its compact size, it supports a 262K token context window, 201 languages, thinking/reasoning mode, and tool calling. Ideal for edge deployments, resource-constrained environments, and lightweight inference tasks.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.01,
+          "output": 0.05
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Qwen3.5-0.8B is Alibaba's smallest model in the Qwen3.5 series, featuring a hybrid Gated Delta Networks and sparse Mixture-of-Experts architecture."
+      },
+      {
+        "id": "Qwen/Qwen3.5-122B-A10B",
+        "name": "Qwen3.5-122B-A10B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3.5-122B-A10B is a large Mixture-of-Experts model from Alibaba's Qwen3.5 series with 122B total parameters and 10B activated per token. It features a 262K token context window (extensible to 1M with YaRN), thinking/reasoning mode, tool calling, and support for 201 languages. Excels at complex reasoning, coding, multimodal understanding, and agentic tasks with the efficiency of sparse activation.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.29,
+          "output": 2.9,
+          "cached_input": 0.145
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Qwen3.5-122B-A10B is a large Mixture-of-Experts model from Alibaba's Qwen3.5 series with 122B total parameters and 10B activated per token."
+      },
+      {
+        "id": "Qwen/Qwen3.5-27B",
+        "name": "Qwen3.5-27B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3.5-27B is Alibaba's largest dense Qwen3.5 model, delivering near-frontier quality across reasoning, coding, and instruction following. It features a 262K token context window (extensible to 1M), thinking/reasoning mode, tool calling, multi-token prediction, and support for 201 languages. Best suited for production deployments and complex enterprise tasks requiring top-tier performance.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.26,
+          "output": 2.6
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Qwen3.5-27B is Alibaba's largest dense Qwen3.5 model, delivering near-frontier quality across reasoning, coding, and instruction following."
+      },
+      {
+        "id": "Qwen/Qwen3.5-2B",
+        "name": "Qwen3.5-2B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3.5-2B is a compact yet capable model from Alibaba's Qwen3.5 series. It features a 262K token context window, support for 201 languages, thinking/reasoning mode, and tool calling for agentic workflows. A strong choice for prototyping, fine-tuning, and efficient multilingual deployments.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.02,
+          "output": 0.1
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Qwen3.5-2B is a compact yet capable model from Alibaba's Qwen3.5 series."
+      },
+      {
+        "id": "Qwen/Qwen3.5-35B-A3B",
+        "name": "Qwen3.5-35B-A3B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3.5-35B-A3B is an efficient Mixture-of-Experts model from Alibaba's Qwen3.5 series with 35B total parameters and only 3B activated per token. It features a 262K token context window (extensible to 1M with YaRN), thinking/reasoning mode, tool calling, and support for 201 languages. Delivers strong performance on reasoning, coding, and vision-language tasks at a fraction of the compute cost.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 0.95,
+          "cached_input": 0.1
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Qwen3.5-35B-A3B is an efficient Mixture-of-Experts model from Alibaba's Qwen3.5 series with 35B total parameters and only 3B activated per token."
+      },
+      {
+        "id": "Qwen/Qwen3.5-397B-A17B",
+        "name": "Qwen3.5-397B-A17B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3.5-397B-A17B is Alibaba's most capable Qwen3.5 model, a Mixture-of-Experts architecture with 397B total parameters and 17B activated per token. It features a 262K token context window (extensible to 1M with YaRN), thinking/reasoning mode, tool calling with MCP integration, and support for 201 languages. Sets state-of-the-art results on reasoning, coding, math, and multimodal benchmarks.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.54,
+          "output": 3.4,
+          "cached_input": 0.27
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Qwen3.5-397B-A17B is Alibaba's most capable Qwen3.5 model, a Mixture-of-Experts architecture with 397B total parameters and 17B activated per token."
+      },
+      {
+        "id": "Qwen/Qwen3.5-4B",
+        "name": "Qwen3.5-4B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3.5-4B is a mid-size model from Alibaba's Qwen3.5 series that delivers a strong balance of performance and efficiency. It features a 262K token context window (extensible to 1M with YaRN), thinking/reasoning mode, tool calling, and support for 201 languages. Well-suited for complex reasoning, code generation, and agentic applications.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0.15
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Qwen3.5-4B is a mid-size model from Alibaba's Qwen3.5 series that delivers a strong balance of performance and efficiency."
+      },
+      {
+        "id": "Qwen/Qwen3.6-35B-A3B",
+        "name": "Qwen3.6-35B-A3B",
+        "created_by": "alibaba",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "qwen3",
+        "description": "Qwen3.6-35B-A3B is Alibaba's latest flagship Mixture-of-Experts model, with 35B total parameters and only 3B activated per token (256 experts, 8 routed + 1 shared). Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers a more intuitive, responsive, and genuinely productive coding experience.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "vision": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 1
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Qwen3.6-35B-A3B is Alibaba's latest flagship Mixture-of-Experts model, with 35B total parameters and only 3B activated per token (256 experts, 8 routed + 1 shared)."
+      },
+      {
+        "id": "ResembleAI/chatterbox-multilingual",
+        "name": "chatterbox-multilingual",
+        "created_by": "resembleai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "resembleai",
+        "description": "09/04 🔥 Introducing Chatterbox Multilingual in 23 Languages! We're excited to introduce Chatterbox and Chatterbox Multilingual, Resemble AI's production-grade open source TTS models. Chatterbox Multilingual supports Arabic, Danish, German, Greek, English, Spanish, Finnish, French, Hebrew, Hindi, Italian, Japanese, Korean, Malay, Dutch, Norwegian, Polish, Portuguese, Russian, Swedish, Swahili, Turkish, Chinese out of the box. Licensed under MIT, Chatterbox has been benchmarked against leading...",
+        "status": "active",
+        "model_type": "tts",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "$1.0000 per 1M input characters"
+        ],
+        "tagline": "09/04 🔥 Introducing Chatterbox Multilingual in 23 Languages! We're excited to introduce Chatterbox and Chatterbox Multilingual, Resemble AI's production-grade open source TTS models."
+      },
+      {
+        "id": "ResembleAI/chatterbox-turbo",
+        "name": "chatterbox-turbo",
+        "created_by": "resembleai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "resembleai",
+        "description": "Chatterbox is a family of three state-of-the-art, open-source text-to-speech models by Resemble AI. We are excited to introduce Chatterbox-Turbo, our most efficient model yet. Built on a streamlined 350M parameter architecture, Turbo delivers high-quality speech with less compute and VRAM than our previous models. We have also distilled the speech-token-to-mel decoder, previously a bottleneck, reducing generation from 10 steps to just one, while retaining high-fidelity audio output. Paralingu...",
+        "status": "active",
+        "model_type": "tts",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "$1.0000 per 1M input characters"
+        ],
+        "tagline": "Chatterbox is a family of three state-of-the-art, open-source text-to-speech models by Resemble AI."
+      },
+      {
+        "id": "Sao10K/L3-8B-Lunaris-v1-Turbo",
+        "name": "L3-8B-Lunaris-v1-Turbo",
+        "created_by": "sao10k",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "sao10k",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 8192,
+        "open_weight": true,
+        "capabilities": {
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.04,
+          "output": 0.05
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8"
+      },
+      {
+        "id": "Sao10K/L3.1-70B-Euryale-v2.2",
+        "name": "L3.1-70B-Euryale-v2.2",
+        "created_by": "sao10k",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "sao10k",
+        "description": "Euryale 3.1 - 70B v2.2 is a model focused on creative roleplay from Sao10k",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "capabilities": {
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.85,
+          "output": 0.85
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Euryale 3.1 - 70B v2.2 is a model focused on creative roleplay from Sao10k"
+      },
+      {
+        "id": "Sao10K/L3.3-70B-Euryale-v2.3",
+        "name": "L3.3-70B-Euryale-v2.3",
+        "created_by": "sao10k",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "sao10k",
+        "description": "L3.3-70B-Euryale-v2.3 is a model focused on creative roleplay from Sao10k",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "open_weight": true,
+        "capabilities": {
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.85,
+          "output": 0.85
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "L3.3-70B-Euryale-v2.3 is a model focused on creative roleplay from Sao10k"
+      },
+      {
+        "id": "sentence-transformers/all-MiniLM-L12-v2",
+        "name": "all-MiniLM-L12-v2",
+        "created_by": "sentence-transformers",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "sentence-transformers",
+        "description": "We present a sentence transformation model that generates semantically similar sentences. Our model is based on the Sentence-Transformers architecture and was trained on a large dataset of sentence pairs. We evaluate the effectiveness of our model by measuring its ability to generate similar sentences that are close to the original sentence in meaning.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "We present a sentence transformation model that generates semantically similar sentences."
+      },
+      {
+        "id": "sentence-transformers/all-MiniLM-L6-v2",
+        "name": "all-MiniLM-L6-v2",
+        "created_by": "sentence-transformers",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "sentence-transformers",
+        "description": "We present a sentence transformation model that achieves state-of-the-art results on various NLP tasks without requiring task-specific architectures or fine-tuning. Our approach leverages contrastive learning and utilizes a variety of datasets to learn robust sentence representations. We evaluate our model on several benchmarks and demonstrate its effectiveness in various applications such as text classification, sentiment analysis, named entity recognition, and question answering.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "We present a sentence transformation model that achieves state-of-the-art results on various NLP tasks without requiring task-specific architectures or fine-tuning."
+      },
+      {
+        "id": "sentence-transformers/all-mpnet-base-v2",
+        "name": "all-mpnet-base-v2",
+        "created_by": "sentence-transformers",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "sentence-transformers",
+        "description": "A sentence transformation model that has been trained on a wide range of datasets, including but not limited to S2ORC, WikiAnwers, PAQ, Stack Exchange, and Yahoo! Answers. Our model can be used for various NLP tasks such as clustering, sentiment analysis, and question answering.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "A sentence transformation model that has been trained on a wide range of datasets, including but not limited to S2ORC, WikiAnwers, PAQ, Stack Exchange, and Yahoo! Answers."
+      },
+      {
+        "id": "sentence-transformers/clip-ViT-B-32-multilingual-v1",
+        "name": "clip-ViT-B-32-multilingual-v1",
+        "created_by": "sentence-transformers",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "sentence-transformers",
+        "description": "This model is a multilingual version of the OpenAI CLIP-ViT-B32 model, which maps text and images to a common dense vector space. It includes a text embedding model that works for 50+ languages and an image encoder from CLIP. The model was trained using Multilingual Knowledge Distillation, where a multilingual DistilBERT model was trained as a student model to align the vector space of the original CLIP image encoder across many languages.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "This model is a multilingual version of the OpenAI CLIP-ViT-B32 model, which maps text and images to a common dense vector space."
+      },
+      {
+        "id": "sentence-transformers/clip-ViT-B-32",
+        "name": "clip-ViT-B-32",
+        "created_by": "sentence-transformers",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "sentence-transformers",
+        "description": "The CLIP model maps text and images to a shared vector space, enabling various applications such as image search, zero-shot image classification, and image clustering. The model can be used easily after installation, and its performance is demonstrated through zero-shot ImageNet validation set accuracy scores. Multilingual versions of the model are also available for 50+ languages.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "The CLIP model maps text and images to a shared vector space, enabling various applications such as image search, zero-shot image classification, and image clustering."
+      },
+      {
+        "id": "sentence-transformers/multi-qa-mpnet-base-dot-v1",
+        "name": "multi-qa-mpnet-base-dot-v1",
+        "created_by": "sentence-transformers",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "sentence-transformers",
+        "description": "We present a sentence transformation model that maps sentences and paragraphs to a 768-dimensional dense vector space, suitable for semantic search tasks. The model is trained on 215 million question-answer pairs from various sources, including WikiAnswers, PAQ, Stack Exchange, MS MARCO, GOOAQ, Amazon QA, Yahoo Answers, Search QA, ELI5, and Natural Questions. Our model uses a contrastive learning objective.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "We present a sentence transformation model that maps sentences and paragraphs to a 768-dimensional dense vector space, suitable for semantic search tasks."
+      },
+      {
+        "id": "sentence-transformers/paraphrase-MiniLM-L6-v2",
+        "name": "paraphrase-MiniLM-L6-v2",
+        "created_by": "sentence-transformers",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "sentence-transformers",
+        "description": "We present a sentence similarity model based on the Sentence Transformers architecture, which maps sentences to a 384-dimensional dense vector space. The model uses a pre-trained BERT encoder and applies mean pooling on top of the contextualized word embeddings to obtain sentence embeddings. We evaluate the model on the Sentence Embeddings Benchmark.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "We present a sentence similarity model based on the Sentence Transformers architecture, which maps sentences to a 384-dimensional dense vector space."
+      },
+      {
+        "id": "sesame/csm-1b",
+        "name": "csm-1b",
+        "created_by": "sesame",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "sesame",
+        "description": "CSM (Conversational Speech Model) is a speech generation model from Sesame that generates RVQ audio codes from text and audio inputs. The model architecture employs a Llama backbone and a smaller audio decoder that produces Mimi audio codes.",
+        "status": "active",
+        "model_type": "tts",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "$7.0000 per 1M input characters"
+        ],
+        "tagline": "CSM (Conversational Speech Model) is a speech generation model from Sesame that generates RVQ audio codes from text and audio inputs."
+      },
+      {
+        "id": "shibing624/text2vec-base-chinese",
+        "name": "text2vec-base-chinese",
+        "created_by": "shibing624",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "shibing624",
+        "description": "A sentence similarity model that can be used for various NLP tasks such as text classification, sentiment analysis, named entity recognition, question answering, and more. It utilizes the CoSENT architecture, which consists of a transformer encoder and a pooling module, to encode input texts into vectors that capture their semantic meaning. The model was trained on the nli_zh dataset and achieved high performance on various benchmark datasets.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "A sentence similarity model that can be used for various NLP tasks such as text classification, sentiment analysis, named entity recognition, question answering, and more."
+      },
+      {
+        "id": "stabilityai/sdxl-turbo",
+        "name": "sdxl-turbo",
+        "created_by": "stability-ai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "sdxl",
+        "description": "The SDXL Turbo model, developed by Stability AI, is an optimized, fast text-to-image generative model. It is a distilled version of SDXL 1.0, leveraging Adversarial Diffusion Distillation (ADD) to generate high-quality images in less steps.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": true,
+        "license": "stability-ai",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0002 per image unit (1024x1024 default)"
+        ],
+        "tagline": "The SDXL Turbo model, developed by Stability AI, is an optimized, fast text-to-image generative model."
+      },
+      {
+        "id": "stepfun-ai/Step-3.5-Flash",
+        "name": "Step-3.5-Flash",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-3",
+        "description": "Step 3.5 Flash is an open-source reasoning model by StepFun with 196B total parameters (11B active) using Mixture of Experts. It features a 256K context window, deep reasoning, tool calling, and agentic capabilities, achieving 97.3 on AIME 2025 and 74.4% on SWE-bench Verified.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 262144,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "streaming": true,
+          "fine_tuning": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3,
+          "cached_input": 0.02
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp8",
+        "tagline": "Step 3.5 Flash is an open-source reasoning model by StepFun with 196B total parameters (11B active) using Mixture of Experts."
+      },
+      {
+        "id": "thenlper/gte-base",
+        "name": "gte-base",
+        "created_by": "thenlper",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "thenlper",
+        "description": "The GTE models are trained by Alibaba DAMO Academy. They are mainly based on the BERT framework and currently offer three different sizes of models, including GTE-large, GTE-base, and GTE-small. The GTE models are trained on a large-scale corpus of relevance text pairs, covering a wide range of domains and scenarios. This enables the GTE models to be applied to various downstream tasks of text embeddings, including information retrieval, semantic textual similarity, text reranking, etc.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "The GTE models are trained by Alibaba DAMO Academy."
+      },
+      {
+        "id": "thenlper/gte-large",
+        "name": "gte-large",
+        "created_by": "thenlper",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "thenlper",
+        "description": "The GTE models are trained by Alibaba DAMO Academy. They are mainly based on the BERT framework and currently offer three different sizes of models, including GTE-large, GTE-base, and GTE-small. The GTE models are trained on a large-scale corpus of relevance text pairs, covering a wide range of domains and scenarios. This enables the GTE models to be applied to various downstream tasks of text embeddings, including information retrieval, semantic textual similarity, text reranking, etc.",
+        "status": "active",
+        "model_type": "embed",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "tagline": "The GTE models are trained by Alibaba DAMO Academy."
+      },
+      {
+        "id": "Wan-AI/Wan2.2-T2V-A14B",
+        "name": "Wan2.2-T2V-A14B",
+        "created_by": "wan-ai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Wan2.2",
+        "description": "The Wan2.2 T2V A14B is a next-generation 14B-parameter video foundation model by Wan-AI featuring a novel two-stage denoising architecture. It produces 480P videos with improved visual coherence and detail, generating 2 or 5 second clips at 16fps from text prompts.",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "tagline": "The Wan2.2 T2V A14B is a next-generation 14B-parameter video foundation model by Wan-AI featuring a novel two-stage denoising architecture."
+      },
+      {
+        "id": "Wan-AI/Wan2.6-I2V",
+        "name": "Wan2.6-I2V",
+        "created_by": "wan-ai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Wan2.6",
+        "description": "Turn any image into a video. Intelligent shot scheduling supports multi-shot storytelling, generating multi-shot narrative videos with consistent subjects, scenes, and atmosphere",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "pricing_notes": [
+          "$0.10 / second"
+        ],
+        "tagline": "Turn any image into a video."
+      },
+      {
+        "id": "Wan-AI/Wan2.6-Image-Edit",
+        "name": "Wan2.6-Image-Edit",
+        "created_by": "wan-ai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Wan2.6",
+        "description": "An all-round image generation model that supports joint text–image reasoning, multi-image creative fusion, commercial-grade consistency, aesthetic style transfer, and precise control of framing and lighting, significantly enhancing consistency, controllability, and expressiveness in image generation.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0300 per image unit (0x0 default)"
+        ],
+        "tagline": "An all-round image generation model that supports joint text–image reasoning, multi-image creative fusion, commercial-grade consistency, aesthetic style transfer, and precise control of framing and li"
+      },
+      {
+        "id": "Wan-AI/Wan2.6-T2I",
+        "name": "Wan2.6-T2I",
+        "created_by": "wan-ai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Wan2.6",
+        "description": "Wan2.6 text to image, Upgraded visual quality, aesthetics, and instruction-following deliver precise style control, realistic portraits, long-text understanding, and broad historical/cultural IP coverage, enabling high-quality, highly expressive visual generation.",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0300 per image unit (0x0 default)"
+        ],
+        "tagline": "Wan2.6 text to image, Upgraded visual quality, aesthetics, and instruction-following deliver precise style control, realistic portraits, long-text understanding, and broad historical/cultural IP cover"
+      },
+      {
+        "id": "Wan-AI/Wan2.6-T2V",
+        "name": "Wan2.6-T2V",
+        "created_by": "wan-ai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Wan2.6",
+        "description": "Turn any prompt into a smooth video. Intelligent shot scheduling supports multi-shot storytelling, generating multi-shot narrative videos with consistent subjects, scenes, and atmosphere",
+        "status": "active",
+        "model_type": "video",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "pricing_notes": [
+          "$0.10 / second"
+        ],
+        "tagline": "Turn any prompt into a smooth video."
+      },
+      {
+        "id": "Wan-AI/Wan2.7-Image-Edit",
+        "name": "Wan2.7-Image-Edit",
+        "created_by": "wan-ai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "Wan2.7",
+        "description": "Bleeding edge image model supporting generation and editing, text to image, text/image to sequential images, image editing, multi-image reference generation, and interactive editing. Delivers enhanced performance in text rendering, subject consistency, and complex instruction following",
+        "status": "active",
+        "model_type": "image",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.0300 per image unit (0x0 default)"
+        ],
+        "tagline": "Bleeding edge image model supporting generation and editing, text to image, text/image to sequential images, image editing, multi-image reference generation, and interactive editing."
+      },
+      {
+        "id": "zai-org/GLM-4.6",
+        "name": "GLM-4.6",
+        "created_by": "zhipu",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "GLM-4.6",
+        "description": "Compared with GLM-4.5, GLM-4.6 brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex agentic tasks. Superior coding performance: The model achieves higher scores on code benchmarks and demonstrates better real-world performance in applications such as Claude Code、Cline、Roo Code and Kilo Code, including improvements in generating visually polished front-end pages. Advanced reasoning: GLM-...",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 202752,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "mit",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.43,
+          "output": 1.74,
+          "cached_input": 0.08
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "Compared with GLM-4.5, GLM-4.6 brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex agentic tasks."
+      },
+      {
+        "id": "zai-org/GLM-4.7-Flash",
+        "name": "GLM-4.7-Flash",
+        "created_by": "zhipu",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "GLM-4.7",
+        "description": "GLM-4.7-Flash is a 30B-A3B MoE model. As the strongest model in the 30B class, GLM-4.7-Flash offers a new option for lightweight deployment that balances performance and efficiency.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 202752,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "mit",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.06,
+          "output": 0.4,
+          "cached_input": 0.01
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "bfloat16",
+        "tagline": "GLM-4.7-Flash is a 30B-A3B MoE model."
+      },
+      {
+        "id": "zai-org/GLM-4.7",
+        "name": "GLM-4.7",
+        "created_by": "zhipu",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "GLM-4.7",
+        "description": "GLM-4.7 is a state-of-the-art, multilingual Mixture-of-Experts (MoE) language model designed for complex reasoning, agentic coding, and tool use. Building on its predecessor GLM-4.6, it delivers significant improvements across key benchmarks, including multilingual SWE-bench, Terminal Bench, and reasoning-heavy evaluations like HLE. The model features advanced \"Interleaved Thinking\" and new \"Preserved Thinking\" modes, allowing it to reason before actions and maintain consistency across long, ...",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 202752,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "mit",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 1.75,
+          "cached_input": 0.08
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "GLM-4.7 is a state-of-the-art, multilingual Mixture-of-Experts (MoE) language model designed for complex reasoning, agentic coding, and tool use."
+      },
+      {
+        "id": "zai-org/GLM-5.1",
+        "name": "GLM-5.1",
+        "created_by": "zhipu",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "GLM-5.1",
+        "description": "GLM-5.1 is Z-AI's next-generation flagship model for agentic engineering, with significantly stronger coding capabilities than its predecessor. It achieves state-of-the-art performance on SWE-Bench Pro and leads GLM-5 by a wide margin on NL2Repo (repo generation) and Terminal-Bench 2.0 (real-world terminal tasks).",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 202752,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "mit",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.05,
+          "output": 3.5,
+          "cached_input": 0.205
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "GLM-5.1 is Z-AI's next-generation flagship model for agentic engineering, with significantly stronger coding capabilities than its predecessor."
+      },
+      {
+        "id": "zai-org/GLM-5",
+        "name": "GLM-5",
+        "created_by": "zhipu",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "GLM-5",
+        "description": "GLM-5 is an advanced, open-source large language model designed for developers tackling the toughest challenges. It excels at long-context reasoning, multi-step tool orchestration, and complex systems engineering, making it the ideal choice for powering sophisticated agents and applications that require high-level cognitive tasks.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 202752,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "mit",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.6,
+          "output": 2.08,
+          "cached_input": 0.12
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "quantization": "fp4",
+        "tagline": "GLM-5 is an advanced, open-source large language model designed for developers tackling the toughest challenges."
+      },
+      {
+        "id": "Zyphra/Zonos-v0.1-hybrid",
+        "name": "Zonos-v0.1-hybrid",
+        "created_by": "zyphra",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "zyphra",
+        "description": "Zonos-v0.1 is a leading open-weight text-to-speech model trained on more than 200k hours of varied multilingual speech, delivering expressiveness and quality on par with—or even surpassing—top TTS providers. Our model enables highly natural speech generation from text prompts when given a speaker embedding or audio prefix, and can accurately perform speech cloning when given a reference clip spanning just a few seconds. The conditioning setup also allows for fine control over speaking rate, p...",
+        "status": "active",
+        "model_type": "tts",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "$7.0000 per 1M input characters"
+        ],
+        "tagline": "Zonos-v0.1 is a leading open-weight text-to-speech model trained on more than 200k hours of varied multilingual speech, delivering expressiveness and quality on par with—or even surpassing—top TTS providers."
+      },
+      {
+        "id": "Zyphra/Zonos-v0.1-transformer",
+        "name": "Zonos-v0.1-transformer",
+        "created_by": "zyphra",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "zyphra",
+        "description": "Zonos-v0.1 is a leading open-weight text-to-speech model trained on more than 200k hours of varied multilingual speech, delivering expressiveness and quality on par with—or even surpassing—top TTS providers. Our model enables highly natural speech generation from text prompts when given a speaker embedding or audio prefix, and can accurately perform speech cloning when given a reference clip spanning just a few seconds. The conditioning setup also allows for fine control over speaking rate, p...",
+        "status": "active",
+        "model_type": "tts",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "$7.0000 per 1M input characters"
+        ],
+        "tagline": "Zonos-v0.1 is a leading open-weight text-to-speech model trained on more than 200k hours of varied multilingual speech, delivering expressiveness and quality on par with—or even surpassing—top TTS providers."
       }
     ]
   },
@@ -68895,6 +76256,926 @@ export const providers: ProviderWithModels[] = [
     ]
   },
   {
+    "id": "inception",
+    "name": "Inception Labs",
+    "region": "US",
+    "headquarters": "Palo Alto, CA",
+    "founded": 2024,
+    "url": "https://www.inceptionlabs.ai",
+    "api_url": "https://api.inceptionlabs.ai/v1",
+    "docs_url": "https://docs.inceptionlabs.ai",
+    "pricing_url": "https://docs.inceptionlabs.ai/get-started/models",
+    "description": "AI lab pioneering diffusion large language models (dLLMs) with the Mercury family for fast parallel-token generation.",
+    "type": "direct",
+    "playground_url": "https://platform.inceptionlabs.ai",
+    "openai_compatible": true,
+    "free_tier": true,
+    "models_url": "https://docs.inceptionlabs.ai/get-started/models",
+    "blog_url": "https://www.inceptionlabs.ai/blog",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n  <path d=\"M12 2a10 10 0 100 20 10 10 0 000-20zm0 3.2a6.8 6.8 0 016.8 6.8c0 1.6-.5 3-1.4 4.2L7.8 6.6a6.8 6.8 0 014.2-1.4zM5.2 12a6.8 6.8 0 011.4-4.2l9.6 9.6a6.8 6.8 0 01-4.2 1.4 6.8 6.8 0 01-6.8-6.8z\"/>\n</svg>",
+    "models": [
+      {
+        "id": "mercury-2",
+        "name": "Mercury 2",
+        "created_by": "inception",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "mercury",
+        "description": "Diffusion-based reasoning LLM with parallel token generation, native tool use, and schema-aligned JSON output.",
+        "tagline": "The fastest reasoning dLLM.",
+        "status": "active",
+        "model_type": "reasoning",
+        "context_window": 128000,
+        "max_output_tokens": 50000,
+        "release_date": "2026-04-23",
+        "reasoning_tokens": true,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.25,
+          "output": 0.75,
+          "cached_input": 0.025
+        }
+      },
+      {
+        "id": "mercury-coder",
+        "name": "Mercury Coder",
+        "created_by": "inception",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "mercury",
+        "description": "Diffusion LLM tuned for coding workflows; ranks 1st in speed and ties 2nd in quality on Copilot Arena.",
+        "tagline": "Diffusion LLM for fast code generation.",
+        "status": "active",
+        "model_type": "code",
+        "context_window": 128000,
+        "max_output_tokens": 32000,
+        "release_date": "2025-04-30",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.25,
+          "output": 0.75,
+          "cached_input": 0.025
+        }
+      },
+      {
+        "id": "mercury-edit-2",
+        "name": "Mercury Edit 2",
+        "created_by": "inception",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "mercury",
+        "description": "Compact diffusion LLM optimized for code editing, fill-in-the-middle, apply-edit, and next-edit suggestions.",
+        "tagline": "Code-editing dLLM for latency-sensitive workflows.",
+        "status": "active",
+        "model_type": "code",
+        "context_window": 128000,
+        "max_output_tokens": 32000,
+        "release_date": "2026-04-23",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "fim_completions",
+          "edit_completions"
+        ],
+        "pricing": {
+          "input": 0.25,
+          "output": 0.75,
+          "cached_input": 0.025
+        }
+      },
+      {
+        "id": "mercury-edit",
+        "name": "Mercury Edit",
+        "created_by": "inception",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "mercury",
+        "description": "First-generation code-editing diffusion LLM for fill-in-the-middle and apply-edit endpoints.",
+        "tagline": "Code-editing dLLM.",
+        "status": "active",
+        "model_type": "code",
+        "context_window": 128000,
+        "max_output_tokens": 32000,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "fim_completions",
+          "edit_completions"
+        ],
+        "pricing": {
+          "input": 0.25,
+          "output": 0.75,
+          "cached_input": 0.025
+        }
+      },
+      {
+        "id": "mercury",
+        "name": "Mercury",
+        "created_by": "inception",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "mercury",
+        "description": "First-generation diffusion LLM running 5-10x faster than speed-optimized autoregressive models like GPT-4.1 Nano and Claude 3.5 Haiku.",
+        "tagline": "The first diffusion large language model.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 128000,
+        "max_output_tokens": 32000,
+        "release_date": "2025-06-26",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.25,
+          "output": 0.75,
+          "cached_input": 0.025
+        }
+      }
+    ]
+  },
+  {
+    "id": "jina",
+    "name": "Jina AI",
+    "region": "DE",
+    "headquarters": "Berlin, Germany",
+    "founded": 2020,
+    "url": "https://jina.ai",
+    "api_url": "https://api.jina.ai/v1",
+    "docs_url": "https://api.jina.ai/scalar",
+    "pricing_url": "https://jina.ai/embeddings/",
+    "description": "Search foundation provider offering multilingual embeddings, rerankers, classifiers, web reader, and search APIs.",
+    "type": "direct",
+    "openai_compatible": false,
+    "free_tier": true,
+    "github_url": "https://github.com/jina-ai",
+    "models_url": "https://api.jina.ai/v1/models",
+    "twitter_url": "https://x.com/JinaAI_",
+    "blog_url": "https://jina.ai/news/",
+    "support_url": "https://jina.ai/contact-sales/",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n  <path d=\"M3 4h6v2H5v12h4v2H3V4zm12 0h6v16h-6v-2h4V6h-4V4z\"/>\n  <path d=\"M11 8h2v8a3 3 0 0 1-3 3v-2a1 1 0 0 0 1-1V8z\"/>\n</svg>",
+    "models": [
+      {
+        "id": "jina-clip-v1",
+        "name": "Jina CLIP v1",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-clip",
+        "description": "223M-parameter English multimodal embedding model excelling in both text-text and text-image retrieval.",
+        "tagline": "First-generation CLIP-style embeddings.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 8192,
+        "release_date": "2024-06-05",
+        "license": "apache-2.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.05
+        },
+        "output_dimensions": [
+          768
+        ]
+      },
+      {
+        "id": "jina-clip-v2",
+        "name": "Jina CLIP v2",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-clip",
+        "description": "865M-parameter multimodal multilingual embedding model for text-image retrieval across 89 languages with 512x512 image resolution.",
+        "tagline": "Multilingual CLIP-style multimodal embeddings.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 8192,
+        "release_date": "2024-11-05",
+        "license": "cc-by-nc-4.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.05
+        },
+        "output_dimensions": [
+          64,
+          128,
+          256,
+          512,
+          768,
+          1024
+        ]
+      },
+      {
+        "id": "jina-code-embeddings-0.5b",
+        "name": "Jina Code Embeddings 0.5B",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-code-embeddings",
+        "description": "494M-parameter code embedding model on Qwen2.5-Coder-0.5B for NL2Code, TechQA, Code2Code, Code2NL, and Code2Completion tasks.",
+        "tagline": "Compact Qwen-Coder code embeddings.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 32768,
+        "release_date": "2025-09-01",
+        "license": "apache-2.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.05
+        },
+        "output_dimensions": [
+          128,
+          256,
+          512,
+          896
+        ]
+      },
+      {
+        "id": "jina-code-embeddings-1.5b",
+        "name": "Jina Code Embeddings 1.5B",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-code-embeddings",
+        "description": "1.54B-parameter code embedding model on Qwen2.5-Coder-1.5B with last-token pooling and Matryoshka representations.",
+        "tagline": "Larger Qwen-Coder code embeddings.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 32768,
+        "release_date": "2025-09-01",
+        "license": "apache-2.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.05
+        },
+        "output_dimensions": [
+          128,
+          256,
+          512,
+          1024,
+          1536
+        ]
+      },
+      {
+        "id": "jina-colbert-v1-en",
+        "name": "Jina ColBERT v1 English",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-colbert",
+        "description": "137M-parameter English-only ColBERT-style late-interaction retrieval model.",
+        "tagline": "First-generation English ColBERT.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 8192,
+        "release_date": "2024-02-17",
+        "license": "apache-2.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.05
+        },
+        "output_dimensions": [
+          128
+        ]
+      },
+      {
+        "id": "jina-colbert-v2",
+        "name": "Jina ColBERT v2",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-colbert",
+        "description": "Late-interaction multilingual retrieval model across 89 languages with user-controlled embedding sizes.",
+        "tagline": "Multilingual late-interaction retrieval.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 8192,
+        "release_date": "2024-08-30",
+        "license": "cc-by-nc-4.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.05
+        },
+        "output_dimensions": [
+          64,
+          96,
+          128
+        ]
+      },
+      {
+        "id": "jina-embeddings-v2-base-code",
+        "name": "Jina Embeddings v2 Base Code",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-embeddings-v2",
+        "description": "English embedding model specialized for code retrieval across 30 programming languages with 8K context.",
+        "tagline": "Code embeddings, natural-language queries.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 8192,
+        "release_date": "2024-02-05",
+        "license": "apache-2.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.05
+        },
+        "output_dimensions": [
+          768
+        ]
+      },
+      {
+        "id": "jina-embeddings-v2-base-de",
+        "name": "Jina Embeddings v2 Base German",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-embeddings-v2",
+        "description": "Bilingual German-English embedding model with 8K context length.",
+        "tagline": "German-English bilingual embeddings.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 8192,
+        "release_date": "2024-01-15",
+        "license": "apache-2.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.05
+        },
+        "output_dimensions": [
+          768
+        ]
+      },
+      {
+        "id": "jina-embeddings-v2-base-en",
+        "name": "Jina Embeddings v2 Base English",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-embeddings-v2",
+        "description": "English text embedding model with 8K context length and 0.27GB footprint.",
+        "tagline": "Long-context English embeddings.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 8192,
+        "release_date": "2023-10-28",
+        "license": "apache-2.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.05
+        },
+        "output_dimensions": [
+          768
+        ]
+      },
+      {
+        "id": "jina-embeddings-v2-base-es",
+        "name": "Jina Embeddings v2 Base Spanish",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-embeddings-v2",
+        "description": "Bilingual Spanish-English embedding model with 8K context length.",
+        "tagline": "Spanish-English bilingual embeddings.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 8192,
+        "release_date": "2024-02-14",
+        "license": "apache-2.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.05
+        },
+        "output_dimensions": [
+          768
+        ]
+      },
+      {
+        "id": "jina-embeddings-v2-base-zh",
+        "name": "Jina Embeddings v2 Base Chinese",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-embeddings-v2",
+        "description": "Bilingual Chinese-English embedding model with 8K context length.",
+        "tagline": "Chinese-English bilingual embeddings.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 8192,
+        "release_date": "2024-01-09",
+        "license": "apache-2.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.05
+        },
+        "output_dimensions": [
+          768
+        ]
+      },
+      {
+        "id": "jina-embeddings-v3",
+        "name": "Jina Embeddings v3",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-embeddings-v3",
+        "description": "570M-parameter multilingual text embedding model with task-specific LoRA adapters, late chunking, and Matryoshka representations across 89 languages.",
+        "tagline": "Multilingual embeddings with task LoRAs.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 8192,
+        "release_date": "2024-09-18",
+        "license": "cc-by-nc-4.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.05
+        },
+        "output_dimensions": [
+          32,
+          64,
+          128,
+          256,
+          512,
+          768,
+          1024
+        ]
+      },
+      {
+        "id": "jina-embeddings-v4",
+        "name": "Jina Embeddings v4",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-embeddings-v4",
+        "description": "3.8B-parameter multimodal embedding model on Qwen2.5-VL-3B-Instruct with single- and multi-vector retrieval. Supports 89 languages.",
+        "tagline": "Multimodal text and image embeddings.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 32768,
+        "release_date": "2025-06-24",
+        "license": "qwen-research",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.05
+        },
+        "pricing_notes": [
+          "Free of charge via API under Qwen Research License (non-commercial). Commercial use requires separate license."
+        ],
+        "output_dimensions": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ]
+      },
+      {
+        "id": "jina-embeddings-v5-text-nano",
+        "name": "Jina Embeddings v5 Text Nano",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-embeddings-v5",
+        "description": "239M-parameter multilingual text embedding model on EuroBERT-210M with Matryoshka representation learning.",
+        "tagline": "Lightweight v5 multilingual embeddings.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 8192,
+        "release_date": "2026-02-18",
+        "license": "jina-ai",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.02
+        },
+        "output_dimensions": [
+          32,
+          64,
+          128,
+          256,
+          512,
+          768
+        ]
+      },
+      {
+        "id": "jina-embeddings-v5-text-small",
+        "name": "Jina Embeddings v5 Text Small",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-embeddings-v5",
+        "description": "677M-parameter multilingual text embedding model on Qwen3-0.6B-Base with task-specific LoRA adapters and Matryoshka representation learning.",
+        "tagline": "Fifth-generation small multilingual embeddings.",
+        "status": "active",
+        "model_type": "embed",
+        "context_window": 32768,
+        "release_date": "2026-02-18",
+        "license": "jina-ai",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "pricing": {
+          "input": 0.05
+        },
+        "output_dimensions": [
+          32,
+          64,
+          128,
+          256,
+          512,
+          768,
+          1024
+        ]
+      },
+      {
+        "id": "jina-reranker-m0",
+        "name": "Jina Reranker M0",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-reranker",
+        "description": "Multimodal multilingual reranker for visual documents across 29 languages.",
+        "tagline": "Multimodal reranker for visual documents.",
+        "status": "active",
+        "model_type": "rerank",
+        "context_window": 10240,
+        "release_date": "2025-04-08",
+        "license": "cc-by-nc-4.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "rerank"
+        ],
+        "pricing": {
+          "input": 0.05
+        }
+      },
+      {
+        "id": "jina-reranker-v1-base-en",
+        "name": "Jina Reranker v1 Base English",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-reranker",
+        "description": "English cross-encoder reranker for token-level query-document analysis.",
+        "tagline": "First-generation English reranker.",
+        "status": "active",
+        "model_type": "rerank",
+        "context_window": 8192,
+        "release_date": "2024-02-29",
+        "license": "apache-2.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "rerank"
+        ],
+        "pricing": {
+          "input": 0.05
+        }
+      },
+      {
+        "id": "jina-reranker-v1-tiny-en",
+        "name": "Jina Reranker v1 Tiny English",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-reranker",
+        "description": "33M-parameter English reranker via knowledge distillation, 5x faster with 92% accuracy.",
+        "tagline": "Tiny English reranker.",
+        "status": "active",
+        "model_type": "rerank",
+        "context_window": 8192,
+        "release_date": "2024-04-18",
+        "license": "apache-2.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "rerank"
+        ],
+        "pricing": {
+          "input": 0.05
+        }
+      },
+      {
+        "id": "jina-reranker-v1-turbo-en",
+        "name": "Jina Reranker v1 Turbo English",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-reranker",
+        "description": "Latency-optimized English reranker, 3x faster than the base model with 95% accuracy.",
+        "tagline": "Fast English reranker.",
+        "status": "active",
+        "model_type": "rerank",
+        "context_window": 8192,
+        "release_date": "2024-04-18",
+        "license": "apache-2.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "rerank"
+        ],
+        "pricing": {
+          "input": 0.05
+        }
+      },
+      {
+        "id": "jina-reranker-v2-base-multilingual",
+        "name": "Jina Reranker v2 Base Multilingual",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-reranker",
+        "description": "278M-parameter cross-encoder reranker supporting 100+ languages with function-calling and code search.",
+        "tagline": "Multilingual cross-encoder reranker.",
+        "status": "active",
+        "model_type": "rerank",
+        "context_window": 1024,
+        "release_date": "2024-06-25",
+        "license": "cc-by-nc-4.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "rerank"
+        ],
+        "pricing": {
+          "input": 0.05
+        }
+      },
+      {
+        "id": "jina-reranker-v3",
+        "name": "Jina Reranker v3",
+        "created_by": "jina",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "jina-reranker",
+        "description": "0.6B-parameter multilingual document reranker on Qwen3-0.6B with last-but-not-late interaction architecture and 131K context.",
+        "tagline": "Listwise multilingual reranker, 131K context.",
+        "status": "active",
+        "model_type": "rerank",
+        "context_window": 131072,
+        "release_date": "2025-10-01",
+        "license": "jina-ai",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": []
+        },
+        "endpoints": [
+          "rerank"
+        ],
+        "pricing": {
+          "input": 0.05
+        }
+      }
+    ]
+  },
+  {
     "id": "meta",
     "name": "Meta Llama",
     "region": "US",
@@ -77713,7 +85994,25 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": true
+        },
+        "description": "Flagship reasoning model with 256k context, MoE architecture (199B total, ~11B active). Optimized for agentic tasks, tool calling, planning, math, and coding.",
+        "tagline": "Frontier reasoning and agentic capabilities at low cost.",
+        "context_window": 256000,
+        "license": "apache-2.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
         }
       },
       {
@@ -97550,7 +105849,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
-          "json_mode": true
+          "json_mode": true,
+          "streaming": true
         },
         "pricing": {
           "input": 0.25,
@@ -97561,7 +105861,9 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Mercury 2 is an extremely fast reasoning LLM, and the first reasoning diffusion LLM (dLLM).",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "inception/mercury-coder",
@@ -97583,7 +105885,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "tool_call": true,
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "streaming": true
         },
         "pricing": {
           "input": 0.25,
@@ -97596,7 +105899,9 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "status": "deprecated",
-        "deprecation_date": "2026-04-15"
+        "deprecation_date": "2026-04-15",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "inception/mercury",
@@ -97620,7 +105925,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "tool_call": true,
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "streaming": true
         },
         "pricing": {
           "input": 0.25,
@@ -97631,7 +105937,9 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Mercury is the first diffusion large language model (dLLM).",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "inclusionai/ling-2.6-1t:free",
@@ -106110,7 +114418,9 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "tool_call": true,
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "vision": true,
+          "streaming": true
         },
         "modalities": {
           "input": [
@@ -106129,7 +114439,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-03-27"
+        "last_updated": "2026-03-27",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "rekaai/reka-edge",
@@ -106441,7 +114753,9 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
         },
         "pricing": {
           "input": 0.1,
@@ -106452,7 +114766,9 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Step 3.5 Flash is StepFun's most capable open-source foundation model.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "license": "apache-2.0",
+        "open_weight": true
       },
       {
         "id": "switchpoint/router",
@@ -106777,7 +115093,16 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "release_date": "2026-01-21",
-        "tagline": "Palmyra X5 is Writer's most advanced model, purpose-built for building and scaling AI agents across the enterprise."
+        "tagline": "Palmyra X5 is Writer's most advanced model, purpose-built for building and scaling AI agents across the enterprise.",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        }
       },
       {
         "id": "x-ai/grok-3-beta",
@@ -106870,7 +115195,8 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "json_mode": true,
-          "streaming": true
+          "streaming": true,
+          "batch": true
         },
         "pricing": {
           "input": 0.3,
@@ -106883,6 +115209,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false
       },
@@ -106907,7 +115234,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "json_mode": true,
-          "streaming": true
+          "streaming": true,
+          "batch": true
         },
         "pricing": {
           "input": 3,
@@ -106920,6 +115248,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false
       },
@@ -107192,7 +115521,8 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "json_mode": true,
-          "streaming": true
+          "streaming": true,
+          "batch": true
         },
         "pricing": {
           "input": 0.2,
@@ -112535,6 +120865,1728 @@ export const providers: ProviderWithModels[] = [
     ]
   },
   {
+    "id": "recraft",
+    "name": "Recraft",
+    "region": "GB",
+    "headquarters": "London, UK",
+    "founded": 2022,
+    "url": "https://www.recraft.ai",
+    "api_url": "https://external.api.recraft.ai/v1",
+    "docs_url": "https://www.recraft.ai/docs",
+    "pricing_url": "https://www.recraft.ai/docs/api-reference/pricing",
+    "description": "AI image platform for designers; produces both raster and editable vector (SVG) outputs with brand-style preservation.",
+    "type": "direct",
+    "playground_url": "https://app.recraft.ai",
+    "openai_compatible": true,
+    "free_tier": true,
+    "models_url": "https://www.recraft.ai/docs/recraft-models/choosing-a-model",
+    "blog_url": "https://www.recraft.ai/blog",
+    "discord_url": "https://discord.gg/recraft-ai",
+    "support_url": "https://www.recraft.ai/docs/support-and-faq/contact-support",
+    "terms_url": "https://www.recraft.ai/docs/trust-and-security/legal-and-policy-documents",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n  <path d=\"M5 3h7.5a5.5 5.5 0 0 1 3.182 9.99L20 21h-3.5l-4-7H8v7H5V3zm3 3v5h4.5a2.5 2.5 0 0 0 0-5H8z\"/>\n</svg>",
+    "models": [
+      {
+        "id": "recraftv2",
+        "name": "Recraft V2",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "recraft-v2",
+        "description": "First-generation Recraft raster model.",
+        "tagline": "Legacy Recraft V2 raster.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2024-02-01",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.022 per image (22 API units)."
+        ]
+      },
+      {
+        "id": "recraftv2_vector",
+        "name": "Recraft V2 Vector",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "recraft-v2",
+        "description": "First-generation vector / SVG output model.",
+        "tagline": "Legacy Recraft V2 vector.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2024-02-01",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.044 per image (44 API units)."
+        ]
+      },
+      {
+        "id": "recraftv3",
+        "name": "Recraft V3",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "recraft-v3",
+        "description": "Previously codenamed Red Panda; raster model with strong text rendering and brand-style preservation. Used for image-to-image, inpainting, and background editing endpoints.",
+        "tagline": "Recraft V3 raster (formerly Red Panda).",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2024-10-30",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images",
+          "image-to-image",
+          "inpaint",
+          "replace-background"
+        ],
+        "pricing_notes": [
+          "$0.040 per image (40 API units)."
+        ]
+      },
+      {
+        "id": "recraftv3_vector",
+        "name": "Recraft V3 Vector",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "recraft-v3",
+        "description": "Vector / SVG output variant of Recraft V3 for editable scalable graphics.",
+        "tagline": "Recraft V3 vector / SVG.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2024-10-30",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images",
+          "image-to-image",
+          "inpaint",
+          "replace-background"
+        ],
+        "pricing_notes": [
+          "$0.080 per image (80 API units)."
+        ]
+      },
+      {
+        "id": "recraftv4",
+        "name": "Recraft V4",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "recraft-v4",
+        "description": "Latest Recraft raster model with strong design sensibility, readable text, and consistent composition. Default model in the API.",
+        "tagline": "Design-forward raster image model.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2026-02-01",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.040 per image (40 API units)."
+        ]
+      },
+      {
+        "id": "recraftv4_pro",
+        "name": "Recraft V4 Pro",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "recraft-v4",
+        "description": "High-fidelity 2048x2048 raster tier of Recraft V4 with improved anatomy and realism for print-grade output.",
+        "tagline": "Print-grade raster Recraft V4.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2026-02-01",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.25 per image (250 API units)."
+        ]
+      },
+      {
+        "id": "recraftv4_pro_vector",
+        "name": "Recraft V4 Pro Vector",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "recraft-v4",
+        "description": "Top-tier vector model in the V4 family for production-ready SVG illustrations.",
+        "tagline": "Top-tier Recraft V4 vector model.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2026-02-01",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.30 per image (300 API units)."
+        ]
+      },
+      {
+        "id": "recraftv4_vector",
+        "name": "Recraft V4 Vector",
+        "created_by": "recraft",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "recraft-v4",
+        "description": "Recraft V4 model that outputs editable SVG vector graphics.",
+        "tagline": "V4 vector / SVG output.",
+        "status": "active",
+        "model_type": "image",
+        "release_date": "2026-02-01",
+        "open_weight": false,
+        "license": "proprietary",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "pricing_notes": [
+          "$0.080 per image (80 API units)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reka",
+    "name": "Reka AI",
+    "region": "US",
+    "headquarters": "San Francisco, CA",
+    "founded": 2022,
+    "url": "https://www.reka.ai",
+    "api_url": "https://api.reka.ai/v1",
+    "docs_url": "https://docs.reka.ai",
+    "pricing_url": "https://docs.reka.ai/pricing",
+    "description": "AI lab building multimodal foundation models with native text, image, audio, and video understanding.",
+    "type": "direct",
+    "playground_url": "https://platform.reka.ai",
+    "openai_compatible": false,
+    "free_tier": true,
+    "github_url": "https://github.com/reka-ai",
+    "models_url": "https://api.reka.ai/v1/models",
+    "blog_url": "https://reka.ai/news",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n  <path d=\"M4 4h7.4c2.9 0 4.9 1.7 4.9 4.4 0 2-1.1 3.4-2.9 4l3.6 7.6h-3.4l-3.2-7H7v7H4V4zm3 2.6v4.8h4c1.4 0 2.3-.9 2.3-2.4S12.4 6.6 11 6.6H7z\"/>\n</svg>",
+    "models": [
+      {
+        "id": "reka-core",
+        "name": "Reka Core",
+        "created_by": "reka",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "reka-core",
+        "description": "Frontier-class multimodal model handling text, image, audio, and video for complex reasoning tasks.",
+        "tagline": "Reka's frontier multimodal model.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 128000,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 2,
+          "output": 6
+        }
+      },
+      {
+        "id": "reka-edge",
+        "name": "Reka Edge",
+        "created_by": "reka",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "reka-edge",
+        "description": "7B multimodal vision-language model optimized for edge deployments, robotics, and real-time visual reasoning.",
+        "tagline": "Frontier-level edge VLM for physical AI.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 16384,
+        "max_output_tokens": 16384,
+        "release_date": "2026-03-20",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.1,
+          "output": 0.1
+        }
+      },
+      {
+        "id": "reka-flash-3",
+        "name": "Reka Flash 3",
+        "created_by": "reka",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "reka-flash",
+        "description": "21B-parameter general-purpose reasoning LLM with explicit reasoning tags and budget-forcing controls.",
+        "tagline": "Open-weight 21B reasoning model.",
+        "status": "active",
+        "model_type": "reasoning",
+        "context_window": 32000,
+        "release_date": "2025-03-10",
+        "reasoning_tokens": true,
+        "license": "apache-2.0",
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.2,
+          "output": 0.8
+        }
+      },
+      {
+        "id": "reka-flash-research",
+        "name": "Reka Flash Research",
+        "created_by": "reka",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "reka-research",
+        "description": "Research-tier endpoint with parallel-thinking modes for deep web-grounded answers.",
+        "tagline": "Web-grounded research model.",
+        "status": "active",
+        "model_type": "reasoning",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "reasoning": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing_notes": [
+          "$25/1k requests standard; $35/1k parallel-thinking low; $60/1k parallel-thinking high."
+        ]
+      },
+      {
+        "id": "reka-flash",
+        "name": "Reka Flash",
+        "created_by": "reka",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "reka-flash",
+        "description": "Cost-efficient multimodal vision-language model for everyday chat, coding, and instruction-following.",
+        "tagline": "Reliable and cost-efficient multimodal LLM.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 128000,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.8,
+          "output": 2
+        }
+      },
+      {
+        "id": "reka-spark",
+        "name": "Reka Spark",
+        "created_by": "reka",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "reka-spark",
+        "description": "Ultra-compact 1B model for embedding AI into the smallest devices.",
+        "tagline": "Tiny on-device multimodal model.",
+        "status": "active",
+        "model_type": "chat",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "vision": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.05,
+          "output": 0.05
+        }
+      }
+    ]
+  },
+  {
+    "id": "sambanova",
+    "name": "SambaNova Cloud",
+    "region": "US",
+    "headquarters": "Palo Alto, CA",
+    "founded": 2017,
+    "url": "https://sambanova.ai",
+    "api_url": "https://api.sambanova.ai/v1",
+    "docs_url": "https://docs.sambanova.ai",
+    "pricing_url": "https://cloud.sambanova.ai/plans/pricing",
+    "description": "Inference cloud built on custom RDU dataflow chips, delivering high-throughput hosting of open-weight models.",
+    "type": "cloud",
+    "playground_url": "https://cloud.sambanova.ai/playground",
+    "openai_compatible": true,
+    "free_tier": true,
+    "models_url": "https://cloud.sambanova.ai/models",
+    "twitter_url": "https://x.com/SambaNovaAI",
+    "blog_url": "https://sambanova.ai/blog",
+    "github_url": "https://github.com/sambanova",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n  <path d=\"M5 5h14a2 2 0 0 1 0 4h-9a2 2 0 0 0 0 4h9a4 4 0 0 1 0 8H5v-4h14a2 2 0 0 0 0-4h-9a4 4 0 0 1 0-8H5z\"/>\n</svg>",
+    "models": [
+      {
+        "id": "DeepSeek-R1-Distill-Llama-70B",
+        "name": "DeepSeek R1 Distill Llama 70B",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-r1-distill",
+        "description": "DeepSeek R1 reasoning distilled into a Llama 70B base.",
+        "status": "active",
+        "model_type": "reasoning",
+        "context_window": 32768,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "llama-3",
+        "capabilities": {
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.7,
+          "output": 1.4
+        }
+      },
+      {
+        "id": "DeepSeek-V3.1-cb",
+        "name": "DeepSeek V3.1 (continuous batching)",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-v3",
+        "description": "High-volume continuous-batching variant of DeepSeek V3.1 with reduced context and lower price.",
+        "status": "active",
+        "model_type": "reasoning",
+        "context_window": 32768,
+        "max_output_tokens": 32768,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.15,
+          "output": 0.75
+        },
+        "tagline": "High-volume continuous-batching variant of DeepSeek V3.1 with reduced context and lower price."
+      },
+      {
+        "id": "DeepSeek-V3.1",
+        "name": "DeepSeek V3.1",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-v3",
+        "description": "Hybrid reasoning MoE model with switchable thinking and non-thinking modes.",
+        "status": "active",
+        "model_type": "reasoning",
+        "context_window": 131072,
+        "max_output_tokens": 7168,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 3,
+          "output": 4.5
+        },
+        "tagline": "Hybrid reasoning MoE model with switchable thinking and non-thinking modes."
+      },
+      {
+        "id": "DeepSeek-V3.2",
+        "name": "DeepSeek V3.2",
+        "created_by": "deepseek",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "deepseek-v3",
+        "description": "Preview release of DeepSeek V3.2 on SambaCloud, high volume lane with limited context.",
+        "status": "preview",
+        "model_type": "reasoning",
+        "context_window": 32768,
+        "max_output_tokens": 7168,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "deepseek",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 3,
+          "output": 4.5
+        },
+        "tagline": "Preview release of DeepSeek V3.2 on SambaCloud, high volume lane with limited context."
+      },
+      {
+        "id": "gemma-3-12b-it",
+        "name": "Gemma 3 12B IT",
+        "created_by": "google",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "gemma-3",
+        "description": "Google Gemma 3 12B instruction-tuned open-weights model.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "max_output_tokens": 131072,
+        "open_weight": true,
+        "license": "gemma",
+        "capabilities": {
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.2,
+          "output": 0.35
+        },
+        "tagline": "Google Gemma 3 12B instruction-tuned open-weights model."
+      },
+      {
+        "id": "gpt-oss-120b",
+        "name": "GPT-OSS 120B",
+        "created_by": "openai",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "gpt-oss",
+        "description": "OpenAI's open-weight GPT-OSS 120B reasoning model.",
+        "status": "active",
+        "model_type": "reasoning",
+        "context_window": 131072,
+        "max_output_tokens": 131072,
+        "reasoning_tokens": true,
+        "open_weight": true,
+        "license": "apache-2.0",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true,
+          "vision": false,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.22,
+          "output": 0.59
+        },
+        "tagline": "OpenAI's open-weight GPT-OSS 120B reasoning model.",
+        "knowledge_cutoff": "2024-06",
+        "parameters": 120
+      },
+      {
+        "id": "Llama-4-Maverick-17B-128E-Instruct",
+        "name": "Llama 4 Maverick 17B 128E Instruct",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "llama-4",
+        "description": "Llama 4 Maverick MoE multimodal model (17B active, 128 experts) with vision input.",
+        "status": "preview",
+        "model_type": "chat",
+        "context_window": 131072,
+        "max_output_tokens": 4096,
+        "open_weight": true,
+        "license": "llama-4",
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.63,
+          "output": 1.8
+        },
+        "tagline": "Llama 4 Maverick MoE multimodal model (17B active, 128 experts) with vision input.",
+        "parameters": 402
+      },
+      {
+        "id": "Meta-Llama-3.3-70B-Instruct",
+        "name": "Llama 3.3 70B Instruct",
+        "created_by": "meta",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "llama-3",
+        "description": "Meta's Llama 3.3 70B instruction-tuned model.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 131072,
+        "max_output_tokens": 3072,
+        "open_weight": true,
+        "license": "llama-3.3",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.6,
+          "output": 1.2
+        },
+        "tagline": "Meta's Llama 3.3 70B instruction-tuned model."
+      },
+      {
+        "id": "MiniMax-M2.5",
+        "name": "MiniMax M2.5",
+        "created_by": "minimax",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "minimax-m2",
+        "description": "MiniMax M2.5 agentic and coding-focused open-weights model with long context.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 163840,
+        "max_output_tokens": 163840,
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.3,
+          "output": 1.2
+        },
+        "tagline": "MiniMax M2.5 agentic and coding-focused open-weights model with long context.",
+        "license": "mit"
+      }
+    ]
+  },
+  {
+    "id": "stepfun",
+    "name": "StepFun",
+    "region": "CN",
+    "headquarters": "Shanghai, Shanghai",
+    "founded": 2023,
+    "url": "https://www.stepfun.com",
+    "api_url": "https://api.stepfun.com/v1",
+    "docs_url": "https://platform.stepfun.com/docs",
+    "pricing_url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+    "description": "Chinese AI startup founded by ex-Microsoft engineers, building the Step series of foundation, reasoning, vision, and audio models.",
+    "type": "direct",
+    "openai_compatible": true,
+    "free_tier": false,
+    "github_url": "https://github.com/stepfun-ai",
+    "models_url": "https://platform.stepfun.com/docs/zh/guides/models/overview",
+    "blog_url": "https://www.stepfun.com/research",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n  <path d=\"M3 17h5v4H3v-4zm6.5-6h5v10h-5V11zM16 5h5v18h-5V5z\"/>\n</svg>",
+    "models": [
+      {
+        "id": "step-1-32k",
+        "name": "Step 1 32k",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-1",
+        "description": "Step 1 with extended 32k context. Suited for Q&A assistants, content editing, and industry analysis.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 32000,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 2.083,
+          "cached_input": 0.417,
+          "output": 9.722
+        }
+      },
+      {
+        "id": "step-1-8k",
+        "name": "Step 1 8k",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-1",
+        "description": "Hundred-billion parameter classic model with 8k context. Cost-effective option for short-context tasks like customer service and content generation.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 8000,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.694,
+          "cached_input": 0.139,
+          "output": 2.778
+        }
+      },
+      {
+        "id": "step-1o-audio",
+        "name": "Step 1o Audio",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-1o",
+        "description": "Real-time voice interaction model. 30-minute live sessions, 70-minute max audio input.",
+        "status": "active",
+        "model_type": "chat",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "realtime"
+        ]
+      },
+      {
+        "id": "step-1o-turbo-vision",
+        "name": "Step 1o Turbo Vision",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-1o",
+        "description": "Recommended vision model with strong image and video understanding. Up to 50 images per request and MP4 video input <128 MB.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 32000,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "vision": true,
+          "streaming": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.347,
+          "cached_input": 0.069,
+          "output": 1.111
+        }
+      },
+      {
+        "id": "step-1o-vision-32k",
+        "name": "Step 1o Vision 32k",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-1o",
+        "description": "Vision model with strong image analysis at 32k context, up to 50 images per request.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 32000,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "vision": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 2.083,
+          "cached_input": 0.417,
+          "output": 9.722
+        }
+      },
+      {
+        "id": "step-1v-32k",
+        "name": "Step 1v 32k",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-1v",
+        "description": "Vision-capable variant of Step 1 with 32k context. Up to 50 images per request.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 32000,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "vision": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 2.083,
+          "cached_input": 0.417,
+          "output": 9.722
+        }
+      },
+      {
+        "id": "step-1v-8k",
+        "name": "Step 1v 8k",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-1v",
+        "description": "Vision-capable variant of Step 1 with 8k context. Up to 20 images per request.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 8000,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "vision": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.694,
+          "cached_input": 0.139,
+          "output": 2.778
+        }
+      },
+      {
+        "id": "step-1x-edit",
+        "name": "Step 1x Edit",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-1x",
+        "description": "Image editing model. 512-character prompts, source image up to 1024x1024.",
+        "status": "active",
+        "model_type": "image",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images_edits"
+        ]
+      },
+      {
+        "id": "step-1x-medium",
+        "name": "Step 1x Medium",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-1x",
+        "description": "Text-to-image generation model. Up to 1024-character prompts, one image per request.",
+        "status": "active",
+        "model_type": "image",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images_generations"
+        ]
+      },
+      {
+        "id": "step-2-16k-exp",
+        "name": "Step 2 16k Experimental",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-2",
+        "description": "Experimental snapshot of Step 2 16k with rolling updates. Not recommended for production.",
+        "status": "preview",
+        "model_type": "chat",
+        "context_window": 16000,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ]
+      },
+      {
+        "id": "step-2-16k",
+        "name": "Step 2 16k",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-2",
+        "description": "Trillion-parameter MoE general-purpose model. Bilingual Chinese/English, strong on resource processing and intent recognition.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 16000,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "tool_call": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 5.278,
+          "cached_input": 1.056,
+          "output": 16.667
+        }
+      },
+      {
+        "id": "step-2-mini",
+        "name": "Step 2 Mini",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-2",
+        "description": "Ultra-fast text model based on MFA attention. Strong at code, translation, summarization, and role-play. Lowest cost in the Step-2 line.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 32000,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "tool_call": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.139,
+          "cached_input": 0.028,
+          "output": 0.278
+        }
+      },
+      {
+        "id": "step-2x-large",
+        "name": "Step 2x Large",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-2x",
+        "description": "Next-generation text-to-image model with enhanced text rendering inside images.",
+        "status": "active",
+        "model_type": "image",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images_generations"
+        ]
+      },
+      {
+        "id": "step-3.5-flash-2603",
+        "name": "Step 3.5 Flash 2603",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-3.5",
+        "description": "Step 3.5 Flash dated snapshot (2603) tuned for high-frequency agents, coding, and tool use.",
+        "status": "active",
+        "model_type": "reasoning",
+        "context_window": 256000,
+        "reasoning_tokens": true,
+        "license": "apache-2.0",
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true,
+          "streaming": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.097,
+          "cached_input": 0.019,
+          "output": 0.292
+        }
+      },
+      {
+        "id": "step-3.5-flash",
+        "name": "Step 3.5 Flash",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-3.5",
+        "description": "Flagship reasoning model with 256k context, MoE architecture (199B total, ~11B active). Optimized for agentic tasks, tool calling, planning, math, and coding.",
+        "tagline": "Frontier reasoning and agentic capabilities at low cost.",
+        "status": "active",
+        "model_type": "reasoning",
+        "context_window": 256000,
+        "reasoning_tokens": true,
+        "license": "apache-2.0",
+        "open_weight": true,
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true,
+          "streaming": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.097,
+          "cached_input": 0.019,
+          "output": 0.292
+        }
+      },
+      {
+        "id": "step-3",
+        "name": "Step 3",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-3",
+        "description": "Multimodal reasoning model with strong visual perception, MoE architecture (321B total, 38B active). Handles cross-domain knowledge with image understanding.",
+        "tagline": "Cost-effective multimodal intelligence.",
+        "status": "active",
+        "model_type": "reasoning",
+        "context_window": 64000,
+        "reasoning_tokens": true,
+        "license": "apache-2.0",
+        "open_weight": true,
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.208,
+          "cached_input": 0.042,
+          "output": 0.556
+        },
+        "pricing_notes": [
+          "Tiered: <=4k input/output 1.5/4 CNY/M; 4k-64k input 4/10 CNY/M. Listed price is base tier."
+        ]
+      },
+      {
+        "id": "step-asr-1.1-stream",
+        "name": "Step ASR 1.1 Stream",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-asr",
+        "description": "Streaming variant of Step ASR 1.1 for real-time transcription.",
+        "status": "active",
+        "model_type": "transcription",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "audio_transcriptions"
+        ]
+      },
+      {
+        "id": "step-asr-1.1",
+        "name": "Step ASR 1.1",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-asr",
+        "description": "Offline audio file transcription, refreshed Step ASR.",
+        "status": "active",
+        "model_type": "transcription",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "audio_transcriptions"
+        ]
+      },
+      {
+        "id": "step-asr",
+        "name": "Step ASR",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-asr",
+        "description": "Real-time and offline speech recognition for Chinese (multi-dialect) and English. 100 MB file limit.",
+        "status": "active",
+        "model_type": "transcription",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "audio_transcriptions"
+        ],
+        "pricing_notes": [
+          "0.9 CNY per hour."
+        ]
+      },
+      {
+        "id": "step-r1-v-mini",
+        "name": "Step R1 V Mini",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-r",
+        "description": "Compact visual reasoning model. Strong at image understanding, math, coding, and chain-of-thought over images.",
+        "status": "active",
+        "model_type": "reasoning",
+        "context_window": 100000,
+        "reasoning_tokens": true,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "vision": true,
+          "reasoning": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.347,
+          "cached_input": 0.069,
+          "output": 1.111
+        }
+      },
+      {
+        "id": "step-tts-2",
+        "name": "Step TTS 2",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-tts",
+        "description": "End-to-end TTS with 11 emotions, 17 styles, 3 languages (Mandarin, Cantonese, Sichuan dialect, Japanese). 10s audio voice cloning.",
+        "status": "active",
+        "model_type": "tts",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "0.40 USD per 10k characters."
+        ]
+      },
+      {
+        "id": "step-tts-mini",
+        "name": "Step TTS Mini",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "step-tts",
+        "description": "Compact TTS with 9 emotions, 13 styles, 3 languages, 10s voice cloning.",
+        "status": "active",
+        "model_type": "tts",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "0.9 CNY per 10k characters."
+        ]
+      },
+      {
+        "id": "stepaudio-2-asr-pro",
+        "name": "StepAudio 2 ASR Pro",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "stepaudio",
+        "description": "32B-parameter speech recognition model for higher accuracy.",
+        "status": "active",
+        "model_type": "transcription",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "audio_transcriptions"
+        ]
+      },
+      {
+        "id": "stepaudio-2.5-asr",
+        "name": "StepAudio 2.5 ASR",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "stepaudio",
+        "description": "4B-parameter speech recognition model with multi-token prediction. Processes ~5 minutes of audio per second of compute. Supports ITN.",
+        "status": "active",
+        "model_type": "transcription",
+        "license": "proprietary",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "audio_transcriptions"
+        ],
+        "pricing_notes": [
+          "0.022 USD per hour."
+        ]
+      },
+      {
+        "id": "stepaudio-2.5-tts",
+        "name": "StepAudio 2.5 TTS",
+        "created_by": "stepfun",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "stepaudio",
+        "description": "Contextual text-to-speech with zero-shot voice cloning from 3 seconds of audio. Dual-layer prosody and emotion control.",
+        "status": "active",
+        "model_type": "tts",
+        "license": "proprietary",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "endpoints": [
+          "audio_speech"
+        ],
+        "pricing_notes": [
+          "0.85 USD per 10k characters (USD listed in english docs)."
+        ]
+      }
+    ]
+  },
+  {
     "id": "together",
     "name": "Together AI",
     "region": "US",
@@ -112697,7 +122749,20 @@ export const providers: ProviderWithModels[] = [
           "output": 0.03
         },
         "model_type": "image",
-        "page_url": "https://www.together.ai/models/flux-2-pro"
+        "page_url": "https://www.together.ai/models/flux-2-pro",
+        "description": "Production-grade default model for FLUX.2 text-to-image generation and image editing. Supports up to 10 reference images and 4MP output.",
+        "tagline": "Recommended default for image generation and editing.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "s/gemma-3-27b",
@@ -114894,7 +124959,20 @@ export const providers: ProviderWithModels[] = [
           "input": 0,
           "output": 0
         },
-        "model_type": "image"
+        "model_type": "image",
+        "description": "FLUX.2 variant with adjustable steps and guidance, tuned for typography and editing workflows. Up to 8 references via API.",
+        "tagline": "Flexible FLUX.2 for typography and editing.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "bfl/flux-2-klein-4b",
@@ -114903,14 +124981,28 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "fine_tuning": true
         },
         "pricing": {
           "input": 0,
           "output": 0
         },
         "model_type": "image",
-        "parameters": 4
+        "parameters": 4,
+        "description": "Lightweight 4B-parameter FLUX.2 flow model for sub-second inference; ~13 GB VRAM. Open base weights under Apache 2.0.",
+        "tagline": "Fastest, most lightweight FLUX.2.",
+        "license": "apache-2.0",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "bfl/flux-2-klein-9b",
@@ -114919,14 +125011,28 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "last_updated": "2026-03-21",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "fine_tuning": true
         },
         "pricing": {
           "input": 0,
           "output": 0
         },
         "model_type": "image",
-        "parameters": 9
+        "parameters": 9,
+        "description": "Balanced 9B FLUX.2 flow model with 8B text embedder; sub-second inference at ~24 GB VRAM. Open base weights under FLUX non-commercial license.",
+        "tagline": "Balanced quality and speed for [klein].",
+        "license": "flux-1-dev-non-commercial",
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "bfl/flux-2-max",
@@ -114942,7 +125048,20 @@ export const providers: ProviderWithModels[] = [
           "input": 0,
           "output": 0
         },
-        "model_type": "image"
+        "model_type": "image",
+        "description": "Highest-quality FLUX.2 model with web grounding search, up to 8 references via API and 10 in playground.",
+        "tagline": "Highest quality FLUX.2.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "bfl/flux-2-pro",
@@ -114958,7 +125077,20 @@ export const providers: ProviderWithModels[] = [
           "input": 0,
           "output": 0
         },
-        "model_type": "image"
+        "model_type": "image",
+        "description": "Production-grade default model for FLUX.2 text-to-image generation and image editing. Supports up to 10 reference images and 4MP output.",
+        "tagline": "Recommended default for image generation and editing.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "bfl/flux-kontext-max",
@@ -114973,7 +125105,20 @@ export const providers: ProviderWithModels[] = [
           "input": 0,
           "output": 0
         },
-        "model_type": "image"
+        "model_type": "image",
+        "description": "Higher-quality variant of Kontext with stronger editing fidelity. Legacy; superseded by FLUX.2 [max] for new projects.",
+        "tagline": "Legacy FLUX.1 Kontext [max].",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "bfl/flux-kontext-pro",
@@ -114988,7 +125133,20 @@ export const providers: ProviderWithModels[] = [
           "input": 0,
           "output": 0
         },
-        "model_type": "image"
+        "model_type": "image",
+        "description": "Context-aware image editing and text-to-image. Legacy FLUX.1 line; BFL recommends FLUX.2 [pro] for new projects.",
+        "tagline": "Legacy FLUX.1 Kontext [pro].",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "bfl/flux-pro-1.0-fill",
@@ -115003,7 +125161,20 @@ export const providers: ProviderWithModels[] = [
           "input": 0,
           "output": 0
         },
-        "model_type": "image"
+        "model_type": "image",
+        "description": "Text-driven inpainting and outpainting using an input image and mask.",
+        "tagline": "Inpainting and outpainting for FLUX.1.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "bfl/flux-pro-1.1-ultra",
@@ -115018,7 +125189,20 @@ export const providers: ProviderWithModels[] = [
           "input": 0,
           "output": 0
         },
-        "model_type": "image"
+        "model_type": "image",
+        "description": "FLUX 1.1 [pro] with up to 4MP resolution and optional Raw mode for photographic authenticity. Supports image-to-image.",
+        "tagline": "FLUX 1.1 [pro] up to 4MP with raw mode.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "bfl/flux-pro-1.1",
@@ -115033,7 +125217,19 @@ export const providers: ProviderWithModels[] = [
           "input": 0,
           "output": 0
         },
-        "model_type": "image"
+        "model_type": "image",
+        "description": "Fast and reliable text-to-image baseline with strong prompt adherence. Sometimes called FLUX1.1 [pro].",
+        "tagline": "Fast and reliable FLUX 1.1 baseline.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "bytedance/seed-1.6",
@@ -116424,7 +126620,9 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "reasoning": true
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 0.25,
@@ -116441,7 +126639,12 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "description": "Diffusion-based reasoning LLM with parallel token generation, native tool use, and schema-aligned JSON output.",
+        "tagline": "The fastest reasoning dLLM.",
+        "max_output_tokens": 50000,
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "inception/mercury-coder-small",
@@ -120173,7 +130376,19 @@ export const providers: ProviderWithModels[] = [
           "input": 0,
           "output": 0
         },
-        "model_type": "image"
+        "model_type": "image",
+        "description": "First-generation Recraft raster model.",
+        "tagline": "Legacy Recraft V2 raster.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "recraft/recraft-v3",
@@ -120188,7 +130403,20 @@ export const providers: ProviderWithModels[] = [
           "input": 0,
           "output": 0
         },
-        "model_type": "image"
+        "model_type": "image",
+        "description": "Previously codenamed Red Panda; raster model with strong text rendering and brand-style preservation. Used for image-to-image, inpainting, and background editing endpoints.",
+        "tagline": "Recraft V3 raster (formerly Red Panda).",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "recraft/recraft-v4-pro",
@@ -120203,7 +130431,20 @@ export const providers: ProviderWithModels[] = [
           "input": 0,
           "output": 0
         },
-        "model_type": "image"
+        "model_type": "image",
+        "description": "High-fidelity 2048x2048 raster tier of Recraft V4 with improved anatomy and realism for print-grade output.",
+        "tagline": "Print-grade raster Recraft V4.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "recraft/recraft-v4",
@@ -120218,7 +130459,20 @@ export const providers: ProviderWithModels[] = [
           "input": 0,
           "output": 0
         },
-        "model_type": "image"
+        "model_type": "image",
+        "description": "Latest Recraft raster model with strong design sensibility, readable text, and consistent composition. Default model in the API.",
+        "tagline": "Design-forward raster image model.",
+        "license": "proprietary",
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        }
       },
       {
         "id": "voyage/rerank-2.5-lite",
@@ -120508,7 +130762,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
-          "json_mode": true
+          "json_mode": true,
+          "batch": true
         },
         "pricing": {
           "input": 0.3,
@@ -120528,6 +130783,7 @@ export const providers: ProviderWithModels[] = [
         },
         "description": "A lightweight model that thinks before responding.",
         "tagline": "A lightweight model that thinks before responding.",
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false
       },
@@ -120543,7 +130799,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "batch": true
         },
         "pricing": {
           "input": 3,
@@ -120563,6 +130820,7 @@ export const providers: ProviderWithModels[] = [
         },
         "description": "Grok 3 is the latest model from xAI.",
         "tagline": "Grok 3 is the latest model from xAI.",
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false
       },
@@ -120577,7 +130835,10 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "vision": true
+          "vision": true,
+          "batch": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 0.2,
@@ -120595,6 +130856,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false
       },
@@ -120610,7 +130872,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "tool_call": true,
           "reasoning": true,
-          "vision": true
+          "vision": true,
+          "batch": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 0.2,
@@ -120628,6 +130893,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false
       },
@@ -120920,7 +131186,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "batch": true
         },
         "pricing": {
           "input": 0.2,
@@ -125025,6 +135292,308 @@ export const providers: ProviderWithModels[] = [
     ]
   },
   {
+    "id": "writer",
+    "name": "Writer",
+    "region": "US",
+    "headquarters": "San Francisco, CA",
+    "founded": 2020,
+    "url": "https://writer.com",
+    "api_url": "https://api.writer.com/v1",
+    "docs_url": "https://dev.writer.com",
+    "pricing_url": "https://dev.writer.com/home/models",
+    "description": "Enterprise generative AI platform building the proprietary Palmyra family of LLMs for agentic workflows, RAG, and domain-specific use cases.",
+    "type": "direct",
+    "playground_url": "https://app.writer.com",
+    "changelog_url": "https://dev.writer.com/home/changelog",
+    "sdk": {
+      "python": "writer-sdk",
+      "javascript": "writer-sdk"
+    },
+    "openai_compatible": false,
+    "free_tier": false,
+    "github_url": "https://github.com/writer",
+    "models_url": "https://dev.writer.com/home/models",
+    "twitter_url": "https://x.com/Get_Writer",
+    "blog_url": "https://writer.com/blog/",
+    "support_url": "https://support.writer.com",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n  <path d=\"M3 4h2.6l2.4 11.4L10.6 4h2.8l2.6 11.4L18.4 4H21l-3.6 16h-3l-2.4-10.6L9.6 20h-3z\"/>\n</svg>",
+    "models": [
+      {
+        "id": "palmyra-creative",
+        "name": "Palmyra Creative",
+        "created_by": "writer",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "palmyra-creative",
+        "description": "Purpose-built creative-thinking and writing model for brainstorming, storytelling, and original content generation. Available as an NVIDIA NIM microservice.",
+        "status": "deprecated",
+        "deprecation_date": "2026-07-13",
+        "successor": "palmyra-x5",
+        "release_date": "2024-12-17",
+        "model_type": "chat",
+        "context_window": 128000,
+        "max_output_tokens": 4096,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 5,
+          "output": 12
+        },
+        "page_url": "https://dev.writer.com/home/models"
+      },
+      {
+        "id": "palmyra-fin",
+        "name": "Palmyra Fin",
+        "created_by": "writer",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "palmyra-fin",
+        "description": "Financial-domain LLM for market analysis, risk assessment, and synthesis of long financial documents. First AI model to pass the CFA Level III sample multiple-choice section.",
+        "status": "deprecated",
+        "deprecation_date": "2026-07-13",
+        "successor": "palmyra-x5",
+        "release_date": "2024-07-31",
+        "model_type": "chat",
+        "context_window": 128000,
+        "max_output_tokens": 4096,
+        "license": "proprietary",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 5,
+          "output": 12
+        },
+        "page_url": "https://dev.writer.com/home/models"
+      },
+      {
+        "id": "palmyra-med",
+        "name": "Palmyra Med",
+        "created_by": "writer",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "palmyra-med",
+        "description": "Healthcare-focused LLM tuned for medical coding (RxNorm, ICD-10-CM, SNOMED CT), clinical decision support, and medical document summarization.",
+        "status": "deprecated",
+        "deprecation_date": "2026-07-13",
+        "successor": "palmyra-x5",
+        "release_date": "2024-07-31",
+        "model_type": "chat",
+        "context_window": 32000,
+        "max_output_tokens": 4096,
+        "license": "proprietary",
+        "open_weight": true,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 5,
+          "output": 12
+        },
+        "page_url": "https://dev.writer.com/home/models"
+      },
+      {
+        "id": "palmyra-vision",
+        "name": "Palmyra Vision",
+        "created_by": "writer",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "palmyra-vision",
+        "description": "Multimodal model for image captioning, visual QA, chart interpretation, and handwritten text extraction. Superseded by Palmyra X5 chat-with-images.",
+        "status": "deprecated",
+        "deprecation_date": "2026-07-13",
+        "successor": "palmyra-x5",
+        "model_type": "chat",
+        "context_window": 8000,
+        "max_output_tokens": 4096,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "vision": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "vision"
+        ],
+        "pricing_notes": [
+          "$0.005 per image, $0.005 per second of video, $7.50 per 1M output tokens"
+        ],
+        "page_url": "https://dev.writer.com/home/models"
+      },
+      {
+        "id": "palmyra-x-003-instruct",
+        "name": "Palmyra X 003 Instruct",
+        "created_by": "writer",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "palmyra-x",
+        "description": "Instruction-following model proficient in detailed multilingual responses and structured document generation.",
+        "status": "deprecated",
+        "deprecation_date": "2026-07-13",
+        "successor": "palmyra-x5",
+        "model_type": "chat",
+        "context_window": 32000,
+        "max_output_tokens": 4096,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 7.5,
+          "output": 22.5
+        },
+        "page_url": "https://dev.writer.com/home/models"
+      },
+      {
+        "id": "palmyra-x4",
+        "name": "Palmyra X4",
+        "created_by": "writer",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "palmyra-x",
+        "description": "Advanced 128k-context model focused on tool calling, RAG, code generation, and complex multi-step workflows. Tops Berkeley's tool-calling leaderboard.",
+        "tagline": "Tool-calling LLM for enterprise actions.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 128000,
+        "max_output_tokens": 4096,
+        "release_date": "2024-10-09",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 2.5,
+          "output": 10
+        },
+        "page_url": "https://dev.writer.com/home/models",
+        "bedrock_id": "writer.palmyra-x4-v1:0"
+      },
+      {
+        "id": "palmyra-x5",
+        "name": "Palmyra X5",
+        "created_by": "writer",
+        "source": "official",
+        "last_updated": "2026-04-26",
+        "family": "palmyra-x",
+        "description": "Writer's flagship adaptive reasoning model with a 1M-token context window, sub-second tool calling, and image input. Replaces specialized Palmyra variants for general-purpose, financial, medical, and creative use cases.",
+        "tagline": "1M-token enterprise LLM with adaptive reasoning.",
+        "status": "active",
+        "model_type": "chat",
+        "context_window": 1000000,
+        "max_output_tokens": 8192,
+        "release_date": "2025-04-28",
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "chat_completions"
+        ],
+        "pricing": {
+          "input": 0.6,
+          "output": 6
+        },
+        "page_url": "https://dev.writer.com/home/models",
+        "bedrock_id": "writer.palmyra-x5-v1:0"
+      }
+    ]
+  },
+  {
     "id": "xai",
     "name": "xAI",
     "region": "US",
@@ -125175,14 +135744,15 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-3-mini",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-26",
         "release_date": "2025-04-04",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
-          "json_mode": true
+          "json_mode": true,
+          "batch": true
         },
         "context_window": 131072,
         "description": "A lightweight model that thinks before responding.",
@@ -125202,20 +135772,29 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "tools": [
           "function_calling"
-        ]
+        ],
+        "knowledge_cutoff": "2024-11",
+        "reasoning_tokens": true,
+        "page_url": "https://docs.x.ai/developers/models/grok-3-mini",
+        "pricing": {
+          "input": 0.3,
+          "output": 0.5,
+          "cached_input": 0.075
+        }
       },
       {
         "id": "grok-3",
         "name": "grok-3",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-26",
         "release_date": "2025-04-04",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "batch": true
         },
         "context_window": 131072,
         "description": "Grok 3 is the latest model from xAI.",
@@ -125235,18 +135814,30 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "tools": [
           "function_calling"
-        ]
+        ],
+        "knowledge_cutoff": "2024-11",
+        "page_url": "https://docs.x.ai/developers/models/grok-3",
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.75
+        }
       },
       {
         "id": "grok-4-0709",
         "name": "grok-4-0709",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-26",
         "release_date": "2025-07-09",
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "batch": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "json_mode": true
         },
         "family": "grok-4",
         "model_type": "chat",
@@ -125255,7 +135846,8 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
             "text"
@@ -125263,14 +135855,23 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling"
-        ]
+        ],
+        "knowledge_cutoff": "2024-11",
+        "context_window": 256000,
+        "reasoning_tokens": true,
+        "page_url": "https://docs.x.ai/developers/models/grok-4-0709",
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.75
+        }
       },
       {
         "id": "grok-4-1-fast-non-reasoning",
         "name": "grok-4-1-fast-non-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-04-24",
+        "last_updated": "2026-04-26",
         "release_date": "2025-11-19",
         "capabilities": {
           "streaming": true,
@@ -125298,20 +135899,19 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/docs/models#grok-4-1-fast-non-reasoning",
+        "page_url": "https://docs.x.ai/developers/models/grok-4-1-fast-non-reasoning",
         "open_weight": false,
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2024-11",
-        "status": "deprecated"
+        "knowledge_cutoff": "2024-11"
       },
       {
         "id": "grok-4-1-fast-reasoning",
         "name": "grok-4-1-fast-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-04-24",
+        "last_updated": "2026-04-26",
         "release_date": "2025-11-19",
         "capabilities": {
           "streaming": true,
@@ -125341,24 +135941,27 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "reasoning",
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/docs/models#grok-4-1-fast-reasoning",
+        "page_url": "https://docs.x.ai/developers/models/grok-4-1-fast-reasoning",
         "open_weight": false,
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2024-11",
-        "status": "deprecated"
+        "knowledge_cutoff": "2024-11"
       },
       {
         "id": "grok-4-fast-non-reasoning",
         "name": "grok-4-fast-non-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-26",
         "release_date": "2025-09-04",
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "batch": true,
+          "structured_output": true,
+          "vision": true,
+          "json_mode": true
         },
         "model_type": "reasoning",
         "family": "grok-4",
@@ -125367,7 +135970,8 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
             "text"
@@ -125375,18 +135979,31 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling"
-        ]
+        ],
+        "knowledge_cutoff": "2024-11",
+        "context_window": 2000000,
+        "page_url": "https://docs.x.ai/developers/models/grok-4-fast-non-reasoning",
+        "pricing": {
+          "input": 0.2,
+          "output": 0.5,
+          "cached_input": 0.05
+        }
       },
       {
         "id": "grok-4-fast-reasoning",
         "name": "grok-4-fast-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-26",
         "release_date": "2025-09-04",
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "batch": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "json_mode": true
         },
         "model_type": "reasoning",
         "family": "grok-4",
@@ -125395,7 +136012,8 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
             "text"
@@ -125403,14 +136021,23 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling"
-        ]
+        ],
+        "knowledge_cutoff": "2024-11",
+        "context_window": 2000000,
+        "reasoning_tokens": true,
+        "page_url": "https://docs.x.ai/developers/models/grok-4-fast-reasoning",
+        "pricing": {
+          "input": 0.2,
+          "output": 0.5,
+          "cached_input": 0.05
+        }
       },
       {
         "id": "grok-4.20-0309-non-reasoning",
         "name": "grok-4.20-0309-non-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-04-24",
+        "last_updated": "2026-04-26",
         "release_date": "2026-03-09",
         "capabilities": {
           "streaming": true,
@@ -125438,20 +136065,19 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/docs/models#grok-4.20-0309-non-reasoning",
+        "page_url": "https://docs.x.ai/developers/models/grok-4.20-0309-non-reasoning",
         "open_weight": false,
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2024-11",
-        "status": "deprecated"
+        "knowledge_cutoff": "2024-11"
       },
       {
         "id": "grok-4.20-0309-reasoning",
         "name": "grok-4.20-0309-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-04-24",
+        "last_updated": "2026-04-26",
         "release_date": "2026-03-09",
         "capabilities": {
           "streaming": true,
@@ -125481,20 +136107,19 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "reasoning",
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/docs/models#grok-4.20-0309-reasoning",
+        "page_url": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
         "open_weight": false,
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2024-11",
-        "status": "deprecated"
+        "knowledge_cutoff": "2024-11"
       },
       {
         "id": "grok-4.20-multi-agent-0309",
         "name": "grok-4.20-multi-agent-0309",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-04-24",
+        "last_updated": "2026-04-26",
         "release_date": "2026-03-09",
         "capabilities": {
           "streaming": true,
@@ -125524,27 +136149,27 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/docs/models#grok-4.20-multi-agent-0309",
+        "page_url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309",
         "open_weight": false,
         "tools": [
           "function_calling"
         ],
-        "knowledge_cutoff": "2024-11",
-        "status": "deprecated"
+        "knowledge_cutoff": "2024-11"
       },
       {
         "id": "grok-code-fast-1",
         "name": "grok-code-fast-1",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-26",
         "release_date": "2025-08-24",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
-          "json_mode": true
+          "json_mode": true,
+          "batch": true
         },
         "context_window": 256000,
         "max_output_tokens": 10000,
@@ -125565,14 +136190,21 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "tools": [
           "function_calling"
-        ]
+        ],
+        "reasoning_tokens": true,
+        "page_url": "https://docs.x.ai/developers/models/grok-code-fast-1",
+        "pricing": {
+          "input": 0.2,
+          "output": 1.5,
+          "cached_input": 0.02
+        }
       },
       {
         "id": "grok-imagine-image-pro",
         "name": "grok-imagine-image-pro",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-04-24",
+        "last_updated": "2026-04-26",
         "release_date": "2026-01-28",
         "capabilities": {
           "streaming": true,
@@ -125592,19 +136224,18 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/docs/models#grok-imagine-image-pro",
+        "page_url": "https://docs.x.ai/developers/models/grok-imagine-image-pro",
         "open_weight": false,
         "tools": [
           "function_calling"
-        ],
-        "status": "deprecated"
+        ]
       },
       {
         "id": "grok-imagine-image",
         "name": "grok-imagine-image",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-04-24",
+        "last_updated": "2026-04-26",
         "release_date": "2026-01-28",
         "capabilities": {
           "streaming": true,
@@ -125624,19 +136255,18 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/docs/models#grok-imagine-image",
+        "page_url": "https://docs.x.ai/developers/models/grok-imagine-image",
         "open_weight": false,
         "tools": [
           "function_calling"
-        ],
-        "status": "deprecated"
+        ]
       },
       {
         "id": "grok-imagine-video",
         "name": "grok-imagine-video",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-04-24",
+        "last_updated": "2026-04-26",
         "release_date": "2026-01-28",
         "capabilities": {
           "streaming": true,
@@ -125657,12 +136287,11 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/docs/models#grok-imagine-video",
+        "page_url": "https://docs.x.ai/developers/models/grok-imagine-video",
         "open_weight": false,
         "tools": [
           "function_calling"
-        ],
-        "status": "deprecated"
+        ]
       }
     ]
   },
