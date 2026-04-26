@@ -1,0 +1,50 @@
+{
+  "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "name": "Meta-Llama-3-8B-Instruct",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "Llama-3",
+  "description": "Meta developed and released the Meta Llama 3 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8 and 70B sizes.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 8192,
+  "open_weight": true,
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.04
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "bfloat16",
+  "license": "llama",
+  "tagline": "Meta developed and released the Meta Llama 3 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8 and 70B sizes.",
+  "_generated": {
+    "name": "312feb68",
+    "family": "a18f0819",
+    "description": "621b2f2f",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "77441296",
+    "open_weight": "b326b506",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "24ae0294",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "45ae6e17",
+    "license": "045d737e",
+    "tagline": "621b2f2f"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "recraftv3_vector",
+  "name": "Recraft V3 Vector",
+  "created_by": "recraft",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "recraft-v3",
+  "description": "Vector / SVG output variant of Recraft V3 for editable scalable graphics.",
+  "tagline": "Recraft V3 vector / SVG.",
+  "status": "active",
+  "model_type": "image",
+  "release_date": "2024-10-30",
+  "open_weight": false,
+  "license": "proprietary",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images", "image-to-image", "inpaint", "replace-background"],
+  "pricing_notes": ["$0.080 per image (80 API units)."],
+  "_generated": {
+    "name": "b533402e",
+    "family": "d2c13157",
+    "description": "07a42cf7",
+    "tagline": "0cd941a2",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "release_date": "83f39a73",
+    "open_weight": "68934a3e",
+    "license": "9186c466",
+    "modalities": "bbf9b8bb",
+    "endpoints": "4c2aa55c",
+    "pricing_notes": "15802efc"
+  }
+}

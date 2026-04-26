@@ -1,0 +1,49 @@
+{
+  "id": "Qwen/Qwen3-Max-Thinking",
+  "name": "Qwen3-Max-Thinking",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen3",
+  "description": "The latest flagship reasoning model in the Qwen3 family. Further enhanced by multiple innovations like adaptive tool-use and advanced test-time scaling techniques",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 256000,
+  "open_weight": false,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.2,
+    "output": 6,
+    "cached_input": 0.24
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "tagline": "The latest flagship reasoning model in the Qwen3 family.",
+  "_generated": {
+    "name": "5039e067",
+    "family": "48c385a0",
+    "description": "2600795e",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "2fd324cb",
+    "open_weight": "68934a3e",
+    "license": "60245731",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "0d3dfc32",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "tagline": "05d23e8f"
+  }
+}

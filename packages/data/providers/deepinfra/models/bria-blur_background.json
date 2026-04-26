@@ -1,0 +1,35 @@
+{
+  "id": "Bria/blur_background",
+  "name": "blur_background",
+  "created_by": "bria",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "bria",
+  "description": "Bria Blur Background softens and de-emphasizes image backgrounds while keeping the subject sharp and clear for professional-quality results. Trained fully on licensed data, it delivers safe, natural, and commercial-ready outputs.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0400 per image unit (0x0 default)"],
+  "tagline": "Bria Blur Background softens and de-emphasizes image backgrounds while keeping the subject sharp and clear for professional-quality results.",
+  "_generated": {
+    "name": "d7a04e01",
+    "family": "08e987c0",
+    "description": "fb860a9b",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "05714ce8",
+    "tagline": "6b42d8bc"
+  }
+}

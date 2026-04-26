@@ -1,0 +1,35 @@
+{
+  "id": "openai/whisper-large-v3",
+  "name": "whisper-large-v3",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "whisper",
+  "description": "Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multi-task model that can perform multilingual speech recognition as well as speech translation and language identification.",
+  "status": "active",
+  "model_type": "transcription",
+  "open_weight": true,
+  "license": "proprietary",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "tagline": "Whisper is a general-purpose speech recognition model.",
+  "_generated": {
+    "name": "4459347e",
+    "family": "7fbc43e3",
+    "description": "754d63ab",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "open_weight": "b326b506",
+    "license": "9186c466",
+    "capabilities": "0fa77dc6",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "tagline": "c8cb6b10"
+  }
+}

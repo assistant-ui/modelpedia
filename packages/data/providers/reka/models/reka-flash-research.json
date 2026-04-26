@@ -1,0 +1,26 @@
+{
+  "id": "reka-flash-research",
+  "name": "Reka Flash Research",
+  "created_by": "reka",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "reka-research",
+  "description": "Research-tier endpoint with parallel-thinking modes for deep web-grounded answers.",
+  "tagline": "Web-grounded research model.",
+  "status": "active",
+  "model_type": "reasoning",
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing_notes": [
+    "$25/1k requests standard; $35/1k parallel-thinking low; $60/1k parallel-thinking high."
+  ]
+}

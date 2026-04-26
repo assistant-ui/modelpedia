@@ -1,0 +1,51 @@
+{
+  "id": "deepseek-ai/DeepSeek-V4-Flash",
+  "name": "DeepSeek-V4-Flash",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "deepseek-v4",
+  "description": "DeepSeek V4 Flash is an efficiency-focused MoE model with 284B total parameters (13B active) and a 1M-token context window. It's tuned for fast inference and high-throughput use cases while still holding up on reasoning and coding tasks.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 1048576,
+  "open_weight": true,
+  "license": "deepseek",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.28,
+    "cached_input": 0.028
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "tagline": "DeepSeek V4 Flash is an efficiency-focused MoE model with 284B total parameters (13B active) and a 1M-token context window.",
+  "_generated": {
+    "name": "a570d0cd",
+    "family": "bfe7adae",
+    "description": "0a9688b1",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "7d28a051",
+    "open_weight": "b326b506",
+    "license": "4b81b92d",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "e83de778",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee",
+    "tagline": "731f14d0"
+  }
+}

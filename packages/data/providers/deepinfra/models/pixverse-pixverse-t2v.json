@@ -1,0 +1,31 @@
+{
+  "id": "Pixverse/Pixverse-T2V",
+  "name": "Pixverse-T2V",
+  "created_by": "pixverse",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "pixverse",
+  "description": "PixVerse's 720p resolution offers a fast and reliable option for generating standard HD videos, ideal for quick previews and social media content where generation speed is prioritized over maximum detail.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["$0.2000 per image unit (0x0 default)"],
+  "tagline": "PixVerse's 720p resolution offers a fast and reliable option for generating standard HD videos, ideal for quick previews and social media content where generation speed is prioritized over maximum det",
+  "_generated": {
+    "name": "b229f694",
+    "family": "2063304a",
+    "description": "4b799c5e",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "e615b674",
+    "tagline": "3a206c43"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "black-forest-labs/FLUX-2-klein-9b",
+  "name": "FLUX-2-klein-9b",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-2",
+  "description": "The best quality-to-latency ratio, production apps model of the Flux 2 family. Frontier visual intelligence — state-of-the-art image generation and editing from Black Forest Labs",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": true,
+  "license": "flux",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0150 per image unit (1024x1024 default)"],
+  "tagline": "The best quality-to-latency ratio, production apps model of the Flux 2 family.",
+  "_generated": {
+    "name": "8e7e821d",
+    "family": "a844a160",
+    "description": "c5a94b80",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "b326b506",
+    "license": "c4784ca2",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "e74ac96d",
+    "tagline": "3f161844"
+  }
+}

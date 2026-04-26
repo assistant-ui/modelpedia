@@ -1,0 +1,36 @@
+{
+  "id": "sentence-transformers/all-MiniLM-L12-v2",
+  "name": "all-MiniLM-L12-v2",
+  "created_by": "sentence-transformers",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "sentence-transformers",
+  "description": "We present a sentence transformation model that generates semantically similar sentences. Our model is based on the Sentence-Transformers architecture and was trained on a large dataset of sentence pairs. We evaluate the effectiveness of our model by measuring its ability to generate similar sentences that are close to the original sentence in meaning.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "tagline": "We present a sentence transformation model that generates semantically similar sentences.",
+  "_generated": {
+    "name": "9836ae29",
+    "family": "c8444f17",
+    "description": "38a8381a",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "tagline": "3da0b778"
+  }
+}

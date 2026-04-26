@@ -1,0 +1,36 @@
+{
+  "id": "BAAI/bge-large-en-v1.5",
+  "name": "bge-large-en-v1.5",
+  "created_by": "baai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "bge",
+  "description": "BGE embedding is a general Embedding Model. It is pre-trained using retromae and trained on large-scale pair data using contrastive learning. Note that the goal of pre-training is to reconstruct the text, and the pre-trained model cannot be used for similarity calculation directly, it needs to be fine-tuned",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "license": "mit",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "tagline": "BGE embedding is a general Embedding Model.",
+  "_generated": {
+    "name": "69d2949e",
+    "family": "54ccc70e",
+    "description": "7a42adcc",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "license": "3c4c3ba5",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "tagline": "243850b8"
+  }
+}

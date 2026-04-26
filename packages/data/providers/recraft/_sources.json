@@ -1,0 +1,5 @@
+{
+  "llms": "https://www.recraft.ai/docs/llms.txt",
+  "pricing": "https://www.recraft.ai/docs/api-reference/pricing.md",
+  "endpoints": "https://www.recraft.ai/docs/api-reference/endpoints.md"
+}

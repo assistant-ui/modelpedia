@@ -1,0 +1,35 @@
+{
+  "id": "Bria/fibo_edit",
+  "name": "fibo_edit",
+  "created_by": "bria",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "bria",
+  "description": "🥳 For a limited time, Fibo Edit is free on DeepInfra 🥳 YOUR AI, YOUR RULES. Visual Generation for Production-Grade. FIBO Edit. An open-source image editing model with native masking and a lightweight 8B architecture.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0400 per image unit (0x0 default)"],
+  "tagline": "🥳 For a limited time, Fibo Edit is free on DeepInfra 🥳 YOUR AI, YOUR RULES.",
+  "_generated": {
+    "name": "44fc50c6",
+    "family": "08e987c0",
+    "description": "ad575b47",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "05714ce8",
+    "tagline": "c318e4dd"
+  }
+}

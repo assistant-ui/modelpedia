@@ -1,0 +1,36 @@
+{
+  "id": "mercury-2",
+  "name": "Mercury 2",
+  "created_by": "inception",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "mercury",
+  "description": "Diffusion-based reasoning LLM with parallel token generation, native tool use, and schema-aligned JSON output.",
+  "tagline": "The fastest reasoning dLLM.",
+  "status": "active",
+  "model_type": "reasoning",
+  "context_window": 128000,
+  "max_output_tokens": 50000,
+  "release_date": "2026-04-23",
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.25,
+    "output": 0.75,
+    "cached_input": 0.025
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Bria/video_remove_background",
+  "name": "video_remove_background",
+  "created_by": "bria",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "bria",
+  "description": "Light and fast. Remove the background of your videos to bring the foreground elements to focus. No more unwanted distractions.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "tagline": "Light and fast.",
+  "_generated": {
+    "name": "2fc7f76b",
+    "family": "08e987c0",
+    "description": "a3075879",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "tagline": "dadbef15"
+  }
+}

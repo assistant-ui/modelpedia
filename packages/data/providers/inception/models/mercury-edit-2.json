@@ -1,0 +1,30 @@
+{
+  "id": "mercury-edit-2",
+  "name": "Mercury Edit 2",
+  "created_by": "inception",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "mercury",
+  "description": "Compact diffusion LLM optimized for code editing, fill-in-the-middle, apply-edit, and next-edit suggestions.",
+  "tagline": "Code-editing dLLM for latency-sensitive workflows.",
+  "status": "active",
+  "model_type": "code",
+  "context_window": 128000,
+  "max_output_tokens": 32000,
+  "release_date": "2026-04-23",
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["fim_completions", "edit_completions"],
+  "pricing": {
+    "input": 0.25,
+    "output": 0.75,
+    "cached_input": 0.025
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "deepseek-ai/DeepSeek-V3",
+  "name": "DeepSeek-V3",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "deepseek-v3",
+  "description": "DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. To achieve efficient inference and cost-effective training, DeepSeek-V3 adopts Multi-head Latent Attention (MLA) and DeepSeekMoE architectures, which were thoroughly validated in DeepSeek-V2.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 163840,
+  "open_weight": true,
+  "license": "deepseek",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.32,
+    "output": 0.89
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "tagline": "DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.",
+  "_generated": {
+    "name": "c5c91141",
+    "family": "61b133fc",
+    "description": "0ceb84df",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "7edab444",
+    "open_weight": "b326b506",
+    "license": "4b81b92d",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "98e9df4f",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee",
+    "tagline": "d74ea277"
+  }
+}

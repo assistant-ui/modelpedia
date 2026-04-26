@@ -1,0 +1,50 @@
+{
+  "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+  "name": "Qwen3-235B-A22B-Instruct-2507",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen3",
+  "description": "Qwen3-235B-A22B-Instruct-2507 is the updated version of the Qwen3-235B-A22B non-thinking mode, featuring Significant improvements in general capabilities, including instruction following, logical reasoning, text comprehension, mathematics, science, coding and tool usage.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 262144,
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.071,
+    "output": 0.1
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "Qwen3-235B-A22B-Instruct-2507 is the updated version of the Qwen3-235B-A22B non-thinking mode, featuring Significant improvements in general capabilities, including instruction following, logical reas",
+  "_generated": {
+    "name": "6dc008d1",
+    "family": "48c385a0",
+    "description": "20193673",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "4a1d32eb",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "44b94ddb",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "92a7c547"
+  }
+}

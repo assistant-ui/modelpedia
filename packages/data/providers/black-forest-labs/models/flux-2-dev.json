@@ -1,0 +1,19 @@
+{
+  "id": "flux-2-dev",
+  "name": "FLUX.2 [dev]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-2",
+  "description": "Local development variant of FLUX.2 with full customization for non-commercial use. Not exposed via the BFL API; available on Hugging Face.",
+  "tagline": "Local-only FLUX.2 for non-commercial development.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": true,
+  "license": "flux-1-dev-non-commercial",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "pricing_notes": ["Free local use under non-commercial license."]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+  "name": "DeepSeek-V3.1-Terminus",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "deepseek-v3",
+  "description": "DeepSeek-V3.1 Terminus is an update to DeepSeek V3.1 that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent capabilities, further optimizing the model's performance in coding and search agents. It is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes. It extends the DeepSeek-V3 base with a two-phase long-context training process. Users can control the reas...",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 163840,
+  "open_weight": true,
+  "license": "deepseek",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.21,
+    "output": 0.79,
+    "cached_input": 0.13
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "tagline": "DeepSeek-V3.1 Terminus is an update to DeepSeek V3.1 that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent capabilities, further optimizing the model's performance in coding and search agents.",
+  "_generated": {
+    "name": "1a1744a2",
+    "family": "61b133fc",
+    "description": "70c347dc",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "7edab444",
+    "open_weight": "b326b506",
+    "license": "4b81b92d",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "48da7752",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee",
+    "tagline": "95504e47"
+  }
+}

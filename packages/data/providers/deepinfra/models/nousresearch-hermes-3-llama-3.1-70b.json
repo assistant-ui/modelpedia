@@ -1,0 +1,44 @@
+{
+  "id": "NousResearch/Hermes-3-Llama-3.1-70B",
+  "name": "Hermes-3-Llama-3.1-70B",
+  "created_by": "nousresearch",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "llama-3.1",
+  "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 131072,
+  "open_weight": true,
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 0.3
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coheren",
+  "_generated": {
+    "name": "53b996bc",
+    "family": "83ec32db",
+    "description": "a388281e",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "open_weight": "b326b506",
+    "capabilities": "ac49c06e",
+    "modalities": "68e53d93",
+    "pricing": "bdf3b6b5",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "a936cce1"
+  }
+}

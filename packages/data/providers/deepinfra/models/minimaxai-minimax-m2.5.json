@@ -1,0 +1,53 @@
+{
+  "id": "MiniMaxAI/MiniMax-M2.5",
+  "name": "MiniMax-M2.5",
+  "created_by": "minimax",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "minimax",
+  "description": "MiniMax M2.5 is SOTA in coding, agentic tool use and search, office work, and a range of other economically valuable tasks, boasting scores of 80.2% in SWE-Bench Verified, 51.3% in Multi-SWE-Bench, and 76.3% in BrowseComp (with context management).",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 196608,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "minimax",
+  "capabilities": {
+    "tool_call": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 1.15,
+    "cached_input": 0.03
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "MiniMax M2.5 is SOTA in coding, agentic tool use and search, office work, and a range of other economically valuable tasks, boasting scores of 80.2% in SWE-Bench Verified, 51.3% in Multi-SWE-Bench, an",
+  "_generated": {
+    "name": "3134105b",
+    "family": "c85916f0",
+    "description": "16fc6c87",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "0dd0d2bf",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "license": "c85916f0",
+    "capabilities": "56245a77",
+    "modalities": "68e53d93",
+    "pricing": "2b5e5f83",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "b9f91c80"
+  }
+}

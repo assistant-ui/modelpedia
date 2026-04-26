@@ -1,0 +1,20 @@
+{
+  "id": "jina",
+  "name": "Jina AI",
+  "region": "DE",
+  "headquarters": "Berlin, Germany",
+  "founded": 2020,
+  "url": "https://jina.ai",
+  "api_url": "https://api.jina.ai/v1",
+  "docs_url": "https://api.jina.ai/scalar",
+  "pricing_url": "https://jina.ai/embeddings/",
+  "description": "Search foundation provider offering multilingual embeddings, rerankers, classifiers, web reader, and search APIs.",
+  "type": "direct",
+  "openai_compatible": false,
+  "free_tier": true,
+  "github_url": "https://github.com/jina-ai",
+  "models_url": "https://api.jina.ai/v1/models",
+  "twitter_url": "https://x.com/JinaAI_",
+  "blog_url": "https://jina.ai/news/",
+  "support_url": "https://jina.ai/contact-sales/"
+}

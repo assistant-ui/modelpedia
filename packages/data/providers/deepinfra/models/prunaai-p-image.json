@@ -1,0 +1,35 @@
+{
+  "id": "PrunaAI/p-image",
+  "name": "p-image",
+  "created_by": "prunaai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "prunaai",
+  "description": "P-Image is a state-of-the-art real-time generation model with exceptional text rendering, fine-detail accuracy, and rock-solid prompt adherence. It’s built for instant creativity at high-fidelity images in about one second at a fraction of typical model costs.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0050 per image unit (0x0 default)"],
+  "tagline": "P-Image is a state-of-the-art real-time generation model with exceptional text rendering, fine-detail accuracy, and rock-solid prompt adherence.",
+  "_generated": {
+    "name": "52c3eb0d",
+    "family": "6edcbacf",
+    "description": "bb5e9e85",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "683ce918",
+    "tagline": "61ea3283"
+  }
+}

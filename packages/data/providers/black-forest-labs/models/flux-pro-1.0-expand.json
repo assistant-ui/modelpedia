@@ -1,0 +1,21 @@
+{
+  "id": "flux-pro-1.0-expand",
+  "name": "FLUX.1 Expand [pro]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-1-tools",
+  "description": "Expands an image by adding pixels on any side while maintaining context.",
+  "tagline": "Outpainting by side for FLUX.1.",
+  "status": "active",
+  "model_type": "image",
+  "release_date": "2024-11-01",
+  "open_weight": false,
+  "license": "proprietary",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["/v1/flux-pro-1.0-expand"],
+  "pricing_notes": ["Per BFL pricing page; megapixel-scaled."]
+}

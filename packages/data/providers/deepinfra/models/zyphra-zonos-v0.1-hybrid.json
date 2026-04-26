@@ -1,0 +1,35 @@
+{
+  "id": "Zyphra/Zonos-v0.1-hybrid",
+  "name": "Zonos-v0.1-hybrid",
+  "created_by": "zyphra",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "zyphra",
+  "description": "Zonos-v0.1 is a leading open-weight text-to-speech model trained on more than 200k hours of varied multilingual speech, delivering expressiveness and quality on par with—or even surpassing—top TTS providers. Our model enables highly natural speech generation from text prompts when given a speaker embedding or audio prefix, and can accurately perform speech cloning when given a reference clip spanning just a few seconds. The conditioning setup also allows for fine control over speaking rate, p...",
+  "status": "active",
+  "model_type": "tts",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "pricing_notes": ["$7.0000 per 1M input characters"],
+  "tagline": "Zonos-v0.1 is a leading open-weight text-to-speech model trained on more than 200k hours of varied multilingual speech, delivering expressiveness and quality on par with—or even surpassing—top TTS providers.",
+  "_generated": {
+    "name": "408571cb",
+    "family": "dd833e71",
+    "description": "1d915d73",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "pricing_notes": "ecddc70e",
+    "tagline": "e8fcc822"
+  }
+}

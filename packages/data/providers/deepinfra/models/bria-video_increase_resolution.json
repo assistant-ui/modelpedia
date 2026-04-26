@@ -1,0 +1,29 @@
+{
+  "id": "Bria/video_increase_resolution",
+  "name": "video_increase_resolution",
+  "created_by": "bria",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "bria",
+  "description": "Increase video resolution up to 8K with advanced AI upscaling. Bring your videos to the big screen, ready for the screens of tomorrow.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "tagline": "Increase video resolution up to 8K with advanced AI upscaling.",
+  "_generated": {
+    "name": "a8ef093c",
+    "family": "08e987c0",
+    "description": "29b5cc45",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "tagline": "59d73072"
+  }
+}

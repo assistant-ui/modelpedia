@@ -1,0 +1,54 @@
+{
+  "id": "moonshotai/Kimi-K2.6",
+  "name": "Kimi-K2.6",
+  "created_by": "moonshot",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "Kimi-K2.6",
+  "description": "Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 262144,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "modified-mit",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.75,
+    "output": 3.5,
+    "cached_input": 0.15
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "tagline": "Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orc",
+  "_generated": {
+    "name": "c15cc4e3",
+    "family": "c15cc4e3",
+    "description": "5610657c",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "4a1d32eb",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "license": "c33cdf2d",
+    "capabilities": "882e371a",
+    "modalities": "68e53d93",
+    "pricing": "8d73e4c7",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee",
+    "tagline": "e5476247"
+  }
+}

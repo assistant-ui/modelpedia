@@ -1,0 +1,24 @@
+{
+  "id": "jina-reranker-v3",
+  "name": "Jina Reranker v3",
+  "created_by": "jina",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "jina-reranker",
+  "description": "0.6B-parameter multilingual document reranker on Qwen3-0.6B with last-but-not-late interaction architecture and 131K context.",
+  "tagline": "Listwise multilingual reranker, 131K context.",
+  "status": "active",
+  "model_type": "rerank",
+  "context_window": 131072,
+  "release_date": "2025-10-01",
+  "license": "jina-ai",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": []
+  },
+  "endpoints": ["rerank"],
+  "pricing": {
+    "input": 0.05
+  }
+}

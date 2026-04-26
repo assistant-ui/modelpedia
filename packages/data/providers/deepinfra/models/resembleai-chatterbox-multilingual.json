@@ -1,0 +1,35 @@
+{
+  "id": "ResembleAI/chatterbox-multilingual",
+  "name": "chatterbox-multilingual",
+  "created_by": "resembleai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "resembleai",
+  "description": "09/04 🔥 Introducing Chatterbox Multilingual in 23 Languages! We're excited to introduce Chatterbox and Chatterbox Multilingual, Resemble AI's production-grade open source TTS models. Chatterbox Multilingual supports Arabic, Danish, German, Greek, English, Spanish, Finnish, French, Hebrew, Hindi, Italian, Japanese, Korean, Malay, Dutch, Norwegian, Polish, Portuguese, Russian, Swedish, Swahili, Turkish, Chinese out of the box. Licensed under MIT, Chatterbox has been benchmarked against leading...",
+  "status": "active",
+  "model_type": "tts",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "pricing_notes": ["$1.0000 per 1M input characters"],
+  "tagline": "09/04 🔥 Introducing Chatterbox Multilingual in 23 Languages! We're excited to introduce Chatterbox and Chatterbox Multilingual, Resemble AI's production-grade open source TTS models.",
+  "_generated": {
+    "name": "5db2487d",
+    "family": "ecc24f6b",
+    "description": "65e8dd23",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "pricing_notes": "eff48336",
+    "tagline": "e00580e5"
+  }
+}

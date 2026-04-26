@@ -1,0 +1,52 @@
+{
+  "id": "openai/gpt-oss-20b",
+  "name": "gpt-oss-20b",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "gpt-oss",
+  "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for lower-latency inference. The model is trained in OpenAI’s Harmony response format and supports reasoning level configuration, fine-tuning, and agentic capabilities including function calling, tool use, and structured outputs.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 131072,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "proprietary",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.14
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "bfloat16",
+  "tagline": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
+  "_generated": {
+    "name": "0f95b22f",
+    "family": "82d0cb0b",
+    "description": "9d945df2",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "license": "9186c466",
+    "capabilities": "a17ad43b",
+    "modalities": "68e53d93",
+    "pricing": "b56a8399",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "45ae6e17",
+    "tagline": "9ef19f8d"
+  }
+}

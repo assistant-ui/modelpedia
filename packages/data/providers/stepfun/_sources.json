@@ -1,0 +1,8 @@
+{
+  "pricing": "https://platform.stepfun.com/docs/zh/guides/pricing/details.md",
+  "overview": "https://platform.stepfun.com/docs/zh/guides/models/overview.md",
+  "text": "https://platform.stepfun.com/docs/zh/guides/models/text.md",
+  "vision": "https://platform.stepfun.com/docs/zh/guides/models/vision.md",
+  "reasoning": "https://platform.stepfun.com/docs/zh/guides/models/reasoning.md",
+  "audio": "https://platform.stepfun.com/docs/zh/guides/models/audio.md"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "flux-dev",
+  "name": "FLUX.1 [dev]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-1",
+  "description": "12B-parameter FLUX.1 [dev] model for text-to-image generation. Open weights for non-commercial use; also exposed via BFL API for hosted inference.",
+  "tagline": "FLUX.1 12B open-weight dev model.",
+  "status": "active",
+  "model_type": "image",
+  "release_date": "2024-08-01",
+  "open_weight": true,
+  "license": "flux-1-dev-non-commercial",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["/v1/flux-dev"],
+  "pricing_notes": [
+    "$0.025/image via API (per docs); weights free for non-commercial use."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "recraftv2_vector",
+  "name": "Recraft V2 Vector",
+  "created_by": "recraft",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "recraft-v2",
+  "description": "First-generation vector / SVG output model.",
+  "tagline": "Legacy Recraft V2 vector.",
+  "status": "active",
+  "model_type": "image",
+  "release_date": "2024-02-01",
+  "open_weight": false,
+  "license": "proprietary",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.044 per image (44 API units)."]
+}

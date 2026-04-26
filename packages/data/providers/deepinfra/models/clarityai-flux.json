@@ -1,0 +1,35 @@
+{
+  "id": "ClarityAI/flux",
+  "name": "flux",
+  "created_by": "clarityai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux",
+  "description": "ClarityAI/flux integrates the Flux AI model into the upscaling process, enabling high-resolution enhancements with superior face preservation and support for LoRAs to apply specific styles or identities.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.2000 per image unit (0x0 default)"],
+  "tagline": "ClarityAI/flux integrates the Flux AI model into the upscaling process, enabling high-resolution enhancements with superior face preservation and support for LoRAs to apply specific styles or identiti",
+  "_generated": {
+    "name": "c4784ca2",
+    "family": "c4784ca2",
+    "description": "3ad681bd",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "e615b674",
+    "tagline": "6b4b0d39"
+  }
+}

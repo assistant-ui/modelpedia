@@ -1,0 +1,21 @@
+{
+  "id": "flux-2-flex",
+  "name": "FLUX.2 [flex]",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-2",
+  "description": "FLUX.2 variant with adjustable steps and guidance, tuned for typography and editing workflows. Up to 8 references via API.",
+  "tagline": "Flexible FLUX.2 for typography and editing.",
+  "status": "active",
+  "model_type": "image",
+  "release_date": "2025-11-25",
+  "open_weight": false,
+  "license": "proprietary",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["/v1/flux-2-flex"],
+  "pricing_notes": ["From $0.06/image; megapixel-scaled."]
+}

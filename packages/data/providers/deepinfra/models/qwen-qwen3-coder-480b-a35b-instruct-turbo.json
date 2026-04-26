@@ -1,0 +1,51 @@
+{
+  "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo",
+  "name": "Qwen3-Coder-480B-A35B-Instruct-Turbo",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen3",
+  "description": "Qwen3-Coder-480B-A35B-Instruct is the Qwen3's most agentic code model, featuring Significant Performance on Agentic Coding, Agentic Browser-Use and other foundational coding tasks, achieving results comparable to Claude Sonnet.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 262144,
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1,
+    "cached_input": 0.1
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "tagline": "Qwen3-Coder-480B-A35B-Instruct is the Qwen3's most agentic code model, featuring Significant Performance on Agentic Coding, Agentic Browser-Use and other foundational coding tasks, achieving results c",
+  "_generated": {
+    "name": "69467354",
+    "family": "48c385a0",
+    "description": "4929c236",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "4a1d32eb",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "6495223c",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee",
+    "tagline": "d3426de6"
+  }
+}

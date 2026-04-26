@@ -124,31 +124,31 @@ async function fetchBundleModels(): Promise<Map<string, BundleModel>> {
   }
   const html = await pageRes.text();
 
-  // Find the component chunk URL containing model data
-  const componentMatch = html.match(/52:I\[\d+,\[([^\]]+)\]/);
-  if (!componentMatch) {
-    console.warn("Could not find model component reference in page");
+  // Scan every chunk URL referenced by the page (path + dpl query string).
+  // Cursor's page IDs and chunk-prefix paths shift between deploys, so we
+  // probe each chunk for the MODELS array rather than hardcoding a component.
+  const chunkRe =
+    /\/(?:docs-static\/)?_next\/static\/chunks\/[a-zA-Z0-9._~/-]+\.js(?:\?dpl=[a-zA-Z0-9_-]+)?/g;
+  const chunkPaths = [...new Set(html.match(chunkRe) ?? [])];
+
+  if (chunkPaths.length === 0) {
+    console.warn("Could not find any JS chunk URLs in page");
     return models;
   }
 
-  const urls =
-    componentMatch[1].match(/"([^"]+)"/g)?.map((s) => s.replace(/"/g, "")) ??
-    [];
-
-  for (const url of urls) {
-    const fullUrl = `https://cursor.com${url}`;
+  for (const path of chunkPaths) {
+    const fullUrl = `https://cursor.com${path}`;
     const res = await fetch(fullUrl);
     if (!res.ok) continue;
     const js = await res.text();
 
-    // Look for the MODELS array
-    const arrayStart = js.indexOf('[{id:"');
-    if (arrayStart === -1) continue;
-
     // Verify it contains model data
     if (!js.includes("speedTier") || !js.includes("intelligenceTier")) continue;
 
-    console.log(`Found model data in bundle (${js.length} bytes)`);
+    const arrayStart = js.indexOf('[{id:"');
+    if (arrayStart === -1) continue;
+
+    console.log(`Found model data in ${path} (${js.length} bytes)`);
 
     // Extract individual model objects by splitting on boundaries
     // Each model starts with {id:" (except the first which starts with [{id:")

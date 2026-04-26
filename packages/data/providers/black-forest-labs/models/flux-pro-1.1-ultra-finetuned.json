@@ -1,0 +1,20 @@
+{
+  "id": "flux-pro-1.1-ultra-finetuned",
+  "name": "FLUX 1.1 [pro] Ultra Finetuned",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-1.1",
+  "description": "Inference endpoint for user-finetuned FLUX 1.1 [pro] Ultra models created via the BFL finetune API.",
+  "tagline": "Inference for finetuned FLUX 1.1 [pro] Ultra.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "license": "proprietary",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["/v1/flux-pro-1.1-ultra-finetuned"],
+  "pricing_notes": ["$0.06/image (6 credits)."]
+}

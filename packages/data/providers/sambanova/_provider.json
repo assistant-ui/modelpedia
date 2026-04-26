@@ -1,0 +1,20 @@
+{
+  "id": "sambanova",
+  "name": "SambaNova Cloud",
+  "region": "US",
+  "headquarters": "Palo Alto, CA",
+  "founded": 2017,
+  "url": "https://sambanova.ai",
+  "api_url": "https://api.sambanova.ai/v1",
+  "docs_url": "https://docs.sambanova.ai",
+  "pricing_url": "https://cloud.sambanova.ai/plans/pricing",
+  "description": "Inference cloud built on custom RDU dataflow chips, delivering high-throughput hosting of open-weight models.",
+  "type": "cloud",
+  "playground_url": "https://cloud.sambanova.ai/playground",
+  "openai_compatible": true,
+  "free_tier": true,
+  "models_url": "https://cloud.sambanova.ai/models",
+  "twitter_url": "https://x.com/SambaNovaAI",
+  "blog_url": "https://sambanova.ai/blog",
+  "github_url": "https://github.com/sambanova"
+}

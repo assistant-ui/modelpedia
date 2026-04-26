@@ -1,0 +1,24 @@
+{
+  "id": "jina-reranker-v2-base-multilingual",
+  "name": "Jina Reranker v2 Base Multilingual",
+  "created_by": "jina",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "jina-reranker",
+  "description": "278M-parameter cross-encoder reranker supporting 100+ languages with function-calling and code search.",
+  "tagline": "Multilingual cross-encoder reranker.",
+  "status": "active",
+  "model_type": "rerank",
+  "context_window": 1024,
+  "release_date": "2024-06-25",
+  "license": "cc-by-nc-4.0",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": []
+  },
+  "endpoints": ["rerank"],
+  "pricing": {
+    "input": 0.05
+  }
+}

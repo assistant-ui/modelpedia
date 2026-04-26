@@ -1,0 +1,29 @@
+{
+  "id": "Bria/video_foreground_mask",
+  "name": "video_foreground_mask",
+  "created_by": "bria",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "bria",
+  "description": "Automatically identify and segment foreground objects across video frames and generate a mask. No prompts, just a video.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "tagline": "Automatically identify and segment foreground objects across video frames and generate a mask.",
+  "_generated": {
+    "name": "50f20b0b",
+    "family": "08e987c0",
+    "description": "afffe39b",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "tagline": "23d603af"
+  }
+}

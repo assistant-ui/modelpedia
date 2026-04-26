@@ -1,0 +1,35 @@
+{
+  "id": "PrunaAI/p-image-Edit",
+  "name": "p-image-Edit",
+  "created_by": "prunaai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "prunaai",
+  "description": "P-Image-Edit is a high-precision image editing model that applies complex transformations, insertions, removals, and style adjustments in under a second. It delivers state-of-the-art accuracy, clean boundaries, and reliable prompt alignment, making multi-step edits fast, consistent, and production-ready.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0100 per image unit (0x0 default)"],
+  "tagline": "P-Image-Edit is a high-precision image editing model that applies complex transformations, insertions, removals, and style adjustments in under a second.",
+  "_generated": {
+    "name": "6192b513",
+    "family": "6edcbacf",
+    "description": "ebbbd2b2",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "eb48c813",
+    "tagline": "ca27e715"
+  }
+}

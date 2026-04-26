@@ -1,0 +1,33 @@
+{
+  "id": "shibing624/text2vec-base-chinese",
+  "name": "text2vec-base-chinese",
+  "created_by": "shibing624",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "shibing624",
+  "description": "A sentence similarity model that can be used for various NLP tasks such as text classification, sentiment analysis, named entity recognition, question answering, and more. It utilizes the CoSENT architecture, which consists of a transformer encoder and a pooling module, to encode input texts into vectors that capture their semantic meaning. The model was trained on the nli_zh dataset and achieved high performance on various benchmark datasets.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "tagline": "A sentence similarity model that can be used for various NLP tasks such as text classification, sentiment analysis, named entity recognition, question answering, and more.",
+  "_generated": {
+    "name": "5aa0686f",
+    "family": "71afe8f8",
+    "description": "3aa1228a",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "tagline": "c1e677fd"
+  }
+}

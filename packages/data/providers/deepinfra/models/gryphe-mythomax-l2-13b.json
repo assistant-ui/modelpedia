@@ -1,0 +1,27 @@
+{
+  "id": "Gryphe/MythoMax-L2-13b",
+  "name": "MythoMax-L2-13b",
+  "created_by": "gryphe",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "gryphe",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 4096,
+  "open_weight": true,
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.4,
+    "output": 0.4
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "fp16"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "zai-org/GLM-5",
+  "name": "GLM-5",
+  "created_by": "zhipu",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "GLM-5",
+  "description": "GLM-5 is an advanced, open-source large language model designed for developers tackling the toughest challenges. It excels at long-context reasoning, multi-step tool orchestration, and complex systems engineering, making it the ideal choice for powering sophisticated agents and applications that require high-level cognitive tasks.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 202752,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "mit",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 2.08,
+    "cached_input": 0.12
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "tagline": "GLM-5 is an advanced, open-source large language model designed for developers tackling the toughest challenges.",
+  "_generated": {
+    "name": "bfb92394",
+    "family": "bfb92394",
+    "description": "f5c753cb",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "6ea395a4",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "license": "3c4c3ba5",
+    "capabilities": "882e371a",
+    "modalities": "68e53d93",
+    "pricing": "07d3b932",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee",
+    "tagline": "0670cc4e"
+  }
+}

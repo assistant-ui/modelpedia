@@ -1,0 +1,50 @@
+{
+  "id": "mistralai/Mistral-Nemo-Instruct-2407",
+  "name": "Mistral-Nemo-Instruct-2407",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "mistral",
+  "description": "12B model trained jointly by Mistral AI and NVIDIA, it significantly outperforms existing models smaller or similar in size.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 131072,
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.02,
+    "output": 0.04
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "12B model trained jointly by Mistral AI and NVIDIA, it significantly outperforms existing models smaller or similar in size.",
+  "_generated": {
+    "name": "7d48a08d",
+    "family": "a609ac21",
+    "description": "fa557f20",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "6fc99b9e",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "fa557f20"
+  }
+}

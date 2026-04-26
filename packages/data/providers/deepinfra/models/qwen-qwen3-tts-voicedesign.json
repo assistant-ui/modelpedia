@@ -1,0 +1,38 @@
+{
+  "id": "Qwen/Qwen3-TTS-VoiceDesign",
+  "name": "Qwen3-TTS-VoiceDesign",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen3",
+  "description": "● Qwen3-TTS-VoiceDesign is a voice design variant of Qwen3-TTS by Alibaba's Qwen team. Instead of selecting from preset voices, you describe the voice you want in natural language — and the model generates speech in that voice. Key capabilities: - Natural language voice control — describe any voice with free text (e.g. \"a deep male voice with a calm, authoritative presence\", \"a young cheerful female with a warm and friendly tone\") - 10 languages — English, Chinese, Japanese, Korean, German, F...",
+  "status": "active",
+  "model_type": "tts",
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "pricing_notes": ["$20.0000 per 1M input characters"],
+  "tagline": "● Qwen3-TTS-VoiceDesign is a voice design variant of Qwen3-TTS by Alibaba's Qwen team.",
+  "_generated": {
+    "name": "6a039c42",
+    "family": "48c385a0",
+    "description": "dea75e12",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "9c665f5d",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "pricing_notes": "327e7c02",
+    "tagline": "73996d47"
+  }
+}

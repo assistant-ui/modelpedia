@@ -1,0 +1,37 @@
+{
+  "id": "openai/clip-vit-large-patch14-336",
+  "name": "clip-vit-large-patch14-336",
+  "created_by": "openai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "openai",
+  "description": "A zero-shot-image-classification model released by OpenAI. The clip-vit-large-patch14-336 model was trained from scratch on an unknown dataset and achieves unspecified results on the evaluation set. The model's intended uses and limitations, as well as its training and evaluation data, are not provided. The training procedure used an unknown optimizer and precision, and the framework versions included Transformers 4.21.3, TensorFlow 2.8.2, and Tokenizers 0.12.1.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": true,
+  "license": "proprietary",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.000500 per second"],
+  "tagline": "A zero-shot-image-classification model released by OpenAI.",
+  "_generated": {
+    "name": "f7a7dd9c",
+    "family": "59f82feb",
+    "description": "7183185b",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "b326b506",
+    "license": "9186c466",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "44b95543",
+    "tagline": "7f20d458"
+  }
+}

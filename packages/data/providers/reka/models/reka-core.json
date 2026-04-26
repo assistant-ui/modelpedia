@@ -1,0 +1,32 @@
+{
+  "id": "reka-core",
+  "name": "Reka Core",
+  "created_by": "reka",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "reka-core",
+  "description": "Frontier-class multimodal model handling text, image, audio, and video for complex reasoning tasks.",
+  "tagline": "Reka's frontier multimodal model.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 128000,
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio", "video"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 2,
+    "output": 6
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "palmyra-x4",
+  "name": "Palmyra X4",
+  "created_by": "writer",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "palmyra-x",
+  "description": "Advanced 128k-context model focused on tool calling, RAG, code generation, and complex multi-step workflows. Tops Berkeley's tool-calling leaderboard.",
+  "tagline": "Tool-calling LLM for enterprise actions.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 128000,
+  "max_output_tokens": 4096,
+  "release_date": "2024-10-09",
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 2.5,
+    "output": 10
+  },
+  "page_url": "https://dev.writer.com/home/models",
+  "bedrock_id": "writer.palmyra-x4-v1:0"
+}

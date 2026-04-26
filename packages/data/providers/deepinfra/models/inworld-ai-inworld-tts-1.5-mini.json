@@ -1,0 +1,35 @@
+{
+  "id": "inworld-ai/inworld-tts-1.5-mini",
+  "name": "inworld-tts-1.5-mini",
+  "created_by": "inworld-ai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "inworld-ai",
+  "description": "Fast multilingual text-to-speech model by Inworld AI with 130+ preset voices across 15 languages. Supports voice cloning, word-level timestamps, and streaming. Optimized for low-latency applications with <130ms time-to-first-audio.",
+  "status": "active",
+  "model_type": "tts",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "pricing_notes": ["$25.0000 per 1M input characters"],
+  "tagline": "Fast multilingual text-to-speech model by Inworld AI with 130+ preset voices across 15 languages.",
+  "_generated": {
+    "name": "aa56c1fb",
+    "family": "fc8ec4f4",
+    "description": "477516d4",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "pricing_notes": "06685774",
+    "tagline": "6417c71f"
+  }
+}

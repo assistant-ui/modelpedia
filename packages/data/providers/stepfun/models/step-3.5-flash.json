@@ -1,0 +1,33 @@
+{
+  "id": "step-3.5-flash",
+  "name": "Step 3.5 Flash",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-3.5",
+  "description": "Flagship reasoning model with 256k context, MoE architecture (199B total, ~11B active). Optimized for agentic tasks, tool calling, planning, math, and coding.",
+  "tagline": "Frontier reasoning and agentic capabilities at low cost.",
+  "status": "active",
+  "model_type": "reasoning",
+  "context_window": 256000,
+  "reasoning_tokens": true,
+  "license": "apache-2.0",
+  "open_weight": true,
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.097,
+    "cached_input": 0.019,
+    "output": 0.292
+  }
+}

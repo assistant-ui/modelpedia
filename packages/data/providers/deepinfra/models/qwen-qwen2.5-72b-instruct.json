@@ -1,0 +1,50 @@
+{
+  "id": "Qwen/Qwen2.5-72B-Instruct",
+  "name": "Qwen2.5-72B-Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "qwen2.5",
+  "description": "Qwen2.5 is a model pretrained on a large-scale dataset of up to 18 trillion tokens, offering significant improvements in knowledge, coding, mathematics, and instruction following compared to its predecessor Qwen2. The model also features enhanced capabilities in generating long texts, understanding structured data, and generating structured outputs, while supporting multilingual capabilities for over 29 languages.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 32768,
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.36,
+    "output": 0.4
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "Qwen2.5 is a model pretrained on a large-scale dataset of up to 18 trillion tokens, offering significant improvements in knowledge, coding, mathematics, and instruction following compared to its predecessor Qwen2.",
+  "_generated": {
+    "name": "5e3cfe3b",
+    "family": "45d84b68",
+    "description": "b3f8a0aa",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f4376436",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "a4bf0b18",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "5361f48f"
+  }
+}

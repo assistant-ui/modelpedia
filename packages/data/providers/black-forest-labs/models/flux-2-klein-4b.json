@@ -1,0 +1,21 @@
+{
+  "id": "flux-2-klein-4b",
+  "name": "FLUX.2 [klein] 4B",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-2",
+  "description": "Lightweight 4B-parameter FLUX.2 flow model for sub-second inference; ~13 GB VRAM. Open base weights under Apache 2.0.",
+  "tagline": "Fastest, most lightweight FLUX.2.",
+  "status": "active",
+  "model_type": "image",
+  "release_date": "2026-01-15",
+  "open_weight": true,
+  "license": "apache-2.0",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["/v1/flux-2-klein-4b"],
+  "pricing_notes": ["From $0.014/image + $0.001/MP."]
+}

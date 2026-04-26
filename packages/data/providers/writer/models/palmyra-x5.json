@@ -1,0 +1,36 @@
+{
+  "id": "palmyra-x5",
+  "name": "Palmyra X5",
+  "created_by": "writer",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "palmyra-x",
+  "description": "Writer's flagship adaptive reasoning model with a 1M-token context window, sub-second tool calling, and image input. Replaces specialized Palmyra variants for general-purpose, financial, medical, and creative use cases.",
+  "tagline": "1M-token enterprise LLM with adaptive reasoning.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 1000000,
+  "max_output_tokens": 8192,
+  "release_date": "2025-04-28",
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.6,
+    "output": 6
+  },
+  "page_url": "https://dev.writer.com/home/models",
+  "bedrock_id": "writer.palmyra-x5-v1:0"
+}

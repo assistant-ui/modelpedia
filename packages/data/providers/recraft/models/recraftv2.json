@@ -1,0 +1,21 @@
+{
+  "id": "recraftv2",
+  "name": "Recraft V2",
+  "created_by": "recraft",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "recraft-v2",
+  "description": "First-generation Recraft raster model.",
+  "tagline": "Legacy Recraft V2 raster.",
+  "status": "active",
+  "model_type": "image",
+  "release_date": "2024-02-01",
+  "open_weight": false,
+  "license": "proprietary",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.022 per image (22 API units)."]
+}

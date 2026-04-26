@@ -1,0 +1,4 @@
+{
+  "models": "https://api.inceptionlabs.ai/v1/models",
+  "pricing": "https://docs.inceptionlabs.ai/get-started/models.md"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "intfloat/multilingual-e5-large",
+  "name": "multilingual-e5-large",
+  "created_by": "intfloat",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "e5",
+  "description": "The Multilingual-E5-large model is a 24-layer text embedding model with an embedding size of 1024, trained on a mixture of multilingual datasets and supporting 100 languages.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "license": "mit",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "quantization": "fp32",
+  "tagline": "The Multilingual-E5-large model is a 24-layer text embedding model with an embedding size of 1024, trained on a mixture of multilingual datasets and supporting 100 languages.",
+  "_generated": {
+    "name": "365a60d3",
+    "family": "5ffc5ec4",
+    "description": "22ff3fbd",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "license": "3c4c3ba5",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "quantization": "49651676",
+    "tagline": "22ff3fbd"
+  }
+}

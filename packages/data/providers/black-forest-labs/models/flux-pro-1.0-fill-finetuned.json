@@ -1,0 +1,20 @@
+{
+  "id": "flux-pro-1.0-fill-finetuned",
+  "name": "FLUX.1 Fill [pro] Finetuned",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "flux-1-tools",
+  "description": "Inference endpoint for user-finetuned FLUX.1 Fill [pro] models with input image and mask.",
+  "tagline": "Inference for finetuned FLUX.1 Fill [pro].",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "license": "proprietary",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["/v1/flux-pro-1.0-fill-finetuned"],
+  "pricing_notes": ["$0.05/image (5 credits)."]
+}

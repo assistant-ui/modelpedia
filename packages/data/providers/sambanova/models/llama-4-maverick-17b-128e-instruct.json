@@ -1,0 +1,51 @@
+{
+  "id": "Llama-4-Maverick-17B-128E-Instruct",
+  "name": "Llama 4 Maverick 17B 128E Instruct",
+  "created_by": "meta",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "llama-4",
+  "description": "Llama 4 Maverick MoE multimodal model (17B active, 128 experts) with vision input.",
+  "status": "preview",
+  "model_type": "chat",
+  "context_window": 131072,
+  "max_output_tokens": 4096,
+  "open_weight": true,
+  "license": "llama-4",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.63,
+    "output": 1.8
+  },
+  "tagline": "Llama 4 Maverick MoE multimodal model (17B active, 128 experts) with vision input.",
+  "_generated": {
+    "name": "10278349",
+    "family": "3169363f",
+    "description": "067b12ff",
+    "status": "127aecde",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7efa4f8",
+    "open_weight": "b326b506",
+    "license": "3169363f",
+    "capabilities": "1575824d",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "5a664cad",
+    "tagline": "067b12ff"
+  }
+}

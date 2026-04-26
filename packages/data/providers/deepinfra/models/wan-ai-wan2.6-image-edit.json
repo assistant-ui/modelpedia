@@ -1,0 +1,35 @@
+{
+  "id": "Wan-AI/Wan2.6-Image-Edit",
+  "name": "Wan2.6-Image-Edit",
+  "created_by": "wan-ai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "Wan2.6",
+  "description": "An all-round image generation model that supports joint text–image reasoning, multi-image creative fusion, commercial-grade consistency, aesthetic style transfer, and precise control of framing and lighting, significantly enhancing consistency, controllability, and expressiveness in image generation.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0300 per image unit (0x0 default)"],
+  "tagline": "An all-round image generation model that supports joint text–image reasoning, multi-image creative fusion, commercial-grade consistency, aesthetic style transfer, and precise control of framing and li",
+  "_generated": {
+    "name": "ec8c1de7",
+    "family": "61a22951",
+    "description": "2be79b6b",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "fba4c044",
+    "tagline": "788a72d0"
+  }
+}

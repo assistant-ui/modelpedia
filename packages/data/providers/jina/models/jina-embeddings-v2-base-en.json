@@ -1,0 +1,25 @@
+{
+  "id": "jina-embeddings-v2-base-en",
+  "name": "Jina Embeddings v2 Base English",
+  "created_by": "jina",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "jina-embeddings-v2",
+  "description": "English text embedding model with 8K context length and 0.27GB footprint.",
+  "tagline": "Long-context English embeddings.",
+  "status": "active",
+  "model_type": "embed",
+  "context_window": 8192,
+  "release_date": "2023-10-28",
+  "license": "apache-2.0",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": []
+  },
+  "endpoints": ["embeddings"],
+  "pricing": {
+    "input": 0.05
+  },
+  "output_dimensions": [768]
+}

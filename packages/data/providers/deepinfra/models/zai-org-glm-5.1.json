@@ -1,0 +1,54 @@
+{
+  "id": "zai-org/GLM-5.1",
+  "name": "GLM-5.1",
+  "created_by": "zhipu",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "GLM-5.1",
+  "description": "GLM-5.1 is Z-AI's next-generation flagship model for agentic engineering, with significantly stronger coding capabilities than its predecessor. It achieves state-of-the-art performance on SWE-Bench Pro and leads GLM-5 by a wide margin on NL2Repo (repo generation) and Terminal-Bench 2.0 (real-world terminal tasks).",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 202752,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "mit",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.05,
+    "output": 3.5,
+    "cached_input": 0.205
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "tagline": "GLM-5.1 is Z-AI's next-generation flagship model for agentic engineering, with significantly stronger coding capabilities than its predecessor.",
+  "_generated": {
+    "name": "751e8f2b",
+    "family": "751e8f2b",
+    "description": "0508fb24",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "6ea395a4",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "license": "3c4c3ba5",
+    "capabilities": "882e371a",
+    "modalities": "68e53d93",
+    "pricing": "9ac5f1e0",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee",
+    "tagline": "4eea91d8"
+  }
+}

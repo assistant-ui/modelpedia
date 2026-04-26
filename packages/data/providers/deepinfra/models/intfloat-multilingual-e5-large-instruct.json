@@ -1,0 +1,36 @@
+{
+  "id": "intfloat/multilingual-e5-large-instruct",
+  "name": "multilingual-e5-large-instruct",
+  "created_by": "intfloat",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "e5",
+  "description": "The Multilingual-E5 models, initialized from XLM-RoBERTa, support up to 512 tokens per input — any longer text will be silently truncated. To ensure optimal performance, always prefix inputs with “query:” or “passage:”, as the model was explicitly trained with this format.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "license": "mit",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "tagline": "The Multilingual-E5 models, initialized from XLM-RoBERTa, support up to 512 tokens per input — any longer text will be silently truncated.",
+  "_generated": {
+    "name": "bce24391",
+    "family": "5ffc5ec4",
+    "description": "f277b5ae",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "license": "3c4c3ba5",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "tagline": "ee840a94"
+  }
+}

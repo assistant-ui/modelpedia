@@ -1,0 +1,29 @@
+{
+  "id": "step-1o-turbo-vision",
+  "name": "Step 1o Turbo Vision",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-1o",
+  "description": "Recommended vision model with strong image and video understanding. Up to 50 images per request and MP4 video input <128 MB.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 32000,
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "vision": true,
+    "streaming": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.347,
+    "cached_input": 0.069,
+    "output": 1.111
+  }
+}

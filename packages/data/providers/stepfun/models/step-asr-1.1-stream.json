@@ -1,0 +1,21 @@
+{
+  "id": "step-asr-1.1-stream",
+  "name": "Step ASR 1.1 Stream",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-asr",
+  "description": "Streaming variant of Step ASR 1.1 for real-time transcription.",
+  "status": "active",
+  "model_type": "transcription",
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"]
+}

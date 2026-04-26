@@ -7,16 +7,20 @@ import { provider as amazon } from './providers/amazon';
 import { provider as anthropic } from './providers/anthropic';
 import { provider as azure } from './providers/azure';
 import { provider as baseten } from './providers/baseten';
+import { provider as black_forest_labs } from './providers/black-forest-labs';
 import { provider as cerebras } from './providers/cerebras';
 import { provider as cloudflare_ai_gateway } from './providers/cloudflare-ai-gateway';
 import { provider as cloudflare_workers_ai } from './providers/cloudflare-workers-ai';
 import { provider as cohere } from './providers/cohere';
 import { provider as cursor } from './providers/cursor';
+import { provider as deepinfra } from './providers/deepinfra';
 import { provider as deepseek } from './providers/deepseek';
 import { provider as fireworks } from './providers/fireworks';
 import { provider as google } from './providers/google';
 import { provider as groq } from './providers/groq';
 import { provider as huggingface } from './providers/huggingface';
+import { provider as inception } from './providers/inception';
+import { provider as jina } from './providers/jina';
 import { provider as meta } from './providers/meta';
 import { provider as minimax } from './providers/minimax';
 import { provider as mistral } from './providers/mistral';
@@ -28,14 +32,19 @@ import { provider as opencode } from './providers/opencode';
 import { provider as openrouter } from './providers/openrouter';
 import { provider as perplexity } from './providers/perplexity';
 import { provider as qwen } from './providers/qwen';
+import { provider as recraft } from './providers/recraft';
+import { provider as reka } from './providers/reka';
+import { provider as sambanova } from './providers/sambanova';
+import { provider as stepfun } from './providers/stepfun';
 import { provider as together } from './providers/together';
 import { provider as vercel } from './providers/vercel';
 import { provider as vertex } from './providers/vertex';
+import { provider as writer } from './providers/writer';
 import { provider as xai } from './providers/xai';
 import { provider as xiaomi } from './providers/xiaomi';
 import { provider as zai } from './providers/zai';
 
-export const providers: ProviderWithModels[] = [alibaba, amazon, anthropic, azure, baseten, cerebras, cloudflare_ai_gateway, cloudflare_workers_ai, cohere, cursor, deepseek, fireworks, google, groq, huggingface, meta, minimax, mistral, moonshot, nvidia, ollama, openai, opencode, openrouter, perplexity, qwen, together, vercel, vertex, xai, xiaomi, zai];
+export const providers: ProviderWithModels[] = [alibaba, amazon, anthropic, azure, baseten, black_forest_labs, cerebras, cloudflare_ai_gateway, cloudflare_workers_ai, cohere, cursor, deepinfra, deepseek, fireworks, google, groq, huggingface, inception, jina, meta, minimax, mistral, moonshot, nvidia, ollama, openai, opencode, openrouter, perplexity, qwen, recraft, reka, sambanova, stepfun, together, vercel, vertex, writer, xai, xiaomi, zai];
 
 export const allModels: Model[] = providers.flatMap((p) =>
   p.models.map((m) => ({ ...m, provider: p.id }))

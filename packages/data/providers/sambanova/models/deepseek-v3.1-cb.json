@@ -1,0 +1,53 @@
+{
+  "id": "DeepSeek-V3.1-cb",
+  "name": "DeepSeek V3.1 (continuous batching)",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "deepseek-v3",
+  "description": "High-volume continuous-batching variant of DeepSeek V3.1 with reduced context and lower price.",
+  "status": "active",
+  "model_type": "reasoning",
+  "context_window": 32768,
+  "max_output_tokens": 32768,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "deepseek",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.15,
+    "output": 0.75
+  },
+  "tagline": "High-volume continuous-batching variant of DeepSeek V3.1 with reduced context and lower price.",
+  "_generated": {
+    "name": "a97ee2e7",
+    "family": "61b133fc",
+    "description": "87113ada",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "f4376436",
+    "max_output_tokens": "f4376436",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "license": "4b81b92d",
+    "capabilities": "83a28072",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "2876afb3",
+    "tagline": "87113ada"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "step-1o-vision-32k",
+  "name": "Step 1o Vision 32k",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-1o",
+  "description": "Vision model with strong image analysis at 32k context, up to 50 images per request.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 32000,
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 2.083,
+    "cached_input": 0.417,
+    "output": 9.722
+  }
+}

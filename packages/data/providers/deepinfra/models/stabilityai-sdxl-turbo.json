@@ -1,0 +1,38 @@
+{
+  "id": "stabilityai/sdxl-turbo",
+  "name": "sdxl-turbo",
+  "created_by": "stability-ai",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "sdxl",
+  "description": "The SDXL Turbo model, developed by Stability AI, is an optimized, fast text-to-image generative model. It is a distilled version of SDXL 1.0, leveraging Adversarial Diffusion Distillation (ADD) to generate high-quality images in less steps.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": true,
+  "license": "stability-ai",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0002 per image unit (1024x1024 default)"],
+  "tagline": "The SDXL Turbo model, developed by Stability AI, is an optimized, fast text-to-image generative model.",
+  "_generated": {
+    "name": "edb6ef47",
+    "family": "d37327a8",
+    "description": "c03dafae",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "b326b506",
+    "license": "7c568bd2",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "fc9dfd80",
+    "tagline": "fb439487"
+  }
+}

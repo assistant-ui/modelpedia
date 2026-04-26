@@ -1,0 +1,44 @@
+{
+  "id": "NousResearch/Hermes-3-Llama-3.1-405B",
+  "name": "Hermes-3-Llama-3.1-405B",
+  "created_by": "nousresearch",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "llama-3.1",
+  "description": "Hermes 3 is a cutting-edge language model that offers advanced capabilities in roleplaying, reasoning, and conversation. It's a fine-tuned version of the Llama-3.1 405B foundation model, designed to align with user needs and provide powerful control. Key features include reliable function calling, structured output, generalist assistant capabilities, and improved code generation. Hermes 3 is competitive with Llama-3.1 Instruct models, with its own strengths and weaknesses.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 131072,
+  "open_weight": true,
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "Hermes 3 is a cutting-edge language model that offers advanced capabilities in roleplaying, reasoning, and conversation.",
+  "_generated": {
+    "name": "f5a4de71",
+    "family": "83ec32db",
+    "description": "d3c1e00d",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "open_weight": "b326b506",
+    "capabilities": "ac49c06e",
+    "modalities": "68e53d93",
+    "pricing": "5418a9a1",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "8549664c"
+  }
+}

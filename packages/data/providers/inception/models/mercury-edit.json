@@ -1,0 +1,29 @@
+{
+  "id": "mercury-edit",
+  "name": "Mercury Edit",
+  "created_by": "inception",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "mercury",
+  "description": "First-generation code-editing diffusion LLM for fill-in-the-middle and apply-edit endpoints.",
+  "tagline": "Code-editing dLLM.",
+  "status": "active",
+  "model_type": "code",
+  "context_window": 128000,
+  "max_output_tokens": 32000,
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["fim_completions", "edit_completions"],
+  "pricing": {
+    "input": 0.25,
+    "output": 0.75,
+    "cached_input": 0.025
+  }
+}

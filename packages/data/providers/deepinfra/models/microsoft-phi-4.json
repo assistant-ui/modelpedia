@@ -1,0 +1,44 @@
+{
+  "id": "microsoft/phi-4",
+  "name": "phi-4",
+  "created_by": "microsoft",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "phi-4",
+  "description": "Phi-4 is a model built upon a blend of synthetic datasets, data from filtered public domain websites, and acquired academic books and Q&A datasets. The goal of this approach was to ensure that small capable models were trained with data focused on high quality and advanced reasoning.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 16384,
+  "open_weight": true,
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.07,
+    "output": 0.14
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "bfloat16",
+  "tagline": "Phi-4 is a model built upon a blend of synthetic datasets, data from filtered public domain websites, and acquired academic books and Q&A datasets.",
+  "_generated": {
+    "name": "a63c0003",
+    "family": "a63c0003",
+    "description": "28428059",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "c76fe1d8",
+    "open_weight": "b326b506",
+    "capabilities": "ac49c06e",
+    "modalities": "68e53d93",
+    "pricing": "6c823e6f",
+    "endpoints": "d8fa1080",
+    "quantization": "45ae6e17",
+    "tagline": "a2650919"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "reka-spark",
+  "name": "Reka Spark",
+  "created_by": "reka",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "reka-spark",
+  "description": "Ultra-compact 1B model for embedding AI into the smallest devices.",
+  "tagline": "Tiny on-device multimodal model.",
+  "status": "active",
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "pricing": {
+    "input": 0.05,
+    "output": 0.05
+  }
+}

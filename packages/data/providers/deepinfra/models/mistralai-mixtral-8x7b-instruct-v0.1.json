@@ -1,0 +1,50 @@
+{
+  "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+  "name": "Mixtral-8x7B-Instruct-v0.1",
+  "created_by": "mistral",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "mixtral",
+  "description": "Mixtral is mixture of expert large language model (LLM) from Mistral AI. This is state of the art machine learning model using a mixture 8 of experts (MoE) 7b models. During inference 2 expers are selected. This architecture allows large models to be fast and cheap at inference. The Mixtral-8x7B outperforms Llama 2 70B on most benchmarks.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 32768,
+  "open_weight": true,
+  "license": "apache-2.0",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.54,
+    "output": 0.54
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "Mixtral is mixture of expert large language model (LLM) from Mistral AI.",
+  "_generated": {
+    "name": "9d57868f",
+    "family": "3c47d372",
+    "description": "75a460d8",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f4376436",
+    "open_weight": "b326b506",
+    "license": "60245731",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "51b551df",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "1f2cada6"
+  }
+}

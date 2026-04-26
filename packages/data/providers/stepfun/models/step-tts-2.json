@@ -1,0 +1,19 @@
+{
+  "id": "step-tts-2",
+  "name": "Step TTS 2",
+  "created_by": "stepfun",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "step-tts",
+  "description": "End-to-end TTS with 11 emotions, 17 styles, 3 languages (Mandarin, Cantonese, Sichuan dialect, Japanese). 10s audio voice cloning.",
+  "status": "active",
+  "model_type": "tts",
+  "license": "proprietary",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "pricing_notes": ["0.40 USD per 10k characters."]
+}

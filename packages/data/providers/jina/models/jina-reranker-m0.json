@@ -1,0 +1,24 @@
+{
+  "id": "jina-reranker-m0",
+  "name": "Jina Reranker M0",
+  "created_by": "jina",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "jina-reranker",
+  "description": "Multimodal multilingual reranker for visual documents across 29 languages.",
+  "tagline": "Multimodal reranker for visual documents.",
+  "status": "active",
+  "model_type": "rerank",
+  "context_window": 10240,
+  "release_date": "2025-04-08",
+  "license": "cc-by-nc-4.0",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": []
+  },
+  "endpoints": ["rerank"],
+  "pricing": {
+    "input": 0.05
+  }
+}

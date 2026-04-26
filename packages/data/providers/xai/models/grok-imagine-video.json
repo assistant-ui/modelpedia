@@ -3,7 +3,7 @@
   "name": "grok-imagine-video",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-04-24",
+  "last_updated": "2026-04-26",
   "release_date": "2026-01-28",
   "capabilities": {
     "streaming": true,
@@ -25,14 +25,12 @@
     "model_type": "db8857fe",
     "modalities": "e248f03e",
     "license": "9186c466",
-    "page_url": "a55499d4",
+    "page_url": "4350b16c",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e",
-    "status": "2e2f74dc"
+    "tools": "f0c1dc7e"
   },
   "license": "proprietary",
-  "page_url": "https://docs.x.ai/docs/models#grok-imagine-video",
+  "page_url": "https://docs.x.ai/developers/models/grok-imagine-video",
   "open_weight": false,
-  "tools": ["function_calling"],
-  "status": "deprecated"
+  "tools": ["function_calling"]
 }

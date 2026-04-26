@@ -1,0 +1,38 @@
+{
+  "id": "deepseek-ai/Janus-Pro-7B",
+  "name": "Janus-Pro-7B",
+  "created_by": "deepseek",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "deepseek-ai",
+  "description": "Janus-Pro is a novel autoregressive framework that unifies multimodal understanding and generation. It addresses the limitations of previous approaches by decoupling visual encoding into separate pathways, while still utilizing a single, unified transformer architecture for processing. The decoupling not only alleviates the conflict between the visual encoder’s roles in understanding and generation, but also enhances the framework’s flexibility. Janus-Pro surpasses previous unified model and ...",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": true,
+  "license": "deepseek",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0020 per image unit (0x0 default)"],
+  "tagline": "Janus-Pro is a novel autoregressive framework that unifies multimodal understanding and generation.",
+  "_generated": {
+    "name": "5b53e11d",
+    "family": "db4eee4f",
+    "description": "266ab976",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "b326b506",
+    "license": "4b81b92d",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "3792cbeb",
+    "tagline": "48919c6e"
+  }
+}

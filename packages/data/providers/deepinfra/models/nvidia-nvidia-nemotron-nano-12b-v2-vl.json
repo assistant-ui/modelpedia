@@ -1,0 +1,46 @@
+{
+  "id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL",
+  "name": "NVIDIA-Nemotron-Nano-12B-v2-VL",
+  "created_by": "nvidia",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "nemotron",
+  "description": "NVIDIA Nemotron 2 Nano VL extends the Nemotron family into multi-modal reasoning and document intelligence. This auto-regressive vision-language model enables multi-image reasoning, video understanding, visual Q&A and document analysis and summarization. Optimized for enterprise AI workflows, it powers multimodal agentic systems such as visual copilots, document assistants, and knowledge automation pipelines.",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 131072,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "capabilities": {
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.6
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "tagline": "NVIDIA Nemotron 2 Nano VL extends the Nemotron family into multi-modal reasoning and document intelligence.",
+  "_generated": {
+    "name": "8c64bfbf",
+    "family": "968f6c63",
+    "description": "aafd3b9f",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "f7de594e",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "capabilities": "0eafa4e0",
+    "modalities": "6399757e",
+    "pricing": "d6e0ad87",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9",
+    "tagline": "53038269"
+  }
+}

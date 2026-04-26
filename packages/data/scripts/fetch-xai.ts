@@ -12,12 +12,18 @@ import {
 
 /**
  * Fetch xAI models from:
- * 1. Docs .md endpoint (specs + pricing, no key needed)
+ * 1. Docs HTML page (specs + pricing, embedded as escaped JSON registry)
  * 2. /v1/models API (release dates, needs key)
+ *
+ * Why HTML, not the .md endpoint: as of 2026-04, /developers/models.md no
+ * longer contains the model table — pricing is rendered client-side from a
+ * registry embedded in the HTML page (auth_mgmt.LanguageModel /
+ * ImageGenerationModel / VideoGenerationModel). The .md page only has prose
+ * (knowledge cutoffs, etc.) which we still parse from the HTML body.
  */
 
 const sources = readSources("xai");
-const DOCS_MD = sources.docs as string;
+const DOCS_URL = sources.docs as string;
 const API_URL = sources.api as string;
 
 interface DocsModel {
@@ -25,7 +31,7 @@ interface DocsModel {
   modalities: { input: string[]; output: string[] };
   capabilities: Record<string, boolean>;
   context_window?: number;
-  pricing?: { input: number; output: number; cached_input?: number };
+  pricing?: { input?: number; output?: number; cached_input?: number };
 }
 
 interface ApiModel {
@@ -33,28 +39,160 @@ interface ApiModel {
   created: number;
 }
 
-function parseModalities(s: string): { input: string[]; output: string[] } {
-  // "text, image → text" or "text, image, video → video"
-  const parts = s.split("→").map((p) => p.trim());
-  const input =
-    parts[0]
-      ?.split(",")
-      .map((m) => m.trim())
-      .filter(Boolean) ?? [];
-  const output =
-    parts[1]
-      ?.split(",")
-      .map((m) => m.trim())
-      .filter(Boolean) ?? [];
-  return filterModalities(input, output);
+const MODALITY_CODES: Record<number, string> = {
+  1: "text",
+  2: "image",
+  3: "audio",
+  10: "video",
+};
+
+function decodeModalities(codes: number[]): string[] {
+  return codes.map((c) => MODALITY_CODES[c]).filter(Boolean);
 }
 
-function parseCaps(s: string): Record<string, boolean> {
+/** Walk back from `hit` to the opening `{`, then forward to its matching `}`. */
+function findEnclosingObject(text: string, hit: number): string | null {
+  let i = hit;
+  let depth = 0;
+  while (i >= 0) {
+    const ch = text[i];
+    if (ch === "}") depth++;
+    else if (ch === "{") {
+      if (depth === 0) break;
+      depth--;
+    }
+    i--;
+  }
+  if (i < 0) return null;
+  let j = i;
+  let d = 0;
+  let inStr = false;
+  let escaped = false;
+  while (j < text.length) {
+    const ch = text[j];
+    if (escaped) {
+      escaped = false;
+    } else if (ch === "\\") {
+      escaped = true;
+    } else if (ch === '"') {
+      inStr = !inStr;
+    } else if (!inStr) {
+      if (ch === "{") d++;
+      else if (ch === "}") {
+        d--;
+        if (d === 0) return text.slice(i, j + 1);
+      }
+    }
+    j++;
+  }
+  return null;
+}
+
+function parseDollarN(s: string | undefined): number | undefined {
+  if (!s) return undefined;
+  const n = Number(s);
+  return Number.isFinite(n) ? n : undefined;
+}
+
+function parseModalityList(obj: string, key: string): number[] {
+  const m = obj.match(new RegExp(`"${key}":\\[([^\\]]*)\\]`));
+  if (!m) return [];
+  return m[1]
+    .split(",")
+    .map((s) => Number(s.trim()))
+    .filter((n) => Number.isFinite(n));
+}
+
+function parseFeatures(obj: string): Record<string, boolean> {
   const caps: Record<string, boolean> = { streaming: true, batch: true };
-  if (s.includes("functions")) caps.tool_call = true;
-  if (s.includes("structured")) caps.structured_output = true;
-  if (s.includes("reasoning")) caps.reasoning = true;
+  const features = obj.match(/"features":\{([^}]+)\}/);
+  if (!features) return caps;
+  const block = features[1];
+  if (/"functionCalling":true/.test(block)) caps.tool_call = true;
+  if (/"structuredOutputs":true/.test(block)) caps.structured_output = true;
+  if (/"reasoning":true/.test(block)) caps.reasoning = true;
   return caps;
+}
+
+function parseModelEntry(obj: string): DocsModel | null {
+  const nameMatch = obj.match(/"name":"([^"]+)"/);
+  if (!nameMatch) return null;
+  const id = nameMatch[1];
+
+  const inputCodes = parseModalityList(obj, "inputModalities");
+  const outputCodes = parseModalityList(obj, "outputModalities");
+  const modalities = filterModalities(
+    decodeModalities(inputCodes),
+    decodeModalities(outputCodes),
+  );
+
+  const capabilities = parseFeatures(obj);
+  if (modalities.input.includes("image")) capabilities.vision = true;
+
+  const ctxMatch = obj.match(/"maxPromptLength":(\d+)/);
+  const context_window = ctxMatch ? Number(ctxMatch[1]) : undefined;
+
+  // Token prices are in 1e-4 USD per 1M tokens (e.g. 20000 → $2.00 / 1M)
+  const inputN = parseDollarN(
+    obj.match(/"promptTextTokenPrice":"\$n(\d+)"/)?.[1],
+  );
+  const outputN = parseDollarN(
+    obj.match(/"completionTextTokenPrice":"\$n(\d+)"/)?.[1],
+  );
+  const cachedN = parseDollarN(
+    obj.match(/"cachedPromptTokenPrice":"\$n(\d+)"/)?.[1],
+  );
+
+  let pricing: DocsModel["pricing"];
+  if (inputN != null || outputN != null || cachedN != null) {
+    pricing = {};
+    if (inputN != null) pricing.input = inputN / 10000;
+    if (outputN != null) pricing.output = outputN / 10000;
+    if (cachedN != null) pricing.cached_input = cachedN / 10000;
+  }
+
+  return {
+    id,
+    modalities,
+    capabilities,
+    context_window: Number.isFinite(context_window)
+      ? (context_window as number)
+      : undefined,
+    pricing,
+  };
+}
+
+const MODEL_TYPE_NAMES = [
+  "auth_mgmt.LanguageModel",
+  "auth_mgmt.ImageGenerationModel",
+  "auth_mgmt.VideoGenerationModel",
+];
+
+function parseDocsModels(html: string): {
+  models: Map<string, DocsModel>;
+  knowledgeCutoffs: Map<string, string>;
+} {
+  // Strings inside the HTML are double-escaped (`\"`). Unescape so we can
+  // slice JSON object substrings cleanly.
+  const text = html.replaceAll('\\"', '"');
+
+  const models = new Map<string, DocsModel>();
+  for (const typeName of MODEL_TYPE_NAMES) {
+    const escaped = typeName.replace(/\./g, "\\.");
+    const re = new RegExp(`"\\$typeName":"${escaped}"`, "g");
+    for (const m of text.matchAll(re)) {
+      const obj = findEnclosingObject(text, m.index!);
+      if (!obj) continue;
+      const entry = parseModelEntry(obj);
+      if (!entry) continue;
+      // Each model appears once per cluster (us-east-1, eu-west-1) — keep the first.
+      if (models.has(entry.id)) continue;
+      models.set(entry.id, entry);
+    }
+  }
+
+  const knowledgeCutoffs = parseKnowledgeCutoffs(text);
+  return { models, knowledgeCutoffs };
 }
 
 /**
@@ -69,7 +207,6 @@ function parseKnowledgeCutoffs(md: string): Map<string, string> {
   for (const m of md.matchAll(re)) {
     const date = normalizeDate(m[2].replace(",", ""));
     if (!date) continue;
-    // "Grok 3 and Grok 4" → ["grok-3", "grok-4"]
     const names = m[1]
       .split(/\s+and\s+|,\s*/i)
       .map((n) => n.trim().toLowerCase().replace(/\s+/g, "-"))
@@ -81,69 +218,11 @@ function parseKnowledgeCutoffs(md: string): Map<string, string> {
   return cutoffs;
 }
 
-function parseDocsModels(md: string): {
-  models: Map<string, DocsModel>;
-  knowledgeCutoffs: Map<string, string>;
-} {
-  const models = new Map<string, DocsModel>();
-
-  for (const line of md.split("\n")) {
-    if (!line.startsWith("|")) continue;
-    // Skip header/separator rows
-    if (line.includes("Model") && line.includes("Modalities")) continue;
-    if (/^\|\s*-+\s*\|/.test(line)) continue;
-
-    const cells = line
-      .replace(/\[x2\]/g, "")
-      .split("|")
-      .map((c) => c.trim())
-      .filter(Boolean);
-    if (cells.length < 5) continue;
-
-    const id = cells[0];
-    if (!id.startsWith("grok-")) continue;
-
-    const mods = parseModalities(cells[1]);
-    const caps = parseCaps(cells[2]);
-    const context = cells[3] ? Number(cells[3].replace(/,/g, "")) : undefined;
-
-    // Pricing: "$2.00 ($0.20) / $6.00"
-    const pricingStr = cells[5] ?? "";
-    const inputMatch = pricingStr.match(/^\$([\d.]+)/);
-    const cachedMatch = pricingStr.match(/\(\$([\d.]+)\)/);
-    const outputMatch = pricingStr.match(/\/\s*\$([\d.]+)/);
-
-    const pricing =
-      inputMatch && outputMatch
-        ? {
-            input: Number(inputMatch[1]),
-            output: Number(outputMatch[1]),
-            ...(cachedMatch ? { cached_input: Number(cachedMatch[1]) } : {}),
-          }
-        : undefined;
-
-    // Deduplicate (some models appear twice for different tiers)
-    if (models.has(id)) continue;
-
-    models.set(id, {
-      id,
-      modalities: mods,
-      capabilities: caps,
-      context_window: context && !Number.isNaN(context) ? context : undefined,
-      pricing,
-    });
-  }
-
-  const knowledgeCutoffs = parseKnowledgeCutoffs(md);
-
-  return { models, knowledgeCutoffs };
-}
-
 async function main() {
   console.log("Fetching xAI models from docs...");
 
-  const docsMd = await fetch(DOCS_MD).then((r) => r.text());
-  const { models: docsModels, knowledgeCutoffs } = parseDocsModels(docsMd);
+  const docsHtml = await fetch(DOCS_URL).then((r) => r.text());
+  const { models: docsModels, knowledgeCutoffs } = parseDocsModels(docsHtml);
   console.log(`Parsed ${docsModels.size} models from docs`);
   if (knowledgeCutoffs.size > 0) {
     console.log(
@@ -193,13 +272,10 @@ async function main() {
       name: id,
       family: inferFamily(id),
       license: "proprietary",
-      page_url: `https://docs.x.ai/docs/models#${id}`,
+      page_url: `https://docs.x.ai/developers/models/${id}`,
       context_window: doc.context_window,
       modalities: doc.modalities,
-      capabilities: {
-        ...doc.capabilities,
-        ...(doc.modalities.input.includes("image") ? { vision: true } : {}),
-      },
+      capabilities: doc.capabilities,
       ...(doc.capabilities.reasoning ? { reasoning_tokens: true } : {}),
       release_date: releaseDate,
       knowledge_cutoff: knowledgeCutoff,
@@ -212,7 +288,7 @@ async function main() {
     written += upsertWithSnapshot("xai", entry);
   }
 
-  // Mark models not on docs page as deprecated
+  // Mark models not in registry as deprecated (skips ones already deprecated).
   const activeIds = new Set(docsModels.keys());
   const modelsDir = new URL("../providers/xai/models/", import.meta.url);
   for (const file of await Array.fromAsync(

@@ -1,0 +1,54 @@
+{
+  "id": "zai-org/GLM-4.7",
+  "name": "GLM-4.7",
+  "created_by": "zhipu",
+  "source": "official",
+  "last_updated": "2026-04-26",
+  "family": "GLM-4.7",
+  "description": "GLM-4.7 is a state-of-the-art, multilingual Mixture-of-Experts (MoE) language model designed for complex reasoning, agentic coding, and tool use. Building on its predecessor GLM-4.6, it delivers significant improvements across key benchmarks, including multilingual SWE-bench, Terminal Bench, and reasoning-heavy evaluations like HLE. The model features advanced \"Interleaved Thinking\" and new \"Preserved Thinking\" modes, allowing it to reason before actions and maintain consistency across long, ...",
+  "status": "active",
+  "model_type": "chat",
+  "context_window": 202752,
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "license": "mit",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.4,
+    "output": 1.75,
+    "cached_input": 0.08
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "tagline": "GLM-4.7 is a state-of-the-art, multilingual Mixture-of-Experts (MoE) language model designed for complex reasoning, agentic coding, and tool use.",
+  "_generated": {
+    "name": "6dbcba88",
+    "family": "6dbcba88",
+    "description": "ec5e456f",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "6ea395a4",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "license": "3c4c3ba5",
+    "capabilities": "882e371a",
+    "modalities": "68e53d93",
+    "pricing": "149d703b",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee",
+    "tagline": "5bc1a908"
+  }
+}
