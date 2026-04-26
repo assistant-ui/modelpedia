@@ -27,7 +27,8 @@
     "structured_output": true,
     "json_mode": true,
     "fine_tuning": false,
-    "reasoning": true
+    "reasoning": true,
+    "batch": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -85,11 +86,11 @@
     "page_url": "19a289d9",
     "open_weight": "68934a3e",
     "tagline": "a4105091",
-    "capabilities": "15adcda2",
+    "capabilities": "822aa4d1",
     "modalities": "6399757e",
     "pricing": "ad410ee9",
     "tools": "f0c1dc7e",
     "endpoints": "88e8abb4"
   },
-  "last_updated": "2026-04-25"
+  "last_updated": "2026-04-26"
 }

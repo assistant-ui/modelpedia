@@ -3,23 +3,25 @@
   "name": "Claude Sonnet 4",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-26",
   "family": "claude-sonnet",
-  "status": "active",
+  "status": "deprecated",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "e461c1e5",
     "family": "68d1c457",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "capabilities": "0fa77dc6",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "deprecation_date": "cc23f918"
   },
   "model_type": "chat",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "deprecation_date": "2026-06-15"
 }

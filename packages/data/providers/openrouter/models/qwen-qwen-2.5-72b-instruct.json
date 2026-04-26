@@ -3,7 +3,7 @@
   "name": "Qwen2.5 72B Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-26",
   "family": "qwen",
   "description": "Qwen2.5 72B is the latest series of Qwen large language models.",
   "context_window": 32768,
@@ -18,8 +18,8 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.12,
-    "output": 0.39
+    "input": 0.36,
+    "output": 0.4
   },
   "_generated": {
     "name": "6f8faa2f",
@@ -29,7 +29,7 @@
     "max_output_tokens": "c76fe1d8",
     "modalities": "68e53d93",
     "capabilities": "6c9aa67e",
-    "pricing": "63e017d7",
+    "pricing": "a4bf0b18",
     "model_type": "d669f408",
     "parameters": "32bb90e8",
     "release_date": "1e8d9d5f",

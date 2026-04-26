@@ -60893,6 +60893,46 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-25"
       },
       {
+        "id": "deepseek-v4-flash (1)",
+        "name": "DeepSeek V3.2 (Chat)",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek-chat",
+        "description": "DeepSeek-V3.2 in non-thinking mode. Best for general chat, code, and tool use.",
+        "status": "active",
+        "max_output_tokens": 384000,
+        "model_type": "chat",
+        "license": "mit",
+        "tagline": "DeepSeek-V3.2 in non-thinking mode.",
+        "capabilities": {
+          "streaming": true,
+          "json_mode": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.28,
+          "cached_input": 0.0028
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-04-26"
+      },
+      {
         "id": "deepseek-v4-pro",
         "name": "DeepSeek V3.2 (Chat)",
         "created_by": "deepseek",
@@ -60920,7 +60960,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.14,
           "output": 0.28,
-          "cached_input": 0.028
+          "cached_input": 0.0028
         },
         "open_weight": true,
         "endpoints": [
@@ -60929,7 +60969,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-25"
+        "last_updated": "2026-04-26"
       }
     ]
   },
@@ -95554,7 +95594,7 @@ export const providers: ProviderWithModels[] = [
           "chat_completions",
           "batch"
         ],
-        "last_updated": "2026-04-25"
+        "last_updated": "2026-04-26"
       },
       {
         "id": "gpt-5.5-pro-2026-04-23",
@@ -95645,7 +95685,7 @@ export const providers: ProviderWithModels[] = [
           "responses",
           "batch"
         ],
-        "last_updated": "2026-04-25"
+        "last_updated": "2026-04-26"
       },
       {
         "id": "gpt-5.5-pro",
@@ -100599,9 +100639,9 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Haiku 3.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-26",
         "family": "claude-haiku",
-        "status": "active",
+        "status": "deprecated",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -100623,6 +100663,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "deprecation_date": "2026-02-16",
         "license": "proprietary",
         "open_weight": false
       },
@@ -100906,9 +100947,9 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Sonnet 4",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-26",
         "family": "claude-sonnet",
-        "status": "active",
+        "status": "deprecated",
         "capabilities": {
           "streaming": true
         },
@@ -100920,7 +100961,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "deprecation_date": "2026-06-15"
       },
       {
         "id": "gemini-3-flash",
@@ -101000,8 +101042,8 @@ export const providers: ProviderWithModels[] = [
         "name": "GLM 5",
         "created_by": "zhipu",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "status": "active",
+        "last_updated": "2026-04-26",
+        "status": "deprecated",
         "capabilities": {
           "streaming": true
         },
@@ -101019,16 +101061,17 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "deprecation_date": "2026-05-14"
       },
       {
         "id": "gpt-5-codex",
         "name": "GPT 5 Codex",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-26",
         "family": "gpt-5",
-        "status": "active",
+        "status": "deprecated",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -101052,6 +101095,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "deprecation_date": "2026-07-23",
         "description": "GPT-5-Codex is a version of GPT-5 optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.",
         "tagline": "A version of GPT-5 optimized for agentic coding in Codex",
         "context_window": 400000,
@@ -101102,9 +101146,9 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT 5.1 Codex Max",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-26",
         "family": "gpt-5.1",
-        "status": "active",
+        "status": "deprecated",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -101128,6 +101172,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "deprecation_date": "2026-07-23",
         "description": "GPT‑5.1-Codex-Max is purpose-built for agentic coding.",
         "tagline": "A version of GPT-5.1-codex optimized for long running tasks.",
         "context_window": 400000,
@@ -101141,9 +101186,9 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT 5.1 Codex Mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-26",
         "family": "gpt-5.1",
-        "status": "active",
+        "status": "deprecated",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -101167,6 +101212,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "deprecation_date": "2026-07-23",
         "description": "GPT-5.1 Codex mini is a smaller, more cost-effective, less-capable version of GPT-5.1-Codex.",
         "tagline": "Smaller, more cost-effective, less-capable version of GPT-5.1-Codex",
         "context_window": 400000,
@@ -101180,9 +101226,9 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT 5.1 Codex",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-26",
         "family": "gpt-5.1",
-        "status": "active",
+        "status": "deprecated",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -101206,6 +101252,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "deprecation_date": "2026-07-23",
         "description": "GPT-5.1-Codex is a version of GPT-5 optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.",
         "tagline": "A version of GPT-5.1 optimized for agentic coding in Codex.",
         "context_window": 400000,
@@ -101259,9 +101306,9 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT 5.2 Codex",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-04-26",
         "family": "gpt-5.2",
-        "status": "active",
+        "status": "deprecated",
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -101285,6 +101332,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "deprecation_date": "2026-07-23",
         "description": "GPT-5.2-Codex is an upgraded version of GPT-5.2 optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.\\nGPT-5.2-Codex supports `low`, `medium`, `high`, and `xhigh` reasoning effort settings.\\nIf you want to learn more about prompting GPT-5.2-Codex, refer to our [dedicated guide](/cookbook/examples/gpt-5/codex_prompting_guide).\\n",
         "tagline": "Our most intelligent coding model optimized for long-horizon, agentic coding tasks.",
         "context_window": 400000,
@@ -104446,12 +104494,12 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.14,
           "output": 0.28,
-          "cached_input": 0.028
+          "cached_input": 0.003
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-25"
+        "last_updated": "2026-04-26"
       },
       {
         "id": "deepseek/deepseek-v4-pro",
@@ -104482,14 +104530,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 1.74,
-          "output": 3.48,
-          "cached_input": 0.145
+          "input": 0.435,
+          "output": 0.87,
+          "cached_input": 0.004
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-25",
+        "last_updated": "2026-04-26",
         "license": "mit",
         "open_weight": true
       },
@@ -112278,7 +112326,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen2.5 72B Instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-04-26",
         "family": "qwen",
         "description": "Qwen2.5 72B is the latest series of Qwen large language models.",
         "context_window": 32768,
@@ -112299,8 +112347,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.12,
-          "output": 0.39
+          "input": 0.36,
+          "output": 0.4
         },
         "model_type": "chat",
         "parameters": 72,
@@ -113460,7 +113508,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 Coder 480B A35B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-25",
+        "last_updated": "2026-04-26",
         "family": "qwen3",
         "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team.",
         "context_window": 262144,
@@ -113479,7 +113527,7 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.22,
-          "output": 1,
+          "output": 1.8,
           "cached_input": 0.022
         },
         "model_type": "code",
