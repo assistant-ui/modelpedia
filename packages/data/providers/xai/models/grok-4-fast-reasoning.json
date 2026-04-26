@@ -3,23 +3,33 @@
   "name": "grok-4-fast-reasoning",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-26",
   "release_date": "2025-09-04",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "batch": true,
+    "structured_output": true,
+    "reasoning": true,
+    "vision": true,
+    "json_mode": true
   },
   "_generated": {
     "name": "46ffb353",
     "release_date": "d9b57e93",
-    "capabilities": "48995a4e",
+    "capabilities": "f7a206b6",
     "model_type": "17475f7f",
     "family": "0d5416ff",
     "license": "9186c466",
     "status": "2e2f74dc",
     "open_weight": "68934a3e",
-    "modalities": "68e53d93",
-    "tools": "f0c1dc7e"
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e",
+    "knowledge_cutoff": "88ec15a4",
+    "context_window": "805f7438",
+    "reasoning_tokens": "b326b506",
+    "page_url": "905f0e85",
+    "pricing": "25a4c630"
   },
   "model_type": "reasoning",
   "family": "grok-4",
@@ -27,8 +37,17 @@
   "status": "deprecated",
   "open_weight": false,
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "knowledge_cutoff": "2024-11",
+  "context_window": 2000000,
+  "reasoning_tokens": true,
+  "page_url": "https://docs.x.ai/developers/models/grok-4-fast-reasoning",
+  "pricing": {
+    "input": 0.2,
+    "output": 0.5,
+    "cached_input": 0.05
+  }
 }

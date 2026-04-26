@@ -3,14 +3,15 @@
   "name": "grok-3-mini",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-04-26",
   "release_date": "2025-04-04",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
     "structured_output": true,
     "reasoning": true,
-    "json_mode": true
+    "json_mode": true,
+    "batch": true
   },
   "context_window": 131072,
   "description": "A lightweight model that thinks before responding.",
@@ -21,7 +22,7 @@
   "_generated": {
     "name": "4c68661f",
     "release_date": "ba6f7b94",
-    "capabilities": "55f30939",
+    "capabilities": "6823d5c4",
     "context_window": "f7de594e",
     "description": "4531f4c2",
     "modalities": "68e53d93",
@@ -31,7 +32,11 @@
     "status": "2e2f74dc",
     "tagline": "4531f4c2",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "knowledge_cutoff": "88ec15a4",
+    "reasoning_tokens": "b326b506",
+    "page_url": "62ba2dbc",
+    "pricing": "17fa057e"
   },
   "family": "grok-3",
   "model_type": "chat",
@@ -39,5 +44,13 @@
   "status": "deprecated",
   "tagline": "A lightweight model that thinks before responding.",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "knowledge_cutoff": "2024-11",
+  "reasoning_tokens": true,
+  "page_url": "https://docs.x.ai/developers/models/grok-3-mini",
+  "pricing": {
+    "input": 0.3,
+    "output": 0.5,
+    "cached_input": 0.075
+  }
 }
