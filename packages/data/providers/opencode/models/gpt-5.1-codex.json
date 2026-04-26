@@ -3,9 +3,9 @@
   "name": "GPT 5.1 Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-04-26",
   "family": "gpt-5.1",
-  "status": "active",
+  "status": "deprecated",
   "capabilities": {
     "streaming": true
   },
@@ -17,15 +17,17 @@
   "_generated": {
     "name": "885d2ef1",
     "family": "2089aff2",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "capabilities": "0fa77dc6",
     "pricing": "01052609",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "deprecation_date": "26fc75d3"
   },
   "model_type": "chat",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "deprecation_date": "2026-07-23"
 }
