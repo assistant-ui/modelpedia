@@ -1,0 +1,42 @@
+{
+  "id": "~google/gemini-pro-latest",
+  "name": "Google Gemini Pro Latest",
+  "created_by": "~google",
+  "source": "official",
+  "description": "This model always redirects to the latest model in the Google Gemini Pro family.",
+  "release_date": "2026-04-27",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "This model always redirects to the latest model in the Google Gemini Pro family.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["audio", "image", "text", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 12,
+    "cached_input": 0.2
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "416fa2ea",
+    "description": "a4b72ecc",
+    "release_date": "79a25cd1",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "a4b72ecc",
+    "capabilities": "03fbefb4",
+    "modalities": "b7a3ac68",
+    "pricing": "871170f7",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

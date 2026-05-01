@@ -1,0 +1,38 @@
+{
+  "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception and context sub-agent in enterprise agent systems.",
+  "release_date": "2026-04-28",
+  "context_window": 256000,
+  "max_output_tokens": 65536,
+  "parameters": 30,
+  "active_parameters": 3,
+  "model_type": "reasoning",
+  "tagline": "NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception and context sub-agent in enterprise agent systems.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "audio", "image", "video"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "37530806",
+    "description": "8dddc32b",
+    "release_date": "52326430",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "297ce0b3",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "model_type": "17475f7f",
+    "tagline": "8dddc32b",
+    "capabilities": "05723a3e",
+    "modalities": "fa4eeb00",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

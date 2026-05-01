@@ -1,0 +1,39 @@
+{
+  "id": "alibaba/qwen3-vl-235b-a22b-instruct",
+  "name": "qwen3-vl-235b-a22b-instruct",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3",
+  "context_window": 262100,
+  "model_type": "chat",
+  "parameters": 235,
+  "active_parameters": 22,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.88
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "11eb242c",
+    "family": "48c385a0",
+    "context_window": "b23f4471",
+    "model_type": "d669f408",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "capabilities": "a19166f1",
+    "pricing": "a2f69257",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

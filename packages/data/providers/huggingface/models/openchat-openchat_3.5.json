@@ -1,0 +1,34 @@
+{
+  "id": "openchat/openchat_3.5",
+  "name": "openchat_3.5",
+  "created_by": "openchat",
+  "source": "official",
+  "description": "**🔥 The first 7B model Achieves Comparable Results with ChatGPT (March)! 🔥**",
+  "release_date": "2023-10-30",
+  "context_window": 8192,
+  "license": "apache-2.0",
+  "page_url": "https://huggingface.co/openchat/openchat_3.5",
+  "architecture": "transformer",
+  "tagline": "**🔥 The first 7B model Achieves Comparable Results with ChatGPT (March)! 🔥**",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "5cee0682",
+    "description": "5e5a77f7",
+    "release_date": "ca1bf8a0",
+    "context_window": "77441296",
+    "license": "60245731",
+    "page_url": "5771db5d",
+    "architecture": "8832ea0f",
+    "tagline": "5e5a77f7",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

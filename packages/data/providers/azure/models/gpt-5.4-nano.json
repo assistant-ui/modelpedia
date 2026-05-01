@@ -3,7 +3,7 @@
   "name": "gpt-5.4-nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-05-01",
   "family": "gpt-5.4",
   "knowledge_cutoff": "2025-08",
   "context_window": 400000,
@@ -17,7 +17,7 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "_generated": {
@@ -27,7 +27,7 @@
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
     "capabilities": "d1034176",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "model_type": "d669f408",
     "tools": "f0c1dc7e",
     "description": "573ba3c0",

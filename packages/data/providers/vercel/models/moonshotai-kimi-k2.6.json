@@ -4,7 +4,7 @@
   "created_by": "moonshot",
   "source": "official",
   "family": "kimi-k2.6",
-  "context_window": 262000,
+  "context_window": 262100,
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -24,12 +24,12 @@
   "_generated": {
     "name": "46a7f2ca",
     "family": "46a7f2ca",
-    "context_window": "4ed74017",
+    "context_window": "b23f4471",
     "model_type": "d669f408",
     "capabilities": "a19166f1",
     "pricing": "f2c3ebbf",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-21"
+  "last_updated": "2026-05-01"
 }

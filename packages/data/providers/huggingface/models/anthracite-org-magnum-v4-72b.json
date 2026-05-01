@@ -1,0 +1,36 @@
+{
+  "id": "anthracite-org/magnum-v4-72b",
+  "name": "magnum-v4-72b",
+  "created_by": "anthracite-org",
+  "source": "official",
+  "description": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet and Opus.",
+  "release_date": "2024-09-20",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "parameters": 73,
+  "page_url": "https://huggingface.co/anthracite-org/magnum-v4-72b",
+  "architecture": "transformer",
+  "tagline": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet and Opus.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "7e9780fd",
+    "description": "0e85ae5c",
+    "release_date": "4a8401c2",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "parameters": "d2ddea18",
+    "page_url": "d9f45ccc",
+    "architecture": "8832ea0f",
+    "tagline": "0e85ae5c",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

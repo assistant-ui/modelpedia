@@ -1,0 +1,38 @@
+{
+  "id": "unsloth/Qwen3-4B-Instruct-2507",
+  "name": "Qwen3-4B-Instruct-2507",
+  "created_by": "unsloth",
+  "source": "official",
+  "release_date": "2025-08-06",
+  "context_window": 262144,
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "alias": "unsloth/Qwen3-4B-Instruct",
+  "page_url": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507",
+  "architecture": "transformer",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "4f0f1198",
+    "release_date": "ffc45752",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "page_url": "2ac14bde",
+    "architecture": "8832ea0f",
+    "capabilities": "5780d00a",
+    "modalities": "68e53d93",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

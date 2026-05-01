@@ -1,0 +1,32 @@
+{
+  "id": "upstage/SOLAR-10.7B-Instruct-v1.0",
+  "name": "SOLAR-10.7B-Instruct-v1.0",
+  "created_by": "upstage",
+  "source": "official",
+  "release_date": "2023-12-12",
+  "context_window": 4096,
+  "license": "cc-by-nc-4.0",
+  "parameters": 11,
+  "page_url": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0",
+  "architecture": "transformer",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "63cb5476",
+    "release_date": "77c93d80",
+    "context_window": "f7efa4f8",
+    "license": "2c8e76b8",
+    "parameters": "6512bd43",
+    "page_url": "d5e7e61c",
+    "architecture": "8832ea0f",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

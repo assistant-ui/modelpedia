@@ -1,0 +1,33 @@
+{
+  "id": "xai/grok-4.20-reasoning",
+  "name": "xai/grok-4.20-reasoning",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4.20",
+  "license": "proprietary",
+  "model_type": "reasoning",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6,
+    "cached_input": 0.2
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "45fffad7",
+    "family": "44972aca",
+    "license": "9186c466",
+    "model_type": "17475f7f",
+    "capabilities": "0fa77dc6",
+    "pricing": "9277b5ca",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-05-01"
+}

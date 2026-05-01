@@ -1,0 +1,33 @@
+{
+  "id": "openrouter/owl-alpha",
+  "name": "Owl Alpha",
+  "created_by": "openrouter",
+  "source": "official",
+  "description": "Owl Alpha is a high-performance foundation model designed for agentic workloads.",
+  "release_date": "2026-04-28",
+  "context_window": 1048756,
+  "max_output_tokens": 262144,
+  "tagline": "Owl Alpha is a high-performance foundation model designed for agentic workloads.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9a75d6aa",
+    "description": "d2e2a6a8",
+    "release_date": "52326430",
+    "context_window": "b8f79e80",
+    "max_output_tokens": "4a1d32eb",
+    "tagline": "d2e2a6a8",
+    "capabilities": "6c9aa67e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

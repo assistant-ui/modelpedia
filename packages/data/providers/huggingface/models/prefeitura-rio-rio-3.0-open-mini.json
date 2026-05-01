@@ -1,0 +1,36 @@
+{
+  "id": "prefeitura-rio/Rio-3.0-Open-Mini",
+  "name": "Rio-3.0-Open-Mini",
+  "created_by": "prefeitura-rio",
+  "source": "official",
+  "description": "**Rio 3.0 Open Mini** is a frontier-class reasoning model developed by [IplanRIO](https://iplanrio.rio.rj.gov.br/), the municipal IT company of Rio de Janeiro's city government. Built through distillation on top of Qwen3-4B-Thinking-2507 using reasoning traces from our to be announced Rio 3.0 model, Rio 3.0 Open achieves state-of-the-art results across mathematics, STEM, and code benchmarks — surpassing its base model by significant margins and competing with models far larger than itself.",
+  "release_date": "2026-02-09",
+  "context_window": 262144,
+  "license": "mit",
+  "parameters": 4,
+  "page_url": "https://huggingface.co/prefeitura-rio/Rio-3.0-Open-Mini",
+  "architecture": "transformer",
+  "tagline": "**Rio 3.0 Open Mini** is a frontier-class reasoning model developed by [IplanRIO](https://iplanrio.rio.rj.gov.br/), the municipal IT company of Rio de Janeiro's city government.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8f66975e",
+    "description": "b24f1a11",
+    "release_date": "4b53817b",
+    "context_window": "4a1d32eb",
+    "license": "3c4c3ba5",
+    "parameters": "a87ff679",
+    "page_url": "bf7e1d2f",
+    "architecture": "8832ea0f",
+    "tagline": "4f00e11f",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

@@ -3,13 +3,14 @@
   "name": "deepseek-v3.2-thinking",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-01",
   "family": "deepseek",
-  "context_window": 128000,
+  "context_window": 163800,
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "reasoning": true
+    "reasoning": true,
+    "vision": true
   },
   "pricing": {
     "input": 0.28,
@@ -18,8 +19,8 @@
   "_generated": {
     "name": "d44da2e3",
     "family": "4b81b92d",
-    "context_window": "34434798",
-    "capabilities": "a281e83a",
+    "context_window": "df026689",
+    "capabilities": "45192957",
     "pricing": "11daaba7",
     "tools": "f0c1dc7e",
     "model_type": "d669f408",

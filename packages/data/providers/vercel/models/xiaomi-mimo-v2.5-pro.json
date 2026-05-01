@@ -1,0 +1,35 @@
+{
+  "id": "xiaomi/mimo-v2.5-pro",
+  "name": "mimo-v2.5-pro",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "context_window": 1100000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 3
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "dad9cecd",
+    "family": "1a23786e",
+    "context_window": "6d81e421",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "7fd03be2",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

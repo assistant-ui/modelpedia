@@ -1,0 +1,45 @@
+{
+  "id": "mistral-medium-3.5",
+  "name": "mistral-medium-3.5",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "mistral-medium",
+  "description": "Mistral Medium 3.5 is the first flagship model of Mistral AI that merged instruction-following, reasoning, and coding in a single set of 128B weights.",
+  "context_window": 262144,
+  "reasoning_tokens": true,
+  "license": "mit",
+  "parameters": 128,
+  "page_url": "https://ollama.com/library/mistral-medium-3.5",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "Mistral Medium 3.5 is the first flagship model of Mistral AI that merged instruction-following, reasoning, and coding in a single set of 128B weights.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "27405b6c",
+    "family": "a57f1b52",
+    "description": "0849748c",
+    "context_window": "4a1d32eb",
+    "reasoning_tokens": "b326b506",
+    "license": "3c4c3ba5",
+    "parameters": "76dc611d",
+    "page_url": "7eda1ac1",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "0849748c",
+    "capabilities": "f7041f91",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

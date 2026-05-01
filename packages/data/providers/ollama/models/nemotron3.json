@@ -1,0 +1,43 @@
+{
+  "id": "nemotron3",
+  "name": "nemotron3",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&amp;A, summarization, transcription, and document intelligence workflows.",
+  "context_window": 131072,
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "parameters": 33,
+  "page_url": "https://ollama.com/library/nemotron3",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&amp;A, summarization, transcription, and documen",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1b955b88",
+    "description": "cf81e96f",
+    "context_window": "f7de594e",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "parameters": "182be0c5",
+    "page_url": "91545fdb",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "9433e281",
+    "capabilities": "f7041f91",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

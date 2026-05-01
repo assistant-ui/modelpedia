@@ -1,0 +1,42 @@
+{
+  "id": "x-ai/grok-4.3",
+  "name": "xAI: Grok 4.3",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4.3",
+  "description": "Grok 4.3 is a reasoning model from xAI.",
+  "release_date": "2026-04-30",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "tagline": "Grok 4.3 is a reasoning model from xAI.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 2.5,
+    "cached_input": 0.2
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a525ff95",
+    "family": "20d0cab4",
+    "description": "02fcd88f",
+    "release_date": "a53a2b69",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "tagline": "02fcd88f",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "64e647aa",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

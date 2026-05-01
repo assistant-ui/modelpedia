@@ -3,7 +3,7 @@
   "name": "kimi-k2.5",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-05-01",
   "capabilities": {
     "streaming": true,
     "fine_tuning": true,
@@ -23,7 +23,7 @@
     "context_window": "4a1d32eb",
     "license": "6327aaea",
     "open_weight": "b326b506",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "reasoning_tokens": "b326b506",
     "tools": "f0c1dc7e"
   },
@@ -37,7 +37,7 @@
   "license": "open-weight",
   "open_weight": true,
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "reasoning_tokens": true,

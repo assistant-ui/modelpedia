@@ -1,0 +1,43 @@
+{
+  "id": "ibm-granite/granite-4.1-8b",
+  "name": "IBM: Granite 4.1 8B",
+  "created_by": "ibm-granite",
+  "source": "official",
+  "description": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family.",
+  "release_date": "2026-04-30",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "parameters": 8,
+  "model_type": "chat",
+  "tagline": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.1,
+    "cached_input": 0.05
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c9dcaaa7",
+    "description": "af92edb2",
+    "release_date": "a53a2b69",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "parameters": "c9f0f895",
+    "model_type": "d669f408",
+    "tagline": "af92edb2",
+    "capabilities": "6c9aa67e",
+    "modalities": "68e53d93",
+    "pricing": "1171cbb0",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

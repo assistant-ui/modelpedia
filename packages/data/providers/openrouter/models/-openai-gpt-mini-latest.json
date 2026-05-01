@@ -1,0 +1,40 @@
+{
+  "id": "~openai/gpt-mini-latest",
+  "name": "OpenAI GPT Mini Latest",
+  "created_by": "~openai",
+  "source": "official",
+  "description": "This model always redirects to the latest model in the OpenAI GPT Mini family.",
+  "release_date": "2026-04-27",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "tagline": "This model always redirects to the latest model in the OpenAI GPT Mini family.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.75,
+    "output": 4.5,
+    "cached_input": 0.075
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "807991a5",
+    "description": "0d957ff2",
+    "release_date": "79a25cd1",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "tagline": "0d957ff2",
+    "capabilities": "03fbefb4",
+    "modalities": "8b8b28d1",
+    "pricing": "af280cc2",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

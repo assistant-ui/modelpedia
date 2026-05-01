@@ -1,0 +1,43 @@
+{
+  "id": "qwen/qwen3.6-max-preview",
+  "name": "Qwen: Qwen3.6 Max Preview",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.6",
+  "description": "Qwen3.6-Max-Preview is a proprietary frontier model from Alibaba Cloud built on a sparse mixture-of-experts architecture with approximately 1 trillion total parameters.",
+  "release_date": "2026-04-27",
+  "context_window": 262144,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "Qwen3.6-Max-Preview is a proprietary frontier model from Alibaba Cloud built on a sparse mixture-of-experts architecture with approximately 1 trillion total parameters.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.04,
+    "output": 6.24
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "73b67d43",
+    "family": "1bc2d26f",
+    "description": "8855ac6b",
+    "release_date": "79a25cd1",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "8855ac6b",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "ceb9183a",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

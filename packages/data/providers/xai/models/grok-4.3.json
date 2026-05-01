@@ -1,0 +1,49 @@
+{
+  "id": "grok-4.3",
+  "name": "grok-4.3",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4.3",
+  "knowledge_cutoff": "2024-11",
+  "context_window": 1000000,
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "page_url": "https://docs.x.ai/developers/models/grok-4.3",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "batch": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 2.5,
+    "cached_input": 0.2
+  },
+  "open_weight": false,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "20d0cab4",
+    "family": "20d0cab4",
+    "knowledge_cutoff": "88ec15a4",
+    "context_window": "8155bc54",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "page_url": "2c7dd125",
+    "model_type": "d669f408",
+    "capabilities": "4c59e8d2",
+    "modalities": "6399757e",
+    "pricing": "64e647aa",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

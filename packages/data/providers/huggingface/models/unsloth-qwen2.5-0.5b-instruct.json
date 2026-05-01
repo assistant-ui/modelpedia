@@ -1,0 +1,43 @@
+{
+  "id": "unsloth/Qwen2.5-0.5B-Instruct",
+  "name": "Qwen2.5-0.5B-Instruct",
+  "created_by": "unsloth",
+  "source": "official",
+  "description": "We have a Qwen 2.5 (all model sizes) [free Google Colab Tesla T4 notebook](https://colab.research.google.com/drive/1Kose-ucXO1IBaZq5BvbwWieuubP7hxvQ?usp=sharing). Also a [Qwen 2.5 conversational style notebook](https://colab.research.google.com/drive/1qN1CEalC70EO1wGKhNxs1go1W9So61R5?usp=sharing).",
+  "release_date": "2024-09-18",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "parameters": 0.49,
+  "page_url": "https://huggingface.co/unsloth/Qwen2.5-0.5B-Instruct",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "We have a Qwen 2.5 (all model sizes) [free Google Colab Tesla T4 notebook](https://colab.research.google.com/drive/1Kose-ucXO1IBaZq5BvbwWieuubP7hxvQ?usp=sharing).",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "abfc9fd1",
+    "description": "83ac0a20",
+    "release_date": "80d14872",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "parameters": "ab012729",
+    "page_url": "613787a9",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "224efb5e",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

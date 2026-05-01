@@ -1,0 +1,39 @@
+{
+  "id": "moonshotai/Kimi-Linear-48B-A3B-Instruct",
+  "name": "Kimi-Linear-48B-A3B-Instruct",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi",
+  "release_date": "2025-10-30",
+  "license": "mit",
+  "parameters": 49,
+  "page_url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "80e84df9",
+    "family": "0740f86b",
+    "release_date": "097b1371",
+    "license": "3c4c3ba5",
+    "parameters": "f457c545",
+    "page_url": "30ef8273",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}
