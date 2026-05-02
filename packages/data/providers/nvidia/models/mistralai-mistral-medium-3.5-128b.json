@@ -1,0 +1,25 @@
+{
+  "id": "mistralai/mistral-medium-3.5-128b",
+  "name": "mistral-medium-3.5-128b",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "mistral-medium",
+  "parameters": 128,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "94b31ac4",
+    "family": "a57f1b52",
+    "parameters": "76dc611d",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-05-01"
+}

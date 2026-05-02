@@ -1,0 +1,35 @@
+{
+  "id": "xai/grok-4.3",
+  "name": "grok-4.3",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4.3",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 2.5
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "20d0cab4",
+    "family": "20d0cab4",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "ac556708",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

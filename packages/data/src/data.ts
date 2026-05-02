@@ -7670,7 +7670,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-5.4-nano",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-01",
         "family": "gpt-5.4",
         "knowledge_cutoff": "2025-08",
         "context_window": 400000,
@@ -7687,8 +7687,7 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "text"
@@ -7892,6 +7891,39 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false
       },
       {
+        "id": "gpt-audio-mini",
+        "name": "gpt-audio-mini",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-audio",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": false,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
+          "reasoning": false
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-01",
+        "description": "A cost-efficient version of GPT Audio. It accepts audio inputs and outputs, and can be used in the Chat Completions REST API.",
+        "tagline": "A cost-efficient version of GPT Audio",
+        "context_window": 128000,
+        "max_output_tokens": 16384,
+        "knowledge_cutoff": "2023-10",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
         "id": "gpt-audio",
         "name": "gpt-audio",
         "created_by": "openai",
@@ -8011,6 +8043,38 @@ export const providers: ProviderWithModels[] = [
         "model_type": "image",
         "description": "GPT Image 1 is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.",
         "tagline": "Our previous image generation model",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "gpt-image-2",
+        "name": "gpt-image-2",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-image-2",
+        "model_type": "image",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": false,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
+          "reasoning": false,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-01",
+        "description": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our [image generation guide](/api/docs/guides/image-generation), or see the [pricing page](/api/docs/pricing#image-generation) and [image generation calculator](/api/docs/guides/image-generation#calculating-costs) for cost estimates.",
+        "tagline": "State-of-the-art image generation model",
         "license": "proprietary",
         "open_weight": false
       },
@@ -8140,6 +8204,39 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Audio model for real-time audio processing.",
         "context_window": 32000,
         "max_output_tokens": 4096,
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "gpt-realtime-mini",
+        "name": "gpt-realtime-mini",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-realtime",
+        "model_type": "audio",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": false,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
+          "reasoning": false
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-01",
+        "description": "A cost-efficient version of GPT Realtime - capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
+        "tagline": "A cost-efficient version of GPT Realtime",
+        "context_window": 32000,
+        "max_output_tokens": 4096,
+        "knowledge_cutoff": "2023-10",
         "license": "proprietary",
         "open_weight": false
       },
@@ -8909,6 +9006,40 @@ export const providers: ProviderWithModels[] = [
         "tagline": "- Enhanced reasoning abilities .",
         "context_window": 200000,
         "max_output_tokens": 100000,
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "o3-deep-research",
+        "name": "o3-deep-research",
+        "created_by": "openai",
+        "source": "official",
+        "family": "o3",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "reasoning": true,
+          "tool_call": false,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-01",
+        "description": "o3-deep-research is our most advanced model for deep research,",
+        "tagline": "Our most powerful deep research model",
+        "context_window": 200000,
+        "max_output_tokens": 100000,
+        "knowledge_cutoff": "2024-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -9798,6 +9929,26 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "nemotron-3-nano-omni",
+        "name": "nemotron-3-nano-omni",
+        "created_by": "nvidia",
+        "source": "official",
+        "open_weight": true,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-01"
       },
       {
         "id": "nemotronsuper",
@@ -50051,7 +50202,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "vision": true
+          "vision": true,
+          "reasoning": true
         },
         "modalities": {
           "input": [
@@ -50064,7 +50216,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-21"
+        "last_updated": "2026-05-01"
       },
       {
         "id": "@cf/myshell-ai/melotts",
@@ -61054,6 +61206,40 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "deepseek-ai/deepseek-v4-pro",
+        "name": "deepseek-v4-pro",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "context_window": 1048600,
+        "page_url": "https://fireworks.ai/models/deepseek-ai/deepseek-v4-pro",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "json_mode": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "pricing": {
+          "input": 1.74,
+          "output": 3.48,
+          "cached_input": 0.14
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-01",
+        "description": "DeepSeek-V3.2 in non-thinking mode. Best for general chat, code, and tool use.",
+        "tagline": "DeepSeek-V3.2 in non-thinking mode.",
+        "license": "mit",
+        "open_weight": true
+      },
+      {
         "id": "fireworks/chronos-hermes-13b-v2",
         "name": "chronos-hermes-13b-v2",
         "created_by": "fireworks",
@@ -65285,6 +65471,25 @@ export const providers: ProviderWithModels[] = [
         },
         "parameters": 7,
         "page_url": "https://fireworks.ai/models/fireworks/nous-hermes-llama2-7b"
+      },
+      {
+        "id": "fireworks/nvidia-nemotron-3-nano-omni-30b-a3b",
+        "name": "nvidia-nemotron-3-nano-omni-30b-a3b",
+        "created_by": "fireworks",
+        "source": "official",
+        "context_window": 262100,
+        "parameters": 30,
+        "active_parameters": 3,
+        "page_url": "https://fireworks.ai/models/fireworks/nvidia-nemotron-3-nano-omni-30b-a3b",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 1,
+          "cached_input": 1
+        },
+        "last_updated": "2026-05-01"
       },
       {
         "id": "fireworks/nvidia-nemotron-3-super-120b-a12b-fp8",
@@ -70494,8 +70699,8 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-robotics-er-1.5-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-24",
-        "status": "active",
+        "last_updated": "2026-05-01",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -70532,7 +70737,9 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "proprietary",
         "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.5-preview",
-        "open_weight": false
+        "open_weight": false,
+        "deprecation_date": "2026-04-30",
+        "successor": "gemini-robotics-er-1.6-preview"
       },
       {
         "id": "gemini-robotics-er-1.6-preview",
@@ -70542,7 +70749,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gemini-1.6",
         "status": "active",
         "knowledge_cutoff": "2025-01",
-        "context_window": 1048576,
+        "context_window": 131072,
         "max_output_tokens": 65536,
         "license": "proprietary",
         "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview",
@@ -70577,7 +70784,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-04-16"
+        "last_updated": "2026-05-01"
       },
       {
         "id": "imagen-3.0-generate-002",
@@ -71597,6 +71804,37 @@ export const providers: ProviderWithModels[] = [
     "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" fill-rule=\"evenodd\">\n  <path d=\"M16.781 3.277c2.997 1.704 4.844 4.851 4.844 8.258 0 .995-.155 1.955-.443 2.857a1.332 1.332 0 011.125.4 1.41 1.41 0 01.2 1.723c.204.165.352.385.428.632l.017.062c.06.222.12.69-.2 1.166.244.37.279.836.093 1.236-.255.57-.893 1.018-2.128 1.5l-.202.078-.131.048c-.478.173-.89.295-1.061.345l-.086.024c-.89.243-1.808.375-2.732.394-1.32 0-2.3-.36-2.923-1.067a9.852 9.852 0 01-3.18.018C9.778 21.647 8.802 22 7.494 22a11.249 11.249 0 01-2.541-.343l-.221-.06-.273-.08a16.574 16.574 0 01-1.175-.405c-1.237-.483-1.875-.93-2.13-1.501-.186-.4-.151-.867.093-1.236a1.42 1.42 0 01-.2-1.166c.069-.273.226-.516.447-.694a1.41 1.41 0 01.2-1.722c.233-.248.557-.391.917-.407l.078-.001a9.385 9.385 0 01-.44-2.85c0-3.407 1.847-6.554 4.844-8.258a9.822 9.822 0 019.687 0zM4.188 14.758c.125.687 2.357 2.35 2.14 2.707-.19.315-.796-.239-.948-.386l-.041-.04-.168-.147c-.561-.479-2.304-1.9-2.74-1.432-.43.46.119.859 1.055 1.42l.784.467.136.083c1.045.643 1.12.84.95 1.113-.188.295-3.07-2.1-3.34-1.083-.27 1.011 2.942 1.304 2.744 2.006-.2.7-2.265-1.324-2.685-.537-.425.79 2.913 1.718 2.94 1.725l.16.04.175.042c1.227.284 3.565.65 4.435-.604.673-.973.64-1.709-.248-2.61l-.057-.057c-.945-.928-1.495-2.288-1.495-2.288l-.017-.058-.025-.072c-.082-.22-.284-.639-.63-.584-.46.073-.798 1.21.12 1.933l.05.038c.977.721-.195 1.21-.573.534l-.058-.104-.143-.25c-.463-.799-1.282-2.111-1.739-2.397-.532-.332-.907-.148-.782.541zm14.842-.541c-.533.335-1.563 2.074-1.94 2.751a.613.613 0 01-.687.302.436.436 0 01-.176-.098.303.303 0 01-.049-.06l-.014-.028-.008-.02-.007-.019-.003-.013-.003-.017a.289.289 0 01-.004-.048c0-.12.071-.266.25-.427.026-.024.054-.047.084-.07l.047-.036c.022-.016.043-.032.063-.049.883-.71.573-1.81.131-1.917l-.031-.006-.056-.004a.368.368 0 00-.062.006l-.028.005-.042.014-.039.017-.028.015-.028.019-.036.027-.023.02c-.173.158-.273.428-.31.542l-.016.054s-.53 1.309-1.439 2.234l-.054.054c-.365.358-.596.69-.702 1.018-.143.437-.066.868.21 1.353.055.097.117.195.187.296.882 1.275 3.282.876 4.494.59l.286-.07.25-.074c.276-.084.736-.233 1.2-.42l.188-.077.065-.028.064-.028.124-.056.081-.038c.529-.252.964-.543.994-.827l.001-.036a.299.299 0 00-.037-.139c-.094-.176-.271-.212-.491-.168l-.045.01c-.044.01-.09.024-.136.04l-.097.035-.054.022c-.559.23-1.238.705-1.607.745h.006a.452.452 0 01-.05.003h-.024l-.024-.003-.023-.005c-.068-.016-.116-.06-.14-.142a.22.22 0 01-.005-.1c.062-.345.958-.595 1.713-.91l.066-.028c.528-.224.97-.483.985-.832v-.04a.47.47 0 00-.016-.098c-.048-.18-.175-.251-.36-.251-.785 0-2.55 1.36-2.92 1.36-.025 0-.048-.007-.058-.024a.6.6 0 01-.046-.088c-.1-.238.068-.462 1.06-1.066l.209-.126c.538-.32 1.01-.588 1.341-.831.29-.212.475-.406.503-.6l.003-.028c.008-.113-.038-.227-.147-.344a.266.266 0 00-.07-.054l-.034-.015-.013-.005a.403.403 0 00-.13-.02c-.162 0-.369.07-.595.18-.637.313-1.431.952-1.826 1.285l-.249.215-.033.033c-.08.078-.288.27-.493.386l-.071.037-.041.019a.535.535 0 01-.122.036h.005a.346.346 0 01-.031.003l.01-.001-.013.001c-.079.005-.145-.021-.19-.095a.113.113 0 01-.014-.065c.027-.465 2.034-1.991 2.152-2.642l.009-.048c.1-.65-.271-.817-.791-.493zM11.938 2.984c-4.798 0-8.688 3.829-8.688 8.55 0 .692.083 1.364.24 2.008l.008-.009c.252-.298.612-.46 1.017-.46.355.008.699.117.993.312.22.14.465.384.715.694.261-.372.69-.598 1.15-.605.852 0 1.367.728 1.562 1.383l.047.105.06.127c.192.396.595 1.139 1.143 1.68 1.06 1.04 1.324 2.115.8 3.266a8.865 8.865 0 002.024-.014c-.505-1.12-.26-2.17.74-3.186l.066-.066c.695-.684 1.157-1.69 1.252-1.912.195-.655.708-1.383 1.56-1.383.46.007.889.233 1.15.605.25-.31.495-.553.718-.694a1.87 1.87 0 01.99-.312c.357 0 .682.126.925.36.14-.61.215-1.245.215-1.898 0-4.722-3.89-8.55-8.687-8.55zm1.857 8.926l.439-.212c.553-.264.89-.383.89.152 0 1.093-.771 3.208-3.155 3.262h-.184c-2.325-.052-3.116-2.06-3.156-3.175l-.001-.087c0-1.107 1.452.586 3.25.586.716 0 1.379-.272 1.917-.526zm4.017-3.143c.45 0 .813.358.813.8 0 .441-.364.8-.813.8a.806.806 0 01-.812-.8c0-.442.364-.8.812-.8zm-11.624 0c.448 0 .812.358.812.8 0 .441-.364.8-.812.8a.806.806 0 01-.813-.8c0-.442.364-.8.813-.8zm7.79-.841c.32-.384.846-.54 1.33-.394.483.146.83.564.878 1.06.048.495-.212.97-.659 1.203-.322.168-.447-.477-.767-.585l.002-.003c-.287-.098-.772.362-.925.079a1.215 1.215 0 01.14-1.36zm-4.323 0c.322.384.377.92.14 1.36-.152.283-.64-.177-.925-.079l.003.003c-.108.036-.194.134-.273.24l-.118.165c-.11.15-.22.262-.377.18a1.226 1.226 0 01-.658-1.204c.048-.495.395-.913.878-1.059a1.262 1.262 0 011.33.394z\"/>\n</svg>",
     "models": [
       {
+        "id": "0xgr3y/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-tall_tame_panther",
+        "name": "Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-tall_tame_panther",
+        "created_by": "0xgr3y",
+        "source": "official",
+        "release_date": "2025-11-13",
+        "context_window": 32768,
+        "license": "mit",
+        "parameters": 0.49,
+        "page_url": "https://huggingface.co/0xgr3y/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-tall_tame_panther",
+        "architecture": "transformer",
+        "model_type": "code",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "aaditya/Llama3-OpenBioLLM-8B",
         "name": "Llama3-OpenBioLLM-8B",
         "created_by": "aaditya",
@@ -71701,6 +71939,30 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-01"
       },
       {
+        "id": "anthracite-org/magnum-v4-72b",
+        "name": "magnum-v4-72b",
+        "created_by": "anthracite-org",
+        "source": "official",
+        "description": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet and Opus.",
+        "release_date": "2024-09-20",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 73,
+        "page_url": "https://huggingface.co/anthracite-org/magnum-v4-72b",
+        "architecture": "transformer",
+        "tagline": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet and Opus.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "arcee-ai/Trinity-Large-Thinking",
         "name": "Trinity-Large-Thinking",
         "created_by": "arcee-ai",
@@ -71791,6 +72053,40 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "codellama/CodeLlama-7b-Instruct-hf",
+        "name": "CodeLlama-7b-Instruct-hf",
+        "created_by": "codellama",
+        "source": "official",
+        "family": "codellama",
+        "description": "Code Llama is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 34 billion parameters. This is the repository for the 7B instruct-tuned version in the Hugging Face Transformers format. This model is designed for general code synthesis and understanding. Links to other models can be found in the index at the bottom.",
+        "release_date": "2023-08-24",
+        "context_window": 16384,
+        "license": "llama2",
+        "parameters": 6.7,
+        "page_url": "https://huggingface.co/codellama/CodeLlama-7b-Instruct-hf",
+        "architecture": "transformer",
+        "model_type": "code",
+        "tagline": "Code Llama is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 34 billion parameters.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "DeepMount00/Llama-3-8b-Ita",
         "name": "Llama-3-8b-Ita",
         "created_by": "deepmount00",
@@ -71854,6 +72150,35 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "DeSTA-ntu/Llama-3.1-8B-Instruct",
+        "name": "Llama-3.1-8B-Instruct",
+        "created_by": "desta-ntu",
+        "source": "official",
+        "family": "Llama-3.1",
+        "release_date": "2025-07-06",
+        "context_window": 131072,
+        "parameters": 8,
+        "page_url": "https://huggingface.co/DeSTA-ntu/Llama-3.1-8B-Instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "dphn/Dolphin-Mistral-24B-Venice-Edition",
@@ -72422,6 +72747,37 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "google/gemma-2-27b-it",
+        "name": "gemma-2-27b-it",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-2",
+        "release_date": "2024-06-24",
+        "license": "gemma",
+        "parameters": 27,
+        "page_url": "https://huggingface.co/google/gemma-2-27b-it",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "google/gemma-2-2b-it",
         "name": "gemma-2-2b-it",
         "created_by": "google",
@@ -72513,6 +72869,117 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "google/gemma-2b-it",
+        "name": "gemma-2b-it",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-2b",
+        "release_date": "2024-02-08",
+        "license": "gemma",
+        "page_url": "https://huggingface.co/google/gemma-2b-it",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "google/gemma-3-1b-it",
+        "name": "gemma-3-1b-it",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-3",
+        "release_date": "2025-03-10",
+        "license": "gemma",
+        "parameters": 1,
+        "page_url": "https://huggingface.co/google/gemma-3-1b-it",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "google/gemma-7b-it",
+        "name": "gemma-7b-it",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-7b",
+        "release_date": "2024-02-13",
+        "license": "gemma",
+        "page_url": "https://huggingface.co/google/gemma-7b-it",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "google/medgemma-27b-text-it",
+        "name": "medgemma-27b-text-it",
+        "created_by": "google",
+        "source": "official",
+        "release_date": "2025-05-19",
+        "license": "other",
+        "page_url": "https://huggingface.co/google/medgemma-27b-text-it",
+        "architecture": "transformer",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "GraySwanAI/Llama-3-8B-Instruct-RR",
@@ -72725,6 +73192,39 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ]
+      },
+      {
+        "id": "lmstudio-community/Qwen3-1.7B-MLX-bf16",
+        "name": "Qwen3-1.7B-MLX-bf16",
+        "created_by": "lmstudio-community",
+        "source": "official",
+        "description": "This model [lmstudio-community/Qwen3-1.7B-MLX-bf16](https://huggingface.co/lmstudio-community/Qwen3-1.7B-MLX-bf16) was converted to MLX format from [Qwen/Qwen3-1.7B](https://huggingface.co/Qwen/Qwen3-1.7B) using mlx-lm version **0.24.0**.",
+        "release_date": "2025-04-28",
+        "context_window": 40960,
+        "license": "apache-2.0",
+        "parameters": 1.7,
+        "page_url": "https://huggingface.co/lmstudio-community/Qwen3-1.7B-MLX-bf16",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "tagline": "This model [lmstudio-community/Qwen3-1.7B-MLX-bf16](https://huggingface.co/lmstudio-community/Qwen3-1.7B-MLX-bf16) was converted to MLX format from [Qwen/Qwen3-1.7B](https://huggingface.co/Qwen/Qwen3-",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "m8than/Mistral-Nemo-Instruct-2407-lenient-chatfix",
@@ -72995,6 +73495,101 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 8192
       },
       {
+        "id": "microsoft/Phi-3-mini-4k-instruct",
+        "name": "Phi-3-mini-4k-instruct",
+        "created_by": "microsoft",
+        "source": "official",
+        "description": "🎉 **Phi-3.5**: [[mini-instruct]](https://huggingface.co/microsoft/Phi-3.5-mini-instruct); [[MoE-instruct]](https://huggingface.co/microsoft/Phi-3.5-MoE-instruct) ; [[vision-instruct]](https://huggingface.co/microsoft/Phi-3.5-vision-instruct)",
+        "release_date": "2024-04-22",
+        "context_window": 4096,
+        "license": "mit",
+        "parameters": 3.8,
+        "page_url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "tagline": "🎉 **Phi-3.5**: [[mini-instruct]](https://huggingface.co/microsoft/Phi-3.5-mini-instruct); [[MoE-instruct]](https://huggingface.co/microsoft/Phi-3.5-MoE-instruct) ; [[vision-instruct]](https://hugging",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "microsoft/Phi-4-mini-instruct",
+        "name": "Phi-4-mini-instruct",
+        "created_by": "microsoft",
+        "source": "official",
+        "description": "🎉**Phi-4**: [[mini-reasoning](https://huggingface.co/microsoft/Phi-4-mini-reasoning) | [reasoning](https://huggingface.co/microsoft/Phi-4-reasoning)] | [[multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) | [onnx](https://huggingface.co/microsoft/Phi-4-multimodal-instruct-onnx)]; [[mini-instruct](https://huggingface.co/microsoft/Phi-4-mini-instruct) | [onnx](https://huggingface.co/microsoft/Phi-4-mini-instruct-onnx)]",
+        "release_date": "2025-02-19",
+        "context_window": 131072,
+        "license": "mit",
+        "page_url": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "tagline": "🎉**Phi-4**: [[mini-reasoning](https://huggingface.co/microsoft/Phi-4-mini-reasoning) | [reasoning](https://huggingface.co/microsoft/Phi-4-reasoning)] | [[multimodal-instruct](https://huggingface.co/m",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "mistralai/Mistral-7B-Instruct-v0.1",
+        "name": "Mistral-7B-Instruct-v0.1",
+        "created_by": "mistral",
+        "source": "official",
+        "release_date": "2023-09-27",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "mistralai/Mistral-7B-Instruct-v0.2",
         "name": "Mistral-7B-Instruct-v0.2",
         "created_by": "mistral",
@@ -73182,6 +73777,37 @@ export const providers: ProviderWithModels[] = [
         "description": "Long-term thinking, multi-step tool usage, complex problem solving.",
         "tagline": "Long-term thinking, multi-step tool usage, complex problem solving.",
         "max_output_tokens": 32768
+      },
+      {
+        "id": "moonshotai/Kimi-Linear-48B-A3B-Instruct",
+        "name": "Kimi-Linear-48B-A3B-Instruct",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "kimi",
+        "release_date": "2025-10-30",
+        "license": "mit",
+        "parameters": 49,
+        "page_url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "NousResearch/Meta-Llama-3-70B-Instruct",
@@ -73480,6 +74106,60 @@ export const providers: ProviderWithModels[] = [
         ]
       },
       {
+        "id": "openchat/openchat_3.5",
+        "name": "openchat_3.5",
+        "created_by": "openchat",
+        "source": "official",
+        "description": "**🔥 The first 7B model Achieves Comparable Results with ChatGPT (March)! 🔥**",
+        "release_date": "2023-10-30",
+        "context_window": 8192,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/openchat/openchat_3.5",
+        "architecture": "transformer",
+        "tagline": "**🔥 The first 7B model Achieves Comparable Results with ChatGPT (March)! 🔥**",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "OpenPipe/Qwen3-14B-Instruct",
+        "name": "Qwen3-14B-Instruct",
+        "created_by": "openpipe",
+        "source": "official",
+        "release_date": "2025-10-10",
+        "context_window": 40960,
+        "license": "apache-2.0",
+        "parameters": 15,
+        "page_url": "https://huggingface.co/OpenPipe/Qwen3-14B-Instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "Orion-zhen/Qwen2.5-7B-Instruct-Uncensored",
         "name": "Qwen2.5-7B-Instruct-Uncensored",
         "created_by": "orion-zhen",
@@ -73547,6 +74227,61 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "prefeitura-rio/Rio-3.0-Open-Mini",
+        "name": "Rio-3.0-Open-Mini",
+        "created_by": "prefeitura-rio",
+        "source": "official",
+        "description": "**Rio 3.0 Open Mini** is a frontier-class reasoning model developed by [IplanRIO](https://iplanrio.rio.rj.gov.br/), the municipal IT company of Rio de Janeiro's city government. Built through distillation on top of Qwen3-4B-Thinking-2507 using reasoning traces from our to be announced Rio 3.0 model, Rio 3.0 Open achieves state-of-the-art results across mathematics, STEM, and code benchmarks — surpassing its base model by significant margins and competing with models far larger than itself.",
+        "release_date": "2026-02-09",
+        "context_window": 262144,
+        "license": "mit",
+        "parameters": 4,
+        "page_url": "https://huggingface.co/prefeitura-rio/Rio-3.0-Open-Mini",
+        "architecture": "transformer",
+        "tagline": "**Rio 3.0 Open Mini** is a frontier-class reasoning model developed by [IplanRIO](https://iplanrio.rio.rj.gov.br/), the municipal IT company of Rio de Janeiro's city government.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "Qwen/Qwen1.5-0.5B-Chat",
+        "name": "Qwen1.5-0.5B-Chat",
+        "created_by": "qwen",
+        "source": "official",
+        "release_date": "2024-01-31",
+        "context_window": 32768,
+        "license": "other",
+        "parameters": 0.62,
+        "page_url": "https://huggingface.co/Qwen/Qwen1.5-0.5B-Chat",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "Qwen/Qwen1.5-1.8B-Chat",
         "name": "Qwen1.5-1.8B-Chat",
         "created_by": "qwen",
@@ -73576,6 +74311,37 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "Qwen/Qwen2-0.5B-Instruct",
+        "name": "Qwen2-0.5B-Instruct",
+        "created_by": "qwen",
+        "source": "official",
+        "release_date": "2024-06-03",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 0.49,
+        "page_url": "https://huggingface.co/Qwen/Qwen2-0.5B-Instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "Qwen/Qwen2-1.5B-Instruct",
@@ -73674,6 +74440,37 @@ export const providers: ProviderWithModels[] = [
         },
         "description": "Alibaba Cloud's Qwen2 open-source version. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt)",
         "tagline": "The Qwen2 open-source model from Alibaba Cloud."
+      },
+      {
+        "id": "Qwen/Qwen2.5-0.5B-Instruct",
+        "name": "Qwen2.5-0.5B-Instruct",
+        "created_by": "qwen",
+        "source": "official",
+        "release_date": "2024-09-16",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 0.49,
+        "page_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "Qwen/Qwen2.5-1.5B-Instruct",
@@ -73807,6 +74604,37 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Qwen2.5 is a large language model series from Qwen."
       },
       {
+        "id": "Qwen/Qwen2.5-3B-Instruct",
+        "name": "Qwen2.5-3B-Instruct",
+        "created_by": "qwen",
+        "source": "official",
+        "release_date": "2024-09-17",
+        "context_window": 32768,
+        "license": "other",
+        "parameters": 3.1,
+        "page_url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "Qwen/Qwen2.5-72B-Instruct",
         "name": "Qwen2.5-72B-Instruct",
         "created_by": "qwen",
@@ -73904,6 +74732,68 @@ export const providers: ProviderWithModels[] = [
         },
         "description": "Qwen2.5 is part of the Qwen Large Language Model (LLM) series. We released a series of base language models and instruction-tuned language models with parameter scales ranging from 7 billion to 72 billion. Qwen2.5 improves upon Qwen2 in the following ways: * Pre-trained on our latest large-scale dataset containing up to 18 trillion tokens. * Significantly expanded knowledge and greatly enhanced coding and math capabilities due to our domain-expert models. * Major improvements in instruction following, long-text generation (over 8K tokens), structured data understanding (such as tables), and structured output generation (especially JSON). More resilient to diverse system prompts, enhancing chatbot role-playing and conditional setup. * Supports over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, and Arabic. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) ## International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
         "tagline": "Qwen2.5 is a large language model series from Qwen."
+      },
+      {
+        "id": "Qwen/Qwen2.5-Coder-0.5B-Instruct",
+        "name": "Qwen2.5-Coder-0.5B-Instruct",
+        "created_by": "qwen",
+        "source": "official",
+        "release_date": "2024-11-06",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 0.49,
+        "page_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct",
+        "architecture": "transformer",
+        "model_type": "code",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "Qwen/Qwen2.5-Coder-0.5B",
+        "name": "Qwen2.5-Coder-0.5B",
+        "created_by": "qwen",
+        "source": "official",
+        "release_date": "2024-11-08",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 0.49,
+        "page_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B",
+        "architecture": "transformer",
+        "model_type": "code",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
@@ -74123,6 +75013,37 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "Qwen/Qwen2.5-Coder-3B",
+        "name": "Qwen2.5-Coder-3B",
+        "created_by": "qwen",
+        "source": "official",
+        "release_date": "2024-11-08",
+        "context_window": 32768,
+        "license": "other",
+        "parameters": 3.1,
+        "page_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B",
+        "architecture": "transformer",
+        "model_type": "code",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
         "name": "Qwen2.5-Coder-7B-Instruct",
         "created_by": "qwen",
@@ -74249,6 +75170,98 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "Qwen/Qwen3-0.6B-Base",
+        "name": "Qwen3-0.6B-Base",
+        "created_by": "qwen",
+        "source": "official",
+        "release_date": "2025-04-28",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/Qwen/Qwen3-0.6B-Base",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "Qwen/Qwen3-0.6B",
+        "name": "Qwen3-0.6B",
+        "created_by": "qwen",
+        "source": "official",
+        "release_date": "2025-04-27",
+        "context_window": 40960,
+        "license": "apache-2.0",
+        "parameters": 0.75,
+        "page_url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "Qwen/Qwen3-1.7B-Base",
+        "name": "Qwen3-1.7B-Base",
+        "created_by": "qwen",
+        "source": "official",
+        "release_date": "2025-04-28",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 1.7,
+        "page_url": "https://huggingface.co/Qwen/Qwen3-1.7B-Base",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "Qwen/Qwen3-1.7B",
@@ -74711,6 +75724,37 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "Qwen/Qwen3-4B-Base",
+        "name": "Qwen3-4B-Base",
+        "created_by": "qwen",
+        "source": "official",
+        "release_date": "2025-04-28",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 4,
+        "page_url": "https://huggingface.co/Qwen/Qwen3-4B-Base",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "Qwen/Qwen3-4B-Instruct-2507",
         "name": "Qwen3-4B-Instruct-2507",
         "created_by": "qwen",
@@ -74777,6 +75821,37 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "Qwen/Qwen3-4B-SafeRL",
+        "name": "Qwen3-4B-SafeRL",
+        "created_by": "qwen",
+        "source": "official",
+        "release_date": "2025-09-30",
+        "context_window": 40960,
+        "license": "apache-2.0",
+        "parameters": 4.4,
+        "page_url": "https://huggingface.co/Qwen/Qwen3-4B-SafeRL",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "Qwen/Qwen3-4B-Thinking-2507",
         "name": "Qwen3-4B-Thinking-2507",
         "created_by": "qwen",
@@ -74841,6 +75916,36 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "Qwen/Qwen3-4B",
+        "name": "Qwen3-4B",
+        "created_by": "qwen",
+        "source": "official",
+        "release_date": "2025-04-27",
+        "context_window": 40960,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/Qwen/Qwen3-4B",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "Qwen/Qwen3-8B-Base",
@@ -75136,6 +76241,72 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "Qwen/Qwen3Guard-Gen-0.6B",
+        "name": "Qwen3Guard-Gen-0.6B",
+        "created_by": "qwen",
+        "source": "official",
+        "description": "**Qwen3Guard** is a series of safety moderation models built upon Qwen3 and trained on a dataset of 1.19 million prompts and responses labeled for safety. The series includes models of three sizes (0.6B, 4B, and 8B) and features two specialized variants: **Qwen3Guard-Gen**, a generative model that frames safety classification as an instruction-following task, and **Qwen3Guard-Stream**, which incorporates a token-level classification head for real-time safety monitoring during incremental text ge…",
+        "release_date": "2025-09-23",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 0.75,
+        "page_url": "https://huggingface.co/Qwen/Qwen3Guard-Gen-0.6B",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "tagline": "**Qwen3Guard** is a series of safety moderation models built upon Qwen3 and trained on a dataset of 1.19 million prompts and responses labeled for safety.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "Qwen/Qwen3Guard-Gen-8B",
+        "name": "Qwen3Guard-Gen-8B",
+        "created_by": "qwen",
+        "source": "official",
+        "description": "**Qwen3Guard** is a series of safety moderation models built upon Qwen3 and trained on a dataset of 1.19 million prompts and responses labeled for safety. The series includes models of three sizes (0.6B, 4B, and 8B) and features two specialized variants: **Qwen3Guard-Gen**, a generative model that frames safety classification as an instruction-following task, and **Qwen3Guard-Stream**, which incorporates a token-level classification head for real-time safety monitoring during incremental text ge…",
+        "release_date": "2025-09-23",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 8.2,
+        "page_url": "https://huggingface.co/Qwen/Qwen3Guard-Gen-8B",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "tagline": "**Qwen3Guard** is a series of safety moderation models built upon Qwen3 and trained on a dataset of 1.19 million prompts and responses labeled for safety.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "RedHatAI/Meta-Llama-3-8B-Instruct-FP8-KV",
         "name": "Meta-Llama-3-8B-Instruct-FP8-KV",
         "created_by": "redhatai",
@@ -75194,6 +76365,30 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-04-14"
+      },
+      {
+        "id": "ricdomolm/mini-coder-1.7b",
+        "name": "mini-coder-1.7b",
+        "created_by": "ricdomolm",
+        "source": "official",
+        "description": "`mini-coder-1.7b` is a 1.7B parameter model distilled from Qwen 3 Coder 30B A3B. It punches well above its weight, outperforming SWE-agent-LM 7B on [SWE-bench Verified Bash only](https://www.swebench.com/):",
+        "release_date": "2025-09-30",
+        "context_window": 40960,
+        "license": "mit",
+        "parameters": 1.7,
+        "page_url": "https://huggingface.co/ricdomolm/mini-coder-1.7b",
+        "architecture": "transformer",
+        "tagline": "`mini-coder-1.7b` is a 1.7B parameter model distilled from Qwen 3 Coder 30B A3B.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "SakanaAI/TinySwallow-1.5B-Instruct",
@@ -75312,6 +76507,28 @@ export const providers: ProviderWithModels[] = [
         ]
       },
       {
+        "id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "name": "TinyLlama-1.1B-Chat-v1.0",
+        "created_by": "tinyllama",
+        "source": "official",
+        "release_date": "2023-12-30",
+        "context_window": 2048,
+        "license": "apache-2.0",
+        "parameters": 1.1,
+        "page_url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "architecture": "transformer",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "tokyotech-llm/Llama-3-Swallow-8B-Instruct-v0.1",
         "name": "Llama-3-Swallow-8B-Instruct-v0.1",
         "created_by": "tokyotech-llm",
@@ -75412,6 +76629,40 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "unsloth/gemma-3-1b-it",
+        "name": "gemma-3-1b-it",
+        "created_by": "unsloth",
+        "source": "official",
+        "family": "gemma-3",
+        "description": "- Fine-tune Gemma 3 (12B) for free using our Google [Colab notebook here](https://docs.unsloth.ai/get-started/unsloth-notebooks)! - Read our Blog about Gemma 3 support: [unsloth.ai/blog/gemma3](https://unsloth.ai/blog/gemma3) - View the rest of our notebooks in our [docs here](https://docs.unsloth.ai/get-started/unsloth-notebooks). - Export your fine-tuned model to GGUF, Ollama, llama.cpp or 🤗HF.",
+        "release_date": "2025-03-12",
+        "context_window": 32768,
+        "license": "gemma",
+        "parameters": 1,
+        "page_url": "https://huggingface.co/unsloth/gemma-3-1b-it",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "tagline": "- Fine-tune Gemma 3 (12B) for free using our Google [Colab notebook here](https://docs.unsloth.ai/get-started/unsloth-notebooks)! - Read our Blog about Gemma 3 support: [unsloth.ai/blog/gemma3](https://unsloth.ai/blog/gemma3) - View the rest of our notebooks in our [docs here](https://docs.unsloth.ai/get-started/unsloth-notebooks).",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "unsloth/llama-3-8b-Instruct",
         "name": "llama-3-8b-Instruct",
         "created_by": "unsloth",
@@ -75476,6 +76727,70 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "unsloth/Llama-3.2-1B-Instruct",
+        "name": "Llama-3.2-1B-Instruct",
+        "created_by": "unsloth",
+        "source": "official",
+        "family": "Llama-3.2",
+        "release_date": "2024-09-25",
+        "context_window": 131072,
+        "license": "llama3.2",
+        "parameters": 1.2,
+        "page_url": "https://huggingface.co/unsloth/Llama-3.2-1B-Instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "unsloth/Llama-3.2-3B-Instruct",
+        "name": "Llama-3.2-3B-Instruct",
+        "created_by": "unsloth",
+        "source": "official",
+        "family": "Llama-3.2",
+        "release_date": "2024-09-25",
+        "context_window": 131072,
+        "license": "llama3.2",
+        "parameters": 3.2,
+        "page_url": "https://huggingface.co/unsloth/Llama-3.2-3B-Instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "unsloth/Meta-Llama-3.1-8B-Instruct",
@@ -75582,6 +76897,72 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "unsloth/Qwen2.5-0.5B-Instruct",
+        "name": "Qwen2.5-0.5B-Instruct",
+        "created_by": "unsloth",
+        "source": "official",
+        "description": "We have a Qwen 2.5 (all model sizes) [free Google Colab Tesla T4 notebook](https://colab.research.google.com/drive/1Kose-ucXO1IBaZq5BvbwWieuubP7hxvQ?usp=sharing). Also a [Qwen 2.5 conversational style notebook](https://colab.research.google.com/drive/1qN1CEalC70EO1wGKhNxs1go1W9So61R5?usp=sharing).",
+        "release_date": "2024-09-18",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 0.49,
+        "page_url": "https://huggingface.co/unsloth/Qwen2.5-0.5B-Instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "tagline": "We have a Qwen 2.5 (all model sizes) [free Google Colab Tesla T4 notebook](https://colab.research.google.com/drive/1Kose-ucXO1IBaZq5BvbwWieuubP7hxvQ?usp=sharing).",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "unsloth/Qwen2.5-1.5B-Instruct",
+        "name": "Qwen2.5-1.5B-Instruct",
+        "created_by": "unsloth",
+        "source": "official",
+        "description": "We have a Qwen 2.5 (all model sizes) [free Google Colab Tesla T4 notebook](https://colab.research.google.com/drive/1Kose-ucXO1IBaZq5BvbwWieuubP7hxvQ?usp=sharing). Also a [Qwen 2.5 conversational style notebook](https://colab.research.google.com/drive/1qN1CEalC70EO1wGKhNxs1go1W9So61R5?usp=sharing).",
+        "release_date": "2024-09-18",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 1.5,
+        "page_url": "https://huggingface.co/unsloth/Qwen2.5-1.5B-Instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "tagline": "We have a Qwen 2.5 (all model sizes) [free Google Colab Tesla T4 notebook](https://colab.research.google.com/drive/1Kose-ucXO1IBaZq5BvbwWieuubP7hxvQ?usp=sharing).",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "unsloth/Qwen2.5-14B-Instruct",
         "name": "Qwen2.5-14B-Instruct",
         "created_by": "unsloth",
@@ -75646,6 +77027,39 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "unsloth/Qwen2.5-3B-Instruct",
+        "name": "Qwen2.5-3B-Instruct",
+        "created_by": "unsloth",
+        "source": "official",
+        "description": "We have a Qwen 2.5 (all model sizes) [free Google Colab Tesla T4 notebook](https://colab.research.google.com/drive/1Kose-ucXO1IBaZq5BvbwWieuubP7hxvQ?usp=sharing). Also a [Qwen 2.5 conversational style notebook](https://colab.research.google.com/drive/1qN1CEalC70EO1wGKhNxs1go1W9So61R5?usp=sharing).",
+        "release_date": "2024-09-18",
+        "context_window": 32768,
+        "license": "other",
+        "parameters": 3.1,
+        "page_url": "https://huggingface.co/unsloth/Qwen2.5-3B-Instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "tagline": "We have a Qwen 2.5 (all model sizes) [free Google Colab Tesla T4 notebook](https://colab.research.google.com/drive/1Kose-ucXO1IBaZq5BvbwWieuubP7hxvQ?usp=sharing).",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "unsloth/Qwen2.5-7B-Instruct",
@@ -75747,6 +77161,70 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-16"
       },
       {
+        "id": "unsloth/Qwen3-4B-Instruct-2507",
+        "name": "Qwen3-4B-Instruct-2507",
+        "created_by": "unsloth",
+        "source": "official",
+        "release_date": "2025-08-06",
+        "context_window": 262144,
+        "model_type": "chat",
+        "license": "apache-2.0",
+        "alias": "unsloth/Qwen3-4B-Instruct",
+        "page_url": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507",
+        "architecture": "transformer",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "unsloth/Qwen3-4B-Instruct",
+        "name": "Qwen3-4B-Instruct-2507",
+        "created_by": "unsloth",
+        "source": "official",
+        "release_date": "2025-08-06",
+        "context_window": 262144,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "snapshots": [
+          "unsloth/Qwen3-4B-Instruct-2507"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "unsloth/Qwen3-8B-Base",
         "name": "Qwen3-8B-Base",
         "created_by": "unsloth",
@@ -75828,6 +77306,28 @@ export const providers: ProviderWithModels[] = [
         ]
       },
       {
+        "id": "upstage/SOLAR-10.7B-Instruct-v1.0",
+        "name": "SOLAR-10.7B-Instruct-v1.0",
+        "created_by": "upstage",
+        "source": "official",
+        "release_date": "2023-12-12",
+        "context_window": 4096,
+        "license": "cc-by-nc-4.0",
+        "parameters": 11,
+        "page_url": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0",
+        "architecture": "transformer",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "VAGOsolutions/Llama-3-SauerkrautLM-8b-Instruct",
         "name": "Llama-3-SauerkrautLM-8b-Instruct",
         "created_by": "vagosolutions",
@@ -75880,6 +77380,61 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ]
+      },
+      {
+        "id": "Vikhrmodels/QVikhr-3-1.7B-Instruction-noreasoning",
+        "name": "QVikhr-3-1.7B-Instruction-noreasoning",
+        "created_by": "vikhrmodels",
+        "source": "official",
+        "description": "--- library_name: transformers model_name: QVikhr-3-1.7B-Instruction-noreasoning base_model: - Qwen/Qwen3-1.7B language: - ru - en license: apache-2.0 datasets: - Vikhrmodels/GrandMaster2 ---",
+        "release_date": "2025-05-29",
+        "context_window": 40960,
+        "license": "apache-2.0",
+        "parameters": 1.7,
+        "page_url": "https://huggingface.co/Vikhrmodels/QVikhr-3-1.7B-Instruction-noreasoning",
+        "architecture": "transformer",
+        "model_type": "reasoning",
+        "tagline": "--- library_name: transformers model_name: QVikhr-3-1.7B-Instruction-noreasoning base_model: - Qwen/Qwen3-1.7B language: - ru - en license: apache-2.0 datasets: - Vikhrmodels/GrandMaster2 ---",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "Vikhrmodels/Vikhr-Llama-3.2-1B-Instruct",
+        "name": "Vikhr-Llama-3.2-1B-Instruct",
+        "created_by": "vikhrmodels",
+        "source": "official",
+        "release_date": "2024-09-27",
+        "context_window": 131072,
+        "license": "llama3.2",
+        "parameters": 1.2,
+        "page_url": "https://huggingface.co/Vikhrmodels/Vikhr-Llama-3.2-1B-Instruct",
+        "architecture": "transformer",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "zai-org/GLM-4-9B-0414",
@@ -84262,6 +85817,27 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "mistralai/mistral-medium-3.5-128b",
+        "name": "mistral-medium-3.5-128b",
+        "created_by": "mistral",
+        "source": "official",
+        "family": "mistral-medium",
+        "parameters": 128,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "mistralai/mistral-nemotron",
         "name": "mistral-nemotron",
         "created_by": "mistral",
@@ -84584,6 +86160,26 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 32768,
         "license": "mit",
         "open_weight": true
+      },
+      {
+        "id": "moonshotai/kimi-k2.6",
+        "name": "kimi-k2.6",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "kimi-k2.6",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-01"
       },
       {
         "id": "nv-mistralai/mistral-nemo-12b-instruct",
@@ -85195,6 +86791,32 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "name": "nemotron-3-nano-omni-30b-a3b-reasoning",
+        "created_by": "nvidia",
+        "source": "official",
+        "parameters": 30,
+        "active_parameters": 3,
+        "model_type": "reasoning",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "nvidia/nemotron-3-super-120b-a12b",
@@ -86488,6 +88110,40 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-25"
       },
       {
+        "id": "deepseek-v4-pro",
+        "name": "deepseek-v4-pro",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "description": "DeepSeek-V4-Pro is a frontier Mixture-of-Experts model with a 1M-token context window and three reasoning modes.",
+        "release_date": "2026-04-24",
+        "reasoning_tokens": true,
+        "license": "open-weight",
+        "page_url": "https://ollama.com/library/deepseek-v4-pro",
+        "open_weight": true,
+        "model_type": "chat",
+        "tagline": "DeepSeek-V4-Pro is a frontier Mixture-of-Experts model with a 1M-token context window and three reasoning modes.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "fine_tuning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "devstral-2",
         "name": "devstral-2",
         "created_by": "mistral",
@@ -86874,6 +88530,34 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "granite4.1",
+        "name": "granite4.1",
+        "created_by": "ibm",
+        "source": "official",
+        "context_window": 131072,
+        "license": "apache-2.0",
+        "page_url": "https://ollama.com/library/granite4.1",
+        "open_weight": true,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "granite4",
         "name": "granite4",
         "created_by": "ibm",
@@ -86939,7 +88623,7 @@ export const providers: ProviderWithModels[] = [
         "name": "kimi-k2.5",
         "created_by": "moonshot",
         "source": "official",
-        "last_updated": "2026-04-01",
+        "last_updated": "2026-05-01",
         "capabilities": {
           "streaming": true,
           "fine_tuning": true,
@@ -86958,8 +88642,7 @@ export const providers: ProviderWithModels[] = [
         "open_weight": true,
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "text"
@@ -87035,6 +88718,38 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "laguna-xs.2",
+        "name": "laguna-xs.2",
+        "created_by": "unknown",
+        "source": "official",
+        "description": "Laguna XS.2 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine.",
+        "context_window": 131072,
+        "reasoning_tokens": true,
+        "license": "apache-2.0",
+        "parameters": 33,
+        "page_url": "https://ollama.com/library/laguna-xs.2",
+        "open_weight": true,
+        "tagline": "Laguna XS.2 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "lfm2.5-thinking",
@@ -87345,6 +89060,42 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "mistral-medium-3.5",
+        "name": "mistral-medium-3.5",
+        "created_by": "mistral",
+        "source": "official",
+        "family": "mistral-medium",
+        "description": "Mistral Medium 3.5 is the first flagship model of Mistral AI that merged instruction-following, reasoning, and coding in a single set of 128B weights.",
+        "context_window": 262144,
+        "reasoning_tokens": true,
+        "license": "mit",
+        "parameters": 128,
+        "page_url": "https://ollama.com/library/mistral-medium-3.5",
+        "open_weight": true,
+        "model_type": "chat",
+        "tagline": "Mistral Medium 3.5 is the first flagship model of Mistral AI that merged instruction-following, reasoning, and coding in a single set of 128B weights.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "nemotron-3-nano",
         "name": "nemotron-3-nano",
         "created_by": "nvidia",
@@ -87444,6 +89195,41 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "nemotron3",
+        "name": "nemotron3",
+        "created_by": "nvidia",
+        "source": "official",
+        "description": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&amp;A, summarization, transcription, and document intelligence workflows.",
+        "context_window": 131072,
+        "reasoning_tokens": true,
+        "license": "open-weight",
+        "parameters": 33,
+        "page_url": "https://ollama.com/library/nemotron3",
+        "open_weight": true,
+        "model_type": "chat",
+        "tagline": "NVIDIA Nemotron 3 Nano Omni is a multimodal large language model that unifies video, audio, image, and text understanding to support enterprise-grade Q&amp;A, summarization, transcription, and documen",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "olmo-3",
@@ -102070,6 +103856,43 @@ export const providers: ProviderWithModels[] = [
     "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" fill-rule=\"evenodd\">\n  <path d=\"M16.804 1.957l7.22 4.105v.087L16.73 10.21l.017-2.117-.821-.03c-1.059-.028-1.611.002-2.268.11-1.064.175-2.038.577-3.147 1.352L8.345 11.03c-.284.195-.495.336-.68.455l-.515.322-.397.234.385.23.53.338c.476.314 1.17.796 2.701 1.866 1.11.775 2.083 1.177 3.147 1.352l.3.045c.694.091 1.375.094 2.825.033l.022-2.159 7.22 4.105v.087L16.589 22l.014-1.862-.635.022c-1.386.042-2.137.002-3.138-.162-1.694-.28-3.26-.926-4.881-2.059l-2.158-1.5a21.997 21.997 0 00-.755-.498l-.467-.28a55.927 55.927 0 00-.76-.43C2.908 14.73.563 14.116 0 14.116V9.888l.14.004c.564-.007 2.91-.622 3.809-1.124l1.016-.58.438-.274c.428-.28 1.072-.726 2.686-1.853 1.621-1.133 3.186-1.78 4.881-2.059 1.152-.19 1.974-.213 3.814-.138l.02-1.907z\"/>\n</svg>",
     "models": [
       {
+        "id": "~anthropic/claude-haiku-latest",
+        "name": "Anthropic Claude Haiku Latest",
+        "created_by": "~anthropic",
+        "source": "official",
+        "family": "claude-haiku",
+        "description": "This model always redirects to the latest model in the Anthropic Claude Haiku family.",
+        "release_date": "2026-04-27",
+        "context_window": 200000,
+        "max_output_tokens": 64000,
+        "model_type": "chat",
+        "tagline": "This model always redirects to the latest model in the Anthropic Claude Haiku family.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1,
+          "output": 5,
+          "cached_input": 0.1
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "~anthropic/claude-opus-latest",
         "name": "Anthropic: Claude Opus Latest",
         "created_by": "~anthropic",
@@ -102105,6 +103928,226 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-04-22"
+      },
+      {
+        "id": "~anthropic/claude-sonnet-latest",
+        "name": "Anthropic Claude Sonnet Latest",
+        "created_by": "~anthropic",
+        "source": "official",
+        "family": "claude-sonnet",
+        "description": "This model always redirects to the latest model in the Anthropic Claude Sonnet family.",
+        "release_date": "2026-04-27",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "tagline": "This model always redirects to the latest model in the Anthropic Claude Sonnet family.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.3
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "~google/gemini-flash-latest",
+        "name": "Google Gemini Flash Latest",
+        "created_by": "~google",
+        "source": "official",
+        "description": "This model always redirects to the latest model in the Google Gemini Flash family.",
+        "release_date": "2026-04-27",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "tagline": "This model always redirects to the latest model in the Google Gemini Flash family.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 3,
+          "cached_input": 0.05
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "~google/gemini-pro-latest",
+        "name": "Google Gemini Pro Latest",
+        "created_by": "~google",
+        "source": "official",
+        "description": "This model always redirects to the latest model in the Google Gemini Pro family.",
+        "release_date": "2026-04-27",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "tagline": "This model always redirects to the latest model in the Google Gemini Pro family.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 12,
+          "cached_input": 0.2
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "~moonshotai/kimi-latest",
+        "name": "MoonshotAI Kimi Latest",
+        "created_by": "~moonshotai",
+        "source": "official",
+        "family": "kimi",
+        "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
+        "release_date": "2026-04-27",
+        "context_window": 262142,
+        "max_output_tokens": 262142,
+        "model_type": "chat",
+        "tagline": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.74,
+          "output": 3.49,
+          "cached_input": 0.14
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "~openai/gpt-latest",
+        "name": "OpenAI GPT Latest",
+        "created_by": "~openai",
+        "source": "official",
+        "description": "This model always redirects to the latest model in the OpenAI GPT family.",
+        "release_date": "2026-04-27",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "tagline": "This model always redirects to the latest model in the OpenAI GPT family.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cached_input": 0.5
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "~openai/gpt-mini-latest",
+        "name": "OpenAI GPT Mini Latest",
+        "created_by": "~openai",
+        "source": "official",
+        "description": "This model always redirects to the latest model in the OpenAI GPT Mini family.",
+        "release_date": "2026-04-27",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "tagline": "This model always redirects to the latest model in the OpenAI GPT Mini family.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 4.5,
+          "cached_input": 0.075
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "ai21/jamba-large-1.7",
@@ -102455,7 +104498,7 @@ export const providers: ProviderWithModels[] = [
         "name": "AllenAI: Olmo 3.1 32B Instruct",
         "created_by": "allenai",
         "source": "official",
-        "last_updated": "2026-04-25",
+        "last_updated": "2026-05-01",
         "description": "Olmo 3.1 32B Instruct is a large-scale, 32-billion-parameter instruction-tuned language model engineered for high-performance conversational AI, multi-turn dialogue, and practical instruction following.",
         "context_window": 65536,
         "modalities": {
@@ -102481,7 +104524,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "max_output_tokens": 16384
+        "max_output_tokens": 16384,
+        "status": "deprecated",
+        "deprecation_date": "2026-05-07"
       },
       {
         "id": "allenai/olmo-3.1-32b-think",
@@ -104603,12 +106648,12 @@ export const providers: ProviderWithModels[] = [
         "name": "Google: Gemini 2.0 Flash",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-05-01",
         "family": "gemini-2.0",
         "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5).",
         "status": "deprecated",
         "deprecation_date": "2026-06-01",
-        "context_window": 1048576,
+        "context_window": 1000000,
         "max_output_tokens": 8192,
         "modalities": {
           "input": [
@@ -105877,6 +107922,41 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat"
       },
       {
+        "id": "ibm-granite/granite-4.1-8b",
+        "name": "IBM: Granite 4.1 8B",
+        "created_by": "ibm-granite",
+        "source": "official",
+        "description": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family.",
+        "release_date": "2026-04-30",
+        "context_window": 131072,
+        "max_output_tokens": 131072,
+        "parameters": 8,
+        "model_type": "chat",
+        "tagline": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0.1,
+          "cached_input": 0.05
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "inception/mercury-2",
         "name": "Inception: Mercury 2",
         "created_by": "inception",
@@ -105997,7 +108077,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale.",
         "status": "deprecated",
         "release_date": "2026-04-23",
-        "deprecation_date": "2026-04-30",
+        "deprecation_date": "2026-05-07",
         "context_window": 262144,
         "max_output_tokens": 32768,
         "tagline": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale.",
@@ -106017,7 +108097,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-24"
+        "last_updated": "2026-05-01"
       },
       {
         "id": "inclusionai/ling-2.6-flash:free",
@@ -106048,6 +108128,39 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-24",
         "status": "deprecated",
         "deprecation_date": "2026-04-29"
+      },
+      {
+        "id": "inclusionai/ling-2.6-flash",
+        "name": "inclusionAI: Ling-2.6-flash",
+        "created_by": "inclusionai",
+        "source": "official",
+        "description": "Ling-2.6-flash is an instant (instruct) model from inclusionAI with 104B total parameters and 7.4B active parameters, designed for real-world agents that require fast responses, strong execution, and ",
+        "release_date": "2026-04-21",
+        "context_window": 262144,
+        "max_output_tokens": 32768,
+        "tagline": "Ling-2.6-flash is an instant (instruct) model from inclusionAI with 104B total parameters and 7.4B active parameters, designed for real-world agents that require fast responses, strong execution, and ",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.08,
+          "output": 0.24,
+          "cached_input": 0.016
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "inflection/inflection-3-pi",
@@ -106382,7 +108495,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Meta: Llama 3 8B Instruct",
         "created_by": "meta-llama",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-01",
         "family": "llama-3",
         "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors.",
         "context_window": 8192,
@@ -106410,7 +108523,9 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "status": "deprecated",
+        "deprecation_date": "2026-05-07"
       },
       {
         "id": "meta-llama/llama-3.1-405b",
@@ -107912,7 +110027,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Mistral: Mistral Nemo",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-04-24",
+        "last_updated": "2026-05-01",
         "description": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.",
         "context_window": 131072,
         "max_output_tokens": 16384,
@@ -107933,7 +110048,7 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.01,
+          "input": 0.02,
           "output": 0.03
         },
         "model_type": "chat",
@@ -108324,7 +110439,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Mistral: Mixtral 8x7B Instruct",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-01",
         "family": "mixtral",
         "description": "Mixtral 8x7B Instruct is a pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use.",
         "context_window": 32768,
@@ -108351,7 +110466,9 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Mixtral 8x7B Instruct is a pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "status": "deprecated",
+        "deprecation_date": "2026-05-08"
       },
       {
         "id": "mistralai/pixtral-12b",
@@ -108664,8 +110781,8 @@ export const providers: ProviderWithModels[] = [
         "family": "kimi-k2.6",
         "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration.",
         "release_date": "2026-04-20",
-        "context_window": 256000,
-        "max_output_tokens": 65536,
+        "context_window": 262142,
+        "max_output_tokens": 262142,
         "model_type": "chat",
         "tagline": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration.",
         "capabilities": {
@@ -108684,14 +110801,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.745,
-          "output": 4.655,
-          "cached_input": 0.146
+          "input": 0.74,
+          "output": 3.49,
+          "cached_input": 0.14
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-24"
+        "last_updated": "2026-05-01"
       },
       {
         "id": "moonshotai/kimi-k2",
@@ -108984,7 +111101,7 @@ export const providers: ProviderWithModels[] = [
         "name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
         "created_by": "nvidia",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-01",
         "family": "llama-3.1",
         "description": "NVIDIA's Llama 3.1 Nemotron 70B is a language model designed for generating precise and useful responses.",
         "context_window": 131072,
@@ -109012,7 +111129,9 @@ export const providers: ProviderWithModels[] = [
         "tagline": "NVIDIA's Llama 3.1 Nemotron 70B is a language model designed for generating precise and useful responses.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "status": "deprecated",
+        "deprecation_date": "2026-05-08"
       },
       {
         "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
@@ -109147,6 +111266,39 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 228000
       },
       {
+        "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+        "created_by": "nvidia",
+        "source": "official",
+        "description": "NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception and context sub-agent in enterprise agent systems.",
+        "release_date": "2026-04-28",
+        "context_window": 256000,
+        "max_output_tokens": 65536,
+        "parameters": 30,
+        "active_parameters": 3,
+        "model_type": "reasoning",
+        "tagline": "NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception and context sub-agent in enterprise agent systems.",
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "nvidia/nemotron-3-super-120b-a12b:free",
         "name": "NVIDIA: Nemotron 3 Super (free)",
         "created_by": "nvidia",
@@ -109250,7 +111402,7 @@ export const providers: ProviderWithModels[] = [
         "name": "NVIDIA: Nemotron Nano 12B 2 VL",
         "created_by": "nvidia",
         "source": "official",
-        "last_updated": "2026-04-25",
+        "last_updated": "2026-05-01",
         "description": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence.",
         "context_window": 131072,
         "modalities": {
@@ -109276,7 +111428,9 @@ export const providers: ProviderWithModels[] = [
         "parameters": 12,
         "release_date": "2025-10-28",
         "tagline": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence.",
-        "max_output_tokens": 16384
+        "max_output_tokens": 16384,
+        "status": "deprecated",
+        "deprecation_date": "2026-05-07"
       },
       {
         "id": "nvidia/nemotron-nano-9b-v2:free",
@@ -111452,7 +113606,7 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: gpt-oss-120b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-25",
+        "last_updated": "2026-05-01",
         "family": "gpt-oss",
         "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases.",
         "context_window": 131072,
@@ -111476,7 +113630,7 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.039,
-          "output": 0.19
+          "output": 0.18
         },
         "model_type": "chat",
         "parameters": 120,
@@ -112128,6 +114282,34 @@ export const providers: ProviderWithModels[] = [
         ]
       },
       {
+        "id": "openrouter/owl-alpha",
+        "name": "Owl Alpha",
+        "created_by": "openrouter",
+        "source": "official",
+        "description": "Owl Alpha is a high-performance foundation model designed for agentic workloads.",
+        "release_date": "2026-04-28",
+        "context_window": 1048756,
+        "max_output_tokens": 262144,
+        "tagline": "Owl Alpha is a high-performance foundation model designed for agentic workloads.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "openrouter/pareto-code",
         "name": "Pareto Code Router",
         "created_by": "openrouter",
@@ -112287,6 +114469,60 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "release_date": "2025-01-27",
         "tagline": "Sonar is lightweight, affordable, fast, and simple to use — now featuring citations and the ability to customize sources."
+      },
+      {
+        "id": "poolside/laguna-m.1:free",
+        "name": "Poolside: Laguna M.1 (free)",
+        "created_by": "poolside",
+        "source": "official",
+        "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for complex software engineering tasks.",
+        "release_date": "2026-04-28",
+        "context_window": 131072,
+        "max_output_tokens": 8192,
+        "tagline": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for complex software engineering tasks.",
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "poolside/laguna-xs.2:free",
+        "name": "Poolside: Laguna XS.2 (free)",
+        "created_by": "poolside",
+        "source": "official",
+        "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai), their efficient coding agent series.",
+        "release_date": "2026-04-28",
+        "context_window": 131072,
+        "max_output_tokens": 8192,
+        "tagline": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai), their efficient coding agent series.",
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "prime-intellect/intellect-3",
@@ -113430,7 +115666,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 Coder Next",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-25",
+        "last_updated": "2026-05-01",
         "family": "qwen3",
         "description": "Qwen3-Coder-Next is an open-weight causal language model optimized for coding agents and local development workflows.",
         "context_window": 262144,
@@ -113451,9 +115687,9 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.14,
+          "input": 0.12,
           "output": 0.8,
-          "cached_input": 0.09
+          "cached_input": 0.07
         },
         "model_type": "code",
         "release_date": "2026-02-04",
@@ -114307,6 +116543,249 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ]
+      },
+      {
+        "id": "qwen/qwen3.5-plus-20260420",
+        "name": "Qwen: Qwen3.5 Plus 2026-04-20",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3.5",
+        "description": "Qwen3.5 Plus (April 2026) is a large-scale multimodal language model from Alibaba.",
+        "release_date": "2026-04-27",
+        "context_window": 1000000,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "alias": "qwen/qwen3.5-plus",
+        "tagline": "Qwen3.5 Plus (April 2026) is a large-scale multimodal language model from Alibaba.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 2.4
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "qwen/qwen3.5-plus",
+        "name": "Qwen: Qwen3.5 Plus 2026-04-20",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3.5",
+        "description": "Qwen3.5 Plus (April 2026) is a large-scale multimodal language model from Alibaba.",
+        "release_date": "2026-04-27",
+        "context_window": 1000000,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "tagline": "Qwen3.5 Plus (April 2026) is a large-scale multimodal language model from Alibaba.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 2.4
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "snapshots": [
+          "qwen/qwen3.5-plus-20260420"
+        ],
+        "last_updated": "2026-05-01",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "qwen/qwen3.6-27b",
+        "name": "Qwen: Qwen3.6 27B",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3.6",
+        "description": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026.",
+        "release_date": "2026-04-27",
+        "context_window": 256000,
+        "max_output_tokens": 65536,
+        "parameters": 27,
+        "model_type": "chat",
+        "tagline": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.325,
+          "output": 3.25
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01",
+        "license": "apache-2.0",
+        "open_weight": true
+      },
+      {
+        "id": "qwen/qwen3.6-35b-a3b",
+        "name": "Qwen: Qwen3.6 35B A3B",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3.6",
+        "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token.",
+        "release_date": "2026-04-27",
+        "context_window": 262144,
+        "max_output_tokens": 65536,
+        "parameters": 35,
+        "active_parameters": 3,
+        "model_type": "chat",
+        "tagline": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token.",
+        "capabilities": {
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.161,
+          "output": 0.965,
+          "cached_input": 0.161
+        },
+        "last_updated": "2026-05-01",
+        "license": "apache-2.0",
+        "open_weight": true
+      },
+      {
+        "id": "qwen/qwen3.6-flash",
+        "name": "Qwen: Qwen3.6 Flash",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3.6",
+        "description": "Qwen3.6 Flash is a fast, efficient language model from Alibaba's Qwen 3.6 series.",
+        "release_date": "2026-04-27",
+        "context_window": 1000000,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "tagline": "Qwen3.6 Flash is a fast, efficient language model from Alibaba's Qwen 3.6 series.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01",
+        "license": "apache-2.0",
+        "open_weight": true
+      },
+      {
+        "id": "qwen/qwen3.6-max-preview",
+        "name": "Qwen: Qwen3.6 Max Preview",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3.6",
+        "description": "Qwen3.6-Max-Preview is a proprietary frontier model from Alibaba Cloud built on a sparse mixture-of-experts architecture with approximately 1 trillion total parameters.",
+        "release_date": "2026-04-27",
+        "context_window": 262144,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "tagline": "Qwen3.6-Max-Preview is a proprietary frontier model from Alibaba Cloud built on a sparse mixture-of-experts architecture with approximately 1 trillion total parameters.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.04,
+          "output": 6.24
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01",
+        "license": "apache-2.0",
+        "open_weight": true
       },
       {
         "id": "qwen/qwen3.6-plus:free",
@@ -115501,14 +117980,56 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 2,
-          "output": 6,
+          "input": 1.25,
+          "output": 2.5,
           "cached_input": 0.2
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-01"
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "x-ai/grok-4.3",
+        "name": "xAI: Grok 4.3",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-4.3",
+        "description": "Grok 4.3 is a reasoning model from xAI.",
+        "release_date": "2026-04-30",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "tagline": "Grok 4.3 is a reasoning model from xAI.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true,
+          "batch": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 2.5,
+          "cached_input": 0.2
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01",
+        "knowledge_cutoff": "2024-11",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "x-ai/grok-4",
@@ -116943,6 +119464,80 @@ export const providers: ProviderWithModels[] = [
         "knowledge_cutoff": "2025-08"
       },
       {
+        "id": "openai/gpt-5.5",
+        "name": "openai/gpt-5.5",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.5",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "reasoning": true,
+          "batch": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cached_input": 0.5
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-01",
+        "description": "GPT-5.5 is our newest frontier model for the most complex professional work.",
+        "tagline": "A new class of intelligence for coding and professional work.",
+        "context_window": 1050000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-12"
+      },
+      {
+        "id": "openai/gpt-5",
+        "name": "openai/gpt-5",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "batch": true
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-01",
+        "description": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.",
+        "tagline": "Previous intelligent reasoning model for coding and agentic tasks with configurable reasoning effort",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "max_input_tokens": 272000,
+        "knowledge_cutoff": "2024-09"
+      },
+      {
         "id": "perplexity/sonar",
         "name": "perplexity/sonar",
         "created_by": "perplexity",
@@ -117143,6 +119738,33 @@ export const providers: ProviderWithModels[] = [
         },
         "context_window": 2000000,
         "knowledge_cutoff": "2024-11"
+      },
+      {
+        "id": "xai/grok-4.20-reasoning",
+        "name": "xai/grok-4.20-reasoning",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-4.20",
+        "license": "proprietary",
+        "model_type": "reasoning",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 2,
+          "output": 6,
+          "cached_input": 0.2
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-01"
       }
     ]
   },
@@ -123295,6 +125917,22 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://www.together.ai/models/nano-banana-pro"
       },
       {
+        "id": "s/nvidia-nemotron-3-nano-omni",
+        "name": "Nvidia Nemotron 3 Nano Omni",
+        "created_by": "nvidia",
+        "source": "official",
+        "context_window": 256000,
+        "page_url": "https://www.together.ai/models/nvidia-nemotron-3-nano-omni",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1.2,
+          "output": 4.5
+        },
+        "last_updated": "2026-05-01"
+      },
+      {
         "id": "s/nvidia-nemotron-3-super",
         "name": "Nvidia Nemotron 3 Super",
         "created_by": "nvidia",
@@ -123423,6 +126061,31 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 65536,
         "license": "apache-2.0",
         "open_weight": true
+      },
+      {
+        "id": "s/qwen36-plus",
+        "name": "Qwen36 Plus",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen36",
+        "page_url": "https://www.together.ai/models/qwen36-plus",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 3
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-01"
       },
       {
         "id": "s/rime-arcana-v3",
@@ -124073,19 +126736,57 @@ export const providers: ProviderWithModels[] = [
         "license": "apache-2.0"
       },
       {
+        "id": "alibaba/qwen3-vl-235b-a22b-instruct",
+        "name": "qwen3-vl-235b-a22b-instruct",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3",
+        "context_window": 262100,
+        "model_type": "chat",
+        "parameters": 235,
+        "active_parameters": 22,
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 0.88
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01",
+        "description": "Alibaba Cloud's open-source Qwen-VL edition. [Usage](https://www.alibabacloud.com/help/en/document_detail/2845871.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html#15ef0a40798a3) Compared to Qwen2.5-VL, Qwen3-VL delivers major improvements in model capabilities: * **Agent interaction:** Operates computer or mobile interfaces. Detects GUI elements, understands functions, and calls tools to complete tasks. Achieves top-tier performance on benchmarks such as OS World. * **Visual coding:** Generates code from images or videos. Converts design mockups and website screenshots into HTML, CSS, and JavaScript code. * **Spatial intelligence:** Supports 2D and 3D localization, and accurately determines object position, viewpoint changes, and occlusion relationships. * **Long-video understanding:** Understands videos up to 20 minutes in length and pinpoints moments down to the second. * **Deep thinking:** Performs deep reasoning. Excels at spotting fine details and analyzing cause-and-effect relationships. Achieves top-tier performance on benchmarks such as MathVista and MMMU. * **OCR:** Supports 33 languages. Delivers stable performance under challenging conditions such as low light, blur, and skew. Significantly improves accuracy for rare characters, ancient script, and domain-specific terms. **Languages supported** Qwen-VL supports 33 languages: Chinese, Japanese, Korean, Indonesian, Vietnamese, Thai, English, French, German, Russian, Portuguese, Spanish, Italian, Swedish, Danish, Czech, Norwegian, Dutch, Finnish, Türkçe, Polish, Swahili, Romanian, Serbian, Greek, Kazakh, Uzbek, Cebuano, Arabic, Urdu, Persian, Hindi/Devanagari, and Hebrew. #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
+        "tagline": "The Qwen-VL open-source model from Alibaba Cloud.",
+        "license": "apache-2.0",
+        "open_weight": true
+      },
+      {
         "id": "alibaba/qwen3-vl-instruct",
         "name": "qwen3-vl-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-05-01",
         "family": "qwen3",
-        "context_window": 256000,
+        "context_window": 262100,
         "capabilities": {
           "streaming": true,
           "vision": true
         },
         "pricing": {
-          "input": 0.22,
+          "input": 0.2,
           "output": 0.88
         },
         "model_type": "chat",
@@ -124200,6 +126901,41 @@ export const providers: ProviderWithModels[] = [
         "tagline": "A balanced model with inference performance, cost, and speed between Qwen-Max and Qwen-Flash, ideal for moderately complex tasks.",
         "license": "proprietary",
         "open_weight": false
+      },
+      {
+        "id": "alibaba/qwen3.6-27b",
+        "name": "qwen3.6-27b",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3.6",
+        "context_window": 256000,
+        "model_type": "chat",
+        "parameters": 27,
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "pricing": {
+          "input": 0.6,
+          "output": 3.6
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01",
+        "license": "apache-2.0",
+        "open_weight": true
       },
       {
         "id": "alibaba/qwen3.6-plus",
@@ -125699,13 +128435,14 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-v3.2-thinking",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-01",
         "family": "deepseek",
-        "context_window": 128000,
+        "context_window": 163800,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
-          "reasoning": true
+          "reasoning": true,
+          "vision": true
         },
         "pricing": {
           "input": 0.28,
@@ -125729,12 +128466,14 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-v3.2",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-01",
         "family": "deepseek",
         "context_window": 163800,
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
         },
         "pricing": {
           "input": 0.28,
@@ -125828,8 +128567,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 1.74,
-          "output": 3.48
+          "input": 0.43,
+          "output": 0.87
         },
         "modalities": {
           "input": [
@@ -125842,7 +128581,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-25",
+        "last_updated": "2026-05-01",
         "description": "DeepSeek-V3.2 in non-thinking mode. Best for general chat, code, and tool use.",
         "tagline": "DeepSeek-V3.2 in non-thinking mode.",
         "license": "mit",
@@ -126721,6 +129460,31 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "interfaze/interfaze-beta",
+        "name": "interfaze-beta",
+        "created_by": "interfaze",
+        "source": "official",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 3.5
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-01"
       },
       {
         "id": "klingai/kling-v2.5-turbo-i2v",
@@ -128221,7 +130985,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "moonshot",
         "source": "official",
         "family": "kimi-k2.6",
-        "context_window": 262000,
+        "context_window": 262100,
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -128244,7 +131008,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-21"
+        "last_updated": "2026-05-01"
       },
       {
         "id": "moonshotai/kimi-k2",
@@ -131191,6 +133955,43 @@ export const providers: ProviderWithModels[] = [
         ]
       },
       {
+        "id": "xai/grok-4.3",
+        "name": "grok-4.3",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-4.3",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true,
+          "batch": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 2.5
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01",
+        "knowledge_cutoff": "2024-11",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
         "id": "xai/grok-4",
         "name": "grok-4",
         "created_by": "xai",
@@ -131429,6 +134230,68 @@ export const providers: ProviderWithModels[] = [
         "active_parameters": 42,
         "architecture": "moe",
         "open_weight": false
+      },
+      {
+        "id": "xiaomi/mimo-v2.5-pro",
+        "name": "mimo-v2.5-pro",
+        "created_by": "xiaomi",
+        "source": "official",
+        "family": "mimo",
+        "context_window": 1100000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 3
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
+      },
+      {
+        "id": "xiaomi/mimo-v2.5",
+        "name": "mimo-v2.5",
+        "created_by": "xiaomi",
+        "source": "official",
+        "family": "mimo",
+        "context_window": 1100000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 2
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "zai/glm-4.5-air",
@@ -131739,7 +134602,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "zhipu",
         "source": "official",
         "family": "glm-5.1",
-        "context_window": 202800,
+        "context_window": 204800,
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -131761,7 +134624,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-08"
+        "last_updated": "2026-05-01"
       },
       {
         "id": "zai/glm-5",
@@ -134699,8 +137562,8 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-robotics-er-1.5-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-24",
-        "status": "active",
+        "last_updated": "2026-05-01",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -134736,7 +137599,9 @@ export const providers: ProviderWithModels[] = [
         "family": "gemini-1.5",
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "deprecation_date": "2026-04-30",
+        "successor": "gemini-robotics-er-1.6-preview"
       },
       {
         "id": "gemini-robotics-er-1.6-preview",
@@ -134746,7 +137611,7 @@ export const providers: ProviderWithModels[] = [
         "family": "gemini-1.6",
         "status": "active",
         "knowledge_cutoff": "2025-01",
-        "context_window": 1048576,
+        "context_window": 131072,
         "max_output_tokens": 65536,
         "model_type": "chat",
         "license": "proprietary",
@@ -134780,7 +137645,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-04-16"
+        "last_updated": "2026-05-01"
       },
       {
         "id": "imagen-3.0-generate-002",
@@ -136085,7 +138950,7 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4.20-0309-non-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-05-01",
         "release_date": "2026-03-09",
         "capabilities": {
           "streaming": true,
@@ -136107,8 +138972,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 2,
-          "output": 6,
+          "input": 1.25,
+          "output": 2.5,
           "cached_input": 0.2
         },
         "model_type": "chat",
@@ -136125,7 +138990,7 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4.20-0309-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-05-01",
         "release_date": "2026-03-09",
         "capabilities": {
           "streaming": true,
@@ -136149,8 +139014,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 2,
-          "output": 6,
+          "input": 1.25,
+          "output": 2.5,
           "cached_input": 0.2
         },
         "model_type": "reasoning",
@@ -136167,7 +139032,7 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4.20-multi-agent-0309",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-05-01",
         "release_date": "2026-03-09",
         "capabilities": {
           "streaming": true,
@@ -136191,8 +139056,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 2,
-          "output": 6,
+          "input": 1.25,
+          "output": 2.5,
           "cached_input": 0.2
         },
         "model_type": "chat",
@@ -136203,6 +139068,47 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "knowledge_cutoff": "2024-11"
+      },
+      {
+        "id": "grok-4.3",
+        "name": "grok-4.3",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-4.3",
+        "knowledge_cutoff": "2024-11",
+        "context_window": 1000000,
+        "reasoning_tokens": true,
+        "license": "proprietary",
+        "page_url": "https://docs.x.ai/developers/models/grok-4.3",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "batch": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 2.5,
+          "cached_input": 0.2
+        },
+        "open_weight": false,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-01"
       },
       {
         "id": "grok-code-fast-1",

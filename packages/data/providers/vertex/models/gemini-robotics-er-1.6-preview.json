@@ -6,7 +6,7 @@
   "family": "gemini-1.6",
   "status": "active",
   "knowledge_cutoff": "2025-01",
-  "context_window": 1048576,
+  "context_window": 131072,
   "max_output_tokens": 65536,
   "model_type": "chat",
   "license": "proprietary",
@@ -31,7 +31,7 @@
     "family": "79f242e9",
     "status": "379ac110",
     "knowledge_cutoff": "3f358a56",
-    "context_window": "7d28a051",
+    "context_window": "f7de594e",
     "max_output_tokens": "297ce0b3",
     "model_type": "d669f408",
     "license": "9186c466",
@@ -41,5 +41,5 @@
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
   },
-  "last_updated": "2026-04-16"
+  "last_updated": "2026-05-01"
 }

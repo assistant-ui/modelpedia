@@ -1,0 +1,40 @@
+{
+  "id": "laguna-xs.2",
+  "name": "laguna-xs.2",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "Laguna XS.2 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine.",
+  "context_window": 131072,
+  "reasoning_tokens": true,
+  "license": "apache-2.0",
+  "parameters": 33,
+  "page_url": "https://ollama.com/library/laguna-xs.2",
+  "open_weight": true,
+  "tagline": "Laguna XS.2 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9391d52e",
+    "description": "64e8d45f",
+    "context_window": "f7de594e",
+    "reasoning_tokens": "b326b506",
+    "license": "60245731",
+    "parameters": "182be0c5",
+    "page_url": "b4098435",
+    "open_weight": "b326b506",
+    "tagline": "64e8d45f",
+    "capabilities": "4043afaa",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

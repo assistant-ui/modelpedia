@@ -1,0 +1,23 @@
+{
+  "id": "o3-deep-research",
+  "name": "o3-deep-research",
+  "created_by": "openai",
+  "source": "official",
+  "family": "o3",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "6204a974",
+    "family": "193049bc",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-05-01"
+}

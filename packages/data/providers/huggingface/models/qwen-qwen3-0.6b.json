@@ -1,0 +1,39 @@
+{
+  "id": "Qwen/Qwen3-0.6B",
+  "name": "Qwen3-0.6B",
+  "created_by": "qwen",
+  "source": "official",
+  "release_date": "2025-04-27",
+  "context_window": 40960,
+  "license": "apache-2.0",
+  "parameters": 0.75,
+  "page_url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "4b3085c3",
+    "release_date": "59488f52",
+    "context_window": "a422a18c",
+    "license": "60245731",
+    "parameters": "4c8d9ac7",
+    "page_url": "cad187dd",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

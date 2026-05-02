@@ -1,0 +1,43 @@
+{
+  "id": "Qwen/Qwen3Guard-Gen-0.6B",
+  "name": "Qwen3Guard-Gen-0.6B",
+  "created_by": "qwen",
+  "source": "official",
+  "description": "**Qwen3Guard** is a series of safety moderation models built upon Qwen3 and trained on a dataset of 1.19 million prompts and responses labeled for safety. The series includes models of three sizes (0.6B, 4B, and 8B) and features two specialized variants: **Qwen3Guard-Gen**, a generative model that frames safety classification as an instruction-following task, and **Qwen3Guard-Stream**, which incorporates a token-level classification head for real-time safety monitoring during incremental text ge…",
+  "release_date": "2025-09-23",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "parameters": 0.75,
+  "page_url": "https://huggingface.co/Qwen/Qwen3Guard-Gen-0.6B",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "**Qwen3Guard** is a series of safety moderation models built upon Qwen3 and trained on a dataset of 1.19 million prompts and responses labeled for safety.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "4042cb3a",
+    "description": "2416f438",
+    "release_date": "142ddad6",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "parameters": "4c8d9ac7",
+    "page_url": "dd5095d6",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "e956828b",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

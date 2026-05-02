@@ -1,0 +1,37 @@
+{
+  "id": "mistralai/Mistral-7B-Instruct-v0.1",
+  "name": "Mistral-7B-Instruct-v0.1",
+  "created_by": "mistral",
+  "source": "official",
+  "release_date": "2023-09-27",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "page_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9d287ca1",
+    "release_date": "59673bec",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "page_url": "1f61920f",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

@@ -6,7 +6,7 @@
   "family": "gemini-1.6",
   "status": "active",
   "knowledge_cutoff": "2025-01",
-  "context_window": 1048576,
+  "context_window": 131072,
   "max_output_tokens": 65536,
   "license": "proprietary",
   "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview",
@@ -32,7 +32,7 @@
     "family": "79f242e9",
     "status": "379ac110",
     "knowledge_cutoff": "3f358a56",
-    "context_window": "7d28a051",
+    "context_window": "f7de594e",
     "max_output_tokens": "297ce0b3",
     "license": "9186c466",
     "page_url": "c239a250",
@@ -43,5 +43,5 @@
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
   },
-  "last_updated": "2026-04-16"
+  "last_updated": "2026-05-01"
 }

@@ -1,0 +1,43 @@
+{
+  "id": "lmstudio-community/Qwen3-1.7B-MLX-bf16",
+  "name": "Qwen3-1.7B-MLX-bf16",
+  "created_by": "lmstudio-community",
+  "source": "official",
+  "description": "This model [lmstudio-community/Qwen3-1.7B-MLX-bf16](https://huggingface.co/lmstudio-community/Qwen3-1.7B-MLX-bf16) was converted to MLX format from [Qwen/Qwen3-1.7B](https://huggingface.co/Qwen/Qwen3-1.7B) using mlx-lm version **0.24.0**.",
+  "release_date": "2025-04-28",
+  "context_window": 40960,
+  "license": "apache-2.0",
+  "parameters": 1.7,
+  "page_url": "https://huggingface.co/lmstudio-community/Qwen3-1.7B-MLX-bf16",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "This model [lmstudio-community/Qwen3-1.7B-MLX-bf16](https://huggingface.co/lmstudio-community/Qwen3-1.7B-MLX-bf16) was converted to MLX format from [Qwen/Qwen3-1.7B](https://huggingface.co/Qwen/Qwen3-",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "25e6e568",
+    "description": "ce4718d4",
+    "release_date": "1487959c",
+    "context_window": "a422a18c",
+    "license": "60245731",
+    "parameters": "7fd3cdaa",
+    "page_url": "48f30cba",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "c9be6497",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

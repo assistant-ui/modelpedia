@@ -1,0 +1,29 @@
+{
+  "id": "interfaze/interfaze-beta",
+  "name": "interfaze-beta",
+  "created_by": "interfaze",
+  "source": "official",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1.5,
+    "output": 3.5
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "39ca3e4d",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "b011c6b4",
+    "pricing": "c2407bf5",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-05-01"
+}

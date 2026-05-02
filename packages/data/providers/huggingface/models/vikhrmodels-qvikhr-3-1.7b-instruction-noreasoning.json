@@ -1,0 +1,43 @@
+{
+  "id": "Vikhrmodels/QVikhr-3-1.7B-Instruction-noreasoning",
+  "name": "QVikhr-3-1.7B-Instruction-noreasoning",
+  "created_by": "vikhrmodels",
+  "source": "official",
+  "description": "--- library_name: transformers model_name: QVikhr-3-1.7B-Instruction-noreasoning base_model: - Qwen/Qwen3-1.7B language: - ru - en license: apache-2.0 datasets: - Vikhrmodels/GrandMaster2 ---",
+  "release_date": "2025-05-29",
+  "context_window": 40960,
+  "license": "apache-2.0",
+  "parameters": 1.7,
+  "page_url": "https://huggingface.co/Vikhrmodels/QVikhr-3-1.7B-Instruction-noreasoning",
+  "architecture": "transformer",
+  "model_type": "reasoning",
+  "tagline": "--- library_name: transformers model_name: QVikhr-3-1.7B-Instruction-noreasoning base_model: - Qwen/Qwen3-1.7B language: - ru - en license: apache-2.0 datasets: - Vikhrmodels/GrandMaster2 ---",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "395148b3",
+    "description": "3b43aded",
+    "release_date": "b2e64734",
+    "context_window": "a422a18c",
+    "license": "60245731",
+    "parameters": "7fd3cdaa",
+    "page_url": "b1030d6b",
+    "architecture": "8832ea0f",
+    "model_type": "17475f7f",
+    "tagline": "3b43aded",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

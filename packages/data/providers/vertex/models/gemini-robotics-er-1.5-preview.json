@@ -3,8 +3,8 @@
   "name": "gemini-robotics-er-1.5-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-24",
-  "status": "active",
+  "last_updated": "2026-05-01",
+  "status": "deprecated",
   "knowledge_cutoff": "2025-01",
   "context_window": 1048576,
   "max_output_tokens": 65536,
@@ -25,7 +25,7 @@
   "endpoints": ["generateContent", "streamGenerateContent"],
   "_generated": {
     "name": "3e509436",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "3f358a56",
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
@@ -36,10 +36,14 @@
     "family": "f1d42d7a",
     "model_type": "d669f408",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "a53a2b69",
+    "successor": "f30b3535"
   },
   "family": "gemini-1.5",
   "model_type": "chat",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-04-30",
+  "successor": "gemini-robotics-er-1.6-preview"
 }

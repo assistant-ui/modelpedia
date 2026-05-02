@@ -1,0 +1,42 @@
+{
+  "id": "deepseek-v4-pro",
+  "name": "deepseek-v4-pro",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "DeepSeek-V4-Pro is a frontier Mixture-of-Experts model with a 1M-token context window and three reasoning modes.",
+  "release_date": "2026-04-24",
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "page_url": "https://ollama.com/library/deepseek-v4-pro",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "DeepSeek-V4-Pro is a frontier Mixture-of-Experts model with a 1M-token context window and three reasoning modes.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ddde4e2b",
+    "family": "4b81b92d",
+    "description": "50a28dff",
+    "release_date": "173d2bb2",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "page_url": "6004cfe6",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "50a28dff",
+    "capabilities": "4043afaa",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

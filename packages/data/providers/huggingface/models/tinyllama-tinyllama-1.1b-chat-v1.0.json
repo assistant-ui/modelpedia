@@ -1,0 +1,32 @@
+{
+  "id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "name": "TinyLlama-1.1B-Chat-v1.0",
+  "created_by": "tinyllama",
+  "source": "official",
+  "release_date": "2023-12-30",
+  "context_window": 2048,
+  "license": "apache-2.0",
+  "parameters": 1.1,
+  "page_url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "architecture": "transformer",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "475fd0e6",
+    "release_date": "e2f9c156",
+    "context_window": "05192834",
+    "license": "60245731",
+    "parameters": "777d45bb",
+    "page_url": "97e001a7",
+    "architecture": "8832ea0f",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

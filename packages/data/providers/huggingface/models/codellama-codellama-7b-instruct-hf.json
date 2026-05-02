@@ -1,0 +1,45 @@
+{
+  "id": "codellama/CodeLlama-7b-Instruct-hf",
+  "name": "CodeLlama-7b-Instruct-hf",
+  "created_by": "codellama",
+  "source": "official",
+  "family": "codellama",
+  "description": "Code Llama is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 34 billion parameters. This is the repository for the 7B instruct-tuned version in the Hugging Face Transformers format. This model is designed for general code synthesis and understanding. Links to other models can be found in the index at the bottom.",
+  "release_date": "2023-08-24",
+  "context_window": 16384,
+  "license": "llama2",
+  "parameters": 6.7,
+  "page_url": "https://huggingface.co/codellama/CodeLlama-7b-Instruct-hf",
+  "architecture": "transformer",
+  "model_type": "code",
+  "tagline": "Code Llama is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 34 billion parameters.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e18b3d3d",
+    "family": "cf323e30",
+    "description": "15f1b6d6",
+    "release_date": "cab99de6",
+    "context_window": "c76fe1d8",
+    "license": "5e554d0d",
+    "parameters": "c3e22f2a",
+    "page_url": "9ca107c1",
+    "architecture": "8832ea0f",
+    "model_type": "b6cc3ff4",
+    "tagline": "c38316dd",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

@@ -10,7 +10,8 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "vision": true
+    "vision": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text"],
@@ -23,9 +24,9 @@
     "status": "379ac110",
     "model_type": "d669f408",
     "page_url": "4531ebbd",
-    "capabilities": "1a260abc",
+    "capabilities": "7ca28ec9",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-21"
+  "last_updated": "2026-05-01"
 }

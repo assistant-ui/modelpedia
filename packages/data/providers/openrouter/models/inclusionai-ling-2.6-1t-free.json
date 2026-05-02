@@ -6,7 +6,7 @@
   "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale.",
   "status": "deprecated",
   "release_date": "2026-04-23",
-  "deprecation_date": "2026-04-30",
+  "deprecation_date": "2026-05-07",
   "context_window": 262144,
   "max_output_tokens": 32768,
   "tagline": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale.",
@@ -25,7 +25,7 @@
     "description": "e0371d4b",
     "status": "2e2f74dc",
     "release_date": "a87679d0",
-    "deprecation_date": "a53a2b69",
+    "deprecation_date": "d465a48a",
     "context_window": "4a1d32eb",
     "max_output_tokens": "f4376436",
     "tagline": "e0371d4b",
@@ -33,5 +33,5 @@
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-24"
+  "last_updated": "2026-05-01"
 }

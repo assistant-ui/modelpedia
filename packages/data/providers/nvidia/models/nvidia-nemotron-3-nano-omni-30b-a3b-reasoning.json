@@ -1,0 +1,29 @@
+{
+  "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "name": "nemotron-3-nano-omni-30b-a3b-reasoning",
+  "created_by": "nvidia",
+  "source": "official",
+  "parameters": 30,
+  "active_parameters": 3,
+  "model_type": "reasoning",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "aa3c705d",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "model_type": "17475f7f",
+    "capabilities": "a281e83a",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ricdomolm/mini-coder-1.7b",
+  "name": "mini-coder-1.7b",
+  "created_by": "ricdomolm",
+  "source": "official",
+  "description": "`mini-coder-1.7b` is a 1.7B parameter model distilled from Qwen 3 Coder 30B A3B. It punches well above its weight, outperforming SWE-agent-LM 7B on [SWE-bench Verified Bash only](https://www.swebench.com/):",
+  "release_date": "2025-09-30",
+  "context_window": 40960,
+  "license": "mit",
+  "parameters": 1.7,
+  "page_url": "https://huggingface.co/ricdomolm/mini-coder-1.7b",
+  "architecture": "transformer",
+  "tagline": "`mini-coder-1.7b` is a 1.7B parameter model distilled from Qwen 3 Coder 30B A3B.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "495904bb",
+    "description": "2bdd28c7",
+    "release_date": "4d697c88",
+    "context_window": "a422a18c",
+    "license": "3c4c3ba5",
+    "parameters": "7fd3cdaa",
+    "page_url": "685dd8a8",
+    "architecture": "8832ea0f",
+    "tagline": "6bf40114",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

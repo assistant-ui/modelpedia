@@ -1,0 +1,44 @@
+{
+  "id": "~anthropic/claude-sonnet-latest",
+  "name": "Anthropic Claude Sonnet Latest",
+  "created_by": "~anthropic",
+  "source": "official",
+  "family": "claude-sonnet",
+  "description": "This model always redirects to the latest model in the Anthropic Claude Sonnet family.",
+  "release_date": "2026-04-27",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "This model always redirects to the latest model in the Anthropic Claude Sonnet family.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.3
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e4ad7b08",
+    "family": "68d1c457",
+    "description": "adf859bb",
+    "release_date": "79a25cd1",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "adf859bb",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "0deaf3da",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

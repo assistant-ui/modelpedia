@@ -1,0 +1,42 @@
+{
+  "id": "~google/gemini-flash-latest",
+  "name": "Google Gemini Flash Latest",
+  "created_by": "~google",
+  "source": "official",
+  "description": "This model always redirects to the latest model in the Google Gemini Flash family.",
+  "release_date": "2026-04-27",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "This model always redirects to the latest model in the Google Gemini Flash family.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 3,
+    "cached_input": 0.05
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "5f8640d7",
+    "description": "f2602b58",
+    "release_date": "79a25cd1",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "f2602b58",
+    "capabilities": "03fbefb4",
+    "modalities": "0843b982",
+    "pricing": "a1f79f3d",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

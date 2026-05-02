@@ -1,0 +1,39 @@
+{
+  "id": "0xgr3y/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-tall_tame_panther",
+  "name": "Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-tall_tame_panther",
+  "created_by": "0xgr3y",
+  "source": "official",
+  "release_date": "2025-11-13",
+  "context_window": 32768,
+  "license": "mit",
+  "parameters": 0.49,
+  "page_url": "https://huggingface.co/0xgr3y/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-tall_tame_panther",
+  "architecture": "transformer",
+  "model_type": "code",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "4051c098",
+    "release_date": "c4b1d0fd",
+    "context_window": "f4376436",
+    "license": "3c4c3ba5",
+    "parameters": "ab012729",
+    "page_url": "bd5d4a87",
+    "architecture": "8832ea0f",
+    "model_type": "b6cc3ff4",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

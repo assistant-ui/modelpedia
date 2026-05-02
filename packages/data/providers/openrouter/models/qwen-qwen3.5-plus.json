@@ -1,0 +1,44 @@
+{
+  "id": "qwen/qwen3.5-plus",
+  "name": "Qwen: Qwen3.5 Plus 2026-04-20",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.5",
+  "description": "Qwen3.5 Plus (April 2026) is a large-scale multimodal language model from Alibaba.",
+  "release_date": "2026-04-27",
+  "context_window": 1000000,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "Qwen3.5 Plus (April 2026) is a large-scale multimodal language model from Alibaba.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.4,
+    "output": 2.4
+  },
+  "tools": ["function_calling"],
+  "snapshots": ["qwen/qwen3.5-plus-20260420"],
+  "_generated": {
+    "name": "fb6d24d9",
+    "family": "d548f421",
+    "description": "5a19f687",
+    "release_date": "79a25cd1",
+    "context_window": "8155bc54",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "5a19f687",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "pricing": "1dd6c8e1",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "unsloth/gemma-3-1b-it",
+  "name": "gemma-3-1b-it",
+  "created_by": "unsloth",
+  "source": "official",
+  "family": "gemma-3",
+  "description": "- Fine-tune Gemma 3 (12B) for free using our Google [Colab notebook here](https://docs.unsloth.ai/get-started/unsloth-notebooks)! - Read our Blog about Gemma 3 support: [unsloth.ai/blog/gemma3](https://unsloth.ai/blog/gemma3) - View the rest of our notebooks in our [docs here](https://docs.unsloth.ai/get-started/unsloth-notebooks). - Export your fine-tuned model to GGUF, Ollama, llama.cpp or 🤗HF.",
+  "release_date": "2025-03-12",
+  "context_window": 32768,
+  "license": "gemma",
+  "parameters": 1,
+  "page_url": "https://huggingface.co/unsloth/gemma-3-1b-it",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "- Fine-tune Gemma 3 (12B) for free using our Google [Colab notebook here](https://docs.unsloth.ai/get-started/unsloth-notebooks)! - Read our Blog about Gemma 3 support: [unsloth.ai/blog/gemma3](https://unsloth.ai/blog/gemma3) - View the rest of our notebooks in our [docs here](https://docs.unsloth.ai/get-started/unsloth-notebooks).",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b15094e9",
+    "family": "d9e10ad8",
+    "description": "c6835938",
+    "release_date": "826a3ce0",
+    "context_window": "f4376436",
+    "license": "3fe02b16",
+    "parameters": "c4ca4238",
+    "page_url": "c972c1f0",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "10ab0cf9",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

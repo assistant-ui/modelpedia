@@ -1,0 +1,39 @@
+{
+  "id": "Qwen/Qwen2.5-Coder-3B",
+  "name": "Qwen2.5-Coder-3B",
+  "created_by": "qwen",
+  "source": "official",
+  "release_date": "2024-11-08",
+  "context_window": 32768,
+  "license": "other",
+  "parameters": 3.1,
+  "page_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B",
+  "architecture": "transformer",
+  "model_type": "code",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a2486184",
+    "release_date": "978bd618",
+    "context_window": "f4376436",
+    "license": "ddb0b7bc",
+    "parameters": "5b068a95",
+    "page_url": "400a79df",
+    "architecture": "8832ea0f",
+    "model_type": "b6cc3ff4",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

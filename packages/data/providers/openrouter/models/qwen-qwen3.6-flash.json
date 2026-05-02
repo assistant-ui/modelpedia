@@ -1,0 +1,43 @@
+{
+  "id": "qwen/qwen3.6-flash",
+  "name": "Qwen: Qwen3.6 Flash",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.6",
+  "description": "Qwen3.6 Flash is a fast, efficient language model from Alibaba's Qwen 3.6 series.",
+  "release_date": "2026-04-27",
+  "context_window": 1000000,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "Qwen3.6 Flash is a fast, efficient language model from Alibaba's Qwen 3.6 series.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 1.5
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "02fc5de5",
+    "family": "1bc2d26f",
+    "description": "5f497d72",
+    "release_date": "79a25cd1",
+    "context_window": "8155bc54",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "5f497d72",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "pricing": "f6d5b753",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

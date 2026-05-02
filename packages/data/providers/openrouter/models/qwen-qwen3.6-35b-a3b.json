@@ -1,0 +1,45 @@
+{
+  "id": "qwen/qwen3.6-35b-a3b",
+  "name": "Qwen: Qwen3.6 35B A3B",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.6",
+  "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token.",
+  "release_date": "2026-04-27",
+  "context_window": 262144,
+  "max_output_tokens": 65536,
+  "parameters": 35,
+  "active_parameters": 3,
+  "model_type": "chat",
+  "tagline": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token.",
+  "capabilities": {
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.161,
+    "output": 0.965,
+    "cached_input": 0.161
+  },
+  "_generated": {
+    "name": "11f150ff",
+    "family": "1bc2d26f",
+    "description": "bca0a1c1",
+    "release_date": "79a25cd1",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "297ce0b3",
+    "parameters": "1c383cd3",
+    "active_parameters": "eccbc87e",
+    "model_type": "d669f408",
+    "tagline": "bca0a1c1",
+    "capabilities": "d53412cf",
+    "modalities": "3ad4060a",
+    "pricing": "5cce637c"
+  },
+  "last_updated": "2026-05-01"
+}

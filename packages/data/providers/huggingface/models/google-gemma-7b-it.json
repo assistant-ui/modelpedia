@@ -1,0 +1,37 @@
+{
+  "id": "google/gemma-7b-it",
+  "name": "gemma-7b-it",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-7b",
+  "release_date": "2024-02-13",
+  "license": "gemma",
+  "page_url": "https://huggingface.co/google/gemma-7b-it",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "227a312e",
+    "family": "4c956875",
+    "release_date": "056ba89a",
+    "license": "3fe02b16",
+    "page_url": "2447cacd",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-01"
+}

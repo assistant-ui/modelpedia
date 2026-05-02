@@ -1,0 +1,33 @@
+{
+  "id": "openai/gpt-5.5",
+  "name": "openai/gpt-5.5",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.5",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 5,
+    "output": 30,
+    "cached_input": 0.5
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "b62d204b",
+    "family": "7011ad8c",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "d9234945",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-05-01"
+}
