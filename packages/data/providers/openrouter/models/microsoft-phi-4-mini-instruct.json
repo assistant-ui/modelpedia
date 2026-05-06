@@ -1,0 +1,38 @@
+{
+  "id": "microsoft/phi-4-mini-instruct",
+  "name": "Microsoft: Phi 4 Mini Instruct",
+  "created_by": "microsoft",
+  "source": "official",
+  "description": "Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data.",
+  "release_date": "2025-10-17",
+  "context_window": 128000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data.",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.08,
+    "output": 0.35,
+    "cached_input": 0.08
+  },
+  "_generated": {
+    "name": "ea7138f0",
+    "description": "e0293368",
+    "release_date": "a4555a92",
+    "context_window": "34434798",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "e0293368",
+    "capabilities": "dbb5b7fe",
+    "modalities": "68e53d93",
+    "pricing": "6435fa6f"
+  },
+  "last_updated": "2026-05-06"
+}

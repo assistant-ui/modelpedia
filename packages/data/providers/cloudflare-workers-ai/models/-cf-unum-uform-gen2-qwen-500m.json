@@ -3,7 +3,7 @@
   "name": "uform-gen2-qwen-500m",
   "created_by": "unum",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-06",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -12,13 +12,13 @@
   "_generated": {
     "name": "a4856b00",
     "capabilities": "1a260abc",
-    "status": "379ac110",
+    "status": "127aecde",
     "model_type": "d669f408",
     "page_url": "09a69f8e",
     "tools": "f0c1dc7e",
     "modalities": "68e53d93"
   },
-  "status": "active",
+  "status": "preview",
   "model_type": "chat",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#uform-gen2-qwen-500m",
   "tools": ["function_calling"],
