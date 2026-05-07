@@ -49207,12 +49207,13 @@ export const providers: ProviderWithModels[] = [
         "name": "nova-3",
         "created_by": "deepgram",
         "source": "official",
-        "last_updated": "2026-04-16",
+        "last_updated": "2026-05-06",
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "reasoning": true
         },
-        "status": "preview",
+        "status": "active",
         "model_type": "transcription",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#nova-3",
         "tools": [
@@ -49472,12 +49473,12 @@ export const providers: ProviderWithModels[] = [
         "name": "distilbert-sst-2-int8",
         "created_by": "huggingface",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-06",
         "capabilities": {
           "streaming": true,
           "tool_call": true
         },
-        "status": "active",
+        "status": "preview",
         "model_type": "classification",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#distilbert-sst-2-int8",
         "tools": [
@@ -49544,14 +49545,14 @@ export const providers: ProviderWithModels[] = [
         "name": "llava-1.5-7b-hf",
         "created_by": "llava-hf",
         "source": "official",
-        "last_updated": "2026-04-16",
+        "last_updated": "2026-05-06",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
           "vision": true
         },
         "parameters": 7,
-        "status": "preview",
+        "status": "active",
         "model_type": "chat",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#llava-1.5-7b-hf",
         "tools": [
@@ -49584,11 +49585,13 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-2-7b-chat-fp16",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-06",
         "family": "llama-2",
         "capabilities": {
           "streaming": true,
-          "tool_call": true
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
         },
         "model_type": "chat",
         "parameters": 7,
@@ -50043,12 +50046,12 @@ export const providers: ProviderWithModels[] = [
         "name": "phi-2",
         "created_by": "microsoft",
         "source": "official",
-        "last_updated": "2026-04-16",
+        "last_updated": "2026-05-06",
         "capabilities": {
           "streaming": true,
           "tool_call": true
         },
-        "status": "preview",
+        "status": "active",
         "model_type": "chat",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#phi-2",
         "tools": [
@@ -50739,13 +50742,13 @@ export const providers: ProviderWithModels[] = [
         "name": "uform-gen2-qwen-500m",
         "created_by": "unum",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-06",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
           "vision": true
         },
-        "status": "active",
+        "status": "preview",
         "model_type": "chat",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#uform-gen2-qwen-500m",
         "tools": [
@@ -68090,6 +68093,63 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-07"
       },
       {
+        "id": "fireworks/qwen3p6-27b",
+        "name": "qwen3p6-27b",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3",
+        "context_window": 262100,
+        "parameters": 27,
+        "page_url": "https://fireworks.ai/models/fireworks/qwen3p6-27b",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 1,
+          "cached_input": 1
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-06"
+      },
+      {
+        "id": "fireworks/qwen3p6-35b-a3b",
+        "name": "qwen3p6-35b-a3b",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3",
+        "context_window": 262100,
+        "parameters": 35,
+        "active_parameters": 3,
+        "page_url": "https://fireworks.ai/models/fireworks/qwen3p6-35b-a3b",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 1,
+          "cached_input": 1
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-06"
+      },
+      {
         "id": "fireworks/qwen3p6-plus",
         "name": "qwen3p6-plus",
         "created_by": "qwen",
@@ -68354,6 +68414,23 @@ export const providers: ProviderWithModels[] = [
         },
         "parameters": 7,
         "page_url": "https://fireworks.ai/models/fireworks/toppy-m-7b"
+      },
+      {
+        "id": "fireworks/voyage-4-nano",
+        "name": "voyage-4-nano",
+        "created_by": "fireworks",
+        "source": "official",
+        "context_window": 41000,
+        "page_url": "https://fireworks.ai/models/fireworks/voyage-4-nano",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 1,
+          "cached_input": 1
+        },
+        "last_updated": "2026-05-06"
       },
       {
         "id": "fireworks/whisper-v3-turbo",
@@ -72085,6 +72162,36 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-05-01"
+      },
+      {
+        "id": "deepcogito/cogito-v1-preview-qwen-32B",
+        "name": "cogito-v1-preview-qwen-32B",
+        "created_by": "deepcogito",
+        "source": "official",
+        "release_date": "2025-03-31",
+        "context_window": 131072,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/deepcogito/cogito-v1-preview-qwen-32B",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-06"
       },
       {
         "id": "DeepMount00/Llama-3-8b-Ita",
@@ -76791,6 +76898,38 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-05-01"
+      },
+      {
+        "id": "unsloth/Llama-3.3-70B-Instruct",
+        "name": "Llama-3.3-70B-Instruct",
+        "created_by": "unsloth",
+        "source": "official",
+        "family": "Llama-3.3",
+        "release_date": "2024-12-06",
+        "context_window": 131072,
+        "license": "llama3.3",
+        "parameters": 71,
+        "page_url": "https://huggingface.co/unsloth/Llama-3.3-70B-Instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-06"
       },
       {
         "id": "unsloth/Meta-Llama-3.1-8B-Instruct",
@@ -88177,7 +88316,7 @@ export const providers: ProviderWithModels[] = [
         "name": "devstral-small-2",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-06",
         "family": "devstral",
         "capabilities": {
           "streaming": true,
@@ -88199,8 +88338,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "text"
@@ -89673,6 +89811,111 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/babbage-002",
         "open_weight": false
+      },
+      {
+        "id": "chat-latest",
+        "name": "chat-latest",
+        "created_by": "openai",
+        "source": "official",
+        "description": "chat-latest points to the latest Instant model currently used in ChatGPT.",
+        "status": "active",
+        "knowledge_cutoff": "2025-08",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "max_input_tokens": 272000,
+        "model_type": "chat",
+        "license": "proprietary",
+        "performance": 3,
+        "speed": 3,
+        "tagline": "Latest Instant model used in ChatGPT",
+        "page_url": "https://developers.openai.com/api/docs/models/chat-latest",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "reasoning": false
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cached_input": 0.5,
+          "batch_input": 2.5,
+          "batch_output": 15,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    0.5,
+                    30
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    2.5,
+                    0.25,
+                    15
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    2.5,
+                    0.25,
+                    15
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    12.5,
+                    1.25,
+                    75
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling",
+          "web_search",
+          "file_search",
+          "image_generation",
+          "code_interpreter",
+          "mcp"
+        ],
+        "endpoints": [
+          "responses",
+          "chat_completions"
+        ],
+        "snapshots": [
+          "chat-latest"
+        ],
+        "last_updated": "2026-05-06"
       },
       {
         "id": "chatgpt-4o-latest",
@@ -93495,9 +93738,9 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-4o mini TTS",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-24",
+        "last_updated": "2026-05-06",
         "family": "gpt-4o",
-        "status": "deprecated",
+        "status": "active",
         "model_type": "tts",
         "performance": 4,
         "speed": 4,
@@ -104050,8 +104293,8 @@ export const providers: ProviderWithModels[] = [
         "family": "kimi",
         "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
         "release_date": "2026-04-27",
-        "context_window": 262142,
-        "max_output_tokens": 262142,
+        "context_window": 262144,
+        "max_output_tokens": 16384,
         "model_type": "chat",
         "tagline": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
         "capabilities": {
@@ -104070,14 +104313,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.74,
-          "output": 3.49,
-          "cached_input": 0.14
+          "input": 0.75,
+          "output": 3.5,
+          "cached_input": 0.15
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-06"
       },
       {
         "id": "~openai/gpt-latest",
@@ -104892,11 +105135,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Anthropic: Claude 3.7 Sonnet (thinking)",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-06",
         "family": "claude-sonnet",
         "description": "Claude 3.7 Sonnet is an advanced large language model with improved reasoning, coding, and problem-solving capabilities.",
         "status": "deprecated",
-        "deprecation_date": "2026-05-05",
+        "deprecation_date": "2026-05-11",
         "context_window": 200000,
         "max_output_tokens": 64000,
         "modalities": {
@@ -104929,13 +105172,13 @@ export const providers: ProviderWithModels[] = [
         "name": "Anthropic: Claude 3.7 Sonnet",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-04-12",
+        "last_updated": "2026-05-06",
         "family": "claude-sonnet",
         "description": "Claude 3.7 Sonnet is an advanced large language model with improved reasoning, coding, and problem-solving capabilities.",
         "status": "deprecated",
-        "deprecation_date": "2026-05-05",
+        "deprecation_date": "2026-05-11",
         "context_window": 200000,
-        "max_output_tokens": 128000,
+        "max_output_tokens": 64000,
         "modalities": {
           "input": [
             "text",
@@ -105586,6 +105829,33 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ]
+      },
+      {
+        "id": "baidu/cobuddy:free",
+        "name": "Baidu Qianfan: CoBuddy (free)",
+        "created_by": "baidu",
+        "source": "official",
+        "description": "CoBuddy is a code generation model from Baidu, optimized for coding tasks and AI Agent workflows.",
+        "release_date": "2026-05-06",
+        "context_window": 131072,
+        "max_output_tokens": 65536,
+        "tagline": "CoBuddy is a code generation model from Baidu, optimized for coding tasks and AI Agent workflows.",
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-06"
       },
       {
         "id": "baidu/ernie-4.5-21b-a3b-thinking",
@@ -106376,7 +106646,7 @@ export const providers: ProviderWithModels[] = [
         "name": "DeepSeek: DeepSeek V3.1 Terminus",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-04-25",
+        "last_updated": "2026-05-06",
         "family": "deepseek",
         "description": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language cons",
         "context_window": 163840,
@@ -106396,8 +106666,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.21,
-          "output": 0.79,
+          "input": 0.27,
+          "output": 0.95,
           "cached_input": 0.13
         },
         "release_date": "2025-09-22",
@@ -106648,12 +106918,12 @@ export const providers: ProviderWithModels[] = [
         "name": "Google: Gemini 2.0 Flash",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-05-01",
+        "last_updated": "2026-05-06",
         "family": "gemini-2.0",
         "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5).",
         "status": "deprecated",
         "deprecation_date": "2026-06-01",
-        "context_window": 1000000,
+        "context_window": 1048576,
         "max_output_tokens": 8192,
         "modalities": {
           "input": [
@@ -108945,6 +109215,36 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 16384
       },
       {
+        "id": "microsoft/phi-4-mini-instruct",
+        "name": "Microsoft: Phi 4 Mini Instruct",
+        "created_by": "microsoft",
+        "source": "official",
+        "description": "Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data.",
+        "release_date": "2025-10-17",
+        "context_window": 128000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "tagline": "Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data.",
+        "capabilities": {
+          "structured_output": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.08,
+          "output": 0.35,
+          "cached_input": 0.08
+        },
+        "last_updated": "2026-05-06"
+      },
+      {
         "id": "microsoft/phi-4",
         "name": "Microsoft: Phi 4",
         "created_by": "microsoft",
@@ -109953,6 +110253,41 @@ export const providers: ProviderWithModels[] = [
         "open_weight": true
       },
       {
+        "id": "mistralai/mistral-medium-3-5",
+        "name": "Mistral: Mistral Medium 3.5",
+        "created_by": "mistral",
+        "source": "official",
+        "family": "mistral-medium",
+        "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI.",
+        "release_date": "2026-04-30",
+        "context_window": 262144,
+        "model_type": "chat",
+        "tagline": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 7.5
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-06"
+      },
+      {
         "id": "mistralai/mistral-medium-3.1",
         "name": "Mistral: Mistral Medium 3.1",
         "created_by": "mistral",
@@ -110781,8 +111116,8 @@ export const providers: ProviderWithModels[] = [
         "family": "kimi-k2.6",
         "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration.",
         "release_date": "2026-04-20",
-        "context_window": 262142,
-        "max_output_tokens": 262142,
+        "context_window": 262144,
+        "max_output_tokens": 16384,
         "model_type": "chat",
         "tagline": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration.",
         "capabilities": {
@@ -110801,14 +111136,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.74,
-          "output": 3.49,
-          "cached_input": 0.14
+          "input": 0.75,
+          "output": 3.5,
+          "cached_input": 0.15
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-06"
       },
       {
         "id": "moonshotai/kimi-k2",
@@ -113573,6 +113908,40 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false
       },
       {
+        "id": "openai/gpt-chat-latest",
+        "name": "OpenAI: GPT Chat Latest",
+        "created_by": "openai",
+        "source": "official",
+        "description": "GPT Chat Latest points to OpenAI's stable API alias `chat-latest` that always resolves to the latest Instant chat model used in ChatGPT.",
+        "release_date": "2026-05-05",
+        "context_window": 400000,
+        "max_output_tokens": 128000,
+        "tagline": "GPT Chat Latest points to OpenAI's stable API alias `chat-latest` that always resolves to the latest Instant chat model used in ChatGPT.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cached_input": 0.5
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-06"
+      },
+      {
         "id": "openai/gpt-oss-120b:free",
         "name": "OpenAI: gpt-oss-120b (free)",
         "created_by": "openai",
@@ -115413,11 +115782,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 30B A3B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-25",
+        "last_updated": "2026-05-06",
         "family": "qwen3",
         "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks.",
         "context_window": 40960,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 20000,
         "modalities": {
           "input": [
             "text"
@@ -115435,8 +115804,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.08,
-          "output": 0.28
+          "input": 0.09,
+          "output": 0.45
         },
         "model_type": "chat",
         "parameters": 30,
@@ -116350,11 +116719,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3.5-35B-A3B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-06",
         "family": "qwen3.5",
         "description": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency.",
         "context_window": 262144,
-        "max_output_tokens": 65536,
+        "max_output_tokens": 262144,
         "modalities": {
           "input": [
             "text",
@@ -116374,8 +116743,9 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.163,
-          "output": 1.3
+          "input": 0.15,
+          "output": 1,
+          "cached_input": 0.05
         },
         "model_type": "chat",
         "parameters": 35,
@@ -116633,8 +117003,8 @@ export const providers: ProviderWithModels[] = [
         "family": "qwen3.6",
         "description": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026.",
         "release_date": "2026-04-27",
-        "context_window": 256000,
-        "max_output_tokens": 65536,
+        "context_window": 262144,
+        "max_output_tokens": 81920,
         "parameters": 27,
         "model_type": "chat",
         "tagline": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026.",
@@ -116657,13 +117027,13 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.325,
-          "output": 3.25
+          "input": 0.32,
+          "output": 3.2
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01",
+        "last_updated": "2026-05-06",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -116676,7 +117046,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token.",
         "release_date": "2026-04-27",
         "context_window": 262144,
-        "max_output_tokens": 65536,
+        "max_output_tokens": 262144,
         "parameters": 35,
         "active_parameters": 3,
         "model_type": "chat",
@@ -116685,6 +117055,7 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "json_mode": true,
+          "tool_call": true,
           "streaming": true,
           "fine_tuning": true
         },
@@ -116699,11 +117070,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.161,
-          "output": 0.965,
-          "cached_input": 0.161
+          "input": 0.15,
+          "output": 1,
+          "cached_input": 0.05
         },
-        "last_updated": "2026-05-01",
+        "last_updated": "2026-05-06",
+        "tools": [
+          "function_calling"
+        ],
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -117636,7 +118010,7 @@ export const providers: ProviderWithModels[] = [
         "name": "xAI: Grok 3 Beta",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-06",
         "family": "grok-3",
         "description": "Grok 3 is the latest model from xAI.",
         "context_window": 131072,
@@ -117663,14 +118037,16 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Grok 3 is the latest model from xAI.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "status": "deprecated",
+        "deprecation_date": "2026-06-01"
       },
       {
         "id": "x-ai/grok-3-mini-beta",
         "name": "xAI: Grok 3 Mini Beta",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-06",
         "family": "grok-3",
         "description": "Grok 3 Mini is a lightweight, smaller thinking model.",
         "context_window": 131072,
@@ -117698,14 +118074,16 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Grok 3 Mini is a lightweight, smaller thinking model.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "status": "deprecated",
+        "deprecation_date": "2026-06-01"
       },
       {
         "id": "x-ai/grok-3-mini",
         "name": "xAI: Grok 3 Mini",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-06",
         "family": "grok-3",
         "description": "A lightweight model that thinks before responding.",
         "context_window": 131072,
@@ -117736,6 +118114,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
+        "status": "deprecated",
+        "deprecation_date": "2026-06-01",
         "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false
@@ -117745,7 +118125,7 @@ export const providers: ProviderWithModels[] = [
         "name": "xAI: Grok 3",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-06",
         "family": "grok-3",
         "description": "Grok 3 is the latest model from xAI.",
         "context_window": 131072,
@@ -117775,6 +118155,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
+        "status": "deprecated",
+        "deprecation_date": "2026-06-01",
         "knowledge_cutoff": "2024-11",
         "license": "proprietary",
         "open_weight": false
@@ -117784,7 +118166,7 @@ export const providers: ProviderWithModels[] = [
         "name": "xAI: Grok 4 Fast",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-06",
         "family": "grok-4",
         "description": "Grok 4 Fast is xAI's latest multimodal model with SOTA cost-efficiency and a 2M token context window.",
         "context_window": 2000000,
@@ -117814,14 +118196,16 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Grok 4 Fast is xAI's latest multimodal model with SOTA cost-efficiency and a 2M token context window.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "status": "deprecated",
+        "deprecation_date": "2026-06-01"
       },
       {
         "id": "x-ai/grok-4.1-fast",
         "name": "xAI: Grok 4.1 Fast",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-06",
         "family": "grok-4.1",
         "description": "Grok 4.1 Fast is xAI's best agentic tool calling model that shines in real-world use cases like customer support and deep research.",
         "context_window": 2000000,
@@ -117851,7 +118235,9 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Grok 4.1 Fast is xAI's best agentic tool calling model that shines in real-world use cases like customer support and deep research.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "status": "deprecated",
+        "deprecation_date": "2026-06-01"
       },
       {
         "id": "x-ai/grok-4.20-beta",
@@ -118036,7 +118422,7 @@ export const providers: ProviderWithModels[] = [
         "name": "xAI: Grok 4",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-06",
         "family": "grok-4",
         "description": "Grok 4 is xAI's latest reasoning model with a 256k context window.",
         "context_window": 256000,
@@ -118065,14 +118451,16 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Grok 4 is xAI's latest reasoning model with a 256k context window.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "status": "deprecated",
+        "deprecation_date": "2026-06-01"
       },
       {
         "id": "x-ai/grok-code-fast-1",
         "name": "xAI: Grok Code Fast 1",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-06",
         "family": "grok-code",
         "description": "Grok Code Fast 1 is a speedy and economical reasoning model that excels at agentic coding.",
         "context_window": 256000,
@@ -118104,6 +118492,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
+        "status": "deprecated",
+        "deprecation_date": "2026-06-01",
         "license": "proprietary",
         "open_weight": false
       },
@@ -118703,7 +119093,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Z.ai: GLM 5",
         "created_by": "z-ai",
         "source": "official",
-        "last_updated": "2026-04-25",
+        "last_updated": "2026-05-06",
         "description": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows.",
         "context_window": 202752,
         "max_output_tokens": 16384,
@@ -118723,7 +119113,7 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.6,
-          "output": 2.08,
+          "output": 1.92,
           "cached_input": 0.12
         },
         "family": "glm-5",
@@ -119529,7 +119919,12 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-01",
+        "last_updated": "2026-05-06",
+        "pricing": {
+          "input": 1.25,
+          "output": 10,
+          "cached_input": 0.125
+        },
         "description": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.",
         "tagline": "Previous intelligent reasoning model for coding and agentic tasks with configurable reasoning effort",
         "context_window": 400000,
@@ -133775,7 +134170,7 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4.20-multi-agent-beta",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-04-17",
+        "last_updated": "2026-05-06",
         "family": "grok-4.20",
         "context_window": 2000000,
         "capabilities": {
@@ -133785,8 +134180,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true
         },
         "pricing": {
-          "input": 2,
-          "output": 6
+          "input": 1.25,
+          "output": 2.5
         },
         "model_type": "chat",
         "tools": [
@@ -133806,7 +134201,7 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4.20-multi-agent",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-04-17",
+        "last_updated": "2026-05-06",
         "family": "grok-4.20",
         "context_window": 2000000,
         "model_type": "chat",
@@ -133817,8 +134212,8 @@ export const providers: ProviderWithModels[] = [
           "vision": true
         },
         "pricing": {
-          "input": 2,
-          "output": 6
+          "input": 1.25,
+          "output": 2.5
         },
         "modalities": {
           "input": [
@@ -133837,7 +134232,7 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4.20-non-reasoning-beta",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-06",
         "family": "grok-4.20",
         "context_window": 2000000,
         "capabilities": {
@@ -133846,8 +134241,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true
         },
         "pricing": {
-          "input": 2,
-          "output": 6
+          "input": 1.25,
+          "output": 2.5
         },
         "model_type": "chat",
         "tools": [
@@ -133867,7 +134262,7 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4.20-non-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-06",
         "family": "grok-4.20",
         "context_window": 2000000,
         "model_type": "chat",
@@ -133877,8 +134272,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true
         },
         "pricing": {
-          "input": 2,
-          "output": 6
+          "input": 1.25,
+          "output": 2.5
         },
         "modalities": {
           "input": [
@@ -133897,7 +134292,7 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4.20-reasoning-beta",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-06",
         "family": "grok-4.20",
         "context_window": 2000000,
         "capabilities": {
@@ -133907,8 +134302,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 2,
-          "output": 6
+          "input": 1.25,
+          "output": 2.5
         },
         "model_type": "chat",
         "tools": [
@@ -133928,7 +134323,7 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4.20-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-06",
         "family": "grok-4.20",
         "context_window": 2000000,
         "model_type": "chat",
@@ -133939,8 +134334,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 2,
-          "output": 6
+          "input": 1.25,
+          "output": 2.5
         },
         "modalities": {
           "input": [
@@ -139183,6 +139578,32 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ]
+      },
+      {
+        "id": "grok-imagine-image-quality",
+        "name": "grok-imagine-image-quality",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-imagine",
+        "license": "proprietary",
+        "page_url": "https://docs.x.ai/developers/models/grok-imagine-image-quality",
+        "model_type": "image",
+        "capabilities": {
+          "streaming": true,
+          "batch": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "open_weight": false,
+        "last_updated": "2026-05-06"
       },
       {
         "id": "grok-imagine-image",

@@ -1,0 +1,32 @@
+{
+  "id": "baidu/cobuddy:free",
+  "name": "Baidu Qianfan: CoBuddy (free)",
+  "created_by": "baidu",
+  "source": "official",
+  "description": "CoBuddy is a code generation model from Baidu, optimized for coding tasks and AI Agent workflows.",
+  "release_date": "2026-05-06",
+  "context_window": 131072,
+  "max_output_tokens": 65536,
+  "tagline": "CoBuddy is a code generation model from Baidu, optimized for coding tasks and AI Agent workflows.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "5d6c5f93",
+    "description": "d414a3ef",
+    "release_date": "ad37623a",
+    "context_window": "f7de594e",
+    "max_output_tokens": "297ce0b3",
+    "tagline": "d414a3ef",
+    "capabilities": "05723a3e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-06"
+}

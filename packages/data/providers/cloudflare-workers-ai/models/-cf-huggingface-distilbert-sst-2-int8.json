@@ -3,7 +3,7 @@
   "name": "distilbert-sst-2-int8",
   "created_by": "huggingface",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-06",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -11,12 +11,12 @@
   "_generated": {
     "name": "c44f1512",
     "capabilities": "48995a4e",
-    "status": "379ac110",
+    "status": "127aecde",
     "model_type": "b815fc69",
     "page_url": "ae4989e0",
     "tools": "f0c1dc7e"
   },
-  "status": "active",
+  "status": "preview",
   "model_type": "classification",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#distilbert-sst-2-int8",
   "tools": ["function_calling"]

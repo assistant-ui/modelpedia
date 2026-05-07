@@ -1,0 +1,41 @@
+{
+  "id": "mistralai/mistral-medium-3-5",
+  "name": "Mistral: Mistral Medium 3.5",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "mistral-medium",
+  "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI.",
+  "release_date": "2026-04-30",
+  "context_window": 262144,
+  "model_type": "chat",
+  "tagline": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.5,
+    "output": 7.5
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b9c7f16f",
+    "family": "a57f1b52",
+    "description": "cbb3a008",
+    "release_date": "a53a2b69",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "tagline": "cbb3a008",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "c99e0f75",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-06"
+}

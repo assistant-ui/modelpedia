@@ -1,0 +1,31 @@
+{
+  "id": "grok-imagine-image-quality",
+  "name": "grok-imagine-image-quality",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "license": "proprietary",
+  "page_url": "https://docs.x.ai/developers/models/grok-imagine-image-quality",
+  "model_type": "image",
+  "capabilities": {
+    "streaming": true,
+    "batch": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "46d4b77c",
+    "family": "a4576b5e",
+    "license": "9186c466",
+    "page_url": "804d76b7",
+    "model_type": "db8857fe",
+    "capabilities": "bcb7869e",
+    "modalities": "bbf9b8bb",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-05-06"
+}

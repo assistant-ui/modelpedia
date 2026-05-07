@@ -6,8 +6,8 @@
   "family": "kimi",
   "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
   "release_date": "2026-04-27",
-  "context_window": 262142,
-  "max_output_tokens": 262142,
+  "context_window": 262144,
+  "max_output_tokens": 16384,
   "model_type": "chat",
   "tagline": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
   "capabilities": {
@@ -21,9 +21,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.74,
-    "output": 3.49,
-    "cached_input": 0.14
+    "input": 0.75,
+    "output": 3.5,
+    "cached_input": 0.15
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -31,14 +31,14 @@
     "family": "0740f86b",
     "description": "3946ade1",
     "release_date": "79a25cd1",
-    "context_window": "e4928599",
-    "max_output_tokens": "e4928599",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "c76fe1d8",
     "model_type": "d669f408",
     "tagline": "3946ade1",
     "capabilities": "03fbefb4",
     "modalities": "6399757e",
-    "pricing": "dcb8cec9",
+    "pricing": "8d73e4c7",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-05-06"
 }

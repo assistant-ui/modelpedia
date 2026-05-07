@@ -1,0 +1,96 @@
+{
+  "id": "chat-latest",
+  "name": "chat-latest",
+  "created_by": "openai",
+  "source": "official",
+  "description": "chat-latest points to the latest Instant model currently used in ChatGPT.",
+  "status": "active",
+  "knowledge_cutoff": "2025-08",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "max_input_tokens": 272000,
+  "model_type": "chat",
+  "license": "proprietary",
+  "performance": 3,
+  "speed": 3,
+  "tagline": "Latest Instant model used in ChatGPT",
+  "page_url": "https://developers.openai.com/api/docs/models/chat-latest",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "fine_tuning": false,
+    "reasoning": false
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 30,
+    "cached_input": 0.5,
+    "batch_input": 2.5,
+    "batch_output": 15,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 0.5, 30]
+          },
+          {
+            "label": "Batch",
+            "values": [2.5, 0.25, 15]
+          },
+          {
+            "label": "Flex",
+            "values": [2.5, 0.25, 15]
+          },
+          {
+            "label": "Priority",
+            "values": [12.5, 1.25, 75]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "mcp"
+  ],
+  "endpoints": ["responses", "chat_completions"],
+  "snapshots": ["chat-latest"],
+  "_generated": {
+    "name": "69f46fe4",
+    "description": "f54eef3b",
+    "status": "379ac110",
+    "knowledge_cutoff": "5549a2cd",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "3f9281a0",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "performance": "eccbc87e",
+    "speed": "eccbc87e",
+    "tagline": "725c824e",
+    "page_url": "599a464d",
+    "open_weight": "68934a3e",
+    "capabilities": "ba4a328d",
+    "modalities": "6399757e",
+    "pricing": "ad410ee9",
+    "tools": "1d5a765f",
+    "endpoints": "a913714d"
+  },
+  "last_updated": "2026-05-06"
+}
