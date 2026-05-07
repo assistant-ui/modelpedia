@@ -3,7 +3,7 @@
   "name": "xAI: Grok 4.1 Fast",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-07",
   "family": "grok-4.1",
   "description": "Grok 4.1 Fast is xAI's best agentic tool calling model that shines in real-world use cases like customer support and deep research.",
   "context_window": 2000000,
@@ -37,12 +37,12 @@
     "tagline": "900fd8e2",
     "tools": "f0c1dc7e",
     "status": "2e2f74dc",
-    "deprecation_date": "80eaf594"
+    "deprecation_date": "7f8d7956"
   },
   "model_type": "chat",
   "release_date": "2025-11-19",
   "tagline": "Grok 4.1 Fast is xAI's best agentic tool calling model that shines in real-world use cases like customer support and deep research.",
   "tools": ["function_calling"],
   "status": "deprecated",
-  "deprecation_date": "2026-06-01"
+  "deprecation_date": "2026-05-15"
 }
