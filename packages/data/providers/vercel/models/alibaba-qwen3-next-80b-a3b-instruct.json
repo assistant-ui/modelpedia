@@ -3,22 +3,22 @@
   "name": "qwen3-next-80b-a3b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-07",
   "family": "qwen3",
   "context_window": 262100,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.09,
-    "output": 1.1
+    "input": 0.15,
+    "output": 1.2
   },
   "_generated": {
     "name": "8418438a",
     "family": "48c385a0",
     "context_window": "b23f4471",
     "capabilities": "0fa77dc6",
-    "pricing": "1a367c4d",
+    "pricing": "54aab52a",
     "model_type": "d669f408",
     "parameters": "f033ab37",
     "active_parameters": "eccbc87e",

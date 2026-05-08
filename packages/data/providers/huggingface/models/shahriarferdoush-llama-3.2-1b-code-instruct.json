@@ -1,0 +1,42 @@
+{
+  "id": "ShahriarFerdoush/llama-3.2-1b-code-instruct",
+  "name": "llama-3.2-1b-code-instruct",
+  "created_by": "shahriarferdoush",
+  "source": "official",
+  "family": "llama-3.2",
+  "description": "A lightweight yet powerful **code-focused language model** fine-tuned from **Meta Llama-3.2-1B** using **QLoRA (4-bit)** on the **CodeAlpaca-20K** dataset. Designed for **efficient code generation, reasoning, and problem-solving** on limited GPU resources.",
+  "release_date": "2025-12-24",
+  "context_window": 131072,
+  "license": "apache-2.0",
+  "parameters": 1.2,
+  "page_url": "https://huggingface.co/ShahriarFerdoush/llama-3.2-1b-code-instruct",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "A lightweight yet powerful **code-focused language model** fine-tuned from **Meta Llama-3.2-1B** using **QLoRA (4-bit)** on the **CodeAlpaca-20K** dataset.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "a32390c3",
+    "family": "d4c42ce9",
+    "description": "2f1e45f4",
+    "release_date": "669f39a0",
+    "context_window": "f7de594e",
+    "license": "60245731",
+    "parameters": "56765472",
+    "page_url": "f4e11f40",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "b957221a",
+    "capabilities": "9c665f5d",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-05-07"
+}

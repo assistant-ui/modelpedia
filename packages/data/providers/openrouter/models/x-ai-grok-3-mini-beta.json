@@ -3,7 +3,7 @@
   "name": "xAI: Grok 3 Mini Beta",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-07",
   "family": "grok-3",
   "description": "Grok 3 Mini is a lightweight, smaller thinking model.",
   "context_window": 131072,
@@ -35,12 +35,12 @@
     "tagline": "03f958cc",
     "tools": "f0c1dc7e",
     "status": "2e2f74dc",
-    "deprecation_date": "80eaf594"
+    "deprecation_date": "7f8d7956"
   },
   "model_type": "chat",
   "release_date": "2025-04-09",
   "tagline": "Grok 3 Mini is a lightweight, smaller thinking model.",
   "tools": ["function_calling"],
   "status": "deprecated",
-  "deprecation_date": "2026-06-01"
+  "deprecation_date": "2026-05-15"
 }

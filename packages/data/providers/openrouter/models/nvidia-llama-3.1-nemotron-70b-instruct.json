@@ -3,7 +3,7 @@
   "name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-05-01",
+  "last_updated": "2026-05-07",
   "family": "llama-3.1",
   "description": "NVIDIA's Llama 3.1 Nemotron 70B is a language model designed for generating precise and useful responses.",
   "context_window": 131072,
@@ -36,7 +36,7 @@
     "tagline": "72bab1cb",
     "tools": "f0c1dc7e",
     "status": "2e2f74dc",
-    "deprecation_date": "83eb3201"
+    "deprecation_date": "d465a48a"
   },
   "model_type": "chat",
   "parameters": 70,
@@ -44,5 +44,5 @@
   "tagline": "NVIDIA's Llama 3.1 Nemotron 70B is a language model designed for generating precise and useful responses.",
   "tools": ["function_calling"],
   "status": "deprecated",
-  "deprecation_date": "2026-05-08"
+  "deprecation_date": "2026-05-07"
 }

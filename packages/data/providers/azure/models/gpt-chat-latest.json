@@ -1,0 +1,23 @@
+{
+  "id": "gpt-chat-latest",
+  "name": "GPT-chat-latest",
+  "created_by": "openai",
+  "source": "official",
+  "description": "NEW gpt-chat-latest Preview",
+  "tagline": "NEW gpt-chat-latest Preview",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "116bce54",
+    "description": "17e8bd2c",
+    "tagline": "17e8bd2c",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-05-07"
+}
