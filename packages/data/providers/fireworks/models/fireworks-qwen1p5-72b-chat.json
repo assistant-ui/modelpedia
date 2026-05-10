@@ -3,9 +3,9 @@
   "name": "qwen1p5-72b-chat",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-10",
   "family": "qwen1",
-  "context_window": 32800,
+  "context_window": 32700,
   "capabilities": {
     "streaming": true
   },
@@ -17,7 +17,7 @@
   "_generated": {
     "name": "5f583b7c",
     "family": "250362e8",
-    "context_window": "74a190a6",
+    "context_window": "e1ea274b",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "d669f408",

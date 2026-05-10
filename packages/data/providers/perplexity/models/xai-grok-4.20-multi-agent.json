@@ -1,0 +1,33 @@
+{
+  "id": "xai/grok-4.20-multi-agent",
+  "name": "xai/grok-4.20-multi-agent",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4.20",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 2.5,
+    "cached_input": 0.2
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "93883185",
+    "family": "44972aca",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "64e647aa",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-05-10"
+}

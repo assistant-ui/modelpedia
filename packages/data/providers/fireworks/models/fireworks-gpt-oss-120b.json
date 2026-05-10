@@ -3,9 +3,9 @@
   "name": "gpt-oss-120b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-10",
   "family": "gpt-oss",
-  "context_window": 131100,
+  "context_window": 131000,
   "capabilities": {
     "streaming": true
   },
@@ -17,7 +17,7 @@
   "_generated": {
     "name": "e8458743",
     "family": "82d0cb0b",
-    "context_window": "a683b9ae",
+    "context_window": "834bd590",
     "capabilities": "0fa77dc6",
     "pricing": "5e82dbc5",
     "model_type": "d669f408",

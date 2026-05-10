@@ -3,8 +3,8 @@
   "name": "molmo2-4b",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "context_window": 36900,
+  "last_updated": "2026-05-10",
+  "context_window": 36800,
   "capabilities": {
     "streaming": true
   },
@@ -15,7 +15,7 @@
   },
   "_generated": {
     "name": "06ca835c",
-    "context_window": "440dcd6e",
+    "context_window": "c53ac11d",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "parameters": "a87ff679",

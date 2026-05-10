@@ -3,8 +3,8 @@
   "name": "code-llama-13b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "context_window": 16400,
+  "last_updated": "2026-05-10",
+  "context_window": 16300,
   "capabilities": {
     "streaming": true
   },
@@ -15,7 +15,7 @@
   },
   "_generated": {
     "name": "e6f5f55d",
-    "context_window": "e375a58e",
+    "context_window": "6c880a6d",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "parameters": "c51ce410",

@@ -4,7 +4,7 @@
   "created_by": "minimax",
   "source": "official",
   "family": "minimax",
-  "context_window": 196600,
+  "context_window": 196000,
   "page_url": "https://fireworks.ai/models/fireworks/minimax-m2p7",
   "model_type": "chat",
   "capabilities": {
@@ -22,12 +22,12 @@
   "_generated": {
     "name": "8e2071cc",
     "family": "c85916f0",
-    "context_window": "432d22e5",
+    "context_window": "94593300",
     "page_url": "fe1d3a98",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "pricing": "0c734839",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-04-14"
+  "last_updated": "2026-05-10"
 }

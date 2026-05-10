@@ -3,8 +3,8 @@
   "name": "kat-coder",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "context_window": 262100,
+  "last_updated": "2026-05-10",
+  "context_window": 262000,
   "capabilities": {
     "streaming": true
   },
@@ -15,7 +15,7 @@
   },
   "_generated": {
     "name": "6bbe34db",
-    "context_window": "b23f4471",
+    "context_window": "4ed74017",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "page_url": "c877ef8e"

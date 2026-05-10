@@ -3,9 +3,9 @@
   "name": "qwen2p5-math-72b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-10",
   "family": "qwen2",
-  "context_window": 4100,
+  "context_window": 4090,
   "capabilities": {
     "streaming": true
   },
@@ -17,7 +17,7 @@
   "_generated": {
     "name": "648afa2e",
     "family": "66ff794a",
-    "context_window": "a3ec6dd8",
+    "context_window": "ae31ee95",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "d669f408",

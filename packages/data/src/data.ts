@@ -6590,6 +6590,32 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat"
       },
       {
+        "id": "deepseek-v4-fast",
+        "name": "DeepSeek-V4-Fast Preview",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-10"
+      },
+      {
         "id": "embed-v-4-0",
         "name": "embed-v-4-0",
         "created_by": "cohere",
@@ -8655,6 +8681,33 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 32768,
         "license": "mit",
         "open_weight": true
+      },
+      {
+        "id": "kimi-k2.6",
+        "name": "Kimi-K2.6 Preview",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "kimi-k2.6",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-10"
       },
       {
         "id": "llama-3.3-70b-instruct",
@@ -11278,7 +11331,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Llama 3.1 8B",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-10",
         "context_window": 32000,
         "max_output_tokens": 8000,
         "capabilities": {
@@ -11299,7 +11352,7 @@ export const providers: ProviderWithModels[] = [
           "input": 0.1,
           "output": 0.1
         },
-        "status": "active",
+        "status": "deprecated",
         "model_type": "chat",
         "endpoints": [
           "chat_completions",
@@ -11313,14 +11366,15 @@ export const providers: ProviderWithModels[] = [
         "open_weight": true,
         "tools": [
           "function_calling"
-        ]
+        ],
+        "deprecation_date": "2026-04-22"
       },
       {
         "id": "qwen-3-235b-a22b-instruct-2507",
         "name": "Qwen 3 235B Instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-10",
         "family": "qwen",
         "context_window": 131000,
         "max_output_tokens": 40000,
@@ -11346,7 +11400,7 @@ export const providers: ProviderWithModels[] = [
           "output": 1.2
         },
         "model_type": "chat",
-        "status": "preview",
+        "status": "deprecated",
         "endpoints": [
           "chat_completions",
           "completions"
@@ -11360,8 +11414,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "license": "apache-2.0",
-        "active_parameters": 22
+        "deprecation_date": "2026-04-22",
+        "active_parameters": 22,
+        "license": "apache-2.0"
       },
       {
         "id": "qwen-3-235b-a22b-instruct",
@@ -49548,12 +49603,12 @@ export const providers: ProviderWithModels[] = [
         "name": "phoenix-1.0",
         "created_by": "leonardo",
         "source": "official",
-        "last_updated": "2026-04-16",
+        "last_updated": "2026-05-10",
         "capabilities": {
           "streaming": true,
           "tool_call": true
         },
-        "status": "preview",
+        "status": "active",
         "model_type": "image",
         "page_url": "https://developers.cloudflare.com/workers-ai/models/#phoenix-1.0",
         "tools": [
@@ -61179,8 +61234,8 @@ export const providers: ProviderWithModels[] = [
         "name": "cogito-671b-v2-p1",
         "created_by": "cogito",
         "source": "official",
-        "last_updated": "2026-04-21",
-        "context_window": 163800,
+        "last_updated": "2026-05-10",
+        "context_window": 163000,
         "capabilities": {
           "streaming": true
         },
@@ -61206,9 +61261,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-v3p1-terminus",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 163800,
+        "context_window": 163000,
         "capabilities": {
           "streaming": true
         },
@@ -61234,7 +61289,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "deepseek",
         "source": "official",
         "family": "deepseek",
-        "context_window": 1048600,
+        "context_window": 1040000,
         "page_url": "https://fireworks.ai/models/deepseek-ai/deepseek-v4-pro",
         "model_type": "chat",
         "capabilities": {
@@ -61256,7 +61311,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-01",
+        "last_updated": "2026-05-10",
         "description": "DeepSeek-V3.2 in non-thinking mode. Best for general chat, code, and tool use.",
         "tagline": "DeepSeek-V3.2 in non-thinking mode.",
         "license": "mit",
@@ -61267,8 +61322,8 @@ export const providers: ProviderWithModels[] = [
         "name": "chronos-hermes-13b-v2",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -61285,8 +61340,8 @@ export const providers: ProviderWithModels[] = [
         "name": "code-llama-13b-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -61303,8 +61358,8 @@ export const providers: ProviderWithModels[] = [
         "name": "code-llama-13b-python",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -61321,8 +61376,8 @@ export const providers: ProviderWithModels[] = [
         "name": "code-llama-13b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -61339,8 +61394,8 @@ export const providers: ProviderWithModels[] = [
         "name": "code-llama-34b-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -61357,8 +61412,8 @@ export const providers: ProviderWithModels[] = [
         "name": "code-llama-34b-python",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -61375,8 +61430,8 @@ export const providers: ProviderWithModels[] = [
         "name": "code-llama-34b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -61393,8 +61448,8 @@ export const providers: ProviderWithModels[] = [
         "name": "code-llama-70b-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -61411,8 +61466,8 @@ export const providers: ProviderWithModels[] = [
         "name": "code-llama-70b-python",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -61429,8 +61484,8 @@ export const providers: ProviderWithModels[] = [
         "name": "code-llama-70b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -61447,8 +61502,8 @@ export const providers: ProviderWithModels[] = [
         "name": "code-llama-7b-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -61465,8 +61520,8 @@ export const providers: ProviderWithModels[] = [
         "name": "code-llama-7b-python",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -61483,8 +61538,8 @@ export const providers: ProviderWithModels[] = [
         "name": "code-llama-7b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -61519,8 +61574,8 @@ export const providers: ProviderWithModels[] = [
         "name": "codegemma-2b",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 8200,
+        "last_updated": "2026-05-10",
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -61537,8 +61592,8 @@ export const providers: ProviderWithModels[] = [
         "name": "codegemma-7b",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 8200,
+        "last_updated": "2026-05-10",
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -61555,8 +61610,8 @@ export const providers: ProviderWithModels[] = [
         "name": "cogito-v1-preview-llama-3b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -61582,8 +61637,8 @@ export const providers: ProviderWithModels[] = [
         "name": "cogito-v1-preview-llama-70b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -61609,8 +61664,8 @@ export const providers: ProviderWithModels[] = [
         "name": "cogito-v1-preview-llama-8b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -61636,8 +61691,8 @@ export const providers: ProviderWithModels[] = [
         "name": "cogito-v1-preview-qwen-14b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -61663,8 +61718,8 @@ export const providers: ProviderWithModels[] = [
         "name": "cogito-v1-preview-qwen-32b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -61690,8 +61745,8 @@ export const providers: ProviderWithModels[] = [
         "name": "dbrx-instruct",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -61707,9 +61762,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-coder-1b-base",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 16400,
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -61726,9 +61781,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-coder-33b-instruct",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 16400,
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -61745,9 +61800,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-coder-7b-base-v1p5",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 4100,
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -61764,9 +61819,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-coder-7b-base",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 4100,
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -61783,9 +61838,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-coder-7b-instruct-v1p5",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 4100,
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -61802,9 +61857,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-coder-v2-instruct",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -61820,9 +61875,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-coder-v2-lite-base",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 163800,
+        "context_window": 163000,
         "capabilities": {
           "streaming": true
         },
@@ -61838,9 +61893,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-coder-v2-lite-instruct",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 163800,
+        "context_window": 163000,
         "capabilities": {
           "streaming": true
         },
@@ -61856,9 +61911,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-prover-v2",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 163800,
+        "context_window": 163000,
         "capabilities": {
           "streaming": true
         },
@@ -61874,9 +61929,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-r1-0528-distill-qwen3-8b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek-r1",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -61902,9 +61957,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-r1-0528",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek-r1",
-        "context_window": 163800,
+        "context_window": 163000,
         "capabilities": {
           "streaming": true
         },
@@ -61929,9 +61984,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-r1-basic",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek-r1",
-        "context_window": 163800,
+        "context_window": 163000,
         "capabilities": {
           "streaming": true
         },
@@ -61956,9 +62011,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-r1-distill-llama-70b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek-r1",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -61984,9 +62039,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-r1-distill-llama-8b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek-r1",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -62012,9 +62067,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-r1-distill-qwen-14b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek-r1",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -62040,9 +62095,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-r1-distill-qwen-1p5b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek-r1",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -62067,9 +62122,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-r1-distill-qwen-32b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek-r1",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -62095,9 +62150,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-r1-distill-qwen-7b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek-r1",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -62123,9 +62178,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-r1",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek-r1",
-        "context_window": 163800,
+        "context_window": 163000,
         "capabilities": {
           "streaming": true
         },
@@ -62150,9 +62205,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-v2-lite-chat",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 163800,
+        "context_window": 163000,
         "capabilities": {
           "streaming": true
         },
@@ -62177,9 +62232,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-v2p5",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -62204,9 +62259,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-v3-0324",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 163800,
+        "context_window": 163000,
         "capabilities": {
           "streaming": true
         },
@@ -62231,9 +62286,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-v3",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -62258,9 +62313,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-v3p1",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 163800,
+        "context_window": 163000,
         "capabilities": {
           "streaming": true
         },
@@ -62285,9 +62340,9 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-v3p2",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "deepseek",
-        "context_window": 163800,
+        "context_window": 163000,
         "capabilities": {
           "streaming": true
         },
@@ -62370,9 +62425,9 @@ export const providers: ProviderWithModels[] = [
         "name": "devstral-small-2505",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "devstral",
-        "context_window": 131100,
+        "context_window": 131000,
         "alias": "fireworks/devstral-small",
         "capabilities": {
           "streaming": true
@@ -62398,9 +62453,9 @@ export const providers: ProviderWithModels[] = [
         "name": "devstral-small-2505",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "devstral",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -62428,8 +62483,8 @@ export const providers: ProviderWithModels[] = [
         "name": "dolphin-2-9-2-qwen2-72b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -62446,8 +62501,8 @@ export const providers: ProviderWithModels[] = [
         "name": "dolphin-2p6-mixtral-8x7b",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -62463,8 +62518,8 @@ export const providers: ProviderWithModels[] = [
         "name": "ernie-4p5-21b-a3b-pt",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -62500,8 +62555,8 @@ export const providers: ProviderWithModels[] = [
         "name": "fare-20b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -62518,8 +62573,8 @@ export const providers: ProviderWithModels[] = [
         "name": "firefunction-v1",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -62551,8 +62606,8 @@ export const providers: ProviderWithModels[] = [
         "name": "firellava-13b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -62569,8 +62624,8 @@ export const providers: ProviderWithModels[] = [
         "name": "firesearch-ocr-v6",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 8200,
+        "last_updated": "2026-05-10",
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -62729,9 +62784,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemma-2b-it",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "gemma-2b",
-        "context_window": 8200,
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -62757,9 +62812,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemma-3-12b-it",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "gemma-3",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -62812,9 +62867,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemma-3-27b-it",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "gemma-3",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -62840,9 +62895,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemma-3-4b-it",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "gemma-3",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -62869,7 +62924,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemma-4",
-        "context_window": 262100,
+        "context_window": 262000,
         "parameters": 26,
         "active_parameters": 4,
         "page_url": "https://fireworks.ai/models/fireworks/gemma-4-26b-a4b-it",
@@ -62890,7 +62945,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-07"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/gemma-4-31b-it-nvfp4",
@@ -62898,7 +62953,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemma-4",
-        "context_window": 262100,
+        "context_window": 262000,
         "parameters": 31,
         "page_url": "https://fireworks.ai/models/fireworks/gemma-4-31b-it-nvfp4",
         "model_type": "chat",
@@ -62918,7 +62973,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-16"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/gemma-4-31b-it",
@@ -62926,7 +62981,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemma-4",
-        "context_window": 262100,
+        "context_window": 262000,
         "parameters": 31,
         "page_url": "https://fireworks.ai/models/fireworks/gemma-4-31b-it",
         "model_type": "chat",
@@ -62946,16 +63001,16 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-07"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/gemma-7b-it",
         "name": "gemma-7b-it",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "gemma-7b",
-        "context_window": 8200,
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -62981,9 +63036,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemma-7b",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "gemma-7b",
-        "context_window": 8200,
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -63009,8 +63064,8 @@ export const providers: ProviderWithModels[] = [
         "name": "gemma2-9b-it",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 8200,
+        "last_updated": "2026-05-10",
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -63036,8 +63091,8 @@ export const providers: ProviderWithModels[] = [
         "name": "glm-4p5-air",
         "created_by": "zhipu",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -63063,8 +63118,8 @@ export const providers: ProviderWithModels[] = [
         "name": "glm-4p5",
         "created_by": "zhipu",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -63090,8 +63145,8 @@ export const providers: ProviderWithModels[] = [
         "name": "glm-4p5v",
         "created_by": "zhipu",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -63117,8 +63172,8 @@ export const providers: ProviderWithModels[] = [
         "name": "glm-4p6",
         "created_by": "zhipu",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 202800,
+        "last_updated": "2026-05-10",
+        "context_window": 202000,
         "capabilities": {
           "streaming": true
         },
@@ -63144,8 +63199,8 @@ export const providers: ProviderWithModels[] = [
         "name": "glm-4p7-flash",
         "created_by": "zhipu",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 202800,
+        "last_updated": "2026-05-10",
+        "context_window": 202000,
         "capabilities": {
           "streaming": true
         },
@@ -63171,8 +63226,8 @@ export const providers: ProviderWithModels[] = [
         "name": "glm-4p7",
         "created_by": "zhipu",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 202800,
+        "last_updated": "2026-05-10",
+        "context_window": 202000,
         "capabilities": {
           "streaming": true
         },
@@ -63198,8 +63253,8 @@ export const providers: ProviderWithModels[] = [
         "name": "glm-5",
         "created_by": "zhipu",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 202800,
+        "last_updated": "2026-05-10",
+        "context_window": 202000,
         "capabilities": {
           "streaming": true
         },
@@ -63226,7 +63281,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "zhipu",
         "source": "official",
         "family": "glm-5",
-        "context_window": 202800,
+        "context_window": 202000,
         "page_url": "https://fireworks.ai/models/fireworks/glm-5p1",
         "model_type": "chat",
         "capabilities": {
@@ -63245,16 +63300,16 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-08"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/gpt-oss-120b",
         "name": "gpt-oss-120b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "gpt-oss",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -63293,9 +63348,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-oss-20b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "gpt-oss",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -63334,9 +63389,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-oss-safeguard-120b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "gpt-oss",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -63362,9 +63417,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-oss-safeguard-20b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "gpt-oss",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -63390,8 +63445,8 @@ export const providers: ProviderWithModels[] = [
         "name": "hermes-2-pro-mistral-7b",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -63408,8 +63463,8 @@ export const providers: ProviderWithModels[] = [
         "name": "internvl3-38b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -63426,8 +63481,8 @@ export const providers: ProviderWithModels[] = [
         "name": "internvl3-78b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -63444,8 +63499,8 @@ export const providers: ProviderWithModels[] = [
         "name": "internvl3-8b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -63478,8 +63533,8 @@ export const providers: ProviderWithModels[] = [
         "name": "kat-coder",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 262100,
+        "last_updated": "2026-05-10",
+        "context_window": 262000,
         "capabilities": {
           "streaming": true
         },
@@ -63495,8 +63550,8 @@ export const providers: ProviderWithModels[] = [
         "name": "kat-dev-32b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -63513,8 +63568,8 @@ export const providers: ProviderWithModels[] = [
         "name": "kat-dev-72b-exp",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -63531,8 +63586,8 @@ export const providers: ProviderWithModels[] = [
         "name": "kimi-k2-instruct-0905",
         "created_by": "moonshot",
         "source": "official",
-        "last_updated": "2026-04-17",
-        "context_window": 262100,
+        "last_updated": "2026-05-10",
+        "context_window": 262000,
         "capabilities": {
           "streaming": true
         },
@@ -63558,8 +63613,8 @@ export const providers: ProviderWithModels[] = [
         "name": "kimi-k2-instruct",
         "created_by": "moonshot",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -63585,8 +63640,8 @@ export const providers: ProviderWithModels[] = [
         "name": "kimi-k2-thinking",
         "created_by": "moonshot",
         "source": "official",
-        "last_updated": "2026-04-17",
-        "context_window": 262100,
+        "last_updated": "2026-05-10",
+        "context_window": 262000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -63620,8 +63675,8 @@ export const providers: ProviderWithModels[] = [
         "name": "kimi-k2p5",
         "created_by": "moonshot",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 262100,
+        "last_updated": "2026-05-10",
+        "context_window": 262000,
         "capabilities": {
           "streaming": true
         },
@@ -63648,7 +63703,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "moonshot",
         "source": "official",
         "family": "kimi-k2",
-        "context_window": 262100,
+        "context_window": 262000,
         "page_url": "https://fireworks.ai/models/fireworks/kimi-k2p6",
         "model_type": "chat",
         "capabilities": {
@@ -63667,16 +63722,16 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-21"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/llama-guard-2-8b",
         "name": "llama-guard-2-8b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "llama-guard",
-        "context_window": 8200,
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -63702,9 +63757,9 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-guard-3-1b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "llama-guard",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -63734,9 +63789,9 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-guard-3-8b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "llama-guard",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -63766,8 +63821,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v2-13b-chat",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -63793,8 +63848,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v2-13b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -63820,8 +63875,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v2-70b-chat",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 2000,
+        "last_updated": "2026-05-10",
+        "context_window": 2040,
         "capabilities": {
           "streaming": true
         },
@@ -63847,8 +63902,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v2-70b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -63874,8 +63929,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v2-7b-chat",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -63901,8 +63956,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v2-7b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -63928,8 +63983,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3-70b-instruct-hf",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 8200,
+        "last_updated": "2026-05-10",
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -63955,8 +64010,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3-70b-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 8200,
+        "last_updated": "2026-05-10",
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -63982,8 +64037,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3-8b-instruct-hf",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 8200,
+        "last_updated": "2026-05-10",
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -64009,8 +64064,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3-8b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 8200,
+        "last_updated": "2026-05-10",
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -64062,8 +64117,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3p1-405b-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -64115,8 +64170,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3p1-70b-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -64142,8 +64197,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3p1-8b-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -64169,8 +64224,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3p1-nemotron-70b-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -64196,8 +64251,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3p2-11b-vision-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -64223,8 +64278,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3p2-1b-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -64250,8 +64305,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3p2-1b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -64277,8 +64332,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3p2-3b-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -64304,8 +64359,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3p2-3b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -64331,8 +64386,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3p2-90b-vision-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -64358,8 +64413,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-v3p3-70b-instruct",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -64385,8 +64440,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama4-maverick-instruct-basic",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 1048600,
+        "last_updated": "2026-05-10",
+        "context_window": 1040000,
         "capabilities": {
           "streaming": true
         },
@@ -64411,8 +64466,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llama4-scout-instruct-basic",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 1048600,
+        "last_updated": "2026-05-10",
+        "context_window": 1040000,
         "capabilities": {
           "streaming": true
         },
@@ -64437,8 +64492,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llamaguard-7b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -64469,8 +64524,8 @@ export const providers: ProviderWithModels[] = [
         "name": "llava-yi-34b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -64513,8 +64568,8 @@ export const providers: ProviderWithModels[] = [
         "name": "minimax-m2",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 196600,
+        "last_updated": "2026-05-10",
+        "context_window": 196000,
         "capabilities": {
           "streaming": true,
           "tool_call": true
@@ -64545,8 +64600,8 @@ export const providers: ProviderWithModels[] = [
         "name": "minimax-m2p1",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-04-17",
-        "context_window": 196600,
+        "last_updated": "2026-05-10",
+        "context_window": 196000,
         "capabilities": {
           "streaming": true
         },
@@ -64572,8 +64627,8 @@ export const providers: ProviderWithModels[] = [
         "name": "minimax-m2p5",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 196600,
+        "last_updated": "2026-05-10",
+        "context_window": 196000,
         "capabilities": {
           "streaming": true
         },
@@ -64600,7 +64655,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "minimax",
         "source": "official",
         "family": "minimax",
-        "context_window": 196600,
+        "context_window": 196000,
         "page_url": "https://fireworks.ai/models/fireworks/minimax-m2p7",
         "model_type": "chat",
         "capabilities": {
@@ -64619,7 +64674,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-14"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/ministral-3-14b-instruct-2512",
@@ -64806,8 +64861,8 @@ export const providers: ProviderWithModels[] = [
         "name": "mistral-7b-instruct-4k",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -64834,8 +64889,8 @@ export const providers: ProviderWithModels[] = [
         "name": "mistral-7b-instruct-v0p2",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -64862,8 +64917,8 @@ export const providers: ProviderWithModels[] = [
         "name": "mistral-7b-instruct-v3",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -64890,8 +64945,8 @@ export const providers: ProviderWithModels[] = [
         "name": "mistral-7b-v0p2",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -64918,8 +64973,8 @@ export const providers: ProviderWithModels[] = [
         "name": "mistral-7b",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -65089,9 +65144,9 @@ export const providers: ProviderWithModels[] = [
         "name": "mistral-small-24b-instruct-2501",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "mistral-small",
-        "context_window": 32800,
+        "context_window": 32700,
         "alias": "fireworks/mistral-small-24b-instruct",
         "capabilities": {
           "streaming": true
@@ -65118,9 +65173,9 @@ export const providers: ProviderWithModels[] = [
         "name": "mistral-small-24b-instruct-2501",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "mistral-small",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -65203,9 +65258,9 @@ export const providers: ProviderWithModels[] = [
         "name": "mixtral-8x7b-instruct-hf",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "mixtral",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -65230,9 +65285,9 @@ export const providers: ProviderWithModels[] = [
         "name": "mixtral-8x7b-instruct",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "mixtral",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -65257,9 +65312,9 @@ export const providers: ProviderWithModels[] = [
         "name": "mixtral-8x7b",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "mixtral",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -65284,8 +65339,8 @@ export const providers: ProviderWithModels[] = [
         "name": "molmo2-4b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 36900,
+        "last_updated": "2026-05-10",
+        "context_window": 36800,
         "capabilities": {
           "streaming": true
         },
@@ -65302,8 +65357,8 @@ export const providers: ProviderWithModels[] = [
         "name": "molmo2-8b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 36900,
+        "last_updated": "2026-05-10",
+        "context_window": 36800,
         "capabilities": {
           "streaming": true
         },
@@ -65320,8 +65375,8 @@ export const providers: ProviderWithModels[] = [
         "name": "mythomax-l2-13b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -65366,8 +65421,8 @@ export const providers: ProviderWithModels[] = [
         "name": "nemotron-nano-v2-12b-vl",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -65393,8 +65448,8 @@ export const providers: ProviderWithModels[] = [
         "name": "nous-capybara-7b-v1p9",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -65411,8 +65466,8 @@ export const providers: ProviderWithModels[] = [
         "name": "nous-hermes-2-mixtral-8x7b-dpo",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -65428,8 +65483,8 @@ export const providers: ProviderWithModels[] = [
         "name": "nous-hermes-2-yi-34b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -65446,8 +65501,8 @@ export const providers: ProviderWithModels[] = [
         "name": "nous-hermes-llama2-13b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -65464,8 +65519,8 @@ export const providers: ProviderWithModels[] = [
         "name": "nous-hermes-llama2-70b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -65482,8 +65537,8 @@ export const providers: ProviderWithModels[] = [
         "name": "nous-hermes-llama2-7b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -65500,7 +65555,7 @@ export const providers: ProviderWithModels[] = [
         "name": "nvidia-nemotron-3-nano-omni-30b-a3b",
         "created_by": "fireworks",
         "source": "official",
-        "context_window": 262100,
+        "context_window": 262000,
         "parameters": 30,
         "active_parameters": 3,
         "page_url": "https://fireworks.ai/models/fireworks/nvidia-nemotron-3-nano-omni-30b-a3b",
@@ -65512,15 +65567,15 @@ export const providers: ProviderWithModels[] = [
           "output": 1,
           "cached_input": 1
         },
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/nvidia-nemotron-3-super-120b-a12b-fp8",
         "name": "nvidia-nemotron-3-super-120b-a12b-fp8",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 262100,
+        "last_updated": "2026-05-10",
+        "context_window": 262000,
         "capabilities": {
           "streaming": true
         },
@@ -65538,7 +65593,7 @@ export const providers: ProviderWithModels[] = [
         "name": "nvidia-nemotron-3-super-120b-a12b-nvfp4",
         "created_by": "fireworks",
         "source": "official",
-        "context_window": 262100,
+        "context_window": 262000,
         "parameters": 120,
         "active_parameters": 12,
         "page_url": "https://fireworks.ai/models/fireworks/nvidia-nemotron-3-super-120b-a12b-nvfp4",
@@ -65550,7 +65605,7 @@ export const providers: ProviderWithModels[] = [
           "output": 1,
           "cached_input": 1
         },
-        "last_updated": "2026-04-07"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/nvidia-nemotron-nano-12b-v2",
@@ -65593,8 +65648,8 @@ export const providers: ProviderWithModels[] = [
         "name": "openchat-3p5-0106-7b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 8200,
+        "last_updated": "2026-05-10",
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -65611,8 +65666,8 @@ export const providers: ProviderWithModels[] = [
         "name": "openhermes-2-mistral-7b",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -65629,8 +65684,8 @@ export const providers: ProviderWithModels[] = [
         "name": "openhermes-2p5-mistral-7b",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -65647,8 +65702,8 @@ export const providers: ProviderWithModels[] = [
         "name": "openorca-7b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -65665,8 +65720,8 @@ export const providers: ProviderWithModels[] = [
         "name": "phi-2-3b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 2000,
+        "last_updated": "2026-05-10",
+        "context_window": 2040,
         "capabilities": {
           "streaming": true
         },
@@ -65692,8 +65747,8 @@ export const providers: ProviderWithModels[] = [
         "name": "phi-3-mini-128k-instruct",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -65718,8 +65773,8 @@ export const providers: ProviderWithModels[] = [
         "name": "phi-3-vision-128k-instruct",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32100,
+        "last_updated": "2026-05-10",
+        "context_window": 32000,
         "capabilities": {
           "streaming": true
         },
@@ -65744,8 +65799,8 @@ export const providers: ProviderWithModels[] = [
         "name": "phind-code-llama-34b-python-v1",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -65771,8 +65826,8 @@ export const providers: ProviderWithModels[] = [
         "name": "phind-code-llama-34b-v1",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -65798,8 +65853,8 @@ export const providers: ProviderWithModels[] = [
         "name": "phind-code-llama-34b-v2",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -65825,8 +65880,8 @@ export const providers: ProviderWithModels[] = [
         "name": "pythia-12b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 2000,
+        "last_updated": "2026-05-10",
+        "context_window": 2040,
         "capabilities": {
           "streaming": true
         },
@@ -65843,9 +65898,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-qwq-32b-preview",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -65871,9 +65926,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-v2p5-14b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -65899,9 +65954,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen-v2p5-7b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -65927,9 +65982,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen1p5-72b-chat",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen1",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -65955,9 +66010,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2-72b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true,
           "fine_tuning": true
@@ -65989,9 +66044,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2-7b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true,
           "fine_tuning": true
@@ -66022,9 +66077,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2-vl-2b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66050,9 +66105,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2-vl-72b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66078,9 +66133,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2-vl-7b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66106,9 +66161,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-0p5b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66133,9 +66188,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-14b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -66161,9 +66216,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-1p5b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66188,9 +66243,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-32b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66216,9 +66271,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-32b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -66244,9 +66299,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-72b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66272,9 +66327,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-72b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -66300,9 +66355,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-7b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66328,9 +66383,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-coder-0p5b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66355,9 +66410,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-coder-0p5b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66382,9 +66437,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-coder-14b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66410,9 +66465,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-coder-14b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66438,9 +66493,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-coder-1p5b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66465,9 +66520,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-coder-1p5b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66492,9 +66547,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-coder-32b-instruct-128k",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -66520,9 +66575,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-coder-32b-instruct-32k-rope",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66576,9 +66631,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-coder-32b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66604,9 +66659,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-coder-32b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66632,9 +66687,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-coder-3b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66660,9 +66715,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-coder-3b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66688,9 +66743,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-coder-7b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66716,9 +66771,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-coder-7b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -66744,9 +66799,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2p5-math-72b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen2",
-        "context_window": 4100,
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -66884,9 +66939,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-0p6b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 41000,
+        "context_window": 40900,
         "capabilities": {
           "streaming": true
         },
@@ -66911,9 +66966,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-14b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 41000,
+        "context_window": 40900,
         "capabilities": {
           "streaming": true
         },
@@ -66939,9 +66994,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-1p7b-fp8-draft-131072",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -66966,9 +67021,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-1p7b-fp8-draft-40960",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 41000,
+        "context_window": 40900,
         "capabilities": {
           "streaming": true
         },
@@ -66993,9 +67048,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-1p7b-fp8-draft",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "capabilities": {
           "streaming": true
         },
@@ -67020,9 +67075,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-1p7b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -67047,9 +67102,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-235b-a22b-instruct-2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "alias": "fireworks/qwen3-235b-a22b-instruct",
         "capabilities": {
           "streaming": true,
@@ -67080,9 +67135,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-235b-a22b-instruct-2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -67115,9 +67170,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-235b-a22b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -67147,9 +67202,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-30b-a3b-instruct-2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "alias": "fireworks/qwen3-30b-a3b-instruct",
         "capabilities": {
           "streaming": true,
@@ -67180,9 +67235,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-30b-a3b-instruct-2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -67215,9 +67270,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-30b-a3b-thinking-2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "alias": "fireworks/qwen3-30b-a3b-thinking",
         "capabilities": {
           "streaming": true,
@@ -67248,9 +67303,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-30b-a3b-thinking-2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -67283,9 +67338,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-30b-a3b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -67315,9 +67370,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-32b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -67343,9 +67398,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-4b-instruct-2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "alias": "fireworks/qwen3-4b-instruct",
         "capabilities": {
           "streaming": true
@@ -67372,9 +67427,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-4b-instruct-2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "capabilities": {
           "streaming": true
         },
@@ -67403,9 +67458,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-4b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 41000,
+        "context_window": 40900,
         "capabilities": {
           "streaming": true
         },
@@ -67431,9 +67486,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-8b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 41000,
+        "context_window": 40900,
         "capabilities": {
           "streaming": true
         },
@@ -67459,9 +67514,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-coder-30b-a3b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -67491,9 +67546,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-coder-480b-a35b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -67523,9 +67578,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-coder-480b-instruct-bf16",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "capabilities": {
           "streaming": true
         },
@@ -67551,9 +67606,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-embedding-0p6b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 32800,
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -67570,9 +67625,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-embedding-4b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 41000,
+        "context_window": 40900,
         "capabilities": {
           "streaming": true
         },
@@ -67590,9 +67645,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-embedding-8b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 41000,
+        "context_window": 40900,
         "capabilities": {
           "streaming": true
         },
@@ -67701,9 +67756,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-reranker-0p6b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 41000,
+        "context_window": 40900,
         "capabilities": {
           "streaming": true
         },
@@ -67720,9 +67775,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-reranker-4b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 41000,
+        "context_window": 40900,
         "capabilities": {
           "streaming": true
         },
@@ -67740,9 +67795,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-reranker-8b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 41000,
+        "context_window": 40900,
         "capabilities": {
           "streaming": true
         },
@@ -67760,9 +67815,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-235b-a22b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -67796,9 +67851,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-235b-a22b-thinking",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -67832,9 +67887,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-30b-a3b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -67868,9 +67923,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-30b-a3b-thinking",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -67939,9 +67994,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3-vl-8b-instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "capabilities": {
           "streaming": true,
           "vision": true,
@@ -67975,7 +68030,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "parameters": 122,
         "active_parameters": 10,
         "page_url": "https://fireworks.ai/models/fireworks/qwen3p5-122b-a10b",
@@ -67996,7 +68051,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-22"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/qwen3p5-27b",
@@ -68004,7 +68059,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "parameters": 27,
         "page_url": "https://fireworks.ai/models/fireworks/qwen3p5-27b",
         "model_type": "chat",
@@ -68024,7 +68079,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-07"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/qwen3p5-35b-a3b",
@@ -68032,7 +68087,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "parameters": 35,
         "active_parameters": 3,
         "page_url": "https://fireworks.ai/models/fireworks/qwen3p5-35b-a3b",
@@ -68053,7 +68108,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-07"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/qwen3p5-397b-a17b",
@@ -68061,7 +68116,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "parameters": 397,
         "active_parameters": 17,
         "page_url": "https://fireworks.ai/models/fireworks/qwen3p5-397b-a17b",
@@ -68082,7 +68137,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-01"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/qwen3p5-9b",
@@ -68090,7 +68145,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "parameters": 9,
         "page_url": "https://fireworks.ai/models/fireworks/qwen3p5-9b",
         "model_type": "chat",
@@ -68110,7 +68165,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-07"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/qwen3p6-27b",
@@ -68118,7 +68173,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "parameters": 27,
         "page_url": "https://fireworks.ai/models/fireworks/qwen3p6-27b",
         "model_type": "chat",
@@ -68138,7 +68193,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-06"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/qwen3p6-35b-a3b",
@@ -68146,7 +68201,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3",
-        "context_window": 262100,
+        "context_window": 262000,
         "parameters": 35,
         "active_parameters": 3,
         "page_url": "https://fireworks.ai/models/fireworks/qwen3p6-35b-a3b",
@@ -68167,7 +68222,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-06"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/qwen3p6-plus",
@@ -68200,9 +68255,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwq-32b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-10",
         "family": "qwq",
-        "context_window": 131100,
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -68245,8 +68300,8 @@ export const providers: ProviderWithModels[] = [
         "name": "seed-oss-36b-instruct",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 524300,
+        "last_updated": "2026-05-10",
+        "context_window": 524000,
         "capabilities": {
           "streaming": true
         },
@@ -68263,8 +68318,8 @@ export const providers: ProviderWithModels[] = [
         "name": "snorkel-mistral-7b-pairrm-dpo",
         "created_by": "mistral",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -68332,8 +68387,8 @@ export const providers: ProviderWithModels[] = [
         "name": "starcoder-16b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 8200,
+        "last_updated": "2026-05-10",
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -68350,8 +68405,8 @@ export const providers: ProviderWithModels[] = [
         "name": "starcoder-7b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 8200,
+        "last_updated": "2026-05-10",
+        "context_window": 8190,
         "capabilities": {
           "streaming": true
         },
@@ -68368,8 +68423,8 @@ export const providers: ProviderWithModels[] = [
         "name": "starcoder2-15b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -68386,8 +68441,8 @@ export const providers: ProviderWithModels[] = [
         "name": "starcoder2-3b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -68404,8 +68459,8 @@ export const providers: ProviderWithModels[] = [
         "name": "starcoder2-7b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 16400,
+        "last_updated": "2026-05-10",
+        "context_window": 16300,
         "capabilities": {
           "streaming": true
         },
@@ -68422,8 +68477,8 @@ export const providers: ProviderWithModels[] = [
         "name": "toppy-m-7b",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -68440,7 +68495,7 @@ export const providers: ProviderWithModels[] = [
         "name": "voyage-4-nano",
         "created_by": "fireworks",
         "source": "official",
-        "context_window": 41000,
+        "context_window": 40900,
         "page_url": "https://fireworks.ai/models/fireworks/voyage-4-nano",
         "capabilities": {
           "streaming": true
@@ -68450,7 +68505,7 @@ export const providers: ProviderWithModels[] = [
           "output": 1,
           "cached_input": 1
         },
-        "last_updated": "2026-05-06"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "fireworks/whisper-v3-turbo",
@@ -68511,8 +68566,8 @@ export const providers: ProviderWithModels[] = [
         "name": "zephyr-7b-beta",
         "created_by": "fireworks",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -68529,8 +68584,8 @@ export const providers: ProviderWithModels[] = [
         "name": "dobby-unhinged-llama-3-3-70b-new",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -68547,8 +68602,8 @@ export const providers: ProviderWithModels[] = [
         "name": "dobby-mini-unhinged-plus-llama-3-1-8b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 131100,
+        "last_updated": "2026-05-10",
+        "context_window": 131000,
         "capabilities": {
           "streaming": true
         },
@@ -68565,8 +68620,8 @@ export const providers: ProviderWithModels[] = [
         "name": "yi-34b-chat",
         "created_by": "yi-01-ai",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -68583,8 +68638,8 @@ export const providers: ProviderWithModels[] = [
         "name": "yi-34b",
         "created_by": "yi-01-ai",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -68601,8 +68656,8 @@ export const providers: ProviderWithModels[] = [
         "name": "yi-6b",
         "created_by": "yi-01-ai",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 4100,
+        "last_updated": "2026-05-10",
+        "context_window": 4090,
         "capabilities": {
           "streaming": true
         },
@@ -68619,8 +68674,8 @@ export const providers: ProviderWithModels[] = [
         "name": "yi-large",
         "created_by": "yi-01-ai",
         "source": "official",
-        "last_updated": "2026-03-23",
-        "context_window": 32800,
+        "last_updated": "2026-05-10",
+        "context_window": 32700,
         "capabilities": {
           "streaming": true
         },
@@ -69320,7 +69375,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-lite-preview-09-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-04-01",
+        "last_updated": "2026-05-10",
         "family": "gemini-2.5",
         "status": "deprecated",
         "knowledge_cutoff": "2025-01",
@@ -69360,7 +69415,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite-preview-09-2025",
         "open_weight": false,
         "deprecation_date": "2026-03-31",
-        "successor": "gemini-3.1-flash-lite-preview"
+        "successor": "gemini-3.1-flash-lite"
       },
       {
         "id": "gemini-2.5-flash-lite",
@@ -70368,6 +70423,89 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "description": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks. Gemini 3.1 Flash-Lite is best for high-volume agentic tasks, simple data extraction, and extremely low-latency applications where budget and speed are the primary constraints.",
         "tagline": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks."
+      },
+      {
+        "id": "gemini-3.1-flash-lite",
+        "name": "gemini-3.1-flash-lite",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3.1",
+        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "status": "active",
+        "knowledge_cutoff": "2025-01",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
+        "model_type": "chat",
+        "tagline": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary con",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "image",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5,
+          "cached_input": 0.025,
+          "batch_input": 0.125,
+          "batch_output": 0.75,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.25,
+                    0.025,
+                    1.5
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.125,
+                    null,
+                    0.75
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "open_weight": false,
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-05-10"
       },
       {
         "id": "gemini-3.1-flash-live-preview",
@@ -88743,7 +88881,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-10",
+        "description": "IBM Granite Models are a family of enterprise-ready, open foundation models that support multilingual capabilities, coding, retrieval-augmented generation (RAG), tool use, and structured JSON output. Released under Apache 2.0 license.",
+        "tagline": "IBM Granite Models are a family of enterprise-ready, open foundation models that support multilingual capabilities, coding, retrieval-augmented generation (RAG), tool use, and structured JSON output."
       },
       {
         "id": "granite4",
@@ -99564,6 +99704,124 @@ export const providers: ProviderWithModels[] = [
         ]
       },
       {
+        "id": "gpt-realtime-2",
+        "name": "gpt-realtime-2",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-realtime",
+        "description": "GPT Realtime 2 is our most capable realtime voice model. It supports speech-to-speech interactions with configurable reasoning effort, stronger instruction following, and more reliable tool use for complex voice-agent workflows.",
+        "status": "active",
+        "knowledge_cutoff": "2024-09",
+        "context_window": 128000,
+        "max_output_tokens": 32000,
+        "model_type": "reasoning",
+        "reasoning_tokens": true,
+        "license": "proprietary",
+        "performance": 5,
+        "reasoning": 5,
+        "speed": 4,
+        "tagline": "Reasoning model for realtime voice interactions",
+        "page_url": "https://developers.openai.com/api/docs/models/gpt-realtime-2",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": false,
+          "vision": false,
+          "tool_call": true,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio",
+            "image"
+          ],
+          "output": [
+            "text",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 4,
+          "output": 24,
+          "cached_input": 0.4,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    4,
+                    0.4,
+                    24
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audio tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    32,
+                    0.4,
+                    64
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Image tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    5,
+                    0.5,
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "realtime"
+        ],
+        "pricing_notes": [
+          "GPT Realtime 2 supports configurable reasoning effort. Higher reasoning effort can increase latency and output token usage."
+        ],
+        "snapshots": [
+          "gpt-realtime-2"
+        ],
+        "last_updated": "2026-05-10"
+      },
+      {
         "id": "gpt-realtime-2025-08-28",
         "name": "gpt-realtime-2025-08-28",
         "created_by": "openai",
@@ -100013,6 +100271,138 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "release_date": "2025-12-15"
+      },
+      {
+        "id": "gpt-realtime-translate",
+        "name": "gpt-realtime-translate",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-realtime",
+        "description": "GPT Realtime Translate is a streaming speech-to-speech translation model for live multilingual audio experiences. It uses a dedicated realtime translation endpoint and returns translated audio plus transcript deltas while source audio is still arriving. GPT Realtime Translate is priced by audio duration rather than text tokens.",
+        "status": "active",
+        "knowledge_cutoff": "2024-09",
+        "context_window": 16000,
+        "max_output_tokens": 2000,
+        "model_type": "audio",
+        "license": "proprietary",
+        "performance": 5,
+        "speed": 5,
+        "tagline": "Streaming speech-to-speech translation model",
+        "page_url": "https://developers.openai.com/api/docs/models/gpt-realtime-translate",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "vision": false,
+          "tool_call": false,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
+          "reasoning": false
+        },
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "audio",
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Realtime audio duration",
+              "unit": "Per minute",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.034
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "realtime_translation"
+        ],
+        "pricing_notes": [
+          "GPT Realtime Translate is priced by audio duration rather than text tokens."
+        ],
+        "snapshots": [
+          "gpt-realtime-translate"
+        ],
+        "last_updated": "2026-05-10"
+      },
+      {
+        "id": "gpt-realtime-whisper",
+        "name": "gpt-realtime-whisper",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-realtime",
+        "description": "GPT Realtime Whisper is a streaming speech-to-text model for applications that need low-latency transcript deltas from live audio. It is designed for realtime use cases where developers need to tune latency and accuracy. GPT Realtime Whisper is priced by audio duration rather than text tokens.",
+        "status": "active",
+        "knowledge_cutoff": "2024-09",
+        "context_window": 16000,
+        "max_output_tokens": 2000,
+        "model_type": "audio",
+        "license": "proprietary",
+        "performance": 4,
+        "speed": 5,
+        "tagline": "Streaming speech-to-text model for realtime transcription",
+        "page_url": "https://developers.openai.com/api/docs/models/gpt-realtime-whisper",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "vision": false,
+          "tool_call": false,
+          "structured_output": false,
+          "json_mode": false,
+          "fine_tuning": false,
+          "reasoning": false
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "tiers": [
+            {
+              "label": "Realtime audio duration",
+              "unit": "Per minute",
+              "columns": [
+                "Price"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.017
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "endpoints": [
+          "realtime_transcription"
+        ],
+        "pricing_notes": [
+          "GPT Realtime Whisper is priced by audio duration rather than text tokens."
+        ],
+        "snapshots": [
+          "gpt-realtime-whisper"
+        ],
+        "last_updated": "2026-05-10"
       },
       {
         "id": "gpt-realtime",
@@ -106972,12 +107362,12 @@ export const providers: ProviderWithModels[] = [
         "name": "Google: Gemini 2.0 Flash",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-05-06",
+        "last_updated": "2026-05-10",
         "family": "gemini-2.0",
         "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5).",
         "status": "deprecated",
         "deprecation_date": "2026-06-01",
-        "context_window": 1048576,
+        "context_window": 1000000,
         "max_output_tokens": 8192,
         "modalities": {
           "input": [
@@ -107570,6 +107960,51 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
+        "knowledge_cutoff": "2025-01",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "google/gemini-3.1-flash-lite",
+        "name": "Google: Gemini 3.1 Flash Lite",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3.1",
+        "description": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads.",
+        "release_date": "2026-05-07",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "tagline": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "streaming": true,
+          "batch": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5,
+          "cached_input": 0.025
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-10",
         "knowledge_cutoff": "2025-01",
         "license": "proprietary",
         "open_weight": false
@@ -108424,6 +108859,39 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-05-01"
       },
       {
+        "id": "inclusionai/ling-2.6-1t",
+        "name": "inclusionAI: Ling-2.6-1T",
+        "created_by": "inclusionai",
+        "source": "official",
+        "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale.",
+        "release_date": "2026-04-23",
+        "context_window": 262144,
+        "max_output_tokens": 32768,
+        "tagline": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 2.5,
+          "cached_input": 0.06
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-10"
+      },
+      {
         "id": "inclusionai/ling-2.6-flash:free",
         "name": "inclusionAI: Ling-2.6-flash (free)",
         "created_by": "inclusionai",
@@ -108485,6 +108953,33 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-05-01"
+      },
+      {
+        "id": "inclusionai/ring-2.6-1t:free",
+        "name": "inclusionAI: Ring-2.6-1T (free)",
+        "created_by": "inclusionai",
+        "source": "official",
+        "description": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency.",
+        "release_date": "2026-05-08",
+        "context_window": 262144,
+        "max_output_tokens": 65536,
+        "tagline": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency.",
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-10"
       },
       {
         "id": "inflection/inflection-3-pi",
@@ -109514,10 +110009,10 @@ export const providers: ProviderWithModels[] = [
         "name": "MiniMax: MiniMax M2.5",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-04-25",
+        "last_updated": "2026-05-10",
         "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity.",
         "context_window": 196608,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 196608,
         "modalities": {
           "input": [
             "text"
@@ -109554,7 +110049,7 @@ export const providers: ProviderWithModels[] = [
         "name": "MiniMax: MiniMax M2.7",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-04-14",
+        "last_updated": "2026-05-10",
         "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement.",
         "context_window": 196608,
         "max_output_tokens": 131072,
@@ -109574,7 +110069,7 @@ export const providers: ProviderWithModels[] = [
           "streaming": true
         },
         "pricing": {
-          "input": 0.3,
+          "input": 0.299,
           "output": 1.2,
           "cached_input": 0.059
         },
@@ -111061,7 +111556,7 @@ export const providers: ProviderWithModels[] = [
         "name": "MoonshotAI: Kimi K2 0905",
         "created_by": "moonshotai",
         "source": "official",
-        "last_updated": "2026-04-08",
+        "last_updated": "2026-05-10",
         "description": "Kimi K2 0905 is the September update of [Kimi K2 0711](moonshotai/kimi-k2).",
         "context_window": 262144,
         "modalities": {
@@ -111089,7 +111584,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "max_output_tokens": 262144
+        "max_output_tokens": 262144,
+        "status": "deprecated",
+        "deprecation_date": "2026-05-14"
       },
       {
         "id": "moonshotai/kimi-k2-thinking",
@@ -114603,8 +115100,8 @@ export const providers: ProviderWithModels[] = [
         "name": "Auto Router",
         "created_by": "openrouter",
         "source": "official",
-        "last_updated": "2026-04-22",
-        "description": "\"Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.",
+        "last_updated": "2026-05-10",
+        "description": "Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.",
         "context_window": 2000000,
         "modalities": {
           "input": [
@@ -114739,9 +115236,9 @@ export const providers: ProviderWithModels[] = [
         "name": "Pareto Code Router",
         "created_by": "openrouter",
         "source": "official",
-        "description": "The Pareto Router is a way to have OpenRouter always pick a strong coding model for your needs without committing to a specific one.",
+        "description": "The Pareto Router maintains a tiered shortlist of strong coding models, ranked by [Artificial Analysis](https://artificialanalysis.ai/) coding percentiles.",
         "release_date": "2026-04-21",
-        "context_window": 200000,
+        "context_window": 2000000,
         "tagline": "The Pareto Router is a way to have OpenRouter always pick a strong coding model for your needs without committing to a specific one.",
         "modalities": {
           "input": [
@@ -114751,7 +115248,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-22"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "perplexity/sonar-deep-research",
@@ -115878,11 +116375,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 32B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-10",
         "family": "qwen3",
         "description": "Qwen3-32B is a dense 32.8B parameter causal language model from the Qwen3 series, optimized for both complex reasoning and efficient dialogue.",
         "context_window": 40960,
-        "max_output_tokens": 40960,
+        "max_output_tokens": 16384,
         "modalities": {
           "input": [
             "text"
@@ -115899,7 +116396,7 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.08,
-          "output": 0.24,
+          "output": 0.28,
           "cached_input": 0.04
         },
         "model_type": "chat",
@@ -116775,11 +117272,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3.5-35B-A3B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-05-06",
+        "last_updated": "2026-05-10",
         "family": "qwen3.5",
         "description": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency.",
         "context_window": 262144,
-        "max_output_tokens": 262144,
+        "max_output_tokens": 81920,
         "modalities": {
           "input": [
             "text",
@@ -116799,7 +117296,7 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.15,
+          "input": 0.14,
           "output": 1,
           "cached_input": 0.05
         },
@@ -116863,7 +117360,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3.5-9B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-05-10",
         "family": "qwen3.5",
         "description": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture.",
         "context_window": 262144,
@@ -116884,7 +117381,7 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.1,
+          "input": 0.04,
           "output": 0.15
         },
         "model_type": "chat",
@@ -116894,7 +117391,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "max_output_tokens": 32768
+        "max_output_tokens": 81920
       },
       {
         "id": "qwen/qwen3.5-flash-02-23",
@@ -117812,6 +118309,38 @@ export const providers: ProviderWithModels[] = [
         "deprecation_date": "2026-05-08"
       },
       {
+        "id": "tencent/hy3-preview",
+        "name": "Tencent: Hy3 preview",
+        "created_by": "tencent",
+        "source": "official",
+        "description": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use.",
+        "release_date": "2026-04-22",
+        "context_window": 262144,
+        "max_output_tokens": 262144,
+        "tagline": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use.",
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.066,
+          "output": 0.26,
+          "cached_input": 0.029
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-10"
+      },
+      {
         "id": "thedrummer/cydonia-24b-v4.1",
         "name": "TheDrummer: Cydonia 24B V4.1",
         "created_by": "thedrummer",
@@ -118401,7 +118930,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "xai",
         "source": "official",
         "family": "grok-4.20",
-        "description": "Grok 4.20 is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities.",
+        "description": "Grok 4.20 is a reasoning model from xAI with industry-leading speed and agentic tool calling capabilities.",
         "release_date": "2026-03-31",
         "context_window": 2000000,
         "model_type": "chat",
@@ -118429,7 +118958,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "x-ai/grok-4.3",
@@ -118558,7 +119087,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Xiaomi: MiMo-V2-Flash",
         "created_by": "xiaomi",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-10",
         "description": "MiMo-V2-Flash is an open-source foundation language model developed by Xiaomi.",
         "context_window": 262144,
         "max_output_tokens": 65536,
@@ -118579,9 +119108,9 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.09,
-          "output": 0.29,
-          "cached_input": 0.045
+          "input": 0.1,
+          "output": 0.3,
+          "cached_input": 0.01
         },
         "release_date": "2025-12-14",
         "tagline": "MiMo-V2-Flash is an open-source foundation language model developed by Xiaomi.",
@@ -118691,7 +119220,7 @@ export const providers: ProviderWithModels[] = [
         "description": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as C",
         "release_date": "2026-04-22",
         "context_window": 1048576,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 16384,
         "model_type": "chat",
         "tagline": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as C",
         "capabilities": {
@@ -118716,7 +119245,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-24"
+        "last_updated": "2026-05-10"
       },
       {
         "id": "xiaomi/mimo-v2.5",
@@ -118932,7 +119461,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Z.ai: GLM 4.6",
         "created_by": "z-ai",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-05-10",
         "description": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex.",
         "context_window": 204800,
         "max_output_tokens": 204800,
@@ -118960,7 +119489,9 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Compared with GLM-4.5, this generation brings several key improvements:\n\nLonger context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "status": "deprecated",
+        "deprecation_date": "2026-05-14"
       },
       {
         "id": "z-ai/glm-4.6v",
@@ -119041,10 +119572,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Z.ai: GLM 4.7",
         "created_by": "z-ai",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-05-10",
         "description": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution.",
         "context_window": 202752,
-        "max_output_tokens": 65535,
+        "max_output_tokens": 131072,
         "modalities": {
           "input": [
             "text"
@@ -119060,9 +119591,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.38,
-          "output": 1.74,
-          "cached_input": 0.195
+          "input": 0.4,
+          "output": 1.75,
+          "cached_input": 0.08
         },
         "family": "glm-4.7",
         "model_type": "chat",
@@ -120191,19 +120722,19 @@ export const providers: ProviderWithModels[] = [
         "knowledge_cutoff": "2024-11"
       },
       {
-        "id": "xai/grok-4.20-reasoning",
-        "name": "xai/grok-4.20-reasoning",
+        "id": "xai/grok-4.20-multi-agent",
+        "name": "xai/grok-4.20-multi-agent",
         "created_by": "xai",
         "source": "official",
         "family": "grok-4.20",
         "license": "proprietary",
-        "model_type": "reasoning",
+        "model_type": "chat",
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 2,
-          "output": 6,
+          "input": 1.25,
+          "output": 2.5,
           "cached_input": 0.2
         },
         "open_weight": false,
@@ -120215,7 +120746,96 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-10"
+      },
+      {
+        "id": "xai/grok-4.20-non-reasoning",
+        "name": "xai/grok-4.20-non-reasoning",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-4.20",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 2.5,
+          "cached_input": 0.2
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-10"
+      },
+      {
+        "id": "xai/grok-4.20-reasoning",
+        "name": "xai/grok-4.20-reasoning",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-4.20",
+        "license": "proprietary",
+        "model_type": "reasoning",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 2.5,
+          "cached_input": 0.2
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-10"
+      },
+      {
+        "id": "xai/grok-4.3",
+        "name": "xai/grok-4.3",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-4.3",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "batch": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 2.5,
+          "cached_input": 0.2
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-10",
+        "context_window": 1000000,
+        "knowledge_cutoff": "2024-11"
       }
     ]
   },
@@ -129517,6 +130137,46 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false
       },
       {
+        "id": "google/gemini-3.1-flash-lite",
+        "name": "gemini-3.1-flash-lite",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3.1",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true,
+          "structured_output": true,
+          "batch": true,
+          "json_mode": true
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-10",
+        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "tagline": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary con",
+        "max_output_tokens": 65536,
+        "knowledge_cutoff": "2025-01",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
         "id": "google/gemini-3.1-pro-preview",
         "name": "gemini-3.1-pro-preview",
         "created_by": "google",
@@ -136187,7 +136847,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.5-flash-lite-preview-09-2025",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-04-01",
+        "last_updated": "2026-05-10",
         "family": "gemini-2.5",
         "status": "deprecated",
         "knowledge_cutoff": "2025-01",
@@ -136269,7 +136929,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "deprecation_date": "2026-03-31",
-        "successor": "gemini-3.1-flash-lite-preview"
+        "successor": "gemini-3.1-flash-lite"
       },
       {
         "id": "gemini-2.5-flash-lite",
@@ -137593,7 +138253,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-3.1-flash-lite-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-05-10",
         "family": "gemini-3.1",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -137624,7 +138284,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.25,
           "output": 1.5,
-          "batch_input": 0.13,
+          "batch_input": 0.125,
           "batch_output": 0.75,
           "tiers": [
             {
@@ -137655,7 +138315,7 @@ export const providers: ProviderWithModels[] = [
                 {
                   "label": "Flex",
                   "values": [
-                    0.13,
+                    0.125,
                     null,
                     0.75
                   ]
@@ -137676,6 +138336,95 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "description": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks. Gemini 3.1 Flash-Lite is best for high-volume agentic tasks, simple data extraction, and extremely low-latency applications where budget and speed are the primary constraints.",
         "tagline": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks."
+      },
+      {
+        "id": "gemini-3.1-flash-lite",
+        "name": "gemini-3.1-flash-lite",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3.1",
+        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "status": "active",
+        "knowledge_cutoff": "2025-01",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
+        "license": "proprietary",
+        "tagline": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary con",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video",
+            "audio"
+          ],
+          "output": [
+            "text",
+            "image",
+            "audio"
+          ]
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5,
+          "batch_input": 0.125,
+          "batch_output": 0.75,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.25,
+                    null,
+                    1.5
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    0.45,
+                    null,
+                    2.7
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.125,
+                    null,
+                    0.75
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-05-10"
       },
       {
         "id": "gemini-3.1-flash-live-preview",

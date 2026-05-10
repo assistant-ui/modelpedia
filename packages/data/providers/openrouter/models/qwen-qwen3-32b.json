@@ -3,11 +3,11 @@
   "name": "Qwen: Qwen3 32B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-05-10",
   "family": "qwen3",
   "description": "Qwen3-32B is a dense 32.8B parameter causal language model from the Qwen3 series, optimized for both complex reasoning and efficient dialogue.",
   "context_window": 40960,
-  "max_output_tokens": 40960,
+  "max_output_tokens": 16384,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -20,7 +20,7 @@
   },
   "pricing": {
     "input": 0.08,
-    "output": 0.24,
+    "output": 0.28,
     "cached_input": 0.04
   },
   "_generated": {
@@ -28,10 +28,10 @@
     "family": "48c385a0",
     "description": "22ed8135",
     "context_window": "a422a18c",
-    "max_output_tokens": "a422a18c",
+    "max_output_tokens": "c76fe1d8",
     "modalities": "68e53d93",
     "capabilities": "03fbefb4",
-    "pricing": "6379b052",
+    "pricing": "499c2b80",
     "model_type": "d669f408",
     "parameters": "6364d3f0",
     "release_date": "1487959c",

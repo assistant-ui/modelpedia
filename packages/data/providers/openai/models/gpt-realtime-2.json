@@ -1,0 +1,105 @@
+{
+  "id": "gpt-realtime-2",
+  "name": "gpt-realtime-2",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-realtime",
+  "description": "GPT Realtime 2 is our most capable realtime voice model. It supports speech-to-speech interactions with configurable reasoning effort, stronger instruction following, and more reliable tool use for complex voice-agent workflows.",
+  "status": "active",
+  "knowledge_cutoff": "2024-09",
+  "context_window": 128000,
+  "max_output_tokens": 32000,
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "performance": 5,
+  "reasoning": 5,
+  "speed": 4,
+  "tagline": "Reasoning model for realtime voice interactions",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-realtime-2",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": false,
+    "vision": false,
+    "tool_call": true,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "audio", "image"],
+    "output": ["text", "audio"]
+  },
+  "pricing": {
+    "input": 4,
+    "output": 24,
+    "cached_input": 0.4,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [4, 0.4, 24]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [32, 0.4, 64]
+          }
+        ]
+      },
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 0.5, null]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["realtime"],
+  "pricing_notes": [
+    "GPT Realtime 2 supports configurable reasoning effort. Higher reasoning effort can increase latency and output token usage."
+  ],
+  "snapshots": ["gpt-realtime-2"],
+  "_generated": {
+    "name": "5303ee7a",
+    "family": "f5032d33",
+    "description": "45ddd65c",
+    "status": "379ac110",
+    "knowledge_cutoff": "b0196d6e",
+    "context_window": "34434798",
+    "max_output_tokens": "10e4d788",
+    "model_type": "17475f7f",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "a87ff679",
+    "tagline": "654d137c",
+    "page_url": "8e1de665",
+    "open_weight": "68934a3e",
+    "capabilities": "d16fa23e",
+    "modalities": "96cad1df",
+    "pricing": "e720c7fa",
+    "tools": "f0c1dc7e",
+    "endpoints": "c7ed7203",
+    "pricing_notes": "a51ab2b1"
+  },
+  "last_updated": "2026-05-10"
+}

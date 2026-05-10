@@ -3,9 +3,9 @@
   "name": "qwen3-reranker-8b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-10",
   "family": "qwen3",
-  "context_window": 41000,
+  "context_window": 40900,
   "capabilities": {
     "streaming": true
   },
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "4fdf86e9",
     "family": "48c385a0",
-    "context_window": "225178b1",
+    "context_window": "aa839cfb",
     "capabilities": "0fa77dc6",
     "pricing": "f1152bb7",
     "model_type": "477930e6",

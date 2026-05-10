@@ -3,9 +3,9 @@
   "name": "llama-guard-2-8b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-10",
   "family": "llama-guard",
-  "context_window": 8200,
+  "context_window": 8190,
   "capabilities": {
     "streaming": true
   },
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "f8028bed",
     "family": "3190be28",
-    "context_window": "486c0401",
+    "context_window": "16bb35ba",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "1e7a7b87",
