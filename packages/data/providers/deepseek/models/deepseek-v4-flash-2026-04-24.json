@@ -1,18 +1,16 @@
 {
-  "id": "deepseek-v4-pro",
-  "name": "DeepSeek V4-Pro",
+  "id": "deepseek-v4-flash-2026-04-24",
+  "name": "DeepSeek V4-Flash",
   "created_by": "deepseek",
   "source": "official",
   "family": "deepseek-chat",
-  "description": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
   "status": "active",
   "release_date": "2026-04-24",
   "context_window": 1000000,
   "max_output_tokens": 384000,
   "model_type": "chat",
-  "reasoning_tokens": true,
   "license": "mit",
-  "tagline": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
+  "alias": "deepseek-v4-flash",
   "capabilities": {
     "streaming": true,
     "json_mode": true,
@@ -25,32 +23,30 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.435,
-    "output": 0.87,
-    "cached_input": 0.003625
+    "input": 0.14,
+    "output": 0.28,
+    "cached_input": 0.0028
   },
   "open_weight": true,
   "endpoints": ["chat_completions", "completions"],
   "tools": ["function_calling"],
-  "snapshots": ["deepseek-v4-pro-2026-04-24"],
   "_generated": {
-    "name": "acc10913",
+    "name": "b1da8d61",
     "family": "fbd79fd9",
-    "description": "7178a6ca",
     "status": "379ac110",
     "release_date": "173d2bb2",
     "context_window": "8155bc54",
     "max_output_tokens": "c58e26bd",
     "model_type": "d669f408",
-    "reasoning_tokens": "b326b506",
     "license": "3c4c3ba5",
-    "tagline": "7178a6ca",
     "capabilities": "3938d31c",
     "modalities": "68e53d93",
-    "pricing": "6cd82e55",
+    "pricing": "22948965",
     "open_weight": "b326b506",
     "endpoints": "772bacef",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "reasoning_tokens": "b326b506"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-05-11",
+  "reasoning_tokens": true
 }
