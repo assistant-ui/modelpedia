@@ -43,7 +43,17 @@ export function writeModelJson(
 
 export function runGenerate(): void {
   console.log("\nRegenerating data.ts...");
-  execSync("bun scripts/generate.ts", { stdio: "inherit", cwd: ROOT });
+  try {
+    execSync("bun scripts/generate.ts", { stdio: "inherit", cwd: ROOT });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err);
+    if (!message.includes("bun")) throw err;
+    console.warn("bun is not available; falling back to pnpm exec jiti");
+    execSync("pnpm exec jiti scripts/generate.ts", {
+      stdio: "inherit",
+      cwd: ROOT,
+    });
+  }
 }
 
 // ── Env ──
