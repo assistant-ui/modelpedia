@@ -1,0 +1,42 @@
+{
+  "id": "sd-vae-ft-mse-original",
+  "name": "Sd Vae Ft Mse Original",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Sd Vae Ft Mse Original is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2022-10-13",
+  "model_type": "image",
+  "license": "mit",
+  "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-mse-original",
+  "open_weight": true,
+  "tagline": "Sd Vae Ft Mse Original is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 0,
+  "last_modified": "2022-12-19",
+  "_generated": {
+    "name": "524dfd54",
+    "description": "d2baf4ff",
+    "status": "379ac110",
+    "release_date": "de33cadc",
+    "model_type": "db8857fe",
+    "license": "3c4c3ba5",
+    "page_url": "bf61b5a7",
+    "open_weight": "b326b506",
+    "tagline": "d2baf4ff",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "cfcd2084",
+    "last_modified": "ea7a3bfc"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "fal-ai/stepx-edit2",
+  "name": "Stepx Edit2",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Image-to-image editing with Step1X-Edit v2 from StepFun.",
+  "status": "active",
+  "release_date": "2025-12-09",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/stepx-edit2",
+  "tagline": "Image-to-image editing with Step1X-Edit v2 from StepFun.",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "e2a61182",
+    "description": "b5063dd0",
+    "status": "379ac110",
+    "release_date": "c41dad30",
+    "model_type": "db8857fe",
+    "page_url": "d513a46e",
+    "tagline": "b5063dd0",
+    "capabilities": "da15458e",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

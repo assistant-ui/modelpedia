@@ -1,0 +1,33 @@
+{
+  "id": "fal-ai/gemini-3.1-flash-tts",
+  "name": "Gemini 3.1 Flash Tts",
+  "created_by": "fal",
+  "source": "official",
+  "family": "gemini-3.1",
+  "description": "Newest audio model from Google introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
+  "status": "active",
+  "release_date": "2026-04-16",
+  "model_type": "tts",
+  "page_url": "https://fal.run/fal-ai/gemini-3.1-flash-tts",
+  "tagline": "Newest audio model from Google introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "482b8d3c",
+    "family": "ea4a1a23",
+    "description": "4e8518e0",
+    "status": "379ac110",
+    "release_date": "008001ac",
+    "model_type": "4e16a2cf",
+    "page_url": "de8baeb8",
+    "tagline": "4e8518e0",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

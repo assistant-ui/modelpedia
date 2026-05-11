@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-subject",
+  "name": "FLUX.1 Subject",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Super fast endpoint for the FLUX.1 [schnell] model with subject input capabilities, enabling rapid and high-quality image generation for personalization, specific styles, brand identities, and product",
+  "status": "active",
+  "release_date": "2024-08-01",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-subject",
+  "tagline": "Super fast endpoint for the FLUX.1 [schnell] model with subject input capabilities, enabling rapid and high-quality image generation for personalization, specific styles, brand identities, and product",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "c79ed7cf",
+    "description": "d67fad48",
+    "status": "379ac110",
+    "release_date": "d616039b",
+    "model_type": "db8857fe",
+    "page_url": "8638ac77",
+    "tagline": "d67fad48",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

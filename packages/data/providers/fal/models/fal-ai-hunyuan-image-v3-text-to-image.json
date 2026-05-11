@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/hunyuan-image/v3/text-to-image",
+  "name": "Hunyuan Image",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Leverage the state-of-the-art capabilities of Hunyuan Image 3.0 to generate visual content that effectively conveys the messaging of your written material.",
+  "status": "active",
+  "release_date": "2025-09-28",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/hunyuan-image/v3/text-to-image",
+  "tagline": "Leverage the state-of-the-art capabilities of Hunyuan Image 3.0 to generate visual content that effectively conveys the messaging of your written material.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "1618aafb",
+    "description": "8eef246d",
+    "status": "379ac110",
+    "release_date": "4fabe699",
+    "model_type": "db8857fe",
+    "page_url": "b4641c21",
+    "tagline": "8eef246d",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

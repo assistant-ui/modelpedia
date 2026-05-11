@@ -1,0 +1,24 @@
+{
+  "id": "resemble-ai/chatterboxhd/speech-to-speech",
+  "name": "Chatterboxhd",
+  "created_by": "resemble-ai",
+  "source": "official",
+  "description": "Transform voices using Resemble AI's Chatterbox.",
+  "status": "active",
+  "release_date": "2025-06-02",
+  "model_type": "other",
+  "page_url": "https://fal.run/resemble-ai/chatterboxhd/speech-to-speech",
+  "tagline": "Transform voices using Resemble AI's Chatterbox.",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "02418d7c",
+    "description": "d1a67187",
+    "status": "379ac110",
+    "release_date": "0629f6b1",
+    "model_type": "ddb0b7bc",
+    "page_url": "ab7a08f5",
+    "tagline": "d1a67187",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

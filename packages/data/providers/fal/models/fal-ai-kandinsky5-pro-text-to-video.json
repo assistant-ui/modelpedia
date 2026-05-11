@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/kandinsky5-pro/text-to-video",
+  "name": "Kandinsky5 Pro",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kandinsky 5.0 Pro is a diffusion model for fast, high-quality text-to-video generation.",
+  "status": "active",
+  "release_date": "2025-12-23",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kandinsky5-pro/text-to-video",
+  "tagline": "Kandinsky 5.0 Pro is a diffusion model for fast, high-quality text-to-video generation.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "b6cd2e1c",
+    "description": "49127179",
+    "status": "379ac110",
+    "release_date": "b3874102",
+    "model_type": "4d1b75ca",
+    "page_url": "f52fbc5c",
+    "tagline": "49127179",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/workflow-utilities/audio-compressor",
+  "name": "Workflow Utilities",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FFMPEG Utility for Audio Compression",
+  "status": "active",
+  "release_date": "2026-02-05",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/workflow-utilities/audio-compressor",
+  "tagline": "FFMPEG Utility for Audio Compression",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "5a6862ba",
+    "description": "000d6d31",
+    "status": "379ac110",
+    "release_date": "c7536487",
+    "model_type": "ddb0b7bc",
+    "page_url": "57b97e94",
+    "tagline": "000d6d31",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

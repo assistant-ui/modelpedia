@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/nucleus-image",
+  "name": "Nucleus Image",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Nucleus-Image is a text-to-image generation model built on a sparse mixture-of-experts (MoE) diffusion transformer architecture.",
+  "status": "active",
+  "release_date": "2026-04-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/nucleus-image",
+  "tagline": "Nucleus-Image is a text-to-image generation model built on a sparse mixture-of-experts (MoE) diffusion transformer architecture.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "f39b89fc",
+    "description": "02ab01d2",
+    "status": "379ac110",
+    "release_date": "008001ac",
+    "model_type": "db8857fe",
+    "page_url": "5e6e063f",
+    "tagline": "02ab01d2",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

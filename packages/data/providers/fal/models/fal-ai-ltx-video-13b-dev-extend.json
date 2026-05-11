@@ -1,0 +1,26 @@
+{
+  "id": "fal-ai/ltx-video-13b-dev/extend",
+  "name": "LTX Video-0.9.7 13B",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Extend videos using LTX Video-0.9.7 13B and custom LoRA",
+  "status": "active",
+  "release_date": "2025-05-17",
+  "model_type": "other",
+  "parameters": 13,
+  "page_url": "https://fal.run/fal-ai/ltx-video-13b-dev/extend",
+  "tagline": "Extend videos using LTX Video-0.9.7 13B and custom LoRA",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "2b5d53ab",
+    "description": "3179c441",
+    "status": "379ac110",
+    "release_date": "050d818f",
+    "model_type": "ddb0b7bc",
+    "parameters": "c51ce410",
+    "page_url": "ba34fa8d",
+    "tagline": "3179c441",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

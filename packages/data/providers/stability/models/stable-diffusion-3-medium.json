@@ -1,0 +1,42 @@
+{
+  "id": "stable-diffusion-3-medium",
+  "name": "Stable Diffusion 3 Medium",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Diffusion 3 Medium is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-05-30",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium",
+  "open_weight": true,
+  "tagline": "Stable Diffusion 3 Medium is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 5488,
+  "last_modified": "2024-08-12",
+  "_generated": {
+    "name": "eafb868d",
+    "description": "56152597",
+    "status": "379ac110",
+    "release_date": "2fa52005",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "02723d02",
+    "open_weight": "b326b506",
+    "tagline": "56152597",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "56c3b2c6",
+    "last_modified": "946d44f9"
+  },
+  "last_updated": "2026-05-11"
+}

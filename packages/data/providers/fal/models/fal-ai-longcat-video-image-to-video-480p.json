@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/longcat-video/image-to-video/480p",
+  "name": "LongCat Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate long videos from images using LongCat Video",
+  "status": "active",
+  "release_date": "2025-10-30",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/longcat-video/image-to-video/480p",
+  "tagline": "Generate long videos from images using LongCat Video",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "7298462c",
+    "description": "5130de8b",
+    "status": "379ac110",
+    "release_date": "097b1371",
+    "model_type": "4d1b75ca",
+    "page_url": "18418b98",
+    "tagline": "5130de8b",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

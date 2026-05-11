@@ -1,0 +1,42 @@
+{
+  "id": "stable-diffusion-xl-refiner-1.0",
+  "name": "Stable Diffusion Xl Refiner 1.0",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Diffusion Xl Refiner 1.0 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-07-26",
+  "model_type": "image",
+  "license": "openrail++",
+  "page_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0",
+  "open_weight": true,
+  "tagline": "Stable Diffusion Xl Refiner 1.0 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 239785,
+  "last_modified": "2023-09-25",
+  "_generated": {
+    "name": "abfa186d",
+    "description": "21212839",
+    "status": "379ac110",
+    "release_date": "a969d540",
+    "model_type": "db8857fe",
+    "license": "53c5b8b2",
+    "page_url": "10cb4087",
+    "open_weight": "b326b506",
+    "tagline": "21212839",
+    "capabilities": "ea60b262",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "95903e8d",
+    "last_modified": "c97eddf5"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "deepseek/deepseek-ocr-2",
+  "name": "DeepSeek-OCR 2",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "DeepSeek-OCR 2 is a multimodal document recognition model released by DeepSeek AI, serving as an upgrade to DeepSeek-OCR.",
+  "status": "active",
+  "release_date": "2026-01-27",
+  "context_window": 8192,
+  "max_output_tokens": 8192,
+  "model_type": "chat",
+  "tagline": "DeepSeek-OCR 2 is a multimodal document recognition model released by DeepSeek AI, serving as an upgrade to DeepSeek-OCR.",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.03
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "addadaf6",
+    "family": "4b81b92d",
+    "description": "6b2491c4",
+    "status": "379ac110",
+    "release_date": "a6a6b128",
+    "context_window": "77441296",
+    "max_output_tokens": "77441296",
+    "model_type": "d669f408",
+    "tagline": "6b2491c4",
+    "capabilities": "09b640f2",
+    "modalities": "6399757e",
+    "pricing": "9207f1ad",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

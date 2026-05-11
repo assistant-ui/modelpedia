@@ -1,0 +1,24 @@
+{
+  "id": "openrouter/router/openai/v1/chat/completions",
+  "name": "OpenRouter Chat Completions [OpenAI Compatible]",
+  "created_by": "openrouter",
+  "source": "official",
+  "description": "OpenAI-compatible chat completions API.",
+  "status": "active",
+  "release_date": "2025-11-12",
+  "model_type": "other",
+  "page_url": "https://fal.run/openrouter/router/openai/v1/chat/completions",
+  "tagline": "OpenAI-compatible chat completions API.",
+  "last_seen_at": "2026-05-06",
+  "_generated": {
+    "name": "3a21d65c",
+    "description": "4323a0b2",
+    "status": "379ac110",
+    "release_date": "6364276c",
+    "model_type": "ddb0b7bc",
+    "page_url": "3e1f1c65",
+    "tagline": "4323a0b2",
+    "last_seen_at": "ad37623a"
+  },
+  "last_updated": "2026-05-11"
+}

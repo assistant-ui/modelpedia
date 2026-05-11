@@ -1,0 +1,30 @@
+{
+  "id": "fal-ai/ltx-video-13b-distilled/multiconditioning",
+  "name": "LTX Video-0.9.7 13B Distilled",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate videos from prompts, images, and videos using LTX Video-0.9.7 13B Distilled and custom LoRA",
+  "status": "active",
+  "release_date": "2025-05-17",
+  "model_type": "other",
+  "parameters": 13,
+  "page_url": "https://fal.run/fal-ai/ltx-video-13b-distilled/multiconditioning",
+  "tagline": "Generate videos from prompts, images, and videos using LTX Video-0.9.7 13B Distilled and custom LoRA",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "eb56eea3",
+    "description": "413a0bb0",
+    "status": "379ac110",
+    "release_date": "050d818f",
+    "model_type": "ddb0b7bc",
+    "parameters": "c51ce410",
+    "page_url": "d2075934",
+    "tagline": "413a0bb0",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

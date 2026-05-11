@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/uno",
+  "name": "Uno",
+  "created_by": "fal",
+  "source": "official",
+  "description": "An AI model that transforms input images into new ones based on text prompts, blending reference visuals with your creative directions.",
+  "status": "active",
+  "release_date": "2025-04-24",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/uno",
+  "tagline": "An AI model that transforms input images into new ones based on text prompts, blending reference visuals with your creative directions.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "ef7661e2",
+    "description": "a0e93c9c",
+    "status": "379ac110",
+    "release_date": "f13a9074",
+    "model_type": "db8857fe",
+    "page_url": "0fc40d81",
+    "tagline": "a0e93c9c",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

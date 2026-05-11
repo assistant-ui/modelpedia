@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/seedvr/upscale/image",
+  "name": "SeedVR2",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Use SeedVR2 to upscale your images",
+  "status": "active",
+  "release_date": "2025-09-22",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/seedvr/upscale/image",
+  "tagline": "Use SeedVR2 to upscale your images",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "b398a4e0",
+    "description": "d3c1e166",
+    "status": "379ac110",
+    "release_date": "3cb5c95a",
+    "model_type": "db8857fe",
+    "page_url": "57c36fff",
+    "tagline": "d3c1e166",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

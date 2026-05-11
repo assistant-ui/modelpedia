@@ -1,0 +1,26 @@
+{
+  "id": "fal-ai/csm-1b",
+  "name": "CSM-1B",
+  "created_by": "fal",
+  "source": "official",
+  "description": "CSM (Conversational Speech Model) is a speech generation model from Sesame that generates RVQ audio codes from text and audio inputs.",
+  "status": "active",
+  "release_date": "2025-03-13",
+  "model_type": "other",
+  "parameters": 1,
+  "page_url": "https://fal.run/fal-ai/csm-1b",
+  "tagline": "CSM (Conversational Speech Model) is a speech generation model from Sesame that generates RVQ audio codes from text and audio inputs.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "306e1d2c",
+    "description": "c1724973",
+    "status": "379ac110",
+    "release_date": "5558421b",
+    "model_type": "ddb0b7bc",
+    "parameters": "c4ca4238",
+    "page_url": "2d0cf11c",
+    "tagline": "c1724973",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

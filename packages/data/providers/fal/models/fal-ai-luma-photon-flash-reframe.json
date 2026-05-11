@@ -1,0 +1,38 @@
+{
+  "id": "fal-ai/luma-photon/flash/reframe",
+  "name": "Luma Photon Flash Reframe",
+  "created_by": "fal",
+  "source": "official",
+  "description": "This advanced tool intelligently expands your visuals, seamlessly blending new content to enhance creativity and adaptability, offering unmatched speed and quality for creators at a fraction of the co",
+  "status": "active",
+  "release_date": "2025-06-03",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/luma-photon/flash/reframe",
+  "tagline": "This advanced tool intelligently expands your visuals, seamlessly blending new content to enhance creativity and adaptability, offering unmatched speed and quality for creators at a fraction of the co",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "tools": ["function_calling"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "2dcbbef3",
+    "description": "937c908b",
+    "status": "379ac110",
+    "release_date": "c32ecc6d",
+    "model_type": "db8857fe",
+    "page_url": "c675b88d",
+    "tagline": "937c908b",
+    "capabilities": "ed0d180f",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "tools": "f0c1dc7e",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

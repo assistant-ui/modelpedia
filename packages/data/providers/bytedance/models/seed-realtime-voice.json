@@ -1,0 +1,20 @@
+{
+  "id": "seed-realtime-voice",
+  "name": "Seed Realtime Voice",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A native approach integrates speech and text modes to truly implement an end-to-end model of understanding and generation.",
+  "status": "active",
+  "model_type": "audio",
+  "page_url": "https://seed.bytedance.com/en/realtime_voice",
+  "tagline": "A native approach integrates speech and text modes to truly implement an end-to-end model of understanding and generation.",
+  "_generated": {
+    "name": "22cf63e0",
+    "description": "a5e3ceff",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "page_url": "ba67fd76",
+    "tagline": "a5e3ceff"
+  },
+  "last_updated": "2026-05-11"
+}

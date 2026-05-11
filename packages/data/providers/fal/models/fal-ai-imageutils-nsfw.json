@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/imageutils/nsfw",
+  "name": "NSFW Filter",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Predict the probability of an image being NSFW.",
+  "status": "active",
+  "release_date": "2024-03-22",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/imageutils/nsfw",
+  "tagline": "Predict the probability of an image being NSFW.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "f56b7168",
+    "description": "8b10e6e9",
+    "status": "379ac110",
+    "release_date": "f320eeee",
+    "model_type": "ddb0b7bc",
+    "page_url": "450fdda8",
+    "tagline": "8b10e6e9",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

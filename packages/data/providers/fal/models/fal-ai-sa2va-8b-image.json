@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/sa2va/8b/image",
+  "name": "Sa2VA 8B Image",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Sa2VA is an MLLM capable of question answering, visual prompt understanding, and dense object segmentation at both image and video levels",
+  "status": "active",
+  "release_date": "2025-01-13",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/sa2va/8b/image",
+  "tagline": "Sa2VA is an MLLM capable of question answering, visual prompt understanding, and dense object segmentation at both image and video levels",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "0c9c073b",
+    "description": "20eb1c0b",
+    "status": "379ac110",
+    "release_date": "7d2d38ad",
+    "model_type": "ddb0b7bc",
+    "page_url": "29731549",
+    "tagline": "20eb1c0b",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

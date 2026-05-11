@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/yue",
+  "name": "YuE: Lyrics to Song",
+  "created_by": "fal",
+  "source": "official",
+  "description": "YuE is a groundbreaking series of open-source foundation models designed for music generation, specifically for transforming lyrics into full songs.",
+  "status": "active",
+  "release_date": "2025-01-28",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/yue",
+  "tagline": "YuE is a groundbreaking series of open-source foundation models designed for music generation, specifically for transforming lyrics into full songs.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "05948c35",
+    "description": "fcbda844",
+    "status": "379ac110",
+    "release_date": "94cc4204",
+    "model_type": "ddb0b7bc",
+    "page_url": "212a37de",
+    "tagline": "fcbda844",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

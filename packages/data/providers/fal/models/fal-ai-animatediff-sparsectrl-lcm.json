@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/animatediff-sparsectrl-lcm",
+  "name": "Animatediff SparseCtrl LCM",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Animate Your Drawings with Latent Consistency Models!",
+  "status": "active",
+  "release_date": "2023-11-09",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/animatediff-sparsectrl-lcm",
+  "tagline": "Animate Your Drawings with Latent Consistency Models!",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "3398571e",
+    "description": "15172c0f",
+    "status": "379ac110",
+    "release_date": "c4e6786f",
+    "model_type": "4d1b75ca",
+    "page_url": "019be0f2",
+    "tagline": "15172c0f",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

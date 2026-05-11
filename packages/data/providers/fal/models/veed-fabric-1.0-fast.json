@@ -1,0 +1,35 @@
+{
+  "id": "veed/fabric-1.0/fast",
+  "name": "Fabric 1.0 Fast",
+  "created_by": "veed",
+  "source": "official",
+  "description": "VEED Fabric 1.0 is an image-to-video API that turns any image into a talking video",
+  "status": "active",
+  "release_date": "2025-10-01",
+  "model_type": "video",
+  "page_url": "https://fal.run/veed/fabric-1.0/fast",
+  "tagline": "VEED Fabric 1.0 is an image-to-video API that turns any image into a talking video",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-23",
+  "_generated": {
+    "name": "38e9b5d9",
+    "description": "4f01651e",
+    "status": "379ac110",
+    "release_date": "e95fbf17",
+    "model_type": "4d1b75ca",
+    "page_url": "fbe4e87b",
+    "tagline": "4f01651e",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "a87679d0"
+  },
+  "last_updated": "2026-05-11"
+}

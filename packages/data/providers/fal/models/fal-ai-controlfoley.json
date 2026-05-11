@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/controlfoley",
+  "name": "Controlfoley",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Foley Control is a video-to-audio model that automatically generates synchronized sound effects for videos, using text prompts to shape the type of sound while matching the timing and action on screen",
+  "status": "active",
+  "release_date": "2026-05-05",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/controlfoley",
+  "tagline": "Foley Control is a video-to-audio model that automatically generates synchronized sound effects for videos, using text prompts to shape the type of sound while matching the timing and action on screen",
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "7d01d925",
+    "description": "bc306319",
+    "status": "379ac110",
+    "release_date": "ab530d19",
+    "model_type": "ddb0b7bc",
+    "page_url": "8ae00cb7",
+    "tagline": "bc306319",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

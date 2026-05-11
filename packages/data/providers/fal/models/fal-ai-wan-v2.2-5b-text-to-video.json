@@ -1,0 +1,33 @@
+{
+  "id": "fal-ai/wan/v2.2-5b/text-to-video",
+  "name": "Wan v2.2 5B",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Wan 2.2's 5B model produces up to 5 seconds of video 720p at 24FPS with fluid motion and powerful prompt understanding",
+  "status": "active",
+  "release_date": "2025-07-28",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/wan/v2.2-5b/text-to-video",
+  "tagline": "Wan 2.2's 5B model produces up to 5 seconds of video 720p at 24FPS with fluid motion and powerful prompt understanding",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "6956e51a",
+    "family": "2aadc089",
+    "description": "1b79a605",
+    "status": "379ac110",
+    "release_date": "8ef4ed35",
+    "model_type": "4d1b75ca",
+    "page_url": "341c0a4b",
+    "tagline": "1b79a605",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

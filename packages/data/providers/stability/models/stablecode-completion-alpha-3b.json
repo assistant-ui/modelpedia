@@ -1,0 +1,44 @@
+{
+  "id": "stablecode-completion-alpha-3b",
+  "name": "Stablecode Completion Alpha 3b",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stablecode Completion Alpha 3b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-07-31",
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "parameters": 3,
+  "page_url": "https://huggingface.co/stabilityai/stablecode-completion-alpha-3b",
+  "open_weight": true,
+  "tagline": "Stablecode Completion Alpha 3b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 1369,
+  "last_modified": "2023-08-08",
+  "_generated": {
+    "name": "046e9a2f",
+    "description": "fdba86d4",
+    "status": "379ac110",
+    "release_date": "d03fc9ce",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "parameters": "eccbc87e",
+    "page_url": "e86be0b2",
+    "open_weight": "b326b506",
+    "tagline": "fdba86d4",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "0e3a37aa",
+    "last_modified": "a4b79bfa"
+  },
+  "last_updated": "2026-05-11"
+}

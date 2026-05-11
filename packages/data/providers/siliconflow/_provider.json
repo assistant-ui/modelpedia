@@ -1,0 +1,16 @@
+{
+  "id": "siliconflow",
+  "name": "SiliconFlow",
+  "aliases": ["siliconcloud"],
+  "region": "CN",
+  "url": "https://www.siliconflow.com",
+  "api_url": "https://api.siliconflow.com/v1",
+  "docs_url": "https://docs.siliconflow.com",
+  "pricing_url": "https://cloud.siliconflow.com/pricing",
+  "description": "Inference cloud platform offering OpenAI-compatible APIs for language, image, audio, video, embedding, and reranking models.",
+  "type": "cloud",
+  "models_url": "https://api.siliconflow.com/v1/models",
+  "openai_compatible": true,
+  "free_tier": false,
+  "status_url": "https://status.siliconflow.com"
+}

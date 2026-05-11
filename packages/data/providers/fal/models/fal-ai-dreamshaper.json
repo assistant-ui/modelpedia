@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/dreamshaper",
+  "name": "Dreamshaper",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Dreamshaper model.",
+  "status": "active",
+  "release_date": "2024-04-25",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/dreamshaper",
+  "tagline": "Dreamshaper model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "9a70cfd3",
+    "description": "41ef9cf9",
+    "status": "379ac110",
+    "release_date": "930b7401",
+    "model_type": "db8857fe",
+    "page_url": "32ab79f4",
+    "tagline": "41ef9cf9",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/sora-2/text-to-video/pro",
+  "name": "Sora 2",
+  "created_by": "fal",
+  "source": "official",
+  "family": "sora-2",
+  "description": "Text-to-video endpoint for Sora 2 Pro, OpenAI's state-of-the-art video model capable of creating richly detailed, dynamic clips with audio from natural language or images.",
+  "status": "active",
+  "release_date": "2025-10-06",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/sora-2/text-to-video/pro",
+  "tagline": "Text-to-video endpoint for Sora 2 Pro, OpenAI's state-of-the-art video model capable of creating richly detailed, dynamic clips with audio from natural language or images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "1bafc4f5",
+    "family": "3d185d44",
+    "description": "70ec5051",
+    "status": "379ac110",
+    "release_date": "17ddf71c",
+    "model_type": "4d1b75ca",
+    "page_url": "323ffa83",
+    "tagline": "70ec5051",
+    "capabilities": "d3117eb0",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

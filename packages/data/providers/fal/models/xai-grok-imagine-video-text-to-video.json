@@ -1,0 +1,33 @@
+{
+  "id": "xai/grok-imagine-video/text-to-video",
+  "name": "Grok Imagine Video",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "description": "Generate videos with audio from text using Grok Imagine Video.",
+  "status": "active",
+  "release_date": "2026-01-29",
+  "model_type": "video",
+  "page_url": "https://fal.run/xai/grok-imagine-video/text-to-video",
+  "tagline": "Generate videos with audio from text using Grok Imagine Video.",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "5a3f9dd3",
+    "family": "a4576b5e",
+    "description": "255b482c",
+    "status": "379ac110",
+    "release_date": "d017f790",
+    "model_type": "4d1b75ca",
+    "page_url": "be3e276b",
+    "tagline": "255b482c",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

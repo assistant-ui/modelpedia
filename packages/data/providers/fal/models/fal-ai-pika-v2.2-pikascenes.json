@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/pika/v2.2/pikascenes",
+  "name": "Pika Scenes (v2.2)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Pika Scenes v2.2 creates videos from a images with high quality output.",
+  "status": "active",
+  "release_date": "2025-03-14",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/pika/v2.2/pikascenes",
+  "tagline": "Pika Scenes v2.2 creates videos from a images with high quality output.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "fdf9b78c",
+    "description": "6dea45cd",
+    "status": "379ac110",
+    "release_date": "e0a4c199",
+    "model_type": "4d1b75ca",
+    "page_url": "c547fa8e",
+    "tagline": "6dea45cd",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

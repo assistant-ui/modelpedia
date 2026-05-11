@@ -1,0 +1,24 @@
+{
+  "id": "cassetteai/video-sound-effects-generator",
+  "name": "Video Sound Effects Generator",
+  "created_by": "cassetteai",
+  "source": "official",
+  "description": "Add sound effects to your videos",
+  "status": "active",
+  "release_date": "2025-04-07",
+  "model_type": "other",
+  "page_url": "https://fal.run/cassetteai/video-sound-effects-generator",
+  "tagline": "Add sound effects to your videos",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "72e1e7a1",
+    "description": "ff7b0e6d",
+    "status": "379ac110",
+    "release_date": "449b891b",
+    "model_type": "ddb0b7bc",
+    "page_url": "dff14d22",
+    "tagline": "ff7b0e6d",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

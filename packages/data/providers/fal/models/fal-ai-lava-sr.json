@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/lava-sr",
+  "name": "Lava SR",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Enhance muffled 16 kHz speech audio into crystal-clear 48 kHz, with denoising for particularly bad inputs.",
+  "status": "active",
+  "release_date": "2026-02-23",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/lava-sr",
+  "tagline": "Enhance muffled 16 kHz speech audio into crystal-clear 48 kHz, with denoising for particularly bad inputs.",
+  "last_seen_at": "2026-02-23",
+  "_generated": {
+    "name": "b2f7e5a6",
+    "description": "86609308",
+    "status": "379ac110",
+    "release_date": "f319afd9",
+    "model_type": "ddb0b7bc",
+    "page_url": "d3266103",
+    "tagline": "86609308",
+    "last_seen_at": "f319afd9"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "imagineart/imagineart-1.5-pro-preview/text-to-image",
+  "name": "ImagineArt 1.5 Pro Preview",
+  "created_by": "imagineart",
+  "source": "official",
+  "description": "ImagineArt 1.5 Pro is an advanced text-to-image model that creates ultra-high-fidelity 4K visuals with lifelike realism, refined aesthetics, and powerful creative output suited for professional use.",
+  "status": "active",
+  "release_date": "2026-01-15",
+  "model_type": "image",
+  "page_url": "https://fal.run/imagineart/imagineart-1.5-pro-preview/text-to-image",
+  "tagline": "ImagineArt 1.5 Pro is an advanced text-to-image model that creates ultra-high-fidelity 4K visuals with lifelike realism, refined aesthetics, and powerful creative output suited for professional use.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "76baabec",
+    "description": "5e52223c",
+    "status": "379ac110",
+    "release_date": "9e27f046",
+    "model_type": "db8857fe",
+    "page_url": "ad38f0a6",
+    "tagline": "5e52223c",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

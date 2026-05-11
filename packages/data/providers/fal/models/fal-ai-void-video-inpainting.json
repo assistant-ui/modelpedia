@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/void-video-inpainting",
+  "name": "Void Video Inpainting",
+  "created_by": "fal",
+  "source": "official",
+  "description": "VOID removes objects from videos along with all interactions they induce on the scene",
+  "status": "active",
+  "release_date": "2026-04-10",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/void-video-inpainting",
+  "tagline": "VOID removes objects from videos along with all interactions they induce on the scene",
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "54835279",
+    "description": "455b3501",
+    "status": "379ac110",
+    "release_date": "9fb89bf7",
+    "model_type": "ddb0b7bc",
+    "page_url": "23dd339b",
+    "tagline": "455b3501",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/kokoro/brazilian-portuguese",
+  "name": "Kokoro TTS (Brazilian Portuguese)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "A natural and expressive Brazilian Portuguese text-to-speech model optimized for clarity and fluency.",
+  "status": "active",
+  "release_date": "2025-02-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/kokoro/brazilian-portuguese",
+  "tagline": "A natural and expressive Brazilian Portuguese text-to-speech model optimized for clarity and fluency.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "4f95aa4f",
+    "description": "a0670082",
+    "status": "379ac110",
+    "release_date": "d9b395e4",
+    "model_type": "ddb0b7bc",
+    "page_url": "2cb0455a",
+    "tagline": "a0670082",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

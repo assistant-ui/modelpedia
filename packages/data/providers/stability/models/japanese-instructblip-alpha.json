@@ -1,0 +1,43 @@
+{
+  "id": "japanese-instructblip-alpha",
+  "name": "Japanese Instructblip Alpha",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Japanese Instructblip Alpha is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-08-15",
+  "model_type": "code",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/japanese-instructblip-alpha",
+  "open_weight": true,
+  "tagline": "Japanese Instructblip Alpha is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 31,
+  "last_modified": "2023-11-17",
+  "_generated": {
+    "name": "f328bd00",
+    "description": "e8aee7b0",
+    "status": "379ac110",
+    "release_date": "027d2ce8",
+    "model_type": "b6cc3ff4",
+    "license": "ddb0b7bc",
+    "page_url": "9aad1491",
+    "open_weight": "b326b506",
+    "tagline": "e8aee7b0",
+    "capabilities": "944b5fe5",
+    "modalities": "6399757e",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "c16a5320",
+    "last_modified": "4df53c88"
+  },
+  "last_updated": "2026-05-11"
+}

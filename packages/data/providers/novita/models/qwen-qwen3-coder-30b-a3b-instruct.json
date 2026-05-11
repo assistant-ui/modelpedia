@@ -1,0 +1,52 @@
+{
+  "id": "qwen/qwen3-coder-30b-a3b-instruct",
+  "name": "Qwen3 Coder 30b A3B Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "description": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, and agentic tool use.",
+  "status": "active",
+  "release_date": "2025-10-09",
+  "context_window": 160000,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "parameters": 30,
+  "active_parameters": 3,
+  "tagline": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, an",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.07,
+    "output": 0.27
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "74b26367",
+    "family": "48c385a0",
+    "description": "f1195630",
+    "status": "379ac110",
+    "release_date": "35c42317",
+    "context_window": "523ab41e",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "tagline": "016bf46d",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "d70e7f2d",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

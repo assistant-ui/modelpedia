@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-general/inpainting",
+  "name": "FLUX.1 [dev] with Controlnets and Loras",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX General Inpainting is a versatile endpoint that enables precise image editing and completion, supporting multiple AI extensions including LoRA, ControlNet, and IP-Adapter for enhanced control ove",
+  "status": "active",
+  "release_date": "2024-08-14",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-general/inpainting",
+  "tagline": "FLUX General Inpainting is a versatile endpoint that enables precise image editing and completion, supporting multiple AI extensions including LoRA, ControlNet, and IP-Adapter for enhanced control ove",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "8690f0a1",
+    "description": "712de4b6",
+    "status": "379ac110",
+    "release_date": "3a1846b2",
+    "model_type": "db8857fe",
+    "page_url": "81518b74",
+    "tagline": "712de4b6",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

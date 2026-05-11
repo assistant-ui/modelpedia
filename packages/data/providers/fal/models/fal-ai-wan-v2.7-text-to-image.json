@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/wan/v2.7/text-to-image",
+  "name": "Wan",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Generate high-quality images from text prompts using the WAN 2.7 model with advanced prompt understanding and detailed output.",
+  "status": "active",
+  "release_date": "2026-04-01",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/wan/v2.7/text-to-image",
+  "tagline": "Generate high-quality images from text prompts using the WAN 2.7 model with advanced prompt understanding and detailed output.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-20",
+  "_generated": {
+    "name": "1cffaf76",
+    "family": "2aadc089",
+    "description": "fa68c0dd",
+    "status": "379ac110",
+    "release_date": "f68ebedb",
+    "model_type": "db8857fe",
+    "page_url": "6de283fe",
+    "tagline": "fa68c0dd",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "9b0ca917"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "bria/fibo-lite/generate",
+  "name": "Fibo Lite",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Fibo Lite, the new addition to the Fibo model family, allows generating high-quality images with the same controllability of the JSON structured prompt with significantly improved latency.",
+  "status": "active",
+  "release_date": "2025-12-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/fibo-lite/generate",
+  "tagline": "Fibo Lite, the new addition to the Fibo model family, allows generating high-quality images with the same controllability of the JSON structured prompt with significantly improved latency.",
+  "capabilities": {
+    "vision": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "090f31c1",
+    "description": "0aad9517",
+    "status": "379ac110",
+    "release_date": "799b50a0",
+    "model_type": "db8857fe",
+    "page_url": "522058c6",
+    "tagline": "0aad9517",
+    "capabilities": "42538baa",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

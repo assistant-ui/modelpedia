@@ -1,0 +1,28 @@
+{
+  "id": "tripo3d/p1/image-to-3d",
+  "name": "Tripo P1 Image to 3D",
+  "created_by": "tripo3d",
+  "source": "official",
+  "description": "Generate 3D models from a single image using Tripo P1.",
+  "status": "active",
+  "release_date": "2026-04-07",
+  "model_type": "other",
+  "page_url": "https://fal.run/tripo3d/p1/image-to-3d",
+  "tagline": "Generate 3D models from a single image using Tripo P1.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "1c9e013b",
+    "description": "0cd66c9b",
+    "status": "379ac110",
+    "release_date": "3eaa38a6",
+    "model_type": "ddb0b7bc",
+    "page_url": "fb856ac9",
+    "tagline": "0cd66c9b",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

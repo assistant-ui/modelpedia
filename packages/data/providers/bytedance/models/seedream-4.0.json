@@ -1,0 +1,31 @@
+{
+  "id": "seedream-4.0",
+  "name": "Seedream 4.0",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A new-generation image creation model can flexibly handle complex multimodal tasks, producing high-definition images at up to 4K resolution.",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://seed.bytedance.com/en/seedream4_0",
+  "tagline": "A new-generation image creation model can flexibly handle complex multimodal tasks, producing high-definition images at up to 4K resolution.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "207269d1",
+    "description": "78bc9373",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "94ac3103",
+    "tagline": "78bc9373",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

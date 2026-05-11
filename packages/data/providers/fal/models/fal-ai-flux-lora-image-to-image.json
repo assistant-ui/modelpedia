@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-lora/image-to-image",
+  "name": "FLUX.1 [dev] with LoRAs",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX LoRA Image-to-Image is a high-performance endpoint that transforms existing images using FLUX models, leveraging LoRA adaptations to enable rapid and precise image style transfer, modifications, ",
+  "status": "active",
+  "release_date": "2024-08-13",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-lora/image-to-image",
+  "tagline": "FLUX LoRA Image-to-Image is a high-performance endpoint that transforms existing images using FLUX models, leveraging LoRA adaptations to enable rapid and precise image style transfer, modifications, ",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "83bc48f2",
+    "description": "42b88ec7",
+    "status": "379ac110",
+    "release_date": "5ca6a03a",
+    "model_type": "db8857fe",
+    "page_url": "d21256a6",
+    "tagline": "42b88ec7",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

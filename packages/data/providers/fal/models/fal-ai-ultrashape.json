@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ultrashape",
+  "name": "Ultrashape",
+  "created_by": "fal",
+  "source": "official",
+  "description": "UltraShape-1.0 is a 3D diffusion framework that generates high-fidelity 3D geometry through coarse-to-fine geometric refinement.",
+  "status": "active",
+  "release_date": "2026-01-06",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ultrashape",
+  "tagline": "UltraShape-1.0 is a 3D diffusion framework that generates high-fidelity 3D geometry through coarse-to-fine geometric refinement.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "25a9970c",
+    "description": "546fae21",
+    "status": "379ac110",
+    "release_date": "5d36318b",
+    "model_type": "ddb0b7bc",
+    "page_url": "4168e717",
+    "tagline": "546fae21",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

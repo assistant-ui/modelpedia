@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/z-image/turbo/controlnet",
+  "name": "Z-Image Turbo",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate images from text and edge, depth or pose images using Z-Image Turbo, Tongyi-MAI's super-fast 6B model.",
+  "status": "active",
+  "release_date": "2025-12-07",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/z-image/turbo/controlnet",
+  "tagline": "Generate images from text and edge, depth or pose images using Z-Image Turbo, Tongyi-MAI's super-fast 6B model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "a73fe98b",
+    "description": "3f680c76",
+    "status": "379ac110",
+    "release_date": "1916087a",
+    "model_type": "db8857fe",
+    "page_url": "4f0f2ad4",
+    "tagline": "3f680c76",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

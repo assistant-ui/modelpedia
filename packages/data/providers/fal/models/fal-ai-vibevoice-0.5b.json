@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/vibevoice/0.5b",
+  "name": "Vibevoice",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate long speech snippets fast using Microsoft's powerful TTS.",
+  "status": "active",
+  "release_date": "2025-12-17",
+  "model_type": "tts",
+  "page_url": "https://fal.run/fal-ai/vibevoice/0.5b",
+  "tagline": "Generate long speech snippets fast using Microsoft's powerful TTS.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "2ebc3de3",
+    "description": "7982becc",
+    "status": "379ac110",
+    "release_date": "f8b75b68",
+    "model_type": "4e16a2cf",
+    "page_url": "3f1cbf86",
+    "tagline": "7982becc",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

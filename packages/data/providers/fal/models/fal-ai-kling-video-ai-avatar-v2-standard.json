@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling-video/ai-avatar/v2/standard",
+  "name": "Kling AI Avatar v2 Standard",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling AI Avatar v2 Standard:  Endpoint for creating avatar videos with realistic humans, animals, cartoons, or stylized characters",
+  "status": "active",
+  "release_date": "2025-12-04",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/ai-avatar/v2/standard",
+  "tagline": "Kling AI Avatar v2 Standard:  Endpoint for creating avatar videos with realistic humans, animals, cartoons, or stylized characters",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "2c9c3f71",
+    "description": "6b9bebd1",
+    "status": "379ac110",
+    "release_date": "03c309ab",
+    "model_type": "4d1b75ca",
+    "page_url": "6e08334b",
+    "tagline": "6b9bebd1",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ltx-video/image-to-video",
+  "name": "LTX Video (preview)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate videos from images using LTX Video",
+  "status": "active",
+  "release_date": "2024-11-21",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/ltx-video/image-to-video",
+  "tagline": "Generate videos from images using LTX Video",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-05-05",
+  "_generated": {
+    "name": "862e0aae",
+    "description": "d27f1313",
+    "status": "379ac110",
+    "release_date": "79edb664",
+    "model_type": "4d1b75ca",
+    "page_url": "9c9f6397",
+    "tagline": "d27f1313",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "ab530d19"
+  },
+  "last_updated": "2026-05-11"
+}

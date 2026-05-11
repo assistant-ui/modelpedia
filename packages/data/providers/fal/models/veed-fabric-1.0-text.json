@@ -1,0 +1,31 @@
+{
+  "id": "veed/fabric-1.0/text",
+  "name": "Fabric 1.0",
+  "created_by": "veed",
+  "source": "official",
+  "description": "VEED Fabric 1.0 text-to-video API",
+  "status": "active",
+  "release_date": "2025-12-12",
+  "model_type": "video",
+  "page_url": "https://fal.run/veed/fabric-1.0/text",
+  "tagline": "VEED Fabric 1.0 text-to-video API",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-23",
+  "_generated": {
+    "name": "b55e6f5f",
+    "description": "50fa7afb",
+    "status": "379ac110",
+    "release_date": "23dc170c",
+    "model_type": "4d1b75ca",
+    "page_url": "4f3d1700",
+    "tagline": "50fa7afb",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "a87679d0"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/birefnet/v2/video",
+  "name": "Birefnet",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Video background removal version of bilateral reference framework (BiRefNet) for high-resolution dichotomous image segmentation (DIS)\n",
+  "status": "active",
+  "release_date": "2025-10-26",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/birefnet/v2/video",
+  "tagline": "Video background removal version of bilateral reference framework (BiRefNet) for high-resolution dichotomous image segmentation (DIS)\n",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "b61c9bb5",
+    "description": "79a3ccff",
+    "status": "379ac110",
+    "release_date": "3f72668e",
+    "model_type": "ddb0b7bc",
+    "page_url": "344b8915",
+    "tagline": "79a3ccff",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

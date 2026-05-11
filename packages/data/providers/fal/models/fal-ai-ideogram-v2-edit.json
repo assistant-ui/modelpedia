@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ideogram/v2/edit",
+  "name": "Ideogram V2 Edit",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Transform existing images with Ideogram V2's editing capabilities.",
+  "status": "active",
+  "release_date": "2024-12-14",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/ideogram/v2/edit",
+  "tagline": "Transform existing images with Ideogram V2's editing capabilities.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "084a1159",
+    "description": "e544c3b3",
+    "status": "379ac110",
+    "release_date": "e898442a",
+    "model_type": "db8857fe",
+    "page_url": "f4ef44e9",
+    "tagline": "e544c3b3",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

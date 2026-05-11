@@ -1,0 +1,23 @@
+{
+  "id": "ideogram-ai/ideogram-character",
+  "name": "Ideogram Character",
+  "created_by": "ideogram-ai",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/ideogram-ai/ideogram-character",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "77bb008f",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "2db7202c",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

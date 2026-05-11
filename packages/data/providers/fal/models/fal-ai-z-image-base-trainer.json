@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/z-image-base-trainer",
+  "name": "Z-Image Trainer",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Fast LoRA trainer for Z-Image, a super fast text-to-image model of 6B parameters developed by Tongyi-MAI.",
+  "status": "active",
+  "release_date": "2026-01-27",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/z-image-base-trainer",
+  "tagline": "Fast LoRA trainer for Z-Image, a super fast text-to-image model of 6B parameters developed by Tongyi-MAI.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "97e89ccf",
+    "description": "5727c8eb",
+    "status": "379ac110",
+    "release_date": "a6a6b128",
+    "model_type": "ddb0b7bc",
+    "page_url": "624a1c84",
+    "tagline": "5727c8eb",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

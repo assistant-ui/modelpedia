@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/lyra-2/zoom",
+  "name": "Lyra 2",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Lyra 2.0 is an image-to-video model that turns a single image into an explorable 3D-style video with camera-controlled motion.",
+  "status": "active",
+  "release_date": "2026-04-21",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/lyra-2/zoom",
+  "tagline": "Lyra 2.0 is an image-to-video model that turns a single image into an explorable 3D-style video with camera-controlled motion.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "4a19322e",
+    "description": "7192b091",
+    "status": "379ac110",
+    "release_date": "5029e96d",
+    "model_type": "4d1b75ca",
+    "page_url": "75575d7e",
+    "tagline": "7192b091",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

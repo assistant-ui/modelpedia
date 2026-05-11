@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/heygen/avatar4/image-to-video",
+  "name": "Heygen",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Heygen Photo Avatar 4 Model",
+  "status": "active",
+  "release_date": "2026-02-23",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/heygen/avatar4/image-to-video",
+  "tagline": "Heygen Photo Avatar 4 Model",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "64ab7060",
+    "description": "dfd0d512",
+    "status": "379ac110",
+    "release_date": "f319afd9",
+    "model_type": "4d1b75ca",
+    "page_url": "10088b25",
+    "tagline": "dfd0d512",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

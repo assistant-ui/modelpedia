@@ -1,0 +1,48 @@
+{
+  "id": "zai-org/glm-4.6",
+  "name": "GLM 4.6",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-4.6",
+  "description": "As the latest iteration in the GLM series, GLM-4.6 achieves comprehensive enhancements across multiple domains, including real-world coding, long-context processing, reasoning, searching, writing, and agentic applications.",
+  "status": "active",
+  "release_date": "2025-09-30",
+  "context_window": 204800,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "As the latest iteration in the GLM series, GLM-4.6 achieves comprehensive enhancements across multiple domains, including real-world coding, long-context processing, reasoning, searching, writing, and",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.55,
+    "output": 2.2
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "fb41c8ff",
+    "family": "5a2dc6aa",
+    "description": "3b787a51",
+    "status": "379ac110",
+    "release_date": "4d697c88",
+    "context_window": "65d646a4",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "1e6ae3c7",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "33e3f729",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

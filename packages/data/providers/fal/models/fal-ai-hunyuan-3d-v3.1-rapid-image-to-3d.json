@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/hunyuan-3d/v3.1/rapid/image-to-3d",
+  "name": "Hunyuan 3D Rapid Image to 3D",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Rapidly generate 3D models from images using Hunyuan 3D.",
+  "status": "active",
+  "release_date": "2026-01-27",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/hunyuan-3d/v3.1/rapid/image-to-3d",
+  "tagline": "Rapidly generate 3D models from images using Hunyuan 3D.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "4db63398",
+    "description": "c481bb29",
+    "status": "379ac110",
+    "release_date": "a6a6b128",
+    "model_type": "ddb0b7bc",
+    "page_url": "b6dac0b4",
+    "tagline": "c481bb29",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

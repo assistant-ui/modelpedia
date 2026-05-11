@@ -1,0 +1,16 @@
+{
+  "id": "replicate/train-rvc-model",
+  "name": "Train Rvc Model",
+  "created_by": "replicate",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/replicate/train-rvc-model",
+  "_generated": {
+    "name": "7d9a5021",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "3dc51def"
+  },
+  "last_updated": "2026-05-11"
+}

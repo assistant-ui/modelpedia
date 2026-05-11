@@ -1,0 +1,35 @@
+{
+  "id": "bria/fibo-edit/colorize",
+  "name": "Fibo Edit [Colorize]",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Transforms the color treatment of images using predefined, style-based commands",
+  "status": "active",
+  "release_date": "2026-01-20",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/fibo-edit/colorize",
+  "tagline": "Transforms the color treatment of images using predefined, style-based commands",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "c07d45a1",
+    "description": "861b0d19",
+    "status": "379ac110",
+    "release_date": "76120ca1",
+    "model_type": "db8857fe",
+    "page_url": "2ad30af7",
+    "tagline": "861b0d19",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

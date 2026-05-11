@@ -1,0 +1,20 @@
+{
+  "id": "seed-liveinterpret-2.0",
+  "name": "Seed LiveInterpret 2.0",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "An end-to-end simultaneous interpretation model that delivers high-quality, low-latency speech-to-speech interpretation.",
+  "status": "active",
+  "model_type": "audio",
+  "page_url": "https://seed.bytedance.com/en/seed_liveinterpret",
+  "tagline": "An end-to-end simultaneous interpretation model that delivers high-quality, low-latency speech-to-speech interpretation.",
+  "_generated": {
+    "name": "8157e6e1",
+    "description": "b790e3cb",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "page_url": "362ef52d",
+    "tagline": "b790e3cb"
+  },
+  "last_updated": "2026-05-11"
+}

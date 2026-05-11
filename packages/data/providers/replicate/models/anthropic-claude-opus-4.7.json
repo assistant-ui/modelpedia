@@ -1,0 +1,29 @@
+{
+  "id": "anthropic/claude-opus-4.7",
+  "name": "Claude Opus 4.7",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://replicate.com/anthropic/claude-opus-4.7",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "b2cc0a0f",
+    "family": "4e4c4b18",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "7bd16f2c",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

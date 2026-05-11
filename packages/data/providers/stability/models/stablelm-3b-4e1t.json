@@ -1,0 +1,44 @@
+{
+  "id": "stablelm-3b-4e1t",
+  "name": "Stablelm 3b 4e1t",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stablelm 3b 4e1t is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-09-29",
+  "model_type": "chat",
+  "license": "cc-by-sa-4.0",
+  "parameters": 3,
+  "page_url": "https://huggingface.co/stabilityai/stablelm-3b-4e1t",
+  "open_weight": true,
+  "tagline": "Stablelm 3b 4e1t is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 71705,
+  "last_modified": "2024-03-07",
+  "_generated": {
+    "name": "66026194",
+    "description": "a4cf64d0",
+    "status": "379ac110",
+    "release_date": "7ad6ef0c",
+    "model_type": "d669f408",
+    "license": "d62cdbae",
+    "parameters": "eccbc87e",
+    "page_url": "de84b965",
+    "open_weight": "b326b506",
+    "tagline": "a4cf64d0",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "e4e9251c",
+    "last_modified": "b151d9b5"
+  },
+  "last_updated": "2026-05-11"
+}

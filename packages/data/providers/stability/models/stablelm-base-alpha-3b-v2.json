@@ -1,0 +1,44 @@
+{
+  "id": "stablelm-base-alpha-3b-v2",
+  "name": "Stablelm Base Alpha 3b V2",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stablelm Base Alpha 3b V2 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-08-04",
+  "model_type": "chat",
+  "license": "cc-by-sa-4.0",
+  "parameters": 3,
+  "page_url": "https://huggingface.co/stabilityai/stablelm-base-alpha-3b-v2",
+  "open_weight": true,
+  "tagline": "Stablelm Base Alpha 3b V2 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 262,
+  "last_modified": "2023-09-11",
+  "_generated": {
+    "name": "0dca166d",
+    "description": "88ad944f",
+    "status": "379ac110",
+    "release_date": "8839bf02",
+    "model_type": "d669f408",
+    "license": "d62cdbae",
+    "parameters": "eccbc87e",
+    "page_url": "08d42916",
+    "open_weight": "b326b506",
+    "tagline": "88ad944f",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "36660e59",
+    "last_modified": "aa23e1b4"
+  },
+  "last_updated": "2026-05-11"
+}

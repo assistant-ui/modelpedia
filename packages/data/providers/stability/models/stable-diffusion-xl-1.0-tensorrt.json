@@ -1,0 +1,42 @@
+{
+  "id": "stable-diffusion-xl-1.0-tensorrt",
+  "name": "Stable Diffusion Xl 1.0 Tensorrt",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Diffusion Xl 1.0 Tensorrt is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-08-22",
+  "model_type": "image",
+  "license": "openrail++",
+  "page_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-1.0-tensorrt",
+  "open_weight": true,
+  "tagline": "Stable Diffusion Xl 1.0 Tensorrt is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 649,
+  "last_modified": "2025-10-20",
+  "_generated": {
+    "name": "947e9976",
+    "description": "31f0d794",
+    "status": "379ac110",
+    "release_date": "74743675",
+    "model_type": "db8857fe",
+    "license": "53c5b8b2",
+    "page_url": "37c1c8ff",
+    "open_weight": "b326b506",
+    "tagline": "31f0d794",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "55b37c5c",
+    "last_modified": "ba1efbec"
+  },
+  "last_updated": "2026-05-11"
+}

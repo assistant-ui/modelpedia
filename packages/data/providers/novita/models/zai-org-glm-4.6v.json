@@ -1,0 +1,49 @@
+{
+  "id": "zai-org/glm-4.6v",
+  "name": "GLM 4.6V",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-4.6",
+  "description": "GLM-4.6V represents a significant multimodal advancement in the GLM series, featuring a 128k-token training context window and achieving state-of-the-art visual understanding accuracy for models of its parameter scale.",
+  "status": "active",
+  "release_date": "2025-12-08",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "tagline": "GLM-4.6V represents a significant multimodal advancement in the GLM series, featuring a 128k-token training context window and achieving state-of-the-art visual understanding accuracy for models of it",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 0.9
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "93cd4c01",
+    "family": "5a2dc6aa",
+    "description": "e98827c2",
+    "status": "379ac110",
+    "release_date": "57064400",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "tagline": "58a8fc88",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "8eb8395f",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

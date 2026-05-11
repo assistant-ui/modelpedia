@@ -1,0 +1,31 @@
+{
+  "id": "seeduplex",
+  "name": "Seeduplex",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "As a native full-duplex speech LLM, it achieves high-precision interference suppression and adaptive endpoint detection.",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://seed.bytedance.com/en/seeduplex",
+  "tagline": "As a native full-duplex speech LLM, it achieves high-precision interference suppression and adaptive endpoint detection.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "8bd3ff4e",
+    "description": "05fb0ec7",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "10b96ff0",
+    "tagline": "05fb0ec7",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

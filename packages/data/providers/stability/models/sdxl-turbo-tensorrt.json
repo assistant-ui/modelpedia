@@ -1,0 +1,42 @@
+{
+  "id": "sdxl-turbo-tensorrt",
+  "name": "Sdxl Turbo Tensorrt",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Sdxl Turbo Tensorrt is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-12-28",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/sdxl-turbo-tensorrt",
+  "open_weight": true,
+  "tagline": "Sdxl Turbo Tensorrt is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 90,
+  "last_modified": "2025-10-20",
+  "_generated": {
+    "name": "68d1174d",
+    "description": "0f4c5bd5",
+    "status": "379ac110",
+    "release_date": "0f409b5d",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "68971bd0",
+    "open_weight": "b326b506",
+    "tagline": "0f4c5bd5",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "8613985e",
+    "last_modified": "ba1efbec"
+  },
+  "last_updated": "2026-05-11"
+}

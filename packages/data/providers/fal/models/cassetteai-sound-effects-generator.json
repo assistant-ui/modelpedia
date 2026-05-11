@@ -1,0 +1,24 @@
+{
+  "id": "cassetteai/sound-effects-generator",
+  "name": "Sound Effects Generator",
+  "created_by": "cassetteai",
+  "source": "official",
+  "description": "Create stunningly realistic sound effects in seconds - CassetteAI's Sound Effects Model generates high-quality SFX up to 30 seconds long in just 1 second of processing time",
+  "status": "active",
+  "release_date": "2025-04-03",
+  "model_type": "other",
+  "page_url": "https://fal.run/cassetteai/sound-effects-generator",
+  "tagline": "Create stunningly realistic sound effects in seconds - CassetteAI's Sound Effects Model generates high-quality SFX up to 30 seconds long in just 1 second of processing time",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "fb5740b4",
+    "description": "c2d17636",
+    "status": "379ac110",
+    "release_date": "7cd8e652",
+    "model_type": "ddb0b7bc",
+    "page_url": "d20b863a",
+    "tagline": "c2d17636",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

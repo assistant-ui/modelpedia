@@ -1,0 +1,37 @@
+{
+  "id": "stable-codec-speech-16k",
+  "name": "Stable Codec Speech 16k",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Codec Speech 16k is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2025-01-10",
+  "model_type": "other",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-codec-speech-16k",
+  "open_weight": true,
+  "tagline": "Stable Codec Speech 16k is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "tools": ["function_calling"],
+  "huggingface_downloads": 51,
+  "last_modified": "2025-01-10",
+  "_generated": {
+    "name": "cc9708d2",
+    "description": "1d9cb5ee",
+    "status": "379ac110",
+    "release_date": "aded74a0",
+    "model_type": "ddb0b7bc",
+    "license": "ddb0b7bc",
+    "page_url": "12828cc7",
+    "open_weight": "b326b506",
+    "tagline": "1d9cb5ee",
+    "capabilities": "5de6a2be",
+    "tools": "f0c1dc7e",
+    "huggingface_downloads": "2838023a",
+    "last_modified": "aded74a0"
+  },
+  "last_updated": "2026-05-11"
+}

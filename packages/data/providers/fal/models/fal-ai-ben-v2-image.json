@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ben/v2/image",
+  "name": "ben-v2-image",
+  "created_by": "fal",
+  "source": "official",
+  "description": "A fast and high quality model for image background removal.",
+  "status": "active",
+  "release_date": "2025-02-11",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/ben/v2/image",
+  "tagline": "A fast and high quality model for image background removal.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "6887049b",
+    "description": "20faa899",
+    "status": "379ac110",
+    "release_date": "9b4997f8",
+    "model_type": "db8857fe",
+    "page_url": "a3586234",
+    "tagline": "20faa899",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

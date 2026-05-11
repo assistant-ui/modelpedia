@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/kokoro/italian",
+  "name": "Kokoro TTS (Italian)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "A high-quality Italian text-to-speech model delivering smooth and expressive speech synthesis.",
+  "status": "active",
+  "release_date": "2025-02-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/kokoro/italian",
+  "tagline": "A high-quality Italian text-to-speech model delivering smooth and expressive speech synthesis.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "bf51333f",
+    "description": "8cc7c5bb",
+    "status": "379ac110",
+    "release_date": "d9b395e4",
+    "model_type": "ddb0b7bc",
+    "page_url": "d591a737",
+    "tagline": "8cc7c5bb",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

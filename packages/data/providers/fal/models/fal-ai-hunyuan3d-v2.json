@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/hunyuan3d/v2",
+  "name": "Hunyuan3D",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate 3D models from your images using Hunyuan 3D.",
+  "status": "active",
+  "release_date": "2025-03-20",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/hunyuan3d/v2",
+  "tagline": "Generate 3D models from your images using Hunyuan 3D.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "13bc199d",
+    "description": "d95c60ff",
+    "status": "379ac110",
+    "release_date": "c68d2cee",
+    "model_type": "ddb0b7bc",
+    "page_url": "a1abdd68",
+    "tagline": "d95c60ff",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

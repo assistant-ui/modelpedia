@@ -1,0 +1,29 @@
+{
+  "id": "perceptron/isaac-01",
+  "name": "Isaac 0.1",
+  "created_by": "perceptron",
+  "source": "official",
+  "description": "Isaac-01 is a multimodal vision-language model from Perceptron for various vision language tasks.",
+  "status": "active",
+  "release_date": "2025-09-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/perceptron/isaac-01",
+  "tagline": "Isaac-01 is a multimodal vision-language model from Perceptron for various vision language tasks.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "2098c9ec",
+    "description": "6024f52e",
+    "status": "379ac110",
+    "release_date": "b4116b27",
+    "model_type": "ddb0b7bc",
+    "page_url": "e841c370",
+    "tagline": "6024f52e",
+    "capabilities": "8a3b232e",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

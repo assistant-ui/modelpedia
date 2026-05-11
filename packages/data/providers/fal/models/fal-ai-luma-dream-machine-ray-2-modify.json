@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/luma-dream-machine/ray-2/modify",
+  "name": "Luma Ray 2 Modify",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Ray2 Modify is a video generative model capable of restyling or retexturing the entire shot, from turning live-action into CG or stylized animation, to changing wardrobe, props, or the overall aesthet",
+  "status": "active",
+  "release_date": "2025-06-28",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/luma-dream-machine/ray-2/modify",
+  "tagline": "Ray2 Modify is a video generative model capable of restyling or retexturing the entire shot, from turning live-action into CG or stylized animation, to changing wardrobe, props, or the overall aesthet",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "058bc9a9",
+    "description": "b7df0bbb",
+    "status": "379ac110",
+    "release_date": "7299b016",
+    "model_type": "ddb0b7bc",
+    "page_url": "5e5ceb1e",
+    "tagline": "b7df0bbb",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

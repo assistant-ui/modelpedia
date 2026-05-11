@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/kling-video/lipsync/audio-to-video",
+  "name": "Kling LipSync Audio-to-Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling LipSync is an audio-to-video model that generates realistic lip movements from audio input.",
+  "status": "active",
+  "release_date": "2025-03-27",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/lipsync/audio-to-video",
+  "tagline": "Kling LipSync is an audio-to-video model that generates realistic lip movements from audio input.",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "43df4947",
+    "description": "a2fdad41",
+    "status": "379ac110",
+    "release_date": "5f007e59",
+    "model_type": "4d1b75ca",
+    "page_url": "c929f2d7",
+    "tagline": "a2fdad41",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

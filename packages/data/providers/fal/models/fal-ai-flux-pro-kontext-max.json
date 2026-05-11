@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-pro/kontext/max",
+  "name": "FLUX.1 Kontext [max]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX.1 Kontext [max] is a model with greatly improved prompt adherence and typography generation meet premium consistency for editing without compromise on speed.",
+  "status": "active",
+  "release_date": "2025-05-29",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-pro/kontext/max",
+  "tagline": "FLUX.1 Kontext [max] is a model with greatly improved prompt adherence and typography generation meet premium consistency for editing without compromise on speed.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "fc61aaf1",
+    "description": "ae1eb667",
+    "status": "379ac110",
+    "release_date": "b2e64734",
+    "model_type": "db8857fe",
+    "page_url": "a26d15c3",
+    "tagline": "ae1eb667",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

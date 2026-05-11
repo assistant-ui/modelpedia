@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/ideogram/v3/layerize-text",
+  "name": "Ideogram",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Ideogram Layerize takes an existing flat graphic, removes text, and returns structured text containers you can edit/recompose in html or json format.",
+  "status": "active",
+  "release_date": "2026-04-07",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/ideogram/v3/layerize-text",
+  "tagline": "Ideogram Layerize takes an existing flat graphic, removes text, and returns structured text containers you can edit/recompose in html or json format.",
+  "capabilities": {
+    "vision": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "b834d5be",
+    "description": "cb5684f3",
+    "status": "379ac110",
+    "release_date": "3eaa38a6",
+    "model_type": "db8857fe",
+    "page_url": "5e722221",
+    "tagline": "cb5684f3",
+    "capabilities": "42538baa",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

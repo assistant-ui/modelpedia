@@ -1,0 +1,23 @@
+{
+  "id": "voyage-4-nano",
+  "name": "Voyage 4 Nano",
+  "created_by": "voyage",
+  "source": "official",
+  "status": "active",
+  "context_window": 32000,
+  "model_type": "embed",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "458395a6",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "model_type": "764cb3de",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-05-11"
+}

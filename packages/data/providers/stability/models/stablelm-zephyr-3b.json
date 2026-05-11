@@ -1,0 +1,44 @@
+{
+  "id": "stablelm-zephyr-3b",
+  "name": "Stablelm Zephyr 3b",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stablelm Zephyr 3b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-11-21",
+  "model_type": "chat",
+  "license": "other",
+  "parameters": 3,
+  "page_url": "https://huggingface.co/stabilityai/stablelm-zephyr-3b",
+  "open_weight": true,
+  "tagline": "Stablelm Zephyr 3b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 30702,
+  "last_modified": "2024-07-10",
+  "_generated": {
+    "name": "7d629ed3",
+    "description": "15858f43",
+    "status": "379ac110",
+    "release_date": "9bc76825",
+    "model_type": "d669f408",
+    "license": "ddb0b7bc",
+    "parameters": "eccbc87e",
+    "page_url": "6ce08355",
+    "open_weight": "b326b506",
+    "tagline": "15858f43",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "c0bf581d",
+    "last_modified": "2d84b9f9"
+  },
+  "last_updated": "2026-05-11"
+}

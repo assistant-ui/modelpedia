@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/meshy/v5/multi-image-to-3d",
+  "name": "Meshy 5 Multi",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Meshy-5 multi image generates realistic and production ready 3D models from multiple images.",
+  "status": "active",
+  "release_date": "2025-10-06",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/meshy/v5/multi-image-to-3d",
+  "tagline": "Meshy-5 multi image generates realistic and production ready 3D models from multiple images.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "9a59a3c0",
+    "description": "ea5b9f4c",
+    "status": "379ac110",
+    "release_date": "17ddf71c",
+    "model_type": "ddb0b7bc",
+    "page_url": "c3cc8442",
+    "tagline": "ea5b9f4c",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

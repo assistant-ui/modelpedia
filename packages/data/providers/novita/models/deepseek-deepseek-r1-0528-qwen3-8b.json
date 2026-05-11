@@ -1,0 +1,45 @@
+{
+  "id": "deepseek/deepseek-r1-0528-qwen3-8b",
+  "name": "DeepSeek R1 0528 Qwen3 8B",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek-r1",
+  "description": "DeepSeek-R1-0528-Qwen3-8B is a high-performance reasoning model based on the Qwen3 8B Base model, enhanced through the integration of DeepSeek-R1-0528's Chain-of-Thought (CoT) optimization.",
+  "status": "active",
+  "release_date": "2025-05-29",
+  "context_window": 128000,
+  "max_output_tokens": 32000,
+  "model_type": "chat",
+  "parameters": 8,
+  "tagline": "DeepSeek-R1-0528-Qwen3-8B is a high-performance reasoning model based on the Qwen3 8B Base model, enhanced through the integration of DeepSeek-R1-0528's Chain-of-Thought (CoT) optimization.",
+  "capabilities": {
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0.09
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "4fabb4fc",
+    "family": "c74cfb8e",
+    "description": "73ae6dd2",
+    "status": "379ac110",
+    "release_date": "b2e64734",
+    "context_window": "34434798",
+    "max_output_tokens": "10e4d788",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "tagline": "73ae6dd2",
+    "capabilities": "23219150",
+    "modalities": "68e53d93",
+    "pricing": "8268b658",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

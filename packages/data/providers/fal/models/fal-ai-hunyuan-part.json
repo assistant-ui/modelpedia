@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/hunyuan-part",
+  "name": "Hunyuan Part",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Use the capabilities of hunyuan part to generate point clouds from your 3D files.",
+  "status": "active",
+  "release_date": "2025-10-08",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/hunyuan-part",
+  "tagline": "Use the capabilities of hunyuan part to generate point clouds from your 3D files.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "6f143392",
+    "description": "68f82bbf",
+    "status": "379ac110",
+    "release_date": "0630b02b",
+    "model_type": "ddb0b7bc",
+    "page_url": "451eef53",
+    "tagline": "68f82bbf",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

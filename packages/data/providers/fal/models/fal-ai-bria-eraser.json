@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/bria/eraser",
+  "name": "Bria Eraser",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Bria Eraser enables precise removal of unwanted objects from images while maintaining high-quality outputs.",
+  "status": "active",
+  "release_date": "2024-12-19",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/bria/eraser",
+  "tagline": "Bria Eraser enables precise removal of unwanted objects from images while maintaining high-quality outputs.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "c408272b",
+    "description": "27a3bb8c",
+    "status": "379ac110",
+    "release_date": "df5c0f25",
+    "model_type": "db8857fe",
+    "page_url": "f5f12afa",
+    "tagline": "27a3bb8c",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

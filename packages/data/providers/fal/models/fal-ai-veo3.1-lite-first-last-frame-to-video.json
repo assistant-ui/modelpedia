@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/veo3.1/lite/first-last-frame-to-video",
+  "name": "Veo3.1 Lite FLF",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Veo 3.1 Lite balances practical utility with professional capabilities, supporting Text-to-Video and Image-to-Video",
+  "status": "active",
+  "release_date": "2026-03-31",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/veo3.1/lite/first-last-frame-to-video",
+  "tagline": "Veo 3.1 Lite balances practical utility with professional capabilities, supporting Text-to-Video and Image-to-Video",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "e4a6fb84",
+    "description": "94fe6bf6",
+    "status": "379ac110",
+    "release_date": "3c0c39b4",
+    "model_type": "4d1b75ca",
+    "page_url": "683ae387",
+    "tagline": "94fe6bf6",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

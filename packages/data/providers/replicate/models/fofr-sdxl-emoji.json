@@ -1,0 +1,23 @@
+{
+  "id": "fofr/sdxl-emoji",
+  "name": "Sdxl Emoji",
+  "created_by": "fofr",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/fofr/sdxl-emoji",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "ce0b5912",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "577a6443",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

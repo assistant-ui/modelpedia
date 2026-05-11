@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/heygen/v2/translate/speed",
+  "name": "Heygen",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Heygen Translate Model with Extreme Speed",
+  "status": "active",
+  "release_date": "2026-02-23",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/heygen/v2/translate/speed",
+  "tagline": "Heygen Translate Model with Extreme Speed",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "64ab7060",
+    "description": "842d6e09",
+    "status": "379ac110",
+    "release_date": "f319afd9",
+    "model_type": "ddb0b7bc",
+    "page_url": "c3b9bcf8",
+    "tagline": "842d6e09",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/thinksound/audio",
+  "name": "ThinkSound",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate realistic audio from a video with an optional text prompt",
+  "status": "active",
+  "release_date": "2025-07-02",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/thinksound/audio",
+  "tagline": "Generate realistic audio from a video with an optional text prompt",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "96f8f7fd",
+    "description": "1b52db6c",
+    "status": "379ac110",
+    "release_date": "13b78e3e",
+    "model_type": "ddb0b7bc",
+    "page_url": "4bc23669",
+    "tagline": "1b52db6c",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

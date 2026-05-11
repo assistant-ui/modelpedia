@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/video-as-prompt",
+  "name": "Video As Prompt",
+  "created_by": "fal",
+  "source": "official",
+  "description": "A model for unified semantic control in video generation.",
+  "status": "active",
+  "release_date": "2025-10-29",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/video-as-prompt",
+  "tagline": "A model for unified semantic control in video generation.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "1fe0eda2",
+    "description": "af17d10c",
+    "status": "379ac110",
+    "release_date": "ea42b142",
+    "model_type": "ddb0b7bc",
+    "page_url": "feab7777",
+    "tagline": "af17d10c",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/calligrapher",
+  "name": "Calligrapher",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Use the text and font retaining capabilities of calligrapher to modify texts on your books, clothes and many more.",
+  "status": "active",
+  "release_date": "2025-07-12",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/calligrapher",
+  "tagline": "Use the text and font retaining capabilities of calligrapher to modify texts on your books, clothes and many more.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "d4bb5045",
+    "description": "8ad94653",
+    "status": "379ac110",
+    "release_date": "96e0b7cc",
+    "model_type": "db8857fe",
+    "page_url": "db4ce92e",
+    "tagline": "8ad94653",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

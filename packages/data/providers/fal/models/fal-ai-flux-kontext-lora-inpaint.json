@@ -1,0 +1,36 @@
+{
+  "id": "fal-ai/flux-kontext-lora/inpaint",
+  "name": "Flux Kontext Lora",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Fast inpainting endpoint for the FLUX.1 Kontext [dev] model with LoRA support, enabling rapid and high-quality image inpainting with reference images, while using pre-trained LoRA adaptations for spec",
+  "status": "active",
+  "release_date": "2025-07-29",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-kontext-lora/inpaint",
+  "tagline": "Fast inpainting endpoint for the FLUX.1 Kontext [dev] model with LoRA support, enabling rapid and high-quality image inpainting with reference images, while using pre-trained LoRA adaptations for spec",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "dda08a81",
+    "description": "58f1945b",
+    "status": "379ac110",
+    "release_date": "f7a967dd",
+    "model_type": "db8857fe",
+    "page_url": "182d0a48",
+    "tagline": "58f1945b",
+    "capabilities": "8a3b232e",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

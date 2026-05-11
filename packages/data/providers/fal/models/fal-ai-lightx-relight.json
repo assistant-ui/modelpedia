@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/lightx/relight",
+  "name": "Lightx",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Use tlightx capabilities to relight and recamera your videos.",
+  "status": "active",
+  "release_date": "2025-12-22",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/lightx/relight",
+  "tagline": "Use tlightx capabilities to relight and recamera your videos.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "12d65d89",
+    "description": "8c7a6581",
+    "status": "379ac110",
+    "release_date": "13396b7f",
+    "model_type": "ddb0b7bc",
+    "page_url": "561a10f5",
+    "tagline": "8c7a6581",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/fashn/tryon/v1.6",
+  "name": "FASHN Virtual Try-On V1.6",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FASHN v1.6 delivers precise virtual try-on capabilities, accurately rendering garment details like text and patterns at 864x1296 resolution from both on-model and flat-lay photo references.",
+  "status": "active",
+  "release_date": "2025-06-24",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/fashn/tryon/v1.6",
+  "tagline": "FASHN v1.6 delivers precise virtual try-on capabilities, accurately rendering garment details like text and patterns at 864x1296 resolution from both on-model and flat-lay photo references.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "14cb2865",
+    "description": "2e8d3c30",
+    "status": "379ac110",
+    "release_date": "4ff5d4fa",
+    "model_type": "db8857fe",
+    "page_url": "dd18a794",
+    "tagline": "2e8d3c30",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

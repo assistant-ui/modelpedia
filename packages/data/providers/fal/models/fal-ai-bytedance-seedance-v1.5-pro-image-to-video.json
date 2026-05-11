@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/bytedance/seedance/v1.5/pro/image-to-video",
+  "name": "Bytedance",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate videos with audio with Seedance 1.5 (supports start & end frame) ",
+  "status": "active",
+  "release_date": "2025-12-23",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/bytedance/seedance/v1.5/pro/image-to-video",
+  "tagline": "Generate videos with audio with Seedance 1.5 (supports start & end frame) ",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "6d00f002",
+    "description": "5e019b57",
+    "status": "379ac110",
+    "release_date": "b3874102",
+    "model_type": "4d1b75ca",
+    "page_url": "5aa0161a",
+    "tagline": "5e019b57",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

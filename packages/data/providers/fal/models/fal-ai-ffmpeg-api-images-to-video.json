@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ffmpeg-api/images-to-video",
+  "name": "Ffmpeg Api Images to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "A fal.ai endpoint that stitches an ordered list of images into an MP4 video by holding each image for a specified number of frames at a configurable frame rate",
+  "status": "active",
+  "release_date": "2026-05-05",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/ffmpeg-api/images-to-video",
+  "tagline": "A fal.ai endpoint that stitches an ordered list of images into an MP4 video by holding each image for a specified number of frames at a configurable frame rate",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-05-05",
+  "_generated": {
+    "name": "54ce6e81",
+    "description": "c3d2dcfc",
+    "status": "379ac110",
+    "release_date": "ab530d19",
+    "model_type": "4d1b75ca",
+    "page_url": "0537ce77",
+    "tagline": "c3d2dcfc",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "ab530d19"
+  },
+  "last_updated": "2026-05-11"
+}

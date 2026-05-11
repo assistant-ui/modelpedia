@@ -1,0 +1,16 @@
+{
+  "id": "parasail",
+  "name": "Parasail",
+  "region": "US",
+  "url": "https://www.parasail.io",
+  "api_url": "https://api.parasail.io/v1",
+  "docs_url": "https://docs.parasail.io/parasail-docs",
+  "pricing_url": "https://www.parasail.io/pricing",
+  "description": "AI inference and compute platform providing serverless OpenAI-compatible access to popular models.",
+  "type": "cloud",
+  "models_url": "https://api.parasail.io/v1/models",
+  "openai_compatible": true,
+  "free_tier": false,
+  "github_url": "https://github.com/parasail-ai",
+  "twitter_url": "https://x.com/parasail_ai"
+}

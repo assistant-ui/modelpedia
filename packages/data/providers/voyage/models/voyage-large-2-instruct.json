@@ -1,0 +1,25 @@
+{
+  "id": "voyage-large-2-instruct",
+  "name": "Voyage Large 2 Instruct",
+  "created_by": "voyage",
+  "source": "official",
+  "status": "active",
+  "model_type": "embed",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.12
+  },
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "308b431d",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "modalities": "68e53d93",
+    "pricing": "42d17ec8",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-05-11"
+}

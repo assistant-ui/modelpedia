@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/hunyuan-video-lora",
+  "name": "Hunyuan Video LoRA Inference",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Hunyuan Video is an Open video generation model with high visual quality, motion diversity, text-video alignment, and generation stability",
+  "status": "active",
+  "release_date": "2025-01-16",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/hunyuan-video-lora",
+  "tagline": "Hunyuan Video is an Open video generation model with high visual quality, motion diversity, text-video alignment, and generation stability",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "445f7c72",
+    "description": "ce105501",
+    "status": "379ac110",
+    "release_date": "4d9b0c63",
+    "model_type": "4d1b75ca",
+    "page_url": "8bf10206",
+    "tagline": "ce105501",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

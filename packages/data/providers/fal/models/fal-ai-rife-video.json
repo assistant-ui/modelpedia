@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/rife/video",
+  "name": "RIFE",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Interpolate videos with RIFE - Real-Time Intermediate Flow Estimation",
+  "status": "active",
+  "release_date": "2025-07-22",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/rife/video",
+  "tagline": "Interpolate videos with RIFE - Real-Time Intermediate Flow Estimation",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "89b80c66",
+    "description": "8cc2904b",
+    "status": "379ac110",
+    "release_date": "7b78b654",
+    "model_type": "ddb0b7bc",
+    "page_url": "21aca3f3",
+    "tagline": "8cc2904b",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

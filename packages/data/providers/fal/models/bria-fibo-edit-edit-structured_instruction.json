@@ -1,0 +1,29 @@
+{
+  "id": "bria/fibo-edit/edit/structured_instruction",
+  "name": "Fibo Edit [Structured Instruction]",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Structured Instructions Generation endpoint for Fibo Edit, Bria's newest editing model.",
+  "status": "active",
+  "release_date": "2026-01-20",
+  "model_type": "other",
+  "page_url": "https://fal.run/bria/fibo-edit/edit/structured_instruction",
+  "tagline": "Structured Instructions Generation endpoint for Fibo Edit, Bria's newest editing model.",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true
+  },
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "0943050c",
+    "description": "e85b679f",
+    "status": "379ac110",
+    "release_date": "76120ca1",
+    "model_type": "ddb0b7bc",
+    "page_url": "992dbdf4",
+    "tagline": "e85b679f",
+    "capabilities": "dbb5b7fe",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

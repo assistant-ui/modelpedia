@@ -1,0 +1,42 @@
+{
+  "id": "stable-video-diffusion-img2vid",
+  "name": "Stable Video Diffusion Img2vid",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Video Diffusion Img2vid is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-11-20",
+  "model_type": "video",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid",
+  "open_weight": true,
+  "tagline": "Stable Video Diffusion Img2vid is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "huggingface_downloads": 50356,
+  "last_modified": "2024-07-10",
+  "_generated": {
+    "name": "f434ca86",
+    "description": "f63d82bf",
+    "status": "379ac110",
+    "release_date": "f5eb1bc2",
+    "model_type": "4d1b75ca",
+    "license": "ddb0b7bc",
+    "page_url": "6251c55e",
+    "open_weight": "b326b506",
+    "tagline": "f63d82bf",
+    "capabilities": "ea60b262",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "huggingface_downloads": "cb86ee32",
+    "last_modified": "2d84b9f9"
+  },
+  "last_updated": "2026-05-11"
+}

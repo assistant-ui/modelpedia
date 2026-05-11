@@ -1,0 +1,29 @@
+{
+  "id": "bria/fibo-lite/generate/structured_prompt/lite",
+  "name": "Fibo Lite",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Structured Prompt Generation endpoint for Fibo-Lite, Bria's SOTA Open source model",
+  "status": "active",
+  "release_date": "2026-01-19",
+  "model_type": "other",
+  "page_url": "https://fal.run/bria/fibo-lite/generate/structured_prompt/lite",
+  "tagline": "Structured Prompt Generation endpoint for Fibo-Lite, Bria's SOTA Open source model",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true
+  },
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "090f31c1",
+    "description": "792dc2b8",
+    "status": "379ac110",
+    "release_date": "aaadbdbb",
+    "model_type": "ddb0b7bc",
+    "page_url": "8ab1f61a",
+    "tagline": "792dc2b8",
+    "capabilities": "dbb5b7fe",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/kokoro/american-english",
+  "name": "Kokoro TTS",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kokoro is a lightweight text-to-speech model that delivers comparable quality to larger models while being significantly faster and more cost-efficient.",
+  "status": "active",
+  "release_date": "2025-02-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/kokoro/american-english",
+  "tagline": "Kokoro is a lightweight text-to-speech model that delivers comparable quality to larger models while being significantly faster and more cost-efficient.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "20d5e449",
+    "description": "49cc5c65",
+    "status": "379ac110",
+    "release_date": "d9b395e4",
+    "model_type": "ddb0b7bc",
+    "page_url": "06ce7f75",
+    "tagline": "49cc5c65",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

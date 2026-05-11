@@ -1,0 +1,27 @@
+{
+  "id": "seedream-4.5",
+  "name": "Seedream 4.5",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Seedream 4.5 has an all-round improvement to support professional visual creatives with high consistency and fidelity.",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://seed.bytedance.com/en/seedream4_5",
+  "tagline": "Seedream 4.5 has an all-round improvement to support professional visual creatives with high consistency and fidelity.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "d5ce60ea",
+    "description": "351d35b7",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "13ea8441",
+    "tagline": "351d35b7",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

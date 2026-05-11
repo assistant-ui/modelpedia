@@ -1,0 +1,28 @@
+{
+  "id": "tripo3d/tripo/v2.5/image-to-3d",
+  "name": "Tripo3D",
+  "created_by": "tripo3d",
+  "source": "official",
+  "description": "State of the art Image to 3D Object generation.",
+  "status": "active",
+  "release_date": "2025-04-25",
+  "model_type": "other",
+  "page_url": "https://fal.run/tripo3d/tripo/v2.5/image-to-3d",
+  "tagline": "State of the art Image to 3D Object generation.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "78a76cd3",
+    "description": "49c928f0",
+    "status": "379ac110",
+    "release_date": "258778b6",
+    "model_type": "ddb0b7bc",
+    "page_url": "cf15845b",
+    "tagline": "49c928f0",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

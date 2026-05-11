@@ -1,0 +1,29 @@
+{
+  "id": "fal-ai/moondream3-preview/point",
+  "name": "Moondream3 Preview [Point]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Moondream 3 is a vision language model that brings frontier-level visual reasoning with native object detection, pointing, and OCR capabilities to real-world applications requiring fast, inexpensive i",
+  "status": "active",
+  "release_date": "2025-10-09",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/moondream3-preview/point",
+  "tagline": "Moondream 3 is a vision language model that brings frontier-level visual reasoning with native object detection, pointing, and OCR capabilities to real-world applications requiring fast, inexpensive i",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "2eaeadc8",
+    "description": "285a94a3",
+    "status": "379ac110",
+    "release_date": "35c42317",
+    "model_type": "ddb0b7bc",
+    "page_url": "e5b0c85d",
+    "tagline": "285a94a3",
+    "capabilities": "da15458e",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

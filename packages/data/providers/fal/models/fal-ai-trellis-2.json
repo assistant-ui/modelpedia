@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/trellis-2",
+  "name": "Trellis 2",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate 3D models from your images using Trellis 2.",
+  "status": "active",
+  "release_date": "2025-12-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/trellis-2",
+  "tagline": "Generate 3D models from your images using Trellis 2.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "aa30e0fb",
+    "description": "ab1d8d82",
+    "status": "379ac110",
+    "release_date": "f8b75b68",
+    "model_type": "ddb0b7bc",
+    "page_url": "ed09cbb4",
+    "tagline": "ab1d8d82",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

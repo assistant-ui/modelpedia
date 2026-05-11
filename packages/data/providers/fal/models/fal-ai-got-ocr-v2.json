@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/got-ocr/v2",
+  "name": "GOT OCR 2.0",
+  "created_by": "fal",
+  "source": "official",
+  "description": "GOT-OCR2 works on a wide range of tasks, including plain document OCR, scene text OCR, formatted document OCR, and even OCR for tables, charts, mathematical formulas, geometric shapes, molecular formu",
+  "status": "active",
+  "release_date": "2025-02-12",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/got-ocr/v2",
+  "tagline": "GOT-OCR2 works on a wide range of tasks, including plain document OCR, scene text OCR, formatted document OCR, and even OCR for tables, charts, mathematical formulas, geometric shapes, molecular formu",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "0bd2e2c3",
+    "description": "8ef766f7",
+    "status": "379ac110",
+    "release_date": "fbc10550",
+    "model_type": "ddb0b7bc",
+    "page_url": "511c6db2",
+    "tagline": "8ef766f7",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

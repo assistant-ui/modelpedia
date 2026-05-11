@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ovis-image",
+  "name": "Ovis Image",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Ovis-Image is a 7B text-to-image model specifically optimized for quick, high quality text rendering.",
+  "status": "active",
+  "release_date": "2025-11-29",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/ovis-image",
+  "tagline": "Ovis-Image is a 7B text-to-image model specifically optimized for quick, high quality text rendering.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "4bffb0e4",
+    "description": "4d3cec7b",
+    "status": "379ac110",
+    "release_date": "ed3ba401",
+    "model_type": "db8857fe",
+    "page_url": "f4c125ad",
+    "tagline": "4d3cec7b",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/stable-audio-25/audio-to-audio",
+  "name": "Stable Audio 2.5",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate high quality music and sound effects using Stable Audio 2.5 from StabilityAI",
+  "status": "active",
+  "release_date": "2025-09-10",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/stable-audio-25/audio-to-audio",
+  "tagline": "Generate high quality music and sound effects using Stable Audio 2.5 from StabilityAI",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "381c7fa7",
+    "description": "e8adaa92",
+    "status": "379ac110",
+    "release_date": "6b120f3c",
+    "model_type": "ddb0b7bc",
+    "page_url": "6ae2e39f",
+    "tagline": "e8adaa92",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

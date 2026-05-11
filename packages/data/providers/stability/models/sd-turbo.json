@@ -1,0 +1,39 @@
+{
+  "id": "sd-turbo",
+  "name": "Sd Turbo",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Sd Turbo is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-11-27",
+  "model_type": "image",
+  "page_url": "https://huggingface.co/stabilityai/sd-turbo",
+  "open_weight": true,
+  "tagline": "Sd Turbo is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 556233,
+  "last_modified": "2024-07-10",
+  "_generated": {
+    "name": "66a258a1",
+    "description": "34bf7240",
+    "status": "379ac110",
+    "release_date": "6a9ec6cc",
+    "model_type": "db8857fe",
+    "page_url": "3526542a",
+    "open_weight": "b326b506",
+    "tagline": "34bf7240",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "53be133c",
+    "last_modified": "2d84b9f9"
+  },
+  "last_updated": "2026-05-11"
+}

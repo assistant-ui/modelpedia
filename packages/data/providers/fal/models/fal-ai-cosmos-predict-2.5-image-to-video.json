@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/cosmos-predict-2.5/image-to-video",
+  "name": "Cosmos Predict 2.5 2B",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate video from text and images using NVIDIA's 2B Cosmos Post-Trained Model",
+  "status": "active",
+  "release_date": "2026-02-24",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/cosmos-predict-2.5/image-to-video",
+  "tagline": "Generate video from text and images using NVIDIA's 2B Cosmos Post-Trained Model",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "f920597d",
+    "description": "472a202d",
+    "status": "379ac110",
+    "release_date": "2ad07f55",
+    "model_type": "4d1b75ca",
+    "page_url": "a932de30",
+    "tagline": "472a202d",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

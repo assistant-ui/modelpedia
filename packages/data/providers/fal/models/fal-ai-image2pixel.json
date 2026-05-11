@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/image2pixel",
+  "name": "Image2Pixel",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Turn images into pixel-perfect retro art",
+  "status": "active",
+  "release_date": "2025-10-14",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/image2pixel",
+  "tagline": "Turn images into pixel-perfect retro art",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "7bb5f919",
+    "description": "d62a5c4b",
+    "status": "379ac110",
+    "release_date": "2fc04e35",
+    "model_type": "db8857fe",
+    "page_url": "953fa1da",
+    "tagline": "d62a5c4b",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

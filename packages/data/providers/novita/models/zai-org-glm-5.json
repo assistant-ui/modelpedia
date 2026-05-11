@@ -1,0 +1,48 @@
+{
+  "id": "zai-org/glm-5",
+  "name": "GLM-5",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5",
+  "description": "GLM-5 is an open-source foundation model engineered for complex system engineering and long-horizon Agent tasks, delivering reliable productivity for top-tier programmers.",
+  "status": "active",
+  "release_date": "2026-02-08",
+  "context_window": 202800,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "GLM-5 is an open-source foundation model engineered for complex system engineering and long-horizon Agent tasks, delivering reliable productivity for top-tier programmers.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 3.2
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "bfb92394",
+    "family": "309daa86",
+    "description": "57b0d506",
+    "status": "379ac110",
+    "release_date": "8809b449",
+    "context_window": "cfc99a83",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "57b0d506",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "7d15b491",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

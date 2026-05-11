@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/stable-diffusion-v15",
+  "name": "Stable Diffusion v1.5",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Stable Diffusion v1.5",
+  "status": "active",
+  "release_date": "2024-04-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/stable-diffusion-v15",
+  "tagline": "Stable Diffusion v1.5",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "12765628",
+    "description": "12765628",
+    "status": "379ac110",
+    "release_date": "8d955188",
+    "model_type": "db8857fe",
+    "page_url": "8fcaed27",
+    "tagline": "12765628",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

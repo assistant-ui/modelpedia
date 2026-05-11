@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-pro/v1.1",
+  "name": "FLUX1.1 [pro]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX1.1 [pro] is an enhanced version of FLUX.1 [pro], improved image generation capabilities, delivering superior composition, detail, and artistic fidelity compared to its predecessor.",
+  "status": "active",
+  "release_date": "2025-01-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-pro/v1.1",
+  "tagline": "FLUX1.1 [pro] is an enhanced version of FLUX.1 [pro], improved image generation capabilities, delivering superior composition, detail, and artistic fidelity compared to its predecessor.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "151a9ae8",
+    "description": "cc2d385a",
+    "status": "379ac110",
+    "release_date": "4d9b0c63",
+    "model_type": "db8857fe",
+    "page_url": "ff0dd06f",
+    "tagline": "cc2d385a",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

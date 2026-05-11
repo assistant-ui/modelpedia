@@ -1,0 +1,38 @@
+{
+  "id": "deepseek/deepseek-ocr",
+  "name": "DeepSeek-OCR",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "status": "active",
+  "release_date": "2025-10-24",
+  "context_window": 8192,
+  "max_output_tokens": 8192,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.03
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "4d98b94f",
+    "family": "4b81b92d",
+    "status": "379ac110",
+    "release_date": "9814fbc4",
+    "context_window": "77441296",
+    "max_output_tokens": "77441296",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "9207f1ad",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

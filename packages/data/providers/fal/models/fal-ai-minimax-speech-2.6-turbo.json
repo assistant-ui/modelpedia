@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/minimax/speech-2.6-turbo",
+  "name": "MiniMax Speech 2.6 [Turbo]",
+  "created_by": "fal",
+  "source": "official",
+  "family": "minimax",
+  "description": "Generate speech from text prompts and different voices using the MiniMax Speech-2.6 HD model, which leverages advanced AI techniques to create high-quality text-to-speech.",
+  "status": "active",
+  "release_date": "2025-10-29",
+  "model_type": "tts",
+  "page_url": "https://fal.run/fal-ai/minimax/speech-2.6-turbo",
+  "tagline": "Generate speech from text prompts and different voices using the MiniMax Speech-2.6 HD model, which leverages advanced AI techniques to create high-quality text-to-speech.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "a5ff06e3",
+    "family": "c85916f0",
+    "description": "d15ac10b",
+    "status": "379ac110",
+    "release_date": "ea42b142",
+    "model_type": "4e16a2cf",
+    "page_url": "1ad8f5f8",
+    "tagline": "d15ac10b",
+    "capabilities": "0fa77dc6",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kolors",
+  "name": "Kolors",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Photorealistic Text-to-Image",
+  "status": "active",
+  "release_date": "2024-07-24",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/kolors",
+  "tagline": "Photorealistic Text-to-Image",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "4641eff9",
+    "description": "e66046ad",
+    "status": "379ac110",
+    "release_date": "c01007e5",
+    "model_type": "db8857fe",
+    "page_url": "dc42f523",
+    "tagline": "e66046ad",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

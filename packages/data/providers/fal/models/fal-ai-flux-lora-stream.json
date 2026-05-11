@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-lora/stream",
+  "name": "Flux Lora",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Super fast endpoint for the FLUX.1 [dev] model with LoRA support, enabling rapid and high-quality image generation using pre-trained LoRA adaptations for personalization, specific styles, brand identi",
+  "status": "active",
+  "release_date": "2025-05-15",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-lora/stream",
+  "tagline": "Super fast endpoint for the FLUX.1 [dev] model with LoRA support, enabling rapid and high-quality image generation using pre-trained LoRA adaptations for personalization, specific styles, brand identi",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "fd365ee2",
+    "description": "8f567870",
+    "status": "379ac110",
+    "release_date": "5157f2f4",
+    "model_type": "db8857fe",
+    "page_url": "70cc410c",
+    "tagline": "8f567870",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

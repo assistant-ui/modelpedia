@@ -1,0 +1,42 @@
+{
+  "id": "stable-diffusion-3.5-large-controlnet-depth",
+  "name": "Stable Diffusion 3.5 Large Controlnet Depth",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Diffusion 3.5 Large Controlnet Depth is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-11-25",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large-controlnet-depth",
+  "open_weight": true,
+  "tagline": "Stable Diffusion 3.5 Large Controlnet Depth is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 231,
+  "last_modified": "2024-11-28",
+  "_generated": {
+    "name": "ae3f15e6",
+    "description": "ddce08e2",
+    "status": "379ac110",
+    "release_date": "1c495f6c",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "db37145b",
+    "open_weight": "b326b506",
+    "tagline": "ddce08e2",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "9b04d152",
+    "last_modified": "93e1ab23"
+  },
+  "last_updated": "2026-05-11"
+}

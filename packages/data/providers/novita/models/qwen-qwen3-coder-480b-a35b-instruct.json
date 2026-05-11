@@ -1,0 +1,51 @@
+{
+  "id": "qwen/qwen3-coder-480b-a35b-instruct",
+  "name": "Qwen3 Coder 480B A35B Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "description": "Qwen3-Coder-480B-A35B-Instruct is a cutting-edge open coding model from Qwen, matching Claude Sonnet’s performance in agentic programming, browser automation, and core development tasks.",
+  "status": "active",
+  "release_date": "2025-07-23",
+  "context_window": 262144,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "parameters": 480,
+  "active_parameters": 35,
+  "tagline": "Qwen3-Coder-480B-A35B-Instruct is a cutting-edge open coding model from Qwen, matching Claude Sonnet’s performance in agentic programming, browser automation, and core development tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.3
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ce5d7e18",
+    "family": "48c385a0",
+    "description": "dd68b1ce",
+    "status": "379ac110",
+    "release_date": "bfbd7cfc",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "parameters": "6ea2ef73",
+    "active_parameters": "1c383cd3",
+    "tagline": "dd68b1ce",
+    "capabilities": "05593506",
+    "modalities": "68e53d93",
+    "pricing": "d398e968",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

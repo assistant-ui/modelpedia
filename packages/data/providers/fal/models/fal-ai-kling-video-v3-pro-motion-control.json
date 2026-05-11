@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/kling-video/v3/pro/motion-control",
+  "name": "Kling Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Transfer movements from a reference video to any character image.",
+  "status": "active",
+  "release_date": "2026-03-05",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/kling-video/v3/pro/motion-control",
+  "tagline": "Transfer movements from a reference video to any character image.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "dd782dc9",
+    "description": "a478f741",
+    "status": "379ac110",
+    "release_date": "e6626ce2",
+    "model_type": "ddb0b7bc",
+    "page_url": "516d362c",
+    "tagline": "a478f741",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

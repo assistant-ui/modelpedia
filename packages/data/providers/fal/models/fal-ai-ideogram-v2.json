@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ideogram/v2",
+  "name": "Ideogram V2",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate high-quality images, posters, and logos with Ideogram V2.",
+  "status": "active",
+  "release_date": "2024-12-04",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/ideogram/v2",
+  "tagline": "Generate high-quality images, posters, and logos with Ideogram V2.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "10256862",
+    "description": "0ba8ea54",
+    "status": "379ac110",
+    "release_date": "b1fa8211",
+    "model_type": "db8857fe",
+    "page_url": "70ef7670",
+    "tagline": "0ba8ea54",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

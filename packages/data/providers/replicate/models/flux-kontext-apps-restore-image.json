@@ -1,0 +1,27 @@
+{
+  "id": "flux-kontext-apps/restore-image",
+  "name": "Restore Image",
+  "created_by": "flux-kontext-apps",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/flux-kontext-apps/restore-image",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "b4a79c29",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "bea5c765",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

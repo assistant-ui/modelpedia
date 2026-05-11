@@ -1,0 +1,47 @@
+{
+  "id": "deepseek/deepseek-v3-0324",
+  "name": "DeepSeek V3 0324",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.",
+  "status": "active",
+  "release_date": "2025-03-25",
+  "context_window": 163840,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.27,
+    "output": 1.12
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "4ca87744",
+    "family": "4b81b92d",
+    "description": "cffd3336",
+    "status": "379ac110",
+    "release_date": "aa38c35d",
+    "context_window": "7edab444",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "cffd3336",
+    "capabilities": "05593506",
+    "modalities": "68e53d93",
+    "pricing": "3b5f37f0",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

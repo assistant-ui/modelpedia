@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/image-editing/baby-version",
+  "name": "Image Editing",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Transform any person into their baby version, while preserving the original pose and expression with childlike features.",
+  "status": "active",
+  "release_date": "2025-06-03",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/image-editing/baby-version",
+  "tagline": "Transform any person into their baby version, while preserving the original pose and expression with childlike features.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "2f4a63e0",
+    "description": "0de5d12f",
+    "status": "379ac110",
+    "release_date": "c32ecc6d",
+    "model_type": "db8857fe",
+    "page_url": "26489b4c",
+    "tagline": "0de5d12f",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

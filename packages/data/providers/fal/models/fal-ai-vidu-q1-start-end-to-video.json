@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/vidu/q1/start-end-to-video",
+  "name": "Vidu Start End to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Vidu Q1 Start-End to Video generates smooth transition 1080p videos between specified start and end images.",
+  "status": "active",
+  "release_date": "2025-05-09",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/vidu/q1/start-end-to-video",
+  "tagline": "Vidu Q1 Start-End to Video generates smooth transition 1080p videos between specified start and end images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-27",
+  "_generated": {
+    "name": "21837dd0",
+    "description": "a0e46cc0",
+    "status": "379ac110",
+    "release_date": "144241ba",
+    "model_type": "4d1b75ca",
+    "page_url": "c83eedb9",
+    "tagline": "a0e46cc0",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "79a25cd1"
+  },
+  "last_updated": "2026-05-11"
+}

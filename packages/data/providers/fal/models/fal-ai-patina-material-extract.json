@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/patina/material/extract",
+  "name": "PATINA",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Extract seamless tiling textures with PBR attribute maps from images",
+  "status": "active",
+  "release_date": "2026-04-08",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/patina/material/extract",
+  "tagline": "Extract seamless tiling textures with PBR attribute maps from images",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "231cf406",
+    "description": "c38b69eb",
+    "status": "379ac110",
+    "release_date": "e4942fa5",
+    "model_type": "db8857fe",
+    "page_url": "50df79a3",
+    "tagline": "c38b69eb",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

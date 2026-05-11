@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/vecglypher/image-to-svg",
+  "name": "Vecglypher",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Vector font generation with VecGlypher.",
+  "status": "active",
+  "release_date": "2026-03-10",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/vecglypher/image-to-svg",
+  "tagline": "Vector font generation with VecGlypher.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-03-10",
+  "_generated": {
+    "name": "3190015d",
+    "description": "c604eb86",
+    "status": "379ac110",
+    "release_date": "49946764",
+    "model_type": "db8857fe",
+    "page_url": "bc11a233",
+    "tagline": "c604eb86",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "49946764"
+  },
+  "last_updated": "2026-05-11"
+}

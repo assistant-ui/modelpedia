@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/sora-2/characters",
+  "name": "Sora 2",
+  "created_by": "fal",
+  "source": "official",
+  "family": "sora-2",
+  "description": "Generate character ids to use with Sora 2 generations",
+  "status": "active",
+  "release_date": "2026-03-12",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/sora-2/characters",
+  "tagline": "Generate character ids to use with Sora 2 generations",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-03-13",
+  "_generated": {
+    "name": "1bafc4f5",
+    "family": "3d185d44",
+    "description": "7af705ec",
+    "status": "379ac110",
+    "release_date": "96ba6f81",
+    "model_type": "4d1b75ca",
+    "page_url": "a5eb4a1a",
+    "tagline": "7af705ec",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "b666dedc"
+  },
+  "last_updated": "2026-05-11"
+}

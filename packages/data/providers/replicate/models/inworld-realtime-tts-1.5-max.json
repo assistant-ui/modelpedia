@@ -1,0 +1,16 @@
+{
+  "id": "inworld/realtime-tts-1.5-max",
+  "name": "Realtime Tts 1.5 Max",
+  "created_by": "inworld",
+  "source": "official",
+  "status": "active",
+  "model_type": "audio",
+  "page_url": "https://replicate.com/inworld/realtime-tts-1.5-max",
+  "_generated": {
+    "name": "a83c81c7",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "page_url": "cfb6f08e"
+  },
+  "last_updated": "2026-05-11"
+}

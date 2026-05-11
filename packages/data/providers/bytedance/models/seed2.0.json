@@ -1,0 +1,32 @@
+{
+  "id": "seed2.0",
+  "name": "Seed2.0",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Comprehensively upgraded multimodal understanding , and LLM & Agent performance significantly boosted.",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://seed.bytedance.com/en/seed2",
+  "tagline": "Comprehensively upgraded multimodal understanding , and LLM & Agent performance significantly boosted.",
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "5dae18e6",
+    "description": "43526ca5",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "ace4b5a3",
+    "tagline": "43526ca5",
+    "capabilities": "5f5c7516",
+    "modalities": "6399757e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

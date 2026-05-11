@@ -1,0 +1,38 @@
+{
+  "id": "openai/gpt-image-2",
+  "name": "GPT Image 2 API",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2",
+  "description": "GPT Image 2, OpenAI's latest image model, is capable of creating extremely detailed images with fine typography.",
+  "status": "active",
+  "release_date": "2026-04-20",
+  "model_type": "image",
+  "page_url": "https://fal.run/openai/gpt-image-2",
+  "tagline": "GPT Image 2, OpenAI's latest image model, is capable of creating extremely detailed images with fine typography.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "5574f14a",
+    "family": "c79be345",
+    "description": "ea12f6bb",
+    "status": "379ac110",
+    "release_date": "9b0ca917",
+    "model_type": "db8857fe",
+    "page_url": "8f2d05a7",
+    "tagline": "ea12f6bb",
+    "capabilities": "8a3b232e",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

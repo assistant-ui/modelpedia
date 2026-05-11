@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/depth-anything-video",
+  "name": "Depth Anything Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generates depth maps from video using Video Depth Anything (CVPR 2025).",
+  "status": "active",
+  "release_date": "2026-03-02",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/depth-anything-video",
+  "tagline": "Generates depth maps from video using Video Depth Anything (CVPR 2025).",
+  "last_seen_at": "2026-03-02",
+  "_generated": {
+    "name": "576accf0",
+    "description": "9e157c61",
+    "status": "379ac110",
+    "release_date": "5cd636df",
+    "model_type": "ddb0b7bc",
+    "page_url": "6c12bef5",
+    "tagline": "9e157c61",
+    "last_seen_at": "5cd636df"
+  },
+  "last_updated": "2026-05-11"
+}

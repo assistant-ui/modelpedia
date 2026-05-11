@@ -1,0 +1,29 @@
+{
+  "id": "openai/gpt-4o-mini",
+  "name": "Gpt 4o Mini",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-4o",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://replicate.com/openai/gpt-4o-mini",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "9c199ebd",
+    "family": "15249632",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "955f31a1",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/heygen/v3/video-agent",
+  "name": "Heygen Video Agent",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate videos with a single prompt.",
+  "status": "active",
+  "release_date": "2026-04-16",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/heygen/v3/video-agent",
+  "tagline": "Generate videos with a single prompt.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "15cc0caa",
+    "description": "d6ed1dca",
+    "status": "379ac110",
+    "release_date": "008001ac",
+    "model_type": "4d1b75ca",
+    "page_url": "9d277f89",
+    "tagline": "d6ed1dca",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

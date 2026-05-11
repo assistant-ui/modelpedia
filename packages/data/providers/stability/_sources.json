@@ -1,0 +1,4 @@
+{
+  "huggingface": "https://huggingface.co/api/models?author=stabilityai&limit=100&sort=downloads&direction=-1&full=true",
+  "docs": "https://platform.stability.ai/docs"
+}

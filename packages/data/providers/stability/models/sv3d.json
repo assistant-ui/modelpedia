@@ -1,0 +1,42 @@
+{
+  "id": "sv3d",
+  "name": "Sv3d",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Sv3d is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-03-18",
+  "model_type": "video",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/sv3d",
+  "open_weight": true,
+  "tagline": "Sv3d is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "huggingface_downloads": 0,
+  "last_modified": "2024-07-10",
+  "_generated": {
+    "name": "d5dc523b",
+    "description": "0a6a6c58",
+    "status": "379ac110",
+    "release_date": "1b78647a",
+    "model_type": "4d1b75ca",
+    "license": "ddb0b7bc",
+    "page_url": "623d5386",
+    "open_weight": "b326b506",
+    "tagline": "0a6a6c58",
+    "capabilities": "ea60b262",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "huggingface_downloads": "cfcd2084",
+    "last_modified": "2d84b9f9"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "bagel",
+  "name": "BAGEL",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "An open-source foundational model that natively supports multimodal understanding and generation of texts, images, and videos.",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://seed.bytedance.com/en/bagel",
+  "tagline": "An open-source foundational model that natively supports multimodal understanding and generation of texts, images, and videos.",
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "c8d634c7",
+    "description": "8e411849",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "0fedbcb3",
+    "tagline": "8e411849",
+    "capabilities": "5f5c7516",
+    "modalities": "6399757e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/minimax/video-01-live/image-to-video",
+  "name": "MiniMax (Hailuo AI) Video 01",
+  "created_by": "fal",
+  "source": "official",
+  "family": "minimax",
+  "description": "Generate video clips from your images using MiniMax Video model",
+  "status": "active",
+  "release_date": "2024-12-16",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/minimax/video-01-live/image-to-video",
+  "tagline": "Generate video clips from your images using MiniMax Video model",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "949d676a",
+    "family": "c85916f0",
+    "description": "b8d06f6c",
+    "status": "379ac110",
+    "release_date": "a968b91a",
+    "model_type": "4d1b75ca",
+    "page_url": "4921fc49",
+    "tagline": "b8d06f6c",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

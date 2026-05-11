@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/elevenlabs/speech-to-text",
+  "name": "ElevenLabs Speech to Text",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate text from speech using ElevenLabs advanced speech-to-text model.",
+  "status": "active",
+  "release_date": "2025-02-27",
+  "model_type": "transcription",
+  "page_url": "https://fal.run/fal-ai/elevenlabs/speech-to-text",
+  "tagline": "Generate text from speech using ElevenLabs advanced speech-to-text model.",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "b011ff6c",
+    "description": "671e0fdd",
+    "status": "379ac110",
+    "release_date": "0c569d59",
+    "model_type": "5e12d29a",
+    "page_url": "54b73687",
+    "tagline": "671e0fdd",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

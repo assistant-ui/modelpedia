@@ -1,0 +1,42 @@
+{
+  "id": "stable-cascade-prior",
+  "name": "Stable Cascade Prior",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Cascade Prior is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-02-12",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-cascade-prior",
+  "open_weight": true,
+  "tagline": "Stable Cascade Prior is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 4371,
+  "last_modified": "2024-03-14",
+  "_generated": {
+    "name": "f0c97102",
+    "description": "b16a5d60",
+    "status": "379ac110",
+    "release_date": "56338780",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "631828ea",
+    "open_weight": "b326b506",
+    "tagline": "b16a5d60",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "1377e22f",
+    "last_modified": "72223066"
+  },
+  "last_updated": "2026-05-11"
+}

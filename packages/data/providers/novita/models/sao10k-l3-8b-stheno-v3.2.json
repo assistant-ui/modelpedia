@@ -1,0 +1,45 @@
+{
+  "id": "Sao10K/L3-8B-Stheno-v3.2",
+  "name": "L3 8B Stheno V3.2",
+  "created_by": "sao10k",
+  "source": "official",
+  "description": "Sao10K/L3-8B-Stheno-v3.2 is a highly skilled actor that excels at fully immersing itself in any role assigned.",
+  "status": "active",
+  "release_date": "2024-11-29",
+  "context_window": 8192,
+  "max_output_tokens": 32000,
+  "model_type": "chat",
+  "parameters": 8,
+  "tagline": "Sao10K/L3-8B-Stheno-v3.2 is a highly skilled actor that excels at fully immersing itself in any role assigned.",
+  "capabilities": {
+    "tool_call": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.05
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8153aacb",
+    "description": "13baadcc",
+    "status": "379ac110",
+    "release_date": "8fb80669",
+    "context_window": "77441296",
+    "max_output_tokens": "10e4d788",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "tagline": "13baadcc",
+    "capabilities": "43d67186",
+    "modalities": "68e53d93",
+    "pricing": "d3db3c2d",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

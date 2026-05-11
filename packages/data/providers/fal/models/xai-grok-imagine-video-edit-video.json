@@ -1,0 +1,26 @@
+{
+  "id": "xai/grok-imagine-video/edit-video",
+  "name": "Grok Imagine Video",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "description": "Edit videos using xAI's Grok Imagine",
+  "status": "active",
+  "release_date": "2026-01-29",
+  "model_type": "other",
+  "page_url": "https://fal.run/xai/grok-imagine-video/edit-video",
+  "tagline": "Edit videos using xAI's Grok Imagine",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "5a3f9dd3",
+    "family": "a4576b5e",
+    "description": "05333905",
+    "status": "379ac110",
+    "release_date": "d017f790",
+    "model_type": "ddb0b7bc",
+    "page_url": "73968454",
+    "tagline": "05333905",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

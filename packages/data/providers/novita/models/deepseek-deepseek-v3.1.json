@@ -1,0 +1,48 @@
+{
+  "id": "deepseek/deepseek-v3.1",
+  "name": "DeepSeek V3.1",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "DeepSeek-V3.1 is a hybrid model that supports both thinking mode and non-thinking mode.DeepSeek-V3.1 is post-trained on the top of DeepSeek-V3.1-Base, which is built upon the original V3 base checkpoint through a two-phase long context extension approach, following the methodology outlined in the original DeepSeek-V3 report.",
+  "status": "active",
+  "release_date": "2025-08-21",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "tagline": "DeepSeek-V3.1 is a hybrid model that supports both thinking mode and non-thinking mode.DeepSeek-V3.1 is post-trained on the top of DeepSeek-V3.1-Base, which is built upon the original V3 base checkpoi",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.27,
+    "output": 1
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "28e7ca2e",
+    "family": "4b81b92d",
+    "description": "2115a519",
+    "status": "379ac110",
+    "release_date": "d9d01c83",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "tagline": "7c8f791b",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "0f7797d7",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

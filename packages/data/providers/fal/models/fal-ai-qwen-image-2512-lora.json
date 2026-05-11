@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/qwen-image-2512/lora",
+  "name": "Qwen Image 2512",
+  "created_by": "fal",
+  "source": "official",
+  "family": "qwen",
+  "description": "LoRA inference endpoint for Qwen Image 2512, an improved version of Qwen Image with better text rendering, finer natural textures, and more realistic human generation.",
+  "status": "active",
+  "release_date": "2026-01-02",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/qwen-image-2512/lora",
+  "tagline": "LoRA inference endpoint for Qwen Image 2512, an improved version of Qwen Image with better text rendering, finer natural textures, and more realistic human generation.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "f6339ca8",
+    "family": "a3af76f3",
+    "description": "912fc8f1",
+    "status": "379ac110",
+    "release_date": "0cfa6224",
+    "model_type": "db8857fe",
+    "page_url": "6f5d3124",
+    "tagline": "912fc8f1",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

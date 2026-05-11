@@ -1,0 +1,35 @@
+{
+  "id": "bria/reimagine/3.2",
+  "name": "Reimagine",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Reimagine uses a structure reference for generating new images while preserving the structure of an input image, guided by text prompts.",
+  "status": "active",
+  "release_date": "2025-08-20",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/reimagine/3.2",
+  "tagline": "Reimagine uses a structure reference for generating new images while preserving the structure of an input image, guided by text prompts.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "676f93cd",
+    "description": "01fca865",
+    "status": "379ac110",
+    "release_date": "772dfb4d",
+    "model_type": "db8857fe",
+    "page_url": "f98a68eb",
+    "tagline": "01fca865",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

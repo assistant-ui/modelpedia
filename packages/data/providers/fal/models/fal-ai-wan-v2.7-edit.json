@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/wan/v2.7/edit",
+  "name": "Wan",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Transform and edit existing images with text-guided instructions using the WAN 2.7 model for creative image manipulation.",
+  "status": "active",
+  "release_date": "2026-04-01",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/wan/v2.7/edit",
+  "tagline": "Transform and edit existing images with text-guided instructions using the WAN 2.7 model for creative image manipulation.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "1cffaf76",
+    "family": "2aadc089",
+    "description": "d3957cdc",
+    "status": "379ac110",
+    "release_date": "f68ebedb",
+    "model_type": "db8857fe",
+    "page_url": "563d5e81",
+    "tagline": "d3957cdc",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

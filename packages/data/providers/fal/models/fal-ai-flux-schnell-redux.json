@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux/schnell/redux",
+  "name": "FLUX.1 [schnell] Redux",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX.1 [schnell] Redux is a high-performance endpoint for the FLUX.1 [schnell] model that enables rapid transformation of existing images, delivering high-quality style transfers and image modificatio",
+  "status": "active",
+  "release_date": "2024-11-27",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux/schnell/redux",
+  "tagline": "FLUX.1 [schnell] Redux is a high-performance endpoint for the FLUX.1 [schnell] model that enables rapid transformation of existing images, delivering high-quality style transfers and image modificatio",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "6fe8cb2b",
+    "description": "bbda4503",
+    "status": "379ac110",
+    "release_date": "eba2b81f",
+    "model_type": "db8857fe",
+    "page_url": "1def2d4a",
+    "tagline": "bbda4503",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

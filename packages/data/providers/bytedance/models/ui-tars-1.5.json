@@ -1,0 +1,31 @@
+{
+  "id": "ui-tars-1.5",
+  "name": "UI-TARS-1.5",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Next-generation native GUI agent model, capable of effectively performing diverse tasks within virtual environments.",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://seed.bytedance.com/en/ui-tars",
+  "tagline": "Next-generation native GUI agent model, capable of effectively performing diverse tasks within virtual environments.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "d08520f5",
+    "description": "16260194",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "7b5bb3ab",
+    "tagline": "16260194",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

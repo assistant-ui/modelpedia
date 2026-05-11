@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/dia-tts",
+  "name": "Dia",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Dia directly generates realistic dialogue from transcripts.",
+  "status": "active",
+  "release_date": "2025-04-22",
+  "model_type": "tts",
+  "page_url": "https://fal.run/fal-ai/dia-tts",
+  "tagline": "Dia directly generates realistic dialogue from transcripts.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "e629bb72",
+    "description": "bd0d7536",
+    "status": "379ac110",
+    "release_date": "6dce7146",
+    "model_type": "4e16a2cf",
+    "page_url": "b7af0f55",
+    "tagline": "bd0d7536",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "stable-virtual-camera",
+  "name": "Stable Virtual Camera",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Virtual Camera is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2025-02-19",
+  "model_type": "video",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-virtual-camera",
+  "open_weight": true,
+  "tagline": "Stable Virtual Camera is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "huggingface_downloads": 30721,
+  "last_modified": "2025-06-03",
+  "_generated": {
+    "name": "deeb055c",
+    "description": "9132a0fe",
+    "status": "379ac110",
+    "release_date": "9e8be888",
+    "model_type": "4d1b75ca",
+    "license": "ddb0b7bc",
+    "page_url": "3087b350",
+    "open_weight": "b326b506",
+    "tagline": "9132a0fe",
+    "capabilities": "ea60b262",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "huggingface_downloads": "ad6ef803",
+    "last_modified": "c32ecc6d"
+  },
+  "last_updated": "2026-05-11"
+}

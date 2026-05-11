@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/gpt-image-1/edit-image",
+  "name": "gpt-image-1",
+  "created_by": "fal",
+  "source": "official",
+  "family": "gpt-image-1",
+  "description": "OpenAI's latest image generation and editing model: gpt-1-image.",
+  "status": "active",
+  "release_date": "2025-04-23",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/gpt-image-1/edit-image",
+  "tagline": "OpenAI's latest image generation and editing model: gpt-1-image.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "480da012",
+    "family": "480da012",
+    "description": "94893872",
+    "status": "379ac110",
+    "release_date": "efc42cfe",
+    "model_type": "db8857fe",
+    "page_url": "c4605af9",
+    "tagline": "94893872",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/switti/512",
+  "name": "Switti 512",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Switti is a scale-wise transformer for fast text-to-image generation that outperforms existing T2I AR models and competes with state-of-the-art T2I diffusion models while being faster than distilled d",
+  "status": "active",
+  "release_date": "2024-12-31",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/switti/512",
+  "tagline": "Switti is a scale-wise transformer for fast text-to-image generation that outperforms existing T2I AR models and competes with state-of-the-art T2I diffusion models while being faster than distilled d",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "a026e1e8",
+    "description": "4f9a0ae9",
+    "status": "379ac110",
+    "release_date": "2e1016c4",
+    "model_type": "db8857fe",
+    "page_url": "a9531be4",
+    "tagline": "4f9a0ae9",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

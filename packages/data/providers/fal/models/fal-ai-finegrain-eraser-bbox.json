@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/finegrain-eraser/bbox",
+  "name": "finegrain eraser",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Finegrain Eraser removes any object selected with a bounding box—along with its shadows, reflections, and lighting artifacts—seamlessly reconstructing the scene with contextually accurate content.",
+  "status": "active",
+  "release_date": "2025-04-09",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/finegrain-eraser/bbox",
+  "tagline": "Finegrain Eraser removes any object selected with a bounding box—along with its shadows, reflections, and lighting artifacts—seamlessly reconstructing the scene with contextually accurate content.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "ef63db62",
+    "description": "d479d370",
+    "status": "379ac110",
+    "release_date": "a9d448cf",
+    "model_type": "db8857fe",
+    "page_url": "44f2dc11",
+    "tagline": "d479d370",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

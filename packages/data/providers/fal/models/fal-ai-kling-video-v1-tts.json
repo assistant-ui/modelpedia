@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/kling-video/v1/tts",
+  "name": "Kling TTS",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate speech from text prompts and different voices using the Kling TTS model, which leverages advanced AI techniques to create high-quality text-to-speech.",
+  "status": "active",
+  "release_date": "2025-09-13",
+  "model_type": "tts",
+  "page_url": "https://fal.run/fal-ai/kling-video/v1/tts",
+  "tagline": "Generate speech from text prompts and different voices using the Kling TTS model, which leverages advanced AI techniques to create high-quality text-to-speech.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "832236fc",
+    "description": "bd2daf5a",
+    "status": "379ac110",
+    "release_date": "ffbc9f23",
+    "model_type": "4e16a2cf",
+    "page_url": "5ef9a955",
+    "tagline": "bd2daf5a",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

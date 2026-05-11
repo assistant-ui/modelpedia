@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/gemini-3-pro-image-preview/edit",
+  "name": "Gemini 3 Pro Image Preview",
+  "created_by": "fal",
+  "source": "official",
+  "family": "gemini-3",
+  "description": "Gemini 3 Pro Image (a.k.a Nano Banana Pro) is Google's state-of-the-art high-fidelity image generation and editing model",
+  "status": "active",
+  "release_date": "2025-11-20",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/gemini-3-pro-image-preview/edit",
+  "tagline": "Gemini 3 Pro Image (a.k.a Nano Banana Pro) is Google's state-of-the-art high-fidelity image generation and editing model",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "57551d6f",
+    "family": "eb14e598",
+    "description": "f99fe56d",
+    "status": "379ac110",
+    "release_date": "38dc8373",
+    "model_type": "db8857fe",
+    "page_url": "822ae6ba",
+    "tagline": "f99fe56d",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

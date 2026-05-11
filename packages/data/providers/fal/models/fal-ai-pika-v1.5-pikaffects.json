@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/pika/v1.5/pikaffects",
+  "name": "Pika Effects (v1.5)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Pika Effects are AI-powered video effects designed to modify objects, characters, and environments in a fun, engaging, and visually compelling manner.",
+  "status": "active",
+  "release_date": "2025-03-14",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/pika/v1.5/pikaffects",
+  "tagline": "Pika Effects are AI-powered video effects designed to modify objects, characters, and environments in a fun, engaging, and visually compelling manner.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "e616c9b8",
+    "description": "c6067bf8",
+    "status": "379ac110",
+    "release_date": "e0a4c199",
+    "model_type": "4d1b75ca",
+    "page_url": "474e9566",
+    "tagline": "c6067bf8",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

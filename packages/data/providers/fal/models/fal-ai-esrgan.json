@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/esrgan",
+  "name": "Upscale Images",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Upscale images by a given factor.",
+  "status": "active",
+  "release_date": "2023-10-30",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/esrgan",
+  "tagline": "Upscale images by a given factor.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "62ed50c9",
+    "description": "6abbe1bd",
+    "status": "379ac110",
+    "release_date": "ca1bf8a0",
+    "model_type": "db8857fe",
+    "page_url": "55460909",
+    "tagline": "6abbe1bd",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

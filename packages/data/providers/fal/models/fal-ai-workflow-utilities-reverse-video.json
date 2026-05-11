@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/workflow-utilities/reverse-video",
+  "name": "Workflow Utilities",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FFMPEG Utility to Reverse Videos",
+  "status": "active",
+  "release_date": "2026-02-19",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/workflow-utilities/reverse-video",
+  "tagline": "FFMPEG Utility to Reverse Videos",
+  "last_seen_at": "2026-02-19",
+  "_generated": {
+    "name": "5a6862ba",
+    "description": "4d03e295",
+    "status": "379ac110",
+    "release_date": "1323dc51",
+    "model_type": "ddb0b7bc",
+    "page_url": "8f7991e7",
+    "tagline": "4d03e295",
+    "last_seen_at": "1323dc51"
+  },
+  "last_updated": "2026-05-11"
+}

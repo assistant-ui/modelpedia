@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/z-image/turbo/tiling",
+  "name": "Z-Image Turbo Seamless Tiling",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate seamlessly tiling photorealistic images from text using Z-Image Turbo",
+  "status": "active",
+  "release_date": "2026-03-17",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/z-image/turbo/tiling",
+  "tagline": "Generate seamlessly tiling photorealistic images from text using Z-Image Turbo",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "6d6203ff",
+    "description": "732b64af",
+    "status": "379ac110",
+    "release_date": "56d4bd95",
+    "model_type": "db8857fe",
+    "page_url": "ed12485a",
+    "tagline": "732b64af",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

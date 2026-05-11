@@ -1,0 +1,31 @@
+{
+  "id": "resemble-ai/chatterboxhd/text-to-speech",
+  "name": "Chatterboxhd",
+  "created_by": "resemble-ai",
+  "source": "official",
+  "description": "Generate expressive, natural speech with Resemble AI's Chatterbox.",
+  "status": "active",
+  "release_date": "2025-06-02",
+  "model_type": "tts",
+  "page_url": "https://fal.run/resemble-ai/chatterboxhd/text-to-speech",
+  "tagline": "Generate expressive, natural speech with Resemble AI's Chatterbox.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "02418d7c",
+    "description": "9b629534",
+    "status": "379ac110",
+    "release_date": "0629f6b1",
+    "model_type": "4e16a2cf",
+    "page_url": "e754ef01",
+    "tagline": "9b629534",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

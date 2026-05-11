@@ -1,0 +1,26 @@
+{
+  "id": "fal-ai/wan/v2.7/edit-video",
+  "name": "Wan",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Wan 2.7 is the latest generation AI video model, delivering enhanced motion smoothness, superior scene fidelity, and greater visual coherence.",
+  "status": "active",
+  "release_date": "2026-03-28",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/wan/v2.7/edit-video",
+  "tagline": "Wan 2.7 is the latest generation AI video model, delivering enhanced motion smoothness, superior scene fidelity, and greater visual coherence.",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "1cffaf76",
+    "family": "2aadc089",
+    "description": "717c7291",
+    "status": "379ac110",
+    "release_date": "fed610a1",
+    "model_type": "ddb0b7bc",
+    "page_url": "e0665326",
+    "tagline": "717c7291",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

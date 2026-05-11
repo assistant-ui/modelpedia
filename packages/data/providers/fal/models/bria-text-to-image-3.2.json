@@ -1,0 +1,35 @@
+{
+  "id": "bria/text-to-image/3.2",
+  "name": "Bria 3.2 Text-to-Image",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Bria’s Text-to-Image model, trained exclusively on licensed data for safe and risk-free commercial use.",
+  "status": "active",
+  "release_date": "2025-06-17",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/text-to-image/3.2",
+  "tagline": "Bria’s Text-to-Image model, trained exclusively on licensed data for safe and risk-free commercial use.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "e6af779b",
+    "description": "3d0ffa3c",
+    "status": "379ac110",
+    "release_date": "41e2691d",
+    "model_type": "db8857fe",
+    "page_url": "79571793",
+    "tagline": "3d0ffa3c",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

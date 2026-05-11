@@ -1,0 +1,16 @@
+{
+  "id": "bytedance/seedream-4.5",
+  "name": "Seedream 4.5",
+  "created_by": "bytedance",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/bytedance/seedream-4.5",
+  "_generated": {
+    "name": "d5ce60ea",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "fa2670e1"
+  },
+  "last_updated": "2026-05-11"
+}

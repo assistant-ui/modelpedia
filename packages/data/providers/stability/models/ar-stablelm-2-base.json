@@ -1,0 +1,42 @@
+{
+  "id": "ar-stablelm-2-base",
+  "name": "Ar Stablelm 2 Base",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Ar Stablelm 2 Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-07-29",
+  "model_type": "chat",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/ar-stablelm-2-base",
+  "open_weight": true,
+  "tagline": "Ar Stablelm 2 Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 0,
+  "last_modified": "2024-12-06",
+  "_generated": {
+    "name": "747b67c2",
+    "description": "60d23628",
+    "status": "379ac110",
+    "release_date": "600969d3",
+    "model_type": "d669f408",
+    "license": "ddb0b7bc",
+    "page_url": "510e110f",
+    "open_weight": "b326b506",
+    "tagline": "60d23628",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "cfcd2084",
+    "last_modified": "725ace28"
+  },
+  "last_updated": "2026-05-11"
+}

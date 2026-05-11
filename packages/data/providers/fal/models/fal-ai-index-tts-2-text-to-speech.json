@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/index-tts-2/text-to-speech",
+  "name": "Index TTS 2.0",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate natural, clear speeches using Index TTS 2.0 from IndexTeam",
+  "status": "active",
+  "release_date": "2025-10-07",
+  "model_type": "tts",
+  "page_url": "https://fal.run/fal-ai/index-tts-2/text-to-speech",
+  "tagline": "Generate natural, clear speeches using Index TTS 2.0 from IndexTeam",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "e323ae53",
+    "description": "b1ceb5f9",
+    "status": "379ac110",
+    "release_date": "94efe4a0",
+    "model_type": "4e16a2cf",
+    "page_url": "20e90408",
+    "tagline": "b1ceb5f9",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

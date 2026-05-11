@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/zonos",
+  "name": "Zonos-Audio-Clone",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Clone voice of any person and speak anything in their voice using zonos' voice cloning.",
+  "status": "active",
+  "release_date": "2025-02-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/zonos",
+  "tagline": "Clone voice of any person and speak anything in their voice using zonos' voice cloning.",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "fc51a727",
+    "description": "760e59ab",
+    "status": "379ac110",
+    "release_date": "d9b395e4",
+    "model_type": "ddb0b7bc",
+    "page_url": "55388ce6",
+    "tagline": "760e59ab",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

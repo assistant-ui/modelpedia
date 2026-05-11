@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/chain-of-zoom",
+  "name": "Chain Of Zoom",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Extreme Super-Resolution via Scale Autoregression and Preference Alignment",
+  "status": "active",
+  "release_date": "2025-06-18",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/chain-of-zoom",
+  "tagline": "Extreme Super-Resolution via Scale Autoregression and Preference Alignment",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "f8556453",
+    "description": "4c41b7be",
+    "status": "379ac110",
+    "release_date": "c8a753e1",
+    "model_type": "db8857fe",
+    "page_url": "6bdadb17",
+    "tagline": "4c41b7be",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

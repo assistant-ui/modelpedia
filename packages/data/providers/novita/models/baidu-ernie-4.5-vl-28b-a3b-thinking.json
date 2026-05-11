@@ -1,0 +1,51 @@
+{
+  "id": "baidu/ernie-4.5-vl-28b-a3b-thinking",
+  "name": "ERNIE-4.5-VL-28B-A3B-Thinking",
+  "created_by": "baidu",
+  "source": "official",
+  "description": "Built upon the powerful ERNIE-4.5-VL-28B-A3B architecture, the newly upgraded ERNIE-4.5-VL-28B-A3B-Thinking achieves a remarkable leap forward in multimodal reasoning capabilities.",
+  "status": "active",
+  "release_date": "2025-11-26",
+  "context_window": 131072,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "parameters": 28,
+  "active_parameters": 3,
+  "tagline": "Built upon the powerful ERNIE-4.5-VL-28B-A3B architecture, the newly upgraded ERNIE-4.5-VL-28B-A3B-Thinking achieves a remarkable leap forward in multimodal reasoning capabilities.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.39,
+    "output": 0.39
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2523fd98",
+    "description": "fbf4c075",
+    "status": "379ac110",
+    "release_date": "a5b8446f",
+    "context_window": "f7de594e",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "parameters": "33e75ff0",
+    "active_parameters": "eccbc87e",
+    "tagline": "fbf4c075",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "3e313a96",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

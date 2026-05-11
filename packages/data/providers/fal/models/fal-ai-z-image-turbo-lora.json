@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/z-image/turbo/lora",
+  "name": "Z-Image Turbo",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Text-to-Image endpoint with LoRA support for Z-Image Turbo, a super fast text-to-image model of 6B parameters developed by Tongyi-MAI.",
+  "status": "active",
+  "release_date": "2025-12-01",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/z-image/turbo/lora",
+  "tagline": "Text-to-Image endpoint with LoRA support for Z-Image Turbo, a super fast text-to-image model of 6B parameters developed by Tongyi-MAI.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "a73fe98b",
+    "description": "d457a918",
+    "status": "379ac110",
+    "release_date": "0452719b",
+    "model_type": "db8857fe",
+    "page_url": "e21edd15",
+    "tagline": "d457a918",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

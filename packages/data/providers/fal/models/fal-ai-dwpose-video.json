@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/dwpose/video",
+  "name": "DWPose Pose Prediction",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Predict poses from videos.",
+  "status": "active",
+  "release_date": "2025-06-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/dwpose/video",
+  "tagline": "Predict poses from videos.",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "1ca42e72",
+    "description": "ade50d64",
+    "status": "379ac110",
+    "release_date": "d4ad9fac",
+    "model_type": "ddb0b7bc",
+    "page_url": "d1ea3660",
+    "tagline": "ade50d64",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "openrouter/router/audio",
+  "name": "OpenRouter [Audio]",
+  "created_by": "openrouter",
+  "source": "official",
+  "description": " Run any audio capable LLM with fal.",
+  "status": "active",
+  "release_date": "2025-12-22",
+  "model_type": "other",
+  "page_url": "https://fal.run/openrouter/router/audio",
+  "tagline": " Run any audio capable LLM with fal.",
+  "last_seen_at": "2026-05-06",
+  "_generated": {
+    "name": "1971b24a",
+    "description": "c4f9ce71",
+    "status": "379ac110",
+    "release_date": "13396b7f",
+    "model_type": "ddb0b7bc",
+    "page_url": "fe3567b3",
+    "tagline": "c4f9ce71",
+    "last_seen_at": "ad37623a"
+  },
+  "last_updated": "2026-05-11"
+}

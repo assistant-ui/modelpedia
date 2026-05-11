@@ -1,0 +1,20 @@
+{
+  "id": "protenix",
+  "name": "Protenix",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A biomolecular foundation model capable of high-fidelity complex structure prediction and de novo protein design with a high rate of success.",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://seed.bytedance.com/en/protenix_pxdesign",
+  "tagline": "A biomolecular foundation model capable of high-fidelity complex structure prediction and de novo protein design with a high rate of success.",
+  "_generated": {
+    "name": "87b3ee2c",
+    "description": "beab6c6e",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "0e1c449b",
+    "tagline": "beab6c6e"
+  },
+  "last_updated": "2026-05-11"
+}

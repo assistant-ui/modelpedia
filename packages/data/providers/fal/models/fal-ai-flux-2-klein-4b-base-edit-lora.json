@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-2/klein/4b/base/edit/lora",
+  "name": "FLUX.2 [klein] 4B Base LoRA",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Image-to-image editing with LoRA support for FLUX.2 [klein] 4B Base from Black Forest Labs.",
+  "status": "active",
+  "release_date": "2026-01-19",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-2/klein/4b/base/edit/lora",
+  "tagline": "Image-to-image editing with LoRA support for FLUX.2 [klein] 4B Base from Black Forest Labs.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-03-17",
+  "_generated": {
+    "name": "6e488cd0",
+    "description": "23399858",
+    "status": "379ac110",
+    "release_date": "aaadbdbb",
+    "model_type": "db8857fe",
+    "page_url": "6a6cb71e",
+    "tagline": "23399858",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "56d4bd95"
+  },
+  "last_updated": "2026-05-11"
+}

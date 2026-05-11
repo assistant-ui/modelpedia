@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-pro/kontext",
+  "name": "FLUX.1 Kontext [pro]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX.1 Kontext [pro] handles both text and reference images as inputs, seamlessly enabling targeted, local edits and complex transformations of entire scenes.",
+  "status": "active",
+  "release_date": "2025-05-28",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-pro/kontext",
+  "tagline": "FLUX.1 Kontext [pro] handles both text and reference images as inputs, seamlessly enabling targeted, local edits and complex transformations of entire scenes.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "861a25f0",
+    "description": "18b2ec7b",
+    "status": "379ac110",
+    "release_date": "172a2c69",
+    "model_type": "db8857fe",
+    "page_url": "dd10639f",
+    "tagline": "18b2ec7b",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

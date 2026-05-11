@@ -1,0 +1,24 @@
+{
+  "id": "decart/lucy-edit/pro",
+  "name": "Lucy Edit [Pro]",
+  "created_by": "decart",
+  "source": "official",
+  "description": "Edit outfits, objects, faces, or restyle your video - all with maximum detail retention.",
+  "status": "active",
+  "release_date": "2025-09-18",
+  "model_type": "other",
+  "page_url": "https://fal.run/decart/lucy-edit/pro",
+  "tagline": "Edit outfits, objects, faces, or restyle your video - all with maximum detail retention.",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "ba8aad52",
+    "description": "47d055e3",
+    "status": "379ac110",
+    "release_date": "ae10afe6",
+    "model_type": "ddb0b7bc",
+    "page_url": "78bb8d6d",
+    "tagline": "47d055e3",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

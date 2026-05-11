@@ -1,0 +1,23 @@
+{
+  "id": "black-forest-labs/flux-2-max",
+  "name": "Flux 2 Max",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/black-forest-labs/flux-2-max",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "ebf7e702",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "e236f669",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

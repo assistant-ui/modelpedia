@@ -1,0 +1,32 @@
+{
+  "id": "seed1.5-vl",
+  "name": "Seed1.5-VL",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A large vision-language multimodal model, achieving state-of-the-art performance on 38 out of 60 public benchmarks.",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://seed.bytedance.com/en/seed1_5_vl",
+  "tagline": "A large vision-language multimodal model, achieving state-of-the-art performance on 38 out of 60 public benchmarks.",
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "fd0fdadd",
+    "description": "0416a378",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "0fec95c6",
+    "tagline": "0416a378",
+    "capabilities": "5f5c7516",
+    "modalities": "6399757e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "japanese-stablelm-base-gamma-7b",
+  "name": "Japanese Stablelm Base Gamma 7b",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Japanese Stablelm Base Gamma 7b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-10-16",
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "parameters": 7,
+  "page_url": "https://huggingface.co/stabilityai/japanese-stablelm-base-gamma-7b",
+  "open_weight": true,
+  "tagline": "Japanese Stablelm Base Gamma 7b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 168,
+  "last_modified": "2024-01-25",
+  "_generated": {
+    "name": "a58fc0fa",
+    "description": "5e19b4b6",
+    "status": "379ac110",
+    "release_date": "0d38c69f",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "parameters": "8f14e45f",
+    "page_url": "6ed16fb1",
+    "open_weight": "b326b506",
+    "tagline": "5e19b4b6",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "006f52e9",
+    "last_modified": "bba94c3c"
+  },
+  "last_updated": "2026-05-11"
+}

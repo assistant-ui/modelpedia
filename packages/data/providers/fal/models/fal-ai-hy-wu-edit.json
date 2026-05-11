@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/hy-wu-edit",
+  "name": "Hy Wu Edit",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Image editing with HY-WU.",
+  "status": "active",
+  "release_date": "2026-03-25",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/hy-wu-edit",
+  "tagline": "Image editing with HY-WU.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "de830f43",
+    "description": "399a2ee3",
+    "status": "379ac110",
+    "release_date": "244f8d0f",
+    "model_type": "db8857fe",
+    "page_url": "30f32937",
+    "tagline": "399a2ee3",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

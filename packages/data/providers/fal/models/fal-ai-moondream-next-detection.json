@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/moondream-next/detection",
+  "name": "MoonDreamNext Detection",
+  "created_by": "fal",
+  "source": "official",
+  "description": "MoonDreamNext Detection is a multimodal vision-language model for gaze detection, bbox detection, point detection, and more.",
+  "status": "active",
+  "release_date": "2025-01-09",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/moondream-next/detection",
+  "tagline": "MoonDreamNext Detection is a multimodal vision-language model for gaze detection, bbox detection, point detection, and more.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "07e50e3a",
+    "description": "f8f719d4",
+    "status": "379ac110",
+    "release_date": "ec42dccc",
+    "model_type": "db8857fe",
+    "page_url": "ab70a0a6",
+    "tagline": "f8f719d4",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

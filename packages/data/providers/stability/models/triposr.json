@@ -1,0 +1,35 @@
+{
+  "id": "TripoSR",
+  "name": "TripoSR",
+  "created_by": "stability",
+  "source": "official",
+  "description": "TripoSR is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-02-29",
+  "model_type": "other",
+  "license": "mit",
+  "page_url": "https://huggingface.co/stabilityai/TripoSR",
+  "open_weight": true,
+  "tagline": "TripoSR is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "huggingface_downloads": 203748,
+  "last_modified": "2024-08-09",
+  "_generated": {
+    "name": "deff3bf3",
+    "description": "b8cff5fe",
+    "status": "379ac110",
+    "release_date": "5bdcbd45",
+    "model_type": "ddb0b7bc",
+    "license": "3c4c3ba5",
+    "page_url": "523d7d56",
+    "open_weight": "b326b506",
+    "tagline": "b8cff5fe",
+    "capabilities": "ea60b262",
+    "huggingface_downloads": "59454855",
+    "last_modified": "880765cb"
+  },
+  "last_updated": "2026-05-11"
+}

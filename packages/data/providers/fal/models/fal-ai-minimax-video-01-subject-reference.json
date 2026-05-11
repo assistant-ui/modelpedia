@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/minimax/video-01-subject-reference",
+  "name": "MiniMax (Hailuo AI) Video 01 Subject Reference",
+  "created_by": "fal",
+  "source": "official",
+  "family": "minimax",
+  "description": "Generate video clips maintaining consistent, realistic facial features and identity across dynamic video content",
+  "status": "active",
+  "release_date": "2025-01-20",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/minimax/video-01-subject-reference",
+  "tagline": "Generate video clips maintaining consistent, realistic facial features and identity across dynamic video content",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "c3d8dd85",
+    "family": "c85916f0",
+    "description": "2075e6f8",
+    "status": "379ac110",
+    "release_date": "3090c91a",
+    "model_type": "4d1b75ca",
+    "page_url": "d967cc92",
+    "tagline": "2075e6f8",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

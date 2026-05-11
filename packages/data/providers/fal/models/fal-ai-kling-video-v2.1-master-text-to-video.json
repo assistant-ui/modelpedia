@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/kling-video/v2.1/master/text-to-video",
+  "name": "Kling 2.1 Master",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling 2.1 Master: The premium endpoint for Kling 2.1, designed for top-tier text-to-video generation with unparalleled motion fluidity, cinematic visuals, and exceptional prompt precision.",
+  "status": "active",
+  "release_date": "2025-05-29",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/v2.1/master/text-to-video",
+  "tagline": "Kling 2.1 Master: The premium endpoint for Kling 2.1, designed for top-tier text-to-video generation with unparalleled motion fluidity, cinematic visuals, and exceptional prompt precision.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "fa7e8030",
+    "description": "61e19866",
+    "status": "379ac110",
+    "release_date": "b2e64734",
+    "model_type": "4d1b75ca",
+    "page_url": "ff4e6bad",
+    "tagline": "61e19866",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

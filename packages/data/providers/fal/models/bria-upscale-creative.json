@@ -1,0 +1,35 @@
+{
+  "id": "bria/upscale/creative",
+  "name": "Upscale",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Regenerate the image with sharper textures and richer details while doubling resolution, up to 10 megapixels output.",
+  "status": "active",
+  "release_date": "2026-02-23",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/upscale/creative",
+  "tagline": "Regenerate the image with sharper textures and richer details while doubling resolution, up to 10 megapixels output.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-03-10",
+  "_generated": {
+    "name": "f1d826f1",
+    "description": "eadd85a8",
+    "status": "379ac110",
+    "release_date": "f319afd9",
+    "model_type": "db8857fe",
+    "page_url": "461e3fd1",
+    "tagline": "eadd85a8",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "49946764"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/qwen-image-edit-plus-lora-gallery/shirt-design",
+  "name": "Qwen Image Edit Plus Lora Gallery",
+  "created_by": "fal",
+  "source": "official",
+  "family": "qwen",
+  "description": "Apply designs/graphics onto people's shirts",
+  "status": "active",
+  "release_date": "2025-11-11",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/qwen-image-edit-plus-lora-gallery/shirt-design",
+  "tagline": "Apply designs/graphics onto people's shirts",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "62ff4bbe",
+    "family": "a3af76f3",
+    "description": "54ef10da",
+    "status": "379ac110",
+    "release_date": "5bb2d2a6",
+    "model_type": "db8857fe",
+    "page_url": "d4bedf2d",
+    "tagline": "54ef10da",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

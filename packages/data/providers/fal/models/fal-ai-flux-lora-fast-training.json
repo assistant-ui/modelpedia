@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/flux-lora-fast-training",
+  "name": "Train Flux LoRA",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train styles, people and other subjects at blazing speeds.",
+  "status": "active",
+  "release_date": "2025-01-01",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/flux-lora-fast-training",
+  "tagline": "Train styles, people and other subjects at blazing speeds.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "1234efde",
+    "description": "7064597f",
+    "status": "379ac110",
+    "release_date": "aa69ae11",
+    "model_type": "ddb0b7bc",
+    "page_url": "d4fd92b2",
+    "tagline": "7064597f",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

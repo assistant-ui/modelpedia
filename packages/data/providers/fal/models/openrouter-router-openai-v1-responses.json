@@ -1,0 +1,24 @@
+{
+  "id": "openrouter/router/openai/v1/responses",
+  "name": "OpenRouter Responses [OpenAI Compatible]",
+  "created_by": "openrouter",
+  "source": "official",
+  "description": "The OpenRouter Responses API with fal, powered by OpenRouter, provides unified access to a wide range of large language models - including GPT, Claude, Gemini, and many others through a single API int",
+  "status": "active",
+  "release_date": "2025-11-13",
+  "model_type": "other",
+  "page_url": "https://fal.run/openrouter/router/openai/v1/responses",
+  "tagline": "The OpenRouter Responses API with fal, powered by OpenRouter, provides unified access to a wide range of large language models - including GPT, Claude, Gemini, and many others through a single API int",
+  "last_seen_at": "2026-05-06",
+  "_generated": {
+    "name": "fd1d3f0f",
+    "description": "e3be2971",
+    "status": "379ac110",
+    "release_date": "c4b1d0fd",
+    "model_type": "ddb0b7bc",
+    "page_url": "7d2a37f8",
+    "tagline": "e3be2971",
+    "last_seen_at": "ad37623a"
+  },
+  "last_updated": "2026-05-11"
+}

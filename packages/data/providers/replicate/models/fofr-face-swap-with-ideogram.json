@@ -1,0 +1,23 @@
+{
+  "id": "fofr/face-swap-with-ideogram",
+  "name": "Face Swap With Ideogram",
+  "created_by": "fofr",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/fofr/face-swap-with-ideogram",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "5f456e35",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "6b646682",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

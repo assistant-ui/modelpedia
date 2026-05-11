@@ -1,0 +1,50 @@
+{
+  "id": "qwen/qwen2.5-vl-72b-instruct",
+  "name": "Qwen2.5 VL 72B Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen2.5",
+  "description": "Qwen2.5-VL, the latest vision-language model in the Qwen2.5 series, delivers enhanced multimodal capabilities including advanced visual comprehension for object/text recognition, chart/layout analysis, and agent-based dynamic tool orchestration.",
+  "status": "active",
+  "release_date": "2025-03-25",
+  "context_window": 32768,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "parameters": 72,
+  "tagline": "Qwen2.5-VL, the latest vision-language model in the Qwen2.5 series, delivers enhanced multimodal capabilities including advanced visual comprehension for object/text recognition, chart/layout analysis",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.8,
+    "output": 0.8
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "dda16d43",
+    "family": "45d84b68",
+    "description": "d7d70bf7",
+    "status": "379ac110",
+    "release_date": "aa38c35d",
+    "context_window": "f4376436",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "parameters": "32bb90e8",
+    "tagline": "230e2bbc",
+    "capabilities": "eb5db45f",
+    "modalities": "6399757e",
+    "pricing": "7a3cce81",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

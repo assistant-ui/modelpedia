@@ -1,0 +1,18 @@
+{
+  "id": "ai21",
+  "name": "AI21",
+  "region": "IL",
+  "headquarters": "Tel Aviv, Israel",
+  "founded": 2017,
+  "url": "https://www.ai21.com",
+  "api_url": "https://api.ai21.com/studio/v1",
+  "docs_url": "https://docs.ai21.com",
+  "pricing_url": "https://www.ai21.com/pricing",
+  "description": "AI lab and platform building the Jamba family of hybrid SSM-Transformer language models.",
+  "type": "direct",
+  "models_url": "https://api.ai21.com/studio/v1/models",
+  "openai_compatible": true,
+  "free_tier": false,
+  "github_url": "https://github.com/AI21Labs",
+  "twitter_url": "https://x.com/AI21Labs"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "inclusionai/ling-2.6-1t",
+  "name": "Ling-2.6-1T",
+  "created_by": "inclusionai",
+  "source": "official",
+  "status": "active",
+  "release_date": "2026-04-23",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 2.5
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "4e7559eb",
+    "status": "379ac110",
+    "release_date": "a87679d0",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "capabilities": "05593506",
+    "modalities": "68e53d93",
+    "pricing": "8d495dc1",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

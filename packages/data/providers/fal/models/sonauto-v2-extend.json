@@ -1,0 +1,24 @@
+{
+  "id": "sonauto/v2/extend",
+  "name": "Sonauto V2",
+  "created_by": "sonauto",
+  "source": "official",
+  "description": "Extend an existing song",
+  "status": "active",
+  "release_date": "2025-08-23",
+  "model_type": "other",
+  "page_url": "https://fal.run/sonauto/v2/extend",
+  "tagline": "Extend an existing song",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "f5ccb37a",
+    "description": "43938ab1",
+    "status": "379ac110",
+    "release_date": "81c68da9",
+    "model_type": "ddb0b7bc",
+    "page_url": "75e5cc70",
+    "tagline": "43938ab1",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

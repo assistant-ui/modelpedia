@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/kling-video/o3/standard/text-to-video",
+  "name": "Kling O3 Text to Video [Standard]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate realistic videos using Kling O3 from Kling Team!",
+  "status": "active",
+  "release_date": "2026-02-04",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/o3/standard/text-to-video",
+  "tagline": "Generate realistic videos using Kling O3 from Kling Team!",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "1a20d564",
+    "description": "9bbdc586",
+    "status": "379ac110",
+    "release_date": "7e13f8bd",
+    "model_type": "4d1b75ca",
+    "page_url": "ef6d64cd",
+    "tagline": "9bbdc586",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

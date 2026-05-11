@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/bytedance/seedance/v1/lite/image-to-video",
+  "name": "Seedance 1.0 Lite",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Seedance 1.0 Lite",
+  "status": "active",
+  "release_date": "2025-06-13",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/bytedance/seedance/v1/lite/image-to-video",
+  "tagline": "Seedance 1.0 Lite",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "0827580e",
+    "description": "0827580e",
+    "status": "379ac110",
+    "release_date": "79d0a3c6",
+    "model_type": "4d1b75ca",
+    "page_url": "d53958d0",
+    "tagline": "0827580e",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

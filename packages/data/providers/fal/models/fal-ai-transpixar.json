@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/transpixar",
+  "name": "TransPixar V1",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Transform text into stunning videos with TransPixar - an AI model that generates both RGB footage and alpha channels, enabling seamless compositing and creative video effects.",
+  "status": "active",
+  "release_date": "2025-01-14",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/transpixar",
+  "tagline": "Transform text into stunning videos with TransPixar - an AI model that generates both RGB footage and alpha channels, enabling seamless compositing and creative video effects.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "8557bf93",
+    "description": "4693857d",
+    "status": "379ac110",
+    "release_date": "74362e15",
+    "model_type": "4d1b75ca",
+    "page_url": "12c1d3da",
+    "tagline": "4693857d",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

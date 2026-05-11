@@ -1,0 +1,29 @@
+{
+  "id": "openai/gpt-image-2",
+  "name": "Gpt Image 2",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/openai/gpt-image-2",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "fa8620a3",
+    "family": "c79be345",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "b940ca1e",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

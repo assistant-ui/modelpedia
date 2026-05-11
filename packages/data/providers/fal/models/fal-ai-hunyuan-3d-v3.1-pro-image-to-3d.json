@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/hunyuan-3d/v3.1/pro/image-to-3d",
+  "name": "Hunyuan 3D Pro Image to 3D",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate 3D models from images with Hunyuan 3D Pro",
+  "status": "active",
+  "release_date": "2026-01-27",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/hunyuan-3d/v3.1/pro/image-to-3d",
+  "tagline": "Generate 3D models from images with Hunyuan 3D Pro",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "9534f576",
+    "description": "cebd8a99",
+    "status": "379ac110",
+    "release_date": "a6a6b128",
+    "model_type": "ddb0b7bc",
+    "page_url": "66ab4a24",
+    "tagline": "cebd8a99",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

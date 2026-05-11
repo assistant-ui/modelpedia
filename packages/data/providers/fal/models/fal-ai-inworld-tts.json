@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/inworld-tts",
+  "name": "Inworld TTS-1.5 Max",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Text to Speech Endpoint for Inworld's TTS-1.5 Max.",
+  "status": "active",
+  "release_date": "2026-03-13",
+  "model_type": "tts",
+  "page_url": "https://fal.run/fal-ai/inworld-tts",
+  "tagline": "Text to Speech Endpoint for Inworld's TTS-1.5 Max.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "4192ae49",
+    "description": "1c472f3c",
+    "status": "379ac110",
+    "release_date": "b666dedc",
+    "model_type": "4e16a2cf",
+    "page_url": "f2e20d8a",
+    "tagline": "1c472f3c",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

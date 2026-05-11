@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ffmpeg-api/merge-audio-video",
+  "name": "Ffmpeg Api Merge Audio-Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Merge videos with standalone audio files or audio from video files.",
+  "status": "active",
+  "release_date": "2025-06-09",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ffmpeg-api/merge-audio-video",
+  "tagline": "Merge videos with standalone audio files or audio from video files.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "dabcf240",
+    "description": "878c521f",
+    "status": "379ac110",
+    "release_date": "d0a92d1b",
+    "model_type": "ddb0b7bc",
+    "page_url": "9c1a8c4e",
+    "tagline": "878c521f",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

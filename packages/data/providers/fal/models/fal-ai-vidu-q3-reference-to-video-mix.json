@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/vidu/q3/reference-to-video/mix",
+  "name": "Vidu",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Vidu's latest Q3 Reference to Video Mix model",
+  "status": "active",
+  "release_date": "2026-04-08",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/vidu/q3/reference-to-video/mix",
+  "tagline": "Vidu's latest Q3 Reference to Video Mix model",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "30f11e01",
+    "description": "10e53f6f",
+    "status": "379ac110",
+    "release_date": "e4942fa5",
+    "model_type": "4d1b75ca",
+    "page_url": "aa66ed02",
+    "tagline": "10e53f6f",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

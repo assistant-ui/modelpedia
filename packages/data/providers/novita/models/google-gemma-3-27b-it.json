@@ -1,0 +1,48 @@
+{
+  "id": "google/gemma-3-27b-it",
+  "name": "Gemma 3 27B",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-3",
+  "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
+  "status": "active",
+  "release_date": "2025-03-25",
+  "context_window": 98304,
+  "max_output_tokens": 16384,
+  "model_type": "chat",
+  "parameters": 27,
+  "tagline": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs.",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.119,
+    "output": 0.2
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "c6b13d11",
+    "family": "d9e10ad8",
+    "description": "74f4d36c",
+    "status": "379ac110",
+    "release_date": "aa38c35d",
+    "context_window": "79cef9cc",
+    "max_output_tokens": "c76fe1d8",
+    "model_type": "d669f408",
+    "parameters": "02e74f10",
+    "tagline": "74f4d36c",
+    "capabilities": "2330ee10",
+    "modalities": "6399757e",
+    "pricing": "a61ece4d",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

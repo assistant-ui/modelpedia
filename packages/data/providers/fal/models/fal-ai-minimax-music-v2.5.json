@@ -1,0 +1,26 @@
+{
+  "id": "fal-ai/minimax-music/v2.5",
+  "name": "Minimax Music 2.5",
+  "created_by": "fal",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax Music 2.5 creates complete tracks with singing, backing music, and detailed arrangements from lyrics and a style description.",
+  "status": "active",
+  "release_date": "2026-04-11",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/minimax-music/v2.5",
+  "tagline": "MiniMax Music 2.5 creates complete tracks with singing, backing music, and detailed arrangements from lyrics and a style description.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "80029ce5",
+    "family": "c85916f0",
+    "description": "f9653753",
+    "status": "379ac110",
+    "release_date": "90c58b14",
+    "model_type": "ddb0b7bc",
+    "page_url": "75c021b6",
+    "tagline": "f9653753",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

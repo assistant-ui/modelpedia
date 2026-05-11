@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/qwen-image-edit-2509-lora-gallery/multiple-angles",
+  "name": "Qwen Image Edit 2509 Lora Gallery",
+  "created_by": "fal",
+  "source": "official",
+  "family": "qwen",
+  "description": "Precise camera position and angle control (rotation, zoom, vertical movement)",
+  "status": "active",
+  "release_date": "2025-12-15",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/qwen-image-edit-2509-lora-gallery/multiple-angles",
+  "tagline": "Precise camera position and angle control (rotation, zoom, vertical movement)",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "00290714",
+    "family": "a3af76f3",
+    "description": "64a5f8d5",
+    "status": "379ac110",
+    "release_date": "56423574",
+    "model_type": "db8857fe",
+    "page_url": "c28a23fa",
+    "tagline": "64a5f8d5",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

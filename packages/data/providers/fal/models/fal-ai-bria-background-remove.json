@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/bria/background/remove",
+  "name": "Bria RMBG 2.0",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Bria RMBG 2.0 enables seamless removal of backgrounds from images, ideal for professional editing tasks.",
+  "status": "active",
+  "release_date": "2024-12-19",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/bria/background/remove",
+  "tagline": "Bria RMBG 2.0 enables seamless removal of backgrounds from images, ideal for professional editing tasks.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "2157e301",
+    "description": "353393d5",
+    "status": "379ac110",
+    "release_date": "df5c0f25",
+    "model_type": "db8857fe",
+    "page_url": "f5870d24",
+    "tagline": "353393d5",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

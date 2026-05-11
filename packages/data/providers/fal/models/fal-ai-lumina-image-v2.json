@@ -1,0 +1,36 @@
+{
+  "id": "fal-ai/lumina-image/v2",
+  "name": "Lumina Image 2",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Lumina-Image-2.0 is a 2 billion parameter flow-based diffusion transforer which features improved performance in image quality, typography, complex prompt understanding, and resource-efficiency.",
+  "status": "active",
+  "release_date": "2025-01-31",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/lumina-image/v2",
+  "tagline": "Lumina-Image-2.0 is a 2 billion parameter flow-based diffusion transforer which features improved performance in image quality, typography, complex prompt understanding, and resource-efficiency.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "4f9e91b0",
+    "description": "92a1283a",
+    "status": "379ac110",
+    "release_date": "8e2cb9dd",
+    "model_type": "db8857fe",
+    "page_url": "c69900dc",
+    "tagline": "92a1283a",
+    "capabilities": "8a3b232e",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

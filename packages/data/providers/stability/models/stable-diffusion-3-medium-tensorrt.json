@@ -1,0 +1,42 @@
+{
+  "id": "stable-diffusion-3-medium-tensorrt",
+  "name": "Stable Diffusion 3 Medium Tensorrt",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Diffusion 3 Medium Tensorrt is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-06-12",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium-tensorrt",
+  "open_weight": true,
+  "tagline": "Stable Diffusion 3 Medium Tensorrt is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 36,
+  "last_modified": "2025-10-20",
+  "_generated": {
+    "name": "50c9ab94",
+    "description": "9e66f7a2",
+    "status": "379ac110",
+    "release_date": "c82ef92f",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "5ba288fe",
+    "open_weight": "b326b506",
+    "tagline": "9e66f7a2",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "19ca14e7",
+    "last_modified": "ba1efbec"
+  },
+  "last_updated": "2026-05-11"
+}

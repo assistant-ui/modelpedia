@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/qwen-image-max/text-to-image",
+  "name": "Qwen Image Max",
+  "created_by": "fal",
+  "source": "official",
+  "family": "qwen",
+  "description": "Text-to-Image endpoint for Qwen-Image-Max.",
+  "status": "active",
+  "release_date": "2026-01-27",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/qwen-image-max/text-to-image",
+  "tagline": "Text-to-Image endpoint for Qwen-Image-Max.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "1f543d1c",
+    "family": "a3af76f3",
+    "description": "1996b4fb",
+    "status": "379ac110",
+    "release_date": "a6a6b128",
+    "model_type": "db8857fe",
+    "page_url": "53beac8a",
+    "tagline": "1996b4fb",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

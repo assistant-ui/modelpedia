@@ -1,0 +1,30 @@
+{
+  "id": "sp4d",
+  "name": "Sp4d",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Sp4d is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2025-11-03",
+  "model_type": "other",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/sp4d",
+  "open_weight": true,
+  "tagline": "Sp4d is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "huggingface_downloads": 49,
+  "last_modified": "2025-11-05",
+  "_generated": {
+    "name": "457a0272",
+    "description": "03685677",
+    "status": "379ac110",
+    "release_date": "3c526217",
+    "model_type": "ddb0b7bc",
+    "license": "ddb0b7bc",
+    "page_url": "f1bc6a46",
+    "open_weight": "b326b506",
+    "tagline": "03685677",
+    "huggingface_downloads": "f457c545",
+    "last_modified": "6c2625ef"
+  },
+  "last_updated": "2026-05-11"
+}

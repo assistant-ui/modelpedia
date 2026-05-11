@@ -1,0 +1,20 @@
+{
+  "id": "seed-music",
+  "name": "Seed-Music",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A suite of music generation systems capable of producing high-quality music with fine-grained style control.",
+  "status": "active",
+  "model_type": "audio",
+  "page_url": "https://seed.bytedance.com/en/seed-music",
+  "tagline": "A suite of music generation systems capable of producing high-quality music with fine-grained style control.",
+  "_generated": {
+    "name": "6d2a1acb",
+    "description": "a344c937",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "page_url": "bceaf9fb",
+    "tagline": "a344c937"
+  },
+  "last_updated": "2026-05-11"
+}

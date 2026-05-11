@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/veo3.1/fast",
+  "name": "Veo 3.1 Fast",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Faster and more cost effective version of Google's Veo 3.1! ",
+  "status": "active",
+  "release_date": "2025-10-08",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/veo3.1/fast",
+  "tagline": "Faster and more cost effective version of Google's Veo 3.1! ",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "d6d87fa3",
+    "description": "f91babda",
+    "status": "379ac110",
+    "release_date": "0630b02b",
+    "model_type": "4d1b75ca",
+    "page_url": "8365ee8e",
+    "tagline": "f91babda",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

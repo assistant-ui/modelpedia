@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ideogram/v3",
+  "name": "Ideogram Text to Image",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate high-quality images, posters, and logos with Ideogram V3.",
+  "status": "active",
+  "release_date": "2025-05-01",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/ideogram/v3",
+  "tagline": "Generate high-quality images, posters, and logos with Ideogram V3.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "94a87c9b",
+    "description": "2705218f",
+    "status": "379ac110",
+    "release_date": "8635bb34",
+    "model_type": "db8857fe",
+    "page_url": "a5737380",
+    "tagline": "2705218f",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

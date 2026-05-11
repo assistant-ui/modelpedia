@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/sam-3/3d-align",
+  "name": "Sam 3",
+  "created_by": "fal",
+  "source": "official",
+  "description": "SAM 3D enables full scene reconstructions, placing objects and humans in a shared context together.",
+  "status": "active",
+  "release_date": "2025-12-02",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/sam-3/3d-align",
+  "tagline": "SAM 3D enables full scene reconstructions, placing objects and humans in a shared context together.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "18b758f0",
+    "description": "5019f8b2",
+    "status": "379ac110",
+    "release_date": "75f289bd",
+    "model_type": "ddb0b7bc",
+    "page_url": "1b1dee4d",
+    "tagline": "5019f8b2",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

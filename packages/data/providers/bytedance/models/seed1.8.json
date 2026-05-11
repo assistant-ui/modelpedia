@@ -1,0 +1,31 @@
+{
+  "id": "seed1.8",
+  "name": "Seed1.8",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A general-purpose agent model capable of efficiently and accurately completing tasks in complex workflows.",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://seed.bytedance.com/en/seed1_8",
+  "tagline": "A general-purpose agent model capable of efficiently and accurately completing tasks in complex workflows.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "d89fb572",
+    "description": "2245790c",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "407838c4",
+    "tagline": "2245790c",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

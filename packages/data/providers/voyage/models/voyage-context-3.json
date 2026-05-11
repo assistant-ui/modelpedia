@@ -1,0 +1,25 @@
+{
+  "id": "voyage-context-3",
+  "name": "Voyage Context 3",
+  "created_by": "voyage",
+  "source": "official",
+  "status": "active",
+  "model_type": "embed",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.18
+  },
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "d0f99a5c",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "modalities": "68e53d93",
+    "pricing": "e0e19e78",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-05-11"
+}

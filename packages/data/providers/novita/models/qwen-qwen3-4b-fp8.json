@@ -1,0 +1,48 @@
+{
+  "id": "qwen/qwen3-4b-fp8",
+  "name": "Qwen3 4B",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "description": "Achieves effective integration of reasoning and non-reasoning modes, allowing seamless switching during conversations.",
+  "status": "active",
+  "release_date": "2025-04-29",
+  "context_window": 128000,
+  "max_output_tokens": 8192,
+  "model_type": "chat",
+  "parameters": 4,
+  "tagline": "Achieves effective integration of reasoning and non-reasoning modes, allowing seamless switching during conversations.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.03
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "444234bb",
+    "family": "48c385a0",
+    "description": "2c718c31",
+    "status": "379ac110",
+    "release_date": "8e2eb0db",
+    "context_window": "34434798",
+    "max_output_tokens": "77441296",
+    "model_type": "d669f408",
+    "parameters": "a87ff679",
+    "tagline": "2c718c31",
+    "capabilities": "3d69c795",
+    "modalities": "68e53d93",
+    "pricing": "9207f1ad",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

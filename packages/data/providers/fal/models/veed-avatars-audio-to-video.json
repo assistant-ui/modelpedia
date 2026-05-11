@@ -1,0 +1,24 @@
+{
+  "id": "veed/avatars/audio-to-video",
+  "name": "Avatars",
+  "created_by": "veed",
+  "source": "official",
+  "description": "Generate high-quality videos with UGC-like avatars from audio",
+  "status": "active",
+  "release_date": "2025-05-28",
+  "model_type": "other",
+  "page_url": "https://fal.run/veed/avatars/audio-to-video",
+  "tagline": "Generate high-quality videos with UGC-like avatars from audio",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "cb7c7268",
+    "description": "2ca0c290",
+    "status": "379ac110",
+    "release_date": "172a2c69",
+    "model_type": "ddb0b7bc",
+    "page_url": "6dfc93ab",
+    "tagline": "2ca0c290",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

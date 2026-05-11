@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/meshy/v6/image-to-3d",
+  "name": "Meshy 6",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Meshy-6 is the latest model from Meshy.",
+  "status": "active",
+  "release_date": "2026-02-09",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/meshy/v6/image-to-3d",
+  "tagline": "Meshy-6 is the latest model from Meshy.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-15",
+  "_generated": {
+    "name": "45976d25",
+    "description": "086dd32b",
+    "status": "379ac110",
+    "release_date": "4b53817b",
+    "model_type": "ddb0b7bc",
+    "page_url": "14194186",
+    "tagline": "086dd32b",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "45ecd7af"
+  },
+  "last_updated": "2026-05-11"
+}

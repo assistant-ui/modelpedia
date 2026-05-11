@@ -1,0 +1,36 @@
+{
+  "id": "fal-ai/flashhead",
+  "name": "Flashhead",
+  "created_by": "fal",
+  "source": "official",
+  "description": "SoulX-FlashHead is a unified 1.3B-parameter framework designed for high-fidelity, infinite-length, and real-time streaming portrait video generation.",
+  "status": "active",
+  "release_date": "2026-03-12",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/flashhead",
+  "tagline": "SoulX-FlashHead is a unified 1.3B-parameter framework designed for high-fidelity, infinite-length, and real-time streaming portrait video generation.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "b499774b",
+    "description": "ffa588b2",
+    "status": "379ac110",
+    "release_date": "96ba6f81",
+    "model_type": "4d1b75ca",
+    "page_url": "bf9604c5",
+    "tagline": "ffa588b2",
+    "capabilities": "8a3b232e",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

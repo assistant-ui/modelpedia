@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-control-lora-depth/image-to-image",
+  "name": "FLUX.1 [dev] Control LoRA Depth",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX Control LoRA Depth is a high-performance endpoint that uses a control image using a depth map to transfer structure to the generated image and another initial image to guide color.",
+  "status": "active",
+  "release_date": "2025-02-11",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-control-lora-depth/image-to-image",
+  "tagline": "FLUX Control LoRA Depth is a high-performance endpoint that uses a control image using a depth map to transfer structure to the generated image and another initial image to guide color.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "eaf06e0b",
+    "description": "1953c6ec",
+    "status": "379ac110",
+    "release_date": "9b4997f8",
+    "model_type": "db8857fe",
+    "page_url": "c35cf6d0",
+    "tagline": "1953c6ec",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

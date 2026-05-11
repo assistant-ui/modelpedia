@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/silero-vad",
+  "name": "Silero VAD",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Detect speech presence and timestamps with accuracy and speed using the ultra-lightweight Silero VAD model",
+  "status": "active",
+  "release_date": "2026-01-08",
+  "model_type": "transcription",
+  "page_url": "https://fal.run/fal-ai/silero-vad",
+  "tagline": "Detect speech presence and timestamps with accuracy and speed using the ultra-lightweight Silero VAD model",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "74e0bd31",
+    "description": "b5fa14e1",
+    "status": "379ac110",
+    "release_date": "a688e2ca",
+    "model_type": "5e12d29a",
+    "page_url": "a8d970e3",
+    "tagline": "b5fa14e1",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

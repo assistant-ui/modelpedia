@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux/schnell",
+  "name": "FLUX.1 [schnell]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX.1 [schnell] is a 12 billion parameter flow transformer that generates high-quality images from text in 1 to 4 steps, suitable for personal and commercial use.",
+  "status": "active",
+  "release_date": "2024-11-25",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux/schnell",
+  "tagline": "FLUX.1 [schnell] is a 12 billion parameter flow transformer that generates high-quality images from text in 1 to 4 steps, suitable for personal and commercial use.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "60e31b98",
+    "description": "4583ee95",
+    "status": "379ac110",
+    "release_date": "1c495f6c",
+    "model_type": "db8857fe",
+    "page_url": "dc1c9a84",
+    "tagline": "4583ee95",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

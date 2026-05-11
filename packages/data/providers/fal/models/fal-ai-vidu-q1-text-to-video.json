@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/vidu/q1/text-to-video",
+  "name": "Vidu Text to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Vidu Q1 Text to Video generates high-quality 1080p videos with exceptional visual quality and motion diversity",
+  "status": "active",
+  "release_date": "2025-05-09",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/vidu/q1/text-to-video",
+  "tagline": "Vidu Q1 Text to Video generates high-quality 1080p videos with exceptional visual quality and motion diversity",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-27",
+  "_generated": {
+    "name": "96bf69a9",
+    "description": "0d8f4e39",
+    "status": "379ac110",
+    "release_date": "144241ba",
+    "model_type": "4d1b75ca",
+    "page_url": "0dd73995",
+    "tagline": "0d8f4e39",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "79a25cd1"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "fal-ai/ltx-video-13b-dev",
+  "name": "LTX Video-0.9.7 13B",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate videos from prompts using LTX Video-0.9.7 13B and custom LoRA",
+  "status": "active",
+  "release_date": "2025-05-17",
+  "model_type": "video",
+  "parameters": 13,
+  "page_url": "https://fal.run/fal-ai/ltx-video-13b-dev",
+  "tagline": "Generate videos from prompts using LTX Video-0.9.7 13B and custom LoRA",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "2b5d53ab",
+    "description": "05e3e229",
+    "status": "379ac110",
+    "release_date": "050d818f",
+    "model_type": "4d1b75ca",
+    "parameters": "c51ce410",
+    "page_url": "abc63be0",
+    "tagline": "05e3e229",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

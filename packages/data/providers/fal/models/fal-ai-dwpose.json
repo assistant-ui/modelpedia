@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/dwpose",
+  "name": "DWPose Pose Prediction",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Predict poses from images.",
+  "status": "active",
+  "release_date": "2024-06-01",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/dwpose",
+  "tagline": "Predict poses from images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "1ca42e72",
+    "description": "93b126a0",
+    "status": "379ac110",
+    "release_date": "b78570f1",
+    "model_type": "db8857fe",
+    "page_url": "172d3e87",
+    "tagline": "93b126a0",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

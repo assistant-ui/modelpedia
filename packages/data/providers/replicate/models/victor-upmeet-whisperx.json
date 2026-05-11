@@ -1,0 +1,25 @@
+{
+  "id": "victor-upmeet/whisperx",
+  "name": "Whisperx",
+  "created_by": "victor-upmeet",
+  "source": "official",
+  "family": "whisper",
+  "status": "active",
+  "model_type": "transcription",
+  "page_url": "https://replicate.com/victor-upmeet/whisperx",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "_generated": {
+    "name": "d609eee0",
+    "family": "7fbc43e3",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "page_url": "5d18e7ac",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "fal-ai/wan/v2.1/1.3b/text-to-video",
+  "name": "Wan-2.1 1.3B Text-to-Video",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Wan-2.1 1.3B is a text-to-video model that generates high-quality videos with high visual quality and motion diversity from text promptsat faster speeds.",
+  "status": "active",
+  "release_date": "2025-02-27",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/wan/v2.1/1.3b/text-to-video",
+  "tagline": "Wan-2.1 1.3B is a text-to-video model that generates high-quality videos with high visual quality and motion diversity from text promptsat faster speeds.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "bdcd54d0",
+    "family": "2aadc089",
+    "description": "74a18878",
+    "status": "379ac110",
+    "release_date": "0c569d59",
+    "model_type": "4d1b75ca",
+    "page_url": "9e573991",
+    "tagline": "74a18878",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

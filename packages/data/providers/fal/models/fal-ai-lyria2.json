@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/lyria2",
+  "name": "Lyria2",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Lyria 2 is Google's latest music generation model, you can generate any type of music with this model.",
+  "status": "active",
+  "release_date": "2025-05-20",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/lyria2",
+  "tagline": "Lyria 2 is Google's latest music generation model, you can generate any type of music with this model.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "a758fcb2",
+    "description": "8e855100",
+    "status": "379ac110",
+    "release_date": "c5fedeb7",
+    "model_type": "ddb0b7bc",
+    "page_url": "c0b89761",
+    "tagline": "8e855100",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

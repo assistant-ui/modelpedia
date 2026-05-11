@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/ovi",
+  "name": "Ovi Text to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "A unified paradigm for audio-video generation",
+  "status": "active",
+  "release_date": "2025-10-03",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/ovi",
+  "tagline": "A unified paradigm for audio-video generation",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "b02cadfd",
+    "description": "5e5ed78a",
+    "status": "379ac110",
+    "release_date": "d8a749d5",
+    "model_type": "4d1b75ca",
+    "page_url": "a2ab9e24",
+    "tagline": "5e5ed78a",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

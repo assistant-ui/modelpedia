@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/one-to-all-animation/1.3b",
+  "name": "One To All Animation",
+  "created_by": "fal",
+  "source": "official",
+  "description": "One-to-All Animation is a pose driven video model that animates characters from a single reference image, enabling flexible, alignment-free motion transfer across diverse styles and scenes",
+  "status": "active",
+  "release_date": "2025-12-11",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/one-to-all-animation/1.3b",
+  "tagline": "One-to-All Animation is a pose driven video model that animates characters from a single reference image, enabling flexible, alignment-free motion transfer across diverse styles and scenes",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "590b55fa",
+    "description": "ac05ac7e",
+    "status": "379ac110",
+    "release_date": "26371115",
+    "model_type": "ddb0b7bc",
+    "page_url": "4fba8b59",
+    "tagline": "ac05ac7e",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

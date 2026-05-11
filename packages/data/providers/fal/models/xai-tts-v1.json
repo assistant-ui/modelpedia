@@ -1,0 +1,37 @@
+{
+  "id": "xai/tts/v1",
+  "name": "xAI Text to Speech",
+  "created_by": "xai",
+  "source": "official",
+  "family": "tts",
+  "description": "Generate speech with expressive and realistic voices from xAI",
+  "status": "active",
+  "release_date": "2026-03-17",
+  "model_type": "tts",
+  "page_url": "https://fal.run/xai/tts/v1",
+  "tagline": "Generate speech with expressive and realistic voices from xAI",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "8bdfdfe5",
+    "family": "4e16a2cf",
+    "description": "e6d3c71c",
+    "status": "379ac110",
+    "release_date": "56d4bd95",
+    "model_type": "4e16a2cf",
+    "page_url": "b7c14d00",
+    "tagline": "e6d3c71c",
+    "capabilities": "0fa77dc6",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

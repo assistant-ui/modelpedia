@@ -1,0 +1,42 @@
+{
+  "id": "StableBeluga1-Delta",
+  "name": "StableBeluga1 Delta",
+  "created_by": "stability",
+  "source": "official",
+  "description": "StableBeluga1 Delta is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-07-20",
+  "model_type": "chat",
+  "license": "cc-by-nc-4.0",
+  "page_url": "https://huggingface.co/stabilityai/StableBeluga1-Delta",
+  "open_weight": true,
+  "tagline": "StableBeluga1 Delta is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 199,
+  "last_modified": "2023-07-27",
+  "_generated": {
+    "name": "f09ee422",
+    "description": "110b9662",
+    "status": "379ac110",
+    "release_date": "52f3ec8a",
+    "model_type": "d669f408",
+    "license": "2c8e76b8",
+    "page_url": "65ba0990",
+    "open_weight": "b326b506",
+    "tagline": "110b9662",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "84d9ee44",
+    "last_modified": "a834418f"
+  },
+  "last_updated": "2026-05-11"
+}

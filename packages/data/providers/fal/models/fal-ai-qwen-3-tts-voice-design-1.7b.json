@@ -1,0 +1,33 @@
+{
+  "id": "fal-ai/qwen-3-tts/voice-design/1.7b",
+  "name": "Qwen 3 TTS - Voice Design [1.7B]",
+  "created_by": "fal",
+  "source": "official",
+  "family": "qwen",
+  "description": "Create custom voices using Qwen3-TTS Voice Design model and later use Clone Voice model to create your own voices!",
+  "status": "active",
+  "release_date": "2026-01-26",
+  "model_type": "tts",
+  "page_url": "https://fal.run/fal-ai/qwen-3-tts/voice-design/1.7b",
+  "tagline": "Create custom voices using Qwen3-TTS Voice Design model and later use Clone Voice model to create your own voices!",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "56ec0237",
+    "family": "a3af76f3",
+    "description": "26d6f9fb",
+    "status": "379ac110",
+    "release_date": "5c252aee",
+    "model_type": "4e16a2cf",
+    "page_url": "499a8239",
+    "tagline": "26d6f9fb",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

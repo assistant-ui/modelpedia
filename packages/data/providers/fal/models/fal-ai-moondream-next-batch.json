@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/moondream-next/batch",
+  "name": "MoonDreamNext Batch",
+  "created_by": "fal",
+  "source": "official",
+  "description": "MoonDreamNext Batch is a multimodal vision-language model for batch captioning.",
+  "status": "active",
+  "release_date": "2025-01-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/moondream-next/batch",
+  "tagline": "MoonDreamNext Batch is a multimodal vision-language model for batch captioning.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "4e61d0fc",
+    "description": "93de4022",
+    "status": "379ac110",
+    "release_date": "e05f8617",
+    "model_type": "ddb0b7bc",
+    "page_url": "cdc3c9b5",
+    "tagline": "93de4022",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

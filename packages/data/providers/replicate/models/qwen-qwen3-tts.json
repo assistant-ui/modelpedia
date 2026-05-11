@@ -1,0 +1,18 @@
+{
+  "id": "qwen/qwen3-tts",
+  "name": "Qwen3 Tts",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "status": "active",
+  "model_type": "audio",
+  "page_url": "https://replicate.com/qwen/qwen3-tts",
+  "_generated": {
+    "name": "5e6f30c3",
+    "family": "48c385a0",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "page_url": "a5d4ba40"
+  },
+  "last_updated": "2026-05-11"
+}

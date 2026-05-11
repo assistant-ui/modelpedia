@@ -1,0 +1,42 @@
+{
+  "id": "qwen/qwen-mt-plus",
+  "name": "Qwen MT Plus",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen",
+  "description": "Qwen-MT is a large language model optimized for machine translation, built upon the foundation of the Tongyi Qianwen model.",
+  "status": "active",
+  "release_date": "2025-09-03",
+  "context_window": 16384,
+  "max_output_tokens": 8192,
+  "model_type": "chat",
+  "tagline": "Qwen-MT is a large language model optimized for machine translation, built upon the foundation of the Tongyi Qianwen model.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 0.75
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "12c27cc4",
+    "family": "a3af76f3",
+    "description": "83c4342e",
+    "status": "379ac110",
+    "release_date": "80e5c530",
+    "context_window": "c76fe1d8",
+    "max_output_tokens": "77441296",
+    "model_type": "d669f408",
+    "tagline": "83c4342e",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "5b74b6c8",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

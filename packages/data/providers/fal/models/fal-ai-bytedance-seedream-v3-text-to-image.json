@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/bytedance/seedream/v3/text-to-image",
+  "name": "Bytedance",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Seedream 3.0 is a bilingual (Chinese and English) text-to-image model that excels at text-to-image generation.",
+  "status": "active",
+  "release_date": "2025-06-10",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/bytedance/seedream/v3/text-to-image",
+  "tagline": "Seedream 3.0 is a bilingual (Chinese and English) text-to-image model that excels at text-to-image generation.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "6d00f002",
+    "description": "eae30d3e",
+    "status": "379ac110",
+    "release_date": "298b4e52",
+    "model_type": "db8857fe",
+    "page_url": "0e37bb53",
+    "tagline": "eae30d3e",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

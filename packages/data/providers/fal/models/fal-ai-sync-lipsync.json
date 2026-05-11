@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/sync-lipsync",
+  "name": "sync.so -- lipsync 1.9.0-beta",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate realistic lipsync animations from audio using advanced algorithms for high-quality synchronization.",
+  "status": "active",
+  "release_date": "2025-01-13",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/sync-lipsync",
+  "tagline": "Generate realistic lipsync animations from audio using advanced algorithms for high-quality synchronization.",
+  "last_seen_at": "2026-04-30",
+  "_generated": {
+    "name": "ffbe685d",
+    "description": "f2808d79",
+    "status": "379ac110",
+    "release_date": "7d2d38ad",
+    "model_type": "ddb0b7bc",
+    "page_url": "39cf82a8",
+    "tagline": "f2808d79",
+    "last_seen_at": "a53a2b69"
+  },
+  "last_updated": "2026-05-11"
+}

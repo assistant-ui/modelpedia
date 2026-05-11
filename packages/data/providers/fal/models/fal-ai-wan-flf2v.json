@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/wan-flf2v",
+  "name": "Wan-2.1 First-Last-Frame-to-Video",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Wan-2.1 flf2v generates dynamic videos by intelligently bridging a given first frame to a desired end frame through smooth, coherent motion sequences.",
+  "status": "active",
+  "release_date": "2025-04-17",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/wan-flf2v",
+  "tagline": "Wan-2.1 flf2v generates dynamic videos by intelligently bridging a given first frame to a desired end frame through smooth, coherent motion sequences.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "c042d094",
+    "family": "2aadc089",
+    "description": "3e96951e",
+    "status": "379ac110",
+    "release_date": "c495f388",
+    "model_type": "4d1b75ca",
+    "page_url": "8f2d43fa",
+    "tagline": "3e96951e",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

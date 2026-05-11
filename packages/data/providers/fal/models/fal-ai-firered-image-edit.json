@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/firered-image-edit",
+  "name": "Firered Image Edit",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FireRed Image Edit is FireRed's state of the art open source editing model, re-trained from Qwen Image Edit 2509.",
+  "status": "active",
+  "release_date": "2026-02-19",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/firered-image-edit",
+  "tagline": "FireRed Image Edit is FireRed's state of the art open source editing model, re-trained from Qwen Image Edit 2509.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-02-19",
+  "_generated": {
+    "name": "08f3510f",
+    "description": "6f017aa4",
+    "status": "379ac110",
+    "release_date": "1323dc51",
+    "model_type": "db8857fe",
+    "page_url": "25c23317",
+    "tagline": "6f017aa4",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "1323dc51"
+  },
+  "last_updated": "2026-05-11"
+}

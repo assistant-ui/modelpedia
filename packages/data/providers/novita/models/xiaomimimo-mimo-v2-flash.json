@@ -1,0 +1,48 @@
+{
+  "id": "xiaomimimo/mimo-v2-flash",
+  "name": "XiaomiMiMo/MiMo-V2-Flash",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "description": "Xiaomi MiMo-V2-Flash is a proprietary MoE model developed by Xiaomi, designed for extreme inference efficiency with 309B total parameters (15B active).",
+  "status": "active",
+  "release_date": "2025-12-19",
+  "context_window": 262144,
+  "max_output_tokens": 32000,
+  "model_type": "chat",
+  "tagline": "Xiaomi MiMo-V2-Flash is a proprietary MoE model developed by Xiaomi, designed for extreme inference efficiency with 309B total parameters (15B active).",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.3
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2e947ca2",
+    "family": "1a23786e",
+    "description": "292d0e47",
+    "status": "379ac110",
+    "release_date": "69dd313f",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "10e4d788",
+    "model_type": "d669f408",
+    "tagline": "292d0e47",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "53952343",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

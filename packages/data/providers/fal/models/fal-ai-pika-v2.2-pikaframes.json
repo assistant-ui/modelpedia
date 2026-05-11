@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/pika/v2.2/pikaframes",
+  "name": "Pika",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Discover ultimate control with Pikaframes key frame interpolation, a stunning image-to-video feature that allows you to upload up to 5 keyframes, customize their transition length and prompt, and see ",
+  "status": "active",
+  "release_date": "2025-11-07",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/pika/v2.2/pikaframes",
+  "tagline": "Discover ultimate control with Pikaframes key frame interpolation, a stunning image-to-video feature that allows you to upload up to 5 keyframes, customize their transition length and prompt, and see ",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "3f5119c8",
+    "description": "2cc675fe",
+    "status": "379ac110",
+    "release_date": "48f9a637",
+    "model_type": "4d1b75ca",
+    "page_url": "f24cab2a",
+    "tagline": "2cc675fe",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "tencent/hunyuan-3d-3.1",
+  "name": "Hunyuan 3d 3.1",
+  "created_by": "tencent",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/tencent/hunyuan-3d-3.1",
+  "_generated": {
+    "name": "9b4b2fec",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "9ea1de1c"
+  },
+  "last_updated": "2026-05-11"
+}

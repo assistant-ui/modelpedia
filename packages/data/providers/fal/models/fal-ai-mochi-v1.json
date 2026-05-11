@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/mochi-v1",
+  "name": "Mochi 1",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Mochi 1 preview is an open state-of-the-art video generation model with high-fidelity motion and strong prompt adherence in preliminary evaluation.",
+  "status": "active",
+  "release_date": "2024-11-07",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/mochi-v1",
+  "tagline": "Mochi 1 preview is an open state-of-the-art video generation model with high-fidelity motion and strong prompt adherence in preliminary evaluation.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "00a2516d",
+    "description": "410b54c1",
+    "status": "379ac110",
+    "release_date": "5c7ff5be",
+    "model_type": "4d1b75ca",
+    "page_url": "7068f504",
+    "tagline": "410b54c1",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

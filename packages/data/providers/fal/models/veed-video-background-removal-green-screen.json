@@ -1,0 +1,24 @@
+{
+  "id": "veed/video-background-removal/green-screen",
+  "name": "Video Background Removal",
+  "created_by": "veed",
+  "source": "official",
+  "description": "Remove background from videos filmed using chromakey, with automatic green spill suppression for clean, professional edges.",
+  "status": "active",
+  "release_date": "2025-11-28",
+  "model_type": "other",
+  "page_url": "https://fal.run/veed/video-background-removal/green-screen",
+  "tagline": "Remove background from videos filmed using chromakey, with automatic green spill suppression for clean, professional edges.",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "6f9a2a48",
+    "description": "187f4da0",
+    "status": "379ac110",
+    "release_date": "9a06d11c",
+    "model_type": "ddb0b7bc",
+    "page_url": "693fb2e2",
+    "tagline": "187f4da0",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

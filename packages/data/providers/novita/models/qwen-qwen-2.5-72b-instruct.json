@@ -1,0 +1,49 @@
+{
+  "id": "qwen/qwen-2.5-72b-instruct",
+  "name": "Qwen 2.5 72B Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen",
+  "description": "Qwen2.5 is the latest series of Qwen large language models.",
+  "status": "active",
+  "release_date": "2024-10-15",
+  "context_window": 32000,
+  "max_output_tokens": 8192,
+  "model_type": "chat",
+  "parameters": 72,
+  "tagline": "Qwen2.5 is the latest series of Qwen large language models.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.38,
+    "output": 0.4
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "cb6ef854",
+    "family": "a3af76f3",
+    "description": "38907f0e",
+    "status": "379ac110",
+    "release_date": "5c97367f",
+    "context_window": "10e4d788",
+    "max_output_tokens": "77441296",
+    "model_type": "d669f408",
+    "parameters": "32bb90e8",
+    "tagline": "38907f0e",
+    "capabilities": "05593506",
+    "modalities": "68e53d93",
+    "pricing": "3f103b32",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

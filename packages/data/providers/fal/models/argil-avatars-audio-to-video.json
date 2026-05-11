@@ -1,0 +1,24 @@
+{
+  "id": "argil/avatars/audio-to-video",
+  "name": "Avatars Audio to Video",
+  "created_by": "argil",
+  "source": "official",
+  "description": "High-quality avatar videos that feel real, generated from your audio",
+  "status": "active",
+  "release_date": "2025-09-01",
+  "model_type": "other",
+  "page_url": "https://fal.run/argil/avatars/audio-to-video",
+  "tagline": "High-quality avatar videos that feel real, generated from your audio",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "4837bff8",
+    "description": "9472f8c4",
+    "status": "379ac110",
+    "release_date": "8b12ba6e",
+    "model_type": "ddb0b7bc",
+    "page_url": "dda6efcb",
+    "tagline": "9472f8c4",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

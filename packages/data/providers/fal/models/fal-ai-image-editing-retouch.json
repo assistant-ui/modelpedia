@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/image-editing/retouch",
+  "name": "Image Editing",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Retouch photos of faces.",
+  "status": "active",
+  "release_date": "2025-07-24",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/image-editing/retouch",
+  "tagline": "Retouch photos of faces.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "2f4a63e0",
+    "description": "45776bb3",
+    "status": "379ac110",
+    "release_date": "4faf3415",
+    "model_type": "db8857fe",
+    "page_url": "e4159df4",
+    "tagline": "45776bb3",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

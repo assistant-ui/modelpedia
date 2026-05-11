@@ -1,0 +1,25 @@
+{
+  "id": "voyage-3",
+  "name": "Voyage 3",
+  "created_by": "voyage",
+  "source": "official",
+  "status": "active",
+  "model_type": "embed",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.06
+  },
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "d282b74b",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "modalities": "68e53d93",
+    "pricing": "67f07aec",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-05-11"
+}

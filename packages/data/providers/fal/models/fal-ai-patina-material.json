@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/patina/material",
+  "name": "PATINA",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate complete seamlessly tiling PBR materials including normal, roughness, basecolor, height and metalness maps up to 8K",
+  "status": "active",
+  "release_date": "2026-04-08",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/patina/material",
+  "tagline": "Generate complete seamlessly tiling PBR materials including normal, roughness, basecolor, height and metalness maps up to 8K",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "231cf406",
+    "description": "249b2c3c",
+    "status": "379ac110",
+    "release_date": "e4942fa5",
+    "model_type": "db8857fe",
+    "page_url": "2e0e9d14",
+    "tagline": "249b2c3c",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

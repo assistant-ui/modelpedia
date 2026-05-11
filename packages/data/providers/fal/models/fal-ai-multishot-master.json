@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/multishot-master",
+  "name": "Multishot Master",
+  "created_by": "fal",
+  "source": "official",
+  "description": "MultiShotMaster is a controllable multi-shot narrative video generation framework that supports text-driven inter-shot consistency, variable shot counts and shot durations, customized subject with mot",
+  "status": "active",
+  "release_date": "2026-02-24",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/multishot-master",
+  "tagline": "MultiShotMaster is a controllable multi-shot narrative video generation framework that supports text-driven inter-shot consistency, variable shot counts and shot durations, customized subject with mot",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "aef17d38",
+    "description": "ad769544",
+    "status": "379ac110",
+    "release_date": "2ad07f55",
+    "model_type": "4d1b75ca",
+    "page_url": "90e1f2c4",
+    "tagline": "ad769544",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

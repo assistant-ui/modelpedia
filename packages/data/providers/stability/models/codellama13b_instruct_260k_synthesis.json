@@ -1,0 +1,41 @@
+{
+  "id": "codellama13b_instruct_260k_synthesis",
+  "name": "Codellama13b Instruct 260k Synthesis",
+  "created_by": "stability",
+  "source": "official",
+  "family": "codellama",
+  "description": "Codellama13b Instruct 260k Synthesis is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-11-08",
+  "model_type": "chat",
+  "page_url": "https://huggingface.co/stabilityai/codellama13b_instruct_260k_synthesis",
+  "open_weight": true,
+  "tagline": "Codellama13b Instruct 260k Synthesis is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 91,
+  "last_modified": "2023-11-08",
+  "_generated": {
+    "name": "0bfe3854",
+    "family": "cf323e30",
+    "description": "413a9a88",
+    "status": "379ac110",
+    "release_date": "8565ad2e",
+    "model_type": "d669f408",
+    "page_url": "90bdd05b",
+    "open_weight": "b326b506",
+    "tagline": "413a9a88",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "54229abf",
+    "last_modified": "8565ad2e"
+  },
+  "last_updated": "2026-05-11"
+}

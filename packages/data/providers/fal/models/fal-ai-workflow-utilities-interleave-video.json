@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/workflow-utilities/interleave-video",
+  "name": "Workflow Utilities",
+  "created_by": "fal",
+  "source": "official",
+  "description": "ffmpeg utility to interleave videos",
+  "status": "active",
+  "release_date": "2026-01-27",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/workflow-utilities/interleave-video",
+  "tagline": "ffmpeg utility to interleave videos",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "5a6862ba",
+    "description": "543501ea",
+    "status": "379ac110",
+    "release_date": "a6a6b128",
+    "model_type": "ddb0b7bc",
+    "page_url": "cc549824",
+    "tagline": "543501ea",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

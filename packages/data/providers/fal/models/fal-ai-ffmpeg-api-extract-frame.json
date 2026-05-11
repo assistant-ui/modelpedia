@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ffmpeg-api/extract-frame",
+  "name": "Ffmpeg Api",
+  "created_by": "fal",
+  "source": "official",
+  "description": "ffmpeg endpoint for first, middle and last frame extraction from videos",
+  "status": "active",
+  "release_date": "2025-06-09",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/ffmpeg-api/extract-frame",
+  "tagline": "ffmpeg endpoint for first, middle and last frame extraction from videos",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "628fc980",
+    "description": "54883f63",
+    "status": "379ac110",
+    "release_date": "d0a92d1b",
+    "model_type": "db8857fe",
+    "page_url": "69f2fcb6",
+    "tagline": "54883f63",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

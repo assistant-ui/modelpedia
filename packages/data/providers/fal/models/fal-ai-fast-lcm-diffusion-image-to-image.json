@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/fast-lcm-diffusion/image-to-image",
+  "name": "Latent Consistency Models (v1.5/XL)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Run SDXL at the speed of light",
+  "status": "active",
+  "release_date": "2024-02-19",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/fast-lcm-diffusion/image-to-image",
+  "tagline": "Run SDXL at the speed of light",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "030070d0",
+    "description": "32e79ac1",
+    "status": "379ac110",
+    "release_date": "ff195b22",
+    "model_type": "db8857fe",
+    "page_url": "4f749d49",
+    "tagline": "32e79ac1",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

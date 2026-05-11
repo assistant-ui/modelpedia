@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/minimax/hailuo-2.3-fast/standard/image-to-video",
+  "name": "MiniMax Hailuo 2.3 Fast [Standard] (Image to Video)",
+  "created_by": "fal",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax Hailuo-2.3-Fast Image To Video API (Standard, 768p): Advanced fast image-to-video generation model with 768p resolution",
+  "status": "active",
+  "release_date": "2025-10-27",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/minimax/hailuo-2.3-fast/standard/image-to-video",
+  "tagline": "MiniMax Hailuo-2.3-Fast Image To Video API (Standard, 768p): Advanced fast image-to-video generation model with 768p resolution",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "2e3ce0f8",
+    "family": "c85916f0",
+    "description": "931bf988",
+    "status": "379ac110",
+    "release_date": "7600ba0c",
+    "model_type": "4d1b75ca",
+    "page_url": "46cf3b76",
+    "tagline": "931bf988",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

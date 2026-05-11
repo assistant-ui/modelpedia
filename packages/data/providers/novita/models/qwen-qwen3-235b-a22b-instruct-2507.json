@@ -1,0 +1,52 @@
+{
+  "id": "qwen/qwen3-235b-a22b-instruct-2507",
+  "name": "Qwen3 235B A22B Instruct 2507",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "description": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass.",
+  "status": "active",
+  "release_date": "2025-07-22",
+  "context_window": 131072,
+  "max_output_tokens": 16384,
+  "model_type": "chat",
+  "parameters": 235,
+  "active_parameters": 22,
+  "tagline": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.09,
+    "output": 0.58
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "bec8604c",
+    "family": "48c385a0",
+    "description": "342f992b",
+    "status": "379ac110",
+    "release_date": "7b78b654",
+    "context_window": "f7de594e",
+    "max_output_tokens": "c76fe1d8",
+    "model_type": "d669f408",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "tagline": "342f992b",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "b9b0b64e",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

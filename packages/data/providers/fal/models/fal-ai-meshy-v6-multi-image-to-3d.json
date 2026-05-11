@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/meshy/v6/multi-image-to-3d",
+  "name": "Meshy 6 - Multi Image To 3D",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Meshy-6 is the latest model from Meshy.",
+  "status": "active",
+  "release_date": "2026-04-23",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/meshy/v6/multi-image-to-3d",
+  "tagline": "Meshy-6 is the latest model from Meshy.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "99c2a022",
+    "description": "086dd32b",
+    "status": "379ac110",
+    "release_date": "a87679d0",
+    "model_type": "ddb0b7bc",
+    "page_url": "493a1121",
+    "tagline": "086dd32b",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

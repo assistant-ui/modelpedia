@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-general",
+  "name": "FLUX.1 [dev] with Controlnets and Loras",
+  "created_by": "fal",
+  "source": "official",
+  "description": "A versatile endpoint for the FLUX.1 [dev] model that supports multiple AI extensions including LoRA, ControlNet conditioning, and IP-Adapter integration, enabling comprehensive control over image gene",
+  "status": "active",
+  "release_date": "2024-08-21",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-general",
+  "tagline": "A versatile endpoint for the FLUX.1 [dev] model that supports multiple AI extensions including LoRA, ControlNet conditioning, and IP-Adapter integration, enabling comprehensive control over image gene",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "8690f0a1",
+    "description": "54eea3d5",
+    "status": "379ac110",
+    "release_date": "2c25b8b1",
+    "model_type": "db8857fe",
+    "page_url": "ceca87a8",
+    "tagline": "54eea3d5",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

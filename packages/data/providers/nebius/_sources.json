@@ -1,0 +1,6 @@
+{
+  "models": "https://api.tokenfactory.nebius.com/v1/models?verbose=true",
+  "docs": "https://docs.tokenfactory.nebius.com/api-reference/models/list-models.md",
+  "examples": "https://docs.tokenfactory.nebius.com/api-reference/examples/list-of-models.md",
+  "openapi": "https://api.tokenfactory.nebius.com/openapi.json"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/reconviagen-0.5",
+  "name": "ReconViaGen 0.5",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate 3D models from one or more images using ReconViaGen 0.5",
+  "status": "active",
+  "release_date": "2026-04-07",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/reconviagen-0.5",
+  "tagline": "Generate 3D models from one or more images using ReconViaGen 0.5",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "845bcd29",
+    "description": "66509782",
+    "status": "379ac110",
+    "release_date": "3eaa38a6",
+    "model_type": "ddb0b7bc",
+    "page_url": "6204d470",
+    "tagline": "66509782",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

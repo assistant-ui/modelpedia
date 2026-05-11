@@ -1,0 +1,49 @@
+{
+  "id": "minimax/minimax-m2.7",
+  "name": "MiniMax M2.7",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax M2.7 is an all-around evolved, versatile open-source large language model that seamlessly blends hardcore engineering productivity with high-EQ, human-like interaction capabilities.",
+  "status": "active",
+  "release_date": "2026-03-17",
+  "context_window": 204800,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "MiniMax M2.7 is an all-around evolved, versatile open-source large language model that seamlessly blends hardcore engineering productivity with high-EQ, human-like interaction capabilities.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e558b68a",
+    "family": "c85916f0",
+    "description": "5751059d",
+    "status": "379ac110",
+    "release_date": "56d4bd95",
+    "context_window": "65d646a4",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "5751059d",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "ea3f0b86",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

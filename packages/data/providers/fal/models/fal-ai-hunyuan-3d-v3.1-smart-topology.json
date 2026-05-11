@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/hunyuan-3d/v3.1/smart-topology",
+  "name": "Hunyuan 3D Smart Topology",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Optimize 3D mesh topology with Hunyuan 3D Smart Topology.",
+  "status": "active",
+  "release_date": "2026-01-27",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/hunyuan-3d/v3.1/smart-topology",
+  "tagline": "Optimize 3D mesh topology with Hunyuan 3D Smart Topology.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "467a6708",
+    "description": "2fa9cf5f",
+    "status": "379ac110",
+    "release_date": "a6a6b128",
+    "model_type": "ddb0b7bc",
+    "page_url": "591110bd",
+    "tagline": "2fa9cf5f",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

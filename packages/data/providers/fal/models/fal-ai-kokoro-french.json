@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/kokoro/french",
+  "name": "Kokoro TTS (French)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "An expressive and natural French text-to-speech model for both European and Canadian French.",
+  "status": "active",
+  "release_date": "2025-02-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/kokoro/french",
+  "tagline": "An expressive and natural French text-to-speech model for both European and Canadian French.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "695911fb",
+    "description": "2d1cc70c",
+    "status": "379ac110",
+    "release_date": "d9b395e4",
+    "model_type": "ddb0b7bc",
+    "page_url": "67bb3d53",
+    "tagline": "2d1cc70c",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

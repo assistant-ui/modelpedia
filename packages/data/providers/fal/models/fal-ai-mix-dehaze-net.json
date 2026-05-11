@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/mix-dehaze-net",
+  "name": "MixDehazer",
+  "created_by": "fal",
+  "source": "official",
+  "description": "An advanced dehaze model to remove atmospheric haze, restoring clarity and detail in images through intelligent neural network processing.",
+  "status": "active",
+  "release_date": "2025-03-24",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/mix-dehaze-net",
+  "tagline": "An advanced dehaze model to remove atmospheric haze, restoring clarity and detail in images through intelligent neural network processing.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "0671025a",
+    "description": "e72e7d67",
+    "status": "379ac110",
+    "release_date": "0a9347b5",
+    "model_type": "db8857fe",
+    "page_url": "cfa61c43",
+    "tagline": "e72e7d67",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

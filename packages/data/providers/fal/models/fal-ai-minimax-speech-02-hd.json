@@ -1,0 +1,33 @@
+{
+  "id": "fal-ai/minimax/speech-02-hd",
+  "name": "MiniMax Speech-02 HD",
+  "created_by": "fal",
+  "source": "official",
+  "family": "minimax",
+  "description": "Generate speech from text prompts and different voices using the MiniMax Speech-02 HD model, which leverages advanced AI techniques to create high-quality text-to-speech.",
+  "status": "active",
+  "release_date": "2025-05-06",
+  "model_type": "tts",
+  "page_url": "https://fal.run/fal-ai/minimax/speech-02-hd",
+  "tagline": "Generate speech from text prompts and different voices using the MiniMax Speech-02 HD model, which leverages advanced AI techniques to create high-quality text-to-speech.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "ecc6e046",
+    "family": "c85916f0",
+    "description": "0cfd5f68",
+    "status": "379ac110",
+    "release_date": "197f1bba",
+    "model_type": "4e16a2cf",
+    "page_url": "9d7eb494",
+    "tagline": "0cfd5f68",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

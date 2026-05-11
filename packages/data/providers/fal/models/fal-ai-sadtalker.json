@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/sadtalker",
+  "name": "Sad Talker",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation",
+  "status": "active",
+  "release_date": "2024-04-11",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/sadtalker",
+  "tagline": "Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "8ca673f0",
+    "description": "953e8a04",
+    "status": "379ac110",
+    "release_date": "d609581b",
+    "model_type": "4d1b75ca",
+    "page_url": "4b3d2611",
+    "tagline": "953e8a04",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

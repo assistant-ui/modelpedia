@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ideogram/v2/turbo",
+  "name": "Ideogram V2 Turbo",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Accelerated image generation with Ideogram V2 Turbo.",
+  "status": "active",
+  "release_date": "2024-12-04",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/ideogram/v2/turbo",
+  "tagline": "Accelerated image generation with Ideogram V2 Turbo.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "58703ae5",
+    "description": "c4525108",
+    "status": "379ac110",
+    "release_date": "b1fa8211",
+    "model_type": "db8857fe",
+    "page_url": "dcc33d24",
+    "tagline": "c4525108",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

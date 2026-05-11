@@ -1,0 +1,48 @@
+{
+  "id": "deepseek/deepseek-v3.2-exp",
+  "name": "Deepseek V3.2 Exp",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "DeepSeek-V3.2-Exp is an experimental model introducing the groundbreaking DeepSeek Sparse Attention (DSA) mechanism for enhanced long-context processing efficiency.",
+  "status": "active",
+  "release_date": "2025-09-29",
+  "context_window": 163840,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "DeepSeek-V3.2-Exp is an experimental model introducing the groundbreaking DeepSeek Sparse Attention (DSA) mechanism for enhanced long-context processing efficiency.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.27,
+    "output": 0.41
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6254a780",
+    "family": "4b81b92d",
+    "description": "1a17aa83",
+    "status": "379ac110",
+    "release_date": "d032c55c",
+    "context_window": "7edab444",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "1a17aa83",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "0d7298a4",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

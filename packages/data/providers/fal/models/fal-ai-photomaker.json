@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/photomaker",
+  "name": "PhotoMaker",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Customizing Realistic Human Photos via Stacked ID Embedding",
+  "status": "active",
+  "release_date": "2024-03-08",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/photomaker",
+  "tagline": "Customizing Realistic Human Photos via Stacked ID Embedding",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "04345de6",
+    "description": "43a97a7b",
+    "status": "379ac110",
+    "release_date": "64b7361c",
+    "model_type": "db8857fe",
+    "page_url": "5d7ba2cc",
+    "tagline": "43a97a7b",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

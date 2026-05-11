@@ -1,0 +1,29 @@
+{
+  "id": "openai/gpt-image-1.5",
+  "name": "Gpt Image 1.5",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-1.5",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/openai/gpt-image-1.5",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "1940509b",
+    "family": "864c34a6",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "90ae05d3",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

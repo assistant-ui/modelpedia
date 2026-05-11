@@ -1,0 +1,25 @@
+{
+  "id": "voyage-3.5-lite",
+  "name": "Voyage 3.5 Lite",
+  "created_by": "voyage",
+  "source": "official",
+  "status": "active",
+  "model_type": "embed",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.02
+  },
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "380b2f22",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "modalities": "68e53d93",
+    "pricing": "c1cfd7e6",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-05-11"
+}

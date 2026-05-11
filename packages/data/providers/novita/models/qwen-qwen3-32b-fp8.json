@@ -1,0 +1,45 @@
+{
+  "id": "qwen/qwen3-32b-fp8",
+  "name": "Qwen3 32B",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "description": "Achieves effective integration of inference and non-inference modes, allowing seamless switching between modes during conversations.",
+  "status": "active",
+  "release_date": "2025-04-29",
+  "context_window": 40960,
+  "max_output_tokens": 20000,
+  "model_type": "chat",
+  "parameters": 32,
+  "tagline": "Achieves effective integration of inference and non-inference modes, allowing seamless switching between modes during conversations.",
+  "capabilities": {
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.45
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "ed3f6270",
+    "family": "48c385a0",
+    "description": "1006c2c0",
+    "status": "379ac110",
+    "release_date": "8e2eb0db",
+    "context_window": "a422a18c",
+    "max_output_tokens": "d9798cdf",
+    "model_type": "d669f408",
+    "parameters": "6364d3f0",
+    "tagline": "1006c2c0",
+    "capabilities": "23219150",
+    "modalities": "68e53d93",
+    "pricing": "02c20ec1",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/bagel",
+  "name": "Bagel",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Bagel is a 7B parameter from Bytedance-Seed multimodal model that can generate both text and images.",
+  "status": "active",
+  "release_date": "2025-05-21",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/bagel",
+  "tagline": "Bagel is a 7B parameter from Bytedance-Seed multimodal model that can generate both text and images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "ea003902",
+    "description": "62080251",
+    "status": "379ac110",
+    "release_date": "7a33ef58",
+    "model_type": "db8857fe",
+    "page_url": "6774e9af",
+    "tagline": "62080251",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

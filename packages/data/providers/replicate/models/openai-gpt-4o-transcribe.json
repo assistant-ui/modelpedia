@@ -1,0 +1,25 @@
+{
+  "id": "openai/gpt-4o-transcribe",
+  "name": "Gpt 4o Transcribe",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-4o",
+  "status": "active",
+  "model_type": "transcription",
+  "page_url": "https://replicate.com/openai/gpt-4o-transcribe",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "_generated": {
+    "name": "d07ee795",
+    "family": "15249632",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "page_url": "d0e8207f",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0"
+  },
+  "last_updated": "2026-05-11"
+}

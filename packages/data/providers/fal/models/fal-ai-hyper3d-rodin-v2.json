@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/hyper3d/rodin/v2",
+  "name": "Hyper3d",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Rodin by Hyper3D generates realistic and production ready 3D models from text or images.",
+  "status": "active",
+  "release_date": "2025-09-26",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/hyper3d/rodin/v2",
+  "tagline": "Rodin by Hyper3D generates realistic and production ready 3D models from text or images.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "62a77b8d",
+    "description": "9b8bd08f",
+    "status": "379ac110",
+    "release_date": "9503bf58",
+    "model_type": "ddb0b7bc",
+    "page_url": "55b136ba",
+    "tagline": "9b8bd08f",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/heygen/v3/lipsync/precision",
+  "name": "Heygen Lipsync - Precision",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Replace or dub audio on an existing video with high-accuracy avatar-inference lip-sync.",
+  "status": "active",
+  "release_date": "2026-04-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/heygen/v3/lipsync/precision",
+  "tagline": "Replace or dub audio on an existing video with high-accuracy avatar-inference lip-sync.",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "4007c172",
+    "description": "5cdfc675",
+    "status": "379ac110",
+    "release_date": "9682f27c",
+    "model_type": "ddb0b7bc",
+    "page_url": "5093b5f5",
+    "tagline": "5cdfc675",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/sam-audio/visual-separate",
+  "name": "Sam Audio",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Audio separation with SAM Audio.",
+  "status": "active",
+  "release_date": "2025-12-30",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/sam-audio/visual-separate",
+  "tagline": "Audio separation with SAM Audio.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "c24a108c",
+    "description": "325b1b9d",
+    "status": "379ac110",
+    "release_date": "29c14d46",
+    "model_type": "ddb0b7bc",
+    "page_url": "6bf524a7",
+    "tagline": "325b1b9d",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

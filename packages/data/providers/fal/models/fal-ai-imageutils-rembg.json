@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/imageutils/rembg",
+  "name": "Remove Background",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Remove the background from an image.",
+  "status": "active",
+  "release_date": "2023-10-05",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/imageutils/rembg",
+  "tagline": "Remove the background from an image.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "572faba9",
+    "description": "b8981580",
+    "status": "379ac110",
+    "release_date": "b7840b67",
+    "model_type": "db8857fe",
+    "page_url": "eac63aeb",
+    "tagline": "b8981580",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

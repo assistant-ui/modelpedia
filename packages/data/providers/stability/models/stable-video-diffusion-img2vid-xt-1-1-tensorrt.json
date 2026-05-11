@@ -1,0 +1,42 @@
+{
+  "id": "stable-video-diffusion-img2vid-xt-1-1-tensorrt",
+  "name": "Stable Video Diffusion Img2vid Xt 1 1 Tensorrt",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Video Diffusion Img2vid Xt 1 1 Tensorrt is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-03-07",
+  "model_type": "video",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt-1-1-tensorrt",
+  "open_weight": true,
+  "tagline": "Stable Video Diffusion Img2vid Xt 1 1 Tensorrt is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "huggingface_downloads": 46,
+  "last_modified": "2025-10-20",
+  "_generated": {
+    "name": "4de0ffc0",
+    "description": "a2b1aed7",
+    "status": "379ac110",
+    "release_date": "b151d9b5",
+    "model_type": "4d1b75ca",
+    "license": "ddb0b7bc",
+    "page_url": "d8768b22",
+    "open_weight": "b326b506",
+    "tagline": "a2b1aed7",
+    "capabilities": "ea60b262",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "huggingface_downloads": "d9d4f495",
+    "last_modified": "ba1efbec"
+  },
+  "last_updated": "2026-05-11"
+}

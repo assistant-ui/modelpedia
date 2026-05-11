@@ -1,0 +1,51 @@
+{
+  "id": "google/gemma-4-31b-it",
+  "name": "Gemma 4 31B",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "description": "Gemma 4 31B is engineered to tackle the most demanding enterprise workloads and complex reasoning tasks.",
+  "status": "active",
+  "release_date": "2026-04-02",
+  "context_window": 262144,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "parameters": 31,
+  "tagline": "Gemma 4 31B is engineered to tackle the most demanding enterprise workloads and complex reasoning tasks.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.4
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d53d071a",
+    "family": "811b6704",
+    "description": "d7af666e",
+    "status": "379ac110",
+    "release_date": "ea3c9722",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "parameters": "c16a5320",
+    "tagline": "d7af666e",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "26e68883",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

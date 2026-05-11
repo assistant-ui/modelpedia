@@ -1,0 +1,28 @@
+{
+  "id": "arcade100k",
+  "name": "Arcade100k",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Arcade100k is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-10-27",
+  "model_type": "other",
+  "page_url": "https://huggingface.co/stabilityai/arcade100k",
+  "open_weight": true,
+  "tagline": "Arcade100k is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "huggingface_downloads": 0,
+  "last_modified": "2024-04-12",
+  "_generated": {
+    "name": "ed698ac5",
+    "description": "a3510370",
+    "status": "379ac110",
+    "release_date": "1af93c5f",
+    "model_type": "ddb0b7bc",
+    "page_url": "26cffdb9",
+    "open_weight": "b326b506",
+    "tagline": "a3510370",
+    "huggingface_downloads": "cfcd2084",
+    "last_modified": "73cb4674"
+  },
+  "last_updated": "2026-05-11"
+}

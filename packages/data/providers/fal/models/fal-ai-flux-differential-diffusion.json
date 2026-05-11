@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-differential-diffusion",
+  "name": "FLUX.1 [dev] Differential Diffusion",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX.1 Differential Diffusion is a rapid endpoint that enables swift, granular control over image transformations through change maps, delivering fast and precise region-specific modifications while m",
+  "status": "active",
+  "release_date": "2024-11-06",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-differential-diffusion",
+  "tagline": "FLUX.1 Differential Diffusion is a rapid endpoint that enables swift, granular control over image transformations through change maps, delivering fast and precise region-specific modifications while m",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "a1591d99",
+    "description": "d91be5d6",
+    "status": "379ac110",
+    "release_date": "22d886b1",
+    "model_type": "db8857fe",
+    "page_url": "249c4f28",
+    "tagline": "d91be5d6",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "seedream-5.0-lite",
+  "name": "Seedream 5.0 Lite",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A unified multimodal image generation model endowed with deep thinking and online search capabilities.",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://seed.bytedance.com/en/seedream5_0_lite",
+  "tagline": "A unified multimodal image generation model endowed with deep thinking and online search capabilities.",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "16c7cb83",
+    "description": "8a36c339",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "3059ce9c",
+    "tagline": "8a36c339",
+    "capabilities": "da15458e",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

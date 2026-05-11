@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/omnipart",
+  "name": "Omnipart",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Image-to-3D endpoint for OmniPart, a part-aware 3D generator with semantic decoupling and structural cohesion.",
+  "status": "active",
+  "release_date": "2025-10-29",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/omnipart",
+  "tagline": "Image-to-3D endpoint for OmniPart, a part-aware 3D generator with semantic decoupling and structural cohesion.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "9545caa3",
+    "description": "1a382cd9",
+    "status": "379ac110",
+    "release_date": "ea42b142",
+    "model_type": "ddb0b7bc",
+    "page_url": "1294961d",
+    "tagline": "1a382cd9",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

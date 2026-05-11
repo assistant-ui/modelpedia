@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-2/klein/9b/lora",
+  "name": "FLUX.2 [klein] 9B LoRA",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Text-to-image generation with FLUX.2 [klein] 9B from Black Forest Labs and custom LoRA.",
+  "status": "active",
+  "release_date": "2026-03-17",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-2/klein/9b/lora",
+  "tagline": "Text-to-image generation with FLUX.2 [klein] 9B from Black Forest Labs and custom LoRA.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-03-20",
+  "_generated": {
+    "name": "336d9ab4",
+    "description": "c8a337a5",
+    "status": "379ac110",
+    "release_date": "56d4bd95",
+    "model_type": "db8857fe",
+    "page_url": "6d01b9ae",
+    "tagline": "c8a337a5",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "d91bb602"
+  },
+  "last_updated": "2026-05-11"
+}

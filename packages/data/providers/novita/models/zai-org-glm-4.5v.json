@@ -1,0 +1,49 @@
+{
+  "id": "zai-org/glm-4.5v",
+  "name": "GLM 4.5V",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-4.5",
+  "description": "Z.ai's GLM-4.5V sets a new standard in visual reasoning, achieving SOTA performance across 42 benchmarks among open-source models.",
+  "status": "active",
+  "release_date": "2025-08-11",
+  "context_window": 65536,
+  "max_output_tokens": 16384,
+  "model_type": "chat",
+  "tagline": "Z.ai's GLM-4.5V sets a new standard in visual reasoning, achieving SOTA performance across 42 benchmarks among open-source models.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 1.8
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "343692a7",
+    "family": "e8ea1e1e",
+    "description": "67389632",
+    "status": "379ac110",
+    "release_date": "fdb8af5f",
+    "context_window": "297ce0b3",
+    "max_output_tokens": "c76fe1d8",
+    "model_type": "d669f408",
+    "tagline": "67389632",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "b6a09cab",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

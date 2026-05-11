@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/kling-video/v3/4k/text-to-video",
+  "name": "Kling Video V3 Text to Video 4K",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling's Native 4K is a video generation model that directly outputs professional-grade 4K video in one step, eliminating the need for post-production upscaling",
+  "status": "active",
+  "release_date": "2026-04-22",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/v3/4k/text-to-video",
+  "tagline": "Kling's Native 4K is a video generation model that directly outputs professional-grade 4K video in one step, eliminating the need for post-production upscaling",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "a2abf651",
+    "description": "2e0bb796",
+    "status": "379ac110",
+    "release_date": "c48b287d",
+    "model_type": "4d1b75ca",
+    "page_url": "badc95b7",
+    "tagline": "2e0bb796",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

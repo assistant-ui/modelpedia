@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/bytedance/seedance/v1/pro/text-to-video",
+  "name": "Seedance 1.0 Pro",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Seedance 1.0 Pro, a high quality video generation model developed by Bytedance.",
+  "status": "active",
+  "release_date": "2025-06-16",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/bytedance/seedance/v1/pro/text-to-video",
+  "tagline": "Seedance 1.0 Pro, a high quality video generation model developed by Bytedance.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "5a96c9e9",
+    "description": "c8ec48a0",
+    "status": "379ac110",
+    "release_date": "fae15322",
+    "model_type": "4d1b75ca",
+    "page_url": "d84a202c",
+    "tagline": "c8ec48a0",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

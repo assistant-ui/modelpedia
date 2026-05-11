@@ -1,0 +1,50 @@
+{
+  "id": "openai/gpt-oss-20b",
+  "name": "OpenAI: GPT OSS 20B",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-oss",
+  "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
+  "status": "active",
+  "release_date": "2025-08-06",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "parameters": 20,
+  "tagline": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0.15
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b54d9041",
+    "family": "82d0cb0b",
+    "description": "9ef19f8d",
+    "status": "379ac110",
+    "release_date": "ffc45752",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "parameters": "98f13708",
+    "tagline": "9ef19f8d",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "fc860924",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

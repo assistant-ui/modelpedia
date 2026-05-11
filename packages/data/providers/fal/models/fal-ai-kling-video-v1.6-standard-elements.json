@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling-video/v1.6/standard/elements",
+  "name": "Kling 1.6 Elements",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate video clips from your multiple image references using Kling 1.6 (standard)",
+  "status": "active",
+  "release_date": "2025-05-20",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/v1.6/standard/elements",
+  "tagline": "Generate video clips from your multiple image references using Kling 1.6 (standard)",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "cda763bd",
+    "description": "43780e35",
+    "status": "379ac110",
+    "release_date": "c5fedeb7",
+    "model_type": "4d1b75ca",
+    "page_url": "32554671",
+    "tagline": "43780e35",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

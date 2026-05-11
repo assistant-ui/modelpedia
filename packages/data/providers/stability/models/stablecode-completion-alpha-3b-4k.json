@@ -1,0 +1,44 @@
+{
+  "id": "stablecode-completion-alpha-3b-4k",
+  "name": "Stablecode Completion Alpha 3b 4k",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stablecode Completion Alpha 3b 4k is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-08-07",
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "parameters": 3,
+  "page_url": "https://huggingface.co/stabilityai/stablecode-completion-alpha-3b-4k",
+  "open_weight": true,
+  "tagline": "Stablecode Completion Alpha 3b 4k is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 1440,
+  "last_modified": "2023-08-08",
+  "_generated": {
+    "name": "0abfb02c",
+    "description": "da5fd877",
+    "status": "379ac110",
+    "release_date": "a8a72f8e",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "parameters": "eccbc87e",
+    "page_url": "17815cd7",
+    "open_weight": "b326b506",
+    "tagline": "da5fd877",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "f4a331b7",
+    "last_modified": "a4b79bfa"
+  },
+  "last_updated": "2026-05-11"
+}

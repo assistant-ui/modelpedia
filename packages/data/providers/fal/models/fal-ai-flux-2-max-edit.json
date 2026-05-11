@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-2-max/edit",
+  "name": "Flux 2 Max",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX.2 [max] delivers state-of-the-art image generation and advanced image editing with exceptional realism, precision, and consistency.",
+  "status": "active",
+  "release_date": "2025-12-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-2-max/edit",
+  "tagline": "FLUX.2 [max] delivers state-of-the-art image generation and advanced image editing with exceptional realism, precision, and consistency.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-24",
+  "_generated": {
+    "name": "ebf7e702",
+    "description": "eab45436",
+    "status": "379ac110",
+    "release_date": "799b50a0",
+    "model_type": "db8857fe",
+    "page_url": "59fa60b3",
+    "tagline": "eab45436",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "173d2bb2"
+  },
+  "last_updated": "2026-05-11"
+}

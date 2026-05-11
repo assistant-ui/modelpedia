@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/post-processing/grain",
+  "name": "Post Processing",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Apply film grain effect with different styles (modern, analog, kodak, fuji, cinematic, newspaper) and customizable intensity and scale",
+  "status": "active",
+  "release_date": "2025-07-01",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/post-processing/grain",
+  "tagline": "Apply film grain effect with different styles (modern, analog, kodak, fuji, cinematic, newspaper) and customizable intensity and scale",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "208a7416",
+    "description": "d520a535",
+    "status": "379ac110",
+    "release_date": "7a7b6168",
+    "model_type": "db8857fe",
+    "page_url": "d78f16c2",
+    "tagline": "d520a535",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/pixverse/v6/text-to-video",
+  "name": "PixVerse",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Pixverse's latest v6 Model.",
+  "status": "active",
+  "release_date": "2026-03-29",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/pixverse/v6/text-to-video",
+  "tagline": "Pixverse's latest v6 Model.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "c44b079b",
+    "description": "c22d6506",
+    "status": "379ac110",
+    "release_date": "c019c0fb",
+    "model_type": "4d1b75ca",
+    "page_url": "8522f94f",
+    "tagline": "c22d6506",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

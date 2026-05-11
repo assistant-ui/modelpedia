@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/bytedance-upscaler/upscale/video",
+  "name": "Bytedance Upscaler",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Upscale videos with Bytedance's video upscaler.",
+  "status": "active",
+  "release_date": "2025-10-31",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/bytedance-upscaler/upscale/video",
+  "tagline": "Upscale videos with Bytedance's video upscaler.",
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "1a896034",
+    "description": "542f351a",
+    "status": "379ac110",
+    "release_date": "2bddea11",
+    "model_type": "ddb0b7bc",
+    "page_url": "6fa71e65",
+    "tagline": "542f351a",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

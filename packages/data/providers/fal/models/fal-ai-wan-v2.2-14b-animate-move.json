@@ -1,0 +1,26 @@
+{
+  "id": "fal-ai/wan/v2.2-14b/animate/move",
+  "name": "Wan-2.2 Animate Move",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Wan-Animate is a video model that generates high-fidelity character videos by replicating the expressions and movements of characters from reference videos.",
+  "status": "active",
+  "release_date": "2025-09-21",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/wan/v2.2-14b/animate/move",
+  "tagline": "Wan-Animate is a video model that generates high-fidelity character videos by replicating the expressions and movements of characters from reference videos.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "06836c2e",
+    "family": "2aadc089",
+    "description": "f756e4aa",
+    "status": "379ac110",
+    "release_date": "e7ea6717",
+    "model_type": "ddb0b7bc",
+    "page_url": "ec0e95ac",
+    "tagline": "f756e4aa",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

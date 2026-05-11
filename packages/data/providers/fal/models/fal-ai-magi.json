@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/magi",
+  "name": "MAGI-1",
+  "created_by": "fal",
+  "source": "official",
+  "description": "MAGI-1 is a video generation model with exceptional understanding of physical interactions and cinematic prompts",
+  "status": "active",
+  "release_date": "2025-04-23",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/magi",
+  "tagline": "MAGI-1 is a video generation model with exceptional understanding of physical interactions and cinematic prompts",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "7cf99815",
+    "description": "f93e32c3",
+    "status": "379ac110",
+    "release_date": "efc42cfe",
+    "model_type": "4d1b75ca",
+    "page_url": "48f0a56d",
+    "tagline": "f93e32c3",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

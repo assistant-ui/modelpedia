@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux/dev/image-to-image",
+  "name": "FLUX.1 [dev]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX.1 Image-to-Image is a high-performance endpoint for the FLUX.1 [dev] model that enables rapid transformation of existing images, delivering high-quality style transfers and image modifications wi",
+  "status": "active",
+  "release_date": "2024-07-11",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux/dev/image-to-image",
+  "tagline": "FLUX.1 Image-to-Image is a high-performance endpoint for the FLUX.1 [dev] model that enables rapid transformation of existing images, delivering high-quality style transfers and image modifications wi",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "bc388cb5",
+    "description": "289314e4",
+    "status": "379ac110",
+    "release_date": "730e4c3e",
+    "model_type": "db8857fe",
+    "page_url": "0e403284",
+    "tagline": "289314e4",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

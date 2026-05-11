@@ -1,0 +1,18 @@
+{
+  "id": "stability",
+  "name": "Stability AI",
+  "region": "GB",
+  "headquarters": "London, United Kingdom",
+  "founded": 2019,
+  "url": "https://stability.ai",
+  "api_url": "https://api.stability.ai",
+  "docs_url": "https://platform.stability.ai/docs",
+  "pricing_url": "https://platform.stability.ai/pricing",
+  "description": "AI company behind Stable Diffusion, Stable Video, Stable Audio, and related open and hosted generative models.",
+  "type": "direct",
+  "models_url": "https://huggingface.co/stabilityai",
+  "openai_compatible": false,
+  "free_tier": false,
+  "github_url": "https://github.com/Stability-AI",
+  "twitter_url": "https://x.com/StabilityAI"
+}

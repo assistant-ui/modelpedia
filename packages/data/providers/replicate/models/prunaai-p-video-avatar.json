@@ -1,0 +1,23 @@
+{
+  "id": "prunaai/p-video-avatar",
+  "name": "P Video Avatar",
+  "created_by": "prunaai",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "page_url": "https://replicate.com/prunaai/p-video-avatar",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "31e81152",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "page_url": "5083854d",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-05-11"
+}

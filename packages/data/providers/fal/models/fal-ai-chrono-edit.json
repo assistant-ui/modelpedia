@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/chrono-edit",
+  "name": "Chrono Edit",
+  "created_by": "fal",
+  "source": "official",
+  "description": "NVIDIA's Logically Consistent and Physics-Aware Image Editing Model",
+  "status": "active",
+  "release_date": "2025-10-30",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/chrono-edit",
+  "tagline": "NVIDIA's Logically Consistent and Physics-Aware Image Editing Model",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "e59a7b88",
+    "description": "b3fac2ad",
+    "status": "379ac110",
+    "release_date": "097b1371",
+    "model_type": "db8857fe",
+    "page_url": "b4c8cec9",
+    "tagline": "b3fac2ad",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

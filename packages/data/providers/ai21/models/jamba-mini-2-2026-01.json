@@ -1,0 +1,36 @@
+{
+  "id": "jamba-mini-2-2026-01",
+  "name": "Jamba Mini 2",
+  "created_by": "ai21",
+  "source": "official",
+  "release_date": "2026-01",
+  "context_window": 256000,
+  "max_output_tokens": 4096,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.4
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "FP8",
+  "_generated": {
+    "name": "51d533e7",
+    "release_date": "f534389f",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "f7efa4f8",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "4dbcdee2",
+    "endpoints": "d8fa1080",
+    "quantization": "0a212ff4"
+  },
+  "last_updated": "2026-05-11"
+}

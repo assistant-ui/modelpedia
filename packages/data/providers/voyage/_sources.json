@@ -1,0 +1,6 @@
+{
+  "embeddings": "https://docs.voyageai.com/docs/embeddings",
+  "multimodal_embeddings": "https://docs.voyageai.com/docs/multimodal-embeddings",
+  "reranker": "https://docs.voyageai.com/docs/reranker",
+  "pricing": "https://docs.voyageai.com/docs/pricing"
+}

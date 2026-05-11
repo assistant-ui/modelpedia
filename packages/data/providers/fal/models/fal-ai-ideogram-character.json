@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ideogram/character",
+  "name": "Ideogram V3 Character",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate consistent character appearances across multiple images.",
+  "status": "active",
+  "release_date": "2025-08-07",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/ideogram/character",
+  "tagline": "Generate consistent character appearances across multiple images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "f2ece864",
+    "description": "b422f485",
+    "status": "379ac110",
+    "release_date": "79c30d0c",
+    "model_type": "db8857fe",
+    "page_url": "91ce2be8",
+    "tagline": "b422f485",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

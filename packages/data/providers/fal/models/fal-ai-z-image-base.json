@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/z-image/base",
+  "name": "Z Image Base",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Z-Image is the foundation model of the Z- Image family, engineered for good quality, robust generative diversity, broad stylistic coverage, and precise prompt adherence.",
+  "status": "active",
+  "release_date": "2026-01-27",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/z-image/base",
+  "tagline": "Z-Image is the foundation model of the Z- Image family, engineered for good quality, robust generative diversity, broad stylistic coverage, and precise prompt adherence.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "c2e0a1cc",
+    "description": "7b733b92",
+    "status": "379ac110",
+    "release_date": "a6a6b128",
+    "model_type": "db8857fe",
+    "page_url": "f6d47622",
+    "tagline": "7b733b92",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

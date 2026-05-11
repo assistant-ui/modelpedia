@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/pixverse/c1/transition",
+  "name": "PixVerse C1 Transition",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Create seamless cinematic transitions between two images with PixVerse C1, with native audio and up to 1080p.",
+  "status": "active",
+  "release_date": "2026-04-08",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/pixverse/c1/transition",
+  "tagline": "Create seamless cinematic transitions between two images with PixVerse C1, with native audio and up to 1080p.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "3df6460e",
+    "description": "c9678570",
+    "status": "379ac110",
+    "release_date": "e4942fa5",
+    "model_type": "4d1b75ca",
+    "page_url": "eca88e80",
+    "tagline": "c9678570",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

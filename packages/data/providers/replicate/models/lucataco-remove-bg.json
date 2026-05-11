@@ -1,0 +1,23 @@
+{
+  "id": "lucataco/remove-bg",
+  "name": "Remove Bg",
+  "created_by": "lucataco",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/lucataco/remove-bg",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "dc544c7e",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "f89467b4",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

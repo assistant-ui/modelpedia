@@ -1,0 +1,49 @@
+{
+  "id": "qwen/qwen3-235b-a22b-fp8",
+  "name": "Qwen3 235B A22B",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "description": "Achieves effective integration of inference and non-inference modes, enabling seamless switching between modes during conversations.",
+  "status": "active",
+  "release_date": "2025-04-29",
+  "context_window": 40960,
+  "max_output_tokens": 20000,
+  "model_type": "chat",
+  "parameters": 235,
+  "active_parameters": 22,
+  "tagline": "Achieves effective integration of inference and non-inference modes, enabling seamless switching between modes during conversations.",
+  "capabilities": {
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.8
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "128bc678",
+    "family": "48c385a0",
+    "description": "4dbab515",
+    "status": "379ac110",
+    "release_date": "8e2eb0db",
+    "context_window": "a422a18c",
+    "max_output_tokens": "d9798cdf",
+    "model_type": "d669f408",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "tagline": "4dbab515",
+    "capabilities": "c54140b3",
+    "modalities": "68e53d93",
+    "pricing": "9a9e4921",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

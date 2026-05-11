@@ -1,0 +1,24 @@
+{
+  "id": "veed/lipsync",
+  "name": "Lipsync",
+  "created_by": "veed",
+  "source": "official",
+  "description": "Generate realistic lipsync from any audio using VEED's latest model",
+  "status": "active",
+  "release_date": "2025-05-28",
+  "model_type": "other",
+  "page_url": "https://fal.run/veed/lipsync",
+  "tagline": "Generate realistic lipsync from any audio using VEED's latest model",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "65a438d3",
+    "description": "82061621",
+    "status": "379ac110",
+    "release_date": "172a2c69",
+    "model_type": "ddb0b7bc",
+    "page_url": "98e0a446",
+    "tagline": "82061621",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

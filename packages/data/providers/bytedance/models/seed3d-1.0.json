@@ -1,0 +1,20 @@
+{
+  "id": "seed3d-1.0",
+  "name": "Seed3D 1.0",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A 3D foundation model achieving SOTA performance in texture and material generation, precisely capturing fine-grained object details.",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://seed.bytedance.com/en/seed3d",
+  "tagline": "A 3D foundation model achieving SOTA performance in texture and material generation, precisely capturing fine-grained object details.",
+  "_generated": {
+    "name": "ba3330f3",
+    "description": "cad07a86",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "561a7ba3",
+    "tagline": "cad07a86"
+  },
+  "last_updated": "2026-05-11"
+}

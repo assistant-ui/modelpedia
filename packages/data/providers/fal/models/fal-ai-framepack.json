@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/framepack",
+  "name": "Framepack",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Framepack is an efficient Image-to-video model that autoregressively generates videos.",
+  "status": "active",
+  "release_date": "2025-04-17",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/framepack",
+  "tagline": "Framepack is an efficient Image-to-video model that autoregressively generates videos.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "d9803b2c",
+    "description": "63dd07fc",
+    "status": "379ac110",
+    "release_date": "c495f388",
+    "model_type": "4d1b75ca",
+    "page_url": "1e768a3d",
+    "tagline": "63dd07fc",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

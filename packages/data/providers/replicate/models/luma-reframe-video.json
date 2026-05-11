@@ -1,0 +1,23 @@
+{
+  "id": "luma/reframe-video",
+  "name": "Reframe Video",
+  "created_by": "luma",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "page_url": "https://replicate.com/luma/reframe-video",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "d364c27d",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "page_url": "b5944417",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-05-11"
+}

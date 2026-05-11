@@ -1,0 +1,23 @@
+{
+  "id": "black-forest-labs/flux-2-pro",
+  "name": "Flux 2 Pro",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/black-forest-labs/flux-2-pro",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "a1fc10aa",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "d5d43f7c",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

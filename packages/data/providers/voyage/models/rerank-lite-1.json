@@ -1,0 +1,27 @@
+{
+  "id": "rerank-lite-1",
+  "name": "Rerank Lite 1",
+  "created_by": "voyage",
+  "source": "official",
+  "family": "rerank",
+  "status": "active",
+  "model_type": "rerank",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.02
+  },
+  "endpoints": ["rerank"],
+  "_generated": {
+    "name": "7cf9acef",
+    "family": "477930e6",
+    "status": "379ac110",
+    "model_type": "477930e6",
+    "modalities": "68e53d93",
+    "pricing": "c1cfd7e6",
+    "endpoints": "9a7b4962"
+  },
+  "last_updated": "2026-05-11"
+}

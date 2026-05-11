@@ -1,0 +1,23 @@
+{
+  "id": "topazlabs/video-upscale",
+  "name": "Video Upscale",
+  "created_by": "topazlabs",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/topazlabs/video-upscale",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "596a830e",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "1e0f1ae0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

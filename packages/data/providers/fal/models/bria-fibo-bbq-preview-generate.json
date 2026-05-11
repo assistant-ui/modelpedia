@@ -1,0 +1,35 @@
+{
+  "id": "bria/fibo-bbq-preview/generate",
+  "name": "Fibo Bbq Preview",
+  "created_by": "bria",
+  "source": "official",
+  "description": "A preview to the next level of control of Text-to-Image models.",
+  "status": "active",
+  "release_date": "2026-03-02",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/fibo-bbq-preview/generate",
+  "tagline": "A preview to the next level of control of Text-to-Image models.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-03-02",
+  "_generated": {
+    "name": "920eea3d",
+    "description": "b3c53ade",
+    "status": "379ac110",
+    "release_date": "5cd636df",
+    "model_type": "db8857fe",
+    "page_url": "e007d004",
+    "tagline": "b3c53ade",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5cd636df"
+  },
+  "last_updated": "2026-05-11"
+}

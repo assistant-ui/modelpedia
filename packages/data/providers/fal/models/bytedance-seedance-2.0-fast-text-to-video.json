@@ -1,0 +1,31 @@
+{
+  "id": "bytedance/seedance-2.0/fast/text-to-video",
+  "name": "Seedance 2.0 Fast Text to Video",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "ByteDance's most advanced text-to-video model, fast tier.",
+  "status": "active",
+  "release_date": "2026-04-01",
+  "model_type": "video",
+  "page_url": "https://fal.run/bytedance/seedance-2.0/fast/text-to-video",
+  "tagline": "ByteDance's most advanced text-to-video model, fast tier.",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-22",
+  "_generated": {
+    "name": "2d63edab",
+    "description": "d8f9ff27",
+    "status": "379ac110",
+    "release_date": "f68ebedb",
+    "model_type": "4d1b75ca",
+    "page_url": "b6caf124",
+    "tagline": "d8f9ff27",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "c48b287d"
+  },
+  "last_updated": "2026-05-11"
+}

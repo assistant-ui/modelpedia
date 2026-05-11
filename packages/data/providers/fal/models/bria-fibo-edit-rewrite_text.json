@@ -1,0 +1,35 @@
+{
+  "id": "bria/fibo-edit/rewrite_text",
+  "name": "Fibo Edit [Rewrite Text]",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Precise, reliable modification of existing text inside images.",
+  "status": "active",
+  "release_date": "2026-01-20",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/fibo-edit/rewrite_text",
+  "tagline": "Precise, reliable modification of existing text inside images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "6067161f",
+    "description": "11f8017c",
+    "status": "379ac110",
+    "release_date": "76120ca1",
+    "model_type": "db8857fe",
+    "page_url": "da1cd768",
+    "tagline": "11f8017c",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}
