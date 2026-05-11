@@ -1,0 +1,74 @@
+{
+  "id": "gpt-realtime-whisper",
+  "name": "gpt-realtime-whisper",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-realtime",
+  "description": "GPT Realtime Whisper is a streaming speech-to-text model for applications that need low-latency transcript deltas from live audio. It is designed for realtime use cases where developers need to tune latency and accuracy. GPT Realtime Whisper is priced by audio duration rather than text tokens.",
+  "status": "active",
+  "knowledge_cutoff": "2024-09",
+  "context_window": 16000,
+  "max_output_tokens": 2000,
+  "model_type": "audio",
+  "license": "proprietary",
+  "performance": 4,
+  "speed": 5,
+  "tagline": "Streaming speech-to-text model for realtime transcription",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-realtime-whisper",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
+  },
+  "modalities": {
+    "input": ["audio", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Realtime audio duration",
+        "unit": "Per minute",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.017]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["realtime_transcription"],
+  "pricing_notes": [
+    "GPT Realtime Whisper is priced by audio duration rather than text tokens."
+  ],
+  "snapshots": ["gpt-realtime-whisper"],
+  "_generated": {
+    "name": "8b2de4c1",
+    "family": "f5032d33",
+    "description": "c079d50a",
+    "status": "379ac110",
+    "knowledge_cutoff": "b0196d6e",
+    "context_window": "67510c89",
+    "max_output_tokens": "08f90c1a",
+    "model_type": "9f84c007",
+    "license": "9186c466",
+    "performance": "a87ff679",
+    "speed": "e4da3b7f",
+    "tagline": "0fd78d42",
+    "page_url": "05ead6f2",
+    "open_weight": "68934a3e",
+    "capabilities": "51394a4e",
+    "modalities": "7cee5e0e",
+    "pricing": "6881f22c",
+    "endpoints": "76a91d48",
+    "pricing_notes": "f1bce970"
+  },
+  "last_updated": "2026-05-10"
+}

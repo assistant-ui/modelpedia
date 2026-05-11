@@ -1,0 +1,39 @@
+{
+  "id": "inclusionai/ling-2.6-1t",
+  "name": "inclusionAI: Ling-2.6-1T",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale.",
+  "release_date": "2026-04-23",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "tagline": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 2.5,
+    "cached_input": 0.06
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "0d589131",
+    "description": "e0371d4b",
+    "release_date": "a87679d0",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "tagline": "e0371d4b",
+    "capabilities": "6c9aa67e",
+    "modalities": "68e53d93",
+    "pricing": "7bcb2989",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-10"
+}

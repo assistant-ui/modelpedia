@@ -3,9 +3,9 @@
   "name": "qwen-v2p5-7b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-10",
   "family": "qwen",
-  "context_window": 131100,
+  "context_window": 131000,
   "capabilities": {
     "streaming": true
   },
@@ -17,7 +17,7 @@
   "_generated": {
     "name": "eee567b5",
     "family": "a3af76f3",
-    "context_window": "a683b9ae",
+    "context_window": "834bd590",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "d669f408",

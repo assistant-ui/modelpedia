@@ -4,7 +4,7 @@
   "created_by": "qwen",
   "source": "official",
   "family": "qwen3",
-  "context_window": 262100,
+  "context_window": 262000,
   "parameters": 27,
   "page_url": "https://fireworks.ai/models/fireworks/qwen3p6-27b",
   "model_type": "chat",
@@ -23,7 +23,7 @@
   "_generated": {
     "name": "79d0a887",
     "family": "48c385a0",
-    "context_window": "b23f4471",
+    "context_window": "4ed74017",
     "parameters": "02e74f10",
     "page_url": "c3b00fb6",
     "model_type": "d669f408",
@@ -31,5 +31,5 @@
     "pricing": "cb03f68e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-05-06"
+  "last_updated": "2026-05-10"
 }

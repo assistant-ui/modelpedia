@@ -3,7 +3,7 @@
   "name": "Qwen 3 235B Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-05-10",
   "family": "qwen",
   "context_window": 131000,
   "max_output_tokens": 40000,
@@ -32,7 +32,7 @@
     "modalities": "68e53d93",
     "pricing": "11cfe106",
     "model_type": "d669f408",
-    "status": "127aecde",
+    "status": "2e2f74dc",
     "endpoints": "772bacef",
     "model_card_url": "36ad69b1",
     "tokens_per_second": "f0dd4a99",
@@ -40,10 +40,12 @@
     "precision": "c851ef38",
     "huggingface_url": "36ad69b1",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "c48b287d",
+    "active_parameters": "b6d767d2"
   },
   "model_type": "chat",
-  "status": "preview",
+  "status": "deprecated",
   "endpoints": ["chat_completions", "completions"],
   "model_card_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
   "tokens_per_second": 1400,
@@ -51,5 +53,7 @@
   "precision": "FP16/FP8 (weights only)",
   "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-04-22",
+  "active_parameters": 22
 }

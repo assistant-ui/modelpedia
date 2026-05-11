@@ -4,7 +4,7 @@
   "created_by": "xai",
   "source": "official",
   "family": "grok-4.20",
-  "description": "Grok 4.20 is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities.",
+  "description": "Grok 4.20 is a reasoning model from xAI with industry-leading speed and agentic tool calling capabilities.",
   "release_date": "2026-03-31",
   "context_window": 2000000,
   "model_type": "chat",
@@ -28,7 +28,7 @@
   "_generated": {
     "name": "a3aac4cb",
     "family": "44972aca",
-    "description": "93c9abc9",
+    "description": "010ec44c",
     "release_date": "3c0c39b4",
     "context_window": "805f7438",
     "model_type": "d669f408",
@@ -38,5 +38,5 @@
     "pricing": "64e647aa",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-05-10"
 }

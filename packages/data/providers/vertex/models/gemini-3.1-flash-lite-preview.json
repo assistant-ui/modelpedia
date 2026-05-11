@@ -3,7 +3,7 @@
   "name": "gemini-3.1-flash-lite-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-27",
+  "last_updated": "2026-05-10",
   "family": "gemini-3.1",
   "status": "active",
   "knowledge_cutoff": "2025-01",
@@ -25,7 +25,7 @@
   "pricing": {
     "input": 0.25,
     "output": 1.5,
-    "batch_input": 0.13,
+    "batch_input": 0.125,
     "batch_output": 0.75,
     "tiers": [
       {
@@ -43,7 +43,7 @@
           },
           {
             "label": "Flex",
-            "values": [0.13, null, 0.75]
+            "values": [0.125, null, 0.75]
           }
         ]
       }
@@ -60,7 +60,7 @@
     "max_output_tokens": "297ce0b3",
     "capabilities": "fdff467b",
     "modalities": "0b49b61e",
-    "pricing": "cbf18813",
+    "pricing": "788d6a3a",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908",
     "model_type": "d669f408",

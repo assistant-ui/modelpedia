@@ -3,8 +3,8 @@
   "name": "openhermes-2-mistral-7b",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "context_window": 32800,
+  "last_updated": "2026-05-10",
+  "context_window": 32700,
   "capabilities": {
     "streaming": true
   },
@@ -15,7 +15,7 @@
   },
   "_generated": {
     "name": "242aa9d7",
-    "context_window": "74a190a6",
+    "context_window": "e1ea274b",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "parameters": "8f14e45f",

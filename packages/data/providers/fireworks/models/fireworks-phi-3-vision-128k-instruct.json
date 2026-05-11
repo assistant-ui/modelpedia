@@ -3,8 +3,8 @@
   "name": "phi-3-vision-128k-instruct",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "context_window": 32100,
+  "last_updated": "2026-05-10",
+  "context_window": 32000,
   "capabilities": {
     "streaming": true
   },
@@ -15,7 +15,7 @@
   },
   "_generated": {
     "name": "c9e4eaee",
-    "context_window": "ddba48fb",
+    "context_window": "10e4d788",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "page_url": "8a07d794",

@@ -3,9 +3,9 @@
   "name": "deepseek-coder-33b-instruct",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-10",
   "family": "deepseek",
-  "context_window": 16400,
+  "context_window": 16300,
   "capabilities": {
     "streaming": true
   },
@@ -17,7 +17,7 @@
   "_generated": {
     "name": "5b99db8b",
     "family": "4b81b92d",
-    "context_window": "e375a58e",
+    "context_window": "6c880a6d",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "parameters": "182be0c5",

@@ -3,8 +3,8 @@
   "name": "llamaguard-7b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "context_window": 4100,
+  "last_updated": "2026-05-10",
+  "context_window": 4090,
   "capabilities": {
     "streaming": true
   },
@@ -16,7 +16,7 @@
   "model_type": "moderation",
   "_generated": {
     "name": "eaf3f5f3",
-    "context_window": "a3ec6dd8",
+    "context_window": "ae31ee95",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "1e7a7b87",

@@ -3,9 +3,9 @@
   "name": "gemma-7b-it",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-10",
   "family": "gemma-7b",
-  "context_window": 8200,
+  "context_window": 8190,
   "capabilities": {
     "streaming": true
   },
@@ -17,7 +17,7 @@
   "_generated": {
     "name": "227a312e",
     "family": "4c956875",
-    "context_window": "486c0401",
+    "context_window": "16bb35ba",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "d669f408",

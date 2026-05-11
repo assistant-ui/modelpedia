@@ -3,7 +3,7 @@
   "name": "Llama 3.1 8B",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-05-10",
   "context_window": 32000,
   "max_output_tokens": 8000,
   "capabilities": {
@@ -27,7 +27,7 @@
     "capabilities": "85ac183e",
     "modalities": "68e53d93",
     "pricing": "dabb026f",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "endpoints": "772bacef",
     "model_card_url": "c4a9ea1f",
@@ -36,9 +36,10 @@
     "precision": "a4c7ec3d",
     "huggingface_url": "c4a9ea1f",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "c48b287d"
   },
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "endpoints": ["chat_completions", "completions"],
   "model_card_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
@@ -47,5 +48,6 @@
   "precision": "FP",
   "huggingface_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-04-22"
 }

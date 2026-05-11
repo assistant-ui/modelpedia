@@ -3,8 +3,8 @@
   "name": "llama-v3-8b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "context_window": 8200,
+  "last_updated": "2026-05-10",
+  "context_window": 8190,
   "capabilities": {
     "streaming": true
   },
@@ -15,7 +15,7 @@
   },
   "_generated": {
     "name": "1a5743af",
-    "context_window": "486c0401",
+    "context_window": "16bb35ba",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "d669f408",

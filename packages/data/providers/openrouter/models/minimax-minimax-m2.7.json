@@ -3,7 +3,7 @@
   "name": "MiniMax: MiniMax M2.7",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-04-14",
+  "last_updated": "2026-05-10",
   "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement.",
   "context_window": 196608,
   "max_output_tokens": 131072,
@@ -18,7 +18,7 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.3,
+    "input": 0.299,
     "output": 1.2,
     "cached_input": 0.059
   },
@@ -29,7 +29,7 @@
     "max_output_tokens": "f7de594e",
     "modalities": "68e53d93",
     "capabilities": "03fbefb4",
-    "pricing": "69e2433e",
+    "pricing": "a155b37d",
     "family": "c85916f0",
     "model_type": "d669f408",
     "release_date": "e6131053",

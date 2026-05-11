@@ -3,7 +3,7 @@
   "name": "Z.ai: GLM 4.6",
   "created_by": "z-ai",
   "source": "official",
-  "last_updated": "2026-04-07",
+  "last_updated": "2026-05-10",
   "description": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex.",
   "context_window": 204800,
   "max_output_tokens": 204800,
@@ -33,11 +33,15 @@
     "model_type": "d669f408",
     "release_date": "4d697c88",
     "tagline": "4379e806",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc",
+    "deprecation_date": "fc4b2e7f"
   },
   "family": "glm-4.6",
   "model_type": "chat",
   "release_date": "2025-09-30",
   "tagline": "Compared with GLM-4.5, this generation brings several key improvements:\n\nLonger context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated",
+  "deprecation_date": "2026-05-14"
 }

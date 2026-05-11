@@ -3,8 +3,8 @@
   "name": "glm-4p6",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "context_window": 202800,
+  "last_updated": "2026-05-10",
+  "context_window": 202000,
   "capabilities": {
     "streaming": true
   },
@@ -15,7 +15,7 @@
   },
   "_generated": {
     "name": "ef3645dd",
-    "context_window": "cfc99a83",
+    "context_window": "035efc14",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "family": "b85f9b4b",

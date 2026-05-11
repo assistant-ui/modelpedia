@@ -1,0 +1,44 @@
+{
+  "id": "google/gemini-3.1-flash-lite",
+  "name": "Google: Gemini 3.1 Flash Lite",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.1",
+  "description": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads.",
+  "release_date": "2026-05-07",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 1.5,
+    "cached_input": 0.025
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d391deb0",
+    "family": "ea4a1a23",
+    "description": "6319fc31",
+    "release_date": "d465a48a",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "6319fc31",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "f0e61c8a",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-10"
+}

@@ -27,7 +27,11 @@
     "model_type": "d669f408",
     "capabilities": "5780d00a",
     "modalities": "68e53d93",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "description": "59dc4c2a",
+    "tagline": "cda0a742"
   },
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-05-10",
+  "description": "IBM Granite Models are a family of enterprise-ready, open foundation models that support multilingual capabilities, coding, retrieval-augmented generation (RAG), tool use, and structured JSON output. Released under Apache 2.0 license.",
+  "tagline": "IBM Granite Models are a family of enterprise-ready, open foundation models that support multilingual capabilities, coding, retrieval-augmented generation (RAG), tool use, and structured JSON output."
 }

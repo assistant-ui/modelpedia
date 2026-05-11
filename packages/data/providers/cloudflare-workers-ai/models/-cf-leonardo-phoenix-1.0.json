@@ -3,7 +3,7 @@
   "name": "phoenix-1.0",
   "created_by": "leonardo",
   "source": "official",
-  "last_updated": "2026-04-16",
+  "last_updated": "2026-05-10",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -11,12 +11,12 @@
   "_generated": {
     "name": "6add29da",
     "capabilities": "48995a4e",
-    "status": "127aecde",
+    "status": "379ac110",
     "model_type": "db8857fe",
     "page_url": "51252000",
     "tools": "f0c1dc7e"
   },
-  "status": "preview",
+  "status": "active",
   "model_type": "image",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#phoenix-1.0",
   "tools": ["function_calling"]

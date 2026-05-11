@@ -3,8 +3,8 @@
   "name": "dobby-mini-unhinged-plus-llama-3-1-8b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "context_window": 131100,
+  "last_updated": "2026-05-10",
+  "context_window": 131000,
   "capabilities": {
     "streaming": true
   },
@@ -15,7 +15,7 @@
   },
   "_generated": {
     "name": "e1c7161c",
-    "context_window": "a683b9ae",
+    "context_window": "834bd590",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "parameters": "c9f0f895",

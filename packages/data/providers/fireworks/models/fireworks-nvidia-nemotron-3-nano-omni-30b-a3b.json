@@ -3,7 +3,7 @@
   "name": "nvidia-nemotron-3-nano-omni-30b-a3b",
   "created_by": "fireworks",
   "source": "official",
-  "context_window": 262100,
+  "context_window": 262000,
   "parameters": 30,
   "active_parameters": 3,
   "page_url": "https://fireworks.ai/models/fireworks/nvidia-nemotron-3-nano-omni-30b-a3b",
@@ -17,12 +17,12 @@
   },
   "_generated": {
     "name": "d83bd28d",
-    "context_window": "b23f4471",
+    "context_window": "4ed74017",
     "parameters": "34173cb3",
     "active_parameters": "eccbc87e",
     "page_url": "0a6a9178",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e"
   },
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-05-10"
 }

@@ -3,9 +3,9 @@
   "name": "devstral-small-2505",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-10",
   "family": "devstral",
-  "context_window": 131100,
+  "context_window": 131000,
   "alias": "fireworks/devstral-small",
   "capabilities": {
     "streaming": true
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "bc607ece",
     "family": "e626e93e",
-    "context_window": "a683b9ae",
+    "context_window": "834bd590",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "b6cc3ff4",

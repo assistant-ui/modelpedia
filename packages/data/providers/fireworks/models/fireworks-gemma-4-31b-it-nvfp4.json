@@ -4,7 +4,7 @@
   "created_by": "google",
   "source": "official",
   "family": "gemma-4",
-  "context_window": 262100,
+  "context_window": 262000,
   "parameters": 31,
   "page_url": "https://fireworks.ai/models/fireworks/gemma-4-31b-it-nvfp4",
   "model_type": "chat",
@@ -23,7 +23,7 @@
   "_generated": {
     "name": "c3e0293b",
     "family": "811b6704",
-    "context_window": "b23f4471",
+    "context_window": "4ed74017",
     "parameters": "c16a5320",
     "page_url": "af95fa2b",
     "model_type": "d669f408",
@@ -31,5 +31,5 @@
     "pricing": "cb03f68e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-04-16"
+  "last_updated": "2026-05-10"
 }

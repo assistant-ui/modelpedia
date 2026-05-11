@@ -3,8 +3,8 @@
   "name": "llama4-maverick-instruct-basic",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "context_window": 1048600,
+  "last_updated": "2026-05-10",
+  "context_window": 1040000,
   "capabilities": {
     "streaming": true
   },
@@ -15,7 +15,7 @@
   },
   "_generated": {
     "name": "0651fefa",
-    "context_window": "c7956686",
+    "context_window": "1bf8ad8b",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "d669f408",

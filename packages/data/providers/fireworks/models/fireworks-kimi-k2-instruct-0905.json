@@ -3,8 +3,8 @@
   "name": "kimi-k2-instruct-0905",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-04-17",
-  "context_window": 262100,
+  "last_updated": "2026-05-10",
+  "context_window": 262000,
   "capabilities": {
     "streaming": true
   },
@@ -15,7 +15,7 @@
   },
   "_generated": {
     "name": "bf268858",
-    "context_window": "b23f4471",
+    "context_window": "4ed74017",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "family": "0f7256d5",

@@ -3,7 +3,7 @@
   "name": "voyage-4-nano",
   "created_by": "fireworks",
   "source": "official",
-  "context_window": 41000,
+  "context_window": 40900,
   "page_url": "https://fireworks.ai/models/fireworks/voyage-4-nano",
   "capabilities": {
     "streaming": true
@@ -15,10 +15,10 @@
   },
   "_generated": {
     "name": "b6cff98f",
-    "context_window": "225178b1",
+    "context_window": "aa839cfb",
     "page_url": "839ff9cb",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e"
   },
-  "last_updated": "2026-05-06"
+  "last_updated": "2026-05-10"
 }
