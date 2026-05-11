@@ -1,0 +1,27 @@
+{
+  "id": "prunaai/z-image-turbo",
+  "name": "Z Image Turbo",
+  "created_by": "prunaai",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/prunaai/z-image-turbo",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "c0b6417c",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "86f51afd",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

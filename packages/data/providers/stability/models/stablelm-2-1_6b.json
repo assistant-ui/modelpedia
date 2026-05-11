@@ -1,0 +1,44 @@
+{
+  "id": "stablelm-2-1_6b",
+  "name": "Stablelm 2 1 6b",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stablelm 2 1 6b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-01-18",
+  "model_type": "chat",
+  "license": "other",
+  "parameters": 6,
+  "page_url": "https://huggingface.co/stabilityai/stablelm-2-1_6b",
+  "open_weight": true,
+  "tagline": "Stablelm 2 1 6b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 8340,
+  "last_modified": "2024-07-10",
+  "_generated": {
+    "name": "225475de",
+    "description": "0abfbae3",
+    "status": "379ac110",
+    "release_date": "9b4a0529",
+    "model_type": "d669f408",
+    "license": "ddb0b7bc",
+    "parameters": "1679091c",
+    "page_url": "230230e8",
+    "open_weight": "b326b506",
+    "tagline": "0abfbae3",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "773464bf",
+    "last_modified": "2d84b9f9"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/image-apps-v2/texture-transform",
+  "name": "Texture Transform",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Transform objects with different surface textures like marble, wood, or fabric.",
+  "status": "active",
+  "release_date": "2025-09-18",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/image-apps-v2/texture-transform",
+  "tagline": "Transform objects with different surface textures like marble, wood, or fabric.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "4fa308a2",
+    "description": "52cec832",
+    "status": "379ac110",
+    "release_date": "ae10afe6",
+    "model_type": "db8857fe",
+    "page_url": "75329df7",
+    "tagline": "52cec832",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

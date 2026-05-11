@@ -1,0 +1,37 @@
+{
+  "id": "xai/grok-imagine-image",
+  "name": "Grok Imagine Image",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "description": "Generate highly aesthetic images with xAI's Grok Imagine Image generation model.",
+  "status": "active",
+  "release_date": "2026-01-29",
+  "model_type": "image",
+  "page_url": "https://fal.run/xai/grok-imagine-image",
+  "tagline": "Generate highly aesthetic images with xAI's Grok Imagine Image generation model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "72b713df",
+    "family": "a4576b5e",
+    "description": "01f62f88",
+    "status": "379ac110",
+    "release_date": "d017f790",
+    "model_type": "db8857fe",
+    "page_url": "012ea056",
+    "tagline": "01f62f88",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

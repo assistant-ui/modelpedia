@@ -1,0 +1,35 @@
+{
+  "id": "wan/v2.6/text-to-image",
+  "name": "Wan v2.6 Text to Image",
+  "created_by": "wan",
+  "source": "official",
+  "description": "Wan 2.6 text-to-image model.",
+  "status": "active",
+  "release_date": "2025-12-23",
+  "model_type": "image",
+  "page_url": "https://fal.run/wan/v2.6/text-to-image",
+  "tagline": "Wan 2.6 text-to-image model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-20",
+  "_generated": {
+    "name": "0fc413de",
+    "description": "5e5b9c9f",
+    "status": "379ac110",
+    "release_date": "b3874102",
+    "model_type": "db8857fe",
+    "page_url": "57da838c",
+    "tagline": "5e5b9c9f",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "9b0ca917"
+  },
+  "last_updated": "2026-05-11"
+}

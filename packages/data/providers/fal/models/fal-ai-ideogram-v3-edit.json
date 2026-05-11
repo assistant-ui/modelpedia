@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ideogram/v3/edit",
+  "name": "Ideogram V3 Edit",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Transform existing images with Ideogram V3's editing capabilities.",
+  "status": "active",
+  "release_date": "2025-05-01",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/ideogram/v3/edit",
+  "tagline": "Transform existing images with Ideogram V3's editing capabilities.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "2eab67e1",
+    "description": "b8c8f06e",
+    "status": "379ac110",
+    "release_date": "8635bb34",
+    "model_type": "db8857fe",
+    "page_url": "8b029cbd",
+    "tagline": "b8c8f06e",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

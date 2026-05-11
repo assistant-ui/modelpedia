@@ -1,0 +1,4 @@
+{
+  "models": "https://api.novita.ai/v3/openai/models",
+  "docs": "https://docs.novita.ai/api-reference/model-apis/list-models"
+}

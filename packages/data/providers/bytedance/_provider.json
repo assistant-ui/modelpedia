@@ -1,0 +1,18 @@
+{
+  "id": "bytedance",
+  "name": "ByteDance Seed",
+  "aliases": ["seed"],
+  "region": "CN",
+  "headquarters": "Beijing, China",
+  "founded": 2012,
+  "url": "https://seed.bytedance.com/en",
+  "api_url": "https://console.volcengine.com/ark",
+  "docs_url": "https://seed.bytedance.com/en/models",
+  "pricing_url": "https://www.volcengine.com/product/ark/pricing",
+  "description": "ByteDance Seed is ByteDance's frontier AI research team building foundation, multimodal, video, image, speech, science, and robotics models.",
+  "type": "direct",
+  "models_url": "https://seed.bytedance.com/en/models",
+  "openai_compatible": false,
+  "free_tier": false,
+  "blog_url": "https://seed.bytedance.com/en/blog"
+}

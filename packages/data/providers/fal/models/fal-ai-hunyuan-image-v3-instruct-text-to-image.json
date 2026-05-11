@@ -1,0 +1,36 @@
+{
+  "id": "fal-ai/hunyuan-image/v3/instruct/text-to-image",
+  "name": "Hunyuan Image 3.0 Instruct",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Instruct version of Hunyuan-Image 3.0, with internal reasoning capabilities.",
+  "status": "active",
+  "release_date": "2026-01-28",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/hunyuan-image/v3/instruct/text-to-image",
+  "tagline": "Instruct version of Hunyuan-Image 3.0, with internal reasoning capabilities.",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-28",
+  "_generated": {
+    "name": "0f30906e",
+    "description": "b755d7f7",
+    "status": "379ac110",
+    "release_date": "7b38667e",
+    "model_type": "db8857fe",
+    "page_url": "e0951e49",
+    "tagline": "b755d7f7",
+    "capabilities": "da15458e",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "7b38667e"
+  },
+  "last_updated": "2026-05-11"
+}

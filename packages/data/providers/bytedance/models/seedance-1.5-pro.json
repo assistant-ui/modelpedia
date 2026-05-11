@@ -1,0 +1,27 @@
+{
+  "id": "seedance-1.5-pro",
+  "name": "Seedance 1.5 pro",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A joint audio-video model that accurately follows complex instructions.",
+  "status": "active",
+  "model_type": "video",
+  "page_url": "https://seed.bytedance.com/en/seedance1_5_pro",
+  "tagline": "A joint audio-video model that accurately follows complex instructions.",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "965fbc9b",
+    "description": "ff830feb",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "page_url": "f9e77573",
+    "tagline": "ff830feb",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-05-11"
+}

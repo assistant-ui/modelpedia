@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/bytedance/omnihuman/v1.5",
+  "name": "Bytedance OmniHuman v1.5",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Omnihuman v1.5 is a new and improved version of Omnihuman.",
+  "status": "active",
+  "release_date": "2025-09-23",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/bytedance/omnihuman/v1.5",
+  "tagline": "Omnihuman v1.5 is a new and improved version of Omnihuman.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "3738cce0",
+    "description": "c54b2c4d",
+    "status": "379ac110",
+    "release_date": "142ddad6",
+    "model_type": "4d1b75ca",
+    "page_url": "2228b4e3",
+    "tagline": "c54b2c4d",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

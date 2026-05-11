@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/diffrhythm",
+  "name": "DiffRhythm: Lyrics to Song",
+  "created_by": "fal",
+  "source": "official",
+  "description": "DiffRhythm is a blazing fast model for transforming lyrics into full songs.",
+  "status": "active",
+  "release_date": "2025-03-04",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/diffrhythm",
+  "tagline": "DiffRhythm is a blazing fast model for transforming lyrics into full songs.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "604782e1",
+    "description": "06ba4325",
+    "status": "379ac110",
+    "release_date": "08267a14",
+    "model_type": "ddb0b7bc",
+    "page_url": "e730757b",
+    "tagline": "06ba4325",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

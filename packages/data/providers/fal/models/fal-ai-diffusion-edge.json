@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/diffusion-edge",
+  "name": "DiffusionEdge",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Diffusion based high quality edge detection",
+  "status": "active",
+  "release_date": "2024-01-08",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/diffusion-edge",
+  "tagline": "Diffusion based high quality edge detection",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "1bb4865c",
+    "description": "2bffb943",
+    "status": "379ac110",
+    "release_date": "61a38c17",
+    "model_type": "db8857fe",
+    "page_url": "43cabc4b",
+    "tagline": "2bffb943",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

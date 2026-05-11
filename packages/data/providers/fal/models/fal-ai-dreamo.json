@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/dreamo",
+  "name": "DreamO",
+  "created_by": "fal",
+  "source": "official",
+  "description": "DreamO is an image customization framework designed to support a wide range of tasks while facilitating seamless integration of multiple conditions.",
+  "status": "active",
+  "release_date": "2025-05-19",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/dreamo",
+  "tagline": "DreamO is an image customization framework designed to support a wide range of tasks while facilitating seamless integration of multiple conditions.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "35214905",
+    "description": "ae8c20b7",
+    "status": "379ac110",
+    "release_date": "13675940",
+    "model_type": "db8857fe",
+    "page_url": "59e55e6c",
+    "tagline": "ae8c20b7",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

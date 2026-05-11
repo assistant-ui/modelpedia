@@ -1,0 +1,23 @@
+{
+  "id": "fofr/flux-mona-lisa",
+  "name": "Flux Mona Lisa",
+  "created_by": "fofr",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/fofr/flux-mona-lisa",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "62b56d58",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "407bea65",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

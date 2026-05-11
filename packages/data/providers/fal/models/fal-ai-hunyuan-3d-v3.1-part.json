@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/hunyuan-3d/v3.1/part",
+  "name": "Hunyuan 3D Part Splitter",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Split 3D models into parts with Hunyuan 3D",
+  "status": "active",
+  "release_date": "2026-01-27",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/hunyuan-3d/v3.1/part",
+  "tagline": "Split 3D models into parts with Hunyuan 3D",
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "bc7a5b1a",
+    "description": "8873c6b5",
+    "status": "379ac110",
+    "release_date": "a6a6b128",
+    "model_type": "ddb0b7bc",
+    "page_url": "bbddba77",
+    "tagline": "8873c6b5",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

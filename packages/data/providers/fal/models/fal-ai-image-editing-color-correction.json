@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/image-editing/color-correction",
+  "name": "Image Editing",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Perfect your photos with professional color grading, balanced tones, and vibrant yet natural colors",
+  "status": "active",
+  "release_date": "2025-05-29",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/image-editing/color-correction",
+  "tagline": "Perfect your photos with professional color grading, balanced tones, and vibrant yet natural colors",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "2f4a63e0",
+    "description": "3ee519bb",
+    "status": "379ac110",
+    "release_date": "b2e64734",
+    "model_type": "db8857fe",
+    "page_url": "1582545d",
+    "tagline": "3ee519bb",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

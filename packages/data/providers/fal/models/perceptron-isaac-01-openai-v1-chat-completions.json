@@ -1,0 +1,28 @@
+{
+  "id": "perceptron/isaac-01/openai/v1/chat/completions",
+  "name": "Isaac 0.1 [OpenAI Compatible Endpoint]",
+  "created_by": "perceptron",
+  "source": "official",
+  "description": "OpenAI spec compatible endpoint of Isaac-01 which is a multimodal vision-language model from Perceptron for various vision language tasks.",
+  "status": "active",
+  "release_date": "2025-09-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/perceptron/isaac-01/openai/v1/chat/completions",
+  "tagline": "OpenAI spec compatible endpoint of Isaac-01 which is a multimodal vision-language model from Perceptron for various vision language tasks.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "27dac154",
+    "description": "833ede34",
+    "status": "379ac110",
+    "release_date": "b4116b27",
+    "model_type": "ddb0b7bc",
+    "page_url": "c50e28dd",
+    "tagline": "833ede34",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

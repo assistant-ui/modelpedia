@@ -1,0 +1,38 @@
+{
+  "id": "openai/gpt-image-2/edit",
+  "name": "GPT Image 2 API",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2",
+  "description": "GPT Image 2, OpenAI's latest image model, is capable of making fine-grained, detailed edits to images.",
+  "status": "active",
+  "release_date": "2026-04-20",
+  "model_type": "image",
+  "page_url": "https://fal.run/openai/gpt-image-2/edit",
+  "tagline": "GPT Image 2, OpenAI's latest image model, is capable of making fine-grained, detailed edits to images.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "5574f14a",
+    "family": "c79be345",
+    "description": "e300f69a",
+    "status": "379ac110",
+    "release_date": "9b0ca917",
+    "model_type": "db8857fe",
+    "page_url": "fa4ca5dd",
+    "tagline": "e300f69a",
+    "capabilities": "8a3b232e",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

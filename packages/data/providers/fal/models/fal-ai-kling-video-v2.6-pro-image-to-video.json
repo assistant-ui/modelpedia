@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling-video/v2.6/pro/image-to-video",
+  "name": "Kling Video v2.6 Image to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling 2.6 Pro: Top-tier image-to-video with cinematic visuals, fluid motion, and native audio generation.",
+  "status": "active",
+  "release_date": "2025-12-02",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/v2.6/pro/image-to-video",
+  "tagline": "Kling 2.6 Pro: Top-tier image-to-video with cinematic visuals, fluid motion, and native audio generation.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "3341bf69",
+    "description": "ea5c1bb7",
+    "status": "379ac110",
+    "release_date": "75f289bd",
+    "model_type": "4d1b75ca",
+    "page_url": "1340da18",
+    "tagline": "ea5c1bb7",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

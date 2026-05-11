@@ -1,0 +1,37 @@
+{
+  "id": "xai/grok-imagine-image/edit",
+  "name": "Grok Imagine Image",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "description": "Edit images precisely with xAI's Grok Imagine model",
+  "status": "active",
+  "release_date": "2026-01-29",
+  "model_type": "image",
+  "page_url": "https://fal.run/xai/grok-imagine-image/edit",
+  "tagline": "Edit images precisely with xAI's Grok Imagine model",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "72b713df",
+    "family": "a4576b5e",
+    "description": "f2b1f09d",
+    "status": "379ac110",
+    "release_date": "d017f790",
+    "model_type": "db8857fe",
+    "page_url": "d07d971d",
+    "tagline": "f2b1f09d",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

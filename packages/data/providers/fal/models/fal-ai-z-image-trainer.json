@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/z-image-trainer",
+  "name": "Z Image Trainer",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train LoRAs on Z-Image Turbo, a super fast text-to-image model of 6B parameters developed by Tongyi-MAI.",
+  "status": "active",
+  "release_date": "2025-12-03",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/z-image-trainer",
+  "tagline": "Train LoRAs on Z-Image Turbo, a super fast text-to-image model of 6B parameters developed by Tongyi-MAI.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "f8433c09",
+    "description": "1666c57b",
+    "status": "379ac110",
+    "release_date": "71103ff1",
+    "model_type": "ddb0b7bc",
+    "page_url": "b6628419",
+    "tagline": "1666c57b",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

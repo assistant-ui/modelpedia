@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/hunyuan3d-v3/text-to-3d",
+  "name": "Hunyuan3d V3",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Turn simple sketches into detailed, fully-textured 3D models.",
+  "status": "active",
+  "release_date": "2025-12-16",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/hunyuan3d-v3/text-to-3d",
+  "tagline": "Turn simple sketches into detailed, fully-textured 3D models.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "effeb82d",
+    "description": "d16b51c0",
+    "status": "379ac110",
+    "release_date": "799b50a0",
+    "model_type": "ddb0b7bc",
+    "page_url": "410c277b",
+    "tagline": "d16b51c0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/fast-animatediff/video-to-video",
+  "name": "AnimateDiff",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Re-animate your videos!",
+  "status": "active",
+  "release_date": "2024-02-13",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/fast-animatediff/video-to-video",
+  "tagline": "Re-animate your videos!",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "23b11e4b",
+    "description": "1c553b45",
+    "status": "379ac110",
+    "release_date": "056ba89a",
+    "model_type": "ddb0b7bc",
+    "page_url": "2c784a25",
+    "tagline": "1c553b45",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ar-stablelm-2-chat",
+  "name": "Ar Stablelm 2 Chat",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Ar Stablelm 2 Chat is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-08-06",
+  "model_type": "code",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/ar-stablelm-2-chat",
+  "open_weight": true,
+  "tagline": "Ar Stablelm 2 Chat is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 198,
+  "last_modified": "2024-12-06",
+  "_generated": {
+    "name": "878f768d",
+    "description": "db896d3f",
+    "status": "379ac110",
+    "release_date": "1d54b01d",
+    "model_type": "b6cc3ff4",
+    "license": "ddb0b7bc",
+    "page_url": "ffb394b2",
+    "open_weight": "b326b506",
+    "tagline": "db896d3f",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "0e65972d",
+    "last_modified": "725ace28"
+  },
+  "last_updated": "2026-05-11"
+}

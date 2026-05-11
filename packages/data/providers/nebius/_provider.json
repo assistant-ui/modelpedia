@@ -1,0 +1,19 @@
+{
+  "id": "nebius",
+  "name": "Nebius Token Factory",
+  "aliases": ["nebius-ai-studio"],
+  "region": "NL",
+  "headquarters": "Amsterdam, Netherlands",
+  "founded": 2023,
+  "url": "https://nebius.com",
+  "api_url": "https://api.tokenfactory.nebius.com/v1",
+  "docs_url": "https://docs.tokenfactory.nebius.com",
+  "pricing_url": "https://nebius.com/prices",
+  "description": "Nebius cloud inference platform with OpenAI-compatible serverless and dedicated model endpoints.",
+  "type": "cloud",
+  "models_url": "https://api.tokenfactory.nebius.com/v1/models",
+  "openai_compatible": true,
+  "free_tier": false,
+  "github_url": "https://github.com/nebius",
+  "twitter_url": "https://x.com/nebiustf"
+}

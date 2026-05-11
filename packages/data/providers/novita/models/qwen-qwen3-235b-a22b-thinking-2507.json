@@ -1,0 +1,50 @@
+{
+  "id": "qwen/qwen3-235b-a22b-thinking-2507",
+  "name": "Qwen3 235B A22b Thinking 2507",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "description": "The Qwen3-235B-A22B-Thinking-2507 represents the newest thinking-enabled model in the Qwen3 series, delivering groundbreaking improvements in reasoning capabilities.",
+  "status": "active",
+  "release_date": "2025-07-25",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "parameters": 235,
+  "active_parameters": 22,
+  "tagline": "The Qwen3-235B-A22B-Thinking-2507 represents the newest thinking-enabled model in the Qwen3 series, delivering groundbreaking improvements in reasoning capabilities.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 3
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "dbc2c1e9",
+    "family": "48c385a0",
+    "description": "604bcae1",
+    "status": "379ac110",
+    "release_date": "fc8e67ab",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "tagline": "604bcae1",
+    "capabilities": "3d69c795",
+    "modalities": "68e53d93",
+    "pricing": "ebfb6fc5",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

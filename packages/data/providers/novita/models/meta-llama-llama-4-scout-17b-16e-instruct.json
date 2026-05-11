@@ -1,0 +1,46 @@
+{
+  "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "name": "Llama 4 Scout Instruct",
+  "created_by": "meta",
+  "source": "official",
+  "family": "llama-4",
+  "description": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B.",
+  "status": "active",
+  "release_date": "2025-04-06",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "parameters": 17,
+  "tagline": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B.",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.18,
+    "output": 0.59
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "bd7bedc3",
+    "family": "3169363f",
+    "description": "c1d0805b",
+    "status": "379ac110",
+    "release_date": "26b84c49",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "parameters": "70efdf2e",
+    "tagline": "c1d0805b",
+    "capabilities": "09b640f2",
+    "modalities": "6399757e",
+    "pricing": "5dc45284",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

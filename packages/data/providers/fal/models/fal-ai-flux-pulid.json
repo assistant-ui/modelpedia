@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-pulid",
+  "name": "PuLID Flux",
+  "created_by": "fal",
+  "source": "official",
+  "description": "An endpoint for personalized image generation using Flux as per given description.",
+  "status": "active",
+  "release_date": "2024-10-29",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-pulid",
+  "tagline": "An endpoint for personalized image generation using Flux as per given description.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-03-10",
+  "_generated": {
+    "name": "7926a276",
+    "description": "ca0eeb5b",
+    "status": "379ac110",
+    "release_date": "34d247a9",
+    "model_type": "db8857fe",
+    "page_url": "bf6981c7",
+    "tagline": "ca0eeb5b",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "49946764"
+  },
+  "last_updated": "2026-05-11"
+}

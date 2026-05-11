@@ -1,0 +1,33 @@
+{
+  "id": "fal-ai/minimax/video-01",
+  "name": "MiniMax (Hailuo AI) Video 01",
+  "created_by": "fal",
+  "source": "official",
+  "family": "minimax",
+  "description": "Generate video clips from your prompts using MiniMax model",
+  "status": "active",
+  "release_date": "2024-02-13",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/minimax/video-01",
+  "tagline": "Generate video clips from your prompts using MiniMax model",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "949d676a",
+    "family": "c85916f0",
+    "description": "adc980c9",
+    "status": "379ac110",
+    "release_date": "056ba89a",
+    "model_type": "4d1b75ca",
+    "page_url": "d96c70ef",
+    "tagline": "adc980c9",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

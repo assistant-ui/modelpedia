@@ -1,0 +1,35 @@
+{
+  "id": "pixelcut/background-removal",
+  "name": "Pixelcut Background Remover",
+  "created_by": "pixelcut",
+  "source": "official",
+  "description": "Pixelcut’s Background Remover enables fast, ultra high-quality removal of backgrounds from images.",
+  "status": "active",
+  "release_date": "2026-03-04",
+  "model_type": "image",
+  "page_url": "https://fal.run/pixelcut/background-removal",
+  "tagline": "Pixelcut’s Background Remover enables fast, ultra high-quality removal of backgrounds from images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-05-05",
+  "_generated": {
+    "name": "f90837c3",
+    "description": "cafb89b8",
+    "status": "379ac110",
+    "release_date": "4a273186",
+    "model_type": "db8857fe",
+    "page_url": "587d8010",
+    "tagline": "cafb89b8",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "ab530d19"
+  },
+  "last_updated": "2026-05-11"
+}

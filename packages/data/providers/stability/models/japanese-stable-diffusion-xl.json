@@ -1,0 +1,42 @@
+{
+  "id": "japanese-stable-diffusion-xl",
+  "name": "Japanese Stable Diffusion Xl",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Japanese Stable Diffusion Xl is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-11-01",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/japanese-stable-diffusion-xl",
+  "open_weight": true,
+  "tagline": "Japanese Stable Diffusion Xl is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 22,
+  "last_modified": "2024-07-10",
+  "_generated": {
+    "name": "0821c247",
+    "description": "57287670",
+    "status": "379ac110",
+    "release_date": "6f11c837",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "99617ce0",
+    "open_weight": "b326b506",
+    "tagline": "57287670",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "b6d767d2",
+    "last_modified": "2d84b9f9"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/sd15-depth-controlnet",
+  "name": "SD 1.5 Depth ControlNet",
+  "created_by": "fal",
+  "source": "official",
+  "description": "SD 1.5 ControlNet",
+  "status": "active",
+  "release_date": "2024-05-31",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/sd15-depth-controlnet",
+  "tagline": "SD 1.5 ControlNet",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "cb65ceed",
+    "description": "c05cb42f",
+    "status": "379ac110",
+    "release_date": "83e324a8",
+    "model_type": "db8857fe",
+    "page_url": "b0e70c05",
+    "tagline": "c05cb42f",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

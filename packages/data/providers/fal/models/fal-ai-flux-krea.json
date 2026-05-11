@@ -1,0 +1,36 @@
+{
+  "id": "fal-ai/flux/krea",
+  "name": "FLUX.1 Krea [dev]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX.1 Krea [dev] is a 12 billion parameter flow transformer that generates high-quality images from text with incredible aesthetics.",
+  "status": "active",
+  "release_date": "2025-07-30",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux/krea",
+  "tagline": "FLUX.1 Krea [dev] is a 12 billion parameter flow transformer that generates high-quality images from text with incredible aesthetics.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "50fe3518",
+    "description": "30bb888d",
+    "status": "379ac110",
+    "release_date": "584b46b3",
+    "model_type": "db8857fe",
+    "page_url": "09171960",
+    "tagline": "30bb888d",
+    "capabilities": "8a3b232e",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

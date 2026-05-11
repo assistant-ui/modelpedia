@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/vidu/q2/reference-to-image",
+  "name": "Vidu",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Vidu Reference-to-Image creates images by using a reference images and combining them with a prompt.",
+  "status": "active",
+  "release_date": "2025-12-02",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/vidu/q2/reference-to-image",
+  "tagline": "Vidu Reference-to-Image creates images by using a reference images and combining them with a prompt.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-27",
+  "_generated": {
+    "name": "30f11e01",
+    "description": "8b9e05c3",
+    "status": "379ac110",
+    "release_date": "75f289bd",
+    "model_type": "db8857fe",
+    "page_url": "979733aa",
+    "tagline": "8b9e05c3",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "79a25cd1"
+  },
+  "last_updated": "2026-05-11"
+}

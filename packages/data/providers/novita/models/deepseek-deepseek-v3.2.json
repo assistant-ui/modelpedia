@@ -1,0 +1,48 @@
+{
+  "id": "deepseek/deepseek-v3.2",
+  "name": "Deepseek V3.2",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "We introduce DeepSeek-V3.2, a next-generation foundation model designed to unify high computational efficiency with state-of-the-art reasoning and agentic performance.",
+  "status": "active",
+  "release_date": "2025-12-01",
+  "context_window": 163840,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "We introduce DeepSeek-V3.2, a next-generation foundation model designed to unify high computational efficiency with state-of-the-art reasoning and agentic performance.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.269,
+    "output": 0.4
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "91911386",
+    "family": "4b81b92d",
+    "description": "bda07f93",
+    "status": "379ac110",
+    "release_date": "0452719b",
+    "context_window": "7edab444",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "bda07f93",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "2a8bb432",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

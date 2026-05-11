@@ -1,0 +1,37 @@
+{
+  "id": "stable-audio-open-1.0",
+  "name": "Stable Audio Open 1.0",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Audio Open 1.0 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-05-24",
+  "model_type": "audio",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-audio-open-1.0",
+  "open_weight": true,
+  "tagline": "Stable Audio Open 1.0 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "tools": ["function_calling"],
+  "huggingface_downloads": 21451,
+  "last_modified": "2025-06-19",
+  "_generated": {
+    "name": "ff7cb910",
+    "description": "0822e325",
+    "status": "379ac110",
+    "release_date": "c069239a",
+    "model_type": "9f84c007",
+    "license": "ddb0b7bc",
+    "page_url": "e19a5152",
+    "open_weight": "b326b506",
+    "tagline": "0822e325",
+    "capabilities": "5de6a2be",
+    "tools": "f0c1dc7e",
+    "huggingface_downloads": "a5451ac5",
+    "last_modified": "dc9b2bc0"
+  },
+  "last_updated": "2026-05-11"
+}

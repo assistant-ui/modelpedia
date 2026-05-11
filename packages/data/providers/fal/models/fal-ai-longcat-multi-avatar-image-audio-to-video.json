@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/longcat-multi-avatar/image-audio-to-video",
+  "name": "Longcat Multi Avatar",
+  "created_by": "fal",
+  "source": "official",
+  "description": "LongCat-Video-Avatar is an audio-driven video generation model that can generates super-realistic, lip-synchronized long video generation with natural dynamics and consistent identity.",
+  "status": "active",
+  "release_date": "2026-01-08",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/longcat-multi-avatar/image-audio-to-video",
+  "tagline": "LongCat-Video-Avatar is an audio-driven video generation model that can generates super-realistic, lip-synchronized long video generation with natural dynamics and consistent identity.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "a494b8cc",
+    "description": "16f70b39",
+    "status": "379ac110",
+    "release_date": "a688e2ca",
+    "model_type": "ddb0b7bc",
+    "page_url": "8ec8809c",
+    "tagline": "16f70b39",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

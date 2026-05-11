@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/f-lite/standard",
+  "name": "F Lite",
+  "created_by": "fal",
+  "source": "official",
+  "description": "F Lite is a 10B parameter diffusion model created by Fal and Freepik, trained exclusively on copyright-safe and SFW content.",
+  "status": "active",
+  "release_date": "2025-04-28",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/f-lite/standard",
+  "tagline": "F Lite is a 10B parameter diffusion model created by Fal and Freepik, trained exclusively on copyright-safe and SFW content.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "7f2029b6",
+    "description": "25337cba",
+    "status": "379ac110",
+    "release_date": "1487959c",
+    "model_type": "db8857fe",
+    "page_url": "55ab37aa",
+    "tagline": "25337cba",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

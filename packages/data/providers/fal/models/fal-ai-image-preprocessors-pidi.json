@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/image-preprocessors/pidi",
+  "name": "Image Preprocessors",
+  "created_by": "fal",
+  "source": "official",
+  "description": "PIDI (Pidinet) preprocessor.",
+  "status": "active",
+  "release_date": "2024-09-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/image-preprocessors/pidi",
+  "tagline": "PIDI (Pidinet) preprocessor.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "64c3392b",
+    "description": "c38d4a8f",
+    "status": "379ac110",
+    "release_date": "aec2dc94",
+    "model_type": "db8857fe",
+    "page_url": "4f81afed",
+    "tagline": "c38d4a8f",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

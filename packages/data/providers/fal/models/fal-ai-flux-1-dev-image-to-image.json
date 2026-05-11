@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-1/dev/image-to-image",
+  "name": "FLUX.1 [dev]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX.1 [dev] is a 12 billion parameter flow transformer that generates high-quality images from text.",
+  "status": "active",
+  "release_date": "2025-06-02",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-1/dev/image-to-image",
+  "tagline": "FLUX.1 [dev] is a 12 billion parameter flow transformer that generates high-quality images from text.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "bc388cb5",
+    "description": "32d0f6a5",
+    "status": "379ac110",
+    "release_date": "0629f6b1",
+    "model_type": "db8857fe",
+    "page_url": "ac67c0c1",
+    "tagline": "32d0f6a5",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

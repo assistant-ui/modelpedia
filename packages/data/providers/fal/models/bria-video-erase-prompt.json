@@ -1,0 +1,24 @@
+{
+  "id": "bria/video/erase/prompt",
+  "name": "Video",
+  "created_by": "bria",
+  "source": "official",
+  "description": "A high-fidelity capability for erasing unwanted objects, people, or visual elements from videos while maintaining aesthetic quality and temporal consistency",
+  "status": "active",
+  "release_date": "2025-12-23",
+  "model_type": "other",
+  "page_url": "https://fal.run/bria/video/erase/prompt",
+  "tagline": "A high-fidelity capability for erasing unwanted objects, people, or visual elements from videos while maintaining aesthetic quality and temporal consistency",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "567b9158",
+    "description": "61979a12",
+    "status": "379ac110",
+    "release_date": "b3874102",
+    "model_type": "ddb0b7bc",
+    "page_url": "a3298462",
+    "tagline": "61979a12",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

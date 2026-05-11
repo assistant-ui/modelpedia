@@ -1,0 +1,26 @@
+{
+  "id": "fal-ai/wan-22-trainer/i2v-a14b",
+  "name": "Wan-2.2 LoRA Trainer",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Train custom LoRAs for Wan-2.2 T2V/I2V 480P",
+  "status": "active",
+  "release_date": "2026-02-23",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/wan-22-trainer/i2v-a14b",
+  "tagline": "Train custom LoRAs for Wan-2.2 T2V/I2V 480P",
+  "last_seen_at": "2026-02-25",
+  "_generated": {
+    "name": "9c8f5684",
+    "family": "2aadc089",
+    "description": "e449c3a7",
+    "status": "379ac110",
+    "release_date": "f319afd9",
+    "model_type": "ddb0b7bc",
+    "page_url": "439cd7c0",
+    "tagline": "e449c3a7",
+    "last_seen_at": "f2b68600"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "seed-diffusion-preview",
+  "name": "Seed Diffusion Preview",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "An experimental diffusion language model specialized for code generation achieves an inference speed of 2,146 token/s.",
+  "status": "active",
+  "model_type": "code",
+  "page_url": "https://seed.bytedance.com/en/seed_diffusion",
+  "tagline": "An experimental diffusion language model specialized for code generation achieves an inference speed of 2,146 token/s.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "ba8820fa",
+    "description": "e3c9200a",
+    "status": "379ac110",
+    "model_type": "b6cc3ff4",
+    "page_url": "780878e7",
+    "tagline": "e3c9200a",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

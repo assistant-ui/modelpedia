@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/post-processing",
+  "name": "Post Processing",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Post Processing is an endpoint that can enhance images using a variety of techniques including grain, blur, sharpen, and more.",
+  "status": "active",
+  "release_date": "2025-02-18",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/post-processing",
+  "tagline": "Post Processing is an endpoint that can enhance images using a variety of techniques including grain, blur, sharpen, and more.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "208a7416",
+    "description": "915ac348",
+    "status": "379ac110",
+    "release_date": "9d3df5e8",
+    "model_type": "db8857fe",
+    "page_url": "aef8f3af",
+    "tagline": "915ac348",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

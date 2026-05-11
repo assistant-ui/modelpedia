@@ -1,0 +1,24 @@
+{
+  "id": "bria/video/background-removal",
+  "name": "Video",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Automatically remove backgrounds from videos -perfect for creating clean, professional content without a green screen.",
+  "status": "active",
+  "release_date": "2025-06-30",
+  "model_type": "other",
+  "page_url": "https://fal.run/bria/video/background-removal",
+  "tagline": "Automatically remove backgrounds from videos -perfect for creating clean, professional content without a green screen.",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "567b9158",
+    "description": "1123191b",
+    "status": "379ac110",
+    "release_date": "98c5c998",
+    "model_type": "ddb0b7bc",
+    "page_url": "f694d78d",
+    "tagline": "1123191b",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

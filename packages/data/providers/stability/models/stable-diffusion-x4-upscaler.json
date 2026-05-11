@@ -1,0 +1,30 @@
+{
+  "id": "stable-diffusion-x4-upscaler",
+  "name": "Stable Diffusion X4 Upscaler",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Diffusion X4 Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2022-11-23",
+  "model_type": "other",
+  "license": "openrail++",
+  "page_url": "https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler",
+  "open_weight": true,
+  "tagline": "Stable Diffusion X4 Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "huggingface_downloads": 28259,
+  "last_modified": "2023-07-05",
+  "_generated": {
+    "name": "a20c3000",
+    "description": "7dcec512",
+    "status": "379ac110",
+    "release_date": "f7f45956",
+    "model_type": "ddb0b7bc",
+    "license": "53c5b8b2",
+    "page_url": "fc4767fe",
+    "open_weight": "b326b506",
+    "tagline": "7dcec512",
+    "huggingface_downloads": "f60ce135",
+    "last_modified": "3e5171a5"
+  },
+  "last_updated": "2026-05-11"
+}

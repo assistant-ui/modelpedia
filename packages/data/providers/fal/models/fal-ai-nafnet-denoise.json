@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/nafnet/denoise",
+  "name": "NAFNet-denoise",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Use NAFNet to fix issues like blurriness and noise in your images.",
+  "status": "active",
+  "release_date": "2025-02-21",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/nafnet/denoise",
+  "tagline": "Use NAFNet to fix issues like blurriness and noise in your images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "a5251ee5",
+    "description": "02e26d53",
+    "status": "379ac110",
+    "release_date": "45cb2d78",
+    "model_type": "db8857fe",
+    "page_url": "22557b1c",
+    "tagline": "02e26d53",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

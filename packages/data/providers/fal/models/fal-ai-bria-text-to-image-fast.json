@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/bria/text-to-image/fast",
+  "name": "Bria Text-to-Image Fast",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Bria's Text-to-Image model with perfect harmony of latency and quality.",
+  "status": "active",
+  "release_date": "2024-12-19",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/bria/text-to-image/fast",
+  "tagline": "Bria's Text-to-Image model with perfect harmony of latency and quality.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "14b5ea67",
+    "description": "9d3fbcc9",
+    "status": "379ac110",
+    "release_date": "df5c0f25",
+    "model_type": "db8857fe",
+    "page_url": "cb8202d5",
+    "tagline": "9d3fbcc9",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

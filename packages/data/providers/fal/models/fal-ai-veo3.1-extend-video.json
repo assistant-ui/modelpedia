@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/veo3.1/extend-video",
+  "name": "Veo 3.1",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Extend Veo-Created Videos up to 30 seconds",
+  "status": "active",
+  "release_date": "2025-12-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/veo3.1/extend-video",
+  "tagline": "Extend Veo-Created Videos up to 30 seconds",
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "7db5be58",
+    "description": "859cda3d",
+    "status": "379ac110",
+    "release_date": "56423574",
+    "model_type": "ddb0b7bc",
+    "page_url": "a98c2440",
+    "tagline": "859cda3d",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

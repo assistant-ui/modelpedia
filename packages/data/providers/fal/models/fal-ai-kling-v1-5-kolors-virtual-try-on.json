@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling/v1-5/kolors-virtual-try-on",
+  "name": "Kling Kolors Virtual TryOn v1.5",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling Kolors Virtual TryOn v1.5 is a high quality image based Try-On endpoint which can be used for commercial try on.",
+  "status": "active",
+  "release_date": "2025-01-23",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/kling/v1-5/kolors-virtual-try-on",
+  "tagline": "Kling Kolors Virtual TryOn v1.5 is a high quality image based Try-On endpoint which can be used for commercial try on.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "88f78a49",
+    "description": "4ad81025",
+    "status": "379ac110",
+    "release_date": "95a78e49",
+    "model_type": "db8857fe",
+    "page_url": "7aec9d28",
+    "tagline": "4ad81025",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "deepseek/deepseek-prover-v2-671b",
+  "name": "Deepseek Prover V2 671B",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "DeepSeek Launches Open-Source Model DeepSeek-Prover-V2-671B, Specializing in Mathematical Theorem Proving\nThe new model employs a Mixture of Experts (MoE) architecture and is trained using the Lean 4 ",
+  "status": "active",
+  "release_date": "2025-04-30",
+  "context_window": 160000,
+  "max_output_tokens": 160000,
+  "model_type": "chat",
+  "parameters": 671,
+  "tagline": "DeepSeek Launches Open-Source Model DeepSeek-Prover-V2-671B, Specializing in Mathematical Theorem Proving\nThe new model employs a Mixture of Experts (MoE) architecture and is trained using the Lean 4 ",
+  "capabilities": {
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.7,
+    "output": 2.5
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "945f5902",
+    "family": "4b81b92d",
+    "description": "38e3b0df",
+    "status": "379ac110",
+    "release_date": "6997487e",
+    "context_window": "523ab41e",
+    "max_output_tokens": "523ab41e",
+    "model_type": "d669f408",
+    "parameters": "5dd9db5e",
+    "tagline": "38e3b0df",
+    "capabilities": "23219150",
+    "modalities": "68e53d93",
+    "pricing": "0b803a90",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

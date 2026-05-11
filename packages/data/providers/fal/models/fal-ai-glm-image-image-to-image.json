@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/glm-image/image-to-image",
+  "name": "Glm Image",
+  "created_by": "fal",
+  "source": "official",
+  "family": "glm",
+  "description": "Create high-quality images with accurate text rendering and rich knowledge details—supports editing, style transfer, and maintaining consistent characters across multiple images.",
+  "status": "active",
+  "release_date": "2026-01-14",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/glm-image/image-to-image",
+  "tagline": "Create high-quality images with accurate text rendering and rich knowledge details—supports editing, style transfer, and maintaining consistent characters across multiple images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "b38caf5e",
+    "family": "cb6bfc11",
+    "description": "71139189",
+    "status": "379ac110",
+    "release_date": "d72531e7",
+    "model_type": "db8857fe",
+    "page_url": "28ba8c8d",
+    "tagline": "71139189",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

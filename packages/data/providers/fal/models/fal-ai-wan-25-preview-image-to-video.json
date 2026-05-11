@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/wan-25-preview/image-to-video",
+  "name": "Wan 2.5 Image to Video",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Wan 2.5 image-to-video model.",
+  "status": "active",
+  "release_date": "2025-09-24",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/wan-25-preview/image-to-video",
+  "tagline": "Wan 2.5 image-to-video model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "cefc8abb",
+    "family": "2aadc089",
+    "description": "f670bf98",
+    "status": "379ac110",
+    "release_date": "7f76cd1e",
+    "model_type": "4d1b75ca",
+    "page_url": "7453ff25",
+    "tagline": "f670bf98",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/vidu/q2/text-to-video",
+  "name": "Vidu",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Use the latest Vidu Q2 models which much more better quality and control on your videos.",
+  "status": "active",
+  "release_date": "2025-10-22",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/vidu/q2/text-to-video",
+  "tagline": "Use the latest Vidu Q2 models which much more better quality and control on your videos.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-27",
+  "_generated": {
+    "name": "30f11e01",
+    "description": "a8944852",
+    "status": "379ac110",
+    "release_date": "b0368c63",
+    "model_type": "4d1b75ca",
+    "page_url": "8a812a83",
+    "tagline": "a8944852",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "79a25cd1"
+  },
+  "last_updated": "2026-05-11"
+}

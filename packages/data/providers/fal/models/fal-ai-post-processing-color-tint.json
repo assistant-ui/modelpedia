@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/post-processing/color-tint",
+  "name": "Post Processing",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Apply various color tints (sepia, red, green, blue, cyan, magenta, yellow, purple, orange, warm, cool, lime, navy, vintage, rose, teal, maroon, peach, lavender, olive) with adjustable strength.",
+  "status": "active",
+  "release_date": "2025-07-01",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/post-processing/color-tint",
+  "tagline": "Apply various color tints (sepia, red, green, blue, cyan, magenta, yellow, purple, orange, warm, cool, lime, navy, vintage, rose, teal, maroon, peach, lavender, olive) with adjustable strength.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "208a7416",
+    "description": "b884ffa3",
+    "status": "379ac110",
+    "release_date": "7a7b6168",
+    "model_type": "db8857fe",
+    "page_url": "54f97aff",
+    "tagline": "b884ffa3",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/x-ailab/nsfw",
+  "name": "NSFW Checker",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Predict whether an image is NSFW or SFW.",
+  "status": "active",
+  "release_date": "2025-07-28",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/x-ailab/nsfw",
+  "tagline": "Predict whether an image is NSFW or SFW.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "0d3e50a6",
+    "description": "0402567b",
+    "status": "379ac110",
+    "release_date": "8ef4ed35",
+    "model_type": "ddb0b7bc",
+    "page_url": "760c0498",
+    "tagline": "0402567b",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

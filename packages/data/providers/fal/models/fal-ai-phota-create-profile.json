@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/phota/create-profile",
+  "name": "Phota Create Profile",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate profiles using 30-50 images of a subject with Phota.",
+  "status": "active",
+  "release_date": "2026-03-26",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/phota/create-profile",
+  "tagline": "Generate profiles using 30-50 images of a subject with Phota.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "3c4b81bd",
+    "description": "638b7bb0",
+    "status": "379ac110",
+    "release_date": "7f514a88",
+    "model_type": "ddb0b7bc",
+    "page_url": "a700c575",
+    "tagline": "638b7bb0",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

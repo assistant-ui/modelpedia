@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/bytedance/dreamina/v3.1/text-to-image",
+  "name": "Bytedance",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Dreamina showcases superior picture effects, with significant improvements in picture aesthetics, precise and diverse styles, and rich details.",
+  "status": "active",
+  "release_date": "2025-08-06",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/bytedance/dreamina/v3.1/text-to-image",
+  "tagline": "Dreamina showcases superior picture effects, with significant improvements in picture aesthetics, precise and diverse styles, and rich details.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "6d00f002",
+    "description": "3fa35cc0",
+    "status": "379ac110",
+    "release_date": "ffc45752",
+    "model_type": "db8857fe",
+    "page_url": "1b590a42",
+    "tagline": "3fa35cc0",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "kwaipilot/kat-coder-pro",
+  "name": "Kat Coder Pro",
+  "created_by": "kwaipilot",
+  "source": "official",
+  "description": "KAT-Coder-Pro V2 by KwaiKAT is a non-reasoning model optimized for agentic coding.",
+  "status": "active",
+  "release_date": "2026-01-05",
+  "context_window": 256000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "KAT-Coder-Pro V2 by KwaiKAT is a non-reasoning model optimized for agentic coding.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "fc9280aa",
+    "description": "14f688c4",
+    "status": "379ac110",
+    "release_date": "996ff37f",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "14f688c4",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "ea3f0b86",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

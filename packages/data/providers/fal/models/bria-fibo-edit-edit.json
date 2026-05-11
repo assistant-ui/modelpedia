@@ -1,0 +1,37 @@
+{
+  "id": "bria/fibo-edit/edit",
+  "name": "Fibo Edit",
+  "created_by": "bria",
+  "source": "official",
+  "description": "A high-quality editing model that achieves maximum controllability and transparency by combining JSON + Mask + Image.",
+  "status": "active",
+  "release_date": "2026-01-20",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/fibo-edit/edit",
+  "tagline": "A high-quality editing model that achieves maximum controllability and transparency by combining JSON + Mask + Image.",
+  "capabilities": {
+    "vision": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "5704512d",
+    "description": "662ac73d",
+    "status": "379ac110",
+    "release_date": "76120ca1",
+    "model_type": "db8857fe",
+    "page_url": "874a946c",
+    "tagline": "662ac73d",
+    "capabilities": "42538baa",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

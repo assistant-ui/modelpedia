@@ -1,0 +1,26 @@
+{
+  "id": "fal-ai/ltx-video-13b-distilled/extend",
+  "name": "LTX Video-0.9.7 13B Distilled",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Extend videos using LTX Video-0.9.7 13B Distilled and custom LoRA",
+  "status": "active",
+  "release_date": "2025-05-17",
+  "model_type": "other",
+  "parameters": 13,
+  "page_url": "https://fal.run/fal-ai/ltx-video-13b-distilled/extend",
+  "tagline": "Extend videos using LTX Video-0.9.7 13B Distilled and custom LoRA",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "eb56eea3",
+    "description": "9a720064",
+    "status": "379ac110",
+    "release_date": "050d818f",
+    "model_type": "ddb0b7bc",
+    "parameters": "c51ce410",
+    "page_url": "9af51852",
+    "tagline": "9a720064",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

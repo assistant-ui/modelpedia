@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/recraft/v4/text-to-vector",
+  "name": "Recraft V4 (Vector)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Recraft V4 was developed with designers to bring true visual taste to AI image generation.",
+  "status": "active",
+  "release_date": "2026-02-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/recraft/v4/text-to-vector",
+  "tagline": "Recraft V4 was developed with designers to bring true visual taste to AI image generation.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-03-03",
+  "_generated": {
+    "name": "e17e2b61",
+    "description": "92ada417",
+    "status": "379ac110",
+    "release_date": "6c624983",
+    "model_type": "db8857fe",
+    "page_url": "2fdaba08",
+    "tagline": "92ada417",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "381df44b"
+  },
+  "last_updated": "2026-05-11"
+}

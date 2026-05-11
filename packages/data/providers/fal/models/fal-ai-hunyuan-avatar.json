@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/hunyuan-avatar",
+  "name": "Hunyuan Avatar",
+  "created_by": "fal",
+  "source": "official",
+  "description": "HunyuanAvatar is a High-Fidelity Audio-Driven Human Animation model for Multiple Characters .",
+  "status": "active",
+  "release_date": "2025-05-29",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/hunyuan-avatar",
+  "tagline": "HunyuanAvatar is a High-Fidelity Audio-Driven Human Animation model for Multiple Characters .",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "5459d2ca",
+    "description": "e4a1afc5",
+    "status": "379ac110",
+    "release_date": "b2e64734",
+    "model_type": "4d1b75ca",
+    "page_url": "bcfd8c2d",
+    "tagline": "e4a1afc5",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "deepseek/deepseek-r1-0528",
+  "name": "DeepSeek R1 0528",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek-r1",
+  "description": "DeepSeek R1 0528 is the latest open-source model released by the DeepSeek team, featuring impressive reasoning capabilities, particularly achieving performance comparable to OpenAI's o1 model in mathe",
+  "status": "active",
+  "release_date": "2025-05-28",
+  "context_window": 163840,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "tagline": "DeepSeek R1 0528 is the latest open-source model released by the DeepSeek team, featuring impressive reasoning capabilities, particularly achieving performance comparable to OpenAI's o1 model in mathe",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.7,
+    "output": 2.5
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c2f93a56",
+    "family": "c74cfb8e",
+    "description": "41af8027",
+    "status": "379ac110",
+    "release_date": "172a2c69",
+    "context_window": "7edab444",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "tagline": "41af8027",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "0b803a90",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

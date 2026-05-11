@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx2-v2v-trainer",
+  "name": "LTX-2 Video to Video Trainer",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train LTX-2 for video transformation or video-conditioned generation.",
+  "status": "active",
+  "release_date": "2026-01-07",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx2-v2v-trainer",
+  "tagline": "Train LTX-2 for video transformation or video-conditioned generation.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "b0319839",
+    "description": "6ea159c4",
+    "status": "379ac110",
+    "release_date": "0156c20c",
+    "model_type": "ddb0b7bc",
+    "page_url": "72e86408",
+    "tagline": "6ea159c4",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

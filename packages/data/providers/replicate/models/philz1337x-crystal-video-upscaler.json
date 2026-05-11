@@ -1,0 +1,23 @@
+{
+  "id": "philz1337x/crystal-video-upscaler",
+  "name": "Crystal Video Upscaler",
+  "created_by": "philz1337x",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/philz1337x/crystal-video-upscaler",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "09ed7895",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "a2b521b0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

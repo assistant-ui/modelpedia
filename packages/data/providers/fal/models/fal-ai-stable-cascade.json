@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/stable-cascade",
+  "name": "Stable Cascade",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Stable Cascade: Image generation on a smaller & cheaper latent space.",
+  "status": "active",
+  "release_date": "2024-06-25",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/stable-cascade",
+  "tagline": "Stable Cascade: Image generation on a smaller & cheaper latent space.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "e3c7218e",
+    "description": "cdf4103d",
+    "status": "379ac110",
+    "release_date": "fb8833ee",
+    "model_type": "db8857fe",
+    "page_url": "9d9c01c2",
+    "tagline": "cdf4103d",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/wan-25-preview/image-to-image",
+  "name": "Wan 2.5 Image to Image",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Wan 2.5 image-to-image model.",
+  "status": "active",
+  "release_date": "2025-09-25",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/wan-25-preview/image-to-image",
+  "tagline": "Wan 2.5 image-to-image model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "479e496a",
+    "family": "2aadc089",
+    "description": "375778aa",
+    "status": "379ac110",
+    "release_date": "2c81b69f",
+    "model_type": "db8857fe",
+    "page_url": "7592d972",
+    "tagline": "375778aa",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

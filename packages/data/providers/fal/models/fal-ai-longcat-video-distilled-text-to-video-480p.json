@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/longcat-video/distilled/text-to-video/480p",
+  "name": "LongCat Video Distilled",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate long videos from text using LongCat Video Distilled",
+  "status": "active",
+  "release_date": "2025-10-28",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/longcat-video/distilled/text-to-video/480p",
+  "tagline": "Generate long videos from text using LongCat Video Distilled",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "bc48fa6e",
+    "description": "f3911014",
+    "status": "379ac110",
+    "release_date": "9606ea78",
+    "model_type": "4d1b75ca",
+    "page_url": "3299d838",
+    "tagline": "f3911014",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

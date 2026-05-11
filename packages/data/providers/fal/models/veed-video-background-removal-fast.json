@@ -1,0 +1,24 @@
+{
+  "id": "veed/video-background-removal/fast",
+  "name": "Video Background Removal",
+  "created_by": "veed",
+  "source": "official",
+  "description": "Remove background from any video with people and objects.",
+  "status": "active",
+  "release_date": "2025-12-01",
+  "model_type": "other",
+  "page_url": "https://fal.run/veed/video-background-removal/fast",
+  "tagline": "Remove background from any video with people and objects.",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "6f9a2a48",
+    "description": "589a82c1",
+    "status": "379ac110",
+    "release_date": "0452719b",
+    "model_type": "ddb0b7bc",
+    "page_url": "328231e1",
+    "tagline": "589a82c1",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

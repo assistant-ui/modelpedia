@@ -1,0 +1,39 @@
+{
+  "id": "StableBeluga2",
+  "name": "StableBeluga2",
+  "created_by": "stability",
+  "source": "official",
+  "description": "StableBeluga2 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-07-20",
+  "model_type": "chat",
+  "page_url": "https://huggingface.co/stabilityai/StableBeluga2",
+  "open_weight": true,
+  "tagline": "StableBeluga2 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 1810,
+  "last_modified": "2023-09-18",
+  "_generated": {
+    "name": "ba958057",
+    "description": "ce91ae39",
+    "status": "379ac110",
+    "release_date": "52f3ec8a",
+    "model_type": "d669f408",
+    "page_url": "1078a73e",
+    "open_weight": "b326b506",
+    "tagline": "ce91ae39",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "6e79ed05",
+    "last_modified": "c9747a7f"
+  },
+  "last_updated": "2026-05-11"
+}

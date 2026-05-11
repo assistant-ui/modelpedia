@@ -1,0 +1,30 @@
+{
+  "id": "sv4d",
+  "name": "Sv4d",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Sv4d is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-07-16",
+  "model_type": "other",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/sv4d",
+  "open_weight": true,
+  "tagline": "Sv4d is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "huggingface_downloads": 30,
+  "last_modified": "2024-08-03",
+  "_generated": {
+    "name": "8fc023a3",
+    "description": "360edf2c",
+    "status": "379ac110",
+    "release_date": "0126dda2",
+    "model_type": "ddb0b7bc",
+    "license": "ddb0b7bc",
+    "page_url": "4e26e0cc",
+    "open_weight": "b326b506",
+    "tagline": "360edf2c",
+    "huggingface_downloads": "34173cb3",
+    "last_modified": "ab3b49f2"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/hunyuan-portrait",
+  "name": "Hunyuan Portrait",
+  "created_by": "fal",
+  "source": "official",
+  "description": "HunyuanPortrait is a diffusion-based framework for generating lifelike, temporally consistent portrait animations.",
+  "status": "active",
+  "release_date": "2025-05-27",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/hunyuan-portrait",
+  "tagline": "HunyuanPortrait is a diffusion-based framework for generating lifelike, temporally consistent portrait animations.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "fc1b577b",
+    "description": "ad83c2bb",
+    "status": "379ac110",
+    "release_date": "2c4f5431",
+    "model_type": "4d1b75ca",
+    "page_url": "7cfce9f1",
+    "tagline": "ad83c2bb",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

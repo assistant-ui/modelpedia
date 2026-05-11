@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/amt-interpolation/frame-interpolation",
+  "name": "AMT Frame Interpolation",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Interpolate between image frames",
+  "status": "active",
+  "release_date": "2024-07-18",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/amt-interpolation/frame-interpolation",
+  "tagline": "Interpolate between image frames",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "4f6217d5",
+    "description": "76e201da",
+    "status": "379ac110",
+    "release_date": "23482102",
+    "model_type": "4d1b75ca",
+    "page_url": "5fd401dc",
+    "tagline": "76e201da",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

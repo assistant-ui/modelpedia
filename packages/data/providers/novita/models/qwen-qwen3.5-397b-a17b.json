@@ -1,0 +1,53 @@
+{
+  "id": "qwen/qwen3.5-397b-a17b",
+  "name": "Qwen3.5-397B-A17B",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3.5",
+  "description": "The Qwen3.5 series 397B-A17B native vision-language model is based on a hybrid architecture design that integrates linear attention mechanisms with sparse Mixture-of-Experts (MoE), achieving higher inference efficiency.",
+  "status": "active",
+  "release_date": "2026-02-16",
+  "context_window": 262144,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "parameters": 397,
+  "active_parameters": 17,
+  "tagline": "The Qwen3.5 series 397B-A17B native vision-language model is based on a hybrid architecture design that integrates linear attention mechanisms with sparse Mixture-of-Experts (MoE), achieving higher in",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 3.6
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9116762c",
+    "family": "d548f421",
+    "description": "bb251c9f",
+    "status": "379ac110",
+    "release_date": "6c624983",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "parameters": "e46de7e1",
+    "active_parameters": "70efdf2e",
+    "tagline": "5dface8f",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "fd53beb3",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "fal-ai/flux-2-klein-9b-base-trainer/edit",
+  "name": "Flux 2 Klein 9B Base Trainer",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Fine-tune FLUX.2 [klein] 9B from Black Forest Labs with custom datasets.",
+  "status": "active",
+  "release_date": "2026-01-17",
+  "model_type": "other",
+  "parameters": 9,
+  "page_url": "https://fal.run/fal-ai/flux-2-klein-9b-base-trainer/edit",
+  "tagline": "Fine-tune FLUX.2 [klein] 9B from Black Forest Labs with custom datasets.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "548da20d",
+    "description": "945846ec",
+    "status": "379ac110",
+    "release_date": "3b429697",
+    "model_type": "ddb0b7bc",
+    "parameters": "45c48cce",
+    "page_url": "c84ff586",
+    "tagline": "945846ec",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

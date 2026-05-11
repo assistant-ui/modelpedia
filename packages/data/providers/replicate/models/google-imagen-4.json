@@ -1,0 +1,29 @@
+{
+  "id": "google/imagen-4",
+  "name": "Imagen 4",
+  "created_by": "google",
+  "source": "official",
+  "family": "imagen-4",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/google/imagen-4",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "0c3cd811",
+    "family": "68336c6e",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "b86247d8",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

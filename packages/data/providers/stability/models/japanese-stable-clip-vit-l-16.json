@@ -1,0 +1,42 @@
+{
+  "id": "japanese-stable-clip-vit-l-16",
+  "name": "Japanese Stable Clip Vit L 16",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Japanese Stable Clip Vit L 16 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-11-01",
+  "model_type": "code",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/japanese-stable-clip-vit-l-16",
+  "open_weight": true,
+  "tagline": "Japanese Stable Clip Vit L 16 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 499,
+  "last_modified": "2024-07-10",
+  "_generated": {
+    "name": "7f328791",
+    "description": "d2fc5b94",
+    "status": "379ac110",
+    "release_date": "6f11c837",
+    "model_type": "b6cc3ff4",
+    "license": "ddb0b7bc",
+    "page_url": "ebdb0dee",
+    "open_weight": "b326b506",
+    "tagline": "d2fc5b94",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "3cf166c6",
+    "last_modified": "2d84b9f9"
+  },
+  "last_updated": "2026-05-11"
+}

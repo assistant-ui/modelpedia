@@ -1,0 +1,51 @@
+{
+  "id": "qwen/qwen3.5-27b",
+  "name": "Qwen3.5-27B",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3.5",
+  "description": "The Qwen3.5 27B native vision-language Dense model incorporates a linear attention mechanism, delivering fast response times while balancing inference speed and performance.",
+  "status": "active",
+  "release_date": "2026-02-26",
+  "context_window": 262144,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "parameters": 27,
+  "tagline": "The Qwen3.5 27B native vision-language Dense model incorporates a linear attention mechanism, delivering fast response times while balancing inference speed and performance.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 2.4
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b24a43f6",
+    "family": "d548f421",
+    "description": "71432122",
+    "status": "379ac110",
+    "release_date": "8be75473",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "parameters": "02e74f10",
+    "tagline": "71432122",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "5ae95b45",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

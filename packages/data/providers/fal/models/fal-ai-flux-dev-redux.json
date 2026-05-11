@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux/dev/redux",
+  "name": "FLUX.1 [dev] Redux",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX.1 [dev] Redux is a high-performance endpoint for the FLUX.1 [dev] model that enables rapid transformation of existing images, delivering high-quality style transfers and image modifications with ",
+  "status": "active",
+  "release_date": "2024-11-21",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux/dev/redux",
+  "tagline": "FLUX.1 [dev] Redux is a high-performance endpoint for the FLUX.1 [dev] model that enables rapid transformation of existing images, delivering high-quality style transfers and image modifications with ",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "4d699a0d",
+    "description": "765b3a41",
+    "status": "379ac110",
+    "release_date": "79edb664",
+    "model_type": "db8857fe",
+    "page_url": "10d9c7fc",
+    "tagline": "765b3a41",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

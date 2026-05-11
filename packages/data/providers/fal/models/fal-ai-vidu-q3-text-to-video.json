@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/vidu/q3/text-to-video",
+  "name": "Vidu",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Vidu's latest Q3 pro models",
+  "status": "active",
+  "release_date": "2026-01-31",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/vidu/q3/text-to-video",
+  "tagline": "Vidu's latest Q3 pro models",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "30f11e01",
+    "description": "6939dd7d",
+    "status": "379ac110",
+    "release_date": "65b490eb",
+    "model_type": "4d1b75ca",
+    "page_url": "80944a06",
+    "tagline": "6939dd7d",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

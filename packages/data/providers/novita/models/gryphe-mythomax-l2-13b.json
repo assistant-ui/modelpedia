@@ -1,0 +1,42 @@
+{
+  "id": "gryphe/mythomax-l2-13b",
+  "name": "Mythomax L2 13B",
+  "created_by": "gryphe",
+  "source": "official",
+  "description": "The idea behind this merge is that each layer is composed of several tensors, which are in turn responsible for specific functions.",
+  "status": "active",
+  "release_date": "2024-04-25",
+  "context_window": 4096,
+  "max_output_tokens": 3200,
+  "model_type": "chat",
+  "parameters": 13,
+  "tagline": "The idea behind this merge is that each layer is composed of several tensors, which are in turn responsible for specific functions.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.09,
+    "output": 0.09
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "41ea7a14",
+    "description": "8dab2444",
+    "status": "379ac110",
+    "release_date": "930b7401",
+    "context_window": "f7efa4f8",
+    "max_output_tokens": "731ae30a",
+    "model_type": "d669f408",
+    "parameters": "c51ce410",
+    "tagline": "8dab2444",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "09984e2f",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/scail",
+  "name": "Scail",
+  "created_by": "fal",
+  "source": "official",
+  "description": "SCAIL is a character animation model that uses 3D consistent pose representations to animate reference images with coherent motion, supporting complex movements.",
+  "status": "active",
+  "release_date": "2025-12-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/scail",
+  "tagline": "SCAIL is a character animation model that uses 3D consistent pose representations to animate reference images with coherent motion, supporting complex movements.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "2346a2b5",
+    "description": "081bc8ad",
+    "status": "379ac110",
+    "release_date": "f8b75b68",
+    "model_type": "ddb0b7bc",
+    "page_url": "b6d54463",
+    "tagline": "081bc8ad",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

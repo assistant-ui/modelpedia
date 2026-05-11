@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/cogvideox-5b/image-to-video",
+  "name": "CogVideoX-5B",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate videos from images and prompts using CogVideoX-5B",
+  "status": "active",
+  "release_date": "2024-10-17",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/cogvideox-5b/image-to-video",
+  "tagline": "Generate videos from images and prompts using CogVideoX-5B",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "54cdffa5",
+    "description": "ae368362",
+    "status": "379ac110",
+    "release_date": "bc7960e8",
+    "model_type": "4d1b75ca",
+    "page_url": "c6179a47",
+    "tagline": "ae368362",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

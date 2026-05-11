@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-pro/v1.1-ultra-finetuned",
+  "name": "FLUX1.1 [pro] ultra Fine-tuned",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX1.1 [pro] ultra fine-tuned is the newest version of FLUX1.1 [pro] with a fine-tuned LoRA, maintaining professional-grade image quality while delivering up to 2K resolution with improved photo real",
+  "status": "active",
+  "release_date": "2025-01-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-pro/v1.1-ultra-finetuned",
+  "tagline": "FLUX1.1 [pro] ultra fine-tuned is the newest version of FLUX1.1 [pro] with a fine-tuned LoRA, maintaining professional-grade image quality while delivering up to 2K resolution with improved photo real",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "1ddd08b9",
+    "description": "b332f2d1",
+    "status": "379ac110",
+    "release_date": "4d9b0c63",
+    "model_type": "db8857fe",
+    "page_url": "b48fe032",
+    "tagline": "b332f2d1",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

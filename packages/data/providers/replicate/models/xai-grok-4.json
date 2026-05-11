@@ -1,0 +1,29 @@
+{
+  "id": "xai/grok-4",
+  "name": "Grok 4",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://replicate.com/xai/grok-4",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "0e858ed6",
+    "family": "0d5416ff",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "5253efb5",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

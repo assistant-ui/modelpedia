@@ -1,0 +1,36 @@
+{
+  "id": "fal-ai/hidream-i1-full",
+  "name": "Hidream I1 Full",
+  "created_by": "fal",
+  "source": "official",
+  "description": "HiDream-I1 full is a new open-source image generative foundation model with 17B parameters that achieves state-of-the-art image generation quality within seconds.",
+  "status": "active",
+  "release_date": "2025-04-11",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/hidream-i1-full",
+  "tagline": "HiDream-I1 full is a new open-source image generative foundation model with 17B parameters that achieves state-of-the-art image generation quality within seconds.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "c4273f67",
+    "description": "56ca5eec",
+    "status": "379ac110",
+    "release_date": "496cb47d",
+    "model_type": "db8857fe",
+    "page_url": "12cb24a4",
+    "tagline": "56ca5eec",
+    "capabilities": "8a3b232e",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

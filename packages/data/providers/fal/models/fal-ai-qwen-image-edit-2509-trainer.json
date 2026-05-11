@@ -1,0 +1,30 @@
+{
+  "id": "fal-ai/qwen-image-edit-2509-trainer",
+  "name": "Qwen Image Edit 2509 Trainer",
+  "created_by": "fal",
+  "source": "official",
+  "family": "qwen",
+  "description": "LoRA trainer for Qwen Image Edit 2509",
+  "status": "active",
+  "release_date": "2025-12-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/qwen-image-edit-2509-trainer",
+  "tagline": "LoRA trainer for Qwen Image Edit 2509",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "37d67186",
+    "family": "a3af76f3",
+    "description": "e1dbcbdc",
+    "status": "379ac110",
+    "release_date": "56423574",
+    "model_type": "ddb0b7bc",
+    "page_url": "889df80d",
+    "tagline": "e1dbcbdc",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

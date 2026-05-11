@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/kokoro/hindi",
+  "name": "Kokoro TTS (Hindi)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "A fast and expressive Hindi text-to-speech model with clear pronunciation and accurate intonation.",
+  "status": "active",
+  "release_date": "2025-02-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/kokoro/hindi",
+  "tagline": "A fast and expressive Hindi text-to-speech model with clear pronunciation and accurate intonation.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "8bdfc93a",
+    "description": "ef9b55f2",
+    "status": "379ac110",
+    "release_date": "d9b395e4",
+    "model_type": "ddb0b7bc",
+    "page_url": "d95ee2fb",
+    "tagline": "ef9b55f2",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

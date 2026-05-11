@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/kling-video/v1.6/pro/effects",
+  "name": "Kling 1.6",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate video clips from your prompts using Kling 1.6 (pro)",
+  "status": "active",
+  "release_date": "2025-03-06",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/v1.6/pro/effects",
+  "tagline": "Generate video clips from your prompts using Kling 1.6 (pro)",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "e7cf9931",
+    "description": "066e3eac",
+    "status": "379ac110",
+    "release_date": "a1c4c09c",
+    "model_type": "4d1b75ca",
+    "page_url": "28357a3e",
+    "tagline": "066e3eac",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

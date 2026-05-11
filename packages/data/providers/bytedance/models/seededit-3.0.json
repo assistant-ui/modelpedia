@@ -1,0 +1,31 @@
+{
+  "id": "seededit-3.0",
+  "name": "SeedEdit 3.0",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Fast and high-quality generative image editing, particularly with real-world images.",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://seed.bytedance.com/en/seededit",
+  "tagline": "Fast and high-quality generative image editing, particularly with real-world images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "110ccfe2",
+    "description": "00dc3fad",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "f63de2f2",
+    "tagline": "00dc3fad",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

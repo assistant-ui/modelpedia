@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling-video/v2.1/pro/image-to-video",
+  "name": "Kling 2.1 (pro)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling 2.1 Pro is an advanced endpoint for the Kling 2.1 model, offering professional-grade videos with enhanced visual fidelity, precise camera movements, and dynamic motion control, perfect for cinematic storytelling.",
+  "status": "active",
+  "release_date": "2025-05-28",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/v2.1/pro/image-to-video",
+  "tagline": "Kling 2.1 Pro is an advanced endpoint for the Kling 2.1 model, offering professional-grade videos with enhanced visual fidelity, precise camera movements, and dynamic motion control, perfect for cinem",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "88e6a60e",
+    "description": "63d5296b",
+    "status": "379ac110",
+    "release_date": "172a2c69",
+    "model_type": "4d1b75ca",
+    "page_url": "74f9ff8f",
+    "tagline": "051f54f9",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

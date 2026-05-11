@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/goal-force",
+  "name": "Goal Force",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Physics-based video generation with Goal Force.",
+  "status": "active",
+  "release_date": "2026-03-17",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/goal-force",
+  "tagline": "Physics-based video generation with Goal Force.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-03-17",
+  "_generated": {
+    "name": "868c29dd",
+    "description": "9861d170",
+    "status": "379ac110",
+    "release_date": "56d4bd95",
+    "model_type": "4d1b75ca",
+    "page_url": "3ca078d5",
+    "tagline": "9861d170",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "56d4bd95"
+  },
+  "last_updated": "2026-05-11"
+}

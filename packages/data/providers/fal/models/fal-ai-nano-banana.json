@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/nano-banana",
+  "name": "Nano Banana",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Google's famous original image generation and editing model",
+  "status": "active",
+  "release_date": "2025-08-19",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/nano-banana",
+  "tagline": "Google's famous original image generation and editing model",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "60330de1",
+    "description": "b8219810",
+    "status": "379ac110",
+    "release_date": "3baa0f40",
+    "model_type": "db8857fe",
+    "page_url": "25625f90",
+    "tagline": "b8219810",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

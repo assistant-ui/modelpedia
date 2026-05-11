@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx-video-trainer",
+  "name": "LTX Video Trainer",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train LTX Video 0.9.7 for custom styles and effects.",
+  "status": "active",
+  "release_date": "2025-05-08",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx-video-trainer",
+  "tagline": "Train LTX Video 0.9.7 for custom styles and effects.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "758ccc9c",
+    "description": "7bac3c6d",
+    "status": "379ac110",
+    "release_date": "4949ef58",
+    "model_type": "ddb0b7bc",
+    "page_url": "1b5c405a",
+    "tagline": "7bac3c6d",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

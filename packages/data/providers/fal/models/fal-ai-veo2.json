@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/veo2",
+  "name": "Veo 2",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Veo 2 creates videos with realistic motion and high quality output.",
+  "status": "active",
+  "release_date": "2025-02-21",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/veo2",
+  "tagline": "Veo 2 creates videos with realistic motion and high quality output.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "f66b81b0",
+    "description": "dc5d9371",
+    "status": "379ac110",
+    "release_date": "45cb2d78",
+    "model_type": "4d1b75ca",
+    "page_url": "598dc147",
+    "tagline": "dc5d9371",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

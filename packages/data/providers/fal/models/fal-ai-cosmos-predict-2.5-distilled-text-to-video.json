@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/cosmos-predict-2.5/distilled/text-to-video",
+  "name": "Cosmos Predict 2.5 2B Distilled",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate video from text and videos using NVIDIA's 2B Cosmos Distilled Model",
+  "status": "active",
+  "release_date": "2026-02-24",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/cosmos-predict-2.5/distilled/text-to-video",
+  "tagline": "Generate video from text and videos using NVIDIA's 2B Cosmos Distilled Model",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "6589db64",
+    "description": "b60da12b",
+    "status": "379ac110",
+    "release_date": "2ad07f55",
+    "model_type": "4d1b75ca",
+    "page_url": "a1e84a83",
+    "tagline": "b60da12b",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

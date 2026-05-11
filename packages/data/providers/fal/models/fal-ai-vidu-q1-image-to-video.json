@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/vidu/q1/image-to-video",
+  "name": "Vidu Image to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Vidu Q1 Image to Video generates high-quality 1080p videos with exceptional visual quality and motion diversity from a single image",
+  "status": "active",
+  "release_date": "2025-05-09",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/vidu/q1/image-to-video",
+  "tagline": "Vidu Q1 Image to Video generates high-quality 1080p videos with exceptional visual quality and motion diversity from a single image",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-27",
+  "_generated": {
+    "name": "082b02b3",
+    "description": "4166e24e",
+    "status": "379ac110",
+    "release_date": "144241ba",
+    "model_type": "4d1b75ca",
+    "page_url": "f5b7f4e4",
+    "tagline": "4166e24e",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "79a25cd1"
+  },
+  "last_updated": "2026-05-11"
+}

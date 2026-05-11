@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/qwen-image-2/pro/edit",
+  "name": "Qwen Image 2",
+  "created_by": "fal",
+  "source": "official",
+  "family": "qwen",
+  "description": "Qwen-Image-2.0 is a next-generation foundational unified generation-and-editing model",
+  "status": "active",
+  "release_date": "2026-03-03",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/qwen-image-2/pro/edit",
+  "tagline": "Qwen-Image-2.0 is a next-generation foundational unified generation-and-editing model",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "dbc0bbf1",
+    "family": "a3af76f3",
+    "description": "801f7bdd",
+    "status": "379ac110",
+    "release_date": "381df44b",
+    "model_type": "db8857fe",
+    "page_url": "5b5377a4",
+    "tagline": "801f7bdd",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

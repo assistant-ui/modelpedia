@@ -1,0 +1,35 @@
+{
+  "id": "rundiffusion-fal/rundiffusion-photo-flux",
+  "name": "Rundiffusion Photo Flux",
+  "created_by": "rundiffusion-fal",
+  "source": "official",
+  "description": "RunDiffusion Photo Flux provides insane realism.",
+  "status": "active",
+  "release_date": "2025-03-05",
+  "model_type": "image",
+  "page_url": "https://fal.run/rundiffusion-fal/rundiffusion-photo-flux",
+  "tagline": "RunDiffusion Photo Flux provides insane realism.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "69e0d3eb",
+    "description": "276e3e27",
+    "status": "379ac110",
+    "release_date": "a5e693e5",
+    "model_type": "db8857fe",
+    "page_url": "2ff2c4bb",
+    "tagline": "276e3e27",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

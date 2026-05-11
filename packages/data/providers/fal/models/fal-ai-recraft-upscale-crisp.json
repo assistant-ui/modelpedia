@@ -1,0 +1,38 @@
+{
+  "id": "fal-ai/recraft/upscale/crisp",
+  "name": "Recraft Crisp Upscale",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Enhances a given raster image using 'crisp upscale' tool, boosting resolution with a focus on refining small details and faces.",
+  "status": "active",
+  "release_date": "2025-05-07",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/recraft/upscale/crisp",
+  "tagline": "Enhances a given raster image using 'crisp upscale' tool, boosting resolution with a focus on refining small details and faces.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "tools": ["function_calling"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "4b7029c2",
+    "description": "fd20cd5e",
+    "status": "379ac110",
+    "release_date": "0d063515",
+    "model_type": "db8857fe",
+    "page_url": "bcb00ec8",
+    "tagline": "fd20cd5e",
+    "capabilities": "ed0d180f",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "tools": "f0c1dc7e",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

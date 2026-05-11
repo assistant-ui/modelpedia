@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/gemini-25-flash-image/edit",
+  "name": "Gemini 2.5 Flash Image",
+  "created_by": "fal",
+  "source": "official",
+  "family": "gemini-25",
+  "description": "Google's famous original image generation and editing model, a.k.a Nano Banana",
+  "status": "active",
+  "release_date": "2025-08-26",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/gemini-25-flash-image/edit",
+  "tagline": "Google's famous original image generation and editing model, a.k.a Nano Banana",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "e8765a0a",
+    "family": "d818e329",
+    "description": "f71d9cd0",
+    "status": "379ac110",
+    "release_date": "5b0c513c",
+    "model_type": "db8857fe",
+    "page_url": "1d27d49e",
+    "tagline": "f71d9cd0",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

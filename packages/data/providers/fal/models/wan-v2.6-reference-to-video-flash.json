@@ -1,0 +1,24 @@
+{
+  "id": "wan/v2.6/reference-to-video/flash",
+  "name": "V2.6",
+  "created_by": "wan",
+  "source": "official",
+  "description": "Wan 2.6 reference-to-video flash model.",
+  "status": "active",
+  "release_date": "2026-02-06",
+  "model_type": "other",
+  "page_url": "https://fal.run/wan/v2.6/reference-to-video/flash",
+  "tagline": "Wan 2.6 reference-to-video flash model.",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "880c68f9",
+    "description": "cc16cdc7",
+    "status": "379ac110",
+    "release_date": "ce84918e",
+    "model_type": "ddb0b7bc",
+    "page_url": "32b33737",
+    "tagline": "cc16cdc7",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

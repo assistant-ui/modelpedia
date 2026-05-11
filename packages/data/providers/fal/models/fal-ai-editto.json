@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/editto",
+  "name": "Editto",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Edit videos using instruction-based prompting using Editto model!",
+  "status": "active",
+  "release_date": "2025-11-12",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/editto",
+  "tagline": "Edit videos using instruction-based prompting using Editto model!",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "350cca4e",
+    "description": "52cdcb14",
+    "status": "379ac110",
+    "release_date": "6364276c",
+    "model_type": "ddb0b7bc",
+    "page_url": "0bcb2ba7",
+    "tagline": "52cdcb14",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/veo3/image-to-video",
+  "name": "Veo3",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Veo 3 is the latest state-of-the art video generation model from Google DeepMind",
+  "status": "active",
+  "release_date": "2025-08-01",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/veo3/image-to-video",
+  "tagline": "Veo 3 is the latest state-of-the art video generation model from Google DeepMind",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "aae0b163",
+    "description": "5cb35525",
+    "status": "379ac110",
+    "release_date": "a5942af2",
+    "model_type": "4d1b75ca",
+    "page_url": "3bec5af3",
+    "tagline": "5cb35525",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

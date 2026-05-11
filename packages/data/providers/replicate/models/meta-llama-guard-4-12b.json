@@ -1,0 +1,31 @@
+{
+  "id": "meta/llama-guard-4-12b",
+  "name": "Llama Guard 4 12b",
+  "created_by": "meta",
+  "source": "official",
+  "family": "llama-guard",
+  "status": "active",
+  "model_type": "chat",
+  "parameters": 12,
+  "page_url": "https://replicate.com/meta/llama-guard-4-12b",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "00a75364",
+    "family": "3190be28",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "parameters": "c20ad4d7",
+    "page_url": "ef2ec5b1",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

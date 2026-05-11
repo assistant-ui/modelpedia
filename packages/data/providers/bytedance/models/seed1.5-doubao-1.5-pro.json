@@ -1,0 +1,32 @@
+{
+  "id": "seed1.5-doubao-1.5-pro",
+  "name": "Seed1.5（Doubao-1.5-pro）",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Seed1.5 demonstrates superior performance in knowledge, code generation, and reasoning tasks.",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://seed.bytedance.com/en/doubao_1_5_pro",
+  "tagline": "Seed1.5 demonstrates superior performance in knowledge, code generation, and reasoning tasks.",
+  "capabilities": {
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "dd8fc6d6",
+    "description": "4de5cabb",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "2129cdfc",
+    "tagline": "4de5cabb",
+    "capabilities": "23219150",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

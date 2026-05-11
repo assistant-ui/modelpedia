@@ -1,0 +1,47 @@
+{
+  "id": "qwen/qwen3-omni-30b-a3b-instruct",
+  "name": "Qwen3 Omni 30B A3B Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "description": "The Qwen-Omni model accepts combined inputs of text and a single additional modality (image, audio, or video) to generate responses in text or speech.",
+  "status": "active",
+  "release_date": "2025-09-24",
+  "context_window": 65536,
+  "max_output_tokens": 16384,
+  "model_type": "chat",
+  "parameters": 30,
+  "active_parameters": 3,
+  "tagline": "The Qwen-Omni model accepts combined inputs of text and a single additional modality (image, audio, or video) to generate responses in text or speech.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "49d9a304",
+    "family": "48c385a0",
+    "description": "6836a6e3",
+    "status": "379ac110",
+    "release_date": "7f76cd1e",
+    "context_window": "297ce0b3",
+    "max_output_tokens": "c76fe1d8",
+    "model_type": "d669f408",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "tagline": "6836a6e3",
+    "capabilities": "eb5db45f",
+    "modalities": "6399757e",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

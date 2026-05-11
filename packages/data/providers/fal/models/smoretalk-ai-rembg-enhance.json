@@ -1,0 +1,35 @@
+{
+  "id": "smoretalk-ai/rembg-enhance",
+  "name": "Rembg Enhance (Remove Background Enhance)",
+  "created_by": "smoretalk-ai",
+  "source": "official",
+  "description": "Rembg-enhance is optimized for 2D vector images, 3D graphics, and photos by leveraging matting technology.",
+  "status": "active",
+  "release_date": "2025-05-09",
+  "model_type": "image",
+  "page_url": "https://fal.run/smoretalk-ai/rembg-enhance",
+  "tagline": "Rembg-enhance is optimized for 2D vector images, 3D graphics, and photos by leveraging matting technology.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "41f90525",
+    "description": "32fbef64",
+    "status": "379ac110",
+    "release_date": "144241ba",
+    "model_type": "db8857fe",
+    "page_url": "f5cc07ca",
+    "tagline": "32fbef64",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

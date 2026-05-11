@@ -1,0 +1,46 @@
+{
+  "id": "moonshotai/kimi-k2-instruct",
+  "name": "Kimi K2 Instruct",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k2",
+  "description": "Kimi K2 is a state-of-the-art mixture-of-experts (MoE) language model with 32 billion activated parameters and 1 trillion total parameters.",
+  "status": "active",
+  "release_date": "2025-07-11",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "tagline": "Kimi K2 is a state-of-the-art mixture-of-experts (MoE) language model with 32 billion activated parameters and 1 trillion total parameters.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.57,
+    "output": 2.3
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a7137fe1",
+    "family": "0f7256d5",
+    "description": "7823d07a",
+    "status": "379ac110",
+    "release_date": "c4808e8f",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "tagline": "7823d07a",
+    "capabilities": "3d69c795",
+    "modalities": "68e53d93",
+    "pricing": "40e2b797",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

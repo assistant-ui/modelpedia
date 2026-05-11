@@ -1,0 +1,29 @@
+{
+  "id": "fal-ai/ffmpeg-api/loudnorm",
+  "name": "Ffmpeg Api",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Get EBU R128 loudness normalization from audio files using FFmpeg API.",
+  "status": "active",
+  "release_date": "2025-07-08",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ffmpeg-api/loudnorm",
+  "tagline": "Get EBU R128 loudness normalization from audio files using FFmpeg API.",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "628fc980",
+    "description": "56cf27eb",
+    "status": "379ac110",
+    "release_date": "cdd1996a",
+    "model_type": "ddb0b7bc",
+    "page_url": "bbff3576",
+    "tagline": "56cf27eb",
+    "capabilities": "dbb5b7fe",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

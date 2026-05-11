@@ -1,0 +1,29 @@
+{
+  "id": "nvidia/nemotron-3-nano-omni/vision",
+  "name": "Nemotron 3 Nano Omni",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Vision reasoning variant of NVIDIA's Nemotron 3 Nano Omni.",
+  "status": "active",
+  "release_date": "2026-04-27",
+  "model_type": "other",
+  "page_url": "https://fal.run/nvidia/nemotron-3-nano-omni/vision",
+  "tagline": "Vision reasoning variant of NVIDIA's Nemotron 3 Nano Omni.",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true
+  },
+  "last_seen_at": "2026-04-30",
+  "_generated": {
+    "name": "46feb084",
+    "description": "615aff8d",
+    "status": "379ac110",
+    "release_date": "79a25cd1",
+    "model_type": "ddb0b7bc",
+    "page_url": "2d90dc33",
+    "tagline": "615aff8d",
+    "capabilities": "da15458e",
+    "last_seen_at": "a53a2b69"
+  },
+  "last_updated": "2026-05-11"
+}

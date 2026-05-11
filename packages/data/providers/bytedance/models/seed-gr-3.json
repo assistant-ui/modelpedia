@@ -1,0 +1,24 @@
+{
+  "id": "seed-gr-3",
+  "name": "Seed GR-3",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A robust vision-language-action model designed to be generalizable and capable of executing long-horizon and dexterous tasks.",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://seed.bytedance.com/en/gr3",
+  "tagline": "A robust vision-language-action model designed to be generalizable and capable of executing long-horizon and dexterous tasks.",
+  "capabilities": {
+    "vision": true
+  },
+  "_generated": {
+    "name": "708c8c0a",
+    "description": "670f39b0",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "93df6f1d",
+    "tagline": "670f39b0",
+    "capabilities": "d3117eb0"
+  },
+  "last_updated": "2026-05-11"
+}

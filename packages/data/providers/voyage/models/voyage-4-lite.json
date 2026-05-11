@@ -1,0 +1,27 @@
+{
+  "id": "voyage-4-lite",
+  "name": "Voyage 4 Lite",
+  "created_by": "voyage",
+  "source": "official",
+  "status": "active",
+  "context_window": 32000,
+  "model_type": "embed",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.02
+  },
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "b37d0d33",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "model_type": "764cb3de",
+    "modalities": "68e53d93",
+    "pricing": "c1cfd7e6",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-05-11"
+}

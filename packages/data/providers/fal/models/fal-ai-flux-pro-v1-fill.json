@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-pro/v1/fill",
+  "name": "FLUX.1 [pro] Fill",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX.1 [pro] Fill is a high-performance endpoint for the FLUX.1 [pro] model that enables rapid transformation of existing images, delivering high-quality style transfers and image modifications with t",
+  "status": "active",
+  "release_date": "2024-11-21",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-pro/v1/fill",
+  "tagline": "FLUX.1 [pro] Fill is a high-performance endpoint for the FLUX.1 [pro] model that enables rapid transformation of existing images, delivering high-quality style transfers and image modifications with t",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "c59c7e7d",
+    "description": "683827d2",
+    "status": "379ac110",
+    "release_date": "79edb664",
+    "model_type": "db8857fe",
+    "page_url": "6f96f810",
+    "tagline": "683827d2",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

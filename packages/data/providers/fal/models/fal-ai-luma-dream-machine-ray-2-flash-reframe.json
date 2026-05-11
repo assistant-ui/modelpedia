@@ -1,0 +1,30 @@
+{
+  "id": "fal-ai/luma-dream-machine/ray-2-flash/reframe",
+  "name": "Luma Ray 2 Flash Reframe",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Adjust and enhance videos with Ray-2 Reframe.",
+  "status": "active",
+  "release_date": "2025-06-03",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/luma-dream-machine/ray-2-flash/reframe",
+  "tagline": "Adjust and enhance videos with Ray-2 Reframe.",
+  "capabilities": {
+    "tool_call": true
+  },
+  "tools": ["function_calling"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "cb2e3b2f",
+    "description": "15d1f8aa",
+    "status": "379ac110",
+    "release_date": "c32ecc6d",
+    "model_type": "ddb0b7bc",
+    "page_url": "282140bf",
+    "tagline": "15d1f8aa",
+    "capabilities": "ce9e2425",
+    "tools": "f0c1dc7e",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

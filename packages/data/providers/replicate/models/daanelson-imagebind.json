@@ -1,0 +1,27 @@
+{
+  "id": "daanelson/imagebind",
+  "name": "Imagebind",
+  "created_by": "daanelson",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/daanelson/imagebind",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "1b972413",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "45dcba9b",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

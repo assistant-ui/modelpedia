@@ -1,0 +1,28 @@
+{
+  "id": "tripo3d/h3.1/image-to-3d",
+  "name": "Tripo H3.1 Image to 3D",
+  "created_by": "tripo3d",
+  "source": "official",
+  "description": "Generate high-quality 3D models from a single image using Tripo H3.1.",
+  "status": "active",
+  "release_date": "2026-04-07",
+  "model_type": "other",
+  "page_url": "https://fal.run/tripo3d/h3.1/image-to-3d",
+  "tagline": "Generate high-quality 3D models from a single image using Tripo H3.1.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "077589ad",
+    "description": "7e43819f",
+    "status": "379ac110",
+    "release_date": "3eaa38a6",
+    "model_type": "ddb0b7bc",
+    "page_url": "b54ae32b",
+    "tagline": "7e43819f",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

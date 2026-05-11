@@ -1,0 +1,23 @@
+{
+  "id": "codeplugtech/face-swap",
+  "name": "Face Swap",
+  "created_by": "codeplugtech",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/codeplugtech/face-swap",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "4bc84144",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "81ce13f5",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

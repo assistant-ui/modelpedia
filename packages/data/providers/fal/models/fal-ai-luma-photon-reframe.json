@@ -1,0 +1,38 @@
+{
+  "id": "fal-ai/luma-photon/reframe",
+  "name": "Luma Photon Reframe",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Extend and reframe images with Luma Photon Reframe.",
+  "status": "active",
+  "release_date": "2025-06-03",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/luma-photon/reframe",
+  "tagline": "Extend and reframe images with Luma Photon Reframe.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "tools": ["function_calling"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "91343989",
+    "description": "d75159e0",
+    "status": "379ac110",
+    "release_date": "c32ecc6d",
+    "model_type": "db8857fe",
+    "page_url": "aaeb7b74",
+    "tagline": "d75159e0",
+    "capabilities": "ed0d180f",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "tools": "f0c1dc7e",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

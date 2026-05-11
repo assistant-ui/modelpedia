@@ -1,0 +1,35 @@
+{
+  "id": "rundiffusion-fal/juggernaut-flux-lora/inpainting",
+  "name": "Juggernaut Flux Lora",
+  "created_by": "rundiffusion-fal",
+  "source": "official",
+  "description": "Juggernaut Base Flux LoRA Inpainting by RunDiffusion is a drop-in replacement for Flux [Dev] inpainting that delivers sharper details, richer colors, and enhanced realism to all your LoRAs and LyCORIS",
+  "status": "active",
+  "release_date": "2025-04-21",
+  "model_type": "image",
+  "page_url": "https://fal.run/rundiffusion-fal/juggernaut-flux-lora/inpainting",
+  "tagline": "Juggernaut Base Flux LoRA Inpainting by RunDiffusion is a drop-in replacement for Flux [Dev] inpainting that delivers sharper details, richer colors, and enhanced realism to all your LoRAs and LyCORIS",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "910fcdf7",
+    "description": "4c5a77b3",
+    "status": "379ac110",
+    "release_date": "0c85e562",
+    "model_type": "db8857fe",
+    "page_url": "283670ef",
+    "tagline": "4c5a77b3",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

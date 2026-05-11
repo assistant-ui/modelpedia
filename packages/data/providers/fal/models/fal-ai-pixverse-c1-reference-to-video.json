@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/pixverse/c1/reference-to-video",
+  "name": "PixVerse C1 Reference to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate character-consistent videos from reference images using PixVerse C1, with subject and background references.",
+  "status": "active",
+  "release_date": "2026-04-08",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/pixverse/c1/reference-to-video",
+  "tagline": "Generate character-consistent videos from reference images using PixVerse C1, with subject and background references.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "0efb0bca",
+    "description": "56f387ef",
+    "status": "379ac110",
+    "release_date": "e4942fa5",
+    "model_type": "4d1b75ca",
+    "page_url": "3b03cee4",
+    "tagline": "56f387ef",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

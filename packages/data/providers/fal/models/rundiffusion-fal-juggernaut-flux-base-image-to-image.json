@@ -1,0 +1,35 @@
+{
+  "id": "rundiffusion-fal/juggernaut-flux/base/image-to-image",
+  "name": "Juggernaut Flux Base",
+  "created_by": "rundiffusion-fal",
+  "source": "official",
+  "description": "Juggernaut Base Flux by RunDiffusion is a drop-in replacement for Flux [Dev] that delivers sharper details, richer colors, and enhanced realism, while instantly boosting LoRAs and LyCORIS with full co",
+  "status": "active",
+  "release_date": "2025-03-05",
+  "model_type": "image",
+  "page_url": "https://fal.run/rundiffusion-fal/juggernaut-flux/base/image-to-image",
+  "tagline": "Juggernaut Base Flux by RunDiffusion is a drop-in replacement for Flux [Dev] that delivers sharper details, richer colors, and enhanced realism, while instantly boosting LoRAs and LyCORIS with full co",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "aabeef78",
+    "description": "051311d8",
+    "status": "379ac110",
+    "release_date": "a5e693e5",
+    "model_type": "db8857fe",
+    "page_url": "56216227",
+    "tagline": "051311d8",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

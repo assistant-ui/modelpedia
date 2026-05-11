@@ -1,0 +1,16 @@
+{
+  "id": "fictions-ai/autocaption",
+  "name": "Autocaption",
+  "created_by": "fictions-ai",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/fictions-ai/autocaption",
+  "_generated": {
+    "name": "5f2f2dbd",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "d5e3f78b"
+  },
+  "last_updated": "2026-05-11"
+}

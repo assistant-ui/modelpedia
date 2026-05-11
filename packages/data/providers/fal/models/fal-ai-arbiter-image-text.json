@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/arbiter/image/text",
+  "name": "Arbiter",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Semantic image alignment measurements",
+  "status": "active",
+  "release_date": "2025-12-26",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/arbiter/image/text",
+  "tagline": "Semantic image alignment measurements",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "48281b34",
+    "description": "0af4f7bd",
+    "status": "379ac110",
+    "release_date": "5baed426",
+    "model_type": "ddb0b7bc",
+    "page_url": "059886fb",
+    "tagline": "0af4f7bd",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

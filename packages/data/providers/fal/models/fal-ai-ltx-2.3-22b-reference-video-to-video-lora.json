@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/ltx-2.3-22b/reference-video-to-video/lora",
+  "name": "LTX 2.3 22B",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate video with audio from reference video, text and images using LTX-2.3 and custom LoRA",
+  "status": "active",
+  "release_date": "2026-04-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx-2.3-22b/reference-video-to-video/lora",
+  "tagline": "Generate video with audio from reference video, text and images using LTX-2.3 and custom LoRA",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "0b17250f",
+    "description": "49097e43",
+    "status": "379ac110",
+    "release_date": "9682f27c",
+    "model_type": "ddb0b7bc",
+    "page_url": "c3bd103e",
+    "tagline": "49097e43",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

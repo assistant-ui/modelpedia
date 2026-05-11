@@ -1,0 +1,42 @@
+{
+  "id": "sdxl-turbo-ryzen-ai",
+  "name": "Sdxl Turbo Ryzen Ai",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Sdxl Turbo Ryzen Ai is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-12-06",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/sdxl-turbo-ryzen-ai",
+  "open_weight": true,
+  "tagline": "Sdxl Turbo Ryzen Ai is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 2310,
+  "last_modified": "2024-12-11",
+  "_generated": {
+    "name": "5f79ac17",
+    "description": "f3255b7c",
+    "status": "379ac110",
+    "release_date": "725ace28",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "58f9a028",
+    "open_weight": "b326b506",
+    "tagline": "f3255b7c",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "49c0b9d8",
+    "last_modified": "dcb035de"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/bria/reimagine",
+  "name": "Bria",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Structure Reference allows generating new images while preserving the structure of an input image, guided by text prompts.",
+  "status": "active",
+  "release_date": "2025-07-08",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/bria/reimagine",
+  "tagline": "Structure Reference allows generating new images while preserving the structure of an input image, guided by text prompts.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "aad4b3b2",
+    "description": "0d7e32a1",
+    "status": "379ac110",
+    "release_date": "cdd1996a",
+    "model_type": "db8857fe",
+    "page_url": "c29c02b6",
+    "tagline": "0d7e32a1",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

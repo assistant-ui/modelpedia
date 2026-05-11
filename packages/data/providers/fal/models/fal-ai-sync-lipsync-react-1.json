@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/sync-lipsync/react-1",
+  "name": "Sync React-1",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Use React-1 from SyncLabs to refine human emotions and do realistic lip-sync without losing details!",
+  "status": "active",
+  "release_date": "2025-12-10",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/sync-lipsync/react-1",
+  "tagline": "Use React-1 from SyncLabs to refine human emotions and do realistic lip-sync without losing details!",
+  "last_seen_at": "2026-04-30",
+  "_generated": {
+    "name": "3f0e0ae2",
+    "description": "714adaa4",
+    "status": "379ac110",
+    "release_date": "7b4e98b0",
+    "model_type": "ddb0b7bc",
+    "page_url": "9121fcc4",
+    "tagline": "714adaa4",
+    "last_seen_at": "a53a2b69"
+  },
+  "last_updated": "2026-05-11"
+}

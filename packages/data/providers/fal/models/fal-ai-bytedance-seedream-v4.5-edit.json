@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/bytedance/seedream/v4.5/edit",
+  "name": "Bytedance",
+  "created_by": "fal",
+  "source": "official",
+  "description": "A new-generation image creation model ByteDance, Seedream 4.5 integrates image generation and image editing capabilities into a single, unified architecture.",
+  "status": "active",
+  "release_date": "2025-12-03",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/bytedance/seedream/v4.5/edit",
+  "tagline": "A new-generation image creation model ByteDance, Seedream 4.5 integrates image generation and image editing capabilities into a single, unified architecture.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "6d00f002",
+    "description": "ca91f0e3",
+    "status": "379ac110",
+    "release_date": "71103ff1",
+    "model_type": "db8857fe",
+    "page_url": "d94e8204",
+    "tagline": "ca91f0e3",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "fal-ai/pixverse/extend/fast",
+  "name": "PixVerse",
+  "created_by": "fal",
+  "source": "official",
+  "description": "PixVerse Extend model is a video extending tool for your videos using with high-quality video extending techniques ",
+  "status": "active",
+  "release_date": "2025-06-30",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/pixverse/extend/fast",
+  "tagline": "PixVerse Extend model is a video extending tool for your videos using with high-quality video extending techniques ",
+  "capabilities": {
+    "tool_call": true
+  },
+  "tools": ["function_calling"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "c44b079b",
+    "description": "c66817ab",
+    "status": "379ac110",
+    "release_date": "98c5c998",
+    "model_type": "ddb0b7bc",
+    "page_url": "6ea970a3",
+    "tagline": "c66817ab",
+    "capabilities": "ce9e2425",
+    "tools": "f0c1dc7e",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

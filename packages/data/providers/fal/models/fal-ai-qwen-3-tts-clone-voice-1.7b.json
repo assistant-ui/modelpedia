@@ -1,0 +1,26 @@
+{
+  "id": "fal-ai/qwen-3-tts/clone-voice/1.7b",
+  "name": "Qwen 3 TTS - Clone Voice [1.7B]",
+  "created_by": "fal",
+  "source": "official",
+  "family": "qwen",
+  "description": "Clone your voices using Qwen3-TTS Clone-Voice model with zero shot cloning capabilities and use it on text-to-speech models to create speeches of yours!",
+  "status": "active",
+  "release_date": "2026-01-26",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/qwen-3-tts/clone-voice/1.7b",
+  "tagline": "Clone your voices using Qwen3-TTS Clone-Voice model with zero shot cloning capabilities and use it on text-to-speech models to create speeches of yours!",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "b5dd8778",
+    "family": "a3af76f3",
+    "description": "ec67ec03",
+    "status": "379ac110",
+    "release_date": "5c252aee",
+    "model_type": "ddb0b7bc",
+    "page_url": "04493dcf",
+    "tagline": "ec67ec03",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

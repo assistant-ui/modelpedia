@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling-video/v2.5-turbo/standard/image-to-video",
+  "name": "Kling Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling 2.5 Turbo Standard: Top-tier image-to-video generation with unparalleled motion fluidity, cinematic visuals, and exceptional prompt precision.",
+  "status": "active",
+  "release_date": "2025-10-22",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/v2.5-turbo/standard/image-to-video",
+  "tagline": "Kling 2.5 Turbo Standard: Top-tier image-to-video generation with unparalleled motion fluidity, cinematic visuals, and exceptional prompt precision.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "dd782dc9",
+    "description": "da86bc5b",
+    "status": "379ac110",
+    "release_date": "b0368c63",
+    "model_type": "4d1b75ca",
+    "page_url": "26fb38d9",
+    "tagline": "da86bc5b",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "japanese-stablelm-3b-4e1t-base",
+  "name": "Japanese Stablelm 3b 4e1t Base",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Japanese Stablelm 3b 4e1t Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-10-16",
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "parameters": 3,
+  "page_url": "https://huggingface.co/stabilityai/japanese-stablelm-3b-4e1t-base",
+  "open_weight": true,
+  "tagline": "Japanese Stablelm 3b 4e1t Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 105,
+  "last_modified": "2024-04-26",
+  "_generated": {
+    "name": "e0176872",
+    "description": "64e49699",
+    "status": "379ac110",
+    "release_date": "0d38c69f",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "parameters": "eccbc87e",
+    "page_url": "a68264d6",
+    "open_weight": "b326b506",
+    "tagline": "64e49699",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "65b9eea6",
+    "last_modified": "25e66158"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/hunyuan-motion/fast",
+  "name": "Hunyuan Motion [0.46B]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate 3D human motions via text-to-generation interface of Hunyuan Motion!",
+  "status": "active",
+  "release_date": "2025-12-30",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/hunyuan-motion/fast",
+  "tagline": "Generate 3D human motions via text-to-generation interface of Hunyuan Motion!",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "7d8823f8",
+    "description": "6f18e9ad",
+    "status": "379ac110",
+    "release_date": "29c14d46",
+    "model_type": "ddb0b7bc",
+    "page_url": "a5a7886e",
+    "tagline": "6f18e9ad",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

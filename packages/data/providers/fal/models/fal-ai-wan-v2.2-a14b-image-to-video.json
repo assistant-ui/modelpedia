@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/wan/v2.2-a14b/image-to-video",
+  "name": "Wan v2.2 A14B",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "fal-ai/wan/v2.2-A14B/image-to-video",
+  "status": "active",
+  "release_date": "2025-07-28",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/wan/v2.2-a14B/image-to-video",
+  "tagline": "fal-ai/wan/v2.2-A14B/image-to-video",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "d118288f",
+    "family": "2aadc089",
+    "description": "80fce241",
+    "status": "379ac110",
+    "release_date": "8ef4ed35",
+    "model_type": "4d1b75ca",
+    "page_url": "0f3a4612",
+    "tagline": "80fce241",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

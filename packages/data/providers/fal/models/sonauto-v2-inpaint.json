@@ -1,0 +1,24 @@
+{
+  "id": "sonauto/v2/inpaint",
+  "name": "Sonauto V2",
+  "created_by": "sonauto",
+  "source": "official",
+  "description": "Replace sections of an existing audio with newly generated content",
+  "status": "active",
+  "release_date": "2025-08-23",
+  "model_type": "other",
+  "page_url": "https://fal.run/sonauto/v2/inpaint",
+  "tagline": "Replace sections of an existing audio with newly generated content",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "f5ccb37a",
+    "description": "60feac55",
+    "status": "379ac110",
+    "release_date": "81c68da9",
+    "model_type": "ddb0b7bc",
+    "page_url": "61b08d6b",
+    "tagline": "60feac55",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

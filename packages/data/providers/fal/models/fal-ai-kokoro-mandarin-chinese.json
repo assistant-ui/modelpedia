@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/kokoro/mandarin-chinese",
+  "name": "Kokoro TTS (Mandarin Chinese)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "A highly efficient Mandarin Chinese text-to-speech model that captures natural tones and prosody.",
+  "status": "active",
+  "release_date": "2025-02-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/kokoro/mandarin-chinese",
+  "tagline": "A highly efficient Mandarin Chinese text-to-speech model that captures natural tones and prosody.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "49afecff",
+    "description": "92313d2c",
+    "status": "379ac110",
+    "release_date": "d9b395e4",
+    "model_type": "ddb0b7bc",
+    "page_url": "41c6f39e",
+    "tagline": "92313d2c",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

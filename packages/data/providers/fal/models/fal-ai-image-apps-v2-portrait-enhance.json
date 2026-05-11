@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/image-apps-v2/portrait-enhance",
+  "name": "Portrait Enhance",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Enhance and refine portrait photos with improved clarity and detail.",
+  "status": "active",
+  "release_date": "2025-09-18",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/image-apps-v2/portrait-enhance",
+  "tagline": "Enhance and refine portrait photos with improved clarity and detail.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "4ed20d66",
+    "description": "bdf39c44",
+    "status": "379ac110",
+    "release_date": "ae10afe6",
+    "model_type": "db8857fe",
+    "page_url": "686111ce",
+    "tagline": "bdf39c44",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

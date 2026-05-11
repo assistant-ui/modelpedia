@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/gemini-3.1-flash-image-preview",
+  "name": "Gemini 3.1 Flash Image Preview",
+  "created_by": "fal",
+  "source": "official",
+  "family": "gemini-3.1",
+  "description": "Gemini 3.1 Flash Image (a.k.a Nano Banana 2) is Google's new state-of-the-art fast image generation and editing model",
+  "status": "active",
+  "release_date": "2026-02-26",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/gemini-3.1-flash-image-preview",
+  "tagline": "Gemini 3.1 Flash Image (a.k.a Nano Banana 2) is Google's new state-of-the-art fast image generation and editing model",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "4fbca9ea",
+    "family": "ea4a1a23",
+    "description": "3bbd394b",
+    "status": "379ac110",
+    "release_date": "8be75473",
+    "model_type": "db8857fe",
+    "page_url": "901c1cd1",
+    "tagline": "3bbd394b",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

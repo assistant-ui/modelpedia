@@ -1,0 +1,42 @@
+{
+  "id": "stable-cascade",
+  "name": "Stable Cascade",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Cascade is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-02-06",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-cascade",
+  "open_weight": true,
+  "tagline": "Stable Cascade is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 13856,
+  "last_modified": "2024-03-16",
+  "_generated": {
+    "name": "e3c7218e",
+    "description": "6057b7a4",
+    "status": "379ac110",
+    "release_date": "06ea4751",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "c11bfc1e",
+    "open_weight": "b326b506",
+    "tagline": "6057b7a4",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "076db405",
+    "last_modified": "ab6420da"
+  },
+  "last_updated": "2026-05-11"
+}

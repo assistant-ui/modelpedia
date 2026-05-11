@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/onereward",
+  "name": "Onereward",
+  "created_by": "fal",
+  "source": "official",
+  "description": "OneReward is a finetuned version of Flux 1.0 Fill with intelligent editing capabilities.",
+  "status": "active",
+  "release_date": "2026-03-05",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/onereward",
+  "tagline": "OneReward is a finetuned version of Flux 1.0 Fill with intelligent editing capabilities.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-03-05",
+  "_generated": {
+    "name": "516d43c0",
+    "description": "fb88006a",
+    "status": "379ac110",
+    "release_date": "e6626ce2",
+    "model_type": "db8857fe",
+    "page_url": "f4c5fa68",
+    "tagline": "fb88006a",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "e6626ce2"
+  },
+  "last_updated": "2026-05-11"
+}

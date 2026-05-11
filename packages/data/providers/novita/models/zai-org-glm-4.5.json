@@ -1,0 +1,46 @@
+{
+  "id": "zai-org/glm-4.5",
+  "name": "GLM-4.5",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-4.5",
+  "description": "GLM-4.5 Series Models are foundation models specifically engineered for intelligent agents.",
+  "status": "active",
+  "release_date": "2025-07-28",
+  "context_window": 131072,
+  "max_output_tokens": 98304,
+  "model_type": "chat",
+  "tagline": "GLM-4.5 Series Models are foundation models specifically engineered for intelligent agents.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 2.2
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9ddeed20",
+    "family": "e8ea1e1e",
+    "description": "d85a8245",
+    "status": "379ac110",
+    "release_date": "8ef4ed35",
+    "context_window": "f7de594e",
+    "max_output_tokens": "79cef9cc",
+    "model_type": "d669f408",
+    "tagline": "d85a8245",
+    "capabilities": "3d69c795",
+    "modalities": "68e53d93",
+    "pricing": "71298526",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

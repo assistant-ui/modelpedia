@@ -1,0 +1,42 @@
+{
+  "id": "zai-org/glm-4.5-air",
+  "name": "zai-org/glm-4.5-air",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-4.5",
+  "status": "active",
+  "release_date": "2025-10-13",
+  "context_window": 131072,
+  "max_output_tokens": 98304,
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.13,
+    "output": 0.85
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2d94e5cc",
+    "family": "e8ea1e1e",
+    "status": "379ac110",
+    "release_date": "a69d3e71",
+    "context_window": "f7de594e",
+    "max_output_tokens": "79cef9cc",
+    "model_type": "d669f408",
+    "capabilities": "3d69c795",
+    "modalities": "68e53d93",
+    "pricing": "1ae6e7a1",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/heygen/avatar3/digital-twin",
+  "name": "Heygen",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Heygen Avatar V3 Model for Digital Twin",
+  "status": "active",
+  "release_date": "2026-02-23",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/heygen/avatar3/digital-twin",
+  "tagline": "Heygen Avatar V3 Model for Digital Twin",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "64ab7060",
+    "description": "c28fde6f",
+    "status": "379ac110",
+    "release_date": "f319afd9",
+    "model_type": "4d1b75ca",
+    "page_url": "a933e5d2",
+    "tagline": "c28fde6f",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

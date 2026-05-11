@@ -1,0 +1,46 @@
+{
+  "id": "meta-llama/llama-3.1-8b-instruct",
+  "name": "Llama 3.1 8B Instruct",
+  "created_by": "meta",
+  "source": "official",
+  "family": "llama-3.1",
+  "description": "Meta's latest class of models, Llama 3.1, launched with a variety of sizes and configurations.",
+  "status": "active",
+  "release_date": "2024-07-24",
+  "context_window": 16384,
+  "max_output_tokens": 16384,
+  "model_type": "chat",
+  "parameters": 8,
+  "tagline": "Meta's latest class of models, Llama 3.1, launched with a variety of sizes and configurations.",
+  "capabilities": {
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.02,
+    "output": 0.05
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "0d0e8cef",
+    "family": "83ec32db",
+    "description": "2a7966be",
+    "status": "379ac110",
+    "release_date": "c01007e5",
+    "context_window": "c76fe1d8",
+    "max_output_tokens": "c76fe1d8",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "tagline": "2a7966be",
+    "capabilities": "6c099667",
+    "modalities": "68e53d93",
+    "pricing": "7ae1732c",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

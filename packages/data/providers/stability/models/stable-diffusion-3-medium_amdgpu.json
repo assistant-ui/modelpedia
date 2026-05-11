@@ -1,0 +1,42 @@
+{
+  "id": "stable-diffusion-3-medium_amdgpu",
+  "name": "Stable Diffusion 3 Medium Amdgpu",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Diffusion 3 Medium Amdgpu is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2025-02-28",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium_amdgpu",
+  "open_weight": true,
+  "tagline": "Stable Diffusion 3 Medium Amdgpu is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 0,
+  "last_modified": "2025-07-16",
+  "_generated": {
+    "name": "3cd8c0ee",
+    "description": "9bd06a43",
+    "status": "379ac110",
+    "release_date": "e33ac46b",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "80b9dd31",
+    "open_weight": "b326b506",
+    "tagline": "9bd06a43",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "cfcd2084",
+    "last_modified": "a426f3fc"
+  },
+  "last_updated": "2026-05-11"
+}

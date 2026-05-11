@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/smart-turn",
+  "name": "Pipecat's Smart Turn model",
+  "created_by": "fal",
+  "source": "official",
+  "description": "An open source, community-driven and native audio turn detection model by Pipecat AI.",
+  "status": "active",
+  "release_date": "2025-04-21",
+  "model_type": "transcription",
+  "page_url": "https://fal.run/fal-ai/smart-turn",
+  "tagline": "An open source, community-driven and native audio turn detection model by Pipecat AI.",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "eac250b3",
+    "description": "0172c861",
+    "status": "379ac110",
+    "release_date": "0c85e562",
+    "model_type": "5e12d29a",
+    "page_url": "13cf210e",
+    "tagline": "0172c861",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

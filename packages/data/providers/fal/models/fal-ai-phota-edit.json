@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/phota/edit",
+  "name": "Phota",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Phota's model enables personalized photo editing, preserving identity while erasing distractions seamlessly.",
+  "status": "active",
+  "release_date": "2026-03-26",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/phota/edit",
+  "tagline": "Phota's model enables personalized photo editing, preserving identity while erasing distractions seamlessly.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "38a7b778",
+    "description": "06bdb06f",
+    "status": "379ac110",
+    "release_date": "7f514a88",
+    "model_type": "db8857fe",
+    "page_url": "7a5fe59e",
+    "tagline": "06bdb06f",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

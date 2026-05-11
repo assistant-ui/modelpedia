@@ -1,0 +1,32 @@
+{
+  "id": "fal-ai/wan-vace-1-3b",
+  "name": "Wan Vace 1 3b",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Vace a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
+  "status": "active",
+  "release_date": "2025-06-04",
+  "model_type": "other",
+  "parameters": 3,
+  "page_url": "https://fal.run/fal-ai/wan-vace-1-3b",
+  "tagline": "Vace a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "cbaf5eaa",
+    "family": "2aadc089",
+    "description": "44f8cbd6",
+    "status": "379ac110",
+    "release_date": "1876b5d8",
+    "model_type": "ddb0b7bc",
+    "parameters": "eccbc87e",
+    "page_url": "a7c867c2",
+    "tagline": "44f8cbd6",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

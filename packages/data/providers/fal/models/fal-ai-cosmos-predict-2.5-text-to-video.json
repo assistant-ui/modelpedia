@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/cosmos-predict-2.5/text-to-video",
+  "name": "Cosmos Predict 2.5 2B",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate video from text using NVIDIA's 2B Cosmos Post-Trained Model",
+  "status": "active",
+  "release_date": "2026-02-24",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/cosmos-predict-2.5/text-to-video",
+  "tagline": "Generate video from text using NVIDIA's 2B Cosmos Post-Trained Model",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "f920597d",
+    "description": "882e0cea",
+    "status": "379ac110",
+    "release_date": "2ad07f55",
+    "model_type": "4d1b75ca",
+    "page_url": "0e1f1c35",
+    "tagline": "882e0cea",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

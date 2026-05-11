@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/uso",
+  "name": "Uso",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Use USO to perform subject driven generations using reference image.",
+  "status": "active",
+  "release_date": "2025-08-30",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/uso",
+  "tagline": "Use USO to perform subject driven generations using reference image.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "b67fbdd2",
+    "description": "e00cecc0",
+    "status": "379ac110",
+    "release_date": "0243b824",
+    "model_type": "db8857fe",
+    "page_url": "a9bb1f62",
+    "tagline": "e00cecc0",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

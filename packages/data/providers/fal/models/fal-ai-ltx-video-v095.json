@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/ltx-video-v095",
+  "name": "LTX Video-0.9.5",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate videos from prompts using LTX Video-0.9.5",
+  "status": "active",
+  "release_date": "2025-03-05",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/ltx-video-v095",
+  "tagline": "Generate videos from prompts using LTX Video-0.9.5",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "a824c91e",
+    "description": "3eda7936",
+    "status": "379ac110",
+    "release_date": "a5e693e5",
+    "model_type": "4d1b75ca",
+    "page_url": "1b5453c4",
+    "tagline": "3eda7936",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

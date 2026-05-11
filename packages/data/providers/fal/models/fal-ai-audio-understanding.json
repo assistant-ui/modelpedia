@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/audio-understanding",
+  "name": "Audio Understanding",
+  "created_by": "fal",
+  "source": "official",
+  "description": "A audio understanding model to analyze audio content and answer questions about what's happening in the audio based on user prompts.",
+  "status": "active",
+  "release_date": "2025-10-24",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/audio-understanding",
+  "tagline": "A audio understanding model to analyze audio content and answer questions about what's happening in the audio based on user prompts.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "7f999c1e",
+    "description": "1b6edb21",
+    "status": "379ac110",
+    "release_date": "9814fbc4",
+    "model_type": "ddb0b7bc",
+    "page_url": "fe9ab93b",
+    "tagline": "1b6edb21",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

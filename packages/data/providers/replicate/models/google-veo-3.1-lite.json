@@ -1,0 +1,25 @@
+{
+  "id": "google/veo-3.1-lite",
+  "name": "Veo 3.1 Lite",
+  "created_by": "google",
+  "source": "official",
+  "family": "veo-3.1",
+  "status": "active",
+  "model_type": "video",
+  "page_url": "https://replicate.com/google/veo-3.1-lite",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "8aa42d23",
+    "family": "0fa3bcca",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "page_url": "cc1d3297",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-05-11"
+}

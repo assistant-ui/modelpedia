@@ -1,0 +1,15 @@
+{
+  "id": "voyage",
+  "name": "Voyage AI",
+  "region": "US",
+  "url": "https://www.voyageai.com",
+  "api_url": "https://api.voyageai.com/v1",
+  "docs_url": "https://docs.voyageai.com",
+  "pricing_url": "https://docs.voyageai.com/docs/pricing",
+  "description": "Embedding and reranking model provider for retrieval, search, and RAG workloads.",
+  "type": "direct",
+  "models_url": "https://docs.voyageai.com/docs/embeddings",
+  "openai_compatible": false,
+  "free_tier": true,
+  "blog_url": "https://blog.voyageai.com"
+}

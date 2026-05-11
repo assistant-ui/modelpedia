@@ -1,0 +1,27 @@
+{
+  "id": "falcons-ai/nsfw_image_detection",
+  "name": "Nsfw Image Detection",
+  "created_by": "falcons-ai",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/falcons-ai/nsfw_image_detection",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "2f54c52b",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "acba9d13",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

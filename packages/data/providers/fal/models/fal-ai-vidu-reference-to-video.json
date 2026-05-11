@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/vidu/reference-to-video",
+  "name": "Vidu Reference to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Vidu Reference to Video creates videos by using a reference images and combining them with a prompt.",
+  "status": "active",
+  "release_date": "2025-03-12",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/vidu/reference-to-video",
+  "tagline": "Vidu Reference to Video creates videos by using a reference images and combining them with a prompt.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-27",
+  "_generated": {
+    "name": "0e62b04d",
+    "description": "558d0994",
+    "status": "379ac110",
+    "release_date": "826a3ce0",
+    "model_type": "4d1b75ca",
+    "page_url": "7c7f1471",
+    "tagline": "558d0994",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "79a25cd1"
+  },
+  "last_updated": "2026-05-11"
+}

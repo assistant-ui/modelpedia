@@ -1,0 +1,23 @@
+{
+  "id": "google/upscaler",
+  "name": "Upscaler",
+  "created_by": "google",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/google/upscaler",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "7db54cc4",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "1bce5de0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

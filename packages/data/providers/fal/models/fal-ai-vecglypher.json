@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/vecglypher",
+  "name": "Vecglypher",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Vector font generation with VecGlypher.",
+  "status": "active",
+  "release_date": "2026-03-10",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/vecglypher",
+  "tagline": "Vector font generation with VecGlypher.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-03-10",
+  "_generated": {
+    "name": "3190015d",
+    "description": "c604eb86",
+    "status": "379ac110",
+    "release_date": "49946764",
+    "model_type": "db8857fe",
+    "page_url": "6758a5b0",
+    "tagline": "c604eb86",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "49946764"
+  },
+  "last_updated": "2026-05-11"
+}

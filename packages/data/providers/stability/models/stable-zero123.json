@@ -1,0 +1,30 @@
+{
+  "id": "stable-zero123",
+  "name": "Stable Zero123",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Zero123 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-12-08",
+  "model_type": "other",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-zero123",
+  "open_weight": true,
+  "tagline": "Stable Zero123 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "huggingface_downloads": 0,
+  "last_modified": "2024-07-10",
+  "_generated": {
+    "name": "b42524ea",
+    "description": "5a44b04e",
+    "status": "379ac110",
+    "release_date": "49a99004",
+    "model_type": "ddb0b7bc",
+    "license": "ddb0b7bc",
+    "page_url": "7cbd8bce",
+    "open_weight": "b326b506",
+    "tagline": "5a44b04e",
+    "huggingface_downloads": "cfcd2084",
+    "last_modified": "2d84b9f9"
+  },
+  "last_updated": "2026-05-11"
+}

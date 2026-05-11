@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/meshy/v6-preview/text-to-3d",
+  "name": "Meshy 6 Preview",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Meshy-6-Preview is the latest model from Meshy.",
+  "status": "active",
+  "release_date": "2025-10-06",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/meshy/v6-preview/text-to-3d",
+  "tagline": "Meshy-6-Preview is the latest model from Meshy.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "0a0337bf",
+    "description": "2e0ff3d6",
+    "status": "379ac110",
+    "release_date": "17ddf71c",
+    "model_type": "ddb0b7bc",
+    "page_url": "4120abec",
+    "tagline": "2e0ff3d6",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

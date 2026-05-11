@@ -1,0 +1,23 @@
+{
+  "id": "arielreplicate/robust_video_matting",
+  "name": "Robust Video Matting",
+  "created_by": "arielreplicate",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "page_url": "https://replicate.com/arielreplicate/robust_video_matting",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "d81d82c6",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "page_url": "9efc3701",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-05-11"
+}

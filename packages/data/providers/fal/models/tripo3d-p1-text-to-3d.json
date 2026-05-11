@@ -1,0 +1,24 @@
+{
+  "id": "tripo3d/p1/text-to-3d",
+  "name": "Tripo P1 Text to 3D",
+  "created_by": "tripo3d",
+  "source": "official",
+  "description": "Generate 3D models from text descriptions using Tripo P1.",
+  "status": "active",
+  "release_date": "2026-04-07",
+  "model_type": "other",
+  "page_url": "https://fal.run/tripo3d/p1/text-to-3d",
+  "tagline": "Generate 3D models from text descriptions using Tripo P1.",
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "727cdc7b",
+    "description": "07c63b8a",
+    "status": "379ac110",
+    "release_date": "3eaa38a6",
+    "model_type": "ddb0b7bc",
+    "page_url": "7cfe66b3",
+    "tagline": "07c63b8a",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

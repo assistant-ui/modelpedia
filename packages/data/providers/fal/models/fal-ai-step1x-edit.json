@@ -1,0 +1,38 @@
+{
+  "id": "fal-ai/step1x-edit",
+  "name": "Step1X Edit",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Step1X-Edit transforms your photos with simple instructions into stunning, professional-quality edits—rivaling top proprietary tools.",
+  "status": "active",
+  "release_date": "2025-04-25",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/step1x-edit",
+  "tagline": "Step1X-Edit transforms your photos with simple instructions into stunning, professional-quality edits—rivaling top proprietary tools.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "tools": ["function_calling"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "15daffec",
+    "description": "825c237c",
+    "status": "379ac110",
+    "release_date": "258778b6",
+    "model_type": "db8857fe",
+    "page_url": "e5b22a79",
+    "tagline": "825c237c",
+    "capabilities": "ed0d180f",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "tools": "f0c1dc7e",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

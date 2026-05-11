@@ -1,0 +1,29 @@
+{
+  "id": "lucataco/deepseek-ocr",
+  "name": "Deepseek Ocr",
+  "created_by": "lucataco",
+  "source": "official",
+  "family": "deepseek",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://replicate.com/lucataco/deepseek-ocr",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "4b2ea731",
+    "family": "4b81b92d",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "6bf980b2",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

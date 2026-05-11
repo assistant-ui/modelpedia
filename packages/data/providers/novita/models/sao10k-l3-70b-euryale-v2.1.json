@@ -1,0 +1,45 @@
+{
+  "id": "sao10k/l3-70b-euryale-v2.1",
+  "name": "L3 70B Euryale V2.1\t",
+  "created_by": "sao10k",
+  "source": "official",
+  "description": "The uncensored llama3 model is a powerhouse of creativity, excelling in both roleplay and story writing.",
+  "status": "active",
+  "release_date": "2024-06-18",
+  "context_window": 8192,
+  "max_output_tokens": 8192,
+  "model_type": "chat",
+  "parameters": 70,
+  "tagline": "The uncensored llama3 model is a powerhouse of creativity, excelling in both roleplay and story writing.",
+  "capabilities": {
+    "tool_call": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.48,
+    "output": 1.48
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e21f04c3",
+    "description": "86c66dd9",
+    "status": "379ac110",
+    "release_date": "867b0729",
+    "context_window": "77441296",
+    "max_output_tokens": "77441296",
+    "model_type": "d669f408",
+    "parameters": "7cbbc409",
+    "tagline": "86c66dd9",
+    "capabilities": "43d67186",
+    "modalities": "68e53d93",
+    "pricing": "00195da4",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

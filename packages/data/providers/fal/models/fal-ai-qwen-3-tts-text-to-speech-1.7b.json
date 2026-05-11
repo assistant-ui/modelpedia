@@ -1,0 +1,33 @@
+{
+  "id": "fal-ai/qwen-3-tts/text-to-speech/1.7b",
+  "name": "Qwen 3 TTS - Text to Speech [1.7B]",
+  "created_by": "fal",
+  "source": "official",
+  "family": "qwen",
+  "description": "Bring speech to your texts using Qwen3-TTS Custom-Voice model with pre-trained voices or use your custom voice with Qwen3-TTS Clone Voice model",
+  "status": "active",
+  "release_date": "2026-01-26",
+  "model_type": "tts",
+  "page_url": "https://fal.run/fal-ai/qwen-3-tts/text-to-speech/1.7b",
+  "tagline": "Bring speech to your texts using Qwen3-TTS Custom-Voice model with pre-trained voices or use your custom voice with Qwen3-TTS Clone Voice model",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "214aafbb",
+    "family": "a3af76f3",
+    "description": "12d606b6",
+    "status": "379ac110",
+    "release_date": "5c252aee",
+    "model_type": "4e16a2cf",
+    "page_url": "d2ac0a82",
+    "tagline": "12d606b6",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

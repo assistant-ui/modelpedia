@@ -1,0 +1,44 @@
+{
+  "id": "stablecode-instruct-alpha-3b",
+  "name": "Stablecode Instruct Alpha 3b",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stablecode Instruct Alpha 3b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-08-07",
+  "model_type": "chat",
+  "license": "other",
+  "parameters": 3,
+  "page_url": "https://huggingface.co/stabilityai/stablecode-instruct-alpha-3b",
+  "open_weight": true,
+  "tagline": "Stablecode Instruct Alpha 3b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 27,
+  "last_modified": "2023-08-08",
+  "_generated": {
+    "name": "5cc49a2b",
+    "description": "7783c558",
+    "status": "379ac110",
+    "release_date": "a8a72f8e",
+    "model_type": "d669f408",
+    "license": "ddb0b7bc",
+    "parameters": "eccbc87e",
+    "page_url": "974967ce",
+    "open_weight": "b326b506",
+    "tagline": "7783c558",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "02e74f10",
+    "last_modified": "a4b79bfa"
+  },
+  "last_updated": "2026-05-11"
+}

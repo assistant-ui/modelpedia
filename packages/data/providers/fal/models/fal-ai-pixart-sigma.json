@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/pixart-sigma",
+  "name": "PixArt-Σ",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation",
+  "status": "active",
+  "release_date": "2024-08-01",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/pixart-sigma",
+  "tagline": "Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "494f9d77",
+    "description": "874b493a",
+    "status": "379ac110",
+    "release_date": "d616039b",
+    "model_type": "db8857fe",
+    "page_url": "9a30cbc5",
+    "tagline": "874b493a",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/physic-edit",
+  "name": "Physic Edit",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Physics-aware image editing with PhysicEdit.",
+  "status": "active",
+  "release_date": "2026-03-12",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/physic-edit",
+  "tagline": "Physics-aware image editing with PhysicEdit.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-03-12",
+  "_generated": {
+    "name": "542e5f5f",
+    "description": "b9d7ab91",
+    "status": "379ac110",
+    "release_date": "96ba6f81",
+    "model_type": "db8857fe",
+    "page_url": "122bed56",
+    "tagline": "b9d7ab91",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "96ba6f81"
+  },
+  "last_updated": "2026-05-11"
+}

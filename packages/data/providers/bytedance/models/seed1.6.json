@@ -1,0 +1,33 @@
+{
+  "id": "seed1.6",
+  "name": "Seed1.6",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Seed1.6 integrates multimodal capabilities, with \"adaptive thinking\" balancing model performance with reasoning capability.",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://seed.bytedance.com/en/seed1_6",
+  "tagline": "Seed1.6 integrates multimodal capabilities, with \"adaptive thinking\" balancing model performance with reasoning capability.",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "cfd1b04d",
+    "description": "3d2e8145",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "e203ed00",
+    "tagline": "3d2e8145",
+    "capabilities": "09b640f2",
+    "modalities": "6399757e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

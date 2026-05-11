@@ -1,0 +1,24 @@
+{
+  "id": "bria/video/increase-resolution",
+  "name": "Video",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Upscale videos up to 8K output resolution.",
+  "status": "active",
+  "release_date": "2025-08-26",
+  "model_type": "other",
+  "page_url": "https://fal.run/bria/video/increase-resolution",
+  "tagline": "Upscale videos up to 8K output resolution.",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "567b9158",
+    "description": "55a12323",
+    "status": "379ac110",
+    "release_date": "5b0c513c",
+    "model_type": "ddb0b7bc",
+    "page_url": "d1f6fc14",
+    "tagline": "55a12323",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

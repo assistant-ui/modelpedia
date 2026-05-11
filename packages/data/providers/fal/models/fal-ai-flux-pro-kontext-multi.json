@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-pro/kontext/multi",
+  "name": "FLUX.1 Kontext [pro]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Experimental version of FLUX.1 Kontext [pro] with multi image handling capabilities",
+  "status": "active",
+  "release_date": "2025-05-29",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-pro/kontext/multi",
+  "tagline": "Experimental version of FLUX.1 Kontext [pro] with multi image handling capabilities",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "861a25f0",
+    "description": "34960b26",
+    "status": "379ac110",
+    "release_date": "b2e64734",
+    "model_type": "db8857fe",
+    "page_url": "f155a3e5",
+    "tagline": "34960b26",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

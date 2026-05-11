@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/cohere-transcribe",
+  "name": "Cohere Transcribe",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Cohere Transcribe turns your business audio into accurate text, ready for search, analytics, and automation",
+  "status": "active",
+  "release_date": "2026-04-22",
+  "model_type": "transcription",
+  "page_url": "https://fal.run/fal-ai/cohere-transcribe",
+  "tagline": "Cohere Transcribe turns your business audio into accurate text, ready for search, analytics, and automation",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "42e8d17a",
+    "description": "124b03bc",
+    "status": "379ac110",
+    "release_date": "c48b287d",
+    "model_type": "5e12d29a",
+    "page_url": "e496fe00",
+    "tagline": "124b03bc",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

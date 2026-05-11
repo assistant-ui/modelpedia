@@ -1,0 +1,16 @@
+{
+  "id": "elevenlabs/music",
+  "name": "Music",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "status": "active",
+  "model_type": "audio",
+  "page_url": "https://replicate.com/elevenlabs/music",
+  "_generated": {
+    "name": "5b7fd1ce",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "page_url": "8b971614"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "alibaba/happy-horse/image-to-video",
+  "name": "Happy Horse",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Alibaba's #1-ranked Happy Horse 1.0 — generate 1080p video with synchronized native audio and multilingual lip-sync from text prompts or images.",
+  "status": "active",
+  "release_date": "2026-04-24",
+  "model_type": "video",
+  "page_url": "https://fal.run/alibaba/happy-horse/image-to-video",
+  "tagline": "Alibaba's #1-ranked Happy Horse 1.0 — generate 1080p video with synchronized native audio and multilingual lip-sync from text prompts or images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "25024ca9",
+    "description": "f0700085",
+    "status": "379ac110",
+    "release_date": "173d2bb2",
+    "model_type": "4d1b75ca",
+    "page_url": "249fa9d1",
+    "tagline": "f0700085",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

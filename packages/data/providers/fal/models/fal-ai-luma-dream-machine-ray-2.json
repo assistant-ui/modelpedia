@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/luma-dream-machine/ray-2",
+  "name": "Luma Ray 2",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Ray2 is a large-scale video generative model capable of creating realistic visuals with natural, coherent motion.",
+  "status": "active",
+  "release_date": "2025-01-27",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/luma-dream-machine/ray-2",
+  "tagline": "Ray2 is a large-scale video generative model capable of creating realistic visuals with natural, coherent motion.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "2f095106",
+    "description": "3d37b83d",
+    "status": "379ac110",
+    "release_date": "16f4b872",
+    "model_type": "4d1b75ca",
+    "page_url": "da67a47a",
+    "tagline": "3d37b83d",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

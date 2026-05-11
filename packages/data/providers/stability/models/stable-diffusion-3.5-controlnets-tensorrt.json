@@ -1,0 +1,42 @@
+{
+  "id": "stable-diffusion-3.5-controlnets-tensorrt",
+  "name": "Stable Diffusion 3.5 Controlnets Tensorrt",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Diffusion 3.5 Controlnets Tensorrt is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2025-08-07",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-controlnets-tensorrt",
+  "open_weight": true,
+  "tagline": "Stable Diffusion 3.5 Controlnets Tensorrt is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 57,
+  "last_modified": "2025-10-20",
+  "_generated": {
+    "name": "8d199e74",
+    "description": "d4db1578",
+    "status": "379ac110",
+    "release_date": "79c30d0c",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "11825c63",
+    "open_weight": "b326b506",
+    "tagline": "d4db1578",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "72b32a1f",
+    "last_modified": "ba1efbec"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/dubbing",
+  "name": "Dubbing",
+  "created_by": "fal",
+  "source": "official",
+  "description": "This endpoint delivers seamlessly localized videos by generating lip-synced dubs in multiple languages, ensuring natural and immersive multilingual experiences",
+  "status": "active",
+  "release_date": "2024-12-20",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/dubbing",
+  "tagline": "This endpoint delivers seamlessly localized videos by generating lip-synced dubs in multiple languages, ensuring natural and immersive multilingual experiences",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "e49fbd71",
+    "description": "2fd645db",
+    "status": "379ac110",
+    "release_date": "31efff74",
+    "model_type": "ddb0b7bc",
+    "page_url": "94f94a30",
+    "tagline": "2fd645db",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

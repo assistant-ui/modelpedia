@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/triposr",
+  "name": "TripoSR",
+  "created_by": "fal",
+  "source": "official",
+  "description": "State of the art Image to 3D Object generation",
+  "status": "active",
+  "release_date": "2024-01-30",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/triposr",
+  "tagline": "State of the art Image to 3D Object generation",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "deff3bf3",
+    "description": "55590d35",
+    "status": "379ac110",
+    "release_date": "457fab86",
+    "model_type": "ddb0b7bc",
+    "page_url": "226413b2",
+    "tagline": "55590d35",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

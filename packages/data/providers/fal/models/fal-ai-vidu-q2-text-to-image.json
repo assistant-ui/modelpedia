@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/vidu/q2/text-to-image",
+  "name": "Vidu",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Use vidu Text-to-Image to turn your prompts into reality.",
+  "status": "active",
+  "release_date": "2025-12-02",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/vidu/q2/text-to-image",
+  "tagline": "Use vidu Text-to-Image to turn your prompts into reality.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-27",
+  "_generated": {
+    "name": "30f11e01",
+    "description": "1d70bcdd",
+    "status": "379ac110",
+    "release_date": "75f289bd",
+    "model_type": "db8857fe",
+    "page_url": "f6c092cb",
+    "tagline": "1d70bcdd",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "79a25cd1"
+  },
+  "last_updated": "2026-05-11"
+}

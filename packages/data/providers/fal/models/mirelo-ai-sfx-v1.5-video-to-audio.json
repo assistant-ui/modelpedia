@@ -1,0 +1,24 @@
+{
+  "id": "mirelo-ai/sfx-v1.5/video-to-audio",
+  "name": "Mirelo SFX V1.5",
+  "created_by": "mirelo-ai",
+  "source": "official",
+  "description": "Generate synced sounds for any video, and return the new sound track (like MMAudio)",
+  "status": "active",
+  "release_date": "2025-10-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/mirelo-ai/sfx-v1.5/video-to-audio",
+  "tagline": "Generate synced sounds for any video, and return the new sound track (like MMAudio)",
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "b057aadf",
+    "description": "4adbddad",
+    "status": "379ac110",
+    "release_date": "3c659a30",
+    "model_type": "ddb0b7bc",
+    "page_url": "df896a00",
+    "tagline": "4adbddad",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

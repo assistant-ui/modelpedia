@@ -1,0 +1,37 @@
+{
+  "id": "bria/fibo-edit/restyle",
+  "name": "Fibo Edit [Restyle]",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Transforms images into distinct artistic styles using curated, production-grade style mappings",
+  "status": "active",
+  "release_date": "2026-01-20",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/fibo-edit/restyle",
+  "tagline": "Transforms images into distinct artistic styles using curated, production-grade style mappings",
+  "capabilities": {
+    "vision": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "3d2fdb54",
+    "description": "966f0420",
+    "status": "379ac110",
+    "release_date": "76120ca1",
+    "model_type": "db8857fe",
+    "page_url": "f0f2557f",
+    "tagline": "966f0420",
+    "capabilities": "42538baa",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

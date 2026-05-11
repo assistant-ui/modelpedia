@@ -1,0 +1,23 @@
+{
+  "id": "philz1337x/clarity-pro-upscaler",
+  "name": "Clarity Pro Upscaler",
+  "created_by": "philz1337x",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/philz1337x/clarity-pro-upscaler",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "9809726b",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "7a3e9b71",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

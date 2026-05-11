@@ -1,0 +1,44 @@
+{
+  "id": "japanese-stablelm-base-beta-70b",
+  "name": "Japanese Stablelm Base Beta 70b",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Japanese Stablelm Base Beta 70b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-10-30",
+  "model_type": "chat",
+  "license": "llama2",
+  "parameters": 70,
+  "page_url": "https://huggingface.co/stabilityai/japanese-stablelm-base-beta-70b",
+  "open_weight": true,
+  "tagline": "Japanese Stablelm Base Beta 70b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 259,
+  "last_modified": "2023-12-19",
+  "_generated": {
+    "name": "d4722d0b",
+    "description": "ac62e051",
+    "status": "379ac110",
+    "release_date": "ca1bf8a0",
+    "model_type": "d669f408",
+    "license": "5e554d0d",
+    "parameters": "7cbbc409",
+    "page_url": "bdb3f367",
+    "open_weight": "b326b506",
+    "tagline": "ac62e051",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "cfa0860e",
+    "last_modified": "306375dc"
+  },
+  "last_updated": "2026-05-11"
+}

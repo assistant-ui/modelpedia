@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/fast-svd/text-to-video",
+  "name": "Stable Video Diffusion",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate short video clips from your prompts using SVD v1.1",
+  "status": "active",
+  "release_date": "2024-09-16",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/fast-svd/text-to-video",
+  "tagline": "Generate short video clips from your prompts using SVD v1.1",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "e954ba43",
+    "description": "ebb6f2f2",
+    "status": "379ac110",
+    "release_date": "aec2dc94",
+    "model_type": "4d1b75ca",
+    "page_url": "4acf87e9",
+    "tagline": "ebb6f2f2",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

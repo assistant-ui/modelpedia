@@ -1,0 +1,15 @@
+{
+  "id": "novita",
+  "name": "Novita AI",
+  "region": "US",
+  "url": "https://novita.ai",
+  "api_url": "https://api.novita.ai/v3/openai",
+  "docs_url": "https://docs.novita.ai",
+  "pricing_url": "https://novita.ai/pricing",
+  "description": "Cloud AI inference platform offering OpenAI-compatible access to language, image, video, and audio models.",
+  "type": "cloud",
+  "models_url": "https://api.novita.ai/v3/openai/models",
+  "openai_compatible": true,
+  "free_tier": false,
+  "twitter_url": "https://x.com/NovitaAI"
+}

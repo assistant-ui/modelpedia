@@ -1,0 +1,37 @@
+{
+  "id": "paddlepaddle/paddleocr-vl",
+  "name": "PaddleOCR-VL",
+  "created_by": "paddlepaddle",
+  "source": "official",
+  "status": "active",
+  "release_date": "2025-10-22",
+  "context_window": 16384,
+  "max_output_tokens": 16384,
+  "model_type": "chat",
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.02,
+    "output": 0.02
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "761f54c3",
+    "status": "379ac110",
+    "release_date": "b0368c63",
+    "context_window": "c76fe1d8",
+    "max_output_tokens": "c76fe1d8",
+    "model_type": "d669f408",
+    "capabilities": "5f5c7516",
+    "modalities": "6399757e",
+    "pricing": "70332ab4",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

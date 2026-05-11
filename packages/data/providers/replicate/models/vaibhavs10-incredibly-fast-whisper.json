@@ -1,0 +1,23 @@
+{
+  "id": "vaibhavs10/incredibly-fast-whisper",
+  "name": "Incredibly Fast Whisper",
+  "created_by": "vaibhavs10",
+  "source": "official",
+  "status": "active",
+  "model_type": "transcription",
+  "page_url": "https://replicate.com/vaibhavs10/incredibly-fast-whisper",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "_generated": {
+    "name": "ae53aca3",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "page_url": "9db7ed96",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0"
+  },
+  "last_updated": "2026-05-11"
+}

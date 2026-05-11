@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ideogram/v3/generate-transparent",
+  "name": "Ideogram Transparent",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate images with transparent backgrounds using Ideogram Transparent model",
+  "status": "active",
+  "release_date": "2026-04-07",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/ideogram/v3/generate-transparent",
+  "tagline": "Generate images with transparent backgrounds using Ideogram Transparent model",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "b7e5c225",
+    "description": "ec38f394",
+    "status": "379ac110",
+    "release_date": "3eaa38a6",
+    "model_type": "db8857fe",
+    "page_url": "9f151a6a",
+    "tagline": "ec38f394",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

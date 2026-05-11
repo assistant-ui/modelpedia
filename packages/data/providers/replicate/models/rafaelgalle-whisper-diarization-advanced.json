@@ -1,0 +1,25 @@
+{
+  "id": "rafaelgalle/whisper-diarization-advanced",
+  "name": "Whisper Diarization Advanced",
+  "created_by": "rafaelgalle",
+  "source": "official",
+  "family": "whisper",
+  "status": "active",
+  "model_type": "transcription",
+  "page_url": "https://replicate.com/rafaelgalle/whisper-diarization-advanced",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "_generated": {
+    "name": "32fc8d81",
+    "family": "7fbc43e3",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "page_url": "e3cd7182",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0"
+  },
+  "last_updated": "2026-05-11"
+}

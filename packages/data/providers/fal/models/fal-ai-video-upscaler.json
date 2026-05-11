@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/video-upscaler",
+  "name": "Video Upscaler",
+  "created_by": "fal",
+  "source": "official",
+  "description": "The video upscaler endpoint uses RealESRGAN on each frame of the input video to upscale the video to a higher resolution.",
+  "status": "active",
+  "release_date": "2024-12-04",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/video-upscaler",
+  "tagline": "The video upscaler endpoint uses RealESRGAN on each frame of the input video to upscale the video to a higher resolution.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "fa490116",
+    "description": "5e89484f",
+    "status": "379ac110",
+    "release_date": "b1fa8211",
+    "model_type": "ddb0b7bc",
+    "page_url": "f6af7fb1",
+    "tagline": "5e89484f",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

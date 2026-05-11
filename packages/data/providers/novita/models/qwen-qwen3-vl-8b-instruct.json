@@ -1,0 +1,46 @@
+{
+  "id": "qwen/qwen3-vl-8b-instruct",
+  "name": "qwen/qwen3-vl-8b-instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "status": "active",
+  "release_date": "2025-10-17",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "parameters": 8,
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.08,
+    "output": 0.5
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "57b73e7a",
+    "family": "48c385a0",
+    "status": "379ac110",
+    "release_date": "a4555a92",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "capabilities": "eb5db45f",
+    "modalities": "6399757e",
+    "pricing": "afd8a196",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

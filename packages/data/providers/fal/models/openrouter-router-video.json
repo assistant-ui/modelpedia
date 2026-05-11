@@ -1,0 +1,28 @@
+{
+  "id": "openrouter/router/video",
+  "name": "OpenRouter [Video]",
+  "created_by": "openrouter",
+  "source": "official",
+  "description": "Run any video-capable LLM with fal.",
+  "status": "active",
+  "release_date": "2026-01-13",
+  "model_type": "other",
+  "page_url": "https://fal.run/openrouter/router/video",
+  "tagline": "Run any video-capable LLM with fal.",
+  "capabilities": {
+    "streaming": true
+  },
+  "last_seen_at": "2026-05-06",
+  "_generated": {
+    "name": "a1b1063d",
+    "description": "c2a8451e",
+    "status": "379ac110",
+    "release_date": "fbf285f7",
+    "model_type": "ddb0b7bc",
+    "page_url": "3a22d1a4",
+    "tagline": "c2a8451e",
+    "capabilities": "0fa77dc6",
+    "last_seen_at": "ad37623a"
+  },
+  "last_updated": "2026-05-11"
+}

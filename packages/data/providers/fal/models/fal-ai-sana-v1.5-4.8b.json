@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/sana/v1.5/4.8b",
+  "name": "Sana v1.5 4.8B",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Sana v1.5 4.8B is a powerful text-to-image model that generates ultra-high quality 4K images with remarkable detail.",
+  "status": "active",
+  "release_date": "2025-03-31",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/sana/v1.5/4.8b",
+  "tagline": "Sana v1.5 4.8B is a powerful text-to-image model that generates ultra-high quality 4K images with remarkable detail.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "70a794f2",
+    "description": "500ce481",
+    "status": "379ac110",
+    "release_date": "f54b55c5",
+    "model_type": "db8857fe",
+    "page_url": "f10c0187",
+    "tagline": "500ce481",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

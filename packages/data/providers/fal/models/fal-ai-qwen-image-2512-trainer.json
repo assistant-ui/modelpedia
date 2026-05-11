@@ -1,0 +1,30 @@
+{
+  "id": "fal-ai/qwen-image-2512-trainer",
+  "name": "Qwen Image 2512 Trainer",
+  "created_by": "fal",
+  "source": "official",
+  "family": "qwen",
+  "description": "Qwen Image 2512 LoRA training",
+  "status": "active",
+  "release_date": "2026-01-01",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/qwen-image-2512-trainer",
+  "tagline": "Qwen Image 2512 LoRA training",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "88cb6aad",
+    "family": "a3af76f3",
+    "description": "83b5d5a9",
+    "status": "379ac110",
+    "release_date": "cbf2bba0",
+    "model_type": "ddb0b7bc",
+    "page_url": "cdd9b7e1",
+    "tagline": "83b5d5a9",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

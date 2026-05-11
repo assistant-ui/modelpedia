@@ -1,0 +1,48 @@
+{
+  "id": "minimaxai/minimax-m1-80k",
+  "name": "MiniMax M1",
+  "created_by": "minimaxai",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax-M1: The World's First Open-Weight, Large-Scale Hybrid Attention Inference Model\n\nMiniMax-M1 adopts a Mixture of Experts (MoE) architecture and integrates the Flash Attention mechanism. The mod",
+  "status": "active",
+  "release_date": "2025-06-17",
+  "context_window": 1000000,
+  "max_output_tokens": 40000,
+  "model_type": "chat",
+  "tagline": "MiniMax-M1: The World's First Open-Weight, Large-Scale Hybrid Attention Inference Model\n\nMiniMax-M1 adopts a Mixture of Experts (MoE) architecture and integrates the Flash Attention mechanism. The mod",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.55,
+    "output": 2.2
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "82bc0f83",
+    "family": "c85916f0",
+    "description": "838cbaa4",
+    "status": "379ac110",
+    "release_date": "41e2691d",
+    "context_window": "8155bc54",
+    "max_output_tokens": "7c77f048",
+    "model_type": "d669f408",
+    "tagline": "838cbaa4",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "33e3f729",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

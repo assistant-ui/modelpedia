@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/fooocus/image-prompt",
+  "name": "Fooocus Image Prompt",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Default parameters with automated optimizations and quality improvements.",
+  "status": "active",
+  "release_date": "2024-02-13",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/fooocus/image-prompt",
+  "tagline": "Default parameters with automated optimizations and quality improvements.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "90b6bbbd",
+    "description": "9abacc46",
+    "status": "379ac110",
+    "release_date": "056ba89a",
+    "model_type": "db8857fe",
+    "page_url": "0970be78",
+    "tagline": "9abacc46",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

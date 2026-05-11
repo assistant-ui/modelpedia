@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ltx-2-19b/image-to-video",
+  "name": "LTX-2 19B",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate video with audio from images using LTX-2",
+  "status": "active",
+  "release_date": "2026-01-05",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/ltx-2-19b/image-to-video",
+  "tagline": "Generate video with audio from images using LTX-2",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "b59d8995",
+    "description": "27864a9c",
+    "status": "379ac110",
+    "release_date": "996ff37f",
+    "model_type": "4d1b75ca",
+    "page_url": "729d5824",
+    "tagline": "27864a9c",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

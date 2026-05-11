@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/evf-sam",
+  "name": "EVF-SAM2 Segmentation",
+  "created_by": "fal",
+  "source": "official",
+  "description": "EVF-SAM2 combines natural language understanding with advanced segmentation capabilities, allowing you to precisely mask image regions using intuitive positive and negative text prompts.",
+  "status": "active",
+  "release_date": "2025-02-26",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/evf-sam",
+  "tagline": "EVF-SAM2 combines natural language understanding with advanced segmentation capabilities, allowing you to precisely mask image regions using intuitive positive and negative text prompts.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "dc161a84",
+    "description": "d03d04f7",
+    "status": "379ac110",
+    "release_date": "ee35614d",
+    "model_type": "db8857fe",
+    "page_url": "c42c8bbe",
+    "tagline": "d03d04f7",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

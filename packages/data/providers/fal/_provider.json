@@ -1,0 +1,16 @@
+{
+  "id": "fal",
+  "name": "fal",
+  "region": "US",
+  "url": "https://fal.ai",
+  "api_url": "https://fal.run",
+  "docs_url": "https://fal.ai/docs",
+  "pricing_url": "https://fal.ai/pricing",
+  "description": "Generative media inference platform for image, video, audio, and multimodal model APIs.",
+  "type": "cloud",
+  "models_url": "https://api.fal.ai/v1/models",
+  "openai_compatible": false,
+  "free_tier": false,
+  "github_url": "https://github.com/fal-ai",
+  "twitter_url": "https://x.com/fal"
+}

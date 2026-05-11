@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kolors/image-to-image",
+  "name": "Kolors Image to Image",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Photorealistic Image-to-Image",
+  "status": "active",
+  "release_date": "2024-11-19",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/kolors/image-to-image",
+  "tagline": "Photorealistic Image-to-Image",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "6d14ea4d",
+    "description": "c3aa491b",
+    "status": "379ac110",
+    "release_date": "603a9d41",
+    "model_type": "db8857fe",
+    "page_url": "44451cf6",
+    "tagline": "c3aa491b",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

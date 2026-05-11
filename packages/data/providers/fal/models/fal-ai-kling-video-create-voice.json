@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/kling-video/create-voice",
+  "name": "Kling Video Create Voice",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Create Voices to be used with Kling Models Voice Control",
+  "status": "active",
+  "release_date": "2025-12-16",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/kling-video/create-voice",
+  "tagline": "Create Voices to be used with Kling Models Voice Control",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "40a9ce9b",
+    "description": "9660726c",
+    "status": "379ac110",
+    "release_date": "799b50a0",
+    "model_type": "ddb0b7bc",
+    "page_url": "293206cf",
+    "tagline": "9660726c",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

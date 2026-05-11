@@ -1,0 +1,47 @@
+{
+  "id": "minimax/minimax-m2.1",
+  "name": "Minimax M2.1",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax M2.1 is a cutting-edge AI model designed to revolutionize how developers build software.",
+  "status": "active",
+  "release_date": "2025-12-23",
+  "context_window": 204800,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "MiniMax M2.1 is a cutting-edge AI model designed to revolutionize how developers build software.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c14cae9c",
+    "family": "c85916f0",
+    "description": "8f03b1ae",
+    "status": "379ac110",
+    "release_date": "b3874102",
+    "context_window": "65d646a4",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "8f03b1ae",
+    "capabilities": "05593506",
+    "modalities": "68e53d93",
+    "pricing": "ea3f0b86",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

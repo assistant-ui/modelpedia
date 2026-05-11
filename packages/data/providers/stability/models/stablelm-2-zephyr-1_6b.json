@@ -1,0 +1,44 @@
+{
+  "id": "stablelm-2-zephyr-1_6b",
+  "name": "Stablelm 2 Zephyr 1 6b",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stablelm 2 Zephyr 1 6b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-01-19",
+  "model_type": "chat",
+  "license": "other",
+  "parameters": 6,
+  "page_url": "https://huggingface.co/stabilityai/stablelm-2-zephyr-1_6b",
+  "open_weight": true,
+  "tagline": "Stablelm 2 Zephyr 1 6b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 4273,
+  "last_modified": "2024-06-03",
+  "_generated": {
+    "name": "66b2c37d",
+    "description": "ddfbf2ae",
+    "status": "379ac110",
+    "release_date": "e1ae593a",
+    "model_type": "d669f408",
+    "license": "ddb0b7bc",
+    "parameters": "1679091c",
+    "page_url": "dd938b02",
+    "open_weight": "b326b506",
+    "tagline": "ddfbf2ae",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "b1b0ef5b",
+    "last_modified": "90065f25"
+  },
+  "last_updated": "2026-05-11"
+}

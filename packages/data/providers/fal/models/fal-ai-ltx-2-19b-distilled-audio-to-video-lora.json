@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/ltx-2-19b/distilled/audio-to-video/lora",
+  "name": "LTX-2 19B Distilled",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate video with audio from audio, text and images using LTX-2 Distilled and custom LoRA",
+  "status": "active",
+  "release_date": "2026-01-27",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx-2-19b/distilled/audio-to-video/lora",
+  "tagline": "Generate video with audio from audio, text and images using LTX-2 Distilled and custom LoRA",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-05-01",
+  "_generated": {
+    "name": "5f8007ea",
+    "description": "e30a5e8e",
+    "status": "379ac110",
+    "release_date": "a6a6b128",
+    "model_type": "ddb0b7bc",
+    "page_url": "de32d2cf",
+    "tagline": "e30a5e8e",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "d013c22f"
+  },
+  "last_updated": "2026-05-11"
+}

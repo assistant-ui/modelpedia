@@ -1,0 +1,42 @@
+{
+  "id": "stable-diffusion-3.5-large-tensorrt",
+  "name": "Stable Diffusion 3.5 Large Tensorrt",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Diffusion 3.5 Large Tensorrt is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2025-05-16",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large-tensorrt",
+  "open_weight": true,
+  "tagline": "Stable Diffusion 3.5 Large Tensorrt is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 446,
+  "last_modified": "2025-10-20",
+  "_generated": {
+    "name": "c716fe33",
+    "description": "4cffdfc4",
+    "status": "379ac110",
+    "release_date": "c2daf266",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "0ba31c7a",
+    "open_weight": "b326b506",
+    "tagline": "4cffdfc4",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "1a5b1e4d",
+    "last_modified": "ba1efbec"
+  },
+  "last_updated": "2026-05-11"
+}

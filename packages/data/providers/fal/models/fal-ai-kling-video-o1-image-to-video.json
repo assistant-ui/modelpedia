@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling-video/o1/image-to-video",
+  "name": "Kling O1 First Frame Last Frame to Video [Pro]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate a video by taking a start frame and an end frame, animating the transition between them while following text-driven style and scene guidance.",
+  "status": "active",
+  "release_date": "2025-12-01",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/o1/image-to-video",
+  "tagline": "Generate a video by taking a start frame and an end frame, animating the transition between them while following text-driven style and scene guidance.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "ffb4ea6e",
+    "description": "e22089d5",
+    "status": "379ac110",
+    "release_date": "0452719b",
+    "model_type": "4d1b75ca",
+    "page_url": "ae9c06fa",
+    "tagline": "e22089d5",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

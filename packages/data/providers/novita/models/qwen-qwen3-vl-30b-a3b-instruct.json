@@ -1,0 +1,48 @@
+{
+  "id": "qwen/qwen3-vl-30b-a3b-instruct",
+  "name": "qwen/qwen3-vl-30b-a3b-instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "status": "active",
+  "release_date": "2025-10-11",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "parameters": 30,
+  "active_parameters": 3,
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.7
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "57685ae2",
+    "family": "48c385a0",
+    "status": "379ac110",
+    "release_date": "b51ed54b",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "capabilities": "eb5db45f",
+    "modalities": "6399757e",
+    "pricing": "00ddecf5",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

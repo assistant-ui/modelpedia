@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ideogram/v2a/turbo/remix",
+  "name": "Ideogram V2A Turbo Remix",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Rapidly create image variations with Ideogram V2A Turbo Remix.",
+  "status": "active",
+  "release_date": "2025-02-27",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/ideogram/v2a/turbo/remix",
+  "tagline": "Rapidly create image variations with Ideogram V2A Turbo Remix.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "31a21206",
+    "description": "ed8b3e28",
+    "status": "379ac110",
+    "release_date": "0c569d59",
+    "model_type": "db8857fe",
+    "page_url": "8d3bf6bf",
+    "tagline": "ed8b3e28",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

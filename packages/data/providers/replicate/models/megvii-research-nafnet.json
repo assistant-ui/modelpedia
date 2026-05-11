@@ -1,0 +1,16 @@
+{
+  "id": "megvii-research/nafnet",
+  "name": "Nafnet",
+  "created_by": "megvii-research",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/megvii-research/nafnet",
+  "_generated": {
+    "name": "e0b8f3c8",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "f9c3ca05"
+  },
+  "last_updated": "2026-05-11"
+}

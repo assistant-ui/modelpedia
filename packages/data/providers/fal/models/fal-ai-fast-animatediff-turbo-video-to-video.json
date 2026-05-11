@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/fast-animatediff/turbo/video-to-video",
+  "name": "AnimateDiff Turbo",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Re-animate your videos in lightning speed!",
+  "status": "active",
+  "release_date": "2024-02-13",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/fast-animatediff/turbo/video-to-video",
+  "tagline": "Re-animate your videos in lightning speed!",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "fbb3fe62",
+    "description": "c95f3f5f",
+    "status": "379ac110",
+    "release_date": "056ba89a",
+    "model_type": "ddb0b7bc",
+    "page_url": "932a07be",
+    "tagline": "c95f3f5f",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

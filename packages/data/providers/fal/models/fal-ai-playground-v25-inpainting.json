@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/playground-v25/inpainting",
+  "name": "Playground v2.5",
+  "created_by": "fal",
+  "source": "official",
+  "description": "State-of-the-art open-source model in aesthetic quality",
+  "status": "active",
+  "release_date": "2024-02-21",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/playground-v25/inpainting",
+  "tagline": "State-of-the-art open-source model in aesthetic quality",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "73f3ee8d",
+    "description": "5d6aea41",
+    "status": "379ac110",
+    "release_date": "d193db3f",
+    "model_type": "db8857fe",
+    "page_url": "d63aad54",
+    "tagline": "5d6aea41",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

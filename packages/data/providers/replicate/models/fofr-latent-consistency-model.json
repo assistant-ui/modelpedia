@@ -1,0 +1,16 @@
+{
+  "id": "fofr/latent-consistency-model",
+  "name": "Latent Consistency Model",
+  "created_by": "fofr",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/fofr/latent-consistency-model",
+  "_generated": {
+    "name": "b36d8fed",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "523e6c88"
+  },
+  "last_updated": "2026-05-11"
+}

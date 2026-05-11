@@ -1,0 +1,35 @@
+{
+  "id": "wan/v2.6/image-to-image",
+  "name": "Wan v2.6 Image to Image",
+  "created_by": "wan",
+  "source": "official",
+  "description": "Wan 2.6 image-to-image model.",
+  "status": "active",
+  "release_date": "2025-12-23",
+  "model_type": "image",
+  "page_url": "https://fal.run/wan/v2.6/image-to-image",
+  "tagline": "Wan 2.6 image-to-image model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "be221cec",
+    "description": "fcf44fa2",
+    "status": "379ac110",
+    "release_date": "b3874102",
+    "model_type": "db8857fe",
+    "page_url": "f079685c",
+    "tagline": "fcf44fa2",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

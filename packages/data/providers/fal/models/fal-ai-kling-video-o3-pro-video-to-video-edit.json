@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/kling-video/o3/pro/video-to-video/edit",
+  "name": "Kling O3 Edit Video [Pro]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Edit videos using Kling O3 from Kling Team!",
+  "status": "active",
+  "release_date": "2026-02-04",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/kling-video/o3/pro/video-to-video/edit",
+  "tagline": "Edit videos using Kling O3 from Kling Team!",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "e5271337",
+    "description": "e2c94ee9",
+    "status": "379ac110",
+    "release_date": "7e13f8bd",
+    "model_type": "ddb0b7bc",
+    "page_url": "4233209c",
+    "tagline": "e2c94ee9",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

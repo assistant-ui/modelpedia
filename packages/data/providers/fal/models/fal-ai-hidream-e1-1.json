@@ -1,0 +1,36 @@
+{
+  "id": "fal-ai/hidream-e1-1",
+  "name": "Hidream E1 1",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Edit images with natural language",
+  "status": "active",
+  "release_date": "2025-07-23",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/hidream-e1-1",
+  "tagline": "Edit images with natural language",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "688ffccf",
+    "description": "6daa0375",
+    "status": "379ac110",
+    "release_date": "bfbd7cfc",
+    "model_type": "db8857fe",
+    "page_url": "1c3f82bf",
+    "tagline": "6daa0375",
+    "capabilities": "8a3b232e",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

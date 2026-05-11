@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/deepfilternet3",
+  "name": "DeepFilterNet 3",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Enhance speech audio by removing background noise and upsampling to 48KHz",
+  "status": "active",
+  "release_date": "2026-01-07",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/deepfilternet3",
+  "tagline": "Enhance speech audio by removing background noise and upsampling to 48KHz",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "81c7d0a6",
+    "description": "a581e216",
+    "status": "379ac110",
+    "release_date": "0156c20c",
+    "model_type": "ddb0b7bc",
+    "page_url": "88d26a86",
+    "tagline": "a581e216",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

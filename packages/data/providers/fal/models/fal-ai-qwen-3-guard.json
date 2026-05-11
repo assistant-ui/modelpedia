@@ -1,0 +1,26 @@
+{
+  "id": "fal-ai/qwen-3-guard",
+  "name": "Qwen 3 Guard [8B]",
+  "created_by": "fal",
+  "source": "official",
+  "family": "qwen",
+  "description": "Use Qwen 3 Guard [8B] to detect and  classify text as safe or harmful, delivering precise and reliable safety categorization.",
+  "status": "active",
+  "release_date": "2025-10-20",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/qwen-3-guard",
+  "tagline": "Use Qwen 3 Guard [8B] to detect and  classify text as safe or harmful, delivering precise and reliable safety categorization.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "a3626859",
+    "family": "a3af76f3",
+    "description": "2acb3ba3",
+    "status": "379ac110",
+    "release_date": "ba1efbec",
+    "model_type": "ddb0b7bc",
+    "page_url": "ae51454f",
+    "tagline": "2acb3ba3",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

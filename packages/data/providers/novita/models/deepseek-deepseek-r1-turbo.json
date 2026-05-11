@@ -1,0 +1,48 @@
+{
+  "id": "deepseek/deepseek-r1-turbo",
+  "name": "DeepSeek R1 (Turbo)\t",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek-r1",
+  "description": "DeepSeek R1 is the latest open-source model released by the DeepSeek team, featuring impressive reasoning capabilities, particularly achieving performance comparable to OpenAI's o1 model in mathematic",
+  "status": "active",
+  "release_date": "2025-03-05",
+  "context_window": 64000,
+  "max_output_tokens": 16000,
+  "model_type": "chat",
+  "tagline": "DeepSeek R1 is the latest open-source model released by the DeepSeek team, featuring impressive reasoning capabilities, particularly achieving performance comparable to OpenAI's o1 model in mathematic",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.7,
+    "output": 2.5
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f350b8ba",
+    "family": "c74cfb8e",
+    "description": "3f0acf1c",
+    "status": "379ac110",
+    "release_date": "a5e693e5",
+    "context_window": "762e98db",
+    "max_output_tokens": "67510c89",
+    "model_type": "d669f408",
+    "tagline": "3f0acf1c",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "0b803a90",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

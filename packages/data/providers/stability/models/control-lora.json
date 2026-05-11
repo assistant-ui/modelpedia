@@ -1,0 +1,42 @@
+{
+  "id": "control-lora",
+  "name": "Control Lora",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Control Lora is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-08-17",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/control-lora",
+  "open_weight": true,
+  "tagline": "Control Lora is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 0,
+  "last_modified": "2023-08-19",
+  "_generated": {
+    "name": "1daff833",
+    "description": "5c863a2a",
+    "status": "379ac110",
+    "release_date": "cfd11a89",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "5ca499bc",
+    "open_weight": "b326b506",
+    "tagline": "5c863a2a",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "cfcd2084",
+    "last_modified": "ef605d72"
+  },
+  "last_updated": "2026-05-11"
+}

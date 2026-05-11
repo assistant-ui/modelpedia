@@ -1,0 +1,52 @@
+{
+  "id": "qwen/qwen3-next-80b-a3b-instruct",
+  "name": "Qwen3 Next 80B A3B Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "description": "Qwen3-Next uses a highly sparse MoE design: 80B total parameters, but only ~3B activated per inference step.",
+  "status": "active",
+  "release_date": "2025-09-10",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "parameters": 80,
+  "active_parameters": 3,
+  "tagline": "Qwen3-Next uses a highly sparse MoE design: 80B total parameters, but only ~3B activated per inference step.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 1.5
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "46266523",
+    "family": "48c385a0",
+    "description": "6a5c8f6d",
+    "status": "379ac110",
+    "release_date": "6b120f3c",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "parameters": "f033ab37",
+    "active_parameters": "eccbc87e",
+    "tagline": "6a5c8f6d",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "364bf28e",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

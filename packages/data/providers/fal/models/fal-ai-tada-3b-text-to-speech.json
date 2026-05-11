@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/tada/3b/text-to-speech",
+  "name": "Tada",
+  "created_by": "fal",
+  "source": "official",
+  "description": "A unified speech-language model that synchronizes speech and text into a single, cohesive stream via 1:1 alignment.",
+  "status": "active",
+  "release_date": "2026-03-12",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/tada/3b/text-to-speech",
+  "tagline": "A unified speech-language model that synchronizes speech and text into a single, cohesive stream via 1:1 alignment.",
+  "last_seen_at": "2026-03-12",
+  "_generated": {
+    "name": "7a0d82f0",
+    "description": "dd442e2c",
+    "status": "379ac110",
+    "release_date": "96ba6f81",
+    "model_type": "ddb0b7bc",
+    "page_url": "a07d0c86",
+    "tagline": "dd442e2c",
+    "last_seen_at": "96ba6f81"
+  },
+  "last_updated": "2026-05-11"
+}

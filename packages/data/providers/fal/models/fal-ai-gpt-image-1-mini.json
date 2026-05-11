@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/gpt-image-1-mini",
+  "name": "GPT Image 1 Mini",
+  "created_by": "fal",
+  "source": "official",
+  "family": "gpt-image-1",
+  "description": "GPT Image 1 mini combines OpenAI's advanced language capabilities, powered by GPT-5, with GPT Image 1 Mini for efficient image generation.",
+  "status": "active",
+  "release_date": "2025-10-21",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/gpt-image-1-mini",
+  "tagline": "GPT Image 1 mini combines OpenAI's advanced language capabilities, powered by GPT-5, with GPT Image 1 Mini for efficient image generation.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "4070c017",
+    "family": "480da012",
+    "description": "06d9113e",
+    "status": "379ac110",
+    "release_date": "323f34c9",
+    "model_type": "db8857fe",
+    "page_url": "b2d136a7",
+    "tagline": "06d9113e",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

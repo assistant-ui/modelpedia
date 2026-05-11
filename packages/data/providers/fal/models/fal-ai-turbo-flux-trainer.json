@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/turbo-flux-trainer",
+  "name": "Turbo Flux Trainer",
+  "created_by": "fal",
+  "source": "official",
+  "description": "A blazing fast FLUX dev LoRA trainer for subjects and styles.",
+  "status": "active",
+  "release_date": "2025-04-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/turbo-flux-trainer",
+  "tagline": "A blazing fast FLUX dev LoRA trainer for subjects and styles.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "e661ae73",
+    "description": "099add06",
+    "status": "379ac110",
+    "release_date": "c495f388",
+    "model_type": "ddb0b7bc",
+    "page_url": "66a1b8b2",
+    "tagline": "099add06",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

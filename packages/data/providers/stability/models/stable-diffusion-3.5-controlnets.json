@@ -1,0 +1,42 @@
+{
+  "id": "stable-diffusion-3.5-controlnets",
+  "name": "Stable Diffusion 3.5 Controlnets",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Diffusion 3.5 Controlnets is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-11-15",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-controlnets",
+  "open_weight": true,
+  "tagline": "Stable Diffusion 3.5 Controlnets is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 26,
+  "last_modified": "2024-12-11",
+  "_generated": {
+    "name": "4ee018ef",
+    "description": "adc9d486",
+    "status": "379ac110",
+    "release_date": "ae649d4d",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "47f84e0b",
+    "open_weight": "b326b506",
+    "tagline": "adc9d486",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "4e732ced",
+    "last_modified": "dcb035de"
+  },
+  "last_updated": "2026-05-11"
+}

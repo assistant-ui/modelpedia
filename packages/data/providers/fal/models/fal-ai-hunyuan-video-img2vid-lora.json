@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/hunyuan-video-img2vid-lora",
+  "name": "Hunyuan Video Image-to-Video LoRA Inference",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Image to Video for the Hunyuan Video model using a custom trained LoRA.",
+  "status": "active",
+  "release_date": "2025-02-03",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/hunyuan-video-img2vid-lora",
+  "tagline": "Image to Video for the Hunyuan Video model using a custom trained LoRA.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "59d8a073",
+    "description": "51c63d14",
+    "status": "379ac110",
+    "release_date": "1da0600e",
+    "model_type": "4d1b75ca",
+    "page_url": "b1b68776",
+    "tagline": "51c63d14",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "fal-ai/wan-motion",
+  "name": "Wan Motion",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Wan Motion is a streamlined character animation model that transfers motion from a driving video onto a reference character image.",
+  "status": "active",
+  "release_date": "2026-02-19",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/wan-motion",
+  "tagline": "Wan Motion is a streamlined character animation model that transfers motion from a driving video onto a reference character image.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-02-23",
+  "_generated": {
+    "name": "5e156260",
+    "family": "2aadc089",
+    "description": "a958d1ae",
+    "status": "379ac110",
+    "release_date": "1323dc51",
+    "model_type": "ddb0b7bc",
+    "page_url": "c1d5ebce",
+    "tagline": "a958d1ae",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "f319afd9"
+  },
+  "last_updated": "2026-05-11"
+}

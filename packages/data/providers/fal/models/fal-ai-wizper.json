@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/wizper",
+  "name": "Wizper (Whisper v3 -- fal.ai edition)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "[Experimental] Whisper v3 Large -- but optimized by our inference wizards.",
+  "status": "active",
+  "release_date": "2024-04-08",
+  "model_type": "transcription",
+  "page_url": "https://fal.run/fal-ai/wizper",
+  "tagline": "[Experimental] Whisper v3 Large -- but optimized by our inference wizards.",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "f9bfc8df",
+    "description": "64d17d1f",
+    "status": "379ac110",
+    "release_date": "1bf77dbf",
+    "model_type": "5e12d29a",
+    "page_url": "77655e86",
+    "tagline": "64d17d1f",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

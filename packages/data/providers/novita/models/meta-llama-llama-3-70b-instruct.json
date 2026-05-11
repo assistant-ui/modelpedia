@@ -1,0 +1,46 @@
+{
+  "id": "meta-llama/llama-3-70b-instruct",
+  "name": "Llama3 70B Instruct",
+  "created_by": "meta",
+  "source": "official",
+  "family": "llama-3",
+  "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors.",
+  "status": "active",
+  "release_date": "2024-04-25",
+  "context_window": 8192,
+  "max_output_tokens": 8000,
+  "model_type": "chat",
+  "parameters": 70,
+  "tagline": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors.",
+  "capabilities": {
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.51,
+    "output": 0.74
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "b9ff07ed",
+    "family": "a8d1600e",
+    "description": "8630e213",
+    "status": "379ac110",
+    "release_date": "930b7401",
+    "context_window": "77441296",
+    "max_output_tokens": "67ff32d4",
+    "model_type": "d669f408",
+    "parameters": "7cbbc409",
+    "tagline": "8630e213",
+    "capabilities": "6c099667",
+    "modalities": "68e53d93",
+    "pricing": "8a95f041",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

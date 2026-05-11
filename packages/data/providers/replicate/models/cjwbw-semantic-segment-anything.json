@@ -1,0 +1,16 @@
+{
+  "id": "cjwbw/semantic-segment-anything",
+  "name": "Semantic Segment Anything",
+  "created_by": "cjwbw",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/cjwbw/semantic-segment-anything",
+  "_generated": {
+    "name": "70f9dd61",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "e1525025"
+  },
+  "last_updated": "2026-05-11"
+}

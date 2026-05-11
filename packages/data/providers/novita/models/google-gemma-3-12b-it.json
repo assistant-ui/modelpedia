@@ -1,0 +1,40 @@
+{
+  "id": "google/gemma-3-12b-it",
+  "name": "Gemma3 12B",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-3",
+  "status": "active",
+  "release_date": "2025-09-04",
+  "context_window": 131072,
+  "max_output_tokens": 8192,
+  "model_type": "chat",
+  "parameters": 12,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.1
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "6e072938",
+    "family": "d9e10ad8",
+    "status": "379ac110",
+    "release_date": "d9b57e93",
+    "context_window": "f7de594e",
+    "max_output_tokens": "77441296",
+    "model_type": "d669f408",
+    "parameters": "c20ad4d7",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "4b69a83d",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

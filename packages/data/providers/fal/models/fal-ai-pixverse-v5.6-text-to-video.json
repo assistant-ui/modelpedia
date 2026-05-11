@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/pixverse/v5.6/text-to-video",
+  "name": "PixVerse",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Use the latest pixverse v5.6 model to turn your texts into amazing videos.",
+  "status": "active",
+  "release_date": "2026-01-26",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/pixverse/v5.6/text-to-video",
+  "tagline": "Use the latest pixverse v5.6 model to turn your texts into amazing videos.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "c44b079b",
+    "description": "04222df3",
+    "status": "379ac110",
+    "release_date": "5c252aee",
+    "model_type": "4d1b75ca",
+    "page_url": "ec83ef3a",
+    "tagline": "04222df3",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

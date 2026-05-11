@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/finegrain-eraser",
+  "name": "finegrain eraser",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Finegrain Eraser removes objects—along with their shadows, reflections, and lighting artifacts—using only natural language, seamlessly filling the scene with contextually accurate content.",
+  "status": "active",
+  "release_date": "2025-04-09",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/finegrain-eraser",
+  "tagline": "Finegrain Eraser removes objects—along with their shadows, reflections, and lighting artifacts—using only natural language, seamlessly filling the scene with contextually accurate content.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "ef63db62",
+    "description": "73620eb4",
+    "status": "379ac110",
+    "release_date": "a9d448cf",
+    "model_type": "db8857fe",
+    "page_url": "e086d1a1",
+    "tagline": "73620eb4",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

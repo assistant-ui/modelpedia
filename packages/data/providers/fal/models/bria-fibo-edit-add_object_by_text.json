@@ -1,0 +1,37 @@
+{
+  "id": "bria/fibo-edit/add_object_by_text",
+  "name": "Fibo Edit [Add Object by Text]",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Precise, context-aware insertion of new objects into an existing image using simple, structured spatial commands.",
+  "status": "active",
+  "release_date": "2026-01-20",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/fibo-edit/add_object_by_text",
+  "tagline": "Precise, context-aware insertion of new objects into an existing image using simple, structured spatial commands.",
+  "capabilities": {
+    "vision": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "3f8920f9",
+    "description": "b9907d3e",
+    "status": "379ac110",
+    "release_date": "76120ca1",
+    "model_type": "db8857fe",
+    "page_url": "36243792",
+    "tagline": "b9907d3e",
+    "capabilities": "42538baa",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

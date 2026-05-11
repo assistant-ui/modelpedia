@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-lora-canny",
+  "name": "FLUX.1 [dev] Canny with LoRAs",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Utilize Flux.1 [dev] Controlnet to generate high-quality images with precise control over composition, style, and structure through advanced edge detection and guidance mechanisms.",
+  "status": "active",
+  "release_date": "2025-01-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-lora-canny",
+  "tagline": "Utilize Flux.1 [dev] Controlnet to generate high-quality images with precise control over composition, style, and structure through advanced edge detection and guidance mechanisms.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "efb940be",
+    "description": "3e5876bd",
+    "status": "379ac110",
+    "release_date": "4d9b0c63",
+    "model_type": "db8857fe",
+    "page_url": "a8aa071f",
+    "tagline": "3e5876bd",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

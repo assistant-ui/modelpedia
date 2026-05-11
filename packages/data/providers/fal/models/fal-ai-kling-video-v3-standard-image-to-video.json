@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling-video/v3/standard/image-to-video",
+  "name": "Kling Video v3 Image to Video [Standard]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling 3.0 Standard: Top-tier image-to-video with cinematic visuals, fluid motion, and native audio generation, with custom element support.",
+  "status": "active",
+  "release_date": "2026-02-04",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/v3/standard/image-to-video",
+  "tagline": "Kling 3.0 Standard: Top-tier image-to-video with cinematic visuals, fluid motion, and native audio generation, with custom element support.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "b28170d4",
+    "description": "d9f6669f",
+    "status": "379ac110",
+    "release_date": "7e13f8bd",
+    "model_type": "4d1b75ca",
+    "page_url": "e89d3e7f",
+    "tagline": "d9f6669f",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

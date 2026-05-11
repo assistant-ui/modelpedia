@@ -1,0 +1,37 @@
+{
+  "id": "xai/grok-imagine-image/quality/text-to-image",
+  "name": "Grok Imagine Image",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "description": "Grok Imagine Pro is an advanced AI model from xAI that creates high-quality visuals from text prompts and allows you to edit or analyze existing images.",
+  "status": "active",
+  "release_date": "2026-04-09",
+  "model_type": "image",
+  "page_url": "https://fal.run/xai/grok-imagine-image/quality/text-to-image",
+  "tagline": "Grok Imagine Pro is an advanced AI model from xAI that creates high-quality visuals from text prompts and allows you to edit or analyze existing images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "72b713df",
+    "family": "a4576b5e",
+    "description": "a45ab405",
+    "status": "379ac110",
+    "release_date": "951f4b52",
+    "model_type": "db8857fe",
+    "page_url": "ad8f2952",
+    "tagline": "a45ab405",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "voyage-multimodal-3",
+  "name": "Voyage Multimodal 3",
+  "created_by": "voyage",
+  "source": "official",
+  "status": "active",
+  "model_type": "embed",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.12
+  },
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "26638aa4",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "modalities": "6399757e",
+    "pricing": "42d17ec8",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-05-11"
+}

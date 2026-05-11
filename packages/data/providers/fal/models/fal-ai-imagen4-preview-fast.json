@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/imagen4/preview/fast",
+  "name": "Imagen 4",
+  "created_by": "fal",
+  "source": "official",
+  "family": "imagen",
+  "description": "Google’s highest quality image generation model",
+  "status": "active",
+  "release_date": "2025-06-12",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/imagen4/preview/fast",
+  "tagline": "Google’s highest quality image generation model",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "0c3cd811",
+    "family": "335b9053",
+    "description": "32d8e9d9",
+    "status": "379ac110",
+    "release_date": "ac3a61ad",
+    "model_type": "db8857fe",
+    "page_url": "ff6aca2b",
+    "tagline": "32d8e9d9",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "m1guelpf/nsfw-filter",
+  "name": "Nsfw Filter",
+  "created_by": "m1guelpf",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/m1guelpf/nsfw-filter",
+  "_generated": {
+    "name": "8fb8e90b",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "273e141d"
+  },
+  "last_updated": "2026-05-11"
+}

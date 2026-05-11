@@ -1,0 +1,48 @@
+{
+  "id": "deepseek/deepseek-v4-pro",
+  "name": "Deepseek V4 Pro",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "DeepSeek-V4-Pro is the next-generation flagship open-source large language model developed by DeepSeek, delivering comprehensive performance that rivals the world's premier closed-source models.",
+  "status": "active",
+  "release_date": "2026-04-24",
+  "context_window": 1048576,
+  "max_output_tokens": 393216,
+  "model_type": "chat",
+  "tagline": "DeepSeek-V4-Pro is the next-generation flagship open-source large language model developed by DeepSeek, delivering comprehensive performance that rivals the world's premier closed-source models.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.69,
+    "output": 3.38
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "693bb9f4",
+    "family": "4b81b92d",
+    "description": "b019dd77",
+    "status": "379ac110",
+    "release_date": "173d2bb2",
+    "context_window": "7d28a051",
+    "max_output_tokens": "628f482c",
+    "model_type": "d669f408",
+    "tagline": "b019dd77",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "75d046b1",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

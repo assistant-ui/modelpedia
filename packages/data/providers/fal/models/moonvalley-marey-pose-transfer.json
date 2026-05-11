@@ -1,0 +1,24 @@
+{
+  "id": "moonvalley/marey/pose-transfer",
+  "name": "Marey Realism V1.5",
+  "created_by": "moonvalley",
+  "source": "official",
+  "description": "Ideal for matching human movement.",
+  "status": "active",
+  "release_date": "2025-08-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/moonvalley/marey/pose-transfer",
+  "tagline": "Ideal for matching human movement.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "15f3d71f",
+    "description": "fa3084c3",
+    "status": "379ac110",
+    "release_date": "3c37f85f",
+    "model_type": "ddb0b7bc",
+    "page_url": "873c76a0",
+    "tagline": "fa3084c3",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

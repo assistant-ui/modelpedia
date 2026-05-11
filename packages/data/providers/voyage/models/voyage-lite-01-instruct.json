@@ -1,0 +1,25 @@
+{
+  "id": "voyage-lite-01-instruct",
+  "name": "Voyage Lite 01 Instruct",
+  "created_by": "voyage",
+  "source": "official",
+  "status": "active",
+  "model_type": "embed",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1
+  },
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "ce980bed",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "modalities": "68e53d93",
+    "pricing": "7f90fb03",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-05-11"
+}

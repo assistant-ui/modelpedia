@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/wan-t2v-lora",
+  "name": "Wan-2.1 Text-to-Video with LoRAs",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Add custom LoRAs to Wan-2.1 is a text-to-video model that generates high-quality videos with high visual quality and motion diversity from images",
+  "status": "active",
+  "release_date": "2025-03-25",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/wan-t2v-lora",
+  "tagline": "Add custom LoRAs to Wan-2.1 is a text-to-video model that generates high-quality videos with high visual quality and motion diversity from images",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "21462669",
+    "family": "2aadc089",
+    "description": "49b9fc20",
+    "status": "379ac110",
+    "release_date": "aa38c35d",
+    "model_type": "4d1b75ca",
+    "page_url": "aa786466",
+    "tagline": "49b9fc20",
+    "capabilities": "d3117eb0",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

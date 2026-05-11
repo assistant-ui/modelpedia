@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/heygen/v3/lipsync/speed",
+  "name": "Heygen Lipsync - Speed",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Replace or dub audio on an existing video with fast audio-only lip-sync.",
+  "status": "active",
+  "release_date": "2026-04-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/heygen/v3/lipsync/speed",
+  "tagline": "Replace or dub audio on an existing video with fast audio-only lip-sync.",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "6e4badcc",
+    "description": "a88aec4b",
+    "status": "379ac110",
+    "release_date": "9682f27c",
+    "model_type": "ddb0b7bc",
+    "page_url": "57e67ec8",
+    "tagline": "a88aec4b",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

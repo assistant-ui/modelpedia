@@ -1,0 +1,5 @@
+{
+  "models": "https://api.siliconflow.com/v1/models",
+  "docs": "https://docs.siliconflow.com/en/api-reference/models/get-model-list.md",
+  "llms": "https://docs.siliconflow.com/llms.txt"
+}

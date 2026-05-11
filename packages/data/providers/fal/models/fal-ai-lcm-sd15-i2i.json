@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/lcm-sd15-i2i",
+  "name": "Optimized Latent Consistency (SDv1.5)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Produce high-quality images with minimal inference steps.",
+  "status": "active",
+  "release_date": "2023-11-09",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/lcm-sd15-i2i",
+  "tagline": "Produce high-quality images with minimal inference steps.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "4b1ae64d",
+    "description": "74288d2b",
+    "status": "379ac110",
+    "release_date": "c4e6786f",
+    "model_type": "db8857fe",
+    "page_url": "c5b7ea8c",
+    "tagline": "74288d2b",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

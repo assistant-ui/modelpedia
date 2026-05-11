@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/seedance-2.0/fast/image-to-video",
+  "name": "Seedance 2.0 Fast Image to Video",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "ByteDance's most advanced image-to-video model, fast tier.",
+  "status": "active",
+  "release_date": "2026-04-01",
+  "model_type": "video",
+  "page_url": "https://fal.run/bytedance/seedance-2.0/fast/image-to-video",
+  "tagline": "ByteDance's most advanced image-to-video model, fast tier.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-22",
+  "_generated": {
+    "name": "dc0b2333",
+    "description": "05752c4a",
+    "status": "379ac110",
+    "release_date": "f68ebedb",
+    "model_type": "4d1b75ca",
+    "page_url": "bb1ba9aa",
+    "tagline": "05752c4a",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "c48b287d"
+  },
+  "last_updated": "2026-05-11"
+}

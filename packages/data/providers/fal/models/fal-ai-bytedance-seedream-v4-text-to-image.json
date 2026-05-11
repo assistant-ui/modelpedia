@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/bytedance/seedream/v4/text-to-image",
+  "name": "Bytedance Seedream v4",
+  "created_by": "fal",
+  "source": "official",
+  "description": "A new-generation image creation model ByteDance, Seedream 4.0 integrates image generation and image editing capabilities into a single, unified architecture.",
+  "status": "active",
+  "release_date": "2025-09-09",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/bytedance/seedream/v4/text-to-image",
+  "tagline": "A new-generation image creation model ByteDance, Seedream 4.0 integrates image generation and image editing capabilities into a single, unified architecture.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "078b8f16",
+    "description": "ba5658bc",
+    "status": "379ac110",
+    "release_date": "1c1c95de",
+    "model_type": "db8857fe",
+    "page_url": "d00e1610",
+    "tagline": "ba5658bc",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

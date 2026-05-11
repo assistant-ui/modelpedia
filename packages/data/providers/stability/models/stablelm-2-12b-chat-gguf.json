@@ -1,0 +1,47 @@
+{
+  "id": "stablelm-2-12b-chat-GGUF",
+  "name": "Stablelm 2 12b Chat GGUF",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stablelm 2 12b Chat GGUF is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-04-17",
+  "model_type": "chat",
+  "license": "other",
+  "parameters": 12,
+  "page_url": "https://huggingface.co/stabilityai/stablelm-2-12b-chat-GGUF",
+  "open_weight": true,
+  "tagline": "Stablelm 2 12b Chat GGUF is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "tool_call": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "huggingface_downloads": 116,
+  "last_modified": "2024-04-20",
+  "_generated": {
+    "name": "02178e15",
+    "description": "0e9165e9",
+    "status": "379ac110",
+    "release_date": "3413c173",
+    "model_type": "d669f408",
+    "license": "ddb0b7bc",
+    "parameters": "c20ad4d7",
+    "page_url": "3d1b561c",
+    "open_weight": "b326b506",
+    "tagline": "0e9165e9",
+    "capabilities": "3fd13739",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e",
+    "huggingface_downloads": "c45147de",
+    "last_modified": "fd79eb8a"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "sd-x2-latent-upscaler",
+  "name": "Sd X2 Latent Upscaler",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Sd X2 Latent Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-02-03",
+  "model_type": "other",
+  "license": "openrail++",
+  "page_url": "https://huggingface.co/stabilityai/sd-x2-latent-upscaler",
+  "open_weight": true,
+  "tagline": "Sd X2 Latent Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "huggingface_downloads": 134230,
+  "last_modified": "2023-06-05",
+  "_generated": {
+    "name": "b710889b",
+    "description": "07563b02",
+    "status": "379ac110",
+    "release_date": "133ca7f2",
+    "model_type": "ddb0b7bc",
+    "license": "53c5b8b2",
+    "page_url": "458fd053",
+    "open_weight": "b326b506",
+    "tagline": "07563b02",
+    "huggingface_downloads": "db1d8137",
+    "last_modified": "03590c01"
+  },
+  "last_updated": "2026-05-11"
+}

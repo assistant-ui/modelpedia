@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-2-flex",
+  "name": "Flux 2 Flex",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Text-to-image generation with FLUX.2 [flex] from Black Forest Labs.",
+  "status": "active",
+  "release_date": "2025-11-25",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-2-flex",
+  "tagline": "Text-to-image generation with FLUX.2 [flex] from Black Forest Labs.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "95c48bf6",
+    "description": "abbd7d1d",
+    "status": "379ac110",
+    "release_date": "a4a8a70d",
+    "model_type": "db8857fe",
+    "page_url": "d4d9f4eb",
+    "tagline": "abbd7d1d",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

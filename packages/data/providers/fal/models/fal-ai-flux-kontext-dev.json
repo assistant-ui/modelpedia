@@ -1,0 +1,36 @@
+{
+  "id": "fal-ai/flux-kontext/dev",
+  "name": "FLUX.1 Kontext [dev]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Frontier image editing model.",
+  "status": "active",
+  "release_date": "2025-05-28",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-kontext/dev",
+  "tagline": "Frontier image editing model.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "31175908",
+    "description": "18e84d60",
+    "status": "379ac110",
+    "release_date": "172a2c69",
+    "model_type": "db8857fe",
+    "page_url": "d7394115",
+    "tagline": "18e84d60",
+    "capabilities": "8a3b232e",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

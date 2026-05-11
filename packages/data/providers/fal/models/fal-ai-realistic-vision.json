@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/realistic-vision",
+  "name": "Realistic Vision",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate realistic images.",
+  "status": "active",
+  "release_date": "2024-04-25",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/realistic-vision",
+  "tagline": "Generate realistic images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "4d3b1f92",
+    "description": "559565cf",
+    "status": "379ac110",
+    "release_date": "930b7401",
+    "model_type": "db8857fe",
+    "page_url": "a1e3bdd8",
+    "tagline": "559565cf",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

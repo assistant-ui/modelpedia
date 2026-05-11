@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/sana/v1.5/1.6b",
+  "name": "Sana v1.5 1.6B",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Sana v1.5 1.6B is a lightweight text-to-image model that delivers 4K image generation with impressive efficiency.",
+  "status": "active",
+  "release_date": "2025-03-31",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/sana/v1.5/1.6b",
+  "tagline": "Sana v1.5 1.6B is a lightweight text-to-image model that delivers 4K image generation with impressive efficiency.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "a5fcfb81",
+    "description": "16e3b957",
+    "status": "379ac110",
+    "release_date": "f54b55c5",
+    "model_type": "db8857fe",
+    "page_url": "0b0a35d5",
+    "tagline": "16e3b957",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

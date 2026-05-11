@@ -1,0 +1,33 @@
+{
+  "id": "fal-ai/minimax/hailuo-2.3/standard/text-to-video",
+  "name": "MiniMax Hailuo 2.3 [Standard] (Text to Video)",
+  "created_by": "fal",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax Hailuo-2.3 Text To Video API (Standard, 768p): Advanced text-to-video generation model with 768p resolution",
+  "status": "active",
+  "release_date": "2025-10-27",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/minimax/hailuo-2.3/standard/text-to-video",
+  "tagline": "MiniMax Hailuo-2.3 Text To Video API (Standard, 768p): Advanced text-to-video generation model with 768p resolution",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "1f5f1fa7",
+    "family": "c85916f0",
+    "description": "b5360558",
+    "status": "379ac110",
+    "release_date": "7600ba0c",
+    "model_type": "4d1b75ca",
+    "page_url": "1b7082d6",
+    "tagline": "b5360558",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling-image/o3/image-to-image",
+  "name": "Kling Image",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling Omni 3: Top-tier image-to-image with flawless consistency.",
+  "status": "active",
+  "release_date": "2026-02-03",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/kling-image/o3/image-to-image",
+  "tagline": "Kling Omni 3: Top-tier image-to-image with flawless consistency.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "b86da77f",
+    "description": "13474290",
+    "status": "379ac110",
+    "release_date": "3c99ab7f",
+    "model_type": "db8857fe",
+    "page_url": "713ad514",
+    "tagline": "13474290",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

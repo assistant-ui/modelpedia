@@ -1,0 +1,43 @@
+{
+  "id": "zai-org/autoglm-phone-9b-multilingual",
+  "name": "AutoGLM-Phone-9B-Multilingual",
+  "created_by": "zai",
+  "source": "official",
+  "description": "Phone Agent is a mobile intelligent assistant framework built on AutoGLM, capable of understanding smartphone screens through multimodal perception and executing automated operations to complete tasks.",
+  "status": "active",
+  "release_date": "2025-12-10",
+  "context_window": 65536,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "parameters": 9,
+  "tagline": "Phone Agent is a mobile intelligent assistant framework built on AutoGLM, capable of understanding smartphone screens through multimodal perception and executing automated operations to complete tasks",
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.035,
+    "output": 0.138
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "b2b812f2",
+    "description": "3554343e",
+    "status": "379ac110",
+    "release_date": "7b4e98b0",
+    "context_window": "297ce0b3",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "parameters": "45c48cce",
+    "tagline": "433caaed",
+    "capabilities": "5f5c7516",
+    "modalities": "6399757e",
+    "pricing": "c8e0d2ff",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

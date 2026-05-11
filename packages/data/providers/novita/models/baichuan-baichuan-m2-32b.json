@@ -1,0 +1,43 @@
+{
+  "id": "baichuan/baichuan-m2-32b",
+  "name": "BaiChuan M2 32B",
+  "created_by": "baichuan",
+  "source": "official",
+  "description": "Baichuan-M2 is a medically-enhanced reasoning model specifically designed for real-world medical reasoning tasks.",
+  "status": "active",
+  "release_date": "2025-08-13",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "parameters": 32,
+  "tagline": "Baichuan-M2 is a medically-enhanced reasoning model specifically designed for real-world medical reasoning tasks.",
+  "capabilities": {
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.07,
+    "output": 0.07
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "eeb42d52",
+    "description": "a957d6d8",
+    "status": "379ac110",
+    "release_date": "ab9b808c",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "parameters": "6364d3f0",
+    "tagline": "a957d6d8",
+    "capabilities": "23219150",
+    "modalities": "68e53d93",
+    "pricing": "a1ff1d4b",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-pro/v1/fill-finetuned",
+  "name": "FLUX.1 [pro] Fill Fine-tuned",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX.1 [pro] Fill Fine-tuned is a high-performance endpoint for the FLUX.1 [pro] model with a fine-tuned LoRA that enables rapid transformation of existing images, delivering high-quality style transf",
+  "status": "active",
+  "release_date": "2025-01-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-pro/v1/fill-finetuned",
+  "tagline": "FLUX.1 [pro] Fill Fine-tuned is a high-performance endpoint for the FLUX.1 [pro] model with a fine-tuned LoRA that enables rapid transformation of existing images, delivering high-quality style transf",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "29b5d302",
+    "description": "e28866fd",
+    "status": "379ac110",
+    "release_date": "4d9b0c63",
+    "model_type": "db8857fe",
+    "page_url": "093a9d48",
+    "tagline": "e28866fd",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "google/gemma-4-26b-a4b-it",
+  "name": "Gemma 4 26B A4B",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "description": "Gemma 4 26B A4B is built for developers who need scalable performance without sacrificing core capabilities.Crucially, it retains the massive 256K-token context window of the 31B model, making it highly competitive for long-context RAG and processing extensive, image-rich document datasets.",
+  "status": "active",
+  "release_date": "2026-04-02",
+  "context_window": 262144,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "parameters": 26,
+  "active_parameters": 4,
+  "tagline": "Gemma 4 26B A4B is built for developers who need scalable performance without sacrificing core capabilities.Crucially, it retains the massive 256K-token context window of the 31B model, making it high",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.13,
+    "output": 0.4
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "14a445f7",
+    "family": "811b6704",
+    "description": "3565143a",
+    "status": "379ac110",
+    "release_date": "ea3c9722",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "parameters": "4e732ced",
+    "active_parameters": "a87ff679",
+    "tagline": "c76c0213",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "38055df7",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-11"
+}

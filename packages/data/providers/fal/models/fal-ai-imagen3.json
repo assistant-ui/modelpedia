@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/imagen3",
+  "name": "Imagen3",
+  "created_by": "fal",
+  "source": "official",
+  "family": "imagen",
+  "description": "Imagen3 is a high-quality text-to-image model that generates realistic images from text prompts.",
+  "status": "active",
+  "release_date": "2025-02-10",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/imagen3",
+  "tagline": "Imagen3 is a high-quality text-to-image model that generates realistic images from text prompts.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "502c4010",
+    "family": "335b9053",
+    "description": "bb183463",
+    "status": "379ac110",
+    "release_date": "28e4ffcf",
+    "model_type": "db8857fe",
+    "page_url": "285ac611",
+    "tagline": "bb183463",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/object-removal",
+  "name": "Object Removal",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Removes objects and their visual effects using natural language, replacing them with contextually appropriate content",
+  "status": "active",
+  "release_date": "2025-06-16",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/object-removal",
+  "tagline": "Removes objects and their visual effects using natural language, replacing them with contextually appropriate content",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "66112706",
+    "description": "4591aa48",
+    "status": "379ac110",
+    "release_date": "fae15322",
+    "model_type": "db8857fe",
+    "page_url": "57e924d1",
+    "tagline": "4591aa48",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

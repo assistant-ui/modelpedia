@@ -1,0 +1,23 @@
+{
+  "id": "bytedance/hyper-flux-8step",
+  "name": "Hyper Flux 8step",
+  "created_by": "bytedance",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/bytedance/hyper-flux-8step",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "697aa90a",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "42e2c901",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

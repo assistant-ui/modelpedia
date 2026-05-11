@@ -1,0 +1,44 @@
+{
+  "id": "japanese-stablelm-instruct-alpha-7b-v2",
+  "name": "Japanese Stablelm Instruct Alpha 7b V2",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Japanese Stablelm Instruct Alpha 7b V2 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-09-26",
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "parameters": 7,
+  "page_url": "https://huggingface.co/stabilityai/japanese-stablelm-instruct-alpha-7b-v2",
+  "open_weight": true,
+  "tagline": "Japanese Stablelm Instruct Alpha 7b V2 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 100,
+  "last_modified": "2023-10-06",
+  "_generated": {
+    "name": "9383bbab",
+    "description": "bd880223",
+    "status": "379ac110",
+    "release_date": "2aaf29bb",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "parameters": "8f14e45f",
+    "page_url": "09400793",
+    "open_weight": "b326b506",
+    "tagline": "bd880223",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "f899139d",
+    "last_modified": "b713276e"
+  },
+  "last_updated": "2026-05-11"
+}

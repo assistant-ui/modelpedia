@@ -1,0 +1,42 @@
+{
+  "id": "sdxl-turbo",
+  "name": "Sdxl Turbo",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Sdxl Turbo is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-11-27",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/sdxl-turbo",
+  "open_weight": true,
+  "tagline": "Sdxl Turbo is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 975168,
+  "last_modified": "2024-07-10",
+  "_generated": {
+    "name": "f087df7a",
+    "description": "71c582c7",
+    "status": "379ac110",
+    "release_date": "6a9ec6cc",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "26de4c5f",
+    "open_weight": "b326b506",
+    "tagline": "71c582c7",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "3094f91a",
+    "last_modified": "2d84b9f9"
+  },
+  "last_updated": "2026-05-11"
+}

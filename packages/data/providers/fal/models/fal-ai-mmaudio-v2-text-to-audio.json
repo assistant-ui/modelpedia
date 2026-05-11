@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/mmaudio-v2/text-to-audio",
+  "name": "MMAudio V2 Text to Audio",
+  "created_by": "fal",
+  "source": "official",
+  "description": "MMAudio generates synchronized audio given text inputs.",
+  "status": "active",
+  "release_date": "2024-12-20",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/mmaudio-v2/text-to-audio",
+  "tagline": "MMAudio generates synchronized audio given text inputs.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "45f3f825",
+    "description": "5fccff6b",
+    "status": "379ac110",
+    "release_date": "31efff74",
+    "model_type": "ddb0b7bc",
+    "page_url": "3020cc58",
+    "tagline": "5fccff6b",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

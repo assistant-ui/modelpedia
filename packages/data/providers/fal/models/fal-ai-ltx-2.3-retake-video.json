@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/ltx-2.3/retake-video",
+  "name": "LTX Video 2.3 Pro",
+  "created_by": "fal",
+  "source": "official",
+  "description": "LTX-2.3 is a high-quality, fast AI video model available in Pro and Fast variants for text-to-video, image-to-video, and audio-to-video.",
+  "status": "active",
+  "release_date": "2026-03-05",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx-2.3/retake-video",
+  "tagline": "LTX-2.3 is a high-quality, fast AI video model available in Pro and Fast variants for text-to-video, image-to-video, and audio-to-video.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "0bafd224",
+    "description": "d4b0d16c",
+    "status": "379ac110",
+    "release_date": "e6626ce2",
+    "model_type": "ddb0b7bc",
+    "page_url": "00a41538",
+    "tagline": "d4b0d16c",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

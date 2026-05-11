@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/hunyuan-video-foley",
+  "name": "Hunyuan Video Foley",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Use the capabilities of the hunyuan foley model to bring life to your videos by adding sound effect to them.",
+  "status": "active",
+  "release_date": "2025-09-08",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/hunyuan-video-foley",
+  "tagline": "Use the capabilities of the hunyuan foley model to bring life to your videos by adding sound effect to them.",
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "499e02f0",
+    "description": "1e308725",
+    "status": "379ac110",
+    "release_date": "551954c4",
+    "model_type": "ddb0b7bc",
+    "page_url": "44f53ed5",
+    "tagline": "1e308725",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

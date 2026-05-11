@@ -1,0 +1,36 @@
+{
+  "id": "fal-ai/flux-kontext-lora",
+  "name": "Flux Kontext Lora",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Fast endpoint for the FLUX.1 Kontext [dev] model with LoRA support, enabling rapid and high-quality image editing using pre-trained LoRA adaptations for specific styles, brand identities, and product-",
+  "status": "active",
+  "release_date": "2025-06-25",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-kontext-lora",
+  "tagline": "Fast endpoint for the FLUX.1 Kontext [dev] model with LoRA support, enabling rapid and high-quality image editing using pre-trained LoRA adaptations for specific styles, brand identities, and product-",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "dda08a81",
+    "description": "0cf15f28",
+    "status": "379ac110",
+    "release_date": "e9e54aa9",
+    "model_type": "db8857fe",
+    "page_url": "c2178d5b",
+    "tagline": "0cf15f28",
+    "capabilities": "8a3b232e",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

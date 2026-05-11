@@ -1,0 +1,39 @@
+{
+  "id": "tiny-random-stablelm-2",
+  "name": "Tiny Random Stablelm 2",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Tiny Random Stablelm 2 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-03-20",
+  "model_type": "chat",
+  "page_url": "https://huggingface.co/stabilityai/tiny-random-stablelm-2",
+  "open_weight": true,
+  "tagline": "Tiny Random Stablelm 2 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 849,
+  "last_modified": "2024-03-31",
+  "_generated": {
+    "name": "02988bf9",
+    "description": "b4dab563",
+    "status": "379ac110",
+    "release_date": "5b8d32b6",
+    "model_type": "d669f408",
+    "page_url": "affe8ff3",
+    "open_weight": "b326b506",
+    "tagline": "b4dab563",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "fe8c15fe",
+    "last_modified": "0ca5d11e"
+  },
+  "last_updated": "2026-05-11"
+}

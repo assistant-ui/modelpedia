@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/post-processing/blur",
+  "name": "Post Processing",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Apply Gaussian or Kuwahara blur effects with adjustable radius and sigma parameters",
+  "status": "active",
+  "release_date": "2025-07-01",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/post-processing/blur",
+  "tagline": "Apply Gaussian or Kuwahara blur effects with adjustable radius and sigma parameters",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "208a7416",
+    "description": "1a7c9f41",
+    "status": "379ac110",
+    "release_date": "7a7b6168",
+    "model_type": "db8857fe",
+    "page_url": "64e0fc28",
+    "tagline": "1a7c9f41",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

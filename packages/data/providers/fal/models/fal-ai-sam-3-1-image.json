@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/sam-3-1/image",
+  "name": "Sam 3 1",
+  "created_by": "fal",
+  "source": "official",
+  "description": "SAM 3.1 builds comes with Object Multiplex, a shared-memory approach for joint multi-object tracking that delivers faster speeds with larger number of objects tracked.",
+  "status": "active",
+  "release_date": "2026-03-30",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/sam-3-1/image",
+  "tagline": "SAM 3.1 builds comes with Object Multiplex, a shared-memory approach for joint multi-object tracking that delivers faster speeds with larger number of objects tracked.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "a7e63a58",
+    "description": "445498d0",
+    "status": "379ac110",
+    "release_date": "1a4d1d81",
+    "model_type": "db8857fe",
+    "page_url": "9500df97",
+    "tagline": "445498d0",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

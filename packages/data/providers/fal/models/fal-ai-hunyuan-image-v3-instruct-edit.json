@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/hunyuan-image/v3/instruct/edit",
+  "name": "Hunyuan Image",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Image editing endpoint for Hunyuan Image 3.0 Instruct.",
+  "status": "active",
+  "release_date": "2026-01-28",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/hunyuan-image/v3/instruct/edit",
+  "tagline": "Image editing endpoint for Hunyuan Image 3.0 Instruct.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-28",
+  "_generated": {
+    "name": "1618aafb",
+    "description": "5a1e46f6",
+    "status": "379ac110",
+    "release_date": "7b38667e",
+    "model_type": "db8857fe",
+    "page_url": "53ce5aa4",
+    "tagline": "5a1e46f6",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "7b38667e"
+  },
+  "last_updated": "2026-05-11"
+}

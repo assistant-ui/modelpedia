@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/ltx-video-v095/multiconditioning",
+  "name": "LTX Video-0.9.5",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate videos from prompts,images, and videos using LTX Video-0.9.5",
+  "status": "active",
+  "release_date": "2025-03-05",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx-video-v095/multiconditioning",
+  "tagline": "Generate videos from prompts,images, and videos using LTX Video-0.9.5",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "a824c91e",
+    "description": "aacf4d92",
+    "status": "379ac110",
+    "release_date": "a5e693e5",
+    "model_type": "ddb0b7bc",
+    "page_url": "b2e102bd",
+    "tagline": "aacf4d92",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "stable-diffusion-xl-base-0.9",
+  "name": "Stable Diffusion Xl Base 0.9",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Diffusion Xl Base 0.9 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-06-19",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9",
+  "open_weight": true,
+  "tagline": "Stable Diffusion Xl Base 0.9 is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 106,
+  "last_modified": "2023-07-12",
+  "_generated": {
+    "name": "0e45d5d2",
+    "description": "4575930c",
+    "status": "379ac110",
+    "release_date": "f953b3d7",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "84371733",
+    "open_weight": "b326b506",
+    "tagline": "4575930c",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "f0935e4c",
+    "last_modified": "10fafc2e"
+  },
+  "last_updated": "2026-05-11"
+}

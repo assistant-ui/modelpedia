@@ -1,0 +1,33 @@
+{
+  "id": "fal-ai/minimax/hailuo-02/pro/text-to-video",
+  "name": "MiniMax Hailuo 02 [Pro] (Text to Video)",
+  "created_by": "fal",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax Hailuo-02 Text To Video API (Pro, 1080p): Advanced video generation model with 1080p resolution",
+  "status": "active",
+  "release_date": "2025-06-18",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/minimax/hailuo-02/pro/text-to-video",
+  "tagline": "MiniMax Hailuo-02 Text To Video API (Pro, 1080p): Advanced video generation model with 1080p resolution",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "10eeb40e",
+    "family": "c85916f0",
+    "description": "3552671c",
+    "status": "379ac110",
+    "release_date": "c8a753e1",
+    "model_type": "4d1b75ca",
+    "page_url": "bf4d63bc",
+    "tagline": "3552671c",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

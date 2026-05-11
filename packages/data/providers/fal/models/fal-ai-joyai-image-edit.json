@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/joyai-image-edit",
+  "name": "Joyai Image Edit",
+  "created_by": "fal",
+  "source": "official",
+  "description": "All-in-one image AI with JoyAI-Image.",
+  "status": "active",
+  "release_date": "2026-04-06",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/joyai-image-edit",
+  "tagline": "All-in-one image AI with JoyAI-Image.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "a3a0b543",
+    "description": "76b43c9a",
+    "status": "379ac110",
+    "release_date": "8450b0e1",
+    "model_type": "db8857fe",
+    "page_url": "f54d5dd2",
+    "tagline": "76b43c9a",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

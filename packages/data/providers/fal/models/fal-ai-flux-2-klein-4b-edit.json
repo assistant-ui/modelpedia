@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-2/klein/4b/edit",
+  "name": "FLUX.2 [klein] 4B",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Image-to-image editing with FLUX.2 [klein] 4B from Black Forest Labs.",
+  "status": "active",
+  "release_date": "2026-01-15",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-2/klein/4b/edit",
+  "tagline": "Image-to-image editing with FLUX.2 [klein] 4B from Black Forest Labs.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-03-17",
+  "_generated": {
+    "name": "0dc7d469",
+    "description": "19fe5e71",
+    "status": "379ac110",
+    "release_date": "9e27f046",
+    "model_type": "db8857fe",
+    "page_url": "f16ed00b",
+    "tagline": "19fe5e71",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "56d4bd95"
+  },
+  "last_updated": "2026-05-11"
+}

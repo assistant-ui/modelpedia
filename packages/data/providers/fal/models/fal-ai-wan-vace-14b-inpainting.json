@@ -1,0 +1,30 @@
+{
+  "id": "fal-ai/wan-vace-14b/inpainting",
+  "name": "Wan VACE 14B",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "VACE is a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
+  "status": "active",
+  "release_date": "2025-06-18",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/wan-vace-14b/inpainting",
+  "tagline": "VACE is a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "19daf87a",
+    "family": "2aadc089",
+    "description": "7ebbe409",
+    "status": "379ac110",
+    "release_date": "c8a753e1",
+    "model_type": "ddb0b7bc",
+    "page_url": "0bd236f9",
+    "tagline": "7ebbe409",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

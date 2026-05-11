@@ -1,0 +1,38 @@
+{
+  "id": "clarityai/crystal-upscaler",
+  "name": "Crystal Upscaler",
+  "created_by": "clarityai",
+  "source": "official",
+  "description": "An advanced image enhancement tool designed specifically for facial details and portrait photography, utilizing Clarity AI's upscaling technology.",
+  "status": "active",
+  "release_date": "2025-11-25",
+  "model_type": "image",
+  "page_url": "https://fal.run/clarityai/crystal-upscaler",
+  "tagline": "An advanced image enhancement tool designed specifically for facial details and portrait photography, utilizing Clarity AI's upscaling technology.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "tools": ["function_calling"],
+  "last_seen_at": "2026-05-06",
+  "_generated": {
+    "name": "a02035ec",
+    "description": "6d79c464",
+    "status": "379ac110",
+    "release_date": "a4a8a70d",
+    "model_type": "db8857fe",
+    "page_url": "74306042",
+    "tagline": "6d79c464",
+    "capabilities": "ed0d180f",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "tools": "f0c1dc7e",
+    "last_seen_at": "ad37623a"
+  },
+  "last_updated": "2026-05-11"
+}

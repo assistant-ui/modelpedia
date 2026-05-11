@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/chatterbox/speech-to-speech",
+  "name": "Chatterbox",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Whether you're working on memes, videos, games, or AI agents, Chatterbox brings your content to life.",
+  "status": "active",
+  "release_date": "2025-06-01",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/chatterbox/speech-to-speech",
+  "tagline": "Whether you're working on memes, videos, games, or AI agents, Chatterbox brings your content to life.",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "e7f69c35",
+    "description": "c78172f3",
+    "status": "379ac110",
+    "release_date": "7cfa33a8",
+    "model_type": "ddb0b7bc",
+    "page_url": "30a1e69b",
+    "tagline": "c78172f3",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

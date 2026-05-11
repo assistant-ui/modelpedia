@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling-video/v1/standard/image-to-video",
+  "name": "Kling 1.0",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate video clips from your images using Kling 1.0",
+  "status": "active",
+  "release_date": "2024-10-04",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/v1/standard/image-to-video",
+  "tagline": "Generate video clips from your images using Kling 1.0",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "95c3f321",
+    "description": "bc06203b",
+    "status": "379ac110",
+    "release_date": "ae0faeae",
+    "model_type": "4d1b75ca",
+    "page_url": "949f723d",
+    "tagline": "bc06203b",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

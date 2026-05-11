@@ -1,0 +1,36 @@
+{
+  "id": "fal-ai/flux-2/klein/9b/base",
+  "name": "FLUX.2 [klein] 9B Base",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Text-to-image generation with FLUX.2 [klein] 9B Base from Black Forest Labs.",
+  "status": "active",
+  "release_date": "2026-01-15",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-2/klein/9b/base",
+  "tagline": "Text-to-image generation with FLUX.2 [klein] 9B Base from Black Forest Labs.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "ed3f9fb5",
+    "description": "f67364b2",
+    "status": "379ac110",
+    "release_date": "9e27f046",
+    "model_type": "db8857fe",
+    "page_url": "98c12921",
+    "tagline": "f67364b2",
+    "capabilities": "8a3b232e",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

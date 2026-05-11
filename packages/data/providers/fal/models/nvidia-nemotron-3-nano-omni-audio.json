@@ -1,0 +1,35 @@
+{
+  "id": "nvidia/nemotron-3-nano-omni/audio",
+  "name": "Nemotron 3 Nano Omni",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Audio reasoning variant of NVIDIA's Nemotron 3 Nano Omni.",
+  "status": "active",
+  "release_date": "2026-04-27",
+  "model_type": "transcription",
+  "page_url": "https://fal.run/nvidia/nemotron-3-nano-omni/audio",
+  "tagline": "Audio reasoning variant of NVIDIA's Nemotron 3 Nano Omni.",
+  "capabilities": {
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "last_seen_at": "2026-04-30",
+  "_generated": {
+    "name": "46feb084",
+    "description": "328fdc86",
+    "status": "379ac110",
+    "release_date": "79a25cd1",
+    "model_type": "5e12d29a",
+    "page_url": "6a911690",
+    "tagline": "328fdc86",
+    "capabilities": "7107421f",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "last_seen_at": "a53a2b69"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/workflow-utilities/scale-video",
+  "name": "Workflow Utilities",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FFMPEG Utilities to Scale Videos",
+  "status": "active",
+  "release_date": "2026-02-16",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/workflow-utilities/scale-video",
+  "tagline": "FFMPEG Utilities to Scale Videos",
+  "last_seen_at": "2026-02-17",
+  "_generated": {
+    "name": "5a6862ba",
+    "description": "c8bf34a7",
+    "status": "379ac110",
+    "release_date": "6c624983",
+    "model_type": "ddb0b7bc",
+    "page_url": "da92bdbf",
+    "tagline": "c8bf34a7",
+    "last_seen_at": "c2ea1a8b"
+  },
+  "last_updated": "2026-05-11"
+}

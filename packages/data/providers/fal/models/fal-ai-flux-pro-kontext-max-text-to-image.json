@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-pro/kontext/max/text-to-image",
+  "name": "FLUX.1 Kontext [max]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX.1 Kontext [max] text-to-image is a new premium model brings maximum performance across all aspects – greatly improved prompt adherence.",
+  "status": "active",
+  "release_date": "2025-05-29",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-pro/kontext/max/text-to-image",
+  "tagline": "FLUX.1 Kontext [max] text-to-image is a new premium model brings maximum performance across all aspects – greatly improved prompt adherence.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "fc61aaf1",
+    "description": "3f172b43",
+    "status": "379ac110",
+    "release_date": "b2e64734",
+    "model_type": "db8857fe",
+    "page_url": "de68845d",
+    "tagline": "3f172b43",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

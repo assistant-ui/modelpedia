@@ -1,0 +1,42 @@
+{
+  "id": "stable-diffusion-3-medium-amdnpu",
+  "name": "Stable Diffusion 3 Medium Amdnpu",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Diffusion 3 Medium Amdnpu is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2026-05-01",
+  "model_type": "image",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium-amdnpu",
+  "open_weight": true,
+  "tagline": "Stable Diffusion 3 Medium Amdnpu is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "huggingface_downloads": 4,
+  "last_modified": "2026-05-05",
+  "_generated": {
+    "name": "64ed1575",
+    "description": "b6f0e4ff",
+    "status": "379ac110",
+    "release_date": "d013c22f",
+    "model_type": "db8857fe",
+    "license": "ddb0b7bc",
+    "page_url": "d26cee7b",
+    "open_weight": "b326b506",
+    "tagline": "b6f0e4ff",
+    "capabilities": "ea60b262",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "huggingface_downloads": "a87ff679",
+    "last_modified": "ab530d19"
+  },
+  "last_updated": "2026-05-11"
+}

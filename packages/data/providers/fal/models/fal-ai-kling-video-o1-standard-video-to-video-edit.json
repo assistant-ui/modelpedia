@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/kling-video/o1/standard/video-to-video/edit",
+  "name": "Kling O1 Edit Video [Standard]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Edit an existing video using natural-language instructions, transforming subjects, settings, and style while retaining the original motion structure.",
+  "status": "active",
+  "release_date": "2025-12-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/kling-video/o1/standard/video-to-video/edit",
+  "tagline": "Edit an existing video using natural-language instructions, transforming subjects, settings, and style while retaining the original motion structure.",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "44c9d9da",
+    "description": "13de77b5",
+    "status": "379ac110",
+    "release_date": "56423574",
+    "model_type": "ddb0b7bc",
+    "page_url": "c65c588b",
+    "tagline": "13de77b5",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

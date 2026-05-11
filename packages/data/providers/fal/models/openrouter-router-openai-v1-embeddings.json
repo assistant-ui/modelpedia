@@ -1,0 +1,24 @@
+{
+  "id": "openrouter/router/openai/v1/embeddings",
+  "name": "OpenRouter Embeddings [OpenAI Compatible]",
+  "created_by": "openrouter",
+  "source": "official",
+  "description": "Generate text embeddings using OpenAI-compatible API.",
+  "status": "active",
+  "release_date": "2025-11-12",
+  "model_type": "other",
+  "page_url": "https://fal.run/openrouter/router/openai/v1/embeddings",
+  "tagline": "Generate text embeddings using OpenAI-compatible API.",
+  "last_seen_at": "2026-05-06",
+  "_generated": {
+    "name": "eaf9a4c5",
+    "description": "67e14abe",
+    "status": "379ac110",
+    "release_date": "6364276c",
+    "model_type": "ddb0b7bc",
+    "page_url": "486bb0c9",
+    "tagline": "67e14abe",
+    "last_seen_at": "ad37623a"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling-image/v3/text-to-image",
+  "name": "Kling Image",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling V3: Latest Kling Image model",
+  "status": "active",
+  "release_date": "2026-02-03",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/kling-image/v3/text-to-image",
+  "tagline": "Kling V3: Latest Kling Image model",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "b86da77f",
+    "description": "259a8551",
+    "status": "379ac110",
+    "release_date": "3c99ab7f",
+    "model_type": "db8857fe",
+    "page_url": "e587df24",
+    "tagline": "259a8551",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

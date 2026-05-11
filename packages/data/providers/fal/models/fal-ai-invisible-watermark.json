@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/invisible-watermark",
+  "name": "Invisible Watermark",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Invisible Watermark is a model that can add an invisible watermark to an image.",
+  "status": "active",
+  "release_date": "2025-03-14",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/invisible-watermark",
+  "tagline": "Invisible Watermark is a model that can add an invisible watermark to an image.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "c4e44f99",
+    "description": "a32abb15",
+    "status": "379ac110",
+    "release_date": "e0a4c199",
+    "model_type": "db8857fe",
+    "page_url": "c27d5446",
+    "tagline": "a32abb15",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "851-labs/background-remover",
+  "name": "Background Remover",
+  "created_by": "851-labs",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/851-labs/background-remover",
+  "_generated": {
+    "name": "710f5a01",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "47fc5ccb"
+  },
+  "last_updated": "2026-05-11"
+}

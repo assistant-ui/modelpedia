@@ -1,0 +1,31 @@
+{
+  "id": "argil/avatars/text-to-video",
+  "name": "Avatars Text to Video",
+  "created_by": "argil",
+  "source": "official",
+  "description": "High-quality avatar videos that feel real, generated from your text",
+  "status": "active",
+  "release_date": "2025-09-01",
+  "model_type": "video",
+  "page_url": "https://fal.run/argil/avatars/text-to-video",
+  "tagline": "High-quality avatar videos that feel real, generated from your text",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "93986605",
+    "description": "28428925",
+    "status": "379ac110",
+    "release_date": "8b12ba6e",
+    "model_type": "4d1b75ca",
+    "page_url": "28b2d072",
+    "tagline": "28428925",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

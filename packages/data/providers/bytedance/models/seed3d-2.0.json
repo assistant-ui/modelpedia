@@ -1,0 +1,20 @@
+{
+  "id": "seed3d-2.0",
+  "name": "Seed3D 2.0",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Next-generation 3D generative model with architectural upgrades focused on geometric precision and material quality.",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://seed.bytedance.com/en/seed3d_2_0",
+  "tagline": "Next-generation 3D generative model with architectural upgrades focused on geometric precision and material quality.",
+  "_generated": {
+    "name": "9dd18f77",
+    "description": "49bbe473",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "38de1b00",
+    "tagline": "49bbe473"
+  },
+  "last_updated": "2026-05-11"
+}

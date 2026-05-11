@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/kling-video/o1/standard/video-to-video/reference",
+  "name": "Kling O1 Reference Video to Video [Standard]",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling O1 Omni generates new shots guided by an input reference video, preserving cinematic language such as motion, and camera style to produce seamless scene continuity.",
+  "status": "active",
+  "release_date": "2025-12-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/kling-video/o1/standard/video-to-video/reference",
+  "tagline": "Kling O1 Omni generates new shots guided by an input reference video, preserving cinematic language such as motion, and camera style to produce seamless scene continuity.",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "990b85cc",
+    "description": "bdcb4ce4",
+    "status": "379ac110",
+    "release_date": "56423574",
+    "model_type": "ddb0b7bc",
+    "page_url": "b51f37a0",
+    "tagline": "bdcb4ce4",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

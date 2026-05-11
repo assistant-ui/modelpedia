@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/leffa/virtual-tryon",
+  "name": "Leffa Virtual TryOn",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Leffa Virtual TryOn is a high quality image based Try-On endpoint which can be used for commercial try on.",
+  "status": "active",
+  "release_date": "2024-12-17",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/leffa/virtual-tryon",
+  "tagline": "Leffa Virtual TryOn is a high quality image based Try-On endpoint which can be used for commercial try on.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "db084678",
+    "description": "6ed0d854",
+    "status": "379ac110",
+    "release_date": "4a83ff32",
+    "model_type": "db8857fe",
+    "page_url": "c8f3eecb",
+    "tagline": "6ed0d854",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

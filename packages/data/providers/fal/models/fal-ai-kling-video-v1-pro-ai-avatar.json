@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling-video/v1/pro/ai-avatar",
+  "name": "Kling AI Avatar Pro",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling AI Avatar Pro: The premium endpoint for creating avatar videos with realistic humans, animals, cartoons, or stylized characters",
+  "status": "active",
+  "release_date": "2025-09-13",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/v1/pro/ai-avatar",
+  "tagline": "Kling AI Avatar Pro: The premium endpoint for creating avatar videos with realistic humans, animals, cartoons, or stylized characters",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "0df7c6d3",
+    "description": "a4facfbf",
+    "status": "379ac110",
+    "release_date": "ffbc9f23",
+    "model_type": "4d1b75ca",
+    "page_url": "44e63287",
+    "tagline": "a4facfbf",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

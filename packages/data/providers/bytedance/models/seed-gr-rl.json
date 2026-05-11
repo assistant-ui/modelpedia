@@ -1,0 +1,20 @@
+{
+  "id": "seed-gr-rl",
+  "name": "Seed GR-RL",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A reinforcement learning framework for long-horizon dexterous manipulation, enabling robots to execute multi-step, high-precision tasks in real-world environments.",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://seed.bytedance.com/en/gr_rl",
+  "tagline": "A reinforcement learning framework for long-horizon dexterous manipulation, enabling robots to execute multi-step, high-precision tasks in real-world environments.",
+  "_generated": {
+    "name": "f6b76393",
+    "description": "5ad07177",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "bad82cc7",
+    "tagline": "5ad07177"
+  },
+  "last_updated": "2026-05-11"
+}

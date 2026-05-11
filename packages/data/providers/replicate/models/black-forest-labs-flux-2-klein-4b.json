@@ -1,0 +1,25 @@
+{
+  "id": "black-forest-labs/flux-2-klein-4b",
+  "name": "Flux 2 Klein 4b",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "parameters": 4,
+  "page_url": "https://replicate.com/black-forest-labs/flux-2-klein-4b",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "f68958b2",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "parameters": "a87ff679",
+    "page_url": "ffb83cb6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-05-11"
+}

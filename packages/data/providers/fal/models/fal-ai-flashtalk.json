@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/flashtalk",
+  "name": "Flashtalk",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Audio-driven talking avatar generation powered by the SoulX-FlashTalk 14B model.",
+  "status": "active",
+  "release_date": "2026-03-12",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/flashtalk",
+  "tagline": "Audio-driven talking avatar generation powered by the SoulX-FlashTalk 14B model.",
+  "last_seen_at": "2026-05-07",
+  "_generated": {
+    "name": "06661ffb",
+    "description": "748c8e8b",
+    "status": "379ac110",
+    "release_date": "96ba6f81",
+    "model_type": "ddb0b7bc",
+    "page_url": "395e8b60",
+    "tagline": "748c8e8b",
+    "last_seen_at": "d465a48a"
+  },
+  "last_updated": "2026-05-11"
+}

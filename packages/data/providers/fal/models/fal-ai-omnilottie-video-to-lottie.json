@@ -1,0 +1,29 @@
+{
+  "id": "fal-ai/omnilottie/video-to-lottie",
+  "name": "Omnilottie",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Convert your assets into lottie using Omnilottie.",
+  "status": "active",
+  "release_date": "2026-03-11",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/omnilottie/video-to-lottie",
+  "tagline": "Convert your assets into lottie using Omnilottie.",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true
+  },
+  "last_seen_at": "2026-03-17",
+  "_generated": {
+    "name": "c6b076b0",
+    "description": "54e14a6f",
+    "status": "379ac110",
+    "release_date": "81f079f9",
+    "model_type": "ddb0b7bc",
+    "page_url": "f1a4bbdf",
+    "tagline": "54e14a6f",
+    "capabilities": "dbb5b7fe",
+    "last_seen_at": "56d4bd95"
+  },
+  "last_updated": "2026-05-11"
+}

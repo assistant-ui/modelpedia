@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling-video/v2.1/standard/image-to-video",
+  "name": "Kling 2.1 (standard)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling 2.1 Standard is a cost-efficient endpoint for the Kling 2.1 model, delivering high-quality image-to-video generation \n\n",
+  "status": "active",
+  "release_date": "2025-05-28",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/v2.1/standard/image-to-video",
+  "tagline": "Kling 2.1 Standard is a cost-efficient endpoint for the Kling 2.1 model, delivering high-quality image-to-video generation \n\n",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "b60d9b91",
+    "description": "565553bb",
+    "status": "379ac110",
+    "release_date": "172a2c69",
+    "model_type": "4d1b75ca",
+    "page_url": "5c6e6972",
+    "tagline": "565553bb",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

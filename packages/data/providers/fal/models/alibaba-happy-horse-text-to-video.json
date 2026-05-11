@@ -1,0 +1,31 @@
+{
+  "id": "alibaba/happy-horse/text-to-video",
+  "name": "Happy Horse",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Generate 1080p video with synchronized native audio from a text prompt.",
+  "status": "active",
+  "release_date": "2026-04-24",
+  "model_type": "video",
+  "page_url": "https://fal.run/alibaba/happy-horse/text-to-video",
+  "tagline": "Generate 1080p video with synchronized native audio from a text prompt.",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "25024ca9",
+    "description": "a8394558",
+    "status": "379ac110",
+    "release_date": "173d2bb2",
+    "model_type": "4d1b75ca",
+    "page_url": "ee106bb2",
+    "tagline": "a8394558",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

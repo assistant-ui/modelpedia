@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/infinitalk",
+  "name": "Infinitalk",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Infinitalk model generates a talking avatar video from an image and audio file.",
+  "status": "active",
+  "release_date": "2025-08-21",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/infinitalk",
+  "tagline": "Infinitalk model generates a talking avatar video from an image and audio file.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "9a459fbd",
+    "description": "78a61cd9",
+    "status": "379ac110",
+    "release_date": "d9d01c83",
+    "model_type": "ddb0b7bc",
+    "page_url": "e660b84e",
+    "tagline": "78a61cd9",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

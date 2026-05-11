@@ -1,0 +1,33 @@
+{
+  "id": "fal-ai/wan-alpha",
+  "name": "Wan Alpha",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Generate videos with transparent backgrounds",
+  "status": "active",
+  "release_date": "2025-10-16",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/wan-alpha",
+  "tagline": "Generate videos with transparent backgrounds",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "48e0730f",
+    "family": "2aadc089",
+    "description": "52f6bd92",
+    "status": "379ac110",
+    "release_date": "afca85c1",
+    "model_type": "4d1b75ca",
+    "page_url": "4bd9c928",
+    "tagline": "52f6bd92",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

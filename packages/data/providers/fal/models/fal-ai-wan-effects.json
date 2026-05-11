@@ -1,0 +1,37 @@
+{
+  "id": "fal-ai/wan-effects",
+  "name": "Wan Effects",
+  "created_by": "fal",
+  "source": "official",
+  "family": "wan",
+  "description": "Wan Effects generates high-quality videos with popular effects from images",
+  "status": "active",
+  "release_date": "2025-03-13",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/wan-effects",
+  "tagline": "Wan Effects generates high-quality videos with popular effects from images",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "5b401613",
+    "family": "2aadc089",
+    "description": "4f55cb43",
+    "status": "379ac110",
+    "release_date": "5558421b",
+    "model_type": "4d1b75ca",
+    "page_url": "619591ae",
+    "tagline": "4f55cb43",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

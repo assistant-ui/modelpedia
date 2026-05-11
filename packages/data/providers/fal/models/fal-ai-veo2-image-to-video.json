@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/veo2/image-to-video",
+  "name": "Veo 2 (Image to Video)",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Veo 2 creates videos from images with realistic motion and very high quality output.",
+  "status": "active",
+  "release_date": "2025-03-11",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/veo2/image-to-video",
+  "tagline": "Veo 2 creates videos from images with realistic motion and very high quality output.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-28",
+  "_generated": {
+    "name": "a75215e3",
+    "description": "b7bcc658",
+    "status": "379ac110",
+    "release_date": "53813ccd",
+    "model_type": "4d1b75ca",
+    "page_url": "ec60c96d",
+    "tagline": "b7bcc658",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "52326430"
+  },
+  "last_updated": "2026-05-11"
+}

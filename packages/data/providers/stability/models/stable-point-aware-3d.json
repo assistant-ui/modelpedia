@@ -1,0 +1,35 @@
+{
+  "id": "stable-point-aware-3d",
+  "name": "Stable Point Aware 3d",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Point Aware 3d is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2024-12-28",
+  "model_type": "other",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-point-aware-3d",
+  "open_weight": true,
+  "tagline": "Stable Point Aware 3d is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "vision": true,
+    "fine_tuning": true
+  },
+  "huggingface_downloads": 1372,
+  "last_modified": "2025-04-08",
+  "_generated": {
+    "name": "823e794a",
+    "description": "e6ad74e2",
+    "status": "379ac110",
+    "release_date": "f200a605",
+    "model_type": "ddb0b7bc",
+    "license": "ddb0b7bc",
+    "page_url": "e49bd87e",
+    "open_weight": "b326b506",
+    "tagline": "e6ad74e2",
+    "capabilities": "ea60b262",
+    "huggingface_downloads": "f3bd5ad5",
+    "last_modified": "69fc7fbd"
+  },
+  "last_updated": "2026-05-11"
+}

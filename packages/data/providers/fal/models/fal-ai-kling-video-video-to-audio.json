@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/kling-video/video-to-audio",
+  "name": "Kling Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate audio from input videos using Kling",
+  "status": "active",
+  "release_date": "2025-10-09",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/kling-video/video-to-audio",
+  "tagline": "Generate audio from input videos using Kling",
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "dd782dc9",
+    "description": "8f6656d7",
+    "status": "379ac110",
+    "release_date": "35c42317",
+    "model_type": "ddb0b7bc",
+    "page_url": "e1c365ab",
+    "tagline": "8f6656d7",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

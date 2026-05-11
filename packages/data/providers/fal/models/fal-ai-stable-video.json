@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/stable-video",
+  "name": "High Quality Stable Video Diffusion",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate short video clips from your images using SVD v1.1",
+  "status": "active",
+  "release_date": "2024-09-16",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/stable-video",
+  "tagline": "Generate short video clips from your images using SVD v1.1",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "a8a5b288",
+    "description": "b4a03be0",
+    "status": "379ac110",
+    "release_date": "aec2dc94",
+    "model_type": "4d1b75ca",
+    "page_url": "b4a0d2ed",
+    "tagline": "b4a03be0",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

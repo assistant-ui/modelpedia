@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/stable-diffusion-v3-medium",
+  "name": "Stable Diffusion V3",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Stable Diffusion 3 Medium (Text to Image) is a Multimodal Diffusion Transformer (MMDiT) model that improves image quality, typography, prompt understanding, and efficiency.",
+  "status": "active",
+  "release_date": "2024-08-20",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/stable-diffusion-v3-medium",
+  "tagline": "Stable Diffusion 3 Medium (Text to Image) is a Multimodal Diffusion Transformer (MMDiT) model that improves image quality, typography, prompt understanding, and efficiency.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-26",
+  "_generated": {
+    "name": "41adefe3",
+    "description": "a56681a1",
+    "status": "379ac110",
+    "release_date": "501406d1",
+    "model_type": "db8857fe",
+    "page_url": "802fc65a",
+    "tagline": "a56681a1",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "42382078"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "openrouter/router/video/enterprise",
+  "name": "OpenRouter [Video][Enterprise]",
+  "created_by": "openrouter",
+  "source": "official",
+  "description": "Run any VLM (Video Language Model) with fal, powered by OpenRouter.",
+  "status": "active",
+  "release_date": "2026-01-13",
+  "model_type": "other",
+  "page_url": "https://fal.run/openrouter/router/video/enterprise",
+  "tagline": "Run any VLM (Video Language Model) with fal, powered by OpenRouter.",
+  "capabilities": {
+    "streaming": true
+  },
+  "last_seen_at": "2026-05-06",
+  "_generated": {
+    "name": "8846a485",
+    "description": "93d1802f",
+    "status": "379ac110",
+    "release_date": "fbf285f7",
+    "model_type": "ddb0b7bc",
+    "page_url": "cb128ddb",
+    "tagline": "93d1802f",
+    "capabilities": "0fa77dc6",
+    "last_seen_at": "ad37623a"
+  },
+  "last_updated": "2026-05-11"
+}

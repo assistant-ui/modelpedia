@@ -1,0 +1,44 @@
+{
+  "id": "sao10k/l3-8b-lunaris",
+  "name": "Sao10k L3 8B Lunaris\t",
+  "created_by": "sao10k",
+  "source": "official",
+  "description": "A generalist / roleplaying model merge based on Llama 3.",
+  "status": "active",
+  "release_date": "2024-11-28",
+  "context_window": 8192,
+  "max_output_tokens": 8192,
+  "model_type": "chat",
+  "parameters": 8,
+  "tagline": "A generalist / roleplaying model merge based on Llama 3.",
+  "capabilities": {
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.05
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "c01b9caf",
+    "description": "eb81f7cd",
+    "status": "379ac110",
+    "release_date": "93e1ab23",
+    "context_window": "77441296",
+    "max_output_tokens": "77441296",
+    "model_type": "d669f408",
+    "parameters": "c9f0f895",
+    "tagline": "eb81f7cd",
+    "capabilities": "6c099667",
+    "modalities": "68e53d93",
+    "pricing": "d3db3c2d",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/codeformer",
+  "name": "CodeFormer",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Fix distorted or blurred photos of people with CodeFormer.",
+  "status": "active",
+  "release_date": "2025-01-31",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/codeformer",
+  "tagline": "Fix distorted or blurred photos of people with CodeFormer.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "a83dfdf2",
+    "description": "71c58c4d",
+    "status": "379ac110",
+    "release_date": "8e2cb9dd",
+    "model_type": "db8857fe",
+    "page_url": "17788961",
+    "tagline": "71c58c4d",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

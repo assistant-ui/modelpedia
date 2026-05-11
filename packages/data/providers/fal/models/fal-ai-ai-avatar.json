@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ai-avatar",
+  "name": "Ai Avatar",
+  "created_by": "fal",
+  "source": "official",
+  "description": "MultiTalk model generates a talking avatar video from an image and audio file.",
+  "status": "active",
+  "release_date": "2025-06-23",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/ai-avatar",
+  "tagline": "MultiTalk model generates a talking avatar video from an image and audio file.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "0a42a4f6",
+    "description": "f3d3a02f",
+    "status": "379ac110",
+    "release_date": "b3f1b1d4",
+    "model_type": "4d1b75ca",
+    "page_url": "ce6e3a93",
+    "tagline": "f3d3a02f",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

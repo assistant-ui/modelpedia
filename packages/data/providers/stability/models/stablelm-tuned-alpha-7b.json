@@ -1,0 +1,44 @@
+{
+  "id": "stablelm-tuned-alpha-7b",
+  "name": "Stablelm Tuned Alpha 7b",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stablelm Tuned Alpha 7b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2023-04-19",
+  "model_type": "chat",
+  "license": "cc-by-nc-sa-4.0",
+  "parameters": 7,
+  "page_url": "https://huggingface.co/stabilityai/stablelm-tuned-alpha-7b",
+  "open_weight": true,
+  "tagline": "Stablelm Tuned Alpha 7b is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 2697,
+  "last_modified": "2023-04-19",
+  "_generated": {
+    "name": "d4bd2c80",
+    "description": "8cd587bc",
+    "status": "379ac110",
+    "release_date": "1ea09bfe",
+    "model_type": "d669f408",
+    "license": "79c37f80",
+    "parameters": "8f14e45f",
+    "page_url": "4fa8e11d",
+    "open_weight": "b326b506",
+    "tagline": "8cd587bc",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "ab452534",
+    "last_modified": "1ea09bfe"
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "fal-ai/qwen-image-layered-trainer",
+  "name": "Qwen Image Layered Trainer",
+  "created_by": "fal",
+  "source": "official",
+  "family": "qwen",
+  "description": "Train LoRAs for the Qwen-Image-Layered model, customize how images are split into layers.",
+  "status": "active",
+  "release_date": "2025-12-23",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/qwen-image-layered-trainer",
+  "tagline": "Train LoRAs for the Qwen-Image-Layered model, customize how images are split into layers.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "0d34176e",
+    "family": "a3af76f3",
+    "description": "5e1af551",
+    "status": "379ac110",
+    "release_date": "b3874102",
+    "model_type": "ddb0b7bc",
+    "page_url": "5d543b56",
+    "tagline": "5e1af551",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

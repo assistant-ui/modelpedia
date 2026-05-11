@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/speech-to-text/stream",
+  "name": "Speech-To-text",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Leverage the rapid processing capabilities of AI models to enable accurate and efficient real-time speech-to-text transcription.",
+  "status": "active",
+  "release_date": "2025-04-04",
+  "model_type": "transcription",
+  "page_url": "https://fal.run/fal-ai/speech-to-text/stream",
+  "tagline": "Leverage the rapid processing capabilities of AI models to enable accurate and efficient real-time speech-to-text transcription.",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "6a1462c4",
+    "description": "4ae26abb",
+    "status": "379ac110",
+    "release_date": "ba6f7b94",
+    "model_type": "5e12d29a",
+    "page_url": "81177673",
+    "tagline": "4ae26abb",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}

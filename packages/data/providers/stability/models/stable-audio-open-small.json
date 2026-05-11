@@ -1,0 +1,37 @@
+{
+  "id": "stable-audio-open-small",
+  "name": "Stable Audio Open Small",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Audio Open Small is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2025-05-12",
+  "model_type": "audio",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-audio-open-small",
+  "open_weight": true,
+  "tagline": "Stable Audio Open Small is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "tools": ["function_calling"],
+  "huggingface_downloads": 5373,
+  "last_modified": "2025-05-27",
+  "_generated": {
+    "name": "cedaf559",
+    "description": "8d9b7098",
+    "status": "379ac110",
+    "release_date": "dd116ae8",
+    "model_type": "9f84c007",
+    "license": "ddb0b7bc",
+    "page_url": "9df9bdf8",
+    "open_weight": "b326b506",
+    "tagline": "8d9b7098",
+    "capabilities": "5de6a2be",
+    "tools": "f0c1dc7e",
+    "huggingface_downloads": "04a1bf2d",
+    "last_modified": "2c4f5431"
+  },
+  "last_updated": "2026-05-11"
+}

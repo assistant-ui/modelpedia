@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/sana/sprint",
+  "name": "Sana Sprint",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Sana Sprint is a text-to-image model capable of generating 4K images with exceptional speed.",
+  "status": "active",
+  "release_date": "2025-03-31",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/sana/sprint",
+  "tagline": "Sana Sprint is a text-to-image model capable of generating 4K images with exceptional speed.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-04-21",
+  "_generated": {
+    "name": "24c80c97",
+    "description": "c101f58d",
+    "status": "379ac110",
+    "release_date": "f54b55c5",
+    "model_type": "db8857fe",
+    "page_url": "96da56d3",
+    "tagline": "c101f58d",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5029e96d"
+  },
+  "last_updated": "2026-05-11"
+}

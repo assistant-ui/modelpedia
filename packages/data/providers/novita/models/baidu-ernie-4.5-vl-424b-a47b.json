@@ -1,0 +1,46 @@
+{
+  "id": "baidu/ernie-4.5-vl-424b-a47b",
+  "name": "ERNIE 4.5 VL 424B A47B",
+  "created_by": "baidu",
+  "source": "official",
+  "description": "The ERNIE 4.5 series of open-source models adopts a Mixture-of-Experts (MoE) architecture, representing an innovative multimodal heterogeneous model structure.",
+  "status": "active",
+  "release_date": "2025-06-30",
+  "context_window": 123000,
+  "max_output_tokens": 16000,
+  "model_type": "chat",
+  "parameters": 424,
+  "active_parameters": 47,
+  "tagline": "The ERNIE 4.5 series of open-source models adopts a Mixture-of-Experts (MoE) architecture, representing an innovative multimodal heterogeneous model structure.",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.42,
+    "output": 1.25
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "f664339f",
+    "description": "a0725509",
+    "status": "379ac110",
+    "release_date": "98c5c998",
+    "context_window": "f46ef81f",
+    "max_output_tokens": "67510c89",
+    "model_type": "d669f408",
+    "parameters": "3c7781a3",
+    "active_parameters": "67c6a1e7",
+    "tagline": "a0725509",
+    "capabilities": "09b640f2",
+    "modalities": "6399757e",
+    "pricing": "9ec0935d",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-05-11"
+}

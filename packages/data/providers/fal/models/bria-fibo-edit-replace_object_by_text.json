@@ -1,0 +1,37 @@
+{
+  "id": "bria/fibo-edit/replace_object_by_text",
+  "name": "Fibo Edit [Replace Object by Text]",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Natural, expressive object swapping within images using plain language",
+  "status": "active",
+  "release_date": "2026-01-20",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/fibo-edit/replace_object_by_text",
+  "tagline": "Natural, expressive object swapping within images using plain language",
+  "capabilities": {
+    "vision": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-01-26",
+  "_generated": {
+    "name": "f0f9cbb9",
+    "description": "c48887c7",
+    "status": "379ac110",
+    "release_date": "76120ca1",
+    "model_type": "db8857fe",
+    "page_url": "b771adc5",
+    "tagline": "c48887c7",
+    "capabilities": "42538baa",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5c252aee"
+  },
+  "last_updated": "2026-05-11"
+}
