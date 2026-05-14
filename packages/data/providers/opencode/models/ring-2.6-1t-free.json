@@ -1,0 +1,16 @@
+{
+  "id": "ring-2.6-1t-free",
+  "name": "Ring 2.6 1T",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "c4e1807c",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-05-14"
+}

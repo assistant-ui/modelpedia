@@ -3,13 +3,13 @@
   "name": "Anthropic: Claude Haiku 4.5",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-05-14",
   "family": "claude-haiku",
   "description": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models.",
   "context_window": 200000,
   "max_output_tokens": 64000,
   "modalities": {
-    "input": ["image", "text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "capabilities": {
@@ -29,7 +29,7 @@
     "description": "5bfc62fd",
     "context_window": "03e6c616",
     "max_output_tokens": "762e98db",
-    "modalities": "8b8b28d1",
+    "modalities": "6399757e",
     "capabilities": "03fbefb4",
     "pricing": "cc700ee3",
     "model_type": "d669f408",
