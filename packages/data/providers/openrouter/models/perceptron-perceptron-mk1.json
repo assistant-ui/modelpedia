@@ -1,0 +1,36 @@
+{
+  "id": "perceptron/perceptron-mk1",
+  "name": "Perceptron: Perceptron Mk1",
+  "created_by": "perceptron",
+  "source": "official",
+  "description": "Perceptron Mk1 (Mark One) is Perceptron's highest-quality vision-language model for video and embodied reasoning.** It accepts image and video inputs paired with natural language queries, and produces",
+  "release_date": "2026-05-12",
+  "context_window": 32768,
+  "max_output_tokens": 8192,
+  "tagline": "Perceptron Mk1 (Mark One) is Perceptron's highest-quality vision-language model for video and embodied reasoning.** It accepts image and video inputs paired with natural language queries, and produces",
+  "capabilities": {
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 1.5
+  },
+  "_generated": {
+    "name": "15fb1416",
+    "description": "c2111244",
+    "release_date": "a96e05b7",
+    "context_window": "f4376436",
+    "max_output_tokens": "77441296",
+    "tagline": "c2111244",
+    "capabilities": "d53412cf",
+    "modalities": "3ad4060a",
+    "pricing": "364bf28e"
+  },
+  "last_updated": "2026-05-14"
+}

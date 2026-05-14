@@ -6697,6 +6697,39 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-05-10"
       },
       {
+        "id": "deepseek-v4-flash",
+        "name": "DeepSeek-V4-Flash Preview",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "json_mode": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-14",
+        "description": "DeepSeek-V4-Flash hybrid model with both non-thinking and thinking (default) modes.",
+        "tagline": "DeepSeek-V4-Flash hybrid model with both non-thinking and thinking (default) modes.",
+        "context_window": 1000000,
+        "max_output_tokens": 384000,
+        "license": "mit",
+        "open_weight": true
+      },
+      {
         "id": "embed-v-4-0",
         "name": "embed-v-4-0",
         "created_by": "cohere",
@@ -8638,6 +8671,39 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ]
+      },
+      {
+        "id": "grok-4.3",
+        "name": "grok-4.3 Preview",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-4.3",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "batch": true,
+          "structured_output": true,
+          "reasoning": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-14",
+        "context_window": 1000000,
+        "knowledge_cutoff": "2024-11",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "grok-4",
@@ -107163,6 +107229,40 @@ export const providers: ProviderWithModels[] = [
         "knowledge_cutoff": "2023-12"
       },
       {
+        "id": "meta-llama/Llama-3.2-3B-Instruct",
+        "name": "Llama-3.2-3B-Instruct",
+        "created_by": "meta",
+        "source": "official",
+        "family": "Llama-3.2",
+        "release_date": "2024-09-18",
+        "license": "llama3.2",
+        "parameters": 3.2,
+        "page_url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-14",
+        "context_window": 131072,
+        "max_output_tokens": 131072,
+        "knowledge_cutoff": "2023-12"
+      },
+      {
         "id": "meta-llama/Llama-3.3-70B-Instruct",
         "name": "Llama-3.3-70B-Instruct",
         "created_by": "meta",
@@ -107672,6 +107772,36 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "nvidia/Gemma-4-31B-IT-NVFP4",
+        "name": "Gemma-4-31B-IT-NVFP4",
+        "created_by": "nvidia",
+        "source": "official",
+        "release_date": "2026-04-02",
+        "license": "other",
+        "parameters": 21,
+        "page_url": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-14"
       },
       {
         "id": "nvidia/Llama-3.1-8B-Instruct-FP8",
@@ -141058,6 +141188,27 @@ export const providers: ProviderWithModels[] = [
         "deprecation_date": "2026-06-15"
       },
       {
+        "id": "deepseek-v4-flash-free",
+        "name": "DeepSeek V4 Flash Free",
+        "created_by": "unknown",
+        "source": "official",
+        "family": "deepseek",
+        "status": "active",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-14"
+      },
+      {
         "id": "gemini-3-flash",
         "name": "Gemini 3 Flash",
         "created_by": "google",
@@ -142140,6 +142291,17 @@ export const providers: ProviderWithModels[] = [
         "context_window": 1000000,
         "license": "apache-2.0",
         "open_weight": true
+      },
+      {
+        "id": "ring-2.6-1t-free",
+        "name": "Ring 2.6 1T",
+        "created_by": "unknown",
+        "source": "official",
+        "status": "active",
+        "capabilities": {
+          "streaming": true
+        },
+        "last_updated": "2026-05-14"
       }
     ]
   },
@@ -142187,8 +142349,8 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "image",
-            "text"
+            "text",
+            "image"
           ],
           "output": [
             "text"
@@ -142202,7 +142364,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-14"
       },
       {
         "id": "~anthropic/claude-opus-latest",
@@ -142362,8 +142524,8 @@ export const providers: ProviderWithModels[] = [
         "family": "kimi",
         "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
         "release_date": "2026-04-27",
-        "context_window": 262144,
-        "max_output_tokens": 16384,
+        "context_window": 262142,
+        "max_output_tokens": 262142,
         "model_type": "chat",
         "tagline": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
         "capabilities": {
@@ -142382,14 +142544,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.75,
+          "input": 0.74,
           "output": 3.5,
-          "cached_input": 0.15
+          "cached_input": 0.25
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-06"
+        "last_updated": "2026-05-14"
       },
       {
         "id": "~openai/gpt-latest",
@@ -143278,15 +143440,15 @@ export const providers: ProviderWithModels[] = [
         "name": "Anthropic: Claude Haiku 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-14",
         "family": "claude-haiku",
         "description": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models.",
         "context_window": 200000,
         "max_output_tokens": 64000,
         "modalities": {
           "input": [
-            "image",
-            "text"
+            "text",
+            "image"
           ],
           "output": [
             "text"
@@ -143457,6 +143619,43 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ]
+      },
+      {
+        "id": "anthropic/claude-opus-4.7-fast",
+        "name": "Anthropic: Claude Opus 4.7 (Fast)",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "description": "Fast-mode variant of [Opus 4.7](/anthropic/claude-opus-4.7) - identical capabilities with higher output speed at premium 6x pricing.",
+        "release_date": "2026-05-12",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "tagline": "Fast-mode variant of [Opus 4.7](/anthropic/claude-opus-4.7) - identical capabilities with higher output speed at premium 6x pricing.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 30,
+          "output": 150,
+          "cached_input": 3
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-14"
       },
       {
         "id": "anthropic/claude-opus-4.7",
@@ -143771,6 +143970,33 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-04-24"
+      },
+      {
+        "id": "arcee-ai/trinity-large-thinking:free",
+        "name": "Arcee AI: Trinity Large Thinking (free)",
+        "created_by": "arcee-ai",
+        "source": "official",
+        "description": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI.",
+        "release_date": "2026-04-01",
+        "context_window": 262144,
+        "max_output_tokens": 80000,
+        "tagline": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI.",
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-14"
       },
       {
         "id": "arcee-ai/trinity-large-thinking",
@@ -144509,11 +144735,11 @@ export const providers: ProviderWithModels[] = [
         "name": "DeepSeek: DeepSeek V3.1",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-14",
         "family": "deepseek-chat",
         "description": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates.",
-        "context_window": 32768,
-        "max_output_tokens": 7168,
+        "context_window": 163840,
+        "max_output_tokens": 32768,
         "modalities": {
           "input": [
             "text"
@@ -144529,8 +144755,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.15,
-          "output": 0.75
+          "input": 0.21,
+          "output": 0.79,
+          "cached_input": 0.13
         },
         "release_date": "2025-08-21",
         "tagline": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates.",
@@ -144850,6 +145077,35 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 65536
       },
       {
+        "id": "deepseek/deepseek-v4-flash:free",
+        "name": "DeepSeek: DeepSeek V4 Flash (free)",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window.",
+        "release_date": "2026-04-24",
+        "context_window": 256000,
+        "max_output_tokens": 256000,
+        "model_type": "chat",
+        "tagline": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window.",
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-14"
+      },
+      {
         "id": "deepseek/deepseek-v4-flash",
         "name": "DeepSeek: DeepSeek V4 Flash",
         "created_by": "deepseek",
@@ -144858,7 +145114,7 @@ export const providers: ProviderWithModels[] = [
         "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window.",
         "release_date": "2026-04-24",
         "context_window": 1048576,
-        "max_output_tokens": 384000,
+        "max_output_tokens": 131072,
         "model_type": "chat",
         "tagline": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window.",
         "capabilities": {
@@ -144878,14 +145134,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.14,
-          "output": 0.28,
-          "cached_input": 0.003
+          "input": 0.126,
+          "output": 0.252,
+          "cached_input": 0.025
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-05-14",
         "license": "mit",
         "open_weight": true
       },
@@ -144991,12 +145247,12 @@ export const providers: ProviderWithModels[] = [
         "name": "Google: Gemini 2.0 Flash",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-05-10",
+        "last_updated": "2026-05-14",
         "family": "gemini-2.0",
         "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5).",
         "status": "deprecated",
         "deprecation_date": "2026-06-01",
-        "context_window": 1000000,
+        "context_window": 1048576,
         "max_output_tokens": 8192,
         "modalities": {
           "input": [
@@ -146179,11 +146435,11 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.13,
-          "output": 0.38,
+          "input": 0.12,
+          "output": 0.37,
           "cached_input": 0.02
         },
-        "last_updated": "2026-04-25",
+        "last_updated": "2026-05-14",
         "tools": [
           "function_calling"
         ]
@@ -147678,7 +147934,7 @@ export const providers: ProviderWithModels[] = [
         "name": "MiniMax: MiniMax M2.7",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-05-10",
+        "last_updated": "2026-05-14",
         "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement.",
         "context_window": 196608,
         "max_output_tokens": 131072,
@@ -147698,7 +147954,7 @@ export const providers: ProviderWithModels[] = [
           "streaming": true
         },
         "pricing": {
-          "input": 0.299,
+          "input": 0.279,
           "output": 1.2,
           "cached_input": 0.059
         },
@@ -149185,7 +149441,7 @@ export const providers: ProviderWithModels[] = [
         "name": "MoonshotAI: Kimi K2 0905",
         "created_by": "moonshotai",
         "source": "official",
-        "last_updated": "2026-05-10",
+        "last_updated": "2026-05-14",
         "description": "Kimi K2 0905 is the September update of [Kimi K2 0711](moonshotai/kimi-k2).",
         "context_window": 262144,
         "modalities": {
@@ -149202,8 +149458,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.4,
-          "output": 2,
+          "input": 0.6,
+          "output": 2.5,
           "cached_input": 0.15
         },
         "family": "kimi-k2",
@@ -149258,10 +149514,10 @@ export const providers: ProviderWithModels[] = [
         "name": "MoonshotAI: Kimi K2.5",
         "created_by": "moonshotai",
         "source": "official",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-05-14",
         "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm.",
         "context_window": 262144,
-        "max_output_tokens": 65535,
+        "max_output_tokens": 262144,
         "modalities": {
           "input": [
             "text",
@@ -149278,9 +149534,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.44,
-          "output": 2,
-          "cached_input": 0.22
+          "input": 0.4,
+          "output": 1.9,
+          "cached_input": 0.09
         },
         "family": "kimi-k2.5",
         "model_type": "chat",
@@ -149298,8 +149554,8 @@ export const providers: ProviderWithModels[] = [
         "family": "kimi-k2.6",
         "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration.",
         "release_date": "2026-04-20",
-        "context_window": 262144,
-        "max_output_tokens": 16384,
+        "context_window": 262142,
+        "max_output_tokens": 262142,
         "model_type": "chat",
         "tagline": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration.",
         "capabilities": {
@@ -149318,14 +149574,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.75,
+          "input": 0.74,
           "output": 3.5,
-          "cached_input": 0.15
+          "cached_input": 0.25
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-06"
+        "last_updated": "2026-05-14"
       },
       {
         "id": "moonshotai/kimi-k2",
@@ -150789,10 +151045,10 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o-mini",
-        "name": "OpenAI: GPT-4o-mini",
+        "name": "OpenAI: GPT-4o-mini (2024-07-18)",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-22",
+        "last_updated": "2026-05-14",
         "family": "gpt-4o",
         "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs.",
         "context_window": 128000,
@@ -150874,14 +151130,14 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o",
-        "name": "OpenAI: GPT-4o",
+        "name": "OpenAI: GPT-4o (2024-05-13)",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-22",
+        "last_updated": "2026-05-14",
         "family": "gpt-4o",
         "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs.",
         "context_window": 128000,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 4096,
         "modalities": {
           "input": [
             "text",
@@ -150902,8 +151158,8 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 2.5,
-          "output": 10,
+          "input": 5,
+          "output": 15,
           "cached_input": 1.25
         },
         "model_type": "chat",
@@ -152878,6 +153134,37 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-05-10"
+      },
+      {
+        "id": "perceptron/perceptron-mk1",
+        "name": "Perceptron: Perceptron Mk1",
+        "created_by": "perceptron",
+        "source": "official",
+        "description": "Perceptron Mk1 (Mark One) is Perceptron's highest-quality vision-language model for video and embodied reasoning.** It accepts image and video inputs paired with natural language queries, and produces",
+        "release_date": "2026-05-12",
+        "context_window": 32768,
+        "max_output_tokens": 8192,
+        "tagline": "Perceptron Mk1 (Mark One) is Perceptron's highest-quality vision-language model for video and embodied reasoning.** It accepts image and video inputs paired with natural language queries, and produces",
+        "capabilities": {
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 1.5
+        },
+        "last_updated": "2026-05-14"
       },
       {
         "id": "perplexity/sonar-deep-research",
@@ -157090,10 +157377,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Z.ai: GLM 4.6",
         "created_by": "z-ai",
         "source": "official",
-        "last_updated": "2026-05-10",
+        "last_updated": "2026-05-14",
         "description": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex.",
-        "context_window": 204800,
-        "max_output_tokens": 204800,
+        "context_window": 202752,
+        "max_output_tokens": 131072,
         "modalities": {
           "input": [
             "text"
@@ -157109,8 +157396,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.39,
-          "output": 1.9
+          "input": 0.43,
+          "output": 1.74,
+          "cached_input": 0.08
         },
         "family": "glm-4.6",
         "model_type": "chat",
@@ -157784,6 +158072,80 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "knowledge_cutoff": "2025-01"
+      },
+      {
+        "id": "google/gemini-3.1-flash-lite-preview",
+        "name": "google/gemini-3.1-flash-lite-preview",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3.1",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-14",
+        "description": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks. Gemini 3.1 Flash-Lite is best for high-volume agentic tasks, simple data extraction, and extremely low-latency applications where budget and speed are the primary constraints.",
+        "tagline": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks.",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "knowledge_cutoff": "2025-01"
+      },
+      {
+        "id": "google/gemini-3.1-flash-lite",
+        "name": "google/gemini-3.1-flash-lite",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3.1",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-14",
+        "description": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
+        "tagline": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary con",
         "context_window": 1048576,
         "max_output_tokens": 65536,
         "knowledge_cutoff": "2025-01"

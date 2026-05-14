@@ -3,7 +3,7 @@
   "name": "MoonshotAI: Kimi K2 0905",
   "created_by": "moonshotai",
   "source": "official",
-  "last_updated": "2026-05-10",
+  "last_updated": "2026-05-14",
   "description": "Kimi K2 0905 is the September update of [Kimi K2 0711](moonshotai/kimi-k2).",
   "context_window": 262144,
   "modalities": {
@@ -16,8 +16,8 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.4,
-    "output": 2,
+    "input": 0.6,
+    "output": 2.5,
     "cached_input": 0.15
   },
   "_generated": {
@@ -26,7 +26,7 @@
     "context_window": "4a1d32eb",
     "modalities": "68e53d93",
     "capabilities": "6c9aa67e",
-    "pricing": "b2f7fd17",
+    "pricing": "62686561",
     "family": "0f7256d5",
     "model_type": "d669f408",
     "release_date": "d9b57e93",
