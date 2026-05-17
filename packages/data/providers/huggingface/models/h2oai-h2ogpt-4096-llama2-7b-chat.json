@@ -1,0 +1,33 @@
+{
+  "id": "h2oai/h2ogpt-4096-llama2-7b-chat",
+  "name": "h2ogpt-4096-llama2-7b-chat",
+  "created_by": "h2oai",
+  "source": "official",
+  "description": "h2oGPT clone of [Meta's Llama 2 7B Chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf).",
+  "release_date": "2023-08-09",
+  "context_window": 4096,
+  "license": "llama2",
+  "parameters": 6.7,
+  "page_url": "https://huggingface.co/h2oai/h2ogpt-4096-llama2-7b-chat",
+  "architecture": "transformer",
+  "tagline": "h2oGPT clone of [Meta's Llama 2 7B Chat](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf).",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "7f2ff8da",
+    "description": "d98581ff",
+    "release_date": "aba07449",
+    "context_window": "f7efa4f8",
+    "license": "5e554d0d",
+    "parameters": "c3e22f2a",
+    "page_url": "4ff69769",
+    "architecture": "8832ea0f",
+    "tagline": "d98581ff",
+    "capabilities": "9c665f5d",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-05-17"
+}

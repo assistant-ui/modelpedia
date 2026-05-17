@@ -3,20 +3,38 @@
   "name": "gpt-5-pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-05-17",
   "family": "gpt-5",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "vision": true,
+    "json_mode": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "_generated": {
     "name": "27aaf493",
     "family": "aa904c16",
-    "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "capabilities": "d1034176",
+    "modalities": "6399757e",
+    "model_type": "d669f408",
+    "description": "b8777ded",
+    "knowledge_cutoff": "759ca9ad",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "tagline": "d4e99fff",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "description": "- Reasoning - Responses API . - Structured outputs. - Text and image processing. - Functions and tools - Full summary of capabilities .",
+  "knowledge_cutoff": "2024-09-30",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "tagline": "- Reasoning - Responses API .",
+  "tools": ["function_calling"]
 }

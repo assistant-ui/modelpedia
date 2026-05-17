@@ -1,9 +1,9 @@
 {
   "id": "gpt-4",
-  "name": "gpt-4",
+  "name": "gpt-4 1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-17",
   "family": "gpt-4",
   "knowledge_cutoff": "2023-12",
   "capabilities": {
@@ -15,7 +15,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "1be4bcd3",
+    "name": "30030a62",
     "family": "1be4bcd3",
     "knowledge_cutoff": "06c60023",
     "capabilities": "8a3b232e",

@@ -3,20 +3,32 @@
   "name": "gpt-5-chat",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-05-17",
   "family": "gpt-5",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "_generated": {
     "name": "156c4485",
     "family": "aa904c16",
-    "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e",
+    "model_type": "d669f408",
+    "description": "b17f2f09",
+    "knowledge_cutoff": "759ca9ad",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "tagline": "b549c9f1"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "description": "- Chat Completions API. - Responses API . - Input : Text/Image - Output : Text only",
+  "knowledge_cutoff": "2024-09-30",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "tagline": "- Chat Completions API."
 }

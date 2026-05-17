@@ -1,0 +1,16 @@
+{
+  "id": "s/rime-mist-v3-omni",
+  "name": "Rime Mist V3 Omni",
+  "created_by": "unknown",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/rime-mist-v3-omni",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "3712dbd7",
+    "page_url": "a81e1b63",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-05-17"
+}
