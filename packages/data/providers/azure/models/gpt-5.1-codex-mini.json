@@ -3,20 +3,37 @@
   "name": "gpt-5.1-codex-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-05-17",
   "family": "gpt-5.1",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "vision": true,
+    "json_mode": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "_generated": {
     "name": "3f2f87a7",
     "family": "2089aff2",
-    "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "capabilities": "15ab7a4a",
+    "modalities": "6399757e",
+    "model_type": "d669f408",
+    "description": "50f33c2f",
+    "knowledge_cutoff": "759ca9ad",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "tagline": "1918ed19",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "description": "- Responses API only. - Text and image processing - Structured outputs. - Functions, tools, and parallel tool calling. - Full summary of capabilities - Optimized for Codex CLI &amp; Codex VS Code extension",
+  "knowledge_cutoff": "2024-09-30",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "tagline": "- Responses API only.",
+  "tools": ["function_calling"]
 }

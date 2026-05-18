@@ -3,7 +3,7 @@
   "name": "grok-4.20-0309-reasoning",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-05-01",
+  "last_updated": "2026-05-17",
   "release_date": "2026-03-09",
   "capabilities": {
     "streaming": true,
@@ -15,7 +15,7 @@
     "vision": true
   },
   "family": "grok-4.20",
-  "context_window": 2000000,
+  "context_window": 1000000,
   "reasoning_tokens": true,
   "modalities": {
     "input": ["text", "image"],
@@ -31,7 +31,7 @@
     "release_date": "6bbd875b",
     "capabilities": "8c9c2bff",
     "family": "44972aca",
-    "context_window": "805f7438",
+    "context_window": "8155bc54",
     "reasoning_tokens": "b326b506",
     "modalities": "6399757e",
     "pricing": "64e647aa",

@@ -1,0 +1,34 @@
+{
+  "id": "baidu/qianfan-ocr-fast",
+  "name": "Baidu: Qianfan-OCR-Fast",
+  "created_by": "baidu",
+  "source": "official",
+  "description": "Qianfan-OCR-Fast is a domain-specific multimodal large model purpose-built for OCR.",
+  "release_date": "2026-04-20",
+  "context_window": 65536,
+  "max_output_tokens": 28672,
+  "tagline": "Qianfan-OCR-Fast is a domain-specific multimodal large model purpose-built for OCR.",
+  "capabilities": {
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.68,
+    "output": 2.81
+  },
+  "_generated": {
+    "name": "ebef0591",
+    "description": "4afe9588",
+    "release_date": "9b0ca917",
+    "context_window": "297ce0b3",
+    "max_output_tokens": "6964e9d5",
+    "tagline": "4afe9588",
+    "capabilities": "7107421f",
+    "modalities": "8b8b28d1",
+    "pricing": "3a35fa4b"
+  },
+  "last_updated": "2026-05-17"
+}

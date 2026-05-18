@@ -1,0 +1,21 @@
+{
+  "id": "klingai/kling-v3.0-motion-control",
+  "name": "kling-v3.0-motion-control",
+  "created_by": "klingai",
+  "source": "official",
+  "model_type": "video",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "a099fe82",
+    "model_type": "4d1b75ca",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-05-17"
+}

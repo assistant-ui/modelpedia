@@ -6,7 +6,10 @@
   "family": "gpt-5.3",
   "model_type": "chat",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -16,8 +19,20 @@
     "name": "6b901c7e",
     "family": "a1a05172",
     "model_type": "d669f408",
-    "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "capabilities": "85ac183e",
+    "modalities": "68e53d93",
+    "description": "897aa4a9",
+    "knowledge_cutoff": "5549a2cd",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "tagline": "b549c9f1",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-21"
+  "last_updated": "2026-05-17",
+  "description": "- Chat Completions API. - Responses API . - Structured outputs - Functions, tools, and parallel tool calling.",
+  "knowledge_cutoff": "2025-08",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "tagline": "- Chat Completions API.",
+  "tools": ["function_calling"]
 }

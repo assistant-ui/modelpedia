@@ -3,9 +3,9 @@
   "name": "Baidu: ERNIE 4.5 VL 424B A47B ",
   "created_by": "baidu",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-05-17",
   "description": "ERNIE-4.5-VL-424B-A47B is a multimodal Mixture-of-Experts (MoE) model from Baidu’s ERNIE 4.5 series, featuring 424B total parameters with 47B active per token.",
-  "context_window": 123000,
+  "context_window": 131072,
   "max_output_tokens": 16000,
   "modalities": {
     "input": ["image", "text"],
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "04aff36b",
     "description": "08dcacdb",
-    "context_window": "f46ef81f",
+    "context_window": "f7de594e",
     "max_output_tokens": "67510c89",
     "modalities": "8b8b28d1",
     "capabilities": "7107421f",

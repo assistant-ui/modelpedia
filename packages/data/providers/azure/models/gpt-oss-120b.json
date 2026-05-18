@@ -1,24 +1,41 @@
 {
   "id": "gpt-oss-120b",
-  "name": "gpt-oss-120b",
+  "name": "gpt-oss-120b 1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-05-17",
   "family": "gpt-oss",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
   "_generated": {
-    "name": "e8458743",
+    "name": "c40e9b5d",
     "family": "82d0cb0b",
-    "capabilities": "0fa77dc6",
+    "capabilities": "55f30939",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "parameters": "da4fb5c6",
+    "description": "3269034a",
+    "knowledge_cutoff": "83e324a8",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "tagline": "3269034a",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
-  "parameters": 120
+  "parameters": 120,
+  "description": "- Text in/text out only - Chat Completions API - Streaming - Function calling - Structured outputs - Reasoning - Available for deployment 1 and via managed compute",
+  "knowledge_cutoff": "2024-05-31",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "tagline": "- Text in/text out only - Chat Completions API - Streaming - Function calling - Structured outputs - Reasoning - Available for deployment 1 and via managed compute",
+  "tools": ["function_calling"]
 }

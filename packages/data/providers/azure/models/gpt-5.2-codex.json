@@ -3,20 +3,36 @@
   "name": "gpt-5.2-codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-05-17",
   "family": "gpt-5.2",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "vision": true,
+    "json_mode": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "_generated": {
     "name": "4e28f180",
     "family": "f580564d",
-    "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "capabilities": "d1034176",
+    "modalities": "6399757e",
+    "model_type": "d669f408",
+    "description": "cc1a6209",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "tagline": "d4e99fff",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "description": "- Reasoning - Responses API . - Structured outputs. - Text and image processing. - Functions, tools, and parallel tool calling. - Full summary of capabilities . - Optimized for Codex CLI &amp; Codex VS Code extension",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "tagline": "- Reasoning - Responses API .",
+  "tools": ["function_calling"]
 }

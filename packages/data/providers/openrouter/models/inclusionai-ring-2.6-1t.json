@@ -1,0 +1,40 @@
+{
+  "id": "inclusionai/ring-2.6-1t",
+  "name": "inclusionAI: Ring-2.6-1T",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency.",
+  "release_date": "2026-05-08",
+  "context_window": 262144,
+  "max_output_tokens": 65536,
+  "tagline": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.075,
+    "output": 0.625,
+    "cached_input": 0.015
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "5ed26fee",
+    "description": "3586bf2c",
+    "release_date": "83eb3201",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "297ce0b3",
+    "tagline": "3586bf2c",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "b0815e18",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-17"
+}

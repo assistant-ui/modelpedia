@@ -3,20 +3,37 @@
   "name": "gpt-4.1-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-05-17",
   "family": "gpt-4.1",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "vision": true,
+    "json_mode": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "_generated": {
     "name": "7dd7db4e",
     "family": "d240daf4",
-    "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "capabilities": "15ab7a4a",
+    "modalities": "6399757e",
+    "model_type": "d669f408",
+    "description": "5c2bf4c5",
+    "knowledge_cutoff": "83e324a8",
+    "context_window": "55410616",
+    "max_output_tokens": "f4376436",
+    "tagline": "5c2bf4c5",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "description": "- Text and image input - Text output - Chat completions API - Responses API - Streaming - Function calling - Structured outputs (chat completions)",
+  "knowledge_cutoff": "2024-05-31",
+  "context_window": 1047576,
+  "max_output_tokens": 32768,
+  "tagline": "- Text and image input - Text output - Chat completions API - Responses API - Streaming - Function calling - Structured outputs (chat completions)",
+  "tools": ["function_calling"]
 }
