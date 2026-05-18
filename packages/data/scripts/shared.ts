@@ -194,7 +194,9 @@ const MONTH_MAP: Record<string, string> = {
  * Normalize a date string to YYYY-MM-DD or YYYY-MM format.
  * Handles: "May 2025", "October 31, 2025", "Sep 2021",
  *          "May 31, 2024", "2025-05", "2025-05-31", etc.
- * Returns the original string if it can't be parsed.
+ * Returns null if the value is empty or can't be parsed into one of the
+ * accepted formats. Schema-only formats are what data validation accepts,
+ * so unparseable junk like "-" or "TBD" must not pass through.
  */
 export function normalizeDate(date: string | null | undefined): string | null {
   if (!date) return null;
@@ -217,7 +219,7 @@ export function normalizeDate(date: string | null | undefined): string | null {
     if (mm) return `${my[2]}-${mm}`;
   }
 
-  return s;
+  return null;
 }
 
 // ── Family inference ──

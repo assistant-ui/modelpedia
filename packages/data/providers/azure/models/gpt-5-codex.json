@@ -31,7 +31,7 @@
   },
   "model_type": "chat",
   "description": "- Responses API only. - Input : Text/Image - Output : Text only - Structured outputs. - Text and image processing. - Functions, tools, and parallel tool calling. - Full summary of capabilities - Optimized for Codex CLI &amp; Codex VS Code extension",
-  "knowledge_cutoff": "-",
+  "knowledge_cutoff": null,
   "context_window": 400000,
   "max_output_tokens": 128000,
   "tagline": "- Responses API only.",
