@@ -17109,3 +17109,4 @@
 {"ts":"2026-05-18T03:39:42.723Z","provider":"xai","model":"grok-4.20-0309-non-reasoning","action":"update","changes":{"context_window":{"from":2000000,"to":1000000}},"commit":"73d11c6c2efb89d2760949300703d07bc6322322"}
 {"ts":"2026-05-18T03:39:42.723Z","provider":"xai","model":"grok-4.20-0309-reasoning","action":"update","changes":{"context_window":{"from":2000000,"to":1000000}},"commit":"73d11c6c2efb89d2760949300703d07bc6322322"}
 {"ts":"2026-05-18T03:39:42.723Z","provider":"xai","model":"grok-imagine-image-pro","action":"update","changes":{"status":{"to":"deprecated"}},"commit":"73d11c6c2efb89d2760949300703d07bc6322322"}
+{"ts":"2026-05-18T04:21:50.445Z","provider":"azure","model":"gpt-5-codex","action":"update","changes":{"knowledge_cutoff":{"from":"-","to":null}},"commit":"be3a0c6febd1cb9a4dee20adff6ce9339a254d7a"}
