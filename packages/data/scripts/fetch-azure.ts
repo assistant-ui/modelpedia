@@ -3,6 +3,7 @@ import {
   inferFamily,
   inferParameters,
   type ModelEntry,
+  normalizeDate,
   readSources,
   runGenerate,
   upsertWithSnapshot,
@@ -119,7 +120,8 @@ async function fetchModels(): Promise<AzureModel[]> {
           }
         }
         if (h.includes("training") || h.includes("cutoff")) {
-          if (v && !v.includes("N/A")) knowledgeCutoff = v;
+          const normalized = normalizeDate(v);
+          if (normalized) knowledgeCutoff = normalized;
         }
         if (h.includes("description")) {
           if (v && v.length > 5) description = v;
