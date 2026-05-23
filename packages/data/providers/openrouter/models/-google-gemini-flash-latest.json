@@ -16,13 +16,13 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "audio", "video"],
+    "input": ["text", "image", "video", "audio"],
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.5,
-    "output": 3,
-    "cached_input": 0.05
+    "input": 1.5,
+    "output": 9,
+    "cached_input": 0.15
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -34,9 +34,9 @@
     "model_type": "d669f408",
     "tagline": "f2602b58",
     "capabilities": "03fbefb4",
-    "modalities": "0843b982",
-    "pricing": "a1f79f3d",
+    "modalities": "c569b149",
+    "pricing": "1b894b89",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-05-23"
 }

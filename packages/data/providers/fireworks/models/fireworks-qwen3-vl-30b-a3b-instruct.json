@@ -3,23 +3,23 @@
   "name": "qwen3-vl-30b-a3b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-05-10",
+  "last_updated": "2026-05-23",
   "family": "qwen3",
   "context_window": 262000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.15,
+    "input": 1,
     "output": 1,
-    "cached_input": 0.6
+    "cached_input": 1
   },
   "_generated": {
     "name": "6a12dad4",
     "family": "48c385a0",
     "context_window": "4ed74017",
     "capabilities": "0fa77dc6",
-    "pricing": "6281dcf5",
+    "pricing": "cb03f68e",
     "model_type": "d669f408",
     "parameters": "34173cb3",
     "active_parameters": "eccbc87e",

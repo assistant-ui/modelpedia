@@ -3,16 +3,19 @@
   "name": "gemini-3-flash-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-05-23",
   "family": "gemini-3",
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "9b43126f",
     "family": "eb14e598",
-    "capabilities": "9c665f5d",
+    "capabilities": "eb23afc7",
     "model_type": "d669f408",
     "description": "1bfd7f1a",
     "release_date": "f8b75b68",
@@ -20,7 +23,9 @@
     "tagline": "1bfd7f1a",
     "license": "6327aaea",
     "open_weight": "b326b506",
-    "modalities": "68e53d93"
+    "modalities": "6399757e",
+    "reasoning_tokens": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "description": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost.",
@@ -30,7 +35,9 @@
   "license": "open-weight",
   "open_weight": true,
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
-  }
+  },
+  "reasoning_tokens": true,
+  "tools": ["function_calling"]
 }

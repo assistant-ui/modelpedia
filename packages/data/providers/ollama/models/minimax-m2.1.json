@@ -3,14 +3,15 @@
   "name": "minimax-m2.1",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-05-23",
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "tool_call": true
   },
   "_generated": {
     "name": "668bdaef",
-    "capabilities": "9c665f5d",
+    "capabilities": "7c09924d",
     "family": "c85916f0",
     "model_type": "d669f408",
     "description": "4f19fc3d",
@@ -20,7 +21,8 @@
     "context_window": "65d646a4",
     "license": "6327aaea",
     "open_weight": "b326b506",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
   },
   "family": "minimax",
   "model_type": "chat",
@@ -34,5 +36,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "tools": ["function_calling"]
 }

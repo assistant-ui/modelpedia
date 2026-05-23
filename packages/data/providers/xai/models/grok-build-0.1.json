@@ -1,0 +1,45 @@
+{
+  "id": "grok-build-0.1",
+  "name": "grok-build-0.1",
+  "created_by": "xai",
+  "source": "official",
+  "context_window": 256000,
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "page_url": "https://docs.x.ai/developers/models/grok-build-0.1",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "batch": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 2,
+    "cached_input": 0.2
+  },
+  "open_weight": false,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "53802957",
+    "context_window": "2fd324cb",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "page_url": "1c84dea6",
+    "model_type": "d669f408",
+    "capabilities": "4c59e8d2",
+    "modalities": "6399757e",
+    "pricing": "20a9a8a7",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-23"
+}

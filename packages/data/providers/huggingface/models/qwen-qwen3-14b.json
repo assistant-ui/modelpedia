@@ -3,7 +3,7 @@
   "name": "Qwen3-14B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-05-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -13,7 +13,7 @@
     "name": "36a8dfe8",
     "capabilities": "5780d00a",
     "model_type": "d669f408",
-    "parameters": "aab32389",
+    "parameters": "9bf31c7f",
     "page_url": "a0cd0b5c",
     "release_date": "59488f52",
     "context_window": "a422a18c",
@@ -24,7 +24,7 @@
     "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 14,
+  "parameters": 15,
   "page_url": "https://huggingface.co/Qwen/Qwen3-14B",
   "release_date": "2025-04-27",
   "context_window": 40960,
