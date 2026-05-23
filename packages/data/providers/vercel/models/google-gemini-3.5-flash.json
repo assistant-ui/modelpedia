@@ -1,0 +1,35 @@
+{
+  "id": "google/gemini-3.5-flash",
+  "name": "gemini-3.5-flash",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.5",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1.5,
+    "output": 9
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "4a9bff89",
+    "family": "098fdb91",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "9e6fc751",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-23"
+}

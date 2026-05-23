@@ -1,0 +1,29 @@
+{
+  "id": "gpt-realtime-2",
+  "name": "gpt-realtime-2",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-realtime",
+  "description": "Audio model for real-time audio processing.",
+  "knowledge_cutoff": "2024-09",
+  "model_type": "audio",
+  "tagline": "Audio model for real-time audio processing.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "5303ee7a",
+    "family": "f5032d33",
+    "description": "df8acbf2",
+    "knowledge_cutoff": "b0196d6e",
+    "model_type": "9f84c007",
+    "tagline": "df8acbf2",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-05-23"
+}

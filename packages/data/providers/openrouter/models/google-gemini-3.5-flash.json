@@ -1,0 +1,44 @@
+{
+  "id": "google/gemini-3.5-flash",
+  "name": "Google: Gemini 3.5 Flash",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.5",
+  "description": "Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed.",
+  "release_date": "2026-05-19",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.5,
+    "output": 9,
+    "cached_input": 0.15
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d3ccec8d",
+    "family": "098fdb91",
+    "description": "a0e4c0a2",
+    "release_date": "665f01a0",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "a0e4c0a2",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "1b894b89",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-23"
+}

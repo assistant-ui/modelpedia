@@ -31,7 +31,9 @@
     "capabilities": "5780d00a",
     "open_weight": "b326b506",
     "modalities": "68e53d93",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "parameters": "e95e1ca2"
   },
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-05-23",
+  "parameters": 0.6
 }

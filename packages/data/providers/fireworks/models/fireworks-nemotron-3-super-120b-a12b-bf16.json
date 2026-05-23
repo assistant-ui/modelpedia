@@ -1,0 +1,35 @@
+{
+  "id": "fireworks/nemotron-3-super-120b-a12b-bf16",
+  "name": "nemotron-3-super-120b-a12b-bf16",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 262000,
+  "parameters": 120,
+  "active_parameters": 12,
+  "page_url": "https://fireworks.ai/models/fireworks/nemotron-3-super-120b-a12b-bf16",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "a87e52fb",
+    "context_window": "4ed74017",
+    "parameters": "da4fb5c6",
+    "active_parameters": "c20ad4d7",
+    "page_url": "ad52a243",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-05-23"
+}

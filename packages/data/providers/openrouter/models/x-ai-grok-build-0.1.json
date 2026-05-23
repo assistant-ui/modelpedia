@@ -1,0 +1,40 @@
+{
+  "id": "x-ai/grok-build-0.1",
+  "name": "xAI: Grok Build 0.1",
+  "created_by": "xai",
+  "source": "official",
+  "description": "Grok Build 0.1 is xAI’s fast coding model trained specifically for agentic software engineering workflows.",
+  "release_date": "2026-05-20",
+  "context_window": 256000,
+  "model_type": "chat",
+  "tagline": "Grok Build 0.1 is xAI’s fast coding model trained specifically for agentic software engineering workflows.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 2,
+    "cached_input": 0.2
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ff3042b5",
+    "description": "8b51eb98",
+    "release_date": "7a81e6e3",
+    "context_window": "2fd324cb",
+    "model_type": "d669f408",
+    "tagline": "8b51eb98",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "20a9a8a7",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-23"
+}

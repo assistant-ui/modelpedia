@@ -3,7 +3,7 @@
   "name": "Qwen2.5-32B-Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-05-23",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -13,7 +13,7 @@
     "name": "ebf6b745",
     "capabilities": "5780d00a",
     "model_type": "d669f408",
-    "parameters": "6364d3f0",
+    "parameters": "182be0c5",
     "page_url": "26bda3ca",
     "release_date": "9bf554a7",
     "context_window": "f4376436",
@@ -24,7 +24,7 @@
     "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 32,
+  "parameters": 33,
   "page_url": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct",
   "release_date": "2024-09-17",
   "context_window": 32768,

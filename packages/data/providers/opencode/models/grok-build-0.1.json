@@ -1,0 +1,28 @@
+{
+  "id": "grok-build-0.1",
+  "name": "Grok Build 0.1",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "output": 2,
+    "cached_input": 0.2
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "f6e74424",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "7b76dafb",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-05-23"
+}

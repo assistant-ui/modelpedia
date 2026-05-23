@@ -28,7 +28,11 @@
     "tagline": "4afe9588",
     "capabilities": "7107421f",
     "modalities": "8b8b28d1",
-    "pricing": "3a35fa4b"
+    "pricing": "3a35fa4b",
+    "status": "2e2f74dc",
+    "deprecation_date": "b7be5629"
   },
-  "last_updated": "2026-05-17"
+  "last_updated": "2026-05-23",
+  "status": "deprecated",
+  "deprecation_date": "2026-05-28"
 }

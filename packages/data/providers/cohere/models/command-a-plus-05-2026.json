@@ -1,0 +1,49 @@
+{
+  "id": "command-a-plus-05-2026",
+  "name": "command-a-plus-05-2026",
+  "created_by": "cohere",
+  "source": "official",
+  "family": "command-a",
+  "description": "Command A+ offers the last model in the Command A family, while being Cohere’s first Mixture of Experts model, simultaneously combining vision input support, agentic, reasoning, and world-class translation capabilities into single model weights. It also can fit on 1 x B200 or 2 x H100 GPUs, while providing significant latency and throughput improvements over Command A Reasoning, making it an ideal model for any enterprise to deploy at scale.",
+  "status": "active",
+  "context_window": 128000,
+  "max_output_tokens": 64000,
+  "license": "cc-by-nc-4.0",
+  "page_url": "https://docs.cohere.com/docs/models#command-a-plus-05-2026",
+  "model_type": "chat",
+  "tagline": "Command A+ offers the last model in the Command A family, while being Cohere’s first Mixture of Experts model, simultaneously combining vision input support, agentic, reasoning, and world-class translation capabilities into single model weights.",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 2
+  },
+  "open_weight": true,
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "7035a518",
+    "family": "8e3865ab",
+    "description": "526c582f",
+    "status": "379ac110",
+    "context_window": "34434798",
+    "max_output_tokens": "762e98db",
+    "license": "2c8e76b8",
+    "page_url": "a326a2e8",
+    "model_type": "d669f408",
+    "tagline": "b2f94eea",
+    "capabilities": "f2717180",
+    "modalities": "68e53d93",
+    "pricing": "ac91204c",
+    "open_weight": "b326b506",
+    "endpoints": "75df3f1c"
+  },
+  "last_updated": "2026-05-23"
+}

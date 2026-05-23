@@ -1,0 +1,43 @@
+{
+  "id": "qwen/qwen3.7-max",
+  "name": "Qwen: Qwen3.7 Max",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.7",
+  "description": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series.",
+  "release_date": "2026-05-21",
+  "context_window": 1000000,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 7.5
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "26b0fb2e",
+    "family": "d71bf7f7",
+    "description": "23edf104",
+    "release_date": "0ad37620",
+    "context_window": "8155bc54",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "23edf104",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "9936893d",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-23"
+}
