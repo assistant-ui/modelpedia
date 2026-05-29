@@ -30,11 +30,12 @@
           },
           {
             "label": "Batch",
-            "values": [null, null, null]
+            "values": [0.1, null, null]
           }
         ]
       }
-    ]
+    ],
+    "batch_input": 0.1
   },
   "open_weight": false,
   "endpoints": ["generateContent", "streamGenerateContent"],
@@ -48,9 +49,9 @@
     "model_type": "764cb3de",
     "capabilities": "d3117eb0",
     "modalities": "68e53d93",
-    "pricing": "000af397",
+    "pricing": "8f9c11c7",
     "open_weight": "68934a3e",
     "endpoints": "20e16908"
   },
-  "last_updated": "2026-04-24"
+  "last_updated": "2026-05-29"
 }

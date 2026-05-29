@@ -22,7 +22,9 @@
     "architecture": "8832ea0f",
     "capabilities": "5780d00a",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "parameters": "02e74f10"
   },
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-05-29",
+  "parameters": 27
 }

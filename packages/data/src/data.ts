@@ -5707,7 +5707,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Opus 4",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-04-16",
+        "last_updated": "2026-05-29",
         "family": "claude-opus",
         "status": "deprecated",
         "knowledge_cutoff": "2025-01",
@@ -5759,7 +5759,7 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-20250514",
         "deprecation_date": "2026-04-14",
-        "successor": "claude-opus-4-7",
+        "successor": "claude-opus-4-8",
         "release_date": "2025-05-14",
         "thinking_modes": [
           "extended"
@@ -5902,7 +5902,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Opus 4.6",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-04-16",
+        "last_updated": "2026-05-29",
         "family": "claude-opus",
         "description": "The most intelligent broadly available model for agents and coding",
         "status": "active",
@@ -5955,7 +5955,8 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-6",
         "thinking_modes": [
-          "extended"
+          "extended",
+          "adaptive"
         ],
         "bedrock_id": "anthropic.claude-opus-4-6-v1",
         "vertex_id": "claude-opus-4-6",
@@ -12230,7 +12231,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Llama 3.1 8B",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-05-10",
+        "last_updated": "2026-05-29",
         "context_window": 32000,
         "max_output_tokens": 8000,
         "capabilities": {
@@ -12266,14 +12267,15 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "deprecation_date": "2026-04-22"
+        "deprecation_date": "2026-05-27",
+        "successor": "GPT OSS 120B"
       },
       {
         "id": "qwen-3-235b-a22b-instruct-2507",
         "name": "Qwen 3 235B Instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-05-10",
+        "last_updated": "2026-05-29",
         "family": "qwen",
         "context_window": 131000,
         "max_output_tokens": 40000,
@@ -12313,8 +12315,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "deprecation_date": "2026-04-22",
+        "deprecation_date": "2026-05-27",
         "active_parameters": 22,
+        "successor": "GPT OSS 120B",
         "license": "apache-2.0"
       },
       {
@@ -104096,12 +104099,90 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-3-pro-image-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-05-29",
         "family": "gemini-3",
         "status": "active",
         "knowledge_cutoff": "2025-01",
         "context_window": 65536,
         "max_output_tokens": 32768,
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 12,
+          "batch_input": 1,
+          "batch_output": 6,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2,
+                    null,
+                    12
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    1,
+                    null,
+                    6
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "model_type": "chat",
+        "license": "proprietary",
+        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image-preview",
+        "open_weight": false
+      },
+      {
+        "id": "gemini-3-pro-image",
+        "name": "gemini-3-pro-image",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3",
+        "status": "active",
+        "knowledge_cutoff": "2025-01",
+        "context_window": 65536,
+        "max_output_tokens": 32768,
+        "license": "proprietary",
+        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image",
+        "model_type": "chat",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -104158,6 +104239,7 @@ export const providers: ProviderWithModels[] = [
             }
           ]
         },
+        "open_weight": false,
         "tools": [
           "function_calling"
         ],
@@ -104165,10 +104247,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "model_type": "chat",
-        "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image-preview",
-        "open_weight": false
+        "last_updated": "2026-05-29"
       },
       {
         "id": "gemini-3-pro-preview",
@@ -104222,12 +104301,90 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-3.1-flash-image-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-05-29",
         "family": "gemini-3.1",
         "status": "active",
         "knowledge_cutoff": "2025-01",
         "context_window": 131072,
         "max_output_tokens": 32768,
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 3,
+          "batch_input": 0.25,
+          "batch_output": 1.5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.5,
+                    null,
+                    3
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    0.25,
+                    null,
+                    1.5
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "model_type": "chat",
+        "license": "proprietary",
+        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image-preview",
+        "open_weight": false
+      },
+      {
+        "id": "gemini-3.1-flash-image",
+        "name": "gemini-3.1-flash-image",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3.1",
+        "status": "active",
+        "knowledge_cutoff": "2025-01",
+        "context_window": 131072,
+        "max_output_tokens": 32768,
+        "license": "proprietary",
+        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image",
+        "model_type": "chat",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -104284,6 +104441,7 @@ export const providers: ProviderWithModels[] = [
             }
           ]
         },
+        "open_weight": false,
         "tools": [
           "function_calling"
         ],
@@ -104291,19 +104449,16 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "model_type": "chat",
-        "license": "proprietary",
-        "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image-preview",
-        "open_weight": false
+        "last_updated": "2026-05-29"
       },
       {
         "id": "gemini-3.1-flash-lite-preview",
         "name": "gemini-3.1-flash-lite-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-05-29",
         "family": "gemini-3.1",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -104377,7 +104532,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview",
         "open_weight": false,
         "description": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks. Gemini 3.1 Flash-Lite is best for high-volume agentic tasks, simple data extraction, and extremely low-latency applications where budget and speed are the primary constraints.",
-        "tagline": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks."
+        "tagline": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks.",
+        "deprecation_date": "2026-05-25",
+        "successor": "gemini-3.1-flash-lite"
       },
       {
         "id": "gemini-3.1-flash-lite",
@@ -104878,21 +105035,22 @@ export const providers: ProviderWithModels[] = [
                 {
                   "label": "Batch",
                   "values": [
-                    null,
+                    0.1,
                     null,
                     null
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "batch_input": 0.1
         },
         "open_weight": false,
         "endpoints": [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-04-24"
+        "last_updated": "2026-05-29"
       },
       {
         "id": "gemini-embedding-exp-03-07",
@@ -106324,6 +106482,38 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "baseten/Llama-3.2-3B-Instruct-pythonic",
+        "name": "Llama-3.2-3B-Instruct-pythonic",
+        "created_by": "baseten",
+        "source": "official",
+        "family": "Llama-3.2",
+        "release_date": "2025-09-12",
+        "context_window": 131072,
+        "license": "llama3.2",
+        "parameters": 3.2,
+        "page_url": "https://huggingface.co/baseten/Llama-3.2-3B-Instruct-pythonic",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-29"
+      },
+      {
         "id": "codellama/CodeLlama-7b-Instruct-hf",
         "name": "CodeLlama-7b-Instruct-hf",
         "created_by": "codellama",
@@ -106385,7 +106575,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-06"
+        "last_updated": "2026-05-29",
+        "parameters": 33
       },
       {
         "id": "DeepMount00/Llama-3-8b-Ita",
@@ -107048,6 +107239,37 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "google/gemma-1.1-2b-it",
+        "name": "gemma-1.1-2b-it",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemma-1",
+        "release_date": "2024-03-26",
+        "license": "gemma",
+        "parameters": 2.5,
+        "page_url": "https://huggingface.co/google/gemma-1.1-2b-it",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-29"
+      },
+      {
         "id": "google/gemma-2-27b-it",
         "name": "gemma-2-27b-it",
         "created_by": "google",
@@ -107199,7 +107421,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-29",
+        "parameters": 2.5
       },
       {
         "id": "google/gemma-3-1b-it",
@@ -107280,7 +107503,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-29",
+        "parameters": 27
       },
       {
         "id": "GraySwanAI/Llama-3-8B-Instruct-RR",
@@ -107883,6 +108107,39 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 8192
       },
       {
+        "id": "microsoft/Phi-3-mini-128k-instruct",
+        "name": "Phi-3-mini-128k-instruct",
+        "created_by": "microsoft",
+        "source": "official",
+        "description": "🎉**Phi-4**: [[multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) | [onnx](https://huggingface.co/microsoft/Phi-4-multimodal-instruct-onnx)]; [[mini-instruct](https://huggingface.co/microsoft/Phi-4-mini-instruct) | [onnx](https://huggingface.co/microsoft/Phi-4-mini-instruct-onnx)]",
+        "release_date": "2024-04-22",
+        "context_window": 131072,
+        "license": "mit",
+        "parameters": 3.8,
+        "page_url": "https://huggingface.co/microsoft/Phi-3-mini-128k-instruct",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "tagline": "🎉**Phi-4**: [[multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) | [onnx](https://huggingface.co/microsoft/Phi-4-multimodal-instruct-onnx)]; [[mini-instruct](https://hug",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-29"
+      },
+      {
         "id": "microsoft/Phi-3-mini-4k-instruct",
         "name": "Phi-3-mini-4k-instruct",
         "created_by": "microsoft",
@@ -107945,7 +108202,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-29",
+        "parameters": 3.8
       },
       {
         "id": "mistralai/Mistral-7B-Instruct-v0.1",
@@ -108443,7 +108701,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gpt-oss-safeguard-20b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-29",
         "family": "gpt-oss",
         "capabilities": {
           "streaming": true,
@@ -108451,7 +108709,7 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "model_type": "moderation",
-        "parameters": 20,
+        "parameters": 22,
         "page_url": "https://huggingface.co/openai/gpt-oss-safeguard-20b",
         "description": "`gpt-oss-safeguard-120b` and `gpt-oss-safeguard-20b` are safety reasoning models built-upon gpt-oss. With these models, you can classify text content based on safety policies that you provide and perform a suite of foundational safety tasks. These models are intended for safety use cases. For other applications, we recommend using [gpt-oss models](https://huggingface.co/collections/openai/gpt-oss).",
         "release_date": "2025-09-18",
@@ -110790,6 +111048,37 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "RedHatAI/Qwen2-1.5B-Instruct-FP8",
+        "name": "Qwen2-1.5B-Instruct-FP8",
+        "created_by": "redhatai",
+        "source": "official",
+        "release_date": "2024-06-14",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 1.5,
+        "page_url": "https://huggingface.co/RedHatAI/Qwen2-1.5B-Instruct-FP8",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-29"
+      },
+      {
         "id": "RedHatAI/Qwen2-7B-Instruct-FP8",
         "name": "Qwen2-7B-Instruct-FP8",
         "created_by": "redhatai",
@@ -112217,7 +112506,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GLM-4.7-FP8",
         "created_by": "zhipu",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-29",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -112243,7 +112532,8 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "parameters": 358
       },
       {
         "id": "zai-org/GLM-4.7",
@@ -113529,7 +113819,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Llama-2-70b-chat-hf",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-29",
         "context_window": 4096,
         "capabilities": {
           "streaming": true,
@@ -113547,7 +113837,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "family": "Llama-2",
         "license": "llama2",
-        "parameters": 70,
+        "parameters": 69,
         "page_url": "https://huggingface.co/meta-llama/Llama-2-70b-chat-hf",
         "open_weight": true,
         "tools": [
@@ -113595,7 +113885,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Llama-2-7b-chat-hf",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-29",
         "context_window": 4096,
         "capabilities": {
           "streaming": true,
@@ -113613,7 +113903,7 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "family": "Llama-2",
         "license": "llama2",
-        "parameters": 7,
+        "parameters": 6.7,
         "page_url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
         "open_weight": true,
         "tools": [
@@ -114234,14 +114524,14 @@ export const providers: ProviderWithModels[] = [
         "name": "Llama-4-Scout-17B-16E",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-29",
         "family": "Llama-4",
         "release_date": "2025-04-02",
         "knowledge_cutoff": null,
         "context_window": 1048576,
         "max_output_tokens": 16384,
         "license": "llama4",
-        "parameters": 17,
+        "parameters": 109,
         "page_url": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E",
         "model_type": "chat",
         "capabilities": {
@@ -126711,11 +127001,13 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-v3.2",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-29",
         "family": "deepseek",
         "capabilities": {
           "streaming": true,
-          "fine_tuning": true
+          "fine_tuning": true,
+          "tool_call": true,
+          "reasoning": true
         },
         "description": "DeepSeek-V3.2, a model that harmonizes high computational efficiency with superior reasoning and agent performance.",
         "release_date": "2025-12-02",
@@ -126732,7 +127024,11 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "reasoning_tokens": true,
+        "tools": [
+          "function_calling"
+        ]
       },
       {
         "id": "deepseek-v4-flash",
@@ -141688,6 +141984,33 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false
       },
       {
+        "id": "claude-opus-4-8",
+        "name": "Claude Opus 4.8",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "status": "active",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cached_input": 0.5,
+          "cache_write": 6.25
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-29"
+      },
+      {
         "id": "claude-sonnet-4-5",
         "name": "Claude Sonnet 4.5",
         "created_by": "anthropic",
@@ -142752,6 +143075,27 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "mimo-v2.5-free",
+        "name": "MiMo-V2.5 Free",
+        "created_by": "xiaomi",
+        "source": "official",
+        "family": "mimo",
+        "status": "active",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-05-29"
       },
       {
         "id": "minimax-m2.5-free",
@@ -144238,7 +144582,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-08"
+        "last_updated": "2026-05-29",
+        "status": "deprecated",
+        "deprecation_date": "2026-06-29"
       },
       {
         "id": "anthropic/claude-opus-4.6",
@@ -144350,6 +144696,80 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-04-17"
+      },
+      {
+        "id": "anthropic/claude-opus-4.8-fast",
+        "name": "Anthropic: Claude Opus 4.8 (Fast)",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "description": "Fast-mode variant of [Opus 4.8](/anthropic/claude-opus-4.8) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 4.8.",
+        "release_date": "2026-05-27",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "tagline": "Fast-mode variant of [Opus 4.8](/anthropic/claude-opus-4.8) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 4.8.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 10,
+          "output": 50,
+          "cached_input": 1
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-29"
+      },
+      {
+        "id": "anthropic/claude-opus-4.8",
+        "name": "Anthropic: Claude Opus 4.8",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family.",
+        "release_date": "2026-05-27",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "model_type": "chat",
+        "tagline": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cached_input": 0.5
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-29"
       },
       {
         "id": "anthropic/claude-opus-4",
@@ -145458,11 +145878,11 @@ export const providers: ProviderWithModels[] = [
         "name": "DeepSeek: DeepSeek V3",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-04-25",
+        "last_updated": "2026-05-29",
         "family": "deepseek-chat",
         "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions.",
-        "context_window": 163840,
-        "max_output_tokens": 16384,
+        "context_window": 131072,
+        "max_output_tokens": 16000,
         "modalities": {
           "input": [
             "text"
@@ -145479,8 +145899,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.32,
-          "output": 0.89
+          "input": 0.229,
+          "output": 0.914
         },
         "release_date": "2024-12-26",
         "tagline": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions.",
@@ -150324,6 +150744,35 @@ export const providers: ProviderWithModels[] = [
         ]
       },
       {
+        "id": "moonshotai/kimi-k2.6:free",
+        "name": "MoonshotAI: Kimi K2.6 (free)",
+        "created_by": "moonshotai",
+        "source": "official",
+        "family": "kimi-k2.6",
+        "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration.",
+        "release_date": "2026-04-20",
+        "context_window": 262144,
+        "model_type": "chat",
+        "tagline": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration.",
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-29"
+      },
+      {
         "id": "moonshotai/kimi-k2.6",
         "name": "MoonshotAI: Kimi K2.6",
         "created_by": "moonshotai",
@@ -150481,7 +150930,7 @@ export const providers: ProviderWithModels[] = [
         "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
         "created_by": "nousresearch",
         "source": "official",
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-05-29",
         "description": "Hermes 2 Pro is an upgraded, retrained version of Nous Hermes 2, consisting of an updated and cleaned version of the OpenHermes 2.5 Dataset, as well as a newly introduced...",
         "context_window": 8192,
         "max_output_tokens": 8192,
@@ -150504,7 +150953,9 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "parameters": 8,
         "release_date": "2024-05-27",
-        "tagline": "Hermes 2 Pro is an upgraded, retrained version of Nous Hermes 2, consisting of an updated and cleaned version of the OpenHermes 2.5 Dataset, as well as a newly introduced Function Calling and JSON Mod"
+        "tagline": "Hermes 2 Pro is an upgraded, retrained version of Nous Hermes 2, consisting of an updated and cleaned version of the OpenHermes 2.5 Dataset, as well as a newly introduced Function Calling and JSON Mod",
+        "status": "deprecated",
+        "deprecation_date": "2026-06-05"
       },
       {
         "id": "nousresearch/hermes-3-llama-3.1-405b:free",
@@ -151908,14 +152359,14 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o",
-        "name": "OpenAI: GPT-4o (2024-05-13)",
+        "name": "OpenAI: GPT-4o",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-05-14",
+        "last_updated": "2026-05-29",
         "family": "gpt-4o",
         "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs.",
         "context_window": 128000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 16384,
         "modalities": {
           "input": [
             "text",
@@ -151936,8 +152387,8 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 5,
-          "output": 15,
+          "input": 2.5,
+          "output": 10,
           "cached_input": 1.25
         },
         "model_type": "chat",
@@ -152245,11 +152696,11 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: GPT-5.1 Chat",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-29",
         "family": "gpt-5.1",
         "description": "GPT-5.1 Chat (AKA Instant is the fast, lightweight member of the 5.1 family, optimized for low-latency chat while retaining strong general intelligence.",
         "context_window": 128000,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 32000,
         "modalities": {
           "input": [
             "image",
@@ -152267,7 +152718,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1.25,
           "output": 10,
-          "cached_input": 0.125
+          "cached_input": 0.13
         },
         "model_type": "chat",
         "release_date": "2025-11-13",
@@ -152324,11 +152775,11 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: GPT-5.1-Codex-Mini",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-12",
+        "last_updated": "2026-05-29",
         "family": "gpt-5.1",
         "description": "GPT-5.1-Codex-Mini is a smaller and faster version of GPT-5.1-Codex",
         "context_window": 400000,
-        "max_output_tokens": 128000,
+        "max_output_tokens": 100000,
         "modalities": {
           "input": [
             "image",
@@ -152350,7 +152801,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.25,
           "output": 2,
-          "cached_input": 0.03
+          "cached_input": 0.025
         },
         "model_type": "chat",
         "release_date": "2025-11-13",
@@ -152367,7 +152818,7 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: GPT-5.1-Codex",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-29",
         "family": "gpt-5.1",
         "description": "GPT-5.1-Codex is a specialized version of GPT-5.1 optimized for software engineering and coding workflows.",
         "context_window": 400000,
@@ -152393,7 +152844,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 1.25,
           "output": 10,
-          "cached_input": 0.125
+          "cached_input": 0.13
         },
         "model_type": "chat",
         "release_date": "2025-11-13",
@@ -152454,11 +152905,11 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: GPT-5.2 Chat",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-12",
+        "last_updated": "2026-05-29",
         "family": "gpt-5.2",
         "description": "GPT-5.2 Chat (AKA Instant) is the fast, lightweight member of the 5.2 family, optimized for low-latency chat while retaining strong general intelligence.",
         "context_window": 128000,
-        "max_output_tokens": 32000,
+        "max_output_tokens": 16384,
         "modalities": {
           "input": [
             "image",
@@ -152483,7 +152934,9 @@ export const providers: ProviderWithModels[] = [
         "tagline": "GPT-5.2 Chat (AKA Instant) is the fast, lightweight member of the 5.2 family, optimized for low-latency chat while retaining strong general intelligence.",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "status": "deprecated",
+        "deprecation_date": "2026-08-10"
       },
       {
         "id": "openai/gpt-5.2-codex",
@@ -154093,8 +154546,8 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for complex software engineering tasks.",
         "release_date": "2026-04-28",
-        "context_window": 131072,
-        "max_output_tokens": 8192,
+        "context_window": 262144,
+        "max_output_tokens": 32768,
         "tagline": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for complex software engineering tasks.",
         "capabilities": {
           "tool_call": true,
@@ -154111,7 +154564,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-29"
       },
       {
         "id": "poolside/laguna-xs.2:free",
@@ -154120,8 +154573,8 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai), their efficient coding agent series.",
         "release_date": "2026-04-28",
-        "context_window": 131072,
-        "max_output_tokens": 8192,
+        "context_window": 262144,
+        "max_output_tokens": 32768,
         "tagline": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai), their efficient coding agent series.",
         "capabilities": {
           "tool_call": true,
@@ -154138,7 +154591,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-29"
       },
       {
         "id": "prime-intellect/intellect-3",
@@ -155030,7 +155483,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 30B A3B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-05-17",
+        "last_updated": "2026-05-29",
         "family": "qwen3",
         "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks.",
         "context_window": 131072,
@@ -155063,6 +155516,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
+        "status": "deprecated",
+        "deprecation_date": "2026-06-05",
         "license": "apache-2.0"
       },
       {
@@ -156252,7 +156707,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026.",
         "release_date": "2026-04-27",
         "context_window": 262144,
-        "max_output_tokens": 262144,
+        "max_output_tokens": 262140,
         "parameters": 27,
         "model_type": "chat",
         "tagline": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026.",
@@ -156275,13 +156730,13 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.3,
+          "input": 0.29,
           "output": 3.2
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-23",
+        "last_updated": "2026-05-29",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -156318,11 +156773,11 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.15,
+          "input": 0.14,
           "output": 1,
           "cached_input": 0.05
         },
-        "last_updated": "2026-05-23",
+        "last_updated": "2026-05-29",
         "tools": [
           "function_calling"
         ],
@@ -156541,13 +156996,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 2.5,
-          "output": 7.5
+          "input": 1.25,
+          "output": 3.75,
+          "cached_input": 0.25
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-23"
+        "last_updated": "2026-05-29"
       },
       {
         "id": "qwen/qwq-32b",
@@ -156748,7 +157204,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Sao10k: Llama 3 Euryale 70B v2.1",
         "created_by": "sao10k",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-29",
         "description": "Euryale 70B v2.1 is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k).",
         "context_window": 8192,
         "max_output_tokens": 8192,
@@ -156772,7 +157228,9 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Euryale 70B v2.1 is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k).",
         "tools": [
           "function_calling"
-        ]
+        ],
+        "status": "deprecated",
+        "deprecation_date": "2026-06-05"
       },
       {
         "id": "sao10k/l3-lunaris-8b",
@@ -157061,14 +157519,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.066,
-          "output": 0.26,
-          "cached_input": 0.029
+          "input": 0.063,
+          "output": 0.21,
+          "cached_input": 0.021
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-10"
+        "last_updated": "2026-05-29"
       },
       {
         "id": "thedrummer/cydonia-24b-v4.1",
@@ -157901,7 +158359,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Xiaomi: MiMo-V2-Omni",
         "created_by": "xiaomi",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-29",
         "description": "MiMo-V2-Omni is a frontier omni-modal model that natively processes image, video, and audio inputs within a unified architecture.",
         "context_window": 262144,
         "max_output_tokens": 65536,
@@ -157936,6 +158394,8 @@ export const providers: ProviderWithModels[] = [
         ],
         "family": "mimo",
         "model_type": "chat",
+        "status": "deprecated",
+        "deprecation_date": "2026-05-31",
         "license": "proprietary",
         "open_weight": false
       },
@@ -157944,7 +158404,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Xiaomi: MiMo-V2-Pro",
         "created_by": "xiaomi",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-29",
         "description": "MiMo-V2-Pro is Xiaomi's flagship foundation model, featuring over 1T total parameters and a 1M context length, deeply optimized for agentic scenarios.",
         "context_window": 1048576,
         "max_output_tokens": 131072,
@@ -157975,6 +158435,8 @@ export const providers: ProviderWithModels[] = [
         ],
         "family": "mimo",
         "model_type": "chat",
+        "status": "deprecated",
+        "deprecation_date": "2026-05-31",
         "license": "proprietary",
         "parameters": 1000,
         "active_parameters": 42,
@@ -157990,7 +158452,7 @@ export const providers: ProviderWithModels[] = [
         "description": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as C",
         "release_date": "2026-04-22",
         "context_window": 1048576,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 131072,
         "model_type": "chat",
         "tagline": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as C",
         "capabilities": {
@@ -158008,14 +158470,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 1,
-          "output": 3,
-          "cached_input": 0.2
+          "input": 0.435,
+          "output": 0.87,
+          "cached_input": 0.004
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-10"
+        "last_updated": "2026-05-29"
       },
       {
         "id": "xiaomi/mimo-v2.5",
@@ -158047,14 +158509,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.4,
-          "output": 2,
-          "cached_input": 0.08
+          "input": 0.14,
+          "output": 0.28,
+          "cached_input": 0.003
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-24"
+        "last_updated": "2026-05-29"
       },
       {
         "id": "z-ai/glm-4-32b",
@@ -158122,10 +158584,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Z.ai: GLM 4.5 Air",
         "created_by": "z-ai",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-05-29",
         "description": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications.",
         "context_window": 131072,
-        "max_output_tokens": 98304,
+        "max_output_tokens": 131070,
         "modalities": {
           "input": [
             "text"
@@ -158141,9 +158603,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.13,
+          "input": 0.125,
           "output": 0.85,
-          "cached_input": 0.025
+          "cached_input": 0.06
         },
         "family": "glm-4.5",
         "model_type": "chat",
@@ -171449,8 +171911,8 @@ export const providers: ProviderWithModels[] = [
           "streaming": true
         },
         "pricing": {
-          "input": 2.5,
-          "output": 7.5
+          "input": 0.13,
+          "output": 3.75
         },
         "modalities": {
           "input": [
@@ -171460,7 +171922,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-23"
+        "last_updated": "2026-05-29"
       },
       {
         "id": "s/rime-arcana-v3",
@@ -172943,6 +173405,37 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-17"
       },
       {
+        "id": "anthropic/claude-opus-4.8",
+        "name": "claude-opus-4.8",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-05-29"
+      },
+      {
         "id": "anthropic/claude-opus-4",
         "name": "claude-opus-4",
         "created_by": "anthropic",
@@ -174410,7 +174903,13 @@ export const providers: ProviderWithModels[] = [
         "family": "gemini-3",
         "context_window": 65500,
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 2,
@@ -174424,7 +174923,11 @@ export const providers: ProviderWithModels[] = [
           "output": [
             "text"
           ]
-        }
+        },
+        "max_output_tokens": 32768,
+        "knowledge_cutoff": "2025-01",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "google/gemini-3-pro-preview",
@@ -175667,7 +176170,7 @@ export const providers: ProviderWithModels[] = [
         "name": "minimax-m2.5",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-05-23",
+        "last_updated": "2026-05-29",
         "context_window": 1000000,
         "capabilities": {
           "streaming": true,
@@ -175676,8 +176179,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.15,
-          "output": 0.95
+          "input": 0.12,
+          "output": 0.92
         },
         "family": "minimax",
         "model_type": "chat",
@@ -175737,7 +176240,7 @@ export const providers: ProviderWithModels[] = [
         "name": "minimax-m2.7",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-05-29",
         "context_window": 204800,
         "capabilities": {
           "streaming": true,
@@ -175746,8 +176249,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.3,
-          "output": 1.2
+          "input": 0.24,
+          "output": 0.96
         },
         "family": "minimax",
         "model_type": "chat",
@@ -176591,8 +177094,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.95,
-          "output": 4
+          "input": 0.74,
+          "output": 3.5
         },
         "modalities": {
           "input": [
@@ -176605,7 +177108,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-29"
       },
       {
         "id": "moonshotai/kimi-k2",
@@ -180034,8 +180537,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 1,
-          "output": 3
+          "input": 0.43,
+          "output": 0.87
         },
         "modalities": {
           "input": [
@@ -180048,7 +180551,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-29"
       },
       {
         "id": "xiaomi/mimo-v2.5",
@@ -180065,8 +180568,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.4,
-          "output": 2
+          "input": 0.14,
+          "output": 0.28
         },
         "modalities": {
           "input": [
@@ -180079,7 +180582,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-05-29"
       },
       {
         "id": "zai/glm-4.5-air",
@@ -182698,12 +183201,97 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-3-pro-image-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-05-29",
         "family": "gemini-3",
         "status": "active",
         "knowledge_cutoff": "2025-01",
         "context_window": 65536,
         "max_output_tokens": 32768,
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 12,
+          "batch_input": 1,
+          "batch_output": 6,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    2,
+                    null,
+                    12
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    null,
+                    null,
+                    null
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    1,
+                    null,
+                    6
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "model_type": "chat",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "gemini-3-pro-image",
+        "name": "gemini-3-pro-image",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3",
+        "status": "active",
+        "knowledge_cutoff": "2025-01",
+        "context_window": 65536,
+        "max_output_tokens": 32768,
+        "model_type": "chat",
+        "license": "proprietary",
+        "open_weight": false,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -182775,9 +183363,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "model_type": "chat",
-        "license": "proprietary",
-        "open_weight": false
+        "last_updated": "2026-05-29"
       },
       {
         "id": "gemini-3-pro-preview",
@@ -182873,12 +183459,97 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-3.1-flash-image-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-05-29",
         "family": "gemini-3.1",
         "status": "active",
         "knowledge_cutoff": "2025-01",
         "context_window": 131072,
         "max_output_tokens": 32768,
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 3,
+          "batch_input": 0.25,
+          "batch_output": 1.5,
+          "tiers": [
+            {
+              "label": "Text tokens",
+              "unit": "Per 1M tokens",
+              "columns": [
+                "Input",
+                "Cached input",
+                "Output"
+              ],
+              "rows": [
+                {
+                  "label": "Standard",
+                  "values": [
+                    0.5,
+                    null,
+                    3
+                  ]
+                },
+                {
+                  "label": "Priority",
+                  "values": [
+                    null,
+                    null,
+                    null
+                  ]
+                },
+                {
+                  "label": "Flex",
+                  "values": [
+                    0.25,
+                    null,
+                    1.5
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "model_type": "chat",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "gemini-3.1-flash-image",
+        "name": "gemini-3.1-flash-image",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3.1",
+        "status": "active",
+        "knowledge_cutoff": "2025-01",
+        "context_window": 131072,
+        "max_output_tokens": 32768,
+        "model_type": "chat",
+        "license": "proprietary",
+        "open_weight": false,
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -182950,18 +183621,16 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "model_type": "chat",
-        "license": "proprietary",
-        "open_weight": false
+        "last_updated": "2026-05-29"
       },
       {
         "id": "gemini-3.1-flash-lite-preview",
         "name": "gemini-3.1-flash-lite-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-05-10",
+        "last_updated": "2026-05-29",
         "family": "gemini-3.1",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2025-01",
         "context_window": 1048576,
         "max_output_tokens": 65536,
@@ -183041,7 +183710,9 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "description": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks. Gemini 3.1 Flash-Lite is best for high-volume agentic tasks, simple data extraction, and extremely low-latency applications where budget and speed are the primary constraints.",
-        "tagline": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks."
+        "tagline": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks.",
+        "deprecation_date": "2026-05-25",
+        "successor": "gemini-3.1-flash-lite"
       },
       {
         "id": "gemini-3.1-flash-lite",

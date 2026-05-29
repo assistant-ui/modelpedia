@@ -7,7 +7,7 @@
   "description": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as C",
   "release_date": "2026-04-22",
   "context_window": 1048576,
-  "max_output_tokens": 16384,
+  "max_output_tokens": 131072,
   "model_type": "chat",
   "tagline": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as C",
   "capabilities": {
@@ -21,9 +21,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 1,
-    "output": 3,
-    "cached_input": 0.2
+    "input": 0.435,
+    "output": 0.87,
+    "cached_input": 0.004
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -32,13 +32,13 @@
     "description": "a3c78cab",
     "release_date": "c48b287d",
     "context_window": "7d28a051",
-    "max_output_tokens": "c76fe1d8",
+    "max_output_tokens": "f7de594e",
     "model_type": "d669f408",
     "tagline": "a3c78cab",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
-    "pricing": "7d7678ee",
+    "pricing": "30730939",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-10"
+  "last_updated": "2026-05-29"
 }

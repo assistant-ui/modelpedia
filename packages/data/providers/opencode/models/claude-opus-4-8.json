@@ -1,29 +1,31 @@
 {
-  "id": "s/qwen37-max",
-  "name": "Qwen37 Max",
-  "created_by": "qwen",
+  "id": "claude-opus-4-8",
+  "name": "Claude Opus 4.8",
+  "created_by": "anthropic",
   "source": "official",
-  "family": "qwen37",
-  "page_url": "https://www.together.ai/models/qwen37-max",
+  "family": "claude-opus",
+  "status": "active",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.13,
-    "output": 3.75
+    "input": 5,
+    "output": 25,
+    "cached_input": 0.5,
+    "cache_write": 6.25
   },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
   "_generated": {
-    "name": "1ed16897",
-    "family": "a6f24ed7",
-    "page_url": "a77aa1bb",
+    "name": "8b89b223",
+    "family": "4e4c4b18",
+    "status": "379ac110",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "pricing": "9b7d790b",
+    "pricing": "12050202",
     "modalities": "68e53d93"
   },
   "last_updated": "2026-05-29"
