@@ -3,9 +3,9 @@
   "name": "gemini-3.1-flash-lite-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-27",
+  "last_updated": "2026-05-29",
   "family": "gemini-3.1",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2025-01",
   "context_window": 1048576,
   "max_output_tokens": 65536,
@@ -51,7 +51,7 @@
   "_generated": {
     "name": "496b5612",
     "family": "ea4a1a23",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "3f358a56",
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
@@ -65,12 +65,16 @@
     "page_url": "575c27d7",
     "open_weight": "68934a3e",
     "description": "17a43e1b",
-    "tagline": "f4b5576e"
+    "tagline": "f4b5576e",
+    "deprecation_date": "8068951b",
+    "successor": "d9e5c54d"
   },
   "model_type": "chat",
   "license": "proprietary",
   "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview",
   "open_weight": false,
   "description": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks. Gemini 3.1 Flash-Lite is best for high-volume agentic tasks, simple data extraction, and extremely low-latency applications where budget and speed are the primary constraints.",
-  "tagline": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks."
+  "tagline": "Our most cost-efficient multimodal model, offering the fastest performance for high-frequency, lightweight tasks.",
+  "deprecation_date": "2026-05-25",
+  "successor": "gemini-3.1-flash-lite"
 }

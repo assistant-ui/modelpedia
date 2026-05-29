@@ -1,0 +1,34 @@
+{
+  "id": "moonshotai/kimi-k2.6:free",
+  "name": "MoonshotAI: Kimi K2.6 (free)",
+  "created_by": "moonshotai",
+  "source": "official",
+  "family": "kimi-k2.6",
+  "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration.",
+  "release_date": "2026-04-20",
+  "context_window": 262144,
+  "model_type": "chat",
+  "tagline": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "3bef26a7",
+    "family": "46a7f2ca",
+    "description": "60f35004",
+    "release_date": "9b0ca917",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "tagline": "60f35004",
+    "capabilities": "05723a3e",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-29"
+}

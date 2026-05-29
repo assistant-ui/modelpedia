@@ -1,10 +1,10 @@
 {
-  "id": "xiaomi/mimo-v2.5-pro",
-  "name": "mimo-v2.5-pro",
-  "created_by": "xiaomi",
+  "id": "anthropic/claude-opus-4.8",
+  "name": "claude-opus-4.8",
+  "created_by": "anthropic",
   "source": "official",
-  "family": "mimo",
-  "context_window": 1100000,
+  "family": "claude-opus",
+  "context_window": 1000000,
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -13,8 +13,8 @@
     "reasoning": true
   },
   "pricing": {
-    "input": 0.43,
-    "output": 0.87
+    "input": 5,
+    "output": 25
   },
   "modalities": {
     "input": ["text"],
@@ -22,12 +22,12 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "dad9cecd",
-    "family": "1a23786e",
-    "context_window": "6d81e421",
+    "name": "0839bd47",
+    "family": "4e4c4b18",
+    "context_window": "8155bc54",
     "model_type": "d669f408",
     "capabilities": "a19166f1",
-    "pricing": "066e7274",
+    "pricing": "be2d1ab0",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },

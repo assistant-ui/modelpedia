@@ -1,0 +1,44 @@
+{
+  "id": "anthropic/claude-opus-4.8-fast",
+  "name": "Anthropic: Claude Opus 4.8 (Fast)",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "description": "Fast-mode variant of [Opus 4.8](/anthropic/claude-opus-4.8) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 4.8.",
+  "release_date": "2026-05-27",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "Fast-mode variant of [Opus 4.8](/anthropic/claude-opus-4.8) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 4.8.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 10,
+    "output": 50,
+    "cached_input": 1
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "5dae9796",
+    "family": "4e4c4b18",
+    "description": "6e9bfad9",
+    "release_date": "9625e2ac",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "6e9bfad9",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "69490ea7",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-29"
+}

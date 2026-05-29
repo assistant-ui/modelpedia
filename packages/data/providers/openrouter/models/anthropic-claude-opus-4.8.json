@@ -1,0 +1,44 @@
+{
+  "id": "anthropic/claude-opus-4.8",
+  "name": "Anthropic: Claude Opus 4.8",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family.",
+  "release_date": "2026-05-27",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 25,
+    "cached_input": 0.5
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1ea1facf",
+    "family": "4e4c4b18",
+    "description": "800ef697",
+    "release_date": "9625e2ac",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "800ef697",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "b3cc594d",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-29"
+}

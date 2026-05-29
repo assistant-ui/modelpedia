@@ -3,7 +3,7 @@
   "name": "gpt-oss-safeguard-20b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-05-29",
   "family": "gpt-oss",
   "capabilities": {
     "streaming": true,
@@ -16,7 +16,7 @@
     "family": "82d0cb0b",
     "capabilities": "5780d00a",
     "model_type": "1e7a7b87",
-    "parameters": "98f13708",
+    "parameters": "b6d767d2",
     "page_url": "37f48c78",
     "description": "b0213559",
     "release_date": "ae10afe6",
@@ -28,7 +28,7 @@
     "tools": "f0c1dc7e",
     "modalities": "68e53d93"
   },
-  "parameters": 20,
+  "parameters": 22,
   "page_url": "https://huggingface.co/openai/gpt-oss-safeguard-20b",
   "description": "`gpt-oss-safeguard-120b` and `gpt-oss-safeguard-20b` are safety reasoning models built-upon gpt-oss. With these models, you can classify text content based on safety policies that you provide and perform a suite of foundational safety tasks. These models are intended for safety use cases. For other applications, we recommend using [gpt-oss models](https://huggingface.co/collections/openai/gpt-oss).",
   "release_date": "2025-09-18",

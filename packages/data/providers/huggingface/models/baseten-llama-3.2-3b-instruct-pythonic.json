@@ -1,12 +1,14 @@
 {
-  "id": "deepcogito/cogito-v1-preview-qwen-32B",
-  "name": "cogito-v1-preview-qwen-32B",
-  "created_by": "deepcogito",
+  "id": "baseten/Llama-3.2-3B-Instruct-pythonic",
+  "name": "Llama-3.2-3B-Instruct-pythonic",
+  "created_by": "baseten",
   "source": "official",
-  "release_date": "2025-03-31",
+  "family": "Llama-3.2",
+  "release_date": "2025-09-12",
   "context_window": 131072,
-  "license": "apache-2.0",
-  "page_url": "https://huggingface.co/deepcogito/cogito-v1-preview-qwen-32B",
+  "license": "llama3.2",
+  "parameters": 3.2,
+  "page_url": "https://huggingface.co/baseten/Llama-3.2-3B-Instruct-pythonic",
   "architecture": "transformer",
   "model_type": "chat",
   "capabilities": {
@@ -21,19 +23,19 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "59327539",
-    "release_date": "f54b55c5",
+    "name": "9cea327f",
+    "family": "40d4d5fc",
+    "release_date": "e067af64",
     "context_window": "f7de594e",
-    "license": "60245731",
-    "page_url": "b7d4ccb0",
+    "license": "8c002029",
+    "parameters": "acff46b1",
+    "page_url": "37b31805",
     "architecture": "8832ea0f",
     "model_type": "d669f408",
     "capabilities": "5780d00a",
     "open_weight": "b326b506",
     "modalities": "68e53d93",
-    "tools": "f0c1dc7e",
-    "parameters": "182be0c5"
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-29",
-  "parameters": 33
+  "last_updated": "2026-05-29"
 }

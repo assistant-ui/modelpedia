@@ -3,7 +3,7 @@
   "name": "GLM-4.7-FP8",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-05-29",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -23,7 +23,8 @@
     "architecture": "31b2172c",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "parameters": "aa942ab2"
   },
   "family": "GLM-4.7",
   "model_type": "chat",
@@ -39,5 +40,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "parameters": 358
 }

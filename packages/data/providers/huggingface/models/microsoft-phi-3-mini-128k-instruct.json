@@ -1,0 +1,43 @@
+{
+  "id": "microsoft/Phi-3-mini-128k-instruct",
+  "name": "Phi-3-mini-128k-instruct",
+  "created_by": "microsoft",
+  "source": "official",
+  "description": "🎉**Phi-4**: [[multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) | [onnx](https://huggingface.co/microsoft/Phi-4-multimodal-instruct-onnx)]; [[mini-instruct](https://huggingface.co/microsoft/Phi-4-mini-instruct) | [onnx](https://huggingface.co/microsoft/Phi-4-mini-instruct-onnx)]",
+  "release_date": "2024-04-22",
+  "context_window": 131072,
+  "license": "mit",
+  "parameters": 3.8,
+  "page_url": "https://huggingface.co/microsoft/Phi-3-mini-128k-instruct",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "🎉**Phi-4**: [[multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) | [onnx](https://huggingface.co/microsoft/Phi-4-multimodal-instruct-onnx)]; [[mini-instruct](https://hug",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ef8d9139",
+    "description": "7cc71981",
+    "release_date": "3e2a88f0",
+    "context_window": "f7de594e",
+    "license": "3c4c3ba5",
+    "parameters": "80a938c3",
+    "page_url": "510ea6ab",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "a0cd4a34",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-05-29"
+}

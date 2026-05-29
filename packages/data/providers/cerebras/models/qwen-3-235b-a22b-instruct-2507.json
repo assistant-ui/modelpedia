@@ -3,7 +3,7 @@
   "name": "Qwen 3 235B Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-05-10",
+  "last_updated": "2026-05-29",
   "family": "qwen",
   "context_window": 131000,
   "max_output_tokens": 40000,
@@ -41,8 +41,9 @@
     "huggingface_url": "36ad69b1",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
-    "deprecation_date": "c48b287d",
-    "active_parameters": "b6d767d2"
+    "deprecation_date": "9625e2ac",
+    "active_parameters": "b6d767d2",
+    "successor": "7beed575"
   },
   "model_type": "chat",
   "status": "deprecated",
@@ -54,6 +55,7 @@
   "huggingface_url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
   "open_weight": true,
   "tools": ["function_calling"],
-  "deprecation_date": "2026-04-22",
-  "active_parameters": 22
+  "deprecation_date": "2026-05-27",
+  "active_parameters": 22,
+  "successor": "GPT OSS 120B"
 }

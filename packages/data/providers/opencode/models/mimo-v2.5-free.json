@@ -1,0 +1,25 @@
+{
+  "id": "mimo-v2.5-free",
+  "name": "MiMo-V2.5 Free",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "c25a2679",
+    "family": "1a23786e",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-05-29"
+}

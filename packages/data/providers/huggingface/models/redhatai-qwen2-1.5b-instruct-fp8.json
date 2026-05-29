@@ -1,12 +1,13 @@
 {
-  "id": "deepcogito/cogito-v1-preview-qwen-32B",
-  "name": "cogito-v1-preview-qwen-32B",
-  "created_by": "deepcogito",
+  "id": "RedHatAI/Qwen2-1.5B-Instruct-FP8",
+  "name": "Qwen2-1.5B-Instruct-FP8",
+  "created_by": "redhatai",
   "source": "official",
-  "release_date": "2025-03-31",
-  "context_window": 131072,
+  "release_date": "2024-06-14",
+  "context_window": 32768,
   "license": "apache-2.0",
-  "page_url": "https://huggingface.co/deepcogito/cogito-v1-preview-qwen-32B",
+  "parameters": 1.5,
+  "page_url": "https://huggingface.co/RedHatAI/Qwen2-1.5B-Instruct-FP8",
   "architecture": "transformer",
   "model_type": "chat",
   "capabilities": {
@@ -21,19 +22,18 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "59327539",
-    "release_date": "f54b55c5",
-    "context_window": "f7de594e",
+    "name": "b12bcda1",
+    "release_date": "4a5d7290",
+    "context_window": "f4376436",
     "license": "60245731",
-    "page_url": "b7d4ccb0",
+    "parameters": "60086472",
+    "page_url": "b5580e46",
     "architecture": "8832ea0f",
     "model_type": "d669f408",
     "capabilities": "5780d00a",
     "open_weight": "b326b506",
     "modalities": "68e53d93",
-    "tools": "f0c1dc7e",
-    "parameters": "182be0c5"
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-29",
-  "parameters": 33
+  "last_updated": "2026-05-29"
 }
