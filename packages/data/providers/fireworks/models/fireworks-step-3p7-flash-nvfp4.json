@@ -1,0 +1,24 @@
+{
+  "id": "fireworks/step-3p7-flash-nvfp4",
+  "name": "step-3p7-flash-nvfp4",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 262000,
+  "page_url": "https://fireworks.ai/models/fireworks/step-3p7-flash-nvfp4",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "_generated": {
+    "name": "f91c6a86",
+    "context_window": "4ed74017",
+    "page_url": "70e88ba2",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e"
+  },
+  "last_updated": "2026-06-02"
+}

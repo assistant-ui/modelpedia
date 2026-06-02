@@ -3,9 +3,9 @@
   "name": "gemini-2.0-flash-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-27",
+  "last_updated": "2026-06-02",
   "family": "gemini-2.0",
-  "status": "active",
+  "status": "deprecated",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -17,14 +17,18 @@
   "_generated": {
     "name": "06b0c35b",
     "family": "dc4aadf6",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
     "model_type": "d669f408",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "80eaf594",
+    "successor": "4a9bff89"
   },
   "model_type": "chat",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-06-01",
+  "successor": "gemini-3.5-flash"
 }

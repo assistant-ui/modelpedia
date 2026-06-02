@@ -1,0 +1,32 @@
+{
+  "id": "google/gemini-3.1-flash-image",
+  "name": "gemini-3.1-flash-image",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.1",
+  "context_window": 131100,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 0
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "ea17b32a",
+    "family": "ea4a1a23",
+    "context_window": "a683b9ae",
+    "model_type": "d669f408",
+    "capabilities": "8d009641",
+    "pricing": "0f59d6d6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-02"
+}

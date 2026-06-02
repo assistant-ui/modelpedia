@@ -1,29 +1,29 @@
 {
-  "id": "s/deepseek-v4-flash",
-  "name": "Deepseek V4 Flash",
-  "created_by": "deepseek",
+  "id": "s/minimax-m3",
+  "name": "Minimax M3",
+  "created_by": "minimax",
   "source": "official",
-  "family": "deepseek",
-  "page_url": "https://www.together.ai/models/deepseek-v4-flash",
+  "family": "minimax",
+  "page_url": "https://www.together.ai/models/minimax-m3",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 1.4,
-    "output": 4.4
+    "input": 0.3,
+    "output": 1.2
   },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
   "_generated": {
-    "name": "cb8b9715",
-    "family": "4b81b92d",
-    "page_url": "130590f7",
+    "name": "d19ccefe",
+    "family": "c85916f0",
+    "page_url": "ba6d14cb",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "pricing": "caa16a81",
+    "pricing": "ea3f0b86",
     "modalities": "68e53d93"
   },
   "last_updated": "2026-06-02"

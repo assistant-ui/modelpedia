@@ -1,0 +1,45 @@
+{
+  "id": "minimax-m3",
+  "name": "minimax-m3",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax M3: Coding &amp; Agentic Frontier. 1M context window. Native Multimodality.",
+  "release_date": "2026-06-01",
+  "context_window": 524288,
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "page_url": "https://ollama.com/library/minimax-m3",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "MiniMax M3: Coding &amp; Agentic Frontier.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "648ccc75",
+    "family": "c85916f0",
+    "description": "bf4aae48",
+    "release_date": "80eaf594",
+    "context_window": "bcabf6a1",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "page_url": "9327f1d4",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "b304eef6",
+    "capabilities": "f7041f91",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-02"
+}

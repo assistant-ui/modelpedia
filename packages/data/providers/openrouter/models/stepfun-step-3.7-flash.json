@@ -1,0 +1,40 @@
+{
+  "id": "stepfun/step-3.7-flash",
+  "name": "StepFun: Step 3.7 Flash",
+  "created_by": "stepfun",
+  "source": "official",
+  "description": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model.",
+  "release_date": "2026-05-28",
+  "context_window": 256000,
+  "max_output_tokens": 256000,
+  "tagline": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 1.15,
+    "cached_input": 0.04
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "121aaafc",
+    "description": "d91f103c",
+    "release_date": "b7be5629",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "2fd324cb",
+    "tagline": "d91f103c",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "pricing": "470a4ea0",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-02"
+}

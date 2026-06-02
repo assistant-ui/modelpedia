@@ -1,29 +1,31 @@
 {
-  "id": "s/deepseek-v4-flash",
-  "name": "Deepseek V4 Flash",
-  "created_by": "deepseek",
+  "id": "qwen3.7-max",
+  "name": "Qwen3.7 Max",
+  "created_by": "qwen",
   "source": "official",
-  "family": "deepseek",
-  "page_url": "https://www.together.ai/models/deepseek-v4-flash",
+  "family": "qwen3.7",
+  "status": "active",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 1.4,
-    "output": 4.4
+    "input": 2.5,
+    "output": 7.5,
+    "cached_input": 0.5,
+    "cache_write": 3.125
   },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
   "_generated": {
-    "name": "cb8b9715",
-    "family": "4b81b92d",
-    "page_url": "130590f7",
+    "name": "a7b8f9be",
+    "family": "d71bf7f7",
+    "status": "379ac110",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "pricing": "caa16a81",
+    "pricing": "f1efe659",
     "modalities": "68e53d93"
   },
   "last_updated": "2026-06-02"

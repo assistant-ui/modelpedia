@@ -1,29 +1,30 @@
 {
-  "id": "s/deepseek-v4-flash",
-  "name": "Deepseek V4 Flash",
-  "created_by": "deepseek",
+  "id": "deepseek-v4-flash",
+  "name": "DeepSeek V4 Flash",
+  "created_by": "unknown",
   "source": "official",
   "family": "deepseek",
-  "page_url": "https://www.together.ai/models/deepseek-v4-flash",
+  "status": "active",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 1.4,
-    "output": 4.4
+    "input": 0.14,
+    "output": 0.28,
+    "cached_input": 0.03
   },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
   "_generated": {
-    "name": "cb8b9715",
+    "name": "261a5345",
     "family": "4b81b92d",
-    "page_url": "130590f7",
+    "status": "379ac110",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "pricing": "caa16a81",
+    "pricing": "062f7f85",
     "modalities": "68e53d93"
   },
   "last_updated": "2026-06-02"

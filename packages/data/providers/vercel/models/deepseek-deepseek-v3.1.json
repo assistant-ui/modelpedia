@@ -3,7 +3,7 @@
   "name": "deepseek-v3.1",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-02",
   "family": "deepseek",
   "context_window": 163800,
   "capabilities": {
@@ -12,15 +12,15 @@
     "reasoning": true
   },
   "pricing": {
-    "input": 0.5,
-    "output": 1.5
+    "input": 0.21,
+    "output": 0.79
   },
   "_generated": {
     "name": "dc24e73d",
     "family": "4b81b92d",
     "context_window": "df026689",
     "capabilities": "a281e83a",
-    "pricing": "2c3abb73",
+    "pricing": "fa6d4988",
     "tools": "f0c1dc7e",
     "model_type": "d669f408",
     "modalities": "68e53d93"

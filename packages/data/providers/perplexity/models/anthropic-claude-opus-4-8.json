@@ -1,28 +1,26 @@
 {
-  "id": "grok-build-0.1",
-  "name": "Grok Build 0.1",
-  "created_by": "unknown",
+  "id": "anthropic/claude-opus-4-8",
+  "name": "anthropic/claude-opus-4-8",
+  "created_by": "anthropic",
   "source": "official",
-  "status": "active",
+  "family": "claude-opus",
+  "license": "proprietary",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
   },
-  "pricing": {
-    "output": 2,
-    "cached_input": 0.2,
-    "input": 1
-  },
+  "open_weight": false,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
   "_generated": {
-    "name": "f6e74424",
-    "status": "379ac110",
+    "name": "09fb53a9",
+    "family": "4e4c4b18",
+    "license": "9186c466",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "pricing": "4e7bc727",
+    "open_weight": "68934a3e",
     "modalities": "68e53d93"
   },
   "last_updated": "2026-06-02"
