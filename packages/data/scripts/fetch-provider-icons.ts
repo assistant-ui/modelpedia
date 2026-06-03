@@ -46,7 +46,8 @@ async function main() {
     console.log(`wrote ${provider}/icon.svg from ${source}`);
   }
 
-  runGenerate();
+  // This script writes icons, not models, so the empty-parse guard must not fire.
+  runGenerate({ requireModels: false });
 }
 
 main().catch((err) => {

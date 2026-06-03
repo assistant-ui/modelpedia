@@ -33,7 +33,7 @@ interface NebiusModel {
     price_per_video_second?: string;
     request?: string;
   };
-  supported_parameters?: string[];
+  supported_sampling_parameters?: string[];
   object?: string;
   owned_by?: string;
 }
@@ -55,8 +55,9 @@ function modelTypeFromModality(
 async function main() {
   const token = envOrNull("NEBIUS_API_KEY", "NEBIUS_TOKEN");
   if (!token) {
-    console.warn("Missing NEBIUS_API_KEY — skipping official model fetch");
-    runGenerate();
+    console.warn(
+      "No NEBIUS_API_KEY and no key-free public model list for Nebius; skipping. Set NEBIUS_API_KEY locally to fetch.",
+    );
     return;
   }
 
@@ -67,6 +68,9 @@ async function main() {
   );
   const models = json.data ?? [];
   console.log(`Got ${models.length} Nebius models`);
+  if (models.length === 0) {
+    throw new Error("nebius: API returned 0 models (response shape changed?)");
+  }
 
   let written = 0;
   for (const model of models) {
@@ -81,7 +85,9 @@ async function main() {
         status: "active",
         model_type: modelType,
         pricing: tokenPricing(model.pricing?.prompt, model.pricing?.completion),
-        capabilities: capabilitiesFromParameters(model.supported_parameters),
+        capabilities: capabilitiesFromParameters(
+          model.supported_sampling_parameters,
+        ),
       },
       {
         description: model.description,

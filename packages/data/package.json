@@ -55,7 +55,16 @@
     "fetch:siliconflow": "bun scripts/fetch-siliconflow.ts",
     "fetch:parasail": "bun scripts/fetch-parasail.ts",
     "fetch:nebius": "bun scripts/fetch-nebius.ts",
-    "fetch:all": "bun run fetch:provider-icons && bun run fetch:openai && bun run fetch:anthropic && bun run fetch:google && bun run fetch:mistral && bun run fetch:deepseek && bun run fetch:xai && bun run fetch:cohere && bun run fetch:zai && bun run fetch:minimax && bun run fetch:alibaba && bun run fetch:meta && bun run fetch:moonshot && bun run fetch:cerebras && bun run fetch:baseten && bun run fetch:openrouter && bun run fetch:perplexity && bun run fetch:azure && bun run fetch:groq && bun run fetch:nvidia && bun run fetch:together && bun run fetch:fireworks && bun run fetch:amazon && bun run fetch:vercel && bun run fetch:vertex && bun run fetch:cloudflare-workers-ai && bun run fetch:cloudflare-ai-gateway && bun run fetch:opencode && bun run fetch:ollama && bun run fetch:huggingface && bun run fetch:qwen && bun run fetch:cursor && bun run fetch:xiaomi && bun run fetch:novita && bun run fetch:bytedance && bun run fetch:stability && bun run fetch:ai21 && bun run fetch:voyage && bun run fetch:replicate && bun run fetch:fal && bun run fetch:siliconflow && bun run fetch:parasail && bun run fetch:nebius"
+    "fetch:black-forest-labs": "bun scripts/fetch-black-forest-labs.ts",
+    "fetch:deepinfra": "bun scripts/fetch-deepinfra.ts",
+    "fetch:inception": "bun scripts/fetch-inception.ts",
+    "fetch:jina": "bun scripts/fetch-jina.ts",
+    "fetch:recraft": "bun scripts/fetch-recraft.ts",
+    "fetch:reka": "bun scripts/fetch-reka.ts",
+    "fetch:sambanova": "bun scripts/fetch-sambanova.ts",
+    "fetch:stepfun": "bun scripts/fetch-stepfun.ts",
+    "fetch:writer": "bun scripts/fetch-writer.ts",
+    "fetch:all": "bun run fetch:provider-icons && bun run fetch:openai && bun run fetch:anthropic && bun run fetch:google && bun run fetch:mistral && bun run fetch:deepseek && bun run fetch:xai && bun run fetch:cohere && bun run fetch:zai && bun run fetch:minimax && bun run fetch:alibaba && bun run fetch:meta && bun run fetch:moonshot && bun run fetch:cerebras && bun run fetch:baseten && bun run fetch:openrouter && bun run fetch:perplexity && bun run fetch:azure && bun run fetch:groq && bun run fetch:nvidia && bun run fetch:together && bun run fetch:fireworks && bun run fetch:amazon && bun run fetch:vercel && bun run fetch:vertex && bun run fetch:cloudflare-workers-ai && bun run fetch:cloudflare-ai-gateway && bun run fetch:opencode && bun run fetch:ollama && bun run fetch:huggingface && bun run fetch:qwen && bun run fetch:cursor && bun run fetch:xiaomi && bun run fetch:novita && bun run fetch:bytedance && bun run fetch:stability && bun run fetch:ai21 && bun run fetch:voyage && bun run fetch:replicate && bun run fetch:fal && bun run fetch:siliconflow && bun run fetch:parasail && bun run fetch:nebius && bun run fetch:black-forest-labs && bun run fetch:deepinfra && bun run fetch:inception && bun run fetch:jina && bun run fetch:recraft && bun run fetch:reka && bun run fetch:sambanova && bun run fetch:stepfun && bun run fetch:writer"
   },
   "author": "AgentbaseAI Inc.",
   "homepage": "https://modelpedia.dev",

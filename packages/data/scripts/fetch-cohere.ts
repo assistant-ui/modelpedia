@@ -1,5 +1,6 @@
 import { fetchText, stripHtml } from "./parse.ts";
 import {
+  assertParsed,
   inferFamily,
   type ModelEntry,
   readSources,
@@ -241,6 +242,7 @@ async function main() {
 
   const models = parseModels(html);
   console.log(`Parsed ${models.length} models`);
+  assertParsed(models.length, "cohere");
 
   // Fetch pricing from pricing page
   const pricing = await fetchPricing();

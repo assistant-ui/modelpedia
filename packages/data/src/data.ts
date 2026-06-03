@@ -12051,25 +12051,6 @@ export const providers: ProviderWithModels[] = [
         "open_weight": true
       },
       {
-        "id": "disable_reasoning",
-        "name": "disable_reasoning",
-        "created_by": "unknown",
-        "source": "official",
-        "status": "deprecated",
-        "deprecation_date": "2026-03-24",
-        "model_type": "chat",
-        "open_weight": true,
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "last_updated": "2026-03-26"
-      },
-      {
         "id": "gpt-oss-120b",
         "name": "OpenAI GPT OSS",
         "created_by": "openai",

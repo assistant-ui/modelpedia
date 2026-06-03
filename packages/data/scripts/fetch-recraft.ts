@@ -1,5 +1,10 @@
 import { fetchText, parseMdTable } from "./parse.ts";
-import { type ModelEntry, readSources, upsertModel } from "./shared.ts";
+import {
+  type ModelEntry,
+  readSources,
+  runGenerate,
+  upsertModel,
+} from "./shared.ts";
 
 /**
  * Fetch Recraft models from their docs site. Model coverage is stable
@@ -185,6 +190,7 @@ async function main() {
   }
 
   console.log(`Wrote ${written} models`);
+  runGenerate();
 }
 
 main().catch((err) => {

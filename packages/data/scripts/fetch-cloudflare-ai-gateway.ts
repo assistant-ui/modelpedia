@@ -85,9 +85,8 @@ async function main() {
 
   if (!accountId || !gatewayId || !token) {
     console.warn(
-      "Missing CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_AI_GATEWAY_ID / CLOUDFLARE_AI_GATEWAY_TOKEN — skipping",
+      "No Cloudflare AI Gateway credentials and no key-free public model list; skipping. Set CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_AI_GATEWAY_ID / CLOUDFLARE_AI_GATEWAY_TOKEN locally to fetch.",
     );
-    runGenerate();
     return;
   }
 
