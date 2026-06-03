@@ -1,5 +1,6 @@
 import { fetchText, findHtmlTables, stripHtml } from "./parse.ts";
 import {
+  assertParsed,
   inferFamily,
   inferParameters,
   type ModelEntry,
@@ -186,6 +187,7 @@ async function main() {
 
   const models = await fetchModels();
   console.log(`Parsed ${models.length} models`);
+  assertParsed(models.length, "azure");
 
   let written = 0;
   for (const m of models) {

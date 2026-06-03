@@ -1,5 +1,6 @@
 import { fetchText, stripHtml } from "./parse.ts";
 import {
+  assertParsed,
   inferFamily,
   inferParameters,
   type ModelEntry,
@@ -122,6 +123,7 @@ async function main() {
     return !l.includes("playground");
   });
   console.log(`Found ${slugs.length} model slugs (from ${allSlugs.length})`);
+  assertParsed(slugs.length, "fireworks");
 
   // Fetch details in batches of 10
   const details: FireworksModel[] = [];

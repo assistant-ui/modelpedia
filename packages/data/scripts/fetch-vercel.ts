@@ -1,5 +1,6 @@
 import { fetchText } from "./parse.ts";
 import {
+  assertParsed,
   inferFamily,
   inferParameters,
   type ModelEntry,
@@ -97,6 +98,7 @@ async function main() {
     );
 
   console.log(`Parsed ${lines.length} models`);
+  assertParsed(lines.length, "vercel");
 
   let written = 0;
   for (const line of lines) {

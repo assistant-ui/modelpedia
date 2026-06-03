@@ -1,5 +1,10 @@
 import { fetchText } from "./parse.ts";
-import { type ModelEntry, readSources, upsertModel } from "./shared.ts";
+import {
+  type ModelEntry,
+  readSources,
+  runGenerate,
+  upsertModel,
+} from "./shared.ts";
 
 /**
  * Fetch Black Forest Labs (FLUX) models from the public OpenAPI spec.
@@ -379,6 +384,7 @@ async function main() {
   }
 
   console.log(`Wrote ${written} models`);
+  runGenerate();
 }
 
 main().catch((err) => {

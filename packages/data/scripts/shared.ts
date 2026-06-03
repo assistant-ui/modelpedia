@@ -41,7 +41,25 @@ export function writeModelJson(
   console.log(`  wrote ${provider}/models/${modelId}.json`);
 }
 
-export function runGenerate(): void {
+/**
+ * Number of models a fetch run handed to upsert* this process. Used as a
+ * fail-loud signal: a scraper that parses nothing (the usual symptom when a
+ * provider restructures its site) reaches runGenerate() with a zero count and
+ * is stopped before it can regenerate over stale data with a green exit.
+ */
+let upsertAttempts = 0;
+
+/** Called by upsertModel for every parsed model (changed or not). */
+export function recordUpsertAttempt(): void {
+  upsertAttempts++;
+}
+
+export function runGenerate(opts?: { requireModels?: boolean }): void {
+  if (opts?.requireModels !== false && upsertAttempts === 0) {
+    throw new Error(
+      "fetch parsed 0 models before generate; the upstream source structure likely changed",
+    );
+  }
   console.log("\nRegenerating data.ts...");
   try {
     execSync("bun scripts/generate.ts", { stdio: "inherit", cwd: ROOT });
@@ -98,6 +116,24 @@ export function firstSentence(text: string): string {
 }
 
 const VALID_MODALITIES = new Set(["text", "image", "audio", "video"]);
+
+/**
+ * Throw when a fetch extracted no models from its source. Scrapers fail
+ * silently when a provider restructures its site: the parser matches nothing,
+ * the script writes zero files, calls runGenerate(), and exits 0, leaving the
+ * existing model files stale forever with no signal. This guard converts that
+ * into a loud non-zero exit so the breakage surfaces in CI.
+ *
+ * Pass the count of models PARSED FROM THE SOURCE, not the count written by
+ * upsert (which is legitimately 0 on a run where nothing changed).
+ */
+export function assertParsed(parsedCount: number, label: string): void {
+  if (parsedCount <= 0) {
+    throw new Error(
+      `${label}: parsed 0 models from source; the upstream structure likely changed`,
+    );
+  }
+}
 
 export function filterModalities(input: string[], output: string[]) {
   return {
@@ -684,6 +720,7 @@ function dataEqual(
  * Skips if existing model has source: "community".
  */
 export function upsertModel(provider: string, entry: ModelEntry): boolean {
+  recordUpsertAttempt();
   const modelId = sanitizeModelId(entry.id);
   const existing = readModelJson(provider, modelId);
   const original = getOriginal(provider, modelId);

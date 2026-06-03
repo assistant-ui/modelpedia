@@ -1,5 +1,6 @@
 import { fetchText, stripHtml } from "./parse.ts";
 import {
+  assertParsed,
   inferFamily,
   inferParameters,
   type ModelEntry,
@@ -137,6 +138,7 @@ async function main() {
 
   const slugs = await fetchModelSlugs();
   console.log(`Found ${slugs.length} model slugs`);
+  assertParsed(slugs.length, "together");
 
   // Filter out non-model slugs
   const modelSlugs = slugs.filter(
