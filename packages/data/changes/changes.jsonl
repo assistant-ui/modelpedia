@@ -17315,3 +17315,4 @@
 {"ts":"2026-06-03T03:19:07.265Z","provider":"vertex","model":"gemini-embedding-exp-03-07","action":"update","changes":{"successor":{"from":"gemini-embedding-001","to":"gemini-embedding-2"}},"commit":"d657a45fe88750e1b4c0368d8b547233930b6707"}
 {"ts":"2026-06-03T03:19:07.265Z","provider":"vertex","model":"gemini-embedding-exp","action":"update","changes":{"successor":{"from":"gemini-embedding-001","to":"gemini-embedding-2"}},"commit":"d657a45fe88750e1b4c0368d8b547233930b6707"}
 {"ts":"2026-06-03T03:19:07.265Z","provider":"vertex","model":"text-embedding-004","action":"update","changes":{"successor":{"from":"gemini-embedding-001","to":"gemini-embedding-2"}},"commit":"d657a45fe88750e1b4c0368d8b547233930b6707"}
+{"ts":"2026-06-03T05:24:29.390Z","provider":"cerebras","model":"disable_reasoning","action":"delete","commit":"564fa2c479412e0ad642cda3ab301c6d8fbf3835"}
