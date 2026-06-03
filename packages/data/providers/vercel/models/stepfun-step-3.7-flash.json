@@ -1,10 +1,9 @@
 {
-  "id": "alibaba/qwen3.7-max",
-  "name": "qwen3.7-max",
-  "created_by": "qwen",
+  "id": "stepfun/step-3.7-flash",
+  "name": "step-3.7-flash",
+  "created_by": "stepfun",
   "source": "official",
-  "family": "qwen3.7",
-  "context_window": 991000,
+  "context_window": 256000,
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -13,8 +12,8 @@
     "reasoning": true
   },
   "pricing": {
-    "input": 1.25,
-    "output": 3.75
+    "input": 0.2,
+    "output": 1.15
   },
   "modalities": {
     "input": ["text"],
@@ -22,12 +21,11 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "78674279",
-    "family": "d71bf7f7",
-    "context_window": "a8922d3e",
+    "name": "ae2123a8",
+    "context_window": "2fd324cb",
     "model_type": "d669f408",
     "capabilities": "a19166f1",
-    "pricing": "7701f997",
+    "pricing": "ebf451da",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },

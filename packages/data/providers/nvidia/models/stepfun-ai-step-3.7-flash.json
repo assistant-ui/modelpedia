@@ -1,0 +1,14 @@
+{
+  "id": "stepfun-ai/step-3.7-flash",
+  "name": "step-3.7-flash",
+  "created_by": "stepfun",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "ae2123a8",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-06-02"
+}

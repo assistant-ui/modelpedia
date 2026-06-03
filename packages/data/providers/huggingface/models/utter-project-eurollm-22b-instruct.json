@@ -1,0 +1,37 @@
+{
+  "id": "utter-project/EuroLLM-22B-Instruct",
+  "name": "EuroLLM-22B-Instruct-2512",
+  "created_by": "utter-project",
+  "source": "official",
+  "description": "This is the model card for EuroLLM-22B-Instruct. You can also check the pre-trained version: [EuroLLM-22B-2515](https://huggingface.co/utter-project/EuroLLM-22B-2512).",
+  "release_date": "2025-12-05",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "parameters": 23,
+  "page_url": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512",
+  "architecture": "transformer",
+  "tagline": "This is the model card for EuroLLM-22B-Instruct.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "snapshots": ["utter-project/EuroLLM-22B-Instruct-2512"],
+  "_generated": {
+    "name": "95f063f6",
+    "description": "e2ad0b68",
+    "release_date": "292ee6dc",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "parameters": "37693cfc",
+    "page_url": "2f1d9402",
+    "architecture": "8832ea0f",
+    "tagline": "b4be9e0d",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-02"
+}

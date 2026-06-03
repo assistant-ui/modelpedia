@@ -1,0 +1,44 @@
+{
+  "id": "minimax/minimax-m3",
+  "name": "MiniMax: MiniMax M3",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax-M3 is a multimodal foundation model from MiniMax.",
+  "release_date": "2026-05-31",
+  "context_window": 1048576,
+  "max_output_tokens": 512000,
+  "model_type": "chat",
+  "tagline": "MiniMax-M3 is a multimodal foundation model from MiniMax.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2,
+    "cached_input": 0.06
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "7a7b581f",
+    "family": "c85916f0",
+    "description": "8c440645",
+    "release_date": "da029f9b",
+    "context_window": "7d28a051",
+    "max_output_tokens": "d09e1c12",
+    "model_type": "d669f408",
+    "tagline": "8c440645",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "pricing": "0c734839",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-02"
+}

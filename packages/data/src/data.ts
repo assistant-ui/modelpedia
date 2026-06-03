@@ -102401,6 +102401,23 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://fireworks.ai/models/fireworks/starcoder2-7b"
       },
       {
+        "id": "fireworks/step-3p7-flash-nvfp4",
+        "name": "step-3p7-flash-nvfp4",
+        "created_by": "fireworks",
+        "source": "official",
+        "context_window": 262000,
+        "page_url": "https://fireworks.ai/models/fireworks/step-3p7-flash-nvfp4",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 1,
+          "cached_input": 1
+        },
+        "last_updated": "2026-06-02"
+      },
+      {
         "id": "fireworks/toppy-m-7b",
         "name": "toppy-m-7b",
         "created_by": "fireworks",
@@ -102789,10 +102806,10 @@ export const providers: ProviderWithModels[] = [
         "name": "embedding-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-06-02",
         "status": "deprecated",
         "deprecation_date": "2025-10-30",
-        "successor": "gemini-embedding-001",
+        "successor": "gemini-embedding-2",
         "model_type": "embed",
         "modalities": {
           "input": [
@@ -102811,10 +102828,10 @@ export const providers: ProviderWithModels[] = [
         "name": "embedding-gecko-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-06-02",
         "status": "deprecated",
         "deprecation_date": "2025-10-30",
-        "successor": "gemini-embedding-001",
+        "successor": "gemini-embedding-2",
         "model_type": "embed",
         "modalities": {
           "input": [
@@ -102833,9 +102850,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-06-02",
         "family": "gemini-2.0",
-        "status": "active",
+        "status": "deprecated",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -102851,16 +102868,18 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "deprecation_date": "2026-06-01",
+        "successor": "gemini-3.5-flash"
       },
       {
         "id": "gemini-2.0-flash-lite-001",
         "name": "gemini-2.0-flash-lite-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-06-02",
         "family": "gemini-2.0",
-        "status": "active",
+        "status": "deprecated",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -102876,7 +102895,9 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "deprecation_date": "2026-06-01",
+        "successor": "gemini-3.1-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-lite-preview-02-05",
@@ -102937,9 +102958,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash-lite",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-06-02",
         "family": "gemini-2.0",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-08",
         "context_window": 1048576,
         "max_output_tokens": 8192,
@@ -103010,7 +103031,9 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "proprietary",
         "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash-lite",
-        "open_weight": false
+        "open_weight": false,
+        "deprecation_date": "2026-06-01",
+        "successor": "gemini-3.1-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-live-001",
@@ -103071,9 +103094,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-06-02",
         "family": "gemini-2.0",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-08",
         "context_window": 1048576,
         "max_output_tokens": 8192,
@@ -103145,7 +103168,9 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "license": "proprietary",
         "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash",
-        "open_weight": false
+        "open_weight": false,
+        "deprecation_date": "2026-06-01",
+        "successor": "gemini-3.5-flash"
       },
       {
         "id": "gemini-2.5-computer-use-preview-10-2025",
@@ -105057,10 +105082,10 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-embedding-exp-03-07",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-06-02",
         "status": "deprecated",
         "deprecation_date": "2025-10-30",
-        "successor": "gemini-embedding-001",
+        "successor": "gemini-embedding-2",
         "model_type": "embed",
         "modalities": {
           "input": [
@@ -105079,10 +105104,10 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-embedding-exp",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-06-02",
         "status": "deprecated",
         "deprecation_date": "2025-10-30",
-        "successor": "gemini-embedding-001",
+        "successor": "gemini-embedding-2",
         "model_type": "embed",
         "modalities": {
           "input": [
@@ -105496,10 +105521,10 @@ export const providers: ProviderWithModels[] = [
         "name": "text-embedding-004",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-06-02",
         "status": "deprecated",
         "deprecation_date": "2026-01-14",
-        "successor": "gemini-embedding-001",
+        "successor": "gemini-embedding-2",
         "model_type": "embed",
         "modalities": {
           "input": [
@@ -111992,6 +112017,32 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-05-17"
       },
       {
+        "id": "unsloth/Qwen3-4B-Base",
+        "name": "Qwen3-4B-Base",
+        "created_by": "unsloth",
+        "source": "official",
+        "release_date": "2025-04-28",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "page_url": "https://huggingface.co/unsloth/Qwen3-4B-Base",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-06-02"
+      },
+      {
         "id": "unsloth/Qwen3-4B-Instruct-2507",
         "name": "Qwen3-4B-Instruct-2507",
         "created_by": "unsloth",
@@ -112157,6 +112208,58 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-05-01"
+      },
+      {
+        "id": "utter-project/EuroLLM-22B-Instruct-2512",
+        "name": "EuroLLM-22B-Instruct-2512",
+        "created_by": "utter-project",
+        "source": "official",
+        "description": "This is the model card for EuroLLM-22B-Instruct. You can also check the pre-trained version: [EuroLLM-22B-2515](https://huggingface.co/utter-project/EuroLLM-22B-2512).",
+        "release_date": "2025-12-05",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 23,
+        "alias": "utter-project/EuroLLM-22B-Instruct",
+        "page_url": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512",
+        "architecture": "transformer",
+        "tagline": "This is the model card for EuroLLM-22B-Instruct.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-06-02"
+      },
+      {
+        "id": "utter-project/EuroLLM-22B-Instruct",
+        "name": "EuroLLM-22B-Instruct-2512",
+        "created_by": "utter-project",
+        "source": "official",
+        "description": "This is the model card for EuroLLM-22B-Instruct. You can also check the pre-trained version: [EuroLLM-22B-2515](https://huggingface.co/utter-project/EuroLLM-22B-2512).",
+        "release_date": "2025-12-05",
+        "context_window": 32768,
+        "license": "apache-2.0",
+        "parameters": 23,
+        "page_url": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512",
+        "architecture": "transformer",
+        "tagline": "This is the model card for EuroLLM-22B-Instruct.",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "snapshots": [
+          "utter-project/EuroLLM-22B-Instruct-2512"
+        ],
+        "last_updated": "2026-06-02"
       },
       {
         "id": "VAGOsolutions/Llama-3-SauerkrautLM-8b-Instruct",
@@ -126627,6 +126730,16 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "stepfun-ai/step-3.7-flash",
+        "name": "step-3.7-flash",
+        "created_by": "stepfun",
+        "source": "official",
+        "capabilities": {
+          "streaming": true
+        },
+        "last_updated": "2026-06-02"
+      },
+      {
         "id": "stockmark/stockmark-2-100b-instruct",
         "name": "stockmark-2-100b-instruct",
         "created_by": "stockmark",
@@ -127969,6 +128082,42 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         }
+      },
+      {
+        "id": "minimax-m3",
+        "name": "minimax-m3",
+        "created_by": "minimax",
+        "source": "official",
+        "family": "minimax",
+        "description": "MiniMax M3: Coding &amp; Agentic Frontier. 1M context window. Native Multimodality.",
+        "release_date": "2026-06-01",
+        "context_window": 524288,
+        "reasoning_tokens": true,
+        "license": "open-weight",
+        "page_url": "https://ollama.com/library/minimax-m3",
+        "open_weight": true,
+        "model_type": "chat",
+        "tagline": "MiniMax M3: Coding &amp; Agentic Frontier.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-06-02"
       },
       {
         "id": "ministral-3",
@@ -142128,6 +142277,32 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-05-14"
       },
       {
+        "id": "deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "created_by": "unknown",
+        "source": "official",
+        "family": "deepseek",
+        "status": "active",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.28,
+          "cached_input": 0.03
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-06-02"
+      },
+      {
         "id": "gemini-3-flash",
         "name": "Gemini 3 Flash",
         "created_by": "google",
@@ -142938,7 +143113,8 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "output": 2,
-          "cached_input": 0.2
+          "cached_input": 0.2,
+          "input": 1
         },
         "modalities": {
           "input": [
@@ -142948,7 +143124,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-23"
+        "last_updated": "2026-06-02"
       },
       {
         "id": "hy3-preview-free",
@@ -143294,6 +143470,33 @@ export const providers: ProviderWithModels[] = [
         "open_weight": true
       },
       {
+        "id": "qwen3.7-max",
+        "name": "Qwen3.7 Max",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3.7",
+        "status": "active",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 7.5,
+          "cached_input": 0.5,
+          "cache_write": 3.125
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-06-02"
+      },
+      {
         "id": "ring-2.6-1t-free",
         "name": "Ring 2.6 1T",
         "created_by": "unknown",
@@ -143526,7 +143729,7 @@ export const providers: ProviderWithModels[] = [
         "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
         "release_date": "2026-04-27",
         "context_window": 262144,
-        "max_output_tokens": 262142,
+        "max_output_tokens": 262144,
         "model_type": "chat",
         "tagline": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
         "capabilities": {
@@ -143545,14 +143748,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.73,
-          "output": 3.49,
-          "cached_input": 0.25
+          "input": 0.684,
+          "output": 3.42,
+          "cached_input": 0.144
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-17"
+        "last_updated": "2026-06-02"
       },
       {
         "id": "~openai/gpt-latest",
@@ -145878,7 +146081,7 @@ export const providers: ProviderWithModels[] = [
         "name": "DeepSeek: DeepSeek V3",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-05-29",
+        "last_updated": "2026-06-02",
         "family": "deepseek-chat",
         "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions.",
         "context_window": 131072,
@@ -145899,8 +146102,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.229,
-          "output": 0.914
+          "input": 0.2,
+          "output": 0.8
         },
         "release_date": "2024-12-26",
         "tagline": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions.",
@@ -146154,7 +146357,7 @@ export const providers: ProviderWithModels[] = [
         "name": "DeepSeek: DeepSeek V3.2",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-04-24",
+        "last_updated": "2026-06-02",
         "family": "deepseek",
         "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance.",
         "context_window": 131072,
@@ -146173,8 +146376,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.252,
-          "output": 0.378,
+          "input": 0.229,
+          "output": 0.343,
           "cached_input": 0.025
         },
         "release_date": "2025-12-01",
@@ -146183,7 +146386,7 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "model_type": "chat",
-        "max_output_tokens": 65536
+        "max_output_tokens": 64000
       },
       {
         "id": "deepseek/deepseek-v4-flash:free",
@@ -146223,7 +146426,7 @@ export const providers: ProviderWithModels[] = [
         "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window.",
         "release_date": "2026-04-24",
         "context_window": 1048576,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 131072,
         "model_type": "chat",
         "tagline": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window.",
         "capabilities": {
@@ -146243,14 +146446,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.1,
-          "output": 0.2,
+          "input": 0.098,
+          "output": 0.197,
           "cached_input": 0.02
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-23",
+        "last_updated": "2026-06-02",
         "license": "mit",
         "open_weight": true
       },
@@ -148046,14 +148249,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.075,
-          "output": 0.625,
-          "cached_input": 0.015
+          "input": 0.3,
+          "output": 2.5,
+          "cached_input": 0.06
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-17"
+        "last_updated": "2026-06-02"
       },
       {
         "id": "inflection/inflection-3-pi",
@@ -149202,6 +149405,44 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "proprietary",
         "open_weight": false
+      },
+      {
+        "id": "minimax/minimax-m3",
+        "name": "MiniMax: MiniMax M3",
+        "created_by": "minimax",
+        "source": "official",
+        "family": "minimax",
+        "description": "MiniMax-M3 is a multimodal foundation model from MiniMax.",
+        "release_date": "2026-05-31",
+        "context_window": 1048576,
+        "max_output_tokens": 512000,
+        "model_type": "chat",
+        "tagline": "MiniMax-M3 is a multimodal foundation model from MiniMax.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 1.2,
+          "cached_input": 0.06
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-06-02"
       },
       {
         "id": "mistralai/codestral-2508",
@@ -150781,7 +151022,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration.",
         "release_date": "2026-04-20",
         "context_window": 262144,
-        "max_output_tokens": 262142,
+        "max_output_tokens": 262144,
         "model_type": "chat",
         "tagline": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration.",
         "capabilities": {
@@ -150800,14 +151041,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.73,
-          "output": 3.49,
-          "cached_input": 0.25
+          "input": 0.684,
+          "output": 3.42,
+          "cached_input": 0.144
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-17"
+        "last_updated": "2026-06-02"
       },
       {
         "id": "moonshotai/kimi-k2",
@@ -152274,10 +152515,10 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o-mini",
-        "name": "OpenAI: GPT-4o-mini",
+        "name": "OpenAI: GPT-4o-mini (2024-07-18)",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-05-17",
+        "last_updated": "2026-06-02",
         "family": "gpt-4o",
         "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs.",
         "context_window": 128000,
@@ -152359,14 +152600,14 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "openai/gpt-4o",
-        "name": "OpenAI: GPT-4o",
+        "name": "OpenAI: GPT-4o (2024-05-13)",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-05-29",
+        "last_updated": "2026-06-02",
         "family": "gpt-4o",
         "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs.",
         "context_window": 128000,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 4096,
         "modalities": {
           "input": [
             "text",
@@ -152387,8 +152628,8 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 2.5,
-          "output": 10,
+          "input": 5,
+          "output": 15,
           "cached_input": 1.25
         },
         "model_type": "chat",
@@ -153716,7 +153957,7 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: gpt-oss-20b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-12",
+        "last_updated": "2026-06-02",
         "family": "gpt-oss",
         "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
         "context_window": 131072,
@@ -153740,7 +153981,7 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 0.03,
+          "input": 0.029,
           "output": 0.14,
           "cached_input": 0.015
         },
@@ -155184,7 +155425,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 235B A22B Thinking 2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-05-17",
+        "last_updated": "2026-06-02",
         "family": "qwen3",
         "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks.",
         "context_window": 262144,
@@ -155205,8 +155446,9 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.15,
-          "output": 1.495
+          "input": 0.1,
+          "output": 0.1,
+          "cached_input": 0.1
         },
         "model_type": "chat",
         "parameters": 235,
@@ -155227,7 +155469,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 235B A22B Thinking 2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-05-17",
+        "last_updated": "2026-06-02",
         "family": "qwen3",
         "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks.",
         "release_date": "2025-07-25",
@@ -155253,8 +155495,9 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.15,
-          "output": 1.495
+          "input": 0.1,
+          "output": 0.1,
+          "cached_input": 0.1
         },
         "tools": [
           "function_calling"
@@ -155315,11 +155558,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 30B A3B Instruct 2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-06-02",
         "family": "qwen3",
         "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference.",
-        "context_window": 262144,
-        "max_output_tokens": 262144,
+        "context_window": 131072,
+        "max_output_tokens": 32000,
         "modalities": {
           "input": [
             "text"
@@ -155336,8 +155579,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.09,
-          "output": 0.3
+          "input": 0.043,
+          "output": 0.172
         },
         "model_type": "chat",
         "parameters": 30,
@@ -155355,12 +155598,12 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 30B A3B Instruct 2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-24",
+        "last_updated": "2026-06-02",
         "family": "qwen3",
         "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference.",
         "release_date": "2025-07-29",
-        "context_window": 262144,
-        "max_output_tokens": 262144,
+        "context_window": 131072,
+        "max_output_tokens": 32000,
         "parameters": 30,
         "active_parameters": 3,
         "model_type": "chat",
@@ -155381,8 +155624,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.09,
-          "output": 0.3
+          "input": 0.043,
+          "output": 0.172
         },
         "tools": [
           "function_calling"
@@ -156422,11 +156665,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3.5-35B-A3B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-05-23",
+        "last_updated": "2026-06-02",
         "family": "qwen3.5",
         "description": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency.",
         "context_window": 262144,
-        "max_output_tokens": 81920,
+        "max_output_tokens": 262144,
         "modalities": {
           "input": [
             "text",
@@ -156446,7 +156689,7 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.139,
+          "input": 0.14,
           "output": 1,
           "cached_input": 0.05
         },
@@ -157411,6 +157654,42 @@ export const providers: ProviderWithModels[] = [
         ],
         "license": "apache-2.0",
         "open_weight": true
+      },
+      {
+        "id": "stepfun/step-3.7-flash",
+        "name": "StepFun: Step 3.7 Flash",
+        "created_by": "stepfun",
+        "source": "official",
+        "description": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model.",
+        "release_date": "2026-05-28",
+        "context_window": 256000,
+        "max_output_tokens": 256000,
+        "tagline": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 1.15,
+          "cached_input": 0.04
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-06-02"
       },
       {
         "id": "switchpoint/router",
@@ -158905,15 +159184,15 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-17",
-        "max_output_tokens": 65535
+        "last_updated": "2026-06-02",
+        "max_output_tokens": 131072
       },
       {
         "id": "z-ai/glm-5",
         "name": "Z.ai: GLM 5",
         "created_by": "z-ai",
         "source": "official",
-        "last_updated": "2026-05-06",
+        "last_updated": "2026-06-02",
         "description": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows.",
         "context_window": 202752,
         "max_output_tokens": 16384,
@@ -158933,7 +159212,7 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.6,
-          "output": 1.92,
+          "output": 2.08,
           "cached_input": 0.12
         },
         "family": "glm-5",
@@ -159177,6 +159456,28 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 128000,
         "knowledge_cutoff": "2026-01",
         "training_data_cutoff": "2026-01"
+      },
+      {
+        "id": "anthropic/claude-opus-4-8",
+        "name": "anthropic/claude-opus-4-8",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-06-02"
       },
       {
         "id": "anthropic/claude-sonnet-4-5",
@@ -171114,8 +171415,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.3,
-          "output": 1.2
+          "input": 1.4,
+          "output": 4.4
         },
         "modalities": {
           "input": [
@@ -171125,7 +171426,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-17",
+        "last_updated": "2026-06-02",
         "description": "DeepSeek-V4-Flash hybrid model with both non-thinking and thinking (default) modes.",
         "tagline": "DeepSeek-V4-Flash hybrid model with both non-thinking and thinking (default) modes.",
         "context_window": 1000000,
@@ -171203,15 +171504,15 @@ export const providers: ProviderWithModels[] = [
         "name": "Gemma 3 27b",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-05-17",
+        "last_updated": "2026-06-02",
         "family": "gemma-3",
         "context_window": 64000,
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 0.3,
-          "output": 1.2
+          "input": 1.4,
+          "output": 4.4
         },
         "model_type": "chat",
         "parameters": 27,
@@ -171613,6 +171914,31 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-04-12"
       },
       {
+        "id": "s/minimax-m3",
+        "name": "Minimax M3",
+        "created_by": "minimax",
+        "source": "official",
+        "family": "minimax",
+        "page_url": "https://www.together.ai/models/minimax-m3",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 1.2
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-06-02"
+      },
+      {
         "id": "s/minimax-speech-2-6-turbo",
         "name": "Minimax Speech 2 6 Turbo",
         "created_by": "minimax",
@@ -171739,23 +172065,23 @@ export const providers: ProviderWithModels[] = [
           "streaming": true
         },
         "pricing": {
-          "input": 0.3,
-          "output": 1.2
+          "input": 1.4,
+          "output": 4.4
         },
-        "last_updated": "2026-05-17"
+        "last_updated": "2026-06-02"
       },
       {
         "id": "s/nvidia-nemotron-3-super",
         "name": "Nvidia Nemotron 3 Super",
         "created_by": "nvidia",
         "source": "official",
-        "last_updated": "2026-05-17",
+        "last_updated": "2026-06-02",
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 0.3,
-          "output": 1.2
+          "input": 1.4,
+          "output": 4.4
         },
         "page_url": "https://www.together.ai/models/nvidia-nemotron-3-super"
       },
@@ -171820,15 +172146,15 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen3 5 9b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-06-02",
         "family": "qwen3",
         "context_window": 262000,
         "capabilities": {
           "streaming": true
         },
         "pricing": {
-          "input": 0.1,
-          "output": 0.15
+          "input": 0.17,
+          "output": 0.25
         },
         "model_type": "chat",
         "parameters": 9,
@@ -172827,7 +173153,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "qwen",
         "source": "official",
         "family": "qwen3.7",
-        "context_window": 1000000,
+        "context_window": 991000,
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -172850,7 +173176,38 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-23"
+        "last_updated": "2026-06-02"
+      },
+      {
+        "id": "alibaba/qwen3.7-plus",
+        "name": "qwen3.7-plus",
+        "created_by": "qwen",
+        "source": "official",
+        "family": "qwen3.7",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 1.6
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-06-02"
       },
       {
         "id": "alibaba/wan-v2.5-t2v-preview",
@@ -174364,7 +174721,7 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-v3.1",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-06-02",
         "family": "deepseek",
         "context_window": 163800,
         "capabilities": {
@@ -174373,8 +174730,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.5,
-          "output": 1.5
+          "input": 0.21,
+          "output": 0.79
         },
         "tools": [
           "function_calling"
@@ -174456,7 +174813,7 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-v3",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-06-02",
         "family": "deepseek",
         "context_window": 163800,
         "capabilities": {
@@ -174464,8 +174821,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true
         },
         "pricing": {
-          "input": 0.77,
-          "output": 0.77
+          "input": 0.27,
+          "output": 1.12
         },
         "tools": [
           "function_calling"
@@ -174997,6 +175354,41 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "max_output_tokens": 32768,
+        "knowledge_cutoff": "2025-01",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "google/gemini-3.1-flash-image",
+        "name": "gemini-3.1-flash-image",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3.1",
+        "context_window": 131100,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "batch": true,
+          "json_mode": true
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-06-02",
         "max_output_tokens": 32768,
         "knowledge_cutoff": "2025-01",
         "license": "proprietary",
@@ -175836,7 +176228,7 @@ export const providers: ProviderWithModels[] = [
         "name": "llama-3.1-8b",
         "created_by": "meta",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-06-02",
         "family": "llama-3.1",
         "context_window": 131100,
         "capabilities": {
@@ -175844,8 +176236,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true
         },
         "pricing": {
-          "input": 0.1,
-          "output": 0.1
+          "input": 0.02,
+          "output": 0.05
         },
         "model_type": "chat",
         "parameters": 8,
@@ -176170,7 +176562,7 @@ export const providers: ProviderWithModels[] = [
         "name": "minimax-m2.5",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-05-29",
+        "last_updated": "2026-06-02",
         "context_window": 1000000,
         "capabilities": {
           "streaming": true,
@@ -176179,8 +176571,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.12,
-          "output": 0.92
+          "input": 0.07,
+          "output": 0.57
         },
         "family": "minimax",
         "model_type": "chat",
@@ -176240,7 +176632,7 @@ export const providers: ProviderWithModels[] = [
         "name": "minimax-m2.7",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-05-29",
+        "last_updated": "2026-06-02",
         "context_window": 204800,
         "capabilities": {
           "streaming": true,
@@ -176249,8 +176641,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.24,
-          "output": 0.96
+          "input": 0.15,
+          "output": 0.6
         },
         "family": "minimax",
         "model_type": "chat",
@@ -176303,6 +176695,37 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Agentic capabilities, Advanced reasoning",
         "license": "proprietary",
         "open_weight": false
+      },
+      {
+        "id": "minimax/minimax-m3",
+        "name": "minimax-m3",
+        "created_by": "minimax",
+        "source": "official",
+        "family": "minimax",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 1.2
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-06-02"
       },
       {
         "id": "mistral/codestral-embed",
@@ -177094,8 +177517,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.74,
-          "output": 3.5
+          "input": 0.95,
+          "output": 4
         },
         "modalities": {
           "input": [
@@ -177108,7 +177531,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-29"
+        "last_updated": "2026-06-02"
       },
       {
         "id": "moonshotai/kimi-k2",
@@ -179447,6 +179870,72 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "stepfun/step-3.5-flash",
+        "name": "step-3.5-flash",
+        "created_by": "stepfun",
+        "source": "official",
+        "context_window": 262100,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": true
+        },
+        "pricing": {
+          "input": 0.09,
+          "output": 0.3
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-06-02",
+        "description": "Flagship reasoning model with 256k context, MoE architecture (199B total, ~11B active). Optimized for agentic tasks, tool calling, planning, math, and coding.",
+        "tagline": "Frontier reasoning and agentic capabilities at low cost.",
+        "license": "apache-2.0",
+        "open_weight": true
+      },
+      {
+        "id": "stepfun/step-3.7-flash",
+        "name": "step-3.7-flash",
+        "created_by": "stepfun",
+        "source": "official",
+        "context_window": 256000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 1.15
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-06-02"
+      },
+      {
         "id": "voyage/rerank-2.5-lite",
         "name": "rerank-2.5-lite",
         "created_by": "voyage",
@@ -180901,8 +181390,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 1.4,
-          "output": 4.4
+          "input": 1.3,
+          "output": 4.3
         },
         "modalities": {
           "input": [
@@ -180915,7 +181404,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-01"
+        "last_updated": "2026-06-02"
       },
       {
         "id": "zai/glm-5",
@@ -181369,11 +181858,11 @@ export const providers: ProviderWithModels[] = [
         "name": "embedding-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-06-02",
         "status": "deprecated",
         "deprecation_date": "2025-10-30",
         "model_type": "embed",
-        "successor": "gemini-embedding-001",
+        "successor": "gemini-embedding-2",
         "modalities": {
           "input": [
             "text"
@@ -181391,11 +181880,11 @@ export const providers: ProviderWithModels[] = [
         "name": "embedding-gecko-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-06-02",
         "status": "deprecated",
         "deprecation_date": "2025-10-30",
         "model_type": "embed",
-        "successor": "gemini-embedding-001",
+        "successor": "gemini-embedding-2",
         "modalities": {
           "input": [
             "text"
@@ -181413,9 +181902,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-06-02",
         "family": "gemini-2.0",
-        "status": "active",
+        "status": "deprecated",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -181456,16 +181945,18 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "deprecation_date": "2026-06-01",
+        "successor": "gemini-3.5-flash"
       },
       {
         "id": "gemini-2.0-flash-lite-001",
         "name": "gemini-2.0-flash-lite-001",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-06-02",
         "family": "gemini-2.0",
-        "status": "active",
+        "status": "deprecated",
         "capabilities": {
           "streaming": true,
           "vision": true
@@ -181506,7 +181997,9 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "deprecation_date": "2026-06-01",
+        "successor": "gemini-3.1-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-lite-preview-02-05",
@@ -181617,9 +182110,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash-lite",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-06-02",
         "family": "gemini-2.0",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-08",
         "context_window": 1048576,
         "max_output_tokens": 8192,
@@ -181679,7 +182172,9 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "deprecation_date": "2026-06-01",
+        "successor": "gemini-3.1-flash-lite"
       },
       {
         "id": "gemini-2.0-flash-live-001",
@@ -181790,9 +182285,9 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-2.0-flash",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-06-02",
         "family": "gemini-2.0",
-        "status": "active",
+        "status": "deprecated",
         "knowledge_cutoff": "2024-08",
         "context_window": 1048576,
         "max_output_tokens": 8192,
@@ -181852,7 +182347,9 @@ export const providers: ProviderWithModels[] = [
         ],
         "model_type": "chat",
         "license": "proprietary",
-        "open_weight": false
+        "open_weight": false,
+        "deprecation_date": "2026-06-01",
+        "successor": "gemini-3.5-flash"
       },
       {
         "id": "gemini-2.5-computer-use-preview-10-2025",
@@ -184155,11 +184652,11 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-embedding-exp-03-07",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-06-02",
         "status": "deprecated",
         "deprecation_date": "2025-10-30",
         "model_type": "embed",
-        "successor": "gemini-embedding-001",
+        "successor": "gemini-embedding-2",
         "modalities": {
           "input": [
             "text"
@@ -184177,11 +184674,11 @@ export const providers: ProviderWithModels[] = [
         "name": "gemini-embedding-exp",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-06-02",
         "status": "deprecated",
         "deprecation_date": "2025-10-30",
         "model_type": "embed",
-        "successor": "gemini-embedding-001",
+        "successor": "gemini-embedding-2",
         "modalities": {
           "input": [
             "text"
@@ -184675,11 +185172,11 @@ export const providers: ProviderWithModels[] = [
         "name": "text-embedding-004",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-06-02",
         "status": "deprecated",
         "deprecation_date": "2026-01-14",
         "model_type": "embed",
-        "successor": "gemini-embedding-001",
+        "successor": "gemini-embedding-2",
         "modalities": {
           "input": [
             "text"
@@ -186691,6 +187188,31 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ]
+      },
+      {
+        "id": "grok-imagine-video-1.5-preview",
+        "name": "grok-imagine-video-1.5-preview",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-imagine",
+        "license": "proprietary",
+        "page_url": "https://docs.x.ai/developers/models/grok-imagine-video-1.5-preview",
+        "model_type": "image",
+        "capabilities": {
+          "streaming": true,
+          "batch": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "image"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "open_weight": false,
+        "last_updated": "2026-06-02"
       },
       {
         "id": "grok-imagine-video",
