@@ -5,13 +5,7 @@ import {
   enrichEntry,
   fetchJsonWithOptionalBearer,
 } from "./provider-fetch-utils.ts";
-import {
-  envOrNull,
-  type ModelEntry,
-  readSources,
-  runGenerate,
-  upsertModel,
-} from "./shared.ts";
+import { envOrNull, readSources, runGenerate, upsertModel } from "./shared.ts";
 
 interface ParasailModel {
   id: string;
@@ -38,8 +32,9 @@ function normalizeResponse(json: unknown): ParasailModel[] {
 async function main() {
   const token = envOrNull("PARASAIL_API_KEY");
   if (!token) {
-    console.warn("Missing PARASAIL_API_KEY — skipping official model fetch");
-    runGenerate();
+    console.warn(
+      "No PARASAIL_API_KEY and no key-free public model list for Parasail; skipping. Set PARASAIL_API_KEY locally to fetch.",
+    );
     return;
   }
 

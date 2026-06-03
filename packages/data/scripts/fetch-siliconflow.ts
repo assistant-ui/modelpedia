@@ -45,8 +45,9 @@ async function fetchSubType(token: string, subType: string) {
 async function main() {
   const token = envOrNull("SILICONFLOW_API_KEY", "SILICONCLOUD_API_KEY");
   if (!token) {
-    console.warn("Missing SILICONFLOW_API_KEY — skipping official model fetch");
-    runGenerate();
+    console.warn(
+      "No SILICONFLOW_API_KEY and no key-free public model list for SiliconFlow; skipping. Set SILICONFLOW_API_KEY locally to fetch.",
+    );
     return;
   }
 
