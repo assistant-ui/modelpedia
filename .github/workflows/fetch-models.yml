@@ -39,13 +39,12 @@ jobs:
 
       - name: Fetch all providers
         working-directory: packages/data
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
         run: |
+          # Model data is scraped from public docs and pages only. No API keys
+          # are configured here on purpose: authenticated endpoints return
+          # thinner data than the public docs, so every fetch script must work
+          # without a key. fetch:alibaba must precede fetch:qwen, which derives
+          # its catalog from alibaba's output.
           scripts=(
             fetch:openai fetch:anthropic fetch:google fetch:mistral
             fetch:deepseek fetch:xai fetch:cohere fetch:zai
@@ -54,13 +53,33 @@ jobs:
             fetch:azure fetch:groq fetch:nvidia fetch:together
             fetch:fireworks fetch:amazon fetch:vercel fetch:vertex
             fetch:cloudflare-workers-ai fetch:cloudflare-ai-gateway fetch:opencode fetch:ollama fetch:huggingface
-            fetch:qwen fetch:xiaomi
+            fetch:qwen fetch:xiaomi fetch:novita fetch:bytedance
+            fetch:stability fetch:ai21 fetch:voyage fetch:replicate
+            fetch:fal fetch:siliconflow fetch:parasail fetch:nebius
+            fetch:black-forest-labs fetch:deepinfra fetch:inception fetch:jina
+            fetch:recraft fetch:reka fetch:sambanova fetch:stepfun fetch:writer
           )
+          failed=()
           for script in "${scripts[@]}"; do
             echo "::group::$script"
-            bun run "$script" || echo "::warning::$script failed"
+            if ! bun run "$script"; then
+              echo "::warning::$script failed"
+              failed+=("$script")
+            fi
             echo "::endgroup::"
           done
+          # Surface failures prominently instead of letting a broken scraper go
+          # unnoticed. The job stays green so a single broken provider does not
+          # block the data PR, but the failures are reported in the run summary
+          # and carried into the PR body.
+          if [ ${#failed[@]} -gt 0 ]; then
+            {
+              echo "### ${#failed[@]} fetch script(s) failed"
+              echo ""
+              for f in "${failed[@]}"; do echo "- \`$f\`"; done
+            } >> "$GITHUB_STEP_SUMMARY"
+            printf '%s\n' "${failed[@]}" > "$GITHUB_WORKSPACE/fetch-failures.txt"
+          fi
 
       - name: Regenerate data
         working-directory: packages/data
@@ -98,6 +117,13 @@ jobs:
           SUMMARY="**${PROVIDERS} model changes** on $(date +%Y-%m-%d)"
           if [ -n "$STATS" ]; then
             SUMMARY="${SUMMARY}"$'\n\n'"$(echo "$STATS" | sed 's/^  /- /')"
+          fi
+
+          # Flag any providers whose fetch failed this run so a silent scraper
+          # break shows up in the PR rather than passing as a no-op.
+          if [ -f "$GITHUB_WORKSPACE/fetch-failures.txt" ]; then
+            FAILS=$(sed 's/^/- `/; s/$/`/' "$GITHUB_WORKSPACE/fetch-failures.txt")
+            SUMMARY="${SUMMARY}"$'\n\n'"**Fetch failures (need attention):**"$'\n'"${FAILS}"
           fi
 
           # Create PR if none exists, otherwise update the existing one
