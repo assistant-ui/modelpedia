@@ -3,7 +3,7 @@
   "name": "mistral-7b-01",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-06-03",
   "status": "active",
   "context_window": 8000,
   "capabilities": {
@@ -24,7 +24,7 @@
     "family": "33212289",
     "license": "60245731",
     "parameters": "8f14e45f",
-    "page_url": "9d1de670",
+    "page_url": "911344d4",
     "open_weight": "b326b506",
     "description": "7ea70429",
     "tagline": "7ea70429"
@@ -33,7 +33,7 @@
   "family": "mistral-7b",
   "license": "apache-2.0",
   "parameters": 7,
-  "page_url": "https://docs.mistral.ai/models/mistral-7b-0-1",
+  "page_url": "https://docs.mistral.ai/models/model-cards/mistral-7b-0-1",
   "open_weight": true,
   "description": "Our very first open model, SOTA competing against models up to 2 to 3x larger.",
   "tagline": "Our very first open model, SOTA competing against models up to 2 to 3x larger."

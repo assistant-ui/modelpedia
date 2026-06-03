@@ -1,0 +1,31 @@
+{
+  "id": "Wan-AI/Wan2.7-R2V",
+  "name": "Wan2.7-R2V",
+  "created_by": "wan-ai",
+  "source": "official",
+  "family": "Wan2.7",
+  "description": "Accurately preserve the look and voice of people or objects from a reference video, supporting multi-reference co-creation.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "tagline": "Accurately preserve the look and voice of people or objects from a reference video, supporting multi-reference co-creation.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["$0.10 / second"],
+  "_generated": {
+    "name": "e5ee69ba",
+    "family": "03ccd3d6",
+    "description": "ae8b1d75",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "tagline": "ae8b1d75",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "1f9aab98"
+  },
+  "last_updated": "2026-06-03"
+}

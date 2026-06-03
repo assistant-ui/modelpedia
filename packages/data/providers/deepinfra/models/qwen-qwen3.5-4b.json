@@ -3,7 +3,7 @@
   "name": "Qwen3.5-4B",
   "created_by": "alibaba",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "qwen3",
   "description": "Qwen3.5-4B is a mid-size model from Alibaba's Qwen3.5 series that delivers a strong balance of performance and efficiency. It features a 262K token context window (extensible to 1M with YaRN), thinking/reasoning mode, tool calling, and support for 201 languages. Well-suited for complex reasoning, code generation, and agentic applications.",
   "status": "active",
@@ -31,7 +31,7 @@
   },
   "tools": ["function_calling"],
   "endpoints": ["chat_completions"],
-  "quantization": "fp8",
+  "quantization": "bfloat16",
   "tagline": "Qwen3.5-4B is a mid-size model from Alibaba's Qwen3.5 series that delivers a strong balance of performance and efficiency.",
   "_generated": {
     "name": "ffd88858",
@@ -48,7 +48,7 @@
     "pricing": "df889084",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
-    "quantization": "640679f9",
+    "quantization": "45ae6e17",
     "tagline": "a83833b1"
   }
 }

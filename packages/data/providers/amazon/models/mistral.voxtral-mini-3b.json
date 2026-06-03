@@ -3,13 +3,13 @@
   "name": "Voxtral Mini 3B 2507",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "audio",
   "capabilities": {
     "streaming": true
   },
   "modalities": {
-    "input": [],
+    "input": ["audio", "text"],
     "output": ["text"]
   },
   "snapshots": ["mistral.voxtral-mini-3b-2507"],
@@ -17,7 +17,14 @@
     "name": "a4397e72",
     "model_type": "9f84c007",
     "capabilities": "0fa77dc6",
-    "modalities": "ce37f4ca"
+    "modalities": "7cee5e0e",
+    "parameters": "eccbc87e",
+    "release_date": "bfdca3f9",
+    "context_window": "10e4d788",
+    "page_url": "3b8ce005"
   },
-  "parameters": 3
+  "parameters": 3,
+  "release_date": "2025-07",
+  "context_window": 32000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-voxtral-mini-3b-2507"
 }

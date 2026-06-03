@@ -1,0 +1,35 @@
+{
+  "id": "XiaomiMiMo/MiMo-V2.5-tts",
+  "name": "MiMo-V2.5-tts",
+  "created_by": "xiaomimimo",
+  "source": "official",
+  "family": "mimo",
+  "description": "Automatically convert input text into natural and fluent speech output. You can generate natural and vivid speech content by configuring parameters such as speech style and voice. Use the high-quality voices from the built-in voices list.",
+  "status": "active",
+  "model_type": "tts",
+  "open_weight": false,
+  "tagline": "Automatically convert input text into natural and fluent speech output.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "pricing_notes": ["$0.0000 per 1M input characters"],
+  "_generated": {
+    "name": "1fefde61",
+    "family": "1a23786e",
+    "description": "b7f0fc29",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "open_weight": "68934a3e",
+    "tagline": "45ea9c13",
+    "capabilities": "0fa77dc6",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "pricing_notes": "44d3e7e1"
+  },
+  "last_updated": "2026-06-03"
+}

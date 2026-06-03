@@ -1,0 +1,29 @@
+{
+  "id": "PrunaAI/p-video-avatar",
+  "name": "p-video-avatar",
+  "created_by": "prunaai",
+  "source": "official",
+  "description": "Pruna's talking head video generation model. Provide a portrait image and either a speech script or an audio file, and the model generates a realistic video of the person speaking. Supports multiple voices, languages, and output resolutions.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "tagline": "Pruna's talking head video generation model.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["$0.025 / second"],
+  "_generated": {
+    "name": "8a716835",
+    "description": "c7753399",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "tagline": "e385d5dc",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "9ed564d1"
+  },
+  "last_updated": "2026-06-03"
+}

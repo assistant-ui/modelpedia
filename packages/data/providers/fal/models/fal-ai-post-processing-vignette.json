@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/post-processing/vignette",
-  "name": "Post Processing",
+  "name": "Post Processing Vignette",
   "created_by": "fal",
   "source": "official",
   "description": "Add a darkening vignette effect around the edges of the image with adjustable strength",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "208a7416",
+    "name": "bb3c5031",
     "description": "f603a990",
     "status": "379ac110",
     "release_date": "7a7b6168",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/ltx-2.3-quality/text-to-video",
+  "name": "Ltx 2.3 Quality",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate high-quality video with audio from text using LTX-2.3",
+  "status": "active",
+  "release_date": "2026-06-01",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/ltx-2.3-quality/text-to-video",
+  "tagline": "Generate high-quality video with audio from text using LTX-2.3",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-06-01",
+  "_generated": {
+    "name": "a69880de",
+    "description": "70c4c087",
+    "status": "379ac110",
+    "release_date": "80eaf594",
+    "model_type": "4d1b75ca",
+    "page_url": "9b4b9c7e",
+    "tagline": "70c4c087",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "80eaf594"
+  },
+  "last_updated": "2026-06-03"
+}

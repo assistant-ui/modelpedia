@@ -3,22 +3,22 @@
   "name": "Video",
   "created_by": "bria",
   "source": "official",
-  "description": "A high-fidelity capability for erasing unwanted objects, people, or visual elements from videos while maintaining aesthetic quality and temporal consistency.",
+  "description": "High-fidelity keypoint-driven video object removal - minimal input, strong temporal consistency.",
   "status": "active",
   "release_date": "2025-12-23",
   "model_type": "other",
   "page_url": "https://fal.run/bria/video/erase/keypoints",
   "tagline": "A high-fidelity capability for erasing unwanted objects, people, or visual elements from videos while maintaining aesthetic quality and temporal consistency.",
-  "last_seen_at": "2026-01-26",
+  "last_seen_at": "2026-05-20",
   "_generated": {
     "name": "567b9158",
-    "description": "2d70aaa9",
+    "description": "14004823",
     "status": "379ac110",
     "release_date": "b3874102",
     "model_type": "ddb0b7bc",
     "page_url": "6a64a113",
     "tagline": "2d70aaa9",
-    "last_seen_at": "5c252aee"
+    "last_seen_at": "7a81e6e3"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

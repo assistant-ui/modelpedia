@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/image-editing/retouch",
-  "name": "Image Editing",
+  "name": "Image Editing Retouch",
   "created_by": "fal",
   "source": "official",
   "description": "Retouch photos of faces.",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "2f4a63e0",
+    "name": "23a7d40c",
     "description": "45776bb3",
     "status": "379ac110",
     "release_date": "4faf3415",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

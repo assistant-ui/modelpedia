@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/flux-2-lora-gallery/realism",
-  "name": "Flux 2 Lora Gallery",
+  "name": "FLUX 2 Lora Gallery Realism",
   "created_by": "fal",
   "source": "official",
   "description": "Makes images more photorealistic and natural",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "5a2ef7d5",
+    "name": "939ee02f",
     "description": "4ae47c3d",
     "status": "379ac110",
     "release_date": "a4a8a70d",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

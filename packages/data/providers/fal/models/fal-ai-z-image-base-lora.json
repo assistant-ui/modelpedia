@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/z-image/base/lora",
-  "name": "Z Image Base (LoRA)",
+  "name": "Z Image Base Lora",
   "created_by": "fal",
   "source": "official",
   "description": "LoRA endpoint for Z-Image, the foundation model of the Z- Image family.",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-26",
   "_generated": {
-    "name": "da8c7108",
+    "name": "f364260f",
     "description": "63ab1a6b",
     "status": "379ac110",
     "release_date": "a6a6b128",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "42382078"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

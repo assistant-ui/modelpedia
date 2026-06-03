@@ -3,7 +3,7 @@
   "name": "ministral-14b-2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-06-03",
   "family": "ministral",
   "status": "active",
   "context_window": 256000,
@@ -33,14 +33,14 @@
     "model_type": "d669f408",
     "license": "60245731",
     "parameters": "aab32389",
-    "page_url": "27073dbc",
+    "page_url": "3d2f7d09",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "license": "apache-2.0",
   "parameters": 14,
-  "page_url": "https://docs.mistral.ai/models/ministral-3-14b-25-12",
+  "page_url": "https://docs.mistral.ai/models/model-cards/ministral-3-14b-25-12",
   "open_weight": true,
   "tools": ["function_calling"]
 }

@@ -3,19 +3,23 @@
   "name": "Marengo Embed v2.7",
   "created_by": "twelvelabs",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "embed",
   "capabilities": {
     "vision": true
   },
   "modalities": {
-    "input": [],
-    "output": []
+    "input": ["image", "audio", "text", "video"],
+    "output": ["text"]
   },
   "_generated": {
     "name": "73a02826",
     "model_type": "764cb3de",
     "capabilities": "d3117eb0",
-    "modalities": "72e6ca34"
-  }
+    "modalities": "40464817",
+    "release_date": "b1fa8211",
+    "page_url": "89c3061d"
+  },
+  "release_date": "2024-12-04",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-marengo-embed-v2-7"
 }

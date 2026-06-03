@@ -3,20 +3,31 @@
   "name": "Claude Opus 4.1",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "reasoning": true
   },
   "modalities": {
-    "input": [],
+    "input": ["image", "text"],
     "output": ["text"]
   },
   "_generated": {
     "name": "187df218",
     "model_type": "d669f408",
-    "capabilities": "8a3b232e",
-    "modalities": "ce37f4ca"
-  }
+    "capabilities": "8d009641",
+    "modalities": "8b8b28d1",
+    "release_date": "67086b15",
+    "context_window": "03e6c616",
+    "max_output_tokens": "10e4d788",
+    "reasoning_tokens": "b326b506",
+    "page_url": "52c82e84"
+  },
+  "release_date": "2025-08-05",
+  "context_window": 200000,
+  "max_output_tokens": 32000,
+  "reasoning_tokens": true,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-1"
 }

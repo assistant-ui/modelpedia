@@ -3,20 +3,31 @@
   "name": "Nova Premier",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
-    "vision": true
+    "vision": true,
+    "reasoning": true
   },
   "modalities": {
-    "input": [],
+    "input": ["image", "text", "video"],
     "output": ["text"]
   },
   "_generated": {
     "name": "4f841896",
     "model_type": "d669f408",
-    "capabilities": "8a3b232e",
-    "modalities": "ce37f4ca"
-  }
+    "capabilities": "8d009641",
+    "modalities": "1e916c3b",
+    "release_date": "2bddea11",
+    "context_window": "8155bc54",
+    "max_output_tokens": "70f44538",
+    "reasoning_tokens": "b326b506",
+    "page_url": "a3e94311"
+  },
+  "release_date": "2025-10-31",
+  "context_window": 1000000,
+  "max_output_tokens": 25000,
+  "reasoning_tokens": true,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-premier"
 }

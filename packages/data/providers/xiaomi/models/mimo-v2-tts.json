@@ -1,9 +1,9 @@
 {
-  "id": "MiMo-V2-TTS",
-  "name": "MiMo-V2-TTS",
+  "id": "mimo-v2-tts",
+  "name": "MiMo-v2-tts",
   "created_by": "xiaomi",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-03",
   "family": "mimo",
   "description": "Versatile speech synthesis with emotion control, dialect support, and singing.",
   "status": "active",
@@ -12,7 +12,7 @@
   "max_output_tokens": 8000,
   "model_type": "tts",
   "license": "proprietary",
-  "page_url": "https://mimo.xiaomi.com/mimo-v2-tts",
+  "page_url": "https://platform.xiaomimimo.com",
   "open_weight": false,
   "tagline": "Versatile speech synthesis with emotion control, dialect support, and singing.",
   "capabilities": {
@@ -23,7 +23,7 @@
     "output": ["audio"]
   },
   "_generated": {
-    "name": "a450317e",
+    "name": "a7aa93e6",
     "family": "1a23786e",
     "description": "04450035",
     "status": "379ac110",
@@ -32,7 +32,7 @@
     "max_output_tokens": "67ff32d4",
     "model_type": "4e16a2cf",
     "license": "9186c466",
-    "page_url": "16892cf3",
+    "page_url": "af488f1e",
     "open_weight": "68934a3e",
     "tagline": "04450035",
     "capabilities": "0fa77dc6",

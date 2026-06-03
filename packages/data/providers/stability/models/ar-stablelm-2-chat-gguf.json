@@ -11,7 +11,7 @@
   "page_url": "https://huggingface.co/stabilityai/ar-stablelm-2-chat-gguf",
   "open_weight": true,
   "tagline": "Ar Stablelm 2 Chat Gguf is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "huggingface_downloads": 0,
+  "huggingface_downloads": 6,
   "last_modified": "2024-12-20",
   "_generated": {
     "name": "674087cc",
@@ -23,8 +23,8 @@
     "page_url": "57576d3a",
     "open_weight": "b326b506",
     "tagline": "09a76aee",
-    "huggingface_downloads": "cfcd2084",
+    "huggingface_downloads": "1679091c",
     "last_modified": "31efff74"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

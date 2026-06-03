@@ -1,0 +1,49 @@
+{
+  "id": "xiaomimimo/mimo-v2.5",
+  "name": "XiaomiMiMo/MiMo-V2.5",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "description": "mimo-v2.5, a native omni-modal model supporting text, image, video, and audio understanding, equipped with powerful agentic capabilities.",
+  "status": "active",
+  "release_date": "2026-05-29",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "mimo-v2.5, a native omni-modal model supporting text, image, video, and audio understanding, equipped with powerful agentic capabilities.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.4
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d1a61d98",
+    "family": "1a23786e",
+    "description": "4ffec91f",
+    "status": "379ac110",
+    "release_date": "5afb6eea",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "4ffec91f",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "97c423de",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

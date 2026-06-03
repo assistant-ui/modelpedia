@@ -3,7 +3,7 @@
   "name": "Claude 3.5 Haiku",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -16,6 +16,14 @@
     "name": "536238cf",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "release_date": "8c51f765",
+    "context_window": "03e6c616",
+    "max_output_tokens": "67ff32d4",
+    "page_url": "7db7f758"
+  },
+  "release_date": "2024-11-04",
+  "context_window": 200000,
+  "max_output_tokens": 8000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-5-haiku"
 }

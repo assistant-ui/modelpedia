@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/image-editing/scene-composition",
-  "name": "Image Editing",
+  "name": "Image Editing Scene Composition",
   "created_by": "fal",
   "source": "official",
   "description": "Place your subject in any scene you imagine, from enchanted forests to urban settings, with professional composition and lighting",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "2f4a63e0",
+    "name": "bfd23862",
     "description": "46182e4f",
     "status": "379ac110",
     "release_date": "b2e64734",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

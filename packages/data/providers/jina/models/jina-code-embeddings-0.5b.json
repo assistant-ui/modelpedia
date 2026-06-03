@@ -1,11 +1,11 @@
 {
   "id": "jina-code-embeddings-0.5b",
-  "name": "Jina Code Embeddings 0.5B",
+  "name": "Jina Code Embeddings 0.5b",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
-  "family": "jina-code-embeddings",
-  "description": "494M-parameter code embedding model on Qwen2.5-Coder-0.5B for NL2Code, TechQA, Code2Code, Code2NL, and Code2Completion tasks.",
+  "last_updated": "2026-06-03",
+  "family": "jina-code-embeddings-0.5b",
+  "description": "jina-code-embeddings-0.5b is a 494 million parameter code embedding model designed for retrieving code from natural language queries, technical Q&A, and identifying similar code across languages. Built on Qwen2.5-Coder-0.5B backbone, it generates embeddings via last-token pooling and addresses the fundamental limitation of traditional code embedding models that rely on scarce aligned data like comments and docstrings. The model leverages abundant unaligned code and documentation used in LLM training, achieving state-of-the-art performance despite its compact size. It supports five task categories with specific instruction prefixes: NL2Code, TechQA, Code2Code, Code2NL, and Code2Completion. The model implements Matryoshka representation learning for truncatable embeddings, allowing flexible precision-resource trade-offs.",
   "tagline": "Compact Qwen-Coder code embeddings.",
   "status": "active",
   "model_type": "embed",
@@ -21,5 +21,21 @@
   "pricing": {
     "input": 0.05
   },
-  "output_dimensions": [128, 256, 512, 896]
+  "output_dimensions": [128, 256, 512, 896],
+  "_generated": {
+    "name": "898e3743",
+    "family": "7fa2a4ce",
+    "description": "507d95da",
+    "tagline": "3aa9c27c",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "f4376436",
+    "release_date": "8b12ba6e",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "modalities": "afb3de08",
+    "endpoints": "5845adda",
+    "pricing": "0f2b1541",
+    "output_dimensions": "f3eb831c"
+  }
 }

@@ -1,0 +1,29 @@
+{
+  "id": "wan2.2-t2i-flash",
+  "name": "wan2.2-t2i-flash",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "wan2.2",
+  "model_type": "image",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "_generated": {
+    "name": "1e2a1054",
+    "family": "222d75c9",
+    "model_type": "db8857fe",
+    "license": "9186c466",
+    "page_url": "ec35b380",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9"
+  },
+  "last_updated": "2026-06-03"
+}

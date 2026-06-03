@@ -1,0 +1,31 @@
+{
+  "id": "qwen3-vl-embedding",
+  "name": "qwen3-vl-embedding",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3",
+  "model_type": "embed",
+  "license": "apache-2.0",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "b78fb003",
+    "family": "48c385a0",
+    "model_type": "764cb3de",
+    "license": "60245731",
+    "page_url": "6a9b1b59",
+    "capabilities": "91e36286",
+    "modalities": "68e53d93",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-06-03"
+}

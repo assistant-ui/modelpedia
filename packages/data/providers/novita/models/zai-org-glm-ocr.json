@@ -1,0 +1,44 @@
+{
+  "id": "zai-org/glm-ocr",
+  "name": "GLM-OCR",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm",
+  "description": "GLM-OCR is a lightweight professional OCR model with only 0.9B parameters, achieving SOTA performance with a score of 94.62 on OmniDocBench V1.5.",
+  "status": "active",
+  "release_date": "2026-02-04",
+  "context_window": 32000,
+  "max_output_tokens": 32000,
+  "model_type": "chat",
+  "tagline": "GLM-OCR is a lightweight professional OCR model with only 0.9B parameters, achieving SOTA performance with a score of 94.62 on OmniDocBench V1.5.",
+  "capabilities": {
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.03
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "b963b5ac",
+    "family": "cb6bfc11",
+    "description": "8dfc7215",
+    "status": "379ac110",
+    "release_date": "7e13f8bd",
+    "context_window": "10e4d788",
+    "max_output_tokens": "10e4d788",
+    "model_type": "d669f408",
+    "tagline": "8dfc7215",
+    "capabilities": "6c099667",
+    "modalities": "68e53d93",
+    "pricing": "9207f1ad",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

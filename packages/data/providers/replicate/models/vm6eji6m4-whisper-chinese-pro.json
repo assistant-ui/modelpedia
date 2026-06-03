@@ -1,0 +1,25 @@
+{
+  "id": "vm6eji6m4/whisper-chinese-pro",
+  "name": "Whisper Chinese Pro",
+  "created_by": "vm6eji6m4",
+  "source": "official",
+  "family": "whisper",
+  "status": "active",
+  "model_type": "transcription",
+  "page_url": "https://replicate.com/vm6eji6m4/whisper-chinese-pro",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "_generated": {
+    "name": "3be7d7ba",
+    "family": "7fbc43e3",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "page_url": "5dc013b4",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0"
+  },
+  "last_updated": "2026-06-03"
+}

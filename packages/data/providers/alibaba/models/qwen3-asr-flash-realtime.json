@@ -3,9 +3,9 @@
   "name": "qwen3-asr-flash-realtime",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-06-03",
   "family": "qwen3",
-  "model_type": "chat",
+  "model_type": "audio",
   "capabilities": {
     "streaming": true,
     "fine_tuning": true
@@ -18,19 +18,19 @@
   "_generated": {
     "name": "0ac8f46f",
     "family": "48c385a0",
-    "model_type": "d669f408",
+    "model_type": "9f84c007",
     "capabilities": "9c665f5d",
     "modalities": "68e53d93",
     "endpoints": "75df3f1c",
     "license": "60245731",
     "open_weight": "b326b506",
     "description": "26ac3c2c",
-    "page_url": "23162829",
+    "page_url": "17b7d885",
     "tagline": "1bec10bb"
   },
   "license": "apache-2.0",
   "open_weight": true,
   "description": "Qwen Real-Time Speech Recognition is a model with automatic language detection. It supports 11 languages and delivers accurate transcription even in complex audio environments. [How to use](https://www.alibabacloud.com/help/en/document_detail/2989727.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2987031.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/asr-model",
   "tagline": "Qwen Real-Time Speech Recognition is a model with automatic language detection."
 }

@@ -1,0 +1,29 @@
+{
+  "id": "nvidia.nemotron-super-3-120b",
+  "name": "NVIDIA Nemotron 3 Super 120B",
+  "created_by": "nvidia",
+  "source": "official",
+  "release_date": "2026-03-11",
+  "context_window": 256000,
+  "max_output_tokens": 32000,
+  "model_type": "chat",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nemotron-super-3-120b",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "acde5c38",
+    "release_date": "81f079f9",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "10e4d788",
+    "model_type": "d669f408",
+    "page_url": "83dea974",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-03"
+}

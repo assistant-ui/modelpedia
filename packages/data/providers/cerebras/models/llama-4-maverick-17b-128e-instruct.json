@@ -3,12 +3,12 @@
   "name": "llama-4-maverick-17b-128e-instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-03",
   "family": "llama-4",
   "status": "deprecated",
   "deprecation_date": "2025-10-15",
   "model_type": "chat",
-  "successor": "GPT OSS 120B",
+  "successor": "gpt-oss-120b",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -19,7 +19,7 @@
     "status": "2e2f74dc",
     "deprecation_date": "3c659a30",
     "model_type": "d669f408",
-    "successor": "7beed575",
+    "successor": "e8458743",
     "modalities": "68e53d93",
     "parameters": "70efdf2e",
     "open_weight": "b326b506"

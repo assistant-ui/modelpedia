@@ -1,0 +1,16 @@
+{
+  "id": "fofr/prompt-classifier",
+  "name": "Prompt Classifier",
+  "created_by": "fofr",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/fofr/prompt-classifier",
+  "_generated": {
+    "name": "c36950bd",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "22991294"
+  },
+  "last_updated": "2026-06-03"
+}

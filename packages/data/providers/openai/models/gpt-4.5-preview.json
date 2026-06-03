@@ -1,9 +1,9 @@
 {
   "id": "gpt-4.5-preview",
-  "name": "GPT-4.5 Preview (Deprecated)",
+  "name": "GPT-4.5 Preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-06-03",
   "description": "Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3",
   "status": "active",
   "knowledge_cutoff": "2023-10",
@@ -54,7 +54,7 @@
   "endpoints": ["chat_completions", "responses", "assistants", "batch"],
   "snapshots": ["gpt-4.5-preview-2025-02-27"],
   "_generated": {
-    "name": "bb7e76c5",
+    "name": "b96e8e3d",
     "description": "babd3e46",
     "status": "379ac110",
     "knowledge_cutoff": "ffb42dbe",

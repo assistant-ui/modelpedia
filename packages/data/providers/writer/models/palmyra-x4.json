@@ -3,9 +3,9 @@
   "name": "Palmyra X4",
   "created_by": "writer",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "palmyra-x",
-  "description": "Advanced 128k-context model focused on tool calling, RAG, code generation, and complex multi-step workflows. Tops Berkeley's tool-calling leaderboard.",
+  "description": "Advanced language model for complex tasks",
   "tagline": "Tool-calling LLM for enterprise actions.",
   "status": "active",
   "model_type": "chat",
@@ -31,5 +31,25 @@
     "output": 10
   },
   "page_url": "https://dev.writer.com/home/models",
-  "bedrock_id": "writer.palmyra-x4-v1:0"
+  "bedrock_id": "writer.palmyra-x4-v1:0",
+  "_generated": {
+    "name": "fca8c5ee",
+    "family": "6862314b",
+    "description": "d236e23e",
+    "tagline": "d9877884",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "f7efa4f8",
+    "release_date": "b7bdf67f",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "ef09f446",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "cf1c6d02",
+    "page_url": "8d6fade1",
+    "bedrock_id": "bd892f03"
+  }
 }

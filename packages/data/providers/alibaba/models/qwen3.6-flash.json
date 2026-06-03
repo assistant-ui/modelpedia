@@ -7,13 +7,17 @@
   "description": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs. Qwen-Flash features flexible tiered pricing, resulting in more reasonable billing compared to Qwen-Turbo. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
   "context_window": 1000000,
   "license": "apache-2.0",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
   "model_type": "chat",
   "tagline": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs.",
   "capabilities": {
     "streaming": true,
     "reasoning": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "tool_call": true,
+    "structured_output": true,
+    "batch": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -27,13 +31,17 @@
     "description": "c7e9b9c3",
     "context_window": "8155bc54",
     "license": "60245731",
-    "page_url": "23162829",
+    "page_url": "6ecc6f25",
     "model_type": "d669f408",
     "tagline": "9807583e",
-    "capabilities": "034b2f91",
+    "capabilities": "04088920",
     "modalities": "68e53d93",
     "open_weight": "b326b506",
-    "endpoints": "75df3f1c"
+    "endpoints": "75df3f1c",
+    "reasoning_tokens": "b326b506",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-21"
+  "last_updated": "2026-06-03",
+  "reasoning_tokens": true,
+  "tools": ["function_calling"]
 }

@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/ace-step/audio-inpaint",
-  "name": "ACE-Step",
+  "name": "ACE Step Audio Inpaint",
   "created_by": "fal",
   "source": "official",
   "description": "Modify a portion of provided audio with lyrics and/or style using ACE-Step",
@@ -11,7 +11,7 @@
   "tagline": "Modify a portion of provided audio with lyrics and/or style using ACE-Step",
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "d6d9fab4",
+    "name": "87648574",
     "description": "4a987ad3",
     "status": "379ac110",
     "release_date": "b754573b",
@@ -20,5 +20,5 @@
     "tagline": "4a987ad3",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

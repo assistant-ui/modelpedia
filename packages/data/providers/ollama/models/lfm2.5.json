@@ -1,0 +1,42 @@
+{
+  "id": "lfm2.5",
+  "name": "lfm2.5",
+  "created_by": "liquid",
+  "source": "official",
+  "description": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+  "context_window": 128000,
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "parameters": 8,
+  "page_url": "https://ollama.com/library/lfm2.5",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "LFM2.5-8B-A1B, an edge model built for fast, reliable tool calling on consumer hardware.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1b56dca1",
+    "description": "95223382",
+    "context_window": "34434798",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "parameters": "c9f0f895",
+    "page_url": "bb484a2a",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "95223382",
+    "capabilities": "4043afaa",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

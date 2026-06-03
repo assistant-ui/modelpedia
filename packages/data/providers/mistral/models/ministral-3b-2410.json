@@ -3,7 +3,7 @@
   "name": "ministral-3b-2410",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-06-03",
   "family": "ministral",
   "status": "deprecated",
   "deprecation_date": "2025-12-02",
@@ -35,14 +35,14 @@
     "model_type": "d669f408",
     "license": "60245731",
     "parameters": "eccbc87e",
-    "page_url": "249194f2",
+    "page_url": "ebb54438",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "license": "apache-2.0",
   "parameters": 3,
-  "page_url": "https://docs.mistral.ai/models/ministral-3b-24-1",
+  "page_url": "https://docs.mistral.ai/models/model-cards/ministral-3b-24-1",
   "open_weight": true,
   "tools": ["function_calling"]
 }

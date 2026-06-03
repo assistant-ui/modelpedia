@@ -1,9 +1,9 @@
 {
-  "id": "MiMo-V2-Flash",
-  "name": "MiMo-V2-Flash",
+  "id": "mimo-v2-flash",
+  "name": "MiMo-v2-flash",
   "created_by": "xiaomi",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-06-03",
   "family": "mimo",
   "description": "309B MoE reasoning model with 15B active parameters. Fast inference at 150 tokens/s.",
   "status": "active",
@@ -16,7 +16,7 @@
   "license": "mit",
   "parameters": 309,
   "active_parameters": 15,
-  "page_url": "https://mimo.xiaomi.com/mimo-v2-flash",
+  "page_url": "https://platform.xiaomimimo.com",
   "architecture": "moe",
   "open_weight": true,
   "tagline": "309B MoE reasoning model with 15B active parameters.",
@@ -25,7 +25,8 @@
     "reasoning": true,
     "tool_call": true,
     "json_mode": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "structured_output": true
   },
   "modalities": {
     "input": ["text"],
@@ -37,7 +38,7 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "66c0ca6e",
+    "name": "f4c997e2",
     "family": "1a23786e",
     "description": "946cfc7c",
     "status": "379ac110",
@@ -50,11 +51,11 @@
     "license": "3c4c3ba5",
     "parameters": "eddea82a",
     "active_parameters": "9bf31c7f",
-    "page_url": "3875337a",
+    "page_url": "af488f1e",
     "architecture": "31b2172c",
     "open_weight": "b326b506",
     "tagline": "f2984e03",
-    "capabilities": "c29cc6a7",
+    "capabilities": "b1bbc46a",
     "modalities": "68e53d93",
     "pricing": "53952343",
     "tools": "f0c1dc7e"

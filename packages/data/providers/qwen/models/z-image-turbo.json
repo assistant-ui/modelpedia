@@ -1,0 +1,29 @@
+{
+  "id": "z-image-turbo",
+  "name": "z-image-turbo",
+  "created_by": "qwen",
+  "source": "official",
+  "max_output_tokens": 1,
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "2947c712",
+    "max_output_tokens": "c4ca4238",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "ec35b380",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-06-03"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "paraformer-realtime-8k-v2",
+  "name": "paraformer-realtime-8k-v2",
+  "created_by": "qwen",
+  "source": "official",
+  "model_type": "audio",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/asr-model",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "01b47561",
+    "model_type": "9f84c007",
+    "license": "9186c466",
+    "page_url": "17b7d885",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-06-03"
+}

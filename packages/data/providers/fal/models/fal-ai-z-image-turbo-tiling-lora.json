@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/z-image/turbo/tiling/lora",
-  "name": "Z-Image Turbo Seamless Tiling",
+  "name": "Z-Image Turbo Seamless Tiling Lora",
   "created_by": "fal",
   "source": "official",
   "description": "Generate seamlessly tiling photorealistic images from text using Z-Image Turbo and custom LoRA",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-26",
   "_generated": {
-    "name": "6d6203ff",
+    "name": "08452f1d",
     "description": "fd61c83c",
     "status": "379ac110",
     "release_date": "56d4bd95",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "42382078"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

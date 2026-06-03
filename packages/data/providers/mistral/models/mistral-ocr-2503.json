@@ -1,0 +1,36 @@
+{
+  "id": "mistral-ocr-2503",
+  "name": "mistral-ocr-2503",
+  "created_by": "mistral",
+  "source": "official",
+  "description": "Our first OCR optimized model.",
+  "status": "deprecated",
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "alias": "mistral-ocr",
+  "page_url": "https://docs.mistral.ai/models/model-cards/ocr-25-03",
+  "tagline": "Our first OCR optimized model.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "c25f75d4",
+    "description": "d0318622",
+    "status": "2e2f74dc",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "page_url": "48e5d530",
+    "tagline": "d0318622",
+    "capabilities": "91e36286",
+    "modalities": "6399757e",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-06-03"
+}

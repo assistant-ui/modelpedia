@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/flux-2-pro/outpaint",
+  "name": "FLUX 2 Pro Outpaint",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Outpainting generation with FLUX.2 [pro] from Black Forest Labs.",
+  "status": "active",
+  "release_date": "2026-05-14",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/flux-2-pro/outpaint",
+  "tagline": "Outpainting generation with FLUX.2 [pro] from Black Forest Labs.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-05-14",
+  "_generated": {
+    "name": "ffd5c69d",
+    "description": "f8bf0ec8",
+    "status": "379ac110",
+    "release_date": "fc4b2e7f",
+    "model_type": "db8857fe",
+    "page_url": "8da09517",
+    "tagline": "f8bf0ec8",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "fc4b2e7f"
+  },
+  "last_updated": "2026-06-03"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "qwen-omni-turbo-realtime",
+  "name": "qwen-omni-turbo-realtime",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen",
+  "model_type": "audio",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "e348a978",
+    "family": "a3af76f3",
+    "model_type": "9f84c007",
+    "license": "9186c466",
+    "page_url": "633e05f4",
+    "capabilities": "8a3b232e",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-06-03"
+}

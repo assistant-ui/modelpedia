@@ -3,7 +3,7 @@
   "name": "Qwen3 Coder Next",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "family": "qwen.",
   "model_type": "code",
   "capabilities": {
@@ -18,6 +18,14 @@
     "family": "4f268b83",
     "model_type": "b6cc3ff4",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "release_date": "7e13f8bd",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "67510c89",
+    "page_url": "d56ce67e"
+  },
+  "release_date": "2026-02-04",
+  "context_window": 256000,
+  "max_output_tokens": 16000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-next"
 }

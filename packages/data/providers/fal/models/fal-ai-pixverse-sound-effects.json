@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/pixverse/sound-effects",
-  "name": "PixVerse",
+  "name": "PixVerse Sound Effects",
   "created_by": "fal",
   "source": "official",
   "description": "Add immersive sound effects and background music to your videos using PixVerse sound effects  generation",
@@ -11,7 +11,7 @@
   "tagline": "Add immersive sound effects and background music to your videos using PixVerse sound effects  generation",
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "c44b079b",
+    "name": "b479c3bb",
     "description": "0067cca7",
     "status": "379ac110",
     "release_date": "dca51777",
@@ -20,5 +20,5 @@
     "tagline": "0067cca7",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

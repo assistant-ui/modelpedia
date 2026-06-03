@@ -3,11 +3,12 @@
   "name": "Qwen3 Next 80B A3B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "family": "qwen.",
   "model_type": "chat",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text"],
@@ -17,9 +18,21 @@
     "name": "41a7f9b9",
     "family": "4f268b83",
     "model_type": "d669f408",
-    "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "parameters": "f033ab37",
+    "active_parameters": "eccbc87e",
+    "release_date": "ae7f2c44",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "67ff32d4",
+    "reasoning_tokens": "b326b506",
+    "page_url": "5912bab5"
   },
   "parameters": 80,
-  "active_parameters": 3
+  "active_parameters": 3,
+  "release_date": "2025-09-11",
+  "context_window": 256000,
+  "max_output_tokens": 8000,
+  "reasoning_tokens": true,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-next-80b-a3b"
 }

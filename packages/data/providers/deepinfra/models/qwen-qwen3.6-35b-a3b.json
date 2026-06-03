@@ -3,7 +3,7 @@
   "name": "Qwen3.6-35B-A3B",
   "created_by": "alibaba",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "qwen3",
   "description": "Qwen3.6-35B-A3B is Alibaba's latest flagship Mixture-of-Experts model, with 35B total parameters and only 3B activated per token (256 experts, 8 routed + 1 shared). Built on direct feedback from the community, Qwen3.6 prioritizes stability and real-world utility, offering developers a more intuitive, responsive, and genuinely productive coding experience.",
   "status": "active",
@@ -26,8 +26,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.2,
-    "output": 1
+    "input": 0.15,
+    "output": 0.95
   },
   "tools": ["function_calling"],
   "endpoints": ["chat_completions"],
@@ -45,7 +45,7 @@
     "license": "60245731",
     "capabilities": "81e3387c",
     "modalities": "6399757e",
-    "pricing": "10b547f8",
+    "pricing": "0fa3d815",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "640679f9",

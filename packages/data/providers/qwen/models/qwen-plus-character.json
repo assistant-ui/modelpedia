@@ -3,13 +3,18 @@
   "name": "qwen-plus-character",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-06-03",
   "family": "qwen",
-  "context_window": 32768,
+  "context_window": 32000,
   "max_output_tokens": 4000,
   "model_type": "chat",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "reasoning": true,
+    "tool_call": true,
+    "structured_output": true,
+    "batch": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -23,10 +28,10 @@
   "_generated": {
     "name": "eb02f75d",
     "family": "a3af76f3",
-    "context_window": "f4376436",
+    "context_window": "10e4d788",
     "max_output_tokens": "1bd69c7d",
     "model_type": "d669f408",
-    "capabilities": "0fa77dc6",
+    "capabilities": "7e1117a8",
     "modalities": "68e53d93",
     "pricing": "78aa1114",
     "endpoints": "75df3f1c",
@@ -34,13 +39,17 @@
     "provider": "a3af76f3",
     "description": "60af7c69",
     "tagline": "b69f8221",
-    "page_url": "23162829",
-    "open_weight": "68934a3e"
+    "page_url": "6ecc6f25",
+    "open_weight": "68934a3e",
+    "reasoning_tokens": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "license": "proprietary",
   "provider": "qwen",
   "description": "Qwen role-playing models are designed for anthropomorphic dialog scenarios, such as virtual socializing, game NPCs, IP replication, and hardware, toys, or in-vehicle systems. Compared with other Qwen models, they improve persona fidelity, topic progression, and empathetic listening.[Usage](https://www.alibabacloud.com/help/en/document_detail/2874763.html) ## International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
   "tagline": "Qwen role assumption models are designed for anthropomorphic dialog scenarios, such as virtual socializing, game NPCs, IP replication, and hardware, toys, or in-vehicle systems.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "open_weight": false
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+  "open_weight": false,
+  "reasoning_tokens": true,
+  "tools": ["function_calling"]
 }

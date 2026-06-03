@@ -3,19 +3,23 @@
   "name": "Stable Image Inpaint",
   "created_by": "stability",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "image",
   "capabilities": {
     "vision": true
   },
   "modalities": {
-    "input": [],
+    "input": ["image", "text"],
     "output": ["image"]
   },
   "_generated": {
     "name": "7e607eaa",
     "model_type": "db8857fe",
     "capabilities": "d3117eb0",
-    "modalities": "09b7b646"
-  }
+    "modalities": "dc86bff4",
+    "release_date": "95c5230d",
+    "page_url": "c9eaee50"
+  },
+  "release_date": "2022-11",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-inpaint"
 }

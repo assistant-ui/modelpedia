@@ -1,0 +1,35 @@
+{
+  "id": "krea/v2/large/text-to-image",
+  "name": "Krea 2 Large",
+  "created_by": "krea",
+  "source": "official",
+  "description": "Generate high-fidelity images from text with Krea 2 Large, supporting aspect ratio, creativity, seed controls, and optional style references.",
+  "status": "active",
+  "release_date": "2026-05-27",
+  "model_type": "image",
+  "page_url": "https://fal.run/krea/v2/large/text-to-image",
+  "tagline": "Generate high-fidelity images from text with Krea 2 Large, supporting aspect ratio, creativity, seed controls, and optional style references.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-05-29",
+  "_generated": {
+    "name": "c0d71bd6",
+    "description": "30a19450",
+    "status": "379ac110",
+    "release_date": "9625e2ac",
+    "model_type": "db8857fe",
+    "page_url": "b9cf1067",
+    "tagline": "30a19450",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "5afb6eea"
+  },
+  "last_updated": "2026-06-03"
+}

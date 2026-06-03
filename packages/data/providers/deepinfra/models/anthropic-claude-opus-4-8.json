@@ -1,0 +1,49 @@
+{
+  "id": "anthropic/claude-opus-4-8",
+  "name": "claude-opus-4-8",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "description": "Claude Opus 4.8 is our most intelligent Opus model and the best generally available model for coding and agents, with deeper reasoning for enterprise workflows.",
+  "status": "active",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": false,
+  "tagline": "Claude Opus 4.8 is our most intelligent Opus model and the best generally available model for coding and agents, with deeper reasoning for enterprise workflows.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 25
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "066e5f41",
+    "family": "4e4c4b18",
+    "description": "cf72d54d",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "68934a3e",
+    "tagline": "cf72d54d",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "be2d1ab0",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "anthropic.claude-mythos-preview",
+  "name": "Claude Mythos Preview",
+  "created_by": "anthropic",
+  "source": "official",
+  "release_date": "2026-04-07",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-mythos-preview",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "8f4bd598",
+    "release_date": "3eaa38a6",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "page_url": "62344f64",
+    "capabilities": "8d009641",
+    "modalities": "8b8b28d1"
+  },
+  "last_updated": "2026-06-03"
+}

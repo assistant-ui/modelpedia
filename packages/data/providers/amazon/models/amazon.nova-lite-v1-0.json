@@ -3,20 +3,28 @@
   "name": "Nova Lite",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
     "vision": true
   },
   "modalities": {
-    "input": [],
+    "input": ["image", "text", "video"],
     "output": ["text"]
   },
   "_generated": {
     "name": "55ac635f",
     "model_type": "d669f408",
     "capabilities": "8a3b232e",
-    "modalities": "ce37f4ca"
-  }
+    "modalities": "1e916c3b",
+    "release_date": "261bf75d",
+    "context_window": "1ded704c",
+    "max_output_tokens": "a35fe7f7",
+    "page_url": "c02b1cc4"
+  },
+  "release_date": "2024-12-05",
+  "context_window": 300000,
+  "max_output_tokens": 5000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-lite"
 }

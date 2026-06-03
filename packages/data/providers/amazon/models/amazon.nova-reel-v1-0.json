@@ -3,19 +3,23 @@
   "name": "Nova Reel",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "video",
   "capabilities": {
     "vision": true
   },
   "modalities": {
-    "input": [],
+    "input": ["image", "text"],
     "output": ["video"]
   },
   "_generated": {
     "name": "39be8a8b",
     "model_type": "4d1b75ca",
     "capabilities": "d3117eb0",
-    "modalities": "b69a2faa"
-  }
+    "modalities": "43c560c1",
+    "release_date": "1942a554",
+    "page_url": "19d82fdb"
+  },
+  "release_date": "2024-12-03",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-reel"
 }

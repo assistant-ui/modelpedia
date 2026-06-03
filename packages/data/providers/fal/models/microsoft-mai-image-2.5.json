@@ -1,0 +1,35 @@
+{
+  "id": "microsoft/mai-image-2.5",
+  "name": "Mai Image 2.5 Text to Image",
+  "created_by": "microsoft",
+  "source": "official",
+  "description": "MAI-Image-2.5 is Microsoft's photorealistic image generation and editing model that turns text prompts or uploaded images into high-quality, design-ready visuals with fine-grained, pixel-level control",
+  "status": "active",
+  "release_date": "2026-06-02",
+  "model_type": "image",
+  "page_url": "https://fal.run/microsoft/mai-image-2.5",
+  "tagline": "MAI-Image-2.5 is Microsoft's photorealistic image generation and editing model that turns text prompts or uploaded images into high-quality, design-ready visuals with fine-grained, pixel-level control",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-06-02",
+  "_generated": {
+    "name": "14f5be92",
+    "description": "dddddb59",
+    "status": "379ac110",
+    "release_date": "61fd683f",
+    "model_type": "db8857fe",
+    "page_url": "5ac5b334",
+    "tagline": "dddddb59",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "61fd683f"
+  },
+  "last_updated": "2026-06-03"
+}

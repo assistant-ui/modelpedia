@@ -1,6 +1,6 @@
 {
   "id": "bria/bria_video_eraser/erase/mask",
-  "name": "Bria Video Eraser",
+  "name": "Bria Video Eraser Erase Mask",
   "created_by": "bria",
   "source": "official",
   "description": "A high-fidelity capability for erasing unwanted objects, people, or visual elements from videos while maintaining aesthetic quality and temporal consistency.",
@@ -11,7 +11,7 @@
   "tagline": "A high-fidelity capability for erasing unwanted objects, people, or visual elements from videos while maintaining aesthetic quality and temporal consistency.",
   "last_seen_at": "2026-01-26",
   "_generated": {
-    "name": "662e3f37",
+    "name": "078e3edc",
     "description": "2d70aaa9",
     "status": "379ac110",
     "release_date": "f8b75b68",
@@ -20,5 +20,5 @@
     "tagline": "2d70aaa9",
     "last_seen_at": "5c252aee"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

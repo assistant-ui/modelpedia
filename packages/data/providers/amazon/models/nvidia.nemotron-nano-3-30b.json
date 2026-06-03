@@ -3,7 +3,7 @@
   "name": "Nemotron Nano 3 30B",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -16,7 +16,16 @@
     "name": "d5cf993e",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "parameters": "34173cb3",
+    "release_date": "56423574",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "67ff32d4",
+    "page_url": "174271a9"
   },
-  "parameters": 30
+  "parameters": 30,
+  "release_date": "2025-12-15",
+  "context_window": 256000,
+  "max_output_tokens": 8000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nemotron-nano-3-30b"
 }

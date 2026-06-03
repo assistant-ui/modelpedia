@@ -1,0 +1,25 @@
+{
+  "id": "xai/grok-imagine-video-1.5",
+  "name": "Grok Imagine Video 1.5",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "status": "active",
+  "model_type": "video",
+  "page_url": "https://replicate.com/xai/grok-imagine-video-1.5",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "96ee3ee6",
+    "family": "a4576b5e",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "page_url": "1f5545f0",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-06-03"
+}

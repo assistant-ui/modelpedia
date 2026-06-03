@@ -3,9 +3,9 @@
   "name": "Jina Embeddings v3",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
-  "family": "jina-embeddings-v3",
-  "description": "570M-parameter multilingual text embedding model with task-specific LoRA adapters, late chunking, and Matryoshka representations across 89 languages.",
+  "last_updated": "2026-06-03",
+  "family": "jina-embeddings",
+  "description": "Jina Embeddings v3 is a groundbreaking multilingual text embedding model that transforms how organizations handle text understanding and retrieval across languages. At its core, it solves the critical challenge of maintaining high performance across multiple languages and tasks while keeping computational requirements manageable. The model particularly shines in production environments where efficiency matters - it achieves state-of-the-art performance with just 570M parameters, making it accessible for teams that can't afford the computational overhead of larger models. Organizations needing to build scalable, multilingual search systems or analyze content across language barriers will find this model especially valuable.",
   "tagline": "Multilingual embeddings with task LoRAs.",
   "status": "active",
   "model_type": "embed",
@@ -21,5 +21,21 @@
   "pricing": {
     "input": 0.05
   },
-  "output_dimensions": [32, 64, 128, 256, 512, 768, 1024]
+  "output_dimensions": [32, 64, 128, 256, 512, 768, 1024],
+  "_generated": {
+    "name": "b913eada",
+    "family": "04ec6848",
+    "description": "f2119ae1",
+    "tagline": "07715c1d",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "77441296",
+    "release_date": "80d14872",
+    "license": "2c8e76b8",
+    "open_weight": "b326b506",
+    "modalities": "afb3de08",
+    "endpoints": "5845adda",
+    "pricing": "0f2b1541",
+    "output_dimensions": "701ac668"
+  }
 }

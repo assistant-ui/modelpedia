@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/workflow-utilities/auto-subtitle",
-  "name": "Workflow Utilities",
+  "name": "Workflow Utilities Auto Subtitle",
   "created_by": "fal",
   "source": "official",
   "description": "Add automatic subtitles to videos",
@@ -11,7 +11,7 @@
   "tagline": "Add automatic subtitles to videos",
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "5a6862ba",
+    "name": "91d92780",
     "description": "b5849346",
     "status": "379ac110",
     "release_date": "0c1b20df",
@@ -20,5 +20,5 @@
     "tagline": "b5849346",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

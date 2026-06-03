@@ -1,0 +1,40 @@
+{
+  "id": "qwen3.7-max-preview",
+  "name": "qwen3.7-max-preview",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.7",
+  "context_window": 1000000,
+  "max_output_tokens": 64000,
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "batch": true,
+    "fine_tuning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "33c361e8",
+    "family": "d71bf7f7",
+    "context_window": "8155bc54",
+    "max_output_tokens": "762e98db",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "page_url": "6ecc6f25",
+    "capabilities": "99c3f52a",
+    "modalities": "68e53d93",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

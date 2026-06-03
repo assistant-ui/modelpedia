@@ -1,0 +1,27 @@
+{
+  "id": "paraformer-v2",
+  "name": "paraformer-v2",
+  "created_by": "qwen",
+  "source": "official",
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/asr-model",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "f3986e20",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "17b7d885",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-06-03"
+}

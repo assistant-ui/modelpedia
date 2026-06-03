@@ -1,9 +1,9 @@
 {
   "id": "deepseek-v3.1",
-  "name": "DeepSeek-V3.1 Preview",
+  "name": "DeepSeek-V3.1",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-06-03",
   "family": "deepseek",
   "capabilities": {
     "streaming": true,
@@ -16,7 +16,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "8f8164c5",
+    "name": "92fd9533",
     "family": "4b81b92d",
     "capabilities": "3181ba37",
     "modalities": "68e53d93",

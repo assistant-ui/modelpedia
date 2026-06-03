@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/pixverse/c1/text-to-video",
-  "name": "PixVerse C1 Text to Video",
+  "name": "PixVerse C1 Text To Video",
   "created_by": "fal",
   "source": "official",
   "description": "Generate film-grade videos from text prompts with native audio, up to 1080p and 15 seconds, using PixVerse C1.",
@@ -16,7 +16,7 @@
   "endpoints": ["video"],
   "last_seen_at": "2026-05-07",
   "_generated": {
-    "name": "7fea1d87",
+    "name": "da53ef87",
     "description": "7b954e1f",
     "status": "379ac110",
     "release_date": "e4942fa5",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "d465a48a"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

@@ -3,7 +3,7 @@
   "name": "Qwen3.5-35B-A3B",
   "created_by": "alibaba",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "qwen3",
   "description": "Qwen3.5-35B-A3B is an efficient Mixture-of-Experts model from Alibaba's Qwen3.5 series with 35B total parameters and only 3B activated per token. It features a 262K token context window (extensible to 1M with YaRN), thinking/reasoning mode, tool calling, and support for 201 languages. Delivers strong performance on reasoning, coding, and vision-language tasks at a fraction of the compute cost.",
   "status": "active",
@@ -26,9 +26,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.2,
-    "output": 0.95,
-    "cached_input": 0.1
+    "input": 0.14,
+    "output": 1,
+    "cached_input": 0.05
   },
   "tools": ["function_calling"],
   "endpoints": ["chat_completions"],
@@ -46,7 +46,7 @@
     "license": "60245731",
     "capabilities": "81e3387c",
     "modalities": "6399757e",
-    "pricing": "3c9516cc",
+    "pricing": "c7984d1d",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "640679f9",

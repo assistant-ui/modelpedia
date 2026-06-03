@@ -3,7 +3,7 @@
   "name": "Fibo",
   "created_by": "bria",
   "source": "official",
-  "description": "SOTA Open source model trained on licensed data, transforming intent into structured control for precise, high-quality AI image generation in enterprise and agentic workflows.",
+  "description": "SOTA open-source text-to-image model delivering high-fidelity outputs with accurate typography.",
   "status": "active",
   "release_date": "2025-10-29",
   "model_type": "image",
@@ -19,10 +19,10 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-01-26",
+  "last_seen_at": "2026-05-20",
   "_generated": {
     "name": "1fec9187",
-    "description": "34f85b19",
+    "description": "6572fa41",
     "status": "379ac110",
     "release_date": "ea42b142",
     "model_type": "db8857fe",
@@ -31,7 +31,7 @@
     "capabilities": "42538baa",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "5c252aee"
+    "last_seen_at": "7a81e6e3"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

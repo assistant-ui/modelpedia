@@ -1,0 +1,27 @@
+{
+  "id": "paraformer-8k-v2",
+  "name": "paraformer-8k-v2",
+  "created_by": "qwen",
+  "source": "official",
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/asr-model",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "cd93a85d",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "17b7d885",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-03"
+}

@@ -3,7 +3,7 @@
   "name": "Qwen3.5-0.8B",
   "created_by": "alibaba",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "qwen3",
   "description": "Qwen3.5-0.8B is Alibaba's smallest model in the Qwen3.5 series, featuring a hybrid Gated Delta Networks and sparse Mixture-of-Experts architecture. Despite its compact size, it supports a 262K token context window, 201 languages, thinking/reasoning mode, and tool calling. Ideal for edge deployments, resource-constrained environments, and lightweight inference tasks.",
   "status": "active",
@@ -31,7 +31,7 @@
   },
   "tools": ["function_calling"],
   "endpoints": ["chat_completions"],
-  "quantization": "fp8",
+  "quantization": "bfloat16",
   "tagline": "Qwen3.5-0.8B is Alibaba's smallest model in the Qwen3.5 series, featuring a hybrid Gated Delta Networks and sparse Mixture-of-Experts architecture.",
   "_generated": {
     "name": "49d68261",
@@ -48,7 +48,7 @@
     "pricing": "83285e89",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
-    "quantization": "640679f9",
+    "quantization": "45ae6e17",
     "tagline": "fc0f8a4a"
   }
 }

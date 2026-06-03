@@ -3,11 +3,11 @@
   "name": "llama3.1-70b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-03",
   "status": "deprecated",
   "deprecation_date": "2025-01-17",
   "model_type": "chat",
-  "successor": "Change Log Previous",
+  "successor": "llama-3.3-70b",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -17,7 +17,7 @@
     "status": "2e2f74dc",
     "deprecation_date": "e05f8617",
     "model_type": "d669f408",
-    "successor": "564f9a7e",
+    "successor": "4ee20fae",
     "modalities": "68e53d93",
     "parameters": "7cbbc409",
     "open_weight": "b326b506"

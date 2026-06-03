@@ -1,0 +1,38 @@
+{
+  "id": "mixtral-8x7b-01",
+  "name": "mixtral-8x7b-01",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "mixtral",
+  "description": "Our first open MoE model, SOTA competing against models up to 2 to 3x larger.",
+  "status": "active",
+  "context_window": 32000,
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/model-cards/mixtral-8x7b-0-1",
+  "model_type": "chat",
+  "tagline": "Our first open MoE model, SOTA competing against models up to 2 to 3x larger.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "5faa7074",
+    "family": "3c47d372",
+    "description": "dac1acdb",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "license": "60245731",
+    "page_url": "baf856e6",
+    "model_type": "d669f408",
+    "tagline": "dac1acdb",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-06-03"
+}

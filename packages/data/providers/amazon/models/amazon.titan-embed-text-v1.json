@@ -3,15 +3,21 @@
   "name": "Titan Embeddings G1 - Text",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "embed",
   "modalities": {
     "input": ["text"],
-    "output": []
+    "output": ["text"]
   },
   "_generated": {
     "name": "027f0a66",
     "model_type": "764cb3de",
-    "modalities": "afb3de08"
-  }
+    "modalities": "68e53d93",
+    "release_date": "182b5357",
+    "context_window": "67ff32d4",
+    "page_url": "66be12bd"
+  },
+  "release_date": "2023-09-28",
+  "context_window": 8000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-embeddings-g1---text"
 }

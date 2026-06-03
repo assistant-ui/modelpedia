@@ -3,21 +3,30 @@
   "name": "Ministral 3B",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
     "vision": true
   },
   "modalities": {
-    "input": [],
+    "input": ["image", "text"],
     "output": ["text"]
   },
   "_generated": {
     "name": "9893c74c",
     "model_type": "d669f408",
     "capabilities": "8a3b232e",
-    "modalities": "ce37f4ca"
+    "modalities": "8b8b28d1",
+    "parameters": "eccbc87e",
+    "release_date": "75f289bd",
+    "context_window": "34434798",
+    "max_output_tokens": "67ff32d4",
+    "page_url": "6f1f6834"
   },
-  "parameters": 3
+  "parameters": 3,
+  "release_date": "2025-12-02",
+  "context_window": 128000,
+  "max_output_tokens": 8000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-ministral-3b"
 }

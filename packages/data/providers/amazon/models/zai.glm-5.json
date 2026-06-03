@@ -1,0 +1,29 @@
+{
+  "id": "zai.glm-5",
+  "name": "GLM 5",
+  "created_by": "zhipu",
+  "source": "official",
+  "release_date": "2026-02-11",
+  "context_window": 200000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-5",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "e4938687",
+    "release_date": "d8edba92",
+    "context_window": "03e6c616",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "page_url": "01b8e7a0",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-03"
+}

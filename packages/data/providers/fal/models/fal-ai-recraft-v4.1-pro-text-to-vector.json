@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/recraft/v4.1/pro/text-to-vector",
+  "name": "Recraft V4.1 Text to Vector Pro",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Recraft V4.1 Pro Vector generates large-format, fully editable SVGs with the structural clarity professional illustrators expect.",
+  "status": "active",
+  "release_date": "2026-05-14",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/recraft/v4.1/pro/text-to-vector",
+  "tagline": "Recraft V4.1 Pro Vector generates large-format, fully editable SVGs with the structural clarity professional illustrators expect.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-05-14",
+  "_generated": {
+    "name": "938bfe1a",
+    "description": "8ef48c35",
+    "status": "379ac110",
+    "release_date": "fc4b2e7f",
+    "model_type": "db8857fe",
+    "page_url": "6bf77182",
+    "tagline": "8ef48c35",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "fc4b2e7f"
+  },
+  "last_updated": "2026-06-03"
+}

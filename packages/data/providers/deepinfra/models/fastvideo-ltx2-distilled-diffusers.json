@@ -1,0 +1,27 @@
+{
+  "id": "FastVideo/LTX2-Distilled-Diffusers",
+  "name": "LTX2-Distilled-Diffusers",
+  "created_by": "fastvideo",
+  "source": "official",
+  "description": "LTX-2 is a DiT-based audio-video foundation model designed to generate synchronized video and audio within a single model. It brings together the core building blocks of modern video generation, with open weights and a focus on practical, local execution.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": true,
+  "tagline": "LTX-2 is a DiT-based audio-video foundation model designed to generate synchronized video and audio within a single model.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "0c616353",
+    "description": "4d2a561a",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "b326b506",
+    "tagline": "6bed89c0",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-06-03"
+}

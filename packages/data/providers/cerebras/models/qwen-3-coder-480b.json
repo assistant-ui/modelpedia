@@ -3,12 +3,12 @@
   "name": "qwen-3-coder-480b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-03",
   "family": "qwen",
   "status": "deprecated",
   "deprecation_date": "2025-11-05",
   "model_type": "chat",
-  "successor": "Z.ai GLM 4.7",
+  "successor": "zai-glm-4.7",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -19,7 +19,7 @@
     "status": "2e2f74dc",
     "deprecation_date": "6c2625ef",
     "model_type": "d669f408",
-    "successor": "895cf6b8",
+    "successor": "ad6ee938",
     "modalities": "68e53d93",
     "parameters": "6ea2ef73",
     "open_weight": "b326b506"

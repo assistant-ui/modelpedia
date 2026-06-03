@@ -1,0 +1,42 @@
+{
+  "id": "deepseek/deepseek-r1/community",
+  "name": "DeepSeek R1",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek-r1",
+  "status": "active",
+  "release_date": "2025-02-14",
+  "context_window": 64000,
+  "max_output_tokens": 8000,
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 4,
+    "output": 4
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c4622df0",
+    "family": "c74cfb8e",
+    "status": "379ac110",
+    "release_date": "d9b395e4",
+    "context_window": "762e98db",
+    "max_output_tokens": "67ff32d4",
+    "model_type": "d669f408",
+    "capabilities": "3d69c795",
+    "modalities": "68e53d93",
+    "pricing": "da347ef5",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

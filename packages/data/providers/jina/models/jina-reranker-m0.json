@@ -3,9 +3,9 @@
   "name": "Jina Reranker M0",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
-  "family": "jina-reranker",
-  "description": "Multimodal multilingual reranker for visual documents across 29 languages.",
+  "last_updated": "2026-06-03",
+  "family": "jina-reranker-m0",
+  "description": "jina-reranker-m0 is a groundbreaking multimodal multilingual reranker model designed to rank visual documents across multiple languages. What makes this model exceptional is its ability to process queries alongside visually rich document images—including pages with text, figures, tables, and various layouts—across 29 languages. The model outputs a ranked list of documents ordered by their relevance to the input query. Unlike previous rerankers that struggled with the \"modality gap\" problem (where images clustered near other images while text clustered near text), jina-reranker-m0 unifies textual and visual modalities in a single decoder-only model, creating a seamless multimodal search experience that can rank both images and text documents together effectively.",
   "tagline": "Multimodal reranker for visual documents.",
   "status": "active",
   "model_type": "rerank",
@@ -20,5 +20,20 @@
   "endpoints": ["rerank"],
   "pricing": {
     "input": 0.05
+  },
+  "_generated": {
+    "name": "33700201",
+    "family": "7aa7e0ff",
+    "description": "911be894",
+    "tagline": "05975852",
+    "status": "379ac110",
+    "model_type": "477930e6",
+    "context_window": "8eddb379",
+    "release_date": "69fc7fbd",
+    "license": "2c8e76b8",
+    "open_weight": "b326b506",
+    "modalities": "e20ad98b",
+    "endpoints": "9a7b4962",
+    "pricing": "0f2b1541"
   }
 }

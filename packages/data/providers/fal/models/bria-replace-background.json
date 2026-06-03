@@ -3,7 +3,7 @@
   "name": "Replace Background",
   "created_by": "bria",
   "source": "official",
-  "description": "Creates enriched product shots by placing them in various environments using textual descriptions.",
+  "description": "Generate professional, eCommerce-ready product shots by replacing backgrounds with realistic lighting and accurate perspective from a simple text prompt.",
   "status": "active",
   "release_date": "2026-01-27",
   "model_type": "image",
@@ -17,10 +17,10 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-04-18",
+  "last_seen_at": "2026-05-20",
   "_generated": {
     "name": "06661e8e",
-    "description": "429269c4",
+    "description": "9f40f186",
     "status": "379ac110",
     "release_date": "a6a6b128",
     "model_type": "db8857fe",
@@ -29,7 +29,7 @@
     "capabilities": "d3117eb0",
     "modalities": "bbf9b8bb",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "3a1988a3"
+    "last_seen_at": "7a81e6e3"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

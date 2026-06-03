@@ -1,0 +1,35 @@
+{
+  "id": "nvidia/cosmos-3-super/image-to-video",
+  "name": "Cosmos 3 Super Image to Video",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory in",
+  "status": "active",
+  "release_date": "2026-06-01",
+  "model_type": "video",
+  "page_url": "https://fal.run/nvidia/cosmos-3-super/image-to-video",
+  "tagline": "Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory in",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-06-02",
+  "_generated": {
+    "name": "15ac17e1",
+    "description": "f721bde6",
+    "status": "379ac110",
+    "release_date": "80eaf594",
+    "model_type": "4d1b75ca",
+    "page_url": "d2e783ff",
+    "tagline": "f721bde6",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "61fd683f"
+  },
+  "last_updated": "2026-06-03"
+}

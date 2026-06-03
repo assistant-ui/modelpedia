@@ -3,7 +3,7 @@
   "name": "Gemma 3 12B IT",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "gemma-3",
   "description": "Google Gemma 3 12B instruction-tuned open-weights model.",
   "status": "active",
@@ -24,8 +24,8 @@
   },
   "endpoints": ["chat_completions"],
   "pricing": {
-    "input": 0.2,
-    "output": 0.35
+    "input": 0.35,
+    "output": 0.59
   },
   "tagline": "Google Gemma 3 12B instruction-tuned open-weights model.",
   "_generated": {
@@ -41,7 +41,7 @@
     "capabilities": "404a921d",
     "modalities": "68e53d93",
     "endpoints": "d8fa1080",
-    "pricing": "0a9a9436",
+    "pricing": "f5f4b3c2",
     "tagline": "c7e4e5ff"
   }
 }

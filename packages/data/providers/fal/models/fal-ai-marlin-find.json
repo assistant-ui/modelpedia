@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/marlin/find",
+  "name": "Marlin Find",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Marlin is a 2B video VLM tuned for the two questions developers actually want to ask of their videos: what is happening, and when?",
+  "status": "active",
+  "release_date": "2026-05-21",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/marlin/find",
+  "tagline": "Marlin is a 2B video VLM tuned for the two questions developers actually want to ask of their videos: what is happening, and when?",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-05-21",
+  "_generated": {
+    "name": "7450fccc",
+    "description": "8835473d",
+    "status": "379ac110",
+    "release_date": "0ad37620",
+    "model_type": "ddb0b7bc",
+    "page_url": "cfb137a3",
+    "tagline": "8835473d",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "0ad37620"
+  },
+  "last_updated": "2026-06-03"
+}

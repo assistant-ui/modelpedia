@@ -3,7 +3,7 @@
   "name": "qwen3-tts-instruct-flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-06-03",
   "family": "qwen3",
   "model_type": "tts",
   "capabilities": {
@@ -12,7 +12,7 @@
   },
   "modalities": {
     "input": ["text"],
-    "output": ["text"]
+    "output": ["audio"]
   },
   "endpoints": ["chat"],
   "_generated": {
@@ -20,17 +20,17 @@
     "family": "48c385a0",
     "model_type": "4e16a2cf",
     "capabilities": "9c665f5d",
-    "modalities": "68e53d93",
+    "modalities": "601e776d",
     "endpoints": "75df3f1c",
     "license": "60245731",
     "open_weight": "b326b506",
     "description": "f54d4fc3",
-    "page_url": "23162829",
+    "page_url": "da2101f3",
     "tagline": "c83d2447"
   },
   "license": "apache-2.0",
   "open_weight": true,
   "description": "Supports mixed-language text input and streaming audio output. [Usage](https://www.alibabacloud.com/help/en/document_detail/2879134.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2881635.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore. ##### **Qwen3-TTS-Instruct-Flash**",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/tts-model",
   "tagline": "Supports mixed-language text input and streaming audio output."
 }

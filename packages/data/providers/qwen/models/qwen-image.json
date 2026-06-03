@@ -3,19 +3,35 @@
   "name": "qwen-image",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-06-03",
   "family": "qwen",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "fine_tuning": true
   },
   "provider": "qwen",
   "_generated": {
     "name": "6d5e0f81",
     "family": "a3af76f3",
-    "capabilities": "48995a4e",
-    "model_type": "d669f408"
+    "capabilities": "5780d00a",
+    "provider": "a3af76f3",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "max_output_tokens": "c4ca4238",
+    "page_url": "ec35b380",
+    "open_weight": "b326b506",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
-  "license": "apache-2.0"
+  "license": "apache-2.0",
+  "max_output_tokens": 1,
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+  "open_weight": true,
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"]
 }

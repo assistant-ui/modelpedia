@@ -1,0 +1,49 @@
+{
+  "id": "Qwen/Qwen3.5-9B",
+  "name": "Qwen3.5-9B",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen3.5-9B is a high-performance model from Alibaba's Qwen3.5 series with a hybrid Gated Delta Networks and sparse MoE architecture. It features a 262K token context window, thinking/reasoning mode, tool calling, multi-token prediction, and support for 201 languages. Excels at reasoning, coding, instruction following, and long-context tasks.",
+  "status": "active",
+  "context_window": 262144,
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "open_weight": true,
+  "tagline": "Qwen3.5-9B is a high-performance model from Alibaba's Qwen3.5 series with a hybrid Gated Delta Networks and sparse MoE architecture.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0.15
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "bfloat16",
+  "_generated": {
+    "name": "44dd0671",
+    "description": "ad8e6b8b",
+    "status": "379ac110",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "tagline": "b6313434",
+    "capabilities": "bfede2e3",
+    "modalities": "6399757e",
+    "pricing": "fc860924",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "45ae6e17"
+  },
+  "last_updated": "2026-06-03"
+}

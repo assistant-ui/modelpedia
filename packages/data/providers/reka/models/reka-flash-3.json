@@ -3,7 +3,7 @@
   "name": "Reka Flash 3",
   "created_by": "reka",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "reka-flash",
   "description": "21B-parameter general-purpose reasoning LLM with explicit reasoning tags and budget-forcing controls.",
   "tagline": "Open-weight 21B reasoning model.",
@@ -19,7 +19,8 @@
     "structured_output": true,
     "reasoning": true,
     "json_mode": true,
-    "streaming": true
+    "streaming": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -30,5 +31,23 @@
   "pricing": {
     "input": 0.2,
     "output": 0.8
+  },
+  "_generated": {
+    "name": "37ed0b74",
+    "family": "2d617627",
+    "description": "db1e2f85",
+    "tagline": "04564c2d",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "10e4d788",
+    "release_date": "99f396a0",
+    "reasoning_tokens": "b326b506",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "capabilities": "83a28072",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "9a9e4921"
   }
 }

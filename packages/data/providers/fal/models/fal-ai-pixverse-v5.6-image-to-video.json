@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/pixverse/v5.6/image-to-video",
-  "name": "PixVerse",
+  "name": "PixVerse V5.6 Image To Video",
   "created_by": "fal",
   "source": "official",
   "description": "Use the latest pixverse v5.6 model to turn your texts and images into amazing videos.",
@@ -19,7 +19,7 @@
   "endpoints": ["video"],
   "last_seen_at": "2026-05-07",
   "_generated": {
-    "name": "c44b079b",
+    "name": "dede0d95",
     "description": "d830b689",
     "status": "379ac110",
     "release_date": "5c252aee",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "d465a48a"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

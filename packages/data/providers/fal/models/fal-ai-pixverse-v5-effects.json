@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/pixverse/v5/effects",
-  "name": "PixVerse",
+  "name": "PixVerse V5 Effects",
   "created_by": "fal",
   "source": "official",
   "description": "Generate high quality video clips with different effects using PixVerse v5",
@@ -19,7 +19,7 @@
   "endpoints": ["video"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "c44b079b",
+    "name": "8bac8618",
     "description": "f23b20d4",
     "status": "379ac110",
     "release_date": "81c68da9",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

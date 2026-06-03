@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/bytedance/seedance/v1.5/pro/text-to-video",
-  "name": "Bytedance",
+  "name": "Bytedance Seedance V1.5 Pro Text To Video",
   "created_by": "fal",
   "source": "official",
   "description": "Generate videos with audio with Seedance 1.5",
@@ -16,7 +16,7 @@
   "endpoints": ["video"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "6d00f002",
+    "name": "1aa14aac",
     "description": "88516e5a",
     "status": "379ac110",
     "release_date": "b3874102",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

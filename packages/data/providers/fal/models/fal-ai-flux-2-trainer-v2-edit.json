@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/flux-2-trainer-v2/edit",
-  "name": "Flux 2 Trainer V2",
+  "name": "FLUX 2 Trainer V2 Edit",
   "created_by": "fal",
   "source": "official",
   "description": "Fine-tune FLUX.2 [dev] from Black Forest Labs with custom datasets.",
@@ -11,7 +11,7 @@
   "tagline": "Fine-tune FLUX.2 [dev] from Black Forest Labs with custom datasets.",
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "26acf18a",
+    "name": "7b6ed96c",
     "description": "0fc5a54c",
     "status": "379ac110",
     "release_date": "cb36dd87",
@@ -20,5 +20,5 @@
     "tagline": "0fc5a54c",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/birefnet/v2",
-  "name": "Birefnet Background Removal",
+  "name": "Birefnet Background Removal V2",
   "created_by": "fal",
   "source": "official",
   "description": "bilateral reference framework (BiRefNet) for high-resolution dichotomous image segmentation (DIS)",
@@ -17,9 +17,9 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-04-26",
+  "last_seen_at": "2026-05-13",
   "_generated": {
-    "name": "489d6a92",
+    "name": "5469eef9",
     "description": "f2fc5e89",
     "status": "379ac110",
     "release_date": "472c9c4b",
@@ -29,7 +29,7 @@
     "capabilities": "d3117eb0",
     "modalities": "bbf9b8bb",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "42382078"
+    "last_seen_at": "28ca775d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

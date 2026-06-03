@@ -1,22 +1,30 @@
 {
   "id": "mistral.pixtral-large-2502-v1:0",
-  "name": "Pixtral Large (25.02)",
+  "name": "Pixtral Large",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
     "vision": true
   },
   "modalities": {
-    "input": [],
+    "input": ["image", "text"],
     "output": ["text"]
   },
   "_generated": {
-    "name": "1421f39e",
+    "name": "07fa7c7c",
     "model_type": "d669f408",
     "capabilities": "8a3b232e",
-    "modalities": "ce37f4ca"
-  }
+    "modalities": "8b8b28d1",
+    "release_date": "603a9d41",
+    "context_window": "34434798",
+    "max_output_tokens": "67510c89",
+    "page_url": "e413c7ec"
+  },
+  "release_date": "2024-11-19",
+  "context_window": 128000,
+  "max_output_tokens": 16000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-pixtral-large"
 }

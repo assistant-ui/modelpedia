@@ -1,0 +1,52 @@
+{
+  "id": "google/gemma-4-31B-it-turbo",
+  "name": "gemma-4-31B-it-turbo",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "description": "Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input and generating text output.",
+  "status": "active",
+  "context_window": 262144,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "gemma",
+  "open_weight": true,
+  "tagline": "Gemma is a family of open models built by Google DeepMind.",
+  "capabilities": {
+    "tool_call": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.12,
+    "output": 0.37
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "_generated": {
+    "name": "87d5ca91",
+    "family": "811b6704",
+    "description": "3ecf3694",
+    "status": "379ac110",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "3fe02b16",
+    "open_weight": "b326b506",
+    "tagline": "29002cc9",
+    "capabilities": "56245a77",
+    "modalities": "68e53d93",
+    "pricing": "bd2d4801",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee"
+  },
+  "last_updated": "2026-06-03"
+}

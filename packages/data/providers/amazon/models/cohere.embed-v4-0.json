@@ -3,19 +3,25 @@
   "name": "Embed v4",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "embed",
   "capabilities": {
     "vision": true
   },
   "modalities": {
-    "input": [],
-    "output": []
+    "input": ["image", "text"],
+    "output": ["text"]
   },
   "_generated": {
     "name": "b207cc61",
     "model_type": "764cb3de",
     "capabilities": "d3117eb0",
-    "modalities": "72e6ca34"
-  }
+    "modalities": "8b8b28d1",
+    "release_date": "e4706147",
+    "context_window": "34434798",
+    "page_url": "c679c68b"
+  },
+  "release_date": "2025-04-15",
+  "context_window": 128000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-embed-v4"
 }

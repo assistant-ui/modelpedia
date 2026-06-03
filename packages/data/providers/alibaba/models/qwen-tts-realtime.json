@@ -1,0 +1,30 @@
+{
+  "id": "qwen-tts-realtime",
+  "name": "qwen-tts-realtime",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen",
+  "model_type": "tts",
+  "license": "apache-2.0",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/tts-model",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "2d9d4624",
+    "family": "a3af76f3",
+    "model_type": "4e16a2cf",
+    "license": "60245731",
+    "page_url": "da2101f3",
+    "capabilities": "9c665f5d",
+    "modalities": "601e776d",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-06-03"
+}

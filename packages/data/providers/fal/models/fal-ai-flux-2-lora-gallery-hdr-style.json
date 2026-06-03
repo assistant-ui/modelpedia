@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/flux-2-lora-gallery/hdr-style",
-  "name": "Flux 2 Lora Gallery",
+  "name": "FLUX 2 Lora Gallery Hdr Style",
   "created_by": "fal",
   "source": "official",
   "description": "HDR surrealistic effect with intense colors",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "5a2ef7d5",
+    "name": "b959eef4",
     "description": "cd4382d4",
     "status": "379ac110",
     "release_date": "a4a8a70d",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

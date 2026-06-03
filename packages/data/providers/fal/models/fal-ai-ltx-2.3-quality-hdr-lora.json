@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx-2.3-quality/hdr/lora",
+  "name": "Ltx 2.3 Quality",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate HDR from reference video using LTX-2.3 with lora",
+  "status": "active",
+  "release_date": "2026-06-01",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx-2.3-quality/hdr/lora",
+  "tagline": "Generate HDR from reference video using LTX-2.3 with lora",
+  "last_seen_at": "2026-06-01",
+  "_generated": {
+    "name": "a69880de",
+    "description": "e9186dfe",
+    "status": "379ac110",
+    "release_date": "80eaf594",
+    "model_type": "ddb0b7bc",
+    "page_url": "99ddb173",
+    "tagline": "e9186dfe",
+    "last_seen_at": "80eaf594"
+  },
+  "last_updated": "2026-06-03"
+}

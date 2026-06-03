@@ -1,0 +1,31 @@
+{
+  "id": "qwen3-vl-rerank",
+  "name": "qwen3-vl-rerank",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3",
+  "model_type": "rerank",
+  "license": "apache-2.0",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "c44a8f4e",
+    "family": "48c385a0",
+    "model_type": "477930e6",
+    "license": "60245731",
+    "page_url": "6a9b1b59",
+    "open_weight": "b326b506",
+    "capabilities": "91e36286",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-03"
+}

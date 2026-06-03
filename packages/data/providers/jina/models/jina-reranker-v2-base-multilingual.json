@@ -3,9 +3,9 @@
   "name": "Jina Reranker v2 Base Multilingual",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "jina-reranker",
-  "description": "278M-parameter cross-encoder reranker supporting 100+ languages with function-calling and code search.",
+  "description": "Jina Reranker v2 Base Multilingual is a cross-encoder model designed to enhance search accuracy across language barriers and data types. This reranker addresses the critical challenge of precise information retrieval in multilingual environments, particularly valuable for global enterprises needing to refine search results across different languages and content types. With support for over 100 languages and unique capabilities in function calling and code search, it serves as a unified solution for teams requiring accurate search refinement across international content, API documentation, and multilingual codebases. The model's compact 278M parameter design makes it particularly appealing for organizations seeking to balance high performance with resource efficiency.",
   "tagline": "Multilingual cross-encoder reranker.",
   "status": "active",
   "model_type": "rerank",
@@ -20,5 +20,20 @@
   "endpoints": ["rerank"],
   "pricing": {
     "input": 0.05
+  },
+  "_generated": {
+    "name": "89b7c64d",
+    "family": "1085b236",
+    "description": "8fd7792b",
+    "tagline": "68c566d8",
+    "status": "379ac110",
+    "model_type": "477930e6",
+    "context_window": "021bbc7e",
+    "release_date": "fb8833ee",
+    "license": "2c8e76b8",
+    "open_weight": "b326b506",
+    "modalities": "afb3de08",
+    "endpoints": "9a7b4962",
+    "pricing": "0f2b1541"
   }
 }

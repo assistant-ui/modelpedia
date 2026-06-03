@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/post-processing/grain",
-  "name": "Post Processing",
+  "name": "Post Processing Grain",
   "created_by": "fal",
   "source": "official",
   "description": "Apply film grain effect with different styles (modern, analog, kodak, fuji, cinematic, newspaper) and customizable intensity and scale",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "208a7416",
+    "name": "ea67a9ac",
     "description": "d520a535",
     "status": "379ac110",
     "release_date": "7a7b6168",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

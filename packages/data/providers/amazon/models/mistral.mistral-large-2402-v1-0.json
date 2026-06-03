@@ -1,9 +1,9 @@
 {
   "id": "mistral.mistral-large-2402-v1:0",
-  "name": "Mistral Large (24.02)",
+  "name": "Mistral Large",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -13,9 +13,17 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "a5034ef8",
+    "name": "6461b222",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "release_date": "9147cd8c",
+    "context_window": "10e4d788",
+    "max_output_tokens": "1bd69c7d",
+    "page_url": "4779a7e5"
+  },
+  "release_date": "2024-02-26",
+  "context_window": 32000,
+  "max_output_tokens": 4000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-large"
 }

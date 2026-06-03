@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/pixverse/v6/text-to-video",
-  "name": "PixVerse",
+  "name": "PixVerse V6 Text To Video",
   "created_by": "fal",
   "source": "official",
   "description": "Pixverse's latest v6 Model.",
@@ -16,7 +16,7 @@
   "endpoints": ["video"],
   "last_seen_at": "2026-05-07",
   "_generated": {
-    "name": "c44b079b",
+    "name": "d63e141b",
     "description": "c22d6506",
     "status": "379ac110",
     "release_date": "c019c0fb",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "d465a48a"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

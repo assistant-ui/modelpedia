@@ -1,0 +1,27 @@
+{
+  "id": "mimo-v2.5-asr",
+  "name": "MiMo-v2.5-asr",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "status": "active",
+  "context_window": 8000,
+  "max_output_tokens": 2000,
+  "model_type": "transcription",
+  "page_url": "https://platform.xiaomimimo.com",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "b567a31a",
+    "family": "1a23786e",
+    "status": "379ac110",
+    "context_window": "67ff32d4",
+    "max_output_tokens": "08f90c1a",
+    "model_type": "5e12d29a",
+    "page_url": "af488f1e",
+    "modalities": "b8e84832"
+  },
+  "last_updated": "2026-06-03"
+}

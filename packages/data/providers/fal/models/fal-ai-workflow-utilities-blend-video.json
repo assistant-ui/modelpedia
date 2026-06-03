@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/workflow-utilities/blend-video",
-  "name": "Workflow Utilities",
+  "name": "Workflow Utilities Blend Video",
   "created_by": "fal",
   "source": "official",
   "description": "FFMPEG Utility for Blending Videos",
@@ -11,7 +11,7 @@
   "tagline": "FFMPEG Utility for Blending Videos",
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "5a6862ba",
+    "name": "b9b06b4f",
     "description": "159aa152",
     "status": "379ac110",
     "release_date": "c7536487",
@@ -20,5 +20,5 @@
     "tagline": "159aa152",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

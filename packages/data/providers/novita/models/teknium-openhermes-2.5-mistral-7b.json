@@ -1,0 +1,42 @@
+{
+  "id": "teknium/openhermes-2.5-mistral-7b",
+  "name": "Openhermes2.5 Mistral 7B",
+  "created_by": "teknium",
+  "source": "official",
+  "description": "OpenHermes 2.5 Mistral 7B is a state of the art Mistral Fine-tune, a continuation of OpenHermes 2 model, which trained on additional code datasets.",
+  "status": "preview",
+  "release_date": "2024-04-24",
+  "context_window": 4096,
+  "max_output_tokens": 8000,
+  "model_type": "chat",
+  "parameters": 7,
+  "tagline": "OpenHermes 2.5 Mistral 7B is a state of the art Mistral Fine-tune, a continuation of OpenHermes 2 model, which trained on additional code datasets.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.17,
+    "output": 0.17
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "f49b8ae1",
+    "description": "9901d301",
+    "status": "127aecde",
+    "release_date": "1e489067",
+    "context_window": "f7efa4f8",
+    "max_output_tokens": "67ff32d4",
+    "model_type": "d669f408",
+    "parameters": "8f14e45f",
+    "tagline": "9901d301",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "386f50d5",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

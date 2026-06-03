@@ -1,0 +1,25 @@
+{
+  "id": "qwen3.5-livetranslate-flash-realtime",
+  "name": "qwen3.5-livetranslate-flash-realtime",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.5",
+  "model_type": "audio",
+  "license": "apache-2.0",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "cbe44424",
+    "family": "d548f421",
+    "model_type": "9f84c007",
+    "license": "60245731",
+    "page_url": "633e05f4",
+    "capabilities": "9c665f5d",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-06-03"
+}

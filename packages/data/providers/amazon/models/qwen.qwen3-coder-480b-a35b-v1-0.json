@@ -3,7 +3,7 @@
   "name": "Qwen3 Coder 480B A35B Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "family": "qwen.",
   "model_type": "code",
   "capabilities": {
@@ -18,8 +18,18 @@
     "family": "4f268b83",
     "model_type": "b6cc3ff4",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "parameters": "6ea2ef73",
+    "active_parameters": "1c383cd3",
+    "release_date": "bfbd7cfc",
+    "context_window": "34434798",
+    "max_output_tokens": "67510c89",
+    "page_url": "dddb435a"
   },
   "parameters": 480,
-  "active_parameters": 35
+  "active_parameters": 35,
+  "release_date": "2025-07-23",
+  "context_window": 128000,
+  "max_output_tokens": 16000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-480b-a35b-instruct"
 }

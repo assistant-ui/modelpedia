@@ -1,0 +1,31 @@
+{
+  "id": "minimax.minimax-m2.5",
+  "name": "MiniMax M2.5",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "release_date": "2026-02-12",
+  "context_window": 196000,
+  "max_output_tokens": 8000,
+  "model_type": "chat",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2-5",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "fbc8323f",
+    "family": "c85916f0",
+    "release_date": "4c1b6684",
+    "context_window": "94593300",
+    "max_output_tokens": "67ff32d4",
+    "model_type": "d669f408",
+    "page_url": "d8fc7d20",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-03"
+}

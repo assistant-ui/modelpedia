@@ -1,11 +1,11 @@
 {
   "id": "jina-colbert-v1-en",
-  "name": "Jina ColBERT v1 English",
+  "name": "Jina Colbert v1 EN",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "jina-colbert",
-  "description": "137M-parameter English-only ColBERT-style late-interaction retrieval model.",
+  "description": "Jina-ColBERT-v1-en revolutionizes text search by solving a critical challenge in information retrieval: achieving high accuracy without sacrificing computational efficiency. Unlike traditional models that compress entire documents into single vectors, this model maintains precise token-level understanding while requiring only 137M parameters. For teams building search applications, recommendation systems, or content discovery platforms, Jina-ColBERT-v1-en eliminates the traditional trade-off between search quality and system performance. The model particularly shines in scenarios where nuanced text understanding is crucial, such as technical documentation search, academic paper retrieval, or any application where capturing subtle semantic relationships can make the difference between finding the right information and missing critical content.",
   "tagline": "First-generation English ColBERT.",
   "status": "active",
   "model_type": "embed",
@@ -21,5 +21,21 @@
   "pricing": {
     "input": 0.05
   },
-  "output_dimensions": [128]
+  "output_dimensions": [128],
+  "_generated": {
+    "name": "405663d5",
+    "family": "7e1bb1c7",
+    "description": "2104729c",
+    "tagline": "1f49abb6",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "77441296",
+    "release_date": "aec5e286",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "modalities": "afb3de08",
+    "endpoints": "5845adda",
+    "pricing": "0f2b1541",
+    "output_dimensions": "5d5c9ca0"
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Qwen3-30B-A3B",
   "created_by": "alibaba",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "qwen3",
   "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, instruction-following, agent capabilities, and multilingual support",
   "status": "active",
@@ -23,8 +23,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.08,
-    "output": 0.28
+    "input": 0.09,
+    "output": 0.45
   },
   "tools": ["function_calling"],
   "endpoints": ["chat_completions"],
@@ -41,7 +41,7 @@
     "license": "60245731",
     "capabilities": "d9d6c74e",
     "modalities": "68e53d93",
-    "pricing": "309a269c",
+    "pricing": "10964e8f",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "640679f9",

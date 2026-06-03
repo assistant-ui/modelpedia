@@ -1,0 +1,30 @@
+{
+  "id": "writer.palmyra-vision-7b",
+  "name": "Palmyra Vision 7B",
+  "created_by": "writer",
+  "source": "official",
+  "release_date": "2026-03-26",
+  "context_window": 4000,
+  "max_output_tokens": 4000,
+  "model_type": "chat",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-vision-7b",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "bedfc2b9",
+    "release_date": "7f514a88",
+    "context_window": "1bd69c7d",
+    "max_output_tokens": "1bd69c7d",
+    "model_type": "d669f408",
+    "page_url": "bb33cc31",
+    "capabilities": "8a3b232e",
+    "modalities": "8b8b28d1"
+  },
+  "last_updated": "2026-06-03"
+}

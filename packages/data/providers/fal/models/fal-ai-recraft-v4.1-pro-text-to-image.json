@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/recraft/v4.1/pro/text-to-image",
+  "name": "Recraft V4.1 Text to Image Pro",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Recraft V4.1 Pro pushes the V4.1 model into high-resolution territory — up to 2048×2048 and ultra-wide formats.",
+  "status": "active",
+  "release_date": "2026-05-14",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/recraft/v4.1/pro/text-to-image",
+  "tagline": "Recraft V4.1 Pro pushes the V4.1 model into high-resolution territory — up to 2048×2048 and ultra-wide formats.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-05-14",
+  "_generated": {
+    "name": "4fc087f0",
+    "description": "5f91a528",
+    "status": "379ac110",
+    "release_date": "fc4b2e7f",
+    "model_type": "db8857fe",
+    "page_url": "0961d946",
+    "tagline": "5f91a528",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "fc4b2e7f"
+  },
+  "last_updated": "2026-06-03"
+}

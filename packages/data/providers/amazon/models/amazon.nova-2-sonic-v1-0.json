@@ -3,19 +3,27 @@
   "name": "Nova 2 Sonic",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
   },
   "modalities": {
-    "input": [],
-    "output": []
+    "input": ["audio", "text"],
+    "output": ["audio", "text"]
   },
   "_generated": {
     "name": "5e6e5e9d",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "72e6ca34"
-  }
+    "modalities": "aeba3801",
+    "release_date": "75f289bd",
+    "context_window": "8155bc54",
+    "max_output_tokens": "762e98db",
+    "page_url": "107bfa1d"
+  },
+  "release_date": "2025-12-02",
+  "context_window": 1000000,
+  "max_output_tokens": 64000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-sonic"
 }

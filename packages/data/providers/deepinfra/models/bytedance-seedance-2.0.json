@@ -1,0 +1,29 @@
+{
+  "id": "ByteDance/Seedance-2.0",
+  "name": "Seedance-2.0",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A new-generation professional-grade multimodal video creation model developed, supports video generation with multimodal reference inputs including images, videos and audio.",
+  "status": "active",
+  "model_type": "video",
+  "license": "apache-2.0",
+  "open_weight": false,
+  "tagline": "A new-generation professional-grade multimodal video creation model developed, supports video generation with multimodal reference inputs including images, videos and audio.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "f681d06d",
+    "description": "3d86b84c",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "license": "60245731",
+    "open_weight": "68934a3e",
+    "tagline": "3d86b84c",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-06-03"
+}

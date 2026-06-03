@@ -3,19 +3,23 @@
   "name": "Amazon Nova Multimodal Embeddings",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "embed",
   "capabilities": {
     "vision": true
   },
   "modalities": {
-    "input": [],
-    "output": []
+    "input": ["audio", "image", "text", "video"],
+    "output": ["text"]
   },
   "_generated": {
     "name": "24562617",
     "model_type": "764cb3de",
     "capabilities": "d3117eb0",
-    "modalities": "72e6ca34"
-  }
+    "modalities": "b7a3ac68",
+    "release_date": "9606ea78",
+    "page_url": "8127a053"
+  },
+  "release_date": "2025-10-28",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-amazon-nova-multimodal-embeddings"
 }

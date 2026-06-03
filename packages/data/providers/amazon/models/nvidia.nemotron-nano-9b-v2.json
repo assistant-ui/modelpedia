@@ -3,7 +3,7 @@
   "name": "NVIDIA Nemotron Nano 9B v2",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -16,7 +16,16 @@
     "name": "b5d95ea2",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "parameters": "45c48cce",
+    "release_date": "a692155d",
+    "context_window": "34434798",
+    "max_output_tokens": "67ff32d4",
+    "page_url": "153b4603"
   },
-  "parameters": 9
+  "parameters": 9,
+  "release_date": "2025-08-18",
+  "context_window": 128000,
+  "max_output_tokens": 8000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nvidia-nemotron-nano-9b-v2"
 }

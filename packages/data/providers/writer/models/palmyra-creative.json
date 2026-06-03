@@ -3,9 +3,9 @@
   "name": "Palmyra Creative",
   "created_by": "writer",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "palmyra-creative",
-  "description": "Purpose-built creative-thinking and writing model for brainstorming, storytelling, and original content generation. Available as an NVIDIA NIM microservice.",
+  "description": "Purpose-built for creative thinking and writing",
   "status": "deprecated",
   "deprecation_date": "2026-07-13",
   "successor": "palmyra-x5",
@@ -27,5 +27,26 @@
     "input": 5,
     "output": 12
   },
-  "page_url": "https://dev.writer.com/home/models"
+  "page_url": "https://dev.writer.com/home/models",
+  "tagline": "Purpose-built for creative thinking and writing",
+  "_generated": {
+    "name": "d1bf8d45",
+    "family": "0ade8401",
+    "description": "62bc3c3c",
+    "status": "2e2f74dc",
+    "deprecation_date": "a393f093",
+    "successor": "237dd4b6",
+    "release_date": "4a83ff32",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "f7efa4f8",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "pricing": "1c99297e",
+    "page_url": "8d6fade1",
+    "tagline": "62bc3c3c"
+  }
 }

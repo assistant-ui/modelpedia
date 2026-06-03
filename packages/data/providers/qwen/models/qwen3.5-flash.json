@@ -3,15 +3,19 @@
   "name": "qwen3.5-flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-06-03",
   "family": "qwen3.5",
-  "context_window": 983616,
-  "max_output_tokens": 65536,
+  "context_window": 1000000,
+  "max_output_tokens": 64000,
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
     "reasoning": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "tool_call": true,
+    "structured_output": true,
+    "batch": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -25,10 +29,10 @@
   "_generated": {
     "name": "9b986f28",
     "family": "d548f421",
-    "context_window": "a99ecd8b",
-    "max_output_tokens": "297ce0b3",
+    "context_window": "8155bc54",
+    "max_output_tokens": "762e98db",
     "model_type": "d669f408",
-    "capabilities": "034b2f91",
+    "capabilities": "04088920",
     "modalities": "68e53d93",
     "pricing": "aa5a4e42",
     "endpoints": "75df3f1c",
@@ -36,13 +40,15 @@
     "provider": "a3af76f3",
     "description": "c7e9b9c3",
     "tagline": "8f328010",
-    "page_url": "23162829",
-    "open_weight": "b326b506"
+    "page_url": "6ecc6f25",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "license": "apache-2.0",
   "provider": "qwen",
   "description": "Qwen-Flash is the fastest and most cost-effective model in the Qwen series, designed for simple jobs. Qwen-Flash features flexible tiered pricing, resulting in more reasonable billing compared to Qwen-Turbo. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
   "tagline": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "open_weight": true
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+  "open_weight": true,
+  "tools": ["function_calling"]
 }

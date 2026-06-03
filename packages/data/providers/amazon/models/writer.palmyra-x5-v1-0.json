@@ -3,7 +3,7 @@
   "name": "Palmyra X5",
   "created_by": "writer",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -16,6 +16,14 @@
     "name": "d2b52a3d",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "release_date": "a9d1b041",
+    "context_window": "34434798",
+    "max_output_tokens": "67ff32d4",
+    "page_url": "ee618730"
+  },
+  "release_date": "2026-01-21",
+  "context_window": 128000,
+  "max_output_tokens": 8000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-x5"
 }

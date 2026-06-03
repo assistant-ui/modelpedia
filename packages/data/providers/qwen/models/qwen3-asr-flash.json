@@ -1,0 +1,30 @@
+{
+  "id": "qwen3-asr-flash",
+  "name": "qwen3-asr-flash",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3",
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/asr-model",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "3a50f205",
+    "family": "48c385a0",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "page_url": "17b7d885",
+    "open_weight": "b326b506",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-03"
+}

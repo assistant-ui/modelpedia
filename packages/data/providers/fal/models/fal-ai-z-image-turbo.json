@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/z-image/turbo",
-  "name": "Z-Image Turbo",
+  "name": "Z Image Turbo",
   "created_by": "fal",
   "source": "official",
   "description": "Z-Image Turbo is a super fast text-to-image model of 6B parameters developed by Tongyi-MAI.",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-28",
   "_generated": {
-    "name": "a73fe98b",
+    "name": "c0b6417c",
     "description": "924942f7",
     "status": "379ac110",
     "release_date": "a5b8446f",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "52326430"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

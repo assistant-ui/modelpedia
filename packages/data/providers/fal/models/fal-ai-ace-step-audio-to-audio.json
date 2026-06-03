@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/ace-step/audio-to-audio",
-  "name": "ACE-Step",
+  "name": "ACE Step Audio To Audio",
   "created_by": "fal",
   "source": "official",
   "description": "Generate music from a lyrics and example audio using ACE-Step",
@@ -11,7 +11,7 @@
   "tagline": "Generate music from a lyrics and example audio using ACE-Step",
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "d6d9fab4",
+    "name": "7e8e27d6",
     "description": "4d219590",
     "status": "379ac110",
     "release_date": "b754573b",
@@ -20,5 +20,5 @@
     "tagline": "4d219590",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

@@ -1,0 +1,50 @@
+{
+  "id": "thudm/glm-4-32b-0414",
+  "name": "GLM-4-32B-0414",
+  "created_by": "thudm",
+  "source": "official",
+  "family": "glm-4",
+  "description": "GLM-4-32B-0414 is the latest open-source model in the GLM series, featuring 32 billion parameters.",
+  "status": "active",
+  "release_date": "2025-04-16",
+  "context_window": 32000,
+  "max_output_tokens": 32000,
+  "model_type": "chat",
+  "parameters": 32,
+  "tagline": "GLM-4-32B-0414 is the latest open-source model in the GLM series, featuring 32 billion parameters.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.55,
+    "output": 1.66
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a6ce6bda",
+    "family": "b85f9b4b",
+    "description": "e925b196",
+    "status": "379ac110",
+    "release_date": "67604092",
+    "context_window": "10e4d788",
+    "max_output_tokens": "10e4d788",
+    "model_type": "d669f408",
+    "parameters": "6364d3f0",
+    "tagline": "e925b196",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "b025eef0",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

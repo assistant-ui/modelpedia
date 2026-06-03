@@ -1,0 +1,49 @@
+{
+  "id": "anthropic/claude-haiku-4-5",
+  "name": "claude-haiku-4-5",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-haiku",
+  "description": "The next generation of Anthropic's fastest and most cost-effective model, optimal for use cases where speed and affordability matter.",
+  "status": "active",
+  "context_window": 200000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": false,
+  "tagline": "The next generation of Anthropic's fastest and most cost-effective model, optimal for use cases where speed and affordability matter.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 5
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "35578850",
+    "family": "1cfb9795",
+    "description": "efbd71d7",
+    "status": "379ac110",
+    "context_window": "03e6c616",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "68934a3e",
+    "tagline": "efbd71d7",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "5b5c2081",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

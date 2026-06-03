@@ -1,11 +1,11 @@
 {
   "id": "jina-reranker-v1-tiny-en",
-  "name": "Jina Reranker v1 Tiny English",
+  "name": "Jina Reranker v1 Tiny EN",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "jina-reranker",
-  "description": "33M-parameter English reranker via knowledge distillation, 5x faster with 92% accuracy.",
+  "description": "Jina Reranker v1 Tiny English represents a breakthrough in efficient search refinement, designed specifically for organizations requiring high-performance reranking in resource-constrained environments. This model addresses the critical challenge of maintaining search quality while significantly reducing computational overhead and deployment costs. With just 33M parameters - a fraction of typical reranker sizes - it delivers remarkably competitive performance through innovative knowledge distillation techniques. The model's most surprising feature is its ability to process documents nearly five times faster than base models while maintaining over 92% of their accuracy, making enterprise-grade search refinement accessible to applications where computational resources are at a premium.",
   "tagline": "Tiny English reranker.",
   "status": "active",
   "model_type": "rerank",
@@ -20,5 +20,20 @@
   "endpoints": ["rerank"],
   "pricing": {
     "input": 0.05
+  },
+  "_generated": {
+    "name": "1bf253d5",
+    "family": "1085b236",
+    "description": "f9e027f6",
+    "tagline": "d8a1bc2e",
+    "status": "379ac110",
+    "model_type": "477930e6",
+    "context_window": "77441296",
+    "release_date": "3aec6636",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "modalities": "afb3de08",
+    "endpoints": "9a7b4962",
+    "pricing": "0f2b1541"
   }
 }

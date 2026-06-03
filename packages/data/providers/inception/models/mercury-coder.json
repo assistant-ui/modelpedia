@@ -3,9 +3,9 @@
   "name": "Mercury Coder",
   "created_by": "inception",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "mercury",
-  "description": "Diffusion LLM tuned for coding workflows; ranks 1st in speed and ties 2nd in quality on Copilot Arena.",
+  "description": "Mercury Coder is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like Claude 3.5 Haiku and GPT-4o Mini while matching their performance. Mercury Coder's speed means that developers can stay in the flow while coding, enjoying rapid chat-based iteration and responsive code completion suggestions. On Copilot Arena, Mercury Coder ranks 1st in speed and ties for 2nd in quality.",
   "tagline": "Diffusion LLM for fast code generation.",
   "status": "active",
   "model_type": "code",
@@ -30,5 +30,23 @@
     "input": 0.25,
     "output": 0.75,
     "cached_input": 0.025
+  },
+  "_generated": {
+    "name": "5dc5945b",
+    "family": "428b012e",
+    "description": "97b0743f",
+    "tagline": "50d06201",
+    "status": "379ac110",
+    "model_type": "b6cc3ff4",
+    "context_window": "34434798",
+    "max_output_tokens": "10e4d788",
+    "release_date": "6997487e",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "ef09f446",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "966083ea"
   }
 }

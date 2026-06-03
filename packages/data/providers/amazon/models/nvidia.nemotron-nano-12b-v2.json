@@ -3,21 +3,30 @@
   "name": "NVIDIA Nemotron Nano 12B v2 VL BF16",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
     "vision": true
   },
   "modalities": {
-    "input": [],
+    "input": ["image", "text"],
     "output": ["text"]
   },
   "_generated": {
     "name": "dec015e3",
     "model_type": "d669f408",
     "capabilities": "8a3b232e",
-    "modalities": "ce37f4ca"
+    "modalities": "8b8b28d1",
+    "parameters": "c20ad4d7",
+    "release_date": "9606ea78",
+    "context_window": "34434798",
+    "max_output_tokens": "67ff32d4",
+    "page_url": "df12cd62"
   },
-  "parameters": 12
+  "parameters": 12,
+  "release_date": "2025-10-28",
+  "context_window": 128000,
+  "max_output_tokens": 8000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nvidia-nemotron-nano-12b-v2-vl-bf16"
 }

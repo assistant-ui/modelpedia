@@ -1,0 +1,42 @@
+{
+  "id": "SAME-L",
+  "name": "SAME L",
+  "created_by": "stability",
+  "source": "official",
+  "description": "SAME L is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2026-05-17",
+  "model_type": "code",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/SAME-L",
+  "open_weight": true,
+  "tagline": "SAME L is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "huggingface_downloads": 1833,
+  "last_modified": "2026-05-19",
+  "_generated": {
+    "name": "eb4ee27e",
+    "description": "b4fe5020",
+    "status": "379ac110",
+    "release_date": "7bf73c4b",
+    "model_type": "b6cc3ff4",
+    "license": "ddb0b7bc",
+    "page_url": "e8e3387c",
+    "open_weight": "b326b506",
+    "tagline": "b4fe5020",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "huggingface_downloads": "9a1de01f",
+    "last_modified": "665f01a0"
+  },
+  "last_updated": "2026-06-03"
+}

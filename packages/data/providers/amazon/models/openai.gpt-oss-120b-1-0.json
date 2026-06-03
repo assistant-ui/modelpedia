@@ -3,7 +3,7 @@
   "name": "gpt-oss-120b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -16,8 +16,18 @@
     "name": "e8458743",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "family": "82d0cb0b",
+    "parameters": "da4fb5c6",
+    "release_date": "67086b15",
+    "context_window": "34434798",
+    "max_output_tokens": "67510c89",
+    "page_url": "0343be52"
   },
   "family": "gpt-oss",
-  "parameters": 120
+  "parameters": 120,
+  "release_date": "2025-08-05",
+  "context_window": 128000,
+  "max_output_tokens": 16000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-120b"
 }

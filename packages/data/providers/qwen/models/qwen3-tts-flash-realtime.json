@@ -1,0 +1,30 @@
+{
+  "id": "qwen3-tts-flash-realtime",
+  "name": "qwen3-tts-flash-realtime",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3",
+  "model_type": "tts",
+  "license": "apache-2.0",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/tts-model",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "_generated": {
+    "name": "a84630dc",
+    "family": "48c385a0",
+    "model_type": "4e16a2cf",
+    "license": "60245731",
+    "page_url": "da2101f3",
+    "open_weight": "b326b506",
+    "capabilities": "9c665f5d",
+    "modalities": "601e776d"
+  },
+  "last_updated": "2026-06-03"
+}

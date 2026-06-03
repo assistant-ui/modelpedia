@@ -1,0 +1,49 @@
+{
+  "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning",
+  "name": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Nemotron 3 Nano Omni is an open multimodal model built on a hybrid Mixture-of-Experts (MoE) architecture, engineered for high efficiency and strong accuracy across image, video, audio, and text inputs. It powers always-on sub-agents for computer use, document intelligence, and audio-video understanding—replacing fragmented vision, speech, and language pipelines with a single unified inference pass.",
+  "status": "active",
+  "context_window": 262144,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "tagline": "Nemotron 3 Nano Omni is an open multimodal model built on a hybrid Mixture-of-Experts (MoE) architecture, engineered for high efficiency and strong accuracy across image, video, audio, and text inputs.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.8
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "bfloat16",
+  "_generated": {
+    "name": "819df28d",
+    "description": "3619c42f",
+    "status": "379ac110",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "tagline": "b25511a9",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "9a9e4921",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "45ae6e17"
+  },
+  "last_updated": "2026-06-03"
+}

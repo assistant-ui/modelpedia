@@ -1,0 +1,39 @@
+{
+  "id": "jina-embedding-b-en-v1",
+  "name": "Jina Embedding B EN v1",
+  "created_by": "jina",
+  "source": "official",
+  "family": "jina-embedding-b-en",
+  "description": "Jina Embedding B v1 is a specialized text embedding model designed to transform English text into high-dimensional numerical representations while maintaining semantic meaning. The model addresses the critical need for efficient and accurate text embeddings in production environments, particularly valuable for organizations requiring a balance between computational efficiency and embedding quality. With its 110M parameters generating 768-dimensional embeddings, it serves as a practical solution for teams implementing semantic search, document clustering, or content recommendation systems without requiring extensive computational resources.",
+  "status": "active",
+  "release_date": "2023-06-17",
+  "context_window": 512,
+  "model_type": "embed",
+  "license": "jina-ai",
+  "open_weight": true,
+  "tagline": "Jina Embedding B v1 is a specialized text embedding model designed to transform English text into high-dimensional numerical representations while maintaining semantic meaning.",
+  "modalities": {
+    "input": ["text"],
+    "output": []
+  },
+  "pricing": {
+    "input": 0.05
+  },
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "7f1d2188",
+    "family": "f35deb1a",
+    "description": "ce0c8c5d",
+    "status": "379ac110",
+    "release_date": "daa5f176",
+    "context_window": "10a7cdd9",
+    "model_type": "764cb3de",
+    "license": "0b7dd534",
+    "open_weight": "b326b506",
+    "tagline": "4831f62c",
+    "modalities": "afb3de08",
+    "pricing": "0f2b1541",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-06-03"
+}

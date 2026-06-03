@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/bytedance/dreamactor/v2",
-  "name": "Bytedance",
+  "name": "Bytedance Dreamactor V2",
   "created_by": "fal",
   "source": "official",
   "description": "Transfer motion from a video to characters in an image using Dreamactor v2.",
@@ -14,7 +14,7 @@
   },
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "6d00f002",
+    "name": "9d4bdddb",
     "description": "498fd379",
     "status": "379ac110",
     "release_date": "ce84918e",
@@ -24,5 +24,5 @@
     "capabilities": "d3117eb0",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }
