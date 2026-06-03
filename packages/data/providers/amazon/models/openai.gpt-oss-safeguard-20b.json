@@ -3,8 +3,8 @@
   "name": "GPT OSS Safeguard 20B",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-22",
-  "model_type": "moderation",
+  "last_updated": "2026-06-03",
+  "model_type": "chat",
   "capabilities": {
     "streaming": true
   },
@@ -14,9 +14,18 @@
   },
   "_generated": {
     "name": "3152574c",
-    "model_type": "1e7a7b87",
+    "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "parameters": "98f13708",
+    "release_date": "ea42b142",
+    "context_window": "34434798",
+    "max_output_tokens": "67510c89",
+    "page_url": "c5494d57"
   },
-  "parameters": 20
+  "parameters": 20,
+  "release_date": "2025-10-29",
+  "context_window": 128000,
+  "max_output_tokens": 16000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-safeguard-20b"
 }

@@ -3,16 +3,19 @@
   "name": "qwen3-max",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-22",
+  "last_updated": "2026-06-03",
   "family": "qwen3",
-  "context_window": 258048,
+  "context_window": 256000,
   "max_output_tokens": 32768,
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
     "reasoning": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "structured_output": true,
+    "batch": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -22,23 +25,25 @@
   "_generated": {
     "name": "52618ca9",
     "family": "48c385a0",
-    "context_window": "b7f19ec4",
+    "context_window": "2fd324cb",
     "max_output_tokens": "f4376436",
     "model_type": "d669f408",
-    "capabilities": "4043afaa",
+    "capabilities": "bd825360",
     "modalities": "68e53d93",
     "endpoints": "75df3f1c",
     "license": "60245731",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "description": "461193ec",
-    "page_url": "23162829",
-    "tagline": "ad8ef47d"
+    "page_url": "6ecc6f25",
+    "tagline": "ad8ef47d",
+    "reasoning_tokens": "b326b506"
   },
   "license": "apache-2.0",
   "open_weight": true,
   "tools": ["function_calling"],
   "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks."
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+  "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks.",
+  "reasoning_tokens": true
 }

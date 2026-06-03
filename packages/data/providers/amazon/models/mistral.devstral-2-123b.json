@@ -3,7 +3,7 @@
   "name": "Devstral 2 123B",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "code",
   "capabilities": {
     "streaming": true
@@ -16,7 +16,16 @@
     "name": "cc949de0",
     "model_type": "b6cc3ff4",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "parameters": "202cb962",
+    "release_date": "46185bae",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "10e4d788",
+    "page_url": "29b7bb36"
   },
-  "parameters": 123
+  "parameters": 123,
+  "release_date": "2025-06",
+  "context_window": 256000,
+  "max_output_tokens": 32000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-devstral-2-123b"
 }

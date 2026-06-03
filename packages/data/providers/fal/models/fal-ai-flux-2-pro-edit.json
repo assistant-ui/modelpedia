@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/flux-2-pro/edit",
-  "name": "Flux 2 Pro",
+  "name": "FLUX 2 Pro Edit",
   "created_by": "fal",
   "source": "official",
   "description": "Text-to-image generation with FLUX.2 [pro] from Black Forest Labs.",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "a1fc10aa",
+    "name": "b2612c27",
     "description": "bab1547c",
     "status": "379ac110",
     "release_date": "1c217178",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

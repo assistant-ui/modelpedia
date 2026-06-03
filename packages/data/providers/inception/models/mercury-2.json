@@ -3,9 +3,9 @@
   "name": "Mercury 2",
   "created_by": "inception",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "mercury",
-  "description": "Diffusion-based reasoning LLM with parallel token generation, native tool use, and schema-aligned JSON output.",
+  "description": "Mercury is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like Claude 3.5 Haiku and GPT-4o Mini while matching their performance. Mercury's speed means that users can stay in the flow, enjoying rapid chat-based iteration and responsive completion suggestions. On Copilot Arena, Mercury ranks 1st in speed and ties for 2nd in quality.",
   "tagline": "The fastest reasoning dLLM.",
   "status": "active",
   "model_type": "reasoning",
@@ -32,5 +32,24 @@
     "input": 0.25,
     "output": 0.75,
     "cached_input": 0.025
+  },
+  "_generated": {
+    "name": "d30e08ee",
+    "family": "428b012e",
+    "description": "9e1bf919",
+    "tagline": "f3729c83",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "context_window": "34434798",
+    "max_output_tokens": "1017bfd4",
+    "release_date": "a87679d0",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "9a1780be",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "966083ea"
   }
 }

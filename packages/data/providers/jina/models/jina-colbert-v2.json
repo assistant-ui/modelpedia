@@ -1,16 +1,16 @@
 {
   "id": "jina-colbert-v2",
-  "name": "Jina ColBERT v2",
+  "name": "Jina Colbert v2",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "jina-colbert",
-  "description": "Late-interaction multilingual retrieval model across 89 languages with user-controlled embedding sizes.",
+  "description": "Jina-ColBERT-v2 is a groundbreaking multilingual information retrieval model that solves the critical challenge of efficient, high-quality search across multiple languages. As the first multilingual ColBERT-like model to generate compact embeddings, it addresses the growing need for scalable, cost-effective multilingual search solutions in global applications. Organizations dealing with multilingual content, from e-commerce platforms to content management systems, can leverage this model to provide accurate search results across 89 languages while significantly reducing storage and computational costs through its innovative dimension reduction capabilities.",
   "tagline": "Multilingual late-interaction retrieval.",
   "status": "active",
   "model_type": "embed",
   "context_window": 8192,
-  "release_date": "2024-08-30",
+  "release_date": "2024-08-31",
   "license": "cc-by-nc-4.0",
   "open_weight": true,
   "modalities": {
@@ -21,5 +21,21 @@
   "pricing": {
     "input": 0.05
   },
-  "output_dimensions": [64, 96, 128]
+  "output_dimensions": [64, 96, 128],
+  "_generated": {
+    "name": "9a288591",
+    "family": "7e1bb1c7",
+    "description": "50fccf28",
+    "tagline": "e23db480",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "77441296",
+    "release_date": "b0c7b3dd",
+    "license": "2c8e76b8",
+    "open_weight": "b326b506",
+    "modalities": "afb3de08",
+    "endpoints": "5845adda",
+    "pricing": "0f2b1541",
+    "output_dimensions": "16d25fa2"
+  }
 }

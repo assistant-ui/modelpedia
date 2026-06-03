@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/ace-step/prompt-to-audio",
-  "name": "ACE-Step",
+  "name": "ACE Step Prompt To Audio",
   "created_by": "fal",
   "source": "official",
   "description": "Generate music from a simple prompt using ACE-Step",
@@ -11,7 +11,7 @@
   "tagline": "Generate music from a simple prompt using ACE-Step",
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "d6d9fab4",
+    "name": "0fa0e246",
     "description": "c15fe06e",
     "status": "379ac110",
     "release_date": "b754573b",
@@ -20,5 +20,5 @@
     "tagline": "c15fe06e",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

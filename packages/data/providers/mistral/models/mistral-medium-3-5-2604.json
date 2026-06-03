@@ -1,0 +1,47 @@
+{
+  "id": "mistral-medium-3-5-2604",
+  "name": "mistral-medium-3-5-2604",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "mistral-medium",
+  "description": "Our frontier-class multimodal model optimized for agentic and coding use cases. Released as open weights under a Modified MIT license.",
+  "status": "active",
+  "context_window": 256000,
+  "model_type": "chat",
+  "license": "proprietary",
+  "alias": "mistral-medium-3-5",
+  "page_url": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
+  "tagline": "Our frontier-class multimodal model optimized for agentic and coding use cases.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.5,
+    "output": 7.5
+  },
+  "open_weight": false,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "21951322",
+    "family": "a57f1b52",
+    "description": "6982a83f",
+    "status": "379ac110",
+    "context_window": "2fd324cb",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "083addfd",
+    "tagline": "e341dfb2",
+    "capabilities": "1a260abc",
+    "modalities": "6399757e",
+    "pricing": "c99e0f75",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "xiaomimimo/mimo-v2-pro",
+  "name": "XiaomiMiMo/MiMo-V2-Pro",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "description": "Xiaomi’s MiMo-V2-Pro is a flagship, >1T parameter foundation model with a 1M context window, specifically optimized for advanced agentic workflows.",
+  "status": "preview",
+  "release_date": "2026-03-20",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "Xiaomi’s MiMo-V2-Pro is a flagship, >1T parameter foundation model with a 1M context window, specifically optimized for advanced agentic workflows.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b76e6ca5",
+    "family": "1a23786e",
+    "description": "799bee16",
+    "status": "127aecde",
+    "release_date": "d91bb602",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "799bee16",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "e205efd3",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

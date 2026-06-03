@@ -1,11 +1,11 @@
 {
   "id": "jina-reranker-v1-base-en",
-  "name": "Jina Reranker v1 Base English",
+  "name": "Jina Reranker v1 Base EN",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "jina-reranker",
-  "description": "English cross-encoder reranker for token-level query-document analysis.",
+  "description": "Jina Reranker v1 Base English revolutionizes search result refinement by addressing a critical limitation in traditional vector search systems: the inability to capture nuanced relationships between queries and documents. While vector search with cosine similarity provides fast initial results, it often misses subtle relevance signals that human users intuitively understand. This reranker bridges that gap by performing sophisticated token-level analysis of both queries and documents, delivering a remarkable 20% improvement in search accuracy. For organizations struggling with search precision or implementing RAG systems, this model offers a powerful solution that significantly improves result quality without requiring a complete overhaul of existing search infrastructure.",
   "tagline": "First-generation English reranker.",
   "status": "active",
   "model_type": "rerank",
@@ -20,5 +20,20 @@
   "endpoints": ["rerank"],
   "pricing": {
     "input": 0.05
+  },
+  "_generated": {
+    "name": "b8ba7108",
+    "family": "1085b236",
+    "description": "b7fa8e9a",
+    "tagline": "b38ee203",
+    "status": "379ac110",
+    "model_type": "477930e6",
+    "context_window": "77441296",
+    "release_date": "5bdcbd45",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "modalities": "afb3de08",
+    "endpoints": "9a7b4962",
+    "pricing": "0f2b1541"
   }
 }

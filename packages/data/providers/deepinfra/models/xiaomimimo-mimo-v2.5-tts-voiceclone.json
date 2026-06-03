@@ -1,0 +1,35 @@
+{
+  "id": "XiaomiMiMo/MiMo-V2.5-tts-voiceclone",
+  "name": "MiMo-V2.5-tts-voiceclone",
+  "created_by": "xiaomimimo",
+  "source": "official",
+  "family": "mimo",
+  "description": "Automatically convert input text into natural and fluent speech output. You can generate natural and vivid speech content by configuring parameters such as speech. Precisely replicate voices from audio samples to enable speech synthesis of any voice. style and voice.",
+  "status": "active",
+  "model_type": "tts",
+  "open_weight": false,
+  "tagline": "Automatically convert input text into natural and fluent speech output.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "pricing_notes": ["$0.0000 per 1M input characters"],
+  "_generated": {
+    "name": "f871cce0",
+    "family": "1a23786e",
+    "description": "833c18b0",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "open_weight": "68934a3e",
+    "tagline": "45ea9c13",
+    "capabilities": "0fa77dc6",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "pricing_notes": "44d3e7e1"
+  },
+  "last_updated": "2026-06-03"
+}

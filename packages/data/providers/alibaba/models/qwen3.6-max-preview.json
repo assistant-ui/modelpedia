@@ -5,16 +5,20 @@
   "source": "official",
   "family": "qwen3.6",
   "description": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [Thinking](https://www.alibabacloud.com/help/en/document_detail/2870973.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt?modelId=qwen3-max-preview) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-  "context_window": 262144,
-  "max_output_tokens": 131072,
+  "context_window": 256000,
+  "max_output_tokens": 64000,
   "license": "apache-2.0",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
   "model_type": "chat",
   "tagline": "Qwen-Max is the highest-performing model in the Qwen series and excels at complex, multi-step tasks.",
   "capabilities": {
     "streaming": true,
     "reasoning": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "tool_call": true,
+    "structured_output": true,
+    "batch": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -26,16 +30,18 @@
     "name": "06389aca",
     "family": "1bc2d26f",
     "description": "461193ec",
-    "context_window": "4a1d32eb",
-    "max_output_tokens": "f7de594e",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "762e98db",
     "license": "60245731",
-    "page_url": "23162829",
+    "page_url": "6ecc6f25",
     "model_type": "d669f408",
     "tagline": "edebaf33",
-    "capabilities": "034b2f91",
+    "capabilities": "04088920",
     "modalities": "68e53d93",
     "open_weight": "b326b506",
-    "endpoints": "75df3f1c"
+    "endpoints": "75df3f1c",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-22"
+  "last_updated": "2026-06-03",
+  "tools": ["function_calling"]
 }

@@ -3,10 +3,11 @@
   "name": "Kimi K2 Thinking",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text"],
@@ -15,8 +16,19 @@
   "_generated": {
     "name": "ef1db011",
     "model_type": "d669f408",
-    "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "family": "9126e350",
+    "release_date": "70416073",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "67510c89",
+    "reasoning_tokens": "b326b506",
+    "page_url": "fc7117eb"
   },
-  "family": "moonshot"
+  "family": "moonshot",
+  "release_date": "2025-11-06",
+  "context_window": 256000,
+  "max_output_tokens": 16000,
+  "reasoning_tokens": true,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k2-thinking"
 }

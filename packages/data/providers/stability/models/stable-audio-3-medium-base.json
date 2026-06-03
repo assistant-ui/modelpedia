@@ -1,0 +1,30 @@
+{
+  "id": "stable-audio-3-medium-base",
+  "name": "Stable Audio 3 Medium Base",
+  "created_by": "stability",
+  "source": "official",
+  "description": "Stable Audio 3 Medium Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "status": "active",
+  "release_date": "2026-05-17",
+  "model_type": "audio",
+  "license": "other",
+  "page_url": "https://huggingface.co/stabilityai/stable-audio-3-medium-base",
+  "open_weight": true,
+  "tagline": "Stable Audio 3 Medium Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
+  "huggingface_downloads": 1786,
+  "last_modified": "2026-05-19",
+  "_generated": {
+    "name": "8bbce982",
+    "description": "efd9b285",
+    "status": "379ac110",
+    "release_date": "7bf73c4b",
+    "model_type": "9f84c007",
+    "license": "ddb0b7bc",
+    "page_url": "88125143",
+    "open_weight": "b326b506",
+    "tagline": "efd9b285",
+    "huggingface_downloads": "6449f44a",
+    "last_modified": "665f01a0"
+  },
+  "last_updated": "2026-06-03"
+}

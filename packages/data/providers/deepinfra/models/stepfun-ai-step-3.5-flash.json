@@ -3,7 +3,7 @@
   "name": "Step-3.5-Flash",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "step-3",
   "description": "Step 3.5 Flash is an open-source reasoning model by StepFun with 196B total parameters (11B active) using Mixture of Experts. It features a 256K context window, deep reasoning, tool calling, and agentic capabilities, achieving 97.3 on AIME 2025 and 74.4% on SWE-bench Verified.",
   "status": "active",
@@ -21,7 +21,7 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.1,
+    "input": 0.09,
     "output": 0.3,
     "cached_input": 0.02
   },
@@ -40,7 +40,7 @@
     "license": "60245731",
     "capabilities": "3fd13739",
     "modalities": "68e53d93",
-    "pricing": "341f9351",
+    "pricing": "248c0ec9",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "640679f9",

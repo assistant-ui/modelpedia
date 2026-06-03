@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/pixverse/v3.5/text-to-video",
-  "name": "PixVerse v3.5",
+  "name": "PixVerse V3.5 Text To Video",
   "created_by": "fal",
   "source": "official",
   "description": "Generate high quality video clips from text prompts using PixVerse v3.5",
@@ -16,7 +16,7 @@
   "endpoints": ["video"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "0c7fb87c",
+    "name": "724d1fba",
     "description": "94a61fa3",
     "status": "379ac110",
     "release_date": "fcfc42e9",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

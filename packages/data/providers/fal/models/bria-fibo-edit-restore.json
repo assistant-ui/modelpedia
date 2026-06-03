@@ -3,7 +3,7 @@
   "name": "Fibo Edit [Restore]",
   "created_by": "bria",
   "source": "official",
-  "description": "Automatically renews and cleans noisy or degraded images.",
+  "description": "Photo restoration model that automatically denoises, deblurs, and enhances old or damaged photos - removes imperfections while preserving original character.",
   "status": "active",
   "release_date": "2026-01-20",
   "model_type": "image",
@@ -19,10 +19,10 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-01-26",
+  "last_seen_at": "2026-05-20",
   "_generated": {
     "name": "a11a1bba",
-    "description": "afdc66e5",
+    "description": "6d5952e8",
     "status": "379ac110",
     "release_date": "76120ca1",
     "model_type": "db8857fe",
@@ -31,7 +31,7 @@
     "capabilities": "42538baa",
     "modalities": "bbf9b8bb",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "5c252aee"
+    "last_seen_at": "7a81e6e3"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

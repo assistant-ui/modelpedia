@@ -1,0 +1,40 @@
+{
+  "id": "gt-4p",
+  "name": "gt-4p",
+  "created_by": "novita",
+  "source": "official",
+  "description": "chatgpt-4o",
+  "status": "active",
+  "release_date": "2025-03-31",
+  "context_window": 0,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "chatgpt-4o",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d12333a5",
+    "description": "93ae939c",
+    "status": "379ac110",
+    "release_date": "f54b55c5",
+    "context_window": "cfcd2084",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "93ae939c",
+    "capabilities": "05593506",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

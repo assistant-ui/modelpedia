@@ -3,7 +3,7 @@
   "name": "Kimi-K2.6",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "Kimi-K2.6",
   "description": "Kimi K2.6 is an open-source, native multimodal agentic model that advances practical capabilities in long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration.",
   "status": "active",
@@ -18,10 +18,11 @@
     "json_mode": true,
     "reasoning": true,
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "pricing": {
@@ -43,8 +44,8 @@
     "reasoning_tokens": "b326b506",
     "open_weight": "b326b506",
     "license": "c33cdf2d",
-    "capabilities": "882e371a",
-    "modalities": "68e53d93",
+    "capabilities": "8c9863e5",
+    "modalities": "6399757e",
     "pricing": "8d73e4c7",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",

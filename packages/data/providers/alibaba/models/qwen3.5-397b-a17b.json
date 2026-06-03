@@ -3,15 +3,19 @@
   "name": "qwen3.5-397b-a17b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-08",
+  "last_updated": "2026-06-03",
   "family": "qwen3.5",
-  "context_window": 262144,
-  "max_output_tokens": 81920,
+  "context_window": 256000,
+  "max_output_tokens": 64000,
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
     "reasoning": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "tool_call": true,
+    "structured_output": true,
+    "batch": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -21,10 +25,10 @@
   "_generated": {
     "name": "ea6a3bc9",
     "family": "d548f421",
-    "context_window": "4a1d32eb",
-    "max_output_tokens": "7e248a40",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "762e98db",
     "model_type": "d669f408",
-    "capabilities": "034b2f91",
+    "capabilities": "04088920",
     "modalities": "68e53d93",
     "endpoints": "75df3f1c",
     "license": "60245731",
@@ -32,14 +36,16 @@
     "active_parameters": "70efdf2e",
     "open_weight": "b326b506",
     "description": "e600cd52",
-    "page_url": "23162829",
-    "tagline": "d726fd41"
+    "page_url": "6ecc6f25",
+    "tagline": "d726fd41",
+    "tools": "f0c1dc7e"
   },
   "license": "apache-2.0",
   "parameters": 397,
   "active_parameters": 17,
   "open_weight": true,
   "description": "Accepts text, image, and video input. Performs on par with Qwen3 Max for plain text tasks---faster and more cost-effective. Offers significant improvements in multimodal capabilities compared to the Qwen3 VL series.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "tagline": "Supports text, image, and video inputs."
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+  "tagline": "Supports text, image, and video inputs.",
+  "tools": ["function_calling"]
 }

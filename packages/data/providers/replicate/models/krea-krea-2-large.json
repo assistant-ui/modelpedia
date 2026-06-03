@@ -1,0 +1,16 @@
+{
+  "id": "krea/krea-2-large",
+  "name": "Krea 2 Large",
+  "created_by": "krea",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/krea/krea-2-large",
+  "_generated": {
+    "name": "c0d71bd6",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "d1268e90"
+  },
+  "last_updated": "2026-06-03"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "qwen/qwen-2-vl-72b-instruct",
+  "name": "Qwen 2 VL 72B Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen",
+  "description": "Qwen2 VL 72B is a multimodal LLM from the Qwen Team with the following key enhancements:\n\nSoTA understanding of images of various resolution & ratio: Qwen2-VL achieves state-of-the-art performance on ",
+  "status": "preview",
+  "release_date": "2024-12-19",
+  "context_window": 32768,
+  "max_output_tokens": 120000,
+  "model_type": "chat",
+  "parameters": 72,
+  "tagline": "Qwen2 VL 72B is a multimodal LLM from the Qwen Team with the following key enhancements:\n\nSoTA understanding of images of various resolution & ratio: Qwen2-VL achieves state-of-the-art performance on ",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.45,
+    "output": 0.45
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "f67b1b8d",
+    "family": "a3af76f3",
+    "description": "3722e990",
+    "status": "127aecde",
+    "release_date": "df5c0f25",
+    "context_window": "f4376436",
+    "max_output_tokens": "5344237a",
+    "model_type": "d669f408",
+    "parameters": "32bb90e8",
+    "tagline": "3722e990",
+    "capabilities": "09b640f2",
+    "modalities": "6399757e",
+    "pricing": "14ee9f0e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "MiniMaxAI/MiniMax-M2.7",
+  "name": "MiniMax-M2.7",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax-M2.7 is MiniMax's first model deeply participating in its own evolution. M2.7 is capable of building complex agent harnesses and completing highly elaborate productivity tasks, leveraging Agent Teams, complex Skills, and dynamic tool search.",
+  "status": "active",
+  "context_window": 196608,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "minimax",
+  "open_weight": true,
+  "tagline": "MiniMax-M2.7 is MiniMax's first model deeply participating in its own evolution.",
+  "capabilities": {
+    "tool_call": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2,
+    "cached_input": 0.055
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "_generated": {
+    "name": "f234fce3",
+    "family": "c85916f0",
+    "description": "2c104ecb",
+    "status": "379ac110",
+    "context_window": "0dd0d2bf",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "c85916f0",
+    "open_weight": "b326b506",
+    "tagline": "a278ac7d",
+    "capabilities": "56245a77",
+    "modalities": "68e53d93",
+    "pricing": "05749b26",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9"
+  },
+  "last_updated": "2026-06-03"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mimo-v2.5-tts-voicedesign",
+  "name": "MiMo-v2.5-tts-voicedesign",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "status": "active",
+  "context_window": 8000,
+  "max_output_tokens": 8000,
+  "model_type": "tts",
+  "page_url": "https://platform.xiaomimimo.com",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "_generated": {
+    "name": "5c3de7d7",
+    "family": "1a23786e",
+    "status": "379ac110",
+    "context_window": "67ff32d4",
+    "max_output_tokens": "67ff32d4",
+    "model_type": "4e16a2cf",
+    "page_url": "af488f1e",
+    "modalities": "601e776d"
+  },
+  "last_updated": "2026-06-03"
+}

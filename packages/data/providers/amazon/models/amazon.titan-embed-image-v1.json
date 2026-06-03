@@ -3,19 +3,23 @@
   "name": "Titan Multimodal Embeddings G1",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "embed",
   "capabilities": {
     "vision": true
   },
   "modalities": {
-    "input": [],
-    "output": []
+    "input": ["image", "text"],
+    "output": ["text"]
   },
   "_generated": {
     "name": "50590ddf",
     "model_type": "764cb3de",
     "capabilities": "d3117eb0",
-    "modalities": "72e6ca34"
-  }
+    "modalities": "8b8b28d1",
+    "release_date": "6e08220e",
+    "page_url": "4534add9"
+  },
+  "release_date": "2023-11-29",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-multimodal-embeddings-g1"
 }

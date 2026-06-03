@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/z-image/turbo/inpaint",
-  "name": "Z-Image Turbo",
+  "name": "Z Image Turbo Inpaint",
   "created_by": "fal",
   "source": "official",
   "description": "Generate images from text, an image and a mask using Z-Image Turbo, Tongyi-MAI's super-fast 6B model.",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "a73fe98b",
+    "name": "85db7ce4",
     "description": "88bc5c8a",
     "status": "379ac110",
     "release_date": "d906fe0d",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

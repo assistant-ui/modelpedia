@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/bytedance/seed/v2/mini",
-  "name": "Bytedance Seed 2.0 Mini",
+  "name": "Bytedance Seed V2 Mini",
   "created_by": "fal",
   "source": "official",
   "description": " Seed 2.0 Mini is a high-performance multimodal model optimized for low latency and high concurrency.",
@@ -15,7 +15,7 @@
   },
   "last_seen_at": "2026-03-18",
   "_generated": {
-    "name": "5780ffc6",
+    "name": "a403d452",
     "description": "03f1f2e4",
     "status": "379ac110",
     "release_date": "56d4bd95",
@@ -25,5 +25,5 @@
     "capabilities": "da15458e",
     "last_seen_at": "e6131053"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

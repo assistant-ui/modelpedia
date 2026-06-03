@@ -3,7 +3,7 @@
   "name": "Rerank 3.5",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "rerank",
   "modalities": {
     "input": ["text"],
@@ -12,6 +12,12 @@
   "_generated": {
     "name": "b7605ee2",
     "model_type": "477930e6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "release_date": "9b08fa35",
+    "context_window": "1bd69c7d",
+    "page_url": "772bbf29"
+  },
+  "release_date": "2024-12-02",
+  "context_window": 4000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-rerank-3-5"
 }

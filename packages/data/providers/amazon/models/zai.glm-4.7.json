@@ -3,7 +3,7 @@
   "name": "GLM 4.7",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -16,7 +16,16 @@
     "name": "817910f5",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "family": "cb6bfc11",
+    "release_date": "13396b7f",
+    "context_window": "8c47d403",
+    "max_output_tokens": "1bd69c7d",
+    "page_url": "11323fce"
   },
-  "family": "glm"
+  "family": "glm",
+  "release_date": "2025-12-22",
+  "context_window": 203000,
+  "max_output_tokens": 4000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7"
 }

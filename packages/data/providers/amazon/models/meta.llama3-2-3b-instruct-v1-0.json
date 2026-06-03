@@ -3,7 +3,7 @@
   "name": "Llama 3.2 3B Instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -16,7 +16,16 @@
     "name": "ee8ce244",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "parameters": "eccbc87e",
+    "release_date": "edf1fb88",
+    "context_window": "34434798",
+    "max_output_tokens": "1bd69c7d",
+    "page_url": "ab051e07"
   },
-  "parameters": 3
+  "parameters": 3,
+  "release_date": "2024-09-25",
+  "context_window": 128000,
+  "max_output_tokens": 4000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-2-3b-instruct"
 }

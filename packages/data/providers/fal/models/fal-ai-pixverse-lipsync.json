@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/pixverse/lipsync",
-  "name": "PixVerse",
+  "name": "PixVerse Lipsync",
   "created_by": "fal",
   "source": "official",
   "description": "Generate realistic lipsync animations from audio using advanced algorithms for high-quality synchronization with PixVerse Lipsync model",
@@ -11,7 +11,7 @@
   "tagline": "Generate realistic lipsync animations from audio using advanced algorithms for high-quality synchronization with PixVerse Lipsync model",
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "c44b079b",
+    "name": "bc052e09",
     "description": "b4ca4d3e",
     "status": "379ac110",
     "release_date": "98c5c998",
@@ -20,5 +20,5 @@
     "tagline": "b4ca4d3e",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

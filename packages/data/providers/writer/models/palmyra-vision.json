@@ -3,9 +3,9 @@
   "name": "Palmyra Vision",
   "created_by": "writer",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "palmyra-vision",
-  "description": "Multimodal model for image captioning, visual QA, chart interpretation, and handwritten text extraction. Superseded by Palmyra X5 chat-with-images.",
+  "description": "Designed for processing images",
   "status": "deprecated",
   "deprecation_date": "2026-07-13",
   "successor": "palmyra-x5",
@@ -26,5 +26,25 @@
   "pricing_notes": [
     "$0.005 per image, $0.005 per second of video, $7.50 per 1M output tokens"
   ],
-  "page_url": "https://dev.writer.com/home/models"
+  "page_url": "https://dev.writer.com/home/models",
+  "tagline": "Designed for processing images",
+  "_generated": {
+    "name": "249995f0",
+    "family": "f69dcedb",
+    "description": "39230dd8",
+    "status": "2e2f74dc",
+    "deprecation_date": "a393f093",
+    "successor": "237dd4b6",
+    "model_type": "d669f408",
+    "context_window": "67ff32d4",
+    "max_output_tokens": "f7efa4f8",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "5f5c7516",
+    "modalities": "3ad4060a",
+    "endpoints": "f28b2d99",
+    "pricing_notes": "0de21dfb",
+    "page_url": "8d6fade1",
+    "tagline": "39230dd8"
+  }
 }

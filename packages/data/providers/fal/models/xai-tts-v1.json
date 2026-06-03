@@ -18,7 +18,7 @@
     "output": ["audio"]
   },
   "endpoints": ["audio_speech"],
-  "last_seen_at": "2026-04-26",
+  "last_seen_at": "2026-06-02",
   "_generated": {
     "name": "8bdfdfe5",
     "family": "4e16a2cf",
@@ -31,7 +31,7 @@
     "capabilities": "0fa77dc6",
     "modalities": "601e776d",
     "endpoints": "0d745ead",
-    "last_seen_at": "42382078"
+    "last_seen_at": "61fd683f"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

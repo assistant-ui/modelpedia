@@ -3,7 +3,7 @@
   "name": "Jamba 1.5 Mini",
   "created_by": "ai21",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -16,6 +16,14 @@
     "name": "d7b481eb",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "release_date": "7d94dd3a",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "1bd69c7d",
+    "page_url": "4646a580"
+  },
+  "release_date": "2024-08-22",
+  "context_window": 256000,
+  "max_output_tokens": 4000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-ai21-labs-jamba-1-5-mini"
 }

@@ -1,0 +1,23 @@
+{
+  "id": "mai-image-2.5-flash",
+  "name": "MAI-Image-2.5-Flash Preview",
+  "created_by": "microsoft",
+  "source": "official",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "481d43ae",
+    "capabilities": "1a260abc",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

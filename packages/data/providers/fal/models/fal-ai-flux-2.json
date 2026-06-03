@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/flux-2",
-  "name": "Flux 2",
+  "name": "FLUX 2",
   "created_by": "fal",
   "source": "official",
   "description": "Text-to-image generation with FLUX.2 [dev] from Black Forest Labs.",
@@ -18,9 +18,9 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-05-27",
   "_generated": {
-    "name": "03678038",
+    "name": "c1c76a6f",
     "description": "43408181",
     "status": "379ac110",
     "release_date": "1c217178",
@@ -30,7 +30,7 @@
     "capabilities": "8a3b232e",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "9625e2ac"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

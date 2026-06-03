@@ -3,7 +3,7 @@
   "name": "qwen3-omni-flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-06-03",
   "family": "qwen3",
   "context_window": 65536,
   "max_output_tokens": 32768,
@@ -11,10 +11,11 @@
   "capabilities": {
     "streaming": true,
     "reasoning": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text", "audio"],
+    "input": ["text"],
     "output": ["text"]
   },
   "endpoints": ["chat"],
@@ -24,18 +25,18 @@
     "context_window": "297ce0b3",
     "max_output_tokens": "f4376436",
     "model_type": "d669f408",
-    "capabilities": "034b2f91",
-    "modalities": "d65b34d6",
+    "capabilities": "3b886146",
+    "modalities": "68e53d93",
     "endpoints": "75df3f1c",
     "license": "60245731",
     "open_weight": "b326b506",
     "description": "6c26c067",
-    "page_url": "23162829",
+    "page_url": "17b7d885",
     "tagline": "9ff901a1"
   },
   "license": "apache-2.0",
   "open_weight": true,
   "description": "The Qwen-Omni model accepts multimodal inputs including text, images, audio, and video, and generates text or speech responses. It offers a variety of expressive human-like voices and supports multilingual and dialect speech output, applicable to scenarios such as visual recognition, emotion sensing, and educational training. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/asr-model",
   "tagline": "Qwen-Omni accepts multimodal inputs, such as text, images, audio, and video, and generates text or speech responses."
 }

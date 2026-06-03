@@ -1,11 +1,11 @@
 {
   "id": "jina-clip-v2",
-  "name": "Jina CLIP v2",
+  "name": "Jina Clip v2",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "jina-clip",
-  "description": "865M-parameter multimodal multilingual embedding model for text-image retrieval across 89 languages with 512x512 image resolution.",
+  "description": "Jina CLIP v2 revolutionizes multimodal AI by bridging the gap between visual and textual understanding across 89 languages. This model solves critical challenges in global e-commerce, content management, and cross-cultural communication by enabling accurate image-text matching regardless of language barriers. For businesses expanding internationally or managing multilingual content, it eliminates the need for separate models per language or complex translation pipelines. The model particularly shines in scenarios requiring precise visual search across language boundaries, such as global marketplace product discovery or multilingual digital asset management.",
   "tagline": "Multilingual CLIP-style multimodal embeddings.",
   "status": "active",
   "model_type": "embed",
@@ -21,5 +21,21 @@
   "pricing": {
     "input": 0.05
   },
-  "output_dimensions": [64, 128, 256, 512, 768, 1024]
+  "output_dimensions": [64, 128, 256, 512, 768, 1024],
+  "_generated": {
+    "name": "5d732bd9",
+    "family": "7e58cb43",
+    "description": "77a026b9",
+    "tagline": "fe89e849",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "77441296",
+    "release_date": "a9595526",
+    "license": "2c8e76b8",
+    "open_weight": "b326b506",
+    "modalities": "e20ad98b",
+    "endpoints": "5845adda",
+    "pricing": "0f2b1541",
+    "output_dimensions": "f5894554"
+  }
 }

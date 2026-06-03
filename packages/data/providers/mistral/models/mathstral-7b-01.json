@@ -1,0 +1,34 @@
+{
+  "id": "mathstral-7b-01",
+  "name": "mathstral-7b-01",
+  "created_by": "mistral",
+  "source": "official",
+  "description": "A math dedicated model for research purposes under an open license.",
+  "status": "active",
+  "context_window": 32000,
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/model-cards/mathstral-7b-0-1",
+  "tagline": "A math dedicated model for research purposes under an open license.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "facf94df",
+    "description": "dd3916cc",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "license": "60245731",
+    "page_url": "a02accfb",
+    "tagline": "dd3916cc",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-06-03"
+}

@@ -3,13 +3,13 @@
   "name": "Jina Reranker v3",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "jina-reranker",
-  "description": "0.6B-parameter multilingual document reranker on Qwen3-0.6B with last-but-not-late interaction architecture and 131K context.",
+  "description": "jina-reranker-v3 is a 0.6B parameter multilingual document reranker introducing a novel last but not late interaction architecture. Unlike ColBERT's separate encoding with multi-vector matching, this model performs causal self-attention between query and documents within the same context window, enabling rich cross-document interactions before extracting contextual embeddings from the last token of each document. Built on Qwen3-0.6B with 28 transformer layers and a lightweight MLP projector (1024→512→256), it processes up to 64 documents simultaneously within 131K token context. The model achieves state-of-the-art BEIR performance with 61.94 nDCG-10 while being 10× smaller than generative listwise rerankers.",
   "tagline": "Listwise multilingual reranker, 131K context.",
   "status": "active",
   "model_type": "rerank",
-  "context_window": 131072,
+  "context_window": 134144,
   "release_date": "2025-10-01",
   "license": "jina-ai",
   "open_weight": true,
@@ -20,5 +20,20 @@
   "endpoints": ["rerank"],
   "pricing": {
     "input": 0.05
+  },
+  "_generated": {
+    "name": "2eaec151",
+    "family": "1085b236",
+    "description": "303f9db5",
+    "tagline": "10e4e2f0",
+    "status": "379ac110",
+    "model_type": "477930e6",
+    "context_window": "47035c43",
+    "release_date": "e95fbf17",
+    "license": "0b7dd534",
+    "open_weight": "b326b506",
+    "modalities": "afb3de08",
+    "endpoints": "9a7b4962",
+    "pricing": "0f2b1541"
   }
 }

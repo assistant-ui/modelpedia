@@ -3,10 +3,10 @@
   "name": "GPT-4",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-06-03",
   "family": "gpt-4",
   "description": "GPT-4 is an older version of a high-intelligence GPT model, usable in Chat Completions.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-12",
   "context_window": 8192,
   "max_output_tokens": 8192,
@@ -63,7 +63,7 @@
     "name": "165cdf00",
     "family": "1be4bcd3",
     "description": "85cc5a0c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "06c60023",
     "context_window": "77441296",
     "max_output_tokens": "77441296",
@@ -77,9 +77,11 @@
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "page_url": "49316484",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "successor": "15249632"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4",
-  "open_weight": false
+  "open_weight": false,
+  "successor": "gpt-4o"
 }

@@ -3,9 +3,9 @@
   "name": "Mercury",
   "created_by": "inception",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "mercury",
-  "description": "First-generation diffusion LLM running 5-10x faster than speed-optimized autoregressive models like GPT-4.1 Nano and Claude 3.5 Haiku.",
+  "description": "Mercury is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like GPT-4.1 Nano and Claude 3.5 Haiku while matching their performance. Mercury's speed enables developers to provide responsive user experiences, including with voice agents, search interfaces, and chatbots.",
   "tagline": "The first diffusion large language model.",
   "status": "active",
   "model_type": "chat",
@@ -30,5 +30,23 @@
     "input": 0.25,
     "output": 0.75,
     "cached_input": 0.025
+  },
+  "_generated": {
+    "name": "f1187678",
+    "family": "428b012e",
+    "description": "32491a40",
+    "tagline": "6929d4d0",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "10e4d788",
+    "release_date": "f083d14e",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "ef09f446",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "966083ea"
   }
 }

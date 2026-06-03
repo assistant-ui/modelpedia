@@ -3,7 +3,7 @@
   "name": "Step 1o Audio",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "step-1o",
   "description": "Real-time voice interaction model. 30-minute live sessions, 70-minute max audio input.",
   "status": "active",
@@ -17,5 +17,19 @@
     "input": ["text", "audio"],
     "output": ["text", "audio"]
   },
-  "endpoints": ["realtime"]
+  "endpoints": ["realtime"],
+  "tagline": "Real-time voice interaction model.",
+  "_generated": {
+    "name": "960e3d56",
+    "family": "6ce684c8",
+    "description": "eed65b68",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "cf05925d",
+    "endpoints": "c7ed7203",
+    "tagline": "b036f6e4"
+  }
 }

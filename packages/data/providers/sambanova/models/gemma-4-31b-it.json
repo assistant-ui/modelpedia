@@ -1,0 +1,32 @@
+{
+  "id": "gemma-4-31B-it",
+  "name": "gemma-4-31B-it",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "status": "active",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.38,
+    "output": 1.15
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "4bac04e1",
+    "family": "811b6704",
+    "status": "379ac110",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "modalities": "68e53d93",
+    "pricing": "aaaae676",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

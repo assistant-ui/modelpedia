@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/elevenlabs/sound-effects/v2",
-  "name": "Elevenlabs",
+  "name": "Elevenlabs Sound Effects V2",
   "created_by": "fal",
   "source": "official",
   "description": "Generate sound effects using ElevenLabs advanced sound effects model.",
@@ -14,7 +14,7 @@
   },
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "7ea8f593",
+    "name": "0cf55667",
     "description": "890698a5",
     "status": "379ac110",
     "release_date": "5c809219",
@@ -24,5 +24,5 @@
     "capabilities": "0fa77dc6",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

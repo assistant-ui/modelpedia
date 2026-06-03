@@ -1,0 +1,24 @@
+{
+  "id": "mirelo-ai/sfx1.6/text-to-audio",
+  "name": "Mirelo SFX1.6",
+  "created_by": "mirelo-ai",
+  "source": "official",
+  "description": "Generate ambient sounds for any text prompt.",
+  "status": "active",
+  "release_date": "2026-05-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/mirelo-ai/sfx1.6/text-to-audio",
+  "tagline": "Generate ambient sounds for any text prompt.",
+  "last_seen_at": "2026-05-19",
+  "_generated": {
+    "name": "6c235a15",
+    "description": "46502a89",
+    "status": "379ac110",
+    "release_date": "7f8d7956",
+    "model_type": "ddb0b7bc",
+    "page_url": "f241b403",
+    "tagline": "46502a89",
+    "last_seen_at": "665f01a0"
+  },
+  "last_updated": "2026-06-03"
+}

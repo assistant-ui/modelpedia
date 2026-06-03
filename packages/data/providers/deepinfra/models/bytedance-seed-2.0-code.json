@@ -1,0 +1,51 @@
+{
+  "id": "ByteDance/Seed-2.0-code",
+  "name": "Seed-2.0-code",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A coding model optimized for real-world development environments, with reliable tool use in common IDEs such as Claude Code. It delivers strong front-end performance and supports Skills.",
+  "status": "active",
+  "context_window": 256000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "apache-2.0",
+  "open_weight": false,
+  "tagline": "A coding model optimized for real-world development environments, with reliable tool use in common IDEs such as Claude Code.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 3,
+    "cached_input": 0.1
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "0d80a6a7",
+    "description": "74a9c68f",
+    "status": "379ac110",
+    "context_window": "2fd324cb",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "60245731",
+    "open_weight": "68934a3e",
+    "tagline": "1bf3da5d",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "7d1b7125",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

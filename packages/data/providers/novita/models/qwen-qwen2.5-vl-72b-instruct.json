@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen2.5",
   "description": "Qwen2.5-VL, the latest vision-language model in the Qwen2.5 series, delivers enhanced multimodal capabilities including advanced visual comprehension for object/text recognition, chart/layout analysis, and agent-based dynamic tool orchestration.",
-  "status": "active",
+  "status": "preview",
   "release_date": "2025-03-25",
   "context_window": 32768,
   "max_output_tokens": 32768,
@@ -33,7 +33,7 @@
     "name": "dda16d43",
     "family": "45d84b68",
     "description": "d7d70bf7",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "aa38c35d",
     "context_window": "f4376436",
     "max_output_tokens": "f4376436",
@@ -46,5 +46,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

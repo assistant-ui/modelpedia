@@ -1,0 +1,52 @@
+{
+  "id": "google/gemini-3.1-flash-lite",
+  "name": "gemini-3.1-flash-lite",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.1",
+  "description": "Bring any idea to life with state-of-the-art reasoning to help you learn, build, and plan anything. Best for high-volume tasks that need efficiency and intelligence.",
+  "status": "active",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "gemma",
+  "open_weight": false,
+  "tagline": "Bring any idea to life with state-of-the-art reasoning to help you learn, build, and plan anything.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 1.5
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "d9e5c54d",
+    "family": "ea4a1a23",
+    "description": "7d9ddacc",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "3fe02b16",
+    "open_weight": "68934a3e",
+    "tagline": "d2a0b42b",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "f6d5b753",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "MiniMax-M2.7",
+  "name": "MiniMax-M2.7",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "status": "active",
+  "context_window": 196608,
+  "max_output_tokens": 196608,
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 2.4
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "f234fce3",
+    "family": "c85916f0",
+    "status": "379ac110",
+    "context_window": "0dd0d2bf",
+    "max_output_tokens": "0dd0d2bf",
+    "model_type": "d669f408",
+    "modalities": "68e53d93",
+    "pricing": "e9aad47c",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

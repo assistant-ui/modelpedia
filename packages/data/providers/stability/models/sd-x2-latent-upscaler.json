@@ -11,7 +11,7 @@
   "page_url": "https://huggingface.co/stabilityai/sd-x2-latent-upscaler",
   "open_weight": true,
   "tagline": "Sd X2 Latent Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "huggingface_downloads": 134230,
+  "huggingface_downloads": 136167,
   "last_modified": "2023-06-05",
   "_generated": {
     "name": "b710889b",
@@ -23,8 +23,8 @@
     "page_url": "458fd053",
     "open_weight": "b326b506",
     "tagline": "07563b02",
-    "huggingface_downloads": "db1d8137",
+    "huggingface_downloads": "d9c06f7b",
     "last_modified": "03590c01"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

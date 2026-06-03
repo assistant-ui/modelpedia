@@ -3,7 +3,7 @@
   "name": "Fibo",
   "created_by": "bria",
   "source": "official",
-  "description": "Structured Prompt Generation endpoint for Fibo, Bria's SOTA Open source model",
+  "description": "Structured Prompt Generation endpoint for Fibo, Bria's SOTA Open source model.",
   "status": "active",
   "release_date": "2025-10-29",
   "model_type": "other",
@@ -13,17 +13,17 @@
     "structured_output": true,
     "json_mode": true
   },
-  "last_seen_at": "2026-01-26",
+  "last_seen_at": "2026-05-20",
   "_generated": {
     "name": "1fec9187",
-    "description": "b3d6120d",
+    "description": "f5d84f40",
     "status": "379ac110",
     "release_date": "ea42b142",
     "model_type": "ddb0b7bc",
     "page_url": "77abe36d",
     "tagline": "b3d6120d",
     "capabilities": "dbb5b7fe",
-    "last_seen_at": "5c252aee"
+    "last_seen_at": "7a81e6e3"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

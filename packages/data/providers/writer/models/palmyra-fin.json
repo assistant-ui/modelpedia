@@ -3,9 +3,9 @@
   "name": "Palmyra Fin",
   "created_by": "writer",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "palmyra-fin",
-  "description": "Financial-domain LLM for market analysis, risk assessment, and synthesis of long financial documents. First AI model to pass the CFA Level III sample multiple-choice section.",
+  "description": "Developed specifically for the financial sector",
   "status": "deprecated",
   "deprecation_date": "2026-07-13",
   "successor": "palmyra-x5",
@@ -14,7 +14,7 @@
   "context_window": 128000,
   "max_output_tokens": 4096,
   "license": "proprietary",
-  "open_weight": true,
+  "open_weight": false,
   "capabilities": {
     "streaming": true
   },
@@ -27,5 +27,26 @@
     "input": 5,
     "output": 12
   },
-  "page_url": "https://dev.writer.com/home/models"
+  "page_url": "https://dev.writer.com/home/models",
+  "tagline": "Developed specifically for the financial sector",
+  "_generated": {
+    "name": "3e549f2b",
+    "family": "4ea995fe",
+    "description": "618cf93d",
+    "status": "2e2f74dc",
+    "deprecation_date": "a393f093",
+    "successor": "237dd4b6",
+    "release_date": "0dc61de2",
+    "model_type": "d669f408",
+    "context_window": "34434798",
+    "max_output_tokens": "f7efa4f8",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "pricing": "1c99297e",
+    "page_url": "8d6fade1",
+    "tagline": "618cf93d"
+  }
 }

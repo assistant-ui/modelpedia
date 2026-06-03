@@ -23,7 +23,7 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 1.4,
+    "input": 1.38,
     "output": 4.4
   },
   "endpoints": ["chat_completions"],
@@ -40,9 +40,9 @@
     "tagline": "7b8be372",
     "capabilities": "052b054b",
     "modalities": "68e53d93",
-    "pricing": "caa16a81",
+    "pricing": "a0309af6",
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

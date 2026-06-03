@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/lyria3/pro",
+  "name": "Lyria 3 Pro",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Lyria 3 Pro is the latest music model from Google",
+  "status": "active",
+  "release_date": "2026-05-20",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/lyria3/pro",
+  "tagline": "Lyria 3 Pro is the latest music model from Google",
+  "last_seen_at": "2026-05-26",
+  "_generated": {
+    "name": "0618d5a4",
+    "description": "ae2dc13a",
+    "status": "379ac110",
+    "release_date": "7a81e6e3",
+    "model_type": "ddb0b7bc",
+    "page_url": "4f338dca",
+    "tagline": "ae2dc13a",
+    "last_seen_at": "1fa0004f"
+  },
+  "last_updated": "2026-06-03"
+}

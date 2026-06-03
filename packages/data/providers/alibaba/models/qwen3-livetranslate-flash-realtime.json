@@ -3,11 +3,11 @@
   "name": "qwen3-livetranslate-flash-realtime",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-06-03",
   "family": "qwen3",
   "context_window": 53248,
   "max_output_tokens": 4096,
-  "model_type": "translation",
+  "model_type": "audio",
   "capabilities": {
     "streaming": true,
     "fine_tuning": true
@@ -22,19 +22,19 @@
     "family": "48c385a0",
     "context_window": "1ba75ef1",
     "max_output_tokens": "f7efa4f8",
-    "model_type": "5c212ca7",
+    "model_type": "9f84c007",
     "capabilities": "9c665f5d",
     "modalities": "68e53d93",
     "endpoints": "75df3f1c",
     "license": "60245731",
     "open_weight": "b326b506",
     "description": "e457209a",
-    "page_url": "23162829",
+    "page_url": "633e05f4",
     "tagline": "e33b7e7d"
   },
   "license": "apache-2.0",
   "open_weight": true,
   "description": "Qwen3-LiveTranslate-Flash-Realtime is a multilingual, real-time audio and video translation model. It can recognize 18 languages and translate them into audio in 10 languages in real time. **Core features:** * **Multi-language support**: Supports 18 languages, such as Chinese, English, French, German, Russian, Japanese, and Korean, and 6 Chinese dialects, including Mandarin, Cantonese, and Sichuanese. * **Visual enhancement**: Uses visual content to improve translation accuracy. The model analyzes lip movements, actions, and on-screen text to improve translation in noisy environments or for words with multiple meanings. * **Low latency**: Achieves simultaneous interpretation latency as low as 3 seconds. * **High-quality simultaneous interpretation**: Addresses cross-language word order issues using semantic unit prediction technology. The real-time translation quality is comparable to offline translation results. * **Natural voice**: Generates natural-sounding, human-like speech. The model adapts its tone and emotion based on the source speech content. [Usage](https://www.alibabacloud.com/help/en/document_detail/2983281.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2983653.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
   "tagline": "Qwen3-LiveTranslate-Flash-Realtime is a multilingual, real-time audio and video translation model."
 }

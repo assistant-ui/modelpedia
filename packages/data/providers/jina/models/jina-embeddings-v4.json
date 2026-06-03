@@ -3,9 +3,9 @@
   "name": "Jina Embeddings v4",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
-  "family": "jina-embeddings-v4",
-  "description": "3.8B-parameter multimodal embedding model on Qwen2.5-VL-3B-Instruct with single- and multi-vector retrieval. Supports 89 languages.",
+  "last_updated": "2026-06-03",
+  "family": "jina-embeddings",
+  "description": "Jina Embeddings V4 is a 3.8 billion parameter multimodal embedding model that provides unified text and image representation capabilities. Built on the Qwen2.5-VL-3B-Instruct backbone, the model features an architecture that supports both single-vector and multi-vector embeddings in the late interaction style, addressing limitations found in traditional CLIP-style dual-encoder models. The model incorporates three specialized task-specific LoRA adapters (60M parameters each) that optimize performance across different retrieval scenarios including asymmetric query-document retrieval, semantic text similarity, and code search without modifying the frozen backbone weights. The model demonstrates strong performance in processing visually rich content such as tables, charts, diagrams, screenshots, and mixed-media formats through a unified processing pathway that reduces the modality gap present in conventional architectures. Supporting multilingual capabilities, the model can handle input texts up to 32,768 tokens with images resized to 20 megapixels, making it suitable for various document retrieval and cross-modal search applications across different languages and domains.",
   "tagline": "Multimodal text and image embeddings.",
   "status": "active",
   "model_type": "embed",
@@ -24,5 +24,22 @@
   "pricing_notes": [
     "Free of charge via API under Qwen Research License (non-commercial). Commercial use requires separate license."
   ],
-  "output_dimensions": [128, 256, 512, 1024, 2048]
+  "output_dimensions": [128, 256, 512, 1024, 2048],
+  "_generated": {
+    "name": "8a1e98b3",
+    "family": "04ec6848",
+    "description": "94fb561c",
+    "tagline": "a48fa482",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "f4376436",
+    "release_date": "4ff5d4fa",
+    "license": "b5cd7f2e",
+    "open_weight": "b326b506",
+    "modalities": "e20ad98b",
+    "endpoints": "5845adda",
+    "pricing": "0f2b1541",
+    "pricing_notes": "6a2e8aa1",
+    "output_dimensions": "e52c3c4f"
+  }
 }

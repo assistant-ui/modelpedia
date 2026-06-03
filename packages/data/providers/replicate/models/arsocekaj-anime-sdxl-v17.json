@@ -1,0 +1,23 @@
+{
+  "id": "arsocekaj/anime-sdxl-v17",
+  "name": "Anime Sdxl V17",
+  "created_by": "arsocekaj",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/arsocekaj/anime-sdxl-v17",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "152b3f2c",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "f4fafaf3",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-06-03"
+}

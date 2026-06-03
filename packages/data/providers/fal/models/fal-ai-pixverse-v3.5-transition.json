@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/pixverse/v3.5/transition",
-  "name": "PixVerse v3.5: Transition",
+  "name": "PixVerse V3.5 Transition",
   "created_by": "fal",
   "source": "official",
   "description": "Create seamless transition between images using PixVerse v3.5",
@@ -19,7 +19,7 @@
   "endpoints": ["video"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "a84c94ea",
+    "name": "dee518e8",
     "description": "427471d0",
     "status": "379ac110",
     "release_date": "e34c5e92",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

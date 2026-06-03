@@ -3,12 +3,17 @@
   "name": "qwen-mt-flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-06-03",
   "family": "qwen",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "reasoning": true,
+    "tool_call": true,
+    "structured_output": true,
+    "batch": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -23,7 +28,7 @@
     "name": "1664111c",
     "family": "a3af76f3",
     "model_type": "d669f408",
-    "capabilities": "9c665f5d",
+    "capabilities": "d193b8cf",
     "modalities": "68e53d93",
     "pricing": "351cdbcb",
     "endpoints": "75df3f1c",
@@ -31,13 +36,19 @@
     "provider": "a3af76f3",
     "description": "6ddf0f91",
     "tagline": "4fbbeb44",
-    "page_url": "23162829",
-    "open_weight": "b326b506"
+    "page_url": "6ecc6f25",
+    "open_weight": "b326b506",
+    "context_window": "67510c89",
+    "reasoning_tokens": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "license": "apache-2.0",
   "provider": "qwen",
   "description": "Qwen3-MT is a flagship Large Language Model (LLM) for translation and a comprehensive upgrade of Qwen 3. It supports translation between 92 languages, including Chinese, English, Japanese, Korean, French, Spanish, German, Thai, Indonesian, Vietnamese, and Arabic. The model's performance and translation quality are significantly improved. It provides enhanced stability for terminology customization, format preservation, and domain-specific prompting, resulting in more accurate and natural translations. [Usage](https://www.alibabacloud.com/help/en/document_detail/2860790.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
   "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "open_weight": true
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+  "open_weight": true,
+  "context_window": 16000,
+  "reasoning_tokens": true,
+  "tools": ["function_calling"]
 }

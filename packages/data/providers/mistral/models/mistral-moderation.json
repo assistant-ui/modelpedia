@@ -3,7 +3,7 @@
   "name": "mistral-moderation",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-06-03",
   "status": "deprecated",
   "context_window": 8000,
   "capabilities": {
@@ -27,19 +27,17 @@
     "model_type": "1e7a7b87",
     "family": "cdc0334b",
     "license": "60245731",
-    "page_url": "68432169",
+    "page_url": "a88bf67b",
     "open_weight": "b326b506",
     "description": "d5f3c49f",
     "tagline": "a47183ef",
-    "tools": "f0c1dc7e",
-    "deprecation_date": "3c0c39b4"
+    "tools": "f0c1dc7e"
   },
   "family": "mistral-moderation",
   "license": "apache-2.0",
-  "page_url": "https://docs.mistral.ai/models/mistral-moderation-24-11",
+  "page_url": "https://docs.mistral.ai/models/model-cards/mistral-moderation-24-11",
   "open_weight": true,
   "description": "Our latest moderation model with 128k context window and jailbreaking detection. Strong performance on complex multilingual data including long multi-turn conversations.",
   "tagline": "Our latest moderation model with 128k context window and jailbreaking detection, based on Ministral 3B.",
-  "tools": ["function_calling"],
-  "deprecation_date": "2026-03-31"
+  "tools": ["function_calling"]
 }

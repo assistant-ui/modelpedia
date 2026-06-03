@@ -3,7 +3,7 @@
   "name": "qwen-image-2.0-pro",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-06-03",
   "family": "qwen",
   "model_type": "chat",
   "capabilities": {
@@ -26,12 +26,14 @@
     "license": "60245731",
     "open_weight": "b326b506",
     "description": "52ce1642",
-    "page_url": "23162829",
-    "tagline": "c3dd529c"
+    "page_url": "ec35b380",
+    "tagline": "c3dd529c",
+    "max_output_tokens": "1679091c"
   },
   "license": "apache-2.0",
   "open_weight": true,
   "description": "The Qwen text-to-image model excels at **complex text rendering** , especially for Chinese and English text. [API reference](https://www.alibabacloud.com/help/en/document_detail/2975126.html) ## International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "tagline": "Qwen text-to-image models excel at rendering complex text, especially bilingual Chinese-English text."
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+  "tagline": "Qwen text-to-image models excel at rendering complex text, especially bilingual Chinese-English text.",
+  "max_output_tokens": 6
 }

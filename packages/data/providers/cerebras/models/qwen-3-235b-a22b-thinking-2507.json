@@ -3,12 +3,12 @@
   "name": "qwen-3-235b-a22b-thinking-2507",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-03",
   "family": "qwen",
   "status": "deprecated",
   "deprecation_date": "2025-11-14",
   "model_type": "chat",
-  "successor": "GPT OSS 120B",
+  "successor": "gpt-oss-120b",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -19,7 +19,7 @@
     "status": "2e2f74dc",
     "deprecation_date": "f42724e5",
     "model_type": "d669f408",
-    "successor": "7beed575",
+    "successor": "e8458743",
     "modalities": "68e53d93",
     "parameters": "577ef115",
     "active_parameters": "b6d767d2",

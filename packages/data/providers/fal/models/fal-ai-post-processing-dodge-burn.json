@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/post-processing/dodge-burn",
-  "name": "Post Processing",
+  "name": "Post Processing Dodge Burn",
   "created_by": "fal",
   "source": "official",
   "description": "Apply dodge and burn effects with multiple modes and adjustable intensity.",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "208a7416",
+    "name": "9890bc56",
     "description": "f743db40",
     "status": "379ac110",
     "release_date": "7a7b6168",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

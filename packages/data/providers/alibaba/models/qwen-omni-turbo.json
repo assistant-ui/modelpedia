@@ -1,0 +1,41 @@
+{
+  "id": "qwen-omni-turbo",
+  "name": "qwen-omni-turbo",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen",
+  "context_window": 32000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true,
+    "tool_call": true,
+    "structured_output": true,
+    "batch": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b9d28cdc",
+    "family": "a3af76f3",
+    "context_window": "10e4d788",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "page_url": "6ecc6f25",
+    "capabilities": "d1fd6f1a",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

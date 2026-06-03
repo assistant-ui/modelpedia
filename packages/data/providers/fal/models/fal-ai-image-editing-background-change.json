@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/image-editing/background-change",
-  "name": "Image Editing",
+  "name": "Image Editing Background Change",
   "created_by": "fal",
   "source": "official",
   "description": "Replace your photo's background with any scene you desire, from beach sunsets to urban landscapes, with perfect lighting and shadows",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "2f4a63e0",
+    "name": "a5406b2d",
     "description": "1c38106b",
     "status": "379ac110",
     "release_date": "b2e64734",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

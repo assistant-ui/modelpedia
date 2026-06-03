@@ -1,0 +1,29 @@
+{
+  "id": "Pixverse/Pixverse-6-I2V",
+  "name": "Pixverse-6-I2V",
+  "created_by": "pixverse",
+  "source": "official",
+  "description": "PixVerse V6 redefines AI video by shifting from isolated generation to a unified, model-driven workflow. Key upgrades include 15-second durations at 1080p resolution and a multi-shot engine. This transition allows creators to move beyond short clips toward meaningful narrative production and professional-grade marketing assets suitable for 2026 digital distribution standards.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "tagline": "PixVerse V6 redefines AI video by shifting from isolated generation to a unified, model-driven workflow.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["$0.045 / second"],
+  "_generated": {
+    "name": "057fbc4f",
+    "description": "92bc4fdd",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "tagline": "9265728b",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "71083d56"
+  },
+  "last_updated": "2026-06-03"
+}

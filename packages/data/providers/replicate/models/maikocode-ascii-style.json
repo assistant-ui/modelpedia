@@ -1,0 +1,27 @@
+{
+  "id": "maikocode/ascii-style",
+  "name": "Ascii Style",
+  "created_by": "maikocode",
+  "source": "official",
+  "status": "active",
+  "model_type": "code",
+  "page_url": "https://replicate.com/maikocode/ascii-style",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "24c54acf",
+    "status": "379ac110",
+    "model_type": "b6cc3ff4",
+    "page_url": "96341aae",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

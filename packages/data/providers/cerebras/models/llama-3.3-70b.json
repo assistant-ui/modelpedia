@@ -3,12 +3,12 @@
   "name": "llama-3.3-70b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-03",
   "family": "llama-3.3",
   "status": "deprecated",
   "deprecation_date": "2026-02-16",
   "model_type": "chat",
-  "successor": "GPT OSS 120B",
+  "successor": "gpt-oss-120b",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -19,7 +19,7 @@
     "status": "2e2f74dc",
     "deprecation_date": "6c624983",
     "model_type": "d669f408",
-    "successor": "7beed575",
+    "successor": "e8458743",
     "modalities": "68e53d93",
     "parameters": "7cbbc409",
     "open_weight": "b326b506"

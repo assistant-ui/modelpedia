@@ -1,0 +1,44 @@
+{
+  "id": "openchat/openchat-7b",
+  "name": "OpenChat 7B",
+  "created_by": "openchat",
+  "source": "official",
+  "description": "OpenChat 7B is a library of open-source language models, fine-tuned with \"C-RLFT (Conditioned Reinforcement Learning Fine-Tuning)\" - a strategy inspired by offline reinforcement learning.",
+  "status": "preview",
+  "release_date": "2024-07-26",
+  "context_window": 4096,
+  "max_output_tokens": 4096,
+  "model_type": "chat",
+  "parameters": 7,
+  "tagline": "OpenChat 7B is a library of open-source language models, fine-tuned with \"C-RLFT (Conditioned Reinforcement Learning Fine-Tuning)\" - a strategy inspired by offline reinforcement learning.",
+  "capabilities": {
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0.06
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "466acd26",
+    "description": "c370fa4d",
+    "status": "127aecde",
+    "release_date": "210e5c76",
+    "context_window": "f7efa4f8",
+    "max_output_tokens": "f7efa4f8",
+    "model_type": "d669f408",
+    "parameters": "8f14e45f",
+    "tagline": "c370fa4d",
+    "capabilities": "6c099667",
+    "modalities": "68e53d93",
+    "pricing": "15a2ea5b",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

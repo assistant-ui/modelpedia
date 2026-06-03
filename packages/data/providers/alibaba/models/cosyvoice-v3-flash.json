@@ -1,0 +1,27 @@
+{
+  "id": "cosyvoice-v3-flash",
+  "name": "cosyvoice-v3-flash",
+  "created_by": "qwen",
+  "source": "official",
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/tts-model",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "6575f867",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "da2101f3",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-06-03"
+}

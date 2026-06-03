@@ -1,11 +1,11 @@
 {
   "id": "jina-embeddings-v2-base-en",
-  "name": "Jina Embeddings v2 Base English",
+  "name": "Jina Embeddings v2 Base EN",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
-  "family": "jina-embeddings-v2",
-  "description": "English text embedding model with 8K context length and 0.27GB footprint.",
+  "last_updated": "2026-06-03",
+  "family": "jina-embeddings",
+  "description": "Jina Embeddings v2 Base English is a groundbreaking open-source text embedding model that solves the critical challenge of processing long documents while maintaining high accuracy. Organizations struggling with analyzing extensive legal documents, research papers, or financial reports will find this model particularly valuable. It stands out by handling documents up to 8,192 tokens in length—16 times longer than traditional models—while matching the performance of OpenAI's proprietary solutions. With a compact size of 0.27GB and efficient resource usage, it offers an accessible solution for teams seeking to implement advanced document analysis without excessive computational overhead.",
   "tagline": "Long-context English embeddings.",
   "status": "active",
   "model_type": "embed",
@@ -21,5 +21,21 @@
   "pricing": {
     "input": 0.05
   },
-  "output_dimensions": [768]
+  "output_dimensions": [768],
+  "_generated": {
+    "name": "4ae4c93a",
+    "family": "04ec6848",
+    "description": "33146cd0",
+    "tagline": "2bbc3822",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "77441296",
+    "release_date": "e7fa48bd",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "modalities": "afb3de08",
+    "endpoints": "5845adda",
+    "pricing": "0f2b1541",
+    "output_dimensions": "437516b7"
+  }
 }

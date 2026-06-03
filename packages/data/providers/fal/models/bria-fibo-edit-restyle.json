@@ -3,7 +3,7 @@
   "name": "Fibo Edit [Restyle]",
   "created_by": "bria",
   "source": "official",
-  "description": "Transforms images into distinct artistic styles using curated, production-grade style mappings",
+  "description": "Production-grade style transfer that maps photos to distinct artistic styles using curated, brand-safe presets.",
   "status": "active",
   "release_date": "2026-01-20",
   "model_type": "image",
@@ -19,10 +19,10 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-01-26",
+  "last_seen_at": "2026-05-20",
   "_generated": {
     "name": "3d2fdb54",
-    "description": "966f0420",
+    "description": "379bdc36",
     "status": "379ac110",
     "release_date": "76120ca1",
     "model_type": "db8857fe",
@@ -31,7 +31,7 @@
     "capabilities": "42538baa",
     "modalities": "bbf9b8bb",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "5c252aee"
+    "last_seen_at": "7a81e6e3"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

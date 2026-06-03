@@ -1,0 +1,16 @@
+{
+  "id": "krea/krea-2-medium",
+  "name": "Krea 2 Medium",
+  "created_by": "krea",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/krea/krea-2-medium",
+  "_generated": {
+    "name": "02c80bc5",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "b6a36597"
+  },
+  "last_updated": "2026-06-03"
+}

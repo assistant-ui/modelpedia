@@ -3,7 +3,7 @@
   "name": "Llama 3.1 8B",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-05-29",
+  "last_updated": "2026-06-03",
   "context_window": 32000,
   "max_output_tokens": 8000,
   "capabilities": {
@@ -38,7 +38,7 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "deprecation_date": "9625e2ac",
-    "successor": "7beed575"
+    "successor": "e8458743"
   },
   "status": "deprecated",
   "model_type": "chat",
@@ -51,5 +51,5 @@
   "open_weight": true,
   "tools": ["function_calling"],
   "deprecation_date": "2026-05-27",
-  "successor": "GPT OSS 120B"
+  "successor": "gpt-oss-120b"
 }

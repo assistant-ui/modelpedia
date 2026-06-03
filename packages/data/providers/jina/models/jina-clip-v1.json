@@ -1,11 +1,11 @@
 {
   "id": "jina-clip-v1",
-  "name": "Jina CLIP v1",
+  "name": "Jina Clip v1",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "jina-clip",
-  "description": "223M-parameter English multimodal embedding model excelling in both text-text and text-image retrieval.",
+  "description": "Jina CLIP v1 revolutionizes multimodal AI by being the first model to excel equally in both text-to-text and text-to-image retrieval tasks. Unlike traditional CLIP models that struggle with text-only scenarios, this model achieves state-of-the-art performance across all retrieval combinations while maintaining a remarkably compact 223M parameter size. The model addresses a critical industry challenge by eliminating the need for separate models for text and image processing, reducing system complexity and computational overhead. For teams building search systems, recommendation engines, or content analysis tools, Jina CLIP v1 offers a single, efficient solution that handles both text and visual content with exceptional accuracy.",
   "tagline": "First-generation CLIP-style embeddings.",
   "status": "active",
   "model_type": "embed",
@@ -21,5 +21,21 @@
   "pricing": {
     "input": 0.05
   },
-  "output_dimensions": [768]
+  "output_dimensions": [768],
+  "_generated": {
+    "name": "5d15f001",
+    "family": "7e58cb43",
+    "description": "7cd09cc2",
+    "tagline": "eed055f1",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "77441296",
+    "release_date": "c220ed7e",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "modalities": "e20ad98b",
+    "endpoints": "5845adda",
+    "pricing": "0f2b1541",
+    "output_dimensions": "437516b7"
+  }
 }

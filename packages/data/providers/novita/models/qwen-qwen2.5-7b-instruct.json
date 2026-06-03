@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen2.5",
   "description": "Qwen2.5 is the latest series of Qwen large language models.",
-  "status": "active",
+  "status": "preview",
   "release_date": "2025-04-16",
   "context_window": 32000,
   "max_output_tokens": 8192,
@@ -32,7 +32,7 @@
     "name": "cc86bbd6",
     "family": "45d84b68",
     "description": "38907f0e",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "67604092",
     "context_window": "10e4d788",
     "max_output_tokens": "77441296",
@@ -45,5 +45,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

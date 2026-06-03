@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/heygen/avatar5/digital-twin",
+  "name": "Heygen v5 Digital Twin",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Create natural HeyGen Avatar V digital twin videos from text or audio, with lip-sync, optional backgrounds, captions, and MP4/WebM output.",
+  "status": "active",
+  "release_date": "2026-05-17",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/heygen/avatar5/digital-twin",
+  "tagline": "Create natural HeyGen Avatar V digital twin videos from text or audio, with lip-sync, optional backgrounds, captions, and MP4/WebM output.",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-05-20",
+  "_generated": {
+    "name": "0610dfa2",
+    "description": "7fee583d",
+    "status": "379ac110",
+    "release_date": "7bf73c4b",
+    "model_type": "4d1b75ca",
+    "page_url": "95081e6d",
+    "tagline": "7fee583d",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "7a81e6e3"
+  },
+  "last_updated": "2026-06-03"
+}

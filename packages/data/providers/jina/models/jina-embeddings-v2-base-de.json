@@ -1,11 +1,11 @@
 {
   "id": "jina-embeddings-v2-base-de",
-  "name": "Jina Embeddings v2 Base German",
+  "name": "Jina Embeddings v2 Base DE",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
-  "family": "jina-embeddings-v2",
-  "description": "Bilingual German-English embedding model with 8K context length.",
+  "last_updated": "2026-06-03",
+  "family": "jina-embeddings",
+  "description": "Jina Embeddings v2 Base German addresses a critical challenge in international business: bridging the language gap between German and English markets. For German companies expanding into English-speaking territories, where a third of businesses generate over 20% of their global sales, accurate bilingual understanding is essential. This model transforms how organizations handle cross-language content by enabling seamless text understanding and retrieval in both German and English, making it invaluable for companies implementing international documentation systems, customer support platforms, or content management solutions. Unlike traditional translation-based approaches, this model directly maps equivalent meanings in both languages to the same embedding space, enabling more accurate and efficient bilingual operations.",
   "tagline": "German-English bilingual embeddings.",
   "status": "active",
   "model_type": "embed",
@@ -21,5 +21,21 @@
   "pricing": {
     "input": 0.05
   },
-  "output_dimensions": [768]
+  "output_dimensions": [768],
+  "_generated": {
+    "name": "822026ff",
+    "family": "04ec6848",
+    "description": "1ed4fa52",
+    "tagline": "d8c23df1",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "77441296",
+    "release_date": "d5143508",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "modalities": "afb3de08",
+    "endpoints": "5845adda",
+    "pricing": "0f2b1541",
+    "output_dimensions": "437516b7"
+  }
 }

@@ -1,0 +1,39 @@
+{
+  "id": "leanstral-2603",
+  "name": "leanstral-2603",
+  "created_by": "mistral",
+  "source": "official",
+  "description": "Our first open-source code agent designed for Lean 4, built for formal proof engineering in realistic repositories. 119B parameters with 6.5B active.",
+  "status": "active",
+  "context_window": 256000,
+  "license": "apache-2.0",
+  "alias": "leanstral",
+  "page_url": "https://docs.mistral.ai/models/model-cards/leanstral-26-03",
+  "tagline": "Our first open-source code agent designed for Lean 4, built for formal proof engineering in realistic repositories.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b0800eb4",
+    "description": "92b03c49",
+    "status": "379ac110",
+    "context_window": "2fd324cb",
+    "license": "60245731",
+    "page_url": "3671027a",
+    "tagline": "319599fe",
+    "capabilities": "4e827c07",
+    "modalities": "6399757e",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

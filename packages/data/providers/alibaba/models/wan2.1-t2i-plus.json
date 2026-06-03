@@ -1,0 +1,29 @@
+{
+  "id": "wan2.1-t2i-plus",
+  "name": "wan2.1-t2i-plus",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "wan2.1",
+  "model_type": "image",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "d460ff68",
+    "family": "3663b84b",
+    "model_type": "db8857fe",
+    "license": "9186c466",
+    "page_url": "ec35b380",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-06-03"
+}

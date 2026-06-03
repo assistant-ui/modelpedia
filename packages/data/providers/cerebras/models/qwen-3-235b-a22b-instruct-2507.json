@@ -3,7 +3,7 @@
   "name": "Qwen 3 235B Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-05-29",
+  "last_updated": "2026-06-03",
   "family": "qwen",
   "context_window": 131000,
   "max_output_tokens": 40000,
@@ -43,7 +43,7 @@
     "tools": "f0c1dc7e",
     "deprecation_date": "9625e2ac",
     "active_parameters": "b6d767d2",
-    "successor": "7beed575"
+    "successor": "e8458743"
   },
   "model_type": "chat",
   "status": "deprecated",
@@ -57,5 +57,5 @@
   "tools": ["function_calling"],
   "deprecation_date": "2026-05-27",
   "active_parameters": 22,
-  "successor": "GPT OSS 120B"
+  "successor": "gpt-oss-120b"
 }

@@ -1,0 +1,36 @@
+{
+  "id": "google/gemini-3-pro-image",
+  "name": "gemini-3-pro-image",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3",
+  "description": "Nano Banana Pro (Gemini 3 Pro Image) is designed to tackle the most challenging image generation by incorporating state-of-the-art reasoning capabilities. It is the best model for complex and multi-turn image generation and editing.",
+  "status": "active",
+  "model_type": "image",
+  "license": "gemma",
+  "open_weight": false,
+  "tagline": "Nano Banana Pro (Gemini 3 Pro Image) is designed to tackle the most challenging image generation by incorporating state-of-the-art reasoning capabilities.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "1f41d2e6",
+    "family": "eb14e598",
+    "description": "22803185",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "license": "3fe02b16",
+    "open_weight": "68934a3e",
+    "tagline": "5d5c9d74",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-06-03"
+}

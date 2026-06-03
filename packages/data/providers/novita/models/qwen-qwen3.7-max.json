@@ -1,0 +1,48 @@
+{
+  "id": "qwen/qwen3.7-max",
+  "name": "Qwen3.7-Max",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3.7",
+  "description": "The Qwen3.7 Max model—the largest and most powerful in the series—is currently available for users to try out its text-only features.",
+  "status": "active",
+  "release_date": "2026-05-21",
+  "context_window": 1000000,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "The Qwen3.7 Max model—the largest and most powerful in the series—is currently available for users to try out its text-only features.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 3.75
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "3fb8f7e1",
+    "family": "d71bf7f7",
+    "description": "cced4ba1",
+    "status": "379ac110",
+    "release_date": "0ad37620",
+    "context_window": "8155bc54",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "cced4ba1",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "7701f997",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

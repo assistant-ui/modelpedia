@@ -3,21 +3,30 @@
   "name": "Gemma 3 27B PT",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
     "vision": true
   },
   "modalities": {
-    "input": [],
+    "input": ["image", "text"],
     "output": ["text"]
   },
   "_generated": {
     "name": "cda563a5",
     "model_type": "d669f408",
     "capabilities": "8a3b232e",
-    "modalities": "ce37f4ca"
+    "modalities": "8b8b28d1",
+    "parameters": "02e74f10",
+    "release_date": "826a3ce0",
+    "context_window": "34434798",
+    "max_output_tokens": "67ff32d4",
+    "page_url": "6ecff185"
   },
-  "parameters": 27
+  "parameters": 27,
+  "release_date": "2025-03-12",
+  "context_window": 128000,
+  "max_output_tokens": 8000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-3-27b-pt"
 }

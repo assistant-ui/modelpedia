@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/ai-avatar/multi-text",
-  "name": "Ai Avatar",
+  "name": "AI Avatar Multi Text",
   "created_by": "fal",
   "source": "official",
   "description": "MultiTalk model generates a multi-person conversation video from an image and text inputs.",
@@ -19,7 +19,7 @@
   "endpoints": ["video"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "0a42a4f6",
+    "name": "e67c831a",
     "description": "aae63c13",
     "status": "379ac110",
     "release_date": "b3f1b1d4",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

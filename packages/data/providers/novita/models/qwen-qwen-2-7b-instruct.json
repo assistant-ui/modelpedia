@@ -1,0 +1,45 @@
+{
+  "id": "qwen/qwen-2-7b-instruct",
+  "name": "Qwen 2 7B Instruct",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen",
+  "description": "Qwen2 is the newest series in the Qwen large language model family.",
+  "status": "preview",
+  "release_date": "2024-09-18",
+  "context_window": 32768,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "parameters": 7,
+  "tagline": "Qwen2 is the newest series in the Qwen large language model family.",
+  "capabilities": {
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.054,
+    "output": 0.054
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "3ca28bef",
+    "family": "a3af76f3",
+    "description": "118472a5",
+    "status": "127aecde",
+    "release_date": "80d14872",
+    "context_window": "f4376436",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "parameters": "8f14e45f",
+    "tagline": "118472a5",
+    "capabilities": "23219150",
+    "modalities": "68e53d93",
+    "pricing": "cd319df0",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

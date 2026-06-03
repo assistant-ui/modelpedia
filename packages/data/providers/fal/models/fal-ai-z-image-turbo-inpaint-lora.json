@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/z-image/turbo/inpaint/lora",
-  "name": "Z-Image Turbo",
+  "name": "Z Image Turbo Inpaint Lora",
   "created_by": "fal",
   "source": "official",
   "description": "Generate images from text, an image, a mask and custom LoRA using Z-Image Turbo, Tongyi-MAI's super-fast 6B model.",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-26",
   "_generated": {
-    "name": "a73fe98b",
+    "name": "8b183d62",
     "description": "ff7b389c",
     "status": "379ac110",
     "release_date": "d906fe0d",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "42382078"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

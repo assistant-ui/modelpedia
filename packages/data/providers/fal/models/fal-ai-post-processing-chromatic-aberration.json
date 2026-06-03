@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/post-processing/chromatic-aberration",
-  "name": "Post Processing",
+  "name": "Post Processing Chromatic Aberration",
   "created_by": "fal",
   "source": "official",
   "description": "Create chromatic aberration by shifting red, green, and blue channels horizontally or vertically with customizable shift amounts.",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "208a7416",
+    "name": "74f6095f",
     "description": "6059a40f",
     "status": "379ac110",
     "release_date": "7a7b6168",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

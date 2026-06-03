@@ -3,7 +3,7 @@
   "name": "Llama 3.1 405B Instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -16,7 +16,16 @@
     "name": "7fe955ba",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "parameters": "bbcbff5c",
+    "release_date": "7be3efeb",
+    "context_window": "34434798",
+    "max_output_tokens": "1bd69c7d",
+    "page_url": "0ca7f43c"
   },
-  "parameters": 405
+  "parameters": 405,
+  "release_date": "2024-07-23",
+  "context_window": 128000,
+  "max_output_tokens": 4000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-1-405b-instruct"
 }

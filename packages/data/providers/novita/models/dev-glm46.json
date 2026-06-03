@@ -1,0 +1,38 @@
+{
+  "id": "dev/glm46",
+  "name": "dev/glm46",
+  "created_by": "dev",
+  "source": "official",
+  "family": "glm",
+  "status": "active",
+  "release_date": "2025-11-20",
+  "context_window": 256000,
+  "max_output_tokens": 256000,
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "702d8409",
+    "family": "cb6bfc11",
+    "status": "379ac110",
+    "release_date": "38dc8373",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "2fd324cb",
+    "model_type": "d669f408",
+    "capabilities": "05593506",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

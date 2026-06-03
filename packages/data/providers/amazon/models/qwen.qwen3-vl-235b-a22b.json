@@ -3,7 +3,7 @@
   "name": "Qwen3 VL 235B A22B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "family": "qwen.",
   "model_type": "chat",
   "capabilities": {
@@ -11,7 +11,7 @@
     "vision": true
   },
   "modalities": {
-    "input": [],
+    "input": ["image", "text"],
     "output": ["text"]
   },
   "_generated": {
@@ -19,8 +19,18 @@
     "family": "4f268b83",
     "model_type": "d669f408",
     "capabilities": "8a3b232e",
-    "modalities": "ce37f4ca"
+    "modalities": "8b8b28d1",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "release_date": "142ddad6",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "67ff32d4",
+    "page_url": "a9a8b16b"
   },
   "parameters": 235,
-  "active_parameters": 22
+  "active_parameters": 22,
+  "release_date": "2025-09-23",
+  "context_window": 256000,
+  "max_output_tokens": 8000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-vl-235b-a22b"
 }

@@ -24,8 +24,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.95,
-    "output": 4
+    "input": 0.8,
+    "output": 3.4
   },
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
@@ -41,9 +41,9 @@
     "tagline": "1a7b822f",
     "capabilities": "04ba30b2",
     "modalities": "6399757e",
-    "pricing": "f2c3ebbf",
+    "pricing": "757e8d48",
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

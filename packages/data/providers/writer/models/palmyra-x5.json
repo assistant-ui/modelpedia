@@ -3,9 +3,9 @@
   "name": "Palmyra X5",
   "created_by": "writer",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "palmyra-x",
-  "description": "Writer's flagship adaptive reasoning model with a 1M-token context window, sub-second tool calling, and image input. Replaces specialized Palmyra variants for general-purpose, financial, medical, and creative use cases.",
+  "description": "Our latest and most advanced model",
   "tagline": "1M-token enterprise LLM with adaptive reasoning.",
   "status": "active",
   "model_type": "chat",
@@ -32,5 +32,25 @@
     "output": 6
   },
   "page_url": "https://dev.writer.com/home/models",
-  "bedrock_id": "writer.palmyra-x5-v1:0"
+  "bedrock_id": "writer.palmyra-x5-v1:0",
+  "_generated": {
+    "name": "d2b52a3d",
+    "family": "6862314b",
+    "description": "a905cd82",
+    "tagline": "e29c86c4",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "8155bc54",
+    "max_output_tokens": "77441296",
+    "release_date": "1487959c",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "377f5126",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "pricing": "c1853e31",
+    "page_url": "8d6fade1",
+    "bedrock_id": "a3e4329f"
+  }
 }

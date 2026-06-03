@@ -3,7 +3,7 @@
   "name": "qwen3-livetranslate-flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-06-03",
   "family": "qwen3",
   "context_window": 53248,
   "max_output_tokens": 4096,
@@ -29,12 +29,12 @@
     "license": "60245731",
     "open_weight": "b326b506",
     "description": "0a908cde",
-    "page_url": "23162829",
+    "page_url": "633e05f4",
     "tagline": "5534df78"
   },
   "license": "apache-2.0",
   "open_weight": true,
   "description": "Qwen3-LiveTranslate-Flash is an audio and video translation model based on the Qwen3-Omni architecture. It supports translation between 18 languages, including Chinese, English, Russian, and French. The model can use visual context to improve translation accuracy and outputs both text and speech. [Usage](https://www.alibabacloud.com/help/en/document_detail/2999748.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2999751.html) #### **International** If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
   "tagline": "Qwen3-LiveTranslate-Flash is an audio and video translation model based on the Qwen3-Omni architecture."
 }

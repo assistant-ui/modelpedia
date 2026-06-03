@@ -3,9 +3,9 @@
   "name": "Mercury Edit 2",
   "created_by": "inception",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "mercury",
-  "description": "Compact diffusion LLM optimized for code editing, fill-in-the-middle, apply-edit, and next-edit suggestions.",
+  "description": "Mercury Edit 2 is a diffusion large language model (dLLM) for code editing. Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like Claude 3.5 Haiku and GPT-4o Mini while matching their performance.",
   "tagline": "Code-editing dLLM for latency-sensitive workflows.",
   "status": "active",
   "model_type": "code",
@@ -26,5 +26,22 @@
     "input": 0.25,
     "output": 0.75,
     "cached_input": 0.025
+  },
+  "_generated": {
+    "name": "18632c3e",
+    "family": "428b012e",
+    "description": "443f8756",
+    "tagline": "f7ff1c24",
+    "status": "379ac110",
+    "model_type": "b6cc3ff4",
+    "context_window": "34434798",
+    "max_output_tokens": "10e4d788",
+    "release_date": "a87679d0",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "753b5ff9",
+    "pricing": "966083ea"
   }
 }

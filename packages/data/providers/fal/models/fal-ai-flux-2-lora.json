@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/flux-2/lora",
-  "name": "Flux 2",
+  "name": "FLUX 2 Lora",
   "created_by": "fal",
   "source": "official",
   "description": "Text-to-image generation with LoRA support for FLUX.2 [dev] from Black Forest Labs.",
@@ -20,7 +20,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "03678038",
+    "name": "f7050f53",
     "description": "71ffac7d",
     "status": "379ac110",
     "release_date": "1c217178",
@@ -32,5 +32,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

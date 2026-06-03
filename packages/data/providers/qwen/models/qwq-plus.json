@@ -3,15 +3,19 @@
   "name": "qwq-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-06-03",
   "family": "qwq",
-  "context_window": 131072,
+  "context_window": 128000,
   "max_output_tokens": 32768,
   "model_type": "reasoning",
   "capabilities": {
     "streaming": true,
     "reasoning": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "tool_call": true,
+    "structured_output": true,
+    "batch": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -21,28 +25,32 @@
   "_generated": {
     "name": "50ee561a",
     "family": "3a976110",
-    "context_window": "f7de594e",
+    "context_window": "34434798",
     "max_output_tokens": "f4376436",
     "model_type": "17475f7f",
-    "capabilities": "034b2f91",
+    "capabilities": "04088920",
     "modalities": "68e53d93",
     "endpoints": "75df3f1c",
     "license": "60245731",
     "provider": "a3af76f3",
     "description": "11a169c1",
     "tagline": "0ad205d1",
-    "page_url": "23162829",
+    "page_url": "6ecc6f25",
     "open_weight": "b326b506",
-    "pricing": "9c3ad645"
+    "pricing": "9c3ad645",
+    "reasoning_tokens": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "license": "apache-2.0",
   "provider": "qwen",
   "description": "The QwQ reasoning model, trained on the Qwen2.5 model, uses reinforcement learning to significantly improve its model inference capabilities. The model's core metrics for math and code (AIME 24/25, LiveCodeBench) and general metrics (IFEval, LiveBench) are on par with the full-performance version of DeepSeek-R1. [Usage](https://www.alibabacloud.com/help/en/document_detail/2870973.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
   "tagline": "QwQ is a reasoning model trained on the Qwen2.5 base and significantly enhanced through reinforcement learning.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
   "open_weight": true,
   "pricing": {
     "input": 0.8,
     "output": 2.4
-  }
+  },
+  "reasoning_tokens": true,
+  "tools": ["function_calling"]
 }

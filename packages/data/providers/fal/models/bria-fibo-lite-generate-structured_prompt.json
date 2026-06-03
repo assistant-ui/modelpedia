@@ -3,7 +3,7 @@
   "name": "Fibo Lite",
   "created_by": "bria",
   "source": "official",
-  "description": "Structured Prompt Generation endpoint for Fibo-Lite, Bria's SOTA Open source model",
+  "description": "Convert plain text into Fibo-Lite's transparent JSON-structured prompts - Bria's unique controllability layer that no closed model offers.",
   "status": "active",
   "release_date": "2026-01-19",
   "model_type": "other",
@@ -13,17 +13,17 @@
     "structured_output": true,
     "json_mode": true
   },
-  "last_seen_at": "2026-01-26",
+  "last_seen_at": "2026-05-20",
   "_generated": {
     "name": "090f31c1",
-    "description": "792dc2b8",
+    "description": "e2a3fd17",
     "status": "379ac110",
     "release_date": "aaadbdbb",
     "model_type": "ddb0b7bc",
     "page_url": "fb769e59",
     "tagline": "792dc2b8",
     "capabilities": "dbb5b7fe",
-    "last_seen_at": "5c252aee"
+    "last_seen_at": "7a81e6e3"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

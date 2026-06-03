@@ -3,19 +3,28 @@
   "name": "qwen-omni-turbo-realtime",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-06-03",
   "family": "qwen",
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "vision": true
   },
   "provider": "qwen",
   "_generated": {
     "name": "e348a978",
     "family": "a3af76f3",
-    "capabilities": "48995a4e",
-    "model_type": "d669f408"
+    "capabilities": "1a260abc",
+    "provider": "a3af76f3",
+    "model_type": "9f84c007",
+    "license": "9186c466",
+    "page_url": "633e05f4",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e"
   },
-  "model_type": "chat",
-  "license": "proprietary"
+  "model_type": "audio",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
+  "open_weight": false,
+  "tools": ["function_calling"]
 }

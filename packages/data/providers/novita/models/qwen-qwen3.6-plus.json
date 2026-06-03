@@ -1,0 +1,44 @@
+{
+  "id": "qwen/qwen3.6-plus",
+  "name": "Qwen3.6-Plus",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3.6",
+  "description": "The Qwen3.6 native vision-language Plus series models demonstrate exceptional performance on par with the current state-of-the-art models, with a significant improvement in overall results compared to the 3.5 series.",
+  "status": "active",
+  "release_date": "2026-04-21",
+  "context_window": 1000000,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "The Qwen3.6 native vision-language Plus series models demonstrate exceptional performance on par with the current state-of-the-art models, with a significant improvement in overall results compared to",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "145af090",
+    "family": "1bc2d26f",
+    "description": "43bb6121",
+    "status": "379ac110",
+    "release_date": "5029e96d",
+    "context_window": "8155bc54",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "15ce8067",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

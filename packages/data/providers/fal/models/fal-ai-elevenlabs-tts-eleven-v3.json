@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/elevenlabs/tts/eleven-v3",
-  "name": "Elevenlabs",
+  "name": "Elevenlabs Tts Eleven V3",
   "created_by": "fal",
   "source": "official",
   "description": "Generate text-to-speech audio using Eleven-v3 from ElevenLabs.",
@@ -14,7 +14,7 @@
   },
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "7ea8f593",
+    "name": "7bd8a28c",
     "description": "c54d0ab7",
     "status": "379ac110",
     "release_date": "772dfb4d",
@@ -24,5 +24,5 @@
     "capabilities": "0fa77dc6",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

@@ -1,0 +1,28 @@
+{
+  "id": "tongyi-embedding-vision-plus",
+  "name": "tongyi-embedding-vision-plus",
+  "created_by": "qwen",
+  "source": "official",
+  "model_type": "embed",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/embedding-rerank-model",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "7e61ecda",
+    "model_type": "764cb3de",
+    "license": "9186c466",
+    "page_url": "6a9b1b59",
+    "open_weight": "68934a3e",
+    "capabilities": "8a3b232e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-03"
+}

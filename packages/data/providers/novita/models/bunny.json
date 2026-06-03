@@ -1,0 +1,36 @@
+{
+  "id": "bunny",
+  "name": "Bunny",
+  "created_by": "novita",
+  "source": "official",
+  "status": "active",
+  "release_date": "2026-04-10",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "106d4ea4",
+    "status": "379ac110",
+    "release_date": "9fb89bf7",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "capabilities": "05593506",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

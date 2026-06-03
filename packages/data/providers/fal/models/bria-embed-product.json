@@ -4,7 +4,7 @@
   "created_by": "bria",
   "source": "official",
   "family": "embed",
-  "description": "Seamlessly integrate one or more products into a predefined scene with pixel-perfect control.",
+  "description": "Seamlessly embed products into any scene with pixel-perfect control, automatic perspective, and natural lighting.",
   "status": "active",
   "release_date": "2026-02-25",
   "model_type": "image",
@@ -18,11 +18,11 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-02-26",
+  "last_seen_at": "2026-05-20",
   "_generated": {
     "name": "6d8e8df7",
     "family": "764cb3de",
-    "description": "f0c9e88b",
+    "description": "08ddcd4b",
     "status": "379ac110",
     "release_date": "f2b68600",
     "model_type": "db8857fe",
@@ -31,7 +31,7 @@
     "capabilities": "d3117eb0",
     "modalities": "bbf9b8bb",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "8be75473"
+    "last_seen_at": "7a81e6e3"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

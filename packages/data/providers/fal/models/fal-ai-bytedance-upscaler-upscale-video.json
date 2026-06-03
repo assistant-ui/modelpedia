@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/bytedance-upscaler/upscale/video",
-  "name": "Bytedance Upscaler",
+  "name": "Bytedance Upscaler Upscale Video",
   "created_by": "fal",
   "source": "official",
   "description": "Upscale videos with Bytedance's video upscaler.",
@@ -11,7 +11,7 @@
   "tagline": "Upscale videos with Bytedance's video upscaler.",
   "last_seen_at": "2026-04-28",
   "_generated": {
-    "name": "1a896034",
+    "name": "1a185caf",
     "description": "542f351a",
     "status": "379ac110",
     "release_date": "2bddea11",
@@ -20,5 +20,5 @@
     "tagline": "542f351a",
     "last_seen_at": "52326430"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

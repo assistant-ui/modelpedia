@@ -4,7 +4,7 @@
   "created_by": "baidu",
   "source": "official",
   "description": "ERNIE-4.5-21B-A3B-Thinking is a text-based Mixture of Experts (MoE) post-training model featuring 21B total parameters with 3B active parameters per token.",
-  "status": "active",
+  "status": "preview",
   "release_date": "2025-09-19",
   "context_window": 131072,
   "max_output_tokens": 65536,
@@ -30,7 +30,7 @@
   "_generated": {
     "name": "3e6a5c9c",
     "description": "4539eff8",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "188a9399",
     "context_window": "f7de594e",
     "max_output_tokens": "297ce0b3",
@@ -44,5 +44,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

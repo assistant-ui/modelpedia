@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/image-editing/hair-change",
-  "name": "Image Editing",
+  "name": "Image Editing Hair Change",
   "created_by": "fal",
   "source": "official",
   "description": "Experiment with different hairstyles, from bald to any style you can imagine, while maintaining natural lighting and realistic results.",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "2f4a63e0",
+    "name": "6c77ab15",
     "description": "6292a512",
     "status": "379ac110",
     "release_date": "b2e64734",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

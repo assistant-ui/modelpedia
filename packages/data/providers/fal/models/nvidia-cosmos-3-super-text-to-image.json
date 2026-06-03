@@ -1,0 +1,35 @@
+{
+  "id": "nvidia/cosmos-3-super/text-to-image",
+  "name": "Cosmos 3 Super",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory in",
+  "status": "active",
+  "release_date": "2026-06-01",
+  "model_type": "image",
+  "page_url": "https://fal.run/nvidia/cosmos-3-super/text-to-image",
+  "tagline": "Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory in",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-06-02",
+  "_generated": {
+    "name": "4fa50a76",
+    "description": "f721bde6",
+    "status": "379ac110",
+    "release_date": "80eaf594",
+    "model_type": "db8857fe",
+    "page_url": "2f5a5a26",
+    "tagline": "f721bde6",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "61fd683f"
+  },
+  "last_updated": "2026-06-03"
+}

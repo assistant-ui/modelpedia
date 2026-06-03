@@ -3,7 +3,7 @@
   "name": "Upscale",
   "created_by": "bria",
   "source": "official",
-  "description": "Regenerate the image with sharper textures and richer details while doubling resolution, up to 10 megapixels output.",
+  "description": "Professional-grade creative upscaler that doubles resolution up to 10MP, regenerating sharper textures, refined details, and cleaner faces.",
   "status": "active",
   "release_date": "2026-02-23",
   "model_type": "image",
@@ -17,10 +17,10 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-03-10",
+  "last_seen_at": "2026-05-20",
   "_generated": {
     "name": "f1d826f1",
-    "description": "eadd85a8",
+    "description": "169e8ca3",
     "status": "379ac110",
     "release_date": "f319afd9",
     "model_type": "db8857fe",
@@ -29,7 +29,7 @@
     "capabilities": "d3117eb0",
     "modalities": "bbf9b8bb",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "49946764"
+    "last_seen_at": "7a81e6e3"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

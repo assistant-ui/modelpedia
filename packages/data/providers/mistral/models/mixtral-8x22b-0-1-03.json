@@ -1,0 +1,38 @@
+{
+  "id": "mixtral-8x22b-0-1-03",
+  "name": "mixtral-8x22b-0-1-03",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "mixtral",
+  "description": "A large open MoE model competing with much larger dense models.",
+  "status": "active",
+  "context_window": 64000,
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/model-cards/mixtral-8x22b-0-1-0-3",
+  "model_type": "chat",
+  "tagline": "A large open MoE model competing with much larger dense models.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "a61e24f3",
+    "family": "3c47d372",
+    "description": "c996da1d",
+    "status": "379ac110",
+    "context_window": "762e98db",
+    "license": "60245731",
+    "page_url": "5266bb8d",
+    "model_type": "d669f408",
+    "tagline": "c996da1d",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-06-03"
+}

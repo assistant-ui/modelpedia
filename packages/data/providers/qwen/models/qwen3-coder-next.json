@@ -3,14 +3,19 @@
   "name": "qwen3-coder-next",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-06-03",
   "family": "qwen3",
-  "context_window": 262144,
+  "context_window": 256000,
   "max_output_tokens": 65536,
   "model_type": "code",
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "reasoning": true,
+    "tool_call": true,
+    "structured_output": true,
+    "batch": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -20,23 +25,27 @@
   "_generated": {
     "name": "164de14e",
     "family": "48c385a0",
-    "context_window": "4a1d32eb",
+    "context_window": "2fd324cb",
     "max_output_tokens": "297ce0b3",
     "model_type": "b6cc3ff4",
-    "capabilities": "9c665f5d",
+    "capabilities": "d193b8cf",
     "modalities": "68e53d93",
     "endpoints": "75df3f1c",
     "license": "60245731",
     "provider": "a3af76f3",
     "description": "d85bc3c7",
     "tagline": "3e4c55da",
-    "page_url": "23162829",
-    "open_weight": "b326b506"
+    "page_url": "6ecc6f25",
+    "open_weight": "b326b506",
+    "reasoning_tokens": "b326b506",
+    "tools": "f0c1dc7e"
   },
   "license": "apache-2.0",
   "provider": "qwen",
   "description": "An open-source code model from Qwen. The latest Qwen3-Coder series delivers strong Coding Agent capabilities. It excels at tool calling and environment interaction. It supports autonomous programming and delivers outstanding coding performance while maintaining broad general-purpose abilities.[How to use](https://www.alibabacloud.com/help/en/document_detail/2850166.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
   "tagline": "The open-source Qwen code model.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "open_weight": true
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
+  "open_weight": true,
+  "reasoning_tokens": true,
+  "tools": ["function_calling"]
 }

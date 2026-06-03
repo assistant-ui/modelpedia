@@ -1,11 +1,11 @@
 {
   "id": "jina-embeddings-v2-base-zh",
-  "name": "Jina Embeddings v2 Base Chinese",
+  "name": "Jina Embeddings v2 Base ZH",
   "created_by": "jina",
   "source": "official",
-  "last_updated": "2026-04-26",
-  "family": "jina-embeddings-v2",
-  "description": "Bilingual Chinese-English embedding model with 8K context length.",
+  "last_updated": "2026-06-03",
+  "family": "jina-embeddings",
+  "description": "Jina Embeddings v2 Base Chinese breaks new ground as the first open-source model to seamlessly handle both Chinese and English text with an unprecedented 8,192 token context length. This bilingual powerhouse addresses a critical challenge in global business: the need for accurate, long-form document processing across Chinese and English content. Unlike traditional models that struggle with cross-lingual understanding or require separate models for each language, this model maps equivalent meanings in both languages to the same embedding space, making it invaluable for organizations expanding globally or managing multilingual content.",
   "tagline": "Chinese-English bilingual embeddings.",
   "status": "active",
   "model_type": "embed",
@@ -21,5 +21,21 @@
   "pricing": {
     "input": 0.05
   },
-  "output_dimensions": [768]
+  "output_dimensions": [768],
+  "_generated": {
+    "name": "32ebfb3f",
+    "family": "04ec6848",
+    "description": "c4294f50",
+    "tagline": "d4e1fb92",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "context_window": "77441296",
+    "release_date": "453f274c",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "modalities": "afb3de08",
+    "endpoints": "5845adda",
+    "pricing": "0f2b1541",
+    "output_dimensions": "437516b7"
+  }
 }

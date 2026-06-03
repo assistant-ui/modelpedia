@@ -1,0 +1,46 @@
+{
+  "id": "meta-llama/llama-3.2-1b-instruct",
+  "name": "Llama 3.2 1B Instruct\t",
+  "created_by": "meta",
+  "source": "official",
+  "family": "llama-3.2",
+  "description": "The Meta Llama 3.2 collection of multilingual large language models (LLMs) is a collection of pretrained and instruction-tuned generative models in 1B and 3B sizes (text in/text out).",
+  "status": "active",
+  "release_date": "2024-11-26",
+  "context_window": 131000,
+  "max_output_tokens": 32000,
+  "model_type": "chat",
+  "parameters": 1,
+  "tagline": "The Meta Llama 3.2 collection of multilingual large language models (LLMs) is a collection of pretrained and instruction-tuned generative models in 1B and 3B sizes (text in/text out).",
+  "capabilities": {
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.02,
+    "output": 0.02
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "b7b81860",
+    "family": "d4c42ce9",
+    "description": "b66b5804",
+    "status": "379ac110",
+    "release_date": "ad4b689f",
+    "context_window": "834bd590",
+    "max_output_tokens": "10e4d788",
+    "model_type": "d669f408",
+    "parameters": "c4ca4238",
+    "tagline": "b66b5804",
+    "capabilities": "6c099667",
+    "modalities": "68e53d93",
+    "pricing": "70332ab4",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

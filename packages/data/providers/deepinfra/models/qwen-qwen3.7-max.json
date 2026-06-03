@@ -1,0 +1,47 @@
+{
+  "id": "Qwen/Qwen3.7-Max",
+  "name": "Qwen3.7-Max",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "The largest and most capable in the Qwen3.7 series. Qwen3.7 is a next‑generation flagship model designed for the agent‑centric.",
+  "status": "active",
+  "context_window": 256000,
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "open_weight": false,
+  "tagline": "The largest and most capable in the Qwen3.7 series.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 7.5,
+    "cached_input": 0.5
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "3fb8f7e1",
+    "description": "b921541e",
+    "status": "379ac110",
+    "context_window": "2fd324cb",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "open_weight": "68934a3e",
+    "tagline": "0e1ab4dc",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "176ee57c",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

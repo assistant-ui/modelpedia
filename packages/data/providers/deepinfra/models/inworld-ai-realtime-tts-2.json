@@ -1,0 +1,33 @@
+{
+  "id": "inworld-ai/realtime-tts-2",
+  "name": "realtime-tts-2",
+  "created_by": "inworld-ai",
+  "source": "official",
+  "description": "Realtime TTS 2.0 is a low-latency text-to-speech model with natural language steering, allowing you to control tone and emotion directly in the prompt (e.g., “[be happy and upbeat] Hello!”). It supports cross-lingual voices and multiple languages, enabling the same voice to speak consistently across different languages. This is an early access preview ahead of full launch, with ongoing improvements to voice quality and steering.",
+  "status": "active",
+  "model_type": "tts",
+  "open_weight": false,
+  "tagline": "Realtime TTS 2.0 is a low-latency text-to-speech model with natural language steering, allowing you to control tone and emotion directly in the prompt (e.g., “[be happy and upbeat] Hello!”).",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "pricing_notes": ["$35.0000 per 1M input characters"],
+  "_generated": {
+    "name": "bf30bee3",
+    "description": "e841dcc5",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "open_weight": "68934a3e",
+    "tagline": "e3dde543",
+    "capabilities": "0fa77dc6",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "pricing_notes": "db23e7aa"
+  },
+  "last_updated": "2026-06-03"
+}

@@ -3,15 +3,21 @@
   "name": "Embed English",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "embed",
   "modalities": {
     "input": ["text"],
-    "output": []
+    "output": ["text"]
   },
   "_generated": {
     "name": "fbb1046d",
     "model_type": "764cb3de",
-    "modalities": "afb3de08"
-  }
+    "modalities": "68e53d93",
+    "release_date": "805a76d3",
+    "context_window": "10a7cdd9",
+    "page_url": "e4f133a7"
+  },
+  "release_date": "2023-11-02",
+  "context_window": 512,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-embed-english"
 }

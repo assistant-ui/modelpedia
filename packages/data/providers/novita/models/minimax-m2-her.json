@@ -1,0 +1,33 @@
+{
+  "id": "minimax/m2-her",
+  "name": "M2-her",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "M2-her测试",
+  "status": "active",
+  "release_date": "2026-01-22",
+  "context_window": 32000,
+  "model_type": "chat",
+  "tagline": "M2-her测试",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "b116838f",
+    "description": "af506fe3",
+    "status": "379ac110",
+    "release_date": "048fc0b5",
+    "context_window": "10e4d788",
+    "model_type": "d669f408",
+    "tagline": "af506fe3",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

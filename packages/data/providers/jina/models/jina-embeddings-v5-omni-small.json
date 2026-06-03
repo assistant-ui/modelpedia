@@ -1,0 +1,39 @@
+{
+  "id": "jina-embeddings-v5-omni-small",
+  "name": "Jina Embeddings v5 Omni Small",
+  "created_by": "jina",
+  "source": "official",
+  "family": "jina-embeddings",
+  "description": "Jina Embeddings v5 Omni Small is a multilingual multimodal embedding model with 1.66B parameters built on the jina-embeddings-v5-text-small text backbone, extended with a fine-tuned SigLIP2 So400m vision encoder (from Qwen3.5-2B) for image and video and a Whisper-large-v3 audio encoder (from Qwen2.5-Omni-7B), connected via trained cross-modal projectors. It supports 32K context length and produces 1024-dimensional embeddings with Matryoshka representation learning (down to 32 dimensions). It uses last-token pooling and supports retrieval, text-matching, clustering, and classification tasks across text, image, video, audio, and PDF inputs.",
+  "status": "active",
+  "release_date": "2025-02-19",
+  "context_window": 32768,
+  "model_type": "embed",
+  "license": "jina-ai",
+  "open_weight": true,
+  "tagline": "Jina Embeddings v5 Omni Small is a multilingual multimodal embedding model with 1.66B parameters built on the jina-embeddings-v5-text-small text backbone, extended with a fine-tuned SigLIP2 So400m vision encoder (from Qwen3.5-2B) for image and video and a Whisper-large-v3 audio encoder (from Qwen2.5-Omni-7B), connected via trained cross-modal projectors.",
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": []
+  },
+  "pricing": {
+    "input": 0.05
+  },
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "87589e16",
+    "family": "04ec6848",
+    "description": "720823c6",
+    "status": "379ac110",
+    "release_date": "9e8be888",
+    "context_window": "f4376436",
+    "model_type": "764cb3de",
+    "license": "0b7dd534",
+    "open_weight": "b326b506",
+    "tagline": "e8a6e23f",
+    "modalities": "fff9d803",
+    "pricing": "0f2b1541",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-06-03"
+}

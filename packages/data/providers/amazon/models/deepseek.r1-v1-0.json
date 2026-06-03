@@ -3,11 +3,12 @@
   "name": "DeepSeek-R1",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "family": "deepseek",
   "model_type": "chat",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text"],
@@ -17,7 +18,17 @@
     "name": "2baa17f2",
     "family": "4b81b92d",
     "model_type": "d669f408",
-    "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "release_date": "3090c91a",
+    "context_window": "34434798",
+    "max_output_tokens": "67ff32d4",
+    "reasoning_tokens": "b326b506",
+    "page_url": "38f86689"
+  },
+  "release_date": "2025-01-20",
+  "context_window": 128000,
+  "max_output_tokens": 8000,
+  "reasoning_tokens": true,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-r1"
 }

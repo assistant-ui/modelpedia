@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/hyper3d/rodin/v2.5",
+  "name": "Hyper3D - Rodin V2.5 - Image to 3D",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Rodin V2.5 by Hyper3D generates realistic and production ready 3D models from text or images.",
+  "status": "active",
+  "release_date": "2026-05-28",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/hyper3d/rodin/v2.5",
+  "tagline": "Rodin V2.5 by Hyper3D generates realistic and production ready 3D models from text or images.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-05-31",
+  "_generated": {
+    "name": "d07702c7",
+    "description": "b361b4d3",
+    "status": "379ac110",
+    "release_date": "b7be5629",
+    "model_type": "ddb0b7bc",
+    "page_url": "7b381eb7",
+    "tagline": "b361b4d3",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "da029f9b"
+  },
+  "last_updated": "2026-06-03"
+}

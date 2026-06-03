@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/post-processing/desaturate",
-  "name": "Post Processing",
+  "name": "Post Processing Desaturate",
   "created_by": "fal",
   "source": "official",
   "description": "Reduce color saturation using different methods (luminance Rec.709, luminance Rec.601, average, lightness) with adjustable factor.",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "208a7416",
+    "name": "72a0a7e2",
     "description": "74d4d53e",
     "status": "379ac110",
     "release_date": "7a7b6168",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

@@ -3,9 +3,9 @@
   "name": "Palmyra Med",
   "created_by": "writer",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "palmyra-med",
-  "description": "Healthcare-focused LLM tuned for medical coding (RxNorm, ICD-10-CM, SNOMED CT), clinical decision support, and medical document summarization.",
+  "description": "Language model tailored for healthcare",
   "status": "deprecated",
   "deprecation_date": "2026-07-13",
   "successor": "palmyra-x5",
@@ -14,7 +14,7 @@
   "context_window": 32000,
   "max_output_tokens": 4096,
   "license": "proprietary",
-  "open_weight": true,
+  "open_weight": false,
   "capabilities": {
     "streaming": true
   },
@@ -27,5 +27,26 @@
     "input": 5,
     "output": 12
   },
-  "page_url": "https://dev.writer.com/home/models"
+  "page_url": "https://dev.writer.com/home/models",
+  "tagline": "Language model tailored for healthcare",
+  "_generated": {
+    "name": "cc5509ac",
+    "family": "34167b7a",
+    "description": "0c341d77",
+    "status": "2e2f74dc",
+    "deprecation_date": "a393f093",
+    "successor": "237dd4b6",
+    "release_date": "0dc61de2",
+    "model_type": "d669f408",
+    "context_window": "10e4d788",
+    "max_output_tokens": "f7efa4f8",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "pricing": "1c99297e",
+    "page_url": "8d6fade1",
+    "tagline": "0c341d77"
+  }
 }

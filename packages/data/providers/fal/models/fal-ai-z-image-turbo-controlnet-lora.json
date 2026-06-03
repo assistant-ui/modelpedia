@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/z-image/turbo/controlnet/lora",
-  "name": "Z-Image Turbo",
+  "name": "Z Image Turbo Controlnet Lora",
   "created_by": "fal",
   "source": "official",
   "description": "Generate images from text and edge, depth or pose images using custom LoRA and Z-Image Turbo, Tongyi-MAI's super-fast 6B model.",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-26",
   "_generated": {
-    "name": "a73fe98b",
+    "name": "83c9f19d",
     "description": "30c73734",
     "status": "379ac110",
     "release_date": "1916087a",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "42382078"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

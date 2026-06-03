@@ -3,7 +3,7 @@
   "name": "Nova Micro",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-06-03",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -16,6 +16,14 @@
     "name": "8efc5c46",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
-  }
+    "modalities": "68e53d93",
+    "release_date": "261bf75d",
+    "context_window": "34434798",
+    "max_output_tokens": "a35fe7f7",
+    "page_url": "388f21af"
+  },
+  "release_date": "2024-12-05",
+  "context_window": 128000,
+  "max_output_tokens": 5000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-micro"
 }

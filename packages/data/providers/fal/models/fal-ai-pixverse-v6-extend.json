@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/pixverse/v6/extend",
-  "name": "PixVerse",
+  "name": "PixVerse V6 Extend",
   "created_by": "fal",
   "source": "official",
   "description": "Pixverse's latest v6 Model.",
@@ -11,7 +11,7 @@
   "tagline": "Pixverse's latest v6 Model.",
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "c44b079b",
+    "name": "2cdd505f",
     "description": "c22d6506",
     "status": "379ac110",
     "release_date": "c019c0fb",
@@ -20,5 +20,5 @@
     "tagline": "c22d6506",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

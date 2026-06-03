@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/pixverse/v4/image-to-video",
-  "name": "PixVerse v4: Image to Video",
+  "name": "PixVerse V4 Image To Video",
   "created_by": "fal",
   "source": "official",
   "description": "Generate high quality video clips from text and image prompts using PixVerse v4",
@@ -19,7 +19,7 @@
   "endpoints": ["video"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "cd0f906c",
+    "name": "9390b41a",
     "description": "59f4aaa4",
     "status": "379ac110",
     "release_date": "e34c5e92",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

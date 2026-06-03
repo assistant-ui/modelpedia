@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/image-editing/expression-change",
-  "name": "Image Editing",
+  "name": "Image Editing Expression Change",
   "created_by": "fal",
   "source": "official",
   "description": "Change facial expressions in photos to any emotion you desire, from smiles to serious looks.",
@@ -19,7 +19,7 @@
   "endpoints": ["images"],
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "2f4a63e0",
+    "name": "adff9bd4",
     "description": "b33c8035",
     "status": "379ac110",
     "release_date": "b2e64734",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

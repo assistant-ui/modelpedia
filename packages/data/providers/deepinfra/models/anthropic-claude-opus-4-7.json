@@ -1,0 +1,49 @@
+{
+  "id": "anthropic/claude-opus-4-7",
+  "name": "claude-opus-4-7",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "description": "Anthropic's most capable production model yet, advancing performance across coding, enterprise workflows, and long-running agentic tasks.",
+  "status": "active",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": false,
+  "tagline": "Anthropic's most capable production model yet, advancing performance across coding, enterprise workflows, and long-running agentic tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 25
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "f0177cd3",
+    "family": "4e4c4b18",
+    "description": "527665fb",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "68934a3e",
+    "tagline": "527665fb",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "be2d1ab0",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

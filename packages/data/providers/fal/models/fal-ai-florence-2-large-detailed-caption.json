@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/florence-2-large/detailed-caption",
-  "name": "Florence-2 Large",
+  "name": "Florence 2 Large Detailed Caption",
   "created_by": "fal",
   "source": "official",
   "description": "Florence-2 is an advanced vision foundation model that uses a prompt-based approach to handle a wide range of vision and vision-language tasks",
@@ -14,7 +14,7 @@
   },
   "last_seen_at": "2026-04-21",
   "_generated": {
-    "name": "2c7a765e",
+    "name": "1f05d6ec",
     "description": "23fe73e9",
     "status": "379ac110",
     "release_date": "81f18712",
@@ -24,5 +24,5 @@
     "capabilities": "d3117eb0",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-03"
 }

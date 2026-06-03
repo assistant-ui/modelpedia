@@ -3,7 +3,7 @@
   "name": "Qwen3.5-122B-A10B",
   "created_by": "alibaba",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-03",
   "family": "qwen3",
   "description": "Qwen3.5-122B-A10B is a large Mixture-of-Experts model from Alibaba's Qwen3.5 series with 122B total parameters and 10B activated per token. It features a 262K token context window (extensible to 1M with YaRN), thinking/reasoning mode, tool calling, and support for 201 languages. Excels at complex reasoning, coding, multimodal understanding, and agentic tasks with the efficiency of sparse activation.",
   "status": "active",
@@ -27,7 +27,7 @@
   },
   "pricing": {
     "input": 0.29,
-    "output": 2.9,
+    "output": 2.4,
     "cached_input": 0.145
   },
   "tools": ["function_calling"],
@@ -46,7 +46,7 @@
     "license": "60245731",
     "capabilities": "81e3387c",
     "modalities": "6399757e",
-    "pricing": "ebb676a2",
+    "pricing": "8161a4d6",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "640679f9",

@@ -1,0 +1,29 @@
+{
+  "id": "anthropic/claude-sonnet-4.6",
+  "name": "Claude Sonnet 4.6",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-sonnet",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://replicate.com/anthropic/claude-sonnet-4.6",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "50184618",
+    "family": "68d1c457",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "0f8ab23c",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-03"
+}

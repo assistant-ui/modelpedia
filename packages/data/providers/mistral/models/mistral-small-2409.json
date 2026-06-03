@@ -3,7 +3,7 @@
   "name": "mistral-small-2409",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-06-03",
   "family": "mistral-small",
   "status": "deprecated",
   "deprecation_date": "2025-11-06",
@@ -20,8 +20,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.1,
-    "output": 0.3
+    "input": 0.15,
+    "output": 0.6
   },
   "_generated": {
     "name": "30889b3e",
@@ -31,10 +31,10 @@
     "context_window": "10e4d788",
     "capabilities": "62b3fd83",
     "modalities": "6399757e",
-    "pricing": "53952343",
+    "pricing": "89a9c6e2",
     "model_type": "d669f408",
     "license": "60245731",
-    "page_url": "a0c7662a",
+    "page_url": "ca943707",
     "open_weight": "b326b506",
     "description": "e2aa6c63",
     "tagline": "e2aa6c63",
@@ -42,7 +42,7 @@
   },
   "model_type": "chat",
   "license": "apache-2.0",
-  "page_url": "https://docs.mistral.ai/models/mistral-small-2-0-24-09",
+  "page_url": "https://docs.mistral.ai/models/model-cards/mistral-small-2-0-24-09",
   "open_weight": true,
   "description": "An update to our efficient small model with open weights under an MRL license.",
   "tagline": "An update to our efficient small model with open weights under an MRL license.",

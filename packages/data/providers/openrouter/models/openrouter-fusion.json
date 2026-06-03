@@ -1,0 +1,23 @@
+{
+  "id": "openrouter/fusion",
+  "name": "OpenRouter: Fusion",
+  "created_by": "openrouter",
+  "source": "official",
+  "description": "Fusion turns your prompt into a small multi-model deliberation.",
+  "release_date": "2026-05-12",
+  "context_window": 128000,
+  "tagline": "Fusion turns your prompt into a small multi-model deliberation.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "50ea08b3",
+    "description": "63478db0",
+    "release_date": "a96e05b7",
+    "context_window": "34434798",
+    "tagline": "63478db0",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-03"
+}

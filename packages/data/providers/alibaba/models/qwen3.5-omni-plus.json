@@ -5,19 +5,22 @@
   "source": "official",
   "family": "qwen3.5",
   "description": "The Qwen-Omni model accepts multimodal inputs including text, images, audio, and video, and generates text or speech responses. It offers a variety of expressive human-like voices and supports multilingual and dialect speech output, applicable to scenarios such as visual recognition, emotion sensing, and educational training. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-  "context_window": 262144,
+  "context_window": 64000,
   "license": "apache-2.0",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/vision-model",
   "model_type": "chat",
   "tagline": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form.",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
     "reasoning": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "structured_output": true,
+    "vision": true,
+    "json_mode": true
   },
   "modalities": {
-    "input": ["text", "audio"],
+    "input": ["text"],
     "output": ["text"]
   },
   "open_weight": true,
@@ -27,16 +30,16 @@
     "name": "86bb6c66",
     "family": "d548f421",
     "description": "6c26c067",
-    "context_window": "4a1d32eb",
+    "context_window": "762e98db",
     "license": "60245731",
-    "page_url": "23162829",
+    "page_url": "78dd417f",
     "model_type": "d669f408",
     "tagline": "8abae13d",
-    "capabilities": "4043afaa",
-    "modalities": "d65b34d6",
+    "capabilities": "f95061ad",
+    "modalities": "68e53d93",
     "open_weight": "b326b506",
     "endpoints": "75df3f1c",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-21"
+  "last_updated": "2026-06-03"
 }
