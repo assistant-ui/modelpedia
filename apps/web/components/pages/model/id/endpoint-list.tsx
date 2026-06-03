@@ -12,7 +12,7 @@ export function EndpointList({
   apiUrl?: string;
 }) {
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
       {endpoints.map((ep, i) => {
         const mapped = ENDPOINT_MAP[ep];
         const label = mapped?.label ?? ep.replace(/_/g, " ");
@@ -34,17 +34,17 @@ export function EndpointList({
             <div className="min-w-0 flex-1">
               <div className="flex items-center gap-2">
                 <span className="text-foreground text-sm">{label}</span>
-                <span className="shrink-0 rounded bg-muted px-1.5 py-0.5 font-mono text-[11px] text-muted-foreground">
+                <span className="bg-muted text-muted-foreground shrink-0 rounded px-1.5 py-0.5 font-mono text-[11px]">
                   {method}
                 </span>
               </div>
               <div className="mt-0.5 flex items-center gap-2">
                 {desc && (
-                  <span className="shrink-0 text-muted-foreground text-xs">
+                  <span className="text-muted-foreground shrink-0 text-xs">
                     {desc}
                   </span>
                 )}
-                <code className="min-w-0 truncate font-mono text-muted-foreground/60 text-xs">
+                <code className="text-muted-foreground/60 min-w-0 truncate font-mono text-xs">
                   {fullUrl}
                 </code>
               </div>
@@ -59,7 +59,7 @@ export function EndpointList({
 
 export function ToolList({ tools }: { tools: string[] }) {
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
       {tools.map((tool, i) => {
         const mapped = TOOL_MAP[tool];
         const label = mapped?.label ?? tool.replace(/_/g, " ");
@@ -75,12 +75,12 @@ export function ToolList({ tools }: { tools: string[] }) {
             <div className="min-w-0 flex-1">
               <div className="flex items-center gap-2">
                 <span className="text-foreground text-sm">{label}</span>
-                <code className="font-mono text-muted-foreground/60 text-xs">
+                <code className="text-muted-foreground/60 font-mono text-xs">
                   {tool}
                 </code>
               </div>
               {desc && (
-                <div className="mt-0.5 text-muted-foreground text-xs">
+                <div className="text-muted-foreground mt-0.5 text-xs">
                   {desc}
                 </div>
               )}

@@ -36,13 +36,13 @@ export function Tabs<T extends string>({
     <div
       ref={containerRef}
       className={cn(
-        "relative flex gap-0.5 rounded bg-muted p-0.5 ring-1 ring-border",
+        "bg-muted ring-border relative flex gap-0.5 rounded p-0.5 ring-1",
         className,
       )}
     >
       <div
         ref={indicatorRef}
-        className="absolute top-0.5 bottom-0.5 rounded bg-background shadow-sm ring-1 ring-border transition-all duration-200 ease-in-out"
+        className="bg-background ring-border absolute top-0.5 bottom-0.5 rounded shadow-sm ring-1 transition-all duration-200 ease-in-out"
       />
       {items.map((item) => (
         <button

@@ -39,14 +39,19 @@ export function multiSearch<T>(
   if (terms.length === 0) return [];
 
   const results: { item: T; score: number }[] = [];
-  outer: for (const item of items) {
+  for (const item of items) {
     const target = options.target(item).toLowerCase();
     let total = 0;
+    let matched = true;
     for (const term of terms) {
       const s = fuzzyMatch(target, term);
-      if (s < 0) continue outer;
+      if (s < 0) {
+        matched = false;
+        break;
+      }
       total += s;
     }
+    if (!matched) continue;
     results.push({ item, score: total + (options.bonus?.(item) ?? 0) });
   }
 

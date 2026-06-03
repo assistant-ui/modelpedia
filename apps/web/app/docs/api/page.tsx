@@ -19,24 +19,24 @@ export default function ApiDocsPage() {
         title="API Reference"
         sub="REST API and MCP server for querying models, providers, and capabilities"
       />
-      <div className="mb-8 overflow-hidden rounded-md ring-1 ring-border">
+      <div className="ring-border mb-8 overflow-hidden rounded-md ring-1">
         <div className="flex items-center justify-between px-4 py-3">
           <span className="text-muted-foreground text-sm">REST</span>
-          <code className="truncate font-mono text-foreground text-sm">
+          <code className="text-foreground truncate font-mono text-sm">
             {API_BASE}/v1
           </code>
         </div>
-        <div className="flex items-center justify-between gap-4 border-border border-t px-4 py-3">
+        <div className="border-border flex items-center justify-between gap-4 border-t px-4 py-3">
           <span className="text-muted-foreground text-sm">MCP</span>
-          <code className="truncate font-mono text-foreground text-sm">
+          <code className="text-foreground truncate font-mono text-sm">
             {API_BASE}/mcp
           </code>
         </div>
-        <div className="flex items-center justify-between border-border border-t px-4 py-3">
+        <div className="border-border flex items-center justify-between border-t px-4 py-3">
           <span className="text-muted-foreground text-sm">Format</span>
           <span className="text-foreground text-sm">
             JSON (append{" "}
-            <code className="rounded bg-muted px-1.5 py-0.5 font-mono text-xs">
+            <code className="bg-muted rounded px-1.5 py-0.5 font-mono text-xs">
               ?pretty
             </code>{" "}
             for formatted output)
@@ -66,17 +66,17 @@ export default function ApiDocsPage() {
       ))}
 
       <Section title="Response format">
-        <div className="overflow-hidden rounded-md text-sm ring-1 ring-border">
-          <div className="flex items-baseline gap-4 border-border border-b px-4 py-2.5">
-            <span className="w-16 shrink-0 text-muted-foreground sm:w-24">
+        <div className="ring-border overflow-hidden rounded-md text-sm ring-1">
+          <div className="border-border flex items-baseline gap-4 border-b px-4 py-2.5">
+            <span className="text-muted-foreground w-16 shrink-0 sm:w-24">
               Success
             </span>
             <code className="text-muted-foreground">
               {'{ "data": ..., "meta": { "total", "limit", "offset" } }'}
             </code>
           </div>
-          <div className="flex items-baseline gap-4 border-border border-b px-4 py-2.5">
-            <span className="w-16 shrink-0 text-muted-foreground sm:w-24">
+          <div className="border-border flex items-baseline gap-4 border-b px-4 py-2.5">
+            <span className="text-muted-foreground w-16 shrink-0 sm:w-24">
               Error
             </span>
             <code className="text-muted-foreground">
@@ -87,7 +87,7 @@ export default function ApiDocsPage() {
       </Section>
 
       <Section title="Conventions">
-        <div className="overflow-hidden rounded-md text-sm ring-1 ring-border">
+        <div className="ring-border overflow-hidden rounded-md text-sm ring-1">
           <Row label="Field present" value="Known value" />
           <Row label="Field omitted" value="Unknown" />
           <Row label="Field is null" value="Not applicable" />
@@ -107,7 +107,7 @@ export default function ApiDocsPage() {
       </Section>
 
       <Section title="Notes">
-        <div className="overflow-hidden rounded-md text-sm ring-1 ring-border">
+        <div className="ring-border overflow-hidden rounded-md text-sm ring-1">
           <Row label="Auth" value="None required" />
           <Row label="CORS" value="Enabled on all endpoints" />
           <Row

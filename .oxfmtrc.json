@@ -1,0 +1,42 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": false,
+  "jsxSingleQuote": false,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "quoteProps": "as-needed",
+  "sortTailwindcss": {
+    "functions": ["clsx", "cva", "tw", "twMerge", "cn", "twJoin", "tv"]
+  },
+  "sortPackageJson": false,
+  "ignorePatterns": [
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/.next/**",
+    "**/.vercel/**",
+    "**/out/**",
+    "**/build/**",
+    "**/.turbo/**",
+    "**/coverage/**",
+    "**/CHANGELOG.md",
+    "**/pnpm-lock.yaml",
+    "**/next-env.d.ts",
+    "**/worker-configuration.d.ts",
+    "**/packages/data/src/data.ts",
+    "**/packages/npm/src/data.ts",
+    "**/packages/npm/src/providers/**",
+    "**/*.html",
+    "**/*.md",
+    "**/*.mdx",
+    "**/*.yaml",
+    "**/*.yml",
+    "**/*.toml"
+  ]
+}

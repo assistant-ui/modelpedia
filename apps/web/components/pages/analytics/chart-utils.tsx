@@ -41,7 +41,7 @@ export function StatCell({ label, value }: { label: string; value: string }) {
   return (
     <div className="bg-background px-4 py-3">
       <div className="text-muted-foreground text-xs">{label}</div>
-      <div className="mt-0.5 font-medium font-mono text-foreground text-lg">
+      <div className="text-foreground mt-0.5 font-mono text-lg font-medium">
         {value}
       </div>
     </div>
@@ -90,7 +90,7 @@ export function computeContextTicks(max: number): number[] {
 /** Empty chart state */
 export function Empty() {
   return (
-    <div className="rounded-md bg-muted/30 px-4 py-8 text-center text-muted-foreground text-sm ring-1 ring-border">
+    <div className="bg-muted/30 text-muted-foreground ring-border rounded-md px-4 py-8 text-center text-sm ring-1">
       Not enough data to display
     </div>
   );

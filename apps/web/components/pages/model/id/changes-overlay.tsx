@@ -33,11 +33,11 @@ export function ChangesOverlay({
           >
             <ProviderIcon provider={providerInfo} size={20} />
           </a>
-          <h2 className="flex-1 font-medium text-foreground text-lg tracking-tight">
+          <h2 className="text-foreground flex-1 text-lg font-medium tracking-tight">
             {model.name}
           </h2>
           {model.status && model.status !== "active" && (
-            <span className="rounded-full bg-muted px-2 py-0.5 text-muted-foreground text-xs">
+            <span className="bg-muted text-muted-foreground rounded-full px-2 py-0.5 text-xs">
               {model.status}
             </span>
           )}
@@ -46,12 +46,12 @@ export function ChangesOverlay({
       subheader={
         <>
           {normalizeModelId(model.id) !== normalizeModelId(model.name) && (
-            <div className="mt-1 break-all font-mono text-muted-foreground text-sm">
+            <div className="text-muted-foreground mt-1 font-mono text-sm break-all">
               {model.id}
             </div>
           )}
           {model.description && (
-            <p className="mt-2 text-pretty text-muted-foreground leading-relaxed">
+            <p className="text-muted-foreground mt-2 leading-relaxed text-pretty">
               <RenderMarkdown text={model.description} />
             </p>
           )}
@@ -60,7 +60,7 @@ export function ChangesOverlay({
               {model.alias && (
                 <a
                   href={`/${model.provider}/${model.alias}`}
-                  className="rounded bg-muted px-2 py-1 font-mono text-muted-foreground ring-1 ring-border transition-colors duration-200 hover:text-foreground"
+                  className="bg-muted text-muted-foreground ring-border hover:text-foreground rounded px-2 py-1 font-mono ring-1 transition-colors duration-200"
                 >
                   alias → {model.alias}
                 </a>
@@ -69,7 +69,7 @@ export function ChangesOverlay({
                 <a
                   key={s}
                   href={`/${model.provider}/${s}`}
-                  className="rounded bg-muted px-2 py-1 font-mono text-muted-foreground ring-1 ring-border transition-colors duration-200 hover:text-foreground"
+                  className="bg-muted text-muted-foreground ring-border hover:text-foreground rounded px-2 py-1 font-mono ring-1 transition-colors duration-200"
                 >
                   {s}
                 </a>
@@ -79,11 +79,11 @@ export function ChangesOverlay({
         </>
       }
     >
-      <div className="mb-4 text-muted-foreground text-sm">
+      <div className="text-muted-foreground mb-4 text-sm">
         Changes · {changes.length} entries
       </div>
       {changes.length === 0 ? (
-        <p className="text-pretty py-16 text-center text-muted-foreground">
+        <p className="text-muted-foreground py-16 text-center text-pretty">
           No changes recorded for this model.
         </p>
       ) : (

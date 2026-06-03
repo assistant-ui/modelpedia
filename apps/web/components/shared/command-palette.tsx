@@ -27,7 +27,7 @@ function ItemIcon({ html, size }: { html: string; size: string }) {
   return (
     <span
       className={cn(
-        "flex shrink-0 items-center justify-center text-foreground [&>svg]:h-full [&>svg]:w-full",
+        "text-foreground flex shrink-0 items-center justify-center [&>svg]:h-full [&>svg]:w-full",
         size,
       )}
       dangerouslySetInnerHTML={{ __html: html }}
@@ -158,7 +158,7 @@ export function CommandPalette({
       <button
         type="button"
         onClick={open}
-        className="inline-flex items-center justify-center rounded-md p-1 text-muted-foreground transition-colors duration-200 hover:bg-accent hover:text-foreground"
+        className="text-muted-foreground hover:bg-accent hover:text-foreground inline-flex items-center justify-center rounded-md p-1 transition-colors duration-200"
       >
         <Search size={16} />
       </button>
@@ -170,7 +170,7 @@ export function CommandPalette({
         >
           <div
             className={cn(
-              "fixed inset-0 bg-background/80 transition-opacity duration-200",
+              "bg-background/80 fixed inset-0 transition-opacity duration-200",
               visible ? "opacity-100" : "opacity-0",
             )}
           />
@@ -268,7 +268,7 @@ export function CommandPalette({
                         <span className="min-w-0 flex-1 truncate">
                           {item.name}
                         </span>
-                        <span className="shrink-0 font-mono text-muted-foreground text-xs">
+                        <span className="text-muted-foreground shrink-0 font-mono text-xs">
                           {item.sub}
                         </span>
                       </CommandItem>

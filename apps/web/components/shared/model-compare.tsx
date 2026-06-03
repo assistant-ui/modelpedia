@@ -91,8 +91,8 @@ function CompareRow({
     "flex items-center border-border border-l px-4 py-2.5 font-mono text-foreground text-sm";
   const diffCls = diff ? " bg-yellow-500/8" : "";
   return (
-    <div className="grid grid-cols-1 border-border border-t sm:grid-cols-3">
-      <div className="flex items-center gap-2 px-4 py-2.5 text-muted-foreground text-sm">
+    <div className="border-border grid grid-cols-1 border-t sm:grid-cols-3">
+      <div className="text-muted-foreground flex items-center gap-2 px-4 py-2.5 text-sm">
         {Icon && <Icon size={14} className="shrink-0" />}
         {label}
       </div>
@@ -113,7 +113,7 @@ function TagList({ items }: { items?: string[] }) {
       {items.map((t) => (
         <span
           key={t}
-          className="rounded bg-muted px-1.5 py-0.5 font-mono text-[11px] text-foreground"
+          className="bg-muted text-foreground rounded px-1.5 py-0.5 font-mono text-[11px]"
         >
           {t.replace(/_/g, " ")}
         </span>
@@ -163,7 +163,7 @@ function CapBadge({ supported }: { supported?: boolean }) {
   if (supported == null)
     return (
       <Tooltip content="No data available">
-        <span className="cursor-default text-muted-foreground">—</span>
+        <span className="text-muted-foreground cursor-default">—</span>
       </Tooltip>
     );
   return (
@@ -177,13 +177,13 @@ function ModelHeader({ model }: { model: CompareModel }) {
   return (
     <a
       href={`/${model.provider}/${model.id}`}
-      className="flex min-w-0 items-center gap-2 border-border border-l px-4 py-3 transition-colors duration-200 hover:bg-accent"
+      className="border-border hover:bg-accent flex min-w-0 items-center gap-2 border-l px-4 py-3 transition-colors duration-200"
     >
       <ProviderIcon
         provider={model.providerIcon ? { icon: model.providerIcon } : null}
         size={14}
       />
-      <span className="truncate font-medium text-foreground text-sm">
+      <span className="text-foreground truncate text-sm font-medium">
         {model.name}
       </span>
     </a>
@@ -202,7 +202,7 @@ function CreatorLink({
   return (
     <a
       href={`/${id}`}
-      className="flex items-center gap-1.5 transition-colors duration-200 hover:text-accent-foreground"
+      className="hover:text-accent-foreground flex items-center gap-1.5 transition-colors duration-200"
     >
       <ProviderIcon provider={icon ? { icon } : null} size={13} />
       {name ?? id}
@@ -261,9 +261,9 @@ function CompareInner({ models }: { models: CompareModel[] }) {
       </div>
 
       {a && b ? (
-        <div className="overflow-hidden rounded-md ring-1 ring-border">
+        <div className="ring-border overflow-hidden rounded-md ring-1">
           <div className="grid grid-cols-1 sm:grid-cols-3">
-            <div className="px-4 py-3 text-muted-foreground text-xs uppercase tracking-wider" />
+            <div className="text-muted-foreground px-4 py-3 text-xs tracking-wider uppercase" />
             <ModelHeader model={a} />
             <ModelHeader model={b} />
           </div>
@@ -470,7 +470,7 @@ function CompareInner({ models }: { models: CompareModel[] }) {
           />
         </div>
       ) : (
-        <div className="text-balance py-16 text-center text-muted-foreground text-sm">
+        <div className="text-muted-foreground py-16 text-center text-sm text-balance">
           Select two models to compare
         </div>
       )}

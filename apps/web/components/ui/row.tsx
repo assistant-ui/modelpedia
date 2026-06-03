@@ -31,11 +31,11 @@ export function Row({
   return (
     <div
       className={cn(
-        "flex items-center justify-between gap-2 border-border border-t px-4 py-2.5 text-sm first:border-t-0",
+        "border-border flex items-center justify-between gap-2 border-t px-4 py-2.5 text-sm first:border-t-0",
         className,
       )}
     >
-      <span className="shrink-0 text-muted-foreground">{label}</span>
+      <span className="text-muted-foreground shrink-0">{label}</span>
       {href ? (
         <a
           href={href}
@@ -45,7 +45,7 @@ export function Row({
           })}
           className={cn(
             valCls,
-            "truncate transition-colors duration-200 hover:text-foreground/70",
+            "hover:text-foreground/70 truncate transition-colors duration-200",
           )}
         >
           {value}
@@ -56,7 +56,7 @@ export function Row({
           onClick={handleCopy}
           className={cn(
             valCls,
-            "cursor-pointer truncate transition-colors duration-200 hover:text-foreground/70",
+            "hover:text-foreground/70 cursor-pointer truncate transition-colors duration-200",
           )}
           title="Click to copy"
         >

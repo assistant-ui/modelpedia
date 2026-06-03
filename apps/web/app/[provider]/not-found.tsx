@@ -3,11 +3,11 @@ import { ButtonAnchor, ButtonLink } from "@/components/ui/button";
 export default function ProviderNotFound() {
   return (
     <div className="flex flex-col items-center py-24 text-center">
-      <div className="font-medium font-mono text-6xl text-foreground">404</div>
-      <div className="mt-3 text-balance text-muted-foreground">
+      <div className="text-foreground font-mono text-6xl font-medium">404</div>
+      <div className="text-muted-foreground mt-3 text-balance">
         This provider is not supported yet
       </div>
-      <p className="mt-2 max-w-md text-pretty text-muted-foreground text-sm">
+      <p className="text-muted-foreground mt-2 max-w-md text-sm text-pretty">
         We&apos;re always adding new providers. If you&apos;d like to see this
         one added, please open an issue on GitHub.
       </p>

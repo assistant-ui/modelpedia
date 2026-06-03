@@ -12,7 +12,7 @@ export function ProviderIcon({
   );
   return (
     <span
-      className="shrink-0 text-muted-foreground"
+      className="text-muted-foreground shrink-0"
       dangerouslySetInnerHTML={{ __html: svg }}
     />
   );

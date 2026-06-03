@@ -6,7 +6,7 @@ const LINK_CLASS =
 export function Footer() {
   return (
     <footer className="pt-12 pb-8">
-      <div className="mb-4 h-px bg-linear-to-r from-transparent via-foreground/10 to-transparent" />
+      <div className="via-foreground/10 mb-4 h-px bg-linear-to-r from-transparent to-transparent" />
       <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-between">
         <a
           href="https://agentbase.dev"

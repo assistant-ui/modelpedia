@@ -4,13 +4,13 @@ import { type ComponentProps, forwardRef } from "react";
 import { cn } from "@/lib/cn";
 
 export const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 rounded-md font-medium transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
+  "focus-visible:ring-ring inline-flex items-center justify-center gap-2 rounded-md font-medium transition-colors duration-200 focus-visible:ring-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50",
   {
     variants: {
       variant: {
-        default: "bg-muted text-foreground ring-1 ring-border hover:bg-accent",
+        default: "bg-muted text-foreground ring-border hover:bg-accent ring-1",
         outline:
-          "text-muted-foreground ring-1 ring-border hover:bg-accent hover:text-foreground",
+          "text-muted-foreground ring-border hover:bg-accent hover:text-foreground ring-1",
         ghost: "text-muted-foreground hover:bg-accent hover:text-foreground",
         primary: "bg-foreground text-background hover:bg-foreground/80",
       },

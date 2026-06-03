@@ -53,7 +53,7 @@ function capBadges(caps: ModelCapabilities | undefined) {
           return (
             <span
               key={key}
-              className="flex h-4 w-4 items-center justify-center rounded bg-muted text-[10px] text-foreground"
+              className="bg-muted text-foreground flex h-4 w-4 items-center justify-center rounded text-[10px]"
               title={key.replace(/_/g, " ")}
             >
               {letter}
@@ -64,7 +64,7 @@ function capBadges(caps: ModelCapabilities | undefined) {
           return (
             <span
               key={key}
-              className="flex h-4 w-4 items-center justify-center rounded bg-muted text-[10px] text-muted-foreground/30"
+              className="bg-muted text-muted-foreground/30 flex h-4 w-4 items-center justify-center rounded text-[10px]"
               title={`${key.replace(/_/g, " ")} (no data)`}
             >
               {letter}
@@ -102,7 +102,7 @@ function buildColumns(showProvider?: boolean): ColumnDef<ModelItem>[] {
             )}
             <div className="min-w-0 overflow-hidden">
               <span className="flex items-center gap-1.5">
-                <span className="truncate text-foreground text-sm">
+                <span className="text-foreground truncate text-sm">
                   {m.name}
                 </span>
                 {m.license && m.license !== "proprietary" && (
@@ -115,7 +115,7 @@ function buildColumns(showProvider?: boolean): ColumnDef<ModelItem>[] {
                   </Badge>
                 )}
               </span>
-              <span className="truncate font-mono text-muted-foreground text-xs">
+              <span className="text-muted-foreground truncate font-mono text-xs">
                 {m.id}
               </span>
             </div>
@@ -144,7 +144,7 @@ function buildColumns(showProvider?: boolean): ColumnDef<ModelItem>[] {
       cell: ({ row }) => {
         const v = row.original.context_window;
         return v ? (
-          <span className="font-mono text-muted-foreground text-sm tabular-nums">
+          <span className="text-muted-foreground font-mono text-sm tabular-nums">
             {formatTokens(v)}
           </span>
         ) : null;
@@ -164,10 +164,10 @@ function buildColumns(showProvider?: boolean): ColumnDef<ModelItem>[] {
         if (p?.input == null && p?.output == null) return null;
         return (
           <span className="font-mono tabular-nums">
-            <span className="block text-foreground text-sm">
+            <span className="text-foreground block text-sm">
               {formatPrice(p?.input)}
             </span>
-            <span className="block text-muted-foreground text-xs">
+            <span className="text-muted-foreground block text-xs">
               {formatPrice(p?.output)}
             </span>
           </span>
@@ -246,7 +246,7 @@ export function ModelList({
         <div className="space-y-3">
           <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:gap-3">
             {types.length > 1 && (
-              <div className="flex items-center gap-1.5 text-muted-foreground text-xs">
+              <div className="text-muted-foreground flex items-center gap-1.5 text-xs">
                 <span>Type</span>
                 <Select
                   value={typeFilter}
@@ -272,14 +272,14 @@ export function ModelList({
               checked={ossOnly}
               onCheckedChange={(v) => setOssOnly(v === true)}
               label="OSS"
-              className="shrink-0 text-muted-foreground text-xs"
+              className="text-muted-foreground shrink-0 text-xs"
             />
             {deprecatedCount > 0 && (
               <Checkbox
                 checked={showDeprecated}
                 onCheckedChange={(v) => setShowDeprecated(v === true)}
                 label={`Show deprecated (${deprecatedCount})`}
-                className="shrink-0 text-muted-foreground text-xs"
+                className="text-muted-foreground shrink-0 text-xs"
               />
             )}
           </div>

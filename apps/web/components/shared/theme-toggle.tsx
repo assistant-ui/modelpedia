@@ -32,7 +32,7 @@ export function ThemeToggle() {
     <Dropdown>
       <DropdownTrigger>
         <button
-          className="text-base text-muted-foreground leading-none transition-colors duration-200 hover:text-foreground"
+          className="text-muted-foreground hover:text-foreground text-base leading-none transition-colors duration-200"
           title="Settings"
         >
           <ThemeIcon mounted={mounted} resolvedTheme={resolvedTheme} />

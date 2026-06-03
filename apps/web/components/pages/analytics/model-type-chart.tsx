@@ -29,9 +29,9 @@ export function ModelTypeChart({
     selection?.type === "modelType" ? selection.modelType : null;
 
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
       {/* Segmented bar */}
-      <div className="flex h-8 overflow-hidden bg-background">
+      <div className="bg-background flex h-8 overflow-hidden">
         {data.map((d, i) => {
           const pct = total > 0 ? (d.count / total) * 100 : 0;
           const isActive = d.type === activeType;
@@ -60,7 +60,7 @@ export function ModelTypeChart({
         })}
       </div>
       {/* Legend */}
-      <div className="flex flex-wrap gap-x-3 gap-y-1 border-border border-t px-4 py-2.5">
+      <div className="border-border flex flex-wrap gap-x-3 gap-y-1 border-t px-4 py-2.5">
         {data.map((d, i) => (
           <button
             key={d.type}
@@ -78,7 +78,7 @@ export function ModelTypeChart({
               )}
             />
             <span className="text-muted-foreground">{d.type}</span>
-            <span className="font-mono text-foreground">{d.count}</span>
+            <span className="text-foreground font-mono">{d.count}</span>
           </button>
         ))}
       </div>

@@ -29,8 +29,8 @@ export function LicenseChart({
     selection?.type === "license" ? selection.license : null;
 
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
-      <div className="space-y-1 bg-background p-4">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
+      <div className="bg-background space-y-1 p-4">
         {data.map((d) => {
           const isOpen = OPEN_LICENSES.has(d.license);
           const isActive = d.license === activeLicense;
@@ -43,7 +43,7 @@ export function LicenseChart({
               )}
               onClick={() => onSelect({ type: "license", license: d.license })}
             >
-              <span className="w-24 shrink-0 truncate text-right text-muted-foreground text-xs">
+              <span className="text-muted-foreground w-24 shrink-0 truncate text-right text-xs">
                 {d.license}
               </span>
               <div className="flex-1">
@@ -58,14 +58,14 @@ export function LicenseChart({
                   }}
                 />
               </div>
-              <span className="w-8 font-mono text-muted-foreground text-xs tabular-nums">
+              <span className="text-muted-foreground w-8 font-mono text-xs tabular-nums">
                 {d.count}
               </span>
             </div>
           );
         })}
       </div>
-      <div className="flex items-center gap-4 border-border border-t px-4 py-2 text-[10px] text-muted-foreground">
+      <div className="border-border text-muted-foreground flex items-center gap-4 border-t px-4 py-2 text-[10px]">
         <span className="flex items-center gap-1">
           <span className="inline-block h-2 w-2 rounded-full bg-green-500" />{" "}
           Open

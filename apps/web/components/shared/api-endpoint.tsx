@@ -57,14 +57,14 @@ export function ApiEndpoint({
   }
 
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
       <div className="flex h-11 items-center gap-3 px-4 text-sm">
-        <span className="shrink-0 rounded bg-muted px-1.5 py-0.5 font-mono text-muted-foreground text-xs">
+        <span className="bg-muted text-muted-foreground shrink-0 rounded px-1.5 py-0.5 font-mono text-xs">
           GET
         </span>
-        <code className="shrink-0 text-foreground">{path}</code>
+        <code className="text-foreground shrink-0">{path}</code>
         {description && (
-          <span className="hidden text-muted-foreground text-xs sm:inline">
+          <span className="text-muted-foreground hidden text-xs sm:inline">
             {description}
           </span>
         )}
@@ -78,7 +78,7 @@ export function ApiEndpoint({
         </Button>
       </div>
       {params && (
-        <div className="mx-4 mb-3 overflow-hidden rounded text-xs ring-1 ring-border">
+        <div className="ring-border mx-4 mb-3 overflow-hidden rounded text-xs ring-1">
           {params.map(([name, desc], i) => (
             <div
               key={name}
@@ -96,7 +96,7 @@ export function ApiEndpoint({
       {visible && (
         <div className="border-border border-t">
           <pre
-            className="max-h-80 overflow-auto px-4 py-3 text-foreground text-xs"
+            className="text-foreground max-h-80 overflow-auto px-4 py-3 text-xs"
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>

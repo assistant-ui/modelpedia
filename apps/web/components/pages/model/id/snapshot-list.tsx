@@ -25,7 +25,7 @@ export function SnapshotList({
         <a
           key={s.id}
           href={`/${provider}/${s.id}`}
-          className="rounded bg-muted px-2 py-1 font-mono text-muted-foreground ring-1 ring-border transition-colors duration-200 hover:text-foreground"
+          className="bg-muted text-muted-foreground ring-border hover:text-foreground rounded px-2 py-1 font-mono ring-1 transition-colors duration-200"
         >
           {s.id}
         </a>
@@ -34,7 +34,7 @@ export function SnapshotList({
         <button
           type="button"
           onClick={() => setShowDeprecated(true)}
-          className="rounded bg-muted px-2 py-1 text-muted-foreground/40 ring-1 ring-border transition-colors duration-200 hover:text-muted-foreground"
+          className="bg-muted text-muted-foreground/40 ring-border hover:text-muted-foreground rounded px-2 py-1 ring-1 transition-colors duration-200"
         >
           +{deprecated.length} deprecated
         </button>
@@ -44,7 +44,7 @@ export function SnapshotList({
           <a
             key={s.id}
             href={`/${provider}/${s.id}`}
-            className="rounded bg-muted px-2 py-1 font-mono text-muted-foreground/40 line-through ring-1 ring-border transition-colors duration-200 hover:text-muted-foreground hover:no-underline"
+            className="bg-muted text-muted-foreground/40 ring-border hover:text-muted-foreground rounded px-2 py-1 font-mono line-through ring-1 transition-colors duration-200 hover:no-underline"
           >
             {s.id}
           </a>

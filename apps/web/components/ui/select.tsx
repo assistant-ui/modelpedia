@@ -26,7 +26,7 @@ export function SelectTrigger({
   return (
     <SelectPrimitive.Trigger
       className={cn(
-        "inline-flex select-none items-center gap-1.5 rounded-md bg-muted px-2 py-1 text-foreground text-xs ring-1 ring-border transition-colors duration-200 hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
+        "bg-muted text-foreground ring-border hover:bg-accent focus-visible:ring-ring inline-flex items-center gap-1.5 rounded-md px-2 py-1 text-xs ring-1 transition-colors duration-200 select-none focus-visible:ring-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50",
         className,
       )}
       {...props}
@@ -58,7 +58,7 @@ export function SelectContent({
       >
         <SelectPrimitive.Popup
           className={cn(
-            "max-h-[var(--available-height)] min-w-[var(--anchor-width)] origin-[var(--transform-origin)] overflow-y-auto rounded-md bg-muted p-1 ring-1 ring-border transition-all duration-150 data-[ending-style]:scale-95 data-[starting-style]:scale-95 data-[ending-style]:opacity-0 data-[starting-style]:opacity-0",
+            "bg-muted ring-border max-h-[var(--available-height)] min-w-[var(--anchor-width)] origin-[var(--transform-origin)] overflow-y-auto rounded-md p-1 ring-1 transition-all duration-150 data-[ending-style]:scale-95 data-[ending-style]:opacity-0 data-[starting-style]:scale-95 data-[starting-style]:opacity-0",
             className,
           )}
           {...props}
@@ -78,7 +78,7 @@ export function SelectItem({
   return (
     <SelectPrimitive.Item
       className={cn(
-        "relative flex w-full cursor-default select-none items-center gap-2 rounded-sm py-1.5 pr-8 pl-2 text-sm outline-none transition-colors duration-200 data-[highlighted]:bg-accent",
+        "data-[highlighted]:bg-accent relative flex w-full cursor-default items-center gap-2 rounded-sm py-1.5 pr-8 pl-2 text-sm transition-colors duration-200 outline-none select-none",
         className,
       )}
       {...props}
@@ -94,7 +94,7 @@ export function SelectItem({
 }
 
 export function SelectSeparator({ className }: { className?: string }) {
-  return <div className={cn("-mx-1 my-1 h-px bg-border", className)} />;
+  return <div className={cn("bg-border -mx-1 my-1 h-px", className)} />;
 }
 
 export function SelectLabel({
@@ -103,7 +103,7 @@ export function SelectLabel({
 }: SelectPrimitive.GroupLabel.Props) {
   return (
     <SelectPrimitive.GroupLabel
-      className={cn("px-2 py-1 text-muted-foreground text-xs", className)}
+      className={cn("text-muted-foreground px-2 py-1 text-xs", className)}
       {...props}
     />
   );

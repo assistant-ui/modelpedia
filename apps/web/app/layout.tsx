@@ -90,7 +90,7 @@ export default async function RootLayout({
       suppressHydrationWarning
       data-scroll-behavior="smooth"
     >
-      <body className="min-h-screen bg-background text-foreground text-sm">
+      <body className="bg-background text-foreground min-h-screen text-sm">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -115,7 +115,7 @@ export default async function RootLayout({
         />
         <Provider>
           <Header commandPaletteData={commandPaletteData} />
-          <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+          <div className="via-border h-px bg-gradient-to-r from-transparent to-transparent" />
           <div className="mx-auto flex min-h-[calc(100vh-3rem)] max-w-3xl flex-col px-4 sm:px-6">
             <div className="flex-1 py-10">{children}</div>
             <Footer />

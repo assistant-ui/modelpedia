@@ -64,7 +64,7 @@ function InlineObjDiff({
 
   return (
     <div className="flex flex-wrap items-baseline gap-x-3 gap-y-0.5 py-0.5">
-      <span className="shrink-0 font-mono text-muted-foreground">{field}</span>
+      <span className="text-muted-foreground shrink-0 font-mono">{field}</span>
       {changed.map((key) => (
         <span key={key} className="inline-flex items-baseline gap-1">
           <span className="text-muted-foreground/60">
@@ -98,7 +98,7 @@ function ChangeField({
 
   return (
     <div className="flex items-baseline gap-2 py-0.5">
-      <span className="shrink-0 font-mono text-muted-foreground">{field}</span>
+      <span className="text-muted-foreground shrink-0 font-mono">{field}</span>
       <DiffPair from={from} to={to} field={field} />
     </div>
   );
@@ -110,7 +110,7 @@ function CreateSummary({ changes }: { changes: Record<string, unknown> }) {
       {Object.keys(changes).map((f) => (
         <span
           key={f}
-          className="rounded bg-green-500/10 px-1.5 py-0.5 font-mono text-green-500 text-xs"
+          className="rounded bg-green-500/10 px-1.5 py-0.5 font-mono text-xs text-green-500"
         >
           {f}
         </span>
@@ -131,18 +131,18 @@ export function ChangeEntry({
   const hasChanges = entry.changes && Object.keys(entry.changes).length > 0;
 
   return (
-    <div className="rounded-md ring-1 ring-border">
+    <div className="ring-border rounded-md ring-1">
       <div className="flex items-center gap-3 px-4 py-3">
         <ProviderIcon provider={provider} size={14} />
         {showModel && entry.action !== "delete" ? (
           <Link
             href={`/${entry.provider}/${entry.model}`}
-            className="min-w-0 flex-1 truncate font-mono text-foreground text-sm transition-colors duration-200 hover:text-accent-foreground"
+            className="text-foreground hover:text-accent-foreground min-w-0 flex-1 truncate font-mono text-sm transition-colors duration-200"
           >
             {entry.model}
           </Link>
         ) : (
-          <span className="min-w-0 flex-1 truncate font-mono text-foreground text-sm">
+          <span className="text-foreground min-w-0 flex-1 truncate font-mono text-sm">
             {entry.model}
           </span>
         )}
@@ -159,12 +159,12 @@ export function ChangeEntry({
             href={`https://github.com/assistant-ui/modelpedia/commit/${entry.commit}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="shrink-0 font-mono text-muted-foreground/50 text-xs transition-colors duration-200 hover:text-muted-foreground"
+            className="text-muted-foreground/50 hover:text-muted-foreground shrink-0 font-mono text-xs transition-colors duration-200"
           >
             {entry.commit.slice(0, 7)}
           </a>
         )}
-        <span className="shrink-0 text-muted-foreground text-xs">
+        <span className="text-muted-foreground shrink-0 text-xs">
           {formatDate(entry.ts)}
         </span>
       </div>

@@ -9,7 +9,7 @@ export function Section({
 }) {
   return (
     <section className="mb-8">
-      <h2 id={id} className="mb-4 text-muted-foreground text-sm">
+      <h2 id={id} className="text-muted-foreground mb-4 text-sm">
         {title}
       </h2>
       {children}

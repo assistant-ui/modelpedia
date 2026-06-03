@@ -26,7 +26,7 @@ export function DropdownContent({
       <Menu.Positioner sideOffset={6} align={align}>
         <Menu.Popup
           className={cn(
-            "z-50 min-w-40 origin-top-right overflow-hidden rounded-md bg-muted ring-1 ring-border transition-all duration-150 data-[ending-style]:scale-95 data-[starting-style]:scale-95 data-[ending-style]:opacity-0 data-[starting-style]:opacity-0",
+            "bg-muted ring-border z-50 min-w-40 origin-top-right overflow-hidden rounded-md ring-1 transition-all duration-150 data-[ending-style]:scale-95 data-[ending-style]:opacity-0 data-[starting-style]:scale-95 data-[starting-style]:opacity-0",
             className,
           )}
         >
@@ -65,7 +65,7 @@ export function DropdownItem({
         ) : undefined
       }
       className={cn(
-        "flex w-full cursor-default items-center px-3 py-2 text-left text-sm outline-none transition-colors duration-200 data-[highlighted]:bg-accent",
+        "data-[highlighted]:bg-accent flex w-full cursor-default items-center px-3 py-2 text-left text-sm transition-colors duration-200 outline-none",
         className,
       )}
     >
@@ -75,7 +75,7 @@ export function DropdownItem({
 }
 
 export function DropdownSeparator({ className }: { className?: string }) {
-  return <Menu.Separator className={cn("my-1 h-px bg-border", className)} />;
+  return <Menu.Separator className={cn("bg-border my-1 h-px", className)} />;
 }
 
 export function DropdownLabel({
@@ -86,7 +86,7 @@ export function DropdownLabel({
   className?: string;
 }) {
   return (
-    <div className={cn("px-3 py-1.5 text-muted-foreground text-xs", className)}>
+    <div className={cn("text-muted-foreground px-3 py-1.5 text-xs", className)}>
       {children}
     </div>
   );

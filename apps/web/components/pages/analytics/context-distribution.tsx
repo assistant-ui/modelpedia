@@ -18,8 +18,8 @@ export function ContextDistributionChart({
     selection?.type === "contextRange" ? selection.label : null;
 
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
-      <div className="flex h-36 items-end gap-1 bg-background px-4 pt-4 pb-2 sm:h-48 md:h-56">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
+      <div className="bg-background flex h-36 items-end gap-1 px-4 pt-4 pb-2 sm:h-48 md:h-56">
         {data.map((d) => {
           const isActive = d.label === activeLabel;
           return (
@@ -44,13 +44,13 @@ export function ContextDistributionChart({
           );
         })}
       </div>
-      <div className="flex border-border border-t">
+      <div className="border-border flex border-t">
         {data.map((d) => (
           <div key={d.label} className="flex-1 py-2 text-center">
-            <div className="font-mono text-[10px] text-foreground">
+            <div className="text-foreground font-mono text-[10px]">
               {d.count}
             </div>
-            <div className="text-[9px] text-muted-foreground">{d.label}</div>
+            <div className="text-muted-foreground text-[9px]">{d.label}</div>
           </div>
         ))}
       </div>

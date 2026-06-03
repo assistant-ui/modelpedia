@@ -34,7 +34,7 @@ function capBadges(caps: ModelCapabilities | undefined) {
           return (
             <span
               key={key}
-              className="flex h-3.5 w-3.5 items-center justify-center rounded bg-muted text-[9px] text-muted-foreground"
+              className="bg-muted text-muted-foreground flex h-3.5 w-3.5 items-center justify-center rounded text-[9px]"
             >
               {letter}
             </span>
@@ -44,7 +44,7 @@ function capBadges(caps: ModelCapabilities | undefined) {
           return (
             <span
               key={key}
-              className="flex h-3.5 w-3.5 items-center justify-center rounded bg-muted text-[9px] text-muted-foreground/30"
+              className="bg-muted text-muted-foreground/30 flex h-3.5 w-3.5 items-center justify-center rounded text-[9px]"
             >
               {letter}
             </span>
@@ -67,7 +67,7 @@ function tokenColumn(
     cell: ({ row }) => {
       const v = row.original[key];
       return (
-        <span className="font-mono text-muted-foreground text-xs tabular-nums">
+        <span className="text-muted-foreground font-mono text-xs tabular-nums">
           {v != null ? formatTokens(v) : "—"}
         </span>
       );
@@ -136,10 +136,10 @@ const columns: ColumnDef<Model>[] = [
       if (p?.input == null && p?.output == null) return null;
       return (
         <span className="font-mono tabular-nums">
-          <span className="block text-foreground text-xs">
+          <span className="text-foreground block text-xs">
             {formatPrice(p?.input)}
           </span>
-          <span className="block text-muted-foreground text-xs">
+          <span className="text-muted-foreground block text-xs">
             {formatPrice(p?.output)}
           </span>
         </span>

@@ -19,7 +19,7 @@ export function ModalityChart({
       : null;
 
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
       <div className="bg-background">
         {data.map((d, i) => {
           const key = `${d.input}→${d.output}`;
@@ -31,7 +31,7 @@ export function ModalityChart({
             <div
               key={key}
               className={cn(
-                "flex cursor-pointer items-center gap-2 px-4 py-2.5 transition-colors duration-200 hover:bg-accent",
+                "hover:bg-accent flex cursor-pointer items-center gap-2 px-4 py-2.5 transition-colors duration-200",
                 i > 0 && "border-border border-t",
                 isActive && "bg-accent",
               )}
@@ -41,7 +41,7 @@ export function ModalityChart({
             >
               <div className="min-w-0 flex-1">
                 <span className="text-foreground text-xs">{fmtInput}</span>
-                <span className="mx-1.5 text-muted-foreground/50">→</span>
+                <span className="text-muted-foreground/50 mx-1.5">→</span>
                 <span className="text-foreground text-xs">{fmtOutput}</span>
               </div>
               <div className="w-16">
@@ -50,7 +50,7 @@ export function ModalityChart({
                   style={{ width: `${pct}%` }}
                 />
               </div>
-              <span className="w-6 text-right font-mono text-muted-foreground text-xs tabular-nums">
+              <span className="text-muted-foreground w-6 text-right font-mono text-xs tabular-nums">
                 {d.count}
               </span>
             </div>

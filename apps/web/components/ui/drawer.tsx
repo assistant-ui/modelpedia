@@ -32,13 +32,13 @@ export function DrawerContent({
       <BaseDrawer.Backdrop className="fixed inset-0 z-40 bg-black/20 transition-opacity duration-200 data-[ending-style]:opacity-0 data-[starting-style]:opacity-0" />
       <BaseDrawer.Popup
         className={cn(
-          "fixed inset-x-0 bottom-0 z-50 max-h-[85vh] overflow-hidden rounded-t-xl bg-background ring-1 ring-border transition-transform duration-200 data-[ending-style]:translate-y-full data-[starting-style]:translate-y-full",
+          "bg-background ring-border fixed inset-x-0 bottom-0 z-50 max-h-[85vh] overflow-hidden rounded-t-xl ring-1 transition-transform duration-200 data-[ending-style]:translate-y-full data-[starting-style]:translate-y-full",
           className,
         )}
       >
         {/* Drag handle */}
         <div className="flex justify-center py-2">
-          <div className="h-1 w-8 rounded-full bg-border" />
+          <div className="bg-border h-1 w-8 rounded-full" />
         </div>
         <div
           className="overflow-y-auto p-4"

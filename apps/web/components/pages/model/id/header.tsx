@@ -42,7 +42,7 @@ export function ModelDetailHeader({
         >
           <ProviderIcon provider={providerInfo} size={20} />
         </a>
-        <h1 className="font-medium text-foreground text-lg tracking-tight">
+        <h1 className="text-foreground text-lg font-medium tracking-tight">
           {model.name}
         </h1>
         {model.model_type && model.model_type !== "chat" && (
@@ -136,7 +136,7 @@ export function ModelDetailHeader({
       </div>
 
       {(model.description || model.tagline || successors) && (
-        <p className="text-pretty text-muted-foreground text-sm leading-relaxed">
+        <p className="text-muted-foreground text-sm leading-relaxed text-pretty">
           {model.description ? (
             <RenderMarkdown text={model.description} />
           ) : (
@@ -151,7 +151,7 @@ export function ModelDetailHeader({
                   {i > 0 && " or "}
                   <a
                     href={`/${model.provider}/${s}`}
-                    className="font-medium text-foreground transition-colors duration-200 hover:text-foreground/70"
+                    className="text-foreground hover:text-foreground/70 font-medium transition-colors duration-200"
                   >
                     {s}
                   </a>

@@ -45,11 +45,11 @@ export function ModelIdCopy({ groups }: { groups: CopyGroup[] }) {
             {group.items.map((item) => (
               <DropdownItem key={item.value} onSelect={() => copy(item.value)}>
                 <span className="flex min-w-0 flex-1 flex-col">
-                  <span className="truncate font-mono text-foreground text-xs">
+                  <span className="text-foreground truncate font-mono text-xs">
                     {item.value}
                   </span>
                   {item.label !== item.value && (
-                    <span className="truncate text-[11px] text-muted-foreground">
+                    <span className="text-muted-foreground truncate text-[11px]">
                       {item.label}
                     </span>
                   )}
