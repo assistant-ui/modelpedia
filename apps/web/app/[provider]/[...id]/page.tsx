@@ -233,7 +233,7 @@ export default async function ModelDetailPage({
                 </span>
                 <a
                   href={`/${model.provider}/${aliasOf}`}
-                  className="rounded bg-muted px-2 py-1 font-mono text-muted-foreground ring-1 ring-border transition-colors duration-200 hover:text-foreground"
+                  className="bg-muted text-muted-foreground ring-border hover:text-foreground rounded px-2 py-1 font-mono ring-1 transition-colors duration-200"
                 >
                   {aliasOf}
                 </a>

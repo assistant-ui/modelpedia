@@ -7,7 +7,7 @@ import { formatPrice } from "@/lib/format";
 export function InheritedBadge({ from }: { from?: string }) {
   return (
     <Tooltip content={`Inherited from ${from ?? "official model data"}`}>
-      <span className="inline-flex shrink-0 cursor-help text-muted-foreground/50">
+      <span className="text-muted-foreground/50 inline-flex shrink-0 cursor-help">
         <Info size={12} />
       </span>
     </Tooltip>
@@ -27,12 +27,12 @@ export function MetricCard({
 }) {
   return (
     <div className="bg-background px-4 py-3">
-      <div className="flex items-center gap-1 text-muted-foreground text-xs">
+      <div className="text-muted-foreground flex items-center gap-1 text-xs">
         {label}
         {inheritedFrom && <InheritedBadge from={inheritedFrom} />}
       </div>
       <div className="mt-1 flex items-baseline gap-1">
-        <span className="font-medium font-mono text-foreground text-lg">
+        <span className="text-foreground font-mono text-lg font-medium">
           {value}
         </span>
         {sub && <span className="text-muted-foreground text-xs">{sub}</span>}
@@ -63,7 +63,7 @@ export function RatingCard({
 
   return (
     <div className="bg-background px-4 py-3">
-      <div className="flex items-center gap-1 text-muted-foreground text-xs">
+      <div className="text-muted-foreground flex items-center gap-1 text-xs">
         {label}
         {inheritedFrom && <InheritedBadge from={inheritedFrom} />}
       </div>
@@ -82,7 +82,7 @@ export function RatingCard({
           </div>
         </Tooltip>
       ) : (
-        <div className="mt-1 font-medium font-mono text-foreground text-lg">
+        <div className="text-foreground mt-1 font-mono text-lg font-medium">
           —
         </div>
       )}
@@ -113,15 +113,15 @@ export function DetailCell({
     value
   );
   return (
-    <div className="flex items-center justify-between bg-background px-4 py-2.5 text-sm">
+    <div className="bg-background flex items-center justify-between px-4 py-2.5 text-sm">
       <span className="text-muted-foreground">{label}</span>
       <span className="flex items-center gap-1.5">
         <Wrapper
           href={href}
           className={cn(
-            "flex items-center gap-1.5 text-foreground",
+            "text-foreground flex items-center gap-1.5",
             href &&
-              "transition-colors duration-200 hover:text-accent-foreground",
+              "hover:text-accent-foreground transition-colors duration-200",
           )}
         >
           {icon}
@@ -143,7 +143,7 @@ export function PriceCell({
   return (
     <div className="bg-background px-4 py-3">
       <div className="text-muted-foreground text-xs">{label}</div>
-      <div className="mt-1 font-medium font-mono text-foreground">
+      <div className="text-foreground mt-1 font-mono font-medium">
         {formatPrice(value)}
       </div>
     </div>

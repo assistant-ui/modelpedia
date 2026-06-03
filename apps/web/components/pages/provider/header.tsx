@@ -35,7 +35,7 @@ export function ProviderDetailHeader({
     <div className="mb-8 space-y-4">
       <div className="flex items-center gap-2.5">
         <ProviderIcon provider={provider} size={20} />
-        <h1 className="font-medium text-foreground text-lg tracking-tight">
+        <h1 className="text-foreground text-lg font-medium tracking-tight">
           {family ? `${provider.name} · ${family}` : provider.name}
         </h1>
         {provider.type && (
@@ -84,12 +84,12 @@ export function ProviderDetailHeader({
       </div>
 
       {provider.description && (
-        <p className="text-pretty text-muted-foreground text-sm leading-relaxed">
+        <p className="text-muted-foreground text-sm leading-relaxed text-pretty">
           {provider.description}
         </p>
       )}
 
-      <div className="grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border">
+      <div className="bg-border ring-border grid grid-cols-2 gap-px overflow-hidden rounded-md ring-1">
         <MetricCard
           label="Active models"
           value={String(activeCount)}
@@ -100,7 +100,7 @@ export function ProviderDetailHeader({
         <MetricCard label="Families" value={String(families.size)} />
       </div>
 
-      <div className="overflow-hidden rounded-md ring-1 ring-border">
+      <div className="ring-border overflow-hidden rounded-md ring-1">
         <Row
           label="Headquarters"
           value={`${regionFlag(provider.region)} ${provider.headquarters ?? provider.region}`}

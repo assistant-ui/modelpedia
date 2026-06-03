@@ -22,8 +22,8 @@ export function ParamsTrend({
   const _hasSel = selection?.type === "month" && selection.chart === "context";
 
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
-      <div className="flex h-36 items-end gap-1 bg-background px-4 pt-4 pb-2 sm:h-48 md:h-56">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
+      <div className="bg-background flex h-36 items-end gap-1 px-4 pt-4 pb-2 sm:h-48 md:h-56">
         {data.map((d) => (
           <Tooltip
             key={d.month}
@@ -56,7 +56,7 @@ export function ParamsTrend({
           </Tooltip>
         ))}
       </div>
-      <div className="flex items-center justify-between border-border border-t px-4 py-2 text-[10px] text-muted-foreground">
+      <div className="border-border text-muted-foreground flex items-center justify-between border-t px-4 py-2 text-[10px]">
         <span>{data[0]?.month}</span>
         <div className="flex items-center gap-3">
           <span className="flex items-center gap-1">

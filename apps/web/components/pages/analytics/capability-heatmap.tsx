@@ -39,21 +39,21 @@ export function CapabilityHeatmap({
   const caps = Object.keys(CAP_LABELS);
 
   return (
-    <div className="overflow-hidden overflow-x-auto rounded-md ring-1 ring-border">
+    <div className="ring-border overflow-hidden overflow-x-auto rounded-md ring-1">
       <div
-        className="grid gap-px bg-border"
+        className="bg-border grid gap-px"
         style={{
           gridTemplateColumns: `1fr repeat(${caps.length}, 4rem)`,
         }}
       >
         {/* Header row */}
-        <div className="bg-background px-3 py-2 text-muted-foreground text-xs">
+        <div className="bg-background text-muted-foreground px-3 py-2 text-xs">
           Provider
         </div>
         {caps.map((c) => (
           <div
             key={c}
-            className="bg-background px-2 py-2 text-center text-[10px] text-muted-foreground"
+            className="bg-background text-muted-foreground px-2 py-2 text-center text-[10px]"
           >
             {CAP_LABELS[c]}
           </div>
@@ -63,14 +63,14 @@ export function CapabilityHeatmap({
           <React.Fragment key={row.provider}>
             <a
               href={`/${row.provider}`}
-              className="flex items-center gap-2 bg-background px-3 py-2 text-sm transition-colors duration-200 hover:bg-accent"
+              className="bg-background hover:bg-accent flex items-center gap-2 px-3 py-2 text-sm transition-colors duration-200"
             >
               <ProviderIcon
                 provider={row.icon ? { icon: row.icon } : null}
                 size={13}
               />
               <span className="truncate">{row.providerName}</span>
-              <span className="ml-auto shrink-0 font-mono text-[10px] text-muted-foreground">
+              <span className="text-muted-foreground ml-auto shrink-0 font-mono text-[10px]">
                 {row.modelCount}
               </span>
             </a>
@@ -87,7 +87,7 @@ export function CapabilityHeatmap({
                   <button
                     type="button"
                     className={cn(
-                      "flex cursor-pointer items-center justify-center bg-background py-2 text-center font-mono text-xs transition-all duration-150",
+                      "bg-background flex cursor-pointer items-center justify-center py-2 text-center font-mono text-xs transition-all duration-150",
                       heatClass(row.caps[c], active),
                     )}
                     onClick={() =>

@@ -74,11 +74,11 @@ export function DetailPanel({
   if (!content) return null;
 
   return (
-    <div className="relative overflow-hidden rounded-md bg-background shadow-lg ring-1 ring-border">
+    <div className="bg-background ring-border relative overflow-hidden rounded-md shadow-lg ring-1">
       <button
         type="button"
         onClick={onClose}
-        className="absolute top-2.5 right-2.5 z-10 rounded bg-background/80 p-1 text-muted-foreground backdrop-blur-sm transition-colors hover:text-foreground"
+        className="bg-background/80 text-muted-foreground hover:text-foreground absolute top-2.5 right-2.5 z-10 rounded p-1 backdrop-blur-sm transition-colors"
       >
         <X size={12} />
       </button>
@@ -100,7 +100,7 @@ function renderContent(selection: Selection, models: AnalyticsModel[]) {
     <>
       {/* Header */}
       <div className="border-border border-b px-3 py-3 pr-8">
-        <div className="font-medium text-foreground text-sm">
+        <div className="text-foreground text-sm font-medium">
           {header.title}
         </div>
         {header.badges && (
@@ -115,25 +115,25 @@ function renderContent(selection: Selection, models: AnalyticsModel[]) {
       </div>
 
       {/* Stats row */}
-      <div className="flex border-border border-b">
+      <div className="border-border flex border-b">
         <div className="flex-1 px-3 py-2">
-          <div className="font-mono text-foreground text-sm">
+          <div className="text-foreground font-mono text-sm">
             {filtered.length}
           </div>
-          <div className="text-[10px] text-muted-foreground">models</div>
+          <div className="text-muted-foreground text-[10px]">models</div>
         </div>
-        <div className="flex-1 border-border border-l px-3 py-2">
-          <div className="font-mono text-foreground text-sm">
+        <div className="border-border flex-1 border-l px-3 py-2">
+          <div className="text-foreground font-mono text-sm">
             {totalProviders}
           </div>
-          <div className="text-[10px] text-muted-foreground">providers</div>
+          <div className="text-muted-foreground text-[10px]">providers</div>
         </div>
         {header.stat && (
-          <div className="flex-1 border-border border-l px-3 py-2">
-            <div className="font-mono text-foreground text-sm">
+          <div className="border-border flex-1 border-l px-3 py-2">
+            <div className="text-foreground font-mono text-sm">
               {header.stat.value}
             </div>
-            <div className="text-[10px] text-muted-foreground">
+            <div className="text-muted-foreground text-[10px]">
               {header.stat.label}
             </div>
           </div>
@@ -150,7 +150,7 @@ function renderContent(selection: Selection, models: AnalyticsModel[]) {
             {/* Provider section header */}
             <div
               className={cn(
-                "flex items-center gap-2 bg-muted/30 px-3 py-1.5",
+                "bg-muted/30 flex items-center gap-2 px-3 py-1.5",
                 gi > 0 && "border-border border-t",
               )}
             >
@@ -158,10 +158,10 @@ function renderContent(selection: Selection, models: AnalyticsModel[]) {
                 provider={group.icon ? { icon: group.icon } : null}
                 size={11}
               />
-              <span className="flex-1 text-[10px] text-muted-foreground">
+              <span className="text-muted-foreground flex-1 text-[10px]">
                 {group.name}
               </span>
-              <span className="font-mono text-[10px] text-muted-foreground">
+              <span className="text-muted-foreground font-mono text-[10px]">
                 {group.models.length}
               </span>
             </div>
@@ -170,18 +170,18 @@ function renderContent(selection: Selection, models: AnalyticsModel[]) {
               <a
                 key={m.id}
                 href={`/${m.id}`}
-                className="flex items-center gap-2 border-border border-t px-3 py-1.5 transition-colors duration-200 hover:bg-accent"
+                className="border-border hover:bg-accent flex items-center gap-2 border-t px-3 py-1.5 transition-colors duration-200"
               >
-                <span className="min-w-0 flex-1 truncate text-foreground text-xs">
+                <span className="text-foreground min-w-0 flex-1 truncate text-xs">
                   {m.name}
                 </span>
-                <span className="shrink-0 font-mono text-[10px] text-muted-foreground">
+                <span className="text-muted-foreground shrink-0 font-mono text-[10px]">
                   {formatMeta(m, selection)}
                 </span>
               </a>
             ))}
             {group.models.length > 8 && (
-              <div className="border-border border-t px-3 py-1 text-[10px] text-muted-foreground">
+              <div className="border-border text-muted-foreground border-t px-3 py-1 text-[10px]">
                 +{group.models.length - 8} more
               </div>
             )}
@@ -210,10 +210,10 @@ function renderModel(
             size={16}
           />
           <div className="min-w-0 flex-1">
-            <div className="truncate font-medium text-foreground text-sm">
+            <div className="text-foreground truncate text-sm font-medium">
               {m.name}
             </div>
-            <div className="text-[10px] text-muted-foreground">
+            <div className="text-muted-foreground text-[10px]">
               {m.providerName}
             </div>
           </div>
@@ -229,7 +229,7 @@ function renderModel(
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-px bg-border">
+      <div className="bg-border grid grid-cols-2 gap-px">
         {m.input != null && (
           <Stat icon={DollarSign} label="Input" value={`$${m.input}/M`} />
         )}
@@ -249,7 +249,7 @@ function renderModel(
       </div>
 
       {m.caps.length > 0 && (
-        <div className="flex flex-wrap gap-1 border-border border-t px-3 py-2.5">
+        <div className="border-border flex flex-wrap gap-1 border-t px-3 py-2.5">
           {m.caps.map((c) => (
             <Badge key={c} variant="blue">
               {CAP_DISPLAY[c] ?? c}
@@ -260,7 +260,7 @@ function renderModel(
 
       <a
         href={`/${m.id}`}
-        className="flex items-center justify-center gap-1.5 border-border border-t px-3 py-2.5 text-muted-foreground text-xs transition-colors duration-200 hover:bg-accent hover:text-foreground"
+        className="border-border text-muted-foreground hover:bg-accent hover:text-foreground flex items-center justify-center gap-1.5 border-t px-3 py-2.5 text-xs transition-colors duration-200"
       >
         View details <ArrowRight size={12} />
       </a>
@@ -518,11 +518,11 @@ function Stat({
   value: string;
 }) {
   return (
-    <div className="flex items-center gap-2 bg-background px-3 py-2.5">
-      <Icon size={12} className="shrink-0 text-muted-foreground/50" />
+    <div className="bg-background flex items-center gap-2 px-3 py-2.5">
+      <Icon size={12} className="text-muted-foreground/50 shrink-0" />
       <div className="min-w-0">
-        <div className="text-[10px] text-muted-foreground">{label}</div>
-        <div className="font-mono text-foreground text-xs">{value}</div>
+        <div className="text-muted-foreground text-[10px]">{label}</div>
+        <div className="text-foreground font-mono text-xs">{value}</div>
       </div>
     </div>
   );

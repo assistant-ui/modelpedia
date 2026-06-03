@@ -29,7 +29,7 @@ export function PricingSection({
                   {tier.unit}
                 </span>
               </div>
-              <div className="overflow-x-auto rounded-md ring-1 ring-border">
+              <div className="ring-border overflow-x-auto rounded-md ring-1">
                 <table className="w-full text-sm">
                   <thead>
                     <tr className="text-muted-foreground text-xs">
@@ -47,7 +47,7 @@ export function PricingSection({
                   <tbody>
                     {tier.rows.map((row) => (
                       <tr key={row.label} className="border-border border-t">
-                        <td className="px-4 py-2.5 text-muted-foreground">
+                        <td className="text-muted-foreground px-4 py-2.5">
                           {row.label}
                         </td>
                         {row.values.map((val, i) => (
@@ -69,7 +69,7 @@ export function PricingSection({
         </div>
       ) : (
         <>
-          <div className="grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-3 lg:grid-cols-6">
+          <div className="bg-border ring-border grid grid-cols-2 gap-px overflow-hidden rounded-md ring-1 sm:grid-cols-3 lg:grid-cols-6">
             <PriceCell label="Input" value={pricing.input} />
             <PriceCell label="Output" value={pricing.output} />
             <PriceCell label={cacheWriteLabel} value={pricing.cache_write} />
@@ -84,14 +84,14 @@ export function PricingSection({
             <PriceCell label="Batch out" value={pricing.batch_output} />
           </div>
           {fastModePricing && (
-            <div className="mt-4 rounded-md ring-1 ring-border">
+            <div className="ring-border mt-4 rounded-md ring-1">
               <div className="border-border border-b px-4 py-2 text-xs">
                 <span className="text-foreground">Fast mode</span>{" "}
                 <span className="text-muted-foreground">
                   (beta, research preview)
                 </span>
               </div>
-              <div className="grid grid-cols-2 gap-px overflow-hidden rounded-b-md bg-border">
+              <div className="bg-border grid grid-cols-2 gap-px overflow-hidden rounded-b-md">
                 <PriceCell label="Input" value={fastModePricing.input} />
                 <PriceCell label="Output" value={fastModePricing.output} />
               </div>

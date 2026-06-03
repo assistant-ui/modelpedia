@@ -26,12 +26,12 @@ export function Tooltip({
         <BaseTooltip.Positioner sideOffset={6} side={side}>
           <BaseTooltip.Popup
             className={cn(
-              "z-50 rounded-md bg-foreground px-2.5 py-1.5 text-background text-xs shadow-md transition-all duration-150 data-[ending-style]:scale-95 data-[starting-style]:scale-95 data-[ending-style]:opacity-0 data-[starting-style]:opacity-0",
+              "bg-foreground text-background z-50 rounded-md px-2.5 py-1.5 text-xs shadow-md transition-all duration-150 data-[ending-style]:scale-95 data-[ending-style]:opacity-0 data-[starting-style]:scale-95 data-[starting-style]:opacity-0",
               className,
             )}
           >
             {content}
-            <BaseTooltip.Arrow className="data-[side=bottom]:top-[-4px] data-[side=left]:right-[-4px] data-[side=top]:bottom-[-4px] data-[side=right]:left-[-4px]">
+            <BaseTooltip.Arrow className="data-[side=bottom]:top-[-4px] data-[side=left]:right-[-4px] data-[side=right]:left-[-4px] data-[side=top]:bottom-[-4px]">
               <svg width="10" height="5" viewBox="0 0 10 5">
                 <path d="M0 0L5 5L10 0" className="fill-foreground" />
               </svg>

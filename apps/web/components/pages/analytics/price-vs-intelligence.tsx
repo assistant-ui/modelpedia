@@ -32,7 +32,7 @@ export function PriceVsIntelligence({
     onSelect({ type: "model", id: sorted[i].id });
 
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
       <div
         role="toolbar"
         // biome-ignore lint/a11y/noNoninteractiveTabindex: toolbar is interactive
@@ -42,7 +42,7 @@ export function PriceVsIntelligence({
           handleChartKeyDown(e, data.length, focusIdx, setFocusIdx, selectByIdx)
         }
         onFocus={() => focusIdx < 0 && setFocusIdx(0)}
-        className="relative h-48 bg-background sm:h-64 md:h-80"
+        className="bg-background relative h-48 sm:h-64 md:h-80"
         style={{ padding: "1rem 1rem 1rem 2.5rem" }}
       >
         {[1, 2, 3, 4, 5].map((v) => {
@@ -53,12 +53,12 @@ export function PriceVsIntelligence({
                 className="pointer-events-none absolute left-0"
                 style={{ bottom: `${y}%`, transform: "translateY(50%)" }}
               >
-                <span className="inline-block w-8 text-right text-[10px] text-muted-foreground/50">
+                <span className="text-muted-foreground/50 inline-block w-8 text-right text-[10px]">
                   {v}
                 </span>
               </div>
               <div
-                className="pointer-events-none absolute right-4 left-10 border-border/30 border-t"
+                className="border-border/30 pointer-events-none absolute right-4 left-10 border-t"
                 style={{ bottom: `${y}%` }}
               />
             </div>
@@ -102,7 +102,7 @@ export function PriceVsIntelligence({
           );
         })}
       </div>
-      <div className="flex items-center justify-between border-border border-t px-4 py-2 text-muted-foreground text-xs">
+      <div className="border-border text-muted-foreground flex items-center justify-between border-t px-4 py-2 text-xs">
         <span>Low price</span>
         <div className="hidden items-center gap-3 sm:flex">
           {[1, 2, 3, 4, 5].map((v) => (

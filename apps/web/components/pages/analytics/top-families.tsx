@@ -16,24 +16,24 @@ export function TopFamiliesChart({
   const activeFamily = selection?.type === "family" ? selection.family : null;
 
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
       <div className="bg-background">
         {data.slice(0, 15).map((d, i) => (
           <div
             key={d.family}
             className={cn(
-              "flex cursor-pointer items-center gap-3 px-4 py-2 transition-colors duration-200 hover:bg-accent",
+              "hover:bg-accent flex cursor-pointer items-center gap-3 px-4 py-2 transition-colors duration-200",
               i > 0 && "border-border border-t",
               activeFamily === d.family && "bg-accent",
             )}
             onClick={() => onSelect({ type: "family", family: d.family })}
           >
-            <span className="w-5 text-right font-mono text-[10px] text-muted-foreground">
+            <span className="text-muted-foreground w-5 text-right font-mono text-[10px]">
               {i + 1}
             </span>
             <div className="min-w-0 flex-1">
               <span className="text-foreground text-xs">{d.family}</span>
-              <span className="ml-1.5 text-[10px] text-muted-foreground">
+              <span className="text-muted-foreground ml-1.5 text-[10px]">
                 {d.provider}
               </span>
             </div>
@@ -43,7 +43,7 @@ export function TopFamiliesChart({
                 style={{ width: `${max > 0 ? (d.count / max) * 100 : 0}%` }}
               />
             </div>
-            <span className="w-6 text-right font-mono text-muted-foreground text-xs tabular-nums">
+            <span className="text-muted-foreground w-6 text-right font-mono text-xs tabular-nums">
               {d.count}
             </span>
           </div>

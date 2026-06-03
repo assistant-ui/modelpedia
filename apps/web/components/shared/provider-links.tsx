@@ -139,7 +139,7 @@ export function ProviderLinks({
                 external
               >
                 <span className="capitalize">{lang}</span>
-                <span className="ml-auto pl-4 font-mono text-muted-foreground text-xs">
+                <span className="text-muted-foreground ml-auto pl-4 font-mono text-xs">
                   {pkg}
                 </span>
               </DropdownItem>

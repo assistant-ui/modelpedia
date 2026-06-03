@@ -86,7 +86,7 @@ export function ChangesList({
       </div>
 
       <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
-        <div className="flex items-center gap-1.5 text-muted-foreground text-xs">
+        <div className="text-muted-foreground flex items-center gap-1.5 text-xs">
           <span>Action</span>
           <Select
             value={actionFilter}
@@ -110,7 +110,7 @@ export function ChangesList({
             </SelectContent>
           </Select>
         </div>
-        <div className="flex items-center gap-1.5 text-muted-foreground text-xs">
+        <div className="text-muted-foreground flex items-center gap-1.5 text-xs">
           <span>Provider</span>
           <Select
             value={providerFilter}
@@ -142,7 +142,7 @@ export function ChangesList({
       </div>
 
       {visible.length === 0 ? (
-        <p className="text-pretty py-16 text-center text-muted-foreground">
+        <p className="text-muted-foreground py-16 text-center text-pretty">
           {query || actionFilter || providerFilter
             ? "No matching changes found."
             : "No changes recorded yet. Changes will appear here after the next data fetch."}

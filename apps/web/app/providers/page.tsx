@@ -58,7 +58,7 @@ export default function ProvidersPage() {
                   {list.reduce((sum, p) => sum + p.models.length, 0)} models
                 </span>
               </div>
-              <div className="grid grid-cols-1 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-2 lg:grid-cols-3">
+              <div className="bg-border ring-border grid grid-cols-1 gap-px overflow-hidden rounded-md ring-1 sm:grid-cols-2 lg:grid-cols-3">
                 {sorted.map((p) => {
                   const empty = p.models.length === 0;
                   return (
@@ -66,17 +66,17 @@ export default function ProvidersPage() {
                       key={p.id}
                       href={`/${p.id}`}
                       className={cn(
-                        "flex items-center gap-3 bg-background px-4 py-3.5 transition-colors duration-200 hover:bg-accent",
+                        "bg-background hover:bg-accent flex items-center gap-3 px-4 py-3.5 transition-colors duration-200",
                         empty && "opacity-50",
                       )}
                     >
                       <ProviderIcon provider={p} size={16} />
                       <div className="min-w-0 flex-1">
-                        <span className="truncate text-foreground text-sm">
+                        <span className="text-foreground truncate text-sm">
                           {p.name}
                         </span>
                       </div>
-                      <span className="shrink-0 font-mono text-muted-foreground text-xs tabular-nums">
+                      <span className="text-muted-foreground shrink-0 font-mono text-xs tabular-nums">
                         {p.models.length || "—"}
                       </span>
                     </a>

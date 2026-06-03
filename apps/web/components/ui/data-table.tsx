@@ -87,7 +87,7 @@ export function DataTable<TData, TValue>({
         </div>
       )}
       {toolbar && <div className="mb-4">{toolbar}</div>}
-      <div className="overflow-hidden rounded-md ring-1 ring-border">
+      <div className="ring-border overflow-hidden rounded-md ring-1">
         <Table>
           <TableHeader>
             {table.getHeaderGroups().map((headerGroup) => (
@@ -165,7 +165,7 @@ export function DataTable<TData, TValue>({
               <TableRow>
                 <TableCell
                   colSpan={columns.length}
-                  className="text-balance py-8 text-center text-muted-foreground"
+                  className="text-muted-foreground py-8 text-center text-balance"
                 >
                   No results.
                 </TableCell>

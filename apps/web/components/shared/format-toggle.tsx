@@ -54,7 +54,7 @@ export function FormatToggle() {
       <div className="fixed bottom-20 left-1/2 z-50 hidden -translate-x-1/2 sm:bottom-6 sm:block">
         <button
           onClick={toggleFormat}
-          className="flex items-center rounded-md bg-muted text-xs ring-1 ring-border transition-colors duration-200"
+          className="bg-muted ring-border flex items-center rounded-md text-xs ring-1 transition-colors duration-200"
         >
           <span className={cn("px-3 py-1.5", isAI ? INACTIVE : ACTIVE)}>
             Human
@@ -67,12 +67,12 @@ export function FormatToggle() {
       {visible && (
         <div
           className={cn(
-            "fixed inset-0 z-40 bg-background transition-opacity duration-200",
+            "bg-background fixed inset-0 z-40 transition-opacity duration-200",
             isAI ? "opacity-100" : "opacity-0",
           )}
         >
           <div className="mx-auto flex h-12 max-w-3xl items-center px-6 text-sm">
-            <span className="font-mono text-foreground">AI Format</span>
+            <span className="text-foreground font-mono">AI Format</span>
             <div className="mx-auto">
               <span className="text-muted-foreground">
                 Markdown · machine-readable
@@ -80,17 +80,17 @@ export function FormatToggle() {
             </div>
             <button
               onClick={showHuman}
-              className="text-muted-foreground transition-colors duration-200 hover:text-foreground"
+              className="text-muted-foreground hover:text-foreground transition-colors duration-200"
             >
               Close
             </button>
           </div>
-          <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+          <div className="via-border h-px bg-gradient-to-r from-transparent to-transparent" />
           <div
             className="overflow-y-auto"
             style={{ height: "calc(100vh - 49px)" }}
           >
-            <pre className="mx-auto max-w-3xl whitespace-pre-wrap px-6 py-6 font-mono text-foreground text-sm leading-relaxed">
+            <pre className="text-foreground mx-auto max-w-3xl px-6 py-6 font-mono text-sm leading-relaxed whitespace-pre-wrap">
               {content}
             </pre>
           </div>

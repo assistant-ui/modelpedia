@@ -25,7 +25,7 @@ export function Pagination({
   if (totalPages <= 1) return null;
 
   return (
-    <div className="mt-4 flex flex-wrap items-center justify-between text-muted-foreground text-xs">
+    <div className="text-muted-foreground mt-4 flex flex-wrap items-center justify-between text-xs">
       <span>
         {pageIndex * pageSize + 1}–
         {Math.min((pageIndex + 1) * pageSize, totalRows)} of {totalRows}

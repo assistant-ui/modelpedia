@@ -75,7 +75,7 @@ export function ProviderMap({
   const activeRegion = selection?.type === "region" ? selection.region : null;
 
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
       <div className="bg-background">
         <ComposableMap
           projection="geoNaturalEarth1"
@@ -149,7 +149,7 @@ export function ProviderMap({
               <div key={c.region} className="flex items-center gap-1.5 text-xs">
                 <span>{regionFlag(c.region)}</span>
                 <span className="text-muted-foreground">{c.name}</span>
-                <span className="font-mono text-foreground">
+                <span className="text-foreground font-mono">
                   {c.providers.length}
                 </span>
                 <span className="text-muted-foreground/50">· {models}</span>

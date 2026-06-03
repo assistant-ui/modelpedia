@@ -94,7 +94,7 @@ export default async function ProviderDetailPage({
       <ProviderDetailHeader provider={provider} family={family} />
 
       {provider.models.length === 0 ? (
-        <p className="py-8 text-muted-foreground">No models.</p>
+        <p className="text-muted-foreground py-8">No models.</p>
       ) : (
         <ModelList models={models} searchable />
       )}

@@ -46,8 +46,8 @@ export function PriceDistribution({
     onSelect({ type: "price", label: data[i].label });
 
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
-      <div className="grid grid-cols-2 gap-px bg-border">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
+      <div className="bg-border grid grid-cols-2 gap-px">
         <StatCell
           label="Models with pricing"
           value={String(summary.totalPriced)}
@@ -63,7 +63,7 @@ export function PriceDistribution({
           handleChartKeyDown(e, data.length, focusIdx, setFocusIdx, selectByIdx)
         }
         onFocus={() => focusIdx < 0 && setFocusIdx(0)}
-        className="space-y-1 border-border border-t bg-background p-4 outline-none"
+        className="border-border bg-background space-y-1 border-t p-4 outline-none"
       >
         {data.map((d, i) => {
           const active = d.label === activeLabel;
@@ -81,7 +81,7 @@ export function PriceDistribution({
               )}
               onClick={() => onSelect({ type: "price", label: d.label })}
             >
-              <span className="w-14 shrink-0 text-right font-mono text-muted-foreground text-xs">
+              <span className="text-muted-foreground w-14 shrink-0 text-right font-mono text-xs">
                 {d.label}
               </span>
               <div className="flex-1">
@@ -90,7 +90,7 @@ export function PriceDistribution({
                     "h-5 rounded transition-all duration-150",
                     active
                       ? (PRICE_ACTIVE[i] ??
-                          "bg-foreground/40 ring-1 ring-foreground")
+                          "bg-foreground/40 ring-foreground ring-1")
                       : (PRICE_COLORS[i] ?? "bg-foreground/20"),
                   )}
                   style={{
@@ -99,14 +99,14 @@ export function PriceDistribution({
                   }}
                 />
               </div>
-              <span className="w-8 font-mono text-muted-foreground text-xs tabular-nums">
+              <span className="text-muted-foreground w-8 font-mono text-xs tabular-nums">
                 {d.count}
               </span>
             </div>
           );
         })}
       </div>
-      <div className="border-border border-t px-4 py-2 text-muted-foreground text-xs">
+      <div className="border-border text-muted-foreground border-t px-4 py-2 text-xs">
         Input price per 1M tokens
       </div>
     </div>

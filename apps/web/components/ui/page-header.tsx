@@ -18,18 +18,18 @@ export function PageHeader({
 }) {
   return (
     <div className={cn("mb-8", className)}>
-      <h1 className="flex items-center gap-2.5 font-medium text-foreground text-lg tracking-tight">
+      <h1 className="text-foreground flex items-center gap-2.5 text-lg font-medium tracking-tight">
         {icon}
         {title}
         {count != null && (
-          <span className="font-normal text-muted-foreground">{count}</span>
+          <span className="text-muted-foreground font-normal">{count}</span>
         )}
         {trailing && (
           <span className="ml-auto flex items-center gap-2">{trailing}</span>
         )}
       </h1>
       {sub && (
-        <div className="mt-1.5 flex items-center gap-3 text-muted-foreground text-sm">
+        <div className="text-muted-foreground mt-1.5 flex items-center gap-3 text-sm">
           {sub}
         </div>
       )}

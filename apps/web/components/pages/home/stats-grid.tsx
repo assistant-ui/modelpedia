@@ -4,13 +4,13 @@ export function StatsGrid({
   items: { label: string; value: number }[];
 }) {
   return (
-    <div className="grid grid-cols-3 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border">
+    <div className="bg-border ring-border grid grid-cols-3 gap-px overflow-hidden rounded-md ring-1">
       {items.map((item) => (
         <div key={item.label} className="bg-background px-4 py-4">
-          <div className="font-medium font-mono text-foreground text-xl sm:text-2xl">
+          <div className="text-foreground font-mono text-xl font-medium sm:text-2xl">
             {item.value}
           </div>
-          <div className="mt-1 text-muted-foreground text-xs">{item.label}</div>
+          <div className="text-muted-foreground mt-1 text-xs">{item.label}</div>
         </div>
       ))}
     </div>

@@ -100,20 +100,20 @@ export function McpSetup() {
         className="w-fit overflow-x-auto"
       />
       {client === "Others" && (
-        <p className="mt-3 text-muted-foreground text-xs">
+        <p className="text-muted-foreground mt-3 text-xs">
           Use the Streamable HTTP endpoint URL below with any MCP-compatible
           client. No auth required.
         </p>
       )}
-      <div className="mt-3 flex items-start overflow-hidden rounded-md ring-1 ring-border">
+      <div className="ring-border mt-3 flex items-start overflow-hidden rounded-md ring-1">
         <pre
-          className="flex-1 px-4 py-3 font-mono text-foreground text-xs"
+          className="text-foreground flex-1 px-4 py-3 font-mono text-xs"
           dangerouslySetInnerHTML={{ __html: html }}
         />
         <button
           type="button"
           onClick={handleCopy}
-          className="m-2 shrink-0 rounded p-1.5 text-muted-foreground transition-colors duration-200 hover:bg-muted hover:text-foreground"
+          className="text-muted-foreground hover:bg-muted hover:text-foreground m-2 shrink-0 rounded p-1.5 transition-colors duration-200"
           title="Copy"
         >
           {copied ? (

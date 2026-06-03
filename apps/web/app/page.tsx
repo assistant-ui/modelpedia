@@ -25,10 +25,10 @@ export default function HomePage() {
     <>
       <div className="mb-10 space-y-6">
         <div>
-          <h1 className="text-balance font-medium text-2xl text-foreground tracking-tight">
+          <h1 className="text-foreground text-2xl font-medium tracking-tight text-balance">
             modelpedia
           </h1>
-          <p className="mt-2 text-balance text-muted-foreground leading-relaxed">
+          <p className="text-muted-foreground mt-2 leading-relaxed text-balance">
             Open catalog of AI models across providers. Compare specs, pricing,
             and capabilities.
           </p>

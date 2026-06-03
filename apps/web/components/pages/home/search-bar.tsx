@@ -73,7 +73,7 @@ export function SearchBar({ items }: { items: SearchItem[] }) {
             {query ? (
               <button
                 type="button"
-                className="pointer-events-auto rounded p-0.5 text-muted-foreground transition-colors hover:text-foreground"
+                className="text-muted-foreground hover:text-foreground pointer-events-auto rounded p-0.5 transition-colors"
                 onClick={clear}
                 tabIndex={-1}
               >
@@ -88,7 +88,7 @@ export function SearchBar({ items }: { items: SearchItem[] }) {
 
       <div
         className={cn(
-          "absolute top-full right-0 left-0 z-30 mt-1 origin-top overflow-hidden rounded-md bg-muted ring-1 ring-border transition-all duration-150",
+          "bg-muted ring-border absolute top-full right-0 left-0 z-30 mt-1 origin-top overflow-hidden rounded-md ring-1 transition-all duration-150",
           showDropdown && results.length > 0
             ? "scale-y-100 opacity-100"
             : "pointer-events-none scale-y-95 opacity-0",
@@ -98,20 +98,20 @@ export function SearchBar({ items }: { items: SearchItem[] }) {
           <Link
             key={item.id}
             href={item.href}
-            className="flex items-center gap-2.5 px-3 py-2 text-sm transition-colors duration-150 hover:bg-accent"
+            className="hover:bg-accent flex items-center gap-2.5 px-3 py-2 text-sm transition-colors duration-150"
           >
             <ProviderIcon
               provider={item.icon ? { icon: item.icon } : null}
               size={14}
             />
-            <span className="truncate text-foreground">{item.name}</span>
-            <span className="ml-auto shrink-0 text-muted-foreground text-xs">
+            <span className="text-foreground truncate">{item.name}</span>
+            <span className="text-muted-foreground ml-auto shrink-0 text-xs">
               {item.sub}
             </span>
           </Link>
         ))}
         {query.trim().length >= 2 && (
-          <div className="border-border border-t px-3 py-2 text-muted-foreground text-xs">
+          <div className="border-border text-muted-foreground border-t px-3 py-2 text-xs">
             Press <Kbd className="text-[10px]">Enter</Kbd> for all results
           </div>
         )}

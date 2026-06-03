@@ -85,10 +85,10 @@ export function ModelPicker({
     <div className="relative flex-1" ref={ref}>
       <button
         onClick={show}
-        className="flex w-full items-center gap-2 rounded-md bg-muted px-3 py-2.5 text-left text-sm ring-1 ring-border transition-colors duration-200 hover:bg-accent"
+        className="bg-muted ring-border hover:bg-accent flex w-full items-center gap-2 rounded-md px-3 py-2.5 text-left text-sm ring-1 transition-colors duration-200"
       >
         {current ? (
-          <span className="flex min-w-0 items-center gap-2 truncate text-foreground">
+          <span className="text-foreground flex min-w-0 items-center gap-2 truncate">
             <ProviderIcon
               provider={toIconProp(current.providerIcon)}
               size={14}
@@ -102,7 +102,7 @@ export function ModelPicker({
       {visible && (
         <div
           className={cn(
-            "absolute top-12 right-0 left-0 z-20 origin-top overflow-hidden rounded-md bg-muted ring-1 ring-border transition-all duration-150",
+            "bg-muted ring-border absolute top-12 right-0 left-0 z-20 origin-top overflow-hidden rounded-md ring-1 transition-all duration-150",
             open
               ? "scale-100 opacity-100"
               : "pointer-events-none scale-95 opacity-0",
@@ -115,20 +115,20 @@ export function ModelPicker({
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Search models..."
-              className="w-full rounded-md bg-background px-3 py-2 text-foreground text-sm placeholder-muted-foreground ring-1 ring-border transition-[box-shadow,ring-color] duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              className="bg-background text-foreground placeholder-muted-foreground ring-border focus-visible:ring-ring w-full rounded-md px-3 py-2 text-sm ring-1 transition-[box-shadow,ring-color] duration-200 focus-visible:ring-2 focus-visible:outline-none"
             />
           </div>
           <div className="max-h-60 overflow-y-auto overscroll-contain">
             {selected && (
               <button
                 onClick={() => select(null)}
-                className="w-full px-3 py-2 text-left text-muted-foreground text-xs transition-colors duration-200 hover:bg-accent"
+                className="text-muted-foreground hover:bg-accent w-full px-3 py-2 text-left text-xs transition-colors duration-200"
               >
                 Clear selection
               </button>
             )}
             {query && filtered.length === 0 && (
-              <div className="px-3 py-4 text-center text-muted-foreground text-xs">
+              <div className="text-muted-foreground px-3 py-4 text-center text-xs">
                 No models found
               </div>
             )}
@@ -139,7 +139,7 @@ export function ModelPicker({
                   key={key}
                   onClick={() => select(key)}
                   className={cn(
-                    "flex w-full items-center gap-2 px-3 py-2 text-left text-sm transition-colors duration-200 hover:bg-accent",
+                    "hover:bg-accent flex w-full items-center gap-2 px-3 py-2 text-left text-sm transition-colors duration-200",
                     key === selected && "bg-accent",
                   )}
                 >
@@ -148,10 +148,10 @@ export function ModelPicker({
                     size={13}
                   />
                   <div className="min-w-0 flex-1">
-                    <span className="block truncate text-foreground">
+                    <span className="text-foreground block truncate">
                       {m.name}
                     </span>
-                    <span className="block truncate font-mono text-muted-foreground text-xs">
+                    <span className="text-muted-foreground block truncate font-mono text-xs">
                       {m.id}
                     </span>
                   </div>
@@ -159,7 +159,7 @@ export function ModelPicker({
               );
             })}
             {!query && (
-              <div className="px-3 py-4 text-center text-muted-foreground text-xs">
+              <div className="text-muted-foreground px-3 py-4 text-center text-xs">
                 Type to search
               </div>
             )}

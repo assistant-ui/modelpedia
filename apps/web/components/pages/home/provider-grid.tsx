@@ -10,16 +10,16 @@ export function ProviderGrid({
   total: number;
 }) {
   return (
-    <div className="grid grid-cols-1 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-2 md:grid-cols-3">
+    <div className="bg-border ring-border grid grid-cols-1 gap-px overflow-hidden rounded-md ring-1 sm:grid-cols-2 md:grid-cols-3">
       {providers.map((p) => (
         <a
           key={p.id}
           href={`/${p.id}`}
-          className="flex items-center gap-3 bg-background px-4 py-4 transition-colors duration-200 hover:bg-accent"
+          className="bg-background hover:bg-accent flex items-center gap-3 px-4 py-4 transition-colors duration-200"
         >
           <ProviderIcon provider={p} size={20} />
           <div className="min-w-0 flex-1">
-            <div className="font-medium text-foreground text-sm">{p.name}</div>
+            <div className="text-foreground text-sm font-medium">{p.name}</div>
             <div className="text-muted-foreground text-xs">
               {p.models.length} models · {p.region}
             </div>
@@ -28,16 +28,16 @@ export function ProviderGrid({
       ))}
       <a
         href="/providers"
-        className="group flex items-center gap-3 bg-background px-4 py-4 transition-colors duration-200 hover:bg-accent"
+        className="group bg-background hover:bg-accent flex items-center gap-3 px-4 py-4 transition-colors duration-200"
       >
-        <div className="flex h-5 w-5 items-center justify-center rounded-md bg-muted text-muted-foreground">
+        <div className="bg-muted text-muted-foreground flex h-5 w-5 items-center justify-center rounded-md">
           <ChevronRight
             size={14}
             className="transition-transform duration-200 group-hover:translate-x-0.5"
           />
         </div>
         <div className="min-w-0 flex-1">
-          <div className="font-medium text-muted-foreground text-sm transition-colors duration-200 group-hover:text-foreground">
+          <div className="text-muted-foreground group-hover:text-foreground text-sm font-medium transition-colors duration-200">
             View all providers
           </div>
           <div className="text-muted-foreground text-xs">

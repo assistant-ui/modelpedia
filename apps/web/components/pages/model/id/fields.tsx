@@ -46,7 +46,7 @@ export function DetailsGrid({
 
   return (
     <Section id="details" title="Details">
-      <div className="grid gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-2">
+      <div className="bg-border ring-border grid gap-px overflow-hidden rounded-md ring-1 sm:grid-cols-2">
         {normalizeModelId(model.id) !== normalizeModelId(model.name) && (
           <DetailCell label="Model ID" value={model.id} />
         )}

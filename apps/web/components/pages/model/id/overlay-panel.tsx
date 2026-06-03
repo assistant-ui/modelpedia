@@ -45,7 +45,7 @@ export function OverlayPanel({
   return (
     <div
       className={cn(
-        "fixed inset-0 top-[49px] z-40 bg-background transition-opacity duration-200",
+        "bg-background fixed inset-0 top-[49px] z-40 transition-opacity duration-200",
         visible ? "opacity-100" : "opacity-0",
       )}
     >

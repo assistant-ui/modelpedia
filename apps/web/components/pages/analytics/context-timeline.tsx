@@ -33,8 +33,8 @@ export function ContextTimeline({
   const ticks = computeContextTicks(max);
 
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
-      <div className="grid grid-cols-2 gap-px bg-border">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
+      <div className="bg-border grid grid-cols-2 gap-px">
         <StatCell
           label="Current max"
           value={formatTokens(summary.currentMax)}
@@ -42,7 +42,7 @@ export function ContextTimeline({
         <StatCell label="Growth" value={`${summary.growthFactor}x`} />
       </div>
       <div
-        className="relative h-36 border-border border-t bg-background sm:h-48 md:h-56"
+        className="border-border bg-background relative h-36 border-t sm:h-48 md:h-56"
         style={{ padding: "1rem 1rem 0.5rem 3rem" }}
       >
         {ticks.map((t) => {
@@ -53,12 +53,12 @@ export function ContextTimeline({
                 className="pointer-events-none absolute left-0"
                 style={{ bottom: `${pct}%`, transform: "translateY(50%)" }}
               >
-                <span className="inline-block w-10 text-right font-mono text-[10px] text-muted-foreground/50">
+                <span className="text-muted-foreground/50 inline-block w-10 text-right font-mono text-[10px]">
                   {formatTokens(t)}
                 </span>
               </div>
               <div
-                className="pointer-events-none absolute right-4 left-12 border-border/30 border-t"
+                className="border-border/30 pointer-events-none absolute right-4 left-12 border-t"
                 style={{ bottom: `${pct}%` }}
               />
             </div>
@@ -116,7 +116,7 @@ export function ContextTimeline({
           })}
         </div>
       </div>
-      <div className="flex items-center justify-between border-border border-t px-4 py-2 text-[10px] text-muted-foreground">
+      <div className="border-border text-muted-foreground flex items-center justify-between border-t px-4 py-2 text-[10px]">
         <span>{data[0]?.month}</span>
         <span className="font-mono">max {formatTokens(max)} tokens</span>
         <span>{data[data.length - 1]?.month}</span>

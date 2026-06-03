@@ -37,7 +37,7 @@ export function Header({ commandPaletteData }: HeaderProps) {
       <div className="flex flex-1 items-center">
         <Link
           href="/"
-          className="flex items-center gap-2 font-semibold text-foreground tracking-tight"
+          className="text-foreground flex items-center gap-2 font-semibold tracking-tight"
         >
           <Logo className="h-5 w-5" />
           modelpedia
@@ -49,7 +49,7 @@ export function Header({ commandPaletteData }: HeaderProps) {
           <Link
             key={link.href}
             href={link.href}
-            className="text-muted-foreground transition-colors duration-200 hover:text-foreground"
+            className="text-muted-foreground hover:text-foreground transition-colors duration-200"
           >
             {link.label}
           </Link>

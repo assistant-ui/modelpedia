@@ -18,13 +18,13 @@ export function ProviderRankingChart({
     selection?.type === "providerRank" ? selection.provider : null;
 
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
       <div className="bg-background">
         {data.map((d, i) => (
           <div
             key={d.provider}
             className={cn(
-              "flex cursor-pointer items-center gap-3 px-4 py-2 transition-colors duration-200 hover:bg-accent",
+              "hover:bg-accent flex cursor-pointer items-center gap-3 px-4 py-2 transition-colors duration-200",
               i > 0 && "border-border border-t",
               activeProvider === d.provider && "bg-accent",
             )}
@@ -36,7 +36,7 @@ export function ProviderRankingChart({
               provider={d.icon ? { icon: d.icon } : null}
               size={14}
             />
-            <span className="min-w-0 flex-1 truncate text-foreground text-xs">
+            <span className="text-foreground min-w-0 flex-1 truncate text-xs">
               {d.providerName}
             </span>
             <div className="w-20">
@@ -45,7 +45,7 @@ export function ProviderRankingChart({
                 style={{ width: `${max > 0 ? (d.count / max) * 100 : 0}%` }}
               />
             </div>
-            <span className="w-8 text-right font-mono text-muted-foreground text-xs tabular-nums">
+            <span className="text-muted-foreground w-8 text-right font-mono text-xs tabular-nums">
               {d.count}
             </span>
           </div>

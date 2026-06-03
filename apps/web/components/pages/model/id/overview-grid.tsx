@@ -118,7 +118,7 @@ export function OverviewGrid({
   return (
     <div
       id="overview"
-      className="grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-4"
+      className="bg-border ring-border grid grid-cols-2 gap-px overflow-hidden rounded-md ring-1 sm:grid-cols-4"
     >
       {cards}
     </div>

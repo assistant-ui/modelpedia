@@ -37,7 +37,7 @@ export function CapabilitiesGrid({
 }) {
   return (
     <Section id="capabilities" title="Capabilities">
-      <div className="grid grid-cols-2 gap-px overflow-hidden rounded-md bg-border ring-1 ring-border sm:grid-cols-4">
+      <div className="bg-border ring-border grid grid-cols-2 gap-px overflow-hidden rounded-md ring-1 sm:grid-cols-4">
         {CAP_KEYS.map((key) => {
           const val = model.capabilities?.[key];
           const unknown = val == null;
@@ -46,7 +46,7 @@ export function CapabilitiesGrid({
           return (
             <div
               key={key}
-              className="flex items-center gap-2 bg-background px-3 py-2.5"
+              className="bg-background flex items-center gap-2 px-3 py-2.5"
             >
               <Icon
                 size={14}
@@ -67,7 +67,7 @@ export function CapabilitiesGrid({
                 <Tooltip content="No data available">
                   <CircleHelp
                     size={12}
-                    className="shrink-0 text-muted-foreground/40"
+                    className="text-muted-foreground/40 shrink-0"
                   />
                 </Tooltip>
               )}

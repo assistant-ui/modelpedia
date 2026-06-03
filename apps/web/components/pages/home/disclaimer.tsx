@@ -3,7 +3,7 @@ const linkClass =
 
 export function Disclaimer() {
   return (
-    <p className="text-pretty text-center text-muted-foreground/60 text-xs leading-relaxed">
+    <p className="text-muted-foreground/60 text-center text-xs leading-relaxed text-pretty">
       Data is collected from public sources and may contain inaccuracies.{" "}
       <a
         href="https://github.com/assistant-ui/modelpedia/issues"

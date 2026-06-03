@@ -24,8 +24,8 @@ export function PricingTrend({
       : null;
 
   return (
-    <div className="overflow-hidden rounded-md ring-1 ring-border">
-      <div className="flex h-36 items-end gap-1 bg-background px-4 pt-4 pb-2 sm:h-48 md:h-56">
+    <div className="ring-border overflow-hidden rounded-md ring-1">
+      <div className="bg-background flex h-36 items-end gap-1 px-4 pt-4 pb-2 sm:h-48 md:h-56">
         {data.map((d) => {
           const clamped = Math.min(d.medianInput, max);
           const pct = max > 0 ? Math.max((clamped / max) * 100, 2) : 0;
@@ -57,7 +57,7 @@ export function PricingTrend({
           );
         })}
       </div>
-      <div className="flex items-center justify-between border-border border-t px-4 py-2 text-[10px] text-muted-foreground">
+      <div className="border-border text-muted-foreground flex items-center justify-between border-t px-4 py-2 text-[10px]">
         <span>{data[0]?.month}</span>
         <span className="font-mono">median $/1M input</span>
         <span>{data[data.length - 1]?.month}</span>

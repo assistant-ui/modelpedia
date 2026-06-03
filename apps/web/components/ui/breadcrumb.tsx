@@ -13,7 +13,7 @@ export function Breadcrumb({
     <nav
       aria-label="Breadcrumb"
       className={cn(
-        "mb-3 flex items-center gap-2 text-muted-foreground text-sm",
+        "text-muted-foreground mb-3 flex items-center gap-2 text-sm",
         className,
       )}
     >
@@ -29,7 +29,7 @@ export function Breadcrumb({
             {href ? (
               <a
                 href={href}
-                className="transition-colors duration-200 hover:text-foreground"
+                className="hover:text-foreground transition-colors duration-200"
               >
                 {label}
               </a>

@@ -5,7 +5,7 @@ export function Divider({ className }: { className?: string }) {
     <div
       role="separator"
       className={cn(
-        "my-8 h-px bg-gradient-to-r from-transparent via-border to-transparent",
+        "via-border my-8 h-px bg-gradient-to-r from-transparent to-transparent",
         className,
       )}
     />

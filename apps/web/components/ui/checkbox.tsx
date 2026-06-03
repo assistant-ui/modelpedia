@@ -14,7 +14,7 @@ export const Checkbox = forwardRef<
 >(({ label, className, ...props }, ref) => (
   <label
     className={cn(
-      "inline-flex items-center gap-2 text-foreground text-sm",
+      "text-foreground inline-flex items-center gap-2 text-sm",
       props.disabled && "pointer-events-none opacity-50",
       className,
     )}
@@ -22,9 +22,9 @@ export const Checkbox = forwardRef<
     <BaseCheckbox.Root
       ref={ref}
       className={cn(
-        "flex h-4 w-4 shrink-0 items-center justify-center rounded border border-border bg-background transition-colors duration-200",
+        "border-border bg-background flex h-4 w-4 shrink-0 items-center justify-center rounded border transition-colors duration-200",
         "hover:border-foreground/30",
-        "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
+        "focus-visible:ring-ring focus-visible:ring-2 focus-visible:outline-none",
         "data-[checked]:border-foreground data-[checked]:bg-foreground data-[checked]:text-background",
         "data-[indeterminate]:border-foreground data-[indeterminate]:bg-foreground data-[indeterminate]:text-background",
       )}

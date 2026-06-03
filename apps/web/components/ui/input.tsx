@@ -11,7 +11,7 @@ export const Input = forwardRef<
   <BaseInput
     ref={ref}
     className={cn(
-      "w-full rounded-md bg-muted px-3 py-2 text-foreground text-sm placeholder-muted-foreground ring-1 ring-border transition-[box-shadow,ring-color] duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring data-[disabled]:opacity-50",
+      "bg-muted text-foreground placeholder-muted-foreground ring-border focus-visible:ring-ring w-full rounded-md px-3 py-2 text-sm ring-1 transition-[box-shadow,ring-color] duration-200 focus-visible:ring-2 focus-visible:outline-none data-[disabled]:opacity-50",
       className,
     )}
     {...props}

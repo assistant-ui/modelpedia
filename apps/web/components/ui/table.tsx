@@ -39,7 +39,7 @@ export const TableRow = forwardRef<HTMLTableRowElement, ComponentProps<"tr">>(
     <tr
       ref={ref}
       className={cn(
-        "border-border border-b transition-colors duration-200 hover:bg-accent data-[state=selected]:bg-accent",
+        "border-border hover:bg-accent data-[state=selected]:bg-accent border-b transition-colors duration-200",
         className,
       )}
       {...props}
@@ -53,7 +53,7 @@ export const TableHead = forwardRef<HTMLTableCellElement, ComponentProps<"th">>(
     <th
       ref={ref}
       className={cn(
-        "h-9 px-4 text-left align-middle font-normal text-muted-foreground text-xs uppercase tracking-wider [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]",
+        "text-muted-foreground h-9 px-4 text-left align-middle text-xs font-normal tracking-wider uppercase [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]",
         className,
       )}
       {...props}
