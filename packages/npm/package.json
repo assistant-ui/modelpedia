@@ -67,7 +67,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "tsdown": "^0.22.0",
+    "tsdown": "^0.22.1",
     "typescript": "catalog:"
   }
 }
