@@ -1,5 +1,6 @@
-import { fetchText, findHtmlTables, stripHtml } from "./parse.ts";
+import { fetchText } from "./parse.ts";
 import {
+  assertParsed,
   inferFamily,
   inferParameters,
   type ModelEntry,
@@ -11,8 +12,8 @@ import {
 
 const sources = readSources("cerebras");
 const OVERVIEW_URL = sources.overview as string;
-const MODEL_PAGES = sources.models as string[];
 const DEPRECATIONS_URL = sources.deprecations as string;
+const MODELS_BASE = "https://inference-docs.cerebras.ai/models/";
 
 // ── Creator mapping ──
 
@@ -32,103 +33,73 @@ function extractCreator(id: string): string {
   return "unknown";
 }
 
-// ── Overview page parsing ──
+/** A model id is hyphenated and lowercase (e.g. "zai-glm-4.7"); API parameters
+ * use underscores ("disable_reasoning") or are single words ("tools"). */
+function looksLikeModelId(token: string): boolean {
+  return (
+    /^[a-z0-9][a-z0-9.]*(-[a-z0-9.]+)+$/.test(token) && !token.includes("_")
+  );
+}
+
+// ── Overview page parsing (markdown Model Catalog) ──
 
 interface OverviewInfo {
+  id: string;
   name: string;
+  slug: string;
   parameters?: string;
   speed?: number;
   status: "active" | "preview";
-  precision?: string;
-  huggingface_url?: string;
 }
 
-function parseOverview(html: string): Map<string, OverviewInfo> {
-  const result = new Map<string, OverviewInfo>();
-  const tables = findHtmlTables(html);
-
-  for (const table of tables) {
-    if (table.rows.length < 2) continue;
-    const header = table.rows[0].map((h) => h.toLowerCase());
-
-    // Model tables (Production / Preview): Model Name | Model ID | Parameters | Speed
-    if (header.some((h) => h.includes("model id"))) {
-      const tablePos = html.indexOf(table.raw);
-      const before = html.slice(Math.max(0, tablePos - 3000), tablePos);
-      const headings = [...before.matchAll(/<h[23][^>]*>([\s\S]*?)<\/h[23]>/g)];
-      const heading =
-        headings.length > 0 ? stripHtml(headings[headings.length - 1][1]) : "";
-      const status: "active" | "preview" = heading
-        .toLowerCase()
-        .includes("preview")
-        ? "preview"
-        : "active";
-
-      const nameIdx = header.findIndex((h) => h.includes("model name"));
-      const idIdx = header.findIndex((h) => h.includes("model id"));
-      const paramIdx = header.findIndex((h) => h.includes("parameter"));
-      const speedIdx = header.findIndex((h) => h.includes("speed"));
-
-      for (const row of table.rows.slice(1)) {
-        if (row.length < 2) continue;
-        const id = (row[idIdx] ?? "").replace(/`/g, "").trim();
-        if (!id) continue;
-        result.set(id, {
-          name: (row[nameIdx] ?? id).trim(),
-          parameters: paramIdx >= 0 ? row[paramIdx]?.trim() : undefined,
-          speed:
-            speedIdx >= 0
-              ? Number(row[speedIdx]?.replace(/[^0-9]/g, "")) || undefined
-              : undefined,
-          status,
-        });
-      }
-    }
-
-    // Compression table: Model Name | Precision | Hugging Face Link
-    if (header.some((h) => h.includes("precision"))) {
-      const nameIdx = Math.max(
-        0,
-        header.findIndex((h) => h.includes("model")),
-      );
-      const precIdx = Math.max(
-        1,
-        header.findIndex((h) => h.includes("precision")),
-      );
-
-      const rowMatches = [...table.raw.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)];
-      for (let i = 1; i < rowMatches.length; i++) {
-        const cells = [
-          ...rowMatches[i][1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g),
-        ].map((m) => m[1]);
-        if (cells.length < 3) continue;
-
-        const id = stripHtml(cells[nameIdx]).replace(/`/g, "").trim();
-        const precision = stripHtml(cells[precIdx])
-          .replace(/\s*\d+$/, "")
-          .trim();
-        const hfMatch = cells[cells.length - 1].match(
-          /href="(https:\/\/huggingface\.co\/[^"]+)"/,
-        );
-
-        const existing = result.get(id);
-        if (existing) {
-          existing.precision = precision;
-          existing.huggingface_url = hfMatch?.[1];
-        }
-      }
+/**
+ * Parse the markdown Model Catalog (overview.md). Each `## Production Models` /
+ * `## Preview Models` section holds one table:
+ *   | Model Name | Model ID | Parameters | Speed (tokens/s) |
+ * The Model Name cell links to the per-model page: `[Display](/models/<slug>)`.
+ */
+function parseOverview(md: string): OverviewInfo[] {
+  const result: OverviewInfo[] = [];
+  const sectionRe =
+    /##\s+(Production|Preview)\s+Models\s*\n([\s\S]*?)(?=\n##\s|\n#\s|$)/g;
+  let sec: RegExpExecArray | null;
+  while ((sec = sectionRe.exec(md)) !== null) {
+    const status: "active" | "preview" =
+      sec[1] === "Production" ? "active" : "preview";
+    for (const line of sec[2].split("\n")) {
+      if (!line.trim().startsWith("|")) continue;
+      // Skip header + separator rows
+      if (/Model Name/i.test(line) || /^\s*\|[\s:|-]+\|\s*$/.test(line))
+        continue;
+      const cells = line
+        .split("|")
+        .slice(1, -1)
+        .map((c) => c.trim());
+      if (cells.length < 2) continue;
+      const linkMatch = cells[0].match(/\[([^\]]+)\]\((\/models\/[^)]+)\)/);
+      if (!linkMatch) continue;
+      const name = linkMatch[1].replace(/<sup>.*?<\/sup>/g, "").trim();
+      const slug = linkMatch[2].replace("/models/", "").trim();
+      const id = cells[1].replace(/`/g, "").trim();
+      if (!id) continue;
+      result.push({
+        id,
+        name,
+        slug,
+        parameters: cells[2]?.trim(),
+        speed: cells[3]
+          ? Number(cells[3].replace(/[^0-9]/g, "")) || undefined
+          : undefined,
+        status,
+      });
     }
   }
-
   return result;
 }
 
 // ── Model page parsing (.md MDX source) ──
-// The .md endpoint returns raw MDX with a <ModelInfo /> component containing all data as props:
-//   features={["Reasoning", "Streaming", ...]}
-//   endpoints={["Chat Completions", "Completions"]}
-//   inputOutput={{ inputFormats: ["text"], outputFormats: ["text"] }}
-//   knownLimitations={[<span>...</span>]}
+// The .md endpoint returns raw MDX with a <ModelInfo /> component carrying all
+// data as props (features, endpoints, inputOutput, contextLength, pricing, ...).
 
 interface ModelPageData {
   id: string;
@@ -268,7 +239,7 @@ function parseModelPage(md: string): ModelPageData | null {
   };
 }
 
-// ── Deprecations page parsing ──
+// ── Deprecations page parsing (markdown <Update> blocks) ──
 
 interface DeprecatedModel {
   id: string;
@@ -276,54 +247,50 @@ interface DeprecatedModel {
   successor?: string;
 }
 
-function parseDeprecations(html: string): DeprecatedModel[] {
+/**
+ * Parse the markdown deprecation log. Each entry is an
+ *   <Update label="YYYY-MM-DD"> ... </Update>
+ * block. Deprecated model ids are the backticked, model-id-shaped tokens
+ * before the "recommend/migrate/transition" phrase; the successor is the
+ * model linked/backticked after it. Sections that deprecate an API parameter
+ * (e.g. `disable_reasoning`) rather than a model are skipped.
+ */
+function parseDeprecations(
+  md: string,
+  slugToId: Map<string, string>,
+): DeprecatedModel[] {
   const deprecated: DeprecatedModel[] = [];
-  const sections = html.split(/(?=<[^>]*?id="\d{4}-\d{2}-\d{2}")/);
+  const blockRe = /<Update label="(\d{4}-\d{2}-\d{2})">([\s\S]*?)<\/Update>/g;
+  let block: RegExpExecArray | null;
+  while ((block = blockRe.exec(md)) !== null) {
+    const date = block[1];
+    const body = block[2];
+    const title = (body.match(/\*\*([\s\S]*?)\*\*/)?.[1] ?? body).trim();
+    // Parameter deprecations are not model deprecations.
+    if (/\bparameter\b/i.test(title)) continue;
 
-  for (const section of sections) {
-    const dateMatch = section.match(/id="(\d{4}-\d{2}-\d{2})"/);
-    if (!dateMatch) continue;
-    const date = dateMatch[1];
-    const text = stripHtml(section);
+    const recommendPos = body.search(/recommend|migrat|transition/i);
+    const cutoff = recommendPos < 0 ? body.length : recommendPos;
 
-    // Codes before "recommend" are deprecated; codes after are successors
-    const recommendPos = text.search(/recommend/i);
-    const allCodes = [...section.matchAll(/<code[^>]*>([\w.-]+)<\/code>/g)].map(
-      (m) => m[1],
-    );
+    const depIds = [...body.slice(0, cutoff).matchAll(/`([^`]+)`/g)]
+      .map((m) => m[1])
+      .filter(looksLikeModelId);
+    if (depIds.length === 0) continue;
 
-    const depIds: string[] = [];
-    for (const code of allCodes) {
-      const codePos = text.indexOf(code);
-      if (recommendPos < 0 || codePos < recommendPos) {
-        depIds.push(code);
-      }
-    }
-
-    // Successor: prefer link text, fallback to code tag after "recommend"
-    const successorLink = section.match(
-      /recommend[\s\S]*?<a[^>]*>([\s\S]*?)<\/a>/i,
-    );
-    let successor = successorLink
-      ? stripHtml(successorLink[1]).trim()
-      : undefined;
-
-    // Also try code-tag successor (e.g. "transitioning to `llama-3.3-70b`")
+    // Successor: prefer a /models/<slug> link after "recommend", resolved to
+    // its model id; fall back to a backticked model id.
+    let successor: string | undefined;
+    const after = recommendPos < 0 ? "" : body.slice(recommendPos);
+    const linkSlug = after.match(/\/models\/([a-z0-9-]+)/)?.[1];
+    if (linkSlug && slugToId.has(linkSlug)) successor = slugToId.get(linkSlug);
     if (!successor) {
-      for (const code of allCodes) {
-        const codePos = text.indexOf(code);
-        if (recommendPos >= 0 && codePos > recommendPos) {
-          successor = code;
-          break;
-        }
-      }
+      successor = [...after.matchAll(/`([^`]+)`/g)]
+        .map((m) => m[1])
+        .find(looksLikeModelId);
     }
 
-    for (const id of depIds) {
-      deprecated.push({ id, date, successor });
-    }
+    for (const id of depIds) deprecated.push({ id, date, successor });
   }
-
   return deprecated;
 }
 
@@ -332,21 +299,19 @@ function parseDeprecations(html: string): DeprecatedModel[] {
 async function main() {
   console.log("Fetching Cerebras models...");
 
-  // 1. Fetch overview for model metadata (status, parameters, speed, precision, HF links)
-  let overview = new Map<string, OverviewInfo>();
-  if (OVERVIEW_URL) {
-    try {
-      const html = await fetchText(OVERVIEW_URL);
-      overview = parseOverview(html);
-      console.log(`Overview: ${overview.size} models`);
-    } catch (err) {
-      console.warn("Could not fetch overview:", err);
-    }
-  }
+  // 1. Fetch the markdown Model Catalog and discover model pages from it.
+  const overviewMd = await fetchText(OVERVIEW_URL);
+  const overview = parseOverview(overviewMd);
+  console.log(`Overview: ${overview.length} models`);
+  assertParsed(overview.length, "cerebras (overview)");
 
-  // 2. Fetch individual model pages for detailed data
+  const slugToId = new Map(overview.map((o) => [o.slug, o.id]));
+
+  // 2. Fetch each discovered model page for detailed specs.
   let written = 0;
-  for (const url of MODEL_PAGES) {
+  let pagesParsed = 0;
+  for (const ov of overview) {
+    const url = `${MODELS_BASE}${ov.slug}.md`;
     let md: string;
     try {
       md = await fetchText(url);
@@ -360,29 +325,25 @@ async function main() {
       console.warn(`Could not parse model from ${url}`);
       continue;
     }
+    pagesParsed++;
 
-    const ov = overview.get(page.id);
-
-    // Provider-specific extra fields
     const extra: Record<string, unknown> = {};
     if (page.model_card_url) extra.model_card_url = page.model_card_url;
-    if (ov?.speed) extra.tokens_per_second = ov.speed;
-    if (ov?.precision) extra.precision = ov.precision;
-    if (ov?.huggingface_url) extra.huggingface_url = ov.huggingface_url;
+    const speed = page.speed ?? ov.speed;
+    if (speed) extra.tokens_per_second = speed;
 
-    // Parameters: prefer overview page, fall back to inferParameters from model ID
+    // Parameters: prefer overview ("120 billion"), fall back to the model id.
     let parameters: number | undefined;
     let active_parameters: number | undefined;
-    if (ov?.parameters) {
-      const paramMatch = ov.parameters.match(/([\d.]+)\s*billion/i);
-      if (paramMatch) parameters = Number(paramMatch[1]);
+    if (ov.parameters) {
+      const m = ov.parameters.match(/([\d.]+)\s*billion/i);
+      if (m) parameters = Number(m[1]);
     }
     if (!parameters) {
       const inferred = inferParameters(page.id);
       if (inferred) {
         parameters = inferred.parameters;
-        if (inferred.active_parameters)
-          active_parameters = inferred.active_parameters;
+        active_parameters = inferred.active_parameters;
       }
     }
 
@@ -393,13 +354,12 @@ async function main() {
 
     const entry: ModelEntry = {
       id: page.id,
-      name: page.display_name ?? ov?.name ?? page.id,
+      name: page.display_name ?? ov.name ?? page.id,
       created_by: extractCreator(page.id),
       family: inferFamily(page.id),
       model_type: "chat",
-      status: ov?.status ?? "active",
+      status: ov.status,
       open_weight: true,
-
       context_window: page.context_window,
       max_output_tokens: page.max_output_tokens,
       parameters,
@@ -411,22 +371,24 @@ async function main() {
         page.endpoints.length > 0 ? page.endpoints : ["chat_completions"],
       ...extra,
     };
-
-    if (page.pricing) {
-      entry.pricing = page.pricing;
-    }
+    if (page.pricing) entry.pricing = page.pricing;
 
     written += upsertWithSnapshot("cerebras", entry);
   }
 
-  // 3. Fetch deprecations for historical deprecated models
+  assertParsed(pagesParsed, "cerebras (model pages)");
+
+  // 3. Fetch deprecations for historical deprecated models.
   if (DEPRECATIONS_URL) {
     try {
-      const html = await fetchText(DEPRECATIONS_URL);
-      const deps = parseDeprecations(html);
+      const depMd = await fetchText(DEPRECATIONS_URL);
+      const deps = parseDeprecations(depMd, slugToId);
       console.log(`Deprecations: ${deps.length} deprecated models`);
+      const activeIds = new Set(overview.map((o) => o.id));
 
       for (const dep of deps) {
+        // Never mark a currently-active model as deprecated.
+        if (activeIds.has(dep.id)) continue;
         const depParams = inferParameters(dep.id);
         const entry: ModelEntry = {
           id: dep.id,
@@ -441,7 +403,6 @@ async function main() {
           active_parameters: depParams?.active_parameters,
           modalities: { input: ["text"], output: ["text"] },
         };
-
         if (dep.successor) entry.successor = dep.successor;
         written += upsertModel("cerebras", entry) ? 1 : 0;
       }

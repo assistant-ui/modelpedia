@@ -1,4 +1,5 @@
 import {
+  assertParsed,
   envOrNull,
   inferFamily,
   type ModelEntry,
@@ -26,16 +27,16 @@ async function fetchModelSlugs(): Promise<{
   deprecated: Map<string, { deprecation?: string; retirement?: string }>;
 }> {
   const res = await fetch(MODELS_PAGE);
+  if (!res.ok) throw new Error(`mistral models page: ${res.status}`);
   const html = await res.text();
 
-  // Extract model page slugs from href patterns in RSC payload
+  // Model detail pages live at /models/model-cards/<slug>. Harvest those links
+  // from the overview page (the old /models/<id> scheme was retired in 2026).
   const slugs = [
     ...new Set(
-      [
-        ...html.matchAll(
-          /\/models\/((?:mistral|codestral|devstral|ministral|pixtral|magistral|voxtral)[a-z0-9-]+)/g,
-        ),
-      ].map((m) => m[1]),
+      [...html.matchAll(/\/models\/model-cards\/([a-z0-9-]+)/g)].map(
+        (m) => m[1],
+      ),
     ),
   ];
 
@@ -184,6 +185,7 @@ async function main() {
   console.log(
     `Found ${slugs.length} model slugs, ${deprecated.size} deprecated`,
   );
+  assertParsed(slugs.length, "mistral (model-card discovery)");
 
   // Fetch detail pages in parallel (batch of 5)
   const details: ModelDetail[] = [];
