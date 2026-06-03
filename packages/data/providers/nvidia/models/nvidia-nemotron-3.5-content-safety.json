@@ -1,0 +1,24 @@
+{
+  "id": "nvidia/nemotron-3.5-content-safety",
+  "name": "nemotron-3.5-content-safety",
+  "created_by": "nvidia",
+  "source": "official",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2557cb12",
+    "model_type": "d669f408",
+    "capabilities": "48995a4e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-03"
+}

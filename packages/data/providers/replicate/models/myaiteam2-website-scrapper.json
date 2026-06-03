@@ -1,0 +1,16 @@
+{
+  "id": "myaiteam2/website-scrapper",
+  "name": "Website Scrapper",
+  "created_by": "myaiteam2",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/myaiteam2/website-scrapper",
+  "_generated": {
+    "name": "4db8d554",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "1b1164ac"
+  },
+  "last_updated": "2026-06-03"
+}
