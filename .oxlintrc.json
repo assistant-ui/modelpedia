@@ -1,0 +1,60 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "react", "import", "oxc"],
+  "categories": {
+    "correctness": "error",
+    "perf": "off",
+    "suspicious": "off",
+    "pedantic": "off",
+    "style": "off",
+    "restriction": "off",
+    "nursery": "off"
+  },
+  "rules": {
+    "no-explicit-any": "off",
+    "no-array-index-key": "off",
+    "no-non-null-assertion": "off",
+    "no-namespace": "off",
+    "react/forward-ref-uses-ref": "off",
+    "react/no-array-index-key": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/exhaustive-deps": "off",
+    "react/rules-of-hooks": "warn",
+    "no-unused-vars": "off",
+    "typescript/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "no-labels": "error",
+    "no-empty-pattern": "warn",
+    "no-prototype-builtins": "off",
+    "import/no-duplicates": "off",
+    "typescript/triple-slash-reference": "off",
+    "no-unsafe-optional-chaining": "warn",
+    "require-yield": "off",
+    "no-eval": "off",
+    "no-unused-expressions": "off",
+    "typescript/no-this-alias": "off",
+    "typescript/no-unnecessary-parameter-property-assignment": "off",
+    "oxc/const-comparisons": "warn"
+  },
+  "ignorePatterns": [
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/.next/**",
+    "**/.vercel/**",
+    "**/out/**",
+    "**/build/**",
+    "**/.turbo/**",
+    "**/coverage/**",
+    "**/next-env.d.ts",
+    "**/worker-configuration.d.ts",
+    "**/packages/data/src/data.ts",
+    "**/packages/npm/src/data.ts",
+    "**/packages/npm/src/providers/**"
+  ]
+}

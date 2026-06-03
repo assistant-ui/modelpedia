@@ -52,7 +52,7 @@ pnpm dev          # Start all apps
 pnpm dev:web      # Website only
 pnpm dev:api      # API only
 pnpm build        # Build all packages
-pnpm lint         # Lint with Biome
+pnpm lint         # Lint with oxlint and check formatting with oxfmt
 ```
 
 ## Data
