@@ -126193,7 +126193,6 @@ export const providers: ProviderWithModels[] = [
         "description": "chatgpt-4o",
         "status": "active",
         "release_date": "2025-03-31",
-        "context_window": 0,
         "max_output_tokens": 131072,
         "model_type": "chat",
         "tagline": "chatgpt-4o",
