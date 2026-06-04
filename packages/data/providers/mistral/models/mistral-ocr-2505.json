@@ -29,7 +29,11 @@
     "capabilities": "4e827c07",
     "modalities": "6399757e",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "description": "d0318622",
+    "tagline": "d0318622"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-06-03",
+  "description": "Our first OCR optimized model.",
+  "tagline": "Our first OCR optimized model."
 }
