@@ -18398,3 +18398,4 @@
 {"ts":"2026-06-04T07:15:33.585Z","provider":"stability","model":"sv4d2.0","action":"update","changes":{"huggingface_downloads":{"from":506,"to":508}},"commit":"19a79d16c11fea3710c3fd3e2796f52c8c7aa9ca"}
 {"ts":"2026-06-04T07:15:33.585Z","provider":"stability","model":"tiny-random-stablelm-2","action":"update","changes":{"huggingface_downloads":{"from":545,"to":569}},"commit":"19a79d16c11fea3710c3fd3e2796f52c8c7aa9ca"}
 {"ts":"2026-06-04T07:15:33.585Z","provider":"stability","model":"TripoSR","action":"update","changes":{"huggingface_downloads":{"from":161669,"to":160331}},"commit":"19a79d16c11fea3710c3fd3e2796f52c8c7aa9ca"}
+{"ts":"2026-06-04T07:37:35.961Z","provider":"novita","model":"gt-4p","action":"update","changes":{"context_window":{"from":0}},"commit":"0b1d390e32ece979fe50c7edd34e6c9cc6eb7d49"}
