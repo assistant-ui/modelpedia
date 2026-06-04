@@ -17,14 +17,23 @@ const sources = readSources("minimax");
 const PRICING_MD = sources.pricing as string;
 const MODELS_MD = sources.models as string;
 
-function parseDollar(s: string): number | undefined {
-  const m = s.match(/\$([\d.]+)/);
+function parseDollar(s: string | undefined): number | undefined {
+  const m = s?.match(/\$([\d.]+)/);
   return m ? Number(m[1]) : undefined;
 }
 
 /** Normalize model name to lowercase ID. */
 function toId(name: string): string {
   return name.toLowerCase().replace(/\s+/g, "-");
+}
+
+/**
+ * Strip HTML and tier annotations from a pricing-table name cell. M3 rows carry
+ * markup like "MiniMax-M3<br />≤ 512k input tokens <span ...>7-day 50% off</span>";
+ * only the leading model token is the name.
+ */
+function cleanModelName(cell: string): string {
+  return cell.split("<")[0].trim();
 }
 
 interface ModelSpec {
@@ -100,6 +109,7 @@ async function main() {
 
   // Parse pricing tables
   const lines = pricingMd.split("\n");
+  const seen = new Set<string>();
   let written = 0;
 
   for (const line of lines) {
@@ -114,7 +124,7 @@ async function main() {
       .filter(Boolean);
     if (cells.length < 3) continue;
 
-    const name = cells[0];
+    const name = cleanModelName(cells[0]);
     if (!name.startsWith("MiniMax") && !name.startsWith("M2")) continue;
 
     const input = parseDollar(cells[1]);
@@ -125,6 +135,10 @@ async function main() {
     if (input == null || output == null) continue;
 
     const id = toId(name);
+    // M3 is listed once per tab/tier (Standard/Priority × ≤512k/>512k); the
+    // first row is the Standard ≤512k list price. Keep it, drop the rest.
+    if (seen.has(id)) continue;
+    seen.add(id);
     const spec = modelSpecs.get(id);
 
     const entry: ModelEntry = {
