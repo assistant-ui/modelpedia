@@ -1,0 +1,14 @@
+{
+  "id": "coderplan",
+  "name": "CoderPlan",
+  "region": "CN",
+  "url": "https://coderplan.ai",
+  "api_url": "https://api.coderplan.ai/v1",
+  "docs_url": "https://coderplan.ai/docs",
+  "pricing_url": "https://coderplan.ai/pricing",
+  "description": "LLM API gateway for developers. OpenAI-compatible API with pay-per-use pricing, connecting Claude Code, Cursor, and other AI tools to all major models.",
+  "type": "aggregator",
+  "openai_compatible": true,
+  "free_tier": true,
+  "github_url": "https://github.com/coderplan-ai"
+}
