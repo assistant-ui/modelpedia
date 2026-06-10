@@ -11,7 +11,7 @@
     "streaming": true
   },
   "pricing": {
-    "input": 1.4,
+    "input": 0.26,
     "output": 4.4
   },
   "modalities": {
@@ -25,8 +25,8 @@
     "page_url": "02003d4f",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "pricing": "caa16a81",
+    "pricing": "ef5dd26e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-04-10"
+  "last_updated": "2026-06-10"
 }

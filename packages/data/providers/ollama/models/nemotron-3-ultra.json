@@ -1,0 +1,46 @@
+{
+  "id": "nemotron-3-ultra",
+  "name": "nemotron-3-ultra",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.",
+  "release_date": "2026-06-04",
+  "context_window": 262144,
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "parameters": 550,
+  "active_parameters": 55,
+  "page_url": "https://ollama.com/library/nemotron-3-ultra",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "36073d74",
+    "description": "7d820d4c",
+    "release_date": "054ba895",
+    "context_window": "4a1d32eb",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "parameters": "01f78be6",
+    "active_parameters": "b53b3a3d",
+    "page_url": "12c48cbd",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "7d820d4c",
+    "capabilities": "4043afaa",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-10"
+}

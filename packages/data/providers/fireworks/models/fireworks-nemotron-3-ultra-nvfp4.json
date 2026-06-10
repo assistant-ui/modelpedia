@@ -1,0 +1,31 @@
+{
+  "id": "fireworks/nemotron-3-ultra-nvfp4",
+  "name": "nemotron-3-ultra-nvfp4",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 262000,
+  "page_url": "https://fireworks.ai/models/fireworks/nemotron-3-ultra-nvfp4",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "42f4b6fe",
+    "context_window": "4ed74017",
+    "page_url": "48e3c323",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-10"
+}

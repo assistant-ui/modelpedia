@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/bernini-r/reference-to-video",
+  "name": "Bernini-R Reference to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Turn up to five reference images into one continuous, consistent video with Bernini-R, with smooth, stable camera motion and no scene cuts.",
+  "status": "active",
+  "release_date": "2026-06-08",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/bernini-r/reference-to-video",
+  "tagline": "Turn up to five reference images into one continuous, consistent video with Bernini-R, with smooth, stable camera motion and no scene cuts.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-06-09",
+  "_generated": {
+    "name": "37d586cf",
+    "description": "8a35d254",
+    "status": "379ac110",
+    "release_date": "850fe4a0",
+    "model_type": "4d1b75ca",
+    "page_url": "11fff6b8",
+    "tagline": "8a35d254",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "fcf93e36"
+  },
+  "last_updated": "2026-06-10"
+}

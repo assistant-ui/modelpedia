@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/bernini-r/text-to-video",
+  "name": "Bernini-R Text to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate high-quality video from a text prompt with Bernini-R, ByteDance's unified video generation and editing model.",
+  "status": "active",
+  "release_date": "2026-06-08",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/bernini-r/text-to-video",
+  "tagline": "Generate high-quality video from a text prompt with Bernini-R, ByteDance's unified video generation and editing model.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-06-09",
+  "_generated": {
+    "name": "db63e8bc",
+    "description": "4cb847d4",
+    "status": "379ac110",
+    "release_date": "850fe4a0",
+    "model_type": "4d1b75ca",
+    "page_url": "0b7d4da7",
+    "tagline": "4cb847d4",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "fcf93e36"
+  },
+  "last_updated": "2026-06-10"
+}

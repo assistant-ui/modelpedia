@@ -3,7 +3,7 @@
   "name": "Meta: Llama 3 8B Instruct",
   "created_by": "meta-llama",
   "source": "official",
-  "last_updated": "2026-05-07",
+  "last_updated": "2026-06-10",
   "family": "llama-3",
   "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors.",
   "context_window": 8192,
@@ -18,8 +18,8 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.04,
-    "output": 0.04
+    "input": 0.14,
+    "output": 0.14
   },
   "_generated": {
     "name": "18b7df55",
@@ -29,7 +29,7 @@
     "max_output_tokens": "77441296",
     "modalities": "68e53d93",
     "capabilities": "6c9aa67e",
-    "pricing": "e339168e",
+    "pricing": "046d6107",
     "model_type": "d669f408",
     "parameters": "c9f0f895",
     "release_date": "3aec6636",

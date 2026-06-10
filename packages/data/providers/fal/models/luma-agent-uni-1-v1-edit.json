@@ -1,0 +1,35 @@
+{
+  "id": "luma/agent/uni-1/v1/edit",
+  "name": "Luma Uni-1 Edit",
+  "created_by": "luma",
+  "source": "official",
+  "description": "Luma Uni-1 Edit reworks a source image from a text instruction, preserving the original composition while applying style changes and following optional reference images to steer the result.",
+  "status": "active",
+  "release_date": "2026-06-09",
+  "model_type": "image",
+  "page_url": "https://fal.run/luma/agent/uni-1/v1/edit",
+  "tagline": "Luma Uni-1 Edit reworks a source image from a text instruction, preserving the original composition while applying style changes and following optional reference images to steer the result.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-06-09",
+  "_generated": {
+    "name": "19eb48c4",
+    "description": "1ed9dccb",
+    "status": "379ac110",
+    "release_date": "fcf93e36",
+    "model_type": "db8857fe",
+    "page_url": "328049c9",
+    "tagline": "1ed9dccb",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "fcf93e36"
+  },
+  "last_updated": "2026-06-10"
+}

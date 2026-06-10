@@ -3,9 +3,9 @@
   "name": "mistral-medium-2505",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-06-10",
   "family": "mistral-medium",
-  "status": "deprecated",
+  "status": "active",
   "context_window": 128000,
   "alias": "mistral-medium",
   "capabilities": {
@@ -24,7 +24,7 @@
   "_generated": {
     "name": "c85e71e0",
     "family": "a57f1b52",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "context_window": "34434798",
     "capabilities": "fc36814c",
     "modalities": "6399757e",

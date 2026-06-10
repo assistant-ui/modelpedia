@@ -1,0 +1,35 @@
+{
+  "id": "luma/agent/ray/v3.2/text-to-video",
+  "name": "Luma Ray 3.2 Text to Video",
+  "created_by": "luma",
+  "source": "official",
+  "description": "Luma Ray 3.2 generates cinematic video from a text prompt, with control over resolution, duration, and seamless looping, plus reference images to lock in subject and style.",
+  "status": "active",
+  "release_date": "2026-06-09",
+  "model_type": "video",
+  "page_url": "https://fal.run/luma/agent/ray/v3.2/text-to-video",
+  "tagline": "Luma Ray 3.2 generates cinematic video from a text prompt, with control over resolution, duration, and seamless looping, plus reference images to lock in subject and style.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-06-09",
+  "_generated": {
+    "name": "644fc062",
+    "description": "2d0781ab",
+    "status": "379ac110",
+    "release_date": "fcf93e36",
+    "model_type": "4d1b75ca",
+    "page_url": "049a0c99",
+    "tagline": "2d0781ab",
+    "capabilities": "d3117eb0",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "fcf93e36"
+  },
+  "last_updated": "2026-06-10"
+}

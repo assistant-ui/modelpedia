@@ -1,0 +1,33 @@
+{
+  "id": "fireworks/qwen3p7-plus-vl-instruct",
+  "name": "qwen3p7-plus-vl-instruct",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3",
+  "context_window": 262000,
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3p7-plus-vl-instruct",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "be411e43",
+    "family": "48c385a0",
+    "context_window": "4ed74017",
+    "page_url": "a2c0a37e",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-10"
+}

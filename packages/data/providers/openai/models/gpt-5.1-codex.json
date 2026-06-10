@@ -1,9 +1,9 @@
 {
   "id": "gpt-5.1-codex",
-  "name": "GPT-5.1 Codex",
+  "name": "GPT-5.1-Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-04-24",
+  "last_updated": "2026-06-10",
   "family": "gpt-5.1",
   "description": "GPT-5.1-Codex is a version of GPT-5 optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.",
   "status": "deprecated",
@@ -51,7 +51,7 @@
   "endpoints": ["responses"],
   "snapshots": ["gpt-5.1-codex"],
   "_generated": {
-    "name": "c6ccf75f",
+    "name": "d63b2b5f",
     "family": "2089aff2",
     "description": "6b6fe9a2",
     "status": "2e2f74dc",

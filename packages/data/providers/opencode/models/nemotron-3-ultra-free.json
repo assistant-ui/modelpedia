@@ -1,0 +1,23 @@
+{
+  "id": "nemotron-3-ultra-free",
+  "name": "Nemotron 3 Ultra Free",
+  "created_by": "nvidia",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "65166aeb",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-10"
+}

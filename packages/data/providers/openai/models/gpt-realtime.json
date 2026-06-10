@@ -1,9 +1,9 @@
 {
   "id": "gpt-realtime",
-  "name": "gpt-realtime",
+  "name": "GPT-Realtime",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-06-10",
   "family": "gpt-realtime",
   "description": "This is our first general-availability realtime model, capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
   "status": "active",
@@ -69,7 +69,7 @@
   "endpoints": ["realtime"],
   "snapshots": ["gpt-realtime-2025-08-28"],
   "_generated": {
-    "name": "f5032d33",
+    "name": "c2e736c7",
     "family": "f5032d33",
     "description": "4fb35299",
     "status": "379ac110",

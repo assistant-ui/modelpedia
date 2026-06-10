@@ -3,7 +3,7 @@
   "name": "DeepSeek: R1 Distill Llama 70B",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-06-10",
   "family": "deepseek-r1",
   "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1).",
   "context_window": 131072,
@@ -33,10 +33,14 @@
     "model_type": "17475f7f",
     "parameters": "7cbbc409",
     "release_date": "95a78e49",
-    "tagline": "86d1a5a7"
+    "tagline": "86d1a5a7",
+    "status": "2e2f74dc",
+    "deprecation_date": "af441ea0"
   },
   "model_type": "reasoning",
   "parameters": 70,
   "release_date": "2025-01-23",
-  "tagline": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1)."
+  "tagline": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1).",
+  "status": "deprecated",
+  "deprecation_date": "2026-06-11"
 }

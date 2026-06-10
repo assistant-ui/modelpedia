@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/stable-audio-3/small/music/base/audio-outpainting",
+  "name": "Stable Audio 3 Small Music Base Audio Outpainting",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Stable Audio 3 Small Music Base audio outpainting is the foundational 459 million parameter checkpoint that extends music tracks via causal continuation guided by text prompts.",
+  "status": "active",
+  "release_date": "2026-05-25",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/stable-audio-3/small/music/base/audio-outpainting",
+  "tagline": "Stable Audio 3 Small Music Base audio outpainting is the foundational 459 million parameter checkpoint that extends music tracks via causal continuation guided by text prompts.",
+  "last_seen_at": "2026-06-03",
+  "_generated": {
+    "name": "73e049a2",
+    "description": "7af59fc6",
+    "status": "379ac110",
+    "release_date": "8068951b",
+    "model_type": "ddb0b7bc",
+    "page_url": "37380fe1",
+    "tagline": "7af59fc6",
+    "last_seen_at": "6c186db5"
+  },
+  "last_updated": "2026-06-10"
+}

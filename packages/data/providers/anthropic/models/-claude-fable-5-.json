@@ -1,0 +1,58 @@
+{
+  "id": "`claude-fable-5`",
+  "name": "Claude Fable 5",
+  "created_by": "anthropic",
+  "source": "official",
+  "description": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
+  "status": "active",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "license": "proprietary",
+  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#`claude-fable-5`",
+  "tagline": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 10,
+    "output": 50,
+    "cache_write": 12.5,
+    "cached_input": 1,
+    "cache_write_1h": 20,
+    "batch_input": 5,
+    "batch_output": 25
+  },
+  "open_weight": false,
+  "tools": ["function_calling"],
+  "endpoints": ["messages"],
+  "bedrock_id": "anthropic.claude-fable-5",
+  "vertex_id": "claude-fable-5",
+  "priority_tier": true,
+  "_generated": {
+    "name": "210d845d",
+    "description": "95ce4e98",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "license": "9186c466",
+    "page_url": "20013117",
+    "tagline": "95ce4e98",
+    "capabilities": "29417d42",
+    "modalities": "6399757e",
+    "pricing": "7fd7b1fe",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e",
+    "endpoints": "94bb8b7a",
+    "bedrock_id": "c11309f9",
+    "vertex_id": "a6476422",
+    "priority_tier": "b326b506"
+  },
+  "last_updated": "2026-06-10"
+}

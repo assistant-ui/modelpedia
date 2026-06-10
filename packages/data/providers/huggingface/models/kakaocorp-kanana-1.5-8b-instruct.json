@@ -1,0 +1,31 @@
+{
+  "id": "kakaocorp/kanana-1.5-8b-instruct",
+  "name": "kanana-1.5-8b-instruct-2505",
+  "created_by": "kakaocorp",
+  "source": "official",
+  "release_date": "2025-05-21",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "page_url": "https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505",
+  "architecture": "transformer",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "snapshots": ["kakaocorp/kanana-1.5-8b-instruct-2505"],
+  "_generated": {
+    "name": "f6502abd",
+    "release_date": "7a33ef58",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "page_url": "c31a116e",
+    "architecture": "8832ea0f",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-10"
+}

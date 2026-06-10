@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/stable-audio-3/medium/audio-to-audio",
+  "name": "Stable Audio 3 Medium Audio to Audio",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Stable Audio 3 Medium audio-to-audio is a 1.4 billion parameter latent diffusion model that transforms an input audio clip into new stereo variations up to 6 minutes guided by a text prompt.",
+  "status": "active",
+  "release_date": "2026-05-22",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/stable-audio-3/medium/audio-to-audio",
+  "tagline": "Stable Audio 3 Medium audio-to-audio is a 1.4 billion parameter latent diffusion model that transforms an input audio clip into new stereo variations up to 6 minutes guided by a text prompt.",
+  "last_seen_at": "2026-06-03",
+  "_generated": {
+    "name": "800ac796",
+    "description": "19b3e7f1",
+    "status": "379ac110",
+    "release_date": "04573895",
+    "model_type": "ddb0b7bc",
+    "page_url": "4f1f852e",
+    "tagline": "19b3e7f1",
+    "last_seen_at": "6c186db5"
+  },
+  "last_updated": "2026-06-10"
+}

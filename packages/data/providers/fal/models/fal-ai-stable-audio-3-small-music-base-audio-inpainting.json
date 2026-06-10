@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/stable-audio-3/small/music/base/audio-inpainting",
+  "name": "Stable Audio 3 Small Music Base Audio Inpainting",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Stable Audio 3 Small Music Base audio inpainting is the foundational 459 million parameter checkpoint for editing or filling selected music segments guided by text prompts.",
+  "status": "active",
+  "release_date": "2026-05-25",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/stable-audio-3/small/music/base/audio-inpainting",
+  "tagline": "Stable Audio 3 Small Music Base audio inpainting is the foundational 459 million parameter checkpoint for editing or filling selected music segments guided by text prompts.",
+  "last_seen_at": "2026-06-03",
+  "_generated": {
+    "name": "12e128fb",
+    "description": "04a5b16f",
+    "status": "379ac110",
+    "release_date": "8068951b",
+    "model_type": "ddb0b7bc",
+    "page_url": "902a6238",
+    "tagline": "04a5b16f",
+    "last_seen_at": "6c186db5"
+  },
+  "last_updated": "2026-06-10"
+}

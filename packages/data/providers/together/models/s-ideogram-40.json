@@ -1,0 +1,23 @@
+{
+  "id": "s/ideogram-40",
+  "name": "Ideogram 40",
+  "created_by": "unknown",
+  "source": "official",
+  "context_window": 32000,
+  "page_url": "https://www.together.ai/models/ideogram-40",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.06
+  },
+  "_generated": {
+    "name": "a0534f80",
+    "context_window": "10e4d788",
+    "page_url": "71f452b5",
+    "capabilities": "0fa77dc6",
+    "pricing": "cbe313a5"
+  },
+  "last_updated": "2026-06-10"
+}

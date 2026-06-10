@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/bernini-r/edit-video",
+  "name": "Bernini-R Edit Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Edit any video with a natural-language instruction using Bernini-R, changing objects, weather, background, or camera angle while keeping the rest of the scene intact.",
+  "status": "active",
+  "release_date": "2026-06-08",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/bernini-r/edit-video",
+  "tagline": "Edit any video with a natural-language instruction using Bernini-R, changing objects, weather, background, or camera angle while keeping the rest of the scene intact.",
+  "last_seen_at": "2026-06-09",
+  "_generated": {
+    "name": "8776fdcf",
+    "description": "1c77ae2b",
+    "status": "379ac110",
+    "release_date": "850fe4a0",
+    "model_type": "ddb0b7bc",
+    "page_url": "dfe402ce",
+    "tagline": "1c77ae2b",
+    "last_seen_at": "fcf93e36"
+  },
+  "last_updated": "2026-06-10"
+}

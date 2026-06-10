@@ -1,0 +1,42 @@
+{
+  "id": "minimax-m3",
+  "name": "MiniMax-M3",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "Latest M-series language model for agentic reasoning, tool use, coding, and long-context tasks",
+  "context_window": 1000000,
+  "license": "proprietary",
+  "model_type": "chat",
+  "tagline": "Latest M-series language model for agentic reasoning, tool use, coding, and long-context tasks",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 2.4,
+    "cached_input": 0.12
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "fdf91d1b",
+    "family": "c85916f0",
+    "description": "c9354b32",
+    "context_window": "8155bc54",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "tagline": "c9354b32",
+    "capabilities": "48995a4e",
+    "pricing": "b2c589a7",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-10"
+}

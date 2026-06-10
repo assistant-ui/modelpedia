@@ -1,0 +1,21 @@
+{
+  "id": "nvidia-nemotron-ultra",
+  "name": "nvidia-nemotron-ultra",
+  "created_by": "nvidia",
+  "source": "official",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "962e9069",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-10"
+}

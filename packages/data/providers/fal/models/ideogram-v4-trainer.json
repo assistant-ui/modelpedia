@@ -1,0 +1,24 @@
+{
+  "id": "ideogram/v4/trainer",
+  "name": "Ideogram V4.0q LoRA Trainer",
+  "created_by": "ideogram",
+  "source": "official",
+  "description": "Train custom LoRAs for personalization, styles or other use cases on top of Ideogram V4.",
+  "status": "active",
+  "release_date": "2026-06-09",
+  "model_type": "other",
+  "page_url": "https://fal.run/ideogram/v4/trainer",
+  "tagline": "Train custom LoRAs for personalization, styles or other use cases on top of Ideogram V4.",
+  "last_seen_at": "2026-06-10",
+  "_generated": {
+    "name": "2426e537",
+    "description": "74e5031f",
+    "status": "379ac110",
+    "release_date": "fcf93e36",
+    "model_type": "ddb0b7bc",
+    "page_url": "05a0edd7",
+    "tagline": "74e5031f",
+    "last_seen_at": "c4f3ae01"
+  },
+  "last_updated": "2026-06-10"
+}

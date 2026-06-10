@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/stable-audio-3/medium/text-to-audio",
+  "name": "Stable Audio 3",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Stable Audio 3 Medium is a 1.4 billion parameter latent diffusion model that generates high-quality stereo music up to 6 minutes from text prompts, trained on fully licensed data for safe commercial u",
+  "status": "active",
+  "release_date": "2026-05-22",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/stable-audio-3/medium/text-to-audio",
+  "tagline": "Stable Audio 3 Medium is a 1.4 billion parameter latent diffusion model that generates high-quality stereo music up to 6 minutes from text prompts, trained on fully licensed data for safe commercial u",
+  "last_seen_at": "2026-06-03",
+  "_generated": {
+    "name": "47269869",
+    "description": "32b3b7c9",
+    "status": "379ac110",
+    "release_date": "04573895",
+    "model_type": "ddb0b7bc",
+    "page_url": "c7a60591",
+    "tagline": "32b3b7c9",
+    "last_seen_at": "6c186db5"
+  },
+  "last_updated": "2026-06-10"
+}

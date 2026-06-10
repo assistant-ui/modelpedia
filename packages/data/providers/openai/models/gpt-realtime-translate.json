@@ -1,10 +1,10 @@
 {
   "id": "gpt-realtime-translate",
-  "name": "gpt-realtime-translate",
+  "name": "GPT-Realtime-Translate",
   "created_by": "openai",
   "source": "official",
   "family": "gpt-realtime",
-  "description": "GPT Realtime Translate is a streaming speech-to-speech translation model for live multilingual audio experiences. It uses a dedicated realtime translation endpoint and returns translated audio plus transcript deltas while source audio is still arriving. GPT Realtime Translate is priced by audio duration rather than text tokens.",
+  "description": "GPT-Realtime-Translate is a streaming speech-to-speech translation model for live multilingual audio experiences. It uses a dedicated realtime translation endpoint and returns translated audio plus transcript deltas while source audio is still arriving. GPT-Realtime-Translate is priced by audio duration rather than text tokens.",
   "status": "active",
   "knowledge_cutoff": "2024-09",
   "context_window": 16000,
@@ -46,13 +46,13 @@
   },
   "endpoints": ["realtime_translation"],
   "pricing_notes": [
-    "GPT Realtime Translate is priced by audio duration rather than text tokens."
+    "GPT-Realtime-Translate is priced by audio duration rather than text tokens."
   ],
   "snapshots": ["gpt-realtime-translate"],
   "_generated": {
-    "name": "09f1aaa6",
+    "name": "c6f394b4",
     "family": "f5032d33",
-    "description": "5c9859a2",
+    "description": "6d7b50b5",
     "status": "379ac110",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "67510c89",
@@ -68,7 +68,7 @@
     "modalities": "98d72b0f",
     "pricing": "061265a4",
     "endpoints": "ba5e64e6",
-    "pricing_notes": "0b9841b1"
+    "pricing_notes": "aef09ae7"
   },
-  "last_updated": "2026-05-10"
+  "last_updated": "2026-06-10"
 }

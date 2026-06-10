@@ -1,0 +1,35 @@
+{
+  "id": "luma/agent/uni-1/v1/text-to-image",
+  "name": "Luma Uni-1 Text to Image",
+  "created_by": "luma",
+  "source": "official",
+  "description": "Luma Uni-1 turns a text prompt into a single high-fidelity image, with control over aspect ratio and visual style, plus optional web-sourced and reference-image guidance for sharper grounding.",
+  "status": "active",
+  "release_date": "2026-06-09",
+  "model_type": "image",
+  "page_url": "https://fal.run/luma/agent/uni-1/v1/text-to-image",
+  "tagline": "Luma Uni-1 turns a text prompt into a single high-fidelity image, with control over aspect ratio and visual style, plus optional web-sourced and reference-image guidance for sharper grounding.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-06-09",
+  "_generated": {
+    "name": "dc4a5837",
+    "description": "b9dbfeef",
+    "status": "379ac110",
+    "release_date": "fcf93e36",
+    "model_type": "db8857fe",
+    "page_url": "4f54026a",
+    "tagline": "b9dbfeef",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "fcf93e36"
+  },
+  "last_updated": "2026-06-10"
+}

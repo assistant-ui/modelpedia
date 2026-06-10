@@ -3,14 +3,14 @@
   "name": "Qwen3 5 397b A17b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-10",
   "family": "qwen3",
   "context_window": 256000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.6,
+    "input": 0.35,
     "output": 3.6
   },
   "_generated": {
@@ -18,7 +18,7 @@
     "family": "48c385a0",
     "context_window": "2fd324cb",
     "capabilities": "0fa77dc6",
-    "pricing": "fd53beb3",
+    "pricing": "705f3f44",
     "model_type": "d669f408",
     "parameters": "e46de7e1",
     "active_parameters": "70efdf2e",

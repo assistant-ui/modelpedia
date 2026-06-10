@@ -1,0 +1,35 @@
+{
+  "id": "luma/agent/ray/v3.2/image-to-video",
+  "name": "Luma Ray 3.2 Image to Video",
+  "created_by": "luma",
+  "source": "official",
+  "description": "Luma Ray 3.2 animates a source image into cinematic motion guided by a text prompt, preserving the starting frame's look while controlling resolution, duration, and seamless looping.",
+  "status": "active",
+  "release_date": "2026-06-09",
+  "model_type": "video",
+  "page_url": "https://fal.run/luma/agent/ray/v3.2/image-to-video",
+  "tagline": "Luma Ray 3.2 animates a source image into cinematic motion guided by a text prompt, preserving the starting frame's look while controlling resolution, duration, and seamless looping.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-06-09",
+  "_generated": {
+    "name": "61d71614",
+    "description": "2ea8d056",
+    "status": "379ac110",
+    "release_date": "fcf93e36",
+    "model_type": "4d1b75ca",
+    "page_url": "9f7c1431",
+    "tagline": "2ea8d056",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "fcf93e36"
+  },
+  "last_updated": "2026-06-10"
+}

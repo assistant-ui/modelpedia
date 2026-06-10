@@ -3,7 +3,7 @@
   "name": "qwen-3-235b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-05-07",
+  "last_updated": "2026-06-10",
   "family": "qwen",
   "context_window": 262100,
   "capabilities": {
@@ -12,15 +12,15 @@
     "reasoning": true
   },
   "pricing": {
-    "input": 0.07,
-    "output": 0.46
+    "input": 0.09,
+    "output": 0.1
   },
   "_generated": {
     "name": "1403768f",
     "family": "a3af76f3",
     "context_window": "b23f4471",
     "capabilities": "a281e83a",
-    "pricing": "bf9dbeb5",
+    "pricing": "d296d132",
     "model_type": "d669f408",
     "parameters": "577ef115",
     "tools": "f0c1dc7e",

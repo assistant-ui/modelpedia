@@ -1,0 +1,31 @@
+{
+  "id": "minicpm-v4.6",
+  "name": "minicpm-v4.6",
+  "created_by": "unknown",
+  "source": "official",
+  "context_window": 262144,
+  "license": "open-weight",
+  "parameters": 1,
+  "page_url": "https://ollama.com/library/minicpm-v4.6",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "94c9cce0",
+    "context_window": "4a1d32eb",
+    "license": "6327aaea",
+    "parameters": "c4ca4238",
+    "page_url": "c1fcce78",
+    "open_weight": "b326b506",
+    "capabilities": "91e36286",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-06-10"
+}

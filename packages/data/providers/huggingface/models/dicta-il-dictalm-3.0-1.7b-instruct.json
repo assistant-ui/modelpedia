@@ -1,0 +1,34 @@
+{
+  "id": "dicta-il/DictaLM-3.0-1.7B-Instruct",
+  "name": "DictaLM-3.0-1.7B-Instruct",
+  "created_by": "dicta-il",
+  "source": "official",
+  "description": "[<img src=\"https://i.ibb.co/5Lbwyr1/dicta-logo.jpg\" width=\"300px\"/>](https://dicta.org.il)",
+  "release_date": "2025-12-01",
+  "context_window": 62080,
+  "license": "apache-2.0",
+  "page_url": "https://huggingface.co/dicta-il/DictaLM-3.0-1.7B-Instruct",
+  "architecture": "transformer",
+  "tagline": "[<img src=\"https://i.ibb.co/5Lbwyr1/dicta-logo.jpg\" width=\"300px\"/>](https://dicta.org.il)",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "756920b6",
+    "description": "b5e16188",
+    "release_date": "0452719b",
+    "context_window": "ed429cee",
+    "license": "60245731",
+    "page_url": "84481168",
+    "architecture": "8832ea0f",
+    "tagline": "b5e16188",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-10"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/stable-audio-3/small/sfx/base/audio-inpainting",
+  "name": "Stable Audio 3 Small SFX Base Audio Inpainting",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Stable Audio 3 Small SFX Base audio inpainting is the foundational 459 million parameter checkpoint for editing or filling selected sound-effect segments guided by text prompts.",
+  "status": "active",
+  "release_date": "2026-05-25",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/stable-audio-3/small/sfx/base/audio-inpainting",
+  "tagline": "Stable Audio 3 Small SFX Base audio inpainting is the foundational 459 million parameter checkpoint for editing or filling selected sound-effect segments guided by text prompts.",
+  "last_seen_at": "2026-06-03",
+  "_generated": {
+    "name": "a729a3cc",
+    "description": "78a1943e",
+    "status": "379ac110",
+    "release_date": "8068951b",
+    "model_type": "ddb0b7bc",
+    "page_url": "9fe7cdde",
+    "tagline": "78a1943e",
+    "last_seen_at": "6c186db5"
+  },
+  "last_updated": "2026-06-10"
+}

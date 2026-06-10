@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/stable-audio-3/medium/audio-inpainting",
+  "name": "Stable Audio 3 Medium Audio Inpainting",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Stable Audio 3 Medium audio inpainting is a 1.4 billion parameter latent diffusion model that fills in or reworks selected segments of a stereo track guided by text prompts, supporting single- and mul",
+  "status": "active",
+  "release_date": "2026-05-22",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/stable-audio-3/medium/audio-inpainting",
+  "tagline": "Stable Audio 3 Medium audio inpainting is a 1.4 billion parameter latent diffusion model that fills in or reworks selected segments of a stereo track guided by text prompts, supporting single- and mul",
+  "last_seen_at": "2026-06-03",
+  "_generated": {
+    "name": "db397093",
+    "description": "af77dd45",
+    "status": "379ac110",
+    "release_date": "04573895",
+    "model_type": "ddb0b7bc",
+    "page_url": "3187a741",
+    "tagline": "af77dd45",
+    "last_seen_at": "6c186db5"
+  },
+  "last_updated": "2026-06-10"
+}

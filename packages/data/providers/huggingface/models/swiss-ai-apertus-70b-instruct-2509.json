@@ -1,0 +1,33 @@
+{
+  "id": "swiss-ai/Apertus-70B-Instruct-2509",
+  "name": "Apertus-70B-Instruct-2509",
+  "created_by": "swiss-ai",
+  "source": "official",
+  "release_date": "2025-09-01",
+  "context_window": 65536,
+  "license": "apache-2.0",
+  "parameters": 71,
+  "alias": "swiss-ai/Apertus-70B-Instruct",
+  "page_url": "https://huggingface.co/swiss-ai/Apertus-70B-Instruct-2509",
+  "architecture": "transformer",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d800d82a",
+    "release_date": "8b12ba6e",
+    "context_window": "297ce0b3",
+    "license": "60245731",
+    "parameters": "e2c420d9",
+    "page_url": "7ec78eec",
+    "architecture": "8832ea0f",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-10"
+}
