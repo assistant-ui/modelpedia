@@ -3,7 +3,7 @@
   "name": "Claude Opus 4",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-04-16",
+  "last_updated": "2026-06-10",
   "family": "claude-opus",
   "status": "deprecated",
   "knowledge_cutoff": "2025-01",
@@ -62,7 +62,10 @@
     "page_url": "03d648fc",
     "thinking_modes": "3f7ae0d0",
     "bedrock_id": "b7d98540",
-    "vertex_id": "39da097b"
+    "vertex_id": "39da097b",
+    "deprecation_date": "9682f27c",
+    "retirement_date": "cc23f918",
+    "successor": "066e5f41"
   },
   "model_type": "chat",
   "license": "proprietary",
@@ -70,5 +73,8 @@
   "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-0",
   "thinking_modes": ["extended"],
   "bedrock_id": "anthropic.claude-opus-4-20250514-v1:0",
-  "vertex_id": "claude-opus-4@20250514"
+  "vertex_id": "claude-opus-4@20250514",
+  "deprecation_date": "2026-04-14",
+  "retirement_date": "2026-06-15",
+  "successor": "claude-opus-4-8"
 }

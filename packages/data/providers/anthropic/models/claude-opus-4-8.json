@@ -75,7 +75,12 @@
     "thinking_modes": "a8582e89",
     "bedrock_id": "930a91bb",
     "vertex_id": "066e5f41",
-    "priority_tier": "b326b506"
+    "priority_tier": "b326b506",
+    "fast_mode_pricing": "4aa68eb1"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-06-10",
+  "fast_mode_pricing": {
+    "input": 10,
+    "output": 50
+  }
 }

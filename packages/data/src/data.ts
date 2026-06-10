@@ -8460,102 +8460,6 @@ export const providers: ProviderWithModels[] = [
     "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" fill-rule=\"evenodd\">\n  <path d=\"M13.827 3.52h3.603L24 20h-3.603l-6.57-16.48zm-7.258 0h3.767L16.906 20h-3.674l-1.343-3.461H5.017l-1.344 3.46H0L6.57 3.522zm4.132 9.959L8.453 7.687 6.205 13.48H10.7z\"/>\n</svg>",
     "models": [
       {
-        "id": "`claude-fable-5`",
-        "name": "Claude Fable 5",
-        "created_by": "anthropic",
-        "source": "official",
-        "description": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
-        "status": "active",
-        "context_window": 1000000,
-        "max_output_tokens": 128000,
-        "license": "proprietary",
-        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#`claude-fable-5`",
-        "tagline": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
-        "capabilities": {
-          "streaming": true,
-          "vision": true,
-          "tool_call": true,
-          "batch": true
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 10,
-          "output": 50,
-          "cache_write": 12.5,
-          "cached_input": 1,
-          "cache_write_1h": 20,
-          "batch_input": 5,
-          "batch_output": 25
-        },
-        "open_weight": false,
-        "tools": [
-          "function_calling"
-        ],
-        "endpoints": [
-          "messages"
-        ],
-        "bedrock_id": "anthropic.claude-fable-5",
-        "vertex_id": "claude-fable-5",
-        "priority_tier": true,
-        "last_updated": "2026-06-10"
-      },
-      {
-        "id": "`claude-mythos-5`",
-        "name": "Claude Mythos 5",
-        "created_by": "anthropic",
-        "source": "official",
-        "description": "Available through Project Glasswing. Successor to Claude Mythos Preview.",
-        "status": "active",
-        "context_window": 1000000,
-        "max_output_tokens": 128000,
-        "license": "proprietary",
-        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#`claude-mythos-5`",
-        "tagline": "Available through Project Glasswing.",
-        "capabilities": {
-          "streaming": true,
-          "vision": true,
-          "tool_call": true,
-          "batch": true
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 10,
-          "output": 50,
-          "cache_write": 12.5,
-          "cached_input": 1,
-          "cache_write_1h": 20,
-          "batch_input": 5,
-          "batch_output": 25
-        },
-        "open_weight": false,
-        "tools": [
-          "function_calling"
-        ],
-        "endpoints": [
-          "messages"
-        ],
-        "bedrock_id": "Limited availability",
-        "vertex_id": "Limited availability",
-        "priority_tier": true,
-        "last_updated": "2026-06-10"
-      },
-      {
         "id": "claude-3-5-haiku",
         "name": "Claude Haiku 3.5",
         "created_by": "anthropic",
@@ -8791,6 +8695,66 @@ export const providers: ProviderWithModels[] = [
         "successor": "claude-opus-4-7"
       },
       {
+        "id": "claude-fable-5",
+        "name": "Claude Fable 5",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-fable",
+        "description": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
+        "status": "active",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "license": "proprietary",
+        "performance": 5,
+        "reasoning": 5,
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-fable-5",
+        "model_type": "chat",
+        "tagline": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 10,
+          "output": 50,
+          "cache_write": 12.5,
+          "cached_input": 1,
+          "cache_write_1h": 20,
+          "batch_input": 5,
+          "batch_output": 25
+        },
+        "open_weight": false,
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ],
+        "thinking_modes": [
+          "adaptive"
+        ],
+        "bedrock_id": "anthropic.claude-fable-5",
+        "vertex_id": "claude-fable-5",
+        "priority_tier": true,
+        "last_updated": "2026-06-10"
+      },
+      {
         "id": "claude-haiku-4-5-20251001",
         "name": "Claude Haiku 4.5",
         "created_by": "anthropic",
@@ -8924,11 +8888,69 @@ export const providers: ProviderWithModels[] = [
         "retirement_date": "2026-10-15"
       },
       {
+        "id": "claude-mythos-5",
+        "name": "Claude Mythos 5",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-mythos",
+        "description": "Available through Project Glasswing. Successor to Claude Mythos Preview.",
+        "status": "active",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "license": "proprietary",
+        "performance": 5,
+        "reasoning": 5,
+        "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-mythos-5",
+        "model_type": "chat",
+        "tagline": "Available through Project Glasswing.",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 10,
+          "output": 50,
+          "cache_write": 12.5,
+          "cached_input": 1,
+          "cache_write_1h": 20,
+          "batch_input": 5,
+          "batch_output": 25
+        },
+        "open_weight": false,
+        "tools": [
+          "function_calling",
+          "computer_use",
+          "mcp"
+        ],
+        "endpoints": [
+          "messages"
+        ],
+        "thinking_modes": [
+          "adaptive"
+        ],
+        "priority_tier": true,
+        "last_updated": "2026-06-10"
+      },
+      {
         "id": "claude-opus-4-0",
         "name": "Claude Opus 4",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-04-16",
+        "last_updated": "2026-06-10",
         "family": "claude-opus",
         "status": "deprecated",
         "knowledge_cutoff": "2025-01",
@@ -8985,7 +9007,10 @@ export const providers: ProviderWithModels[] = [
           "extended"
         ],
         "bedrock_id": "anthropic.claude-opus-4-20250514-v1:0",
-        "vertex_id": "claude-opus-4@20250514"
+        "vertex_id": "claude-opus-4@20250514",
+        "deprecation_date": "2026-04-14",
+        "retirement_date": "2026-06-15",
+        "successor": "claude-opus-4-8"
       },
       {
         "id": "claude-opus-4-1-20250805",
@@ -9440,7 +9465,7 @@ export const providers: ProviderWithModels[] = [
           "messages"
         ],
         "priority_tier": true,
-        "last_updated": "2026-04-16",
+        "last_updated": "2026-06-10",
         "reasoning": 5,
         "thinking_modes": [
           "adaptive"
@@ -9448,7 +9473,11 @@ export const providers: ProviderWithModels[] = [
         "bedrock_id": "anthropic.claude-opus-4-7",
         "vertex_id": "claude-opus-4-7",
         "retirement_date": "2027-04-16",
-        "batch_max_output_tokens": 300000
+        "batch_max_output_tokens": 300000,
+        "fast_mode_pricing": {
+          "input": 30,
+          "output": 150
+        }
       },
       {
         "id": "claude-opus-4-8",
@@ -9513,14 +9542,18 @@ export const providers: ProviderWithModels[] = [
         "bedrock_id": "anthropic.claude-opus-4-8",
         "vertex_id": "claude-opus-4-8",
         "priority_tier": true,
-        "last_updated": "2026-06-10"
+        "last_updated": "2026-06-10",
+        "fast_mode_pricing": {
+          "input": 10,
+          "output": 50
+        }
       },
       {
         "id": "claude-sonnet-4-0",
         "name": "Claude Sonnet 4",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-04-16",
+        "last_updated": "2026-06-10",
         "family": "claude-sonnet",
         "status": "deprecated",
         "knowledge_cutoff": "2025-01",
@@ -9577,7 +9610,10 @@ export const providers: ProviderWithModels[] = [
           "extended"
         ],
         "bedrock_id": "anthropic.claude-sonnet-4-20250514-v1:0",
-        "vertex_id": "claude-sonnet-4@20250514"
+        "vertex_id": "claude-sonnet-4@20250514",
+        "deprecation_date": "2026-04-14",
+        "retirement_date": "2026-06-15",
+        "successor": "claude-sonnet-4-6"
       },
       {
         "id": "claude-sonnet-4-20250514",
@@ -151015,7 +151051,13 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "model_type": "chat",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 10,
@@ -151031,7 +151073,13 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-10"
+        "last_updated": "2026-06-10",
+        "description": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
+        "tagline": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "claude-haiku-4-5",
@@ -153894,7 +153942,10 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "reasoning": true,
-          "json_mode": true
+          "json_mode": true,
+          "streaming": true,
+          "vision": true,
+          "batch": true
         },
         "modalities": {
           "input": [
@@ -153913,7 +153964,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-10"
+        "last_updated": "2026-06-10",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "anthropic/claude-haiku-4.5",
@@ -176681,7 +176734,13 @@ export const providers: ProviderWithModels[] = [
         "model_type": "chat",
         "page_url": "https://replicate.com/anthropic/claude-fable-5",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "modalities": {
           "input": [
@@ -176694,7 +176753,13 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "last_updated": "2026-06-10"
+        "last_updated": "2026-06-10",
+        "description": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
+        "tagline": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "anthropic/claude-opus-4.6",
@@ -186116,7 +186181,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "reasoning": true
+          "reasoning": true,
+          "batch": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 10,
@@ -186133,7 +186201,12 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-10"
+        "last_updated": "2026-06-10",
+        "description": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
+        "tagline": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
+        "max_output_tokens": 128000,
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "anthropic/claude-haiku-4.5",
