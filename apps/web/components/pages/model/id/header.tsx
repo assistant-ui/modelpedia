@@ -65,7 +65,7 @@ export function ModelDetailHeader({
         <span className="flex-1" />
 
         <ButtonLink
-          href={`/compare?a=${encodeURIComponent(`${model.provider}/${model.id}`)}`}
+          href={`/compare?a=${encodeURIComponent(`${model.provider}/${model.alias ?? model.id}`)}`}
           variant="default"
           size="icon"
           title="Compare this model"
