@@ -69,13 +69,18 @@
     "bedrock_id": "cc594098",
     "vertex_id": "f0177cd3",
     "retirement_date": "454db793",
-    "batch_max_output_tokens": "1ded704c"
+    "batch_max_output_tokens": "1ded704c",
+    "fast_mode_pricing": "a57f537b"
   },
-  "last_updated": "2026-04-16",
+  "last_updated": "2026-06-10",
   "reasoning": 5,
   "thinking_modes": ["adaptive"],
   "bedrock_id": "anthropic.claude-opus-4-7",
   "vertex_id": "claude-opus-4-7",
   "retirement_date": "2027-04-16",
-  "batch_max_output_tokens": 300000
+  "batch_max_output_tokens": 300000,
+  "fast_mode_pricing": {
+    "input": 30,
+    "output": 150
+  }
 }

@@ -300,6 +300,8 @@ export function inferFamily(modelId: string): string | undefined {
     [/^claude.*opus/, "claude-opus"],
     [/^claude.*sonnet/, "claude-sonnet"],
     [/^claude.*haiku/, "claude-haiku"],
+    [/^claude.*fable/, "claude-fable"],
+    [/^claude.*mythos/, "claude-mythos"],
     [/^claude/, "claude"],
     // Google
     [/^(gemini-\d+\.?\d*)/, null],
