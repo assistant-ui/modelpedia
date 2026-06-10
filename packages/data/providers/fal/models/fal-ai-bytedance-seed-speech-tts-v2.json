@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/bytedance/seed-speech/tts/v2",
+  "name": "Bytedance Seed Speech Text to Speech",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Seed Speech developed by ByteDance, is a family of large-scale text-to-speech models capable of synthesizing speech that is virtually indistinguishable from human speech.",
+  "status": "active",
+  "release_date": "2026-06-05",
+  "model_type": "tts",
+  "page_url": "https://fal.run/fal-ai/bytedance/seed-speech/tts/v2",
+  "tagline": "Seed Speech developed by ByteDance, is a family of large-scale text-to-speech models capable of synthesizing speech that is virtually indistinguishable from human speech.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-06-05",
+  "_generated": {
+    "name": "f9d8f11b",
+    "description": "b6883534",
+    "status": "379ac110",
+    "release_date": "eb14ff7b",
+    "model_type": "4e16a2cf",
+    "page_url": "9f89519c",
+    "tagline": "b6883534",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "eb14ff7b"
+  },
+  "last_updated": "2026-06-10"
+}

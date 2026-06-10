@@ -3,7 +3,7 @@
   "name": "GPT-5.4",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-04-25",
+  "last_updated": "2026-06-10",
   "family": "gpt-5.4",
   "description": "GPT-5.4 is our frontier model for complex professional work.",
   "status": "active",
@@ -65,8 +65,8 @@
   "tools": ["function_calling"],
   "endpoints": ["responses", "chat_completions", "batch"],
   "pricing_notes": [
-    "For models with a 1.05M context window (GPT-5.4 and GPT-5.4 pro), prompts with >272K input tokens are priced at 2x input and 1.5x output for the full session for standard, batch, and flex.",
-    "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 and GPT-5.4 pro."
+    "For models with a 1.05M context window (GPT-5.4 and GPT-5.4 Pro), prompts with >272K input tokens are priced at 2x input and 1.5x output for the full session for standard, batch, and flex.",
+    "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 and GPT-5.4 Pro."
   ],
   "snapshots": ["gpt-5.4-2026-03-05"],
   "_generated": {
@@ -88,7 +88,7 @@
     "pricing": "87b7bc75",
     "tools": "f0c1dc7e",
     "endpoints": "88e8abb4",
-    "pricing_notes": "e6282eda",
+    "pricing_notes": "05914e8c",
     "license": "9186c466",
     "page_url": "6380388a",
     "open_weight": "68934a3e",

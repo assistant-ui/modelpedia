@@ -1,0 +1,36 @@
+{
+  "id": "nvidia/nemotron-3-ultra-550b-a55b",
+  "name": "nemotron-3-ultra-550b-a55b",
+  "created_by": "nvidia",
+  "source": "official",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "parameters": 550,
+  "active_parameters": 55,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.37,
+    "output": 1.08
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2af9fcc1",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "parameters": "01f78be6",
+    "active_parameters": "b53b3a3d",
+    "capabilities": "a281e83a",
+    "pricing": "c58247d2",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-10"
+}

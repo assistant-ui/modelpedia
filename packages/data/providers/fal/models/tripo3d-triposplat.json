@@ -1,0 +1,28 @@
+{
+  "id": "tripo3d/triposplat",
+  "name": "Triposplat",
+  "created_by": "tripo3d",
+  "source": "official",
+  "description": "TripoSplat is an open-source model from TripoAI / VAST AI Research that converts a single 2D image into high-quality 3D Gaussians using a novel learned density-control approach",
+  "status": "active",
+  "release_date": "2026-06-03",
+  "model_type": "other",
+  "page_url": "https://fal.run/tripo3d/triposplat",
+  "tagline": "TripoSplat is an open-source model from TripoAI / VAST AI Research that converts a single 2D image into high-quality 3D Gaussians using a novel learned density-control approach",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-06-03",
+  "_generated": {
+    "name": "4c33b28a",
+    "description": "731ab784",
+    "status": "379ac110",
+    "release_date": "6c186db5",
+    "model_type": "ddb0b7bc",
+    "page_url": "3036208e",
+    "tagline": "731ab784",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "6c186db5"
+  },
+  "last_updated": "2026-06-10"
+}

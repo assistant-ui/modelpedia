@@ -1,0 +1,24 @@
+{
+  "id": "sonilo/v1.1/text-to-music",
+  "name": "Sonilo V1.1 Text to Music",
+  "created_by": "sonilo",
+  "source": "official",
+  "description": "Generates production-ready music from a single text prompt, with full control over style, mood, instrumentation, and exact duration.",
+  "status": "active",
+  "release_date": "2026-06-03",
+  "model_type": "other",
+  "page_url": "https://fal.run/sonilo/v1.1/text-to-music",
+  "tagline": "Generates production-ready music from a single text prompt, with full control over style, mood, instrumentation, and exact duration.",
+  "last_seen_at": "2026-06-03",
+  "_generated": {
+    "name": "88b93072",
+    "description": "3aa7b3d4",
+    "status": "379ac110",
+    "release_date": "6c186db5",
+    "model_type": "ddb0b7bc",
+    "page_url": "edeb1932",
+    "tagline": "3aa7b3d4",
+    "last_seen_at": "6c186db5"
+  },
+  "last_updated": "2026-06-10"
+}

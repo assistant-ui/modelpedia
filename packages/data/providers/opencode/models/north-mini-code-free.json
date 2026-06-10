@@ -1,0 +1,16 @@
+{
+  "id": "north-mini-code-free",
+  "name": "North Mini Code Free",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "a301d42d",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-06-10"
+}

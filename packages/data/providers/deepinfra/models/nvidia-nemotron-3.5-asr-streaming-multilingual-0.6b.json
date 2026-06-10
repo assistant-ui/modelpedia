@@ -1,0 +1,31 @@
+{
+  "id": "nvidia/Nemotron-3.5-ASR-Streaming-Multilingual-0.6b",
+  "name": "Nemotron-3.5-ASR-Streaming-Multilingual-0.6b",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Nemotron 3.5 ASR Streaming Multilingual is an open 0.6B-parameter prompt-conditioned cache-aware FastConformer-RNNT model, engineered for low-latency streaming transcription across 40+ languages. It powers real-time captioning, voice agents, and multilingual transcription pipelines—replacing separate per-language Whisper deployments with a single inference pass.",
+  "status": "active",
+  "model_type": "transcription",
+  "open_weight": true,
+  "tagline": "Nemotron 3.5 ASR Streaming Multilingual is an open 0.6B-parameter prompt-conditioned cache-aware FastConformer-RNNT model, engineered for low-latency streaming transcription across 40+ languages.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "_generated": {
+    "name": "4a9b84cf",
+    "description": "6c7afc68",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "open_weight": "b326b506",
+    "tagline": "0d46d51f",
+    "capabilities": "0fa77dc6",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0"
+  },
+  "last_updated": "2026-06-10"
+}

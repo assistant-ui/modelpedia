@@ -1,0 +1,16 @@
+{
+  "id": "oitoito/mask2former",
+  "name": "Mask2former",
+  "created_by": "oitoito",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/oitoito/mask2former",
+  "_generated": {
+    "name": "1c18c477",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "912cdbec"
+  },
+  "last_updated": "2026-06-10"
+}

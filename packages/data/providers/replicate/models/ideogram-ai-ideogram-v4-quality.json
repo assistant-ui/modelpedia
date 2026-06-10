@@ -1,0 +1,23 @@
+{
+  "id": "ideogram-ai/ideogram-v4-quality",
+  "name": "Ideogram V4 Quality",
+  "created_by": "ideogram-ai",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/ideogram-ai/ideogram-v4-quality",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "98004885",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "ad983489",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-06-10"
+}

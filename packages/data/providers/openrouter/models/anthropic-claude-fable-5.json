@@ -1,0 +1,44 @@
+{
+  "id": "anthropic/claude-fable-5",
+  "name": "Anthropic: Claude Fable 5",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude",
+  "description": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding.",
+  "release_date": "2026-06-09",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 10,
+    "output": 50,
+    "cached_input": 1
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c9a23c72",
+    "family": "c529ee89",
+    "description": "fa43ac7f",
+    "release_date": "fcf93e36",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "fa43ac7f",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "69490ea7",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-10"
+}

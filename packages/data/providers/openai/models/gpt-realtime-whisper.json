@@ -1,10 +1,10 @@
 {
   "id": "gpt-realtime-whisper",
-  "name": "gpt-realtime-whisper",
+  "name": "GPT-Realtime-Whisper",
   "created_by": "openai",
   "source": "official",
   "family": "gpt-realtime",
-  "description": "GPT Realtime Whisper is a streaming speech-to-text model for applications that need low-latency transcript deltas from live audio. It is designed for realtime use cases where developers need to tune latency and accuracy. GPT Realtime Whisper is priced by audio duration rather than text tokens.",
+  "description": "GPT-Realtime-Whisper is a streaming speech-to-text model for applications that need low-latency transcript deltas from live audio. It is designed for realtime use cases where developers need to tune latency and accuracy. GPT-Realtime-Whisper is priced by audio duration rather than text tokens.",
   "status": "active",
   "knowledge_cutoff": "2024-09",
   "context_window": 16000,
@@ -46,13 +46,13 @@
   },
   "endpoints": ["realtime_transcription"],
   "pricing_notes": [
-    "GPT Realtime Whisper is priced by audio duration rather than text tokens."
+    "GPT-Realtime-Whisper is priced by audio duration rather than text tokens."
   ],
   "snapshots": ["gpt-realtime-whisper"],
   "_generated": {
-    "name": "8b2de4c1",
+    "name": "5356ba6d",
     "family": "f5032d33",
-    "description": "c079d50a",
+    "description": "c195aba3",
     "status": "379ac110",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "67510c89",
@@ -68,7 +68,7 @@
     "modalities": "7cee5e0e",
     "pricing": "6881f22c",
     "endpoints": "76a91d48",
-    "pricing_notes": "f1bce970"
+    "pricing_notes": "677c1a90"
   },
-  "last_updated": "2026-05-10"
+  "last_updated": "2026-06-10"
 }

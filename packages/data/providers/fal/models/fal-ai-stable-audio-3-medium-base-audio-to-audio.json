@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/stable-audio-3/medium/base/audio-to-audio",
+  "name": "Stable Audio 3 Medium Base Audio to Audio",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Stable Audio 3 Medium Base audio-to-audio is the foundational 1.4 billion parameter checkpoint that transforms input audio into new stereo variations up to 6 minutes guided by text prompts.",
+  "status": "active",
+  "release_date": "2026-05-22",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/stable-audio-3/medium/base/audio-to-audio",
+  "tagline": "Stable Audio 3 Medium Base audio-to-audio is the foundational 1.4 billion parameter checkpoint that transforms input audio into new stereo variations up to 6 minutes guided by text prompts.",
+  "last_seen_at": "2026-06-03",
+  "_generated": {
+    "name": "acde0c2d",
+    "description": "b99b2f3c",
+    "status": "379ac110",
+    "release_date": "04573895",
+    "model_type": "ddb0b7bc",
+    "page_url": "8ddcba72",
+    "tagline": "b99b2f3c",
+    "last_seen_at": "6c186db5"
+  },
+  "last_updated": "2026-06-10"
+}

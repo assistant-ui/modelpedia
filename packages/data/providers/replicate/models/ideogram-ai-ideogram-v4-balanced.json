@@ -1,0 +1,23 @@
+{
+  "id": "ideogram-ai/ideogram-v4-balanced",
+  "name": "Ideogram V4 Balanced",
+  "created_by": "ideogram-ai",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/ideogram-ai/ideogram-v4-balanced",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "652b8eca",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "3932765b",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-06-10"
+}

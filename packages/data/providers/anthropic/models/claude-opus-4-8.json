@@ -4,7 +4,7 @@
   "created_by": "anthropic",
   "source": "official",
   "family": "claude-opus",
-  "description": "Anthropic's most capable model for complex reasoning and agentic coding",
+  "description": "Anthropic's most capable Opus-tier model for complex reasoning and agentic coding",
   "status": "active",
   "retirement_date": "2027-05-28",
   "knowledge_cutoff": "2026-01",
@@ -51,7 +51,7 @@
   "_generated": {
     "name": "8b89b223",
     "family": "4e4c4b18",
-    "description": "043d3027",
+    "description": "19cfdf11",
     "status": "379ac110",
     "retirement_date": "06e8fce6",
     "knowledge_cutoff": "f534389f",
@@ -77,5 +77,5 @@
     "vertex_id": "066e5f41",
     "priority_tier": "b326b506"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-06-10"
 }

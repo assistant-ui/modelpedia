@@ -1,0 +1,50 @@
+{
+  "id": "nvidia/nemotron-3-nano-30b-a3b",
+  "name": "Nemotron 3 Nano 30B A3B",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Nemotron-3-Nano-30B-A3B is NVIDIA's compute-efficient, open-weight reasoning model built for agentic AI.",
+  "status": "active",
+  "release_date": "2026-06-09",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "parameters": 30,
+  "active_parameters": 3,
+  "tagline": "Nemotron-3-Nano-30B-A3B is NVIDIA's compute-efficient, open-weight reasoning model built for agentic AI.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.2
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "bc94f8da",
+    "description": "40ba1008",
+    "status": "379ac110",
+    "release_date": "fcf93e36",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "tagline": "40ba1008",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "6aa94ff1",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-10"
+}

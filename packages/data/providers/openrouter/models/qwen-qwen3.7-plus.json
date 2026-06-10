@@ -1,0 +1,44 @@
+{
+  "id": "qwen/qwen3.7-plus",
+  "name": "Qwen: Qwen3.7 Plus",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.7",
+  "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series.",
+  "release_date": "2026-06-03",
+  "context_window": 1000000,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.4,
+    "output": 1.6,
+    "cached_input": 0.08
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "18180ff8",
+    "family": "d71bf7f7",
+    "description": "7c0c3855",
+    "release_date": "6c186db5",
+    "context_window": "8155bc54",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "7c0c3855",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "10359ce0",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-10"
+}

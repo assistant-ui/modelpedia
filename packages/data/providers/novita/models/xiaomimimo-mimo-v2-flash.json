@@ -5,7 +5,7 @@
   "source": "official",
   "family": "mimo",
   "description": "Xiaomi MiMo-V2-Flash is a proprietary MoE model developed by Xiaomi, designed for extreme inference efficiency with 309B total parameters (15B active).",
-  "status": "active",
+  "status": "preview",
   "release_date": "2025-12-19",
   "context_window": 262144,
   "max_output_tokens": 32000,
@@ -32,7 +32,7 @@
     "name": "2e947ca2",
     "family": "1a23786e",
     "description": "292d0e47",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "69dd313f",
     "context_window": "4a1d32eb",
     "max_output_tokens": "10e4d788",
@@ -44,5 +44,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-06-10"
 }

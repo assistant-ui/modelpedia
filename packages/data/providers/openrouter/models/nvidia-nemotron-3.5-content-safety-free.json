@@ -1,0 +1,31 @@
+{
+  "id": "nvidia/nemotron-3.5-content-safety:free",
+  "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B.",
+  "release_date": "2026-06-04",
+  "context_window": 128000,
+  "max_output_tokens": 8192,
+  "model_type": "chat",
+  "tagline": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B.",
+  "capabilities": {
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "8b111ad1",
+    "description": "6ac8ad33",
+    "release_date": "054ba895",
+    "context_window": "34434798",
+    "max_output_tokens": "77441296",
+    "model_type": "d669f408",
+    "tagline": "6ac8ad33",
+    "capabilities": "7107421f",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-06-10"
+}

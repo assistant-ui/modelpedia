@@ -1,0 +1,35 @@
+{
+  "id": "ideogram/v4/lora",
+  "name": "Ideogram V4.0q Text to Image (LoRA)",
+  "created_by": "ideogram",
+  "source": "official",
+  "description": "Generate high-quality images, posters, and logos with Ideogram's latest V4.0q using LoRA — producing crisp visuals with accurate text rendering, fine detail, and full creative control for polished, re",
+  "status": "active",
+  "release_date": "2026-06-08",
+  "model_type": "image",
+  "page_url": "https://fal.run/ideogram/v4/lora",
+  "tagline": "Generate high-quality images, posters, and logos with Ideogram's latest V4.0q using LoRA — producing crisp visuals with accurate text rendering, fine detail, and full creative control for polished, re",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-06-09",
+  "_generated": {
+    "name": "c3b4742b",
+    "description": "dde2e847",
+    "status": "379ac110",
+    "release_date": "850fe4a0",
+    "model_type": "db8857fe",
+    "page_url": "2bdd854a",
+    "tagline": "dde2e847",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "fcf93e36"
+  },
+  "last_updated": "2026-06-10"
+}

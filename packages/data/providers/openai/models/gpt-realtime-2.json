@@ -1,10 +1,10 @@
 {
   "id": "gpt-realtime-2",
-  "name": "gpt-realtime-2",
+  "name": "GPT-Realtime-2",
   "created_by": "openai",
   "source": "official",
   "family": "gpt-realtime",
-  "description": "GPT Realtime 2 is our most capable realtime voice model. It supports speech-to-speech interactions with configurable reasoning effort, stronger instruction following, and more reliable tool use for complex voice-agent workflows.",
+  "description": "GPT-Realtime-2 is our most capable realtime voice model. It supports speech-to-speech interactions with configurable reasoning effort, stronger instruction following, and more reliable tool use for complex voice-agent workflows.",
   "status": "active",
   "knowledge_cutoff": "2024-09",
   "context_window": 128000,
@@ -74,13 +74,13 @@
   "tools": ["function_calling"],
   "endpoints": ["realtime"],
   "pricing_notes": [
-    "GPT Realtime 2 supports configurable reasoning effort. Higher reasoning effort can increase latency and output token usage."
+    "GPT-Realtime-2 supports configurable reasoning effort. Higher reasoning effort can increase latency and output token usage."
   ],
   "snapshots": ["gpt-realtime-2"],
   "_generated": {
-    "name": "5303ee7a",
+    "name": "006b0c95",
     "family": "f5032d33",
-    "description": "45ddd65c",
+    "description": "ebc3a6c6",
     "status": "379ac110",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "34434798",
@@ -99,7 +99,7 @@
     "pricing": "e720c7fa",
     "tools": "f0c1dc7e",
     "endpoints": "c7ed7203",
-    "pricing_notes": "a51ab2b1"
+    "pricing_notes": "36e7634a"
   },
-  "last_updated": "2026-05-10"
+  "last_updated": "2026-06-10"
 }

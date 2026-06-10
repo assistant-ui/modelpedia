@@ -1,0 +1,29 @@
+{
+  "id": "nvidia/Cosmos3-Super",
+  "name": "Cosmos3-Super",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Cosmos3 is a world foundation model that unifies understanding and generation within a single Mixture-of-Transformer (MoT) architecture. Two tightly coupled towers—a Reasoner (vision-language model) and a Generator (world simulator)—share latent representations so that structured perception directly grounds realistic, temporally consistent simulation.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": true,
+  "tagline": "Cosmos3 is a world foundation model that unifies understanding and generation within a single Mixture-of-Transformer (MoT) architecture.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["$0.0432 / second (480p)"],
+  "_generated": {
+    "name": "6b0af337",
+    "description": "922051a7",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "b326b506",
+    "tagline": "074b0039",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "d75acac1"
+  },
+  "last_updated": "2026-06-10"
+}

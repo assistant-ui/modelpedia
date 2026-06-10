@@ -3,7 +3,7 @@
   "name": "qwen-3-30b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-10",
   "family": "qwen",
   "context_window": 41000,
   "capabilities": {
@@ -12,15 +12,15 @@
     "reasoning": true
   },
   "pricing": {
-    "input": 0.08,
-    "output": 0.29
+    "input": 0.12,
+    "output": 0.5
   },
   "_generated": {
     "name": "02f69bb1",
     "family": "a3af76f3",
     "context_window": "225178b1",
     "capabilities": "a281e83a",
-    "pricing": "c8ca67bc",
+    "pricing": "0b54466b",
     "model_type": "d669f408",
     "parameters": "34173cb3",
     "tools": "f0c1dc7e",

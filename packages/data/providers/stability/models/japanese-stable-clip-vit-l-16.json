@@ -13,14 +13,15 @@
   "tagline": "Japanese Stable Clip Vit L 16 is a Stability AI model published on the official Stability AI Hugging Face organization.",
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "endpoints": ["chat_completions"],
-  "huggingface_downloads": 1122,
+  "huggingface_downloads": 902,
   "last_modified": "2024-07-10",
   "_generated": {
     "name": "7f328791",
@@ -32,11 +33,11 @@
     "page_url": "ebdb0dee",
     "open_weight": "b326b506",
     "tagline": "d2fc5b94",
-    "capabilities": "9c665f5d",
-    "modalities": "68e53d93",
+    "capabilities": "98ea92bd",
+    "modalities": "6399757e",
     "endpoints": "d8fa1080",
-    "huggingface_downloads": "3b712de4",
+    "huggingface_downloads": "b6a1085a",
     "last_modified": "2d84b9f9"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-06-10"
 }

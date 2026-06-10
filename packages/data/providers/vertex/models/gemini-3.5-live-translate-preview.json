@@ -1,0 +1,45 @@
+{
+  "id": "gemini-3.5-live-translate-preview",
+  "name": "gemini-3.5-live-translate-preview",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.5",
+  "status": "active",
+  "knowledge_cutoff": "2025-01",
+  "context_window": 131072,
+  "max_output_tokens": 65536,
+  "model_type": "translation",
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["text", "image", "audio"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "1546074a",
+    "family": "098fdb91",
+    "status": "379ac110",
+    "knowledge_cutoff": "3f358a56",
+    "context_window": "f7de594e",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "5c212ca7",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "fdff467b",
+    "modalities": "a8211f74",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-06-10"
+}

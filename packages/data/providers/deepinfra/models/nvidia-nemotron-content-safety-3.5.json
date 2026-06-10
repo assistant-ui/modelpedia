@@ -1,0 +1,41 @@
+{
+  "id": "nvidia/Nemotron-Content-Safety-3.5",
+  "name": "Nemotron-Content-Safety-3.5",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Nemotron Content Safety 3.5 is a multimodal safety classifier developed by NVIDIA. A compact safety model that handles text, images, and custom policies. It outputs a safe/unsafe classification plus a reasoning trace, and can be used as an inference-time guardrail, as a judge for LLM safety testing and evaluation, or with the accompanying training dataset to post-train models for safer behavior.",
+  "status": "active",
+  "context_window": 131072,
+  "model_type": "chat",
+  "open_weight": true,
+  "tagline": "Nemotron Content Safety 3.5 is a multimodal safety classifier developed by NVIDIA.",
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.2
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "bfloat16",
+  "_generated": {
+    "name": "4041d461",
+    "description": "21a65946",
+    "status": "379ac110",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "open_weight": "b326b506",
+    "tagline": "43104427",
+    "capabilities": "5f5c7516",
+    "modalities": "6399757e",
+    "pricing": "ee3b139d",
+    "endpoints": "d8fa1080",
+    "quantization": "45ae6e17"
+  },
+  "last_updated": "2026-06-10"
+}

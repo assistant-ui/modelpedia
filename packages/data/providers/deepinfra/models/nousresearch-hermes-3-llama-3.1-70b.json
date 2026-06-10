@@ -3,7 +3,7 @@
   "name": "Hermes-3-Llama-3.1-70B",
   "created_by": "nousresearch",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-10",
   "family": "llama-3.1",
   "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.",
   "status": "active",
@@ -20,8 +20,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.3,
-    "output": 0.3
+    "input": 0.7,
+    "output": 0.7
   },
   "endpoints": ["chat_completions"],
   "quantization": "fp8",
@@ -36,7 +36,7 @@
     "open_weight": "b326b506",
     "capabilities": "ac49c06e",
     "modalities": "68e53d93",
-    "pricing": "bdf3b6b5",
+    "pricing": "082278b5",
     "endpoints": "d8fa1080",
     "quantization": "640679f9",
     "tagline": "a936cce1"

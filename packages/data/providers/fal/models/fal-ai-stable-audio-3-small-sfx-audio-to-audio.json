@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/stable-audio-3/small/sfx/audio-to-audio",
+  "name": "Stable Audio 3",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Stable Audio 3 Small SFX audio-to-audio is a 459 million parameter latent diffusion model that transforms input audio into new sound-effect variations guided by text prompts.",
+  "status": "active",
+  "release_date": "2026-05-25",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/stable-audio-3/small/sfx/audio-to-audio",
+  "tagline": "Stable Audio 3 Small SFX audio-to-audio is a 459 million parameter latent diffusion model that transforms input audio into new sound-effect variations guided by text prompts.",
+  "last_seen_at": "2026-06-03",
+  "_generated": {
+    "name": "47269869",
+    "description": "971e893b",
+    "status": "379ac110",
+    "release_date": "8068951b",
+    "model_type": "ddb0b7bc",
+    "page_url": "539b3577",
+    "tagline": "971e893b",
+    "last_seen_at": "6c186db5"
+  },
+  "last_updated": "2026-06-10"
+}

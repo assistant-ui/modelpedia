@@ -1,0 +1,35 @@
+{
+  "id": "luma/agent/uni-1/v1/max",
+  "name": "Luma Uni-1 Text to Image Max",
+  "created_by": "luma",
+  "source": "official",
+  "description": "Luma Uni-1 Max generates a single image at the model's highest fidelity, delivering richer detail and stronger prompt adherence than the base tier for hero-quality stills.",
+  "status": "active",
+  "release_date": "2026-06-09",
+  "model_type": "image",
+  "page_url": "https://fal.run/luma/agent/uni-1/v1/max",
+  "tagline": "Luma Uni-1 Max generates a single image at the model's highest fidelity, delivering richer detail and stronger prompt adherence than the base tier for hero-quality stills.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-06-09",
+  "_generated": {
+    "name": "27c49c70",
+    "description": "5237080f",
+    "status": "379ac110",
+    "release_date": "fcf93e36",
+    "model_type": "db8857fe",
+    "page_url": "87bc26c3",
+    "tagline": "5237080f",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "fcf93e36"
+  },
+  "last_updated": "2026-06-10"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "vectionlabs/VL-1-Coder",
+  "name": "VL-1-Coder",
+  "created_by": "vectionlabs",
+  "source": "official",
+  "description": "**VL-1-Coder** is a state-of-the-art, 8-billion parameter Coding Agent developed by **VectionLabs**.",
+  "release_date": "2026-02-24",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "parameters": 7.6,
+  "page_url": "https://huggingface.co/vectionlabs/VL-1-Coder",
+  "architecture": "transformer",
+  "tagline": "**VL-1-Coder** is a state-of-the-art, 8-billion parameter Coding Agent developed by **VectionLabs**.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "72ef7318",
+    "description": "c2e18f97",
+    "release_date": "2ad07f55",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "parameters": "5960276c",
+    "page_url": "f120d25c",
+    "architecture": "8832ea0f",
+    "tagline": "c2e18f97",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-10"
+}

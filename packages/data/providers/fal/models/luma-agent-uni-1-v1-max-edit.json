@@ -1,0 +1,35 @@
+{
+  "id": "luma/agent/uni-1/v1/max/edit",
+  "name": "Luma Uni-1 Edit Max",
+  "created_by": "luma",
+  "source": "official",
+  "description": "Luma Uni-1 Max Edit applies text-guided edits to a source image at maximum fidelity, holding the original structure while honoring reference images for precise, high-detail revisions.",
+  "status": "active",
+  "release_date": "2026-06-09",
+  "model_type": "image",
+  "page_url": "https://fal.run/luma/agent/uni-1/v1/max/edit",
+  "tagline": "Luma Uni-1 Max Edit applies text-guided edits to a source image at maximum fidelity, holding the original structure while honoring reference images for precise, high-detail revisions.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-06-09",
+  "_generated": {
+    "name": "e019b293",
+    "description": "bb307255",
+    "status": "379ac110",
+    "release_date": "fcf93e36",
+    "model_type": "db8857fe",
+    "page_url": "2ac12fa8",
+    "tagline": "bb307255",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "fcf93e36"
+  },
+  "last_updated": "2026-06-10"
+}

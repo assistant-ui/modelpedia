@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/stable-audio-3/small/sfx/text-to-audio",
+  "name": "Stable Audio 3 Small SFX Text to Audio",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Stable Audio 3 Small SFX is a 459 million parameter latent diffusion model that generates high-quality sound effects from text prompts, designed for on-device deployment on mobile phones and consumer ",
+  "status": "active",
+  "release_date": "2026-05-25",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/stable-audio-3/small/sfx/text-to-audio",
+  "tagline": "Stable Audio 3 Small SFX is a 459 million parameter latent diffusion model that generates high-quality sound effects from text prompts, designed for on-device deployment on mobile phones and consumer ",
+  "last_seen_at": "2026-06-03",
+  "_generated": {
+    "name": "3c25ceca",
+    "description": "2a1817ab",
+    "status": "379ac110",
+    "release_date": "8068951b",
+    "model_type": "ddb0b7bc",
+    "page_url": "06db1b2e",
+    "tagline": "2a1817ab",
+    "last_seen_at": "6c186db5"
+  },
+  "last_updated": "2026-06-10"
+}

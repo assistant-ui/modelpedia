@@ -23,7 +23,7 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.04,
+    "input": 0.1,
     "output": 0.15
   },
   "tools": ["function_calling"],
@@ -40,10 +40,10 @@
     "tagline": "b6313434",
     "capabilities": "bfede2e3",
     "modalities": "6399757e",
-    "pricing": "fc860924",
+    "pricing": "fa2d2058",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "45ae6e17"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-06-10"
 }

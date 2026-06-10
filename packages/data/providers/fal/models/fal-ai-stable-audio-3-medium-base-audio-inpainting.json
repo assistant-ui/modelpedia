@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/stable-audio-3/medium/base/audio-inpainting",
+  "name": "Stable Audio 3 Medium Base Audio Inpainting",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Stable Audio 3 Medium Base audio inpainting is the foundational 1.4 billion parameter checkpoint for editing or filling selected stereo audio segments guided by text prompts.",
+  "status": "active",
+  "release_date": "2026-05-22",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/stable-audio-3/medium/base/audio-inpainting",
+  "tagline": "Stable Audio 3 Medium Base audio inpainting is the foundational 1.4 billion parameter checkpoint for editing or filling selected stereo audio segments guided by text prompts.",
+  "last_seen_at": "2026-06-03",
+  "_generated": {
+    "name": "e6a08f54",
+    "description": "9fe2500b",
+    "status": "379ac110",
+    "release_date": "04573895",
+    "model_type": "ddb0b7bc",
+    "page_url": "754380fe",
+    "tagline": "9fe2500b",
+    "last_seen_at": "6c186db5"
+  },
+  "last_updated": "2026-06-10"
+}

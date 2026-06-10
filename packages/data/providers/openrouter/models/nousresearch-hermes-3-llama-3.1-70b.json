@@ -3,7 +3,7 @@
   "name": "Nous: Hermes 3 70B Instruct",
   "created_by": "nousresearch",
   "source": "official",
-  "last_updated": "2026-04-25",
+  "last_updated": "2026-06-10",
   "description": "Hermes 3 is a generalist language model with many improvements over [Hermes 2](/models/nousresearch/nous-hermes-2-mistral-7b-dpo), including advanced agentic capabilities, much better roleplaying, rea",
   "context_window": 131072,
   "modalities": {
@@ -15,8 +15,8 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.3,
-    "output": 0.3
+    "input": 0.7,
+    "output": 0.7
   },
   "_generated": {
     "name": "668e0b3d",
@@ -24,7 +24,7 @@
     "context_window": "f7de594e",
     "modalities": "68e53d93",
     "capabilities": "dbb5b7fe",
-    "pricing": "bdf3b6b5",
+    "pricing": "082278b5",
     "model_type": "d669f408",
     "parameters": "7cbbc409",
     "release_date": "aef82b0e",

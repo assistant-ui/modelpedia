@@ -1,0 +1,21 @@
+{
+  "id": "s/nvidia-nemotron-35-asr",
+  "name": "Nvidia Nemotron 35 Asr",
+  "created_by": "nvidia",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/nvidia-nemotron-35-asr",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.0015,
+    "output": 0.0045
+  },
+  "_generated": {
+    "name": "f8f1567d",
+    "page_url": "ae5d2fea",
+    "capabilities": "0fa77dc6",
+    "pricing": "1550a0d0"
+  },
+  "last_updated": "2026-06-10"
+}
