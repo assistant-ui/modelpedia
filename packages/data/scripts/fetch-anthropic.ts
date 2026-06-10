@@ -55,6 +55,20 @@ function parseDollar(s: string): number | undefined {
   return m ? Number(m[1]) : undefined;
 }
 
+/** Strip HTML tags, sup markers, and markdown code backticks from an ID cell. */
+function cleanIdCell(s: string): string {
+  return s
+    .replace(/<sup>.*?<\/sup>/g, "")
+    .replace(/<[^>]+>/g, "")
+    .replace(/`/g, "")
+    .trim();
+}
+
+/** Model IDs never contain whitespace; prose like "Limited availability" or "N/A" is not an ID. */
+function isIdLike(s: string): boolean {
+  return s.length > 0 && s !== "N/A" && !/\s/.test(s);
+}
+
 // ── Parse models overview page ──
 
 function parseModelsMarkdown(md: string): ModelSpec[] {
@@ -104,17 +118,23 @@ function parseModelsMarkdown(md: string): ModelSpec[] {
         const m = cols[j];
 
         if (feature.includes("Claude API ID")) {
-          m.id = val.replace(/<[^>]+>/g, "").trim();
+          const clean = cleanIdCell(val);
+          if (isIdLike(clean)) m.id = clean;
         } else if (feature.includes("Claude API alias")) {
-          const clean = val.replace(/<[^>]+>/g, "").trim();
-          if (clean !== "N/A") m.alias = clean;
+          const clean = cleanIdCell(val);
+          if (isIdLike(clean)) m.alias = clean;
         } else if (feature === "Description") {
           m.description = val;
         } else if (feature.includes("Pricing")) {
-          const parts = val.replace(/<br\s*\/?>/g, "\n").split("\n");
-          if (parts.length >= 2) {
-            m.pricing_input = parseDollar(parts[0]);
-            m.pricing_output = parseDollar(parts[1]);
+          // Two layouts: "\$5 / input MTok<br/>\$25 / output MTok" and
+          // "$10 / $50 per MTok (input / output)" — first two dollar values
+          // are input then output in both.
+          const dollars = Array.from(val.matchAll(/\$([\d.]+)/g), (d) =>
+            Number(d[1]),
+          );
+          if (dollars.length >= 2) {
+            m.pricing_input = dollars[0];
+            m.pricing_output = dollars[1];
           }
         } else if (feature.includes("Context window")) {
           m.context_window = parseTokenCount(val);
@@ -133,21 +153,16 @@ function parseModelsMarkdown(md: string): ModelSpec[] {
         } else if (feature.includes("Comparative latency")) {
           m.latency = val;
         } else if (feature.includes("Extended thinking")) {
-          m.extended_thinking = val === "Yes";
+          // Values include qualified forms like "Yes (always on)".
+          m.extended_thinking = /^yes\b/i.test(val);
         } else if (feature.includes("Adaptive thinking")) {
-          m.adaptive_thinking = val === "Yes";
+          m.adaptive_thinking = /^yes\b/i.test(val);
         } else if (feature.includes("AWS Bedrock ID")) {
-          const clean = val
-            .replace(/<sup>.*?<\/sup>/g, "")
-            .replace(/<[^>]+>/g, "")
-            .trim();
-          if (clean && clean !== "N/A") m.bedrock_id = clean;
+          const clean = cleanIdCell(val);
+          if (isIdLike(clean)) m.bedrock_id = clean;
         } else if (feature.includes("Vertex AI ID")) {
-          const clean = val
-            .replace(/<sup>.*?<\/sup>/g, "")
-            .replace(/<[^>]+>/g, "")
-            .trim();
-          if (clean && clean !== "N/A") m.vertex_id = clean;
+          const clean = cleanIdCell(val);
+          if (isIdLike(clean)) m.vertex_id = clean;
         }
       }
     }
@@ -295,7 +310,8 @@ function parseBatchExtendedOutput(md: string): BatchExtendedOutput | null {
 
   // Grab a short window of text before the phrase to scrape the model list.
   const before = md.slice(Math.max(0, phraseIdx - 300), phraseIdx);
-  const modelRegex = /(?:Claude\s+)?(?:Opus|Sonnet|Haiku)\s+\d+(?:\.\d+)?/gi;
+  const modelRegex =
+    /(?:Claude\s+)?(?:Fable|Mythos|Opus|Sonnet|Haiku)\s+\d+(?:\.\d+)?/gi;
   const models = Array.from(before.matchAll(modelRegex), (m) =>
     /^claude\b/i.test(m[0]) ? m[0] : `Claude ${m[0]}`,
   );
@@ -307,55 +323,54 @@ function parseBatchExtendedOutput(md: string): BatchExtendedOutput | null {
 // ── Parse fast mode pricing (Anthropic-specific premium tier) ──
 
 interface FastModePricing {
-  models: string[]; // display names, e.g. ["Claude Opus 4.6"]
   input: number;
   output: number;
 }
 
-function parseFastModePricing(md: string): FastModePricing | null {
+/**
+ * The fast-mode table carries model names per row; a single row can cover
+ * several models ("Claude Opus 4.6 / Claude Opus 4.7"). Returns a map keyed
+ * by display name.
+ */
+function parseFastModePricing(md: string): Map<string, FastModePricing> {
+  const result = new Map<string, FastModePricing>();
   const hdrIdx = md.search(/###\s+Fast\s+mode\s+pricing/i);
-  if (hdrIdx === -1) return null;
+  if (hdrIdx === -1) return result;
 
   // Slice to end of this H3 section
   const rest = md.slice(hdrIdx);
   const nextSection = rest.slice(3).search(/^###\s+/m);
   const section = nextSection >= 0 ? rest.slice(0, nextSection + 3) : rest;
 
-  // Extract supported model names from prose ("... supported on Opus 4.6:").
-  // Allow `.` inside the captured span so version numbers like "4.6" survive,
-  // but stop at end-of-sentence markers (:, newline).
-  const sup = section.match(/supported\s+on\s+([^:\n]+?)\s*[:\n]/i);
-  const models: string[] = [];
-  if (sup) {
-    for (const part of sup[1].split(/\s*(?:,|\band\b)\s*/)) {
-      const trimmed = part.replace(/\s+/g, " ").trim().replace(/\.$/, "");
-      if (!trimmed) continue;
-      models.push(/^claude\b/i.test(trimmed) ? trimmed : `Claude ${trimmed}`);
-    }
-  }
-
   // Pull the first pipe-table in the section
   const lines = section.split("\n");
   let i = lines.findIndex((l) => l.startsWith("|"));
-  if (i < 0) return null;
+  if (i < 0) return result;
   const tableLines: string[] = [];
   while (i < lines.length && lines[i].startsWith("|")) {
     tableLines.push(lines[i]);
     i++;
   }
   const rows = parseMarkdownTable(tableLines);
-  if (rows.length < 2) return null;
+  if (rows.length < 2) return result;
 
   const headers = rows[0].map((h) => h.toLowerCase());
+  const modelIdx = headers.findIndex((h) => h.includes("model"));
   const inputIdx = headers.findIndex((h) => h.includes("input"));
   const outputIdx = headers.findIndex((h) => h.includes("output"));
-  if (inputIdx < 0 || outputIdx < 0) return null;
+  if (modelIdx < 0 || inputIdx < 0 || outputIdx < 0) return result;
 
-  const input = parseDollar(rows[1][inputIdx] ?? "");
-  const output = parseDollar(rows[1][outputIdx] ?? "");
-  if (input == null || output == null) return null;
+  for (const row of rows.slice(1)) {
+    const input = parseDollar(row[inputIdx] ?? "");
+    const output = parseDollar(row[outputIdx] ?? "");
+    if (input == null || output == null) continue;
+    for (const part of (row[modelIdx] ?? "").split(/\s*\/\s*/)) {
+      const name = cleanPricingName(part);
+      if (name) result.set(name, { input, output });
+    }
+  }
 
-  return { models, input, output };
+  return result;
 }
 
 // ── Parse deprecations page ──
@@ -441,6 +456,9 @@ function parseDeprecationsMarkdown(md: string): Map<string, DeprecationInfo> {
 // ── Name → ID mapping ──
 
 const NAME_TO_ID: Record<string, string> = {
+  "Claude Fable 5": "claude-fable-5",
+  "Claude Mythos 5": "claude-mythos-5",
+  "Claude Mythos Preview": "claude-mythos-preview",
   "Claude Opus 4.6": "claude-opus-4-6",
   "Claude Opus 4.5": "claude-opus-4-5",
   "Claude Opus 4.1": "claude-opus-4-1",
@@ -478,16 +496,21 @@ function dateFromSnapshotId(id: string): string | undefined {
  */
 function nameToId(name: string): string | undefined {
   if (NAME_TO_ID[name]) return NAME_TO_ID[name];
-  // "Claude Opus 4.7" → "claude-opus-4-7", "Claude Sonnet 5" → "claude-sonnet-5-0"
-  const m = name.match(/^Claude\s+(Opus|Sonnet|Haiku)\s+(\d+)(?:\.(\d+))?$/i);
+  // "Claude Opus 4.7" → "claude-opus-4-7", "Claude Fable 5" → "claude-fable-5"
+  const m = name.match(
+    /^Claude\s+(Fable|Mythos|Opus|Sonnet|Haiku)\s+(\d+)(?:\.(\d+))?$/i,
+  );
   if (!m) return undefined;
   const family = m[1].toLowerCase();
   const major = m[2];
   // Only auto-derive for 4.x+ (3.x and older use inverted "claude-3-5-haiku" style,
   // which must stay in NAME_TO_ID).
   if (Number(major) < 4) return undefined;
-  const minor = m[3] ?? "0";
-  return `claude-${family}-${major}-${minor}`;
+  // Minor-less 5-gen names omit the minor in the ID (claude-fable-5, not
+  // claude-fable-5-0); 4.x names always carry a minor in the pricing table.
+  return m[3] != null
+    ? `claude-${family}-${major}-${m[3]}`
+    : `claude-${family}-${major}`;
 }
 
 // ── API fetch (optional, for release dates) ──
@@ -608,6 +631,8 @@ async function main() {
     // Infer performance rating from model family
     const family = inferFamily(id);
     const FAMILY_PERF: Record<string, number> = {
+      "claude-fable": 5,
+      "claude-mythos": 5,
       "claude-opus": 5,
       "claude-sonnet": 4,
       "claude-haiku": 3,
@@ -623,17 +648,21 @@ async function main() {
     // Priority tier: all current models support it
     if (!spec.deprecated) anthropicFields.priority_tier = true;
     // Fast mode (beta premium pricing) — only on specific models
-    if (fastMode?.models.includes(spec.name)) {
+    const fm = fastMode.get(spec.name);
+    if (fm) {
       anthropicFields.fast_mode_pricing = {
-        input: fastMode.input,
-        output: fastMode.output,
+        input: fm.input,
+        output: fm.output,
       };
     }
 
-    // Deprecation info from deprecations page
-    // Try exact match first, then find snapshot entries that start with this alias
+    // Deprecation info from deprecations page. The table is keyed by API model
+    // name (usually the dated snapshot), so try the entry's own id, then the
+    // spec's snapshot id (covers aliases like claude-sonnet-4-0 whose snapshot
+    // is claude-sonnet-4-20250514), then snapshot entries prefixed by this id.
     const dep =
       deprecations.get(id) ??
+      deprecations.get(spec.id) ??
       [...deprecations.entries()].find(
         ([k]) => k.startsWith(`${id}-`) && /\d{8}$/.test(k),
       )?.[1];
