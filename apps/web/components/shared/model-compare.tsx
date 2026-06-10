@@ -27,7 +27,7 @@ import {
   Wrench,
   Zap,
 } from "lucide-react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { Suspense } from "react";
 import { ModelPicker } from "@/components/shared/model-picker";
 import { ProviderIcon } from "@/components/shared/provider-icon";
@@ -221,12 +221,19 @@ const CAP_KEYS: [keyof ModelCapabilities, string, LucideIcon][] = [
   ["batch", "Batch", Package],
 ];
 
-function CompareInner({ models }: { models: CompareModel[] }) {
-  const router = useRouter();
+function CompareInner({
+  models,
+  aliases,
+}: {
+  models: CompareModel[];
+  aliases: Record<string, string>;
+}) {
   const searchParams = useSearchParams();
 
-  const modelA = searchParams.get("a");
-  const modelB = searchParams.get("b");
+  const rawA = searchParams.get("a");
+  const rawB = searchParams.get("b");
+  const modelA = rawA ? (aliases[rawA] ?? rawA) : null;
+  const modelB = rawB ? (aliases[rawB] ?? rawB) : null;
 
   const a = modelA
     ? models.find((m) => `${m.provider}/${m.id}` === modelA)
@@ -240,7 +247,8 @@ function CompareInner({ models }: { models: CompareModel[] }) {
     if (aKey) params.set("a", aKey);
     if (bKey) params.set("b", bKey);
     const qs = params.toString();
-    router.push(qs ? `/compare?${qs}` : "/compare");
+    // Not router.push: Next.js 16.2.x swallows searchParams-only navigations after a hard load with search params (vercel/next.js#92187).
+    window.history.pushState(null, "", qs ? `/compare?${qs}` : "/compare");
   }
 
   return (
@@ -478,10 +486,16 @@ function CompareInner({ models }: { models: CompareModel[] }) {
   );
 }
 
-export function ModelCompare({ models }: { models: CompareModel[] }) {
+export function ModelCompare({
+  models,
+  aliases,
+}: {
+  models: CompareModel[];
+  aliases: Record<string, string>;
+}) {
   return (
     <Suspense>
-      <CompareInner models={models} />
+      <CompareInner models={models} aliases={aliases} />
     </Suspense>
   );
 }
