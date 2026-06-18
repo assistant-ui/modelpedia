@@ -1,6 +1,6 @@
 {
   "id": "minimax/minimax-m3",
-  "name": "MiniMax-M3",
+  "name": "MiniMax M3",
   "created_by": "minimax",
   "source": "official",
   "family": "minimax",
@@ -27,7 +27,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "fdf91d1b",
+    "name": "7c7d766a",
     "family": "c85916f0",
     "status": "379ac110",
     "release_date": "80eaf594",
@@ -40,5 +40,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-06-18"
 }

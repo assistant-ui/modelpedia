@@ -3,7 +3,7 @@
   "name": "Claude Fable 5",
   "created_by": "anthropic",
   "source": "official",
-  "family": "claude",
+  "family": "claude-fable",
   "status": "active",
   "model_type": "chat",
   "capabilities": {
@@ -21,12 +21,12 @@
   },
   "_generated": {
     "name": "210d845d",
-    "family": "c529ee89",
+    "family": "127f43cd",
     "status": "379ac110",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "pricing": "b3224faf",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-06-18"
 }

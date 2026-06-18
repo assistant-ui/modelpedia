@@ -1,0 +1,30 @@
+{
+  "id": "s/glm-52",
+  "name": "Glm 52",
+  "created_by": "zhipu",
+  "source": "official",
+  "family": "glm-52",
+  "page_url": "https://www.together.ai/models/glm-52",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.26,
+    "output": 4.4
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "40d8facd",
+    "family": "e0a863a6",
+    "page_url": "bc513b89",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "ef5dd26e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-18"
+}

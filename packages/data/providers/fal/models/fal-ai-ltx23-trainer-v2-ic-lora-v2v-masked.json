@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx23-trainer-v2/ic-lora/v2v-masked",
+  "name": "LTX 2.3 Trainer (V2) - Masked Video-to-Video IC-LoRA",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train an IC-LoRA that regenerates only the masked region of a video, guided by the kept pixels and a separate reference/control video.",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/ic-lora/v2v-masked",
+  "tagline": "Train an IC-LoRA that regenerates only the masked region of a video, guided by the kept pixels and a separate reference/control video.",
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "5f3c47ca",
+    "description": "43bef4a3",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "a70f8b51",
+    "tagline": "43bef4a3",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

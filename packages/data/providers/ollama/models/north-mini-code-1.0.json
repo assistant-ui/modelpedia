@@ -1,0 +1,38 @@
+{
+  "id": "north-mini-code-1.0",
+  "name": "north-mini-code-1.0",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "North Mini Code is Cohere&#39;s first model for developers — a 30B Mixture-of-Experts model with 3B active parameters, built for agentic software engineering.",
+  "context_window": 499712,
+  "reasoning_tokens": true,
+  "license": "apache-2.0",
+  "page_url": "https://ollama.com/library/north-mini-code-1.0",
+  "open_weight": true,
+  "tagline": "North Mini Code is Cohere&#39;s first model for developers — a 30B Mixture-of-Experts model with 3B active parameters, built for agentic software engineering.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9bce4a1a",
+    "description": "f38886c8",
+    "context_window": "12194083",
+    "reasoning_tokens": "b326b506",
+    "license": "60245731",
+    "page_url": "6dee4639",
+    "open_weight": "b326b506",
+    "tagline": "f38886c8",
+    "capabilities": "4043afaa",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-18"
+}

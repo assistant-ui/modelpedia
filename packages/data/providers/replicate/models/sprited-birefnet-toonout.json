@@ -1,0 +1,16 @@
+{
+  "id": "sprited/birefnet-toonout",
+  "name": "Birefnet Toonout",
+  "created_by": "sprited",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/sprited/birefnet-toonout",
+  "_generated": {
+    "name": "72a40f78",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "aab3c251"
+  },
+  "last_updated": "2026-06-18"
+}

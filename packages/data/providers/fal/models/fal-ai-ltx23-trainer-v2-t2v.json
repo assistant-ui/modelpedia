@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx23-trainer-v2/t2v",
+  "name": "LTX 2.3 Trainer (V2) - Text-to-Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Fine-tune LTX 2.3 on your own clips to teach it a new subject, character, object, or visual style, then generate full videos from a text prompt.",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/t2v",
+  "tagline": "Fine-tune LTX 2.3 on your own clips to teach it a new subject, character, object, or visual style, then generate full videos from a text prompt.",
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "f359b542",
+    "description": "b6d50a2d",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "27edf2e0",
+    "tagline": "b6d50a2d",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

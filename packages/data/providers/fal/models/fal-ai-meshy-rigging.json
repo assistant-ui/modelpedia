@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/meshy/rigging",
   "tagline": "Rig humanoid 3D models from GLB URLs with Meshy, returning rigged GLB/FBX files plus basic   animations.",
-  "last_seen_at": "2026-05-19",
+  "last_seen_at": "2026-06-17",
   "_generated": {
     "name": "25f8e2f8",
     "description": "3d98d6d7",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "2bd47ff3",
     "tagline": "3d98d6d7",
-    "last_seen_at": "665f01a0"
+    "last_seen_at": "e050aed5"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-06-18"
 }

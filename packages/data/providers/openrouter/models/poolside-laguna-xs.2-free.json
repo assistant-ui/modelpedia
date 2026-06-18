@@ -3,14 +3,16 @@
   "name": "Poolside: Laguna XS.2 (free)",
   "created_by": "poolside",
   "source": "official",
-  "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai), their efficient coding agent series.",
+  "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/), their efficient coding agent series.",
   "release_date": "2026-04-28",
   "context_window": 262144,
   "max_output_tokens": 32768,
   "tagline": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai), their efficient coding agent series.",
   "capabilities": {
     "tool_call": true,
-    "reasoning": true
+    "reasoning": true,
+    "structured_output": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -19,14 +21,14 @@
   "tools": ["function_calling"],
   "_generated": {
     "name": "e5e3f399",
-    "description": "38c39fb4",
+    "description": "e0e863af",
     "release_date": "52326430",
     "context_window": "4a1d32eb",
     "max_output_tokens": "f4376436",
     "tagline": "38c39fb4",
-    "capabilities": "05723a3e",
+    "capabilities": "9346c8a7",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-29"
+  "last_updated": "2026-06-18"
 }

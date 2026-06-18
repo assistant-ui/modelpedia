@@ -1,0 +1,44 @@
+{
+  "id": "glm-5.2",
+  "name": "glm-5.2",
+  "created_by": "zhipu",
+  "source": "official",
+  "family": "glm-5.2",
+  "description": "GLM-5.2 is Z.ai’s flagship model for the era of long-horizon tasks.",
+  "release_date": "2026-06-16",
+  "context_window": 999424,
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "page_url": "https://ollama.com/library/glm-5.2",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "GLM-5.2 is Z.ai’s flagship model for the era of long-horizon tasks.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8e7b3ca0",
+    "family": "8e7b3ca0",
+    "description": "8e542dff",
+    "release_date": "3eed1aa6",
+    "context_window": "7a0605d5",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "page_url": "123b61a7",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "8e542dff",
+    "capabilities": "4043afaa",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-18"
+}

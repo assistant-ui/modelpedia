@@ -1,0 +1,31 @@
+{
+  "id": "ACE-Step/acestep-v15-xl-sft",
+  "name": "acestep-v15-xl-sft",
+  "created_by": "ace-step",
+  "source": "official",
+  "description": "ACE-Step v1.5 is a powerful open-source music foundation model that turns a text prompt into a complete song — vocals, lyrics, and instrumentation — at quality that rivals commercial tools. We run the high-quality XL checkpoint with its planning step (\"thinking\") on by default, so generations favor musical structure and coherence over raw speed.",
+  "status": "active",
+  "model_type": "chat",
+  "open_weight": true,
+  "tagline": "ACE-Step v1.5 is a powerful open-source music foundation model that turns a text prompt into a complete song — vocals, lyrics, and instrumentation — at quality that rivals commercial tools.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing_notes": ["$0.001 / second of audio"],
+  "_generated": {
+    "name": "b12385d8",
+    "description": "b85198ff",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "open_weight": "b326b506",
+    "tagline": "2f8df2ff",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing_notes": "f62a4ad6"
+  },
+  "last_updated": "2026-06-18"
+}

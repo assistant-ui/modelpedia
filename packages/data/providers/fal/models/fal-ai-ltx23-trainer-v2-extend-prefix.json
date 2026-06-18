@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx23-trainer-v2/extend-prefix",
+  "name": "LTX 2.3 Trainer (V2) - Forward Video Extension",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train a LoRA that continues a video forward in time — supply an opening clip at inference and the model generates what comes next.",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/extend-prefix",
+  "tagline": "Train a LoRA that continues a video forward in time — supply an opening clip at inference and the model generates what comes next.",
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "73af2c85",
+    "description": "953a765d",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "723f0065",
+    "tagline": "953a765d",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

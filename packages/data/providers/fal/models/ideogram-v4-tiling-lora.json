@@ -1,0 +1,36 @@
+{
+  "id": "ideogram/v4/tiling/lora",
+  "name": "Ideogram V4.0q Tiling LoRA",
+  "created_by": "ideogram",
+  "source": "official",
+  "description": "Ideogram V4.0q Tiling LoRA produces seamless repeatable patterns guided by a custom-trained LoRA, locking a specific aesthetic or motif into tileable textures for cohesive, large-scale surface design.",
+  "status": "active",
+  "release_date": "2026-06-10",
+  "model_type": "image",
+  "page_url": "https://fal.run/ideogram/v4/tiling/lora",
+  "tagline": "Ideogram V4.0q Tiling LoRA produces seamless repeatable patterns guided by a custom-trained LoRA, locking a specific aesthetic or motif into tileable textures for cohesive, large-scale surface design.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-06-12",
+  "_generated": {
+    "name": "04fcebac",
+    "description": "d400e2d6",
+    "status": "379ac110",
+    "release_date": "c4f3ae01",
+    "model_type": "db8857fe",
+    "page_url": "5390f3c8",
+    "tagline": "d400e2d6",
+    "capabilities": "8a3b232e",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "28358d71"
+  },
+  "last_updated": "2026-06-18"
+}

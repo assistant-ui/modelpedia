@@ -1,0 +1,36 @@
+{
+  "id": "ideogram/v4/image-to-image/lora",
+  "name": "Ideogram V4.0q Image to Image LoRA",
+  "created_by": "ideogram",
+  "source": "official",
+  "description": "Ideogram V4.0q Image-to-Image LoRA applies a custom-trained LoRA on top of an input image, steering edits toward a specific style, subject, or brand identity while keeping the source composition intac",
+  "status": "active",
+  "release_date": "2026-06-10",
+  "model_type": "image",
+  "page_url": "https://fal.run/ideogram/v4/image-to-image/lora",
+  "tagline": "Ideogram V4.0q Image-to-Image LoRA applies a custom-trained LoRA on top of an input image, steering edits toward a specific style, subject, or brand identity while keeping the source composition intac",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-06-11",
+  "_generated": {
+    "name": "e42237ff",
+    "description": "1315dde2",
+    "status": "379ac110",
+    "release_date": "c4f3ae01",
+    "model_type": "db8857fe",
+    "page_url": "c4971ac0",
+    "tagline": "1315dde2",
+    "capabilities": "8a3b232e",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "af441ea0"
+  },
+  "last_updated": "2026-06-18"
+}

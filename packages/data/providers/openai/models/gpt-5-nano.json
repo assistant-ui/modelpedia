@@ -3,7 +3,7 @@
   "name": "GPT-5 nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-06-18",
   "family": "gpt-5",
   "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for",
   "status": "active",
@@ -11,7 +11,7 @@
   "context_window": 400000,
   "max_output_tokens": 128000,
   "max_input_tokens": 272000,
-  "model_type": "chat",
+  "model_type": "reasoning",
   "reasoning_tokens": true,
   "performance": 2,
   "reasoning": 2,
@@ -59,7 +59,14 @@
       }
     ]
   },
-  "tools": ["function_calling"],
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "mcp"
+  ],
   "endpoints": ["chat_completions", "responses", "batch"],
   "snapshots": ["gpt-5-nano-2025-08-07"],
   "_generated": {
@@ -71,7 +78,7 @@
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
     "max_input_tokens": "3f9281a0",
-    "model_type": "d669f408",
+    "model_type": "17475f7f",
     "reasoning_tokens": "b326b506",
     "performance": "c81e728d",
     "reasoning": "c81e728d",
@@ -80,15 +87,15 @@
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
     "pricing": "c144148c",
-    "tools": "f0c1dc7e",
+    "tools": "1d5a765f",
     "endpoints": "ec55a017",
     "license": "9186c466",
-    "page_url": "ee904c9b",
+    "page_url": "c92fdc64",
     "open_weight": "68934a3e",
     "release_date": "79c30d0c"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-5-nano?snapshot=gpt-5-nano-2025-08-07",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5-nano",
   "open_weight": false,
   "release_date": "2025-08-07"
 }

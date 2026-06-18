@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling-video/v3/turbo/standard/image-to-video",
+  "name": "Kling Video V3 Standard Turbo Image to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling 3.0 Turbo Standard animates a first and last frame reference image into 720P video with native audio, delivering quick, affordable image-driven motion for fast turnaround",
+  "status": "active",
+  "release_date": "2026-06-16",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/v3/turbo/standard/image-to-video",
+  "tagline": "Kling 3.0 Turbo Standard animates a first and last frame reference image into 720P video with native audio, delivering quick, affordable image-driven motion for fast turnaround",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "9685a491",
+    "description": "5794ae98",
+    "status": "379ac110",
+    "release_date": "3eed1aa6",
+    "model_type": "4d1b75ca",
+    "page_url": "05739e4e",
+    "tagline": "5794ae98",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

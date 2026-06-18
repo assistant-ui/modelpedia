@@ -1,0 +1,16 @@
+{
+  "id": "vufinder/sam3",
+  "name": "Sam3",
+  "created_by": "vufinder",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/vufinder/sam3",
+  "_generated": {
+    "name": "c6d7075e",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "da296792"
+  },
+  "last_updated": "2026-06-18"
+}

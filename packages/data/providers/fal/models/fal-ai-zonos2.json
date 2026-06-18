@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/zonos2",
+  "name": "Zonos2 Text to Speech",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Zonos2 is a text-to-speech model that clones a voice from a short sample and speaks naturally across many languages.",
+  "status": "active",
+  "release_date": "2026-06-16",
+  "model_type": "tts",
+  "page_url": "https://fal.run/fal-ai/zonos2",
+  "tagline": "Zonos2 is a text-to-speech model that clones a voice from a short sample and speaks naturally across many languages.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-06-16",
+  "_generated": {
+    "name": "16d8c3cf",
+    "description": "91860985",
+    "status": "379ac110",
+    "release_date": "3eed1aa6",
+    "model_type": "4e16a2cf",
+    "page_url": "c3caef54",
+    "tagline": "91860985",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "3eed1aa6"
+  },
+  "last_updated": "2026-06-18"
+}

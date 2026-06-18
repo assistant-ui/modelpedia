@@ -3,7 +3,7 @@
   "name": "gpt-5-pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-06-18",
   "family": "gpt-5",
   "status": "active",
   "knowledge_cutoff": "2024-09",
@@ -68,7 +68,7 @@
     "endpoints": "6f01fd6c",
     "model_type": "d669f408",
     "license": "9186c466",
-    "page_url": "4e00bc3f",
+    "page_url": "123e8aa6",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "release_date": "17ddf71c"
@@ -76,7 +76,7 @@
   "snapshots": ["gpt-5-pro-2025-10-06"],
   "model_type": "chat",
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-5-pro?snapshot=gpt-5-pro-2025-10-06",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5-pro",
   "open_weight": false,
   "tools": ["function_calling"],
   "release_date": "2025-10-06"

@@ -1,0 +1,28 @@
+{
+  "id": "google.gemma-4-31b",
+  "name": "Gemma 4 31B",
+  "created_by": "google",
+  "source": "official",
+  "release_date": "2025-06-10",
+  "context_window": 256000,
+  "model_type": "chat",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-31b",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["image", "text", "video"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "d53d071a",
+    "release_date": "298b4e52",
+    "context_window": "2fd324cb",
+    "model_type": "d669f408",
+    "page_url": "98bae645",
+    "capabilities": "8a3b232e",
+    "modalities": "1e916c3b"
+  },
+  "last_updated": "2026-06-18"
+}

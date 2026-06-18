@@ -3,7 +3,7 @@
   "name": "COGVIEW-4-250304",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-18",
   "license": "mit",
   "page_url": "https://docs.z.ai/guides/image/cogview-4",
   "modalities": {
@@ -17,7 +17,11 @@
     "page_url": "de4ff307",
     "modalities": "814867b9",
     "open_weight": "b326b506",
-    "model_type": "db8857fe"
+    "model_type": "db8857fe",
+    "description": "2fc0fad2",
+    "tagline": "91c6c204"
   },
-  "model_type": "image"
+  "model_type": "image",
+  "description": "CogView-4 is Z.AI’s first open-source text-to-image model. It has comprehensive improvements in semantic understanding, image generation quality, and the ability to generate both English and Chinese text. It supports bilingual input of any length in Chinese and English and can generate images of any resolution within a specified range.",
+  "tagline": "CogView-4 is Z.AI’s first open-source text-to-image model."
 }

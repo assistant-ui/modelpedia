@@ -1,0 +1,23 @@
+{
+  "id": "minimaxai/minimax-m3",
+  "name": "minimax-m3",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "648ccc75",
+    "family": "c85916f0",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-18"
+}

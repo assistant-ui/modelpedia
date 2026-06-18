@@ -3,7 +3,7 @@
   "name": "COGVIDEOX-3",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-18",
   "license": "mit",
   "page_url": "https://docs.z.ai/guides/video/cogvideox-3",
   "modalities": {
@@ -17,7 +17,11 @@
     "page_url": "3d0b15f4",
     "modalities": "43c560c1",
     "open_weight": "b326b506",
-    "model_type": "4d1b75ca"
+    "model_type": "4d1b75ca",
+    "description": "7584af68",
+    "tagline": "68f2396d"
   },
-  "model_type": "video"
+  "model_type": "video",
+  "description": "CogVideoX-3 features new frame generation capabilities that significantly improve image stability and clarity. It also delivers superior performance in handling subjects with significant movement, better adheres to instructions, and provides more realistic simulations. Additionally, it enhances the rendering of high-definition real-world and 3D-style scenes.",
+  "tagline": "CogVideoX-3 features new frame generation capabilities that significantly improve image stability and clarity."
 }

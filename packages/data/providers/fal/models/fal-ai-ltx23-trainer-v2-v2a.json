@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx23-trainer-v2/v2a",
+  "name": "LTX 2.3 Trainer (V2) - Video-to-Audio",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train a LoRA that generates audio (foley / sound design) for a silent video, learning a soundtrack that matches the on-screen action.",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/v2a",
+  "tagline": "Train a LoRA that generates audio (foley / sound design) for a silent video, learning a soundtrack that matches the on-screen action.",
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "6eb3a79c",
+    "description": "eae54d62",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "4b888e64",
+    "tagline": "eae54d62",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

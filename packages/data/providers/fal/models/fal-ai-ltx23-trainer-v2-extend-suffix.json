@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx23-trainer-v2/extend-suffix",
+  "name": "LTX 2.3 Trainer (V2) - Backward Video Extension",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train a LoRA that generates the lead-in to a video, extending a clip backward in time from its ending.",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/extend-suffix",
+  "tagline": "Train a LoRA that generates the lead-in to a video, extending a clip backward in time from its ending.",
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "deec92c1",
+    "description": "732e3ee4",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "f8865a04",
+    "tagline": "732e3ee4",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

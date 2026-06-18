@@ -3,21 +3,21 @@
   "name": "kimi-k2p5",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-05-10",
+  "last_updated": "2026-06-18",
   "context_window": 262000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.6,
-    "output": 3,
-    "cached_input": 0.1
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "d5929361",
     "context_window": "4ed74017",
     "capabilities": "0fa77dc6",
-    "pricing": "b1e4b497",
+    "pricing": "cb03f68e",
     "family": "0f7256d5",
     "model_type": "d669f408",
     "page_url": "7bad66c1",

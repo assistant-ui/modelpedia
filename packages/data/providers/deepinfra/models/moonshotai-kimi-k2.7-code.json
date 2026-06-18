@@ -1,0 +1,55 @@
+{
+  "id": "moonshotai/Kimi-K2.7-Code",
+  "name": "Kimi-K2.7-Code",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "Kimi-K2.7",
+  "description": "Kimi K2.7 Code is a coding-focused agentic model built upon Kimi K2.6. With substantial improvements on real-world long-horizon coding tasks, it strengthens end-to-end task completion across complex software engineering workflows while improving token efficiency, reducing thinking-token usage by approximately 30% compared with Kimi K2.6.",
+  "status": "active",
+  "context_window": 262144,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "modified-mit",
+  "open_weight": true,
+  "tagline": "Kimi K2.7 Code is a coding-focused agentic model built upon Kimi K2.6.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.74,
+    "output": 3.5,
+    "cached_input": 0.15
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "_generated": {
+    "name": "cb54f01b",
+    "family": "d63d5802",
+    "description": "4202bf73",
+    "status": "379ac110",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "c33cdf2d",
+    "open_weight": "b326b506",
+    "tagline": "e59fdbee",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "3002902a",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee"
+  },
+  "last_updated": "2026-06-18"
+}

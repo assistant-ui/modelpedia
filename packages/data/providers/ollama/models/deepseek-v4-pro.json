@@ -4,7 +4,7 @@
   "created_by": "deepseek",
   "source": "official",
   "family": "deepseek",
-  "description": "DeepSeek-V4-Pro is a frontier Mixture-of-Experts model with a 1M-token context window and three reasoning modes.",
+  "description": "DeepSeek-V4-Pro is a frontier Mixture-of-Experts model with a large context window and three reasoning modes.",
   "release_date": "2026-04-24",
   "reasoning_tokens": true,
   "license": "open-weight",
@@ -26,7 +26,7 @@
   "_generated": {
     "name": "ddde4e2b",
     "family": "4b81b92d",
-    "description": "50a28dff",
+    "description": "d71f2863",
     "release_date": "173d2bb2",
     "reasoning_tokens": "b326b506",
     "license": "6327aaea",
@@ -38,5 +38,5 @@
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-06-18"
 }

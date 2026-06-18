@@ -1,0 +1,24 @@
+{
+  "id": "bria/video/background-removal/v3",
+  "name": "Bria's VRMBG 3.0",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Remove backgrounds from any video with Bria's VRMBG 3.0.",
+  "status": "active",
+  "release_date": "2026-06-08",
+  "model_type": "other",
+  "page_url": "https://fal.run/bria/video/background-removal/v3",
+  "tagline": "Remove backgrounds from any video with Bria's VRMBG 3.0.",
+  "last_seen_at": "2026-06-14",
+  "_generated": {
+    "name": "9b0a1719",
+    "description": "4e54995f",
+    "status": "379ac110",
+    "release_date": "850fe4a0",
+    "model_type": "ddb0b7bc",
+    "page_url": "e17aab5f",
+    "tagline": "4e54995f",
+    "last_seen_at": "70c247d8"
+  },
+  "last_updated": "2026-06-18"
+}

@@ -3,7 +3,7 @@
   "name": "o3",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-06-18",
   "family": "o3",
   "description": "o3 is a well-rounded and powerful model across domains. It sets a new",
   "status": "active",
@@ -58,7 +58,14 @@
       }
     ]
   },
-  "tools": ["function_calling"],
+  "tools": [
+    "function_calling",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "mcp",
+    "web_search"
+  ],
   "endpoints": ["chat_completions", "responses", "batch"],
   "snapshots": ["o3-2025-04-16"],
   "_generated": {
@@ -78,15 +85,15 @@
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
     "pricing": "5e39d62f",
-    "tools": "f0c1dc7e",
+    "tools": "87bd8291",
     "endpoints": "ec55a017",
     "license": "9186c466",
-    "page_url": "b61c9581",
+    "page_url": "e2ccf3a7",
     "open_weight": "68934a3e",
     "release_date": "67604092"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/o3?snapshot=o3-2025-04-16",
+  "page_url": "https://developers.openai.com/api/docs/models/o3",
   "open_weight": false,
   "release_date": "2025-04-16"
 }

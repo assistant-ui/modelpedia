@@ -1,0 +1,24 @@
+{
+  "id": "luma/agent/ray/v3.2/reframe",
+  "name": "Luma Ray 3.2 Reframe",
+  "created_by": "luma",
+  "source": "official",
+  "description": "Luma Ray 3.2 reframes an existing video into a new aspect ratio guided by a text prompt, preserving the original footage frame-for-frame while controlling resolution and outpainting the surrounding ca",
+  "status": "active",
+  "release_date": "2026-06-11",
+  "model_type": "other",
+  "page_url": "https://fal.run/luma/agent/ray/v3.2/reframe",
+  "tagline": "Luma Ray 3.2 reframes an existing video into a new aspect ratio guided by a text prompt, preserving the original footage frame-for-frame while controlling resolution and outpainting the surrounding ca",
+  "last_seen_at": "2026-06-15",
+  "_generated": {
+    "name": "4f88cb4d",
+    "description": "507164e5",
+    "status": "379ac110",
+    "release_date": "af441ea0",
+    "model_type": "ddb0b7bc",
+    "page_url": "21fc7e9c",
+    "tagline": "507164e5",
+    "last_seen_at": "cc23f918"
+  },
+  "last_updated": "2026-06-18"
+}

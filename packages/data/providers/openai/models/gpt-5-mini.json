@@ -3,7 +3,7 @@
   "name": "GPT-5 mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-06-18",
   "family": "gpt-5",
   "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for",
   "status": "active",
@@ -11,7 +11,7 @@
   "context_window": 400000,
   "max_output_tokens": 128000,
   "max_input_tokens": 272000,
-  "model_type": "chat",
+  "model_type": "reasoning",
   "reasoning_tokens": true,
   "performance": 3,
   "reasoning": 3,
@@ -63,7 +63,13 @@
       }
     ]
   },
-  "tools": ["function_calling"],
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "code_interpreter",
+    "mcp"
+  ],
   "endpoints": ["chat_completions", "responses", "batch"],
   "snapshots": ["gpt-5-mini-2025-08-07"],
   "_generated": {
@@ -75,7 +81,7 @@
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
     "max_input_tokens": "3f9281a0",
-    "model_type": "d669f408",
+    "model_type": "17475f7f",
     "reasoning_tokens": "b326b506",
     "performance": "eccbc87e",
     "reasoning": "eccbc87e",
@@ -84,15 +90,15 @@
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
     "pricing": "3ed6285a",
-    "tools": "f0c1dc7e",
+    "tools": "907918a7",
     "endpoints": "ec55a017",
     "license": "9186c466",
-    "page_url": "defe53f9",
+    "page_url": "830fa4d3",
     "open_weight": "68934a3e",
     "release_date": "79c30d0c"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-5-mini?snapshot=gpt-5-mini-2025-08-07",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5-mini",
   "open_weight": false,
   "release_date": "2025-08-07"
 }

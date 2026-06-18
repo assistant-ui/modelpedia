@@ -1,0 +1,33 @@
+{
+  "id": "fireworks/deepseek-v4-pro",
+  "name": "deepseek-v4-pro",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "context_window": 1040000,
+  "page_url": "https://fireworks.ai/models/fireworks/deepseek-v4-pro",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.74,
+    "output": 3.48,
+    "cached_input": 0.14
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "ddde4e2b",
+    "family": "4b81b92d",
+    "context_window": "1bf8ad8b",
+    "page_url": "5ade00f1",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "974573d4",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-18"
+}

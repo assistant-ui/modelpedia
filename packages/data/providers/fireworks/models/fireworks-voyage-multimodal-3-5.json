@@ -1,0 +1,24 @@
+{
+  "id": "fireworks/voyage-multimodal-3-5",
+  "name": "voyage-multimodal-3-5",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 32700,
+  "page_url": "https://fireworks.ai/models/fireworks/voyage-multimodal-3-5",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "_generated": {
+    "name": "85a5c512",
+    "context_window": "e1ea274b",
+    "page_url": "d2047fd3",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e"
+  },
+  "last_updated": "2026-06-18"
+}

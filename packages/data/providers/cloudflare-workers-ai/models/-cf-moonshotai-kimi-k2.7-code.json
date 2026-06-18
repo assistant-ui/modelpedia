@@ -1,0 +1,32 @@
+{
+  "id": "@cf/moonshotai/kimi-k2.7-code",
+  "name": "kimi-k2.7-code",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k2.7",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#kimi-k2.7-code",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f0880691",
+    "family": "4bc6ec57",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "eb62ed40",
+    "capabilities": "45192957",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-18"
+}

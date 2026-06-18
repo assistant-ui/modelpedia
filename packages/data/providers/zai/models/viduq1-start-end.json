@@ -3,7 +3,7 @@
   "name": "VIDUQ1-START-END",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-18",
   "license": "mit",
   "page_url": "https://docs.z.ai/guides/video/vidu-q1",
   "modalities": {
@@ -16,6 +16,10 @@
     "license": "3c4c3ba5",
     "page_url": "1c40ab01",
     "modalities": "43c560c1",
-    "open_weight": "b326b506"
-  }
+    "open_weight": "b326b506",
+    "description": "a02b8280",
+    "tagline": "a195f0a6"
+  },
+  "description": "Vidu Q1 is the next-generation video generation model from Vidu, designed for high-quality video creation. It consistently outputs 5-second, 24-frame, 1080P video clips. Through advanced optimization of visual clarity, Vidu Q1 delivers significantly enhanced image quality with notable improvements in issues such as hand distortion and frame jitter.",
+  "tagline": "Vidu Q1 is the next-generation video generation model from Vidu, designed for high-quality video creation."
 }

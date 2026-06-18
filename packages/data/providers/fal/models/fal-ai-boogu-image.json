@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/boogu-image",
+  "name": "Boogu Image",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Text To Image Model using Boogu-Image",
+  "status": "active",
+  "release_date": "2026-06-18",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/boogu-image",
+  "tagline": "Text To Image Model using Boogu-Image",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-06-18",
+  "_generated": {
+    "name": "14439d8b",
+    "description": "6f0ee229",
+    "status": "379ac110",
+    "release_date": "7ddb29f2",
+    "model_type": "db8857fe",
+    "page_url": "e3e85fdb",
+    "tagline": "6f0ee229",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "7ddb29f2"
+  },
+  "last_updated": "2026-06-18"
+}

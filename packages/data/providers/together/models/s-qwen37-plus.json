@@ -1,0 +1,30 @@
+{
+  "id": "s/qwen37-plus",
+  "name": "Qwen37 Plus",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen37",
+  "page_url": "https://www.together.ai/models/qwen37-plus",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.32,
+    "output": 1.28
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "4514096b",
+    "family": "a6f24ed7",
+    "page_url": "e7e4ea48",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "81bdc3b0",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-18"
+}

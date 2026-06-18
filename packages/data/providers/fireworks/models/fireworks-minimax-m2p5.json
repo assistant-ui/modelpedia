@@ -3,21 +3,21 @@
   "name": "minimax-m2p5",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-05-10",
+  "last_updated": "2026-06-18",
   "context_window": 196000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.3,
-    "output": 1.2,
-    "cached_input": 0.03
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "46fae7ae",
     "context_window": "94593300",
     "capabilities": "0fa77dc6",
-    "pricing": "af2df236",
+    "pricing": "cb03f68e",
     "family": "c85916f0",
     "model_type": "d669f408",
     "page_url": "29171766",

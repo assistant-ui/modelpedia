@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kling-video/v3/turbo/pro/image-to-video",
+  "name": "Kling Video V3 Turbo Pro Image to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate high quality 1080p videos from images using Kling's Turbo 3.0 model, with improved lipsync and multishot generation capabilities.",
+  "status": "active",
+  "release_date": "2026-06-16",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/v3/turbo/pro/image-to-video",
+  "tagline": "Generate high quality 1080p videos from images using Kling's Turbo 3.0 model, with improved lipsync and multishot generation capabilities.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "caef0f10",
+    "description": "fe3eee12",
+    "status": "379ac110",
+    "release_date": "3eed1aa6",
+    "model_type": "4d1b75ca",
+    "page_url": "d410c281",
+    "tagline": "fe3eee12",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

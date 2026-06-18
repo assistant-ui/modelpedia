@@ -3,7 +3,7 @@
   "name": "ByteDance: UI-TARS 7B ",
   "created_by": "bytedance",
   "source": "official",
-  "last_updated": "2026-04-14",
+  "last_updated": "2026-06-18",
   "description": "UI-TARS-1.5 is a multimodal vision-language agent optimized for GUI-based environments, including desktop interfaces, web browsers, mobile systems, and games.",
   "context_window": 128000,
   "max_output_tokens": 2048,
@@ -25,9 +25,14 @@
     "pricing": "cceb8e9c",
     "parameters": "8f14e45f",
     "release_date": "7b78b654",
-    "tagline": "fa6668d8"
+    "tagline": "fa6668d8",
+    "capabilities": "dbb5b7fe"
   },
   "parameters": 7,
   "release_date": "2025-07-22",
-  "tagline": "UI-TARS-1.5 is a multimodal vision-language agent optimized for GUI-based environments, including desktop interfaces, web browsers, mobile systems, and games."
+  "tagline": "UI-TARS-1.5 is a multimodal vision-language agent optimized for GUI-based environments, including desktop interfaces, web browsers, mobile systems, and games.",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true
+  }
 }

@@ -1,0 +1,41 @@
+{
+  "id": "zai-org/GLM-4-32B-0414",
+  "name": "GLM-4-32B-0414",
+  "created_by": "zhipu",
+  "source": "official",
+  "family": "GLM-4",
+  "release_date": "2025-04-07",
+  "context_window": 32768,
+  "license": "mit",
+  "parameters": 33,
+  "page_url": "https://huggingface.co/zai-org/GLM-4-32B-0414",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a6ce6bda",
+    "family": "01e27655",
+    "release_date": "449b891b",
+    "context_window": "f4376436",
+    "license": "3c4c3ba5",
+    "parameters": "182be0c5",
+    "page_url": "ad9b03d0",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-18"
+}

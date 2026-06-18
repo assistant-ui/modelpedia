@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx23-trainer-v2/audio-inpaint",
+  "name": "LTX 2.3 Trainer (V2) - Audio Inpainting",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train a LoRA that regenerates masked time spans of an audio clip while keeping the rest unchanged.",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/audio-inpaint",
+  "tagline": "Train a LoRA that regenerates masked time spans of an audio clip while keeping the rest unchanged.",
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "5d0c7128",
+    "description": "07a5bbb7",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "a2910a59",
+    "tagline": "07a5bbb7",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "luma/agent/ray/v3.2/video-to-video",
+  "name": "Luma Ray 3.2 Video to Video",
+  "created_by": "luma",
+  "source": "official",
+  "description": "Luma Ray 3.2 re-renders an existing video into new cinematic motion guided by a text prompt, preserving the source's look and movement while controlling resolution, duration, and HDR.",
+  "status": "active",
+  "release_date": "2026-06-11",
+  "model_type": "other",
+  "page_url": "https://fal.run/luma/agent/ray/v3.2/video-to-video",
+  "tagline": "Luma Ray 3.2 re-renders an existing video into new cinematic motion guided by a text prompt, preserving the source's look and movement while controlling resolution, duration, and HDR.",
+  "last_seen_at": "2026-06-15",
+  "_generated": {
+    "name": "b1f8ccc5",
+    "description": "1decba18",
+    "status": "379ac110",
+    "release_date": "af441ea0",
+    "model_type": "ddb0b7bc",
+    "page_url": "83418872",
+    "tagline": "1decba18",
+    "last_seen_at": "cc23f918"
+  },
+  "last_updated": "2026-06-18"
+}

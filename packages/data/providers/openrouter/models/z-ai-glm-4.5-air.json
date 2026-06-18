@@ -3,10 +3,10 @@
   "name": "Z.ai: GLM 4.5 Air",
   "created_by": "z-ai",
   "source": "official",
-  "last_updated": "2026-05-29",
+  "last_updated": "2026-06-18",
   "description": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications.",
   "context_window": 131072,
-  "max_output_tokens": 131070,
+  "max_output_tokens": 98304,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -18,18 +18,18 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.125,
+    "input": 0.13,
     "output": 0.85,
-    "cached_input": 0.06
+    "cached_input": 0.025
   },
   "_generated": {
     "name": "a2cae55b",
     "description": "dcb6e1b7",
     "context_window": "f7de594e",
-    "max_output_tokens": "e83a0812",
+    "max_output_tokens": "79cef9cc",
     "modalities": "68e53d93",
     "capabilities": "03fbefb4",
-    "pricing": "642c76eb",
+    "pricing": "0a37d783",
     "family": "e8ea1e1e",
     "model_type": "d669f408",
     "release_date": "fc8e67ab",

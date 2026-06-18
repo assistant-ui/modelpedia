@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx23-trainer-v2/audio-extend-prefix",
+  "name": "LTX 2.3 Trainer (V2) - Forward Audio Extension",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train a LoRA that continues an audio clip forward in time, generating the audio that follows a short clean prefix.",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/audio-extend-prefix",
+  "tagline": "Train a LoRA that continues an audio clip forward in time, generating the audio that follows a short clean prefix.",
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "332963d7",
+    "description": "b1788cb2",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "2617dc42",
+    "tagline": "b1788cb2",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

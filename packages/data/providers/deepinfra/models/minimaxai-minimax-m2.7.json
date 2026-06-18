@@ -24,9 +24,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.3,
-    "output": 1.2,
-    "cached_input": 0.055
+    "input": 0.25,
+    "output": 1,
+    "cached_input": 0.05
   },
   "tools": ["function_calling"],
   "endpoints": ["chat_completions"],
@@ -44,10 +44,10 @@
     "tagline": "a278ac7d",
     "capabilities": "56245a77",
     "modalities": "68e53d93",
-    "pricing": "05749b26",
+    "pricing": "c9426ad1",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "640679f9"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-06-18"
 }

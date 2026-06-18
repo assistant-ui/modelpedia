@@ -1,0 +1,35 @@
+{
+  "id": "moonshotai/kimi-k2.7-code-highspeed",
+  "name": "kimi-k2.7-code-highspeed",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k2.7",
+  "context_window": 262100,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1.9,
+    "output": 8
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "4ade5250",
+    "family": "4bc6ec57",
+    "context_window": "b23f4471",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "f7ad6fdc",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-18"
+}

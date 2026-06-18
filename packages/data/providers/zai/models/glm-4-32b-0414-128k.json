@@ -3,7 +3,7 @@
   "name": "GLM-4-32B-0414-128K",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-06-18",
   "context_window": 128000,
   "max_output_tokens": 16000,
   "capabilities": {
@@ -30,7 +30,9 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "page_url": "64d4549b",
-    "pricing": "dabb026f"
+    "pricing": "dabb026f",
+    "description": "4db83603",
+    "tagline": "d6058184"
   },
   "model_type": "chat",
   "family": "glm-4",
@@ -42,5 +44,7 @@
   "pricing": {
     "input": 0.1,
     "output": 0.1
-  }
+  },
+  "description": "GLM-4-32B-0414-128K is a highly cost-effective foundation language model. It can efficiently perform complex tasks and has significantly enhanced capabilities in tool use, online search, and code-related intelligent tasks.",
+  "tagline": "GLM-4-32B-0414-128K is a highly cost-effective foundation language model."
 }

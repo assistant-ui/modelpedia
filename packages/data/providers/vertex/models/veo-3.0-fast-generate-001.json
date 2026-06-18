@@ -1,0 +1,25 @@
+{
+  "id": "veo-3.0-fast-generate-001",
+  "name": "veo-3.0-fast-generate-001",
+  "created_by": "google",
+  "source": "official",
+  "family": "veo-3.0",
+  "status": "active",
+  "model_type": "video",
+  "license": "proprietary",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "_generated": {
+    "name": "7f1d98ab",
+    "family": "adc96752",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "modalities": "94e5e9ab"
+  },
+  "last_updated": "2026-06-18"
+}

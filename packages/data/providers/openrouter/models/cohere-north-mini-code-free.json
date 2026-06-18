@@ -1,0 +1,32 @@
+{
+  "id": "cohere/north-mini-code:free",
+  "name": "Cohere: North Mini Code (free)",
+  "created_by": "cohere",
+  "source": "official",
+  "description": "North Mini Code is Cohere's first agentic coding model and the debut of its North family.",
+  "release_date": "2026-06-17",
+  "context_window": 256000,
+  "max_output_tokens": 64000,
+  "tagline": "North Mini Code is Cohere's first agentic coding model and the debut of its North family.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b176030c",
+    "description": "2731386e",
+    "release_date": "e050aed5",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "762e98db",
+    "tagline": "2731386e",
+    "capabilities": "05723a3e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-18"
+}
