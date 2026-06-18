@@ -1,0 +1,33 @@
+{
+  "id": "defog/sqlcoder-7b-2",
+  "name": "sqlcoder-7b-2",
+  "created_by": "defog",
+  "source": "official",
+  "description": "The model weights were updated at 7 AM UTC on Feb 7, 2024. The new model weights lead to a much more performant model – particularly for joins.",
+  "release_date": "2024-02-05",
+  "context_window": 16384,
+  "license": "cc-by-sa-4.0",
+  "parameters": 6.7,
+  "page_url": "https://huggingface.co/defog/sqlcoder-7b-2",
+  "architecture": "transformer",
+  "tagline": "The model weights were updated at 7 AM UTC on Feb 7, 2024.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "9593c486",
+    "description": "80ae01ba",
+    "release_date": "56adcd1f",
+    "context_window": "c76fe1d8",
+    "license": "d62cdbae",
+    "parameters": "c3e22f2a",
+    "page_url": "213620a5",
+    "architecture": "8832ea0f",
+    "tagline": "7927a834",
+    "capabilities": "9c665f5d",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-06-18"
+}

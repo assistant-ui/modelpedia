@@ -1,0 +1,47 @@
+{
+  "id": "stepfun/step-3.7-flash",
+  "name": "Step 3.7 Flash",
+  "created_by": "stepfun",
+  "source": "official",
+  "description": "Step-3.7-Flash is StepFun's flagship high-efficiency multimodal reasoning model, built on a sparse Mixture-of-Experts architecture (198B total / ~11B active parameters) that delivers high throughput and low latency for real-time agentic workflows and high-frequency calls.",
+  "status": "active",
+  "release_date": "2026-06-12",
+  "context_window": 262144,
+  "max_output_tokens": 256000,
+  "model_type": "chat",
+  "tagline": "Step-3.7-Flash is StepFun's flagship high-efficiency multimodal reasoning model, built on a sparse Mixture-of-Experts architecture (198B total / ~11B active parameters) that delivers high throughput a",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 1.15
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c4406894",
+    "description": "3d37faba",
+    "status": "379ac110",
+    "release_date": "28358d71",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "2fd324cb",
+    "model_type": "d669f408",
+    "tagline": "439e2ce7",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "ebf451da",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-18"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx-2.3-quality/outpaint",
+  "name": "Ltx 2.3 Quality",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Outpaint high-quality video using LTX-2.3 ",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx-2.3-quality/outpaint",
+  "tagline": "Outpaint high-quality video using LTX-2.3 ",
+  "last_seen_at": "2026-06-18",
+  "_generated": {
+    "name": "a69880de",
+    "description": "9a4dc44b",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "154250cb",
+    "tagline": "9a4dc44b",
+    "last_seen_at": "7ddb29f2"
+  },
+  "last_updated": "2026-06-18"
+}

@@ -11,10 +11,11 @@
   "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5",
   "capabilities": {
     "streaming": true,
-    "reasoning": true
+    "reasoning": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["image", "text"],
     "output": ["text"]
   },
   "_generated": {
@@ -25,8 +26,8 @@
     "model_type": "d669f408",
     "reasoning_tokens": "b326b506",
     "page_url": "594a767a",
-    "capabilities": "b011c6b4",
-    "modalities": "68e53d93"
+    "capabilities": "38c6412e",
+    "modalities": "8b8b28d1"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-06-18"
 }

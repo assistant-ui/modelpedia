@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx-2.3-quality/text-to-audio/lora",
+  "name": "Ltx 2.3 Quality",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Text to Audio high-quality using LTX-2.3 with Lora",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx-2.3-quality/text-to-audio/lora",
+  "tagline": "Text to Audio high-quality using LTX-2.3 with Lora",
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "a69880de",
+    "description": "7bffb7c3",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "63fd87e8",
+    "tagline": "7bffb7c3",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

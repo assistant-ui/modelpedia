@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/kling-video/v3/turbo/standard/text-to-video",
+  "name": "Kling Video V3 Standard Turbo Text to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kling 3.0 Turbo Standard is a fast, cost-efficient video generation model that turns text prompts directly into 720P video with native audio, optimized for rapid iteration and high-volume production",
+  "status": "active",
+  "release_date": "2026-06-16",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kling-video/v3/turbo/standard/text-to-video",
+  "tagline": "Kling 3.0 Turbo Standard is a fast, cost-efficient video generation model that turns text prompts directly into 720P video with native audio, optimized for rapid iteration and high-volume production",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "496973dd",
+    "description": "03338355",
+    "status": "379ac110",
+    "release_date": "3eed1aa6",
+    "model_type": "4d1b75ca",
+    "page_url": "fb6c344e",
+    "tagline": "03338355",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

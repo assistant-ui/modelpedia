@@ -10,14 +10,15 @@
   "page_url": "https://fal.run/ideogram/v4",
   "tagline": "Generate high-quality images, posters, and logos with Ideogram's latest V4.0q — producing crisp visuals with accurate text rendering, fine detail, and full creative control for polished, ready-to-use ",
   "capabilities": {
-    "vision": true
+    "vision": true,
+    "streaming": true
   },
   "modalities": {
     "input": ["text"],
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-06-09",
+  "last_seen_at": "2026-06-11",
   "_generated": {
     "name": "acde0ec9",
     "description": "7504e7ca",
@@ -26,10 +27,10 @@
     "model_type": "db8857fe",
     "page_url": "dc831d1c",
     "tagline": "7504e7ca",
-    "capabilities": "d3117eb0",
+    "capabilities": "5f5c7516",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "fcf93e36"
+    "last_seen_at": "af441ea0"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-06-18"
 }

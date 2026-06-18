@@ -3,7 +3,7 @@
   "name": "GLM-4.5V",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-06-18",
   "max_output_tokens": 16000,
   "capabilities": {
     "streaming": true,
@@ -27,7 +27,9 @@
     "active_parameters": "c20ad4d7",
     "page_url": "a67a5daa",
     "architecture": "31b2172c",
-    "pricing": "ef4e86f1"
+    "pricing": "ef4e86f1",
+    "description": "5ac65261",
+    "tagline": "4318e507"
   },
   "family": "glm-4.5",
   "model_type": "chat",
@@ -41,5 +43,7 @@
     "input": 0.6,
     "output": 1.8,
     "cached_input": 0.11
-  }
+  },
+  "description": "GLM-4.5V is Z.AI's new generation of visual reasoning models based on the MOE architecture. With a total of 106B parameters and 12B activation parameters, it achieves SOTA performance among open-source VLMs of the same level in various benchmark tests, covering common tasks such as image, video, document understanding, and GUI tasks.",
+  "tagline": "GLM-4.5V is Z.AI's new generation of visual reasoning models based on the MOE architecture."
 }

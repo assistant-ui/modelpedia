@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx23-trainer-v2/ic-lora/v2v",
+  "name": "LTX 2.3 Trainer (V2) - Video-to-Video IC-LoRA",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train an IC-LoRA that learns a video-to-video transformation from paired before/after clips, conditioned at inference on a reference (control) video.",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/ic-lora/v2v",
+  "tagline": "Train an IC-LoRA that learns a video-to-video transformation from paired before/after clips, conditioned at inference on a reference (control) video.",
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "6900ece2",
+    "description": "21b19bf7",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "f2834987",
+    "tagline": "21b19bf7",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

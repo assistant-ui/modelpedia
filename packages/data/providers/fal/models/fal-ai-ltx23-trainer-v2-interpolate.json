@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx23-trainer-v2/interpolate",
+  "name": "LTX 2.3 Trainer (V2) - Keyframe Interpolation",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train a LoRA that generates the video between keyframes — supply first/last (and optional middle) frames at inference and the model fills the in-between motion.",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/interpolate",
+  "tagline": "Train a LoRA that generates the video between keyframes — supply first/last (and optional middle) frames at inference and the model fills the in-between motion.",
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "f7fcb959",
+    "description": "31346a0a",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "14dc3796",
+    "tagline": "31346a0a",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

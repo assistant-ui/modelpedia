@@ -3,7 +3,7 @@
   "name": "Anthropic: Claude Fable Latest",
   "created_by": "~anthropic",
   "source": "official",
-  "family": "claude",
+  "family": "claude-fable",
   "description": "This model always redirects to the latest model in the Claude Fable family.",
   "release_date": "2026-06-09",
   "context_window": 1000000,
@@ -28,7 +28,7 @@
   "tools": ["function_calling"],
   "_generated": {
     "name": "7387a53d",
-    "family": "c529ee89",
+    "family": "127f43cd",
     "description": "4bdf1df1",
     "release_date": "fcf93e36",
     "context_window": "8155bc54",
@@ -40,5 +40,5 @@
     "pricing": "69490ea7",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-06-18"
 }

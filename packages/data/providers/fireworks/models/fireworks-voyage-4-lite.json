@@ -1,0 +1,24 @@
+{
+  "id": "fireworks/voyage-4-lite",
+  "name": "voyage-4-lite",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 40900,
+  "page_url": "https://fireworks.ai/models/fireworks/voyage-4-lite",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "_generated": {
+    "name": "82261d22",
+    "context_window": "aa839cfb",
+    "page_url": "c79323cd",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e"
+  },
+  "last_updated": "2026-06-18"
+}

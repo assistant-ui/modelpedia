@@ -25,7 +25,11 @@
     "page_url": "c1fcce78",
     "open_weight": "b326b506",
     "capabilities": "91e36286",
-    "modalities": "6399757e"
+    "modalities": "6399757e",
+    "description": "7b08404e",
+    "tagline": "7b08404e"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-06-18",
+  "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+  "tagline": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone"
 }

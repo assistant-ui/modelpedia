@@ -1,0 +1,35 @@
+{
+  "id": "minicpm-v4.5",
+  "name": "minicpm-v4.5",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+  "context_window": 40960,
+  "license": "open-weight",
+  "parameters": 8,
+  "page_url": "https://ollama.com/library/minicpm-v4.5",
+  "open_weight": true,
+  "tagline": "A GPT-4o Level MLLM for Single Image, Multi Image and High-FPS Video Understanding on Your Phone",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "6f11dde1",
+    "description": "e79f8a04",
+    "context_window": "a422a18c",
+    "license": "6327aaea",
+    "parameters": "c9f0f895",
+    "page_url": "e36d055b",
+    "open_weight": "b326b506",
+    "tagline": "e79f8a04",
+    "capabilities": "91e36286",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-06-18"
+}

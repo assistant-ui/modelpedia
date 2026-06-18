@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/ltx23-trainer-v2/i2v",
+  "name": "LTX 2.3 Trainer (V2) - Image-to-Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Fine-tune LTX 2.3 to animate a starting image — supply a still plus a prompt at inference and the model generates a video that begins from that frame.",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/i2v",
+  "tagline": "Fine-tune LTX 2.3 to animate a starting image — supply a still plus a prompt at inference and the model generates a video that begins from that frame.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "e3f94d65",
+    "description": "0eb10d8e",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "01f87c11",
+    "tagline": "0eb10d8e",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

@@ -10,7 +10,9 @@
   "tagline": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for complex software engineering tasks.",
   "capabilities": {
     "tool_call": true,
-    "reasoning": true
+    "reasoning": true,
+    "structured_output": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -24,9 +26,9 @@
     "context_window": "4a1d32eb",
     "max_output_tokens": "f4376436",
     "tagline": "4c1114f1",
-    "capabilities": "05723a3e",
+    "capabilities": "9346c8a7",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-29"
+  "last_updated": "2026-06-18"
 }

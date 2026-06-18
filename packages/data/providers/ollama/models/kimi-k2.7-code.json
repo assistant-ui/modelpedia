@@ -1,0 +1,45 @@
+{
+  "id": "kimi-k2.7-code",
+  "name": "kimi-k2.7-code",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k2.7",
+  "description": "Kimi K2.7 Code is Moonshot AI&#39;s coding-focused agentic model built upon Kimi K2.6, with substantial improvements on real-world long-horizon coding tasks and roughly 30% lower thinking-token usage.",
+  "release_date": "2026-06-12",
+  "context_window": 262144,
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "page_url": "https://ollama.com/library/kimi-k2.7-code",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "Kimi K2.7 Code is Moonshot AI&#39;s coding-focused agentic model built upon Kimi K2.6, with substantial improvements on real-world long-horizon coding tasks and roughly 30% lower thinking-token usage.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f0880691",
+    "family": "4bc6ec57",
+    "description": "3897a058",
+    "release_date": "28358d71",
+    "context_window": "4a1d32eb",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "page_url": "1152916a",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "3897a058",
+    "capabilities": "f7041f91",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-18"
+}

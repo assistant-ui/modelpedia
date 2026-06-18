@@ -1,0 +1,44 @@
+{
+  "id": "moonshotai/kimi-k2.7-code",
+  "name": "MoonshotAI: Kimi K2.7 Code",
+  "created_by": "moonshotai",
+  "source": "official",
+  "family": "kimi-k2.7",
+  "description": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts.",
+  "release_date": "2026-06-12",
+  "context_window": 262144,
+  "max_output_tokens": 16384,
+  "model_type": "chat",
+  "tagline": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.74,
+    "output": 3.5,
+    "cached_input": 0.15
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f10c8f0a",
+    "family": "4bc6ec57",
+    "description": "fe8f1eb8",
+    "release_date": "28358d71",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "c76fe1d8",
+    "model_type": "d669f408",
+    "tagline": "fe8f1eb8",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "3002902a",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-18"
+}

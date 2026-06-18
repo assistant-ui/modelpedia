@@ -1,0 +1,44 @@
+{
+  "id": "qwen/qwen3.6-27b",
+  "name": "Qwen/Qwen3.6-27B",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3.6",
+  "status": "preview",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "parameters": 27,
+  "speed": 500,
+  "page_url": "https://console.groq.com/docs/models#qwen/qwen3.6-27b",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 3
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f791e71e",
+    "family": "1bc2d26f",
+    "status": "127aecde",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "parameters": "02e74f10",
+    "speed": "cee63112",
+    "page_url": "1e8d80be",
+    "capabilities": "6c301a15",
+    "modalities": "68e53d93",
+    "pricing": "2209d9dc",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-18"
+}

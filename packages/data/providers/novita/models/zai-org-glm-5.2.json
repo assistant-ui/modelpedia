@@ -1,0 +1,48 @@
+{
+  "id": "zai-org/glm-5.2",
+  "name": "GLM 5.2",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5.2",
+  "description": "GLM-5.2 is Z.AI's latest flagship model, meticulously engineered for long-horizon autonomous tasks.",
+  "status": "active",
+  "release_date": "2026-06-12",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "GLM-5.2 is Z.AI's latest flagship model, meticulously engineered for long-horizon autonomous tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.4,
+    "output": 4.4
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8386dcc7",
+    "family": "8e7b3ca0",
+    "description": "8ef1a403",
+    "status": "379ac110",
+    "release_date": "28358d71",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "8ef1a403",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "caa16a81",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-18"
+}

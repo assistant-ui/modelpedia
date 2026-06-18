@@ -3,7 +3,7 @@
   "name": "o3-pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-06-18",
   "family": "o3",
   "description": "The o-series of models are trained with reinforcement learning to think",
   "status": "active",
@@ -53,7 +53,13 @@
       }
     ]
   },
-  "tools": ["function_calling"],
+  "tools": [
+    "function_calling",
+    "file_search",
+    "image_generation",
+    "mcp",
+    "web_search"
+  ],
   "endpoints": ["responses", "batch"],
   "snapshots": ["o3-pro-2025-06-10"],
   "_generated": {
@@ -73,15 +79,15 @@
     "capabilities": "91876c96",
     "modalities": "6399757e",
     "pricing": "0b2c1347",
-    "tools": "f0c1dc7e",
+    "tools": "a7dce5fd",
     "endpoints": "6f01fd6c",
     "license": "9186c466",
-    "page_url": "58b92472",
+    "page_url": "b1230bef",
     "open_weight": "68934a3e",
     "release_date": "298b4e52"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/o3-pro?snapshot=o3-pro-2025-06-10",
+  "page_url": "https://developers.openai.com/api/docs/models/o3-pro",
   "open_weight": false,
   "release_date": "2025-06-10"
 }

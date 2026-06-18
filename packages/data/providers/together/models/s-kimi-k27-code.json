@@ -1,0 +1,32 @@
+{
+  "id": "s/kimi-k27-code",
+  "name": "Kimi K27 Code",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k27",
+  "context_window": 256000,
+  "page_url": "https://www.together.ai/models/kimi-k27-code",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.19,
+    "output": 4
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "a9104f84",
+    "family": "7f6ff68e",
+    "context_window": "2fd324cb",
+    "page_url": "bbfc6175",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "b2629cf9",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-18"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "google/diffusiongemma-26b-a4b-it",
+  "name": "diffusiongemma-26b-a4b-it",
+  "created_by": "google",
+  "source": "official",
+  "parameters": 26,
+  "active_parameters": 4,
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "1e05ff33",
+    "parameters": "4e732ced",
+    "active_parameters": "a87ff679",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-06-18"
+}

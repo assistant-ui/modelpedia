@@ -1,0 +1,48 @@
+{
+  "id": "stepfun-ai/Step-3.7-Flash",
+  "name": "Step-3.7-Flash",
+  "created_by": "stepfun",
+  "source": "official",
+  "description": "Step 3.7 Flash is an open-source multimodal reasoning model by StepFun with 198B total parameters (11B active) using Mixture of Experts. It accepts text and image inputs and features a 256K context window, selectable reasoning effort, tool calling, and agentic capabilities for coding and search workflows, scoring 80.9% on GPQA Diamond and 56.3% on SWE-bench Pro.",
+  "status": "active",
+  "context_window": 262144,
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "open_weight": true,
+  "tagline": "Step 3.7 Flash is an open-source multimodal reasoning model by StepFun with 198B total parameters (11B active) using Mixture of Experts.",
+  "capabilities": {
+    "tool_call": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 1.15,
+    "cached_input": 0.04
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "modelopt",
+  "_generated": {
+    "name": "fe1e41fa",
+    "description": "ec79254f",
+    "status": "379ac110",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "tagline": "847bebc9",
+    "capabilities": "8b0cd120",
+    "modalities": "6399757e",
+    "pricing": "470a4ea0",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "983be4a4"
+  },
+  "last_updated": "2026-06-18"
+}

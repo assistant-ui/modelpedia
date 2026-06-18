@@ -12,7 +12,7 @@
   "capabilities": {
     "streaming": true
   },
-  "last_seen_at": "2026-02-12",
+  "last_seen_at": "2026-06-15",
   "_generated": {
     "name": "ee900086",
     "description": "fa0a00d9",
@@ -22,7 +22,7 @@
     "page_url": "1e341d9c",
     "tagline": "fa0a00d9",
     "capabilities": "0fa77dc6",
-    "last_seen_at": "4c1b6684"
+    "last_seen_at": "cc23f918"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-18"
 }

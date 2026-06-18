@@ -3,7 +3,7 @@
   "name": "embed-v4.0",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-06-18",
   "model_type": "embed",
   "capabilities": {
     "streaming": true
@@ -15,8 +15,11 @@
   "_generated": {
     "name": "ebc5ed94",
     "model_type": "764cb3de",
+    "capabilities": "0fa77dc6",
     "pricing": "42e4e106",
-    "capabilities": "0fa77dc6"
+    "family": "764cb3de",
+    "context_window": "34434798"
   },
-  "family": "embed"
+  "family": "embed",
+  "context_window": 128000
 }

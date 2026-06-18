@@ -1,0 +1,31 @@
+{
+  "id": "deepseek-v4-pro",
+  "name": "DeepSeek V4 Pro",
+  "created_by": "unknown",
+  "source": "official",
+  "family": "deepseek",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.74,
+    "output": 3.48,
+    "cached_input": 0.145
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "2da236ad",
+    "family": "4b81b92d",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "6f58cfc0",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-18"
+}

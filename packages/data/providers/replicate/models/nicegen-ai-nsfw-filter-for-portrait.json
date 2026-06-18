@@ -1,0 +1,16 @@
+{
+  "id": "nicegen-ai/nsfw-filter-for-portrait",
+  "name": "Nsfw Filter For Portrait",
+  "created_by": "nicegen-ai",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/nicegen-ai/nsfw-filter-for-portrait",
+  "_generated": {
+    "name": "adf6f3df",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "f95bd695"
+  },
+  "last_updated": "2026-06-18"
+}

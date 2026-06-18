@@ -3,8 +3,8 @@
   "name": "magistral-medium-2509",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-06-10",
-  "status": "active",
+  "last_updated": "2026-06-18",
+  "status": "deprecated",
   "context_window": 128000,
   "alias": "magistral-medium",
   "capabilities": {
@@ -22,7 +22,7 @@
   },
   "_generated": {
     "name": "137c6834",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "34434798",
     "capabilities": "fc36814c",
     "modalities": "6399757e",

@@ -1,0 +1,31 @@
+{
+  "id": "@cf/zai-org/glm-5.2",
+  "name": "glm-5.2",
+  "created_by": "zhipu",
+  "source": "official",
+  "family": "glm-5.2",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#glm-5.2",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8e7b3ca0",
+    "family": "8e7b3ca0",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "631c2b1b",
+    "capabilities": "a281e83a",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-18"
+}

@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/personaplex/realtime",
   "tagline": "PersonaPlex is a real-time, full-duplex speech-to-speech conversational model that enables persona control through text-based role prompts and audio-based voice conditioning.",
-  "last_seen_at": "2026-03-04",
+  "last_seen_at": "2026-06-15",
   "_generated": {
     "name": "ee900086",
     "description": "fa0a00d9",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "fd7df89a",
     "tagline": "fa0a00d9",
-    "last_seen_at": "4a273186"
+    "last_seen_at": "cc23f918"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-18"
 }

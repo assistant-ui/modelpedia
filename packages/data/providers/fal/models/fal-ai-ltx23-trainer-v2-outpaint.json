@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx23-trainer-v2/outpaint",
+  "name": "LTX 2.3 Trainer (V2) - Spatial Outpainting",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train a LoRA that expands the video frame outward, keeping an inner rectangle fixed and generating the surrounding region.",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/outpaint",
+  "tagline": "Train a LoRA that expands the video frame outward, keeping an inner rectangle fixed and generating the surrounding region.",
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "261ba0dd",
+    "description": "f9e77e72",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "ce70e2ef",
+    "tagline": "f9e77e72",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

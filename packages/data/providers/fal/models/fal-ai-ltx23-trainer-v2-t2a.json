@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx23-trainer-v2/t2a",
+  "name": "LTX 2.3 Trainer (V2) - Text-to-Audio",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train a LoRA that generates audio from a text prompt — the audio counterpart of text-to-video — learning a sound or style from your clips.",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/t2a",
+  "tagline": "Train a LoRA that generates audio from a text prompt — the audio counterpart of text-to-video — learning a sound or style from your clips.",
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "0f1c73f8",
+    "description": "2b3a99a6",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "d64f7d1a",
+    "tagline": "2b3a99a6",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "pixelcut/video-background-removal",
+  "name": "Pixelcut Video Background Removal",
+  "created_by": "pixelcut",
+  "source": "official",
+  "description": "Pixelcut's Video Background Remover is an AI segmentation model that erases backgrounds frame by frame, with seamless temporal consistency.",
+  "status": "active",
+  "release_date": "2026-06-11",
+  "model_type": "other",
+  "page_url": "https://fal.run/pixelcut/video-background-removal",
+  "tagline": "Pixelcut's Video Background Remover is an AI segmentation model that erases backgrounds frame by frame, with seamless temporal consistency.",
+  "last_seen_at": "2026-06-12",
+  "_generated": {
+    "name": "dbbdcbe2",
+    "description": "fdd95ec1",
+    "status": "379ac110",
+    "release_date": "af441ea0",
+    "model_type": "ddb0b7bc",
+    "page_url": "076725dd",
+    "tagline": "fdd95ec1",
+    "last_seen_at": "28358d71"
+  },
+  "last_updated": "2026-06-18"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "fireworks/voyage-rerank-2-5",
+  "name": "voyage-rerank-2-5",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 32700,
+  "page_url": "https://fireworks.ai/models/fireworks/voyage-rerank-2-5",
+  "model_type": "rerank",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "_generated": {
+    "name": "256734bf",
+    "context_window": "e1ea274b",
+    "page_url": "c399c63a",
+    "model_type": "477930e6",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e"
+  },
+  "last_updated": "2026-06-18"
+}

@@ -3,7 +3,7 @@
   "name": "veo-2.0-generate-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-06-18",
   "status": "active",
   "model_type": "video",
   "capabilities": {
@@ -32,12 +32,12 @@
     "family": "95836dec",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "description": "552508c0",
+    "description": "b4307c94",
     "tagline": "b16f53f3"
   },
   "family": "veo-2.0",
   "license": "proprietary",
   "open_weight": false,
-  "description": "Our robust and reliable stable video generation model, providing consistent performance for production-ready workflows. Veo 2.0 is best for standard 1080p content creation, social media assets, and high-volume video tasks that prioritize reliable character consistency and predictable sub-second generation speeds.",
+  "description": "A models available through the Gemini Enterprise Agent Platform to avoid service interruptions. Our robust and reliable stable video generation model, providing consistent performance for production-ready workflows. Veo 2.0 is best for standard 1080p content creation, social media assets, and high-volume video tasks that prioritize reliable character consistency and predictable sub-second generation speeds.",
   "tagline": "Our robust and reliable stable video generation model, providing consistent performance for production-ready workflows."
 }

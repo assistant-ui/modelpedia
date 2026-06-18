@@ -1,0 +1,23 @@
+{
+  "id": "naimish-gami/face-swapper",
+  "name": "Face Swapper",
+  "created_by": "naimish-gami",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/naimish-gami/face-swapper",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "a2e5bcf4",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "604ef722",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-06-18"
+}

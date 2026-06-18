@@ -4,7 +4,7 @@
   "created_by": "xiaomi",
   "source": "official",
   "family": "mimo",
-  "description": "mimo-v2.5, a native omni-modal model supporting text, image, video, and audio understanding, equipped with powerful agentic capabilities.",
+  "description": "Xiaomi's native omni-modal model (text / image / video / audio understanding) with Pro-level agentic performance at ~half the inference cost and a 1M-token context — built for cost-efficient, percepti",
   "status": "active",
   "release_date": "2026-05-29",
   "context_window": 1048576,
@@ -32,7 +32,7 @@
   "_generated": {
     "name": "d1a61d98",
     "family": "1a23786e",
-    "description": "4ffec91f",
+    "description": "7ce22147",
     "status": "379ac110",
     "release_date": "5afb6eea",
     "context_window": "7d28a051",
@@ -45,5 +45,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-06-18"
 }

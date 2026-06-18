@@ -1,0 +1,28 @@
+{
+  "id": "yangzhou0011/layoutgrok-qwen3-vl-cp500",
+  "name": "Layoutgrok Qwen3 Vl Cp500",
+  "created_by": "yangzhou0011",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://replicate.com/yangzhou0011/layoutgrok-qwen3-vl-cp500",
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "167d7248",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "c4bc9716",
+    "capabilities": "5f5c7516",
+    "modalities": "6399757e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-18"
+}

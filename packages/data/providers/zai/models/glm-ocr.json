@@ -3,7 +3,7 @@
   "name": "GLM-OCR",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-18",
   "capabilities": {
     "streaming": true
   },
@@ -21,7 +21,9 @@
     "open_weight": "68934a3e",
     "parameters": "a894124c",
     "page_url": "67d16a55",
-    "pricing": "9207f1ad"
+    "pricing": "9207f1ad",
+    "description": "7316161e",
+    "tagline": "0a52ba6d"
   },
   "model_type": "chat",
   "family": "glm",
@@ -32,5 +34,7 @@
   "pricing": {
     "input": 0.03,
     "output": 0.03
-  }
+  },
+  "description": "GLM-OCR is a lightweight professional OCR model with parameters as small as 0.9B, yet it achieves state-of-the-art performance across multiple capabilities. It sets a new benchmark for document parsing with its “small size and high accuracy.” Key features include:",
+  "tagline": "GLM-OCR is a lightweight professional OCR model with parameters as small as 0.9B, yet it achieves state-of-the-art performance across multiple capabilities."
 }

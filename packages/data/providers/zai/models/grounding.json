@@ -3,7 +3,7 @@
   "name": "Grounding",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-06-18",
   "max_output_tokens": 16000,
   "license": "mit",
   "parameters": 106,
@@ -30,6 +30,10 @@
     "architecture": "31b2172c",
     "capabilities": "034b2f91",
     "modalities": "68e53d93",
-    "open_weight": "b326b506"
-  }
+    "open_weight": "b326b506",
+    "description": "5ac65261",
+    "tagline": "4318e507"
+  },
+  "description": "GLM-4.5V is Z.AI's new generation of visual reasoning models based on the MOE architecture. With a total of 106B parameters and 12B activation parameters, it achieves SOTA performance among open-source VLMs of the same level in various benchmark tests, covering common tasks such as image, video, document understanding, and GUI tasks.",
+  "tagline": "GLM-4.5V is Z.AI's new generation of visual reasoning models based on the MOE architecture."
 }

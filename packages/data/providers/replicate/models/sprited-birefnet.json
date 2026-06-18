@@ -1,0 +1,16 @@
+{
+  "id": "sprited/birefnet",
+  "name": "Birefnet",
+  "created_by": "sprited",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/sprited/birefnet",
+  "_generated": {
+    "name": "b61c9bb5",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "cbbc87f2"
+  },
+  "last_updated": "2026-06-18"
+}

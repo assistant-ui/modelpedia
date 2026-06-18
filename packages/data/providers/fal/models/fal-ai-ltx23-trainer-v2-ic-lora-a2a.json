@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx23-trainer-v2/ic-lora/a2a",
+  "name": "LTX 2.3 Trainer (V2) - Audio-to-Audio IC-LoRA",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train an IC-LoRA that transforms one audio clip into another, conditioned at inference on a reference audio clip.",
+  "status": "active",
+  "release_date": "2026-06-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/ic-lora/a2a",
+  "tagline": "Train an IC-LoRA that transforms one audio clip into another, conditioned at inference on a reference audio clip.",
+  "last_seen_at": "2026-06-17",
+  "_generated": {
+    "name": "890a0178",
+    "description": "10b0959c",
+    "status": "379ac110",
+    "release_date": "e050aed5",
+    "model_type": "ddb0b7bc",
+    "page_url": "ea369a32",
+    "tagline": "10b0959c",
+    "last_seen_at": "e050aed5"
+  },
+  "last_updated": "2026-06-18"
+}
