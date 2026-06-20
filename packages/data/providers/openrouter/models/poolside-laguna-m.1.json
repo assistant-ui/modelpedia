@@ -1,0 +1,38 @@
+{
+  "id": "poolside/laguna-m.1",
+  "name": "Poolside: Laguna M.1",
+  "created_by": "poolside",
+  "source": "official",
+  "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks.",
+  "release_date": "2026-04-28",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "tagline": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.4,
+    "cached_input": 0.1
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "174dafde",
+    "description": "7f47b65e",
+    "release_date": "52326430",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "tagline": "7f47b65e",
+    "capabilities": "05723a3e",
+    "modalities": "68e53d93",
+    "pricing": "2d754dc4",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-20"
+}

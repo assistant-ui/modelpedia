@@ -1,0 +1,25 @@
+{
+  "id": "s/gpt-image-2",
+  "name": "Gpt Image 2",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2",
+  "page_url": "https://www.together.ai/models/gpt-image-2",
+  "model_type": "image",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0.053
+  },
+  "_generated": {
+    "name": "fa8620a3",
+    "family": "c79be345",
+    "page_url": "e242c87c",
+    "model_type": "db8857fe",
+    "capabilities": "0fa77dc6",
+    "pricing": "e4cf129c"
+  },
+  "last_updated": "2026-06-20"
+}

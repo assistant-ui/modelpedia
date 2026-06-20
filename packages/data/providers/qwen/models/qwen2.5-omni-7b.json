@@ -3,9 +3,9 @@
   "name": "qwen2.5-omni-7b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-06-20",
   "family": "qwen2.5",
-  "context_window": 1000000,
+  "context_window": 32000,
   "max_output_tokens": 2048,
   "model_type": "chat",
   "capabilities": {
@@ -26,7 +26,7 @@
   "_generated": {
     "name": "dbf35d39",
     "family": "45d84b68",
-    "context_window": "8155bc54",
+    "context_window": "10e4d788",
     "max_output_tokens": "05192834",
     "model_type": "d669f408",
     "capabilities": "96d7ee12",

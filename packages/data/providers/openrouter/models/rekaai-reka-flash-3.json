@@ -9,7 +9,9 @@
   "max_output_tokens": 65536,
   "tagline": "Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka.",
   "capabilities": {
-    "reasoning": true
+    "reasoning": true,
+    "structured_output": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text"],
@@ -26,9 +28,9 @@
     "context_window": "297ce0b3",
     "max_output_tokens": "297ce0b3",
     "tagline": "1c26efb2",
-    "capabilities": "7107421f",
+    "capabilities": "c4f12d2e",
     "modalities": "68e53d93",
     "pricing": "4a468643"
   },
-  "last_updated": "2026-04-03"
+  "last_updated": "2026-06-20"
 }

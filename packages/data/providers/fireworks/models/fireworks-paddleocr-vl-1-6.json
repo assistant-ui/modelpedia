@@ -1,0 +1,24 @@
+{
+  "id": "fireworks/paddleocr-vl-1-6",
+  "name": "paddleocr-vl-1-6",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 131000,
+  "page_url": "https://fireworks.ai/models/fireworks/paddleocr-vl-1-6",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "_generated": {
+    "name": "c2bb219b",
+    "context_window": "834bd590",
+    "page_url": "6e04feb2",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e"
+  },
+  "last_updated": "2026-06-20"
+}

@@ -10,7 +10,7 @@
   "parameters": 9,
   "page_url": "https://fal.run/fal-ai/flux-2-klein-9b-base-trainer/edit",
   "tagline": "Fine-tune FLUX.2 [klein] 9B from Black Forest Labs with custom datasets.",
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-06-19",
   "_generated": {
     "name": "548da20d",
     "description": "945846ec",
@@ -20,7 +20,7 @@
     "parameters": "45c48cce",
     "page_url": "c84ff586",
     "tagline": "945846ec",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "1db51038"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-20"
 }
