@@ -3,9 +3,9 @@
   "name": "Llama 3.1 8B",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-20",
   "family": "llama-3.1",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 131072,
   "max_output_tokens": 131072,
   "model_type": "chat",
@@ -25,7 +25,7 @@
   "_generated": {
     "name": "051379cb",
     "family": "83ec32db",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "f7de594e",
     "max_output_tokens": "f7de594e",
     "model_type": "d669f408",
@@ -35,10 +35,12 @@
     "parameters": "c9f0f895",
     "speed": "a9a6653e",
     "page_url": "4a3d45b9",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "884c5b65"
   },
   "parameters": 8,
   "speed": 560,
   "page_url": "https://console.groq.com/docs/models#llama-3.1-8b-instant",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-08-16"
 }

@@ -20,8 +20,8 @@
     "output": ["text"]
   },
   "endpoints": ["chat_completions"],
-  "huggingface_downloads": 2946,
-  "last_modified": "2026-05-19",
+  "huggingface_downloads": 3983,
+  "last_modified": "2026-06-18",
   "_generated": {
     "name": "eb4ee27e",
     "description": "b4fe5020",
@@ -35,8 +35,8 @@
     "capabilities": "9c665f5d",
     "modalities": "68e53d93",
     "endpoints": "d8fa1080",
-    "huggingface_downloads": "c9efe5f2",
-    "last_modified": "665f01a0"
+    "huggingface_downloads": "5e4450dc",
+    "last_modified": "7ddb29f2"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-06-20"
 }

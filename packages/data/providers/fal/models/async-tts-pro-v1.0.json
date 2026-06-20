@@ -1,0 +1,33 @@
+{
+  "id": "async/tts-pro/v1.0",
+  "name": "Async Text to Speech Pro V1.0",
+  "created_by": "async",
+  "source": "official",
+  "family": "tts",
+  "description": "Generate professional-quality voiceovers in seconds with Async TTS Pro model text-based control over pauses, emphasis, and timing.",
+  "status": "active",
+  "release_date": "2026-06-18",
+  "model_type": "tts",
+  "page_url": "https://fal.run/async/tts-pro/v1.0",
+  "tagline": "Generate professional-quality voiceovers in seconds with Async TTS Pro model text-based control over pauses, emphasis, and timing.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-06-18",
+  "_generated": {
+    "name": "26cc5382",
+    "family": "4e16a2cf",
+    "description": "857dd462",
+    "status": "379ac110",
+    "release_date": "7ddb29f2",
+    "model_type": "4e16a2cf",
+    "page_url": "ea30d5fc",
+    "tagline": "857dd462",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "7ddb29f2"
+  },
+  "last_updated": "2026-06-20"
+}

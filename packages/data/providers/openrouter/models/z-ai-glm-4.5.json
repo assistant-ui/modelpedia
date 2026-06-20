@@ -3,7 +3,7 @@
   "name": "Z.ai: GLM 4.5",
   "created_by": "z-ai",
   "source": "official",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-20",
   "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications.",
   "context_window": 131072,
   "max_output_tokens": 98304,
@@ -36,7 +36,7 @@
     "tagline": "f800c7e0",
     "tools": "f0c1dc7e",
     "status": "2e2f74dc",
-    "deprecation_date": "1db51038"
+    "deprecation_date": "e86db669"
   },
   "family": "glm-4.5",
   "model_type": "chat",
@@ -44,5 +44,5 @@
   "tagline": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications.",
   "tools": ["function_calling"],
   "status": "deprecated",
-  "deprecation_date": "2026-06-19"
+  "deprecation_date": "2026-12-31"
 }

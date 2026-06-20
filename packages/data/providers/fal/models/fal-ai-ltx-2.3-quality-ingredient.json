@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ltx-2.3-quality/ingredient",
+  "name": "Ltx 2.3 Quality",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate high-quality video with audio from reference, character sheet, storyboard using LTX-2.3",
+  "status": "active",
+  "release_date": "2026-06-18",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/ltx-2.3-quality/ingredient",
+  "tagline": "Generate high-quality video with audio from reference, character sheet, storyboard using LTX-2.3",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-06-18",
+  "_generated": {
+    "name": "a69880de",
+    "description": "725851c9",
+    "status": "379ac110",
+    "release_date": "7ddb29f2",
+    "model_type": "4d1b75ca",
+    "page_url": "3c49c0d4",
+    "tagline": "725851c9",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "7ddb29f2"
+  },
+  "last_updated": "2026-06-20"
+}

@@ -3,9 +3,9 @@
   "name": "Qwen3-32B",
   "created_by": "alibaba",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-20",
   "family": "qwen3",
-  "status": "preview",
+  "status": "deprecated",
   "context_window": 131072,
   "max_output_tokens": 40960,
   "model_type": "chat",
@@ -25,7 +25,7 @@
   "_generated": {
     "name": "11c5e488",
     "family": "48c385a0",
-    "status": "127aecde",
+    "status": "2e2f74dc",
     "context_window": "f7de594e",
     "max_output_tokens": "a422a18c",
     "model_type": "d669f408",
@@ -35,10 +35,12 @@
     "parameters": "6364d3f0",
     "speed": "18d80423",
     "page_url": "20af8a37",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "4d92f2b5"
   },
   "parameters": 32,
   "speed": 400,
   "page_url": "https://console.groq.com/docs/models#qwen/qwen3-32b",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-07-17"
 }
