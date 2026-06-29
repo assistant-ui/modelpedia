@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/v2v",
   "tagline": "Train a LoRA that learns a video-to-video transformation from paired before/after clips, steered at inference by a reference (control) video.",
-  "last_seen_at": "2026-06-17",
+  "last_seen_at": "2026-06-22",
   "_generated": {
     "name": "72109ab5",
     "description": "6535f393",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "daf0489b",
     "tagline": "6535f393",
-    "last_seen_at": "e050aed5"
+    "last_seen_at": "1413cbcd"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-06-29"
 }

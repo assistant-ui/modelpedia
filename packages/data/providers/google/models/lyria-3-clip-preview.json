@@ -35,7 +35,11 @@
     "modalities": "601e776d",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "3ddf025b",
+    "tagline": "9fee8828"
   },
-  "last_updated": "2026-03-26"
+  "last_updated": "2026-06-29",
+  "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Lyria 3 Clip Preview Lyria 3 Clip Preview is Google&#39;s model optimized for generating short musical clips, loops, and previews. It generates 30-second high-quality, 48kHz stereo audio from text prompts or image inputs.",
+  "tagline": "The Interactions API is now generally available."
 }

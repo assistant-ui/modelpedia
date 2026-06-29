@@ -3,10 +3,11 @@
   "name": "nova-micro",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-29",
   "context_window": 128000,
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true
   },
   "pricing": {
     "input": 0.04,
@@ -15,14 +16,16 @@
   "_generated": {
     "name": "ac0e24b8",
     "context_window": "34434798",
-    "capabilities": "0fa77dc6",
+    "capabilities": "48995a4e",
     "pricing": "24bc12da",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "tools": ["function_calling"]
 }

@@ -1,0 +1,28 @@
+{
+  "id": "mistral-medium-3-5",
+  "name": "mistral-medium-3-5 Preview",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "mistral-medium",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "59ab70f4",
+    "family": "a57f1b52",
+    "model_type": "d669f408",
+    "capabilities": "ee30ca00",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-29"
+}

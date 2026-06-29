@@ -1,0 +1,16 @@
+{
+  "id": "ultralytics/yolo26-cls",
+  "name": "Yolo26 Cls",
+  "created_by": "ultralytics",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/ultralytics/yolo26-cls",
+  "_generated": {
+    "name": "3c187ee2",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "05c9620c"
+  },
+  "last_updated": "2026-06-29"
+}

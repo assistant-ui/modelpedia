@@ -1,0 +1,28 @@
+{
+  "id": "bytedance/seed-audio-1.0",
+  "name": "Seed Audio 1.0",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Seed Audio 1.0 is a new audio model from Bytedance that can generate high-quality, natural sounding audio using text, reference audios or an image.",
+  "status": "active",
+  "release_date": "2026-06-25",
+  "model_type": "other",
+  "page_url": "https://fal.run/bytedance/seed-audio-1.0",
+  "tagline": "Seed Audio 1.0 is a new audio model from Bytedance that can generate high-quality, natural sounding audio using text, reference audios or an image.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-06-26",
+  "_generated": {
+    "name": "39ce3d49",
+    "description": "16dbfff2",
+    "status": "379ac110",
+    "release_date": "247162b6",
+    "model_type": "ddb0b7bc",
+    "page_url": "29d31130",
+    "tagline": "16dbfff2",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "5b53e844"
+  },
+  "last_updated": "2026-06-29"
+}

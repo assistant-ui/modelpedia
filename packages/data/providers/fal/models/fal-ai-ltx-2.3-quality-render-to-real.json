@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx-2.3-quality/render-to-real",
+  "name": "Ltx 2.3 Quality",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Transform your 3D video render into realistic using first frame with Ltx 2.3",
+  "status": "active",
+  "release_date": "2026-06-26",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx-2.3-quality/render-to-real",
+  "tagline": "Transform your 3D video render into realistic using first frame with Ltx 2.3",
+  "last_seen_at": "2026-06-26",
+  "_generated": {
+    "name": "a69880de",
+    "description": "33cd4791",
+    "status": "379ac110",
+    "release_date": "5b53e844",
+    "model_type": "ddb0b7bc",
+    "page_url": "81b5546f",
+    "tagline": "33cd4791",
+    "last_seen_at": "5b53e844"
+  },
+  "last_updated": "2026-06-29"
+}

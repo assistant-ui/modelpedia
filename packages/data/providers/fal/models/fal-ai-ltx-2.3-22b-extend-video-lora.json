@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx-2.3-22b/extend-video/lora",
   "tagline": "Extend video with audio using LTX-2.3 and custom LoRA",
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-06-22",
   "_generated": {
     "name": "16ac7d08",
     "description": "75cd42fd",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "de51c96a",
     "tagline": "75cd42fd",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "1413cbcd"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-29"
 }

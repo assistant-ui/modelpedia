@@ -8,7 +8,7 @@
   "status": "active",
   "release_date": "2025-07-11",
   "context_window": 131072,
-  "max_output_tokens": 32768,
+  "max_output_tokens": 100352,
   "model_type": "chat",
   "tagline": "Kimi K2 is a state-of-the-art mixture-of-experts (MoE) language model with 32 billion activated parameters and 1 trillion total parameters.",
   "capabilities": {
@@ -33,7 +33,7 @@
     "status": "379ac110",
     "release_date": "c4808e8f",
     "context_window": "f7de594e",
-    "max_output_tokens": "f4376436",
+    "max_output_tokens": "bede1168",
     "model_type": "d669f408",
     "tagline": "7823d07a",
     "capabilities": "3d69c795",
@@ -42,5 +42,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-29"
 }

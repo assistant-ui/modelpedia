@@ -1,0 +1,26 @@
+{
+  "id": "xai/grok-voice-think-fast-1.0",
+  "name": "grok-voice-think-fast-1.0",
+  "created_by": "xai",
+  "source": "official",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "40a4bfee",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-29"
+}

@@ -7,7 +7,9 @@
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
-    "reasoning": true
+    "reasoning": true,
+    "vision": true,
+    "tool_call": true
   },
   "pricing": {
     "input": 1.5,
@@ -21,9 +23,11 @@
     "name": "39ca3e4d",
     "context_window": "8155bc54",
     "model_type": "d669f408",
-    "capabilities": "b011c6b4",
+    "capabilities": "07d33f46",
     "pricing": "c2407bf5",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-06-29",
+  "tools": ["function_calling"]
 }

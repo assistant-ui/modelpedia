@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/seedance-2.0/mini/reference-to-video",
+  "name": "Seedance 2.0 Mini",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Seedance 2.0 Mini is a faster version of Seedance 2.0 that brings great performance and high generation speed at a lower cost.",
+  "status": "active",
+  "release_date": "2026-06-23",
+  "model_type": "video",
+  "page_url": "https://fal.run/bytedance/seedance-2.0/mini/reference-to-video",
+  "tagline": "Seedance 2.0 Mini is a faster version of Seedance 2.0 that brings great performance and high generation speed at a lower cost.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-06-24",
+  "_generated": {
+    "name": "257893ef",
+    "description": "ca2bb8d7",
+    "status": "379ac110",
+    "release_date": "ecff9cc2",
+    "model_type": "4d1b75ca",
+    "page_url": "dda2cc6b",
+    "tagline": "ca2bb8d7",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "b7ac61f6"
+  },
+  "last_updated": "2026-06-29"
+}

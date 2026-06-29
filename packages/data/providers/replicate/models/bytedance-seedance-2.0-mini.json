@@ -1,0 +1,23 @@
+{
+  "id": "bytedance/seedance-2.0-mini",
+  "name": "Seedance 2.0 Mini",
+  "created_by": "bytedance",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "page_url": "https://replicate.com/bytedance/seedance-2.0-mini",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "257893ef",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "page_url": "69057e21",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-06-29"
+}

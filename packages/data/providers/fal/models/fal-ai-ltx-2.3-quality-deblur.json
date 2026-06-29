@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx-2.3-quality/deblur",
+  "name": "Ltx 2.3 Quality",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Deblur high-quality video using LTX-2.3\n",
+  "status": "active",
+  "release_date": "2026-06-24",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx-2.3-quality/deblur",
+  "tagline": "Deblur high-quality video using LTX-2.3\n",
+  "last_seen_at": "2026-06-25",
+  "_generated": {
+    "name": "a69880de",
+    "description": "509d5c48",
+    "status": "379ac110",
+    "release_date": "b7ac61f6",
+    "model_type": "ddb0b7bc",
+    "page_url": "3ca337a5",
+    "tagline": "509d5c48",
+    "last_seen_at": "247162b6"
+  },
+  "last_updated": "2026-06-29"
+}

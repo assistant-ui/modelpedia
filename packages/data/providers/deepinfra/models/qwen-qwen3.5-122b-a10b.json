@@ -3,12 +3,12 @@
   "name": "Qwen3.5-122B-A10B",
   "created_by": "alibaba",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-06-29",
   "family": "qwen3",
   "description": "Qwen3.5-122B-A10B is a large Mixture-of-Experts model from Alibaba's Qwen3.5 series with 122B total parameters and 10B activated per token. It features a 262K token context window (extensible to 1M with YaRN), thinking/reasoning mode, tool calling, and support for 201 languages. Excels at complex reasoning, coding, multimodal understanding, and agentic tasks with the efficiency of sparse activation.",
   "status": "active",
   "model_type": "chat",
-  "context_window": 262144,
+  "context_window": 16384,
   "reasoning_tokens": true,
   "open_weight": true,
   "license": "apache-2.0",
@@ -32,7 +32,7 @@
   },
   "tools": ["function_calling"],
   "endpoints": ["chat_completions"],
-  "quantization": "fp8",
+  "quantization": "fp4",
   "tagline": "Qwen3.5-122B-A10B is a large Mixture-of-Experts model from Alibaba's Qwen3.5 series with 122B total parameters and 10B activated per token.",
   "_generated": {
     "name": "c3b807b5",
@@ -40,7 +40,7 @@
     "description": "a9614f71",
     "status": "379ac110",
     "model_type": "d669f408",
-    "context_window": "4a1d32eb",
+    "context_window": "c76fe1d8",
     "reasoning_tokens": "b326b506",
     "open_weight": "b326b506",
     "license": "60245731",
@@ -49,7 +49,7 @@
     "pricing": "8161a4d6",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
-    "quantization": "640679f9",
+    "quantization": "0e8a48ee",
     "tagline": "e3d88287"
   }
 }

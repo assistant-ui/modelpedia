@@ -11,7 +11,7 @@
   "parameters": 14,
   "page_url": "https://fal.run/fal-ai/wan-trainer/t2v-14b",
   "tagline": "Train custom LoRAs for Wan-2.1 T2V 14B",
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-06-24",
   "_generated": {
     "name": "8060f20e",
     "family": "2aadc089",
@@ -22,7 +22,7 @@
     "parameters": "aab32389",
     "page_url": "5488a576",
     "tagline": "f6c4df43",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "b7ac61f6"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-29"
 }

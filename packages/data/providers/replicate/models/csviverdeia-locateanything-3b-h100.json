@@ -1,0 +1,18 @@
+{
+  "id": "csviverdeia/locateanything-3b-h100",
+  "name": "Locateanything 3b H100",
+  "created_by": "csviverdeia",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "parameters": 3,
+  "page_url": "https://replicate.com/csviverdeia/locateanything-3b-h100",
+  "_generated": {
+    "name": "3cc638ae",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "parameters": "eccbc87e",
+    "page_url": "fca2fb9e"
+  },
+  "last_updated": "2026-06-29"
+}

@@ -3,7 +3,7 @@
   "name": "gemini-2.5-pro",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-27",
+  "last_updated": "2026-06-29",
   "family": "gemini-2.5",
   "status": "active",
   "knowledge_cutoff": "2025-01",
@@ -66,12 +66,12 @@
     "model_type": "d669f408",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "description": "d0f3dc9c",
+    "description": "d228c57e",
     "tagline": "d0f3dc9c"
   },
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
-  "description": "Our state-of-the-art thinking model, capable of reasoning over complex problems in code, math, and STEM, as well as analyzing large datasets, codebases, and documents using long context.",
+  "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 2.5 Pro Our state-of-the-art thinking model, capable of reasoning over complex problems in code, math, and STEM, as well as analyzing large datasets, codebases, and documents using long context.",
   "tagline": "Our state-of-the-art thinking model, capable of reasoning over complex problems in code, math, and STEM, as well as analyzing large datasets, codebases, and documents using long context."
 }

@@ -1,0 +1,16 @@
+{
+  "id": "ultralytics/yolo26",
+  "name": "Yolo26",
+  "created_by": "ultralytics",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/ultralytics/yolo26",
+  "_generated": {
+    "name": "4b064c08",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "bf4b8adc"
+  },
+  "last_updated": "2026-06-29"
+}

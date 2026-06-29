@@ -1,0 +1,34 @@
+{
+  "id": "ornith",
+  "name": "ornith",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "A self-improving family of open-source models for agentic coding",
+  "context_window": 262144,
+  "license": "mit",
+  "parameters": 9,
+  "page_url": "https://ollama.com/library/ornith",
+  "open_weight": true,
+  "tagline": "A self-improving family of open-source models for agentic coding",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "d58b7425",
+    "description": "1fb93495",
+    "context_window": "4a1d32eb",
+    "license": "3c4c3ba5",
+    "parameters": "45c48cce",
+    "page_url": "8913413c",
+    "open_weight": "b326b506",
+    "tagline": "1fb93495",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-29"
+}

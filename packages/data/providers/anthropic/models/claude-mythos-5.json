@@ -37,7 +37,7 @@
     "batch_output": 25
   },
   "open_weight": false,
-  "tools": ["function_calling", "computer_use", "mcp"],
+  "tools": ["function_calling"],
   "endpoints": ["messages"],
   "thinking_modes": ["adaptive"],
   "priority_tier": true,
@@ -58,10 +58,10 @@
     "modalities": "6399757e",
     "pricing": "7fd7b1fe",
     "open_weight": "68934a3e",
-    "tools": "abde16bc",
+    "tools": "f0c1dc7e",
     "endpoints": "94bb8b7a",
     "thinking_modes": "a8582e89",
     "priority_tier": "b326b506"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-06-29"
 }

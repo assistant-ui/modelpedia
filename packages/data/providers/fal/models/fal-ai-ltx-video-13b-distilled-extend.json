@@ -10,7 +10,7 @@
   "parameters": 13,
   "page_url": "https://fal.run/fal-ai/ltx-video-13b-distilled/extend",
   "tagline": "Extend videos using LTX Video-0.9.7 13B Distilled and custom LoRA",
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-06-22",
   "_generated": {
     "name": "eb56eea3",
     "description": "9a720064",
@@ -20,7 +20,7 @@
     "parameters": "c51ce410",
     "page_url": "9af51852",
     "tagline": "9a720064",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "1413cbcd"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-29"
 }

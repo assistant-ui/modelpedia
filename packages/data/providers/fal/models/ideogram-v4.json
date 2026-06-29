@@ -1,6 +1,6 @@
 {
   "id": "ideogram/v4",
-  "name": "Ideogram V4.0q Text to Image",
+  "name": "Ideogram V4.0 Text to Image",
   "created_by": "ideogram",
   "source": "official",
   "description": "Generate high-quality images, posters, and logos with Ideogram's latest V4.0q — producing crisp visuals with accurate text rendering, fine detail, and full creative control for polished, ready-to-use ",
@@ -18,9 +18,9 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-06-19",
+  "last_seen_at": "2026-06-24",
   "_generated": {
-    "name": "acde0ec9",
+    "name": "a35c5fa5",
     "description": "7504e7ca",
     "status": "379ac110",
     "release_date": "61fd683f",
@@ -30,7 +30,7 @@
     "capabilities": "5f5c7516",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "1db51038"
+    "last_seen_at": "b7ac61f6"
   },
-  "last_updated": "2026-06-20"
+  "last_updated": "2026-06-29"
 }

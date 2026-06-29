@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/ic-lora/av2av",
   "tagline": "Train an IC-LoRA for a joint audio+video transformation, conditioned on a reference clip's video and audio to produce a matching target.",
-  "last_seen_at": "2026-06-17",
+  "last_seen_at": "2026-06-22",
   "_generated": {
     "name": "d4d544bf",
     "description": "bbd03b3a",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "2fe91d35",
     "tagline": "bbd03b3a",
-    "last_seen_at": "e050aed5"
+    "last_seen_at": "1413cbcd"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-06-29"
 }

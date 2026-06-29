@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/ic-lora/a2a",
   "tagline": "Train an IC-LoRA that transforms one audio clip into another, conditioned at inference on a reference audio clip.",
-  "last_seen_at": "2026-06-17",
+  "last_seen_at": "2026-06-22",
   "_generated": {
     "name": "890a0178",
     "description": "10b0959c",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "ea369a32",
     "tagline": "10b0959c",
-    "last_seen_at": "e050aed5"
+    "last_seen_at": "1413cbcd"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-06-29"
 }

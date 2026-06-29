@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/inpaint",
   "tagline": "Train a LoRA that regenerates a masked region of a video while keeping the rest unchanged, blending the new content with its surroundings.",
-  "last_seen_at": "2026-06-18",
+  "last_seen_at": "2026-06-22",
   "_generated": {
     "name": "0c6441f6",
     "description": "bf0d0fdc",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "621dad7b",
     "tagline": "bf0d0fdc",
-    "last_seen_at": "7ddb29f2"
+    "last_seen_at": "1413cbcd"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-06-29"
 }

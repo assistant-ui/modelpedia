@@ -3,7 +3,7 @@
   "name": "gemini-3.1-pro-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-27",
+  "last_updated": "2026-06-29",
   "family": "gemini-3.1",
   "status": "active",
   "knowledge_cutoff": "2025-01",
@@ -65,9 +65,13 @@
     "endpoints": "20e16908",
     "model_type": "d669f408",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "6c20aa92",
+    "tagline": "9fee8828"
   },
   "model_type": "chat",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Pro Preview Built to refine the performance and reliability of the Gemini 3 Pro series, Gemini 3.1 Pro Preview provides better thinking, improved token efficiency, and a more grounded, factually consistent experience. It&#39;s optimized for software engineering behavior and usability, as well as agentic workflows requiring precise tool usage and reliable multi-step execution across real-world domains.",
+  "tagline": "The Interactions API is now generally available."
 }

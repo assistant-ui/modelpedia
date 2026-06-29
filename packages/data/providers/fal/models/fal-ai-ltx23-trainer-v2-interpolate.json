@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/interpolate",
   "tagline": "Train a LoRA that generates the video between keyframes — supply first/last (and optional middle) frames at inference and the model fills the in-between motion.",
-  "last_seen_at": "2026-06-17",
+  "last_seen_at": "2026-06-22",
   "_generated": {
     "name": "f7fcb959",
     "description": "31346a0a",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "14dc3796",
     "tagline": "31346a0a",
-    "last_seen_at": "e050aed5"
+    "last_seen_at": "1413cbcd"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-06-29"
 }

@@ -14,7 +14,7 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-06-22",
   "_generated": {
     "name": "b59d8995",
     "description": "e5eb848a",
@@ -25,7 +25,7 @@
     "tagline": "e5eb848a",
     "modalities": "135102b7",
     "endpoints": "7a78c070",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "1413cbcd"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-29"
 }

@@ -3,22 +3,22 @@
   "name": "kimi-k2-thinking",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "context_window": 262100,
+  "last_updated": "2026-06-29",
+  "context_window": 216100,
   "capabilities": {
     "streaming": true,
     "tool_call": true,
     "reasoning": true
   },
   "pricing": {
-    "input": 0.6,
-    "output": 2.5
+    "input": 0.47,
+    "output": 2
   },
   "_generated": {
     "name": "2a84c5e4",
-    "context_window": "b23f4471",
+    "context_window": "17fe03d3",
     "capabilities": "a281e83a",
-    "pricing": "97d9061a",
+    "pricing": "157a832e",
     "family": "0f7256d5",
     "model_type": "d669f408",
     "tools": "f0c1dc7e",

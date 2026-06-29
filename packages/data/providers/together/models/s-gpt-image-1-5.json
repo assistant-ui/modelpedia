@@ -3,14 +3,14 @@
   "name": "Gpt Image 1 5",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-06-20",
+  "last_updated": "2026-06-29",
   "family": "gpt-image-1",
   "context_window": 32000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.06,
+    "input": 0.053,
     "output": 0.034
   },
   "_generated": {
@@ -18,7 +18,7 @@
     "family": "480da012",
     "context_window": "10e4d788",
     "capabilities": "0fa77dc6",
-    "pricing": "709307ca",
+    "pricing": "7398b7f5",
     "model_type": "db8857fe",
     "page_url": "1abd1987"
   },

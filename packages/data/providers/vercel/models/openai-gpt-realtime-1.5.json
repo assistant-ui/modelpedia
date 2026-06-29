@@ -1,0 +1,23 @@
+{
+  "id": "openai/gpt-realtime-1.5",
+  "name": "gpt-realtime-1.5",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-realtime",
+  "model_type": "audio",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 4,
+    "output": 16
+  },
+  "_generated": {
+    "name": "ba790d92",
+    "family": "f5032d33",
+    "model_type": "9f84c007",
+    "capabilities": "0fa77dc6",
+    "pricing": "5190413e"
+  },
+  "last_updated": "2026-06-29"
+}

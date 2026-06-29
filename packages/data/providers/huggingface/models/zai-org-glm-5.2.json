@@ -1,0 +1,41 @@
+{
+  "id": "zai-org/GLM-5.2",
+  "name": "GLM-5.2",
+  "created_by": "zhipu",
+  "source": "official",
+  "family": "GLM-5.2",
+  "release_date": "2026-06-16",
+  "context_window": 1048576,
+  "license": "mit",
+  "parameters": 753,
+  "page_url": "https://huggingface.co/zai-org/GLM-5.2",
+  "architecture": "moe",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "0e01939a",
+    "family": "0e01939a",
+    "release_date": "3eed1aa6",
+    "context_window": "7d28a051",
+    "license": "3c4c3ba5",
+    "parameters": "6f2268bd",
+    "page_url": "4b04c187",
+    "architecture": "31b2172c",
+    "model_type": "d669f408",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-29"
+}

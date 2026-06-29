@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx2-v2v-trainer",
   "tagline": "Train LTX-2 for video transformation or video-conditioned generation.",
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-06-22",
   "_generated": {
     "name": "b0319839",
     "description": "6ea159c4",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "72e86408",
     "tagline": "6ea159c4",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "1413cbcd"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-29"
 }

@@ -1,0 +1,37 @@
+{
+  "id": "llmfan46/Gemma-4-Garnet-V2-31B-it-ultra-uncensored-heretic",
+  "name": "Gemma-4-Garnet-V2-31B-it-ultra-uncensored-heretic",
+  "created_by": "llmfan46",
+  "source": "official",
+  "release_date": "2026-04-25",
+  "license": "apache-2.0",
+  "parameters": 31,
+  "page_url": "https://huggingface.co/llmfan46/Gemma-4-Garnet-V2-31B-it-ultra-uncensored-heretic",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "50c85316",
+    "release_date": "97bb708a",
+    "license": "60245731",
+    "parameters": "c16a5320",
+    "page_url": "7b9f38b2",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-29"
+}

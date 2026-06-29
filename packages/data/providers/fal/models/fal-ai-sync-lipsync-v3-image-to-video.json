@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/sync-lipsync/v3/image-to-video",
+  "name": "sync-3 Avatar Image to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "sync-3 image to video turns a single still into a talking character, and works with any illustration or animated frame paired with a voice track",
+  "status": "active",
+  "release_date": "2026-06-22",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/sync-lipsync/v3/image-to-video",
+  "tagline": "sync-3 image to video turns a single still into a talking character, and works with any illustration or animated frame paired with a voice track",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-06-23",
+  "_generated": {
+    "name": "e0a3fc29",
+    "description": "1d524268",
+    "status": "379ac110",
+    "release_date": "1413cbcd",
+    "model_type": "4d1b75ca",
+    "page_url": "707db822",
+    "tagline": "1d524268",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "ecff9cc2"
+  },
+  "last_updated": "2026-06-29"
+}

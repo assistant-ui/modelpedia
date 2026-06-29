@@ -1,0 +1,28 @@
+{
+  "id": "openrouter/router/enterprise",
+  "name": "OpenRouter [Enterprise]",
+  "created_by": "openrouter",
+  "source": "official",
+  "description": "Run any LLM (Large Language Model) with fal, powered by OpenRouter.",
+  "status": "active",
+  "release_date": "2025-12-22",
+  "model_type": "other",
+  "page_url": "https://fal.run/openrouter/router/enterprise",
+  "tagline": "Run any LLM (Large Language Model) with fal, powered by OpenRouter.",
+  "capabilities": {
+    "streaming": true
+  },
+  "last_seen_at": "2026-06-24",
+  "_generated": {
+    "name": "05c04422",
+    "description": "0cd5c7bf",
+    "status": "379ac110",
+    "release_date": "13396b7f",
+    "model_type": "ddb0b7bc",
+    "page_url": "5bdfa87c",
+    "tagline": "0cd5c7bf",
+    "capabilities": "0fa77dc6",
+    "last_seen_at": "b7ac61f6"
+  },
+  "last_updated": "2026-06-29"
+}

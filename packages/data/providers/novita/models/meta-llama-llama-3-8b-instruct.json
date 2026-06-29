@@ -5,7 +5,7 @@
   "source": "official",
   "family": "llama-3",
   "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors.",
-  "status": "active",
+  "status": "preview",
   "release_date": "2024-04-25",
   "context_window": 8192,
   "max_output_tokens": 8192,
@@ -30,7 +30,7 @@
     "name": "a9f1d9ac",
     "family": "a8d1600e",
     "description": "8630e213",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "930b7401",
     "context_window": "77441296",
     "max_output_tokens": "77441296",
@@ -42,5 +42,5 @@
     "pricing": "e339168e",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-29"
 }

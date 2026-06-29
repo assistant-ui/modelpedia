@@ -3,7 +3,7 @@
   "name": "qwen-turbo",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-20",
+  "last_updated": "2026-06-29",
   "family": "qwen",
   "model_type": "chat",
   "capabilities": {
@@ -32,7 +32,7 @@
     "tagline": "a556f27a",
     "page_url": "6ecc6f25",
     "open_weight": "68934a3e",
-    "context_window": "34434798",
+    "context_window": "8155bc54",
     "reasoning_tokens": "b326b506",
     "tools": "f0c1dc7e"
   },
@@ -42,7 +42,7 @@
   "tagline": "Qwen-Turbo will no longer receive updates.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
   "open_weight": false,
-  "context_window": 128000,
+  "context_window": 1000000,
   "reasoning_tokens": true,
   "tools": ["function_calling"]
 }

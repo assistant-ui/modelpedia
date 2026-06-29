@@ -3,7 +3,7 @@
   "name": "NVIDIA-Nemotron-3-Super-120B-A12B",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-06-29",
   "family": "nemotron",
   "description": "NVIDIA Nemotron 3 Super is a hybrid Mixture-of-Experts (MoE) model engineered for highest compute efficiency and accuracy in multi-agent applications and specialized agentic systems. It is optimized to run many collaborating agents per application on a single GPU, delivering high accuracy for reasoning, tool use, and instruction following.",
   "status": "active",
@@ -23,8 +23,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.1,
-    "output": 0.5
+    "input": 0.085,
+    "output": 0.4
   },
   "tools": ["function_calling"],
   "endpoints": ["chat_completions"],
@@ -41,7 +41,7 @@
     "open_weight": "b326b506",
     "capabilities": "a17ad43b",
     "modalities": "68e53d93",
-    "pricing": "dcd14f44",
+    "pricing": "ad64a346",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "45ae6e17",

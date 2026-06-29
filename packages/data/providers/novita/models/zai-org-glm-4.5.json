@@ -5,7 +5,7 @@
   "source": "official",
   "family": "glm-4.5",
   "description": "GLM-4.5 Series Models are foundation models specifically engineered for intelligent agents.",
-  "status": "active",
+  "status": "preview",
   "release_date": "2025-07-28",
   "context_window": 131072,
   "max_output_tokens": 98304,
@@ -30,7 +30,7 @@
     "name": "9ddeed20",
     "family": "e8ea1e1e",
     "description": "d85a8245",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "8ef4ed35",
     "context_window": "f7de594e",
     "max_output_tokens": "79cef9cc",
@@ -42,5 +42,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-29"
 }

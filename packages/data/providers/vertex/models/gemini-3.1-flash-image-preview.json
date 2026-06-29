@@ -3,9 +3,9 @@
   "name": "gemini-3.1-flash-image-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-05-29",
+  "last_updated": "2026-06-29",
   "family": "gemini-3.1",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2025-01",
   "context_window": 131072,
   "max_output_tokens": 32768,
@@ -54,7 +54,7 @@
   "_generated": {
     "name": "f2606b99",
     "family": "ea4a1a23",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "3f358a56",
     "context_window": "f7de594e",
     "max_output_tokens": "f4376436",
@@ -65,9 +65,13 @@
     "endpoints": "20e16908",
     "model_type": "d669f408",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "247162b6",
+    "successor": "ea17b32a"
   },
   "model_type": "chat",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-06-25",
+  "successor": "gemini-3.1-flash-image"
 }

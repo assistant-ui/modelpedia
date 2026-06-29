@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/krea-2-trainer",
+  "name": "Krea 2 Trainer",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train a custom LoRA on your own images to teach Krea 2 a new subject, character, or style.",
+  "status": "active",
+  "release_date": "2026-06-19",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/krea-2-trainer",
+  "tagline": "Train a custom LoRA on your own images to teach Krea 2 a new subject, character, or style.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-06-25",
+  "_generated": {
+    "name": "c6101c45",
+    "description": "b95f32e8",
+    "status": "379ac110",
+    "release_date": "1db51038",
+    "model_type": "ddb0b7bc",
+    "page_url": "1addc363",
+    "tagline": "b95f32e8",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "247162b6"
+  },
+  "last_updated": "2026-06-29"
+}

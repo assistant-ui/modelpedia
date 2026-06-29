@@ -14,7 +14,7 @@
     "output": ["audio"]
   },
   "endpoints": ["audio_speech"],
-  "last_seen_at": "2026-04-26",
+  "last_seen_at": "2026-06-24",
   "_generated": {
     "name": "e7f69c35",
     "description": "c78172f3",
@@ -25,7 +25,7 @@
     "tagline": "c78172f3",
     "modalities": "601e776d",
     "endpoints": "0d745ead",
-    "last_seen_at": "42382078"
+    "last_seen_at": "b7ac61f6"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-29"
 }

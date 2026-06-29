@@ -1,0 +1,48 @@
+{
+  "id": "gemma-4-31b",
+  "name": "Gemma 4 31B",
+  "created_by": "unknown",
+  "source": "official",
+  "family": "gemma-4",
+  "status": "preview",
+  "context_window": 131000,
+  "max_output_tokens": 40000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "parameters": 31,
+  "open_weight": true,
+  "capabilities": {
+    "reasoning": true,
+    "streaming": true,
+    "structured_output": true,
+    "tool_call": true,
+    "prompt_caching": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions", "completions"],
+  "tools": ["function_calling"],
+  "model_card_url": "https://huggingface.co/google/gemma-4-31B-it",
+  "tokens_per_second": 1850,
+  "_generated": {
+    "name": "d53d071a",
+    "family": "811b6704",
+    "status": "127aecde",
+    "context_window": "834bd590",
+    "max_output_tokens": "7c77f048",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "parameters": "c16a5320",
+    "open_weight": "b326b506",
+    "capabilities": "cf26b107",
+    "modalities": "6399757e",
+    "endpoints": "772bacef",
+    "tools": "f0c1dc7e",
+    "model_card_url": "682a4569",
+    "tokens_per_second": "8c3039bd"
+  },
+  "last_updated": "2026-06-29"
+}

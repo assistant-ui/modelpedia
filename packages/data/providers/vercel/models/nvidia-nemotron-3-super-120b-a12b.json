@@ -8,7 +8,9 @@
   "parameters": 120,
   "active_parameters": 12,
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "pricing": {
     "input": 0.15,
@@ -24,9 +26,11 @@
     "model_type": "d669f408",
     "parameters": "da4fb5c6",
     "active_parameters": "c20ad4d7",
-    "capabilities": "0fa77dc6",
+    "capabilities": "a281e83a",
     "pricing": "d970cf85",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-01"
+  "last_updated": "2026-06-29",
+  "tools": ["function_calling"]
 }
