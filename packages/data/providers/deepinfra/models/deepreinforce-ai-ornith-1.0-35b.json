@@ -1,0 +1,46 @@
+{
+  "id": "deepreinforce-ai/Ornith-1.0-35B",
+  "name": "Ornith-1.0-35B",
+  "created_by": "deepreinforce-ai",
+  "source": "official",
+  "status": "active",
+  "context_window": 262144,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 1,
+    "cached_input": 0.05
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "_generated": {
+    "name": "fe3b916f",
+    "status": "379ac110",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "c7984d1d",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9"
+  },
+  "last_updated": "2026-06-29"
+}

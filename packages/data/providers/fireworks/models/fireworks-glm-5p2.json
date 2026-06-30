@@ -13,7 +13,7 @@
   "pricing": {
     "input": 1.4,
     "output": 4.4,
-    "cached_input": 0.26
+    "cached_input": 0.14
   },
   "modalities": {
     "input": ["text"],
@@ -26,8 +26,8 @@
     "page_url": "0e8d74d8",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "pricing": "fbb9d87e",
+    "pricing": "a069087f",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-06-29"
 }

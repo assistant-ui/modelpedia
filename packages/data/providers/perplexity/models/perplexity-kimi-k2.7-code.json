@@ -1,0 +1,27 @@
+{
+  "id": "perplexity/kimi-k2.7-code",
+  "name": "perplexity/kimi-k2.7-code",
+  "created_by": "perplexity",
+  "source": "official",
+  "family": "kimi-k2.7",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "2eaec5fb",
+    "family": "4bc6ec57",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-29"
+}

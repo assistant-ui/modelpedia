@@ -1,0 +1,31 @@
+{
+  "id": "bytedance/seedance-2.0/mini/text-to-video",
+  "name": "Seedance 2.0 Mini Text to Video",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Seedance 2.0 Mini is a faster version of Seedance 2.0 that brings great performance and high generation speed at a lower cost.",
+  "status": "active",
+  "release_date": "2026-06-23",
+  "model_type": "video",
+  "page_url": "https://fal.run/bytedance/seedance-2.0/mini/text-to-video",
+  "tagline": "Seedance 2.0 Mini is a faster version of Seedance 2.0 that brings great performance and high generation speed at a lower cost.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-06-24",
+  "_generated": {
+    "name": "1570b4c4",
+    "description": "ca2bb8d7",
+    "status": "379ac110",
+    "release_date": "ecff9cc2",
+    "model_type": "4d1b75ca",
+    "page_url": "885d65bf",
+    "tagline": "ca2bb8d7",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "b7ac61f6"
+  },
+  "last_updated": "2026-06-29"
+}

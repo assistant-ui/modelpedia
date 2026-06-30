@@ -3,12 +3,13 @@
   "name": "magistral-medium",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-29",
   "context_window": 128000,
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "reasoning": true
+    "reasoning": true,
+    "tool_call": true
   },
   "pricing": {
     "input": 2,
@@ -17,16 +18,18 @@
   "_generated": {
     "name": "6a1eea51",
     "context_window": "34434798",
-    "capabilities": "8d009641",
+    "capabilities": "7bbcc63b",
     "pricing": "383111d1",
     "model_type": "d669f408",
     "family": "b2c75a88",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "family": "magistral",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "tools": ["function_calling"]
 }

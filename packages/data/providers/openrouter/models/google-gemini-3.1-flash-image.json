@@ -7,7 +7,7 @@
   "description": "Gemini 3.1 Flash Image, a.k.a.",
   "release_date": "2026-06-18",
   "context_window": 131072,
-  "max_output_tokens": 65536,
+  "max_output_tokens": 32768,
   "model_type": "chat",
   "tagline": "Gemini 3.1 Flash Image, a.k.a.",
   "capabilities": {
@@ -29,12 +29,12 @@
     "description": "6eb4f082",
     "release_date": "7ddb29f2",
     "context_window": "f7de594e",
-    "max_output_tokens": "297ce0b3",
+    "max_output_tokens": "f4376436",
     "model_type": "d669f408",
     "tagline": "6eb4f082",
     "capabilities": "d53412cf",
     "modalities": "f5e0517a",
     "pricing": "ad477c96"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-06-29"
 }

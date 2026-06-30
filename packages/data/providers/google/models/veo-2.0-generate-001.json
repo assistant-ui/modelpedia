@@ -3,7 +3,7 @@
   "name": "veo-2.0-generate-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-06-29",
   "status": "active",
   "model_type": "video",
   "capabilities": {
@@ -33,13 +33,13 @@
     "license": "9186c466",
     "page_url": "089bd203",
     "open_weight": "68934a3e",
-    "description": "b4307c94",
+    "description": "a07bf735",
     "tagline": "b16f53f3"
   },
   "family": "veo-2.0",
   "license": "proprietary",
   "page_url": "https://ai.google.dev/gemini-api/docs/models/veo-2.0-generate-001",
   "open_weight": false,
-  "description": "A models available through the Gemini Enterprise Agent Platform to avoid service interruptions. Our robust and reliable stable video generation model, providing consistent performance for production-ready workflows. Veo 2.0 is best for standard 1080p content creation, social media assets, and high-volume video tasks that prioritize reliable character consistency and predictable sub-second generation speeds.",
+  "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Veo 2.0 This model is deprecated and will be shut down on **June 30, 2026**; migrate to Veo 3.1 Preview or the GA models available through the Gemini Enterprise Agent Platform to avoid service interruptions. Our robust and reliable stable video generation model, providing consistent performance for production-ready workflows. Veo 2.0 is best for standard 1080p content creation, social media assets, and high-volume video tasks that prioritize reliable character consistency and predictable sub-second generation speeds.",
   "tagline": "Our robust and reliable stable video generation model, providing consistent performance for production-ready workflows."
 }

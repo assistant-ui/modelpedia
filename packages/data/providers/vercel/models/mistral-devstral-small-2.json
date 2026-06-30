@@ -3,12 +3,13 @@
   "name": "devstral-small-2",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-29",
   "family": "devstral",
   "context_window": 256000,
   "capabilities": {
     "streaming": true,
-    "tool_call": true
+    "tool_call": true,
+    "vision": true
   },
   "pricing": {
     "input": 0.1,
@@ -18,7 +19,7 @@
     "name": "81589537",
     "family": "e626e93e",
     "context_window": "2fd324cb",
-    "capabilities": "48995a4e",
+    "capabilities": "1a260abc",
     "pricing": "53952343",
     "model_type": "d669f408",
     "tools": "f0c1dc7e",

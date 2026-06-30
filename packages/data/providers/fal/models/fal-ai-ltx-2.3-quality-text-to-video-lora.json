@@ -14,7 +14,7 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-06-17",
+  "last_seen_at": "2026-06-22",
   "_generated": {
     "name": "a69880de",
     "description": "dc3be651",
@@ -25,7 +25,7 @@
     "tagline": "dc3be651",
     "modalities": "135102b7",
     "endpoints": "7a78c070",
-    "last_seen_at": "e050aed5"
+    "last_seen_at": "1413cbcd"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-06-29"
 }

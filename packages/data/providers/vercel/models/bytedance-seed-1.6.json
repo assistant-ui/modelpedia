@@ -3,12 +3,13 @@
   "name": "seed-1.6",
   "created_by": "bytedance",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-29",
   "context_window": 256000,
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "reasoning": true
+    "reasoning": true,
+    "vision": true
   },
   "pricing": {
     "input": 0.25,
@@ -17,7 +18,7 @@
   "_generated": {
     "name": "98d32f54",
     "context_window": "2fd324cb",
-    "capabilities": "a281e83a",
+    "capabilities": "45192957",
     "pricing": "468d92b7",
     "tools": "f0c1dc7e",
     "model_type": "d669f408",

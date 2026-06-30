@@ -1,0 +1,23 @@
+{
+  "id": "openai/gpt-4o-mini-transcribe",
+  "name": "gpt-4o-mini-transcribe",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-4o",
+  "model_type": "transcription",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 5
+  },
+  "_generated": {
+    "name": "3f6bf75d",
+    "family": "15249632",
+    "model_type": "5e12d29a",
+    "capabilities": "0fa77dc6",
+    "pricing": "1cfb4ebc"
+  },
+  "last_updated": "2026-06-29"
+}

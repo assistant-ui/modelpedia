@@ -1,0 +1,33 @@
+{
+  "id": "sakana/fugu-ultra",
+  "name": "fugu-ultra",
+  "created_by": "sakana",
+  "source": "official",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 5,
+    "output": 30
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8e47e933",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "6d28a2f6",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-29"
+}

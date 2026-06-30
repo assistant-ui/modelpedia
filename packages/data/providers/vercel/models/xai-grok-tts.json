@@ -1,0 +1,21 @@
+{
+  "id": "xai/grok-tts",
+  "name": "grok-tts",
+  "created_by": "xai",
+  "source": "official",
+  "model_type": "tts",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 15,
+    "output": 0
+  },
+  "_generated": {
+    "name": "880eef6a",
+    "model_type": "4e16a2cf",
+    "capabilities": "0fa77dc6",
+    "pricing": "279488b2"
+  },
+  "last_updated": "2026-06-29"
+}

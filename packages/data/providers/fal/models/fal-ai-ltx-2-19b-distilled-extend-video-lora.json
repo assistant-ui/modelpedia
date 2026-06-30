@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx-2-19b/distilled/extend-video/lora",
   "tagline": "Extend videos with audio using LTX-2 Distilled and custom LoRA",
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-06-22",
   "_generated": {
     "name": "5f8007ea",
     "description": "0fe0a7bf",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "216d9c5a",
     "tagline": "0fe0a7bf",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "1413cbcd"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-29"
 }

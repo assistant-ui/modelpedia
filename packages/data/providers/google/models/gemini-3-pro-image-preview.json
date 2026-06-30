@@ -3,9 +3,9 @@
   "name": "gemini-3-pro-image-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-05-29",
+  "last_updated": "2026-06-29",
   "family": "gemini-3",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2025-01",
   "context_window": 65536,
   "max_output_tokens": 32768,
@@ -50,7 +50,7 @@
   "_generated": {
     "name": "3073a562",
     "family": "eb14e598",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "3f358a56",
     "context_window": "297ce0b3",
     "max_output_tokens": "f4376436",
@@ -62,10 +62,14 @@
     "model_type": "d669f408",
     "license": "9186c466",
     "page_url": "63a0046e",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "247162b6",
+    "successor": "1f41d2e6"
   },
   "model_type": "chat",
   "license": "proprietary",
   "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image-preview",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-06-25",
+  "successor": "gemini-3-pro-image"
 }

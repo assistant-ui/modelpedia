@@ -1,0 +1,16 @@
+{
+  "id": "alibaba/happyhorse-1.1",
+  "name": "Happyhorse 1.1",
+  "created_by": "alibaba",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/alibaba/happyhorse-1.1",
+  "_generated": {
+    "name": "842a8266",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "bbe64759"
+  },
+  "last_updated": "2026-06-29"
+}

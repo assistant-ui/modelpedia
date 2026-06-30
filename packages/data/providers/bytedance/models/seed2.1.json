@@ -1,0 +1,31 @@
+{
+  "id": "seed2.1",
+  "name": "Seed2.1",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A next-generation agent for real-world productivity.",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://seed.bytedance.com/en/seed2_1",
+  "tagline": "A next-generation agent for real-world productivity.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "49199f66",
+    "description": "1216abae",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "c21f1d3b",
+    "tagline": "1216abae",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-06-29"
+}

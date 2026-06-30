@@ -1,0 +1,27 @@
+{
+  "id": "FastVideo/LTX-2.3-Distilled-Diffusers",
+  "name": "LTX-2.3-Distilled-Diffusers",
+  "created_by": "fastvideo",
+  "source": "official",
+  "description": "A fast, step-distilled build of Lightricks' LTX-2.3 diffusion-transformer video model (distilled by FastVideo). Generates high-fidelity text-to-video and image-to-video in just a few denoising steps.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": true,
+  "tagline": "A fast, step-distilled build of Lightricks' LTX-2.3 diffusion-transformer video model (distilled by FastVideo).",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "e405fdd5",
+    "description": "edbd4bea",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "b326b506",
+    "tagline": "f46706e8",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-06-29"
+}

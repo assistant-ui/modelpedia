@@ -3,12 +3,13 @@
   "name": "seed-1.8",
   "created_by": "bytedance",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-06-29",
   "context_window": 256000,
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "reasoning": true
+    "reasoning": true,
+    "tool_call": true
   },
   "pricing": {
     "input": 0.25,
@@ -17,14 +18,16 @@
   "_generated": {
     "name": "8e911212",
     "context_window": "2fd324cb",
-    "capabilities": "8d009641",
+    "capabilities": "7bbcc63b",
     "pricing": "468d92b7",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "tools": ["function_calling"]
 }

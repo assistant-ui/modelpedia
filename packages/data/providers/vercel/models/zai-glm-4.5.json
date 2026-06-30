@@ -3,8 +3,8 @@
   "name": "glm-4.5",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "context_window": 131100,
+  "last_updated": "2026-06-29",
+  "context_window": 128000,
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -16,7 +16,7 @@
   },
   "_generated": {
     "name": "e8ea1e1e",
-    "context_window": "a683b9ae",
+    "context_window": "34434798",
     "capabilities": "a281e83a",
     "pricing": "71298526",
     "family": "e8ea1e1e",

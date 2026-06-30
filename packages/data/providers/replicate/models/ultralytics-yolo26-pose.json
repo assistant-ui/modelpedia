@@ -1,0 +1,16 @@
+{
+  "id": "ultralytics/yolo26-pose",
+  "name": "Yolo26 Pose",
+  "created_by": "ultralytics",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/ultralytics/yolo26-pose",
+  "_generated": {
+    "name": "8accfe23",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "6b984ed0"
+  },
+  "last_updated": "2026-06-29"
+}

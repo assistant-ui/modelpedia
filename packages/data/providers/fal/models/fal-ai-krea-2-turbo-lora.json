@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/krea-2/turbo/lora",
+  "name": "Krea 2 Text to Image Turbo LoRA",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate high-fidelity images from text with Krea 2 using a custom-trained LoRA.",
+  "status": "active",
+  "release_date": "2026-06-19",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/krea-2/turbo/lora",
+  "tagline": "Generate high-fidelity images from text with Krea 2 using a custom-trained LoRA.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-06-24",
+  "_generated": {
+    "name": "6b1bffa5",
+    "description": "3e2b9964",
+    "status": "379ac110",
+    "release_date": "1db51038",
+    "model_type": "db8857fe",
+    "page_url": "c0ffa238",
+    "tagline": "3e2b9964",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "b7ac61f6"
+  },
+  "last_updated": "2026-06-29"
+}

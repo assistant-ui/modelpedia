@@ -1,0 +1,23 @@
+{
+  "id": "openai/tts-1",
+  "name": "tts-1",
+  "created_by": "openai",
+  "source": "official",
+  "family": "tts",
+  "model_type": "tts",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 15,
+    "output": 0
+  },
+  "_generated": {
+    "name": "1bb636f5",
+    "family": "4e16a2cf",
+    "model_type": "4e16a2cf",
+    "capabilities": "0fa77dc6",
+    "pricing": "279488b2"
+  },
+  "last_updated": "2026-06-29"
+}

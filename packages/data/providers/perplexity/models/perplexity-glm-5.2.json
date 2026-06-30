@@ -1,0 +1,27 @@
+{
+  "id": "perplexity/glm-5.2",
+  "name": "perplexity/glm-5.2",
+  "created_by": "perplexity",
+  "source": "official",
+  "family": "glm-5.2",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "3ffdce1c",
+    "family": "8e7b3ca0",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-06-29"
+}

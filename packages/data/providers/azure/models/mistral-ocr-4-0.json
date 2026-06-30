@@ -1,0 +1,26 @@
+{
+  "id": "mistral-ocr-4-0",
+  "name": "mistral-ocr-4-0 Preview",
+  "created_by": "mistral",
+  "source": "official",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2b34510b",
+    "model_type": "d669f408",
+    "capabilities": "ee30ca00",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-29"
+}

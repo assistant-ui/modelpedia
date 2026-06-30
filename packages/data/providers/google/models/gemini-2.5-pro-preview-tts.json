@@ -3,7 +3,7 @@
   "name": "gemini-2.5-pro-preview-tts",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-06-29",
   "family": "gemini-2.5",
   "status": "active",
   "context_window": 8192,
@@ -62,12 +62,12 @@
     "license": "9186c466",
     "page_url": "19f7a0fe",
     "open_weight": "68934a3e",
-    "description": "6e4ef196",
+    "description": "e4dd9be2",
     "tagline": "c50b5638"
   },
   "license": "proprietary",
   "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro-preview-tts",
   "open_weight": false,
-  "description": "Our premium engine for studio-quality speech synthesis, offering high-fidelity and sophisticated audio generation. Gemini 2.5 Pro TTS is best for long-form content, professional narrations, and complex creative workflows that require the highest level of vocal clarity and natural prosody.",
+  "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 2.5 Pro Text-to-Speech Our premium engine for studio-quality speech synthesis, offering high-fidelity and sophisticated audio generation. Gemini 2.5 Pro TTS is best for long-form content, professional narrations, and complex creative workflows that require the highest level of vocal clarity and natural prosody.",
   "tagline": "Our premium engine for studio-quality speech synthesis, offering high-fidelity and sophisticated audio generation."
 }

@@ -1,0 +1,16 @@
+{
+  "id": "ultralytics/yolo26-seg",
+  "name": "Yolo26 Seg",
+  "created_by": "ultralytics",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/ultralytics/yolo26-seg",
+  "_generated": {
+    "name": "35c32b58",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "b874b037"
+  },
+  "last_updated": "2026-06-29"
+}

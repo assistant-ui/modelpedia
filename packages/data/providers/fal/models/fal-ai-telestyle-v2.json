@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/telestyle-v2",
+  "name": "Telestyle V2 Style Transfer",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Restyle any image with TeleStyle v2 — provide an original image and a styling reference, and the model re-renders the original in the reference's visual style while preserving its content and composit",
+  "status": "active",
+  "release_date": "2026-06-22",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/telestyle-v2",
+  "tagline": "Restyle any image with TeleStyle v2 — provide an original image and a styling reference, and the model re-renders the original in the reference's visual style while preserving its content and composit",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-06-22",
+  "_generated": {
+    "name": "f5828870",
+    "description": "62a16afa",
+    "status": "379ac110",
+    "release_date": "1413cbcd",
+    "model_type": "db8857fe",
+    "page_url": "ccf48704",
+    "tagline": "62a16afa",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "1413cbcd"
+  },
+  "last_updated": "2026-06-29"
+}

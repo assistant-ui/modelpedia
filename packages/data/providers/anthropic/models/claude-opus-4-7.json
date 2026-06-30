@@ -39,7 +39,7 @@
     "cache_write_1h": 10
   },
   "open_weight": false,
-  "tools": ["function_calling", "computer_use", "mcp"],
+  "tools": ["function_calling"],
   "endpoints": ["messages"],
   "priority_tier": true,
   "_generated": {
@@ -61,7 +61,7 @@
     "modalities": "6399757e",
     "pricing": "93ccf380",
     "open_weight": "68934a3e",
-    "tools": "abde16bc",
+    "tools": "f0c1dc7e",
     "endpoints": "94bb8b7a",
     "priority_tier": "b326b506",
     "reasoning": "e4da3b7f",
@@ -72,7 +72,7 @@
     "batch_max_output_tokens": "1ded704c",
     "fast_mode_pricing": "a57f537b"
   },
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-29",
   "reasoning": 5,
   "thinking_modes": ["adaptive"],
   "bedrock_id": "anthropic.claude-opus-4-7",

@@ -1,0 +1,38 @@
+{
+  "id": "mistral-ocr-latest",
+  "name": "mistral-ocr-latest",
+  "created_by": "mistral",
+  "source": "official",
+  "description": "Our latest OCR service powering our Document AI stack, with native paragraph-level bounding box extraction and structural block labels.",
+  "status": "active",
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/model-cards/ocr-4-0",
+  "model_type": "chat",
+  "tagline": "Our latest OCR service powering our Document AI stack, with native paragraph-level bounding box extraction and structural block labels.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "90df59c4",
+    "description": "7a029eb7",
+    "status": "379ac110",
+    "license": "60245731",
+    "page_url": "6bc87460",
+    "model_type": "d669f408",
+    "tagline": "7a029eb7",
+    "capabilities": "4e827c07",
+    "modalities": "6399757e",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-06-29"
+}

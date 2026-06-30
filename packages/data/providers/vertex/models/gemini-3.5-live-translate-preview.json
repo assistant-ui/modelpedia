@@ -39,7 +39,11 @@
     "capabilities": "fdff467b",
     "modalities": "a8211f74",
     "tools": "f0c1dc7e",
-    "endpoints": "20e16908"
+    "endpoints": "20e16908",
+    "description": "6ccae76a",
+    "tagline": "9fee8828"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-06-29",
+  "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.5 Live Translate Gemini 3.5 Live Translate is our low-latency, audio-to-audio model optimized for real-time translation of spoken conversations. It enables seamless, bidirectional translation with high accuracy and natural voice output.",
+  "tagline": "The Interactions API is now generally available."
 }

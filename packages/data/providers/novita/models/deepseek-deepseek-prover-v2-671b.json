@@ -5,7 +5,7 @@
   "source": "official",
   "family": "deepseek",
   "description": "DeepSeek Launches Open-Source Model DeepSeek-Prover-V2-671B, Specializing in Mathematical Theorem Proving\nThe new model employs a Mixture of Experts (MoE) architecture and is trained using the Lean 4 ",
-  "status": "active",
+  "status": "preview",
   "release_date": "2025-04-30",
   "context_window": 160000,
   "max_output_tokens": 160000,
@@ -29,7 +29,7 @@
     "name": "945f5902",
     "family": "4b81b92d",
     "description": "38e3b0df",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "6997487e",
     "context_window": "523ab41e",
     "max_output_tokens": "523ab41e",
@@ -41,5 +41,5 @@
     "pricing": "0b803a90",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-06-29"
 }

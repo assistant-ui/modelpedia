@@ -3,7 +3,7 @@
   "name": "gemini-robotics-er-1.5-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-05-01",
+  "last_updated": "2026-06-29",
   "status": "deprecated",
   "knowledge_cutoff": "2025-01",
   "context_window": 1048576,
@@ -39,7 +39,9 @@
     "page_url": "979cd18b",
     "open_weight": "68934a3e",
     "deprecation_date": "a53a2b69",
-    "successor": "f30b3535"
+    "successor": "f30b3535",
+    "description": "a4c822a2",
+    "tagline": "9fee8828"
   },
   "family": "gemini-1.5",
   "model_type": "chat",
@@ -47,5 +49,7 @@
   "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.5-preview",
   "open_weight": false,
   "deprecation_date": "2026-04-30",
-  "successor": "gemini-robotics-er-1.6-preview"
+  "successor": "gemini-robotics-er-1.6-preview",
+  "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini Robotics-ER 1.5 Note: This version is planned for deprecation soon . See the models page for the latest model version. Gemini Robotics-ER 1.5 is a vision-language model (VLM) that brings Gemini&#39;s agentic capabilities to robotics. It&#39;s designed for advanced reasoning in the physical world, allowing robots to interpret complex visual data, perform spatial reasoning, and plan actions from natural language commands.",
+  "tagline": "The Interactions API is now generally available."
 }

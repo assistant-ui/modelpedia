@@ -3,11 +3,12 @@
   "name": "kat-coder-pro-v1",
   "created_by": "kwaipilot",
   "source": "official",
-  "last_updated": "2026-06-20",
+  "last_updated": "2026-06-29",
   "context_window": 256000,
   "capabilities": {
     "streaming": true,
-    "reasoning": true
+    "reasoning": true,
+    "tool_call": true
   },
   "pricing": {
     "input": 0.3,
@@ -16,14 +17,16 @@
   "_generated": {
     "name": "518fa5c1",
     "context_window": "2fd324cb",
-    "capabilities": "b011c6b4",
+    "capabilities": "54eccddc",
     "pricing": "ea3f0b86",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "tools": ["function_calling"]
 }

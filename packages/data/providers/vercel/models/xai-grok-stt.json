@@ -1,0 +1,21 @@
+{
+  "id": "xai/grok-stt",
+  "name": "grok-stt",
+  "created_by": "xai",
+  "source": "official",
+  "model_type": "transcription",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "679da5f1",
+    "model_type": "5e12d29a",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-06-29"
+}

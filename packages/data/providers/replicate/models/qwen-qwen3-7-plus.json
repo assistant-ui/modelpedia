@@ -1,0 +1,18 @@
+{
+  "id": "qwen/qwen3-7-plus",
+  "name": "Qwen3 7 Plus",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/qwen/qwen3-7-plus",
+  "_generated": {
+    "name": "7bedd5d8",
+    "family": "48c385a0",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "ad43664b"
+  },
+  "last_updated": "2026-06-29"
+}
