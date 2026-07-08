@@ -1,0 +1,35 @@
+{
+  "id": "anthropic/claude-sonnet-5",
+  "name": "claude-sonnet-5",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-sonnet",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 10
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "72613a07",
+    "family": "68d1c457",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "783da94d",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-08"
+}

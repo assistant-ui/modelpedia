@@ -1,0 +1,25 @@
+{
+  "id": "embedding-2-preview",
+  "name": "embedding-2-preview",
+  "created_by": "google",
+  "source": "official",
+  "family": "embed",
+  "status": "active",
+  "model_type": "embed",
+  "license": "proprietary",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "5e0a2d7a",
+    "family": "764cb3de",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-08"
+}

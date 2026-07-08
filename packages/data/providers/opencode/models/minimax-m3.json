@@ -1,0 +1,31 @@
+{
+  "id": "minimax-m3",
+  "name": "MiniMax M3",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2,
+    "cached_input": 0.06
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "7c7d766a",
+    "family": "c85916f0",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "0c734839",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-08"
+}

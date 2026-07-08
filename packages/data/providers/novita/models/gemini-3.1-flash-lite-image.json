@@ -1,0 +1,35 @@
+{
+  "id": "gemini-3.1-flash-lite-image",
+  "name": "gemini-3.1-flash-lite-image",
+  "created_by": "novita",
+  "source": "official",
+  "family": "gemini-3.1",
+  "status": "active",
+  "release_date": "2026-07-08",
+  "model_type": "chat",
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 1.5
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "2e4e3dce",
+    "family": "ea4a1a23",
+    "status": "379ac110",
+    "release_date": "8f95d981",
+    "model_type": "d669f408",
+    "capabilities": "5f5c7516",
+    "modalities": "6399757e",
+    "pricing": "f6d5b753",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-07-08"
+}

@@ -39,9 +39,11 @@
     "open_weight": "b326b506",
     "endpoints": "75df3f1c",
     "max_output_tokens": "762e98db",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "reasoning_tokens": "b326b506"
   },
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-07-08",
   "max_output_tokens": 64000,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "reasoning_tokens": true
 }

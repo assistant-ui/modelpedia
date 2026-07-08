@@ -14,7 +14,7 @@
     "output": ["audio"]
   },
   "endpoints": ["audio_speech"],
-  "last_seen_at": "2026-06-16",
+  "last_seen_at": "2026-07-01",
   "_generated": {
     "name": "16d8c3cf",
     "description": "91860985",
@@ -25,7 +25,7 @@
     "tagline": "91860985",
     "modalities": "601e776d",
     "endpoints": "0d745ead",
-    "last_seen_at": "3eed1aa6"
+    "last_seen_at": "97e5b4c6"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-07-08"
 }

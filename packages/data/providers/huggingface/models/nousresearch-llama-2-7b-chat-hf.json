@@ -1,0 +1,37 @@
+{
+  "id": "NousResearch/Llama-2-7b-chat-hf",
+  "name": "Llama-2-7b-chat-hf",
+  "created_by": "nousresearch",
+  "source": "official",
+  "family": "Llama-2",
+  "description": "Llama 2 is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. This is the repository for the 7B fine-tuned model, optimized for dialogue use cases and converted for the Hugging Face Transformers format. Links to other models can be found in the index at the bottom.",
+  "release_date": "2023-07-18",
+  "context_window": 4096,
+  "parameters": 6.7,
+  "page_url": "https://huggingface.co/NousResearch/Llama-2-7b-chat-hf",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "Llama 2 is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "b5f90616",
+    "family": "c17ee5df",
+    "description": "be9085c5",
+    "release_date": "845ab2c2",
+    "context_window": "f7efa4f8",
+    "parameters": "c3e22f2a",
+    "page_url": "b10ed057",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "dfd6e57b",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-08"
+}

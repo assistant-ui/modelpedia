@@ -1,0 +1,30 @@
+{
+  "id": "speakleash/Bielik-11B-v3.0-Instruct",
+  "name": "Bielik-11B-v3.0-Instruct",
+  "created_by": "speakleash",
+  "source": "official",
+  "release_date": "2025-11-07",
+  "license": "apache-2.0",
+  "parameters": 11,
+  "page_url": "https://huggingface.co/speakleash/Bielik-11B-v3.0-Instruct",
+  "architecture": "transformer",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "56236dc8",
+    "release_date": "48f9a637",
+    "license": "60245731",
+    "parameters": "6512bd43",
+    "page_url": "916bf03f",
+    "architecture": "8832ea0f",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-08"
+}

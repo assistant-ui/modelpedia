@@ -3,7 +3,7 @@
   "name": "qwen3.5-flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-07-08",
   "family": "qwen3.5",
   "context_window": 1000000,
   "max_output_tokens": 64000,
@@ -42,7 +42,8 @@
     "tagline": "8f328010",
     "page_url": "6ecc6f25",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "reasoning_tokens": "b326b506"
   },
   "license": "apache-2.0",
   "provider": "qwen",
@@ -50,5 +51,6 @@
   "tagline": "The fastest and most cost-effective model in the Qwen series, ideal for simple tasks.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
   "open_weight": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "reasoning_tokens": true
 }

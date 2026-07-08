@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/trellis-2-lora",
+  "name": "TRELLIS.2 LoRA Inference",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Run inference on LoRA adapters for TRELLIS.2 model",
+  "status": "active",
+  "release_date": "2026-06-23",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/trellis-2-lora",
+  "tagline": "Run inference on LoRA adapters for TRELLIS.2 model",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-07-01",
+  "_generated": {
+    "name": "210b477d",
+    "description": "0db731a4",
+    "status": "379ac110",
+    "release_date": "ecff9cc2",
+    "model_type": "ddb0b7bc",
+    "page_url": "2cd612e7",
+    "tagline": "0db731a4",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "97e5b4c6"
+  },
+  "last_updated": "2026-07-08"
+}

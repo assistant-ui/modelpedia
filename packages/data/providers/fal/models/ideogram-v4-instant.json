@@ -1,0 +1,35 @@
+{
+  "id": "ideogram/v4/instant",
+  "name": "V4.0q [instant]",
+  "created_by": "ideogram",
+  "source": "official",
+  "description": "Generate high-quality images, posters, and logos with Ideogram's latest V4.0q — producing crisp visuals with accurate text rendering, fine detail, and full creative control for polished, ready-to-use ",
+  "status": "active",
+  "release_date": "2026-07-06",
+  "model_type": "image",
+  "page_url": "https://fal.run/ideogram/v4/instant",
+  "tagline": "Generate high-quality images, posters, and logos with Ideogram's latest V4.0q — producing crisp visuals with accurate text rendering, fine detail, and full creative control for polished, ready-to-use ",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-07-06",
+  "_generated": {
+    "name": "5d425210",
+    "description": "7504e7ca",
+    "status": "379ac110",
+    "release_date": "cff7a4d0",
+    "model_type": "db8857fe",
+    "page_url": "d240c906",
+    "tagline": "7504e7ca",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "cff7a4d0"
+  },
+  "last_updated": "2026-07-08"
+}

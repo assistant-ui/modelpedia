@@ -17,7 +17,7 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-05-29",
+  "last_seen_at": "2026-06-30",
   "_generated": {
     "name": "02c80bc5",
     "description": "3e1fdac3",
@@ -29,7 +29,7 @@
     "capabilities": "d3117eb0",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "5afb6eea"
+    "last_seen_at": "ebf8cb32"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-07-08"
 }

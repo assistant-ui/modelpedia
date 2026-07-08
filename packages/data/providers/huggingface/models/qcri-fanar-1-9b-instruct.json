@@ -1,0 +1,32 @@
+{
+  "id": "QCRI/Fanar-1-9B-Instruct",
+  "name": "Fanar-1-9B-Instruct",
+  "created_by": "qcri",
+  "source": "official",
+  "release_date": "2025-06-01",
+  "context_window": 4096,
+  "license": "apache-2.0",
+  "parameters": 8.8,
+  "page_url": "https://huggingface.co/QCRI/Fanar-1-9B-Instruct",
+  "architecture": "transformer",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "4b296877",
+    "release_date": "7cfa33a8",
+    "context_window": "f7efa4f8",
+    "license": "60245731",
+    "parameters": "76da8e16",
+    "page_url": "667796ee",
+    "architecture": "8832ea0f",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-08"
+}

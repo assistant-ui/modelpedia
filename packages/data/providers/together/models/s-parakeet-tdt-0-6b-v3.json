@@ -1,0 +1,23 @@
+{
+  "id": "s/parakeet-tdt-0-6b-v3",
+  "name": "Parakeet Tdt 0 6b V3",
+  "created_by": "unknown",
+  "source": "official",
+  "parameters": 6,
+  "page_url": "https://www.together.ai/models/parakeet-tdt-0-6b-v3",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.0045,
+    "output": 0.0015
+  },
+  "_generated": {
+    "name": "d069ebd2",
+    "parameters": "1679091c",
+    "page_url": "3022bcc0",
+    "capabilities": "0fa77dc6",
+    "pricing": "986dacd8"
+  },
+  "last_updated": "2026-07-08"
+}

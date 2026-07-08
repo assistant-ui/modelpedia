@@ -4,7 +4,7 @@
   "created_by": "google",
   "source": "official",
   "family": "veo-3.0",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "video",
   "license": "proprietary",
   "open_weight": false,
@@ -15,11 +15,19 @@
   "_generated": {
     "name": "7f1d98ab",
     "family": "adc96752",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "4d1b75ca",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "modalities": "94e5e9ab"
+    "modalities": "94e5e9ab",
+    "deprecation_date": "ebf8cb32",
+    "successor": "b7b2c62c"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-07-08",
+  "deprecation_date": "2026-06-30",
+  "successor": [
+    "veo-3.1-fast-generate-preview",
+    "the GA models on the Gemini Enterprise Agent Platf",
+    "m"
+  ]
 }

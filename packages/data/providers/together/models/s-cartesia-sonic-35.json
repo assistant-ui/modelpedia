@@ -1,0 +1,16 @@
+{
+  "id": "s/cartesia-sonic-35",
+  "name": "Cartesia Sonic 35",
+  "created_by": "unknown",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/cartesia-sonic-35",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "f4e39096",
+    "page_url": "3b2bfe0d",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-07-08"
+}

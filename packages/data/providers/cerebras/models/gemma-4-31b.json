@@ -42,7 +42,12 @@
     "endpoints": "772bacef",
     "tools": "f0c1dc7e",
     "model_card_url": "682a4569",
-    "tokens_per_second": "8c3039bd"
+    "tokens_per_second": "8c3039bd",
+    "pricing": "f7bf6ae9"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-08",
+  "pricing": {
+    "input": 0.99,
+    "output": 1.49
+  }
 }

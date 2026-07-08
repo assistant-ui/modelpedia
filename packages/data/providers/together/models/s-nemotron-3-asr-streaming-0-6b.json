@@ -1,0 +1,30 @@
+{
+  "id": "s/nemotron-3-asr-streaming-0-6b",
+  "name": "Nemotron 3 Asr Streaming 0 6b",
+  "created_by": "nvidia",
+  "source": "official",
+  "parameters": 6,
+  "page_url": "https://www.together.ai/models/nemotron-3-asr-streaming-0-6b",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.0045,
+    "output": 0.0015
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "2c3027ff",
+    "parameters": "1679091c",
+    "page_url": "fe7e80dd",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "986dacd8",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-08"
+}

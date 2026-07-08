@@ -1,0 +1,49 @@
+{
+  "id": "anthropic/claude-fable-5",
+  "name": "claude-fable-5",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-fable",
+  "description": "Claude Fable 5 is Anthropic's next generation of intelligence for the hardest knowledge work and coding problems. It works independently for longer than any prior generally available Claude model: run it in an agent harness and it can work for days at a time, planning across stages, delegating to sub-agents, and checking its own work.",
+  "status": "active",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": false,
+  "tagline": "Claude Fable 5 is Anthropic's next generation of intelligence for the hardest knowledge work and coding problems.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 10,
+    "output": 50
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "a6476422",
+    "family": "127f43cd",
+    "description": "9f96131c",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "68934a3e",
+    "tagline": "614e4b3d",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "4aa68eb1",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-07-08"
+}

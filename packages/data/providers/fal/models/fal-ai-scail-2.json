@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/scail-2",
   "tagline": "SCAIL-2 is an end-to-end character animation model that drives a reference character from a source video without relying on intermediate pose representations like skeleton maps.",
-  "last_seen_at": "2026-06-18",
+  "last_seen_at": "2026-07-01",
   "_generated": {
     "name": "b76cb230",
     "description": "2745c9c3",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "0686a649",
     "tagline": "2745c9c3",
-    "last_seen_at": "7ddb29f2"
+    "last_seen_at": "97e5b4c6"
   },
-  "last_updated": "2026-06-20"
+  "last_updated": "2026-07-08"
 }

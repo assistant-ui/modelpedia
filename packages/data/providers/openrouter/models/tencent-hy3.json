@@ -1,0 +1,40 @@
+{
+  "id": "tencent/hy3",
+  "name": "Tencent: Hy3",
+  "created_by": "tencent",
+  "source": "official",
+  "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use.",
+  "release_date": "2026-07-06",
+  "context_window": 262144,
+  "max_output_tokens": 131072,
+  "tagline": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.8,
+    "cached_input": 0.5
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "7905af65",
+    "description": "c71b2b5d",
+    "release_date": "cff7a4d0",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f7de594e",
+    "tagline": "c71b2b5d",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "0a08f018",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-08"
+}

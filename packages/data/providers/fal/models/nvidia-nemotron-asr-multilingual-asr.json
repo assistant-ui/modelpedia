@@ -17,7 +17,7 @@
     "output": ["text"]
   },
   "endpoints": ["audio_transcriptions"],
-  "last_seen_at": "2026-06-10",
+  "last_seen_at": "2026-07-01",
   "_generated": {
     "name": "07eb845f",
     "description": "3b6f387a",
@@ -29,7 +29,7 @@
     "capabilities": "0fa77dc6",
     "modalities": "b8e84832",
     "endpoints": "30248ee0",
-    "last_seen_at": "c4f3ae01"
+    "last_seen_at": "97e5b4c6"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-07-08"
 }

@@ -3,8 +3,8 @@
   "name": "MiniMax M2.5",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "status": "active",
+  "last_updated": "2026-07-08",
+  "status": "deprecated",
   "capabilities": {
     "streaming": true
   },
@@ -16,17 +16,19 @@
   },
   "_generated": {
     "name": "fbc8323f",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "capabilities": "0fa77dc6",
     "pricing": "61b3aa5c",
     "family": "c85916f0",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "deprecation_date": "b45c58db"
   },
   "family": "minimax",
   "model_type": "chat",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "deprecation_date": "2026-08-05"
 }

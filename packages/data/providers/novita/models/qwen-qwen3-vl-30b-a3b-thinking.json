@@ -4,7 +4,7 @@
   "created_by": "alibaba",
   "source": "official",
   "family": "qwen3",
-  "status": "active",
+  "status": "preview",
   "release_date": "2025-10-11",
   "context_window": 131072,
   "max_output_tokens": 32768,
@@ -32,7 +32,7 @@
   "_generated": {
     "name": "52be4ea3",
     "family": "48c385a0",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "b51ed54b",
     "context_window": "f7de594e",
     "max_output_tokens": "f4376436",
@@ -45,5 +45,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-08"
 }

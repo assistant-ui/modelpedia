@@ -1,0 +1,40 @@
+{
+  "id": "aion-labs/aion-3.0",
+  "name": "AionLabs: Aion-3.0",
+  "created_by": "aion-labs",
+  "source": "official",
+  "description": "Aion-3.0 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models.",
+  "release_date": "2026-07-07",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "tagline": "Aion-3.0 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 6,
+    "cached_input": 0.75
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "31c384ad",
+    "description": "028b52fe",
+    "release_date": "4e163554",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f4376436",
+    "tagline": "028b52fe",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "7b46127e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-08"
+}

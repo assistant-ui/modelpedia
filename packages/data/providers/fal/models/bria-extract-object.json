@@ -1,0 +1,35 @@
+{
+  "id": "bria/extract-object",
+  "name": "Extract Object",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Bria Extract Object uses text prompts to isolate a selected object from an image and return it as an RGBA PNG with a transparent background.",
+  "status": "active",
+  "release_date": "2026-06-28",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/extract-object",
+  "tagline": "Bria Extract Object uses text prompts to isolate a selected object from an image and return it as an RGBA PNG with a transparent background.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-06-29",
+  "_generated": {
+    "name": "7b756530",
+    "description": "d3c19199",
+    "status": "379ac110",
+    "release_date": "bde5bfbb",
+    "model_type": "db8857fe",
+    "page_url": "8a58ef65",
+    "tagline": "d3c19199",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "6717d6db"
+  },
+  "last_updated": "2026-07-08"
+}

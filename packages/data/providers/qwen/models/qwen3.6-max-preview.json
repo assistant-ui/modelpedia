@@ -40,8 +40,10 @@
     "capabilities": "04088920",
     "modalities": "68e53d93",
     "endpoints": "75df3f1c",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "reasoning_tokens": "b326b506"
   },
-  "last_updated": "2026-06-03",
-  "tools": ["function_calling"]
+  "last_updated": "2026-07-08",
+  "tools": ["function_calling"],
+  "reasoning_tokens": true
 }

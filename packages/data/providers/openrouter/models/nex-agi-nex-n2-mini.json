@@ -1,0 +1,40 @@
+{
+  "id": "nex-agi/nex-n2-mini",
+  "name": "Nex AGI: Nex-N2-Mini",
+  "created_by": "nex-agi",
+  "source": "official",
+  "description": "Nex-N2-Mini is an open-source agentic mixture-of-experts model from Nex AGI, the smaller sibling in the Nex-N2 series.",
+  "release_date": "2026-06-24",
+  "context_window": 262144,
+  "max_output_tokens": 262144,
+  "tagline": "Nex-N2-Mini is an open-source agentic mixture-of-experts model from Nex AGI, the smaller sibling in the Nex-N2 series.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.025,
+    "output": 0.1,
+    "cached_input": 0.003
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "91e2228f",
+    "description": "8feb41aa",
+    "release_date": "b7ac61f6",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "4a1d32eb",
+    "tagline": "8feb41aa",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "56a3124c",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-08"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "s/parakeet-tdt-0-6b-v3-realtime",
+  "name": "Parakeet Tdt 0 6b V3 Realtime",
+  "created_by": "unknown",
+  "source": "official",
+  "parameters": 6,
+  "page_url": "https://www.together.ai/models/parakeet-tdt-0-6b-v3-realtime",
+  "model_type": "audio",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.0045,
+    "output": 0.0035
+  },
+  "_generated": {
+    "name": "b3b101a3",
+    "parameters": "1679091c",
+    "page_url": "7973c860",
+    "model_type": "9f84c007",
+    "capabilities": "0fa77dc6",
+    "pricing": "f1514512"
+  },
+  "last_updated": "2026-07-08"
+}

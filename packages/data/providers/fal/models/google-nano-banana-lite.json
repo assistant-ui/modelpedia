@@ -1,0 +1,35 @@
+{
+  "id": "google/nano-banana-lite",
+  "name": "Nano Banana Lite",
+  "created_by": "google",
+  "source": "official",
+  "description": "Nano banana lite is the efficiency-focused model in the image generation family.",
+  "status": "active",
+  "release_date": "2026-06-30",
+  "model_type": "image",
+  "page_url": "https://fal.run/google/nano-banana-lite",
+  "tagline": "Nano banana lite is the efficiency-focused model in the image generation family.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-06-30",
+  "_generated": {
+    "name": "3f1dd522",
+    "description": "e931adef",
+    "status": "379ac110",
+    "release_date": "ebf8cb32",
+    "model_type": "db8857fe",
+    "page_url": "f2dc7fca",
+    "tagline": "e931adef",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "ebf8cb32"
+  },
+  "last_updated": "2026-07-08"
+}

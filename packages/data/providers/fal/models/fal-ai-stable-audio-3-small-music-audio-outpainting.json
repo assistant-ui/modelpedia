@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/stable-audio-3/small/music/audio-outpainting",
   "tagline": "Stable Audio 3 Small Music audio outpainting is a 459 million parameter latent diffusion model that extends music compositions beyond their original endpoint via causal continuation.",
-  "last_seen_at": "2026-06-03",
+  "last_seen_at": "2026-07-01",
   "_generated": {
     "name": "2a57f821",
     "description": "92e4545b",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "1c2e1cdd",
     "tagline": "92e4545b",
-    "last_seen_at": "6c186db5"
+    "last_seen_at": "97e5b4c6"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-07-08"
 }

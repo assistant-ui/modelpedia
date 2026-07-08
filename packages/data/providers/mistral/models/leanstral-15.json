@@ -1,0 +1,38 @@
+{
+  "id": "leanstral-15",
+  "name": "leanstral-15",
+  "created_by": "mistral",
+  "source": "official",
+  "description": "An updated Lean 4 formal proof engineering model optimised for automated theorem proving and autoformalization. 119B total parameters, 6.5B active.",
+  "status": "active",
+  "context_window": 256000,
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/model-cards/leanstral-1-5",
+  "tagline": "An updated Lean 4 formal proof engineering model optimised for automated theorem proving and autoformalization.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8f5c175f",
+    "description": "d7fe1e95",
+    "status": "379ac110",
+    "context_window": "2fd324cb",
+    "license": "60245731",
+    "page_url": "5241d5c2",
+    "tagline": "716937d7",
+    "capabilities": "4e827c07",
+    "modalities": "6399757e",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-08"
+}

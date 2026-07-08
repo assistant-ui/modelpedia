@@ -1,0 +1,23 @@
+{
+  "id": "google/nano-banana-2-lite",
+  "name": "Nano Banana 2 Lite",
+  "created_by": "google",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/google/nano-banana-2-lite",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "eef4bdcf",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "08922d49",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-07-08"
+}

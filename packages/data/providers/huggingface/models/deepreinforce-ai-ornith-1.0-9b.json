@@ -1,0 +1,30 @@
+{
+  "id": "deepreinforce-ai/Ornith-1.0-9B",
+  "name": "Ornith-1.0-9B",
+  "created_by": "deepreinforce-ai",
+  "source": "official",
+  "release_date": "2026-06-21",
+  "license": "mit",
+  "parameters": 0,
+  "page_url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B",
+  "architecture": "transformer",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "046f0787",
+    "release_date": "578c5012",
+    "license": "3c4c3ba5",
+    "parameters": "cfcd2084",
+    "page_url": "2e157e9b",
+    "architecture": "8832ea0f",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-08"
+}

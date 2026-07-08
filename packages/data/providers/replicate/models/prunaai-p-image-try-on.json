@@ -1,0 +1,27 @@
+{
+  "id": "prunaai/p-image-try-on",
+  "name": "P Image Try On",
+  "created_by": "prunaai",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/prunaai/p-image-try-on",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "234a8a2e",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "709e0e42",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-07-08"
+}

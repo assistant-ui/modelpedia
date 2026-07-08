@@ -1,0 +1,35 @@
+{
+  "id": "gemini-3-pro-image",
+  "name": "gemini-3-pro-image",
+  "created_by": "novita",
+  "source": "official",
+  "family": "gemini-3",
+  "status": "active",
+  "release_date": "2026-07-03",
+  "model_type": "chat",
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 12
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "1f41d2e6",
+    "family": "eb14e598",
+    "status": "379ac110",
+    "release_date": "cf3023e2",
+    "model_type": "d669f408",
+    "capabilities": "5f5c7516",
+    "modalities": "6399757e",
+    "pricing": "0aef5f9c",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-07-08"
+}
