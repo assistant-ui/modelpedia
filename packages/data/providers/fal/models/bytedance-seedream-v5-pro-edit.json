@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/seedream/v5/pro/edit",
+  "name": "Seedream 5.0 Pro Image Editing",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Seedream 5.0 Pro is grounded, region-precise image editing model that changes one element while keeping the rest of the frame intact with layer separation, sketch completion, and up to 10 reference im",
+  "status": "active",
+  "release_date": "2026-07-07",
+  "model_type": "image",
+  "page_url": "https://fal.run/bytedance/seedream/v5/pro/edit",
+  "tagline": "Seedream 5.0 Pro is grounded, region-precise image editing model that changes one element while keeping the rest of the frame intact with layer separation, sketch completion, and up to 10 reference im",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-07-08",
+  "_generated": {
+    "name": "763b6400",
+    "description": "736036ac",
+    "status": "379ac110",
+    "release_date": "4e163554",
+    "model_type": "db8857fe",
+    "page_url": "6efb64dc",
+    "tagline": "736036ac",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "8f95d981"
+  },
+  "last_updated": "2026-07-09"
+}

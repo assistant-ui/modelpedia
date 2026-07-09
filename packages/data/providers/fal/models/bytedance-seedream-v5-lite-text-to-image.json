@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/seedream/v5/lite/text-to-image",
+  "name": "Seedream",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Text to Image endpoint for the fast Lite version of Seedream 5.0, supporting high quality intelligent text-to-image generation.",
+  "status": "active",
+  "release_date": "2026-07-08",
+  "model_type": "image",
+  "page_url": "https://fal.run/bytedance/seedream/v5/lite/text-to-image",
+  "tagline": "Text to Image endpoint for the fast Lite version of Seedream 5.0, supporting high quality intelligent text-to-image generation.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-07-08",
+  "_generated": {
+    "name": "cd6ab6f1",
+    "description": "3fded29b",
+    "status": "379ac110",
+    "release_date": "8f95d981",
+    "model_type": "db8857fe",
+    "page_url": "482fb83c",
+    "tagline": "3fded29b",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "8f95d981"
+  },
+  "last_updated": "2026-07-09"
+}

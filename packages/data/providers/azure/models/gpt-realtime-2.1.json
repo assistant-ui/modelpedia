@@ -1,0 +1,29 @@
+{
+  "id": "gpt-realtime-2.1",
+  "name": "gpt-realtime-2.1",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-realtime",
+  "description": "Audio models for real-time audio processing. Minor updates over gpt-realtime-2 with improved silence and noise handling.",
+  "knowledge_cutoff": "2024-09",
+  "model_type": "audio",
+  "tagline": "Audio models for real-time audio processing.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "f772ac5b",
+    "family": "f5032d33",
+    "description": "19ac71ca",
+    "knowledge_cutoff": "b0196d6e",
+    "model_type": "9f84c007",
+    "tagline": "41e59229",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-09"
+}

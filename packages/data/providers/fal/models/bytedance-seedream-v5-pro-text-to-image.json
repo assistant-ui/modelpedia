@@ -1,0 +1,38 @@
+{
+  "id": "bytedance/seedream/v5/pro/text-to-image",
+  "name": "Seedream 5.0 Pro Text to Image",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "ByteDance's Seedream 5.0 Pro is flagship text-to-image model, with deep-thinking prompt understanding, native text in 14 languages, and precise control over dense layouts and structured designs.",
+  "status": "active",
+  "release_date": "2026-07-07",
+  "model_type": "image",
+  "page_url": "https://fal.run/bytedance/seedream/v5/pro/text-to-image",
+  "tagline": "ByteDance's Seedream 5.0 Pro is flagship text-to-image model, with deep-thinking prompt understanding, native text in 14 languages, and precise control over dense layouts and structured designs.",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-07-08",
+  "_generated": {
+    "name": "46da1a09",
+    "description": "7bfd3e6d",
+    "status": "379ac110",
+    "release_date": "4e163554",
+    "model_type": "db8857fe",
+    "page_url": "c413d2c4",
+    "tagline": "7bfd3e6d",
+    "capabilities": "d9a4fb45",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "8f95d981"
+  },
+  "last_updated": "2026-07-09"
+}

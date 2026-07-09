@@ -7,7 +7,7 @@
   "description": "GLM 5.2 is a large-scale reasoning model from Z.ai.",
   "release_date": "2026-06-16",
   "context_window": 1048576,
-  "max_output_tokens": 32768,
+  "max_output_tokens": 1048576,
   "model_type": "chat",
   "tagline": "GLM 5.2 is a large-scale reasoning model from Z.ai.",
   "capabilities": {
@@ -21,8 +21,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.93,
-    "output": 3,
+    "input": 0.9,
+    "output": 3.08,
     "cached_input": 0.18
   },
   "tools": ["function_calling"],
@@ -32,13 +32,13 @@
     "description": "241852ce",
     "release_date": "3eed1aa6",
     "context_window": "7d28a051",
-    "max_output_tokens": "f4376436",
+    "max_output_tokens": "7d28a051",
     "model_type": "d669f408",
     "tagline": "241852ce",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
-    "pricing": "78ac7220",
+    "pricing": "77a93439",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-07-09"
 }

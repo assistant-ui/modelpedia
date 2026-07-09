@@ -1,0 +1,16 @@
+{
+  "id": "mewforest/anillustrious-multi-controlnet-lora",
+  "name": "Anillustrious Multi Controlnet Lora",
+  "created_by": "mewforest",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/mewforest/anillustrious-multi-controlnet-lora",
+  "_generated": {
+    "name": "c137c8d5",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "17a32610"
+  },
+  "last_updated": "2026-07-09"
+}
