@@ -11,7 +11,7 @@
   "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx-base",
   "open_weight": true,
   "tagline": "Stable Audio 3 Small Sfx Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "huggingface_downloads": 1515,
+  "huggingface_downloads": 1913,
   "last_modified": "2026-05-20",
   "_generated": {
     "name": "81a44e64",
@@ -23,8 +23,8 @@
     "page_url": "01e67b4a",
     "open_weight": "b326b506",
     "tagline": "ff9b4547",
-    "huggingface_downloads": "bc731692",
+    "huggingface_downloads": "c44799b0",
     "last_modified": "7a81e6e3"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-07-09"
 }

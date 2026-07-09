@@ -1,0 +1,29 @@
+{
+  "id": "openai/gpt-5.6-luna",
+  "name": "Gpt 5.6 Luna",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.6",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://replicate.com/openai/gpt-5.6-luna",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "720b0d88",
+    "family": "c9783e4a",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "ebbe05e0",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-07-09"
+}

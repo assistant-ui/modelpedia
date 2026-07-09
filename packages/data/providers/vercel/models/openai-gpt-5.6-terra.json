@@ -1,0 +1,35 @@
+{
+  "id": "openai/gpt-5.6-terra",
+  "name": "gpt-5.6-terra",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.6",
+  "context_window": 1100000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 15
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d5215155",
+    "family": "c9783e4a",
+    "context_window": "6d81e421",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "cbbdba74",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-09"
+}

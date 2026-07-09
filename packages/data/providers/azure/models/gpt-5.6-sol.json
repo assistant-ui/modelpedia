@@ -1,0 +1,40 @@
+{
+  "id": "gpt-5.6-sol",
+  "name": "gpt-5.6-sol",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.6",
+  "description": "- Reasoning - Responses API . - Chat Completions API. - Structured outputs. - Text and image processing. - Functions, tools, and parallel tool calling. - Computer use - Full summary of capabilities .",
+  "knowledge_cutoff": "2026-06",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "- Reasoning - Responses API .",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "cadec60b",
+    "family": "c9783e4a",
+    "description": "a6a3a584",
+    "knowledge_cutoff": "cb890cbe",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "d4e99fff",
+    "capabilities": "d1034176",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-09"
+}

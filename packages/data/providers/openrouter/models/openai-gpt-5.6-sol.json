@@ -1,0 +1,44 @@
+{
+  "id": "openai/gpt-5.6-sol",
+  "name": "OpenAI: GPT-5.6 Sol",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.6",
+  "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series.",
+  "release_date": "2026-07-09",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 30,
+    "cached_input": 0.5
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "243a1864",
+    "family": "c9783e4a",
+    "description": "b7076a9c",
+    "release_date": "a6aab5b2",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "b7076a9c",
+    "capabilities": "03fbefb4",
+    "modalities": "8b8b28d1",
+    "pricing": "d9234945",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-09"
+}

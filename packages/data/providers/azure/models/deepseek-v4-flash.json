@@ -1,6 +1,6 @@
 {
   "id": "deepseek-v4-flash",
-  "name": "DeepSeek-V4-Flash Preview",
+  "name": "DeepSeek-V4-Flash",
   "created_by": "deepseek",
   "source": "official",
   "family": "deepseek",
@@ -17,12 +17,12 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "d08dfab1",
+    "name": "a570d0cd",
     "family": "4b81b92d",
     "model_type": "d669f408",
     "capabilities": "3181ba37",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-14"
+  "last_updated": "2026-07-09"
 }

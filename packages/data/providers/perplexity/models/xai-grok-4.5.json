@@ -1,0 +1,27 @@
+{
+  "id": "xai/grok-4.5",
+  "name": "xai/grok-4.5",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4.5",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "3ab6a69a",
+    "family": "ce414514",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-09"
+}
