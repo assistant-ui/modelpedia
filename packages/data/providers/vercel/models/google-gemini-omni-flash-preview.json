@@ -1,0 +1,30 @@
+{
+  "id": "google/gemini-omni-flash-preview",
+  "name": "gemini-omni-flash-preview",
+  "created_by": "google",
+  "source": "official",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1.5,
+    "output": 9
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "5df9da7f",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "8d009641",
+    "pricing": "9e6fc751",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-09"
+}

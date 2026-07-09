@@ -1,0 +1,23 @@
+{
+  "id": "philip-kiely",
+  "name": "philip-kiely",
+  "created_by": "microsoft",
+  "source": "official",
+  "open_weight": true,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "69abcaaf",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-09"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "seedream-5.0-pro",
+  "name": "Seedream 5.0 Pro",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A multimodal image generation model that features advanced reasoning and efficient content creation.",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://seed.bytedance.com/en/seedream5_0_pro",
+  "tagline": "A multimodal image generation model that features advanced reasoning and efficient content creation.",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "e2b29125",
+    "description": "3775fc23",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "a3fdb3ef",
+    "tagline": "3775fc23",
+    "capabilities": "da15458e",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-07-09"
+}

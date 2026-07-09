@@ -1,0 +1,45 @@
+{
+  "id": "IlyaGusev/gemma-2-2b-it-abliterated",
+  "name": "gemma-2-2b-it-abliterated",
+  "created_by": "ilyagusev",
+  "source": "official",
+  "family": "gemma-2",
+  "description": "[Abliterated](https://huggingface.co/blog/mlabonne/abliteration) version of [google/gemma-2-2b-it](https://huggingface.co/google/gemma-2-2b-it).",
+  "release_date": "2024-07-31",
+  "context_window": 8192,
+  "license": "gemma",
+  "parameters": 2.6,
+  "page_url": "https://huggingface.co/IlyaGusev/gemma-2-2b-it-abliterated",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "[Abliterated](https://huggingface.co/blog/mlabonne/abliteration) version of [google/gemma-2-2b-it](https://huggingface.co/google/gemma-2-2b-it).",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "580449d4",
+    "family": "e8114e3e",
+    "description": "c700565f",
+    "release_date": "0dc61de2",
+    "context_window": "77441296",
+    "license": "3fe02b16",
+    "parameters": "d0e5f276",
+    "page_url": "2413477f",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "c700565f",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-09"
+}

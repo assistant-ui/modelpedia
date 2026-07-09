@@ -1,0 +1,29 @@
+{
+  "id": "gpt-realtime-translate",
+  "name": "gpt-realtime-translate",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-realtime",
+  "description": "Audio model for real-time multilingual translation with translated speech and text output.",
+  "knowledge_cutoff": "2024-09",
+  "model_type": "audio",
+  "tagline": "Audio model for real-time multilingual translation with translated speech and text output.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "09f1aaa6",
+    "family": "f5032d33",
+    "description": "868a4a44",
+    "knowledge_cutoff": "b0196d6e",
+    "model_type": "9f84c007",
+    "tagline": "868a4a44",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-09"
+}

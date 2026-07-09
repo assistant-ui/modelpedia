@@ -1,0 +1,29 @@
+{
+  "id": "@cf/moondream/moondream3.1-9B-A2B",
+  "name": "moondream3.1-9B-A2B",
+  "created_by": "moondream",
+  "source": "official",
+  "status": "active",
+  "model_type": "classification",
+  "parameters": 9,
+  "active_parameters": 2,
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#moondream3.1-9B-A2B",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "vision": true
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b06db4b0",
+    "status": "379ac110",
+    "model_type": "b815fc69",
+    "parameters": "45c48cce",
+    "active_parameters": "c81e728d",
+    "page_url": "b8ddf642",
+    "capabilities": "45192957",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-09"
+}

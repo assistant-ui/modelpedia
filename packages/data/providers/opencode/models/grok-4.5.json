@@ -1,0 +1,25 @@
+{
+  "id": "grok-4.5",
+  "name": "Grok 4.5",
+  "created_by": "unknown",
+  "source": "official",
+  "family": "grok-4.5",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "3b3306ef",
+    "family": "ce414514",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-09"
+}

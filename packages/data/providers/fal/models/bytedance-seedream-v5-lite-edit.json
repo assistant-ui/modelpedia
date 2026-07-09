@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/seedream/v5/lite/edit",
+  "name": "Seedream",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Image editing endpoint for the fast Lite version of Seedream 5.0, supporting high quality intelligent image editing with multiple inputs.",
+  "status": "active",
+  "release_date": "2026-07-08",
+  "model_type": "image",
+  "page_url": "https://fal.run/bytedance/seedream/v5/lite/edit",
+  "tagline": "Image editing endpoint for the fast Lite version of Seedream 5.0, supporting high quality intelligent image editing with multiple inputs.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-07-08",
+  "_generated": {
+    "name": "cd6ab6f1",
+    "description": "709fc220",
+    "status": "379ac110",
+    "release_date": "8f95d981",
+    "model_type": "db8857fe",
+    "page_url": "51aba7f7",
+    "tagline": "709fc220",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "8f95d981"
+  },
+  "last_updated": "2026-07-09"
+}
