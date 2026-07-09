@@ -17,11 +17,11 @@
     "vision": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "endpoints": ["chat_completions"],
-  "huggingface_downloads": 1660,
+  "huggingface_downloads": 1460,
   "last_modified": "2024-07-10",
   "_generated": {
     "name": "7f328791",
@@ -34,10 +34,10 @@
     "open_weight": "b326b506",
     "tagline": "d2fc5b94",
     "capabilities": "98ea92bd",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "endpoints": "d8fa1080",
-    "huggingface_downloads": "9a440050",
+    "huggingface_downloads": "07042ac7",
     "last_modified": "2d84b9f9"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-08"
 }

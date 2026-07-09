@@ -3,7 +3,7 @@
   "name": "qwen3.5-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-07-08",
   "family": "qwen3.5",
   "context_window": 1000000,
   "model_type": "chat",
@@ -35,7 +35,8 @@
     "page_url": "6ecc6f25",
     "open_weight": "68934a3e",
     "max_output_tokens": "762e98db",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "reasoning_tokens": "b326b506"
   },
   "license": "proprietary",
   "provider": "qwen",
@@ -44,5 +45,6 @@
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
   "open_weight": false,
   "max_output_tokens": 64000,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "reasoning_tokens": true
 }

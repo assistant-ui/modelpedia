@@ -1,0 +1,36 @@
+{
+  "id": "typhoon-ai/typhoon2.5-qwen3-4b",
+  "name": "typhoon2.5-qwen3-4b",
+  "created_by": "typhoon-ai",
+  "source": "official",
+  "description": "**Typhoon2.5-Qwen3-4B**: Thai Large Language Model (Instruct)",
+  "release_date": "2025-09-23",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "parameters": 4,
+  "page_url": "https://huggingface.co/typhoon-ai/typhoon2.5-qwen3-4b",
+  "architecture": "transformer",
+  "tagline": "**Typhoon2.5-Qwen3-4B**: Thai Large Language Model (Instruct)",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d8934b65",
+    "description": "61c4163d",
+    "release_date": "142ddad6",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "parameters": "a87ff679",
+    "page_url": "dcdd6a72",
+    "architecture": "8832ea0f",
+    "tagline": "61c4163d",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-08"
+}

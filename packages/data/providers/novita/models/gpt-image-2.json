@@ -1,0 +1,35 @@
+{
+  "id": "gpt-image-2",
+  "name": "gpt-image-2",
+  "created_by": "novita",
+  "source": "official",
+  "family": "gpt-image-2",
+  "status": "active",
+  "release_date": "2026-07-03",
+  "model_type": "chat",
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 30
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "c79be345",
+    "family": "c79be345",
+    "status": "379ac110",
+    "release_date": "cf3023e2",
+    "model_type": "d669f408",
+    "capabilities": "5f5c7516",
+    "modalities": "6399757e",
+    "pricing": "6d28a2f6",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-07-08"
+}

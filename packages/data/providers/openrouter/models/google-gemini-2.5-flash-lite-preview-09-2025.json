@@ -3,7 +3,7 @@
   "name": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-04-03",
+  "last_updated": "2026-07-08",
   "family": "gemini-2.5",
   "description": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency.",
   "context_window": 1048576,
@@ -35,10 +35,14 @@
     "model_type": "d669f408",
     "release_date": "2c81b69f",
     "tagline": "35251cdb",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc",
+    "deprecation_date": "a6aab5b2"
   },
   "model_type": "chat",
   "release_date": "2025-09-25",
   "tagline": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated",
+  "deprecation_date": "2026-07-09"
 }

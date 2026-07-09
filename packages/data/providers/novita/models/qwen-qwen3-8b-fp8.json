@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen3",
   "description": "Achieves effective integration of reasoning and non-reasoning modes, allowing seamless mode switching during conversations.",
-  "status": "active",
+  "status": "preview",
   "release_date": "2025-04-29",
   "context_window": 128000,
   "max_output_tokens": 20000,
@@ -29,7 +29,7 @@
     "name": "d121c138",
     "family": "48c385a0",
     "description": "7a98ff5f",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "8e2eb0db",
     "context_window": "34434798",
     "max_output_tokens": "d9798cdf",
@@ -41,5 +41,5 @@
     "pricing": "c8e0d2ff",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-08"
 }

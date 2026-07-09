@@ -5,7 +5,7 @@
   "source": "official",
   "family": "deepseek-r1",
   "description": "DeepSeek R1 Distill Qwen 14B is a distilled large language model based on Qwen 2.5 14B, using outputs from DeepSeek R1.",
-  "status": "active",
+  "status": "preview",
   "release_date": "2025-02-02",
   "context_window": 32768,
   "max_output_tokens": 16384,
@@ -28,7 +28,7 @@
     "name": "58b62139",
     "family": "c74cfb8e",
     "description": "297fc833",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "a68fd042",
     "context_window": "f4376436",
     "max_output_tokens": "c76fe1d8",
@@ -40,5 +40,5 @@
     "pricing": "16a72b67",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-08"
 }

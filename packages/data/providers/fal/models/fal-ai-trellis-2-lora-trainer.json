@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/trellis-2-lora-trainer",
+  "name": "TRELLIS.2 Trainer",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Train LoRA adapters for TRELLIS.2 model",
+  "status": "active",
+  "release_date": "2026-06-23",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/trellis-2-lora-trainer",
+  "tagline": "Train LoRA adapters for TRELLIS.2 model",
+  "last_seen_at": "2026-07-06",
+  "_generated": {
+    "name": "153858e2",
+    "description": "cbfe640c",
+    "status": "379ac110",
+    "release_date": "ecff9cc2",
+    "model_type": "ddb0b7bc",
+    "page_url": "6f46d38c",
+    "tagline": "cbfe640c",
+    "last_seen_at": "cff7a4d0"
+  },
+  "last_updated": "2026-07-08"
+}

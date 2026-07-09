@@ -1,0 +1,31 @@
+{
+  "id": "kimi-k2.7-code",
+  "name": "Kimi K2.7 Code",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k2.7",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.95,
+    "output": 4,
+    "cached_input": 0.19
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "595b21af",
+    "family": "4bc6ec57",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "68dcb9a6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-08"
+}

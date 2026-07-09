@@ -1,0 +1,18 @@
+{
+  "id": "s/seedance-2-0",
+  "name": "Seedance 2 0",
+  "created_by": "unknown",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/seedance-2-0",
+  "model_type": "video",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "9b8a727f",
+    "page_url": "d3fe55f4",
+    "model_type": "4d1b75ca",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-07-08"
+}

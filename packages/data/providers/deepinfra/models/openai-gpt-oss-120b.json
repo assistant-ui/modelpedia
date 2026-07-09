@@ -3,7 +3,7 @@
   "name": "gpt-oss-120b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-08",
   "family": "gpt-oss",
   "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. The model supports configurable reasoning depth, full chain-of-thought access, and native tool use, including function calling, browsing, and structured output generation.",
   "status": "active",
@@ -24,8 +24,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.039,
-    "output": 0.19
+    "input": 0.037,
+    "output": 0.17
   },
   "tools": ["function_calling"],
   "endpoints": ["chat_completions"],
@@ -43,7 +43,7 @@
     "license": "9186c466",
     "capabilities": "a17ad43b",
     "modalities": "68e53d93",
-    "pricing": "d8fe08c4",
+    "pricing": "1d407b08",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "45ae6e17",

@@ -1,0 +1,40 @@
+{
+  "id": "aion-labs/aion-3.0-mini",
+  "name": "AionLabs: Aion-3.0-Mini",
+  "created_by": "aion-labs",
+  "source": "official",
+  "description": "Aion-3.0 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the DeepSeek family of models.",
+  "release_date": "2026-07-07",
+  "context_window": 131072,
+  "max_output_tokens": 32768,
+  "tagline": "Aion-3.0 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the DeepSeek family of models.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.7,
+    "output": 1.4,
+    "cached_input": 0.18
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e71ae337",
+    "description": "ee2896f4",
+    "release_date": "4e163554",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f4376436",
+    "tagline": "ee2896f4",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "d2199d78",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-08"
+}

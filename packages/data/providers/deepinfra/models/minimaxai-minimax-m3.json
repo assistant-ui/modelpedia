@@ -1,0 +1,52 @@
+{
+  "id": "MiniMaxAI/MiniMax-M3",
+  "name": "MiniMax-M3",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax-M3 is a native multimodal model with 1M context. It has ~428B parameters and ~23B activated parameters.",
+  "status": "active",
+  "context_window": 524288,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "minimax",
+  "open_weight": true,
+  "tagline": "MiniMax-M3 is a native multimodal model with 1M context.",
+  "capabilities": {
+    "tool_call": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2,
+    "cached_input": 0.06
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "fdf91d1b",
+    "family": "c85916f0",
+    "description": "bc3cd9fc",
+    "status": "379ac110",
+    "context_window": "bcabf6a1",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "c85916f0",
+    "open_weight": "b326b506",
+    "tagline": "f4ff088a",
+    "capabilities": "b70fac65",
+    "modalities": "6399757e",
+    "pricing": "0c734839",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-07-08"
+}

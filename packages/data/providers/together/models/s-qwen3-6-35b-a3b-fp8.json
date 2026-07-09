@@ -1,0 +1,36 @@
+{
+  "id": "s/qwen3-6-35b-a3b-fp8",
+  "name": "Qwen3 6 35b A3b Fp8",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3",
+  "context_window": 262000,
+  "parameters": 35,
+  "active_parameters": 3,
+  "page_url": "https://www.together.ai/models/qwen3-6-35b-a3b-fp8",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.95,
+    "output": 4
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "271a9a27",
+    "family": "48c385a0",
+    "context_window": "4ed74017",
+    "parameters": "1c383cd3",
+    "active_parameters": "eccbc87e",
+    "page_url": "29e0bc5d",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "f2c3ebbf",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-08"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "google/gemini-omni-flash/image-to-video",
+  "name": "Gemini Omni Flash",
+  "created_by": "google",
+  "source": "official",
+  "description": "Animates a still image into video with audio.",
+  "status": "active",
+  "release_date": "2026-06-30",
+  "model_type": "video",
+  "page_url": "https://fal.run/google/gemini-omni-flash/image-to-video",
+  "tagline": "Animates a still image into video with audio.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-07-01",
+  "_generated": {
+    "name": "072afc72",
+    "description": "982a3a7d",
+    "status": "379ac110",
+    "release_date": "ebf8cb32",
+    "model_type": "4d1b75ca",
+    "page_url": "d63a9318",
+    "tagline": "982a3a7d",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "97e5b4c6"
+  },
+  "last_updated": "2026-07-08"
+}

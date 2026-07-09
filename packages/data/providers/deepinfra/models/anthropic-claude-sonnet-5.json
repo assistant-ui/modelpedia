@@ -1,0 +1,49 @@
+{
+  "id": "anthropic/claude-sonnet-5",
+  "name": "claude-sonnet-5",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-sonnet",
+  "description": "Claude Sonnet 5 is Anthropic's most capable Sonnet model yet, built for coding, agents, and professional work at scale. It brings near-Opus intelligence to the model teams run at scale every day, with the same balance of capability, cost, and speed teams already rely on Sonnet for.",
+  "status": "active",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": false,
+  "tagline": "Claude Sonnet 5 is Anthropic's most capable Sonnet model yet, built for coding, agents, and professional work at scale.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 10
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "72613a07",
+    "family": "68d1c457",
+    "description": "4fa2b7d6",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "68934a3e",
+    "tagline": "49262783",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "783da94d",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-07-08"
+}

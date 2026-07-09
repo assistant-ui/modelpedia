@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen3",
   "description": "Qwen3-Next uses a highly sparse MoE design: 80B total parameters, but only ~3B activated per inference step.",
-  "status": "active",
+  "status": "preview",
   "release_date": "2025-09-10",
   "context_window": 131072,
   "max_output_tokens": 32768,
@@ -32,7 +32,7 @@
     "name": "c4516e00",
     "family": "48c385a0",
     "description": "6a5c8f6d",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "6b120f3c",
     "context_window": "f7de594e",
     "max_output_tokens": "f4376436",
@@ -46,5 +46,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-08"
 }

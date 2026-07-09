@@ -3,7 +3,7 @@
   "name": "claude-fable-5",
   "created_by": "anthropic",
   "source": "official",
-  "family": "claude",
+  "family": "claude-fable",
   "context_window": 1000000,
   "model_type": "chat",
   "capabilities": {
@@ -23,7 +23,7 @@
   "tools": ["function_calling"],
   "_generated": {
     "name": "a6476422",
-    "family": "c529ee89",
+    "family": "127f43cd",
     "context_window": "8155bc54",
     "model_type": "d669f408",
     "capabilities": "a19166f1",
@@ -31,5 +31,5 @@
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-07-08"
 }

@@ -1,0 +1,36 @@
+{
+  "id": "Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24",
+  "name": "Vikhr-Nemo-12B-Instruct-R-21-09-24",
+  "created_by": "vikhrmodels",
+  "source": "official",
+  "description": "[Reame.md in English](Readme_en.md)",
+  "release_date": "2024-09-20",
+  "context_window": 1024000,
+  "license": "apache-2.0",
+  "parameters": 12,
+  "page_url": "https://huggingface.co/Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24",
+  "architecture": "transformer",
+  "tagline": "[Reame.md in English](Readme_en.md)",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "0d1ee5bf",
+    "description": "8449b147",
+    "release_date": "4a8401c2",
+    "context_window": "7695f674",
+    "license": "60245731",
+    "parameters": "c20ad4d7",
+    "page_url": "bd556850",
+    "architecture": "8832ea0f",
+    "tagline": "8449b147",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-08"
+}

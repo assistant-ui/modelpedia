@@ -1,0 +1,54 @@
+{
+  "id": "gemini-omni-flash",
+  "name": "gemini-omni-flash",
+  "created_by": "google",
+  "source": "official",
+  "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini Omni Flash Note: Gemini Omni Flash is in preview . Gemini Omni Flash is a preview model designed for fast, conversational video generation and editing. It excels at turning text and images into video, lets you refine and edit generated videos through natural language conversations using the Interactions API.",
+  "status": "active",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "license": "proprietary",
+  "tagline": "The Interactions API is now generally available.",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.5,
+    "output": 9,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.5, null, 9]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "2af64791",
+    "description": "5d912967",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "tagline": "9fee8828",
+    "open_weight": "68934a3e",
+    "capabilities": "8a3b232e",
+    "modalities": "3ad4060a",
+    "pricing": "eb961e11",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-07-08"
+}

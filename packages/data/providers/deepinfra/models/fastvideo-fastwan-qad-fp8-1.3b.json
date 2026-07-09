@@ -1,0 +1,29 @@
+{
+  "id": "FastVideo/FastWan-QAD-FP8-1.3B",
+  "name": "FastWan-QAD-FP8-1.3B",
+  "created_by": "fastvideo",
+  "source": "official",
+  "description": "A fast, compact 480p text-to-video model — 5-second clips (landscape or portrait) from a text prompt. A 3-step, FP8 quantization-aware distillation of Wan2.1-T2V-1.3B by FastVideo (Hao AI Lab).",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": true,
+  "tagline": "A fast, compact 480p text-to-video model — 5-second clips (landscape or portrait) from a text prompt.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["$0.0025 / second (480p)"],
+  "_generated": {
+    "name": "65ba7e3f",
+    "description": "97d44767",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "b326b506",
+    "tagline": "12db859f",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "0b07b10f"
+  },
+  "last_updated": "2026-07-08"
+}

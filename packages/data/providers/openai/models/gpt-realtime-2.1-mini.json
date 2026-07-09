@@ -1,0 +1,95 @@
+{
+  "id": "gpt-realtime-2.1-mini",
+  "name": "GPT-Realtime-2.1 mini",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-realtime",
+  "description": "GPT-Realtime-2.1 mini is a distilled reasoning model for faster, lower-cost realtime voice interactions. It supports audio and text inputs over WebRTC, WebSocket, or SIP connections and improves alphanumeric recognition over GPT-Realtime-2.",
+  "status": "active",
+  "model_type": "reasoning",
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "performance": 4,
+  "reasoning": 4,
+  "speed": 5,
+  "tagline": "Reasoning model with tool use",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-realtime-2.1-mini",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": false,
+    "vision": false,
+    "tool_call": true,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "audio", "image"],
+    "output": ["text", "audio"]
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 2.4,
+    "cached_input": 0.06,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.6, 0.06, 2.4]
+          }
+        ]
+      },
+      {
+        "label": "Audio tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [10, 0.3, 20]
+          }
+        ]
+      },
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.8, 0.08, null]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["realtime"],
+  "snapshots": ["gpt-realtime-2.1-mini"],
+  "_generated": {
+    "name": "36a02242",
+    "family": "f5032d33",
+    "description": "95a9c9da",
+    "status": "379ac110",
+    "model_type": "17475f7f",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "performance": "a87ff679",
+    "reasoning": "a87ff679",
+    "speed": "e4da3b7f",
+    "tagline": "25345ca4",
+    "page_url": "36ed6b45",
+    "open_weight": "68934a3e",
+    "capabilities": "d16fa23e",
+    "modalities": "96cad1df",
+    "pricing": "dffaf5b0",
+    "tools": "f0c1dc7e",
+    "endpoints": "c7ed7203"
+  },
+  "last_updated": "2026-07-08"
+}

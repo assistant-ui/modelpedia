@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx-2.3-quality/extend-video",
+  "name": "Ltx 2.3 Quality",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Extend high-quality video with audio from input video using LTX-2.3",
+  "status": "active",
+  "release_date": "2026-07-07",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx-2.3-quality/extend-video",
+  "tagline": "Extend high-quality video with audio from input video using LTX-2.3",
+  "last_seen_at": "2026-07-07",
+  "_generated": {
+    "name": "a69880de",
+    "description": "1846cc3f",
+    "status": "379ac110",
+    "release_date": "4e163554",
+    "model_type": "ddb0b7bc",
+    "page_url": "9ef81767",
+    "tagline": "1846cc3f",
+    "last_seen_at": "4e163554"
+  },
+  "last_updated": "2026-07-08"
+}

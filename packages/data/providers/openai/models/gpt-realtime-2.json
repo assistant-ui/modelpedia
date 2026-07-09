@@ -15,7 +15,7 @@
   "performance": 5,
   "reasoning": 5,
   "speed": 4,
-  "tagline": "Reasoning model for realtime voice interactions",
+  "tagline": "Reasoning model with tool use",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-realtime-2",
   "open_weight": false,
   "capabilities": {
@@ -91,7 +91,7 @@
     "performance": "e4da3b7f",
     "reasoning": "e4da3b7f",
     "speed": "a87ff679",
-    "tagline": "654d137c",
+    "tagline": "25345ca4",
     "page_url": "8e1de665",
     "open_weight": "68934a3e",
     "capabilities": "d16fa23e",
@@ -101,5 +101,5 @@
     "endpoints": "c7ed7203",
     "pricing_notes": "36e7634a"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-07-08"
 }

@@ -1,0 +1,16 @@
+{
+  "id": "s/happyhorse-1-0-i2v",
+  "name": "Happyhorse 1 0 I2v",
+  "created_by": "unknown",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/happyhorse-1-0-i2v",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "4b09e946",
+    "page_url": "bf2513dc",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-07-08"
+}

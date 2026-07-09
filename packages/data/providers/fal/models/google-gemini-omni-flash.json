@@ -1,0 +1,31 @@
+{
+  "id": "google/gemini-omni-flash",
+  "name": "Gemini Omni Flash",
+  "created_by": "google",
+  "source": "official",
+  "description": "Creates video with synchronized audio from text input.",
+  "status": "active",
+  "release_date": "2026-06-30",
+  "model_type": "video",
+  "page_url": "https://fal.run/google/gemini-omni-flash",
+  "tagline": "Creates video with synchronized audio from text input.",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-07-01",
+  "_generated": {
+    "name": "072afc72",
+    "description": "28dcde13",
+    "status": "379ac110",
+    "release_date": "ebf8cb32",
+    "model_type": "4d1b75ca",
+    "page_url": "c0602034",
+    "tagline": "28dcde13",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "97e5b4c6"
+  },
+  "last_updated": "2026-07-08"
+}
