@@ -1,0 +1,44 @@
+{
+  "id": "openai/gpt-5.6-luna-pro",
+  "name": "OpenAI: GPT-5.6 Luna Pro",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.6",
+  "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.",
+  "release_date": "2026-07-09",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 6,
+    "cached_input": 0.1
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "78658ff2",
+    "family": "c9783e4a",
+    "description": "7d3f698e",
+    "release_date": "a6aab5b2",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "7d3f698e",
+    "capabilities": "03fbefb4",
+    "modalities": "8b8b28d1",
+    "pricing": "2cd1ef42",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-09"
+}

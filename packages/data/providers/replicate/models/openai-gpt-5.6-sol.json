@@ -1,0 +1,29 @@
+{
+  "id": "openai/gpt-5.6-sol",
+  "name": "Gpt 5.6 Sol",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.6",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://replicate.com/openai/gpt-5.6-sol",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "1b716e86",
+    "family": "c9783e4a",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "d2cadfa6",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-07-09"
+}

@@ -89,7 +89,13 @@
     "modalities": "96cad1df",
     "pricing": "dffaf5b0",
     "tools": "f0c1dc7e",
-    "endpoints": "c7ed7203"
+    "endpoints": "c7ed7203",
+    "knowledge_cutoff": "b0196d6e",
+    "context_window": "34434798",
+    "max_output_tokens": "10e4d788"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-07-09",
+  "knowledge_cutoff": "2024-09",
+  "context_window": 128000,
+  "max_output_tokens": 32000
 }

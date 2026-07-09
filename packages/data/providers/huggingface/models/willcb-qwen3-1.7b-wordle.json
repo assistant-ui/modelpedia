@@ -1,0 +1,38 @@
+{
+  "id": "willcb/Qwen3-1.7B-Wordle",
+  "name": "Qwen3-1.7B-Wordle",
+  "created_by": "willcb",
+  "source": "official",
+  "description": "This model is a fine-tuned version of [willcb/Qwen3-1.7B](https://huggingface.co/willcb/Qwen3-1.7B). It has been trained using [TRL](https://github.com/huggingface/trl).",
+  "release_date": "2025-07-13",
+  "context_window": 40960,
+  "parameters": 1.7,
+  "page_url": "https://huggingface.co/willcb/Qwen3-1.7B-Wordle",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "This model is a fine-tuned version of [willcb/Qwen3-1.7B](https://huggingface.co/willcb/Qwen3-1.7B).",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "cd9499f8",
+    "description": "03b26712",
+    "release_date": "fdeb5c20",
+    "context_window": "a422a18c",
+    "parameters": "7fd3cdaa",
+    "page_url": "f2af2f40",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "a10516dc",
+    "capabilities": "48995a4e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-09"
+}

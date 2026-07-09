@@ -1,0 +1,27 @@
+{
+  "id": "gpt-5.6",
+  "name": "GPT-5.6 series",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.6",
+  "description": "NEW gpt-5.6-sol , gpt-5.6-terra , gpt-5.6-luna Preview",
+  "model_type": "chat",
+  "tagline": "NEW gpt-5.6-sol , gpt-5.6-terra , gpt-5.6-luna Preview",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "39c9ecdf",
+    "family": "c9783e4a",
+    "description": "7599c94e",
+    "model_type": "d669f408",
+    "tagline": "7599c94e",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-09"
+}

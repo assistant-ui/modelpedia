@@ -1,0 +1,76 @@
+{
+  "id": "gpt-5.6-luna",
+  "name": "gpt-5.6-luna",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.6",
+  "status": "active",
+  "knowledge_cutoff": "2026-02",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "max_input_tokens": 922000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "performance": 3,
+  "reasoning": 3,
+  "speed": 4,
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "fine_tuning": false,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 6,
+    "cached_input": 0.1,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1, 0.1, 6]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["responses", "chat_completions", "batch"],
+  "_generated": {
+    "name": "dc307f2f",
+    "family": "c9783e4a",
+    "status": "379ac110",
+    "knowledge_cutoff": "911f4737",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "9399a9ae",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "performance": "eccbc87e",
+    "reasoning": "eccbc87e",
+    "speed": "a87ff679",
+    "page_url": "289efccc",
+    "open_weight": "68934a3e",
+    "capabilities": "15adcda2",
+    "modalities": "6399757e",
+    "pricing": "011b75e5",
+    "tools": "f0c1dc7e",
+    "endpoints": "88e8abb4"
+  },
+  "last_updated": "2026-07-09"
+}
