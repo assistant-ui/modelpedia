@@ -1,0 +1,24 @@
+{
+  "id": "fireworks/bge-m3",
+  "name": "bge-m3",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 8190,
+  "page_url": "https://fireworks.ai/models/fireworks/bge-m3",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "_generated": {
+    "name": "9815efb3",
+    "context_window": "16bb35ba",
+    "page_url": "661fe9b6",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e"
+  },
+  "last_updated": "2026-07-12"
+}
