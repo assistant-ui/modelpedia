@@ -1,0 +1,16 @@
+{
+  "id": "sync/lipsync-2",
+  "name": "Lipsync 2",
+  "created_by": "sync",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/sync/lipsync-2",
+  "_generated": {
+    "name": "62d4977d",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "73bb5487"
+  },
+  "last_updated": "2026-07-12"
+}

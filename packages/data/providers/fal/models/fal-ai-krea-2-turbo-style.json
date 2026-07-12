@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/krea-2/turbo/style",
+  "name": "Krea 2 Text to Image Turbo Style",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Generate high-fidelity images from text with Krea 2 using a style reference image.",
+  "status": "active",
+  "release_date": "2026-07-10",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/krea-2/turbo/style",
+  "tagline": "Generate high-fidelity images from text with Krea 2 using a style reference image.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-07-10",
+  "_generated": {
+    "name": "39970e75",
+    "description": "8d2ef569",
+    "status": "379ac110",
+    "release_date": "cc3b8614",
+    "model_type": "db8857fe",
+    "page_url": "38028ff8",
+    "tagline": "8d2ef569",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "cc3b8614"
+  },
+  "last_updated": "2026-07-12"
+}

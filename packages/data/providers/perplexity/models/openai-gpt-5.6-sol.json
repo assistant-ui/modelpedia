@@ -1,0 +1,27 @@
+{
+  "id": "openai/gpt-5.6-sol",
+  "name": "openai/gpt-5.6-sol",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.6",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "e68ac657",
+    "family": "c9783e4a",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-12"
+}

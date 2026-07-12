@@ -1,0 +1,37 @@
+{
+  "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+  "name": "Venice: Uncensored",
+  "created_by": "cognitivecomputations",
+  "source": "official",
+  "description": "Venice Uncensored Dolphin Mistral 24B Venice Edition is a fine-tuned variant of Mistral-Small-24B-Instruct-2501, developed by dphn.ai in collaboration with Venice.ai.",
+  "release_date": "2025-07-09",
+  "context_window": 128000,
+  "max_output_tokens": 8192,
+  "parameters": 24,
+  "tagline": "Venice Uncensored Dolphin Mistral 24B Venice Edition is a fine-tuned variant of Mistral-Small-24B-Instruct-2501, developed by dphn.ai in collaboration with Venice.ai.",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.9
+  },
+  "_generated": {
+    "name": "51e5808a",
+    "description": "64cf91c8",
+    "release_date": "0ebd8cbe",
+    "context_window": "34434798",
+    "max_output_tokens": "77441296",
+    "parameters": "1ff1de77",
+    "tagline": "64cf91c8",
+    "capabilities": "dbb5b7fe",
+    "modalities": "68e53d93",
+    "pricing": "594c5f0b"
+  },
+  "last_updated": "2026-07-12"
+}

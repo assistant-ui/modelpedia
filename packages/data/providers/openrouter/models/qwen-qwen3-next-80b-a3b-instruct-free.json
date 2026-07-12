@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-12",
   "family": "qwen3",
   "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces.",
   "context_window": 262144,
@@ -28,12 +28,16 @@
     "active_parameters": "eccbc87e",
     "release_date": "ae7f2c44",
     "tagline": "b1ef027d",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc",
+    "deprecation_date": "55d9c168"
   },
   "model_type": "chat",
   "parameters": 80,
   "active_parameters": 3,
   "release_date": "2025-09-11",
   "tagline": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated",
+  "deprecation_date": "2026-07-19"
 }
