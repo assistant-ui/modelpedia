@@ -1,0 +1,35 @@
+{
+  "id": "bria/product-dimensions",
+  "name": "Bria Product Dimensions",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Bria Product Dimensions turns one product photo and its measurements into a marketplace-ready dimension image with callout lines, labels, and weight or capacity readouts",
+  "status": "active",
+  "release_date": "2026-07-13",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/product-dimensions",
+  "tagline": "Bria Product Dimensions turns one product photo and its measurements into a marketplace-ready dimension image with callout lines, labels, and weight or capacity readouts",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-07-15",
+  "_generated": {
+    "name": "d288eead",
+    "description": "eac4fcd1",
+    "status": "379ac110",
+    "release_date": "a393f093",
+    "model_type": "db8857fe",
+    "page_url": "c6529bb8",
+    "tagline": "eac4fcd1",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "c65392cc"
+  },
+  "last_updated": "2026-07-17"
+}

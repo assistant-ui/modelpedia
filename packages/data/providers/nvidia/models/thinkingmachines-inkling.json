@@ -1,0 +1,14 @@
+{
+  "id": "thinkingmachines/inkling",
+  "name": "inkling",
+  "created_by": "thinkingmachines",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "6738f66c",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-07-17"
+}

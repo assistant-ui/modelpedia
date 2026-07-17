@@ -1,0 +1,35 @@
+{
+  "id": "reve/2.1/edit",
+  "name": "Reve 2.1",
+  "created_by": "reve",
+  "source": "official",
+  "description": "Edit images from text prompts with strong prompt adherence, layout intelligence, and accurate text rendering using Reve 2.1",
+  "status": "active",
+  "release_date": "2026-07-13",
+  "model_type": "image",
+  "page_url": "https://fal.run/reve/2.1/edit",
+  "tagline": "Edit images from text prompts with strong prompt adherence, layout intelligence, and accurate text rendering using Reve 2.1",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-07-16",
+  "_generated": {
+    "name": "b2542b8d",
+    "description": "9fdd5fa9",
+    "status": "379ac110",
+    "release_date": "a393f093",
+    "model_type": "db8857fe",
+    "page_url": "5337a9cc",
+    "tagline": "9fdd5fa9",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "67357290"
+  },
+  "last_updated": "2026-07-17"
+}

@@ -11,9 +11,9 @@
     "streaming": true
   },
   "pricing": {
-    "input": 0.14,
-    "output": 0.28,
-    "cached_input": 0.03
+    "input": 1,
+    "output": 0.03,
+    "cached_input": 0.14
   },
   "modalities": {
     "input": ["text"],
@@ -26,8 +26,8 @@
     "page_url": "4d2b2adf",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "pricing": "062f7f85",
+    "pricing": "0fdf9fcb",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-07-17"
 }

@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx-2-19b/distilled/video-to-video",
   "tagline": "Generate video with audio from videos using LTX-2 Distilled",
-  "last_seen_at": "2026-06-22",
+  "last_seen_at": "2026-07-13",
   "_generated": {
     "name": "5f8007ea",
     "description": "9441408f",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "f839bf86",
     "tagline": "9441408f",
-    "last_seen_at": "1413cbcd"
+    "last_seen_at": "a393f093"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-17"
 }

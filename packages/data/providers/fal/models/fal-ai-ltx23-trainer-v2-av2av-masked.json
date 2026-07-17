@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/av2av-masked",
   "tagline": "Train a LoRA that regenerates a masked video region (guided by kept pixels and a video reference) while jointly generating audio from an audio reference.",
-  "last_seen_at": "2026-06-22",
+  "last_seen_at": "2026-07-13",
   "_generated": {
     "name": "da2aeb79",
     "description": "4616bebb",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "8f56b2df",
     "tagline": "4616bebb",
-    "last_seen_at": "1413cbcd"
+    "last_seen_at": "a393f093"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-17"
 }

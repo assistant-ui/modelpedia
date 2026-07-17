@@ -11,7 +11,7 @@
   "page_url": "https://huggingface.co/stabilityai/sdxl-vae",
   "open_weight": true,
   "tagline": "Sdxl Vae is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "huggingface_downloads": 258248,
+  "huggingface_downloads": 253884,
   "last_modified": "2023-08-04",
   "_generated": {
     "name": "61bd1f43",
@@ -23,8 +23,8 @@
     "page_url": "f1404dbb",
     "open_weight": "b326b506",
     "tagline": "e2452bea",
-    "huggingface_downloads": "99ab8c3a",
+    "huggingface_downloads": "df66cb3b",
     "last_modified": "8839bf02"
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-07-17"
 }

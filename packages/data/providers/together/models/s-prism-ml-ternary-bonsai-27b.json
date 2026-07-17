@@ -1,0 +1,25 @@
+{
+  "id": "s/prism-ml-ternary-bonsai-27b",
+  "name": "Prism Ml Ternary Bonsai 27b",
+  "created_by": "unknown",
+  "source": "official",
+  "context_window": 262000,
+  "parameters": 27,
+  "page_url": "https://www.together.ai/models/prism-ml-ternary-bonsai-27b",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.2,
+    "output": 4.05
+  },
+  "_generated": {
+    "name": "2d0c9c9f",
+    "context_window": "4ed74017",
+    "parameters": "02e74f10",
+    "page_url": "de958450",
+    "capabilities": "0fa77dc6",
+    "pricing": "1b2d3f46"
+  },
+  "last_updated": "2026-07-17"
+}

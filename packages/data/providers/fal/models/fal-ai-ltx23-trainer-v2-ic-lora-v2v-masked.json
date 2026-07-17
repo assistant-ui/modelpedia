@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx23-trainer-v2/ic-lora/v2v-masked",
   "tagline": "Train an IC-LoRA that regenerates only the masked region of a video, guided by the kept pixels and a separate reference/control video.",
-  "last_seen_at": "2026-06-22",
+  "last_seen_at": "2026-07-13",
   "_generated": {
     "name": "5f3c47ca",
     "description": "43bef4a3",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "a70f8b51",
     "tagline": "43bef4a3",
-    "last_seen_at": "1413cbcd"
+    "last_seen_at": "a393f093"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-17"
 }

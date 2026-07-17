@@ -1,0 +1,30 @@
+{
+  "id": "s/kimi-k3",
+  "name": "Kimi K3",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k3",
+  "page_url": "https://www.together.ai/models/kimi-k3",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.95,
+    "output": 4
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "894c7fc5",
+    "family": "73e8093c",
+    "page_url": "24715af6",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "f2c3ebbf",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-17"
+}

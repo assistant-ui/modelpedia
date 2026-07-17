@@ -1,0 +1,24 @@
+{
+  "id": "fireworks/inkling",
+  "name": "inkling",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 1040000,
+  "page_url": "https://fireworks.ai/models/fireworks/inkling",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "_generated": {
+    "name": "6738f66c",
+    "context_window": "1bf8ad8b",
+    "page_url": "a61d1826",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e"
+  },
+  "last_updated": "2026-07-17"
+}

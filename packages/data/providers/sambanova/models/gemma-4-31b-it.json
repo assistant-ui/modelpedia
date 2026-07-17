@@ -13,8 +13,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.22,
-    "output": 0.59
+    "input": 0.38,
+    "output": 1.15
   },
   "endpoints": ["chat_completions"],
   "_generated": {
@@ -25,8 +25,8 @@
     "max_output_tokens": "f7de594e",
     "model_type": "d669f408",
     "modalities": "68e53d93",
-    "pricing": "12f284c0",
+    "pricing": "aaaae676",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-17"
 }

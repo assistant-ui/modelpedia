@@ -3,15 +3,16 @@
   "name": "lfm2.5-thinking",
   "created_by": "liquid",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-17",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "f373244e",
-    "capabilities": "5780d00a",
+    "capabilities": "d2566179",
     "description": "84e2683f",
     "page_url": "9806fd29",
     "tagline": "84e2683f",
@@ -21,7 +22,8 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "reasoning_tokens": "b326b506"
   },
   "description": "LFM2.5 is a new family of hybrid models designed for on-device deployment.",
   "page_url": "https://ollama.com/library/lfm2.5-thinking",
@@ -35,5 +37,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "reasoning_tokens": true
 }

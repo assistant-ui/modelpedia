@@ -1,0 +1,27 @@
+{
+  "id": "s/liquid-lfm2-5-8b-a1b",
+  "name": "Liquid Lfm2 5 8b A1b",
+  "created_by": "liquid",
+  "source": "official",
+  "context_window": 128000,
+  "parameters": 8,
+  "active_parameters": 1,
+  "page_url": "https://www.together.ai/models/liquid-lfm2-5-8b-a1b",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.12
+  },
+  "_generated": {
+    "name": "1e61db85",
+    "context_window": "34434798",
+    "parameters": "c9f0f895",
+    "active_parameters": "c4ca4238",
+    "page_url": "20430908",
+    "capabilities": "0fa77dc6",
+    "pricing": "3b6defad"
+  },
+  "last_updated": "2026-07-17"
+}

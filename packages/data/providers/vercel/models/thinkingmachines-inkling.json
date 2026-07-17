@@ -1,0 +1,33 @@
+{
+  "id": "thinkingmachines/inkling",
+  "name": "inkling",
+  "created_by": "thinkingmachines",
+  "source": "official",
+  "context_window": 256000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 4.05
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6738f66c",
+    "context_window": "2fd324cb",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "ecedf81e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-17"
+}

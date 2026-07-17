@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx-2.3/reframe",
+  "name": "Ltx 2.3 ",
+  "created_by": "fal",
+  "source": "official",
+  "description": " LTX-2.3 Reframe converts your videos to any aspect ratio without destructive cropping.",
+  "status": "active",
+  "release_date": "2026-07-16",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx-2.3/reframe",
+  "tagline": " LTX-2.3 Reframe converts your videos to any aspect ratio without destructive cropping.",
+  "last_seen_at": "2026-07-16",
+  "_generated": {
+    "name": "317d6d23",
+    "description": "9fbc153b",
+    "status": "379ac110",
+    "release_date": "67357290",
+    "model_type": "ddb0b7bc",
+    "page_url": "c7494765",
+    "tagline": "9fbc153b",
+    "last_seen_at": "67357290"
+  },
+  "last_updated": "2026-07-17"
+}

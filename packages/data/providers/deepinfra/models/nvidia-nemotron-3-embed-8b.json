@@ -1,0 +1,33 @@
+{
+  "id": "nvidia/Nemotron-3-Embed-8B",
+  "name": "Nemotron-3-Embed-8B",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Nemotron-3-Embed-8B is a multilingual text embedding model from NVIDIA, based on Ministral-3-8B, that maps text into 4096-dimensional dense vectors for retrieval and semantic similarity. Spanning 34 languages, it targets multilingual RAG and question-answering over large corpora and achieves state-of-the-art results on the RTEB leaderboard.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "tagline": "Nemotron-3-Embed-8B is a multilingual text embedding model from NVIDIA, based on Ministral-3-8B, that maps text into 4096-dimensional dense vectors for retrieval and semantic similarity.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "quantization": "fp16",
+  "_generated": {
+    "name": "f35ef553",
+    "description": "8d05707f",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "tagline": "8b9d346f",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "quantization": "a7cff86c"
+  },
+  "last_updated": "2026-07-17"
+}

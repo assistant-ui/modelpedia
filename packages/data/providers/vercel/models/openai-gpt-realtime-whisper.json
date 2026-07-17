@@ -1,0 +1,23 @@
+{
+  "id": "openai/gpt-realtime-whisper",
+  "name": "gpt-realtime-whisper",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-realtime",
+  "model_type": "transcription",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "8b2de4c1",
+    "family": "f5032d33",
+    "model_type": "5e12d29a",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-07-17"
+}

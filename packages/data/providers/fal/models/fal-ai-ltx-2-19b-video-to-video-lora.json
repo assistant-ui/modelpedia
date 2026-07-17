@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx-2-19b/video-to-video/lora",
   "tagline": "Generate video with audio from videos using LTX-2 and custom LoRA",
-  "last_seen_at": "2026-06-22",
+  "last_seen_at": "2026-07-13",
   "_generated": {
     "name": "b59d8995",
     "description": "b9350679",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "4bd9f07f",
     "tagline": "b9350679",
-    "last_seen_at": "1413cbcd"
+    "last_seen_at": "a393f093"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-17"
 }

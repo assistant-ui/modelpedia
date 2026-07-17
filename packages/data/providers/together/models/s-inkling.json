@@ -1,0 +1,23 @@
+{
+  "id": "s/inkling",
+  "name": "Inkling",
+  "created_by": "unknown",
+  "source": "official",
+  "context_window": 524000,
+  "page_url": "https://www.together.ai/models/inkling",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.17,
+    "output": 4.05
+  },
+  "_generated": {
+    "name": "52636cd3",
+    "context_window": "07ef5620",
+    "page_url": "b8ca2f93",
+    "capabilities": "0fa77dc6",
+    "pricing": "f8b145fc"
+  },
+  "last_updated": "2026-07-17"
+}

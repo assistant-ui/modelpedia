@@ -3,21 +3,21 @@
   "name": "glm-4p5-air",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-05-10",
+  "last_updated": "2026-07-17",
   "context_window": 131000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.22,
+    "input": 1,
     "output": 1,
-    "cached_input": 0.88
+    "cached_input": 1
   },
   "_generated": {
     "name": "f17dd180",
     "context_window": "834bd590",
     "capabilities": "0fa77dc6",
-    "pricing": "2e5314e7",
+    "pricing": "cb03f68e",
     "family": "b85f9b4b",
     "model_type": "d669f408",
     "page_url": "f47529d8",
