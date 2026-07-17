@@ -1,0 +1,25 @@
+{
+  "id": "nvidia-nemotron-3-ultra-550b-a55b",
+  "name": "nvidia-nemotron-3-ultra-550b-a55b",
+  "created_by": "nvidia",
+  "source": "official",
+  "parameters": 550,
+  "active_parameters": 55,
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "009f6be2",
+    "parameters": "01f78be6",
+    "active_parameters": "b53b3a3d",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-17"
+}

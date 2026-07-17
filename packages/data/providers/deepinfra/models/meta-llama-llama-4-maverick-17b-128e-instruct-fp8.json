@@ -3,7 +3,7 @@
   "name": "Llama-4-Maverick-17B-128E-Instruct-FP8",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-17",
   "family": "Llama-4",
   "description": "The Llama 4 collection of models are natively multimodal AI models that enable text and multimodal experiences. These models leverage a mixture-of-experts architecture to offer industry-leading performance in text and image understanding. Llama 4 Maverick, a 17 billion parameter model with 128 experts",
   "status": "active",
@@ -22,8 +22,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.15,
-    "output": 0.6
+    "input": 0.2,
+    "output": 0.8
   },
   "endpoints": ["chat_completions"],
   "quantization": "fp8",
@@ -39,7 +39,7 @@
     "open_weight": "b326b506",
     "capabilities": "ece027d5",
     "modalities": "6399757e",
-    "pricing": "89a9c6e2",
+    "pricing": "9a9e4921",
     "endpoints": "d8fa1080",
     "quantization": "640679f9",
     "license": "045d737e",

@@ -3,16 +3,16 @@
   "name": "qwen3-embedding-8b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-07-17",
   "family": "qwen3",
   "context_window": 40900,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.1,
+    "input": 1,
     "output": 1,
-    "cached_input": 1
+    "cached_input": 0.1
   },
   "model_type": "embed",
   "_generated": {
@@ -20,7 +20,7 @@
     "family": "48c385a0",
     "context_window": "aa839cfb",
     "capabilities": "0fa77dc6",
-    "pricing": "641d7095",
+    "pricing": "585482b4",
     "model_type": "764cb3de",
     "parameters": "c9f0f895",
     "page_url": "655529bb"

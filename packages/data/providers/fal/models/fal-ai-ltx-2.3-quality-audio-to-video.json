@@ -3,7 +3,7 @@
   "name": "Ltx 2.3 Quality",
   "created_by": "fal",
   "source": "official",
-  "description": "Generate high-quality video with audio from audio, text and images using LTX-2",
+  "description": "Generate high-quality video with audio from audio, text and images using LTX-2.3",
   "status": "active",
   "release_date": "2026-06-01",
   "model_type": "other",
@@ -12,17 +12,17 @@
   "capabilities": {
     "vision": true
   },
-  "last_seen_at": "2026-06-22",
+  "last_seen_at": "2026-07-14",
   "_generated": {
     "name": "a69880de",
-    "description": "006c48de",
+    "description": "725fe6d2",
     "status": "379ac110",
     "release_date": "80eaf594",
     "model_type": "ddb0b7bc",
     "page_url": "5684158d",
     "tagline": "006c48de",
     "capabilities": "d3117eb0",
-    "last_seen_at": "1413cbcd"
+    "last_seen_at": "c6bdeb62"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-17"
 }

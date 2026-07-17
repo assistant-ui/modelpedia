@@ -1,0 +1,36 @@
+{
+  "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+  "name": "Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+  "created_by": "lordx64",
+  "source": "official",
+  "description": "A reasoning-distilled variant of **Qwen3.6-35B-A3B** taught to imitate the chain-of-thought style of **Claude Opus 4.7**, the frontier reasoning model from Anthropic. The goal: port Claude-grade reasoning behavior into a permissively-licensed Mixture-of-Experts model that an individual can actually run.",
+  "release_date": "2026-04-18",
+  "license": "apache-2.0",
+  "parameters": 36,
+  "page_url": "https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+  "model_type": "reasoning",
+  "tagline": "A reasoning-distilled variant of **Qwen3.6-35B-A3B** taught to imitate the chain-of-thought style of **Claude Opus 4.7**, the frontier reasoning model from Anthropic.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "8d269c68",
+    "description": "6986cb84",
+    "release_date": "3a1988a3",
+    "license": "60245731",
+    "parameters": "19ca14e7",
+    "page_url": "830a37b1",
+    "model_type": "17475f7f",
+    "tagline": "2a49f3b7",
+    "capabilities": "9c665f5d",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-17"
+}

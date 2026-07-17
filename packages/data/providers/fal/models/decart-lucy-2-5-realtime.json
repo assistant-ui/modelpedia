@@ -1,0 +1,24 @@
+{
+  "id": "decart/lucy-2-5/realtime",
+  "name": "Lucy 2.5",
+  "created_by": "decart",
+  "source": "official",
+  "description": "Real-time, prompt-driven video editing over WebRTC.",
+  "status": "active",
+  "release_date": "2026-07-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/decart/lucy-2-5/realtime",
+  "tagline": "Real-time, prompt-driven video editing over WebRTC.",
+  "last_seen_at": "2026-07-16",
+  "_generated": {
+    "name": "45e2a25d",
+    "description": "792d72ea",
+    "status": "379ac110",
+    "release_date": "c65392cc",
+    "model_type": "ddb0b7bc",
+    "page_url": "4d041b8d",
+    "tagline": "792d72ea",
+    "last_seen_at": "67357290"
+  },
+  "last_updated": "2026-07-17"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "veed/lipsync/v2",
+  "name": "VEED Lipsync",
+  "created_by": "veed",
+  "source": "official",
+  "description": "Generate production-quality lipsync from any audio using VEED's most advanced model yet.",
+  "status": "active",
+  "release_date": "2026-07-13",
+  "model_type": "other",
+  "page_url": "https://fal.run/veed/lipsync/v2",
+  "tagline": "Generate production-quality lipsync from any audio using VEED's most advanced model yet.",
+  "last_seen_at": "2026-07-14",
+  "_generated": {
+    "name": "ef837284",
+    "description": "ac5ab790",
+    "status": "379ac110",
+    "release_date": "a393f093",
+    "model_type": "ddb0b7bc",
+    "page_url": "00d3a34d",
+    "tagline": "ac5ab790",
+    "last_seen_at": "c6bdeb62"
+  },
+  "last_updated": "2026-07-17"
+}

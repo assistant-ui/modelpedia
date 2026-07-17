@@ -1,0 +1,37 @@
+{
+  "id": "minimaxai/minimax-m2.7",
+  "name": "MiniMax M2.7 Enterprise",
+  "created_by": "groq",
+  "source": "official",
+  "family": "minimax",
+  "status": "preview",
+  "context_window": 196608,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "speed": 260,
+  "page_url": "https://console.groq.com/docs/models#minimaxai/minimax-m2.7",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f46b1e61",
+    "family": "c85916f0",
+    "status": "127aecde",
+    "context_window": "0dd0d2bf",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "speed": "a4f23670",
+    "page_url": "5f1b534e",
+    "capabilities": "6c301a15",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-17"
+}

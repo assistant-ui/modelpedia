@@ -3,22 +3,22 @@
   "name": "V1.1",
   "created_by": "sonilo",
   "source": "official",
-  "description": "Analyzes your video's pacing, mood, and timing to generate a frame-synced, commercial-ready soundtrack in seconds",
+  "description": "Analyzes your video’s pacing, mood, and timing to generate a frame-synced, licensed, commercial-use-safe soundtrack in seconds.",
   "status": "active",
   "release_date": "2026-06-03",
   "model_type": "other",
   "page_url": "https://fal.run/sonilo/v1.1/video-to-music",
   "tagline": "Analyzes your video's pacing, mood, and timing to generate a frame-synced, commercial-ready soundtrack in seconds",
-  "last_seen_at": "2026-07-01",
+  "last_seen_at": "2026-07-15",
   "_generated": {
     "name": "58c6d81f",
-    "description": "efa3ec05",
+    "description": "31d457c9",
     "status": "379ac110",
     "release_date": "6c186db5",
     "model_type": "ddb0b7bc",
     "page_url": "c27357c0",
     "tagline": "efa3ec05",
-    "last_seen_at": "97e5b4c6"
+    "last_seen_at": "c65392cc"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-07-17"
 }

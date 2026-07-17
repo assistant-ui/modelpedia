@@ -7,7 +7,7 @@
   "description": "MiniMax-M3 is a multimodal foundation model from MiniMax.",
   "release_date": "2026-05-31",
   "context_window": 1048576,
-  "max_output_tokens": 131072,
+  "max_output_tokens": 512000,
   "model_type": "chat",
   "tagline": "MiniMax-M3 is a multimodal foundation model from MiniMax.",
   "capabilities": {
@@ -32,7 +32,7 @@
     "description": "8c440645",
     "release_date": "da029f9b",
     "context_window": "7d28a051",
-    "max_output_tokens": "f7de594e",
+    "max_output_tokens": "d09e1c12",
     "model_type": "d669f408",
     "tagline": "8c440645",
     "capabilities": "03fbefb4",
@@ -40,5 +40,5 @@
     "pricing": "0c734839",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-09"
+  "last_updated": "2026-07-17"
 }

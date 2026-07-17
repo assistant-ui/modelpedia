@@ -3,9 +3,9 @@
   "name": "Z.ai: GLM 5 Turbo",
   "created_by": "z-ai",
   "source": "official",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-07-17",
   "description": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios.",
-  "context_window": 262144,
+  "context_window": 202752,
   "max_output_tokens": 131072,
   "modalities": {
     "input": ["text"],
@@ -25,7 +25,7 @@
   "_generated": {
     "name": "7d1d52e0",
     "description": "6202436d",
-    "context_window": "4a1d32eb",
+    "context_window": "6ea395a4",
     "max_output_tokens": "f7de594e",
     "modalities": "68e53d93",
     "capabilities": "03fbefb4",
@@ -34,11 +34,15 @@
     "model_type": "d669f408",
     "release_date": "12ae3722",
     "tagline": "6202436d",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc",
+    "deprecation_date": "a93a4314"
   },
   "family": "glm-5",
   "model_type": "chat",
   "release_date": "2026-03-15",
   "tagline": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated",
+  "deprecation_date": "2098-12-31"
 }

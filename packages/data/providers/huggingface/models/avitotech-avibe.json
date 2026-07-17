@@ -1,0 +1,36 @@
+{
+  "id": "AvitoTech/avibe",
+  "name": "avibe",
+  "created_by": "avitotech",
+  "source": "official",
+  "description": "A-vibe это большая языковая модель, созданная Авито Тех, дочерней технологической компанией Авито, на базе открытой модели Qwen3-8B-Base. Мы адаптировали Qwen3-8B-Base под русский язык и домен Авито с помощью нескольких шагов: 1. Сделали свой токенизатор, оптимальный для русского и английского языка 2. Подменили оригинальный токенизатор Qwen3-8B-Base на собственный токенизатор 3. Обучили полученную модель на большом корпусе данных 4. Провели SFT этап 5. Сделали RL",
+  "release_date": "2025-10-20",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "parameters": 7.9,
+  "page_url": "https://huggingface.co/AvitoTech/avibe",
+  "architecture": "transformer",
+  "tagline": "A-vibe это большая языковая модель, созданная Авито Тех, дочерней технологической компанией Авито, на базе открытой модели Qwen3-8B-Base.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "312a4270",
+    "description": "240839bd",
+    "release_date": "ba1efbec",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "parameters": "299e5505",
+    "page_url": "f22ed408",
+    "architecture": "8832ea0f",
+    "tagline": "6d7845ac",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-17"
+}

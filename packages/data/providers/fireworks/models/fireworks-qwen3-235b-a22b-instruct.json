@@ -3,16 +3,16 @@
   "name": "qwen3-235b-a22b-instruct-2507",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-05-10",
+  "last_updated": "2026-07-17",
   "family": "qwen3",
   "context_window": 262000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.22,
+    "input": 1,
     "output": 1,
-    "cached_input": 0.88
+    "cached_input": 1
   },
   "snapshots": ["fireworks/qwen3-235b-a22b-instruct-2507"],
   "_generated": {
@@ -20,7 +20,7 @@
     "family": "48c385a0",
     "context_window": "4ed74017",
     "capabilities": "0fa77dc6",
-    "pricing": "2e5314e7",
+    "pricing": "cb03f68e",
     "model_type": "d669f408",
     "parameters": "577ef115",
     "active_parameters": "b6d767d2",

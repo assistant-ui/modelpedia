@@ -1,0 +1,33 @@
+{
+  "id": "nvidia/Nemotron-3-Embed-1B-BF16",
+  "name": "Nemotron-3-Embed-1B-BF16",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Nemotron-3-Embed-1B-BF16 is a compact multilingual text embedding model from NVIDIA, pruned and distilled from Ministral-3 to ~1B parameters, that maps text into 2048-dimensional dense vectors for retrieval and semantic similarity. Spanning 34 languages, it delivers state-of-the-art quality among similarly sized models for RAG and multilingual question-answering while keeping compute cost low.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "tagline": "Nemotron-3-Embed-1B-BF16 is a compact multilingual text embedding model from NVIDIA, pruned and distilled from Ministral-3 to ~1B parameters, that maps text into 2048-dimensional dense vectors for retrieval and semantic similarity.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "quantization": "fp16",
+  "_generated": {
+    "name": "c42d8202",
+    "description": "2e33558b",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "tagline": "2806617f",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "quantization": "a7cff86c"
+  },
+  "last_updated": "2026-07-17"
+}

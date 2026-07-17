@@ -1,0 +1,33 @@
+{
+  "id": "nvidia/Nemotron-3-Embed-1B-NVFP4",
+  "name": "Nemotron-3-Embed-1B-NVFP4",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Nemotron-3-Embed-1B-NVFP4 is the NVFP4-quantized version of Nemotron-3-Embed-1B-BF16 — a multilingual text embedding model from NVIDIA that maps text into 2048-dimensional dense vectors for retrieval and semantic similarity. Optimized for NVIDIA Blackwell GPUs (e.g. RTX 6000 PRO, GB200), it retains near-BF16 quality (RTEB 72.0 vs 72.4) at a fraction of the memory and compute.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "tagline": "Nemotron-3-Embed-1B-NVFP4 is the NVFP4-quantized version of Nemotron-3-Embed-1B-BF16 — a multilingual text embedding model from NVIDIA that maps text into 2048-dimensional dense vectors for retrieval and semantic similarity.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "quantization": "fp4",
+  "_generated": {
+    "name": "f40eac81",
+    "description": "1423b736",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "tagline": "62dc05fd",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "quantization": "0e8a48ee"
+  },
+  "last_updated": "2026-07-17"
+}

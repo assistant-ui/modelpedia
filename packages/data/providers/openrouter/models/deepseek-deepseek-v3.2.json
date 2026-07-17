@@ -3,10 +3,10 @@
   "name": "DeepSeek: DeepSeek V3.2",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-07-12",
+  "last_updated": "2026-07-17",
   "family": "deepseek",
   "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance.",
-  "context_window": 131072,
+  "context_window": 163840,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -18,27 +18,27 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.215,
-    "output": 0.322,
-    "cached_input": 0.021
+    "input": 0.269,
+    "output": 0.4,
+    "cached_input": 0.134
   },
   "_generated": {
     "name": "677e2c97",
     "family": "4b81b92d",
     "description": "fe1de924",
-    "context_window": "f7de594e",
+    "context_window": "7edab444",
     "modalities": "68e53d93",
     "capabilities": "03fbefb4",
-    "pricing": "91c79bd5",
+    "pricing": "8608ce2b",
     "release_date": "0452719b",
     "tagline": "fe1de924",
     "tools": "f0c1dc7e",
     "model_type": "d669f408",
-    "max_output_tokens": "762e98db"
+    "max_output_tokens": "297ce0b3"
   },
   "release_date": "2025-12-01",
   "tagline": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance.",
   "tools": ["function_calling"],
   "model_type": "chat",
-  "max_output_tokens": 64000
+  "max_output_tokens": 65536
 }

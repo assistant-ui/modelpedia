@@ -1,0 +1,39 @@
+{
+  "id": "kwaipilot/kat-coder-pro-v2.5",
+  "name": "Kwaipilot: KAT-Coder-Pro V2.5",
+  "created_by": "kwaipilot",
+  "source": "official",
+  "description": "KAT-Coder-Pro V2.5 is a flagship-level Agentic Coding model that can directly hand over an entire issue or an entire business workflow to it, allowing it to autonomously locate and make...",
+  "release_date": "2026-07-10",
+  "context_window": 256000,
+  "max_output_tokens": 80000,
+  "tagline": "KAT-Coder-Pro V2.5 is a flagship-level Agentic Coding model that can directly hand over an entire issue or an entire business workflow to it, allowing it to autonomously locate and make...",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.74,
+    "output": 2.96,
+    "cached_input": 0.15
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "55ba4478",
+    "description": "74fedc88",
+    "release_date": "cc3b8614",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "144fdd8b",
+    "tagline": "74fedc88",
+    "capabilities": "6c9aa67e",
+    "modalities": "68e53d93",
+    "pricing": "c3328465",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-17"
+}

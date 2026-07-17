@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5.1-Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-05-29",
+  "last_updated": "2026-07-17",
   "family": "gpt-5.1",
   "description": "GPT-5.1-Codex is a specialized version of GPT-5.1 optimized for software engineering and coding workflows.",
   "context_window": 400000,
@@ -21,7 +21,7 @@
   "pricing": {
     "input": 1.25,
     "output": 10,
-    "cached_input": 0.13
+    "cached_input": 0.125
   },
   "_generated": {
     "name": "77a32818",
@@ -31,7 +31,7 @@
     "max_output_tokens": "34434798",
     "modalities": "6399757e",
     "capabilities": "03fbefb4",
-    "pricing": "be72adc3",
+    "pricing": "50bb1323",
     "model_type": "d669f408",
     "release_date": "c4b1d0fd",
     "tagline": "223fcaf5",

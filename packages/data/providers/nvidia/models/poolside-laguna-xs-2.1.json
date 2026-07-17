@@ -1,0 +1,14 @@
+{
+  "id": "poolside/laguna-xs-2.1",
+  "name": "laguna-xs-2.1",
+  "created_by": "poolside",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "d7e23bc6",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-07-17"
+}
