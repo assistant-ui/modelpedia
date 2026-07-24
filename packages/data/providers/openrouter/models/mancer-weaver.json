@@ -3,7 +3,7 @@
   "name": "Mancer: Weaver (alpha)",
   "created_by": "mancer",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-24",
   "description": "An attempt to recreate Claude-style verbosity, but don't expect the same level of coherence or memory.",
   "context_window": 8000,
   "max_output_tokens": 2000,
@@ -16,8 +16,8 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.75,
-    "output": 1
+    "input": 0.5,
+    "output": 0.75
   },
   "_generated": {
     "name": "52ef5ffd",
@@ -26,7 +26,7 @@
     "max_output_tokens": "08f90c1a",
     "modalities": "68e53d93",
     "capabilities": "dbb5b7fe",
-    "pricing": "be364ce6",
+    "pricing": "61ad6242",
     "release_date": "6e5e8be7",
     "tagline": "5b59f40e"
   },

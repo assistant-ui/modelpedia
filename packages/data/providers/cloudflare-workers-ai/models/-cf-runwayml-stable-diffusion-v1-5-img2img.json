@@ -3,7 +3,7 @@
   "name": "stable-diffusion-v1-5-img2img",
   "created_by": "runway",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-24",
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -12,12 +12,12 @@
     "name": "dd164f2c",
     "capabilities": "48995a4e",
     "model_type": "db8857fe",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "page_url": "802ebb6b",
     "tools": "f0c1dc7e"
   },
   "model_type": "image",
-  "status": "active",
+  "status": "deprecated",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#stable-diffusion-v1-5-img2img",
   "tools": ["function_calling"]
 }

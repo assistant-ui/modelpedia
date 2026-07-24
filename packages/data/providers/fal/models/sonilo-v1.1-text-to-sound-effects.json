@@ -1,0 +1,24 @@
+{
+  "id": "sonilo/v1.1/text-to-sound-effects",
+  "name": "V1.1 Text to Sound Effects",
+  "created_by": "sonilo",
+  "source": "official",
+  "description": "Generates high-quality, commercial-use-safe sound effects from a text prompt, with full control over type, texture, intensity, and exact duration.",
+  "status": "active",
+  "release_date": "2026-07-20",
+  "model_type": "other",
+  "page_url": "https://fal.run/sonilo/v1.1/text-to-sound-effects",
+  "tagline": "Generates high-quality, commercial-use-safe sound effects from a text prompt, with full control over type, texture, intensity, and exact duration.",
+  "last_seen_at": "2026-07-21",
+  "_generated": {
+    "name": "26d0b95e",
+    "description": "1ce0250c",
+    "status": "379ac110",
+    "release_date": "7047ff2b",
+    "model_type": "ddb0b7bc",
+    "page_url": "9d3576af",
+    "tagline": "1ce0250c",
+    "last_seen_at": "db9f0f5f"
+  },
+  "last_updated": "2026-07-24"
+}

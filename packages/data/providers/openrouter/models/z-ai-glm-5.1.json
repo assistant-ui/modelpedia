@@ -6,7 +6,7 @@
   "family": "glm-5.1",
   "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks.",
   "release_date": "2026-04-07",
-  "context_window": 202752,
+  "context_window": 204800,
   "model_type": "chat",
   "tagline": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks.",
   "capabilities": {
@@ -30,7 +30,7 @@
     "family": "feb32a37",
     "description": "92718637",
     "release_date": "3eaa38a6",
-    "context_window": "6ea395a4",
+    "context_window": "65d646a4",
     "model_type": "d669f408",
     "tagline": "92718637",
     "capabilities": "03fbefb4",
@@ -39,6 +39,6 @@
     "tools": "f0c1dc7e",
     "max_output_tokens": "34434798"
   },
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-07-24",
   "max_output_tokens": 128000
 }

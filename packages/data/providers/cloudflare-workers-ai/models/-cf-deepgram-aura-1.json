@@ -3,7 +3,7 @@
   "name": "aura-1",
   "created_by": "deepgram",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-24",
   "capabilities": {
     "streaming": true
   },
@@ -12,9 +12,13 @@
     "capabilities": "0fa77dc6",
     "status": "379ac110",
     "model_type": "4e16a2cf",
-    "page_url": "9dfb2e04"
+    "page_url": "9dfb2e04",
+    "description": "4695f06e",
+    "tagline": "4695f06e"
   },
   "status": "active",
   "model_type": "tts",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#aura-1"
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#aura-1",
+  "description": "Try a different search term, or broaden your search by removing filters.",
+  "tagline": "Try a different search term, or broaden your search by removing filters."
 }

@@ -1,0 +1,32 @@
+{
+  "id": "laguna-s-2.1",
+  "name": "laguna-s-2.1",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "Our most capable model to date, designed for long-horizon work. 70.2% on Terminal-Bench 2.1 at 118B-A8B.",
+  "context_window": 262144,
+  "license": "open-weight",
+  "page_url": "https://ollama.com/library/laguna-s-2.1",
+  "open_weight": true,
+  "tagline": "Our most capable model to date, designed for long-horizon work.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "82123e67",
+    "description": "bff6ecc3",
+    "context_window": "4a1d32eb",
+    "license": "6327aaea",
+    "page_url": "05d96207",
+    "open_weight": "b326b506",
+    "tagline": "f6cb149a",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-24"
+}

@@ -3,7 +3,7 @@
   "name": "gemini-2.0-flash",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-06-02",
+  "last_updated": "2026-07-24",
   "family": "gemini-2.0",
   "status": "deprecated",
   "knowledge_cutoff": "2024-08",
@@ -65,12 +65,12 @@
     "page_url": "fbd1ca0d",
     "open_weight": "68934a3e",
     "deprecation_date": "80eaf594",
-    "successor": "4a9bff89"
+    "successor": "53a6c3eb"
   },
   "model_type": "chat",
   "license": "proprietary",
   "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash",
   "open_weight": false,
   "deprecation_date": "2026-06-01",
-  "successor": "gemini-3.5-flash"
+  "successor": "gemini-3.6-flash"
 }

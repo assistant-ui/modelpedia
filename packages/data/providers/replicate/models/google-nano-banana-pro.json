@@ -1,0 +1,23 @@
+{
+  "id": "google/nano-banana-pro",
+  "name": "Nano Banana Pro",
+  "created_by": "google",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/google/nano-banana-pro",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "005ed6a5",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "67cc9102",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-07-24"
+}

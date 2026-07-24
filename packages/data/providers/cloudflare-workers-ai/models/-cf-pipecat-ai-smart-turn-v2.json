@@ -3,7 +3,7 @@
   "name": "smart-turn-v2",
   "created_by": "pipecat-ai",
   "source": "official",
-  "last_updated": "2026-04-16",
+  "last_updated": "2026-07-24",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -12,10 +12,10 @@
     "name": "bd34c4a7",
     "capabilities": "8a3b232e",
     "status": "379ac110",
-    "model_type": "9f84c007",
+    "model_type": "b815fc69",
     "page_url": "f6f1eb2f"
   },
   "status": "active",
-  "model_type": "audio",
+  "model_type": "classification",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#smart-turn-v2"
 }

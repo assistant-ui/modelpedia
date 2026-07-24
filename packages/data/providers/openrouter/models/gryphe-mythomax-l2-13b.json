@@ -3,9 +3,9 @@
   "name": "MythoMax 13B",
   "created_by": "gryphe",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-24",
   "description": "One of the highest performing and most popular fine-tunes of Llama 2 13B, with rich descriptions and roleplay.",
-  "context_window": 4096,
+  "context_window": 8192,
   "max_output_tokens": 4096,
   "modalities": {
     "input": ["text"],
@@ -22,7 +22,7 @@
   "_generated": {
     "name": "e4b49c34",
     "description": "953ba747",
-    "context_window": "f7efa4f8",
+    "context_window": "77441296",
     "max_output_tokens": "f7efa4f8",
     "modalities": "68e53d93",
     "capabilities": "dbb5b7fe",

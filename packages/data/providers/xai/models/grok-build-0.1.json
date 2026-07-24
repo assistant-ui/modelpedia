@@ -39,7 +39,9 @@
     "modalities": "6399757e",
     "pricing": "20a9a8a7",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-05-23"
+  "last_updated": "2026-07-24",
+  "status": "deprecated"
 }

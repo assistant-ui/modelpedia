@@ -25,7 +25,9 @@
     "model_type": "db8857fe",
     "capabilities": "bcb7869e",
     "modalities": "2f5ee902",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-07-24",
+  "status": "deprecated"
 }

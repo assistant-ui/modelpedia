@@ -4,7 +4,7 @@
   "created_by": "moonshot",
   "source": "official",
   "family": "kimi-k2.6",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#kimi-k2.6",
   "capabilities": {
@@ -21,12 +21,12 @@
   "_generated": {
     "name": "46a7f2ca",
     "family": "46a7f2ca",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "page_url": "4531ebbd",
     "capabilities": "7ca28ec9",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-07-24"
 }

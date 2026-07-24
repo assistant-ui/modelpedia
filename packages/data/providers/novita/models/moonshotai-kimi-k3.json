@@ -1,0 +1,48 @@
+{
+  "id": "moonshotai/kimi-k3",
+  "name": "Kimi K3",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k3",
+  "description": "Kimi K3 is Kimi’s most capable model to date, with 2.8 trillion parameters.",
+  "status": "active",
+  "release_date": "2026-07-16",
+  "context_window": 1048576,
+  "max_output_tokens": 1048576,
+  "model_type": "chat",
+  "tagline": "Kimi K3 is Kimi’s most capable model to date, with 2.8 trillion parameters.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "894c7fc5",
+    "family": "73e8093c",
+    "description": "520ebb48",
+    "status": "379ac110",
+    "release_date": "67357290",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7d28a051",
+    "model_type": "d669f408",
+    "tagline": "520ebb48",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "7939f0ff",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-24"
+}

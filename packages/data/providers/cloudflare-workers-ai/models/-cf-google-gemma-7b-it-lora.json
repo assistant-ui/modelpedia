@@ -3,7 +3,7 @@
   "name": "gemma-7b-it-lora",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-24",
   "family": "gemma-7b",
   "capabilities": {
     "streaming": true,
@@ -15,14 +15,14 @@
     "capabilities": "48995a4e",
     "model_type": "d669f408",
     "parameters": "8f14e45f",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "page_url": "7061b6b1",
     "tools": "f0c1dc7e",
     "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 7,
-  "status": "active",
+  "status": "deprecated",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#gemma-7b-it-lora",
   "tools": ["function_calling"],
   "modalities": {

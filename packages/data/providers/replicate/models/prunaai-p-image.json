@@ -1,0 +1,27 @@
+{
+  "id": "prunaai/p-image",
+  "name": "P Image",
+  "created_by": "prunaai",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/prunaai/p-image",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "fdcd7258",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "37d0f2db",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-07-24"
+}

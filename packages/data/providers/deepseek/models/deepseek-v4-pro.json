@@ -1,10 +1,10 @@
 {
   "id": "deepseek-v4-pro",
-  "name": "DeepSeek V4",
+  "name": "DeepSeek V4-Pro",
   "created_by": "deepseek",
   "source": "official",
   "family": "deepseek-chat",
-  "description": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
+  "description": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
   "status": "active",
   "release_date": "2026-04-24",
   "context_window": 1000000,
@@ -34,9 +34,9 @@
   "tools": ["function_calling"],
   "snapshots": ["deepseek-v4-pro-2026-04-24"],
   "_generated": {
-    "name": "0478b8aa",
+    "name": "acc10913",
     "family": "fbd79fd9",
-    "description": "45501e78",
+    "description": "7178a6ca",
     "status": "379ac110",
     "release_date": "173d2bb2",
     "context_window": "8155bc54",
@@ -52,5 +52,5 @@
     "endpoints": "772bacef",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-24"
 }

@@ -3,15 +3,16 @@
   "name": "kimi-k2.5",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-24",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "vision": true
+    "vision": true,
+    "reasoning": true
   },
   "_generated": {
     "name": "69ffee7b",
-    "capabilities": "1a260abc",
+    "capabilities": "7ca28ec9",
     "family": "69ffee7b",
     "model_type": "d669f408",
     "status": "379ac110",

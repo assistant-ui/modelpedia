@@ -3,7 +3,7 @@
   "name": "gemini-2.0-flash-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-06-02",
+  "last_updated": "2026-07-24",
   "family": "gemini-2.0",
   "status": "deprecated",
   "capabilities": {
@@ -42,11 +42,11 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "deprecation_date": "80eaf594",
-    "successor": "4a9bff89"
+    "successor": "53a6c3eb"
   },
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
   "deprecation_date": "2026-06-01",
-  "successor": "gemini-3.5-flash"
+  "successor": "gemini-3.6-flash"
 }

@@ -1,0 +1,43 @@
+{
+  "id": "OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+  "name": "gemma-4-E4B-it-OBLITERATED",
+  "created_by": "obliteratus",
+  "source": "official",
+  "family": "gemma-4",
+  "description": "> *\"The chains are broken. The mind is free.\"* > *\"Also we fixed the part where half the brain was missing lmao\"*",
+  "release_date": "2026-04-15",
+  "license": "apache-2.0",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "> *\"The chains are broken.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "41e868cc",
+    "family": "811b6704",
+    "description": "cdce2e2d",
+    "release_date": "45ecd7af",
+    "license": "60245731",
+    "parameters": "c9f0f895",
+    "page_url": "01a325f7",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "08ce6f23",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-24"
+}

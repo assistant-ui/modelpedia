@@ -1,0 +1,31 @@
+{
+  "id": "gemini-3.5-flash-lite",
+  "name": "Gemini 3.5 Flash Lite",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.5",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 2.5,
+    "cached_input": 0.03
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "695b62fa",
+    "family": "098fdb91",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "1a0e496e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-24"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "meituan/longcat-2.0",
+  "name": "Meituan: LongCat 2.0",
+  "created_by": "meituan",
+  "source": "official",
+  "description": "LongCat 2.0 is a sparse mixture-of-experts language model from Meituan, with 48B active parameters out of 1.6T total.",
+  "release_date": "2026-07-20",
+  "context_window": 1048756,
+  "max_output_tokens": 262144,
+  "tagline": "LongCat 2.0 is a sparse mixture-of-experts language model from Meituan, with 48B active parameters out of 1.6T total.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.2,
+    "cached_input": 0.006
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6526202f",
+    "description": "620ad5e7",
+    "release_date": "7047ff2b",
+    "context_window": "b8f79e80",
+    "max_output_tokens": "4a1d32eb",
+    "tagline": "620ad5e7",
+    "capabilities": "05723a3e",
+    "modalities": "68e53d93",
+    "pricing": "a9b69dbc",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-24"
+}

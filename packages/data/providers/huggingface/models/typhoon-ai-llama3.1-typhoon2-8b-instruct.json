@@ -1,0 +1,43 @@
+{
+  "id": "typhoon-ai/llama3.1-typhoon2-8b-instruct",
+  "name": "llama3.1-typhoon2-8b-instruct",
+  "created_by": "typhoon-ai",
+  "source": "official",
+  "description": "**Llama3.1-Typhoon2-8B**: Thai Large Language Model (Instruct)",
+  "release_date": "2024-12-15",
+  "context_window": 131072,
+  "license": "llama3.1",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/typhoon-ai/llama3.1-typhoon2-8b-instruct",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "**Llama3.1-Typhoon2-8B**: Thai Large Language Model (Instruct)",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "00d2f683",
+    "description": "fc7adb30",
+    "release_date": "bc8d4184",
+    "context_window": "f7de594e",
+    "license": "2464c384",
+    "parameters": "c9f0f895",
+    "page_url": "8b3f9190",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "fc7adb30",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-24"
+}

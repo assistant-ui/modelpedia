@@ -6,7 +6,7 @@
   "family": "mimo",
   "description": "MiMo-V2.5 is a native omnimodal model by Xiaomi.",
   "release_date": "2026-04-22",
-  "context_window": 1048576,
+  "context_window": 1050000,
   "max_output_tokens": 131072,
   "model_type": "chat",
   "tagline": "MiMo-V2.5 is a native omnimodal model by Xiaomi.",
@@ -31,7 +31,7 @@
     "family": "1a23786e",
     "description": "f42ecddc",
     "release_date": "c48b287d",
-    "context_window": "7d28a051",
+    "context_window": "f170ebb2",
     "max_output_tokens": "f7de594e",
     "model_type": "d669f408",
     "tagline": "f42ecddc",
@@ -40,5 +40,5 @@
     "pricing": "597e8c5c",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-24"
 }

@@ -1,0 +1,32 @@
+{
+  "id": "openrouter/auto-beta",
+  "name": "Auto Router (Beta)",
+  "created_by": "openrouter",
+  "source": "official",
+  "description": "Auto Router (Beta) is a task-aware router from OpenRouter.",
+  "release_date": "2026-07-17",
+  "context_window": 2000000,
+  "tagline": "Auto Router (Beta) is a task-aware router from OpenRouter.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio", "video"],
+    "output": ["text", "image"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "bc076d6d",
+    "description": "bc846341",
+    "release_date": "4d92f2b5",
+    "context_window": "805f7438",
+    "tagline": "bc846341",
+    "capabilities": "03fbefb4",
+    "modalities": "bedbbc8b",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-24"
+}
