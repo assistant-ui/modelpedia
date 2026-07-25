@@ -1,0 +1,39 @@
+{
+  "id": "mindai/macaron-v1-venti",
+  "name": "Macaron V1 Venti",
+  "created_by": "mindai",
+  "source": "official",
+  "description": "Macaron-V1-Venti is a 748B-parameter flagship model in the Macaron-V1 family, built for personal intelligence, tool use, coding workflows, and code-native Generative UI.",
+  "status": "active",
+  "release_date": "2026-07-21",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "Macaron-V1-Venti is a 748B-parameter flagship model in the Macaron-V1 family, built for personal intelligence, tool use, coding workflows, and code-native Generative UI.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "7c9fbd3f",
+    "description": "676128ff",
+    "status": "379ac110",
+    "release_date": "db9f0f5f",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "676128ff",
+    "capabilities": "3d69c795",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-25"
+}

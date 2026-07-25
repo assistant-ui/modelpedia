@@ -3,7 +3,7 @@
   "name": "Z.ai: GLM 4.5V",
   "created_by": "z-ai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-25",
   "description": "GLM-4.5V is a vision-language foundation model for multimodal agent applications.",
   "context_window": 65536,
   "max_output_tokens": 16384,
@@ -34,11 +34,15 @@
     "model_type": "d669f408",
     "release_date": "fdb8af5f",
     "tagline": "1817733f",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc",
+    "deprecation_date": "e86db669"
   },
   "family": "glm-4.5",
   "model_type": "chat",
   "release_date": "2025-08-11",
   "tagline": "GLM-4.5V is a vision-language foundation model for multimodal agent applications.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated",
+  "deprecation_date": "2026-12-31"
 }

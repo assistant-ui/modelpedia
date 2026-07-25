@@ -11,7 +11,7 @@
   "page_url": "https://huggingface.co/stabilityai/stable-audio-3-optimized",
   "open_weight": true,
   "tagline": "Stable Audio 3 Optimized is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "huggingface_downloads": 1652,
+  "huggingface_downloads": 1675,
   "last_modified": "2026-07-15",
   "_generated": {
     "name": "c97520a6",
@@ -23,8 +23,8 @@
     "page_url": "8e90adbc",
     "open_weight": "b326b506",
     "tagline": "7147e189",
-    "huggingface_downloads": "207f8801",
+    "huggingface_downloads": "64f1f27b",
     "last_modified": "c65392cc"
   },
-  "last_updated": "2026-07-24"
+  "last_updated": "2026-07-25"
 }

@@ -1,0 +1,44 @@
+{
+  "id": "anthropic/claude-opus-5-fast",
+  "name": "Claude Opus 5 (Fast)",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "description": "Fast-mode variant of [Opus 5](/anthropic/claude-opus-5) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 5.",
+  "release_date": "2026-07-24",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "Fast-mode variant of [Opus 5](/anthropic/claude-opus-5) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 5.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 10,
+    "output": 50,
+    "cached_input": 1
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "25228a22",
+    "family": "4e4c4b18",
+    "description": "09016475",
+    "release_date": "4e26714b",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "09016475",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "69490ea7",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-25"
+}
