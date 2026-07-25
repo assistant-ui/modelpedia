@@ -1,0 +1,24 @@
+{
+  "id": "sonilo/v1.1/video-to-video-sound-effects",
+  "name": "V1.1 Video to Video Sound Effects",
+  "created_by": "sonilo",
+  "source": "official",
+  "description": "Adds synchronized, royalty-free, commercial-use-safe sound effects to a video.",
+  "status": "active",
+  "release_date": "2026-07-20",
+  "model_type": "other",
+  "page_url": "https://fal.run/sonilo/v1.1/video-to-video-sound-effects",
+  "tagline": "Adds synchronized, royalty-free, commercial-use-safe sound effects to a video.",
+  "last_seen_at": "2026-07-21",
+  "_generated": {
+    "name": "03b43eaa",
+    "description": "d5ebf55e",
+    "status": "379ac110",
+    "release_date": "7047ff2b",
+    "model_type": "ddb0b7bc",
+    "page_url": "94ce76a5",
+    "tagline": "d5ebf55e",
+    "last_seen_at": "db9f0f5f"
+  },
+  "last_updated": "2026-07-24"
+}

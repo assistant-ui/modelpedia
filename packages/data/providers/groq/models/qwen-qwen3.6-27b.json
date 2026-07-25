@@ -6,7 +6,7 @@
   "family": "qwen3.6",
   "status": "preview",
   "context_window": 131072,
-  "max_output_tokens": 32768,
+  "max_output_tokens": 16384,
   "model_type": "chat",
   "parameters": 27,
   "speed": 500,
@@ -30,7 +30,7 @@
     "family": "1bc2d26f",
     "status": "127aecde",
     "context_window": "f7de594e",
-    "max_output_tokens": "f4376436",
+    "max_output_tokens": "c76fe1d8",
     "model_type": "d669f408",
     "parameters": "02e74f10",
     "speed": "cee63112",
@@ -40,5 +40,5 @@
     "pricing": "2209d9dc",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-07-24"
 }

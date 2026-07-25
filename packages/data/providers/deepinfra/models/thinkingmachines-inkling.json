@@ -1,0 +1,49 @@
+{
+  "id": "thinkingmachines/Inkling",
+  "name": "Inkling",
+  "created_by": "thinkingmachines",
+  "source": "official",
+  "description": "Inkling is a general-purpose multimodal model that accepts text, image and audio inputs and generates text outputs.",
+  "status": "active",
+  "context_window": 131072,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "tagline": "Inkling is a general-purpose multimodal model that accepts text, image and audio inputs and generates text outputs.",
+  "capabilities": {
+    "tool_call": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 4.05,
+    "cached_input": 0.17
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "_generated": {
+    "name": "52636cd3",
+    "description": "8ac04521",
+    "status": "379ac110",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "tagline": "8ac04521",
+    "capabilities": "70af0a43",
+    "modalities": "6399757e",
+    "pricing": "2b9ec52a",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9"
+  },
+  "last_updated": "2026-07-24"
+}

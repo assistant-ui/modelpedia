@@ -1,0 +1,16 @@
+{
+  "id": "varad-13/siglip-2-large",
+  "name": "Siglip 2 Large",
+  "created_by": "varad-13",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/varad-13/siglip-2-large",
+  "_generated": {
+    "name": "dd0bf85b",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "7bc9bd7d"
+  },
+  "last_updated": "2026-07-24"
+}

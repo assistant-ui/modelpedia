@@ -5,7 +5,7 @@
   "source": "official",
   "description": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration.",
   "release_date": "2026-03-27",
-  "context_window": 256000,
+  "context_window": 262144,
   "max_output_tokens": 80000,
   "tagline": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration.",
   "capabilities": {
@@ -27,7 +27,7 @@
     "name": "8ea58a03",
     "description": "03f5d3de",
     "release_date": "d7d7ff90",
-    "context_window": "2fd324cb",
+    "context_window": "4a1d32eb",
     "max_output_tokens": "144fdd8b",
     "tagline": "03f5d3de",
     "capabilities": "6c9aa67e",
@@ -35,5 +35,5 @@
     "pricing": "0c734839",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-01"
+  "last_updated": "2026-07-24"
 }

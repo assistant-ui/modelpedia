@@ -1,0 +1,39 @@
+{
+  "id": "inclusionai/ling-3.0-flash",
+  "name": "Ling-3.0-flash",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "Ling-3.0-flash is a 124B-parameter Mixture-of-Experts (MoE) model, with approximately 5.1B parameters activated per token.",
+  "status": "active",
+  "release_date": "2026-07-22",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "tagline": "Ling-3.0-flash is a 124B-parameter Mixture-of-Experts (MoE) model, with approximately 5.1B parameters activated per token.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "bd6bbc85",
+    "description": "9c3e37e8",
+    "status": "379ac110",
+    "release_date": "79f611df",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "tagline": "9c3e37e8",
+    "capabilities": "3d69c795",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-24"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "google/gemini-3.5-flash-lite",
+  "name": "Google: Gemini 3.5 Flash Lite",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.5",
+  "description": "Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities.",
+  "release_date": "2026-07-21",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 2.5,
+    "cached_input": 0.03
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a5ee85f5",
+    "family": "098fdb91",
+    "description": "46ba43df",
+    "release_date": "db9f0f5f",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "46ba43df",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "1a0e496e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-24"
+}

@@ -12,7 +12,7 @@
   },
   "pricing": {
     "input": 1,
-    "output": 0.06,
+    "output": 0.059,
     "cached_input": 0.3
   },
   "modalities": {
@@ -26,8 +26,8 @@
     "page_url": "fe1d3a98",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "pricing": "58877f6d",
+    "pricing": "5a3f1f93",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-24"
 }

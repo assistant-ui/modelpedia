@@ -1,0 +1,41 @@
+{
+  "id": "DreamFast/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark",
+  "name": "Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark",
+  "created_by": "dreamfast",
+  "source": "official",
+  "description": "> Forensic analysis by [Abliterlitics](https://github.com/dreamfast/abliterlitics), open-source abliteration forensics toolkit",
+  "release_date": "2026-04-30",
+  "license": "apache-2.0",
+  "parameters": 28,
+  "page_url": "https://huggingface.co/DreamFast/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "> Forensic analysis by [Abliterlitics](https://github.com/dreamfast/abliterlitics), open-source abliteration forensics toolkit",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "af96d986",
+    "description": "5305f09a",
+    "release_date": "a53a2b69",
+    "license": "60245731",
+    "parameters": "33e75ff0",
+    "page_url": "29c1e000",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "5305f09a",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-24"
+}

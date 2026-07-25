@@ -1,0 +1,30 @@
+{
+  "id": "qwen-audio-3.0-tts-flash",
+  "name": "qwen-audio-3.0-tts-flash",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen",
+  "model_type": "tts",
+  "license": "apache-2.0",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/tts-model",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "458dffa9",
+    "family": "a3af76f3",
+    "model_type": "4e16a2cf",
+    "license": "60245731",
+    "page_url": "da2101f3",
+    "capabilities": "9c665f5d",
+    "modalities": "601e776d",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-07-24"
+}

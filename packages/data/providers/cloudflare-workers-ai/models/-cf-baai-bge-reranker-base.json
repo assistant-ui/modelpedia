@@ -3,14 +3,14 @@
   "name": "bge-reranker-base",
   "created_by": "baai",
   "source": "official",
-  "last_updated": "2026-04-16",
-  "model_type": "rerank",
+  "last_updated": "2026-07-24",
+  "model_type": "embed",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "79dae5ae",
-    "model_type": "477930e6",
+    "model_type": "764cb3de",
     "capabilities": "0fa77dc6",
     "status": "379ac110",
     "page_url": "047f5ee7"

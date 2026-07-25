@@ -3,10 +3,10 @@
   "name": "Meta: Llama 3.2 1B Instruct",
   "created_by": "meta-llama",
   "source": "official",
-  "last_updated": "2026-05-23",
+  "last_updated": "2026-07-24",
   "family": "llama-3.2",
   "description": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis.",
-  "context_window": 131072,
+  "context_window": 60000,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -19,7 +19,7 @@
     "name": "38d7d766",
     "family": "d4c42ce9",
     "description": "3aa07395",
-    "context_window": "f7de594e",
+    "context_window": "2b4226dd",
     "modalities": "68e53d93",
     "pricing": "93455704",
     "model_type": "d669f408",

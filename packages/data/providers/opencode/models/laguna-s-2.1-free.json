@@ -1,0 +1,16 @@
+{
+  "id": "laguna-s-2.1-free",
+  "name": "Laguna S 2.1 Free",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "3ce7767a",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-07-24"
+}

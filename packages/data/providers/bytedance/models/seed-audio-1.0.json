@@ -1,0 +1,31 @@
+{
+  "id": "seed-audio-1.0",
+  "name": "Seed Audio 1.0",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Designed for full-scene audio generation, it enables end-to-end film-grade audio creation.",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://seed.bytedance.com/en/seedaudio1_0",
+  "tagline": "Designed for full-scene audio generation, it enables end-to-end film-grade audio creation.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "39ce3d49",
+    "description": "a1d8983b",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "e27dc836",
+    "tagline": "a1d8983b",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-07-24"
+}

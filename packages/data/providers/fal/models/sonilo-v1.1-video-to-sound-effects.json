@@ -1,0 +1,24 @@
+{
+  "id": "sonilo/v1.1/video-to-sound-effects",
+  "name": "V1.1 Video to Sound Effects",
+  "created_by": "sonilo",
+  "source": "official",
+  "description": "Analyzes a video and generates synchronized, royalty-free sound effects timed to visible actions.",
+  "status": "active",
+  "release_date": "2026-07-20",
+  "model_type": "other",
+  "page_url": "https://fal.run/sonilo/v1.1/video-to-sound-effects",
+  "tagline": "Analyzes a video and generates synchronized, royalty-free sound effects timed to visible actions.",
+  "last_seen_at": "2026-07-21",
+  "_generated": {
+    "name": "be90c3ee",
+    "description": "7c948d57",
+    "status": "379ac110",
+    "release_date": "7047ff2b",
+    "model_type": "ddb0b7bc",
+    "page_url": "9246289c",
+    "tagline": "7c948d57",
+    "last_seen_at": "db9f0f5f"
+  },
+  "last_updated": "2026-07-24"
+}

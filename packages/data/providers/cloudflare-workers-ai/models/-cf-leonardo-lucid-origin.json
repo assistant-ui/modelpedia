@@ -3,16 +3,18 @@
   "name": "lucid-origin",
   "created_by": "leonardo",
   "source": "official",
-  "last_updated": "2026-04-16",
+  "last_updated": "2026-07-24",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "1c5194e3",
     "capabilities": "0fa77dc6",
-    "status": "127aecde",
-    "page_url": "506eeb60"
+    "status": "379ac110",
+    "page_url": "506eeb60",
+    "model_type": "db8857fe"
   },
-  "status": "preview",
-  "page_url": "https://developers.cloudflare.com/workers-ai/models/#lucid-origin"
+  "status": "active",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#lucid-origin",
+  "model_type": "image"
 }

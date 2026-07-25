@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/sonilo/v1.1/text-to-music",
   "tagline": "Generates production-ready music from a single text prompt, with full control over style, mood, instrumentation, and exact duration.",
-  "last_seen_at": "2026-07-15",
+  "last_seen_at": "2026-07-21",
   "_generated": {
     "name": "88b93072",
     "description": "25a0dfc9",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "edeb1932",
     "tagline": "3aa7b3d4",
-    "last_seen_at": "c65392cc"
+    "last_seen_at": "db9f0f5f"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-24"
 }

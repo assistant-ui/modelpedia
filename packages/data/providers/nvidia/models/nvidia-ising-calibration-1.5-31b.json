@@ -1,0 +1,16 @@
+{
+  "id": "nvidia/ising-calibration-1.5-31b",
+  "name": "ising-calibration-1.5-31b",
+  "created_by": "nvidia",
+  "source": "official",
+  "parameters": 31,
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "d9004a50",
+    "parameters": "c16a5320",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-07-24"
+}

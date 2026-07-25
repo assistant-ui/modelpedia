@@ -3,10 +3,10 @@
   "name": "ReMM SLERP 13B",
   "created_by": "undi95",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-24",
   "description": "A recreation trial of the original MythoMax-L2-B13 but with updated models.",
   "context_window": 6144,
-  "max_output_tokens": 4096,
+  "max_output_tokens": 2048,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -23,7 +23,7 @@
     "name": "a71fcb35",
     "description": "29340574",
     "context_window": "197f76fe",
-    "max_output_tokens": "f7efa4f8",
+    "max_output_tokens": "05192834",
     "modalities": "68e53d93",
     "capabilities": "dbb5b7fe",
     "pricing": "dfa98efa",
