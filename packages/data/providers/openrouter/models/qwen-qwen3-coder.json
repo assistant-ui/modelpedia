@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 Coder 480B A35B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-25",
   "family": "qwen3",
   "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team.",
   "context_window": 262144,
@@ -17,8 +17,8 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.38,
-    "output": 1.55,
+    "input": 0.3,
+    "output": 1,
     "cached_input": 0.1
   },
   "_generated": {
@@ -28,7 +28,7 @@
     "context_window": "4a1d32eb",
     "modalities": "68e53d93",
     "capabilities": "6c9aa67e",
-    "pricing": "13a879a6",
+    "pricing": "6495223c",
     "model_type": "b6cc3ff4",
     "parameters": "6ea2ef73",
     "active_parameters": "1c383cd3",

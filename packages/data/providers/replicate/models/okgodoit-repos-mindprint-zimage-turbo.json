@@ -1,0 +1,27 @@
+{
+  "id": "okgodoit-repos/mindprint-zimage-turbo",
+  "name": "Mindprint Zimage Turbo",
+  "created_by": "okgodoit-repos",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/okgodoit-repos/mindprint-zimage-turbo",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "8852c445",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "03bff6ae",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-07-25"
+}

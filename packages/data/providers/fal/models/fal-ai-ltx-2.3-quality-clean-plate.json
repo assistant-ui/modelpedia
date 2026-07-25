@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/ltx-2.3-quality/clean-plate",
+  "name": "Ltx 2.3 Quality",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Remove character from your video using Ltx 2.3",
+  "status": "active",
+  "release_date": "2026-07-24",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/ltx-2.3-quality/clean-plate",
+  "tagline": "Remove character from your video using Ltx 2.3",
+  "last_seen_at": "2026-07-24",
+  "_generated": {
+    "name": "a69880de",
+    "description": "593674f0",
+    "status": "379ac110",
+    "release_date": "4e26714b",
+    "model_type": "ddb0b7bc",
+    "page_url": "3cab0ef6",
+    "tagline": "593674f0",
+    "last_seen_at": "4e26714b"
+  },
+  "last_updated": "2026-07-25"
+}

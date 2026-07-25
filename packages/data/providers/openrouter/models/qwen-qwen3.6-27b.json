@@ -7,7 +7,7 @@
   "description": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026.",
   "release_date": "2026-04-27",
   "context_window": 262144,
-  "max_output_tokens": 65536,
+  "max_output_tokens": 131072,
   "parameters": 27,
   "model_type": "chat",
   "tagline": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026.",
@@ -22,7 +22,7 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.288,
+    "input": 0.289,
     "output": 2.4,
     "cached_input": 0.15
   },
@@ -33,14 +33,14 @@
     "description": "560f3f2f",
     "release_date": "79a25cd1",
     "context_window": "4a1d32eb",
-    "max_output_tokens": "297ce0b3",
+    "max_output_tokens": "f7de594e",
     "parameters": "02e74f10",
     "model_type": "d669f408",
     "tagline": "560f3f2f",
     "capabilities": "03fbefb4",
     "modalities": "3ad4060a",
-    "pricing": "14288199",
+    "pricing": "660d64ae",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-24"
+  "last_updated": "2026-07-25"
 }

@@ -3,7 +3,7 @@
   "name": "Meta-Llama-3.1-8B-Instruct-Turbo",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-25",
   "family": "Llama-3.1",
   "description": "Meta developed and released the Meta Llama 3.1 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8B, 70B and 405B sizes",
   "status": "active",
@@ -22,7 +22,7 @@
   },
   "pricing": {
     "input": 0.02,
-    "output": 0.03
+    "output": 0.04
   },
   "tools": ["function_calling"],
   "endpoints": ["chat_completions"],
@@ -39,7 +39,7 @@
     "open_weight": "b326b506",
     "capabilities": "6374a2f8",
     "modalities": "68e53d93",
-    "pricing": "8780d348",
+    "pricing": "6fc99b9e",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "640679f9",
