@@ -3,7 +3,7 @@
   "name": "mistral-nemo-2407",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-07-30",
   "status": "active",
   "context_window": 128000,
   "alias": "mistral-nemo",
@@ -14,7 +14,7 @@
     "fine_tuning": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "pricing": {
@@ -26,7 +26,7 @@
     "status": "379ac110",
     "context_window": "34434798",
     "capabilities": "62b3fd83",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "pricing": "16a72b67",
     "model_type": "d669f408",
     "family": "75e1af53",

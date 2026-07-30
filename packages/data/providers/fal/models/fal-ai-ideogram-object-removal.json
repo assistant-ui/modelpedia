@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/ideogram/object-removal",
+  "name": "Ideogram Object Removal",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Prompt-free object removal from an image and mask, erasing objects with their shadows and reflections and reconstructing the scene cleanly.",
+  "status": "active",
+  "release_date": "2026-07-29",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/ideogram/object-removal",
+  "tagline": "Prompt-free object removal from an image and mask, erasing objects with their shadows and reflections and reconstructing the scene cleanly.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-07-29",
+  "_generated": {
+    "name": "2aeab1fe",
+    "description": "332c9bc6",
+    "status": "379ac110",
+    "release_date": "1e733828",
+    "model_type": "db8857fe",
+    "page_url": "7be43be8",
+    "tagline": "332c9bc6",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "1e733828"
+  },
+  "last_updated": "2026-07-30"
+}

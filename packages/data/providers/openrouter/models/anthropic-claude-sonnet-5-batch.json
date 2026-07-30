@@ -1,0 +1,44 @@
+{
+  "id": "anthropic/claude-sonnet-5:batch",
+  "name": "Anthropic: Claude Sonnet 5 (batch)",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-sonnet",
+  "description": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work.",
+  "release_date": "2026-06-30",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 5,
+    "cached_input": 0.1
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "416ee62d",
+    "family": "68d1c457",
+    "description": "5de7f38c",
+    "release_date": "ebf8cb32",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "5de7f38c",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "cc700ee3",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-30"
+}

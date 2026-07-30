@@ -3,7 +3,7 @@
   "name": "magistral-medium-2506",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-07-30",
   "status": "deprecated",
   "deprecation_date": "2025-10-31",
   "context_window": 40000,
@@ -14,7 +14,7 @@
     "tool_call": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "pricing": {
@@ -27,7 +27,7 @@
     "deprecation_date": "2bddea11",
     "context_window": "7c77f048",
     "capabilities": "fc36814c",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "pricing": "383111d1",
     "model_type": "17475f7f",
     "family": "b2c75a88",

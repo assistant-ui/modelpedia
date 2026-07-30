@@ -17,7 +17,7 @@
     "fine_tuning": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "open_weight": true,
@@ -33,9 +33,9 @@
     "model_type": "4e16a2cf",
     "tagline": "619b997e",
     "capabilities": "4e827c07",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-07-30"
 }

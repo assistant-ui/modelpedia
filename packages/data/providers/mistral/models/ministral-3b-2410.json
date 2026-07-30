@@ -3,7 +3,7 @@
   "name": "ministral-3b-2410",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-07-30",
   "family": "ministral",
   "status": "deprecated",
   "deprecation_date": "2025-12-02",
@@ -16,7 +16,7 @@
     "fine_tuning": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "pricing": {
@@ -30,7 +30,7 @@
     "deprecation_date": "75f289bd",
     "context_window": "34434798",
     "capabilities": "62b3fd83",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "pricing": "dabb026f",
     "model_type": "d669f408",
     "license": "60245731",

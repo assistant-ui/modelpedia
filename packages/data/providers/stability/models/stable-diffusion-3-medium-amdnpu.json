@@ -20,8 +20,8 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "huggingface_downloads": 24,
-  "last_modified": "2026-05-05",
+  "huggingface_downloads": 20,
+  "last_modified": "2026-07-28",
   "_generated": {
     "name": "64ed1575",
     "description": "b6f0e4ff",
@@ -35,8 +35,8 @@
     "capabilities": "ea60b262",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc",
-    "huggingface_downloads": "1ff1de77",
-    "last_modified": "ab530d19"
+    "huggingface_downloads": "98f13708",
+    "last_modified": "b4e99da9"
   },
-  "last_updated": "2026-07-24"
+  "last_updated": "2026-07-30"
 }

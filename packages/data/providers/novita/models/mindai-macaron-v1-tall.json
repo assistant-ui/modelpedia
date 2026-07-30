@@ -1,0 +1,39 @@
+{
+  "id": "mindai/macaron-v1-tall",
+  "name": "Macaron V1 Tall",
+  "created_by": "mindai",
+  "source": "official",
+  "description": "Macaron-V1-Tall is the efficient model of the Macaron-V1 family, built on Qwen3.6-35B-A3B with four specialist LoRA adapters for Chat, Agent, Coding, and GenUI.",
+  "status": "active",
+  "release_date": "2026-07-15",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "tagline": "Macaron-V1-Tall is the efficient model of the Macaron-V1 family, built on Qwen3.6-35B-A3B with four specialist LoRA adapters for Chat, Agent, Coding, and GenUI.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6e981ebc",
+    "description": "6159f0b8",
+    "status": "379ac110",
+    "release_date": "c65392cc",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "tagline": "6159f0b8",
+    "capabilities": "3d69c795",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-30"
+}

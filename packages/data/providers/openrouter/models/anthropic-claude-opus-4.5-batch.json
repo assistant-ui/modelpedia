@@ -1,0 +1,44 @@
+{
+  "id": "anthropic/claude-opus-4.5:batch",
+  "name": "Anthropic: Claude Opus 4.5 (batch)",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "description": "Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use.",
+  "release_date": "2025-11-24",
+  "context_window": 200000,
+  "max_output_tokens": 64000,
+  "model_type": "chat",
+  "tagline": "Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 12.5,
+    "cached_input": 0.25
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a6f9e1d8",
+    "family": "4e4c4b18",
+    "description": "0a42caa4",
+    "release_date": "4d88f8bb",
+    "context_window": "03e6c616",
+    "max_output_tokens": "762e98db",
+    "model_type": "d669f408",
+    "tagline": "0a42caa4",
+    "capabilities": "03fbefb4",
+    "modalities": "8b8b28d1",
+    "pricing": "79daca45",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-30"
+}

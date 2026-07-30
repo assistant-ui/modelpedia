@@ -1,0 +1,27 @@
+{
+  "id": "gpt-live-transcribe",
+  "name": "gpt-live-transcribe",
+  "created_by": "openai",
+  "source": "official",
+  "description": "Audio model for real-time low-latency transcription. Current recommended model for realtime transcription scenarios.",
+  "knowledge_cutoff": "2024-09",
+  "model_type": "transcription",
+  "tagline": "Audio model for real-time low-latency transcription.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "829f2d5f",
+    "description": "bc40a387",
+    "knowledge_cutoff": "b0196d6e",
+    "model_type": "5e12d29a",
+    "tagline": "d40b865d",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-30"
+}

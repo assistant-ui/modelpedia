@@ -1,0 +1,44 @@
+{
+  "id": "anthropic/claude-opus-4.6:batch",
+  "name": "Anthropic: Claude Opus 4.6 (batch)",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "description": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks.",
+  "release_date": "2026-02-04",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 12.5,
+    "cached_input": 0.25
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "22f2e5ef",
+    "family": "4e4c4b18",
+    "description": "f2f659b6",
+    "release_date": "7e13f8bd",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "f2f659b6",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "79daca45",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-30"
+}

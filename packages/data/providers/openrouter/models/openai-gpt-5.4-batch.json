@@ -1,0 +1,44 @@
+{
+  "id": "openai/gpt-5.4:batch",
+  "name": "OpenAI: GPT-5.4 (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.4",
+  "description": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system.",
+  "release_date": "2026-03-05",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 7.5,
+    "cached_input": 0.125
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "aa276383",
+    "family": "4651e8f0",
+    "description": "069d9556",
+    "release_date": "e6626ce2",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "069d9556",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "b14b5062",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-30"
+}

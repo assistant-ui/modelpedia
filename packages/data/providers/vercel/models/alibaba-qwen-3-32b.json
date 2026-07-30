@@ -3,9 +3,9 @@
   "name": "qwen-3-32b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-30",
   "family": "qwen",
-  "context_window": 131100,
+  "context_window": 128000,
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "a9778359",
     "family": "a3af76f3",
-    "context_window": "a683b9ae",
+    "context_window": "34434798",
     "capabilities": "a281e83a",
     "pricing": "53952343",
     "model_type": "d669f408",

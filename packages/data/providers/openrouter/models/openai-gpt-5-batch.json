@@ -1,0 +1,42 @@
+{
+  "id": "openai/gpt-5:batch",
+  "name": "OpenAI: GPT-5 (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "description": "GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience.",
+  "release_date": "2025-08-07",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.625,
+    "output": 5,
+    "cached_input": 0.063
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "edd7aec7",
+    "description": "375d0060",
+    "release_date": "79c30d0c",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "375d0060",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "81c0386d",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-30"
+}

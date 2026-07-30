@@ -1,0 +1,62 @@
+{
+  "id": "gpt-live-transcribe",
+  "name": "GPT Live Transcribe",
+  "created_by": "openai",
+  "source": "official",
+  "description": "GPT Live Transcribe is a streaming speech-to-text model for applications that need low-latency transcript deltas from live audio. It supports tunable latency, unstructured context, keyword hints, and multiple language hints.",
+  "status": "active",
+  "model_type": "transcription",
+  "license": "proprietary",
+  "performance": 5,
+  "speed": 5,
+  "tagline": "Low-latency speech-to-text model for realtime transcription",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-live-transcribe",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
+  },
+  "modalities": {
+    "input": ["audio", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Realtime audio duration",
+        "unit": "Per minute",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.017]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["realtime_transcription"],
+  "snapshots": ["gpt-live-transcribe"],
+  "_generated": {
+    "name": "d491e3e2",
+    "description": "65cfa0f8",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "license": "9186c466",
+    "performance": "e4da3b7f",
+    "speed": "e4da3b7f",
+    "tagline": "67a1da14",
+    "page_url": "7ae80ce4",
+    "open_weight": "68934a3e",
+    "capabilities": "51394a4e",
+    "modalities": "7cee5e0e",
+    "pricing": "6881f22c",
+    "endpoints": "76a91d48"
+  },
+  "last_updated": "2026-07-30"
+}

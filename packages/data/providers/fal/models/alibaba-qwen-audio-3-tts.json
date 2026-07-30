@@ -1,0 +1,33 @@
+{
+  "id": "alibaba/qwen-audio-3-tts",
+  "name": "Qwen Audio 3.0 TTS (Flash)",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen",
+  "description": "Generate natural multilingual speech from text with fast voice and language control using Qwen Audio 3.0 TTS Flash.",
+  "status": "active",
+  "release_date": "2026-07-22",
+  "model_type": "tts",
+  "page_url": "https://fal.run/alibaba/qwen-audio-3-tts",
+  "tagline": "Generate natural multilingual speech from text with fast voice and language control using Qwen Audio 3.0 TTS Flash.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-07-29",
+  "_generated": {
+    "name": "4a401a46",
+    "family": "a3af76f3",
+    "description": "d6320828",
+    "status": "379ac110",
+    "release_date": "79f611df",
+    "model_type": "4e16a2cf",
+    "page_url": "6ca48952",
+    "tagline": "d6320828",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "1e733828"
+  },
+  "last_updated": "2026-07-30"
+}

@@ -3,7 +3,7 @@
   "name": "devstral-medium-latest",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-07-30",
   "family": "devstral",
   "status": "active",
   "context_window": 256000,
@@ -13,7 +13,7 @@
     "tool_call": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "pricing": {
@@ -27,7 +27,7 @@
     "status": "379ac110",
     "context_window": "2fd324cb",
     "capabilities": "fc36814c",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "pricing": "70b90c36",
     "model_type": "b6cc3ff4",
     "license": "9186c466",

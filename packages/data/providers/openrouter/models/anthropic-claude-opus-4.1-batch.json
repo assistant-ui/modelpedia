@@ -1,0 +1,44 @@
+{
+  "id": "anthropic/claude-opus-4.1:batch",
+  "name": "Anthropic: Claude Opus 4.1 (batch)",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "description": "Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks.",
+  "release_date": "2025-08-05",
+  "context_window": 200000,
+  "max_output_tokens": 32000,
+  "model_type": "chat",
+  "tagline": "Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 7.5,
+    "output": 37.5,
+    "cached_input": 0.75
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f182f7a1",
+    "family": "4e4c4b18",
+    "description": "a525e62d",
+    "release_date": "67086b15",
+    "context_window": "03e6c616",
+    "max_output_tokens": "10e4d788",
+    "model_type": "d669f408",
+    "tagline": "a525e62d",
+    "capabilities": "03fbefb4",
+    "modalities": "8b8b28d1",
+    "pricing": "f6131c5d",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-30"
+}

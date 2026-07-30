@@ -1,0 +1,35 @@
+{
+  "id": "moonshotai/kimi-k3-fast",
+  "name": "kimi-k3-fast",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k3",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 4.5,
+    "output": 22.5
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "345fc976",
+    "family": "73e8093c",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "bd409817",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-30"
+}

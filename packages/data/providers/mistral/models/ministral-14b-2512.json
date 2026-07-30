@@ -3,7 +3,7 @@
   "name": "ministral-14b-2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-07-30",
   "family": "ministral",
   "status": "active",
   "context_window": 256000,
@@ -15,7 +15,7 @@
     "fine_tuning": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "pricing": {
@@ -28,7 +28,7 @@
     "status": "379ac110",
     "context_window": "2fd324cb",
     "capabilities": "62b3fd83",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "pricing": "ee3b139d",
     "model_type": "d669f408",
     "license": "60245731",

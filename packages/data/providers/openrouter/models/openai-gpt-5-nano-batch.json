@@ -1,0 +1,44 @@
+{
+  "id": "openai/gpt-5-nano:batch",
+  "name": "OpenAI: GPT-5 Nano (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5",
+  "description": "GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments.",
+  "release_date": "2025-08-07",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.025,
+    "output": 0.2,
+    "cached_input": 0.003
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f8f1ce90",
+    "family": "aa904c16",
+    "description": "aeab06e6",
+    "release_date": "79c30d0c",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "aeab06e6",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "247fe8d8",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-30"
+}
