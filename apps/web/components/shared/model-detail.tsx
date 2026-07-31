@@ -3,6 +3,7 @@ import { Tooltip } from "@/components/ui/tooltip";
 import { cn } from "@/lib/cn";
 import { PERF_LABELS, REASONING_LABELS, SPEED_LABELS } from "@/lib/constants";
 import { formatPrice } from "@/lib/format";
+import { formatPct, type PriceDelta } from "@/lib/price-history";
 
 export function InheritedBadge({ from }: { from?: string }) {
   return (
@@ -136,9 +137,11 @@ export function DetailCell({
 export function PriceCell({
   label,
   value,
+  delta,
 }: {
   label: string;
   value?: number | null;
+  delta?: PriceDelta | null;
 }) {
   return (
     <div className="bg-background px-4 py-3">
@@ -146,6 +149,22 @@ export function PriceCell({
       <div className="text-foreground mt-1 font-mono font-medium">
         {formatPrice(value)}
       </div>
+      {delta && (
+        <div className="mt-0.5 flex items-baseline gap-1.5 font-mono text-xs">
+          <span
+            className={
+              delta.pct < 0
+                ? "text-green-600 dark:text-green-400"
+                : "text-red-600 dark:text-red-400"
+            }
+          >
+            {formatPct(delta.pct)}
+          </span>
+          <span className="text-muted-foreground/50 line-through">
+            {formatPrice(delta.from)}
+          </span>
+        </div>
+      )}
     </div>
   );
 }

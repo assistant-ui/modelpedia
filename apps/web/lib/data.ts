@@ -2,6 +2,7 @@ import type { Model, ProviderWithModels } from "@modelpedia/data";
 import {
   allModels as _allModels,
   getModel as _getModel,
+  getPriceHistory as _getPriceHistory,
   getProvider as _getProvider,
   providers as _providers,
   getActiveModels,
@@ -9,6 +10,8 @@ import {
   getModelsByCreator,
   getModelsByFamily,
   getModelsByProvider,
+  getPriceChanges,
+  priceHistory,
 } from "@modelpedia/data";
 import { normalizeModelId } from "./search";
 
@@ -17,6 +20,8 @@ export type {
   ModelCapabilities,
   ModelData,
   ModelPricing,
+  PriceField,
+  PricePoint,
   Provider,
   ProviderWithModels,
 } from "@modelpedia/data";
@@ -39,6 +44,9 @@ export {
   getModelsByCreator,
   getModelsByFamily,
   getModelsByProvider,
+  getPriceChanges,
+  priceHistory,
+  _getPriceHistory as getPriceHistory,
 };
 
 const INHERITABLE_FIELDS = [

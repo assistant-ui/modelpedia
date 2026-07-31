@@ -1,21 +1,36 @@
+import { PriceHistory } from "@/components/pages/model/id/price-history";
 import { PriceCell } from "@/components/shared/model-detail";
 import { Section } from "@/components/ui/section";
 import { cn } from "@/lib/cn";
 import type { ModelPricing } from "@/lib/data";
+import {
+  latestPriceDelta,
+  type ResolvedPriceHistory,
+} from "@/lib/price-history";
 
 export function PricingSection({
   pricing,
   pricingNotes,
   fastModePricing,
+  history,
+  provider,
+  today,
 }: {
   pricing: ModelPricing;
   pricingNotes?: string[];
   fastModePricing?: { input: number; output: number };
+  history?: ResolvedPriceHistory | null;
+  provider: string;
+  today: string;
 }) {
   if (!Object.values(pricing).some((v) => v != null)) return null;
 
   const has1hCache = pricing.cache_write_1h != null;
   const cacheWriteLabel = has1hCache ? "Cache write (5m)" : "Cache write";
+  const delta = history
+    ? (field: Parameters<typeof latestPriceDelta>[1]) =>
+        latestPriceDelta(history.points, field)
+    : () => null;
 
   return (
     <Section id="pricing" title="Pricing">
@@ -66,22 +81,57 @@ export function PricingSection({
             </div>
           ))}
           <PricingNotes notes={pricingNotes} />
+          {history && (
+            <PriceHistory
+              points={history.points}
+              fields={history.fields}
+              defaultField={history.defaultField}
+              inheritedFrom={history.inheritedFrom}
+              provider={provider}
+              today={today}
+            />
+          )}
         </div>
       ) : (
         <>
           <div className="bg-border ring-border grid grid-cols-2 gap-px overflow-hidden rounded-md ring-1 sm:grid-cols-3 lg:grid-cols-6">
-            <PriceCell label="Input" value={pricing.input} />
-            <PriceCell label="Output" value={pricing.output} />
-            <PriceCell label={cacheWriteLabel} value={pricing.cache_write} />
+            <PriceCell
+              label="Input"
+              value={pricing.input}
+              delta={delta("input")}
+            />
+            <PriceCell
+              label="Output"
+              value={pricing.output}
+              delta={delta("output")}
+            />
+            <PriceCell
+              label={cacheWriteLabel}
+              value={pricing.cache_write}
+              delta={delta("cache_write")}
+            />
             {has1hCache && (
               <PriceCell
                 label="Cache write (1h)"
                 value={pricing.cache_write_1h}
+                delta={delta("cache_write_1h")}
               />
             )}
-            <PriceCell label="Cache read" value={pricing.cached_input} />
-            <PriceCell label="Batch in" value={pricing.batch_input} />
-            <PriceCell label="Batch out" value={pricing.batch_output} />
+            <PriceCell
+              label="Cache read"
+              value={pricing.cached_input}
+              delta={delta("cached_input")}
+            />
+            <PriceCell
+              label="Batch in"
+              value={pricing.batch_input}
+              delta={delta("batch_input")}
+            />
+            <PriceCell
+              label="Batch out"
+              value={pricing.batch_output}
+              delta={delta("batch_output")}
+            />
           </div>
           {fastModePricing && (
             <div className="ring-border mt-4 rounded-md ring-1">
@@ -98,6 +148,16 @@ export function PricingSection({
             </div>
           )}
           <PricingNotes notes={pricingNotes} className="mt-4" />
+          {history && (
+            <PriceHistory
+              points={history.points}
+              fields={history.fields}
+              defaultField={history.defaultField}
+              inheritedFrom={history.inheritedFrom}
+              provider={provider}
+              today={today}
+            />
+          )}
         </>
       )}
     </Section>
