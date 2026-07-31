@@ -1,4 +1,6 @@
 import {
+  assertParsed,
+  envOrNull,
   inferFamily,
   readSources,
   runGenerate,
@@ -7,8 +9,14 @@ import {
 
 /**
  * Fetch Perplexity models from:
- * 1. /v1/models API (model list + release dates)
- * 2. Docs .md endpoint (pricing)
+ * 1. Docs .md endpoint (model list + pricing, embedded as a PRICING literal)
+ * 2. Sonar model detail pages (context window, description)
+ * 3. /v1/models API (release dates, needs key)
+ *
+ * Source history: the model list came from /v1/models, which now answers 401
+ * without a key. The docs page carries the same catalog plus rates in an
+ * `export const PRICING` literal that the pricing widget reads, so the list is
+ * derived from there and the API is optional enrichment.
  */
 
 const sources = readSources("perplexity");
@@ -23,7 +31,60 @@ const PROVIDER_MAP: Record<string, string> = {
   "x-ai": "xai",
   xai: "xai",
   perplexity: "perplexity",
+  "z-ai": "zai",
+  zai: "zai",
+  moonshotai: "moonshot",
+  moonshot: "moonshot",
 };
+
+/**
+ * Perplexity re-hosts third-party models under its own namespace
+ * (`perplexity/glm-5.2`), so the id prefix names the host, not the creator.
+ * The PRICING literal's `group` is the only place the real creator appears.
+ */
+const GROUP_MAP: Record<string, string> = {
+  perplexity: "perplexity",
+  anthropic: "anthropic",
+  openai: "openai",
+  google: "google",
+  xai: "xai",
+  "z.ai": "zai",
+  "moonshot ai": "moonshot",
+  nvidia: "nvidia",
+};
+
+/** One entry of the PRICING literal the docs pricing widget reads. */
+interface EmbeddedModel {
+  group: string | null;
+  id: string;
+  input?: number;
+  output?: number;
+  cache?: number;
+}
+
+/**
+ * Pull the catalog out of `export const PRICING = { ... "models": [ ... ] }`.
+ * The page carries more than one `models` array; only the grouped one is the
+ * Agent API catalog, the other holds Sonar presets.
+ */
+function parseEmbeddedModels(md: string): EmbeddedModel[] {
+  for (const m of md.matchAll(/"models":\s*\[/g)) {
+    const start = md.indexOf("[", m.index);
+    let depth = 0;
+    let end = start;
+    for (; end < md.length; end++) {
+      if (md[end] === "[") depth++;
+      else if (md[end] === "]" && --depth === 0) break;
+    }
+    try {
+      const arr = JSON.parse(md.slice(start, end + 1)) as EmbeddedModel[];
+      if (arr.length > 0 && arr.every((e) => e.group && e.id)) return arr;
+    } catch {
+      // not the array we want
+    }
+  }
+  return [];
+}
 
 interface PPLXModel {
   id: string;
@@ -87,15 +148,43 @@ function parseDocsPricing(md: string): Map<string, DocsPricing> {
 async function main() {
   console.log("Fetching Perplexity models...");
 
-  const [apiRes, docsMd] = await Promise.all([
-    fetch(API_URL).then((r) => r.json()) as Promise<{ data: PPLXModel[] }>,
-    fetch(DOCS_MD).then((r) => r.text()),
-  ]);
+  const docsMd = await fetch(DOCS_MD).then((r) => r.text());
+
+  const embedded = parseEmbeddedModels(docsMd);
+  const creators = new Map<string, string>();
+  for (const e of embedded) {
+    const creator = GROUP_MAP[(e.group ?? "").toLowerCase()];
+    if (creator) creators.set(e.id, creator);
+  }
 
   const docsPricing = parseDocsPricing(docsMd);
+  for (const e of embedded) {
+    if (docsPricing.has(e.id) || e.input == null || e.output == null) continue;
+    docsPricing.set(e.id, {
+      input: e.input,
+      output: e.output,
+      ...(e.cache != null ? { cached_input: e.cache } : {}),
+    });
+  }
+
   console.log(
-    `Found ${apiRes.data.length} models from API, ${docsPricing.size} with pricing from docs`,
+    `Found ${embedded.length} models from docs, ${docsPricing.size} with pricing`,
   );
+  assertParsed(docsPricing.size, "perplexity");
+
+  // Optional: the API adds release dates but answers 401 without a key.
+  let apiModels: PPLXModel[] = [];
+  const apiKey = envOrNull("PERPLEXITY_API_KEY", "PPLX_API_KEY");
+  if (apiKey) {
+    const res = await fetch(API_URL, {
+      headers: { Authorization: `Bearer ${apiKey}` },
+    });
+    if (res.ok) {
+      apiModels = ((await res.json()) as { data?: PPLXModel[] }).data ?? [];
+      console.log(`Found ${apiModels.length} models from API`);
+    }
+  }
+  const apiRes = { data: apiModels };
 
   let written = 0;
   for (const m of apiRes.data) {
@@ -109,7 +198,7 @@ async function main() {
     written += upsertWithSnapshot("perplexity", {
       id: m.id,
       name: m.id,
-      created_by: extractCreatedBy(m.id),
+      created_by: creators.get(m.id) ?? extractCreatedBy(m.id),
       family: inferFamily(m.id),
       license: "proprietary",
       release_date: releaseDate,
@@ -139,7 +228,7 @@ async function main() {
     written += upsertWithSnapshot("perplexity", {
       id,
       name: id,
-      created_by: extractCreatedBy(id),
+      created_by: creators.get(id) ?? extractCreatedBy(id),
       family: inferFamily(id),
       license: "proprietary",
       capabilities: { streaming: true },
