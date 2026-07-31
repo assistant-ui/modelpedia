@@ -56,7 +56,7 @@ function extractCreatedBy(modelId: string): string {
     perplexity: "perplexity",
     xai: "xai",
     xiaomi: "xiaomi",
-    zai: "zhipu",
+    zai: "zai",
   };
   return map[prefix] ?? prefix;
 }

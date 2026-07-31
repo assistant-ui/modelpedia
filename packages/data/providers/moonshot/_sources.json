@@ -1,5 +1,6 @@
 {
   "api": "https://api.moonshot.ai/v1/models",
   "pricing": "https://platform.moonshot.ai/docs/pricing/chat",
-  "docs": "https://platform.moonshot.ai/docs/intro"
+  "docs": "https://platform.moonshot.ai/docs/intro",
+  "pricing_index": "https://platform.moonshot.ai/docs/pricing/chat.md"
 }

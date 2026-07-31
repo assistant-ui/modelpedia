@@ -21,8 +21,8 @@ const CREATOR_MAP: Record<string, string> = {
   llama: "meta",
   "gpt-oss": "openai",
   qwen: "qwen",
-  glm: "zhipu",
-  zai: "zhipu",
+  glm: "zai",
+  zai: "zai",
   deepseek: "deepseek",
 };
 

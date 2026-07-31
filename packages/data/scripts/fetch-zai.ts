@@ -405,6 +405,11 @@ async function main() {
       id: m.id,
       name: m.name,
       description: m.description,
+      // Stated rather than left to persist: 13 of these carried `zhipu`, which
+      // is an alias of this provider and not an id, so cross-provider
+      // inheritance in generate.ts could not resolve them. Upsert never clears
+      // a field it is not given, so the stale value would survive forever.
+      created_by: "zai",
       family: inferFamily(m.id),
       license: /glm-5-turbo|glm-ocr/i.test(m.id) ? "proprietary" : "mit",
       context_window: m.context_window,

@@ -41,7 +41,7 @@ const CREATOR_MAP: Record<string, string> = {
   microsoft: "microsoft",
   "ibm-granite": "ibm",
   moonshotai: "moonshot",
-  "zai-org": "zhipu",
+  "zai-org": "zai",
   stabilityai: "stability",
   bytedance: "bytedance",
   leonardo: "leonardo",

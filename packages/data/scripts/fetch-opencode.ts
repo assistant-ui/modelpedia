@@ -27,7 +27,7 @@ const CREATOR_MAP: Record<string, string> = {
   claude: "anthropic",
   gemini: "google",
   minimax: "minimax",
-  glm: "zhipu",
+  glm: "zai",
   kimi: "moonshot",
   mimo: "xiaomi",
   nemotron: "nvidia",
