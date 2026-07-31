@@ -85,6 +85,7 @@ export function PricingSection({
             <PriceHistory
               points={history.points}
               fields={history.fields}
+              defaultField={history.defaultField}
               inheritedFrom={history.inheritedFrom}
               provider={provider}
               today={today}
@@ -151,6 +152,7 @@ export function PricingSection({
             <PriceHistory
               points={history.points}
               fields={history.fields}
+              defaultField={history.defaultField}
               inheritedFrom={history.inheritedFrom}
               provider={provider}
               today={today}

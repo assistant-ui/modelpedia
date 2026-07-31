@@ -17,8 +17,16 @@ export interface ResolvedPriceHistory {
   points: PricePoint[];
   /** Set when the series belongs to the alias this model inherits pricing from */
   inheritedFrom?: string;
-  /** Fields that actually move across the series, in PRICE_FIELDS order */
+  /** Fields present anywhere in the series, in PRICE_FIELDS order */
   fields: PriceField[];
+  /** Field to open on, the first one whose value actually changes */
+  defaultField: PriceField;
+}
+
+/** Distinct states a field takes across the series, absent and null included. */
+function movesAcross(points: PricePoint[], field: PriceField): boolean {
+  const seen = new Set(points.map((p) => String(p[field])));
+  return seen.size > 1;
 }
 
 export function resolvePriceHistory(
@@ -33,12 +41,17 @@ export function resolvePriceHistory(
   const fields = PRICE_FIELDS.map((f) => f.key).filter((key) =>
     points.some((p) => typeof p[key] === "number"),
   );
-  if (fields.length === 0) return null;
+
+  // A step that only reshuffled the nested tier tables leaves every displayed
+  // field flat, which reads as "no history" with extra chrome around it.
+  const defaultField = fields.find((key) => movesAcross(points, key));
+  if (!defaultField) return null;
 
   return {
     points,
     ...(own ? {} : { inheritedFrom: alias }),
     fields,
+    defaultField,
   };
 }
 

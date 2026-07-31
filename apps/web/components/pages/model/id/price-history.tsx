@@ -19,18 +19,20 @@ const RAISE = "text-red-600 dark:text-red-400";
 export function PriceHistory({
   points,
   fields,
+  defaultField,
   inheritedFrom,
   provider,
   today,
 }: {
   points: PricePoint[];
   fields: PriceField[];
+  defaultField: PriceField;
   inheritedFrom?: string;
   provider: string;
   today: string;
 }) {
-  const [field, setField] = useState<PriceField>(fields[0]);
-  const active = fields.includes(field) ? field : fields[0];
+  const [field, setField] = useState<PriceField>(defaultField);
+  const active = fields.includes(field) ? field : defaultField;
   const label =
     PRICE_FIELDS.find((f) => f.key === active)?.label ?? (active as string);
   const { segments } = buildSegments(points, active, today);
@@ -80,9 +82,9 @@ export function PriceHistory({
 
       <div className="ring-border overflow-hidden rounded-md ring-1">
         <div className="bg-background flex h-32 items-end px-4 pt-7 sm:h-40">
-          {segments.map((seg) => (
+          {segments.map((seg, i) => (
             <Tooltip
-              key={`${seg.point.date}-${seg.start}-${seg.end}`}
+              key={`step-${i}`}
               content={
                 <span className="font-mono">
                   {formatPriceExact(seg.value)} · {formatDay(seg.start)}
@@ -119,9 +121,9 @@ export function PriceHistory({
           ))}
         </div>
         <div className="border-border text-muted-foreground flex overflow-hidden border-t px-4 py-2 text-[10px]">
-          {segments.map((seg) => (
+          {segments.map((seg, i) => (
             <span
-              key={`axis-${seg.point.date}-${seg.start}`}
+              key={`axis-${i}`}
               className={cn(
                 "whitespace-nowrap",
                 seg.isLast && "flex-1 text-right",
