@@ -1,17 +1,17 @@
 {
   "id": "mimo-v2-flash",
-  "name": "MiMo-v2-flash",
+  "name": "MiMo-V2-Flash",
   "created_by": "xiaomi",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-07-31",
   "family": "mimo",
-  "description": "309B MoE reasoning model with 15B active parameters. Fast inference at 150 tokens/s.",
+  "description": "MiMo-V2-Flash is an open-source foundation language model developed by Xiaomi. It is a Mixture-of-Experts model with 309B total parameters and 15B active parameters, adopting hybrid attention architecture. MiMo-V2-Flash supports a hybrid-thinking toggle and a 256K context window, and excels at reasoning, coding, and agent scenarios. On SWE-bench Verified and SWE-bench Multilingual, MiMo-V2-Flash ranks as the top #1 open-source model globally, delivering performance comparable to Claude Sonnet 4.5 while costing only about 3.5% as much.",
   "status": "active",
-  "release_date": "2025-12-16",
+  "release_date": "2025-12-10",
   "knowledge_cutoff": "2024-12",
-  "context_window": 256000,
-  "max_output_tokens": 64000,
-  "model_type": "reasoning",
+  "context_window": 262144,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
   "reasoning_tokens": true,
   "license": "mit",
   "parameters": 309,
@@ -26,7 +26,8 @@
     "tool_call": true,
     "json_mode": true,
     "fine_tuning": true,
-    "structured_output": true
+    "structured_output": true,
+    "prompt_caching": true
   },
   "modalities": {
     "input": ["text"],
@@ -34,19 +35,20 @@
   },
   "pricing": {
     "input": 0.1,
-    "output": 0.3
+    "output": 0.3,
+    "cached_input": 0.01
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "f4c997e2",
+    "name": "66c0ca6e",
     "family": "1a23786e",
-    "description": "946cfc7c",
+    "description": "484c93cd",
     "status": "379ac110",
-    "release_date": "799b50a0",
+    "release_date": "7b4e98b0",
     "knowledge_cutoff": "d5290187",
-    "context_window": "2fd324cb",
-    "max_output_tokens": "762e98db",
-    "model_type": "17475f7f",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
     "reasoning_tokens": "b326b506",
     "license": "3c4c3ba5",
     "parameters": "eddea82a",
@@ -55,9 +57,9 @@
     "architecture": "31b2172c",
     "open_weight": "b326b506",
     "tagline": "f2984e03",
-    "capabilities": "b1bbc46a",
+    "capabilities": "9018718e",
     "modalities": "68e53d93",
-    "pricing": "53952343",
+    "pricing": "8e470dd0",
     "tools": "f0c1dc7e"
   }
 }

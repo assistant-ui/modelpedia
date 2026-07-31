@@ -21,7 +21,13 @@
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "open_weight": "68934a3e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "1b894b89"
   },
-  "last_updated": "2026-05-23"
+  "last_updated": "2026-07-31",
+  "pricing": {
+    "input": 1.5,
+    "output": 9,
+    "cached_input": 0.15
+  }
 }

@@ -3,7 +3,7 @@
   "name": "Step ASR 1.1",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-31",
   "family": "step-asr",
   "description": "Offline audio file transcription, refreshed Step ASR.",
   "status": "active",
@@ -14,5 +14,20 @@
     "input": ["audio"],
     "output": ["text"]
   },
-  "endpoints": ["audio_transcriptions"]
+  "endpoints": ["audio_transcriptions"],
+  "tagline": "Offline audio file transcription, refreshed Step ASR.",
+  "pricing_notes": ["2.2元/小时 (CNY)."],
+  "_generated": {
+    "name": "ee1c3e5d",
+    "family": "87117355",
+    "description": "e1b8fcd8",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "tagline": "e1b8fcd8",
+    "pricing_notes": "966d3aa6"
+  }
 }

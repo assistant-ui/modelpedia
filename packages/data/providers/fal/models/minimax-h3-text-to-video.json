@@ -1,0 +1,31 @@
+{
+  "id": "minimax/h3/text-to-video",
+  "name": "MiniMax H3 Text to Video",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "MiniMax H3 is a frontier video model.",
+  "status": "active",
+  "release_date": "2026-07-31",
+  "model_type": "video",
+  "page_url": "https://fal.run/minimax/h3/text-to-video",
+  "tagline": "MiniMax H3 is a frontier video model.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-07-31",
+  "_generated": {
+    "name": "6a36e567",
+    "description": "9632348a",
+    "status": "379ac110",
+    "release_date": "0ee605c3",
+    "model_type": "4d1b75ca",
+    "page_url": "1c51fde6",
+    "tagline": "9632348a",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "0ee605c3"
+  },
+  "last_updated": "2026-07-31"
+}

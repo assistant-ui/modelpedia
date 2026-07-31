@@ -5,8 +5,8 @@
   "source": "official",
   "family": "mimo",
   "status": "active",
-  "context_window": 1000000,
-  "max_output_tokens": 128000,
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
   "model_type": "chat",
   "reasoning_tokens": true,
   "page_url": "https://platform.xiaomimimo.com",
@@ -16,10 +16,11 @@
     "tool_call": true,
     "structured_output": true,
     "vision": true,
-    "json_mode": true
+    "json_mode": true,
+    "prompt_caching": true
   },
   "modalities": {
-    "input": ["text", "image", "audio", "video"],
+    "input": ["text", "image", "video", "audio"],
     "output": ["text"]
   },
   "tools": ["function_calling"],
@@ -27,14 +28,26 @@
     "name": "5dd7473d",
     "family": "1a23786e",
     "status": "379ac110",
-    "context_window": "8155bc54",
-    "max_output_tokens": "34434798",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
     "model_type": "d669f408",
     "reasoning_tokens": "b326b506",
     "page_url": "af488f1e",
-    "capabilities": "cfa5bc4b",
-    "modalities": "0843b982",
-    "tools": "f0c1dc7e"
+    "capabilities": "e959c063",
+    "modalities": "c569b149",
+    "tools": "f0c1dc7e",
+    "description": "41b1a46a",
+    "release_date": "c48b287d",
+    "tagline": "f42ecddc",
+    "pricing": "22948965"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-07-31",
+  "description": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half  the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding tasks. Its 1M context window supports complete documents, extended conversations, and complex task contexts in a single pass, making it ideal for integration with agent frameworks where strong reasoning, rich perception, and cost efficiency all matter.",
+  "release_date": "2026-04-22",
+  "tagline": "MiMo-V2.5 is a native omnimodal model by Xiaomi.",
+  "pricing": {
+    "input": 0.14,
+    "output": 0.28,
+    "cached_input": 0.0028
+  }
 }

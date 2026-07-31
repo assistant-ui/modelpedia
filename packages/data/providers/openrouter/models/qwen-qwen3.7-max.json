@@ -7,7 +7,7 @@
   "description": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series.",
   "release_date": "2026-05-21",
   "context_window": 1000000,
-  "max_output_tokens": 65536,
+  "max_output_tokens": 131072,
   "model_type": "chat",
   "tagline": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series.",
   "capabilities": {
@@ -32,7 +32,7 @@
     "description": "23edf104",
     "release_date": "0ad37620",
     "context_window": "8155bc54",
-    "max_output_tokens": "297ce0b3",
+    "max_output_tokens": "f7de594e",
     "model_type": "d669f408",
     "tagline": "23edf104",
     "capabilities": "03fbefb4",
@@ -40,5 +40,5 @@
     "pricing": "f9fd55de",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-31"
 }

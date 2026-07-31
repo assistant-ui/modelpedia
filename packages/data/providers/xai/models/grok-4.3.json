@@ -8,7 +8,7 @@
   "context_window": 1000000,
   "reasoning_tokens": true,
   "license": "proprietary",
-  "page_url": "https://docs.x.ai/developers/models/grok-4.3",
+  "page_url": "https://docs.x.ai/developers/models",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -37,15 +37,20 @@
     "context_window": "8155bc54",
     "reasoning_tokens": "b326b506",
     "license": "9186c466",
-    "page_url": "2c7dd125",
+    "page_url": "053acbe7",
     "model_type": "d669f408",
     "capabilities": "4c59e8d2",
     "modalities": "6399757e",
     "pricing": "64e647aa",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "status": "2e2f74dc"
+    "status": "379ac110",
+    "pricing_notes": "f6a14059"
   },
-  "last_updated": "2026-07-24",
-  "status": "deprecated"
+  "last_updated": "2026-07-31",
+  "status": "active",
+  "pricing_notes": [
+    "Base rate applies < 200k prompt tokens.",
+    "≥ 200k prompt tokens: $2.5 input / $5 output per 1M tokens."
+  ]
 }

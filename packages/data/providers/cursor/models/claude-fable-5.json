@@ -1,0 +1,49 @@
+{
+  "id": "claude-fable-5",
+  "name": "Claude Fable 5",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-fable",
+  "context_window": 300000,
+  "max_context_window": 1000000,
+  "performance": 5,
+  "speed": 3,
+  "page_url": "https://cursor.com/docs/models-and-pricing#claude-fable-5",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 10,
+    "output": 50,
+    "cache_write": 12.5,
+    "cached_input": 1
+  },
+  "pricing_notes": [
+    "Requires data retention approval for Enterprise customers, Teams and individual customers with Privacy Mode enabled; Anthropic stores agent input and output data for harm-prevention processes; this data is not used to train or improve Anthropic models or products; Requests that trip a security guardrail are automatically routed to Claude Opus; About 2x the cost of Claude Opus 5; Requires Max Mode on legacy request-based plans"
+  ],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "210d845d",
+    "family": "127f43cd",
+    "context_window": "1ded704c",
+    "max_context_window": "8155bc54",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "page_url": "a487177e",
+    "model_type": "d669f408",
+    "capabilities": "7ca28ec9",
+    "modalities": "6399757e",
+    "pricing": "e570eb6d",
+    "pricing_notes": "01604253",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-31"
+}

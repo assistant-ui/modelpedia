@@ -11,7 +11,8 @@
   },
   "pricing": {
     "input": 0.25,
-    "output": 1.5
+    "output": 1.5,
+    "cached_input": 0.025
   },
   "open_weight": false,
   "modalities": {
@@ -24,9 +25,9 @@
     "license": "9186c466",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "pricing": "f6d5b753",
+    "pricing": "f0e61c8a",
     "open_weight": "68934a3e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-05-14"
+  "last_updated": "2026-07-31"
 }

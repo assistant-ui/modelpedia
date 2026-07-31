@@ -3,7 +3,7 @@
   "name": "Step 1o Turbo Vision",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-31",
   "family": "step-1o",
   "description": "Recommended vision model with strong image and video understanding. Up to 50 images per request and MP4 video input <128 MB.",
   "status": "active",
@@ -25,5 +25,23 @@
     "input": 0.347,
     "cached_input": 0.069,
     "output": 1.111
+  },
+  "tagline": "Recommended vision model with strong image and video understanding.",
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "3e229ac1",
+    "family": "6ce684c8",
+    "description": "f54c1acd",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "context_window": "10e4d788",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "f8d8b69c",
+    "modalities": "3ad4060a",
+    "endpoints": "d8fa1080",
+    "pricing": "9ab70bd5",
+    "tagline": "b70677fe",
+    "tools": "f0c1dc7e"
   }
 }

@@ -3,7 +3,7 @@
   "name": "grok-imagine-image",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-31",
   "release_date": "2026-01-28",
   "capabilities": {
     "streaming": true,
@@ -14,7 +14,7 @@
   "family": "grok-imagine",
   "model_type": "image",
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["image"]
   },
   "_generated": {
@@ -23,16 +23,18 @@
     "capabilities": "5700f071",
     "family": "a4576b5e",
     "model_type": "db8857fe",
-    "modalities": "bbf9b8bb",
+    "modalities": "814867b9",
     "license": "9186c466",
-    "page_url": "de3eec64",
+    "page_url": "053acbe7",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "status": "2e2f74dc"
+    "status": "379ac110",
+    "pricing_notes": "9994083b"
   },
   "license": "proprietary",
-  "page_url": "https://docs.x.ai/developers/models/grok-imagine-image",
+  "page_url": "https://docs.x.ai/developers/models",
   "open_weight": false,
   "tools": ["function_calling"],
-  "status": "deprecated"
+  "status": "active",
+  "pricing_notes": ["$0.02 / image."]
 }

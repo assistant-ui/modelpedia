@@ -26,7 +26,7 @@
     "cached_input": 0.5
   },
   "pricing_notes": [
-    "Requires Max Mode on request-based plans; Agentic and reasoning capabilities; More token-efficient than GPT-5.4 on comparable tasks; Improved persistence on long-running tasks; Fast mode is available at higher rates; Long context (Max Mode) supports up to 1M tokens with 2x input pricing"
+    "Hidden by default; Requires Max Mode on legacy request-based plans; Agentic and reasoning capabilities; More token-efficient than GPT-5.4 on comparable tasks; Improved persistence on long-running tasks; Fast mode is available at higher rates; Long context supports up to 1M tokens with 2x input pricing"
   ],
   "tools": ["function_calling"],
   "_generated": {
@@ -41,8 +41,8 @@
     "capabilities": "7ca28ec9",
     "modalities": "6399757e",
     "pricing": "d9234945",
-    "pricing_notes": "dff89f10",
+    "pricing_notes": "fc2718e5",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-26"
+  "last_updated": "2026-07-31"
 }

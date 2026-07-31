@@ -27,7 +27,11 @@
     "capabilities": "0fa77dc6",
     "pricing": "64e647aa",
     "open_weight": "68934a3e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing_notes": "a4e6ab85"
   },
-  "last_updated": "2026-05-10"
+  "last_updated": "2026-07-31",
+  "pricing_notes": [
+    "Input ranges $1.25 to $2.5, output ranges $2.5 to $5 per 1M tokens."
+  ]
 }

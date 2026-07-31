@@ -1,0 +1,20 @@
+{
+  "id": "step-audio-r1.5",
+  "name": "step-audio-r1.5",
+  "created_by": "stepfun",
+  "source": "official",
+  "license": "proprietary",
+  "pricing": {
+    "input": 1.389,
+    "cached_input": 0.278,
+    "output": 14.583
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "134a66c0",
+    "license": "9186c466",
+    "pricing": "2111cf5a",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-07-31"
+}
