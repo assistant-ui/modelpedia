@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Seedance 1.0 Lite",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-06-13",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/bytedance/seedance/v1/lite/text-to-video",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "0827580e",
     "description": "0827580e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "79d0a3c6",
     "model_type": "4d1b75ca",
     "page_url": "57d2e4a5",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

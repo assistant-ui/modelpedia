@@ -3,7 +3,7 @@
   "name": "glm-4.7-flash",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -23,7 +23,8 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "reasoning_tokens": "b326b506",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "family": "glm-4.7",
   "model_type": "chat",
@@ -38,5 +39,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

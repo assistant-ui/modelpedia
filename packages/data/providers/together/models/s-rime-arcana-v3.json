@@ -3,14 +3,16 @@
   "name": "Rime Arcana V3",
   "created_by": "unknown",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "788c1e32",
     "capabilities": "0fa77dc6",
-    "page_url": "e80c8e4b"
+    "page_url": "e80c8e4b",
+    "status": "2e2f74dc"
   },
-  "page_url": "https://www.together.ai/models/rime-arcana-v3"
+  "page_url": "https://www.together.ai/models/rime-arcana-v3",
+  "status": "deprecated"
 }

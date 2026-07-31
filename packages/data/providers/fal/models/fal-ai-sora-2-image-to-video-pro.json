@@ -5,7 +5,7 @@
   "source": "official",
   "family": "sora-2",
   "description": "Image-to-video endpoint for Sora 2 Pro, OpenAI's state-of-the-art video model capable of creating richly detailed, dynamic clips with audio from natural language or images.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-10-06",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/sora-2/image-to-video/pro",
@@ -23,7 +23,7 @@
     "name": "1bafc4f5",
     "family": "3d185d44",
     "description": "51e0f369",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "17ddf71c",
     "model_type": "4d1b75ca",
     "page_url": "58392ee9",
@@ -33,5 +33,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "42382078"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

@@ -4,7 +4,7 @@
   "created_by": "google",
   "source": "official",
   "family": "gemini-3.5",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "page_url": "https://replicate.com/google/gemini-3.5-flash",
   "capabilities": {
@@ -18,12 +18,12 @@
   "_generated": {
     "name": "5046f433",
     "family": "098fdb91",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "page_url": "3380364d",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-06-20"
+  "last_updated": "2026-07-31"
 }

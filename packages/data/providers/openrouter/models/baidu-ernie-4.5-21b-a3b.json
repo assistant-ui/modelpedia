@@ -3,7 +3,7 @@
   "name": "Baidu: ERNIE 4.5 21B A3B",
   "created_by": "baidu",
   "source": "official",
-  "last_updated": "2026-05-17",
+  "last_updated": "2026-07-31",
   "description": "A sophisticated text-based Mixture-of-Experts (MoE) model featuring 21B total parameters with 3B activated per token, delivering exceptional multimodal understanding and generation through heterogeneous MoE structures and modality-isolated routing.",
   "context_window": 131072,
   "max_output_tokens": 8000,
@@ -30,11 +30,13 @@
     "active_parameters": "eccbc87e",
     "release_date": "4ae0376c",
     "tagline": "7081e996",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "parameters": 21,
   "active_parameters": 3,
   "release_date": "2025-08-12",
   "tagline": "A sophisticated text-based Mixture-of-Experts (MoE) model featuring 21B total parameters with 3B activated per token, delivering exceptional multimodal understanding and generation through heterogeneo",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

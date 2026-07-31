@@ -4,7 +4,7 @@
   "created_by": "bria",
   "source": "official",
   "description": "Reimagine uses a structure reference for generating new images while preserving the structure of an input image, guided by text prompts.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-20",
   "model_type": "image",
   "page_url": "https://fal.run/bria/reimagine/3.2",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "676f93cd",
     "description": "01fca865",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "772dfb4d",
     "model_type": "db8857fe",
     "page_url": "f98a68eb",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5c252aee"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

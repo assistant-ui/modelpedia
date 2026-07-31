@@ -3,7 +3,7 @@
   "name": "fireworks-asr-large",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },
@@ -16,7 +16,9 @@
     "name": "8428576a",
     "capabilities": "0fa77dc6",
     "pricing": "05b5c462",
-    "page_url": "c9c17046"
+    "page_url": "c9c17046",
+    "status": "2e2f74dc"
   },
-  "page_url": "https://fireworks.ai/models/fireworks/fireworks-asr-large"
+  "page_url": "https://fireworks.ai/models/fireworks/fireworks-asr-large",
+  "status": "deprecated"
 }

@@ -1,7 +1,7 @@
 {
   "id": "zai.glm-5",
   "name": "GLM 5",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
   "release_date": "2026-02-11",
   "context_window": 200000,
@@ -25,5 +25,5 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-07-31"
 }

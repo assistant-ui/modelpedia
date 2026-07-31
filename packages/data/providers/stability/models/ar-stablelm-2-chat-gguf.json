@@ -4,7 +4,7 @@
   "created_by": "stability",
   "source": "official",
   "description": "Ar Stablelm 2 Chat Gguf is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2024-08-09",
   "model_type": "other",
   "license": "other",
@@ -16,7 +16,7 @@
   "_generated": {
     "name": "674087cc",
     "description": "09a76aee",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "880765cb",
     "model_type": "ddb0b7bc",
     "license": "ddb0b7bc",
@@ -26,5 +26,5 @@
     "huggingface_downloads": "1679091c",
     "last_modified": "31efff74"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-07-31"
 }

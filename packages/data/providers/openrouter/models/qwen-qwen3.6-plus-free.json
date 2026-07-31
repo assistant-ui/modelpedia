@@ -32,7 +32,9 @@
     "tagline": "1edf4c6b",
     "capabilities": "03fbefb4",
     "modalities": "3ad4060a",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-04-03"
+  "last_updated": "2026-07-31",
+  "status": "deprecated"
 }

@@ -3,7 +3,7 @@
   "name": "Grok 4.20",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "family": "grok-4.20",
   "capabilities": {
     "streaming": true,
@@ -36,10 +36,12 @@
     "model_type": "d669f408",
     "tools": "f0c1dc7e",
     "page_url": "60d06fb1",
-    "pricing_notes": "7a779f01"
+    "pricing_notes": "7a779f01",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "tools": ["function_calling"],
   "page_url": "https://cursor.com/docs/models-and-pricing#grok-4-20",
-  "pricing_notes": ["The cost is 2x when the input exceeds 200k tokens"]
+  "pricing_notes": ["The cost is 2x when the input exceeds 200k tokens"],
+  "status": "deprecated"
 }

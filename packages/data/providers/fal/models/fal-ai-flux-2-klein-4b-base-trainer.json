@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Fine-tune FLUX.2 [klein] 4B from Black Forest Labs with custom datasets.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-01-17",
   "model_type": "other",
   "parameters": 4,
@@ -14,7 +14,7 @@
   "_generated": {
     "name": "c3a944a8",
     "description": "28411891",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "3b429697",
     "model_type": "ddb0b7bc",
     "parameters": "a87ff679",
@@ -22,5 +22,5 @@
     "tagline": "28411891",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

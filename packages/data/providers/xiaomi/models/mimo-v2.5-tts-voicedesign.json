@@ -4,7 +4,7 @@
   "created_by": "xiaomi",
   "source": "official",
   "family": "mimo",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 8000,
   "max_output_tokens": 8000,
   "model_type": "tts",
@@ -16,12 +16,12 @@
   "_generated": {
     "name": "5c3de7d7",
     "family": "1a23786e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "67ff32d4",
     "max_output_tokens": "67ff32d4",
     "model_type": "4e16a2cf",
     "page_url": "af488f1e",
     "modalities": "601e776d"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-07-31"
 }

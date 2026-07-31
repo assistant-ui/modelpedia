@@ -1,9 +1,9 @@
 {
   "id": "glm-4-32b-0414-128k",
   "name": "GLM-4-32B-0414-128K",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-07-31",
   "context_window": 128000,
   "max_output_tokens": 16000,
   "capabilities": {

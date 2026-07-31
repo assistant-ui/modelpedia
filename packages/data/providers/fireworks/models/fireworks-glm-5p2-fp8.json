@@ -1,7 +1,7 @@
 {
   "id": "fireworks/glm-5p2-fp8",
   "name": "glm-5p2-fp8",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
   "family": "glm-5",
   "context_window": 1040000,
@@ -29,5 +29,5 @@
     "pricing": "cb03f68e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-31"
 }

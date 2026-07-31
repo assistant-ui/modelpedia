@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Veo 2 creates videos with realistic motion and high quality output.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-02-21",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/veo2",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "f66b81b0",
     "description": "dc5d9371",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "45cb2d78",
     "model_type": "4d1b75ca",
     "page_url": "598dc147",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "52326430"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

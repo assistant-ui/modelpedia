@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "SkyReels V1 is the first and most advanced open-source human-centric video foundation model.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-02-18",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/skyreels-i2v",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "26ce046e",
     "description": "3f7cbde0",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "9d3df5e8",
     "model_type": "4d1b75ca",
     "page_url": "eb421450",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

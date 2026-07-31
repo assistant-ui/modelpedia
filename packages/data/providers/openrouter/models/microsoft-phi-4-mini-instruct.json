@@ -32,7 +32,9 @@
     "tagline": "e0293368",
     "capabilities": "dbb5b7fe",
     "modalities": "68e53d93",
-    "pricing": "6435fa6f"
+    "pricing": "6435fa6f",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-05-17"
+  "last_updated": "2026-07-31",
+  "status": "deprecated"
 }

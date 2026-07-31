@@ -3,14 +3,14 @@
   "name": "Ai Anime Villain",
   "created_by": "colinhughes2121",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/colinhughes2121/ai-anime-villain",
   "_generated": {
     "name": "5c8e779e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "dc89692c"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-07-31"
 }

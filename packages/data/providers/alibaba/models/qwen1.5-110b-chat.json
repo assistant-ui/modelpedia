@@ -3,7 +3,7 @@
   "name": "qwen1.5-110b-chat",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-07-31",
   "family": "qwen1.5",
   "context_window": 8000,
   "max_output_tokens": 2000,
@@ -31,12 +31,14 @@
     "open_weight": "b326b506",
     "description": "11809ad2",
     "page_url": "23162829",
-    "tagline": "32d40517"
+    "tagline": "32d40517",
+    "status": "2e2f74dc"
   },
   "license": "apache-2.0",
   "parameters": 110,
   "open_weight": true,
   "description": "Alibaba Cloud's Qwen1.5 open-source version. [Usage](https://www.alibabacloud.com/help/en/document_detail/2841718.html#24e54b27d4agt) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) \\| [Try online](https://modelstudio.console.alibabacloud.com/?tab=playground#/efm/prompt)",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "tagline": "The Qwen1.5 open-source model from Alibaba Cloud."
+  "tagline": "The Qwen1.5 open-source model from Alibaba Cloud.",
+  "status": "deprecated"
 }

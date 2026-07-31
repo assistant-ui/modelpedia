@@ -3,7 +3,7 @@
   "name": "grok-3-mini Preview",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-07-31",
   "family": "grok-3",
   "capabilities": {
     "streaming": true,
@@ -19,8 +19,10 @@
     "capabilities": "48995a4e",
     "modalities": "68e53d93",
     "model_type": "d669f408",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

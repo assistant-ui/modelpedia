@@ -3,7 +3,7 @@
   "name": "qwen-voice-enrollment",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-07-31",
   "family": "qwen",
   "model_type": "chat",
   "capabilities": {
@@ -26,11 +26,13 @@
     "open_weight": "b326b506",
     "description": "16c60c11",
     "page_url": "23162829",
-    "tagline": "9d6c3e45"
+    "tagline": "9d6c3e45",
+    "status": "2e2f74dc"
   },
   "license": "apache-2.0",
   "open_weight": true,
   "description": "Voice cloning uses a large model for feature extraction, allowing you to clone voices without training. Provide 10 to 20 seconds of audio to generate a highly similar and natural-sounding custom voice. [Usage](https://www.alibabacloud.com/help/en/document_detail/2938790.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2975034.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "tagline": "Voice cloning uses a large model for feature extraction, allowing you to clone voices without training."
+  "tagline": "Voice cloning uses a large model for feature extraction, allowing you to clone voices without training.",
+  "status": "deprecated"
 }

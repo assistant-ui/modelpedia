@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Pikadditions is a powerful video-to-video AI model that allows you to add anyone or anything to any video with seamless integration.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-03-14",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/pika/v2/pikadditions",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "5d18fbbf",
     "description": "d0a066ae",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "e0a4c199",
     "model_type": "ddb0b7bc",
     "page_url": "a316008b",
     "tagline": "d0a066ae",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

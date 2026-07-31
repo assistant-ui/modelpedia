@@ -3,7 +3,7 @@
   "name": "TNG: DeepSeek R1T2 Chimera",
   "created_by": "tngtech",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "family": "deepseek-r1",
   "description": "DeepSeek-TNG-R1T2-Chimera is the second-generation Chimera model from TNG Tech.",
   "context_window": 163840,
@@ -35,10 +35,12 @@
     "model_type": "17475f7f",
     "release_date": "cdd1996a",
     "tagline": "fbc4e632",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "model_type": "reasoning",
   "release_date": "2025-07-08",
   "tagline": "DeepSeek-TNG-R1T2-Chimera is the second-generation Chimera model from TNG Tech.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

@@ -3,16 +3,16 @@
   "name": "Locateanything 3b H100",
   "created_by": "csviverdeia",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "parameters": 3,
   "page_url": "https://replicate.com/csviverdeia/locateanything-3b-h100",
   "_generated": {
     "name": "3cc638ae",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "parameters": "eccbc87e",
     "page_url": "fca2fb9e"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-31"
 }

@@ -1,7 +1,7 @@
 {
   "id": "zai/glm-5.2-fast",
   "name": "glm-5.2-fast",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
   "family": "glm-5.2",
   "context_window": 1000000,
@@ -30,5 +30,5 @@
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-07-31"
 }

@@ -31,7 +31,9 @@
     "open_weight": "b326b506",
     "capabilities": "034b2f91",
     "modalities": "68e53d93",
-    "endpoints": "75df3f1c"
+    "endpoints": "75df3f1c",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-04-24"
+  "last_updated": "2026-07-31",
+  "status": "deprecated"
 }

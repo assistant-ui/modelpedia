@@ -3,14 +3,14 @@
   "name": "Grounding Dino Swinb",
   "created_by": "candysunplus",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/candysunplus/grounding-dino-swinb",
   "_generated": {
     "name": "a4eb32a0",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "6b4331ac"
   },
-  "last_updated": "2026-07-24"
+  "last_updated": "2026-07-31"
 }

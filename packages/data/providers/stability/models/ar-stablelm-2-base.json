@@ -4,7 +4,7 @@
   "created_by": "stability",
   "source": "official",
   "description": "Ar Stablelm 2 Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2024-07-29",
   "model_type": "chat",
   "license": "other",
@@ -25,7 +25,7 @@
   "_generated": {
     "name": "747b67c2",
     "description": "60d23628",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "600969d3",
     "model_type": "d669f408",
     "license": "ddb0b7bc",
@@ -38,5 +38,5 @@
     "huggingface_downloads": "c81e728d",
     "last_modified": "725ace28"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-07-31"
 }

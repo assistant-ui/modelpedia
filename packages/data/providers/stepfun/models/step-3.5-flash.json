@@ -3,11 +3,11 @@
   "name": "Step 3.5 Flash",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-31",
   "family": "step-3.5",
   "description": "Flagship reasoning model with 256k context, MoE architecture (199B total, ~11B active). Optimized for agentic tasks, tool calling, planning, math, and coding.",
   "tagline": "Frontier reasoning and agentic capabilities at low cost.",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "reasoning",
   "context_window": 256000,
   "reasoning_tokens": true,
@@ -18,7 +18,8 @@
     "reasoning": true,
     "streaming": true,
     "structured_output": true,
-    "json_mode": true
+    "json_mode": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -29,5 +30,23 @@
     "input": 0.097,
     "cached_input": 0.019,
     "output": 0.292
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "0a6993f7",
+    "family": "57613e56",
+    "description": "85a588ba",
+    "tagline": "4e0b3447",
+    "status": "2e2f74dc",
+    "model_type": "17475f7f",
+    "context_window": "2fd324cb",
+    "reasoning_tokens": "b326b506",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "capabilities": "284e0403",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "pricing": "ba934072",
+    "tools": "f0c1dc7e"
   }
 }

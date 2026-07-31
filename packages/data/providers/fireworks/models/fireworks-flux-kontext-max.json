@@ -3,7 +3,7 @@
   "name": "flux-kontext-max",
   "created_by": "stability",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },
@@ -17,8 +17,10 @@
     "capabilities": "0fa77dc6",
     "pricing": "da084815",
     "model_type": "db8857fe",
-    "page_url": "ceb88602"
+    "page_url": "ceb88602",
+    "status": "2e2f74dc"
   },
   "model_type": "image",
-  "page_url": "https://fireworks.ai/models/fireworks/flux-kontext-max"
+  "page_url": "https://fireworks.ai/models/fireworks/flux-kontext-max",
+  "status": "deprecated"
 }

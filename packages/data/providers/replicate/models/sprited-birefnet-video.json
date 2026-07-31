@@ -3,7 +3,7 @@
   "name": "Birefnet Video",
   "created_by": "sprited",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "video",
   "page_url": "https://replicate.com/sprited/birefnet-video",
   "modalities": {
@@ -13,11 +13,11 @@
   "endpoints": ["video"],
   "_generated": {
     "name": "bde3e8b6",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "4d1b75ca",
     "page_url": "b24a8a36",
     "modalities": "94e5e9ab",
     "endpoints": "7a78c070"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-07-31"
 }

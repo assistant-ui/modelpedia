@@ -16,8 +16,10 @@
     "page_url": "1fb0dde9",
     "capabilities": "0fa77dc6",
     "pricing": "24ae0294",
-    "context_window": "10e4d788"
+    "context_window": "10e4d788",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-04-12",
-  "context_window": 32000
+  "last_updated": "2026-07-31",
+  "context_window": 32000,
+  "status": "deprecated"
 }

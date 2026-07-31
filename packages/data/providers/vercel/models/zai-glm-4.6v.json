@@ -1,9 +1,9 @@
 {
   "id": "zai/glm-4.6v",
   "name": "glm-4.6v",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "context_window": 128000,
   "capabilities": {
     "streaming": true,

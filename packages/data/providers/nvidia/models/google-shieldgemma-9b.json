@@ -3,13 +3,16 @@
   "name": "shieldgemma-9b",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "af8bd3ea",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "parameters": "45c48cce",
+    "status": "2e2f74dc"
   },
-  "parameters": 9
+  "parameters": 9,
+  "status": "deprecated"
 }

@@ -3,7 +3,7 @@
   "name": "wan2.6-r2v",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-22",
+  "last_updated": "2026-07-31",
   "model_type": "video",
   "capabilities": {
     "streaming": true
@@ -25,7 +25,8 @@
     "description": "209a68d0",
     "tagline": "add094ae",
     "page_url": "23162829",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "status": "2e2f74dc"
   },
   "family": "wan2.6",
   "license": "proprietary",
@@ -33,5 +34,6 @@
   "description": "The Wan reference-to-video model lets you generate performance videos using characters and voices from reference videos or images. [API reference](https://www.alibabacloud.com/help/en/document_detail/3001146.html) Billing rule: Both input and output videos are billed by **video duration in seconds**. Failed requests are not billed and do not consume your free quota. * Input video duration is capped at **5 seconds** . See [Wan reference-to-video](https://www.alibabacloud.com/help/en/document_detail/3001146.html#f79461ca408qn) for details. * Output video duration equals the **duration of successfully generated video**. ## Global If you select the [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide. Static data is stored in your selected region. Supported regions: US (Virginia) and Germany (Frankfurt).",
   "tagline": "The Wan reference-to-video model generates performance videos by referencing a character's appearance from an input video or image, the voice from the input video, and text prompts.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "open_weight": false
+  "open_weight": false,
+  "status": "deprecated"
 }

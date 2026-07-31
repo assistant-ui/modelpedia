@@ -3,7 +3,7 @@
   "name": "SSD-1B",
   "created_by": "stability",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },
@@ -17,8 +17,10 @@
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "parameters": "c4ca4238",
-    "page_url": "6447ad8e"
+    "page_url": "6447ad8e",
+    "status": "2e2f74dc"
   },
   "parameters": 1,
-  "page_url": "https://fireworks.ai/models/fireworks/SSD-1B"
+  "page_url": "https://fireworks.ai/models/fireworks/SSD-1B",
+  "status": "deprecated"
 }

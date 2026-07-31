@@ -1,9 +1,9 @@
 {
   "id": "zai-org/GLM-5",
   "name": "GLM-5",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-31",
   "family": "GLM-5",
   "description": "GLM-5 is an advanced, open-source large language model designed for developers tackling the toughest challenges. It excels at long-context reasoning, multi-step tool orchestration, and complex systems engineering, making it the ideal choice for powering sophisticated agents and applications that require high-level cognitive tasks.",
   "status": "active",

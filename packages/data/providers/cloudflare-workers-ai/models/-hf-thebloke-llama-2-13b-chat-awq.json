@@ -3,7 +3,7 @@
   "name": "llama-2-13b-chat-awq",
   "created_by": "thebloke",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-07-31",
   "family": "llama-2",
   "capabilities": {
     "streaming": true,
@@ -16,13 +16,13 @@
     "capabilities": "38c6412e",
     "model_type": "d669f408",
     "parameters": "c51ce410",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "page_url": "05328910",
     "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 13,
-  "status": "active",
+  "status": "deprecated",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#llama-2-13b-chat-awq",
   "modalities": {
     "input": ["text"],

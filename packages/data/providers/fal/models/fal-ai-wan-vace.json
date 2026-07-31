@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Vace a video generation model that uses a source image, mask, and video to create prompted videos with controllable sources.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-04-11",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/wan-vace",
@@ -18,7 +18,7 @@
     "name": "217deb2b",
     "family": "2aadc089",
     "description": "44f8cbd6",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "496cb47d",
     "model_type": "ddb0b7bc",
     "page_url": "44dcf31b",
@@ -26,5 +26,5 @@
     "capabilities": "d3117eb0",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

@@ -3,14 +3,14 @@
   "name": "Reve 2.1",
   "created_by": "reve",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/reve/reve-2.1",
   "_generated": {
     "name": "b2542b8d",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "bf0a5b96"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-31"
 }

@@ -3,7 +3,7 @@
   "name": "fireworks-asr-v2",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },
@@ -16,7 +16,9 @@
     "name": "b2702bed",
     "capabilities": "0fa77dc6",
     "pricing": "be8d0646",
-    "page_url": "f86a27d0"
+    "page_url": "f86a27d0",
+    "status": "2e2f74dc"
   },
-  "page_url": "https://fireworks.ai/models/fireworks/fireworks-asr-v2"
+  "page_url": "https://fireworks.ai/models/fireworks/fireworks-asr-v2",
+  "status": "deprecated"
 }

@@ -3,7 +3,7 @@
   "name": "qwen3-coder-480b-a35b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "family": "qwen3",
   "capabilities": {
     "streaming": true,
@@ -17,7 +17,8 @@
     "parameters": "6ea2ef73",
     "active_parameters": "1c383cd3",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "code",
   "parameters": 480,
@@ -26,5 +27,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

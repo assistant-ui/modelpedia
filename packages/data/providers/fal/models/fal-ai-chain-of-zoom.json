@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Extreme Super-Resolution via Scale Autoregression and Preference Alignment",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-06-18",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/chain-of-zoom",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "f8556453",
     "description": "4c41b7be",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "c8a753e1",
     "model_type": "db8857fe",
     "page_url": "6bdadb17",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

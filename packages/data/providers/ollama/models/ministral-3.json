@@ -3,7 +3,7 @@
   "name": "ministral-3",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-05-07",
+  "last_updated": "2026-07-31",
   "family": "ministral",
   "capabilities": {
     "streaming": true,
@@ -25,7 +25,8 @@
     "parameters": "c9f0f895",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "description": "The Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware.",
@@ -40,5 +41,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

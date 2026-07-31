@@ -3,7 +3,7 @@
   "name": "MAI-DS-R1",
   "created_by": "microsoft",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -17,7 +17,9 @@
     "name": "6006a879",
     "capabilities": "a281e83a",
     "modalities": "68e53d93",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

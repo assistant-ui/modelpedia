@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Train Hunyuan Video lora on people, objects, characters and more!",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-01-14",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/hunyuan-video-lora-training",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "14893085",
     "description": "ae285ecd",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "74362e15",
     "model_type": "ddb0b7bc",
     "page_url": "d1f0c151",
     "tagline": "ae285ecd",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

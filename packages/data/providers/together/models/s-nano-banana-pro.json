@@ -3,7 +3,7 @@
   "name": "Nano Banana Pro",
   "created_by": "unknown",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "context_window": 32000,
   "capabilities": {
     "streaming": true
@@ -17,7 +17,9 @@
     "context_window": "10e4d788",
     "capabilities": "0fa77dc6",
     "pricing": "d88aeb9d",
-    "page_url": "efea55d5"
+    "page_url": "efea55d5",
+    "status": "2e2f74dc"
   },
-  "page_url": "https://www.together.ai/models/nano-banana-pro"
+  "page_url": "https://www.together.ai/models/nano-banana-pro",
+  "status": "deprecated"
 }

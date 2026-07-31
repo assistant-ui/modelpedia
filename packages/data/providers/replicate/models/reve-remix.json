@@ -3,14 +3,14 @@
   "name": "Remix",
   "created_by": "reve",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/reve/remix",
   "_generated": {
     "name": "a60101c8",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "03e69dc3"
   },
-  "last_updated": "2026-07-30"
+  "last_updated": "2026-07-31"
 }

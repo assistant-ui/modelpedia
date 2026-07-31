@@ -3,7 +3,7 @@
   "name": "Remove Bg 2",
   "created_by": "fottoai",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "image",
   "page_url": "https://replicate.com/fottoai/remove-bg-2",
   "modalities": {
@@ -13,11 +13,11 @@
   "endpoints": ["images"],
   "_generated": {
     "name": "94a6df57",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "page_url": "db434845",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-31"
 }

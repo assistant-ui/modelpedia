@@ -29,7 +29,9 @@
     "open_weight": "b326b506",
     "tagline": "9a4cf10b",
     "capabilities": "91e36286",
-    "modalities": "6399757e"
+    "modalities": "6399757e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-04-16"
+  "last_updated": "2026-07-31",
+  "status": "deprecated"
 }

@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Enhance low-resolution images with the superior quality of Swin2SR for sharper, clearer results.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-02-28",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/swin2sr",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "e761ff28",
     "description": "48457b0f",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "e33ac46b",
     "model_type": "db8857fe",
     "page_url": "91da3c39",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5c252aee"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

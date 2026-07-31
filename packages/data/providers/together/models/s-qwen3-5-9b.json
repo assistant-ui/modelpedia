@@ -3,7 +3,7 @@
   "name": "Qwen3 5 9b",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-02",
+  "last_updated": "2026-07-31",
   "family": "qwen3",
   "context_window": 262000,
   "capabilities": {
@@ -22,7 +22,8 @@
     "model_type": "d669f408",
     "parameters": "45c48cce",
     "page_url": "32603484",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "parameters": 9,
@@ -30,5 +31,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

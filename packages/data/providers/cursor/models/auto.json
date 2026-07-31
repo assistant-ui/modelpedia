@@ -3,7 +3,7 @@
   "name": "Auto",
   "created_by": "cursor",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },
@@ -21,7 +21,9 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "pricing": "a5394a98",
-    "page_url": "753da7d4"
+    "page_url": "753da7d4",
+    "status": "2e2f74dc"
   },
-  "page_url": "https://cursor.com/docs/models-and-pricing#auto"
+  "page_url": "https://cursor.com/docs/models-and-pricing#auto",
+  "status": "deprecated"
 }

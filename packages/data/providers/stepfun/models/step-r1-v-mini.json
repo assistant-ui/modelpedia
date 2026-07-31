@@ -3,10 +3,10 @@
   "name": "Step R1 V Mini",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-31",
   "family": "step-r",
   "description": "Compact visual reasoning model. Strong at image understanding, math, coding, and chain-of-thought over images.",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "reasoning",
   "context_window": 100000,
   "reasoning_tokens": true,
@@ -26,5 +26,22 @@
     "input": 0.347,
     "cached_input": 0.069,
     "output": 1.111
+  },
+  "tagline": "Compact visual reasoning model.",
+  "_generated": {
+    "name": "9c18c366",
+    "family": "618cd4cd",
+    "description": "84429987",
+    "status": "2e2f74dc",
+    "model_type": "17475f7f",
+    "context_window": "14ee22ea",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "09b640f2",
+    "modalities": "6399757e",
+    "endpoints": "d8fa1080",
+    "pricing": "9ab70bd5",
+    "tagline": "3a19befb"
   }
 }

@@ -1,9 +1,9 @@
 {
   "id": "zai/glm-4.7",
   "name": "glm-4.7",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-04-07",
+  "last_updated": "2026-07-31",
   "context_window": 204800,
   "capabilities": {
     "streaming": true,

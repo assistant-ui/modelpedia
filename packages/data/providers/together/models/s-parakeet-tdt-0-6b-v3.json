@@ -17,7 +17,9 @@
     "parameters": "1679091c",
     "page_url": "3022bcc0",
     "capabilities": "0fa77dc6",
-    "pricing": "986dacd8"
+    "pricing": "986dacd8",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-07-31",
+  "status": "deprecated"
 }

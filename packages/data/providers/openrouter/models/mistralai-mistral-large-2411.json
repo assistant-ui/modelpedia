@@ -3,7 +3,7 @@
   "name": "Mistral Large 2411",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-04-07",
+  "last_updated": "2026-07-31",
   "family": "mistral-large",
   "description": "Mistral Large 2 2411 is an update of [Mistral Large 2](/mistralai/mistral-large) released together with [Pixtral Large 2411](/mistralai/pixtral-large-2411) It provides a significant upgrade on the pre",
   "context_window": 131072,
@@ -32,11 +32,13 @@
     "model_type": "d669f408",
     "release_date": "603a9d41",
     "tagline": "941da2c5",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "release_date": "2024-11-19",
   "alias": "mistralai/mistral-large",
   "tagline": "Mistral Large 2 2411 is an update of [Mistral Large 2](/mistralai/mistral-large) released together with [Pixtral Large 2411](/mistralai/pixtral-large-2411)\n\nIt provides a significant upgrade on the pr",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "HunyuanCustom revolutionizes video generation with unmatched identity consistency across multiple input types.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-05-14",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/hunyuan-custom",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "8cf5698a",
     "description": "4de53fa2",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "c0463868",
     "model_type": "4d1b75ca",
     "page_url": "8cf91612",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

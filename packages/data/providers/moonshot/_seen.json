@@ -1,13 +1,11 @@
 {
   "date": "2026-07-31",
-  "count": 12,
+  "count": 10,
   "ids": [
-    "kimi-k2-0711-preview",
-    "kimi-k2-0905-preview",
-    "kimi-k2-thinking",
-    "kimi-k2-thinking-turbo",
-    "kimi-k2-turbo-preview",
-    "kimi-k2.5",
+    "kimi-k2.6",
+    "kimi-k2.7-code",
+    "kimi-k2.7-code-highspeed",
+    "kimi-k3",
     "moonshot-v1-128k",
     "moonshot-v1-128k-vision-preview",
     "moonshot-v1-32k",

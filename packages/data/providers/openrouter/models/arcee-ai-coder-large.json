@@ -3,7 +3,7 @@
   "name": "Arcee AI: Coder Large",
   "created_by": "arcee-ai",
   "source": "official",
-  "last_updated": "2026-04-07",
+  "last_updated": "2026-07-31",
   "description": "Coder‑Large is a 32 B‑parameter offspring of Qwen 2.5‑Instruct that has been further trained on permissively‑licensed GitHub, CodeSearchNet and synthetic bug‑fix corpora.",
   "context_window": 32768,
   "modalities": {
@@ -21,8 +21,10 @@
     "modalities": "68e53d93",
     "pricing": "51160c11",
     "release_date": "be9965ce",
-    "tagline": "8d3a8ee3"
+    "tagline": "8d3a8ee3",
+    "status": "2e2f74dc"
   },
   "release_date": "2025-05-05",
-  "tagline": "Coder‑Large is a 32 B‑parameter offspring of Qwen 2.5‑Instruct that has been further trained on permissively‑licensed GitHub, CodeSearchNet and synthetic bug‑fix corpora."
+  "tagline": "Coder‑Large is a 32 B‑parameter offspring of Qwen 2.5‑Instruct that has been further trained on permissively‑licensed GitHub, CodeSearchNet and synthetic bug‑fix corpora.",
+  "status": "deprecated"
 }

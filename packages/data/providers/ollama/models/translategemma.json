@@ -3,7 +3,7 @@
   "name": "translategemma",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true,
     "vision": true,
@@ -20,7 +20,8 @@
     "parameters": "a87ff679",
     "license": "6327aaea",
     "open_weight": "b326b506",
-    "modalities": "6399757e"
+    "modalities": "6399757e",
+    "status": "2e2f74dc"
   },
   "model_type": "translation",
   "description": "A new collection of open translation models built on Gemma 3, helping people communicate across 55 languages.",
@@ -33,5 +34,6 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

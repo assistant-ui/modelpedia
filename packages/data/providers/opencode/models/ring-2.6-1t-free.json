@@ -3,14 +3,14 @@
   "name": "Ring 2.6 1T",
   "created_by": "unknown",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "c4e1807c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "capabilities": "0fa77dc6"
   },
-  "last_updated": "2026-05-14"
+  "last_updated": "2026-07-31"
 }

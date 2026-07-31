@@ -3,9 +3,9 @@
   "name": "Moonshot v1 8K Vision",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "family": "moonshot",
-  "context_window": 8000,
+  "context_window": 8192,
   "license": "proprietary",
   "model_type": "chat",
   "capabilities": {
@@ -20,11 +20,20 @@
   "_generated": {
     "name": "7b8aecf8",
     "family": "9126e350",
-    "context_window": "67ff32d4",
+    "context_window": "77441296",
     "license": "9186c466",
     "model_type": "d669f408",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "status": "379ac110",
+    "page_url": "90c2a563",
+    "pricing": "d494cb62"
+  },
+  "status": "active",
+  "page_url": "https://platform.moonshot.ai/docs/pricing/chat",
+  "pricing": {
+    "input": 0.2,
+    "output": 2
   }
 }

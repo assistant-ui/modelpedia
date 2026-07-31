@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Now with a 50% price drop.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-07-09",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/veo3/fast/image-to-video",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "fa51fdb5",
     "description": "4897ffd8",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "0ebd8cbe",
     "model_type": "4d1b75ca",
     "page_url": "a06d168f",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "52326430"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

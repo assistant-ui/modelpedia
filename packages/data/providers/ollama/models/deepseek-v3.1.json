@@ -3,7 +3,7 @@
   "name": "deepseek-v3.1",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "family": "deepseek",
   "capabilities": {
     "streaming": true,
@@ -22,7 +22,8 @@
     "license": "6327aaea",
     "open_weight": "b326b506",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "description": "DeepSeek-V3.1-Terminus is a hybrid model that supports both thinking mode and non-thinking mode.",
   "release_date": "2025-11-20",
@@ -36,5 +37,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

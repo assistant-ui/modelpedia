@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Generate pose or depth controlled video using Alibaba-PAI's Wan 2.2 Fun",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-28",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/wan-fun-control",
@@ -15,12 +15,12 @@
     "name": "b7187826",
     "family": "2aadc089",
     "description": "103add37",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "9e3c5ae9",
     "model_type": "ddb0b7bc",
     "page_url": "282ef2aa",
     "tagline": "103add37",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

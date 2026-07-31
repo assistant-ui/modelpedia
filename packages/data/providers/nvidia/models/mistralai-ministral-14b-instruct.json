@@ -3,7 +3,7 @@
   "name": "ministral-14b-instruct-2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "family": "ministral",
   "capabilities": {
     "streaming": true,
@@ -17,7 +17,8 @@
     "model_type": "d669f408",
     "parameters": "aab32389",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "parameters": 14,
@@ -25,5 +26,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

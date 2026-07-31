@@ -3,7 +3,7 @@
   "name": "Sora 2 Pro",
   "created_by": "unknown",
   "source": "official",
-  "last_updated": "2026-04-04",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },
@@ -17,9 +17,11 @@
     "pricing": "e477d0ba",
     "model_type": "4d1b75ca",
     "family": "3d185d44",
-    "page_url": "0ccf1442"
+    "page_url": "0ccf1442",
+    "status": "2e2f74dc"
   },
   "model_type": "video",
   "family": "sora-2",
-  "page_url": "https://www.together.ai/models/sora-2-pro"
+  "page_url": "https://www.together.ai/models/sora-2-pro",
+  "status": "deprecated"
 }

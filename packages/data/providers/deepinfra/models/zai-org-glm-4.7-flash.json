@@ -1,9 +1,9 @@
 {
   "id": "zai-org/GLM-4.7-Flash",
   "name": "GLM-4.7-Flash",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-31",
   "family": "GLM-4.7",
   "description": "GLM-4.7-Flash is a 30B-A3B MoE model. As the strongest model in the 30B class, GLM-4.7-Flash offers a new option for lightweight deployment that balances performance and efficiency.",
   "status": "active",

@@ -3,7 +3,7 @@
   "name": "Stable Diffusion 3.5 Large",
   "created_by": "stability",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-07-31",
   "model_type": "image",
   "capabilities": {
     "vision": true
@@ -16,6 +16,8 @@
     "name": "741f0034",
     "model_type": "db8857fe",
     "capabilities": "d3117eb0",
-    "modalities": "09b7b646"
-  }
+    "modalities": "09b7b646",
+    "status": "2e2f74dc"
+  },
+  "status": "deprecated"
 }

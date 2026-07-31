@@ -3,21 +3,24 @@
   "name": "Moonshot v1 8K",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "family": "moonshot",
-  "context_window": 8000,
+  "context_window": 8192,
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "0171e05c",
     "family": "9126e350",
-    "context_window": "67ff32d4",
+    "context_window": "77441296",
     "capabilities": "0fa77dc6",
     "model_type": "d669f408",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "379ac110",
+    "page_url": "90c2a563",
+    "pricing": "d494cb62"
   },
   "model_type": "chat",
   "license": "proprietary",
@@ -25,5 +28,11 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
+  },
+  "status": "active",
+  "page_url": "https://platform.moonshot.ai/docs/pricing/chat",
+  "pricing": {
+    "input": 0.2,
+    "output": 2
   }
 }

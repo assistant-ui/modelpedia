@@ -3,7 +3,7 @@
   "name": "kimi-k2.5",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-05-01",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true,
     "fine_tuning": true,
@@ -25,7 +25,8 @@
     "open_weight": "b326b506",
     "modalities": "68e53d93",
     "reasoning_tokens": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "family": "kimi-k2.5",
   "model_type": "chat",
@@ -41,5 +42,6 @@
     "output": ["text"]
   },
   "reasoning_tokens": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

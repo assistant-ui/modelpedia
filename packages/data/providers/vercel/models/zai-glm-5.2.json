@@ -1,7 +1,7 @@
 {
   "id": "zai/glm-5.2",
   "name": "glm-5.2",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
   "family": "glm-5.2",
   "context_window": 1000000,

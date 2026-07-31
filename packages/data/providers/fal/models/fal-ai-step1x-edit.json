@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Step1X-Edit transforms your photos with simple instructions into stunning, professional-quality edits—rivaling top proprietary tools.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-04-25",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/step1x-edit",
@@ -23,7 +23,7 @@
   "_generated": {
     "name": "15daffec",
     "description": "825c237c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "258778b6",
     "model_type": "db8857fe",
     "page_url": "e5b22a79",
@@ -34,5 +34,5 @@
     "tools": "f0c1dc7e",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

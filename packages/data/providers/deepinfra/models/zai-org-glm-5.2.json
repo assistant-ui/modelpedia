@@ -1,7 +1,7 @@
 {
   "id": "zai-org/GLM-5.2",
   "name": "GLM-5.2",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
   "family": "GLM-5.2",
   "description": "GLM-5.2 is Z-AI's latest flagship model for long-horizon tasks. It marks a substantial leap in long-horizon task capability over its predecessor GLM-5.1 and, for the first time, delivers that capability on a **solid 1M-token context**.",
@@ -50,5 +50,5 @@
     "endpoints": "d8fa1080",
     "quantization": "0e8a48ee"
   },
-  "last_updated": "2026-07-30"
+  "last_updated": "2026-07-31"
 }

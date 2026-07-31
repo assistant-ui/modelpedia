@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Change sections of a video using LTX-2",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-11-26",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx-2/retake-video",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "5909b1ef",
     "description": "7ac088f3",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "a5b8446f",
     "model_type": "ddb0b7bc",
     "page_url": "4eadd1db",
     "tagline": "7ac088f3",
     "last_seen_at": "a393f093"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-31"
 }

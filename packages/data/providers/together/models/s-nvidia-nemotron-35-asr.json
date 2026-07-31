@@ -15,7 +15,9 @@
     "name": "f8f1567d",
     "page_url": "ae5d2fea",
     "capabilities": "0fa77dc6",
-    "pricing": "1550a0d0"
+    "pricing": "1550a0d0",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-07-31",
+  "status": "deprecated"
 }

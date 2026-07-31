@@ -3,7 +3,7 @@
   "name": "DeepSeek V3.2 (Chat)",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "family": "deepseek-chat",
   "description": "DeepSeek-V3.2 in non-thinking mode. Best for general chat, code, and tool use.",
   "context_window": 128000,
@@ -30,7 +30,7 @@
     "capabilities": "ec2d2639",
     "pricing": "f1b8e1d4",
     "tagline": "7d65cf30",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "modalities": "68e53d93",
     "endpoints": "772bacef",
@@ -39,7 +39,7 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e"
   },
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "modalities": {
     "input": ["text"],

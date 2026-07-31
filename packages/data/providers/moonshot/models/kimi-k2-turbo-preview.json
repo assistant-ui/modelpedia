@@ -3,7 +3,7 @@
   "name": "Kimi K2 Turbo",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "family": "kimi",
   "description": "High-speed version, 60-100 tokens/sec output.",
   "context_window": 256000,
@@ -27,7 +27,8 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "max_output_tokens": "f4376436",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "license": "mit",
@@ -37,5 +38,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

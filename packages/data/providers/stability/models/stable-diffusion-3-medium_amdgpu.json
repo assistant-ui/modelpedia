@@ -4,7 +4,7 @@
   "created_by": "stability",
   "source": "official",
   "description": "Stable Diffusion 3 Medium Amdgpu is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-02-28",
   "model_type": "image",
   "license": "other",
@@ -25,7 +25,7 @@
   "_generated": {
     "name": "3cd8c0ee",
     "description": "9bd06a43",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "e33ac46b",
     "model_type": "db8857fe",
     "license": "ddb0b7bc",
@@ -38,5 +38,5 @@
     "huggingface_downloads": "cfcd2084",
     "last_modified": "a426f3fc"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

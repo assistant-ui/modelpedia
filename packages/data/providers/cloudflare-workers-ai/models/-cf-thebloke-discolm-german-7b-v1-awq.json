@@ -3,7 +3,7 @@
   "name": "discolm-german-7b-v1-awq",
   "created_by": "thebloke",
   "source": "official",
-  "last_updated": "2026-04-16",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },
@@ -11,13 +11,13 @@
     "name": "1bd82e15",
     "capabilities": "0fa77dc6",
     "parameters": "8f14e45f",
-    "status": "127aecde",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "page_url": "a5622436",
     "modalities": "68e53d93"
   },
   "parameters": 7,
-  "status": "preview",
+  "status": "deprecated",
   "model_type": "chat",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#discolm-german-7b-v1-awq",
   "modalities": {

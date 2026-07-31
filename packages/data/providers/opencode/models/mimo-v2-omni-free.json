@@ -3,14 +3,14 @@
   "name": "MiMo V2 Omni Free",
   "created_by": "xiaomi",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "status": "active",
+  "last_updated": "2026-07-31",
+  "status": "deprecated",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "c34970a1",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "capabilities": "0fa77dc6",
     "model_type": "d669f408",
     "family": "1a23786e",

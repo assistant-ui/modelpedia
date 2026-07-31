@@ -3,10 +3,10 @@
   "name": "Step 1x Edit",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-31",
   "family": "step-1x",
   "description": "Image editing model. 512-character prompts, source image up to 1024x1024.",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "image",
   "license": "proprietary",
   "open_weight": false,
@@ -14,5 +14,18 @@
     "input": ["text", "image"],
     "output": ["image"]
   },
-  "endpoints": ["images_edits"]
+  "endpoints": ["images_edits"],
+  "tagline": "Image editing model.",
+  "_generated": {
+    "name": "0eaa7a2b",
+    "family": "2ac8a567",
+    "description": "21562514",
+    "status": "2e2f74dc",
+    "model_type": "db8857fe",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "modalities": "bbf9b8bb",
+    "endpoints": "a534a692",
+    "tagline": "3fd8d033"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "id": "z-ai/glm-5.2",
   "name": "glm-5.2",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
   "family": "glm-5.2",
   "model_type": "chat",
@@ -19,5 +19,5 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-07-31"
 }

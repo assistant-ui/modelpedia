@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "WAN-ATI is a controllable video generation model that uses trajectory instructions to guide object, local, and camera motion, enabling precise and flexible image-to-video creation.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-29",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/wan-ati",
@@ -23,7 +23,7 @@
     "name": "51fe1579",
     "family": "2aadc089",
     "description": "6db7a709",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "8102076e",
     "model_type": "4d1b75ca",
     "page_url": "6492c07d",
@@ -33,5 +33,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

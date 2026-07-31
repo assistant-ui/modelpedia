@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Stable Avatar generates audio-driven video avatars up to five minutes long",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-14",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/stable-avatar",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "105ce983",
     "description": "ee710dd0",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "3c37f85f",
     "model_type": "ddb0b7bc",
     "page_url": "084f3905",
     "tagline": "ee710dd0",
     "last_seen_at": "42382078"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

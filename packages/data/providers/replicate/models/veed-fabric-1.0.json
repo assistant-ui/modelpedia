@@ -3,14 +3,14 @@
   "name": "Fabric 1.0",
   "created_by": "veed",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/veed/fabric-1.0",
   "_generated": {
     "name": "b55e6f5f",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "077b34af"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-31"
 }

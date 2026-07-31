@@ -3,7 +3,7 @@
   "name": "wan2.1-kf2v-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-07-31",
   "model_type": "video",
   "capabilities": {
     "streaming": true
@@ -24,12 +24,14 @@
     "open_weight": "68934a3e",
     "description": "6f1125b5",
     "page_url": "23162829",
-    "tagline": "d698878b"
+    "tagline": "d698878b",
+    "status": "2e2f74dc"
   },
   "family": "wan2.1",
   "license": "proprietary",
   "open_weight": false,
   "description": "The Wan first-and-last-frame image-to-video model generates smooth, fluid videos using just two images---the first and last frames---plus your prompt. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2880649.html) \\| [Try it now](https://wan.video/wanxiang/videoCreation) ## International If you select the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are restricted to the Chinese mainland. Static data is stored in your selected region. Supported region: China (Beijing).",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "tagline": "Wan first-and-last-frame video generation models generate smooth, fluid videos from just two input frames, the first and last, plus a prompt."
+  "tagline": "Wan first-and-last-frame video generation models generate smooth, fluid videos from just two input frames, the first and last, plus a prompt.",
+  "status": "deprecated"
 }

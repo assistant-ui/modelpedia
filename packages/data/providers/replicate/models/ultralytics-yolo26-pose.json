@@ -3,14 +3,14 @@
   "name": "Yolo26 Pose",
   "created_by": "ultralytics",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/ultralytics/yolo26-pose",
   "_generated": {
     "name": "8accfe23",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "6b984ed0"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-31"
 }

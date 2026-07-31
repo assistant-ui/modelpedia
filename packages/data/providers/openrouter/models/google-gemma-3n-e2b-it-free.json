@@ -3,7 +3,7 @@
   "name": "Google: Gemma 3n 2B (free)",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "family": "gemma-3n",
   "description": "Gemma 3n E2B IT is a multimodal, instruction-tuned model developed by Google DeepMind, designed to operate efficiently at an effective parameter size of 2B while leveraging a 6B architecture.",
   "context_window": 8192,
@@ -26,9 +26,11 @@
     "capabilities": "dbb5b7fe",
     "model_type": "d669f408",
     "release_date": "0ebd8cbe",
-    "tagline": "a5694a26"
+    "tagline": "a5694a26",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "release_date": "2025-07-09",
-  "tagline": "Gemma 3n E2B IT is a multimodal, instruction-tuned model developed by Google DeepMind, designed to operate efficiently at an effective parameter size of 2B while leveraging a 6B architecture."
+  "tagline": "Gemma 3n E2B IT is a multimodal, instruction-tuned model developed by Google DeepMind, designed to operate efficiently at an effective parameter size of 2B while leveraging a 6B architecture.",
+  "status": "deprecated"
 }

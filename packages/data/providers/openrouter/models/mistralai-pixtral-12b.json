@@ -3,7 +3,7 @@
   "name": "Mistral: Pixtral 12B",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "family": "pixtral",
   "description": "The first multi-modal, text+image-to-text model from Mistral AI.",
   "context_window": 32768,
@@ -25,10 +25,12 @@
     "model_type": "d669f408",
     "parameters": "c20ad4d7",
     "release_date": "2da0d696",
-    "tagline": "cf01b51c"
+    "tagline": "cf01b51c",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "parameters": 12,
   "release_date": "2024-09-10",
-  "tagline": "The first multi-modal, text+image-to-text model from Mistral AI."
+  "tagline": "The first multi-modal, text+image-to-text model from Mistral AI.",
+  "status": "deprecated"
 }

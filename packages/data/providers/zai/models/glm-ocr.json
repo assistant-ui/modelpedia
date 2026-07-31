@@ -1,9 +1,9 @@
 {
   "id": "glm-ocr",
   "name": "GLM-OCR",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },

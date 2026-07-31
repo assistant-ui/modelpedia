@@ -3,10 +3,10 @@
   "name": "Step 3.5 Flash 2603",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-31",
   "family": "step-3.5",
   "description": "Step 3.5 Flash dated snapshot (2603) tuned for high-frequency agents, coding, and tool use.",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "reasoning",
   "context_window": 256000,
   "reasoning_tokens": true,
@@ -17,7 +17,8 @@
     "reasoning": true,
     "streaming": true,
     "structured_output": true,
-    "json_mode": true
+    "json_mode": true,
+    "fine_tuning": true
   },
   "modalities": {
     "input": ["text"],
@@ -28,5 +29,24 @@
     "input": 0.097,
     "cached_input": 0.019,
     "output": 0.292
+  },
+  "tagline": "Step 3.5 Flash dated snapshot (2603) tuned for high-frequency agents, coding, and tool use.",
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "813c8923",
+    "family": "57613e56",
+    "description": "133cf2bf",
+    "status": "2e2f74dc",
+    "model_type": "17475f7f",
+    "context_window": "2fd324cb",
+    "reasoning_tokens": "b326b506",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "capabilities": "284e0403",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "pricing": "ba934072",
+    "tagline": "133cf2bf",
+    "tools": "f0c1dc7e"
   }
 }

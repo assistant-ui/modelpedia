@@ -3,7 +3,7 @@
   "name": "Motif Video",
   "created_by": "lucataco",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "video",
   "page_url": "https://replicate.com/lucataco/motif-video",
   "modalities": {
@@ -13,11 +13,11 @@
   "endpoints": ["video"],
   "_generated": {
     "name": "194281be",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "4d1b75ca",
     "page_url": "95cf2227",
     "modalities": "94e5e9ab",
     "endpoints": "7a78c070"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

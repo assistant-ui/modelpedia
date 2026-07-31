@@ -3,10 +3,10 @@
   "name": "Step 2 16k",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-31",
   "family": "step-2",
   "description": "Trillion-parameter MoE general-purpose model. Bilingual Chinese/English, strong on resource processing and intent recognition.",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "context_window": 16000,
   "license": "proprietary",
@@ -24,5 +24,23 @@
     "input": 5.278,
     "cached_input": 1.056,
     "output": 16.667
+  },
+  "tagline": "Trillion-parameter MoE general-purpose model.",
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e4104a59",
+    "family": "0d6defd6",
+    "description": "cea3774b",
+    "status": "2e2f74dc",
+    "model_type": "d669f408",
+    "context_window": "67510c89",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "43d67186",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "pricing": "7f516448",
+    "tagline": "e092b7cc",
+    "tools": "f0c1dc7e"
   }
 }

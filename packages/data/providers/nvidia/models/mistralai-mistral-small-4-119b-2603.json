@@ -3,7 +3,7 @@
   "name": "mistral-small-4-119b-2603",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "family": "mistral-small",
   "alias": "mistralai/mistral-small-4-119b",
   "capabilities": {
@@ -15,12 +15,14 @@
     "capabilities": "0fa77dc6",
     "model_type": "d669f408",
     "parameters": "07e1cd7d",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "parameters": 119,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

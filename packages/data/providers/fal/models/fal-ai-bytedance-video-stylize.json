@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Transform your images into stylized videos using this workflow.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-12",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/bytedance/video-stylize",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "6d00f002",
     "description": "6ff68422",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "4ae0376c",
     "model_type": "4d1b75ca",
     "page_url": "9f2e5b98",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

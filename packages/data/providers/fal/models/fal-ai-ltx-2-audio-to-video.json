@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate video from audio using LTX-2",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-03-04",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx-2/audio-to-video",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "a07842ae",
     "description": "1ea891fe",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "4a273186",
     "model_type": "ddb0b7bc",
     "page_url": "e629853a",
     "tagline": "1ea891fe",
     "last_seen_at": "a393f093"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-31"
 }

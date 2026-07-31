@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "MAGI-1 is a video generation model with exceptional understanding of physical interactions and cinematic prompts",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-04-23",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/magi",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "7cf99815",
     "description": "f93e32c3",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "efc42cfe",
     "model_type": "4d1b75ca",
     "page_url": "48f0a56d",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

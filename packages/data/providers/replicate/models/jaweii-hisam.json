@@ -3,14 +3,14 @@
   "name": "Hisam",
   "created_by": "jaweii",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/jaweii/hisam",
   "_generated": {
     "name": "06712065",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "dcdd5d38"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-31"
 }
