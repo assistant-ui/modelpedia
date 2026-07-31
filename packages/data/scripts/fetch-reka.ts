@@ -1,7 +1,9 @@
 import { fetchJson } from "./parse.ts";
 import {
+  assertParsed,
   envOrNull,
   type ModelEntry,
+  parseMarkdownTable,
   readSources,
   runGenerate,
   upsertModel,
@@ -10,13 +12,79 @@ import {
 /**
  * Fetch Reka AI models.
  *
- * The /v1/models endpoint requires REKA_API_KEY (returns {} unauthenticated).
- * When no key is present we fall back to hardcoded specs sourced from
- * docs.reka.ai/pricing and reka.ai/news.
+ * The /v1/models endpoint requires REKA_API_KEY (returns {} unauthenticated),
+ * so the catalog and prices come from the public pricing markdown and the API
+ * only adds release dates when a key happens to be present.
+ *
+ * Source history: with no key this script wrote a hardcoded list and nothing
+ * else, which is the failure that froze moonshot at kimi-k2.5 while k3 shipped.
+ * A hardcoded list is invisible to every guard: it parses cleanly, writes a
+ * stable count and reports zero delisted models forever. HARDCODED below is now
+ * enrichment for the specs the pricing tables do not carry.
  */
 
 const sources = readSources("reka");
 const API_URL = sources.models as string;
+const PRICING_MD = sources.pricing_md as string;
+
+interface DocsModel {
+  id: string;
+  input?: number;
+  output?: number;
+}
+
+/** "**Reka Flash**" or "<b>Reka Edge</b>" plus prose → `reka-flash`. */
+function cellToId(cell: string): string | undefined {
+  const bold = cell.match(/<b>([^<]+)<\/b>|\*\*([^*]+)\*\*/);
+  const label = (bold?.[1] ?? bold?.[2] ?? "").trim();
+  if (!label) return undefined;
+  const slug = label.toLowerCase().replace(/\s+/g, "-");
+  return /^reka-/.test(slug) ? slug : undefined;
+}
+
+function parseUsd(cell: string): number | undefined {
+  const m = cell.match(/\$\s*([\d.]+)/);
+  if (!m) return undefined;
+  const n = Number(m[1]);
+  return Number.isFinite(n) ? n : undefined;
+}
+
+/**
+ * Parse the per-1M token table. Other tables on the page price per request or
+ * per minute, so only the one whose headers name token columns is taken.
+ */
+function parsePricing(md: string): DocsModel[] {
+  const out: DocsModel[] = [];
+  const rows = parseMarkdownTable(md.split("\n"));
+  if (rows.length === 0) return out;
+
+  let iIn = -1;
+  let iOut = -1;
+  for (const cells of rows) {
+    const head = cells.map((c) => c.replace(/<[^>]+>/g, " ").toLowerCase());
+    const maybeIn = head.findIndex(
+      (h) => h.includes("input") && h.includes("token"),
+    );
+    const maybeOut = head.findIndex(
+      (h) => h.includes("output") && h.includes("token"),
+    );
+    if (maybeIn >= 0 && maybeOut >= 0) {
+      iIn = maybeIn;
+      iOut = maybeOut;
+      continue;
+    }
+    if (iIn < 0) continue;
+
+    const id = cellToId(cells[0] ?? "");
+    if (!id) continue;
+    out.push({
+      id,
+      input: parseUsd(cells[iIn] ?? ""),
+      output: parseUsd(cells[iOut] ?? ""),
+    });
+  }
+  return out;
+}
 
 interface ApiModel {
   id: string;
@@ -177,16 +245,33 @@ async function main() {
     } catch (err) {
       console.warn("Could not fetch /v1/models:", err);
     }
-  } else {
-    console.log("No REKA_API_KEY set, using hardcoded specs");
   }
+
+  const pricingMd = await fetch(PRICING_MD).then((r) => r.text());
+  const docsModels = parsePricing(pricingMd);
+  console.log(`Parsed ${docsModels.length} models from pricing docs`);
+  assertParsed(docsModels.length, "reka");
+  const pricingById = new Map(docsModels.map((m) => [m.id, m]));
 
   let written = 0;
   const seen = new Set<string>();
 
-  for (const entry of HARDCODED) {
+  // Everything the docs price, plus the hardcoded specs for anything the
+  // tables list without covering (open-weight releases carry no rate).
+  const ids = new Set([...pricingById.keys(), ...HARDCODED.map((m) => m.id)]);
+  const specsById = new Map(HARDCODED.map((m) => [m.id, m]));
+
+  for (const id of ids) {
+    const entry = specsById.get(id) ?? { id, name: id };
     const apiModel = apiModels.get(entry.id);
     const enriched: ModelEntry = { ...entry };
+    const priced = pricingById.get(id);
+    if (priced && (priced.input != null || priced.output != null)) {
+      enriched.pricing = {
+        ...(priced.input != null ? { input: priced.input } : {}),
+        ...(priced.output != null ? { output: priced.output } : {}),
+      };
+    }
     if (apiModel?.created && !enriched.release_date) {
       enriched.release_date = new Date(apiModel.created * 1000)
         .toISOString()
