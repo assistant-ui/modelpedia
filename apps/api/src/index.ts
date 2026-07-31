@@ -1,6 +1,13 @@
 import type { RateLimiter } from "cloudflare:workers";
 import type { Model } from "@modelpedia/data";
-import { allModels, getModel, getProvider, providers } from "@modelpedia/data";
+import {
+  allModels,
+  getModel,
+  getPriceChanges,
+  getPriceHistory,
+  getProvider,
+  providers,
+} from "@modelpedia/data";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { prettyJSON } from "hono/pretty-json";
@@ -319,6 +326,25 @@ app.get("/models/types", (c) => {
   );
 });
 
+// ── GET /v1/models/:provider/:id/price-history ──
+
+app.get("/models/:provider/:id{.+}/price-history", (c) => {
+  const provider = c.req.param("provider");
+  const id = c.req.param("id").replace(/\/price-history$/, "");
+  const model = getModel(provider, id);
+  if (!model) return c.json(err("Model not found", 404), 404);
+
+  const points = getPriceHistory(provider, id) ?? [];
+  return c.json(
+    ok(points, {
+      provider,
+      model: id,
+      steps: points.length,
+      current: model.pricing ?? null,
+    }),
+  );
+});
+
 // ── GET /v1/models/:provider/:id ──
 
 app.get("/models/:provider/:id{.+}", (c) => {
@@ -397,6 +423,47 @@ app.get("/pricing/compare", (c) => {
   });
 
   return c.json(ok(result.items, { total: result.total, limit, offset }));
+});
+
+// ── GET /v1/pricing/changes ──
+
+app.get("/pricing/changes", (c) => {
+  const since = c.req.query("since");
+  const provider = c.req.query("provider");
+  const direction = c.req.query("direction");
+
+  let entries = getPriceChanges(since);
+  if (provider) entries = entries.filter((e) => e.provider === provider);
+
+  const moves = entries
+    .map((e) => {
+      const known = e.points.filter((p) => typeof p.input === "number");
+      if (known.length < 2) return null;
+      const from = known[known.length - 2].input as number;
+      const to = known[known.length - 1].input as number;
+      if (from === to || from === 0) return null;
+      return {
+        provider: e.provider,
+        model: e.model,
+        date: known[known.length - 1].date,
+        input: { from, to },
+        pct: Math.round(((to - from) / from) * 10000) / 100,
+        steps: e.points.length,
+      };
+    })
+    .filter((m): m is NonNullable<typeof m> => m != null)
+    .filter((m) =>
+      direction === "down" ? m.pct < 0 : direction === "up" ? m.pct > 0 : true,
+    );
+
+  const { limit, offset } = paginate(c);
+  return c.json(
+    ok(moves.slice(offset, offset + limit), {
+      total: moves.length,
+      limit,
+      offset,
+    }),
+  );
 });
 
 // ── GET /v1/capabilities ──
