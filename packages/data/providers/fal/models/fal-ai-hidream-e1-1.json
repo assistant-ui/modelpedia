@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Edit images with natural language",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-07-23",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/hidream-e1-1",
@@ -22,7 +22,7 @@
   "_generated": {
     "name": "688ffccf",
     "description": "6daa0375",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "bfbd7cfc",
     "model_type": "db8857fe",
     "page_url": "1c3f82bf",
@@ -32,5 +32,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

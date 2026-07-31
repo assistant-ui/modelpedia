@@ -27,9 +27,11 @@
     "capabilities": "91e36286",
     "modalities": "6399757e",
     "description": "7b08404e",
-    "tagline": "7b08404e"
+    "tagline": "7b08404e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-07-31",
   "description": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
-  "tagline": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone"
+  "tagline": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+  "status": "deprecated"
 }

@@ -3,7 +3,7 @@
   "name": "zephyr-7b-beta-awq",
   "created_by": "thebloke",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },
@@ -11,13 +11,13 @@
     "name": "b10fa2b3",
     "capabilities": "0fa77dc6",
     "parameters": "8f14e45f",
-    "status": "127aecde",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "page_url": "d74633a5",
     "modalities": "68e53d93"
   },
   "parameters": 7,
-  "status": "preview",
+  "status": "deprecated",
   "model_type": "chat",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#zephyr-7b-beta-awq",
   "modalities": {

@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Use Wan-Move to generate videos with controlled the motion using trajectories",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-12-24",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/wan-move",
@@ -23,7 +23,7 @@
     "name": "de428d59",
     "family": "2aadc089",
     "description": "57b563ee",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "669f39a0",
     "model_type": "4d1b75ca",
     "page_url": "2c498eee",
@@ -33,5 +33,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

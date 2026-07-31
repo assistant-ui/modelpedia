@@ -4,7 +4,7 @@
   "created_by": "stability",
   "source": "official",
   "description": "Cosxl is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2024-04-08",
   "model_type": "image",
   "license": "other",
@@ -25,7 +25,7 @@
   "_generated": {
     "name": "85f8effe",
     "description": "2aea92c9",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "1bf77dbf",
     "model_type": "db8857fe",
     "license": "ddb0b7bc",
@@ -38,5 +38,5 @@
     "huggingface_downloads": "cfcd2084",
     "last_modified": "ad30cb96"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

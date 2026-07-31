@@ -1,9 +1,9 @@
 {
   "id": "zai-glm-4.6",
   "name": "zai-glm-4.6",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-07-31",
   "status": "deprecated",
   "deprecation_date": "2026-01-20",
   "model_type": "chat",

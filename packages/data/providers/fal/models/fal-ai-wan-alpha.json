@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Generate videos with transparent backgrounds",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-10-16",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/wan-alpha",
@@ -20,7 +20,7 @@
     "name": "48e0730f",
     "family": "2aadc089",
     "description": "52f6bd92",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "afca85c1",
     "model_type": "4d1b75ca",
     "page_url": "4bd9c928",
@@ -29,5 +29,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

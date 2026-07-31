@@ -3,7 +3,7 @@
   "name": "Claude 4.6 Opus (Fast mode)",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "family": "claude-opus",
   "capabilities": {
     "streaming": true,
@@ -38,12 +38,14 @@
     "model_type": "d669f408",
     "tools": "f0c1dc7e",
     "page_url": "9f79d045",
-    "pricing_notes": "f16421aa"
+    "pricing_notes": "f16421aa",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "tools": ["function_calling"],
   "page_url": "https://cursor.com/docs/models-and-pricing#claude-opus-4-6-fast",
   "pricing_notes": [
     "Hidden by default; Requires Max Mode on request-based plans; Limited research preview; Up to 1M tokens in Max Mode at the same per-token rates as shorter context"
-  ]
+  ],
+  "status": "deprecated"
 }

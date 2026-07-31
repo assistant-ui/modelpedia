@@ -3,7 +3,7 @@
   "name": "Ray v2",
   "created_by": "luma",
   "source": "official",
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-07-31",
   "model_type": "video",
   "modalities": {
     "input": ["text"],
@@ -12,6 +12,8 @@
   "_generated": {
     "name": "41404461",
     "model_type": "4d1b75ca",
-    "modalities": "94e5e9ab"
-  }
+    "modalities": "94e5e9ab",
+    "status": "2e2f74dc"
+  },
+  "status": "deprecated"
 }

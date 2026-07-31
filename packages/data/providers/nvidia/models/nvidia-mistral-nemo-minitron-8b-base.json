@@ -3,7 +3,7 @@
   "name": "mistral-nemo-minitron-8b-base",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },
@@ -13,7 +13,8 @@
     "model_type": "d669f408",
     "family": "75e1af53",
     "parameters": "c9f0f895",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "family": "mistral-nemo",
@@ -21,5 +22,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

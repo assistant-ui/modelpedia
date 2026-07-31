@@ -5,7 +5,7 @@
   "source": "official",
   "family": "sora-2",
   "description": "Generate character ids to use with Sora 2 generations",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-03-12",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/sora-2/characters",
@@ -23,7 +23,7 @@
     "name": "1bafc4f5",
     "family": "3d185d44",
     "description": "7af705ec",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "96ba6f81",
     "model_type": "4d1b75ca",
     "page_url": "a5eb4a1a",
@@ -33,5 +33,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "97e5b4c6"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-07-31"
 }

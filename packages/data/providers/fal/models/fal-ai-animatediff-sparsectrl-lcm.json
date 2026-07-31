@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Animate Your Drawings with Latent Consistency Models!",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2023-11-09",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/animatediff-sparsectrl-lcm",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "3398571e",
     "description": "15172c0f",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "c4e6786f",
     "model_type": "4d1b75ca",
     "page_url": "019be0f2",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5c252aee"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

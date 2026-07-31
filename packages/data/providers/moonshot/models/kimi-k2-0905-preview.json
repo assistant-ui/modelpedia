@@ -3,7 +3,7 @@
   "name": "Kimi K2 (0905)",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "family": "kimi",
   "description": "Enhanced agentic coding, front-end aesthetics, context understanding.",
   "context_window": 256000,
@@ -28,7 +28,8 @@
     "parameters": "a9b7ba70",
     "active_parameters": "6364d3f0",
     "architecture": "c2d4b00d",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "license": "mit",
@@ -41,5 +42,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

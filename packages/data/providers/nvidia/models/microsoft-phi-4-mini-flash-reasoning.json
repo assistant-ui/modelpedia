@@ -3,7 +3,7 @@
   "name": "phi-4-mini-flash-reasoning",
   "created_by": "microsoft",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true,
     "reasoning": true
@@ -12,11 +12,13 @@
     "name": "bfce27bb",
     "capabilities": "b011c6b4",
     "model_type": "17475f7f",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "reasoning",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

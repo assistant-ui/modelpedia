@@ -3,14 +3,14 @@
   "name": "Text To Voice",
   "created_by": "mptamilselvan",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "audio",
   "page_url": "https://replicate.com/mptamilselvan/text-to-voice",
   "_generated": {
     "name": "1ce2296e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "9f84c007",
     "page_url": "1257bc0c"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

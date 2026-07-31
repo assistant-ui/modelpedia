@@ -3,7 +3,7 @@
   "name": "Z.ai: GLM 4 32B ",
   "created_by": "z-ai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "description": "GLM 4 32B is a cost-effective foundation language model.",
   "context_window": 128000,
   "modalities": {
@@ -29,12 +29,14 @@
     "parameters": "6364d3f0",
     "release_date": "4faf3415",
     "tagline": "a3d763be",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "family": "glm-4",
   "model_type": "chat",
   "parameters": 32,
   "release_date": "2025-07-24",
   "tagline": "GLM 4 32B is a cost-effective foundation language model.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

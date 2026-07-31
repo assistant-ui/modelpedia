@@ -4,7 +4,7 @@
   "created_by": "novita",
   "source": "official",
   "family": "gemini-3",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-07-03",
   "model_type": "chat",
   "capabilities": {
@@ -23,7 +23,7 @@
   "_generated": {
     "name": "1f41d2e6",
     "family": "eb14e598",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "cf3023e2",
     "model_type": "d669f408",
     "capabilities": "5f5c7516",
@@ -31,5 +31,5 @@
     "pricing": "0aef5f9c",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-07-31"
 }

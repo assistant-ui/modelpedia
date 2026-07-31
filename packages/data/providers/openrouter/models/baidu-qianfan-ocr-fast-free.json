@@ -23,7 +23,9 @@
     "max_output_tokens": "6964e9d5",
     "tagline": "4afe9588",
     "capabilities": "7107421f",
-    "modalities": "8b8b28d1"
+    "modalities": "8b8b28d1",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-04-24"
+  "last_updated": "2026-07-31",
+  "status": "deprecated"
 }

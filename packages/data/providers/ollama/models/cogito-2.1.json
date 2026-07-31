@@ -3,7 +3,7 @@
   "name": "cogito-2.1",
   "created_by": "deepcogito",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true,
     "fine_tuning": true
@@ -20,7 +20,8 @@
     "license": "3c4c3ba5",
     "open_weight": "b326b506",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "description": "The Cogito v2.1 LLMs are instruction tuned generative models. All models are released under MIT license for commercial use.",
   "release_date": "2025-11-19",
@@ -34,5 +35,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

@@ -3,12 +3,14 @@
   "name": "sarvam-m",
   "created_by": "sarvamai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "797e98f0",
-    "capabilities": "0fa77dc6"
-  }
+    "capabilities": "0fa77dc6",
+    "status": "2e2f74dc"
+  },
+  "status": "deprecated"
 }

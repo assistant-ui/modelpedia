@@ -3,7 +3,7 @@
   "name": "Baidu: ERNIE 4.5 VL 28B A3B",
   "created_by": "baidu",
   "source": "official",
-  "last_updated": "2026-05-17",
+  "last_updated": "2026-07-31",
   "description": "A powerful multimodal Mixture-of-Experts chat model featuring 28B total parameters with 3B activated per token, delivering exceptional text and vision understanding through its innovative heterogeneou",
   "context_window": 131072,
   "max_output_tokens": 8000,
@@ -31,11 +31,13 @@
     "active_parameters": "eccbc87e",
     "release_date": "4ae0376c",
     "tagline": "9a32433d",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "parameters": 28,
   "active_parameters": 3,
   "release_date": "2025-08-12",
   "tagline": "A powerful multimodal Mixture-of-Experts chat model featuring 28B total parameters with 3B activated per token, delivering exceptional text and vision understanding through its innovative heterogeneou",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

@@ -3,7 +3,7 @@
   "name": "qwen3-max-preview",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-07-31",
   "family": "qwen3",
   "context_window": 256000,
   "model_type": "chat",
@@ -35,7 +35,8 @@
     "page_url": "6ecc6f25",
     "tagline": "ad8ef47d",
     "reasoning_tokens": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "license": "apache-2.0",
   "open_weight": true,
@@ -43,5 +44,6 @@
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
   "tagline": "The most powerful model in the Qwen series, ideal for complex, multi-step tasks.",
   "reasoning_tokens": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

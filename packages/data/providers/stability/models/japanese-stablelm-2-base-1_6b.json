@@ -4,7 +4,7 @@
   "created_by": "stability",
   "source": "official",
   "description": "Japanese Stablelm 2 Base 1 6b is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2024-05-02",
   "model_type": "chat",
   "license": "other",
@@ -26,7 +26,7 @@
   "_generated": {
     "name": "27132b9f",
     "description": "f7a876ca",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "37681173",
     "model_type": "d669f408",
     "license": "ddb0b7bc",
@@ -40,5 +40,5 @@
     "huggingface_downloads": "eccbc87e",
     "last_modified": "37681173"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-07-31"
 }

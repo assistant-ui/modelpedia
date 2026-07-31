@@ -3,7 +3,7 @@
   "name": "glm-5",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true,
     "fine_tuning": true,
@@ -26,7 +26,8 @@
     "open_weight": "b326b506",
     "modalities": "68e53d93",
     "reasoning_tokens": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "family": "glm-5",
@@ -44,5 +45,6 @@
     "output": ["text"]
   },
   "reasoning_tokens": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

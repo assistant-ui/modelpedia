@@ -4,7 +4,7 @@
   "created_by": "google",
   "source": "official",
   "family": "veo-3.1",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "video",
   "page_url": "https://replicate.com/google/veo-3.1-lite",
   "modalities": {
@@ -15,11 +15,11 @@
   "_generated": {
     "name": "8aa42d23",
     "family": "0fa3bcca",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "4d1b75ca",
     "page_url": "cc1d3297",
     "modalities": "94e5e9ab",
     "endpoints": "7a78c070"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

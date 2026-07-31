@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Train custom LoRAs for Wan-2.1 I2V 480P",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-03-24",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/wan-trainer",
@@ -15,12 +15,12 @@
     "name": "8060f20e",
     "family": "2aadc089",
     "description": "5c988fe7",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "0a9347b5",
     "model_type": "ddb0b7bc",
     "page_url": "031f7040",
     "tagline": "5c988fe7",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

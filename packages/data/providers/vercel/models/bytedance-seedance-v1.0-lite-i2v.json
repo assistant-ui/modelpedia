@@ -3,7 +3,7 @@
   "name": "seedance-v1.0-lite-i2v",
   "created_by": "bytedance",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },
@@ -13,8 +13,11 @@
   },
   "_generated": {
     "name": "cfb02403",
+    "capabilities": "0fa77dc6",
     "pricing": "9a7a9781",
-    "capabilities": "0fa77dc6"
+    "model_type": "4d1b75ca",
+    "status": "2e2f74dc"
   },
-  "model_type": "video"
+  "model_type": "video",
+  "status": "deprecated"
 }

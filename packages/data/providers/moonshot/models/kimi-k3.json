@@ -1,0 +1,35 @@
+{
+  "id": "kimi-k3",
+  "name": "kimi-k3",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi",
+  "status": "active",
+  "context_window": 1048576,
+  "license": "proprietary",
+  "page_url": "https://platform.moonshot.ai/docs/pricing/chat",
+  "model_type": "chat",
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.3
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "73e8093c",
+    "family": "0740f86b",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "license": "9186c466",
+    "page_url": "90c2a563",
+    "model_type": "d669f408",
+    "pricing": "0deaf3da",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-31"
+}

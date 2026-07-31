@@ -3,7 +3,7 @@
   "name": "Anthropic: Claude 3.5 Haiku",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "family": "claude-haiku",
   "description": "Claude 3.5 Haiku features offers enhanced capabilities in speed, coding accuracy, and tool use.",
   "context_window": 200000,
@@ -32,10 +32,12 @@
     "model_type": "d669f408",
     "release_date": "8c51f765",
     "tagline": "157e2e8f",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "release_date": "2024-11-04",
   "tagline": "Claude 3.5 Haiku features offers enhanced capabilities in speed, coding accuracy, and tool use.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

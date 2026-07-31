@@ -1,9 +1,9 @@
 {
   "id": "zai-org/GLM-4-9B-0414",
   "name": "GLM-4-9B-0414",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true,
     "tool_call": true,

@@ -22,7 +22,9 @@
     "model_type": "d669f408",
     "capabilities": "3181ba37",
     "modalities": "68e53d93",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-05-10"
+  "last_updated": "2026-07-31",
+  "status": "deprecated"
 }

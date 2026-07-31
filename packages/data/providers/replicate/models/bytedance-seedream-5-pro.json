@@ -3,14 +3,14 @@
   "name": "Seedream 5 Pro",
   "created_by": "bytedance",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/bytedance/seedream-5-pro",
   "_generated": {
     "name": "38037e01",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "47eebaf2"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-31"
 }

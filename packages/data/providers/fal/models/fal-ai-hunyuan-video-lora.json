@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Hunyuan Video is an Open video generation model with high visual quality, motion diversity, text-video alignment, and generation stability",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-01-16",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/hunyuan-video-lora",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "445f7c72",
     "description": "ce105501",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "4d9b0c63",
     "model_type": "4d1b75ca",
     "page_url": "8bf10206",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

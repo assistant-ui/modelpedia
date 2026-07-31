@@ -3,7 +3,7 @@
   "name": "Glm 4 7",
   "created_by": "zhipu",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "context_window": 202000,
   "capabilities": {
     "streaming": true
@@ -20,7 +20,8 @@
     "family": "b85f9b4b",
     "model_type": "d669f408",
     "page_url": "b024b9e6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "family": "glm-4",
   "model_type": "chat",
@@ -28,5 +29,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

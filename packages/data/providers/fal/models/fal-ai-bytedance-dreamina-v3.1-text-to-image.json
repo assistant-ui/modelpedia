@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Dreamina showcases superior picture effects, with significant improvements in picture aesthetics, precise and diverse styles, and rich details.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-06",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/bytedance/dreamina/v3.1/text-to-image",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "8080df08",
     "description": "3fa35cc0",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "ffc45752",
     "model_type": "db8857fe",
     "page_url": "1b590a42",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "b7ac61f6"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-31"
 }

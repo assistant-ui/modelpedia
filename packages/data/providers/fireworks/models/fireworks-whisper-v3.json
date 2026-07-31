@@ -3,7 +3,7 @@
   "name": "whisper-v3",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "family": "whisper",
   "capabilities": {
     "streaming": true
@@ -19,8 +19,10 @@
     "capabilities": "0fa77dc6",
     "pricing": "dc4756ef",
     "model_type": "5e12d29a",
-    "page_url": "c26c543d"
+    "page_url": "c26c543d",
+    "status": "2e2f74dc"
   },
   "model_type": "transcription",
-  "page_url": "https://fireworks.ai/models/fireworks/whisper-v3"
+  "page_url": "https://fireworks.ai/models/fireworks/whisper-v3",
+  "status": "deprecated"
 }

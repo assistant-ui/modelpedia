@@ -3,7 +3,7 @@
   "name": "wan2.2-animate-move",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-07-31",
   "model_type": "video",
   "capabilities": {
     "streaming": true
@@ -24,12 +24,14 @@
     "open_weight": "68934a3e",
     "description": "5d40864f",
     "page_url": "23162829",
-    "tagline": "38dcdbfe"
+    "tagline": "38dcdbfe",
+    "status": "2e2f74dc"
   },
   "family": "wan2.2",
   "license": "proprietary",
   "open_weight": false,
   "description": "Offers standard and professional service modes. Uses a portrait image and reference video to transfer the video subject's actions and expressions to the portrait image, generating a dynamic action video. [API reference](https://www.alibabacloud.com/help/en/document_detail/2981852.html) ## International If you select the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are restricted to the Chinese mainland. Static data is stored in your selected region. Supported region: China (Beijing).",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "tagline": "This service offers Standard and Professional modes."
+  "tagline": "This service offers Standard and Professional modes.",
+  "status": "deprecated"
 }

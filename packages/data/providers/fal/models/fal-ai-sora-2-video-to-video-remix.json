@@ -5,7 +5,7 @@
   "source": "official",
   "family": "sora-2",
   "description": "Video-to-video remix endpoint for Sora 2, OpenAI’s advanced model that transforms existing videos based on new text or image prompts allowing rich edits, style changes, and creative reinterpretations ",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-10-08",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/sora-2/video-to-video/remix",
@@ -18,7 +18,7 @@
     "name": "1bafc4f5",
     "family": "3d185d44",
     "description": "75395b78",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "0630b02b",
     "model_type": "ddb0b7bc",
     "page_url": "6301c657",
@@ -26,5 +26,5 @@
     "capabilities": "d3117eb0",
     "last_seen_at": "42382078"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

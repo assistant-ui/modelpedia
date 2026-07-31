@@ -3,10 +3,10 @@
   "name": "Step 1x Medium",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-31",
   "family": "step-1x",
   "description": "Text-to-image generation model. Up to 1024-character prompts, one image per request.",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "image",
   "license": "proprietary",
   "open_weight": false,
@@ -14,5 +14,18 @@
     "input": ["text"],
     "output": ["image"]
   },
-  "endpoints": ["images_generations"]
+  "endpoints": ["images_generations"],
+  "tagline": "Text-to-image generation model.",
+  "_generated": {
+    "name": "2157432b",
+    "family": "2ac8a567",
+    "description": "45072e35",
+    "status": "2e2f74dc",
+    "model_type": "db8857fe",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "modalities": "814867b9",
+    "endpoints": "94304962",
+    "tagline": "c24e9c4a"
+  }
 }

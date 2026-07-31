@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "High-quality voice cloning TTS model that generates 48kHz speech from text and a reference audio.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-03-12",
   "model_type": "tts",
   "page_url": "https://fal.run/fal-ai/lux-tts",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "d03e0002",
     "description": "8f4943ff",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "96ba6f81",
     "model_type": "4e16a2cf",
     "page_url": "8478c2af",
@@ -27,5 +27,5 @@
     "endpoints": "0d745ead",
     "last_seen_at": "96ba6f81"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

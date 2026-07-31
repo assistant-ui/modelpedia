@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "AI vectorization model that transforms raster images into scalable SVG graphics, preserving visual details while enabling infinite scaling and easy editing capabilities.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-04-01",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/star-vector",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "fd9d71f1",
     "description": "f2d4a95d",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "e34c5e92",
     "model_type": "db8857fe",
     "page_url": "9f7a470b",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

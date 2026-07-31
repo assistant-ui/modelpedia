@@ -3,7 +3,7 @@
   "name": "llama-3.2-90b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "family": "llama-3.2",
   "context_window": 128000,
   "capabilities": {
@@ -24,7 +24,8 @@
     "model_type": "d669f408",
     "parameters": "8613985e",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "parameters": 90,
@@ -32,5 +33,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

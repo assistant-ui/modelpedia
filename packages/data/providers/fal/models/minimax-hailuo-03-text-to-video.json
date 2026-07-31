@@ -4,7 +4,7 @@
   "created_by": "minimax",
   "source": "official",
   "description": "MiniMax's Hailuo-03 is a frontier video model.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-07-29",
   "model_type": "video",
   "page_url": "https://fal.run/minimax/hailuo-03/text-to-video",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "be68f473",
     "description": "d7ea05b4",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "1e733828",
     "model_type": "4d1b75ca",
     "page_url": "fd00efc8",

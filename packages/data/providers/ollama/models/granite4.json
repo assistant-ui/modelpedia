@@ -3,7 +3,7 @@
   "name": "granite4",
   "created_by": "ibm",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -20,7 +20,8 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "description": "Granite 4 features improved instruction following (IF) and tool-calling capabilities, making them more effective in enterprise applications.",
   "page_url": "https://ollama.com/library/granite4",
@@ -33,5 +34,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

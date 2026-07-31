@@ -1,9 +1,9 @@
 {
   "id": "fireworks/flux-1-dev-controlnet-union",
   "name": "flux-1-dev-controlnet-union",
-  "created_by": "stability",
+  "created_by": "black-forest-labs",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },

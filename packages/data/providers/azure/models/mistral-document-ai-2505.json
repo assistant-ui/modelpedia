@@ -3,7 +3,7 @@
   "name": "mistral-document-ai-2505 Preview",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-07-31",
   "alias": "mistral-document-ai",
   "capabilities": {
     "streaming": true,
@@ -20,8 +20,10 @@
     "capabilities": "ee30ca00",
     "modalities": "6399757e",
     "model_type": "d669f408",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

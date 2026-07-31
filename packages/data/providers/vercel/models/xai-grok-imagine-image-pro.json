@@ -3,7 +3,7 @@
   "name": "grok-imagine-image-pro",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-07-31",
   "family": "grok-imagine",
   "capabilities": {
     "streaming": true
@@ -15,8 +15,11 @@
   "_generated": {
     "name": "645c709d",
     "family": "a4576b5e",
+    "capabilities": "0fa77dc6",
     "pricing": "9a7a9781",
-    "capabilities": "0fa77dc6"
+    "model_type": "db8857fe",
+    "status": "2e2f74dc"
   },
-  "model_type": "image"
+  "model_type": "image",
+  "status": "deprecated"
 }

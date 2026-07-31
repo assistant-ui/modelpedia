@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate videos from prompts and images using LTX Video-0.9.7 and custom LoRA",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-05-15",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/ltx-video-lora/image-to-video",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "4cd469de",
     "description": "ddfcde90",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "5157f2f4",
     "model_type": "4d1b75ca",
     "page_url": "bc86e1eb",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

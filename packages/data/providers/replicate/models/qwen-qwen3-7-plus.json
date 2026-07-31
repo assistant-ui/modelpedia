@@ -4,15 +4,15 @@
   "created_by": "alibaba",
   "source": "official",
   "family": "qwen3",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/qwen/qwen3-7-plus",
   "_generated": {
     "name": "7bedd5d8",
     "family": "48c385a0",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "ad43664b"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-31"
 }

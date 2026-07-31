@@ -3,7 +3,7 @@
   "name": "Lfm2 24b A2b",
   "created_by": "liquid",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "context_window": 32000,
   "capabilities": {
     "streaming": true
@@ -21,7 +21,8 @@
     "active_parameters": "c81e728d",
     "page_url": "0f0ccd28",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "parameters": 24,
   "active_parameters": 2,
@@ -30,5 +31,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

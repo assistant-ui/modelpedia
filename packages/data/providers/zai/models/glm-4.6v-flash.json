@@ -1,9 +1,9 @@
 {
   "id": "glm-4.6v-flash",
   "name": "GLM-4.6V-Flash",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "context_window": 128000,
   "capabilities": {
     "streaming": true,

@@ -3,7 +3,7 @@
   "name": "deepseek-math-7b-instruct",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "family": "deepseek",
   "capabilities": {
     "streaming": true,
@@ -14,12 +14,12 @@
     "family": "4b81b92d",
     "capabilities": "48995a4e",
     "parameters": "8f14e45f",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "page_url": "76115cee",
     "tools": "f0c1dc7e"
   },
   "parameters": 7,
-  "status": "active",
+  "status": "deprecated",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#deepseek-math-7b-instruct",
   "tools": ["function_calling"]
 }

@@ -4,7 +4,7 @@
   "created_by": "bria",
   "source": "official",
   "description": "Bria’s Text-to-Image model, trained exclusively on licensed data for safe and risk-free commercial use.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-06-17",
   "model_type": "image",
   "page_url": "https://fal.run/bria/text-to-image/3.2",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "e6af779b",
     "description": "3d0ffa3c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "41e2691d",
     "model_type": "db8857fe",
     "page_url": "79571793",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5c252aee"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

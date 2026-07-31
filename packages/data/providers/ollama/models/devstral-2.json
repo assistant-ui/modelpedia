@@ -3,7 +3,7 @@
   "name": "devstral-2",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "family": "devstral",
   "capabilities": {
     "streaming": true,
@@ -23,7 +23,8 @@
     "context_window": "4a1d32eb",
     "license": "3c4c3ba5",
     "open_weight": "b326b506",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "description": "123B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
   "release_date": "2025-12-08",
@@ -36,5 +37,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

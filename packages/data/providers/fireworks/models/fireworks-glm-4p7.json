@@ -1,9 +1,9 @@
 {
   "id": "fireworks/glm-4p7",
   "name": "glm-4p7",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-05-17",
+  "last_updated": "2026-07-31",
   "context_window": 202000,
   "capabilities": {
     "streaming": true

@@ -3,7 +3,7 @@
   "name": "gpt-5.4.nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-07-31",
   "family": "gpt-5.4",
   "capabilities": {
     "streaming": true
@@ -16,7 +16,10 @@
     "name": "4dad03fb",
     "family": "4651e8f0",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "model_type": "d669f408",
+    "status": "2e2f74dc"
   },
-  "model_type": "chat"
+  "model_type": "chat",
+  "status": "deprecated"
 }

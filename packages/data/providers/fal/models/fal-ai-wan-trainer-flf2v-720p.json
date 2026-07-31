@@ -5,7 +5,7 @@
   "source": "official",
   "family": "wan",
   "description": "Train custom LoRAs for Wan-2.1 FLF2V 720P",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-06-11",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/wan-trainer/flf2v-720p",
@@ -15,12 +15,12 @@
     "name": "8060f20e",
     "family": "2aadc089",
     "description": "e1ed0ab6",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "e70f1bec",
     "model_type": "ddb0b7bc",
     "page_url": "7be9bada",
     "tagline": "e1ed0ab6",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

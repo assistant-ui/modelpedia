@@ -3,7 +3,7 @@
   "name": "Ministral 3 8b Instruct 2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-04-10",
+  "last_updated": "2026-07-31",
   "family": "ministral",
   "context_window": 256000,
   "capabilities": {
@@ -23,7 +23,8 @@
     "model_type": "d669f408",
     "parameters": "c9f0f895",
     "page_url": "86e467da",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "parameters": 8,
@@ -31,5 +32,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

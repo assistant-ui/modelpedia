@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Leverage Sana's ultra-fast processing speed to generate high-quality assets that transform your text prompts into production-ready videos",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-11-07",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/sana-video",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "262f1197",
     "description": "65ba7801",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "48f9a637",
     "model_type": "4d1b75ca",
     "page_url": "f6aec8f1",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5c252aee"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

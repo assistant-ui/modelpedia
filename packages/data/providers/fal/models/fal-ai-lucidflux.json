@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "LucidFlux for upscaling images with very high fidelity",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-10-03",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/lucidflux",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "9b5ab454",
     "description": "7f0e4562",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "d8a749d5",
     "model_type": "db8857fe",
     "page_url": "6ad76cad",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

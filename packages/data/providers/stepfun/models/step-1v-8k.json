@@ -3,10 +3,10 @@
   "name": "Step 1v 8k",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-31",
   "family": "step-1v",
   "description": "Vision-capable variant of Step 1 with 8k context. Up to 20 images per request.",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "context_window": 8000,
   "license": "proprietary",
@@ -24,5 +24,21 @@
     "input": 0.694,
     "cached_input": 0.139,
     "output": 2.778
+  },
+  "tagline": "Vision-capable variant of Step 1 with 8k context.",
+  "_generated": {
+    "name": "3e3a88f1",
+    "family": "5c8d5566",
+    "description": "4b635a41",
+    "status": "2e2f74dc",
+    "model_type": "d669f408",
+    "context_window": "67ff32d4",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "5f5c7516",
+    "modalities": "6399757e",
+    "endpoints": "d8fa1080",
+    "pricing": "a3040982",
+    "tagline": "2a2a3533"
   }
 }

@@ -3,7 +3,7 @@
   "name": "wan2.6-i2v",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-07-31",
   "model_type": "video",
   "capabilities": {
     "streaming": true
@@ -24,12 +24,14 @@
     "open_weight": "68934a3e",
     "description": "f342a5ec",
     "page_url": "23162829",
-    "tagline": "a373f6ea"
+    "tagline": "a373f6ea",
+    "status": "2e2f74dc"
   },
   "family": "wan2.6",
   "license": "proprietary",
   "open_weight": false,
   "description": "The Wan image-to-video model uses your input image as the first frame, then generates a video based on your prompt. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2867393.html) \\| [Try it now](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global If you select the [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide. Static data is stored in your selected region. Supported regions: US (Virginia) and Germany (Frankfurt).",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "tagline": "Wan image-to-video models use your input image as the first frame, then generate a video based on your prompt, delivering rich artistic styles and cinematic quality."
+  "tagline": "Wan image-to-video models use your input image as the first frame, then generate a video based on your prompt, delivering rich artistic styles and cinematic quality.",
+  "status": "deprecated"
 }

@@ -3,7 +3,7 @@
   "name": "kimi-k2-thinking-turbo",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "context_window": 262100,
   "capabilities": {
     "streaming": true,
@@ -22,7 +22,8 @@
     "family": "0f7256d5",
     "model_type": "d669f408",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "family": "kimi-k2",
   "model_type": "chat",
@@ -30,5 +31,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

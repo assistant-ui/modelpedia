@@ -1,7 +1,7 @@
 {
   "id": "zai-org/GLM-5.2",
   "name": "GLM-5.2",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
   "family": "GLM-5.2",
   "release_date": "2026-06-16",
@@ -37,5 +37,5 @@
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-31"
 }

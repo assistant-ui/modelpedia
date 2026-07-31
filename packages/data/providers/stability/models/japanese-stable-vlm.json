@@ -4,7 +4,7 @@
   "created_by": "stability",
   "source": "official",
   "description": "Japanese Stable Vlm is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2023-11-01",
   "model_type": "code",
   "license": "other",
@@ -26,7 +26,7 @@
   "_generated": {
     "name": "ccc610e4",
     "description": "78d18c5e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "6f11c837",
     "model_type": "b6cc3ff4",
     "license": "ddb0b7bc",
@@ -39,5 +39,5 @@
     "huggingface_downloads": "eccbc87e",
     "last_modified": "2d84b9f9"
   },
-  "last_updated": "2026-07-24"
+  "last_updated": "2026-07-31"
 }

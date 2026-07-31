@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate videos from prompts using LTX Video-0.9.7 13B and custom LoRA",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-05-17",
   "model_type": "video",
   "parameters": 13,
@@ -19,7 +19,7 @@
   "_generated": {
     "name": "2b5d53ab",
     "description": "05e3e229",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "050d818f",
     "model_type": "4d1b75ca",
     "parameters": "c51ce410",
@@ -29,5 +29,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

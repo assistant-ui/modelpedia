@@ -3,7 +3,7 @@
   "name": "sonar-reasoning",
   "created_by": "perplexity",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-07-31",
   "context_window": 127000,
   "capabilities": {
     "streaming": true,
@@ -16,10 +16,18 @@
   "_generated": {
     "name": "6337b50b",
     "context_window": "3b764336",
-    "pricing": "5b5c2081",
     "capabilities": "b011c6b4",
-    "model_type": "17475f7f"
+    "pricing": "5b5c2081",
+    "model_type": "17475f7f",
+    "family": "8b8f2acb",
+    "status": "2e2f74dc",
+    "modalities": "68e53d93"
   },
   "model_type": "reasoning",
-  "family": "sonar"
+  "family": "sonar",
+  "status": "deprecated",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  }
 }

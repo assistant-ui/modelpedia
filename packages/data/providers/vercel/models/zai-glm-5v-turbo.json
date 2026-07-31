@@ -1,7 +1,7 @@
 {
   "id": "zai/glm-5v-turbo",
   "name": "glm-5v-turbo",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
   "family": "glm-5",
   "context_window": 200000,
@@ -31,5 +31,5 @@
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-03"
+  "last_updated": "2026-07-31"
 }

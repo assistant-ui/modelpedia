@@ -3,7 +3,7 @@
   "name": "grok-4-fast-non-reasoning Preview",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-07-31",
   "family": "grok-4",
   "capabilities": {
     "streaming": true,
@@ -21,8 +21,10 @@
     "capabilities": "45192957",
     "modalities": "6399757e",
     "model_type": "17475f7f",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "model_type": "reasoning",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

@@ -4,7 +4,7 @@
   "created_by": "sonauto",
   "source": "official",
   "description": "Extend an existing song",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-23",
   "model_type": "other",
   "page_url": "https://fal.run/sonauto/v2/extend",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "f5ccb37a",
     "description": "43938ab1",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "81c68da9",
     "model_type": "ddb0b7bc",
     "page_url": "75e5cc70",
     "tagline": "43938ab1",
     "last_seen_at": "5c252aee"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

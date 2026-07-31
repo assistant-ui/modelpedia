@@ -19,7 +19,9 @@
     "page_url": "ac0eafaa",
     "model_type": "4d1b75ca",
     "capabilities": "0fa77dc6",
-    "pricing": "eb5e6399"
+    "pricing": "eb5e6399",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-04-04"
+  "last_updated": "2026-07-31",
+  "status": "deprecated"
 }

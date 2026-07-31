@@ -4,7 +4,7 @@
   "created_by": "xai",
   "source": "official",
   "family": "grok-imagine",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "image",
   "page_url": "https://replicate.com/xai/grok-imagine-image-quality",
   "capabilities": {
@@ -18,12 +18,12 @@
   "_generated": {
     "name": "b329ff51",
     "family": "a4576b5e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "page_url": "c8b6f424",
     "capabilities": "d3117eb0",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

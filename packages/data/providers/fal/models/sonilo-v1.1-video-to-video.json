@@ -4,7 +4,7 @@
   "created_by": "sonilo",
   "source": "official",
   "description": "Generates perfectly synced music for any video.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-07-15",
   "model_type": "other",
   "page_url": "https://fal.run/sonilo/v1.1/video-to-video",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "6d618ef1",
     "description": "124aa087",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "c65392cc",
     "model_type": "ddb0b7bc",
     "page_url": "8c1dca37",
     "tagline": "124aa087",
     "last_seen_at": "c65392cc"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-31"
 }

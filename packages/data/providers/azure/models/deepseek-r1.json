@@ -3,7 +3,7 @@
   "name": "DeepSeek-R1",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "family": "deepseek-r1",
   "capabilities": {
     "streaming": true,
@@ -22,7 +22,9 @@
     "capabilities": "45192957",
     "modalities": "68e53d93",
     "model_type": "17475f7f",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

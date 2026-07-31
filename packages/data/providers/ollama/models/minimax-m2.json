@@ -3,7 +3,7 @@
   "name": "minimax-m2",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true,
     "fine_tuning": true
@@ -20,7 +20,8 @@
     "context_window": "65d646a4",
     "license": "6327aaea",
     "open_weight": "b326b506",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "family": "minimax",
@@ -34,5 +35,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

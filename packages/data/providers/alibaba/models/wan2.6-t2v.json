@@ -3,7 +3,7 @@
   "name": "wan2.6-t2v",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-07-31",
   "model_type": "video",
   "capabilities": {
     "streaming": true
@@ -24,12 +24,14 @@
     "open_weight": "68934a3e",
     "description": "77f1511e",
     "page_url": "23162829",
-    "tagline": "dd95ffa6"
+    "tagline": "dd95ffa6",
+    "status": "2e2f74dc"
   },
   "family": "wan2.6",
   "license": "proprietary",
   "open_weight": false,
   "description": "The Wan text-to-video model generates videos from a single sentence. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2865250.html) \\| [Try it now](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/model_experience_center/vision?currentTab=videoGenerate) ## Global If you select the [Global](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide. Static data is stored in your selected region. Supported regions: US (Virginia) and Germany (Frankfurt).",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "tagline": "Wan text-to-video models generate videos from a single sentence, delivering rich artistic styles and cinematic quality."
+  "tagline": "Wan text-to-video models generate videos from a single sentence, delivering rich artistic styles and cinematic quality.",
+  "status": "deprecated"
 }

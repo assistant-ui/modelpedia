@@ -3,7 +3,7 @@
   "name": "Noah Biblical Craft",
   "created_by": "syncodeofficial",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "code",
   "page_url": "https://replicate.com/syncodeofficial/noah-biblical-craft",
   "capabilities": {
@@ -16,12 +16,12 @@
   "endpoints": ["chat_completions"],
   "_generated": {
     "name": "628c32d2",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "b6cc3ff4",
     "page_url": "368078d0",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

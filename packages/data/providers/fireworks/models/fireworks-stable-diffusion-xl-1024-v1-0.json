@@ -3,7 +3,7 @@
   "name": "stable-diffusion-xl-1024-v1-0",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true
   },
@@ -17,8 +17,10 @@
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e",
     "model_type": "db8857fe",
-    "page_url": "9c577591"
+    "page_url": "9c577591",
+    "status": "2e2f74dc"
   },
   "model_type": "image",
-  "page_url": "https://fireworks.ai/models/fireworks/stable-diffusion-xl-1024-v1-0"
+  "page_url": "https://fireworks.ai/models/fireworks/stable-diffusion-xl-1024-v1-0",
+  "status": "deprecated"
 }

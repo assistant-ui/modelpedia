@@ -3,14 +3,14 @@
   "name": "Icetea",
   "created_by": "jilin-dbgr",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/jilin-dbgr/icetea",
   "_generated": {
     "name": "44d4d584",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "e85b6b5e"
   },
-  "last_updated": "2026-06-20"
+  "last_updated": "2026-07-31"
 }

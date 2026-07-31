@@ -1,7 +1,7 @@
 {
   "id": "zai/glm-5.1",
   "name": "glm-5.1",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
   "family": "glm-5.1",
   "context_window": 204800,
@@ -30,5 +30,5 @@
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-30"
+  "last_updated": "2026-07-31"
 }

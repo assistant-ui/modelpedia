@@ -3,7 +3,7 @@
   "name": "qwen-vl-max-0408",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-07-31",
   "family": "qwen",
   "capabilities": {
     "streaming": true,
@@ -14,8 +14,21 @@
     "name": "7dbe58a9",
     "family": "a3af76f3",
     "capabilities": "48995a4e",
-    "model_type": "d669f408"
+    "provider": "a3af76f3",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "status": "2e2f74dc",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
   },
   "model_type": "chat",
-  "license": "proprietary"
+  "license": "proprietary",
+  "status": "deprecated",
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"]
 }

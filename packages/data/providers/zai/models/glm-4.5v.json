@@ -1,9 +1,9 @@
 {
   "id": "glm-4.5v",
   "name": "GLM-4.5V",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-07-31",
   "max_output_tokens": 16000,
   "capabilities": {
     "streaming": true,

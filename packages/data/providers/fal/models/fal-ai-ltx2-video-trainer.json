@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Train LTX-2 for custom styles and effects.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-01-03",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx2-video-trainer",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "99fdd774",
     "description": "354f9c98",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "aa96a0ee",
     "model_type": "ddb0b7bc",
     "page_url": "12bb517d",
     "tagline": "354f9c98",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

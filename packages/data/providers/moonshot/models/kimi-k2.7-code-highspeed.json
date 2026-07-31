@@ -1,0 +1,35 @@
+{
+  "id": "kimi-k2.7-code-highspeed",
+  "name": "kimi-k2.7-code-highspeed",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi",
+  "status": "active",
+  "context_window": 262144,
+  "license": "proprietary",
+  "page_url": "https://platform.moonshot.ai/docs/pricing/chat",
+  "model_type": "chat",
+  "pricing": {
+    "input": 1.9,
+    "output": 8,
+    "cached_input": 0.38
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "4ade5250",
+    "family": "0740f86b",
+    "status": "379ac110",
+    "context_window": "4a1d32eb",
+    "license": "9186c466",
+    "page_url": "90c2a563",
+    "model_type": "d669f408",
+    "pricing": "5eeae0aa",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-31"
+}

@@ -3,14 +3,14 @@
   "name": "Dfk3 Queeree",
   "created_by": "spuuntries",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/spuuntries/dfk3-queeree",
   "_generated": {
     "name": "22861149",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "421125e9"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

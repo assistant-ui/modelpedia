@@ -3,7 +3,7 @@
   "name": "qwen-voice-design",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-07-31",
   "family": "qwen",
   "model_type": "chat",
   "capabilities": {
@@ -27,12 +27,14 @@
     "description": "fbeeea0c",
     "tagline": "8c78c4c5",
     "page_url": "23162829",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "status": "2e2f74dc"
   },
   "license": "apache-2.0",
   "provider": "qwen",
   "description": "Voice design generates custom voices from text descriptions. It supports multi-language and multi-dimensional voice feature definitions, making it suitable for applications such as ad dubbing, character creation, and audio content production. [Usage](https://www.alibabacloud.com/help/en/document_detail/2938790.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/3000986.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
   "tagline": "Voice design generates custom voices from text descriptions.",
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
-  "open_weight": true
+  "open_weight": true,
+  "status": "deprecated"
 }

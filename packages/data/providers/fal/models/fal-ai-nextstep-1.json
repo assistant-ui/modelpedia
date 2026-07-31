@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Endpoint for NextStep-1 Autoregressive Image Editing model.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-19",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/nextstep-1",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "8bd71aad",
     "description": "38696e15",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "3baa0f40",
     "model_type": "db8857fe",
     "page_url": "061f9388",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

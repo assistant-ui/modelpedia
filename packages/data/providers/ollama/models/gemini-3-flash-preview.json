@@ -3,7 +3,7 @@
   "name": "gemini-3-flash-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-07-31",
   "family": "gemini-3",
   "capabilities": {
     "streaming": true,
@@ -25,7 +25,8 @@
     "open_weight": "b326b506",
     "modalities": "68e53d93",
     "reasoning_tokens": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "description": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost.",
@@ -39,5 +40,6 @@
     "output": ["text"]
   },
   "reasoning_tokens": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

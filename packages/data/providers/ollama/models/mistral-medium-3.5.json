@@ -39,7 +39,9 @@
     "tagline": "0849748c",
     "capabilities": "f7041f91",
     "modalities": "6399757e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-07-31",
+  "status": "deprecated"
 }

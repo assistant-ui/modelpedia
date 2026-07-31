@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Create high-fidelity video with audio from images with LTX-2 Pro",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-11-26",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/ltx-2/image-to-video",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "4f19e85b",
     "description": "5aa321a2",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "a5b8446f",
     "model_type": "4d1b75ca",
     "page_url": "9280772a",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "a393f093"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-31"
 }

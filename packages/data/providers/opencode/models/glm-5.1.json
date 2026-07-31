@@ -1,7 +1,7 @@
 {
   "id": "glm-5.1",
   "name": "GLM 5.1",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
   "family": "glm-5.1",
   "status": "active",
@@ -27,5 +27,5 @@
     "pricing": "fbb9d87e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-04-08"
+  "last_updated": "2026-07-31"
 }

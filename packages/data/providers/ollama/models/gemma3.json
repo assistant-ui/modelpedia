@@ -3,7 +3,7 @@
   "name": "gemma3",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-07-31",
   "capabilities": {
     "streaming": true,
     "fine_tuning": true
@@ -20,7 +20,8 @@
     "license": "3fe02b16",
     "parameters": "a87ff679",
     "open_weight": "b326b506",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "description": "The current, most capable model that runs on a single GPU.",
@@ -34,5 +35,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

@@ -3,7 +3,7 @@
   "name": "Gpt Image 1 5",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-07-31",
   "family": "gpt-image-1",
   "context_window": 32000,
   "capabilities": {
@@ -20,8 +20,10 @@
     "capabilities": "0fa77dc6",
     "pricing": "7398b7f5",
     "model_type": "db8857fe",
-    "page_url": "1abd1987"
+    "page_url": "1abd1987",
+    "status": "2e2f74dc"
   },
   "model_type": "image",
-  "page_url": "https://www.together.ai/models/gpt-image-1-5"
+  "page_url": "https://www.together.ai/models/gpt-image-1-5",
+  "status": "deprecated"
 }

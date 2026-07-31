@@ -3,7 +3,7 @@
   "name": "llama-3.2-nv-embedqa-1b-v2",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-07-31",
   "family": "llama-3.2",
   "capabilities": {
     "streaming": true
@@ -11,9 +11,12 @@
   "model_type": "embed",
   "_generated": {
     "name": "8e399946",
-    "model_type": "764cb3de",
     "family": "d4c42ce9",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "model_type": "764cb3de",
+    "parameters": "c4ca4238",
+    "status": "2e2f74dc"
   },
-  "parameters": 1
+  "parameters": 1,
+  "status": "deprecated"
 }

@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Train styles, people and other subjects at blazing speeds using the FLUX.1 Krea [dev] base model.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-01",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/flux-krea-trainer",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "ebfccc1f",
     "description": "7d6d2149",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "a5942af2",
     "model_type": "ddb0b7bc",
     "page_url": "0bb85c61",
     "tagline": "7d6d2149",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-07-31"
 }

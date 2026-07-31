@@ -3,7 +3,7 @@
   "name": "Clip Embeddings",
   "created_by": "krthr",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "embed",
   "page_url": "https://replicate.com/krthr/clip-embeddings",
   "modalities": {
@@ -13,11 +13,11 @@
   "endpoints": ["embeddings"],
   "_generated": {
     "name": "13f42af6",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "764cb3de",
     "page_url": "87506922",
     "modalities": "68e53d93",
     "endpoints": "5845adda"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-07-31"
 }

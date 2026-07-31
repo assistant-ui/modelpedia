@@ -3,7 +3,7 @@
   "name": "devstral-small-2",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-07-31",
   "family": "devstral",
   "capabilities": {
     "streaming": true,
@@ -26,7 +26,8 @@
     "license": "60245731",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "description": "24B model that excels at using tools to explore codebases, editing multiple files and power software engineering agents.",
   "release_date": "2025-12-09",
@@ -40,5 +41,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }
