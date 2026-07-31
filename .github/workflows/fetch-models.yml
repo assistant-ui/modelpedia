@@ -37,6 +37,12 @@ jobs:
       - name: Build data package
         run: pnpm --filter modelpedia build
 
+      # A fetch script that exists but is never invoked drifts with no signal:
+      # the fail-loud guards only fire on a run.
+      - name: Check every fetch script is wired into this workflow
+        working-directory: packages/data
+        run: bun scripts/check-coverage.ts
+
       - name: Fetch all providers
         working-directory: packages/data
         run: |
@@ -58,6 +64,7 @@ jobs:
             fetch:fal fetch:siliconflow fetch:parasail fetch:nebius
             fetch:black-forest-labs fetch:deepinfra fetch:inception fetch:jina
             fetch:recraft fetch:reka fetch:sambanova fetch:stepfun fetch:writer
+            fetch:cursor
           )
           failed=()
           for script in "${scripts[@]}"; do
@@ -84,6 +91,21 @@ jobs:
       - name: Regenerate data
         working-directory: packages/data
         run: bun run generate
+
+      # A scraper pointed at a frozen listing parses the same models forever, so
+      # it never trips a guard. Aggregators are the only independent witness.
+      # Reported, not enforced: a first party can legitimately trail a reseller.
+      - name: Check catalogs against aggregators
+        working-directory: packages/data
+        continue-on-error: true
+        run: bun scripts/check-freshness.ts
+
+      # The zero-parse guard is a cliff detector. This catches the slope: a
+      # scraper that still runs while shedding models or dropping a field.
+      - name: Check providers against baseline
+        working-directory: packages/data
+        continue-on-error: true
+        run: bun scripts/check-baseline.ts
 
       - name: Check for changes
         id: changes
