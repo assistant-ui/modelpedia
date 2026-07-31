@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/flux-2-trainer-v2",
   "tagline": "Fine-tune FLUX.2 [dev] from Black Forest Labs with custom datasets.",
-  "last_seen_at": "2026-06-19",
+  "last_seen_at": "2026-07-27",
   "_generated": {
     "name": "f12ff954",
     "description": "0fc5a54c",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "74596486",
     "tagline": "0fc5a54c",
-    "last_seen_at": "1db51038"
+    "last_seen_at": "04fb3b2f"
   },
-  "last_updated": "2026-06-20"
+  "last_updated": "2026-07-30"
 }

@@ -1,0 +1,44 @@
+{
+  "id": "qwen/qwen3.7-flash",
+  "name": "Qwen: Qwen3.7 Flash",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.7",
+  "description": "Qwen3.7 Flash is a vision-language reasoning model from Alibaba.",
+  "release_date": "2026-07-27",
+  "context_window": 1000000,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "Qwen3.7 Flash is a vision-language reasoning model from Alibaba.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.13,
+    "cached_input": 0.006
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "29ef01e2",
+    "family": "d71bf7f7",
+    "description": "7f39442b",
+    "release_date": "04fb3b2f",
+    "context_window": "8155bc54",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "7f39442b",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "pricing": "9baf0b82",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-30"
+}

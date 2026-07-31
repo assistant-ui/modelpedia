@@ -10,15 +10,15 @@
   },
   "pricing": {
     "input": 1,
-    "output": 1,
-    "cached_input": 1
+    "output": 4.05,
+    "cached_input": 0.17
   },
   "_generated": {
     "name": "6738f66c",
     "context_window": "1bf8ad8b",
     "page_url": "a61d1826",
     "capabilities": "0fa77dc6",
-    "pricing": "cb03f68e"
+    "pricing": "2b9ec52a"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-07-30"
 }

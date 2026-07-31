@@ -3,23 +3,23 @@
   "name": "gpt-oss-120b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-30",
   "family": "gpt-oss",
   "context_window": 131000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 1,
-    "output": 0.014,
-    "cached_input": 0.15
+    "input": 0.15,
+    "output": 0.6,
+    "cached_input": 0.014
   },
   "_generated": {
     "name": "e8458743",
     "family": "82d0cb0b",
     "context_window": "834bd590",
     "capabilities": "0fa77dc6",
-    "pricing": "61a16fd7",
+    "pricing": "6b971764",
     "model_type": "d669f408",
     "parameters": "da4fb5c6",
     "page_url": "cb719704",

@@ -1,0 +1,39 @@
+{
+  "id": "jina-reranker-v3.5",
+  "name": "Jina Reranker v3.5",
+  "created_by": "jina",
+  "source": "official",
+  "family": "jina-reranker",
+  "description": "jina-reranker-v3.5 is a 0.6B parameter multilingual listwise document reranker and a drop-in upgrade to jina-reranker-v3. It keeps the same last-but-not-late (LBNL) listwise interface — ranking a query against many candidates in a single forward pass — while improving domain robustness, structured-data ranking, multilingual retrieval, and inference efficiency. Built on Qwen3-0.6B with 28 layers using hybrid 3L2G attention (sliding-window layers, window 1024, interleaved with global-attention layers and a pinned terminal global layer required by LBNL) and a lightweight MLP projector (1024→512→512), it supports up to 131K tokens of context and ranks documents jointly via causal self-attention and cosine scoring. It reaches 63.20 nDCG@10 on BEIR — above the 4B Qwen3-Reranker at roughly 7× fewer parameters — while running 1.22×–1.56× faster than v3 across short-to-long contexts.",
+  "status": "active",
+  "release_date": "2026-07-27",
+  "context_window": 131072,
+  "model_type": "rerank",
+  "license": "jina-ai",
+  "open_weight": true,
+  "tagline": "jina-reranker-v3.5 is a 0.6B parameter multilingual listwise document reranker and a drop-in upgrade to jina-reranker-v3.",
+  "modalities": {
+    "input": ["text"],
+    "output": []
+  },
+  "pricing": {
+    "input": 0.05
+  },
+  "endpoints": ["rerank"],
+  "_generated": {
+    "name": "19db184a",
+    "family": "1085b236",
+    "description": "6609b604",
+    "status": "379ac110",
+    "release_date": "04fb3b2f",
+    "context_window": "f7de594e",
+    "model_type": "477930e6",
+    "license": "0b7dd534",
+    "open_weight": "b326b506",
+    "tagline": "7aa7feef",
+    "modalities": "afb3de08",
+    "pricing": "0f2b1541",
+    "endpoints": "9a7b4962"
+  },
+  "last_updated": "2026-07-30"
+}

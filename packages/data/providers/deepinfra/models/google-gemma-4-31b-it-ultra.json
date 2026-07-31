@@ -1,0 +1,53 @@
+{
+  "id": "google/gemma-4-31B-it-Ultra",
+  "name": "gemma-4-31B-it-Ultra",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "description": "Ultra speed version of gemma-4-31B-it",
+  "status": "active",
+  "context_window": 131072,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "gemma",
+  "open_weight": false,
+  "tagline": "Ultra speed version of gemma-4-31B-it",
+  "capabilities": {
+    "tool_call": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.27,
+    "output": 0.76
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "_generated": {
+    "name": "4fe2e8bc",
+    "family": "811b6704",
+    "description": "b0560c5e",
+    "status": "379ac110",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "3fe02b16",
+    "open_weight": "68934a3e",
+    "tagline": "b0560c5e",
+    "capabilities": "b70fac65",
+    "modalities": "6399757e",
+    "pricing": "97aee743",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9"
+  },
+  "last_updated": "2026-07-30"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "gpt-transcribe",
+  "name": "GPT Transcribe",
+  "created_by": "openai",
+  "source": "official",
+  "description": "GPT Transcribe is a speech-to-text model for completed audio files, streamed file transcripts, and committed turns in Realtime sessions over WebSocket. It supports unstructured context, keyword hints, and multiple language hints to improve transcription of domain terms, multilingual audio, and code-switching.",
+  "status": "active",
+  "model_type": "transcription",
+  "license": "proprietary",
+  "performance": 5,
+  "speed": 3,
+  "tagline": "High-accuracy speech-to-text model for file and Realtime input transcription",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-transcribe",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
+  },
+  "modalities": {
+    "input": ["audio", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Transcription audio duration",
+        "unit": "Per minute",
+        "columns": ["Price"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.0045]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["transcription", "realtime_transcription"],
+  "snapshots": ["gpt-transcribe"],
+  "_generated": {
+    "name": "907f6e93",
+    "description": "82bef3a3",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "license": "9186c466",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "tagline": "a97b086f",
+    "page_url": "d41a4669",
+    "open_weight": "68934a3e",
+    "capabilities": "51394a4e",
+    "modalities": "7cee5e0e",
+    "pricing": "ea5e7e5d",
+    "endpoints": "6676924a"
+  },
+  "last_updated": "2026-07-30"
+}

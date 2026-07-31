@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/feynobg",
+  "name": "Feynobg Background Remover",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FeyNobg is a state of the art AI model for background removal from feyninc",
+  "status": "active",
+  "release_date": "2026-07-28",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/feynobg",
+  "tagline": "FeyNobg is a state of the art AI model for background removal from feyninc",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-07-28",
+  "_generated": {
+    "name": "901deb5a",
+    "description": "238e3db8",
+    "status": "379ac110",
+    "release_date": "b4e99da9",
+    "model_type": "db8857fe",
+    "page_url": "475d7819",
+    "tagline": "238e3db8",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "b4e99da9"
+  },
+  "last_updated": "2026-07-30"
+}

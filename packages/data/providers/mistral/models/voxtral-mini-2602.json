@@ -3,7 +3,7 @@
   "name": "voxtral-mini-2602",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-07-30",
   "status": "active",
   "alias": "voxtral-mini",
   "capabilities": {
@@ -13,7 +13,7 @@
     "fine_tuning": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "context_window": 32000,
@@ -21,7 +21,7 @@
     "name": "ce306dad",
     "status": "379ac110",
     "capabilities": "62b3fd83",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "context_window": "10e4d788",
     "model_type": "9f84c007",
     "family": "88a5dabd",

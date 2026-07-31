@@ -1,0 +1,16 @@
+{
+  "id": "irulkenzei/stable-audio-open",
+  "name": "Stable Audio Open",
+  "created_by": "irulkenzei",
+  "source": "official",
+  "status": "active",
+  "model_type": "audio",
+  "page_url": "https://replicate.com/irulkenzei/stable-audio-open",
+  "_generated": {
+    "name": "9918f25d",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "page_url": "ddde1748"
+  },
+  "last_updated": "2026-07-30"
+}

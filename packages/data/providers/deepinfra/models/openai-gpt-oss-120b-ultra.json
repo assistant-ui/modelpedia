@@ -1,0 +1,51 @@
+{
+  "id": "openai/gpt-oss-120b-Ultra",
+  "name": "gpt-oss-120b-Ultra",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-oss",
+  "description": "Ultra fast version of gpt-oss-120b",
+  "status": "active",
+  "context_window": 131072,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "open_weight": false,
+  "tagline": "Ultra fast version of gpt-oss-120b",
+  "capabilities": {
+    "tool_call": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.95
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "_generated": {
+    "name": "9f677f78",
+    "family": "82d0cb0b",
+    "description": "13087a0a",
+    "status": "379ac110",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "tagline": "13087a0a",
+    "capabilities": "294930d1",
+    "modalities": "68e53d93",
+    "pricing": "08316037",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9"
+  },
+  "last_updated": "2026-07-30"
+}
