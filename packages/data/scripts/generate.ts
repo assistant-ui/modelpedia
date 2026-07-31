@@ -1,5 +1,6 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
+import { writePriceHistory } from "./price-history";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const PROVIDERS_DIR = path.join(ROOT, "providers");
@@ -7,6 +8,10 @@ const NPM_DIR = path.resolve(ROOT, "..", "npm");
 const DATA_OUTPUT = path.join(ROOT, "src", "data.ts");
 const NPM_OUTPUT = path.join(NPM_DIR, "src", "data.ts");
 const PROVIDERS_OUT_DIR = path.join(NPM_DIR, "src", "providers");
+const PRICE_HISTORY_OUTPUTS = [
+  path.join(ROOT, "src", "price-history.ts"),
+  path.join(NPM_DIR, "src", "price-history.ts"),
+];
 
 function generate() {
   const providerDirs = fs
@@ -239,10 +244,15 @@ function generate() {
   ];
   fs.writeFileSync(NPM_OUTPUT, npmDataLines.join("\n"), "utf-8");
 
+  // 4. Generate price-history.ts — derived from the change log, never stored
+  //    in the model files (fetch scripts overwrite official files wholesale)
+  const tracked = writePriceHistory(providers, ROOT, PRICE_HISTORY_OUTPUTS);
+
   const totalModels = providers.reduce((sum, p) => sum + p.models.length, 0);
   console.log(
     `Generated ${providers.length} providers (${totalModels} models) → data.ts + ${providers.length} provider files`,
   );
+  console.log(`Price history: ${tracked} models with a recorded price change`);
 }
 
 generate();

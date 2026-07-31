@@ -263,6 +263,50 @@ export interface Provider {
   icon?: string;
 }
 
+/** Scalar pricing fields tracked in price history (everything except `tiers`) */
+export type PriceField =
+  | "input"
+  | "output"
+  | "cached_input"
+  | "cache_write"
+  | "cache_write_1h"
+  | "batch_input"
+  | "batch_output"
+  | "cached_output";
+
+/**
+ * One step in a model's price history.
+ * Prices are the full scalar state as of `date`, not a delta.
+ */
+export interface PricePoint {
+  /** Date this price took effect (YYYY-MM-DD) */
+  date: string;
+  /** Git commit that introduced it, absent for the first and current points */
+  commit?: string;
+  input?: number | null;
+  output?: number | null;
+  cached_input?: number | null;
+  cache_write?: number | null;
+  cache_write_1h?: number | null;
+  batch_input?: number | null;
+  batch_output?: number | null;
+  cached_output?: number | null;
+  /** The nested tier tables changed at this step */
+  tiers?: true;
+  /** Pricing appeared here where the model previously had none */
+  introduced?: true;
+  /** Pricing was removed at this step */
+  removed?: true;
+  /** Anchored on live model data rather than on a change log entry */
+  current?: true;
+}
+
+/**
+ * Price history index, keyed by `<provider>/<model id>`.
+ * Only models with at least two distinct price points are present.
+ */
+export type PriceHistoryIndex = Record<string, PricePoint[]>;
+
 /** A single entry in the changes log */
 export interface ChangeEntry {
   /** ISO-8601 timestamp */
