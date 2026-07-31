@@ -45,7 +45,7 @@ const PROVIDER_MAP: Record<string, string> = {
   "stability ai": "stability",
   twelvelabs: "twelvelabs",
   writer: "writer",
-  "z.ai": "zhipu",
+  "z.ai": "zai",
 };
 
 const MODALITY_MAP: Record<string, string> = {

@@ -50,9 +50,10 @@ function inferCreator(slug: string): string {
     return "mistral";
   if (s.includes("gemma")) return "google";
   if (s.includes("gpt-oss")) return "openai";
-  if (s.includes("glm")) return "zhipu";
+  if (s.includes("glm")) return "zai";
   if (s.includes("kimi")) return "moonshot";
-  if (s.includes("flux") || s.includes("ssd")) return "stability";
+  if (s.includes("flux")) return "black-forest-labs";
+  if (s.includes("ssd")) return "stability";
   if (s.includes("whisper")) return "openai";
   if (s.includes("cogito")) return "cogito";
   if (s.includes("minimax")) return "minimax";

@@ -68,7 +68,7 @@ function extractCreator(id: string): string {
     "deepseek-ai": "deepseek",
     nvidia: "nvidia",
     microsoft: "microsoft",
-    "zai-org": "zhipu",
+    "zai-org": "zai",
     tiiuae: "tii",
     ibm: "ibm",
     NousResearch: "nousresearch",

@@ -50,7 +50,7 @@ function extractCreator(name: string): string {
     return "mistral";
   if (n.includes("deepseek")) return "deepseek";
   if (n.includes("nemotron")) return "nvidia";
-  if (n.includes("glm")) return "zhipu";
+  if (n.includes("glm")) return "zai";
   if (n.includes("kimi")) return "moonshot";
   if (n.includes("minimax")) return "minimax";
   if (n.includes("gpt-oss")) return "openai";

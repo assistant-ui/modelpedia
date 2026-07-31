@@ -106,7 +106,7 @@ async function fetchDetail(slug: string): Promise<TogetherModel | null> {
   else if (s.includes("gemma")) createdBy = "google";
   else if (s.includes("nemotron")) createdBy = "nvidia";
   else if (s.includes("minimax")) createdBy = "minimax";
-  else if (s.includes("glm")) createdBy = "zhipu";
+  else if (s.includes("glm")) createdBy = "zai";
   else if (s.includes("kimi")) createdBy = "moonshot";
   else if (s.includes("gpt-oss") || s.includes("gpt-image"))
     createdBy = "openai";
