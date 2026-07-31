@@ -49,17 +49,171 @@ export function writeModelJson(
  */
 let upsertAttempts = 0;
 
+/**
+ * Model ids each provider's scraper touched this process.
+ *
+ * `last_updated` cannot answer "is this model still listed upstream": it moves
+ * only when a field changes, so a model seen daily and a model delisted in
+ * March are indistinguishable by timestamp. Recording sightings here, at the
+ * one function every scraper already routes through, makes the distinction
+ * exact without touching any of the 51 scripts.
+ */
+const seenByProvider = new Map<string, Set<string>>();
+
 /** Called by upsertModel for every parsed model (changed or not). */
-export function recordUpsertAttempt(): void {
+export function recordUpsertAttempt(provider?: string, modelId?: string): void {
   upsertAttempts++;
+  if (!provider || !modelId) return;
+  const seen = seenByProvider.get(provider);
+  if (seen) seen.add(modelId);
+  else seenByProvider.set(provider, new Set([modelId]));
 }
 
-export function runGenerate(opts?: { requireModels?: boolean }): void {
+/**
+ * Persist the sighting manifest for every provider this run touched, and report
+ * models on disk that the scraper no longer finds.
+ *
+ * One file per provider rather than a stamp per model: a per-model timestamp
+ * would rewrite all 7681 files every day for no information gain.
+ */
+function writeSeenManifests(): Map<string, number> {
+  const priorCounts = new Map<string, number>();
+
+  for (const [provider, seen] of seenByProvider) {
+    const dir = path.join(PROVIDERS_DIR, provider);
+    if (!fs.existsSync(dir)) continue;
+
+    const ids = [...seen].sort();
+    const manifestPath = path.join(dir, "_seen.json");
+    const previous = fs.existsSync(manifestPath)
+      ? (JSON.parse(fs.readFileSync(manifestPath, "utf-8")) as {
+          ids?: string[];
+          count?: number;
+        })
+      : null;
+    // Captured before the overwrite below: the sweep compares against the
+    // previous run, and reading the file back afterwards would compare this
+    // run against itself and never detect a shrink.
+    if (previous?.count != null) priorCounts.set(provider, previous.count);
+
+    // Rewrite only when the set changes, so a stable catalog produces no diff.
+    const unchanged =
+      previous?.ids?.length === ids.length &&
+      previous.ids.every((id, i) => id === ids[i]);
+    if (!unchanged) {
+      fs.writeFileSync(
+        manifestPath,
+        `${JSON.stringify({ date: today(), count: ids.length, ids }, null, 2)}\n`,
+        "utf-8",
+      );
+    }
+
+    const modelsDir = path.join(dir, "models");
+    if (!fs.existsSync(modelsDir)) continue;
+    const onDisk = fs
+      .readdirSync(modelsDir)
+      .filter((f) => f.endsWith(".json"))
+      .map((f) => f.slice(0, -".json".length));
+    const unseen = onDisk.filter((id) => !seen.has(id));
+    if (unseen.length > 0) {
+      console.log(
+        `  ${unseen.length} model(s) on disk not seen upstream this run (${unseen.slice(0, 5).join(", ")}${unseen.length > 5 ? ", ..." : ""})`,
+      );
+    }
+  }
+  return priorCounts;
+}
+
+/**
+ * Scrapers that write a deliberate subset of what they discover, so a model
+ * they did not write is filtered rather than delisted. Sweeping these would
+ * retire perfectly live models.
+ */
+const PARTIAL_WRITERS = new Set([
+  "baseten", // chat models only, out of a larger catalog
+  "deepinfra", // skips models it already knows are deprecated
+  "huggingface", // filters the trending list to chat/instruct
+  "meta", // chat models only
+]);
+
+/**
+ * A run that suddenly sees far fewer models than last time is far more likely
+ * to be a half-broken scraper than a mass delisting, and sweeping on it would
+ * retire the catalog. xai did exactly this: its sweep ran before the guard, so
+ * a zero-parse run marked all 24 models deprecated and only then threw.
+ */
+const SWEEP_SHRINK_TOLERANCE = 0.2;
+
+/**
+ * Retire models the provider no longer lists.
+ *
+ * Only 3 of 51 scrapers did this, so directories only ever grew: a delisted
+ * model kept its last good data and stayed visible forever. Runs off the
+ * sighting record, so no scraper has to pass its id set.
+ */
+function sweepDeprecated(priorCounts: Map<string, number>): void {
+  for (const [provider, seen] of seenByProvider) {
+    if (PARTIAL_WRITERS.has(provider)) continue;
+
+    const priorCount = priorCounts.get(provider);
+    // With no prior manifest there is nothing to compare against, so a
+    // half-broken scraper would retire everything it failed to parse on its
+    // very first run. Record this run and let the next one decide.
+    if (!priorCount) {
+      console.log(
+        `  ${provider}: first sighting record, skipping deprecation sweep until there is a baseline to compare against`,
+      );
+      continue;
+    }
+
+    const shrink = (priorCount - seen.size) / priorCount;
+    if (shrink > SWEEP_SHRINK_TOLERANCE) {
+      console.log(
+        `  ${provider}: saw ${seen.size} models, was ${priorCount}; skipping deprecation sweep (looks like a scraper break, not a delisting)`,
+      );
+      continue;
+    }
+
+    const modelsDir = path.join(PROVIDERS_DIR, provider, "models");
+    if (!fs.existsSync(modelsDir)) continue;
+
+    let retired = 0;
+    for (const file of fs.readdirSync(modelsDir)) {
+      if (!file.endsWith(".json")) continue;
+      const id = file.slice(0, -".json".length);
+      if (seen.has(id)) continue;
+      const existing = JSON.parse(
+        fs.readFileSync(path.join(modelsDir, file), "utf-8"),
+      ) as Record<string, unknown>;
+      if (existing.status === "deprecated" || existing.source === "community") {
+        continue;
+      }
+      upsertModel(provider, {
+        id,
+        name: (existing.name as string) ?? id,
+        status: "deprecated",
+      } as ModelEntry);
+      retired++;
+    }
+    if (retired > 0) {
+      console.log(`  ${provider}: retired ${retired} delisted model(s)`);
+    }
+  }
+}
+
+export function runGenerate(opts?: {
+  requireModels?: boolean;
+  sweep?: boolean;
+}): void {
   if (opts?.requireModels !== false && upsertAttempts === 0) {
     throw new Error(
       "fetch parsed 0 models before generate; the upstream source structure likely changed",
     );
   }
+  // Manifest first: the sweep upserts retirements, which would otherwise land
+  // in the sighting record and inflate the count the next run compares against.
+  const priorCounts = writeSeenManifests();
+  if (opts?.sweep !== false) sweepDeprecated(priorCounts);
   console.log("\nRegenerating data.ts...");
   try {
     execSync("bun scripts/generate.ts", { stdio: "inherit", cwd: ROOT });
@@ -722,8 +876,8 @@ function dataEqual(
  * Skips if existing model has source: "community".
  */
 export function upsertModel(provider: string, entry: ModelEntry): boolean {
-  recordUpsertAttempt();
   const modelId = sanitizeModelId(entry.id);
+  recordUpsertAttempt(provider, modelId);
   const existing = readModelJson(provider, modelId);
   const original = getOriginal(provider, modelId);
 

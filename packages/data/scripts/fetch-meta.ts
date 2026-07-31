@@ -12,6 +12,12 @@ import {
 /**
  * Fetch Meta Llama models from Hugging Face API.
  * No API key needed — uses expand[] params for richer metadata.
+ *
+ * Scope: this covers Meta's open-weight releases only, which is everything the
+ * meta-llama org publishes. Meta's hosted models (Muse Spark and later) are not
+ * there, and llama.developer.meta.com is a geo-gated single-page app with no
+ * parseable catalog, so they are absent from this provider until a key-free
+ * first-party source exists. check-freshness.ts reports the resulting lag.
  */
 
 const sources = readSources("meta");
@@ -169,6 +175,20 @@ async function main() {
   console.log(
     `Found ${chatModels.length} chat models (from ${allModels.length} total)`,
   );
+
+  // The keep-list is a name match, so a family Meta names differently would be
+  // dropped without a trace. Today's drops are base (non-instruct) weights,
+  // which the catalog deliberately excludes; log them so a new family shows up
+  // here rather than silently never appearing.
+  const dropped = allModels.filter((m) => !chatModels.includes(m));
+  if (dropped.length > 0) {
+    console.log(
+      `  excluded ${dropped.length} non-chat repo(s): ${dropped
+        .slice(0, 6)
+        .map((m) => m.id.split("/").pop())
+        .join(", ")}${dropped.length > 6 ? ", ..." : ""}`,
+    );
+  }
 
   let written = 0;
   for (const m of chatModels) {

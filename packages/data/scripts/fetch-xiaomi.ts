@@ -1,6 +1,6 @@
-import { fetchText, parseTokenCount } from "./parse.ts";
 import {
   assertParsed,
+  filterModalities,
   type ModelEntry,
   readSources,
   runGenerate,
@@ -8,16 +8,18 @@ import {
 } from "./shared.ts";
 
 /**
- * Fetch Xiaomi MiMo models from the public docs (llms-full.txt). No API key.
+ * Fetch Xiaomi MiMo models from the platform's public catalog endpoint. No key.
  *
- * The catalog is published as HTML tables (Model ID | Capability Support |
- * Length Limit | Rate Limiting). We parse every table that carries a
- * "Length Limit" column, which is unique to the model-listing tables, and
- * carry forward rowspan'd cells so models that share a spec cell inherit it.
+ * Source history: the catalog used to be published as HTML tables in
+ * llms-full.txt. That path now serves the single-page app shell and every
+ * /docs/ route renders client-side, so no table survives in the HTML. The
+ * platform exposes the same catalog as key-free JSON in an OpenRouter-shaped
+ * payload, which carries more than the tables ever did (descriptions, output
+ * limits, cache pricing, supported parameters).
  */
 
 const sources = readSources("xiaomi");
-const DOCS_URL = sources.docs as string;
+const CATALOG_URL = sources.catalog as string;
 
 // The provider states that these V2 models auto-route to their V2.5
 // counterparts and are fully deprecated on 2026-06-30.
@@ -26,114 +28,99 @@ const DEPRECATED: Record<string, string> = {
   "mimo-v2-omni": "mimo-v2.5",
 };
 
-interface RowModel {
+interface CatalogModel {
   id: string;
-  capability: string;
-  length: string;
+  name?: string;
+  created?: number;
+  description?: string;
+  context_length?: number;
+  max_output_length?: number;
+  architecture?: {
+    input_modalities?: string[];
+    output_modalities?: string[];
+  };
+  pricing?: Record<string, string>;
+  supported_parameters?: string[];
+  supported_features?: string[];
 }
 
-function tablesWith(html: string, headerNeedle: string) {
-  return [...html.matchAll(/<table>([\s\S]*?)<\/table>/g)]
-    .map((m) => m[1])
-    .filter((t) => t.toLowerCase().includes(headerNeedle));
+/** Catalog rates are per token; modelpedia stores USD per 1M tokens. */
+function perMillion(raw: string | undefined): number | undefined {
+  if (raw == null) return undefined;
+  const n = Number(raw);
+  if (!Number.isFinite(n) || n <= 0) return undefined;
+  return Math.round(n * 1e6 * 1e6) / 1e6;
 }
 
-function parseModelTable(tableHtml: string): RowModel[] {
-  const out: RowModel[] = [];
-  let lastCapability = "";
-  let lastLength = "";
-  for (const tr of tableHtml.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)) {
-    const cells = [...tr[1].matchAll(/<t[hd][^>]*>([\s\S]*?)<\/t[hd]>/g)].map(
-      (c) =>
-        c[1]
-          .replace(/<br\s*\/?>/g, " ")
-          .replace(/<[^>]+>/g, "")
-          .trim(),
-    );
-    const idCell = cells.find(
-      (c) => /`mimo-[\w.-]+`/.test(c) && !c.includes("or"),
-    );
-    const lenCell = cells.find((c) => /Context Window:/i.test(c));
-    const capCell = cells.find((c) =>
-      /(Text Generation|Speech Recognition|Speech Synthesis|Deep Thinking|Full-modal)/i.test(
-        c,
-      ),
-    );
-    if (lenCell) lastLength = lenCell;
-    if (capCell) lastCapability = capCell;
-    if (!idCell) continue;
-    const id = idCell.match(/`(mimo-[\w.-]+)`/)?.[1];
-    if (!id) continue;
-    out.push({ id, capability: lastCapability, length: lastLength });
+function buildPricing(p: CatalogModel["pricing"]) {
+  if (!p) return undefined;
+  const pricing: Record<string, number> = {};
+  const input = perMillion(p.prompt);
+  const output = perMillion(p.completion);
+  const cached = perMillion(p.input_cache_read);
+  const cacheWrite = perMillion(p.input_cache_write);
+  if (input != null) pricing.input = input;
+  if (output != null) pricing.output = output;
+  if (cached != null) pricing.cached_input = cached;
+  if (cacheWrite != null) pricing.cache_write = cacheWrite;
+  return Object.keys(pricing).length > 0 ? pricing : undefined;
+}
+
+function buildCapabilities(m: CatalogModel) {
+  const params = new Set(m.supported_parameters ?? []);
+  const features = new Set(m.supported_features ?? []);
+  const caps: Record<string, boolean> = { streaming: true };
+  if (params.has("tools") || params.has("tool_choice")) caps.tool_call = true;
+  if (params.has("response_format")) caps.structured_output = true;
+  if (params.has("reasoning") || params.has("include_reasoning")) {
+    caps.reasoning = true;
   }
-  return out;
-}
-
-function classify(id: string, capability: string) {
-  const cap = capability.toLowerCase();
-  let modelType: ModelEntry["model_type"];
-  let modalities: { input: string[]; output: string[] };
-  if (/asr|speech recognition/i.test(`${id} ${cap}`)) {
-    modelType = "transcription";
-    modalities = { input: ["audio"], output: ["text"] };
-  } else if (/tts|speech synthesis/i.test(`${id} ${cap}`)) {
-    modelType = "tts";
-    modalities = { input: ["text"], output: ["audio"] };
-  } else if (/full-modal|omni/i.test(`${id} ${cap}`)) {
-    modelType = "chat";
-    modalities = {
-      input: ["text", "image", "audio", "video"],
-      output: ["text"],
-    };
-  } else if (cap.includes("deep thinking")) {
-    modelType = "reasoning";
-    modalities = { input: ["text"], output: ["text"] };
-  } else {
-    modelType = "chat";
-    modalities = { input: ["text"], output: ["text"] };
+  if (features.has("prompt_caching") || m.pricing?.input_cache_read) {
+    caps.prompt_caching = true;
   }
-
-  const capabilities: Record<string, boolean> = {};
-  if (cap.includes("streaming")) capabilities.streaming = true;
-  if (cap.includes("deep thinking")) capabilities.reasoning = true;
-  if (cap.includes("function call")) capabilities.tool_call = true;
-  if (cap.includes("structured output")) capabilities.structured_output = true;
-  if (/full-modal/.test(cap)) capabilities.vision = true;
-  if (modelType === "chat" || modelType === "reasoning")
-    capabilities.streaming = true;
-  return { modelType, modalities, capabilities };
+  if (m.architecture?.input_modalities?.includes("image")) caps.vision = true;
+  return caps;
 }
 
 async function main() {
-  console.log("Fetching Xiaomi MiMo models from docs...");
+  console.log("Fetching Xiaomi MiMo models from the platform catalog...");
 
-  const text = await fetchText(DOCS_URL);
-  const seen = new Map<string, RowModel>();
-  for (const table of tablesWith(text, "length limit")) {
-    for (const row of parseModelTable(table)) {
-      if (!seen.has(row.id)) seen.set(row.id, row);
-    }
-  }
-  console.log(`Parsed ${seen.size} models from docs`);
-  assertParsed(seen.size, "xiaomi");
+  const res = await fetch(CATALOG_URL);
+  if (!res.ok) throw new Error(`catalog fetch failed: ${res.status}`);
+  const catalog = (await res.json()) as { data?: CatalogModel[] };
+  const models = catalog.data ?? [];
+
+  console.log(`Parsed ${models.length} models from catalog`);
+  assertParsed(models.length, "xiaomi");
 
   let written = 0;
-  for (const { id, capability, length } of seen.values()) {
-    const { modelType, modalities, capabilities } = classify(id, capability);
-    const ctx = length.match(/Context Window:\s*([\d.]+[KkMm]?)/i)?.[1];
-    const out = length.match(/Maximum Output:\s*([\d.]+[KkMm]?)/i)?.[1];
+  for (const m of models) {
+    // Catalog ids are namespaced (`xiaomi/mimo-v2.5`); modelpedia keys the
+    // provider's own directory by the bare id.
+    const id = m.id.replace(/^xiaomi\//, "");
+
+    const modalities = filterModalities(
+      m.architecture?.input_modalities ?? ["text"],
+      m.architecture?.output_modalities ?? ["text"],
+    );
+    const capabilities = buildCapabilities(m);
 
     const entry: ModelEntry = {
       id,
-      name: id.replace(/^mimo/i, "MiMo"),
+      name: (m.name ?? id).replace(/^Xiaomi MiMo[:：]\s*/, ""),
       family: "mimo",
       created_by: "xiaomi",
-      model_type: modelType,
+      model_type: "chat",
       status: DEPRECATED[id] ? "deprecated" : "active",
-      context_window: ctx ? parseTokenCount(ctx) : undefined,
-      max_output_tokens: out ? parseTokenCount(out) : undefined,
+      description: m.description,
+      context_window: m.context_length,
+      max_output_tokens: m.max_output_length,
+      release_date: m.created
+        ? new Date(m.created * 1000).toISOString().split("T")[0]
+        : undefined,
       capabilities,
       modalities,
+      pricing: buildPricing(m.pricing),
       page_url: "https://platform.xiaomimimo.com",
     };
     if (capabilities.reasoning) entry.reasoning_tokens = true;
@@ -141,6 +128,7 @@ async function main() {
       entry.deprecation_date = "2026-06-30";
       entry.successor = DEPRECATED[id];
     }
+
     if (upsertModel("xiaomi", entry)) written++;
   }
 

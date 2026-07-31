@@ -1,4 +1,5 @@
 {
-  "docs": "https://docs.x.ai/developers/models",
-  "api": "https://api.x.ai/v1/models"
+  "docs": "https://docs.x.ai/developers/models.md",
+  "api": "https://api.x.ai/v1/models",
+  "full_docs": "https://docs.x.ai/llms.txt"
 }

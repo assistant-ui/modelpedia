@@ -1,5 +1,7 @@
 import { fetchText } from "./parse.ts";
 import {
+  assertParsed,
+  inferFamily,
   type ModelEntry,
   parseMarkdownTable,
   readSources,
@@ -79,8 +81,7 @@ function parseTokenTable(lines: string[]): PricingRow[] {
     if (r.length < 4) continue;
     let idx = 0;
     const idCell = r[idx++];
-    // Strip parenthetical annotations like "（推荐）"
-    const id = idCell.replace(/[（(].*?[)）]/g, "").trim();
+    const id = cleanId(idCell);
     if (!id) continue;
     const condition = hasCondition ? r[idx++] : undefined;
     idx++; // unit (1M tokens)
@@ -107,7 +108,7 @@ function parseAudioTable(lines: string[]): AudioRow[] {
   for (let i = 1; i < rows.length; i++) {
     const r = rows[i];
     if (r.length < 3) continue;
-    const id = r[0].trim();
+    const id = cleanId(r[0]);
     if (!id || id.includes("/")) continue; // skip multi-id rows like cloning
     out.push({ id, type: r[1].trim(), unit: r[2].trim() });
   }
@@ -137,6 +138,23 @@ function extractDescriptions(md: string): Map<string, string> {
 // The pricing page only gives prices; per-page pricing-table model IDs map
 // to API model IDs that we maintain manually here (set during research).
 
+/**
+ * Normalise a model-id table cell. The docs wrap ids in backticks and annotate
+ * some with a parenthetical like "（推荐）"; both leaked into the id and broke
+ * every SPECS lookup, so all but one model was dropped as unregistered.
+ */
+function cleanId(cell: string): string {
+  return cell
+    .replace(/[（(].*?[)）]/g, "")
+    .replace(/`/g, "")
+    .trim();
+}
+
+/**
+ * Known specs per model. This enriches what the pricing tables carry; it is
+ * deliberately not a gate, because a hardcoded allowlist silently drops every
+ * model the provider ships after it was written.
+ */
 const SPECS: Record<string, Partial<ModelEntry>> = {
   "step-3.5-flash": {
     name: "Step 3.5 Flash",
@@ -447,6 +465,10 @@ async function main() {
   console.log(
     `Parsed ${allTokenPricing.length} token-priced models, ${audioFlat.length} audio models, ${imageRows.length} image rows`,
   );
+  assertParsed(
+    allTokenPricing.length + audioFlat.length + imageRows.length,
+    "stepfun",
+  );
 
   // Descriptions from per-domain pages
   const descriptions = new Map<string, string>();
@@ -469,12 +491,14 @@ async function main() {
   for (const p of allTokenPricing) {
     const specs = SPECS[p.id];
     if (!specs) {
-      console.log(`  skip ${p.id} (no specs registered)`);
-      continue;
+      console.log(`  ${p.id} (no specs registered, writing pricing only)`);
     }
     const entry: ModelEntry = {
       id: p.id,
-      name: specs.name ?? p.id,
+      name: specs?.name ?? p.id,
+      family: inferFamily(p.id),
+      created_by: "stepfun",
+      license: "proprietary",
       ...specs,
     };
     const desc = descriptions.get(p.id);
