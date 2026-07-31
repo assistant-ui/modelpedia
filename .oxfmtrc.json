@@ -31,6 +31,8 @@
     "**/worker-configuration.d.ts",
     "**/packages/data/src/data.ts",
     "**/packages/npm/src/data.ts",
+    "**/packages/data/src/price-history.ts",
+    "**/packages/npm/src/price-history.ts",
     "**/packages/npm/src/providers/**",
     "**/*.html",
     "**/*.md",
