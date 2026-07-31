@@ -1,0 +1,563 @@
+{
+  "ai21": {
+    "models": 2,
+    "fields": {
+      "pricing": 1,
+      "context_window": 1,
+      "release_date": 1,
+      "description": 0,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "alibaba": {
+    "models": 176,
+    "fields": {
+      "pricing": 0.159,
+      "context_window": 0.551,
+      "release_date": 0,
+      "description": 0.494,
+      "capabilities": 1,
+      "modalities": 0.943
+    }
+  },
+  "amazon": {
+    "models": 130,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0.762,
+      "release_date": 0.923,
+      "description": 0,
+      "capabilities": 0.923,
+      "modalities": 1
+    }
+  },
+  "anthropic": {
+    "models": 25,
+    "fields": {
+      "pricing": 1,
+      "context_window": 0.76,
+      "release_date": 0.28,
+      "description": 0.32,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "azure": {
+    "models": 128,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0.563,
+      "release_date": 0,
+      "description": 0.672,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "baseten": {
+    "models": 56,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0.089,
+      "release_date": 0,
+      "description": 0.054,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "black-forest-labs": {
+    "models": 20,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0,
+      "release_date": 0.8,
+      "description": 1,
+      "capabilities": 0,
+      "modalities": 1
+    }
+  },
+  "bytedance": {
+    "models": 28,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0,
+      "release_date": 0,
+      "description": 1,
+      "capabilities": 0.607,
+      "modalities": 0.714
+    }
+  },
+  "cerebras": {
+    "models": 16,
+    "fields": {
+      "pricing": 0.375,
+      "context_window": 0.688,
+      "release_date": 0,
+      "description": 0.063,
+      "capabilities": 0.688,
+      "modalities": 1
+    }
+  },
+  "cloudflare-ai-gateway": {
+    "models": 1831,
+    "fields": {
+      "pricing": 0.878,
+      "context_window": 0.097,
+      "release_date": 0,
+      "description": 0.078,
+      "capabilities": 0.104,
+      "modalities": 0.824
+    }
+  },
+  "cloudflare-workers-ai": {
+    "models": 100,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0,
+      "release_date": 0,
+      "description": 0.01,
+      "capabilities": 1,
+      "modalities": 0.67
+    }
+  },
+  "cohere": {
+    "models": 34,
+    "fields": {
+      "pricing": 0.353,
+      "context_window": 0.824,
+      "release_date": 0,
+      "description": 1,
+      "capabilities": 0.971,
+      "modalities": 1
+    }
+  },
+  "cursor": {
+    "models": 34,
+    "fields": {
+      "pricing": 1,
+      "context_window": 0.941,
+      "release_date": 0,
+      "description": 0.441,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "deepinfra": {
+    "models": 251,
+    "fields": {
+      "pricing": 0.47,
+      "context_window": 0.474,
+      "release_date": 0,
+      "description": 0.976,
+      "capabilities": 0.876,
+      "modalities": 1
+    }
+  },
+  "deepseek": {
+    "models": 26,
+    "fields": {
+      "pricing": 0.385,
+      "context_window": 0.385,
+      "release_date": 1,
+      "description": 0.231,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "fal": {
+    "models": 1543,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0.001,
+      "release_date": 1,
+      "description": 1,
+      "capabilities": 0.675,
+      "modalities": 0.663
+    }
+  },
+  "fireworks": {
+    "models": 325,
+    "fields": {
+      "pricing": 1,
+      "context_window": 0.926,
+      "release_date": 0,
+      "description": 0.052,
+      "capabilities": 1,
+      "modalities": 0.662
+    }
+  },
+  "google": {
+    "models": 77,
+    "fields": {
+      "pricing": 0.325,
+      "context_window": 0.584,
+      "release_date": 0,
+      "description": 0.403,
+      "capabilities": 0.779,
+      "modalities": 1
+    }
+  },
+  "groq": {
+    "models": 18,
+    "fields": {
+      "pricing": 0.611,
+      "context_window": 0.889,
+      "release_date": 0,
+      "description": 0.111,
+      "capabilities": 0.611,
+      "modalities": 1
+    }
+  },
+  "huggingface": {
+    "models": 251,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0.896,
+      "release_date": 0.992,
+      "description": 0.486,
+      "capabilities": 1,
+      "modalities": 0.753
+    }
+  },
+  "inception": {
+    "models": 5,
+    "fields": {
+      "pricing": 1,
+      "context_window": 1,
+      "release_date": 0.8,
+      "description": 1,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "jina": {
+    "models": 25,
+    "fields": {
+      "pricing": 1,
+      "context_window": 1,
+      "release_date": 1,
+      "description": 1,
+      "capabilities": 0,
+      "modalities": 1
+    }
+  },
+  "meta": {
+    "models": 38,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0.684,
+      "release_date": 1,
+      "description": 0,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "minimax": {
+    "models": 9,
+    "fields": {
+      "pricing": 1,
+      "context_window": 0.889,
+      "release_date": 0,
+      "description": 0.889,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "mistral": {
+    "models": 90,
+    "fields": {
+      "pricing": 0.578,
+      "context_window": 0.867,
+      "release_date": 0,
+      "description": 0.844,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "moonshot": {
+    "models": 12,
+    "fields": {
+      "pricing": 0,
+      "context_window": 1,
+      "release_date": 0,
+      "description": 0.5,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "nebius": {
+    "models": 0,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0,
+      "release_date": 0,
+      "description": 0,
+      "capabilities": 0,
+      "modalities": 0
+    }
+  },
+  "novita": {
+    "models": 149,
+    "fields": {
+      "pricing": 0.913,
+      "context_window": 0.96,
+      "release_date": 1,
+      "description": 0.832,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "nvidia": {
+    "models": 215,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0.149,
+      "release_date": 0,
+      "description": 0.088,
+      "capabilities": 1,
+      "modalities": 0.712
+    }
+  },
+  "ollama": {
+    "models": 61,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0.967,
+      "release_date": 0.623,
+      "description": 0.984,
+      "capabilities": 1,
+      "modalities": 0.984
+    }
+  },
+  "openai": {
+    "models": 168,
+    "fields": {
+      "pricing": 0.905,
+      "context_window": 0.768,
+      "release_date": 0.637,
+      "description": 0.857,
+      "capabilities": 0.821,
+      "modalities": 0.994
+    }
+  },
+  "opencode": {
+    "models": 71,
+    "fields": {
+      "pricing": 0.676,
+      "context_window": 0.549,
+      "release_date": 0,
+      "description": 0.408,
+      "capabilities": 1,
+      "modalities": 0.901
+    }
+  },
+  "openrouter": {
+    "models": 521,
+    "fields": {
+      "pricing": 0.883,
+      "context_window": 1,
+      "release_date": 0.994,
+      "description": 1,
+      "capabilities": 0.94,
+      "modalities": 1
+    }
+  },
+  "parasail": {
+    "models": 0,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0,
+      "release_date": 0,
+      "description": 0,
+      "capabilities": 0,
+      "modalities": 0
+    }
+  },
+  "perplexity": {
+    "models": 44,
+    "fields": {
+      "pricing": 0.682,
+      "context_window": 0.795,
+      "release_date": 0,
+      "description": 0.591,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "qwen": {
+    "models": 214,
+    "fields": {
+      "pricing": 0.131,
+      "context_window": 0.453,
+      "release_date": 0,
+      "description": 0.407,
+      "capabilities": 1,
+      "modalities": 0.776
+    }
+  },
+  "recraft": {
+    "models": 8,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0,
+      "release_date": 1,
+      "description": 1,
+      "capabilities": 0,
+      "modalities": 1
+    }
+  },
+  "reka": {
+    "models": 6,
+    "fields": {
+      "pricing": 0.833,
+      "context_window": 0.667,
+      "release_date": 0.333,
+      "description": 1,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "replicate": {
+    "models": 219,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0.046,
+      "release_date": 0,
+      "description": 0.082,
+      "capabilities": 0.192,
+      "modalities": 0.461
+    }
+  },
+  "sambanova": {
+    "models": 11,
+    "fields": {
+      "pricing": 1,
+      "context_window": 1,
+      "release_date": 0,
+      "description": 0.909,
+      "capabilities": 0.909,
+      "modalities": 1
+    }
+  },
+  "siliconflow": {
+    "models": 0,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0,
+      "release_date": 0,
+      "description": 0,
+      "capabilities": 0,
+      "modalities": 0
+    }
+  },
+  "stability": {
+    "models": 109,
+    "fields": {
+      "pricing": 0,
+      "context_window": 0,
+      "release_date": 1,
+      "description": 1,
+      "capabilities": 0.835,
+      "modalities": 0.771
+    }
+  },
+  "stepfun": {
+    "models": 25,
+    "fields": {
+      "pricing": 0.48,
+      "context_window": 0.52,
+      "release_date": 0,
+      "description": 1,
+      "capabilities": 0.6,
+      "modalities": 1
+    }
+  },
+  "together": {
+    "models": 67,
+    "fields": {
+      "pricing": 0.806,
+      "context_window": 0.582,
+      "release_date": 0,
+      "description": 0.104,
+      "capabilities": 1,
+      "modalities": 0.567
+    }
+  },
+  "vercel": {
+    "models": 355,
+    "fields": {
+      "pricing": 1,
+      "context_window": 0.763,
+      "release_date": 0,
+      "description": 0.341,
+      "capabilities": 1,
+      "modalities": 0.885
+    }
+  },
+  "vertex": {
+    "models": 83,
+    "fields": {
+      "pricing": 0.494,
+      "context_window": 0.578,
+      "release_date": 0,
+      "description": 0.41,
+      "capabilities": 0.795,
+      "modalities": 1
+    }
+  },
+  "voyage": {
+    "models": 32,
+    "fields": {
+      "pricing": 0.969,
+      "context_window": 0.281,
+      "release_date": 0,
+      "description": 0,
+      "capabilities": 0,
+      "modalities": 1
+    }
+  },
+  "writer": {
+    "models": 7,
+    "fields": {
+      "pricing": 0.857,
+      "context_window": 1,
+      "release_date": 0.714,
+      "description": 1,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "xai": {
+    "models": 24,
+    "fields": {
+      "pricing": 0.583,
+      "context_window": 0.75,
+      "release_date": 0.75,
+      "description": 0.292,
+      "capabilities": 1,
+      "modalities": 1
+    }
+  },
+  "xiaomi": {
+    "models": 10,
+    "fields": {
+      "pricing": 0.3,
+      "context_window": 1,
+      "release_date": 0.4,
+      "description": 0.4,
+      "capabilities": 0.6,
+      "modalities": 1
+    }
+  },
+  "zai": {
+    "models": 32,
+    "fields": {
+      "pricing": 0.5,
+      "context_window": 0.438,
+      "release_date": 0,
+      "description": 0.906,
+      "capabilities": 0.563,
+      "modalities": 1
+    }
+  }
+}
