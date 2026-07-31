@@ -189,7 +189,11 @@ function sweepDeprecated(priorCounts: Map<string, number>): void {
         continue;
       }
       upsertModel(provider, {
-        id,
+        // The filename is the sanitized id, so passing it back rewrites the
+        // canonical one: `amazon.nova-reel-v1:1` became `amazon.nova-reel-v1-1`
+        // on every model this retired. upsertModel sanitizes again to locate
+        // the file, so handing it the real id still resolves to this one.
+        id: (existing.id as string) ?? id,
         name: (existing.name as string) ?? id,
         status: "deprecated",
       } as ModelEntry);
