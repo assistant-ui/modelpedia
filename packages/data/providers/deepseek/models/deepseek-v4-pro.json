@@ -6,7 +6,7 @@
   "family": "deepseek-chat",
   "description": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
   "status": "active",
-  "release_date": "2026-04-24",
+  "release_date": "2026-07-31",
   "context_window": 1000000,
   "max_output_tokens": 384000,
   "model_type": "chat",
@@ -32,13 +32,13 @@
   "open_weight": true,
   "endpoints": ["chat_completions", "completions"],
   "tools": ["function_calling"],
-  "snapshots": ["deepseek-v4-pro-2026-04-24"],
+  "snapshots": ["deepseek-v4-pro-2026-04-24", "deepseek-v4-pro-2026-07-31"],
   "_generated": {
     "name": "acc10913",
     "family": "fbd79fd9",
     "description": "7178a6ca",
     "status": "379ac110",
-    "release_date": "173d2bb2",
+    "release_date": "0ee605c3",
     "context_window": "8155bc54",
     "max_output_tokens": "c58e26bd",
     "model_type": "d669f408",
@@ -52,5 +52,5 @@
     "endpoints": "772bacef",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-24"
+  "last_updated": "2026-07-31"
 }

@@ -1,0 +1,30 @@
+{
+  "id": "qwen-audio-3.0-asr-flash-streaming",
+  "name": "qwen-audio-3.0-asr-flash-streaming",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen",
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/asr-model",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "75e962c8",
+    "family": "a3af76f3",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "page_url": "17b7d885",
+    "open_weight": "b326b506",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-07-31"
+}

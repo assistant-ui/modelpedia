@@ -10,7 +10,7 @@
   "model_type": "audio",
   "license": "apache-2.0",
   "tagline": "Compared to Qwen-Omni, Qwen-Omni-Realtime supports streaming audio input and includes built-in VAD (Voice Activity Detection) to automatically detect speech start and end points.[Usage](https://www.alibabacloud.com/help/en/document_detail/2880812.html) \\| [Client-side events](https://www.alibabacloud.com/help/en/document_detail/2922854.html) \\| [Server-side events](https://www.alibabacloud.com/help/en/document_detail/2922855.html) #### International When the service deployment scope is [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh), data storage is in the **Singapore access region**.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/asr-model",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/s2s-model",
   "open_weight": true,
   "capabilities": {
     "streaming": true,
@@ -32,13 +32,13 @@
     "model_type": "9f84c007",
     "license": "60245731",
     "tagline": "03cc214b",
-    "page_url": "17b7d885",
+    "page_url": "633e05f4",
     "open_weight": "b326b506",
     "capabilities": "2ecf728d",
     "modalities": "d65b34d6",
     "endpoints": "75df3f1c",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-07-31",
   "tools": ["function_calling"]
 }

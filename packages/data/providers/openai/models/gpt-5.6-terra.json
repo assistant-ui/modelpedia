@@ -32,9 +32,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 2.5,
-    "output": 15,
-    "cached_input": 0.25,
+    "input": 2,
+    "output": 12,
+    "cached_input": 0.2,
     "tiers": [
       {
         "label": "Text tokens",
@@ -43,7 +43,7 @@
         "rows": [
           {
             "label": "Standard",
-            "values": [2.5, 0.25, 15]
+            "values": [2, 0.2, 12]
           }
         ]
       }
@@ -69,9 +69,9 @@
     "open_weight": "68934a3e",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
-    "pricing": "c5616094",
+    "pricing": "622c3a7c",
     "tools": "f0c1dc7e",
     "endpoints": "88e8abb4"
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-07-31"
 }

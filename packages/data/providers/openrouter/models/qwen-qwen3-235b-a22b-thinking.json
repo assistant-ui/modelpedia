@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 235B A22B Thinking 2507",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-31",
   "family": "qwen3",
   "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks.",
   "release_date": "2025-07-25",
@@ -23,8 +23,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.3,
-    "output": 3,
+    "input": 0.23,
+    "output": 2.3,
     "cached_input": 0.1
   },
   "tools": ["function_calling"],
@@ -41,7 +41,7 @@
     "tagline": "13d8134d",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
-    "pricing": "adda998c",
+    "pricing": "db56f561",
     "tools": "f0c1dc7e",
     "max_output_tokens": "f4376436",
     "status": "2e2f74dc",

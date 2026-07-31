@@ -1,0 +1,34 @@
+{
+  "id": "farbodtavakkoli/OTel-2.0-LLM-31B-IT",
+  "name": "OTel-2.0-LLM-31B-IT",
+  "created_by": "farbodtavakkoli",
+  "source": "official",
+  "description": "> **Checkpoint update notice:** The current checkpoint is expected to be updated within the next few hours. After that initial refresh, OTel 2.0 checkpoints are expected to continue receiving weekly weight updates. For reproducible evaluation or production deployment, pin a specific model revision, checkpoint hash, or release tag.",
+  "release_date": "2026-07-23",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "parameters": 32,
+  "page_url": "https://huggingface.co/farbodtavakkoli/OTel-2.0-LLM-31B-IT",
+  "tagline": "> **Checkpoint update notice:** The current checkpoint is expected to be updated within the next few hours.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b2e9e01b",
+    "description": "023e09d4",
+    "release_date": "26fc75d3",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "parameters": "6364d3f0",
+    "page_url": "49629704",
+    "tagline": "845d8d02",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-31"
+}

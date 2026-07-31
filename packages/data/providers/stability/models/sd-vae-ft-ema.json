@@ -11,7 +11,7 @@
   "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-ema",
   "open_weight": true,
   "tagline": "Sd Vae Ft Ema is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "huggingface_downloads": 22930,
+  "huggingface_downloads": 22988,
   "last_modified": "2023-06-05",
   "_generated": {
     "name": "46031e67",
@@ -23,8 +23,8 @@
     "page_url": "3f87a050",
     "open_weight": "b326b506",
     "tagline": "2b74ba71",
-    "huggingface_downloads": "dc80df84",
+    "huggingface_downloads": "18464425",
     "last_modified": "03590c01"
   },
-  "last_updated": "2026-07-30"
+  "last_updated": "2026-07-31"
 }
