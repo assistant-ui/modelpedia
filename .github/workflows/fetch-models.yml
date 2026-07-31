@@ -92,6 +92,15 @@ jobs:
         working-directory: packages/data
         run: bun run generate
 
+      # A PR opened with GITHUB_TOKEN does not trigger other workflows, so
+      # check.yml never runs on the data PR and nothing downstream validates it:
+      # a scraper writing a non-numeric price reached Vercel before anything
+      # caught it. Gate here instead, and fail rather than propose bad data.
+      - name: Validate generated data
+        run: |
+          pnpm validate
+          pnpm --filter modelpedia lint
+
       # A scraper pointed at a frozen listing parses the same models forever, so
       # it never trips a guard. Aggregators are the only independent witness.
       # Reported, not enforced: a first party can legitimately trail a reseller.

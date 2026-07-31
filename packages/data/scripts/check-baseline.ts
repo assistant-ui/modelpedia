@@ -47,10 +47,13 @@ function snapshot(): Record<string, Snapshot> {
     const active = p.models.filter((m) => m.status !== "deprecated").length;
     const fields: Record<string, number> = {};
     for (const field of TRACKED) {
-      const have = p.models.filter(
+      // The absolute count, not the share. Coverage as a ratio falls whenever
+      // models are added without the field, so recovering models a scraper had
+      // been dropping reads as a regression; only losing the field on models
+      // that had it is one.
+      fields[field] = p.models.filter(
         (m) => (m as Record<string, unknown>)[field] != null,
       ).length;
-      fields[field] = n > 0 ? Math.round((have / n) * 1000) / 1000 : 0;
     }
     out[p.id] = { models: n, active, fields };
   }
@@ -115,10 +118,9 @@ function main() {
     for (const field of TRACKED) {
       const before = was.fields?.[field] ?? 0;
       const after = now.fields[field] ?? 0;
-      // Coverage is a share, so compare in absolute percentage points.
-      if (before - after > TOLERANCE) {
+      if (before > 0 && before - after > before * TOLERANCE) {
         regressions.push(
-          `${id}: ${field} coverage ${Math.round(before * 100)}% → ${Math.round(after * 100)}%`,
+          `${id}: ${field} present on ${before} → ${after} models`,
         );
       }
     }

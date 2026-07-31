@@ -3,24 +3,24 @@
     "models": 2,
     "active": 2,
     "fields": {
-      "pricing": 1,
-      "context_window": 1,
-      "release_date": 1,
+      "pricing": 2,
+      "context_window": 2,
+      "release_date": 2,
       "description": 0,
-      "capabilities": 1,
-      "modalities": 1
+      "capabilities": 2,
+      "modalities": 2
     }
   },
   "alibaba": {
     "models": 176,
     "active": 176,
     "fields": {
-      "pricing": 0.159,
-      "context_window": 0.551,
+      "pricing": 28,
+      "context_window": 97,
       "release_date": 0,
-      "description": 0.494,
-      "capabilities": 1,
-      "modalities": 0.943
+      "description": 87,
+      "capabilities": 176,
+      "modalities": 166
     }
   },
   "amazon": {
@@ -28,23 +28,23 @@
     "active": 130,
     "fields": {
       "pricing": 0,
-      "context_window": 0.762,
-      "release_date": 0.923,
+      "context_window": 99,
+      "release_date": 120,
       "description": 0,
-      "capabilities": 0.923,
-      "modalities": 1
+      "capabilities": 120,
+      "modalities": 130
     }
   },
   "anthropic": {
     "models": 25,
     "active": 14,
     "fields": {
-      "pricing": 1,
-      "context_window": 0.76,
-      "release_date": 0.28,
-      "description": 0.32,
-      "capabilities": 1,
-      "modalities": 1
+      "pricing": 25,
+      "context_window": 19,
+      "release_date": 7,
+      "description": 8,
+      "capabilities": 25,
+      "modalities": 25
     }
   },
   "azure": {
@@ -52,11 +52,11 @@
     "active": 128,
     "fields": {
       "pricing": 0,
-      "context_window": 0.563,
+      "context_window": 72,
       "release_date": 0,
-      "description": 0.672,
-      "capabilities": 1,
-      "modalities": 1
+      "description": 86,
+      "capabilities": 128,
+      "modalities": 128
     }
   },
   "baseten": {
@@ -64,11 +64,11 @@
     "active": 56,
     "fields": {
       "pricing": 0,
-      "context_window": 0.089,
+      "context_window": 5,
       "release_date": 0,
-      "description": 0.054,
-      "capabilities": 1,
-      "modalities": 1
+      "description": 3,
+      "capabilities": 56,
+      "modalities": 56
     }
   },
   "black-forest-labs": {
@@ -77,10 +77,10 @@
     "fields": {
       "pricing": 0,
       "context_window": 0,
-      "release_date": 0.8,
-      "description": 1,
+      "release_date": 16,
+      "description": 20,
       "capabilities": 0,
-      "modalities": 1
+      "modalities": 20
     }
   },
   "bytedance": {
@@ -90,33 +90,33 @@
       "pricing": 0,
       "context_window": 0,
       "release_date": 0,
-      "description": 1,
-      "capabilities": 0.607,
-      "modalities": 0.714
+      "description": 28,
+      "capabilities": 17,
+      "modalities": 20
     }
   },
   "cerebras": {
     "models": 16,
     "active": 4,
     "fields": {
-      "pricing": 0.375,
-      "context_window": 0.688,
+      "pricing": 6,
+      "context_window": 11,
       "release_date": 0,
-      "description": 0.063,
-      "capabilities": 0.688,
-      "modalities": 1
+      "description": 1,
+      "capabilities": 11,
+      "modalities": 16
     }
   },
   "cloudflare-ai-gateway": {
     "models": 1831,
     "active": 1831,
     "fields": {
-      "pricing": 0.878,
-      "context_window": 0.097,
+      "pricing": 1607,
+      "context_window": 177,
       "release_date": 0,
-      "description": 0.078,
-      "capabilities": 0.104,
-      "modalities": 0.824
+      "description": 142,
+      "capabilities": 191,
+      "modalities": 1508
     }
   },
   "cloudflare-workers-ai": {
@@ -126,57 +126,57 @@
       "pricing": 0,
       "context_window": 0,
       "release_date": 0,
-      "description": 0.01,
-      "capabilities": 1,
-      "modalities": 0.67
+      "description": 1,
+      "capabilities": 100,
+      "modalities": 67
     }
   },
   "cohere": {
     "models": 34,
     "active": 32,
     "fields": {
-      "pricing": 0.353,
-      "context_window": 0.824,
+      "pricing": 12,
+      "context_window": 28,
       "release_date": 0,
-      "description": 1,
-      "capabilities": 0.971,
-      "modalities": 1
+      "description": 34,
+      "capabilities": 33,
+      "modalities": 34
     }
   },
   "cursor": {
     "models": 34,
     "active": 34,
     "fields": {
-      "pricing": 1,
-      "context_window": 0.941,
+      "pricing": 34,
+      "context_window": 32,
       "release_date": 0,
-      "description": 0.441,
-      "capabilities": 1,
-      "modalities": 1
+      "description": 15,
+      "capabilities": 34,
+      "modalities": 34
     }
   },
   "deepinfra": {
     "models": 251,
     "active": 251,
     "fields": {
-      "pricing": 0.47,
-      "context_window": 0.474,
+      "pricing": 118,
+      "context_window": 119,
       "release_date": 0,
-      "description": 0.976,
-      "capabilities": 0.876,
-      "modalities": 1
+      "description": 245,
+      "capabilities": 220,
+      "modalities": 251
     }
   },
   "deepseek": {
     "models": 26,
     "active": 8,
     "fields": {
-      "pricing": 0.385,
-      "context_window": 0.385,
-      "release_date": 1,
-      "description": 0.231,
-      "capabilities": 1,
-      "modalities": 1
+      "pricing": 10,
+      "context_window": 10,
+      "release_date": 26,
+      "description": 6,
+      "capabilities": 26,
+      "modalities": 26
     }
   },
   "fal": {
@@ -184,47 +184,47 @@
     "active": 1543,
     "fields": {
       "pricing": 0,
-      "context_window": 0.001,
-      "release_date": 1,
-      "description": 1,
-      "capabilities": 0.675,
-      "modalities": 0.663
+      "context_window": 1,
+      "release_date": 1543,
+      "description": 1543,
+      "capabilities": 1041,
+      "modalities": 1023
     }
   },
   "fireworks": {
     "models": 325,
     "active": 325,
     "fields": {
-      "pricing": 1,
-      "context_window": 0.926,
+      "pricing": 325,
+      "context_window": 301,
       "release_date": 0,
-      "description": 0.052,
-      "capabilities": 1,
-      "modalities": 0.662
+      "description": 17,
+      "capabilities": 325,
+      "modalities": 215
     }
   },
   "google": {
     "models": 77,
     "active": 42,
     "fields": {
-      "pricing": 0.325,
-      "context_window": 0.584,
+      "pricing": 25,
+      "context_window": 45,
       "release_date": 0,
-      "description": 0.403,
-      "capabilities": 0.779,
-      "modalities": 1
+      "description": 31,
+      "capabilities": 60,
+      "modalities": 77
     }
   },
   "groq": {
     "models": 18,
     "active": 14,
     "fields": {
-      "pricing": 0.611,
-      "context_window": 0.889,
+      "pricing": 11,
+      "context_window": 16,
       "release_date": 0,
-      "description": 0.111,
-      "capabilities": 0.611,
-      "modalities": 1
+      "description": 2,
+      "capabilities": 11,
+      "modalities": 18
     }
   },
   "huggingface": {
@@ -232,35 +232,35 @@
     "active": 251,
     "fields": {
       "pricing": 0,
-      "context_window": 0.896,
-      "release_date": 0.992,
-      "description": 0.486,
-      "capabilities": 1,
-      "modalities": 0.753
+      "context_window": 225,
+      "release_date": 249,
+      "description": 122,
+      "capabilities": 251,
+      "modalities": 189
     }
   },
   "inception": {
     "models": 5,
     "active": 5,
     "fields": {
-      "pricing": 1,
-      "context_window": 1,
-      "release_date": 0.8,
-      "description": 1,
-      "capabilities": 1,
-      "modalities": 1
+      "pricing": 5,
+      "context_window": 5,
+      "release_date": 4,
+      "description": 5,
+      "capabilities": 5,
+      "modalities": 5
     }
   },
   "jina": {
     "models": 25,
     "active": 25,
     "fields": {
-      "pricing": 1,
-      "context_window": 1,
-      "release_date": 1,
-      "description": 1,
+      "pricing": 25,
+      "context_window": 25,
+      "release_date": 25,
+      "description": 25,
       "capabilities": 0,
-      "modalities": 1
+      "modalities": 25
     }
   },
   "meta": {
@@ -268,35 +268,35 @@
     "active": 38,
     "fields": {
       "pricing": 0,
-      "context_window": 0.684,
-      "release_date": 1,
+      "context_window": 26,
+      "release_date": 38,
       "description": 0,
-      "capabilities": 1,
-      "modalities": 1
+      "capabilities": 38,
+      "modalities": 38
     }
   },
   "minimax": {
     "models": 9,
     "active": 9,
     "fields": {
-      "pricing": 1,
-      "context_window": 0.889,
+      "pricing": 9,
+      "context_window": 8,
       "release_date": 0,
-      "description": 0.889,
-      "capabilities": 1,
-      "modalities": 1
+      "description": 8,
+      "capabilities": 9,
+      "modalities": 9
     }
   },
   "mistral": {
     "models": 90,
     "active": 43,
     "fields": {
-      "pricing": 0.578,
-      "context_window": 0.867,
+      "pricing": 52,
+      "context_window": 78,
       "release_date": 0,
-      "description": 0.844,
-      "capabilities": 1,
-      "modalities": 1
+      "description": 76,
+      "capabilities": 90,
+      "modalities": 90
     }
   },
   "moonshot": {
@@ -304,11 +304,11 @@
     "active": 12,
     "fields": {
       "pricing": 0,
-      "context_window": 1,
+      "context_window": 12,
       "release_date": 0,
-      "description": 0.5,
-      "capabilities": 1,
-      "modalities": 1
+      "description": 6,
+      "capabilities": 12,
+      "modalities": 12
     }
   },
   "nebius": {
@@ -327,12 +327,12 @@
     "models": 149,
     "active": 149,
     "fields": {
-      "pricing": 0.913,
-      "context_window": 0.96,
-      "release_date": 1,
-      "description": 0.832,
-      "capabilities": 1,
-      "modalities": 1
+      "pricing": 136,
+      "context_window": 143,
+      "release_date": 149,
+      "description": 124,
+      "capabilities": 149,
+      "modalities": 149
     }
   },
   "nvidia": {
@@ -340,11 +340,11 @@
     "active": 215,
     "fields": {
       "pricing": 0,
-      "context_window": 0.149,
+      "context_window": 32,
       "release_date": 0,
-      "description": 0.088,
-      "capabilities": 1,
-      "modalities": 0.712
+      "description": 19,
+      "capabilities": 215,
+      "modalities": 153
     }
   },
   "ollama": {
@@ -352,47 +352,47 @@
     "active": 61,
     "fields": {
       "pricing": 0,
-      "context_window": 0.967,
-      "release_date": 0.623,
-      "description": 0.984,
-      "capabilities": 1,
-      "modalities": 0.984
+      "context_window": 59,
+      "release_date": 38,
+      "description": 60,
+      "capabilities": 61,
+      "modalities": 60
     }
   },
   "openai": {
     "models": 168,
     "active": 140,
     "fields": {
-      "pricing": 0.905,
-      "context_window": 0.768,
-      "release_date": 0.637,
-      "description": 0.857,
-      "capabilities": 0.821,
-      "modalities": 0.994
+      "pricing": 152,
+      "context_window": 129,
+      "release_date": 107,
+      "description": 144,
+      "capabilities": 138,
+      "modalities": 167
     }
   },
   "opencode": {
     "models": 71,
     "active": 61,
     "fields": {
-      "pricing": 0.676,
-      "context_window": 0.549,
+      "pricing": 48,
+      "context_window": 39,
       "release_date": 0,
-      "description": 0.408,
-      "capabilities": 1,
-      "modalities": 0.901
+      "description": 29,
+      "capabilities": 71,
+      "modalities": 64
     }
   },
   "openrouter": {
     "models": 521,
     "active": 449,
     "fields": {
-      "pricing": 0.883,
-      "context_window": 1,
-      "release_date": 0.994,
-      "description": 1,
-      "capabilities": 0.94,
-      "modalities": 1
+      "pricing": 460,
+      "context_window": 521,
+      "release_date": 518,
+      "description": 521,
+      "capabilities": 490,
+      "modalities": 521
     }
   },
   "parasail": {
@@ -411,24 +411,24 @@
     "models": 44,
     "active": 44,
     "fields": {
-      "pricing": 0.682,
-      "context_window": 0.795,
+      "pricing": 30,
+      "context_window": 35,
       "release_date": 0,
-      "description": 0.591,
-      "capabilities": 1,
-      "modalities": 1
+      "description": 26,
+      "capabilities": 44,
+      "modalities": 44
     }
   },
   "qwen": {
     "models": 214,
     "active": 214,
     "fields": {
-      "pricing": 0.131,
-      "context_window": 0.453,
+      "pricing": 28,
+      "context_window": 97,
       "release_date": 0,
-      "description": 0.407,
-      "capabilities": 1,
-      "modalities": 0.776
+      "description": 87,
+      "capabilities": 214,
+      "modalities": 166
     }
   },
   "recraft": {
@@ -437,22 +437,22 @@
     "fields": {
       "pricing": 0,
       "context_window": 0,
-      "release_date": 1,
-      "description": 1,
+      "release_date": 8,
+      "description": 8,
       "capabilities": 0,
-      "modalities": 1
+      "modalities": 8
     }
   },
   "reka": {
     "models": 6,
     "active": 6,
     "fields": {
-      "pricing": 0.833,
-      "context_window": 0.667,
-      "release_date": 0.333,
-      "description": 1,
-      "capabilities": 1,
-      "modalities": 1
+      "pricing": 5,
+      "context_window": 4,
+      "release_date": 2,
+      "description": 6,
+      "capabilities": 6,
+      "modalities": 6
     }
   },
   "replicate": {
@@ -460,23 +460,23 @@
     "active": 219,
     "fields": {
       "pricing": 0,
-      "context_window": 0.046,
+      "context_window": 10,
       "release_date": 0,
-      "description": 0.082,
-      "capabilities": 0.192,
-      "modalities": 0.461
+      "description": 18,
+      "capabilities": 42,
+      "modalities": 101
     }
   },
   "sambanova": {
     "models": 11,
     "active": 11,
     "fields": {
-      "pricing": 1,
-      "context_window": 1,
+      "pricing": 11,
+      "context_window": 11,
       "release_date": 0,
-      "description": 0.909,
-      "capabilities": 0.909,
-      "modalities": 1
+      "description": 10,
+      "capabilities": 10,
+      "modalities": 11
     }
   },
   "siliconflow": {
@@ -497,118 +497,118 @@
     "fields": {
       "pricing": 0,
       "context_window": 0,
-      "release_date": 1,
-      "description": 1,
-      "capabilities": 0.835,
-      "modalities": 0.771
+      "release_date": 109,
+      "description": 109,
+      "capabilities": 91,
+      "modalities": 84
     }
   },
   "stepfun": {
     "models": 25,
     "active": 25,
     "fields": {
-      "pricing": 0.48,
-      "context_window": 0.52,
+      "pricing": 12,
+      "context_window": 13,
       "release_date": 0,
-      "description": 1,
-      "capabilities": 0.6,
-      "modalities": 1
+      "description": 25,
+      "capabilities": 15,
+      "modalities": 25
     }
   },
   "together": {
     "models": 67,
     "active": 67,
     "fields": {
-      "pricing": 0.806,
-      "context_window": 0.582,
+      "pricing": 54,
+      "context_window": 39,
       "release_date": 0,
-      "description": 0.104,
-      "capabilities": 1,
-      "modalities": 0.567
+      "description": 7,
+      "capabilities": 67,
+      "modalities": 38
     }
   },
   "vercel": {
     "models": 355,
     "active": 355,
     "fields": {
-      "pricing": 1,
-      "context_window": 0.763,
+      "pricing": 355,
+      "context_window": 271,
       "release_date": 0,
-      "description": 0.341,
-      "capabilities": 1,
-      "modalities": 0.885
+      "description": 121,
+      "capabilities": 355,
+      "modalities": 314
     }
   },
   "vertex": {
     "models": 83,
     "active": 48,
     "fields": {
-      "pricing": 0.494,
-      "context_window": 0.578,
+      "pricing": 41,
+      "context_window": 48,
       "release_date": 0,
-      "description": 0.41,
-      "capabilities": 0.795,
-      "modalities": 1
+      "description": 34,
+      "capabilities": 66,
+      "modalities": 83
     }
   },
   "voyage": {
     "models": 32,
     "active": 32,
     "fields": {
-      "pricing": 0.969,
-      "context_window": 0.281,
+      "pricing": 31,
+      "context_window": 9,
       "release_date": 0,
       "description": 0,
       "capabilities": 0,
-      "modalities": 1
+      "modalities": 32
     }
   },
   "writer": {
     "models": 7,
     "active": 2,
     "fields": {
-      "pricing": 0.857,
-      "context_window": 1,
-      "release_date": 0.714,
-      "description": 1,
-      "capabilities": 1,
-      "modalities": 1
+      "pricing": 6,
+      "context_window": 7,
+      "release_date": 5,
+      "description": 7,
+      "capabilities": 7,
+      "modalities": 7
     }
   },
   "xai": {
     "models": 24,
     "active": 0,
     "fields": {
-      "pricing": 0.583,
-      "context_window": 0.75,
-      "release_date": 0.75,
-      "description": 0.292,
-      "capabilities": 1,
-      "modalities": 1
+      "pricing": 14,
+      "context_window": 18,
+      "release_date": 18,
+      "description": 7,
+      "capabilities": 24,
+      "modalities": 24
     }
   },
   "xiaomi": {
     "models": 10,
     "active": 8,
     "fields": {
-      "pricing": 0.3,
-      "context_window": 1,
-      "release_date": 0.4,
-      "description": 0.4,
-      "capabilities": 0.6,
-      "modalities": 1
+      "pricing": 3,
+      "context_window": 10,
+      "release_date": 4,
+      "description": 4,
+      "capabilities": 6,
+      "modalities": 10
     }
   },
   "zai": {
     "models": 32,
     "active": 32,
     "fields": {
-      "pricing": 0.5,
-      "context_window": 0.438,
+      "pricing": 16,
+      "context_window": 14,
       "release_date": 0,
-      "description": 0.906,
-      "capabilities": 0.563,
-      "modalities": 1
+      "description": 29,
+      "capabilities": 18,
+      "modalities": 32
     }
   }
 }

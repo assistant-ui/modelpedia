@@ -53,13 +53,47 @@ const GROUP_MAP: Record<string, string> = {
   nvidia: "nvidia",
 };
 
+/**
+ * A rate cell in the PRICING literal. Most are plain numbers, but a model with
+ * tiered pricing carries a `{low, high}` band and a cache rate can be a formula
+ * string like "inputx0.1". Typing these as numbers wrote both straight through
+ * and broke the generated data's types.
+ */
+type Rate = number | { low: number; high: number } | string;
+
 /** One entry of the PRICING literal the docs pricing widget reads. */
 interface EmbeddedModel {
   group: string | null;
   id: string;
-  input?: number;
-  output?: number;
-  cache?: number;
+  input?: Rate;
+  output?: Rate;
+  cache?: Rate;
+}
+
+function isBand(v: Rate | undefined): v is { low: number; high: number } {
+  return (
+    typeof v === "object" &&
+    v !== null &&
+    typeof v.low === "number" &&
+    typeof v.high === "number"
+  );
+}
+
+/** Headline rate: the number itself, or the bottom of a tiered band. */
+function baseRate(v: Rate | undefined): number | undefined {
+  if (typeof v === "number") return v;
+  if (isBand(v)) return v.low;
+  return undefined;
+}
+
+/** Cache rates are sometimes expressed as a multiple of the input rate. */
+function cacheRate(v: Rate | undefined, input?: number): number | undefined {
+  const direct = baseRate(v);
+  if (direct != null) return direct;
+  const factor =
+    typeof v === "string" ? v.match(/^input\s*x\s*([\d.]+)$/i) : null;
+  if (!factor || input == null) return undefined;
+  return Math.round(input * Number(factor[1]) * 1e6) / 1e6;
 }
 
 /**
@@ -158,13 +192,32 @@ async function main() {
   }
 
   const docsPricing = parseDocsPricing(docsMd);
+  const bands = new Map<string, string[]>();
   for (const e of embedded) {
-    if (docsPricing.has(e.id) || e.input == null || e.output == null) continue;
+    if (docsPricing.has(e.id)) continue;
+    const input = baseRate(e.input);
+    const output = baseRate(e.output);
+    if (input == null || output == null) continue;
+
+    const cached = cacheRate(e.cache, input);
     docsPricing.set(e.id, {
-      input: e.input,
-      output: e.output,
-      ...(e.cache != null ? { cached_input: e.cache } : {}),
+      input,
+      output,
+      ...(cached != null ? { cached_input: cached } : {}),
     });
+
+    // A tiered model's headline is the low end; keep the range visible.
+    const notes = [
+      isBand(e.input)
+        ? `Input ranges $${e.input.low} to $${e.input.high}`
+        : null,
+      isBand(e.output)
+        ? `output ranges $${e.output.low} to $${e.output.high}`
+        : null,
+    ].filter((n): n is string => n != null);
+    if (notes.length > 0) {
+      bands.set(e.id, [`${notes.join(", ")} per 1M tokens.`]);
+    }
   }
 
   console.log(
@@ -237,6 +290,7 @@ async function main() {
         output: p.output,
         ...(p.cached_input != null ? { cached_input: p.cached_input } : {}),
       },
+      ...(bands.has(id) ? { pricing_notes: bands.get(id) } : {}),
     });
   }
 
