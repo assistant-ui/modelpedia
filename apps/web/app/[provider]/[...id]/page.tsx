@@ -11,6 +11,10 @@ import { DetailsGrid } from "@/components/pages/model/id/fields";
 import { ModelDetailHeader } from "@/components/pages/model/id/header";
 import { OverviewGrid } from "@/components/pages/model/id/overview-grid";
 import { PricingSection } from "@/components/pages/model/id/pricing";
+import {
+  type ProviderPrice,
+  ProviderPricing,
+} from "@/components/pages/model/id/provider-pricing";
 import { SnapshotList } from "@/components/pages/model/id/snapshot-list";
 import { ApiEndpoint } from "@/components/shared/api-endpoint";
 import { Section } from "@/components/ui/section";
@@ -23,6 +27,7 @@ import {
 } from "@/lib/data";
 import { formatTokens } from "@/lib/format";
 import { parseIdSegments } from "@/lib/parse-id";
+import { priceDelta, resolvePriceHistory } from "@/lib/price-history";
 import { normalizeModelId } from "@/lib/search";
 
 export const revalidate = 3600;
@@ -150,6 +155,35 @@ export default async function ModelDetailPage({
         )
         .sort((a, b) => (a.pricing?.input ?? 0) - (b.pricing?.input ?? 0))
     : [];
+
+  const today = new Date().toISOString().slice(0, 10);
+  const priceHistory = resolvePriceHistory(provider, modelId, model.alias);
+
+  // Same model listed by other providers: prices diverge and the change log is
+  // recorded per listing, so a cut on one provider is invisible on the others.
+  const normalized = normalizeModelId(model.id);
+  const providerPrices: ProviderPrice[] = allModels
+    .filter(
+      (m) =>
+        m.created_by === model.created_by &&
+        normalizeModelId(m.id) === normalized &&
+        m.pricing?.input != null,
+    )
+    .map((m) => {
+      const info = getProvider(m.provider);
+      const points = resolvePriceHistory(m.provider, m.id, m.alias)?.points;
+      return {
+        provider: m.provider,
+        name: info?.name ?? m.provider,
+        icon: info?.icon,
+        id: m.id,
+        input: m.pricing?.input,
+        output: m.pricing?.output,
+        delta: points ? priceDelta(points, "input") : null,
+        isCurrent: m.provider === model.provider && m.id === model.id,
+      };
+    })
+    .sort((a, b) => (a.input ?? 0) - (b.input ?? 0));
 
   const jsonLd = [
     {
@@ -289,7 +323,16 @@ export default async function ModelDetailPage({
               | { input: number; output: number }
               | undefined
           }
+          history={priceHistory}
+          provider={provider}
+          today={today}
         />
+      )}
+
+      {providerPrices.length > 1 && (
+        <Section id="providers" title="Price across providers">
+          <ProviderPricing rows={providerPrices} />
+        </Section>
       )}
 
       {familyModels.length > 1 && (

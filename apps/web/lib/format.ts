@@ -18,6 +18,36 @@ export function formatDate(ts: string): string {
   });
 }
 
+/** Format a YYYY-MM-DD date, pinned to UTC so server and client agree */
+export function formatDay(date: string): string {
+  return new Date(`${date}T00:00:00Z`).toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+}
+
+/** Format a YYYY-MM-DD date as month and day, with the year only when asked */
+export function formatDayShort(date: string, withYear = false): string {
+  return new Date(`${date}T00:00:00Z`).toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    ...(withYear ? { year: "numeric" } : {}),
+    timeZone: "UTC",
+  });
+}
+
+/**
+ * Format a price keeping three decimals. Price history steps are often
+ * fractions of a cent apart, and the two-decimal `formatPrice` collapses
+ * consecutive steps into the same string.
+ */
+export function formatPriceExact(value: number | null | undefined): string {
+  if (value == null) return "—";
+  return `$${Math.round(value * 1000) / 1000}`;
+}
+
 /** Format unknown value for display in change diffs */
 export function formatValue(v: unknown): string {
   if (v == null) return "—";
