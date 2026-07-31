@@ -12,6 +12,13 @@ import { allModels, providers } from "../src/data.ts";
  * Aggregators carry `created_by`, so they are an independent witness. When one
  * lists a model attributed to a direct provider, and that provider's own
  * directory has nothing matching, the provider's scraper is behind.
+ *
+ * Matching is deliberately literal. An aggregator that renames a model past
+ * what `normalize` folds (deepinfra's `claude-4-opus` for anthropic's
+ * `claude-opus-4-0`) is reported as missing even though it is present. That is
+ * the safe direction to be wrong in: this is a review queue rather than a gate,
+ * and fuzzy matching bought at the cost of false negatives would hide the next
+ * genuinely missing model the way a `created_by` mismatch hid kimi-k3.
  */
 
 /** Aggregators with canonical `vendor/model` ids, refreshed daily. */
@@ -29,7 +36,9 @@ const WITNESSES = [
 
 /** Ids differ cosmetically across providers; compare on a reduced form. */
 function normalize(id: string): string {
-  let s = id.toLowerCase().trim();
+  // OpenRouter marks its floating alias entries with a leading tilde
+  // (`~anthropic/claude-opus-latest`).
+  let s = id.toLowerCase().trim().replace(/^~/, "");
   s = s.replace(/^(us|eu|apac|global)\./, "");
   // Bedrock revisions look like `vendor.model-v1:0`
   if (s.includes(":")) {
@@ -53,6 +62,9 @@ const SERVING_SUFFIXES = new Set([
   "online",
   "nitro",
   "turbo",
+  // A floating pointer to whatever is current, not a model of its own.
+  "latest",
+  "preview",
 ]);
 
 /**
@@ -66,6 +78,13 @@ const SERVING_SUFFIXES = new Set([
  * window and price to match is evidence rather than a naming guess.
  */
 function known(own: Map<string, ModelData>, candidate: ModelData): boolean {
+  // A floating pointer is never a model the first party is missing: it names
+  // whatever is current. OpenRouter marks these with a leading tilde, and the
+  // `-latest` convention says the same thing in the id itself. Their base
+  // ("claude-opus") is not a concrete model either, so base matching cannot
+  // resolve them.
+  if (/^~/.test(candidate.id) || /-latest$/.test(candidate.id)) return true;
+
   const n = normalize(candidate.id);
   if (own.has(n)) return true;
 
@@ -91,10 +110,29 @@ function known(own: Map<string, ModelData>, candidate: ModelData): boolean {
 
 interface Finding {
   provider: string;
-  ownNewest: string;
-  witnessNewest: string;
-  lagDays: number;
-  missing: { id: string; seenOn: string; released: string }[];
+  ownNewest?: string;
+  witnessNewest?: string;
+  lagDays?: number;
+  missing: { id: string; seenOn: string; released?: string }[];
+}
+
+/**
+ * Resolve a `created_by` value to a provider id.
+ *
+ * Creators are written inconsistently across sources: kimi models arrive as
+ * `moonshot`, `moonshotai` and `~moonshotai`, and GLM as `zai`, `z-ai` and
+ * `zhipu`. Matching on the raw string hid moonshot's missing kimi-k3 behind a
+ * name mismatch, so the provider's own `aliases` resolve it, with a normalised
+ * fallback for the spellings no alias list covers.
+ */
+function buildCreatorIndex(): Map<string, string> {
+  const index = new Map<string, string>();
+  const key = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+  for (const p of providers) {
+    index.set(key(p.id), p.id);
+    for (const alias of p.aliases ?? []) index.set(key(alias), p.id);
+  }
+  return index;
 }
 
 function main() {
@@ -105,52 +143,66 @@ function main() {
       new Map(p.models.map((m) => [normalize(m.id), m])),
     ]),
   );
+  const creatorIndex = buildCreatorIndex();
+  const creatorOf = (raw: string | undefined) =>
+    raw
+      ? creatorIndex.get(raw.toLowerCase().replace(/[^a-z0-9]/g, ""))
+      : undefined;
 
   const findings: Finding[] = [];
 
   for (const p of direct) {
-    const mine = p.models
+    const dates = p.models
       .map((m) => m.release_date)
       .filter((d): d is string => Boolean(d))
       .sort();
-    const ownNewest = mine[mine.length - 1];
-    // Without a dated catalog of our own there is nothing to compare against;
-    // release_date coverage is its own problem, reported separately.
-    if (!ownNewest) continue;
+    // May be undefined: 10 of 24 direct providers carry no release_date at all.
+    // Presence, not recency, decides whether a model is missing; dates only
+    // rank the report.
+    const ownNewest = dates[dates.length - 1];
 
     const seen = ownIds.get(p.id)!;
     const missing = allModels
       .filter(
         (m) =>
-          m.created_by === p.id &&
+          creatorOf(m.created_by) === p.id &&
           m.provider !== p.id &&
           WITNESSES.includes(m.provider) &&
-          m.release_date != null &&
-          m.release_date > ownNewest &&
+          (ownNewest == null ||
+            m.release_date == null ||
+            m.release_date > ownNewest) &&
           !known(seen, m),
       )
       .map((m) => ({
         id: m.id,
         seenOn: m.provider,
-        released: m.release_date as string,
+        released: m.release_date ?? undefined,
       }))
-      .sort((a, b) => b.released.localeCompare(a.released));
+      .sort((a, b) => (b.released ?? "").localeCompare(a.released ?? ""));
 
     if (missing.length === 0) continue;
 
-    const witnessNewest = missing[0].released;
+    const witnessNewest = missing.find((m) => m.released)?.released;
     findings.push({
       provider: p.id,
       ownNewest,
       witnessNewest,
-      lagDays: Math.round(
-        (Date.parse(witnessNewest) - Date.parse(ownNewest)) / 86_400_000,
-      ),
+      lagDays:
+        ownNewest && witnessNewest
+          ? Math.round(
+              (Date.parse(witnessNewest) - Date.parse(ownNewest)) / 86_400_000,
+            )
+          : undefined,
       missing: missing.slice(0, 5),
     });
   }
 
-  findings.sort((a, b) => b.lagDays - a.lagDays);
+  // Rank by lag where both sides are dated, then by how much is missing.
+  findings.sort(
+    (a, b) =>
+      (b.lagDays ?? -1) - (a.lagDays ?? -1) ||
+      b.missing.length - a.missing.length,
+  );
 
   if (findings.length === 0) {
     console.log("No first-party catalog is behind its aggregators.");
@@ -159,11 +211,13 @@ function main() {
 
   console.log(`${findings.length} provider(s) behind their aggregators:\n`);
   for (const f of findings) {
-    console.log(
-      `${f.provider}: own catalog stops at ${f.ownNewest}, aggregators list ${f.witnessNewest} (${f.lagDays} days behind)`,
-    );
+    const lag =
+      f.lagDays != null
+        ? `own catalog stops at ${f.ownNewest}, aggregators list ${f.witnessNewest} (${f.lagDays} days behind)`
+        : `${f.missing.length} model(s) aggregators attribute to it are absent from its own catalog`;
+    console.log(`${f.provider}: ${lag}`);
     for (const m of f.missing) {
-      console.log(`    ${m.released}  ${m.id}  [${m.seenOn}]`);
+      console.log(`    ${m.released ?? "undated"}  ${m.id}  [${m.seenOn}]`);
     }
     console.log();
   }
@@ -172,11 +226,11 @@ function main() {
     const lines = [
       `### ${findings.length} provider catalog(s) behind their aggregators`,
       "",
-      "| Provider | Own newest | Aggregators have | Days behind |",
-      "| --- | --- | --- | ---: |",
+      "| Provider | Own newest | Aggregators have | Days behind | Missing |",
+      "| --- | --- | --- | ---: | ---: |",
       ...findings.map(
         (f) =>
-          `| \`${f.provider}\` | ${f.ownNewest} | ${f.witnessNewest} | ${f.lagDays} |`,
+          `| \`${f.provider}\` | ${f.ownNewest ?? "undated"} | ${f.witnessNewest ?? "undated"} | ${f.lagDays ?? "n/a"} | ${f.missing.length} |`,
       ),
     ];
     require("node:fs").appendFileSync(
