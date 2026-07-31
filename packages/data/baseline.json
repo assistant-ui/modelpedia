@@ -1,6 +1,7 @@
 {
   "ai21": {
     "models": 2,
+    "active": 2,
     "fields": {
       "pricing": 1,
       "context_window": 1,
@@ -12,6 +13,7 @@
   },
   "alibaba": {
     "models": 176,
+    "active": 176,
     "fields": {
       "pricing": 0.159,
       "context_window": 0.551,
@@ -23,6 +25,7 @@
   },
   "amazon": {
     "models": 130,
+    "active": 130,
     "fields": {
       "pricing": 0,
       "context_window": 0.762,
@@ -34,6 +37,7 @@
   },
   "anthropic": {
     "models": 25,
+    "active": 14,
     "fields": {
       "pricing": 1,
       "context_window": 0.76,
@@ -45,6 +49,7 @@
   },
   "azure": {
     "models": 128,
+    "active": 128,
     "fields": {
       "pricing": 0,
       "context_window": 0.563,
@@ -56,6 +61,7 @@
   },
   "baseten": {
     "models": 56,
+    "active": 56,
     "fields": {
       "pricing": 0,
       "context_window": 0.089,
@@ -67,6 +73,7 @@
   },
   "black-forest-labs": {
     "models": 20,
+    "active": 18,
     "fields": {
       "pricing": 0,
       "context_window": 0,
@@ -78,6 +85,7 @@
   },
   "bytedance": {
     "models": 28,
+    "active": 28,
     "fields": {
       "pricing": 0,
       "context_window": 0,
@@ -89,6 +97,7 @@
   },
   "cerebras": {
     "models": 16,
+    "active": 4,
     "fields": {
       "pricing": 0.375,
       "context_window": 0.688,
@@ -100,6 +109,7 @@
   },
   "cloudflare-ai-gateway": {
     "models": 1831,
+    "active": 1831,
     "fields": {
       "pricing": 0.878,
       "context_window": 0.097,
@@ -111,6 +121,7 @@
   },
   "cloudflare-workers-ai": {
     "models": 100,
+    "active": 82,
     "fields": {
       "pricing": 0,
       "context_window": 0,
@@ -122,6 +133,7 @@
   },
   "cohere": {
     "models": 34,
+    "active": 32,
     "fields": {
       "pricing": 0.353,
       "context_window": 0.824,
@@ -133,6 +145,7 @@
   },
   "cursor": {
     "models": 34,
+    "active": 34,
     "fields": {
       "pricing": 1,
       "context_window": 0.941,
@@ -144,6 +157,7 @@
   },
   "deepinfra": {
     "models": 251,
+    "active": 251,
     "fields": {
       "pricing": 0.47,
       "context_window": 0.474,
@@ -155,6 +169,7 @@
   },
   "deepseek": {
     "models": 26,
+    "active": 8,
     "fields": {
       "pricing": 0.385,
       "context_window": 0.385,
@@ -166,6 +181,7 @@
   },
   "fal": {
     "models": 1543,
+    "active": 1543,
     "fields": {
       "pricing": 0,
       "context_window": 0.001,
@@ -177,6 +193,7 @@
   },
   "fireworks": {
     "models": 325,
+    "active": 325,
     "fields": {
       "pricing": 1,
       "context_window": 0.926,
@@ -188,6 +205,7 @@
   },
   "google": {
     "models": 77,
+    "active": 42,
     "fields": {
       "pricing": 0.325,
       "context_window": 0.584,
@@ -199,6 +217,7 @@
   },
   "groq": {
     "models": 18,
+    "active": 14,
     "fields": {
       "pricing": 0.611,
       "context_window": 0.889,
@@ -210,6 +229,7 @@
   },
   "huggingface": {
     "models": 251,
+    "active": 251,
     "fields": {
       "pricing": 0,
       "context_window": 0.896,
@@ -221,6 +241,7 @@
   },
   "inception": {
     "models": 5,
+    "active": 5,
     "fields": {
       "pricing": 1,
       "context_window": 1,
@@ -232,6 +253,7 @@
   },
   "jina": {
     "models": 25,
+    "active": 25,
     "fields": {
       "pricing": 1,
       "context_window": 1,
@@ -243,6 +265,7 @@
   },
   "meta": {
     "models": 38,
+    "active": 38,
     "fields": {
       "pricing": 0,
       "context_window": 0.684,
@@ -254,6 +277,7 @@
   },
   "minimax": {
     "models": 9,
+    "active": 9,
     "fields": {
       "pricing": 1,
       "context_window": 0.889,
@@ -265,6 +289,7 @@
   },
   "mistral": {
     "models": 90,
+    "active": 43,
     "fields": {
       "pricing": 0.578,
       "context_window": 0.867,
@@ -276,6 +301,7 @@
   },
   "moonshot": {
     "models": 12,
+    "active": 12,
     "fields": {
       "pricing": 0,
       "context_window": 1,
@@ -287,6 +313,7 @@
   },
   "nebius": {
     "models": 0,
+    "active": 0,
     "fields": {
       "pricing": 0,
       "context_window": 0,
@@ -298,6 +325,7 @@
   },
   "novita": {
     "models": 149,
+    "active": 149,
     "fields": {
       "pricing": 0.913,
       "context_window": 0.96,
@@ -309,6 +337,7 @@
   },
   "nvidia": {
     "models": 215,
+    "active": 215,
     "fields": {
       "pricing": 0,
       "context_window": 0.149,
@@ -320,6 +349,7 @@
   },
   "ollama": {
     "models": 61,
+    "active": 61,
     "fields": {
       "pricing": 0,
       "context_window": 0.967,
@@ -331,6 +361,7 @@
   },
   "openai": {
     "models": 168,
+    "active": 140,
     "fields": {
       "pricing": 0.905,
       "context_window": 0.768,
@@ -342,6 +373,7 @@
   },
   "opencode": {
     "models": 71,
+    "active": 61,
     "fields": {
       "pricing": 0.676,
       "context_window": 0.549,
@@ -353,6 +385,7 @@
   },
   "openrouter": {
     "models": 521,
+    "active": 449,
     "fields": {
       "pricing": 0.883,
       "context_window": 1,
@@ -364,6 +397,7 @@
   },
   "parasail": {
     "models": 0,
+    "active": 0,
     "fields": {
       "pricing": 0,
       "context_window": 0,
@@ -375,6 +409,7 @@
   },
   "perplexity": {
     "models": 44,
+    "active": 44,
     "fields": {
       "pricing": 0.682,
       "context_window": 0.795,
@@ -386,6 +421,7 @@
   },
   "qwen": {
     "models": 214,
+    "active": 214,
     "fields": {
       "pricing": 0.131,
       "context_window": 0.453,
@@ -397,6 +433,7 @@
   },
   "recraft": {
     "models": 8,
+    "active": 8,
     "fields": {
       "pricing": 0,
       "context_window": 0,
@@ -408,6 +445,7 @@
   },
   "reka": {
     "models": 6,
+    "active": 6,
     "fields": {
       "pricing": 0.833,
       "context_window": 0.667,
@@ -419,6 +457,7 @@
   },
   "replicate": {
     "models": 219,
+    "active": 219,
     "fields": {
       "pricing": 0,
       "context_window": 0.046,
@@ -430,6 +469,7 @@
   },
   "sambanova": {
     "models": 11,
+    "active": 11,
     "fields": {
       "pricing": 1,
       "context_window": 1,
@@ -441,6 +481,7 @@
   },
   "siliconflow": {
     "models": 0,
+    "active": 0,
     "fields": {
       "pricing": 0,
       "context_window": 0,
@@ -452,6 +493,7 @@
   },
   "stability": {
     "models": 109,
+    "active": 109,
     "fields": {
       "pricing": 0,
       "context_window": 0,
@@ -463,6 +505,7 @@
   },
   "stepfun": {
     "models": 25,
+    "active": 25,
     "fields": {
       "pricing": 0.48,
       "context_window": 0.52,
@@ -474,6 +517,7 @@
   },
   "together": {
     "models": 67,
+    "active": 67,
     "fields": {
       "pricing": 0.806,
       "context_window": 0.582,
@@ -485,6 +529,7 @@
   },
   "vercel": {
     "models": 355,
+    "active": 355,
     "fields": {
       "pricing": 1,
       "context_window": 0.763,
@@ -496,6 +541,7 @@
   },
   "vertex": {
     "models": 83,
+    "active": 48,
     "fields": {
       "pricing": 0.494,
       "context_window": 0.578,
@@ -507,6 +553,7 @@
   },
   "voyage": {
     "models": 32,
+    "active": 32,
     "fields": {
       "pricing": 0.969,
       "context_window": 0.281,
@@ -518,6 +565,7 @@
   },
   "writer": {
     "models": 7,
+    "active": 2,
     "fields": {
       "pricing": 0.857,
       "context_window": 1,
@@ -529,6 +577,7 @@
   },
   "xai": {
     "models": 24,
+    "active": 0,
     "fields": {
       "pricing": 0.583,
       "context_window": 0.75,
@@ -540,6 +589,7 @@
   },
   "xiaomi": {
     "models": 10,
+    "active": 8,
     "fields": {
       "pricing": 0.3,
       "context_window": 1,
@@ -551,6 +601,7 @@
   },
   "zai": {
     "models": 32,
+    "active": 32,
     "fields": {
       "pricing": 0.5,
       "context_window": 0.438,

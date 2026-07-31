@@ -33,6 +33,7 @@ const TOLERANCE = 0.1;
 
 interface Snapshot {
   models: number;
+  active: number;
   fields: Record<string, number>;
 }
 
@@ -40,6 +41,10 @@ function snapshot(): Record<string, Snapshot> {
   const out: Record<string, Snapshot> = {};
   for (const p of providers) {
     const n = p.models.length;
+    // Tracked separately from the total because retiring a model does not
+    // delete its file: a wrongful mass deprecation leaves `models` unchanged
+    // and would slip past a total-only ratchet.
+    const active = p.models.filter((m) => m.status !== "deprecated").length;
     const fields: Record<string, number> = {};
     for (const field of TRACKED) {
       const have = p.models.filter(
@@ -47,7 +52,7 @@ function snapshot(): Record<string, Snapshot> {
       ).length;
       fields[field] = n > 0 ? Math.round((have / n) * 1000) / 1000 : 0;
     }
-    out[p.id] = { models: n, fields };
+    out[p.id] = { models: n, active, fields };
   }
   return out;
 }
@@ -95,6 +100,16 @@ function main() {
           `${id}: ${was.models} → ${now.models} models (${Math.round(drop * 100)}% drop)`,
         );
       }
+    }
+
+    // Retiring a model keeps its file, so a wrongful mass deprecation moves
+    // only this number. Reported rather than failed: the sweep landing on a
+    // catalog that never retired anything legitimately retires a lot at once,
+    // and a wave of real delistings must not read as a broken build.
+    if (was.active && was.active - now.active > was.active * TOLERANCE) {
+      notes.push(
+        `${id}: active models ${was.active} → ${now.active} (${was.active - now.active} retired)`,
+      );
     }
 
     for (const field of TRACKED) {
