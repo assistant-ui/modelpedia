@@ -1,7 +1,7 @@
 {
   "id": "perplexity/glm-5.2",
   "name": "perplexity/glm-5.2",
-  "created_by": "perplexity",
+  "created_by": "zai",
   "source": "official",
   "family": "glm-5.2",
   "license": "proprietary",
@@ -21,7 +21,13 @@
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "open_weight": "68934a3e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "fbb9d87e"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-31",
+  "pricing": {
+    "input": 1.4,
+    "output": 4.4,
+    "cached_input": 0.26
+  }
 }

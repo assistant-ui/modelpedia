@@ -3,7 +3,7 @@
   "name": "StepAudio 2.5 TTS",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-31",
   "family": "stepaudio",
   "description": "Contextual text-to-speech with zero-shot voice cloning from 3 seconds of audio. Dual-layer prosody and emotion control.",
   "status": "active",
@@ -15,5 +15,19 @@
     "output": ["audio"]
   },
   "endpoints": ["audio_speech"],
-  "pricing_notes": ["0.85 USD per 10k characters (USD listed in english docs)."]
+  "pricing_notes": ["5.8 元/万字符 (CNY)."],
+  "tagline": "Contextual text-to-speech with zero-shot voice cloning from 3 seconds of audio.",
+  "_generated": {
+    "name": "c991fe6c",
+    "family": "c34b016b",
+    "description": "b5d76bcf",
+    "status": "379ac110",
+    "model_type": "4e16a2cf",
+    "license": "9186c466",
+    "open_weight": "b326b506",
+    "modalities": "ff1356fe",
+    "endpoints": "0d745ead",
+    "pricing_notes": "0989f72b",
+    "tagline": "d1b43fb8"
+  }
 }

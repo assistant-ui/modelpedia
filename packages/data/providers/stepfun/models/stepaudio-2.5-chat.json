@@ -1,0 +1,20 @@
+{
+  "id": "stepaudio-2.5-chat",
+  "name": "stepaudio-2.5-chat",
+  "created_by": "stepfun",
+  "source": "official",
+  "license": "proprietary",
+  "pricing": {
+    "input": 1.389,
+    "cached_input": 0.278,
+    "output": 3.472
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "2a6b46fa",
+    "license": "9186c466",
+    "pricing": "2d9bb8b1",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-07-31"
+}

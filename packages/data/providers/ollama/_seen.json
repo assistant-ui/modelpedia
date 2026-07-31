@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-31",
+  "count": 24,
+  "ids": [
+    "deepseek-v4-flash",
+    "deepseek-v4-pro",
+    "gemma4",
+    "glm-5.1",
+    "glm-5.2",
+    "glm-ocr",
+    "gpt-oss",
+    "granite4.1",
+    "kimi-k2.6",
+    "kimi-k2.7-code",
+    "kimi-k3",
+    "laguna-s-2.1",
+    "laguna-xs-2.1",
+    "lfm2",
+    "minimax-m2.7",
+    "minimax-m3",
+    "mistral-large-3",
+    "nemotron-3-nano",
+    "nemotron-3-super",
+    "nemotron-3-ultra",
+    "nemotron3",
+    "ornith",
+    "qwen3.5",
+    "qwen3.6"
+  ]
+}

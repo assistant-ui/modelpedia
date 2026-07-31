@@ -3,20 +3,21 @@
   "name": "google/gemini-3-flash-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-07-31",
   "family": "gemini-3",
   "capabilities": {
     "streaming": true
   },
   "pricing": {
     "input": 0.5,
-    "output": 3
+    "output": 3,
+    "cached_input": 0.05
   },
   "_generated": {
     "name": "1f7c06ab",
     "family": "eb14e598",
     "capabilities": "0fa77dc6",
-    "pricing": "ad477c96",
+    "pricing": "a1f79f3d",
     "model_type": "d669f408",
     "license": "9186c466",
     "open_weight": "68934a3e",

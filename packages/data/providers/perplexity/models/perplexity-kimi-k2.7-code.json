@@ -1,7 +1,7 @@
 {
   "id": "perplexity/kimi-k2.7-code",
   "name": "perplexity/kimi-k2.7-code",
-  "created_by": "perplexity",
+  "created_by": "moonshot",
   "source": "official",
   "family": "kimi-k2.7",
   "license": "proprietary",
@@ -21,7 +21,13 @@
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "open_weight": "68934a3e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "68dcb9a6"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-07-31",
+  "pricing": {
+    "input": 0.95,
+    "output": 4,
+    "cached_input": 0.19
+  }
 }

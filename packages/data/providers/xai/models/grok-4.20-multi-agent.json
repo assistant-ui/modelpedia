@@ -1,0 +1,40 @@
+{
+  "id": "grok-4.20-multi-agent",
+  "name": "grok-4.20-multi-agent",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4.20",
+  "status": "active",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://docs.x.ai/developers/models",
+  "pricing": {
+    "input": 1.25,
+    "output": 2.5,
+    "cached_input": 0.2
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing_notes": [
+    "Base rate applies < 200k prompt tokens.",
+    "≥ 200k prompt tokens: $2.5 input / $5 output per 1M tokens."
+  ],
+  "_generated": {
+    "name": "f2de0532",
+    "family": "44972aca",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "053acbe7",
+    "pricing": "64e647aa",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93",
+    "pricing_notes": "f6a14059"
+  },
+  "last_updated": "2026-07-31"
+}

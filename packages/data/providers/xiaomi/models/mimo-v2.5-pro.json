@@ -5,9 +5,9 @@
   "source": "official",
   "family": "mimo",
   "status": "active",
-  "context_window": 1000000,
-  "max_output_tokens": 128000,
-  "model_type": "reasoning",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
   "reasoning_tokens": true,
   "page_url": "https://platform.xiaomimimo.com",
   "capabilities": {
@@ -15,10 +15,12 @@
     "reasoning": true,
     "tool_call": true,
     "structured_output": true,
-    "json_mode": true
+    "json_mode": true,
+    "prompt_caching": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "tools": ["function_calling"],
@@ -26,14 +28,26 @@
     "name": "bb26ee09",
     "family": "1a23786e",
     "status": "379ac110",
-    "context_window": "8155bc54",
-    "max_output_tokens": "34434798",
-    "model_type": "17475f7f",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
     "reasoning_tokens": "b326b506",
     "page_url": "af488f1e",
-    "capabilities": "25ced75a",
-    "modalities": "68e53d93",
-    "tools": "f0c1dc7e"
+    "capabilities": "98292f67",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e",
+    "description": "2329b058",
+    "release_date": "c48b287d",
+    "tagline": "cbeab820",
+    "pricing": "d353cb25"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-07-31",
+  "description": "MiMo-V2.5-Pro is the latest flagship model released by Xiaomi. Compared to its predecessor, it delivers significant improvements in general agentic capabilities, complex software engineering, and long-horizon tasks, ranking top on benchmarks such as ClawEval, GDPVal, and SWE-bench Pro. It can independently and fully autonomously complete professional tasks that would take human experts days or even weeks, involving more than a thousand tool calls. Its context length of up to 1M makes it ideally suited for integration with various agent frameworks.",
+  "release_date": "2026-04-22",
+  "tagline": "MiMo-V2.5-Pro is the latest flagship model released by Xiaomi.",
+  "pricing": {
+    "input": 0.435,
+    "output": 0.87,
+    "cached_input": 0.0036
+  }
 }

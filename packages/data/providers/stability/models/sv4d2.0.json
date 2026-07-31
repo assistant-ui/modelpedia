@@ -11,7 +11,7 @@
   "page_url": "https://huggingface.co/stabilityai/sv4d2.0",
   "open_weight": true,
   "tagline": "Sv4d2.0 is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "huggingface_downloads": 1976,
+  "huggingface_downloads": 1921,
   "last_modified": "2025-04-04",
   "_generated": {
     "name": "d0c1bc18",
@@ -23,7 +23,7 @@
     "page_url": "4ab2b734",
     "open_weight": "b326b506",
     "tagline": "d94dcc71",
-    "huggingface_downloads": "dd055f53",
+    "huggingface_downloads": "9f699296",
     "last_modified": "ba6f7b94"
   },
   "last_updated": "2026-07-31"

@@ -58328,7 +58328,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude 4.5 Opus",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-07-31",
         "family": "claude-opus",
         "capabilities": {
           "streaming": true,
@@ -58360,7 +58360,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "page_url": "https://cursor.com/docs/models-and-pricing#claude-opus-4-5",
         "pricing_notes": [
-          "Hidden by default; Requires Max Mode on request-based plans"
+          "Hidden by default; Requires Max Mode on legacy request-based plans"
         ]
       },
       {
@@ -58368,7 +58368,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude 4.5 Sonnet",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-07-31",
         "family": "claude-sonnet",
         "capabilities": {
           "streaming": true,
@@ -58401,7 +58401,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "page_url": "https://cursor.com/docs/models-and-pricing#claude-4-5-sonnet",
         "pricing_notes": [
-          "Hidden by default; Requires Max Mode on request-based plans; The cost is 2x when the input exceeds 200k tokens"
+          "Hidden by default; Requires Max Mode on legacy request-based plans; Up to 1M tokens with extended context at the same per-token rates (no long-context surcharge)"
         ]
       },
       {
@@ -58450,7 +58450,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude 4.6 Opus",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-07-31",
         "family": "claude-opus",
         "capabilities": {
           "streaming": true,
@@ -58483,7 +58483,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "page_url": "https://cursor.com/docs/models-and-pricing#claude-opus-4-6",
         "pricing_notes": [
-          "Hidden by default; Requires Max Mode on request-based plans; Up to 1M tokens in Max Mode at the same per-token rates (no long-context surcharge)"
+          "Hidden by default; Requires Max Mode on legacy request-based plans; Up to 1M tokens with extended context at the same per-token rates (no long-context surcharge)"
         ]
       },
       {
@@ -58491,7 +58491,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude 4.6 Sonnet",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-07-31",
         "family": "claude-sonnet",
         "capabilities": {
           "streaming": true,
@@ -58524,7 +58524,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "page_url": "https://cursor.com/docs/models-and-pricing#claude-4-6-sonnet",
         "pricing_notes": [
-          "Requires Max Mode on request-based plans; The cost is 2x when the input exceeds 200k tokens"
+          "Hidden by default; Requires Max Mode on legacy request-based plans; Up to 1M tokens with extended context at the same per-token rates (no long-context surcharge)"
         ]
       },
       {
@@ -58533,7 +58533,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "anthropic",
         "source": "official",
         "family": "claude-opus",
-        "context_window": 200000,
+        "context_window": 300000,
         "max_context_window": 1000000,
         "performance": 5,
         "speed": 3,
@@ -58561,12 +58561,231 @@ export const providers: ProviderWithModels[] = [
           "cached_input": 0.5
         },
         "pricing_notes": [
-          "Requires Max Mode on request-based plans; Up to 1M tokens in Max Mode at the same per-token rates (no long-context surcharge)"
+          "Hidden by default; Requires Max Mode on legacy request-based plans; Up to 1M tokens with extended context at the same per-token rates (no long-context surcharge)"
         ],
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-26"
+        "last_updated": "2026-07-31"
+      },
+      {
+        "id": "claude-fable-5",
+        "name": "Claude Fable 5",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-fable",
+        "context_window": 300000,
+        "max_context_window": 1000000,
+        "performance": 5,
+        "speed": 3,
+        "page_url": "https://cursor.com/docs/models-and-pricing#claude-fable-5",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true,
+          "batch": true,
+          "structured_output": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 10,
+          "output": 50,
+          "cache_write": 12.5,
+          "cached_input": 1
+        },
+        "pricing_notes": [
+          "Requires data retention approval for Enterprise customers, Teams and individual customers with Privacy Mode enabled; Anthropic stores agent input and output data for harm-prevention processes; this data is not used to train or improve Anthropic models or products; Requests that trip a security guardrail are automatically routed to Claude Opus; About 2x the cost of Claude Opus 5; Requires Max Mode on legacy request-based plans"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31",
+        "description": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
+        "tagline": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
+        "max_output_tokens": 128000,
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "claude-opus-4.7-fast",
+        "name": "Claude Opus 4.7 (fast mode)",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 5,
+        "speed": 4,
+        "page_url": "https://cursor.com/docs/models-and-pricing#claude-opus-4-7-fast",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 30,
+          "output": 150,
+          "cache_write": 37.5,
+          "cached_input": 3
+        },
+        "pricing_notes": [
+          "Hidden by default; Requires Max Mode on legacy request-based plans; Limited research preview; Up to 1M tokens with extended context at the same per-token rates as shorter context"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31"
+      },
+      {
+        "id": "claude-opus-4.8",
+        "name": "Claude Opus 4.8",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "context_window": 300000,
+        "max_context_window": 1000000,
+        "performance": 5,
+        "speed": 3,
+        "page_url": "https://cursor.com/docs/models-and-pricing#claude-opus-4-8",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cache_write": 6.25,
+          "cached_input": 0.5
+        },
+        "pricing_notes": [
+          "Hidden by default; Requires Max Mode on legacy request-based plans; Fast mode (\\`claude-opus-4-8-fast\\`) requires Max Mode on legacy request-based plans; Fast mode is 3x lower per-token pricing than Opus 4.7 fast mode; Up to 1M tokens with extended context at the same per-token rates (no long-context surcharge)"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31"
+      },
+      {
+        "id": "claude-opus-5",
+        "name": "Claude Opus 5",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-opus",
+        "context_window": 300000,
+        "max_context_window": 1000000,
+        "performance": 5,
+        "speed": 3,
+        "page_url": "https://cursor.com/docs/models-and-pricing#claude-opus-5",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cache_write": 6.25,
+          "cached_input": 0.5
+        },
+        "pricing_notes": [
+          "Requires Max Mode on legacy request-based plans; Fast mode (\\`claude-opus-5-fast\\`) requires Max Mode on legacy request-based plans; Up to 1M tokens with extended context at the same per-token rates (no long-context surcharge)"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "claude-sonnet-5",
+        "name": "Claude Sonnet 5",
+        "created_by": "anthropic",
+        "source": "official",
+        "family": "claude-sonnet",
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 5,
+        "speed": 3,
+        "page_url": "https://cursor.com/docs/models-and-pricing#claude-sonnet-5",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cache_write": 3.75,
+          "cached_input": 0.3
+        },
+        "pricing_notes": [
+          "Launch promotion: $2/M input and $10/M output through August 31, 2026; Requires Max Mode on legacy request-based plans; Up to 1M tokens with extended context at the same per-token rates (no long-context surcharge); Uses an updated tokenizer, so the same input can map to more tokens"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "composer-1.5",
@@ -58891,6 +59110,137 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "page_url": "https://cursor.com/docs/models-and-pricing#gemini-3-1-pro"
+      },
+      {
+        "id": "gemini-3.5-flash",
+        "name": "Gemini 3.5 Flash",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3.5",
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 4,
+        "speed": 4,
+        "page_url": "https://cursor.com/docs/models-and-pricing#gemini-3-5-flash",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true,
+          "structured_output": true,
+          "batch": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 9,
+          "cached_input": 0.15
+        },
+        "pricing_notes": [
+          "Hidden by default"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31",
+        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.5 Flash Gemini 3.5 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at sub-agent deployment, multi-step workflows, and long-horizon tasks at scale. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
+        "tagline": "The Interactions API is now generally available.",
+        "max_output_tokens": 65536,
+        "knowledge_cutoff": "2025-01",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "gemini-3.6-flash",
+        "name": "Gemini 3.6 Flash",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3.6",
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 4,
+        "speed": 4,
+        "page_url": "https://cursor.com/docs/models-and-pricing#gemini-3-6-flash",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true,
+          "structured_output": true,
+          "batch": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 7.5,
+          "cached_input": 0.15
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31",
+        "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.6 Flash Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
+        "tagline": "The Interactions API is now generally available.",
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "glm-5.2",
+        "name": "GLM 5.2",
+        "created_by": "z.ai",
+        "source": "official",
+        "family": "glm-5.2",
+        "context_window": 200000,
+        "performance": 4,
+        "speed": 3,
+        "page_url": "https://cursor.com/docs/models-and-pricing#glm-5-2",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cached_input": 0.26
+        },
+        "pricing_notes": [
+          "Hidden by default"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31"
       },
       {
         "id": "gpt-5-codex",
@@ -59277,7 +59627,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.3 Codex",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-07-31",
         "family": "gpt-5.3",
         "capabilities": {
           "streaming": true,
@@ -59311,7 +59661,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "page_url": "https://cursor.com/docs/models-and-pricing#gpt-5-3-codex",
         "pricing_notes": [
-          "Requires Max Mode on request-based plans; Agentic and reasoning capabilities; Available reasoning effort variant is gpt-5.3-codex-high"
+          "Hidden by default; Requires Max Mode on legacy request-based plans; Agentic and reasoning capabilities; Available reasoning effort variant is gpt-5.3-codex-high"
         ],
         "description": "GPT-5.3-Codex is optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.\\nGPT-5.3-Codex supports `low`, `medium`, `high`, and `xhigh` reasoning effort settings.\\nIf you want to learn more about prompting GPT-5.3-Codex, refer to our [dedicated guide](/cookbook/examples/gpt-5/codex_prompting_guide).\\n",
         "tagline": "The most capable agentic coding model to date.",
@@ -59426,7 +59776,7 @@ export const providers: ProviderWithModels[] = [
         "name": "GPT-5.4",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-07-31",
         "family": "gpt-5.4",
         "capabilities": {
           "streaming": true,
@@ -59462,7 +59812,7 @@ export const providers: ProviderWithModels[] = [
         ],
         "page_url": "https://cursor.com/docs/models-and-pricing#gpt-5-4",
         "pricing_notes": [
-          "Hidden by default; Requires Max Mode on request-based plans; Agentic and reasoning capabilities; 90% discount on cached input tokens; Fast mode is 15% faster with 2x pricing; Long context (Max Mode) supports up to 1M tokens with 2x input pricing"
+          "Hidden by default; Requires Max Mode on legacy request-based plans; Agentic and reasoning capabilities; 90% discount on cached input tokens; Fast mode is 15% faster with 2x pricing; Long context supports up to 1M tokens with 2x input pricing"
         ],
         "description": "GPT-5.4 is our frontier model for complex professional work.",
         "tagline": "A more affordable model for coding and professional work.",
@@ -59508,16 +59858,164 @@ export const providers: ProviderWithModels[] = [
           "cached_input": 0.5
         },
         "pricing_notes": [
-          "Requires Max Mode on request-based plans; Agentic and reasoning capabilities; More token-efficient than GPT-5.4 on comparable tasks; Improved persistence on long-running tasks; Fast mode is available at higher rates; Long context (Max Mode) supports up to 1M tokens with 2x input pricing"
+          "Hidden by default; Requires Max Mode on legacy request-based plans; Agentic and reasoning capabilities; More token-efficient than GPT-5.4 on comparable tasks; Improved persistence on long-running tasks; Fast mode is available at higher rates; Long context supports up to 1M tokens with 2x input pricing"
         ],
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-07-31",
         "description": "GPT-5.5 is our newest frontier model for the most complex professional work.",
         "tagline": "A new class of intelligence for coding and professional work.",
         "max_output_tokens": 128000,
         "knowledge_cutoff": "2025-12",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "gpt-5.6-luna",
+        "name": "GPT-5.6 Luna",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.6",
+        "context_window": 272000,
+        "performance": 3,
+        "speed": 4,
+        "page_url": "https://cursor.com/docs/models-and-pricing#gpt-5-6-luna",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 1.2,
+          "cache_write": 0.25,
+          "cached_input": 0.02
+        },
+        "pricing_notes": [
+          "Smallest GPT-5.6 variant, optimized for cost and speed; Agentic and reasoning capabilities; Fast mode is available at 2x pricing; Cache writes are billed at 1.25x the uncached input rate"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31",
+        "max_output_tokens": 128000,
+        "max_input_tokens": 922000,
+        "knowledge_cutoff": "2026-02",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "gpt-5.6-sol",
+        "name": "GPT-5.6 Sol",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.6",
+        "context_window": 272000,
+        "max_context_window": 1000000,
+        "performance": 5,
+        "speed": 3,
+        "page_url": "https://cursor.com/docs/models-and-pricing#gpt-5-6-sol",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cache_write": 6.25,
+          "cached_input": 0.5
+        },
+        "pricing_notes": [
+          "Requires Max Mode on legacy request-based plans; Agentic and reasoning capabilities; Fast mode is available at 2x pricing; Long context supports up to 1M tokens with 2x input pricing; Cache writes are billed at 1.25x the uncached input rate"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31",
+        "max_output_tokens": 128000,
+        "max_input_tokens": 922000,
+        "knowledge_cutoff": "2026-02",
+        "license": "proprietary",
+        "open_weight": false
+      },
+      {
+        "id": "gpt-5.6-terra",
+        "name": "GPT-5.6 Terra",
+        "created_by": "openai",
+        "source": "official",
+        "family": "gpt-5.6",
+        "context_window": 272000,
+        "performance": 4,
+        "speed": 4,
+        "page_url": "https://cursor.com/docs/models-and-pricing#gpt-5-6-terra",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true,
+          "fine_tuning": false,
+          "batch": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 2,
+          "output": 12,
+          "cache_write": 2.5,
+          "cached_input": 0.2
+        },
+        "pricing_notes": [
+          "Mid-tier GPT-5.6 variant between Sol and Luna; Agentic and reasoning capabilities; Fast mode is available at 2x pricing; Cache writes are billed at 1.25x the uncached input rate"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31",
+        "max_output_tokens": 128000,
+        "max_input_tokens": 922000,
+        "knowledge_cutoff": "2026-02",
         "license": "proprietary",
         "open_weight": false
       },
@@ -59607,7 +60105,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://cursor.com/docs/models-and-pricing#grok-4-20",
         "pricing_notes": [
           "The cost is 2x when the input exceeds 200k tokens"
-        ]
+        ],
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "kimi-k2.5",
@@ -59653,6 +60153,85 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 32768,
         "license": "mit",
         "open_weight": true
+      },
+      {
+        "id": "kimi-k2.7-code",
+        "name": "Kimi K2.7 Code",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "kimi-k2.7",
+        "context_window": 262000,
+        "performance": 4,
+        "speed": 3,
+        "page_url": "https://cursor.com/docs/models-and-pricing#kimi-k2-7-code",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.95,
+          "output": 4,
+          "cached_input": 0.19
+        },
+        "pricing_notes": [
+          "Hidden by default"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31"
+      },
+      {
+        "id": "kimi-k3",
+        "name": "Kimi K3",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "kimi-k3",
+        "context_window": 200000,
+        "max_context_window": 1000000,
+        "performance": 4,
+        "speed": 3,
+        "page_url": "https://cursor.com/docs/models-and-pricing#kimi-k3",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "vision": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.3
+        },
+        "pricing_notes": [
+          "Hidden by default; Requires Max Mode on legacy request-based plans; Up to 1M tokens with extended context at the same per-token rates (no long-context surcharge); No separate cache-write fee"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31"
       }
     ]
   },
@@ -104425,6 +105004,90 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-06-29"
       },
       {
+        "id": "minimax/h3/image-to-video",
+        "name": "MiniMax H3 Image to Video",
+        "created_by": "minimax",
+        "source": "official",
+        "description": "MiniMax H3 is a frontier video model.",
+        "status": "active",
+        "release_date": "2026-07-31",
+        "model_type": "video",
+        "page_url": "https://fal.run/minimax/h3/image-to-video",
+        "tagline": "MiniMax H3 is a frontier video model.",
+        "capabilities": {
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "last_seen_at": "2026-07-31",
+        "last_updated": "2026-07-31"
+      },
+      {
+        "id": "minimax/h3/reference-to-video",
+        "name": "MiniMax H3 Reference to Video",
+        "created_by": "minimax",
+        "source": "official",
+        "description": "MiniMax H3 is a frontier video model.",
+        "status": "active",
+        "release_date": "2026-07-31",
+        "model_type": "video",
+        "page_url": "https://fal.run/minimax/h3/reference-to-video",
+        "tagline": "MiniMax H3 is a frontier video model.",
+        "capabilities": {
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "last_seen_at": "2026-07-31",
+        "last_updated": "2026-07-31"
+      },
+      {
+        "id": "minimax/h3/text-to-video",
+        "name": "MiniMax H3 Text to Video",
+        "created_by": "minimax",
+        "source": "official",
+        "description": "MiniMax H3 is a frontier video model.",
+        "status": "active",
+        "release_date": "2026-07-31",
+        "model_type": "video",
+        "page_url": "https://fal.run/minimax/h3/text-to-video",
+        "tagline": "MiniMax H3 is a frontier video model.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "last_seen_at": "2026-07-31",
+        "last_updated": "2026-07-31"
+      },
+      {
         "id": "minimax/hailuo-03/image-to-video",
         "name": "Hailuo 03 Image to Video",
         "created_by": "minimax",
@@ -125913,6 +126576,28 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-06-02"
       },
       {
+        "id": "uzlm/alloma-1B-Instruct",
+        "name": "alloma-1B-Instruct",
+        "created_by": "uzlm",
+        "source": "official",
+        "release_date": "2025-09-03",
+        "context_window": 131072,
+        "license": "llama3.2",
+        "parameters": 1.2,
+        "page_url": "https://huggingface.co/uzlm/alloma-1B-Instruct",
+        "architecture": "transformer",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31"
+      },
+      {
         "id": "VAGOsolutions/Llama-3-SauerkrautLM-8b-Instruct",
         "name": "Llama-3-SauerkrautLM-8b-Instruct",
         "created_by": "vagosolutions",
@@ -137827,7 +138512,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-18"
+        "last_updated": "2026-06-18",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "teknium/openhermes-2.5-mistral-7b",
@@ -137961,7 +138648,8 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "streaming": true,
           "json_mode": true,
-          "fine_tuning": true
+          "fine_tuning": true,
+          "prompt_caching": true
         },
         "modalities": {
           "input": [
@@ -138007,7 +138695,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "structured_output": true,
           "streaming": true,
-          "json_mode": true
+          "json_mode": true,
+          "vision": true
         },
         "modalities": {
           "input": [
@@ -138052,7 +138741,9 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "structured_output": true,
           "streaming": true,
-          "json_mode": true
+          "json_mode": true,
+          "prompt_caching": true,
+          "vision": true
         },
         "modalities": {
           "input": [
@@ -138093,7 +138784,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "structured_output": true,
           "streaming": true,
-          "json_mode": true
+          "json_mode": true,
+          "prompt_caching": true
         },
         "modalities": {
           "input": [
@@ -143046,7 +143738,9 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "streaming": true
         },
-        "last_updated": "2026-06-02"
+        "last_updated": "2026-06-02",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "stockmark/stockmark-2-100b-instruct",
@@ -164953,6 +165647,42 @@ export const providers: ProviderWithModels[] = [
         "max_output_tokens": 65536
       },
       {
+        "id": "deepseek/deepseek-v4-flash-0731",
+        "name": "DeepSeek: DeepSeek V4 Flash 0731",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total.",
+        "release_date": "2026-07-31",
+        "context_window": 1048576,
+        "max_output_tokens": 384000,
+        "model_type": "chat",
+        "tagline": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total.",
+        "capabilities": {
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.28,
+          "cached_input": 0.003
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-07-31"
+      },
+      {
         "id": "deepseek/deepseek-v4-flash:free",
         "name": "DeepSeek: DeepSeek V4 Flash (free)",
         "created_by": "deepseek",
@@ -174186,7 +174916,7 @@ export const providers: ProviderWithModels[] = [
         "name": "OpenAI: gpt-oss-20b",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-07-25",
+        "last_updated": "2026-07-31",
         "family": "gpt-oss",
         "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
         "context_window": 131072,
@@ -174211,7 +174941,7 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.03,
-          "output": 0.13,
+          "output": 0.14,
           "cached_input": 0.03
         },
         "model_type": "chat",
@@ -176936,11 +177666,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 VL 30B A3B Instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-07-31",
         "family": "qwen3",
         "description": "Qwen3-VL-30B-A3B-Instruct is a multimodal model that unifies strong text generation with visual understanding for images and videos.",
         "context_window": 262144,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 32768,
         "modalities": {
           "input": [
             "text",
@@ -176960,8 +177690,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.15,
-          "output": 0.6
+          "input": 0.13,
+          "output": 0.52
         },
         "model_type": "chat",
         "parameters": 30,
@@ -177840,7 +178570,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series.",
         "release_date": "2026-05-21",
         "context_window": 1000000,
-        "max_output_tokens": 65536,
+        "max_output_tokens": 131072,
         "model_type": "chat",
         "tagline": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series.",
         "capabilities": {
@@ -177868,7 +178598,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-07-17",
+        "last_updated": "2026-07-31",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -177881,7 +178611,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series.",
         "release_date": "2026-06-03",
         "context_window": 1000000,
-        "max_output_tokens": 65536,
+        "max_output_tokens": 131072,
         "model_type": "chat",
         "tagline": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series.",
         "capabilities": {
@@ -177910,7 +178640,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-18",
+        "last_updated": "2026-07-31",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -178400,7 +179130,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-07-24"
+        "last_updated": "2026-07-24",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "switchpoint/router",
@@ -179210,7 +179942,9 @@ export const providers: ProviderWithModels[] = [
           "output": 2.5,
           "cached_input": 0.2
         },
-        "last_updated": "2026-06-18"
+        "last_updated": "2026-06-18",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "x-ai/grok-4.20",
@@ -179246,7 +179980,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-05-10"
+        "last_updated": "2026-05-10",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "x-ai/grok-4.3",
@@ -179328,7 +180064,7 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-07-24",
-        "knowledge_cutoff": "2024-11",
+        "knowledge_cutoff": "2026-02-01",
         "license": "proprietary",
         "open_weight": false
       },
@@ -179475,7 +180211,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "fine_tuning": true
+          "fine_tuning": true,
+          "prompt_caching": true
         },
         "pricing": {
           "input": 0.1,
@@ -179522,7 +180259,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true
+          "vision": true,
+          "prompt_caching": true
         },
         "pricing": {
           "input": 0.4,
@@ -179563,7 +180301,8 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "json_mode": true,
-          "streaming": true
+          "streaming": true,
+          "vision": true
         },
         "pricing": {
           "input": 1,
@@ -179602,7 +180341,9 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "reasoning": true,
           "json_mode": true,
-          "streaming": true
+          "streaming": true,
+          "prompt_caching": true,
+          "vision": true
         },
         "modalities": {
           "input": [
@@ -179640,7 +180381,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "streaming": true,
-          "vision": true
+          "vision": true,
+          "prompt_caching": true
         },
         "modalities": {
           "input": [
@@ -180086,9 +180828,9 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 1.19,
-          "output": 3.74,
-          "cached_input": 0.221
+          "input": 1.12,
+          "output": 3.52,
+          "cached_input": 0.208
         },
         "tools": [
           "function_calling"
@@ -180393,7 +181135,12 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-02",
+        "last_updated": "2026-07-31",
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cached_input": 0.5
+        },
         "description": "Anthropic's most capable Opus-tier model for complex reasoning and agentic coding",
         "tagline": "Anthropic's most capable model for complex reasoning and agentic coding",
         "context_window": 1000000,
@@ -180424,7 +181171,12 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-07-25"
+        "last_updated": "2026-07-31",
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cached_input": 0.5
+        }
       },
       {
         "id": "anthropic/claude-sonnet-4-5",
@@ -180525,7 +181277,12 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-07-08"
+        "last_updated": "2026-07-31",
+        "pricing": {
+          "input": 2,
+          "output": 10,
+          "cached_input": 0.2
+        }
       },
       {
         "id": "google/gemini-2.5-flash",
@@ -180602,7 +181359,7 @@ export const providers: ProviderWithModels[] = [
         "name": "google/gemini-3-flash-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-07-31",
         "family": "gemini-3",
         "capabilities": {
           "streaming": true,
@@ -180615,7 +181372,8 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.5,
-          "output": 3
+          "output": 3,
+          "cached_input": 0.05
         },
         "model_type": "chat",
         "license": "proprietary",
@@ -180721,7 +181479,8 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.25,
-          "output": 1.5
+          "output": 1.5,
+          "cached_input": 0.025
         },
         "open_weight": false,
         "modalities": {
@@ -180732,7 +181491,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-14",
+        "last_updated": "2026-07-31",
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Flash-Lite Gemini 3.1 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-frequency, lightweight tasks. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
         "tagline": "The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary con",
         "context_window": 1048576,
@@ -180744,7 +181503,7 @@ export const providers: ProviderWithModels[] = [
         "name": "google/gemini-3.1-pro-preview",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-07-31",
         "family": "gemini-3.1",
         "capabilities": {
           "streaming": true,
@@ -180757,7 +181516,8 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 2,
-          "output": 12
+          "output": 12,
+          "cached_input": 0.2
         },
         "model_type": "chat",
         "license": "proprietary",
@@ -180770,6 +181530,9 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "pricing_notes": [
+          "Input ranges $2 to $4, output ranges $12 to $18 per 1M tokens."
+        ],
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.1 Pro Preview Built to refine the performance and reliability of the Gemini 3 Pro series, Gemini 3.1 Pro Preview provides better thinking, improved token efficiency, and a more grounded, factually consistent experience. It&#39;s optimized for software engineering behavior and usability, as well as agentic workflows requiring precise tool usage and reliable multi-step execution across real-world domains.",
         "tagline": "The Interactions API is now generally available.",
         "context_window": 1048576,
@@ -180802,7 +181565,12 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-07-31",
+        "pricing": {
+          "input": 0.3,
+          "output": 2.5,
+          "cached_input": 0.03
+        },
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.5 Flash-Lite Gemini 3.5 Flash-Lite is a low-latency, cost-effective multimodal model optimized for high-throughput, low-cost execution for subagent tasks and document parsing. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.",
         "tagline": "The Interactions API is now generally available.",
         "context_window": 1048576,
@@ -180834,7 +181602,12 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-23",
+        "last_updated": "2026-07-31",
+        "pricing": {
+          "input": 1.5,
+          "output": 9,
+          "cached_input": 0.15
+        },
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.5 Flash Gemini 3.5 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at sub-agent deployment, multi-step workflows, and long-horizon tasks at scale. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
         "tagline": "The Interactions API is now generally available.",
         "context_window": 1048576,
@@ -180867,7 +181640,12 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-07-31",
+        "pricing": {
+          "input": 1.5,
+          "output": 7.5,
+          "cached_input": 0.15
+        },
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.6 Flash Gemini 3.6 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.",
         "tagline": "The Interactions API is now generally available.",
         "context_window": 1048576,
@@ -181039,7 +181817,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.75,
           "output": 4.5,
-          "cached_input": 0
+          "cached_input": 0.075
         },
         "open_weight": false,
         "modalities": {
@@ -181050,7 +181828,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-07-31",
         "description": "GPT-5.4 mini brings the strengths of GPT-5.4 to a faster, more efficient",
         "tagline": "Our strongest mini model yet for coding, computer use, and subagents",
         "context_window": 400000,
@@ -181079,7 +181857,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.2,
           "output": 1.25,
-          "cached_input": 0
+          "cached_input": 0.02
         },
         "open_weight": false,
         "modalities": {
@@ -181090,7 +181868,7 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-07-31",
         "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
         "tagline": "Our cheapest GPT-5.4-class model for simple high-volume tasks",
         "context_window": 400000,
@@ -181103,7 +181881,7 @@ export const providers: ProviderWithModels[] = [
         "name": "openai/gpt-5.4",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-03-23",
+        "last_updated": "2026-07-31",
         "family": "gpt-5.4",
         "capabilities": {
           "streaming": true,
@@ -181131,6 +181909,9 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
+        "pricing_notes": [
+          "Input ranges $2.5 to $5, output ranges $15 to $22.5 per 1M tokens."
+        ],
         "description": "GPT-5.4 is our frontier model for complex professional work.",
         "tagline": "A more affordable model for coding and professional work.",
         "context_window": 1050000,
@@ -181169,7 +181950,10 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-01",
+        "last_updated": "2026-07-31",
+        "pricing_notes": [
+          "Input ranges $5 to $10, output ranges $30 to $45 per 1M tokens."
+        ],
         "description": "GPT-5.5 is our newest frontier model for the most complex professional work.",
         "tagline": "A new class of intelligence for coding and professional work.",
         "context_window": 1050000,
@@ -181203,7 +181987,15 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-07-12",
+        "last_updated": "2026-07-31",
+        "pricing": {
+          "input": 1,
+          "output": 6,
+          "cached_input": 0.1
+        },
+        "pricing_notes": [
+          "Input ranges $1 to $2, output ranges $6 to $9 per 1M tokens."
+        ],
         "context_window": 1050000,
         "max_output_tokens": 128000,
         "max_input_tokens": 922000,
@@ -181236,7 +182028,15 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-07-12",
+        "last_updated": "2026-07-31",
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cached_input": 0.5
+        },
+        "pricing_notes": [
+          "Input ranges $5 to $10, output ranges $30 to $45 per 1M tokens."
+        ],
         "context_window": 1050000,
         "max_output_tokens": 128000,
         "max_input_tokens": 922000,
@@ -181269,7 +182069,15 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-07-12",
+        "last_updated": "2026-07-31",
+        "pricing": {
+          "input": 2.5,
+          "output": 15,
+          "cached_input": 0.25
+        },
+        "pricing_notes": [
+          "Input ranges $2.5 to $5, output ranges $15 to $22.5 per 1M tokens."
+        ],
         "context_window": 1050000,
         "max_output_tokens": 128000,
         "max_input_tokens": 922000,
@@ -181318,13 +182126,19 @@ export const providers: ProviderWithModels[] = [
       {
         "id": "perplexity/glm-5.2",
         "name": "perplexity/glm-5.2",
-        "created_by": "perplexity",
+        "created_by": "zai",
         "source": "official",
         "family": "glm-5.2",
         "license": "proprietary",
         "model_type": "chat",
         "capabilities": {
-          "streaming": true
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "prompt_caching": true,
+          "fine_tuning": true,
+          "json_mode": true
         },
         "open_weight": false,
         "modalities": {
@@ -181335,12 +182149,21 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-29"
+        "last_updated": "2026-07-31",
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cached_input": 0.26
+        },
+        "description": "GLM-5.2 is a flagship model built for the era of long-horizon tasks. With truly usable 1M-token context, it has been tested to handle project-scale engineering context, delivering more stable long-task execution, more reliable adherence to engineering standards, and higher success rates in development scenarios. A single task can complete the full development workflow—from requirements to deployable products across multiple platforms.",
+        "tagline": "GLM-5.2 is a flagship model built for the era of long-horizon tasks.",
+        "context_window": 128000,
+        "max_output_tokens": 128000
       },
       {
         "id": "perplexity/kimi-k2.7-code",
         "name": "perplexity/kimi-k2.7-code",
-        "created_by": "perplexity",
+        "created_by": "moonshot",
         "source": "official",
         "family": "kimi-k2.7",
         "license": "proprietary",
@@ -181357,7 +182180,39 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-29"
+        "last_updated": "2026-07-31",
+        "pricing": {
+          "input": 0.95,
+          "output": 4,
+          "cached_input": 0.19
+        }
+      },
+      {
+        "id": "perplexity/kimi-k3",
+        "name": "perplexity/kimi-k3",
+        "created_by": "moonshot",
+        "source": "official",
+        "family": "kimi-k3",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cached_input": 0.3
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-07-31"
       },
       {
         "id": "perplexity/sonar",
@@ -181586,7 +182441,11 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-10"
+        "last_updated": "2026-07-31",
+        "pricing_notes": [
+          "Input ranges $1.25 to $2.5, output ranges $2.5 to $5 per 1M tokens."
+        ],
+        "context_window": 1000000
       },
       {
         "id": "xai/grok-4.20-non-reasoning",
@@ -181613,7 +182472,10 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-10"
+        "last_updated": "2026-07-31",
+        "pricing_notes": [
+          "Input ranges $1.25 to $2.5, output ranges $2.5 to $5 per 1M tokens."
+        ]
       },
       {
         "id": "xai/grok-4.20-reasoning",
@@ -181640,7 +182502,10 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-10"
+        "last_updated": "2026-07-31",
+        "pricing_notes": [
+          "Input ranges $1.25 to $2.5, output ranges $2.5 to $5 per 1M tokens."
+        ]
       },
       {
         "id": "xai/grok-4.3",
@@ -181673,7 +182538,10 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-05-10",
+        "last_updated": "2026-07-31",
+        "pricing_notes": [
+          "Input ranges $1.25 to $2.5, output ranges $2.5 to $5 per 1M tokens."
+        ],
         "context_window": 1000000,
         "knowledge_cutoff": "2024-11"
       },
@@ -181703,9 +182571,17 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-07-09",
+        "last_updated": "2026-07-31",
+        "pricing": {
+          "input": 2,
+          "output": 6,
+          "cached_input": 0.3
+        },
+        "pricing_notes": [
+          "Input ranges $2 to $4, output ranges $6 to $12 per 1M tokens."
+        ],
         "context_window": 500000,
-        "knowledge_cutoff": "2024-11"
+        "knowledge_cutoff": "2026-02-01"
       }
     ]
   },
@@ -191031,6 +191907,27 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-05-11"
       },
       {
+        "id": "prunaai/flux-fast",
+        "name": "Flux Fast",
+        "created_by": "prunaai",
+        "source": "official",
+        "status": "active",
+        "model_type": "image",
+        "page_url": "https://replicate.com/prunaai/flux-fast",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "endpoints": [
+          "images"
+        ],
+        "last_updated": "2026-07-31"
+      },
+      {
         "id": "prunaai/p-image-edit",
         "name": "P Image Edit",
         "created_by": "prunaai",
@@ -192716,7 +193613,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 74,
+        "huggingface_downloads": 77,
         "last_modified": "2023-11-08",
         "last_updated": "2026-07-31"
       },
@@ -192814,7 +193711,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 89,
+        "huggingface_downloads": 91,
         "last_modified": "2023-11-17",
         "last_updated": "2026-07-31"
       },
@@ -193012,7 +193909,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 141,
+        "huggingface_downloads": 145,
         "last_modified": "2024-04-26",
         "last_updated": "2026-07-31"
       },
@@ -193045,7 +193942,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 107,
+        "huggingface_downloads": 115,
         "last_modified": "2024-04-26",
         "last_updated": "2026-07-31"
       },
@@ -193078,7 +193975,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 201,
+        "huggingface_downloads": 205,
         "last_modified": "2023-08-22",
         "last_updated": "2026-07-31"
       },
@@ -193111,7 +194008,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 128,
+        "huggingface_downloads": 131,
         "last_modified": "2023-12-19",
         "last_updated": "2026-07-31"
       },
@@ -193144,7 +194041,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 82,
+        "huggingface_downloads": 87,
         "last_modified": "2023-12-19",
         "last_updated": "2026-07-31"
       },
@@ -193177,7 +194074,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 154,
+        "huggingface_downloads": 156,
         "last_modified": "2024-01-25",
         "last_updated": "2026-07-31"
       },
@@ -193210,7 +194107,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 96,
+        "huggingface_downloads": 107,
         "last_modified": "2023-12-19",
         "last_updated": "2026-07-31"
       },
@@ -193243,7 +194140,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 89,
+        "huggingface_downloads": 94,
         "last_modified": "2023-10-06",
         "last_updated": "2026-07-31"
       },
@@ -193309,7 +194206,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 129,
+        "huggingface_downloads": 131,
         "last_modified": "2023-12-19",
         "last_updated": "2026-07-31"
       },
@@ -193342,7 +194239,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 90,
+        "huggingface_downloads": 95,
         "last_modified": "2023-12-19",
         "last_updated": "2026-07-31"
       },
@@ -193375,7 +194272,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 146,
+        "huggingface_downloads": 152,
         "last_modified": "2024-01-24",
         "last_updated": "2026-07-31"
       },
@@ -193408,7 +194305,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 117,
+        "huggingface_downloads": 130,
         "last_modified": "2023-12-19",
         "last_updated": "2026-07-31"
       },
@@ -193440,7 +194337,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 5503,
+        "huggingface_downloads": 5553,
         "last_modified": "2026-06-24",
         "last_updated": "2026-07-31"
       },
@@ -193472,7 +194369,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 2445,
+        "huggingface_downloads": 2800,
         "last_modified": "2026-05-19",
         "last_updated": "2026-07-31"
       },
@@ -193502,7 +194399,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 672836,
+        "huggingface_downloads": 702077,
         "last_modified": "2024-07-10",
         "last_updated": "2026-07-31"
       },
@@ -193551,7 +194448,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-ema",
         "open_weight": true,
         "tagline": "Sd Vae Ft Ema is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 22988,
+        "huggingface_downloads": 23801,
         "last_modified": "2023-06-05",
         "last_updated": "2026-07-31"
       },
@@ -193600,7 +194497,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-mse",
         "open_weight": true,
         "tagline": "Sd Vae Ft Mse is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 141543,
+        "huggingface_downloads": 140900,
         "last_modified": "2023-06-06",
         "last_updated": "2026-07-31"
       },
@@ -193617,7 +194514,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-x2-latent-upscaler",
         "open_weight": true,
         "tagline": "Sd X2 Latent Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 132704,
+        "huggingface_downloads": 133093,
         "last_modified": "2023-06-05",
         "last_updated": "2026-07-31"
       },
@@ -193649,7 +194546,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 381,
+        "huggingface_downloads": 379,
         "last_modified": "2024-12-11",
         "last_updated": "2026-07-31"
       },
@@ -193713,7 +194610,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 1122509,
+        "huggingface_downloads": 1146756,
         "last_modified": "2024-07-10",
         "last_updated": "2026-07-31"
       },
@@ -193730,7 +194627,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sdxl-vae",
         "open_weight": true,
         "tagline": "Sdxl Vae is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 241989,
+        "huggingface_downloads": 240973,
         "last_modified": "2023-08-04",
         "last_updated": "2026-07-31"
       },
@@ -193747,7 +194644,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sp4d",
         "open_weight": true,
         "tagline": "Sp4d is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 28,
+        "huggingface_downloads": 33,
         "last_modified": "2025-11-05",
         "last_updated": "2026-07-31"
       },
@@ -193764,7 +194661,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-medium-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Medium Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 13486,
+        "huggingface_downloads": 13605,
         "last_modified": "2026-07-13",
         "last_updated": "2026-07-31"
       },
@@ -193781,7 +194678,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-medium",
         "open_weight": true,
         "tagline": "Stable Audio 3 Medium is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 40994,
+        "huggingface_downloads": 41327,
         "last_modified": "2026-06-16",
         "last_updated": "2026-07-31"
       },
@@ -193798,7 +194695,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-optimized",
         "open_weight": true,
         "tagline": "Stable Audio 3 Optimized is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 2473,
+        "huggingface_downloads": 2756,
         "last_modified": "2026-07-31",
         "last_updated": "2026-07-31"
       },
@@ -193815,7 +194712,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-music-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Music Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 2203,
+        "huggingface_downloads": 2228,
         "last_modified": "2026-07-13",
         "last_updated": "2026-07-31"
       },
@@ -193832,7 +194729,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-music",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Music is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 15411,
+        "huggingface_downloads": 15440,
         "last_modified": "2026-05-19",
         "last_updated": "2026-07-31"
       },
@@ -193849,7 +194746,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Sfx Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 2605,
+        "huggingface_downloads": 2619,
         "last_modified": "2026-07-13",
         "last_updated": "2026-07-31"
       },
@@ -193866,7 +194763,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Sfx is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 14615,
+        "huggingface_downloads": 14746,
         "last_modified": "2026-05-19",
         "last_updated": "2026-07-31"
       },
@@ -193890,7 +194787,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 17813,
+        "huggingface_downloads": 17958,
         "last_modified": "2025-06-19",
         "last_updated": "2026-07-31"
       },
@@ -193914,7 +194811,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 2501,
+        "huggingface_downloads": 2507,
         "last_modified": "2025-05-27",
         "last_updated": "2026-07-31"
       },
@@ -193946,7 +194843,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 1507,
+        "huggingface_downloads": 1524,
         "last_modified": "2024-03-14",
         "last_updated": "2026-07-31"
       },
@@ -193978,7 +194875,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 7354,
+        "huggingface_downloads": 7472,
         "last_modified": "2024-03-16",
         "last_updated": "2026-07-31"
       },
@@ -194011,7 +194908,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 5272,
+        "huggingface_downloads": 5365,
         "last_modified": "2024-07-10",
         "last_updated": "2026-07-31"
       },
@@ -194044,7 +194941,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 2134,
+        "huggingface_downloads": 2173,
         "last_modified": "2024-07-10",
         "last_updated": "2026-07-31"
       },
@@ -194092,7 +194989,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 761,
+        "huggingface_downloads": 757,
         "last_modified": "2025-01-10",
         "last_updated": "2026-07-31"
       },
@@ -194156,7 +195053,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 40523,
+        "huggingface_downloads": 41281,
         "last_modified": "2024-06-19",
         "last_updated": "2026-07-31"
       },
@@ -194220,7 +195117,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 8953,
+        "huggingface_downloads": 8907,
         "last_modified": "2024-08-12",
         "last_updated": "2026-07-31"
       },
@@ -194284,7 +195181,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 30,
+        "huggingface_downloads": 31,
         "last_modified": "2025-10-20",
         "last_updated": "2026-07-31"
       },
@@ -194316,7 +195213,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 6,
+        "huggingface_downloads": 10,
         "last_modified": "2024-12-11",
         "last_updated": "2026-07-31"
       },
@@ -194348,7 +195245,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 49,
+        "huggingface_downloads": 56,
         "last_modified": "2024-11-28",
         "last_updated": "2026-07-31"
       },
@@ -194380,7 +195277,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 160,
+        "huggingface_downloads": 164,
         "last_modified": "2024-11-28",
         "last_updated": "2026-07-31"
       },
@@ -194412,7 +195309,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 228,
+        "huggingface_downloads": 236,
         "last_modified": "2024-11-28",
         "last_updated": "2026-07-31"
       },
@@ -194444,7 +195341,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 238,
+        "huggingface_downloads": 236,
         "last_modified": "2025-10-20",
         "last_updated": "2026-07-31"
       },
@@ -194476,7 +195373,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 7817,
+        "huggingface_downloads": 7747,
         "last_modified": "2024-10-22",
         "last_updated": "2026-07-31"
       },
@@ -194508,7 +195405,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 63456,
+        "huggingface_downloads": 64451,
         "last_modified": "2024-10-22",
         "last_updated": "2026-07-31"
       },
@@ -194572,7 +195469,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 97285,
+        "huggingface_downloads": 94372,
         "last_modified": "2024-10-31",
         "last_updated": "2026-07-31"
       },
@@ -194589,7 +195486,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler",
         "open_weight": true,
         "tagline": "Stable Diffusion X4 Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 14367,
+        "huggingface_downloads": 14536,
         "last_modified": "2023-07-05",
         "last_updated": "2026-07-31"
       },
@@ -194621,7 +195518,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 157,
+        "huggingface_downloads": 141,
         "last_modified": "2025-10-20",
         "last_updated": "2026-07-31"
       },
@@ -194653,7 +195550,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 39,
+        "huggingface_downloads": 33,
         "last_modified": "2023-07-12",
         "last_updated": "2026-07-31"
       },
@@ -194685,7 +195582,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 1499340,
+        "huggingface_downloads": 1500767,
         "last_modified": "2023-10-30",
         "last_updated": "2026-07-31"
       },
@@ -194751,7 +195648,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 123239,
+        "huggingface_downloads": 122919,
         "last_modified": "2023-09-25",
         "last_updated": "2026-07-31"
       },
@@ -194772,7 +195669,7 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 19166,
+        "huggingface_downloads": 19184,
         "last_modified": "2025-04-08",
         "last_updated": "2026-07-31"
       },
@@ -194793,7 +195690,7 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 2709,
+        "huggingface_downloads": 2707,
         "last_modified": "2025-04-08",
         "last_updated": "2026-07-31"
       },
@@ -194859,7 +195756,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 5144,
+        "huggingface_downloads": 5051,
         "last_modified": "2024-07-10",
         "last_updated": "2026-07-31"
       },
@@ -194892,7 +195789,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 207889,
+        "huggingface_downloads": 203170,
         "last_modified": "2024-07-10",
         "last_updated": "2026-07-31"
       },
@@ -194925,7 +195822,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 23931,
+        "huggingface_downloads": 23915,
         "last_modified": "2024-07-10",
         "last_updated": "2026-07-31"
       },
@@ -194958,7 +195855,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 5498,
+        "huggingface_downloads": 5588,
         "last_modified": "2025-06-03",
         "last_updated": "2026-07-31"
       },
@@ -195006,7 +195903,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 221,
+        "huggingface_downloads": 218,
         "last_modified": "2023-08-29",
         "last_updated": "2026-07-31"
       },
@@ -195037,7 +195934,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 354,
+        "huggingface_downloads": 358,
         "last_modified": "2023-08-29",
         "last_updated": "2026-07-31"
       },
@@ -195069,7 +195966,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 221,
+        "huggingface_downloads": 226,
         "last_modified": "2023-07-27",
         "last_updated": "2026-07-31"
       },
@@ -195099,7 +195996,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 383,
+        "huggingface_downloads": 371,
         "last_modified": "2023-09-18",
         "last_updated": "2026-07-31"
       },
@@ -195132,7 +196029,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 434,
+        "huggingface_downloads": 421,
         "last_modified": "2023-08-08",
         "last_updated": "2026-07-31"
       },
@@ -195165,9 +196062,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 185,
+        "huggingface_downloads": 173,
         "last_modified": "2023-08-08",
-        "last_updated": "2026-07-30"
+        "last_updated": "2026-07-31"
       },
       {
         "id": "stablecode-instruct-alpha-3b",
@@ -195235,7 +196132,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 236,
+        "huggingface_downloads": 263,
         "last_modified": "2024-04-20",
         "last_updated": "2026-07-31"
       },
@@ -195272,7 +196169,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 277,
+        "huggingface_downloads": 287,
         "last_modified": "2024-05-20",
         "last_updated": "2026-07-31"
       },
@@ -195305,7 +196202,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 952,
+        "huggingface_downloads": 899,
         "last_modified": "2024-07-10",
         "last_updated": "2026-07-31"
       },
@@ -195338,7 +196235,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1791,
+        "huggingface_downloads": 1850,
         "last_modified": "2024-06-03",
         "last_updated": "2026-07-31"
       },
@@ -195371,7 +196268,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 3773,
+        "huggingface_downloads": 3877,
         "last_modified": "2024-07-10",
         "last_updated": "2026-07-31"
       },
@@ -195404,7 +196301,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 5608,
+        "huggingface_downloads": 6041,
         "last_modified": "2024-06-03",
         "last_updated": "2026-07-31"
       },
@@ -195437,7 +196334,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 79252,
+        "huggingface_downloads": 77091,
         "last_modified": "2024-03-07",
         "last_updated": "2026-07-31"
       },
@@ -195470,7 +196367,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 152,
+        "huggingface_downloads": 153,
         "last_modified": "2023-09-11",
         "last_updated": "2026-07-31"
       },
@@ -195503,7 +196400,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1819,
+        "huggingface_downloads": 1982,
         "last_modified": "2023-10-19",
         "last_updated": "2026-07-31"
       },
@@ -195536,7 +196433,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 799,
+        "huggingface_downloads": 808,
         "last_modified": "2023-09-11",
         "last_updated": "2026-07-31"
       },
@@ -195569,7 +196466,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 893,
+        "huggingface_downloads": 902,
         "last_modified": "2023-10-19",
         "last_updated": "2026-07-31"
       },
@@ -195602,7 +196499,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 630,
+        "huggingface_downloads": 690,
         "last_modified": "2023-04-19",
         "last_updated": "2026-07-31"
       },
@@ -195635,7 +196532,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 669,
+        "huggingface_downloads": 678,
         "last_modified": "2023-04-19",
         "last_updated": "2026-07-31"
       },
@@ -195668,7 +196565,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 20828,
+        "huggingface_downloads": 20082,
         "last_modified": "2024-07-10",
         "last_updated": "2026-07-31"
       },
@@ -195718,9 +196615,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sv4d",
         "open_weight": true,
         "tagline": "Sv4d is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 34,
+        "huggingface_downloads": 33,
         "last_modified": "2024-08-03",
-        "last_updated": "2026-07-30"
+        "last_updated": "2026-07-31"
       },
       {
         "id": "sv4d2.0",
@@ -195735,7 +196632,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sv4d2.0",
         "open_weight": true,
         "tagline": "Sv4d2.0 is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 1976,
+        "huggingface_downloads": 1921,
         "last_modified": "2025-04-04",
         "last_updated": "2026-07-31"
       },
@@ -195765,7 +196662,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 2633,
+        "huggingface_downloads": 2639,
         "last_modified": "2024-03-31",
         "last_updated": "2026-07-31"
       },
@@ -195786,7 +196683,7 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 150919,
+        "huggingface_downloads": 153312,
         "last_modified": "2024-08-09",
         "last_updated": "2026-07-31"
       }
@@ -195882,7 +196779,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Step 1o Audio",
         "created_by": "stepfun",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-07-31",
         "family": "step-1o",
         "description": "Real-time voice interaction model. 30-minute live sessions, 70-minute max audio input.",
         "status": "active",
@@ -195905,14 +196802,19 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "realtime"
         ],
-        "tagline": "Real-time voice interaction model."
+        "tagline": "Real-time voice interaction model.",
+        "pricing": {
+          "input": 3.472,
+          "cached_input": 0.694,
+          "output": 8.333
+        }
       },
       {
         "id": "step-1o-turbo-vision",
         "name": "Step 1o Turbo Vision",
         "created_by": "stepfun",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-07-31",
         "family": "step-1o",
         "description": "Recommended vision model with strong image and video understanding. Up to 50 images per request and MP4 video input <128 MB.",
         "status": "active",
@@ -195942,7 +196844,11 @@ export const providers: ProviderWithModels[] = [
           "input": 0.347,
           "cached_input": 0.069,
           "output": 1.111
-        }
+        },
+        "tagline": "Recommended vision model with strong image and video understanding.",
+        "tools": [
+          "function_calling"
+        ]
       },
       {
         "id": "step-1o-vision-32k",
@@ -196298,6 +197204,20 @@ export const providers: ProviderWithModels[] = [
         }
       },
       {
+        "id": "step-3.7-flash",
+        "name": "step-3.7-flash",
+        "created_by": "stepfun",
+        "source": "official",
+        "license": "proprietary",
+        "pricing": {
+          "input": 0.188,
+          "cached_input": 0.038,
+          "output": 1.125
+        },
+        "open_weight": false,
+        "last_updated": "2026-07-31"
+      },
+      {
         "id": "step-3",
         "name": "Step 3",
         "created_by": "stepfun",
@@ -196345,7 +197265,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Step ASR 1.1 Stream",
         "created_by": "stepfun",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-07-31",
         "family": "step-asr",
         "description": "Streaming variant of Step ASR 1.1 for real-time transcription.",
         "status": "active",
@@ -196365,6 +197285,10 @@ export const providers: ProviderWithModels[] = [
         },
         "endpoints": [
           "audio_transcriptions"
+        ],
+        "tagline": "Streaming variant of Step ASR 1.1 for real-time transcription.",
+        "pricing_notes": [
+          "2.6元/小时 (CNY)."
         ]
       },
       {
@@ -196372,7 +197296,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Step ASR 1.1",
         "created_by": "stepfun",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-07-31",
         "family": "step-asr",
         "description": "Offline audio file transcription, refreshed Step ASR.",
         "status": "active",
@@ -196389,6 +197313,10 @@ export const providers: ProviderWithModels[] = [
         },
         "endpoints": [
           "audio_transcriptions"
+        ],
+        "tagline": "Offline audio file transcription, refreshed Step ASR.",
+        "pricing_notes": [
+          "2.2元/小时 (CNY)."
         ]
       },
       {
@@ -196396,7 +197324,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Step ASR",
         "created_by": "stepfun",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-07-31",
         "family": "step-asr",
         "description": "Real-time and offline speech recognition for Chinese (multi-dialect) and English. 100 MB file limit.",
         "status": "active",
@@ -196415,8 +197343,37 @@ export const providers: ProviderWithModels[] = [
           "audio_transcriptions"
         ],
         "pricing_notes": [
-          "0.9 CNY per hour."
-        ]
+          "0.9元/小时 (CNY)."
+        ],
+        "tagline": "Real-time and offline speech recognition for Chinese (multi-dialect) and English."
+      },
+      {
+        "id": "step-audio-2",
+        "name": "step-audio-2",
+        "created_by": "stepfun",
+        "source": "official",
+        "license": "proprietary",
+        "pricing": {
+          "input": 1.389,
+          "cached_input": 0.278,
+          "output": 9.722
+        },
+        "open_weight": false,
+        "last_updated": "2026-07-31"
+      },
+      {
+        "id": "step-audio-r1.5",
+        "name": "step-audio-r1.5",
+        "created_by": "stepfun",
+        "source": "official",
+        "license": "proprietary",
+        "pricing": {
+          "input": 1.389,
+          "cached_input": 0.278,
+          "output": 14.583
+        },
+        "open_weight": false,
+        "last_updated": "2026-07-31"
       },
       {
         "id": "step-r1-v-mini",
@@ -196460,7 +197417,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Step TTS 2",
         "created_by": "stepfun",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-07-31",
         "family": "step-tts",
         "description": "End-to-end TTS with 11 emotions, 17 styles, 3 languages (Mandarin, Cantonese, Sichuan dialect, Japanese). 10s audio voice cloning.",
         "status": "active",
@@ -196480,15 +197437,16 @@ export const providers: ProviderWithModels[] = [
           "audio_speech"
         ],
         "pricing_notes": [
-          "0.40 USD per 10k characters."
-        ]
+          "2.8 元/万字符 (CNY)."
+        ],
+        "tagline": "End-to-end TTS with 11 emotions, 17 styles, 3 languages (Mandarin, Cantonese, Sichuan dialect, Japanese)."
       },
       {
         "id": "step-tts-mini",
         "name": "Step TTS Mini",
         "created_by": "stepfun",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-07-31",
         "family": "step-tts",
         "description": "Compact TTS with 9 emotions, 13 styles, 3 languages, 10s voice cloning.",
         "status": "active",
@@ -196508,15 +197466,16 @@ export const providers: ProviderWithModels[] = [
           "audio_speech"
         ],
         "pricing_notes": [
-          "0.9 CNY per 10k characters."
-        ]
+          "0.9 元/万字符 (CNY)."
+        ],
+        "tagline": "Compact TTS with 9 emotions, 13 styles, 3 languages, 10s voice cloning."
       },
       {
         "id": "stepaudio-2-asr-pro",
         "name": "StepAudio 2 ASR Pro",
         "created_by": "stepfun",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-07-31",
         "family": "stepaudio",
         "description": "32B-parameter speech recognition model for higher accuracy.",
         "status": "active",
@@ -196533,6 +197492,10 @@ export const providers: ProviderWithModels[] = [
         },
         "endpoints": [
           "audio_transcriptions"
+        ],
+        "tagline": "32B-parameter speech recognition model for higher accuracy.",
+        "pricing_notes": [
+          "2元/小时 (CNY)."
         ]
       },
       {
@@ -196540,7 +197503,7 @@ export const providers: ProviderWithModels[] = [
         "name": "StepAudio 2.5 ASR",
         "created_by": "stepfun",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-07-31",
         "family": "stepaudio",
         "description": "4B-parameter speech recognition model with multi-token prediction. Processes ~5 minutes of audio per second of compute. Supports ITN.",
         "status": "active",
@@ -196559,15 +197522,45 @@ export const providers: ProviderWithModels[] = [
           "audio_transcriptions"
         ],
         "pricing_notes": [
-          "0.022 USD per hour."
-        ]
+          "0.15元/小时 (CNY)."
+        ],
+        "tagline": "4B-parameter speech recognition model with multi-token prediction."
+      },
+      {
+        "id": "stepaudio-2.5-chat",
+        "name": "stepaudio-2.5-chat",
+        "created_by": "stepfun",
+        "source": "official",
+        "license": "proprietary",
+        "pricing": {
+          "input": 1.389,
+          "cached_input": 0.278,
+          "output": 3.472
+        },
+        "open_weight": false,
+        "last_updated": "2026-07-31"
+      },
+      {
+        "id": "stepaudio-2.5-realtime",
+        "name": "stepaudio-2.5-realtime",
+        "created_by": "stepfun",
+        "source": "official",
+        "license": "proprietary",
+        "model_type": "audio",
+        "pricing": {
+          "input": 1.389,
+          "cached_input": 0.278,
+          "output": 9.722
+        },
+        "open_weight": false,
+        "last_updated": "2026-07-31"
       },
       {
         "id": "stepaudio-2.5-tts",
         "name": "StepAudio 2.5 TTS",
         "created_by": "stepfun",
         "source": "official",
-        "last_updated": "2026-04-26",
+        "last_updated": "2026-07-31",
         "family": "stepaudio",
         "description": "Contextual text-to-speech with zero-shot voice cloning from 3 seconds of audio. Dual-layer prosody and emotion control.",
         "status": "active",
@@ -196587,8 +197580,9 @@ export const providers: ProviderWithModels[] = [
           "audio_speech"
         ],
         "pricing_notes": [
-          "0.85 USD per 10k characters (USD listed in english docs)."
-        ]
+          "5.8 元/万字符 (CNY)."
+        ],
+        "tagline": "Contextual text-to-speech with zero-shot voice cloning from 3 seconds of audio."
       }
     ]
   },
@@ -207136,7 +208130,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-02"
+        "last_updated": "2026-06-02",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "tencent/hy3",
@@ -207862,7 +208858,9 @@ export const providers: ProviderWithModels[] = [
         },
         "tools": [
           "function_calling"
-        ]
+        ],
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "xai/grok-4.20-non-reasoning-beta",
@@ -208056,7 +209054,7 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-07-09",
-        "knowledge_cutoff": "2024-11",
+        "knowledge_cutoff": "2026-02-01",
         "license": "proprietary",
         "open_weight": false
       },
@@ -208216,8 +209214,7 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "image"
@@ -208273,7 +209270,7 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "modalities": {
           "input": [
-            "image"
+            "text"
           ],
           "output": [
             "video"
@@ -208302,9 +209299,7 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "video"
+            "text"
           ],
           "output": [
             "video"
@@ -208362,7 +209357,9 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-29"
+        "last_updated": "2026-06-29",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "xai/grok-voice-think-fast-2.0",
@@ -208385,7 +209382,9 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-07-30"
+        "last_updated": "2026-07-30",
+        "license": "proprietary",
+        "open_weight": false
       },
       {
         "id": "xiaomi/mimo-v2-flash",
@@ -208400,7 +209399,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "json_mode": true,
           "fine_tuning": true,
-          "structured_output": true
+          "structured_output": true,
+          "prompt_caching": true
         },
         "pricing": {
           "input": 0.1,
@@ -208419,9 +209419,9 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "309B MoE reasoning model with 15B active parameters. Fast inference at 150 tokens/s.",
+        "description": "MiMo-V2-Flash is an open-source foundation language model developed by Xiaomi. It is a Mixture-of-Experts model with 309B total parameters and 15B active parameters, adopting hybrid attention architecture. MiMo-V2-Flash supports a hybrid-thinking toggle and a 256K context window, and excels at reasoning, coding, and agent scenarios. On SWE-bench Verified and SWE-bench Multilingual, MiMo-V2-Flash ranks as the top #1 open-source model globally, delivering performance comparable to Claude Sonnet 4.5 while costing only about 3.5% as much.",
         "tagline": "309B MoE reasoning model with 15B active parameters.",
-        "max_output_tokens": 64000,
+        "max_output_tokens": 65536,
         "knowledge_cutoff": "2024-12",
         "license": "mit",
         "parameters": 309,
@@ -208441,7 +209441,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "json_mode": true,
-          "structured_output": true
+          "structured_output": true,
+          "vision": true
         },
         "pricing": {
           "input": 1,
@@ -208460,9 +209461,9 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "description": "Flagship foundation model with 1M-token context and top-tier agentic capabilities.",
+        "description": "MiMo-V2-Pro is Xiaomi's flagship foundation model, featuring over 1T total parameters and a 1M context length, deeply optimized for agentic scenarios. It is highly adaptable to general agent frameworks like OpenClaw. It ranks among the global top tier in the standard PinchBench and ClawBench benchmarks, with perceived performance approaching that of Opus 4.6. MiMo-V2-Pro is designed to serve as the brain of agent systems, orchestrating complex workflows, driving production engineering tasks, and delivering results reliably.",
         "tagline": "Flagship foundation model with 1M-token context and top-tier agentic capabilities.",
-        "max_output_tokens": 128000,
+        "max_output_tokens": 131072,
         "license": "proprietary",
         "parameters": 1000,
         "active_parameters": 42,
@@ -208483,7 +209484,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "prompt_caching": true
         },
         "pricing": {
           "input": 0.43,
@@ -208501,7 +209503,9 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-05-29",
-        "max_output_tokens": 128000
+        "description": "MiMo-V2.5-Pro is the latest flagship model released by Xiaomi. Compared to its predecessor, it delivers significant improvements in general agentic capabilities, complex software engineering, and long-horizon tasks, ranking top on benchmarks such as ClawEval, GDPVal, and SWE-bench Pro. It can independently and fully autonomously complete professional tasks that would take human experts days or even weeks, involving more than a thousand tool calls. Its context length of up to 1M makes it ideally suited for integration with various agent frameworks.",
+        "tagline": "MiMo-V2.5-Pro is the latest flagship model released by Xiaomi.",
+        "max_output_tokens": 131072
       },
       {
         "id": "xiaomi/mimo-v2.5",
@@ -208517,7 +209521,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "reasoning": true,
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "prompt_caching": true
         },
         "pricing": {
           "input": 0.14,
@@ -208535,7 +209540,9 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-05-29",
-        "max_output_tokens": 128000
+        "description": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half  the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding tasks. Its 1M context window supports complete documents, extended conversations, and complex task contexts in a single pass, making it ideal for integration with agent frameworks where strong reasoning, rich perception, and cost efficiency all matter.",
+        "tagline": "MiMo-V2.5 is a native omnimodal model by Xiaomi.",
+        "max_output_tokens": 131072
       },
       {
         "id": "zai/glm-4.5-air",
@@ -214970,7 +215977,7 @@ export const providers: ProviderWithModels[] = [
         "name": "grok-4.20-0309-non-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-07-31",
         "release_date": "2026-03-09",
         "capabilities": {
           "streaming": true,
@@ -214998,63 +216005,24 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/developers/models/grok-4.20-0309-non-reasoning",
+        "page_url": "https://docs.x.ai/developers/models",
         "open_weight": false,
         "tools": [
           "function_calling"
         ],
         "knowledge_cutoff": "2024-11",
-        "status": "deprecated"
+        "status": "active",
+        "pricing_notes": [
+          "Base rate applies < 200k prompt tokens.",
+          "≥ 200k prompt tokens: $2.5 input / $5 output per 1M tokens."
+        ]
       },
       {
         "id": "grok-4.20-0309-reasoning",
         "name": "grok-4.20-0309-reasoning",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-07-24",
-        "release_date": "2026-03-09",
-        "capabilities": {
-          "streaming": true,
-          "tool_call": true,
-          "structured_output": true,
-          "reasoning": true,
-          "json_mode": true,
-          "batch": true,
-          "vision": true
-        },
-        "family": "grok-4.20",
-        "context_window": 1000000,
-        "reasoning_tokens": true,
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "pricing": {
-          "input": 1.25,
-          "output": 2.5,
-          "cached_input": 0.2
-        },
-        "model_type": "reasoning",
-        "license": "proprietary",
-        "page_url": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
-        "open_weight": false,
-        "tools": [
-          "function_calling"
-        ],
-        "knowledge_cutoff": "2024-11",
-        "status": "deprecated"
-      },
-      {
-        "id": "grok-4.20-multi-agent-0309",
-        "name": "grok-4.20-multi-agent-0309",
-        "created_by": "xai",
-        "source": "official",
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-07-31",
         "release_date": "2026-03-09",
         "capabilities": {
           "streaming": true,
@@ -215084,13 +216052,126 @@ export const providers: ProviderWithModels[] = [
         },
         "model_type": "chat",
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309",
+        "page_url": "https://docs.x.ai/developers/models",
         "open_weight": false,
         "tools": [
           "function_calling"
         ],
         "knowledge_cutoff": "2024-11",
-        "status": "deprecated"
+        "status": "active",
+        "pricing_notes": [
+          "Base rate applies < 200k prompt tokens.",
+          "≥ 200k prompt tokens: $2.5 input / $5 output per 1M tokens."
+        ]
+      },
+      {
+        "id": "grok-4.20-multi-agent-0309",
+        "name": "grok-4.20-multi-agent-0309",
+        "created_by": "xai",
+        "source": "official",
+        "last_updated": "2026-07-31",
+        "release_date": "2026-03-09",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "json_mode": true,
+          "batch": true,
+          "vision": true
+        },
+        "family": "grok-4.20",
+        "context_window": 1000000,
+        "reasoning_tokens": true,
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 2.5,
+          "cached_input": 0.2
+        },
+        "model_type": "chat",
+        "license": "proprietary",
+        "page_url": "https://docs.x.ai/developers/models",
+        "open_weight": false,
+        "tools": [
+          "function_calling"
+        ],
+        "knowledge_cutoff": "2024-11",
+        "status": "active",
+        "pricing_notes": [
+          "Base rate applies < 200k prompt tokens.",
+          "≥ 200k prompt tokens: $2.5 input / $5 output per 1M tokens."
+        ]
+      },
+      {
+        "id": "grok-4.20-multi-agent",
+        "name": "grok-4.20-multi-agent",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-4.20",
+        "status": "active",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "license": "proprietary",
+        "page_url": "https://docs.x.ai/developers/models",
+        "pricing": {
+          "input": 1.25,
+          "output": 2.5,
+          "cached_input": 0.2
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing_notes": [
+          "Base rate applies < 200k prompt tokens.",
+          "≥ 200k prompt tokens: $2.5 input / $5 output per 1M tokens."
+        ],
+        "last_updated": "2026-07-31"
+      },
+      {
+        "id": "grok-4.20",
+        "name": "grok-4.20",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-4.20",
+        "status": "active",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "license": "proprietary",
+        "page_url": "https://docs.x.ai/developers/models",
+        "pricing": {
+          "input": 1.25,
+          "output": 2.5,
+          "cached_input": 0.2
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing_notes": [
+          "Base rate applies < 200k prompt tokens.",
+          "≥ 200k prompt tokens: $2.5 input / $5 output per 1M tokens."
+        ],
+        "last_updated": "2026-07-31"
       },
       {
         "id": "grok-4.3",
@@ -215102,7 +216183,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 1000000,
         "reasoning_tokens": true,
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/developers/models/grok-4.3",
+        "page_url": "https://docs.x.ai/developers/models",
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -215131,8 +216212,12 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-07-24",
-        "status": "deprecated"
+        "last_updated": "2026-07-31",
+        "status": "active",
+        "pricing_notes": [
+          "Base rate applies < 200k prompt tokens.",
+          "≥ 200k prompt tokens: $2.5 input / $5 output per 1M tokens."
+        ]
       },
       {
         "id": "grok-4.5",
@@ -215140,11 +216225,11 @@ export const providers: ProviderWithModels[] = [
         "created_by": "xai",
         "source": "official",
         "family": "grok-4.5",
-        "knowledge_cutoff": "2024-11",
+        "knowledge_cutoff": "2026-02-01",
         "context_window": 500000,
         "reasoning_tokens": true,
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/developers/models/grok-4.5",
+        "page_url": "https://docs.x.ai/developers/models",
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -215167,14 +216252,18 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 2,
           "output": 6,
-          "cached_input": 0.5
+          "cached_input": 0.3
         },
         "open_weight": false,
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-07-24",
-        "status": "deprecated"
+        "last_updated": "2026-07-31",
+        "status": "active",
+        "pricing_notes": [
+          "Base rate applies < 200k prompt tokens.",
+          "≥ 200k prompt tokens: $4 input / $12 output per 1M tokens."
+        ]
       },
       {
         "id": "grok-build-0.1",
@@ -215184,7 +216273,7 @@ export const providers: ProviderWithModels[] = [
         "context_window": 256000,
         "reasoning_tokens": true,
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/developers/models/grok-build-0.1",
+        "page_url": "https://docs.x.ai/developers/models",
         "model_type": "chat",
         "capabilities": {
           "streaming": true,
@@ -215213,8 +216302,12 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-07-24",
-        "status": "deprecated"
+        "last_updated": "2026-07-31",
+        "status": "active",
+        "pricing_notes": [
+          "Base rate applies < 200k prompt tokens.",
+          "≥ 200k prompt tokens: $2 input / $4 output per 1M tokens."
+        ]
       },
       {
         "id": "grok-code-fast-1",
@@ -215298,7 +216391,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "grok-imagine",
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/developers/models/grok-imagine-image-quality",
+        "page_url": "https://docs.x.ai/developers/models",
         "model_type": "image",
         "capabilities": {
           "streaming": true,
@@ -215307,23 +216400,25 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "image"
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-07-24",
-        "status": "deprecated"
+        "last_updated": "2026-07-31",
+        "status": "active",
+        "pricing_notes": [
+          "$0.05 / image."
+        ]
       },
       {
         "id": "grok-imagine-image",
         "name": "grok-imagine-image",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-07-31",
         "release_date": "2026-01-28",
         "capabilities": {
           "streaming": true,
@@ -215335,20 +216430,22 @@ export const providers: ProviderWithModels[] = [
         "model_type": "image",
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "image"
           ]
         },
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/developers/models/grok-imagine-image",
+        "page_url": "https://docs.x.ai/developers/models",
         "open_weight": false,
         "tools": [
           "function_calling"
         ],
-        "status": "deprecated"
+        "status": "active",
+        "pricing_notes": [
+          "$0.02 / image."
+        ]
       },
       {
         "id": "grok-imagine-video-1.5-preview",
@@ -215383,8 +216480,8 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "grok-imagine",
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/developers/models/grok-imagine-video-1.5",
-        "model_type": "image",
+        "page_url": "https://docs.x.ai/developers/models",
+        "model_type": "video",
         "capabilities": {
           "streaming": true,
           "batch": true,
@@ -215392,22 +216489,25 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "image"
+            "text"
           ],
           "output": [
             "video"
           ]
         },
         "open_weight": false,
-        "last_updated": "2026-07-24",
-        "status": "deprecated"
+        "last_updated": "2026-07-31",
+        "status": "active",
+        "pricing_notes": [
+          "$0.080 / sec."
+        ]
       },
       {
         "id": "grok-imagine-video",
         "name": "grok-imagine-video",
         "created_by": "xai",
         "source": "official",
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-07-31",
         "release_date": "2026-01-28",
         "capabilities": {
           "streaming": true,
@@ -215416,24 +216516,73 @@ export const providers: ProviderWithModels[] = [
           "vision": true
         },
         "family": "grok-imagine",
-        "model_type": "image",
+        "model_type": "video",
         "modalities": {
           "input": [
-            "text",
-            "image",
-            "video"
+            "text"
           ],
           "output": [
             "video"
           ]
         },
         "license": "proprietary",
-        "page_url": "https://docs.x.ai/developers/models/grok-imagine-video",
+        "page_url": "https://docs.x.ai/developers/models",
         "open_weight": false,
         "tools": [
           "function_calling"
         ],
-        "status": "deprecated"
+        "status": "active",
+        "pricing_notes": [
+          "$0.050 / sec."
+        ]
+      },
+      {
+        "id": "grok-voice-think-fast-1.0",
+        "name": "grok-voice-think-fast-1.0",
+        "created_by": "xai",
+        "source": "official",
+        "status": "active",
+        "model_type": "audio",
+        "license": "proprietary",
+        "page_url": "https://docs.x.ai/developers/models",
+        "modalities": {
+          "input": [
+            "audio",
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "open_weight": false,
+        "pricing_notes": [
+          "$0.05 / min ($3.00 / hr) audio; $0.004 / text input."
+        ],
+        "last_updated": "2026-07-31"
+      },
+      {
+        "id": "grok-voice-think-fast-2.0",
+        "name": "grok-voice-think-fast-2.0",
+        "created_by": "xai",
+        "source": "official",
+        "status": "active",
+        "model_type": "audio",
+        "license": "proprietary",
+        "page_url": "https://docs.x.ai/developers/models",
+        "modalities": {
+          "input": [
+            "audio",
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "open_weight": false,
+        "pricing_notes": [
+          "$0.08 / min ($4.80 / hr) audio; $0.004 / text input."
+        ],
+        "last_updated": "2026-07-31"
       }
     ]
   },
@@ -215460,18 +216609,18 @@ export const providers: ProviderWithModels[] = [
     "models": [
       {
         "id": "mimo-v2-flash",
-        "name": "MiMo-v2-flash",
+        "name": "MiMo-V2-Flash",
         "created_by": "xiaomi",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-07-31",
         "family": "mimo",
-        "description": "309B MoE reasoning model with 15B active parameters. Fast inference at 150 tokens/s.",
+        "description": "MiMo-V2-Flash is an open-source foundation language model developed by Xiaomi. It is a Mixture-of-Experts model with 309B total parameters and 15B active parameters, adopting hybrid attention architecture. MiMo-V2-Flash supports a hybrid-thinking toggle and a 256K context window, and excels at reasoning, coding, and agent scenarios. On SWE-bench Verified and SWE-bench Multilingual, MiMo-V2-Flash ranks as the top #1 open-source model globally, delivering performance comparable to Claude Sonnet 4.5 while costing only about 3.5% as much.",
         "status": "active",
-        "release_date": "2025-12-16",
+        "release_date": "2025-12-10",
         "knowledge_cutoff": "2024-12",
-        "context_window": 256000,
-        "max_output_tokens": 64000,
-        "model_type": "reasoning",
+        "context_window": 262144,
+        "max_output_tokens": 65536,
+        "model_type": "chat",
         "reasoning_tokens": true,
         "license": "mit",
         "parameters": 309,
@@ -215486,7 +216635,8 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "json_mode": true,
           "fine_tuning": true,
-          "structured_output": true
+          "structured_output": true,
+          "prompt_caching": true
         },
         "modalities": {
           "input": [
@@ -215498,7 +216648,8 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.1,
-          "output": 0.3
+          "output": 0.3,
+          "cached_input": 0.01
         },
         "tools": [
           "function_calling"
@@ -215506,16 +216657,16 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "mimo-v2-omni",
-        "name": "MiMo-v2-omni",
+        "name": "MiMo-V2-Omni",
         "created_by": "xiaomi",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-07-31",
         "family": "mimo",
-        "description": "Omni-modal agentic model that understands text, image, audio, and video inputs.",
+        "description": "MiMo-V2-Omni is a frontier omni-modal model that natively processes image, video, and audio inputs within a unified architecture. It combines strong multimodal perception with agentic capability — visual grounding, multi-step planning, tool use, and code execution — making it well-suited for complex real-world tasks that span modalities. 256K context window.",
         "status": "deprecated",
         "release_date": "2026-03-18",
-        "context_window": 256000,
-        "max_output_tokens": 128000,
+        "context_window": 262144,
+        "max_output_tokens": 65536,
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "proprietary",
@@ -215528,14 +216679,15 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "json_mode": true,
-          "structured_output": true
+          "structured_output": true,
+          "prompt_caching": true
         },
         "modalities": {
           "input": [
             "text",
             "image",
-            "audio",
-            "video"
+            "video",
+            "audio"
           ],
           "output": [
             "text"
@@ -215543,7 +216695,8 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.4,
-          "output": 2
+          "output": 2,
+          "cached_input": 0.08
         },
         "tools": [
           "function_calling"
@@ -215553,17 +216706,17 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "mimo-v2-pro",
-        "name": "MiMo-v2-pro",
+        "name": "MiMo-V2-Pro",
         "created_by": "xiaomi",
         "source": "official",
-        "last_updated": "2026-06-03",
+        "last_updated": "2026-07-31",
         "family": "mimo",
-        "description": "Flagship foundation model with 1M-token context and top-tier agentic capabilities.",
+        "description": "MiMo-V2-Pro is Xiaomi's flagship foundation model, featuring over 1T total parameters and a 1M context length, deeply optimized for agentic scenarios. It is highly adaptable to general agent frameworks like OpenClaw. It ranks among the global top tier in the standard PinchBench and ClawBench benchmarks, with perceived performance approaching that of Opus 4.6. MiMo-V2-Pro is designed to serve as the brain of agent systems, orchestrating complex workflows, driving production engineering tasks, and delivering results reliably.",
         "status": "deprecated",
         "release_date": "2026-03-18",
-        "context_window": 1000000,
-        "max_output_tokens": 128000,
-        "model_type": "reasoning",
+        "context_window": 1048576,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
         "reasoning_tokens": true,
         "license": "proprietary",
         "parameters": 1000,
@@ -215577,11 +216730,13 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "tool_call": true,
           "json_mode": true,
-          "structured_output": true
+          "structured_output": true,
+          "vision": true
         },
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
             "text"
@@ -215687,9 +216842,9 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "mimo",
         "status": "active",
-        "context_window": 1000000,
-        "max_output_tokens": 128000,
-        "model_type": "reasoning",
+        "context_window": 1048576,
+        "max_output_tokens": 131072,
+        "model_type": "chat",
         "reasoning_tokens": true,
         "page_url": "https://platform.xiaomimimo.com",
         "capabilities": {
@@ -215697,11 +216852,14 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true,
           "tool_call": true,
           "structured_output": true,
-          "json_mode": true
+          "json_mode": true,
+          "prompt_caching": true,
+          "vision": true
         },
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
             "text"
@@ -215710,7 +216868,15 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-07-31",
+        "description": "MiMo-V2.5-Pro is the latest flagship model released by Xiaomi. Compared to its predecessor, it delivers significant improvements in general agentic capabilities, complex software engineering, and long-horizon tasks, ranking top on benchmarks such as ClawEval, GDPVal, and SWE-bench Pro. It can independently and fully autonomously complete professional tasks that would take human experts days or even weeks, involving more than a thousand tool calls. Its context length of up to 1M makes it ideally suited for integration with various agent frameworks.",
+        "release_date": "2026-04-22",
+        "tagline": "MiMo-V2.5-Pro is the latest flagship model released by Xiaomi.",
+        "pricing": {
+          "input": 0.435,
+          "output": 0.87,
+          "cached_input": 0.0036
+        }
       },
       {
         "id": "mimo-v2.5-tts-voiceclone",
@@ -215782,8 +216948,8 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "mimo",
         "status": "active",
-        "context_window": 1000000,
-        "max_output_tokens": 128000,
+        "context_window": 1048576,
+        "max_output_tokens": 131072,
         "model_type": "chat",
         "reasoning_tokens": true,
         "page_url": "https://platform.xiaomimimo.com",
@@ -215793,14 +216959,15 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "structured_output": true,
           "vision": true,
-          "json_mode": true
+          "json_mode": true,
+          "prompt_caching": true
         },
         "modalities": {
           "input": [
             "text",
             "image",
-            "audio",
-            "video"
+            "video",
+            "audio"
           ],
           "output": [
             "text"
@@ -215809,7 +216976,15 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-07-31",
+        "description": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half  the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding tasks. Its 1M context window supports complete documents, extended conversations, and complex task contexts in a single pass, making it ideal for integration with agent frameworks where strong reasoning, rich perception, and cost efficiency all matter.",
+        "release_date": "2026-04-22",
+        "tagline": "MiMo-V2.5 is a native omnimodal model by Xiaomi.",
+        "pricing": {
+          "input": 0.14,
+          "output": 0.28,
+          "cached_input": 0.0028
+        }
       }
     ]
   },

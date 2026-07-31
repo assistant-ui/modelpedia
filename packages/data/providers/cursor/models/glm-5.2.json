@@ -1,0 +1,43 @@
+{
+  "id": "glm-5.2",
+  "name": "GLM 5.2",
+  "created_by": "z.ai",
+  "source": "official",
+  "family": "glm-5.2",
+  "context_window": 200000,
+  "performance": 4,
+  "speed": 3,
+  "page_url": "https://cursor.com/docs/models-and-pricing#glm-5-2",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.4,
+    "output": 4.4,
+    "cached_input": 0.26
+  },
+  "pricing_notes": ["Hidden by default"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8386dcc7",
+    "family": "8e7b3ca0",
+    "context_window": "03e6c616",
+    "performance": "a87ff679",
+    "speed": "eccbc87e",
+    "page_url": "84c1e2c1",
+    "model_type": "d669f408",
+    "capabilities": "a281e83a",
+    "modalities": "68e53d93",
+    "pricing": "fbb9d87e",
+    "pricing_notes": "963e4ad1",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-31"
+}

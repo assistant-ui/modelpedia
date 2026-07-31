@@ -4,7 +4,7 @@
   "created_by": "anthropic",
   "source": "official",
   "family": "claude-opus",
-  "context_window": 200000,
+  "context_window": 300000,
   "max_context_window": 1000000,
   "performance": 5,
   "speed": 3,
@@ -27,13 +27,13 @@
     "cached_input": 0.5
   },
   "pricing_notes": [
-    "Requires Max Mode on request-based plans; Up to 1M tokens in Max Mode at the same per-token rates (no long-context surcharge)"
+    "Hidden by default; Requires Max Mode on legacy request-based plans; Up to 1M tokens with extended context at the same per-token rates (no long-context surcharge)"
   ],
   "tools": ["function_calling"],
   "_generated": {
     "name": "ec86d23d",
     "family": "4e4c4b18",
-    "context_window": "03e6c616",
+    "context_window": "1ded704c",
     "max_context_window": "8155bc54",
     "performance": "e4da3b7f",
     "speed": "eccbc87e",
@@ -42,8 +42,8 @@
     "capabilities": "7ca28ec9",
     "modalities": "6399757e",
     "pricing": "bd5536c6",
-    "pricing_notes": "25b48254",
+    "pricing_notes": "10a3f829",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-26"
+  "last_updated": "2026-07-31"
 }

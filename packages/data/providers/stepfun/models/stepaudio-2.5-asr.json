@@ -3,7 +3,7 @@
   "name": "StepAudio 2.5 ASR",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-07-31",
   "family": "stepaudio",
   "description": "4B-parameter speech recognition model with multi-token prediction. Processes ~5 minutes of audio per second of compute. Supports ITN.",
   "status": "active",
@@ -15,5 +15,19 @@
     "output": ["text"]
   },
   "endpoints": ["audio_transcriptions"],
-  "pricing_notes": ["0.022 USD per hour."]
+  "pricing_notes": ["0.15元/小时 (CNY)."],
+  "tagline": "4B-parameter speech recognition model with multi-token prediction.",
+  "_generated": {
+    "name": "1d3a9001",
+    "family": "c34b016b",
+    "description": "4cbc20a3",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "license": "9186c466",
+    "open_weight": "b326b506",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "pricing_notes": "a1da2322",
+    "tagline": "1a8c06d1"
+  }
 }

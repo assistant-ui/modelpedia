@@ -1,0 +1,48 @@
+{
+  "id": "kimi-k3",
+  "name": "Kimi K3",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k3",
+  "context_window": 200000,
+  "max_context_window": 1000000,
+  "performance": 4,
+  "speed": 3,
+  "page_url": "https://cursor.com/docs/models-and-pricing#kimi-k3",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.3
+  },
+  "pricing_notes": [
+    "Hidden by default; Requires Max Mode on legacy request-based plans; Up to 1M tokens with extended context at the same per-token rates (no long-context surcharge); No separate cache-write fee"
+  ],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "894c7fc5",
+    "family": "73e8093c",
+    "context_window": "03e6c616",
+    "max_context_window": "8155bc54",
+    "performance": "a87ff679",
+    "speed": "eccbc87e",
+    "page_url": "a22cfe92",
+    "model_type": "d669f408",
+    "capabilities": "7ca28ec9",
+    "modalities": "6399757e",
+    "pricing": "0deaf3da",
+    "pricing_notes": "97a82bdb",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-31"
+}

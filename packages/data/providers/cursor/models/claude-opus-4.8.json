@@ -1,0 +1,49 @@
+{
+  "id": "claude-opus-4.8",
+  "name": "Claude Opus 4.8",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "context_window": 300000,
+  "max_context_window": 1000000,
+  "performance": 5,
+  "speed": 3,
+  "page_url": "https://cursor.com/docs/models-and-pricing#claude-opus-4-8",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 25,
+    "cache_write": 6.25,
+    "cached_input": 0.5
+  },
+  "pricing_notes": [
+    "Hidden by default; Requires Max Mode on legacy request-based plans; Fast mode (\\`claude-opus-4-8-fast\\`) requires Max Mode on legacy request-based plans; Fast mode is 3x lower per-token pricing than Opus 4.7 fast mode; Up to 1M tokens with extended context at the same per-token rates (no long-context surcharge)"
+  ],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8b89b223",
+    "family": "4e4c4b18",
+    "context_window": "1ded704c",
+    "max_context_window": "8155bc54",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "page_url": "a5a96bdf",
+    "model_type": "d669f408",
+    "capabilities": "7ca28ec9",
+    "modalities": "6399757e",
+    "pricing": "bd5536c6",
+    "pricing_notes": "1d35aa22",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-31"
+}

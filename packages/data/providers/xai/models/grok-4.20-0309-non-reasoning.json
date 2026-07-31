@@ -3,7 +3,7 @@
   "name": "grok-4.20-0309-non-reasoning",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-31",
   "release_date": "2026-03-09",
   "capabilities": {
     "streaming": true,
@@ -34,17 +34,22 @@
     "pricing": "64e647aa",
     "model_type": "d669f408",
     "license": "9186c466",
-    "page_url": "c863db74",
+    "page_url": "053acbe7",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "knowledge_cutoff": "88ec15a4",
-    "status": "2e2f74dc"
+    "status": "379ac110",
+    "pricing_notes": "f6a14059"
   },
   "model_type": "chat",
   "license": "proprietary",
-  "page_url": "https://docs.x.ai/developers/models/grok-4.20-0309-non-reasoning",
+  "page_url": "https://docs.x.ai/developers/models",
   "open_weight": false,
   "tools": ["function_calling"],
   "knowledge_cutoff": "2024-11",
-  "status": "deprecated"
+  "status": "active",
+  "pricing_notes": [
+    "Base rate applies < 200k prompt tokens.",
+    "≥ 200k prompt tokens: $2.5 input / $5 output per 1M tokens."
+  ]
 }

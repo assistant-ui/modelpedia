@@ -4,11 +4,11 @@
   "created_by": "xai",
   "source": "official",
   "family": "grok-4.5",
-  "knowledge_cutoff": "2024-11",
+  "knowledge_cutoff": "2026-02-01",
   "context_window": 500000,
   "reasoning_tokens": true,
   "license": "proprietary",
-  "page_url": "https://docs.x.ai/developers/models/grok-4.5",
+  "page_url": "https://docs.x.ai/developers/models",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -26,26 +26,31 @@
   "pricing": {
     "input": 2,
     "output": 6,
-    "cached_input": 0.5
+    "cached_input": 0.3
   },
   "open_weight": false,
   "tools": ["function_calling"],
   "_generated": {
     "name": "ce414514",
     "family": "ce414514",
-    "knowledge_cutoff": "88ec15a4",
+    "knowledge_cutoff": "9f9b3d52",
     "context_window": "c9077732",
     "reasoning_tokens": "b326b506",
     "license": "9186c466",
-    "page_url": "809bc1f3",
+    "page_url": "053acbe7",
     "model_type": "d669f408",
     "capabilities": "4c59e8d2",
     "modalities": "6399757e",
-    "pricing": "1b0b4866",
+    "pricing": "fab18d6a",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "status": "2e2f74dc"
+    "status": "379ac110",
+    "pricing_notes": "36593764"
   },
-  "last_updated": "2026-07-24",
-  "status": "deprecated"
+  "last_updated": "2026-07-31",
+  "status": "active",
+  "pricing_notes": [
+    "Base rate applies < 200k prompt tokens.",
+    "≥ 200k prompt tokens: $4 input / $12 output per 1M tokens."
+  ]
 }

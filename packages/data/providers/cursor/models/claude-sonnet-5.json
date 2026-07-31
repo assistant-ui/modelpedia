@@ -1,0 +1,49 @@
+{
+  "id": "claude-sonnet-5",
+  "name": "Claude Sonnet 5",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-sonnet",
+  "context_window": 200000,
+  "max_context_window": 1000000,
+  "performance": 5,
+  "speed": 3,
+  "page_url": "https://cursor.com/docs/models-and-pricing#claude-sonnet-5",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cache_write": 3.75,
+    "cached_input": 0.3
+  },
+  "pricing_notes": [
+    "Launch promotion: $2/M input and $10/M output through August 31, 2026; Requires Max Mode on legacy request-based plans; Up to 1M tokens with extended context at the same per-token rates (no long-context surcharge); Uses an updated tokenizer, so the same input can map to more tokens"
+  ],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9e3abd5e",
+    "family": "68d1c457",
+    "context_window": "03e6c616",
+    "max_context_window": "8155bc54",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "page_url": "e89029b9",
+    "model_type": "d669f408",
+    "capabilities": "7ca28ec9",
+    "modalities": "6399757e",
+    "pricing": "068285c8",
+    "pricing_notes": "ebdb375d",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-31"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "uzlm/alloma-1B-Instruct",
+  "name": "alloma-1B-Instruct",
+  "created_by": "uzlm",
+  "source": "official",
+  "release_date": "2025-09-03",
+  "context_window": 131072,
+  "license": "llama3.2",
+  "parameters": 1.2,
+  "page_url": "https://huggingface.co/uzlm/alloma-1B-Instruct",
+  "architecture": "transformer",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "3375d628",
+    "release_date": "80e5c530",
+    "context_window": "f7de594e",
+    "license": "8c002029",
+    "parameters": "56765472",
+    "page_url": "f9f22cad",
+    "architecture": "8832ea0f",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-07-31"
+}

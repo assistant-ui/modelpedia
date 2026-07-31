@@ -3,7 +3,7 @@
   "name": "Step 1o Audio",
   "created_by": "stepfun",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-07-31",
   "family": "step-1o",
   "description": "Real-time voice interaction model. 30-minute live sessions, 70-minute max audio input.",
   "status": "active",
@@ -30,6 +30,12 @@
     "capabilities": "0fa77dc6",
     "modalities": "cf05925d",
     "endpoints": "c7ed7203",
-    "tagline": "b036f6e4"
+    "tagline": "b036f6e4",
+    "pricing": "2123d929"
+  },
+  "pricing": {
+    "input": 3.472,
+    "cached_input": 0.694,
+    "output": 8.333
   }
 }

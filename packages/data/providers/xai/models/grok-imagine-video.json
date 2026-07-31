@@ -3,7 +3,7 @@
   "name": "grok-imagine-video",
   "created_by": "xai",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-31",
   "release_date": "2026-01-28",
   "capabilities": {
     "streaming": true,
@@ -12,9 +12,9 @@
     "vision": true
   },
   "family": "grok-imagine",
-  "model_type": "image",
+  "model_type": "video",
   "modalities": {
-    "input": ["text", "image", "video"],
+    "input": ["text"],
     "output": ["video"]
   },
   "_generated": {
@@ -22,17 +22,19 @@
     "release_date": "7b38667e",
     "capabilities": "5700f071",
     "family": "a4576b5e",
-    "model_type": "db8857fe",
-    "modalities": "e248f03e",
+    "model_type": "4d1b75ca",
+    "modalities": "94e5e9ab",
     "license": "9186c466",
-    "page_url": "4350b16c",
+    "page_url": "053acbe7",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "status": "2e2f74dc"
+    "status": "379ac110",
+    "pricing_notes": "3d6eeecd"
   },
   "license": "proprietary",
-  "page_url": "https://docs.x.ai/developers/models/grok-imagine-video",
+  "page_url": "https://docs.x.ai/developers/models",
   "open_weight": false,
   "tools": ["function_calling"],
-  "status": "deprecated"
+  "status": "active",
+  "pricing_notes": ["$0.050 / sec."]
 }

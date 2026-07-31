@@ -1,0 +1,35 @@
+{
+  "id": "minimax/h3/image-to-video",
+  "name": "MiniMax H3 Image to Video",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "MiniMax H3 is a frontier video model.",
+  "status": "active",
+  "release_date": "2026-07-31",
+  "model_type": "video",
+  "page_url": "https://fal.run/minimax/h3/image-to-video",
+  "tagline": "MiniMax H3 is a frontier video model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-07-31",
+  "_generated": {
+    "name": "b2ea125c",
+    "description": "9632348a",
+    "status": "379ac110",
+    "release_date": "0ee605c3",
+    "model_type": "4d1b75ca",
+    "page_url": "5a380e4b",
+    "tagline": "9632348a",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "0ee605c3"
+  },
+  "last_updated": "2026-07-31"
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-31",
+  "count": 20,
+  "ids": [
+    "flux-1-dev",
+    "flux-1-kontext-dev",
+    "flux-1-schnell",
+    "flux-2-dev",
+    "flux-2-flex",
+    "flux-2-klein-4b",
+    "flux-2-klein-9b",
+    "flux-2-klein-9b-preview",
+    "flux-2-max",
+    "flux-2-pro",
+    "flux-2-pro-preview",
+    "flux-dev",
+    "flux-kontext-max",
+    "flux-kontext-pro",
+    "flux-pro-1.0-expand",
+    "flux-pro-1.0-fill",
+    "flux-pro-1.0-fill-finetuned",
+    "flux-pro-1.1",
+    "flux-pro-1.1-ultra",
+    "flux-pro-1.1-ultra-finetuned"
+  ]
+}

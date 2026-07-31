@@ -21,7 +21,17 @@
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "open_weight": "68934a3e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "d9234945",
+    "pricing_notes": "a5e6aa9a"
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-07-31",
+  "pricing": {
+    "input": 5,
+    "output": 30,
+    "cached_input": 0.5
+  },
+  "pricing_notes": [
+    "Input ranges $5 to $10, output ranges $30 to $45 per 1M tokens."
+  ]
 }
