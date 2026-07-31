@@ -1,0 +1,16 @@
+{
+  "id": "irulkenzei/voice-over-app-cloud",
+  "name": "Voice Over App Cloud",
+  "created_by": "irulkenzei",
+  "source": "official",
+  "status": "active",
+  "model_type": "audio",
+  "page_url": "https://replicate.com/irulkenzei/voice-over-app-cloud",
+  "_generated": {
+    "name": "a8e48661",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "page_url": "4d817e30"
+  },
+  "last_updated": "2026-07-31"
+}

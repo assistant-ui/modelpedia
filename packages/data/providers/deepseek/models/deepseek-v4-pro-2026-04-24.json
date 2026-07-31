@@ -4,7 +4,7 @@
   "created_by": "deepseek",
   "source": "official",
   "family": "deepseek-chat",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-04-24",
   "context_window": 1000000,
   "max_output_tokens": 384000,
@@ -33,7 +33,7 @@
   "_generated": {
     "name": "acc10913",
     "family": "fbd79fd9",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "173d2bb2",
     "context_window": "8155bc54",
     "max_output_tokens": "c58e26bd",
@@ -45,8 +45,12 @@
     "open_weight": "b326b506",
     "endpoints": "772bacef",
     "tools": "f0c1dc7e",
-    "reasoning_tokens": "b326b506"
+    "reasoning_tokens": "b326b506",
+    "deprecation_date": "0ee605c3",
+    "successor": "86c5bc55"
   },
-  "last_updated": "2026-05-11",
-  "reasoning_tokens": true
+  "last_updated": "2026-07-31",
+  "reasoning_tokens": true,
+  "deprecation_date": "2026-07-31",
+  "successor": "deepseek-v4-pro-2026-07-31"
 }

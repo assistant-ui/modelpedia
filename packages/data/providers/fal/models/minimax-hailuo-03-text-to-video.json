@@ -1,0 +1,31 @@
+{
+  "id": "minimax/hailuo-03/text-to-video",
+  "name": "Hailuo 03 Text to Video",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "MiniMax's Hailuo-03 is a frontier video model.",
+  "status": "active",
+  "release_date": "2026-07-29",
+  "model_type": "video",
+  "page_url": "https://fal.run/minimax/hailuo-03/text-to-video",
+  "tagline": "MiniMax's Hailuo-03 is a frontier video model.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-07-31",
+  "_generated": {
+    "name": "be68f473",
+    "description": "d7ea05b4",
+    "status": "379ac110",
+    "release_date": "1e733828",
+    "model_type": "4d1b75ca",
+    "page_url": "fd00efc8",
+    "tagline": "d7ea05b4",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "0ee605c3"
+  },
+  "last_updated": "2026-07-31"
+}

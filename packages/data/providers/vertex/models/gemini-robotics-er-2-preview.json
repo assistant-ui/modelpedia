@@ -1,0 +1,49 @@
+{
+  "id": "gemini-robotics-er-2-preview",
+  "name": "gemini-robotics-er-2-preview",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-2",
+  "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini Robotics ER 2 Preview Gemini Robotics ER 2 is a vision-language model (VLM) for robotics that accepts text, image, video, and audio input. It supports spatial reasoning, video understanding, agentic code execution, multi-step tool orchestration, and multi-robot coordination.",
+  "status": "active",
+  "knowledge_cutoff": "2025-01",
+  "context_window": 131072,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "license": "proprietary",
+  "tagline": "The Interactions API is now generally available.",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text", "image", "audio"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "f10807ad",
+    "family": "6cb100fc",
+    "description": "45eaf5a3",
+    "status": "379ac110",
+    "knowledge_cutoff": "3f358a56",
+    "context_window": "f7de594e",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "tagline": "9fee8828",
+    "open_weight": "68934a3e",
+    "capabilities": "fdff467b",
+    "modalities": "0b49b61e",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-07-31"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "seedance-2.5",
+  "name": "Seedance 2.5",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "A new-generation video creation model built for 30-second storytelling with precise reference control and powerful editing capabilities.",
+  "status": "active",
+  "model_type": "video",
+  "page_url": "https://seed.bytedance.com/en/seedance2_5",
+  "tagline": "A new-generation video creation model built for 30-second storytelling with precise reference control and powerful editing capabilities.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "ea623aef",
+    "description": "22ba08d8",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "page_url": "5f1e2c91",
+    "tagline": "22ba08d8",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-07-31"
+}

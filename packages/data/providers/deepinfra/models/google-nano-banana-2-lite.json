@@ -1,0 +1,34 @@
+{
+  "id": "google/nano-banana-2-lite",
+  "name": "nano-banana-2-lite",
+  "created_by": "google",
+  "source": "official",
+  "description": "Nano Banana 2 Lite enables high speed image generation a reality, while keeping the high quality editing of Nano Banana.",
+  "status": "active",
+  "model_type": "image",
+  "license": "gemma",
+  "open_weight": false,
+  "tagline": "Nano Banana 2 Lite enables high speed image generation a reality, while keeping the high quality editing of Nano Banana.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "0ab03daf",
+    "description": "f3aa46cb",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "license": "3fe02b16",
+    "open_weight": "68934a3e",
+    "tagline": "f3aa46cb",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-07-31"
+}

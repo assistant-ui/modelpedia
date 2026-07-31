@@ -1,0 +1,35 @@
+{
+  "id": "microsoft/mai-image-2.5-pro/edit",
+  "name": "MAI Image 2.5 Pro (Edit)",
+  "created_by": "microsoft",
+  "source": "official",
+  "description": "Apply precise, controllable edits to a reference image while preserving composition, typography, identity, and fine visual detail.",
+  "status": "active",
+  "release_date": "2026-07-28",
+  "model_type": "image",
+  "page_url": "https://fal.run/microsoft/mai-image-2.5-pro/edit",
+  "tagline": "Apply precise, controllable edits to a reference image while preserving composition, typography, identity, and fine visual detail.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-07-30",
+  "_generated": {
+    "name": "070e9f7c",
+    "description": "083e3cdf",
+    "status": "379ac110",
+    "release_date": "b4e99da9",
+    "model_type": "db8857fe",
+    "page_url": "492e5c5d",
+    "tagline": "083e3cdf",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "6a999b3f"
+  },
+  "last_updated": "2026-07-31"
+}

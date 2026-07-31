@@ -1,0 +1,34 @@
+{
+  "id": "google/nano-banana-2",
+  "name": "nano-banana-2",
+  "created_by": "google",
+  "source": "official",
+  "description": "Nano Banana 2 makes high quality image generation and editing mainstream. The model also introduces Grounding with Google Image Search to enable long-tail entity recognition and enhance visual understanding.",
+  "status": "active",
+  "model_type": "image",
+  "license": "gemma",
+  "open_weight": false,
+  "tagline": "Nano Banana 2 makes high quality image generation and editing mainstream.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "eb8f3a66",
+    "description": "572c8dbc",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "license": "3fe02b16",
+    "open_weight": "68934a3e",
+    "tagline": "f9657c14",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-07-31"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "s/inkling-small",
+  "name": "Inkling Small",
+  "created_by": "unknown",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/inkling-small",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 1.2
+  },
+  "_generated": {
+    "name": "d07233c2",
+    "page_url": "bef23009",
+    "capabilities": "0fa77dc6",
+    "pricing": "9d6999be"
+  },
+  "last_updated": "2026-07-31"
+}
