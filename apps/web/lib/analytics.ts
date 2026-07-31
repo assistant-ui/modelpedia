@@ -1,4 +1,4 @@
-import type { Model, ProviderWithModels } from "./data";
+import { getPriceChanges, type Model, type ProviderWithModels } from "./data";
 
 /** Minimal model for detail panel (serializable) */
 export interface AnalyticsModel {
@@ -106,6 +106,19 @@ export interface PricingMonth {
   count: number;
 }
 
+/** A single input-price step, used for the recent price moves board */
+export interface PriceMove {
+  provider: string;
+  providerName: string;
+  icon?: string;
+  id: string;
+  name: string;
+  from: number;
+  to: number;
+  pct: number;
+  date: string;
+}
+
 export interface LicenseCount {
   license: string;
   count: number;
@@ -156,6 +169,7 @@ export interface AnalyticsData {
   modelTypeDistribution: ModelTypeCount[];
   paramsTrend: ParamsMonth[];
   pricingTrend: PricingMonth[];
+  priceMoves: { cuts: PriceMove[]; raises: PriceMove[]; since: string };
   licenseDistribution: LicenseCount[];
   topFamilies: FamilyCount[];
   providerRanking: ProviderModelCount[];
@@ -367,7 +381,10 @@ export function computeAnalytics(
     }
   }
   if (otherCount > 0) {
-    modelTypeDistribution.push({ type: "other", count: otherCount });
+    // "other" can already be a real model_type, so merge rather than append
+    const existing = modelTypeDistribution.find((t) => t.type === "other");
+    if (existing) existing.count += otherCount;
+    else modelTypeDistribution.push({ type: "other", count: otherCount });
   }
 
   // 8. Parameters trend (max & avg per month, last 18 months)
@@ -426,7 +443,10 @@ export function computeAnalytics(
     .map(([license, count]) => ({ license, count }));
   const licenseRest = licenseSorted.slice(10).reduce((s, [, c]) => s + c, 0);
   if (licenseRest > 0) {
-    licenseDistribution.push({ license: "other", count: licenseRest });
+    // A model can declare "other" as its license, so merge rather than append
+    const existing = licenseDistribution.find((l) => l.license === "other");
+    if (existing) existing.count += licenseRest;
+    else licenseDistribution.push({ license: "other", count: licenseRest });
   }
 
   // 11. Top families (top 15 by count)
@@ -574,6 +594,47 @@ export function computeAnalytics(
   }
   const priceSummary: PriceSummary = { totalPriced, medianRange };
 
+  // Recent input-price steps, split by direction. The window is generous
+  // because most listings only reprice a handful of times a year.
+  const windowStart = new Date(Date.now() - 30 * 86_400_000)
+    .toISOString()
+    .slice(0, 10);
+  const moves: PriceMove[] = [];
+  for (const { provider, model: id, points } of getPriceChanges(windowStart)) {
+    const known = points.filter((p) => typeof p.input === "number");
+    if (known.length < 2) continue;
+    const to = known[known.length - 1];
+    const from = known[known.length - 2];
+    const a = from.input as number;
+    const b = to.input as number;
+    if (a === b || a === 0 || to.date < windowStart) continue;
+    const model = models.find((m) => m.provider === provider && m.id === id);
+    if (!model) continue;
+    const info = providerMap.get(provider);
+    moves.push({
+      provider,
+      providerName: info?.name ?? provider,
+      icon: info?.icon,
+      id,
+      name: model.name,
+      from: a,
+      to: b,
+      pct: ((b - a) / a) * 100,
+      date: to.date,
+    });
+  }
+  const priceMoves = {
+    since: windowStart,
+    cuts: moves
+      .filter((m) => m.pct < 0)
+      .sort((x, y) => x.pct - y.pct)
+      .slice(0, 8),
+    raises: moves
+      .filter((m) => m.pct > 0)
+      .sort((x, y) => y.pct - x.pct)
+      .slice(0, 8),
+  };
+
   return {
     providerGeo,
     priceVsIntelligence,
@@ -589,6 +650,7 @@ export function computeAnalytics(
     modelTypeDistribution,
     paramsTrend,
     pricingTrend,
+    priceMoves,
     licenseDistribution,
     topFamilies,
     providerRanking,

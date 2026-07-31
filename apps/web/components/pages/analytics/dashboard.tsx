@@ -17,6 +17,7 @@ import { ModelTypeChart } from "@/components/pages/analytics/model-type-chart";
 import { OpenWeightTrend } from "@/components/pages/analytics/open-weight-trend";
 import { ParamsTrend as ParamsTrendChart } from "@/components/pages/analytics/params-trend";
 import { PriceDistribution } from "@/components/pages/analytics/price-distribution";
+import { PriceMoves } from "@/components/pages/analytics/price-moves";
 import { PriceVsIntelligence } from "@/components/pages/analytics/price-vs-intelligence";
 import { PricingTrend as PricingTrendChart } from "@/components/pages/analytics/pricing-trend";
 import { ProviderMap } from "@/components/pages/analytics/provider-map";
@@ -103,6 +104,10 @@ export function AnalyticsDashboard({ data }: { data: AnalyticsData }) {
           onSelect={setSelection}
           selection={selection}
         />
+      </Section>
+
+      <Section title="Recent Price Moves">
+        <PriceMoves data={data.priceMoves} />
       </Section>
 
       <Section title="Pricing Distribution">

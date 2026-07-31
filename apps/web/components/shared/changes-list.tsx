@@ -34,6 +34,7 @@ export function ChangesList({
   const [page, setPage] = useState(1);
   const [actionFilter, setActionFilter] = useState("");
   const [providerFilter, setProviderFilter] = useState("");
+  const [fieldFilter, setFieldFilter] = useState("");
 
   const actions = useMemo(
     () => [...new Set(entries.map((e) => e.action))].sort(),
@@ -43,6 +44,18 @@ export function ChangesList({
     () => [...new Set(entries.map((e) => e.provider))].sort(),
     [entries],
   );
+  const fields = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const e of entries) {
+      for (const f of Object.keys(e.changes ?? {})) {
+        counts.set(f, (counts.get(f) ?? 0) + 1);
+      }
+    }
+    return [...counts.entries()]
+      .sort(([a, ca], [b, cb]) => cb - ca || a.localeCompare(b))
+      .slice(0, 20)
+      .map(([f]) => f);
+  }, [entries]);
 
   const q = query.toLowerCase().trim();
 
@@ -55,6 +68,9 @@ export function ChangesList({
     if (providerFilter) {
       result = result.filter((e) => e.provider === providerFilter);
     }
+    if (fieldFilter) {
+      result = result.filter((e) => e.changes?.[fieldFilter] != null);
+    }
     if (q) {
       result = result
         .map((e) => ({ entry: e, score: scoreEntry(e, q) }))
@@ -64,7 +80,7 @@ export function ChangesList({
     }
 
     return result;
-  }, [entries, q, actionFilter, providerFilter]);
+  }, [entries, q, actionFilter, providerFilter, fieldFilter]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const safePage = Math.min(page, totalPages);
@@ -129,6 +145,30 @@ export function ChangesList({
               {providers.map((p) => (
                 <SelectItem key={p} value={p}>
                   {p}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+        <div className="text-muted-foreground flex items-center gap-1.5 text-xs">
+          <span>Field</span>
+          <Select
+            value={fieldFilter}
+            onValueChange={(v) => {
+              setFieldFilter(v ?? "");
+              setPage(1);
+            }}
+            items={{
+              "": "All",
+              ...Object.fromEntries(fields.map((f) => [f, f])),
+            }}
+          >
+            <SelectTrigger />
+            <SelectContent>
+              <SelectItem value="">All</SelectItem>
+              {fields.map((f) => (
+                <SelectItem key={f} value={f}>
+                  {f}
                 </SelectItem>
               ))}
             </SelectContent>
