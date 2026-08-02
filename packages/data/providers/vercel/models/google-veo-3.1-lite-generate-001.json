@@ -1,0 +1,23 @@
+{
+  "id": "google/veo-3.1-lite-generate-001",
+  "name": "veo-3.1-lite-generate-001",
+  "created_by": "google",
+  "source": "official",
+  "family": "veo-3.1",
+  "model_type": "video",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "2fcc94ee",
+    "family": "0fa3bcca",
+    "model_type": "4d1b75ca",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-08-02"
+}

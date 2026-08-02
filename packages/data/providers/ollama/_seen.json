@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-02",
   "count": 24,
   "ids": [
     "deepseek-v4-flash",
@@ -7,7 +7,6 @@
     "gemma4",
     "glm-5.1",
     "glm-5.2",
-    "glm-ocr",
     "gpt-oss",
     "granite4.1",
     "kimi-k2.6",
@@ -19,6 +18,7 @@
     "minimax-m2.7",
     "minimax-m3",
     "mistral-large-3",
+    "mistral-medium-3.5",
     "nemotron-3-nano",
     "nemotron-3-super",
     "nemotron-3-ultra",

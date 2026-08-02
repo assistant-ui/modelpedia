@@ -3,11 +3,12 @@
   "name": "gemini-2.5-flash-image",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-08-02",
   "family": "gemini-2.5",
   "context_window": 32800,
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "vision": true
   },
   "pricing": {
     "input": 0.3,
@@ -17,7 +18,7 @@
     "name": "418971ef",
     "family": "ea6b88bf",
     "context_window": "74a190a6",
-    "capabilities": "0fa77dc6",
+    "capabilities": "8a3b232e",
     "pricing": "8d495dc1",
     "model_type": "d669f408",
     "modalities": "68e53d93"

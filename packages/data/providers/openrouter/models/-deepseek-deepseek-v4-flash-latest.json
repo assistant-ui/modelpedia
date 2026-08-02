@@ -1,0 +1,44 @@
+{
+  "id": "~deepseek/deepseek-v4-flash-latest",
+  "name": "DeepSeek V4 Flash Latest",
+  "created_by": "~deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
+  "release_date": "2026-08-01",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.09,
+    "output": 0.18,
+    "cached_input": 0.018
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9252ee5e",
+    "family": "4b81b92d",
+    "description": "09c9af9f",
+    "release_date": "f163eace",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "09c9af9f",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "838490ee",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-02"
+}

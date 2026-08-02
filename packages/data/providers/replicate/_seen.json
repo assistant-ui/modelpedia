@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-02",
   "count": 124,
   "ids": [
     "851-labs-background-remover",
@@ -33,6 +33,7 @@
     "ccchot-osk103-moneycat",
     "ccchot-osk103-pai_qwen_21102568",
     "charlesmccarthy-addwatermark",
+    "chenxwh-depth-anything-v2",
     "cjwbw-anything-v4.0",
     "cjwbw-semantic-segment-anything",
     "codeplugtech-face-swap",
@@ -40,7 +41,8 @@
     "datacte-proteus-v0.2",
     "datacte-proteus-v0.3",
     "datalab-to-marker",
-    "digital-prairie-labs-dithering-ascii",
+    "digital-prairie-labs-cinnabar-agora",
+    "digital-prairie-labs-vhs-paint",
     "elevenlabs-music",
     "falcons-ai-nsfw_image_detection",
     "fictions-ai-autocaption",
@@ -95,8 +97,6 @@
     "philz1337x-clarity-pro-upscaler",
     "philz1337x-crystal-video-upscaler",
     "piddnad-ddcolor",
-    "prunaai-flux-fast",
-    "prunaai-p-image",
     "prunaai-p-image-ideogram",
     "prunaai-p-image-upscale",
     "prunaai-p-video",

@@ -1,0 +1,33 @@
+{
+  "id": "xai/grok-imagine-video/v1.5/text-to-video",
+  "name": "Grok Imagine Video 1.5 Text to Video",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "description": "Generate videos from prompts with audio using xAI's Grok Imagine 1.5 Video model.",
+  "status": "active",
+  "release_date": "2026-07-29",
+  "model_type": "video",
+  "page_url": "https://fal.run/xai/grok-imagine-video/v1.5/text-to-video",
+  "tagline": "Generate videos from prompts with audio using xAI's Grok Imagine 1.5 Video model.",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-08-01",
+  "_generated": {
+    "name": "9a0e7df3",
+    "family": "a4576b5e",
+    "description": "8c4e2ce7",
+    "status": "379ac110",
+    "release_date": "1e733828",
+    "model_type": "4d1b75ca",
+    "page_url": "e0da4804",
+    "tagline": "8c4e2ce7",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "f163eace"
+  },
+  "last_updated": "2026-08-02"
+}

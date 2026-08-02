@@ -5,7 +5,7 @@
   "source": "official",
   "family": "deepseek",
   "description": "DeepSeek-V4-Flash is a preview of the DeepSeek-V4 series, a Mixture-of-Experts model with 284B total parameters and 13B activated, built for efficient reasoning across a 1M-token context window.",
-  "release_date": "2026-04-24",
+  "release_date": "2026-07-31",
   "reasoning_tokens": true,
   "license": "open-weight",
   "parameters": 284,
@@ -28,7 +28,7 @@
     "name": "035b3215",
     "family": "4b81b92d",
     "description": "852654a1",
-    "release_date": "173d2bb2",
+    "release_date": "0ee605c3",
     "reasoning_tokens": "b326b506",
     "license": "6327aaea",
     "parameters": "46ba9f2a",
@@ -40,5 +40,5 @@
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-25"
+  "last_updated": "2026-08-02"
 }

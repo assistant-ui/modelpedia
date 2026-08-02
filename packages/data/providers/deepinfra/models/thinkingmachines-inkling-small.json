@@ -1,0 +1,49 @@
+{
+  "id": "thinkingmachines/Inkling-Small",
+  "name": "Inkling-Small",
+  "created_by": "thinkingmachines",
+  "source": "official",
+  "description": "Inkling-Small is a Mixture-of-Experts transformer with 276B total parameters, 12B active, trained on NVIDIA GB300 NVL72 systems. Like Inkling, it features native reasoning over audio and images, variable thinking effort",
+  "status": "active",
+  "context_window": 524288,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "tagline": "Inkling-Small is a Mixture-of-Experts transformer with 276B total parameters, 12B active, trained on NVIDIA GB300 NVL72 systems.",
+  "capabilities": {
+    "tool_call": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.45,
+    "output": 1.2,
+    "cached_input": 0.1
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "_generated": {
+    "name": "b9a6156f",
+    "description": "5047e52c",
+    "status": "379ac110",
+    "context_window": "bcabf6a1",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "tagline": "6eb7bd40",
+    "capabilities": "70af0a43",
+    "modalities": "6399757e",
+    "pricing": "adc2ae9f",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9"
+  },
+  "last_updated": "2026-08-02"
+}

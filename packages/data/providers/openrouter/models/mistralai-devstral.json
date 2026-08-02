@@ -3,7 +3,7 @@
   "name": "Mistral: Devstral 2 2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-08-02",
   "family": "devstral",
   "description": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding.",
   "release_date": "2025-12-09",
@@ -37,6 +37,8 @@
     "capabilities": "6c9aa67e",
     "modalities": "68e53d93",
     "pricing": "e7be2550",
-    "tools": "f0c1dc7e"
-  }
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
+  },
+  "status": "deprecated"
 }

@@ -1,9 +1,10 @@
 {
-  "date": "2026-07-31",
-  "count": 311,
+  "date": "2026-08-02",
+  "count": 313,
   "ids": [
     "cogito-cogito-671b-v2-p1",
     "deepseek-ai-deepseek-v3p1-terminus",
+    "deepseek-ai-deepseek-v4-flash-0731",
     "fireworks-bge-m3",
     "fireworks-chronos-hermes-13b-v2",
     "fireworks-code-llama-13b",
@@ -97,6 +98,7 @@
     "fireworks-gpt-oss-safeguard-20b",
     "fireworks-hermes-2-pro-mistral-7b",
     "fireworks-inkling",
+    "fireworks-inkling-small",
     "fireworks-internvl3-38b",
     "fireworks-internvl3-78b",
     "fireworks-internvl3-8b",

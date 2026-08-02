@@ -3,7 +3,7 @@
   "name": "glm-ocr",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-02",
   "capabilities": {
     "streaming": true,
     "vision": true,
@@ -23,7 +23,8 @@
     "license": "6327aaea",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
-    "modalities": "6399757e"
+    "modalities": "6399757e",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "family": "glm",
@@ -38,5 +39,6 @@
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

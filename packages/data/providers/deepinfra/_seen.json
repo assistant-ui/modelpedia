@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-31",
-  "count": 214,
+  "date": "2026-08-02",
+  "count": 216,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -64,6 +64,7 @@
     "deepseek-ai-deepseek-v3.1-terminus",
     "deepseek-ai-deepseek-v3.2",
     "deepseek-ai-deepseek-v4-flash",
+    "deepseek-ai-deepseek-v4-flash-0731",
     "deepseek-ai-deepseek-v4-pro",
     "deepseek-ai-janus-pro-1b",
     "deepseek-ai-janus-pro-7b",
@@ -197,6 +198,7 @@
     "thenlper-gte-base",
     "thenlper-gte-large",
     "thinkingmachines-inkling",
+    "thinkingmachines-inkling-small",
     "wan-ai-wan2.2-t2v-a14b",
     "wan-ai-wan2.6-i2v",
     "wan-ai-wan2.6-image-edit",

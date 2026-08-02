@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-31",
-  "count": 143,
+  "date": "2026-08-02",
+  "count": 144,
   "ids": [
     "ai_infer_test_1",
     "ai_infer_test_2",
@@ -33,6 +33,7 @@
     "deepseek-deepseek-v3.2",
     "deepseek-deepseek-v3.2-exp",
     "deepseek-deepseek-v4-flash",
+    "deepseek-deepseek-v4-flash-0731",
     "deepseek-deepseek-v4-pro",
     "deepseek-deepseek_v3",
     "dev-glm46",
