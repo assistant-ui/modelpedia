@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-31",
-  "count": 312,
+  "date": "2026-08-02",
+  "count": 314,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -92,6 +92,7 @@
     "deepseek-deepseek-v3.2",
     "deepseek-deepseek-v3.2-thinking",
     "deepseek-deepseek-v4-flash",
+    "deepseek-deepseek-v4-flash-0731",
     "deepseek-deepseek-v4-pro",
     "exa-search",
     "google-gemini-2.5-flash",
@@ -123,6 +124,7 @@
     "google-veo-3.0-generate-001",
     "google-veo-3.1-fast-generate-001",
     "google-veo-3.1-generate-001",
+    "google-veo-3.1-lite-generate-001",
     "inception-mercury-2",
     "inception-mercury-coder-small",
     "inclusionai-ling-3.0-flash-free",

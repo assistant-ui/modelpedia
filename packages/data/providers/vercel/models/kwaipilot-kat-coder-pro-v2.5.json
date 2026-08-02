@@ -8,7 +8,8 @@
   "capabilities": {
     "streaming": true,
     "tool_call": true,
-    "reasoning": true
+    "reasoning": true,
+    "vision": true
   },
   "pricing": {
     "input": 0.74,
@@ -23,10 +24,10 @@
     "name": "87074c3b",
     "context_window": "2fd324cb",
     "model_type": "d669f408",
-    "capabilities": "a281e83a",
+    "capabilities": "45192957",
     "pricing": "297a072b",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-02"
 }

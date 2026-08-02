@@ -1,0 +1,52 @@
+{
+  "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+  "name": "DeepSeek-V4-Flash-0731",
+  "created_by": "deepseek",
+  "source": "official",
+  "description": "DeepSeek-V4-Flash-0731 is the official release of DeepSeek-V4-Flash, superseding the preview version, with substantially enhanced agentic capabilities. DeepSeek-V4-Flash-0731 outperforms DeepSeek-V4-Pro (Preview) on benchmarks listed below despite its far smaller activated parameter count, and is broadly competitive with the strongest proprietary models available.",
+  "status": "active",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "deepseek",
+  "open_weight": true,
+  "tagline": "DeepSeek-V4-Flash-0731 is the official release of DeepSeek-V4-Flash, superseding the preview version, with substantially enhanced agentic capabilities.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.09,
+    "output": 0.18,
+    "cached_input": 0.018
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "_generated": {
+    "name": "ecc4cb51",
+    "description": "2335892f",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "4b81b92d",
+    "open_weight": "b326b506",
+    "tagline": "30d8a86e",
+    "capabilities": "882e371a",
+    "modalities": "68e53d93",
+    "pricing": "838490ee",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee"
+  },
+  "last_updated": "2026-08-02"
+}

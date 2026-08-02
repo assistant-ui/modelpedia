@@ -3,7 +3,7 @@
   "name": "OTel-LLM-27B-IT",
   "created_by": "farbodtavakkoli",
   "source": "official",
-  "description": "**OTel-LLM-27B-IT** is a telecom-specialized language model fine-tuned on telecommunications domain data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build industry-standard AI models for the global telecommunications sector.",
+  "description": "**OTel-LLM-27B-IT** is a context-grounded telecom language model full-parameter fine-tuned on OTel telecommunications data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build reference AI resources for the global telecommunications sector.",
   "release_date": "2026-02-11",
   "license": "apache-2.0",
   "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-27B-IT",
@@ -18,7 +18,7 @@
   "tools": ["function_calling"],
   "_generated": {
     "name": "27b7b666",
-    "description": "2e6a3f71",
+    "description": "efc1bce1",
     "release_date": "d8edba92",
     "license": "60245731",
     "page_url": "beb27787",
@@ -28,5 +28,5 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-22"
+  "last_updated": "2026-08-02"
 }

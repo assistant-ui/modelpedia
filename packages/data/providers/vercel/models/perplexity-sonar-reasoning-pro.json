@@ -3,11 +3,12 @@
   "name": "sonar-reasoning-pro",
   "created_by": "perplexity",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-08-02",
   "context_window": 127000,
   "capabilities": {
     "streaming": true,
-    "reasoning": true
+    "reasoning": true,
+    "vision": true
   },
   "pricing": {
     "input": 0,
@@ -16,7 +17,7 @@
   "_generated": {
     "name": "a03453b7",
     "context_window": "3b764336",
-    "capabilities": "b011c6b4",
+    "capabilities": "38c6412e",
     "pricing": "9a7a9781",
     "model_type": "d669f408",
     "family": "8b8f2acb",

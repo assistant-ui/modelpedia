@@ -1,0 +1,43 @@
+{
+  "id": "tokyotech-llm/Qwen3-Swallow-32B-SFT-v0.2",
+  "name": "Qwen3-Swallow-32B-SFT-v0.2",
+  "created_by": "tokyotech-llm",
+  "source": "official",
+  "description": "**Qwen3-Swallow v0.2** is a family of large language models available in **8B**, **30B-A3B**, and **32B** parameter sizes. Built as bilingual Japanese-English models, they were developed through Continual Pre-Training (CPT), Supervised Fine-Tuning (SFT), and Reinforcement Learning with Verifiable Rewards (RLVR) based on the Qwen3 [Yang, 2025].",
+  "release_date": "2026-01-25",
+  "context_window": 40960,
+  "license": "apache-2.0",
+  "parameters": 33,
+  "page_url": "https://huggingface.co/tokyotech-llm/Qwen3-Swallow-32B-SFT-v0.2",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "**Qwen3-Swallow v0.2** is a family of large language models available in **8B**, **30B-A3B**, and **32B** parameter sizes.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e3d16b05",
+    "description": "b0761c3f",
+    "release_date": "9e7a3850",
+    "context_window": "a422a18c",
+    "license": "60245731",
+    "parameters": "182be0c5",
+    "page_url": "a628249f",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "c7415c10",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-02"
+}

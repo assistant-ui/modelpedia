@@ -3,7 +3,7 @@
   "name": "OpenAI: GPT-5.1 Chat",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-07-30",
+  "last_updated": "2026-08-02",
   "family": "gpt-5.1",
   "description": "GPT-5.1 Chat (AKA Instant is the fast, lightweight member of the 5.1 family, optimized for low-latency chat while retaining strong general intelligence.",
   "context_window": 128000,
@@ -34,10 +34,12 @@
     "model_type": "d669f408",
     "release_date": "c4b1d0fd",
     "tagline": "0b8e5453",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "release_date": "2025-11-13",
   "tagline": "GPT-5.1 Chat (AKA Instant is the fast, lightweight member of the 5.1 family, optimized for low-latency chat while retaining strong general intelligence.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

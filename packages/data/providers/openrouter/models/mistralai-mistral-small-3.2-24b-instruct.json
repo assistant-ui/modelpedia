@@ -3,7 +3,7 @@
   "name": "Mistral: Mistral Small 3.2 24B",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-08-02",
   "family": "mistral-small",
   "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling.",
   "context_window": 256000,
@@ -17,8 +17,8 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.1,
-    "output": 0.3,
+    "input": 0.075,
+    "output": 0.2,
     "cached_input": 0.01
   },
   "_generated": {
@@ -28,7 +28,7 @@
     "context_window": "2fd324cb",
     "modalities": "8b8b28d1",
     "capabilities": "6c9aa67e",
-    "pricing": "8e470dd0",
+    "pricing": "b646d404",
     "model_type": "d669f408",
     "parameters": "1ff1de77",
     "release_date": "9177720a",

@@ -1,9 +1,9 @@
 {
   "id": "zai-org/GLM-4.7-FP8",
   "name": "GLM-4.7-FP8",
-  "created_by": "zhipu",
+  "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-05-29",
+  "last_updated": "2026-08-02",
   "capabilities": {
     "streaming": true,
     "tool_call": true,

@@ -3,11 +3,12 @@
   "name": "gemini-3-pro-image",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-08-02",
   "family": "gemini-3",
   "context_window": 65500,
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "vision": true
   },
   "pricing": {
     "input": 2,
@@ -17,7 +18,7 @@
     "name": "1f41d2e6",
     "family": "eb14e598",
     "context_window": "90c532bc",
-    "capabilities": "0fa77dc6",
+    "capabilities": "8a3b232e",
     "pricing": "0aef5f9c",
     "model_type": "d669f408",
     "modalities": "68e53d93"

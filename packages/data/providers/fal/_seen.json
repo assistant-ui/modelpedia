@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-31",
-  "count": 1402,
+  "date": "2026-08-02",
+  "count": 1404,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -1403,6 +1403,8 @@
     "xai-grok-imagine-video-reference-to-video",
     "xai-grok-imagine-video-text-to-video",
     "xai-grok-imagine-video-v1.5-image-to-video",
+    "xai-grok-imagine-video-v1.5-reference-to-video",
+    "xai-grok-imagine-video-v1.5-text-to-video",
     "xai-tts-v1"
   ]
 }
