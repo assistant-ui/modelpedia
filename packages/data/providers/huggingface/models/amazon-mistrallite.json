@@ -1,0 +1,38 @@
+{
+  "id": "amazon/MistralLite",
+  "name": "MistralLite",
+  "created_by": "amazon",
+  "source": "official",
+  "description": "MistralLite is a fine-tuned [Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1) language model, with enhanced capabilities of processing long context (up to 32K tokens). By utilizing an adapted Rotary Embedding and sliding window during fine-tuning, MistralLite is able to **perform significantly better on several long context retrieve and answering tasks**, while keeping the simple model structure of the original model.",
+  "release_date": "2023-10-16",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "page_url": "https://huggingface.co/amazon/MistralLite",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "MistralLite is a fine-tuned [Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1) language model, with enhanced capabilities of processing long context (up to 32K tokens).",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "7eb64634",
+    "description": "c2a8c37d",
+    "release_date": "0d38c69f",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "page_url": "4eeb31b5",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "208d9a51",
+    "capabilities": "9c665f5d",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-08-03"
+}

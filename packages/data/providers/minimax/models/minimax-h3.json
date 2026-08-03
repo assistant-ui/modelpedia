@@ -1,0 +1,35 @@
+{
+  "id": "minimax-h3",
+  "name": "MiniMax H3",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "pricing": {
+    "input": 0.9,
+    "output": 3.6
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "0ee34e42",
+    "family": "c85916f0",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "48995a4e",
+    "pricing": "c9564ea8",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-03"
+}

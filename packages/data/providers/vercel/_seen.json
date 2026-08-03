@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-02",
-  "count": 314,
+  "date": "2026-08-03",
+  "count": 315,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -30,6 +30,7 @@
     "alibaba-qwen3.7-flash",
     "alibaba-qwen3.7-max",
     "alibaba-qwen3.7-plus",
+    "alibaba-qwen3.8-max",
     "alibaba-wan-v2.5-t2v-preview",
     "alibaba-wan-v2.6-i2v",
     "alibaba-wan-v2.6-i2v-flash",
