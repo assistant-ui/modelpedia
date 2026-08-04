@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-31",
-  "count": 176,
+  "date": "2026-08-03",
+  "count": 177,
   "ids": [
     "cosyvoice-v2",
     "cosyvoice-v3-flash",
@@ -146,6 +146,7 @@
     "qwen3.7-max",
     "qwen3.7-max-preview",
     "qwen3.7-plus",
+    "qwen3.8-max",
     "qwq-32b",
     "qwq-32b-preview",
     "qwq-plus",

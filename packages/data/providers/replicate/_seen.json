@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-02",
-  "count": 124,
+  "date": "2026-08-03",
+  "count": 125,
   "ids": [
     "851-labs-background-remover",
     "adirik-flux-cinestill",
@@ -88,6 +88,7 @@
     "minimax-music-2.6",
     "okgodoit-repos-mindprint-flux2-klein",
     "okgodoit-repos-mindprint-zimage-turbo",
+    "onesoltech-cadence-fast",
     "openai-gpt-4o-mini",
     "openai-gpt-4o-transcribe",
     "openai-gpt-5",
@@ -97,6 +98,7 @@
     "philz1337x-clarity-pro-upscaler",
     "philz1337x-crystal-video-upscaler",
     "piddnad-ddcolor",
+    "prunaai-p-image-edit",
     "prunaai-p-image-ideogram",
     "prunaai-p-image-upscale",
     "prunaai-p-video",
@@ -116,7 +118,6 @@
     "topazlabs-video-upscale",
     "vaibhavs10-incredibly-fast-whisper",
     "valllllex-cartoonia_3d",
-    "varad-13-siglip-2-large",
     "victor-upmeet-whisperx",
     "wan-video-wan-2.2-t2v-fast",
     "wan-video-wan-2.5-i2v-fast",

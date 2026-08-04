@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3.5-122B-A10B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-07-17",
+  "last_updated": "2026-08-03",
   "family": "qwen3.5",
   "description": "The Qwen3.5 122B-A10B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency.",
   "context_window": 262144,
@@ -19,8 +19,8 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.26,
-    "output": 2.08
+    "input": 0.4,
+    "output": 3.2
   },
   "_generated": {
     "name": "874314a2",
@@ -30,7 +30,7 @@
     "max_output_tokens": "297ce0b3",
     "modalities": "3ad4060a",
     "capabilities": "03fbefb4",
-    "pricing": "6113d4cf",
+    "pricing": "eddbaa6c",
     "model_type": "d669f408",
     "parameters": "a0a080f4",
     "active_parameters": "d3d94468",

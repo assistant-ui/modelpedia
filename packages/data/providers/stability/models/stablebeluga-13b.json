@@ -19,7 +19,7 @@
     "output": ["text"]
   },
   "endpoints": ["chat_completions"],
-  "huggingface_downloads": 210,
+  "huggingface_downloads": 217,
   "last_modified": "2023-08-29",
   "_generated": {
     "name": "ebdd4163",
@@ -34,8 +34,8 @@
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "endpoints": "d8fa1080",
-    "huggingface_downloads": "6f3ef77a",
+    "huggingface_downloads": "63dc7ed1",
     "last_modified": "cf47b6d1"
   },
-  "last_updated": "2026-08-02"
+  "last_updated": "2026-08-03"
 }
