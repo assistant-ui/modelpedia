@@ -1,0 +1,37 @@
+{
+  "id": "alibaba/qwen-image-3/text-to-image",
+  "name": "Qwen Image 3 Text to Image",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen",
+  "description": "Edits images from one to three reference images and a natural-language instruction, preserving key details such as facial features and identity while applying the requested changes",
+  "status": "active",
+  "release_date": "2026-07-21",
+  "model_type": "image",
+  "page_url": "https://fal.run/alibaba/qwen-image-3/text-to-image",
+  "tagline": "Edits images from one to three reference images and a natural-language instruction, preserving key details such as facial features and identity while applying the requested changes",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-08-04",
+  "_generated": {
+    "name": "d9859995",
+    "family": "a3af76f3",
+    "description": "5f38ffa3",
+    "status": "379ac110",
+    "release_date": "db9f0f5f",
+    "model_type": "db8857fe",
+    "page_url": "862d892a",
+    "tagline": "5f38ffa3",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "eb29ce77"
+  },
+  "last_updated": "2026-08-05"
+}

@@ -4,7 +4,7 @@
   "created_by": "openai",
   "source": "official",
   "family": "gpt-oss",
-  "description": "Ultra fast version of gpt-oss-120b",
+  "description": "Ultra speed version of gpt-oss-120b",
   "status": "active",
   "context_window": 131072,
   "model_type": "chat",
@@ -32,7 +32,7 @@
   "_generated": {
     "name": "9f677f78",
     "family": "82d0cb0b",
-    "description": "13087a0a",
+    "description": "af52f689",
     "status": "379ac110",
     "context_window": "f7de594e",
     "model_type": "d669f408",
@@ -47,5 +47,5 @@
     "endpoints": "d8fa1080",
     "quantization": "640679f9"
   },
-  "last_updated": "2026-07-30"
+  "last_updated": "2026-08-05"
 }

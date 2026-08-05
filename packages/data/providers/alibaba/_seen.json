@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-03",
-  "count": 133,
+  "date": "2026-08-05",
+  "count": 134,
   "ids": [
     "cosyvoice-v2",
     "cosyvoice-v3-flash",
@@ -30,6 +30,7 @@
     "qwen-image",
     "qwen-image-2.0",
     "qwen-image-2.0-pro",
+    "qwen-image-3.0",
     "qwen-image-3.0-pro",
     "qwen-image-edit",
     "qwen-image-edit-max",

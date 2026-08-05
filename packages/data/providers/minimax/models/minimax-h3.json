@@ -29,7 +29,9 @@
     "pricing": "c9564ea8",
     "open_weight": "68934a3e",
     "modalities": "68e53d93",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-08-03"
+  "last_updated": "2026-08-05",
+  "status": "deprecated"
 }

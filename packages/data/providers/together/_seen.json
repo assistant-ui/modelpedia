@@ -1,8 +1,9 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-05",
   "count": 25,
   "ids": [
     "s-cartesia-sonic-35",
+    "s-deepseek-v4-flash-0731",
     "s-deepseek-v4-pro",
     "s-gemma-4-31b",
     "s-glm-52",
@@ -10,8 +11,6 @@
     "s-happyhorse-1-0-i2v",
     "s-happyhorse-1-0-r2v",
     "s-happyhorse-1-0-t2v",
-    "s-happyhorse-1-1-i2v",
-    "s-happyhorse-1-1-t2v",
     "s-inkling",
     "s-inkling-small",
     "s-kimi-k26",
@@ -23,6 +22,7 @@
     "s-nvidia-nemotron-3-ultra",
     "s-parakeet-tdt-0-6b-v3-realtime",
     "s-prism-ml-ternary-bonsai-27b",
+    "s-qwen3-8-max",
     "s-qwen37-max",
     "s-qwen37-plus",
     "s-seedance-2-0",

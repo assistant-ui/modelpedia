@@ -1,0 +1,25 @@
+{
+  "id": "perplexity/pplx-embed-v1-0.6b",
+  "name": "pplx-embed-v1-0.6b",
+  "created_by": "perplexity",
+  "source": "official",
+  "context_window": 32000,
+  "model_type": "embed",
+  "parameters": 0.6,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "9390ac37",
+    "context_window": "10e4d788",
+    "model_type": "764cb3de",
+    "parameters": "e95e1ca2",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-08-05"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "blackforestlabs/flux-3/extend-video/draft",
+  "name": "Flux 3 Extend Video Draft",
+  "created_by": "blackforestlabs",
+  "source": "official",
+  "description": "FLUX.3 is Black Forest Labs' frontier audio/video model.",
+  "status": "active",
+  "release_date": "2026-08-04",
+  "model_type": "other",
+  "page_url": "https://fal.run/blackforestlabs/flux-3/extend-video/draft",
+  "tagline": "FLUX.3 is Black Forest Labs' frontier audio/video model.",
+  "last_seen_at": "2026-08-04",
+  "_generated": {
+    "name": "dee3e088",
+    "description": "f7595fc8",
+    "status": "379ac110",
+    "release_date": "eb29ce77",
+    "model_type": "ddb0b7bc",
+    "page_url": "b6cda0ca",
+    "tagline": "f7595fc8",
+    "last_seen_at": "eb29ce77"
+  },
+  "last_updated": "2026-08-05"
+}

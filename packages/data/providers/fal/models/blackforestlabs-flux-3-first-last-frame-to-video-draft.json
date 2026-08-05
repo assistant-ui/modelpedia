@@ -1,0 +1,35 @@
+{
+  "id": "blackforestlabs/flux-3/first-last-frame-to-video/draft",
+  "name": "Flux 3 First Last Frame to Video Draft",
+  "created_by": "blackforestlabs",
+  "source": "official",
+  "description": "FLUX.3 is Black Forest Labs' frontier audio/video model.",
+  "status": "active",
+  "release_date": "2026-08-04",
+  "model_type": "video",
+  "page_url": "https://fal.run/blackforestlabs/flux-3/first-last-frame-to-video/draft",
+  "tagline": "FLUX.3 is Black Forest Labs' frontier audio/video model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-08-04",
+  "_generated": {
+    "name": "7fb759a0",
+    "description": "f7595fc8",
+    "status": "379ac110",
+    "release_date": "eb29ce77",
+    "model_type": "4d1b75ca",
+    "page_url": "5b192217",
+    "tagline": "f7595fc8",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "eb29ce77"
+  },
+  "last_updated": "2026-08-05"
+}

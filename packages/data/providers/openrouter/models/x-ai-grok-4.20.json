@@ -1,10 +1,10 @@
 {
   "id": "x-ai/grok-4.20",
-  "name": "xAI: Grok 4.20",
+  "name": "SpaceXAI: Grok 4.20",
   "created_by": "xai",
   "source": "official",
   "family": "grok-4.20",
-  "description": "Grok 4.20 is a reasoning model from xAI with industry-leading speed and agentic tool calling capabilities.",
+  "description": "Grok 4.20 is a reasoning model from SpaceXAI with industry-leading speed and agentic tool calling capabilities.",
   "release_date": "2026-03-31",
   "context_window": 2000000,
   "model_type": "chat",
@@ -26,9 +26,9 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "a3aac4cb",
+    "name": "3b9cfb59",
     "family": "44972aca",
-    "description": "010ec44c",
+    "description": "df41eba4",
     "release_date": "3c0c39b4",
     "context_window": "805f7438",
     "model_type": "d669f408",
@@ -38,5 +38,5 @@
     "pricing": "64e647aa",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-10"
+  "last_updated": "2026-08-05"
 }

@@ -1,0 +1,29 @@
+{
+  "id": "FastVideo/FastWan2.2-TI2V-5B-FullAttn-Diffusers",
+  "name": "FastWan2.2-TI2V-5B-FullAttn-Diffusers",
+  "created_by": "fastvideo",
+  "source": "official",
+  "description": "A fast, high-quality text-to-video model — 5-second clips at 24 fps in 720p or 480p, landscape or portrait, from a text prompt. A 3-step DMD distillation of Wan2.2-TI2V-5B by FastVideo (Hao AI Lab).",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": true,
+  "tagline": "A fast, high-quality text-to-video model — 5-second clips at 24 fps in 720p or 480p, landscape or portrait, from a text prompt.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["$0.0225 per 5s video (720p); 480p half price"],
+  "_generated": {
+    "name": "849e5e6a",
+    "description": "b5a83082",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "b326b506",
+    "tagline": "b41f6902",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "c07a432e"
+  },
+  "last_updated": "2026-08-05"
+}

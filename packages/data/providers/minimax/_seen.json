@@ -1,8 +1,7 @@
 {
-  "date": "2026-08-03",
-  "count": 9,
+  "date": "2026-08-05",
+  "count": 8,
   "ids": [
-    "minimax-h3",
     "minimax-m2",
     "minimax-m2.1",
     "minimax-m2.1-highspeed",

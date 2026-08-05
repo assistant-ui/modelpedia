@@ -1,0 +1,47 @@
+{
+  "id": "Qwen/Qwen3.8-Max",
+  "name": "Qwen3.8-Max",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen's latest 2.4-trillion-parameter MoE flagship model delivering a comprehensive leap in coding and professional work.",
+  "status": "active",
+  "context_window": 256000,
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "open_weight": false,
+  "tagline": "Qwen's latest 2.4-trillion-parameter MoE flagship model delivering a comprehensive leap in coding and professional work.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.65,
+    "output": 4.951,
+    "cached_input": 0.206
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "69e946cb",
+    "description": "aff6c73f",
+    "status": "379ac110",
+    "context_window": "2fd324cb",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "open_weight": "68934a3e",
+    "tagline": "aff6c73f",
+    "capabilities": "d9d6c74e",
+    "modalities": "68e53d93",
+    "pricing": "0dd6392c",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-08-05"
+}

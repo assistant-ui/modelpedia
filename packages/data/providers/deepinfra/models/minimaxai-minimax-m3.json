@@ -18,7 +18,8 @@
     "reasoning": true,
     "vision": true,
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "structured_output": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -42,13 +43,13 @@
     "license": "c85916f0",
     "open_weight": "b326b506",
     "tagline": "f4ff088a",
-    "capabilities": "b70fac65",
+    "capabilities": "dcab918f",
     "modalities": "6399757e",
     "pricing": "0c734839",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "640679f9"
   },
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-08-05",
   "quantization": "fp8"
 }
