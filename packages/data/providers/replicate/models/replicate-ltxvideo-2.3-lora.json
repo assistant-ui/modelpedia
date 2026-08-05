@@ -3,7 +3,7 @@
   "name": "Ltxvideo 2.3 Lora",
   "created_by": "replicate",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "video",
   "page_url": "https://replicate.com/replicate/ltxvideo-2.3-lora",
   "modalities": {
@@ -13,11 +13,11 @@
   "endpoints": ["video"],
   "_generated": {
     "name": "c36b330b",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "4d1b75ca",
     "page_url": "48d03877",
     "modalities": "94e5e9ab",
     "endpoints": "7a78c070"
   },
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-08-05"
 }

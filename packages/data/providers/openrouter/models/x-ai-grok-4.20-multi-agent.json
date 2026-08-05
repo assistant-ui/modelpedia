@@ -1,10 +1,10 @@
 {
   "id": "x-ai/grok-4.20-multi-agent",
-  "name": "xAI: Grok 4.20 Multi-Agent",
+  "name": "SpaceXAI: Grok 4.20 Multi-Agent",
   "created_by": "xai",
   "source": "official",
   "family": "grok-4.20",
-  "description": "Grok 4.20 Multi-Agent is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows.",
+  "description": "Grok 4.20 Multi-Agent is a variant of SpaceXAI’s Grok 4.20 designed for collaborative, agent-based workflows.",
   "release_date": "2026-03-31",
   "context_window": 2000000,
   "model_type": "chat",
@@ -24,9 +24,9 @@
     "cached_input": 0.2
   },
   "_generated": {
-    "name": "c1236e7d",
+    "name": "6157a4d5",
     "family": "44972aca",
-    "description": "f1b88a12",
+    "description": "5b117130",
     "release_date": "3c0c39b4",
     "context_window": "805f7438",
     "model_type": "d669f408",
@@ -35,5 +35,5 @@
     "modalities": "6399757e",
     "pricing": "64e647aa"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-08-05"
 }

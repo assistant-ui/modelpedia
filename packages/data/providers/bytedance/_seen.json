@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-31",
-  "count": 27,
+  "date": "2026-08-05",
+  "count": 28,
   "ids": [
     "bagel",
     "protenix",
@@ -24,6 +24,7 @@
     "seedance-2.0",
     "seedance-2.5",
     "seededit-3.0",
+    "seedrealtime",
     "seedream-4.0",
     "seedream-4.5",
     "seedream-5.0-lite",

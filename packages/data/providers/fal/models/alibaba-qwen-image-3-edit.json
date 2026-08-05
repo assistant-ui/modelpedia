@@ -1,0 +1,37 @@
+{
+  "id": "alibaba/qwen-image-3/edit",
+  "name": "Qwen Image 3 Image Editing",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen",
+  "description": "Generates images from a text prompt at resolutions up to 2048×2048, with automatic prompt rewriting and prompt-guided resolution selection, building on Qwen's strength in complex text rendering and pr",
+  "status": "active",
+  "release_date": "2026-07-21",
+  "model_type": "image",
+  "page_url": "https://fal.run/alibaba/qwen-image-3/edit",
+  "tagline": "Generates images from a text prompt at resolutions up to 2048×2048, with automatic prompt rewriting and prompt-guided resolution selection, building on Qwen's strength in complex text rendering and pr",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-08-04",
+  "_generated": {
+    "name": "51e8ecee",
+    "family": "a3af76f3",
+    "description": "0963c8a2",
+    "status": "379ac110",
+    "release_date": "db9f0f5f",
+    "model_type": "db8857fe",
+    "page_url": "4b299209",
+    "tagline": "0963c8a2",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "eb29ce77"
+  },
+  "last_updated": "2026-08-05"
+}

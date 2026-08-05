@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-02",
-  "count": 23,
+  "date": "2026-08-05",
+  "count": 22,
   "ids": [
     "deepseek-ai",
     "deepseek-r1",
@@ -11,7 +11,6 @@
     "deepseek-v3-2",
     "deepseek-v4",
     "deepseek-v4-flash-0731",
-    "gpt-2-to-kimi-k3-explained",
     "gpt-oss-120b",
     "nemotronultra",
     "nvidia-nemotron-3-ultra-550b-a55b",

@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-02",
-  "count": 348,
+  "date": "2026-08-05",
+  "count": 349,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -309,6 +309,7 @@
     "qwen-qwen3.7-flash",
     "qwen-qwen3.7-max",
     "qwen-qwen3.7-plus",
+    "qwen-qwen3.8-max",
     "rekaai-reka-edge",
     "rekaai-reka-flash-3",
     "relace-relace-apply-3",

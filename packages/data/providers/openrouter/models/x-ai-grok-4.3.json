@@ -1,10 +1,10 @@
 {
   "id": "x-ai/grok-4.3",
-  "name": "xAI: Grok 4.3",
+  "name": "SpaceXAI: Grok 4.3",
   "created_by": "xai",
   "source": "official",
   "family": "grok-4.3",
-  "description": "Grok 4.3 is a reasoning model from xAI.",
+  "description": "Grok 4.3 is a reasoning model from SpaceXAI.",
   "release_date": "2026-04-30",
   "context_window": 1000000,
   "model_type": "chat",
@@ -26,9 +26,9 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "a525ff95",
+    "name": "6d7874c5",
     "family": "20d0cab4",
-    "description": "02fcd88f",
+    "description": "5a205ebb",
     "release_date": "a53a2b69",
     "context_window": "8155bc54",
     "model_type": "d669f408",
@@ -38,5 +38,5 @@
     "pricing": "64e647aa",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-08-05"
 }

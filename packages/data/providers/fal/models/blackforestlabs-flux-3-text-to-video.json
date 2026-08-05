@@ -1,0 +1,31 @@
+{
+  "id": "blackforestlabs/flux-3/text-to-video",
+  "name": "Flux 3 Text to Video",
+  "created_by": "blackforestlabs",
+  "source": "official",
+  "description": "FLUX.3 is Black Forest Labs' frontier video model.",
+  "status": "active",
+  "release_date": "2026-07-17",
+  "model_type": "video",
+  "page_url": "https://fal.run/blackforestlabs/flux-3/text-to-video",
+  "tagline": "FLUX.3 is Black Forest Labs' frontier video model.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-08-04",
+  "_generated": {
+    "name": "94b2467e",
+    "description": "4d8b15e0",
+    "status": "379ac110",
+    "release_date": "4d92f2b5",
+    "model_type": "4d1b75ca",
+    "page_url": "21b90905",
+    "tagline": "4d8b15e0",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "eb29ce77"
+  },
+  "last_updated": "2026-08-05"
+}

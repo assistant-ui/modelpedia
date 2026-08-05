@@ -1,6 +1,6 @@
 {
   "id": "x-ai/grok-4.5",
-  "name": "xAI: Grok 4.5",
+  "name": "SpaceXAI: Grok 4.5",
   "created_by": "xai",
   "source": "official",
   "family": "grok-4.5",
@@ -26,7 +26,7 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "cd6d618e",
+    "name": "ca998134",
     "family": "ce414514",
     "description": "58da72e3",
     "release_date": "8f95d981",
@@ -38,5 +38,5 @@
     "pricing": "fab18d6a",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-24"
+  "last_updated": "2026-08-05"
 }

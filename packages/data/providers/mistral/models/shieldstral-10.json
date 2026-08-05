@@ -1,0 +1,35 @@
+{
+  "id": "shieldstral-10",
+  "name": "shieldstral-10",
+  "created_by": "mistral",
+  "source": "official",
+  "description": "A compact multimodal moderation model for prompt moderation, response moderation, prompt-response pair classification, refusal detection, and safety filtering across text and image inputs. It uses natural-language policy questions and returns a yes or no classification.",
+  "status": "active",
+  "context_window": 32000,
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/model-cards/shieldstral-1-0",
+  "tagline": "A compact multimodal moderation model for prompt moderation, response moderation, prompt-response pair classification, refusal detection, and safety filtering across text and image inputs.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "cbb70ea9",
+    "description": "5018d466",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "license": "60245731",
+    "page_url": "40d1155b",
+    "tagline": "dfe81a50",
+    "capabilities": "91e36286",
+    "modalities": "6399757e",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-08-05"
+}

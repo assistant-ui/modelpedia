@@ -1,0 +1,33 @@
+{
+  "id": "anthropic/claude-fable-5",
+  "name": "anthropic/claude-fable-5",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-fable",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 10,
+    "output": 50,
+    "cached_input": 1
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "1ead67fc",
+    "family": "127f43cd",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "69490ea7",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-08-05"
+}

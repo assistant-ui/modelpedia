@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-02",
-  "count": 216,
+  "date": "2026-08-05",
+  "count": 218,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -69,6 +69,7 @@
     "deepseek-ai-janus-pro-1b",
     "deepseek-ai-janus-pro-7b",
     "fastvideo-fastwan-qad-fp8-1.3b",
+    "fastvideo-fastwan2.2-ti2v-5b-fullattn-diffusers",
     "google-embeddinggemma-300m",
     "google-gemini-2.5-flash",
     "google-gemini-2.5-pro",
@@ -179,6 +180,7 @@
     "qwen-qwen3.6-27b",
     "qwen-qwen3.6-35b-a3b",
     "qwen-qwen3.7-max",
+    "qwen-qwen3.8-max",
     "resembleai-chatterbox-multilingual",
     "resembleai-chatterbox-turbo",
     "sao10k-l3-8b-lunaris-v1-turbo",

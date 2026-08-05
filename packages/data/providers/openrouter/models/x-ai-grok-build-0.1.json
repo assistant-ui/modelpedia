@@ -1,9 +1,9 @@
 {
   "id": "x-ai/grok-build-0.1",
-  "name": "xAI: Grok Build 0.1",
+  "name": "SpaceXAI: Grok Build 0.1",
   "created_by": "xai",
   "source": "official",
-  "description": "Grok Build 0.1 is xAI’s fast coding model trained specifically for agentic software engineering workflows.",
+  "description": "Grok Build 0.1 is SpaceXAI’s fast coding model trained specifically for agentic software engineering workflows.",
   "release_date": "2026-05-20",
   "context_window": 256000,
   "model_type": "chat",
@@ -25,8 +25,8 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "ff3042b5",
-    "description": "8b51eb98",
+    "name": "c53812b8",
+    "description": "f0067eed",
     "release_date": "7a81e6e3",
     "context_window": "2fd324cb",
     "model_type": "d669f408",
@@ -36,5 +36,5 @@
     "pricing": "20a9a8a7",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-23"
+  "last_updated": "2026-08-05"
 }

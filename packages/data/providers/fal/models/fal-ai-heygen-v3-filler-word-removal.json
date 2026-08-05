@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/heygen/v3/filler-word-removal",
+  "name": "Heygen",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Use Heygen's Latest Model for Filler Word Removal.",
+  "status": "active",
+  "release_date": "2026-07-30",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/heygen/v3/filler-word-removal",
+  "tagline": "Use Heygen's Latest Model for Filler Word Removal.",
+  "last_seen_at": "2026-08-03",
+  "_generated": {
+    "name": "64ab7060",
+    "description": "4420782f",
+    "status": "379ac110",
+    "release_date": "6a999b3f",
+    "model_type": "ddb0b7bc",
+    "page_url": "0615af92",
+    "tagline": "4420782f",
+    "last_seen_at": "a67868bc"
+  },
+  "last_updated": "2026-08-05"
+}

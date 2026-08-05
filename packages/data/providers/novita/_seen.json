@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-02",
-  "count": 144,
+  "date": "2026-08-05",
+  "count": 145,
   "ids": [
     "ai_infer_test_1",
     "ai_infer_test_2",
@@ -120,6 +120,7 @@
     "qwen-qwen3.6-35b-a3b",
     "qwen-qwen3.6-plus",
     "qwen-qwen3.7-max",
+    "qwen-qwen3.8-max",
     "sao10k-l3-70b-euryale-v2.1",
     "sao10k-l3-8b-lunaris",
     "sao10k-l3-8b-stheno-v3.2",

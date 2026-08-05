@@ -3,7 +3,7 @@
   "name": "nvidia/nemotron-3-super-120b-a12b",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-08-05",
   "capabilities": {
     "streaming": true
   },
@@ -20,7 +20,8 @@
     "parameters": "da4fb5c6",
     "active_parameters": "c20ad4d7",
     "open_weight": "68934a3e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "license": "proprietary",
@@ -30,5 +31,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

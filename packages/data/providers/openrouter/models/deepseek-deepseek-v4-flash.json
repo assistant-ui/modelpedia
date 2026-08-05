@@ -1,6 +1,6 @@
 {
   "id": "deepseek/deepseek-v4-flash",
-  "name": "DeepSeek: DeepSeek V4 Flash",
+  "name": "DeepSeek: DeepSeek V4 Flash 0423",
   "created_by": "deepseek",
   "source": "official",
   "family": "deepseek",
@@ -27,7 +27,7 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "9246e60b",
+    "name": "c1d2e217",
     "family": "4b81b92d",
     "description": "b8f54878",
     "release_date": "173d2bb2",
@@ -40,5 +40,5 @@
     "pricing": "e83de778",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-30"
+  "last_updated": "2026-08-05"
 }

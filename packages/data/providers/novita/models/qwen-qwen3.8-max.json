@@ -1,0 +1,48 @@
+{
+  "id": "qwen/qwen3.8-max",
+  "name": "Qwen3.8 Max",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3.8",
+  "description": " A 2.4T-parameter MoE flagship for coding and knowledge work.",
+  "status": "active",
+  "release_date": "2026-07-31",
+  "context_window": 1000000,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": " A 2.4T-parameter MoE flagship for coding and knowledge work.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e1ed7e25",
+    "family": "e102ad6a",
+    "description": "c212a464",
+    "status": "379ac110",
+    "release_date": "0ee605c3",
+    "context_window": "8155bc54",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "c212a464",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "e205efd3",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-05"
+}
