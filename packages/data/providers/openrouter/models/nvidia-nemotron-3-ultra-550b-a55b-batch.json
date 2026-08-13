@@ -1,0 +1,44 @@
+{
+  "id": "nvidia/nemotron-3-ultra-550b-a55b:batch",
+  "name": "NVIDIA: Nemotron 3 Ultra (batch)",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE).",
+  "release_date": "2026-06-04",
+  "context_window": 512288,
+  "parameters": 550,
+  "active_parameters": 55,
+  "model_type": "chat",
+  "tagline": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE).",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.8,
+    "cached_input": 0.1
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c05ada5f",
+    "description": "3975a265",
+    "release_date": "054ba895",
+    "context_window": "978591cd",
+    "parameters": "01f78be6",
+    "active_parameters": "b53b3a3d",
+    "model_type": "d669f408",
+    "tagline": "3975a265",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "9c6e4997",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

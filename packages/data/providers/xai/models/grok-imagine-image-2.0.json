@@ -1,0 +1,29 @@
+{
+  "id": "grok-imagine-image-2.0",
+  "name": "grok-imagine-image-2.0",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "status": "active",
+  "model_type": "image",
+  "license": "proprietary",
+  "page_url": "https://docs.x.ai/developers/models",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "open_weight": false,
+  "pricing_notes": ["$0.04 / image."],
+  "_generated": {
+    "name": "5a1ca807",
+    "family": "a4576b5e",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "license": "9186c466",
+    "page_url": "053acbe7",
+    "modalities": "814867b9",
+    "open_weight": "68934a3e",
+    "pricing_notes": "2a325362"
+  },
+  "last_updated": "2026-08-13"
+}

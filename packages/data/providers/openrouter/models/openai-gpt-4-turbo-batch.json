@@ -1,0 +1,42 @@
+{
+  "id": "openai/gpt-4-turbo:batch",
+  "name": "OpenAI: GPT-4 Turbo (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-4-turbo",
+  "description": "The latest GPT-4 Turbo model with vision capabilities.",
+  "release_date": "2024-04-09",
+  "context_window": 128000,
+  "max_output_tokens": 4096,
+  "model_type": "chat",
+  "tagline": "The latest GPT-4 Turbo model with vision capabilities.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 15
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "17a86b3d",
+    "family": "e55097d8",
+    "description": "3a8d314e",
+    "release_date": "b283eaaa",
+    "context_window": "34434798",
+    "max_output_tokens": "f7efa4f8",
+    "model_type": "d669f408",
+    "tagline": "3a8d314e",
+    "capabilities": "6c9aa67e",
+    "modalities": "6399757e",
+    "pricing": "dbc0b754",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

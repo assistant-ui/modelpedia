@@ -1,0 +1,42 @@
+{
+  "id": "nvidia/nemotron-3.5-lightning",
+  "name": "NVIDIA: Nemotron 3.5 Lightning",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total.",
+  "release_date": "2026-08-11",
+  "context_window": 1000000,
+  "max_output_tokens": 262144,
+  "model_type": "chat",
+  "tagline": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.25,
+    "cached_input": 0.05
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "658a020c",
+    "description": "bac759fa",
+    "release_date": "c2572fd1",
+    "context_window": "8155bc54",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "d669f408",
+    "tagline": "bac759fa",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "0611f976",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

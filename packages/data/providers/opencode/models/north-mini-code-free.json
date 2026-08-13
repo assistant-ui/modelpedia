@@ -3,14 +3,14 @@
   "name": "North Mini Code Free",
   "created_by": "unknown",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "a301d42d",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "capabilities": "0fa77dc6"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-08-13"
 }

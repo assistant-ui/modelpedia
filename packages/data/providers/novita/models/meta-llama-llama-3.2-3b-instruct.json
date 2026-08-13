@@ -5,7 +5,7 @@
   "source": "official",
   "family": "llama-3.2",
   "description": "The Meta Llama 3.2 collection of multilingual large language models (LLMs) is a collection of pretrained and instruction-tuned generative models in 1B and 3B sizes (text in/text out)",
-  "status": "active",
+  "status": "preview",
   "release_date": "2024-11-26",
   "context_window": 32768,
   "max_output_tokens": 32000,
@@ -28,7 +28,7 @@
     "name": "ee8ce244",
     "family": "d4c42ce9",
     "description": "532d3812",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "ad4b689f",
     "context_window": "f4376436",
     "max_output_tokens": "10e4d788",
@@ -40,5 +40,5 @@
     "pricing": "872a98a0",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-08-13"
 }

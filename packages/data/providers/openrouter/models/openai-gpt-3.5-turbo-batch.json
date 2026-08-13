@@ -1,0 +1,42 @@
+{
+  "id": "openai/gpt-3.5-turbo:batch",
+  "name": "OpenAI: GPT-3.5 Turbo (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-3.5",
+  "description": "GPT-3.5 Turbo is OpenAI's fastest model.",
+  "release_date": "2023-05-28",
+  "context_window": 16385,
+  "max_output_tokens": 4096,
+  "model_type": "chat",
+  "tagline": "GPT-3.5 Turbo is OpenAI's fastest model.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 0.75
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "3840f527",
+    "family": "7601054d",
+    "description": "cbe1a5f9",
+    "release_date": "a7ed5393",
+    "context_window": "7f4b18de",
+    "max_output_tokens": "f7efa4f8",
+    "model_type": "d669f408",
+    "tagline": "cbe1a5f9",
+    "capabilities": "6c9aa67e",
+    "modalities": "68e53d93",
+    "pricing": "5b74b6c8",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

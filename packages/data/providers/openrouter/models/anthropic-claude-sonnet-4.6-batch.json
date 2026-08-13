@@ -1,0 +1,44 @@
+{
+  "id": "anthropic/claude-sonnet-4.6:batch",
+  "name": "Anthropic: Claude Sonnet 4.6 (batch)",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-sonnet",
+  "description": "Sonnet 4.6 is Anthropic's most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work.",
+  "release_date": "2026-02-17",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "Sonnet 4.6 is Anthropic's most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.5,
+    "output": 7.5,
+    "cached_input": 0.15
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8a76aafb",
+    "family": "68d1c457",
+    "description": "26170b93",
+    "release_date": "c2ea1a8b",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "26170b93",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "553e98a6",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "openai/o3-mini:batch",
+  "name": "OpenAI: o3 Mini (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "family": "o3",
+  "description": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding.",
+  "release_date": "2025-01-31",
+  "context_window": 200000,
+  "max_output_tokens": 100000,
+  "model_type": "reasoning",
+  "tagline": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.55,
+    "output": 2.2,
+    "cached_input": 0.275
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a3a9787a",
+    "family": "193049bc",
+    "description": "3d359ccc",
+    "release_date": "8e2cb9dd",
+    "context_window": "03e6c616",
+    "max_output_tokens": "14ee22ea",
+    "model_type": "17475f7f",
+    "tagline": "3d359ccc",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "ea1a8c45",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

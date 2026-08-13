@@ -1,0 +1,41 @@
+{
+  "id": "yentinglin/Llama-3-Taiwan-8B-Instruct",
+  "name": "Llama-3-Taiwan-8B-Instruct",
+  "created_by": "yentinglin",
+  "source": "official",
+  "family": "Llama-3",
+  "release_date": "2024-06-04",
+  "context_window": 8192,
+  "license": "llama3",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/yentinglin/Llama-3-Taiwan-8B-Instruct",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d50015df",
+    "family": "a18f0819",
+    "release_date": "d88c98b1",
+    "context_window": "77441296",
+    "license": "c1eeabcd",
+    "parameters": "c9f0f895",
+    "page_url": "e5d69d61",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

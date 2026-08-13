@@ -1,0 +1,41 @@
+{
+  "id": "muse-glimmer",
+  "name": "muse-glimmer",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "Meta&#39;s latest open model built for always-on local agents. 30B parameters, licensed under Apache 2.0 and runs on a single GPU — tuned for tool use, long tasks, and failure recovery.",
+  "context_window": 131072,
+  "reasoning_tokens": true,
+  "license": "apache-2.0",
+  "parameters": 30,
+  "page_url": "https://ollama.com/library/muse-glimmer",
+  "open_weight": true,
+  "tagline": "Meta&#39;s latest open model built for always-on local agents.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2c89749f",
+    "description": "13c36669",
+    "context_window": "f7de594e",
+    "reasoning_tokens": "b326b506",
+    "license": "60245731",
+    "parameters": "34173cb3",
+    "page_url": "d67a8a89",
+    "open_weight": "b326b506",
+    "tagline": "9eb60d2e",
+    "capabilities": "f7041f91",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

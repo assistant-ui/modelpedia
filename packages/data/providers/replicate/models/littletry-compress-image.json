@@ -1,0 +1,27 @@
+{
+  "id": "littletry/compress-image",
+  "name": "Compress Image",
+  "created_by": "littletry",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/littletry/compress-image",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "602f4a29",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "e469588f",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-08-13"
+}

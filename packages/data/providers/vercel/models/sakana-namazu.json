@@ -1,0 +1,33 @@
+{
+  "id": "sakana/namazu",
+  "name": "namazu",
+  "created_by": "sakana",
+  "source": "official",
+  "context_window": 256000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.95,
+    "output": 4
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "945e40ed",
+    "context_window": "2fd324cb",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "f2c3ebbf",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

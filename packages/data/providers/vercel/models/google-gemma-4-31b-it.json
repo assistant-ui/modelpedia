@@ -4,7 +4,7 @@
   "created_by": "google",
   "source": "official",
   "family": "gemma-4",
-  "context_window": 262100,
+  "context_window": 1000000,
   "model_type": "chat",
   "parameters": 31,
   "capabilities": {
@@ -25,7 +25,7 @@
   "_generated": {
     "name": "80cf5031",
     "family": "811b6704",
-    "context_window": "b23f4471",
+    "context_window": "8155bc54",
     "model_type": "d669f408",
     "parameters": "c16a5320",
     "capabilities": "a19166f1",
@@ -33,5 +33,5 @@
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-03"
+  "last_updated": "2026-08-13"
 }

@@ -1,0 +1,27 @@
+{
+  "id": "littletry/image-watermark",
+  "name": "Image Watermark",
+  "created_by": "littletry",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/littletry/image-watermark",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "3e115f25",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "b113f134",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-08-13"
+}

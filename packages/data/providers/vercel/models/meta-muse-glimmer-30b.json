@@ -1,0 +1,35 @@
+{
+  "id": "meta/muse-glimmer-30b",
+  "name": "muse-glimmer-30b",
+  "created_by": "meta",
+  "source": "official",
+  "context_window": 131100,
+  "model_type": "chat",
+  "parameters": 30,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.35,
+    "output": 1.5
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "59af5454",
+    "context_window": "a683b9ae",
+    "model_type": "d669f408",
+    "parameters": "34173cb3",
+    "capabilities": "a19166f1",
+    "pricing": "27ea2e50",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

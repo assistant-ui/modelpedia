@@ -3,21 +3,21 @@
   "name": "glm-4p5-air",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-13",
   "context_window": 131000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 1,
+    "input": 0.22,
     "output": 1,
-    "cached_input": 1
+    "cached_input": 0.88
   },
   "_generated": {
     "name": "f17dd180",
     "context_window": "834bd590",
     "capabilities": "0fa77dc6",
-    "pricing": "cb03f68e",
+    "pricing": "2e5314e7",
     "family": "b85f9b4b",
     "model_type": "d669f408",
     "page_url": "f47529d8",

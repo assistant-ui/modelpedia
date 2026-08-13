@@ -1,0 +1,43 @@
+{
+  "id": "openai/gpt-5.4-pro:batch",
+  "name": "OpenAI: GPT-5.4 Pro (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-5.4",
+  "description": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks.",
+  "release_date": "2026-03-05",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 15,
+    "output": 90
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1c8ad5b4",
+    "family": "4651e8f0",
+    "description": "0b0227eb",
+    "release_date": "e6626ce2",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "0b0227eb",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "af972aef",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

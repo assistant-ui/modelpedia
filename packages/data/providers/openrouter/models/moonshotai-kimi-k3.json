@@ -16,7 +16,7 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text", "image", "video"],
     "output": ["text"]
   },
   "pricing": {
@@ -34,9 +34,9 @@
     "model_type": "d669f408",
     "tagline": "5d80507d",
     "capabilities": "03fbefb4",
-    "modalities": "6399757e",
+    "modalities": "3ad4060a",
     "pricing": "0deaf3da",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-08-13"
 }

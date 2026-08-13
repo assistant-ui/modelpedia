@@ -12,7 +12,12 @@
     "name": "9b8a727f",
     "page_url": "d3fe55f4",
     "model_type": "4d1b75ca",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "pricing": "5619e535"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-08-13",
+  "pricing": {
+    "input": 0.17,
+    "output": 0.16
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "id": "grok-4.5-fast",
+  "name": "Grok 4.5 (Fast)",
+  "created_by": "cursor",
+  "source": "official",
+  "family": "grok-4.5",
+  "page_url": "https://cursor.com/docs/models-and-pricing#grok-4.5-fast",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 4,
+    "output": 12,
+    "cached_input": 1
+  },
+  "pricing_notes": ["Jointly trained by Cursor and SpaceXAI"],
+  "_generated": {
+    "name": "b26a96f5",
+    "family": "ce414514",
+    "page_url": "14e83bee",
+    "model_type": "d669f408",
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "pricing": "959cdfee",
+    "pricing_notes": "b9f739ff"
+  },
+  "last_updated": "2026-08-13"
+}

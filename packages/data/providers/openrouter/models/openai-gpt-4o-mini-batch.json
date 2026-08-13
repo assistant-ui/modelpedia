@@ -1,0 +1,43 @@
+{
+  "id": "openai/gpt-4o-mini:batch",
+  "name": "OpenAI: GPT-4o-mini (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-4o",
+  "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs.",
+  "release_date": "2024-07-18",
+  "context_window": 128000,
+  "max_output_tokens": 16384,
+  "model_type": "chat",
+  "tagline": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.075,
+    "output": 0.3,
+    "cached_input": 0.038
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "84c24afd",
+    "family": "15249632",
+    "description": "ab999886",
+    "release_date": "23482102",
+    "context_window": "34434798",
+    "max_output_tokens": "c76fe1d8",
+    "model_type": "d669f408",
+    "tagline": "ab999886",
+    "capabilities": "6c9aa67e",
+    "modalities": "6399757e",
+    "pricing": "d8c33b98",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

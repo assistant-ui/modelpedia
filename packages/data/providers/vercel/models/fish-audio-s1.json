@@ -1,0 +1,19 @@
+{
+  "id": "fish-audio/s1",
+  "name": "s1",
+  "created_by": "fish-audio",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 15,
+    "output": 0
+  },
+  "_generated": {
+    "name": "28989aab",
+    "capabilities": "0fa77dc6",
+    "pricing": "279488b2"
+  },
+  "last_updated": "2026-08-13"
+}

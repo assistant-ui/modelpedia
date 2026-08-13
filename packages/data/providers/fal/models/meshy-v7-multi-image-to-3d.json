@@ -1,0 +1,28 @@
+{
+  "id": "meshy/v7/multi-image-to-3d",
+  "name": "V7 Multi Image to 3D",
+  "created_by": "meshy",
+  "source": "official",
+  "description": "econstructs a high-fidelity textured 3D model from multiple angle views of one object, with game-ready topology and polygon control",
+  "status": "active",
+  "release_date": "2026-08-11",
+  "model_type": "other",
+  "page_url": "https://fal.run/meshy/v7/multi-image-to-3d",
+  "tagline": "econstructs a high-fidelity textured 3D model from multiple angle views of one object, with game-ready topology and polygon control",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-08-11",
+  "_generated": {
+    "name": "317e7535",
+    "description": "f381df1a",
+    "status": "379ac110",
+    "release_date": "c2572fd1",
+    "model_type": "ddb0b7bc",
+    "page_url": "259af7b4",
+    "tagline": "f381df1a",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "c2572fd1"
+  },
+  "last_updated": "2026-08-13"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "perplexity/deepseek-v4-flash-0731",
+  "name": "perplexity/deepseek-v4-flash-0731",
+  "created_by": "perplexity",
+  "source": "official",
+  "family": "deepseek",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.13,
+    "output": 0.26,
+    "cached_input": 0.028
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "6dd37d37",
+    "family": "4b81b92d",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "1802e404",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-08-13"
+}

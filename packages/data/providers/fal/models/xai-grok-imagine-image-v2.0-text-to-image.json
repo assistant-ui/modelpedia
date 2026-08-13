@@ -1,0 +1,37 @@
+{
+  "id": "xai/grok-imagine-image/v2.0/text-to-image",
+  "name": "Grok Imagine Image 2.0",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "description": "Generate images from text using xAi's Grok Imagine 2.0 model.",
+  "status": "active",
+  "release_date": "2026-08-06",
+  "model_type": "image",
+  "page_url": "https://fal.run/xai/grok-imagine-image/v2.0/text-to-image",
+  "tagline": "Generate images from text using xAi's Grok Imagine 2.0 model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-08-11",
+  "_generated": {
+    "name": "a5586686",
+    "family": "a4576b5e",
+    "description": "346973ac",
+    "status": "379ac110",
+    "release_date": "54ed7014",
+    "model_type": "db8857fe",
+    "page_url": "cae04cc8",
+    "tagline": "346973ac",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "c2572fd1"
+  },
+  "last_updated": "2026-08-13"
+}

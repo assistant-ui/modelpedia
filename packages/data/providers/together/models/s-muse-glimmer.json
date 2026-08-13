@@ -1,0 +1,23 @@
+{
+  "id": "s/muse-glimmer",
+  "name": "Muse Glimmer",
+  "created_by": "unknown",
+  "source": "official",
+  "context_window": 128000,
+  "page_url": "https://www.together.ai/models/muse-glimmer",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 1.5
+  },
+  "_generated": {
+    "name": "85d44afe",
+    "context_window": "34434798",
+    "page_url": "eb0f8049",
+    "capabilities": "0fa77dc6",
+    "pricing": "8f92da8b"
+  },
+  "last_updated": "2026-08-13"
+}

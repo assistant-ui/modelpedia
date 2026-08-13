@@ -1,0 +1,24 @@
+{
+  "id": "tripo3d/tripo/segment",
+  "name": "Tripo3D Segment",
+  "created_by": "tripo3d",
+  "source": "official",
+  "description": "Automatically splits a 3D model into semantic parts for editing, texturing, and rigging.",
+  "status": "active",
+  "release_date": "2026-08-06",
+  "model_type": "other",
+  "page_url": "https://fal.run/tripo3d/tripo/segment",
+  "tagline": "Automatically splits a 3D model into semantic parts for editing, texturing, and rigging.",
+  "last_seen_at": "2026-08-06",
+  "_generated": {
+    "name": "9fe24a04",
+    "description": "5475f5eb",
+    "status": "379ac110",
+    "release_date": "54ed7014",
+    "model_type": "ddb0b7bc",
+    "page_url": "9a321344",
+    "tagline": "5475f5eb",
+    "last_seen_at": "54ed7014"
+  },
+  "last_updated": "2026-08-13"
+}

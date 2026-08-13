@@ -1,0 +1,24 @@
+{
+  "id": "hitem3d/hi3d/split",
+  "name": "Hi3D 3D Part Splitter",
+  "created_by": "hitem3d",
+  "source": "official",
+  "description": "Split a 3D model into parts with Hi3D.",
+  "status": "active",
+  "release_date": "2026-07-31",
+  "model_type": "other",
+  "page_url": "https://fal.run/hitem3d/hi3d/split",
+  "tagline": "Split a 3D model into parts with Hi3D.",
+  "last_seen_at": "2026-08-07",
+  "_generated": {
+    "name": "98802e30",
+    "description": "ff04c6be",
+    "status": "379ac110",
+    "release_date": "0ee605c3",
+    "model_type": "ddb0b7bc",
+    "page_url": "f94a6a47",
+    "tagline": "ff04c6be",
+    "last_seen_at": "21dbef0e"
+  },
+  "last_updated": "2026-08-13"
+}

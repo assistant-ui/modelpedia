@@ -1,0 +1,52 @@
+{
+  "id": "palmyra-x6",
+  "name": "Palmyra X6",
+  "created_by": "writer",
+  "source": "official",
+  "family": "palmyra-x",
+  "description": "Agentic model for WRITER Agent and long-horizon enterprise workflows with sub-agents, grounding, and MCP tool use",
+  "status": "deprecated",
+  "deprecation_date": "2026-07-13",
+  "context_window": 1000000,
+  "max_output_tokens": 8192,
+  "model_type": "chat",
+  "license": "proprietary",
+  "page_url": "https://dev.writer.com/home/models",
+  "successor": "palmyra-x5",
+  "open_weight": false,
+  "tagline": "Agentic model for WRITER Agent and long-horizon enterprise workflows with sub-agents, grounding, and MCP tool use",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 8
+  },
+  "endpoints": ["chat_completions"],
+  "bedrock_id": "—",
+  "_generated": {
+    "name": "b0f92be5",
+    "family": "6862314b",
+    "description": "345ce4bc",
+    "status": "2e2f74dc",
+    "deprecation_date": "a393f093",
+    "context_window": "8155bc54",
+    "max_output_tokens": "77441296",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "page_url": "8d6fade1",
+    "successor": "237dd4b6",
+    "open_weight": "68934a3e",
+    "tagline": "345ce4bc",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "9d7f5a51",
+    "endpoints": "d8fa1080",
+    "bedrock_id": "f3074a2b"
+  },
+  "last_updated": "2026-08-13"
+}

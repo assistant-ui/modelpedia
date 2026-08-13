@@ -1,0 +1,24 @@
+{
+  "id": "minimax/h3/ref2va/trainer",
+  "name": "MiniMax H3 Reference to Video LoRA Trainer",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "Train a MiniMax H3 LoRA with reference conditioning, so different modalities animate into video with audio; captions optional.",
+  "status": "active",
+  "release_date": "2026-08-10",
+  "model_type": "other",
+  "page_url": "https://fal.run/minimax/h3/ref2va/trainer",
+  "tagline": "Train a MiniMax H3 LoRA with reference conditioning, so different modalities animate into video with audio; captions optional.",
+  "last_seen_at": "2026-08-10",
+  "_generated": {
+    "name": "6c7b6d09",
+    "description": "49a821e9",
+    "status": "379ac110",
+    "release_date": "a2454697",
+    "model_type": "ddb0b7bc",
+    "page_url": "ea57c9ed",
+    "tagline": "49a821e9",
+    "last_seen_at": "a2454697"
+  },
+  "last_updated": "2026-08-13"
+}

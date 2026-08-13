@@ -1,0 +1,19 @@
+{
+  "id": "fish-audio/s2.1-pro",
+  "name": "s2.1-pro",
+  "created_by": "fish-audio",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 15,
+    "output": 0
+  },
+  "_generated": {
+    "name": "38e22007",
+    "capabilities": "0fa77dc6",
+    "pricing": "279488b2"
+  },
+  "last_updated": "2026-08-13"
+}

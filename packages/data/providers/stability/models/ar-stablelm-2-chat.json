@@ -4,7 +4,7 @@
   "created_by": "stability",
   "source": "official",
   "description": "Ar Stablelm 2 Chat is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2024-08-06",
   "model_type": "code",
   "license": "other",
@@ -25,7 +25,7 @@
   "_generated": {
     "name": "878f768d",
     "description": "db896d3f",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "1d54b01d",
     "model_type": "b6cc3ff4",
     "license": "ddb0b7bc",
@@ -38,5 +38,5 @@
     "huggingface_downloads": "eccbc87e",
     "last_modified": "725ace28"
   },
-  "last_updated": "2026-07-30"
+  "last_updated": "2026-08-13"
 }

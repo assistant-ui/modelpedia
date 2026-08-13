@@ -1,0 +1,24 @@
+{
+  "id": "tripo3d/tripo/remesh",
+  "name": "Tripo3D Remesh",
+  "created_by": "tripo3d",
+  "source": "official",
+  "description": "Converts triangle meshes into clean quad topology at a target polygon count, animation-ready with no manual retopology.",
+  "status": "active",
+  "release_date": "2026-08-06",
+  "model_type": "other",
+  "page_url": "https://fal.run/tripo3d/tripo/remesh",
+  "tagline": "Converts triangle meshes into clean quad topology at a target polygon count, animation-ready with no manual retopology.",
+  "last_seen_at": "2026-08-06",
+  "_generated": {
+    "name": "21bcdff0",
+    "description": "d81e1571",
+    "status": "379ac110",
+    "release_date": "54ed7014",
+    "model_type": "ddb0b7bc",
+    "page_url": "9f15b952",
+    "tagline": "d81e1571",
+    "last_seen_at": "54ed7014"
+  },
+  "last_updated": "2026-08-13"
+}

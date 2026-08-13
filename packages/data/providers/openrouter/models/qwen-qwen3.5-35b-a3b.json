@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3.5-35B-A3B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-07-17",
+  "last_updated": "2026-08-13",
   "family": "qwen3.5",
   "description": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency.",
   "context_window": 262144,
@@ -19,9 +19,9 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.14,
-    "output": 1,
-    "cached_input": 0.05
+    "input": 0.25,
+    "output": 1.25,
+    "cached_input": 0.25
   },
   "_generated": {
     "name": "4444b296",
@@ -31,7 +31,7 @@
     "max_output_tokens": "4a1d32eb",
     "modalities": "3ad4060a",
     "capabilities": "03fbefb4",
-    "pricing": "c7984d1d",
+    "pricing": "b6df1b04",
     "model_type": "d669f408",
     "parameters": "1c383cd3",
     "active_parameters": "eccbc87e",

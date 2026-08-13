@@ -1,0 +1,31 @@
+{
+  "id": "perplexity/nemotron-3-ultra-550b-a55b",
+  "name": "perplexity/nemotron-3-ultra-550b-a55b",
+  "created_by": "nvidia",
+  "source": "official",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.25,
+    "output": 2.5,
+    "cached_input": 0.25
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "1c38d9eb",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "cc9f7d6e",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-08-13"
+}

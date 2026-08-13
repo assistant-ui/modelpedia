@@ -1,0 +1,33 @@
+{
+  "id": "fireworks/qwen3p8-max",
+  "name": "qwen3p8-max",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3",
+  "context_window": 262000,
+  "page_url": "https://fireworks.ai/models/fireworks/qwen3p8-max",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6,
+    "cached_input": 0.25
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "aea044a2",
+    "family": "48c385a0",
+    "context_window": "4ed74017",
+    "page_url": "0f53c762",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "24e736a5",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-08-13"
+}

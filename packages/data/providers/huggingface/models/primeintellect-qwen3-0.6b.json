@@ -1,0 +1,43 @@
+{
+  "id": "PrimeIntellect/Qwen3-0.6B",
+  "name": "Qwen3-0.6B",
+  "created_by": "primeintellect",
+  "source": "official",
+  "description": "This is a clone of `Qwen/Qwen3-0.6B` with a multi-turn, tool-call compatible chat template.",
+  "release_date": "2025-08-12",
+  "context_window": 40960,
+  "license": "apache-2.0",
+  "parameters": 0.75,
+  "page_url": "https://huggingface.co/PrimeIntellect/Qwen3-0.6B",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "This is a clone of `Qwen/Qwen3-0.6B` with a multi-turn, tool-call compatible chat template.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "4b3085c3",
+    "description": "92d9a27a",
+    "release_date": "4ae0376c",
+    "context_window": "a422a18c",
+    "license": "60245731",
+    "parameters": "4c8d9ac7",
+    "page_url": "b5278794",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "92d9a27a",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "openai/o1-pro:batch",
+  "name": "OpenAI: o1-pro (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "family": "o1",
+  "description": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning.",
+  "release_date": "2025-03-19",
+  "context_window": 200000,
+  "max_output_tokens": 100000,
+  "model_type": "reasoning",
+  "tagline": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning.",
+  "capabilities": {
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 75,
+    "output": 300
+  },
+  "_generated": {
+    "name": "a9acd2b7",
+    "family": "e1ab0820",
+    "description": "f45503b2",
+    "release_date": "2df47595",
+    "context_window": "03e6c616",
+    "max_output_tokens": "14ee22ea",
+    "model_type": "17475f7f",
+    "tagline": "f45503b2",
+    "capabilities": "d53412cf",
+    "modalities": "6399757e",
+    "pricing": "fc35d01e"
+  },
+  "last_updated": "2026-08-13"
+}

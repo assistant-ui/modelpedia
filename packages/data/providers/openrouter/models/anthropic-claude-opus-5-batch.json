@@ -1,0 +1,44 @@
+{
+  "id": "anthropic/claude-opus-5:batch",
+  "name": "Claude Opus 5 (batch)",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "description": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work.",
+  "release_date": "2026-07-24",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 12.5,
+    "cached_input": 0.25
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d87e336d",
+    "family": "4e4c4b18",
+    "description": "0a64008b",
+    "release_date": "4e26714b",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "0a64008b",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "79daca45",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

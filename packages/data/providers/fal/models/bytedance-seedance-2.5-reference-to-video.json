@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/seedance-2.5/reference-to-video",
+  "name": "Seedance 2.5 Reference to Video",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Dreamina Seedance 2.5 generates video from up to 50 multimodal references images, video, audio, and style inputs, locking a character, set, and palette across a full 30-second take for production-grad",
+  "status": "active",
+  "release_date": "2026-07-20",
+  "model_type": "video",
+  "page_url": "https://fal.run/bytedance/seedance-2.5/reference-to-video",
+  "tagline": "Dreamina Seedance 2.5 generates video from up to 50 multimodal references images, video, audio, and style inputs, locking a character, set, and palette across a full 30-second take for production-grad",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-08-07",
+  "_generated": {
+    "name": "358bf8f9",
+    "description": "cb93415e",
+    "status": "379ac110",
+    "release_date": "7047ff2b",
+    "model_type": "4d1b75ca",
+    "page_url": "0e2854c2",
+    "tagline": "cb93415e",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "21dbef0e"
+  },
+  "last_updated": "2026-08-13"
+}

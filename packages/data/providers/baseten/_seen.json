@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-05",
-  "count": 22,
+  "date": "2026-08-13",
+  "count": 20,
   "ids": [
     "deepseek-ai",
     "deepseek-r1",
@@ -11,7 +11,7 @@
     "deepseek-v3-2",
     "deepseek-v4",
     "deepseek-v4-flash-0731",
-    "gpt-oss-120b",
+    "nemotron-35-lightning",
     "nemotronultra",
     "nvidia-nemotron-3-ultra-550b-a55b",
     "nvidia-nemotron-ultra",
@@ -20,8 +20,6 @@
     "qwen-image-2512",
     "qwen3-6-27b",
     "qwen3.6",
-    "voxtral-mini-4b-realtime",
-    "voxtral-mini-4b-realtime-2602",
     "whisper-large-turbo",
     "whisper-large-v3"
   ]

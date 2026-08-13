@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/seedance-2.5/image-to-video",
+  "name": "Seedance 2.5 Image to Video",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Dreamina Seedance 2.5 animates a single still into a native 30-second clip at up to 720p, extending one frame into continuous, coherent motion without the drift or stitching of shorter multi-clip work",
+  "status": "active",
+  "release_date": "2026-07-20",
+  "model_type": "video",
+  "page_url": "https://fal.run/bytedance/seedance-2.5/image-to-video",
+  "tagline": "Dreamina Seedance 2.5 animates a single still into a native 30-second clip at up to 720p, extending one frame into continuous, coherent motion without the drift or stitching of shorter multi-clip work",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-08-07",
+  "_generated": {
+    "name": "58a2f9dc",
+    "description": "ea8abaac",
+    "status": "379ac110",
+    "release_date": "7047ff2b",
+    "model_type": "4d1b75ca",
+    "page_url": "77b67855",
+    "tagline": "ea8abaac",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "21dbef0e"
+  },
+  "last_updated": "2026-08-13"
+}

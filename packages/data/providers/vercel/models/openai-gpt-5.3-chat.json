@@ -3,7 +3,7 @@
   "name": "gpt-5.3-chat",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-08-13",
   "family": "gpt-5.3",
   "context_window": 128000,
   "capabilities": {
@@ -24,12 +24,14 @@
     "pricing": "4273da25",
     "model_type": "d669f408",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "tools": ["function_calling"],
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

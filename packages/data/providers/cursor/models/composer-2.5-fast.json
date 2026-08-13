@@ -1,0 +1,29 @@
+{
+  "id": "composer-2.5-fast",
+  "name": "Composer 2.5 (Fast)",
+  "created_by": "cursor",
+  "source": "official",
+  "page_url": "https://cursor.com/docs/models-and-pricing#composer-2.5-fast",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.5
+  },
+  "_generated": {
+    "name": "08bbb6b8",
+    "page_url": "fdd8eb97",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "fc80248f"
+  },
+  "last_updated": "2026-08-13"
+}

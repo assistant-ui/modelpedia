@@ -1,0 +1,35 @@
+{
+  "id": "minimax/h3/image-to-video/lora",
+  "name": "MiniMax H3 Image to Video LoRA",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "Images into video with synchronized audio using MiniMax H3; your image becomes the first frame, prompt optional, with trained LoRA support for subject consistency.",
+  "status": "active",
+  "release_date": "2026-08-02",
+  "model_type": "video",
+  "page_url": "https://fal.run/minimax/h3/image-to-video/lora",
+  "tagline": "Images into video with synchronized audio using MiniMax H3; your image becomes the first frame, prompt optional, with trained LoRA support for subject consistency.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-08-10",
+  "_generated": {
+    "name": "1f68e4f4",
+    "description": "c415e105",
+    "status": "379ac110",
+    "release_date": "13982a0a",
+    "model_type": "4d1b75ca",
+    "page_url": "efd7b607",
+    "tagline": "c415e105",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "a2454697"
+  },
+  "last_updated": "2026-08-13"
+}

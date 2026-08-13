@@ -1,0 +1,52 @@
+{
+  "id": "Qwen/Qwen3.8-2.4T-A95B",
+  "name": "Qwen3.8-2.4T-A95B",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of Qwen3.8 Max, with 95 billion active parameters out of 2.4 trillion total. It is suited for coding, research, complex reasoning, and agentic workflows.",
+  "status": "active",
+  "context_window": 262144,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "apache-2.0",
+  "open_weight": true,
+  "tagline": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of Qwen3.8 Max, with 95 billion active parameters out of 2.4 trillion total.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6,
+    "cached_input": 0.2
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "_generated": {
+    "name": "ac96b93b",
+    "description": "50853d5e",
+    "status": "379ac110",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "tagline": "9680f315",
+    "capabilities": "882e371a",
+    "modalities": "68e53d93",
+    "pricing": "9277b5ca",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee"
+  },
+  "last_updated": "2026-08-13"
+}

@@ -3,14 +3,14 @@
   "name": "Ling-3.0-flash Free",
   "created_by": "unknown",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "053514fd",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "capabilities": "0fa77dc6"
   },
-  "last_updated": "2026-07-24"
+  "last_updated": "2026-08-13"
 }

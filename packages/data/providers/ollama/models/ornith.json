@@ -12,7 +12,8 @@
   "tagline": "A self-improving family of open-source models for agentic coding",
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text"],
@@ -27,8 +28,10 @@
     "page_url": "8913413c",
     "open_weight": "b326b506",
     "tagline": "1fb93495",
-    "capabilities": "9c665f5d",
-    "modalities": "68e53d93"
+    "capabilities": "7c09924d",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-08-13",
+  "tools": ["function_calling"]
 }

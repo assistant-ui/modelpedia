@@ -1,0 +1,28 @@
+{
+  "id": "minimax/h3/flf2v/trainer",
+  "name": "MiniMax H3 First Last Frame LoRA Trainer",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "Train a MiniMax H3 LoRA on first/last/both keyframe signatures, teaching it to generate video with audio that starts on one image and lands on another.",
+  "status": "active",
+  "release_date": "2026-08-02",
+  "model_type": "other",
+  "page_url": "https://fal.run/minimax/h3/flf2v/trainer",
+  "tagline": "Train a MiniMax H3 LoRA on first/last/both keyframe signatures, teaching it to generate video with audio that starts on one image and lands on another.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-08-10",
+  "_generated": {
+    "name": "a2896bce",
+    "description": "77f3b3ea",
+    "status": "379ac110",
+    "release_date": "13982a0a",
+    "model_type": "ddb0b7bc",
+    "page_url": "3ec239a7",
+    "tagline": "77f3b3ea",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "a2454697"
+  },
+  "last_updated": "2026-08-13"
+}

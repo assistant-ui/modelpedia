@@ -1,0 +1,28 @@
+{
+  "id": "hitem3d/hi3d/multi-view-to-3d",
+  "name": "Hi3D Multiview to 3D",
+  "created_by": "hitem3d",
+  "source": "official",
+  "description": "Generate 3D models from multiple view images using Hi3D.",
+  "status": "active",
+  "release_date": "2026-07-31",
+  "model_type": "other",
+  "page_url": "https://fal.run/hitem3d/hi3d/multi-view-to-3d",
+  "tagline": "Generate 3D models from multiple view images using Hi3D.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-08-07",
+  "_generated": {
+    "name": "6bd5637a",
+    "description": "9add4989",
+    "status": "379ac110",
+    "release_date": "0ee605c3",
+    "model_type": "ddb0b7bc",
+    "page_url": "c2f1036c",
+    "tagline": "9add4989",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "21dbef0e"
+  },
+  "last_updated": "2026-08-13"
+}

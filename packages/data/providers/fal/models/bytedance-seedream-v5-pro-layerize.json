@@ -1,0 +1,38 @@
+{
+  "id": "bytedance/seedream/v5/pro/layerize",
+  "name": "Seedream 5.0 Pro Layerize",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Splits a finished image into independent, editable transparent-PNG layers — background plus separate elements, from a text description, returning 2 to 17 layers per call for non-destructive reuse in d",
+  "status": "active",
+  "release_date": "2026-08-06",
+  "model_type": "image",
+  "page_url": "https://fal.run/bytedance/seedream/v5/pro/layerize",
+  "tagline": "Splits a finished image into independent, editable transparent-PNG layers — background plus separate elements, from a text description, returning 2 to 17 layers per call for non-destructive reuse in d",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "tools": ["function_calling"],
+  "last_seen_at": "2026-08-07",
+  "_generated": {
+    "name": "d44bb339",
+    "description": "de47f19c",
+    "status": "379ac110",
+    "release_date": "54ed7014",
+    "model_type": "db8857fe",
+    "page_url": "30a2dd76",
+    "tagline": "de47f19c",
+    "capabilities": "ed0d180f",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "tools": "f0c1dc7e",
+    "last_seen_at": "21dbef0e"
+  },
+  "last_updated": "2026-08-13"
+}

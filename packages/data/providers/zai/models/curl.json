@@ -3,19 +3,39 @@
   "name": "cURL",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-08-13",
   "license": "mit",
-  "page_url": "https://docs.z.ai/guides/audio/glm-asr-2512",
+  "page_url": "https://docs.z.ai/guides/llm/glm-5.2",
   "modalities": {
-    "input": ["audio"],
+    "input": ["text"],
     "output": ["text"]
   },
   "open_weight": true,
   "_generated": {
     "name": "2b630ff3",
     "license": "3c4c3ba5",
-    "page_url": "dfb2fa8b",
-    "modalities": "b8e84832",
-    "open_weight": "b326b506"
-  }
+    "page_url": "1575d6f3",
+    "modalities": "68e53d93",
+    "open_weight": "b326b506",
+    "description": "226fcc8b",
+    "context_window": "34434798",
+    "max_output_tokens": "34434798",
+    "tagline": "d9bb7068",
+    "capabilities": "2582d2f2",
+    "tools": "f0c1dc7e"
+  },
+  "description": "GLM-5.2 is a flagship model built for the era of long-horizon tasks. With truly usable 1M-token context, it has been tested to handle project-scale engineering context, delivering more stable long-task execution, more reliable adherence to engineering standards, and higher success rates in development scenarios. A single task can complete the full development workflow—from requirements to deployable products across multiple platforms.",
+  "context_window": 128000,
+  "max_output_tokens": 128000,
+  "tagline": "GLM-5.2 is a flagship model built for the era of long-horizon tasks.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "prompt_caching": true,
+    "fine_tuning": true,
+    "json_mode": true
+  },
+  "tools": ["function_calling"]
 }

@@ -1,0 +1,43 @@
+{
+  "id": "openai/o3-pro:batch",
+  "name": "OpenAI: o3 Pro (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "family": "o3",
+  "description": "The o-series of models are trained with reinforcement learning to think before they answer and perform complex reasoning.",
+  "release_date": "2025-06-10",
+  "context_window": 200000,
+  "max_output_tokens": 100000,
+  "model_type": "reasoning",
+  "tagline": "The o-series of models are trained with reinforcement learning to think before they answer and perform complex reasoning.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 10,
+    "output": 40
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1f3f2b86",
+    "family": "193049bc",
+    "description": "11f45bd4",
+    "release_date": "298b4e52",
+    "context_window": "03e6c616",
+    "max_output_tokens": "14ee22ea",
+    "model_type": "17475f7f",
+    "tagline": "11f45bd4",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "2cfa6cc0",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

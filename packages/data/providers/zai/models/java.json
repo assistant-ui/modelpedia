@@ -3,23 +3,37 @@
   "name": "Java",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-08-13",
   "license": "mit",
-  "page_url": "https://docs.z.ai/guides/image/cogview-4",
+  "page_url": "https://docs.z.ai/guides/vlm/glm-5v-turbo",
   "modalities": {
     "input": ["text"],
-    "output": ["image"]
+    "output": ["text"]
   },
   "open_weight": true,
   "_generated": {
     "name": "3204ad2d",
     "license": "3c4c3ba5",
-    "page_url": "de4ff307",
-    "modalities": "814867b9",
+    "page_url": "627e913a",
+    "modalities": "68e53d93",
     "open_weight": "b326b506",
-    "description": "2fc0fad2",
-    "tagline": "91c6c204"
+    "description": "fcf363c3",
+    "tagline": "91c6c204",
+    "context_window": "03e6c616",
+    "max_output_tokens": "34434798",
+    "capabilities": "1029c7f0",
+    "tools": "f0c1dc7e"
   },
-  "description": "CogView-4 is Z.AI’s first open-source text-to-image model. It has comprehensive improvements in semantic understanding, image generation quality, and the ability to generate both English and Chinese text. It supports bilingual input of any length in Chinese and English and can generate images of any resolution within a specified range.",
-  "tagline": "CogView-4 is Z.AI’s first open-source text-to-image model."
+  "description": "GLM-5V-Turbo is Z.AI's first multimodal coding foundation model, built for vision-based coding tasks. It can natively process multimodal inputs such as images, video, and text, while also excelling at long-horizon planning, complex coding, and action execution. Deeply optimized for agent workflows, it works seamlessly with agents such as Claude Code and OpenClaw to complete the full loop of \"understand the environment → plan actions → execute tasks\".",
+  "tagline": "CogView-4 is Z.AI’s first open-source text-to-image model.",
+  "context_window": 200000,
+  "max_output_tokens": 128000,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "prompt_caching": true,
+    "fine_tuning": true
+  },
+  "tools": ["function_calling"]
 }

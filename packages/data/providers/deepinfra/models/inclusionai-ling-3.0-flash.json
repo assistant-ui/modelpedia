@@ -1,0 +1,46 @@
+{
+  "id": "inclusionAI/Ling-3.0-flash",
+  "name": "Ling-3.0-flash",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "The model prioritizes token efficiency and agentic inference at production scale, stretching what developers can achieve within limited token, latency, and serving-cost budgets.",
+  "status": "active",
+  "context_window": 131072,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "tagline": "The model prioritizes token efficiency and agentic inference at production scale, stretching what developers can achieve within limited token, latency, and serving-cost budgets.",
+  "capabilities": {
+    "tool_call": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0.18,
+    "cached_input": 0.012
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "bd6bbc85",
+    "description": "efc078b8",
+    "status": "379ac110",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "tagline": "efc078b8",
+    "capabilities": "294930d1",
+    "modalities": "68e53d93",
+    "pricing": "70d151c2",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-08-13"
+}

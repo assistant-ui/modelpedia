@@ -1,0 +1,28 @@
+{
+  "id": "meshy/v7/image-to-3d",
+  "name": "V7 Image to 3D",
+  "created_by": "meshy",
+  "source": "official",
+  "description": "Turns a single image into a fully textured, PBR-ready 3D mesh with complete geometry, in game-ready Smart Topology at a target polygon count",
+  "status": "active",
+  "release_date": "2026-08-11",
+  "model_type": "other",
+  "page_url": "https://fal.run/meshy/v7/image-to-3d",
+  "tagline": "Turns a single image into a fully textured, PBR-ready 3D mesh with complete geometry, in game-ready Smart Topology at a target polygon count",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-08-11",
+  "_generated": {
+    "name": "5d3339a4",
+    "description": "36919bdd",
+    "status": "379ac110",
+    "release_date": "c2572fd1",
+    "model_type": "ddb0b7bc",
+    "page_url": "b5612d50",
+    "tagline": "36919bdd",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "c2572fd1"
+  },
+  "last_updated": "2026-08-13"
+}

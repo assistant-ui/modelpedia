@@ -1,0 +1,21 @@
+{
+  "id": "bytedance/seedance-2.5",
+  "name": "seedance-2.5",
+  "created_by": "bytedance",
+  "source": "official",
+  "model_type": "video",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "156d2ffd",
+    "model_type": "4d1b75ca",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-08-13"
+}

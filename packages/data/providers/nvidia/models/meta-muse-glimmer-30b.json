@@ -1,0 +1,16 @@
+{
+  "id": "meta/muse-glimmer-30b",
+  "name": "muse-glimmer-30b",
+  "created_by": "meta",
+  "source": "official",
+  "parameters": 30,
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "59af5454",
+    "parameters": "34173cb3",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-08-13"
+}
