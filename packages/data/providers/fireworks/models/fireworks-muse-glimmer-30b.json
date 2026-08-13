@@ -1,0 +1,26 @@
+{
+  "id": "fireworks/muse-glimmer-30b",
+  "name": "muse-glimmer-30b",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 131000,
+  "parameters": 30,
+  "page_url": "https://fireworks.ai/models/fireworks/muse-glimmer-30b",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.35,
+    "output": 1.5,
+    "cached_input": 0.04
+  },
+  "_generated": {
+    "name": "59af5454",
+    "context_window": "834bd590",
+    "parameters": "34173cb3",
+    "page_url": "1527c9de",
+    "capabilities": "0fa77dc6",
+    "pricing": "5240601e"
+  },
+  "last_updated": "2026-08-13"
+}

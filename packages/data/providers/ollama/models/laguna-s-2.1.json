@@ -30,9 +30,11 @@
     "capabilities": "dcffc891",
     "modalities": "68e53d93",
     "reasoning_tokens": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-07-30",
+  "last_updated": "2026-08-13",
   "reasoning_tokens": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

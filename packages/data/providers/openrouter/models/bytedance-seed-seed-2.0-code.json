@@ -1,0 +1,39 @@
+{
+  "id": "bytedance-seed/seed-2.0-code",
+  "name": "ByteDance Seed: Seed-2.0-Code",
+  "created_by": "bytedance-seed",
+  "source": "official",
+  "description": "Seed 2.0 Code is a model from ByteDance Seed optimized for agentic coding.",
+  "release_date": "2026-08-12",
+  "context_window": 262144,
+  "max_output_tokens": 131072,
+  "tagline": "Seed 2.0 Code is a model from ByteDance Seed optimized for agentic coding.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 3
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b2b102b3",
+    "description": "30c776e6",
+    "release_date": "968fe5cf",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f7de594e",
+    "tagline": "30c776e6",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "pricing": "ad477c96",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

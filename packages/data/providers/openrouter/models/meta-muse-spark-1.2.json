@@ -1,0 +1,38 @@
+{
+  "id": "meta/muse-spark-1.2",
+  "name": "Meta: Muse Spark 1.2",
+  "created_by": "meta",
+  "source": "official",
+  "description": "Muse Spark 1.2 is a reasoning model from Meta, designed for complex agentic tasks.",
+  "release_date": "2026-08-05",
+  "context_window": 1048576,
+  "tagline": "Muse Spark 1.2 is a reasoning model from Meta, designed for complex agentic tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 4.25,
+    "cached_input": 0.15
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "0af2c4c6",
+    "description": "23f5a480",
+    "release_date": "b45c58db",
+    "context_window": "7d28a051",
+    "tagline": "23f5a480",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "a0f59bdb",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

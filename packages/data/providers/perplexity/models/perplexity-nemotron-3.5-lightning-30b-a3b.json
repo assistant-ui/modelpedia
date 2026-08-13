@@ -1,0 +1,31 @@
+{
+  "id": "perplexity/nemotron-3.5-lightning-30b-a3b",
+  "name": "perplexity/nemotron-3.5-lightning-30b-a3b",
+  "created_by": "nvidia",
+  "source": "official",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.0115,
+    "output": 0.17,
+    "cached_input": 0.00115
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "620732af",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "bf7c6bae",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-08-13"
+}

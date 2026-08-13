@@ -3,14 +3,14 @@
   "name": "Mage Flow",
   "created_by": "luke100000",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/luke100000/mage-flow",
   "_generated": {
     "name": "b916c78c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "ff985f80"
   },
-  "last_updated": "2026-07-30"
+  "last_updated": "2026-08-13"
 }

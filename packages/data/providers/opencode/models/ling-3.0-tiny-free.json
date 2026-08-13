@@ -1,0 +1,16 @@
+{
+  "id": "ling-3.0-tiny-free",
+  "name": "Ling-3.0-tiny Free",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "5a80e565",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-08-13"
+}

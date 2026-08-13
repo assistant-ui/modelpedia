@@ -1,0 +1,28 @@
+{
+  "id": "s/nemotron-3-5-lightning",
+  "name": "Nemotron 3 5 Lightning",
+  "created_by": "nvidia",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/nemotron-3-5-lightning",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.4,
+    "output": 4.4
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "760680c6",
+    "page_url": "63c4ea55",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "caa16a81",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-08-13"
+}

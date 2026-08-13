@@ -4,7 +4,7 @@
   "created_by": "xai",
   "source": "official",
   "family": "grok-4.5",
-  "description": "Grok 4.5 is SpaceXAI's smartest model with frontier performance on coding, knowledge work, and STEM.",
+  "description": "Grok 4.5 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM.",
   "release_date": "2026-07-08",
   "context_window": 500000,
   "model_type": "chat",
@@ -28,7 +28,7 @@
   "_generated": {
     "name": "ca998134",
     "family": "ce414514",
-    "description": "58da72e3",
+    "description": "aaae5acd",
     "release_date": "8f95d981",
     "context_window": "c9077732",
     "model_type": "d669f408",
@@ -38,5 +38,5 @@
     "pricing": "fab18d6a",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-05"
+  "last_updated": "2026-08-13"
 }

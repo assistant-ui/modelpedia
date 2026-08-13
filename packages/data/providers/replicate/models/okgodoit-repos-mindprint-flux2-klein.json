@@ -3,7 +3,7 @@
   "name": "Mindprint Flux2 Klein",
   "created_by": "okgodoit-repos",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "image",
   "page_url": "https://replicate.com/okgodoit-repos/mindprint-flux2-klein",
   "modalities": {
@@ -13,11 +13,11 @@
   "endpoints": ["images"],
   "_generated": {
     "name": "4a50be36",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "page_url": "5bef8a8a",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc"
   },
-  "last_updated": "2026-07-25"
+  "last_updated": "2026-08-13"
 }

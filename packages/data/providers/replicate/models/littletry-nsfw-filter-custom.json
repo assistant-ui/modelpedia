@@ -1,0 +1,16 @@
+{
+  "id": "littletry/nsfw-filter-custom",
+  "name": "Nsfw Filter Custom",
+  "created_by": "littletry",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/littletry/nsfw-filter-custom",
+  "_generated": {
+    "name": "f6aa29f7",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "a4099b6c"
+  },
+  "last_updated": "2026-08-13"
+}

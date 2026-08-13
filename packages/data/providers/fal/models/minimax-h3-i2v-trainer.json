@@ -1,0 +1,28 @@
+{
+  "id": "minimax/h3/i2v/trainer",
+  "name": "MiniMax H3 Image to Video Audio LoRA Trainer",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "Train a MiniMax H3 LoRA with first-frame conditioning, so a still image animates into video with audio; captions optional.",
+  "status": "active",
+  "release_date": "2026-08-02",
+  "model_type": "other",
+  "page_url": "https://fal.run/minimax/h3/i2v/trainer",
+  "tagline": "Train a MiniMax H3 LoRA with first-frame conditioning, so a still image animates into video with audio; captions optional.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-08-10",
+  "_generated": {
+    "name": "a3aeaa96",
+    "description": "6069dc03",
+    "status": "379ac110",
+    "release_date": "13982a0a",
+    "model_type": "ddb0b7bc",
+    "page_url": "9bd9755c",
+    "tagline": "6069dc03",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "a2454697"
+  },
+  "last_updated": "2026-08-13"
+}

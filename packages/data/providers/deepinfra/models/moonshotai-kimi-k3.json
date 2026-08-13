@@ -1,0 +1,50 @@
+{
+  "id": "moonshotai/Kimi-K3",
+  "name": "Kimi-K3",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "Kimi-K3",
+  "description": "Kimi K3 is Moonshot AI's 2.8T-parameter open-weight multimodal reasoning model. Built for complex coding, knowledge work, and long-horizon agentic workflows, it excels at navigating large repositories, calling tools, debugging, and iterating on images, logs, tests, and runtime feedback. Its architecture relies on KDA and Attention Residuals for computational efficiency.",
+  "status": "active",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "license": "modified-mit",
+  "open_weight": true,
+  "tagline": "Kimi K3 is Moonshot AI's 2.8T-parameter open-weight multimodal reasoning model.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.85,
+    "output": 14.25,
+    "cached_input": 0.285
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "851ed684",
+    "family": "851ed684",
+    "description": "9bb49264",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "license": "c33cdf2d",
+    "open_weight": "b326b506",
+    "tagline": "e83ab710",
+    "capabilities": "bfede2e3",
+    "modalities": "6399757e",
+    "pricing": "0d47888b",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-08-13"
+}

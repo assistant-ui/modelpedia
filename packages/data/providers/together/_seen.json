@@ -1,16 +1,15 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-13",
   "count": 25,
   "ids": [
     "s-cartesia-sonic-35",
     "s-deepseek-v4-flash-0731",
     "s-deepseek-v4-pro",
+    "s-deepseek-v4-pro-0813",
+    "s-flux-3",
     "s-gemma-4-31b",
     "s-glm-52",
     "s-gpt-image-2",
-    "s-happyhorse-1-0-i2v",
-    "s-happyhorse-1-0-r2v",
-    "s-happyhorse-1-0-t2v",
     "s-inkling",
     "s-inkling-small",
     "s-kimi-k26",
@@ -18,14 +17,15 @@
     "s-kimi-k3",
     "s-liquid-lfm2-5-8b-a1b",
     "s-minimax-m3",
-    "s-nemotron-3-asr-streaming-0-6b",
+    "s-muse-glimmer",
+    "s-nemotron-3-5-lightning",
     "s-nvidia-nemotron-3-ultra",
-    "s-parakeet-tdt-0-6b-v3-realtime",
     "s-prism-ml-ternary-bonsai-27b",
     "s-qwen3-8-max",
     "s-qwen37-max",
     "s-qwen37-plus",
     "s-seedance-2-0",
+    "s-seedance-2-5",
     "s-wan-2-6-image"
   ]
 }

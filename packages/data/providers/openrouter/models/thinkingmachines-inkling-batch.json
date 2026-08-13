@@ -1,0 +1,36 @@
+{
+  "id": "thinkingmachines/inkling:batch",
+  "name": "Thinking Machines: Inkling (batch)",
+  "created_by": "thinkingmachines",
+  "source": "official",
+  "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total.",
+  "release_date": "2026-07-17",
+  "context_window": 524288,
+  "tagline": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 2.025,
+    "cached_input": 0.085
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "00f07244",
+    "description": "f2a134f0",
+    "release_date": "4d92f2b5",
+    "context_window": "bcabf6a1",
+    "tagline": "f2a134f0",
+    "capabilities": "05723a3e",
+    "modalities": "05efe8aa",
+    "pricing": "f7004425",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

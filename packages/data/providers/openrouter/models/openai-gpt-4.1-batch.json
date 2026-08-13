@@ -1,0 +1,43 @@
+{
+  "id": "openai/gpt-4.1:batch",
+  "name": "OpenAI: GPT-4.1 (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-4.1",
+  "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning.",
+  "release_date": "2025-04-14",
+  "context_window": 1047576,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "tagline": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 4,
+    "cached_input": 0.25
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "7ce7fc8c",
+    "family": "d240daf4",
+    "description": "cd29eb46",
+    "release_date": "85c7118a",
+    "context_window": "55410616",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "tagline": "cd29eb46",
+    "capabilities": "6c9aa67e",
+    "modalities": "8b8b28d1",
+    "pricing": "4290251f",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

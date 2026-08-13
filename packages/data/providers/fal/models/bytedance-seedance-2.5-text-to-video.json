@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/seedance-2.5/text-to-video",
+  "name": "Seedance 2.5 Text to Video",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Dreamina Seedance 2.5 generates native 30-second single-shot video at up to 720p from a single text prompt, reasoning about the whole shot at once so motion, lighting, and subject identity stay cohere",
+  "status": "active",
+  "release_date": "2026-07-20",
+  "model_type": "video",
+  "page_url": "https://fal.run/bytedance/seedance-2.5/text-to-video",
+  "tagline": "Dreamina Seedance 2.5 generates native 30-second single-shot video at up to 720p from a single text prompt, reasoning about the whole shot at once so motion, lighting, and subject identity stay cohere",
+  "capabilities": {
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-08-07",
+  "_generated": {
+    "name": "bdb8a2a1",
+    "description": "6710d7bf",
+    "status": "379ac110",
+    "release_date": "7047ff2b",
+    "model_type": "4d1b75ca",
+    "page_url": "f8bfb735",
+    "tagline": "6710d7bf",
+    "capabilities": "7107421f",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "21dbef0e"
+  },
+  "last_updated": "2026-08-13"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "elevenlabs/dubbing",
+  "name": "Dubbing",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/elevenlabs/dubbing",
+  "_generated": {
+    "name": "e49fbd71",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "3e3690a3"
+  },
+  "last_updated": "2026-08-13"
+}

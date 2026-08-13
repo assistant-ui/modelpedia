@@ -7,7 +7,7 @@
   "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window.",
   "release_date": "2026-04-24",
   "context_window": 1048576,
-  "max_output_tokens": 384000,
+  "max_output_tokens": 393216,
   "model_type": "chat",
   "tagline": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window.",
   "capabilities": {
@@ -21,9 +21,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.435,
-    "output": 0.87,
-    "cached_input": 0.004
+    "input": 1.168,
+    "output": 2.336,
+    "cached_input": 0.099
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -32,13 +32,13 @@
     "description": "c1853a64",
     "release_date": "173d2bb2",
     "context_window": "7d28a051",
-    "max_output_tokens": "c58e26bd",
+    "max_output_tokens": "628f482c",
     "model_type": "d669f408",
     "tagline": "c1853a64",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
-    "pricing": "30730939",
+    "pricing": "4077e38f",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-04-26"
+  "last_updated": "2026-08-13"
 }

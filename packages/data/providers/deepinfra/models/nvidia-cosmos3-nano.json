@@ -13,7 +13,7 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "pricing_notes": ["$0.0250 / second (720p)"],
+  "pricing_notes": ["$0.0350 / second (720p)"],
   "_generated": {
     "name": "3733e431",
     "description": "922051a7",
@@ -23,7 +23,7 @@
     "tagline": "074b0039",
     "modalities": "94e5e9ab",
     "endpoints": "7a78c070",
-    "pricing_notes": "a1e3f0ec"
+    "pricing_notes": "a71101cd"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-08-13"
 }

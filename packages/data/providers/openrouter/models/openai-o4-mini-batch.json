@@ -1,0 +1,44 @@
+{
+  "id": "openai/o4-mini:batch",
+  "name": "OpenAI: o4 Mini (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "family": "o4",
+  "description": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities.",
+  "release_date": "2025-04-16",
+  "context_window": 200000,
+  "max_output_tokens": 100000,
+  "model_type": "reasoning",
+  "tagline": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.55,
+    "output": 2.2,
+    "cached_input": 0.138
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "7e469c7b",
+    "family": "a842f941",
+    "description": "9b078ef8",
+    "release_date": "67604092",
+    "context_window": "03e6c616",
+    "max_output_tokens": "14ee22ea",
+    "model_type": "17475f7f",
+    "tagline": "9b078ef8",
+    "capabilities": "03fbefb4",
+    "modalities": "8b8b28d1",
+    "pricing": "c547f847",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "hitem3d/hi3d/multicolor",
+  "name": "Hi3D 3D to Multicolor",
+  "created_by": "hitem3d",
+  "source": "official",
+  "description": "Convert a textured 3D model into a multicolor model suited for multicolor 3D printing with Hi3D.",
+  "status": "active",
+  "release_date": "2026-07-31",
+  "model_type": "other",
+  "page_url": "https://fal.run/hitem3d/hi3d/multicolor",
+  "tagline": "Convert a textured 3D model into a multicolor model suited for multicolor 3D printing with Hi3D.",
+  "last_seen_at": "2026-08-07",
+  "_generated": {
+    "name": "57102b6f",
+    "description": "73c53168",
+    "status": "379ac110",
+    "release_date": "0ee605c3",
+    "model_type": "ddb0b7bc",
+    "page_url": "077617af",
+    "tagline": "73c53168",
+    "last_seen_at": "21dbef0e"
+  },
+  "last_updated": "2026-08-13"
+}

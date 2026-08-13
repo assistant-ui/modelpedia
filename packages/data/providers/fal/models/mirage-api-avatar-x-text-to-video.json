@@ -1,0 +1,31 @@
+{
+  "id": "mirage-api/avatar-x/text-to-video",
+  "name": "Avatar X",
+  "created_by": "mirage-api",
+  "source": "official",
+  "description": "The Avatar X API offers access to Mirage's most advanced generation model yet, delivering\nindustry-leading identity preservation and expressivity in AI video",
+  "status": "active",
+  "release_date": "2026-08-10",
+  "model_type": "video",
+  "page_url": "https://fal.run/mirage-api/avatar-x/text-to-video",
+  "tagline": "The Avatar X API offers access to Mirage's most advanced generation model yet, delivering\nindustry-leading identity preservation and expressivity in AI video",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-08-11",
+  "_generated": {
+    "name": "df3a984c",
+    "description": "81424d0e",
+    "status": "379ac110",
+    "release_date": "a2454697",
+    "model_type": "4d1b75ca",
+    "page_url": "98ffcbb8",
+    "tagline": "81424d0e",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "c2572fd1"
+  },
+  "last_updated": "2026-08-13"
+}

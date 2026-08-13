@@ -1,0 +1,31 @@
+{
+  "id": "lightricks/ltx-2.5/text-to-video/pro",
+  "name": "Ltx 2.5 Text to Video Fast",
+  "created_by": "lightricks",
+  "source": "official",
+  "description": "LTX-2.5 is Lightricks' open-source audio-video model.",
+  "status": "active",
+  "release_date": "2026-08-11",
+  "model_type": "video",
+  "page_url": "https://fal.run/lightricks/ltx-2.5/text-to-video/pro",
+  "tagline": "LTX-2.5 is Lightricks' open-source audio-video model.",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-08-12",
+  "_generated": {
+    "name": "da7ecbb3",
+    "description": "07243452",
+    "status": "379ac110",
+    "release_date": "c2572fd1",
+    "model_type": "4d1b75ca",
+    "page_url": "d611104c",
+    "tagline": "07243452",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "968fe5cf"
+  },
+  "last_updated": "2026-08-13"
+}

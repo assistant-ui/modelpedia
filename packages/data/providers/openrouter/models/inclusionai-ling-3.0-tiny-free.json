@@ -1,0 +1,36 @@
+{
+  "id": "inclusionai/ling-3.0-tiny:free",
+  "name": "inclusionAI: Ling 3.0 Tiny (free)",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "Ling 3.0 Tiny is a mixture-of-experts model from InclusionAI, with 1.3B active parameters out of 7.9B total.",
+  "status": "deprecated",
+  "release_date": "2026-08-06",
+  "deprecation_date": "2026-08-13",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "tagline": "Ling 3.0 Tiny is a mixture-of-experts model from InclusionAI, with 1.3B active parameters out of 7.9B total.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "af73f83e",
+    "description": "79262629",
+    "status": "2e2f74dc",
+    "release_date": "54ed7014",
+    "deprecation_date": "2a7fa61f",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "tagline": "79262629",
+    "capabilities": "05723a3e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

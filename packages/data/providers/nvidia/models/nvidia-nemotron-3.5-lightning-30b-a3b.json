@@ -1,0 +1,28 @@
+{
+  "id": "nvidia/nemotron-3.5-lightning-30b-a3b",
+  "name": "nemotron-3.5-lightning-30b-a3b",
+  "created_by": "nvidia",
+  "source": "official",
+  "parameters": 30,
+  "active_parameters": 3,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "82dc166c",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "model_type": "d669f408",
+    "capabilities": "48995a4e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

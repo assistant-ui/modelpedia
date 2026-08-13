@@ -3,13 +3,13 @@
   "name": "llama-v3p1-70b-instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-07-17",
+  "last_updated": "2026-08-13",
   "context_window": 131000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 1,
+    "input": 0.9,
     "output": 1,
     "cached_input": 1
   },
@@ -17,7 +17,7 @@
     "name": "780a9cbe",
     "context_window": "834bd590",
     "capabilities": "0fa77dc6",
-    "pricing": "cb03f68e",
+    "pricing": "d5937f56",
     "model_type": "d669f408",
     "parameters": "7cbbc409",
     "page_url": "b8344b30",

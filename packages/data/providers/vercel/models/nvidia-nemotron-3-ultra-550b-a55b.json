@@ -13,8 +13,8 @@
     "reasoning": true
   },
   "pricing": {
-    "input": 0.37,
-    "output": 1.08
+    "input": 0.5,
+    "output": 2.4
   },
   "modalities": {
     "input": ["text"],
@@ -28,9 +28,9 @@
     "parameters": "01f78be6",
     "active_parameters": "b53b3a3d",
     "capabilities": "a281e83a",
-    "pricing": "c58247d2",
+    "pricing": "59a86c5d",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-08-13"
 }

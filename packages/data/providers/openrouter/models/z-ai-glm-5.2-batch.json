@@ -1,0 +1,42 @@
+{
+  "id": "z-ai/glm-5.2:batch",
+  "name": "Z.ai: GLM 5.2 (batch)",
+  "created_by": "z-ai",
+  "source": "official",
+  "family": "glm-5.2",
+  "description": "GLM 5.2 is a large-scale reasoning model from Z.ai.",
+  "release_date": "2026-06-16",
+  "context_window": 512000,
+  "model_type": "chat",
+  "tagline": "GLM 5.2 is a large-scale reasoning model from Z.ai.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.7,
+    "output": 2.2,
+    "cached_input": 0.13
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f55329d3",
+    "family": "8e7b3ca0",
+    "description": "241852ce",
+    "release_date": "3eed1aa6",
+    "context_window": "d09e1c12",
+    "model_type": "d669f408",
+    "tagline": "241852ce",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "aaf08c38",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

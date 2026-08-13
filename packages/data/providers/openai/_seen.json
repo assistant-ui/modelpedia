@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-31",
-  "count": 161,
+  "date": "2026-08-13",
+  "count": 162,
   "ids": [
     "babbage-002",
     "chat-latest",
@@ -98,6 +98,7 @@
     "gpt-5.5-2026-04-23",
     "gpt-5.5-pro",
     "gpt-5.5-pro-2026-04-23",
+    "gpt-5.6-cyber",
     "gpt-5.6-luna",
     "gpt-5.6-sol",
     "gpt-5.6-terra",

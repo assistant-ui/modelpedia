@@ -3,14 +3,14 @@
   "name": "Depth Anything V2",
   "created_by": "chenxwh",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/chenxwh/depth-anything-v2",
   "_generated": {
     "name": "070f7abd",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "96419746"
   },
-  "last_updated": "2026-08-02"
+  "last_updated": "2026-08-13"
 }

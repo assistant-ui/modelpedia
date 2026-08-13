@@ -3,9 +3,9 @@
   "name": "Upstage: Solar Pro 3",
   "created_by": "upstage",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-08-13",
   "description": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model.",
-  "context_window": 128000,
+  "context_window": 131072,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -24,15 +24,17 @@
   "_generated": {
     "name": "5979ec0f",
     "description": "4961dd0e",
-    "context_window": "34434798",
+    "context_window": "f7de594e",
     "modalities": "68e53d93",
     "capabilities": "03fbefb4",
     "pricing": "e5cfa60c",
     "release_date": "a6a6b128",
     "tagline": "4961dd0e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "max_output_tokens": "f7de594e"
   },
   "release_date": "2026-01-27",
   "tagline": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "max_output_tokens": 131072
 }

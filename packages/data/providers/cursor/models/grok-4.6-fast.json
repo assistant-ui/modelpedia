@@ -1,0 +1,36 @@
+{
+  "id": "grok-4.6-fast",
+  "name": "Grok 4.6 (Fast)",
+  "created_by": "cursor",
+  "source": "official",
+  "family": "grok-4.6",
+  "page_url": "https://cursor.com/docs/models-and-pricing#grok-4.6-fast",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 4,
+    "output": 12,
+    "cached_input": 1
+  },
+  "pricing_notes": [
+    "Jointly trained by Cursor and SpaceXAI; 50% launch discount for one week starting August 12, 2026"
+  ],
+  "_generated": {
+    "name": "3eba85ec",
+    "family": "6351f129",
+    "page_url": "d13a9330",
+    "model_type": "d669f408",
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "pricing": "959cdfee",
+    "pricing_notes": "97f80a05"
+  },
+  "last_updated": "2026-08-13"
+}

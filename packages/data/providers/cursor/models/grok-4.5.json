@@ -1,0 +1,43 @@
+{
+  "id": "grok-4.5",
+  "name": "Grok 4.5",
+  "created_by": "cursor",
+  "source": "official",
+  "family": "grok-4.5",
+  "context_window": 256000,
+  "performance": 5,
+  "speed": 3,
+  "page_url": "https://cursor.com/docs/models-and-pricing#grok-4-5",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6,
+    "cached_input": 0.5
+  },
+  "pricing_notes": ["Jointly trained by Cursor and SpaceXAI"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "3b3306ef",
+    "family": "ce414514",
+    "context_window": "2fd324cb",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "page_url": "b9f577c5",
+    "model_type": "d669f408",
+    "capabilities": "a281e83a",
+    "modalities": "68e53d93",
+    "pricing": "1b0b4866",
+    "pricing_notes": "b9f739ff",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

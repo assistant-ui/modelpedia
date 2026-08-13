@@ -1,0 +1,35 @@
+{
+  "id": "fireworks/nemotron-lightning-3p5-30b-a3b",
+  "name": "nemotron-lightning-3p5-30b-a3b",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 262000,
+  "parameters": 30,
+  "active_parameters": 3,
+  "page_url": "https://fireworks.ai/models/fireworks/nemotron-lightning-3p5-30b-a3b",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.2,
+    "cached_input": 0.01
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "4fcc3f17",
+    "context_window": "4ed74017",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "page_url": "832fd4b0",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "ad1ddbb5",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-08-13"
+}

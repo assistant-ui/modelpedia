@@ -1,0 +1,42 @@
+{
+  "id": "nemotron-3.5-lightning",
+  "name": "nemotron-3.5-lightning",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "NVIDIA Nemotron 3.5 Lightning is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for always-on agents.",
+  "context_window": 262144,
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "parameters": 30,
+  "page_url": "https://ollama.com/library/nemotron-3.5-lightning",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "NVIDIA Nemotron 3.5 Lightning is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for always-on agents.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b90f7ffc",
+    "description": "ffcac156",
+    "context_window": "4a1d32eb",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "parameters": "34173cb3",
+    "page_url": "b94ac36f",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "ffcac156",
+    "capabilities": "4043afaa",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

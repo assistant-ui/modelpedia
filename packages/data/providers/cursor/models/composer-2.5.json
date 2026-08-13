@@ -1,0 +1,40 @@
+{
+  "id": "composer-2.5",
+  "name": "Composer 2.5",
+  "created_by": "cursor",
+  "source": "official",
+  "context_window": 200000,
+  "performance": 5,
+  "speed": 4,
+  "page_url": "https://cursor.com/docs/models-and-pricing#cursor-composer-2-5",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 2.5,
+    "cached_input": 0.2
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "604e4620",
+    "context_window": "03e6c616",
+    "performance": "e4da3b7f",
+    "speed": "a87ff679",
+    "page_url": "ec5e3ac6",
+    "model_type": "d669f408",
+    "capabilities": "7ca28ec9",
+    "modalities": "6399757e",
+    "pricing": "785da582",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-13"
+}

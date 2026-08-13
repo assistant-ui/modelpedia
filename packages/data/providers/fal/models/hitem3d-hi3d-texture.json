@@ -1,0 +1,28 @@
+{
+  "id": "hitem3d/hi3d/texture",
+  "name": "Hi3D Texture",
+  "created_by": "hitem3d",
+  "source": "official",
+  "description": "Texture an existing geometry mesh using a reference image with Hi3D.",
+  "status": "active",
+  "release_date": "2026-07-31",
+  "model_type": "other",
+  "page_url": "https://fal.run/hitem3d/hi3d/texture",
+  "tagline": "Texture an existing geometry mesh using a reference image with Hi3D.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-08-07",
+  "_generated": {
+    "name": "f5145a0b",
+    "description": "67eeb208",
+    "status": "379ac110",
+    "release_date": "0ee605c3",
+    "model_type": "ddb0b7bc",
+    "page_url": "332db427",
+    "tagline": "67eeb208",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "21dbef0e"
+  },
+  "last_updated": "2026-08-13"
+}

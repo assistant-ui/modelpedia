@@ -3,14 +3,14 @@
   "name": "Cadence Fast",
   "created_by": "onesoltech",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/onesoltech/cadence-fast",
   "_generated": {
     "name": "19521dc7",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "5f8f2bb9"
   },
-  "last_updated": "2026-08-03"
+  "last_updated": "2026-08-13"
 }

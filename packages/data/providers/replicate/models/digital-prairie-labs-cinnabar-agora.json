@@ -3,14 +3,14 @@
   "name": "Cinnabar Agora",
   "created_by": "digital-prairie-labs",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/digital-prairie-labs/cinnabar-agora",
   "_generated": {
     "name": "af6b2d46",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "9bab0f86"
   },
-  "last_updated": "2026-08-02"
+  "last_updated": "2026-08-13"
 }

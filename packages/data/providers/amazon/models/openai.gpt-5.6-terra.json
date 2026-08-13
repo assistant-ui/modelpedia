@@ -1,0 +1,28 @@
+{
+  "id": "openai.gpt-5.6-terra",
+  "name": "GPT-5.6 Terra",
+  "created_by": "openai",
+  "source": "official",
+  "release_date": "2026-07-13",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-terra",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "19038c67",
+    "release_date": "a393f093",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "page_url": "35e9f697",
+    "capabilities": "8a3b232e",
+    "modalities": "8b8b28d1"
+  },
+  "last_updated": "2026-08-13"
+}

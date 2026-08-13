@@ -4,7 +4,7 @@
   "created_by": "stability",
   "source": "official",
   "description": "Stable Diffusion 3 Medium Tensorrt is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2024-06-12",
   "model_type": "image",
   "license": "other",
@@ -25,7 +25,7 @@
   "_generated": {
     "name": "50c9ab94",
     "description": "9e66f7a2",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "c82ef92f",
     "model_type": "db8857fe",
     "license": "ddb0b7bc",
@@ -38,5 +38,5 @@
     "huggingface_downloads": "e4da3b7f",
     "last_modified": "ba1efbec"
   },
-  "last_updated": "2026-07-25"
+  "last_updated": "2026-08-13"
 }

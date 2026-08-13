@@ -4,7 +4,7 @@
   "created_by": "stability",
   "source": "official",
   "description": "Japanese Stablelm 2 Instruct 1 6b is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2024-05-02",
   "model_type": "chat",
   "license": "other",
@@ -26,7 +26,7 @@
   "_generated": {
     "name": "ba52a73d",
     "description": "e48dde90",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "37681173",
     "model_type": "d669f408",
     "license": "ddb0b7bc",
@@ -40,5 +40,5 @@
     "huggingface_downloads": "e4da3b7f",
     "last_modified": "2d84b9f9"
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-08-13"
 }

@@ -1,0 +1,31 @@
+{
+  "id": "minimax/h3/text-to-video/lora",
+  "name": "MiniMax H3 Text to Video LoRA",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "Generate video with synchronized audio from a text prompt using MiniMax H3; load a trained LoRA at adjustable strength to lock in style, character, or motion.",
+  "status": "active",
+  "release_date": "2026-08-02",
+  "model_type": "video",
+  "page_url": "https://fal.run/minimax/h3/text-to-video/lora",
+  "tagline": "Generate video with synchronized audio from a text prompt using MiniMax H3; load a trained LoRA at adjustable strength to lock in style, character, or motion.",
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-08-10",
+  "_generated": {
+    "name": "292167df",
+    "description": "63b8f44f",
+    "status": "379ac110",
+    "release_date": "13982a0a",
+    "model_type": "4d1b75ca",
+    "page_url": "6ed3ecd3",
+    "tagline": "63b8f44f",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "a2454697"
+  },
+  "last_updated": "2026-08-13"
+}
