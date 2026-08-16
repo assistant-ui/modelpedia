@@ -3,7 +3,7 @@
   "name": "Claude 4 Sonnet",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-08-16",
   "family": "claude-sonnet",
   "capabilities": {
     "streaming": true,
@@ -36,12 +36,14 @@
     "model_type": "d669f408",
     "tools": "f0c1dc7e",
     "page_url": "021a6e3f",
-    "pricing_notes": "2b8cd945"
+    "pricing_notes": "2b8cd945",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "tools": ["function_calling"],
   "page_url": "https://cursor.com/docs/models-and-pricing#claude-4-sonnet",
   "pricing_notes": [
     "Hidden by default; Thinking variant counts as 2 requests in legacy pricing"
-  ]
+  ],
+  "status": "deprecated"
 }

@@ -14,7 +14,7 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-08-12",
+  "last_seen_at": "2026-08-14",
   "_generated": {
     "name": "da7ecbb3",
     "description": "07243452",
@@ -25,7 +25,7 @@
     "tagline": "07243452",
     "modalities": "135102b7",
     "endpoints": "7a78c070",
-    "last_seen_at": "968fe5cf"
+    "last_seen_at": "16d713cd"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-16"
 }

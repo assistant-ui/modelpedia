@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-31",
-  "count": 32,
+  "date": "2026-08-16",
+  "count": 33,
   "ids": [
     "rerank-1",
     "rerank-2",
@@ -22,6 +22,7 @@
     "voyage-4-nano",
     "voyage-code-2",
     "voyage-code-3",
+    "voyage-code-4",
     "voyage-context-3",
     "voyage-context-4",
     "voyage-finance-2",

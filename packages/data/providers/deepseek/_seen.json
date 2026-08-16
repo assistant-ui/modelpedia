@@ -1,12 +1,13 @@
 {
-  "date": "2026-07-31",
-  "count": 6,
+  "date": "2026-08-16",
+  "count": 7,
   "ids": [
     "deepseek-v4-flash",
     "deepseek-v4-flash-2026-04-24",
     "deepseek-v4-flash-2026-07-31",
     "deepseek-v4-pro",
     "deepseek-v4-pro-2026-04-24",
-    "deepseek-v4-pro-2026-07-31"
+    "deepseek-v4-pro-2026-07-31",
+    "deepseek-v4-pro-2026-08-13"
   ]
 }

@@ -7,7 +7,7 @@
   "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window.",
   "release_date": "2026-04-24",
   "context_window": 1048576,
-  "max_output_tokens": 393216,
+  "max_output_tokens": 384000,
   "model_type": "chat",
   "tagline": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window.",
   "capabilities": {
@@ -21,9 +21,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.14,
-    "output": 0.28,
-    "cached_input": 0.028
+    "input": 0.061,
+    "output": 0.123,
+    "cached_input": 0.012
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -32,13 +32,13 @@
     "description": "b8f54878",
     "release_date": "173d2bb2",
     "context_window": "7d28a051",
-    "max_output_tokens": "628f482c",
+    "max_output_tokens": "c58e26bd",
     "model_type": "d669f408",
     "tagline": "b8f54878",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
-    "pricing": "e83de778",
+    "pricing": "96d511dc",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-05"
+  "last_updated": "2026-08-16"
 }

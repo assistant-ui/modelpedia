@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-31",
-  "count": 81,
+  "date": "2026-08-16",
+  "count": 83,
   "ids": [
     "-cf-ai4bharat-indictrans2-en-indic-1b",
     "-cf-aisingapore-gemma-sea-lion-v4-27b-it",
@@ -20,6 +20,8 @@
     "-cf-deepgram-flux",
     "-cf-deepgram-nova-3",
     "-cf-deepseek-ai-deepseek-r1-distill-qwen-32b",
+    "-cf-deepseek-ai-deepseek-v4-flash-0731",
+    "-cf-deepseek-ai-deepseek-v4-pro-0813",
     "-cf-defog-sqlcoder-7b-2",
     "-cf-facebook-bart-large-cnn",
     "-cf-facebook-detr-resnet-50",

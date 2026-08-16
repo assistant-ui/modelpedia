@@ -3,7 +3,7 @@
   "name": "Gemini 3.1 Pro",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-08-16",
   "family": "gemini-3.1",
   "capabilities": {
     "streaming": true,
@@ -36,9 +36,11 @@
     "speed": "eccbc87e",
     "model_type": "d669f408",
     "tools": "f0c1dc7e",
-    "page_url": "273a04fc"
+    "page_url": "273a04fc",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "tools": ["function_calling"],
-  "page_url": "https://cursor.com/docs/models-and-pricing#gemini-3-1-pro"
+  "page_url": "https://cursor.com/docs/models-and-pricing#gemini-3-1-pro",
+  "status": "deprecated"
 }

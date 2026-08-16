@@ -1,0 +1,44 @@
+{
+  "id": "deepseek/deepseek-v4-pro-0813",
+  "name": "DeepSeek V4 Pro 0813",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "status": "active",
+  "release_date": "2026-08-13",
+  "context_window": 1048576,
+  "max_output_tokens": 393216,
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.32,
+    "output": 3.96
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6854b582",
+    "family": "4b81b92d",
+    "status": "379ac110",
+    "release_date": "2a7fa61f",
+    "context_window": "7d28a051",
+    "max_output_tokens": "628f482c",
+    "model_type": "d669f408",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "e018102b",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-16"
+}

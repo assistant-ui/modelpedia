@@ -10,7 +10,9 @@
   "_generated": {
     "name": "f4e39096",
     "page_url": "3b2bfe0d",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-08-16",
+  "status": "deprecated"
 }

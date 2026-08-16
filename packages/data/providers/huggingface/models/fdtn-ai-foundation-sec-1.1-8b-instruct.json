@@ -1,0 +1,32 @@
+{
+  "id": "fdtn-ai/Foundation-Sec-1.1-8B-Instruct",
+  "name": "Foundation-Sec-1.1-8B-Instruct",
+  "created_by": "fdtn-ai",
+  "source": "official",
+  "release_date": "2025-11-18",
+  "context_window": 65536,
+  "license": "other",
+  "parameters": 8,
+  "page_url": "https://huggingface.co/fdtn-ai/Foundation-Sec-1.1-8B-Instruct",
+  "architecture": "transformer",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "593b21d6",
+    "release_date": "10547878",
+    "context_window": "297ce0b3",
+    "license": "ddb0b7bc",
+    "parameters": "c9f0f895",
+    "page_url": "480b95ac",
+    "architecture": "8832ea0f",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-16"
+}

@@ -3,7 +3,7 @@
   "name": "llama-3.3-70b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-08-16",
   "family": "llama-3.3",
   "context_window": 128000,
   "capabilities": {
@@ -11,7 +11,7 @@
     "tool_call": true
   },
   "pricing": {
-    "input": 0.59,
+    "input": 0.72,
     "output": 0.72
   },
   "_generated": {
@@ -19,7 +19,7 @@
     "family": "54c5fe24",
     "context_window": "34434798",
     "capabilities": "48995a4e",
-    "pricing": "37622f25",
+    "pricing": "328de8c6",
     "model_type": "d669f408",
     "parameters": "7cbbc409",
     "tools": "f0c1dc7e",

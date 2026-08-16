@@ -4,7 +4,7 @@
   "created_by": "inclusionai",
   "source": "official",
   "description": "Ling-3.0-tiny is an efficient 7.9B-parameter MoE model with only 1.3B active parameters per token.",
-  "status": "active",
+  "status": "preview",
   "release_date": "2026-08-05",
   "context_window": 262144,
   "max_output_tokens": 32768,
@@ -24,7 +24,7 @@
   "_generated": {
     "name": "f973a396",
     "description": "5243d524",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "b45c58db",
     "context_window": "4a1d32eb",
     "max_output_tokens": "f4376436",
@@ -35,5 +35,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-16"
 }

@@ -5,7 +5,7 @@
   "source": "official",
   "family": "deepseek",
   "description": "DeepSeek-V4-Pro is a frontier Mixture-of-Experts model with a large context window and three reasoning modes.",
-  "release_date": "2026-04-24",
+  "release_date": "2026-08-13",
   "reasoning_tokens": true,
   "license": "open-weight",
   "page_url": "https://ollama.com/library/deepseek-v4-pro",
@@ -27,7 +27,7 @@
     "name": "ddde4e2b",
     "family": "4b81b92d",
     "description": "d71f2863",
-    "release_date": "173d2bb2",
+    "release_date": "2a7fa61f",
     "reasoning_tokens": "b326b506",
     "license": "6327aaea",
     "page_url": "6004cfe6",
@@ -38,5 +38,5 @@
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-08-16"
 }

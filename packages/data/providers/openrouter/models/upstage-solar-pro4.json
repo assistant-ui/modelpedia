@@ -3,7 +3,7 @@
   "name": "Upstage: Solar Pro 4",
   "created_by": "upstage",
   "source": "official",
-  "description": "Solar Pro 4 is a large language model from Upstage.",
+  "description": "Solar Pro 4 is Upstage's cost-efficient large language model, featuring a 524K context window.",
   "release_date": "2026-08-10",
   "context_window": 524288,
   "max_output_tokens": 131072,
@@ -26,7 +26,7 @@
   "tools": ["function_calling"],
   "_generated": {
     "name": "a0f6ecf2",
-    "description": "31efcf04",
+    "description": "b3a54379",
     "release_date": "a2454697",
     "context_window": "bcabf6a1",
     "max_output_tokens": "f7de594e",
@@ -36,5 +36,5 @@
     "pricing": "0c5e92a4",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-16"
 }

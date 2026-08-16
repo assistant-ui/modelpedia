@@ -1,0 +1,33 @@
+{
+  "id": "google/gemini-3.7-flash",
+  "name": "google/gemini-3.7-flash",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.7",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.375,
+    "output": 1.875,
+    "cached_input": 0.0375
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "ada03ef5",
+    "family": "91a06ed1",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "36fe0a72",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-08-16"
+}

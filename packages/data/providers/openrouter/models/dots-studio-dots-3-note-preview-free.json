@@ -1,0 +1,34 @@
+{
+  "id": "dots-studio/dots-3-note-preview:free",
+  "name": "Dots Studio: Dots3-Note Preview (free)",
+  "created_by": "dots-studio",
+  "source": "official",
+  "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total.",
+  "release_date": "2026-08-14",
+  "context_window": 512000,
+  "max_output_tokens": 512000,
+  "tagline": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "3339b89a",
+    "description": "42cf767d",
+    "release_date": "16d713cd",
+    "context_window": "d09e1c12",
+    "max_output_tokens": "d09e1c12",
+    "tagline": "42cf767d",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-16"
+}

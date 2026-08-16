@@ -5,7 +5,7 @@
   "source": "official",
   "description": "NVIDIA Nemotron 3.5 Lightning is NVIDIA's fastest open model for always-on agents and high-volume specialized tasks. It delivers a substantial leap in agentic capability over its predecessor Nemotron 3 Nano, with up to 4x higher throughput on a 1M-token context.",
   "status": "active",
-  "context_window": 28672,
+  "context_window": 262144,
   "model_type": "chat",
   "open_weight": true,
   "tagline": "NVIDIA Nemotron 3.5 Lightning is NVIDIA's fastest open model for always-on agents and high-volume specialized tasks.",
@@ -13,15 +13,17 @@
     "tool_call": true,
     "structured_output": true,
     "json_mode": true,
-    "streaming": true
+    "streaming": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.05,
-    "output": 0.2
+    "input": 0.08,
+    "output": 0.2,
+    "cached_input": 0.04
   },
   "tools": ["function_calling"],
   "endpoints": ["chat_completions"],
@@ -29,15 +31,17 @@
     "name": "25b9efb1",
     "description": "e05c77f0",
     "status": "379ac110",
-    "context_window": "6964e9d5",
+    "context_window": "4a1d32eb",
     "model_type": "d669f408",
     "open_weight": "b326b506",
     "tagline": "349a86f0",
-    "capabilities": "ef09f446",
+    "capabilities": "e585af2b",
     "modalities": "68e53d93",
-    "pricing": "6aa94ff1",
+    "pricing": "9c908ad1",
     "tools": "f0c1dc7e",
-    "endpoints": "d8fa1080"
+    "endpoints": "d8fa1080",
+    "reasoning_tokens": "b326b506"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-16",
+  "reasoning_tokens": true
 }

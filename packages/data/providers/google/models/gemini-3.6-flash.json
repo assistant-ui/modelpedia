@@ -26,11 +26,11 @@
     "output": ["text", "image", "audio"]
   },
   "pricing": {
-    "input": 1.5,
-    "output": 7.5,
-    "cached_input": 0.15,
-    "batch_input": 0.75,
-    "batch_output": 3.75,
+    "input": 0.75,
+    "output": 3.75,
+    "cached_input": 0.075,
+    "batch_input": 0.375,
+    "batch_output": 1.875,
     "tiers": [
       {
         "label": "Text tokens",
@@ -39,11 +39,11 @@
         "rows": [
           {
             "label": "Standard",
-            "values": [1.5, 0.15, 7.5]
+            "values": [0.75, 0.075, 3.75]
           },
           {
             "label": "Batch",
-            "values": [0.75, null, 3.75]
+            "values": [0.375, null, 1.875]
           }
         ]
       }
@@ -65,10 +65,10 @@
     "tagline": "9fee8828",
     "capabilities": "fdff467b",
     "modalities": "0b49b61e",
-    "pricing": "c1ab0be2",
+    "pricing": "135ec167",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
   },
-  "last_updated": "2026-07-24"
+  "last_updated": "2026-08-16"
 }
