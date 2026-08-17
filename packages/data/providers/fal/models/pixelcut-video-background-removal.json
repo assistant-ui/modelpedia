@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/pixelcut/video-background-removal",
   "tagline": "Pixelcut's Video Background Remover is an AI segmentation model that erases backgrounds frame by frame, with seamless temporal consistency.",
-  "last_seen_at": "2026-07-01",
+  "last_seen_at": "2026-08-14",
   "_generated": {
     "name": "dbbdcbe2",
     "description": "fdd95ec1",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "076725dd",
     "tagline": "fdd95ec1",
-    "last_seen_at": "97e5b4c6"
+    "last_seen_at": "16d713cd"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-08-16"
 }

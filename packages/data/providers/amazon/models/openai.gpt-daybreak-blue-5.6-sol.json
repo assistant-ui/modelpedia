@@ -1,0 +1,25 @@
+{
+  "id": "openai.gpt-daybreak-blue-5.6-sol",
+  "name": "Daybreak Blue: GPT-5.6 Sol",
+  "created_by": "openai",
+  "source": "official",
+  "release_date": "2026-08-12",
+  "context_window": 1000000,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-daybreak-blue-56-sol",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "06a87021",
+    "release_date": "968fe5cf",
+    "context_window": "8155bc54",
+    "page_url": "e6fdc16f",
+    "capabilities": "d3117eb0",
+    "modalities": "8b8b28d1"
+  },
+  "last_updated": "2026-08-16"
+}

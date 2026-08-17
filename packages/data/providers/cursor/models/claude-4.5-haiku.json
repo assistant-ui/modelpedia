@@ -3,7 +3,7 @@
   "name": "Claude 4.5 Haiku",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-08-16",
   "family": "claude-haiku",
   "capabilities": {
     "streaming": true,
@@ -36,12 +36,14 @@
     "model_type": "d669f408",
     "tools": "f0c1dc7e",
     "page_url": "552498b0",
-    "pricing_notes": "e26ddfd7"
+    "pricing_notes": "e26ddfd7",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "tools": ["function_calling"],
   "page_url": "https://cursor.com/docs/models-and-pricing#claude-4-5-haiku",
   "pricing_notes": [
     "Hidden by default; Bedrock/Vertex: regional endpoints +10% surcharge; Cache: writes 1.25x, reads 0.1x"
-  ]
+  ],
+  "status": "deprecated"
 }

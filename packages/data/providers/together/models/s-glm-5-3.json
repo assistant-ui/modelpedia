@@ -1,0 +1,30 @@
+{
+  "id": "s/glm-5-3",
+  "name": "Glm 5 3",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5",
+  "page_url": "https://www.together.ai/models/glm-5-3",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.4,
+    "output": 4.4
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "a35855aa",
+    "family": "309daa86",
+    "page_url": "77f60bd8",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "caa16a81",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-08-16"
+}

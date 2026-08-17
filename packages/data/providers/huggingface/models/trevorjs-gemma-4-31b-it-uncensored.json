@@ -1,0 +1,43 @@
+{
+  "id": "TrevorJS/gemma-4-31B-it-uncensored",
+  "name": "gemma-4-31B-it-uncensored",
+  "created_by": "trevorjs",
+  "source": "official",
+  "family": "gemma-4",
+  "description": "Uncensored version of [google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it) with refusal behavior removed.",
+  "release_date": "2026-04-04",
+  "license": "apache-2.0",
+  "parameters": 33,
+  "page_url": "https://huggingface.co/TrevorJS/gemma-4-31B-it-uncensored",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "Uncensored version of [google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it) with refusal behavior removed.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "82e2f8bd",
+    "family": "811b6704",
+    "description": "c63eb93b",
+    "release_date": "d2240e84",
+    "license": "60245731",
+    "parameters": "182be0c5",
+    "page_url": "0fdfade9",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "c63eb93b",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-16"
+}

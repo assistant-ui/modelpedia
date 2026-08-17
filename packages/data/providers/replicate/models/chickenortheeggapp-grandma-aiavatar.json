@@ -3,14 +3,14 @@
   "name": "Grandma Aiavatar",
   "created_by": "chickenortheeggapp",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/chickenortheeggapp/grandma-aiavatar",
   "_generated": {
     "name": "6310025b",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "2abe1a32"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-16"
 }

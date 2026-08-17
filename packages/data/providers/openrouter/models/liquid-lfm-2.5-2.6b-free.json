@@ -6,7 +6,7 @@
   "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI.",
   "release_date": "2026-08-11",
   "context_window": 128000,
-  "max_output_tokens": 32768,
+  "max_output_tokens": 8192,
   "model_type": "chat",
   "tagline": "LFM2.5-2.6B is a compact reasoning model from Liquid AI.",
   "capabilities": {
@@ -25,12 +25,12 @@
     "description": "cbf8ccb1",
     "release_date": "c2572fd1",
     "context_window": "34434798",
-    "max_output_tokens": "f4376436",
+    "max_output_tokens": "77441296",
     "model_type": "d669f408",
     "tagline": "cbf8ccb1",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-16"
 }

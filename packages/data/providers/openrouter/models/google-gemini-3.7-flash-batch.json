@@ -1,0 +1,44 @@
+{
+  "id": "google/gemini-3.7-flash:batch",
+  "name": "Google: Gemini 3.7 Flash (batch)",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.7",
+  "description": "Gemini 3.7 Flash is a multimodal model from Google for fast agentic workflows, coding, and complex multi-step reasoning.",
+  "release_date": "2026-08-13",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "Gemini 3.7 Flash is a multimodal model from Google for fast agentic workflows, coding, and complex multi-step reasoning.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.188,
+    "output": 0.938,
+    "cached_input": 0.019
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d76389a3",
+    "family": "91a06ed1",
+    "description": "e46dffa0",
+    "release_date": "2a7fa61f",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "e46dffa0",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "d16b8efe",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-16"
+}

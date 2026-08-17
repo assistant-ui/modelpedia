@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-16",
   "count": 25,
   "ids": [
-    "s-cartesia-sonic-35",
     "s-deepseek-v4-flash-0731",
     "s-deepseek-v4-pro",
     "s-deepseek-v4-pro-0813",
     "s-flux-3",
     "s-gemma-4-31b",
+    "s-glm-5-3",
     "s-glm-52",
     "s-gpt-image-2",
     "s-inkling",

@@ -3,7 +3,7 @@
   "name": "Flux 3",
   "created_by": "black-forest-labs",
   "source": "official",
-  "status": "deprecated",
+  "status": "active",
   "model_type": "image",
   "page_url": "https://replicate.com/black-forest-labs/flux-3",
   "modalities": {
@@ -13,11 +13,11 @@
   "endpoints": ["images"],
   "_generated": {
     "name": "08a30908",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "model_type": "db8857fe",
     "page_url": "22c7f452",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-16"
 }

@@ -1,0 +1,31 @@
+{
+  "id": "@cf/deepseek-ai/deepseek-v4-flash-0731",
+  "name": "deepseek-v4-flash-0731",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "status": "preview",
+  "model_type": "chat",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#deepseek-v4-flash-0731",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1234d659",
+    "family": "4b81b92d",
+    "status": "127aecde",
+    "model_type": "d669f408",
+    "page_url": "cc8092d3",
+    "capabilities": "a281e83a",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-16"
+}

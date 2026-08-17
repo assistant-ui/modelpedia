@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-31",
-  "count": 32,
+  "date": "2026-08-16",
+  "count": 33,
   "ids": [
     "autoglm-phone-multilingual",
     "cogvideox-3",
@@ -20,6 +20,7 @@
     "glm-5-turbo",
     "glm-5.1",
     "glm-5.2",
+    "glm-5.3",
     "glm-5v-turbo",
     "glm-asr",
     "glm-asr-2512",

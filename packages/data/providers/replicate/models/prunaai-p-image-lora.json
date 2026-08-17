@@ -1,0 +1,27 @@
+{
+  "id": "prunaai/p-image-lora",
+  "name": "P Image Lora",
+  "created_by": "prunaai",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/prunaai/p-image-lora",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "403dfcfa",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "36ca73ed",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-08-16"
+}
