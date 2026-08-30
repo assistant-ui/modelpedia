@@ -1,0 +1,24 @@
+{
+  "id": "bria/video/background-removal/green-screen-despill",
+  "name": "Video",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Remove background from videos filmed using chromakey, with automatic green spill suppression for clean, professional edges.",
+  "status": "active",
+  "release_date": "2026-08-27",
+  "model_type": "other",
+  "page_url": "https://fal.run/bria/video/background-removal/green-screen-despill",
+  "tagline": "Remove background from videos filmed using chromakey, with automatic green spill suppression for clean, professional edges.",
+  "last_seen_at": "2026-08-27",
+  "_generated": {
+    "name": "567b9158",
+    "description": "187f4da0",
+    "status": "379ac110",
+    "release_date": "0890bbf8",
+    "model_type": "ddb0b7bc",
+    "page_url": "741fc44e",
+    "tagline": "187f4da0",
+    "last_seen_at": "0890bbf8"
+  },
+  "last_updated": "2026-08-30"
+}

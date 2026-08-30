@@ -3,7 +3,7 @@
   "name": "Gemma 4 E2B",
   "created_by": "google",
   "source": "official",
-  "release_date": "2025-06-10",
+  "release_date": "2026-03-31",
   "context_window": 128000,
   "model_type": "chat",
   "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-e2b",
@@ -17,12 +17,12 @@
   },
   "_generated": {
     "name": "f13b09a0",
-    "release_date": "298b4e52",
+    "release_date": "3c0c39b4",
     "context_window": "34434798",
     "model_type": "d669f408",
     "page_url": "c18f0772",
     "capabilities": "8a3b232e",
     "modalities": "b7a3ac68"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-08-30"
 }

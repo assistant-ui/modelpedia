@@ -3,15 +3,18 @@
   "name": "nv-embedcode-7b-v1",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-08-30",
   "capabilities": {
     "streaming": true
   },
   "model_type": "embed",
   "_generated": {
     "name": "b8ce9cab",
+    "capabilities": "0fa77dc6",
     "model_type": "764cb3de",
-    "capabilities": "0fa77dc6"
+    "parameters": "8f14e45f",
+    "status": "2e2f74dc"
   },
-  "parameters": 7
+  "parameters": 7,
+  "status": "deprecated"
 }

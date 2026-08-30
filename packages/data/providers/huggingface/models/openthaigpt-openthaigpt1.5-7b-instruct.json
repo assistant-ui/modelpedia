@@ -1,0 +1,36 @@
+{
+  "id": "openthaigpt/openthaigpt1.5-7b-instruct",
+  "name": "openthaigpt1.5-7b-instruct",
+  "created_by": "openthaigpt",
+  "source": "official",
+  "description": "[More Info](https://openthai.aieat.or.th/)",
+  "release_date": "2024-09-30",
+  "context_window": 32768,
+  "license": "other",
+  "parameters": 7.6,
+  "page_url": "https://huggingface.co/openthaigpt/openthaigpt1.5-7b-instruct",
+  "architecture": "transformer",
+  "tagline": "[More Info](https://openthai.aieat.or.th/)",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b7fb61dd",
+    "description": "fd07eb5b",
+    "release_date": "759ca9ad",
+    "context_window": "f4376436",
+    "license": "ddb0b7bc",
+    "parameters": "5960276c",
+    "page_url": "133e810d",
+    "architecture": "8832ea0f",
+    "tagline": "fd07eb5b",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

@@ -3,14 +3,14 @@
   "name": "Topogoogles Nanobanana",
   "created_by": "topogoogles",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/topogoogles/topogoogles_nanobanana",
   "_generated": {
     "name": "43ccf0c9",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "d2906763"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-30"
 }

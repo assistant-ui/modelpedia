@@ -1,0 +1,34 @@
+{
+  "id": "@cf/qwen/qwen3.8-27b",
+  "name": "qwen3.8-27b",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.8",
+  "status": "active",
+  "model_type": "chat",
+  "parameters": 27,
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#qwen3.8-27b",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8aed6d61",
+    "family": "e102ad6a",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "parameters": "02e74f10",
+    "page_url": "756b13b0",
+    "capabilities": "45192957",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

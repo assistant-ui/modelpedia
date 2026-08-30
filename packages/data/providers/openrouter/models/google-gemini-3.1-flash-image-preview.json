@@ -3,11 +3,11 @@
   "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-07-30",
+  "last_updated": "2026-08-30",
   "family": "gemini-3.1",
   "description": "Gemini 3.1 Flash Image Preview, a.k.a.",
   "context_window": 65536,
-  "max_output_tokens": 65536,
+  "max_output_tokens": 58982,
   "modalities": {
     "input": ["image", "text"],
     "output": ["image", "text"]
@@ -26,7 +26,7 @@
     "family": "ea4a1a23",
     "description": "fb463657",
     "context_window": "297ce0b3",
-    "max_output_tokens": "297ce0b3",
+    "max_output_tokens": "432a5944",
     "modalities": "f5e0517a",
     "capabilities": "d53412cf",
     "pricing": "ad477c96",

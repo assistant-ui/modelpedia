@@ -3,11 +3,11 @@
   "name": "Qwen: Qwen3 VL 30B A3B Instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-08-16",
+  "last_updated": "2026-08-30",
   "family": "qwen3",
   "description": "Qwen3-VL-30B-A3B-Instruct is a multimodal model that unifies strong text generation with visual understanding for images and videos.",
   "context_window": 262144,
-  "max_output_tokens": 32768,
+  "max_output_tokens": 16384,
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -18,18 +18,18 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.13,
-    "output": 0.52
+    "input": 0.15,
+    "output": 0.6
   },
   "_generated": {
     "name": "55b39c60",
     "family": "48c385a0",
     "description": "3fec5d47",
     "context_window": "4a1d32eb",
-    "max_output_tokens": "f4376436",
+    "max_output_tokens": "c76fe1d8",
     "modalities": "6399757e",
     "capabilities": "6c9aa67e",
-    "pricing": "61102b35",
+    "pricing": "89a9c6e2",
     "model_type": "d669f408",
     "parameters": "34173cb3",
     "active_parameters": "eccbc87e",

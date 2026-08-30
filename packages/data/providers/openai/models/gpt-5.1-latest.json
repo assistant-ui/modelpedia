@@ -3,9 +3,9 @@
   "name": "gpt-5.1-latest",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-08-30",
   "family": "gpt-5.1",
-  "status": "active",
+  "status": "deprecated",
   "pricing": {
     "input": 1.25,
     "output": 10,
@@ -27,7 +27,7 @@
   "_generated": {
     "name": "f7dd1ac6",
     "family": "2089aff2",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "pricing": "53068594",
     "model_type": "d669f408",
     "license": "9186c466",

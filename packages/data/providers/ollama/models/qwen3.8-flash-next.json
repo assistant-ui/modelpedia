@@ -1,0 +1,47 @@
+{
+  "id": "qwen3.8-flash-next",
+  "name": "qwen3.8-flash-next",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.8",
+  "description": "This experimental preview of the architecture that will underpin Qwen4.",
+  "context_window": 262144,
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "parameters": 125,
+  "active_parameters": 6,
+  "page_url": "https://ollama.com/library/qwen3.8-flash-next",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "This experimental preview of the architecture that will underpin Qwen4.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f530a95f",
+    "family": "e102ad6a",
+    "description": "d250dbe6",
+    "context_window": "4a1d32eb",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "parameters": "3def184a",
+    "active_parameters": "1679091c",
+    "page_url": "6bdf4466",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "d250dbe6",
+    "capabilities": "f7041f91",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

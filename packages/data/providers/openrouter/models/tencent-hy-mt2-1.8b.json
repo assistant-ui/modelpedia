@@ -1,0 +1,32 @@
+{
+  "id": "tencent/hy-mt2-1.8b",
+  "name": "Tencent: Hy-MT2-1.8B",
+  "created_by": "tencent",
+  "source": "official",
+  "description": "Hy-MT2-1.8B is a compact 1.8B-parameter translation model from Tencent.",
+  "release_date": "2026-08-20",
+  "context_window": 8192,
+  "max_output_tokens": 4096,
+  "parameters": 1.8,
+  "tagline": "Hy-MT2-1.8B is a compact 1.8B-parameter translation model from Tencent.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.044,
+    "output": 0.177
+  },
+  "_generated": {
+    "name": "89e49103",
+    "description": "0c18304b",
+    "release_date": "656f820c",
+    "context_window": "77441296",
+    "max_output_tokens": "f7efa4f8",
+    "parameters": "f932bed2",
+    "tagline": "0c18304b",
+    "modalities": "68e53d93",
+    "pricing": "0066d0c6"
+  },
+  "last_updated": "2026-08-30"
+}

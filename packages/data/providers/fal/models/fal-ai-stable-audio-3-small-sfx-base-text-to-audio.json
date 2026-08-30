@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/stable-audio-3/small/sfx/base/text-to-audio",
   "tagline": "Stable Audio 3 Small SFX Base is the foundational 459 million parameter checkpoint generating sound effects from text prompts, intended as the unmodified base for fine-tuning.",
-  "last_seen_at": "2026-07-01",
+  "last_seen_at": "2026-08-20",
   "_generated": {
     "name": "2b5f9cf7",
     "description": "dd21f493",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "7e1bfabd",
     "tagline": "dd21f493",
-    "last_seen_at": "97e5b4c6"
+    "last_seen_at": "656f820c"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-08-30"
 }

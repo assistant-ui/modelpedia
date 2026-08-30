@@ -3,7 +3,7 @@
   "name": "gpt-oss-20b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-08-30",
   "family": "gpt-oss",
   "capabilities": {
     "streaming": true,
@@ -15,7 +15,7 @@
     "family": "82d0cb0b",
     "capabilities": "5780d00a",
     "model_type": "d669f408",
-    "parameters": "b6d767d2",
+    "parameters": "3c59dc04",
     "page_url": "e6de72d2",
     "description": "349d7d44",
     "release_date": "7a0b28c5",
@@ -28,7 +28,7 @@
     "modalities": "68e53d93"
   },
   "model_type": "chat",
-  "parameters": 22,
+  "parameters": 21,
   "page_url": "https://huggingface.co/openai/gpt-oss-20b",
   "description": "Welcome to the gpt-oss series, [OpenAI’s open-weight models](https://openai.com/open-models) designed for powerful reasoning, agentic tasks, and versatile developer use cases.",
   "release_date": "2025-08-04",

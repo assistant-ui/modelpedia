@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-16",
-  "count": 45,
+  "date": "2026-08-30",
+  "count": 46,
   "ids": [
     "anthropic-claude-fable-5",
     "anthropic-claude-haiku-4-5",
@@ -32,6 +32,7 @@
     "openai-gpt-5.6-terra",
     "perplexity-deepseek-v4-flash-0731",
     "perplexity-glm-5.2",
+    "perplexity-glm-5.3",
     "perplexity-kimi-k2.7-code",
     "perplexity-kimi-k3",
     "perplexity-nemotron-3-ultra-550b-a55b",

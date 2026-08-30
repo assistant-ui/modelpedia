@@ -1,0 +1,24 @@
+{
+  "id": "topaz/sdr-to-hdr/video",
+  "name": "Topaz Sdr To Hdr Video",
+  "created_by": "topaz",
+  "source": "official",
+  "description": "Professional SDR-to-HDR conversion powered by Topaz Labs.",
+  "status": "active",
+  "release_date": "2026-08-11",
+  "model_type": "other",
+  "page_url": "https://fal.run/topaz/sdr-to-hdr/video",
+  "tagline": "Professional SDR-to-HDR conversion powered by Topaz Labs.",
+  "last_seen_at": "2026-08-28",
+  "_generated": {
+    "name": "a860be9c",
+    "description": "0510a6fa",
+    "status": "379ac110",
+    "release_date": "c2572fd1",
+    "model_type": "ddb0b7bc",
+    "page_url": "172cc26f",
+    "tagline": "0510a6fa",
+    "last_seen_at": "2ed0cbfa"
+  },
+  "last_updated": "2026-08-30"
+}

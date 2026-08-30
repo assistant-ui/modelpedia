@@ -3,23 +3,23 @@
   "name": "gpt-oss-20b",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-07-30",
+  "last_updated": "2026-08-30",
   "family": "gpt-oss",
   "context_window": 131000,
   "capabilities": {
     "streaming": true
   },
   "pricing": {
-    "input": 0.07,
-    "output": 0.3,
-    "cached_input": 0.035
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "0f95b22f",
     "family": "82d0cb0b",
     "context_window": "834bd590",
     "capabilities": "0fa77dc6",
-    "pricing": "2e5ddaf0",
+    "pricing": "cb03f68e",
     "model_type": "d669f408",
     "parameters": "98f13708",
     "page_url": "85b412a4",

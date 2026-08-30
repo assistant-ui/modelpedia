@@ -1,0 +1,48 @@
+{
+  "id": "zai-org/glm-5.3",
+  "name": "GLM 5.3",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5.3",
+  "description": "GLM-5.3 is Z.ai’s latest flagship model, delivering comprehensive advancements in complex software engineering and agent capabilities.",
+  "status": "active",
+  "release_date": "2026-08-19",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "GLM-5.3 is Z.ai’s latest flagship model, delivering comprehensive advancements in complex software engineering and agent capabilities.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.4,
+    "output": 4.4
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ec24697d",
+    "family": "9f217d9a",
+    "description": "c4cc6c0c",
+    "status": "379ac110",
+    "release_date": "e97f480b",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "c4cc6c0c",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "caa16a81",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

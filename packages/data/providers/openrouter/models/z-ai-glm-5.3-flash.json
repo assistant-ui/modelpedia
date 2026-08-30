@@ -1,0 +1,48 @@
+{
+  "id": "z-ai/glm-5.3-flash",
+  "name": "Z.ai: GLM 5.3 Flash",
+  "created_by": "z-ai",
+  "source": "official",
+  "family": "glm-5.3",
+  "description": "GLM-5.3-Flash is a native multimodal model from Z.ai.",
+  "status": "deprecated",
+  "release_date": "2026-08-26",
+  "deprecation_date": "2098-12-31",
+  "context_window": 1310720,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "GLM-5.3-Flash is a native multimodal model from Z.ai.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.075,
+    "output": 0.25,
+    "cached_input": 0.015
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "fd597ef8",
+    "family": "9f217d9a",
+    "description": "a9886a26",
+    "status": "2e2f74dc",
+    "release_date": "7d843204",
+    "deprecation_date": "a93a4314",
+    "context_window": "32886eaa",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "a9886a26",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "pricing": "22fde1f3",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

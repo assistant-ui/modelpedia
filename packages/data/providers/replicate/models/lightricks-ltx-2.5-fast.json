@@ -3,14 +3,14 @@
   "name": "Ltx 2.5 Fast",
   "created_by": "lightricks",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/lightricks/ltx-2.5-fast",
   "_generated": {
     "name": "25db128c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "b4891747"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-30"
 }

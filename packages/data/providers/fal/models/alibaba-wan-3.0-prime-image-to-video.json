@@ -1,0 +1,37 @@
+{
+  "id": "alibaba/wan-3.0-prime/image-to-video",
+  "name": "Wan 3.0 Prime",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "wan",
+  "description": "Wan 3.0 Prime Image-to-Video turns still images into dynamic, cinematic sequences with rapid turnaround, natural motion, and excellent visual continuity.",
+  "status": "active",
+  "release_date": "2026-08-24",
+  "model_type": "video",
+  "page_url": "https://fal.run/alibaba/wan-3.0-prime/image-to-video",
+  "tagline": "Wan 3.0 Prime Image-to-Video turns still images into dynamic, cinematic sequences with rapid turnaround, natural motion, and excellent visual continuity.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-08-24",
+  "_generated": {
+    "name": "92cf7e45",
+    "family": "2aadc089",
+    "description": "cea687d1",
+    "status": "379ac110",
+    "release_date": "f0d8fd04",
+    "model_type": "4d1b75ca",
+    "page_url": "0a7d0002",
+    "tagline": "cea687d1",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "f0d8fd04"
+  },
+  "last_updated": "2026-08-30"
+}

@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen",
   "description": "Qwen-Image-2.0 is a next-generation foundational unified generation-and-editing model",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-03-03",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/qwen-image-2/pro/edit",
@@ -23,7 +23,7 @@
     "name": "dbc0bbf1",
     "family": "a3af76f3",
     "description": "801f7bdd",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "381df44b",
     "model_type": "db8857fe",
     "page_url": "5b5377a4",
@@ -33,5 +33,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "d465a48a"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-08-30"
 }

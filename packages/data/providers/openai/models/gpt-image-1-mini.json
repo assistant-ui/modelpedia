@@ -1,9 +1,9 @@
 {
   "id": "gpt-image-1-mini",
-  "name": "gpt-image-1-mini",
+  "name": "GPT-Image-1 Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-08-30",
   "family": "gpt-image-1",
   "description": "A cost-efficient version of GPT Image 1. It is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.",
   "status": "deprecated",
@@ -65,7 +65,7 @@
   "endpoints": ["batch", "image_edit", "image_generation"],
   "snapshots": ["gpt-image-1-mini"],
   "_generated": {
-    "name": "f3697652",
+    "name": "a0af4a95",
     "family": "480da012",
     "description": "f23850fe",
     "status": "2e2f74dc",

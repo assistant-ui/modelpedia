@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-16",
-  "count": 83,
+  "date": "2026-08-30",
+  "count": 86,
   "ids": [
     "-cf-ai4bharat-indictrans2-en-indic-1b",
     "-cf-aisingapore-gemma-sea-lion-v4-27b-it",
@@ -74,6 +74,7 @@
     "-cf-qwen-qwen2.5-coder-32b-instruct",
     "-cf-qwen-qwen3-30b-a3b-fp8",
     "-cf-qwen-qwen3-embedding-0.6b",
+    "-cf-qwen-qwen3.8-27b",
     "-cf-qwen-qwq-32b",
     "-cf-runwayml-stable-diffusion-v1-5-img2img",
     "-cf-runwayml-stable-diffusion-v1-5-inpainting",
@@ -81,6 +82,8 @@
     "-cf-unum-uform-gen2-qwen-500m",
     "-cf-zai-org-glm-4.7-flash",
     "-cf-zai-org-glm-5.2",
+    "-cf-zai-org-glm-5.3",
+    "-cf-zai-org-glm-5.3-flash",
     "-hf-google-gemma-7b-it",
     "-hf-meta-llama-meta-llama-3-8b-instruct",
     "-hf-mistral-mistral-7b-instruct-v0.2",

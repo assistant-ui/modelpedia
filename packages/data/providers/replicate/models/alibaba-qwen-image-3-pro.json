@@ -1,0 +1,29 @@
+{
+  "id": "alibaba/qwen-image-3-pro",
+  "name": "Qwen Image 3 Pro",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/alibaba/qwen-image-3-pro",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "3a356e4b",
+    "family": "a3af76f3",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "9e2bb7ed",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-08-30"
+}

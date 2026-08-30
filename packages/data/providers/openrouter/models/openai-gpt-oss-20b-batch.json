@@ -1,0 +1,40 @@
+{
+  "id": "openai/gpt-oss-20b:batch",
+  "name": "OpenAI: gpt-oss-20b (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-oss",
+  "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
+  "release_date": "2025-08-05",
+  "context_window": 131072,
+  "max_output_tokens": 117964,
+  "model_type": "chat",
+  "tagline": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
+  "capabilities": {
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.2
+  },
+  "_generated": {
+    "name": "c567bc3e",
+    "family": "82d0cb0b",
+    "description": "9ef19f8d",
+    "release_date": "67086b15",
+    "context_window": "f7de594e",
+    "max_output_tokens": "242f56a4",
+    "model_type": "d669f408",
+    "tagline": "9ef19f8d",
+    "capabilities": "d53412cf",
+    "modalities": "68e53d93",
+    "pricing": "6aa94ff1"
+  },
+  "last_updated": "2026-08-30"
+}

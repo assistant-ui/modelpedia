@@ -1,0 +1,32 @@
+{
+  "id": "fal-ai/vggt-1b",
+  "name": "VGGT-1B",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Turn images or video into a detailed 3D scene with depth, camera poses, and a colored point cloud.",
+  "status": "active",
+  "release_date": "2026-08-26",
+  "model_type": "other",
+  "parameters": 1,
+  "page_url": "https://fal.run/fal-ai/vggt-1b",
+  "tagline": "Turn images or video into a detailed 3D scene with depth, camera poses, and a colored point cloud.",
+  "capabilities": {
+    "vision": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "last_seen_at": "2026-08-26",
+  "_generated": {
+    "name": "8f4103d0",
+    "description": "983029e6",
+    "status": "379ac110",
+    "release_date": "7d843204",
+    "model_type": "ddb0b7bc",
+    "parameters": "c4ca4238",
+    "page_url": "ed461793",
+    "tagline": "983029e6",
+    "capabilities": "42538baa",
+    "last_seen_at": "7d843204"
+  },
+  "last_updated": "2026-08-30"
+}

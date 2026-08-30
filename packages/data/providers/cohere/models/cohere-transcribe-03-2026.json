@@ -3,7 +3,7 @@
   "name": "cohere-transcribe-03-2026",
   "created_by": "cohere",
   "source": "official",
-  "description": "Open source research release focused on high-accuracy, multilingual speech transcription.",
+  "description": "Open source model focused on high-accuracy, multilingual speech transcription.",
   "status": "active",
   "license": "proprietary",
   "page_url": "https://docs.cohere.com/docs/models#cohere-transcribe-03-2026",
@@ -16,7 +16,7 @@
   "open_weight": false,
   "_generated": {
     "name": "c37c1d77",
-    "description": "ca9f8636",
+    "description": "28d29444",
     "status": "379ac110",
     "license": "9186c466",
     "page_url": "347755bd",
@@ -25,5 +25,5 @@
     "modalities": "68e53d93",
     "open_weight": "68934a3e"
   },
-  "last_updated": "2026-03-27"
+  "last_updated": "2026-08-30"
 }

@@ -3,7 +3,7 @@
   "name": "Ling-2.6-1T",
   "created_by": "inclusionai",
   "source": "official",
-  "status": "active",
+  "status": "preview",
   "release_date": "2026-04-23",
   "context_window": 262144,
   "max_output_tokens": 32768,
@@ -26,7 +26,7 @@
   "tools": ["function_calling"],
   "_generated": {
     "name": "4e7559eb",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "a87679d0",
     "context_window": "4a1d32eb",
     "max_output_tokens": "f4376436",
@@ -37,5 +37,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-08-30"
 }

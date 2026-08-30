@@ -3,7 +3,7 @@
   "name": "GPT-5.4 nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-08-30",
   "family": "gpt-5.4",
   "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
   "status": "active",
@@ -11,7 +11,7 @@
   "context_window": 400000,
   "max_output_tokens": 128000,
   "max_input_tokens": 272000,
-  "model_type": "chat",
+  "model_type": "reasoning",
   "reasoning_tokens": true,
   "performance": 3,
   "reasoning": 3,
@@ -59,7 +59,17 @@
       }
     ]
   },
-  "tools": ["function_calling"],
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "hosted_shell",
+    "apply_patch",
+    "skills",
+    "mcp"
+  ],
   "endpoints": ["responses", "chat_completions", "batch"],
   "pricing_notes": [
     "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 nano."
@@ -74,7 +84,7 @@
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
     "max_input_tokens": "3f9281a0",
-    "model_type": "d669f408",
+    "model_type": "17475f7f",
     "reasoning_tokens": "b326b506",
     "performance": "eccbc87e",
     "reasoning": "eccbc87e",
@@ -83,16 +93,16 @@
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
     "pricing": "93b5f44a",
-    "tools": "f0c1dc7e",
+    "tools": "54d089fc",
     "endpoints": "88e8abb4",
     "pricing_notes": "4a0a1bde",
     "license": "9186c466",
-    "page_url": "36f3f3b0",
+    "page_url": "80a048c7",
     "open_weight": "68934a3e",
     "release_date": "56d4bd95"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.4-nano?snapshot=gpt-5.4-nano-2026-03-17",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
   "open_weight": false,
   "release_date": "2026-03-17"
 }

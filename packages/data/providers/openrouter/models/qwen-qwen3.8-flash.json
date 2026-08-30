@@ -1,0 +1,44 @@
+{
+  "id": "qwen/qwen3.8-flash",
+  "name": "Qwen: Qwen3.8 Flash",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.8",
+  "description": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba.",
+  "release_date": "2026-08-26",
+  "context_window": 1000000,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.47,
+    "cached_input": 0.016
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "55124bd5",
+    "family": "e102ad6a",
+    "description": "16f4b43f",
+    "release_date": "7d843204",
+    "context_window": "8155bc54",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "16f4b43f",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "pricing": "86f2bffa",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

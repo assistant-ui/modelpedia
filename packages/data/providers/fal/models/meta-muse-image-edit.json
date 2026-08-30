@@ -1,0 +1,35 @@
+{
+  "id": "meta/muse-image/edit",
+  "name": "Meta Muse Image Edit",
+  "created_by": "meta",
+  "source": "official",
+  "description": "Meta's Muse Image model does precise edits that change only what you ask, stay coherent across turns, and compose from multiple reference images.",
+  "status": "active",
+  "release_date": "2026-08-21",
+  "model_type": "image",
+  "page_url": "https://fal.run/meta/muse-image/edit",
+  "tagline": "Meta's Muse Image model does precise edits that change only what you ask, stay coherent across turns, and compose from multiple reference images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-08-26",
+  "_generated": {
+    "name": "85d5a5d5",
+    "description": "661a443b",
+    "status": "379ac110",
+    "release_date": "4b63df80",
+    "model_type": "db8857fe",
+    "page_url": "26665889",
+    "tagline": "661a443b",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "7d843204"
+  },
+  "last_updated": "2026-08-30"
+}

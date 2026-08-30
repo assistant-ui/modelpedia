@@ -1,0 +1,31 @@
+{
+  "id": "xai.grok-4.6",
+  "name": "Grok 4.6",
+  "created_by": "xai",
+  "source": "official",
+  "release_date": "2026-08-18",
+  "context_window": 500000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-6",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "caa52b7d",
+    "release_date": "d4b26be2",
+    "context_window": "c9077732",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "page_url": "5c000808",
+    "capabilities": "8d009641",
+    "modalities": "8b8b28d1"
+  },
+  "last_updated": "2026-08-30"
+}

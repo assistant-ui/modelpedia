@@ -3,7 +3,7 @@
   "name": "Perplexity: Sonar",
   "created_by": "perplexity",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-08-30",
   "description": "Sonar is lightweight, affordable, fast, and simple to use — now featuring citations and the ability to customize sources.",
   "context_window": 127072,
   "modalities": {
@@ -23,10 +23,12 @@
     "family": "8b8f2acb",
     "model_type": "d669f408",
     "release_date": "16f4b872",
-    "tagline": "f00226eb"
+    "tagline": "f00226eb",
+    "max_output_tokens": "cf9b3c3e"
   },
   "family": "sonar",
   "model_type": "chat",
   "release_date": "2025-01-27",
-  "tagline": "Sonar is lightweight, affordable, fast, and simple to use — now featuring citations and the ability to customize sources."
+  "tagline": "Sonar is lightweight, affordable, fast, and simple to use — now featuring citations and the ability to customize sources.",
+  "max_output_tokens": 114364
 }

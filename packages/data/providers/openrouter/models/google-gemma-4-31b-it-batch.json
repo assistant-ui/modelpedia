@@ -1,0 +1,45 @@
+{
+  "id": "google/gemma-4-31b-it:batch",
+  "name": "Google: Gemma 4 31B (batch)",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemma-4",
+  "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output.",
+  "release_date": "2026-04-02",
+  "context_window": 262144,
+  "max_output_tokens": 235929,
+  "parameters": 31,
+  "model_type": "chat",
+  "tagline": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.39,
+    "output": 0.97
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c7ef1738",
+    "family": "811b6704",
+    "description": "478a3248",
+    "release_date": "ea3c9722",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "7ad80673",
+    "parameters": "c16a5320",
+    "model_type": "d669f408",
+    "tagline": "478a3248",
+    "capabilities": "03fbefb4",
+    "modalities": "1e916c3b",
+    "pricing": "6f9f8b5d",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "tencent/hy-mt2-30b-a3b",
+  "name": "Tencent: Hy-MT2-30B-A3B",
+  "created_by": "tencent",
+  "source": "official",
+  "description": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family.",
+  "release_date": "2026-08-20",
+  "context_window": 8192,
+  "max_output_tokens": 4096,
+  "parameters": 30,
+  "active_parameters": 3,
+  "tagline": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family.",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.074,
+    "output": 0.295
+  },
+  "_generated": {
+    "name": "7b7b4917",
+    "description": "25470dd0",
+    "release_date": "656f820c",
+    "context_window": "77441296",
+    "max_output_tokens": "f7efa4f8",
+    "parameters": "34173cb3",
+    "active_parameters": "eccbc87e",
+    "tagline": "25470dd0",
+    "capabilities": "dbb5b7fe",
+    "modalities": "68e53d93",
+    "pricing": "25cb7a29"
+  },
+  "last_updated": "2026-08-30"
+}

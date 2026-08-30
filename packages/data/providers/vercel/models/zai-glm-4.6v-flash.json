@@ -3,7 +3,7 @@
   "name": "glm-4.6v-flash",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-30",
   "context_window": 128000,
   "capabilities": {
     "streaming": true,
@@ -23,7 +23,8 @@
     "family": "5a2dc6aa",
     "model_type": "d669f408",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "family": "glm-4.6",
   "model_type": "chat",
@@ -31,5 +32,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

@@ -3,7 +3,7 @@
   "name": "P Image Edit",
   "created_by": "prunaai",
   "source": "official",
-  "status": "deprecated",
+  "status": "active",
   "model_type": "image",
   "page_url": "https://replicate.com/prunaai/p-image-edit",
   "capabilities": {
@@ -16,12 +16,12 @@
   "endpoints": ["images"],
   "_generated": {
     "name": "ff450a86",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "model_type": "db8857fe",
     "page_url": "fdb4a4c7",
     "capabilities": "d3117eb0",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc"
   },
-  "last_updated": "2026-08-16"
+  "last_updated": "2026-08-30"
 }

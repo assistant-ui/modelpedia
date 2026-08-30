@@ -1,0 +1,27 @@
+{
+  "id": "beenga/beenga-image-1",
+  "name": "Beenga Image 1",
+  "created_by": "beenga",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/beenga/beenga-image-1",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "3eb07b54",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "a05c0f46",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-08-30"
+}

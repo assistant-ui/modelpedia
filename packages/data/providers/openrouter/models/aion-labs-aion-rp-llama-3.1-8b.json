@@ -3,10 +3,10 @@
   "name": "AionLabs: Aion-RP 1.0 (8B)",
   "created_by": "aion-labs",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-08-30",
   "description": "Aion-RP-Llama-3.1-8B ranks the highest in the character evaluation portion of the RPBench-Auto benchmark, a roleplaying-specific variant of Arena-Hard-Auto, where LLMs evaluate each other’s responses.",
   "context_window": 32768,
-  "max_output_tokens": 32768,
+  "max_output_tokens": 29491,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -19,7 +19,7 @@
     "name": "7cd7e8b1",
     "description": "a96913bb",
     "context_window": "f4376436",
-    "max_output_tokens": "f4376436",
+    "max_output_tokens": "7b81c4f4",
     "modalities": "68e53d93",
     "pricing": "e5b9aeb6",
     "parameters": "c9f0f895",

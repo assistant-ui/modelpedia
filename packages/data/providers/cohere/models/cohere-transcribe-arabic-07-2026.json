@@ -1,0 +1,29 @@
+{
+  "id": "cohere-transcribe-arabic-07-2026",
+  "name": "cohere-transcribe-arabic-07-2026",
+  "created_by": "cohere",
+  "source": "official",
+  "description": "Finetune optimized for Arabic audio inputs",
+  "status": "active",
+  "license": "proprietary",
+  "page_url": "https://docs.cohere.com/docs/models#cohere-transcribe-arabic-07-2026",
+  "model_type": "transcription",
+  "tagline": "Finetune optimized for Arabic audio inputs",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "87be979f",
+    "description": "76f022d4",
+    "status": "379ac110",
+    "license": "9186c466",
+    "page_url": "57fa6bfc",
+    "model_type": "5e12d29a",
+    "tagline": "76f022d4",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-08-30"
+}

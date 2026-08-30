@@ -15,7 +15,9 @@
     "name": "880eef6a",
     "model_type": "4e16a2cf",
     "capabilities": "0fa77dc6",
-    "pricing": "279488b2"
+    "pricing": "279488b2",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-08-30",
+  "status": "deprecated"
 }

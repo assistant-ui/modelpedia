@@ -1,0 +1,35 @@
+{
+  "id": "recraft/v4/style/pro/text-to-image",
+  "name": "Recraft V4 Styles Pro Text to Image",
+  "created_by": "recraft",
+  "source": "official",
+  "description": "Generates raster images that hold a consistent style, from either a saved style ID or reference images attached directly.",
+  "status": "active",
+  "release_date": "2026-08-26",
+  "model_type": "image",
+  "page_url": "https://fal.run/recraft/v4/style/pro/text-to-image",
+  "tagline": "Generates raster images that hold a consistent style, from either a saved style ID or reference images attached directly.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-08-26",
+  "_generated": {
+    "name": "db8305e1",
+    "description": "3f6e1f3a",
+    "status": "379ac110",
+    "release_date": "7d843204",
+    "model_type": "db8857fe",
+    "page_url": "318a6059",
+    "tagline": "3f6e1f3a",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "7d843204"
+  },
+  "last_updated": "2026-08-30"
+}

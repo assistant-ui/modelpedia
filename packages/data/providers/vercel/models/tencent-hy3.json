@@ -6,11 +6,13 @@
   "context_window": 262100,
   "model_type": "chat",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "pricing": {
-    "input": 0.14,
-    "output": 0.58
+    "input": 0.13,
+    "output": 0.52
   },
   "modalities": {
     "input": ["text"],
@@ -20,9 +22,11 @@
     "name": "ab8385f7",
     "context_window": "b23f4471",
     "model_type": "d669f408",
-    "capabilities": "0fa77dc6",
-    "pricing": "1ceecdb7",
-    "modalities": "68e53d93"
+    "capabilities": "a281e83a",
+    "pricing": "61102b35",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-24"
+  "last_updated": "2026-08-30",
+  "tools": ["function_calling"]
 }

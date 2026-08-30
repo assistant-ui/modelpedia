@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/minimax/h3/t2v/trainer",
   "tagline": "Train a MiniMax H3 LoRA on your own captioned clips for pure text-to-video generation with matching audio.",
-  "last_seen_at": "2026-08-10",
+  "last_seen_at": "2026-08-25",
   "_generated": {
     "name": "2d282bbb",
     "description": "796c4523",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "c871afc4",
     "tagline": "796c4523",
-    "last_seen_at": "a2454697"
+    "last_seen_at": "1f9d2687"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-30"
 }

@@ -1,7 +1,8 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-30",
   "count": 100,
   "ids": [
+    "ar-stablelm-2-chat",
     "arcade100k",
     "codellama13b_instruct_260k_synthesis",
     "control-lora",
@@ -49,7 +50,6 @@
     "stable-code-3b",
     "stable-code-instruct-3b",
     "stable-codec-speech-16k",
-    "stable-codec-speech-16k-base",
     "stable-diffusion-3-medium",
     "stable-diffusion-3-medium-amdnpu",
     "stable-diffusion-3-medium-diffusers",
@@ -62,7 +62,6 @@
     "stable-diffusion-3.5-large-tensorrt",
     "stable-diffusion-3.5-large-turbo",
     "stable-diffusion-3.5-medium",
-    "stable-diffusion-3.5-medium-tensorrt",
     "stable-diffusion-x4-upscaler",
     "stable-diffusion-xl-1.0-tensorrt",
     "stable-diffusion-xl-base-0.9",
@@ -98,6 +97,7 @@
     "stablelm-tuned-alpha-3b",
     "stablelm-tuned-alpha-7b",
     "stablelm-zephyr-3b",
+    "sv3d",
     "sv4d",
     "sv4d2.0",
     "tiny-random-stablelm-2",

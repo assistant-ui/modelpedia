@@ -19,9 +19,7 @@
     "output": 12,
     "cached_input": 1
   },
-  "pricing_notes": [
-    "Jointly trained by Cursor and SpaceXAI; 50% launch discount for one week starting August 12, 2026"
-  ],
+  "pricing_notes": ["Jointly trained by Cursor and SpaceXAI"],
   "_generated": {
     "name": "3eba85ec",
     "family": "6351f129",
@@ -30,7 +28,7 @@
     "capabilities": "b011c6b4",
     "modalities": "68e53d93",
     "pricing": "959cdfee",
-    "pricing_notes": "97f80a05"
+    "pricing_notes": "b9f739ff"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-30"
 }

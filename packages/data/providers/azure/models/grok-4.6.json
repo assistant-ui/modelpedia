@@ -1,0 +1,28 @@
+{
+  "id": "grok-4.6",
+  "name": "grok-4.6 Preview",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4.6",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e84fcbb5",
+    "family": "6351f129",
+    "model_type": "d669f408",
+    "capabilities": "ee30ca00",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

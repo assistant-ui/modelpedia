@@ -1,0 +1,23 @@
+{
+  "id": "google/gemini-3.5-transcribe-live",
+  "name": "gemini-3.5-transcribe-live",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.5",
+  "model_type": "transcription",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "bf4ca6ae",
+    "family": "098fdb91",
+    "model_type": "5e12d29a",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-08-30"
+}

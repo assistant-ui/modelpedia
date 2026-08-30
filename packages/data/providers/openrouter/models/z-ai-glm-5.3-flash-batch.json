@@ -1,0 +1,44 @@
+{
+  "id": "z-ai/glm-5.3-flash:batch",
+  "name": "Z.ai: GLM 5.3 Flash (batch)",
+  "created_by": "z-ai",
+  "source": "official",
+  "family": "glm-5.3",
+  "description": "GLM-5.3-Flash is a native multimodal model from Z.ai.",
+  "release_date": "2026-08-26",
+  "context_window": 1048575,
+  "max_output_tokens": 943717,
+  "model_type": "chat",
+  "tagline": "GLM-5.3-Flash is a native multimodal model from Z.ai.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.5,
+    "cached_input": 0.03
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "19756561",
+    "family": "9f217d9a",
+    "description": "a9886a26",
+    "release_date": "7d843204",
+    "context_window": "6055dad2",
+    "max_output_tokens": "4056a28f",
+    "model_type": "d669f408",
+    "tagline": "a9886a26",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "pricing": "bd8fa987",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

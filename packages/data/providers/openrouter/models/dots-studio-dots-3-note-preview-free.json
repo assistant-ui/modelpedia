@@ -6,7 +6,7 @@
   "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total.",
   "release_date": "2026-08-14",
   "context_window": 512000,
-  "max_output_tokens": 512000,
+  "max_output_tokens": 460800,
   "tagline": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total.",
   "capabilities": {
     "tool_call": true,
@@ -24,11 +24,15 @@
     "description": "42cf767d",
     "release_date": "16d713cd",
     "context_window": "d09e1c12",
-    "max_output_tokens": "d09e1c12",
+    "max_output_tokens": "2f3e428a",
     "tagline": "42cf767d",
     "capabilities": "03fbefb4",
     "modalities": "6399757e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc",
+    "deprecation_date": "3bb8d4f3"
   },
-  "last_updated": "2026-08-16"
+  "last_updated": "2026-08-30",
+  "status": "deprecated",
+  "deprecation_date": "2026-09-30"
 }

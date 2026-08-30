@@ -1,0 +1,54 @@
+{
+  "id": "zai-org/GLM-5.3",
+  "name": "GLM-5.3",
+  "created_by": "zai",
+  "source": "official",
+  "family": "GLM-5.3",
+  "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves on GLM-5.2 in coding and in the balance between performance and token efficiency.",
+  "status": "active",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "mit",
+  "open_weight": true,
+  "tagline": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.2,
+    "output": 4,
+    "cached_input": 0.24
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "_generated": {
+    "name": "7fca6967",
+    "family": "7fca6967",
+    "description": "a592e9b5",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506",
+    "tagline": "6c436eaf",
+    "capabilities": "882e371a",
+    "modalities": "68e53d93",
+    "pricing": "53feeb96",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9"
+  },
+  "last_updated": "2026-08-30"
+}

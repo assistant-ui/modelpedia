@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Use the powerful and accurate topaz image enhancer to enhance your images.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-06-27",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/topaz/upscale/image",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "7b3871e1",
     "description": "e46ba3ee",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "3c0b361c",
     "model_type": "db8857fe",
     "page_url": "91596bc6",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "1fa0004f"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-08-30"
 }

@@ -1,0 +1,16 @@
+{
+  "id": "muse-spark-1.2-contributor-free",
+  "name": "Muse Spark 1.2 Contributor Free",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "aa7477eb",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-08-30"
+}

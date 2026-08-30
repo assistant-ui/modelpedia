@@ -3,7 +3,7 @@
   "name": "glm-4.7",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-30",
   "context_window": 204800,
   "capabilities": {
     "streaming": true,
@@ -11,14 +11,14 @@
     "reasoning": true
   },
   "pricing": {
-    "input": 2.25,
-    "output": 2.75
+    "input": 0.43,
+    "output": 1.75
   },
   "_generated": {
     "name": "02d3d929",
     "context_window": "65d646a4",
     "capabilities": "a281e83a",
-    "pricing": "c31ca41c",
+    "pricing": "eb62b8d4",
     "family": "02d3d929",
     "model_type": "d669f408",
     "tools": "f0c1dc7e",

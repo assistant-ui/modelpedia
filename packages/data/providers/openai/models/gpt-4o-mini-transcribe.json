@@ -1,9 +1,9 @@
 {
   "id": "gpt-4o-mini-transcribe",
-  "name": "GPT-4o mini Transcribe",
+  "name": "GPT-4o Mini Transcribe",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-27",
+  "last_updated": "2026-08-30",
   "family": "gpt-4o",
   "status": "active",
   "knowledge_cutoff": "2024-06",
@@ -22,7 +22,7 @@
     "gpt-4o-mini-transcribe-2025-12-15"
   ],
   "_generated": {
-    "name": "81f7c40a",
+    "name": "1589159d",
     "family": "15249632",
     "status": "379ac110",
     "knowledge_cutoff": "b087cb52",
@@ -33,16 +33,16 @@
     "speed": "a87ff679",
     "modalities": "7cee5e0e",
     "endpoints": "250917d3",
-    "description": "72014020",
-    "tagline": "c1727642",
+    "description": "dab406cd",
+    "tagline": "68ae5486",
     "pricing": "0de5876d",
     "license": "9186c466",
     "release_date": "56423574",
     "page_url": "f4721e5e",
     "open_weight": "68934a3e"
   },
-  "description": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
-  "tagline": "Speech-to-text model powered by GPT-4o mini",
+  "description": "GPT-4o Mini Transcribe is a speech-to-text model that uses GPT-4o Mini to transcribe audio.",
+  "tagline": "Speech-to-text model powered by GPT-4o Mini",
   "pricing": {
     "tiers": [
       {

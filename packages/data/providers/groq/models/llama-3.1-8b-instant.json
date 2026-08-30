@@ -1,9 +1,9 @@
 {
   "id": "llama-3.1-8b-instant",
-  "name": "Llama 3.1 8B",
+  "name": "Llama 3.1 8B Enterprise",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-06-20",
+  "last_updated": "2026-08-30",
   "family": "llama-3.1",
   "status": "deprecated",
   "context_window": 131072,
@@ -23,7 +23,7 @@
     "output": 0.08
   },
   "_generated": {
-    "name": "051379cb",
+    "name": "f470ea48",
     "family": "83ec32db",
     "status": "2e2f74dc",
     "context_window": "f7de594e",

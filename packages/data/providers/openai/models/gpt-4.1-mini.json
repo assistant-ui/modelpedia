@@ -1,11 +1,11 @@
 {
   "id": "gpt-4.1-mini",
-  "name": "GPT-4.1 mini",
+  "name": "GPT-4.1 Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-08-30",
   "family": "gpt-4.1",
-  "description": "GPT-4.1 mini excels at instruction following and tool calling. It features a",
+  "description": "GPT-4.1 Mini excels at instruction following and tool calling. It features a",
   "status": "active",
   "knowledge_cutoff": "2024-06",
   "context_window": 1047576,
@@ -52,7 +52,13 @@
       }
     ]
   },
-  "tools": ["function_calling"],
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "code_interpreter",
+    "mcp"
+  ],
   "endpoints": [
     "chat_completions",
     "responses",
@@ -62,9 +68,9 @@
   ],
   "snapshots": ["gpt-4.1-mini-2025-04-14"],
   "_generated": {
-    "name": "ca9b78b5",
+    "name": "ce38e8c3",
     "family": "d240daf4",
-    "description": "a830acaf",
+    "description": "e947ced7",
     "status": "379ac110",
     "knowledge_cutoff": "b087cb52",
     "context_window": "55410616",
@@ -76,15 +82,15 @@
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
     "pricing": "c1f7904e",
-    "tools": "f0c1dc7e",
+    "tools": "907918a7",
     "endpoints": "ebc03c48",
     "license": "9186c466",
-    "page_url": "4b9a7bd0",
+    "page_url": "6c7364d0",
     "open_weight": "68934a3e",
     "release_date": "85c7118a"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-4.1-mini?snapshot=gpt-4.1-mini-2025-04-14",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
   "open_weight": false,
   "release_date": "2025-04-14"
 }

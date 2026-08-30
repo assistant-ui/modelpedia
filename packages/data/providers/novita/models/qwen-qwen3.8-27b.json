@@ -1,0 +1,46 @@
+{
+  "id": "qwen/qwen3.8-27b",
+  "name": "Qwen3.8 27B",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3.8",
+  "status": "active",
+  "release_date": "2026-08-26",
+  "context_window": 1000000,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "parameters": 27,
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.42,
+    "output": 3
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "cae4642e",
+    "family": "e102ad6a",
+    "status": "379ac110",
+    "release_date": "7d843204",
+    "context_window": "8155bc54",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "parameters": "02e74f10",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "pricing": "8df328c8",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

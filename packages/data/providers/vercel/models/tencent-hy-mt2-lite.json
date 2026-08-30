@@ -1,0 +1,28 @@
+{
+  "id": "tencent/hy-mt2-lite",
+  "name": "hy-mt2-lite",
+  "created_by": "tencent",
+  "source": "official",
+  "context_window": 8000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0.18
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "2f777934",
+    "context_window": "67ff32d4",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "15cc8dd1",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-08-30"
+}

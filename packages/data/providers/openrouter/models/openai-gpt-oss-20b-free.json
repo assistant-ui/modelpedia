@@ -3,7 +3,7 @@
   "name": "OpenAI: gpt-oss-20b (free)",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-08-30",
   "family": "gpt-oss",
   "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
   "context_window": 131072,
@@ -29,10 +29,12 @@
     "model_type": "d669f408",
     "release_date": "67086b15",
     "tagline": "9ef19f8d",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "release_date": "2025-08-05",
   "tagline": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

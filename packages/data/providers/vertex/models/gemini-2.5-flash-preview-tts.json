@@ -3,7 +3,7 @@
   "name": "gemini-2.5-flash-preview-tts",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-08-30",
   "family": "gemini-2.5",
   "status": "active",
   "context_window": 8192,
@@ -65,11 +65,11 @@
     "endpoints": "20e16908",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "description": "3aaff922",
+    "description": "00b5cea4",
     "tagline": "4b67df7d"
   },
   "license": "proprietary",
   "open_weight": false,
-  "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 2.5 Flash Text-to-Speech Our fastest engine for high-fidelity speech synthesis, offering low-latency and cost-efficient audio generation. Gemini 2.5 Flash TTS is best for real-time assistants, high-volume narration, and conversational use cases that require fine-grained control over voice style and pacing.",
+  "description": "Our fastest engine for high-fidelity speech synthesis, offering low-latency and cost-efficient audio generation. Gemini 2.5 Flash TTS is best for real-time assistants, high-volume narration, and conversational use cases that require fine-grained control over voice style and pacing.",
   "tagline": "Our fastest engine for high-fidelity speech synthesis, offering low-latency and cost-efficient audio generation."
 }

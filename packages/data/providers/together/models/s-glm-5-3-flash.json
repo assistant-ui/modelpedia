@@ -1,0 +1,30 @@
+{
+  "id": "s/glm-5-3-flash",
+  "name": "Glm 5 3 Flash",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5",
+  "page_url": "https://www.together.ai/models/glm-5-3-flash",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.5
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "8c98c785",
+    "family": "309daa86",
+    "page_url": "b61e8dc7",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "3f3d331a",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-08-30"
+}

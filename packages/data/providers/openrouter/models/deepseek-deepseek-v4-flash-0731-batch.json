@@ -1,0 +1,44 @@
+{
+  "id": "deepseek/deepseek-v4-flash-0731:batch",
+  "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total.",
+  "release_date": "2026-07-31",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "model_type": "chat",
+  "tagline": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.28,
+    "cached_input": 0.03
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2821e754",
+    "family": "4b81b92d",
+    "description": "b4fa0f05",
+    "release_date": "0ee605c3",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "model_type": "d669f408",
+    "tagline": "b4fa0f05",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "062f7f85",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

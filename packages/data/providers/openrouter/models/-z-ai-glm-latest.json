@@ -1,0 +1,44 @@
+{
+  "id": "~z-ai/glm-latest",
+  "name": "Z.ai: GLM Latest",
+  "created_by": "~z-ai",
+  "source": "official",
+  "family": "glm",
+  "description": "This model always redirects to the latest GLM model from Z.ai.",
+  "release_date": "2026-08-19",
+  "context_window": 1310720,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "This model always redirects to the latest GLM model from Z.ai.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.188,
+    "output": 4.18,
+    "cached_input": 0.247
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8e874f83",
+    "family": "cb6bfc11",
+    "description": "23c5ed12",
+    "release_date": "e97f480b",
+    "context_window": "32886eaa",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "23c5ed12",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "88055631",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

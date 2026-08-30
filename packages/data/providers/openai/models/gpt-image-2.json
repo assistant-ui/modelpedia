@@ -1,6 +1,6 @@
 {
   "id": "gpt-image-2",
-  "name": "GPT Image 2",
+  "name": "GPT-Image-2",
   "created_by": "openai",
   "source": "official",
   "family": "gpt-image-2",
@@ -11,7 +11,7 @@
   "performance": 5,
   "speed": 3,
   "tagline": "State-of-the-art image generation model",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-image-2?snapshot=gpt-image-2-2026-04-21",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-image-2",
   "open_weight": false,
   "capabilities": {
     "streaming": false,
@@ -69,7 +69,7 @@
   "endpoints": ["batch", "image_generation", "image_edit"],
   "snapshots": ["gpt-image-2-2026-04-21"],
   "_generated": {
-    "name": "8644edb0",
+    "name": "c2ef86d7",
     "family": "c79be345",
     "description": "4d8702a7",
     "status": "379ac110",
@@ -78,7 +78,7 @@
     "performance": "e4da3b7f",
     "speed": "eccbc87e",
     "tagline": "49145a2c",
-    "page_url": "07fb0660",
+    "page_url": "dd29abd7",
     "open_weight": "68934a3e",
     "capabilities": "ec32b5a4",
     "modalities": "bbf9b8bb",
@@ -86,6 +86,6 @@
     "endpoints": "af128fc0",
     "release_date": "5029e96d"
   },
-  "last_updated": "2026-04-22",
+  "last_updated": "2026-08-30",
   "release_date": "2026-04-21"
 }

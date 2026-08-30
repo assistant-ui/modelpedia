@@ -1,0 +1,35 @@
+{
+  "id": "topaz/restore/image",
+  "name": "Topaz Restore Image",
+  "created_by": "topaz",
+  "source": "official",
+  "description": "Professional image restoration powered by Topaz Labs.",
+  "status": "active",
+  "release_date": "2026-08-11",
+  "model_type": "image",
+  "page_url": "https://fal.run/topaz/restore/image",
+  "tagline": "Professional image restoration powered by Topaz Labs.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-08-28",
+  "_generated": {
+    "name": "f30ab720",
+    "description": "29a9451d",
+    "status": "379ac110",
+    "release_date": "c2572fd1",
+    "model_type": "db8857fe",
+    "page_url": "5f40a9f6",
+    "tagline": "29a9451d",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "2ed0cbfa"
+  },
+  "last_updated": "2026-08-30"
+}

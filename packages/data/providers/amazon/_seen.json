@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-16",
-  "count": 126,
+  "date": "2026-08-30",
+  "count": 127,
   "ids": [
     "ai21.jamba-1-5-large-v1-0",
     "ai21.jamba-1-5-mini-v1-0",
@@ -125,6 +125,7 @@
     "writer.palmyra-x4-v1-0",
     "writer.palmyra-x5-v1-0",
     "xai.grok-4.3",
+    "xai.grok-4.6",
     "zai.glm-4.7",
     "zai.glm-4.7-flash",
     "zai.glm-5"

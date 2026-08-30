@@ -1,0 +1,39 @@
+{
+  "id": "inclusionai/ling-3.0-flash-fin",
+  "name": "Ling 3.0 Flash Fin",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "Ling-3.0-flash-Fin is a finance-enhanced MoE model built on Ling-3.0-flash, with 124 billion total parameters and approximately 5.1 billion activated parameters.",
+  "status": "active",
+  "release_date": "2026-08-26",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "tagline": "Ling-3.0-flash-Fin is a finance-enhanced MoE model built on Ling-3.0-flash, with 124 billion total parameters and approximately 5.1 billion activated parameters.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9d478cbb",
+    "description": "72435110",
+    "status": "379ac110",
+    "release_date": "7d843204",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "tagline": "72435110",
+    "capabilities": "3d69c795",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

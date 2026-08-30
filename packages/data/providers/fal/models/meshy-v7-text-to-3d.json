@@ -1,0 +1,24 @@
+{
+  "id": "meshy/v7/text-to-3d",
+  "name": "V7 Text to 3D",
+  "created_by": "meshy",
+  "source": "official",
+  "description": "Turns text into a fully textured, PBR-ready 3D mesh with complete geometry, in game-ready Smart Topology at a target polygon count",
+  "status": "active",
+  "release_date": "2026-08-24",
+  "model_type": "other",
+  "page_url": "https://fal.run/meshy/v7/text-to-3d",
+  "tagline": "Turns text into a fully textured, PBR-ready 3D mesh with complete geometry, in game-ready Smart Topology at a target polygon count",
+  "last_seen_at": "2026-08-24",
+  "_generated": {
+    "name": "568e2547",
+    "description": "1b7bf480",
+    "status": "379ac110",
+    "release_date": "f0d8fd04",
+    "model_type": "ddb0b7bc",
+    "page_url": "6780f01f",
+    "tagline": "1b7bf480",
+    "last_seen_at": "f0d8fd04"
+  },
+  "last_updated": "2026-08-30"
+}

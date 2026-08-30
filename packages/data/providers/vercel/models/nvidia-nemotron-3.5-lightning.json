@@ -1,0 +1,32 @@
+{
+  "id": "nvidia/nemotron-3.5-lightning",
+  "name": "nemotron-3.5-lightning",
+  "created_by": "nvidia",
+  "source": "official",
+  "context_window": 262100,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.15
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b90f7ffc",
+    "context_window": "b23f4471",
+    "model_type": "d669f408",
+    "capabilities": "a281e83a",
+    "pricing": "ba9c4be9",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}
