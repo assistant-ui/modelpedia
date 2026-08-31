@@ -5,8 +5,19 @@
   "compatibility_date": "2026-03-14",
   "compatibility_flags": ["nodejs_compat"],
   "observability": {
-    "enabled": true,
-    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
+      "destinations": ["axiom-logs"],
+      "head_sampling_rate": 1,
+      "invocation_logs": true,
+      "persist": false,
+    },
+    "traces": {
+      "enabled": true,
+      "destinations": ["axiom-traces"],
+      "head_sampling_rate": 1,
+      "persist": false,
+    },
   },
   "ratelimits": [
     {

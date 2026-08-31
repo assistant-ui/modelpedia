@@ -612,4 +612,21 @@ app.get("/export", (c) => {
 
 api.route("/v1", app);
 
+api.notFound((c) =>
+  c.json({ error: { message: "Not found", status: 404 } }, 404),
+);
+
+api.onError((err, c) => {
+  console.error({
+    msg: "api.error",
+    method: c.req.method,
+    path: c.req.path,
+    error: err instanceof Error ? err.message : String(err),
+  });
+  return c.json(
+    { error: { message: "Internal server error", status: 500 } },
+    500,
+  );
+});
+
 export default api;
