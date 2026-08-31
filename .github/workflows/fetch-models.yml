@@ -206,3 +206,14 @@ jobs:
             -H "Content-Type: application/x-ndjson" \
             --data-binary @/tmp/axiom-events.ndjson > /dev/null \
             || echo "::warning::axiom ingest failed"
+
+      # A successful daily run pings Better Stack; a run that stops arriving
+      # (cron disabled, workflow broken, repo archived) raises an incident even
+      # when nothing is left alive to report a failure.
+      - name: Ping Better Stack heartbeat
+        if: success()
+        env:
+          HEARTBEAT_URL: ${{ secrets.BETTERSTACK_HEARTBEAT_URL }}
+        run: |
+          [ -z "$HEARTBEAT_URL" ] && { echo "BETTERSTACK_HEARTBEAT_URL not set; skipping"; exit 0; }
+          curl -sf "$HEARTBEAT_URL" > /dev/null || echo "::warning::heartbeat ping failed"
