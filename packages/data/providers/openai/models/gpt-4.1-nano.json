@@ -3,10 +3,10 @@
   "name": "GPT-4.1 nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-08-30",
   "family": "gpt-4.1",
   "description": "GPT-4.1 nano excels at instruction following and tool calling. It features a",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 1047576,
   "max_output_tokens": 32768,
@@ -52,7 +52,13 @@
       }
     ]
   },
-  "tools": ["function_calling"],
+  "tools": [
+    "function_calling",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "mcp"
+  ],
   "endpoints": [
     "chat_completions",
     "responses",
@@ -65,7 +71,7 @@
     "name": "f6396fa5",
     "family": "d240daf4",
     "description": "7ca18e8b",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "55410616",
     "max_output_tokens": "f4376436",
@@ -76,15 +82,15 @@
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
     "pricing": "aa763141",
-    "tools": "f0c1dc7e",
+    "tools": "d529f254",
     "endpoints": "ebc03c48",
     "license": "9186c466",
-    "page_url": "46faad09",
+    "page_url": "c6eaa1d1",
     "open_weight": "68934a3e",
     "release_date": "85c7118a"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-4.1-nano?snapshot=gpt-4.1-nano-2025-04-14",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-4.1-nano",
   "open_weight": false,
   "release_date": "2025-04-14"
 }

@@ -1,0 +1,27 @@
+{
+  "id": "parse-v5.0",
+  "name": "parse-v5.0",
+  "created_by": "cohere",
+  "source": "official",
+  "description": "For document intelligence workloads that demand accurate, high-volume parsing",
+  "status": "active",
+  "license": "proprietary",
+  "page_url": "https://docs.cohere.com/docs/models#parse-v5.0",
+  "tagline": "For document intelligence workloads that demand accurate, high-volume parsing",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "926679cc",
+    "description": "40d42ab2",
+    "status": "379ac110",
+    "license": "9186c466",
+    "page_url": "4e43c727",
+    "tagline": "40d42ab2",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-08-30"
+}

@@ -4,7 +4,7 @@
   "created_by": "unknown",
   "source": "official",
   "family": "deepseek",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -16,10 +16,10 @@
   "_generated": {
     "name": "79344332",
     "family": "4b81b92d",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-05-14"
+  "last_updated": "2026-08-30"
 }

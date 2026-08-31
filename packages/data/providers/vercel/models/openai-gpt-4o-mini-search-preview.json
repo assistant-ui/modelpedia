@@ -3,7 +3,7 @@
   "name": "gpt-4o-mini-search-preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-08-30",
   "family": "gpt-4o",
   "context_window": 128000,
   "capabilities": {
@@ -20,11 +20,13 @@
     "capabilities": "0fa77dc6",
     "pricing": "89a9c6e2",
     "model_type": "d669f408",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

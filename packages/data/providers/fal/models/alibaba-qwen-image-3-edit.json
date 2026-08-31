@@ -4,7 +4,7 @@
   "created_by": "alibaba",
   "source": "official",
   "family": "qwen",
-  "description": "Generates images from a text prompt at resolutions up to 2048×2048, with automatic prompt rewriting and prompt-guided resolution selection, building on Qwen's strength in complex text rendering and pr",
+  "description": "Edits images from one to three reference images and a natural-language instruction, preserving key details such as facial features and identity while applying the requested changes",
   "status": "active",
   "release_date": "2026-07-21",
   "model_type": "image",
@@ -18,11 +18,11 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-08-04",
+  "last_seen_at": "2026-08-28",
   "_generated": {
     "name": "51e8ecee",
     "family": "a3af76f3",
-    "description": "0963c8a2",
+    "description": "5f38ffa3",
     "status": "379ac110",
     "release_date": "db9f0f5f",
     "model_type": "db8857fe",
@@ -31,7 +31,7 @@
     "capabilities": "d3117eb0",
     "modalities": "bbf9b8bb",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "eb29ce77"
+    "last_seen_at": "2ed0cbfa"
   },
-  "last_updated": "2026-08-05"
+  "last_updated": "2026-08-30"
 }

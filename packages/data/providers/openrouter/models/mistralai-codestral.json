@@ -3,7 +3,7 @@
   "name": "Mistral: Codestral 2508",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-08-30",
   "family": "codestral",
   "description": "Mistral's cutting-edge language model for coding released end of July 2025.",
   "release_date": "2025-08-01",
@@ -37,6 +37,8 @@
     "capabilities": "6c9aa67e",
     "modalities": "68e53d93",
     "pricing": "d98f266b",
-    "tools": "f0c1dc7e"
-  }
+    "tools": "f0c1dc7e",
+    "max_output_tokens": "65d646a4"
+  },
+  "max_output_tokens": 204800
 }

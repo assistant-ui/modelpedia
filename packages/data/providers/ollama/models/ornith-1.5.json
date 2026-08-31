@@ -1,0 +1,33 @@
+{
+  "id": "ornith-1.5",
+  "name": "ornith-1.5",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "Chirp Chirp! 🐦 We are introducing Ornith-1.5, a major step toward building foundation models through end-to-end self-improvement.",
+  "context_window": 262144,
+  "license": "open-weight",
+  "page_url": "https://ollama.com/library/ornith-1.5",
+  "open_weight": true,
+  "tagline": "Chirp Chirp! 🐦 We are introducing Ornith-1.5, a major step toward building foundation models through end-to-end self-improvement.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "d389c3c6",
+    "description": "b5a3a947",
+    "context_window": "4a1d32eb",
+    "license": "6327aaea",
+    "page_url": "6c951c6e",
+    "open_weight": "b326b506",
+    "tagline": "b5a3a947",
+    "capabilities": "91e36286",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-08-30"
+}

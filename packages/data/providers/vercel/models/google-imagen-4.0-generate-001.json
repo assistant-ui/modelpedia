@@ -3,7 +3,7 @@
   "name": "imagen-4.0-generate-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-08-30",
   "capabilities": {
     "streaming": true
   },
@@ -13,9 +13,13 @@
   },
   "_generated": {
     "name": "c37e34c0",
+    "capabilities": "0fa77dc6",
     "pricing": "9a7a9781",
-    "capabilities": "0fa77dc6"
+    "model_type": "db8857fe",
+    "family": "becf3f6b",
+    "status": "2e2f74dc"
   },
   "model_type": "image",
-  "family": "imagen-4.0"
+  "family": "imagen-4.0",
+  "status": "deprecated"
 }

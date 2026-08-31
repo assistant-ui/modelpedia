@@ -1,0 +1,41 @@
+{
+  "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+  "name": "Qwen3.8-27B-OBLITERATED",
+  "created_by": "obliteratus",
+  "source": "official",
+  "description": "> Genuinely uncensored. Real answers, not safety lectures. Near-stock capability.",
+  "release_date": "2026-08-19",
+  "license": "apache-2.0",
+  "parameters": 28,
+  "page_url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "> Genuinely uncensored.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8eba16b7",
+    "description": "283836cd",
+    "release_date": "e97f480b",
+    "license": "60245731",
+    "parameters": "33e75ff0",
+    "page_url": "d8e33cd0",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "c8501915",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

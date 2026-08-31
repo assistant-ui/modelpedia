@@ -1,0 +1,47 @@
+{
+  "id": "glm-5.3-flash",
+  "name": "glm-5.3-flash",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5.3",
+  "description": "Z.ai&#39;s first natively multimodal model, approaching Claude Opus 4.8 on coding and agentic benchmarks with just 18B active parameters.",
+  "release_date": "2026-08-26",
+  "reasoning_tokens": true,
+  "license": "mit",
+  "parameters": 320,
+  "active_parameters": 18,
+  "page_url": "https://ollama.com/library/glm-5.3-flash",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "Z.ai&#39;s first natively multimodal model, approaching Claude Opus 4.8 on coding and agentic benchmarks with just 18B active parameters.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c99f2343",
+    "family": "9f217d9a",
+    "description": "133fa15c",
+    "release_date": "7d843204",
+    "reasoning_tokens": "b326b506",
+    "license": "3c4c3ba5",
+    "parameters": "32072254",
+    "active_parameters": "6f4922f4",
+    "page_url": "17556ded",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "133fa15c",
+    "capabilities": "f7041f91",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

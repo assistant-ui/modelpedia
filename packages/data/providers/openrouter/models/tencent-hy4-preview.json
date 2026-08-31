@@ -1,0 +1,40 @@
+{
+  "id": "tencent/hy4-preview",
+  "name": "Tencent: Hy4 preview",
+  "created_by": "tencent",
+  "source": "official",
+  "description": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total.",
+  "release_date": "2026-08-28",
+  "context_window": 1048576,
+  "max_output_tokens": 64000,
+  "tagline": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.834,
+    "output": 2.501,
+    "cached_input": 0.042
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "58a2a316",
+    "description": "962f2fbd",
+    "release_date": "2ed0cbfa",
+    "context_window": "7d28a051",
+    "max_output_tokens": "762e98db",
+    "tagline": "962f2fbd",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "46ee453c",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

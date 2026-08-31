@@ -1,11 +1,11 @@
 {
   "id": "gpt-4o-mini",
-  "name": "GPT-4o mini",
+  "name": "GPT-4o Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-08-30",
   "family": "gpt-4o",
-  "description": "GPT-4o mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
+  "description": "GPT-4o Mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
   "status": "active",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
@@ -52,7 +52,14 @@
       }
     ]
   },
-  "tools": ["function_calling"],
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "mcp"
+  ],
   "endpoints": [
     "chat_completions",
     "responses",
@@ -62,9 +69,9 @@
   ],
   "snapshots": ["gpt-4o-mini-2024-07-18"],
   "_generated": {
-    "name": "db68c78a",
+    "name": "9f1373e8",
     "family": "15249632",
-    "description": "3038ef61",
+    "description": "b54475de",
     "status": "379ac110",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
@@ -76,15 +83,15 @@
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
     "pricing": "0ff1238c",
-    "tools": "f0c1dc7e",
+    "tools": "1d5a765f",
     "endpoints": "ebc03c48",
     "license": "9186c466",
-    "page_url": "49475bc5",
+    "page_url": "b718fb77",
     "open_weight": "68934a3e",
     "release_date": "23482102"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini?snapshot=gpt-4o-mini-2024-07-18",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
   "open_weight": false,
   "release_date": "2024-07-18"
 }

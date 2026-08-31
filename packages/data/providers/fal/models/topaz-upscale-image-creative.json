@@ -1,0 +1,35 @@
+{
+  "id": "topaz/upscale/image/creative",
+  "name": "Topaz Upscale Image Creative",
+  "created_by": "topaz",
+  "source": "official",
+  "description": "Professional creative image upscaling powered by Topaz Labs.",
+  "status": "active",
+  "release_date": "2026-08-11",
+  "model_type": "image",
+  "page_url": "https://fal.run/topaz/upscale/image/creative",
+  "tagline": "Professional creative image upscaling powered by Topaz Labs.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-08-28",
+  "_generated": {
+    "name": "911c5cc5",
+    "description": "85867a01",
+    "status": "379ac110",
+    "release_date": "c2572fd1",
+    "model_type": "db8857fe",
+    "page_url": "4049050d",
+    "tagline": "85867a01",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "2ed0cbfa"
+  },
+  "last_updated": "2026-08-30"
+}

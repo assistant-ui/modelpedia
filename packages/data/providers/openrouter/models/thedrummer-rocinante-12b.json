@@ -3,7 +3,7 @@
   "name": "TheDrummer: Rocinante 12B",
   "created_by": "thedrummer",
   "source": "official",
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-08-30",
   "description": "Rocinante 12B is designed for engaging storytelling and rich prose.",
   "context_window": 65536,
   "max_output_tokens": 65536,
@@ -31,10 +31,12 @@
     "parameters": "c20ad4d7",
     "release_date": "759ca9ad",
     "tagline": "5f3a2744",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "parameters": 12,
   "release_date": "2024-09-30",
   "tagline": "Rocinante 12B is designed for engaging storytelling and rich prose.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

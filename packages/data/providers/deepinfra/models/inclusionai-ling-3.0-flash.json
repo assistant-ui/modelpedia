@@ -14,7 +14,8 @@
     "tool_call": true,
     "json_mode": true,
     "reasoning": true,
-    "streaming": true
+    "streaming": true,
+    "structured_output": true
   },
   "modalities": {
     "input": ["text"],
@@ -36,11 +37,11 @@
     "reasoning_tokens": "b326b506",
     "open_weight": "b326b506",
     "tagline": "efc078b8",
-    "capabilities": "294930d1",
+    "capabilities": "4a5d56a4",
     "modalities": "68e53d93",
     "pricing": "70d151c2",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-30"
 }

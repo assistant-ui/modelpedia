@@ -3,7 +3,7 @@
   "name": "Mistral Large",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-08-30",
   "family": "mistral-large",
   "description": "This is Mistral AI's flagship model, Mistral Large 2 (version `mistral-large-2407`).",
   "context_window": 128000,
@@ -32,7 +32,8 @@
     "model_type": "d669f408",
     "release_date": "9147cd8c",
     "tagline": "d79b05ff",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "max_output_tokens": "c0cae821"
   },
   "model_type": "chat",
   "release_date": "2024-02-26",
@@ -42,5 +43,6 @@
     "mistralai/mistral-large-2512",
     "mistralai/mistral-large-2411",
     "mistralai/mistral-large-2407"
-  ]
+  ],
+  "max_output_tokens": 102400
 }

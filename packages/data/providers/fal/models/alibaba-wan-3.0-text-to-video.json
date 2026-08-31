@@ -1,0 +1,33 @@
+{
+  "id": "alibaba/wan-3.0/text-to-video",
+  "name": "Wan Text to Video",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "wan",
+  "description": "Wan 3.0 is the latest generation AI video model, delivering enhanced motion smoothness, superior scene fidelity, and greater visual coherence.",
+  "status": "active",
+  "release_date": "2026-08-03",
+  "model_type": "video",
+  "page_url": "https://fal.run/alibaba/wan-3.0/text-to-video",
+  "tagline": "Wan 3.0 is the latest generation AI video model, delivering enhanced motion smoothness, superior scene fidelity, and greater visual coherence.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-08-26",
+  "_generated": {
+    "name": "6b940412",
+    "family": "2aadc089",
+    "description": "a6be552e",
+    "status": "379ac110",
+    "release_date": "a67868bc",
+    "model_type": "4d1b75ca",
+    "page_url": "dcc40a54",
+    "tagline": "a6be552e",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "7d843204"
+  },
+  "last_updated": "2026-08-30"
+}

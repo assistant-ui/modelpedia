@@ -1,0 +1,35 @@
+{
+  "id": "bria/fibo-edit-1.5/edit",
+  "name": "Fibo Edit 1.5 Image Editing",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Commercially safe, multi-reference image editing model.",
+  "status": "active",
+  "release_date": "2026-08-18",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/fibo-edit-1.5/edit",
+  "tagline": "Commercially safe, multi-reference image editing model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-08-27",
+  "_generated": {
+    "name": "366bf570",
+    "description": "ba42a680",
+    "status": "379ac110",
+    "release_date": "d4b26be2",
+    "model_type": "db8857fe",
+    "page_url": "52b195a7",
+    "tagline": "ba42a680",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "0890bbf8"
+  },
+  "last_updated": "2026-08-30"
+}

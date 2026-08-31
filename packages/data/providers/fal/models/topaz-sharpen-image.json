@@ -1,0 +1,35 @@
+{
+  "id": "topaz/sharpen/image",
+  "name": "Topaz Sharpen Image",
+  "created_by": "topaz",
+  "source": "official",
+  "description": "Professional photo sharpening powered by Topaz Labs.",
+  "status": "active",
+  "release_date": "2026-08-11",
+  "model_type": "image",
+  "page_url": "https://fal.run/topaz/sharpen/image",
+  "tagline": "Professional photo sharpening powered by Topaz Labs.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-08-25",
+  "_generated": {
+    "name": "bfcf2197",
+    "description": "92fc34e1",
+    "status": "379ac110",
+    "release_date": "c2572fd1",
+    "model_type": "db8857fe",
+    "page_url": "1fe67a53",
+    "tagline": "92fc34e1",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "1f9d2687"
+  },
+  "last_updated": "2026-08-30"
+}

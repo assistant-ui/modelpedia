@@ -22,7 +22,7 @@
     "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "pricing": {
@@ -45,11 +45,11 @@
     "open_weight": "b326b506",
     "tagline": "29002cc9",
     "capabilities": "f940dfb8",
-    "modalities": "68e53d93",
+    "modalities": "6399757e",
     "pricing": "b59c0751",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "0e8a48ee"
   },
-  "last_updated": "2026-08-02"
+  "last_updated": "2026-08-30"
 }

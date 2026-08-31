@@ -1,0 +1,36 @@
+{
+  "id": "openai/gpt-oss-safeguard-120b",
+  "name": "gpt-oss-safeguard-120b",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-oss",
+  "context_window": 128000,
+  "model_type": "chat",
+  "parameters": 120,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "01a88892",
+    "family": "82d0cb0b",
+    "context_window": "34434798",
+    "model_type": "d669f408",
+    "parameters": "da4fb5c6",
+    "capabilities": "a281e83a",
+    "pricing": "89a9c6e2",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

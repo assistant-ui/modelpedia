@@ -3,7 +3,7 @@
   "name": "Mistral: Devstral 2 2512",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-08-02",
+  "last_updated": "2026-08-30",
   "family": "devstral",
   "description": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding.",
   "context_window": 262144,
@@ -17,9 +17,9 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.4,
-    "output": 2,
-    "cached_input": 0.04
+    "input": 0.44,
+    "output": 2.2,
+    "cached_input": 0.044
   },
   "_generated": {
     "name": "0d28c9b2",
@@ -28,17 +28,19 @@
     "context_window": "4a1d32eb",
     "modalities": "68e53d93",
     "capabilities": "6c9aa67e",
-    "pricing": "e7be2550",
+    "pricing": "d7ff11d3",
     "model_type": "b6cc3ff4",
     "release_date": "c41dad30",
     "tagline": "dd6e04fb",
     "tools": "f0c1dc7e",
-    "status": "2e2f74dc"
+    "status": "2e2f74dc",
+    "max_output_tokens": "fbae4e32"
   },
   "model_type": "code",
   "release_date": "2025-12-09",
   "alias": "mistralai/devstral",
   "tagline": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding.",
   "tools": ["function_calling"],
-  "status": "deprecated"
+  "status": "deprecated",
+  "max_output_tokens": 209715
 }

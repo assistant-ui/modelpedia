@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-30",
   "count": 25,
   "ids": [
     "s-deepseek-v4-flash-0731",
@@ -8,11 +8,11 @@
     "s-flux-3",
     "s-gemma-4-31b",
     "s-glm-5-3",
+    "s-glm-5-3-flash",
     "s-glm-52",
     "s-gpt-image-2",
     "s-inkling",
     "s-inkling-small",
-    "s-kimi-k26",
     "s-kimi-k27-code",
     "s-kimi-k3",
     "s-liquid-lfm2-5-8b-a1b",

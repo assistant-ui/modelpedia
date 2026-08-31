@@ -1,0 +1,32 @@
+{
+  "id": "MiniMax-M3",
+  "name": "MiniMax-M3",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "status": "active",
+  "context_window": 1048576,
+  "max_output_tokens": 1048576,
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 2.4
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "fdf91d1b",
+    "family": "c85916f0",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7d28a051",
+    "model_type": "d669f408",
+    "modalities": "68e53d93",
+    "pricing": "e9aad47c",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-08-30"
+}

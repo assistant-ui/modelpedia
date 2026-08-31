@@ -16,7 +16,7 @@
   },
   "pricing": {
     "input": 4,
-    "output": 12,
+    "output": 18,
     "cached_input": 1
   },
   "pricing_notes": ["Jointly trained by Cursor and SpaceXAI"],
@@ -27,8 +27,8 @@
     "model_type": "d669f408",
     "capabilities": "b011c6b4",
     "modalities": "68e53d93",
-    "pricing": "959cdfee",
+    "pricing": "f3f9ca76",
     "pricing_notes": "b9f739ff"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-30"
 }

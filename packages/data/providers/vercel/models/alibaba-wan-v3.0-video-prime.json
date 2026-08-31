@@ -1,0 +1,24 @@
+{
+  "id": "alibaba/wan-v3.0-video-prime",
+  "name": "wan-v3.0-video-prime",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "wan",
+  "model_type": "video",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "80b5ea7a",
+    "family": "2aadc089",
+    "model_type": "4d1b75ca",
+    "capabilities": "8a3b232e",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-08-30"
+}

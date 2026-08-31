@@ -1,0 +1,16 @@
+{
+  "id": "mandarobotics/robot-episode-labeler",
+  "name": "Robot Episode Labeler",
+  "created_by": "mandarobotics",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/mandarobotics/robot-episode-labeler",
+  "_generated": {
+    "name": "af21af4f",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "6cd42e20"
+  },
+  "last_updated": "2026-08-30"
+}

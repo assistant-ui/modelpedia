@@ -8,7 +8,9 @@
   },
   "_generated": {
     "name": "6738f66c",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-08-30",
+  "status": "deprecated"
 }

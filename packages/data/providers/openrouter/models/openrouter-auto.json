@@ -3,8 +3,8 @@
   "name": "Auto Router",
   "created_by": "openrouter",
   "source": "official",
-  "last_updated": "2026-05-10",
-  "description": "Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.",
+  "last_updated": "2026-08-30",
+  "description": "The Auto Router automatically selects the best model for your prompt, powered by the wisdom of the market.",
   "context_window": 2000000,
   "modalities": {
     "input": ["text", "image", "audio", "video"],
@@ -18,7 +18,7 @@
   },
   "_generated": {
     "name": "4420e201",
-    "description": "b49f0d12",
+    "description": "4a8a236e",
     "context_window": "805f7438",
     "modalities": "bedbbc8b",
     "capabilities": "03fbefb4",

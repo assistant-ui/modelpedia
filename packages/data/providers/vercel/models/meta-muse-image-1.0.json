@@ -1,0 +1,22 @@
+{
+  "id": "meta/muse-image-1.0",
+  "name": "muse-image-1.0",
+  "created_by": "meta",
+  "source": "official",
+  "model_type": "image",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "57b2e836",
+    "model_type": "db8857fe",
+    "capabilities": "8a3b232e",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-08-30"
+}

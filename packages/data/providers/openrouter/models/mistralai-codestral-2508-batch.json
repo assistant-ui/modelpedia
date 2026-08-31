@@ -1,0 +1,43 @@
+{
+  "id": "mistralai/codestral-2508:batch",
+  "name": "Mistral: Codestral 2508 (batch)",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "codestral",
+  "description": "Mistral's cutting-edge language model for coding released end of July 2025.",
+  "release_date": "2025-08-01",
+  "context_window": 256000,
+  "max_output_tokens": 204800,
+  "model_type": "code",
+  "tagline": "Mistral's cutting-edge language model for coding released end of July 2025.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 0.9,
+    "cached_input": 0.03
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2de391f4",
+    "family": "a0734f6e",
+    "description": "00eaf25f",
+    "release_date": "a5942af2",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "65d646a4",
+    "model_type": "b6cc3ff4",
+    "tagline": "00eaf25f",
+    "capabilities": "6c9aa67e",
+    "modalities": "68e53d93",
+    "pricing": "d98f266b",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

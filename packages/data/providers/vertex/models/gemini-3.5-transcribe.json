@@ -1,0 +1,37 @@
+{
+  "id": "gemini-3.5-transcribe",
+  "name": "gemini-3.5-transcribe",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.5",
+  "status": "active",
+  "model_type": "transcription",
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["text", "image"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "c28e7293",
+    "family": "098fdb91",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "3eacba15",
+    "modalities": "b9fd57f0",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-08-30"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "alibaba/qwen3.8-flash",
+  "name": "qwen3.8-flash",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.8",
+  "context_window": 991000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.16,
+    "output": 0.47
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "dc324bfb",
+    "family": "e102ad6a",
+    "context_window": "a8922d3e",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "a76ece8b",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

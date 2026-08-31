@@ -11,7 +11,7 @@
   "page_url": "https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler",
   "open_weight": true,
   "tagline": "Stable Diffusion X4 Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "huggingface_downloads": 22521,
+  "huggingface_downloads": 16724,
   "last_modified": "2023-07-05",
   "_generated": {
     "name": "a20c3000",
@@ -23,8 +23,8 @@
     "page_url": "fc4767fe",
     "open_weight": "b326b506",
     "tagline": "7dcec512",
-    "huggingface_downloads": "a9a6bc8f",
+    "huggingface_downloads": "4b403556",
     "last_modified": "3e5171a5"
   },
-  "last_updated": "2026-08-16"
+  "last_updated": "2026-08-30"
 }

@@ -1,0 +1,35 @@
+{
+  "id": "topaz/adjust/image",
+  "name": "Topaz Adjust Image",
+  "created_by": "topaz",
+  "source": "official",
+  "description": "Professional color and lighting correction powered by Topaz Labs.",
+  "status": "active",
+  "release_date": "2026-08-11",
+  "model_type": "image",
+  "page_url": "https://fal.run/topaz/adjust/image",
+  "tagline": "Professional color and lighting correction powered by Topaz Labs.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-08-28",
+  "_generated": {
+    "name": "47224150",
+    "description": "9d1f4417",
+    "status": "379ac110",
+    "release_date": "c2572fd1",
+    "model_type": "db8857fe",
+    "page_url": "c0333539",
+    "tagline": "9d1f4417",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "2ed0cbfa"
+  },
+  "last_updated": "2026-08-30"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "Qwen/Qwen3.8-27B",
+  "name": "Qwen3.8-27B",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be enabled or disabled.",
+  "status": "active",
+  "context_window": 262144,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "apache-2.0",
+  "open_weight": true,
+  "tagline": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.4,
+    "output": 3,
+    "cached_input": 0.04
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "9b054f25",
+    "description": "996a86d8",
+    "status": "379ac110",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "60245731",
+    "open_weight": "b326b506",
+    "tagline": "e630bf35",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "ab3b6d7f",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-08-30"
+}

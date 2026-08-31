@@ -3,9 +3,9 @@
   "name": "Python",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-08-13",
+  "last_updated": "2026-08-30",
   "license": "mit",
-  "page_url": "https://docs.z.ai/guides/vlm/glm-5v-turbo",
+  "page_url": "https://docs.z.ai/guides/vlm/glm-ocr",
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -14,17 +14,18 @@
   "_generated": {
     "name": "b58d2260",
     "license": "3c4c3ba5",
-    "page_url": "627e913a",
+    "page_url": "67d16a55",
     "modalities": "68e53d93",
     "open_weight": "b326b506",
-    "description": "fcf363c3",
+    "description": "7316161e",
     "tagline": "91c6c204",
     "context_window": "03e6c616",
     "max_output_tokens": "34434798",
     "capabilities": "1029c7f0",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "parameters": "a894124c"
   },
-  "description": "GLM-5V-Turbo is Z.AI's first multimodal coding foundation model, built for vision-based coding tasks. It can natively process multimodal inputs such as images, video, and text, while also excelling at long-horizon planning, complex coding, and action execution. Deeply optimized for agent workflows, it works seamlessly with agents such as Claude Code and OpenClaw to complete the full loop of \"understand the environment → plan actions → execute tasks\".",
+  "description": "GLM-OCR is a lightweight professional OCR model with parameters as small as 0.9B, yet it achieves state-of-the-art performance across multiple capabilities. It sets a new benchmark for document parsing with its “small size and high accuracy.” Key features include:",
   "tagline": "CogView-4 is Z.AI’s first open-source text-to-image model.",
   "context_window": 200000,
   "max_output_tokens": 128000,
@@ -35,5 +36,6 @@
     "prompt_caching": true,
     "fine_tuning": true
   },
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "parameters": 0.9
 }

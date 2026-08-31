@@ -1,0 +1,28 @@
+{
+  "id": "tencent/hy-mt2-plus",
+  "name": "hy-mt2-plus",
+  "created_by": "tencent",
+  "source": "official",
+  "context_window": 8000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.07,
+    "output": 0.29
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "ca40021c",
+    "context_window": "67ff32d4",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "3bd7e1c4",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-08-30"
+}

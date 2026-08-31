@@ -1,0 +1,30 @@
+{
+  "id": "ornith-ai/Ornith-1.5-9B",
+  "name": "Ornith-1.5-9B",
+  "created_by": "ornith-ai",
+  "source": "official",
+  "release_date": "2026-08-18",
+  "license": "mit",
+  "parameters": 9.7,
+  "page_url": "https://huggingface.co/ornith-ai/Ornith-1.5-9B",
+  "architecture": "transformer",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "0d468f07",
+    "release_date": "d4b26be2",
+    "license": "3c4c3ba5",
+    "parameters": "f82f5074",
+    "page_url": "fa9bd833",
+    "architecture": "8832ea0f",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

@@ -3,7 +3,7 @@
   "name": "Flux 3 First Last Frame to Video",
   "created_by": "blackforestlabs",
   "source": "official",
-  "description": "FLUX.3 is Black Forest Labs' frontier video model.",
+  "description": "FLUX 3 is Black Forest Labs' frontier video model.",
   "status": "active",
   "release_date": "2026-07-17",
   "model_type": "video",
@@ -17,10 +17,10 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-08-04",
+  "last_seen_at": "2026-08-18",
   "_generated": {
     "name": "dd89d769",
-    "description": "4d8b15e0",
+    "description": "b0990c5d",
     "status": "379ac110",
     "release_date": "4d92f2b5",
     "model_type": "4d1b75ca",
@@ -29,7 +29,7 @@
     "capabilities": "d3117eb0",
     "modalities": "85fd0565",
     "endpoints": "7a78c070",
-    "last_seen_at": "eb29ce77"
+    "last_seen_at": "d4b26be2"
   },
-  "last_updated": "2026-08-05"
+  "last_updated": "2026-08-30"
 }

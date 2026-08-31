@@ -1,0 +1,35 @@
+{
+  "id": "spacexai/grok-4.20-reasoning-beta",
+  "name": "grok-4.20-reasoning-beta",
+  "created_by": "spacexai",
+  "source": "official",
+  "family": "grok-4.20",
+  "context_window": 2000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 2.5
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d354daee",
+    "family": "44972aca",
+    "context_window": "805f7438",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "ac556708",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

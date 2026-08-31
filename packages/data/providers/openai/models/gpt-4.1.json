@@ -3,7 +3,7 @@
   "name": "GPT-4.1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-08-30",
   "family": "gpt-4.1",
   "description": "GPT-4.1 excels at instruction following and tool calling, with broad",
   "status": "active",
@@ -52,7 +52,14 @@
       }
     ]
   },
-  "tools": ["function_calling"],
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "mcp"
+  ],
   "endpoints": [
     "chat_completions",
     "responses",
@@ -76,15 +83,15 @@
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
     "pricing": "72f005e1",
-    "tools": "f0c1dc7e",
+    "tools": "1d5a765f",
     "endpoints": "ebc03c48",
     "license": "9186c466",
-    "page_url": "47ab4ed3",
+    "page_url": "0ff223d7",
     "open_weight": "68934a3e",
     "release_date": "85c7118a"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-4.1?snapshot=gpt-4.1-2025-04-14",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-4.1",
   "open_weight": false,
   "release_date": "2025-04-14"
 }

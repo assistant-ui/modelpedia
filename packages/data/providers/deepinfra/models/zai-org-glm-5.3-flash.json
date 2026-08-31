@@ -1,0 +1,55 @@
+{
+  "id": "zai-org/GLM-5.3-Flash",
+  "name": "GLM-5.3-Flash",
+  "created_by": "zai",
+  "source": "official",
+  "family": "GLM-5.3",
+  "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while reducing compute overhead.",
+  "status": "active",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "mit",
+  "open_weight": true,
+  "tagline": "GLM-5.3-Flash is a native multimodal model from Z.ai.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.5,
+    "cached_input": 0.03
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "_generated": {
+    "name": "76e00113",
+    "family": "7fca6967",
+    "description": "c83d021f",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506",
+    "tagline": "a9886a26",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "bd8fa987",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9"
+  },
+  "last_updated": "2026-08-30"
+}

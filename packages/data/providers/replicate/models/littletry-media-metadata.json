@@ -3,14 +3,14 @@
   "name": "Media Metadata",
   "created_by": "littletry",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/littletry/media-metadata",
   "_generated": {
     "name": "ce970eaf",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "bcdc3090"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-30"
 }

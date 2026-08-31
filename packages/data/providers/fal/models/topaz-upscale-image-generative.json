@@ -1,0 +1,35 @@
+{
+  "id": "topaz/upscale/image/generative",
+  "name": "Topaz Upscale Image Generative",
+  "created_by": "topaz",
+  "source": "official",
+  "description": "Professional generative image upscaling powered by Topaz Labs.",
+  "status": "active",
+  "release_date": "2026-08-11",
+  "model_type": "image",
+  "page_url": "https://fal.run/topaz/upscale/image/generative",
+  "tagline": "Professional generative image upscaling powered by Topaz Labs.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-08-28",
+  "_generated": {
+    "name": "2e48c27f",
+    "description": "a1c032a3",
+    "status": "379ac110",
+    "release_date": "c2572fd1",
+    "model_type": "db8857fe",
+    "page_url": "4c78e6a2",
+    "tagline": "a1c032a3",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "2ed0cbfa"
+  },
+  "last_updated": "2026-08-30"
+}

@@ -3,11 +3,11 @@
   "name": "DeepSeek: R1 Distill Llama 70B",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-08-30",
   "family": "deepseek-r1",
   "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1).",
   "context_window": 8192,
-  "max_output_tokens": 8192,
+  "max_output_tokens": 7372,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -26,7 +26,7 @@
     "family": "c74cfb8e",
     "description": "86d1a5a7",
     "context_window": "77441296",
-    "max_output_tokens": "77441296",
+    "max_output_tokens": "8f91c9c2",
     "modalities": "68e53d93",
     "capabilities": "d53412cf",
     "pricing": "7a3cce81",

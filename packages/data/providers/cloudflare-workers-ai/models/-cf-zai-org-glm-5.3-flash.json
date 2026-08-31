@@ -1,0 +1,32 @@
+{
+  "id": "@cf/zai-org/glm-5.3-flash",
+  "name": "glm-5.3-flash",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5.3",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#glm-5.3-flash",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c99f2343",
+    "family": "9f217d9a",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "bb4c6703",
+    "capabilities": "45192957",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

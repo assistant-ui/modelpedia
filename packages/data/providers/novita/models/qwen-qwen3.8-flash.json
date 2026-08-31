@@ -1,0 +1,49 @@
+{
+  "id": "qwen/qwen3.8-flash",
+  "name": "Qwen3.8 Flash",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3.8",
+  "description": "Qwen3.8-Flash is Alibaba's multimodal MoE model and an early preview of the Qwen4 architecture: 125B total parameters with only 6B activated per token, plus a 51B N-gram embedding, built on GDN + QSA hybrid attention.",
+  "status": "active",
+  "release_date": "2026-08-27",
+  "context_window": 1000000,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "Qwen3.8-Flash is Alibaba's multimodal MoE model and an early preview of the Qwen4 architecture: 125B total parameters with only 6B activated per token, plus a 51B N-gram embedding, built on GDN + QSA ",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.47
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6bc18700",
+    "family": "e102ad6a",
+    "description": "a743ddbc",
+    "status": "379ac110",
+    "release_date": "0890bbf8",
+    "context_window": "8155bc54",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "2008b01d",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "9827eff5",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

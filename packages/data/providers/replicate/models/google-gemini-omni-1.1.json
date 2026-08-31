@@ -1,0 +1,27 @@
+{
+  "id": "google/gemini-omni-1.1",
+  "name": "Gemini Omni 1.1",
+  "created_by": "google",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://replicate.com/google/gemini-omni-1.1",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "93f0cc5b",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "f491bf85",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-08-30"
+}

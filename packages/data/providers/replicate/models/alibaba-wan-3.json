@@ -1,0 +1,25 @@
+{
+  "id": "alibaba/wan-3",
+  "name": "Wan 3",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "wan",
+  "status": "active",
+  "model_type": "video",
+  "page_url": "https://replicate.com/alibaba/wan-3",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "ff3741ad",
+    "family": "2aadc089",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "page_url": "9b192cf3",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-08-30"
+}

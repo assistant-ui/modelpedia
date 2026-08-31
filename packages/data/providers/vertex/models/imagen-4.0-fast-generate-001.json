@@ -3,8 +3,8 @@
   "name": "imagen-4.0-fast-generate-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-27",
-  "status": "active",
+  "last_updated": "2026-08-30",
+  "status": "deprecated",
   "model_type": "image",
   "modalities": {
     "input": ["text"],
@@ -12,14 +12,18 @@
   },
   "_generated": {
     "name": "ab27be97",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "modalities": "814867b9",
     "family": "becf3f6b",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "98abbfc2",
+    "successor": "ea17b32a"
   },
   "family": "imagen-4.0",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-08-17",
+  "successor": "gemini-3.1-flash-image"
 }

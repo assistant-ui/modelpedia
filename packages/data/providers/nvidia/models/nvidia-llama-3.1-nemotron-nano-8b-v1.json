@@ -3,7 +3,7 @@
   "name": "llama-3.1-nemotron-nano-8b-v1",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-08-30",
   "family": "llama-3.1",
   "capabilities": {
     "streaming": true,
@@ -16,7 +16,8 @@
     "model_type": "d669f408",
     "parameters": "c9f0f895",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "parameters": 8,
@@ -24,5 +25,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

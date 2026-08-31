@@ -1,0 +1,31 @@
+{
+  "id": "Wan-AI/Wan3.0-Video",
+  "name": "Wan3.0-Video",
+  "created_by": "wan-ai",
+  "source": "official",
+  "family": "Wan3.0",
+  "description": "Wan3.0-Video is an all-in-one video generation model unified support for multiple creative capabilities, including reference, editing, replication, and driving.",
+  "status": "active",
+  "model_type": "video",
+  "open_weight": false,
+  "tagline": "Wan3.0-Video is an all-in-one video generation model unified support for multiple creative capabilities, including reference, editing, replication, and driving.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "pricing_notes": ["$0.20 / second"],
+  "_generated": {
+    "name": "bf2cce96",
+    "family": "991b033b",
+    "description": "802a1367",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "open_weight": "68934a3e",
+    "tagline": "802a1367",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "pricing_notes": "45e549fc"
+  },
+  "last_updated": "2026-08-30"
+}

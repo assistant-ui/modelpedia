@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Professional-grade video upscaling using Topaz technology.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-03-04",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/topaz/upscale/video",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "1ba50a12",
     "description": "57d6d065",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "08267a14",
     "model_type": "ddb0b7bc",
     "page_url": "b5369296",
     "tagline": "57d6d065",
     "last_seen_at": "6717d6db"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-08-30"
 }

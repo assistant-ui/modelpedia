@@ -1,0 +1,46 @@
+{
+  "id": "ibm-granite/granite-4.2-30b",
+  "name": "granite-4.2-30b",
+  "created_by": "ibm-granite",
+  "source": "official",
+  "description": "Granite-4.2-30B is the flagship reasoning model in the Granite 4.2 family. It delivers the strongest performance across reasoning-intensive tasks by leveraging built-in <think>...</think> chain-of-thought. It supports flexible thinking modes — full thinking (default), non-thinking, and low-effort — allowing users to balance depth vs. latency on a per-query basis.",
+  "status": "active",
+  "context_window": 131072,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "tagline": "Granite-4.2-30B is the flagship reasoning model in the Granite 4.2 family.",
+  "capabilities": {
+    "tool_call": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.16,
+    "output": 0.65,
+    "cached_input": 0.04
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "119b7167",
+    "description": "e0bff41a",
+    "status": "379ac110",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "tagline": "d66093bb",
+    "capabilities": "294930d1",
+    "modalities": "68e53d93",
+    "pricing": "ecfbdd47",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-08-30"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "recraft/v4/create-style",
+  "name": "Recraft V4 Styles Create Style",
+  "created_by": "recraft",
+  "source": "official",
+  "description": "Creates a reusable style from your reference images and returns a style ID you can pass to Recraft V4 Styles image and vector generation.",
+  "status": "active",
+  "release_date": "2026-08-26",
+  "model_type": "other",
+  "page_url": "https://fal.run/recraft/v4/create-style",
+  "tagline": "Creates a reusable style from your reference images and returns a style ID you can pass to Recraft V4 Styles image and vector generation.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-08-26",
+  "_generated": {
+    "name": "a4e5e3cf",
+    "description": "7a36bae7",
+    "status": "379ac110",
+    "release_date": "7d843204",
+    "model_type": "ddb0b7bc",
+    "page_url": "0e5b6787",
+    "tagline": "7a36bae7",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "7d843204"
+  },
+  "last_updated": "2026-08-30"
+}

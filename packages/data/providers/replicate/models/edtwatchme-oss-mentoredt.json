@@ -3,14 +3,14 @@
   "name": "Mentoredt",
   "created_by": "edtwatchme-oss",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/edtwatchme-oss/mentoredt",
   "_generated": {
     "name": "efef5f27",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "ba571dea"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-08-30"
 }

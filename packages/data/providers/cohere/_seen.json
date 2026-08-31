@@ -1,12 +1,13 @@
 {
-  "date": "2026-07-31",
-  "count": 34,
+  "date": "2026-08-30",
+  "count": 36,
   "ids": [
     "c4ai-aya-expanse-32b",
     "c4ai-aya-expanse-8b",
     "c4ai-aya-vision-32b",
     "c4ai-aya-vision-8b",
     "cohere-transcribe-03-2026",
+    "cohere-transcribe-arabic-07-2026",
     "command-a-03-2025",
     "command-a-plus-05-2026",
     "command-a-reasoning-08-2025",
@@ -27,6 +28,7 @@
     "embed-multilingual-v2.0",
     "embed-multilingual-v3.0",
     "embed-v4.0",
+    "parse-v5.0",
     "rerank-english-v3.0",
     "rerank-multilingual-v3.0",
     "rerank-v3.5",

@@ -1,0 +1,44 @@
+{
+  "id": "deepseek/deepseek-v4-pro-0813:batch",
+  "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek.",
+  "release_date": "2026-08-12",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "model_type": "chat",
+  "tagline": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.32,
+    "output": 3.96,
+    "cached_input": 0.13
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "80e8a53d",
+    "family": "4b81b92d",
+    "description": "8eb024fa",
+    "release_date": "968fe5cf",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "model_type": "d669f408",
+    "tagline": "8eb024fa",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "4a751480",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}

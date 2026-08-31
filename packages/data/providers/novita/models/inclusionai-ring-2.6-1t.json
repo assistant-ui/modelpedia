@@ -3,7 +3,7 @@
   "name": "Ring-2.6-1T",
   "created_by": "inclusionai",
   "source": "official",
-  "status": "active",
+  "status": "preview",
   "release_date": "2026-05-08",
   "context_window": 262144,
   "max_output_tokens": 65536,
@@ -23,7 +23,7 @@
   "tools": ["function_calling"],
   "_generated": {
     "name": "731b2ed4",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "83eb3201",
     "context_window": "4a1d32eb",
     "max_output_tokens": "297ce0b3",
@@ -34,7 +34,7 @@
     "tools": "f0c1dc7e",
     "pricing": "8d495dc1"
   },
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-08-30",
   "pricing": {
     "input": 0.3,
     "output": 2.5

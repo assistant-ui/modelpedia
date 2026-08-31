@@ -3,10 +3,10 @@
   "name": "o1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-08-30",
   "family": "o1",
   "description": "The o1 series of models are trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -54,14 +54,14 @@
       }
     ]
   },
-  "tools": ["function_calling"],
+  "tools": ["function_calling", "file_search", "mcp"],
   "endpoints": ["chat_completions", "responses", "assistants", "batch"],
   "snapshots": ["o1-2024-12-17"],
   "_generated": {
     "name": "e1ab0820",
     "family": "e1ab0820",
     "description": "e656073c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -74,15 +74,15 @@
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
     "pricing": "f10657fa",
-    "tools": "f0c1dc7e",
+    "tools": "895d6d67",
     "endpoints": "1c48b50a",
     "license": "9186c466",
-    "page_url": "dfff9cc1",
+    "page_url": "8353f3b7",
     "open_weight": "68934a3e",
     "release_date": "4a83ff32"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/o1?snapshot=o1-2024-12-17",
+  "page_url": "https://developers.openai.com/api/docs/models/o1",
   "open_weight": false,
   "release_date": "2024-12-17"
 }

@@ -3,7 +3,7 @@
   "name": "GPT-4o",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-08-30",
   "family": "gpt-4o",
   "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
   "status": "active",
@@ -18,7 +18,7 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "fine_tuning": false,
+    "fine_tuning": true,
     "structured_output": true,
     "json_mode": true,
     "reasoning": false,
@@ -52,8 +52,21 @@
       }
     ]
   },
-  "tools": ["function_calling"],
-  "endpoints": ["chat_completions", "responses", "assistants", "batch"],
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "mcp"
+  ],
+  "endpoints": [
+    "chat_completions",
+    "responses",
+    "assistants",
+    "batch",
+    "fine_tuning"
+  ],
   "snapshots": ["gpt-4o-2024-11-20", "gpt-4o-2024-08-06", "gpt-4o-2024-05-13"],
   "_generated": {
     "name": "6867acdf",
@@ -67,18 +80,18 @@
     "performance": "eccbc87e",
     "speed": "eccbc87e",
     "tagline": "964f7a0b",
-    "capabilities": "15568d8c",
+    "capabilities": "c7bd5743",
     "modalities": "6399757e",
     "pricing": "81e43e77",
-    "tools": "f0c1dc7e",
-    "endpoints": "1c48b50a",
+    "tools": "1d5a765f",
+    "endpoints": "ebc03c48",
     "license": "9186c466",
-    "page_url": "d3b7c6fb",
+    "page_url": "4d20d32d",
     "open_weight": "68934a3e",
     "release_date": "090277ab"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-4o?snapshot=gpt-4o-2024-11-20",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-4o",
   "open_weight": false,
   "release_date": "2024-11-20"
 }

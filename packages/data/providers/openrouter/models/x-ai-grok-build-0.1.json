@@ -34,7 +34,9 @@
     "capabilities": "03fbefb4",
     "modalities": "6399757e",
     "pricing": "20a9a8a7",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "max_output_tokens": "4002f938"
   },
-  "last_updated": "2026-08-05"
+  "last_updated": "2026-08-30",
+  "max_output_tokens": 230400
 }

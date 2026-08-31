@@ -33,7 +33,9 @@
     "tagline": "f1b88a12",
     "capabilities": "d53412cf",
     "modalities": "6399757e",
-    "pricing": "64e647aa"
+    "pricing": "64e647aa",
+    "max_output_tokens": "9da59c2f"
   },
-  "last_updated": "2026-08-05"
+  "last_updated": "2026-08-30",
+  "max_output_tokens": 1800000
 }

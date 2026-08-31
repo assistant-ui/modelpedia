@@ -4,7 +4,7 @@
   "created_by": "zai",
   "source": "official",
   "family": "glm-5.3",
-  "description": "GLM-5.3 is Z.ai's latest flagship model, delivering major advances in complex software engineering and agent tasks. It uses the same base model as GLM-5.2 — all improvements come from post-training.",
+  "description": "GLM-5.3 is Z.ai's latest flagship model, delivering comprehensive advancements in complex software engineering and agent capabilities. It uses the same base model as GLM-5.2, with all improvements driven by post-training. Compared with GLM-5.2, it delivers significantly stronger performance in complex programming and long-horizon tasks:",
   "context_window": 128000,
   "max_output_tokens": 128000,
   "license": "mit",
@@ -29,7 +29,7 @@
   "_generated": {
     "name": "7fca6967",
     "family": "9f217d9a",
-    "description": "4bab558c",
+    "description": "aada0b2e",
     "context_window": "34434798",
     "max_output_tokens": "34434798",
     "license": "3c4c3ba5",
@@ -39,7 +39,13 @@
     "capabilities": "2582d2f2",
     "modalities": "68e53d93",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "pricing": "fbb9d87e"
   },
-  "last_updated": "2026-08-16"
+  "last_updated": "2026-08-30",
+  "pricing": {
+    "input": 1.4,
+    "output": 4.4,
+    "cached_input": 0.26
+  }
 }

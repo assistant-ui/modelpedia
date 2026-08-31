@@ -1,0 +1,35 @@
+{
+  "id": "meta/muse-image/text-to-image",
+  "name": "Meta Muse Image Text to Image",
+  "created_by": "meta",
+  "source": "official",
+  "description": "Meta's Muse Image model has faithful instruction-following and exceptional visual fidelity, with fine details like text, plots, and QR codes rendered accurately.",
+  "status": "active",
+  "release_date": "2026-08-21",
+  "model_type": "image",
+  "page_url": "https://fal.run/meta/muse-image/text-to-image",
+  "tagline": "Meta's Muse Image model has faithful instruction-following and exceptional visual fidelity, with fine details like text, plots, and QR codes rendered accurately.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-08-26",
+  "_generated": {
+    "name": "8ee986ca",
+    "description": "fab42d9b",
+    "status": "379ac110",
+    "release_date": "4b63df80",
+    "model_type": "db8857fe",
+    "page_url": "3f33879e",
+    "tagline": "fab42d9b",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "7d843204"
+  },
+  "last_updated": "2026-08-30"
+}

@@ -1,9 +1,9 @@
 {
   "id": "llama-3.3-70b-versatile",
-  "name": "Llama 3.3 70B",
+  "name": "Llama 3.3 70B Enterprise",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-06-20",
+  "last_updated": "2026-08-30",
   "family": "llama-3.3",
   "status": "deprecated",
   "context_window": 131072,
@@ -23,7 +23,7 @@
     "output": 0.79
   },
   "_generated": {
-    "name": "16c0ae7e",
+    "name": "c08a9796",
     "family": "54c5fe24",
     "status": "2e2f74dc",
     "context_window": "f7de594e",

@@ -1,0 +1,37 @@
+{
+  "id": "bria/fibo-gen-1.5/text-to-image",
+  "name": "Fibo Gen 1.5 Text to Image",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Text-to-image model with high-fidelity outputs, accurate typography, and style preset, strong in photorealism, textures, and beyond.",
+  "status": "active",
+  "release_date": "2026-08-18",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/fibo-gen-1.5/text-to-image",
+  "tagline": "Text-to-image model with high-fidelity outputs, accurate typography, and style preset, strong in photorealism, textures, and beyond.",
+  "capabilities": {
+    "vision": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-08-25",
+  "_generated": {
+    "name": "79536b3d",
+    "description": "5b8c5d30",
+    "status": "379ac110",
+    "release_date": "d4b26be2",
+    "model_type": "db8857fe",
+    "page_url": "4aca9fdc",
+    "tagline": "5b8c5d30",
+    "capabilities": "42538baa",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "1f9d2687"
+  },
+  "last_updated": "2026-08-30"
+}

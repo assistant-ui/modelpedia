@@ -1,0 +1,42 @@
+{
+  "id": "glm-5.3",
+  "name": "glm-5.3",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5.3",
+  "description": "Z.ai&#39;s flagship model and the most capable open-weights model for coding, with major gains on long-horizon agentic tasks.",
+  "release_date": "2026-08-28",
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "page_url": "https://ollama.com/library/glm-5.3",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "Z.ai&#39;s flagship model and the most capable open-weights model for coding, with major gains on long-horizon agentic tasks.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9f217d9a",
+    "family": "9f217d9a",
+    "description": "7dfae8ff",
+    "release_date": "2ed0cbfa",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "page_url": "70c1a6f6",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "7dfae8ff",
+    "capabilities": "4043afaa",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-30"
+}
