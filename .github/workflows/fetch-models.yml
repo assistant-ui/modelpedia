@@ -170,3 +170,39 @@ jobs:
               --title "data: update model data $(date +%Y-%m-%d)" \
               --body "$BODY"
           fi
+
+      # Freshness and scrape health land in Axiom so a stale data PR or a
+      # broken provider raises an alert instead of hiding in a green run.
+      # dataAgeHours comes from the GitHub API because the checkout is shallow
+      # and the branch step above rewrites local history.
+      - name: Report pipeline telemetry to Axiom
+        if: always()
+        env:
+          AXIOM_TOKEN: ${{ secrets.AXIOM_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JOB_STATUS: ${{ job.status }}
+        run: |
+          [ -z "$AXIOM_TOKEN" ] && { echo "AXIOM_TOKEN not set; skipping"; exit 0; }
+          LAST_DATA_COMMIT=$(gh api "repos/$GITHUB_REPOSITORY/commits?path=packages/data/providers&sha=main&per_page=1" --jq '.[0].commit.committer.date')
+          AGE_HOURS=$(( ( $(date +%s) - $(date -d "$LAST_DATA_COMMIT" +%s) ) / 3600 ))
+          FAILED_JSON="[]"
+          FAILED_COUNT=0
+          if [ -f "$GITHUB_WORKSPACE/fetch-failures.txt" ]; then
+            FAILED_JSON=$(jq -R . "$GITHUB_WORKSPACE/fetch-failures.txt" | jq -cs .)
+            FAILED_COUNT=$(wc -l < "$GITHUB_WORKSPACE/fetch-failures.txt" | tr -d ' ')
+          fi
+          {
+            jq -cn --arg runId "$GITHUB_RUN_ID" --arg status "$JOB_STATUS" \
+              --argjson failedProviders "$FAILED_JSON" --argjson failedCount "$FAILED_COUNT" \
+              --argjson dataAgeHours "$AGE_HOURS" \
+              '{msg:"pipeline.run", runId:$runId, status:$status, failedProviders:$failedProviders, failedCount:$failedCount, dataAgeHours:$dataAgeHours}'
+            for f in packages/data/providers/*/_seen.json; do
+              p=$(basename "$(dirname "$f")")
+              jq -c --arg provider "$p" '{msg:"pipeline.provider", provider:$provider, models:.count, seenDate:.date}' "$f"
+            done
+          } > /tmp/axiom-events.ndjson
+          curl -sf -X POST "https://api.axiom.co/v1/datasets/modelpedia-pipeline/ingest" \
+            -H "Authorization: Bearer $AXIOM_TOKEN" \
+            -H "Content-Type: application/x-ndjson" \
+            --data-binary @/tmp/axiom-events.ndjson > /dev/null \
+            || echo "::warning::axiom ingest failed"

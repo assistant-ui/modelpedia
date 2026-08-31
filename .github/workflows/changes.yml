@@ -72,3 +72,22 @@ jobs:
           git add packages/data/changes/changes.jsonl
           git commit -m "data(changes): update"
           git push
+
+      # Each appended change record lands in Axiom trimmed to the monitorable
+      # shape: changed field names plus pricing before/after, never the long
+      # description diffs.
+      - name: Report changes to Axiom
+        if: steps.detect.outputs.changed == 'true'
+        env:
+          AXIOM_TOKEN: ${{ secrets.AXIOM_TOKEN }}
+        run: |
+          [ -z "$AXIOM_TOKEN" ] && { echo "AXIOM_TOKEN not set; skipping"; exit 0; }
+          git diff HEAD~1 -- packages/data/changes/changes.jsonl | grep '^+{' | sed 's/^+//' | \
+            jq -c '{msg:"model.change", _time:.ts, provider, model, action, commit, fields:((.changes // {}) | keys), pricing_from_input:(getpath(["changes","pricing","from","input"])), pricing_from_output:(getpath(["changes","pricing","from","output"])), pricing_to_input:(getpath(["changes","pricing","to","input"])), pricing_to_output:(getpath(["changes","pricing","to","output"]))} | with_entries(select(.value != null))' \
+            > /tmp/axiom-changes.ndjson || true
+          [ -s /tmp/axiom-changes.ndjson ] || { echo "no change lines to report"; exit 0; }
+          curl -sf -X POST "https://api.axiom.co/v1/datasets/modelpedia-pipeline/ingest" \
+            -H "Authorization: Bearer $AXIOM_TOKEN" \
+            -H "Content-Type: application/x-ndjson" \
+            --data-binary @/tmp/axiom-changes.ndjson > /dev/null \
+            || echo "::warning::axiom ingest failed"
