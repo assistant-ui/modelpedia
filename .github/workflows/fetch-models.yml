@@ -183,8 +183,12 @@ jobs:
           JOB_STATUS: ${{ job.status }}
         run: |
           [ -z "$AXIOM_TOKEN" ] && { echo "AXIOM_TOKEN not set; skipping"; exit 0; }
-          LAST_DATA_COMMIT=$(gh api "repos/$GITHUB_REPOSITORY/commits?path=packages/data/providers&sha=main&per_page=1" --jq '.[0].commit.committer.date')
-          AGE_HOURS=$(( ( $(date +%s) - $(date -d "$LAST_DATA_COMMIT" +%s) ) / 3600 ))
+          LAST_DATA_COMMIT=$(gh api "repos/$GITHUB_REPOSITORY/commits?path=packages/data/providers&sha=main&per_page=1" --jq '.[0].commit.committer.date' 2>/dev/null) || LAST_DATA_COMMIT=""
+          if [ -n "$LAST_DATA_COMMIT" ] && TS=$(date -d "$LAST_DATA_COMMIT" +%s 2>/dev/null); then
+            AGE_HOURS=$(( ( $(date +%s) - TS ) / 3600 ))
+          else
+            AGE_HOURS=-1
+          fi
           FAILED_JSON="[]"
           FAILED_COUNT=0
           if [ -f "$GITHUB_WORKSPACE/fetch-failures.txt" ]; then
