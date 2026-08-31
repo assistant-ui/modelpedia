@@ -3,7 +3,7 @@
   "name": "VIDU2-START-END",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-08-31",
   "license": "mit",
   "page_url": "https://docs.z.ai/guides/video/vidu2",
   "modalities": {
@@ -18,8 +18,10 @@
     "modalities": "43c560c1",
     "open_weight": "b326b506",
     "description": "9b660619",
-    "tagline": "41013cc2"
+    "tagline": "41013cc2",
+    "status": "2e2f74dc"
   },
   "description": "Vidu 2 is a next-generation video generation model that strikes a balance between speed and quality. It focuses on image-to-video generation and keyframe-based video creation, supporting 720P resolution for videos up to 4 seconds long.",
-  "tagline": "Vidu 2 is a next-generation video generation model that strikes a balance between speed and quality."
+  "tagline": "Vidu 2 is a next-generation video generation model that strikes a balance between speed and quality.",
+  "status": "deprecated"
 }

@@ -41,9 +41,11 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "description": "fcf363c3",
-    "tagline": "afbc4454"
+    "tagline": "afbc4454",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-08-31",
   "description": "GLM-5V-Turbo is Z.AI's first multimodal coding foundation model, built for vision-based coding tasks. It can natively process multimodal inputs such as images, video, and text, while also excelling at long-horizon planning, complex coding, and action execution. Deeply optimized for agent workflows, it works seamlessly with agents such as Claude Code and OpenClaw to complete the full loop of \"understand the environment → plan actions → execute tasks\".",
-  "tagline": "GLM-5V-Turbo is Z.AI's first multimodal coding foundation model, built for vision-based coding tasks."
+  "tagline": "GLM-5V-Turbo is Z.AI's first multimodal coding foundation model, built for vision-based coding tasks.",
+  "status": "deprecated"
 }

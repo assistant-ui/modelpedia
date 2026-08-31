@@ -3,7 +3,7 @@
   "name": "GLM-5",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-31",
   "context_window": 200000,
   "max_output_tokens": 128000,
   "capabilities": {
@@ -35,7 +35,8 @@
     "page_url": "98228e94",
     "pricing": "7959e9d6",
     "description": "3134e3ef",
-    "tagline": "3b2e2986"
+    "tagline": "3b2e2986",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "family": "glm-5",
@@ -51,5 +52,6 @@
     "cached_input": 0.2
   },
   "description": "GLM-5 is Z.AI's new-generation foundation model, designed for Agentic Engineering, capable of providing reliable productivity in complex system engineering and long-range Agent tasks. In terms of Coding and Agent capabilities, GLM-5 has achieved state-of-the-art (SOTA) performance in open source, with its usability in real programming scenarios approaching that of Claude Opus 4.5.",
-  "tagline": "GLM-5 is Z.AI's new-generation foundation model, designed for Agentic Engineering, capable of providing reliable productivity in complex system engineering and long-range Agent tasks."
+  "tagline": "GLM-5 is Z.AI's new-generation foundation model, designed for Agentic Engineering, capable of providing reliable productivity in complex system engineering and long-range Agent tasks.",
+  "status": "deprecated"
 }

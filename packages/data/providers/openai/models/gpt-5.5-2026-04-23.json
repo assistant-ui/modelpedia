@@ -4,7 +4,7 @@
   "created_by": "openai",
   "source": "official",
   "family": "gpt-5.5",
-  "description": "GPT-5.5 is our newest frontier model for the most complex professional work.",
+  "description": "GPT-5.5 is a flagship model for the most complex professional work.",
   "status": "active",
   "release_date": "2026-04-23",
   "knowledge_cutoff": "2025-12",
@@ -71,7 +71,7 @@
   "_generated": {
     "name": "ec157a25",
     "family": "7011ad8c",
-    "description": "a4105091",
+    "description": "ee4babef",
     "status": "379ac110",
     "release_date": "a87679d0",
     "knowledge_cutoff": "4d1f0710",
@@ -92,5 +92,5 @@
     "tools": "f0c1dc7e",
     "endpoints": "88e8abb4"
   },
-  "last_updated": "2026-04-26"
+  "last_updated": "2026-08-31"
 }

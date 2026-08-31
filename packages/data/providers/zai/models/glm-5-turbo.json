@@ -3,7 +3,7 @@
   "name": "GLM-5-TURBO",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-31",
   "context_window": 200000,
   "max_output_tokens": 128000,
   "capabilities": {
@@ -32,7 +32,8 @@
     "page_url": "7e8267f8",
     "pricing": "53feeb96",
     "description": "46d905e7",
-    "tagline": "a5ebf87f"
+    "tagline": "a5ebf87f",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "family": "glm-5",
@@ -46,5 +47,6 @@
     "cached_input": 0.24
   },
   "description": "GLM-5-Turbo is a foundation model deeply optimized for the OpenClaw scenario. It has been specifically optimized for the core requirements of OpenClaw tasks since the training phase, enhancing key capabilities such as tool invocation, command following, timed and persistent tasks, and long-chain execution.",
-  "tagline": "GLM-5-Turbo is a foundation model deeply optimized for the OpenClaw scenario."
+  "tagline": "GLM-5-Turbo is a foundation model deeply optimized for the OpenClaw scenario.",
+  "status": "deprecated"
 }

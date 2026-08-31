@@ -43,9 +43,11 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "description": "d6c57dd6",
-    "tagline": "e78c3c1a"
+    "tagline": "e78c3c1a",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-08-31",
   "description": "GLM-5.1 is Z.AI’s latest flagship model, designed for long-horizon tasks. It can work continuously and autonomously on a single task for up to 8 hours, completing the full loop from planning and execution to iterative optimization and delivering production-grade results. <br /><br />In both general capability and coding performance, GLM-5.1 is overall aligned with Claude Opus 4.6. It demonstrates stronger sustained execution in long-horizon autonomous tasks, complex engineering optimization, ...",
-  "tagline": "GLM-5.1 is Z.AI’s latest flagship model, designed for long-horizon tasks."
+  "tagline": "GLM-5.1 is Z.AI’s latest flagship model, designed for long-horizon tasks.",
+  "status": "deprecated"
 }

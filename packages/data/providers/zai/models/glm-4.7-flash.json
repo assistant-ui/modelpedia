@@ -3,7 +3,7 @@
   "name": "GLM-4.7-Flash",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-31",
   "context_window": 200000,
   "max_output_tokens": 128000,
   "capabilities": {
@@ -33,7 +33,8 @@
     "description": "b51cfad7",
     "page_url": "7e3aef75",
     "tagline": "b51cfad7",
-    "pricing": "d7e97780"
+    "pricing": "d7e97780",
+    "status": "2e2f74dc"
   },
   "family": "glm-4.7",
   "model_type": "chat",
@@ -47,5 +48,6 @@
     "input": 0,
     "output": 0,
     "cached_input": 0
-  }
+  },
+  "status": "deprecated"
 }

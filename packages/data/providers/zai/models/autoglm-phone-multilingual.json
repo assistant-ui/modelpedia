@@ -3,7 +3,7 @@
   "name": "AUTOGLM-PHONE-MULTILINGUAL",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-08-31",
   "license": "mit",
   "page_url": "https://docs.z.ai/guides/vlm/autoglm-phone-multilingual",
   "capabilities": {
@@ -23,8 +23,10 @@
     "modalities": "68e53d93",
     "open_weight": "b326b506",
     "description": "3994968a",
-    "tagline": "c3eb0592"
+    "tagline": "c3eb0592",
+    "status": "2e2f74dc"
   },
   "description": "AutoGLM-Phone-Multilingual is a mobile intelligent assistant framework built on vision-language models. It understands phone screen content in a multimodal manner and helps users complete tasks through automated operations. The system controls devices via ADB (Android Debug Bridge), perceives screens, and generates and executes operation workflows through intelligent planning. Users simply describe their needs in natural language, such as \"Open eBay and search for wireless earphones.\" and Aut...",
-  "tagline": "AutoGLM-Phone-Multilingual is a mobile intelligent assistant framework built on vision-language models."
+  "tagline": "AutoGLM-Phone-Multilingual is a mobile intelligent assistant framework built on vision-language models.",
+  "status": "deprecated"
 }

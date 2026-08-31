@@ -1,0 +1,45 @@
+{
+  "id": "zai-org/GLM-5.3",
+  "name": "GLM-5.3",
+  "created_by": "zai",
+  "source": "official",
+  "family": "GLM-5.3",
+  "description": "GLM-5.3 uses the same base model as GLM-5.2 — every gain comes from post-training. Compared with GLM-5.2, it is much better at complex coding and long-horizon tasks:",
+  "release_date": "2026-08-25",
+  "context_window": 1048576,
+  "license": "other",
+  "parameters": 753,
+  "page_url": "https://huggingface.co/zai-org/GLM-5.3",
+  "architecture": "moe",
+  "model_type": "chat",
+  "tagline": "GLM-5.3 uses the same base model as GLM-5.2 — every gain comes from post-training.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "7fca6967",
+    "family": "7fca6967",
+    "description": "a3dca318",
+    "release_date": "1f9d2687",
+    "context_window": "7d28a051",
+    "license": "ddb0b7bc",
+    "parameters": "6f2268bd",
+    "page_url": "092e46a7",
+    "architecture": "31b2172c",
+    "model_type": "d669f408",
+    "tagline": "a43c4edf",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-31"
+}
