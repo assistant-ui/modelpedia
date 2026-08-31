@@ -16,7 +16,7 @@
     "fine_tuning": true
   },
   "tools": ["function_calling"],
-  "huggingface_downloads": 21011,
+  "huggingface_downloads": 21355,
   "last_modified": "2025-06-19",
   "_generated": {
     "name": "ff7cb910",
@@ -30,8 +30,8 @@
     "tagline": "0822e325",
     "capabilities": "5de6a2be",
     "tools": "f0c1dc7e",
-    "huggingface_downloads": "1c21b091",
+    "huggingface_downloads": "23755d10",
     "last_modified": "dc9b2bc0"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-08-31"
 }

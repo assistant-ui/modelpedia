@@ -3,7 +3,7 @@
   "name": "GLM-4.6V-Flash",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-31",
   "context_window": 128000,
   "capabilities": {
     "streaming": true,
@@ -27,7 +27,8 @@
     "description": "c676af88",
     "page_url": "fc1c38b3",
     "tagline": "c676af88",
-    "pricing": "d7e97780"
+    "pricing": "d7e97780",
+    "status": "2e2f74dc"
   },
   "family": "glm-4.6",
   "model_type": "chat",
@@ -41,5 +42,6 @@
     "input": 0,
     "output": 0,
     "cached_input": 0
-  }
+  },
+  "status": "deprecated"
 }

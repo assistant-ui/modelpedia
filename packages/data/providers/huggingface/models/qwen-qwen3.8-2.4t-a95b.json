@@ -1,0 +1,45 @@
+{
+  "id": "Qwen/Qwen3.8-2.4T-A95B",
+  "name": "Qwen3.8-2.4T-A95B",
+  "created_by": "qwen",
+  "source": "official",
+  "description": "> [!Note] > This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format. > > These artifacts are compatible with vLLM, SGLang, TokenSpeed, etc.",
+  "release_date": "2026-08-08",
+  "context_window": 262144,
+  "license": "other",
+  "parameters": 2446,
+  "active_parameters": 48,
+  "page_url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+  "architecture": "moe",
+  "model_type": "chat",
+  "tagline": "> [!Note] > This repository contains model weights and configuration files for the post-trained model in the Hugging Face Transformers format.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ac96b93b",
+    "description": "801b8431",
+    "release_date": "6f214e17",
+    "context_window": "4a1d32eb",
+    "license": "ddb0b7bc",
+    "parameters": "2f4fe03d",
+    "active_parameters": "642e92ef",
+    "page_url": "8e7d5073",
+    "architecture": "31b2172c",
+    "model_type": "d669f408",
+    "tagline": "d6a9b753",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-08-31"
+}

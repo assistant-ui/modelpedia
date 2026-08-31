@@ -3,7 +3,7 @@
   "name": "GLM-IMAGE",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-08-31",
   "family": "glm",
   "license": "mit",
   "page_url": "https://docs.z.ai/guides/image/glm-image",
@@ -24,8 +24,10 @@
     "modalities": "814867b9",
     "open_weight": "b326b506",
     "description": "c9a681d3",
-    "tagline": "20cca36a"
+    "tagline": "20cca36a",
+    "status": "2e2f74dc"
   },
   "description": "GLM-Image is Z.AI's new flagship image generation model, which adopts an original hybrid architecture of \"autoregressive + diffusion decoder\", taking into account both global instruction understanding and local detail portrayal, overcoming the challenges in generating knowledge-intensive scenarios such as posters, PPTs, and science popularization diagrams. It represents an important exploration of the new generation of \"cognitive generative\" technology paradigm represented by Nano Banana Pro.",
-  "tagline": "GLM-Image is Z.AI's new flagship image generation model, which adopts an original hybrid architecture of \"autoregressive + diffusion decoder\", taking into account both global instruction understanding and local detail portrayal, overcoming the challenges in generating knowledge-intensive scenarios such as posters, PPTs, and science popularization diagrams."
+  "tagline": "GLM-Image is Z.AI's new flagship image generation model, which adopts an original hybrid architecture of \"autoregressive + diffusion decoder\", taking into account both global instruction understanding and local detail portrayal, overcoming the challenges in generating knowledge-intensive scenarios such as posters, PPTs, and science popularization diagrams.",
+  "status": "deprecated"
 }

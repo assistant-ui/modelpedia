@@ -3,7 +3,7 @@
   "name": "GLM-4.6",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-31",
   "context_window": 128000,
   "max_output_tokens": 128000,
   "capabilities": {
@@ -27,7 +27,8 @@
     "page_url": "32c93eae",
     "pricing": "7c62fb45",
     "description": "4c493b12",
-    "tagline": "99fe438a"
+    "tagline": "99fe438a",
+    "status": "2e2f74dc"
   },
   "family": "glm-4.6",
   "model_type": "chat",
@@ -40,5 +41,6 @@
     "cached_input": 0.11
   },
   "description": "GLM-4.6 achieves comprehensive enhancements across multiple domains, including real-world coding, long-context processing, reasoning, searching, writing, and agentic applications. Details are as follows:",
-  "tagline": "GLM-4.6 achieves comprehensive enhancements across multiple domains, including real-world coding, long-context processing, reasoning, searching, writing, and agentic applications."
+  "tagline": "GLM-4.6 achieves comprehensive enhancements across multiple domains, including real-world coding, long-context processing, reasoning, searching, writing, and agentic applications.",
+  "status": "deprecated"
 }

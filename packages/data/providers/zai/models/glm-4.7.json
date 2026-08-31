@@ -3,7 +3,7 @@
   "name": "GLM-4.7",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-31",
   "context_window": 200000,
   "max_output_tokens": 128000,
   "capabilities": {
@@ -33,7 +33,8 @@
     "page_url": "7e3aef75",
     "pricing": "7c62fb45",
     "description": "efae41c8",
-    "tagline": "ed462c81"
+    "tagline": "ed462c81",
+    "status": "2e2f74dc"
   },
   "family": "glm-4.7",
   "model_type": "chat",
@@ -47,5 +48,6 @@
     "cached_input": 0.11
   },
   "description": "GLM-4.7 Series are Z.AI's models, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while delivering more natural conversational experiences and superior front-end aesthetics.",
-  "tagline": "GLM-4.7 Series are Z.AI's models, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution."
+  "tagline": "GLM-4.7 Series are Z.AI's models, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution.",
+  "status": "deprecated"
 }

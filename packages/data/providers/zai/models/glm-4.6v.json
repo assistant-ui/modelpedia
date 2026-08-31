@@ -3,7 +3,7 @@
   "name": "GLM-4.6V",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-31",
   "context_window": 128000,
   "capabilities": {
     "streaming": true,
@@ -27,7 +27,8 @@
     "page_url": "fc1c38b3",
     "pricing": "407d1fb7",
     "description": "ac7a6f19",
-    "tagline": "84336faf"
+    "tagline": "84336faf",
+    "status": "2e2f74dc"
   },
   "family": "glm-4.6",
   "model_type": "chat",
@@ -41,5 +42,6 @@
     "cached_input": 0.05
   },
   "description": "GLM-4.6V series are Z.ai's iterations in a multimodal large language model. GLM-4.6V scales its context window to 128k tokens in training, and achieves SoTA performance in visual understanding among models of similar parameter scales. Crucially, GLM-4.6V integrate native Function Calling capabilities for the first time. This effectively bridges the gap between \"visual perception\" and \"executable action,\" providing a unified technical foundation for multimodal agents in real-world business sce...",
-  "tagline": "GLM-4.6V series are Z.ai's iterations in a multimodal large language model."
+  "tagline": "GLM-4.6V series are Z.ai's iterations in a multimodal large language model.",
+  "status": "deprecated"
 }

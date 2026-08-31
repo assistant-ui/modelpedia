@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-30",
-  "count": 337,
+  "date": "2026-08-31",
+  "count": 339,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -33,6 +33,7 @@
     "alibaba-qwen3.8-2.4t-a95b",
     "alibaba-qwen3.8-27b",
     "alibaba-qwen3.8-flash",
+    "alibaba-qwen3.8-flash-next",
     "alibaba-qwen3.8-max",
     "alibaba-wan-v2.5-t2v-preview",
     "alibaba-wan-v2.6-i2v",
@@ -165,6 +166,7 @@
     "meta-muse-spark-1.2",
     "meta-muse-spark-1.2-contributor",
     "minimax-minimax-h3",
+    "minimax-minimax-h3-max",
     "minimax-minimax-m2",
     "minimax-minimax-m2.1",
     "minimax-minimax-m2.1-lightning",
