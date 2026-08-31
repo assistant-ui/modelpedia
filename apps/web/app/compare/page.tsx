@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { ModelCompare } from "@/components/shared/model-compare";
 import { PageHeader } from "@/components/ui/page-header";
-import { allModels, getProvider } from "@/lib/data";
+import { allModels } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Compare Models",
@@ -12,18 +12,7 @@ export const metadata: Metadata = {
 export default function ComparePage() {
   const models = allModels
     .filter((m) => !m.alias)
-    .map((m) => {
-      const p = getProvider(m.provider);
-      const creator =
-        m.created_by !== m.provider ? getProvider(m.created_by) : p;
-      return {
-        ...m,
-        providerName: p?.name ?? m.provider,
-        providerIcon: p?.icon,
-        creatorName: creator?.name ?? m.created_by,
-        creatorIcon: creator?.icon,
-      };
-    });
+    .map((m) => ({ id: m.id, name: m.name, provider: m.provider }));
 
   const aliases: Record<string, string> = {};
   for (const m of allModels) {

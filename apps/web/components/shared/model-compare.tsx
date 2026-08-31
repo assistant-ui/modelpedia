@@ -28,7 +28,7 @@ import {
   Zap,
 } from "lucide-react";
 import { useSearchParams } from "next/navigation";
-import { Suspense } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { ModelPicker } from "@/components/shared/model-picker";
 import { ProviderIcon } from "@/components/shared/provider-icon";
 import { Tooltip } from "@/components/ui/tooltip";
@@ -72,6 +72,12 @@ interface CompareModel {
   tools?: string[];
   endpoints?: string[];
   [key: string]: unknown;
+}
+
+interface CompareListModel {
+  id: string;
+  name: string;
+  provider: string;
 }
 
 function CompareRow({
@@ -225,22 +231,57 @@ function CompareInner({
   models,
   aliases,
 }: {
-  models: CompareModel[];
+  models: CompareListModel[];
   aliases: Record<string, string>;
 }) {
   const searchParams = useSearchParams();
+  const [details, setDetails] = useState<Record<string, CompareModel | null>>(
+    {},
+  );
 
   const rawA = searchParams.get("a");
   const rawB = searchParams.get("b");
   const modelA = rawA ? (aliases[rawA] ?? rawA) : null;
   const modelB = rawB ? (aliases[rawB] ?? rawB) : null;
 
-  const a = modelA
-    ? models.find((m) => `${m.provider}/${m.id}` === modelA)
-    : null;
-  const b = modelB
-    ? models.find((m) => `${m.provider}/${m.id}` === modelB)
-    : null;
+  useEffect(() => {
+    const missing = [modelA, modelB].filter(
+      (key): key is string => key != null && details[key] === undefined,
+    );
+    if (missing.length === 0) return;
+    let cancelled = false;
+    const markFailed = () => {
+      if (cancelled) return;
+      setDetails((prev) => {
+        const next = { ...prev };
+        for (const key of missing) next[key] ??= null;
+        return next;
+      });
+    };
+    fetch(`/api/compare-models?ids=${encodeURIComponent(missing.join(","))}`)
+      .then((res) => {
+        if (!res.ok) throw new Error(String(res.status));
+        return res.json();
+      })
+      .then((data: { models: Record<string, CompareModel> }) => {
+        if (cancelled) return;
+        setDetails((prev) => {
+          const next = { ...prev };
+          for (const key of missing) next[key] = data.models[key] ?? null;
+          return next;
+        });
+      })
+      .catch(markFailed);
+    return () => {
+      cancelled = true;
+    };
+  }, [modelA, modelB, details]);
+
+  const a = modelA ? details[modelA] : null;
+  const b = modelB ? details[modelB] : null;
+  const loading =
+    (modelA != null && details[modelA] === undefined) ||
+    (modelB != null && details[modelB] === undefined);
 
   function setModels(aKey: string | null, bKey: string | null) {
     const params = new URLSearchParams();
@@ -479,7 +520,7 @@ function CompareInner({
         </div>
       ) : (
         <div className="text-muted-foreground py-16 text-center text-sm text-balance">
-          Select two models to compare
+          {loading ? "Loading comparison…" : "Select two models to compare"}
         </div>
       )}
     </div>
@@ -490,7 +531,7 @@ export function ModelCompare({
   models,
   aliases,
 }: {
-  models: CompareModel[];
+  models: CompareListModel[];
   aliases: Record<string, string>;
 }) {
   return (
