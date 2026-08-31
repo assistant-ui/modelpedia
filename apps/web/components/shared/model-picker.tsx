@@ -11,8 +11,6 @@ interface PickerModel {
   id: string;
   name: string;
   provider: string;
-  providerName: string;
-  providerIcon?: string;
 }
 
 function toIconProp(icon?: string) {
@@ -43,7 +41,8 @@ export function ModelPicker({
 
   const filtered = query
     ? multiSearch(models, query, {
-        target: (m) => `${m.providerName} ${m.name} ${m.id}`,
+        target: (m) =>
+          `${getProvider(m.provider)?.name ?? m.provider} ${m.name} ${m.id}`,
         bonus: (m) =>
           PROVIDER_TYPE_TIER[getProvider(m.provider)?.type ?? "direct"] ?? 0,
         limit: 30,
@@ -90,7 +89,7 @@ export function ModelPicker({
         {current ? (
           <span className="text-foreground flex min-w-0 items-center gap-2 truncate">
             <ProviderIcon
-              provider={toIconProp(current.providerIcon)}
+              provider={toIconProp(getProvider(current.provider)?.icon)}
               size={14}
             />
             {current.name}
@@ -144,7 +143,7 @@ export function ModelPicker({
                   )}
                 >
                   <ProviderIcon
-                    provider={toIconProp(m.providerIcon)}
+                    provider={toIconProp(getProvider(m.provider)?.icon)}
                     size={13}
                   />
                   <div className="min-w-0 flex-1">
