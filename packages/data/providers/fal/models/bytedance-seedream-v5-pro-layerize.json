@@ -19,7 +19,7 @@
   },
   "endpoints": ["images"],
   "tools": ["function_calling"],
-  "last_seen_at": "2026-08-07",
+  "last_seen_at": "2026-08-31",
   "_generated": {
     "name": "d44bb339",
     "description": "de47f19c",
@@ -32,7 +32,7 @@
     "modalities": "bbf9b8bb",
     "endpoints": "9a7c17cc",
     "tools": "f0c1dc7e",
-    "last_seen_at": "21dbef0e"
+    "last_seen_at": "539967f1"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-09-01"
 }

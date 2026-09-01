@@ -1,6 +1,6 @@
 {
   "id": "zai-org/glm-4.5-air",
-  "name": "zai-org/glm-4.5-air",
+  "name": "GLM 4.5 Air",
   "created_by": "zai",
   "source": "official",
   "family": "glm-4.5",
@@ -25,7 +25,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "2d94e5cc",
+    "name": "c8f0f6b6",
     "family": "e8ea1e1e",
     "status": "379ac110",
     "release_date": "a69d3e71",
@@ -38,5 +38,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-01"
 }

@@ -1,6 +1,6 @@
 {
   "id": "deepseek/deepseek-ocr-2",
-  "name": "DeepSeek-OCR 2",
+  "name": "DeepSeek OCR 2",
   "created_by": "deepseek",
   "source": "official",
   "family": "deepseek",
@@ -26,7 +26,7 @@
   },
   "endpoints": ["chat_completions"],
   "_generated": {
-    "name": "addadaf6",
+    "name": "896ccc62",
     "family": "4b81b92d",
     "description": "6b2491c4",
     "status": "379ac110",
@@ -40,5 +40,5 @@
     "pricing": "9207f1ad",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-01"
 }

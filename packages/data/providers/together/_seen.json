@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-09-01",
   "count": 25,
   "ids": [
     "s-deepseek-v4-flash-0731",
@@ -13,7 +13,6 @@
     "s-gpt-image-2",
     "s-inkling",
     "s-inkling-small",
-    "s-kimi-k27-code",
     "s-kimi-k3",
     "s-liquid-lfm2-5-8b-a1b",
     "s-minimax-m3",
@@ -21,6 +20,7 @@
     "s-nemotron-3-5-lightning",
     "s-nvidia-nemotron-3-ultra",
     "s-prism-ml-ternary-bonsai-27b",
+    "s-qwen3-8-flash",
     "s-qwen3-8-max",
     "s-qwen37-max",
     "s-qwen37-plus",

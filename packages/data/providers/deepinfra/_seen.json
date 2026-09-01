@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-30",
-  "count": 230,
+  "date": "2026-09-01",
+  "count": 229,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -120,7 +120,6 @@
     "mistralai-mistral-small-3.2-24b-instruct-2506",
     "mistralai-voxtral-mini-3b-2507",
     "mistralai-voxtral-small-24b-2507",
-    "moonshotai-kimi-k2.5",
     "moonshotai-kimi-k2.6",
     "moonshotai-kimi-k2.7-code",
     "moonshotai-kimi-k3",

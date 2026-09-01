@@ -1,6 +1,6 @@
 {
   "id": "qwen/qwen3.5-122b-a10b",
-  "name": "Qwen3.5-122B-A10B",
+  "name": "Qwen3.5 122B A10B",
   "created_by": "alibaba",
   "source": "official",
   "family": "qwen3.5",
@@ -32,7 +32,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "c3b807b5",
+    "name": "ce9c4d12",
     "family": "d548f421",
     "description": "4554e7e0",
     "status": "379ac110",
@@ -49,5 +49,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-01"
 }

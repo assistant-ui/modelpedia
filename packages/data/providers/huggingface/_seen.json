@@ -1,12 +1,11 @@
 {
-  "date": "2026-08-31",
-  "count": 127,
+  "date": "2026-09-01",
+  "count": 126,
   "ids": [
     "amazon-mistrallite",
     "codellama-codellama-7b-instruct-hf",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
     "dphn-dolphin-mistral-24b-venice-edition",
-    "dreamfast-gemma-3-12b-it-heretic",
     "efficient-large-model-gemma-2-2b-it",
     "farbodtavakkoli-otel-2.0-llm-31b-it",
     "farbodtavakkoli-otel-llm-27b-it",
@@ -66,6 +65,7 @@
     "qwen-qwen2.5-coder-14b",
     "qwen-qwen2.5-coder-14b-instruct",
     "qwen-qwen2.5-coder-32b-instruct",
+    "qwen-qwen2.5-coder-3b",
     "qwen-qwen2.5-coder-3b-instruct",
     "qwen-qwen2.5-coder-7b",
     "qwen-qwen2.5-coder-7b-instruct",
@@ -99,7 +99,6 @@
     "qwen-qwen3guard-gen-0.6b",
     "qwen-qwen3guard-gen-4b",
     "qwen-qwen3guard-gen-8b",
-    "speakleash-bielik-11b-v3.0-instruct",
     "swiss-ai-apertus-8b-instruct",
     "swiss-ai-apertus-8b-instruct-2509",
     "t-tech-t-lite-it-2.1",
@@ -115,6 +114,7 @@
     "unsloth-qwen2.5-14b-instruct",
     "unsloth-qwen2.5-7b-instruct",
     "unsloth-qwen2.5-coder-7b-instruct",
+    "upstage-solar-10.7b-instruct-v1.0",
     "vikhrmodels-vikhr-nemo-12b-instruct-r-21-09-24",
     "yentinglin-llama-3-taiwan-8b-instruct",
     "zai-org-glm-4-9b-0414",
@@ -127,7 +127,6 @@
     "zai-org-glm-5.1-fp8",
     "zai-org-glm-5.2",
     "zai-org-glm-5.2-fp8",
-    "zai-org-glm-5.3",
-    "zai-org-glm-5.3-flash"
+    "zai-org-glm-5.3"
   ]
 }

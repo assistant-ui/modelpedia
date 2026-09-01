@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-30",
-  "count": 155,
+  "date": "2026-09-01",
+  "count": 154,
   "ids": [
     "ai_infer_test_1",
     "ai_infer_test_2",
@@ -65,7 +65,6 @@
     "microsoft-wizardlm-2-8x22b",
     "mindai-macaron-v1-tall",
     "mindai-macaron-v1-venti",
-    "minimax-m2-her",
     "minimax-minimax-m2",
     "minimax-minimax-m2.1",
     "minimax-minimax-m2.5",

@@ -1,6 +1,6 @@
 {
   "id": "baichuan/baichuan-m2-32b",
-  "name": "BaiChuan M2 32B",
+  "name": "Baichuan M2 32B",
   "created_by": "baichuan",
   "source": "official",
   "description": "Baichuan-M2 is a medically-enhanced reasoning model specifically designed for real-world medical reasoning tasks.",
@@ -25,7 +25,7 @@
   },
   "endpoints": ["chat_completions"],
   "_generated": {
-    "name": "eeb42d52",
+    "name": "2ab0a597",
     "description": "a957d6d8",
     "status": "379ac110",
     "release_date": "ab9b808c",
@@ -39,5 +39,5 @@
     "pricing": "a1ff1d4b",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-01"
 }

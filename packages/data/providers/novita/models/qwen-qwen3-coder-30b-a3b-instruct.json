@@ -1,6 +1,6 @@
 {
   "id": "qwen/qwen3-coder-30b-a3b-instruct",
-  "name": "Qwen3 Coder 30b A3B Instruct",
+  "name": "Qwen3 Coder 30B A3B Instruct",
   "created_by": "alibaba",
   "source": "official",
   "family": "qwen3",
@@ -31,7 +31,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "74b26367",
+    "name": "92dfba46",
     "family": "48c385a0",
     "description": "f1195630",
     "status": "379ac110",
@@ -48,5 +48,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-01"
 }

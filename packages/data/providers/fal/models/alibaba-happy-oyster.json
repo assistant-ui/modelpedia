@@ -4,7 +4,7 @@
   "created_by": "alibaba",
   "source": "official",
   "description": "Realtime interactive world model — generate a world from a prompt, then explore it or direct its story as live video.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-07-22",
   "model_type": "other",
   "page_url": "https://fal.run/alibaba/happy-oyster",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "bbe42825",
     "description": "7b7f7d6a",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "79f611df",
     "model_type": "ddb0b7bc",
     "page_url": "d508f940",
     "tagline": "7b7f7d6a",
     "last_seen_at": "eb29ce77"
   },
-  "last_updated": "2026-08-05"
+  "last_updated": "2026-09-01"
 }

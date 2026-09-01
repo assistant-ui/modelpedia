@@ -1,6 +1,6 @@
 {
   "id": "qwen/qwen3-vl-30b-a3b-instruct",
-  "name": "qwen/qwen3-vl-30b-a3b-instruct",
+  "name": "Qwen3 VL 30B A3B Instruct",
   "created_by": "alibaba",
   "source": "official",
   "family": "qwen3",
@@ -29,7 +29,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "57685ae2",
+    "name": "b3ddf330",
     "family": "48c385a0",
     "status": "379ac110",
     "release_date": "b51ed54b",
@@ -44,5 +44,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-01"
 }

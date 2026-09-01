@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-30",
-  "count": 1489,
+  "date": "2026-09-01",
+  "count": 1491,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -9,7 +9,6 @@
     "alibaba-happy-horse-v1.1-reference-to-video",
     "alibaba-happy-horse-v1.1-text-to-video",
     "alibaba-happy-horse-video-edit",
-    "alibaba-happy-oyster",
     "alibaba-qwen-audio-3-tts",
     "alibaba-qwen-image-3-edit",
     "alibaba-qwen-image-3-text-to-image",
@@ -594,6 +593,8 @@
     "fal-ai-kling-video-o3-4k-image-to-video",
     "fal-ai-kling-video-o3-4k-reference-to-video",
     "fal-ai-kling-video-o3-4k-text-to-video",
+    "fal-ai-kling-video-o3-4k-video-to-video-edit",
+    "fal-ai-kling-video-o3-4k-video-to-video-reference",
     "fal-ai-kling-video-o3-pro-image-to-video",
     "fal-ai-kling-video-o3-pro-reference-to-video",
     "fal-ai-kling-video-o3-pro-text-to-video",
@@ -1361,6 +1362,7 @@
     "minimax-h3-image-to-video",
     "minimax-h3-image-to-video-lora",
     "minimax-h3-max-image-to-video",
+    "minimax-h3-max-reference-to-video",
     "minimax-h3-max-text-to-video",
     "minimax-h3-ref2va-trainer",
     "minimax-h3-reference-to-video",

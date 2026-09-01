@@ -5,7 +5,7 @@
   "source": "official",
   "family": "deepseek",
   "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.",
-  "status": "active",
+  "status": "preview",
   "release_date": "2025-03-25",
   "context_window": 163840,
   "max_output_tokens": 65536,
@@ -31,7 +31,7 @@
     "name": "4ca87744",
     "family": "4b81b92d",
     "description": "cffd3336",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "aa38c35d",
     "context_window": "7edab444",
     "max_output_tokens": "297ce0b3",
@@ -43,5 +43,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-01"
 }

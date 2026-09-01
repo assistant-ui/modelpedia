@@ -1,0 +1,35 @@
+{
+  "id": "minimax/h3-max/reference-to-video",
+  "name": "H3 Max Reference to Video",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "fal's H3 Max is a post-trained variant of MiniMax H3, tuned for stronger prompt adherence and better aesthetics while co-optimized with our custom inference stack for higher throughput with no comprom",
+  "status": "active",
+  "release_date": "2026-08-29",
+  "model_type": "video",
+  "page_url": "https://fal.run/minimax/h3-max/reference-to-video",
+  "tagline": "fal's H3 Max is a post-trained variant of MiniMax H3, tuned for stronger prompt adherence and better aesthetics while co-optimized with our custom inference stack for higher throughput with no comprom",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-08-31",
+  "_generated": {
+    "name": "ae47f1fa",
+    "description": "924f708b",
+    "status": "379ac110",
+    "release_date": "4498cb05",
+    "model_type": "4d1b75ca",
+    "page_url": "238e8ffe",
+    "tagline": "924f708b",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "539967f1"
+  },
+  "last_updated": "2026-09-01"
+}

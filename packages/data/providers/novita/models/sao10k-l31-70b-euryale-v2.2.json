@@ -1,6 +1,6 @@
 {
   "id": "sao10k/l31-70b-euryale-v2.2",
-  "name": "L31 70B Euryale V2.2",
+  "name": "Llama 3.1 70B Euryale V2.2",
   "created_by": "sao10k",
   "source": "official",
   "description": "Euryale L3.1 70B v2.2 is a model focused on creative roleplay from Sao10k.",
@@ -29,7 +29,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "4f56b5f9",
+    "name": "9e07eb34",
     "description": "ea98cc67",
     "status": "379ac110",
     "release_date": "1e8d9d5f",
@@ -44,5 +44,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-01"
 }
