@@ -1,6 +1,6 @@
 {
   "id": "qwen/qwen3.7-max",
-  "name": "Qwen3.7-Max",
+  "name": "Qwen3.7 Max",
   "created_by": "alibaba",
   "source": "official",
   "family": "qwen3.7",
@@ -29,7 +29,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "3fb8f7e1",
+    "name": "a7b8f9be",
     "family": "d71bf7f7",
     "description": "cced4ba1",
     "status": "379ac110",
@@ -44,5 +44,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-09-01"
 }

@@ -1,6 +1,6 @@
 {
   "id": "inclusionai/ling-2.6-flash",
-  "name": "Ling-2.6-flash",
+  "name": "Ling 2.6 Flash",
   "created_by": "inclusionai",
   "source": "official",
   "status": "preview",
@@ -25,7 +25,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "3f3aa422",
+    "name": "ae2078e3",
     "status": "127aecde",
     "release_date": "173d2bb2",
     "context_window": "4a1d32eb",
@@ -37,5 +37,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-01"
 }

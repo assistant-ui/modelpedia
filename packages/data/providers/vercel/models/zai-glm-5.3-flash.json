@@ -14,7 +14,7 @@
   },
   "pricing": {
     "input": 0.07,
-    "output": 0.25
+    "output": 0.24
   },
   "modalities": {
     "input": ["text"],
@@ -27,9 +27,9 @@
     "context_window": "8155bc54",
     "model_type": "d669f408",
     "capabilities": "a19166f1",
-    "pricing": "880276f2",
+    "pricing": "75dd3481",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-01"
 }

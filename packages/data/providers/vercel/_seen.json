@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-31",
-  "count": 339,
+  "date": "2026-09-01",
+  "count": 340,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -326,6 +326,7 @@
     "voyage-voyage-law-2",
     "xiaomi-mimo-v2.5",
     "xiaomi-mimo-v2.5-pro",
+    "xiaomi-mimo-v2.5-pro-ultraspeed",
     "zai-glm-4.5",
     "zai-glm-4.5-air",
     "zai-glm-4.5v",

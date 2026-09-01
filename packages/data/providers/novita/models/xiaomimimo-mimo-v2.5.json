@@ -1,6 +1,6 @@
 {
   "id": "xiaomimimo/mimo-v2.5",
-  "name": "XiaomiMiMo/MiMo-V2.5",
+  "name": "Xiaomi MiMo V2.5",
   "created_by": "xiaomi",
   "source": "official",
   "family": "mimo",
@@ -30,7 +30,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "d1a61d98",
+    "name": "44f7b9cd",
     "family": "1a23786e",
     "description": "7ce22147",
     "status": "379ac110",
@@ -45,5 +45,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-09-01"
 }

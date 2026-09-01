@@ -1,6 +1,6 @@
 {
   "id": "inclusionai/ring-2.6-1t",
-  "name": "Ring-2.6-1T",
+  "name": "Ring 2.6 1T",
   "created_by": "inclusionai",
   "source": "official",
   "status": "preview",
@@ -22,7 +22,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "731b2ed4",
+    "name": "c4e1807c",
     "status": "127aecde",
     "release_date": "83eb3201",
     "context_window": "4a1d32eb",
@@ -34,7 +34,7 @@
     "tools": "f0c1dc7e",
     "pricing": "8d495dc1"
   },
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-01",
   "pricing": {
     "input": 0.3,
     "output": 2.5

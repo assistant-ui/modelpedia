@@ -1,6 +1,6 @@
 {
   "id": "qwen/qwen3-235b-a22b-thinking-2507",
-  "name": "Qwen3 235B A22b Thinking 2507",
+  "name": "Qwen3 235B A22B Thinking 2507",
   "created_by": "alibaba",
   "source": "official",
   "family": "qwen3",
@@ -29,7 +29,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "dbc2c1e9",
+    "name": "3470b7d9",
     "family": "48c385a0",
     "description": "604bcae1",
     "status": "379ac110",
@@ -46,5 +46,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-01"
 }

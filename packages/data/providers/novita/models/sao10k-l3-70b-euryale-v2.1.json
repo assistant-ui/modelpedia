@@ -1,6 +1,6 @@
 {
   "id": "sao10k/l3-70b-euryale-v2.1",
-  "name": "L3 70B Euryale V2.1\t",
+  "name": "Llama 3 70B Euryale V2.1",
   "created_by": "sao10k",
   "source": "official",
   "description": "The uncensored llama3 model is a powerhouse of creativity, excelling in both roleplay and story writing.",
@@ -26,7 +26,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "e21f04c3",
+    "name": "bd95eed1",
     "description": "86c66dd9",
     "status": "379ac110",
     "release_date": "867b0729",
@@ -41,5 +41,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-01"
 }

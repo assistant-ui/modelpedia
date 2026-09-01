@@ -1,0 +1,44 @@
+{
+  "id": "ibm-granite/granite-4.2-8b",
+  "name": "IBM: Granite 4.2 8B",
+  "created_by": "ibm-granite",
+  "source": "official",
+  "description": "Granite 4.2 8B is a dense reasoning model from IBM.",
+  "release_date": "2026-08-31",
+  "context_window": 131072,
+  "max_output_tokens": 117964,
+  "parameters": 8,
+  "model_type": "chat",
+  "tagline": "Granite 4.2 8B is a dense reasoning model from IBM.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.15,
+    "cached_input": 0.05
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "78d5375f",
+    "description": "e75d1a30",
+    "release_date": "539967f1",
+    "context_window": "f7de594e",
+    "max_output_tokens": "242f56a4",
+    "parameters": "c9f0f895",
+    "model_type": "d669f408",
+    "tagline": "e75d1a30",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "da3b4cb1",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-01"
+}

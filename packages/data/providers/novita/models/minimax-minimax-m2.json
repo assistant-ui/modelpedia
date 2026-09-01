@@ -1,6 +1,6 @@
 {
   "id": "minimax/minimax-m2",
-  "name": "MiniMax-M2",
+  "name": "MiniMax M2",
   "created_by": "minimax",
   "source": "official",
   "family": "minimax",
@@ -29,7 +29,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "6b4e3491",
+    "name": "6c3a7ae0",
     "family": "c85916f0",
     "description": "82e751e5",
     "status": "379ac110",
@@ -44,5 +44,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-01"
 }

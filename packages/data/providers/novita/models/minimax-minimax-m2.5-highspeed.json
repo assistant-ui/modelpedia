@@ -1,6 +1,6 @@
 {
   "id": "minimax/minimax-m2.5-highspeed",
-  "name": "MiniMax M2.5-highspeed",
+  "name": "MiniMax M2.5 Highspeed",
   "created_by": "minimax",
   "source": "official",
   "family": "minimax",
@@ -29,7 +29,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "c7f7a9ab",
+    "name": "f3e5b12b",
     "family": "c85916f0",
     "description": "3708c7a9",
     "status": "379ac110",
@@ -44,5 +44,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-01"
 }

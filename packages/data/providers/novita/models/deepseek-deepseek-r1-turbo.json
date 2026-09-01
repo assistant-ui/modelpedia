@@ -1,6 +1,6 @@
 {
   "id": "deepseek/deepseek-r1-turbo",
-  "name": "DeepSeek R1 (Turbo)\t",
+  "name": "DeepSeek R1 Turbo",
   "created_by": "deepseek",
   "source": "official",
   "family": "deepseek-r1",
@@ -29,7 +29,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "f350b8ba",
+    "name": "e09062ea",
     "family": "c74cfb8e",
     "description": "3f0acf1c",
     "status": "379ac110",
@@ -44,5 +44,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-01"
 }

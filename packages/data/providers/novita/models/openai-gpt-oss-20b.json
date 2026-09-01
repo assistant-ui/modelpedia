@@ -1,6 +1,6 @@
 {
   "id": "openai/gpt-oss-20b",
-  "name": "OpenAI: GPT OSS 20B",
+  "name": "OpenAI GPT OSS 20B",
   "created_by": "openai",
   "source": "official",
   "family": "gpt-oss",
@@ -30,7 +30,7 @@
   "endpoints": ["chat_completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "b54d9041",
+    "name": "926092cc",
     "family": "82d0cb0b",
     "description": "9ef19f8d",
     "status": "379ac110",
@@ -46,5 +46,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-01"
 }
