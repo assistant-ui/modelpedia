@@ -1,11 +1,13 @@
 {
-  "date": "2026-07-31",
-  "count": 15,
+  "date": "2026-09-02",
+  "count": 17,
   "ids": [
     "claude-3-5-haiku",
     "claude-fable-5",
+    "claude-fable-5-1",
     "claude-haiku-4-5",
     "claude-mythos-5",
+    "claude-mythos-5-1",
     "claude-opus-4-0",
     "claude-opus-4-1",
     "claude-opus-4-5",

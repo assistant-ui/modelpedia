@@ -1,12 +1,14 @@
 {
-  "date": "2026-08-16",
-  "count": 33,
+  "date": "2026-09-02",
+  "count": 35,
   "ids": [
     "rerank-1",
     "rerank-2",
     "rerank-2-lite",
     "rerank-2.5",
     "rerank-2.5-lite",
+    "rerank-3",
+    "rerank-3-lite",
     "rerank-lite-1",
     "voyage-01",
     "voyage-02",
