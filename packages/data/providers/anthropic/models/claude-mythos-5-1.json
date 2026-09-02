@@ -1,0 +1,46 @@
+{
+  "id": "claude-mythos-5-1",
+  "name": "Claude Mythos 5.1",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-mythos",
+  "license": "proprietary",
+  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-mythos-5-1",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 10,
+    "output": 50,
+    "cache_write": 12.5,
+    "cached_input": 0.25,
+    "cache_write_1h": 20,
+    "batch_input": 5,
+    "batch_output": 25
+  },
+  "open_weight": false,
+  "tools": ["function_calling"],
+  "endpoints": ["messages"],
+  "_generated": {
+    "name": "5c6b6e9c",
+    "family": "b59a9ff7",
+    "license": "9186c466",
+    "page_url": "6be96552",
+    "model_type": "d669f408",
+    "capabilities": "29417d42",
+    "modalities": "6399757e",
+    "pricing": "03b4e290",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e",
+    "endpoints": "94bb8b7a"
+  },
+  "last_updated": "2026-09-02"
+}

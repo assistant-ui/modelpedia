@@ -4,7 +4,7 @@
   "created_by": "kwaipilot",
   "source": "official",
   "description": "KAT-Coder-Pro V2 by KwaiKAT is a non-reasoning model optimized for agentic coding.",
-  "status": "active",
+  "status": "preview",
   "release_date": "2026-01-05",
   "context_window": 256000,
   "max_output_tokens": 128000,
@@ -30,7 +30,7 @@
   "_generated": {
     "name": "a3a7db12",
     "description": "14f688c4",
-    "status": "379ac110",
+    "status": "127aecde",
     "release_date": "996ff37f",
     "context_window": "2fd324cb",
     "max_output_tokens": "34434798",
@@ -42,5 +42,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-09-02"
 }

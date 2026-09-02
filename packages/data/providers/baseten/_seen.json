@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-30",
-  "count": 17,
+  "date": "2026-09-02",
+  "count": 19,
   "ids": [
     "deepseek-r1",
     "deepseek-r1-llama-70b",
@@ -10,6 +10,8 @@
     "deepseek-v4",
     "deepseek-v4-pro-0813",
     "orpheus-3b-websockets",
+    "philip",
+    "philip-kiely",
     "qwen-image",
     "qwen-image-2512",
     "qwen3-5-122b-a10b",

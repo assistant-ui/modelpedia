@@ -3,7 +3,7 @@
   "name": "Moonshot v1 32K",
   "created_by": "moonshot",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-09-02",
   "family": "moonshot",
   "context_window": 32768,
   "capabilities": {
@@ -18,7 +18,7 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "modalities": "68e53d93",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "page_url": "90c2a563",
     "pricing": "7fd03be2"
   },
@@ -29,7 +29,7 @@
     "input": ["text"],
     "output": ["text"]
   },
-  "status": "active",
+  "status": "deprecated",
   "page_url": "https://platform.moonshot.ai/docs/pricing/chat",
   "pricing": {
     "input": 1,

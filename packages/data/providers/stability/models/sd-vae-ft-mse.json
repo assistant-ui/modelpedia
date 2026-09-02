@@ -11,7 +11,7 @@
   "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-mse",
   "open_weight": true,
   "tagline": "Sd Vae Ft Mse is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "huggingface_downloads": 135618,
+  "huggingface_downloads": 136445,
   "last_modified": "2023-06-06",
   "_generated": {
     "name": "ca2fd865",
@@ -23,8 +23,8 @@
     "page_url": "6abc04ea",
     "open_weight": "b326b506",
     "tagline": "d27bf42e",
-    "huggingface_downloads": "1c796384",
+    "huggingface_downloads": "36fb5905",
     "last_modified": "f4c30a96"
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-09-02"
 }

@@ -1,0 +1,40 @@
+{
+  "id": "inception/mercury-2.5-preview",
+  "name": "Inception: Mercury 2.5 Preview",
+  "created_by": "inception",
+  "source": "official",
+  "description": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception.",
+  "release_date": "2026-08-31",
+  "context_window": 260000,
+  "max_output_tokens": 65536,
+  "tagline": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0.15,
+    "cached_input": 0.004
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1f94f875",
+    "description": "4ca1cae2",
+    "release_date": "539967f1",
+    "context_window": "5c6908c2",
+    "max_output_tokens": "297ce0b3",
+    "tagline": "4ca1cae2",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "eac6e5c7",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-02"
+}

@@ -7,7 +7,7 @@
   "release_date": "2026-07-23",
   "context_window": 262144,
   "license": "apache-2.0",
-  "parameters": 32,
+  "parameters": 31,
   "page_url": "https://huggingface.co/farbodtavakkoli/OTel-2.0-LLM-31B-IT",
   "tagline": "> **Checkpoint update notice:** The current checkpoint is expected to be updated within the next few hours.",
   "capabilities": {
@@ -23,12 +23,14 @@
     "release_date": "26fc75d3",
     "context_window": "4a1d32eb",
     "license": "60245731",
-    "parameters": "6364d3f0",
+    "parameters": "c16a5320",
     "page_url": "49629704",
     "tagline": "845d8d02",
     "capabilities": "5780d00a",
     "open_weight": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "architecture": "8832ea0f"
   },
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-09-02",
+  "architecture": "transformer"
 }

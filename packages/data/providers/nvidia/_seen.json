@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-30",
-  "count": 83,
+  "date": "2026-09-02",
+  "count": 82,
   "ids": [
     "01-ai-yi-large",
     "adept-fuyu-8b",
@@ -59,7 +59,6 @@
     "nvidia-llama3-chatqa-1.5-70b",
     "nvidia-mistral-nemo-minitron-8b-8k-instruct",
     "nvidia-nemotron-3-embed-1b",
-    "nvidia-nemotron-3-nano-30b-a3b",
     "nvidia-nemotron-3-nano-omni-30b-a3b-reasoning",
     "nvidia-nemotron-3-super-120b-a12b",
     "nvidia-nemotron-3-ultra-550b-a55b",

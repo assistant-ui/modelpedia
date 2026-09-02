@@ -1,0 +1,27 @@
+{
+  "id": "rerank-3",
+  "name": "Rerank 3",
+  "created_by": "voyage",
+  "source": "official",
+  "family": "rerank",
+  "status": "active",
+  "model_type": "rerank",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.05
+  },
+  "endpoints": ["rerank"],
+  "_generated": {
+    "name": "9d4ec02b",
+    "family": "477930e6",
+    "status": "379ac110",
+    "model_type": "477930e6",
+    "modalities": "68e53d93",
+    "pricing": "0f2b1541",
+    "endpoints": "9a7b4962"
+  },
+  "last_updated": "2026-09-02"
+}

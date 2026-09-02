@@ -18,7 +18,7 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-08-27",
+  "last_seen_at": "2026-09-01",
   "_generated": {
     "name": "a608c0d8",
     "description": "729e9ac6",
@@ -30,7 +30,7 @@
     "capabilities": "da15458e",
     "modalities": "85fd0565",
     "endpoints": "7a78c070",
-    "last_seen_at": "0890bbf8"
+    "last_seen_at": "8045414c"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-02"
 }

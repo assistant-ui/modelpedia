@@ -1,0 +1,33 @@
+{
+  "id": "deepseek-ai/deepseek-v4-flash-vision-exp",
+  "name": "deepseek-v4-flash-vision-exp",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "context_window": 1040000,
+  "page_url": "https://fireworks.ai/models/deepseek-ai/deepseek-v4-flash-vision-exp",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.22,
+    "output": 0.66,
+    "cached_input": 0.007
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "07cd6df9",
+    "family": "4b81b92d",
+    "context_window": "1bf8ad8b",
+    "page_url": "b2c7079a",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "cbee7ae4",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-02"
+}

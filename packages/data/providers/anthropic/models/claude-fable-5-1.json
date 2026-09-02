@@ -1,0 +1,48 @@
+{
+  "id": "claude-fable-5-1",
+  "name": "Claude Fable 5.1",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-fable",
+  "retirement_date": "2027-09-01",
+  "license": "proprietary",
+  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-fable-5-1",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 10,
+    "output": 50,
+    "cache_write": 12.5,
+    "cached_input": 0.25,
+    "cache_write_1h": 20,
+    "batch_input": 5,
+    "batch_output": 25
+  },
+  "open_weight": false,
+  "tools": ["function_calling"],
+  "endpoints": ["messages"],
+  "_generated": {
+    "name": "8c0d4a03",
+    "family": "127f43cd",
+    "retirement_date": "54283ec7",
+    "license": "9186c466",
+    "page_url": "3430c198",
+    "model_type": "d669f408",
+    "capabilities": "29417d42",
+    "modalities": "6399757e",
+    "pricing": "03b4e290",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e",
+    "endpoints": "94bb8b7a"
+  },
+  "last_updated": "2026-09-02"
+}

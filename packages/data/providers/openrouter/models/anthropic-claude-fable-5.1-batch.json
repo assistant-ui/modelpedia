@@ -1,0 +1,44 @@
+{
+  "id": "anthropic/claude-fable-5.1:batch",
+  "name": "Anthropic: Claude Fable 5.1 (batch)",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-fable",
+  "description": "Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual...",
+  "release_date": "2026-09-01",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual...",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 25,
+    "cached_input": 0.125
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e9f34fb5",
+    "family": "127f43cd",
+    "description": "85bb9738",
+    "release_date": "8045414c",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "85bb9738",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "73e0ab06",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-02"
+}
