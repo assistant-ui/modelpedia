@@ -1,0 +1,40 @@
+{
+  "id": "meta/muse-spark-1.3",
+  "name": "Meta: Muse Spark 1.3",
+  "created_by": "meta",
+  "source": "official",
+  "description": "Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows.",
+  "release_date": "2026-09-02",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "tagline": "Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 4.25,
+    "cached_input": 0.15
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "24a05e89",
+    "description": "374e2013",
+    "release_date": "731c4a12",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "tagline": "374e2013",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "a0f59bdb",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-03"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "gemini-3.8-flash",
+  "name": "gemini-3.8-flash",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.8",
+  "status": "active",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "license": "proprietary",
+  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text", "image", "audio"]
+  },
+  "pricing": {
+    "input": 0.75,
+    "output": 3.75,
+    "cached_input": 0.075,
+    "batch_input": 0.375,
+    "batch_output": 1.875,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.75, 0.075, 3.75]
+          },
+          {
+            "label": "Batch",
+            "values": [0.375, null, 1.875]
+          }
+        ]
+      }
+    ]
+  },
+  "open_weight": false,
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "f20d4dae",
+    "family": "d937426a",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "license": "9186c466",
+    "page_url": "e44a2635",
+    "model_type": "d669f408",
+    "capabilities": "fdff467b",
+    "modalities": "0b49b61e",
+    "pricing": "135ec167",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-09-03"
+}

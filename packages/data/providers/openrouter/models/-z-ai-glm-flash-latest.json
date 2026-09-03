@@ -9,7 +9,7 @@
   "release_date": "2026-08-27",
   "deprecation_date": "2098-12-31",
   "context_window": 1310720,
-  "max_output_tokens": 131072,
+  "max_output_tokens": 943718,
   "model_type": "chat",
   "tagline": "This model always redirects to the latest model in the GLM Flash family.",
   "capabilities": {
@@ -36,7 +36,7 @@
     "release_date": "0890bbf8",
     "deprecation_date": "a93a4314",
     "context_window": "32886eaa",
-    "max_output_tokens": "f7de594e",
+    "max_output_tokens": "7843f47e",
     "model_type": "d669f408",
     "tagline": "8378ee8e",
     "capabilities": "03fbefb4",
@@ -44,5 +44,5 @@
     "pricing": "22fde1f3",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-02"
+  "last_updated": "2026-09-03"
 }

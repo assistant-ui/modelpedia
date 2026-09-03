@@ -1,0 +1,40 @@
+{
+  "id": "meta/muse-spark-1.3-contributor",
+  "name": "Meta: Muse Spark 1.3 Contributor",
+  "created_by": "meta",
+  "source": "official",
+  "description": "Muse Spark 1.3 Contributor is the cost-efficient contributor tier of Meta’s multimodal reasoning model for experimentation, learning, and early-stage agentic, multi-agent, and coding workflows.",
+  "release_date": "2026-09-02",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "tagline": "Muse Spark 1.3 Contributor is the cost-efficient contributor tier of Meta’s multimodal reasoning model for experimentation, learning, and early-stage agentic, multi-agent, and coding workflows.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.2,
+    "cached_input": 0.002
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "379662cf",
+    "description": "c851dbc5",
+    "release_date": "731c4a12",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "tagline": "c851dbc5",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "8b2b5f55",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-03"
+}

@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-02",
-  "count": 125,
+  "date": "2026-09-03",
+  "count": 126,
   "ids": [
     "amazon-mistrallite",
     "codellama-codellama-7b-instruct-hf",
@@ -17,6 +17,7 @@
     "gritlm-gritlm-7b",
     "meta-llama-llama-2-13b-chat-hf",
     "meta-llama-llama-3.1-8b-instruct",
+    "meta-llama-llama-3.2-1b-instruct",
     "meta-llama-llama-3.2-3b-instruct",
     "meta-llama-llama-3.3-70b-instruct",
     "meta-llama-meta-llama-3-70b-instruct",
@@ -33,7 +34,6 @@
     "nousresearch-meta-llama-3-8b-instruct",
     "nousresearch-meta-llama-3.1-8b-instruct",
     "nvidia-gemma-4-31b-it-nvfp4",
-    "nvidia-llama-3.1-8b-instruct-fp8",
     "obliteratus-gemma-4-e4b-it-obliterated",
     "obliteratus-qwen3.8-27b-obliterated",
     "openai-gpt-oss-120b",
@@ -114,6 +114,7 @@
     "unsloth-qwen2.5-14b-instruct",
     "unsloth-qwen2.5-7b-instruct",
     "unsloth-qwen2.5-coder-7b-instruct",
+    "upstage-solar-10.7b-instruct-v1.0",
     "vikhrmodels-vikhr-nemo-12b-instruct-r-21-09-24",
     "yentinglin-llama-3-taiwan-8b-instruct",
     "zai-org-glm-4-9b-0414",

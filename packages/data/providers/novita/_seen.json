@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-01",
-  "count": 154,
+  "date": "2026-09-03",
+  "count": 156,
   "ids": [
     "ai_infer_test_1",
     "ai_infer_test_2",
@@ -51,6 +51,8 @@
     "inclusionai-ling-3.0-flash",
     "inclusionai-ling-3.0-flash-fast",
     "inclusionai-ling-3.0-flash-fin",
+    "inclusionai-ling-3.0-flash-sante",
+    "inclusionai-ling-3.0-flash-vl",
     "inclusionai-ling-3.0-tiny",
     "inclusionai-ring-2.6-1t",
     "kwaipilot-kat-coder-pro",

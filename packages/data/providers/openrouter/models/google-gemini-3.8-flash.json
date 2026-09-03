@@ -1,0 +1,44 @@
+{
+  "id": "google/gemini-3.8-flash",
+  "name": "Google: Gemini 3.8 Flash",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.8",
+  "description": "Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.",
+  "release_date": "2026-09-02",
+  "context_window": 1048576,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "tagline": "Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.75,
+    "output": 3.75,
+    "cached_input": 0.075
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1aa6e2d9",
+    "family": "d937426a",
+    "description": "992edfdb",
+    "release_date": "731c4a12",
+    "context_window": "7d28a051",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "tagline": "992edfdb",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "ba418c83",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-03"
+}

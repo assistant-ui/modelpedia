@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-01",
-  "count": 229,
+  "date": "2026-09-03",
+  "count": 230,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -64,6 +64,7 @@
     "deepseek-ai-deepseek-v3.2",
     "deepseek-ai-deepseek-v4-flash",
     "deepseek-ai-deepseek-v4-flash-0731",
+    "deepseek-ai-deepseek-v4-flash-vision-exp",
     "deepseek-ai-deepseek-v4-pro",
     "deepseek-ai-deepseek-v4-pro-0813",
     "deepseek-ai-janus-pro-1b",
