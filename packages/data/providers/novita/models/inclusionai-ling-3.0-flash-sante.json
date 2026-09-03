@@ -1,0 +1,39 @@
+{
+  "id": "inclusionai/ling-3.0-flash-sante",
+  "name": "Ling 3.0 Flash Sante",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "Ling-3.0-Flash-Sante is a Mixture-of-Experts (MoE) model with enhanced capabilities across health and medicine.",
+  "status": "active",
+  "release_date": "2026-09-03",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "tagline": "Ling-3.0-Flash-Sante is a Mixture-of-Experts (MoE) model with enhanced capabilities across health and medicine.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "513a1418",
+    "description": "8e6a63e5",
+    "status": "379ac110",
+    "release_date": "424d10af",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "tagline": "8e6a63e5",
+    "capabilities": "3d69c795",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-03"
+}

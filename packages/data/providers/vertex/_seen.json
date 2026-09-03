@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-30",
-  "count": 86,
+  "date": "2026-09-03",
+  "count": 87,
   "ids": [
     "antigravity-preview-05-2026",
     "claude-haiku-4-5-vertex",
@@ -54,6 +54,7 @@
     "gemini-3.5-transcribe",
     "gemini-3.6-flash",
     "gemini-3.7-flash",
+    "gemini-3.8-flash",
     "gemini-embedding-001",
     "gemini-embedding-2",
     "gemini-embedding-2-preview",

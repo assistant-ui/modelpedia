@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-30",
-  "count": 78,
+  "date": "2026-09-03",
+  "count": 79,
   "ids": [
     "antigravity-preview-05-2026",
     "deep-research-max-preview-04-2026",
@@ -51,6 +51,7 @@
     "gemini-3.5-transcribe",
     "gemini-3.6-flash",
     "gemini-3.7-flash",
+    "gemini-3.8-flash",
     "gemini-embedding-001",
     "gemini-embedding-2",
     "gemini-embedding-exp",

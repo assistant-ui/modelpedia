@@ -1,0 +1,49 @@
+{
+  "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+  "name": "DeepSeek-V4-Flash-Vision-Exp",
+  "created_by": "deepseek",
+  "source": "official",
+  "status": "active",
+  "context_window": 131072,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "deepseek",
+  "open_weight": true,
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.44,
+    "output": 1.32,
+    "cached_input": 0.14
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "_generated": {
+    "name": "7ffcea13",
+    "status": "379ac110",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "4b81b92d",
+    "open_weight": "b326b506",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "87db73ad",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9"
+  },
+  "last_updated": "2026-09-03"
+}

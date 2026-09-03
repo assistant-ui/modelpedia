@@ -1,0 +1,40 @@
+{
+  "id": "inclusionai/ling-3.0-flash-vl",
+  "name": "Ling 3.0 Flash VL",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "Ling-3.0-flash-VL builds on Ling-3.0-flash, further strengthening its language capabilities while adding native visual perception and advanced visual agent capabilities.",
+  "status": "active",
+  "release_date": "2026-09-03",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "model_type": "chat",
+  "tagline": "Ling-3.0-flash-VL builds on Ling-3.0-flash, further strengthening its language capabilities while adding native visual perception and advanced visual agent capabilities.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6033d816",
+    "description": "61b111ed",
+    "status": "379ac110",
+    "release_date": "424d10af",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "model_type": "d669f408",
+    "tagline": "61b111ed",
+    "capabilities": "ee6fc374",
+    "modalities": "6399757e",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-03"
+}
