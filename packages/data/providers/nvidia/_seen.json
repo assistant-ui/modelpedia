@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-02",
-  "count": 82,
+  "date": "2026-09-04",
+  "count": 81,
   "ids": [
     "01-ai-yi-large",
     "adept-fuyu-8b",
@@ -75,7 +75,6 @@
     "nvidia-riva-translate-4b-instruct-v1.1",
     "nvidia-riva-translate-4b-instruct-v2",
     "nvidia-vila",
-    "openai-gpt-oss-120b",
     "openai-gpt-oss-20b",
     "poolside-laguna-xs-2.1",
     "snowflake-arctic-embed-l",

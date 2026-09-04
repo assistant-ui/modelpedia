@@ -11,7 +11,7 @@
   "page_url": "https://huggingface.co/stabilityai/sp4d",
   "open_weight": true,
   "tagline": "Sp4d is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "huggingface_downloads": 681,
+  "huggingface_downloads": 685,
   "last_modified": "2025-11-05",
   "_generated": {
     "name": "457a0272",
@@ -23,8 +23,8 @@
     "page_url": "f1bc6a46",
     "open_weight": "b326b506",
     "tagline": "03685677",
-    "huggingface_downloads": "1595af64",
+    "huggingface_downloads": "3328bdf9",
     "last_modified": "6c2625ef"
   },
-  "last_updated": "2026-09-02"
+  "last_updated": "2026-09-04"
 }
