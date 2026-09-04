@@ -3,11 +3,11 @@
   "name": "DeepSeek: DeepSeek V3",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-07-30",
+  "last_updated": "2026-09-04",
   "family": "deepseek-chat",
   "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions.",
   "context_window": 163840,
-  "max_output_tokens": 16000,
+  "max_output_tokens": 16384,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -18,18 +18,18 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.257,
-    "output": 1.029
+    "input": 0.32,
+    "output": 0.89
   },
   "_generated": {
     "name": "c2961b40",
     "family": "fbd79fd9",
     "description": "d3cca989",
     "context_window": "7edab444",
-    "max_output_tokens": "67510c89",
+    "max_output_tokens": "c76fe1d8",
     "modalities": "68e53d93",
     "capabilities": "6c9aa67e",
-    "pricing": "591b33ce",
+    "pricing": "98e9df4f",
     "release_date": "2de42b83",
     "tagline": "d3cca989",
     "tools": "f0c1dc7e",

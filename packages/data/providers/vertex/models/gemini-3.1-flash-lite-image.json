@@ -23,7 +23,7 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image", "audio"],
+    "input": ["text", "image", "video", "audio"],
     "output": ["text", "image", "audio"]
   },
   "pricing": {
@@ -68,10 +68,10 @@
     "tagline": "9fee8828",
     "open_weight": "68934a3e",
     "capabilities": "fdff467b",
-    "modalities": "a8211f74",
+    "modalities": "0b49b61e",
     "pricing": "788d6a3a",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-09-04"
 }

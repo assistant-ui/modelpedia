@@ -10,9 +10,9 @@
     "streaming": true
   },
   "pricing": {
-    "input": 0.375,
-    "output": 1.875,
-    "cached_input": 0.0375
+    "input": 0.75,
+    "output": 3.75,
+    "cached_input": 0.075
   },
   "open_weight": false,
   "modalities": {
@@ -25,9 +25,9 @@
     "license": "9186c466",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "pricing": "36fe0a72",
+    "pricing": "ba418c83",
     "open_weight": "68934a3e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-08-16"
+  "last_updated": "2026-09-04"
 }

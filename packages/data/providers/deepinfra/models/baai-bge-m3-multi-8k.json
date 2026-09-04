@@ -1,0 +1,34 @@
+{
+  "id": "BAAI/bge-m3-multi-8k",
+  "name": "bge-m3-multi-8k",
+  "created_by": "baai",
+  "source": "official",
+  "description": "BGE-M3 is a multilingual text embedding model developed by BAAI, distinguished by its Multi-Linguality (supporting 100+ languages), Multi-Functionality (unified dense, multi-vector, and sparse retrieval), and Multi-Granularity (handling inputs from short queries to long documents). It achieves state-of-the-art retrieval performance across diverse benchmarks while maintaining a single model for multiple retrieval modes. This endpoint serves the model's full 8192-token context.",
+  "status": "active",
+  "model_type": "embed",
+  "license": "mit",
+  "open_weight": true,
+  "tagline": "BGE-M3 is a multilingual text embedding model developed by BAAI, distinguished by its Multi-Linguality (supporting 100+ languages), Multi-Functionality (unified dense, multi-vector, and sparse retrieval), and Multi-Granularity (handling inputs from short queries to long documents).",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "387cf872",
+    "description": "a45ab0aa",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "license": "3c4c3ba5",
+    "open_weight": "b326b506",
+    "tagline": "4b526309",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-09-04"
+}

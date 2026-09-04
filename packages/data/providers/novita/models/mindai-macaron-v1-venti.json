@@ -34,11 +34,11 @@
     "modalities": "68e53d93",
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e",
-    "pricing": "1c5f7754"
+    "pricing": "10805b63"
   },
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-04",
   "pricing": {
     "input": 0.825,
-    "output": 2.448
+    "output": 2.475
   }
 }

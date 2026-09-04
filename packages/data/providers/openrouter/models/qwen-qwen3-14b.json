@@ -3,11 +3,11 @@
   "name": "Qwen: Qwen3 14B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-09-03",
+  "last_updated": "2026-09-04",
   "family": "qwen3",
   "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue.",
   "context_window": 131072,
-  "max_output_tokens": 8192,
+  "max_output_tokens": 16384,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -19,18 +19,18 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.227,
-    "output": 0.91
+    "input": 0.12,
+    "output": 0.24
   },
   "_generated": {
     "name": "f47dd650",
     "family": "48c385a0",
     "description": "a853df79",
     "context_window": "f7de594e",
-    "max_output_tokens": "77441296",
+    "max_output_tokens": "c76fe1d8",
     "modalities": "68e53d93",
     "capabilities": "03fbefb4",
-    "pricing": "675784a0",
+    "pricing": "c3e9071f",
     "model_type": "d669f408",
     "parameters": "aab32389",
     "release_date": "1487959c",

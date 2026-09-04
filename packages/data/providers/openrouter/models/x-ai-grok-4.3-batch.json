@@ -1,0 +1,44 @@
+{
+  "id": "x-ai/grok-4.3:batch",
+  "name": "SpaceXAI: Grok 4.3 (batch)",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4.3",
+  "description": "Grok 4.3 is a reasoning model from SpaceXAI.",
+  "release_date": "2026-04-30",
+  "context_window": 1000000,
+  "max_output_tokens": 900000,
+  "model_type": "chat",
+  "tagline": "Grok 4.3 is a reasoning model from SpaceXAI.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 2,
+    "cached_input": 0.16
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8eb034ee",
+    "family": "20d0cab4",
+    "description": "5a205ebb",
+    "release_date": "a53a2b69",
+    "context_window": "8155bc54",
+    "max_output_tokens": "c3c4f8c9",
+    "model_type": "d669f408",
+    "tagline": "5a205ebb",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "d4a6800d",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-04"
+}

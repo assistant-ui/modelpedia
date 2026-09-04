@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-02",
-  "count": 122,
+  "date": "2026-09-04",
+  "count": 123,
   "ids": [
     "851-labs-background-remover",
     "adirik-flux-cinestill",
@@ -87,6 +87,7 @@
     "minimax-music-1.5",
     "minimax-music-2.5",
     "minimax-music-2.6",
+    "myaiteam2-websitescraper2",
     "openai-gpt-4o-mini",
     "openai-gpt-4o-transcribe",
     "openai-gpt-5",
@@ -101,6 +102,7 @@
     "prunaai-p-image-upscale",
     "prunaai-p-video",
     "prunaai-p-video-avatar",
+    "prunaai-p-video-edit",
     "rafaelgalle-whisper-diarization-advanced",
     "recraft-ai-recraft-v4-styles-pro-svg",
     "replicate-train-rvc-model",
@@ -117,7 +119,6 @@
     "wan-video-wan-2.2-t2v-fast",
     "wan-video-wan-2.5-i2v-fast",
     "wan-video-wan-2.5-t2v-fast",
-    "xai-grok-imagine-image-2",
     "xai-grok-imagine-video",
     "xai-grok-imagine-video-1.5",
     "xai-grok-imagine-video-extension",

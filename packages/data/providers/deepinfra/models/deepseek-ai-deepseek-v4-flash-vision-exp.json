@@ -4,7 +4,7 @@
   "created_by": "deepseek",
   "source": "official",
   "status": "active",
-  "context_window": 131072,
+  "context_window": 1048576,
   "model_type": "chat",
   "reasoning_tokens": true,
   "license": "deepseek",
@@ -33,7 +33,7 @@
   "_generated": {
     "name": "7ffcea13",
     "status": "379ac110",
-    "context_window": "f7de594e",
+    "context_window": "7d28a051",
     "model_type": "d669f408",
     "reasoning_tokens": "b326b506",
     "license": "4b81b92d",
@@ -43,7 +43,11 @@
     "pricing": "87db73ad",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
-    "quantization": "640679f9"
+    "quantization": "640679f9",
+    "description": "77c5817c",
+    "tagline": "f1bce242"
   },
-  "last_updated": "2026-09-03"
+  "last_updated": "2026-09-04",
+  "description": "DeepSeek-V4-Flash-Vision-Exp is DeepSeek's experimental multimodal model in the V4-Flash family, adding visual understanding to the V4-Flash architecture. It serves a 1M-token (1,048,576) context window and supports image input with visual grounding, tool calling, structured/JSON output, and configurable reasoning effort (low/high/max, or disabled).",
+  "tagline": "DeepSeek-V4-Flash-Vision-Exp is DeepSeek's experimental multimodal model in the V4-Flash family, adding visual understanding to the V4-Flash architecture."
 }

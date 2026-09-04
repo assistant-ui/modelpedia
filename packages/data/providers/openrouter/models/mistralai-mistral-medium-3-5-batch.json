@@ -6,8 +6,8 @@
   "family": "mistral-medium",
   "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI.",
   "release_date": "2026-04-30",
-  "context_window": 262144,
-  "max_output_tokens": 209715,
+  "context_window": 32768,
+  "max_output_tokens": 26214,
   "model_type": "chat",
   "tagline": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI.",
   "capabilities": {
@@ -30,8 +30,8 @@
     "family": "a57f1b52",
     "description": "cbb3a008",
     "release_date": "a53a2b69",
-    "context_window": "4a1d32eb",
-    "max_output_tokens": "fbae4e32",
+    "context_window": "f4376436",
+    "max_output_tokens": "8f63b733",
     "model_type": "d669f408",
     "tagline": "cbb3a008",
     "capabilities": "03fbefb4",
@@ -39,5 +39,5 @@
     "pricing": "a9310148",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-04"
 }

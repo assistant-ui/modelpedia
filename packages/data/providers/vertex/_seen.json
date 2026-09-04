@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-03",
-  "count": 87,
+  "date": "2026-09-04",
+  "count": 89,
   "ids": [
     "antigravity-preview-05-2026",
     "claude-haiku-4-5-vertex",
@@ -78,6 +78,8 @@
     "jamba-1.5-mini-vertex",
     "lyria-3-clip-preview",
     "lyria-3-pro-preview",
+    "lyria-3.5-clip-preview",
+    "lyria-3.5-pro-preview",
     "lyria-realtime-exp",
     "mistral-medium-3-vertex",
     "text-embedding-004",
