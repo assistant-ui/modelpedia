@@ -4,7 +4,7 @@
   "created_by": "reve",
   "source": "official",
   "description": "Generate high-quality images from text prompts with strong prompt adherence, layout intelligence, and accurate text rendering using Reve 2.1.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-07-13",
   "model_type": "image",
   "page_url": "https://fal.run/reve/2.1/text-to-image",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "b2542b8d",
     "description": "d5b17e90",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "a393f093",
     "model_type": "db8857fe",
     "page_url": "15167803",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "4d92f2b5"
   },
-  "last_updated": "2026-07-24"
+  "last_updated": "2026-09-06"
 }

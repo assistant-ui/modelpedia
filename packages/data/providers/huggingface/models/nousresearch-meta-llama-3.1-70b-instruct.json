@@ -1,0 +1,41 @@
+{
+  "id": "NousResearch/Meta-Llama-3.1-70B-Instruct",
+  "name": "Meta-Llama-3.1-70B-Instruct",
+  "created_by": "nousresearch",
+  "source": "official",
+  "family": "Llama-3.1",
+  "release_date": "2024-07-24",
+  "context_window": 131072,
+  "license": "llama3.1",
+  "parameters": 71,
+  "page_url": "https://huggingface.co/NousResearch/Meta-Llama-3.1-70B-Instruct",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "79f2491f",
+    "family": "6cef7f07",
+    "release_date": "c01007e5",
+    "context_window": "f7de594e",
+    "license": "2464c384",
+    "parameters": "e2c420d9",
+    "page_url": "c30a220e",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-06"
+}

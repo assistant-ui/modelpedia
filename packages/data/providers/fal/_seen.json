@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-04",
-  "count": 1494,
+  "date": "2026-09-06",
+  "count": 1491,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -1419,9 +1419,6 @@
     "recraft-v4-style-text-to-vector",
     "resemble-ai-chatterboxhd-speech-to-speech",
     "resemble-ai-chatterboxhd-text-to-speech",
-    "reve-2.1-edit",
-    "reve-2.1-remix",
-    "reve-2.1-text-to-image",
     "rundiffusion-fal-juggernaut-flux-base",
     "rundiffusion-fal-juggernaut-flux-base-image-to-image",
     "rundiffusion-fal-juggernaut-flux-lightning",

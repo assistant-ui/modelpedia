@@ -1,0 +1,31 @@
+{
+  "id": "glm-5.3-flash",
+  "name": "GLM 5.3 Flash",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5.3",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.5,
+    "cached_input": 0.03
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "42f9a08b",
+    "family": "9f217d9a",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "bd8fa987",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-06"
+}

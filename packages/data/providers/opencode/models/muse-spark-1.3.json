@@ -1,0 +1,22 @@
+{
+  "id": "muse-spark-1.3",
+  "name": "Muse Spark 1.3",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 4.25,
+    "cached_input": 0.15
+  },
+  "_generated": {
+    "name": "ebfdd656",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6",
+    "pricing": "a0f59bdb"
+  },
+  "last_updated": "2026-09-06"
+}

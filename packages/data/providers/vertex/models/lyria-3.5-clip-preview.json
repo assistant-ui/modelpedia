@@ -3,7 +3,7 @@
   "name": "lyria-3.5-clip-preview",
   "created_by": "google",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 131072,
   "model_type": "tts",
   "license": "proprietary",
@@ -25,7 +25,7 @@
   "endpoints": ["generateContent", "streamGenerateContent"],
   "_generated": {
     "name": "3b961f6c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "f7de594e",
     "model_type": "4e16a2cf",
     "license": "9186c466",
@@ -35,5 +35,5 @@
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
   },
-  "last_updated": "2026-09-04"
+  "last_updated": "2026-09-06"
 }

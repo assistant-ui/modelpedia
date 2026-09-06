@@ -5,7 +5,7 @@
   "source": "official",
   "family": "deepseek-chat",
   "description": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 1000000,
   "max_output_tokens": 384000,
   "model_type": "chat",
@@ -35,7 +35,7 @@
     "name": "0478b8aa",
     "family": "fbd79fd9",
     "description": "45501e78",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "8155bc54",
     "max_output_tokens": "c58e26bd",
     "model_type": "d669f408",
@@ -49,5 +49,5 @@
     "endpoints": "772bacef",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-06"
 }

@@ -1,0 +1,25 @@
+{
+  "id": "gpt-6",
+  "name": "GPT-6 series",
+  "created_by": "openai",
+  "source": "official",
+  "description": "NEW gpt-6-astra",
+  "model_type": "chat",
+  "tagline": "NEW gpt-6-astra",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "54ad66c7",
+    "description": "25922f36",
+    "model_type": "d669f408",
+    "tagline": "25922f36",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-06"
+}

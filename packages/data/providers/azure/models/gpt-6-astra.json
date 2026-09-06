@@ -1,0 +1,38 @@
+{
+  "id": "gpt-6-astra",
+  "name": "gpt-6-astra",
+  "created_by": "openai",
+  "source": "official",
+  "description": "- Reasoning - Responses API . - Multi-agent orchestration (preview). - Chat Completions API. - Streaming. - Structured outputs. - Text and image input with text output. - Functions, tools, and parallel tool calling. - Reasoning effort and verbosity. - Log probabilities. - Computer use - Full summary of capabilities .",
+  "knowledge_cutoff": "2026-04",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "- Reasoning - Responses API .",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1d7a352e",
+    "description": "c3c3ceec",
+    "knowledge_cutoff": "58654c5c",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "d4e99fff",
+    "capabilities": "d1034176",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-06"
+}

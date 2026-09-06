@@ -3,7 +3,7 @@
   "name": "Flux Video Upscale",
   "created_by": "black-forest-labs",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "image",
   "page_url": "https://replicate.com/black-forest-labs/flux-video-upscale",
   "modalities": {
@@ -13,11 +13,11 @@
   "endpoints": ["images"],
   "_generated": {
     "name": "923f4e49",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "page_url": "34119158",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-06"
 }

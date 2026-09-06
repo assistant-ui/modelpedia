@@ -1,0 +1,32 @@
+{
+  "id": "inclusionai/ling-3.0-flash-sante:free",
+  "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total.",
+  "release_date": "2026-09-04",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "tagline": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2c1dd3f6",
+    "description": "d8af73e7",
+    "release_date": "d724e932",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "tagline": "d8af73e7",
+    "capabilities": "05723a3e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-06"
+}
