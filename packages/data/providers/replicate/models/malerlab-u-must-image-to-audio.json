@@ -1,0 +1,27 @@
+{
+  "id": "malerlab/u-must-image-to-audio",
+  "name": "U Must Image To Audio",
+  "created_by": "malerlab",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/malerlab/u-must-image-to-audio",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "86aef608",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "c12f9b7e",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-09-06"
+}

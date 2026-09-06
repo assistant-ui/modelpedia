@@ -1,0 +1,43 @@
+{
+  "id": "DreamFast/gemma-3-12b-it-heretic-v2",
+  "name": "gemma-3-12b-it-heretic-v2",
+  "created_by": "dreamfast",
+  "source": "official",
+  "family": "gemma-3",
+  "description": "An abliterated version of [Google's Gemma 3 12B IT](https://huggingface.co/google/gemma-3-12b-it) created using [Heretic](https://github.com/p-e-w/heretic) v1.3.0. This model has reduced refusals while maintaining model quality, making it suitable as an uncensored text encoder for video generation models like LTX-2.",
+  "release_date": "2026-03-10",
+  "license": "gemma",
+  "parameters": 12,
+  "page_url": "https://huggingface.co/DreamFast/gemma-3-12b-it-heretic-v2",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "An abliterated version of [Google's Gemma 3 12B IT](https://huggingface.co/google/gemma-3-12b-it) created using [Heretic](https://github.com/p-e-w/heretic) v1.3.0.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6b13d1c7",
+    "family": "d9e10ad8",
+    "description": "e5d44998",
+    "release_date": "49946764",
+    "license": "3fe02b16",
+    "parameters": "c20ad4d7",
+    "page_url": "2655adac",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "8e3af823",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-06"
+}

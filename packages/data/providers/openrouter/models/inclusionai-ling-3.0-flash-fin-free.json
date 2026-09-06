@@ -1,6 +1,6 @@
 {
   "id": "inclusionai/ling-3.0-flash-fin:free",
-  "name": "Ling 3.0 Flash Fin (free)",
+  "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
   "created_by": "inclusionai",
   "source": "official",
   "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total.",
@@ -18,7 +18,7 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "fe52a67f",
+    "name": "7916a949",
     "description": "04a85f09",
     "release_date": "0890bbf8",
     "context_window": "4a1d32eb",
@@ -28,5 +28,5 @@
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-06"
 }

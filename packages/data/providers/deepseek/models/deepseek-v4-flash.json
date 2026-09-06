@@ -5,7 +5,7 @@
   "source": "official",
   "family": "deepseek-chat",
   "description": "DeepSeek-V4-Flash hybrid model with both non-thinking and thinking (default) modes.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-08-21",
   "context_window": 1000000,
   "max_output_tokens": 384000,
@@ -41,7 +41,7 @@
     "name": "b1da8d61",
     "family": "fbd79fd9",
     "description": "2135f787",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "4b63df80",
     "context_window": "8155bc54",
     "max_output_tokens": "c58e26bd",
@@ -56,5 +56,5 @@
     "endpoints": "772bacef",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-06"
 }

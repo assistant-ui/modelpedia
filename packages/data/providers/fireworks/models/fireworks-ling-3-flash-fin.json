@@ -1,0 +1,24 @@
+{
+  "id": "fireworks/ling-3-flash-fin",
+  "name": "ling-3-flash-fin",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 262000,
+  "page_url": "https://fireworks.ai/models/fireworks/ling-3-flash-fin",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "_generated": {
+    "name": "ed83f499",
+    "context_window": "4ed74017",
+    "page_url": "b2774d41",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e"
+  },
+  "last_updated": "2026-09-06"
+}

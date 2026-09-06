@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-30",
-  "count": 114,
+  "date": "2026-09-06",
+  "count": 118,
   "ids": [
     "codex-mini",
     "cohere-command-a",
@@ -59,6 +59,8 @@
     "gpt-5.6-luna",
     "gpt-5.6-sol",
     "gpt-5.6-terra",
+    "gpt-6",
+    "gpt-6-astra",
     "gpt-audio",
     "gpt-audio-1.5",
     "gpt-chat-latest",
@@ -93,6 +95,8 @@
     "mai-image-2.5",
     "mai-image-2.5-flash",
     "mai-image-2.5-pro",
+    "mai-image-2.6",
+    "mai-image-2.6-flash",
     "mai-thinking-1",
     "ministral-3b",
     "mistral-document-ai",

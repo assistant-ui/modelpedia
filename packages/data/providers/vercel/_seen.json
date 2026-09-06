@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-03",
-  "count": 346,
+  "date": "2026-09-06",
+  "count": 348,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -144,6 +144,7 @@
     "inception-mercury-coder-small",
     "inclusionai-ling-3.0-flash",
     "inclusionai-ling-3.0-flash-fin",
+    "inclusionai-ling-3.0-flash-sante",
     "interfaze-interfaze-beta",
     "klingai-kling-v2.5-turbo-i2v",
     "klingai-kling-v2.5-turbo-t2v",
@@ -240,6 +241,7 @@
     "openai-gpt-5.6-luna",
     "openai-gpt-5.6-sol",
     "openai-gpt-5.6-terra",
+    "openai-gpt-6-astra",
     "openai-gpt-image-1",
     "openai-gpt-image-1-mini",
     "openai-gpt-image-1.5",

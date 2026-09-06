@@ -1,0 +1,16 @@
+{
+  "id": "malerlab/u-must-midi-to-audio",
+  "name": "U Must Midi To Audio",
+  "created_by": "malerlab",
+  "source": "official",
+  "status": "active",
+  "model_type": "audio",
+  "page_url": "https://replicate.com/malerlab/u-must-midi-to-audio",
+  "_generated": {
+    "name": "240d869d",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "page_url": "0a9691eb"
+  },
+  "last_updated": "2026-09-06"
+}

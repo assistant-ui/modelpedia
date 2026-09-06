@@ -1,0 +1,31 @@
+{
+  "id": "deepseek-v4-flash-vision-exp",
+  "name": "DeepSeek V4 Flash Vision Exp",
+  "created_by": "unknown",
+  "source": "official",
+  "family": "deepseek",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.28,
+    "cached_input": 0.028
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "ed00d17b",
+    "family": "4b81b92d",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "e83de778",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-06"
+}

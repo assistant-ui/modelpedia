@@ -1,0 +1,43 @@
+{
+  "id": "Featherless-Chat-Models/llama2-13b-chat-hf",
+  "name": "llama2-13b-chat-hf",
+  "created_by": "featherless-chat-models",
+  "source": "official",
+  "description": "Llama 2 is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. This is the repository for the 13B fine-tuned model, optimized for dialogue use cases and converted for the Hugging Face Transformers format. Links to other models can be found in the index at the bottom.",
+  "release_date": "2025-05-09",
+  "context_window": 4096,
+  "license": "llama2",
+  "parameters": 13,
+  "page_url": "https://huggingface.co/Featherless-Chat-Models/llama2-13b-chat-hf",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "tagline": "Llama 2 is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9ede954b",
+    "description": "9d777334",
+    "release_date": "144241ba",
+    "context_window": "f7efa4f8",
+    "license": "5e554d0d",
+    "parameters": "c51ce410",
+    "page_url": "37f2aa0d",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "tagline": "dfd6e57b",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-06"
+}

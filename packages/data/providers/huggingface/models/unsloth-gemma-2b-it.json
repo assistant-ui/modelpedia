@@ -1,0 +1,41 @@
+{
+  "id": "unsloth/gemma-2b-it",
+  "name": "gemma-2b-it",
+  "created_by": "unsloth",
+  "source": "official",
+  "family": "gemma-2b",
+  "release_date": "2024-02-21",
+  "context_window": 8192,
+  "license": "apache-2.0",
+  "parameters": 2.5,
+  "page_url": "https://huggingface.co/unsloth/gemma-2b-it",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "8f70d66e",
+    "family": "3349c229",
+    "release_date": "d193db3f",
+    "context_window": "77441296",
+    "license": "60245731",
+    "parameters": "8221435b",
+    "page_url": "19c7d958",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-06"
+}

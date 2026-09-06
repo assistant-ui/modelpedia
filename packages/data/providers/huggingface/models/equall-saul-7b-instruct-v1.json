@@ -1,0 +1,36 @@
+{
+  "id": "Equall/Saul-7B-Instruct-v1",
+  "name": "Saul-7B-Instruct-v1",
+  "created_by": "equall",
+  "source": "official",
+  "description": "This is the instruct model for Equall/Saul-Instruct-v1, a large instruct language model tailored for Legal domain. This model is obtained by continue pretraining of Mistral-7B.",
+  "release_date": "2024-02-07",
+  "context_window": 32768,
+  "license": "mit",
+  "parameters": 7.2,
+  "page_url": "https://huggingface.co/Equall/Saul-7B-Instruct-v1",
+  "architecture": "transformer",
+  "tagline": "This is the instruct model for Equall/Saul-Instruct-v1, a large instruct language model tailored for Legal domain.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f83d7652",
+    "description": "c722c7e4",
+    "release_date": "3a6a4193",
+    "context_window": "f4376436",
+    "license": "3c4c3ba5",
+    "parameters": "74c5d923",
+    "page_url": "6580bd6d",
+    "architecture": "8832ea0f",
+    "tagline": "61afa0da",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-06"
+}

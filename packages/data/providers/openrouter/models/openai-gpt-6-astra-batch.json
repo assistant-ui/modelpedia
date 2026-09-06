@@ -1,0 +1,42 @@
+{
+  "id": "openai/gpt-6-astra:batch",
+  "name": "OpenAI: GPT-6 Astra (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "description": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work.",
+  "release_date": "2026-09-04",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 25,
+    "cached_input": 0.5
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2ec888c6",
+    "description": "a8e02455",
+    "release_date": "d724e932",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "a8e02455",
+    "capabilities": "03fbefb4",
+    "modalities": "8b8b28d1",
+    "pricing": "b3cc594d",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-06"
+}
