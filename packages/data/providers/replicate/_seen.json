@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-06",
-  "count": 126,
+  "date": "2026-09-07",
+  "count": 125,
   "ids": [
     "851-labs-background-remover",
     "adirik-flux-cinestill",
@@ -106,7 +106,6 @@
     "prunaai-p-video",
     "prunaai-p-video-avatar",
     "prunaai-p-video-edit",
-    "prunaai-z-image-turbo",
     "rafaelgalle-whisper-diarization-advanced",
     "recraft-ai-recraft-v4-styles-pro-svg",
     "replicate-train-rvc-model",

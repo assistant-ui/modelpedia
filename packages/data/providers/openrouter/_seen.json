@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-06",
-  "count": 443,
+  "date": "2026-09-07",
+  "count": 442,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -440,7 +440,6 @@
     "z-ai-glm-5-turbo",
     "z-ai-glm-5.1",
     "z-ai-glm-5.2",
-    "z-ai-glm-5.2-free",
     "z-ai-glm-5.3",
     "z-ai-glm-5.3-flash",
     "z-ai-glm-5.3-flash-batch",
