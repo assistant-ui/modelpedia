@@ -3,7 +3,7 @@
   "name": "OTel-2.0-LLM-31B-IT",
   "created_by": "farbodtavakkoli",
   "source": "official",
-  "description": "> **Checkpoint update notice:** The current checkpoint is expected to be updated within the next few hours. After that initial refresh, OTel 2.0 checkpoints are expected to continue receiving weekly weight updates. For reproducible evaluation or production deployment, pin a specific model revision, checkpoint hash, or release tag.",
+  "description": "> **Versioning notice:** This card describes the current OTel 2.0 OSFT checkpoint. The model weights may be updated over time. For reproducible evaluation or production deployment, pin a specific model revision, checkpoint hash, or release tag rather than relying on the floating latest version.",
   "release_date": "2026-07-23",
   "context_window": 262144,
   "license": "apache-2.0",
@@ -19,7 +19,7 @@
   "tools": ["function_calling"],
   "_generated": {
     "name": "b2e9e01b",
-    "description": "023e09d4",
+    "description": "2c83fbbd",
     "release_date": "26fc75d3",
     "context_window": "4a1d32eb",
     "license": "60245731",
@@ -31,6 +31,6 @@
     "tools": "f0c1dc7e",
     "architecture": "8832ea0f"
   },
-  "last_updated": "2026-09-02",
+  "last_updated": "2026-09-08",
   "architecture": "transformer"
 }

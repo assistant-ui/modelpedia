@@ -1,0 +1,35 @@
+{
+  "id": "bria/increase-resolution",
+  "name": "Bria Increase Resolution Image",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Upscales image resolution to improve sharpness and size while preserving the original content",
+  "status": "active",
+  "release_date": "2026-09-07",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/increase-resolution",
+  "tagline": "Upscales image resolution to improve sharpness and size while preserving the original content",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-09-07",
+  "_generated": {
+    "name": "106bd2ce",
+    "description": "953e1dbf",
+    "status": "379ac110",
+    "release_date": "30330f20",
+    "model_type": "db8857fe",
+    "page_url": "dfb2b102",
+    "tagline": "953e1dbf",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "30330f20"
+  },
+  "last_updated": "2026-09-08"
+}

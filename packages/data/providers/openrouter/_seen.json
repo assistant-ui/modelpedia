@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-07",
-  "count": 442,
+  "date": "2026-09-08",
+  "count": 440,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -165,10 +165,8 @@
     "minimax-minimax-m2.1",
     "minimax-minimax-m2.5",
     "minimax-minimax-m2.7",
-    "minimax-minimax-m2.7-free",
     "minimax-minimax-m3",
     "minimax-minimax-m3-batch",
-    "minimax-minimax-m3-free",
     "mistralai-codestral",
     "mistralai-codestral-2508",
     "mistralai-devstral",

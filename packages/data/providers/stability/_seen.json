@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "count": 100,
   "ids": [
     "ar-stablelm-2-chat",
@@ -50,6 +50,7 @@
     "stable-code-3b",
     "stable-code-instruct-3b",
     "stable-codec-speech-16k",
+    "stable-codec-speech-16k-base",
     "stable-diffusion-3-medium",
     "stable-diffusion-3-medium-amdnpu",
     "stable-diffusion-3-medium-diffusers",
@@ -76,7 +77,6 @@
     "stable-video-diffusion-img2vid-xt-1-1",
     "stable-video-diffusion-img2vid-xt-1-1-tensorrt",
     "stable-virtual-camera",
-    "stable-zero123",
     "stablebeluga-13b",
     "stablebeluga-7b",
     "stablebeluga1-delta",

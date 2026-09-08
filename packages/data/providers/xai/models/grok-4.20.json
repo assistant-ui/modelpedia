@@ -4,7 +4,7 @@
   "created_by": "xai",
   "source": "official",
   "family": "grok-4.20",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 1000000,
   "model_type": "chat",
   "license": "proprietary",
@@ -26,7 +26,7 @@
   "_generated": {
     "name": "44972aca",
     "family": "44972aca",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "8155bc54",
     "model_type": "d669f408",
     "license": "9186c466",
@@ -36,5 +36,5 @@
     "modalities": "68e53d93",
     "pricing_notes": "f6a14059"
   },
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-09-08"
 }
