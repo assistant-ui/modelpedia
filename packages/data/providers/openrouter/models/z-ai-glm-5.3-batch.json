@@ -1,0 +1,44 @@
+{
+  "id": "z-ai/glm-5.3:batch",
+  "name": "Z.ai: GLM 5.3 (batch)",
+  "created_by": "z-ai",
+  "source": "official",
+  "family": "glm-5.3",
+  "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks.",
+  "release_date": "2026-08-18",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "model_type": "chat",
+  "tagline": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.7,
+    "output": 2.2,
+    "cached_input": 0.13
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f23f756d",
+    "family": "9f217d9a",
+    "description": "6c436eaf",
+    "release_date": "d4b26be2",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "model_type": "d669f408",
+    "tagline": "6c436eaf",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "aaf08c38",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-09"
+}

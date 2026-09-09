@@ -14,7 +14,7 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-09-07",
+  "last_seen_at": "2026-09-08",
   "_generated": {
     "name": "93812f17",
     "description": "e3590b2b",
@@ -25,7 +25,7 @@
     "tagline": "e3590b2b",
     "modalities": "94e5e9ab",
     "endpoints": "7a78c070",
-    "last_seen_at": "30330f20"
+    "last_seen_at": "f070775f"
   },
-  "last_updated": "2026-09-08"
+  "last_updated": "2026-09-09"
 }

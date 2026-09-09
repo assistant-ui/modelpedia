@@ -1,0 +1,32 @@
+{
+  "id": "inception/mercury-2.5",
+  "name": "mercury-2.5",
+  "created_by": "inception",
+  "source": "official",
+  "context_window": 260000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0.15
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6d665242",
+    "context_window": "5c6908c2",
+    "model_type": "d669f408",
+    "capabilities": "a281e83a",
+    "pricing": "fc860924",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-09"
+}

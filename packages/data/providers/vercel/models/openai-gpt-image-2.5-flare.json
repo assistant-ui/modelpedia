@@ -1,0 +1,23 @@
+{
+  "id": "openai/gpt-image-2.5-flare",
+  "name": "gpt-image-2.5-flare",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.5",
+  "model_type": "image",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 5,
+    "output": 30
+  },
+  "_generated": {
+    "name": "ba126f68",
+    "family": "b65aa56d",
+    "model_type": "db8857fe",
+    "capabilities": "0fa77dc6",
+    "pricing": "6d28a2f6"
+  },
+  "last_updated": "2026-09-09"
+}

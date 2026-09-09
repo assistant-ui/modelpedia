@@ -1,0 +1,50 @@
+{
+  "id": "mercury-2.5",
+  "name": "Mercury 2.5",
+  "created_by": "inception",
+  "source": "official",
+  "family": "mercury",
+  "description": "Mercury 2.5",
+  "status": "active",
+  "context_window": 260000,
+  "max_output_tokens": 65536,
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false,
+  "tagline": "Mercury 2.5",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "json_mode": true,
+    "structured_output": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0.15,
+    "cached_input": 0.004
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "9d9d0244",
+    "family": "428b012e",
+    "description": "9d9d0244",
+    "status": "379ac110",
+    "context_window": "5c6908c2",
+    "max_output_tokens": "297ce0b3",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "tagline": "9d9d0244",
+    "capabilities": "cec66b87",
+    "modalities": "68e53d93",
+    "pricing": "eac6e5c7",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-09-09"
+}

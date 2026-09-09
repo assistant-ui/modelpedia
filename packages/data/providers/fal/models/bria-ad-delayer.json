@@ -1,0 +1,30 @@
+{
+  "id": "bria/ad-delayer",
+  "name": "Bria Ad Delayer",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Convert a flat ad image into editable layers - background, product and logo cutouts, live text with typography, and vector shapes",
+  "status": "active",
+  "release_date": "2026-08-27",
+  "model_type": "other",
+  "page_url": "https://fal.run/bria/ad-delayer",
+  "tagline": "Convert a flat ad image into editable layers - background, product and logo cutouts, live text with typography, and vector shapes",
+  "capabilities": {
+    "vision": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "last_seen_at": "2026-09-08",
+  "_generated": {
+    "name": "fe59c509",
+    "description": "d1ee78e9",
+    "status": "379ac110",
+    "release_date": "0890bbf8",
+    "model_type": "ddb0b7bc",
+    "page_url": "a07858e6",
+    "tagline": "d1ee78e9",
+    "capabilities": "42538baa",
+    "last_seen_at": "f070775f"
+  },
+  "last_updated": "2026-09-09"
+}

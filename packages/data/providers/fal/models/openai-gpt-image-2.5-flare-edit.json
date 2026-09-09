@@ -1,0 +1,37 @@
+{
+  "id": "openai/gpt-image-2.5/flare/edit",
+  "name": "Gpt Image 2.5 Flare Edit",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.5",
+  "description": "Precise image editing that changes only what's asked, keeping subject, composition, and background intact, with reference subjects staying recognizable across styles and successive edits.",
+  "status": "active",
+  "release_date": "2026-09-08",
+  "model_type": "image",
+  "page_url": "https://fal.run/openai/gpt-image-2.5/flare/edit",
+  "tagline": "Precise image editing that changes only what's asked, keeping subject, composition, and background intact, with reference subjects staying recognizable across styles and successive edits.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-09-08",
+  "_generated": {
+    "name": "0cc803c6",
+    "family": "b65aa56d",
+    "description": "ce03c73b",
+    "status": "379ac110",
+    "release_date": "f070775f",
+    "model_type": "db8857fe",
+    "page_url": "4b850b7f",
+    "tagline": "ce03c73b",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "f070775f"
+  },
+  "last_updated": "2026-09-09"
+}

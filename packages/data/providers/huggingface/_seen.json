@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-08",
-  "count": 147,
+  "date": "2026-09-09",
+  "count": 146,
   "ids": [
     "aeon-7-qwen3.8-27b-aeon-ultimate-uncensored-bf16",
     "codellama-codellama-7b-instruct-hf",
@@ -144,7 +144,6 @@
     "zai-org-glm-4.7-fp8",
     "zai-org-glm-5",
     "zai-org-glm-5.1",
-    "zai-org-glm-5.1-fp8",
     "zai-org-glm-5.2",
     "zai-org-glm-5.2-fp8",
     "zai-org-glm-5.3",

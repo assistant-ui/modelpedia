@@ -1,0 +1,30 @@
+{
+  "id": "openai.gpt-6-astra",
+  "name": "GPT-6 Astra",
+  "created_by": "openai",
+  "source": "official",
+  "release_date": "2026-09-08",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-astra",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "c49e091e",
+    "release_date": "f070775f",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "page_url": "5142af84",
+    "capabilities": "8a3b232e",
+    "modalities": "8b8b28d1"
+  },
+  "last_updated": "2026-09-09"
+}

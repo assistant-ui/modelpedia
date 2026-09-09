@@ -1,0 +1,46 @@
+{
+  "id": "gpt-image-2.5-sunburst-2026-09-08",
+  "name": "gpt-image-2.5-sunburst-2026-09-08",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.5",
+  "status": "active",
+  "release_date": "2026-09-08",
+  "model_type": "image",
+  "license": "proprietary",
+  "alias": "gpt-image-2.5-sunburst",
+  "performance": 5,
+  "speed": 3,
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst?snapshot=gpt-image-2.5-sunburst-2026-09-08",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["image_generation", "image_edit"],
+  "_generated": {
+    "name": "da70e4fa",
+    "family": "b65aa56d",
+    "status": "379ac110",
+    "release_date": "f070775f",
+    "model_type": "db8857fe",
+    "license": "9186c466",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "page_url": "fefc806b",
+    "open_weight": "68934a3e",
+    "capabilities": "e6b78b42",
+    "modalities": "bbf9b8bb",
+    "endpoints": "ae04eebc"
+  },
+  "last_updated": "2026-09-09"
+}

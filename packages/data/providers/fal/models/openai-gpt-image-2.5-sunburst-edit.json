@@ -1,0 +1,37 @@
+{
+  "id": "openai/gpt-image-2.5/sunburst/edit",
+  "name": "Gpt Image 2.5 Sunburst Edit ",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.5",
+  "description": "Editing built for the tightest control, edits scoped precisely to the instruction, with subject and composition preserved across many rounds of revision.",
+  "status": "active",
+  "release_date": "2026-09-08",
+  "model_type": "image",
+  "page_url": "https://fal.run/openai/gpt-image-2.5/sunburst/edit",
+  "tagline": "Editing built for the tightest control, edits scoped precisely to the instruction, with subject and composition preserved across many rounds of revision.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-09-08",
+  "_generated": {
+    "name": "21585afc",
+    "family": "b65aa56d",
+    "description": "8bef4a0b",
+    "status": "379ac110",
+    "release_date": "f070775f",
+    "model_type": "db8857fe",
+    "page_url": "f6b7610b",
+    "tagline": "8bef4a0b",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "f070775f"
+  },
+  "last_updated": "2026-09-09"
+}
