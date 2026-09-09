@@ -1,11 +1,9 @@
 {
-  "date": "2026-08-13",
-  "count": 16,
+  "date": "2026-09-09",
+  "count": 14,
   "ids": [
-    "grok-4.20",
     "grok-4.20-0309-non-reasoning",
     "grok-4.20-0309-reasoning",
-    "grok-4.20-multi-agent",
     "grok-4.20-multi-agent-0309",
     "grok-4.3",
     "grok-4.5",

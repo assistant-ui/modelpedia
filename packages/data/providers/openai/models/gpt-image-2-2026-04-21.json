@@ -10,7 +10,7 @@
   "model_type": "image",
   "license": "proprietary",
   "alias": "gpt-image-2",
-  "performance": 5,
+  "performance": 4,
   "speed": 3,
   "page_url": "https://developers.openai.com/api/docs/models/gpt-image-2?snapshot=gpt-image-2-2026-04-21",
   "open_weight": false,
@@ -77,7 +77,7 @@
     "release_date": "5029e96d",
     "model_type": "db8857fe",
     "license": "9186c466",
-    "performance": "e4da3b7f",
+    "performance": "a87ff679",
     "speed": "eccbc87e",
     "page_url": "07fb0660",
     "open_weight": "68934a3e",
@@ -87,5 +87,5 @@
     "pricing": "76933ea9",
     "endpoints": "af128fc0"
   },
-  "last_updated": "2026-04-24"
+  "last_updated": "2026-09-09"
 }

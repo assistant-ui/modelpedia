@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/elevenlabs/forced-alignment",
+  "name": "Elevenlabs - Forced Alignment",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Align the transcript and your audio recording using Elevenlab's forced alignment feature!",
+  "status": "active",
+  "release_date": "2026-09-08",
+  "model_type": "transcription",
+  "page_url": "https://fal.run/fal-ai/elevenlabs/forced-alignment",
+  "tagline": "Align the transcript and your audio recording using Elevenlab's forced alignment feature!",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "last_seen_at": "2026-09-08",
+  "_generated": {
+    "name": "4c701e0d",
+    "description": "37a31542",
+    "status": "379ac110",
+    "release_date": "f070775f",
+    "model_type": "5e12d29a",
+    "page_url": "4ee3cd17",
+    "tagline": "37a31542",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "last_seen_at": "f070775f"
+  },
+  "last_updated": "2026-09-09"
+}

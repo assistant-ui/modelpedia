@@ -1,0 +1,37 @@
+{
+  "id": "openai/gpt-image-2.5/flare/text-to-image",
+  "name": "Gpt Image 2.5 Flare Text to Image",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.5",
+  "description": "OpenAI's default image model for most applications.",
+  "status": "active",
+  "release_date": "2026-09-08",
+  "model_type": "image",
+  "page_url": "https://fal.run/openai/gpt-image-2.5/flare/text-to-image",
+  "tagline": "OpenAI's default image model for most applications.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-09-08",
+  "_generated": {
+    "name": "072556bb",
+    "family": "b65aa56d",
+    "description": "5228d643",
+    "status": "379ac110",
+    "release_date": "f070775f",
+    "model_type": "db8857fe",
+    "page_url": "15f6f268",
+    "tagline": "5228d643",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "f070775f"
+  },
+  "last_updated": "2026-09-09"
+}

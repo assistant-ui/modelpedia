@@ -1,0 +1,55 @@
+{
+  "id": "gpt-image-2.5-flare",
+  "name": "GPT-Image-2.5 Flare",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.5",
+  "status": "active",
+  "release_date": "2026-09-08",
+  "model_type": "image",
+  "license": "proprietary",
+  "performance": 4,
+  "speed": 5,
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-flare",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["image_generation", "image_edit"],
+  "snapshots": ["gpt-image-2.5-flare-2026-09-08", "gpt-image-2.5-flare"],
+  "_generated": {
+    "name": "7d460010",
+    "family": "b65aa56d",
+    "status": "379ac110",
+    "release_date": "f070775f",
+    "model_type": "db8857fe",
+    "license": "9186c466",
+    "performance": "a87ff679",
+    "speed": "e4da3b7f",
+    "page_url": "ca80d2f0",
+    "open_weight": "68934a3e",
+    "capabilities": "e6b78b42",
+    "modalities": "bbf9b8bb",
+    "endpoints": "ae04eebc",
+    "description": "7e5e2001",
+    "tagline": "62d4ee2c",
+    "pricing_notes": "601c0729"
+  },
+  "last_updated": "2026-09-09",
+  "description": "GPT Image 2.5 Flare is our fastest model for high-quality, everyday image generation. It accepts text and image inputs and produces image outputs. It supports `low`, `medium`, `high`, `xhigh`, `max`, and `auto` quality settings. Select it directly in the Image API or as the model of the Responses API image generation tool. Learn more in the [image generation guide](/api/docs/guides/image-generation).\\n",
+  "tagline": "Fast, high-quality everyday image generation",
+  "pricing_notes": [
+    "Image output costs $30 per million tokens. Text output is not billed because this model outputs images, not text.",
+    "Token rates match GPT Image 2. The GPT Image 2 calculator does not estimate GPT Image 2.5 token consumption."
+  ]
+}

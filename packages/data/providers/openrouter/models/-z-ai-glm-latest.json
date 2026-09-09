@@ -7,7 +7,7 @@
   "description": "This model always redirects to the latest GLM model from Z.ai.",
   "release_date": "2026-08-19",
   "context_window": 1310720,
-  "max_output_tokens": 943718,
+  "max_output_tokens": 128000,
   "model_type": "chat",
   "tagline": "This model always redirects to the latest GLM model from Z.ai.",
   "capabilities": {
@@ -21,9 +21,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 1.12,
-    "output": 3.52,
-    "cached_input": 0.208
+    "input": 1.113,
+    "output": 3.498,
+    "cached_input": 0.207
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -32,13 +32,13 @@
     "description": "23c5ed12",
     "release_date": "e97f480b",
     "context_window": "32886eaa",
-    "max_output_tokens": "7843f47e",
+    "max_output_tokens": "34434798",
     "model_type": "d669f408",
     "tagline": "23c5ed12",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
-    "pricing": "4f05a839",
+    "pricing": "0d5f920c",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-08"
+  "last_updated": "2026-09-09"
 }

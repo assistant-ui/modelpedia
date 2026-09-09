@@ -1,0 +1,55 @@
+{
+  "id": "gpt-image-2.5-sunburst",
+  "name": "GPT-Image-2.5 Sunburst",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.5",
+  "status": "active",
+  "release_date": "2026-09-08",
+  "model_type": "image",
+  "license": "proprietary",
+  "performance": 5,
+  "speed": 3,
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["image_generation", "image_edit"],
+  "snapshots": ["gpt-image-2.5-sunburst-2026-09-08", "gpt-image-2.5-sunburst"],
+  "_generated": {
+    "name": "e4fc616f",
+    "family": "b65aa56d",
+    "status": "379ac110",
+    "release_date": "f070775f",
+    "model_type": "db8857fe",
+    "license": "9186c466",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "page_url": "4599dd1c",
+    "open_weight": "68934a3e",
+    "capabilities": "e6b78b42",
+    "modalities": "bbf9b8bb",
+    "endpoints": "ae04eebc",
+    "description": "7188c999",
+    "tagline": "23ce597e",
+    "pricing_notes": "601c0729"
+  },
+  "last_updated": "2026-09-09",
+  "description": "GPT Image 2.5 Sunburst generates and edits images from text and image inputs. Use it for workflows where editing precision matters most. It supports `low`, `medium`, `high`, `xhigh`, `max`, and `auto` quality settings. Select it directly in the Image API or as the model of the Responses API image generation tool. Learn more in the [image generation guide](/api/docs/guides/image-generation).\\n",
+  "tagline": "Our most capable model for image generation and editing",
+  "pricing_notes": [
+    "Image output costs $30 per million tokens. Text output is not billed because this model outputs images, not text.",
+    "Token rates match GPT Image 2. The GPT Image 2 calculator does not estimate GPT Image 2.5 token consumption."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "inclusionAI/Ling-3.0-flash-VL",
+  "name": "Ling-3.0-flash-VL",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "The multimodal version built on Ling-3.0-flash — 124B total / ~5.5B active per token, with native text, image, and video understanding. It’s mainly designed for multimodal agentic workflows, long-context understanding, and multi-step reasoning.",
+  "status": "active",
+  "context_window": 131072,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "tagline": "The multimodal version built on Ling-3.0-flash — 124B total / ~5.5B active per token, with native text, image, and video understanding.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0.18,
+    "cached_input": 0.012
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp16",
+  "_generated": {
+    "name": "96e42561",
+    "description": "3113c1fa",
+    "status": "379ac110",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "tagline": "a65c11ab",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "70d151c2",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "a7cff86c"
+  },
+  "last_updated": "2026-09-09"
+}

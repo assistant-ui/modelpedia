@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-04",
-  "count": 229,
+  "date": "2026-09-09",
+  "count": 230,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -100,6 +100,7 @@
     "ibm-granite-granite-4.2-8b",
     "inclusionai-ling-3.0-flash",
     "inclusionai-ling-3.0-flash-fin",
+    "inclusionai-ling-3.0-flash-vl",
     "intfloat-e5-base-v2",
     "intfloat-e5-large-v2",
     "intfloat-multilingual-e5-large",

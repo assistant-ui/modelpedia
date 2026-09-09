@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-06",
-  "count": 157,
+  "date": "2026-09-09",
+  "count": 161,
   "ids": [
     "babbage-002",
     "chat-latest",
@@ -109,6 +109,10 @@
     "gpt-image-1.5-2025-12-16",
     "gpt-image-2",
     "gpt-image-2-2026-04-21",
+    "gpt-image-2.5-flare",
+    "gpt-image-2.5-flare-2026-09-08",
+    "gpt-image-2.5-sunburst",
+    "gpt-image-2.5-sunburst-2026-09-08",
     "gpt-live-transcribe",
     "gpt-oss-120b",
     "gpt-oss-20b",
