@@ -3,7 +3,7 @@
   "name": "Nous: Hermes 4 70B",
   "created_by": "nousresearch",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-10",
   "description": "Hermes 4 70B is a hybrid reasoning model from Nous Research, built on Meta-Llama-3.1-70B.",
   "context_window": 131072,
   "modalities": {
@@ -30,11 +30,13 @@
     "parameters": "7cbbc409",
     "release_date": "5b0c513c",
     "tagline": "df9db0b9",
-    "max_output_tokens": "242f56a4"
+    "max_output_tokens": "242f56a4",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "parameters": 70,
   "release_date": "2025-08-26",
   "tagline": "Hermes 4 70B is a hybrid reasoning model from Nous Research, built on Meta-Llama-3.1-70B.",
-  "max_output_tokens": 117964
+  "max_output_tokens": 117964,
+  "status": "deprecated"
 }

@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-30",
-  "count": 36,
+  "date": "2026-09-10",
+  "count": 38,
   "ids": [
     "c4ai-aya-expanse-32b",
     "c4ai-aya-expanse-8b",
@@ -28,6 +28,8 @@
     "embed-multilingual-v2.0",
     "embed-multilingual-v3.0",
     "embed-v4.0",
+    "north-mini-code-1-0",
+    "north-small-translate-1-0",
     "parse-v5.0",
     "rerank-english-v3.0",
     "rerank-multilingual-v3.0",

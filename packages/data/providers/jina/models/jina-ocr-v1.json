@@ -1,0 +1,39 @@
+{
+  "id": "jina-ocr-v1",
+  "name": "Jina OCR v1",
+  "created_by": "jina",
+  "source": "official",
+  "family": "jina-ocr",
+  "description": "jina-ocr-v1 is a document OCR model served through the OpenAI chat completions schema: send a page image and it returns the transcription as text or markdown. The vision tower compresses a page into a small number of visual tokens before the language model reads them, so an A4 page costs roughly 903 input tokens regardless of how dense it is, and cost scales with what is transcribed rather than with page complexity. Structured extraction is supported through response_format with a JSON schema, and responses can be streamed.",
+  "status": "active",
+  "release_date": "2026-09-10",
+  "context_window": 32768,
+  "model_type": "embed",
+  "license": "jina-ai",
+  "open_weight": true,
+  "tagline": "jina-ocr-v1 is a document OCR model served through the OpenAI chat completions schema: send a page image and it returns the transcription as text or markdown.",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": []
+  },
+  "pricing": {
+    "input": 3
+  },
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "dff0aa5f",
+    "family": "fd36eff1",
+    "description": "68afb968",
+    "status": "379ac110",
+    "release_date": "b057cbf8",
+    "context_window": "f4376436",
+    "model_type": "764cb3de",
+    "license": "0b7dd534",
+    "open_weight": "b326b506",
+    "tagline": "18c8bd65",
+    "modalities": "e20ad98b",
+    "pricing": "cfcd0de0",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-09-10"
+}

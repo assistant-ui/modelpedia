@@ -46,7 +46,11 @@
     "pricing": "cbee7ae4",
     "open_weight": "b326b506",
     "endpoints": "772bacef",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "b057cbf8",
+    "successor": "23166e62"
   },
-  "last_updated": "2026-09-06"
+  "last_updated": "2026-09-10",
+  "deprecation_date": "2026-09-10",
+  "successor": "deepseek-v4-pro-2026-09-10"
 }

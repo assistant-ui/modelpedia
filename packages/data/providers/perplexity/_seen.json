@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-30",
-  "count": 46,
+  "date": "2026-09-10",
+  "count": 47,
   "ids": [
     "anthropic-claude-fable-5",
     "anthropic-claude-haiku-4-5",
@@ -19,6 +19,7 @@
     "google-gemini-3.5-flash-lite",
     "google-gemini-3.6-flash",
     "google-gemini-3.7-flash",
+    "google-gemini-3.8-flash",
     "openai-gpt-5",
     "openai-gpt-5-mini",
     "openai-gpt-5.1",

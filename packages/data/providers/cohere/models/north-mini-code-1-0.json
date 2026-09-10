@@ -1,0 +1,37 @@
+{
+  "id": "north-mini-code-1-0",
+  "name": "north-mini-code-1-0",
+  "created_by": "cohere",
+  "source": "official",
+  "description": "North Mini Code is a 30B total / 3B active parameter MoE model trained for agentic coding.",
+  "status": "active",
+  "context_window": 256000,
+  "max_output_tokens": 64000,
+  "license": "proprietary",
+  "page_url": "https://docs.cohere.com/docs/models#north-mini-code-1-0",
+  "tagline": "North Mini Code is a 30B total / 3B active parameter MoE model trained for agentic coding.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "51ba909e",
+    "description": "63d33e45",
+    "status": "379ac110",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "762e98db",
+    "license": "9186c466",
+    "page_url": "f6e9fa63",
+    "tagline": "63d33e45",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e",
+    "endpoints": "75df3f1c"
+  },
+  "last_updated": "2026-09-10"
+}

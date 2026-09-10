@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-09",
-  "count": 350,
+  "date": "2026-09-10",
+  "count": 349,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -105,7 +105,7 @@
     "deepseek-deepseek-v4-flash-vision-exp",
     "deepseek-deepseek-v4-pro",
     "deepseek-deepseek-v4-pro-0813",
-    "deepseek-deepseek-v4.1-flash-beta",
+    "deepseek-deepseek-v4.1-flash",
     "exa-search",
     "fish-audio-s1",
     "fish-audio-s2-pro",
@@ -307,7 +307,6 @@
     "spacexai-grok-imagine-image-2.0",
     "spacexai-grok-imagine-video",
     "spacexai-grok-imagine-video-1.5",
-    "spacexai-grok-imagine-video-1.5-preview",
     "spacexai-grok-stt",
     "spacexai-grok-tts",
     "spacexai-grok-voice-think-fast-1.0",

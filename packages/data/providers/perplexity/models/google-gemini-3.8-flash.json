@@ -1,0 +1,33 @@
+{
+  "id": "google/gemini-3.8-flash",
+  "name": "google/gemini-3.8-flash",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.8",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.75,
+    "output": 3.75,
+    "cached_input": 0.075
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "3bc28b09",
+    "family": "d937426a",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "ba418c83",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-10"
+}
