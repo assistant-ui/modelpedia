@@ -15,7 +15,7 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "tools": ["function_calling"],
@@ -27,8 +27,8 @@
     "max_output_tokens": "7ad80673",
     "tagline": "d1f9ed2a",
     "capabilities": "03fbefb4",
-    "modalities": "68e53d93",
+    "modalities": "6399757e",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-09"
+  "last_updated": "2026-09-10"
 }

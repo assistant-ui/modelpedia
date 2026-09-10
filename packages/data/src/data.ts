@@ -58895,6 +58895,65 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://docs.cohere.com/docs/models#embed-v4.0"
       },
       {
+        "id": "north-mini-code-1-0",
+        "name": "north-mini-code-1-0",
+        "created_by": "cohere",
+        "source": "official",
+        "description": "North Mini Code is a 30B total / 3B active parameter MoE model trained for agentic coding.",
+        "status": "active",
+        "context_window": 256000,
+        "max_output_tokens": 64000,
+        "license": "proprietary",
+        "page_url": "https://docs.cohere.com/docs/models#north-mini-code-1-0",
+        "tagline": "North Mini Code is a 30B total / 3B active parameter MoE model trained for agentic coding.",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weight": false,
+        "endpoints": [
+          "chat"
+        ],
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "north-small-translate-1-0",
+        "name": "north-small-translate-1-0",
+        "created_by": "cohere",
+        "source": "official",
+        "description": "North Small Translate is a 218B total / 25B active parameter MoE model purpose-built for machine translation across more than 50 languages.",
+        "status": "active",
+        "context_window": 16000,
+        "max_output_tokens": 16000,
+        "license": "proprietary",
+        "page_url": "https://docs.cohere.com/docs/models#north-small-translate-1-0",
+        "model_type": "translation",
+        "tagline": "North Small Translate is a 218B total / 25B active parameter MoE model purpose-built for machine translation across more than 50 languages.",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weight": false,
+        "endpoints": [
+          "chat"
+        ],
+        "last_updated": "2026-09-10"
+      },
+      {
         "id": "parse-v5.0",
         "name": "parse-v5.0",
         "created_by": "cohere",
@@ -64021,7 +64080,7 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.44,
           "output": 1.32,
-          "cached_input": 0.14
+          "cached_input": 0.014
         },
         "tools": [
           "function_calling"
@@ -64030,7 +64089,7 @@ export const providers: ProviderWithModels[] = [
           "chat_completions"
         ],
         "quantization": "fp8",
-        "last_updated": "2026-09-04",
+        "last_updated": "2026-09-10",
         "description": "DeepSeek-V4-Flash-Vision-Exp is DeepSeek's experimental multimodal model in the V4-Flash family, adding visual understanding to the V4-Flash architecture. It serves a 1M-token (1,048,576) context window and supports image input with visual grounding, tool calling, structured/JSON output, and configurable reasoning effort (low/high/max, or disabled).",
         "tagline": "DeepSeek-V4-Flash-Vision-Exp is DeepSeek's experimental multimodal model in the V4-Flash family, adding visual understanding to the V4-Flash architecture.",
         "max_output_tokens": 384000
@@ -71709,6 +71768,45 @@ export const providers: ProviderWithModels[] = [
         ]
       },
       {
+        "id": "deepseek-flash",
+        "name": "DeepSeek V4",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek-chat",
+        "description": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
+        "status": "active",
+        "context_window": 1000000,
+        "max_output_tokens": 384000,
+        "model_type": "chat",
+        "reasoning_tokens": true,
+        "license": "mit",
+        "tagline": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
+        "capabilities": {
+          "streaming": true,
+          "json_mode": true,
+          "tool_call": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions",
+          "completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-09-10"
+      },
+      {
         "id": "deepseek-reasoner-2025-01-20",
         "name": "DeepSeek R1 (Reasoner)",
         "created_by": "deepseek",
@@ -72093,7 +72191,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "deepseek-chat",
         "description": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "chat",
         "reasoning_tokens": true,
         "license": "mit",
@@ -72116,7 +72214,7 @@ export const providers: ProviderWithModels[] = [
           "chat_completions",
           "completions"
         ],
-        "last_updated": "2026-09-04"
+        "last_updated": "2026-09-10"
       },
       {
         "id": "deepseek-v4-flash-vision-exp",
@@ -72346,7 +72444,53 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-06"
+        "last_updated": "2026-09-10",
+        "deprecation_date": "2026-09-10",
+        "successor": "deepseek-v4-pro-2026-09-10"
+      },
+      {
+        "id": "deepseek-v4-pro-2026-09-10",
+        "name": "DeepSeek V4-Pro",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek-chat",
+        "status": "active",
+        "release_date": "2026-09-10",
+        "context_window": 1000000,
+        "max_output_tokens": 384000,
+        "model_type": "chat",
+        "reasoning_tokens": true,
+        "license": "mit",
+        "alias": "deepseek-v4-pro",
+        "capabilities": {
+          "streaming": true,
+          "json_mode": true,
+          "tool_call": true,
+          "reasoning": true,
+          "fine_tuning": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6,
+          "cached_input": 0.003
+        },
+        "open_weight": true,
+        "endpoints": [
+          "chat_completions",
+          "completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-09-10"
       },
       {
         "id": "deepseek-v4-pro",
@@ -72355,8 +72499,8 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "deepseek-chat",
         "description": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
-        "status": "deprecated",
-        "release_date": "2026-08-13",
+        "status": "active",
+        "release_date": "2026-09-10",
         "context_window": 1000000,
         "max_output_tokens": 384000,
         "model_type": "chat",
@@ -72379,9 +72523,9 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.22,
-          "output": 0.66,
-          "cached_input": 0.007
+          "input": 0.15,
+          "output": 0.6,
+          "cached_input": 0.003
         },
         "open_weight": true,
         "endpoints": [
@@ -72394,9 +72538,10 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "deepseek-v4-pro-2026-04-24",
           "deepseek-v4-pro-2026-07-31",
-          "deepseek-v4-pro-2026-08-13"
+          "deepseek-v4-pro-2026-08-13",
+          "deepseek-v4-pro-2026-09-10"
         ],
-        "last_updated": "2026-09-06"
+        "last_updated": "2026-09-10"
       }
     ]
   },
@@ -73216,10 +73361,10 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "bria/ad-delayer",
-        "name": "Bria Ad Delayer",
+        "name": "Bria Ad Delayer: Convert Flat Ads into Editable Layers | fal",
         "created_by": "bria",
         "source": "official",
-        "description": "Convert a flat ad image into editable layers - background, product and logo cutouts, live text with typography, and vector shapes",
+        "description": "Turn any flat ad image into fully editable layers —background, product and logo cutouts, live text with typography, and vector shapes.",
         "status": "active",
         "release_date": "2026-08-27",
         "model_type": "other",
@@ -73230,8 +73375,8 @@ export const providers: ProviderWithModels[] = [
           "structured_output": true,
           "json_mode": true
         },
-        "last_seen_at": "2026-09-08",
-        "last_updated": "2026-09-09"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "bria/bria_video_eraser/erase/keypoints",
@@ -73948,10 +74093,10 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "bria/increase-resolution",
-        "name": "Bria Increase Resolution Image",
+        "name": "Bria Increase Resolution: Upscale Images up to 4x Without Losing Detail | fal",
         "created_by": "bria",
         "source": "official",
-        "description": "Upscales image resolution to improve sharpness and size while preserving the original content",
+        "description": "Upscale any image 2x or 4x, up to 8192×8192, with Bria Increase Resolution.",
         "status": "active",
         "release_date": "2026-09-07",
         "model_type": "image",
@@ -73972,8 +74117,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-09-07",
-        "last_updated": "2026-09-08"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "bria/product-dimensions",
@@ -74597,8 +74742,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_seen_at": "2026-08-28",
-        "last_updated": "2026-08-30"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "bytedance/seedance-2.5/text-to-video",
@@ -107595,8 +107740,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-08-07",
-        "last_updated": "2026-08-13"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "hitem3d/hi3d/image-to-relief",
@@ -107624,8 +107769,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-08-07",
-        "last_updated": "2026-08-13"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "hitem3d/hi3d/multi-view-to-3d",
@@ -107641,8 +107786,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-08-07",
-        "last_updated": "2026-08-13"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "hitem3d/hi3d/multicolor",
@@ -107655,8 +107800,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://fal.run/hitem3d/hi3d/multicolor",
         "tagline": "Convert a textured 3D model into a multicolor model suited for multicolor 3D printing with Hi3D.",
-        "last_seen_at": "2026-08-07",
-        "last_updated": "2026-08-13"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "hitem3d/hi3d/split",
@@ -107669,8 +107814,8 @@ export const providers: ProviderWithModels[] = [
         "model_type": "other",
         "page_url": "https://fal.run/hitem3d/hi3d/split",
         "tagline": "Split a 3D model into parts with Hi3D.",
-        "last_seen_at": "2026-08-07",
-        "last_updated": "2026-08-13"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "hitem3d/hi3d/texture",
@@ -107686,8 +107831,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-08-07",
-        "last_updated": "2026-08-13"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "hitem3d/hi3d/v3.0/image-to-3d",
@@ -107703,8 +107848,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-08-19",
-        "last_updated": "2026-08-30"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "hitem3d/hi3d/v3.0/multi-view-to-3d",
@@ -107720,8 +107865,8 @@ export const providers: ProviderWithModels[] = [
         "capabilities": {
           "vision": true
         },
-        "last_seen_at": "2026-08-19",
-        "last_updated": "2026-08-30"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "ideogram/v4/fast",
@@ -109675,8 +109820,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-09-08",
-        "last_updated": "2026-09-09"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "openai/gpt-image-2.5/flare/text-to-image",
@@ -109704,8 +109849,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-09-08",
-        "last_updated": "2026-09-09"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "openai/gpt-image-2.5/sunburst/edit",
@@ -109734,8 +109879,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-09-08",
-        "last_updated": "2026-09-09"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "openai/gpt-image-2.5/sunburst/text-to-image",
@@ -109763,8 +109908,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_seen_at": "2026-09-08",
-        "last_updated": "2026-09-09"
+        "last_seen_at": "2026-09-09",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "openai/gpt-image-2",
@@ -127274,6 +127419,37 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-09-08"
       },
       {
+        "id": "ibm-granite/granite-4.2-8b",
+        "name": "granite-4.2-8b",
+        "created_by": "ibm-granite",
+        "source": "official",
+        "release_date": "2026-08-07",
+        "context_window": 131072,
+        "license": "apache-2.0",
+        "parameters": 8.8,
+        "page_url": "https://huggingface.co/ibm-granite/granite-4.2-8b",
+        "architecture": "transformer",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "fine_tuning": true
+        },
+        "open_weight": true,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-09-10"
+      },
+      {
         "id": "IlyaGusev/gemma-2-2b-it-abliterated",
         "name": "gemma-2-2b-it-abliterated",
         "created_by": "ilyagusev",
@@ -127332,7 +127508,7 @@ export const providers: ProviderWithModels[] = [
         "name": "neural-chat-7b-v3-3",
         "created_by": "intel",
         "source": "official",
-        "last_updated": "2026-03-22",
+        "last_updated": "2026-09-10",
         "capabilities": {
           "streaming": true,
           "tool_call": true,
@@ -127342,7 +127518,12 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/Intel/neural-chat-7b-v3-3",
         "release_date": "2023-12-09",
         "context_window": 32768,
-        "license": "apache-2.0"
+        "license": "apache-2.0",
+        "architecture": "transformer",
+        "open_weight": true,
+        "tools": [
+          "function_calling"
+        ]
       },
       {
         "id": "invalid-coder/Sakura-SOLAR-Instruct-CarbonVillain-en-10.7B-v2-slerp",
@@ -134689,6 +134870,35 @@ export const providers: ProviderWithModels[] = [
         ]
       },
       {
+        "id": "jina-ocr-v1",
+        "name": "Jina OCR v1",
+        "created_by": "jina",
+        "source": "official",
+        "family": "jina-ocr",
+        "description": "jina-ocr-v1 is a document OCR model served through the OpenAI chat completions schema: send a page image and it returns the transcription as text or markdown. The vision tower compresses a page into a small number of visual tokens before the language model reads them, so an A4 page costs roughly 903 input tokens regardless of how dense it is, and cost scales with what is transcribed rather than with page complexity. Structured extraction is supported through response_format with a JSON schema, and responses can be streamed.",
+        "status": "active",
+        "release_date": "2026-09-10",
+        "context_window": 32768,
+        "model_type": "embed",
+        "license": "jina-ai",
+        "open_weight": true,
+        "tagline": "jina-ocr-v1 is a document OCR model served through the OpenAI chat completions schema: send a page image and it returns the transcription as text or markdown.",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": []
+        },
+        "pricing": {
+          "input": 3
+        },
+        "endpoints": [
+          "embeddings"
+        ],
+        "last_updated": "2026-09-10"
+      },
+      {
         "id": "jina-reranker-m0",
         "name": "Jina Reranker M0",
         "created_by": "jina",
@@ -141702,6 +141912,40 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-09-01",
         "license": "mit",
         "open_weight": true
+      },
+      {
+        "id": "deepseek/deepseek-v4.1-flash-expires-on-0910",
+        "name": "DeepSeek V4.1 Flash Expires Exp",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "status": "active",
+        "release_date": "2026-09-09",
+        "context_window": 1048576,
+        "max_output_tokens": 393216,
+        "model_type": "chat",
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true,
+          "structured_output": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-09-10"
       },
       {
         "id": "deepseek/deepseek_v3",
@@ -148750,7 +148994,8 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-06-18",
+        "last_updated": "2026-09-10",
+        "status": "deprecated",
         "description": "Latest M-series language model for agentic reasoning, tool use, coding, and long-context tasks",
         "tagline": "Latest M-series language model for agentic reasoning, tool use, coding, and long-context tasks",
         "context_window": 1000000,
@@ -151993,8 +152238,7 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "text"
@@ -152003,7 +152247,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-04-07",
+        "last_updated": "2026-09-10",
         "parameters": 31,
         "release_date": "2026-04-02",
         "reasoning_tokens": true
@@ -163942,7 +164186,9 @@ export const providers: ProviderWithModels[] = [
           "image_generation",
           "image_edit"
         ],
-        "last_updated": "2026-09-09"
+        "last_updated": "2026-09-10",
+        "description": "GPT Image 2.5 Flare is our fastest model for high-quality, everyday image generation. It accepts text and image inputs and produces image outputs. It supports `low`, `medium`, `high`, `xhigh`, `max`, and `auto` quality settings. Select it directly in the Image API or as the model of the Responses API image generation tool. Learn more in the [image generation guide](/api/docs/guides/image-generation).\\n",
+        "tagline": "GPT Image 2.5 Flare is our fastest model for high-quality, everyday image generation."
       },
       {
         "id": "gpt-image-2.5-flare",
@@ -164029,7 +164275,9 @@ export const providers: ProviderWithModels[] = [
           "image_generation",
           "image_edit"
         ],
-        "last_updated": "2026-09-09"
+        "last_updated": "2026-09-10",
+        "description": "GPT Image 2.5 Sunburst generates and edits images from text and image inputs. Use it for workflows where editing precision matters most. It supports `low`, `medium`, `high`, `xhigh`, `max`, and `auto` quality settings. Select it directly in the Image API or as the model of the Responses API image generation tool. Learn more in the [image generation guide](/api/docs/guides/image-generation).\\n",
+        "tagline": "GPT Image 2.5 Sunburst generates and edits images from text and image inputs."
       },
       {
         "id": "gpt-image-2.5-sunburst",
@@ -171224,7 +171472,7 @@ export const providers: ProviderWithModels[] = [
         "release_date": "2026-08-27",
         "deprecation_date": "2098-12-31",
         "context_window": 1310720,
-        "max_output_tokens": 943718,
+        "max_output_tokens": 131072,
         "model_type": "chat",
         "tagline": "This model always redirects to the latest model in the GLM Flash family.",
         "capabilities": {
@@ -171251,7 +171499,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-09"
+        "last_updated": "2026-09-10"
       },
       {
         "id": "~z-ai/glm-latest",
@@ -171262,7 +171510,7 @@ export const providers: ProviderWithModels[] = [
         "description": "This model always redirects to the latest GLM model from Z.ai.",
         "release_date": "2026-08-19",
         "context_window": 1310720,
-        "max_output_tokens": 128000,
+        "max_output_tokens": 131072,
         "model_type": "chat",
         "tagline": "This model always redirects to the latest GLM model from Z.ai.",
         "capabilities": {
@@ -171280,14 +171528,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 1.113,
-          "output": 3.498,
-          "cached_input": 0.207
+          "input": 1.092,
+          "output": 3.432,
+          "cached_input": 0.203
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-09"
+        "last_updated": "2026-09-10"
       },
       {
         "id": "ai21/jamba-large-1.7",
@@ -174430,11 +174678,11 @@ export const providers: ProviderWithModels[] = [
         "name": "DeepSeek: DeepSeek V3",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-09-04",
+        "last_updated": "2026-09-10",
         "family": "deepseek-chat",
         "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions.",
         "context_window": 163840,
-        "max_output_tokens": 16384,
+        "max_output_tokens": 16000,
         "modalities": {
           "input": [
             "text"
@@ -174451,8 +174699,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.32,
-          "output": 0.89
+          "input": 0.257,
+          "output": 1.029
         },
         "release_date": "2024-12-26",
         "tagline": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions.",
@@ -175008,7 +175256,7 @@ export const providers: ProviderWithModels[] = [
         "description": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek.",
         "release_date": "2026-08-12",
         "context_window": 1048576,
-        "max_output_tokens": 393216,
+        "max_output_tokens": 384000,
         "model_type": "chat",
         "tagline": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek.",
         "capabilities": {
@@ -175026,14 +175274,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.579,
-          "output": 1.738,
-          "cached_input": 0.018
+          "input": 1.049,
+          "output": 3.148,
+          "cached_input": 0.035
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-09"
+        "last_updated": "2026-09-10"
       },
       {
         "id": "deepseek/deepseek-v4-pro",
@@ -179417,10 +179665,10 @@ export const providers: ProviderWithModels[] = [
         "name": "MiniMax: MiniMax M2.5",
         "created_by": "minimax",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-09-10",
         "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity.",
         "context_window": 204800,
-        "max_output_tokens": 128000,
+        "max_output_tokens": 131072,
         "modalities": {
           "input": [
             "text"
@@ -179438,9 +179686,9 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.27,
-          "output": 1.08,
-          "cached_input": 0.027
+          "input": 0.3,
+          "output": 1.2,
+          "cached_input": 0.03
         },
         "family": "minimax",
         "model_type": "chat",
@@ -179702,14 +179950,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.3,
-          "output": 0.9,
-          "cached_input": 0.03
+          "input": 0.15,
+          "output": 0.45,
+          "cached_input": 0.015
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-01",
+        "last_updated": "2026-09-10",
         "status": "deprecated"
       },
       {
@@ -180155,14 +180403,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.15,
-          "output": 0.15,
-          "cached_input": 0.015
+          "input": 0.075,
+          "output": 0.075,
+          "cached_input": 0.008
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-01",
+        "last_updated": "2026-09-10",
         "status": "deprecated"
       },
       {
@@ -180390,14 +180638,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.5,
-          "output": 1.5,
-          "cached_input": 0.05
+          "input": 0.25,
+          "output": 0.75,
+          "cached_input": 0.025
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-01",
+        "last_updated": "2026-09-10",
         "status": "deprecated"
       },
       {
@@ -180590,14 +180838,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.4,
-          "output": 2,
-          "cached_input": 0.04
+          "input": 0.2,
+          "output": 1,
+          "cached_input": 0.02
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-01",
+        "last_updated": "2026-09-10",
         "status": "deprecated"
       },
       {
@@ -180852,14 +181100,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.15,
-          "output": 0.6,
-          "cached_input": 0.015
+          "input": 0.075,
+          "output": 0.3,
+          "cached_input": 0.008
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-01",
+        "last_updated": "2026-09-10",
         "status": "deprecated"
       },
       {
@@ -181405,7 +181653,7 @@ export const providers: ProviderWithModels[] = [
         "name": "MoonshotAI: Kimi K2 Thinking",
         "created_by": "moonshotai",
         "source": "official",
-        "last_updated": "2026-09-08",
+        "last_updated": "2026-09-10",
         "description": "Kimi K2 Thinking is Moonshot AI’s most advanced open reasoning model to date, extending the K2 series into agentic, long-horizon reasoning.",
         "context_window": 262144,
         "modalities": {
@@ -181434,7 +181682,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "max_output_tokens": 235929
+        "max_output_tokens": 100352
       },
       {
         "id": "moonshotai/kimi-k2.5",
@@ -181936,7 +182184,8 @@ export const providers: ProviderWithModels[] = [
         },
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
             "text"
@@ -181945,7 +182194,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-09"
+        "last_updated": "2026-09-10"
       },
       {
         "id": "nex-agi/nex-n2.5-pro:free",
@@ -182127,7 +182376,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Nous: Hermes 4 70B",
         "created_by": "nousresearch",
         "source": "official",
-        "last_updated": "2026-08-30",
+        "last_updated": "2026-09-10",
         "description": "Hermes 4 70B is a hybrid reasoning model from Nous Research, built on Meta-Llama-3.1-70B.",
         "context_window": 131072,
         "modalities": {
@@ -182151,7 +182400,8 @@ export const providers: ProviderWithModels[] = [
         "parameters": 70,
         "release_date": "2025-08-26",
         "tagline": "Hermes 4 70B is a hybrid reasoning model from Nous Research, built on Meta-Llama-3.1-70B.",
-        "max_output_tokens": 117964
+        "max_output_tokens": 117964,
+        "status": "deprecated"
       },
       {
         "id": "nvidia/llama-3.1-nemotron-70b-instruct",
@@ -188703,11 +188953,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 30B A3B Instruct 2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-30",
+        "last_updated": "2026-09-10",
         "family": "qwen3",
         "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference.",
         "context_window": 262144,
-        "max_output_tokens": 32000,
+        "max_output_tokens": 235929,
         "modalities": {
           "input": [
             "text"
@@ -188726,8 +188976,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.048,
-          "output": 0.193
+          "input": 0.09,
+          "output": 0.3
         },
         "model_type": "chat",
         "parameters": 30,
@@ -188746,12 +188996,12 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 30B A3B Instruct 2507",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-07-30",
+        "last_updated": "2026-09-10",
         "family": "qwen3",
         "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference.",
         "release_date": "2025-07-29",
         "context_window": 262144,
-        "max_output_tokens": 32000,
+        "max_output_tokens": 235929,
         "parameters": 30,
         "active_parameters": 3,
         "model_type": "chat",
@@ -188774,8 +189024,8 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.048,
-          "output": 0.193
+          "input": 0.09,
+          "output": 0.3
         },
         "tools": [
           "function_calling"
@@ -189768,11 +190018,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3.5-122B-A10B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-08-13",
+        "last_updated": "2026-09-10",
         "family": "qwen3.5",
         "description": "The Qwen3.5 122B-A10B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency.",
         "context_window": 262144,
-        "max_output_tokens": 81920,
+        "max_output_tokens": 65536,
         "modalities": {
           "input": [
             "text",
@@ -189793,8 +190043,8 @@ export const providers: ProviderWithModels[] = [
           "batch": true
         },
         "pricing": {
-          "input": 0.29,
-          "output": 2.4
+          "input": 0.26,
+          "output": 2.08
         },
         "model_type": "chat",
         "parameters": 122,
@@ -191955,8 +192205,8 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-08-30",
-        "max_output_tokens": 471859
+        "last_updated": "2026-09-10",
+        "max_output_tokens": 32768
       },
       {
         "id": "tngtech/deepseek-r1t2-chimera",
@@ -194552,6 +194802,41 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-09-04",
         "description": "The Interactions API is now generally available. We recommend using this API for access to all the latest features and models. Home Gemini API Docs Send feedback Gemini 3.7 Flash Gemini 3.7 Flash is the next iteration in the Gemini 3 series of highly-capable, natively multimodal, reasoning models.",
         "tagline": "The Interactions API is now generally available.",
+        "context_window": 1048576,
+        "max_output_tokens": 65536
+      },
+      {
+        "id": "google/gemini-3.8-flash",
+        "name": "google/gemini-3.8-flash",
+        "created_by": "google",
+        "source": "official",
+        "family": "gemini-3.8",
+        "license": "proprietary",
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "tool_call": true,
+          "structured_output": true,
+          "reasoning": true,
+          "batch": true,
+          "vision": true,
+          "json_mode": true
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 3.75,
+          "cached_input": 0.075
+        },
+        "open_weight": false,
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-09-10",
         "context_window": 1048576,
         "max_output_tokens": 65536
       },
@@ -206275,7 +206560,7 @@ export const providers: ProviderWithModels[] = [
         "name": "P Video Edit",
         "created_by": "prunaai",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "video",
         "page_url": "https://replicate.com/prunaai/p-video-edit",
         "modalities": {
@@ -206289,7 +206574,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "last_updated": "2026-09-04"
+        "last_updated": "2026-09-10"
       },
       {
         "id": "prunaai/p-video",
@@ -216779,7 +217064,7 @@ export const providers: ProviderWithModels[] = [
         "name": "deepseek-v3.2",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-05-01",
+        "last_updated": "2026-09-10",
         "family": "deepseek",
         "context_window": 163800,
         "capabilities": {
@@ -216789,8 +217074,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.28,
-          "output": 0.42
+          "input": 0.26,
+          "output": 0.38
         },
         "tools": [
           "function_calling"
@@ -217036,7 +217321,39 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-09"
+        "last_updated": "2026-09-10",
+        "status": "deprecated"
+      },
+      {
+        "id": "deepseek/deepseek-v4.1-flash",
+        "name": "deepseek-v4.1-flash",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-09-10"
       },
       {
         "id": "exa/search",
@@ -224391,7 +224708,8 @@ export const providers: ProviderWithModels[] = [
           "input": 0,
           "output": 0
         },
-        "last_updated": "2026-08-30"
+        "last_updated": "2026-09-10",
+        "status": "deprecated"
       },
       {
         "id": "spacexai/grok-imagine-video-1.5",

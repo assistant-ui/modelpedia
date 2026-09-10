@@ -5,7 +5,7 @@
   "source": "official",
   "family": "deepseek-chat",
   "description": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "reasoning_tokens": true,
   "license": "mit",
@@ -25,7 +25,7 @@
     "name": "0478b8aa",
     "family": "fbd79fd9",
     "description": "45501e78",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "reasoning_tokens": "b326b506",
     "license": "3c4c3ba5",
@@ -35,5 +35,5 @@
     "open_weight": "b326b506",
     "endpoints": "772bacef"
   },
-  "last_updated": "2026-09-04"
+  "last_updated": "2026-09-10"
 }

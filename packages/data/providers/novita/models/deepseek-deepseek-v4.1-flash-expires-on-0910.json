@@ -1,0 +1,39 @@
+{
+  "id": "deepseek/deepseek-v4.1-flash-expires-on-0910",
+  "name": "DeepSeek V4.1 Flash Expires Exp",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "status": "active",
+  "release_date": "2026-09-09",
+  "context_window": 1048576,
+  "max_output_tokens": 393216,
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "98901be4",
+    "family": "4b81b92d",
+    "status": "379ac110",
+    "release_date": "cdb84d4b",
+    "context_window": "7d28a051",
+    "max_output_tokens": "628f482c",
+    "model_type": "d669f408",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-10"
+}

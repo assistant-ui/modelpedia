@@ -1,0 +1,39 @@
+{
+  "id": "north-small-translate-1-0",
+  "name": "north-small-translate-1-0",
+  "created_by": "cohere",
+  "source": "official",
+  "description": "North Small Translate is a 218B total / 25B active parameter MoE model purpose-built for machine translation across more than 50 languages.",
+  "status": "active",
+  "context_window": 16000,
+  "max_output_tokens": 16000,
+  "license": "proprietary",
+  "page_url": "https://docs.cohere.com/docs/models#north-small-translate-1-0",
+  "model_type": "translation",
+  "tagline": "North Small Translate is a 218B total / 25B active parameter MoE model purpose-built for machine translation across more than 50 languages.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "endpoints": ["chat"],
+  "_generated": {
+    "name": "4c5e0c86",
+    "description": "27ba14c3",
+    "status": "379ac110",
+    "context_window": "67510c89",
+    "max_output_tokens": "67510c89",
+    "license": "9186c466",
+    "page_url": "48dbbbc6",
+    "model_type": "5c212ca7",
+    "tagline": "27ba14c3",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e",
+    "endpoints": "75df3f1c"
+  },
+  "last_updated": "2026-09-10"
+}

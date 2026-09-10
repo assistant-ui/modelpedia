@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-31",
-  "count": 25,
+  "date": "2026-09-10",
+  "count": 26,
   "ids": [
     "jina-clip-v1",
     "jina-clip-v2",
@@ -20,6 +20,7 @@
     "jina-embeddings-v5-omni-small",
     "jina-embeddings-v5-text-nano",
     "jina-embeddings-v5-text-small",
+    "jina-ocr-v1",
     "jina-reranker-m0",
     "jina-reranker-v1-base-en",
     "jina-reranker-v1-tiny-en",

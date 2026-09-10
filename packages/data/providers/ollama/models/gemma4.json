@@ -18,7 +18,7 @@
     "reasoning": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "tools": ["function_calling"],
@@ -32,13 +32,13 @@
     "model_type": "d669f408",
     "tagline": "eb593117",
     "capabilities": "3e581b07",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "tools": "f0c1dc7e",
     "parameters": "c16a5320",
     "release_date": "ea3c9722",
     "reasoning_tokens": "b326b506"
   },
-  "last_updated": "2026-04-07",
+  "last_updated": "2026-09-10",
   "parameters": 31,
   "release_date": "2026-04-02",
   "reasoning_tokens": true

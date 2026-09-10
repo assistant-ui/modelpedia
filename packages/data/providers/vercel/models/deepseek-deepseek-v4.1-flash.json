@@ -1,6 +1,6 @@
 {
-  "id": "deepseek/deepseek-v4.1-flash-beta",
-  "name": "deepseek-v4.1-flash-beta",
+  "id": "deepseek/deepseek-v4.1-flash",
+  "name": "deepseek-v4.1-flash",
   "created_by": "deepseek",
   "source": "official",
   "family": "deepseek",
@@ -13,8 +13,8 @@
     "reasoning": true
   },
   "pricing": {
-    "input": 0.22,
-    "output": 0.66
+    "input": 0.15,
+    "output": 0.6
   },
   "modalities": {
     "input": ["text"],
@@ -22,16 +22,14 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "3cfa220a",
+    "name": "7473ca5f",
     "family": "4b81b92d",
     "context_window": "8155bc54",
     "model_type": "d669f408",
     "capabilities": "a19166f1",
-    "pricing": "8e70a59a",
+    "pricing": "89a9c6e2",
     "modalities": "68e53d93",
-    "tools": "f0c1dc7e",
-    "status": "2e2f74dc"
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-10",
-  "status": "deprecated"
+  "last_updated": "2026-09-10"
 }
