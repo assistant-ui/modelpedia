@@ -17,7 +17,7 @@
     "output": []
   },
   "pricing": {
-    "input": 3
+    "input": 0.5
   },
   "endpoints": ["embeddings"],
   "_generated": {
@@ -32,8 +32,8 @@
     "open_weight": "b326b506",
     "tagline": "18c8bd65",
     "modalities": "e20ad98b",
-    "pricing": "cfcd0de0",
+    "pricing": "1621018b",
     "endpoints": "5845adda"
   },
-  "last_updated": "2026-09-10"
+  "last_updated": "2026-09-11"
 }

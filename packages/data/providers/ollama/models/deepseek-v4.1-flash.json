@@ -1,0 +1,45 @@
+{
+  "id": "deepseek-v4.1-flash",
+  "name": "deepseek-v4.1-flash",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "DeepSeek-V4.1-Flash is an advanced tool designed to enhance search capabilities, providing users with faster and more accurate results.",
+  "release_date": "2026-09-10",
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "parameters": 8,
+  "page_url": "https://ollama.com/library/deepseek-v4.1-flash",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "DeepSeek-V4.1-Flash is an advanced tool designed to enhance search capabilities, providing users with faster and more accurate results.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "7473ca5f",
+    "family": "4b81b92d",
+    "description": "61c82386",
+    "release_date": "b057cbf8",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "parameters": "c9f0f895",
+    "page_url": "ee1eb0b0",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "61c82386",
+    "capabilities": "f7041f91",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-11"
+}

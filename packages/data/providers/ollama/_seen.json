@@ -1,9 +1,10 @@
 {
-  "date": "2026-08-30",
-  "count": 29,
+  "date": "2026-09-11",
+  "count": 30,
   "ids": [
     "deepseek-v4-flash",
     "deepseek-v4-pro",
+    "deepseek-v4.1-flash",
     "gemma4",
     "glm-5.1",
     "glm-5.2",

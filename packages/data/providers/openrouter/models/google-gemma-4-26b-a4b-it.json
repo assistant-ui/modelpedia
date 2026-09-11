@@ -6,8 +6,8 @@
   "family": "gemma-4",
   "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind.",
   "release_date": "2026-04-03",
-  "context_window": 262144,
-  "max_output_tokens": 16384,
+  "context_window": 1000000,
+  "max_output_tokens": 32768,
   "parameters": 26,
   "active_parameters": 4,
   "model_type": "chat",
@@ -23,8 +23,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.07,
-    "output": 0.34,
+    "input": 0.042,
+    "output": 0.22,
     "cached_input": 0.05
   },
   "tools": ["function_calling"],
@@ -33,16 +33,16 @@
     "family": "811b6704",
     "description": "b4d695e8",
     "release_date": "18e99417",
-    "context_window": "4a1d32eb",
-    "max_output_tokens": "c76fe1d8",
+    "context_window": "8155bc54",
+    "max_output_tokens": "f4376436",
     "parameters": "4e732ced",
     "active_parameters": "a87ff679",
     "model_type": "d669f408",
     "tagline": "b4d695e8",
     "capabilities": "03fbefb4",
     "modalities": "1e916c3b",
-    "pricing": "ee9c823c",
+    "pricing": "48133ada",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-11"
 }

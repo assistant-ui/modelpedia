@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "count": 124,
   "ids": [
     "851-labs-background-remover",
@@ -101,9 +101,9 @@
     "prunaai-p-image-edit",
     "prunaai-p-image-edit-lora",
     "prunaai-p-image-ideogram",
-    "prunaai-p-image-lora",
     "prunaai-p-image-upscale",
     "prunaai-p-video",
+    "prunaai-p-video-2",
     "prunaai-p-video-avatar",
     "rafaelgalle-whisper-diarization-advanced",
     "recraft-ai-recraft-v4-styles-pro-svg",

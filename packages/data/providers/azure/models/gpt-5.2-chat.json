@@ -3,7 +3,7 @@
   "name": "gpt-5.2-chat Preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-05-17",
+  "last_updated": "2026-09-11",
   "family": "gpt-5.2",
   "capabilities": {
     "streaming": true,
@@ -21,7 +21,7 @@
     "capabilities": "85ac183e",
     "modalities": "68e53d93",
     "model_type": "d669f408",
-    "description": "897aa4a9",
+    "description": "ec633813",
     "knowledge_cutoff": "5549a2cd",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
@@ -29,7 +29,7 @@
     "tools": "f0c1dc7e"
   },
   "model_type": "chat",
-  "description": "- Chat Completions API. - Responses API . - Structured outputs - Functions, tools, and parallel tool calling.",
+  "description": "Historical specifications. - Chat Completions API. - Responses API . - Structured outputs - Functions, tools, and parallel tool calling.",
   "knowledge_cutoff": "2025-08",
   "context_window": 128000,
   "max_output_tokens": 16384,
