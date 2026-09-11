@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-06",
-  "count": 118,
+  "date": "2026-09-11",
+  "count": 120,
   "ids": [
     "codex-mini",
     "cohere-command-a",
@@ -68,6 +68,8 @@
     "gpt-image-1-mini",
     "gpt-image-1.5",
     "gpt-image-2",
+    "gpt-image-2.5-flare",
+    "gpt-image-2.5-sunburst",
     "gpt-live-transcribe",
     "gpt-oss",
     "gpt-oss-120b",

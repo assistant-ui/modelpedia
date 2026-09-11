@@ -1,0 +1,32 @@
+{
+  "id": "inclusionai/ling-3.0-flash-vl:free",
+  "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
+  "release_date": "2026-09-10",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "tagline": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b95ffaa5",
+    "description": "fbdb845d",
+    "release_date": "b057cbf8",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "tagline": "fbdb845d",
+    "capabilities": "05723a3e",
+    "modalities": "3ad4060a",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-11"
+}

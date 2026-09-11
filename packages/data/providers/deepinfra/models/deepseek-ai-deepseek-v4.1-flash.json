@@ -1,0 +1,53 @@
+{
+  "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "name": "DeepSeek-V4.1-Flash",
+  "created_by": "deepseek",
+  "source": "official",
+  "description": "Introduce DeepSeek-V4.1-Flash, a multimodal Mixture-of-Experts (MoE) model with 552B backbone parameters and support for contexts of up to one million tokens.",
+  "status": "active",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "license": "deepseek",
+  "open_weight": true,
+  "tagline": "Introduce DeepSeek-V4.1-Flash, a multimodal Mixture-of-Experts (MoE) model with 552B backbone parameters and support for contexts of up to one million tokens.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.6,
+    "cached_input": 0.006
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "_generated": {
+    "name": "89a287d3",
+    "description": "378983e1",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "license": "4b81b92d",
+    "open_weight": "b326b506",
+    "tagline": "378983e1",
+    "capabilities": "81e3387c",
+    "modalities": "6399757e",
+    "pricing": "def17bfc",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9"
+  },
+  "last_updated": "2026-09-11"
+}

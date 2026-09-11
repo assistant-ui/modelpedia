@@ -1,7 +1,8 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-11",
   "count": 25,
   "ids": [
+    "s-deepseek-v4-1-flash",
     "s-deepseek-v4-flash-0731",
     "s-deepseek-v4-pro",
     "s-deepseek-v4-pro-0813",
@@ -22,7 +23,6 @@
     "s-prism-ml-ternary-bonsai-27b",
     "s-qwen3-8-flash",
     "s-qwen3-8-max",
-    "s-qwen37-max",
     "s-qwen37-plus",
     "s-seedance-2-0",
     "s-seedance-2-5",

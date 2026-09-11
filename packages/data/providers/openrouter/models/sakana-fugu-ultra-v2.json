@@ -1,0 +1,40 @@
+{
+  "id": "sakana/fugu-ultra-v2",
+  "name": "Sakana: Fugu Ultra v2",
+  "created_by": "sakana",
+  "source": "official",
+  "description": "Fugu Ultra v2 is the higher-performance model in Sakana AI's Fugu family.",
+  "release_date": "2026-09-11",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "tagline": "Fugu Ultra v2 is the higher-performance model in Sakana AI's Fugu family.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 5,
+    "output": 30,
+    "cached_input": 0.5
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a61b3e3b",
+    "description": "c2f90374",
+    "release_date": "6ff6abef",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "tagline": "c2f90374",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "d9234945",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-11"
+}

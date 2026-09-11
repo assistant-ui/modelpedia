@@ -1,0 +1,30 @@
+{
+  "id": "s/deepseek-v4-1-flash",
+  "name": "Deepseek V4 1 Flash",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "page_url": "https://www.together.ai/models/deepseek-v4-1-flash",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.28
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "21a74c9c",
+    "family": "4b81b92d",
+    "page_url": "97245260",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "5d28482e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-11"
+}
