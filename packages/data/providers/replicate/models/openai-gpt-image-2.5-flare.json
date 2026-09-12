@@ -1,0 +1,29 @@
+{
+  "id": "openai/gpt-image-2.5-flare",
+  "name": "Gpt Image 2.5 Flare",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.5",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/openai/gpt-image-2.5-flare",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "8ba390fb",
+    "family": "b65aa56d",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "ff91a360",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-09-12"
+}

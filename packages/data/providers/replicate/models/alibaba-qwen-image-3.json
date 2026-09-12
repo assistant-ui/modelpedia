@@ -4,7 +4,7 @@
   "created_by": "alibaba",
   "source": "official",
   "family": "qwen",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "image",
   "page_url": "https://replicate.com/alibaba/qwen-image-3",
   "capabilities": {
@@ -18,12 +18,12 @@
   "_generated": {
     "name": "1f80bfd8",
     "family": "a3af76f3",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "page_url": "08795d08",
     "capabilities": "d3117eb0",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-12"
 }

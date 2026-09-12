@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-11",
-  "count": 348,
+  "date": "2026-09-12",
+  "count": 351,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -146,6 +146,7 @@
     "inclusionai-ling-3.0-flash",
     "inclusionai-ling-3.0-flash-fin",
     "inclusionai-ling-3.0-flash-sante",
+    "inclusionai-ling-3.0-flash-vl",
     "interfaze-interfaze-beta",
     "klingai-kling-v2.5-turbo-i2v",
     "klingai-kling-v2.5-turbo-t2v",
@@ -288,7 +289,9 @@
     "recraft-recraft-v4.1-pro",
     "recraft-recraft-v4.1-utility",
     "recraft-recraft-v4.1-utility-pro",
+    "sakana-fugu-max",
     "sakana-fugu-ultra",
+    "sakana-fugu-ultra-v2",
     "sakana-namazu",
     "spacexai-grok-4.1-fast-non-reasoning",
     "spacexai-grok-4.1-fast-reasoning",

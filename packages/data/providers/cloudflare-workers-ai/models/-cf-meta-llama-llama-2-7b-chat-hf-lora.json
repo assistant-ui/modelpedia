@@ -3,7 +3,7 @@
   "name": "llama-2-7b-chat-hf-lora",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-09-12",
   "family": "llama-2",
   "capabilities": {
     "streaming": true,
@@ -15,14 +15,14 @@
     "capabilities": "48995a4e",
     "model_type": "d669f408",
     "parameters": "8f14e45f",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "page_url": "037dde1d",
     "tools": "f0c1dc7e",
     "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 7,
-  "status": "deprecated",
+  "status": "active",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#llama-2-7b-chat-hf-lora",
   "tools": ["function_calling"],
   "modalities": {

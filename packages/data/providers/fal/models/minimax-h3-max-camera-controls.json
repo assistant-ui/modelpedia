@@ -1,0 +1,35 @@
+{
+  "id": "minimax/h3-max/camera-controls",
+  "name": "H3 Max Camera Controls",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "H3 Max Multi Angle turns a single image into a video with precise, keyframe-based control over the camera's orbit, elevation, and distance in 3D space",
+  "status": "active",
+  "release_date": "2026-09-11",
+  "model_type": "video",
+  "page_url": "https://fal.run/minimax/h3-max/camera-controls",
+  "tagline": "H3 Max Multi Angle turns a single image into a video with precise, keyframe-based control over the camera's orbit, elevation, and distance in 3D space",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-09-11",
+  "_generated": {
+    "name": "b9d674ef",
+    "description": "26280255",
+    "status": "379ac110",
+    "release_date": "6ff6abef",
+    "model_type": "4d1b75ca",
+    "page_url": "397e3f28",
+    "tagline": "26280255",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "6ff6abef"
+  },
+  "last_updated": "2026-09-12"
+}

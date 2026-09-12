@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-11",
-  "count": 143,
+  "date": "2026-09-12",
+  "count": 142,
   "ids": [
     "aeon-7-qwen3.8-27b-aeon-ultimate-uncensored-bf16",
     "codellama-codellama-7b-instruct-hf",
@@ -21,7 +21,6 @@
     "gritlm-gritlm-7b",
     "ibm-granite-granite-4.2-3b",
     "ibm-granite-granite-4.2-8b",
-    "intel-neural-chat-7b-v3-3",
     "kisti-koni-koni-llama3.1-8b-instruct",
     "kisti-koni-koni-llama3.1-8b-instruct-20241024",
     "meta-llama-llama-2-13b-chat-hf",
@@ -134,8 +133,8 @@
     "unsloth-qwen3-8b",
     "upstage-solar-10.7b-instruct-v1.0",
     "vikhrmodels-vikhr-nemo-12b-instruct-r-21-09-24",
-    "yentinglin-llama-3-taiwan-8b-instruct",
     "zai-org-glm-4-9b-0414",
+    "zai-org-glm-4.5",
     "zai-org-glm-4.5-air",
     "zai-org-glm-4.7",
     "zai-org-glm-4.7-flash",
