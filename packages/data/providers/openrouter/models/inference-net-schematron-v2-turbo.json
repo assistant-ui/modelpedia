@@ -1,0 +1,35 @@
+{
+  "id": "inference-net/schematron-v2-turbo",
+  "name": "Inference.net: Schematron V2 Turbo",
+  "created_by": "inference-net",
+  "source": "official",
+  "description": "Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net.",
+  "release_date": "2026-09-12",
+  "context_window": 128000,
+  "max_output_tokens": 8192,
+  "tagline": "Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net.",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.15
+  },
+  "_generated": {
+    "name": "15cb5fbe",
+    "description": "a61d558b",
+    "release_date": "31d65adc",
+    "context_window": "34434798",
+    "max_output_tokens": "77441296",
+    "tagline": "a61d558b",
+    "capabilities": "dbb5b7fe",
+    "modalities": "68e53d93",
+    "pricing": "df889084"
+  },
+  "last_updated": "2026-09-12"
+}

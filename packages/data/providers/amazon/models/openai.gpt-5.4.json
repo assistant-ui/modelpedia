@@ -4,7 +4,7 @@
   "created_by": "openai",
   "source": "official",
   "release_date": "2026-06-01",
-  "context_window": 272000,
+  "context_window": 1000000,
   "model_type": "chat",
   "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-54",
   "capabilities": {
@@ -18,11 +18,11 @@
   "_generated": {
     "name": "270255f2",
     "release_date": "80eaf594",
-    "context_window": "3f9281a0",
+    "context_window": "8155bc54",
     "model_type": "d669f408",
     "page_url": "028a5efc",
     "capabilities": "8a3b232e",
     "modalities": "8b8b28d1"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-09-12"
 }

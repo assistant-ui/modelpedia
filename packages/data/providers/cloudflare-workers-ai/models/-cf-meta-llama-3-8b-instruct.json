@@ -3,7 +3,7 @@
   "name": "llama-3-8b-instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-09-12",
   "family": "llama-3",
   "capabilities": {
     "streaming": true,
@@ -16,14 +16,14 @@
     "capabilities": "a281e83a",
     "model_type": "d669f408",
     "parameters": "c9f0f895",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "page_url": "00a2e39e",
     "tools": "f0c1dc7e",
     "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 8,
-  "status": "deprecated",
+  "status": "active",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#llama-3-8b-instruct",
   "tools": ["function_calling"],
   "modalities": {

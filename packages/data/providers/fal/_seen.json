@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-11",
-  "count": 1500,
+  "date": "2026-09-12",
+  "count": 1501,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -1365,6 +1365,7 @@
     "minimax-h3-i2v-trainer",
     "minimax-h3-image-to-video",
     "minimax-h3-image-to-video-lora",
+    "minimax-h3-max-camera-controls",
     "minimax-h3-max-director",
     "minimax-h3-max-image-to-video",
     "minimax-h3-max-multi-angle-image-to-video",

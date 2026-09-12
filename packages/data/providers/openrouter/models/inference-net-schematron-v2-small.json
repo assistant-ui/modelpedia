@@ -1,0 +1,35 @@
+{
+  "id": "inference-net/schematron-v2-small",
+  "name": "Inference.net: Schematron V2 Small",
+  "created_by": "inference-net",
+  "source": "official",
+  "description": "Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net.",
+  "release_date": "2026-09-12",
+  "context_window": 128000,
+  "max_output_tokens": 4096,
+  "tagline": "Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net.",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.23
+  },
+  "_generated": {
+    "name": "46c4ce2f",
+    "description": "50a29122",
+    "release_date": "31d65adc",
+    "context_window": "34434798",
+    "max_output_tokens": "f7efa4f8",
+    "tagline": "50a29122",
+    "capabilities": "dbb5b7fe",
+    "modalities": "68e53d93",
+    "pricing": "37f0a93b"
+  },
+  "last_updated": "2026-09-12"
+}

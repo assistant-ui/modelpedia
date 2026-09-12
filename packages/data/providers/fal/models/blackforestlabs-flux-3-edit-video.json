@@ -1,24 +1,24 @@
 {
   "id": "blackforestlabs/flux-3/edit-video",
-  "name": "Flux 3 Edit Video",
+  "name": "Flux 3 FAST Edit Video",
   "created_by": "blackforestlabs",
   "source": "official",
-  "description": "FLUX.3 is Black Forest Labs' frontier video model.",
+  "description": "FLUX.3 Edit Video [FAST] is Black Forest Labs' frontier video model.",
   "status": "active",
   "release_date": "2026-07-17",
   "model_type": "other",
   "page_url": "https://fal.run/blackforestlabs/flux-3/edit-video",
   "tagline": "FLUX.3 is Black Forest Labs' frontier video model.",
-  "last_seen_at": "2026-09-10",
+  "last_seen_at": "2026-09-11",
   "_generated": {
-    "name": "e3811f44",
-    "description": "4d8b15e0",
+    "name": "03c84d8a",
+    "description": "fa651604",
     "status": "379ac110",
     "release_date": "4d92f2b5",
     "model_type": "ddb0b7bc",
     "page_url": "9b25dd9c",
     "tagline": "4d8b15e0",
-    "last_seen_at": "b057cbf8"
+    "last_seen_at": "6ff6abef"
   },
-  "last_updated": "2026-09-11"
+  "last_updated": "2026-09-12"
 }

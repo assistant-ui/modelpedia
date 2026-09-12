@@ -5,7 +5,7 @@
   "source": "official",
   "family": "deepseek",
   "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions.",
-  "status": "preview",
+  "status": "deprecated",
   "release_date": "2025-03-05",
   "context_window": 64000,
   "max_output_tokens": 16000,
@@ -29,7 +29,7 @@
     "name": "d0c28e4a",
     "family": "4b81b92d",
     "description": "d3cca989",
-    "status": "127aecde",
+    "status": "2e2f74dc",
     "release_date": "a5e693e5",
     "context_window": "762e98db",
     "max_output_tokens": "67510c89",
@@ -41,5 +41,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-09-12"
 }

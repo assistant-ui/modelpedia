@@ -3,7 +3,7 @@
   "name": "ai_infer_test_2",
   "created_by": "novita",
   "source": "official",
-  "status": "preview",
+  "status": "deprecated",
   "release_date": "2025-11-21",
   "context_window": 200000,
   "max_output_tokens": 200000,
@@ -22,7 +22,7 @@
   "tools": ["function_calling"],
   "_generated": {
     "name": "6876461d",
-    "status": "127aecde",
+    "status": "2e2f74dc",
     "release_date": "efb5c5c4",
     "context_window": "03e6c616",
     "max_output_tokens": "03e6c616",
@@ -32,5 +32,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-07"
+  "last_updated": "2026-09-12"
 }

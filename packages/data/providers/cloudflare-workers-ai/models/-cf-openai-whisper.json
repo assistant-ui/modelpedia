@@ -3,7 +3,7 @@
   "name": "whisper",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-09-12",
   "family": "whisper",
   "capabilities": {
     "streaming": true,
@@ -14,13 +14,13 @@
     "family": "7fbc43e3",
     "capabilities": "48995a4e",
     "model_type": "5e12d29a",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "page_url": "8118a4c9",
     "tools": "f0c1dc7e",
     "modalities": "68e53d93"
   },
   "model_type": "transcription",
-  "status": "deprecated",
+  "status": "active",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#whisper",
   "tools": ["function_calling"],
   "modalities": {

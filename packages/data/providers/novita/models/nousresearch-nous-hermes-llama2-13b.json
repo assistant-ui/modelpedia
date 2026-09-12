@@ -4,7 +4,7 @@
   "created_by": "nousresearch",
   "source": "official",
   "description": "Nous-Hermes-Llama2-13b is a state-of-the-art language model fine-tuned on over 300,000 instructions.",
-  "status": "preview",
+  "status": "deprecated",
   "release_date": "2024-04-25",
   "context_window": 4096,
   "max_output_tokens": 32768,
@@ -26,7 +26,7 @@
   "_generated": {
     "name": "0c79b897",
     "description": "2473b77c",
-    "status": "127aecde",
+    "status": "2e2f74dc",
     "release_date": "930b7401",
     "context_window": "f7efa4f8",
     "max_output_tokens": "f4376436",
@@ -38,5 +38,5 @@
     "pricing": "386f50d5",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-09-12"
 }

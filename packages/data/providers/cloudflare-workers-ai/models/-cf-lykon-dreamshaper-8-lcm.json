@@ -3,7 +3,7 @@
   "name": "dreamshaper-8-lcm",
   "created_by": "lykon",
   "source": "official",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-09-12",
   "capabilities": {
     "streaming": true
   },
@@ -11,10 +11,10 @@
     "name": "3adb6e39",
     "capabilities": "0fa77dc6",
     "status": "379ac110",
-    "model_type": "b815fc69",
+    "model_type": "db8857fe",
     "page_url": "672472bf"
   },
   "status": "active",
-  "model_type": "classification",
+  "model_type": "image",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#dreamshaper-8-lcm"
 }
