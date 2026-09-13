@@ -1,9 +1,9 @@
 {
   "id": "~openai/gpt-astra-latest",
-  "name": "OpenAI GPT Astra Latest",
+  "name": "OpenAI: GPT Astra Latest",
   "created_by": "~openai",
   "source": "official",
-  "description": "This model always redirects to the latest model in the OpenAI GPT Astra family.",
+  "description": "This model always redirects to the latest model in the GPT Astra family.",
   "release_date": "2026-09-11",
   "context_window": 1050000,
   "max_output_tokens": 128000,
@@ -25,8 +25,8 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "7b6f1302",
-    "description": "07a31f5f",
+    "name": "7d456b38",
+    "description": "0fa9b2cf",
     "release_date": "6ff6abef",
     "context_window": "f170ebb2",
     "max_output_tokens": "34434798",
@@ -36,5 +36,5 @@
     "pricing": "69490ea7",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-12"
+  "last_updated": "2026-09-13"
 }

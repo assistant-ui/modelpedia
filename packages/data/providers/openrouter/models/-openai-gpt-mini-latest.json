@@ -1,9 +1,9 @@
 {
   "id": "~openai/gpt-mini-latest",
-  "name": "OpenAI GPT Mini Latest",
+  "name": "OpenAI: GPT Mini Latest",
   "created_by": "~openai",
   "source": "official",
-  "description": "This model always redirects to the latest model in the OpenAI GPT Mini family.",
+  "description": "This model always redirects to the latest model in the GPT Mini family.",
   "release_date": "2026-04-27",
   "context_window": 400000,
   "max_output_tokens": 128000,
@@ -25,8 +25,8 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "807991a5",
-    "description": "0d957ff2",
+    "name": "243bb521",
+    "description": "bfcc8c83",
     "release_date": "79a25cd1",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
@@ -36,5 +36,5 @@
     "pricing": "af280cc2",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-09-13"
 }

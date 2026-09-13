@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-12",
-  "count": 351,
+  "date": "2026-09-13",
+  "count": 352,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -78,6 +78,7 @@
     "bfl-flux-pro-1.1-ultra",
     "bytedance-seed-1.6",
     "bytedance-seed-1.8",
+    "bytedance-seed-2.1-turbo",
     "bytedance-seedance-2.0",
     "bytedance-seedance-2.0-fast",
     "bytedance-seedance-2.0-mini",

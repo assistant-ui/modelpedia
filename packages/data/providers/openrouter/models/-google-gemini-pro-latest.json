@@ -1,9 +1,9 @@
 {
   "id": "~google/gemini-pro-latest",
-  "name": "Google Gemini Pro Latest",
+  "name": "Google: Gemini Pro Latest",
   "created_by": "~google",
   "source": "official",
-  "description": "This model always redirects to the latest model in the Google Gemini Pro family.",
+  "description": "This model always redirects to the latest model in the Gemini Pro family.",
   "release_date": "2026-04-27",
   "context_window": 1048576,
   "max_output_tokens": 65536,
@@ -26,8 +26,8 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "416fa2ea",
-    "description": "a4b72ecc",
+    "name": "baae52b9",
+    "description": "43d10e75",
     "release_date": "79a25cd1",
     "context_window": "7d28a051",
     "max_output_tokens": "297ce0b3",
@@ -38,5 +38,5 @@
     "pricing": "871170f7",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-09-13"
 }
