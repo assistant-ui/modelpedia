@@ -33,8 +33,8 @@
     "modalities": "05efe8aa",
     "pricing": "2b9ec52a",
     "tools": "f0c1dc7e",
-    "max_output_tokens": "f4376436"
+    "max_output_tokens": "552badfe"
   },
-  "last_updated": "2026-09-10",
-  "max_output_tokens": 32768
+  "last_updated": "2026-09-13",
+  "max_output_tokens": 471859
 }

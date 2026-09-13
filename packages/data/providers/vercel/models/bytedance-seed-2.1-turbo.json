@@ -1,0 +1,33 @@
+{
+  "id": "bytedance/seed-2.1-turbo",
+  "name": "seed-2.1-turbo",
+  "created_by": "bytedance",
+  "source": "official",
+  "context_window": 262100,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 2.5
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f62778dd",
+    "context_window": "b23f4471",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "61cb081d",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-13"
+}

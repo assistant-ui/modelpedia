@@ -1,10 +1,10 @@
 {
   "id": "~anthropic/claude-haiku-latest",
-  "name": "Anthropic Claude Haiku Latest",
+  "name": "Anthropic: Claude Haiku Latest",
   "created_by": "~anthropic",
   "source": "official",
   "family": "claude-haiku",
-  "description": "This model always redirects to the latest model in the Anthropic Claude Haiku family.",
+  "description": "This model always redirects to the latest model in the Claude Haiku family.",
   "release_date": "2026-04-27",
   "context_window": 200000,
   "max_output_tokens": 64000,
@@ -27,9 +27,9 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "de69fc34",
+    "name": "ae896881",
     "family": "1cfb9795",
-    "description": "ecb6df63",
+    "description": "b2ccfa7d",
     "release_date": "79a25cd1",
     "context_window": "03e6c616",
     "max_output_tokens": "762e98db",
@@ -40,5 +40,5 @@
     "pricing": "cc700ee3",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-14"
+  "last_updated": "2026-09-13"
 }

@@ -1,9 +1,9 @@
 {
   "id": "~openai/gpt-luna-latest",
-  "name": "OpenAI GPT Luna Latest",
+  "name": "OpenAI: GPT Luna Latest",
   "created_by": "~openai",
   "source": "official",
-  "description": "This model always redirects to the latest model in the OpenAI GPT Luna family.",
+  "description": "This model always redirects to the latest model in the GPT Luna family.",
   "release_date": "2026-09-11",
   "context_window": 1050000,
   "max_output_tokens": 128000,
@@ -25,8 +25,8 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "68d4f7c2",
-    "description": "f4272383",
+    "name": "a63d12fa",
+    "description": "aa78abe2",
     "release_date": "6ff6abef",
     "context_window": "f170ebb2",
     "max_output_tokens": "34434798",
@@ -36,5 +36,5 @@
     "pricing": "a8450f9f",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-12"
+  "last_updated": "2026-09-13"
 }
