@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-14",
   "count": 130,
   "ids": [
     "ai21.jamba-1-5-large-v1-0",
@@ -23,7 +23,7 @@
     "anthropic.claude-3-haiku-20240307-v1-0",
     "anthropic.claude-fable-5",
     "anthropic.claude-fable-5-1",
-    "anthropic.claude-haiku-4-5-20251001-v1-0",
+    "anthropic.claude-haiku-4-5",
     "anthropic.claude-mythos-5",
     "anthropic.claude-mythos-5-1",
     "anthropic.claude-mythos-preview",

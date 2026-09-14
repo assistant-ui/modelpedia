@@ -10,7 +10,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/qwen-3-tts/clone-voice/1.7b",
   "tagline": "Clone your voices using Qwen3-TTS Clone-Voice model with zero shot cloning capabilities and use it on text-to-speech models to create speeches of yours!",
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-09-13",
   "_generated": {
     "name": "b5dd8778",
     "family": "a3af76f3",
@@ -20,7 +20,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "04493dcf",
     "tagline": "ec67ec03",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "b5f3ed32"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-14"
 }

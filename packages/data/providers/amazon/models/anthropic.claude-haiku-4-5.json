@@ -1,10 +1,14 @@
 {
-  "id": "anthropic.claude-haiku-4-5-20251001-v1:0",
+  "id": "anthropic.claude-haiku-4-5",
   "name": "Claude Haiku 4.5",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-09-14",
+  "release_date": "2025-10-16",
+  "context_window": 200000,
+  "max_output_tokens": 64000,
   "model_type": "chat",
+  "reasoning_tokens": true,
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-4-5",
   "capabilities": {
     "streaming": true,
     "vision": true,
@@ -16,20 +20,14 @@
   },
   "_generated": {
     "name": "61746f3c",
-    "model_type": "d669f408",
-    "capabilities": "8d009641",
-    "modalities": "8b8b28d1",
     "release_date": "afca85c1",
     "context_window": "03e6c616",
     "max_output_tokens": "762e98db",
+    "model_type": "d669f408",
     "reasoning_tokens": "b326b506",
     "page_url": "9c96dcdf",
-    "status": "2e2f74dc"
+    "capabilities": "8d009641",
+    "modalities": "8b8b28d1"
   },
-  "release_date": "2025-10-16",
-  "context_window": 200000,
-  "max_output_tokens": 64000,
-  "reasoning_tokens": true,
-  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-4-5",
-  "status": "deprecated"
+  "last_updated": "2026-09-14"
 }
