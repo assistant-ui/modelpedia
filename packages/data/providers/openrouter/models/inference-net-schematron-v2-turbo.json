@@ -18,7 +18,8 @@
   },
   "pricing": {
     "input": 0.03,
-    "output": 0.15
+    "output": 0.15,
+    "cached_input": 0.03
   },
   "_generated": {
     "name": "15cb5fbe",
@@ -29,7 +30,7 @@
     "tagline": "a61d558b",
     "capabilities": "dbb5b7fe",
     "modalities": "68e53d93",
-    "pricing": "df889084"
+    "pricing": "fee2d490"
   },
-  "last_updated": "2026-09-12"
+  "last_updated": "2026-09-14"
 }
