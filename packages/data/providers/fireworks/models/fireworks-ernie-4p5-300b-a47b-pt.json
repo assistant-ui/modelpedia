@@ -3,7 +3,7 @@
   "name": "ernie-4p5-300b-a47b-pt",
   "created_by": "fireworks",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-09-15",
   "capabilities": {
     "streaming": true
   },
@@ -18,9 +18,11 @@
     "pricing": "cb03f68e",
     "parameters": "94f6d7e0",
     "active_parameters": "67c6a1e7",
-    "page_url": "ef162fe0"
+    "page_url": "ef162fe0",
+    "context_window": "834bd590"
   },
   "parameters": 300,
   "active_parameters": 47,
-  "page_url": "https://fireworks.ai/models/fireworks/ernie-4p5-300b-a47b-pt"
+  "page_url": "https://fireworks.ai/models/fireworks/ernie-4p5-300b-a47b-pt",
+  "context_window": 131000
 }

@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-14",
-  "count": 143,
+  "date": "2026-09-15",
+  "count": 142,
   "ids": [
     "aeon-7-qwen3.8-27b-aeon-ultimate-uncensored-bf16",
     "codellama-codellama-7b-instruct-hf",
@@ -84,7 +84,6 @@
     "qwen-qwen2.5-math-7b-instruct",
     "qwen-qwen3-0.6b",
     "qwen-qwen3-0.6b-base",
-    "qwen-qwen3-1.7b",
     "qwen-qwen3-1.7b-base",
     "qwen-qwen3-14b",
     "qwen-qwen3-14b-base",

@@ -1,0 +1,16 @@
+{
+  "id": "proplabs/photo-enhancement",
+  "name": "Photo Enhancement",
+  "created_by": "proplabs",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/proplabs/photo-enhancement",
+  "_generated": {
+    "name": "d3c8e7d8",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "07bd8b21"
+  },
+  "last_updated": "2026-09-15"
+}

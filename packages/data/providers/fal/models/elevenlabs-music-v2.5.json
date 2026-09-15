@@ -1,0 +1,24 @@
+{
+  "id": "elevenlabs/music/v2.5",
+  "name": "Elevenlabs Music v2.5",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "description": "Generate high quality, realistic music with fine controls using Elevenlabs Music v2.5!",
+  "status": "active",
+  "release_date": "2026-09-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/elevenlabs/music/v2.5",
+  "tagline": "Generate high quality, realistic music with fine controls using Elevenlabs Music v2.5!",
+  "last_seen_at": "2026-09-15",
+  "_generated": {
+    "name": "a549f241",
+    "description": "27f18b02",
+    "status": "379ac110",
+    "release_date": "d5789345",
+    "model_type": "ddb0b7bc",
+    "page_url": "203beacc",
+    "tagline": "27f18b02",
+    "last_seen_at": "5ed4afcc"
+  },
+  "last_updated": "2026-09-15"
+}

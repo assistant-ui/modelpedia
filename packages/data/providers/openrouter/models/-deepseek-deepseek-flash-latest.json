@@ -1,0 +1,42 @@
+{
+  "id": "~deepseek/deepseek-flash-latest",
+  "name": "DeepSeek: DeepSeek Flash Latest",
+  "created_by": "~deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "This model always redirects to the latest model in the DeepSeek Flash family.",
+  "release_date": "2026-09-14",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "tagline": "This model always redirects to the latest model in the DeepSeek Flash family.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6,
+    "cached_input": 0.015
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "fcd3d98f",
+    "family": "4b81b92d",
+    "description": "395186cf",
+    "release_date": "d5789345",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "tagline": "395186cf",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "e5cfa60c",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-15"
+}

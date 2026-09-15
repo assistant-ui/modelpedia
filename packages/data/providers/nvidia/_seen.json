@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-12",
-  "count": 82,
+  "date": "2026-09-15",
+  "count": 81,
   "ids": [
     "01-ai-yi-large",
     "adept-fuyu-8b",
@@ -10,7 +10,6 @@
     "databricks-dbrx-instruct",
     "deepseek-ai-deepseek-coder-6.7b-instruct",
     "deepseek-ai-deepseek-v4-flash-0731",
-    "deepseek-ai-deepseek-v4-pro-0813",
     "google-codegemma-1.1-7b",
     "google-codegemma-7b",
     "google-deplot",

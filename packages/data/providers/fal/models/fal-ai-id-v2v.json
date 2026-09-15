@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/id-v2v",
+  "name": "ID-V2V",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Restyle a video’s scene, lighting, and visual style from edited keyframes while preserving the source subjects’ identity, expressions, gaze, and motion.",
+  "status": "active",
+  "release_date": "2026-09-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/id-v2v",
+  "tagline": "Restyle a video’s scene, lighting, and visual style from edited keyframes while preserving the source subjects’ identity, expressions, gaze, and motion.",
+  "last_seen_at": "2026-09-14",
+  "_generated": {
+    "name": "2e07ce77",
+    "description": "d71986e0",
+    "status": "379ac110",
+    "release_date": "d5789345",
+    "model_type": "ddb0b7bc",
+    "page_url": "6d4b4a6f",
+    "tagline": "d71986e0",
+    "last_seen_at": "d5789345"
+  },
+  "last_updated": "2026-09-15"
+}
