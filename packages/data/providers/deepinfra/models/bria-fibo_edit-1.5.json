@@ -1,0 +1,33 @@
+{
+  "id": "Bria/fibo_edit-1.5",
+  "name": "fibo_edit-1.5",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Instruction-based image editing powered by FIBO 1.5: edit one image with a text instruction or a mask, or compose up to four reference images into a single result.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "tagline": "Instruction-based image editing powered by FIBO 1.5: edit one image with a text instruction or a mask, or compose up to four reference images into a single result.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0400 per image unit (0x0 default)"],
+  "_generated": {
+    "name": "cd2d388d",
+    "description": "6c88d9a4",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "tagline": "6c88d9a4",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "05714ce8"
+  },
+  "last_updated": "2026-09-15"
+}

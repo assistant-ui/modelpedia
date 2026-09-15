@@ -1,0 +1,30 @@
+{
+  "id": "s/minimax-h3",
+  "name": "Minimax H3",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "page_url": "https://www.together.ai/models/minimax-h3",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.17,
+    "output": 0.1391
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "f6d481d1",
+    "family": "c85916f0",
+    "page_url": "5b10648f",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "54682485",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-15"
+}

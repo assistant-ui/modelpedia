@@ -3,9 +3,9 @@
   "name": "llama-3.1-8b",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-06-02",
+  "last_updated": "2026-09-15",
   "family": "llama-3.1",
-  "context_window": 131100,
+  "context_window": 128000,
   "capabilities": {
     "streaming": true,
     "tool_call": true
@@ -17,7 +17,7 @@
   "_generated": {
     "name": "e69f2aac",
     "family": "83ec32db",
-    "context_window": "a683b9ae",
+    "context_window": "34434798",
     "capabilities": "48995a4e",
     "pricing": "7ae1732c",
     "model_type": "d669f408",

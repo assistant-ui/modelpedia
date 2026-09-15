@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/id-v2v/relight",
+  "name": "ID-V2V Relight",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Change a video’s lighting using a relit reference frame while preserving the scene, subjects, and original performance.",
+  "status": "active",
+  "release_date": "2026-09-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/id-v2v/relight",
+  "tagline": "Change a video’s lighting using a relit reference frame while preserving the scene, subjects, and original performance.",
+  "last_seen_at": "2026-09-14",
+  "_generated": {
+    "name": "028cd37e",
+    "description": "e927e2c8",
+    "status": "379ac110",
+    "release_date": "d5789345",
+    "model_type": "ddb0b7bc",
+    "page_url": "d784c911",
+    "tagline": "e927e2c8",
+    "last_seen_at": "d5789345"
+  },
+  "last_updated": "2026-09-15"
+}

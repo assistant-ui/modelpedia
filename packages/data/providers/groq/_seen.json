@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-30",
-  "count": 16,
+  "date": "2026-09-15",
+  "count": 15,
   "ids": [
     "canopylabs-orpheus-arabic-saudi",
     "canopylabs-orpheus-v1-english",
@@ -14,7 +14,6 @@
     "openai-gpt-oss-120b",
     "openai-gpt-oss-20b",
     "openai-gpt-oss-safeguard-20b",
-    "qwen-qwen3.6-27b",
     "qwen-qwen3.8-27b",
     "whisper-large-v3",
     "whisper-large-v3-turbo"

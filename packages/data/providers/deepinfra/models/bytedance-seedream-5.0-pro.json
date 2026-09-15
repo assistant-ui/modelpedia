@@ -1,0 +1,36 @@
+{
+  "id": "ByteDance/Seedream-5.0-Pro",
+  "name": "Seedream-5.0-Pro",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "ByteDance's flagship image model, with precise interactive editing, stronger multi-reference fusion and notably accurate text rendering at up to 2K.",
+  "status": "active",
+  "model_type": "image",
+  "license": "apache-2.0",
+  "open_weight": false,
+  "tagline": "ByteDance's flagship image model, with precise interactive editing, stronger multi-reference fusion and notably accurate text rendering at up to 2K.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0990 per image unit (0x0 default)"],
+  "_generated": {
+    "name": "4e7325c1",
+    "description": "431b1d85",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "license": "60245731",
+    "open_weight": "68934a3e",
+    "tagline": "431b1d85",
+    "capabilities": "9c665f5d",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "311f0dc8"
+  },
+  "last_updated": "2026-09-15"
+}

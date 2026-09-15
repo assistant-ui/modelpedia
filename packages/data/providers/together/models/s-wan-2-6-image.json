@@ -3,7 +3,7 @@
   "name": "Wan 2 6 Image",
   "created_by": "unknown",
   "source": "official",
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-09-15",
   "context_window": 32000,
   "capabilities": {
     "streaming": true
@@ -19,9 +19,11 @@
     "pricing": "9207f1ad",
     "family": "2aadc089",
     "model_type": "db8857fe",
-    "page_url": "2bd87197"
+    "page_url": "2bd87197",
+    "status": "2e2f74dc"
   },
   "family": "wan",
   "model_type": "image",
-  "page_url": "https://www.together.ai/models/wan-2-6-image"
+  "page_url": "https://www.together.ai/models/wan-2-6-image",
+  "status": "deprecated"
 }

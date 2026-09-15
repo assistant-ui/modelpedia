@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-10",
-  "count": 47,
+  "date": "2026-09-15",
+  "count": 46,
   "ids": [
     "anthropic-claude-fable-5",
     "anthropic-claude-haiku-4-5",
@@ -37,7 +37,6 @@
     "perplexity-kimi-k2.7-code",
     "perplexity-kimi-k3",
     "perplexity-nemotron-3-ultra-550b-a55b",
-    "perplexity-nemotron-3.5-lightning-30b-a3b",
     "perplexity-sonar",
     "sonar",
     "sonar-deep-research",
