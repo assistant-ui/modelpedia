@@ -16,7 +16,9 @@
     "license": "9186c466",
     "model_type": "9f84c007",
     "pricing": "343d8c2d",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-09-16",
+  "status": "deprecated"
 }

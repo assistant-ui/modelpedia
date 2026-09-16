@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/seedance-2.0/us/reference-to-video",
+  "name": "Seedance 2.0 US Reference to Video",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "US hosted version of ByteDance's most advanced reference-to-video model.",
+  "status": "active",
+  "release_date": "2026-09-15",
+  "model_type": "video",
+  "page_url": "https://fal.run/bytedance/seedance-2.0/us/reference-to-video",
+  "tagline": "US hosted version of ByteDance's most advanced reference-to-video model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-09-15",
+  "_generated": {
+    "name": "711e3907",
+    "description": "dffa782c",
+    "status": "379ac110",
+    "release_date": "5ed4afcc",
+    "model_type": "4d1b75ca",
+    "page_url": "11132888",
+    "tagline": "dffa782c",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5ed4afcc"
+  },
+  "last_updated": "2026-09-16"
+}

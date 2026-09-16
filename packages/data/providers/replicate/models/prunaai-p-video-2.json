@@ -3,7 +3,7 @@
   "name": "P Video 2",
   "created_by": "prunaai",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "video",
   "page_url": "https://replicate.com/prunaai/p-video-2",
   "modalities": {
@@ -13,11 +13,11 @@
   "endpoints": ["video"],
   "_generated": {
     "name": "6c34ac31",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "4d1b75ca",
     "page_url": "c6d16253",
     "modalities": "94e5e9ab",
     "endpoints": "7a78c070"
   },
-  "last_updated": "2026-09-15"
+  "last_updated": "2026-09-16"
 }

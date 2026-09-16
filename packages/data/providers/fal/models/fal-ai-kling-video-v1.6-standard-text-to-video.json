@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate video clips from your prompts using Kling 1.6 (std)",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-01-07",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/kling-video/v1.6/standard/text-to-video",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "e7cf9931",
     "description": "ea412776",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "180ee73e",
     "model_type": "4d1b75ca",
     "page_url": "9fcdd759",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5b53e844"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-09-16"
 }

@@ -3,7 +3,7 @@
   "name": "detr-resnet-50",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-04-16",
+  "last_updated": "2026-09-16",
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -12,12 +12,12 @@
   "_generated": {
     "name": "73e9c2ac",
     "capabilities": "a281e83a",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "b815fc69",
     "page_url": "59dbfba8",
     "tools": "f0c1dc7e"
   },
-  "status": "active",
+  "status": "deprecated",
   "model_type": "classification",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#detr-resnet-50",
   "tools": ["function_calling"]

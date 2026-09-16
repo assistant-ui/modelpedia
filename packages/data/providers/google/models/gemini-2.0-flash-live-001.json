@@ -3,11 +3,11 @@
   "name": "gemini-2.0-flash-live-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-27",
+  "last_updated": "2026-09-16",
   "family": "gemini-2.0",
   "status": "deprecated",
   "deprecation_date": "2025-12-09",
-  "successor": "gemini-3.1-flash-live-preview",
+  "successor": "gemini-3.8-live",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -21,7 +21,7 @@
     "family": "dc4aadf6",
     "status": "2e2f74dc",
     "deprecation_date": "c41dad30",
-    "successor": "f8a33351",
+    "successor": "44a8e8fc",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
     "model_type": "d669f408",

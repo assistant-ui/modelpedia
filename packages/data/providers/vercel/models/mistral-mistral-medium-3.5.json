@@ -4,7 +4,7 @@
   "created_by": "mistral",
   "source": "official",
   "family": "mistral-medium",
-  "context_window": 256000,
+  "context_window": 262100,
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -24,12 +24,12 @@
   "_generated": {
     "name": "27405b6c",
     "family": "a57f1b52",
-    "context_window": "2fd324cb",
+    "context_window": "b23f4471",
     "model_type": "d669f408",
     "capabilities": "45192957",
     "pricing": "c99e0f75",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-09-16"
 }

@@ -1,6 +1,6 @@
 {
   "id": "anthropic/claude-opus-5:batch",
-  "name": "Claude Opus 5 (batch)",
+  "name": "Anthropic: Claude Opus 5 (batch)",
   "created_by": "anthropic",
   "source": "official",
   "family": "claude-opus",
@@ -27,7 +27,7 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "d87e336d",
+    "name": "ba4eeb5c",
     "family": "4e4c4b18",
     "description": "0a64008b",
     "release_date": "4e26714b",
@@ -40,5 +40,5 @@
     "pricing": "79daca45",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-09-16"
 }

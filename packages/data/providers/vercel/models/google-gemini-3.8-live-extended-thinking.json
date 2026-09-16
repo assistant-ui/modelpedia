@@ -1,0 +1,28 @@
+{
+  "id": "google/gemini-3.8-live-extended-thinking",
+  "name": "gemini-3.8-live-extended-thinking",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.8",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.75,
+    "output": 4.5
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "38322614",
+    "family": "d937426a",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "0b3f9064",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-16"
+}

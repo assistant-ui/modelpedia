@@ -3,7 +3,7 @@
   "name": "gemma-7b-it",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-04-16",
+  "last_updated": "2026-09-16",
   "family": "gemma-7b",
   "capabilities": {
     "streaming": true,
@@ -17,14 +17,14 @@
     "capabilities": "45192957",
     "model_type": "d669f408",
     "parameters": "8f14e45f",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "page_url": "a933f921",
     "tools": "f0c1dc7e",
     "modalities": "68e53d93"
   },
   "model_type": "chat",
   "parameters": 7,
-  "status": "active",
+  "status": "deprecated",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#gemma-7b-it",
   "tools": ["function_calling"],
   "modalities": {
