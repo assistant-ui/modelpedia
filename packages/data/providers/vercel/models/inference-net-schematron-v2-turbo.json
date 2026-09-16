@@ -1,0 +1,28 @@
+{
+  "id": "inference-net/schematron-v2-turbo",
+  "name": "schematron-v2-turbo",
+  "created_by": "inference-net",
+  "source": "official",
+  "context_window": 128000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.03,
+    "output": 0.15
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "8c5bf534",
+    "context_window": "34434798",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "df889084",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-16"
+}

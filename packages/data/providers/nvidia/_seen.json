@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-15",
-  "count": 81,
+  "date": "2026-09-16",
+  "count": 82,
   "ids": [
     "01-ai-yi-large",
     "adept-fuyu-8b",
@@ -81,6 +81,7 @@
     "writer-palmyra-fin-70b-32k",
     "writer-palmyra-med-70b",
     "writer-palmyra-med-70b-32k",
+    "z-ai-glm-5.3",
     "z-ai-glm-5.3-flash",
     "zyphra-zamba2-7b-instruct"
   ]

@@ -3,9 +3,9 @@
   "name": "ministral-8b",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-08-02",
+  "last_updated": "2026-09-16",
   "family": "ministral",
-  "context_window": 128000,
+  "context_window": 262100,
   "capabilities": {
     "streaming": true,
     "tool_call": true,
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "f8200074",
     "family": "d6661e63",
-    "context_window": "34434798",
+    "context_window": "b23f4471",
     "capabilities": "1a260abc",
     "pricing": "16a72b67",
     "model_type": "d669f408",

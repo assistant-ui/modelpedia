@@ -1,0 +1,35 @@
+{
+  "id": "creatify/boreal",
+  "name": "Boreal",
+  "created_by": "creatify",
+  "source": "official",
+  "description": "Create product, UGC, and presenter videos with synchronized native audio from text, with optional image and audio inputs.",
+  "status": "active",
+  "release_date": "2026-09-15",
+  "model_type": "video",
+  "page_url": "https://fal.run/creatify/boreal",
+  "tagline": "Create product, UGC, and presenter videos with synchronized native audio from text, with optional image and audio inputs.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-09-15",
+  "_generated": {
+    "name": "cc1aa4fc",
+    "description": "dfc41b6f",
+    "status": "379ac110",
+    "release_date": "5ed4afcc",
+    "model_type": "4d1b75ca",
+    "page_url": "64640de6",
+    "tagline": "dfc41b6f",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "5ed4afcc"
+  },
+  "last_updated": "2026-09-16"
+}

@@ -3,7 +3,7 @@
   "name": "meta-llama-3-8b-instruct",
   "created_by": "meta",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-09-16",
   "capabilities": {
     "streaming": true,
     "reasoning": true
@@ -14,14 +14,14 @@
     "family": "a8d1600e",
     "model_type": "d669f408",
     "parameters": "c9f0f895",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "page_url": "caa92a7f",
     "modalities": "68e53d93"
   },
   "family": "llama-3",
   "model_type": "chat",
   "parameters": 8,
-  "status": "active",
+  "status": "deprecated",
   "page_url": "https://developers.cloudflare.com/workers-ai/models/#meta-llama-3-8b-instruct",
   "modalities": {
     "input": ["text"],

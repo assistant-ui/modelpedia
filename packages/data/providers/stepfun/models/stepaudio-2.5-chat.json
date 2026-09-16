@@ -14,7 +14,9 @@
     "name": "2a6b46fa",
     "license": "9186c466",
     "pricing": "2d9bb8b1",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-09-16",
+  "status": "deprecated"
 }

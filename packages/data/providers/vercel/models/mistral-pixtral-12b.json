@@ -3,7 +3,7 @@
   "name": "pixtral-12b",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-09-16",
   "family": "pixtral",
   "context_window": 128000,
   "capabilities": {
@@ -24,7 +24,8 @@
     "model_type": "d669f408",
     "parameters": "c20ad4d7",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "parameters": 12,
@@ -32,5 +33,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

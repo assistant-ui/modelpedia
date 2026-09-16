@@ -1,0 +1,23 @@
+{
+  "id": "z-ai/glm-5.3",
+  "name": "glm-5.3",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5.3",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "9f217d9a",
+    "family": "9f217d9a",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-16"
+}
