@@ -3,14 +3,14 @@
   "name": "U Must Omr",
   "created_by": "malerlab",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/malerlab/u-must-omr",
   "_generated": {
     "name": "ad836758",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "52edf18d"
   },
-  "last_updated": "2026-09-06"
+  "last_updated": "2026-09-17"
 }

@@ -1,0 +1,23 @@
+{
+  "id": "littletry/video-nsfw-filter",
+  "name": "Video Nsfw Filter",
+  "created_by": "littletry",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "page_url": "https://replicate.com/littletry/video-nsfw-filter",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "0b39ed64",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "page_url": "bef80446",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-09-17"
+}

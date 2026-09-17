@@ -1,0 +1,24 @@
+{
+  "id": "xai/grok-voice",
+  "name": "Grok Voice",
+  "created_by": "xai",
+  "source": "official",
+  "description": "Build real-time voice applications powered by Grok.",
+  "status": "active",
+  "release_date": "2026-08-27",
+  "model_type": "other",
+  "page_url": "https://fal.run/xai/grok-voice",
+  "tagline": "Build real-time voice applications powered by Grok.",
+  "last_seen_at": "2026-09-16",
+  "_generated": {
+    "name": "fef2e906",
+    "description": "0dca3e5d",
+    "status": "379ac110",
+    "release_date": "0890bbf8",
+    "model_type": "ddb0b7bc",
+    "page_url": "d6803a7b",
+    "tagline": "0dca3e5d",
+    "last_seen_at": "c75e2ee2"
+  },
+  "last_updated": "2026-09-17"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "union-alpha",
+  "name": "Union Alpha Free",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "03874ce0",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-09-17"
+}

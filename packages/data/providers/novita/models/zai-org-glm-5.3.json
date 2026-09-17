@@ -4,7 +4,7 @@
   "created_by": "zai",
   "source": "official",
   "family": "glm-5.3",
-  "description": "GLM-5.3 is Z.ai’s latest flagship model, delivering comprehensive advancements in complex software engineering and agent capabilities.",
+  "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks.",
   "status": "active",
   "release_date": "2026-08-19",
   "context_window": 1048576,
@@ -31,7 +31,7 @@
   "_generated": {
     "name": "ec24697d",
     "family": "9f217d9a",
-    "description": "c4cc6c0c",
+    "description": "6c436eaf",
     "status": "379ac110",
     "release_date": "e97f480b",
     "context_window": "7d28a051",
@@ -44,5 +44,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-17"
 }

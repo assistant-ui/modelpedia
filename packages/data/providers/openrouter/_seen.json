@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-16",
-  "count": 455,
+  "date": "2026-09-17",
+  "count": 456,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -409,6 +409,7 @@
     "sao10k-l3-lunaris-8b",
     "sao10k-l3.1-euryale-70b",
     "sao10k-l3.3-euryale-70b",
+    "stealth-union-alpha",
     "stepfun-step-3.5-flash",
     "stepfun-step-3.7-flash",
     "tencent-hunyuan-a13b-instruct",

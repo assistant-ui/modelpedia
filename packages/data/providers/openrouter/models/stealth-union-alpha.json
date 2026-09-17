@@ -1,0 +1,37 @@
+{
+  "id": "stealth/union-alpha",
+  "name": "Union Alpha",
+  "created_by": "stealth",
+  "source": "official",
+  "description": "Union Alpha is a multimodal model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
+  "status": "deprecated",
+  "release_date": "2026-09-16",
+  "deprecation_date": "2098-12-31",
+  "context_window": 262144,
+  "max_output_tokens": 131072,
+  "tagline": "Union Alpha is a multimodal model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "5f1e5de2",
+    "description": "3c3a2c7e",
+    "status": "2e2f74dc",
+    "release_date": "c75e2ee2",
+    "deprecation_date": "a93a4314",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f7de594e",
+    "tagline": "3c3a2c7e",
+    "capabilities": "6c9aa67e",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-17"
+}

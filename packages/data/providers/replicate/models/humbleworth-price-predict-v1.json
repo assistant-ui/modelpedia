@@ -1,0 +1,16 @@
+{
+  "id": "humbleworth/price-predict-v1",
+  "name": "Price Predict V1",
+  "created_by": "humbleworth",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/humbleworth/price-predict-v1",
+  "_generated": {
+    "name": "1d3d594e",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "f4021f4f"
+  },
+  "last_updated": "2026-09-17"
+}
