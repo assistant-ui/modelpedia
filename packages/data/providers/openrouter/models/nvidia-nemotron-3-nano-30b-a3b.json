@@ -3,7 +3,7 @@
   "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-09-03",
+  "last_updated": "2026-09-17",
   "description": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems.",
   "context_window": 262144,
   "modalities": {
@@ -17,8 +17,8 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.05,
-    "output": 0.2,
+    "input": 0.06,
+    "output": 0.24,
     "cached_input": 0.03
   },
   "_generated": {
@@ -27,7 +27,7 @@
     "context_window": "4a1d32eb",
     "modalities": "68e53d93",
     "capabilities": "03fbefb4",
-    "pricing": "bc8c2eac",
+    "pricing": "69aae4fc",
     "model_type": "d669f408",
     "parameters": "34173cb3",
     "active_parameters": "eccbc87e",

@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-16",
-  "count": 353,
+  "date": "2026-09-17",
+  "count": 350,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -161,10 +161,6 @@
     "klingai-kling-v3.0-i2v",
     "klingai-kling-v3.0-motion-control",
     "klingai-kling-v3.0-t2v",
-    "kwaipilot-kat-coder-air-v2.5",
-    "kwaipilot-kat-coder-pro-v1",
-    "kwaipilot-kat-coder-pro-v2",
-    "kwaipilot-kat-coder-pro-v2.5",
     "meta-llama-3.1-70b",
     "meta-llama-3.1-8b",
     "meta-llama-3.3-70b",
@@ -325,6 +321,7 @@
     "tencent-hy4-preview",
     "thinkingmachines-inkling",
     "thinkingmachines-inkling-small",
+    "typesafe-ai-jev",
     "voyage-rerank-2.5",
     "voyage-rerank-2.5-lite",
     "voyage-voyage-3-large",

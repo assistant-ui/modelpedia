@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-12",
-  "count": 19,
+  "date": "2026-09-17",
+  "count": 20,
   "ids": [
     "deepseek-ai",
     "deepseek-v3-1",
@@ -11,6 +11,7 @@
     "deepseek-v4.1-flash",
     "deepseek-v41-flash",
     "deepseek-v41-flash-more-efficient-prefill-for-coding-agents",
+    "llama-3-3-70b-instruct",
     "orpheus-3b-websockets",
     "qwen-image",
     "qwen-image-2512",

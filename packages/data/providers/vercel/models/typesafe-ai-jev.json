@@ -1,0 +1,19 @@
+{
+  "id": "typesafe-ai/jev",
+  "name": "jev",
+  "created_by": "typesafe-ai",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0
+  },
+  "_generated": {
+    "name": "41585d58",
+    "capabilities": "0fa77dc6",
+    "pricing": "52a74acf"
+  },
+  "last_updated": "2026-09-17"
+}

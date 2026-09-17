@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-06",
-  "count": 69,
+  "date": "2026-09-17",
+  "count": 70,
   "ids": [
     "big-pickle",
     "claude-fable-5",
@@ -70,6 +70,7 @@
     "qwen3.5-plus",
     "qwen3.6-plus",
     "qwen3.7-max",
-    "qwen3.7-plus"
+    "qwen3.7-plus",
+    "union-alpha"
   ]
 }
