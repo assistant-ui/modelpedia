@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-16",
-  "count": 117,
+  "date": "2026-09-18",
+  "count": 120,
   "ids": [
     "baichuan-baichuan-m2-32b",
     "baidu-cobuddy",
@@ -45,6 +45,8 @@
     "microsoft-wizardlm-2-8x22b",
     "mindai-macaron-v1-tall",
     "mindai-macaron-v1-venti",
+    "ming-image-0.1-design",
+    "ming-image-0.1-design-layer",
     "minimax-minimax-m2",
     "minimax-minimax-m2.1",
     "minimax-minimax-m2.5",
@@ -100,6 +102,7 @@
     "sao10k-l31-70b-euryale-v2.2",
     "stepfun-step-3.7-flash",
     "tencent-hy3",
+    "tencent-hy4-preview",
     "thudm-glm-4-32b-0414",
     "xiaomimimo-mimo-v2.5",
     "xiaomimimo-mimo-v2.5-pro",

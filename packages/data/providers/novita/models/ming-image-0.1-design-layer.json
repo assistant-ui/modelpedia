@@ -1,0 +1,28 @@
+{
+  "id": "ming-image-0.1-design-layer",
+  "name": "ming image 0.1 design layer",
+  "created_by": "novita",
+  "source": "official",
+  "status": "active",
+  "release_date": "2026-09-18",
+  "model_type": "chat",
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "a71897b0",
+    "status": "379ac110",
+    "release_date": "ccc89663",
+    "model_type": "d669f408",
+    "capabilities": "5f5c7516",
+    "modalities": "6399757e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-09-18"
+}

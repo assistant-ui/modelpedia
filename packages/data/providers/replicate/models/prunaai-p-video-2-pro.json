@@ -1,0 +1,23 @@
+{
+  "id": "prunaai/p-video-2-pro",
+  "name": "P Video 2 Pro",
+  "created_by": "prunaai",
+  "source": "official",
+  "status": "active",
+  "model_type": "video",
+  "page_url": "https://replicate.com/prunaai/p-video-2-pro",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "905fb32d",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "page_url": "768b44db",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-09-18"
+}

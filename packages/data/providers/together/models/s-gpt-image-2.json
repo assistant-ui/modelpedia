@@ -10,7 +10,7 @@
     "streaming": true
   },
   "pricing": {
-    "input": 0.03,
+    "input": 0.053,
     "output": 0.053
   },
   "_generated": {
@@ -19,9 +19,9 @@
     "page_url": "e242c87c",
     "model_type": "db8857fe",
     "capabilities": "0fa77dc6",
-    "pricing": "628e7675",
+    "pricing": "6b895403",
     "context_window": "10e4d788"
   },
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-09-18",
   "context_window": 32000
 }

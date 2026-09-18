@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-16",
-  "count": 25,
+  "date": "2026-09-18",
+  "count": 24,
   "ids": [
     "s-deepseek-v4-1-flash",
     "s-deepseek-v4-flash-0731",
@@ -14,7 +14,6 @@
     "s-gpt-image-2",
     "s-inkling",
     "s-kimi-k3",
-    "s-liquid-lfm2-5-8b-a1b",
     "s-minimax-h3",
     "s-minimax-m3",
     "s-muse-glimmer",

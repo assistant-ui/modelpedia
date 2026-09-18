@@ -1,0 +1,38 @@
+{
+  "id": "qwen/qwen3.8-27b:free",
+  "name": "Qwen: Qwen3.8 27B (free)",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.8",
+  "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen.",
+  "release_date": "2026-08-14",
+  "context_window": 262144,
+  "max_output_tokens": 235929,
+  "model_type": "chat",
+  "tagline": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "5248c66b",
+    "family": "e102ad6a",
+    "description": "e630bf35",
+    "release_date": "16d713cd",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "7ad80673",
+    "model_type": "d669f408",
+    "tagline": "e630bf35",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-18"
+}
