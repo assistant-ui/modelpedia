@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-17",
-  "count": 1493,
+  "date": "2026-09-18",
+  "count": 1496,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -42,6 +42,8 @@
     "bria-extract-object",
     "bria-fibo-bbq-preview-generate",
     "bria-fibo-edit-1.5-edit",
+    "bria-fibo-edit-1.5-product-holding",
+    "bria-fibo-edit-1.5-virtual-try-on",
     "bria-fibo-edit-add_object_by_text",
     "bria-fibo-edit-blend",
     "bria-fibo-edit-colorize",
@@ -1359,6 +1361,7 @@
     "minimax-h3-max-camera-controls",
     "minimax-h3-max-director",
     "minimax-h3-max-image-to-video",
+    "minimax-h3-max-lip-sync-image-to-video",
     "minimax-h3-max-reference-to-video",
     "minimax-h3-max-text-to-video",
     "minimax-h3-max-turbo-image-to-video",

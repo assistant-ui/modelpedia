@@ -1,0 +1,32 @@
+{
+  "id": "farbodtavakkoli/OTel-LLM-E4B-IT",
+  "name": "OTel-LLM-E4B-IT",
+  "created_by": "farbodtavakkoli",
+  "source": "official",
+  "description": "**OTel-LLM-E4B-IT** is a context-grounded telecom language model full-parameter fine-tuned on OTel telecommunications data. It is part of the [OTel Family of Models](https://huggingface.co/collections/farbodtavakkoli/otel-llm), an open-source initiative to build reference AI resources for the global telecommunications sector.",
+  "release_date": "2026-06-17",
+  "license": "apache-2.0",
+  "page_url": "https://huggingface.co/farbodtavakkoli/OTel-LLM-E4B-IT",
+  "architecture": "transformer",
+  "tagline": "**OTel-LLM-E4B-IT** is a context-grounded telecom language model full-parameter fine-tuned on OTel telecommunications data.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "31e072de",
+    "description": "8b1e1805",
+    "release_date": "e050aed5",
+    "license": "60245731",
+    "page_url": "4be0ddb1",
+    "architecture": "8832ea0f",
+    "tagline": "dc783d57",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-18"
+}

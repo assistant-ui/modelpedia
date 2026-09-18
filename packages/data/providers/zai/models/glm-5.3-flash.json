@@ -4,7 +4,7 @@
   "created_by": "zai",
   "source": "official",
   "family": "glm-5.3",
-  "description": "GLM-5.3-Flash is the first native multimodal model in the GLM-5 series, delivering stronger intelligence than GLM-5.2 at an exceptionally low cost.",
+  "description": "GLM-5.3-Flash/GLM-5.3-FlashX is the first native multimodal model in the GLM-5 series, delivering stronger intelligence than GLM-5.2 at an exceptionally low cost.",
   "context_window": 128000,
   "max_output_tokens": 128000,
   "license": "mit",
@@ -36,7 +36,7 @@
   "_generated": {
     "name": "08894a79",
     "family": "9f217d9a",
-    "description": "a258518f",
+    "description": "47c714cc",
     "context_window": "34434798",
     "max_output_tokens": "34434798",
     "license": "3c4c3ba5",
@@ -51,5 +51,5 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-18"
 }

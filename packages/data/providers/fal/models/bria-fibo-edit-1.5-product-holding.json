@@ -1,0 +1,35 @@
+{
+  "id": "bria/fibo-edit-1.5/product-holding",
+  "name": "Bria Product Holding (FIBO-Edit-1.5)",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Bria Product Holding edits a person photo to show the subject holding or carrying a product, using one to three product reference images and optional text instructions.",
+  "status": "active",
+  "release_date": "2026-09-17",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/fibo-edit-1.5/product-holding",
+  "tagline": "Bria Product Holding edits a person photo to show the subject holding or carrying a product, using one to three product reference images and optional text instructions.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-09-17",
+  "_generated": {
+    "name": "f516ac83",
+    "description": "019216b6",
+    "status": "379ac110",
+    "release_date": "4ef67ac3",
+    "model_type": "db8857fe",
+    "page_url": "eac77a18",
+    "tagline": "019216b6",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "4ef67ac3"
+  },
+  "last_updated": "2026-09-18"
+}

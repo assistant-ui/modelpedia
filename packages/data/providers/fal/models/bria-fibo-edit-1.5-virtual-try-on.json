@@ -1,0 +1,35 @@
+{
+  "id": "bria/fibo-edit-1.5/virtual-try-on",
+  "name": "Bria Virtual Try-On (FIBO-Edit-1.5)",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Bria Virtual Try-On edits a person photo to show the subject wearing garments or accessories from one to three reference images, guided by optional text instructions.",
+  "status": "active",
+  "release_date": "2026-09-17",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/fibo-edit-1.5/virtual-try-on",
+  "tagline": "Bria Virtual Try-On edits a person photo to show the subject wearing garments or accessories from one to three reference images, guided by optional text instructions.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-09-17",
+  "_generated": {
+    "name": "31f6f855",
+    "description": "0cd48d1f",
+    "status": "379ac110",
+    "release_date": "4ef67ac3",
+    "model_type": "db8857fe",
+    "page_url": "8bcdf227",
+    "tagline": "0cd48d1f",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "4ef67ac3"
+  },
+  "last_updated": "2026-09-18"
+}

@@ -21,7 +21,9 @@
     "active_parameters": "c4ca4238",
     "page_url": "20430908",
     "capabilities": "0fa77dc6",
-    "pricing": "3b6defad"
+    "pricing": "3b6defad",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-09-18",
+  "status": "deprecated"
 }
