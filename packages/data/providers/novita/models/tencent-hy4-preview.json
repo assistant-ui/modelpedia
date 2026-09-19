@@ -6,7 +6,7 @@
   "description": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total.",
   "status": "active",
   "release_date": "2026-09-17",
-  "context_window": 1048576,
+  "context_window": 1000000,
   "max_output_tokens": 64000,
   "model_type": "chat",
   "tagline": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total.",
@@ -32,7 +32,7 @@
     "description": "962f2fbd",
     "status": "379ac110",
     "release_date": "4ef67ac3",
-    "context_window": "7d28a051",
+    "context_window": "8155bc54",
     "max_output_tokens": "762e98db",
     "model_type": "d669f408",
     "tagline": "962f2fbd",
@@ -42,5 +42,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-18"
+  "last_updated": "2026-09-19"
 }

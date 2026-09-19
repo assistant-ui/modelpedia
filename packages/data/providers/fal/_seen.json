@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-18",
-  "count": 1496,
+  "date": "2026-09-19",
+  "count": 1499,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -92,6 +92,9 @@
     "bytedance-seedance-2.5-image-to-video",
     "bytedance-seedance-2.5-reference-to-video",
     "bytedance-seedance-2.5-text-to-video",
+    "bytedance-seedance-2.5-us-image-to-video",
+    "bytedance-seedance-2.5-us-reference-to-video",
+    "bytedance-seedance-2.5-us-text-to-video",
     "bytedance-seedream-v5-lite-edit",
     "bytedance-seedream-v5-lite-text-to-image",
     "bytedance-seedream-v5-pro-edit",

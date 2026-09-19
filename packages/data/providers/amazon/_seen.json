@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-14",
-  "count": 130,
+  "date": "2026-09-19",
+  "count": 131,
   "ids": [
     "ai21.jamba-1-5-large-v1-0",
     "ai21.jamba-1-5-mini-v1-0",
@@ -85,6 +85,7 @@
     "mistral.voxtral-small-24b-2507",
     "moonshot.kimi-k2-thinking",
     "moonshotai.kimi-k2.5",
+    "moonshotai.kimi-k3",
     "nvidia.nemotron-nano-12b-v2",
     "nvidia.nemotron-nano-3-30b",
     "nvidia.nemotron-nano-9b-v2",
