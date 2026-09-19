@@ -1,0 +1,28 @@
+{
+  "id": "moonshotai.kimi-k3",
+  "name": "Kimi K3",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "moonshot",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "894c7fc5",
+    "family": "9126e350",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "page_url": "dbed8349",
+    "capabilities": "8a3b232e",
+    "modalities": "8b8b28d1"
+  },
+  "last_updated": "2026-09-19"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "qwen3.8-flash",
+  "name": "Qwen3.8 Flash",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.8",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.47,
+    "cached_input": 0.016,
+    "cache_write": 0.2
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "6bc18700",
+    "family": "e102ad6a",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "5599bb3d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-19"
+}

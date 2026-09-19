@@ -1,0 +1,22 @@
+{
+  "id": "moonshotai/kimi-k2-thinking",
+  "name": "Kimi K2 Thinking",
+  "created_by": "moonshot",
+  "source": "official",
+  "family": "kimi-k2",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/moonshotai/kimi-k2-thinking",
+  "capabilities": {
+    "reasoning": true
+  },
+  "_generated": {
+    "name": "ef1db011",
+    "family": "0f7256d5",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "91b60bc3",
+    "capabilities": "7107421f"
+  },
+  "last_updated": "2026-09-19"
+}

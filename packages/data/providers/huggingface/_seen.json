@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-18",
-  "count": 126,
+  "date": "2026-09-19",
+  "count": 125,
   "ids": [
     "codellama-codellama-7b-instruct-hf",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
@@ -23,6 +23,7 @@
     "meta-llama-llama-3.2-1b-instruct",
     "meta-llama-llama-3.2-3b-instruct",
     "meta-llama-llama-3.3-70b-instruct",
+    "meta-llama-meta-llama-3-70b-instruct",
     "meta-llama-meta-llama-3-8b-instruct",
     "microsoft-phi-3-mini-4k-instruct",
     "microsoft-phi-4-mini-instruct",
@@ -105,7 +106,6 @@
     "trevorjs-gemma-4-31b-it-uncensored",
     "typhoon-ai-llama3.1-typhoon2-8b-instruct",
     "typhoon-ai-typhoon2.5-qwen3-4b",
-    "unsloth-gemma-2-2b-it",
     "unsloth-gemma-3-1b-it",
     "unsloth-llama-3.1-8b-instruct",
     "unsloth-meta-llama-3.1-8b-instruct",
@@ -123,7 +123,6 @@
     "zai-org-glm-4.7-flash",
     "zai-org-glm-5",
     "zai-org-glm-5.1",
-    "zai-org-glm-5.1-fp8",
     "zai-org-glm-5.2",
     "zai-org-glm-5.2-fp8",
     "zai-org-glm-5.3",

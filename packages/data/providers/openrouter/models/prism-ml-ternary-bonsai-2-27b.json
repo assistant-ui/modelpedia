@@ -1,0 +1,41 @@
+{
+  "id": "prism-ml/ternary-bonsai-2-27b",
+  "name": "PrismML: Ternary Bonsai 2 27B",
+  "created_by": "prism-ml",
+  "source": "official",
+  "description": "Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B.",
+  "release_date": "2026-09-18",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "parameters": 27,
+  "tagline": "Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.075,
+    "output": 0.5
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "43bacb71",
+    "description": "7009b2c7",
+    "release_date": "ccc89663",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "parameters": "02e74f10",
+    "tagline": "7009b2c7",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "4b54a625",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-19"
+}

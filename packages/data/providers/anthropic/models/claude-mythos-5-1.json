@@ -40,7 +40,9 @@
     "pricing": "03b4e290",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "endpoints": "94bb8b7a"
+    "endpoints": "94bb8b7a",
+    "retirement_date": "54283ec7"
   },
-  "last_updated": "2026-09-02"
+  "last_updated": "2026-09-19",
+  "retirement_date": "2027-09-01"
 }

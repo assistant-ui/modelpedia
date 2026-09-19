@@ -1,0 +1,31 @@
+{
+  "id": "openai/gpt-oss-20b",
+  "name": "Gpt Oss 20b",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-oss",
+  "status": "active",
+  "model_type": "chat",
+  "parameters": 20,
+  "page_url": "https://replicate.com/openai/gpt-oss-20b",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "1c6d2b00",
+    "family": "82d0cb0b",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "parameters": "98f13708",
+    "page_url": "cfb85b29",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-09-19"
+}

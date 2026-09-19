@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/seedance-2.5/us/reference-to-video",
+  "name": "Seedance 2.5 US Reference to Video",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "US-hosted ByteDance Seedance 2.5 generates video with native audio from up to 30 images, 10 videos, and 10 audio references.",
+  "status": "active",
+  "release_date": "2026-09-19",
+  "model_type": "video",
+  "page_url": "https://fal.run/bytedance/seedance-2.5/us/reference-to-video",
+  "tagline": "US-hosted ByteDance Seedance 2.5 generates video with native audio from up to 30 images, 10 videos, and 10 audio references.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-09-19",
+  "_generated": {
+    "name": "94d035ea",
+    "description": "5f0672a5",
+    "status": "379ac110",
+    "release_date": "05663993",
+    "model_type": "4d1b75ca",
+    "page_url": "8a55a0bc",
+    "tagline": "5f0672a5",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "05663993"
+  },
+  "last_updated": "2026-09-19"
+}

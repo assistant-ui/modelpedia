@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-15",
-  "count": 235,
+  "date": "2026-09-19",
+  "count": 233,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -132,8 +132,6 @@
     "moonshotai-kimi-k3",
     "nousresearch-hermes-3-llama-3.1-405b",
     "nousresearch-hermes-3-llama-3.1-70b",
-    "nvidia-cosmos3-nano",
-    "nvidia-cosmos3-super",
     "nvidia-llama-nemotron-embed-vl-1b-v2",
     "nvidia-llama-nemotron-rerank-vl-1b-v2",
     "nvidia-nemotron-3-embed-1b-bf16",

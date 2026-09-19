@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-18",
-  "count": 457,
+  "date": "2026-09-19",
+  "count": 459,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -341,6 +341,7 @@
     "poolside-laguna-s-2.1-free",
     "poolside-laguna-xs-2.1",
     "poolside-laguna-xs-2.1-free",
+    "prism-ml-ternary-bonsai-2-27b",
     "qwen-qwen-2.5-72b-instruct",
     "qwen-qwen-2.5-7b-instruct",
     "qwen-qwen-2.5-coder-32b-instruct",
@@ -458,6 +459,7 @@
     "z-ai-glm-5.3-batch",
     "z-ai-glm-5.3-flash",
     "z-ai-glm-5.3-flash-batch",
+    "z-ai-glm-5.3-flashx",
     "z-ai-glm-5v-turbo"
   ]
 }
