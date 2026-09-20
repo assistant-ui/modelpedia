@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-20",
   "count": 24,
   "ids": [
     "s-deepseek-v4-1-flash",
@@ -25,6 +25,6 @@
     "s-qwen37-plus",
     "s-seedance-2-0",
     "s-seedance-2-5",
-    "s-wan-2-6-image"
+    "s-ternary-bonsai-2-27b"
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "id": "s/ternary-bonsai-2-27b",
+  "name": "Ternary Bonsai 2 27b",
+  "created_by": "unknown",
+  "source": "official",
+  "parameters": 27,
+  "page_url": "https://www.together.ai/models/ternary-bonsai-2-27b",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.47
+  },
+  "_generated": {
+    "name": "0000f7b4",
+    "parameters": "02e74f10",
+    "page_url": "9f00ce46",
+    "capabilities": "0fa77dc6",
+    "pricing": "9827eff5"
+  },
+  "last_updated": "2026-09-20"
+}
