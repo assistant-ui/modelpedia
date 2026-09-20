@@ -1,5 +1,10 @@
 {
-  "date": "2026-09-15",
-  "count": 3,
-  "ids": ["step-1o-audio", "step-1o-turbo-vision", "step-3.7-flash"]
+  "date": "2026-09-20",
+  "count": 4,
+  "ids": [
+    "step-1o-audio",
+    "step-1o-turbo-vision",
+    "step-3.7-flash",
+    "step-5-preview"
+  ]
 }

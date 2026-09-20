@@ -1,0 +1,16 @@
+{
+  "id": "jev-1.13-free",
+  "name": "Jev 1.13 Free",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "dc1e3e58",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-09-20"
+}

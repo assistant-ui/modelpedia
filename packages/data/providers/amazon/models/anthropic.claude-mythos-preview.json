@@ -27,7 +27,9 @@
     "reasoning_tokens": "b326b506",
     "page_url": "62344f64",
     "capabilities": "8d009641",
-    "modalities": "8b8b28d1"
+    "modalities": "8b8b28d1",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-09-20",
+  "status": "deprecated"
 }

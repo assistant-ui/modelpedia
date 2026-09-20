@@ -7,7 +7,7 @@
   "description": "This model always redirects to the latest model in the DeepSeek Pro family.",
   "release_date": "2026-09-14",
   "context_window": 1048576,
-  "max_output_tokens": 393216,
+  "max_output_tokens": 384000,
   "tagline": "This model always redirects to the latest model in the DeepSeek Pro family.",
   "capabilities": {
     "tool_call": true,
@@ -20,9 +20,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.578,
-    "output": 1.734,
-    "cached_input": 0.018
+    "input": 0.574,
+    "output": 1.723,
+    "cached_input": 0.019
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -31,12 +31,12 @@
     "description": "1de7ff69",
     "release_date": "d5789345",
     "context_window": "7d28a051",
-    "max_output_tokens": "628f482c",
+    "max_output_tokens": "c58e26bd",
     "tagline": "1de7ff69",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
-    "pricing": "3b773cde",
+    "pricing": "21637ecd",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-19"
+  "last_updated": "2026-09-20"
 }

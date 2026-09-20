@@ -3,7 +3,7 @@
   "name": "DeepSeek: DeepSeek V3.2",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-07-17",
+  "last_updated": "2026-09-20",
   "family": "deepseek",
   "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance.",
   "context_window": 163840,
@@ -34,11 +34,15 @@
     "tagline": "fe1de924",
     "tools": "f0c1dc7e",
     "model_type": "d669f408",
-    "max_output_tokens": "297ce0b3"
+    "max_output_tokens": "297ce0b3",
+    "status": "2e2f74dc",
+    "deprecation_date": "1ec3c8a2"
   },
   "release_date": "2025-12-01",
   "tagline": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance.",
   "tools": ["function_calling"],
   "model_type": "chat",
-  "max_output_tokens": 65536
+  "max_output_tokens": 65536,
+  "status": "deprecated",
+  "deprecation_date": "2026-09-28"
 }

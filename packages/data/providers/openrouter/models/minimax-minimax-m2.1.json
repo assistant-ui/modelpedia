@@ -3,7 +3,7 @@
   "name": "MiniMax: MiniMax M2.1",
   "created_by": "minimax",
   "source": "official",
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-09-20",
   "description": "MiniMax-M2.1 is a lightweight, state-of-the-art large language model optimized for coding, agentic workflows, and modern application development.",
   "context_window": 204800,
   "modalities": {
@@ -33,12 +33,16 @@
     "release_date": "b3874102",
     "tagline": "5d6582de",
     "tools": "f0c1dc7e",
-    "max_output_tokens": "f7de594e"
+    "max_output_tokens": "f7de594e",
+    "status": "2e2f74dc",
+    "deprecation_date": "f309a958"
   },
   "family": "minimax",
   "model_type": "chat",
   "release_date": "2025-12-23",
   "tagline": "MiniMax-M2.1 is a lightweight, state-of-the-art large language model optimized for coding, agentic workflows, and modern application development.",
   "tools": ["function_calling"],
-  "max_output_tokens": 131072
+  "max_output_tokens": 131072,
+  "status": "deprecated",
+  "deprecation_date": "2026-10-08"
 }

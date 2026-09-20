@@ -1,0 +1,29 @@
+{
+  "id": "stepfun/step-5-preview",
+  "name": "step-5-preview",
+  "created_by": "stepfun",
+  "source": "official",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 2.7
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "5a31b3dc",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "8a3b232e",
+    "pricing": "41103e0d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-20"
+}

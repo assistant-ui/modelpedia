@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-19",
-  "count": 1499,
+  "date": "2026-09-20",
+  "count": 1500,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -1306,6 +1306,7 @@
     "google-gemini-omni-flash-v1.1-image-to-video",
     "google-gemini-omni-flash-v1.1-reference-to-video",
     "google-gemini-omni-flash-v1.1-text-to-video",
+    "google-lyria-3.5",
     "google-nano-banana-2-lite",
     "google-nano-banana-lite",
     "google-nano-banana-lite-edit",

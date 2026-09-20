@@ -1,0 +1,20 @@
+{
+  "id": "step-5-preview",
+  "name": "step-5-preview",
+  "created_by": "stepfun",
+  "source": "official",
+  "license": "proprietary",
+  "pricing": {
+    "input": 0.972,
+    "cached_input": 0.049,
+    "output": 2.778
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "5a31b3dc",
+    "license": "9186c466",
+    "pricing": "a53a657b",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-09-20"
+}

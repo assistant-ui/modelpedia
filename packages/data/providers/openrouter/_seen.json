@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-19",
-  "count": 459,
+  "date": "2026-09-20",
+  "count": 458,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -84,7 +84,6 @@
     "deepseek-deepseek-v4-flash",
     "deepseek-deepseek-v4-flash-0731",
     "deepseek-deepseek-v4-flash-0731-batch",
-    "deepseek-deepseek-v4-flash-0731-free",
     "deepseek-deepseek-v4-flash-vision-exp",
     "deepseek-deepseek-v4-flash-vision-exp-batch",
     "deepseek-deepseek-v4-pro",

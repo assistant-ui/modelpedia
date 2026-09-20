@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-18",
-  "count": 352,
+  "date": "2026-09-20",
+  "count": 356,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -194,6 +194,7 @@
     "mistral-mistral-medium-3.5",
     "mistral-mistral-nemo",
     "mistral-mistral-small",
+    "mixedbread-toast-1",
     "moonshotai-kimi-k2",
     "moonshotai-kimi-k2-thinking",
     "moonshotai-kimi-k2.5",
@@ -280,6 +281,8 @@
     "poolside-laguna-s-2.1-free",
     "prodia-flux-fast-schnell",
     "quiverai-arrow-1.1",
+    "quiverai-arrow-2",
+    "quiverai-arrow-2-telos",
     "recraft-recraft-v2",
     "recraft-recraft-v3",
     "recraft-recraft-v4",
@@ -314,6 +317,7 @@
     "spacexai-grok-voice-think-fast-2.0",
     "stepfun-step-3.5-flash",
     "stepfun-step-3.7-flash",
+    "stepfun-step-5-preview",
     "tako-search",
     "tencent-hy-mt2-lite",
     "tencent-hy-mt2-plus",
