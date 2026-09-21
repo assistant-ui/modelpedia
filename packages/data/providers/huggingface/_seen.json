@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-20",
-  "count": 124,
+  "date": "2026-09-21",
+  "count": 125,
   "ids": [
     "codellama-codellama-7b-instruct-hf",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
@@ -122,6 +122,7 @@
     "zai-org-glm-4.7-flash",
     "zai-org-glm-5",
     "zai-org-glm-5.1",
+    "zai-org-glm-5.1-fp8",
     "zai-org-glm-5.2",
     "zai-org-glm-5.2-fp8",
     "zai-org-glm-5.3",

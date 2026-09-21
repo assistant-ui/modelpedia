@@ -22,9 +22,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.42,
-    "output": 3,
-    "cached_input": 0.085
+    "input": 0.2,
+    "output": 2.5,
+    "cached_input": 0.05
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -39,8 +39,8 @@
     "tagline": "e630bf35",
     "capabilities": "03fbefb4",
     "modalities": "3ad4060a",
-    "pricing": "5e877a26",
+    "pricing": "c36b2b6b",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-20"
+  "last_updated": "2026-09-21"
 }
