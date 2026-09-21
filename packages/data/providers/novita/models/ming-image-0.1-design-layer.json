@@ -22,7 +22,12 @@
     "model_type": "d669f408",
     "capabilities": "5f5c7516",
     "modalities": "6399757e",
-    "endpoints": "d8fa1080"
+    "endpoints": "d8fa1080",
+    "pricing": "5418a9a1"
   },
-  "last_updated": "2026-09-18"
+  "last_updated": "2026-09-21",
+  "pricing": {
+    "input": 1,
+    "output": 1
+  }
 }
