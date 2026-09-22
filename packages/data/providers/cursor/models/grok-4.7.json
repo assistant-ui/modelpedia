@@ -1,0 +1,47 @@
+{
+  "id": "grok-4.7",
+  "name": "Grok 4.7",
+  "created_by": "cursor",
+  "source": "official",
+  "family": "grok-4.7",
+  "context_window": 256000,
+  "max_context_window": 500000,
+  "performance": 5,
+  "speed": 3,
+  "page_url": "https://cursor.com/docs/models-and-pricing#grok-4-7",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 6,
+    "cached_input": 0.5
+  },
+  "pricing_notes": [
+    "Jointly trained by Cursor and SpaceXAI; Long context (>256k input tokens) is billed at 2x standard rates, up to 500k; Fast mode is available at 2x pricing; Fast mode for long context (>256k) is billed at 3x standard rates"
+  ],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "da4ebcf1",
+    "family": "1b9c0a81",
+    "context_window": "2fd324cb",
+    "max_context_window": "c9077732",
+    "performance": "e4da3b7f",
+    "speed": "eccbc87e",
+    "page_url": "6a680370",
+    "model_type": "d669f408",
+    "capabilities": "a281e83a",
+    "modalities": "68e53d93",
+    "pricing": "1b0b4866",
+    "pricing_notes": "0d681e6f",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-22"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "xiaomi/mimo-v2.6-flash",
+  "name": "Xiaomi: MiMo-V2.6-Flash",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "description": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi.",
+  "release_date": "2026-09-21",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.28,
+    "cached_input": 0.003
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "709e6610",
+    "family": "1a23786e",
+    "description": "093baf37",
+    "release_date": "a4195392",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "093baf37",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "597e8c5c",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-22"
+}

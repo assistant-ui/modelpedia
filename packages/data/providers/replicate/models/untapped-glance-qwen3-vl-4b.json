@@ -1,0 +1,22 @@
+{
+  "id": "untapped/glance-qwen3-vl-4b",
+  "name": "Glance Qwen3 Vl 4b",
+  "created_by": "untapped",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "parameters": 4,
+  "page_url": "https://replicate.com/untapped/glance-qwen3-vl-4b",
+  "capabilities": {
+    "vision": true
+  },
+  "_generated": {
+    "name": "212dca57",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "parameters": "a87ff679",
+    "page_url": "840a0f34",
+    "capabilities": "d3117eb0"
+  },
+  "last_updated": "2026-09-22"
+}

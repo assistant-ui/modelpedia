@@ -1,0 +1,24 @@
+{
+  "id": "openrouter/router/decisions",
+  "name": "Router",
+  "created_by": "openrouter",
+  "source": "official",
+  "description": "Run any decision model with fal, powered by OpenRouter.",
+  "status": "active",
+  "release_date": "2026-09-21",
+  "model_type": "other",
+  "page_url": "https://fal.run/openrouter/router/decisions",
+  "tagline": "Run any decision model with fal, powered by OpenRouter.",
+  "last_seen_at": "2026-09-21",
+  "_generated": {
+    "name": "22b403fa",
+    "description": "33d7eb72",
+    "status": "379ac110",
+    "release_date": "a4195392",
+    "model_type": "ddb0b7bc",
+    "page_url": "b06a081b",
+    "tagline": "33d7eb72",
+    "last_seen_at": "a4195392"
+  },
+  "last_updated": "2026-09-22"
+}

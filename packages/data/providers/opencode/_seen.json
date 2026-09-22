@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-20",
-  "count": 73,
+  "date": "2026-09-22",
+  "count": 75,
   "ids": [
     "big-pickle",
     "claude-fable-5",
@@ -53,6 +53,7 @@
     "gpt-6-astra",
     "grok-4.5",
     "grok-4.6",
+    "grok-4.7",
     "grok-build-0.1",
     "jev-1.13",
     "jev-1.13-free",
@@ -62,6 +63,7 @@
     "kimi-k3",
     "ling-3.0-flash-fin-free",
     "mimo-v2.5-free",
+    "mimo-v2.6-flash-free",
     "minimax-m2.5",
     "minimax-m2.7",
     "minimax-m3",

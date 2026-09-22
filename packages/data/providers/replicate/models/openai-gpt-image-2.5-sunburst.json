@@ -4,7 +4,7 @@
   "created_by": "openai",
   "source": "official",
   "family": "gpt-image-2.5",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "image",
   "page_url": "https://replicate.com/openai/gpt-image-2.5-sunburst",
   "capabilities": {
@@ -18,12 +18,12 @@
   "_generated": {
     "name": "af8ef32a",
     "family": "b65aa56d",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "page_url": "e559cbf0",
     "capabilities": "d3117eb0",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc"
   },
-  "last_updated": "2026-09-12"
+  "last_updated": "2026-09-22"
 }

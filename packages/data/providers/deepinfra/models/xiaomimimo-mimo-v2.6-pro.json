@@ -1,0 +1,48 @@
+{
+  "id": "XiaomiMiMo/MiMo-V2.6-Pro",
+  "name": "MiMo-V2.6-Pro",
+  "created_by": "xiaomimimo",
+  "source": "official",
+  "family": "mimo",
+  "status": "active",
+  "context_window": 1048576,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.435,
+    "output": 0.87,
+    "cached_input": 0.0036
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "_generated": {
+    "name": "27bfb30b",
+    "family": "1a23786e",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "d353cb25",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9"
+  },
+  "last_updated": "2026-09-22"
+}

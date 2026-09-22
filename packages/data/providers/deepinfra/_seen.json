@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-19",
-  "count": 233,
+  "date": "2026-09-22",
+  "count": 235,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -229,6 +229,8 @@
     "xiaomimimo-mimo-v2.5-tts",
     "xiaomimimo-mimo-v2.5-tts-voiceclone",
     "xiaomimimo-mimo-v2.5-tts-voicedesign",
+    "xiaomimimo-mimo-v2.6-flash",
+    "xiaomimimo-mimo-v2.6-pro",
     "zai-org-glm-4.6",
     "zai-org-glm-4.7",
     "zai-org-glm-5.1",

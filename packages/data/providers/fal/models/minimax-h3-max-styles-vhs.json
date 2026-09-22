@@ -1,0 +1,35 @@
+{
+  "id": "minimax/h3-max/styles/vhs",
+  "name": "H3 Max VHS",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "Generates 768p VHS-style video with audio from text prompts or an optional first-frame image.",
+  "status": "active",
+  "release_date": "2026-09-17",
+  "model_type": "video",
+  "page_url": "https://fal.run/minimax/h3-max/styles/vhs",
+  "tagline": "Generates 768p VHS-style video with audio from text prompts or an optional first-frame image.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-09-21",
+  "_generated": {
+    "name": "bbc489db",
+    "description": "562c843e",
+    "status": "379ac110",
+    "release_date": "4ef67ac3",
+    "model_type": "4d1b75ca",
+    "page_url": "213cab9f",
+    "tagline": "562c843e",
+    "capabilities": "d3117eb0",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "a4195392"
+  },
+  "last_updated": "2026-09-22"
+}

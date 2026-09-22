@@ -1,0 +1,53 @@
+{
+  "id": "mimo-v2.6-flash",
+  "name": "mimo-v2.6-flash",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "description": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for greater computational efficiency. The model features a 1M-token context window and native multimodal capabilities. Optimized for agentic workflows, it delivers strong performance across coding, visual, general, and research scenarios, excelling at complex, long-horizon tasks with robust generalization across a diverse range of agent harnesses.",
+  "status": "active",
+  "release_date": "2026-09-21",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "page_url": "https://platform.xiaomimimo.com",
+  "tagline": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "prompt_caching": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.14,
+    "output": 0.28,
+    "cached_input": 0.0028
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "68e2ef66",
+    "family": "1a23786e",
+    "description": "9ef750d2",
+    "status": "379ac110",
+    "release_date": "a4195392",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "page_url": "af488f1e",
+    "tagline": "093baf37",
+    "capabilities": "fc27a8bd",
+    "modalities": "c569b149",
+    "pricing": "22948965",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-22"
+}

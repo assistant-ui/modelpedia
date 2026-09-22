@@ -1,0 +1,35 @@
+{
+  "id": "spacexai/grok-4.7",
+  "name": "grok-4.7",
+  "created_by": "spacexai",
+  "source": "official",
+  "family": "grok-4.7",
+  "context_window": 500000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1.2,
+    "output": 3.6
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1b9c0a81",
+    "family": "1b9c0a81",
+    "context_window": "c9077732",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "3720520b",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-22"
+}

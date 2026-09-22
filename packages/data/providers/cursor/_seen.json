@@ -1,12 +1,16 @@
 {
-  "date": "2026-08-13",
-  "count": 6,
+  "date": "2026-09-22",
+  "count": 10,
   "ids": [
     "composer-2.5",
     "composer-2.5-fast",
     "grok-4.5",
     "grok-4.5-fast",
     "grok-4.6",
-    "grok-4.6-fast"
+    "grok-4.6-fast",
+    "grok-4.7",
+    "grok-4.7-500k",
+    "grok-4.7-500k-fast",
+    "grok-4.7-fast"
   ]
 }

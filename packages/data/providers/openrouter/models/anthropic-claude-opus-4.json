@@ -3,7 +3,7 @@
   "name": "Anthropic: Claude Opus 4",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-09-22",
   "family": "claude-opus",
   "description": "Claude Opus 4 is benchmarked as the world’s best coding model, at time of release, bringing sustained performance on complex, long-running tasks and agent workflows.",
   "context_window": 200000,
@@ -33,10 +33,12 @@
     "model_type": "d669f408",
     "release_date": "c791c61b",
     "tagline": "a116883b",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "release_date": "2025-05-22",
   "tagline": "Claude Opus 4 is benchmarked as the world’s best coding model, at time of release, bringing sustained performance on complex, long-running tasks and agent workflows.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

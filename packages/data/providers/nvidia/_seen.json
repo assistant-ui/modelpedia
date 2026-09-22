@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-22",
   "count": 82,
   "ids": [
     "01-ai-yi-large",
@@ -9,7 +9,7 @@
     "bigcode-starcoder2-15b",
     "databricks-dbrx-instruct",
     "deepseek-ai-deepseek-coder-6.7b-instruct",
-    "deepseek-ai-deepseek-v4-flash-0731",
+    "deepseek-ai-deepseek-v4.1-flash",
     "google-codegemma-1.1-7b",
     "google-codegemma-7b",
     "google-deplot",
