@@ -1,0 +1,44 @@
+{
+  "id": "xiaomi/mimo-v2.6-pro",
+  "name": "Xiaomi: MiMo-V2.6-Pro",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "description": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi.",
+  "release_date": "2026-09-21",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.435,
+    "output": 0.87,
+    "cached_input": 0.004
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "2c9427bb",
+    "family": "1a23786e",
+    "description": "bf70676d",
+    "release_date": "a4195392",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "bf70676d",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "30730939",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-22"
+}

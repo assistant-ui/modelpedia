@@ -1,0 +1,53 @@
+{
+  "id": "mimo-v2.6-pro-ultraspeed",
+  "name": "mimo-v2.6-pro-ultraspeed",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "description": "MiMo-V2.6-Pro-UltraSpeed is the fast speed edition of Xiaomi's flagship foundation model, MiMo-V2.6-Pro. Built from the same 1T MiMo-V2.6-Pro checkpoint, it matches the original model in quality while delivering roughly 10x the output speed. The model features a 1M-token context window and native multimodal capabilities. Optimized for agentic workflows, it delivers top-tier performance across coding, visual, general, and research scenarios, excelling at complex, long-horizon tasks with robust generalization across a diverse range of agent harnesses.",
+  "status": "active",
+  "release_date": "2026-09-21",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "page_url": "https://platform.xiaomimimo.com",
+  "tagline": "MiMo-V2.6-Pro-UltraSpeed is the fast speed edition of Xiaomi's flagship foundation model, MiMo-V2.6-Pro.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "prompt_caching": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 4.35,
+    "output": 8.7,
+    "cached_input": 0.036
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "57428a17",
+    "family": "1a23786e",
+    "description": "038fb5e8",
+    "status": "379ac110",
+    "release_date": "a4195392",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "page_url": "af488f1e",
+    "tagline": "ea8245f7",
+    "capabilities": "fc27a8bd",
+    "modalities": "c569b149",
+    "pricing": "aee280e5",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-22"
+}

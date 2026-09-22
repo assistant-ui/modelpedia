@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-20",
-  "count": 356,
+  "date": "2026-09-22",
+  "count": 360,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -306,6 +306,7 @@
     "spacexai-grok-4.3",
     "spacexai-grok-4.5",
     "spacexai-grok-4.6",
+    "spacexai-grok-4.7",
     "spacexai-grok-build-0.1",
     "spacexai-grok-imagine-image",
     "spacexai-grok-imagine-image-2.0",
@@ -341,6 +342,9 @@
     "voyage-voyage-law-2",
     "xiaomi-mimo-v2.5",
     "xiaomi-mimo-v2.5-pro",
+    "xiaomi-mimo-v2.6-flash",
+    "xiaomi-mimo-v2.6-pro",
+    "xiaomi-mimo-v2.6-pro-ultraspeed",
     "zai-glm-4.5",
     "zai-glm-4.5-air",
     "zai-glm-4.5v",

@@ -1,0 +1,44 @@
+{
+  "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+  "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
+  "created_by": "xiaomi",
+  "source": "official",
+  "family": "mimo",
+  "description": "MiMo-V2.6-Pro-UltraSpeed is the fast speed edition of Xiaomi's flagship foundation model, MiMo-V2.6-Pro.",
+  "release_date": "2026-09-21",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "MiMo-V2.6-Pro-UltraSpeed is the fast speed edition of Xiaomi's flagship foundation model, MiMo-V2.6-Pro.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 4.35,
+    "output": 8.7,
+    "cached_input": 0.036
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e6525872",
+    "family": "1a23786e",
+    "description": "ea8245f7",
+    "release_date": "a4195392",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "ea8245f7",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "aee280e5",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-22"
+}

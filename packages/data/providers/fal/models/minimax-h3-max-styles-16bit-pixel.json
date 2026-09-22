@@ -1,0 +1,35 @@
+{
+  "id": "minimax/h3-max/styles/16bit-pixel",
+  "name": "H3 Max 16-bit Pixel",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "Generates 768p video with audio in a 16-bit pixel-art style from text prompts or an optional first-frame image.",
+  "status": "active",
+  "release_date": "2026-09-17",
+  "model_type": "video",
+  "page_url": "https://fal.run/minimax/h3-max/styles/16bit-pixel",
+  "tagline": "Generates 768p video with audio in a 16-bit pixel-art style from text prompts or an optional first-frame image.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-09-21",
+  "_generated": {
+    "name": "899c9672",
+    "description": "8f193992",
+    "status": "379ac110",
+    "release_date": "4ef67ac3",
+    "model_type": "4d1b75ca",
+    "page_url": "13b54822",
+    "tagline": "8f193992",
+    "capabilities": "d3117eb0",
+    "modalities": "135102b7",
+    "endpoints": "7a78c070",
+    "last_seen_at": "a4195392"
+  },
+  "last_updated": "2026-09-22"
+}

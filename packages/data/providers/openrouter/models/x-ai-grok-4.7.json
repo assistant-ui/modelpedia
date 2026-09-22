@@ -1,0 +1,44 @@
+{
+  "id": "x-ai/grok-4.7",
+  "name": "SpaceXAI: Grok 4.7",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-4.7",
+  "description": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6.",
+  "release_date": "2026-09-21",
+  "context_window": 500000,
+  "max_output_tokens": 450000,
+  "model_type": "chat",
+  "tagline": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.6,
+    "output": 4.8,
+    "cached_input": 0.4
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "e52aad8c",
+    "family": "1b9c0a81",
+    "description": "8a4b5d97",
+    "release_date": "a4195392",
+    "context_window": "c9077732",
+    "max_output_tokens": "e894e1c5",
+    "model_type": "d669f408",
+    "tagline": "8a4b5d97",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "355681a4",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-22"
+}

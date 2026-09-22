@@ -1,0 +1,28 @@
+{
+  "id": "tripo3d/p2/image-to-3d",
+  "name": "Tripo P2 Image to 3D",
+  "created_by": "tripo3d",
+  "source": "official",
+  "description": "Tripo P2 generates 3D models from a single image, with optional PBR textures, adjustable face counts, and triangle or quad mesh topology.",
+  "status": "active",
+  "release_date": "2026-09-20",
+  "model_type": "other",
+  "page_url": "https://fal.run/tripo3d/p2/image-to-3d",
+  "tagline": "Tripo P2 generates 3D models from a single image, with optional PBR textures, adjustable face counts, and triangle or quad mesh topology.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-09-21",
+  "_generated": {
+    "name": "1fd718d5",
+    "description": "72f2eab3",
+    "status": "379ac110",
+    "release_date": "3276fe2a",
+    "model_type": "ddb0b7bc",
+    "page_url": "87251edf",
+    "tagline": "72f2eab3",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "a4195392"
+  },
+  "last_updated": "2026-09-22"
+}
