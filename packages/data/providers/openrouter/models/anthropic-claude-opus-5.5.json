@@ -1,0 +1,44 @@
+{
+  "id": "anthropic/claude-opus-5.5",
+  "name": "Anthropic: Claude Opus 5.5",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "description": "Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5.",
+  "release_date": "2026-09-22",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 4,
+    "output": 20,
+    "cached_input": 0.2
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "454dec5a",
+    "family": "4e4c4b18",
+    "description": "5b0f708f",
+    "release_date": "a771be49",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "5b0f708f",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "775f1e21",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-23"
+}

@@ -7,7 +7,7 @@
   "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks.",
   "release_date": "2026-08-18",
   "context_window": 1048576,
-  "max_output_tokens": 943718,
+  "max_output_tokens": 131072,
   "model_type": "chat",
   "tagline": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks.",
   "capabilities": {
@@ -21,9 +21,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.7,
-    "output": 2.2,
-    "cached_input": 0.13
+    "input": 0.72,
+    "output": 2.4,
+    "cached_input": 0.12
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -32,13 +32,13 @@
     "description": "6c436eaf",
     "release_date": "d4b26be2",
     "context_window": "7d28a051",
-    "max_output_tokens": "7843f47e",
+    "max_output_tokens": "f7de594e",
     "model_type": "d669f408",
     "tagline": "6c436eaf",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
-    "pricing": "aaf08c38",
+    "pricing": "22836f5a",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-09"
+  "last_updated": "2026-09-23"
 }

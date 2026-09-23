@@ -3,7 +3,7 @@
   "name": "Samting Flux Model",
   "created_by": "samting2o99-ai",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "image",
   "page_url": "https://replicate.com/samting2o99-ai/samting-flux-model",
   "modalities": {
@@ -13,11 +13,11 @@
   "endpoints": ["images"],
   "_generated": {
     "name": "52da82d0",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "page_url": "3bb5cc20",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc"
   },
-  "last_updated": "2026-09-22"
+  "last_updated": "2026-09-23"
 }

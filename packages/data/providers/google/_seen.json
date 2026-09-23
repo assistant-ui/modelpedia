@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-16",
-  "count": 82,
+  "date": "2026-09-23",
+  "count": 81,
   "ids": [
     "antigravity-preview-05-2026",
     "deep-research-max-preview-04-2026",
@@ -82,7 +82,6 @@
     "veo-3.0-fast-generate-preview",
     "veo-3.0-generate-001",
     "veo-3.0-generate-preview",
-    "veo-3.1-generate-preview",
     "veo-3.1-lite-generate-preview"
   ]
 }

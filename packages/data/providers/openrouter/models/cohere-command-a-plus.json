@@ -1,0 +1,44 @@
+{
+  "id": "cohere/command-a-plus",
+  "name": "Cohere: Command A+",
+  "created_by": "cohere",
+  "source": "official",
+  "family": "command-a",
+  "description": "Command A+ is Cohere's flagship model for enterprise agentic workflows.",
+  "release_date": "2026-09-22",
+  "context_window": 192000,
+  "max_output_tokens": 64000,
+  "model_type": "chat",
+  "tagline": "Command A+ is Cohere's flagship model for enterprise agentic workflows.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 1.5,
+    "cached_input": 0.15
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "adc944ea",
+    "family": "8e3865ab",
+    "description": "b95bdf2e",
+    "release_date": "a771be49",
+    "context_window": "31c9d89f",
+    "max_output_tokens": "762e98db",
+    "model_type": "d669f408",
+    "tagline": "b95bdf2e",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "f7518ee3",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-23"
+}

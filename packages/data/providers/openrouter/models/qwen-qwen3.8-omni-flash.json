@@ -1,0 +1,44 @@
+{
+  "id": "qwen/qwen3.8-omni-flash",
+  "name": "Qwen: Qwen3.8 Omni Flash",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.8",
+  "description": "Qwen3.8 Omni Flash is an omni-modal reasoning model from Alibaba, the first Qwen model built around agentic capabilities with native audio-video understanding.",
+  "release_date": "2026-09-21",
+  "context_window": 1000000,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "Qwen3.8 Omni Flash is an omni-modal reasoning model from Alibaba, the first Qwen model built around agentic capabilities with native audio-video understanding.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.47,
+    "cached_input": 0.016
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "931a229d",
+    "family": "e102ad6a",
+    "description": "a1a260a7",
+    "release_date": "a4195392",
+    "context_window": "8155bc54",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "a1a260a7",
+    "capabilities": "03fbefb4",
+    "modalities": "0843b982",
+    "pricing": "86f2bffa",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-23"
+}

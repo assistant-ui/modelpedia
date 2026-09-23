@@ -38,7 +38,9 @@
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
     "pricing": "77b9d5d5",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-09-09"
+  "last_updated": "2026-09-23",
+  "status": "deprecated"
 }

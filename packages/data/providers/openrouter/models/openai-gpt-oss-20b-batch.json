@@ -13,15 +13,16 @@
   "capabilities": {
     "structured_output": true,
     "reasoning": true,
-    "json_mode": true
+    "json_mode": true,
+    "tool_call": true
   },
   "modalities": {
     "input": ["text"],
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.05,
-    "output": 0.2
+    "input": 0.024,
+    "output": 0.112
   },
   "_generated": {
     "name": "c567bc3e",
@@ -32,11 +33,13 @@
     "max_output_tokens": "242f56a4",
     "model_type": "d669f408",
     "tagline": "9ef19f8d",
-    "capabilities": "d53412cf",
+    "capabilities": "83495353",
     "modalities": "68e53d93",
-    "pricing": "6aa94ff1",
-    "status": "2e2f74dc"
+    "pricing": "30fb8720",
+    "status": "2e2f74dc",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-16",
-  "status": "deprecated"
+  "last_updated": "2026-09-23",
+  "status": "deprecated",
+  "tools": ["function_calling"]
 }
