@@ -1,0 +1,42 @@
+{
+  "id": "openai/gpt-6-sol:batch",
+  "name": "OpenAI: GPT-6 Sol (batch)",
+  "created_by": "openai",
+  "source": "official",
+  "description": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier.",
+  "release_date": "2026-09-22",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 5,
+    "cached_input": 0.1
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "13831fff",
+    "description": "1c1b8d97",
+    "release_date": "a771be49",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "1c1b8d97",
+    "capabilities": "03fbefb4",
+    "modalities": "8b8b28d1",
+    "pricing": "cc700ee3",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-23"
+}

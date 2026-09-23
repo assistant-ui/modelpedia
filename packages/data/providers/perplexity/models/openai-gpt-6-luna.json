@@ -1,0 +1,35 @@
+{
+  "id": "openai/gpt-6-luna",
+  "name": "openai/gpt-6-luna",
+  "created_by": "openai",
+  "source": "official",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.5,
+    "cached_input": 0.01
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing_notes": [
+    "Input ranges $0.1 to $0.2, output ranges $0.5 to $0.75 per 1M tokens."
+  ],
+  "_generated": {
+    "name": "30d6e168",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "82b07600",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93",
+    "pricing_notes": "9225d481"
+  },
+  "last_updated": "2026-09-23"
+}

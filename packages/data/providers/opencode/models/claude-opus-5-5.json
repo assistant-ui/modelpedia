@@ -1,0 +1,32 @@
+{
+  "id": "claude-opus-5-5",
+  "name": "Claude Opus 5.5",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 4,
+    "output": 20,
+    "cached_input": 0.2,
+    "cache_write": 5
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "61478ffc",
+    "family": "4e4c4b18",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "87f86bbe",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-23"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "openai/gpt-6-sol",
+  "name": "openai/gpt-6-sol",
+  "created_by": "openai",
+  "source": "official",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 2,
+    "output": 10,
+    "cached_input": 0.2
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing_notes": [
+    "Input ranges $2 to $4, output ranges $10 to $15 per 1M tokens."
+  ],
+  "_generated": {
+    "name": "9f9fcba5",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "76ce7a5a",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93",
+    "pricing_notes": "ba2826c4"
+  },
+  "last_updated": "2026-09-23"
+}

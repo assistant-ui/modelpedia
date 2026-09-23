@@ -1,0 +1,48 @@
+{
+  "id": "claude-opus-5-5",
+  "name": "Claude Opus 5.5",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "retirement_date": "2027-09-22",
+  "license": "proprietary",
+  "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-5-5",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 4,
+    "output": 20,
+    "cache_write": 5,
+    "cached_input": 0.2,
+    "cache_write_1h": 8,
+    "batch_input": 2,
+    "batch_output": 10
+  },
+  "open_weight": false,
+  "tools": ["function_calling"],
+  "endpoints": ["messages"],
+  "_generated": {
+    "name": "61478ffc",
+    "family": "4e4c4b18",
+    "retirement_date": "e6faecac",
+    "license": "9186c466",
+    "page_url": "5397bf7d",
+    "model_type": "d669f408",
+    "capabilities": "29417d42",
+    "modalities": "6399757e",
+    "pricing": "a1c6dc37",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e",
+    "endpoints": "94bb8b7a"
+  },
+  "last_updated": "2026-09-23"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "deepseek/deepseek-v4.1-flash:batch",
+  "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture.",
+  "release_date": "2026-09-10",
+  "context_window": 1048576,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.112,
+    "output": 0.336,
+    "cached_input": 0.003
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "76f1f3f8",
+    "family": "4b81b92d",
+    "description": "69d32f7c",
+    "release_date": "b057cbf8",
+    "context_window": "7d28a051",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "69d32f7c",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "c6d008c8",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-23"
+}
