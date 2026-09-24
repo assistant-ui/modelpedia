@@ -6,7 +6,7 @@
   "last_updated": "2026-09-24",
   "family": "o3",
   "description": "The o-series of models are trained with reinforcement learning to think  before they answer and perform complex reasoning. The o3-pro model uses more  compute to think harder and provide consistently better answers.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -66,7 +66,7 @@
     "name": "363d2093",
     "family": "193049bc",
     "description": "d7957ba4",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -84,10 +84,16 @@
     "license": "9186c466",
     "page_url": "b1230bef",
     "open_weight": "68934a3e",
-    "release_date": "298b4e52"
+    "release_date": "298b4e52",
+    "deprecation_date": "af441ea0",
+    "retirement_date": "d0164be5",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o3-pro",
   "open_weight": false,
-  "release_date": "2025-06-10"
+  "release_date": "2025-06-10",
+  "deprecation_date": "2026-06-11",
+  "retirement_date": "2026-12-11",
+  "successor": "gpt-5.6-sol"
 }

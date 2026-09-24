@@ -27,7 +27,9 @@
     "capabilities": "a19166f1",
     "pricing": "dcd14f44",
     "modalities": "68e53d93",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "family": "16342494"
   },
-  "last_updated": "2026-09-23"
+  "last_updated": "2026-09-24",
+  "family": "gpt-6"
 }

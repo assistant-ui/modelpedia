@@ -6,7 +6,7 @@
   "last_updated": "2026-09-24",
   "family": "o3",
   "description": "o3 is a well-rounded and powerful model across domains. It sets a new  standard for math, science, coding, and visual reasoning tasks. It also  excels at technical writing and instruction-following. Use it to think  through multi-step problems that involve analysis across text, code, and images.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -76,7 +76,7 @@
     "name": "193049bc",
     "family": "193049bc",
     "description": "d7ef2292",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -94,10 +94,16 @@
     "license": "9186c466",
     "page_url": "e2ccf3a7",
     "open_weight": "68934a3e",
-    "release_date": "67604092"
+    "release_date": "67604092",
+    "deprecation_date": "af441ea0",
+    "retirement_date": "d0164be5",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o3",
   "open_weight": false,
-  "release_date": "2025-04-16"
+  "release_date": "2025-04-16",
+  "deprecation_date": "2026-06-11",
+  "retirement_date": "2026-12-11",
+  "successor": "gpt-5.6-sol"
 }

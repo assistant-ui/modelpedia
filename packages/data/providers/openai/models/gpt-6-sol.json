@@ -97,7 +97,11 @@
     "modalities": "6399757e",
     "pricing": "b723a230",
     "tools": "c3217644",
-    "endpoints": "ec55a017"
+    "endpoints": "ec55a017",
+    "family": "16342494",
+    "status": "379ac110"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-09-24",
+  "family": "gpt-6",
+  "status": "active"
 }
