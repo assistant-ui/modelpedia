@@ -8,13 +8,15 @@ import {
   pricingFromSections,
 } from "./openai-parser.ts";
 import { readdirSync } from "node:fs";
-import { fetchText } from "./parse.ts";
+import * as path from "node:path";
+import { fetchText, pMap } from "./parse.ts";
 import {
   assertParsed,
   buildPricing,
   inferFamily,
   inferParameters,
   type ModelEntry,
+  PROVIDERS_DIR,
   readSources,
   runGenerate,
   upsertModel,
@@ -22,8 +24,6 @@ import {
 } from "./shared.ts";
 
 const MODEL_DOCS_BASE = "https://developers.openai.com/api/docs/models";
-const DEPRECATIONS_URL =
-  "https://developers.openai.com/api/docs/deprecations.md";
 const PAGE_CONCURRENCY = 8;
 
 function isRelevant(id: string): boolean {
@@ -54,32 +54,13 @@ function featuresToCapabilities(
   return caps;
 }
 
-async function mapConcurrent<T, R>(
-  values: T[],
-  concurrency: number,
-  mapper: (value: T) => Promise<R>,
-): Promise<R[]> {
-  const results: R[] = [];
-  let next = 0;
-  async function worker() {
-    while (next < values.length) {
-      const index = next++;
-      results[index] = await mapper(values[index]);
-    }
-  }
-  await Promise.all(
-    Array.from({ length: Math.min(concurrency, values.length) }, worker),
-  );
-  return results;
-}
-
 async function main() {
   const sources = readSources("openai");
   const [catalogMarkdown, pricingMarkdown, deprecationsMarkdown] =
     await Promise.all([
       fetchText(sources.models as string),
       fetchText(sources.pricing as string),
-      fetchText(DEPRECATIONS_URL),
+      fetchText(sources.deprecations as string),
     ]);
   const catalog = parseCatalog(catalogMarkdown);
   const deprecations = parseDeprecations(deprecationsMarkdown);
@@ -90,9 +71,8 @@ async function main() {
     `Catalog: ${catalog.size} model pages, ${pricing.size} priced models, ${deprecations.size} deprecations`,
   );
 
-  const pages = await mapConcurrent(
+  const pages = await pMap(
     [...catalog.values()],
-    PAGE_CONCURRENCY,
     async (catalogEntry) => {
       const url = `${MODEL_DOCS_BASE}/${catalogEntry.slug}`;
       const [markdown, html] = await Promise.all([
@@ -104,6 +84,7 @@ async function main() {
         page: parseModelPage(markdown, html, catalogEntry.slug!),
       };
     },
+    PAGE_CONCURRENCY,
   );
   assertParsed(pages.length, "OpenAI model pages");
 
@@ -161,7 +142,7 @@ async function main() {
   };
 
   const existingModelIds = new Set(
-    readdirSync("providers/openai/models")
+    readdirSync(path.join(PROVIDERS_DIR, "openai", "models"))
       .filter((file) => file.endsWith(".json"))
       .map((file) => file.slice(0, -".json".length)),
   );

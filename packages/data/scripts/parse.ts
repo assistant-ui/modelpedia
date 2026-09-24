@@ -6,10 +6,12 @@
 // ── HTTP ──
 
 const RETRY_DELAYS_MS = [1_000, 4_000];
+const MAX_RETRY_AFTER_MS = 60_000;
 
 /**
- * `fetch` that retries network errors and 429/5xx responses. Docs hosts drop
- * connections often enough that a single attempt fails whole providers.
+ * `fetch` that retries network errors and 429/5xx responses, honoring a 429's
+ * `Retry-After`. Docs hosts drop connections often enough that a single
+ * attempt fails whole providers.
  */
 export async function fetchWithRetry(
   input: string | URL,
@@ -17,15 +19,38 @@ export async function fetchWithRetry(
 ): Promise<Response> {
   for (let attempt = 0; ; attempt++) {
     const last = attempt === RETRY_DELAYS_MS.length;
+    let delay = RETRY_DELAYS_MS[attempt];
     try {
       const res = await fetch(input, init);
       if (last || (res.status !== 429 && res.status < 500)) return res;
+      const retryAfter = Number(res.headers.get("retry-after")) * 1000;
+      if (retryAfter > 0) delay = Math.min(retryAfter, MAX_RETRY_AFTER_MS);
       await res.body?.cancel();
     } catch (err) {
       if (last) throw err;
     }
-    await new Promise((r) => setTimeout(r, RETRY_DELAYS_MS[attempt]));
+    await new Promise((r) => setTimeout(r, delay));
   }
+}
+
+/** Map over `items` with at most `concurrency` calls in flight. */
+export async function pMap<T, R>(
+  items: T[],
+  fn: (item: T) => Promise<R>,
+  concurrency: number,
+): Promise<R[]> {
+  const results: R[] = new Array(items.length);
+  let idx = 0;
+
+  async function worker() {
+    while (idx < items.length) {
+      const i = idx++;
+      results[i] = await fn(items[i]);
+    }
+  }
+
+  await Promise.all(Array.from({ length: concurrency }, () => worker()));
+  return results;
 }
 
 /** Fetch a URL and return text content. Throws on non-OK status. */
