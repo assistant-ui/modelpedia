@@ -20,7 +20,7 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "huggingface_downloads": 4356,
+  "huggingface_downloads": 3751,
   "last_modified": "2024-08-12",
   "_generated": {
     "name": "eafb868d",
@@ -35,7 +35,7 @@
     "capabilities": "ea60b262",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc",
-    "huggingface_downloads": "a8ef1979",
+    "huggingface_downloads": "21ce6891",
     "last_modified": "946d44f9"
   },
   "last_updated": "2026-09-24"

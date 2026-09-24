@@ -32,7 +32,9 @@
     "tagline": "d4e99fff",
     "capabilities": "d1034176",
     "modalities": "6399757e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "family": "16342494"
   },
-  "last_updated": "2026-09-17"
+  "last_updated": "2026-09-24",
+  "family": "gpt-6"
 }

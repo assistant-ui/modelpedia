@@ -38,7 +38,12 @@
     "capabilities": "04ba30b2",
     "modalities": "6399757e",
     "endpoints": "d8fa1080",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "pricing": "5d28482e"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-09-24",
+  "pricing": {
+    "input": 0.14,
+    "output": 0.28
+  }
 }

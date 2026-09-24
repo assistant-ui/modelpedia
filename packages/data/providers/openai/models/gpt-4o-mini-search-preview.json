@@ -64,11 +64,17 @@
     "license": "9186c466",
     "page_url": "a5ac572c",
     "open_weight": "68934a3e",
-    "release_date": "53813ccd"
+    "release_date": "53813ccd",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "26fc75d3",
+    "successor": "d5215155"
   },
   "model_type": "chat",
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-search-preview",
   "open_weight": false,
-  "release_date": "2025-03-11"
+  "release_date": "2025-03-11",
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-07-23",
+  "successor": "gpt-5.6-terra"
 }

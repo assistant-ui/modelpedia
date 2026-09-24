@@ -74,7 +74,9 @@
     "modalities": "6399757e",
     "pricing": "637d2527",
     "tools": "c3217644",
-    "endpoints": "acb164ea"
+    "endpoints": "acb164ea",
+    "status": "379ac110"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-09-24",
+  "status": "active"
 }

@@ -19,7 +19,9 @@
     "model_type": "d669f408",
     "tagline": "25922f36",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "family": "16342494"
   },
-  "last_updated": "2026-09-06"
+  "last_updated": "2026-09-24",
+  "family": "gpt-6"
 }

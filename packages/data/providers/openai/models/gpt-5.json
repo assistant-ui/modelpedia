@@ -6,7 +6,7 @@
   "last_updated": "2026-09-24",
   "family": "gpt-5",
   "description": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains. We recommend using the latest GPT-6 Astra. Learn more on the Model guidance page. Reasoning.effort supports: minimal, low, medium, and high.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-09",
   "context_window": 400000,
   "max_output_tokens": 128000,
@@ -77,7 +77,7 @@
     "name": "7a178da6",
     "family": "aa904c16",
     "description": "4547f6d6",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
@@ -96,10 +96,16 @@
     "license": "9186c466",
     "page_url": "2237ba95",
     "open_weight": "68934a3e",
-    "release_date": "79c30d0c"
+    "release_date": "79c30d0c",
+    "deprecation_date": "af441ea0",
+    "retirement_date": "d0164be5",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5",
   "open_weight": false,
-  "release_date": "2025-08-07"
+  "release_date": "2025-08-07",
+  "deprecation_date": "2026-06-11",
+  "retirement_date": "2026-12-11",
+  "successor": "gpt-5.6-sol"
 }

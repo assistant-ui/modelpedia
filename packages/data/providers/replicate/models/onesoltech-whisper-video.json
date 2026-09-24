@@ -1,0 +1,25 @@
+{
+  "id": "onesoltech/whisper-video",
+  "name": "Whisper Video",
+  "created_by": "onesoltech",
+  "source": "official",
+  "family": "whisper",
+  "status": "active",
+  "model_type": "video",
+  "page_url": "https://replicate.com/onesoltech/whisper-video",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "_generated": {
+    "name": "a1e7add4",
+    "family": "7fbc43e3",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "page_url": "2bee02b8",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070"
+  },
+  "last_updated": "2026-09-24"
+}

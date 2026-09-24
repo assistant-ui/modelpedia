@@ -37,8 +37,10 @@
     "modalities": "6399757e",
     "pricing": "81c0386d",
     "tools": "f0c1dc7e",
-    "status": "2e2f74dc"
+    "status": "2e2f74dc",
+    "family": "aa904c16"
   },
-  "last_updated": "2026-08-02",
-  "status": "deprecated"
+  "last_updated": "2026-09-24",
+  "status": "deprecated",
+  "family": "gpt-5"
 }

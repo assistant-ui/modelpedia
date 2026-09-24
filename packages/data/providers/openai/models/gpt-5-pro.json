@@ -73,7 +73,10 @@
     "tools": "a7dce5fd",
     "release_date": "17ddf71c",
     "description": "ca58221e",
-    "tagline": "827b0fb2"
+    "tagline": "827b0fb2",
+    "deprecation_date": "af441ea0",
+    "retirement_date": "d0164be5",
+    "successor": "cadec60b"
   },
   "snapshots": ["gpt-5-pro-2025-10-06"],
   "model_type": "chat",
@@ -89,5 +92,8 @@
   ],
   "release_date": "2025-10-06",
   "description": "GPT-5 Pro uses more compute to think harder and provide consistently better answers.",
-  "tagline": "Version of GPT-5 that produces smarter and more precise responses"
+  "tagline": "Version of GPT-5 that produces smarter and more precise responses",
+  "deprecation_date": "2026-06-11",
+  "retirement_date": "2026-12-11",
+  "successor": "gpt-5.6-sol"
 }
