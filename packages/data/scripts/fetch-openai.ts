@@ -158,8 +158,24 @@ async function main() {
   );
 
   const names = [...detail.keys()];
-  const deprecationFor = (id: string) =>
-    deprecations.get(id) ?? familyDeprecation(id);
+  // deprecations.md lists snapshots, not the aliases pointing at them, so an
+  // alias whose every snapshot is deprecated lives until its last one retires.
+  const deprecationFor = (id: string) => {
+    const own = deprecations.get(id) ?? familyDeprecation(id);
+    if (own) return own;
+    const snapshots: string[] = (detail.get(id)?.snapshots ?? []).filter(
+      (snapshot: string) => snapshot !== id,
+    );
+    const inherited = snapshots.map(
+      (snapshot) => deprecations.get(snapshot) ?? familyDeprecation(snapshot),
+    );
+    if (snapshots.length === 0 || inherited.some((entry) => !entry)) {
+      return undefined;
+    }
+    return inherited.toSorted((a, b) =>
+      (b?.retirement_date ?? "").localeCompare(a?.retirement_date ?? ""),
+    )[0];
+  };
   const excluded = names.filter((name) => !isRelevant(name));
   if (excluded.length > 0) {
     console.log(
@@ -195,7 +211,7 @@ async function main() {
           : `${MODEL_DOCS_BASE}/${slugBase}?snapshot=${name}`;
     }
 
-    if (d?.deprecated || deprecation) entry.status = "deprecated";
+    entry.status = d?.deprecated || deprecation ? "deprecated" : "active";
     if (deprecation) {
       entry.deprecation_date = deprecation.deprecation_date;
       if (deprecation.retirement_date) {
