@@ -2,6 +2,7 @@ import { execSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import * as fs from "node:fs";
 import * as path from "node:path";
+import { fetchWithRetry } from "./parse.ts";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 
@@ -349,7 +350,7 @@ export async function fetchCached(
       return fs.readFileSync(cachePath, "utf-8");
     }
   }
-  const res = await fetch(url);
+  const res = await fetchWithRetry(url);
   if (!res.ok) throw new Error(`${opts.label} fetch failed: ${res.status}`);
   const body = await res.text();
   fs.writeFileSync(cachePath, body, "utf-8");

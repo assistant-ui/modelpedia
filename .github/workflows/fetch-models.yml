@@ -173,11 +173,18 @@ jobs:
 
       # A successful daily run pings Better Stack; a run that stops arriving
       # (cron disabled, workflow broken, repo archived) raises an incident even
-      # when nothing is left alive to report a failure.
+      # when nothing is left alive to report a failure. A failed fetch script is
+      # reported as a failure: the data PR merges automatically, so its failure
+      # list alone is never read.
       - name: Ping Better Stack heartbeat
         if: success()
         env:
           HEARTBEAT_URL: ${{ secrets.BETTERSTACK_HEARTBEAT_URL }}
         run: |
           [ -z "$HEARTBEAT_URL" ] && { echo "BETTERSTACK_HEARTBEAT_URL not set; skipping"; exit 0; }
-          curl -sf "$HEARTBEAT_URL" > /dev/null || echo "::warning::heartbeat ping failed"
+          FAILURES="$GITHUB_WORKSPACE/fetch-failures.txt"
+          if [ -f "$FAILURES" ]; then
+            curl -sf --data-binary @"$FAILURES" "$HEARTBEAT_URL/fail" > /dev/null || echo "::warning::heartbeat failure report failed"
+          else
+            curl -sf "$HEARTBEAT_URL" > /dev/null || echo "::warning::heartbeat ping failed"
+          fi

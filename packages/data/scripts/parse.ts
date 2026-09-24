@@ -5,9 +5,32 @@
 
 // ── HTTP ──
 
+const RETRY_DELAYS_MS = [1_000, 4_000];
+
+/**
+ * `fetch` that retries network errors and 429/5xx responses. Docs hosts drop
+ * connections often enough that a single attempt fails whole providers.
+ */
+export async function fetchWithRetry(
+  input: string | URL,
+  init?: RequestInit,
+): Promise<Response> {
+  for (let attempt = 0; ; attempt++) {
+    const last = attempt === RETRY_DELAYS_MS.length;
+    try {
+      const res = await fetch(input, init);
+      if (last || (res.status !== 429 && res.status < 500)) return res;
+      await res.body?.cancel();
+    } catch (err) {
+      if (last) throw err;
+    }
+    await new Promise((r) => setTimeout(r, RETRY_DELAYS_MS[attempt]));
+  }
+}
+
 /** Fetch a URL and return text content. Throws on non-OK status. */
 export async function fetchText(url: string): Promise<string> {
-  const res = await fetch(url);
+  const res = await fetchWithRetry(url);
   if (!res.ok) throw new Error(`Fetch failed: ${res.status} ${url}`);
   return res.text();
 }
@@ -17,7 +40,7 @@ export async function fetchJson<T = unknown>(
   url: string,
   headers?: Record<string, string>,
 ): Promise<T> {
-  const res = await fetch(url, headers ? { headers } : undefined);
+  const res = await fetchWithRetry(url, headers ? { headers } : undefined);
   if (!res.ok) throw new Error(`Fetch failed: ${res.status} ${url}`);
   return res.json() as Promise<T>;
 }
