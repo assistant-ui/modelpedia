@@ -28429,3 +28429,6 @@
 {"ts":"2026-09-24T09:28:35.421Z","provider":"vercel","model":"openai/gpt-6-astra","action":"update","changes":{"family":{"to":"gpt-6"}},"commit":"cfa51b9462c5c955f1377d604e29b6f8ec0d20bb"}
 {"ts":"2026-09-24T09:28:35.421Z","provider":"vercel","model":"openai/gpt-6-luna","action":"update","changes":{"family":{"to":"gpt-6"}},"commit":"cfa51b9462c5c955f1377d604e29b6f8ec0d20bb"}
 {"ts":"2026-09-24T09:28:35.421Z","provider":"vercel","model":"openai/gpt-6-sol","action":"update","changes":{"family":{"to":"gpt-6"}},"commit":"cfa51b9462c5c955f1377d604e29b6f8ec0d20bb"}
+{"ts":"2026-09-24T11:10:55.499Z","provider":"deepseek","model":"deepseek-v4-flash deepseek-v4-pro deepseek-v4-flash-vision-exp","action":"delete","commit":"6d6aa8d4dd7be8c85d174866132c052a4bbafc08"}
+{"ts":"2026-09-24T11:10:55.499Z","provider":"openai","model":"Code Interpreter","action":"delete","commit":"6d6aa8d4dd7be8c85d174866132c052a4bbafc08"}
+{"ts":"2026-09-24T11:10:55.499Z","provider":"openai","model":"File Search Storage","action":"delete","commit":"6d6aa8d4dd7be8c85d174866132c052a4bbafc08"}
