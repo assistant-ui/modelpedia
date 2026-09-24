@@ -180,7 +180,7 @@ async function main() {
 
     const entry: ModelEntry = {
       id: name,
-      name,
+      name: d?.display_name ?? name,
       family: inferFamily(name),
       description: d?.description,
       tagline: d?.tagline,

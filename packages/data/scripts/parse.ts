@@ -23,7 +23,10 @@ export async function fetchWithRetry(
     try {
       const res = await fetch(input, init);
       if (last || (res.status !== 429 && res.status < 500)) return res;
-      const retryAfter = Number(res.headers.get("retry-after")) * 1000;
+      const header = res.headers.get("retry-after") ?? "";
+      const retryAfter = /^\d+$/.test(header)
+        ? Number(header) * 1000
+        : Date.parse(header) - Date.now();
       if (retryAfter > 0) delay = Math.min(retryAfter, MAX_RETRY_AFTER_MS);
       await res.body?.cancel();
     } catch (err) {

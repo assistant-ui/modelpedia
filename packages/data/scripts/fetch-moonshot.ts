@@ -29,9 +29,10 @@ import {
 const sources = readSources("moonshot");
 const API_URL = sources.api as string;
 const PRICING_INDEX = sources.pricing_index as string;
+const PRICING_PAGE = sources.pricing as string;
 
 // ── Docs-verified model specs ──
-// These come from platform.moonshot.ai docs pages (intro, quickstart guides).
+// These come from platform.kimi.ai docs pages (intro, quickstart guides).
 // max_output_tokens: 32768 documented for kimi-k2.5 and kimi-k2 models.
 
 const MODELS: ModelEntry[] = [
@@ -321,7 +322,7 @@ async function main() {
       status: "active",
       // The docs table is authoritative over the enrichment table.
       context_window: doc.context_window ?? specs?.context_window,
-      page_url: "https://platform.moonshot.ai/docs/pricing/chat",
+      page_url: PRICING_PAGE,
     };
 
     if (doc.input != null || doc.output != null) {
