@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "count": 124,
+  "count": 123,
   "ids": [
     "851-labs-background-remover",
     "adirik-flux-cinestill",
@@ -69,7 +69,6 @@
     "lucataco-deepseek-ocr",
     "lucataco-gpt-oss-safeguard-20b",
     "lucataco-kontext-realearth",
-    "lucataco-qwen3-vl-8b-instruct",
     "lucataco-remove-bg",
     "luma-reframe-video",
     "m1guelpf-nsfw-filter",

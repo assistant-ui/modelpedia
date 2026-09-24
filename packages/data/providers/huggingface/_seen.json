@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "count": 122,
+  "count": 121,
   "ids": [
     "codellama-codellama-7b-instruct-hf",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
@@ -102,7 +102,6 @@
     "trevorjs-gemma-4-31b-it-uncensored",
     "unsloth-gemma-2b-it",
     "unsloth-gemma-3-1b-it",
-    "unsloth-llama-2-7b-chat",
     "unsloth-llama-3.1-8b-instruct",
     "unsloth-llama-3.3-70b-instruct",
     "unsloth-meta-llama-3.1-8b-instruct",
