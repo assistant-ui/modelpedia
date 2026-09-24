@@ -3,7 +3,7 @@
   "name": "Claude Opus 4.6",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-09-24",
   "family": "claude-opus",
   "description": "The most intelligent broadly available model for agents and coding",
   "status": "active",
@@ -36,7 +36,7 @@
     "batch_output": 12.5,
     "cache_write_1h": 10
   },
-  "tools": ["function_calling"],
+  "tools": ["function_calling", "computer_use", "mcp"],
   "endpoints": ["messages"],
   "training_data_cutoff": "2025-08",
   "priority_tier": true,
@@ -55,7 +55,7 @@
     "capabilities": "1616fc33",
     "modalities": "6399757e",
     "pricing": "93ccf380",
-    "tools": "f0c1dc7e",
+    "tools": "abde16bc",
     "endpoints": "94bb8b7a",
     "training_data_cutoff": "5549a2cd",
     "priority_tier": "b326b506",
@@ -63,18 +63,19 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "page_url": "981b9ed8",
-    "thinking_modes": "79e5fb75",
+    "thinking_modes": "a8582e89",
     "bedrock_id": "c1f2e8a5",
     "vertex_id": "01ea5f9f",
     "retirement_date": "c2546975",
     "batch_max_output_tokens": "1ded704c",
-    "fast_mode_pricing": "a57f537b"
+    "fast_mode_pricing": "a57f537b",
+    "release_date": "c7536487"
   },
   "model_type": "chat",
   "license": "proprietary",
   "open_weight": false,
   "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-6",
-  "thinking_modes": ["extended", "adaptive"],
+  "thinking_modes": ["adaptive"],
   "bedrock_id": "anthropic.claude-opus-4-6-v1",
   "vertex_id": "claude-opus-4-6",
   "retirement_date": "2027-02-05",
@@ -82,5 +83,6 @@
   "fast_mode_pricing": {
     "input": 30,
     "output": 150
-  }
+  },
+  "release_date": "2026-02-05"
 }

@@ -42,7 +42,7 @@
     "batch_output": 12.5
   },
   "open_weight": false,
-  "tools": ["function_calling"],
+  "tools": ["function_calling", "computer_use", "mcp"],
   "endpoints": ["messages"],
   "thinking_modes": ["adaptive"],
   "bedrock_id": "anthropic.claude-opus-4-8",
@@ -70,17 +70,19 @@
     "modalities": "6399757e",
     "pricing": "dcd926d5",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e",
+    "tools": "abde16bc",
     "endpoints": "94bb8b7a",
     "thinking_modes": "a8582e89",
     "bedrock_id": "930a91bb",
     "vertex_id": "066e5f41",
     "priority_tier": "b326b506",
-    "fast_mode_pricing": "4aa68eb1"
+    "fast_mode_pricing": "4aa68eb1",
+    "release_date": "b7be5629"
   },
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-09-24",
   "fast_mode_pricing": {
     "input": 10,
     "output": 50
-  }
+  },
+  "release_date": "2026-05-28"
 }

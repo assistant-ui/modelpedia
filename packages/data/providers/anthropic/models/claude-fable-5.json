@@ -37,7 +37,7 @@
     "batch_output": 25
   },
   "open_weight": false,
-  "tools": ["function_calling"],
+  "tools": ["function_calling", "computer_use", "mcp"],
   "endpoints": ["messages"],
   "thinking_modes": ["adaptive"],
   "bedrock_id": "anthropic.claude-fable-5",
@@ -60,14 +60,20 @@
     "modalities": "6399757e",
     "pricing": "7fd7b1fe",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e",
+    "tools": "abde16bc",
     "endpoints": "94bb8b7a",
     "thinking_modes": "a8582e89",
     "bedrock_id": "c11309f9",
     "vertex_id": "a6476422",
     "priority_tier": "b326b506",
-    "retirement_date": "3ae0c33e"
+    "retirement_date": "3ae0c33e",
+    "release_date": "fcf93e36",
+    "knowledge_cutoff": "f534389f",
+    "training_data_cutoff": "f534389f"
   },
-  "last_updated": "2026-07-17",
-  "retirement_date": "2027-06-09"
+  "last_updated": "2026-09-24",
+  "retirement_date": "2027-06-09",
+  "release_date": "2026-06-09",
+  "knowledge_cutoff": "2026-01",
+  "training_data_cutoff": "2026-01"
 }
