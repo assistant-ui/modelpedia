@@ -457,13 +457,10 @@ export function inferFamily(modelId: string): string | undefined {
   // [regex, fixed_family] — null means use capture group m[1]
   const rules: [RegExp, string | null][] = [
     // OpenAI
-    [/^(gpt-5\.\d+)/, null],
-    [/^gpt-5(?:-|$)/, "gpt-5"],
-    [/^(gpt-4\.1)/, null],
     [/^gpt-4o/, "gpt-4o"],
     [/^gpt-4-turbo/, "gpt-4-turbo"],
-    [/^gpt-4(?:-|$)/, "gpt-4"],
-    [/^gpt-3\.5/, "gpt-3.5"],
+    // One-digit major: Azure writes gpt-3.5 as gpt-35, which is not GPT-35.
+    [/^(gpt-\d(?:\.\d+)?)(?!\d)/, null],
     [/^(gpt-image-\d+\.?\d*)/, null],
     [/^gpt-image/, "gpt-image"],
     [/^gpt-realtime/, "gpt-realtime"],
