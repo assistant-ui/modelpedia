@@ -31,9 +31,6 @@ interface ModelSpec {
   adaptive_thinking?: boolean;
   bedrock_id?: string;
   vertex_id?: string;
-  deprecated?: boolean;
-  pricing_input?: number;
-  pricing_output?: number;
   release_date?: string;
   retirement_date?: string;
   status?: "active" | "deprecated";
@@ -165,6 +162,10 @@ function parseModelMarkdown(md: string): ModelSpec | null {
   if (!name || !id) return null;
 
   const spec: ModelSpec = { id, name };
+  // Pages marked Latest carry a tagline here; older pages put a migration
+  // notice in its place.
+  const tagline = md.match(/^\*\*Latest\.\*\*[^\n]*\n+([^\n]+)\n+Model ID:/m);
+  if (tagline) spec.description = cleanMarkdownCell(tagline[1]);
   for (const rows of markdownTables(md)) {
     const headers = rows[0].map(cleanMarkdownCell);
     const firstHeader = headers[0]?.toLowerCase();
@@ -638,16 +639,7 @@ async function main() {
     id: string,
     extra?: Partial<ModelEntry>,
   ): ModelEntry {
-    const p =
-      findPricing(spec.name) ??
-      (spec.pricing_input != null
-        ? {
-            input: spec.pricing_input,
-            output: spec.pricing_output ?? 0,
-            cache_write: spec.pricing_input * 1.25,
-            cached_input: spec.pricing_input * 0.1,
-          }
-        : undefined);
+    const p = findPricing(spec.name);
     const b = findBatch(spec.name);
     const apiModel = apiModels.get(id);
 
@@ -672,23 +664,6 @@ async function main() {
     };
     const performance = family ? FAMILY_PERF[family] : undefined;
 
-    // Anthropic-specific fields (provider extensions, not in ModelEntry schema)
-    const anthropicFields: Record<string, unknown> = {};
-    if (thinkingModes.length > 0)
-      anthropicFields.thinking_modes = thinkingModes;
-    if (spec.bedrock_id) anthropicFields.bedrock_id = spec.bedrock_id;
-    if (spec.vertex_id) anthropicFields.vertex_id = spec.vertex_id;
-    // Priority tier: all current models support it
-    if (!spec.deprecated) anthropicFields.priority_tier = true;
-    // Fast mode (beta premium pricing) — only on specific models
-    const fm = fastMode.get(spec.name);
-    if (fm) {
-      anthropicFields.fast_mode_pricing = {
-        input: fm.input,
-        output: fm.output,
-      };
-    }
-
     // Deprecation info from deprecations page. The table is keyed by API model
     // name (usually the dated snapshot), so try the entry's own id, then the
     // spec's snapshot id (covers aliases like claude-sonnet-4-0 whose snapshot
@@ -702,7 +677,24 @@ async function main() {
     const status =
       dep?.status === "retired" || dep?.status === "deprecated"
         ? "deprecated"
-        : (spec.status ?? (spec.deprecated ? "deprecated" : "active"));
+        : (spec.status ?? "active");
+
+    // Anthropic-specific fields (provider extensions, not in ModelEntry schema)
+    const anthropicFields: Record<string, unknown> = {};
+    if (thinkingModes.length > 0)
+      anthropicFields.thinking_modes = thinkingModes;
+    if (spec.bedrock_id) anthropicFields.bedrock_id = spec.bedrock_id;
+    if (spec.vertex_id) anthropicFields.vertex_id = spec.vertex_id;
+    // Priority tier: all current models support it
+    if (status !== "deprecated") anthropicFields.priority_tier = true;
+    // Fast mode (beta premium pricing) — only on specific models
+    const fm = fastMode.get(spec.name);
+    if (fm) {
+      anthropicFields.fast_mode_pricing = {
+        input: fm.input,
+        output: fm.output,
+      };
+    }
 
     const entry: ModelEntry = {
       id,
@@ -733,7 +725,7 @@ async function main() {
         streaming: true,
         vision: true,
         tool_call: true,
-        ...(!spec.deprecated ? { batch: true } : {}),
+        ...(status !== "deprecated" ? { batch: true } : {}),
         ...(hasThinking
           ? { reasoning: true, structured_output: true, json_mode: true }
           : {}),
