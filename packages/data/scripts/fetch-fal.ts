@@ -11,6 +11,7 @@ import {
   runGenerate,
   upsertModel,
 } from "./shared.ts";
+import { fetchJson } from "./parse.ts";
 
 interface FalModel {
   endpoint_id: string;
@@ -40,30 +41,6 @@ function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function fetchFalPage(url: string) {
-  for (let attempt = 0; attempt < 5; attempt++) {
-    try {
-      const res = await fetch(url);
-      if (res.ok) return (await res.json()) as FalResponse;
-      if (res.status !== 429) {
-        throw new Error(`Fetch failed: ${res.status} ${url}`);
-      }
-      const retryAfter = Number(res.headers.get("retry-after"));
-      const waitMs = Number.isFinite(retryAfter)
-        ? retryAfter * 1000
-        : 750 * (attempt + 1);
-      console.warn(`fal rate limited; retrying in ${waitMs}ms`);
-      await sleep(waitMs);
-    } catch (err) {
-      if (attempt === 4) throw err;
-      const waitMs = 750 * (attempt + 1);
-      console.warn(`fal fetch failed; retrying in ${waitMs}ms`);
-      await sleep(waitMs);
-    }
-  }
-  throw new Error(`Fetch failed after retries: ${url}`);
-}
-
 async function fetchAllModels() {
   const models: FalModel[] = [];
   let cursor: string | undefined;
@@ -72,7 +49,7 @@ async function fetchAllModels() {
   for (;;) {
     const url = new URL(sources.models as string);
     if (cursor) url.searchParams.set("cursor", cursor);
-    const json = await fetchFalPage(url.toString());
+    const json = await fetchJson<FalResponse>(url.toString());
     models.push(...(json.models ?? []));
     if (!json.has_more || !json.next_cursor) break;
     if (seenCursors.has(json.next_cursor)) break;

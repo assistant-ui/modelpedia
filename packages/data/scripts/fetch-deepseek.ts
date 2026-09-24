@@ -1,4 +1,5 @@
 import {
+  fetchWithRetry,
   fetchText,
   findHtmlTables,
   parsePrice,
@@ -326,7 +327,7 @@ async function main() {
   const apiModels = new Map<string, { created: number }>();
   if (apiKey) {
     try {
-      const res = await fetch(sources.api as string, {
+      const res = await fetchWithRetry(sources.api as string, {
         headers: { Authorization: `Bearer ${apiKey}` },
       });
       if (res.ok) {

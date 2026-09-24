@@ -2,6 +2,7 @@ import { execSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import * as fs from "node:fs";
 import * as path from "node:path";
+import { fetchWithRetry } from "./parse.ts";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 
@@ -97,10 +98,12 @@ function writeSeenManifests(): Map<string, number> {
     if (previous?.count != null) priorCounts.set(provider, previous.count);
 
     // Rewrite only when the set changes, so a stable catalog produces no diff.
+    // A sudden shrink keeps the old record: adopting the smaller set would let
+    // the next run's sweep retire everything this run failed to parse.
     const unchanged =
       previous?.ids?.length === ids.length &&
       previous.ids.every((id, i) => id === ids[i]);
-    if (!unchanged) {
+    if (!unchanged && !refusesSweep(provider, previous?.count, ids.length)) {
       fs.writeFileSync(
         manifestPath,
         `${JSON.stringify({ date: today(), count: ids.length, ids }, null, 2)}\n`,
@@ -131,6 +134,7 @@ function writeSeenManifests(): Map<string, number> {
  */
 const PARTIAL_WRITERS = new Set([
   "baseten", // chat models only, out of a larger catalog
+  "bytedance", // the Seed page showcases current models, not the catalog
   "deepinfra", // skips models it already knows are deprecated
   "huggingface", // filters the trending list to chat/instruct
   "meta", // chat models only
@@ -144,14 +148,25 @@ const PARTIAL_WRITERS = new Set([
  */
 const SWEEP_SHRINK_TOLERANCE = 0.2;
 
+function refusesSweep(
+  provider: string,
+  priorCount: number | undefined,
+  seenCount: number,
+): boolean {
+  if (PARTIAL_WRITERS.has(provider) || !priorCount) return false;
+  return (priorCount - seenCount) / priorCount > SWEEP_SHRINK_TOLERANCE;
+}
+
 /**
- * Retire models the provider no longer lists.
+ * Retire models the provider no longer lists, and return the providers whose
+ * sudden shrink refused the sweep.
  *
  * Only 3 of 51 scrapers did this, so directories only ever grew: a delisted
  * model kept its last good data and stayed visible forever. Runs off the
  * sighting record, so no scraper has to pass its id set.
  */
-function sweepDeprecated(priorCounts: Map<string, number>): void {
+function sweepDeprecated(priorCounts: Map<string, number>): string[] {
+  const refused: string[] = [];
   for (const [provider, seen] of seenByProvider) {
     if (PARTIAL_WRITERS.has(provider)) continue;
 
@@ -166,11 +181,8 @@ function sweepDeprecated(priorCounts: Map<string, number>): void {
       continue;
     }
 
-    const shrink = (priorCount - seen.size) / priorCount;
-    if (shrink > SWEEP_SHRINK_TOLERANCE) {
-      console.log(
-        `  ${provider}: saw ${seen.size} models, was ${priorCount}; skipping deprecation sweep (looks like a scraper break, not a delisting)`,
-      );
+    if (refusesSweep(provider, priorCount, seen.size)) {
+      refused.push(`${provider} saw ${seen.size} models, was ${priorCount}`);
       continue;
     }
 
@@ -203,12 +215,10 @@ function sweepDeprecated(priorCounts: Map<string, number>): void {
       console.log(`  ${provider}: retired ${retired} delisted model(s)`);
     }
   }
+  return refused;
 }
 
-export function runGenerate(opts?: {
-  requireModels?: boolean;
-  sweep?: boolean;
-}): void {
+export function runGenerate(opts?: { requireModels?: boolean }): void {
   if (opts?.requireModels !== false && upsertAttempts === 0) {
     throw new Error(
       "fetch parsed 0 models before generate; the upstream source structure likely changed",
@@ -217,7 +227,7 @@ export function runGenerate(opts?: {
   // Manifest first: the sweep upserts retirements, which would otherwise land
   // in the sighting record and inflate the count the next run compares against.
   const priorCounts = writeSeenManifests();
-  if (opts?.sweep !== false) sweepDeprecated(priorCounts);
+  const refused = sweepDeprecated(priorCounts);
   console.log("\nRegenerating data.ts...");
   try {
     execSync("bun scripts/generate.ts", { stdio: "inherit", cwd: ROOT });
@@ -229,6 +239,14 @@ export function runGenerate(opts?: {
       stdio: "inherit",
       cwd: ROOT,
     });
+  }
+  // Thrown last so the data stays regenerated, and failed loudly because a
+  // refusal repeats every run until someone fixes the scraper or accepts the
+  // smaller catalog.
+  if (refused.length > 0) {
+    throw new Error(
+      `refused to retire models after a sudden catalog shrink (${refused.join("; ")}); fix the scraper, or if the provider really delisted them, delete providers/<provider>/_seen.json so the next run records the smaller catalog`,
+    );
   }
 }
 
@@ -349,7 +367,7 @@ export async function fetchCached(
       return fs.readFileSync(cachePath, "utf-8");
     }
   }
-  const res = await fetch(url);
+  const res = await fetchWithRetry(url);
   if (!res.ok) throw new Error(`${opts.label} fetch failed: ${res.status}`);
   const body = await res.text();
   fs.writeFileSync(cachePath, body, "utf-8");

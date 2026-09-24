@@ -1,3 +1,4 @@
 {
-  "models": "https://api.ai21.com/studio/v1/models"
+  "docs": "https://docs.ai21.com/docs/jamba-foundation-models.md",
+  "pricing": "https://www.ai21.com/pricing"
 }

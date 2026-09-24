@@ -1,4 +1,4 @@
-import { fetchJson, fetchText } from "./parse.ts";
+import { fetchJson, fetchText, pMap } from "./parse.ts";
 import {
   inferFamily,
   type ModelEntry,
@@ -271,26 +271,6 @@ async function fetchReadme(modelId: string): Promise<string | null> {
   } catch {
     return null;
   }
-}
-
-/** Run async tasks with concurrency limit. */
-async function pMap<T, R>(
-  items: T[],
-  fn: (item: T) => Promise<R>,
-  concurrency: number,
-): Promise<R[]> {
-  const results: R[] = new Array(items.length);
-  let idx = 0;
-
-  async function worker() {
-    while (idx < items.length) {
-      const i = idx++;
-      results[i] = await fn(items[i]);
-    }
-  }
-
-  await Promise.all(Array.from({ length: concurrency }, () => worker()));
-  return results;
 }
 
 // ── Main ──

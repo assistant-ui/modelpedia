@@ -8,6 +8,7 @@ import {
   runGenerate,
   upsertModel,
 } from "./shared.ts";
+import { fetchWithRetry } from "./parse.ts";
 
 /**
  * Fetch Cloudflare AI Gateway models from the /compat/v1/models API.
@@ -93,7 +94,7 @@ async function main() {
   const apiUrl = `https://gateway.ai.cloudflare.com/v1/${accountId}/${gatewayId}/compat/v1/models`;
   console.log(`Fetching AI Gateway models from ${apiUrl}...`);
 
-  const res = await fetch(apiUrl, {
+  const res = await fetchWithRetry(apiUrl, {
     headers: { "cf-aig-authorization": `Bearer ${token}` },
   });
   if (!res.ok) throw new Error(`CF AI Gateway fetch failed: ${res.status}`);

@@ -1,5 +1,5 @@
 {
-  "models": "https://docs.mistral.ai/models/overview",
-  "details": "https://docs.mistral.ai/models/model-cards/",
+  "models": "https://docs.mistral.ai/models",
+  "details": "https://docs.mistral.ai/models/",
   "api": "https://api.mistral.ai/v1/models"
 }

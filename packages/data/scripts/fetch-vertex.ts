@@ -1,5 +1,6 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
+import { fetchText } from "./parse.ts";
 import {
   buildPricing,
   inferParameters,
@@ -83,8 +84,7 @@ function parseGeminiTable(
 
 async function fetchVertexPricing(): Promise<Map<string, VertexPricing>> {
   if (!sources.pricing) return new Map();
-  const res = await fetch(sources.pricing as string);
-  const html = await res.text();
+  const html = await fetchText(sources.pricing as string);
   const map = new Map<string, VertexPricing>();
 
   const tables = [...html.matchAll(/<table[^>]*>([\s\S]*?)<\/table>/g)];

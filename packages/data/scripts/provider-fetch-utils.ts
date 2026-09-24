@@ -7,6 +7,7 @@ import {
   inferParameters,
   type ModelEntry,
 } from "./shared.ts";
+import { fetchWithRetry } from "./parse.ts";
 
 export function toPerMillion(perToken: string | number | undefined | null) {
   if (perToken == null || perToken === "") return undefined;
@@ -209,7 +210,7 @@ export async function fetchJsonWithOptionalBearer<T>(
   url: string,
   token?: string | null,
 ) {
-  const res = await fetch(url, {
+  const res = await fetchWithRetry(url, {
     headers: token ? { Authorization: `Bearer ${token}` } : undefined,
   });
   if (!res.ok) throw new Error(`Fetch failed: ${res.status} ${url}`);

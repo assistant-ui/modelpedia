@@ -1,20 +1,30 @@
 import {
-  fetchBundle,
-  parseCompareEntries,
-  parseDetailEntries,
+  mergePricingSections,
+  parseCatalog,
+  parseDeprecations,
+  parseModelPage,
   parsePricing,
   parsePricingSections,
+  pricingFromSections,
 } from "./openai-parser.ts";
+import { readdirSync } from "node:fs";
+import * as path from "node:path";
+import { fetchText, pMap } from "./parse.ts";
 import {
+  assertParsed,
   buildPricing,
   inferFamily,
-  inferModelType,
   inferParameters,
   type ModelEntry,
+  PROVIDERS_DIR,
   readSources,
   runGenerate,
+  upsertModel,
   upsertWithSnapshot,
 } from "./shared.ts";
+
+const MODEL_DOCS_BASE = "https://developers.openai.com/api/docs/models";
+const PAGE_CONCURRENCY = 8;
 
 function isRelevant(id: string): boolean {
   return !id.endsWith(" with data sharing");
@@ -24,6 +34,7 @@ function featuresToCapabilities(
   features: string[] | undefined,
   tools: string[] | undefined,
   reasoning: boolean,
+  endpoints: string[] | undefined,
 ): Record<string, boolean> {
   const f = new Set(features ?? []);
   const t = new Set(tools ?? []);
@@ -36,9 +47,8 @@ function featuresToCapabilities(
   caps.json_mode = f.has("json_mode");
   caps.fine_tuning = f.has("fine_tuning");
   caps.reasoning = reasoning;
+  if (endpoints?.includes("batch")) caps.batch = true;
 
-  // Only return explicit true/false when we have authoritative feature data;
-  // when features is undefined (no compare data), return empty so nulls are preserved
   if (!features) return {};
 
   return caps;
@@ -46,75 +56,126 @@ function featuresToCapabilities(
 
 async function main() {
   const sources = readSources("openai");
-  const js = await fetchBundle(sources.models as string);
+  const [catalogMarkdown, pricingMarkdown, deprecationsMarkdown] =
+    await Promise.all([
+      fetchText(sources.models as string),
+      fetchText(sources.pricing as string),
+      fetchText(sources.deprecations as string),
+    ]);
+  const catalog = parseCatalog(catalogMarkdown);
+  const deprecations = parseDeprecations(deprecationsMarkdown);
+  const pricing = parsePricing(pricingMarkdown);
+  const pricingSections = parsePricingSections(pricingMarkdown);
+  assertParsed(catalog.size, "OpenAI model catalog");
+  console.log(
+    `Catalog: ${catalog.size} model pages, ${pricing.size} priced models, ${deprecations.size} deprecations`,
+  );
 
-  const pricing = parsePricing(js);
-  const compare = parseCompareEntries(js);
-  const detail = parseDetailEntries(js);
-  const pricingSections = parsePricingSections(js);
+  const pages = await pMap(
+    [...catalog.values()],
+    async (catalogEntry) => {
+      const url = `${MODEL_DOCS_BASE}/${catalogEntry.slug}`;
+      const [markdown, html] = await Promise.all([
+        fetchText(`${url}.md`),
+        fetchText(url),
+      ]);
+      return {
+        catalogEntry,
+        page: parseModelPage(markdown, html, catalogEntry.slug!),
+      };
+    },
+    PAGE_CONCURRENCY,
+  );
+  assertParsed(pages.length, "OpenAI model pages");
 
-  const allNames = new Set([
-    ...pricing.keys(),
-    ...compare.keys(),
-    ...detail.keys(),
-    ...pricingSections.keys(),
-  ]);
-
-  // Sync compare data: snapshot → alias (so alias gets specs if only snapshot has them)
-  for (const [name, data] of [...compare]) {
-    const alias = name.replace(/-\d{4}-\d{2}-\d{2}$/, "");
-    if (alias !== name && !compare.has(alias)) {
-      compare.set(alias, data);
+  const detail = new Map();
+  const compare = new Map();
+  const snapshotAliases = new Map<string, string>();
+  for (const { catalogEntry, page } of pages) {
+    const pageDetail = {
+      ...catalogEntry,
+      ...page.detail,
+      name: page.detail.name,
+      tagline: page.detail.tagline ?? catalogEntry.tagline,
+    };
+    const ids = new Set([page.detail.name, ...(page.detail.snapshots ?? [])]);
+    let pageSections = page.pricing;
+    for (const id of ids) {
+      pageSections = mergePricingSections(
+        pageSections,
+        pricingSections.get(id),
+      );
+    }
+    for (const id of ids) {
+      if (id !== page.detail.name) snapshotAliases.set(id, page.detail.name);
+      detail.set(
+        id,
+        id === page.detail.name
+          ? pageDetail
+          : { name: id, slug: page.detail.slug },
+      );
+      compare.set(id, { ...page.compare, name: id });
+      const sections = mergePricingSections(
+        pricingSections.get(id),
+        pageSections,
+      );
+      pricingSections.set(id, sections);
+      const price = pricingFromSections(id, sections);
+      if (price) pricing.set(id, price);
     }
   }
 
+  // A family entry (`gpt-4o-audio`) covers its preview and dated snapshots,
+  // never every id that shares its prefix: gpt-realtime-2 and gpt-audio-1.5
+  // are separate models, one of them the recommended replacement.
+  const familyDeprecation = (id: string) => {
+    const alias = snapshotAliases.get(id);
+    return [...deprecations.values()].find(
+      (deprecation) =>
+        deprecation.family &&
+        (deprecation.id === alias ||
+          (id.startsWith(deprecation.id) &&
+            /^(?:-preview)?(?:-\d{4}-\d{2}-\d{2})?$/.test(
+              id.slice(deprecation.id.length),
+            ))),
+    );
+  };
+
+  const existingModelIds = new Set(
+    readdirSync(path.join(PROVIDERS_DIR, "openai", "models"))
+      .filter((file) => file.endsWith(".json"))
+      .map((file) => file.slice(0, -".json".length)),
+  );
+  for (const id of existingModelIds) {
+    if (!detail.has(id) && (deprecations.has(id) || familyDeprecation(id))) {
+      detail.set(id, { name: id });
+    }
+  }
+
+  assertParsed(detail.size, "OpenAI model and snapshot entries");
   console.log(
-    `Parsed: ${pricing.size} pricing, ${compare.size} compare, ${detail.size} detail entries`,
+    `Fetched ${pages.length} pages and parsed ${detail.size} model IDs`,
   );
 
-  // Helper: look up a name in a map, trying both dotted and hyphenated variants
-  function lookup<T>(map: Map<string, T>, name: string): T | undefined {
-    return (
-      map.get(name) ??
-      map.get(name.replace(/\./g, "-")) ??
-      map.get(name.replace(/-(\d)/g, ".$1"))
+  const names = [...detail.keys()];
+  const deprecationFor = (id: string) =>
+    deprecations.get(id) ?? familyDeprecation(id);
+  const excluded = names.filter((name) => !isRelevant(name));
+  if (excluded.length > 0) {
+    console.log(
+      `Excluded ${excluded.length} irrelevant IDs: ${excluded.join(", ")}`,
     );
   }
-
-  // Deduplicate: slug-based keys (gpt-3-5-turbo) and dotted keys (gpt-3.5-turbo) may
-  // refer to the same model. Prefer dotted (the real API name).
-  const dedup = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
-  const seenDedup = new Set<string>();
-  const dedupedNames: string[] = [];
-  // Process dotted names first so they win over slugified ones
-  const sortedNames = [...allNames].sort((a, b) => {
-    const aDot = a.includes(".");
-    const bDot = b.includes(".");
-    if (aDot && !bDot) return -1;
-    if (!aDot && bDot) return 1;
-    return 0;
-  });
-  for (const name of sortedNames) {
-    const key = dedup(name);
-    if (seenDedup.has(key)) continue;
-    seenDedup.add(key);
-    dedupedNames.push(name);
-  }
-
   const entries: ModelEntry[] = [];
 
-  for (const name of dedupedNames) {
+  for (const name of names) {
     if (!isRelevant(name)) continue;
 
-    const p = lookup(pricing, name);
-    const d = lookup(detail, name);
-    // For alias models, inherit compare data from current_snapshot if alias has none
-    const c =
-      lookup(compare, name) ??
-      (d?.current_snapshot ? lookup(compare, d.current_snapshot) : undefined);
-
+    const p = pricing.get(name);
+    const d = detail.get(name);
+    const c = compare.get(name);
+    const deprecation = deprecationFor(name);
     const isOss = inferFamily(name) === "gpt-oss";
-    // Use slug for page_url; for snapshots, derive from alias name so alias doesn't inherit snapshot URL
     const slugBase = d?.slug ?? name.replace(/-\d{4}-\d{2}-\d{2}$/, "");
 
     const entry: ModelEntry = {
@@ -125,31 +186,40 @@ async function main() {
       tagline: d?.tagline,
       license: isOss ? "apache-2.0" : "proprietary",
       open_weight: isOss,
-      page_url:
-        slugBase === name
-          ? `https://developers.openai.com/api/docs/models/${name}`
-          : `https://developers.openai.com/api/docs/models/${slugBase}?snapshot=${name}`,
-      status:
-        d?.deprecated ||
-        /deprecated/i.test(d?.tagline ?? "") ||
-        /deprecated/i.test(d?.description ?? "")
-          ? "deprecated"
-          : "active",
     };
+
+    if (d?.slug) {
+      entry.page_url =
+        slugBase === name
+          ? `${MODEL_DOCS_BASE}/${name}`
+          : `${MODEL_DOCS_BASE}/${slugBase}?snapshot=${name}`;
+    }
+
+    if (d?.deprecated || deprecation) entry.status = "deprecated";
+    if (deprecation) {
+      entry.deprecation_date = deprecation.deprecation_date;
+      if (deprecation.retirement_date) {
+        entry.retirement_date = deprecation.retirement_date;
+      }
+      if (deprecation.successor) entry.successor = deprecation.successor;
+    }
 
     if (c?.context_window) entry.context_window = c.context_window;
     if (c?.max_output_tokens) entry.max_output_tokens = c.max_output_tokens;
     if (c?.max_input_tokens) entry.max_input_tokens = c.max_input_tokens;
     if (c?.modalities) entry.modalities = c.modalities;
     if (c?.knowledge_cutoff) {
-      const kc = c.knowledge_cutoff;
-      entry.knowledge_cutoff = `${kc.getFullYear()}-${String(kc.getMonth() + 1).padStart(2, "0")}`;
+      const cutoff = c.knowledge_cutoff;
+      entry.knowledge_cutoff = `${cutoff.getUTCFullYear()}-${String(
+        cutoff.getUTCMonth() + 1,
+      ).padStart(2, "0")}`;
     }
 
     const caps = featuresToCapabilities(
       c?.supported_features,
       d?.supported_tools,
       c?.reasoning_tokens ?? false,
+      c?.supported_endpoints,
     );
     if (Object.keys(caps).length > 0) entry.capabilities = caps;
 
@@ -163,48 +233,12 @@ async function main() {
       });
     }
 
-    // Detailed pricing tiers
-    const tiers = lookup(pricingSections, name);
+    const tiers = pricingSections.get(name);
     if (tiers && tiers.length > 0) {
       if (!entry.pricing) entry.pricing = {};
       entry.pricing.tiers = tiers;
-
-      // Backfill flat pricing from Text tokens Standard row for list/compare views
-      if (entry.pricing.input == null) {
-        const textTier = tiers.find((t) => t.label === "Text tokens");
-        if (textTier) {
-          const stdRow = textTier.rows.find((r) => r.label === "Standard");
-          if (stdRow) {
-            const inputIdx = textTier.columns.indexOf("Input");
-            const outputIdx = textTier.columns.indexOf("Output");
-            const cachedIdx = textTier.columns.indexOf("Cached input");
-            if (inputIdx >= 0 && stdRow.values[inputIdx] != null)
-              entry.pricing.input = stdRow.values[inputIdx]!;
-            if (outputIdx >= 0 && stdRow.values[outputIdx] != null)
-              entry.pricing.output = stdRow.values[outputIdx]!;
-            if (cachedIdx >= 0 && stdRow.values[cachedIdx] != null)
-              entry.pricing.cached_input = stdRow.values[cachedIdx]!;
-          }
-          const batchRow = textTier.rows.find((r) => r.label === "Batch");
-          if (batchRow) {
-            const inputIdx = textTier.columns.indexOf("Input");
-            const outputIdx = textTier.columns.indexOf("Output");
-            if (inputIdx >= 0 && batchRow.values[inputIdx] != null)
-              entry.pricing.batch_input = batchRow.values[inputIdx]!;
-            if (outputIdx >= 0 && batchRow.values[outputIdx] != null)
-              entry.pricing.batch_output = batchRow.values[outputIdx]!;
-          }
-        }
-      }
     }
 
-    // Model type: use detail type, then infer from ID/endpoints
-    if (d?.type && d.type !== "other") {
-      entry.model_type = d.type as "chat" | "reasoning";
-    } else {
-      entry.model_type = inferModelType(name, c?.supported_endpoints);
-    }
-    // Tools: use detail data, or infer function_calling from capabilities
     if (d?.supported_tools) {
       entry.tools = d.supported_tools;
     } else if (caps.tool_call) {
@@ -215,35 +249,36 @@ async function main() {
     if (c?.performance) entry.performance = c.performance;
     if (c?.latency) entry.speed = c.latency;
     if (c?.reasoning_tokens && c?.performance) entry.reasoning = c.performance;
-
-    // Use authoritative snapshots list from detail if available
     if (d?.snapshots) entry.snapshots = d.snapshots;
-
-    // New detail fields
+    const alias = snapshotAliases.get(name);
+    if (alias) entry.alias = alias;
     if (d?.point_to) entry.successor = d.point_to;
     if (d?.pricing_notes) entry.pricing_notes = d.pricing_notes;
 
-    // Release date: extract from snapshot date in model ID (e.g. gpt-4o-2024-08-06)
     const dateMatch = name.match(/(\d{4}-\d{2}-\d{2})$/);
     if (dateMatch) entry.release_date = dateMatch[1];
 
     const params = inferParameters(name);
     if (params) {
       entry.parameters = params.parameters;
-      if (params.active_parameters)
+      if (params.active_parameters) {
         entry.active_parameters = params.active_parameters;
+      }
     }
 
     entries.push(entry);
   }
 
+  assertParsed(entries.length, "OpenAI model entries");
   console.log(`Writing ${entries.length} models...`);
-
   let written = 0;
   for (const entry of entries) {
-    written += upsertWithSnapshot("openai", entry);
+    written += entry.alias
+      ? upsertModel("openai", entry)
+        ? 1
+        : 0
+      : upsertWithSnapshot("openai", entry);
   }
-
   console.log(`Wrote ${written} models`);
   runGenerate();
 }

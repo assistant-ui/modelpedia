@@ -52,43 +52,63 @@ interface OverviewInfo {
   status: "active" | "preview";
 }
 
-/**
- * Parse the markdown Model Catalog (overview.md). Each `## Production Models` /
- * `## Preview Models` section holds one table:
- *   | Model Name | Model ID | Parameters | Speed (tokens/s) |
- * The Model Name cell links to the per-model page: `[Display](/models/<slug>)`.
- */
 function parseOverview(md: string): OverviewInfo[] {
   const result: OverviewInfo[] = [];
-  const sectionRe =
-    /##\s+(Production|Preview)\s+Models\s*\n([\s\S]*?)(?=\n##\s|\n#\s|$)/g;
+  const sectionRe = /^##\s+(.+?)\s*$/gm;
   let sec: RegExpExecArray | null;
   while ((sec = sectionRe.exec(md)) !== null) {
-    const status: "active" | "preview" =
-      sec[1] === "Production" ? "active" : "preview";
-    for (const line of sec[2].split("\n")) {
-      if (!line.trim().startsWith("|")) continue;
-      // Skip header + separator rows
-      if (/Model Name/i.test(line) || /^\s*\|[\s:|-]+\|\s*$/.test(line))
-        continue;
+    const heading = sec[1].trim();
+    const status =
+      heading === "Preview Models"
+        ? "preview"
+        : heading === "Production Models" || heading === "Available Models"
+          ? "active"
+          : undefined;
+    if (!status) continue;
+
+    const nextSection = md.indexOf("\n## ", sec.index + sec[0].length);
+    const lines = md
+      .slice(
+        sec.index + sec[0].length,
+        nextSection < 0 ? undefined : nextSection,
+      )
+      .split("\n");
+    const headerLine = lines.find((line) => /\|\s*Model Name\s*\|/i.test(line));
+    if (!headerLine) continue;
+
+    const headers = headerLine
+      .split("|")
+      .slice(1, -1)
+      .map((cell) => cell.trim().toLowerCase());
+    const nameIndex = headers.indexOf("model name");
+    const idIndex = headers.indexOf("model id");
+    const parametersIndex = headers.indexOf("parameters");
+    const speedIndex = headers.findIndex((h) => h.startsWith("speed"));
+    if (nameIndex < 0 || idIndex < 0) continue;
+
+    const headerIndex = lines.indexOf(headerLine);
+    for (const line of lines.slice(headerIndex + 1)) {
+      if (!line.trim().startsWith("|")) break;
+      if (/^\s*\|[\s:|-]+\|\s*$/.test(line)) continue;
       const cells = line
         .split("|")
         .slice(1, -1)
         .map((c) => c.trim());
-      if (cells.length < 2) continue;
-      const linkMatch = cells[0].match(/\[([^\]]+)\]\((\/models\/[^)]+)\)/);
+      const linkMatch = cells[nameIndex]?.match(
+        /\[([^\]]+)\]\((\/models\/[^)]+)\)/,
+      );
       if (!linkMatch) continue;
       const name = linkMatch[1].replace(/<sup>.*?<\/sup>/g, "").trim();
       const slug = linkMatch[2].replace("/models/", "").trim();
-      const id = cells[1].replace(/`/g, "").trim();
+      const id = cells[idIndex]?.replace(/`/g, "").trim();
       if (!id) continue;
       result.push({
         id,
         name,
         slug,
-        parameters: cells[2]?.trim(),
-        speed: cells[3]
-          ? Number(cells[3].replace(/[^0-9]/g, "")) || undefined
+        parameters: cells[parametersIndex]?.trim(),
+        speed: cells[speedIndex]
+          ? Number(cells[speedIndex].replace(/[^0-9]/g, "")) || undefined
           : undefined,
         status,
       });
@@ -401,7 +421,6 @@ async function main() {
           open_weight: true,
           parameters: depParams?.parameters,
           active_parameters: depParams?.active_parameters,
-          modalities: { input: ["text"], output: ["text"] },
         };
         if (dep.successor) entry.successor = dep.successor;
         written += upsertModel("cerebras", entry) ? 1 : 0;

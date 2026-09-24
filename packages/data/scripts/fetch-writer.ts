@@ -8,6 +8,7 @@ import {
   runGenerate,
   upsertModel,
 } from "./shared.ts";
+import { fetchWithRetry } from "./parse.ts";
 
 /**
  * Fetch Writer Palmyra models.
@@ -212,7 +213,7 @@ async function main() {
   const apiKey = envOrNull("WRITER_API_KEY");
   if (apiKey && LIST_API) {
     try {
-      const res = await fetch(LIST_API, {
+      const res = await fetchWithRetry(LIST_API, {
         headers: { Authorization: `Bearer ${apiKey}` },
       });
       if (res.ok) {

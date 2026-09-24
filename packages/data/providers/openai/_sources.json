@@ -1,3 +1,5 @@
 {
-  "models": "https://developers.openai.com/api/docs/models/all"
+  "models": "https://developers.openai.com/api/docs/models/all.md",
+  "pricing": "https://developers.openai.com/api/docs/pricing.md",
+  "deprecations": "https://developers.openai.com/api/docs/deprecations.md"
 }
