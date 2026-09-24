@@ -220,6 +220,8 @@ function parseModelMarkdown(md: string): ModelSpec | null {
     }
   }
 
+  if (spec.context_window == null || spec.max_output_tokens == null)
+    return null;
   return spec;
 }
 
@@ -598,13 +600,15 @@ async function main() {
       ),
     6,
   );
-  const specs = parsedSpecs.filter((spec): spec is ModelSpec => spec !== null);
-  assertParsed(specs.length, "anthropic model pages");
-  if (specs.length !== pages.length) {
+  const unparsed = pages
+    .filter((_, i) => parsedSpecs[i] === null)
+    .map(({ slug }) => slug);
+  if (unparsed.length > 0) {
     throw new Error(
-      `anthropic model pages: parsed ${specs.length} of ${pages.length} discovered pages`,
+      `anthropic model pages: could not parse ${unparsed.join(", ")}`,
     );
   }
+  const specs = parsedSpecs.filter((spec): spec is ModelSpec => spec !== null);
   for (const spec of specs) spec.latency = latencyByName.get(spec.name);
 
   const { pricing, batch } = parsePricingMarkdown(pricingMd);
