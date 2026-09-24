@@ -1,16 +1,20 @@
+import * as fs from "node:fs";
+import * as path from "node:path";
 import {
   assertParsed,
   envOrNull,
   inferFamily,
   type ModelEntry,
+  PROVIDERS_DIR,
   readSources,
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
+import { fetchWithRetry } from "./parse.ts";
 
 /**
  * Fetch Mistral AI models from:
- * 1. Docs models page (model ID list from RSC payload)
+ * 1. Docs models page (model page links from the rendered document)
  * 2. Individual model detail pages (specs + pricing via WebFetch)
  * 3. /v1/models API (optional, needs key — for release dates + capabilities)
  */
@@ -20,24 +24,46 @@ const MODELS_PAGE = sources.models as string;
 const MODEL_DETAIL_BASE = sources.details as string;
 const API_URL = sources.api as string;
 
-// ── Extract model slugs from docs RSC payload ──
+function knownModelIdsBySlug(): Map<string, string[]> {
+  const providerDir = path.join(PROVIDERS_DIR, "mistral");
+  const seenPath = path.join(providerDir, "_seen.json");
+  if (!fs.existsSync(seenPath)) return new Map();
+
+  const seen = new Set(
+    (JSON.parse(fs.readFileSync(seenPath, "utf-8")) as { ids?: string[] })
+      .ids ?? [],
+  );
+  const idsBySlug = new Map<string, string[]>();
+  const modelsDir = path.join(providerDir, "models");
+  for (const file of fs.readdirSync(modelsDir)) {
+    if (!file.endsWith(".json")) continue;
+    const model = JSON.parse(
+      fs.readFileSync(path.join(modelsDir, file), "utf-8"),
+    ) as { id?: string; page_url?: string };
+    if (!model.id || !seen.has(model.id) || !model.page_url) continue;
+    const slug = model.page_url.match(
+      /\/models\/(?:model-cards\/)?([a-z0-9-]+)\/?$/,
+    )?.[1];
+    if (!slug) continue;
+    idsBySlug.set(slug, [...(idsBySlug.get(slug) ?? []), model.id]);
+  }
+  return idsBySlug;
+}
+
+const knownIdsBySlug = knownModelIdsBySlug();
+
+// ── Extract model slugs from docs ──
 
 async function fetchModelSlugs(): Promise<{
   slugs: string[];
   deprecated: Map<string, { deprecation?: string; retirement?: string }>;
 }> {
-  const res = await fetch(MODELS_PAGE);
+  const res = await fetchWithRetry(MODELS_PAGE);
   if (!res.ok) throw new Error(`mistral models page: ${res.status}`);
   const html = await res.text();
 
-  // Model detail pages live at /models/model-cards/<slug>. Harvest those links
-  // from the overview page (the old /models/<id> scheme was retired in 2026).
   const slugs = [
-    ...new Set(
-      [...html.matchAll(/\/models\/model-cards\/([a-z0-9-]+)/g)].map(
-        (m) => m[1],
-      ),
-    ),
+    ...new Set([...html.matchAll(/\/models\/([a-z0-9-]+)/g)].map((m) => m[1])),
   ];
 
   // Also parse the legacy/deprecated table
@@ -88,9 +114,18 @@ interface ModelDetail {
 }
 
 async function fetchModelDetail(slug: string): Promise<ModelDetail | null> {
-  const res = await fetch(`${MODEL_DETAIL_BASE}${slug}`);
-  if (!res.ok) return null;
+  const res = await fetchWithRetry(`${MODEL_DETAIL_BASE}${slug}`);
+  if (res.status === 404) {
+    console.log(`  skipped ${slug} (404)`);
+    return null;
+  }
+  if (!res.ok) throw new Error(`mistral model page ${slug}: ${res.status}`);
   const html = await res.text();
+
+  if (!/<meta property="og:image" content="[^"]*type=model/.test(html)) {
+    console.log(`  skipped ${slug} (not a model page)`);
+    return null;
+  }
 
   // Extract main content text for spec parsing
   const mainHtml = html.match(/<main[^>]*>([\s\S]*?)<\/main>/)?.[1] ?? "";
@@ -98,19 +133,20 @@ async function fetchModelDetail(slug: string): Promise<ModelDetail | null> {
 
   // Extract model API ID from RSC payload
   const idMatch =
+    html.match(/title="Click to copy: ([a-z0-9-]+)"/i) ??
     html.match(
-      /(?:API Model|model_?id|"id")[^"]*"((?:mistral|codestral|devstral|ministral|pixtral|magistral|voxtral)[a-z0-9-]+)"/i,
+      /(?:API Model|model_?id|"id")[^"]*"((?:mistral|codestral|devstral|ministral|pixtral|magistral|voxtral|zai)[a-z0-9-]+)"/i,
     ) ??
     html.match(
-      /((?:mistral|codestral|devstral|ministral|pixtral|magistral|voxtral)-[a-z0-9-]+-(?:latest|\d{4}))/,
+      /((?:mistral|codestral|devstral|ministral|pixtral|magistral|voxtral|zai)-[a-z0-9-]+-(?:latest|\d{4}))/,
     );
 
-  // Context window: "Context 256k" or "Context i 128k"
-  const contextMatch = mainText.match(/Context\s*(?:i)?\s*(\d+)[kK]/i);
+  // Context window: "Context 256k", "Context i 128k", or "Context 1M"
+  const contextMatch = mainText.match(/Context\s*(?:i)?\s*(\d+)\s*([kKmM])/i);
 
   // Pricing: "Price i $ 0.15 /M Tokens $ 0.6 /M Tokens"
   const priceMatch = mainText.match(
-    /Price\s*(?:i)?\s*\$\s*([\d.]+)\s*\/M\s*Tokens\s*\$\s*([\d.]+)/i,
+    /Price\s*(?:i)?\s*\$\s*([\d.]+)(?:\s*Input)?\s*\/M\s*Tokens(?:\s*\$\s*[\d.]+\s*Cached input\s*\/M\s*Tokens)?\s*\$\s*([\d.]+)(?:\s*Output)?\s*\/M\s*Tokens/i,
   );
 
   // Vision: check main content only
@@ -132,14 +168,23 @@ async function fetchModelDetail(slug: string): Promise<ModelDetail | null> {
     capabilities.push("function_calling");
   }
 
-  // Reconstruct API ID from slug
-  const apiId = idMatch?.[1] ?? slug.replace(/-(\d+)-(\d+)$/, "-$1$2");
+  const detailId = idMatch?.[1] ?? slug.replace(/-(\d+)-(\d+)$/, "-$1$2");
+  const knownIds = knownIdsBySlug.get(slug) ?? [];
+  const knownId =
+    knownIds.find((id) => id === detailId) ??
+    (knownIds.length === 1
+      ? knownIds[0]
+      : knownIds.find((id) => /-\d{4}$/.test(id)));
+  const apiId = detailId.startsWith("zai-") ? detailId : (knownId ?? detailId);
 
   return {
     id: apiId,
     slug,
     description,
-    context_window: contextMatch ? Number(contextMatch[1]) * 1000 : undefined,
+    context_window: contextMatch
+      ? Number(contextMatch[1]) *
+        (contextMatch[2].toLowerCase() === "m" ? 1_000_000 : 1000)
+      : undefined,
     pricing_input: priceMatch ? Number(priceMatch[1]) : undefined,
     pricing_output: priceMatch ? Number(priceMatch[2]) : undefined,
     capabilities,
@@ -167,7 +212,7 @@ interface MistralApiModel {
 async function fetchApiModels(
   apiKey: string,
 ): Promise<Map<string, MistralApiModel>> {
-  const res = await fetch(API_URL, {
+  const res = await fetchWithRetry(API_URL, {
     headers: { Authorization: `Bearer ${apiKey}` },
   });
   if (!res.ok) return new Map();
@@ -185,7 +230,7 @@ async function main() {
   console.log(
     `Found ${slugs.length} model slugs, ${deprecated.size} deprecated`,
   );
-  assertParsed(slugs.length, "mistral (model-card discovery)");
+  assertParsed(slugs.length, "mistral (model page discovery)");
 
   // Fetch detail pages in parallel (batch of 5)
   const details: ModelDetail[] = [];
@@ -217,15 +262,9 @@ async function main() {
     const entry: ModelEntry = {
       id: detail.id,
       name: detail.id,
+      created_by: detail.id.startsWith("zai-") ? "zai" : "mistral",
       family: inferFamily(detail.id),
       page_url: `${MODEL_DETAIL_BASE}${detail.slug}`,
-      license: /^(mistral-medium|devstral-medium|magistral-medium)/i.test(
-        detail.id,
-      )
-        ? "proprietary"
-        : /^(codestral(?!-mamba)|pixtral-large)/i.test(detail.id)
-          ? "mnpl"
-          : "apache-2.0",
       description: apiModel?.description ?? detail.description,
       status: isDeprecated ? "deprecated" : "active",
       context_window: apiModel?.max_context_length ?? detail.context_window,
@@ -248,6 +287,15 @@ async function main() {
         ...(apiModel?.capabilities?.fine_tuning ? { fine_tuning: true } : {}),
       },
     };
+
+    if (!detail.id.startsWith("zai-")) {
+      entry.license =
+        /^(mistral-medium|devstral-medium|magistral-medium)/i.test(detail.id)
+          ? "proprietary"
+          : /^(codestral(?!-mamba)|pixtral-large)/i.test(detail.id)
+            ? "mnpl"
+            : "apache-2.0";
+    }
 
     if (detail.pricing_input != null && detail.pricing_output != null) {
       entry.pricing = {

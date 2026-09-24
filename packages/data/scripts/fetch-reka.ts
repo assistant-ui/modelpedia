@@ -1,4 +1,4 @@
-import { fetchJson } from "./parse.ts";
+import { fetchJson, fetchText } from "./parse.ts";
 import {
   assertParsed,
   envOrNull,
@@ -33,10 +33,8 @@ interface DocsModel {
   output?: number;
 }
 
-/** "**Reka Flash**" or "<b>Reka Edge</b>" plus prose → `reka-flash`. */
 function cellToId(cell: string): string | undefined {
-  const bold = cell.match(/<b>([^<]+)<\/b>|\*\*([^*]+)\*\*/);
-  const label = (bold?.[1] ?? bold?.[2] ?? "").trim();
+  const label = cell.split(/\s+\*/)[0]?.trim() ?? "";
   if (!label) return undefined;
   const slug = label.toLowerCase().replace(/\s+/g, "-");
   return /^reka-/.test(slug) ? slug : undefined;
@@ -247,7 +245,7 @@ async function main() {
     }
   }
 
-  const pricingMd = await fetch(PRICING_MD).then((r) => r.text());
+  const pricingMd = await fetchText(PRICING_MD);
   const docsModels = parsePricing(pricingMd);
   console.log(`Parsed ${docsModels.length} models from pricing docs`);
   assertParsed(docsModels.length, "reka");

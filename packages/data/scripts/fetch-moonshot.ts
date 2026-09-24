@@ -1,4 +1,4 @@
-import { fetchJson } from "./parse.ts";
+import { fetchJson, fetchText } from "./parse.ts";
 import {
   assertParsed,
   envOrNull,
@@ -20,8 +20,7 @@ import {
  * which CI deliberately never has, so every run fell back to a hardcoded list
  * and the catalog froze at kimi-k2.5 while k2.6, k2.7-code and k3 shipped. The
  * note that pricing "renders tables via JavaScript and cannot be scraped" was
- * true of the HTML page only: the `.md` variant serves the DocTable source, so
- * the index and every per-family page parse from markdown.
+ * true of the HTML page only: the `.md` variant serves the DocTable source.
  *
  * A hardcoded list is invisible to every guard: it parses cleanly, writes a
  * stable count and reports zero delisted models forever.
@@ -180,6 +179,8 @@ interface DocsModel {
   input?: number;
   output?: number;
   cached_input?: number;
+  cache_write?: number;
+  cache_write_1h?: number;
   context_window?: number;
 }
 
@@ -227,16 +228,22 @@ function parsePricingPage(md: string): DocsModel[] {
     /columns=\{\[([\s\S]*?)\]\}\s*rows=\{\[([\s\S]*?)\]\}\s*\/>/g,
   )) {
     const titles = [...table[1].matchAll(/title:\s*"([^"]+)"/g)].map((m) =>
-      m[1].toLowerCase(),
+      m[1].trim().replace(/\s+/g, " ").toLowerCase(),
     );
     const col = (test: (t: string) => boolean) => titles.findIndex(test);
     const iId = col((t) => t === "model");
     const iCtx = col((t) => t.includes("context"));
     const iOut = col((t) => t.startsWith("output"));
     const iMiss = col((t) => t.includes("cache miss"));
-    const iHit = col((t) => t.includes("cache hit"));
+    const iHit = col((t) => t.includes("cache hit") || t.startsWith("cached"));
     // No split means the single input column is the headline rate.
     const iIn = iMiss >= 0 ? iMiss : col((t) => t.startsWith("input"));
+    const iCacheWrite = col(
+      (t) => t.startsWith("cache write") && !/\b1h\b/.test(t),
+    );
+    const iCacheWrite1h = col(
+      (t) => t.startsWith("cache write") && /\b1h\b/.test(t),
+    );
     if (iId < 0) continue;
 
     for (const row of table[2].matchAll(/\[([\s\S]*?)\],?\s*(?=\[|$)/g)) {
@@ -248,20 +255,17 @@ function parsePricingPage(md: string): DocsModel[] {
         input: iIn >= 0 ? cellNumber(cells[iIn] ?? "") : undefined,
         output: iOut >= 0 ? cellNumber(cells[iOut] ?? "") : undefined,
         cached_input: iHit >= 0 ? cellNumber(cells[iHit] ?? "") : undefined,
+        cache_write:
+          iCacheWrite >= 0 ? cellNumber(cells[iCacheWrite] ?? "") : undefined,
+        cache_write_1h:
+          iCacheWrite1h >= 0
+            ? cellNumber(cells[iCacheWrite1h] ?? "")
+            : undefined,
         context_window: iCtx >= 0 ? cellNumber(cells[iCtx] ?? "") : undefined,
       });
     }
   }
   return out;
-}
-
-/** Per-family pricing pages linked from the index. */
-function discoverPricingPages(indexMd: string, base: string): string[] {
-  const root = base.replace(/\/docs\/.*$/, "");
-  const hrefs = [
-    ...indexMd.matchAll(/href="(\/docs\/pricing\/[a-z0-9-]+)"/g),
-  ].map((m) => `${root}${m[1]}.md`);
-  return [...new Set(hrefs)];
 }
 
 // ── API types ──
@@ -279,21 +283,10 @@ async function main() {
   console.log("Fetching Moonshot AI models...");
 
   // 1. Public pricing docs are the catalog.
-  const indexMd = await fetch(PRICING_INDEX).then((r) => r.text());
-  const pages = discoverPricingPages(indexMd, PRICING_INDEX);
-  console.log(`Found ${pages.length} pricing pages`);
-
-  const docsModels = new Map<string, DocsModel>();
-  for (const url of pages) {
-    try {
-      const md = await fetch(url).then((r) => r.text());
-      for (const m of parsePricingPage(md)) {
-        if (!docsModels.has(m.id)) docsModels.set(m.id, m);
-      }
-    } catch (err) {
-      console.warn(`  could not fetch ${url}:`, err);
-    }
-  }
+  const pricingMd = await fetchText(PRICING_INDEX);
+  const docsModels = new Map(
+    parsePricingPage(pricingMd).map((model) => [model.id, model]),
+  );
   console.log(`Parsed ${docsModels.size} models from pricing docs`);
   assertParsed(docsModels.size, "moonshot");
 
@@ -336,6 +329,10 @@ async function main() {
         ...(doc.input != null ? { input: doc.input } : {}),
         ...(doc.output != null ? { output: doc.output } : {}),
         ...(doc.cached_input != null ? { cached_input: doc.cached_input } : {}),
+        ...(doc.cache_write != null ? { cache_write: doc.cache_write } : {}),
+        ...(doc.cache_write_1h != null
+          ? { cache_write_1h: doc.cache_write_1h }
+          : {}),
       };
     }
 

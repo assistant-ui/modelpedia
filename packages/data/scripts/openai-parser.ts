@@ -1,9 +1,4 @@
-/**
- * Parsers for OpenAI's developers.openai.com JS bundle.
- * Extracts pricing, compare (technical specs), and detail (metadata) entries.
- */
-
-// ── Types ──
+/** Parsers for OpenAI's public Markdown model and pricing documentation. */
 
 export interface PricingEntry {
   name: string;
@@ -18,7 +13,6 @@ export interface PricingSectionEntry {
   rows: { label: string; values: (number | null)[] }[];
 }
 
-/** Per-model map of pricing sections (e.g. text tokens, audio tokens, image gen) */
 export type ModelPricingSections = Map<string, PricingSectionEntry[]>;
 
 export interface CompareEntry {
@@ -51,506 +45,652 @@ export interface DetailEntry {
   playground_url?: string;
 }
 
-// ── Bundle discovery ──
-
-export async function fetchBundle(modelsPageUrl: string): Promise<string> {
-  console.log("Fetching models page...");
-  const res = await fetch(modelsPageUrl);
-  if (!res.ok) throw new Error(`Failed to fetch models page: ${res.status}`);
-  const html = await res.text();
-
-  const islandMatch = html.match(
-    /component-url="(\/_astro\/AllModels\.[^"]+\.js)"/,
-  );
-  if (!islandMatch) throw new Error("Could not find AllModels component URL");
-
-  const origin = new URL(modelsPageUrl).origin;
-  const allModelsUrl = `${origin}${islandMatch[1]}`;
-  console.log("Found AllModels bundle:", islandMatch[1]);
-
-  const jsRes = await fetch(allModelsUrl);
-  if (!jsRes.ok)
-    throw new Error(`Failed to fetch AllModels bundle: ${jsRes.status}`);
-  const allModelsJs = await jsRes.text();
-
-  const dataMatch = allModelsJs.match(
-    /from"(\.\/models-page-data\.react\.[^"]+\.js)"/,
-  );
-  if (!dataMatch)
-    throw new Error(
-      "Could not find models-page-data import in AllModels bundle",
-    );
-
-  const base = allModelsUrl.replace(/\/[^/]+$/, "/");
-  const bundleUrl = base + dataMatch[1].replace("./", "");
-  console.log("Fetching JS bundle:", bundleUrl);
-
-  const bundleRes = await fetch(bundleUrl);
-  if (!bundleRes.ok)
-    throw new Error(`Failed to fetch bundle: ${bundleRes.status}`);
-  const js = await bundleRes.text();
-  console.log(`Bundle size: ${(js.length / 1024).toFixed(0)}KB`);
-
-  return js;
+export interface ModelPageEntry {
+  detail: DetailEntry;
+  compare: CompareEntry;
+  pricing: PricingSectionEntry[];
 }
 
-// ── Parsers ──
-
-function parseKV(s: string): Record<string, number> {
-  const obj: Record<string, number> = {};
-  for (const pair of s.split(",")) {
-    const [k, v] = pair.split(":");
-    const key = k.replace(/"/g, "");
-    const num = Number(v?.replace(/"/g, ""));
-    if (!Number.isNaN(num)) obj[key] = num;
-  }
-  return obj;
+export interface DeprecationEntry {
+  id: string;
+  deprecation_date: string;
+  retirement_date?: string;
+  successor?: string;
+  family?: boolean;
 }
 
-function parseArr(s: string): string[] {
-  return s
-    ? s
-        .split(",")
-        .map((x) => x.replace(/"/g, "").trim())
-        .filter(Boolean)
-    : [];
-}
-
-/**
- * Extract all top-level object chunks that match an anchor regex.
- * Tracks brace/bracket/backtick depth so nested structures are handled.
- * Uses slug as map key when available, falls back to the captured name.
- */
-function extractObjects(js: string, anchor: RegExp): Map<string, string> {
-  const map = new Map<string, string>();
-  let m: RegExpExecArray | null;
-  while ((m = anchor.exec(js)) !== null) {
-    // Walk back to the opening brace
-    let start = m.index;
-    while (start > 0 && js[start] !== "{") start--;
-    // Walk forward tracking depth (braces, brackets, backtick templates)
-    let depth = 0;
-    let inBacktick = false;
-    let end = start;
-    for (; end < js.length; end++) {
-      const ch = js[end];
-      if (inBacktick) {
-        if (ch === "`") inBacktick = false;
-        continue;
-      }
-      if (ch === "`") {
-        inBacktick = true;
-        continue;
-      }
-      if (ch === "{" || ch === "[") depth++;
-      else if (ch === "}" || ch === "]") depth--;
-      if (depth === 0) {
-        end++;
-        break;
-      }
-    }
-    const chunk = js.slice(start, end);
-    // Use name field as key (the real API model ID); slug is a URL-safe variant that
-    // loses dots (e.g. gpt-3.5-turbo → gpt-3-5-turbo), so we avoid it as key.
-    const nameMatch = chunk.match(/name:"([^"]+)"/);
-    const key = nameMatch ? nameMatch[1] : m[1];
-    if (map.has(key)) continue;
-    map.set(key, chunk);
-  }
-  return map;
-}
-
-/** Extract a numeric field value (handles scientific notation like 2e5, 128e3). */
-function numField(chunk: string, field: string): number | undefined {
-  const m = chunk.match(new RegExp(`${field}:([\\de.+]+)`));
-  return m ? Number(m[1]) : undefined;
-}
-
-/** Extract a string field value. */
-function strField(chunk: string, field: string): string | undefined {
-  const m = chunk.match(new RegExp(`${field}:"([^"]*)"`));
-  return m ? m[1] : undefined;
-}
-
-/** Extract an array field value (e.g. ["a","b"]). */
-function arrField(chunk: string, field: string): string[] | undefined {
-  const m = chunk.match(new RegExp(`${field}:\\[([^\\]]*)\\]`));
-  return m ? parseArr(m[1]) : undefined;
-}
-
-/** Extract a boolean field (minified !0 = true, !1 = false). */
-function boolField(chunk: string, field: string): boolean | undefined {
-  const m = chunk.match(new RegExp(`${field}:(!?[01])`));
-  return m ? m[1] === "!0" : undefined;
-}
-
-export function parsePricing(js: string): Map<string, PricingEntry> {
-  const map = new Map<string, PricingEntry>();
-  const regex =
-    /\{"name":"([^"]+)"(?:,"current_snapshot":"[^"]*")?(?:,"description":"[^"]*")?(?:,"units":\{[^}]*\})?,"values":\{"main":\{([^}]+)\}(?:,"batch":\{([^}]+)\})?/g;
-
-  let match;
-  while ((match = regex.exec(js)) !== null) {
-    const name = match[1];
-    if (map.has(name) || /\d{4}-\d{2}-\d{2}/.test(name)) continue;
-    map.set(name, {
-      name,
-      main: parseKV(match[2]),
-      batch: parseKV(match[3] ?? ""),
-    });
-  }
-  return map;
-}
-
-const TIER_LABELS: Record<string, string> = {
-  main: "Standard",
-  batch: "Batch",
-  flex: "Flex",
-  priority: "Priority",
+type MarkdownTable = {
+  headers: string[];
+  rows: string[][];
+  end: number;
 };
 
-/**
- * Parse the structured pricing JSON block from the bundle.
- * Returns a map of model name → array of pricing sections.
- */
-export function parsePricingSections(js: string): ModelPricingSections {
-  const map: ModelPricingSections = new Map();
+const PERFORMANCE_RATINGS: Record<string, number> = {
+  low: 1,
+  average: 2,
+  high: 3,
+  higher: 4,
+  highest: 5,
+};
 
-  // 1. Parse the JSON.parse('...') block containing token pricing sections
-  const jsonMatch = js.match(
-    /JSON\.parse\('(\{"name":"Latest models".*?\})'\)/s,
-  );
-  if (jsonMatch) {
-    try {
-      const data = JSON.parse(jsonMatch[1]);
-      // Collect rows per model per price_type, so flex sections merge into the main one
-      const modelSectionRows = new Map<
-        string,
-        Map<string, { label: string; values: (number | null)[] }[]>
-      >();
+const SPEED_RATINGS: Record<string, number> = {
+  "very slow": 1,
+  slow: 2,
+  medium: 3,
+  fast: 4,
+  "very fast": 5,
+};
 
-      for (const sec of data.subsections ?? []) {
-        // Use price_type as canonical label (e.g. "Text tokens") not title (e.g. "Flagship models")
-        const sectionLabel =
-          (sec.price_type as string) || (sec.title as string);
-        const colNames = (sec.columns as { name: string; label: string }[]).map(
-          (c) => c.name,
-        );
-        const tiers = ["main", "batch", "flex", "priority"];
+const ENDPOINT_NAMES: Record<string, string> = {
+  live: "live",
+  "chat completions": "chat_completions",
+  responses: "responses",
+  realtime: "realtime",
+  "realtime translation": "realtime_translation",
+  "realtime transcription": "realtime_transcription",
+  assistants: "assistants",
+  batch: "batch",
+  "fine-tuning": "fine_tuning",
+  embeddings: "embeddings",
+  "image generation": "image_generation",
+  videos: "videos",
+  "image edit": "image_edit",
+  "speech generation": "speech_generation",
+  transcription: "transcription",
+  translation: "translation",
+  moderation: "moderation",
+  "completions (legacy)": "completions",
+};
 
-        for (const item of sec.items ?? []) {
-          const name = item.name as string;
-          if (/\d{4}-\d{2}-\d{2}/.test(name)) continue;
+function cleanCell(value: string): string {
+  return value
+    .replace(/`/g, "")
+    .replace(/\*\*/g, "")
+    .replace(/<[^>]*>/g, "")
+    .trim();
+}
 
-          if (!modelSectionRows.has(name))
-            modelSectionRows.set(name, new Map());
-          const sectionMap = modelSectionRows.get(name)!;
-          if (!sectionMap.has(sectionLabel)) sectionMap.set(sectionLabel, []);
-          const rows = sectionMap.get(sectionLabel)!;
+function parseTable(lines: string[], start: number): MarkdownTable | undefined {
+  if (!lines[start]?.trimStart().startsWith("|")) return undefined;
 
-          // Determine which tier label to use based on context
-          for (const tier of tiers) {
-            const vals = item.values?.[tier] as
-              | Record<string, number>
-              | undefined;
-            if (!vals) continue;
-            // For "Text tokens (Flex Processing)" subsection, the "main" tier IS flex
-            const tierLabel =
-              tier === "main" && (sec.title as string).includes("Flex")
-                ? "Flex"
-                : (TIER_LABELS[tier] ?? tier);
-            // Skip if this tier label already exists (avoid duplicates)
-            if (rows.some((r) => r.label === tierLabel)) continue;
-            rows.push({
-              label: tierLabel,
-              values: colNames.map((cn) => vals[cn] ?? null),
-            });
-          }
-        }
-      }
-
-      // Build a map of sectionLabel → column labels
-      const sectionColumns = new Map<string, string[]>();
-      for (const sec of data.subsections ?? []) {
-        const sectionLabel =
-          (sec.price_type as string) || (sec.title as string);
-        if (!sectionColumns.has(sectionLabel)) {
-          sectionColumns.set(
-            sectionLabel,
-            (sec.columns as { label: string }[]).map((c) => c.label),
-          );
-        }
-      }
-
-      for (const [name, sectionMap] of modelSectionRows) {
-        const existing = map.get(name) ?? [];
-        for (const [label, rows] of sectionMap) {
-          if (rows.length === 0) continue;
-          const columns = sectionColumns.get(label) ?? [];
-          const unit = label === "Pricing" ? "" : "Per 1M tokens";
-          existing.push({ label, unit, columns, rows });
-        }
-        map.set(name, existing);
-      }
-    } catch {
-      console.warn("Failed to parse pricing JSON block");
-    }
+  const rows: string[][] = [];
+  let end = start;
+  while (end < lines.length && lines[end].trimStart().startsWith("|")) {
+    const cells = lines[end]
+      .trim()
+      .slice(1, -1)
+      .split(/(?<!\\)\|/)
+      .map((cell) => cleanCell(cell.replace(/\\\|/g, "|")));
+    if (!cells.every((cell) => /^[\s:-]+$/.test(cell))) rows.push(cells);
+    end++;
   }
 
-  // 2. Parse standalone pricing variables (Image generation, Sora, Embeddings, etc.)
-  const standaloneAnchor = /=\{name:"([^"]+)"[^}]*?subsections:\[/g;
-  let standalone;
-  while ((standalone = standaloneAnchor.exec(js)) !== null) {
-    const varName = standalone[1];
-    // Extract the full object using depth tracking from the = sign
-    const objStart = standalone.index + 1; // skip =
-    let depth = 0;
-    let inBt = false;
-    let objEnd = objStart;
-    for (; objEnd < js.length; objEnd++) {
-      const ch = js[objEnd];
-      if (inBt) {
-        if (ch === "`") inBt = false;
-        continue;
-      }
-      if (ch === "`") {
-        inBt = true;
-        continue;
-      }
-      if (ch === "{" || ch === "[") depth++;
-      else if (ch === "}" || ch === "]") depth--;
-      if (depth === 0) {
-        objEnd++;
-        break;
-      }
+  if (rows.length < 2) return undefined;
+  return { headers: rows[0], rows: rows.slice(1), end };
+}
+
+function section(markdown: string, title: string): string {
+  const escaped = title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const match = new RegExp(`^##\\s+${escaped}\\s*$`, "mi").exec(markdown);
+  if (!match || match.index == null) return "";
+  const start = match.index + match[0].length;
+  const next = /^##\s+/gm;
+  next.lastIndex = start;
+  const following = next.exec(markdown);
+  return markdown.slice(start, following?.index).trim();
+}
+
+function parsePrice(value: string | undefined): number | null {
+  if (!value) return null;
+  const match = value.match(/\$([\d,.]+)/);
+  return match ? Number(match[1].replace(/,/g, "")) : null;
+}
+
+function parseDate(value: string): string | undefined {
+  const iso = value.match(/\d{4}[-‑–]\d{2}[-‑–]\d{2}/)?.[0];
+  if (iso) return iso.replace(/[‑–]/g, "-");
+  const month = value.match(/[A-Z][a-z]+\.?\s+\d{1,2},\s+\d{4}/)?.[0];
+  if (!month) return undefined;
+  const date = new Date(`${month.replace(".", "")} UTC`);
+  if (Number.isNaN(date.getTime())) return undefined;
+  return `${date.getUTCFullYear()}-${String(date.getUTCMonth() + 1).padStart(2, "0")}-${String(date.getUTCDate()).padStart(2, "0")}`;
+}
+
+function parseCount(value: string): number | undefined {
+  const match = value
+    .replace(/,/g, "")
+    .match(/([\d.]+)(?:\s*([kKmM])(?![a-zA-Z]))?/);
+  if (!match) return undefined;
+  const count = Number(match[1]);
+  if (match[2]?.toLowerCase() === "k") return count * 1_000;
+  if (match[2]?.toLowerCase() === "m") return count * 1_000_000;
+  return count;
+}
+
+function normalizeIdentifier(value: string): string {
+  return value
+    .toLowerCase()
+    .replace(/\([^)]*\)/g, "")
+    .trim()
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_|_$/g, "");
+}
+
+function parseModalities(value: string | undefined): string[] | undefined {
+  if (!value) return undefined;
+  const modalities = value
+    .toLowerCase()
+    .split(/,|\band\b/)
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((part) => part.replace(/\s+tokens?$/, ""));
+  return modalities.length > 0 ? modalities : undefined;
+}
+
+function parseBulletValues(markdown: string): string[] | undefined {
+  const values = [...markdown.matchAll(/^[-*]\s+`?([^`\n]+)`?\s*$/gm)]
+    .map((match) => cleanCell(match[1]))
+    .filter(Boolean);
+  return values.length > 0 ? values : undefined;
+}
+
+function formatUnit(value: string | undefined): string {
+  if (!value) return "";
+  const unit = cleanCell(value).replace(/^\$[\d,.]+\s*\/?\s*/i, "");
+  if (!unit || unit === "-") return "";
+  if (/^per\s/i.test(unit)) return unit;
+  return `Per ${unit}`;
+}
+
+function mergeSection(
+  sections: PricingSectionEntry[],
+  incoming: PricingSectionEntry,
+): void {
+  const existing = sections.find((section) => section.label === incoming.label);
+  if (!existing) {
+    sections.push({
+      ...incoming,
+      columns: [...incoming.columns],
+      rows: incoming.rows.map((row) => ({ ...row, values: [...row.values] })),
+    });
+    return;
+  }
+
+  const columns = [...existing.columns];
+  for (const column of incoming.columns) {
+    if (!columns.includes(column)) columns.push(column);
+  }
+  const remap = (
+    row: { label: string; values: (number | null)[] },
+    source: string[],
+  ) => columns.map((column) => row.values[source.indexOf(column)] ?? null);
+
+  existing.rows = existing.rows.map((row) => ({
+    ...row,
+    values: remap(row, existing.columns),
+  }));
+  for (const incomingRow of incoming.rows) {
+    const row = existing.rows.find(
+      (candidate) => candidate.label === incomingRow.label,
+    );
+    const values = remap(incomingRow, incoming.columns);
+    if (!row) {
+      existing.rows.push({ label: incomingRow.label, values });
+      continue;
     }
-    const fullObj = js.slice(objStart, objEnd);
+    row.values = row.values.map((value, index) => value ?? values[index]);
+  }
+  existing.columns = columns;
+  if (!existing.unit) existing.unit = incoming.unit;
+}
 
-    // Find unit from parent
-    const unitMatch = fullObj.match(/price_unit:"([^"]+)"/);
-    const parentUnit = unitMatch ? `Per ${unitMatch[1]}` : "";
+function cloneSections(
+  sections: PricingSectionEntry[] | undefined,
+): PricingSectionEntry[] {
+  return (sections ?? []).map((section) => ({
+    ...section,
+    columns: [...section.columns],
+    rows: section.rows.map((row) => ({ ...row, values: [...row.values] })),
+  }));
+}
 
-    // Extract subsections array content
-    const subIdx = fullObj.indexOf("subsections:[");
-    if (subIdx === -1) continue;
-    const subsectionsStr = fullObj.slice(subIdx + 13); // after "subsections:["
+function metricPricingSection(
+  label: string,
+  table: MarkdownTable,
+): PricingSectionEntry | undefined {
+  const metricIndex = table.headers.findIndex(
+    (header) => header.toLowerCase() === "metric",
+  );
+  const priceIndex = table.headers.findIndex(
+    (header) => header.toLowerCase() === "price",
+  );
+  const unitIndex = table.headers.findIndex(
+    (header) => header.toLowerCase() === "unit",
+  );
+  if (metricIndex < 0 || priceIndex < 0) return undefined;
 
-    // Parse each subsection — find columns:[...],items:[...] blocks
-    const colsRegex = /columns:\[/g;
-    let colsMatch;
-    while ((colsMatch = colsRegex.exec(subsectionsStr)) !== null) {
-      // Extract the subsection object by going back to its opening brace
-      let ssStart = colsMatch.index;
-      while (ssStart > 0 && subsectionsStr[ssStart] !== "{") ssStart--;
-      // Extract price_type from this subsection
-      const ssHeader = subsectionsStr.slice(ssStart, colsMatch.index);
-      const ptMatch = ssHeader.match(/price_type:"([^"]*)"/);
-      const priceType = ptMatch?.[1] || varName;
+  const quality = table.rows.find(
+    (row) => row[metricIndex]?.toLowerCase() === "quality",
+  );
+  const unit = formatUnit(quality?.[unitIndex] ?? table.rows[0]?.[unitIndex]);
+  if (quality) {
+    const metrics = table.rows.filter(
+      (row) => row[metricIndex]?.toLowerCase() !== "quality",
+    );
+    return {
+      label,
+      unit,
+      columns: ["Quality", ...metrics.map((row) => row[metricIndex])],
+      rows: [
+        {
+          label: quality[priceIndex],
+          values: [null, ...metrics.map((row) => parsePrice(row[priceIndex]))],
+        },
+      ],
+    };
+  }
 
-      // Extract columns array
-      const colArrStart = colsMatch.index + 9; // after "columns:["
-      let cd = 1;
-      let colArrEnd = colArrStart;
-      for (; colArrEnd < subsectionsStr.length && cd > 0; colArrEnd++) {
-        if (subsectionsStr[colArrEnd] === "[") cd++;
-        if (subsectionsStr[colArrEnd] === "]") cd--;
-      }
-      const colsStr = subsectionsStr.slice(colArrStart, colArrEnd - 1);
+  return {
+    label,
+    unit,
+    columns: table.rows.map((row) => row[metricIndex]),
+    rows: [
+      {
+        label: "Standard",
+        values: table.rows.map((row) => parsePrice(row[priceIndex])),
+      },
+    ],
+  };
+}
 
-      // Extract items array
-      const itemsIdx = subsectionsStr.indexOf("items:[", colArrEnd);
-      if (itemsIdx === -1 || itemsIdx - colArrEnd > 200) continue;
-      const itemArrStart = itemsIdx + 7;
-      let id2 = 1;
-      let itemArrEnd = itemArrStart;
-      for (; itemArrEnd < subsectionsStr.length && id2 > 0; itemArrEnd++) {
-        if (subsectionsStr[itemArrEnd] === "[") id2++;
-        if (subsectionsStr[itemArrEnd] === "]") id2--;
-      }
-      const itemsStr = subsectionsStr.slice(itemArrStart, itemArrEnd - 1);
+function parseModelPricing(markdown: string): PricingSectionEntry[] {
+  const lines = section(markdown, "Pricing").split("\n");
+  const sections: PricingSectionEntry[] = [];
+  let label = "Pricing";
 
-      // Extract column definitions (labels may use "..." or `...`)
-      const colDefs = [
-        ...colsStr.matchAll(
-          /\{name:"(\w+)",label:(?:"([^"]*?)"|`([^`]*?)`)\}/g,
-        ),
-      ].map((c) => ({
-        name: c[1],
-        label: (c[2] ?? c[3] ?? c[1]).replace(/\n/g, " "),
-      }));
+  for (let index = 0; index < lines.length; index++) {
+    const heading = lines[index].match(/^###\s+(.+)$/);
+    if (heading) {
+      label = cleanCell(heading[1]);
+      continue;
+    }
+    const table = parseTable(lines, index);
+    if (!table) continue;
+    index = table.end - 1;
+    const parsed = metricPricingSection(label, table);
+    if (parsed) mergeSection(sections, parsed);
+  }
 
-      // Determine unit from subsection or parent
-      const subUnitMatch = subsectionsStr
-        .slice(ssStart, itemArrStart)
-        .match(/price_unit:"([^"]+)"/);
-      const unit = subUnitMatch ? `Per ${subUnitMatch[1]}` : parentUnit;
+  return sections;
+}
 
-      // Extract items by finding each {name:"..."...values:{...}} in itemsStr
-      // Can't use extractObjects because same model may appear multiple times (e.g. quality rows)
-      const itemNameRegex = /name:"([^"]+)"/g;
-      let itemAnchor;
+function parseEndpoints(markdown: string): string[] | undefined {
+  const lines = section(markdown, "Endpoints").split("\n");
+  for (let index = 0; index < lines.length; index++) {
+    const table = parseTable(lines, index);
+    if (!table) continue;
+    const endpointIndex = table.headers.findIndex(
+      (header) => header.toLowerCase() === "endpoint",
+    );
+    const supportIndex = table.headers.findIndex(
+      (header) => header.toLowerCase() === "support",
+    );
+    if (endpointIndex < 0 || supportIndex < 0) continue;
+    const endpoints = table.rows
+      .filter((row) => /^supported$/i.test(row[supportIndex] ?? ""))
+      .map((row) => {
+        const name = row[endpointIndex].toLowerCase();
+        return ENDPOINT_NAMES[name] ?? normalizeIdentifier(name);
+      });
+    return endpoints.length > 0 ? endpoints : undefined;
+  }
+  return undefined;
+}
 
-      // Group rows by model name
-      const modelRows = new Map<
-        string,
-        { label: string; values: (number | null)[] }[]
-      >();
+function parseRatings(
+  html: string,
+): Pick<CompareEntry, "performance" | "latency"> {
+  const text = html
+    .replace(/<svg\b[^>]*>[\s\S]*?<\/svg>/gi, " ")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&[^;]+;/g, " ")
+    .replace(/\s+/g, " ");
+  const match = text.match(
+    new RegExp(
+      `\\b(?:Reasoning|Intelligence)\\s+(${Object.keys(PERFORMANCE_RATINGS).join("|")})\\s+Speed\\s+(${Object.keys(SPEED_RATINGS).join("|")})\\s+Price\\b`,
+      "i",
+    ),
+  );
+  if (!match) return {};
+  return {
+    performance: PERFORMANCE_RATINGS[match[1].toLowerCase()],
+    latency: SPEED_RATINGS[match[2].toLowerCase()],
+  };
+}
 
-      while ((itemAnchor = itemNameRegex.exec(itemsStr)) !== null) {
-        const name = itemAnchor[1];
-        // Find enclosing object
-        let iStart = itemAnchor.index;
-        while (iStart > 0 && itemsStr[iStart] !== "{") iStart--;
-        let iDepth = 0;
-        let iEnd = iStart;
-        for (; iEnd < itemsStr.length; iEnd++) {
-          if (itemsStr[iEnd] === "{" || itemsStr[iEnd] === "[") iDepth++;
-          if (itemsStr[iEnd] === "}" || itemsStr[iEnd] === "]") iDepth--;
-          if (iDepth === 0) {
-            iEnd++;
-            break;
-          }
-        }
-        const chunk = itemsStr.slice(iStart, iEnd);
-        itemNameRegex.lastIndex = iEnd; // skip past this object
+function parseDescription(markdown: string): string | undefined {
+  const id = /Model ID:\s*`[^`]+`\s*\n([\s\S]*?)(?=^##\s+)/m.exec(markdown);
+  if (!id) return undefined;
+  const paragraphs = id[1]
+    .trim()
+    .split(/\n\s*\n/)
+    .map((paragraph) =>
+      paragraph
+        .replace(/\[([^\]]+)]\([^)]*\)/g, "$1")
+        .replace(/\n/g, " ")
+        .trim(),
+    )
+    .filter((paragraph) => paragraph && !paragraph.startsWith("-"));
+  return paragraphs[0];
+}
 
-        // Extract each tier (main, batch, flex, priority)
-        for (const tierKey of ["main", "batch", "flex", "priority"]) {
-          const tierMatch = chunk.match(new RegExp(`${tierKey}:\\{([^}]+)\\}`));
-          if (!tierMatch) continue;
+export function parseCatalog(markdown: string): Map<string, DetailEntry> {
+  const catalog = new Map<string, DetailEntry>();
+  const links =
+    /^[-*]\s+\[([^\]]+)]\(\/api\/docs\/models\/([^)]+)\.md\):\s*(.+)$/gm;
+  let match: RegExpExecArray | null;
+  while ((match = links.exec(markdown)) !== null) {
+    const [, display_name, slug, tagline] = match;
+    if (catalog.has(slug)) continue;
+    catalog.set(slug, {
+      name: slug,
+      slug,
+      display_name: cleanCell(display_name),
+      tagline: cleanCell(tagline),
+    });
+  }
+  return catalog;
+}
 
-          const rawVals = tierMatch[1];
-          const vals = parseKV(rawVals);
+export function parseDeprecations(
+  markdown: string,
+): Map<string, DeprecationEntry> {
+  const deprecations = new Map<string, DeprecationEntry>();
+  const lines = markdown.split("\n");
+  let deprecation_date: string | undefined;
 
-          // Detect quality label for image/video rows
-          const qualityMatch = rawVals.match(/quality:"([^"]+)"/);
-          const tierLabel = qualityMatch
-            ? qualityMatch[1]
-            : (TIER_LABELS[tierKey] ?? tierKey);
+  for (let index = 0; index < lines.length; index++) {
+    const heading = lines[index].match(/^###\s+(\d{4}-\d{2}-\d{2}):/);
+    if (heading) {
+      deprecation_date = heading[1];
+      continue;
+    }
+    if (/^#{1,3}\s+/.test(lines[index])) {
+      deprecation_date = undefined;
+      continue;
+    }
+    if (!deprecation_date) continue;
+    const tableStart = index;
+    const table = parseTable(lines, index);
+    if (!table) continue;
+    index = table.end - 1;
 
-          const colValues = colDefs.map((c) => {
-            if (c.name === "quality") return null;
-            return vals[c.name] ?? null;
-          });
+    const modelIndex = table.headers.findIndex((header) =>
+      /(?:model|snapshot)/i.test(header),
+    );
+    const shutdownIndex = table.headers.findIndex((header) =>
+      /shutdown date/i.test(header),
+    );
+    const replacementIndex = table.headers.findIndex((header) =>
+      /(?:recommended replacement|substitute model)/i.test(header),
+    );
+    if (modelIndex < 0 || shutdownIndex < 0) continue;
+    const family = /family/i.test(table.headers[modelIndex]);
 
-          const existing = modelRows.get(name) ?? [];
-          if (!existing.some((r) => r.label === tierLabel)) {
-            existing.push({ label: tierLabel, values: colValues });
-            modelRows.set(name, existing);
-          }
-        }
-      }
-
-      const columns = colDefs.map((c) =>
-        c.name === "quality" ? "Quality" : c.label,
+    for (const [rowIndex, row] of table.rows.entries()) {
+      const rawCells = lines[tableStart + rowIndex + 2]
+        .trim()
+        .slice(1, -1)
+        .split(/(?<!\\)\|/)
+        .map((cell) => cell.replace(/\\\|/g, "|").trim());
+      const ids = [...(rawCells[modelIndex] ?? "").matchAll(/`([^`]+)`/g)].map(
+        (match) => match[1].trim(),
       );
-      for (const [name, rows] of modelRows) {
-        if (rows.length === 0) continue;
-        const existing = map.get(name) ?? [];
-        existing.push({ label: priceType, unit, columns, rows });
-        map.set(name, existing);
+      const successor = [
+        ...(rawCells[replacementIndex] ?? "").matchAll(/`([^`]+)`/g),
+      ][0]?.[1]?.trim();
+      const retirement_date = parseDate(row[shutdownIndex] ?? "");
+      for (const id of ids) {
+        if (deprecations.has(id)) continue;
+        deprecations.set(id, {
+          id,
+          deprecation_date,
+          retirement_date,
+          successor,
+          family,
+        });
       }
     }
   }
 
-  return map;
+  return deprecations;
 }
 
-export function parseCompareEntries(js: string): Map<string, CompareEntry> {
-  const map = new Map<string, CompareEntry>();
-  // Anchor: objects with name + performance (slug is optional)
-  const chunks = extractObjects(
-    js,
-    /name:"([^"]+)",(?:slug:"[^"]+",)?performance:\d/g,
-  );
+export function parsePricingSections(markdown: string): ModelPricingSections {
+  const map: ModelPricingSections = new Map();
+  const lines = markdown.split("\n");
 
-  for (const [name, chunk] of chunks) {
-    const inputMods = arrField(chunk, "input");
-    const outputMods = arrField(chunk, "output");
+  const pricingName = (value: string | undefined): string | undefined => {
+    if (!value || /\(data sharing\)/i.test(value)) return undefined;
+    return value.replace(/\s*\([^)]*\)\s*$/, "").trim();
+  };
+  const tierBefore = (index: number): string => {
+    for (let offset = index - 1; offset >= Math.max(0, index - 12); offset--) {
+      const heading = lines[offset].match(
+        /^###\s+(Standard|Batch|Flex|Fast) pricing data$/i,
+      );
+      if (heading) return heading[1] === "Fast" ? "Fast" : heading[1];
+      const label = lines[offset]
+        .trim()
+        .match(/^(Standard|Batch|Flex|Fast mode)$/i);
+      if (label) return label[1].replace(/ mode$/i, "");
+    }
+    return "Standard";
+  };
+  const add = (name: string, section: PricingSectionEntry) => {
+    const sections = map.get(name) ?? [];
+    mergeSection(sections, section);
+    map.set(name, sections);
+  };
 
-    // knowledge_cutoff: new Date(17172e8) — extract the argument and eval as Number
-    let knowledge_cutoff: Date | undefined;
-    const kcMatch = chunk.match(/knowledge_cutoff:new Date\(([^)]+)\)/);
-    if (kcMatch) knowledge_cutoff = new Date(Number(kcMatch[1]));
+  for (let index = 0; index < lines.length; index++) {
+    const tableStart = index;
+    const table = parseTable(lines, index);
+    if (!table) continue;
+    index = table.end - 1;
+    const tier = tierBefore(tableStart);
+    const modelIndex = table.headers.findIndex(
+      (header) => header.toLowerCase() === "model",
+    );
+    if (modelIndex < 0) continue;
 
-    map.set(name, {
-      name,
-      performance: numField(chunk, "performance"),
-      latency: numField(chunk, "latency"),
-      context_window: numField(chunk, "context_window"),
-      max_output_tokens: numField(chunk, "max_output_tokens"),
-      max_input_tokens: numField(chunk, "max_input_tokens"),
-      modalities:
-        inputMods && outputMods
-          ? { input: inputMods, output: outputMods }
-          : undefined,
-      knowledge_cutoff,
-      supported_features: arrField(chunk, "supported_features"),
-      supported_endpoints: arrField(chunk, "supported_endpoints"),
-      reasoning_tokens: boolField(chunk, "reasoning_tokens"),
-    });
-  }
-
-  return map;
-}
-
-export function parseDetailEntries(js: string): Map<string, DetailEntry> {
-  const map = new Map<string, DetailEntry>();
-  // Anchor: objects with name + current_snapshot + tagline (other fields in between are skipped)
-  const chunks = extractObjects(
-    js,
-    /name:"([^"]+)"(?:,\w+:"[^"]*")*?,current_snapshot:"[^"]*",tagline:/g,
-  );
-
-  for (const [name, chunk] of chunks) {
-    // Description: backtick template description:`...` or plain string description:"..."
-    const descBt = chunk.match(/description:`([^`]*)`/);
-    const descStr = !descBt ? strField(chunk, "description") : undefined;
-    const desc = descBt
-      ? descBt[1].split("\n")[0].trim()
-      : descStr || undefined;
-
-    // tagline: tagline:"..."
-    const tagline = strField(chunk, "tagline");
-
-    // point_to: point_to:"model-name"
-    const point_to = strField(chunk, "point_to");
-
-    // pricing_notes: pricing_notes:["...","..."]
-    // These contain commas inside strings, so arrField won't work — parse manually
-    let pricing_notes: string[] | undefined;
-    const pnMatch = chunk.match(/pricing_notes:\[([^\]]+)\]/);
-    if (pnMatch) {
-      pricing_notes = [...pnMatch[1].matchAll(/"([^"]+)"/g)].map((m) => m[1]);
+    if (table.headers.includes("Short context input")) {
+      const columns = table.headers
+        .slice(modelIndex + 1)
+        .filter((header) => header.startsWith("Short context"))
+        .map((header) => {
+          const suffix = header.replace(/^Short context\s+/i, "").toLowerCase();
+          return suffix[0].toUpperCase() + suffix.slice(1);
+        });
+      for (const row of table.rows) {
+        const name = pricingName(row[modelIndex]);
+        if (!name) continue;
+        const values = table.headers
+          .map((header, position) => ({ header, value: row[position] }))
+          .filter(({ header }) => header.startsWith("Short context"))
+          .map(({ value }) => parsePrice(value));
+        add(name, {
+          label: "Text tokens",
+          unit: "Per 1M tokens",
+          columns,
+          rows: [{ label: tier, values }],
+        });
+      }
+      continue;
     }
 
-    // playground_url: playground_url:"https://..."
-    const rawPlayground = strField(chunk, "playground_url");
-    const playground_url =
-      rawPlayground && rawPlayground !== "none" ? rawPlayground : undefined;
+    const trainingIndex = table.headers.findIndex(
+      (header) => header.toLowerCase() === "training",
+    );
+    if (trainingIndex >= 0) {
+      const columns = ["Training", "Input", "Cached input", "Output"];
+      const columnIndexes = columns.map((column) =>
+        table.headers.findIndex(
+          (header) => header.toLowerCase() === column.toLowerCase(),
+        ),
+      );
+      for (const row of table.rows) {
+        const name = pricingName(row[modelIndex]);
+        if (!name) continue;
+        add(name, {
+          label: "Fine-tuning",
+          unit: "",
+          columns,
+          rows: [
+            {
+              label: tier,
+              values: columnIndexes.map((column) =>
+                column < 0 ? null : parsePrice(row[column]),
+              ),
+            },
+          ],
+        });
+      }
+      continue;
+    }
 
-    map.set(name, {
-      name,
-      slug: strField(chunk, "slug"),
-      display_name: strField(chunk, "display_name"),
-      description: desc,
-      tagline,
-      type: strField(chunk, "type"),
-      supported_tools: arrField(chunk, "supported_tools"),
-      current_snapshot: strField(chunk, "current_snapshot") || undefined,
-      snapshots: arrField(chunk, "snapshots"),
-      point_to,
-      pricing_notes,
-      playground_url,
-    });
+    const modalityIndex = table.headers.findIndex(
+      (header) => header.toLowerCase() === "modality",
+    );
+    if (modalityIndex < 0) continue;
+    const columns = ["Input", "Cached input", "Output"];
+    const columnIndexes = columns.map((column) =>
+      table.headers.findIndex((header) =>
+        header.toLowerCase().startsWith(column.toLowerCase()),
+      ),
+    );
+    for (const row of table.rows) {
+      const name = pricingName(row[modelIndex]);
+      const modality = row[modalityIndex]?.trim();
+      if (!name || !modality) continue;
+      add(name, {
+        label: `${modality[0].toUpperCase()}${modality.slice(1).toLowerCase()} tokens`,
+        unit: "Per 1M tokens",
+        columns,
+        rows: [
+          {
+            label: tier,
+            values: columnIndexes.map((column) =>
+              column < 0 ? null : parsePrice(row[column]),
+            ),
+          },
+        ],
+      });
+    }
   }
 
-  // Deprecated flag may appear in separate entries
-  const deprecatedRegex = /\{name:"([^"]+)"[^}]*?deprecated:(!?[01])/g;
-  let match;
-  while ((match = deprecatedRegex.exec(js)) !== null) {
-    const existing = map.get(match[1]);
-    if (existing) existing.deprecated = match[2] === "!0";
-  }
   return map;
+}
+
+export function pricingFromSections(
+  name: string,
+  sections: PricingSectionEntry[],
+): PricingEntry | undefined {
+  const text = sections.find((section) => section.label === "Text tokens");
+  if (!text) return undefined;
+  const prices = (label: string): Record<string, number> => {
+    const row = text.rows.find((candidate) => candidate.label === label);
+    if (!row) return {};
+    return Object.fromEntries(
+      text.columns.flatMap((column, index) => {
+        const value = row.values[index];
+        return value == null
+          ? []
+          : [[normalizeIdentifier(column), value] as [string, number]];
+      }),
+    );
+  };
+  return { name, main: prices("Standard"), batch: prices("Batch") };
+}
+
+export function parsePricing(markdown: string): Map<string, PricingEntry> {
+  const pricing = new Map<string, PricingEntry>();
+  for (const [name, sections] of parsePricingSections(markdown)) {
+    const entry = pricingFromSections(name, sections);
+    if (entry) pricing.set(name, entry);
+  }
+  return pricing;
+}
+
+export function mergePricingSections(
+  primary: PricingSectionEntry[] | undefined,
+  additional: PricingSectionEntry[] | undefined,
+): PricingSectionEntry[] {
+  const merged = cloneSections(primary);
+  for (const section of additional ?? []) mergeSection(merged, section);
+  return merged;
+}
+
+export function parseModelPage(
+  markdown: string,
+  html: string,
+  slug: string,
+): ModelPageEntry {
+  const name = /Model ID:\s*`([^`]+)`/.exec(markdown)?.[1] ?? slug;
+  const display_name = /^#\s+(.+)$/m.exec(markdown)?.[1]?.trim();
+  const tagline = [...markdown.matchAll(/^>\s+(.+)$/gm)]
+    .map((match) => cleanCell(match[1]))
+    .find((value) => !value.startsWith("For the complete documentation index"));
+  const details = section(markdown, "Model details");
+  const detailLines = details.split("\n");
+  const detailValue = (prefix: string) =>
+    detailLines
+      .find((line) => line.startsWith(`- ${prefix}`))
+      ?.slice(prefix.length + 2)
+      .trim();
+  const context = detailLines.find((line) => /context window$/i.test(line));
+  const maxInput = detailValue("Maximum input tokens:");
+  const maxOutput = detailLines.find((line) =>
+    /max output tokens$/i.test(line),
+  );
+  const cutoff = detailLines.find((line) => /knowledge cutoff$/i.test(line));
+  const input = parseModalities(detailValue("Input modalities:"));
+  const output = parseModalities(detailValue("Output modalities:"));
+  const snapshots = parseBulletValues(section(markdown, "Snapshots"));
+  const features = parseBulletValues(section(markdown, "Supported features"));
+  const tools = parseBulletValues(section(markdown, "Supported tools"))?.map(
+    normalizeIdentifier,
+  );
+  const endpoints = parseEndpoints(markdown);
+  const cutoffDate = cutoff?.match(/[A-Z][a-z]{2,8}\s+\d{1,2},\s+\d{4}/)?.[0];
+  const ratings = parseRatings(html);
+
+  return {
+    detail: {
+      name,
+      slug,
+      display_name,
+      description: parseDescription(markdown),
+      tagline,
+      supported_tools: tools,
+      deprecated: /\bthis model is deprecated\b/i.test(markdown),
+      current_snapshot: detailValue("Default snapshot:")?.replace(/`/g, ""),
+      snapshots,
+    },
+    compare: {
+      name,
+      context_window: parseCount(context ?? ""),
+      max_input_tokens: parseCount(maxInput ?? ""),
+      max_output_tokens: parseCount(maxOutput ?? ""),
+      modalities: input && output ? { input, output } : undefined,
+      knowledge_cutoff: cutoffDate ? new Date(`${cutoffDate} UTC`) : undefined,
+      supported_features: features?.map(normalizeIdentifier),
+      supported_endpoints: endpoints,
+      reasoning_tokens: detailLines.some((line) =>
+        /Reasoning token support/i.test(line),
+      ),
+      ...ratings,
+    },
+    pricing: parseModelPricing(markdown),
+  };
 }
