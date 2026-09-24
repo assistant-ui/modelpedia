@@ -10,11 +10,13 @@ export function sortProviders<T extends { name: string; models: unknown[] }>(
 }
 
 const VER_RE = /(\d+(?:\.\d+)*)/g;
+const DATE_RE = /\d{4}-\d{2}-\d{2}/;
 
 function extractVersion(s?: string): number {
   if (!s) return -1;
   let best = -1;
-  for (const m of s.matchAll(VER_RE)) {
+  // A snapshot's date would otherwise outrank the version it pins.
+  for (const m of s.split(DATE_RE).join(" ").matchAll(VER_RE)) {
     const v = Number.parseFloat(m[1]);
     if (v > best) best = v;
   }
@@ -46,8 +48,6 @@ export function sortModels<
     model_type?: string;
   },
 >(models: T[]): T[] {
-  const DATE_RE = /\d{4}-\d{2}-\d{2}/;
-
   return [...models].sort((a, b) => {
     const aD = a.status === "deprecated" ? 1 : 0;
     const bD = b.status === "deprecated" ? 1 : 0;
