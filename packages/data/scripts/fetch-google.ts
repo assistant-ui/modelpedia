@@ -7,6 +7,7 @@ import {
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
+import { fetchText, fetchWithRetry } from "./parse.ts";
 
 /**
  * Fetch Google Gemini models from:
@@ -24,8 +25,7 @@ const DEPRECATIONS_PAGE = sources.deprecations as string;
 // ── Get model slugs from docs overview page ──
 
 async function fetchModelSlugs(): Promise<string[]> {
-  const res = await fetch(MODELS_PAGE);
-  const html = await res.text();
+  const html = await fetchText(MODELS_PAGE);
   // Extract links to individual model pages: /gemini-api/docs/models/<slug>
   // Matches all model types: gemini, gemma, imagen, veo, text-embedding, etc.
   const slugs = [
@@ -53,7 +53,7 @@ interface ModelSpec {
 }
 
 async function fetchModelSpec(slug: string): Promise<ModelSpec | null> {
-  const res = await fetch(`${MODELS_PAGE}/${slug}`);
+  const res = await fetchWithRetry(`${MODELS_PAGE}/${slug}`);
   if (!res.ok) return null;
   const html = await res.text();
   const text = html
@@ -212,8 +212,7 @@ function extractFirstPrice(text: string, pattern: RegExp): number | undefined {
 }
 
 async function fetchPricing(): Promise<Map<string, PricingInfo>> {
-  const res = await fetch(PRICING_PAGE);
-  const html = await res.text();
+  const html = await fetchText(PRICING_PAGE);
   const map = new Map<string, PricingInfo>();
 
   // Find model heading IDs and grab all content until the NEXT model heading
@@ -298,8 +297,7 @@ interface DeprecationInfo {
 }
 
 async function fetchDeprecations(): Promise<Map<string, DeprecationInfo>> {
-  const res = await fetch(DEPRECATIONS_PAGE);
-  const html = await res.text();
+  const html = await fetchText(DEPRECATIONS_PAGE);
   const depMap = new Map<string, DeprecationInfo>();
 
   // Extract from tables: Model | Release | Shutdown | Replacement
@@ -376,7 +374,7 @@ async function fetchApiModels(apiKey: string): Promise<Map<string, ApiModel>> {
     url.searchParams.set("pageSize", "100");
     if (pageToken) url.searchParams.set("pageToken", pageToken);
 
-    const res = await fetch(url.toString());
+    const res = await fetchWithRetry(url.toString());
     if (!res.ok) break;
     const json = (await res.json()) as {
       models: ApiModel[];

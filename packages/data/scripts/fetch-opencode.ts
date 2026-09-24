@@ -7,6 +7,7 @@ import {
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
+import { fetchWithRetry } from "./parse.ts";
 
 /**
  * Fetch OpenCode Zen models from their docs .md endpoint.
@@ -59,7 +60,7 @@ function parseDollar(s: string): number | undefined {
 async function main() {
   console.log("Fetching OpenCode Zen models...");
 
-  const res = await fetch(DOCS_MD);
+  const res = await fetchWithRetry(DOCS_MD);
   if (!res.ok) throw new Error(`Failed: ${res.status}`);
   const md = await res.text();
 

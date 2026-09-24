@@ -6,6 +6,7 @@ import {
   runGenerate,
   upsertModel,
 } from "./shared.ts";
+import { fetchWithRetry } from "./parse.ts";
 
 /**
  * Fetch SambaNova Cloud models from the public /v1/models endpoint.
@@ -205,7 +206,7 @@ const MANUAL_OVERRIDES: Record<string, Partial<ModelEntry>> = {
 async function main() {
   console.log("Fetching SambaNova models...");
 
-  const res = await fetch(MODELS_URL);
+  const res = await fetchWithRetry(MODELS_URL);
   if (!res.ok) throw new Error(`/v1/models fetch failed: ${res.status}`);
   const json = (await res.json()) as SambaResponse;
   console.log(`API returned ${json.data.length} models`);

@@ -6,6 +6,7 @@ import {
   runGenerate,
   upsertModel,
 } from "./shared.ts";
+import { fetchWithRetry } from "./parse.ts";
 
 /**
  * Fetch Cursor models from two sources:
@@ -117,7 +118,7 @@ async function fetchBundleModels(): Promise<Map<string, BundleModel>> {
   const models = new Map<string, BundleModel>();
 
   console.log("Fetching page HTML for JS bundle...");
-  const pageRes = await fetch(PAGE_URL);
+  const pageRes = await fetchWithRetry(PAGE_URL);
   if (!pageRes.ok) {
     console.warn(`Failed to fetch page HTML: ${pageRes.status}`);
     return models;
@@ -138,7 +139,7 @@ async function fetchBundleModels(): Promise<Map<string, BundleModel>> {
 
   for (const path of chunkPaths) {
     const fullUrl = `https://cursor.com${path}`;
-    const res = await fetch(fullUrl);
+    const res = await fetchWithRetry(fullUrl);
     if (!res.ok) continue;
     const js = await res.text();
 
@@ -309,7 +310,7 @@ async function main() {
 
   // Fetch both sources in parallel
   const [mdRes, bundleModels] = await Promise.all([
-    fetch(PRICING_MD).then((r) => {
+    fetchWithRetry(PRICING_MD).then((r) => {
       if (!r.ok) throw new Error(`Failed to fetch pricing: ${r.status}`);
       return r.text();
     }),

@@ -5,6 +5,7 @@ import {
   runGenerate,
   upsertModel,
 } from "./shared.ts";
+import { fetchWithRetry } from "./parse.ts";
 
 /**
  * Fetch Jina AI models from the public /v1/models endpoint.
@@ -126,7 +127,7 @@ function buildEntry(m: JinaModel): ModelEntry | null {
 
 async function main() {
   console.log(`Fetching Jina models from ${MODELS_URL}`);
-  const res = await fetch(MODELS_URL);
+  const res = await fetchWithRetry(MODELS_URL);
   if (!res.ok) throw new Error(`models fetch failed: ${res.status}`);
   const json = (await res.json()) as { data: JinaModel[] };
   console.log(`Got ${json.data.length} entries`);

@@ -11,6 +11,7 @@ import {
   runGenerate,
   upsertModel,
 } from "./shared.ts";
+import { fetchWithRetry } from "./parse.ts";
 
 interface FalModel {
   endpoint_id: string;
@@ -43,7 +44,7 @@ function sleep(ms: number) {
 async function fetchFalPage(url: string) {
   for (let attempt = 0; attempt < 5; attempt++) {
     try {
-      const res = await fetch(url);
+      const res = await fetchWithRetry(url);
       if (res.ok) return (await res.json()) as FalResponse;
       if (res.status !== 429) {
         throw new Error(`Fetch failed: ${res.status} ${url}`);

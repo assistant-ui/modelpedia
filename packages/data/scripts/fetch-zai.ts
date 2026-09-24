@@ -6,6 +6,7 @@ import {
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
+import { fetchText, fetchWithRetry } from "./parse.ts";
 
 /**
  * Fetch Z.AI (Zhipu) models from their docs .md endpoints.
@@ -54,7 +55,7 @@ function parsePrice(s: string): number | undefined {
 
 async function fetchPricing(): Promise<Map<string, PricingInfo>> {
   const map = new Map<string, PricingInfo>();
-  const res = await fetch(PRICING_URL);
+  const res = await fetchWithRetry(PRICING_URL);
   if (!res.ok) return map;
   const md = await res.text();
 
@@ -224,7 +225,7 @@ async function fetchModelPage(
   url: string,
   inlineDesc?: string,
 ): Promise<ZhipuModel[]> {
-  const res = await fetch(url);
+  const res = await fetchWithRetry(url);
   if (!res.ok) return [];
   const md = await res.text();
 
@@ -363,8 +364,7 @@ async function main() {
   console.log("Fetching Z.AI (Zhipu) models from docs...");
 
   // 1. Fetch llms.txt index
-  const llmsRes = await fetch(LLMS_TXT);
-  const llmsTxt = await llmsRes.text();
+  const llmsTxt = await fetchText(LLMS_TXT);
 
   // 2. Parse inline descriptions from llms.txt
   const descMap = parseDescriptions(llmsTxt);

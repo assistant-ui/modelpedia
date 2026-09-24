@@ -6,6 +6,7 @@ import {
   runGenerate,
   upsertModel,
 } from "./shared.ts";
+import { fetchWithRetry } from "./parse.ts";
 
 /**
  * Fetch DeepInfra models from the public /models/list endpoint.
@@ -270,7 +271,7 @@ function makePricingNotes(p: DeepInfraPricing): string | undefined {
 
 async function main() {
   console.log(`Fetching ${MODELS_URL}...`);
-  const res = await fetch(MODELS_URL);
+  const res = await fetchWithRetry(MODELS_URL);
   if (!res.ok) throw new Error(`fetch failed: ${res.status}`);
   const raw = (await res.json()) as DeepInfraModel[];
   console.log(`Got ${raw.length} entries`);

@@ -6,6 +6,7 @@ import {
   runGenerate,
   upsertWithSnapshot,
 } from "./shared.ts";
+import { fetchText, fetchWithRetry } from "./parse.ts";
 
 /**
  * Fetch Perplexity models from:
@@ -182,7 +183,7 @@ function parseDocsPricing(md: string): Map<string, DocsPricing> {
 async function main() {
   console.log("Fetching Perplexity models...");
 
-  const docsMd = await fetch(DOCS_MD).then((r) => r.text());
+  const docsMd = await fetchText(DOCS_MD);
 
   const embedded = parseEmbeddedModels(docsMd);
   const creators = new Map<string, string>();
@@ -229,7 +230,7 @@ async function main() {
   let apiModels: PPLXModel[] = [];
   const apiKey = envOrNull("PERPLEXITY_API_KEY", "PPLX_API_KEY");
   if (apiKey) {
-    const res = await fetch(API_URL, {
+    const res = await fetchWithRetry(API_URL, {
       headers: { Authorization: `Bearer ${apiKey}` },
     });
     if (res.ok) {
@@ -299,7 +300,7 @@ async function main() {
 
   for (const url of sonarPages) {
     try {
-      const res = await fetch(url);
+      const res = await fetchWithRetry(url);
       if (!res.ok) continue;
       const md = await res.text();
 

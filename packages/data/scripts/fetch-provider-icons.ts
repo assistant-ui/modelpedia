@@ -1,5 +1,6 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
+import { fetchWithRetry } from "./parse.ts";
 import { PROVIDERS_DIR, runGenerate } from "./shared.ts";
 
 const LOBE_RAW =
@@ -37,7 +38,7 @@ async function main() {
   for (const provider of providers) {
     const source = ICONS[provider];
     if (!source) throw new Error(`No icon source configured for ${provider}`);
-    const res = await fetch(source);
+    const res = await fetchWithRetry(source);
     if (!res.ok) throw new Error(`Icon fetch failed: ${res.status} ${source}`);
     const svg = normalizeSvg(await res.text());
     const dir = path.join(PROVIDERS_DIR, provider);

@@ -12,6 +12,7 @@ import {
   runGenerate,
   upsertModel,
 } from "./shared.ts";
+import { fetchWithRetry } from "./parse.ts";
 
 // ── Types ──
 
@@ -528,7 +529,7 @@ async function fetchApiModels(apiKey: string): Promise<Map<string, ApiModel>> {
     const url = new URL(sources.api as string);
     url.searchParams.set("limit", "100");
     if (afterId) url.searchParams.set("after_id", afterId);
-    const res = await fetch(url.toString(), {
+    const res = await fetchWithRetry(url.toString(), {
       headers: { "x-api-key": apiKey, "anthropic-version": "2023-06-01" },
     });
     if (!res.ok) throw new Error(`API error: ${res.status}`);

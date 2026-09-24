@@ -10,6 +10,7 @@ import {
   upsertModel,
   upsertWithSnapshot,
 } from "./shared.ts";
+import { fetchText, fetchWithRetry } from "./parse.ts";
 
 /**
  * Fetch xAI models from:
@@ -243,13 +244,13 @@ function recoverAliases(
 async function main() {
   console.log("Fetching xAI models from docs...");
 
-  const md = await fetch(DOCS_URL).then((r) => r.text());
+  const md = await fetchText(DOCS_URL);
 
   const docsModels = parseTextPricing(md);
   for (const [id, m] of parseImaginePricing(md)) docsModels.set(id, m);
   for (const [id, m] of parseVoicePricing(md)) docsModels.set(id, m);
 
-  const fullDocs = await fetch(FULL_DOCS_URL)
+  const fullDocs = await fetchWithRetry(FULL_DOCS_URL)
     .then((r) => (r.ok ? r.text() : ""))
     .catch(() => "");
   if (fullDocs) {
@@ -277,7 +278,7 @@ async function main() {
   const apiModels = new Map<string, ApiModel>();
   if (apiKey) {
     console.log("Fetching from API...");
-    const res = await fetch(API_URL, {
+    const res = await fetchWithRetry(API_URL, {
       headers: { Authorization: `Bearer ${apiKey}` },
     });
     if (res.ok) {

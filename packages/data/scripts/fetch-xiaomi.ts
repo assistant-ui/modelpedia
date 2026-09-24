@@ -6,6 +6,7 @@ import {
   runGenerate,
   upsertModel,
 } from "./shared.ts";
+import { fetchWithRetry } from "./parse.ts";
 
 /**
  * Fetch Xiaomi MiMo models from the platform's public catalog endpoint. No key.
@@ -85,7 +86,7 @@ function buildCapabilities(m: CatalogModel) {
 async function main() {
   console.log("Fetching Xiaomi MiMo models from the platform catalog...");
 
-  const res = await fetch(CATALOG_URL);
+  const res = await fetchWithRetry(CATALOG_URL);
   if (!res.ok) throw new Error(`catalog fetch failed: ${res.status}`);
   const catalog = (await res.json()) as { data?: CatalogModel[] };
   const models = catalog.data ?? [];
