@@ -1,6 +1,7 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import {
+  assertParsed,
   envOrNull,
   fetchCached,
   inferFamily,
@@ -12,7 +13,7 @@ import {
   runGenerate,
   upsertModel,
 } from "./shared.ts";
-import { fetchWithRetry } from "./parse.ts";
+import { fetchWithRetry, pMap } from "./parse.ts";
 
 // ── Types ──
 
@@ -33,6 +34,11 @@ interface ModelSpec {
   deprecated?: boolean;
   pricing_input?: number;
   pricing_output?: number;
+  release_date?: string;
+  retirement_date?: string;
+  status?: "active" | "deprecated";
+  batch_max_output_tokens?: number;
+  modalities?: { input: string[]; output: string[] };
 }
 
 // ── Markdown endpoints ──
@@ -70,109 +76,150 @@ function isIdLike(s: string): boolean {
   return s.length > 0 && s !== "N/A" && !/\s/.test(s);
 }
 
-// ── Parse models overview page ──
+// ── Parse model pages ──
 
-function parseModelsMarkdown(md: string): ModelSpec[] {
-  const models: ModelSpec[] = [];
+function cleanMarkdownCell(value: string): string {
+  return value
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/<[^>]+>/g, "")
+    .replace(/[`*]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
-  // Split into sections by table headers
+function markdownTables(md: string): string[][][] {
   const lines = md.split("\n");
+  const tables: string[][][] = [];
   let i = 0;
-
   while (i < lines.length) {
-    // Find table start (header row with "Feature")
-    if (!lines[i].includes("| Feature |")) {
+    if (!lines[i].trimStart().startsWith("|")) {
       i++;
       continue;
     }
-
-    // Collect table lines
     const tableLines: string[] = [];
-    while (i < lines.length && lines[i].startsWith("|")) {
-      tableLines.push(lines[i]);
+    while (i < lines.length && lines[i].trimStart().startsWith("|")) {
+      tableLines.push(lines[i].trim());
       i++;
     }
-
     const rows = parseMarkdownTable(tableLines);
-    if (rows.length < 3) continue; // header + separator + at least 1 data row
+    if (rows.length >= 2) tables.push(rows);
+  }
+  return tables;
+}
 
-    const headers = rows[0];
-    const modelCount = headers.length - 1;
-    const cols: ModelSpec[] = Array.from({ length: modelCount }, (_, j) => ({
-      id: "",
-      name: headers[j + 1].replace(/\(deprecated\)/, "").trim(),
-      deprecated: headers[j + 1].includes("deprecated"),
-    }));
-
-    for (const row of rows.slice(1)) {
-      const feature = row[0]
-        .replace(/<[^>]+>/g, "")
-        .replace(
-          /\[[^\]]+\]\([^)]+\)/g,
-          (m) => m.match(/\[([^\]]+)\]/)?.[1] ?? m,
-        )
-        .trim();
-
-      for (let j = 0; j < modelCount; j++) {
-        const val = row[j + 1];
-        if (!val) continue;
-        const m = cols[j];
-
-        if (feature.includes("Claude API ID")) {
-          const clean = cleanIdCell(val);
-          if (isIdLike(clean)) m.id = clean;
-        } else if (feature.includes("Claude API alias")) {
-          const clean = cleanIdCell(val);
-          if (isIdLike(clean)) m.alias = clean;
-        } else if (feature === "Description") {
-          m.description = val;
-        } else if (feature.includes("Pricing")) {
-          // Two layouts: "\$5 / input MTok<br/>\$25 / output MTok" and
-          // "$10 / $50 per MTok (input / output)" — first two dollar values
-          // are input then output in both.
-          const dollars = Array.from(val.matchAll(/\$([\d.]+)/g), (d) =>
-            Number(d[1]),
-          );
-          if (dollars.length >= 2) {
-            m.pricing_input = dollars[0];
-            m.pricing_output = dollars[1];
-          }
-        } else if (feature.includes("Context window")) {
-          m.context_window = parseTokenCount(val);
-        } else if (feature.includes("Max output")) {
-          m.max_output_tokens = parseTokenCount(val);
-        } else if (feature.includes("Reliable knowledge cutoff")) {
-          const cleaned = val.replace(/<sup>.*?<\/sup>/g, "").trim();
-          if (cleaned && cleaned !== "—" && /[A-Z][a-z]+ \d{4}/.test(cleaned)) {
-            m.knowledge_cutoff = cleaned.match(/[A-Z][a-z]+ \d{4}/)?.[0];
-          }
-        } else if (feature.includes("Training data cutoff")) {
-          const cleaned = val.replace(/<sup>.*?<\/sup>/g, "").trim();
-          if (cleaned && cleaned !== "—" && /[A-Z][a-z]+ \d{4}/.test(cleaned)) {
-            m.training_data_cutoff = cleaned.match(/[A-Z][a-z]+ \d{4}/)?.[0];
-          }
-        } else if (feature.includes("Comparative latency")) {
-          m.latency = val;
-        } else if (feature.includes("Extended thinking")) {
-          // Values include qualified forms like "Yes (always on)".
-          m.extended_thinking = /^yes\b/i.test(val);
-        } else if (feature.includes("Adaptive thinking")) {
-          m.adaptive_thinking = /^yes\b/i.test(val);
-        } else if (feature.includes("AWS Bedrock ID")) {
-          const clean = cleanIdCell(val);
-          if (isIdLike(clean)) m.bedrock_id = clean;
-        } else if (feature.includes("Vertex AI ID")) {
-          const clean = cleanIdCell(val);
-          if (isIdLike(clean)) m.vertex_id = clean;
-        }
-      }
-    }
-
-    models.push(...cols.filter((m) => m.id));
-    i++;
+function parseModelPagesFromOverview(md: string): {
+  pages: { slug: string; url: string }[];
+  latencyByName: Map<string, string>;
+} {
+  const pages = new Map<string, string>();
+  for (const match of md.matchAll(
+    /https:\/\/platform\.claude\.com\/docs\/en\/models\/([a-z0-9-]+)\/overview\b/g,
+  )) {
+    pages.set(match[1], match[0]);
   }
 
-  return models;
+  const latencyByName = new Map<string, string>();
+  for (const rows of markdownTables(md)) {
+    if (cleanMarkdownCell(rows[0][0] ?? "") !== "Feature") continue;
+    const latencyRow = rows.find(
+      (row) => cleanMarkdownCell(row[0] ?? "") === "Comparative latency",
+    );
+    if (!latencyRow) continue;
+    for (let i = 1; i < rows[0].length; i++) {
+      const name = cleanMarkdownCell(rows[0][i] ?? "");
+      const latency = cleanMarkdownCell(latencyRow[i] ?? "");
+      if (name && latency) latencyByName.set(name, latency);
+    }
+    break;
+  }
+
+  return {
+    pages: [...pages].map(([slug, url]) => ({ slug, url: `${url}.md` })),
+    latencyByName,
+  };
+}
+
+function parseModalities(
+  value: string,
+): { input: string[]; output: string[] } | undefined {
+  const [input, output] = cleanMarkdownCell(value).split(/\s*→\s*/);
+  if (!input || !output) return undefined;
+  const toModalities = (part: string) => [
+    ...new Set(
+      Array.from(
+        part.toLowerCase().matchAll(/text|images?|audio|video/g),
+        (m) => m[0].replace(/s$/, ""),
+      ),
+    ),
+  ];
+  const inputModalities = toModalities(input);
+  const outputModalities = toModalities(output);
+  if (inputModalities.length === 0 || outputModalities.length === 0)
+    return undefined;
+  return { input: inputModalities, output: outputModalities };
+}
+
+function parseModelMarkdown(md: string): ModelSpec | null {
+  const name = md.match(/^title:\s*"?(.+?)"?\s*$/m)?.[1]?.trim();
+  const id = md.match(/^Model ID:\s*`([^`]+)`/m)?.[1];
+  if (!name || !id) return null;
+
+  const spec: ModelSpec = { id, name };
+  for (const rows of markdownTables(md)) {
+    const headers = rows[0].map(cleanMarkdownCell);
+    const firstHeader = headers[0]?.toLowerCase();
+    if (
+      firstHeader === "platform" &&
+      headers[1]?.toLowerCase() === "model id"
+    ) {
+      for (const row of rows.slice(1)) {
+        const platform = cleanMarkdownCell(row[0] ?? "");
+        const modelId = cleanIdCell(row[1] ?? "");
+        if (!isIdLike(modelId)) continue;
+        if (platform === "Claude API") spec.id = modelId;
+        else if (platform === "Claude API alias") spec.alias = modelId;
+        else if (platform.startsWith("Amazon Bedrock") && !spec.bedrock_id)
+          spec.bedrock_id = modelId;
+        else if (platform === "Google Cloud") spec.vertex_id = modelId;
+      }
+      continue;
+    }
+    if (firstHeader !== "feature" || headers[1]?.toLowerCase() !== "value")
+      continue;
+
+    for (const row of rows.slice(1)) {
+      const feature = cleanMarkdownCell(row[0] ?? "");
+      const value = cleanMarkdownCell(row[1] ?? "");
+      if (!value) continue;
+      if (feature === "Context window") {
+        spec.context_window = parseTokenCount(value);
+      } else if (feature === "Max output") {
+        spec.max_output_tokens = parseTokenCount(value);
+      } else if (feature === "Max output (Batch API, beta)") {
+        spec.batch_max_output_tokens = parseTokenCount(value);
+      } else if (feature === "Thinking") {
+        spec.adaptive_thinking = /^Adaptive\b/i.test(value);
+        spec.extended_thinking = /^Extended\b/i.test(value);
+      } else if (feature === "Input → output") {
+        spec.modalities = parseModalities(value);
+      } else if (feature === "Reliable knowledge cutoff") {
+        spec.knowledge_cutoff = value;
+      } else if (feature === "Training data cutoff") {
+        spec.training_data_cutoff = value;
+      } else if (feature === "Status") {
+        if (/^active\b/i.test(value)) spec.status = "active";
+        else if (/^(?:deprecated|retired)\b/i.test(value))
+          spec.status = "deprecated";
+      } else if (feature === "Released") {
+        spec.release_date = normalizeDate(value) ?? undefined;
+      } else if (feature === "Retirement") {
+        spec.retirement_date =
+          normalizeDate(value.replace(/^Not sooner than\s*/i, "")) ?? undefined;
+      }
+    }
+  }
+
+  return spec;
 }
 
 // ── Parse pricing page ──
@@ -284,41 +331,6 @@ function parsePricingMarkdown(md: string): {
   }
 
   return { pricing, batch };
-}
-
-// ── Parse batch extended-output beta ──
-//
-// Upstream note (on the models overview page):
-//   "On the Message Batches API, Opus 4.7, Opus 4.6, and Sonnet 4.6 support
-//    up to 300k output tokens by using the `output-300k-...` beta header."
-// Extract the model list + token count so we can surface it per model.
-
-interface BatchExtendedOutput {
-  models: string[];
-  tokens: number;
-}
-
-function parseBatchExtendedOutput(md: string): BatchExtendedOutput | null {
-  const phraseIdx = md.search(/support\s+up\s+to\s+\d+k\s+output\s+tokens/i);
-  if (phraseIdx < 0) return null;
-
-  const tail = md.slice(phraseIdx);
-  const countMatch = tail.match(
-    /support\s+up\s+to\s+(\d+)k\s+output\s+tokens/i,
-  );
-  if (!countMatch) return null;
-  const tokens = Number(countMatch[1]) * 1000;
-
-  // Grab a short window of text before the phrase to scrape the model list.
-  const before = md.slice(Math.max(0, phraseIdx - 300), phraseIdx);
-  const modelRegex =
-    /(?:Claude\s+)?(?:Fable|Mythos|Opus|Sonnet|Haiku)\s+\d+(?:\.\d+)?/gi;
-  const models = Array.from(before.matchAll(modelRegex), (m) =>
-    /^claude\b/i.test(m[0]) ? m[0] : `Claude ${m[0]}`,
-  );
-  if (models.length === 0) return null;
-
-  return { models, tokens };
 }
 
 // ── Parse fast mode pricing (Anthropic-specific premium tier) ──
@@ -572,11 +584,31 @@ async function main() {
     );
   }
 
-  const specs = parseModelsMarkdown(modelsMd);
+  const { pages, latencyByName } = parseModelPagesFromOverview(modelsMd);
+  assertParsed(pages.length, "anthropic model page discovery");
+  const parsedSpecs = await pMap(
+    pages,
+    async ({ slug, url }) =>
+      parseModelMarkdown(
+        await fetchCached(url, {
+          scope: "anthropic",
+          label: `model-${slug}`,
+        }),
+      ),
+    6,
+  );
+  const specs = parsedSpecs.filter((spec): spec is ModelSpec => spec !== null);
+  assertParsed(specs.length, "anthropic model pages");
+  if (specs.length !== pages.length) {
+    throw new Error(
+      `anthropic model pages: parsed ${specs.length} of ${pages.length} discovered pages`,
+    );
+  }
+  for (const spec of specs) spec.latency = latencyByName.get(spec.name);
+
   const { pricing, batch } = parsePricingMarkdown(pricingMd);
   const deprecations = parseDeprecationsMarkdown(deprecationsMd);
   const fastMode = parseFastModePricing(pricingMd);
-  const batchExtended = parseBatchExtendedOutput(modelsMd);
 
   console.log(
     `Parsed: ${specs.length} models from docs, ${pricing.size} pricing, ${batch.size} batch, ${deprecations.size} deprecation entries`,
@@ -670,9 +702,7 @@ async function main() {
     const status =
       dep?.status === "retired" || dep?.status === "deprecated"
         ? "deprecated"
-        : spec.deprecated
-          ? "deprecated"
-          : "active";
+        : (spec.status ?? (spec.deprecated ? "deprecated" : "active"));
 
     const entry: ModelEntry = {
       id,
@@ -683,13 +713,11 @@ async function main() {
       page_url: `https://docs.anthropic.com/en/docs/about-claude/models#${id}`,
       status,
       deprecation_date: dep?.deprecation_date,
-      retirement_date: dep?.retirement_date,
+      retirement_date: spec.retirement_date ?? dep?.retirement_date,
       successor: dep?.successor,
       context_window: spec.context_window,
       max_output_tokens: spec.max_output_tokens,
-      batch_max_output_tokens: batchExtended?.models.includes(spec.name)
-        ? batchExtended.tokens
-        : undefined,
+      batch_max_output_tokens: spec.batch_max_output_tokens,
       knowledge_cutoff: spec.knowledge_cutoff,
       training_data_cutoff: spec.training_data_cutoff
         ? normalizeDate(spec.training_data_cutoff)
@@ -697,7 +725,10 @@ async function main() {
       speed: latencyToSpeed(spec.latency),
       performance,
       reasoning: hasThinking ? performance : undefined,
-      modalities: { input: ["text", "image"], output: ["text"] },
+      modalities: spec.modalities ?? {
+        input: ["text", "image"],
+        output: ["text"],
+      },
       capabilities: {
         streaming: true,
         vision: true,
@@ -728,7 +759,9 @@ async function main() {
       };
     }
 
-    if (apiModel?.created_at) {
+    if (spec.release_date) {
+      entry.release_date = spec.release_date;
+    } else if (apiModel?.created_at) {
       entry.release_date = apiModel.created_at.split("T")[0];
     } else {
       // Fallback: snapshot IDs encode their release date as YYYYMMDD suffix.
