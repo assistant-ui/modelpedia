@@ -2490,9 +2490,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2.5-omni-7b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-29",
+        "last_updated": "2026-09-24",
         "family": "qwen2.5",
-        "context_window": 1000000,
+        "context_window": 32000,
         "max_output_tokens": 2048,
         "model_type": "chat",
         "capabilities": {
@@ -4759,7 +4759,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "qwen3.5",
         "description": "The Qwen-Omni model accepts multimodal inputs including text, images, audio, and video, and generates text or speech responses. It offers a variety of expressive human-like voices and supports multilingual and dialect speech output, applicable to scenarios such as visual recognition, emotion sensing, and educational training. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "context_window": 64000,
+        "context_window": 256000,
         "license": "apache-2.0",
         "page_url": "https://www.alibabacloud.com/help/en/model-studio/vision-model",
         "model_type": "chat",
@@ -4788,7 +4788,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-09-24"
       },
       {
         "id": "qwen3.5-plus",
@@ -207078,9 +207078,9 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen2.5-omni-7b",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-06-29",
+        "last_updated": "2026-09-24",
         "family": "qwen2.5",
-        "context_window": 1000000,
+        "context_window": 32000,
         "max_output_tokens": 2048,
         "model_type": "chat",
         "capabilities": {
@@ -209403,7 +209403,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "qwen3.5",
         "description": "The Qwen-Omni model accepts multimodal inputs including text, images, audio, and video, and generates text or speech responses. It offers a variety of expressive human-like voices and supports multilingual and dialect speech output, applicable to scenarios such as visual recognition, emotion sensing, and educational training. [Usage](https://www.alibabacloud.com/help/en/document_detail/2867839.html) \\| [API reference](https://www.alibabacloud.com/help/en/document_detail/2712576.html) #### International If you select the [International](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are dynamically scheduled worldwide, excluding the Chinese mainland. Static data is stored in your selected region. Supported region: Singapore.",
-        "context_window": 64000,
+        "context_window": 256000,
         "model_type": "chat",
         "license": "apache-2.0",
         "tagline": "The Qwen-Omni model accepts multimodal inputs---including text, images, audio, and video---and generates responses in text or speech form.",
@@ -209432,7 +209432,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat"
         ],
-        "last_updated": "2026-06-03"
+        "last_updated": "2026-09-24"
       },
       {
         "id": "qwen3.5-plus",
@@ -213697,7 +213697,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "lucataco",
         "source": "official",
         "family": "qwen3",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "other",
         "parameters": 8,
         "page_url": "https://replicate.com/lucataco/qwen3-vl-8b-instruct",
@@ -216803,7 +216803,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 193,
+        "huggingface_downloads": 190,
         "last_modified": "2023-11-08",
         "last_updated": "2026-09-24"
       },
@@ -216901,7 +216901,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 249,
+        "huggingface_downloads": 254,
         "last_modified": "2023-11-17",
         "last_updated": "2026-09-24"
       },
@@ -216934,7 +216934,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 57,
+        "huggingface_downloads": 56,
         "last_modified": "2024-07-10",
         "last_updated": "2026-09-24"
       },
@@ -217099,7 +217099,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 363,
+        "huggingface_downloads": 365,
         "last_modified": "2024-04-26",
         "last_updated": "2026-09-24"
       },
@@ -217132,9 +217132,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 335,
+        "huggingface_downloads": 337,
         "last_modified": "2024-04-26",
-        "last_updated": "2026-09-23"
+        "last_updated": "2026-09-24"
       },
       {
         "id": "japanese-stablelm-base-alpha-7b",
@@ -217165,7 +217165,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 802,
+        "huggingface_downloads": 894,
         "last_modified": "2023-08-22",
         "last_updated": "2026-09-24"
       },
@@ -217231,7 +217231,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 340,
+        "huggingface_downloads": 345,
         "last_modified": "2023-12-19",
         "last_updated": "2026-09-24"
       },
@@ -217264,9 +217264,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 436,
+        "huggingface_downloads": 446,
         "last_modified": "2024-01-25",
-        "last_updated": "2026-09-23"
+        "last_updated": "2026-09-24"
       },
       {
         "id": "japanese-stablelm-base-ja_vocab-beta-7b",
@@ -217297,7 +217297,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 445,
+        "huggingface_downloads": 461,
         "last_modified": "2023-12-19",
         "last_updated": "2026-09-24"
       },
@@ -217330,7 +217330,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 315,
+        "huggingface_downloads": 316,
         "last_modified": "2023-10-06",
         "last_updated": "2026-09-24"
       },
@@ -217396,7 +217396,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 430,
+        "huggingface_downloads": 432,
         "last_modified": "2023-12-19",
         "last_updated": "2026-09-24"
       },
@@ -217429,7 +217429,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 363,
+        "huggingface_downloads": 381,
         "last_modified": "2023-12-19",
         "last_updated": "2026-09-24"
       },
@@ -217462,7 +217462,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 441,
+        "huggingface_downloads": 452,
         "last_modified": "2024-01-24",
         "last_updated": "2026-09-24"
       },
@@ -217495,7 +217495,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 463,
+        "huggingface_downloads": 477,
         "last_modified": "2023-12-19",
         "last_updated": "2026-09-24"
       },
@@ -217638,7 +217638,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-ema",
         "open_weight": true,
         "tagline": "Sd Vae Ft Ema is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 8195,
+        "huggingface_downloads": 8586,
         "last_modified": "2023-06-05",
         "last_updated": "2026-09-24"
       },
@@ -217687,7 +217687,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-mse",
         "open_weight": true,
         "tagline": "Sd Vae Ft Mse is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 150650,
+        "huggingface_downloads": 151495,
         "last_modified": "2023-06-06",
         "last_updated": "2026-09-24"
       },
@@ -217704,7 +217704,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-x2-latent-upscaler",
         "open_weight": true,
         "tagline": "Sd X2 Latent Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 5210,
+        "huggingface_downloads": 5167,
         "last_modified": "2023-06-05",
         "last_updated": "2026-09-24"
       },
@@ -217817,7 +217817,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sdxl-vae",
         "open_weight": true,
         "tagline": "Sdxl Vae is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 254112,
+        "huggingface_downloads": 251448,
         "last_modified": "2023-08-04",
         "last_updated": "2026-09-24"
       },
@@ -218676,7 +218676,7 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler",
         "open_weight": true,
         "tagline": "Stable Diffusion X4 Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 6782,
+        "huggingface_downloads": 6720,
         "last_modified": "2023-07-05",
         "last_updated": "2026-09-24"
       },
@@ -218740,9 +218740,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 56,
+        "huggingface_downloads": 57,
         "last_modified": "2023-07-12",
-        "last_updated": "2026-09-23"
+        "last_updated": "2026-09-24"
       },
       {
         "id": "stable-diffusion-xl-base-1.0",
@@ -218772,7 +218772,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 3401027,
+        "huggingface_downloads": 3506330,
         "last_modified": "2023-10-30",
         "last_updated": "2026-09-24"
       },
@@ -218805,9 +218805,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 40,
+        "huggingface_downloads": 41,
         "last_modified": "2023-07-12",
-        "last_updated": "2026-09-23"
+        "last_updated": "2026-09-24"
       },
       {
         "id": "stable-diffusion-xl-refiner-1.0",
@@ -218838,7 +218838,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 111431,
+        "huggingface_downloads": 109558,
         "last_modified": "2023-09-25",
         "last_updated": "2026-09-24"
       },
@@ -218979,7 +218979,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 273042,
+        "huggingface_downloads": 264801,
         "last_modified": "2024-07-10",
         "last_updated": "2026-09-24"
       },
@@ -219012,7 +219012,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 91004,
+        "huggingface_downloads": 86329,
         "last_modified": "2024-07-10",
         "last_updated": "2026-09-24"
       },
@@ -219093,7 +219093,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 456,
+        "huggingface_downloads": 449,
         "last_modified": "2023-08-29",
         "last_updated": "2026-09-24"
       },
@@ -219124,7 +219124,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 479,
+        "huggingface_downloads": 486,
         "last_modified": "2023-08-29",
         "last_updated": "2026-09-24"
       },
@@ -219156,9 +219156,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 375,
+        "huggingface_downloads": 366,
         "last_modified": "2023-07-27",
-        "last_updated": "2026-09-23"
+        "last_updated": "2026-09-24"
       },
       {
         "id": "StableBeluga2",
@@ -219186,7 +219186,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 569,
+        "huggingface_downloads": 575,
         "last_modified": "2023-09-18",
         "last_updated": "2026-09-24"
       },
@@ -219219,7 +219219,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 697,
+        "huggingface_downloads": 672,
         "last_modified": "2023-08-08",
         "last_updated": "2026-09-24"
       },
@@ -219252,7 +219252,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 359,
+        "huggingface_downloads": 354,
         "last_modified": "2023-08-08",
         "last_updated": "2026-09-24"
       },
@@ -219524,7 +219524,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 43676,
+        "huggingface_downloads": 43728,
         "last_modified": "2024-03-07",
         "last_updated": "2026-09-24"
       },
@@ -219557,7 +219557,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 496,
+        "huggingface_downloads": 552,
         "last_modified": "2023-09-11",
         "last_updated": "2026-09-24"
       },
@@ -219590,7 +219590,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 2202,
+        "huggingface_downloads": 2265,
         "last_modified": "2023-10-19",
         "last_updated": "2026-09-24"
       },
@@ -219656,7 +219656,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 729,
+        "huggingface_downloads": 737,
         "last_modified": "2023-10-19",
         "last_updated": "2026-09-24"
       },
@@ -219689,7 +219689,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1232,
+        "huggingface_downloads": 1229,
         "last_modified": "2023-04-19",
         "last_updated": "2026-09-24"
       },
@@ -219722,7 +219722,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1006,
+        "huggingface_downloads": 1011,
         "last_modified": "2023-04-19",
         "last_updated": "2026-09-24"
       },
@@ -219755,7 +219755,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 12353,
+        "huggingface_downloads": 12303,
         "last_modified": "2024-07-10",
         "last_updated": "2026-09-24"
       },
