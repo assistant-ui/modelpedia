@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate video with audio from images using LTX-2",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-01-05",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/ltx-2-19b/image-to-video",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "b59d8995",
     "description": "27864a9c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "996ff37f",
     "model_type": "4d1b75ca",
     "page_url": "729d5824",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "a393f093"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-09-24"
 }

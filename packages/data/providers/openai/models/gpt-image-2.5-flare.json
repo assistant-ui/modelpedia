@@ -41,15 +41,44 @@
     "capabilities": "e6b78b42",
     "modalities": "bbf9b8bb",
     "endpoints": "ae04eebc",
-    "description": "7e5e2001",
+    "description": "0823a764",
     "tagline": "62d4ee2c",
-    "pricing_notes": "601c0729"
+    "pricing_notes": "601c0729",
+    "pricing": "c3e9b7d3"
   },
-  "last_updated": "2026-09-09",
-  "description": "GPT Image 2.5 Flare is our fastest model for high-quality, everyday image generation. It accepts text and image inputs and produces image outputs. It supports `low`, `medium`, `high`, `xhigh`, `max`, and `auto` quality settings. Select it directly in the Image API or as the model of the Responses API image generation tool. Learn more in the [image generation guide](/api/docs/guides/image-generation).\\n",
+  "last_updated": "2026-09-24",
+  "description": "GPT Image 2.5 Flare is our fastest model for high-quality, everyday image generation. It accepts text and image inputs and produces image outputs. It supports `low`, `medium`, `high`, `xhigh`, `max`, and `auto` quality settings. Select it directly in the Image API or as the model of the Responses API image generation tool. Learn more in the image generation guide.",
   "tagline": "Fast, high-quality everyday image generation",
   "pricing_notes": [
     "Image output costs $30 per million tokens. Text output is not billed because this model outputs images, not text.",
     "Token rates match GPT Image 2. The GPT Image 2 calculator does not estimate GPT Image 2.5 token consumption."
-  ]
+  ],
+  "pricing": {
+    "input": 5,
+    "cached_input": 1.25,
+    "tiers": [
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [8, 2, 30]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 1.25, null]
+          }
+        ]
+      }
+    ]
+  }
 }

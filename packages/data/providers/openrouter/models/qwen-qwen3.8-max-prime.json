@@ -1,0 +1,44 @@
+{
+  "id": "qwen/qwen3.8-max-prime",
+  "name": "Qwen: Qwen3.8 Max Prime",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.8",
+  "description": "Qwen3.8 Max Prime is a higher-throughput variant of Qwen3.8 Max from Alibaba's Qwen team, served as a separate SKU at a higher price point.",
+  "release_date": "2026-09-23",
+  "context_window": 1000000,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "Qwen3.8 Max Prime is a higher-throughput variant of Qwen3.8 Max from Alibaba's Qwen team, served as a separate SKU at a higher price point.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 4,
+    "output": 12,
+    "cached_input": 0.5
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1428615a",
+    "family": "e102ad6a",
+    "description": "8b1aab78",
+    "release_date": "b3b67ec6",
+    "context_window": "8155bc54",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "8b1aab78",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "pricing": "ef28dc78",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-24"
+}

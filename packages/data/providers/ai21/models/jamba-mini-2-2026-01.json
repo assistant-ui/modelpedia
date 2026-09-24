@@ -30,7 +30,12 @@
     "modalities": "68e53d93",
     "pricing": "4dbcdee2",
     "endpoints": "d8fa1080",
-    "quantization": "0a212ff4"
+    "quantization": "0a212ff4",
+    "parameters": "9a115815",
+    "active_parameters": "c20ad4d7"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-24",
+  "parameters": 52,
+  "active_parameters": 12,
+  "alias": "jamba-mini"
 }

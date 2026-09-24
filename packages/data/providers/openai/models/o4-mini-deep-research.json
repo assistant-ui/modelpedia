@@ -3,9 +3,9 @@
   "name": "o4-mini-deep-research",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "o4",
-  "description": "o4-mini-deep-research is our faster, more affordable deep",
+  "description": "o4-mini-deep-research is our faster, more affordable deep  research model—ideal for tackling complex, multi-step research  tasks. It can search and synthesize information from across the  internet as well as from your own data, brought in through  MCP connectors.",
   "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
@@ -45,10 +45,6 @@
           {
             "label": "Standard",
             "values": [2, 0.5, 8]
-          },
-          {
-            "label": "Batch",
-            "values": [1, null, 4]
           }
         ]
       }
@@ -60,7 +56,7 @@
   "_generated": {
     "name": "c73d23c2",
     "family": "a842f941",
-    "description": "9ebc679a",
+    "description": "52562833",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
@@ -73,16 +69,22 @@
     "tagline": "6dd77c09",
     "capabilities": "0651f887",
     "modalities": "6399757e",
-    "pricing": "e36f1250",
+    "pricing": "ce78c534",
     "tools": "a651ddf3",
     "endpoints": "6f01fd6c",
     "license": "9186c466",
     "page_url": "2dcede25",
     "open_weight": "68934a3e",
-    "release_date": "f083d14e"
+    "release_date": "f083d14e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "26fc75d3",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
   "open_weight": false,
-  "release_date": "2025-06-26"
+  "release_date": "2025-06-26",
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-07-23",
+  "successor": "gpt-5.6-sol"
 }

@@ -3,10 +3,10 @@
   "name": "gpt-audio-mini-2025-12-15",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-audio",
   "description": "A cost-efficient version of GPT Audio. It accepts audio inputs and outputs, and can be used in the Chat Completions REST API.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
   "max_output_tokens": 16384,
@@ -35,11 +35,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Output", "Cached input"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.6, null, 2.4]
+            "values": [0.6, 2.4, null]
           }
         ]
       },
@@ -61,7 +61,7 @@
     "name": "b5e2e9b2",
     "family": "29debdf1",
     "description": "786ee09e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
@@ -71,17 +71,23 @@
     "tagline": "24fe34a9",
     "capabilities": "67f48281",
     "modalities": "cf05925d",
-    "pricing": "21a3a525",
+    "pricing": "69d029f1",
     "endpoints": "d8fa1080",
     "license": "9186c466",
     "release_date": "56423574",
     "page_url": "b64cd255",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "7047ff2b",
+    "retirement_date": "28df5f11",
+    "successor": "a649f503"
   },
   "license": "proprietary",
   "release_date": "2025-12-15",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-audio-mini?snapshot=gpt-audio-mini-2025-12-15",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-07-20",
+  "retirement_date": "2027-01-20",
+  "successor": "gpt-audio-1.5"
 }

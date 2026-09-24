@@ -1,0 +1,21 @@
+{
+  "id": "jamba-mini-1.7-2025-08",
+  "name": "Jamba Mini 1.7",
+  "created_by": "ai21",
+  "source": "official",
+  "status": "deprecated",
+  "deprecation_date": "2026-02-01",
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "d021a9fe",
+    "status": "2e2f74dc",
+    "deprecation_date": "9f9b3d52",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-24"
+}

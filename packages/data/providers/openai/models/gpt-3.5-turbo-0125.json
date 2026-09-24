@@ -3,9 +3,9 @@
   "name": "gpt-3.5-turbo-0125",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-3.5",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2021-09",
   "context_window": 16385,
   "max_output_tokens": 4096,
@@ -29,7 +29,7 @@
   "_generated": {
     "name": "da72ac63",
     "family": "7601054d",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b61a1a89",
     "context_window": "7f4b18de",
     "max_output_tokens": "f7efa4f8",
@@ -40,11 +40,57 @@
     "endpoints": "b36a99d3",
     "model_type": "d669f408",
     "license": "9186c466",
-    "page_url": "fd5c133f",
-    "open_weight": "68934a3e"
+    "page_url": "f4d60a33",
+    "open_weight": "68934a3e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "68185e3b",
+    "successor": "d5215155",
+    "pricing": "ec72c86f"
   },
   "model_type": "chat",
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo-0125",
-  "open_weight": false
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo?snapshot=gpt-3.5-turbo-0125",
+  "open_weight": false,
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-10-23",
+  "alias": "gpt-3.5-turbo",
+  "successor": "gpt-5.6-terra",
+  "pricing": {
+    "input": 0.5,
+    "output": 1.5,
+    "batch_input": 0.25,
+    "batch_output": 0.75,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.5, null, null, 1.5]
+          },
+          {
+            "label": "Batch",
+            "values": [0.25, null, null, 0.75]
+          }
+        ]
+      },
+      {
+        "label": "Fine-tuning",
+        "unit": "",
+        "columns": ["Training", "Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [8, 3, null, 6]
+          },
+          {
+            "label": "Batch",
+            "values": [8, 1.5, null, 3]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,34 +1,14 @@
 {
-  "date": "2026-08-05",
-  "count": 28,
+  "date": "2026-09-24",
+  "count": 8,
   "ids": [
-    "bagel",
     "protenix",
     "seed-audio-1.0",
-    "seed-diffusion-preview",
     "seed-gr-3",
     "seed-gr-rl",
-    "seed-liveinterpret-2.0",
-    "seed-music",
-    "seed-realtime-voice",
-    "seed1.5-doubao-1.5-pro",
-    "seed1.5-vl",
-    "seed1.6",
-    "seed1.8",
-    "seed2.0",
     "seed2.1",
-    "seed3d-1.0",
-    "seed3d-2.0",
-    "seedance-1.0",
-    "seedance-1.5-pro",
-    "seedance-2.0",
     "seedance-2.5",
-    "seededit-3.0",
     "seedrealtime",
-    "seedream-4.0",
-    "seedream-4.5",
-    "seedream-5.0-lite",
-    "seedream-5.0-pro",
-    "seeduplex"
+    "seedream-5.0-pro"
   ]
 }

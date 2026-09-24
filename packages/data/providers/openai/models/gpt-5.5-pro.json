@@ -1,6 +1,6 @@
 {
   "id": "gpt-5.5-pro",
-  "name": "gpt-5.5-pro",
+  "name": "GPT-5.5 Pro",
   "created_by": "openai",
   "source": "official",
   "family": "gpt-5.5",
@@ -14,7 +14,7 @@
   "performance": 5,
   "reasoning": 5,
   "speed": 1,
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.5-pro?snapshot=gpt-5.5-pro-2026-04-23",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.5-pro",
   "open_weight": false,
   "capabilities": {
     "streaming": false,
@@ -39,28 +39,36 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [30, null, 180]
+            "values": [30, null, null, 180]
           },
           {
             "label": "Batch",
-            "values": [15, null, 90]
+            "values": [15, null, null, 90]
           },
           {
             "label": "Flex",
-            "values": [15, null, 90]
+            "values": [15, null, null, 90]
           }
         ]
       }
     ]
   },
-  "tools": ["function_calling"],
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "hosted_shell",
+    "mcp"
+  ],
   "endpoints": ["responses", "batch"],
   "_generated": {
-    "name": "ce75577d",
+    "name": "28499ab9",
     "family": "7011ad8c",
     "status": "379ac110",
     "knowledge_cutoff": "4d1f0710",
@@ -72,16 +80,20 @@
     "performance": "e4da3b7f",
     "reasoning": "e4da3b7f",
     "speed": "c4ca4238",
-    "page_url": "4bc65f71",
+    "page_url": "4661f821",
     "open_weight": "68934a3e",
     "capabilities": "bcd7f168",
     "modalities": "6399757e",
-    "pricing": "89cf06e0",
-    "tools": "f0c1dc7e",
+    "pricing": "dbe81d76",
+    "tools": "0172b421",
     "endpoints": "6f01fd6c",
-    "release_date": "a87679d0"
+    "release_date": "a87679d0",
+    "description": "4bbff3ab",
+    "tagline": "7db15905"
   },
-  "last_updated": "2026-04-25",
+  "last_updated": "2026-09-24",
   "release_date": "2026-04-23",
-  "snapshots": ["gpt-5.5-pro-2026-04-23"]
+  "snapshots": ["gpt-5.5-pro-2026-04-23"],
+  "description": "GPT-5.5 Pro uses more compute to think harder and provide consistently better answers.",
+  "tagline": "Version of GPT-5.5 that produces smarter and more precise responses."
 }

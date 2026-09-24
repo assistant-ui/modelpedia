@@ -3,9 +3,9 @@
   "name": "GPT-5.3 Chat",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-09-24",
   "family": "gpt-5.3",
-  "description": "GPT-5.3 Chat points to the GPT-5.3 Instant snapshot used in ChatGPT. This model has been deprecated. We recommend {{latestMainlineModel}} for most API usage.",
+  "description": "GPT-5.3 Chat points to the GPT-5.3 Instant snapshot used in ChatGPT. This model has been deprecated. We recommend GPT-6 Astra for most API usage.",
   "status": "deprecated",
   "knowledge_cutoff": "2025-08",
   "context_window": 128000,
@@ -54,12 +54,12 @@
     "code_interpreter",
     "mcp"
   ],
-  "endpoints": ["responses", "chat_completions"],
+  "endpoints": ["chat_completions", "responses"],
   "snapshots": ["gpt-5.3-chat-latest"],
   "_generated": {
     "name": "880d2624",
     "family": "a1a05172",
-    "description": "4d932bb0",
+    "description": "4acf0cff",
     "status": "2e2f74dc",
     "knowledge_cutoff": "5549a2cd",
     "context_window": "34434798",
@@ -73,12 +73,18 @@
     "modalities": "6399757e",
     "pricing": "745a23d5",
     "tools": "1d5a765f",
-    "endpoints": "a913714d",
+    "endpoints": "72e91ba7",
     "license": "9186c466",
     "page_url": "2d6c26b9",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "83eb3201",
+    "retirement_date": "a2454697",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5.3-chat-latest",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-05-08",
+  "retirement_date": "2026-08-10",
+  "successor": "gpt-5.6-sol"
 }

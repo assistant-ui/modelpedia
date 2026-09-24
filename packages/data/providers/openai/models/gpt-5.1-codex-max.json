@@ -3,9 +3,9 @@
   "name": "GPT-5.1-Codex-Max",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-04-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-5.1",
-  "description": "GPT‑5.1-Codex-Max is purpose-built for agentic coding.",
+  "description": "GPT‑5.1-Codex-Max is purpose-built for agentic coding. It's only available in the Responses API. Learn how to get the most of GPT-5.1-Codex-Max in the prompting guide.",
   "status": "deprecated",
   "knowledge_cutoff": "2024-09",
   "context_window": 400000,
@@ -53,7 +53,7 @@
   "_generated": {
     "name": "8375977d",
     "family": "2089aff2",
-    "description": "2627e68e",
+    "description": "94fcc668",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "2a3a2d28",
@@ -71,9 +71,15 @@
     "endpoints": "acb164ea",
     "license": "9186c466",
     "page_url": "bf7e20c0",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "26fc75d3",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-07-23",
+  "successor": "gpt-5.6-sol"
 }

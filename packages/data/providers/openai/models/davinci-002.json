@@ -3,7 +3,7 @@
   "name": "davinci-002",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "description": "GPT base models can understand and generate natural language or code but are not trained with instruction following. These models are made to be replacements for our original GPT-3 base models and use the legacy Completions API. Most customers should use GPT-3.5 or GPT-4.",
   "status": "deprecated",
   "knowledge_cutoff": "2021-09",
@@ -28,6 +28,21 @@
   "pricing": {
     "tiers": [
       {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2, null, null, 2]
+          },
+          {
+            "label": "Batch",
+            "values": [1, null, null, 1]
+          }
+        ]
+      },
+      {
         "label": "Fine-tuning",
         "unit": "",
         "columns": ["Training", "Input", "Cached input", "Output"],
@@ -38,22 +53,7 @@
           },
           {
             "label": "Batch",
-            "values": [null, 6, null, 6]
-          }
-        ]
-      },
-      {
-        "label": "Text tokens",
-        "unit": "",
-        "columns": ["Input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [2, 2]
-          },
-          {
-            "label": "Batch",
-            "values": [1, 1]
+            "values": [6, 6, null, 6]
           }
         ]
       }
@@ -77,13 +77,19 @@
     "tagline": "25a45b8b",
     "capabilities": "77cb67d9",
     "modalities": "68e53d93",
-    "pricing": "492fd208",
+    "pricing": "1f6ef21c",
     "endpoints": "69bfe5cd",
     "license": "9186c466",
     "page_url": "2bdb5292",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "9503bf58",
+    "retirement_date": "1ec3c8a2",
+    "successor": "d5215155"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/davinci-002",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2025-09-26",
+  "retirement_date": "2026-09-28",
+  "successor": "gpt-5.6-terra"
 }

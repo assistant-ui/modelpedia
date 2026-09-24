@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Extend video with audio using LTX-2 and custom LoRA",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-01-05",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx-2-19b/extend-video/lora",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "b59d8995",
     "description": "70dc632f",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "996ff37f",
     "model_type": "ddb0b7bc",
     "page_url": "ab7a7533",
     "tagline": "70dc632f",
     "last_seen_at": "a393f093"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-09-24"
 }

@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/seedream/v5/flash/edit",
+  "name": "Seedream",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Seedream 5.0 Flash is a fast image generation and editing model, built for workflows where speed and budget matter.",
+  "status": "active",
+  "release_date": "2026-09-23",
+  "model_type": "image",
+  "page_url": "https://fal.run/bytedance/seedream/v5/flash/edit",
+  "tagline": "Seedream 5.0 Flash is a fast image generation and editing model, built for workflows where speed and budget matter.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-09-23",
+  "_generated": {
+    "name": "cd6ab6f1",
+    "description": "3c6bd72f",
+    "status": "379ac110",
+    "release_date": "b3b67ec6",
+    "model_type": "db8857fe",
+    "page_url": "60f041b2",
+    "tagline": "3c6bd72f",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "b3b67ec6"
+  },
+  "last_updated": "2026-09-24"
+}

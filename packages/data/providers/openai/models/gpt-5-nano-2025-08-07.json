@@ -3,7 +3,7 @@
   "name": "gpt-5-nano-2025-08-07",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-09-24",
   "family": "gpt-5",
   "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for",
   "status": "deprecated",
@@ -42,19 +42,19 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Output", "Cache writes"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.05, 0.005, 0.4]
+            "values": [0.05, 0.005, 0.4, null]
           },
           {
             "label": "Batch",
-            "values": [0.025, 0.0025, 0.2]
+            "values": [0.025, 0.0025, 0.2, null]
           },
           {
             "label": "Flex",
-            "values": [0.025, 0.0025, 0.2]
+            "values": [0.025, 0.0025, 0.2, null]
           }
         ]
       }
@@ -78,17 +78,23 @@
     "tagline": "e8e5c7e3",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "c144148c",
+    "pricing": "9bb2fce2",
     "endpoints": "ec55a017",
     "license": "9186c466",
     "release_date": "79c30d0c",
     "page_url": "ee904c9b",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "af441ea0",
+    "retirement_date": "d0164be5",
+    "successor": "dc307f2f"
   },
   "license": "proprietary",
   "release_date": "2025-08-07",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5-nano?snapshot=gpt-5-nano-2025-08-07",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-06-11",
+  "retirement_date": "2026-12-11",
+  "successor": "gpt-5.6-luna"
 }

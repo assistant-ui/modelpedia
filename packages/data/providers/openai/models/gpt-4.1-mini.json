@@ -3,9 +3,9 @@
   "name": "GPT-4.1 Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "gpt-4.1",
-  "description": "GPT-4.1 Mini excels at instruction following and tool calling. It features a",
+  "description": "GPT-4.1 Mini excels at instruction following and tool calling. It features a 1M token context window, and low latency without a reasoning step.",
   "status": "active",
   "knowledge_cutoff": "2024-06",
   "context_window": 1047576,
@@ -36,6 +36,25 @@
     "batch_output": 0.8,
     "tiers": [
       {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.4, 0.1, null, 1.6]
+          },
+          {
+            "label": "Batch",
+            "values": [0.2, null, null, 0.8]
+          },
+          {
+            "label": "Fast",
+            "values": [0.7, 0.175, null, 2.8]
+          }
+        ]
+      },
+      {
         "label": "Fine-tuning",
         "unit": "",
         "columns": ["Training", "Input", "Cached input", "Output"],
@@ -46,7 +65,7 @@
           },
           {
             "label": "Batch",
-            "values": [null, 0.4, null, 1.6]
+            "values": [5, 0.4, 0.1, 1.6]
           }
         ]
       }
@@ -70,7 +89,7 @@
   "_generated": {
     "name": "ce38e8c3",
     "family": "d240daf4",
-    "description": "e947ced7",
+    "description": "2703c2e1",
     "status": "379ac110",
     "knowledge_cutoff": "b087cb52",
     "context_window": "55410616",
@@ -81,7 +100,7 @@
     "tagline": "f24e776e",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "c1f7904e",
+    "pricing": "b7b1ba24",
     "tools": "907918a7",
     "endpoints": "ebc03c48",
     "license": "9186c466",

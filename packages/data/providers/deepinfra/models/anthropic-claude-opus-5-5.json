@@ -1,0 +1,50 @@
+{
+  "id": "anthropic/claude-opus-5-5",
+  "name": "claude-opus-5-5",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-opus",
+  "description": "Claude Opus 5.5 is Anthropic's most capable Opus model. Better at coding, knowledge work, and long-running tasks. It's easier to collaborate with and more cost efficient than ever.",
+  "status": "active",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": false,
+  "tagline": "Claude Opus 5.5 is Anthropic's most capable Opus model.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 4,
+    "output": 20,
+    "cached_input": 0.2
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "7c6f0211",
+    "family": "4e4c4b18",
+    "description": "fcbcb4ef",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "68934a3e",
+    "tagline": "e97050c0",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "775f1e21",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-09-24"
+}

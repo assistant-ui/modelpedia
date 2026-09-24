@@ -3,9 +3,9 @@
   "name": "GPT-Audio-1.5",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "gpt-audio",
-  "description": "The gpt-audio model is our first generally available audio model. It accepts",
+  "description": "The gpt-audio model is our first generally available audio model. It accepts audio inputs and outputs, and can be used in the Chat Completions REST API.",
   "status": "active",
   "knowledge_cutoff": "2024-09",
   "context_window": 128000,
@@ -32,17 +32,6 @@
     "output": 10,
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [2.5, null, 10]
-          }
-        ]
-      },
-      {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -50,6 +39,17 @@
           {
             "label": "Standard",
             "values": [32, null, 64]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2.5, null, 10]
           }
         ]
       }
@@ -60,7 +60,7 @@
   "_generated": {
     "name": "4c7584a7",
     "family": "29debdf1",
-    "description": "cbfdc684",
+    "description": "b74333f3",
     "status": "379ac110",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "34434798",
@@ -71,7 +71,7 @@
     "tagline": "550f51f9",
     "capabilities": "e8cba1a0",
     "modalities": "cf05925d",
-    "pricing": "6013bf87",
+    "pricing": "3f532d4a",
     "endpoints": "d8fa1080",
     "license": "9186c466",
     "page_url": "65b35ecc",

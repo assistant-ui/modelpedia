@@ -4,7 +4,7 @@
   "created_by": "unknown",
   "source": "official",
   "family": "gemma-4",
-  "status": "preview",
+  "status": "deprecated",
   "context_window": 131000,
   "max_output_tokens": 40000,
   "model_type": "chat",
@@ -30,7 +30,7 @@
   "_generated": {
     "name": "d53d071a",
     "family": "811b6704",
-    "status": "127aecde",
+    "status": "2e2f74dc",
     "context_window": "834bd590",
     "max_output_tokens": "7c77f048",
     "model_type": "d669f408",
@@ -43,11 +43,13 @@
     "tools": "f0c1dc7e",
     "model_card_url": "682a4569",
     "tokens_per_second": "8c3039bd",
-    "pricing": "f7bf6ae9"
+    "pricing": "f7bf6ae9",
+    "deprecation_date": "424d10af"
   },
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-09-24",
   "pricing": {
     "input": 0.99,
     "output": 1.49
-  }
+  },
+  "deprecation_date": "2026-09-03"
 }

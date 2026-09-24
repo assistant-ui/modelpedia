@@ -3,10 +3,10 @@
   "name": "omni-moderation-2024-09-26",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "status": "active",
   "model_type": "moderation",
-  "alias": "omni-moderation",
+  "alias": "omni-moderation-latest",
   "performance": 3,
   "speed": 3,
   "capabilities": {
@@ -36,12 +36,12 @@
     "family": "5da37138",
     "license": "9186c466",
     "release_date": "f93d8851",
-    "page_url": "15450840",
+    "page_url": "aa196226",
     "open_weight": "68934a3e"
   },
   "family": "omni-moderation",
   "license": "proprietary",
   "release_date": "2024-09-26",
-  "page_url": "https://developers.openai.com/api/docs/models/omni-moderation?snapshot=omni-moderation-2024-09-26",
+  "page_url": "https://developers.openai.com/api/docs/models/omni-moderation-latest?snapshot=omni-moderation-2024-09-26",
   "open_weight": false
 }

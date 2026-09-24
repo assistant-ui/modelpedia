@@ -3,10 +3,10 @@
   "name": "gpt-realtime-2025-08-28",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-realtime",
   "description": "This is our first general-availability realtime model, capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 32000,
   "max_output_tokens": 4096,
@@ -72,7 +72,7 @@
     "name": "6c2dba26",
     "family": "f5032d33",
     "description": "4fb35299",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "10e4d788",
     "max_output_tokens": "f7efa4f8",
@@ -88,12 +88,18 @@
     "release_date": "9e3c5ae9",
     "page_url": "1847185d",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "7047ff2b",
+    "retirement_date": "28df5f11",
+    "successor": "f772ac5b"
   },
   "model_type": "audio",
   "license": "proprietary",
   "release_date": "2025-08-28",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-realtime?snapshot=gpt-realtime-2025-08-28",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-07-20",
+  "retirement_date": "2027-01-20",
+  "successor": "gpt-realtime-2.1"
 }

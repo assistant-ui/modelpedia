@@ -3,9 +3,9 @@
   "name": "GPT-4.1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "gpt-4.1",
-  "description": "GPT-4.1 excels at instruction following and tool calling, with broad",
+  "description": "GPT-4.1 excels at instruction following and tool calling, with broad  knowledge across domains. It features a 1M token context window, and low latency without a reasoning step.",
   "status": "active",
   "knowledge_cutoff": "2024-06",
   "context_window": 1047576,
@@ -36,6 +36,25 @@
     "batch_output": 4,
     "tiers": [
       {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2, 0.5, null, 8]
+          },
+          {
+            "label": "Batch",
+            "values": [1, null, null, 4]
+          },
+          {
+            "label": "Fast",
+            "values": [3.5, 0.875, null, 14]
+          }
+        ]
+      },
+      {
         "label": "Fine-tuning",
         "unit": "",
         "columns": ["Training", "Input", "Cached input", "Output"],
@@ -46,7 +65,7 @@
           },
           {
             "label": "Batch",
-            "values": [null, 1.5, null, 6]
+            "values": [25, 1.5, 0.5, 6]
           }
         ]
       }
@@ -71,7 +90,7 @@
   "_generated": {
     "name": "1b6b5f58",
     "family": "d240daf4",
-    "description": "c50d7249",
+    "description": "2420451d",
     "status": "379ac110",
     "knowledge_cutoff": "b087cb52",
     "context_window": "55410616",
@@ -82,7 +101,7 @@
     "tagline": "4fa85a98",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "72f005e1",
+    "pricing": "4300f282",
     "tools": "1d5a765f",
     "endpoints": "ebc03c48",
     "license": "9186c466",

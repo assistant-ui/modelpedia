@@ -3,7 +3,7 @@
   "name": "gpt-4.1-2025-04-14",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-4.1",
   "description": "GPT-4.1 excels at instruction following and tool calling, with broad",
   "status": "active",
@@ -42,7 +42,26 @@
           },
           {
             "label": "Batch",
-            "values": [null, 1.5, null, 6]
+            "values": [25, 1.5, 0.5, 6]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output", "Cache writes"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2, 0.5, 8, null]
+          },
+          {
+            "label": "Batch",
+            "values": [1, null, 4, null]
+          },
+          {
+            "label": "Fast",
+            "values": [3.5, 0.875, 14, null]
           }
         ]
       }
@@ -74,7 +93,7 @@
     "tagline": "c50d7249",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "9b4dca77",
+    "pricing": "83608f43",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "release_date": "85c7118a",

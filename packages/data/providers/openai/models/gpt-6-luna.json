@@ -1,0 +1,103 @@
+{
+  "id": "gpt-6-luna",
+  "name": "GPT-6 Luna",
+  "created_by": "openai",
+  "source": "official",
+  "description": "GPT-6 Luna is our most efficient model for focused, high-volume tasks.",
+  "knowledge_cutoff": "2026-05",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "max_input_tokens": 922000,
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "performance": 3,
+  "reasoning": 3,
+  "speed": 4,
+  "tagline": "Our most efficient model for focused, high-volume tasks.",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+  "open_weight": false,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "fine_tuning": false,
+    "reasoning": true,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.5,
+    "cached_input": 0.01,
+    "batch_input": 0.05,
+    "batch_output": 0.25,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.1, 0.01, 0.125, 0.5]
+          },
+          {
+            "label": "Batch",
+            "values": [0.05, 0.005, 0.0625, 0.25]
+          },
+          {
+            "label": "Flex",
+            "values": [0.05, 0.005, 0.0625, 0.25]
+          },
+          {
+            "label": "Fast",
+            "values": [0.2, 0.02, 0.25, 1]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": [
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "hosted_shell",
+    "apply_patch",
+    "skills",
+    "computer_use",
+    "mcp",
+    "tool_search"
+  ],
+  "endpoints": ["chat_completions", "responses", "batch"],
+  "snapshots": ["gpt-6-luna"],
+  "_generated": {
+    "name": "2c3ccb15",
+    "description": "d45a5256",
+    "knowledge_cutoff": "0580e31b",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "9399a9ae",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "performance": "eccbc87e",
+    "reasoning": "eccbc87e",
+    "speed": "a87ff679",
+    "tagline": "a330e7e9",
+    "page_url": "2c3d039a",
+    "open_weight": "68934a3e",
+    "model_type": "d669f408",
+    "capabilities": "822aa4d1",
+    "modalities": "6399757e",
+    "pricing": "a3effcfe",
+    "tools": "c3217644",
+    "endpoints": "ec55a017"
+  },
+  "last_updated": "2026-09-24"
+}

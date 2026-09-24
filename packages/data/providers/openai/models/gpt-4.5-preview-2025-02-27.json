@@ -3,7 +3,7 @@
   "name": "gpt-4.5-preview-2025-02-27",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "description": "Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3",
   "status": "active",
   "knowledge_cutoff": "2023-10",
@@ -43,10 +43,6 @@
           {
             "label": "Standard",
             "values": [75, 37.5, 150]
-          },
-          {
-            "label": "Batch",
-            "values": [37.5, null, 75]
           }
         ]
       }
@@ -66,7 +62,7 @@
     "tagline": "f485dfc7",
     "capabilities": "299e8d16",
     "modalities": "6399757e",
-    "pricing": "812da844",
+    "pricing": "267aa757",
     "endpoints": "1c48b50a",
     "family": "88f03a37",
     "license": "9186c466",

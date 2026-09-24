@@ -3,10 +3,10 @@
   "name": "o1-2024-12-17",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "o1",
   "description": "The o1 series of models are trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -41,15 +41,15 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Output", "Cache writes"],
         "rows": [
           {
             "label": "Standard",
-            "values": [15, 7.5, 60]
+            "values": [15, 7.5, 60, null]
           },
           {
             "label": "Batch",
-            "values": [7.5, null, 30]
+            "values": [7.5, null, 30, null]
           }
         ]
       }
@@ -60,7 +60,7 @@
     "name": "b777fde8",
     "family": "e1ab0820",
     "description": "e656073c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -72,17 +72,23 @@
     "tagline": "8d0682be",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "f10657fa",
+    "pricing": "900a2109",
     "endpoints": "1c48b50a",
     "license": "9186c466",
     "release_date": "4a83ff32",
     "page_url": "dfff9cc1",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "68185e3b",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "release_date": "2024-12-17",
   "page_url": "https://developers.openai.com/api/docs/models/o1?snapshot=o1-2024-12-17",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-10-23",
+  "successor": "gpt-5.6-sol"
 }

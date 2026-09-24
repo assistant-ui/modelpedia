@@ -1,0 +1,80 @@
+{
+  "id": "gpt-daybreak-red-latest",
+  "name": "Daybreak Red",
+  "created_by": "openai",
+  "source": "official",
+  "description": "An alias for our most advanced purpose-trained cybersecurity models, for approved defenders conducting advanced, authorized vulnerability research, exploit validation, and security testing.",
+  "knowledge_cutoff": "2026-02",
+  "context_window": 400000,
+  "max_output_tokens": 128000,
+  "max_input_tokens": 272000,
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "tagline": "An alias for advanced cybersecurity models for authorized vulnerability research and security testing.",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-daybreak-red-latest",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "fine_tuning": false,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 12.5,
+    "output": 75,
+    "cached_input": 1.25,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [12.5, 1.25, 15.625, 75]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": [
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "hosted_shell",
+    "apply_patch",
+    "skills",
+    "computer_use",
+    "mcp",
+    "tool_search"
+  ],
+  "endpoints": ["responses"],
+  "snapshots": ["gpt-5.6-cyber"],
+  "_generated": {
+    "name": "9b367382",
+    "description": "81f7fa95",
+    "knowledge_cutoff": "911f4737",
+    "context_window": "2a3a2d28",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "3f9281a0",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "tagline": "e5bd3d32",
+    "page_url": "d023ab21",
+    "open_weight": "68934a3e",
+    "capabilities": "15adcda2",
+    "modalities": "6399757e",
+    "pricing": "637d2527",
+    "tools": "c3217644",
+    "endpoints": "acb164ea"
+  },
+  "last_updated": "2026-09-24"
+}

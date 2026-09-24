@@ -3,7 +3,7 @@
   "name": "o1-preview-2024-09-12",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "o1",
   "status": "active",
   "knowledge_cutoff": "2023-10",
@@ -50,7 +50,8 @@
     "release_date": "928ac16b",
     "page_url": "bdb06f77",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "pricing": "e4733456"
   },
   "description": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
   "tagline": "Research preview of the o1 series of models, trained with reinforcement learning to perform complex reasoning.",
@@ -58,5 +59,23 @@
   "release_date": "2024-09-12",
   "page_url": "https://developers.openai.com/api/docs/models/o1-preview?snapshot=o1-preview-2024-09-12",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "pricing": {
+    "input": 15,
+    "output": 60,
+    "cached_input": 7.5,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [15, 7.5, 60]
+          }
+        ]
+      }
+    ]
+  }
 }

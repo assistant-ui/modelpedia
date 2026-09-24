@@ -3,7 +3,7 @@
   "name": "gpt-5.1-2025-11-13",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-5.1",
   "description": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.",
   "status": "active",
@@ -41,29 +41,29 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Output", "Cache writes"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.25, 0.125, 10]
+            "values": [1.25, 0.125, 10, null]
           },
           {
             "label": "Batch",
-            "values": [0.625, 0.0625, 5]
+            "values": [0.625, 0.0625, 5, null]
           },
           {
             "label": "Flex",
-            "values": [0.625, 0.0625, 5]
+            "values": [0.625, 0.0625, 5, null]
           },
           {
-            "label": "Priority",
-            "values": [2.5, 0.25, 20]
+            "label": "Fast",
+            "values": [2.5, 0.25, 20, null]
           }
         ]
       }
     ]
   },
-  "endpoints": ["responses", "chat_completions", "batch"],
+  "endpoints": ["chat_completions", "responses", "batch"],
   "_generated": {
     "name": "3a221237",
     "family": "2089aff2",
@@ -80,8 +80,8 @@
     "tagline": "aa8534f0",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "a6f9ea96",
-    "endpoints": "88e8abb4",
+    "pricing": "b4169ce0",
+    "endpoints": "ec55a017",
     "license": "9186c466",
     "release_date": "c4b1d0fd",
     "page_url": "dd6c7381",

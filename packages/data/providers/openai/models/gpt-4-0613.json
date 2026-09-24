@@ -3,9 +3,9 @@
   "name": "gpt-4-0613",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-4",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-12",
   "context_window": 8192,
   "max_output_tokens": 8192,
@@ -35,7 +35,7 @@
   "_generated": {
     "name": "9ad9c863",
     "family": "1be4bcd3",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "06c60023",
     "context_window": "77441296",
     "max_output_tokens": "77441296",
@@ -46,11 +46,42 @@
     "endpoints": "ebc03c48",
     "model_type": "d669f408",
     "license": "9186c466",
-    "page_url": "fd799d4f",
-    "open_weight": "68934a3e"
+    "page_url": "3ecc42f9",
+    "open_weight": "68934a3e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "68185e3b",
+    "successor": "cadec60b",
+    "pricing": "39a4bf55"
   },
   "model_type": "chat",
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-4-0613",
-  "open_weight": false
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-4?snapshot=gpt-4-0613",
+  "open_weight": false,
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-10-23",
+  "alias": "gpt-4",
+  "successor": "gpt-5.6-sol",
+  "pricing": {
+    "input": 30,
+    "output": 60,
+    "batch_input": 15,
+    "batch_output": 30,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [30, null, null, 60]
+          },
+          {
+            "label": "Batch",
+            "values": [15, null, null, 30]
+          }
+        ]
+      }
+    ]
+  }
 }

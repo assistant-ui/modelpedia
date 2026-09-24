@@ -3,10 +3,10 @@
   "name": "gpt-4.1-nano-2025-04-14",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-4.1",
   "description": "GPT-4.1 nano excels at instruction following and tool calling. It features a",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 1047576,
   "max_output_tokens": 32768,
@@ -42,7 +42,26 @@
           },
           {
             "label": "Batch",
-            "values": [null, 0.1, null, 0.4]
+            "values": [1.5, 0.1, 0.025, 0.4]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output", "Cache writes"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.1, 0.025, 0.4, null]
+          },
+          {
+            "label": "Batch",
+            "values": [0.05, null, 0.2, null]
+          },
+          {
+            "label": "Fast",
+            "values": [0.2, 0.05, 0.8, null]
           }
         ]
       }
@@ -64,7 +83,7 @@
     "name": "1c49c282",
     "family": "d240daf4",
     "description": "7ca18e8b",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "55410616",
     "max_output_tokens": "f4376436",
@@ -74,17 +93,23 @@
     "tagline": "7aa786f3",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "817415b5",
+    "pricing": "bff97467",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "release_date": "85c7118a",
     "page_url": "46faad09",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "68185e3b",
+    "successor": "dc307f2f"
   },
   "license": "proprietary",
   "release_date": "2025-04-14",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4.1-nano?snapshot=gpt-4.1-nano-2025-04-14",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-10-23",
+  "successor": "gpt-5.6-luna"
 }

@@ -4,7 +4,7 @@
   "created_by": "lucataco",
   "source": "official",
   "family": "qwen3",
-  "status": "deprecated",
+  "status": "active",
   "model_type": "other",
   "parameters": 8,
   "page_url": "https://replicate.com/lucataco/qwen3-vl-8b-instruct",
@@ -14,11 +14,11 @@
   "_generated": {
     "name": "9b9423d9",
     "family": "48c385a0",
-    "status": "2e2f74dc",
+    "status": "379ac110",
     "model_type": "ddb0b7bc",
     "parameters": "c9f0f895",
     "page_url": "27fd029c",
     "capabilities": "d3117eb0"
   },
-  "last_updated": "2026-09-23"
+  "last_updated": "2026-09-24"
 }

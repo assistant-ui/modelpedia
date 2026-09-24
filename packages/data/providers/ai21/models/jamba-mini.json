@@ -1,0 +1,35 @@
+{
+  "id": "jamba-mini",
+  "name": "Jamba Mini",
+  "created_by": "ai21",
+  "source": "official",
+  "context_window": 256000,
+  "model_type": "chat",
+  "parameters": 52,
+  "active_parameters": 12,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.4
+  },
+  "endpoints": ["chat_completions"],
+  "snapshots": ["jamba-mini-2-2026-01"],
+  "_generated": {
+    "name": "55b87a5d",
+    "context_window": "2fd324cb",
+    "model_type": "d669f408",
+    "parameters": "9a115815",
+    "active_parameters": "c20ad4d7",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "4dbcdee2",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-09-24"
+}

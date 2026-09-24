@@ -42,9 +42,38 @@
     "modalities": "bbf9b8bb",
     "endpoints": "ae04eebc",
     "description": "7188c999",
-    "tagline": "ebfb8511"
+    "tagline": "ebfb8511",
+    "pricing": "aeb7ab8f"
   },
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-24",
   "description": "GPT Image 2.5 Sunburst generates and edits images from text and image inputs. Use it for workflows where editing precision matters most. It supports `low`, `medium`, `high`, `xhigh`, `max`, and `auto` quality settings. Select it directly in the Image API or as the model of the Responses API image generation tool. Learn more in the [image generation guide](/api/docs/guides/image-generation).\\n",
-  "tagline": "GPT Image 2.5 Sunburst generates and edits images from text and image inputs."
+  "tagline": "GPT Image 2.5 Sunburst generates and edits images from text and image inputs.",
+  "pricing": {
+    "input": 5,
+    "cached_input": 1.25,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 1.25, null]
+          }
+        ]
+      },
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [8, 2, 30]
+          }
+        ]
+      }
+    ]
+  }
 }

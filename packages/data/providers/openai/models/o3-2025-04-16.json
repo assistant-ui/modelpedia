@@ -3,7 +3,7 @@
   "name": "o3-2025-04-16",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-09-24",
   "family": "o3",
   "description": "o3 is a well-rounded and powerful model across domains. It sets a new",
   "status": "deprecated",
@@ -41,19 +41,23 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Output", "Cache writes"],
         "rows": [
           {
             "label": "Standard",
-            "values": [2, 0.5, 8]
+            "values": [2, 0.5, 8, null]
           },
           {
             "label": "Batch",
-            "values": [1, null, 4]
+            "values": [1, null, 4, null]
           },
           {
             "label": "Flex",
-            "values": [1, 0.25, 4]
+            "values": [1, 0.25, 4, null]
+          },
+          {
+            "label": "Fast",
+            "values": [3.5, 0.875, 14, null]
           }
         ]
       }
@@ -76,17 +80,23 @@
     "tagline": "ebf30e4f",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "5e39d62f",
+    "pricing": "59a91872",
     "endpoints": "ec55a017",
     "license": "9186c466",
     "release_date": "67604092",
     "page_url": "b61c9581",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "af441ea0",
+    "retirement_date": "d0164be5",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "release_date": "2025-04-16",
   "page_url": "https://developers.openai.com/api/docs/models/o3?snapshot=o3-2025-04-16",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-06-11",
+  "retirement_date": "2026-12-11",
+  "successor": "gpt-5.6-sol"
 }

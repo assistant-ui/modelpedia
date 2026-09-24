@@ -3,7 +3,7 @@
   "name": "GPT-Image-1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-24",
   "family": "gpt-image-1",
   "description": "GPT Image 1 is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.",
   "status": "deprecated",
@@ -20,17 +20,6 @@
     "cached_input": 1.25,
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [5, 1.25, null]
-          }
-        ]
-      },
-      {
         "label": "Image tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -38,6 +27,25 @@
           {
             "label": "Standard",
             "values": [10, 2.5, 40]
+          },
+          {
+            "label": "Batch",
+            "values": [5, 1.25, 20]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 1.25, null]
+          },
+          {
+            "label": "Batch",
+            "values": [2.5, 0.63, null]
           }
         ]
       },
@@ -60,9 +68,10 @@
           }
         ]
       }
-    ]
+    ],
+    "batch_input": 2.5
   },
-  "endpoints": ["batch", "image_generation", "image_edit", "responses"],
+  "endpoints": ["responses", "batch", "image_generation", "image_edit"],
   "snapshots": ["gpt-image-1"],
   "_generated": {
     "name": "0acf4609",
@@ -74,12 +83,15 @@
     "speed": "c4ca4238",
     "tagline": "804cd982",
     "modalities": "bbf9b8bb",
-    "pricing": "4efcaacd",
-    "endpoints": "b1b7ee5d",
+    "pricing": "9b968203",
+    "endpoints": "70b604a0",
     "license": "9186c466",
     "page_url": "a6a8242a",
     "open_weight": "68934a3e",
-    "capabilities": "ec32b5a4"
+    "capabilities": "ec32b5a4",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "68185e3b",
+    "successor": "c79be345"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-image-1",
@@ -93,5 +105,8 @@
     "fine_tuning": false,
     "reasoning": false,
     "batch": true
-  }
+  },
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-10-23",
+  "successor": "gpt-image-2"
 }

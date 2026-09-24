@@ -3,7 +3,7 @@
   "name": "Sora 2 Pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-27",
+  "last_updated": "2026-09-24",
   "status": "deprecated",
   "model_type": "video",
   "performance": 5,
@@ -22,31 +22,29 @@
     "speed": "c4ca4238",
     "modalities": "33372894",
     "endpoints": "577d4591",
-    "description": "5e9a5141",
+    "description": "9027ece2",
     "tagline": "6f072f44",
-    "pricing": "07fbfc53",
+    "pricing": "e55d4379",
     "family": "3d185d44",
     "license": "9186c466",
     "release_date": "17ddf71c",
     "page_url": "4ac9dc1f",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "3c215d49",
+    "retirement_date": "0f588381"
   },
-  "description": "Sora 2 Pro is our state-of-the-art, most advanced media generation model, generating videos with synced audio.",
+  "description": "Sora 2 Pro is our state-of-the-art, most advanced media generation model, generating videos with synced audio. It can create richly detailed, dynamic clips from natural language or images.",
   "tagline": "Most advanced synced-audio video generation",
   "pricing": {
     "tiers": [
       {
         "label": "Video generation",
-        "unit": "Per second",
-        "columns": [
-          "Portrait: 720x1280 Landscape: 1280x720",
-          "Portrait: 1024x1792 Landscape: 1792x1024",
-          "Portrait: 1080x1920 Landscape: 1920x1080"
-        ],
+        "unit": "",
+        "columns": ["Portrait: 720x128"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.3, 0.5, 0.7]
+            "values": [null]
           }
         ]
       }
@@ -56,5 +54,7 @@
   "license": "proprietary",
   "release_date": "2025-10-06",
   "page_url": "https://developers.openai.com/api/docs/models/sora-2-pro",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-03-24",
+  "retirement_date": "2026-09-24"
 }

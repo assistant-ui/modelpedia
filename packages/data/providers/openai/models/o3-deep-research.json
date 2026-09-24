@@ -3,9 +3,9 @@
   "name": "o3-deep-research",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "o3",
-  "description": "o3-deep-research is our most advanced model for deep research,",
+  "description": "o3-deep-research is our most advanced model for deep research,  designed to tackle complex, multi-step research tasks. It can  search and synthesize information from across the internet as  well as from your own data—brought in through MCP connectors.",
   "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
@@ -45,10 +45,6 @@
           {
             "label": "Standard",
             "values": [10, 2.5, 40]
-          },
-          {
-            "label": "Batch",
-            "values": [5, null, 20]
           }
         ]
       }
@@ -60,7 +56,7 @@
   "_generated": {
     "name": "6204a974",
     "family": "193049bc",
-    "description": "e446c1c2",
+    "description": "e72d3a25",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
@@ -73,16 +69,22 @@
     "tagline": "623a6a9b",
     "capabilities": "0651f887",
     "modalities": "6399757e",
-    "pricing": "03b07ed1",
+    "pricing": "baca9e1c",
     "tools": "a651ddf3",
     "endpoints": "6f01fd6c",
     "license": "9186c466",
     "page_url": "16116ae1",
     "open_weight": "68934a3e",
-    "release_date": "f083d14e"
+    "release_date": "f083d14e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "26fc75d3",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o3-deep-research",
   "open_weight": false,
-  "release_date": "2025-06-26"
+  "release_date": "2025-06-26",
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-07-23",
+  "successor": "gpt-5.6-sol"
 }

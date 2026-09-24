@@ -1,0 +1,44 @@
+{
+  "id": "z-ai/glm-5.3-prime",
+  "name": "Z.ai: GLM 5.3 Prime",
+  "created_by": "z-ai",
+  "source": "official",
+  "family": "glm-5.3",
+  "description": "GLM-5.3-Prime is the high-speed variant of Z.ai's GLM-5.3, inheriting its full capabilities while delivering 1.5–2× the output throughput through inference acceleration.",
+  "release_date": "2026-09-23",
+  "context_window": 1000000,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "tagline": "GLM-5.3-Prime is the high-speed variant of Z.ai's GLM-5.3, inheriting its full capabilities while delivering 1.5–2× the output throughput through inference acceleration.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.8,
+    "output": 8.8,
+    "cached_input": 0.56
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9d43d9fc",
+    "family": "9f217d9a",
+    "description": "79812fe2",
+    "release_date": "b3b67ec6",
+    "context_window": "8155bc54",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "tagline": "79812fe2",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "a7609761",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-24"
+}

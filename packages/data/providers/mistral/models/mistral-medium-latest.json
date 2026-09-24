@@ -8,7 +8,7 @@
   "status": "active",
   "context_window": 256000,
   "license": "proprietary",
-  "page_url": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
+  "page_url": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
   "model_type": "chat",
   "tagline": "Our frontier-class multimodal model optimized for agentic and coding use cases.",
   "capabilities": {
@@ -33,7 +33,7 @@
     "status": "379ac110",
     "context_window": "2fd324cb",
     "license": "9186c466",
-    "page_url": "083addfd",
+    "page_url": "5894fdbb",
     "model_type": "d669f408",
     "tagline": "e341dfb2",
     "capabilities": "1a260abc",
@@ -42,5 +42,5 @@
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-09-24"
 }

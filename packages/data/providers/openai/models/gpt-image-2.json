@@ -4,7 +4,7 @@
   "created_by": "openai",
   "source": "official",
   "family": "gpt-image-2",
-  "description": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our [image generation guide](/api/docs/guides/image-generation), or see the [pricing page](/api/docs/pricing#image-generation) and [image generation calculator](/api/docs/guides/image-generation#calculating-costs) for cost estimates.",
+  "description": "GPT Image 2 is our state-of-the-art image generation model for fast, high-quality image generation and editing. It supports flexible image sizes and high-fidelity image inputs. Learn more in our image generation guide, or see the pricing page and image generation calculator for cost estimates.",
   "status": "active",
   "model_type": "image",
   "license": "proprietary",
@@ -35,21 +35,6 @@
     "batch_output": 5,
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [5, 1.25, 10]
-          },
-          {
-            "label": "Batch",
-            "values": [2.5, 0.625, 5]
-          }
-        ]
-      },
-      {
         "label": "Image tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -63,6 +48,21 @@
             "values": [4, 1, 15]
           }
         ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 1.25, null]
+          },
+          {
+            "label": "Batch",
+            "values": [2.5, 0.625, null]
+          }
+        ]
       }
     ]
   },
@@ -71,7 +71,7 @@
   "_generated": {
     "name": "c2ef86d7",
     "family": "c79be345",
-    "description": "4d8702a7",
+    "description": "07b7a68e",
     "status": "379ac110",
     "model_type": "db8857fe",
     "license": "9186c466",
@@ -82,10 +82,10 @@
     "open_weight": "68934a3e",
     "capabilities": "ec32b5a4",
     "modalities": "bbf9b8bb",
-    "pricing": "76933ea9",
+    "pricing": "fe1cd369",
     "endpoints": "af128fc0",
     "release_date": "5029e96d"
   },
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-24",
   "release_date": "2026-04-21"
 }

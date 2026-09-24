@@ -3,13 +3,13 @@
   "name": "gpt-4o-2024-05-13",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-09-24",
   "family": "gpt-4o",
   "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
   "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
-  "max_output_tokens": 4096,
+  "max_output_tokens": 16384,
   "model_type": "chat",
   "alias": "gpt-4o",
   "performance": 3,
@@ -20,8 +20,8 @@
     "vision": true,
     "tool_call": true,
     "fine_tuning": true,
-    "structured_output": false,
-    "json_mode": false,
+    "structured_output": true,
+    "json_mode": true,
     "reasoning": false,
     "batch": true
   },
@@ -30,30 +30,55 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 2.5,
-    "output": 10,
+    "input": 5,
+    "output": 15,
     "cached_input": 1.25,
-    "batch_input": 1.25,
-    "batch_output": 5,
+    "batch_input": 2.5,
+    "batch_output": 7.5,
     "tiers": [
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [2.5, 1.25, 10]
+            "values": [5, 1.25, null, 15]
           },
           {
             "label": "Batch",
-            "values": [1.25, null, 5]
+            "values": [2.5, null, null, 7.5]
+          },
+          {
+            "label": "Fast",
+            "values": [8.75, 2.125, null, 26.25]
+          }
+        ]
+      },
+      {
+        "label": "Fine-tuning",
+        "unit": "",
+        "columns": ["Training", "Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [25, 3.75, 1.875, 15]
+          },
+          {
+            "label": "Batch",
+            "values": [25, 2.225, 0.9, 12.5]
           }
         ]
       }
     ]
   },
-  "endpoints": ["chat_completions", "responses", "assistants", "batch"],
+  "endpoints": [
+    "chat_completions",
+    "responses",
+    "assistants",
+    "batch",
+    "fine_tuning"
+  ],
   "_generated": {
     "name": "a3e88083",
     "family": "15249632",
@@ -61,24 +86,30 @@
     "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
-    "max_output_tokens": "f7efa4f8",
+    "max_output_tokens": "c76fe1d8",
     "model_type": "d669f408",
     "performance": "eccbc87e",
     "speed": "eccbc87e",
     "tagline": "f06aa8e0",
-    "capabilities": "521e71e7",
+    "capabilities": "c7bd5743",
     "modalities": "6399757e",
-    "pricing": "e052e983",
-    "endpoints": "1c48b50a",
+    "pricing": "70acf54c",
+    "endpoints": "ebc03c48",
     "license": "9186c466",
     "release_date": "836378f5",
     "page_url": "f94312cd",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "68185e3b",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "release_date": "2024-05-13",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o?snapshot=gpt-4o-2024-05-13",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-10-23",
+  "successor": "gpt-5.6-sol"
 }

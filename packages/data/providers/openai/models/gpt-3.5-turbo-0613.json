@@ -3,9 +3,9 @@
   "name": "gpt-3.5-turbo-0613",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-3.5",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2021-09",
   "context_window": 16385,
   "max_output_tokens": 4096,
@@ -29,7 +29,7 @@
   "_generated": {
     "name": "910be7ec",
     "family": "7601054d",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b61a1a89",
     "context_window": "7f4b18de",
     "max_output_tokens": "f7efa4f8",
@@ -41,10 +41,16 @@
     "model_type": "d669f408",
     "license": "9186c466",
     "page_url": "4d3c96be",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "93ad16ba",
+    "retirement_date": "02d3d614",
+    "successor": "acd626cc"
   },
   "model_type": "chat",
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo-0613",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2023-11-06",
+  "retirement_date": "2024-09-13",
+  "successor": "gpt-3.5-turbo"
 }

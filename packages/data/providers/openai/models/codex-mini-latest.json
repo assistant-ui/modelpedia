@@ -3,9 +3,9 @@
   "name": "codex-mini-latest",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "codex",
-  "description": "codex-mini-latest is a fine-tuned version of o4-mini specifically",
+  "description": "codex-mini-latest is a fine-tuned version of o4-mini specifically for use in Codex CLI. For direct use in the API, we recommend starting with gpt-4.1.",
   "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
@@ -51,7 +51,7 @@
   "_generated": {
     "name": "c991c10c",
     "family": "97c0ee50",
-    "description": "038c4085",
+    "description": "b42411e1",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
@@ -69,11 +69,17 @@
     "license": "9186c466",
     "page_url": "a88aef49",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "d3ee3150",
+    "retirement_date": "4c1b6684",
+    "successor": "295b5c6c"
   },
   "model_type": "code",
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/codex-mini-latest",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2025-11-17",
+  "retirement_date": "2026-02-12",
+  "successor": "gpt-5-codex-mini"
 }

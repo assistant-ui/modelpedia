@@ -3,7 +3,7 @@
   "name": "GPT-Realtime",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "gpt-realtime",
   "description": "This is our first general-availability realtime model, capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
   "status": "deprecated",
@@ -32,17 +32,6 @@
     "cached_input": 0.4,
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [4, 0.4, 16]
-          }
-        ]
-      },
-      {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -50,6 +39,17 @@
           {
             "label": "Standard",
             "values": [32, 0.4, 64]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [4, 0.4, 16]
           }
         ]
       },
@@ -81,19 +81,25 @@
     "tagline": "03ab6452",
     "capabilities": "67f48281",
     "modalities": "96cad1df",
-    "pricing": "e5a44c7e",
+    "pricing": "9e9a83da",
     "endpoints": "c7ed7203",
     "model_type": "9f84c007",
     "license": "9186c466",
     "page_url": "4944b1b3",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "release_date": "9e3c5ae9"
+    "release_date": "9e3c5ae9",
+    "deprecation_date": "7047ff2b",
+    "retirement_date": "28df5f11",
+    "successor": "f772ac5b"
   },
   "model_type": "audio",
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-realtime",
   "open_weight": false,
   "tools": ["function_calling"],
-  "release_date": "2025-08-28"
+  "release_date": "2025-08-28",
+  "deprecation_date": "2026-07-20",
+  "retirement_date": "2027-01-20",
+  "successor": "gpt-realtime-2.1"
 }

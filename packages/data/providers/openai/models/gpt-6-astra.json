@@ -1,6 +1,6 @@
 {
   "id": "gpt-6-astra",
-  "name": "gpt-6-astra",
+  "name": "GPT-6 Astra",
   "created_by": "openai",
   "source": "official",
   "status": "active",
@@ -30,10 +30,21 @@
     "input": ["text", "image"],
     "output": ["text"]
   },
-  "tools": ["function_calling"],
-  "endpoints": ["responses", "chat_completions", "batch"],
+  "tools": [
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "hosted_shell",
+    "apply_patch",
+    "skills",
+    "computer_use",
+    "mcp",
+    "tool_search"
+  ],
+  "endpoints": ["chat_completions", "responses", "batch"],
   "_generated": {
-    "name": "1d7a352e",
+    "name": "c49e091e",
     "status": "379ac110",
     "knowledge_cutoff": "58654c5c",
     "context_window": "f170ebb2",
@@ -49,8 +60,46 @@
     "open_weight": "68934a3e",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
-    "tools": "f0c1dc7e",
-    "endpoints": "88e8abb4"
+    "tools": "c3217644",
+    "endpoints": "ec55a017",
+    "description": "da233d6c",
+    "tagline": "988bbeba",
+    "pricing": "c25a946c"
   },
-  "last_updated": "2026-09-07"
+  "last_updated": "2026-09-24",
+  "description": "GPT-6 Astra is our most capable model, built for the hardest end-to-end work. Use it for complex reasoning, coding, computer use, research, and document creation. `reasoning.effort` supports `low`, `medium`, `high`, `xhigh`, and `max`.",
+  "tagline": "Our most capable model, built for the hardest end-to-end work",
+  "pricing": {
+    "input": 10,
+    "output": 50,
+    "cached_input": 1,
+    "batch_input": 5,
+    "batch_output": 25,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [10, 1, 12.5, 50]
+          },
+          {
+            "label": "Batch",
+            "values": [5, 0.5, 6.25, 25]
+          },
+          {
+            "label": "Flex",
+            "values": [5, 0.5, 6.25, 25]
+          },
+          {
+            "label": "Fast",
+            "values": [20, 2, 25, 100]
+          }
+        ]
+      }
+    ]
+  },
+  "snapshots": ["gpt-6-astra"]
 }

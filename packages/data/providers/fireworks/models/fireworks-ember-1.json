@@ -1,0 +1,24 @@
+{
+  "id": "fireworks/ember-1",
+  "name": "ember-1",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 1040000,
+  "page_url": "https://fireworks.ai/models/fireworks/ember-1",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.3
+  },
+  "_generated": {
+    "name": "1a6e738f",
+    "context_window": "1bf8ad8b",
+    "page_url": "86ba8ef2",
+    "capabilities": "0fa77dc6",
+    "pricing": "0deaf3da"
+  },
+  "last_updated": "2026-09-24"
+}

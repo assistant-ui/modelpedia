@@ -3,7 +3,7 @@
   "name": "gpt-4o-mini-transcribe-2025-12-15",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-24",
   "family": "gpt-4o",
   "status": "active",
   "knowledge_cutoff": "2024-06",
@@ -17,7 +17,7 @@
     "input": ["audio", "text"],
     "output": ["text"]
   },
-  "endpoints": ["transcription", "realtime"],
+  "endpoints": ["realtime", "transcription"],
   "_generated": {
     "name": "8ea65262",
     "family": "15249632",
@@ -29,10 +29,10 @@
     "performance": "eccbc87e",
     "speed": "a87ff679",
     "modalities": "7cee5e0e",
-    "endpoints": "250917d3",
+    "endpoints": "533bc4ba",
     "description": "dab406cd",
     "tagline": "72014020",
-    "pricing": "0de5876d",
+    "pricing": "1588afbb",
     "license": "9186c466",
     "release_date": "56423574",
     "page_url": "3078d654",
@@ -45,11 +45,11 @@
       {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Output", "Estimated cost"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.25, 5, 0.003]
+            "values": [1.25, 5]
           }
         ]
       }

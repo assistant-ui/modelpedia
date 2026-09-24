@@ -3,7 +3,7 @@
   "name": "gpt-4.1-mini-2025-04-14",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-24",
   "family": "gpt-4.1",
   "description": "GPT-4.1 Mini excels at instruction following and tool calling. It features a",
   "status": "active",
@@ -42,7 +42,26 @@
           },
           {
             "label": "Batch",
-            "values": [null, 0.4, null, 1.6]
+            "values": [5, 0.4, 0.1, 1.6]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output", "Cache writes"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.4, 0.1, 1.6, null]
+          },
+          {
+            "label": "Batch",
+            "values": [0.2, null, 0.8, null]
+          },
+          {
+            "label": "Fast",
+            "values": [0.7, 0.175, 2.8, null]
           }
         ]
       }
@@ -74,7 +93,7 @@
     "tagline": "18a22d24",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "530b51ae",
+    "pricing": "71b273c3",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "release_date": "85c7118a",

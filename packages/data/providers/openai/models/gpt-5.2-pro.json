@@ -1,9 +1,9 @@
 {
   "id": "gpt-5.2-pro",
-  "name": "gpt-5.2-pro",
+  "name": "GPT-5.2 Pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-09-24",
   "family": "gpt-5.2",
   "status": "active",
   "knowledge_cutoff": "2025-08",
@@ -35,19 +35,15 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [21, null, 168]
+            "values": [21, null, null, 168]
           },
           {
             "label": "Batch",
-            "values": [10.5, null, 84]
-          },
-          {
-            "label": "Flex",
-            "values": [10.5, null, 84]
+            "values": [10.5, null, null, 84]
           }
         ]
       }
@@ -55,7 +51,7 @@
   },
   "endpoints": ["responses"],
   "_generated": {
-    "name": "dc8fb727",
+    "name": "db93f30b",
     "family": "f580564d",
     "status": "379ac110",
     "knowledge_cutoff": "5549a2cd",
@@ -67,20 +63,30 @@
     "speed": "c4ca4238",
     "capabilities": "817f839e",
     "modalities": "6399757e",
-    "pricing": "7fff3799",
+    "pricing": "5ad683a1",
     "endpoints": "acb164ea",
     "model_type": "d669f408",
     "license": "9186c466",
-    "page_url": "1f32ff80",
+    "page_url": "508015ab",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e",
-    "release_date": "26371115"
+    "tools": "a7dce5fd",
+    "release_date": "26371115",
+    "description": "dba28944",
+    "tagline": "c8316d7d"
   },
   "snapshots": ["gpt-5.2-pro-2025-12-11"],
   "model_type": "chat",
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.2-pro?snapshot=gpt-5.2-pro-2025-12-11",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.2-pro",
   "open_weight": false,
-  "tools": ["function_calling"],
-  "release_date": "2025-12-11"
+  "tools": [
+    "function_calling",
+    "file_search",
+    "image_generation",
+    "mcp",
+    "web_search"
+  ],
+  "release_date": "2025-12-11",
+  "description": "GPT-5.2 Pro is our previous pro model for complex professional work. We recommend using GPT-5.5 Pro for the latest pro model. GPT-5.2 Pro is available in the Responses API only to enable support for multi-turn model interactions before responding to API requests, and other advanced API features in the future. Since GPT-5.2 Pro is designed to tackle tough problems, some requests may take several minutes to finish. To avoid timeouts, try using background mode. GPT-5.2 Pro supports reasoning.effort: medium, high, xhigh.",
+  "tagline": "Previous pro model for professional work that produces smarter and more precise responses."
 }

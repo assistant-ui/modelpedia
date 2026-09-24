@@ -1,6 +1,6 @@
 {
   "id": "gpt-5.6-luna",
-  "name": "gpt-5.6-luna",
+  "name": "GPT-5.6 Luna",
   "created_by": "openai",
   "source": "official",
   "family": "gpt-5.6",
@@ -39,20 +39,45 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.2, 0.02, 1.2]
+            "values": [0.2, 0.02, 0.25, 1.2]
+          },
+          {
+            "label": "Batch",
+            "values": [0.1, 0.01, 0.125, 0.6]
+          },
+          {
+            "label": "Flex",
+            "values": [0.1, 0.01, 0.125, 0.6]
+          },
+          {
+            "label": "Fast",
+            "values": [0.4, 0.04, 0.5, 2.4]
           }
         ]
       }
-    ]
+    ],
+    "batch_input": 0.1,
+    "batch_output": 0.6
   },
-  "tools": ["function_calling"],
-  "endpoints": ["responses", "chat_completions", "batch"],
+  "tools": [
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "hosted_shell",
+    "apply_patch",
+    "skills",
+    "computer_use",
+    "mcp",
+    "tool_search"
+  ],
+  "endpoints": ["chat_completions", "responses", "batch"],
   "_generated": {
-    "name": "dc307f2f",
+    "name": "d1984565",
     "family": "c9783e4a",
     "status": "379ac110",
     "knowledge_cutoff": "911f4737",
@@ -69,9 +94,14 @@
     "open_weight": "68934a3e",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
-    "pricing": "d8cd1ec9",
-    "tools": "f0c1dc7e",
-    "endpoints": "88e8abb4"
+    "pricing": "13dd5e1b",
+    "tools": "c3217644",
+    "endpoints": "ec55a017",
+    "description": "ed04d92e",
+    "tagline": "e7e57a3e"
   },
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-09-24",
+  "description": "GPT-5.6 Luna is designed for cost-sensitive, high-volume workloads. It roughly corresponds to the nano model tier used in earlier GPT-5 families. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
+  "tagline": "GPT-5.6 model optimized for cost-sensitive workloads",
+  "snapshots": ["gpt-5.6-luna"]
 }

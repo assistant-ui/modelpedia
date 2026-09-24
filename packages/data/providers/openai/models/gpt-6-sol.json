@@ -1,0 +1,103 @@
+{
+  "id": "gpt-6-sol",
+  "name": "GPT-6 Sol",
+  "created_by": "openai",
+  "source": "official",
+  "description": "GPT-6 Sol is built for complex coding and agentic workflows.",
+  "knowledge_cutoff": "2026-04",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "max_input_tokens": 922000,
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "performance": 5,
+  "reasoning": 5,
+  "speed": 4,
+  "tagline": "Built to power complex coding and agentic workflows.",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-6-sol",
+  "open_weight": false,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "fine_tuning": false,
+    "reasoning": true,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 10,
+    "cached_input": 0.2,
+    "batch_input": 1,
+    "batch_output": 5,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2, 0.2, 2.5, 10]
+          },
+          {
+            "label": "Batch",
+            "values": [1, 0.1, 1.25, 5]
+          },
+          {
+            "label": "Flex",
+            "values": [1, 0.1, 1.25, 5]
+          },
+          {
+            "label": "Fast",
+            "values": [4, 0.4, 5, 20]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": [
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "hosted_shell",
+    "apply_patch",
+    "skills",
+    "computer_use",
+    "mcp",
+    "tool_search"
+  ],
+  "endpoints": ["chat_completions", "responses", "batch"],
+  "snapshots": ["gpt-6-sol"],
+  "_generated": {
+    "name": "01ea068d",
+    "description": "f79f76b0",
+    "knowledge_cutoff": "58654c5c",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "9399a9ae",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "performance": "e4da3b7f",
+    "reasoning": "e4da3b7f",
+    "speed": "a87ff679",
+    "tagline": "c3400ef4",
+    "page_url": "d387b877",
+    "open_weight": "68934a3e",
+    "model_type": "d669f408",
+    "capabilities": "822aa4d1",
+    "modalities": "6399757e",
+    "pricing": "b723a230",
+    "tools": "c3217644",
+    "endpoints": "ec55a017"
+  },
+  "last_updated": "2026-09-24"
+}

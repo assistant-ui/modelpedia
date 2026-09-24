@@ -3,10 +3,10 @@
   "name": "o1-pro-2025-03-19",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "o1",
   "description": "The o1 series of models are trained with reinforcement learning to think",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -40,15 +40,15 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Output", "Cached input", "Cache writes"],
         "rows": [
           {
             "label": "Standard",
-            "values": [150, null, 600]
+            "values": [150, 600, null, null]
           },
           {
             "label": "Batch",
-            "values": [75, null, 300]
+            "values": [75, 300, null, null]
           }
         ]
       }
@@ -59,7 +59,7 @@
     "name": "14f4ccc1",
     "family": "e1ab0820",
     "description": "ea477ac7",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -71,17 +71,23 @@
     "tagline": "ea477ac7",
     "capabilities": "91876c96",
     "modalities": "6399757e",
-    "pricing": "b31251fb",
+    "pricing": "62226d13",
     "endpoints": "6f01fd6c",
     "license": "9186c466",
     "release_date": "2df47595",
     "page_url": "e5485517",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "68185e3b",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "release_date": "2025-03-19",
   "page_url": "https://developers.openai.com/api/docs/models/o1-pro?snapshot=o1-pro-2025-03-19",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-10-23",
+  "successor": "gpt-5.6-sol"
 }

@@ -1,0 +1,33 @@
+{
+  "id": "inclusionAI/Ming-Image-0.1-Design",
+  "name": "Ming-Image-0.1-Design",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "Design-native, open-weight text-to-image (6B) — ranked #1 among open-weight models on Artificial Analysis's UI/UX Design leaderboard. Renders legible UI and poster text plus cohesive graphics, illustration and photography in ~1.7s. MIT-licensed.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": true,
+  "tagline": "Design-native, open-weight text-to-image (6B) — ranked #1 among open-weight models on Artificial Analysis's UI/UX Design leaderboard.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0100 per image unit (1024x1024 default)"],
+  "_generated": {
+    "name": "23f9e8ab",
+    "description": "b9538387",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "b326b506",
+    "tagline": "a15a562f",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "1c097086"
+  },
+  "last_updated": "2026-09-24"
+}

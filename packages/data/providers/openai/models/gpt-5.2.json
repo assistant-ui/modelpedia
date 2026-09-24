@@ -3,9 +3,9 @@
   "name": "GPT-5.2",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "gpt-5.2",
-  "description": "GPT-5.2 is our previous flagship model for complex professional work.",
+  "description": "GPT-5.2 is our previous flagship model for complex professional work. We recommend using the latest GPT-6 Astra. Learn more on the Model guidance page. Reasoning.effort supports: none (default), low, medium, high and xhigh.",
   "status": "active",
   "knowledge_cutoff": "2025-08",
   "context_window": 400000,
@@ -40,23 +40,23 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.75, 0.175, 14]
+            "values": [1.75, 0.175, null, 14]
           },
           {
             "label": "Batch",
-            "values": [0.875, 0.0875, 7]
+            "values": [0.875, 0.0875, null, 7]
           },
           {
             "label": "Flex",
-            "values": [0.875, 0.0875, 7]
+            "values": [0.875, 0.0875, null, 7]
           },
           {
-            "label": "Priority",
-            "values": [3.5, 0.35, 28]
+            "label": "Fast",
+            "values": [3.5, 0.35, null, 28]
           }
         ]
       }
@@ -73,12 +73,12 @@
     "skills",
     "mcp"
   ],
-  "endpoints": ["responses", "chat_completions", "batch"],
+  "endpoints": ["chat_completions", "responses", "batch"],
   "snapshots": ["gpt-5.2-2025-12-11"],
   "_generated": {
     "name": "ed3d4e92",
     "family": "f580564d",
-    "description": "435bf74b",
+    "description": "848ea29d",
     "status": "379ac110",
     "knowledge_cutoff": "5549a2cd",
     "context_window": "2a3a2d28",
@@ -91,9 +91,9 @@
     "tagline": "2d2dea44",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "5047198f",
+    "pricing": "85b7ef44",
     "tools": "54d089fc",
-    "endpoints": "88e8abb4",
+    "endpoints": "ec55a017",
     "license": "9186c466",
     "page_url": "ff361acf",
     "open_weight": "68934a3e",

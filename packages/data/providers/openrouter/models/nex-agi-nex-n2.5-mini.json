@@ -31,7 +31,9 @@
     "tagline": "d1f9ed2a",
     "capabilities": "d53412cf",
     "modalities": "6399757e",
-    "pricing": "56a3124c"
+    "pricing": "56a3124c",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-09-22"
+  "last_updated": "2026-09-24",
+  "status": "deprecated"
 }

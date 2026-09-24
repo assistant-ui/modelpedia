@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-05",
-  "count": 87,
+  "date": "2026-09-24",
+  "count": 90,
   "ids": [
     "codestral",
     "codestral-2405",
@@ -61,6 +61,7 @@
     "mistral-ocr-2503",
     "mistral-ocr-2505",
     "mistral-ocr-2512",
+    "mistral-ocr-4-1",
     "mistral-ocr-latest",
     "mistral-saba",
     "mistral-saba-2502",
@@ -88,6 +89,8 @@
     "voxtral-mini-tts",
     "voxtral-mini-tts-2603",
     "voxtral-small",
-    "voxtral-small-2507"
+    "voxtral-small-2507",
+    "zai-glm-5-2",
+    "zai-glm-5-3"
   ]
 }

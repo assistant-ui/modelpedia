@@ -3,9 +3,9 @@
   "name": "GPT-5.1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "gpt-5.1",
-  "description": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.",
+  "description": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort. Learn more in our GPT-5.1 model guidance. Reasoning.effort supports: none (default), low, medium, and high.",
   "status": "active",
   "knowledge_cutoff": "2024-09",
   "context_window": 400000,
@@ -40,23 +40,23 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.25, 0.125, 10]
+            "values": [1.25, 0.125, null, 10]
           },
           {
             "label": "Batch",
-            "values": [0.625, 0.0625, 5]
+            "values": [0.625, 0.0625, null, 5]
           },
           {
             "label": "Flex",
-            "values": [0.625, 0.0625, 5]
+            "values": [0.625, 0.0625, null, 5]
           },
           {
-            "label": "Priority",
-            "values": [2.5, 0.25, 20]
+            "label": "Fast",
+            "values": [2.5, 0.25, null, 20]
           }
         ]
       }
@@ -71,12 +71,12 @@
     "apply_patch",
     "mcp"
   ],
-  "endpoints": ["responses", "chat_completions", "batch"],
+  "endpoints": ["chat_completions", "responses", "batch"],
   "snapshots": ["gpt-5.1-2025-11-13"],
   "_generated": {
     "name": "98d8ee2f",
     "family": "2089aff2",
-    "description": "aa8534f0",
+    "description": "a3b5c4b0",
     "status": "379ac110",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "2a3a2d28",
@@ -89,9 +89,9 @@
     "tagline": "0adb465b",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "a6f9ea96",
+    "pricing": "7fa88168",
     "tools": "001a5eb1",
-    "endpoints": "88e8abb4",
+    "endpoints": "ec55a017",
     "license": "9186c466",
     "page_url": "d43b0cd0",
     "open_weight": "68934a3e",

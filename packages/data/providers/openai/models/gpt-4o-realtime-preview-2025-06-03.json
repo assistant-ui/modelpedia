@@ -3,10 +3,10 @@
   "name": "gpt-4o-realtime-preview-2025-06-03",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-4o",
   "description": "This is a preview release of the GPT-4o Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 32000,
   "max_output_tokens": 4096,
@@ -61,7 +61,7 @@
     "name": "0229a6c7",
     "family": "15249632",
     "description": "b0cfc175",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "10e4d788",
     "max_output_tokens": "f7efa4f8",
@@ -77,12 +77,18 @@
     "release_date": "c32ecc6d",
     "page_url": "f2d360bf",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "792c58a8",
+    "retirement_date": "d465a48a",
+    "successor": "ba790d92"
   },
   "model_type": "audio",
   "license": "proprietary",
   "release_date": "2025-06-03",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-realtime-preview?snapshot=gpt-4o-realtime-preview-2025-06-03",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2025-09-15",
+  "retirement_date": "2026-05-07",
+  "successor": "gpt-realtime-1.5"
 }

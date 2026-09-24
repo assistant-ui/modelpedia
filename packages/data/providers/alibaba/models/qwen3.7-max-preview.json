@@ -15,7 +15,8 @@
     "structured_output": true,
     "batch": true,
     "fine_tuning": true,
-    "json_mode": true
+    "json_mode": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text"],
@@ -31,12 +32,14 @@
     "model_type": "d669f408",
     "license": "60245731",
     "page_url": "6ecc6f25",
-    "capabilities": "99c3f52a",
+    "capabilities": "0d818fbb",
     "modalities": "68e53d93",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
-    "status": "2e2f74dc"
+    "status": "2e2f74dc",
+    "reasoning_tokens": "b326b506"
   },
-  "last_updated": "2026-07-31",
-  "status": "deprecated"
+  "last_updated": "2026-09-24",
+  "status": "deprecated",
+  "reasoning_tokens": true
 }

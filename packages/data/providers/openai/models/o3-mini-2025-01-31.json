@@ -3,10 +3,10 @@
   "name": "o3-mini-2025-01-31",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "o3",
   "description": "o3-mini is our newest small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini. o3-mini supports key developer features, like Structured Outputs, function calling, and Batch API.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -41,15 +41,15 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Output", "Cache writes"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.1, 0.55, 4.4]
+            "values": [1.1, 0.55, 4.4, null]
           },
           {
             "label": "Batch",
-            "values": [0.55, null, 2.2]
+            "values": [0.55, null, 2.2, null]
           }
         ]
       }
@@ -60,7 +60,7 @@
     "name": "fc1527d1",
     "family": "193049bc",
     "description": "752a5b83",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -72,17 +72,23 @@
     "tagline": "4037cc25",
     "capabilities": "5e3030a4",
     "modalities": "68e53d93",
-    "pricing": "ea08eb92",
+    "pricing": "c587aa3d",
     "endpoints": "1c48b50a",
     "license": "9186c466",
     "release_date": "8e2cb9dd",
     "page_url": "7a1566cf",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "68185e3b",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "release_date": "2025-01-31",
   "page_url": "https://developers.openai.com/api/docs/models/o3-mini?snapshot=o3-mini-2025-01-31",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-10-23",
+  "successor": "gpt-5.6-sol"
 }

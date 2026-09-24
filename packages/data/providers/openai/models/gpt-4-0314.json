@@ -1,0 +1,87 @@
+{
+  "id": "gpt-4-0314",
+  "name": "gpt-4-0314",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-4",
+  "status": "deprecated",
+  "deprecation_date": "2025-09-26",
+  "retirement_date": "2026-03-26",
+  "knowledge_cutoff": "2023-12",
+  "context_window": 8192,
+  "max_output_tokens": 8192,
+  "license": "proprietary",
+  "alias": "gpt-4",
+  "performance": 2,
+  "speed": 3,
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-4?snapshot=gpt-4-0314",
+  "successor": "gpt-5",
+  "open_weight": false,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": true,
+    "reasoning": false,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 30,
+    "output": 60,
+    "batch_input": 15,
+    "batch_output": 30,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Cached input", "Cache writes"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [30, 60, null, null]
+          },
+          {
+            "label": "Batch",
+            "values": [15, 30, null, null]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": [
+    "chat_completions",
+    "responses",
+    "assistants",
+    "batch",
+    "fine_tuning"
+  ],
+  "_generated": {
+    "name": "aeea2e50",
+    "family": "1be4bcd3",
+    "status": "2e2f74dc",
+    "deprecation_date": "9503bf58",
+    "retirement_date": "7f514a88",
+    "knowledge_cutoff": "06c60023",
+    "context_window": "77441296",
+    "max_output_tokens": "77441296",
+    "license": "9186c466",
+    "performance": "c81e728d",
+    "speed": "eccbc87e",
+    "page_url": "e18e6bce",
+    "successor": "aa904c16",
+    "open_weight": "68934a3e",
+    "model_type": "d669f408",
+    "capabilities": "6b5f4a22",
+    "modalities": "68e53d93",
+    "pricing": "c4dc2efa",
+    "endpoints": "ebc03c48"
+  },
+  "last_updated": "2026-09-24"
+}

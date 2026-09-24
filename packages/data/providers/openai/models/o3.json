@@ -3,9 +3,9 @@
   "name": "o3",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-09-24",
   "family": "o3",
-  "description": "o3 is a well-rounded and powerful model across domains. It sets a new",
+  "description": "o3 is a well-rounded and powerful model across domains. It sets a new  standard for math, science, coding, and visual reasoning tasks. It also  excels at technical writing and instruction-following. Use it to think  through multi-step problems that involve analysis across text, code, and images.",
   "status": "active",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
@@ -40,19 +40,23 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [2, 0.5, 8]
+            "values": [2, 0.5, null, 8]
           },
           {
             "label": "Batch",
-            "values": [1, null, 4]
+            "values": [1, null, null, 4]
           },
           {
             "label": "Flex",
-            "values": [1, 0.25, 4]
+            "values": [1, 0.25, null, 4]
+          },
+          {
+            "label": "Fast",
+            "values": [3.5, 0.875, null, 14]
           }
         ]
       }
@@ -71,7 +75,7 @@
   "_generated": {
     "name": "193049bc",
     "family": "193049bc",
-    "description": "0cbff98e",
+    "description": "d7ef2292",
     "status": "379ac110",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
@@ -84,7 +88,7 @@
     "tagline": "4105e408",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "5e39d62f",
+    "pricing": "9f3797ad",
     "tools": "87bd8291",
     "endpoints": "ec55a017",
     "license": "9186c466",

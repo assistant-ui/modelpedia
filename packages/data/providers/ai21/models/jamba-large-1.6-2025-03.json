@@ -1,0 +1,21 @@
+{
+  "id": "jamba-large-1.6-2025-03",
+  "name": "Jamba Large 1.6",
+  "created_by": "ai21",
+  "source": "official",
+  "status": "deprecated",
+  "deprecation_date": "2025-08-03",
+  "model_type": "chat",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "e9a25359",
+    "status": "2e2f74dc",
+    "deprecation_date": "b93310b3",
+    "model_type": "d669f408",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-24"
+}

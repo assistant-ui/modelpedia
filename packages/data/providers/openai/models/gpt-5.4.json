@@ -3,9 +3,9 @@
   "name": "GPT-5.4",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "gpt-5.4",
-  "description": "GPT-5.4 is a flagship model for complex professional work.",
+  "description": "GPT-5.4 is a flagship model for complex professional work. Learn more in our GPT-5.4 model guidance. Reasoning.effort supports: none (default), low, medium, high and xhigh.",
   "status": "active",
   "knowledge_cutoff": "2025-08",
   "context_window": 1050000,
@@ -40,23 +40,23 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [2.5, 0.25, 15]
+            "values": [2.5, 0.25, null, 15]
           },
           {
             "label": "Batch",
-            "values": [1.25, 0.13, 7.5]
+            "values": [1.25, 0.13, null, 7.5]
           },
           {
             "label": "Flex",
-            "values": [1.25, 0.13, 7.5]
+            "values": [1.25, 0.13, null, 7.5]
           },
           {
-            "label": "Priority",
-            "values": [5, 0.5, 30]
+            "label": "Fast",
+            "values": [5, 0.5, null, 30]
           }
         ]
       }
@@ -75,7 +75,7 @@
     "computer_use",
     "mcp"
   ],
-  "endpoints": ["responses", "chat_completions", "batch"],
+  "endpoints": ["chat_completions", "responses", "batch"],
   "pricing_notes": [
     "For models with a 1.05M context window (GPT-5.4 and GPT-5.4 Pro), prompts with >272K input tokens are priced at 2x input and 1.5x output for the full session for standard, batch, and flex.",
     "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 and GPT-5.4 Pro."
@@ -84,7 +84,7 @@
   "_generated": {
     "name": "270255f2",
     "family": "4651e8f0",
-    "description": "360e3fe2",
+    "description": "e6f94bfc",
     "status": "379ac110",
     "knowledge_cutoff": "5549a2cd",
     "context_window": "f170ebb2",
@@ -97,9 +97,9 @@
     "tagline": "81e35884",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "87b7bc75",
+    "pricing": "d30e6c75",
     "tools": "44af6f15",
-    "endpoints": "88e8abb4",
+    "endpoints": "ec55a017",
     "pricing_notes": "05914e8c",
     "license": "9186c466",
     "page_url": "c9c19c1a",

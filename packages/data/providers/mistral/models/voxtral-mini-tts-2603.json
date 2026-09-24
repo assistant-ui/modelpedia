@@ -9,7 +9,7 @@
   "model_type": "tts",
   "license": "apache-2.0",
   "alias": "voxtral-mini-tts",
-  "page_url": "https://docs.mistral.ai/models/model-cards/voxtral-tts-26-03",
+  "page_url": "https://docs.mistral.ai/models/voxtral-tts-26-03",
   "tagline": "Our state-of-the-art text-to-speech model with zero-shot voice cloning.",
   "capabilities": {
     "streaming": true,
@@ -30,12 +30,12 @@
     "status": "379ac110",
     "model_type": "4e16a2cf",
     "license": "60245731",
-    "page_url": "5b555900",
+    "page_url": "48156514",
     "tagline": "619b997e",
     "capabilities": "4e827c07",
     "modalities": "68e53d93",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-30"
+  "last_updated": "2026-09-24"
 }
