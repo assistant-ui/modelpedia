@@ -9944,7 +9944,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "batch": true
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "modalities": {
           "input": [
@@ -9966,12 +9969,30 @@ export const providers: ProviderWithModels[] = [
         },
         "open_weight": false,
         "tools": [
-          "function_calling"
+          "function_calling",
+          "computer_use",
+          "mcp"
         ],
         "endpoints": [
           "messages"
         ],
-        "last_updated": "2026-09-02"
+        "last_updated": "2026-09-24",
+        "description": "For demanding reasoning and long-horizon agentic work",
+        "status": "active",
+        "release_date": "2026-09-01",
+        "knowledge_cutoff": "2026-06",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "performance": 5,
+        "reasoning": 5,
+        "training_data_cutoff": "2026-06",
+        "tagline": "For demanding reasoning and long-horizon agentic work",
+        "thinking_modes": [
+          "adaptive"
+        ],
+        "bedrock_id": "anthropic.claude-fable-5-1",
+        "vertex_id": "claude-fable-5-1",
+        "priority_tier": true
       },
       {
         "id": "claude-fable-5",
@@ -10018,7 +10039,9 @@ export const providers: ProviderWithModels[] = [
         },
         "open_weight": false,
         "tools": [
-          "function_calling"
+          "function_calling",
+          "computer_use",
+          "mcp"
         ],
         "endpoints": [
           "messages"
@@ -10029,18 +10052,21 @@ export const providers: ProviderWithModels[] = [
         "bedrock_id": "anthropic.claude-fable-5",
         "vertex_id": "claude-fable-5",
         "priority_tier": true,
-        "last_updated": "2026-07-17",
-        "retirement_date": "2027-06-09"
+        "last_updated": "2026-09-24",
+        "retirement_date": "2027-06-09",
+        "release_date": "2026-06-09",
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01"
       },
       {
         "id": "claude-haiku-4-5-20251001",
         "name": "Claude Haiku 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-09-24",
         "family": "claude-haiku",
         "description": "The fastest model with near-frontier intelligence",
-        "status": "deprecated",
+        "status": "active",
         "knowledge_cutoff": "2025-02",
         "context_window": 200000,
         "max_output_tokens": 64000,
@@ -10090,11 +10116,11 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-haiku-4-5-20251001",
-        "release_date": "2025-10-01",
+        "release_date": "2025-10-15",
         "thinking_modes": [
           "extended"
         ],
-        "bedrock_id": "anthropic.claude-haiku-4-5-20251001-v1:0",
+        "bedrock_id": "anthropic.claude-haiku-4-5",
         "vertex_id": "claude-haiku-4-5@20251001",
         "retirement_date": "2026-10-15"
       },
@@ -10103,7 +10129,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Haiku 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-06-29",
+        "last_updated": "2026-09-24",
         "family": "claude-haiku",
         "description": "The fastest model with near-frontier intelligence",
         "status": "active",
@@ -10142,7 +10168,9 @@ export const providers: ProviderWithModels[] = [
           "cache_write_1h": 2
         },
         "tools": [
-          "function_calling"
+          "function_calling",
+          "computer_use",
+          "mcp"
         ],
         "endpoints": [
           "messages"
@@ -10159,9 +10187,10 @@ export const providers: ProviderWithModels[] = [
         "thinking_modes": [
           "extended"
         ],
-        "bedrock_id": "anthropic.claude-haiku-4-5-20251001-v1:0",
+        "bedrock_id": "anthropic.claude-haiku-4-5",
         "vertex_id": "claude-haiku-4-5@20251001",
-        "retirement_date": "2026-10-15"
+        "retirement_date": "2026-10-15",
+        "release_date": "2025-10-15"
       },
       {
         "id": "claude-mythos-5-1",
@@ -10530,9 +10559,9 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Opus 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-09-24",
         "family": "claude-opus",
-        "status": "deprecated",
+        "status": "active",
         "knowledge_cutoff": "2025-05",
         "context_window": 200000,
         "max_output_tokens": 64000,
@@ -10581,7 +10610,7 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "open_weight": false,
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-5-20251101",
-        "release_date": "2025-11-01",
+        "release_date": "2025-11-24",
         "thinking_modes": [
           "extended"
         ],
@@ -10594,7 +10623,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Opus 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-06-29",
+        "last_updated": "2026-09-24",
         "family": "claude-opus",
         "status": "active",
         "knowledge_cutoff": "2025-05",
@@ -10631,7 +10660,9 @@ export const providers: ProviderWithModels[] = [
           "cache_write_1h": 10
         },
         "tools": [
-          "function_calling"
+          "function_calling",
+          "computer_use",
+          "mcp"
         ],
         "endpoints": [
           "messages"
@@ -10650,14 +10681,15 @@ export const providers: ProviderWithModels[] = [
         ],
         "bedrock_id": "anthropic.claude-opus-4-5-20251101-v1:0",
         "vertex_id": "claude-opus-4-5@20251101",
-        "retirement_date": "2026-11-24"
+        "retirement_date": "2026-11-24",
+        "release_date": "2025-11-24"
       },
       {
         "id": "claude-opus-4-6",
         "name": "Claude Opus 4.6",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-06-29",
+        "last_updated": "2026-09-24",
         "family": "claude-opus",
         "description": "The most intelligent broadly available model for agents and coding",
         "status": "active",
@@ -10696,7 +10728,9 @@ export const providers: ProviderWithModels[] = [
           "cache_write_1h": 10
         },
         "tools": [
-          "function_calling"
+          "function_calling",
+          "computer_use",
+          "mcp"
         ],
         "endpoints": [
           "messages"
@@ -10708,7 +10742,6 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-opus-4-6",
         "thinking_modes": [
-          "extended",
           "adaptive"
         ],
         "bedrock_id": "anthropic.claude-opus-4-6-v1",
@@ -10718,7 +10751,8 @@ export const providers: ProviderWithModels[] = [
         "fast_mode_pricing": {
           "input": 30,
           "output": 150
-        }
+        },
+        "release_date": "2026-02-05"
       },
       {
         "id": "claude-opus-4-7",
@@ -10767,13 +10801,15 @@ export const providers: ProviderWithModels[] = [
         },
         "open_weight": false,
         "tools": [
-          "function_calling"
+          "function_calling",
+          "computer_use",
+          "mcp"
         ],
         "endpoints": [
           "messages"
         ],
         "priority_tier": true,
-        "last_updated": "2026-06-29",
+        "last_updated": "2026-09-24",
         "reasoning": 5,
         "thinking_modes": [
           "adaptive"
@@ -10785,7 +10821,8 @@ export const providers: ProviderWithModels[] = [
         "fast_mode_pricing": {
           "input": 30,
           "output": 150
-        }
+        },
+        "release_date": "2026-04-16"
       },
       {
         "id": "claude-opus-4-8",
@@ -10837,7 +10874,9 @@ export const providers: ProviderWithModels[] = [
         },
         "open_weight": false,
         "tools": [
-          "function_calling"
+          "function_calling",
+          "computer_use",
+          "mcp"
         ],
         "endpoints": [
           "messages"
@@ -10848,11 +10887,12 @@ export const providers: ProviderWithModels[] = [
         "bedrock_id": "anthropic.claude-opus-4-8",
         "vertex_id": "claude-opus-4-8",
         "priority_tier": true,
-        "last_updated": "2026-06-29",
+        "last_updated": "2026-09-24",
         "fast_mode_pricing": {
           "input": 10,
           "output": 50
-        }
+        },
+        "release_date": "2026-05-28"
       },
       {
         "id": "claude-opus-5-5",
@@ -10868,7 +10908,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "batch": true
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "modalities": {
           "input": [
@@ -10890,12 +10933,36 @@ export const providers: ProviderWithModels[] = [
         },
         "open_weight": false,
         "tools": [
-          "function_calling"
+          "function_calling",
+          "computer_use",
+          "mcp"
         ],
         "endpoints": [
           "messages"
         ],
-        "last_updated": "2026-09-23"
+        "last_updated": "2026-09-24",
+        "description": "For long-running agentic coding and knowledge work",
+        "status": "active",
+        "release_date": "2026-09-22",
+        "knowledge_cutoff": "2026-06",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "batch_max_output_tokens": 300000,
+        "performance": 5,
+        "reasoning": 5,
+        "speed": 3,
+        "training_data_cutoff": "2026-06",
+        "tagline": "For long-running agentic coding and knowledge work",
+        "thinking_modes": [
+          "adaptive"
+        ],
+        "bedrock_id": "anthropic.claude-opus-5-5",
+        "vertex_id": "claude-opus-5-5",
+        "priority_tier": true,
+        "fast_mode_pricing": {
+          "input": 8,
+          "output": 40
+        }
       },
       {
         "id": "claude-opus-5",
@@ -10911,7 +10978,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "batch": true
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "modalities": {
           "input": [
@@ -10933,12 +11003,33 @@ export const providers: ProviderWithModels[] = [
         },
         "open_weight": false,
         "tools": [
-          "function_calling"
+          "function_calling",
+          "computer_use",
+          "mcp"
         ],
         "endpoints": [
           "messages"
         ],
-        "last_updated": "2026-07-25"
+        "last_updated": "2026-09-24",
+        "status": "active",
+        "release_date": "2026-07-24",
+        "knowledge_cutoff": "2026-05",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "batch_max_output_tokens": 300000,
+        "performance": 5,
+        "reasoning": 5,
+        "training_data_cutoff": "2026-05",
+        "thinking_modes": [
+          "adaptive"
+        ],
+        "bedrock_id": "anthropic.claude-opus-5",
+        "vertex_id": "claude-opus-5",
+        "priority_tier": true,
+        "fast_mode_pricing": {
+          "input": 10,
+          "output": 50
+        }
       },
       {
         "id": "claude-sonnet-4-0",
@@ -11076,9 +11167,9 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Sonnet 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-09-24",
         "family": "claude-sonnet",
-        "status": "deprecated",
+        "status": "active",
         "knowledge_cutoff": "2025-01",
         "context_window": 200000,
         "max_output_tokens": 64000,
@@ -11140,7 +11231,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Claude Sonnet 4.5",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-06-29",
+        "last_updated": "2026-09-24",
         "family": "claude-sonnet",
         "status": "active",
         "knowledge_cutoff": "2025-01",
@@ -11177,7 +11268,9 @@ export const providers: ProviderWithModels[] = [
           "cache_write_1h": 6
         },
         "tools": [
-          "function_calling"
+          "function_calling",
+          "computer_use",
+          "mcp"
         ],
         "endpoints": [
           "messages"
@@ -11196,20 +11289,21 @@ export const providers: ProviderWithModels[] = [
         ],
         "bedrock_id": "anthropic.claude-sonnet-4-5-20250929-v1:0",
         "vertex_id": "claude-sonnet-4-5@20250929",
-        "retirement_date": "2026-09-29"
+        "retirement_date": "2026-09-29",
+        "release_date": "2025-09-29"
       },
       {
         "id": "claude-sonnet-4-6",
         "name": "Claude Sonnet 4.6",
         "created_by": "anthropic",
         "source": "official",
-        "last_updated": "2026-06-29",
+        "last_updated": "2026-09-24",
         "family": "claude-sonnet",
         "description": "The best combination of speed and intelligence",
         "status": "active",
         "knowledge_cutoff": "2025-08",
         "context_window": 1000000,
-        "max_output_tokens": 64000,
+        "max_output_tokens": 128000,
         "performance": 4,
         "reasoning": 4,
         "speed": 4,
@@ -11242,7 +11336,9 @@ export const providers: ProviderWithModels[] = [
           "cache_write_1h": 6
         },
         "tools": [
-          "function_calling"
+          "function_calling",
+          "computer_use",
+          "mcp"
         ],
         "endpoints": [
           "messages"
@@ -11254,13 +11350,13 @@ export const providers: ProviderWithModels[] = [
         "open_weight": false,
         "page_url": "https://docs.anthropic.com/en/docs/about-claude/models#claude-sonnet-4-6",
         "thinking_modes": [
-          "extended",
           "adaptive"
         ],
         "bedrock_id": "anthropic.claude-sonnet-4-6",
         "vertex_id": "claude-sonnet-4-6",
         "retirement_date": "2027-02-17",
-        "batch_max_output_tokens": 300000
+        "batch_max_output_tokens": 300000,
+        "release_date": "2026-02-17"
       },
       {
         "id": "claude-sonnet-5",
@@ -11275,7 +11371,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "batch": true
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "modalities": {
           "input": [
@@ -11297,13 +11396,33 @@ export const providers: ProviderWithModels[] = [
         },
         "open_weight": false,
         "tools": [
-          "function_calling"
+          "function_calling",
+          "computer_use",
+          "mcp"
         ],
         "endpoints": [
           "messages"
         ],
-        "last_updated": "2026-07-17",
-        "retirement_date": "2027-06-30"
+        "last_updated": "2026-09-24",
+        "retirement_date": "2027-06-30",
+        "description": "The best combination of speed and intelligence",
+        "status": "active",
+        "release_date": "2026-06-30",
+        "knowledge_cutoff": "2026-01",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "batch_max_output_tokens": 300000,
+        "performance": 4,
+        "reasoning": 4,
+        "speed": 4,
+        "training_data_cutoff": "2026-01",
+        "tagline": "The best combination of speed and intelligence",
+        "thinking_modes": [
+          "adaptive"
+        ],
+        "bedrock_id": "anthropic.claude-sonnet-5",
+        "vertex_id": "claude-sonnet-5",
+        "priority_tier": true
       }
     ]
   },
@@ -11782,7 +11901,7 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-07-09",
-        "description": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
+        "description": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "tagline": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "context_window": 1000000,
         "max_output_tokens": 384000,
@@ -15888,7 +16007,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-07-17",
-        "description": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
+        "description": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "tagline": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "context_window": 1000000,
         "max_output_tokens": 384000,
@@ -21030,7 +21149,7 @@ export const providers: ProviderWithModels[] = [
         "description": "The best combination of speed and intelligence",
         "tagline": "The best combination of speed and intelligence",
         "context_window": 1000000,
-        "max_output_tokens": 64000,
+        "max_output_tokens": 128000,
         "knowledge_cutoff": "2025-08",
         "training_data_cutoff": "2026-01",
         "license": "proprietary",
@@ -60611,6 +60730,8 @@ export const providers: ProviderWithModels[] = [
         "description": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
         "tagline": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
         "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01",
         "license": "proprietary",
         "open_weight": false
       },
@@ -60715,7 +60836,9 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "vision": true,
           "reasoning": true,
-          "batch": true
+          "batch": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "modalities": {
           "input": [
@@ -60740,6 +60863,9 @@ export const providers: ProviderWithModels[] = [
         ],
         "last_updated": "2026-08-16",
         "status": "deprecated",
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-05",
+        "training_data_cutoff": "2026-05",
         "license": "proprietary",
         "open_weight": false
       },
@@ -60760,7 +60886,9 @@ export const providers: ProviderWithModels[] = [
           "tool_call": true,
           "vision": true,
           "reasoning": true,
-          "batch": true
+          "batch": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "modalities": {
           "input": [
@@ -60785,6 +60913,11 @@ export const providers: ProviderWithModels[] = [
         ],
         "last_updated": "2026-08-16",
         "status": "deprecated",
+        "description": "The best combination of speed and intelligence",
+        "tagline": "The best combination of speed and intelligence",
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01",
         "license": "proprietary",
         "open_weight": false
       },
@@ -62888,6 +63021,8 @@ export const providers: ProviderWithModels[] = [
         ],
         "last_updated": "2026-07-08",
         "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01",
         "license": "proprietary"
       },
       {
@@ -63074,6 +63209,9 @@ export const providers: ProviderWithModels[] = [
           "chat_completions"
         ],
         "last_updated": "2026-09-24",
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-06",
+        "training_data_cutoff": "2026-06",
         "license": "proprietary"
       },
       {
@@ -63118,6 +63256,9 @@ export const providers: ProviderWithModels[] = [
           "chat_completions"
         ],
         "last_updated": "2026-07-30",
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-05",
+        "training_data_cutoff": "2026-05",
         "license": "proprietary"
       },
       {
@@ -63162,7 +63303,7 @@ export const providers: ProviderWithModels[] = [
           "chat_completions"
         ],
         "last_updated": "2026-06-03",
-        "max_output_tokens": 64000,
+        "max_output_tokens": 128000,
         "knowledge_cutoff": "2025-08",
         "training_data_cutoff": "2026-01",
         "license": "proprietary"
@@ -63209,6 +63350,9 @@ export const providers: ProviderWithModels[] = [
           "chat_completions"
         ],
         "last_updated": "2026-09-02",
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01",
         "license": "proprietary"
       },
       {
@@ -73889,11 +74033,11 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "deepseek-v4-pro",
-        "name": "DeepSeek V4",
+        "name": "DeepSeek V4-Pro",
         "created_by": "deepseek",
         "source": "official",
         "family": "deepseek-chat",
-        "description": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
+        "description": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "status": "active",
         "release_date": "2026-08-13",
         "context_window": 1000000,
@@ -114643,7 +114787,7 @@ export const providers: ProviderWithModels[] = [
         },
         "last_updated": "2026-07-31",
         "status": "deprecated",
-        "description": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
+        "description": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "tagline": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "max_output_tokens": 384000,
         "license": "mit",
@@ -115804,7 +115948,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-08-30",
-        "description": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
+        "description": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "tagline": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "max_output_tokens": 384000,
         "license": "mit",
@@ -144800,12 +144944,50 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-09-12"
       },
       {
+        "id": "deepseek/deepseek-v4.1-flash-p",
+        "name": "DeepSeek V4.1 Flash",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "status": "active",
+        "release_date": "2026-09-24",
+        "context_window": 1048576,
+        "max_output_tokens": 393216,
+        "model_type": "chat",
+        "capabilities": {
+          "tool_call": true,
+          "reasoning": true,
+          "structured_output": true,
+          "streaming": true,
+          "json_mode": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 1.2
+        },
+        "endpoints": [
+          "chat_completions"
+        ],
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-09-24"
+      },
+      {
         "id": "deepseek/deepseek-v4.1-flash-z",
         "name": "DS F41 Flash",
         "created_by": "deepseek",
         "source": "official",
         "family": "deepseek",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2026-09-15",
         "context_window": 1048576,
         "max_output_tokens": 393216,
@@ -144835,7 +145017,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-16"
+        "last_updated": "2026-09-24"
       },
       {
         "id": "deepseek/deepseek-v4.1-flash",
@@ -150658,7 +150840,7 @@ export const providers: ProviderWithModels[] = [
         },
         "last_updated": "2026-08-13",
         "status": "deprecated",
-        "description": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
+        "description": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "tagline": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "context_window": 1000000,
         "max_output_tokens": 384000,
@@ -174215,7 +174397,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "batch": true
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 10,
@@ -174232,6 +174417,12 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-09-02",
+        "description": "For demanding reasoning and long-horizon agentic work",
+        "tagline": "For demanding reasoning and long-horizon agentic work",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-06",
+        "training_data_cutoff": "2026-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -174271,6 +174462,8 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
         "context_window": 1000000,
         "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01",
         "license": "proprietary",
         "open_weight": false
       },
@@ -174528,7 +174721,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "batch": true
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 4,
@@ -174545,6 +174741,12 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-09-23",
+        "description": "For long-running agentic coding and knowledge work",
+        "tagline": "For long-running agentic coding and knowledge work",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-06",
+        "training_data_cutoff": "2026-06",
         "license": "proprietary",
         "open_weight": false
       },
@@ -174560,7 +174762,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "batch": true
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 5,
@@ -174577,6 +174782,10 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-07-25",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-05",
+        "training_data_cutoff": "2026-05",
         "license": "proprietary",
         "open_weight": false
       },
@@ -174648,7 +174857,7 @@ export const providers: ProviderWithModels[] = [
         "description": "The best combination of speed and intelligence",
         "tagline": "The best combination of speed and intelligence",
         "context_window": 1000000,
-        "max_output_tokens": 64000,
+        "max_output_tokens": 128000,
         "knowledge_cutoff": "2025-08",
         "training_data_cutoff": "2026-01",
         "license": "proprietary",
@@ -174688,7 +174897,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "batch": true
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 2,
@@ -174705,6 +174917,12 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-07-08",
+        "description": "The best combination of speed and intelligence",
+        "tagline": "The best combination of speed and intelligence",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01",
         "license": "proprietary",
         "open_weight": false
       },
@@ -178872,6 +179090,8 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-06-18",
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01",
         "license": "proprietary",
         "open_weight": false
       },
@@ -179664,6 +179884,8 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-09-16",
+        "knowledge_cutoff": "2026-05",
+        "training_data_cutoff": "2026-05",
         "license": "proprietary",
         "open_weight": false
       },
@@ -179928,6 +180150,8 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-07-08",
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01",
         "license": "proprietary",
         "open_weight": false
       },
@@ -201763,7 +201987,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "batch": true
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 10,
@@ -201779,7 +202006,13 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-09-23"
+        "last_updated": "2026-09-23",
+        "description": "For demanding reasoning and long-horizon agentic work",
+        "tagline": "For demanding reasoning and long-horizon agentic work",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-06",
+        "training_data_cutoff": "2026-06"
       },
       {
         "id": "anthropic/claude-fable-5",
@@ -201816,7 +202049,9 @@ export const providers: ProviderWithModels[] = [
         "description": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
         "tagline": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
         "context_window": 1000000,
-        "max_output_tokens": 128000
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01"
       },
       {
         "id": "anthropic/claude-haiku-4-5",
@@ -202023,7 +202258,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "batch": true
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 4,
@@ -202039,7 +202277,13 @@ export const providers: ProviderWithModels[] = [
             "text"
           ]
         },
-        "last_updated": "2026-09-23"
+        "last_updated": "2026-09-23",
+        "description": "For long-running agentic coding and knowledge work",
+        "tagline": "For long-running agentic coding and knowledge work",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-06",
+        "training_data_cutoff": "2026-06"
       },
       {
         "id": "anthropic/claude-opus-5",
@@ -202053,7 +202297,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "batch": true
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "open_weight": false,
         "modalities": {
@@ -202069,7 +202316,11 @@ export const providers: ProviderWithModels[] = [
           "input": 5,
           "output": 25,
           "cached_input": 0.5
-        }
+        },
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-05",
+        "training_data_cutoff": "2026-05"
       },
       {
         "id": "anthropic/claude-sonnet-4-5",
@@ -202143,7 +202394,7 @@ export const providers: ProviderWithModels[] = [
         "description": "The best combination of speed and intelligence",
         "tagline": "The best combination of speed and intelligence",
         "context_window": 1000000,
-        "max_output_tokens": 64000,
+        "max_output_tokens": 128000,
         "knowledge_cutoff": "2025-08",
         "training_data_cutoff": "2026-01"
       },
@@ -202159,7 +202410,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "batch": true
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "open_weight": false,
         "modalities": {
@@ -202175,7 +202429,13 @@ export const providers: ProviderWithModels[] = [
           "input": 2,
           "output": 10,
           "cached_input": 0.2
-        }
+        },
+        "description": "The best combination of speed and intelligence",
+        "tagline": "The best combination of speed and intelligence",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01"
       },
       {
         "id": "google/gemini-2.5-flash",
@@ -211692,6 +211952,8 @@ export const providers: ProviderWithModels[] = [
         "tagline": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
         "context_window": 1000000,
         "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01",
         "license": "proprietary",
         "open_weight": false
       },
@@ -211783,7 +212045,10 @@ export const providers: ProviderWithModels[] = [
           "streaming": true,
           "vision": true,
           "tool_call": true,
-          "batch": true
+          "batch": true,
+          "reasoning": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "modalities": {
           "input": [
@@ -211797,6 +212062,12 @@ export const providers: ProviderWithModels[] = [
           "chat_completions"
         ],
         "last_updated": "2026-08-16",
+        "description": "The best combination of speed and intelligence",
+        "tagline": "The best combination of speed and intelligence",
+        "context_window": 1000000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01",
         "license": "proprietary",
         "open_weight": false
       },
@@ -213631,6 +213902,16 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-05-11"
       },
       {
+        "id": "lucataco/moondream2",
+        "name": "Moondream2",
+        "created_by": "lucataco",
+        "source": "official",
+        "status": "active",
+        "model_type": "other",
+        "page_url": "https://replicate.com/lucataco/moondream2",
+        "last_updated": "2026-09-24"
+      },
+      {
         "id": "lucataco/motif-video",
         "name": "Motif Video",
         "created_by": "lucataco",
@@ -214849,7 +215130,7 @@ export const providers: ProviderWithModels[] = [
         "name": "P Image Edit",
         "created_by": "prunaai",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "image",
         "page_url": "https://replicate.com/prunaai/p-image-edit",
         "capabilities": {
@@ -214866,7 +215147,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_updated": "2026-09-18"
+        "last_updated": "2026-09-24"
       },
       {
         "id": "prunaai/p-image-ideogram",
@@ -221050,7 +221331,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-09-23",
-        "description": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
+        "description": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "tagline": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "max_output_tokens": 384000,
         "license": "mit",
@@ -224457,6 +224738,8 @@ export const providers: ProviderWithModels[] = [
         "description": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
         "tagline": "Anthropic's most capable widely released model, for the most demanding reasoning and long-horizon agentic work",
         "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01",
         "license": "proprietary",
         "open_weight": false
       },
@@ -224722,7 +225005,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "batch": true
+          "batch": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 5,
@@ -224740,6 +225025,9 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-07-25",
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-05",
+        "training_data_cutoff": "2026-05",
         "license": "proprietary",
         "open_weight": false
       },
@@ -224849,7 +225137,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "tool_call": true,
           "reasoning": true,
-          "batch": true
+          "batch": true,
+          "structured_output": true,
+          "json_mode": true
         },
         "pricing": {
           "input": 2,
@@ -224867,6 +225157,11 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-07-08",
+        "description": "The best combination of speed and intelligence",
+        "tagline": "The best combination of speed and intelligence",
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-01",
+        "training_data_cutoff": "2026-01",
         "license": "proprietary",
         "open_weight": false
       },
@@ -226087,7 +226382,7 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "last_updated": "2026-08-30",
-        "description": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
+        "description": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "tagline": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
         "max_output_tokens": 384000,
         "license": "mit",
