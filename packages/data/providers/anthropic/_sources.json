@@ -1,5 +1,5 @@
 {
-  "models": "https://platform.claude.com/docs/en/about-claude/models/overview.md",
+  "models": "https://platform.claude.com/docs/en/models/overview.md",
   "pricing": "https://platform.claude.com/docs/en/about-claude/pricing.md",
   "deprecations": "https://platform.claude.com/docs/en/about-claude/model-deprecations.md",
   "api": "https://api.anthropic.com/v1/models"

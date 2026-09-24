@@ -73614,38 +73614,6 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-09-06"
       },
       {
-        "id": "deepseek-v4-flash deepseek-v4-pro deepseek-v4-flash-vision-exp",
-        "name": "DeepSeek V4",
-        "created_by": "deepseek",
-        "source": "official",
-        "family": "deepseek-chat",
-        "description": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
-        "status": "deprecated",
-        "model_type": "chat",
-        "reasoning_tokens": true,
-        "license": "mit",
-        "tagline": "DeepSeek-V4 hybrid model with both non-thinking and thinking (default) modes.",
-        "capabilities": {
-          "streaming": true,
-          "reasoning": true,
-          "fine_tuning": true
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "open_weight": true,
-        "endpoints": [
-          "chat_completions",
-          "completions"
-        ],
-        "last_updated": "2026-09-10"
-      },
-      {
         "id": "deepseek-v4-flash-vision-exp",
         "name": "DeepSeek V4",
         "created_by": "deepseek",
@@ -157985,36 +157953,6 @@ export const providers: ProviderWithModels[] = [
         "successor": "gpt-image-2"
       },
       {
-        "id": "Code Interpreter",
-        "name": "Code Interpreter",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-08-30",
-        "status": "deprecated",
-        "pricing": {
-          "tiers": [
-            {
-              "label": "Built-in tools",
-              "unit": "",
-              "columns": [
-                "Cost"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    0.03
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "license": "proprietary",
-        "page_url": "https://developers.openai.com/api/docs/models/Code Interpreter",
-        "open_weight": false
-      },
-      {
         "id": "codex-mini-latest",
         "name": "codex-mini-latest",
         "created_by": "openai",
@@ -158496,45 +158434,6 @@ export const providers: ProviderWithModels[] = [
         "deprecation_date": "2025-09-26",
         "retirement_date": "2026-09-28",
         "successor": "gpt-5.6-terra"
-      },
-      {
-        "id": "File Search Storage",
-        "name": "File Search Storage",
-        "created_by": "openai",
-        "source": "official",
-        "last_updated": "2026-08-30",
-        "status": "deprecated",
-        "pricing": {
-          "tiers": [
-            {
-              "label": "Built-in tools",
-              "unit": "",
-              "columns": [
-                "Cost"
-              ],
-              "rows": [
-                {
-                  "label": "Standard",
-                  "values": [
-                    0.1
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "model_type": "chat",
-        "license": "proprietary",
-        "page_url": "https://developers.openai.com/api/docs/models/File Search Storage",
-        "open_weight": false,
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
       },
       {
         "id": "gpt-3.5-0301",
