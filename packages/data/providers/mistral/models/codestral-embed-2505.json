@@ -3,7 +3,7 @@
   "name": "codestral-embed-2505",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-07-30",
+  "last_updated": "2026-09-24",
   "family": "codestral",
   "status": "active",
   "context_window": 8000,
@@ -28,12 +28,12 @@
     "modalities": "68e53d93",
     "model_type": "764cb3de",
     "license": "ab728f55",
-    "page_url": "dcea2099",
+    "page_url": "f975ef08",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e"
   },
   "license": "mnpl",
-  "page_url": "https://docs.mistral.ai/models/model-cards/codestral-embed-25-05",
+  "page_url": "https://docs.mistral.ai/models/codestral-embed-25-05",
   "open_weight": true,
   "tools": ["function_calling"]
 }

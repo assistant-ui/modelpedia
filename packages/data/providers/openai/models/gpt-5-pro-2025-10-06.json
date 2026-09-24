@@ -3,7 +3,7 @@
   "name": "gpt-5-pro-2025-10-06",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-09-24",
   "family": "gpt-5",
   "status": "deprecated",
   "knowledge_cutoff": "2024-09",
@@ -37,15 +37,15 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Output", "Cached input", "Cache writes"],
         "rows": [
           {
             "label": "Standard",
-            "values": [15, null, 120]
+            "values": [15, 120, null, null]
           },
           {
             "label": "Batch",
-            "values": [7.5, null, 60]
+            "values": [7.5, 60, null, null]
           }
         ]
       }
@@ -65,19 +65,25 @@
     "speed": "c4ca4238",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "2b7917d6",
+    "pricing": "4d609930",
     "endpoints": "6f01fd6c",
     "model_type": "d669f408",
     "license": "9186c466",
     "release_date": "17ddf71c",
     "page_url": "4e00bc3f",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "af441ea0",
+    "retirement_date": "d0164be5",
+    "successor": "cadec60b"
   },
   "model_type": "chat",
   "license": "proprietary",
   "release_date": "2025-10-06",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5-pro?snapshot=gpt-5-pro-2025-10-06",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-06-11",
+  "retirement_date": "2026-12-11",
+  "successor": "gpt-5.6-sol"
 }

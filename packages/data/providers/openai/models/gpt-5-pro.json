@@ -1,9 +1,9 @@
 {
   "id": "gpt-5-pro",
-  "name": "gpt-5-pro",
+  "name": "GPT-5 Pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "gpt-5",
   "status": "deprecated",
   "knowledge_cutoff": "2024-09",
@@ -36,15 +36,15 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [15, null, 120]
+            "values": [15, null, null, 120]
           },
           {
             "label": "Batch",
-            "values": [7.5, null, 60]
+            "values": [7.5, null, null, 60]
           }
         ]
       }
@@ -52,7 +52,7 @@
   },
   "endpoints": ["responses", "batch"],
   "_generated": {
-    "name": "27aaf493",
+    "name": "58fd5766",
     "family": "aa904c16",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b0196d6e",
@@ -64,20 +64,30 @@
     "speed": "c4ca4238",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "2b7917d6",
+    "pricing": "1abc73f0",
     "endpoints": "6f01fd6c",
     "model_type": "d669f408",
     "license": "9186c466",
     "page_url": "123e8aa6",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e",
-    "release_date": "17ddf71c"
+    "tools": "a7dce5fd",
+    "release_date": "17ddf71c",
+    "description": "ca58221e",
+    "tagline": "827b0fb2"
   },
   "snapshots": ["gpt-5-pro-2025-10-06"],
   "model_type": "chat",
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5-pro",
   "open_weight": false,
-  "tools": ["function_calling"],
-  "release_date": "2025-10-06"
+  "tools": [
+    "function_calling",
+    "file_search",
+    "image_generation",
+    "mcp",
+    "web_search"
+  ],
+  "release_date": "2025-10-06",
+  "description": "GPT-5 Pro uses more compute to think harder and provide consistently better answers.",
+  "tagline": "Version of GPT-5 that produces smarter and more precise responses"
 }

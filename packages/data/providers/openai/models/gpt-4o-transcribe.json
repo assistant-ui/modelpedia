@@ -3,10 +3,10 @@
   "name": "GPT-4o Transcribe",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-27",
+  "last_updated": "2026-09-24",
   "family": "gpt-4o",
-  "description": "GPT-4o Transcribe is a speech-to-text model that uses GPT-4o to transcribe audio.",
-  "status": "active",
+  "description": "GPT-4o Transcribe is a speech-to-text model that uses GPT-4o to transcribe audio. It offers improvements to word error rate and better language recognition and accuracy compared to original Whisper models. Use it for more accurate transcripts.",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 16000,
   "max_output_tokens": 2000,
@@ -23,11 +23,11 @@
       {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Output", "Estimated cost"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [2.5, 10, 0.006]
+            "values": [2.5, 10]
           }
         ]
       }
@@ -35,13 +35,13 @@
     "input": 2.5,
     "output": 10
   },
-  "endpoints": ["transcription", "realtime"],
+  "endpoints": ["realtime", "transcription"],
   "snapshots": ["gpt-4o-transcribe"],
   "_generated": {
     "name": "04ad7ace",
     "family": "15249632",
-    "description": "fbfc82bb",
-    "status": "379ac110",
+    "description": "625292f9",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "67510c89",
     "max_output_tokens": "08f90c1a",
@@ -50,13 +50,19 @@
     "speed": "eccbc87e",
     "tagline": "08622bab",
     "modalities": "7cee5e0e",
-    "pricing": "0b2fe286",
-    "endpoints": "250917d3",
+    "pricing": "3d985acf",
+    "endpoints": "533bc4ba",
     "license": "9186c466",
     "page_url": "ffdb9314",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "7d843204",
+    "retirement_date": "9245bce7",
+    "successor": "829f2d5f"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-transcribe",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-08-26",
+  "retirement_date": "2027-02-26",
+  "successor": "gpt-live-transcribe"
 }

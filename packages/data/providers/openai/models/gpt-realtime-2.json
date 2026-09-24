@@ -37,17 +37,6 @@
     "cached_input": 0.4,
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [4, 0.4, 24]
-          }
-        ]
-      },
-      {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -55,6 +44,17 @@
           {
             "label": "Standard",
             "values": [32, 0.4, 64]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [4, 0.4, 24]
           }
         ]
       },
@@ -96,10 +96,10 @@
     "open_weight": "68934a3e",
     "capabilities": "d16fa23e",
     "modalities": "96cad1df",
-    "pricing": "e720c7fa",
+    "pricing": "2617661b",
     "tools": "f0c1dc7e",
     "endpoints": "c7ed7203",
     "pricing_notes": "36e7634a"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-09-24"
 }

@@ -8,7 +8,7 @@
   "model_type": "chat",
   "license": "apache-2.0",
   "alias": "mistral-ocr",
-  "page_url": "https://docs.mistral.ai/models/model-cards/ocr-25-03",
+  "page_url": "https://docs.mistral.ai/models/ocr-25-03",
   "tagline": "Our first OCR optimized model.",
   "capabilities": {
     "streaming": true,
@@ -26,11 +26,11 @@
     "status": "2e2f74dc",
     "model_type": "d669f408",
     "license": "60245731",
-    "page_url": "48e5d530",
+    "page_url": "b6c1618b",
     "tagline": "d0318622",
     "capabilities": "91e36286",
     "modalities": "6399757e",
     "open_weight": "b326b506"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-09-24"
 }

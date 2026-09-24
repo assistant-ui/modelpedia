@@ -37,21 +37,6 @@
     "batch_output": 5,
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [5, 1.25, 10]
-          },
-          {
-            "label": "Batch",
-            "values": [2.5, 0.625, 5]
-          }
-        ]
-      },
-      {
         "label": "Image tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -63,6 +48,21 @@
           {
             "label": "Batch",
             "values": [4, 1, 15]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 1.25, null]
+          },
+          {
+            "label": "Batch",
+            "values": [2.5, 0.625, null]
           }
         ]
       }
@@ -84,8 +84,8 @@
     "tagline": "ee51767e",
     "capabilities": "ec32b5a4",
     "modalities": "bbf9b8bb",
-    "pricing": "76933ea9",
+    "pricing": "fe1cd369",
     "endpoints": "af128fc0"
   },
-  "last_updated": "2026-09-09"
+  "last_updated": "2026-09-24"
 }

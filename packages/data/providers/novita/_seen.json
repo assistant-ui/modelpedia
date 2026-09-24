@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-18",
-  "count": 120,
+  "date": "2026-09-24",
+  "count": 122,
   "ids": [
     "baichuan-baichuan-m2-32b",
     "baidu-cobuddy",
@@ -106,6 +106,8 @@
     "thudm-glm-4-32b-0414",
     "xiaomimimo-mimo-v2.5",
     "xiaomimimo-mimo-v2.5-pro",
+    "xiaomimimo-mimo-v2.6-flash",
+    "xiaomimimo-mimo-v2.6-pro",
     "zai-org-autoglm-phone-9b-multilingual",
     "zai-org-glm-4.5-air",
     "zai-org-glm-4.5v",

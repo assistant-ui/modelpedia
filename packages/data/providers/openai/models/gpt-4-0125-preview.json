@@ -1,0 +1,74 @@
+{
+  "id": "gpt-4-0125-preview",
+  "name": "gpt-4-0125-preview",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-4",
+  "status": "deprecated",
+  "deprecation_date": "2025-09-26",
+  "retirement_date": "2026-03-26",
+  "knowledge_cutoff": "2023-12",
+  "context_window": 128000,
+  "max_output_tokens": 4096,
+  "license": "proprietary",
+  "alias": "gpt-4-turbo-preview",
+  "performance": 2,
+  "speed": 3,
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-4-turbo-preview?snapshot=gpt-4-0125-preview",
+  "successor": "gpt-5",
+  "open_weight": false,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": true,
+    "reasoning": false
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 10,
+    "output": 30,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [10, 30]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["chat_completions", "responses", "assistants"],
+  "_generated": {
+    "name": "01c9f2e1",
+    "family": "1be4bcd3",
+    "status": "2e2f74dc",
+    "deprecation_date": "9503bf58",
+    "retirement_date": "7f514a88",
+    "knowledge_cutoff": "06c60023",
+    "context_window": "34434798",
+    "max_output_tokens": "f7efa4f8",
+    "license": "9186c466",
+    "performance": "c81e728d",
+    "speed": "eccbc87e",
+    "page_url": "1fbcf719",
+    "successor": "aa904c16",
+    "open_weight": "68934a3e",
+    "model_type": "d669f408",
+    "capabilities": "ea522cff",
+    "modalities": "68e53d93",
+    "pricing": "02935d0a",
+    "endpoints": "5ea7876b"
+  },
+  "last_updated": "2026-09-24"
+}

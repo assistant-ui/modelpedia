@@ -42,9 +42,38 @@
     "modalities": "bbf9b8bb",
     "endpoints": "ae04eebc",
     "description": "7e5e2001",
-    "tagline": "6379bb53"
+    "tagline": "6379bb53",
+    "pricing": "aeb7ab8f"
   },
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-24",
   "description": "GPT Image 2.5 Flare is our fastest model for high-quality, everyday image generation. It accepts text and image inputs and produces image outputs. It supports `low`, `medium`, `high`, `xhigh`, `max`, and `auto` quality settings. Select it directly in the Image API or as the model of the Responses API image generation tool. Learn more in the [image generation guide](/api/docs/guides/image-generation).\\n",
-  "tagline": "GPT Image 2.5 Flare is our fastest model for high-quality, everyday image generation."
+  "tagline": "GPT Image 2.5 Flare is our fastest model for high-quality, everyday image generation.",
+  "pricing": {
+    "input": 5,
+    "cached_input": 1.25,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 1.25, null]
+          }
+        ]
+      },
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [8, 2, 30]
+          }
+        ]
+      }
+    ]
+  }
 }

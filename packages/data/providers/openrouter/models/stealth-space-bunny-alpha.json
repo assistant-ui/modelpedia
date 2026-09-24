@@ -1,0 +1,38 @@
+{
+  "id": "stealth/space-bunny-alpha",
+  "name": "Space Bunny Alpha",
+  "created_by": "stealth",
+  "source": "official",
+  "description": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support.",
+  "status": "deprecated",
+  "release_date": "2026-09-23",
+  "deprecation_date": "2098-12-31",
+  "context_window": 1000000,
+  "max_output_tokens": 524288,
+  "tagline": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ef69695d",
+    "description": "60144b9a",
+    "status": "2e2f74dc",
+    "release_date": "b3b67ec6",
+    "deprecation_date": "a93a4314",
+    "context_window": "8155bc54",
+    "max_output_tokens": "bcabf6a1",
+    "tagline": "60144b9a",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-24"
+}

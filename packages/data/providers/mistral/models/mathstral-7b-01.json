@@ -7,7 +7,7 @@
   "status": "active",
   "context_window": 32000,
   "license": "apache-2.0",
-  "page_url": "https://docs.mistral.ai/models/model-cards/mathstral-7b-0-1",
+  "page_url": "https://docs.mistral.ai/models/mathstral-7b-0-1",
   "tagline": "A math dedicated model for research purposes under an open license.",
   "capabilities": {
     "streaming": true,
@@ -24,11 +24,11 @@
     "status": "379ac110",
     "context_window": "10e4d788",
     "license": "60245731",
-    "page_url": "a02accfb",
+    "page_url": "cc834291",
     "tagline": "dd3916cc",
     "capabilities": "9c665f5d",
     "modalities": "68e53d93",
     "open_weight": "b326b506"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-09-24"
 }

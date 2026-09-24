@@ -3,9 +3,9 @@
   "name": "ChatGPT-4o",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-05-23",
+  "last_updated": "2026-09-24",
   "family": "chatgpt",
-  "description": "ChatGPT-4o was a model alias for the GPT-4o snapshot used in ChatGPT. It has been deprecated and removed from the API. We recommend using {{latestMainlineModel}} for most API integrations.",
+  "description": "ChatGPT-4o was a model alias for the GPT-4o snapshot used in ChatGPT. It has been deprecated and removed from the API. We recommend using GPT-6 Astra for most API integrations.",
   "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
@@ -31,7 +31,7 @@
     "tiers": [
       {
         "label": "Text tokens",
-        "unit": "",
+        "unit": "Per 1M tokens",
         "columns": ["Input", "Output"],
         "rows": [
           {
@@ -49,7 +49,7 @@
   "_generated": {
     "name": "bb28e3cf",
     "family": "65aec523",
-    "description": "fd8f6580",
+    "description": "c82eaea5",
     "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
@@ -60,13 +60,19 @@
     "tagline": "797eb169",
     "capabilities": "e44a8cfe",
     "modalities": "6399757e",
-    "pricing": "62f384a6",
+    "pricing": "a18dbf62",
     "endpoints": "72e91ba7",
     "license": "9186c466",
     "page_url": "d7008092",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "10547878",
+    "retirement_date": "c2ea1a8b",
+    "successor": "142d79f4"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/chatgpt-4o-latest",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2025-11-18",
+  "retirement_date": "2026-02-17",
+  "successor": "gpt-5.1-chat-latest"
 }

@@ -3,9 +3,9 @@
   "name": "GPT-5-Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-04-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-5",
-  "description": "GPT-5-Codex is a version of GPT-5 optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.",
+  "description": "GPT-5-Codex is a version of GPT-5 optimized for agentic coding tasks in Codex or similar environments. It's available in the Responses API only and the underlying model snapshot will be regularly updated. If you want to learn more about prompting GPT-5-Codex, refer to our dedicated guide.",
   "status": "deprecated",
   "knowledge_cutoff": "2024-09",
   "context_window": 400000,
@@ -54,7 +54,7 @@
   "_generated": {
     "name": "860109e1",
     "family": "aa904c16",
-    "description": "2ff761a7",
+    "description": "e58db98f",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "2a3a2d28",
@@ -73,9 +73,15 @@
     "endpoints": "acb164ea",
     "license": "9186c466",
     "page_url": "3e13b697",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "26fc75d3",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5-codex",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-07-23",
+  "successor": "gpt-5.6-sol"
 }

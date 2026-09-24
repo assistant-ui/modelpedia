@@ -1,0 +1,94 @@
+{
+  "id": "gpt-daybreak-blue-latest",
+  "name": "Daybreak Blue",
+  "created_by": "openai",
+  "source": "official",
+  "description": "An alias for our flagship general-purpose models, with safeguards calibrated for defensive cybersecurity work.",
+  "knowledge_cutoff": "2026-02",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "max_input_tokens": 922000,
+  "reasoning_tokens": true,
+  "license": "proprietary",
+  "tagline": "An alias for flagship general-purpose models with safeguards for defensive cybersecurity work.",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-daybreak-blue-latest",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "fine_tuning": false,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 4,
+    "output": 20,
+    "cached_input": 0.4,
+    "batch_input": 2,
+    "batch_output": 10,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [4, 0.4, 5, 20]
+          },
+          {
+            "label": "Batch",
+            "values": [2, 0.2, 2.5, 10]
+          },
+          {
+            "label": "Flex",
+            "values": [2, 0.2, 2.5, 10]
+          },
+          {
+            "label": "Fast",
+            "values": [8, 0.8, 10, 40]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": [
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "hosted_shell",
+    "apply_patch",
+    "skills",
+    "computer_use",
+    "mcp",
+    "tool_search"
+  ],
+  "endpoints": ["responses"],
+  "snapshots": ["gpt-5.6-sol"],
+  "_generated": {
+    "name": "bae1f014",
+    "description": "2127f11c",
+    "knowledge_cutoff": "911f4737",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "max_input_tokens": "9399a9ae",
+    "reasoning_tokens": "b326b506",
+    "license": "9186c466",
+    "tagline": "8644179c",
+    "page_url": "4c1694cb",
+    "open_weight": "68934a3e",
+    "capabilities": "15adcda2",
+    "modalities": "6399757e",
+    "pricing": "1cccd372",
+    "tools": "c3217644",
+    "endpoints": "acb164ea"
+  },
+  "last_updated": "2026-09-24"
+}

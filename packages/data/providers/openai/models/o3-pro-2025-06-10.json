@@ -3,7 +3,7 @@
   "name": "o3-pro-2025-06-10",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-09-24",
   "family": "o3",
   "description": "The o-series of models are trained with reinforcement learning to think",
   "status": "deprecated",
@@ -40,15 +40,15 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Output", "Cached input", "Cache writes"],
         "rows": [
           {
             "label": "Standard",
-            "values": [20, null, 80]
+            "values": [20, 80, null, null]
           },
           {
             "label": "Batch",
-            "values": [10, null, 40]
+            "values": [10, 40, null, null]
           }
         ]
       }
@@ -71,17 +71,23 @@
     "tagline": "e1a4ec5e",
     "capabilities": "91876c96",
     "modalities": "6399757e",
-    "pricing": "0b2c1347",
+    "pricing": "cbcf0e3e",
     "endpoints": "6f01fd6c",
     "license": "9186c466",
     "release_date": "298b4e52",
     "page_url": "58b92472",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "af441ea0",
+    "retirement_date": "d0164be5",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "release_date": "2025-06-10",
   "page_url": "https://developers.openai.com/api/docs/models/o3-pro?snapshot=o3-pro-2025-06-10",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-06-11",
+  "retirement_date": "2026-12-11",
+  "successor": "gpt-5.6-sol"
 }

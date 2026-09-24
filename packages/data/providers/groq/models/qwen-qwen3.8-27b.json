@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen3.8",
   "status": "preview",
-  "context_window": 131042,
+  "context_window": 131072,
   "max_output_tokens": 16384,
   "model_type": "chat",
   "parameters": 27,
@@ -29,7 +29,7 @@
     "name": "afa5da72",
     "family": "e102ad6a",
     "status": "127aecde",
-    "context_window": "3cc04eca",
+    "context_window": "f7de594e",
     "max_output_tokens": "c76fe1d8",
     "model_type": "d669f408",
     "parameters": "02e74f10",
@@ -40,5 +40,5 @@
     "pricing": "51beceb9",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-24"
 }

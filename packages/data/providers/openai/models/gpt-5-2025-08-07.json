@@ -3,7 +3,7 @@
   "name": "gpt-5-2025-08-07",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-09-24",
   "family": "gpt-5",
   "description": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.",
   "status": "deprecated",
@@ -42,23 +42,23 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Output", "Cache writes"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.25, 0.125, 10]
+            "values": [1.25, 0.125, 10, null]
           },
           {
             "label": "Batch",
-            "values": [0.625, 0.0625, 5]
+            "values": [0.625, 0.0625, 5, null]
           },
           {
             "label": "Flex",
-            "values": [0.625, 0.0625, 5]
+            "values": [0.625, 0.0625, 5, null]
           },
           {
-            "label": "Priority",
-            "values": [2.5, 0.25, 20]
+            "label": "Fast",
+            "values": [2.5, 0.25, 20, null]
           }
         ]
       }
@@ -82,17 +82,23 @@
     "tagline": "0dff623c",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "a6f9ea96",
+    "pricing": "b4169ce0",
     "endpoints": "ec55a017",
     "license": "9186c466",
     "release_date": "79c30d0c",
     "page_url": "4c2a6ae5",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "af441ea0",
+    "retirement_date": "d0164be5",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "release_date": "2025-08-07",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5?snapshot=gpt-5-2025-08-07",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-06-11",
+  "retirement_date": "2026-12-11",
+  "successor": "gpt-5.6-sol"
 }

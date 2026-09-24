@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate video with audio from text using LTX-2 and custom LoRA",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-01-05",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/ltx-2-19b/text-to-video/lora",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "b59d8995",
     "description": "7fdaad02",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "996ff37f",
     "model_type": "4d1b75ca",
     "page_url": "8af8b49c",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "a393f093"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-09-24"
 }

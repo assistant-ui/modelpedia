@@ -3,9 +3,9 @@
   "name": "o3-pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-09-24",
   "family": "o3",
-  "description": "The o-series of models are trained with reinforcement learning to think",
+  "description": "The o-series of models are trained with reinforcement learning to think  before they answer and perform complex reasoning. The o3-pro model uses more  compute to think harder and provide consistently better answers.",
   "status": "active",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
@@ -39,15 +39,15 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [20, null, 80]
+            "values": [20, null, null, 80]
           },
           {
             "label": "Batch",
-            "values": [10, null, 40]
+            "values": [10, null, null, 40]
           }
         ]
       }
@@ -65,7 +65,7 @@
   "_generated": {
     "name": "363d2093",
     "family": "193049bc",
-    "description": "e1a4ec5e",
+    "description": "d7957ba4",
     "status": "379ac110",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
@@ -78,7 +78,7 @@
     "tagline": "cca16069",
     "capabilities": "91876c96",
     "modalities": "6399757e",
-    "pricing": "0b2c1347",
+    "pricing": "8080257b",
     "tools": "a7dce5fd",
     "endpoints": "6f01fd6c",
     "license": "9186c466",

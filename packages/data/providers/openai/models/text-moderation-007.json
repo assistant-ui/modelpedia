@@ -3,8 +3,8 @@
   "name": "text-moderation-007",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
-  "status": "active",
+  "last_updated": "2026-09-24",
+  "status": "deprecated",
   "knowledge_cutoff": "2021-09",
   "max_output_tokens": 32768,
   "model_type": "moderation",
@@ -17,7 +17,7 @@
   "endpoints": ["moderation"],
   "_generated": {
     "name": "664b5359",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b61a1a89",
     "max_output_tokens": "f4376436",
     "model_type": "1e7a7b87",
@@ -27,11 +27,18 @@
     "endpoints": "edf79423",
     "family": "af24ddfe",
     "license": "9186c466",
-    "page_url": "4e134a01",
-    "open_weight": "68934a3e"
+    "page_url": "e73ecdf8",
+    "open_weight": "68934a3e",
+    "deprecation_date": "1487959c",
+    "retirement_date": "7600ba0c",
+    "successor": "5da37138"
   },
   "family": "text-moderation",
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/text-moderation-007",
-  "open_weight": false
+  "page_url": "https://developers.openai.com/api/docs/models/text-moderation-stable?snapshot=text-moderation-007",
+  "open_weight": false,
+  "deprecation_date": "2025-04-28",
+  "retirement_date": "2025-10-27",
+  "alias": "text-moderation-stable",
+  "successor": "omni-moderation"
 }

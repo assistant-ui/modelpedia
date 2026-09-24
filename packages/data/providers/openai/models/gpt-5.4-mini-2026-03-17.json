@@ -3,7 +3,7 @@
   "name": "gpt-5.4-mini-2026-03-17",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-24",
   "family": "gpt-5.4",
   "description": "GPT-5.4 Mini brings the strengths of GPT-5.4 to a faster, more efficient",
   "status": "active",
@@ -42,29 +42,29 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Output", "Cache writes"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.75, 0.075, 4.5]
+            "values": [0.75, 0.075, 4.5, null]
           },
           {
             "label": "Batch",
-            "values": [0.375, 0.0375, 2.25]
+            "values": [0.375, 0.0375, 2.25, null]
           },
           {
             "label": "Flex",
-            "values": [0.375, 0.0375, 2.25]
+            "values": [0.375, 0.0375, 2.25, null]
           },
           {
-            "label": "Priority",
-            "values": [1.5, 0.15, 9]
+            "label": "Fast",
+            "values": [1.5, 0.15, 9, null]
           }
         ]
       }
     ]
   },
-  "endpoints": ["responses", "chat_completions", "batch"],
+  "endpoints": ["chat_completions", "responses", "batch"],
   "_generated": {
     "name": "9987ac6d",
     "family": "4651e8f0",
@@ -82,8 +82,8 @@
     "tagline": "52ee5ed1",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "403fc13e",
-    "endpoints": "88e8abb4",
+    "pricing": "5f6a12db",
+    "endpoints": "ec55a017",
     "license": "9186c466",
     "release_date": "56d4bd95",
     "page_url": "af48c961",

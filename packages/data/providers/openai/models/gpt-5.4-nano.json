@@ -3,9 +3,9 @@
   "name": "GPT-5.4 nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "gpt-5.4",
-  "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
+  "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like classification, data extraction, ranking, and sub-agents. Learn more in our Model guidance page. Reasoning.effort supports: none (default), low, medium, high and xhigh.",
   "status": "active",
   "knowledge_cutoff": "2025-08",
   "context_window": 400000,
@@ -41,19 +41,19 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.2, 0.02, 1.25]
+            "values": [0.2, 0.02, null, 1.25]
           },
           {
             "label": "Batch",
-            "values": [0.1, 0.01, 0.625]
+            "values": [0.1, 0.01, null, 0.625]
           },
           {
             "label": "Flex",
-            "values": [0.1, 0.01, 0.625]
+            "values": [0.1, 0.01, null, 0.625]
           }
         ]
       }
@@ -70,7 +70,7 @@
     "skills",
     "mcp"
   ],
-  "endpoints": ["responses", "chat_completions", "batch"],
+  "endpoints": ["chat_completions", "responses", "batch"],
   "pricing_notes": [
     "Regional processing (data residency) endpoints are charged a 10% uplift for GPT-5.4 nano."
   ],
@@ -78,7 +78,7 @@
   "_generated": {
     "name": "7cdda0eb",
     "family": "4651e8f0",
-    "description": "f8b66567",
+    "description": "d9691d1a",
     "status": "379ac110",
     "knowledge_cutoff": "5549a2cd",
     "context_window": "2a3a2d28",
@@ -92,9 +92,9 @@
     "tagline": "37bf3cf0",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "93b5f44a",
+    "pricing": "6919957b",
     "tools": "54d089fc",
-    "endpoints": "88e8abb4",
+    "endpoints": "ec55a017",
     "pricing_notes": "4a0a1bde",
     "license": "9186c466",
     "page_url": "80a048c7",

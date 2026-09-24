@@ -3,7 +3,7 @@
   "name": "gpt-5-mini-2025-08-07",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-09-24",
   "family": "gpt-5",
   "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for",
   "status": "deprecated",
@@ -42,23 +42,23 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Output", "Cache writes"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.25, 0.025, 2]
+            "values": [0.25, 0.025, 2, null]
           },
           {
             "label": "Batch",
-            "values": [0.125, 0.0125, 1]
+            "values": [0.125, 0.0125, 1, null]
           },
           {
             "label": "Flex",
-            "values": [0.125, 0.0125, 1]
+            "values": [0.125, 0.0125, 1, null]
           },
           {
-            "label": "Priority",
-            "values": [0.45, 0.05, 3.6]
+            "label": "Fast",
+            "values": [0.45, 0.045, 3.6, null]
           }
         ]
       }
@@ -82,17 +82,23 @@
     "tagline": "d1cb81bb",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "3ed6285a",
+    "pricing": "73a84051",
     "endpoints": "ec55a017",
     "license": "9186c466",
     "release_date": "79c30d0c",
     "page_url": "defe53f9",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "af441ea0",
+    "retirement_date": "d0164be5",
+    "successor": "d5215155"
   },
   "license": "proprietary",
   "release_date": "2025-08-07",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5-mini?snapshot=gpt-5-mini-2025-08-07",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-06-11",
+  "retirement_date": "2026-12-11",
+  "successor": "gpt-5.6-terra"
 }

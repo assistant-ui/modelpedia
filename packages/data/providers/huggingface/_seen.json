@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "count": 122,
   "ids": [
     "codellama-codellama-7b-instruct-hf",
@@ -61,7 +61,6 @@
     "qwen-qwen2.5-coder-0.5b-instruct",
     "qwen-qwen2.5-coder-1.5b",
     "qwen-qwen2.5-coder-1.5b-instruct",
-    "qwen-qwen2.5-coder-14b",
     "qwen-qwen2.5-coder-14b-instruct",
     "qwen-qwen2.5-coder-32b-instruct",
     "qwen-qwen2.5-coder-3b-instruct",
@@ -91,6 +90,7 @@
     "qwen-qwen3-8b",
     "qwen-qwen3-8b-base",
     "qwen-qwen3-coder-30b-a3b-instruct",
+    "qwen-qwen3-coder-480b-a35b-instruct",
     "qwen-qwen3-coder-next",
     "qwen-qwen3-next-80b-a3b-instruct",
     "qwen-qwen3.8-2.4t-a95b",
@@ -102,6 +102,7 @@
     "trevorjs-gemma-4-31b-it-uncensored",
     "unsloth-gemma-2b-it",
     "unsloth-gemma-3-1b-it",
+    "unsloth-llama-2-7b-chat",
     "unsloth-llama-3.1-8b-instruct",
     "unsloth-llama-3.3-70b-instruct",
     "unsloth-meta-llama-3.1-8b-instruct",
@@ -113,16 +114,15 @@
     "unsloth-qwen3-8b",
     "upstage-solar-10.7b-instruct-v1.0",
     "vikhrmodels-vikhr-nemo-12b-instruct-r-21-09-24",
-    "zai-org-glm-4.5",
     "zai-org-glm-4.5-air",
     "zai-org-glm-4.7",
     "zai-org-glm-4.7-flash",
     "zai-org-glm-5",
     "zai-org-glm-5.1",
-    "zai-org-glm-5.1-fp8",
     "zai-org-glm-5.2",
     "zai-org-glm-5.2-fp8",
     "zai-org-glm-5.3",
+    "zai-org-glm-5.3-bf16",
     "zai-org-glm-z1-32b-0414"
   ]
 }

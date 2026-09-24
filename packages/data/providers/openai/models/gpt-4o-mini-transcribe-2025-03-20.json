@@ -3,9 +3,9 @@
   "name": "gpt-4o-mini-transcribe-2025-03-20",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-24",
   "family": "gpt-4o",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 16000,
   "max_output_tokens": 2000,
@@ -17,11 +17,11 @@
     "input": ["audio", "text"],
     "output": ["text"]
   },
-  "endpoints": ["transcription", "realtime"],
+  "endpoints": ["realtime", "transcription"],
   "_generated": {
     "name": "5aa5ec9a",
     "family": "15249632",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "67510c89",
     "max_output_tokens": "08f90c1a",
@@ -29,14 +29,17 @@
     "performance": "eccbc87e",
     "speed": "a87ff679",
     "modalities": "7cee5e0e",
-    "endpoints": "250917d3",
+    "endpoints": "533bc4ba",
     "description": "dab406cd",
     "tagline": "72014020",
-    "pricing": "0de5876d",
+    "pricing": "1588afbb",
     "license": "9186c466",
     "release_date": "c68d2cee",
     "page_url": "089754f9",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "7047ff2b",
+    "retirement_date": "28df5f11",
+    "successor": "8ea65262"
   },
   "description": "GPT-4o Mini Transcribe is a speech-to-text model that uses GPT-4o Mini to transcribe audio.",
   "tagline": "GPT-4o mini Transcribe is a speech-to-text model that uses GPT-4o mini to transcribe audio.",
@@ -45,11 +48,11 @@
       {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Output", "Estimated cost"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.25, 5, 0.003]
+            "values": [1.25, 5]
           }
         ]
       }
@@ -60,5 +63,8 @@
   "license": "proprietary",
   "release_date": "2025-03-20",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-transcribe?snapshot=gpt-4o-mini-transcribe-2025-03-20",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-07-20",
+  "retirement_date": "2027-01-20",
+  "successor": "gpt-4o-mini-transcribe-2025-12-15"
 }

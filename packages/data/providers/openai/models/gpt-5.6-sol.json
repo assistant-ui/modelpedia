@@ -1,6 +1,6 @@
 {
   "id": "gpt-5.6-sol",
-  "name": "gpt-5.6-sol",
+  "name": "GPT-5.6 Sol",
   "created_by": "openai",
   "source": "official",
   "family": "gpt-5.6",
@@ -32,27 +32,52 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 5,
-    "output": 30,
-    "cached_input": 0.5,
+    "input": 4,
+    "output": 20,
+    "cached_input": 0.4,
     "tiers": [
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [5, 0.5, 30]
+            "values": [4, 0.4, 5, 20]
+          },
+          {
+            "label": "Batch",
+            "values": [2, 0.2, 2.5, 10]
+          },
+          {
+            "label": "Flex",
+            "values": [2, 0.2, 2.5, 10]
+          },
+          {
+            "label": "Fast",
+            "values": [8, 0.8, 10, 40]
           }
         ]
       }
-    ]
+    ],
+    "batch_input": 2,
+    "batch_output": 10
   },
-  "tools": ["function_calling"],
-  "endpoints": ["responses", "chat_completions", "batch"],
+  "tools": [
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "hosted_shell",
+    "apply_patch",
+    "skills",
+    "computer_use",
+    "mcp",
+    "tool_search"
+  ],
+  "endpoints": ["chat_completions", "responses", "batch"],
   "_generated": {
-    "name": "cadec60b",
+    "name": "927b849e",
     "family": "c9783e4a",
     "status": "379ac110",
     "knowledge_cutoff": "911f4737",
@@ -69,9 +94,15 @@
     "open_weight": "68934a3e",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
-    "pricing": "74bb2438",
-    "tools": "f0c1dc7e",
-    "endpoints": "88e8abb4"
+    "pricing": "c36e25b1",
+    "tools": "c3217644",
+    "endpoints": "ec55a017",
+    "description": "1fe77ac6",
+    "tagline": "7fdeacae"
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-09-24",
+  "description": "GPT-5.6 Sol is a flagship model in the GPT-5.6 family. It roughly corresponds to the unsuffixed model tier used in earlier GPT-5 families. The `gpt-5.6` alias routes requests to GPT-5.6 Sol. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
+  "alias": "gpt-daybreak-blue-latest",
+  "tagline": "Flagship model for complex professional work",
+  "snapshots": ["gpt-5.6-sol"]
 }

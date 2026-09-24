@@ -3,9 +3,9 @@
   "name": "GPT-5",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-09-24",
   "family": "gpt-5",
-  "description": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains.",
+  "description": "GPT-5 is our previous model for coding, reasoning, and agentic tasks across domains. We recommend using the latest GPT-6 Astra. Learn more on the Model guidance page. Reasoning.effort supports: minimal, low, medium, and high.",
   "status": "active",
   "knowledge_cutoff": "2024-09",
   "context_window": 400000,
@@ -41,23 +41,23 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.25, 0.125, 10]
+            "values": [1.25, 0.125, null, 10]
           },
           {
             "label": "Batch",
-            "values": [0.625, 0.0625, 5]
+            "values": [0.625, 0.0625, null, 5]
           },
           {
             "label": "Flex",
-            "values": [0.625, 0.0625, 5]
+            "values": [0.625, 0.0625, null, 5]
           },
           {
-            "label": "Priority",
-            "values": [2.5, 0.25, 20]
+            "label": "Fast",
+            "values": [2.5, 0.25, null, 20]
           }
         ]
       }
@@ -76,7 +76,7 @@
   "_generated": {
     "name": "7a178da6",
     "family": "aa904c16",
-    "description": "0dff623c",
+    "description": "4547f6d6",
     "status": "379ac110",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "2a3a2d28",
@@ -90,7 +90,7 @@
     "tagline": "d54914e7",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "a6f9ea96",
+    "pricing": "7fa88168",
     "tools": "1d5a765f",
     "endpoints": "ec55a017",
     "license": "9186c466",

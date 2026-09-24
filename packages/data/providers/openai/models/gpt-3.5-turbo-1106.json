@@ -1,0 +1,96 @@
+{
+  "id": "gpt-3.5-turbo-1106",
+  "name": "gpt-3.5-turbo-1106",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-3.5",
+  "status": "deprecated",
+  "deprecation_date": "2025-09-26",
+  "retirement_date": "2026-09-28",
+  "knowledge_cutoff": "2021-09",
+  "context_window": 16385,
+  "max_output_tokens": 4096,
+  "license": "proprietary",
+  "alias": "gpt-3.5-turbo",
+  "performance": 1,
+  "speed": 2,
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo?snapshot=gpt-3.5-turbo-1106",
+  "successor": "gpt-5.6-terra",
+  "open_weight": false,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": true,
+    "reasoning": false,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 2,
+    "batch_input": 1,
+    "batch_output": 2,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1, null, null, 2]
+          },
+          {
+            "label": "Batch",
+            "values": [1, null, null, 2]
+          }
+        ]
+      },
+      {
+        "label": "Fine-tuning",
+        "unit": "",
+        "columns": ["Training", "Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [8, 3, null, 6]
+          },
+          {
+            "label": "Batch",
+            "values": [8, 1.5, null, 3]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["chat_completions", "responses", "batch", "fine_tuning"],
+  "_generated": {
+    "name": "64408b97",
+    "family": "7601054d",
+    "status": "2e2f74dc",
+    "deprecation_date": "9503bf58",
+    "retirement_date": "1ec3c8a2",
+    "knowledge_cutoff": "b61a1a89",
+    "context_window": "7f4b18de",
+    "max_output_tokens": "f7efa4f8",
+    "license": "9186c466",
+    "performance": "c4ca4238",
+    "speed": "c81e728d",
+    "page_url": "b8657252",
+    "successor": "d5215155",
+    "open_weight": "68934a3e",
+    "model_type": "d669f408",
+    "capabilities": "3bc0a69c",
+    "modalities": "68e53d93",
+    "pricing": "023433f6",
+    "endpoints": "b36a99d3"
+  },
+  "last_updated": "2026-09-24"
+}

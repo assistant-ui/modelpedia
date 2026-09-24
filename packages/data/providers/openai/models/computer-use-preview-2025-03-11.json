@@ -3,9 +3,9 @@
   "name": "computer-use-preview-2025-03-11",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "description": "The computer-use-preview model is a specialized model for the computer use",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 8192,
   "max_output_tokens": 1024,
@@ -38,15 +38,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [3, null, 12]
-          },
-          {
-            "label": "Batch",
-            "values": [1.5, null, 6]
+            "values": [3, 12]
           }
         ]
       }
@@ -56,7 +52,7 @@
   "_generated": {
     "name": "e83b4a65",
     "description": "859cd790",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "77441296",
     "max_output_tokens": "021bbc7e",
@@ -67,19 +63,25 @@
     "tagline": "859cd790",
     "capabilities": "ee90b87a",
     "modalities": "6399757e",
-    "pricing": "def0b895",
+    "pricing": "e8602a52",
     "endpoints": "6f01fd6c",
     "license": "9186c466",
     "release_date": "53813ccd",
     "page_url": "6589c5de",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "26fc75d3",
+    "successor": "d5215155"
   },
   "license": "proprietary",
   "release_date": "2025-03-11",
   "page_url": "https://developers.openai.com/api/docs/models/computer-use-preview?snapshot=computer-use-preview-2025-03-11",
   "open_weight": false,
   "tools": ["function_calling"],
-  "model_type": "chat"
+  "model_type": "chat",
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-07-23",
+  "successor": "gpt-5.6-terra"
 }

@@ -3,9 +3,9 @@
   "name": "GPT-5 Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "gpt-5",
-  "description": "GPT-5 Mini is a faster, more cost-efficient version of GPT-5. It's great for",
+  "description": "GPT-5 Mini is a faster, more cost-efficient version of GPT-5. It's great for well-defined tasks and precise prompts. For most new low-latency, high-volume workloads, we recommend starting with GPT-5.6 Terra.",
   "status": "active",
   "knowledge_cutoff": "2024-05",
   "context_window": 400000,
@@ -41,23 +41,23 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.25, 0.025, 2]
+            "values": [0.25, 0.025, null, 2]
           },
           {
             "label": "Batch",
-            "values": [0.125, 0.0125, 1]
+            "values": [0.125, 0.0125, null, 1]
           },
           {
             "label": "Flex",
-            "values": [0.125, 0.0125, 1]
+            "values": [0.125, 0.0125, null, 1]
           },
           {
-            "label": "Priority",
-            "values": [0.45, 0.05, 3.6]
+            "label": "Fast",
+            "values": [0.45, 0.045, null, 3.6]
           }
         ]
       }
@@ -75,7 +75,7 @@
   "_generated": {
     "name": "1abf4d32",
     "family": "aa904c16",
-    "description": "2252620e",
+    "description": "0bd1232b",
     "status": "379ac110",
     "knowledge_cutoff": "1d431428",
     "context_window": "2a3a2d28",
@@ -89,7 +89,7 @@
     "tagline": "482992c1",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "3ed6285a",
+    "pricing": "5513af98",
     "tools": "907918a7",
     "endpoints": "ec55a017",
     "license": "9186c466",

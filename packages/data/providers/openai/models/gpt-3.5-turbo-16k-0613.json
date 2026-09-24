@@ -3,7 +3,7 @@
   "name": "gpt-3.5-turbo-16k-0613",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-09-24",
   "family": "gpt-3.5",
   "description": "GPT-3.5 Turbo models can understand and generate natural language or code and have been optimized for chat using the Chat Completions API but work well for non-chat tasks as well. As of July 2024, use gpt-4o-mini in place of GPT-3.5 Turbo, as it is cheaper, more capable, multimodal, and just as fast. GPT-3.5 Turbo is still available for use in the API.",
   "status": "deprecated",
@@ -71,9 +71,15 @@
     "endpoints": "ec55a017",
     "license": "9186c466",
     "page_url": "88469030",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "93ad16ba",
+    "retirement_date": "02d3d614",
+    "successor": "acd626cc"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-3-5-turbo-16k-0613?snapshot=gpt-3.5-turbo-16k-0613",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2023-11-06",
+  "retirement_date": "2024-09-13",
+  "successor": "gpt-3.5-turbo"
 }

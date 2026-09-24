@@ -3,7 +3,7 @@
   "name": "GPT-Realtime-1.5",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-09-24",
   "family": "gpt-realtime",
   "description": "GPT-Realtime-1.5 is our flagship audio model for voice agents and customer support.",
   "status": "active",
@@ -32,17 +32,6 @@
     "cached_input": 0.4,
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [4, 0.4, 16]
-          }
-        ]
-      },
-      {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -50,6 +39,17 @@
           {
             "label": "Standard",
             "values": [32, 0.4, 64]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [4, 0.4, 16]
           }
         ]
       },
@@ -81,7 +81,7 @@
     "tagline": "e091a921",
     "capabilities": "67f48281",
     "modalities": "96cad1df",
-    "pricing": "e5a44c7e",
+    "pricing": "9e9a83da",
     "endpoints": "c7ed7203",
     "model_type": "9f84c007",
     "license": "9186c466",

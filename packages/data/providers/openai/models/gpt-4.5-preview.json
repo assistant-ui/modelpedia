@@ -3,8 +3,8 @@
   "name": "GPT-4.5 Preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
-  "description": "Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3",
+  "last_updated": "2026-09-24",
+  "description": "Deprecated - a research preview of GPT-4.5. We recommend using gpt-4.1 or o3  models instead for most use cases",
   "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
@@ -42,10 +42,6 @@
           {
             "label": "Standard",
             "values": [75, 37.5, 150]
-          },
-          {
-            "label": "Batch",
-            "values": [37.5, null, 75]
           }
         ]
       }
@@ -55,7 +51,7 @@
   "snapshots": ["gpt-4.5-preview-2025-02-27"],
   "_generated": {
     "name": "b96e8e3d",
-    "description": "babd3e46",
+    "description": "45a40d19",
     "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
@@ -66,19 +62,25 @@
     "tagline": "956dc0c5",
     "capabilities": "299e8d16",
     "modalities": "6399757e",
-    "pricing": "812da844",
+    "pricing": "267aa757",
     "endpoints": "1c48b50a",
     "family": "88f03a37",
     "license": "9186c466",
-    "page_url": "2fded3d4",
+    "page_url": "adde947e",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "release_date": "0c569d59"
+    "release_date": "0c569d59",
+    "deprecation_date": "85c7118a",
+    "retirement_date": "65c93d90",
+    "successor": "d240daf4"
   },
   "family": "gpt-4.5",
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-4-5-preview?snapshot=gpt-4.5-preview",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-4.5-preview",
   "open_weight": false,
   "tools": ["function_calling"],
-  "release_date": "2025-02-27"
+  "release_date": "2025-02-27",
+  "deprecation_date": "2025-04-14",
+  "retirement_date": "2025-07-14",
+  "successor": "gpt-4.1"
 }

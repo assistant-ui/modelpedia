@@ -23,7 +23,7 @@
   "pricing": {
     "input": 0.37,
     "output": 1.25,
-    "cached_input": 0.075
+    "cached_input": 0.09
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -37,8 +37,12 @@
     "tagline": "4b2e3df4",
     "capabilities": "03fbefb4",
     "modalities": "3ad4060a",
-    "pricing": "75eba2ff",
-    "tools": "f0c1dc7e"
+    "pricing": "a45e7d90",
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc",
+    "deprecation_date": "a93a4314"
   },
-  "last_updated": "2026-09-19"
+  "last_updated": "2026-09-24",
+  "status": "deprecated",
+  "deprecation_date": "2098-12-31"
 }

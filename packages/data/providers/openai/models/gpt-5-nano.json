@@ -3,9 +3,9 @@
   "name": "GPT-5 nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-09-24",
   "family": "gpt-5",
-  "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for",
+  "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for summarization and classification tasks. For most new speed- and cost-sensitive workloads, we recommend starting with GPT-5.6 Luna. Learn more in our Model guidance page.",
   "status": "active",
   "knowledge_cutoff": "2024-05",
   "context_window": 400000,
@@ -41,19 +41,19 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.05, 0.005, 0.4]
+            "values": [0.05, 0.005, null, 0.4]
           },
           {
             "label": "Batch",
-            "values": [0.025, 0.0025, 0.2]
+            "values": [0.025, 0.0025, null, 0.2]
           },
           {
             "label": "Flex",
-            "values": [0.025, 0.0025, 0.2]
+            "values": [0.025, 0.0025, null, 0.2]
           }
         ]
       }
@@ -72,7 +72,7 @@
   "_generated": {
     "name": "5b55012d",
     "family": "aa904c16",
-    "description": "079d9e5e",
+    "description": "fe35bf8a",
     "status": "379ac110",
     "knowledge_cutoff": "1d431428",
     "context_window": "2a3a2d28",
@@ -86,7 +86,7 @@
     "tagline": "b641cfdd",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "c144148c",
+    "pricing": "014a8b76",
     "tools": "1d5a765f",
     "endpoints": "ec55a017",
     "license": "9186c466",

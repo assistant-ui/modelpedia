@@ -3,9 +3,9 @@
   "name": "GPT-4o Audio",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "gpt-4o",
-  "description": "This is a preview release of the GPT-4o Audio models. These models accept",
+  "description": "This is a preview release of the GPT-4o Audio models. These models accept  audio inputs and outputs, and can be used in the Chat Completions REST API.",
   "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
@@ -34,22 +34,22 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [2.5, null, 10]
+            "values": [2.5, 10]
           }
         ]
       },
       {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [40, null, 80]
+            "values": [40, 80]
           }
         ]
       }
@@ -64,7 +64,7 @@
   "_generated": {
     "name": "63892d58",
     "family": "15249632",
-    "description": "366e38f2",
+    "description": "abe09819",
     "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
@@ -75,17 +75,23 @@
     "tagline": "f711170d",
     "capabilities": "e8cba1a0",
     "modalities": "cf05925d",
-    "pricing": "ae3d21b8",
+    "pricing": "5b0f48a0",
     "endpoints": "d8fa1080",
     "license": "9186c466",
     "page_url": "23be04e5",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "release_date": "c32ecc6d"
+    "release_date": "c32ecc6d",
+    "deprecation_date": "792c58a8",
+    "retirement_date": "d465a48a",
+    "successor": "a649f503"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-audio-preview",
   "open_weight": false,
   "tools": ["function_calling"],
-  "release_date": "2025-06-03"
+  "release_date": "2025-06-03",
+  "deprecation_date": "2025-09-15",
+  "retirement_date": "2026-05-07",
+  "successor": "gpt-audio-1.5"
 }

@@ -44,30 +44,30 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Output", "Cache writes"],
         "rows": [
           {
             "label": "Standard",
-            "values": [5, 0.5, 30]
+            "values": [5, 0.5, 30, null]
           },
           {
             "label": "Batch",
-            "values": [2.5, 0.25, 15]
+            "values": [2.5, 0.25, 15, null]
           },
           {
             "label": "Flex",
-            "values": [2.5, 0.25, 15]
+            "values": [2.5, 0.25, 15, null]
           },
           {
-            "label": "Priority",
-            "values": [12.5, 1.25, 75]
+            "label": "Fast",
+            "values": [12.5, 1.25, 75, null]
           }
         ]
       }
     ]
   },
   "tools": ["function_calling"],
-  "endpoints": ["responses", "chat_completions", "batch"],
+  "endpoints": ["chat_completions", "responses", "batch"],
   "_generated": {
     "name": "ec157a25",
     "family": "7011ad8c",
@@ -88,9 +88,9 @@
     "tagline": "a4105091",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
-    "pricing": "ad410ee9",
+    "pricing": "6a75a5b1",
     "tools": "f0c1dc7e",
-    "endpoints": "88e8abb4"
+    "endpoints": "ec55a017"
   },
-  "last_updated": "2026-08-31"
+  "last_updated": "2026-09-24"
 }

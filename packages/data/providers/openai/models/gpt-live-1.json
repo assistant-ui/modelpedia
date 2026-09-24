@@ -22,7 +22,44 @@
     "tagline": "402c738c",
     "page_url": "ce4ae0f7",
     "open_weight": "68934a3e",
-    "pricing_notes": "7429189c"
+    "pricing_notes": "7429189c",
+    "knowledge_cutoff": "bfdca3f9",
+    "capabilities": "89789fa6",
+    "modalities": "aeba3801",
+    "pricing": "01a1ae83",
+    "tools": "f0c1dc7e",
+    "endpoints": "7468d746"
   },
-  "last_updated": "2026-09-11"
+  "last_updated": "2026-09-24",
+  "knowledge_cutoff": "2025-07",
+  "capabilities": {
+    "streaming": true,
+    "vision": false,
+    "tool_call": true,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false
+  },
+  "modalities": {
+    "input": ["audio", "text"],
+    "output": ["audio", "text"]
+  },
+  "pricing": {
+    "tiers": [
+      {
+        "label": "Live session duration",
+        "unit": "Per minute",
+        "columns": ["Per minute"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.05]
+          }
+        ]
+      }
+    ]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["live"]
 }

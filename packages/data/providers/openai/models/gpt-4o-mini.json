@@ -3,9 +3,9 @@
   "name": "GPT-4o Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "gpt-4o",
-  "description": "GPT-4o Mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
+  "description": "GPT-4o Mini (“o” for “omni”) is a fast, affordable small model for focused tasks. It accepts both text and image inputs, and produces text outputs (including Structured Outputs).  It is ideal for fine-tuning, and model outputs from a larger model like GPT-4o can be distilled to GPT-4o-Mini to produce similar results at lower cost and latency.",
   "status": "active",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
@@ -36,6 +36,25 @@
     "batch_output": 0.3,
     "tiers": [
       {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.15, 0.075, null, 0.6]
+          },
+          {
+            "label": "Batch",
+            "values": [0.075, null, null, 0.3]
+          },
+          {
+            "label": "Fast",
+            "values": [0.25, 0.125, null, 1]
+          }
+        ]
+      },
+      {
         "label": "Fine-tuning",
         "unit": "",
         "columns": ["Training", "Input", "Cached input", "Output"],
@@ -46,7 +65,7 @@
           },
           {
             "label": "Batch",
-            "values": [null, 0.15, null, 0.6]
+            "values": [3, 0.15, 0.075, 0.6]
           }
         ]
       }
@@ -71,7 +90,7 @@
   "_generated": {
     "name": "9f1373e8",
     "family": "15249632",
-    "description": "b54475de",
+    "description": "f699d09f",
     "status": "379ac110",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
@@ -82,7 +101,7 @@
     "tagline": "44be8422",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "0ff1238c",
+    "pricing": "03234730",
     "tools": "1d5a765f",
     "endpoints": "ebc03c48",
     "license": "9186c466",

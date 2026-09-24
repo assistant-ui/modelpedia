@@ -7,12 +7,14 @@
   "status": "active",
   "context_window": 1048576,
   "license": "proprietary",
-  "page_url": "https://platform.moonshot.ai/docs/pricing/chat",
+  "page_url": "https://platform.kimi.ai/docs/pricing/chat",
   "model_type": "chat",
   "pricing": {
     "input": 3,
     "output": 15,
-    "cached_input": 0.3
+    "cached_input": 0.3,
+    "cache_write": 3,
+    "cache_write_1h": 6
   },
   "open_weight": false,
   "modalities": {
@@ -25,11 +27,11 @@
     "status": "379ac110",
     "context_window": "7d28a051",
     "license": "9186c466",
-    "page_url": "90c2a563",
+    "page_url": "6fc416c1",
     "model_type": "d669f408",
-    "pricing": "0deaf3da",
+    "pricing": "708f2462",
     "open_weight": "68934a3e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-09-24"
 }

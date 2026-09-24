@@ -3,7 +3,7 @@
   "name": "DALL·E 3",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-09-24",
   "description": "DALL·E 3 has been deprecated and removed from the API. We recommend {{latestImageModel}} for current image generation and editing.",
   "status": "deprecated",
   "model_type": "image",
@@ -50,11 +50,15 @@
     "license": "9186c466",
     "page_url": "82cc4b7f",
     "open_weight": "68934a3e",
-    "successor": "c79be345"
+    "successor": "c79be345",
+    "deprecation_date": "f42724e5",
+    "retirement_date": "a96e05b7"
   },
   "family": "dall-e",
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/dall-e-3",
   "open_weight": false,
-  "successor": "gpt-image-2"
+  "successor": "gpt-image-2",
+  "deprecation_date": "2025-11-14",
+  "retirement_date": "2026-05-12"
 }

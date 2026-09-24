@@ -3,13 +3,13 @@
   "name": "GPT-4 Turbo Preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-4-turbo",
   "description": "This is a research preview of the GPT-4 Turbo model, an older high-intelligence GPT model.",
   "status": "deprecated",
   "model_type": "chat",
   "tagline": "An older fast GPT model",
-  "successor": "gpt-4o",
+  "successor": "gpt-5",
   "snapshots": ["gpt-4-0125-preview", "gpt-4-1106-vision-preview"],
   "_generated": {
     "name": "9a4520ae",
@@ -18,11 +18,21 @@
     "status": "2e2f74dc",
     "model_type": "d669f408",
     "tagline": "852f051a",
-    "successor": "15249632",
+    "successor": "aa904c16",
     "license": "9186c466",
     "page_url": "1ffdc07b",
     "open_weight": "68934a3e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "deprecation_date": "9503bf58",
+    "retirement_date": "7f514a88",
+    "knowledge_cutoff": "06c60023",
+    "context_window": "34434798",
+    "max_output_tokens": "f7efa4f8",
+    "performance": "c81e728d",
+    "speed": "eccbc87e",
+    "capabilities": "ea522cff",
+    "pricing": "02935d0a",
+    "endpoints": "5ea7876b"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4-turbo-preview",
@@ -30,5 +40,39 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "deprecation_date": "2025-09-26",
+  "retirement_date": "2026-03-26",
+  "knowledge_cutoff": "2023-12",
+  "context_window": 128000,
+  "max_output_tokens": 4096,
+  "performance": 2,
+  "speed": 3,
+  "capabilities": {
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": true,
+    "reasoning": false
+  },
+  "pricing": {
+    "input": 10,
+    "output": 30,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [10, 30]
+          }
+        ]
+      }
+    ]
+  },
+  "endpoints": ["chat_completions", "responses", "assistants"]
 }

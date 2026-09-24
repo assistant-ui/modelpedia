@@ -1,0 +1,35 @@
+{
+  "id": "jamba-large",
+  "name": "Jamba Large",
+  "created_by": "ai21",
+  "source": "official",
+  "context_window": 256000,
+  "model_type": "chat",
+  "parameters": 398,
+  "active_parameters": 94,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 8
+  },
+  "endpoints": ["chat_completions"],
+  "snapshots": ["jamba-large-1.7-2025-07"],
+  "_generated": {
+    "name": "0eb476b9",
+    "context_window": "2fd324cb",
+    "model_type": "d669f408",
+    "parameters": "b7b16ecf",
+    "active_parameters": "f4b9ec30",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "9d7f5a51",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-09-24"
+}

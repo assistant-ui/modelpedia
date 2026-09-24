@@ -3,7 +3,7 @@
   "name": "GPT-Realtime Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "gpt-realtime",
   "description": "GPT-Realtime Mini is capable of responding to audio and text inputs in realtime over WebRTC, WebSocket, or SIP connections.",
   "status": "deprecated",
@@ -32,17 +32,6 @@
     "cached_input": 0.06,
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [0.6, 0.06, 2.4]
-          }
-        ]
-      },
-      {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -50,6 +39,17 @@
           {
             "label": "Standard",
             "values": [10, 0.3, 20]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.6, 0.06, 2.4]
           }
         ]
       },
@@ -81,19 +81,25 @@
     "tagline": "66dce493",
     "capabilities": "67f48281",
     "modalities": "d78a8420",
-    "pricing": "dffaf5b0",
+    "pricing": "cdf75352",
     "endpoints": "c7ed7203",
     "model_type": "9f84c007",
     "license": "9186c466",
     "page_url": "f63fd922",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "release_date": "56423574"
+    "release_date": "56423574",
+    "deprecation_date": "7047ff2b",
+    "retirement_date": "28df5f11",
+    "successor": "d913f5f3"
   },
   "model_type": "audio",
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-realtime-mini",
   "open_weight": false,
   "tools": ["function_calling"],
-  "release_date": "2025-12-15"
+  "release_date": "2025-12-15",
+  "deprecation_date": "2026-07-20",
+  "retirement_date": "2027-01-20",
+  "successor": "gpt-realtime-2.1-mini"
 }

@@ -3,7 +3,7 @@
   "name": "o1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "o1",
   "description": "The o1 series of models are trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user.",
   "status": "deprecated",
@@ -40,15 +40,15 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [15, 7.5, 60]
+            "values": [15, 7.5, null, 60]
           },
           {
             "label": "Batch",
-            "values": [7.5, null, 30]
+            "values": [7.5, null, null, 30]
           }
         ]
       }
@@ -73,16 +73,22 @@
     "tagline": "ad2f8e76",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "f10657fa",
+    "pricing": "882e395c",
     "tools": "895d6d67",
     "endpoints": "1c48b50a",
     "license": "9186c466",
     "page_url": "8353f3b7",
     "open_weight": "68934a3e",
-    "release_date": "4a83ff32"
+    "release_date": "4a83ff32",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "68185e3b",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o1",
   "open_weight": false,
-  "release_date": "2024-12-17"
+  "release_date": "2024-12-17",
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-10-23",
+  "successor": "gpt-5.6-sol"
 }

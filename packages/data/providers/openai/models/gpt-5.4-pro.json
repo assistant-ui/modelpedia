@@ -1,9 +1,9 @@
 {
   "id": "gpt-5.4-pro",
-  "name": "gpt-5.4-pro",
+  "name": "GPT-5.4 Pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-09-24",
   "family": "gpt-5.4",
   "status": "active",
   "knowledge_cutoff": "2025-08",
@@ -35,19 +35,19 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [30, null, 180]
+            "values": [30, null, null, 180]
           },
           {
             "label": "Batch",
-            "values": [15, null, 90]
+            "values": [15, null, null, 90]
           },
           {
             "label": "Flex",
-            "values": [15, null, 90]
+            "values": [15, null, null, 90]
           }
         ]
       }
@@ -55,7 +55,7 @@
   },
   "endpoints": ["responses"],
   "_generated": {
-    "name": "5466fb3c",
+    "name": "a295eec7",
     "family": "4651e8f0",
     "status": "379ac110",
     "knowledge_cutoff": "5549a2cd",
@@ -67,20 +67,33 @@
     "speed": "c4ca4238",
     "capabilities": "817f839e",
     "modalities": "6399757e",
-    "pricing": "89cf06e0",
+    "pricing": "dbe81d76",
     "endpoints": "acb164ea",
     "model_type": "d669f408",
     "license": "9186c466",
-    "page_url": "2bf170b3",
+    "page_url": "a9fc18b0",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e",
-    "release_date": "e6626ce2"
+    "tools": "81f2051d",
+    "release_date": "e6626ce2",
+    "description": "338b8eed",
+    "tagline": "8102287b"
   },
   "snapshots": ["gpt-5.4-pro-2026-03-05"],
   "model_type": "chat",
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.4-pro?snapshot=gpt-5.4-pro-2026-03-05",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.4-pro",
   "open_weight": false,
-  "tools": ["function_calling"],
-  "release_date": "2026-03-05"
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "tool_search",
+    "image_generation",
+    "apply_patch",
+    "computer_use",
+    "mcp"
+  ],
+  "release_date": "2026-03-05",
+  "description": "GPT-5.4 Pro uses more compute to think harder and provide consistently better answers.",
+  "tagline": "Version of GPT-5.4 that produces smarter and more precise responses."
 }

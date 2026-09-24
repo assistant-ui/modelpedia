@@ -3,10 +3,10 @@
   "name": "o3-deep-research-2025-06-26",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "o3",
   "description": "o3-deep-research is our most advanced model for deep research,",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -46,10 +46,6 @@
           {
             "label": "Standard",
             "values": [10, 2.5, 40]
-          },
-          {
-            "label": "Batch",
-            "values": [5, null, 20]
           }
         ]
       }
@@ -60,7 +56,7 @@
     "name": "c7c5eedf",
     "family": "193049bc",
     "description": "e446c1c2",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -72,15 +68,21 @@
     "tagline": "e446c1c2",
     "capabilities": "0651f887",
     "modalities": "6399757e",
-    "pricing": "03b07ed1",
+    "pricing": "baca9e1c",
     "endpoints": "6f01fd6c",
     "license": "9186c466",
     "release_date": "f083d14e",
     "page_url": "4e37da0f",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "26fc75d3",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "release_date": "2025-06-26",
   "page_url": "https://developers.openai.com/api/docs/models/o3-deep-research?snapshot=o3-deep-research-2025-06-26",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-07-23",
+  "successor": "gpt-5.6-sol"
 }

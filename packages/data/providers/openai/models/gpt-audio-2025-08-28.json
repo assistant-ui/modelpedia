@@ -3,10 +3,10 @@
   "name": "gpt-audio-2025-08-28",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-audio",
   "description": "The gpt-audio model is our first generally available audio model. It accepts",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
   "max_output_tokens": 16384,
@@ -35,22 +35,22 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Output", "Cached input"],
         "rows": [
           {
             "label": "Standard",
-            "values": [2.5, null, 10]
+            "values": [2.5, 10, null]
           }
         ]
       },
       {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Output", "Cached input"],
         "rows": [
           {
             "label": "Standard",
-            "values": [32, null, 64]
+            "values": [32, 64, null]
           }
         ]
       }
@@ -61,7 +61,7 @@
     "name": "6baae54b",
     "family": "29debdf1",
     "description": "cbfdc684",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
@@ -71,17 +71,23 @@
     "tagline": "3fd8480f",
     "capabilities": "e8cba1a0",
     "modalities": "cf05925d",
-    "pricing": "6013bf87",
+    "pricing": "a478d77b",
     "endpoints": "d8fa1080",
     "license": "9186c466",
     "release_date": "9e3c5ae9",
     "page_url": "683cc307",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "7047ff2b",
+    "retirement_date": "28df5f11",
+    "successor": "a649f503"
   },
   "license": "proprietary",
   "release_date": "2025-08-28",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-audio?snapshot=gpt-audio-2025-08-28",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-07-20",
+  "retirement_date": "2027-01-20",
+  "successor": "gpt-audio-1.5"
 }

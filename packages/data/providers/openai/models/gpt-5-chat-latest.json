@@ -3,9 +3,9 @@
   "name": "GPT-5 Chat",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-04-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-5",
-  "description": "GPT-5 Chat points to the GPT-5 snapshot previously used in ChatGPT.",
+  "description": "GPT-5 Chat points to the GPT-5 snapshot previously used in ChatGPT. For the latest Chat model, please refer to our models page. We recommend using our Model guidance for most API usage.",
   "status": "deprecated",
   "knowledge_cutoff": "2024-09",
   "context_window": 128000,
@@ -41,7 +41,7 @@
   "_generated": {
     "name": "ca806a96",
     "family": "aa904c16",
-    "description": "bc796fee",
+    "description": "18f053e9",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "34434798",
@@ -57,9 +57,34 @@
     "endpoints": "72e91ba7",
     "license": "9186c466",
     "page_url": "8d588bbd",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "26fc75d3",
+    "successor": "cadec60b",
+    "pricing": "53068594"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5-chat-latest",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-07-23",
+  "successor": "gpt-5.6-sol",
+  "pricing": {
+    "input": 1.25,
+    "output": 10,
+    "cached_input": 0.125,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.25, 0.125, 10]
+          }
+        ]
+      }
+    ]
+  }
 }

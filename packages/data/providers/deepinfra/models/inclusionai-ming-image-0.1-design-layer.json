@@ -1,0 +1,33 @@
+{
+  "id": "inclusionAI/Ming-Image-0.1-Design-Layer",
+  "name": "Ming-Image-0.1-Design-Layer",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "Open-weight layer decomposition (6B) from the Ming-Image 0.1 Design family — splits a flattened design or composite into stacked, transparent, editable PNG layers (text, subject, background) for localizable, editable design workflows. MIT-licensed.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": true,
+  "tagline": "Open-weight layer decomposition (6B) from the Ming-Image 0.1 Design family — splits a flattened design or composite into stacked, transparent, editable PNG layers (text, subject, background) for localizable, editable design workflows.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0150 per image unit (1024x1024 default)"],
+  "_generated": {
+    "name": "79f98bf1",
+    "description": "de62fe09",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "b326b506",
+    "tagline": "c7ddbffb",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "e74ac96d"
+  },
+  "last_updated": "2026-09-24"
+}

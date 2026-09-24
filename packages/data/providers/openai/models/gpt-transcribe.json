@@ -40,7 +40,7 @@
       }
     ]
   },
-  "endpoints": ["transcription", "realtime_transcription"],
+  "endpoints": ["realtime_transcription", "transcription"],
   "snapshots": ["gpt-transcribe"],
   "_generated": {
     "name": "f5b5018f",
@@ -56,7 +56,7 @@
     "capabilities": "51394a4e",
     "modalities": "7cee5e0e",
     "pricing": "ea5e7e5d",
-    "endpoints": "6676924a"
+    "endpoints": "c986bdb3"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-24"
 }

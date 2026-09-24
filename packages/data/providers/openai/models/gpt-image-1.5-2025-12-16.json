@@ -3,7 +3,7 @@
   "name": "gpt-image-1.5-2025-12-16",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-24",
   "family": "gpt-image-1.5",
   "description": "GPT Image 1.5 is our previous image generation model, with better instruction following and adherence to prompts. Learn more in our [GPT Image 1.5 usage guide](/api/docs/guides/image-generation).",
   "status": "active",
@@ -29,6 +29,10 @@
           {
             "label": "Standard",
             "values": [5, 1.25, 10]
+          },
+          {
+            "label": "Batch",
+            "values": [2.5, 0.63, 5]
           }
         ]
       },
@@ -40,6 +44,10 @@
           {
             "label": "Standard",
             "values": [8, 2, 32]
+          },
+          {
+            "label": "Batch",
+            "values": [4, 1, 16]
           }
         ]
       },
@@ -62,7 +70,9 @@
           }
         ]
       }
-    ]
+    ],
+    "batch_input": 2.5,
+    "batch_output": 5
   },
   "endpoints": ["batch", "image_generation", "image_edit"],
   "_generated": {
@@ -75,7 +85,7 @@
     "speed": "eccbc87e",
     "tagline": "d1d7ff5d",
     "modalities": "996cb582",
-    "pricing": "f27acd82",
+    "pricing": "ff299af9",
     "endpoints": "af128fc0",
     "license": "9186c466",
     "release_date": "799b50a0",

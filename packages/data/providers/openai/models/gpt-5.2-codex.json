@@ -3,9 +3,9 @@
   "name": "GPT-5.2-Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-04-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-5.2",
-  "description": "GPT-5.2-Codex is an upgraded version of GPT-5.2 optimized for agentic coding tasks in [Codex](https://developers.openai.com/codex) or similar environments.\\nGPT-5.2-Codex supports `low`, `medium`, `high`, and `xhigh` reasoning effort settings.\\nIf you want to learn more about prompting GPT-5.2-Codex, refer to our [dedicated guide](/cookbook/examples/gpt-5/codex_prompting_guide).\\n",
+  "description": "GPT-5.2-Codex is an upgraded version of GPT-5.2 optimized for agentic coding tasks in Codex or similar environments. GPT-5.2-Codex supports `low`, `medium`, `high`, and `xhigh` reasoning effort settings. If you want to learn more about prompting GPT-5.2-Codex, refer to our dedicated guide.",
   "status": "deprecated",
   "knowledge_cutoff": "2025-08",
   "context_window": 400000,
@@ -54,7 +54,7 @@
   "_generated": {
     "name": "d30e4d4b",
     "family": "f580564d",
-    "description": "280c8453",
+    "description": "e2ad9ff0",
     "status": "2e2f74dc",
     "knowledge_cutoff": "5549a2cd",
     "context_window": "2a3a2d28",
@@ -73,9 +73,15 @@
     "endpoints": "acb164ea",
     "license": "9186c466",
     "page_url": "130b8aa1",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "26fc75d3",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5.2-codex",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-07-23",
+  "successor": "gpt-5.6-sol"
 }

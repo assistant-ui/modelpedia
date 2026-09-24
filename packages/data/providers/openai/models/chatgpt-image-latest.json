@@ -3,10 +3,10 @@
   "name": "chatgpt-image-latest",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-05-23",
+  "last_updated": "2026-09-24",
   "family": "chatgpt",
-  "description": "This points to the Image snapshot previously used in ChatGPT. We recommend {{latestImageModel}} for API use.",
-  "status": "active",
+  "description": "This points to the Image snapshot previously used in ChatGPT. We recommend GPT-Image-2.5 Sunburst for API use.",
+  "status": "deprecated",
   "model_type": "image",
   "performance": 5,
   "speed": 3,
@@ -21,17 +21,6 @@
     "cached_input": 1.25,
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [5, 1.25, 10]
-          }
-        ]
-      },
-      {
         "label": "Image tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -39,6 +28,25 @@
           {
             "label": "Standard",
             "values": [8, 2, 32]
+          },
+          {
+            "label": "Batch",
+            "values": [4, 1, 16]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 1.25, 10]
+          },
+          {
+            "label": "Batch",
+            "values": [2.5, 0.63, 5]
           }
         ]
       },
@@ -61,26 +69,31 @@
           }
         ]
       }
-    ]
+    ],
+    "batch_input": 2.5,
+    "batch_output": 5
   },
   "endpoints": ["batch", "image_generation", "image_edit"],
   "snapshots": ["chatgpt-image-latest"],
   "_generated": {
     "name": "aecf32bc",
     "family": "65aec523",
-    "description": "5615438f",
-    "status": "379ac110",
+    "description": "df644e09",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "performance": "e4da3b7f",
     "speed": "eccbc87e",
     "tagline": "86936bf0",
     "modalities": "996cb582",
-    "pricing": "f27acd82",
+    "pricing": "2ac704cd",
     "endpoints": "af128fc0",
     "license": "9186c466",
     "page_url": "50159502",
     "open_weight": "68934a3e",
-    "capabilities": "ec32b5a4"
+    "capabilities": "ec32b5a4",
+    "deprecation_date": "61fd683f",
+    "retirement_date": "a96180df",
+    "successor": "c79be345"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/chatgpt-image-latest",
@@ -94,5 +107,8 @@
     "fine_tuning": false,
     "reasoning": false,
     "batch": true
-  }
+  },
+  "deprecation_date": "2026-06-02",
+  "retirement_date": "2026-12-01",
+  "successor": "gpt-image-2"
 }

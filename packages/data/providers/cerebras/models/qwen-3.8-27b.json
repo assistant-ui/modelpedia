@@ -1,0 +1,53 @@
+{
+  "id": "qwen-3.8-27b",
+  "name": "Qwen 3.8 27B",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen",
+  "status": "active",
+  "context_window": 128000,
+  "max_output_tokens": 40000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "parameters": 27,
+  "open_weight": true,
+  "capabilities": {
+    "reasoning": true,
+    "streaming": true,
+    "structured_output": true,
+    "tool_call": true,
+    "prompt_caching": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.99,
+    "output": 1.49
+  },
+  "endpoints": ["chat_completions", "completions"],
+  "tools": ["function_calling"],
+  "model_card_url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+  "tokens_per_second": 1850,
+  "_generated": {
+    "name": "ef1e78fc",
+    "family": "a3af76f3",
+    "status": "379ac110",
+    "context_window": "34434798",
+    "max_output_tokens": "7c77f048",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "parameters": "02e74f10",
+    "open_weight": "b326b506",
+    "capabilities": "cf26b107",
+    "modalities": "6399757e",
+    "pricing": "f7bf6ae9",
+    "endpoints": "772bacef",
+    "tools": "f0c1dc7e",
+    "model_card_url": "62b8e5b8",
+    "tokens_per_second": "8c3039bd"
+  },
+  "last_updated": "2026-09-24"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "upstage/solar-mini4",
+  "name": "Upstage: Solar Mini 4",
+  "created_by": "upstage",
+  "source": "official",
+  "description": "Solar Mini 4 is Upstage's compact, cost-efficient language model, a 35B-parameter mixture-of-experts with 3B active parameters and a 524K context window.",
+  "release_date": "2026-09-23",
+  "context_window": 524288,
+  "max_output_tokens": 131072,
+  "tagline": "Solar Mini 4 is Upstage's compact, cost-efficient language model, a 35B-parameter mixture-of-experts with 3B active parameters and a 524K context window.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.2,
+    "cached_input": 0.005
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "49d90bc8",
+    "description": "02e42f1b",
+    "release_date": "b3b67ec6",
+    "context_window": "bcabf6a1",
+    "max_output_tokens": "f7de594e",
+    "tagline": "02e42f1b",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "6d6ec9c8",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-24"
+}

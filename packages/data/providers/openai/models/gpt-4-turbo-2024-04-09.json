@@ -3,9 +3,9 @@
   "name": "gpt-4-turbo-2024-04-09",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-4-turbo",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-12",
   "context_window": 128000,
   "max_output_tokens": 4096,
@@ -30,7 +30,7 @@
   "_generated": {
     "name": "22a386bf",
     "family": "e55097d8",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "06c60023",
     "context_window": "34434798",
     "max_output_tokens": "f7efa4f8",
@@ -42,12 +42,15 @@
     "description": "43471c17",
     "model_type": "d669f408",
     "tagline": "787c2f45",
-    "pricing": "3a544d6c",
+    "pricing": "143a7e04",
     "license": "9186c466",
     "release_date": "b283eaaa",
     "page_url": "b920d448",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "68185e3b",
+    "successor": "cadec60b"
   },
   "description": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model. It was designed to be a cheaper, better version of GPT-4. Today, we recommend using a newer model like GPT-4o.",
   "model_type": "chat",
@@ -56,16 +59,16 @@
     "tiers": [
       {
         "label": "Text tokens",
-        "unit": "",
-        "columns": ["Input", "Output"],
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [10, 30]
+            "values": [10, null, null, 30]
           },
           {
             "label": "Batch",
-            "values": [5, 15]
+            "values": [5, null, null, 15]
           }
         ]
       }
@@ -79,5 +82,8 @@
   "release_date": "2024-04-09",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4-turbo?snapshot=gpt-4-turbo-2024-04-09",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-10-23",
+  "successor": "gpt-5.6-sol"
 }

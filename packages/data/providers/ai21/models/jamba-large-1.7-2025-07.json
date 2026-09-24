@@ -30,7 +30,12 @@
     "modalities": "68e53d93",
     "pricing": "9d7f5a51",
     "endpoints": "d8fa1080",
-    "quantization": "0a212ff4"
+    "quantization": "0a212ff4",
+    "parameters": "b7b16ecf",
+    "active_parameters": "f4b9ec30"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-24",
+  "parameters": 398,
+  "active_parameters": 94,
+  "alias": "jamba-large"
 }

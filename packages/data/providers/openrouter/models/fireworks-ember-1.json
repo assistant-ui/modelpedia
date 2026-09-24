@@ -1,0 +1,40 @@
+{
+  "id": "fireworks/ember-1",
+  "name": "Fireworks: Ember-1",
+  "created_by": "fireworks",
+  "source": "official",
+  "description": "Ember-1 is a specialized reasoning model from Fireworks Research, built on [Kimi K3](https://openrouter.ai/moonshotai/kimi-k3).",
+  "release_date": "2026-09-24",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "tagline": "Ember-1 is a specialized reasoning model from Fireworks Research, built on [Kimi K3](https://openrouter.ai/moonshotai/kimi-k3).",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 3,
+    "output": 15,
+    "cached_input": 0.3
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "53c966b6",
+    "description": "6a51429a",
+    "release_date": "0f588381",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "tagline": "6a51429a",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "0deaf3da",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-24"
+}

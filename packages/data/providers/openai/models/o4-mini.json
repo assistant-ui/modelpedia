@@ -3,9 +3,9 @@
   "name": "o4-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-24",
   "family": "o4",
-  "description": "o4-mini is our latest small o-series model. It's optimized for fast,",
+  "description": "o4-mini is our latest small o-series model. It's optimized for fast,  effective reasoning with exceptionally efficient performance in coding and  visual tasks. It's succeeded by GPT-5 Mini.",
   "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
@@ -38,17 +38,40 @@
     "batch_output": 2.2,
     "tiers": [
       {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [1.1, 0.275, null, 4.4]
+          },
+          {
+            "label": "Batch",
+            "values": [0.55, null, null, 2.2]
+          },
+          {
+            "label": "Flex",
+            "values": [0.55, 0.138, null, 2.2]
+          },
+          {
+            "label": "Fast",
+            "values": [2, 0.5, null, 8]
+          }
+        ]
+      },
+      {
         "label": "Fine-tuning",
         "unit": "",
         "columns": ["Training", "Input", "Cached input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [null, 4, 1, 16]
+            "values": [100, 4, 1, 16]
           },
           {
             "label": "Batch",
-            "values": [null, 2, null, 8]
+            "values": [100, 2, 0.5, 8]
           }
         ]
       }
@@ -66,7 +89,7 @@
   "_generated": {
     "name": "0ad044e2",
     "family": "a842f941",
-    "description": "b9c69742",
+    "description": "b7d13e02",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
@@ -79,16 +102,22 @@
     "tagline": "fea2d815",
     "capabilities": "7e267bba",
     "modalities": "6399757e",
-    "pricing": "c2c03eaa",
+    "pricing": "63f5629d",
     "tools": "fab5356d",
     "endpoints": "b36a99d3",
     "license": "9186c466",
     "page_url": "6a4100e1",
     "open_weight": "68934a3e",
-    "release_date": "67604092"
+    "release_date": "67604092",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "68185e3b",
+    "successor": "d5215155"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/o4-mini",
   "open_weight": false,
-  "release_date": "2025-04-16"
+  "release_date": "2025-04-16",
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-10-23",
+  "successor": "gpt-5.6-terra"
 }

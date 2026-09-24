@@ -3,10 +3,10 @@
   "name": "gpt-4o-mini-realtime-preview-2024-12-17",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-24",
   "family": "gpt-4o",
   "description": "This is a preview release of the GPT-4o-Mini Realtime model, capable of responding to audio and text inputs in realtime over WebRTC or a WebSocket interface.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 16000,
   "max_output_tokens": 4096,
@@ -61,7 +61,7 @@
     "name": "e3c38815",
     "family": "15249632",
     "description": "3ea84001",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "67510c89",
     "max_output_tokens": "f7efa4f8",
@@ -77,12 +77,18 @@
     "release_date": "4a83ff32",
     "page_url": "1bad73be",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "7047ff2b",
+    "retirement_date": "28df5f11",
+    "successor": "d913f5f3"
   },
   "model_type": "audio",
   "license": "proprietary",
   "release_date": "2024-12-17",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-realtime-preview?snapshot=gpt-4o-mini-realtime-preview-2024-12-17",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-07-20",
+  "retirement_date": "2027-01-20",
+  "successor": "gpt-realtime-2.1-mini"
 }

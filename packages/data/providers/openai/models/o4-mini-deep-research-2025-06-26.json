@@ -3,10 +3,10 @@
   "name": "o4-mini-deep-research-2025-06-26",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "o4",
   "description": "o4-mini-deep-research is our faster, more affordable deep",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
   "max_output_tokens": 100000,
@@ -46,10 +46,6 @@
           {
             "label": "Standard",
             "values": [2, 0.5, 8]
-          },
-          {
-            "label": "Batch",
-            "values": [1, null, 4]
           }
         ]
       }
@@ -60,7 +56,7 @@
     "name": "a03dd4f0",
     "family": "a842f941",
     "description": "9ebc679a",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
     "max_output_tokens": "14ee22ea",
@@ -72,15 +68,21 @@
     "tagline": "9ebc679a",
     "capabilities": "0651f887",
     "modalities": "6399757e",
-    "pricing": "e36f1250",
+    "pricing": "ce78c534",
     "endpoints": "6f01fd6c",
     "license": "9186c466",
     "release_date": "f083d14e",
     "page_url": "d97f9586",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "26fc75d3",
+    "successor": "cadec60b"
   },
   "license": "proprietary",
   "release_date": "2025-06-26",
   "page_url": "https://developers.openai.com/api/docs/models/o4-mini-deep-research?snapshot=o4-mini-deep-research-2025-06-26",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-07-23",
+  "successor": "gpt-5.6-sol"
 }

@@ -3,12 +3,12 @@
   "name": "gpt-3.5-turbo-instruct",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-3.5",
   "description": "Similar capabilities as GPT-3 era models. Compatible with legacy Completions endpoint and not Chat Completions.",
   "status": "deprecated",
   "knowledge_cutoff": "2021-09",
-  "context_window": 4096,
+  "context_window": 16385,
   "max_output_tokens": 4096,
   "model_type": "chat",
   "performance": 1,
@@ -21,7 +21,8 @@
     "tool_call": false,
     "structured_output": false,
     "json_mode": false,
-    "reasoning": false
+    "reasoning": false,
+    "batch": true
   },
   "modalities": {
     "input": ["text"],
@@ -31,20 +32,41 @@
     "tiers": [
       {
         "label": "Text tokens",
-        "unit": "",
-        "columns": ["Input", "Output"],
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.5, 2]
+            "values": [1.5, null, null, 2]
+          },
+          {
+            "label": "Batch",
+            "values": [0.25, null, null, 0.75]
+          }
+        ]
+      },
+      {
+        "label": "Fine-tuning",
+        "unit": "",
+        "columns": ["Training", "Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [8, 3, null, 6]
+          },
+          {
+            "label": "Batch",
+            "values": [8, 1.5, null, 3]
           }
         ]
       }
     ],
     "input": 1.5,
-    "output": 2
+    "output": 2,
+    "batch_input": 0.25,
+    "batch_output": 0.75
   },
-  "endpoints": ["chat_completions", "responses"],
+  "endpoints": ["chat_completions", "responses", "batch", "fine_tuning"],
   "snapshots": ["gpt-3.5-turbo-instruct"],
   "_generated": {
     "name": "52fd00ac",
@@ -52,21 +74,28 @@
     "description": "c1972356",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b61a1a89",
-    "context_window": "f7efa4f8",
+    "context_window": "7f4b18de",
     "max_output_tokens": "f7efa4f8",
     "model_type": "d669f408",
     "performance": "c4ca4238",
     "speed": "c81e728d",
     "tagline": "1233a25c",
-    "capabilities": "77cb67d9",
+    "capabilities": "b1cc1d6c",
     "modalities": "68e53d93",
-    "pricing": "edca0a42",
-    "endpoints": "72e91ba7",
+    "pricing": "3ee6936e",
+    "endpoints": "b36a99d3",
     "license": "9186c466",
-    "page_url": "36a8f80a",
-    "open_weight": "68934a3e"
+    "page_url": "4f4de878",
+    "open_weight": "68934a3e",
+    "deprecation_date": "9503bf58",
+    "retirement_date": "1ec3c8a2",
+    "successor": "d5215155"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-3-5-turbo-instruct?snapshot=gpt-3.5-turbo-instruct",
-  "open_weight": false
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo?snapshot=gpt-3.5-turbo-instruct",
+  "open_weight": false,
+  "deprecation_date": "2025-09-26",
+  "retirement_date": "2026-09-28",
+  "alias": "gpt-3.5-turbo",
+  "successor": "gpt-5.6-terra"
 }
