@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-24",
-  "count": 367,
+  "date": "2026-09-25",
+  "count": 368,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -110,6 +110,7 @@
     "deepseek-deepseek-v4-pro-0813",
     "deepseek-deepseek-v4.1-flash",
     "exa-search",
+    "fireworks-ember-1",
     "fish-audio-s1",
     "fish-audio-s2-pro",
     "fish-audio-s2.1-pro",

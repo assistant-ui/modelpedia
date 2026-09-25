@@ -3,7 +3,7 @@
   "name": "qwen3.5-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-25",
   "family": "qwen3.5",
   "context_window": 1000000,
   "capabilities": {
@@ -14,14 +14,14 @@
   },
   "pricing": {
     "input": 0.4,
-    "output": 2.5
+    "output": 2.4
   },
   "_generated": {
     "name": "04b52737",
     "family": "d548f421",
     "context_window": "8155bc54",
     "capabilities": "a19166f1",
-    "pricing": "26a39640",
+    "pricing": "1dd6c8e1",
     "model_type": "d669f408",
     "tools": "f0c1dc7e",
     "modalities": "68e53d93"

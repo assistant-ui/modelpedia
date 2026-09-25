@@ -66952,9 +66952,9 @@ export const providers: ProviderWithModels[] = [
           "images"
         ],
         "pricing_notes": [
-          "$0.0150 per image unit (1024x1024 default)"
+          "$0.0100 per image unit (1024x1024 default)"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-09-25"
       },
       {
         "id": "inclusionAI/Ming-Image-0.1-Design",
@@ -83569,6 +83569,23 @@ export const providers: ProviderWithModels[] = [
         ],
         "last_seen_at": "2026-05-27",
         "last_updated": "2026-06-03"
+      },
+      {
+        "id": "fal-ai/flux-3-action/so101",
+        "name": "Flux 3 Action",
+        "created_by": "fal",
+        "source": "official",
+        "description": "FLUX 3 Action turns what the robot sees into what it does next.",
+        "status": "active",
+        "release_date": "2026-09-24",
+        "model_type": "other",
+        "page_url": "https://fal.run/fal-ai/flux-3-action/so101",
+        "tagline": "FLUX 3 Action turns what the robot sees into what it does next.",
+        "capabilities": {
+          "vision": true
+        },
+        "last_seen_at": "2026-09-24",
+        "last_updated": "2026-09-25"
       },
       {
         "id": "fal-ai/flux-control-lora-canny/image-to-image",
@@ -111003,6 +111020,23 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-08-30"
       },
       {
+        "id": "minimax/h3-max/3d-to-video",
+        "name": "H3 Max 3D to Video",
+        "created_by": "minimax",
+        "source": "official",
+        "description": "Transform Blender renders and 3D previs into photorealistic video.",
+        "status": "active",
+        "release_date": "2026-09-16",
+        "model_type": "other",
+        "page_url": "https://fal.run/minimax/h3-max/3d-to-video",
+        "tagline": "Transform Blender renders and 3D previs into photorealistic video.",
+        "capabilities": {
+          "vision": true
+        },
+        "last_seen_at": "2026-09-24",
+        "last_updated": "2026-09-25"
+      },
+      {
         "id": "minimax/h3-max/camera-controls",
         "name": "H3 Max Camera Controls",
         "created_by": "minimax",
@@ -111055,6 +111089,20 @@ export const providers: ProviderWithModels[] = [
         ],
         "last_seen_at": "2026-09-19",
         "last_updated": "2026-09-20"
+      },
+      {
+        "id": "minimax/h3-max/extend-video",
+        "name": "H3 Max Extend Video",
+        "created_by": "minimax",
+        "source": "official",
+        "description": "H3 Max Extend Video adds a text-guided continuation to an existing video.",
+        "status": "active",
+        "release_date": "2026-09-17",
+        "model_type": "other",
+        "page_url": "https://fal.run/minimax/h3-max/extend-video",
+        "tagline": "H3 Max Extend Video adds a text-guided continuation to an existing video.",
+        "last_seen_at": "2026-09-24",
+        "last_updated": "2026-09-25"
       },
       {
         "id": "minimax/h3-max/image-to-video",
@@ -123333,6 +123381,37 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-05-23"
       },
       {
+        "id": "antigravity-preview-09-2026",
+        "name": "antigravity-preview-09-2026",
+        "created_by": "google",
+        "source": "official",
+        "status": "active",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "page_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-09-2026",
+        "capabilities": {
+          "streaming": true,
+          "batch": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weight": false,
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-09-25"
+      },
+      {
         "id": "deep-research-max-preview-04-2026",
         "name": "deep-research-max-preview-04-2026",
         "created_by": "google",
@@ -125476,7 +125555,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.1",
-        "description": "The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and new expressive audio tags for precise narration control.",
+        "description": "The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and expressive audio tags for precise narration control.",
         "status": "active",
         "knowledge_cutoff": "2025-01",
         "context_window": 8192,
@@ -125549,7 +125628,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-08-30"
+        "last_updated": "2026-09-25"
       },
       {
         "id": "gemini-3.1-pro-preview",
@@ -173576,7 +173655,7 @@ export const providers: ProviderWithModels[] = [
         "name": "sora-2-2025-10-06",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-09-24",
+        "last_updated": "2026-09-25",
         "status": "deprecated",
         "model_type": "video",
         "alias": "sora-2",
@@ -173595,7 +173674,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "videos"
         ],
-        "description": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
+        "description": "Sora 2 is our new powerful media generation model, generating videos with synced audio. It can create richly detailed, dynamic clips from natural language or images.",
         "tagline": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
         "pricing": {
           "tiers": [
@@ -173629,7 +173708,7 @@ export const providers: ProviderWithModels[] = [
         "name": "sora-2-2025-12-08",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-09-24",
+        "last_updated": "2026-09-25",
         "status": "deprecated",
         "model_type": "video",
         "alias": "sora-2",
@@ -173648,7 +173727,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "videos"
         ],
-        "description": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
+        "description": "Sora 2 is our new powerful media generation model, generating videos with synced audio. It can create richly detailed, dynamic clips from natural language or images.",
         "tagline": "Sora 2 is our new powerful media generation model, generating videos with synced audio.",
         "pricing": {
           "tiers": [
@@ -173682,7 +173761,7 @@ export const providers: ProviderWithModels[] = [
         "name": "sora-2-pro-2025-10-06",
         "created_by": "openai",
         "source": "official",
-        "last_updated": "2026-09-24",
+        "last_updated": "2026-09-25",
         "status": "deprecated",
         "model_type": "video",
         "alias": "sora-2-pro",
@@ -173701,7 +173780,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "videos"
         ],
-        "description": "Sora 2 Pro is our state-of-the-art, most advanced media generation model, generating videos with synced audio.",
+        "description": "Sora 2 Pro is our state-of-the-art, most advanced media generation model, generating videos with synced audio. It can create richly detailed, dynamic clips from natural language or images.",
         "tagline": "Sora 2 Pro is our state-of-the-art, most advanced media generation model, generating videos with synced audio.",
         "pricing": {
           "tiers": [
@@ -177459,13 +177538,13 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.04,
-          "output": 1,
+          "output": 0.49,
           "cached_input": 0.01
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-09-25"
       },
       {
         "id": "~deepseek/deepseek-pro-latest",
@@ -177493,14 +177572,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.39,
-          "output": 2.9,
+          "input": 0.26,
+          "output": 3.5,
           "cached_input": 0.25
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-09-25"
       },
       {
         "id": "~deepseek/deepseek-v4-flash-latest",
@@ -177643,14 +177722,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 1.4,
-          "output": 10.75,
-          "cached_input": 0.3
+          "input": 0.885,
+          "output": 10.535,
+          "cached_input": 0.33
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-09-25"
       },
       {
         "id": "~openai/gpt-astra-latest",
@@ -177966,14 +178045,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.563,
-          "output": 2.5,
-          "cached_input": 0.125
+          "input": 0.561,
+          "output": 1.764,
+          "cached_input": 0.104
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-23"
+        "last_updated": "2026-09-25"
       },
       {
         "id": "ai21/jamba-large-1.7",
@@ -181870,14 +181949,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.089,
-          "output": 0.177,
-          "cached_input": 0.018
+          "input": 0.049,
+          "output": 0.098,
+          "cached_input": 0.01
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-21",
+        "last_updated": "2026-09-25",
         "license": "mit",
         "open_weight": true
       },
@@ -181983,14 +182062,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.94,
-          "output": 1.879,
-          "cached_input": 0.078
+          "input": 0.788,
+          "output": 1.575,
+          "cached_input": 0.066
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-24",
+        "last_updated": "2026-09-25",
         "license": "mit",
         "open_weight": true
       },
@@ -182040,7 +182119,7 @@ export const providers: ProviderWithModels[] = [
         "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture.",
         "release_date": "2026-09-10",
         "context_window": 1048576,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 393216,
         "model_type": "chat",
         "tagline": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture.",
         "capabilities": {
@@ -182059,14 +182138,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.14,
-          "output": 0.42,
-          "cached_input": 0.004
+          "input": 0.3,
+          "output": 1.2,
+          "cached_input": 0.006
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-09-25"
       },
       {
         "id": "dots-studio/dots-3-note-preview:free",
@@ -188890,14 +188969,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 3,
-          "output": 15,
-          "cached_input": 0.3
+          "input": 0.885,
+          "output": 10.535,
+          "cached_input": 0.33
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-22",
+        "last_updated": "2026-09-25",
         "max_output_tokens": 943718
       },
       {
@@ -197181,11 +197260,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 VL 30B A3B Instruct",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-09-20",
+        "last_updated": "2026-09-25",
         "family": "qwen3",
         "description": "Qwen3-VL-30B-A3B-Instruct is a multimodal model that unifies strong text generation with visual understanding for images and videos.",
         "context_window": 262144,
-        "max_output_tokens": 32768,
+        "max_output_tokens": 16384,
         "modalities": {
           "input": [
             "text",
@@ -197205,8 +197284,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.13,
-          "output": 0.52
+          "input": 0.15,
+          "output": 0.6
         },
         "model_type": "chat",
         "parameters": 30,
@@ -201419,7 +201498,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Z.ai: GLM 4.7",
         "created_by": "z-ai",
         "source": "official",
-        "last_updated": "2026-07-24",
+        "last_updated": "2026-09-25",
         "description": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution.",
         "context_window": 204800,
         "max_output_tokens": 131072,
@@ -201438,9 +201517,9 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.4,
-          "output": 1.75,
-          "cached_input": 0.08
+          "input": 0.6,
+          "output": 2.2,
+          "cached_input": 0.11
         },
         "family": "glm-4.7",
         "model_type": "chat",
@@ -201514,15 +201593,15 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.966,
-          "output": 3.036,
+          "input": 0.965,
+          "output": 3.032,
           "cached_input": 0.179
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-08-16",
-        "max_output_tokens": 128000
+        "last_updated": "2026-09-25",
+        "max_output_tokens": 131072
       },
       {
         "id": "z-ai/glm-5.2:batch",
@@ -201714,7 +201793,7 @@ export const providers: ProviderWithModels[] = [
         "release_date": "2026-08-26",
         "deprecation_date": "2098-12-31",
         "context_window": 1310720,
-        "max_output_tokens": 943718,
+        "max_output_tokens": 131072,
         "model_type": "chat",
         "tagline": "GLM-5.3-Flash is a native multimodal model from Z.ai.",
         "capabilities": {
@@ -201734,14 +201813,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.15,
-          "output": 0.5,
-          "cached_input": 0.05
+          "input": 0.045,
+          "output": 0.6,
+          "cached_input": 0.029
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-22"
+        "last_updated": "2026-09-25"
       },
       {
         "id": "z-ai/glm-5.3-flashx",
@@ -201830,7 +201909,7 @@ export const providers: ProviderWithModels[] = [
         "release_date": "2026-08-18",
         "deprecation_date": "2098-12-31",
         "context_window": 1310720,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 943717,
         "model_type": "chat",
         "tagline": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks.",
         "capabilities": {
@@ -201848,14 +201927,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.84,
-          "output": 2.64,
-          "cached_input": 0.156
+          "input": 1.4,
+          "output": 4.4,
+          "cached_input": 0.26
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-22"
+        "last_updated": "2026-09-25"
       },
       {
         "id": "z-ai/glm-5",
@@ -215130,7 +215209,7 @@ export const providers: ProviderWithModels[] = [
         "name": "P Image Edit",
         "created_by": "prunaai",
         "source": "official",
-        "status": "deprecated",
+        "status": "active",
         "model_type": "image",
         "page_url": "https://replicate.com/prunaai/p-image-edit",
         "capabilities": {
@@ -215147,7 +215226,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-09-25"
       },
       {
         "id": "prunaai/p-image-ideogram",
@@ -223699,7 +223778,7 @@ export const providers: ProviderWithModels[] = [
         "name": "qwen3.5-plus",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-09-15",
+        "last_updated": "2026-09-25",
         "family": "qwen3.5",
         "context_window": 1000000,
         "capabilities": {
@@ -223713,7 +223792,7 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.4,
-          "output": 2.5
+          "output": 2.4
         },
         "model_type": "chat",
         "tools": [
@@ -226230,7 +226309,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.04,
+          "input": 0.03,
           "output": 0.15
         },
         "modalities": {
@@ -226244,7 +226323,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-22"
+        "last_updated": "2026-09-25"
       },
       {
         "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -226435,7 +226514,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.1,
+          "input": 0.09,
           "output": 0.42
         },
         "modalities": {
@@ -226449,7 +226528,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-09-25"
       },
       {
         "id": "exa/search",
@@ -226473,6 +226552,36 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-07-30"
+      },
+      {
+        "id": "fireworks/ember-1",
+        "name": "ember-1",
+        "created_by": "fireworks",
+        "source": "official",
+        "context_window": 1000000,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true,
+          "vision": true,
+          "tool_call": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "tools": [
+          "function_calling"
+        ],
+        "last_updated": "2026-09-25"
       },
       {
         "id": "fish-audio/s1",
@@ -237156,6 +237265,36 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-05-23"
       },
       {
+        "id": "antigravity-preview-09-2026",
+        "name": "antigravity-preview-09-2026",
+        "created_by": "google",
+        "source": "official",
+        "status": "active",
+        "context_window": 1048576,
+        "max_output_tokens": 65536,
+        "license": "proprietary",
+        "open_weight": false,
+        "capabilities": {
+          "streaming": true,
+          "batch": true,
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          "generateContent",
+          "streamGenerateContent"
+        ],
+        "last_updated": "2026-09-25"
+      },
+      {
         "id": "claude-haiku-4-5@vertex",
         "name": "Claude Haiku 4.5",
         "created_by": "anthropic",
@@ -240103,7 +240242,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "google",
         "source": "official",
         "family": "gemini-3.1",
-        "description": "The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and new expressive audio tags for precise narration control.",
+        "description": "The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and expressive audio tags for precise narration control.",
         "status": "active",
         "knowledge_cutoff": "2025-01",
         "context_window": 8192,
@@ -240140,7 +240279,7 @@ export const providers: ProviderWithModels[] = [
           "generateContent",
           "streamGenerateContent"
         ],
-        "last_updated": "2026-08-30"
+        "last_updated": "2026-09-25"
       },
       {
         "id": "gemini-3.1-pro-preview",

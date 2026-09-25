@@ -1,0 +1,24 @@
+{
+  "id": "minimax/h3-max/extend-video",
+  "name": "H3 Max Extend Video",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "H3 Max Extend Video adds a text-guided continuation to an existing video.",
+  "status": "active",
+  "release_date": "2026-09-17",
+  "model_type": "other",
+  "page_url": "https://fal.run/minimax/h3-max/extend-video",
+  "tagline": "H3 Max Extend Video adds a text-guided continuation to an existing video.",
+  "last_seen_at": "2026-09-24",
+  "_generated": {
+    "name": "70649da6",
+    "description": "fe0c5e47",
+    "status": "379ac110",
+    "release_date": "4ef67ac3",
+    "model_type": "ddb0b7bc",
+    "page_url": "157e3800",
+    "tagline": "fe0c5e47",
+    "last_seen_at": "0f588381"
+  },
+  "last_updated": "2026-09-25"
+}

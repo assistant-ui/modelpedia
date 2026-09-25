@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-24",
-  "count": 469,
+  "date": "2026-09-25",
+  "count": 472,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -178,6 +178,8 @@
     "mistralai-codestral",
     "mistralai-codestral-2508",
     "mistralai-codestral-2508-batch",
+    "mistralai-devstral",
+    "mistralai-devstral-2512",
     "mistralai-ministral-14b",
     "mistralai-ministral-14b-2512",
     "mistralai-ministral-3b",
@@ -187,6 +189,7 @@
     "mistralai-ministral-8b-2512-batch",
     "mistralai-mistral-large",
     "mistralai-mistral-large-2407",
+    "mistralai-mistral-large-2512",
     "mistralai-mistral-large-2512-batch",
     "mistralai-mistral-medium-3",
     "mistralai-mistral-medium-3-5",
