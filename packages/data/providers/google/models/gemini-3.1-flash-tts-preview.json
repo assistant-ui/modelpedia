@@ -4,7 +4,7 @@
   "created_by": "google",
   "source": "official",
   "family": "gemini-3.1",
-  "description": "The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and new expressive audio tags for precise narration control.",
+  "description": "The Gemini 3.1 Flash TTS Preview model provides powerful, low-latency speech generation with natural outputs, steerable prompts, and expressive audio tags for precise narration control.",
   "status": "active",
   "knowledge_cutoff": "2025-01",
   "context_window": 8192,
@@ -55,7 +55,7 @@
   "_generated": {
     "name": "fb9d763d",
     "family": "ea4a1a23",
-    "description": "d8abb286",
+    "description": "f571404d",
     "status": "379ac110",
     "knowledge_cutoff": "3f358a56",
     "context_window": "77441296",
@@ -71,5 +71,5 @@
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-25"
 }

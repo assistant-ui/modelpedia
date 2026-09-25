@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-24",
-  "count": 235,
+  "date": "2026-09-25",
+  "count": 230,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -91,7 +91,6 @@
     "google-gemma-4-31b-it",
     "google-gemma-4-31b-it-turbo",
     "google-gemma-4-31b-it-ultra",
-    "google-gemma-4-e4b-it",
     "google-nano-banana-2",
     "google-nano-banana-2-lite",
     "google-nano-banana-pro",
@@ -115,7 +114,6 @@
     "inworld-ai-realtime-tts-1.5-mini",
     "inworld-ai-realtime-tts-2",
     "meta-llama-llama-3.3-70b-instruct-turbo",
-    "meta-llama-llama-4-maverick-17b-128e-instruct-fp8",
     "meta-llama-llama-4-scout-17b-16e-instruct",
     "meta-llama-llama-guard-4-12b",
     "meta-llama-meta-llama-3.1-70b-instruct-turbo",
@@ -185,7 +183,6 @@
     "qwen-qwen3-tts-voicedesign",
     "qwen-qwen3-vl-235b-a22b-instruct",
     "qwen-qwen3-vl-30b-a3b-instruct",
-    "qwen-qwen3.5-122b-a10b",
     "qwen-qwen3.5-27b",
     "qwen-qwen3.5-35b-a3b",
     "qwen-qwen3.5-397b-a17b",
@@ -211,7 +208,6 @@
     "sesame-csm-1b",
     "shibing624-text2vec-base-chinese",
     "stabilityai-sdxl-turbo",
-    "stepfun-ai-step-3.7-flash",
     "tencent-hy3",
     "thenlper-gte-base",
     "thenlper-gte-large",
@@ -233,7 +229,6 @@
     "xiaomimimo-mimo-v2.6-pro",
     "zai-org-glm-4.6",
     "zai-org-glm-4.7",
-    "zai-org-glm-5.1",
     "zai-org-glm-5.2",
     "zai-org-glm-5.3",
     "zai-org-glm-5.3-flash"

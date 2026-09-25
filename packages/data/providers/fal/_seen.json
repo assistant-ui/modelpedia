@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-24",
-  "count": 1496,
+  "date": "2026-09-25",
+  "count": 1499,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -353,6 +353,7 @@
     "fal-ai-flux-2-trainer-v2-edit",
     "fal-ai-flux-2-turbo",
     "fal-ai-flux-2-turbo-edit",
+    "fal-ai-flux-3-action-so101",
     "fal-ai-flux-control-lora-canny",
     "fal-ai-flux-control-lora-canny-image-to-image",
     "fal-ai-flux-control-lora-depth",
@@ -1348,8 +1349,10 @@
     "minimax-h3-i2v-trainer",
     "minimax-h3-image-to-video",
     "minimax-h3-image-to-video-lora",
+    "minimax-h3-max-3d-to-video",
     "minimax-h3-max-camera-controls",
     "minimax-h3-max-director",
+    "minimax-h3-max-extend-video",
     "minimax-h3-max-image-to-video",
     "minimax-h3-max-lip-sync-image-to-video",
     "minimax-h3-max-reference-to-video",

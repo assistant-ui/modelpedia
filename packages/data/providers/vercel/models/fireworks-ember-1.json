@@ -1,19 +1,19 @@
 {
-  "id": "deepseek/deepseek-v4-flash-0731",
-  "name": "deepseek-v4-flash-0731",
-  "created_by": "deepseek",
+  "id": "fireworks/ember-1",
+  "name": "ember-1",
+  "created_by": "fireworks",
   "source": "official",
-  "family": "deepseek",
   "context_window": 1000000,
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
+    "vision": true,
     "tool_call": true,
     "reasoning": true
   },
   "pricing": {
-    "input": 0.03,
-    "output": 0.15
+    "input": 3,
+    "output": 15
   },
   "modalities": {
     "input": ["text"],
@@ -21,12 +21,11 @@
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "1234d659",
-    "family": "4b81b92d",
+    "name": "1a6e738f",
     "context_window": "8155bc54",
     "model_type": "d669f408",
-    "capabilities": "a281e83a",
-    "pricing": "df889084",
+    "capabilities": "a19166f1",
+    "pricing": "7939f0ff",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },

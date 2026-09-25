@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-24",
-  "count": 123,
+  "date": "2026-09-25",
+  "count": 124,
   "ids": [
     "851-labs-background-remover",
     "adirik-flux-cinestill",
@@ -98,6 +98,7 @@
     "proplabs-photo-enhancement",
     "proplabs-sky-replacement",
     "proplabs-virtual-renovation",
+    "prunaai-p-image-edit",
     "prunaai-p-image-ideogram",
     "prunaai-p-image-upscale",
     "prunaai-p-video",

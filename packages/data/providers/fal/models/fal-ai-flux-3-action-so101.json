@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/flux-3-action/so101",
+  "name": "Flux 3 Action",
+  "created_by": "fal",
+  "source": "official",
+  "description": "FLUX 3 Action turns what the robot sees into what it does next.",
+  "status": "active",
+  "release_date": "2026-09-24",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/flux-3-action/so101",
+  "tagline": "FLUX 3 Action turns what the robot sees into what it does next.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-09-24",
+  "_generated": {
+    "name": "ab8658eb",
+    "description": "52c36c23",
+    "status": "379ac110",
+    "release_date": "0f588381",
+    "model_type": "ddb0b7bc",
+    "page_url": "fc7c5947",
+    "tagline": "52c36c23",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "0f588381"
+  },
+  "last_updated": "2026-09-25"
+}

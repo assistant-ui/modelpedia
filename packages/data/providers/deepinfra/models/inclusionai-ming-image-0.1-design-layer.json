@@ -16,7 +16,7 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "pricing_notes": ["$0.0150 per image unit (1024x1024 default)"],
+  "pricing_notes": ["$0.0100 per image unit (1024x1024 default)"],
   "_generated": {
     "name": "79f98bf1",
     "description": "de62fe09",
@@ -27,7 +27,7 @@
     "capabilities": "0fa77dc6",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc",
-    "pricing_notes": "e74ac96d"
+    "pricing_notes": "1c097086"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-09-25"
 }
