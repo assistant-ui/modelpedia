@@ -3,7 +3,7 @@
   "name": "openai/gpt-5.4",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-09-26",
   "family": "gpt-5.4",
   "capabilities": {
     "streaming": true
@@ -22,7 +22,8 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "modalities": "68e53d93",
-    "pricing_notes": "775b61ea"
+    "pricing_notes": "775b61ea",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "license": "proprietary",
@@ -33,5 +34,6 @@
   },
   "pricing_notes": [
     "Input ranges $2.5 to $5, output ranges $15 to $22.5 per 1M tokens."
-  ]
+  ],
+  "status": "deprecated"
 }

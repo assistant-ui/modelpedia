@@ -3,7 +3,7 @@
   "name": "qwen3.5",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-08-16",
+  "last_updated": "2026-09-26",
   "family": "qwen3.5",
   "capabilities": {
     "streaming": true,
@@ -27,7 +27,8 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
     "reasoning_tokens": "b326b506",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "description": "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance.",
@@ -43,5 +44,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

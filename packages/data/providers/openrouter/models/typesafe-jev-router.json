@@ -1,0 +1,23 @@
+{
+  "id": "typesafe/jev-router",
+  "name": "TypeSafe: Jev Router",
+  "created_by": "typesafe",
+  "source": "official",
+  "description": "Jev Router picks the best model and reasoning effort for each request, balancing quality, speed, and cost.",
+  "release_date": "2026-09-25",
+  "context_window": 1000000,
+  "tagline": "Jev Router picks the best model and reasoning effort for each request, balancing quality, speed, and cost.",
+  "modalities": {
+    "input": ["audio", "image", "text", "video"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "ccd804b0",
+    "description": "47df2bf6",
+    "release_date": "be1d3a3a",
+    "context_window": "8155bc54",
+    "tagline": "47df2bf6",
+    "modalities": "b7a3ac68"
+  },
+  "last_updated": "2026-09-26"
+}

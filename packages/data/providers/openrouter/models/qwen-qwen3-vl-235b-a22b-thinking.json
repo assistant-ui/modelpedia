@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 VL 235B A22B Thinking",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-08-13",
+  "last_updated": "2026-09-26",
   "family": "qwen3",
   "description": "Qwen3-VL-235B-A22B Thinking is a multimodal model that unifies strong text generation with visual understanding across images and video.",
   "context_window": 131072,
@@ -36,12 +36,16 @@
     "active_parameters": "b6d767d2",
     "release_date": "142ddad6",
     "tagline": "dec01289",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc",
+    "deprecation_date": "2020d4ea"
   },
   "model_type": "chat",
   "parameters": 235,
   "active_parameters": 22,
   "release_date": "2025-09-23",
   "tagline": "Qwen3-VL-235B-A22B Thinking is a multimodal model that unifies strong text generation with visual understanding across images and video.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated",
+  "deprecation_date": "2026-10-09"
 }

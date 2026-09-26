@@ -1,0 +1,39 @@
+{
+  "id": "perceptron/perceptron-mk1.5",
+  "name": "Perceptron: Perceptron Mk1.5",
+  "created_by": "perceptron",
+  "source": "official",
+  "description": "Perceptron Mk1.5 is Perceptron's embodied reasoning model for physical agents.",
+  "release_date": "2026-09-25",
+  "context_window": 36864,
+  "max_output_tokens": 8192,
+  "tagline": "Perceptron Mk1.5 is Perceptron's embodied reasoning model for physical agents.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 1.5
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "b2f67766",
+    "description": "88c2719c",
+    "release_date": "be1d3a3a",
+    "context_window": "d6e5dc29",
+    "max_output_tokens": "77441296",
+    "tagline": "88c2719c",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "364bf28e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-26"
+}

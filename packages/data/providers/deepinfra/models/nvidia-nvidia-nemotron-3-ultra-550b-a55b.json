@@ -19,7 +19,7 @@
     "streaming": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "pricing": {
@@ -39,12 +39,12 @@
     "open_weight": "b326b506",
     "tagline": "2408bec4",
     "capabilities": "d0cb1dc1",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "pricing": "682ce974",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "0e8a48ee"
   },
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-09-26",
   "quantization": "fp4"
 }

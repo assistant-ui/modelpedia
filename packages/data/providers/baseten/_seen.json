@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-24",
-  "count": 19,
+  "date": "2026-09-26",
+  "count": 21,
   "ids": [
     "deepseek-ai",
     "deepseek-v3-1",
@@ -18,7 +18,9 @@
     "qwen-image-2512",
     "qwen3-5-122b-a10b",
     "qwen3-5-35b-a3b",
+    "qwen3-6-27b",
     "qwen3.5",
+    "qwen3.6",
     "whisper-large-turbo",
     "whisper-large-v3"
   ]

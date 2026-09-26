@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-25",
-  "count": 123,
+  "date": "2026-09-26",
+  "count": 122,
   "ids": [
     "codellama-codellama-7b-instruct-hf",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
@@ -113,7 +113,6 @@
     "unsloth-qwen3-8b",
     "upstage-solar-10.7b-instruct-v1.0",
     "vikhrmodels-vikhr-nemo-12b-instruct-r-21-09-24",
-    "zai-org-glm-4.5",
     "zai-org-glm-4.5-air",
     "zai-org-glm-4.7",
     "zai-org-glm-4.7-flash",

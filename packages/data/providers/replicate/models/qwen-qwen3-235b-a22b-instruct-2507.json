@@ -1,0 +1,22 @@
+{
+  "id": "qwen/qwen3-235b-a22b-instruct-2507",
+  "name": "Qwen3 235b A22b Instruct 2507",
+  "created_by": "alibaba",
+  "source": "official",
+  "family": "qwen3",
+  "status": "active",
+  "model_type": "other",
+  "parameters": 235,
+  "active_parameters": 22,
+  "page_url": "https://replicate.com/qwen/qwen3-235b-a22b-instruct-2507",
+  "_generated": {
+    "name": "55cb24a7",
+    "family": "48c385a0",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "parameters": "577ef115",
+    "active_parameters": "b6d767d2",
+    "page_url": "e3ed39cd"
+  },
+  "last_updated": "2026-09-26"
+}

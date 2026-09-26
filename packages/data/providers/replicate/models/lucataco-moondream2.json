@@ -3,14 +3,14 @@
   "name": "Moondream2",
   "created_by": "lucataco",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/lucataco/moondream2",
   "_generated": {
     "name": "ab6b7107",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "22503ee4"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-09-26"
 }

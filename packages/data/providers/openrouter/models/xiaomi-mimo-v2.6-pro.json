@@ -6,7 +6,7 @@
   "family": "mimo",
   "description": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi.",
   "release_date": "2026-09-21",
-  "context_window": 1048576,
+  "context_window": 1050000,
   "max_output_tokens": 131072,
   "model_type": "chat",
   "tagline": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi.",
@@ -31,7 +31,7 @@
     "family": "1a23786e",
     "description": "bf70676d",
     "release_date": "a4195392",
-    "context_window": "7d28a051",
+    "context_window": "f170ebb2",
     "max_output_tokens": "f7de594e",
     "model_type": "d669f408",
     "tagline": "bf70676d",
@@ -40,5 +40,5 @@
     "pricing": "30730939",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-22"
+  "last_updated": "2026-09-26"
 }

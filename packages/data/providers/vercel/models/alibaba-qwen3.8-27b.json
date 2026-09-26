@@ -14,7 +14,7 @@
     "reasoning": true
   },
   "pricing": {
-    "input": 0.1,
+    "input": 0.09,
     "output": 0.4
   },
   "modalities": {
@@ -29,9 +29,9 @@
     "model_type": "d669f408",
     "parameters": "02e74f10",
     "capabilities": "a19166f1",
-    "pricing": "aa5a4e42",
+    "pricing": "dde01c34",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-26"
 }

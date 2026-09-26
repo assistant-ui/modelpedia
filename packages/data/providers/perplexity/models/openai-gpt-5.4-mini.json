@@ -27,7 +27,9 @@
     "capabilities": "0fa77dc6",
     "pricing": "af280cc2",
     "open_weight": "68934a3e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-09-26",
+  "status": "deprecated"
 }

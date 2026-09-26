@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-25",
-  "count": 230,
+  "date": "2026-09-26",
+  "count": 231,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -133,7 +133,7 @@
     "nousresearch-hermes-3-llama-3.1-70b",
     "nvidia-llama-nemotron-embed-vl-1b-v2",
     "nvidia-llama-nemotron-rerank-vl-1b-v2",
-    "nvidia-nemotron-3-diarization-preview",
+    "nvidia-nemotron-3-diarization",
     "nvidia-nemotron-3-embed-1b-bf16",
     "nvidia-nemotron-3-embed-1b-nvfp4",
     "nvidia-nemotron-3-embed-8b",
@@ -209,6 +209,7 @@
     "shibing624-text2vec-base-chinese",
     "stabilityai-sdxl-turbo",
     "tencent-hy3",
+    "tencent-hy4-preview",
     "thenlper-gte-base",
     "thenlper-gte-large",
     "thinkingmachines-inkling",

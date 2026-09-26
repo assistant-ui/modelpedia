@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-24",
-  "count": 329,
+  "date": "2026-09-26",
+  "count": 330,
   "ids": [
     "cogito-cogito-671b-v2-p1",
     "deepseek-ai-deepseek-v3p1-terminus",
@@ -151,6 +151,7 @@
     "fireworks-llama4-scout-instruct-basic",
     "fireworks-llamaguard-7b",
     "fireworks-llava-yi-34b",
+    "fireworks-mimo-v2p6-pro-rl",
     "fireworks-minimax-m1-80k",
     "fireworks-minimax-m2",
     "fireworks-minimax-m2p1",
