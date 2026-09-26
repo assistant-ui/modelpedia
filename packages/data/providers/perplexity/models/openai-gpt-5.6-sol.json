@@ -22,16 +22,16 @@
     "capabilities": "0fa77dc6",
     "open_weight": "68934a3e",
     "modalities": "68e53d93",
-    "pricing": "d9234945",
-    "pricing_notes": "a5e6aa9a"
+    "pricing": "b413c466",
+    "pricing_notes": "cb3e67d0"
   },
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-09-26",
   "pricing": {
-    "input": 5,
-    "output": 30,
-    "cached_input": 0.5
+    "input": 4,
+    "output": 20,
+    "cached_input": 0.4
   },
   "pricing_notes": [
-    "Input ranges $5 to $10, output ranges $30 to $45 per 1M tokens."
+    "Input ranges $4 to $8, output ranges $20 to $30 per 1M tokens."
   ]
 }

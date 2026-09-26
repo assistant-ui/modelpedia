@@ -1,0 +1,29 @@
+{
+  "id": "deepseek-ai/deepseek-v3.1",
+  "name": "Deepseek V3.1",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://replicate.com/deepseek-ai/deepseek-v3.1",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "561d99aa",
+    "family": "4b81b92d",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "fe73845f",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-09-26"
+}

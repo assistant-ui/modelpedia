@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-25",
-  "count": 1499,
+  "date": "2026-09-26",
+  "count": 1502,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -89,6 +89,7 @@
     "bytedance-seedance-2.0-us-image-to-video",
     "bytedance-seedance-2.0-us-reference-to-video",
     "bytedance-seedance-2.0-us-text-to-video",
+    "bytedance-seedance-2.5-draft-complete",
     "bytedance-seedance-2.5-image-to-video",
     "bytedance-seedance-2.5-reference-to-video",
     "bytedance-seedance-2.5-text-to-video",
@@ -1282,6 +1283,8 @@
     "fal-ai-z-image-turbo-trainer-v2",
     "fal-ai-zonos",
     "fal-ai-zonos2",
+    "google-gemini-3.8-flash-lite-tts",
+    "google-gemini-3.8-flash-tts",
     "google-gemini-omni-flash",
     "google-gemini-omni-flash-edit",
     "google-gemini-omni-flash-image-to-video",

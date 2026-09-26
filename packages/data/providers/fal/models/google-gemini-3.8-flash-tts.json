@@ -1,0 +1,33 @@
+{
+  "id": "google/gemini-3.8-flash-tts",
+  "name": "Gemini 3.8 Flash TTS",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.8",
+  "description": "Generate expressive speech with Gemini 3.8 Flash TTS.",
+  "status": "active",
+  "release_date": "2026-09-25",
+  "model_type": "tts",
+  "page_url": "https://fal.run/google/gemini-3.8-flash-tts",
+  "tagline": "Generate expressive speech with Gemini 3.8 Flash TTS.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-09-25",
+  "_generated": {
+    "name": "0c1c514e",
+    "family": "d937426a",
+    "description": "4ffcfc39",
+    "status": "379ac110",
+    "release_date": "be1d3a3a",
+    "model_type": "4e16a2cf",
+    "page_url": "4d9e3ebd",
+    "tagline": "4ffcfc39",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "be1d3a3a"
+  },
+  "last_updated": "2026-09-26"
+}

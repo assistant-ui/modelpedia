@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-24",
-  "count": 79,
+  "date": "2026-09-26",
+  "count": 80,
   "ids": [
     "big-pickle",
     "claude-fable-5",
@@ -80,6 +80,7 @@
     "qwen3.7-max",
     "qwen3.7-plus",
     "qwen3.8-flash",
+    "qwen3.8-max",
     "space-bunny-free"
   ]
 }

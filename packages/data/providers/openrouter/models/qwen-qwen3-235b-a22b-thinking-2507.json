@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 235B A22B Thinking 2507",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-26",
   "family": "qwen3",
   "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks.",
   "context_window": 131072,
@@ -38,7 +38,7 @@
     "tools": "f0c1dc7e",
     "max_output_tokens": "242f56a4",
     "status": "2e2f74dc",
-    "deprecation_date": "c48b287d"
+    "deprecation_date": "2020d4ea"
   },
   "model_type": "chat",
   "parameters": 235,
@@ -49,5 +49,5 @@
   "tools": ["function_calling"],
   "max_output_tokens": 117964,
   "status": "deprecated",
-  "deprecation_date": "2026-04-22"
+  "deprecation_date": "2026-10-09"
 }

@@ -1,0 +1,31 @@
+{
+  "id": "nvidia/Nemotron-3-Diarization",
+  "name": "Nemotron-3-Diarization",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Nemotron 3 Diarization is an open-weight streaming Sortformer model, engineered for low-latency speaker diarization across up to 8 speakers, ordered by arrival time. It powers meeting transcription, call analytics, and voice-agent pipelines—resolving who spoke when with generic speaker labels and timestamps in a single streaming pass, offline or in real time.",
+  "status": "active",
+  "model_type": "transcription",
+  "open_weight": true,
+  "tagline": "Nemotron 3 Diarization is an open-weight streaming Sortformer model, engineered for low-latency speaker diarization across up to 8 speakers, ordered by arrival time.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "_generated": {
+    "name": "86c1e640",
+    "description": "1763ed2b",
+    "status": "379ac110",
+    "model_type": "5e12d29a",
+    "open_weight": "b326b506",
+    "tagline": "7c04c751",
+    "capabilities": "0fa77dc6",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0"
+  },
+  "last_updated": "2026-09-26"
+}

@@ -5,7 +5,7 @@
   "source": "official",
   "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total.",
   "release_date": "2026-07-17",
-  "context_window": 1048576,
+  "context_window": 524288,
   "tagline": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total.",
   "capabilities": {
     "tool_call": true,
@@ -27,7 +27,7 @@
     "name": "868209f4",
     "description": "f2a134f0",
     "release_date": "4d92f2b5",
-    "context_window": "7d28a051",
+    "context_window": "bcabf6a1",
     "tagline": "f2a134f0",
     "capabilities": "9346c8a7",
     "modalities": "05efe8aa",
@@ -35,6 +35,6 @@
     "tools": "f0c1dc7e",
     "max_output_tokens": "552badfe"
   },
-  "last_updated": "2026-09-13",
+  "last_updated": "2026-09-26",
   "max_output_tokens": 471859
 }
