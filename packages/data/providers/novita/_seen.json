@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-24",
-  "count": 122,
+  "date": "2026-09-27",
+  "count": 125,
   "ids": [
     "baichuan-baichuan-m2-32b",
     "baidu-cobuddy",
@@ -21,10 +21,13 @@
     "deepseek-deepseek-v3.2-exp",
     "deepseek-deepseek-v4-flash",
     "deepseek-deepseek-v4-flash-0731",
+    "deepseek-deepseek-v4-flash-0731-p",
     "deepseek-deepseek-v4-flash-vision-exp",
     "deepseek-deepseek-v4-pro",
     "deepseek-deepseek-v4-pro-0813",
+    "deepseek-deepseek-v4-pro-0813-p",
     "deepseek-deepseek-v4.1-flash",
+    "deepseek-deepseek-v4.1-flash-dst",
     "deepseek-deepseek-v4.1-flash-p",
     "deepseek-deepseek_v3",
     "dev-glm46",

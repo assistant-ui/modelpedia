@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-26",
-  "count": 369,
+  "date": "2026-09-27",
+  "count": 370,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -167,6 +167,7 @@
     "klingai-kling-v3.0-i2v",
     "klingai-kling-v3.0-motion-control",
     "klingai-kling-v3.0-t2v",
+    "meituan-longcat-2.5-preview",
     "meta-llama-3.1-70b",
     "meta-llama-3.1-8b",
     "meta-llama-3.3-70b",

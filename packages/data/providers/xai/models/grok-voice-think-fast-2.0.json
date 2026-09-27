@@ -12,7 +12,7 @@
     "output": ["audio"]
   },
   "open_weight": false,
-  "pricing_notes": ["$0.08 / min ($4.80 / hr) audio; $0.004 / text input."],
+  "pricing_notes": ["$0.08 / min ($4.80 / hr); $0.004 / text input."],
   "_generated": {
     "name": "6311eef1",
     "status": "379ac110",
@@ -21,7 +21,7 @@
     "page_url": "053acbe7",
     "modalities": "5632d7e9",
     "open_weight": "68934a3e",
-    "pricing_notes": "74d6055a"
+    "pricing_notes": "4fc37837"
   },
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-09-27"
 }

@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-26",
-  "count": 42,
+  "date": "2026-09-27",
+  "count": 41,
   "ids": [
     "anthropic-claude-fable-5",
     "anthropic-claude-fable-5-1",
@@ -29,7 +29,6 @@
     "openai-gpt-6-luna",
     "openai-gpt-6-sol",
     "perplexity-glm-5.3",
-    "perplexity-kimi-k2.7-code",
     "perplexity-kimi-k3",
     "perplexity-nemotron-3-ultra-550b-a55b",
     "perplexity-sonar",

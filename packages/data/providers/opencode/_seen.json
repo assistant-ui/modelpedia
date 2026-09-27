@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-26",
-  "count": 80,
+  "date": "2026-09-27",
+  "count": 81,
   "ids": [
     "big-pickle",
     "claude-fable-5",
@@ -65,6 +65,7 @@
     "kimi-k2.7-code",
     "kimi-k3",
     "ling-3.0-flash-fin-free",
+    "longcat-2.5-preview-free",
     "mimo-v2.5-free",
     "mimo-v2.6-flash-free",
     "minimax-m2.5",

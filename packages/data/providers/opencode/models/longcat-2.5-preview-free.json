@@ -1,0 +1,16 @@
+{
+  "id": "longcat-2.5-preview-free",
+  "name": "LongCat 2.5 Preview Free",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "ecc0e5c9",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-09-27"
+}
