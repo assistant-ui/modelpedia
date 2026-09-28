@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-27",
-  "count": 370,
+  "date": "2026-09-28",
+  "count": 368,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -283,8 +283,6 @@
     "perplexity-pplx-embed-v1-4b",
     "perplexity-search",
     "perplexity-sonar",
-    "perplexity-sonar-pro",
-    "perplexity-sonar-reasoning-pro",
     "poolside-laguna-s-2.1",
     "poolside-laguna-s-2.1-free",
     "prodia-flux-fast-schnell",

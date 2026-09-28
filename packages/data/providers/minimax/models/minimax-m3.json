@@ -4,7 +4,7 @@
   "created_by": "minimax",
   "source": "official",
   "family": "minimax",
-  "description": "Latest M-series language model for agentic reasoning, tool use, coding, and long-context tasks",
+  "description": "Frontier multimodal coding model with 1M context window",
   "context_window": 1000000,
   "license": "proprietary",
   "model_type": "chat",
@@ -27,7 +27,7 @@
   "_generated": {
     "name": "fdf91d1b",
     "family": "c85916f0",
-    "description": "c9354b32",
+    "description": "305deebc",
     "context_window": "8155bc54",
     "license": "9186c466",
     "model_type": "d669f408",
@@ -38,5 +38,5 @@
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-09-28"
 }

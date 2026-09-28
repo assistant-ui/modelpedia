@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-27",
-  "count": 123,
+  "date": "2026-09-28",
+  "count": 124,
   "ids": [
     "codellama-codellama-7b-instruct-hf",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
@@ -44,6 +44,7 @@
     "ornith-ai-ornith-1.5-9b",
     "osllmai-community-llama-3.2-1b",
     "primeintellect-qwen3-0.6b",
+    "primeintellect-qwen3-1.7b",
     "qwen-qwen1.5-0.5b-chat",
     "qwen-qwen1.5-1.8b-chat",
     "qwen-qwen2-0.5b-instruct",
@@ -113,7 +114,7 @@
     "unsloth-qwen3-8b",
     "upstage-solar-10.7b-instruct-v1.0",
     "vikhrmodels-vikhr-nemo-12b-instruct-r-21-09-24",
-    "zai-org-glm-4.5",
+    "xenova-sweep-next-edit-1.5b",
     "zai-org-glm-4.5-air",
     "zai-org-glm-4.7",
     "zai-org-glm-4.7-flash",

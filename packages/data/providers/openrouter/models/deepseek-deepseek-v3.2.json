@@ -3,7 +3,7 @@
   "name": "DeepSeek: DeepSeek V3.2",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-09-20",
+  "last_updated": "2026-09-28",
   "family": "deepseek",
   "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance.",
   "context_window": 163840,
@@ -18,9 +18,9 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.269,
-    "output": 0.4,
-    "cached_input": 0.134
+    "input": 0.28,
+    "output": 0.42,
+    "cached_input": 0.028
   },
   "_generated": {
     "name": "677e2c97",
@@ -29,7 +29,7 @@
     "context_window": "7edab444",
     "modalities": "68e53d93",
     "capabilities": "03fbefb4",
-    "pricing": "8608ce2b",
+    "pricing": "f1b8e1d4",
     "release_date": "0452719b",
     "tagline": "fe1de924",
     "tools": "f0c1dc7e",

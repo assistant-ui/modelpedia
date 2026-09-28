@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "count": 126,
   "ids": [
     "851-labs-background-remover",
@@ -63,9 +63,10 @@
     "ideogram-ai-ideogram-character",
     "inworld-realtime-tts-1.5-mini",
     "inworld-realtime-tts-2",
-    "jaaari-kokoro-82m",
+    "karthiksync-blitz",
     "krea-krea-2-medium",
     "kwaivgi-kling-v3-omni-video",
+    "littletry-compress-image",
     "littletry-video-nsfw-filter",
     "lucataco-deepseek-ocr",
     "lucataco-gpt-oss-safeguard-20b",
@@ -98,7 +99,6 @@
     "proplabs-photo-enhancement",
     "proplabs-sky-replacement",
     "proplabs-virtual-renovation",
-    "prunaai-p-image",
     "prunaai-p-image-edit",
     "prunaai-p-image-ideogram",
     "prunaai-p-image-upscale",

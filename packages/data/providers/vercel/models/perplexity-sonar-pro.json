@@ -3,7 +3,7 @@
   "name": "sonar-pro",
   "created_by": "perplexity",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-09-28",
   "context_window": 200000,
   "capabilities": {
     "streaming": true,
@@ -22,7 +22,8 @@
     "family": "8b8f2acb",
     "model_type": "d669f408",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "family": "sonar",
   "model_type": "chat",
@@ -30,5 +31,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

@@ -1,0 +1,33 @@
+{
+  "id": "Xenova/sweep-next-edit-1.5B",
+  "name": "sweep-next-edit-1.5B",
+  "created_by": "xenova",
+  "source": "official",
+  "description": "A 1.5B parameter model for next-edit autocomplete, converted to ONNX format (as well as fp32 HF transformers-compatible version).",
+  "release_date": "2026-01-23",
+  "context_window": 32768,
+  "license": "apache-2.0",
+  "parameters": 1.4,
+  "page_url": "https://huggingface.co/Xenova/sweep-next-edit-1.5B",
+  "architecture": "transformer",
+  "tagline": "A 1.5B parameter model for next-edit autocomplete, converted to ONNX format (as well as fp32 HF transformers-compatible version).",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "115ab13e",
+    "description": "b59a095a",
+    "release_date": "661f8f2e",
+    "context_window": "f4376436",
+    "license": "60245731",
+    "parameters": "9e605ce3",
+    "page_url": "e686413f",
+    "architecture": "8832ea0f",
+    "tagline": "b59a095a",
+    "capabilities": "9c665f5d",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-09-28"
+}
