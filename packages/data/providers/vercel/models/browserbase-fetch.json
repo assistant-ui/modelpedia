@@ -1,0 +1,19 @@
+{
+  "id": "browserbase/fetch",
+  "name": "fetch",
+  "created_by": "browserbase",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "33128cde",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-09-29"
+}

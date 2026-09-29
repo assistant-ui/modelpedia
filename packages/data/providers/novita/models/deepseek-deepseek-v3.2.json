@@ -5,7 +5,7 @@
   "source": "official",
   "family": "deepseek",
   "description": "We introduce DeepSeek-V3.2, a next-generation foundation model designed to unify high computational efficiency with state-of-the-art reasoning and agentic performance.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-12-01",
   "context_window": 163840,
   "max_output_tokens": 65536,
@@ -32,7 +32,7 @@
     "name": "da28e7f5",
     "family": "4b81b92d",
     "description": "bda07f93",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "0452719b",
     "context_window": "7edab444",
     "max_output_tokens": "297ce0b3",
@@ -44,5 +44,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-09-29"
 }

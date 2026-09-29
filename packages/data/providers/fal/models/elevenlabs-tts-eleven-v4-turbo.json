@@ -1,0 +1,37 @@
+{
+  "id": "elevenlabs/tts/eleven-v4-turbo",
+  "name": "Eleven v4 Turbo",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "family": "tts",
+  "description": "Generate speech with Eleven v4 Turbo from ElevenLabs.",
+  "status": "active",
+  "release_date": "2026-09-28",
+  "model_type": "tts",
+  "page_url": "https://fal.run/elevenlabs/tts/eleven-v4-turbo",
+  "tagline": "Generate speech with Eleven v4 Turbo from ElevenLabs.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-09-28",
+  "_generated": {
+    "name": "f0c3bd34",
+    "family": "4e16a2cf",
+    "description": "452097f6",
+    "status": "379ac110",
+    "release_date": "1ec3c8a2",
+    "model_type": "4e16a2cf",
+    "page_url": "81bad080",
+    "tagline": "452097f6",
+    "capabilities": "0fa77dc6",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "1ec3c8a2"
+  },
+  "last_updated": "2026-09-29"
+}

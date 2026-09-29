@@ -5,7 +5,7 @@
   "source": "official",
   "family": "deepseek-r1",
   "description": "DeepSeek R1 Distill LLama 70B",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-01-27",
   "context_window": 8192,
   "max_output_tokens": 8192,
@@ -29,7 +29,7 @@
     "name": "006fe90e",
     "family": "c74cfb8e",
     "description": "b937b51e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "16f4b872",
     "context_window": "77441296",
     "max_output_tokens": "77441296",
@@ -41,5 +41,5 @@
     "pricing": "7a3cce81",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-09-29"
 }

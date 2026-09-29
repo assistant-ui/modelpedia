@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-27",
-  "count": 29,
+  "date": "2026-09-29",
+  "count": 30,
   "ids": [
     "deepseek-v4-pro",
     "deepseek-v4.1-flash",
@@ -14,7 +14,6 @@
     "kimi-k2.6",
     "kimi-k2.7-code",
     "kimi-k3",
-    "laguna-s-2.1",
     "medgemma",
     "minimax-m2.7",
     "minimax-m3",
@@ -26,10 +25,12 @@
     "nemotron-3-ultra",
     "nemotron-3.5-lightning",
     "nemotron3",
+    "nimble",
     "ornith",
     "ornith-1.5",
     "qwen3.6",
     "qwen3.8",
-    "qwen3.8-flash-next"
+    "qwen3.8-flash-next",
+    "tev1"
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "id": "nimble",
+  "name": "nimble",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "A 9B decision model from Bespoke Labs for fast, typed classification.",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "parameters": 9,
+  "page_url": "https://ollama.com/library/nimble",
+  "open_weight": true,
+  "tagline": "A 9B decision model from Bespoke Labs for fast, typed classification.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "a9acee05",
+    "description": "54f70a0c",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "parameters": "45c48cce",
+    "page_url": "9cd68397",
+    "open_weight": "b326b506",
+    "tagline": "54f70a0c",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-29"
+}

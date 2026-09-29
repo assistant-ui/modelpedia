@@ -4,7 +4,7 @@
   "created_by": "deepseek",
   "source": "official",
   "family": "deepseek",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-02-14",
   "context_window": 64000,
   "max_output_tokens": 8000,
@@ -26,7 +26,7 @@
   "_generated": {
     "name": "db0e8dd6",
     "family": "4b81b92d",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "d9b395e4",
     "context_window": "762e98db",
     "max_output_tokens": "67ff32d4",
@@ -37,5 +37,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-09-29"
 }

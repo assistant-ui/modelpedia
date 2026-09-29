@@ -3,7 +3,7 @@
   "name": "GPT-Image-1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-09-29",
   "family": "gpt-image-1",
   "description": "GPT Image 1 is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.",
   "status": "deprecated",
@@ -91,7 +91,7 @@
     "capabilities": "ec32b5a4",
     "deprecation_date": "c48b287d",
     "retirement_date": "68185e3b",
-    "successor": "c79be345"
+    "successor": "90f6585f"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-image-1",
@@ -108,5 +108,5 @@
   },
   "deprecation_date": "2026-04-22",
   "retirement_date": "2026-10-23",
-  "successor": "gpt-image-2"
+  "successor": "gpt-image-2.5-sunburst"
 }

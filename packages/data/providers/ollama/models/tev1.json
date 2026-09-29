@@ -1,0 +1,34 @@
+{
+  "id": "tev1",
+  "name": "tev1",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "A 4B decision model from Together AI for fast classification.",
+  "context_window": 262144,
+  "license": "mit",
+  "parameters": 4,
+  "page_url": "https://ollama.com/library/tev1",
+  "open_weight": true,
+  "tagline": "A 4B decision model from Together AI for fast classification.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "c3564c34",
+    "description": "e43f4ee6",
+    "context_window": "4a1d32eb",
+    "license": "3c4c3ba5",
+    "parameters": "a87ff679",
+    "page_url": "ecce48a4",
+    "open_weight": "b326b506",
+    "tagline": "e43f4ee6",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-09-29"
+}

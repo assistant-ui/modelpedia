@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-26",
-  "count": 1502,
+  "date": "2026-09-29",
+  "count": 1503,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -116,6 +116,8 @@
     "decart-lucy2-vton-realtime",
     "elevenlabs-music-v2",
     "elevenlabs-music-v2.5",
+    "elevenlabs-tts-eleven-v4",
+    "elevenlabs-tts-eleven-v4-turbo",
     "fal-ai-ace-step",
     "fal-ai-ace-step-audio-inpaint",
     "fal-ai-ace-step-audio-outpaint",
@@ -174,7 +176,6 @@
     "fal-ai-bytedance-upscaler-upscale-video",
     "fal-ai-cartoonify",
     "fal-ai-cat-vton",
-    "fal-ai-ccsr",
     "fal-ai-chatterbox-speech-to-speech",
     "fal-ai-chatterbox-text-to-speech",
     "fal-ai-chatterbox-text-to-speech-multilingual",

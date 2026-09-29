@@ -3,7 +3,7 @@
   "name": "sonar",
   "created_by": "perplexity",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-09-29",
   "family": "sonar",
   "capabilities": {
     "streaming": true,
@@ -25,7 +25,7 @@
     "description": "a008b134",
     "context_window": "34434798",
     "tagline": "c5b3b715",
-    "page_url": "cae76267",
+    "page_url": "5a829418",
     "modalities": "68e53d93"
   },
   "model_type": "chat",
@@ -35,7 +35,7 @@
   "description": "A lightweight, cost-effective search model optimized for quick, grounded answers with real-time web search.",
   "context_window": 128000,
   "tagline": "Fast answers with reliable search results",
-  "page_url": "https://docs.perplexity.ai/docs/sonar/models/sonar",
+  "page_url": "https://docs.perplexity.ai/docs/sonar/models/sonar-deep-research",
   "modalities": {
     "input": ["text"],
     "output": ["text"]

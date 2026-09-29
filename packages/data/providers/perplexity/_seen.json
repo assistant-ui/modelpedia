@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-27",
-  "count": 41,
+  "date": "2026-09-29",
+  "count": 38,
   "ids": [
     "anthropic-claude-fable-5",
     "anthropic-claude-fable-5-1",
@@ -33,9 +33,6 @@
     "perplexity-nemotron-3-ultra-550b-a55b",
     "perplexity-sonar",
     "sonar",
-    "sonar-deep-research",
-    "sonar-pro",
-    "sonar-reasoning-pro",
     "xai-grok-4.20-multi-agent",
     "xai-grok-4.20-non-reasoning",
     "xai-grok-4.20-reasoning",

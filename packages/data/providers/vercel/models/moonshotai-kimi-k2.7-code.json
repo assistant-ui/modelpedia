@@ -4,7 +4,7 @@
   "created_by": "moonshot",
   "source": "official",
   "family": "kimi-k2.7",
-  "context_window": 262100,
+  "context_window": 256000,
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -13,8 +13,8 @@
     "reasoning": true
   },
   "pricing": {
-    "input": 0.68,
-    "output": 3.4
+    "input": 0.95,
+    "output": 4
   },
   "modalities": {
     "input": ["text"],
@@ -24,12 +24,12 @@
   "_generated": {
     "name": "f0880691",
     "family": "4bc6ec57",
-    "context_window": "b23f4471",
+    "context_window": "2fd324cb",
     "model_type": "d669f408",
     "capabilities": "a19166f1",
-    "pricing": "cc1c07e5",
+    "pricing": "f2c3ebbf",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-15"
+  "last_updated": "2026-09-29"
 }

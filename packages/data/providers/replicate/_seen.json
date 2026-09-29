@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "count": 126,
   "ids": [
     "851-labs-background-remover",
@@ -66,11 +66,11 @@
     "karthiksync-blitz",
     "krea-krea-2-medium",
     "kwaivgi-kling-v3-omni-video",
-    "littletry-compress-image",
     "littletry-video-nsfw-filter",
     "lucataco-deepseek-ocr",
     "lucataco-gpt-oss-safeguard-20b",
     "lucataco-kontext-realearth",
+    "lucataco-moondream2",
     "lucataco-remove-bg",
     "luma-reframe-video",
     "m1guelpf-nsfw-filter",

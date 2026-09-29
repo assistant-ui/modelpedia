@@ -4,7 +4,7 @@
   "created_by": "openai",
   "source": "official",
   "release_date": "2026-07-13",
-  "context_window": 1000000,
+  "context_window": 1050000,
   "model_type": "chat",
   "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-sol",
   "capabilities": {
@@ -18,11 +18,13 @@
   "_generated": {
     "name": "927b849e",
     "release_date": "a393f093",
-    "context_window": "8155bc54",
+    "context_window": "f170ebb2",
     "model_type": "d669f408",
     "page_url": "0d29e68a",
     "capabilities": "8a3b232e",
-    "modalities": "8b8b28d1"
+    "modalities": "8b8b28d1",
+    "max_output_tokens": "34434798"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-09-29",
+  "max_output_tokens": 128000
 }

@@ -37,7 +37,9 @@
     "modalities": "68e53d93",
     "pricing": "46ee453c",
     "tools": "f0c1dc7e",
-    "endpoints": "d8fa1080"
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9"
   },
-  "last_updated": "2026-09-26"
+  "last_updated": "2026-09-29",
+  "quantization": "fp8"
 }

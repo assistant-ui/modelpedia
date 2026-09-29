@@ -3,7 +3,7 @@
   "name": "chatgpt-image-latest",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-09-29",
   "family": "chatgpt",
   "description": "This points to the Image snapshot previously used in ChatGPT. We recommend GPT-Image-2.5 Sunburst for API use.",
   "status": "deprecated",
@@ -93,7 +93,7 @@
     "capabilities": "ec32b5a4",
     "deprecation_date": "61fd683f",
     "retirement_date": "a96180df",
-    "successor": "c79be345"
+    "successor": "90f6585f"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/chatgpt-image-latest",
@@ -110,5 +110,5 @@
   },
   "deprecation_date": "2026-06-02",
   "retirement_date": "2026-12-01",
-  "successor": "gpt-image-2"
+  "successor": "gpt-image-2.5-sunburst"
 }

@@ -3,7 +3,7 @@
   "name": "sonar-deep-research",
   "created_by": "perplexity",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-09-29",
   "family": "sonar",
   "capabilities": {
     "streaming": true,
@@ -26,7 +26,8 @@
     "context_window": "34434798",
     "tagline": "7d9f13ca",
     "page_url": "5a829418",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "license": "proprietary",
@@ -39,5 +40,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

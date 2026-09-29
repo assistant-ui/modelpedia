@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-26",
-  "count": 330,
+  "date": "2026-09-29",
+  "count": 331,
   "ids": [
     "cogito-cogito-671b-v2-p1",
     "deepseek-ai-deepseek-v3p1-terminus",
@@ -71,6 +71,7 @@
     "fireworks-firefunction-v1",
     "fireworks-firefunction-v2",
     "fireworks-firellava-13b",
+    "fireworks-firerouter-opus",
     "fireworks-firesearch-ocr-v6",
     "fireworks-flux-1-dev-controlnet-union",
     "fireworks-flux-1-schnell",

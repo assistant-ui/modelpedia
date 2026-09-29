@@ -22,7 +22,9 @@
     "model_type": "d669f408",
     "page_url": "c47ad98f",
     "capabilities": "8a3b232e",
-    "modalities": "8b8b28d1"
+    "modalities": "8b8b28d1",
+    "max_output_tokens": "34434798"
   },
-  "last_updated": "2026-09-26"
+  "last_updated": "2026-09-29",
+  "max_output_tokens": 128000
 }
