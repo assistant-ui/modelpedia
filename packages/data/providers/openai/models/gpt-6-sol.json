@@ -3,7 +3,7 @@
   "name": "GPT-6 Sol",
   "created_by": "openai",
   "source": "official",
-  "description": "GPT-6 Sol is built for complex coding and agentic workflows.",
+  "description": "GPT-6 Sol is built for complex coding and agentic workflows. See GPT-6.1 Sol for the newer Sol model.",
   "knowledge_cutoff": "2026-04",
   "context_window": 1050000,
   "max_output_tokens": 128000,
@@ -79,7 +79,7 @@
   "snapshots": ["gpt-6-sol"],
   "_generated": {
     "name": "01ea068d",
-    "description": "f79f76b0",
+    "description": "25a94895",
     "knowledge_cutoff": "58654c5c",
     "context_window": "f170ebb2",
     "max_output_tokens": "34434798",
@@ -101,7 +101,7 @@
     "family": "16342494",
     "status": "379ac110"
   },
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-09-30",
   "family": "gpt-6",
   "status": "active"
 }

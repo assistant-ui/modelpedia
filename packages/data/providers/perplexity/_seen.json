@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-29",
-  "count": 38,
+  "date": "2026-09-30",
+  "count": 40,
   "ids": [
     "anthropic-claude-fable-5",
     "anthropic-claude-fable-5-1",
@@ -14,6 +14,7 @@
     "anthropic-claude-sonnet-4-5",
     "anthropic-claude-sonnet-4-6",
     "anthropic-claude-sonnet-5",
+    "anthropic-claude-sonnet-5-5",
     "google-gemini-3-flash-preview",
     "google-gemini-3.1-flash-lite",
     "google-gemini-3.1-pro-preview",
@@ -28,6 +29,7 @@
     "openai-gpt-5.6-terra",
     "openai-gpt-6-luna",
     "openai-gpt-6-sol",
+    "openai-gpt-6.1-sol",
     "perplexity-glm-5.3",
     "perplexity-kimi-k3",
     "perplexity-nemotron-3-ultra-550b-a55b",

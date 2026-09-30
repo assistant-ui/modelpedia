@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-29",
-  "count": 331,
+  "date": "2026-09-30",
+  "count": 330,
   "ids": [
     "cogito-cogito-671b-v2-p1",
     "deepseek-ai-deepseek-v3p1-terminus",
@@ -119,7 +119,6 @@
     "fireworks-kimi-k2p6",
     "fireworks-kimi-k2p7-code",
     "fireworks-kimi-k3",
-    "fireworks-kimi-pluto-v1",
     "fireworks-ling-3-flash",
     "fireworks-ling-3-flash-fin",
     "fireworks-llama-guard-2-8b",

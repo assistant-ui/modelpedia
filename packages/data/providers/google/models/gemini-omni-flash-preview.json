@@ -3,7 +3,7 @@
   "name": "gemini-omni-flash-preview",
   "created_by": "google",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "license": "proprietary",
   "model_type": "chat",
   "capabilities": {
@@ -34,7 +34,7 @@
   "open_weight": false,
   "_generated": {
     "name": "5df9da7f",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "license": "9186c466",
     "model_type": "d669f408",
     "capabilities": "8a3b232e",
@@ -42,5 +42,5 @@
     "pricing": "eb961e11",
     "open_weight": "68934a3e"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-30"
 }

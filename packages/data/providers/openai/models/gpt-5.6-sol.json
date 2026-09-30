@@ -98,11 +98,11 @@
     "tools": "c3217644",
     "endpoints": "ec55a017",
     "description": "1fe77ac6",
-    "tagline": "7fdeacae"
+    "tagline": "b2373111"
   },
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-09-30",
   "description": "GPT-5.6 Sol is a flagship model in the GPT-5.6 family. It roughly corresponds to the unsuffixed model tier used in earlier GPT-5 families. The `gpt-5.6` alias routes requests to GPT-5.6 Sol. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
   "alias": "gpt-daybreak-blue-latest",
-  "tagline": "Flagship model for complex professional work",
+  "tagline": "GPT-5.6 flagship model for complex professional work",
   "snapshots": ["gpt-5.6-sol"]
 }

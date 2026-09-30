@@ -4,7 +4,7 @@
   "created_by": "imagineart",
   "source": "official",
   "description": "ImagineArt 1.5 text-to-image model generates high-fidelity professional-grade visuals with lifelike realism, strong aesthetics, and text that actually reads correctly.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-11-20",
   "model_type": "image",
   "page_url": "https://fal.run/imagineart/imagineart-1.5-preview/text-to-image",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "48c6601e",
     "description": "8c8450db",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "38dc8373",
     "model_type": "db8857fe",
     "page_url": "641dfd9c",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5c252aee"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-30"
 }

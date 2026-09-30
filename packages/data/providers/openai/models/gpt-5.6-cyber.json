@@ -15,7 +15,7 @@
   "performance": 5,
   "reasoning": 5,
   "speed": 4,
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-5.6-cyber",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-daybreak-red-latest?snapshot=gpt-5.6-cyber",
   "open_weight": false,
   "capabilities": {
     "streaming": true,
@@ -49,18 +49,7 @@
       }
     ]
   },
-  "tools": [
-    "web_search",
-    "file_search",
-    "image_generation",
-    "code_interpreter",
-    "hosted_shell",
-    "apply_patch",
-    "skills",
-    "computer_use",
-    "mcp",
-    "tool_search"
-  ],
+  "tools": ["function_calling"],
   "endpoints": ["responses"],
   "_generated": {
     "name": "a776de32",
@@ -76,17 +65,17 @@
     "performance": "e4da3b7f",
     "reasoning": "e4da3b7f",
     "speed": "a87ff679",
-    "page_url": "48d70287",
+    "page_url": "b40e1816",
     "open_weight": "68934a3e",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
     "pricing": "637d2527",
-    "tools": "c3217644",
+    "tools": "f0c1dc7e",
     "endpoints": "acb164ea",
     "description": "81f7fa95",
     "tagline": "dfc5d86b"
   },
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-09-30",
   "description": "An alias for our most advanced purpose-trained cybersecurity models, for approved defenders conducting advanced, authorized vulnerability research, exploit validation, and security testing.",
   "alias": "gpt-daybreak-red-latest",
   "tagline": "Our most advanced cybersecurity model for authorized vulnerability research and security testing.",

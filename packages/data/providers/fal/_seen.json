@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-29",
-  "count": 1503,
+  "date": "2026-09-30",
+  "count": 1500,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -1316,10 +1316,6 @@
     "ideogram-v4-tiling",
     "ideogram-v4-tiling-lora",
     "ideogram-v4-trainer",
-    "imagineart-imagineart-1.5-preview-text-to-image",
-    "imagineart-imagineart-1.5-pro-preview-text-to-image",
-    "imagineart-imagineart-2.0-edit-preview-image-to-image",
-    "imagineart-imagineart-2.0-preview-text-to-image",
     "krea-v2-large-text-to-image",
     "krea-v2-medium-text-to-image",
     "krea-v2-medium-turbo-text-to-image",
@@ -1358,6 +1354,7 @@
     "minimax-h3-max-director",
     "minimax-h3-max-extend-video",
     "minimax-h3-max-image-to-video",
+    "minimax-h3-max-insert-video",
     "minimax-h3-max-lip-sync-image-to-video",
     "minimax-h3-max-reference-to-video",
     "minimax-h3-max-styles-16bit-pixel",

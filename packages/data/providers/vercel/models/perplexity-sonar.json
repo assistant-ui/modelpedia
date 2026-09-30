@@ -3,22 +3,23 @@
   "name": "sonar",
   "created_by": "perplexity",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-09-30",
   "context_window": 127000,
   "capabilities": {
     "streaming": true,
     "vision": true,
-    "tool_call": true
+    "tool_call": true,
+    "reasoning": true
   },
   "pricing": {
-    "input": 0,
-    "output": 0
+    "input": 0.25,
+    "output": 2.5
   },
   "_generated": {
     "name": "8b8f2acb",
     "context_window": "3b764336",
-    "capabilities": "fc36814c",
-    "pricing": "9a7a9781",
+    "capabilities": "a19166f1",
+    "pricing": "de417efa",
     "family": "8b8f2acb",
     "model_type": "d669f408",
     "tools": "f0c1dc7e",

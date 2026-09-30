@@ -1,0 +1,39 @@
+{
+  "id": "embed-v5.0-fast",
+  "name": "embed-v5.0-fast",
+  "created_by": "cohere",
+  "source": "official",
+  "family": "embed",
+  "description": "A faster, lighter version of embed-v5.0-pro . Allows for text and images to be classified or turned into embeddings",
+  "status": "active",
+  "context_window": 128000,
+  "license": "proprietary",
+  "page_url": "https://docs.cohere.com/docs/models#embed-v5.0-fast",
+  "model_type": "embed",
+  "tagline": "A faster, lighter version of embed-v5.0-pro .",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "endpoints": ["embed"],
+  "_generated": {
+    "name": "808b9a95",
+    "family": "764cb3de",
+    "description": "3ad9380c",
+    "status": "379ac110",
+    "context_window": "34434798",
+    "license": "9186c466",
+    "page_url": "9f15a03a",
+    "model_type": "764cb3de",
+    "tagline": "62f505d6",
+    "capabilities": "d3117eb0",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e",
+    "endpoints": "9f6acf8c"
+  },
+  "last_updated": "2026-09-30"
+}

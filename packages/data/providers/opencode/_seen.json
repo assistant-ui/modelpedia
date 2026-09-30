@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-27",
-  "count": 81,
+  "date": "2026-09-30",
+  "count": 82,
   "ids": [
     "big-pickle",
     "claude-fable-5",
@@ -54,6 +54,7 @@
     "gpt-6-astra",
     "gpt-6-luna",
     "gpt-6-sol",
+    "gpt-6.1-sol",
     "grok-4.5",
     "grok-4.6",
     "grok-4.7",

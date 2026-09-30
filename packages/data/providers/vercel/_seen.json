@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-29",
-  "count": 371,
+  "date": "2026-09-30",
+  "count": 374,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -159,6 +159,7 @@
     "inclusionai-ling-3.0-flash-fin",
     "inclusionai-ling-3.0-flash-sante",
     "inclusionai-ling-3.0-flash-vl",
+    "inclusionai-ling-3.1-flash",
     "inference-net-schematron-v2-small",
     "inference-net-schematron-v2-turbo",
     "interfaze-interfaze-beta",
@@ -170,6 +171,7 @@
     "klingai-kling-v3.0-i2v",
     "klingai-kling-v3.0-motion-control",
     "klingai-kling-v3.0-t2v",
+    "liquid-d1",
     "meituan-longcat-2.5-preview",
     "meta-llama-3.1-70b",
     "meta-llama-3.1-8b",
@@ -254,6 +256,7 @@
     "openai-gpt-6-astra",
     "openai-gpt-6-luna",
     "openai-gpt-6-sol",
+    "openai-gpt-6.1-sol",
     "openai-gpt-image-1",
     "openai-gpt-image-1-mini",
     "openai-gpt-image-1.5",

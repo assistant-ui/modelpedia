@@ -6,7 +6,7 @@
   "family": "deepseek",
   "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
   "release_date": "2026-08-01",
-  "context_window": 1310720,
+  "context_window": 1048576,
   "max_output_tokens": 943718,
   "model_type": "chat",
   "tagline": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
@@ -21,8 +21,8 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.012,
-    "output": 0.7,
+    "input": 0.01,
+    "output": 1.28,
     "cached_input": 0.01
   },
   "tools": ["function_calling"],
@@ -31,14 +31,14 @@
     "family": "4b81b92d",
     "description": "09c9af9f",
     "release_date": "f163eace",
-    "context_window": "32886eaa",
+    "context_window": "7d28a051",
     "max_output_tokens": "7843f47e",
     "model_type": "d669f408",
     "tagline": "09c9af9f",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
-    "pricing": "b6b86be7",
+    "pricing": "2c31bdb5",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-09-30"
 }

@@ -4,8 +4,7 @@
   "created_by": "google",
   "source": "official",
   "family": "veo-3.1",
-  "status": "deprecated",
-  "deprecation_date": "2025-10-15",
+  "status": "active",
   "license": "proprietary",
   "model_type": "video",
   "modalities": {
@@ -16,12 +15,11 @@
   "_generated": {
     "name": "e5a98dda",
     "family": "0fa3bcca",
-    "status": "2e2f74dc",
-    "deprecation_date": "3c659a30",
+    "status": "379ac110",
     "license": "9186c466",
     "model_type": "4d1b75ca",
     "modalities": "94e5e9ab",
     "open_weight": "68934a3e"
   },
-  "last_updated": "2026-03-26"
+  "last_updated": "2026-09-30"
 }

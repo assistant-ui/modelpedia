@@ -1,0 +1,44 @@
+{
+  "id": "openai/gpt-6.1-sol-pro",
+  "name": "OpenAI: GPT-6.1 Sol Pro",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-6.1",
+  "description": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.",
+  "release_date": "2026-09-29",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 10,
+    "cached_input": 0.1
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "fe7db6f7",
+    "family": "d6597770",
+    "description": "f47fe1c6",
+    "release_date": "c9892cfb",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "f47fe1c6",
+    "capabilities": "03fbefb4",
+    "modalities": "8b8b28d1",
+    "pricing": "6877e3a9",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-30"
+}

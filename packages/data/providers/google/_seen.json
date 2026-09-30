@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-30",
   "count": 85,
   "ids": [
     "antigravity-preview-05-2026",
@@ -63,7 +63,6 @@
     "gemini-embedding-exp-03-07",
     "gemini-live-2.5-flash-preview",
     "gemini-omni-flash",
-    "gemini-omni-flash-preview",
     "gemini-robotics-er-1.5-preview",
     "gemini-robotics-er-1.6-preview",
     "gemini-robotics-er-2-preview",
@@ -85,6 +84,7 @@
     "veo-3.0-fast-generate-preview",
     "veo-3.0-generate-001",
     "veo-3.0-generate-preview",
+    "veo-3.1-fast-generate-preview",
     "veo-3.1-generate-preview",
     "veo-3.1-lite-generate-preview"
   ]

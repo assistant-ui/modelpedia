@@ -3,7 +3,7 @@
   "name": "GPT-6 series",
   "created_by": "openai",
   "source": "official",
-  "description": "NEW gpt-6-astra",
+  "description": "NEW gpt-6-astra , NEW gpt-6-luna , gpt-6-sol",
   "model_type": "chat",
   "tagline": "NEW gpt-6-astra",
   "capabilities": {
@@ -15,13 +15,13 @@
   },
   "_generated": {
     "name": "54ad66c7",
-    "description": "25922f36",
+    "description": "8256e10f",
     "model_type": "d669f408",
     "tagline": "25922f36",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "family": "16342494"
   },
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-09-30",
   "family": "gpt-6"
 }

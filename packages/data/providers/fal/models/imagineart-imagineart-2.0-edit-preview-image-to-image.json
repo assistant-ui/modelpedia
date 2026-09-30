@@ -4,7 +4,7 @@
   "created_by": "imagineart",
   "source": "official",
   "description": "ImagineArt 2.0 Edit delivers precise prompt-guided image editing at 2K resolution, preserving fine detail and realism while accurately applying targeted changes across one or more reference images.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-05-19",
   "model_type": "image",
   "page_url": "https://fal.run/imagineart/imagineart-2.0-edit-preview/image-to-image",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "8e974abd",
     "description": "1ea387a2",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "665f01a0",
     "model_type": "db8857fe",
     "page_url": "f51ae4e0",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "97e5b4c6"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-09-30"
 }

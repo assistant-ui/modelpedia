@@ -3,7 +3,7 @@
   "name": "firerouter-opus",
   "created_by": "fireworks",
   "source": "official",
-  "context_window": 1,
+  "context_window": 1000000,
   "page_url": "https://fireworks.ai/models/fireworks/firerouter-opus",
   "capabilities": {
     "streaming": true
@@ -15,10 +15,10 @@
   },
   "_generated": {
     "name": "cbbc1771",
-    "context_window": "c4ca4238",
+    "context_window": "8155bc54",
     "page_url": "667fb127",
     "capabilities": "0fa77dc6",
     "pricing": "cb03f68e"
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-09-30"
 }

@@ -1,0 +1,28 @@
+{
+  "id": "minimax/h3-max/insert-video",
+  "name": "H3 Max",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "Insert a new scene into an existing video with H3 Max.",
+  "status": "active",
+  "release_date": "2026-09-28",
+  "model_type": "other",
+  "page_url": "https://fal.run/minimax/h3-max/insert-video",
+  "tagline": "Insert a new scene into an existing video with H3 Max.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-09-30",
+  "_generated": {
+    "name": "ff0911e2",
+    "description": "9b2c1fb9",
+    "status": "379ac110",
+    "release_date": "1ec3c8a2",
+    "model_type": "ddb0b7bc",
+    "page_url": "5174dea2",
+    "tagline": "9b2c1fb9",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "3bb8d4f3"
+  },
+  "last_updated": "2026-09-30"
+}

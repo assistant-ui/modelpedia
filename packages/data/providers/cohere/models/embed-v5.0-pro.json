@@ -1,0 +1,39 @@
+{
+  "id": "embed-v5.0-pro",
+  "name": "embed-v5.0-pro",
+  "created_by": "cohere",
+  "source": "official",
+  "family": "embed",
+  "description": "Our most capable embedding model, for text and images. Higher quality than embed-v5.0-fast , at higher latency.",
+  "status": "active",
+  "context_window": 128000,
+  "license": "proprietary",
+  "page_url": "https://docs.cohere.com/docs/models#embed-v5.0-pro",
+  "model_type": "embed",
+  "tagline": "Our most capable embedding model, for text and images.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "endpoints": ["embed"],
+  "_generated": {
+    "name": "2eec6c27",
+    "family": "764cb3de",
+    "description": "c06907df",
+    "status": "379ac110",
+    "context_window": "34434798",
+    "license": "9186c466",
+    "page_url": "5918ec45",
+    "model_type": "764cb3de",
+    "tagline": "82ac4d09",
+    "capabilities": "d3117eb0",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e",
+    "endpoints": "9f6acf8c"
+  },
+  "last_updated": "2026-09-30"
+}

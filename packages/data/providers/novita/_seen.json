@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-29",
-  "count": 119,
+  "date": "2026-09-30",
+  "count": 120,
   "ids": [
     "baichuan-baichuan-m2-32b",
     "baidu-cobuddy",
@@ -60,6 +60,7 @@
     "moonshotai-kimi-k2.6",
     "moonshotai-kimi-k2.7-code",
     "moonshotai-kimi-k3",
+    "moonshotai-kimi-k3-p",
     "nousresearch-hermes-2-pro-llama-3-8b",
     "nvidia-nemotron-3-nano-30b-a3b",
     "openai-gpt-oss-120b",

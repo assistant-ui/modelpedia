@@ -4,7 +4,7 @@
   "created_by": "imagineart",
   "source": "official",
   "description": "ImagineArt 2.0 is ImagineArt's latest state-of-the-art visual reasoning text-to-image model, generating high-fidelity, professional-grade visuals with lifelike realism, cinematic effects, and strong a",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-04-13",
   "model_type": "image",
   "page_url": "https://fal.run/imagineart/imagineart-2.0-preview/text-to-image",
@@ -22,7 +22,7 @@
   "_generated": {
     "name": "e82f0dba",
     "description": "6895dc40",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "50d3cf56",
     "model_type": "db8857fe",
     "page_url": "c91d2e37",
@@ -32,5 +32,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-09-30"
 }

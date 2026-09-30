@@ -9,7 +9,9 @@
   "max_output_tokens": 131072,
   "tagline": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
   "capabilities": {
-    "tool_call": true
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
   },
   "modalities": {
     "input": ["text", "image"],
@@ -28,10 +30,10 @@
     "context_window": "4a1d32eb",
     "max_output_tokens": "f7de594e",
     "tagline": "6d5e4d16",
-    "capabilities": "ce9e2425",
+    "capabilities": "6c9aa67e",
     "modalities": "6399757e",
     "pricing": "7db711ab",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-18"
+  "last_updated": "2026-09-30"
 }

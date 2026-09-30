@@ -1,0 +1,16 @@
+{
+  "id": "lucataco/seed-x-ppo",
+  "name": "Seed X Ppo",
+  "created_by": "lucataco",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/lucataco/seed-x-ppo",
+  "_generated": {
+    "name": "6501e537",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "030f5283"
+  },
+  "last_updated": "2026-09-30"
+}
