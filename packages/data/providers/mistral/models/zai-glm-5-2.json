@@ -4,7 +4,7 @@
   "created_by": "zai",
   "source": "official",
   "description": "A third-party open weight text model from Z.ai, hosted by Mistral for long-context coding and agentic workflows. The model is served without Mistral modifications.",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 1000000,
   "page_url": "https://docs.mistral.ai/models/zai-glm-5-2",
   "tagline": "A third-party open weight text model from Z.ai, hosted by Mistral for long-context coding and agentic workflows.",
@@ -24,7 +24,7 @@
   "_generated": {
     "name": "c4f664da",
     "description": "e6084eb1",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "8155bc54",
     "page_url": "437a013e",
     "tagline": "63c8c617",
@@ -33,5 +33,5 @@
     "pricing": "caa16a81",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-10-01"
 }

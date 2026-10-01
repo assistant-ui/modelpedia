@@ -1,0 +1,49 @@
+{
+  "id": "anthropic/claude-sonnet-5-5",
+  "name": "claude-sonnet-5-5",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-sonnet",
+  "description": "Claude Sonnet 5.5 is Anthropic's latest Sonnet model, balancing speed and capability for everyday coding, agents, and enterprise work. It supports a 1M-token context window and up to 128K output tokens.",
+  "status": "active",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": false,
+  "tagline": "Claude Sonnet 5.5 is Anthropic's latest Sonnet model, balancing speed and capability for everyday coding, agents, and enterprise work.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 10
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "33a19913",
+    "family": "68d1c457",
+    "description": "c1093fe9",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "68934a3e",
+    "tagline": "cb59828e",
+    "capabilities": "d0cb1dc1",
+    "modalities": "6399757e",
+    "pricing": "783da94d",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-10-01"
+}

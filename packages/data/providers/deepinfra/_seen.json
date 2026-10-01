@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-10-01",
   "count": 231,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
@@ -11,6 +11,7 @@
     "anthropic-claude-opus-5-5",
     "anthropic-claude-sonnet-4-6",
     "anthropic-claude-sonnet-5",
+    "anthropic-claude-sonnet-5-5",
     "audio8-audio8-tts-preview-0.6b",
     "baai-bge-base-en-v1.5",
     "baai-bge-en-icl",
@@ -120,7 +121,6 @@
     "meta-llama-meta-llama-3.1-8b-instruct-turbo",
     "meta-models-muse-glimmer-30b",
     "microsoft-phi-4",
-    "minimaxai-minimax-m2.7-turbo",
     "minimaxai-minimax-m3",
     "mistralai-mistral-nemo-instruct-2407",
     "mistralai-mistral-small-24b-instruct-2501",

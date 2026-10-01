@@ -1,0 +1,23 @@
+{
+  "id": "ideogram-ai/ideogram-4-5-precise-edit",
+  "name": "Ideogram 4 5 Precise Edit",
+  "created_by": "ideogram-ai",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/ideogram-ai/ideogram-4-5-precise-edit",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "79a0d1f9",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "41b84e17",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-10-01"
+}

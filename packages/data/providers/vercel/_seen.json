@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-30",
-  "count": 374,
+  "date": "2026-10-01",
+  "count": 376,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -344,6 +344,8 @@
     "typesafe-ai-jev",
     "voyage-rerank-2.5",
     "voyage-rerank-2.5-lite",
+    "voyage-rerank-3",
+    "voyage-rerank-3-lite",
     "voyage-voyage-3-large",
     "voyage-voyage-3.5",
     "voyage-voyage-3.5-lite",

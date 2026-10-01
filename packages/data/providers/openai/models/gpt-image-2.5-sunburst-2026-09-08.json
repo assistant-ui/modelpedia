@@ -20,13 +20,14 @@
     "structured_output": false,
     "json_mode": false,
     "fine_tuning": false,
-    "reasoning": false
+    "reasoning": false,
+    "batch": true
   },
   "modalities": {
     "input": ["text", "image"],
     "output": ["image"]
   },
-  "endpoints": ["image_generation", "image_edit"],
+  "endpoints": ["batch", "image_generation", "image_edit"],
   "_generated": {
     "name": "da70e4fa",
     "family": "b65aa56d",
@@ -38,14 +39,14 @@
     "speed": "eccbc87e",
     "page_url": "fefc806b",
     "open_weight": "68934a3e",
-    "capabilities": "e6b78b42",
+    "capabilities": "ec32b5a4",
     "modalities": "bbf9b8bb",
-    "endpoints": "ae04eebc",
+    "endpoints": "af128fc0",
     "description": "7188c999",
     "tagline": "ebfb8511",
-    "pricing": "aeb7ab8f"
+    "pricing": "7bb61094"
   },
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-01",
   "description": "GPT Image 2.5 Sunburst generates and edits images from text and image inputs. Use it for workflows where editing precision matters most. It supports `low`, `medium`, `high`, `xhigh`, `max`, and `auto` quality settings. Select it directly in the Image API or as the model of the Responses API image generation tool. Learn more in the [image generation guide](/api/docs/guides/image-generation).\\n",
   "tagline": "GPT Image 2.5 Sunburst generates and edits images from text and image inputs.",
   "pricing": {
@@ -60,6 +61,10 @@
           {
             "label": "Standard",
             "values": [5, 1.25, null]
+          },
+          {
+            "label": "Batch",
+            "values": [2.5, 0.625, null]
           }
         ]
       },
@@ -71,9 +76,14 @@
           {
             "label": "Standard",
             "values": [8, 2, 30]
+          },
+          {
+            "label": "Batch",
+            "values": [4, 1, 15]
           }
         ]
       }
-    ]
+    ],
+    "batch_input": 2.5
   }
 }

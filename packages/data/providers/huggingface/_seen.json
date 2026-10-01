@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "count": 123,
   "ids": [
     "codellama-codellama-7b-instruct-hf",
@@ -62,6 +62,7 @@
     "qwen-qwen2.5-coder-1.5b-instruct",
     "qwen-qwen2.5-coder-14b-instruct",
     "qwen-qwen2.5-coder-32b-instruct",
+    "qwen-qwen2.5-coder-3b",
     "qwen-qwen2.5-coder-3b-instruct",
     "qwen-qwen2.5-coder-7b",
     "qwen-qwen2.5-coder-7b-instruct",
@@ -120,7 +121,6 @@
     "zai-org-glm-4.7-flash",
     "zai-org-glm-5",
     "zai-org-glm-5.1",
-    "zai-org-glm-5.1-fp8",
     "zai-org-glm-5.2",
     "zai-org-glm-5.2-fp8",
     "zai-org-glm-5.3",

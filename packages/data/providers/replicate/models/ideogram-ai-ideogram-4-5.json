@@ -1,0 +1,23 @@
+{
+  "id": "ideogram-ai/ideogram-4-5",
+  "name": "Ideogram 4 5",
+  "created_by": "ideogram-ai",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/ideogram-ai/ideogram-4-5",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "08b71ee6",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "aa1ccc0a",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-10-01"
+}

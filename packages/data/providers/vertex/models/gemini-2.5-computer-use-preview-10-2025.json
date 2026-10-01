@@ -3,9 +3,9 @@
   "name": "gemini-2.5-computer-use-preview-10-2025",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-04-22",
+  "last_updated": "2026-10-01",
   "family": "gemini-2.5",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 128000,
   "max_output_tokens": 64000,
   "capabilities": {
@@ -26,7 +26,7 @@
   "_generated": {
     "name": "21c766f5",
     "family": "ea6b88bf",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "34434798",
     "max_output_tokens": "762e98db",
     "capabilities": "fdff467b",
@@ -35,9 +35,13 @@
     "endpoints": "20e16908",
     "model_type": "d669f408",
     "license": "9186c466",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "b4e99da9",
+    "successor": "f20d4dae"
   },
   "model_type": "chat",
   "license": "proprietary",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-07-28",
+  "successor": "gemini-3.8-flash"
 }

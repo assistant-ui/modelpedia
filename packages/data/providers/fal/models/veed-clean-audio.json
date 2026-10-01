@@ -1,0 +1,24 @@
+{
+  "id": "veed/clean-audio",
+  "name": "VEED Clean Audio",
+  "created_by": "veed",
+  "source": "official",
+  "description": "Studio-quality speech from noisy recordings",
+  "status": "active",
+  "release_date": "2026-09-21",
+  "model_type": "other",
+  "page_url": "https://fal.run/veed/clean-audio",
+  "tagline": "Studio-quality speech from noisy recordings",
+  "last_seen_at": "2026-09-30",
+  "_generated": {
+    "name": "6ac65245",
+    "description": "48f6f294",
+    "status": "379ac110",
+    "release_date": "a4195392",
+    "model_type": "ddb0b7bc",
+    "page_url": "3ba9c15d",
+    "tagline": "48f6f294",
+    "last_seen_at": "3bb8d4f3"
+  },
+  "last_updated": "2026-10-01"
+}

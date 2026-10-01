@@ -1,0 +1,35 @@
+{
+  "id": "ideogram/v4.5",
+  "name": "Ideogram V4.5 Text to Image",
+  "created_by": "ideogram",
+  "source": "official",
+  "description": "Generate high-quality images, posters, and logos with Ideogram 4.5, with accurate text rendering and low, medium, or high quality tiers.",
+  "status": "active",
+  "release_date": "2026-09-30",
+  "model_type": "image",
+  "page_url": "https://fal.run/ideogram/v4.5",
+  "tagline": "Generate high-quality images, posters, and logos with Ideogram 4.5, with accurate text rendering and low, medium, or high quality tiers.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-09-30",
+  "_generated": {
+    "name": "6b9e9cd6",
+    "description": "0f6d5b64",
+    "status": "379ac110",
+    "release_date": "3bb8d4f3",
+    "model_type": "db8857fe",
+    "page_url": "b0920cd5",
+    "tagline": "0f6d5b64",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "3bb8d4f3"
+  },
+  "last_updated": "2026-10-01"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "ideogram/v4.5/edit",
+  "name": "Ideogram V4.5 Edit",
+  "created_by": "ideogram",
+  "source": "official",
+  "description": "Edit images with Ideogram 4.5: prompt edits with up to 4 reference images, optional mask, and a high-precision mode that keeps unchanged pixels intact.",
+  "status": "active",
+  "release_date": "2026-09-30",
+  "model_type": "image",
+  "page_url": "https://fal.run/ideogram/v4.5/edit",
+  "tagline": "Edit images with Ideogram 4.5: prompt edits with up to 4 reference images, optional mask, and a high-precision mode that keeps unchanged pixels intact.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-09-30",
+  "_generated": {
+    "name": "dc09eaf7",
+    "description": "9de80edd",
+    "status": "379ac110",
+    "release_date": "3bb8d4f3",
+    "model_type": "db8857fe",
+    "page_url": "f8e0d888",
+    "tagline": "9de80edd",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "3bb8d4f3"
+  },
+  "last_updated": "2026-10-01"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "pixelcut/looping-video",
+  "name": "Pixelcut Looping Video",
+  "created_by": "pixelcut",
+  "source": "official",
+  "description": "Turn one product photo into a seamless 5 to 15 second video loop with a locked camera, subtle ambient motion or a full 360° spin.",
+  "status": "active",
+  "release_date": "2026-09-29",
+  "model_type": "video",
+  "page_url": "https://fal.run/pixelcut/looping-video",
+  "tagline": "Turn one product photo into a seamless 5 to 15 second video loop with a locked camera, subtle ambient motion or a full 360° spin.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-09-30",
+  "_generated": {
+    "name": "fb35f140",
+    "description": "34c697b0",
+    "status": "379ac110",
+    "release_date": "c9892cfb",
+    "model_type": "4d1b75ca",
+    "page_url": "0a29c9db",
+    "tagline": "34c697b0",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "3bb8d4f3"
+  },
+  "last_updated": "2026-10-01"
+}

@@ -10,9 +10,9 @@
     "streaming": true
   },
   "pricing": {
-    "input": 0.35,
-    "output": 1.5,
-    "cached_input": 0.04
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
   },
   "_generated": {
     "name": "59af5454",
@@ -20,7 +20,7 @@
     "parameters": "34173cb3",
     "page_url": "1527c9de",
     "capabilities": "0fa77dc6",
-    "pricing": "5240601e"
+    "pricing": "cb03f68e"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-10-01"
 }

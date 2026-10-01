@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-30",
-  "count": 1500,
+  "date": "2026-10-01",
+  "count": 1504,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -1316,6 +1316,8 @@
     "ideogram-v4-tiling",
     "ideogram-v4-tiling-lora",
     "ideogram-v4-trainer",
+    "ideogram-v4.5",
+    "ideogram-v4.5-edit",
     "krea-v2-large-text-to-image",
     "krea-v2-medium-text-to-image",
     "krea-v2-medium-turbo-text-to-image",
@@ -1412,6 +1414,7 @@
     "perceptron-isaac-01",
     "perceptron-isaac-01-openai-v1-chat-completions",
     "pixelcut-background-removal",
+    "pixelcut-looping-video",
     "pixelcut-product-photo",
     "pixelcut-video-background-removal",
     "pixverse-music-video-vibemv",
@@ -1469,6 +1472,7 @@
     "tripo3d-triposplat",
     "veed-avatars-audio-to-video",
     "veed-avatars-text-to-video",
+    "veed-clean-audio",
     "veed-fabric-1.0",
     "veed-fabric-1.0-fast",
     "veed-fabric-1.0-text",

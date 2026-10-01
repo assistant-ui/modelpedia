@@ -3,9 +3,9 @@
   "name": "Claude Sonnet 4.5",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-01",
   "family": "claude-sonnet",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2025-01",
   "context_window": 200000,
   "max_output_tokens": 64000,
@@ -34,7 +34,7 @@
     "batch_output": 7.5,
     "cache_write_1h": 6
   },
-  "tools": ["function_calling", "computer_use", "mcp"],
+  "tools": ["function_calling"],
   "endpoints": ["messages"],
   "training_data_cutoff": "2025-07",
   "priority_tier": true,
@@ -42,7 +42,7 @@
   "_generated": {
     "name": "afb59ff3",
     "family": "68d1c457",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "3f358a56",
     "context_window": "03e6c616",
     "max_output_tokens": "762e98db",
@@ -52,7 +52,7 @@
     "capabilities": "1616fc33",
     "modalities": "6399757e",
     "pricing": "d102a379",
-    "tools": "abde16bc",
+    "tools": "f0c1dc7e",
     "endpoints": "94bb8b7a",
     "training_data_cutoff": "bfdca3f9",
     "priority_tier": "b326b506",
@@ -63,8 +63,10 @@
     "thinking_modes": "3f7ae0d0",
     "bedrock_id": "d65e55ee",
     "vertex_id": "04c899bd",
-    "retirement_date": "c9892cfb",
-    "release_date": "d032c55c"
+    "retirement_date": "2573f3da",
+    "release_date": "d032c55c",
+    "deprecation_date": "3bb8d4f3",
+    "successor": "33a19913"
   },
   "model_type": "chat",
   "license": "proprietary",
@@ -73,6 +75,8 @@
   "thinking_modes": ["extended"],
   "bedrock_id": "anthropic.claude-sonnet-4-5-20250929-v1:0",
   "vertex_id": "claude-sonnet-4-5@20250929",
-  "retirement_date": "2026-09-29",
-  "release_date": "2025-09-29"
+  "retirement_date": "2026-11-30",
+  "release_date": "2025-09-29",
+  "deprecation_date": "2026-09-30",
+  "successor": "claude-sonnet-5-5"
 }
