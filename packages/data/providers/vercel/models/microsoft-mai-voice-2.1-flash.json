@@ -1,0 +1,19 @@
+{
+  "id": "microsoft/mai-voice-2.1-flash",
+  "name": "mai-voice-2.1-flash",
+  "created_by": "microsoft",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 15,
+    "output": 0
+  },
+  "_generated": {
+    "name": "667e4167",
+    "capabilities": "0fa77dc6",
+    "pricing": "279488b2"
+  },
+  "last_updated": "2026-10-02"
+}

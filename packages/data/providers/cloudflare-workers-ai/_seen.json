@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-15",
-  "count": 65,
+  "date": "2026-10-02",
+  "count": 69,
   "ids": [
     "-cf-ai4bharat-indictrans2-en-indic-1b",
     "-cf-aisingapore-gemma-sea-lion-v4-27b-it",
@@ -14,6 +14,8 @@
     "-cf-black-forest-labs-flux-2-klein-4b",
     "-cf-black-forest-labs-flux-2-klein-9b",
     "-cf-bytedance-stable-diffusion-xl-lightning",
+    "-cf-cloudflare-clef",
+    "-cf-cloudflare-clef-flash",
     "-cf-deepgram-aura-1",
     "-cf-deepgram-aura-2-en",
     "-cf-deepgram-aura-2-es",
@@ -63,6 +65,8 @@
     "-cf-qwen-qwq-32b",
     "-cf-runwayml-stable-diffusion-v1-5-inpainting",
     "-cf-stabilityai-stable-diffusion-xl-base-1.0",
+    "-cf-swiss-ai-apertus-v1.5-8b",
+    "-cf-utter-project-eurollm-9b-it",
     "-cf-zai-org-glm-4.7-flash",
     "-cf-zai-org-glm-5.2",
     "-cf-zai-org-glm-5.3",

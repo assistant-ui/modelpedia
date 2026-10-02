@@ -3,10 +3,10 @@
   "name": "GPT-5.4 nano",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-02",
   "family": "gpt-5.4",
   "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like classification, data extraction, ranking, and sub-agents. Learn more in our Model guidance page. Reasoning.effort supports: none (default), low, medium, high and xhigh.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2025-08",
   "context_window": 400000,
   "max_output_tokens": 128000,
@@ -79,7 +79,7 @@
     "name": "7cdda0eb",
     "family": "4651e8f0",
     "description": "d9691d1a",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "5549a2cd",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
@@ -99,10 +99,16 @@
     "license": "9186c466",
     "page_url": "80a048c7",
     "open_weight": "68934a3e",
-    "release_date": "56d4bd95"
+    "release_date": "56d4bd95",
+    "deprecation_date": "00dfb29f",
+    "retirement_date": "94273062",
+    "successor": "8f1f2183"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
   "open_weight": false,
-  "release_date": "2026-03-17"
+  "release_date": "2026-03-17",
+  "deprecation_date": "2026-10-01",
+  "retirement_date": "2027-04-01",
+  "successor": "gpt-6-luna"
 }

@@ -3,10 +3,10 @@
   "name": "GPT-5.1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-02",
   "family": "gpt-5.1",
   "description": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort. Learn more in our GPT-5.1 model guidance. Reasoning.effort supports: none (default), low, medium, and high.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-09",
   "context_window": 400000,
   "max_output_tokens": 128000,
@@ -77,7 +77,7 @@
     "name": "98d8ee2f",
     "family": "2089aff2",
     "description": "a3b5c4b0",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
@@ -95,10 +95,16 @@
     "license": "9186c466",
     "page_url": "d43b0cd0",
     "open_weight": "68934a3e",
-    "release_date": "c4b1d0fd"
+    "release_date": "c4b1d0fd",
+    "deprecation_date": "00dfb29f",
+    "retirement_date": "94273062",
+    "successor": "5e9d1260"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5.1",
   "open_weight": false,
-  "release_date": "2025-11-13"
+  "release_date": "2025-11-13",
+  "deprecation_date": "2026-10-01",
+  "retirement_date": "2027-04-01",
+  "successor": "gpt-6-sol"
 }

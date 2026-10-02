@@ -3,9 +3,9 @@
   "name": "TTS-1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-02",
   "description": "TTS is a model that converts text to natural sounding spoken text. The tts-1 model is optimized for realtime text-to-speech use cases. Use it with the Speech endpoint in the Audio API.",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "tts",
   "performance": 2,
   "speed": 4,
@@ -46,7 +46,7 @@
   "_generated": {
     "name": "373ed2dd",
     "description": "3294bac4",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "4e16a2cf",
     "performance": "c81e728d",
     "speed": "a87ff679",
@@ -57,10 +57,16 @@
     "family": "4e16a2cf",
     "license": "9186c466",
     "page_url": "add1629d",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "00dfb29f",
+    "retirement_date": "cdcb8c77",
+    "successor": "d913f5f3"
   },
   "family": "tts",
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/tts-1",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-10-01",
+  "retirement_date": "2027-01-06",
+  "successor": "gpt-realtime-2.1-mini"
 }

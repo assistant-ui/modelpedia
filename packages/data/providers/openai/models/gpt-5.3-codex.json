@@ -3,10 +3,10 @@
   "name": "GPT-5.3-Codex",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-02",
   "family": "gpt-5.3",
   "description": "GPT-5.3-Codex is optimized for agentic coding tasks in Codex or similar environments. GPT-5.3-Codex supports `low`, `medium`, `high`, and `xhigh` reasoning effort settings. If you want to learn more about prompting GPT-5.3-Codex, refer to our dedicated guide.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2025-08",
   "context_window": 400000,
   "max_output_tokens": 128000,
@@ -55,7 +55,7 @@
     "name": "59982316",
     "family": "a1a05172",
     "description": "b1936cd4",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "5549a2cd",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
@@ -73,9 +73,15 @@
     "endpoints": "acb164ea",
     "license": "9186c466",
     "page_url": "df4c4da3",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "deprecation_date": "00dfb29f",
+    "retirement_date": "94273062",
+    "successor": "5e9d1260"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
-  "open_weight": false
+  "open_weight": false,
+  "deprecation_date": "2026-10-01",
+  "retirement_date": "2027-04-01",
+  "successor": "gpt-6-sol"
 }

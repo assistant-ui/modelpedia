@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-01",
-  "count": 474,
+  "date": "2026-10-02",
+  "count": 476,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -61,6 +61,7 @@
     "anthropic-claude-sonnet-5-batch",
     "anthropic-claude-sonnet-5.5",
     "anthropic-claude-sonnet-5.5-batch",
+    "apodex-apodex-1.1-mini-free",
     "arcee-ai-trinity-large-thinking",
     "baidu-ernie-4.5-vl-424b-a47b",
     "bytedance-seed-seed-1.6",
@@ -440,6 +441,7 @@
     "thinkingmachines-inkling-small-free",
     "typesafe-jev-router",
     "unbiased-pareto",
+    "unbiased-pareto-26.10-preview",
     "undi95-remm-slerp-l2-13b",
     "upstage-solar-mini4",
     "upstage-solar-pro-3",

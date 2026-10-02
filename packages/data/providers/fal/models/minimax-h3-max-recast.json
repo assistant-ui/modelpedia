@@ -1,0 +1,24 @@
+{
+  "id": "minimax/h3-max/recast",
+  "name": "H3 Max Recast",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "Recast the people in a video using reference photos with H3 Max, while preserving the source motion, camera, cuts, and audio.",
+  "status": "active",
+  "release_date": "2026-10-01",
+  "model_type": "other",
+  "page_url": "https://fal.run/minimax/h3-max/recast",
+  "tagline": "Recast the people in a video using reference photos with H3 Max, while preserving the source motion, camera, cuts, and audio.",
+  "last_seen_at": "2026-10-01",
+  "_generated": {
+    "name": "63316183",
+    "description": "e3750be4",
+    "status": "379ac110",
+    "release_date": "00dfb29f",
+    "model_type": "ddb0b7bc",
+    "page_url": "37f77f3b",
+    "tagline": "e3750be4",
+    "last_seen_at": "00dfb29f"
+  },
+  "last_updated": "2026-10-02"
+}

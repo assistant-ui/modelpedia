@@ -17,7 +17,9 @@
     "family": "d937426a",
     "model_type": "4e16a2cf",
     "capabilities": "0fa77dc6",
-    "pricing": "6495e615"
+    "pricing": "6495e615",
+    "context_window": "486c0401"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-10-02",
+  "context_window": 8200
 }

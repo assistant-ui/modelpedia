@@ -1,0 +1,21 @@
+{
+  "id": "microsoft/mai-transcribe-2-streaming",
+  "name": "mai-transcribe-2-streaming",
+  "created_by": "microsoft",
+  "source": "official",
+  "model_type": "transcription",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "7b0abdaa",
+    "model_type": "5e12d29a",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-10-02"
+}

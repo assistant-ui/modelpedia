@@ -1,13 +1,12 @@
 {
-  "date": "2026-08-30",
-  "count": 7,
+  "date": "2026-10-02",
+  "count": 6,
   "ids": [
     "deepseek-v3.1",
     "deepseek-v3.2",
     "gemma-4-31b-it",
     "gpt-oss-120b",
     "meta-llama-3.3-70b-instruct",
-    "minimax-m2.7",
     "minimax-m3"
   ]
 }

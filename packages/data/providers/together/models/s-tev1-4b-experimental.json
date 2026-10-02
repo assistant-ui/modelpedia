@@ -1,0 +1,23 @@
+{
+  "id": "s/tev1-4b-experimental",
+  "name": "Tev1 4b Experimental",
+  "created_by": "unknown",
+  "source": "official",
+  "parameters": 4,
+  "page_url": "https://www.together.ai/models/tev1-4b-experimental",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.28,
+    "output": 0.04
+  },
+  "_generated": {
+    "name": "063901cd",
+    "parameters": "a87ff679",
+    "page_url": "bd767c16",
+    "capabilities": "0fa77dc6",
+    "pricing": "a0e4e9db"
+  },
+  "last_updated": "2026-10-02"
+}

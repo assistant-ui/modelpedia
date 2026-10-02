@@ -4,7 +4,7 @@
   "created_by": "minimax",
   "source": "official",
   "family": "minimax",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 196608,
   "max_output_tokens": 196608,
   "model_type": "chat",
@@ -20,7 +20,7 @@
   "_generated": {
     "name": "f234fce3",
     "family": "c85916f0",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "0dd0d2bf",
     "max_output_tokens": "0dd0d2bf",
     "model_type": "d669f408",
@@ -28,5 +28,5 @@
     "pricing": "e9aad47c",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-10-02"
 }
