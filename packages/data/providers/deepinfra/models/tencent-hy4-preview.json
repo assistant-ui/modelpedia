@@ -38,8 +38,12 @@
     "pricing": "46ee453c",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
-    "quantization": "640679f9"
+    "quantization": "640679f9",
+    "description": "7bcc13f7",
+    "tagline": "34387697"
   },
-  "last_updated": "2026-09-29",
-  "quantization": "fp8"
+  "last_updated": "2026-10-02",
+  "quantization": "fp8",
+  "description": "Hy4 preview is a 770B-parameter Mixture-of-Experts flagship model from the Tencent Hy Team, with 49B parameters activated per token and a 1M-token context window. It uses Gated DeepSeek Sparse Attention with IndexCache, and is post-trained for software engineering, office and data analysis, game development, and scientific research.",
+  "tagline": "Hy4 preview is a 770B-parameter Mixture-of-Experts flagship model from the Tencent Hy Team, with 49B parameters activated per token and a 1M-token context window."
 }

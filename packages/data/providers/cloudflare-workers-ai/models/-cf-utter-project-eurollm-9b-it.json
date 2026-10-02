@@ -1,0 +1,30 @@
+{
+  "id": "@cf/utter-project/eurollm-9b-it",
+  "name": "eurollm-9b-it",
+  "created_by": "utter-project",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "parameters": 9,
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#eurollm-9b-it",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "62f1f38c",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "parameters": "45c48cce",
+    "page_url": "0bbc462c",
+    "capabilities": "48995a4e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-02"
+}

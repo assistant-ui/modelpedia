@@ -1,0 +1,35 @@
+{
+  "id": "blackforestlabs/flux-3/edit-image",
+  "name": "Flux 3 Image",
+  "created_by": "blackforestlabs",
+  "source": "official",
+  "description": "FLUX 3 Image Edit from Black Forest Labs makes precise local edits without changing the rest of the image, and combines up to 10 references into one balanced, well-composed result.",
+  "status": "active",
+  "release_date": "2026-10-01",
+  "model_type": "image",
+  "page_url": "https://fal.run/blackforestlabs/flux-3/edit-image",
+  "tagline": "FLUX 3 Image Edit from Black Forest Labs makes precise local edits without changing the rest of the image, and combines up to 10 references into one balanced, well-composed result.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-10-01",
+  "_generated": {
+    "name": "7a7c2d17",
+    "description": "f2e3f784",
+    "status": "379ac110",
+    "release_date": "00dfb29f",
+    "model_type": "db8857fe",
+    "page_url": "df4b32e2",
+    "tagline": "f2e3f784",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "00dfb29f"
+  },
+  "last_updated": "2026-10-02"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "blackforestlabs/flux-3/text-to-image",
+  "name": "Flux 3 Image",
+  "created_by": "blackforestlabs",
+  "source": "official",
+  "description": "FLUX 3 Image is Black Forest Labs' newest image model.",
+  "status": "active",
+  "release_date": "2026-10-01",
+  "model_type": "image",
+  "page_url": "https://fal.run/blackforestlabs/flux-3/text-to-image",
+  "tagline": "FLUX 3 Image is Black Forest Labs' newest image model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-10-01",
+  "_generated": {
+    "name": "7a7c2d17",
+    "description": "9371ef70",
+    "status": "379ac110",
+    "release_date": "00dfb29f",
+    "model_type": "db8857fe",
+    "page_url": "0e90e441",
+    "tagline": "9371ef70",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "00dfb29f"
+  },
+  "last_updated": "2026-10-02"
+}

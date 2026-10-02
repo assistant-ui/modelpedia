@@ -1,0 +1,34 @@
+{
+  "id": "apodex/apodex-1.1-mini:free",
+  "name": "Apodex: Apodex 1.1 Mini (free)",
+  "created_by": "apodex",
+  "source": "official",
+  "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks.",
+  "release_date": "2026-10-01",
+  "context_window": 262144,
+  "max_output_tokens": 235929,
+  "tagline": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "bbda9d13",
+    "description": "9d234e97",
+    "release_date": "00dfb29f",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "7ad80673",
+    "tagline": "9d234e97",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-02"
+}

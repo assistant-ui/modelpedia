@@ -1,0 +1,29 @@
+{
+  "id": "grok-imagine-video-1.5-lite",
+  "name": "grok-imagine-video-1.5-lite",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "status": "active",
+  "model_type": "video",
+  "license": "proprietary",
+  "page_url": "https://docs.x.ai/developers/models",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "open_weight": false,
+  "pricing_notes": ["$0.020 / sec."],
+  "_generated": {
+    "name": "e813f647",
+    "family": "a4576b5e",
+    "status": "379ac110",
+    "model_type": "4d1b75ca",
+    "license": "9186c466",
+    "page_url": "053acbe7",
+    "modalities": "94e5e9ab",
+    "open_weight": "68934a3e",
+    "pricing_notes": "be13999e"
+  },
+  "last_updated": "2026-10-02"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "xai/grok-imagine-video/v1.5/lite/image-to-video",
+  "name": "Grok Imagine Video 1.5 Lite Image to Video",
+  "created_by": "xai",
+  "source": "official",
+  "family": "grok-imagine",
+  "description": "Generate videos from images using xAI's Grok Imagine Video 1.5 Lite model.",
+  "status": "active",
+  "release_date": "2026-09-30",
+  "model_type": "video",
+  "page_url": "https://fal.run/xai/grok-imagine-video/v1.5/lite/image-to-video",
+  "tagline": "Generate videos from images using xAI's Grok Imagine Video 1.5 Lite model.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-10-01",
+  "_generated": {
+    "name": "49f8b98e",
+    "family": "a4576b5e",
+    "description": "68f5658e",
+    "status": "379ac110",
+    "release_date": "3bb8d4f3",
+    "model_type": "4d1b75ca",
+    "page_url": "649d270d",
+    "tagline": "68f5658e",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "00dfb29f"
+  },
+  "last_updated": "2026-10-02"
+}

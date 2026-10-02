@@ -12,7 +12,9 @@
   "tagline": "A 9B decision model from Bespoke Labs for fast, typed classification.",
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "tool_call": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text"],
@@ -27,8 +29,12 @@
     "page_url": "9cd68397",
     "open_weight": "b326b506",
     "tagline": "54f70a0c",
-    "capabilities": "9c665f5d",
-    "modalities": "68e53d93"
+    "capabilities": "dcffc891",
+    "modalities": "68e53d93",
+    "reasoning_tokens": "b326b506",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-10-02",
+  "reasoning_tokens": true,
+  "tools": ["function_calling"]
 }
