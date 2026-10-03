@@ -3,14 +3,14 @@
   "name": "Birefnet",
   "created_by": "men1scus",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/men1scus/birefnet",
   "_generated": {
     "name": "b61c9bb5",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "4bbfdf11"
   },
-  "last_updated": "2026-10-02"
+  "last_updated": "2026-10-03"
 }

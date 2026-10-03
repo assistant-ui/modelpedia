@@ -3,11 +3,11 @@
   "name": "Qwen: Qwen3 Next 80B A3B Thinking",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-10-03",
   "family": "qwen3",
   "description": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured “thinking” traces by default.",
   "context_window": 262144,
-  "max_output_tokens": 235929,
+  "max_output_tokens": 32768,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -27,7 +27,7 @@
     "family": "48c385a0",
     "description": "95f7f5ad",
     "context_window": "4a1d32eb",
-    "max_output_tokens": "7ad80673",
+    "max_output_tokens": "f4376436",
     "modalities": "68e53d93",
     "capabilities": "03fbefb4",
     "pricing": "54aab52a",
@@ -36,12 +36,16 @@
     "active_parameters": "eccbc87e",
     "release_date": "ae7f2c44",
     "tagline": "95f7f5ad",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc",
+    "deprecation_date": "2020d4ea"
   },
   "model_type": "chat",
   "parameters": 80,
   "active_parameters": 3,
   "release_date": "2025-09-11",
   "tagline": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured “thinking” traces by default.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated",
+  "deprecation_date": "2026-10-09"
 }

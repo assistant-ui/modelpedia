@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/minimax/h3-max-turbo/extend-video",
   "tagline": "Extend an existing video with H3 Max Turbo: add 1 to 15 seconds of prompt-guided footage, with optional audio references and output resolutions from 480p to 2K.",
-  "last_seen_at": "2026-10-01",
+  "last_seen_at": "2026-10-02",
   "_generated": {
     "name": "d9ca7f35",
     "description": "86309b15",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "2c9379da",
     "tagline": "86309b15",
-    "last_seen_at": "00dfb29f"
+    "last_seen_at": "8d21ace3"
   },
-  "last_updated": "2026-10-02"
+  "last_updated": "2026-10-03"
 }

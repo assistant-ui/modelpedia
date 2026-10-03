@@ -1,0 +1,35 @@
+{
+  "id": "clef",
+  "name": "clef",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "Clef is a 27B multimodal model created by Cloudflare that turns a state and a schema of typed questions into decisions.",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "parameters": 27,
+  "page_url": "https://ollama.com/library/clef",
+  "open_weight": true,
+  "tagline": "Clef is a 27B multimodal model created by Cloudflare that turns a state and a schema of typed questions into decisions.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "892616d3",
+    "description": "ef95eebc",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "parameters": "02e74f10",
+    "page_url": "bf04e948",
+    "open_weight": "b326b506",
+    "tagline": "ef95eebc",
+    "capabilities": "91e36286",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-10-03"
+}

@@ -15,7 +15,7 @@
     "vision": true,
     "fine_tuning": true
   },
-  "huggingface_downloads": 204637,
+  "huggingface_downloads": 207123,
   "last_modified": "2024-08-09",
   "_generated": {
     "name": "deff3bf3",
@@ -28,8 +28,8 @@
     "open_weight": "b326b506",
     "tagline": "b8cff5fe",
     "capabilities": "ea60b262",
-    "huggingface_downloads": "0384eb06",
+    "huggingface_downloads": "21ff4c1d",
     "last_modified": "880765cb"
   },
-  "last_updated": "2026-10-02"
+  "last_updated": "2026-10-03"
 }

@@ -1,0 +1,35 @@
+{
+  "id": "clef-flash",
+  "name": "clef-flash",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "Clef-Flash is a 9B multimodal model that turns a state and a schema of typed questions into decisions.",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "parameters": 9,
+  "page_url": "https://ollama.com/library/clef-flash",
+  "open_weight": true,
+  "tagline": "Clef-Flash is a 9B multimodal model that turns a state and a schema of typed questions into decisions.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "4aea082f",
+    "description": "f7094173",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "parameters": "45c48cce",
+    "page_url": "f1345dc6",
+    "open_weight": "b326b506",
+    "tagline": "f7094173",
+    "capabilities": "91e36286",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-10-03"
+}

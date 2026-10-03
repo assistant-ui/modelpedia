@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-30",
-  "count": 82,
+  "date": "2026-10-03",
+  "count": 84,
   "ids": [
     "big-pickle",
     "claude-fable-5",
@@ -19,6 +19,7 @@
     "deepseek-v4-flash-vision-exp",
     "deepseek-v4-pro",
     "deepseek-v4.1-flash",
+    "fledge-alpha-free",
     "gemini-3-flash",
     "gemini-3.1-pro",
     "gemini-3.5-flash",
@@ -66,6 +67,7 @@
     "kimi-k2.7-code",
     "kimi-k3",
     "ling-3.0-flash-fin-free",
+    "ling-3.1-flash-free",
     "longcat-2.5-preview-free",
     "mimo-v2.5-free",
     "mimo-v2.6-flash-free",

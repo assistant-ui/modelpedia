@@ -1,0 +1,32 @@
+{
+  "id": "inclusionai/ling-3.1-flash",
+  "name": "inclusionAI: Ling 3.1 Flash",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.",
+  "release_date": "2026-10-02",
+  "context_window": 262144,
+  "max_output_tokens": 32768,
+  "tagline": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "7b629fd5",
+    "description": "797ef96c",
+    "release_date": "8d21ace3",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f4376436",
+    "tagline": "797ef96c",
+    "capabilities": "05723a3e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-03"
+}

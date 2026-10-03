@@ -1,0 +1,23 @@
+{
+  "id": "nvidia/switchyard",
+  "name": "NVIDIA: Switchyard",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Switchyard is an open-source model router that switches between multiple models to optimize the cost of requests.",
+  "release_date": "2026-09-21",
+  "context_window": 1000000,
+  "tagline": "Switchyard is an open-source model router that switches between multiple models to optimize the cost of requests.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "aeb7c733",
+    "description": "1ae8a4b6",
+    "release_date": "a4195392",
+    "context_window": "8155bc54",
+    "tagline": "1ae8a4b6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-03"
+}
