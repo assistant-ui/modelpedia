@@ -1,7 +1,9 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-10-03",
   "count": 30,
   "ids": [
+    "clef",
+    "clef-flash",
     "deepseek-v4-pro",
     "deepseek-v4.1-flash",
     "gemma4",
@@ -14,11 +16,9 @@
     "kimi-k2.6",
     "kimi-k2.7-code",
     "kimi-k3",
-    "medgemma",
     "minimax-m2.7",
     "minimax-m3",
     "mistral-large-3",
-    "mistral-medium-3.5",
     "muse-glimmer",
     "nemotron-3-nano",
     "nemotron-3-super",

@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/meshy/rigging/multi-animation",
   "tagline": "Meshy auto-rigs a humanoid 3D model fitting a skeleton and binding the mesh, then applies several motion presets from its animation library",
-  "last_seen_at": "2026-06-17",
+  "last_seen_at": "2026-10-02",
   "_generated": {
     "name": "ff0cefc0",
     "description": "345d44b3",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "0039a1b2",
     "tagline": "345d44b3",
-    "last_seen_at": "e050aed5"
+    "last_seen_at": "8d21ace3"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-10-03"
 }

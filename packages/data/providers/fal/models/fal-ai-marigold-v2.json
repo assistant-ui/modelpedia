@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/marigold-v2",
+  "name": "Marigold V2 Depth",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Estimate depth from a single image with Marigold V2, a diffusion-based depth model built on Qwen-Image-Edit, returning a colorized depth map.",
+  "status": "active",
+  "release_date": "2026-10-02",
+  "model_type": "image",
+  "page_url": "https://fal.run/fal-ai/marigold-v2",
+  "tagline": "Estimate depth from a single image with Marigold V2, a diffusion-based depth model built on Qwen-Image-Edit, returning a colorized depth map.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-10-02",
+  "_generated": {
+    "name": "6f77f1b2",
+    "description": "77b9b015",
+    "status": "379ac110",
+    "release_date": "8d21ace3",
+    "model_type": "db8857fe",
+    "page_url": "335d5a6a",
+    "tagline": "77b9b015",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "8d21ace3"
+  },
+  "last_updated": "2026-10-03"
+}

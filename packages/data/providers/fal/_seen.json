@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-02",
-  "count": 1502,
+  "date": "2026-10-03",
+  "count": 1503,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -806,6 +806,7 @@
     "fal-ai-magi-distilled",
     "fal-ai-magi-distilled-extend-video",
     "fal-ai-magi-distilled-image-to-video",
+    "fal-ai-marigold-v2",
     "fal-ai-marlin",
     "fal-ai-marlin-find",
     "fal-ai-maya",

@@ -6,7 +6,7 @@
   "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total.",
   "release_date": "2026-08-27",
   "context_window": 262144,
-  "max_output_tokens": 235929,
+  "max_output_tokens": 32768,
   "tagline": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total.",
   "capabilities": {
     "tool_call": true,
@@ -19,9 +19,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.06,
-    "output": 0.18,
-    "cached_input": 0.012
+    "input": 0.042,
+    "output": 0.123,
+    "cached_input": 0.008
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -29,12 +29,12 @@
     "description": "04a85f09",
     "release_date": "0890bbf8",
     "context_window": "4a1d32eb",
-    "max_output_tokens": "7ad80673",
+    "max_output_tokens": "f4376436",
     "tagline": "04a85f09",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
-    "pricing": "70d151c2",
+    "pricing": "85d5dedb",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-06"
+  "last_updated": "2026-10-03"
 }

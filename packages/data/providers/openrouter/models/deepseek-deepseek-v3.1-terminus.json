@@ -3,11 +3,11 @@
   "name": "DeepSeek: DeepSeek V3.1 Terminus",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-10-03",
   "family": "deepseek",
   "description": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language cons",
   "context_window": 163840,
-  "max_output_tokens": 65536,
+  "max_output_tokens": 147456,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -19,7 +19,7 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.3,
+    "input": 0.27,
     "output": 1,
     "cached_input": 0.135
   },
@@ -28,10 +28,10 @@
     "family": "4b81b92d",
     "description": "5d473b75",
     "context_window": "7edab444",
-    "max_output_tokens": "297ce0b3",
+    "max_output_tokens": "a879abc3",
     "modalities": "68e53d93",
     "capabilities": "03fbefb4",
-    "pricing": "4b7e7134",
+    "pricing": "e48d46d4",
     "release_date": "3cb5c95a",
     "tagline": "5d473b75",
     "tools": "f0c1dc7e",

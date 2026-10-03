@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-31",
-  "count": 20,
+  "date": "2026-10-03",
+  "count": 19,
   "ids": [
     "flux-1-dev",
     "flux-1-kontext-dev",
@@ -18,7 +18,6 @@
     "flux-kontext-pro",
     "flux-pro-1.0-expand",
     "flux-pro-1.0-fill",
-    "flux-pro-1.0-fill-finetuned",
     "flux-pro-1.1",
     "flux-pro-1.1-ultra",
     "flux-pro-1.1-ultra-finetuned"
