@@ -7628,20 +7628,26 @@ export const providers: ProviderWithModels[] = [
       },
       {
         "id": "luma.ray-v2:0",
-        "name": "Ray v2",
+        "name": "Ray2",
         "created_by": "luma",
         "source": "official",
-        "last_updated": "2026-07-31",
+        "last_updated": "2026-10-05",
         "model_type": "video",
         "modalities": {
           "input": [
+            "image",
             "text"
           ],
           "output": [
             "video"
           ]
         },
-        "status": "deprecated"
+        "status": "deprecated",
+        "release_date": "2025-01-23",
+        "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-luma-ai-ray2",
+        "capabilities": {
+          "vision": true
+        }
       },
       {
         "id": "meta.llama3-1-405b-instruct-v1:0",
@@ -66814,7 +66820,7 @@ export const providers: ProviderWithModels[] = [
         "name": "gemma-4-31B-it",
         "created_by": "google",
         "source": "official",
-        "last_updated": "2026-10-02",
+        "last_updated": "2026-10-05",
         "family": "gemma-4",
         "description": "Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input and generating text output.",
         "status": "active",
@@ -66842,7 +66848,7 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.15,
+          "input": 0.2,
           "output": 0.4
         },
         "tools": [
@@ -68773,7 +68779,8 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "last_updated": "2026-08-13"
+        "last_updated": "2026-10-05",
+        "quantization": "mxfp4"
       },
       {
         "id": "NousResearch/Hermes-3-Llama-3.1-405B",
@@ -97312,7 +97319,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Meshy-5 multi image generates realistic and production ready 3D models from multiple images.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2025-10-06",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/meshy/v5/multi-image-to-3d",
@@ -97321,7 +97328,7 @@ export const providers: ProviderWithModels[] = [
           "vision": true
         },
         "last_seen_at": "2026-06-17",
-        "last_updated": "2026-06-18"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "fal-ai/meshy/v5/remesh",
@@ -97329,13 +97336,13 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Meshy-5 remesh allows you to remesh and export existing 3D models into various formats",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2025-10-18",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/meshy/v5/remesh",
         "tagline": "Meshy-5 remesh allows you to remesh and export existing 3D models into various formats",
         "last_seen_at": "2026-06-17",
-        "last_updated": "2026-06-18"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "fal-ai/meshy/v5/retexture",
@@ -97343,7 +97350,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Meshy-5 retexture applies new, high-quality textures to existing 3D models using either text prompts or reference images.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2025-10-18",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/meshy/v5/retexture",
@@ -97352,7 +97359,7 @@ export const providers: ProviderWithModels[] = [
           "vision": true
         },
         "last_seen_at": "2026-06-17",
-        "last_updated": "2026-06-18"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "fal-ai/meshy/v6/image-to-3d",
@@ -97377,7 +97384,7 @@ export const providers: ProviderWithModels[] = [
         "created_by": "fal",
         "source": "official",
         "description": "Meshy-6 is the latest model from Meshy.",
-        "status": "active",
+        "status": "deprecated",
         "release_date": "2026-04-23",
         "model_type": "other",
         "page_url": "https://fal.run/fal-ai/meshy/v6/multi-image-to-3d",
@@ -97386,7 +97393,7 @@ export const providers: ProviderWithModels[] = [
           "vision": true
         },
         "last_seen_at": "2026-10-02",
-        "last_updated": "2026-10-03"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "fal-ai/meshy/v6-preview/image-to-3d",
@@ -179450,14 +179457,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.671,
+          "input": 0.625,
           "output": 13,
           "cached_input": 0.45
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "~openai/gpt-astra-latest",
@@ -179739,12 +179746,12 @@ export const providers: ProviderWithModels[] = [
         "pricing": {
           "input": 0.035,
           "output": 0.5,
-          "cached_input": 0.035
+          "cached_input": 0.023
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-03"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "~z-ai/glm-latest",
@@ -179755,7 +179762,7 @@ export const providers: ProviderWithModels[] = [
         "description": "This model always redirects to the latest GLM model from Z.ai.",
         "release_date": "2026-08-19",
         "context_window": 1048576,
-        "max_output_tokens": 943718,
+        "max_output_tokens": 131072,
         "model_type": "chat",
         "tagline": "This model always redirects to the latest GLM model from Z.ai.",
         "capabilities": {
@@ -179773,14 +179780,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.05,
-          "output": 5,
-          "cached_input": 0.04
+          "input": 0.03,
+          "output": 12,
+          "cached_input": 0.03
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "ai21/jamba-large-1.7",
@@ -183149,7 +183156,7 @@ export const providers: ProviderWithModels[] = [
         "name": "DeepSeek: DeepSeek V3 0324",
         "created_by": "deepseek",
         "source": "official",
-        "last_updated": "2026-10-04",
+        "last_updated": "2026-10-05",
         "family": "deepseek-chat",
         "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.",
         "context_window": 163840,
@@ -183168,8 +183175,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.25,
-          "output": 1,
+          "input": 0.29,
+          "output": 1.14,
           "cached_input": 0.11
         },
         "release_date": "2025-03-24",
@@ -183178,7 +183185,7 @@ export const providers: ProviderWithModels[] = [
           "function_calling"
         ],
         "model_type": "chat",
-        "max_output_tokens": 147456
+        "max_output_tokens": 115200
       },
       {
         "id": "deepseek/deepseek-chat-v3.1",
@@ -183781,14 +183788,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.022,
+          "input": 0.03,
           "output": 1.28,
-          "cached_input": 0.022
+          "cached_input": 0.03
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-04",
+        "last_updated": "2026-10-05",
         "license": "mit",
         "open_weight": true
       },
@@ -183856,14 +183863,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.33,
-          "output": 4.2,
-          "cached_input": 0.26
+          "input": 0.45,
+          "output": 5,
+          "cached_input": 0.4
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "deepseek/deepseek-v4-pro",
@@ -183970,14 +183977,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.003,
-          "output": 2.4,
-          "cached_input": 0.003
+          "input": 0.3,
+          "output": 1.2,
+          "cached_input": 0.006
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "dots-studio/dots-3-note-preview:free",
@@ -186031,14 +186038,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.068,
-          "output": 0.225,
-          "cached_input": 0.038
+          "input": 0.09,
+          "output": 0.3,
+          "cached_input": 0.05
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-03"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "google/gemma-4-31b-it:batch",
@@ -187827,7 +187834,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Meta: Llama 3.3 70B Instruct",
         "created_by": "meta-llama",
         "source": "official",
-        "last_updated": "2026-10-04",
+        "last_updated": "2026-10-05",
         "family": "llama-3.3",
         "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out).",
         "context_window": 131072,
@@ -187846,8 +187853,8 @@ export const providers: ProviderWithModels[] = [
           "json_mode": true
         },
         "pricing": {
-          "input": 0.22,
-          "output": 0.5,
+          "input": 0.1,
+          "output": 0.32,
           "cached_input": 0.11
         },
         "model_type": "chat",
@@ -190824,14 +190831,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.72,
-          "output": 13,
-          "cached_input": 0.7
+          "input": 0.67,
+          "output": 14,
+          "cached_input": 0.22
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-04",
+        "last_updated": "2026-10-05",
         "max_output_tokens": 943718
       },
       {
@@ -191808,7 +191815,7 @@ export const providers: ProviderWithModels[] = [
         "description": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total.",
         "release_date": "2026-08-11",
         "context_window": 262144,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 32768,
         "model_type": "chat",
         "tagline": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total.",
         "capabilities": {
@@ -191827,13 +191834,13 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.06,
-          "output": 0.17,
+          "output": 0.16,
           "cached_input": 0.03
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-03"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "nvidia/nemotron-nano-12b-v2-vl:free",
@@ -195007,14 +195014,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 4,
-          "output": 20,
-          "cached_input": 0.4
+          "input": 2,
+          "output": 10,
+          "cached_input": 0.2
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-29"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "openai/gpt-5.6-sol",
@@ -199992,7 +199999,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026.",
         "release_date": "2026-04-27",
         "context_window": 262144,
-        "max_output_tokens": 81920,
+        "max_output_tokens": 262140,
         "parameters": 27,
         "model_type": "chat",
         "tagline": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026.",
@@ -200016,13 +200023,13 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.32,
-          "output": 3.2,
-          "cached_input": 0.15
+          "output": 2.7,
+          "cached_input": 0.03
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-26",
+        "last_updated": "2026-10-05",
         "license": "apache-2.0",
         "open_weight": true
       },
@@ -200523,14 +200530,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.42,
-          "output": 3,
+          "input": 0.425,
+          "output": 2.55,
           "cached_input": 0.085
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-30"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "qwen/qwen3.8-flash",
@@ -203857,7 +203864,7 @@ export const providers: ProviderWithModels[] = [
         "description": "GLM 5.2 is a large-scale reasoning model from Z.ai.",
         "release_date": "2026-06-16",
         "context_window": 1048576,
-        "max_output_tokens": 943718,
+        "max_output_tokens": 131072,
         "model_type": "chat",
         "tagline": "GLM 5.2 is a large-scale reasoning model from Z.ai.",
         "capabilities": {
@@ -203875,14 +203882,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.38,
-          "output": 3.49,
-          "cached_input": 0.26
+          "input": 0.024,
+          "output": 16,
+          "cached_input": 0.024
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "z-ai/glm-5.3:batch",
@@ -220424,9 +220431,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 18222,
+        "huggingface_downloads": 18298,
         "last_modified": "2026-06-24",
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "SAME-S",
@@ -220456,9 +220463,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 2460,
+        "huggingface_downloads": 2411,
         "last_modified": "2026-05-19",
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "sd-turbo",
@@ -220748,9 +220755,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-medium-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Medium Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 8335,
+        "huggingface_downloads": 8549,
         "last_modified": "2026-07-13",
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "stable-audio-3-medium",
@@ -220765,9 +220772,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-medium",
         "open_weight": true,
         "tagline": "Stable Audio 3 Medium is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 64909,
+        "huggingface_downloads": 63641,
         "last_modified": "2026-06-16",
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "stable-audio-3-optimized",
@@ -220782,9 +220789,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-optimized",
         "open_weight": true,
         "tagline": "Stable Audio 3 Optimized is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 22555,
+        "huggingface_downloads": 22911,
         "last_modified": "2026-09-01",
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "stable-audio-3-small-music-base",
@@ -220799,9 +220806,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-music-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Music Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 2691,
+        "huggingface_downloads": 2711,
         "last_modified": "2026-07-13",
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "stable-audio-3-small-music",
@@ -220816,9 +220823,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-music",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Music is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 16982,
+        "huggingface_downloads": 17299,
         "last_modified": "2026-05-19",
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "stable-audio-3-small-sfx-base",
@@ -220833,9 +220840,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Sfx Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 1368,
+        "huggingface_downloads": 1397,
         "last_modified": "2026-07-13",
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "stable-audio-3-small-sfx",
@@ -220850,9 +220857,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Sfx is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 32186,
+        "huggingface_downloads": 33232,
         "last_modified": "2026-05-19",
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "stable-audio-open-1.0",
@@ -220898,9 +220905,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 2517,
+        "huggingface_downloads": 2516,
         "last_modified": "2025-05-27",
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "stable-cascade-prior",
@@ -221108,9 +221115,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 34,
+        "huggingface_downloads": 36,
         "last_modified": "2026-07-28",
-        "last_updated": "2026-10-03"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "stable-diffusion-3-medium-diffusers",
@@ -221428,9 +221435,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 5061,
+        "huggingface_downloads": 5060,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-09-29"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "stable-diffusion-3.5-large-turbo",
@@ -221942,9 +221949,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 6473,
+        "huggingface_downloads": 6268,
         "last_modified": "2025-06-03",
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "stable-zero123",
@@ -222719,9 +222726,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sv4d2.0",
         "open_weight": true,
         "tagline": "Sv4d2.0 is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 2229,
+        "huggingface_downloads": 2497,
         "last_modified": "2025-04-04",
-        "last_updated": "2026-10-04"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "tiny-random-stablelm-2",
@@ -230896,8 +230903,8 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0,
-          "output": 0
+          "input": 0.07,
+          "output": 0.22
         },
         "modalities": {
           "input": [
@@ -230910,7 +230917,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-09-06"
+        "last_updated": "2026-10-05"
       },
       {
         "id": "inclusionai/ling-3.0-flash-vl",

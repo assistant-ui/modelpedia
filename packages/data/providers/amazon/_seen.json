@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-30",
-  "count": 136,
+  "date": "2026-10-05",
+  "count": 137,
   "ids": [
     "ai21.jamba-1-5-large-v1-0",
     "ai21.jamba-1-5-mini-v1-0",
@@ -53,6 +53,7 @@
     "google.gemma-4-26b-a4b",
     "google.gemma-4-31b",
     "google.gemma-4-e2b",
+    "luma.ray-v2-0",
     "meta.llama3-1-405b-instruct-v1-0",
     "meta.llama3-1-70b-instruct-v1-0",
     "meta.llama3-1-8b-instruct-v1-0",

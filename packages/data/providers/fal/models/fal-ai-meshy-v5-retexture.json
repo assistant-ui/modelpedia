@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Meshy-5 retexture applies new, high-quality textures to existing 3D models using either text prompts or reference images.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-10-18",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/meshy/v5/retexture",
@@ -16,7 +16,7 @@
   "_generated": {
     "name": "1cb5104c",
     "description": "0e8daae8",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "7ec8fdcb",
     "model_type": "ddb0b7bc",
     "page_url": "22668b5a",
@@ -24,5 +24,5 @@
     "capabilities": "d3117eb0",
     "last_seen_at": "e050aed5"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-10-05"
 }

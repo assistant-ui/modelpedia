@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "count": 121,
   "ids": [
     "codellama-codellama-7b-instruct-hf",
@@ -11,7 +11,6 @@
     "google-gemma-2-2b-it",
     "google-gemma-2-9b-it",
     "google-gemma-3-1b-it",
-    "gritlm-gritlm-7b",
     "ibm-granite-granite-4.2-30b",
     "ibm-granite-granite-4.2-3b",
     "ibm-granite-granite-4.2-8b",
@@ -122,6 +121,7 @@
     "zai-org-glm-5.1",
     "zai-org-glm-5.2",
     "zai-org-glm-5.2-fp8",
-    "zai-org-glm-5.3"
+    "zai-org-glm-5.3",
+    "zai-org-glm-5.3-bf16"
   ]
 }
