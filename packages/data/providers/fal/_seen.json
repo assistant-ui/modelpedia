@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-03",
-  "count": 1503,
+  "date": "2026-10-05",
+  "count": 1499,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -814,11 +814,7 @@
     "fal-ai-maya-stream",
     "fal-ai-meshy-rigging",
     "fal-ai-meshy-rigging-multi-animation",
-    "fal-ai-meshy-v5-multi-image-to-3d",
-    "fal-ai-meshy-v5-remesh",
-    "fal-ai-meshy-v5-retexture",
     "fal-ai-meshy-v6-image-to-3d",
-    "fal-ai-meshy-v6-multi-image-to-3d",
     "fal-ai-meshy-v6-preview-image-to-3d",
     "fal-ai-meshy-v6-preview-text-to-3d",
     "fal-ai-meshy-v6-text-to-3d",

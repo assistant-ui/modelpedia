@@ -3,7 +3,7 @@
   "name": "gemma-4-31B-it",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-10-02",
+  "last_updated": "2026-10-05",
   "family": "gemma-4",
   "description": "Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input and generating text output.",
   "status": "active",
@@ -26,7 +26,7 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.15,
+    "input": 0.2,
     "output": 0.4
   },
   "tools": ["function_calling"],
@@ -45,7 +45,7 @@
     "license": "3fe02b16",
     "capabilities": "81e3387c",
     "modalities": "6399757e",
-    "pricing": "227eec27",
+    "pricing": "4dbcdee2",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
     "quantization": "640679f9",

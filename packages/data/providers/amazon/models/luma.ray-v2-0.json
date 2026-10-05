@@ -1,19 +1,27 @@
 {
   "id": "luma.ray-v2:0",
-  "name": "Ray v2",
+  "name": "Ray2",
   "created_by": "luma",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-10-05",
   "model_type": "video",
   "modalities": {
-    "input": ["text"],
+    "input": ["image", "text"],
     "output": ["video"]
   },
   "_generated": {
-    "name": "41404461",
+    "name": "06efcb7f",
     "model_type": "4d1b75ca",
-    "modalities": "94e5e9ab",
-    "status": "2e2f74dc"
+    "modalities": "43c560c1",
+    "status": "2e2f74dc",
+    "release_date": "95a78e49",
+    "page_url": "d06bc22f",
+    "capabilities": "d3117eb0"
   },
-  "status": "deprecated"
+  "status": "deprecated",
+  "release_date": "2025-01-23",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-luma-ai-ray2",
+  "capabilities": {
+    "vision": true
+  }
 }
