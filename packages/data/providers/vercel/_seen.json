@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-03",
-  "count": 385,
+  "date": "2026-10-06",
+  "count": 388,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -74,6 +74,7 @@
     "bfl-flux-2-klein-9b",
     "bfl-flux-2-max",
     "bfl-flux-2-pro",
+    "bfl-flux-3-image",
     "bfl-flux-3-video",
     "bfl-flux-kontext-max",
     "bfl-flux-kontext-pro",
@@ -98,6 +99,8 @@
     "bytedance-seedream-5.0-pro",
     "cohere-command-a",
     "cohere-embed-v4.0",
+    "cohere-embed-v5.0-fast",
+    "cohere-embed-v5.0-pro",
     "cohere-rerank-v3.5",
     "cohere-rerank-v4-fast",
     "cohere-rerank-v4-pro",

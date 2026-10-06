@@ -4,7 +4,7 @@
   "created_by": "google",
   "source": "official",
   "family": "imagen-4",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "image",
   "page_url": "https://replicate.com/google/imagen-4-fast",
   "capabilities": {
@@ -18,12 +18,12 @@
   "_generated": {
     "name": "d6198324",
     "family": "68336c6e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "db8857fe",
     "page_url": "fb86afe6",
     "capabilities": "d3117eb0",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc"
   },
-  "last_updated": "2026-10-02"
+  "last_updated": "2026-10-06"
 }

@@ -3,14 +3,14 @@
   "name": "Text Extract Ocr",
   "created_by": "abiruyt",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/abiruyt/text-extract-ocr",
   "_generated": {
     "name": "ffb7ece7",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "1b106ce2"
   },
-  "last_updated": "2026-10-03"
+  "last_updated": "2026-10-06"
 }

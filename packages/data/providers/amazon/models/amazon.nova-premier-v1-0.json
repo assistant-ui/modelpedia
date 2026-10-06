@@ -3,7 +3,7 @@
   "name": "Nova Premier",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-10-06",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -23,11 +23,13 @@
     "context_window": "8155bc54",
     "max_output_tokens": "70f44538",
     "reasoning_tokens": "b326b506",
-    "page_url": "a3e94311"
+    "page_url": "a3e94311",
+    "status": "2e2f74dc"
   },
   "release_date": "2025-10-31",
   "context_window": 1000000,
   "max_output_tokens": 25000,
   "reasoning_tokens": true,
-  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-premier"
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-premier",
+  "status": "deprecated"
 }

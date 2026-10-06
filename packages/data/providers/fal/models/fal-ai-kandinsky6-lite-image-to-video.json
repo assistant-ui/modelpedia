@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kandinsky6-lite/image-to-video",
+  "name": "Kandinsky 6.0 Lite",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kandinsky 6.0 Lite animates a single image into a short video clip, with fast, lightweight inference and prompt-guided motion.",
+  "status": "active",
+  "release_date": "2026-10-05",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kandinsky6-lite/image-to-video",
+  "tagline": "Kandinsky 6.0 Lite animates a single image into a short video clip, with fast, lightweight inference and prompt-guided motion.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-10-06",
+  "_generated": {
+    "name": "d942953d",
+    "description": "0b801569",
+    "status": "379ac110",
+    "release_date": "5678bd8d",
+    "model_type": "4d1b75ca",
+    "page_url": "41ca4b9e",
+    "tagline": "0b801569",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "684e6a7f"
+  },
+  "last_updated": "2026-10-06"
+}

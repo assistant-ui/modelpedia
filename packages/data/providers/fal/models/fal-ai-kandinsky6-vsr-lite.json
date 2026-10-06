@@ -1,0 +1,24 @@
+{
+  "id": "fal-ai/kandinsky6-vsr/lite",
+  "name": "Kandinsky 6.0 VSR Lite",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kandinsky 6.0 VSR Lite is a fast, lightweight video super-resolution model for quick, cost-efficient upscaling.",
+  "status": "active",
+  "release_date": "2026-10-05",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/kandinsky6-vsr/lite",
+  "tagline": "Kandinsky 6.0 VSR Lite is a fast, lightweight video super-resolution model for quick, cost-efficient upscaling.",
+  "last_seen_at": "2026-10-06",
+  "_generated": {
+    "name": "6d7e662c",
+    "description": "afb97e51",
+    "status": "379ac110",
+    "release_date": "5678bd8d",
+    "model_type": "ddb0b7bc",
+    "page_url": "9d505f5f",
+    "tagline": "afb97e51",
+    "last_seen_at": "684e6a7f"
+  },
+  "last_updated": "2026-10-06"
+}

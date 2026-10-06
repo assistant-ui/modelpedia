@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "count": 137,
   "ids": [
     "ai21.jamba-1-5-large-v1-0",
@@ -10,7 +10,6 @@
     "amazon.nova-canvas-v1-0",
     "amazon.nova-lite-v1-0",
     "amazon.nova-micro-v1-0",
-    "amazon.nova-premier-v1-0",
     "amazon.nova-pro-v1-0",
     "amazon.nova-reel-v1-0",
     "amazon.nova-sonic-v1-0",
@@ -138,6 +137,7 @@
     "xai.grok-4.7",
     "zai.glm-4.7",
     "zai.glm-4.7-flash",
-    "zai.glm-5"
+    "zai.glm-5",
+    "zai.glm-5.3"
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "id": "cohere/embed-v5.0-fast",
+  "name": "embed-v5.0-fast",
+  "created_by": "cohere",
+  "source": "official",
+  "family": "embed",
+  "context_window": 128000,
+  "model_type": "embed",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.08,
+    "output": 0
+  },
+  "_generated": {
+    "name": "808b9a95",
+    "family": "764cb3de",
+    "context_window": "34434798",
+    "model_type": "764cb3de",
+    "capabilities": "0fa77dc6",
+    "pricing": "6a997fb4"
+  },
+  "last_updated": "2026-10-06"
+}

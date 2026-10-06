@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-05",
-  "count": 1499,
+  "date": "2026-10-06",
+  "count": 1505,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -596,6 +596,12 @@
     "fal-ai-kandinsky5-pro-text-to-video",
     "fal-ai-kandinsky5-text-to-video",
     "fal-ai-kandinsky5-text-to-video-distill",
+    "fal-ai-kandinsky6-lite-image-to-video",
+    "fal-ai-kandinsky6-lite-text-to-video",
+    "fal-ai-kandinsky6-pro-image-to-video",
+    "fal-ai-kandinsky6-pro-text-to-video",
+    "fal-ai-kandinsky6-vsr",
+    "fal-ai-kandinsky6-vsr-lite",
     "fal-ai-kling-image-o1",
     "fal-ai-kling-image-o3-image-to-image",
     "fal-ai-kling-image-o3-text-to-image",
