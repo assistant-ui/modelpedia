@@ -1,0 +1,31 @@
+{
+  "id": "fal-ai/kandinsky6-pro/text-to-video",
+  "name": "Kandinsky 6.0 Pro",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kandinsky 6.0 Pro is Kandinsky Lab's flagship text-to-video model, generating high-resolution clips with cinematic motion and precise prompt adherence.",
+  "status": "active",
+  "release_date": "2026-10-05",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kandinsky6-pro/text-to-video",
+  "tagline": "Kandinsky 6.0 Pro is Kandinsky Lab's flagship text-to-video model, generating high-resolution clips with cinematic motion and precise prompt adherence.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-10-06",
+  "_generated": {
+    "name": "fe0fb4a8",
+    "description": "dcc400bd",
+    "status": "379ac110",
+    "release_date": "5678bd8d",
+    "model_type": "4d1b75ca",
+    "page_url": "8059fc6b",
+    "tagline": "dcc400bd",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "684e6a7f"
+  },
+  "last_updated": "2026-10-06"
+}

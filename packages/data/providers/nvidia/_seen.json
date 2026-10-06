@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-29",
-  "count": 81,
+  "date": "2026-10-06",
+  "count": 80,
   "ids": [
     "01-ai-yi-large",
     "adept-fuyu-8b",
@@ -70,7 +70,6 @@
     "nvidia-nv-embedqa-mistral-7b-v2",
     "nvidia-nvclip",
     "nvidia-riva-translate-4b-instruct",
-    "nvidia-riva-translate-4b-instruct-v1.1",
     "nvidia-riva-translate-4b-instruct-v2",
     "nvidia-vila",
     "openai-gpt-oss-20b",

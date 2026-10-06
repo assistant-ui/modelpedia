@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-03",
-  "count": 478,
+  "date": "2026-10-06",
+  "count": 476,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -408,7 +408,6 @@
     "qwen-qwen3.7-plus",
     "qwen-qwen3.8-2.4t-a95b",
     "qwen-qwen3.8-27b",
-    "qwen-qwen3.8-27b-free",
     "qwen-qwen3.8-flash",
     "qwen-qwen3.8-max-0902",
     "qwen-qwen3.8-max-prime",
@@ -424,7 +423,6 @@
     "sao10k-l3-lunaris-8b",
     "sao10k-l3.1-euryale-70b",
     "sao10k-l3.3-euryale-70b",
-    "stealth-space-bunny-alpha",
     "stepfun-step-3.5-flash",
     "stepfun-step-3.7-flash",
     "tencent-hunyuan-a13b-instruct",

@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/kandinsky6-pro/image-to-video",
+  "name": "Kandinsky 6.0 Pro",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Kandinsky 6.0 Pro turns a start frame into a high-resolution, cinematic video clip with controllable motion and strong visual fidelity.",
+  "status": "active",
+  "release_date": "2026-10-05",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/kandinsky6-pro/image-to-video",
+  "tagline": "Kandinsky 6.0 Pro turns a start frame into a high-resolution, cinematic video clip with controllable motion and strong visual fidelity.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-10-06",
+  "_generated": {
+    "name": "fe0fb4a8",
+    "description": "47de0683",
+    "status": "379ac110",
+    "release_date": "5678bd8d",
+    "model_type": "4d1b75ca",
+    "page_url": "ff55ccf4",
+    "tagline": "47de0683",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "684e6a7f"
+  },
+  "last_updated": "2026-10-06"
+}

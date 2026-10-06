@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-06",
   "count": 24,
   "ids": [
     "s-deepseek-v4-1-flash",
@@ -14,6 +14,7 @@
     "s-gpt-image-2",
     "s-inkling",
     "s-kimi-k3",
+    "s-minimax-h3",
     "s-minimax-m3",
     "s-muse-glimmer",
     "s-nemotron-3-5-lightning",
@@ -24,7 +25,6 @@
     "s-qwen37-plus",
     "s-seedance-2-0",
     "s-seedance-2-5",
-    "s-ternary-bonsai-2-27b",
     "s-tev1-4b-experimental"
   ]
 }
