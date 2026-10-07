@@ -3,11 +3,11 @@
   "name": "gemini-2.5-flash-image-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-10-07",
   "family": "gemini-2.5",
   "status": "deprecated",
   "deprecation_date": "2026-01-15",
-  "successor": "gemini-2.5-flash-image",
+  "successor": "gemini-nano-banana-2.1",
   "capabilities": {
     "streaming": true,
     "vision": true
@@ -48,7 +48,7 @@
     "family": "ea6b88bf",
     "status": "2e2f74dc",
     "deprecation_date": "9e27f046",
-    "successor": "418971ef",
+    "successor": "061ea1f0",
     "capabilities": "8a3b232e",
     "modalities": "6399757e",
     "pricing": "eaae666f",

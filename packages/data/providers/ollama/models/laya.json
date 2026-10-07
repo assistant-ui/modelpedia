@@ -1,0 +1,30 @@
+{
+  "id": "laya",
+  "name": "laya",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "Laya is a 421M decision model from Convai Innovations, fine-tuned from ModernBERT-large.",
+  "license": "apache-2.0",
+  "page_url": "https://ollama.com/library/laya",
+  "open_weight": true,
+  "tagline": "Laya is a 421M decision model from Convai Innovations, fine-tuned from ModernBERT-large.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "5d488706",
+    "description": "b31d6518",
+    "license": "60245731",
+    "page_url": "feb8d4ad",
+    "open_weight": "b326b506",
+    "tagline": "b31d6518",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-07"
+}

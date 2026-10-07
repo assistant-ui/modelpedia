@@ -1,0 +1,45 @@
+{
+  "id": "mercury-decide",
+  "name": "Mercury Decide",
+  "created_by": "inception",
+  "source": "official",
+  "family": "mercury",
+  "description": "Typed-decision preview. Decisions endpoint only.",
+  "status": "active",
+  "context_window": 32000,
+  "max_output_tokens": 50000,
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false,
+  "tagline": "Typed-decision preview.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0,
+    "cached_input": 0
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "3293890b",
+    "family": "428b012e",
+    "description": "d5cb4f18",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "max_output_tokens": "1017bfd4",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "tagline": "ecbf4239",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "5820de14",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-10-07"
+}

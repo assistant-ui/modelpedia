@@ -1,0 +1,23 @@
+{
+  "id": "google/nano-banana-2.1",
+  "name": "Nano Banana 2.1",
+  "created_by": "google",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/google/nano-banana-2.1",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "fdcdaf63",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "2375cce3",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-10-07"
+}

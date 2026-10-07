@@ -4,7 +4,7 @@
   "created_by": "topaz",
   "source": "official",
   "description": "Professional video colorization powered by Topaz Labs.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-08-11",
   "model_type": "other",
   "page_url": "https://fal.run/topaz/colorize/video",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "00529ab9",
     "description": "16e8c8f5",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "c2572fd1",
     "model_type": "ddb0b7bc",
     "page_url": "958a5815",
     "tagline": "16e8c8f5",
     "last_seen_at": "6a250b46"
   },
-  "last_updated": "2026-09-06"
+  "last_updated": "2026-10-07"
 }

@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-25",
-  "count": 95,
+  "date": "2026-10-07",
+  "count": 96,
   "ids": [
     "antigravity-preview-05-2026",
     "antigravity-preview-09-2026",
@@ -66,6 +66,7 @@
     "gemini-embedding-exp",
     "gemini-embedding-exp-03-07",
     "gemini-live-2.5-flash-preview",
+    "gemini-nano-banana-2.1",
     "gemini-omni-flash",
     "gemini-omni-flash-preview",
     "gemini-robotics-er-1.5-preview",

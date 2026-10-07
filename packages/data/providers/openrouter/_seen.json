@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-06",
-  "count": 476,
+  "date": "2026-10-07",
+  "count": 477,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -126,6 +126,7 @@
     "google-gemini-3.7-flash-batch",
     "google-gemini-3.8-flash",
     "google-gemini-3.8-flash-batch",
+    "google-gemini-nano-banana-2.1",
     "google-gemma-2-27b-it",
     "google-gemma-3-12b-it",
     "google-gemma-3-27b-it",
@@ -148,7 +149,6 @@
     "inclusionai-ling-3.1-flash",
     "inference-net-schematron-v2-small",
     "inference-net-schematron-v2-turbo",
-    "kwaipilot-kat-coder-pro-v2.5",
     "liquid-lfm-2.5-2.6b-free",
     "mancer-weaver",
     "meituan-longcat-2.0",
@@ -192,6 +192,7 @@
     "mistralai-mistral-large-2407",
     "mistralai-mistral-large-2512",
     "mistralai-mistral-large-2512-batch",
+    "mistralai-mistral-large-4-0",
     "mistralai-mistral-medium-3",
     "mistralai-mistral-medium-3-5",
     "mistralai-mistral-medium-3-5-batch",

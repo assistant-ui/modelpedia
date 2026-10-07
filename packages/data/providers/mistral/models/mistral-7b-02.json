@@ -3,23 +3,24 @@
   "name": "mistral-7b-02",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-07",
   "status": "active",
   "context_window": 32000,
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "_generated": {
     "name": "a5c55a86",
     "status": "379ac110",
     "context_window": "10e4d788",
-    "capabilities": "9c665f5d",
-    "modalities": "68e53d93",
+    "capabilities": "98ea92bd",
+    "modalities": "6399757e",
     "model_type": "d669f408",
     "family": "33212289",
     "license": "60245731",

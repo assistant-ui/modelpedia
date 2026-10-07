@@ -20,7 +20,7 @@
     "fine_tuning": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "tools": ["function_calling"],
@@ -36,10 +36,10 @@
     "model_type": "d669f408",
     "tagline": "5ff2345f",
     "capabilities": "f7041f91",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "tools": "f0c1dc7e",
     "parameters": "1c383cd3"
   },
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-10-07",
   "parameters": 35
 }

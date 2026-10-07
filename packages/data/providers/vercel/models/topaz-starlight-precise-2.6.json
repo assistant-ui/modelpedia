@@ -1,0 +1,19 @@
+{
+  "id": "topaz/starlight-precise-2.6",
+  "name": "starlight-precise-2.6",
+  "created_by": "topaz",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "b04f66b9",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-10-07"
+}

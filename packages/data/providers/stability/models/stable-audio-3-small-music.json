@@ -11,8 +11,8 @@
   "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-music",
   "open_weight": true,
   "tagline": "Stable Audio 3 Small Music is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "huggingface_downloads": 17751,
-  "last_modified": "2026-05-19",
+  "huggingface_downloads": 18027,
+  "last_modified": "2026-10-06",
   "_generated": {
     "name": "f5e21a2b",
     "description": "eb65778e",
@@ -23,8 +23,8 @@
     "page_url": "2c770fc1",
     "open_weight": "b326b506",
     "tagline": "eb65778e",
-    "huggingface_downloads": "65114c75",
-    "last_modified": "665f01a0"
+    "huggingface_downloads": "305a3641",
+    "last_modified": "684e6a7f"
   },
-  "last_updated": "2026-10-06"
+  "last_updated": "2026-10-07"
 }

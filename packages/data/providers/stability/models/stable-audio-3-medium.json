@@ -11,8 +11,8 @@
   "page_url": "https://huggingface.co/stabilityai/stable-audio-3-medium",
   "open_weight": true,
   "tagline": "Stable Audio 3 Medium is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "huggingface_downloads": 62852,
-  "last_modified": "2026-06-16",
+  "huggingface_downloads": 61284,
+  "last_modified": "2026-10-06",
   "_generated": {
     "name": "876218de",
     "description": "1eed9084",
@@ -23,8 +23,8 @@
     "page_url": "21ce02fa",
     "open_weight": "b326b506",
     "tagline": "1eed9084",
-    "huggingface_downloads": "8c9bee7e",
-    "last_modified": "3eed1aa6"
+    "huggingface_downloads": "b1ae8410",
+    "last_modified": "684e6a7f"
   },
-  "last_updated": "2026-10-06"
+  "last_updated": "2026-10-07"
 }

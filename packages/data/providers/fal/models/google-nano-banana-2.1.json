@@ -1,0 +1,35 @@
+{
+  "id": "google/nano-banana-2.1",
+  "name": "Nano Banana 2.1",
+  "created_by": "google",
+  "source": "official",
+  "description": "Nano Banana 2.1 by Google generates images from text prompts, with output resolutions up to 4K, adjustable aspect ratios, and optional web search grounding.",
+  "status": "active",
+  "release_date": "2026-10-06",
+  "model_type": "image",
+  "page_url": "https://fal.run/google/nano-banana-2.1",
+  "tagline": "Nano Banana 2.1 by Google generates images from text prompts, with output resolutions up to 4K, adjustable aspect ratios, and optional web search grounding.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-10-07",
+  "_generated": {
+    "name": "fdcdaf63",
+    "description": "99868f82",
+    "status": "379ac110",
+    "release_date": "684e6a7f",
+    "model_type": "db8857fe",
+    "page_url": "e04b4289",
+    "tagline": "99868f82",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "f92b060d"
+  },
+  "last_updated": "2026-10-07"
+}

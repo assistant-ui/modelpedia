@@ -3,7 +3,7 @@
   "name": "Daybreak Blue",
   "created_by": "openai",
   "source": "official",
-  "description": "An alias for our flagship general-purpose models, with safeguards calibrated for defensive cybersecurity work.",
+  "description": "This alias is deprecated, please use the latest cyber model available to you. You can apply to join the Daybreak program here.",
   "knowledge_cutoff": "2026-02",
   "context_window": 1050000,
   "max_output_tokens": 128000,
@@ -74,7 +74,7 @@
   "snapshots": ["gpt-5.6-sol"],
   "_generated": {
     "name": "bae1f014",
-    "description": "2127f11c",
+    "description": "e625a689",
     "knowledge_cutoff": "911f4737",
     "context_window": "f170ebb2",
     "max_output_tokens": "34434798",
@@ -91,6 +91,6 @@
     "endpoints": "acb164ea",
     "status": "379ac110"
   },
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-07",
   "status": "active"
 }
