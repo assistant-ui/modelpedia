@@ -3,7 +3,7 @@
   "name": "codestral-2405",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-07",
   "family": "codestral",
   "status": "deprecated",
   "deprecation_date": "2024-12-02",
@@ -11,10 +11,11 @@
   "alias": "codestral",
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "model_type": "code",
@@ -28,8 +29,8 @@
     "status": "2e2f74dc",
     "deprecation_date": "9b08fa35",
     "context_window": "10e4d788",
-    "capabilities": "9c665f5d",
-    "modalities": "68e53d93",
+    "capabilities": "98ea92bd",
+    "modalities": "6399757e",
     "model_type": "b6cc3ff4",
     "pricing": "8eb8395f",
     "license": "ab728f55",

@@ -3,7 +3,7 @@
   "name": "Meta: Llama 4 Maverick",
   "created_by": "meta-llama",
   "source": "official",
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-10-07",
   "family": "llama-4",
   "description": "Llama 4 Maverick 17B Instruct (128E) is a high-capacity multimodal language model from Meta, built on a mixture-of-experts (MoE) architecture with 128 experts and 17 billion active parameters per forw",
   "context_window": 1048576,
@@ -19,7 +19,8 @@
   },
   "pricing": {
     "input": 0.188,
-    "output": 0.653
+    "output": 0.653,
+    "cached_input": 0.05
   },
   "_generated": {
     "name": "5261dc7f",
@@ -29,7 +30,7 @@
     "max_output_tokens": "c76fe1d8",
     "modalities": "6399757e",
     "capabilities": "6c9aa67e",
-    "pricing": "747578f6",
+    "pricing": "027d63ca",
     "model_type": "d669f408",
     "release_date": "bcf0d019",
     "tagline": "30931690",

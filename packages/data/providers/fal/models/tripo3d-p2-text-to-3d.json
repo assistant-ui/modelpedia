@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/tripo3d/p2/text-to-3d",
   "tagline": "Tripo P2 generates 3D models from a text prompt, with optional PBR textures, adjustable face counts, and triangle or quad mesh topology.",
-  "last_seen_at": "2026-09-21",
+  "last_seen_at": "2026-10-06",
   "_generated": {
     "name": "ea1d4544",
     "description": "86235462",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "658fc163",
     "tagline": "86235462",
-    "last_seen_at": "a4195392"
+    "last_seen_at": "684e6a7f"
   },
-  "last_updated": "2026-09-22"
+  "last_updated": "2026-10-07"
 }

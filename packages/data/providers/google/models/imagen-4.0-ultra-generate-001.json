@@ -3,7 +3,7 @@
   "name": "imagen-4.0-ultra-generate-001",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-10-07",
   "status": "deprecated",
   "model_type": "image",
   "modalities": {
@@ -19,11 +19,11 @@
     "license": "9186c466",
     "open_weight": "68934a3e",
     "deprecation_date": "98abbfc2",
-    "successor": "ea17b32a"
+    "successor": "061ea1f0"
   },
   "family": "imagen-4.0",
   "license": "proprietary",
   "open_weight": false,
   "deprecation_date": "2026-08-17",
-  "successor": "gemini-3.1-flash-image"
+  "successor": "gemini-nano-banana-2.1"
 }

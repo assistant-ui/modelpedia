@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-24",
-  "count": 90,
+  "date": "2026-10-07",
+  "count": 91,
   "ids": [
     "codestral",
     "codestral-2405",
@@ -46,6 +46,7 @@
     "mistral-large-2407",
     "mistral-large-2411",
     "mistral-large-2512",
+    "mistral-large-4",
     "mistral-medium",
     "mistral-medium-2312",
     "mistral-medium-2505",

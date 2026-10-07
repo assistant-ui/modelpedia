@@ -1,0 +1,36 @@
+{
+  "id": "mistral-large-4",
+  "name": "mistral-large-4",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "mistral-large",
+  "description": "Mistral Large 4 is Mistral&#39;s open-weight, general-purpose multimodal model. Its granular Mixture-of-Experts design activates 52B of 1.05T total parameters, with a 1.6B vision encoder handling images.",
+  "release_date": "2026-10-06",
+  "license": "open-weight",
+  "page_url": "https://ollama.com/library/mistral-large-4",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "Mistral Large 4 is Mistral&#39;s open-weight, general-purpose multimodal model.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "6709d633",
+    "family": "70f9d51d",
+    "description": "680f6ad7",
+    "release_date": "684e6a7f",
+    "license": "6327aaea",
+    "page_url": "2c268c40",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "e1c03f0b",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-07"
+}

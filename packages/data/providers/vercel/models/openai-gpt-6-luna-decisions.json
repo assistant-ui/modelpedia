@@ -1,0 +1,30 @@
+{
+  "id": "openai/gpt-6-luna-decisions",
+  "name": "gpt-6-luna-decisions",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-6",
+  "context_window": 1100000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "9fdad2f2",
+    "family": "16342494",
+    "context_window": "6d81e421",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "fceb22e8",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-07"
+}

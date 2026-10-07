@@ -13,10 +13,11 @@
   "tagline": "A large open MoE model competing with much larger dense models.",
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "open_weight": true,
@@ -30,9 +31,9 @@
     "page_url": "b6da74f8",
     "model_type": "d669f408",
     "tagline": "c996da1d",
-    "capabilities": "9c665f5d",
-    "modalities": "68e53d93",
+    "capabilities": "98ea92bd",
+    "modalities": "6399757e",
     "open_weight": "b326b506"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-10-07"
 }

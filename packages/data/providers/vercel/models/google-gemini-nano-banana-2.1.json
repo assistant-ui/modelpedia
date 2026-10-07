@@ -1,0 +1,30 @@
+{
+  "id": "google/gemini-nano-banana-2.1",
+  "name": "gemini-nano-banana-2.1",
+  "created_by": "google",
+  "source": "official",
+  "context_window": 131100,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 1.5,
+    "output": 7.5
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "061ea1f0",
+    "context_window": "a683b9ae",
+    "model_type": "d669f408",
+    "capabilities": "8d009641",
+    "pricing": "c99e0f75",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-07"
+}

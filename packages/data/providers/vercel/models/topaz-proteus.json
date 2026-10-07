@@ -1,0 +1,19 @@
+{
+  "id": "topaz/proteus",
+  "name": "proteus",
+  "created_by": "topaz",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "f8d0fc48",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-10-07"
+}

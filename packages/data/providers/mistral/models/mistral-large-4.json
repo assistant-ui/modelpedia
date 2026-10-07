@@ -1,0 +1,43 @@
+{
+  "id": "mistral-large-4",
+  "name": "mistral-large-4",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "mistral-large",
+  "status": "active",
+  "context_window": 1000000,
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/mistral-large-4-0",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.68,
+    "output": 0.07
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6709d633",
+    "family": "70f9d51d",
+    "status": "379ac110",
+    "context_window": "8155bc54",
+    "license": "60245731",
+    "page_url": "868279e2",
+    "model_type": "d669f408",
+    "capabilities": "4e827c07",
+    "modalities": "6399757e",
+    "pricing": "ad55427b",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-07"
+}
