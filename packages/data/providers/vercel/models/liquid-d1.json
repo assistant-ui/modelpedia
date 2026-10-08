@@ -5,7 +5,8 @@
   "source": "official",
   "context_window": 65500,
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "vision": true
   },
   "pricing": {
     "input": 0.04,
@@ -14,8 +15,8 @@
   "_generated": {
     "name": "59f86957",
     "context_window": "90c532bc",
-    "capabilities": "0fa77dc6",
+    "capabilities": "8a3b232e",
     "pricing": "52a74acf"
   },
-  "last_updated": "2026-10-01"
+  "last_updated": "2026-10-08"
 }

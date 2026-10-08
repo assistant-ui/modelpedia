@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/vidu/q4/reference-to-video",
+  "name": "Vidu Q4 Reference to Video",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Vidu Q4 generates videos from up to 12 reference images and 3 voice clips, keeping characters, objects, and voices consistent across up to 16 seconds at up to 4K.",
+  "status": "active",
+  "release_date": "2026-10-05",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/vidu/q4/reference-to-video",
+  "tagline": "Vidu Q4 generates videos from up to 12 reference images and 3 voice clips, keeping characters, objects, and voices consistent across up to 16 seconds at up to 4K.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-10-07",
+  "_generated": {
+    "name": "a9620392",
+    "description": "e3c9a390",
+    "status": "379ac110",
+    "release_date": "5678bd8d",
+    "model_type": "4d1b75ca",
+    "page_url": "8118a698",
+    "tagline": "e3c9a390",
+    "capabilities": "d3117eb0",
+    "modalities": "85fd0565",
+    "endpoints": "7a78c070",
+    "last_seen_at": "f92b060d"
+  },
+  "last_updated": "2026-10-08"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mureka/api/generate/instrumental",
+  "name": "Mureka 9.5 Instrumental Generation",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Generates instrumental music from a text description or uploaded instrumental reference, with support for multiple variations.",
+  "status": "active",
+  "release_date": "2026-09-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/mureka/api/generate/instrumental",
+  "tagline": "Generates instrumental music from a text description or uploaded instrumental reference, with support for multiple variations.",
+  "capabilities": {
+    "streaming": true
+  },
+  "last_seen_at": "2026-10-07",
+  "_generated": {
+    "name": "e7148a4b",
+    "description": "9c50a2c5",
+    "status": "379ac110",
+    "release_date": "5ed4afcc",
+    "model_type": "ddb0b7bc",
+    "page_url": "3996287d",
+    "tagline": "9c50a2c5",
+    "capabilities": "0fa77dc6",
+    "last_seen_at": "f92b060d"
+  },
+  "last_updated": "2026-10-08"
+}

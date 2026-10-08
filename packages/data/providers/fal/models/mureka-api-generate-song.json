@@ -1,0 +1,28 @@
+{
+  "id": "mureka/api/generate/song",
+  "name": "Mureka 9.5 Song Generation",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Generates songs from a text prompt or supplied lyrics, with musical style, vocal, reference-audio, and melody controls, plus support for multiple variations.",
+  "status": "active",
+  "release_date": "2026-09-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/mureka/api/generate/song",
+  "tagline": "Generates songs from a text prompt or supplied lyrics, with musical style, vocal, reference-audio, and melody controls, plus support for multiple variations.",
+  "capabilities": {
+    "streaming": true
+  },
+  "last_seen_at": "2026-10-07",
+  "_generated": {
+    "name": "5a2b379b",
+    "description": "f0682c92",
+    "status": "379ac110",
+    "release_date": "5ed4afcc",
+    "model_type": "ddb0b7bc",
+    "page_url": "383ee6a8",
+    "tagline": "f0682c92",
+    "capabilities": "0fa77dc6",
+    "last_seen_at": "f92b060d"
+  },
+  "last_updated": "2026-10-08"
+}

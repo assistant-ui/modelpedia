@@ -13,10 +13,11 @@
   "tagline": "EmbeddingGemma 2 is a multimodal embedding model from Google built on the Gemma 4 architecture.",
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "_generated": {
@@ -29,8 +30,8 @@
     "open_weight": "b326b506",
     "model_type": "764cb3de",
     "tagline": "a004573e",
-    "capabilities": "9c665f5d",
-    "modalities": "68e53d93"
+    "capabilities": "98ea92bd",
+    "modalities": "6399757e"
   },
-  "last_updated": "2026-10-07"
+  "last_updated": "2026-10-08"
 }

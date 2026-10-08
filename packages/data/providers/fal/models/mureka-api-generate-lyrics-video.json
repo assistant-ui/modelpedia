@@ -1,0 +1,24 @@
+{
+  "id": "mureka/api/generate/lyrics-video",
+  "name": "Mureka 9.5 Lyrics Video",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Creates a lyrics video from generated or uploaded audio, with selectable layouts, aspect ratios, backgrounds, and lyric-row or time-range selection.",
+  "status": "active",
+  "release_date": "2026-09-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/mureka/api/generate/lyrics-video",
+  "tagline": "Creates a lyrics video from generated or uploaded audio, with selectable layouts, aspect ratios, backgrounds, and lyric-row or time-range selection.",
+  "last_seen_at": "2026-10-07",
+  "_generated": {
+    "name": "52d430ea",
+    "description": "65ce4cc3",
+    "status": "379ac110",
+    "release_date": "5ed4afcc",
+    "model_type": "ddb0b7bc",
+    "page_url": "e2d57ce1",
+    "tagline": "65ce4cc3",
+    "last_seen_at": "f92b060d"
+  },
+  "last_updated": "2026-10-08"
+}

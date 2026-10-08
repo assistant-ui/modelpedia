@@ -27,7 +27,9 @@
     "capabilities": "45192957",
     "pricing": "fe9a5f2a",
     "modalities": "68e53d93",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-08-02"
+  "last_updated": "2026-10-08",
+  "status": "deprecated"
 }

@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-07",
-  "count": 477,
+  "date": "2026-10-08",
+  "count": 479,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -38,6 +38,8 @@
     "anthropic-claude-fable-5.1-batch",
     "anthropic-claude-haiku-4.5",
     "anthropic-claude-haiku-4.5-batch",
+    "anthropic-claude-haiku-5.5",
+    "anthropic-claude-haiku-5.5-batch",
     "anthropic-claude-opus-4.1",
     "anthropic-claude-opus-4.1-batch",
     "anthropic-claude-opus-4.5",

@@ -13,10 +13,12 @@
   "tagline": "Mistral Large 4 is Mistral&#39;s open-weight, general-purpose multimodal model.",
   "capabilities": {
     "streaming": true,
-    "fine_tuning": true
+    "fine_tuning": true,
+    "vision": true,
+    "tool_call": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "_generated": {
@@ -29,8 +31,10 @@
     "open_weight": "b326b506",
     "model_type": "d669f408",
     "tagline": "e1c03f0b",
-    "capabilities": "9c665f5d",
-    "modalities": "68e53d93"
+    "capabilities": "7f7dff2a",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-07"
+  "last_updated": "2026-10-08",
+  "tools": ["function_calling"]
 }

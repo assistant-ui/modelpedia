@@ -1,0 +1,24 @@
+{
+  "id": "mureka/api/generate/lyrics",
+  "name": "Mureka 9.5 Lyrics Generation",
+  "created_by": "mureka",
+  "source": "official",
+  "description": "Writes song lyrics and a title from a text prompt describing a topic, theme, or song concept.",
+  "status": "active",
+  "release_date": "2026-09-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/mureka/api/generate/lyrics",
+  "tagline": "Writes song lyrics and a title from a text prompt describing a topic, theme, or song concept.",
+  "last_seen_at": "2026-10-07",
+  "_generated": {
+    "name": "63f3397a",
+    "description": "89f9903c",
+    "status": "379ac110",
+    "release_date": "5ed4afcc",
+    "model_type": "ddb0b7bc",
+    "page_url": "c9d15b43",
+    "tagline": "89f9903c",
+    "last_seen_at": "f92b060d"
+  },
+  "last_updated": "2026-10-08"
+}
