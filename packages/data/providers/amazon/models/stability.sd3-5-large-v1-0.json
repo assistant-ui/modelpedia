@@ -3,21 +3,23 @@
   "name": "Stable Diffusion 3.5 Large",
   "created_by": "stability",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-10-08",
   "model_type": "image",
   "capabilities": {
     "vision": true
   },
   "modalities": {
-    "input": [],
+    "input": ["image", "text"],
     "output": ["image"]
   },
   "_generated": {
     "name": "741f0034",
     "model_type": "db8857fe",
     "capabilities": "d3117eb0",
-    "modalities": "09b7b646",
-    "status": "2e2f74dc"
+    "modalities": "dc86bff4",
+    "status": "2e2f74dc",
+    "page_url": "96b33f71"
   },
-  "status": "deprecated"
+  "status": "deprecated",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-diffusion-3-5-large"
 }

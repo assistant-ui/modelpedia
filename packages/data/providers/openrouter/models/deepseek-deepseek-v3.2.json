@@ -3,7 +3,7 @@
   "name": "DeepSeek: DeepSeek V3.2",
   "created_by": "deepseek",
   "source": "official",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-10-08",
   "family": "deepseek",
   "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance.",
   "context_window": 163840,
@@ -18,9 +18,9 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.28,
+    "input": 0.259,
     "output": 0.42,
-    "cached_input": 0.028
+    "cached_input": 0.135
   },
   "_generated": {
     "name": "677e2c97",
@@ -29,12 +29,12 @@
     "context_window": "7edab444",
     "modalities": "68e53d93",
     "capabilities": "03fbefb4",
-    "pricing": "f1b8e1d4",
+    "pricing": "51f80e8c",
     "release_date": "0452719b",
     "tagline": "fe1de924",
     "tools": "f0c1dc7e",
     "model_type": "d669f408",
-    "max_output_tokens": "297ce0b3",
+    "max_output_tokens": "a879abc3",
     "status": "2e2f74dc",
     "deprecation_date": "1ec3c8a2"
   },
@@ -42,7 +42,7 @@
   "tagline": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance.",
   "tools": ["function_calling"],
   "model_type": "chat",
-  "max_output_tokens": 65536,
+  "max_output_tokens": 147456,
   "status": "deprecated",
   "deprecation_date": "2026-09-28"
 }

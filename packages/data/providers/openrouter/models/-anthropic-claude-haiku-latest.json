@@ -6,8 +6,8 @@
   "family": "claude-haiku",
   "description": "This model always redirects to the latest model in the Claude Haiku family.",
   "release_date": "2026-04-27",
-  "context_window": 200000,
-  "max_output_tokens": 64000,
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
   "model_type": "chat",
   "tagline": "This model always redirects to the latest model in the Anthropic Claude Haiku family.",
   "capabilities": {
@@ -21,9 +21,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 1,
-    "output": 5,
-    "cached_input": 0.1
+    "input": 0.1,
+    "output": 0.5,
+    "cached_input": 0.01
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -31,14 +31,14 @@
     "family": "1cfb9795",
     "description": "b2ccfa7d",
     "release_date": "79a25cd1",
-    "context_window": "03e6c616",
-    "max_output_tokens": "762e98db",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
     "model_type": "d669f408",
     "tagline": "ecb6df63",
     "capabilities": "03fbefb4",
     "modalities": "6399757e",
-    "pricing": "cc700ee3",
+    "pricing": "82b07600",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-13"
+  "last_updated": "2026-10-08"
 }

@@ -17,7 +17,7 @@
     "vision": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "open_weight": true,
@@ -32,8 +32,8 @@
     "model_type": "d669f408",
     "tagline": "c996da1d",
     "capabilities": "98ea92bd",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "open_weight": "b326b506"
   },
-  "last_updated": "2026-10-07"
+  "last_updated": "2026-10-08"
 }

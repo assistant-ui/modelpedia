@@ -1,11 +1,12 @@
 {
-  "date": "2026-10-07",
-  "count": 86,
+  "date": "2026-10-08",
+  "count": 88,
   "ids": [
     "big-pickle",
     "claude-fable-5",
     "claude-fable-5-1",
     "claude-haiku-4-5",
+    "claude-haiku-5-5",
     "claude-opus-4-5",
     "claude-opus-4-6",
     "claude-opus-4-7",
@@ -15,6 +16,7 @@
     "claude-sonnet-4-5",
     "claude-sonnet-4-6",
     "claude-sonnet-5",
+    "claude-sonnet-5-5",
     "deepseek-v4-flash",
     "deepseek-v4-flash-vision-exp",
     "deepseek-v4-pro",

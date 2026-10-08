@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-07",
-  "count": 124,
+  "date": "2026-10-08",
+  "count": 123,
   "ids": [
     "851-labs-background-remover",
     "adirik-flux-cinestill",
@@ -13,7 +13,6 @@
     "anthropic-claude-opus-4.7",
     "appmeloncreator-platmoji-beta",
     "arielreplicate-robust_video_matting",
-    "barakplasma-jev-omni",
     "beautyyuyanli-multilingual-e5-large",
     "black-forest-labs-flux-2-flex",
     "black-forest-labs-flux-2-klein-4b",
@@ -99,7 +98,6 @@
     "philz1337x-clarity-pro-upscaler",
     "philz1337x-crystal-video-upscaler",
     "piddnad-ddcolor",
-    "prunaai-p-image-edit",
     "prunaai-p-image-upscale",
     "prunaai-p-video",
     "prunaai-p-video-2-pro",
@@ -110,6 +108,7 @@
     "runwayml-gen4-image",
     "schananas-grounded_sam",
     "sprited-anisora",
+    "sprited-kimodo",
     "tencent-hunyuan-3d-3.1",
     "thomasmol-whisper-diarization",
     "tmappdev-lipsync",

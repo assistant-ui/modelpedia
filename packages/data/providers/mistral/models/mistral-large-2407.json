@@ -3,7 +3,7 @@
   "name": "mistral-large-2407",
   "created_by": "mistral",
   "source": "official",
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-10-08",
   "family": "mistral-large",
   "status": "deprecated",
   "deprecation_date": "2024-11-30",
@@ -15,7 +15,7 @@
     "vision": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "pricing": {
@@ -29,7 +29,7 @@
     "deprecation_date": "05154b0e",
     "context_window": "34434798",
     "capabilities": "98ea92bd",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "pricing": "2c3abb73",
     "model_type": "d669f408",
     "license": "60245731",

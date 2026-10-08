@@ -1,0 +1,35 @@
+{
+  "id": "fal-ai/vidu/q4/image-to-video",
+  "name": "Vidu Q4",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Vidu Q4 turns a first-frame image into 3 to 16 second videos with native audio at up to 4K.",
+  "status": "active",
+  "release_date": "2026-10-05",
+  "model_type": "video",
+  "page_url": "https://fal.run/fal-ai/vidu/q4/image-to-video",
+  "tagline": "Vidu Q4 turns a first-frame image into 3 to 16 second videos with native audio at up to 4K.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-10-07",
+  "_generated": {
+    "name": "84b89104",
+    "description": "2df10b88",
+    "status": "379ac110",
+    "release_date": "5678bd8d",
+    "model_type": "4d1b75ca",
+    "page_url": "18bd2e70",
+    "tagline": "2df10b88",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "f92b060d"
+  },
+  "last_updated": "2026-10-08"
+}
