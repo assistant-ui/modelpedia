@@ -4,7 +4,7 @@
   "created_by": "stability",
   "source": "official",
   "description": "Sd Vae Ft Ema Original is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2022-10-13",
   "model_type": "image",
   "license": "mit",
@@ -25,7 +25,7 @@
   "_generated": {
     "name": "07e27cfe",
     "description": "4c0d899c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "de33cadc",
     "model_type": "db8857fe",
     "license": "3c4c3ba5",
@@ -38,5 +38,5 @@
     "huggingface_downloads": "cfcd2084",
     "last_modified": "ea7a3bfc"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-09"
 }

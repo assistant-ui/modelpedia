@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-08",
-  "count": 391,
+  "date": "2026-10-09",
+  "count": 392,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -98,6 +98,7 @@
     "bytedance-seedream-4.5",
     "bytedance-seedream-5.0-lite",
     "bytedance-seedream-5.0-pro",
+    "callstack-apex",
     "cohere-command-a",
     "cohere-embed-v4.0",
     "cohere-embed-v5.0-fast",

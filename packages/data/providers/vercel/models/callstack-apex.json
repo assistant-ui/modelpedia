@@ -1,0 +1,33 @@
+{
+  "id": "callstack/apex",
+  "name": "apex",
+  "created_by": "callstack",
+  "source": "official",
+  "context_window": 262100,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.5,
+    "output": 3
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "50f78fca",
+    "context_window": "b23f4471",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "ad477c96",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-09"
+}

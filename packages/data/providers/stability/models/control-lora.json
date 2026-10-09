@@ -4,7 +4,7 @@
   "created_by": "stability",
   "source": "official",
   "description": "Control Lora is a Stability AI model published on the official Stability AI Hugging Face organization.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2023-08-17",
   "model_type": "image",
   "license": "other",
@@ -25,7 +25,7 @@
   "_generated": {
     "name": "1daff833",
     "description": "5c863a2a",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "cfd11a89",
     "model_type": "db8857fe",
     "license": "ddb0b7bc",
@@ -38,5 +38,5 @@
     "huggingface_downloads": "cfcd2084",
     "last_modified": "ef605d72"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-09"
 }

@@ -3,7 +3,7 @@
   "name": "qwen3-235b-a22b-thinking",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-10-08",
+  "last_updated": "2026-10-09",
   "family": "qwen3",
   "context_window": 131100,
   "capabilities": {
@@ -14,14 +14,14 @@
   },
   "pricing": {
     "input": 0.4,
-    "output": 3.95
+    "output": 4
   },
   "_generated": {
     "name": "02a351eb",
     "family": "48c385a0",
     "context_window": "a683b9ae",
     "capabilities": "a19166f1",
-    "pricing": "937873cd",
+    "pricing": "d919e520",
     "model_type": "d669f408",
     "parameters": "577ef115",
     "active_parameters": "b6d767d2",

@@ -1,0 +1,21 @@
+{
+  "id": "muse-glimmer-30b",
+  "name": "Muse-Glimmer-30B",
+  "created_by": "openai",
+  "source": "official",
+  "parameters": 30,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "b9432915",
+    "parameters": "34173cb3",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-09"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "step-5-preview-free",
+  "name": "Step 5 Preview Free",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "963e59ae",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-10-09"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "mai-code-1.1-flash",
+  "name": "MAI-Code-1.1-Flash",
+  "created_by": "microsoft",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "f18b02ba",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-09"
+}

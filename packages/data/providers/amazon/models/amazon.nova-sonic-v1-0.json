@@ -3,7 +3,7 @@
   "name": "Nova Sonic",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-10-09",
   "model_type": "audio",
   "capabilities": {
     "streaming": true
@@ -18,8 +18,10 @@
     "capabilities": "0fa77dc6",
     "modalities": "98d72b0f",
     "release_date": "c0a4d377",
-    "page_url": "934a8f11"
+    "page_url": "934a8f11",
+    "status": "2e2f74dc"
   },
   "release_date": "2025-03",
-  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-sonic"
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-sonic",
+  "status": "deprecated"
 }

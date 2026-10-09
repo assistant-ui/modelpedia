@@ -3,7 +3,7 @@
   "name": "Nova Pro",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-10-09",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -20,11 +20,11 @@
     "modalities": "1e916c3b",
     "release_date": "261bf75d",
     "context_window": "1ded704c",
-    "max_output_tokens": "a35fe7f7",
+    "max_output_tokens": "b7a78274",
     "page_url": "bb94e481"
   },
   "release_date": "2024-12-05",
   "context_window": 300000,
-  "max_output_tokens": 5000,
+  "max_output_tokens": 10000,
   "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-pro"
 }

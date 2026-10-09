@@ -3,7 +3,7 @@
   "name": "Qwen-32B",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-10-09",
   "family": "qwen",
   "capabilities": {
     "streaming": true
@@ -17,8 +17,11 @@
     "family": "a3af76f3",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
-    "model_type": "d669f408"
+    "model_type": "d669f408",
+    "parameters": "6364d3f0",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
-  "parameters": 32
+  "parameters": 32,
+  "status": "deprecated"
 }

@@ -1,0 +1,27 @@
+{
+  "id": "qwen3.6-35b-a3b",
+  "name": "Qwen3.6-35B-A3B",
+  "created_by": "openai",
+  "source": "official",
+  "family": "qwen3.6",
+  "parameters": 35,
+  "active_parameters": 3,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "31e51c67",
+    "family": "1bc2d26f",
+    "parameters": "1c383cd3",
+    "active_parameters": "eccbc87e",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-09"
+}
