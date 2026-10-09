@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "count": 88,
   "ids": [
     "big-pickle",
@@ -22,7 +22,6 @@
     "deepseek-v4-pro",
     "deepseek-v4.1-flash",
     "exo-free",
-    "fledge-alpha-free",
     "gemini-3-flash",
     "gemini-3.1-pro",
     "gemini-3.5-flash",
@@ -89,6 +88,7 @@
     "qwen3.7-plus",
     "qwen3.8-flash",
     "qwen3.8-max",
-    "space-bunny-free"
+    "space-bunny-free",
+    "step-5-preview-free"
   ]
 }

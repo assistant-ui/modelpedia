@@ -3,7 +3,7 @@
   "name": "Kokoro-82M",
   "created_by": "hexgrad",
   "source": "official",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-10-09",
   "family": "hexgrad",
   "description": "Kokoro is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, Kokoro can be deployed anywhere from production environments to personal projects.",
   "status": "active",
@@ -17,7 +17,7 @@
     "output": ["audio"]
   },
   "endpoints": ["audio_speech"],
-  "pricing_notes": ["$0.6200 per 1M input characters"],
+  "pricing_notes": ["$0.9900 per 1M input characters"],
   "tagline": "Kokoro is an open-weight TTS model with 82 million parameters.",
   "_generated": {
     "name": "714ce5fa",
@@ -29,7 +29,7 @@
     "capabilities": "0fa77dc6",
     "modalities": "601e776d",
     "endpoints": "0d745ead",
-    "pricing_notes": "0dfbe4e7",
+    "pricing_notes": "6c769658",
     "tagline": "df11475d"
   }
 }

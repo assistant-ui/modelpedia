@@ -6,7 +6,7 @@
   "family": "mistral-large",
   "description": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads.",
   "release_date": "2026-10-06",
-  "context_window": 524288,
+  "context_window": 1048576,
   "max_output_tokens": 262144,
   "model_type": "chat",
   "tagline": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads.",
@@ -31,7 +31,7 @@
     "family": "70f9d51d",
     "description": "111b4f7b",
     "release_date": "684e6a7f",
-    "context_window": "bcabf6a1",
+    "context_window": "7d28a051",
     "max_output_tokens": "4a1d32eb",
     "model_type": "d669f408",
     "tagline": "111b4f7b",
@@ -40,5 +40,5 @@
     "pricing": "2b6c2cb2",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-07"
+  "last_updated": "2026-10-09"
 }

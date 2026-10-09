@@ -3,7 +3,7 @@
   "name": "Titan Image Generator G1 v2",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-10-09",
   "model_type": "image",
   "capabilities": {
     "vision": true
@@ -18,8 +18,10 @@
     "capabilities": "d3117eb0",
     "modalities": "dc86bff4",
     "release_date": "6e08220e",
-    "page_url": "9880060a"
+    "page_url": "9880060a",
+    "status": "2e2f74dc"
   },
   "release_date": "2023-11-29",
-  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-image-generator-g1-v2"
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-image-generator-g1-v2",
+  "status": "deprecated"
 }

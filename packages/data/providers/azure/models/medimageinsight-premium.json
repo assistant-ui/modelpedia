@@ -1,0 +1,20 @@
+{
+  "id": "medimageinsight-premium",
+  "name": "MedImageInsight-Premium",
+  "created_by": "openai",
+  "source": "official",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "1a807c4e",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-10-09"
+}

@@ -1,10 +1,11 @@
 {
-  "date": "2026-09-30",
-  "count": 40,
+  "date": "2026-10-09",
+  "count": 41,
   "ids": [
     "anthropic-claude-fable-5",
     "anthropic-claude-fable-5-1",
     "anthropic-claude-haiku-4-5",
+    "anthropic-claude-haiku-5-5",
     "anthropic-claude-opus-4-5",
     "anthropic-claude-opus-4-6",
     "anthropic-claude-opus-4-7",

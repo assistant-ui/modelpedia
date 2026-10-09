@@ -1,0 +1,37 @@
+{
+  "id": "anthropic/claude-haiku-5-5",
+  "name": "anthropic/claude-haiku-5-5",
+  "created_by": "anthropic",
+  "source": "official",
+  "family": "claude-haiku",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.5,
+    "cached_input": 0.01
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing_notes": [
+    "Input ranges $0.1 to $0.5, output ranges $0.5 to $2.5 per 1M tokens."
+  ],
+  "_generated": {
+    "name": "3fe9d799",
+    "family": "1cfb9795",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "82b07600",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93",
+    "pricing_notes": "09bb301b"
+  },
+  "last_updated": "2026-10-09"
+}
