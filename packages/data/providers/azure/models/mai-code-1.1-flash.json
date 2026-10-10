@@ -13,7 +13,9 @@
   "_generated": {
     "name": "f18b02ba",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-10-09"
+  "last_updated": "2026-10-10",
+  "status": "deprecated"
 }

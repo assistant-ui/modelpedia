@@ -3,7 +3,7 @@
   "name": "MoonshotAI: Kimi K2.5",
   "created_by": "moonshotai",
   "source": "official",
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-10-10",
   "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm.",
   "context_window": 262144,
   "max_output_tokens": 235929,
@@ -18,9 +18,9 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.45,
-    "output": 2.25,
-    "cached_input": 0.07
+    "input": 0.5,
+    "output": 2.5,
+    "cached_input": 0.15
   },
   "_generated": {
     "name": "b03bd811",
@@ -29,7 +29,7 @@
     "max_output_tokens": "7ad80673",
     "modalities": "6399757e",
     "capabilities": "03fbefb4",
-    "pricing": "104ad696",
+    "pricing": "7670bf10",
     "family": "69ffee7b",
     "model_type": "d669f408",
     "release_date": "a6a6b128",

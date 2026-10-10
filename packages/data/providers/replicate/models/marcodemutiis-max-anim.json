@@ -1,0 +1,27 @@
+{
+  "id": "marcodemutiis/max-anim",
+  "name": "Max Anim",
+  "created_by": "marcodemutiis",
+  "source": "official",
+  "status": "active",
+  "model_type": "code",
+  "page_url": "https://replicate.com/marcodemutiis/max-anim",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "0ec7f1f0",
+    "status": "379ac110",
+    "model_type": "b6cc3ff4",
+    "page_url": "e1ee7441",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-10-10"
+}

@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-09",
-  "count": 392,
+  "date": "2026-10-10",
+  "count": 394,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -158,6 +158,7 @@
     "google-veo-3.1-fast-generate-001",
     "google-veo-3.1-generate-001",
     "google-veo-3.1-lite-generate-001",
+    "heygen-heygen-video-1",
     "inception-mercury-2",
     "inception-mercury-2.5",
     "inception-mercury-coder-small",
@@ -197,6 +198,7 @@
     "microsoft-mai-voice-2-flash",
     "microsoft-mai-voice-2.1",
     "microsoft-mai-voice-2.1-flash",
+    "microsoft-microsoft-decision-1",
     "minimax-minimax-h3",
     "minimax-minimax-h3-max",
     "minimax-minimax-m2",

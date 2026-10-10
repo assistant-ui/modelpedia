@@ -3,14 +3,14 @@
   "name": "Blitz",
   "created_by": "karthiksync",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/karthiksync/blitz",
   "_generated": {
     "name": "8db6e1f0",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "aa11f557"
   },
-  "last_updated": "2026-09-28"
+  "last_updated": "2026-10-10"
 }

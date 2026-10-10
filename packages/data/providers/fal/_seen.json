@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-08",
-  "count": 1515,
+  "date": "2026-10-10",
+  "count": 1514,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -113,7 +113,6 @@
     "clarityai-crystal-video-upscaler",
     "creatify-boreal",
     "decart-lucy-2-5-realtime",
-    "decart-lucy-edit-pro",
     "decart-lucy-restyle",
     "decart-lucy2-vton-realtime",
     "elevenlabs-music-v2",
