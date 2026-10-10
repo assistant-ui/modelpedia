@@ -1,0 +1,25 @@
+{
+  "id": "microsoft-decision-1",
+  "name": "Microsoft-Decision-1",
+  "created_by": "openai",
+  "source": "official",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d052c4b2",
+    "capabilities": "15ab7a4a",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-10"
+}

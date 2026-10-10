@@ -1,0 +1,21 @@
+{
+  "id": "microsoft/microsoft-decision-1",
+  "name": "microsoft-decision-1",
+  "created_by": "microsoft",
+  "source": "official",
+  "context_window": 32800,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0
+  },
+  "_generated": {
+    "name": "0752cf75",
+    "context_window": "74a190a6",
+    "capabilities": "0fa77dc6",
+    "pricing": "52a74acf"
+  },
+  "last_updated": "2026-10-10"
+}

@@ -3,11 +3,11 @@
   "name": "Qwen: Qwen3 VL 30B A3B Thinking",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-09-26",
+  "last_updated": "2026-10-10",
   "family": "qwen3",
   "description": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos.",
   "context_window": 262144,
-  "max_output_tokens": 32768,
+  "max_output_tokens": 235929,
   "modalities": {
     "input": ["text", "image"],
     "output": ["text"]
@@ -19,18 +19,18 @@
     "json_mode": true
   },
   "pricing": {
-    "input": 0.2,
-    "output": 2.4
+    "input": 0.29,
+    "output": 1
   },
   "_generated": {
     "name": "1b13d90f",
     "family": "48c385a0",
     "description": "a69e99c7",
     "context_window": "4a1d32eb",
-    "max_output_tokens": "f4376436",
+    "max_output_tokens": "7ad80673",
     "modalities": "6399757e",
     "capabilities": "03fbefb4",
-    "pricing": "55b6c6f6",
+    "pricing": "9a63f055",
     "model_type": "d669f408",
     "parameters": "34173cb3",
     "active_parameters": "eccbc87e",

@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/bytedance/seedance-2.5/draft/complete",
   "tagline": "Draft completion endpoint for Seedance 2.5 - submit a draft id to regenerate the task at 1080p.",
-  "last_seen_at": "2026-10-06",
+  "last_seen_at": "2026-10-09",
   "_generated": {
     "name": "ea623aef",
     "description": "e3cd4129",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "18296145",
     "tagline": "e3cd4129",
-    "last_seen_at": "684e6a7f"
+    "last_seen_at": "2020d4ea"
   },
-  "last_updated": "2026-10-07"
+  "last_updated": "2026-10-10"
 }

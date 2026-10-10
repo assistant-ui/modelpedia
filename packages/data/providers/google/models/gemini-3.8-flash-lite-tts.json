@@ -37,7 +37,7 @@
         "rows": [
           {
             "label": "Standard",
-            "values": [0.5, 0.125, 6]
+            "values": [0.5, null, 6]
           },
           {
             "label": "Batch",
@@ -61,10 +61,10 @@
     "model_type": "4e16a2cf",
     "capabilities": "fdff467b",
     "modalities": "a8211f74",
-    "pricing": "6dbe1eee",
+    "pricing": "36aa9b8a",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "endpoints": "20e16908"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-10-10"
 }
