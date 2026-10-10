@@ -312,14 +312,36 @@ async function main() {
 
   // 2. Parse changelog for version history
   let versions: VersionEntry[] = [];
+  let emptyChangelogResponse:
+    | { url: string; status: number; byteLength: number; excerpt: string }
+    | undefined;
   if (CHANGELOG_URL) {
     try {
-      const html = await fetchText(CHANGELOG_URL);
+      const res = await fetchWithRetry(CHANGELOG_URL);
+      if (!res.ok)
+        throw new Error(`Fetch failed: ${res.status} ${CHANGELOG_URL}`);
+      const body = await res.arrayBuffer();
+      const html = new TextDecoder().decode(body);
       versions = parseChangelog(html);
       console.log(`Parsed ${versions.length} version entries from changelog`);
+      if (versions.length === 0) {
+        emptyChangelogResponse = {
+          url: res.url || CHANGELOG_URL,
+          status: res.status,
+          byteLength: body.byteLength,
+          excerpt: stripHtml(html).slice(0, 240),
+        };
+      }
     } catch (err) {
       console.warn("Could not fetch changelog:", err);
     }
+  }
+  if (emptyChangelogResponse) {
+    console.error(
+      "Changelog response parsed 0 version entries:",
+      JSON.stringify(emptyChangelogResponse),
+    );
+    throw new Error("Changelog response parsed 0 version entries");
   }
 
   // 3. Optional: API for release dates
