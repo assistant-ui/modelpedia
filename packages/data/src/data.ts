@@ -16616,6 +16616,27 @@ export const providers: ProviderWithModels[] = [
         "license": "mit"
       },
       {
+        "id": "deepseek-v4.1-flash-fast",
+        "name": "deepseek-v4.1-flash-fast",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "open_weight": true,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-10-11"
+      },
+      {
         "id": "deepseek-v4.1-flash",
         "name": "deepseek-v4.1-flash",
         "created_by": "deepseek",
@@ -16656,6 +16677,27 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "last_updated": "2026-04-25"
+      },
+      {
+        "id": "deepseek-v41-flash-fast",
+        "name": "deepseek-v41-flash-fast",
+        "created_by": "deepseek",
+        "source": "official",
+        "family": "deepseek",
+        "open_weight": true,
+        "model_type": "chat",
+        "capabilities": {
+          "streaming": true
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "last_updated": "2026-10-11"
       },
       {
         "id": "deepseek-v41-flash-more-efficient-prefill-for-coding-agents",
@@ -160313,7 +160355,7 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "description": "chat-latest points to the latest Instant model currently used in ChatGPT. We recommend leveraging GPT-6 Astra for production API usage. Learn more on the Model guidance page. The underlying model snapshot will be regularly updated.",
         "status": "active",
-        "knowledge_cutoff": "2025-08",
+        "knowledge_cutoff": "2026-04",
         "context_window": 400000,
         "max_output_tokens": 128000,
         "max_input_tokens": 272000,
@@ -160385,7 +160427,7 @@ export const providers: ProviderWithModels[] = [
         "snapshots": [
           "chat-latest"
         ],
-        "last_updated": "2026-09-24"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "chatgpt-4o-latest",
@@ -180336,7 +180378,7 @@ export const providers: ProviderWithModels[] = [
         "description": "This model always redirects to the latest model in the DeepSeek Flash family.",
         "release_date": "2026-09-14",
         "context_window": 1048576,
-        "max_output_tokens": 943718,
+        "max_output_tokens": 393216,
         "tagline": "This model always redirects to the latest model in the DeepSeek Flash family.",
         "capabilities": {
           "tool_call": true,
@@ -180354,14 +180396,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.003,
-          "output": 0.6,
-          "cached_input": 0.005
+          "input": 0.035,
+          "output": 0.139,
+          "cached_input": 0.001
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "~deepseek/deepseek-pro-latest",
@@ -180372,7 +180414,7 @@ export const providers: ProviderWithModels[] = [
         "description": "This model always redirects to the latest model in the DeepSeek Pro family.",
         "release_date": "2026-09-14",
         "context_window": 1048576,
-        "max_output_tokens": 943718,
+        "max_output_tokens": 393216,
         "tagline": "This model always redirects to the latest model in the DeepSeek Pro family.",
         "capabilities": {
           "tool_call": true,
@@ -180389,14 +180431,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.3,
-          "output": 5,
-          "cached_input": 0.219
+          "input": 0.219,
+          "output": 0.657,
+          "cached_input": 0.007
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "~deepseek/deepseek-v4-flash-latest",
@@ -180425,14 +180467,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.006,
-          "output": 1.28,
-          "cached_input": 0.006
+          "input": 0.018,
+          "output": 0.64,
+          "cached_input": 0.018
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "~google/gemini-flash-latest",
@@ -180539,14 +180581,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.446,
+          "input": 0.75,
           "output": 14.9,
           "cached_input": 0.29
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "~openai/gpt-astra-latest",
@@ -180862,14 +180904,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.039,
+          "input": 0.07,
           "output": 4.8,
-          "cached_input": 0.038
+          "cached_input": 0.05
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "ai21/jamba-large-1.7",
@@ -184797,14 +184839,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.006,
-          "output": 1.28,
-          "cached_input": 0.006
+          "input": 0.018,
+          "output": 0.64,
+          "cached_input": 0.018
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "deepseek/deepseek-v4-flash:free",
@@ -184944,14 +184986,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.01,
+          "input": 0.03,
           "output": 1.28,
-          "cached_input": 0.01
+          "cached_input": 0.03
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-10",
+        "last_updated": "2026-10-11",
         "license": "mit",
         "open_weight": true
       },
@@ -185057,14 +185099,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.948,
-          "output": 1.897,
-          "cached_input": 0.079
+          "input": 0.209,
+          "output": 0.418,
+          "cached_input": 0.017
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-10",
+        "last_updated": "2026-10-11",
         "license": "mit",
         "open_weight": true
       },
@@ -191917,14 +191959,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.465,
-          "output": 2.45,
-          "cached_input": 0.088
+          "input": 0.65,
+          "output": 3.41,
+          "cached_input": 0.15
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "moonshotai/kimi-k2.7-code:batch",
@@ -192101,14 +192143,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.64,
-          "output": 13.5,
-          "cached_input": 0.28
+          "input": 0.8,
+          "output": 10,
+          "cached_input": 0.55
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-10",
+        "last_updated": "2026-10-11",
         "max_output_tokens": 943718
       },
       {
@@ -193085,7 +193127,7 @@ export const providers: ProviderWithModels[] = [
         "description": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total.",
         "release_date": "2026-08-11",
         "context_window": 262144,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 235929,
         "model_type": "chat",
         "tagline": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total.",
         "capabilities": {
@@ -193103,14 +193145,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.047,
-          "output": 0.134,
-          "cached_input": 0.023
+          "input": 0.07,
+          "output": 0.2,
+          "cached_input": 0.04
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-09"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "nvidia/nemotron-nano-12b-v2-vl:free",
@@ -199545,11 +199587,11 @@ export const providers: ProviderWithModels[] = [
         "name": "Qwen: Qwen3 14B",
         "created_by": "qwen",
         "source": "official",
-        "last_updated": "2026-10-10",
+        "last_updated": "2026-10-11",
         "family": "qwen3",
         "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue.",
         "context_window": 40960,
-        "max_output_tokens": 36864,
+        "max_output_tokens": 16384,
         "modalities": {
           "input": [
             "text"
@@ -199568,8 +199610,8 @@ export const providers: ProviderWithModels[] = [
           "fine_tuning": true
         },
         "pricing": {
-          "input": 0.1,
-          "output": 0.22
+          "input": 0.12,
+          "output": 0.24
         },
         "model_type": "chat",
         "parameters": 14,
@@ -201317,7 +201359,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token.",
         "release_date": "2026-04-27",
         "context_window": 262144,
-        "max_output_tokens": 235929,
+        "max_output_tokens": 65536,
         "parameters": 35,
         "active_parameters": 3,
         "model_type": "chat",
@@ -201341,11 +201383,11 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.15,
-          "output": 1,
-          "cached_input": 0.05
+          "input": 0.1,
+          "output": 0.95,
+          "cached_input": 0.1
         },
-        "last_updated": "2026-09-21",
+        "last_updated": "2026-10-11",
         "tools": [
           "function_calling"
         ],
@@ -201785,7 +201827,7 @@ export const providers: ProviderWithModels[] = [
         "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen.",
         "release_date": "2026-08-14",
         "context_window": 1000000,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 235929,
         "parameters": 27,
         "model_type": "chat",
         "tagline": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen.",
@@ -201806,14 +201848,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.425,
-          "output": 2.55,
-          "cached_input": 0.085
+          "input": 0.04,
+          "output": 2.3,
+          "cached_input": 0.02
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-05"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "qwen/qwen3.8-flash",
@@ -205428,14 +205470,14 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.039,
+          "input": 0.07,
           "output": 4.8,
-          "cached_input": 0.038
+          "cached_input": 0.05
         },
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "z-ai/glm-5",
@@ -217580,10 +217622,10 @@ export const providers: ProviderWithModels[] = [
         "name": "Kokoro 82m",
         "created_by": "jaaari",
         "source": "official",
-        "status": "deprecated",
+        "status": "active",
         "model_type": "other",
         "page_url": "https://replicate.com/jaaari/kokoro-82m",
-        "last_updated": "2026-09-28"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "jaweii/hisam",
@@ -219444,7 +219486,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Z Image Turbo",
         "created_by": "prunaai",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "image",
         "page_url": "https://replicate.com/prunaai/z-image-turbo",
         "capabilities": {
@@ -219461,7 +219503,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_updated": "2026-10-09"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "qwen/qwen3-235b-a22b-instruct-2507",
@@ -221142,9 +221184,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 185,
+        "huggingface_downloads": 186,
         "last_modified": "2023-11-08",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "control-lora",
@@ -221240,9 +221282,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 341,
+        "huggingface_downloads": 345,
         "last_modified": "2023-11-17",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "japanese-stable-clip-vit-l-16",
@@ -221273,9 +221315,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 130,
+        "huggingface_downloads": 131,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "japanese-stable-diffusion-xl",
@@ -221305,9 +221347,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 42,
+        "huggingface_downloads": 41,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-10-09"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "japanese-stable-vlm",
@@ -221438,9 +221480,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 430,
+        "huggingface_downloads": 421,
         "last_modified": "2024-04-26",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "japanese-stablelm-3b-4e1t-instruct",
@@ -221471,9 +221513,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 383,
+        "huggingface_downloads": 375,
         "last_modified": "2024-04-26",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "japanese-stablelm-base-alpha-7b",
@@ -221537,9 +221579,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 542,
+        "huggingface_downloads": 541,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "japanese-stablelm-base-beta-7b",
@@ -221570,9 +221612,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 527,
+        "huggingface_downloads": 531,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "japanese-stablelm-base-gamma-7b",
@@ -221603,9 +221645,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 456,
+        "huggingface_downloads": 455,
         "last_modified": "2024-01-25",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "japanese-stablelm-base-ja_vocab-beta-7b",
@@ -221636,9 +221678,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 557,
+        "huggingface_downloads": 553,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "japanese-stablelm-instruct-alpha-7b-v2",
@@ -221669,9 +221711,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 364,
+        "huggingface_downloads": 367,
         "last_modified": "2023-10-06",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "japanese-stablelm-instruct-alpha-7b",
@@ -221735,9 +221777,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 563,
+        "huggingface_downloads": 565,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "japanese-stablelm-instruct-beta-7b",
@@ -221801,9 +221843,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 431,
+        "huggingface_downloads": 433,
         "last_modified": "2024-01-24",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "japanese-stablelm-instruct-ja_vocab-beta-7b",
@@ -221834,9 +221876,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 569,
+        "huggingface_downloads": 565,
         "last_modified": "2023-12-19",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "SAME-L",
@@ -221866,9 +221908,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 17033,
+        "huggingface_downloads": 17057,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "SAME-S",
@@ -221898,9 +221940,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 2201,
+        "huggingface_downloads": 2068,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "sd-turbo",
@@ -221928,9 +221970,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 644754,
+        "huggingface_downloads": 664847,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "sd-vae-ft-ema-original",
@@ -221977,9 +222019,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-ema",
         "open_weight": true,
         "tagline": "Sd Vae Ft Ema is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 7304,
+        "huggingface_downloads": 6721,
         "last_modified": "2023-06-05",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "sd-vae-ft-mse-original",
@@ -222026,9 +222068,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-vae-ft-mse",
         "open_weight": true,
         "tagline": "Sd Vae Ft Mse is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 182761,
+        "huggingface_downloads": 183777,
         "last_modified": "2023-06-06",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "sd-x2-latent-upscaler",
@@ -222043,9 +222085,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sd-x2-latent-upscaler",
         "open_weight": true,
         "tagline": "Sd X2 Latent Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 2989,
+        "huggingface_downloads": 2903,
         "last_modified": "2023-06-05",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "sdxl-turbo-ryzen-ai",
@@ -222075,9 +222117,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 312,
+        "huggingface_downloads": 308,
         "last_modified": "2024-12-11",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "sdxl-turbo-tensorrt",
@@ -222107,9 +222149,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 445,
+        "huggingface_downloads": 443,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "sdxl-turbo",
@@ -222139,9 +222181,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 921507,
+        "huggingface_downloads": 918943,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "sdxl-vae",
@@ -222156,9 +222198,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sdxl-vae",
         "open_weight": true,
         "tagline": "Sdxl Vae is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 232104,
+        "huggingface_downloads": 229070,
         "last_modified": "2023-08-04",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "sp4d",
@@ -222173,9 +222215,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sp4d",
         "open_weight": true,
         "tagline": "Sp4d is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 118,
+        "huggingface_downloads": 116,
         "last_modified": "2025-11-05",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-audio-3-medium-base",
@@ -222190,9 +222232,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-medium-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Medium Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 8562,
+        "huggingface_downloads": 8511,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-audio-3-medium",
@@ -222207,9 +222249,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-medium",
         "open_weight": true,
         "tagline": "Stable Audio 3 Medium is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 62092,
+        "huggingface_downloads": 63482,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-audio-3-optimized",
@@ -222224,9 +222266,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-optimized",
         "open_weight": true,
         "tagline": "Stable Audio 3 Optimized is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 38962,
+        "huggingface_downloads": 39074,
         "last_modified": "2026-10-10",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-audio-3-small-music-base",
@@ -222241,9 +222283,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-music-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Music Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 2789,
+        "huggingface_downloads": 2781,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-audio-3-small-music",
@@ -222258,9 +222300,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-music",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Music is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 20073,
+        "huggingface_downloads": 24999,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-audio-3-small-sfx-base",
@@ -222275,9 +222317,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx-base",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Sfx Base is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 1382,
+        "huggingface_downloads": 1399,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-audio-3-small-sfx",
@@ -222292,9 +222334,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-audio-3-small-sfx",
         "open_weight": true,
         "tagline": "Stable Audio 3 Small Sfx is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 37483,
+        "huggingface_downloads": 38279,
         "last_modified": "2026-10-06",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-audio-open-1.0",
@@ -222316,9 +222358,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 18472,
+        "huggingface_downloads": 18410,
         "last_modified": "2025-06-19",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-audio-open-small",
@@ -222340,9 +222382,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 2927,
+        "huggingface_downloads": 3076,
         "last_modified": "2025-05-27",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-cascade-prior",
@@ -222372,9 +222414,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 512,
+        "huggingface_downloads": 467,
         "last_modified": "2024-03-14",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-cascade",
@@ -222404,9 +222446,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 11798,
+        "huggingface_downloads": 11943,
         "last_modified": "2024-03-16",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-code-3b",
@@ -222437,9 +222479,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 6599,
+        "huggingface_downloads": 6537,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-code-instruct-3b",
@@ -222470,9 +222512,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 2222,
+        "huggingface_downloads": 2263,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-codec-speech-16k-base",
@@ -222518,9 +222560,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 365,
+        "huggingface_downloads": 372,
         "last_modified": "2025-01-10",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-3-medium-amdnpu",
@@ -222550,9 +222592,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 58,
+        "huggingface_downloads": 57,
         "last_modified": "2026-07-28",
-        "last_updated": "2026-10-09"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-3-medium-diffusers",
@@ -222582,9 +222624,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 60508,
+        "huggingface_downloads": 54446,
         "last_modified": "2024-06-19",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-3-medium-tensorrt",
@@ -222646,9 +222688,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 2704,
+        "huggingface_downloads": 2637,
         "last_modified": "2024-08-12",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-3-medium_amdgpu",
@@ -222710,9 +222752,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 512,
+        "huggingface_downloads": 392,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-10-09"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-3.5-controlnets",
@@ -222774,9 +222816,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 140,
+        "huggingface_downloads": 152,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-3.5-large-controlnet-canny",
@@ -222806,9 +222848,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 52208,
+        "huggingface_downloads": 41284,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-3.5-large-controlnet-depth",
@@ -222838,9 +222880,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 50320,
+        "huggingface_downloads": 39742,
         "last_modified": "2024-11-28",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-3.5-large-tensorrt",
@@ -222870,9 +222912,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 4787,
+        "huggingface_downloads": 3212,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-10-09"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-3.5-large-turbo",
@@ -222902,9 +222944,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 6305,
+        "huggingface_downloads": 6104,
         "last_modified": "2024-10-22",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-3.5-large",
@@ -222934,9 +222976,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 101997,
+        "huggingface_downloads": 47666,
         "last_modified": "2024-10-22",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-3.5-medium-tensorrt",
@@ -222998,9 +223040,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 85931,
+        "huggingface_downloads": 82867,
         "last_modified": "2024-10-31",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-x4-upscaler",
@@ -223015,9 +223057,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler",
         "open_weight": true,
         "tagline": "Stable Diffusion X4 Upscaler is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 6334,
+        "huggingface_downloads": 6142,
         "last_modified": "2023-07-05",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-xl-1.0-tensorrt",
@@ -223047,9 +223089,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 309,
+        "huggingface_downloads": 314,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-xl-base-0.9",
@@ -223079,9 +223121,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 75,
+        "huggingface_downloads": 87,
         "last_modified": "2023-07-12",
-        "last_updated": "2026-10-09"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-xl-base-1.0",
@@ -223111,9 +223153,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 4300354,
+        "huggingface_downloads": 4301092,
         "last_modified": "2023-10-30",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-xl-refiner-0.9",
@@ -223144,9 +223186,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 49,
+        "huggingface_downloads": 51,
         "last_modified": "2023-07-12",
-        "last_updated": "2026-10-09"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-diffusion-xl-refiner-1.0",
@@ -223177,9 +223219,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "huggingface_downloads": 97856,
+        "huggingface_downloads": 98548,
         "last_modified": "2023-09-25",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-fast-3d",
@@ -223198,9 +223240,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 31537,
+        "huggingface_downloads": 36352,
         "last_modified": "2025-04-08",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-point-aware-3d",
@@ -223219,9 +223261,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 8212,
+        "huggingface_downloads": 8951,
         "last_modified": "2025-04-08",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-video-diffusion-img2vid-xt-1-1-tensorrt",
@@ -223252,9 +223294,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 43,
+        "huggingface_downloads": 46,
         "last_modified": "2025-10-20",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-video-diffusion-img2vid-xt-1-1",
@@ -223285,9 +223327,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 3077,
+        "huggingface_downloads": 3054,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-video-diffusion-img2vid-xt",
@@ -223318,9 +223360,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 113331,
+        "huggingface_downloads": 115060,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-video-diffusion-img2vid",
@@ -223351,9 +223393,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 31167,
+        "huggingface_downloads": 30085,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-virtual-camera",
@@ -223384,9 +223426,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "video"
         ],
-        "huggingface_downloads": 6344,
+        "huggingface_downloads": 6956,
         "last_modified": "2025-06-03",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stable-zero123",
@@ -223432,9 +223474,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 457,
+        "huggingface_downloads": 459,
         "last_modified": "2023-08-29",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "StableBeluga-7B",
@@ -223463,9 +223505,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 472,
+        "huggingface_downloads": 475,
         "last_modified": "2023-08-29",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "StableBeluga1-Delta",
@@ -223495,9 +223537,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 299,
+        "huggingface_downloads": 297,
         "last_modified": "2023-07-27",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "StableBeluga2",
@@ -223525,9 +223567,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 698,
+        "huggingface_downloads": 708,
         "last_modified": "2023-09-18",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablecode-completion-alpha-3b-4k",
@@ -223558,9 +223600,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 690,
+        "huggingface_downloads": 692,
         "last_modified": "2023-08-08",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablecode-completion-alpha-3b",
@@ -223591,9 +223633,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 438,
+        "huggingface_downloads": 447,
         "last_modified": "2023-08-08",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablecode-instruct-alpha-3b",
@@ -223661,9 +223703,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 1461,
+        "huggingface_downloads": 1434,
         "last_modified": "2024-04-20",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablelm-2-12b-chat",
@@ -223698,9 +223740,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "huggingface_downloads": 643,
+        "huggingface_downloads": 642,
         "last_modified": "2024-05-20",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablelm-2-12b",
@@ -223731,9 +223773,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 915,
+        "huggingface_downloads": 869,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablelm-2-1_6b-chat",
@@ -223764,9 +223806,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1714,
+        "huggingface_downloads": 1615,
         "last_modified": "2024-06-03",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablelm-2-1_6b",
@@ -223797,9 +223839,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 11672,
+        "huggingface_downloads": 11611,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablelm-2-zephyr-1_6b",
@@ -223830,9 +223872,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 7002,
+        "huggingface_downloads": 6930,
         "last_modified": "2024-06-03",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablelm-3b-4e1t",
@@ -223863,9 +223905,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 37017,
+        "huggingface_downloads": 33228,
         "last_modified": "2024-03-07",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablelm-base-alpha-3b-v2",
@@ -223896,9 +223938,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1105,
+        "huggingface_downloads": 1107,
         "last_modified": "2023-09-11",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablelm-base-alpha-3b",
@@ -223929,9 +223971,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 2980,
+        "huggingface_downloads": 3043,
         "last_modified": "2023-10-19",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablelm-base-alpha-7b-v2",
@@ -223962,9 +224004,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 707,
+        "huggingface_downloads": 625,
         "last_modified": "2023-09-11",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablelm-base-alpha-7b",
@@ -223995,9 +224037,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 626,
+        "huggingface_downloads": 635,
         "last_modified": "2023-10-19",
-        "last_updated": "2026-10-09"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablelm-tuned-alpha-3b",
@@ -224028,9 +224070,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1479,
+        "huggingface_downloads": 1383,
         "last_modified": "2023-04-19",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablelm-tuned-alpha-7b",
@@ -224061,9 +224103,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 1058,
+        "huggingface_downloads": 938,
         "last_modified": "2023-04-19",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "stablelm-zephyr-3b",
@@ -224094,9 +224136,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 12002,
+        "huggingface_downloads": 11985,
         "last_modified": "2024-07-10",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "sv3d",
@@ -224161,9 +224203,9 @@ export const providers: ProviderWithModels[] = [
         "page_url": "https://huggingface.co/stabilityai/sv4d2.0",
         "open_weight": true,
         "tagline": "Sv4d2.0 is a Stability AI model published on the official Stability AI Hugging Face organization.",
-        "huggingface_downloads": 3518,
+        "huggingface_downloads": 3515,
         "last_modified": "2025-04-04",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "tiny-random-stablelm-2",
@@ -224191,9 +224233,9 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "chat_completions"
         ],
-        "huggingface_downloads": 3285,
+        "huggingface_downloads": 3276,
         "last_modified": "2024-03-31",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "TripoSR",
@@ -224212,9 +224254,9 @@ export const providers: ProviderWithModels[] = [
           "vision": true,
           "fine_tuning": true
         },
-        "huggingface_downloads": 241787,
+        "huggingface_downloads": 247881,
         "last_modified": "2024-08-09",
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       }
     ]
   },
@@ -228058,7 +228100,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.05,
+          "input": 0.04,
           "output": 0.4
         },
         "modalities": {
@@ -228072,7 +228114,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-09"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "alibaba/qwen3.8-flash-next",
@@ -230544,7 +230586,7 @@ export const providers: ProviderWithModels[] = [
           "reasoning": true
         },
         "pricing": {
-          "input": 0.01,
+          "input": 0.02,
           "output": 0.15
         },
         "modalities": {
@@ -230558,7 +230600,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-10"
+        "last_updated": "2026-10-11"
       },
       {
         "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -241890,7 +241932,7 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.03,
-          "output": 2.5
+          "output": 2.2
         },
         "modalities": {
           "input": [
@@ -241903,7 +241945,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "last_updated": "2026-10-10",
+        "last_updated": "2026-10-11",
         "description": "GLM-5.3 is Z.ai's latest flagship model, delivering comprehensive advancements in complex software engineering and agent capabilities. It uses the same base model as GLM-5.2, with all improvements driven by post-training. Compared with GLM-5.2, it delivers significantly stronger performance in complex programming and long-horizon tasks:",
         "tagline": "GLM-5.3 is Z.ai's latest flagship model, delivering major advances in complex software engineering and agent tasks.",
         "max_output_tokens": 128000,

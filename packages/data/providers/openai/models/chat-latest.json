@@ -5,7 +5,7 @@
   "source": "official",
   "description": "chat-latest points to the latest Instant model currently used in ChatGPT. We recommend leveraging GPT-6 Astra for production API usage. Learn more on the Model guidance page. The underlying model snapshot will be regularly updated.",
   "status": "active",
-  "knowledge_cutoff": "2025-08",
+  "knowledge_cutoff": "2026-04",
   "context_window": 400000,
   "max_output_tokens": 128000,
   "max_input_tokens": 272000,
@@ -63,7 +63,7 @@
     "name": "1d88561d",
     "description": "5d892db0",
     "status": "379ac110",
-    "knowledge_cutoff": "5549a2cd",
+    "knowledge_cutoff": "58654c5c",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
     "max_input_tokens": "3f9281a0",
@@ -80,5 +80,5 @@
     "tools": "1d5a765f",
     "endpoints": "72e91ba7"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-10-11"
 }

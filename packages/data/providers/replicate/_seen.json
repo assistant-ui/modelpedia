@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "count": 126,
   "ids": [
     "851-labs-background-remover",
@@ -70,6 +70,7 @@
     "ideogram-ai-ideogram-4-5-precise-edit",
     "ideogram-ai-ideogram-character",
     "inworld-realtime-tts-2",
+    "jaaari-kokoro-82m",
     "krea-krea-2-medium",
     "kwaivgi-kling-v3-omni-video",
     "lucataco-deepseek-ocr",
@@ -104,7 +105,6 @@
     "prunaai-p-video-2",
     "prunaai-p-video-2-pro",
     "prunaai-p-video-avatar",
-    "prunaai-z-image-turbo",
     "rafaelgalle-whisper-diarization-advanced",
     "recraft-ai-recraft-v4-styles-pro-svg",
     "replicate-train-rvc-model",
