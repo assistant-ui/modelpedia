@@ -3,7 +3,7 @@
   "name": "qwen3-max",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-10-12",
   "family": "qwen3",
   "context_window": 262100,
   "capabilities": {
@@ -22,12 +22,14 @@
     "pricing": "5c5dd606",
     "model_type": "d669f408",
     "tools": "f0c1dc7e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "tools": ["function_calling"],
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

@@ -1,0 +1,16 @@
+{
+  "id": "nghimestudio/vieneu-tts",
+  "name": "Vieneu Tts",
+  "created_by": "nghimestudio",
+  "source": "official",
+  "status": "active",
+  "model_type": "audio",
+  "page_url": "https://replicate.com/nghimestudio/vieneu-tts",
+  "_generated": {
+    "name": "f1e2e87f",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "page_url": "35ade3ef"
+  },
+  "last_updated": "2026-10-12"
+}

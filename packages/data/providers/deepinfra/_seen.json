@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-10",
-  "count": 220,
+  "date": "2026-10-12",
+  "count": 218,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -95,8 +95,6 @@
     "google-veo-3.1-fast",
     "gryphe-mythomax-l2-13b",
     "hexgrad-kokoro-82m",
-    "ibm-granite-granite-4.2-30b",
-    "ibm-granite-granite-4.2-3b",
     "ibm-granite-granite-4.2-8b",
     "inclusionai-ling-3.0-flash",
     "inclusionai-ling-3.0-flash-vl",

@@ -1,0 +1,36 @@
+{
+  "id": "openchat/openchat-3.5-1210",
+  "name": "openchat-3.5-1210",
+  "created_by": "openchat",
+  "source": "official",
+  "description": "font-family: 'Helvetica'; color: black; font-weight: bold;\">OpenChat-3.5🚀</span>",
+  "release_date": "2023-12-12",
+  "context_window": 8192,
+  "license": "apache-2.0",
+  "parameters": 7.2,
+  "page_url": "https://huggingface.co/openchat/openchat-3.5-1210",
+  "architecture": "transformer",
+  "tagline": "font-family: 'Helvetica'; color: black; font-weight: bold;\">OpenChat-3.5🚀</span>",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "7f8d532c",
+    "description": "a9576520",
+    "release_date": "77c93d80",
+    "context_window": "77441296",
+    "license": "60245731",
+    "parameters": "74c5d923",
+    "page_url": "e7609598",
+    "architecture": "8832ea0f",
+    "tagline": "a9576520",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-12"
+}
