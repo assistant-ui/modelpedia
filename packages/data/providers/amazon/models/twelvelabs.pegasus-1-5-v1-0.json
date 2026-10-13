@@ -3,7 +3,7 @@
   "name": "Pegasus v1.5",
   "created_by": "twelvelabs",
   "source": "official",
-  "release_date": "2026-10-05",
+  "release_date": "2026-10-08",
   "model_type": "video",
   "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-pegasus-v1-5",
   "modalities": {
@@ -12,10 +12,10 @@
   },
   "_generated": {
     "name": "b1a01466",
-    "release_date": "5678bd8d",
+    "release_date": "f309a958",
     "model_type": "4d1b75ca",
     "page_url": "a3db3550",
     "modalities": "901ff664"
   },
-  "last_updated": "2026-10-09"
+  "last_updated": "2026-10-13"
 }

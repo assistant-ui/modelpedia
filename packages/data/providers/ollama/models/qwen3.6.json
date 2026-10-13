@@ -38,8 +38,10 @@
     "capabilities": "f7041f91",
     "modalities": "6399757e",
     "tools": "f0c1dc7e",
-    "parameters": "1c383cd3"
+    "parameters": "1c383cd3",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-10-08",
-  "parameters": 35
+  "last_updated": "2026-10-13",
+  "parameters": 35,
+  "status": "deprecated"
 }

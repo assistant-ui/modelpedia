@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-12",
-  "count": 123,
+  "date": "2026-10-13",
+  "count": 121,
   "ids": [
     "codellama-codellama-7b-instruct-hf",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
@@ -88,8 +88,6 @@
     "qwen-qwen3-4b-base",
     "qwen-qwen3-4b-instruct",
     "qwen-qwen3-4b-instruct-2507",
-    "qwen-qwen3-4b-thinking",
-    "qwen-qwen3-4b-thinking-2507",
     "qwen-qwen3-8b",
     "qwen-qwen3-8b-base",
     "qwen-qwen3-coder-30b-a3b-instruct",

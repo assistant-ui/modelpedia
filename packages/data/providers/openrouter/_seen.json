@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-10",
-  "count": 470,
+  "date": "2026-10-13",
+  "count": 471,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -167,6 +167,7 @@
     "meta-muse-spark-1.2-contributor",
     "meta-muse-spark-1.3",
     "meta-muse-spark-1.3-contributor",
+    "meta-muse-wonder",
     "microsoft-phi-4",
     "microsoft-wizardlm-2-8x22b",
     "minimax-minimax-01",
