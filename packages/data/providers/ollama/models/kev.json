@@ -1,0 +1,32 @@
+{
+  "id": "kev",
+  "name": "kev",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "Kev scores answers to structured questions about a supplied text state in a single forward pass.",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "page_url": "https://ollama.com/library/kev",
+  "open_weight": true,
+  "tagline": "Kev scores answers to structured questions about a supplied text state in a single forward pass.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "0522005e",
+    "description": "55f81270",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "page_url": "53a71bbf",
+    "open_weight": "b326b506",
+    "tagline": "55f81270",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-13"
+}

@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-12",
-  "count": 125,
+  "date": "2026-10-13",
+  "count": 126,
   "ids": [
     "851-labs-background-remover",
     "8digit-gener8-sam3",
@@ -66,7 +66,6 @@
     "gregpriday-crisp-vector",
     "hardtunesk-clon-tinder",
     "hyper3d-rodin",
-    "ideogram-ai-ideogram-4-5",
     "ideogram-ai-ideogram-4-5-precise-edit",
     "ideogram-ai-ideogram-character",
     "inworld-realtime-tts-2",
@@ -105,6 +104,7 @@
     "prunaai-p-video",
     "prunaai-p-video-2-pro",
     "prunaai-p-video-avatar",
+    "prunaai-z-image-turbo",
     "rafaelgalle-whisper-diarization-advanced",
     "recraft-ai-recraft-v4-styles-pro-svg",
     "replicate-train-rvc-model",
@@ -124,6 +124,7 @@
     "xai-grok-imagine-video",
     "xai-grok-imagine-video-1.5",
     "xai-grok-imagine-video-extension",
+    "yanexr-embedding-gemma-2",
     "zsxkib-create-rvc-dataset",
     "zsxkib-multitalk",
     "zsxkib-realistic-voice-cloning"

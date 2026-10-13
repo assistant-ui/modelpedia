@@ -1,0 +1,35 @@
+{
+  "id": "bria/guided-remove-background",
+  "name": "Bria Guided Remove Background",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Background removal you steer with a prompt.",
+  "status": "active",
+  "release_date": "2026-10-10",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/guided-remove-background",
+  "tagline": "Background removal you steer with a prompt.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-10-12",
+  "_generated": {
+    "name": "e1c962ab",
+    "description": "c6d5dcf5",
+    "status": "379ac110",
+    "release_date": "5af61e22",
+    "model_type": "db8857fe",
+    "page_url": "a7bc5014",
+    "tagline": "c6d5dcf5",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "a847d25d"
+  },
+  "last_updated": "2026-10-13"
+}

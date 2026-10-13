@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-10",
-  "count": 1514,
+  "date": "2026-10-13",
+  "count": 1515,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -65,6 +65,7 @@
     "bria-fibo-lite-generate",
     "bria-fibo-lite-generate-structured_prompt",
     "bria-genfill-v2",
+    "bria-guided-remove-background",
     "bria-increase-resolution",
     "bria-product-dimensions",
     "bria-replace-background",

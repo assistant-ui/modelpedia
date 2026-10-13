@@ -1,0 +1,25 @@
+{
+  "id": "yanexr/embedding-gemma-2",
+  "name": "Embedding Gemma 2",
+  "created_by": "yanexr",
+  "source": "official",
+  "family": "embed",
+  "status": "active",
+  "model_type": "embed",
+  "page_url": "https://replicate.com/yanexr/embedding-gemma-2",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "_generated": {
+    "name": "39c8c674",
+    "family": "764cb3de",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "page_url": "b8e02582",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda"
+  },
+  "last_updated": "2026-10-13"
+}

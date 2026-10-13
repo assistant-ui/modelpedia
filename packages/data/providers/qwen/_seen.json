@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-24",
-  "count": 189,
+  "date": "2026-10-13",
+  "count": 190,
   "ids": [
     "cosyvoice-v2",
     "cosyvoice-v3-flash",
@@ -29,6 +29,7 @@
     "qwen-audio-3.0-tts-plus",
     "qwen-audio-3.1-asr-flash",
     "qwen-audio-3.1-asr-flash-filetrans",
+    "qwen-audio-3.1-asr-flash-message",
     "qwen-audio-3.1-asr-flash-streaming",
     "qwen-audio-3.1-realtime-plus",
     "qwen-deep-research",
