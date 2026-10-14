@@ -1,0 +1,19 @@
+{
+  "id": "fish-audio/drama-3",
+  "name": "drama-3",
+  "created_by": "fish-audio",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 10,
+    "output": 0
+  },
+  "_generated": {
+    "name": "6b8302b3",
+    "capabilities": "0fa77dc6",
+    "pricing": "95ff014a"
+  },
+  "last_updated": "2026-10-14"
+}

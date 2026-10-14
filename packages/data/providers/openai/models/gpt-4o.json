@@ -3,10 +3,10 @@
   "name": "GPT-4o",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-14",
   "family": "gpt-4o",
   "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model. It accepts both text and image inputs, and produces text outputs (including Structured Outputs). It is the best model for most tasks, and is our most capable model outside of our o-series models.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
   "max_output_tokens": 16384,
@@ -91,7 +91,7 @@
     "name": "6867acdf",
     "family": "15249632",
     "description": "3d53d7c5",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
@@ -107,10 +107,16 @@
     "license": "9186c466",
     "page_url": "4d20d32d",
     "open_weight": "68934a3e",
-    "release_date": "090277ab"
+    "release_date": "090277ab",
+    "deprecation_date": "b735ec37",
+    "retirement_date": "b3b7551d",
+    "successor": "8f1f2183"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o",
   "open_weight": false,
-  "release_date": "2024-11-20"
+  "release_date": "2024-11-20",
+  "deprecation_date": "2026-10-14",
+  "retirement_date": "2027-01-14",
+  "successor": "gpt-6-luna"
 }

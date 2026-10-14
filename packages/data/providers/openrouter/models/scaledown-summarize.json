@@ -1,0 +1,29 @@
+{
+  "id": "scaledown/summarize",
+  "name": "ScaleDown: Summarize",
+  "created_by": "scaledown",
+  "source": "official",
+  "description": "Summarize is an abstractive summarization model from ScaleDown.",
+  "release_date": "2026-10-13",
+  "context_window": 1000000,
+  "max_output_tokens": 4000,
+  "tagline": "Summarize is an abstractive summarization model from ScaleDown.",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.04
+  },
+  "_generated": {
+    "name": "8ddf6abd",
+    "description": "f758d2b1",
+    "release_date": "e531adb9",
+    "context_window": "8155bc54",
+    "max_output_tokens": "1bd69c7d",
+    "tagline": "f758d2b1",
+    "modalities": "6399757e",
+    "pricing": "713be9f3"
+  },
+  "last_updated": "2026-10-14"
+}

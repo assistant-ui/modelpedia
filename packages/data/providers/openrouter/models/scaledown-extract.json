@@ -1,0 +1,29 @@
+{
+  "id": "scaledown/extract",
+  "name": "ScaleDown: Extract",
+  "created_by": "scaledown",
+  "source": "official",
+  "description": "Extract is a description-driven entity extraction model from ScaleDown.",
+  "release_date": "2026-10-13",
+  "context_window": 1000000,
+  "max_output_tokens": 900000,
+  "tagline": "Extract is a description-driven entity extraction model from ScaleDown.",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.04
+  },
+  "_generated": {
+    "name": "0d256ce3",
+    "description": "b76826a4",
+    "release_date": "e531adb9",
+    "context_window": "8155bc54",
+    "max_output_tokens": "c3c4f8c9",
+    "tagline": "b76826a4",
+    "modalities": "6399757e",
+    "pricing": "713be9f3"
+  },
+  "last_updated": "2026-10-14"
+}

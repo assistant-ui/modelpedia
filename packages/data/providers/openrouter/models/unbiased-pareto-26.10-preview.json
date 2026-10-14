@@ -31,7 +31,11 @@
     "capabilities": "ce9e2425",
     "modalities": "6399757e",
     "pricing": "4948fa3c",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc",
+    "deprecation_date": "b3e9e1a3"
   },
-  "last_updated": "2026-10-02"
+  "last_updated": "2026-10-14",
+  "status": "deprecated",
+  "deprecation_date": "2026-10-15"
 }

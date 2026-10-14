@@ -1,0 +1,39 @@
+{
+  "id": "~unbiased/pareto-latest",
+  "name": "Pareto Latest",
+  "created_by": "~unbiased",
+  "source": "official",
+  "description": "This model always redirects to the latest model in the Pareto family.",
+  "release_date": "2026-10-13",
+  "context_window": 262144,
+  "max_output_tokens": 131072,
+  "tagline": "This model always redirects to the latest model in the Pareto family.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 2.5,
+    "output": 7.5,
+    "cached_input": 0.25
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "0824fc52",
+    "description": "e3df0e31",
+    "release_date": "e531adb9",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f7de594e",
+    "tagline": "e3df0e31",
+    "capabilities": "6c9aa67e",
+    "modalities": "6399757e",
+    "pricing": "7db711ab",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-14"
+}

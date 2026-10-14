@@ -1,0 +1,44 @@
+{
+  "id": "google/gemini-4-argon:batch",
+  "name": "Google: Gemini 4 Argon (batch)",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-4",
+  "description": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents.",
+  "release_date": "2026-10-13",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "model_type": "chat",
+  "tagline": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["audio", "image", "text", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 5,
+    "cached_input": 0.05
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f4cafb32",
+    "family": "bd0f233d",
+    "description": "84373509",
+    "release_date": "e531adb9",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "model_type": "d669f408",
+    "tagline": "84373509",
+    "capabilities": "03fbefb4",
+    "modalities": "b7a3ac68",
+    "pricing": "fc8a7941",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-14"
+}

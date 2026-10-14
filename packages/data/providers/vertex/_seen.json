@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-07",
-  "count": 96,
+  "date": "2026-10-14",
+  "count": 97,
   "ids": [
     "antigravity-preview-05-2026",
     "antigravity-preview-09-2026",
@@ -60,6 +60,7 @@
     "gemini-3.8-flash-tts",
     "gemini-3.8-live",
     "gemini-3.8-live-extended-thinking",
+    "gemini-4-argon",
     "gemini-embedding-001",
     "gemini-embedding-2",
     "gemini-embedding-2-preview",

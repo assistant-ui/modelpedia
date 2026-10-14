@@ -1,0 +1,39 @@
+{
+  "id": "gemini-4-argon",
+  "name": "gemini-4-argon",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-4",
+  "status": "active",
+  "model_type": "chat",
+  "license": "proprietary",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text", "image", "audio"]
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "6624c085",
+    "family": "bd0f233d",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "capabilities": "fdff467b",
+    "modalities": "0b49b61e",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-10-14"
+}

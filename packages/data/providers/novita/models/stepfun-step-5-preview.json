@@ -1,0 +1,47 @@
+{
+  "id": "stepfun/step-5-preview",
+  "name": "Step 5 Preview",
+  "created_by": "stepfun",
+  "source": "official",
+  "description": "Step 5 Preview is StepFun's flagship model for coding, software engineering, and professional knowledge work.",
+  "status": "active",
+  "release_date": "2026-09-30",
+  "context_window": 1000000,
+  "max_output_tokens": 64000,
+  "model_type": "chat",
+  "tagline": "Step 5 Preview is StepFun's flagship model for coding, software engineering, and professional knowledge work.",
+  "capabilities": {
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 2.7
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "44adf2d0",
+    "description": "321b6a56",
+    "status": "379ac110",
+    "release_date": "3bb8d4f3",
+    "context_window": "8155bc54",
+    "max_output_tokens": "762e98db",
+    "model_type": "d669f408",
+    "tagline": "321b6a56",
+    "capabilities": "04ba30b2",
+    "modalities": "6399757e",
+    "pricing": "41103e0d",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-14"
+}

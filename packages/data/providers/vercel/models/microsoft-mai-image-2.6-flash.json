@@ -1,0 +1,21 @@
+{
+  "id": "microsoft/mai-image-2.6-flash",
+  "name": "mai-image-2.6-flash",
+  "created_by": "microsoft",
+  "source": "official",
+  "model_type": "image",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.75,
+    "output": 19
+  },
+  "_generated": {
+    "name": "86c2ed50",
+    "model_type": "db8857fe",
+    "capabilities": "0fa77dc6",
+    "pricing": "c3826d6e"
+  },
+  "last_updated": "2026-10-14"
+}

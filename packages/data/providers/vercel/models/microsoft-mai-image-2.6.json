@@ -1,0 +1,21 @@
+{
+  "id": "microsoft/mai-image-2.6",
+  "name": "mai-image-2.6",
+  "created_by": "microsoft",
+  "source": "official",
+  "model_type": "image",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 5,
+    "output": 38
+  },
+  "_generated": {
+    "name": "3b82725e",
+    "model_type": "db8857fe",
+    "capabilities": "0fa77dc6",
+    "pricing": "1f1a4205"
+  },
+  "last_updated": "2026-10-14"
+}
