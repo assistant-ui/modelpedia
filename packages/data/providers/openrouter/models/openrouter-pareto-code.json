@@ -17,7 +17,16 @@
     "release_date": "5029e96d",
     "context_window": "805f7438",
     "tagline": "8255af4c",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "capabilities": "03fbefb4",
+    "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-10"
+  "last_updated": "2026-10-14",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "tools": ["function_calling"]
 }

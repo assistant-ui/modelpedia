@@ -1,0 +1,19 @@
+{
+  "id": "scaledown/scaledown-classify-1",
+  "name": "scaledown-classify-1",
+  "created_by": "scaledown",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0
+  },
+  "_generated": {
+    "name": "b9e7dc64",
+    "capabilities": "0fa77dc6",
+    "pricing": "edbb3c0f"
+  },
+  "last_updated": "2026-10-14"
+}

@@ -3,10 +3,10 @@
   "name": "GPT-4.1 Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-14",
   "family": "gpt-4.1",
   "description": "GPT-4.1 Mini excels at instruction following and tool calling. It features a 1M token context window, and low latency without a reasoning step.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 1047576,
   "max_output_tokens": 32768,
@@ -90,7 +90,7 @@
     "name": "ce38e8c3",
     "family": "d240daf4",
     "description": "2703c2e1",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "55410616",
     "max_output_tokens": "f4376436",
@@ -106,10 +106,16 @@
     "license": "9186c466",
     "page_url": "6c7364d0",
     "open_weight": "68934a3e",
-    "release_date": "85c7118a"
+    "release_date": "85c7118a",
+    "deprecation_date": "b735ec37",
+    "retirement_date": "b3b7551d",
+    "successor": "8f1f2183"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
   "open_weight": false,
-  "release_date": "2025-04-14"
+  "release_date": "2025-04-14",
+  "deprecation_date": "2026-10-14",
+  "retirement_date": "2027-01-14",
+  "successor": "gpt-6-luna"
 }

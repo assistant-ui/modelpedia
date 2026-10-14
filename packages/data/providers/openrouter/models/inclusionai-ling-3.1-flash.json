@@ -26,7 +26,13 @@
     "tagline": "797ef96c",
     "capabilities": "05723a3e",
     "modalities": "68e53d93",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "pricing": "8f83a570"
   },
-  "last_updated": "2026-10-12"
+  "last_updated": "2026-10-14",
+  "pricing": {
+    "input": 0.075,
+    "output": 0.225,
+    "cached_input": 0.015
+  }
 }

@@ -3,10 +3,10 @@
   "name": "gpt-4o-2024-11-20",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-14",
   "family": "gpt-4o",
   "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
   "max_output_tokens": 16384,
@@ -83,7 +83,7 @@
     "name": "5ca82244",
     "family": "15249632",
     "description": "f06aa8e0",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
@@ -99,11 +99,17 @@
     "release_date": "090277ab",
     "page_url": "d3b7c6fb",
     "open_weight": "68934a3e",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "deprecation_date": "b735ec37",
+    "retirement_date": "b3b7551d",
+    "successor": "8f1f2183"
   },
   "license": "proprietary",
   "release_date": "2024-11-20",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o?snapshot=gpt-4o-2024-11-20",
   "open_weight": false,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "deprecation_date": "2026-10-14",
+  "retirement_date": "2027-01-14",
+  "successor": "gpt-6-luna"
 }

@@ -1,0 +1,66 @@
+{
+  "id": "gemini-4-argon",
+  "name": "gemini-4-argon",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-4",
+  "status": "active",
+  "license": "proprietary",
+  "page_url": "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "batch": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text", "image", "audio"]
+  },
+  "pricing": {
+    "input": 2,
+    "output": 10,
+    "cached_input": 0.1,
+    "batch_input": 1,
+    "batch_output": 5,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2, 0.1, 10]
+          },
+          {
+            "label": "Batch",
+            "values": [1, null, 5]
+          }
+        ]
+      }
+    ]
+  },
+  "open_weight": false,
+  "tools": ["function_calling"],
+  "endpoints": ["generateContent", "streamGenerateContent"],
+  "_generated": {
+    "name": "6624c085",
+    "family": "bd0f233d",
+    "status": "379ac110",
+    "license": "9186c466",
+    "page_url": "6e98c53d",
+    "model_type": "d669f408",
+    "capabilities": "fdff467b",
+    "modalities": "0b49b61e",
+    "pricing": "42fba2ab",
+    "open_weight": "68934a3e",
+    "tools": "f0c1dc7e",
+    "endpoints": "20e16908"
+  },
+  "last_updated": "2026-10-14"
+}

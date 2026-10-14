@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-13",
-  "count": 126,
+  "date": "2026-10-14",
+  "count": 125,
   "ids": [
     "851-labs-background-remover",
     "8digit-gener8-sam3",
@@ -104,7 +104,6 @@
     "prunaai-p-video",
     "prunaai-p-video-2-pro",
     "prunaai-p-video-avatar",
-    "prunaai-z-image-turbo",
     "rafaelgalle-whisper-diarization-advanced",
     "recraft-ai-recraft-v4-styles-pro-svg",
     "replicate-train-rvc-model",

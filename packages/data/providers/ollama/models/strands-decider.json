@@ -1,0 +1,34 @@
+{
+  "id": "strands-decider",
+  "name": "strands-decider",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "A 2B decision model from Strands Agents for fast classification, routing, and scoring.",
+  "context_window": 4096,
+  "license": "apache-2.0",
+  "parameters": 2,
+  "page_url": "https://ollama.com/library/strands-decider",
+  "open_weight": true,
+  "tagline": "A 2B decision model from Strands Agents for fast classification, routing, and scoring.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "21d99ecd",
+    "description": "b76b3d18",
+    "context_window": "f7efa4f8",
+    "license": "60245731",
+    "parameters": "c81e728d",
+    "page_url": "d043dce7",
+    "open_weight": "b326b506",
+    "tagline": "b76b3d18",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-14"
+}

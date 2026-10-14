@@ -1,0 +1,46 @@
+{
+  "id": "liquid/lfm-2.5-24b-a2b",
+  "name": "LiquidAI: LFM2.5-24B-A2B",
+  "created_by": "liquid",
+  "source": "official",
+  "description": "LFM2.5-24B-A2B is a mixture-of-experts reasoning model from Liquid AI with 24B total and 2.45B active parameters.",
+  "release_date": "2026-10-13",
+  "context_window": 128000,
+  "max_output_tokens": 8192,
+  "parameters": 24,
+  "active_parameters": 2,
+  "model_type": "chat",
+  "tagline": "LFM2.5-24B-A2B is a mixture-of-experts reasoning model from Liquid AI with 24B total and 2.45B active parameters.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0.7,
+    "cached_input": 0.025
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c969a09b",
+    "description": "a603b8c1",
+    "release_date": "e531adb9",
+    "context_window": "34434798",
+    "max_output_tokens": "77441296",
+    "parameters": "1ff1de77",
+    "active_parameters": "c81e728d",
+    "model_type": "d669f408",
+    "tagline": "a603b8c1",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "24756f2f",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-14"
+}

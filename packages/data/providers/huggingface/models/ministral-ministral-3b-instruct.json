@@ -1,0 +1,39 @@
+{
+  "id": "ministral/Ministral-3b-instruct",
+  "name": "Ministral-3b-instruct",
+  "created_by": "ministral",
+  "source": "official",
+  "release_date": "2024-03-14",
+  "context_window": 131072,
+  "license": "apache-2.0",
+  "parameters": 3.3,
+  "page_url": "https://huggingface.co/ministral/Ministral-3b-instruct",
+  "architecture": "transformer",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "1aace8c8",
+    "release_date": "72223066",
+    "context_window": "f7de594e",
+    "license": "60245731",
+    "parameters": "bca66716",
+    "page_url": "ad323bba",
+    "architecture": "8832ea0f",
+    "model_type": "d669f408",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-14"
+}
