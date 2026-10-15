@@ -1,0 +1,27 @@
+{
+  "id": "grok-voice-3.0",
+  "name": "grok-voice-3.0",
+  "created_by": "xai",
+  "source": "official",
+  "status": "active",
+  "model_type": "audio",
+  "license": "proprietary",
+  "page_url": "https://docs.x.ai/developers/models",
+  "modalities": {
+    "input": ["audio", "text"],
+    "output": ["audio"]
+  },
+  "open_weight": false,
+  "pricing_notes": ["$0.08 / min ($4.80 / hr); $0.004 / text input."],
+  "_generated": {
+    "name": "4c1f012e",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "license": "9186c466",
+    "page_url": "053acbe7",
+    "modalities": "5632d7e9",
+    "open_weight": "68934a3e",
+    "pricing_notes": "4fc37837"
+  },
+  "last_updated": "2026-10-15"
+}

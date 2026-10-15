@@ -1,0 +1,35 @@
+{
+  "id": "bria/fibo-edit-1.5/expand",
+  "name": "Bria Expand (FIBO-Edit-1.5)",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Bria Expand extends an image beyond its borders to any of 9 aspect ratios or a custom canvas up to 25 megapixels.",
+  "status": "active",
+  "release_date": "2026-10-10",
+  "model_type": "image",
+  "page_url": "https://fal.run/bria/fibo-edit-1.5/expand",
+  "tagline": "Bria Expand extends an image beyond its borders to any of 9 aspect ratios or a custom canvas up to 25 megapixels.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-10-14",
+  "_generated": {
+    "name": "ec117310",
+    "description": "16179764",
+    "status": "379ac110",
+    "release_date": "5af61e22",
+    "model_type": "db8857fe",
+    "page_url": "dbd6af8a",
+    "tagline": "16179764",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "b735ec37"
+  },
+  "last_updated": "2026-10-15"
+}

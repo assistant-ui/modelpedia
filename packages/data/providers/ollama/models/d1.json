@@ -1,0 +1,35 @@
+{
+  "id": "d1",
+  "name": "d1",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "d1 is a 3B decision model from Liquid AI, built on LFM2.5-VL-3B",
+  "context_window": 32768,
+  "license": "open-weight",
+  "parameters": 3,
+  "page_url": "https://ollama.com/library/d1",
+  "open_weight": true,
+  "tagline": "d1 is a 3B decision model from Liquid AI, built on LFM2.5-VL-3B",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "59f86957",
+    "description": "c7387f9b",
+    "context_window": "f4376436",
+    "license": "6327aaea",
+    "parameters": "eccbc87e",
+    "page_url": "2abea365",
+    "open_weight": "b326b506",
+    "tagline": "c7387f9b",
+    "capabilities": "91e36286",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-10-15"
+}

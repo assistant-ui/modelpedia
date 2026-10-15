@@ -3,7 +3,7 @@
   "name": "Bria Eraser",
   "created_by": "fal",
   "source": "official",
-  "description": "Bria Eraser enables precise removal of unwanted objects from images while maintaining high-quality outputs.",
+  "description": "Removes masked objects.",
   "status": "active",
   "release_date": "2024-12-19",
   "model_type": "image",
@@ -17,10 +17,10 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-07-25",
+  "last_seen_at": "2026-10-14",
   "_generated": {
     "name": "c408272b",
-    "description": "27a3bb8c",
+    "description": "8865abc8",
     "status": "379ac110",
     "release_date": "df5c0f25",
     "model_type": "db8857fe",
@@ -29,7 +29,7 @@
     "capabilities": "d3117eb0",
     "modalities": "bbf9b8bb",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "354588cf"
+    "last_seen_at": "b735ec37"
   },
-  "last_updated": "2026-07-25"
+  "last_updated": "2026-10-15"
 }

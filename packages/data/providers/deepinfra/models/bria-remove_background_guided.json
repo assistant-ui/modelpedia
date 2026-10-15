@@ -1,0 +1,33 @@
+{
+  "id": "Bria/remove_background_guided",
+  "name": "remove_background_guided",
+  "created_by": "bria",
+  "source": "official",
+  "description": "Prompt-guided background removal by Bria: tell it what to keep or what to remove and get a clean cutout with true transparency, at the original resolution with the original pixels untouched. Trained exclusively on licensed data for commercially safe use.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "tagline": "Prompt-guided background removal by Bria: tell it what to keep or what to remove and get a clean cutout with true transparency, at the original resolution with the original pixels untouched.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0300 per image unit (0x0 default)"],
+  "_generated": {
+    "name": "d4bb2e55",
+    "description": "2ace1d52",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "tagline": "906a5965",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "fba4c044"
+  },
+  "last_updated": "2026-10-15"
+}

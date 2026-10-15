@@ -5,7 +5,7 @@
   "source": "official",
   "description": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters).",
   "release_date": "2026-10-08",
-  "context_window": 1000000,
+  "context_window": 1048576,
   "max_output_tokens": 64000,
   "tagline": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters).",
   "capabilities": {
@@ -28,7 +28,7 @@
     "name": "15f627ec",
     "description": "2c231e21",
     "release_date": "f309a958",
-    "context_window": "8155bc54",
+    "context_window": "7d28a051",
     "max_output_tokens": "762e98db",
     "tagline": "2c231e21",
     "capabilities": "03fbefb4",
@@ -36,5 +36,5 @@
     "pricing": "a7f103bd",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-09"
+  "last_updated": "2026-10-15"
 }

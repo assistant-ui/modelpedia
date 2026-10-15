@@ -1,0 +1,21 @@
+{
+  "id": "s/boreal-h3",
+  "name": "Boreal H3",
+  "created_by": "unknown",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/boreal-h3",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.17,
+    "output": 0.1391
+  },
+  "_generated": {
+    "name": "6eb99421",
+    "page_url": "8101b62b",
+    "capabilities": "0fa77dc6",
+    "pricing": "54682485"
+  },
+  "last_updated": "2026-10-15"
+}

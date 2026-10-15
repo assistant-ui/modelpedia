@@ -1,0 +1,24 @@
+{
+  "id": "perplexity/pplx-decider-v1.1-27b",
+  "name": "pplx-decider-v1.1-27b",
+  "created_by": "perplexity",
+  "source": "official",
+  "context_window": 262100,
+  "parameters": 27,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 0.02,
+    "output": 0
+  },
+  "_generated": {
+    "name": "3ebc0e4d",
+    "context_window": "b23f4471",
+    "parameters": "02e74f10",
+    "capabilities": "8a3b232e",
+    "pricing": "8d85a56c"
+  },
+  "last_updated": "2026-10-15"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "pplx-decider",
+  "name": "pplx-decider",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "pplx-decider is a 27B decision model from Perplexity, fine-tuned from Qwen3.8-27B",
+  "context_window": 262144,
+  "license": "apache-2.0",
+  "parameters": 27,
+  "page_url": "https://ollama.com/library/pplx-decider",
+  "open_weight": true,
+  "tagline": "pplx-decider is a 27B decision model from Perplexity, fine-tuned from Qwen3.8-27B",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "e1bcfd9e",
+    "description": "dca16a70",
+    "context_window": "4a1d32eb",
+    "license": "60245731",
+    "parameters": "02e74f10",
+    "page_url": "3f5ff1a4",
+    "open_weight": "b326b506",
+    "tagline": "dca16a70",
+    "capabilities": "91e36286",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-10-15"
+}

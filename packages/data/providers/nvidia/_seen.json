@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-06",
-  "count": 80,
+  "date": "2026-10-15",
+  "count": 81,
   "ids": [
     "01-ai-yi-large",
     "adept-fuyu-8b",
@@ -75,6 +75,7 @@
     "openai-gpt-oss-20b",
     "poolside-laguna-xs-2.1",
     "snowflake-arctic-embed-l",
+    "stepfun-ai-step-5-preview",
     "writer-palmyra-creative-122b",
     "writer-palmyra-fin-70b-32k",
     "writer-palmyra-med-70b",

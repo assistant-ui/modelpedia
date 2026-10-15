@@ -1,0 +1,49 @@
+{
+  "id": "inclusionAI/Ling-3.1-flash",
+  "name": "Ling-3.1-flash",
+  "created_by": "inclusionai",
+  "source": "official",
+  "description": "Ling-3.1-flash, an upgraded native hybrid reasoning model designed for complex, real-world tasks. With 560B total parameters, 25B active parameters per token, and a 1M-token context window, Ling-3.1-flash builds upon Ling-3.0-flash with improvements in architecture, performance on real-world capabilities.",
+  "status": "active",
+  "context_window": 262144,
+  "model_type": "chat",
+  "reasoning_tokens": true,
+  "open_weight": true,
+  "tagline": "Ling-3.1-flash, an upgraded native hybrid reasoning model designed for complex, real-world tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "json_mode": true,
+    "reasoning": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 0.9,
+    "cached_input": 0.06
+  },
+  "tools": ["function_calling"],
+  "endpoints": ["chat_completions"],
+  "quantization": "fp4",
+  "_generated": {
+    "name": "33f058f2",
+    "description": "c807a8b1",
+    "status": "379ac110",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "reasoning_tokens": "b326b506",
+    "open_weight": "b326b506",
+    "tagline": "46a90fa7",
+    "capabilities": "a17ad43b",
+    "modalities": "68e53d93",
+    "pricing": "a4b96923",
+    "tools": "f0c1dc7e",
+    "endpoints": "d8fa1080",
+    "quantization": "0e8a48ee"
+  },
+  "last_updated": "2026-10-15"
+}
