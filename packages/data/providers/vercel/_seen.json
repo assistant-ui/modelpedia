@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-14",
-  "count": 395,
+  "date": "2026-10-15",
+  "count": 396,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -300,6 +300,7 @@
     "openai-tts-1-hd",
     "openai-whisper-1",
     "parallel-search",
+    "perplexity-pplx-decider-v1.1-27b",
     "perplexity-pplx-embed-v1-0.6b",
     "perplexity-pplx-embed-v1-4b",
     "perplexity-search",

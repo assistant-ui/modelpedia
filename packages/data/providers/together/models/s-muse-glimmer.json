@@ -17,7 +17,9 @@
     "context_window": "34434798",
     "page_url": "eb0f8049",
     "capabilities": "0fa77dc6",
-    "pricing": "8f92da8b"
+    "pricing": "8f92da8b",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-10-15",
+  "status": "deprecated"
 }

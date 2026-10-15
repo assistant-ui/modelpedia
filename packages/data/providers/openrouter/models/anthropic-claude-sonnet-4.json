@@ -3,7 +3,7 @@
   "name": "Anthropic: Claude Sonnet 4",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-10-15",
   "family": "claude-sonnet",
   "description": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability.",
   "context_window": 200000,
@@ -33,10 +33,14 @@
     "model_type": "d669f408",
     "release_date": "c791c61b",
     "tagline": "aa9aa925",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc",
+    "deprecation_date": "b3e9e1a3"
   },
   "model_type": "chat",
   "release_date": "2025-05-22",
   "tagline": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated",
+  "deprecation_date": "2026-10-15"
 }

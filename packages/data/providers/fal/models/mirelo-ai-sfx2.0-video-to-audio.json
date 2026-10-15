@@ -1,0 +1,24 @@
+{
+  "id": "mirelo-ai/sfx2.0/video-to-audio",
+  "name": "Mirelo SFX2.0",
+  "created_by": "mirelo-ai",
+  "source": "official",
+  "description": "Generates synchronized soundtracks from an input video and returns them as audio files.",
+  "status": "active",
+  "release_date": "2026-10-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/mirelo-ai/sfx2.0/video-to-audio",
+  "tagline": "Generates synchronized soundtracks from an input video and returns them as audio files.",
+  "last_seen_at": "2026-10-14",
+  "_generated": {
+    "name": "08eb8dd7",
+    "description": "52a64a9e",
+    "status": "379ac110",
+    "release_date": "b735ec37",
+    "model_type": "ddb0b7bc",
+    "page_url": "9917105c",
+    "tagline": "52a64a9e",
+    "last_seen_at": "b735ec37"
+  },
+  "last_updated": "2026-10-15"
+}

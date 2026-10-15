@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-14",
-  "count": 125,
+  "date": "2026-10-15",
+  "count": 126,
   "ids": [
     "851-labs-background-remover",
     "8digit-gener8-sam3",
@@ -108,6 +108,7 @@
     "recraft-ai-recraft-v4-styles-pro-svg",
     "replicate-train-rvc-model",
     "runwayml-gen4-image",
+    "saattrupdan-multilingual-e5-large-instruct",
     "schananas-grounded_sam",
     "sprited-kimodo",
     "tencent-hunyuan-3d-3.1",
