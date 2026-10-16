@@ -12,7 +12,7 @@
   },
   "pricing": {
     "input": 0.15,
-    "output": 0.47
+    "output": 0.5
   },
   "modalities": {
     "input": ["text"],
@@ -25,8 +25,8 @@
     "page_url": "bec3036b",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "pricing": "9827eff5",
+    "pricing": "c74fbef8",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-10-06"
+  "last_updated": "2026-10-16"
 }

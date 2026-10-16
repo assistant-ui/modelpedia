@@ -1,0 +1,40 @@
+{
+  "id": "muse-spark-open",
+  "name": "muse-spark-open",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "Muse Spark Open is a natively multimodal model with 816B total parameters (42B active) and a 1M-token context window. Built for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning.",
+  "release_date": "2026-10-15",
+  "license": "open-weight",
+  "parameters": 816,
+  "active_parameters": 42,
+  "page_url": "https://ollama.com/library/muse-spark-open",
+  "open_weight": true,
+  "tagline": "Muse Spark Open is a natively multimodal model with 816B total parameters (42B active) and a 1M-token context window.",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6818a85c",
+    "description": "e7f940ba",
+    "release_date": "b3e9e1a3",
+    "license": "6327aaea",
+    "parameters": "43fa7f58",
+    "active_parameters": "a1d0c6e8",
+    "page_url": "08000af2",
+    "open_weight": "b326b506",
+    "tagline": "29f2f072",
+    "capabilities": "62b3fd83",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-16"
+}

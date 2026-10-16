@@ -1,0 +1,31 @@
+{
+  "id": "kotoba-technologies/kotoba-tts/v2/tts/ws",
+  "name": "Kotoba Text-to-Speech",
+  "created_by": "kotoba-technologies",
+  "source": "official",
+  "description": "Natural Japanese speech, streamed back as it is generated so playback starts almost immediately.",
+  "status": "active",
+  "release_date": "2026-10-14",
+  "model_type": "tts",
+  "page_url": "https://fal.run/kotoba-technologies/kotoba-tts/v2/tts/ws",
+  "tagline": "Natural Japanese speech, streamed back as it is generated so playback starts almost immediately.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "endpoints": ["audio_speech"],
+  "last_seen_at": "2026-10-15",
+  "_generated": {
+    "name": "f3a89a0f",
+    "description": "fcbbaf7b",
+    "status": "379ac110",
+    "release_date": "b735ec37",
+    "model_type": "4e16a2cf",
+    "page_url": "70b72ab4",
+    "tagline": "fcbbaf7b",
+    "modalities": "601e776d",
+    "endpoints": "0d745ead",
+    "last_seen_at": "b3e9e1a3"
+  },
+  "last_updated": "2026-10-16"
+}

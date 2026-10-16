@@ -1,0 +1,22 @@
+{
+  "id": "liquid/d1-ultra",
+  "name": "d1-ultra",
+  "created_by": "liquid",
+  "source": "official",
+  "context_window": 32800,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0
+  },
+  "_generated": {
+    "name": "0667583c",
+    "context_window": "74a190a6",
+    "capabilities": "8a3b232e",
+    "pricing": "52a74acf"
+  },
+  "last_updated": "2026-10-16"
+}

@@ -1,8 +1,7 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "count": 24,
   "ids": [
-    "s-boreal-h3",
     "s-deepseek-v4-1-flash",
     "s-deepseek-v4-flash-0731",
     "s-deepseek-v4-pro",
@@ -17,6 +16,8 @@
     "s-kimi-k3",
     "s-minimax-h3",
     "s-minimax-m3",
+    "s-muse-spark-open",
+    "s-muse-spark-open-promo",
     "s-nvidia-nemotron-3-ultra",
     "s-prism-ml-ternary-bonsai-27b",
     "s-qwen3-8-flash",
@@ -24,7 +25,6 @@
     "s-qwen37-plus",
     "s-seedance-2-0",
     "s-seedance-2-5",
-    "s-ternary-bonsai-2-27b",
     "s-tev1-4b-experimental"
   ]
 }

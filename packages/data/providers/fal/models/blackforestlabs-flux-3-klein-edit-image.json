@@ -1,0 +1,35 @@
+{
+  "id": "blackforestlabs/flux-3/klein/edit-image",
+  "name": "FLUX.3 Klein Image Editing",
+  "created_by": "blackforestlabs",
+  "source": "official",
+  "description": "Edits and composes images from text instructions and up to ten references with FLUX.3 Klein, with optional bounding-box controls for object placement and transformation.",
+  "status": "active",
+  "release_date": "2026-10-14",
+  "model_type": "image",
+  "page_url": "https://fal.run/blackforestlabs/flux-3/klein/edit-image",
+  "tagline": "Edits and composes images from text instructions and up to ten references with FLUX.3 Klein, with optional bounding-box controls for object placement and transformation.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-10-15",
+  "_generated": {
+    "name": "6aa43dcf",
+    "description": "9590f3be",
+    "status": "379ac110",
+    "release_date": "b735ec37",
+    "model_type": "db8857fe",
+    "page_url": "7f72198e",
+    "tagline": "9590f3be",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "b3e9e1a3"
+  },
+  "last_updated": "2026-10-16"
+}

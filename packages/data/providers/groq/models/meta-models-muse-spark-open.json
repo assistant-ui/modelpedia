@@ -1,0 +1,35 @@
+{
+  "id": "meta-models/muse-spark-open",
+  "name": "Muse Spark Open Enterprise",
+  "created_by": "groq",
+  "source": "official",
+  "status": "preview",
+  "context_window": 131072,
+  "max_output_tokens": 131072,
+  "model_type": "chat",
+  "speed": 350,
+  "page_url": "https://console.groq.com/docs/models#meta-models/muse-spark-open",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "6044621d",
+    "status": "127aecde",
+    "context_window": "f7de594e",
+    "max_output_tokens": "f7de594e",
+    "model_type": "d669f408",
+    "speed": "9de6d14f",
+    "page_url": "de74450a",
+    "capabilities": "6c301a15",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-16"
+}

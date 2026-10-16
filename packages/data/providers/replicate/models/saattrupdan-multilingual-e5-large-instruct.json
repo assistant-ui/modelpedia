@@ -3,14 +3,14 @@
   "name": "Multilingual E5 Large Instruct",
   "created_by": "saattrupdan",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "page_url": "https://replicate.com/saattrupdan/multilingual-e5-large-instruct",
   "_generated": {
     "name": "0d5ab93c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "page_url": "a0567962"
   },
-  "last_updated": "2026-10-15"
+  "last_updated": "2026-10-16"
 }

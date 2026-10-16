@@ -1,0 +1,28 @@
+{
+  "id": "minimax/h3-max/reference-director",
+  "name": "H3 Max Reference Director",
+  "created_by": "minimax",
+  "source": "official",
+  "description": "Direct a continuous world in real time with image references and text prompts.",
+  "status": "active",
+  "release_date": "2026-10-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/minimax/h3-max/reference-director",
+  "tagline": "Direct a continuous world in real time with image references and text prompts.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-10-15",
+  "_generated": {
+    "name": "3a11a50b",
+    "description": "a7983542",
+    "status": "379ac110",
+    "release_date": "b3e9e1a3",
+    "model_type": "ddb0b7bc",
+    "page_url": "405c19dc",
+    "tagline": "a7983542",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "b3e9e1a3"
+  },
+  "last_updated": "2026-10-16"
+}

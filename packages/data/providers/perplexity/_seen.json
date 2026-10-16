@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-16",
   "count": 41,
   "ids": [
     "anthropic-claude-fable-5",
@@ -33,7 +33,7 @@
     "openai-gpt-6.1-sol",
     "perplexity-glm-5.3",
     "perplexity-kimi-k3",
-    "perplexity-nemotron-3-ultra-550b-a55b",
+    "perplexity-nemotron-3.5-super-120b-a12b",
     "perplexity-sonar",
     "sonar",
     "xai-grok-4.20-multi-agent",

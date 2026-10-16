@@ -1,0 +1,34 @@
+{
+  "id": "Cloudflare/clef",
+  "name": "clef",
+  "created_by": "cloudflare",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.24,
+    "output": 0
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "fp8",
+  "_generated": {
+    "name": "892616d3",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "683fabfa",
+    "endpoints": "d8fa1080",
+    "quantization": "640679f9"
+  },
+  "last_updated": "2026-10-16"
+}

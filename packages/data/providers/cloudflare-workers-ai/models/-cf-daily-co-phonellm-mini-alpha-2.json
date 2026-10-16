@@ -1,0 +1,28 @@
+{
+  "id": "@cf/daily-co/phonellm-mini-alpha-2",
+  "name": "phonellm-mini-alpha-2",
+  "created_by": "daily-co",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#phonellm-mini-alpha-2",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "9e4b5e0d",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "fc2ee312",
+    "capabilities": "48995a4e",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-16"
+}

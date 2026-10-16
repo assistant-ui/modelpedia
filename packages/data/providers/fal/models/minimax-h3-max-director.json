@@ -6,7 +6,7 @@
   "description": "Direct continuous, realtime video streams with live prompts while preserving characters, settings, and story continuity.",
   "status": "active",
   "release_date": "2026-09-03",
-  "model_type": "video",
+  "model_type": "other",
   "page_url": "https://fal.run/minimax/h3-max/director",
   "tagline": "Direct continuous, realtime video streams with live prompts while preserving characters, settings, and story continuity.",
   "modalities": {
@@ -14,18 +14,18 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-10-02",
+  "last_seen_at": "2026-10-15",
   "_generated": {
     "name": "982b2135",
     "description": "97d16744",
     "status": "379ac110",
     "release_date": "424d10af",
-    "model_type": "4d1b75ca",
+    "model_type": "ddb0b7bc",
     "page_url": "39e5f5cd",
     "tagline": "97d16744",
     "modalities": "94e5e9ab",
     "endpoints": "7a78c070",
-    "last_seen_at": "8d21ace3"
+    "last_seen_at": "b3e9e1a3"
   },
-  "last_updated": "2026-10-03"
+  "last_updated": "2026-10-16"
 }

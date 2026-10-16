@@ -1,0 +1,31 @@
+{
+  "id": "kotoba-technologies/kotoba-stt/v1/speech-to-text",
+  "name": "Kotoba Speech-to-Text",
+  "created_by": "kotoba-technologies",
+  "source": "official",
+  "description": "Accurate transcription of an audio clip in one request, with word timestamps, tuned for Japanese and East Asian languages.",
+  "status": "active",
+  "release_date": "2026-10-09",
+  "model_type": "transcription",
+  "page_url": "https://fal.run/kotoba-technologies/kotoba-stt/v1/speech-to-text",
+  "tagline": "Accurate transcription of an audio clip in one request, with word timestamps, tuned for Japanese and East Asian languages.",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "last_seen_at": "2026-10-15",
+  "_generated": {
+    "name": "0800f59c",
+    "description": "251341f5",
+    "status": "379ac110",
+    "release_date": "2020d4ea",
+    "model_type": "5e12d29a",
+    "page_url": "1a89247e",
+    "tagline": "251341f5",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "last_seen_at": "b3e9e1a3"
+  },
+  "last_updated": "2026-10-16"
+}

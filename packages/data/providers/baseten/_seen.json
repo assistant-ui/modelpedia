@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-11",
-  "count": 18,
+  "date": "2026-10-16",
+  "count": 19,
   "ids": [
     "deepseek-ai",
     "deepseek-v3-1",
@@ -13,6 +13,7 @@
     "deepseek-v41-flash-fast",
     "llama-3-3-70b-instruct",
     "nemotron-3-diarization",
+    "nvidia-nemotron-35-super-vl-launch",
     "orpheus-3b-websockets",
     "qwen-image",
     "qwen-image-2512",

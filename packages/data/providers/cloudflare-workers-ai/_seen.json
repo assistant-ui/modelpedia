@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-10",
-  "count": 70,
+  "date": "2026-10-16",
+  "count": 71,
   "ids": [
     "-cf-ai4bharat-indictrans2-en-indic-1b",
     "-cf-aisingapore-gemma-sea-lion-v4-27b-it",
@@ -17,6 +17,7 @@
     "-cf-cloudflare-clef",
     "-cf-cloudflare-clef-flash",
     "-cf-cloudflare-clef-omni",
+    "-cf-daily-co-phonellm-mini-alpha-2",
     "-cf-deepgram-aura-1",
     "-cf-deepgram-aura-2-en",
     "-cf-deepgram-aura-2-es",

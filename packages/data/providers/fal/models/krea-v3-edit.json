@@ -1,0 +1,35 @@
+{
+  "id": "krea/v3/edit",
+  "name": "Krea 3 Edit",
+  "created_by": "krea",
+  "source": "official",
+  "description": "Edits and combines reference images using text instructions, with optional prompt expansion, output-size controls, and reproducible generation through a seed.",
+  "status": "active",
+  "release_date": "2026-10-14",
+  "model_type": "image",
+  "page_url": "https://fal.run/krea/v3/edit",
+  "tagline": "Edits and combines reference images using text instructions, with optional prompt expansion, output-size controls, and reproducible generation through a seed.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-10-15",
+  "_generated": {
+    "name": "b26aae03",
+    "description": "03b32015",
+    "status": "379ac110",
+    "release_date": "b735ec37",
+    "model_type": "db8857fe",
+    "page_url": "0fe834b8",
+    "tagline": "03b32015",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "b3e9e1a3"
+  },
+  "last_updated": "2026-10-16"
+}

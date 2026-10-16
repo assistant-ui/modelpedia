@@ -1,0 +1,21 @@
+{
+  "id": "s/muse-spark-open-promo",
+  "name": "Muse Spark Open Promo",
+  "created_by": "unknown",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/muse-spark-open-promo",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.5
+  },
+  "_generated": {
+    "name": "9fc6fcd4",
+    "page_url": "431ccf2c",
+    "capabilities": "0fa77dc6",
+    "pricing": "c74fbef8"
+  },
+  "last_updated": "2026-10-16"
+}

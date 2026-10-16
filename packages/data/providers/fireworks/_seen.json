@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-13",
-  "count": 331,
+  "date": "2026-10-16",
+  "count": 335,
   "ids": [
     "cogito-cogito-671b-v2-p1",
     "deepseek-ai-deepseek-v3p1-terminus",
@@ -186,6 +186,8 @@
     "fireworks-molmo2-4b",
     "fireworks-molmo2-8b",
     "fireworks-muse-glimmer-30b",
+    "fireworks-muse-spark-open",
+    "fireworks-muse-spark-open-nvfp4",
     "fireworks-mythomax-l2-13b",
     "fireworks-nemotron-3-embed-8b-bf16",
     "fireworks-nemotron-3-super-120b-a12b-bf16",
@@ -203,6 +205,8 @@
     "fireworks-nvidia-nemotron-3-nano-omni-30b-a3b",
     "fireworks-nvidia-nemotron-3-super-120b-a12b-fp8",
     "fireworks-nvidia-nemotron-3-super-120b-a12b-nvfp4",
+    "fireworks-nvidia-nemotron-3p5-super-vl-120b-a12b-bf16",
+    "fireworks-nvidia-nemotron-3p5-super-vl-120b-a12b-nvfp4",
     "fireworks-nvidia-nemotron-nano-12b-v2",
     "fireworks-nvidia-nemotron-nano-9b-v2",
     "fireworks-openchat-3p5-0106-7b",

@@ -1,0 +1,29 @@
+{
+  "id": "nvidia/nemotron-3-5-super/video",
+  "name": "NVIDIA Nemotron 3.5 Super Video",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Ask NVIDIA Nemotron 3.5 Super about a video clip: summarize what happens, find moments and reason across frames.",
+  "status": "active",
+  "release_date": "2026-10-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/nvidia/nemotron-3-5-super/video",
+  "tagline": "Ask NVIDIA Nemotron 3.5 Super about a video clip: summarize what happens, find moments and reason across frames.",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true
+  },
+  "last_seen_at": "2026-10-15",
+  "_generated": {
+    "name": "76901705",
+    "description": "eb588b53",
+    "status": "379ac110",
+    "release_date": "b3e9e1a3",
+    "model_type": "ddb0b7bc",
+    "page_url": "8b677358",
+    "tagline": "eb588b53",
+    "capabilities": "da15458e",
+    "last_seen_at": "b3e9e1a3"
+  },
+  "last_updated": "2026-10-16"
+}

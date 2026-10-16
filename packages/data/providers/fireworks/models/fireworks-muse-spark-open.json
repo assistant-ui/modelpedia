@@ -1,0 +1,24 @@
+{
+  "id": "fireworks/muse-spark-open",
+  "name": "muse-spark-open",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 1040000,
+  "page_url": "https://fireworks.ai/models/fireworks/muse-spark-open",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 4.25,
+    "cached_input": 0.15
+  },
+  "_generated": {
+    "name": "6818a85c",
+    "context_window": "1bf8ad8b",
+    "page_url": "5f08619a",
+    "capabilities": "0fa77dc6",
+    "pricing": "a0f59bdb"
+  },
+  "last_updated": "2026-10-16"
+}

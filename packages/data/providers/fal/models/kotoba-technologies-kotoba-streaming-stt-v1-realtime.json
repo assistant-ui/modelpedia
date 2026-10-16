@@ -1,0 +1,31 @@
+{
+  "id": "kotoba-technologies/kotoba-streaming-stt/v1/realtime",
+  "name": "Kotoba Realtime Speech-to-Text",
+  "created_by": "kotoba-technologies",
+  "source": "official",
+  "description": "Live transcription over WebSocket, with partial results as the speaker talks.",
+  "status": "active",
+  "release_date": "2026-10-14",
+  "model_type": "transcription",
+  "page_url": "https://fal.run/kotoba-technologies/kotoba-streaming-stt/v1/realtime",
+  "tagline": "Live transcription over WebSocket, with partial results as the speaker talks.",
+  "modalities": {
+    "input": ["audio"],
+    "output": ["text"]
+  },
+  "endpoints": ["audio_transcriptions"],
+  "last_seen_at": "2026-10-15",
+  "_generated": {
+    "name": "bdad1fee",
+    "description": "2f86819b",
+    "status": "379ac110",
+    "release_date": "b735ec37",
+    "model_type": "5e12d29a",
+    "page_url": "f396c210",
+    "tagline": "2f86819b",
+    "modalities": "b8e84832",
+    "endpoints": "30248ee0",
+    "last_seen_at": "b3e9e1a3"
+  },
+  "last_updated": "2026-10-16"
+}

@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-20",
-  "count": 13,
+  "date": "2026-10-16",
+  "count": 14,
   "ids": [
     "canopylabs-orpheus-arabic-saudi",
     "canopylabs-orpheus-v1-english",
@@ -8,6 +8,7 @@
     "llama-3.3-70b-versatile",
     "meta-llama-llama-prompt-guard-2-22m",
     "meta-llama-llama-prompt-guard-2-86m",
+    "meta-models-muse-spark-open",
     "minimaxai-minimax-m2.7",
     "openai-gpt-oss-120b",
     "openai-gpt-oss-20b",

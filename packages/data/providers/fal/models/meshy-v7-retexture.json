@@ -1,0 +1,28 @@
+{
+  "id": "meshy/v7/retexture",
+  "name": "Meshy 7 Retexture",
+  "created_by": "meshy",
+  "source": "official",
+  "description": "Meshy 7 retexture applies new textures to an existing 3D model from a text prompt or a reference image, with optional PBR maps.",
+  "status": "active",
+  "release_date": "2026-10-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/meshy/v7/retexture",
+  "tagline": "Meshy 7 retexture applies new textures to an existing 3D model from a text prompt or a reference image, with optional PBR maps.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-10-15",
+  "_generated": {
+    "name": "916e3317",
+    "description": "94c1a269",
+    "status": "379ac110",
+    "release_date": "b735ec37",
+    "model_type": "ddb0b7bc",
+    "page_url": "3af27041",
+    "tagline": "94c1a269",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "b3e9e1a3"
+  },
+  "last_updated": "2026-10-16"
+}

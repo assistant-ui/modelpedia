@@ -1,0 +1,41 @@
+{
+  "id": "nemotron-3.5-super",
+  "name": "nemotron-3.5-super",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Nemotron 3.5 Super is NVIDIA’s vision-language model for coding, reasoning, tool use, and document understanding",
+  "reasoning_tokens": true,
+  "license": "open-weight",
+  "parameters": 120,
+  "page_url": "https://ollama.com/library/nemotron-3.5-super",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "Nemotron 3.5 Super is NVIDIA’s vision-language model for coding, reasoning, tool use, and document understanding",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d8bcf7d2",
+    "description": "85631df2",
+    "reasoning_tokens": "b326b506",
+    "license": "6327aaea",
+    "parameters": "da4fb5c6",
+    "page_url": "84744f47",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "85631df2",
+    "capabilities": "f7041f91",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-16"
+}

@@ -9,13 +9,13 @@
   },
   "pricing": {
     "input": 0.15,
-    "output": 0.47
+    "output": 0.5
   },
   "_generated": {
     "name": "c0441e80",
     "page_url": "d81b6ada",
     "capabilities": "0fa77dc6",
-    "pricing": "9827eff5"
+    "pricing": "c74fbef8"
   },
-  "last_updated": "2026-10-06"
+  "last_updated": "2026-10-16"
 }
