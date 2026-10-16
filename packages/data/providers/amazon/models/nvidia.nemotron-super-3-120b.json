@@ -9,7 +9,8 @@
   "model_type": "chat",
   "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nemotron-super-3-120b",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text"],
@@ -22,8 +23,10 @@
     "max_output_tokens": "10e4d788",
     "model_type": "d669f408",
     "page_url": "83dea974",
-    "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "reasoning_tokens": "b326b506"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-10-16",
+  "reasoning_tokens": true
 }

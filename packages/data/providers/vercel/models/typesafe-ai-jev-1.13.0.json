@@ -1,0 +1,22 @@
+{
+  "id": "typesafe-ai/jev-1.13.0",
+  "name": "jev-1.13.0",
+  "created_by": "typesafe-ai",
+  "source": "official",
+  "context_window": 32000,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0
+  },
+  "_generated": {
+    "name": "639639a1",
+    "context_window": "10e4d788",
+    "capabilities": "8a3b232e",
+    "pricing": "52a74acf"
+  },
+  "last_updated": "2026-10-16"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+  "name": "nemotron-3.5-super-vl-120b-a12b",
+  "created_by": "nvidia",
+  "source": "official",
+  "parameters": 120,
+  "active_parameters": 12,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ba081c8f",
+    "parameters": "da4fb5c6",
+    "active_parameters": "c20ad4d7",
+    "model_type": "d669f408",
+    "capabilities": "1a260abc",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-16"
+}

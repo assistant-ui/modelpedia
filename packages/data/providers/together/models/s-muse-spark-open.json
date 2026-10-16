@@ -1,0 +1,21 @@
+{
+  "id": "s/muse-spark-open",
+  "name": "Muse Spark Open",
+  "created_by": "unknown",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/muse-spark-open",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 4.25
+  },
+  "_generated": {
+    "name": "37a63bfb",
+    "page_url": "1bc41c39",
+    "capabilities": "0fa77dc6",
+    "pricing": "018be4c9"
+  },
+  "last_updated": "2026-10-16"
+}

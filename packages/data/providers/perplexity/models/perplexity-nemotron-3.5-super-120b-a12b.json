@@ -1,0 +1,31 @@
+{
+  "id": "perplexity/nemotron-3.5-super-120b-a12b",
+  "name": "perplexity/nemotron-3.5-super-120b-a12b",
+  "created_by": "nvidia",
+  "source": "official",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 0.5,
+    "cached_input": 0.04
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "4e7bae49",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "c447ed81",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-16"
+}

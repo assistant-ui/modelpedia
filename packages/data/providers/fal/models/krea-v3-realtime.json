@@ -1,0 +1,35 @@
+{
+  "id": "krea/v3/realtime",
+  "name": "Krea 3 Realtime",
+  "created_by": "krea",
+  "source": "official",
+  "description": "Edits an input image in a realtime session using text prompts, with seed control.",
+  "status": "active",
+  "release_date": "2026-10-14",
+  "model_type": "image",
+  "page_url": "https://fal.run/krea/v3/realtime",
+  "tagline": "Edits an input image in a realtime session using text prompts, with seed control.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-10-15",
+  "_generated": {
+    "name": "5cc5182e",
+    "description": "81717160",
+    "status": "379ac110",
+    "release_date": "b735ec37",
+    "model_type": "db8857fe",
+    "page_url": "3ab2e984",
+    "tagline": "81717160",
+    "capabilities": "d3117eb0",
+    "modalities": "bbf9b8bb",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "b3e9e1a3"
+  },
+  "last_updated": "2026-10-16"
+}

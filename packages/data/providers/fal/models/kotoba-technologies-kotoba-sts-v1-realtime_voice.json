@@ -1,0 +1,24 @@
+{
+  "id": "kotoba-technologies/kotoba-sts/v1/realtime_voice",
+  "name": "Kotoba Realtime Speech Translation",
+  "created_by": "kotoba-technologies",
+  "source": "official",
+  "description": "Speak in one language, hear it in another.",
+  "status": "active",
+  "release_date": "2026-10-14",
+  "model_type": "other",
+  "page_url": "https://fal.run/kotoba-technologies/kotoba-sts/v1/realtime_voice",
+  "tagline": "Speak in one language, hear it in another.",
+  "last_seen_at": "2026-10-15",
+  "_generated": {
+    "name": "2f0f165b",
+    "description": "a4db1048",
+    "status": "379ac110",
+    "release_date": "b735ec37",
+    "model_type": "ddb0b7bc",
+    "page_url": "297a2150",
+    "tagline": "a4db1048",
+    "last_seen_at": "b3e9e1a3"
+  },
+  "last_updated": "2026-10-16"
+}

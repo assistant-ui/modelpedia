@@ -1,0 +1,35 @@
+{
+  "id": "blackforestlabs/flux-3/klein/text-to-image",
+  "name": "FLUX.3 Klein",
+  "created_by": "blackforestlabs",
+  "source": "official",
+  "description": "Generates images from text prompts with FLUX.3 Klein, with configurable image size, reproducible seeds, prompt expansion and optional bounding-box layout control.",
+  "status": "active",
+  "release_date": "2026-10-14",
+  "model_type": "image",
+  "page_url": "https://fal.run/blackforestlabs/flux-3/klein/text-to-image",
+  "tagline": "Generates images from text prompts with FLUX.3 Klein, with configurable image size, reproducible seeds, prompt expansion and optional bounding-box layout control.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-10-15",
+  "_generated": {
+    "name": "b55053e7",
+    "description": "6662f6ba",
+    "status": "379ac110",
+    "release_date": "b735ec37",
+    "model_type": "db8857fe",
+    "page_url": "98661071",
+    "tagline": "6662f6ba",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "b3e9e1a3"
+  },
+  "last_updated": "2026-10-16"
+}

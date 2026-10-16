@@ -1,0 +1,36 @@
+{
+  "id": "Cloudflare/clef-flash",
+  "name": "clef-flash",
+  "created_by": "cloudflare",
+  "source": "official",
+  "status": "active",
+  "context_window": 24576,
+  "model_type": "chat",
+  "open_weight": true,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.038,
+    "output": 0
+  },
+  "endpoints": ["chat_completions"],
+  "quantization": "bfloat16",
+  "_generated": {
+    "name": "4aea082f",
+    "status": "379ac110",
+    "context_window": "7f2bbe4b",
+    "model_type": "d669f408",
+    "open_weight": "b326b506",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "59563a1f",
+    "endpoints": "d8fa1080",
+    "quantization": "45ae6e17"
+  },
+  "last_updated": "2026-10-16"
+}

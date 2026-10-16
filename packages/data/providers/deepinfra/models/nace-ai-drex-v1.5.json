@@ -1,0 +1,38 @@
+{
+  "id": "nace-ai/drex-v1.5",
+  "name": "drex-v1.5",
+  "created_by": "nace-ai",
+  "source": "official",
+  "description": "Drex v1.5 is a 9B decision model from Nace.AI. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible, handles contexts up to 131K tokens, and scores 58.28 on Decision Index 0.2.1, ahead of Jev 1.13.0.",
+  "status": "active",
+  "context_window": 131072,
+  "model_type": "chat",
+  "open_weight": true,
+  "tagline": "Drex v1.5 is a 9B decision model from Nace.AI.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "643c8688",
+    "description": "f428809b",
+    "status": "379ac110",
+    "context_window": "f7de594e",
+    "model_type": "d669f408",
+    "open_weight": "b326b506",
+    "tagline": "7eb89177",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "52a74acf",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-10-16"
+}

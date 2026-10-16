@@ -1,0 +1,27 @@
+{
+  "id": "replicate/flux-3-klein-image-lora",
+  "name": "Flux 3 Klein Image Lora",
+  "created_by": "replicate",
+  "source": "official",
+  "status": "active",
+  "model_type": "image",
+  "page_url": "https://replicate.com/replicate/flux-3-klein-image-lora",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "_generated": {
+    "name": "97f18758",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "page_url": "4a4226c9",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc"
+  },
+  "last_updated": "2026-10-16"
+}

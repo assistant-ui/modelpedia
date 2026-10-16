@@ -1,0 +1,29 @@
+{
+  "id": "nvidia/nemotron-3-5-super/vision",
+  "name": "NVIDIA Nemotron 3.5 Super Vision",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Ask NVIDIA Nemotron 3.5 Super questions about an image: describe scenes, read text and charts, and reason over what it sees.",
+  "status": "active",
+  "release_date": "2026-10-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/nvidia/nemotron-3-5-super/vision",
+  "tagline": "Ask NVIDIA Nemotron 3.5 Super questions about an image: describe scenes, read text and charts, and reason over what it sees.",
+  "capabilities": {
+    "vision": true,
+    "reasoning": true
+  },
+  "last_seen_at": "2026-10-15",
+  "_generated": {
+    "name": "f52e9235",
+    "description": "25efd54a",
+    "status": "379ac110",
+    "release_date": "b3e9e1a3",
+    "model_type": "ddb0b7bc",
+    "page_url": "882b56e4",
+    "tagline": "25efd54a",
+    "capabilities": "da15458e",
+    "last_seen_at": "b3e9e1a3"
+  },
+  "last_updated": "2026-10-16"
+}

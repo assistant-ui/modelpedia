@@ -1,0 +1,38 @@
+{
+  "id": "moondream/moondream3.1-9b-a2b",
+  "name": "Moondream: Moondream 3.1",
+  "created_by": "moondream",
+  "source": "official",
+  "description": "Moondream 3.1 is a vision-language model from Moondream, the successor to Moondream 3 Preview, with 9B total parameters and 2B active (mixture-of-experts).",
+  "release_date": "2026-10-15",
+  "context_window": 32000,
+  "max_output_tokens": 4096,
+  "parameters": 9,
+  "active_parameters": 2,
+  "tagline": "Moondream 3.1 is a vision-language model from Moondream, the successor to Moondream 3 Preview, with 9B total parameters and 2B active (mixture-of-experts).",
+  "capabilities": {
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 2.5
+  },
+  "_generated": {
+    "name": "f0eab93c",
+    "description": "431c81ef",
+    "release_date": "b3e9e1a3",
+    "context_window": "10e4d788",
+    "max_output_tokens": "f7efa4f8",
+    "parameters": "45c48cce",
+    "active_parameters": "c81e728d",
+    "tagline": "431c81ef",
+    "capabilities": "7107421f",
+    "modalities": "6399757e",
+    "pricing": "8d495dc1"
+  },
+  "last_updated": "2026-10-16"
+}

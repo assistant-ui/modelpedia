@@ -1,0 +1,24 @@
+{
+  "id": "alibaba/abot-world-0",
+  "name": "Abot World 0",
+  "created_by": "alibaba",
+  "source": "official",
+  "description": "Explore interactive worlds in real time with movement and camera controls.",
+  "status": "active",
+  "release_date": "2026-10-15",
+  "model_type": "other",
+  "page_url": "https://fal.run/alibaba/abot-world-0",
+  "tagline": "Explore interactive worlds in real time with movement and camera controls.",
+  "last_seen_at": "2026-10-15",
+  "_generated": {
+    "name": "2ef1101a",
+    "description": "940b5d71",
+    "status": "379ac110",
+    "release_date": "b3e9e1a3",
+    "model_type": "ddb0b7bc",
+    "page_url": "8fb78233",
+    "tagline": "940b5d71",
+    "last_seen_at": "b3e9e1a3"
+  },
+  "last_updated": "2026-10-16"
+}

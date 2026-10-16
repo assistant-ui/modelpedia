@@ -1,0 +1,40 @@
+{
+  "id": "meta/muse-spark-open",
+  "name": "Meta: Muse Spark Open",
+  "created_by": "meta",
+  "source": "official",
+  "description": "Muse Spark Open is a coding-optimized open-weight model.",
+  "release_date": "2026-10-15",
+  "context_window": 1048576,
+  "max_output_tokens": 943718,
+  "tagline": "Muse Spark Open is a coding-optimized open-weight model.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video", "audio"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.25,
+    "output": 4.25,
+    "cached_input": 0.15
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "a5844f5f",
+    "description": "57912399",
+    "release_date": "b3e9e1a3",
+    "context_window": "7d28a051",
+    "max_output_tokens": "7843f47e",
+    "tagline": "57912399",
+    "capabilities": "03fbefb4",
+    "modalities": "c569b149",
+    "pricing": "a0f59bdb",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-16"
+}

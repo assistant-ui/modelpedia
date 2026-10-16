@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "count": 81,
   "ids": [
     "01-ai-yi-large",
@@ -38,7 +38,6 @@
     "mistralai-mistral-large-2-instruct",
     "mistralai-mixtral-8x22b-v0.1",
     "moonshotai-kimi-k2.6",
-    "moonshotai-kimi-k3",
     "nv-mistralai-mistral-nemo-12b-instruct",
     "nvidia-ai-synthetic-video-detector",
     "nvidia-cosmos-reason2-8b",
@@ -61,6 +60,7 @@
     "nvidia-nemotron-3-ultra-550b-a55b",
     "nvidia-nemotron-3.5-content-safety",
     "nvidia-nemotron-3.5-lightning-30b-a3b",
+    "nvidia-nemotron-3.5-super-vl-120b-a12b",
     "nvidia-nemotron-4-340b-instruct",
     "nvidia-nemotron-4-340b-reward",
     "nvidia-nemotron-nano-3-30b-a3b",

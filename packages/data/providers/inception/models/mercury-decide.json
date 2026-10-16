@@ -20,7 +20,7 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.04,
+    "input": 0.02,
     "output": 0,
     "cached_input": 0
   },
@@ -38,8 +38,8 @@
     "tagline": "ecbf4239",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
-    "pricing": "5820de14",
+    "pricing": "06d348bf",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-10-09"
+  "last_updated": "2026-10-16"
 }

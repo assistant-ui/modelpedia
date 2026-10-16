@@ -9,7 +9,8 @@
   "model_type": "chat",
   "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-5-3",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "reasoning": true
   },
   "modalities": {
     "input": ["text"],
@@ -22,8 +23,10 @@
     "max_output_tokens": "34434798",
     "model_type": "d669f408",
     "page_url": "38988b4c",
-    "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "capabilities": "b011c6b4",
+    "modalities": "68e53d93",
+    "reasoning_tokens": "b326b506"
   },
-  "last_updated": "2026-10-06"
+  "last_updated": "2026-10-16",
+  "reasoning_tokens": true
 }

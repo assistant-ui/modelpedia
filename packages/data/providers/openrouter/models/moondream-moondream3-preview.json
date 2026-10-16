@@ -1,0 +1,34 @@
+{
+  "id": "moondream/moondream3-preview",
+  "name": "Moondream: Moondream 3 Preview",
+  "created_by": "moondream",
+  "source": "official",
+  "description": "Moondream 3 Preview is a vision-language model from Moondream with 9B total parameters and 2B active (mixture-of-experts).",
+  "release_date": "2026-10-15",
+  "context_window": 32000,
+  "max_output_tokens": 4096,
+  "tagline": "Moondream 3 Preview is a vision-language model from Moondream with 9B total parameters and 2B active (mixture-of-experts).",
+  "capabilities": {
+    "reasoning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.3,
+    "output": 2.5
+  },
+  "_generated": {
+    "name": "28cc720e",
+    "description": "c9cbad82",
+    "release_date": "b3e9e1a3",
+    "context_window": "10e4d788",
+    "max_output_tokens": "f7efa4f8",
+    "tagline": "c9cbad82",
+    "capabilities": "7107421f",
+    "modalities": "6399757e",
+    "pricing": "8d495dc1"
+  },
+  "last_updated": "2026-10-16"
+}

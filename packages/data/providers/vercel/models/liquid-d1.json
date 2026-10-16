@@ -9,14 +9,14 @@
     "vision": true
   },
   "pricing": {
-    "input": 0.04,
+    "input": 0.02,
     "output": 0
   },
   "_generated": {
     "name": "59f86957",
     "context_window": "90c532bc",
     "capabilities": "8a3b232e",
-    "pricing": "52a74acf"
+    "pricing": "8d85a56c"
   },
-  "last_updated": "2026-10-08"
+  "last_updated": "2026-10-16"
 }

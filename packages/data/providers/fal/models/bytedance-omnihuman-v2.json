@@ -1,0 +1,35 @@
+{
+  "id": "bytedance/omnihuman/v2",
+  "name": "Bytedance Omnihuman V2",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Omnihuman v2 generates video using an image of a human figure paired with an audio file.",
+  "status": "active",
+  "release_date": "2026-10-15",
+  "model_type": "video",
+  "page_url": "https://fal.run/bytedance/omnihuman/v2",
+  "tagline": "Omnihuman v2 generates video using an image of a human figure paired with an audio file.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-10-15",
+  "_generated": {
+    "name": "8ec0f4e9",
+    "description": "0ee1f1f4",
+    "status": "379ac110",
+    "release_date": "b3e9e1a3",
+    "model_type": "4d1b75ca",
+    "page_url": "2aff1496",
+    "tagline": "0ee1f1f4",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "b3e9e1a3"
+  },
+  "last_updated": "2026-10-16"
+}

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "count": 33,
   "ids": [
     "clef",
@@ -22,17 +22,17 @@
     "minimax-m3",
     "mistral-large-3",
     "mistral-large-4",
-    "muse-glimmer",
+    "muse-spark-open",
     "nemotron-3-nano",
     "nemotron-3-super",
     "nemotron-3-ultra",
+    "nemotron-3.5-bolt",
+    "nemotron-3.5-super",
     "nimble",
     "nimble-v3",
-    "ornith",
     "ornith-1.5",
     "pplx-decider",
     "qwen3.8",
-    "qwen3.8-flash-next",
     "strands-decider",
     "tev1"
   ]
