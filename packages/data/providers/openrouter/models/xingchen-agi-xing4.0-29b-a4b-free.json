@@ -1,0 +1,38 @@
+{
+  "id": "xingchen-agi/xing4.0-29b-a4b:free",
+  "name": "XingChen: Xing4.0 29B A4B (free)",
+  "created_by": "xingchen-agi",
+  "source": "official",
+  "description": "Xing4.0-29B-A4B is an open-weight mixture-of-experts language model from China Telecom's AI team (TeleAI) and the successor to the TeleChat series.",
+  "release_date": "2026-10-16",
+  "context_window": 262144,
+  "max_output_tokens": 235929,
+  "parameters": 29,
+  "active_parameters": 4,
+  "tagline": "Xing4.0-29B-A4B is an open-weight mixture-of-experts language model from China Telecom's AI team (TeleAI) and the successor to the TeleChat series.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "73b2eac5",
+    "description": "b3e058d9",
+    "release_date": "a343464b",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "7ad80673",
+    "parameters": "6ea9ab1b",
+    "active_parameters": "a87ff679",
+    "tagline": "b3e058d9",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-17"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "elorian/glimpse",
+  "name": "Elorian: Glimpse",
+  "created_by": "elorian",
+  "source": "official",
+  "description": "Glimpse is a multimodal visual reasoning model from Elorian, built for visual understanding and complex visual reasoning in the physical world.",
+  "release_date": "2026-10-17",
+  "context_window": 262144,
+  "max_output_tokens": 256000,
+  "tagline": "Glimpse is a multimodal visual reasoning model from Elorian, built for visual understanding and complex visual reasoning in the physical world.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 3,
+    "cached_input": 0.06
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f4a79207",
+    "description": "2ff8c307",
+    "release_date": "149591c4",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "2fd324cb",
+    "tagline": "2ff8c307",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "pricing": "84d98bb1",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-17"
+}

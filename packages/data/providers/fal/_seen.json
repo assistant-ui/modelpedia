@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-16",
-  "count": 1524,
+  "date": "2026-10-17",
+  "count": 1516,
   "ids": [
     "alibaba-abot-world-0",
     "alibaba-happy-horse-image-to-video",
@@ -1383,14 +1383,6 @@
     "minimax-music-3",
     "mirage-api-avatar-x-reference-to-video",
     "mirage-api-avatar-x-text-to-video",
-    "mirelo-ai-sfx-v1-video-to-audio",
-    "mirelo-ai-sfx-v1-video-to-video",
-    "mirelo-ai-sfx-v1.5-video-to-audio",
-    "mirelo-ai-sfx-v1.5-video-to-video",
-    "mirelo-ai-sfx1.6-extend-audio",
-    "mirelo-ai-sfx1.6-inpaint-audio",
-    "mirelo-ai-sfx1.6-text-to-audio",
-    "mirelo-ai-sfx1.6-video-to-video",
     "mirelo-ai-sfx2.0-text-to-audio",
     "mirelo-ai-sfx2.0-video-to-audio",
     "mirelo-ai-sfx2.0-video-to-video",

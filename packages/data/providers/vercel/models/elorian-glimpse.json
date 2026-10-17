@@ -1,0 +1,30 @@
+{
+  "id": "elorian/glimpse",
+  "name": "glimpse",
+  "created_by": "elorian",
+  "source": "official",
+  "context_window": 220000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 3
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "4b771ab0",
+    "context_window": "83d63431",
+    "model_type": "d669f408",
+    "capabilities": "8d009641",
+    "pricing": "2209d9dc",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-17"
+}

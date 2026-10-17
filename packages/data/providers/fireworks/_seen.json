@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-16",
-  "count": 335,
+  "date": "2026-10-17",
+  "count": 337,
   "ids": [
     "cogito-cogito-671b-v2-p1",
     "deepseek-ai-deepseek-v3p1-terminus",
@@ -8,6 +8,7 @@
     "deepseek-ai-deepseek-v4-flash-vision-exp",
     "deepseek-ai-deepseek-v4-pro-0813",
     "deepseek-ai-deepseek-v4p1-flash",
+    "fireworks-beam-1p0-501b-a23b",
     "fireworks-bge-m3",
     "fireworks-chronos-hermes-13b-v2",
     "fireworks-code-llama-13b",
@@ -322,6 +323,7 @@
     "fireworks-starcoder2-3b",
     "fireworks-starcoder2-7b",
     "fireworks-step-3p7-flash-nvfp4",
+    "fireworks-step-5-preview-fp8",
     "fireworks-toppy-m-7b",
     "fireworks-voyage-4",
     "fireworks-voyage-4-large",

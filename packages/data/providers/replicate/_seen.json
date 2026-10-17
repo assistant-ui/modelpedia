@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "count": 125,
   "ids": [
     "851-labs-background-remover",
@@ -95,13 +95,13 @@
     "philz1337x-clarity-pro-upscaler",
     "philz1337x-crystal-video-upscaler",
     "piddnad-ddcolor",
-    "prunaai-p-image",
     "prunaai-p-image-edit",
     "prunaai-p-image-upscale",
     "prunaai-p-video",
     "prunaai-p-video-2-pro",
     "prunaai-p-video-2-pro-reference",
     "prunaai-p-video-avatar",
+    "prunaai-z-image-turbo",
     "rafaelgalle-whisper-diarization-advanced",
     "recraft-ai-recraft-v4-styles-pro-svg",
     "replicate-flux-3-klein-image-lora",

@@ -1,0 +1,21 @@
+{
+  "id": "s/elorian-glimpse",
+  "name": "Elorian Glimpse",
+  "created_by": "unknown",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/elorian-glimpse",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.47
+  },
+  "_generated": {
+    "name": "de07f753",
+    "page_url": "82318c7e",
+    "capabilities": "0fa77dc6",
+    "pricing": "9827eff5"
+  },
+  "last_updated": "2026-10-17"
+}
