@@ -1,0 +1,28 @@
+{
+  "id": "fireworks/beam-1p0-501b-a23b",
+  "name": "beam-1p0-501b-a23b",
+  "created_by": "fireworks",
+  "source": "official",
+  "context_window": 1040000,
+  "parameters": 501,
+  "active_parameters": 23,
+  "page_url": "https://fireworks.ai/models/fireworks/beam-1p0-501b-a23b",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "_generated": {
+    "name": "9f34607a",
+    "context_window": "1bf8ad8b",
+    "parameters": "5b69b9cb",
+    "active_parameters": "37693cfc",
+    "page_url": "0d3c6d24",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e"
+  },
+  "last_updated": "2026-10-17"
+}

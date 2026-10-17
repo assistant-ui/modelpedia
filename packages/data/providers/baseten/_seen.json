@@ -1,13 +1,12 @@
 {
-  "date": "2026-10-16",
-  "count": 19,
+  "date": "2026-10-17",
+  "count": 18,
   "ids": [
     "deepseek-ai",
     "deepseek-v3-1",
     "deepseek-v3-2",
     "deepseek-v4",
     "deepseek-v4-pro-0813",
-    "deepseek-v4.1-flash",
     "deepseek-v4.1-flash-fast",
     "deepseek-v41-flash",
     "deepseek-v41-flash-fast",

@@ -1,0 +1,22 @@
+{
+  "id": "perplexity/pplx-decider-flash-v1.2",
+  "name": "pplx-decider-flash-v1.2",
+  "created_by": "perplexity",
+  "source": "official",
+  "context_window": 262100,
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "pricing": {
+    "input": 0.01,
+    "output": 0
+  },
+  "_generated": {
+    "name": "20cf49a6",
+    "context_window": "b23f4471",
+    "capabilities": "8a3b232e",
+    "pricing": "2811ebe9"
+  },
+  "last_updated": "2026-10-17"
+}

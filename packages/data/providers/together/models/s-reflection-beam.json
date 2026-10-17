@@ -1,0 +1,21 @@
+{
+  "id": "s/reflection-beam",
+  "name": "Reflection Beam",
+  "created_by": "unknown",
+  "source": "official",
+  "page_url": "https://www.together.ai/models/reflection-beam",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 1.2
+  },
+  "_generated": {
+    "name": "20cdf300",
+    "page_url": "631eaabf",
+    "capabilities": "0fa77dc6",
+    "pricing": "280f3a51"
+  },
+  "last_updated": "2026-10-17"
+}

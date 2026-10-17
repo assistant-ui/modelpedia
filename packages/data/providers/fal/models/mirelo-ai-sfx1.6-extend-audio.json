@@ -4,7 +4,7 @@
   "created_by": "mirelo-ai",
   "source": "official",
   "description": "Extend any sound effect with seamless, natural tails.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-05-18",
   "model_type": "other",
   "page_url": "https://fal.run/mirelo-ai/sfx1.6/extend-audio",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "6c235a15",
     "description": "ed62c96a",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "441b2a83",
     "model_type": "ddb0b7bc",
     "page_url": "de130b75",
     "tagline": "ed62c96a",
     "last_seen_at": "97e5b4c6"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-10-17"
 }

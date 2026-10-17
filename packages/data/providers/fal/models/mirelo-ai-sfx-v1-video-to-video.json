@@ -4,7 +4,7 @@
   "created_by": "mirelo-ai",
   "source": "official",
   "description": "Generate synced sounds for any video, and return it with its new sound track (like MMAudio)\n",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-14",
   "model_type": "other",
   "page_url": "https://fal.run/mirelo-ai/sfx-v1/video-to-video",
@@ -13,12 +13,12 @@
   "_generated": {
     "name": "6e2ee7dc",
     "description": "1fa253c5",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "3c37f85f",
     "model_type": "ddb0b7bc",
     "page_url": "bccdeec2",
     "tagline": "1fa253c5",
     "last_seen_at": "b7ac61f6"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-10-17"
 }
