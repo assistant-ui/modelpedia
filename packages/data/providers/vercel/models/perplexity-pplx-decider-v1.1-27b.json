@@ -18,7 +18,9 @@
     "context_window": "b23f4471",
     "parameters": "02e74f10",
     "capabilities": "8a3b232e",
-    "pricing": "8d85a56c"
+    "pricing": "8d85a56c",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-10-15"
+  "last_updated": "2026-10-18",
+  "status": "deprecated"
 }

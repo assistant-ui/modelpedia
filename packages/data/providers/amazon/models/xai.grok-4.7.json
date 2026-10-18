@@ -4,7 +4,7 @@
   "created_by": "xai",
   "source": "official",
   "release_date": "2026-09-28",
-  "context_window": 500000,
+  "context_window": 524288,
   "model_type": "chat",
   "reasoning_tokens": true,
   "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-7",
@@ -20,12 +20,14 @@
   "_generated": {
     "name": "da4ebcf1",
     "release_date": "1ec3c8a2",
-    "context_window": "c9077732",
+    "context_window": "bcabf6a1",
     "model_type": "d669f408",
     "reasoning_tokens": "b326b506",
     "page_url": "71a0b54f",
     "capabilities": "8d009641",
-    "modalities": "8b8b28d1"
+    "modalities": "8b8b28d1",
+    "max_output_tokens": "56310c5a"
   },
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-10-18",
+  "max_output_tokens": 524288000000
 }

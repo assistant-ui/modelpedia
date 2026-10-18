@@ -1,0 +1,44 @@
+{
+  "id": "deepseek/deepseek-v4.1-flash-1017",
+  "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name.",
+  "release_date": "2026-10-17",
+  "context_window": 1048576,
+  "max_output_tokens": 393216,
+  "model_type": "chat",
+  "tagline": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6,
+    "cached_input": 0.003
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c09209d3",
+    "family": "4b81b92d",
+    "description": "3a2bad75",
+    "release_date": "149591c4",
+    "context_window": "7d28a051",
+    "max_output_tokens": "628f482c",
+    "model_type": "d669f408",
+    "tagline": "3a2bad75",
+    "capabilities": "03fbefb4",
+    "modalities": "6399757e",
+    "pricing": "56c766bc",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-18"
+}

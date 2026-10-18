@@ -1,0 +1,37 @@
+{
+  "id": "openai/gpt-6-astra",
+  "name": "openai/gpt-6-astra",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-6",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 10,
+    "output": 50,
+    "cached_input": 1
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing_notes": [
+    "Input ranges $10 to $20, output ranges $50 to $75 per 1M tokens."
+  ],
+  "_generated": {
+    "name": "913931b1",
+    "family": "16342494",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "69490ea7",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93",
+    "pricing_notes": "69e9bf28"
+  },
+  "last_updated": "2026-10-18"
+}

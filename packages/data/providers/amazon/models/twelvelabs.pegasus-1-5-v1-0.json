@@ -15,7 +15,11 @@
     "release_date": "f309a958",
     "model_type": "4d1b75ca",
     "page_url": "a3db3550",
-    "modalities": "901ff664"
+    "modalities": "901ff664",
+    "context_window": "b4865b4a",
+    "max_output_tokens": "79cef9cc"
   },
-  "last_updated": "2026-10-13"
+  "last_updated": "2026-10-18",
+  "context_window": 261120,
+  "max_output_tokens": 98304
 }

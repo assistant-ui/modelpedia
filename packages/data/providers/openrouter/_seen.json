@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-17",
-  "count": 481,
+  "date": "2026-10-18",
+  "count": 483,
   "ids": [
     "-anthropic-claude-fable-latest",
     "-anthropic-claude-haiku-latest",
@@ -92,6 +92,7 @@
     "deepseek-deepseek-v4-pro",
     "deepseek-deepseek-v4-pro-0813",
     "deepseek-deepseek-v4.1-flash",
+    "deepseek-deepseek-v4.1-flash-1017",
     "deepseek-deepseek-v4.1-flash-batch",
     "dots-studio-dots-3-note-preview-free",
     "elorian-glimpse",
@@ -445,6 +446,7 @@
     "thinkingmachines-inkling-small",
     "thinkingmachines-inkling-small-free",
     "typesafe-jev-router",
+    "unbiased-pareto-26.10",
     "unbiased-pareto-26.9",
     "undi95-remm-slerp-l2-13b",
     "upstage-solar-mini4",

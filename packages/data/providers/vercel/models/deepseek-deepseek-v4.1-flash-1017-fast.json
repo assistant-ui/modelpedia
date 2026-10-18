@@ -1,0 +1,35 @@
+{
+  "id": "deepseek/deepseek-v4.1-flash-1017-fast",
+  "name": "deepseek-v4.1-flash-1017-fast",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.6,
+    "output": 2.4
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "c331054e",
+    "family": "4b81b92d",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "a19166f1",
+    "pricing": "e9aad47c",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-18"
+}

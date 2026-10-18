@@ -1,0 +1,33 @@
+{
+  "id": "d1-omni",
+  "name": "d1-omni",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "d1-omni is a multimodal 600M decision model from Liquid AI",
+  "context_window": 128000,
+  "license": "open-weight",
+  "page_url": "https://ollama.com/library/d1-omni",
+  "open_weight": true,
+  "tagline": "d1-omni is a multimodal 600M decision model from Liquid AI",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "6479eb7d",
+    "description": "cc49837c",
+    "context_window": "34434798",
+    "license": "6327aaea",
+    "page_url": "7a32dd3b",
+    "open_weight": "b326b506",
+    "tagline": "cc49837c",
+    "capabilities": "91e36286",
+    "modalities": "6399757e"
+  },
+  "last_updated": "2026-10-18"
+}

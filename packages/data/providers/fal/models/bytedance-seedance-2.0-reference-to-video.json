@@ -4,7 +4,7 @@
   "created_by": "bytedance",
   "source": "official",
   "description": "ByteDance's most advanced reference-to-video model.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-04-01",
   "model_type": "video",
   "page_url": "https://fal.run/bytedance/seedance-2.0/reference-to-video",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "5334e844",
     "description": "23da620e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "f68ebedb",
     "model_type": "4d1b75ca",
     "page_url": "ca90705d",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "97e5b4c6"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-10-18"
 }

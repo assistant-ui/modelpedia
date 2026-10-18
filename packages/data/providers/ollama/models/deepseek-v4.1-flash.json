@@ -4,7 +4,7 @@
   "created_by": "deepseek",
   "source": "official",
   "family": "deepseek",
-  "description": "DeepSeek-V4.1-Flash is an advanced tool designed to enhance search capabilities, providing users with faster and more accurate results.",
+  "description": "Designed for greater capability, faster inference, higher throughput, and scaling to larger models.",
   "release_date": "2026-09-10",
   "reasoning_tokens": true,
   "license": "open-weight",
@@ -28,7 +28,7 @@
   "_generated": {
     "name": "7473ca5f",
     "family": "4b81b92d",
-    "description": "61c82386",
+    "description": "1066f799",
     "release_date": "b057cbf8",
     "reasoning_tokens": "b326b506",
     "license": "6327aaea",
@@ -41,5 +41,5 @@
     "modalities": "6399757e",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-08"
+  "last_updated": "2026-10-18"
 }

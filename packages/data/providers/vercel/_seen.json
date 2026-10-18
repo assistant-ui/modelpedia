@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-17",
-  "count": 404,
+  "date": "2026-10-18",
+  "count": 406,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -67,6 +67,7 @@
     "bfl-flux-2-max",
     "bfl-flux-2-pro",
     "bfl-flux-3-image",
+    "bfl-flux-3-image-klein",
     "bfl-flux-3-video",
     "bfl-flux-kontext-max",
     "bfl-flux-kontext-pro",
@@ -108,6 +109,8 @@
     "deepseek-deepseek-v4-pro",
     "deepseek-deepseek-v4-pro-0813",
     "deepseek-deepseek-v4.1-flash",
+    "deepseek-deepseek-v4.1-flash-1017",
+    "deepseek-deepseek-v4.1-flash-1017-fast",
     "deepseek-deepseek-v4.1-flash-fast",
     "elorian-glimpse",
     "exa-search",
@@ -304,7 +307,6 @@
     "openai-whisper-1",
     "parallel-search",
     "perplexity-pplx-decider-flash-v1.2",
-    "perplexity-pplx-decider-v1.1-27b",
     "perplexity-pplx-decider-v1.2",
     "perplexity-pplx-embed-v1-0.6b",
     "perplexity-pplx-embed-v1-4b",

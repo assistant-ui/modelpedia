@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-17",
-  "count": 337,
+  "date": "2026-10-18",
+  "count": 338,
   "ids": [
     "cogito-cogito-671b-v2-p1",
     "deepseek-ai-deepseek-v3p1-terminus",
@@ -8,6 +8,7 @@
     "deepseek-ai-deepseek-v4-flash-vision-exp",
     "deepseek-ai-deepseek-v4-pro-0813",
     "deepseek-ai-deepseek-v4p1-flash",
+    "deepseek-ai-deepseek-v4p1-flash-1017",
     "fireworks-beam-1p0-501b-a23b",
     "fireworks-bge-m3",
     "fireworks-chronos-hermes-13b-v2",
