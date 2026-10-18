@@ -4,7 +4,7 @@
   "created_by": "bytedance",
   "source": "official",
   "description": "ByteDance's most advanced text-to-video model.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-04-01",
   "model_type": "video",
   "page_url": "https://fal.run/bytedance/seedance-2.0/text-to-video",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "ce663f75",
     "description": "7fca6be1",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "f68ebedb",
     "model_type": "4d1b75ca",
     "page_url": "5e6047e8",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "cc3b8614"
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-10-18"
 }

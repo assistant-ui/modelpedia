@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "count": 33,
   "ids": [
     "beam",
@@ -7,6 +7,7 @@
     "clef",
     "clef-flash",
     "d1",
+    "d1-omni",
     "deepseek-v4-pro",
     "deepseek-v4.1-flash",
     "embeddinggemma-2",
@@ -33,7 +34,6 @@
     "nimble",
     "nimble-v3",
     "pplx-decider",
-    "strands-decider",
     "tev1"
   ]
 }

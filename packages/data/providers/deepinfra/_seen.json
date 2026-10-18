@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-18",
   "count": 226,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
@@ -74,6 +74,7 @@
     "deepseek-ai-deepseek-v4-pro",
     "deepseek-ai-deepseek-v4-pro-0813",
     "deepseek-ai-deepseek-v4.1-flash",
+    "deepseek-ai-deepseek-v4.1-flash-1017",
     "fastvideo-fastwan-qad-fp8-1.3b",
     "fastvideo-fastwan2.2-ti2v-5b-fullattn-diffusers",
     "google-embeddinggemma-2",
@@ -146,7 +147,6 @@
     "openai-clip-vit-base-patch32",
     "openai-clip-vit-large-patch14-336",
     "openai-gpt-oss-120b",
-    "openai-gpt-oss-120b-turbo",
     "openai-gpt-oss-120b-ultra",
     "openai-gpt-oss-20b",
     "openai-whisper-large-v3",
