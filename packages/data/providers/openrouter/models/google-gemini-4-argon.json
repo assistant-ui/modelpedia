@@ -7,7 +7,7 @@
   "description": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents.",
   "release_date": "2026-10-13",
   "context_window": 1048576,
-  "max_output_tokens": 65536,
+  "max_output_tokens": 943718,
   "model_type": "chat",
   "tagline": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents.",
   "capabilities": {
@@ -32,7 +32,7 @@
     "description": "84373509",
     "release_date": "e531adb9",
     "context_window": "7d28a051",
-    "max_output_tokens": "297ce0b3",
+    "max_output_tokens": "7843f47e",
     "model_type": "d669f408",
     "tagline": "84373509",
     "capabilities": "03fbefb4",
@@ -40,5 +40,5 @@
     "pricing": "6877e3a9",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-14"
+  "last_updated": "2026-10-19"
 }

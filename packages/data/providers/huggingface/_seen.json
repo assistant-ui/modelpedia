@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "count": 123,
   "ids": [
     "aisingapore-gemma-sea-lion-v3-9b-it",
@@ -7,10 +7,10 @@
     "defog-sqlcoder-7b-2",
     "efficient-large-model-gemma-2-2b-it",
     "failspy-meta-llama-3-8b-instruct-abliterated-v3",
-    "farbodtavakkoli-otel-2.0-llm-31b-it",
     "google-gemma-2-2b-it",
     "google-gemma-2-9b-it",
     "google-gemma-3-1b-it",
+    "gradientai-llama-3-8b-instruct-gradient-1048k",
     "ibm-granite-granite-4.2-30b",
     "ibm-granite-granite-4.2-3b",
     "ibm-granite-granite-4.2-8b",

@@ -7,7 +7,7 @@
   "context_window": 256000,
   "performance": 5,
   "speed": 3,
-  "page_url": "https://cursor.com/docs/models-and-pricing#grok-4-5",
+  "page_url": "https://cursor.com/docs/models-and-pricing#grok-4.5",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -31,7 +31,7 @@
     "context_window": "2fd324cb",
     "performance": "e4da3b7f",
     "speed": "eccbc87e",
-    "page_url": "b9f577c5",
+    "page_url": "1afccba4",
     "model_type": "d669f408",
     "capabilities": "a281e83a",
     "modalities": "68e53d93",
@@ -39,5 +39,5 @@
     "pricing_notes": "b9f739ff",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-10-19"
 }

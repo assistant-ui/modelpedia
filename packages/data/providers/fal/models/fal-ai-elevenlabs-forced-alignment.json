@@ -14,7 +14,7 @@
     "output": ["text"]
   },
   "endpoints": ["audio_transcriptions"],
-  "last_seen_at": "2026-09-08",
+  "last_seen_at": "2026-10-18",
   "_generated": {
     "name": "4c701e0d",
     "description": "37a31542",
@@ -25,7 +25,7 @@
     "tagline": "37a31542",
     "modalities": "b8e84832",
     "endpoints": "30248ee0",
-    "last_seen_at": "f070775f"
+    "last_seen_at": "899c841f"
   },
-  "last_updated": "2026-09-09"
+  "last_updated": "2026-10-19"
 }

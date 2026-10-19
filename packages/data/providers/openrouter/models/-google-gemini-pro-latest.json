@@ -6,7 +6,7 @@
   "description": "This model always redirects to the latest model in the Gemini Pro family.",
   "release_date": "2026-04-27",
   "context_window": 1048576,
-  "max_output_tokens": 65536,
+  "max_output_tokens": 943718,
   "model_type": "chat",
   "tagline": "This model always redirects to the latest model in the Google Gemini Pro family.",
   "capabilities": {
@@ -30,7 +30,7 @@
     "description": "43d10e75",
     "release_date": "79a25cd1",
     "context_window": "7d28a051",
-    "max_output_tokens": "297ce0b3",
+    "max_output_tokens": "7843f47e",
     "model_type": "d669f408",
     "tagline": "a4b72ecc",
     "capabilities": "03fbefb4",
@@ -38,5 +38,5 @@
     "pricing": "6877e3a9",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-15"
+  "last_updated": "2026-10-19"
 }

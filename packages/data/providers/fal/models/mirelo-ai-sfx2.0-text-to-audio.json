@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/mirelo-ai/sfx2.0/text-to-audio",
   "tagline": "Generates sound effects from text prompts with control over duration, negative prompts, sample count, and output audio format.",
-  "last_seen_at": "2026-10-14",
+  "last_seen_at": "2026-10-18",
   "_generated": {
     "name": "08eb8dd7",
     "description": "d77b89dc",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "2c9552b3",
     "tagline": "d77b89dc",
-    "last_seen_at": "b735ec37"
+    "last_seen_at": "899c841f"
   },
-  "last_updated": "2026-10-15"
+  "last_updated": "2026-10-19"
 }
