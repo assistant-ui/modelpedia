@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-18",
-  "count": 1510,
+  "date": "2026-10-19",
+  "count": 1511,
   "ids": [
     "alibaba-abot-world-0",
     "alibaba-happy-horse-image-to-video",
@@ -873,6 +873,7 @@
     "fal-ai-moondream3-preview-point",
     "fal-ai-moondream3-preview-query",
     "fal-ai-moondream3-preview-segment",
+    "fal-ai-moss-image",
     "fal-ai-musetalk",
     "fal-ai-nafnet-deblur",
     "fal-ai-nafnet-denoise",

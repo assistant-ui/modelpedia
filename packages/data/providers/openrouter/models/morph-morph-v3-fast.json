@@ -3,10 +3,10 @@
   "name": "Morph: Morph V3 Fast",
   "created_by": "morph",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-10-19",
   "description": "Morph's fastest apply model for code edits.",
-  "context_window": 81920,
-  "max_output_tokens": 38000,
+  "context_window": 262144,
+  "max_output_tokens": 131072,
   "modalities": {
     "input": ["text"],
     "output": ["text"]
@@ -18,13 +18,18 @@
   "_generated": {
     "name": "7ee4ed04",
     "description": "b85fd907",
-    "context_window": "7e248a40",
-    "max_output_tokens": "4f4b5b9a",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "f7de594e",
     "modalities": "68e53d93",
     "pricing": "2ae97ac6",
     "release_date": "dca51777",
-    "tagline": "b85fd907"
+    "tagline": "b85fd907",
+    "capabilities": "dbb5b7fe"
   },
   "release_date": "2025-07-07",
-  "tagline": "Morph's fastest apply model for code edits."
+  "tagline": "Morph's fastest apply model for code edits.",
+  "capabilities": {
+    "structured_output": true,
+    "json_mode": true
+  }
 }

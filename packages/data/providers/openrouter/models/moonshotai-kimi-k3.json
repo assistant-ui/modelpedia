@@ -20,7 +20,7 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.304,
+    "input": 0.239,
     "output": 11.936,
     "cached_input": 0.21
   },
@@ -35,10 +35,10 @@
     "tagline": "5d80507d",
     "capabilities": "03fbefb4",
     "modalities": "3ad4060a",
-    "pricing": "879b7380",
+    "pricing": "db775a37",
     "tools": "f0c1dc7e",
     "max_output_tokens": "7843f47e"
   },
-  "last_updated": "2026-10-16",
+  "last_updated": "2026-10-19",
   "max_output_tokens": 943718
 }

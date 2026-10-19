@@ -6,7 +6,7 @@
   "context_window": 200000,
   "performance": 5,
   "speed": 4,
-  "page_url": "https://cursor.com/docs/models-and-pricing#cursor-composer-2-5",
+  "page_url": "https://cursor.com/docs/models-and-pricing#composer-2.5",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -15,7 +15,7 @@
     "reasoning": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "pricing": {
@@ -29,12 +29,12 @@
     "context_window": "03e6c616",
     "performance": "e4da3b7f",
     "speed": "a87ff679",
-    "page_url": "ec5e3ac6",
+    "page_url": "8ffb5fe4",
     "model_type": "d669f408",
     "capabilities": "7ca28ec9",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "pricing": "785da582",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-10-19"
 }
