@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-18",
-  "count": 226,
+  "date": "2026-10-20",
+  "count": 225,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -128,10 +128,9 @@
     "mistralai-voxtral-small-24b-2507",
     "moonshotai-kimi-k2.6",
     "moonshotai-kimi-k3",
+    "nace-ai-drex-max",
     "nace-ai-drex-v1.5",
     "nace-ai-drex-v2.0",
-    "nousresearch-hermes-3-llama-3.1-405b",
-    "nousresearch-hermes-3-llama-3.1-70b",
     "nvidia-llama-nemotron-embed-vl-1b-v2",
     "nvidia-llama-nemotron-rerank-vl-1b-v2",
     "nvidia-nemotron-3-diarization",

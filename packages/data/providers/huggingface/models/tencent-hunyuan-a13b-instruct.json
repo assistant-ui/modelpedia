@@ -1,0 +1,36 @@
+{
+  "id": "tencent/Hunyuan-A13B-Instruct",
+  "name": "Hunyuan-A13B-Instruct",
+  "created_by": "tencent",
+  "source": "official",
+  "description": "Welcome to the official repository of **Hunyuan-A13B**, an innovative and open-source large language model (LLM) built on a fine-grained Mixture-of-Experts (MoE) architecture. Designed for efficiency and scalability, Hunyuan-A13B delivers cutting-edge performance with minimal computational overhead, making it an ideal choice for advanced reasoning and general-purpose applications, especially in resource-constrained environments.",
+  "release_date": "2025-06-25",
+  "context_window": 32768,
+  "license": "other",
+  "parameters": 80,
+  "page_url": "https://huggingface.co/tencent/Hunyuan-A13B-Instruct",
+  "architecture": "moe",
+  "tagline": "Welcome to the official repository of **Hunyuan-A13B**, an innovative and open-source large language model (LLM) built on a fine-grained Mixture-of-Experts (MoE) architecture.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "bda63a12",
+    "description": "4dbf2a09",
+    "release_date": "e9e54aa9",
+    "context_window": "f4376436",
+    "license": "ddb0b7bc",
+    "parameters": "f033ab37",
+    "page_url": "81f4131e",
+    "architecture": "31b2172c",
+    "tagline": "78b0a430",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-20"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "blackforestlabs/flux-3-max/image-to-video",
+  "name": "FLUX 3 Max Image to Video",
+  "created_by": "blackforestlabs",
+  "source": "official",
+  "description": "fal’s FLUX 3 Max is a post-trained variant of FLUX 3 Video, tuned for stronger prompt adherence and better visual quality while optimized for lower latency.",
+  "status": "active",
+  "release_date": "2026-10-16",
+  "model_type": "video",
+  "page_url": "https://fal.run/blackforestlabs/flux-3-max/image-to-video",
+  "tagline": "fal’s FLUX 3 Max is a post-trained variant of FLUX 3 Video, tuned for stronger prompt adherence and better visual quality while optimized for lower latency.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text", "image", "audio"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-10-19",
+  "_generated": {
+    "name": "69c66921",
+    "description": "5c881280",
+    "status": "379ac110",
+    "release_date": "a343464b",
+    "model_type": "4d1b75ca",
+    "page_url": "38835cd2",
+    "tagline": "5c881280",
+    "capabilities": "d3117eb0",
+    "modalities": "8ff0f40b",
+    "endpoints": "7a78c070",
+    "last_seen_at": "24f81a75"
+  },
+  "last_updated": "2026-10-20"
+}

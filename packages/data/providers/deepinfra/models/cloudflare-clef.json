@@ -28,7 +28,9 @@
     "modalities": "68e53d93",
     "pricing": "683fabfa",
     "endpoints": "d8fa1080",
-    "quantization": "640679f9"
+    "quantization": "640679f9",
+    "context_window": "1332bd1d"
   },
-  "last_updated": "2026-10-16"
+  "last_updated": "2026-10-20",
+  "context_window": 65537
 }

@@ -1,0 +1,40 @@
+{
+  "id": "inception/mercury-3",
+  "name": "Inception: Mercury 3",
+  "created_by": "inception",
+  "source": "official",
+  "description": "Mercury 3 is a diffusion-based language model from Inception, and the lab's most capable model to date.",
+  "release_date": "2026-10-16",
+  "context_window": 1000000,
+  "max_output_tokens": 131072,
+  "tagline": "Mercury 3 is a diffusion-based language model from Inception, and the lab's most capable model to date.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.35,
+    "cached_input": 0.01
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "3ab2e8ba",
+    "description": "e5a57593",
+    "release_date": "a343464b",
+    "context_window": "8155bc54",
+    "max_output_tokens": "f7de594e",
+    "tagline": "e5a57593",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "pricing": "c66e7bdd",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-20"
+}

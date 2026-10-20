@@ -14,9 +14,9 @@
     "tool_call": true
   },
   "pricing": {
-    "input": 0.6,
-    "output": 2.4,
-    "cached_input": 0.12
+    "input": 0.3,
+    "output": 1.2,
+    "cached_input": 0.06
   },
   "open_weight": false,
   "modalities": {
@@ -33,10 +33,10 @@
     "model_type": "d669f408",
     "tagline": "c9354b32",
     "capabilities": "48995a4e",
-    "pricing": "b2c589a7",
+    "pricing": "0c734839",
     "open_weight": "68934a3e",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-28"
+  "last_updated": "2026-10-20"
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-20",
   "count": 33,
   "ids": [
     "beam",
@@ -23,6 +23,7 @@
     "laya",
     "minimax-m2.7",
     "minimax-m3",
+    "minimax-m3.1-flash",
     "mistral-large-3",
     "mistral-large-4",
     "muse-spark-open",
@@ -30,7 +31,6 @@
     "nemotron-3-super",
     "nemotron-3-ultra",
     "nemotron-3.5-bolt",
-    "nemotron-3.5-super",
     "nimble",
     "nimble-v3",
     "pplx-decider",
