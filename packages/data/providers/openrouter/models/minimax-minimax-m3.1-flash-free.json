@@ -1,0 +1,38 @@
+{
+  "id": "minimax/minimax-m3.1-flash:free",
+  "name": "MiniMax: MiniMax M3.1 Flash (free)",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "MiniMax-M3.1-Flash is a multimodal model from MiniMax.",
+  "release_date": "2026-10-19",
+  "context_window": 1000000,
+  "max_output_tokens": 524288,
+  "model_type": "chat",
+  "tagline": "MiniMax-M3.1-Flash is a multimodal model from MiniMax.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "03744d8f",
+    "family": "c85916f0",
+    "description": "cc85ee8a",
+    "release_date": "24f81a75",
+    "context_window": "8155bc54",
+    "max_output_tokens": "bcabf6a1",
+    "model_type": "d669f408",
+    "tagline": "cc85ee8a",
+    "capabilities": "03fbefb4",
+    "modalities": "3ad4060a",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-20"
+}

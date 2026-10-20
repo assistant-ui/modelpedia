@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-18",
-  "count": 406,
+  "date": "2026-10-20",
+  "count": 407,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -159,6 +159,7 @@
     "heygen-heygen-video-1",
     "inception-mercury-2",
     "inception-mercury-2.5",
+    "inception-mercury-3",
     "inception-mercury-coder-small",
     "inclusionai-ling-3.0-flash",
     "inclusionai-ling-3.0-flash-fin",
@@ -213,6 +214,7 @@
     "minimax-minimax-m2.7",
     "minimax-minimax-m2.7-highspeed",
     "minimax-minimax-m3",
+    "minimax-minimax-m3.1-flash",
     "mistral-codestral",
     "mistral-codestral-embed",
     "mistral-ministral-14b",
@@ -354,7 +356,6 @@
     "spacexai-grok-tts",
     "spacexai-grok-voice-think-fast-1.0",
     "spacexai-grok-voice-think-fast-2.0",
-    "stealth-cat-jam",
     "stealth-glyph-cluster",
     "stepfun-step-3.7-flash",
     "stepfun-step-5-preview",

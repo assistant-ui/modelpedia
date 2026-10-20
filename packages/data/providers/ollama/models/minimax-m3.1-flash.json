@@ -1,0 +1,42 @@
+{
+  "id": "minimax-m3.1-flash",
+  "name": "minimax-m3.1-flash",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing usage costs by 70%.",
+  "release_date": "2026-10-19",
+  "context_window": 999424,
+  "license": "open-weight",
+  "page_url": "https://ollama.com/library/minimax-m3.1-flash",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "569b051b",
+    "family": "c85916f0",
+    "description": "2a9735e7",
+    "release_date": "24f81a75",
+    "context_window": "7a0605d5",
+    "license": "6327aaea",
+    "page_url": "9999eded",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "85023046",
+    "capabilities": "62b3fd83",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-20"
+}

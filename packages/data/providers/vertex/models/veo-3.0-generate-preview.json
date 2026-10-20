@@ -3,11 +3,11 @@
   "name": "veo-3.0-generate-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-10-20",
   "status": "deprecated",
   "deprecation_date": "2025-11-12",
   "model_type": "video",
-  "successor": "veo-3.1-generate-preview",
+  "successor": "gemini-omni-1.1-flash",
   "modalities": {
     "input": ["text"],
     "output": ["video"]
@@ -17,7 +17,7 @@
     "status": "2e2f74dc",
     "deprecation_date": "6364276c",
     "model_type": "4d1b75ca",
-    "successor": "102deb3f",
+    "successor": "77f576ba",
     "modalities": "94e5e9ab",
     "family": "adc96752",
     "license": "9186c466",

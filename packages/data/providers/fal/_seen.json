@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-19",
-  "count": 1511,
+  "date": "2026-10-20",
+  "count": 1514,
   "ids": [
     "alibaba-abot-world-0",
     "alibaba-happy-horse-image-to-video",
@@ -35,6 +35,9 @@
     "blackforestlabs-flux-3-keyframes-to-video-draft",
     "blackforestlabs-flux-3-klein-edit-image",
     "blackforestlabs-flux-3-klein-text-to-image",
+    "blackforestlabs-flux-3-max-image-to-video",
+    "blackforestlabs-flux-3-max-keyframes-to-video",
+    "blackforestlabs-flux-3-max-text-to-video",
     "blackforestlabs-flux-3-text-to-image",
     "blackforestlabs-flux-3-text-to-video",
     "blackforestlabs-flux-3-text-to-video-draft",

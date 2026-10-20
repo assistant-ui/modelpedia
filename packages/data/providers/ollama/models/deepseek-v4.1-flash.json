@@ -5,7 +5,7 @@
   "source": "official",
   "family": "deepseek",
   "description": "Designed for greater capability, faster inference, higher throughput, and scaling to larger models.",
-  "release_date": "2026-09-10",
+  "release_date": "2026-10-17",
   "reasoning_tokens": true,
   "license": "open-weight",
   "parameters": 8,
@@ -29,7 +29,7 @@
     "name": "7473ca5f",
     "family": "4b81b92d",
     "description": "1066f799",
-    "release_date": "b057cbf8",
+    "release_date": "149591c4",
     "reasoning_tokens": "b326b506",
     "license": "6327aaea",
     "parameters": "c9f0f895",
@@ -41,5 +41,5 @@
     "modalities": "6399757e",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-18"
+  "last_updated": "2026-10-20"
 }

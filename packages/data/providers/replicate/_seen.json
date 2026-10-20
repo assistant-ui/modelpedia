@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-17",
-  "count": 125,
+  "date": "2026-10-20",
+  "count": 126,
   "ids": [
     "851-labs-background-remover",
     "8digit-gener8-sam3",
@@ -124,6 +124,7 @@
     "xai-grok-imagine-video-1.5",
     "xai-grok-imagine-video-extension",
     "yanexr-embedding-gemma-2",
+    "yorickvp-llava-13b",
     "zsxkib-create-rvc-dataset",
     "zsxkib-multitalk",
     "zsxkib-realistic-voice-cloning"

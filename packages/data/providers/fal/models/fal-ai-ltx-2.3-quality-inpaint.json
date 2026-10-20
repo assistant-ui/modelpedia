@@ -1,6 +1,6 @@
 {
   "id": "fal-ai/ltx-2.3-quality/inpaint",
-  "name": "Ltx 2.3 Quality",
+  "name": "LTX 2.3 Quality",
   "created_by": "fal",
   "source": "official",
   "description": "Inpaint high-quality video using LTX-2.3  ",
@@ -9,16 +9,16 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ltx-2.3-quality/inpaint",
   "tagline": "Inpaint high-quality video using LTX-2.3  ",
-  "last_seen_at": "2026-07-13",
+  "last_seen_at": "2026-10-19",
   "_generated": {
-    "name": "a69880de",
+    "name": "5857b94c",
     "description": "2bcf3969",
     "status": "379ac110",
     "release_date": "7ddb29f2",
     "model_type": "ddb0b7bc",
     "page_url": "04117f93",
     "tagline": "2bcf3969",
-    "last_seen_at": "a393f093"
+    "last_seen_at": "24f81a75"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-10-20"
 }

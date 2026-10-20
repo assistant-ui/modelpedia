@@ -1,0 +1,39 @@
+{
+  "id": "nace-ai/drex-max",
+  "name": "drex-max",
+  "created_by": "nace-ai",
+  "source": "official",
+  "description": "Drex Max is the flagship 27B decision model from Nace.AI. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible, handles contexts up to 262K tokens, and ranks #1 on Decision Index 0.3.2 with 67.59, ahead of Drex v2.0 and Jev 1.13.0.",
+  "status": "active",
+  "context_window": 262144,
+  "model_type": "chat",
+  "open_weight": true,
+  "tagline": "Drex Max is the flagship 27B decision model from Nace.AI.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.12,
+    "output": 0,
+    "cached_input": 0.12
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "cf6fa4fb",
+    "description": "138a6db2",
+    "status": "379ac110",
+    "context_window": "4a1d32eb",
+    "model_type": "d669f408",
+    "open_weight": "b326b506",
+    "tagline": "aea60a6b",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "pricing": "1b3c678b",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-10-20"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "@cf/cloudflare/clairic",
+  "name": "clairic",
+  "created_by": "cloudflare",
+  "source": "official",
+  "status": "preview",
+  "model_type": "chat",
+  "page_url": "https://developers.cloudflare.com/workers-ai/models/#clairic",
+  "capabilities": {
+    "streaming": true,
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "5f11e35d",
+    "status": "127aecde",
+    "model_type": "d669f408",
+    "page_url": "713b05dc",
+    "capabilities": "8a3b232e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-20"
+}
