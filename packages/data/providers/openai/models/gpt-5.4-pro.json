@@ -3,7 +3,7 @@
   "name": "GPT-5.4 Pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "family": "gpt-5.4",
   "status": "active",
   "knowledge_cutoff": "2025-08",
@@ -35,19 +35,21 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": [
+          "Input",
+          "Output",
+          "Cached input",
+          "30m write",
+          "12h write"
+        ],
         "rows": [
           {
             "label": "Standard",
-            "values": [30, null, null, 180]
+            "values": [30, 180, null, null, null]
           },
           {
             "label": "Batch",
-            "values": [15, null, null, 90]
-          },
-          {
-            "label": "Flex",
-            "values": [15, null, null, 90]
+            "values": [15, 90, null, null, null]
           }
         ]
       }
@@ -67,7 +69,7 @@
     "speed": "c4ca4238",
     "capabilities": "817f839e",
     "modalities": "6399757e",
-    "pricing": "dbe81d76",
+    "pricing": "b3b4fe4c",
     "endpoints": "acb164ea",
     "model_type": "d669f408",
     "license": "9186c466",

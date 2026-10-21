@@ -3,7 +3,7 @@
   "name": "GPT-4.1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-21",
   "family": "gpt-4.1",
   "description": "GPT-4.1 excels at instruction following and tool calling, with broad  knowledge across domains. It features a 1M token context window, and low latency without a reasoning step.",
   "status": "deprecated",
@@ -38,19 +38,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": ["Input", "Cached input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [2, 0.5, null, 8]
-          },
-          {
-            "label": "Batch",
-            "values": [1, null, null, 4]
-          },
-          {
-            "label": "Fast",
-            "values": [3.5, 0.875, null, 14]
+            "values": [2, 0.5, 8]
           }
         ]
       },
@@ -101,7 +93,7 @@
     "tagline": "4fa85a98",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "4300f282",
+    "pricing": "07e93cd5",
     "tools": "1d5a765f",
     "endpoints": "ebc03c48",
     "license": "9186c466",

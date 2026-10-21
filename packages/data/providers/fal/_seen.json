@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-20",
-  "count": 1514,
+  "date": "2026-10-21",
+  "count": 1516,
   "ids": [
     "alibaba-abot-world-0",
     "alibaba-happy-horse-image-to-video",
@@ -48,6 +48,8 @@
     "bria-bria_video_eraser-erase-prompt",
     "bria-embed-product",
     "bria-extract-object",
+    "bria-fibo-2-edit",
+    "bria-fibo-2-generate",
     "bria-fibo-bbq-preview-generate",
     "bria-fibo-edit-1.5-edit",
     "bria-fibo-edit-1.5-expand",
@@ -1199,7 +1201,6 @@
     "fal-ai-wan-25-preview-image-to-video",
     "fal-ai-wan-25-preview-text-to-image",
     "fal-ai-wan-25-preview-text-to-video",
-    "fal-ai-wan-effects",
     "fal-ai-wan-flf2v",
     "fal-ai-wan-i2v",
     "fal-ai-wan-i2v-lora",
@@ -1362,6 +1363,7 @@
     "minimax-h3-max-recast",
     "minimax-h3-max-reference-director",
     "minimax-h3-max-reference-to-video",
+    "minimax-h3-max-reframe-video",
     "minimax-h3-max-relight",
     "minimax-h3-max-styles-16bit-pixel",
     "minimax-h3-max-styles-hand-drawn",

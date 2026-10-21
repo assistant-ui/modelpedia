@@ -3,8 +3,8 @@
   "name": "rerank-v3.5",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "description": "A model that allows for re-ranking English Language documents and semi-structured data (JSON). This model has a context length of 4096 tokens.",
+  "last_updated": "2026-10-21",
+  "description": "A performance upgrade to Rerank v3 series. Supports English and the same non-English languages as embed-multilingual-v3.0 .",
   "status": "active",
   "model_type": "rerank",
   "capabilities": {
@@ -16,7 +16,7 @@
   },
   "_generated": {
     "name": "f4c94d3d",
-    "description": "c4543125",
+    "description": "e1319dff",
     "status": "379ac110",
     "model_type": "477930e6",
     "capabilities": "0fa77dc6",

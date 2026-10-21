@@ -3,16 +3,16 @@
   "name": "Llava 13b",
   "created_by": "yorickvp",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "other",
   "parameters": 13,
   "page_url": "https://replicate.com/yorickvp/llava-13b",
   "_generated": {
     "name": "ddeb17cc",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "ddb0b7bc",
     "parameters": "c51ce410",
     "page_url": "93b2326b"
   },
-  "last_updated": "2026-10-20"
+  "last_updated": "2026-10-21"
 }

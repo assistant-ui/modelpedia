@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-20",
-  "count": 225,
+  "date": "2026-10-21",
+  "count": 224,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -35,8 +35,7 @@
     "bria-erase",
     "bria-erase_foreground",
     "bria-expand",
-    "bria-fibo",
-    "bria-fibo-1.5",
+    "bria-fibo-2.0",
     "bria-fibo_edit",
     "bria-fibo_edit-1.5",
     "bria-gen_fill",

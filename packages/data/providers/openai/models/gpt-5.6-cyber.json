@@ -39,11 +39,17 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": [
+          "Input",
+          "Output",
+          "Cached input",
+          "30m write",
+          "12h write"
+        ],
         "rows": [
           {
             "label": "Standard",
-            "values": [12.5, 1.25, 15.625, 75]
+            "values": [12.5, 75, 1.25, 15.625, 31.25]
           }
         ]
       }
@@ -69,13 +75,13 @@
     "open_weight": "68934a3e",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
-    "pricing": "637d2527",
+    "pricing": "a43c0cb3",
     "tools": "f0c1dc7e",
     "endpoints": "acb164ea",
     "description": "81f7fa95",
     "tagline": "dfc5d86b"
   },
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-21",
   "description": "An alias for our most advanced purpose-trained cybersecurity models, for approved defenders conducting advanced, authorized vulnerability research, exploit validation, and security testing.",
   "alias": "gpt-daybreak-red-latest",
   "tagline": "Our most advanced cybersecurity model for authorized vulnerability research and security testing.",

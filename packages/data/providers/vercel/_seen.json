@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-20",
-  "count": 407,
+  "date": "2026-10-21",
+  "count": 412,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -226,6 +226,9 @@
     "mistral-mistral-medium-3.5",
     "mistral-mistral-nemo",
     "mistral-mistral-small",
+    "mistral-voxtral-mini-transcribe-3",
+    "mistral-voxtral-mini-tts-3",
+    "mistral-voxtral-small-transcribe-3",
     "mixedbread-toast-1",
     "moonshotai-kimi-k2",
     "moonshotai-kimi-k2.5",
@@ -334,6 +337,8 @@
     "sakana-fugu-ultra-v2",
     "sakana-namazu",
     "scaledown-scaledown-classify-1",
+    "scaledown-scaledown-extract-1",
+    "scaledown-scaledown-summarize-1",
     "spacexai-grok-4.1-fast-non-reasoning",
     "spacexai-grok-4.1-fast-reasoning",
     "spacexai-grok-4.20-multi-agent",

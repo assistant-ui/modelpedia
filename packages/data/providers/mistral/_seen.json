@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-17",
-  "count": 95,
+  "date": "2026-10-21",
+  "count": 99,
   "ids": [
     "codestral",
     "codestral-2405",
@@ -89,12 +89,16 @@
     "voxtral-mini",
     "voxtral-mini-2507",
     "voxtral-mini-2602",
+    "voxtral-mini-transcribe-3-0",
     "voxtral-mini-transcribe-realtime",
     "voxtral-mini-transcribe-realtime-2602",
+    "voxtral-mini-transcribe-realtime-3-0",
     "voxtral-mini-tts",
     "voxtral-mini-tts-2603",
+    "voxtral-mini-tts-3-0",
     "voxtral-small",
     "voxtral-small-2507",
+    "voxtral-small-transcribe-3-0",
     "zai-glm-5-2",
     "zai-glm-5-3"
   ]

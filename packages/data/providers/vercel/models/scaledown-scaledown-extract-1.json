@@ -1,0 +1,28 @@
+{
+  "id": "scaledown/scaledown-extract-1",
+  "name": "scaledown-extract-1",
+  "created_by": "scaledown",
+  "source": "official",
+  "context_window": 1000000,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "3945ff43",
+    "context_window": "8155bc54",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "edbb3c0f",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-21"
+}

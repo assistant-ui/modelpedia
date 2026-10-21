@@ -3,7 +3,7 @@
   "name": "GPT-3.5 Turbo",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "family": "gpt-3.5",
   "description": "GPT-3.5 Turbo models can understand and generate natural language or code and have been optimized for chat using the Chat Completions API but work well for non-chat tasks as well. As of July 2024, use gpt-4o-mini in place of GPT-3.5 Turbo, as it is cheaper, more capable, multimodal, and just as fast. GPT-3.5 Turbo is still available for use in the API.",
   "status": "deprecated",
@@ -31,21 +31,6 @@
   "pricing": {
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [0.5, null, null, 1.5]
-          },
-          {
-            "label": "Batch",
-            "values": [0.25, null, null, 0.75]
-          }
-        ]
-      },
-      {
         "label": "Fine-tuning",
         "unit": "",
         "columns": ["Training", "Input", "Cached input", "Output"],
@@ -57,6 +42,17 @@
           {
             "label": "Batch",
             "values": [8, 1.5, null, 3]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.5, 1.5]
           }
         ]
       }
@@ -86,7 +82,7 @@
     "tagline": "7d9cd0cf",
     "capabilities": "b1cc1d6c",
     "modalities": "68e53d93",
-    "pricing": "7edd88e8",
+    "pricing": "65628700",
     "endpoints": "b36a99d3",
     "license": "9186c466",
     "page_url": "0bd33365",

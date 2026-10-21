@@ -3,7 +3,7 @@
   "name": "o3-pro-2025-06-10",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "family": "o3",
   "description": "The o-series of models are trained with reinforcement learning to think",
   "status": "deprecated",
@@ -40,15 +40,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Output", "Cached input", "Cache writes"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [20, 80, null, null]
-          },
-          {
-            "label": "Batch",
-            "values": [10, 40, null, null]
+            "values": [20, 80]
           }
         ]
       }
@@ -71,7 +67,7 @@
     "tagline": "e1a4ec5e",
     "capabilities": "91876c96",
     "modalities": "6399757e",
-    "pricing": "cbcf0e3e",
+    "pricing": "b8cfb390",
     "endpoints": "6f01fd6c",
     "license": "9186c466",
     "release_date": "298b4e52",

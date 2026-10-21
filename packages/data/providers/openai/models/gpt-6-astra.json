@@ -64,10 +64,10 @@
     "endpoints": "ec55a017",
     "description": "ae065d05",
     "tagline": "6b44b60e",
-    "pricing": "c25a946c",
+    "pricing": "1b703fb7",
     "family": "16342494"
   },
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-21",
   "description": "GPT-6 Astra is our most capable model for the most demanding work. Use it for complex reasoning, coding, computer use, research, and document creation. `reasoning.effort` supports `low`, `medium`, `high`, `xhigh`, and `max`.",
   "tagline": "Our most capable model for the most demanding work.",
   "pricing": {
@@ -80,23 +80,26 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": [
+          "Input",
+          "Output",
+          "Cached input",
+          "30m write",
+          "12h write",
+          "Cache writes"
+        ],
         "rows": [
           {
             "label": "Standard",
-            "values": [10, 1, 12.5, 50]
+            "values": [10, 50, 1, 12.5, 25, 12.5]
           },
           {
             "label": "Batch",
-            "values": [5, 0.5, 6.25, 25]
-          },
-          {
-            "label": "Flex",
-            "values": [5, 0.5, 6.25, 25]
+            "values": [5, 25, 0.5, 6.25, 12.5, null]
           },
           {
             "label": "Fast",
-            "values": [20, 2, 25, 100]
+            "values": [20, 100, 2, 25, 50, null]
           }
         ]
       }

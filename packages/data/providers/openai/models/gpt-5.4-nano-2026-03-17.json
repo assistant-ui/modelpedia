@@ -3,7 +3,7 @@
   "name": "gpt-5.4-nano-2026-03-17",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "family": "gpt-5.4",
   "description": "GPT-5.4 nano is designed for tasks where speed and cost matter most like",
   "status": "active",
@@ -42,19 +42,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output", "Cache writes"],
+        "columns": ["Input", "Cached input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.2, 0.02, 1.25, null]
-          },
-          {
-            "label": "Batch",
-            "values": [0.1, 0.01, 0.625, null]
-          },
-          {
-            "label": "Flex",
-            "values": [0.1, 0.01, 0.625, null]
+            "values": [0.2, 0.02, 1.25]
           }
         ]
       }
@@ -78,7 +70,7 @@
     "tagline": "f8b66567",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "171b7d0d",
+    "pricing": "e2660d98",
     "endpoints": "ec55a017",
     "license": "9186c466",
     "release_date": "56d4bd95",

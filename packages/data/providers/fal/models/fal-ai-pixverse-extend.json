@@ -13,7 +13,7 @@
     "tool_call": true
   },
   "tools": ["function_calling"],
-  "last_seen_at": "2026-06-17",
+  "last_seen_at": "2026-10-20",
   "_generated": {
     "name": "536f4e67",
     "description": "c66817ab",
@@ -24,7 +24,7 @@
     "tagline": "c66817ab",
     "capabilities": "ce9e2425",
     "tools": "f0c1dc7e",
-    "last_seen_at": "e050aed5"
+    "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-10-21"
 }

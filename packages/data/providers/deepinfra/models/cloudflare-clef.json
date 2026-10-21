@@ -29,8 +29,12 @@
     "pricing": "683fabfa",
     "endpoints": "d8fa1080",
     "quantization": "640679f9",
-    "context_window": "1332bd1d"
+    "context_window": "1332bd1d",
+    "description": "e06c70bc",
+    "tagline": "e06c70bc"
   },
-  "last_updated": "2026-10-20",
-  "context_window": 65537
+  "last_updated": "2026-10-21",
+  "context_window": 65537,
+  "description": "Clef is a 27B multimodal model that turns a state and a schema of typed questions into decisions.",
+  "tagline": "Clef is a 27B multimodal model that turns a state and a schema of typed questions into decisions."
 }

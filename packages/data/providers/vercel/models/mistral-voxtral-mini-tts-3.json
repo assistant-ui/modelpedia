@@ -1,0 +1,25 @@
+{
+  "id": "mistral/voxtral-mini-tts-3",
+  "name": "voxtral-mini-tts-3",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "voxtral",
+  "context_window": 4100,
+  "model_type": "tts",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 16,
+    "output": 0
+  },
+  "_generated": {
+    "name": "ab2c75ec",
+    "family": "88a5dabd",
+    "context_window": "a3ec6dd8",
+    "model_type": "4e16a2cf",
+    "capabilities": "0fa77dc6",
+    "pricing": "b3b5c69c"
+  },
+  "last_updated": "2026-10-21"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "voxtral-mini-transcribe-3-0",
+  "name": "voxtral-mini-transcribe-3-0",
+  "created_by": "mistral",
+  "source": "official",
+  "family": "voxtral",
+  "status": "active",
+  "context_window": 32000,
+  "license": "apache-2.0",
+  "page_url": "https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0",
+  "model_type": "audio",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "61ffbd2f",
+    "family": "88a5dabd",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "license": "60245731",
+    "page_url": "c40b1803",
+    "model_type": "9f84c007",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-10-21"
+}

@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-18",
-  "count": 338,
+  "date": "2026-10-21",
+  "count": 340,
   "ids": [
     "cogito-cogito-671b-v2-p1",
     "deepseek-ai-deepseek-v3p1-terminus",
@@ -112,6 +112,7 @@
     "fireworks-internvl3-38b",
     "fireworks-internvl3-78b",
     "fireworks-internvl3-8b",
+    "fireworks-kalshi-glimmer-decision-v1",
     "fireworks-kat-coder",
     "fireworks-kat-dev-32b",
     "fireworks-kat-dev-72b-exp",
@@ -315,6 +316,7 @@
     "fireworks-qwen3p8-max",
     "fireworks-qwq-32b",
     "fireworks-rolm-ocr",
+    "fireworks-rune",
     "fireworks-seed-oss-36b-instruct",
     "fireworks-snorkel-mistral-7b-pairrm-dpo",
     "fireworks-stablecode-3b",
