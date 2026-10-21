@@ -33,23 +33,19 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 1,
-    "output": 2,
+    "input": 0.5,
+    "output": 1.5,
     "batch_input": 1,
     "batch_output": 2,
     "tiers": [
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1, null, null, 2]
-          },
-          {
-            "label": "Batch",
-            "values": [1, null, null, 2]
+            "values": [0.5, 1.5]
           }
         ]
       },
@@ -89,8 +85,8 @@
     "model_type": "d669f408",
     "capabilities": "3bc0a69c",
     "modalities": "68e53d93",
-    "pricing": "023433f6",
+    "pricing": "b9fe37a8",
     "endpoints": "b36a99d3"
   },
-  "last_updated": "2026-09-24"
+  "last_updated": "2026-10-21"
 }

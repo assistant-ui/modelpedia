@@ -3,7 +3,7 @@
   "name": "GPT-4.1 Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-21",
   "family": "gpt-4.1",
   "description": "GPT-4.1 Mini excels at instruction following and tool calling. It features a 1M token context window, and low latency without a reasoning step.",
   "status": "deprecated",
@@ -38,19 +38,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": ["Input", "Cached input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.4, 0.1, null, 1.6]
-          },
-          {
-            "label": "Batch",
-            "values": [0.2, null, null, 0.8]
-          },
-          {
-            "label": "Fast",
-            "values": [0.7, 0.175, null, 2.8]
+            "values": [0.4, 0.1, 1.6]
           }
         ]
       },
@@ -100,7 +92,7 @@
     "tagline": "f24e776e",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "b7b1ba24",
+    "pricing": "230ffce0",
     "tools": "907918a7",
     "endpoints": "ebc03c48",
     "license": "9186c466",

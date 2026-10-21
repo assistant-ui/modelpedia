@@ -3,7 +3,7 @@
   "name": "GPT-4o Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-21",
   "family": "gpt-4o",
   "description": "GPT-4o Mini (“o” for “omni”) is a fast, affordable small model for focused tasks. It accepts both text and image inputs, and produces text outputs (including Structured Outputs).  It is ideal for fine-tuning, and model outputs from a larger model like GPT-4o can be distilled to GPT-4o-Mini to produce similar results at lower cost and latency.",
   "status": "deprecated",
@@ -38,19 +38,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": ["Input", "Cached input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.15, 0.075, null, 0.6]
-          },
-          {
-            "label": "Batch",
-            "values": [0.075, null, null, 0.3]
-          },
-          {
-            "label": "Fast",
-            "values": [0.25, 0.125, null, 1]
+            "values": [0.15, 0.075, 0.6]
           }
         ]
       },
@@ -101,7 +93,7 @@
     "tagline": "44be8422",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "03234730",
+    "pricing": "9258a42f",
     "tools": "1d5a765f",
     "endpoints": "ebc03c48",
     "license": "9186c466",

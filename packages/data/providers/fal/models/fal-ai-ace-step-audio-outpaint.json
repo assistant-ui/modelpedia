@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ace-step/audio-outpaint",
   "tagline": "Extend the beginning or end of provided audio with lyrics and/or style using ACE-Step",
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-10-20",
   "_generated": {
     "name": "8cdd01d6",
     "description": "61e31a12",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "0b67daa1",
     "tagline": "61e31a12",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-10-21"
 }

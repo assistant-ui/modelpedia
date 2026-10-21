@@ -42,23 +42,25 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": [
+          "Input",
+          "Output",
+          "Cached input",
+          "30m write",
+          "12h write"
+        ],
         "rows": [
           {
             "label": "Standard",
-            "values": [5, 0.5, null, 30]
+            "values": [5, 30, 0.5, null, null]
           },
           {
             "label": "Batch",
-            "values": [2.5, 0.25, null, 15]
-          },
-          {
-            "label": "Flex",
-            "values": [2.5, 0.25, null, 15]
+            "values": [2.5, 15, 0.25, null, null]
           },
           {
             "label": "Fast",
-            "values": [12.5, 1.25, null, 75]
+            "values": [12.5, 75, 1.25, null, null]
           }
         ]
       }
@@ -102,12 +104,12 @@
     "open_weight": "68934a3e",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
-    "pricing": "80afbea8",
+    "pricing": "fe45f536",
     "tools": "44af6f15",
     "endpoints": "ec55a017",
     "pricing_notes": "f99f0e39",
     "release_date": "a87679d0"
   },
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "release_date": "2026-04-23"
 }

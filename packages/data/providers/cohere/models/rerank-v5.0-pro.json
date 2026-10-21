@@ -1,0 +1,35 @@
+{
+  "id": "rerank-v5.0-pro",
+  "name": "rerank-v5.0-pro",
+  "created_by": "cohere",
+  "source": "official",
+  "family": "rerank",
+  "description": "Our highest-quality reranker. A multilingual model that allows for re-ranking English and non-English documents and semi-structured data (JSON). This is better suited for complex, reasoning-heavy queries and long or domain-specific documents than its fast variant. Supports Context Focus and calibrated relevance scores.",
+  "status": "active",
+  "context_window": 32000,
+  "license": "proprietary",
+  "page_url": "https://docs.cohere.com/docs/models#rerank-v5.0-pro",
+  "model_type": "rerank",
+  "tagline": "Our highest-quality reranker.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": false,
+  "endpoints": ["rerank"],
+  "_generated": {
+    "name": "a8593ac8",
+    "family": "477930e6",
+    "description": "ef3392f8",
+    "status": "379ac110",
+    "context_window": "10e4d788",
+    "license": "9186c466",
+    "page_url": "0939d33b",
+    "model_type": "477930e6",
+    "tagline": "400b7224",
+    "modalities": "68e53d93",
+    "open_weight": "68934a3e",
+    "endpoints": "9a7b4962"
+  },
+  "last_updated": "2026-10-21"
+}

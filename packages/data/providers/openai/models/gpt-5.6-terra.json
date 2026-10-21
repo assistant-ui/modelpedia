@@ -39,23 +39,25 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": [
+          "Input",
+          "Output",
+          "Cached input",
+          "30m write",
+          "12h write"
+        ],
         "rows": [
           {
             "label": "Standard",
-            "values": [2, 0.2, 2.5, 12]
+            "values": [2, 12, 0.2, 2.5, 5]
           },
           {
             "label": "Batch",
-            "values": [1, 0.1, 1.25, 6]
-          },
-          {
-            "label": "Flex",
-            "values": [1, 0.1, 1.25, 6]
+            "values": [1, 6, 0.1, 1.25, 2.5]
           },
           {
             "label": "Fast",
-            "values": [4, 0.4, 5, 24]
+            "values": [4, 24, 0.4, 5, 10]
           }
         ]
       }
@@ -94,13 +96,13 @@
     "open_weight": "68934a3e",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
-    "pricing": "521a63cd",
+    "pricing": "16094cd8",
     "tools": "c3217644",
     "endpoints": "ec55a017",
     "description": "da8093ac",
     "tagline": "47ab7302"
   },
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "description": "GPT-5.6 Terra is designed for workloads that balance intelligence and cost. It roughly corresponds to the mini model tier used in earlier GPT-5 families. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
   "tagline": "GPT-5.6 model that balances intelligence and cost",
   "snapshots": ["gpt-5.6-terra"]

@@ -3,7 +3,7 @@
   "name": "GPT-4",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "family": "gpt-4",
   "description": "GPT-4 is an older version of a high-intelligence GPT model, usable in Chat Completions.",
   "status": "deprecated",
@@ -33,15 +33,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Output", "Cached input", "Cache writes"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [30, 60, null, null]
-          },
-          {
-            "label": "Batch",
-            "values": [15, 30, null, null]
+            "values": [30, 60]
           }
         ]
       }
@@ -73,7 +69,7 @@
     "tagline": "a3fc0b7c",
     "capabilities": "5a69b112",
     "modalities": "68e53d93",
-    "pricing": "099ab64a",
+    "pricing": "083d2242",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "page_url": "49316484",

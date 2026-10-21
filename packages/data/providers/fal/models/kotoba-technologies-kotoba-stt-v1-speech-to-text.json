@@ -14,7 +14,7 @@
     "output": ["text"]
   },
   "endpoints": ["audio_transcriptions"],
-  "last_seen_at": "2026-10-18",
+  "last_seen_at": "2026-10-20",
   "_generated": {
     "name": "0800f59c",
     "description": "251341f5",
@@ -25,7 +25,7 @@
     "tagline": "251341f5",
     "modalities": "b8e84832",
     "endpoints": "30248ee0",
-    "last_seen_at": "899c841f"
+    "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-19"
+  "last_updated": "2026-10-21"
 }

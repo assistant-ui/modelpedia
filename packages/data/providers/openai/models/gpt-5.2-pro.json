@@ -3,7 +3,7 @@
   "name": "GPT-5.2 Pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "family": "gpt-5.2",
   "status": "active",
   "knowledge_cutoff": "2025-08",
@@ -35,15 +35,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [21, null, null, 168]
-          },
-          {
-            "label": "Batch",
-            "values": [10.5, null, null, 84]
+            "values": [21, 168]
           }
         ]
       }
@@ -63,7 +59,7 @@
     "speed": "c4ca4238",
     "capabilities": "817f839e",
     "modalities": "6399757e",
-    "pricing": "5ad683a1",
+    "pricing": "e683697d",
     "endpoints": "acb164ea",
     "model_type": "d669f408",
     "license": "9186c466",

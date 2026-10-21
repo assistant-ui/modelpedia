@@ -3,7 +3,7 @@
   "name": "gpt-5.1-2025-11-13",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "family": "gpt-5.1",
   "description": "GPT-5.1 is our flagship model for coding and agentic tasks with configurable reasoning and non-reasoning effort.",
   "status": "active",
@@ -41,23 +41,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output", "Cache writes"],
+        "columns": ["Input", "Cached input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.25, 0.125, 10, null]
-          },
-          {
-            "label": "Batch",
-            "values": [0.625, 0.0625, 5, null]
-          },
-          {
-            "label": "Flex",
-            "values": [0.625, 0.0625, 5, null]
-          },
-          {
-            "label": "Fast",
-            "values": [2.5, 0.25, 20, null]
+            "values": [1.25, 0.125, 10]
           }
         ]
       }
@@ -80,7 +68,7 @@
     "tagline": "aa8534f0",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "b4169ce0",
+    "pricing": "8a137c04",
     "endpoints": "ec55a017",
     "license": "9186c466",
     "release_date": "c4b1d0fd",

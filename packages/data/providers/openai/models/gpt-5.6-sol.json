@@ -39,23 +39,25 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": [
+          "Input",
+          "Output",
+          "Cached input",
+          "30m write",
+          "12h write"
+        ],
         "rows": [
           {
             "label": "Standard",
-            "values": [4, 0.4, 5, 20]
+            "values": [4, 20, 0.4, 5, 10]
           },
           {
             "label": "Batch",
-            "values": [2, 0.2, 2.5, 10]
-          },
-          {
-            "label": "Flex",
-            "values": [2, 0.2, 2.5, 10]
+            "values": [2, 10, 0.2, 2.5, 5]
           },
           {
             "label": "Fast",
-            "values": [8, 0.8, 10, 40]
+            "values": [8, 40, 0.8, 10, 20]
           }
         ]
       }
@@ -83,13 +85,13 @@
     "open_weight": "68934a3e",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
-    "pricing": "c36e25b1",
+    "pricing": "a30014ee",
     "tools": "f0c1dc7e",
     "endpoints": "acb164ea",
     "description": "1fe77ac6",
     "tagline": "b2373111"
   },
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-10-21",
   "description": "GPT-5.6 Sol is a flagship model in the GPT-5.6 family. It roughly corresponds to the unsuffixed model tier used in earlier GPT-5 families. The `gpt-5.6` alias routes requests to GPT-5.6 Sol. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
   "alias": "gpt-daybreak-blue-latest",
   "tagline": "GPT-5.6 flagship model for complex professional work",

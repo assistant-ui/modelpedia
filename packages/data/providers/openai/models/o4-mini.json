@@ -3,7 +3,7 @@
   "name": "o4-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "family": "o4",
   "description": "o4-mini is our latest small o-series model. It's optimized for fast,  effective reasoning with exceptionally efficient performance in coding and  visual tasks. It's succeeded by GPT-5 Mini.",
   "status": "deprecated",
@@ -40,23 +40,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": ["Input", "Cached input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.1, 0.275, null, 4.4]
-          },
-          {
-            "label": "Batch",
-            "values": [0.55, null, null, 2.2]
-          },
-          {
-            "label": "Flex",
-            "values": [0.55, 0.138, null, 2.2]
-          },
-          {
-            "label": "Fast",
-            "values": [2, 0.5, null, 8]
+            "values": [1.1, 0.275, 4.4]
           }
         ]
       },
@@ -102,7 +90,7 @@
     "tagline": "fea2d815",
     "capabilities": "7e267bba",
     "modalities": "6399757e",
-    "pricing": "63f5629d",
+    "pricing": "c114e368",
     "tools": "fab5356d",
     "endpoints": "b36a99d3",
     "license": "9186c466",

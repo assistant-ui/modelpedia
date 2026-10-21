@@ -3,7 +3,7 @@
   "name": "o3-pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "family": "o3",
   "description": "The o-series of models are trained with reinforcement learning to think  before they answer and perform complex reasoning. The o3-pro model uses more  compute to think harder and provide consistently better answers.",
   "status": "deprecated",
@@ -39,15 +39,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [20, null, null, 80]
-          },
-          {
-            "label": "Batch",
-            "values": [10, null, null, 40]
+            "values": [20, 80]
           }
         ]
       }
@@ -78,7 +74,7 @@
     "tagline": "cca16069",
     "capabilities": "91876c96",
     "modalities": "6399757e",
-    "pricing": "8080257b",
+    "pricing": "b8cfb390",
     "tools": "a7dce5fd",
     "endpoints": "6f01fd6c",
     "license": "9186c466",

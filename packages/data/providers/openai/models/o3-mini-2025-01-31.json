@@ -3,7 +3,7 @@
   "name": "o3-mini-2025-01-31",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "family": "o3",
   "description": "o3-mini is our newest small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini. o3-mini supports key developer features, like Structured Outputs, function calling, and Batch API.",
   "status": "deprecated",
@@ -41,15 +41,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output", "Cache writes"],
+        "columns": ["Input", "Cached input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.1, 0.55, 4.4, null]
-          },
-          {
-            "label": "Batch",
-            "values": [0.55, null, 2.2, null]
+            "values": [1.1, 0.55, 4.4]
           }
         ]
       }
@@ -72,7 +68,7 @@
     "tagline": "4037cc25",
     "capabilities": "5e3030a4",
     "modalities": "68e53d93",
-    "pricing": "c587aa3d",
+    "pricing": "77b314da",
     "endpoints": "1c48b50a",
     "license": "9186c466",
     "release_date": "8e2cb9dd",

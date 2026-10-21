@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/ace-step/audio-to-audio",
   "tagline": "Generate music from a lyrics and example audio using ACE-Step",
-  "last_seen_at": "2026-06-24",
+  "last_seen_at": "2026-10-20",
   "_generated": {
     "name": "7e8e27d6",
     "description": "4d219590",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "4fbc83cb",
     "tagline": "4d219590",
-    "last_seen_at": "b7ac61f6"
+    "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-06-29"
+  "last_updated": "2026-10-21"
 }

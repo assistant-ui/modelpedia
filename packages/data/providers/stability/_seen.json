@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-21",
   "count": 100,
   "ids": [
     "ar-stablelm-2-base",
@@ -9,7 +9,7 @@
     "japanese-instructblip-alpha",
     "japanese-stable-clip-vit-l-16",
     "japanese-stable-diffusion-xl",
-    "japanese-stable-vlm",
+    "japanese-stablelm-2-instruct-1_6b",
     "japanese-stablelm-3b-4e1t-base",
     "japanese-stablelm-3b-4e1t-instruct",
     "japanese-stablelm-base-alpha-7b",

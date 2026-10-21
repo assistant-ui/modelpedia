@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "count": 126,
   "ids": [
     "851-labs-background-remover",
@@ -12,6 +12,7 @@
     "anthropic-claude-4.5-sonnet",
     "anthropic-claude-opus-4.6",
     "anthropic-claude-opus-4.7",
+    "anthropic-claude-opus-5.5",
     "appmeloncreator-platmoji-beta",
     "arielreplicate-robust_video_matting",
     "beautyyuyanli-multilingual-e5-large",
@@ -62,7 +63,6 @@
     "google-nano-banana-2.1",
     "google-nano-banana-pro",
     "google-upscaler",
-    "hardtunesk-clon-tinder",
     "hyper3d-rodin",
     "ideogram-ai-ideogram-character",
     "inworld-realtime-tts-2",
@@ -100,8 +100,9 @@
     "prunaai-p-video",
     "prunaai-p-video-2-pro",
     "prunaai-p-video-2-pro-reference",
+    "prunaai-p-video-animate",
     "prunaai-p-video-avatar",
-    "prunaai-z-image-turbo",
+    "prunaai-p-video-replace",
     "rafaelgalle-whisper-diarization-advanced",
     "recraft-ai-recraft-v4-styles-pro-svg",
     "replicate-flux-3-klein-image-lora",
@@ -124,7 +125,6 @@
     "xai-grok-imagine-video-1.5",
     "xai-grok-imagine-video-extension",
     "yanexr-embedding-gemma-2",
-    "yorickvp-llava-13b",
     "zsxkib-create-rvc-dataset",
     "zsxkib-multitalk",
     "zsxkib-realistic-voice-cloning"

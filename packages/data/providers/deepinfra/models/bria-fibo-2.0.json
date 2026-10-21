@@ -1,0 +1,33 @@
+{
+  "id": "Bria/fibo-2.0",
+  "name": "fibo-2.0",
+  "created_by": "bria",
+  "source": "official",
+  "description": "FIBO 2.0 is Bria's latest JSON-native text-to-image model, the successor to FIBO 1.0 and 1.5, with structured-prompt control over lighting, composition and camera. Trained only on licensed data for commercially safe output.",
+  "status": "active",
+  "model_type": "image",
+  "open_weight": false,
+  "tagline": "FIBO 2.0 is Bria's latest JSON-native text-to-image model, the successor to FIBO 1.0 and 1.5, with structured-prompt control over lighting, composition and camera.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "pricing_notes": ["$0.0400 per image unit (0x0 default)"],
+  "_generated": {
+    "name": "7c6326df",
+    "description": "0f6ac1be",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "open_weight": "68934a3e",
+    "tagline": "feaecf5a",
+    "capabilities": "0fa77dc6",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "pricing_notes": "05714ce8"
+  },
+  "last_updated": "2026-10-21"
+}

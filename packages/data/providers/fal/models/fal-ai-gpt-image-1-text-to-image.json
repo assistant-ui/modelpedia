@@ -18,7 +18,7 @@
     "output": ["image"]
   },
   "endpoints": ["images"],
-  "last_seen_at": "2026-04-26",
+  "last_seen_at": "2026-10-20",
   "_generated": {
     "name": "480da012",
     "family": "480da012",
@@ -31,7 +31,7 @@
     "capabilities": "d3117eb0",
     "modalities": "814867b9",
     "endpoints": "9a7c17cc",
-    "last_seen_at": "42382078"
+    "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-21"
 }

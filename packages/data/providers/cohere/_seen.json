@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-17",
-  "count": 40,
+  "date": "2026-10-21",
+  "count": 42,
   "ids": [
     "c4ai-aya-expanse-32b",
     "c4ai-aya-expanse-8b",
@@ -38,6 +38,8 @@
     "rerank-v3.5",
     "rerank-v4.0-fast",
     "rerank-v4.0-pro",
+    "rerank-v5.0-fast",
+    "rerank-v5.0-pro",
     "tiny-aya-earth",
     "tiny-aya-fire",
     "tiny-aya-global",

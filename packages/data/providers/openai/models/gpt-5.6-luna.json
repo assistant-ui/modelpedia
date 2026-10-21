@@ -39,23 +39,25 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": [
+          "Input",
+          "Output",
+          "Cached input",
+          "30m write",
+          "12h write"
+        ],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.2, 0.02, 0.25, 1.2]
+            "values": [0.2, 1.2, 0.02, 0.25, 0.5]
           },
           {
             "label": "Batch",
-            "values": [0.1, 0.01, 0.125, 0.6]
-          },
-          {
-            "label": "Flex",
-            "values": [0.1, 0.01, 0.125, 0.6]
+            "values": [0.1, 0.6, 0.01, 0.125, 0.25]
           },
           {
             "label": "Fast",
-            "values": [0.4, 0.04, 0.5, 2.4]
+            "values": [0.4, 2.4, 0.04, 0.5, 1]
           }
         ]
       }
@@ -94,13 +96,13 @@
     "open_weight": "68934a3e",
     "capabilities": "822aa4d1",
     "modalities": "6399757e",
-    "pricing": "13dd5e1b",
+    "pricing": "5e5a3c39",
     "tools": "c3217644",
     "endpoints": "ec55a017",
     "description": "ed04d92e",
     "tagline": "e7e57a3e"
   },
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "description": "GPT-5.6 Luna is designed for cost-sensitive, high-volume workloads. It roughly corresponds to the nano model tier used in earlier GPT-5 families. Reasoning.effort supports: none, low, medium (default), high, xhigh, and max.",
   "tagline": "GPT-5.6 model optimized for cost-sensitive workloads",
   "snapshots": ["gpt-5.6-luna"]

@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-16",
-  "count": 81,
+  "date": "2026-10-21",
+  "count": 83,
   "ids": [
     "01-ai-yi-large",
     "adept-fuyu-8b",
@@ -59,6 +59,8 @@
     "nvidia-nemotron-3-super-120b-a12b",
     "nvidia-nemotron-3-ultra-550b-a55b",
     "nvidia-nemotron-3.5-content-safety",
+    "nvidia-nemotron-3.5-embed-1b",
+    "nvidia-nemotron-3.5-embed-8b",
     "nvidia-nemotron-3.5-lightning-30b-a3b",
     "nvidia-nemotron-3.5-super-vl-120b-a12b",
     "nvidia-nemotron-4-340b-instruct",

@@ -7,7 +7,7 @@
   "description": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as C",
   "release_date": "2026-04-22",
   "context_window": 1050000,
-  "max_output_tokens": 131072,
+  "max_output_tokens": 945000,
   "model_type": "chat",
   "tagline": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as C",
   "capabilities": {
@@ -21,9 +21,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.435,
-    "output": 0.87,
-    "cached_input": 0.004
+    "input": 0.305,
+    "output": 0.609,
+    "cached_input": 0.003
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -32,17 +32,17 @@
     "description": "a3c78cab",
     "release_date": "c48b287d",
     "context_window": "f170ebb2",
-    "max_output_tokens": "f7de594e",
+    "max_output_tokens": "beaaa968",
     "model_type": "d669f408",
     "tagline": "a3c78cab",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
-    "pricing": "30730939",
+    "pricing": "a6cc42d7",
     "tools": "f0c1dc7e",
     "status": "2e2f74dc",
     "deprecation_date": "2ba1fb27"
   },
-  "last_updated": "2026-10-10",
+  "last_updated": "2026-10-21",
   "status": "deprecated",
   "deprecation_date": "2026-10-21"
 }

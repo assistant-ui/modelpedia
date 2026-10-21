@@ -3,7 +3,7 @@
   "name": "gpt-4-turbo-2024-04-09",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "family": "gpt-4-turbo",
   "status": "deprecated",
   "knowledge_cutoff": "2023-12",
@@ -42,7 +42,7 @@
     "description": "43471c17",
     "model_type": "d669f408",
     "tagline": "787c2f45",
-    "pricing": "143a7e04",
+    "pricing": "19ed11e1",
     "license": "9186c466",
     "release_date": "b283eaaa",
     "page_url": "b920d448",
@@ -60,15 +60,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [10, null, null, 30]
-          },
-          {
-            "label": "Batch",
-            "values": [5, null, null, 15]
+            "values": [10, 30]
           }
         ]
       }

@@ -14,7 +14,7 @@
     "output": ["video"]
   },
   "endpoints": ["video"],
-  "last_seen_at": "2026-10-06",
+  "last_seen_at": "2026-10-20",
   "_generated": {
     "name": "fe0fb4a8",
     "description": "dcc400bd",
@@ -25,7 +25,7 @@
     "tagline": "dcc400bd",
     "modalities": "94e5e9ab",
     "endpoints": "7a78c070",
-    "last_seen_at": "684e6a7f"
+    "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-06"
+  "last_updated": "2026-10-21"
 }

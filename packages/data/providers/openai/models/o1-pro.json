@@ -3,7 +3,7 @@
   "name": "o1-pro",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "family": "o1",
   "description": "The o1 series of models are trained with reinforcement learning to think  before they answer and perform complex reasoning. The o1-pro model uses more  compute to think harder and provide consistently better answers.",
   "status": "deprecated",
@@ -39,15 +39,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [150, null, null, 600]
-          },
-          {
-            "label": "Batch",
-            "values": [75, null, null, 300]
+            "values": [150, 600]
           }
         ]
       }
@@ -72,7 +68,7 @@
     "tagline": "d081326f",
     "capabilities": "91876c96",
     "modalities": "6399757e",
-    "pricing": "74ecdee0",
+    "pricing": "3849ae73",
     "tools": "895d6d67",
     "endpoints": "6f01fd6c",
     "license": "9186c466",

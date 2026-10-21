@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/sam-audio/span-separate",
   "tagline": "Audio separation with SAM Audio.",
-  "last_seen_at": "2026-04-21",
+  "last_seen_at": "2026-10-20",
   "_generated": {
     "name": "c24a108c",
     "description": "325b1b9d",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "6f08ed6c",
     "tagline": "325b1b9d",
-    "last_seen_at": "5029e96d"
+    "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-21"
 }

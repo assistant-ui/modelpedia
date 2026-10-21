@@ -3,7 +3,7 @@
   "name": "gpt-3.5-turbo-0125",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "family": "gpt-3.5",
   "status": "deprecated",
   "knowledge_cutoff": "2021-09",
@@ -45,7 +45,7 @@
     "deprecation_date": "c48b287d",
     "retirement_date": "68185e3b",
     "successor": "d5215155",
-    "pricing": "ec72c86f"
+    "pricing": "e8edcfc9"
   },
   "model_type": "chat",
   "license": "proprietary",
@@ -64,15 +64,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.5, null, null, 1.5]
-          },
-          {
-            "label": "Batch",
-            "values": [0.25, null, null, 0.75]
+            "values": [0.5, 1.5]
           }
         ]
       },

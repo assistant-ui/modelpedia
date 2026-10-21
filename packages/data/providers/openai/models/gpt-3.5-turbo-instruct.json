@@ -3,7 +3,7 @@
   "name": "gpt-3.5-turbo-instruct",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "family": "gpt-3.5",
   "description": "Similar capabilities as GPT-3 era models. Compatible with legacy Completions endpoint and not Chat Completions.",
   "status": "deprecated",
@@ -33,15 +33,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.5, null, null, 2]
-          },
-          {
-            "label": "Batch",
-            "values": [0.25, null, null, 0.75]
+            "values": [0.5, 1.5]
           }
         ]
       },
@@ -61,8 +57,8 @@
         ]
       }
     ],
-    "input": 1.5,
-    "output": 2,
+    "input": 0.5,
+    "output": 1.5,
     "batch_input": 0.25,
     "batch_output": 0.75
   },
@@ -82,7 +78,7 @@
     "tagline": "1233a25c",
     "capabilities": "b1cc1d6c",
     "modalities": "68e53d93",
-    "pricing": "3ee6936e",
+    "pricing": "c7cc824c",
     "endpoints": "b36a99d3",
     "license": "9186c466",
     "page_url": "4f4de878",

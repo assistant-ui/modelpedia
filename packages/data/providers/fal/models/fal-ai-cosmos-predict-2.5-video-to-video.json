@@ -9,7 +9,7 @@
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/cosmos-predict-2.5/video-to-video",
   "tagline": "Generate video from text and videos using NVIDIA's 2B Cosmos Post-Trained Model",
-  "last_seen_at": "2026-02-24",
+  "last_seen_at": "2026-10-20",
   "_generated": {
     "name": "f920597d",
     "description": "9298a755",
@@ -18,7 +18,7 @@
     "model_type": "ddb0b7bc",
     "page_url": "30a4502b",
     "tagline": "9298a755",
-    "last_seen_at": "2ad07f55"
+    "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-21"
 }

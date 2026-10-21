@@ -3,8 +3,8 @@
   "name": "rerank-v4.0-fast",
   "created_by": "cohere",
   "source": "official",
-  "last_updated": "2026-03-23",
-  "description": "A light version of rerank-v4.0-pro , this is a multilingual model that allows for re-ranking English and non-english documents and semi-structured data (JSON). This model is better suited for low latency and high throughput use-cases than its pro variant.",
+  "last_updated": "2026-10-21",
+  "description": "A lighter version of rerank-v4.0-pro for low latency and high throughput use-cases. For new projects, use rerank-v5.0-fast .",
   "status": "active",
   "model_type": "rerank",
   "capabilities": {
@@ -16,7 +16,7 @@
   },
   "_generated": {
     "name": "e869920b",
-    "description": "f3b45287",
+    "description": "ac6f1ad0",
     "status": "379ac110",
     "model_type": "477930e6",
     "capabilities": "0fa77dc6",

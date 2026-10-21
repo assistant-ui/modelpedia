@@ -3,7 +3,7 @@
   "name": "davinci-002",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "description": "GPT base models can understand and generate natural language or code but are not trained with instruction following. These models are made to be replacements for our original GPT-3 base models and use the legacy Completions API. Most customers should use GPT-3.5 or GPT-4.",
   "status": "deprecated",
   "knowledge_cutoff": "2021-09",
@@ -28,21 +28,6 @@
   "pricing": {
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [2, null, null, 2]
-          },
-          {
-            "label": "Batch",
-            "values": [1, null, null, 1]
-          }
-        ]
-      },
-      {
         "label": "Fine-tuning",
         "unit": "",
         "columns": ["Training", "Input", "Cached input", "Output"],
@@ -54,6 +39,17 @@
           {
             "label": "Batch",
             "values": [6, 6, null, 6]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2, 2]
           }
         ]
       }
@@ -77,7 +73,7 @@
     "tagline": "25a45b8b",
     "capabilities": "77cb67d9",
     "modalities": "68e53d93",
-    "pricing": "1f6ef21c",
+    "pricing": "891963ed",
     "endpoints": "69bfe5cd",
     "license": "9186c466",
     "page_url": "2bdb5292",

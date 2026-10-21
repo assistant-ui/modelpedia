@@ -30,7 +30,11 @@
     "modalities": "68e53d93",
     "pricing": "59563a1f",
     "endpoints": "d8fa1080",
-    "quantization": "45ae6e17"
+    "quantization": "45ae6e17",
+    "description": "f7094173",
+    "tagline": "f7094173"
   },
-  "last_updated": "2026-10-16"
+  "last_updated": "2026-10-21",
+  "description": "Clef-Flash is a 9B multimodal model that turns a state and a schema of typed questions into decisions.",
+  "tagline": "Clef-Flash is a 9B multimodal model that turns a state and a schema of typed questions into decisions."
 }

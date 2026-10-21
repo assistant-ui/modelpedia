@@ -39,19 +39,21 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "columns": [
+          "Input",
+          "Output",
+          "Cached input",
+          "30m write",
+          "12h write"
+        ],
         "rows": [
           {
             "label": "Standard",
-            "values": [30, null, null, 180]
+            "values": [30, 180, null, null, null]
           },
           {
             "label": "Batch",
-            "values": [15, null, null, 90]
-          },
-          {
-            "label": "Flex",
-            "values": [15, null, null, 90]
+            "values": [15, 90, null, null, null]
           }
         ]
       }
@@ -84,14 +86,14 @@
     "open_weight": "68934a3e",
     "capabilities": "bcd7f168",
     "modalities": "6399757e",
-    "pricing": "dbe81d76",
+    "pricing": "b3b4fe4c",
     "tools": "0172b421",
     "endpoints": "6f01fd6c",
     "release_date": "a87679d0",
     "description": "4bbff3ab",
     "tagline": "7db15905"
   },
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-21",
   "release_date": "2026-04-23",
   "snapshots": ["gpt-5.5-pro-2026-04-23"],
   "description": "GPT-5.5 Pro uses more compute to think harder and provide consistently better answers.",
