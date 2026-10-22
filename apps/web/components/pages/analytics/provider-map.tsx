@@ -90,12 +90,7 @@ export function ProviderMap({
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
-                  className="fill-muted stroke-border"
-                  style={{
-                    default: { outline: "none" },
-                    hover: { outline: "none" },
-                    pressed: { outline: "none" },
-                  }}
+                  className="fill-muted stroke-border outline-none"
                 />
               ))
             }
