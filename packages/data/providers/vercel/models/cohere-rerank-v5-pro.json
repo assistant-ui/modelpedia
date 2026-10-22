@@ -1,0 +1,25 @@
+{
+  "id": "cohere/rerank-v5-pro",
+  "name": "rerank-v5-pro",
+  "created_by": "cohere",
+  "source": "official",
+  "family": "rerank",
+  "context_window": 32800,
+  "model_type": "rerank",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.05,
+    "output": 0
+  },
+  "_generated": {
+    "name": "96d9f84f",
+    "family": "477930e6",
+    "context_window": "74a190a6",
+    "model_type": "477930e6",
+    "capabilities": "0fa77dc6",
+    "pricing": "edbb3c0f"
+  },
+  "last_updated": "2026-10-22"
+}

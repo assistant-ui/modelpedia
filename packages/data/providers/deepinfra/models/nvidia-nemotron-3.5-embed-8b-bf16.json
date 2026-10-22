@@ -1,0 +1,34 @@
+{
+  "id": "nvidia/Nemotron-3.5-Embed-8B-BF16",
+  "name": "Nemotron-3.5-Embed-8B-BF16",
+  "created_by": "nvidia",
+  "source": "official",
+  "description": "Nemotron-3.5-Embed-8B-BF16 is a multimodal embedding model from NVIDIA that maps text, images, and page screenshots into a shared 4096-dimensional vector space for visual document retrieval and semantic search. Built on the Nemotron-3-Embed-8B text encoder with a vision encoder, it supports up to 32k tokens and Matryoshka dimensions, and delivers the highest retrieval quality in the Nemotron 3.5 family.",
+  "status": "active",
+  "model_type": "embed",
+  "open_weight": true,
+  "tagline": "Nemotron-3.5-Embed-8B-BF16 is a multimodal embedding model from NVIDIA that maps text, images, and page screenshots into a shared 4096-dimensional vector space for visual document retrieval and semantic search.",
+  "capabilities": {
+    "vision": true,
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["embeddings"],
+  "quantization": "fp16",
+  "_generated": {
+    "name": "0387b7d5",
+    "description": "e03b68a1",
+    "status": "379ac110",
+    "model_type": "764cb3de",
+    "open_weight": "b326b506",
+    "tagline": "18b2dc83",
+    "capabilities": "5f5c7516",
+    "modalities": "68e53d93",
+    "endpoints": "5845adda",
+    "quantization": "a7cff86c"
+  },
+  "last_updated": "2026-10-22"
+}
