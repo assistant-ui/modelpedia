@@ -22,7 +22,7 @@ catalogs:
       specifier: ^2.0.1
       version: 2.0.1
     hono:
-      specifier: ^4.12.32
+      specifier: ^4.12.27
       version: 4.12.32
     next:
       specifier: ^16.2.12
