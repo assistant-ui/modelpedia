@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "count": 126,
   "ids": [
     "851-labs-background-remover",
@@ -66,6 +66,7 @@
     "hyper3d-rodin",
     "ideogram-ai-ideogram-character",
     "inworld-realtime-tts-2",
+    "jaaari-kokoro-82m",
     "krea-krea-2-medium",
     "krea-krea-3",
     "kwaivgi-kling-v3-omni-video",
@@ -95,12 +96,11 @@
     "philz1337x-clarity-pro-upscaler",
     "philz1337x-crystal-video-upscaler",
     "piddnad-ddcolor",
+    "pixverse-pixverse-v6-max",
     "prunaai-p-image-edit",
     "prunaai-p-image-upscale",
     "prunaai-p-video",
     "prunaai-p-video-2-pro",
-    "prunaai-p-video-2-pro-reference",
-    "prunaai-p-video-animate",
     "prunaai-p-video-avatar",
     "prunaai-p-video-replace",
     "rafaelgalle-whisper-diarization-advanced",

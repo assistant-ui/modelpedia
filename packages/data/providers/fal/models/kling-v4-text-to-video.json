@@ -1,0 +1,31 @@
+{
+  "id": "kling/v4/text-to-video",
+  "name": "Kling 4.0 Text to Video",
+  "created_by": "kling",
+  "source": "official",
+  "description": "Kling 4.0 generates videos from text prompts at 720p or 1080p, with durations from 3 to 30 seconds and support for per-shot prompts.",
+  "status": "active",
+  "release_date": "2026-10-16",
+  "model_type": "video",
+  "page_url": "https://fal.run/kling/v4/text-to-video",
+  "tagline": "Kling 4.0 generates videos from text prompts at 720p or 1080p, with durations from 3 to 30 seconds and support for per-shot prompts.",
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "endpoints": ["video"],
+  "last_seen_at": "2026-10-21",
+  "_generated": {
+    "name": "1b062562",
+    "description": "26717eff",
+    "status": "379ac110",
+    "release_date": "a343464b",
+    "model_type": "4d1b75ca",
+    "page_url": "fc73e3af",
+    "tagline": "26717eff",
+    "modalities": "94e5e9ab",
+    "endpoints": "7a78c070",
+    "last_seen_at": "2ba1fb27"
+  },
+  "last_updated": "2026-10-22"
+}

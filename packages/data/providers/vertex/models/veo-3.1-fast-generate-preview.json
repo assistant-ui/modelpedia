@@ -4,7 +4,7 @@
   "created_by": "google",
   "source": "official",
   "family": "veo-3.1",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "video",
   "license": "proprietary",
   "open_weight": false,
@@ -15,11 +15,15 @@
   "_generated": {
     "name": "e5a98dda",
     "family": "0fa3bcca",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "4d1b75ca",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "modalities": "94e5e9ab"
+    "modalities": "94e5e9ab",
+    "deprecation_date": "59575a1a",
+    "successor": "77f576ba"
   },
-  "last_updated": "2026-09-30"
+  "last_updated": "2026-10-22",
+  "deprecation_date": "2026-10-22",
+  "successor": "gemini-omni-1.1-flash"
 }

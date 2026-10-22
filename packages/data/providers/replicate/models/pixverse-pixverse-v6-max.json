@@ -1,0 +1,16 @@
+{
+  "id": "pixverse/pixverse-v6-max",
+  "name": "Pixverse V6 Max",
+  "created_by": "pixverse",
+  "source": "official",
+  "status": "active",
+  "model_type": "other",
+  "page_url": "https://replicate.com/pixverse/pixverse-v6-max",
+  "_generated": {
+    "name": "8469c480",
+    "status": "379ac110",
+    "model_type": "ddb0b7bc",
+    "page_url": "af9e1ec9"
+  },
+  "last_updated": "2026-10-22"
+}

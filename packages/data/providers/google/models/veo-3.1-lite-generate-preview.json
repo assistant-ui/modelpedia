@@ -4,7 +4,7 @@
   "created_by": "google",
   "source": "official",
   "family": "veo-3.1",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 1024,
   "license": "proprietary",
   "page_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-lite-generate-preview",
@@ -22,7 +22,7 @@
   "_generated": {
     "name": "bf542e3f",
     "family": "0fa3bcca",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "021bbc7e",
     "license": "9186c466",
     "page_url": "403d9200",
@@ -32,9 +32,13 @@
     "open_weight": "68934a3e",
     "endpoints": "20e16908",
     "description": "8a360ff8",
-    "tagline": "9fee8828"
+    "tagline": "9fee8828",
+    "deprecation_date": "59575a1a",
+    "successor": "77f576ba"
   },
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-22",
   "description": "A models available through the Gemini Enterprise Agent Platform to avoid service interruptions. Veo 3.1 Lite Preview is a high-efficiency, developer-first video model providing high-fidelity video generation, editing, and cinematic control. It leverages the state-of-the-art Veo 3.1 model to democratize professional-grade video AI by offering a scalable, programmable interface for creators and enterprises.",
-  "tagline": "The Interactions API is now generally available."
+  "tagline": "The Interactions API is now generally available.",
+  "deprecation_date": "2026-10-22",
+  "successor": "gemini-omni-1.1-flash"
 }

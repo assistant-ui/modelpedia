@@ -1,0 +1,34 @@
+{
+  "id": "recursive/flint-v1.0:free",
+  "name": "Recursive: Flint (free)",
+  "created_by": "recursive",
+  "source": "official",
+  "description": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents.",
+  "release_date": "2026-10-21",
+  "context_window": 262144,
+  "max_output_tokens": 235929,
+  "tagline": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "823af130",
+    "description": "8a3b0cf7",
+    "release_date": "2ba1fb27",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "7ad80673",
+    "tagline": "8a3b0cf7",
+    "capabilities": "03fbefb4",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-22"
+}

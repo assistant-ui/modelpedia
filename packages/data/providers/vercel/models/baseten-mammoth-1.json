@@ -1,0 +1,21 @@
+{
+  "id": "baseten/mammoth-1",
+  "name": "mammoth-1",
+  "created_by": "baseten",
+  "source": "official",
+  "context_window": 16400,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "b9985fc3",
+    "context_window": "e375a58e",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-10-22"
+}

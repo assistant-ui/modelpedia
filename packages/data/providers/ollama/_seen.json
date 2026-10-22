@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-22",
   "count": 33,
   "ids": [
     "beam",
@@ -11,6 +11,7 @@
     "deepseek-v4-pro",
     "deepseek-v4.1-flash",
     "embeddinggemma-2",
+    "flint",
     "gemma4",
     "glm-5.2",
     "glm-5.3",
@@ -30,7 +31,6 @@
     "nemotron-3-nano",
     "nemotron-3-super",
     "nemotron-3-ultra",
-    "nemotron-3.5-bolt",
     "nimble",
     "nimble-v3",
     "pplx-decider",

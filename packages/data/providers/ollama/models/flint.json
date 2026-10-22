@@ -1,0 +1,40 @@
+{
+  "id": "flint",
+  "name": "flint",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "Flint is a 39.8 billion-parameter mixture-of-experts model from Recursive, built for coding agents.",
+  "context_window": 262144,
+  "reasoning_tokens": true,
+  "license": "apache-2.0",
+  "parameters": 40,
+  "page_url": "https://ollama.com/library/flint",
+  "open_weight": true,
+  "tagline": "Flint is a 39.8 billion-parameter mixture-of-experts model from Recursive, built for coding agents.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d454a3c9",
+    "description": "fbc645f1",
+    "context_window": "4a1d32eb",
+    "reasoning_tokens": "b326b506",
+    "license": "60245731",
+    "parameters": "d645920e",
+    "page_url": "48c80e09",
+    "open_weight": "b326b506",
+    "tagline": "fbc645f1",
+    "capabilities": "4043afaa",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-22"
+}
