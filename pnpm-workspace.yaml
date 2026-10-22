@@ -14,7 +14,7 @@ catalog:
   react-dom: ^19.2.8
 
   # Next.js
-  next: ^16.2.12
+  next: ^16.4.2
   react-grab: ^0.1.50
 
   # TypeScript
@@ -25,10 +25,10 @@ catalog:
   "@tailwindcss/postcss": ^4.3.3
 
   # Hono
-  hono: ^4.12.32
+  hono: ^4.13.13
 
   # Cloudflare
-  wrangler: ^4.115.0
+  wrangler: ^4.151.3
 
   # Types
   "@types/node": ^26.1.2
