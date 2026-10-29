@@ -3,7 +3,7 @@
   "name": "spec-prefill-8b",
   "created_by": "unknown",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 4096,
   "max_output_tokens": 4096,
   "model_type": "chat",
@@ -18,7 +18,7 @@
   "endpoints": ["chat_completions"],
   "_generated": {
     "name": "286ac9a2",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "f7efa4f8",
     "max_output_tokens": "f7efa4f8",
     "model_type": "d669f408",

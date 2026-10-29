@@ -81,17 +81,17 @@
     "page_url": "23be04e5",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "release_date": "c32ecc6d",
-    "deprecation_date": "7047ff2b",
-    "retirement_date": "28df5f11",
+    "release_date": "7b8126b3",
+    "deprecation_date": "298b4e52",
+    "retirement_date": "60fda614",
     "successor": "a649f503"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-audio-preview",
   "open_weight": false,
   "tools": ["function_calling"],
-  "release_date": "2025-06-03",
-  "deprecation_date": "2026-07-20",
-  "retirement_date": "2027-01-20",
+  "release_date": "2024-10-01",
+  "deprecation_date": "2025-06-10",
+  "retirement_date": "2025-10-10",
   "successor": "gpt-audio-1.5"
 }

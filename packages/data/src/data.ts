@@ -169938,9 +169938,10 @@ export const providers: ProviderWithModels[] = [
           "batch_output": 5,
           "tiers": [
             {
-              "label": "Text tokens",
-              "unit": "Per 1M tokens",
+              "label": "Fine-tuning",
+              "unit": "",
               "columns": [
+                "Training",
                 "Input",
                 "Cached input",
                 "Output"
@@ -169949,9 +169950,19 @@ export const providers: ProviderWithModels[] = [
                 {
                   "label": "Standard",
                   "values": [
-                    2.5,
-                    1.25,
-                    10
+                    25,
+                    3.75,
+                    1.875,
+                    15
+                  ]
+                },
+                {
+                  "label": "Batch",
+                  "values": [
+                    25,
+                    2.225,
+                    0.9,
+                    12.5
                   ]
                 }
               ]
@@ -170335,9 +170346,9 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "release_date": "2025-06-03",
-        "deprecation_date": "2026-07-20",
-        "retirement_date": "2027-01-20",
+        "release_date": "2024-10-01",
+        "deprecation_date": "2025-06-10",
+        "retirement_date": "2025-10-10",
         "successor": "gpt-audio-1.5"
       },
       {
@@ -171127,12 +171138,12 @@ export const providers: ProviderWithModels[] = [
           "output": 5
         },
         "license": "proprietary",
-        "release_date": "2025-03-20",
+        "release_date": "2025-12-15",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-transcribe",
         "open_weight": false,
-        "deprecation_date": "2026-07-20",
-        "retirement_date": "2027-01-20",
-        "successor": "gpt-4o-mini-transcribe-2025-12-15"
+        "deprecation_date": "2026-08-26",
+        "retirement_date": "2027-02-26",
+        "successor": "gpt-live-transcribe"
       },
       {
         "id": "gpt-4o-mini-tts-2025-03-20",
@@ -171358,7 +171369,7 @@ export const providers: ProviderWithModels[] = [
           "input": 0.6
         },
         "license": "proprietary",
-        "release_date": "2025-12-15",
+        "release_date": "2025-03-20",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-tts",
         "open_weight": false,
         "deprecation_date": "2026-10-01",
@@ -171844,7 +171855,7 @@ export const providers: ProviderWithModels[] = [
         "tools": [
           "function_calling"
         ],
-        "release_date": "2025-06-03",
+        "release_date": "2024-12-17",
         "deprecation_date": "2025-09-15",
         "retirement_date": "2026-05-07",
         "successor": "gpt-realtime-1.5"
@@ -172207,10 +172218,10 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-4o",
         "open_weight": false,
-        "release_date": "2024-05-13",
-        "retirement_date": "2026-10-23",
-        "deprecation_date": "2026-04-22",
-        "successor": "gpt-5.6-sol"
+        "release_date": "2024-11-20",
+        "retirement_date": "2027-01-14",
+        "deprecation_date": "2026-10-14",
+        "successor": "gpt-6-luna"
       },
       {
         "id": "gpt-5-2025-08-07",
@@ -176929,9 +176940,9 @@ export const providers: ProviderWithModels[] = [
         "license": "proprietary",
         "page_url": "https://developers.openai.com/api/docs/models/gpt-audio-mini",
         "open_weight": false,
-        "release_date": "2025-12-15",
-        "deprecation_date": "2026-07-20",
-        "retirement_date": "2027-01-20",
+        "release_date": "2025-10-06",
+        "deprecation_date": "2026-04-22",
+        "retirement_date": "2026-07-23",
         "successor": "gpt-audio-1.5"
       },
       {
@@ -181971,7 +181982,7 @@ export const providers: ProviderWithModels[] = [
         },
         "family": "sora-2",
         "license": "proprietary",
-        "release_date": "2025-12-08",
+        "release_date": "2025-10-06",
         "page_url": "https://developers.openai.com/api/docs/models/sora-2",
         "open_weight": false,
         "deprecation_date": "2026-03-24",
@@ -186892,9 +186903,9 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.018,
-          "output": 1.64,
-          "cached_input": 0.018
+          "input": 0.013,
+          "output": 1.58,
+          "cached_input": 0.012
         },
         "tools": [
           "function_calling"
@@ -187399,7 +187410,7 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.046,
-          "output": 0.077,
+          "output": 0.074,
           "cached_input": 0.03
         },
         "tools": [
@@ -193969,9 +193980,9 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.077,
-          "output": 0.255,
-          "cached_input": 0.042
+          "input": 0.09,
+          "output": 0.3,
+          "cached_input": 0.05
         },
         "tools": [
           "function_calling"
@@ -199207,7 +199218,7 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.192,
-          "output": 20,
+          "output": 15,
           "cached_input": 0.182
         },
         "tools": [
@@ -213009,7 +213020,7 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.046,
-          "output": 0.077,
+          "output": 0.074,
           "cached_input": 0.03
         },
         "tools": [
@@ -230541,7 +230552,7 @@ export const providers: ProviderWithModels[] = [
         "status": "active",
         "model_type": "reasoning",
         "context_window": 131072,
-        "max_output_tokens": 131072,
+        "max_output_tokens": 7168,
         "reasoning_tokens": true,
         "open_weight": true,
         "license": "deepseek",
@@ -230584,7 +230595,7 @@ export const providers: ProviderWithModels[] = [
         "status": "preview",
         "model_type": "reasoning",
         "context_window": 32768,
-        "max_output_tokens": 32768,
+        "max_output_tokens": 7168,
         "reasoning_tokens": true,
         "open_weight": true,
         "license": "deepseek",
@@ -230660,8 +230671,8 @@ export const providers: ProviderWithModels[] = [
         "source": "official",
         "family": "gemma-4",
         "status": "active",
-        "context_window": 262144,
-        "max_output_tokens": 262144,
+        "context_window": 131072,
+        "max_output_tokens": 131072,
         "model_type": "chat",
         "modalities": {
           "input": [
@@ -230963,7 +230974,7 @@ export const providers: ProviderWithModels[] = [
         "name": "spec-prefill-8b",
         "created_by": "unknown",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "context_window": 4096,
         "max_output_tokens": 4096,
         "model_type": "chat",
@@ -253251,7 +253262,7 @@ export const providers: ProviderWithModels[] = [
         },
         "pricing": {
           "input": 0.04,
-          "output": 0.08
+          "output": 0.07
         },
         "modalities": {
           "input": [

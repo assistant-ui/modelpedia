@@ -28,7 +28,7 @@
     "tagline": "ea72098d",
     "pricing": "8c5b89f0",
     "license": "9186c466",
-    "release_date": "56423574",
+    "release_date": "c68d2cee",
     "page_url": "35e1f90d",
     "open_weight": "68934a3e",
     "deprecation_date": "00dfb29f",
@@ -65,7 +65,7 @@
     "input": 0.6
   },
   "license": "proprietary",
-  "release_date": "2025-12-15",
+  "release_date": "2025-03-20",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-tts",
   "open_weight": false,
   "deprecation_date": "2026-10-01",
