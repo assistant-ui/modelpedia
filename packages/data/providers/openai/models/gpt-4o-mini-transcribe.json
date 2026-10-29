@@ -37,12 +37,12 @@
     "tagline": "68ae5486",
     "pricing": "1588afbb",
     "license": "9186c466",
-    "release_date": "c68d2cee",
+    "release_date": "56423574",
     "page_url": "f4721e5e",
     "open_weight": "68934a3e",
-    "deprecation_date": "7047ff2b",
-    "retirement_date": "28df5f11",
-    "successor": "8ea65262"
+    "deprecation_date": "7d843204",
+    "retirement_date": "9245bce7",
+    "successor": "829f2d5f"
   },
   "description": "Status: Deprecated",
   "tagline": "Speech-to-text model powered by GPT-4o Mini",
@@ -64,10 +64,10 @@
     "output": 5
   },
   "license": "proprietary",
-  "release_date": "2025-03-20",
+  "release_date": "2025-12-15",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-transcribe",
   "open_weight": false,
-  "deprecation_date": "2026-07-20",
-  "retirement_date": "2027-01-20",
-  "successor": "gpt-4o-mini-transcribe-2025-12-15"
+  "deprecation_date": "2026-08-26",
+  "retirement_date": "2027-02-26",
+  "successor": "gpt-live-transcribe"
 }

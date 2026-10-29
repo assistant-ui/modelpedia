@@ -78,16 +78,16 @@
     "license": "9186c466",
     "page_url": "5e94d582",
     "open_weight": "68934a3e",
-    "release_date": "56423574",
-    "deprecation_date": "7047ff2b",
-    "retirement_date": "28df5f11",
+    "release_date": "17ddf71c",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "26fc75d3",
     "successor": "a649f503"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-audio-mini",
   "open_weight": false,
-  "release_date": "2025-12-15",
-  "deprecation_date": "2026-07-20",
-  "retirement_date": "2027-01-20",
+  "release_date": "2025-10-06",
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-07-23",
   "successor": "gpt-audio-1.5"
 }

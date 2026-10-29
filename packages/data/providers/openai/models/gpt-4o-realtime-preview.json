@@ -81,7 +81,7 @@
     "page_url": "aea24c9c",
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
-    "release_date": "c32ecc6d",
+    "release_date": "4a83ff32",
     "deprecation_date": "792c58a8",
     "retirement_date": "d465a48a",
     "successor": "ba790d92"
@@ -91,7 +91,7 @@
   "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-realtime-preview",
   "open_weight": false,
   "tools": ["function_calling"],
-  "release_date": "2025-06-03",
+  "release_date": "2024-12-17",
   "deprecation_date": "2025-09-15",
   "retirement_date": "2026-05-07",
   "successor": "gpt-realtime-1.5"
