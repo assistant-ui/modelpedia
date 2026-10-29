@@ -11,7 +11,7 @@ pnpm install
 pnpm dev
 ```
 
-Requirements: Node.js 22+, pnpm 10+, [Bun](https://bun.sh) (for data scripts).
+Requirements: Node.js 26+, pnpm 10+, [Bun](https://bun.sh) (for data scripts).
 
 ## Fixing Model Data
 
