@@ -1,0 +1,20 @@
+{
+  "id": "stepaudio-3-gen-preview",
+  "name": "StepAudio 3 Gen",
+  "created_by": "stepfun",
+  "source": "official",
+  "status": "preview",
+  "model_type": "audio",
+  "license": "proprietary",
+  "open_weight": false,
+  "pricing_notes": ["限时免费"],
+  "_generated": {
+    "name": "a184e26d",
+    "status": "127aecde",
+    "model_type": "9f84c007",
+    "license": "9186c466",
+    "open_weight": "68934a3e",
+    "pricing_notes": "f9366e33"
+  },
+  "last_updated": "2026-10-29"
+}

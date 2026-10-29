@@ -1,0 +1,50 @@
+{
+  "id": "deepseek41-flash-20261017",
+  "name": "DeepSeek V4.1 Flash 1017",
+  "created_by": "deepseek",
+  "source": "official",
+  "family": "deepseek",
+  "description": "DeepSeek V4.1 Flash 1017 is an open-weight reasoning model with a 1M context window, hosted by Reka. It is served as an OpenAI-compatible passthrough with native tool calling, structured outputs, reasoning, logprobs, image input, and streaming.",
+  "status": "active",
+  "context_window": 1048576,
+  "max_output_tokens": 393216,
+  "model_type": "reasoning",
+  "page_url": "https://developer.reka.ai/models/deepseek41-flash-20261017",
+  "tagline": "DeepSeek V4.1 Flash 1017 is an open-weight reasoning model with a 1M context window, hosted by Reka.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6,
+    "cached_input": 0.003
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "251e759a",
+    "family": "4b81b92d",
+    "description": "d8933eb6",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "max_output_tokens": "628f482c",
+    "model_type": "17475f7f",
+    "page_url": "302e8cf3",
+    "tagline": "b9dea3b4",
+    "capabilities": "d1034176",
+    "modalities": "6399757e",
+    "pricing": "56c766bc",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-29"
+}

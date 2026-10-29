@@ -1,6 +1,6 @@
 {
   "id": "deepseek-v4-pro-2026-08-13",
-  "name": "DeepSeek V4-Pro",
+  "name": "DeepSeek V4-Pro-0813",
   "created_by": "deepseek",
   "source": "official",
   "family": "deepseek-chat",
@@ -24,15 +24,15 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.15,
-    "output": 0.6,
-    "cached_input": 0.003
+    "input": 0.66,
+    "output": 1.98,
+    "cached_input": 0.022
   },
   "open_weight": true,
   "endpoints": ["chat_completions", "completions"],
   "tools": ["function_calling"],
   "_generated": {
-    "name": "acc10913",
+    "name": "a45e44c1",
     "family": "fbd79fd9",
     "status": "379ac110",
     "release_date": "2a7fa61f",
@@ -43,10 +43,10 @@
     "license": "3c4c3ba5",
     "capabilities": "3938d31c",
     "modalities": "68e53d93",
-    "pricing": "56c766bc",
+    "pricing": "77b9d5d5",
     "open_weight": "b326b506",
     "endpoints": "772bacef",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-12"
+  "last_updated": "2026-10-29"
 }

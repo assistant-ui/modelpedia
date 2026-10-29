@@ -1,20 +1,26 @@
 {
   "id": "step-5-preview",
-  "name": "step-5-preview",
+  "name": "Step 5 Preview",
   "created_by": "stepfun",
   "source": "official",
   "license": "proprietary",
   "pricing": {
     "input": 0.972,
-    "cached_input": 0.049,
+    "cached_input": 0.097,
     "output": 2.778
   },
   "open_weight": false,
   "_generated": {
-    "name": "5a31b3dc",
+    "name": "44adf2d0",
     "license": "9186c466",
-    "pricing": "a53a657b",
-    "open_weight": "68934a3e"
+    "pricing": "9a33c603",
+    "open_weight": "68934a3e",
+    "description": "e19d5669",
+    "status": "127aecde",
+    "tagline": "e19d5669"
   },
-  "last_updated": "2026-09-20"
+  "last_updated": "2026-10-29",
+  "description": "推荐优先使用。面向真实任务的新一代旗舰基模，原生支持文本、图片和视频输入，提供 1M tokens 上下文，支持三档推理强度（low/medium/high）。适合图表分析、截图问答、视频总结和跨文档多模态任务。详见 [Step 5 Preview](https://platform.stepfun.com/docs/zh/guides/models/step-5-preview.md)。",
+  "status": "preview",
+  "tagline": "推荐优先使用。面向真实任务的新一代旗舰基模，原生支持文本、图片和视频输入，提供 1M tokens 上下文，支持三档推理强度（low/medium/high）。适合图表分析、截图问答、视频总结和跨文档多模态任务。详见 [Step 5 Preview](https://platform.stepfun.com/docs/zh/guides/models/step-5-preview.md)。"
 }

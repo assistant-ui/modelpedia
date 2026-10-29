@@ -5,7 +5,7 @@
   "source": "official",
   "family": "glm-5.2",
   "description": "GLM-5.2 is a flagship model built for the era of long-horizon tasks. With truly usable 1M-token context, it has been tested to handle project-scale engineering context, delivering more stable long-task execution, more reliable adherence to engineering standards, and higher success rates in development scenarios. A single task can complete the full development workflow—from requirements to deployable products across multiple platforms.",
-  "context_window": 128000,
+  "context_window": 1000000,
   "max_output_tokens": 128000,
   "license": "mit",
   "page_url": "https://docs.z.ai/guides/llm/glm-5.2",
@@ -35,7 +35,7 @@
     "name": "0e01939a",
     "family": "8e7b3ca0",
     "description": "226fcc8b",
-    "context_window": "34434798",
+    "context_window": "8155bc54",
     "max_output_tokens": "34434798",
     "license": "3c4c3ba5",
     "page_url": "1575d6f3",
@@ -47,5 +47,5 @@
     "open_weight": "b326b506",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-18"
+  "last_updated": "2026-10-29"
 }

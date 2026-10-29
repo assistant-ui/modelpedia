@@ -18,7 +18,7 @@
     "tool_call": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text"],
     "output": ["text"]
   },
   "_generated": {
@@ -32,9 +32,9 @@
     "model_type": "d669f408",
     "tagline": "e1c03f0b",
     "capabilities": "7f7dff2a",
-    "modalities": "6399757e",
+    "modalities": "68e53d93",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-08",
+  "last_updated": "2026-10-29",
   "tools": ["function_calling"]
 }

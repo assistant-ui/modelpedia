@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Discover ultimate control with Pikaframes key frame interpolation, a stunning image-to-video feature that allows you to upload up to 5 keyframes, customize their transition length and prompt, and see ",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-11-07",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/pika/v2.2/pikaframes",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "3f5119c8",
     "description": "2cc675fe",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "48f9a637",
     "model_type": "4d1b75ca",
     "page_url": "f24cab2a",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-10-29"
 }

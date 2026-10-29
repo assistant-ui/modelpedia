@@ -4,7 +4,7 @@
   "created_by": "qwen",
   "source": "official",
   "family": "qwen3.7",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -22,11 +22,11 @@
   "_generated": {
     "name": "a7b8f9be",
     "family": "d71bf7f7",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "pricing": "f1efe659",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-06-02"
+  "last_updated": "2026-10-29"
 }

@@ -1,0 +1,19 @@
+{
+  "id": "elevenlabs/eleven-v3",
+  "name": "eleven-v3",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 40,
+    "output": 0
+  },
+  "_generated": {
+    "name": "2f96af54",
+    "capabilities": "0fa77dc6",
+    "pricing": "461975bc"
+  },
+  "last_updated": "2026-10-29"
+}

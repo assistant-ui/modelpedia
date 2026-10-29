@@ -3,18 +3,19 @@
   "name": "GLM-OCR",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-10-29",
   "capabilities": {
-    "streaming": true
+    "streaming": true,
+    "vision": true
   },
   "modalities": {
-    "input": ["text"],
+    "input": ["text", "image"],
     "output": ["text"]
   },
   "_generated": {
     "name": "b963b5ac",
-    "capabilities": "0fa77dc6",
-    "modalities": "68e53d93",
+    "capabilities": "8a3b232e",
+    "modalities": "6399757e",
     "model_type": "d669f408",
     "family": "cb6bfc11",
     "license": "9186c466",

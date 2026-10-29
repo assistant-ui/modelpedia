@@ -3,10 +3,10 @@
   "name": "Seedance 2.0",
   "created_by": "bytedance",
   "source": "official",
-  "description": "Adopts a unified multimodal audio-video joint generation architecture that supports text, image, audio, and video inputs, leading to the most comprehensive multimodal content reference and editing cap",
+  "description": "Unified multimodal audio-video generation with SOTA performance in complex motion.",
   "status": "active",
   "model_type": "video",
-  "page_url": "https://seed.bytedance.com/en/seedance2_0",
+  "page_url": "https://seed.bytedance.com/en/blog/seedance-2-0-official-launch",
   "tagline": "Adopts a unified multimodal audio-video joint generation architecture that supports text, image, audio, and video inputs, leading to the most comprehensive multimodal content reference and editing cap",
   "capabilities": {
     "vision": true
@@ -18,14 +18,14 @@
   "endpoints": ["video"],
   "_generated": {
     "name": "ca2438d9",
-    "description": "a734a11c",
+    "description": "db9b21f6",
     "status": "379ac110",
     "model_type": "4d1b75ca",
-    "page_url": "11fff8fb",
+    "page_url": "78548d25",
     "tagline": "a734a11c",
     "capabilities": "d3117eb0",
     "modalities": "135102b7",
     "endpoints": "7a78c070"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

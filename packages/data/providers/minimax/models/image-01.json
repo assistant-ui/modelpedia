@@ -1,0 +1,30 @@
+{
+  "id": "image-01",
+  "name": "image-01",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "Supports text-to-image and image-to-image generation",
+  "status": "active",
+  "model_type": "image",
+  "tagline": "Supports text-to-image and image-to-image generation",
+  "capabilities": {
+    "streaming": false,
+    "tool_call": false
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "_generated": {
+    "name": "217a6246",
+    "family": "c85916f0",
+    "description": "b7ad0d54",
+    "status": "379ac110",
+    "model_type": "db8857fe",
+    "tagline": "b7ad0d54",
+    "capabilities": "064e1c4e",
+    "modalities": "bbf9b8bb"
+  },
+  "last_updated": "2026-10-29"
+}

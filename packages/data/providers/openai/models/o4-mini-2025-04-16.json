@@ -3,9 +3,9 @@
   "name": "o4-mini-2025-04-16",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-29",
   "family": "o4",
-  "description": "o4-mini is our latest small o-series model. It's optimized for fast,",
+  "description": "Status: Shut down",
   "status": "deprecated",
   "knowledge_cutoff": "2024-06",
   "context_window": 200000,
@@ -47,17 +47,6 @@
             "values": [100, 2, 0.5, 8]
           }
         ]
-      },
-      {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [1.1, 0.275, 4.4]
-          }
-        ]
       }
     ],
     "input": 1.1,
@@ -70,7 +59,7 @@
   "_generated": {
     "name": "80546c13",
     "family": "a842f941",
-    "description": "b9c69742",
+    "description": "9aaf237e",
     "status": "2e2f74dc",
     "knowledge_cutoff": "b087cb52",
     "context_window": "03e6c616",
@@ -83,7 +72,7 @@
     "tagline": "d120aad1",
     "capabilities": "7e267bba",
     "modalities": "6399757e",
-    "pricing": "3c753b10",
+    "pricing": "d1d52ef8",
     "endpoints": "b36a99d3",
     "license": "9186c466",
     "release_date": "67604092",

@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Start with a simple text input to create dynamic generations that defy expectations.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-03-14",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/pika/v2.1/text-to-video",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "6897c59d",
     "description": "a8372a37",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "e0a4c199",
     "model_type": "4d1b75ca",
     "page_url": "e7e48048",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

@@ -1,7 +1,7 @@
 {
   "id": "grok-build-0.1",
   "name": "Grok Build 0.1",
-  "created_by": "unknown",
+  "created_by": "xai",
   "source": "official",
   "status": "active",
   "model_type": "chat",
@@ -25,5 +25,5 @@
     "pricing": "4e7bc727",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-06-02"
+  "last_updated": "2026-10-29"
 }

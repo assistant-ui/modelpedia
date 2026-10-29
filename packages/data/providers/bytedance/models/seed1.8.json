@@ -3,10 +3,10 @@
   "name": "Seed1.8",
   "created_by": "bytedance",
   "source": "official",
-  "description": "A general-purpose agent model capable of efficiently and accurately completing tasks in complex workflows.",
+  "description": "An all-in-one integration of search, coding, and GUI Agent capabilities.",
   "status": "active",
   "model_type": "chat",
-  "page_url": "https://seed.bytedance.com/en/seed1_8",
+  "page_url": "https://seed.bytedance.com/en/blog/official-release-of-seed1-8-a-generalized-agentic-model",
   "tagline": "A general-purpose agent model capable of efficiently and accurately completing tasks in complex workflows.",
   "capabilities": {
     "streaming": true
@@ -18,14 +18,14 @@
   "endpoints": ["chat_completions"],
   "_generated": {
     "name": "d89fb572",
-    "description": "2245790c",
+    "description": "449c4b88",
     "status": "379ac110",
     "model_type": "d669f408",
-    "page_url": "407838c4",
+    "page_url": "ac8d461f",
     "tagline": "2245790c",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93",
     "endpoints": "d8fa1080"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

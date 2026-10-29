@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "OmniGen is a unified image generation model that can generate a wide range of images from multi-modal prompts.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2024-11-29",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/omnigen-v1",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "4af3819b",
     "description": "14308705",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "8fb80669",
     "model_type": "db8857fe",
     "page_url": "8f888ecd",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

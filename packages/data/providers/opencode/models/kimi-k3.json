@@ -12,7 +12,8 @@
   "pricing": {
     "input": 3,
     "output": 15,
-    "cached_input": 0.3
+    "cached_input": 0.3,
+    "cache_write": 3
   },
   "modalities": {
     "input": ["text"],
@@ -24,8 +25,8 @@
     "status": "379ac110",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "pricing": "0deaf3da",
+    "pricing": "5eca9e34",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-07-30"
+  "last_updated": "2026-10-29"
 }

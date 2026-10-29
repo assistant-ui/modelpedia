@@ -1,0 +1,16 @@
+{
+  "id": "muse-spark-1.2-contributor",
+  "name": "Muse Spark 1.2 Contributor",
+  "created_by": "meta",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "9d4ace50",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-10-29"
+}

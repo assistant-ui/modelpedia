@@ -3,7 +3,7 @@
   "name": "gpt-4o-mini-audio-preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-23",
+  "last_updated": "2026-10-29",
   "family": "gpt-4o",
   "knowledge_cutoff": "2023-09",
   "capabilities": {
@@ -21,9 +21,11 @@
     "modalities": "68e53d93",
     "model_type": "d669f408",
     "description": "23fbfc5e",
-    "tagline": "23fbfc5e"
+    "tagline": "23fbfc5e",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "description": "Audio model for audio and text generation.",
-  "tagline": "Audio model for audio and text generation."
+  "tagline": "Audio model for audio and text generation.",
+  "status": "deprecated"
 }

@@ -3,7 +3,7 @@
   "name": "qwen3-max",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-10-29",
   "family": "qwen3",
   "context_window": 256000,
   "max_output_tokens": 32768,
@@ -38,7 +38,8 @@
     "page_url": "6ecc6f25",
     "open_weight": "b326b506",
     "tools": "f0c1dc7e",
-    "reasoning_tokens": "b326b506"
+    "reasoning_tokens": "b326b506",
+    "status": "2e2f74dc"
   },
   "license": "apache-2.0",
   "provider": "qwen",
@@ -47,5 +48,6 @@
   "page_url": "https://www.alibabacloud.com/help/en/model-studio/text-generation-model",
   "open_weight": true,
   "tools": ["function_calling"],
-  "reasoning_tokens": true
+  "reasoning_tokens": true,
+  "status": "deprecated"
 }

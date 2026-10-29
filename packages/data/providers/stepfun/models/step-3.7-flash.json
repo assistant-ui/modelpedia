@@ -1,6 +1,6 @@
 {
   "id": "step-3.7-flash",
-  "name": "step-3.7-flash",
+  "name": "Step 3.7 Flash",
   "created_by": "stepfun",
   "source": "official",
   "license": "proprietary",
@@ -11,10 +11,16 @@
   },
   "open_weight": false,
   "_generated": {
-    "name": "ae2123a8",
+    "name": "c4406894",
     "license": "9186c466",
     "pricing": "4853b5c0",
-    "open_weight": "68934a3e"
+    "open_weight": "68934a3e",
+    "description": "dae18bd6",
+    "status": "379ac110",
+    "tagline": "dae18bd6"
   },
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-10-29",
+  "description": "阶跃星辰的高速多模态推理模型，**原生支持图片和视频理解**，无需借助视觉 MCP 或额外模型，可直接完成图像 / 视频问答、跨模态分析等任务。支持三档推理强度（low/medium/high），上下文长度为 256K。详见 [Step 3.7 Flash](https://platform.stepfun.com/docs/zh/guides/models/step-3.7-flash.md)。",
+  "status": "active",
+  "tagline": "阶跃星辰的高速多模态推理模型，**原生支持图片和视频理解**，无需借助视觉 MCP 或额外模型，可直接完成图像 / 视频问答、跨模态分析等任务。支持三档推理强度（low/medium/high），上下文长度为 256K。详见 [Step 3.7 Flash](https://platform.stepfun.com/docs/zh/guides/models/step-3.7-flash.md)。"
 }

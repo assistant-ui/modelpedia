@@ -1,6 +1,6 @@
 {
   "id": "step-audio-r1.5",
-  "name": "step-audio-r1.5",
+  "name": "Step Audio R1.5",
   "created_by": "stepfun",
   "source": "official",
   "license": "proprietary",
@@ -11,12 +11,18 @@
   },
   "open_weight": false,
   "_generated": {
-    "name": "134a66c0",
+    "name": "3e469930",
     "license": "9186c466",
     "pricing": "2111cf5a",
     "open_weight": "68934a3e",
-    "status": "2e2f74dc"
+    "status": "379ac110",
+    "description": "e904ade6",
+    "model_type": "9f84c007",
+    "tagline": "84db1be9"
   },
-  "last_updated": "2026-09-16",
-  "status": "deprecated"
+  "last_updated": "2026-10-29",
+  "status": "active",
+  "description": "* 定位：深度声音理解与推理（Step Audio R1.1 升级版） * 能力标签：边说边想、深度推理、自然交互 * 体验入口：[体验中心](https://www.stepfun.com/studio/audio?tab=conversation) * 在 Step Audio R1.1 的基础上升级，进一步强化声音细节分析与逻辑推理能力，能听懂语气背后的深意，大幅提高对声音和情绪的理解。 * 引入基于人类反馈的强化学习（RLHF），在保持推理能力的同时，提升长程语音对话的自然度与情感连贯性。 * 推理和说话并发进行，在保证高质量回复的同时实现更快响应。",
+  "model_type": "audio",
+  "tagline": "* 定位：深度声音理解与推理（Step Audio R1.1 升级版） * 能力标签：边说边想、深度推理、自然交互 * 体验入口：[体验中心](https://www.stepfun.com/studio/audio?tab=conversation) * 在 Step Audio R1.1 的基础上升级，进一步强化声音细节分析与逻辑推理能力，能听懂语气背后的深意，大幅提高对声音和情绪的理解。 *"
 }

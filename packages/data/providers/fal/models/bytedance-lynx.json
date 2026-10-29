@@ -4,7 +4,7 @@
   "created_by": "bytedance",
   "source": "official",
   "description": "Generate subject consistent videos using Lynx from ByteDance!",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-11-18",
   "model_type": "video",
   "page_url": "https://fal.run/bytedance/lynx",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "8d19120a",
     "description": "391b14a9",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "10547878",
     "model_type": "4d1b75ca",
     "page_url": "03a566c3",
@@ -31,5 +31,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "42382078"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

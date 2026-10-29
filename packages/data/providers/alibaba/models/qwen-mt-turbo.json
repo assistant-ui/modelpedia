@@ -3,7 +3,7 @@
   "name": "qwen-mt-turbo",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-10-29",
   "family": "qwen",
   "model_type": "chat",
   "capabilities": {
@@ -39,7 +39,8 @@
     "tagline": "4fbbeb44",
     "context_window": "67510c89",
     "reasoning_tokens": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "license": "apache-2.0",
   "open_weight": true,
@@ -48,5 +49,6 @@
   "tagline": "Qwen-MT is a flagship Large Language Model (LLM) for translation, fully upgraded from Qwen 3.",
   "context_window": 16000,
   "reasoning_tokens": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

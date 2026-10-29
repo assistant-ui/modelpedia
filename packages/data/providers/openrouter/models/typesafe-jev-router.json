@@ -19,14 +19,16 @@
     "tagline": "47df2bf6",
     "modalities": "b7a3ac68",
     "capabilities": "03fbefb4",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "max_output_tokens": "297ce0b3"
   },
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-29",
   "capabilities": {
     "tool_call": true,
     "structured_output": true,
     "reasoning": true,
     "json_mode": true
   },
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "max_output_tokens": 65536
 }

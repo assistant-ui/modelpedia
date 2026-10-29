@@ -1,6 +1,6 @@
 {
   "id": "xai/grok-4.6",
-  "name": "xai/grok-4.6",
+  "name": "Grok 4.6",
   "created_by": "xai",
   "source": "official",
   "family": "grok-4.6",
@@ -20,10 +20,10 @@
     "output": ["text"]
   },
   "pricing_notes": [
-    "Input ranges $2 to $4, output ranges $6 to $12 per 1M tokens."
+    "Input: 2.00 (\\<200k) 4.00 (≥200k); Output: 6.00 (\\<200k) 12.00 (≥200k) per 1M tokens."
   ],
   "_generated": {
-    "name": "10eed8e0",
+    "name": "caa52b7d",
     "family": "6351f129",
     "license": "9186c466",
     "model_type": "d669f408",
@@ -31,7 +31,7 @@
     "pricing": "1b0b4866",
     "open_weight": "68934a3e",
     "modalities": "68e53d93",
-    "pricing_notes": "76906dea"
+    "pricing_notes": "132b739b"
   },
-  "last_updated": "2026-08-13"
+  "last_updated": "2026-10-29"
 }

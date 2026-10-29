@@ -3,7 +3,7 @@
   "name": "gpt-5-pro-2025-10-06",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-29",
   "family": "gpt-5",
   "status": "deprecated",
   "knowledge_cutoff": "2024-09",
@@ -71,7 +71,9 @@
     "tools": "f0c1dc7e",
     "deprecation_date": "af441ea0",
     "retirement_date": "d0164be5",
-    "successor": "cadec60b"
+    "successor": "cadec60b",
+    "description": "5344a855",
+    "tagline": "5344a855"
   },
   "model_type": "chat",
   "license": "proprietary",
@@ -81,5 +83,7 @@
   "tools": ["function_calling"],
   "deprecation_date": "2026-06-11",
   "retirement_date": "2026-12-11",
-  "successor": "gpt-5.6-sol"
+  "successor": "gpt-5.6-sol",
+  "description": "Status: Deprecated",
+  "tagline": "Status: Deprecated"
 }

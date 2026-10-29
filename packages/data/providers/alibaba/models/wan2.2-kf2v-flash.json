@@ -3,27 +3,27 @@
   "name": "wan2.2-kf2v-flash",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-10-29",
   "model_type": "video",
   "capabilities": {
     "streaming": true
   },
   "modalities": {
     "input": ["text"],
-    "output": ["text"]
+    "output": ["video"]
   },
   "endpoints": ["chat"],
   "_generated": {
     "name": "2193c71e",
     "model_type": "4d1b75ca",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93",
+    "modalities": "94e5e9ab",
     "endpoints": "75df3f1c",
     "family": "222d75c9",
     "license": "9186c466",
     "open_weight": "68934a3e",
     "description": "6f1125b5",
-    "page_url": "23162829",
+    "page_url": "6fcd7a70",
     "tagline": "d698878b",
     "status": "2e2f74dc"
   },
@@ -31,7 +31,7 @@
   "license": "proprietary",
   "open_weight": false,
   "description": "The Wan first-and-last-frame image-to-video model generates smooth, fluid videos using just two images---the first and last frames---plus your prompt. Videos feature rich artistic styles and cinematic-quality visuals. [API reference](https://www.alibabacloud.com/help/en/document_detail/2880649.html) \\| [Try it now](https://wan.video/wanxiang/videoCreation) ## International If you select the [Chinese mainland](https://www.alibabacloud.com/help/en/document_detail/3004398.html#080da663a75xh) deployment scope, model inference compute resources are restricted to the Chinese mainland. Static data is stored in your selected region. Supported region: China (Beijing).",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-2-kf2v-flash",
   "tagline": "Wan first-and-last-frame video generation models generate smooth, fluid videos from just two input frames, the first and last, plus a prompt.",
   "status": "deprecated"
 }

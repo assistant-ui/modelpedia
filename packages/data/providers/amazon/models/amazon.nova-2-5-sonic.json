@@ -1,0 +1,29 @@
+{
+  "id": "amazon.nova-2-5-sonic",
+  "name": "Nova 2.5 Sonic",
+  "created_by": "amazon",
+  "source": "official",
+  "release_date": "2026-10-05",
+  "context_window": 256000,
+  "max_output_tokens": 64000,
+  "model_type": "chat",
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-5-sonic",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["audio", "text"],
+    "output": ["audio", "text"]
+  },
+  "_generated": {
+    "name": "c46ae335",
+    "release_date": "5678bd8d",
+    "context_window": "2fd324cb",
+    "max_output_tokens": "762e98db",
+    "model_type": "d669f408",
+    "page_url": "db70af7a",
+    "capabilities": "0fa77dc6",
+    "modalities": "aeba3801"
+  },
+  "last_updated": "2026-10-29"
+}

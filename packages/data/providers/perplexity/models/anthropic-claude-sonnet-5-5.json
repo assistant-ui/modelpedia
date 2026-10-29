@@ -1,6 +1,6 @@
 {
   "id": "anthropic/claude-sonnet-5-5",
-  "name": "anthropic/claude-sonnet-5-5",
+  "name": "Claude Sonnet 5.5",
   "created_by": "anthropic",
   "source": "official",
   "family": "claude-sonnet",
@@ -20,7 +20,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "bbff7ab7",
+    "name": "c42e9cc8",
     "family": "68d1c457",
     "license": "9186c466",
     "model_type": "d669f408",
@@ -29,5 +29,5 @@
     "open_weight": "68934a3e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-10-13"
+  "last_updated": "2026-10-29"
 }

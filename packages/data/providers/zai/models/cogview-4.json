@@ -1,0 +1,23 @@
+{
+  "id": "cogview-4",
+  "name": "CogView-4",
+  "created_by": "zai",
+  "source": "official",
+  "license": "mit",
+  "page_url": "https://docs.z.ai/guides/image/cogview-4",
+  "model_type": "image",
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "5cce4730",
+    "license": "3c4c3ba5",
+    "page_url": "de4ff307",
+    "model_type": "db8857fe",
+    "modalities": "814867b9",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-10-29"
+}

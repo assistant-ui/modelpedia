@@ -1,0 +1,30 @@
+{
+  "id": "qwen3.5-ocr",
+  "name": "qwen3.5-ocr",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "qwen3.5",
+  "model_type": "chat",
+  "license": "apache-2.0",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-ocr",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "73a8ca45",
+    "family": "d548f421",
+    "model_type": "d669f408",
+    "license": "60245731",
+    "page_url": "4c60bb2f",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-10-29"
+}

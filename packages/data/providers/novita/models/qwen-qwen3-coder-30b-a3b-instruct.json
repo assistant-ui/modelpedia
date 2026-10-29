@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen3",
   "description": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, and agentic tool use.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-10-09",
   "context_window": 160000,
   "max_output_tokens": 32768,
@@ -34,7 +34,7 @@
     "name": "92dfba46",
     "family": "48c385a0",
     "description": "f1195630",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "35c42317",
     "context_window": "523ab41e",
     "max_output_tokens": "f4376436",
@@ -48,5 +48,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-10-29"
 }

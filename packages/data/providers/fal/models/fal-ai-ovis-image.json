@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Ovis-Image is a 7B text-to-image model specifically optimized for quick, high quality text rendering.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-11-29",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/ovis-image",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "4bffb0e4",
     "description": "4d3cec7b",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "ed3ba401",
     "model_type": "db8857fe",
     "page_url": "f4c125ad",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

@@ -8,14 +8,14 @@
   "model_type": "video",
   "license": "proprietary",
   "tagline": "The Wan image-to-video model has been upgraded to support multimodal inputs (text, image, audio, and video), and can perform three types of tasks: **first-frame-to-video, first-and-last-frame-to-video, and video continuation** .",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-7-i2v",
   "open_weight": false,
   "capabilities": {
     "streaming": true
   },
   "modalities": {
-    "input": ["text", "video"],
-    "output": ["text"]
+    "input": ["text"],
+    "output": ["video"]
   },
   "endpoints": ["chat"],
   "_generated": {
@@ -25,13 +25,13 @@
     "model_type": "4d1b75ca",
     "license": "9186c466",
     "tagline": "1d7b1815",
-    "page_url": "23162829",
+    "page_url": "4af1c62c",
     "open_weight": "68934a3e",
     "capabilities": "0fa77dc6",
-    "modalities": "901ff664",
+    "modalities": "94e5e9ab",
     "endpoints": "75df3f1c",
     "status": "2e2f74dc"
   },
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-10-29",
   "status": "deprecated"
 }

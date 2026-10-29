@@ -3,22 +3,22 @@
   "name": "Mirelo SFX2.0",
   "created_by": "mirelo-ai",
   "source": "official",
-  "description": "Generates sound effects from text prompts with control over duration, negative prompts, sample count, and output audio format.",
+  "description": "Generates sound effects and ambience from a text description, up to 600 seconds long, with up to 4 variations per request.",
   "status": "active",
   "release_date": "2026-10-14",
   "model_type": "other",
   "page_url": "https://fal.run/mirelo-ai/sfx2.0/text-to-audio",
   "tagline": "Generates sound effects from text prompts with control over duration, negative prompts, sample count, and output audio format.",
-  "last_seen_at": "2026-10-18",
+  "last_seen_at": "2026-10-23",
   "_generated": {
     "name": "08eb8dd7",
-    "description": "d77b89dc",
+    "description": "13017ba5",
     "status": "379ac110",
     "release_date": "b735ec37",
     "model_type": "ddb0b7bc",
     "page_url": "2c9552b3",
     "tagline": "d77b89dc",
-    "last_seen_at": "899c841f"
+    "last_seen_at": "68185e3b"
   },
-  "last_updated": "2026-10-19"
+  "last_updated": "2026-10-29"
 }

@@ -1,0 +1,24 @@
+{
+  "id": "veed/dubbing",
+  "name": "VEED Dubbing Standard",
+  "created_by": "veed",
+  "source": "official",
+  "description": "Dubs videos up to 10 minutes into 86 languages with cloned voices and lip-sync, preserving each speaker’s tone and emotion.",
+  "status": "active",
+  "release_date": "2026-10-28",
+  "model_type": "other",
+  "page_url": "https://fal.run/veed/dubbing",
+  "tagline": "Dubs videos up to 10 minutes into 86 languages with cloned voices and lip-sync, preserving each speaker’s tone and emotion.",
+  "last_seen_at": "2026-10-28",
+  "_generated": {
+    "name": "7e6ce99b",
+    "description": "71061618",
+    "status": "379ac110",
+    "release_date": "cbc52969",
+    "model_type": "ddb0b7bc",
+    "page_url": "906fc70a",
+    "tagline": "71061618",
+    "last_seen_at": "cbc52969"
+  },
+  "last_updated": "2026-10-29"
+}

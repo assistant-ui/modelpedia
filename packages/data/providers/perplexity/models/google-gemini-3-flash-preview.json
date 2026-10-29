@@ -3,7 +3,7 @@
   "name": "google/gemini-3-flash-preview",
   "created_by": "google",
   "source": "official",
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-10-29",
   "family": "gemini-3",
   "capabilities": {
     "streaming": true
@@ -21,7 +21,8 @@
     "model_type": "d669f408",
     "license": "9186c466",
     "open_weight": "68934a3e",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "license": "proprietary",
@@ -29,5 +30,6 @@
   "modalities": {
     "input": ["text"],
     "output": ["text"]
-  }
+  },
+  "status": "deprecated"
 }

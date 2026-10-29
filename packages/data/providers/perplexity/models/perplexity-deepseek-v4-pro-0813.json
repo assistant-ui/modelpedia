@@ -1,7 +1,7 @@
 {
   "id": "perplexity/deepseek-v4-pro-0813",
-  "name": "perplexity/deepseek-v4-pro-0813",
-  "created_by": "perplexity",
+  "name": "Deepseek V4 Pro 0813",
+  "created_by": "deepseek",
   "source": "official",
   "family": "deepseek",
   "license": "proprietary",
@@ -20,7 +20,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "91302958",
+    "name": "caae9afd",
     "family": "4b81b92d",
     "license": "9186c466",
     "model_type": "d669f408",
@@ -29,5 +29,5 @@
     "open_weight": "68934a3e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-10-18"
+  "last_updated": "2026-10-29"
 }

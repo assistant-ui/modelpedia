@@ -3,14 +3,14 @@
   "name": "GPT-Image-1",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-10-29",
   "family": "gpt-image-1",
-  "description": "GPT Image 1 is a natively multimodal language model that accepts both text and image inputs, and produces image outputs.",
+  "description": "Status: Shut down",
   "status": "deprecated",
   "model_type": "image",
   "performance": 3,
   "speed": 1,
-  "tagline": "Our previous image generation model",
+  "tagline": "Retired image generation model",
   "modalities": {
     "input": ["text", "image"],
     "output": ["image"]
@@ -20,6 +20,17 @@
     "cached_input": 1.25,
     "tiers": [
       {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 1.25]
+          }
+        ]
+      },
+      {
         "label": "Image tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -27,25 +38,6 @@
           {
             "label": "Standard",
             "values": [10, 2.5, 40]
-          },
-          {
-            "label": "Batch",
-            "values": [5, 1.25, 20]
-          }
-        ]
-      },
-      {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [5, 1.25, null]
-          },
-          {
-            "label": "Batch",
-            "values": [2.5, 0.63, null]
           }
         ]
       },
@@ -76,14 +68,14 @@
   "_generated": {
     "name": "0acf4609",
     "family": "480da012",
-    "description": "5761f0fa",
+    "description": "9aaf237e",
     "status": "2e2f74dc",
     "model_type": "db8857fe",
     "performance": "eccbc87e",
     "speed": "c4ca4238",
-    "tagline": "804cd982",
+    "tagline": "9721259c",
     "modalities": "bbf9b8bb",
-    "pricing": "9b968203",
+    "pricing": "9c531ded",
     "endpoints": "70b604a0",
     "license": "9186c466",
     "page_url": "a6a8242a",

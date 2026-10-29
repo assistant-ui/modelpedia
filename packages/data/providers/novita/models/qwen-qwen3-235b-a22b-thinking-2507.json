@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen3",
   "description": "The Qwen3-235B-A22B-Thinking-2507 represents the newest thinking-enabled model in the Qwen3 series, delivering groundbreaking improvements in reasoning capabilities.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-07-25",
   "context_window": 131072,
   "max_output_tokens": 32768,
@@ -32,7 +32,7 @@
     "name": "3470b7d9",
     "family": "48c385a0",
     "description": "604bcae1",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "fc8e67ab",
     "context_window": "f7de594e",
     "max_output_tokens": "f4376436",
@@ -46,5 +46,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-10-29"
 }

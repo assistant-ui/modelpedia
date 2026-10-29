@@ -3,9 +3,9 @@
   "name": "GPT-4o Audio",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-29",
   "family": "gpt-4o",
-  "description": "This is a preview release of the GPT-4o Audio models. These models accept  audio inputs and outputs, and can be used in the Chat Completions REST API.",
+  "description": "Status: Shut down",
   "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
@@ -64,7 +64,7 @@
   "_generated": {
     "name": "63892d58",
     "family": "15249632",
-    "description": "abe09819",
+    "description": "9aaf237e",
     "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
@@ -82,8 +82,8 @@
     "open_weight": "68934a3e",
     "tools": "f0c1dc7e",
     "release_date": "c32ecc6d",
-    "deprecation_date": "792c58a8",
-    "retirement_date": "d465a48a",
+    "deprecation_date": "7047ff2b",
+    "retirement_date": "28df5f11",
     "successor": "a649f503"
   },
   "license": "proprietary",
@@ -91,7 +91,7 @@
   "open_weight": false,
   "tools": ["function_calling"],
   "release_date": "2025-06-03",
-  "deprecation_date": "2025-09-15",
-  "retirement_date": "2026-05-07",
+  "deprecation_date": "2026-07-20",
+  "retirement_date": "2027-01-20",
   "successor": "gpt-audio-1.5"
 }

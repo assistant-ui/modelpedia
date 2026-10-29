@@ -5,7 +5,7 @@
   "source": "official",
   "family": "mimo",
   "description": "MiMo-V2.5-Pro is purpose-built to push the boundaries of complex software engineering and extreme long-horizon tasks.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-05-06",
   "context_window": 1048576,
   "max_output_tokens": 131072,
@@ -32,7 +32,7 @@
     "name": "fcc22b3f",
     "family": "1a23786e",
     "description": "700b03d2",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "ad37623a",
     "context_window": "7d28a051",
     "max_output_tokens": "f7de594e",
@@ -44,5 +44,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-10-29"
 }

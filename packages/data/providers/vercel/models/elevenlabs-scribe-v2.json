@@ -1,0 +1,21 @@
+{
+  "id": "elevenlabs/scribe-v2",
+  "name": "scribe-v2",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "model_type": "transcription",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0
+  },
+  "_generated": {
+    "name": "ebabc355",
+    "model_type": "5e12d29a",
+    "capabilities": "0fa77dc6",
+    "pricing": "9a7a9781"
+  },
+  "last_updated": "2026-10-29"
+}

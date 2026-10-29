@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-31",
-  "count": 38,
+  "date": "2026-10-29",
+  "count": 49,
   "ids": [
     "codellama-13b-instruct-hf",
     "codellama-34b-instruct-hf",
@@ -39,6 +39,17 @@
     "llamaguard-7b",
     "meta-llama-3-70b-instruct",
     "meta-llama-3-8b-instruct",
-    "meta-llama-guard-2-8b"
+    "meta-llama-guard-2-8b",
+    "muse-glimmer-30b",
+    "muse-glimmer-30b-executorch-pte",
+    "muse-glimmer-30b-gguf",
+    "muse-spark-1.1",
+    "muse-spark-1.2",
+    "muse-spark-1.2-contributor",
+    "muse-spark-1.3",
+    "muse-spark-1.3-contributor",
+    "muse-spark-open-816b-a42b",
+    "muse-spark-open-816b-a42b-nvfp4",
+    "muse-wonder-1.0"
   ]
 }

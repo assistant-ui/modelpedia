@@ -5,7 +5,7 @@
   "source": "official",
   "family": "mistral-nemo",
   "description": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2024-07-30",
   "context_window": 60288,
   "max_output_tokens": 16000,
@@ -31,7 +31,7 @@
     "name": "bf23816c",
     "family": "75e1af53",
     "description": "97e7ce7a",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "4d31a9bf",
     "context_window": "50a94e9a",
     "max_output_tokens": "67510c89",
@@ -43,5 +43,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

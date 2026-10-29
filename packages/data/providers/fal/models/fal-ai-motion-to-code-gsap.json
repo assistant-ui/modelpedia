@@ -1,0 +1,28 @@
+{
+  "id": "fal-ai/motion-to-code/gsap",
+  "name": "Motion To Code",
+  "created_by": "fal",
+  "source": "official",
+  "description": "Turn a prompt, an image or a reference video into an editable GSAP animation: one self-contained HTML page you can play, tweak and ship.",
+  "status": "active",
+  "release_date": "2026-10-27",
+  "model_type": "other",
+  "page_url": "https://fal.run/fal-ai/motion-to-code/gsap",
+  "tagline": "Turn a prompt, an image or a reference video into an editable GSAP animation: one self-contained HTML page you can play, tweak and ship.",
+  "capabilities": {
+    "vision": true
+  },
+  "last_seen_at": "2026-10-29",
+  "_generated": {
+    "name": "0bcd28a6",
+    "description": "bdf7d9a8",
+    "status": "379ac110",
+    "release_date": "6a3e5c81",
+    "model_type": "ddb0b7bc",
+    "page_url": "ad17c1d5",
+    "tagline": "bdf7d9a8",
+    "capabilities": "d3117eb0",
+    "last_seen_at": "0eeb85fa"
+  },
+  "last_updated": "2026-10-29"
+}

@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate Infographic Image with Sensenova U1",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-06-17",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/sensenova-u1-infographic",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "31b34cac",
     "description": "bcc3c531",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "e050aed5",
     "model_type": "db8857fe",
     "page_url": "ce66a464",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "d322d85c"
   },
-  "last_updated": "2026-10-21"
+  "last_updated": "2026-10-29"
 }

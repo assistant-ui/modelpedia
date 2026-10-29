@@ -5,7 +5,7 @@
   "source": "official",
   "family": "deepseek",
   "description": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of DeepSeek V4 Flash 0731(opens in new tab) from DeepSeek, adding image understanding while matching the base model on text capabilities including agents, reasoning, and world knowledge.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-08-24",
   "context_window": 1048576,
   "max_output_tokens": 393216,
@@ -33,7 +33,7 @@
     "name": "ed00d17b",
     "family": "4b81b92d",
     "description": "a8244d72",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "f0d8fd04",
     "context_window": "7d28a051",
     "max_output_tokens": "628f482c",
@@ -45,5 +45,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-10-29"
 }

@@ -1,0 +1,21 @@
+{
+  "id": "elevenlabs/eleven-realtime-v1-mini",
+  "name": "eleven-realtime-v1-mini",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "model_type": "audio",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 3
+  },
+  "_generated": {
+    "name": "6fce49df",
+    "model_type": "9f84c007",
+    "capabilities": "0fa77dc6",
+    "pricing": "61d34d05"
+  },
+  "last_updated": "2026-10-29"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "openai/gpt-6.1-terra-pro",
+  "name": "OpenAI: GPT-6.1 Terra Pro",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-6.1",
+  "description": "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.",
+  "release_date": "2026-10-26",
+  "context_window": 1050000,
+  "max_output_tokens": 128000,
+  "model_type": "chat",
+  "tagline": "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.",
+  "capabilities": {
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["image", "text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1,
+    "output": 5,
+    "cached_input": 0.05
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "d458cc7d",
+    "family": "d6597770",
+    "description": "81341281",
+    "release_date": "28277fd5",
+    "context_window": "f170ebb2",
+    "max_output_tokens": "34434798",
+    "model_type": "d669f408",
+    "tagline": "81341281",
+    "capabilities": "03fbefb4",
+    "modalities": "8b8b28d1",
+    "pricing": "fc8a7941",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-29"
+}

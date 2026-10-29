@@ -1,0 +1,33 @@
+{
+  "id": "perplexity/glm-5.3-flash",
+  "name": "GLM-5.3 Flash",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5.3",
+  "license": "proprietary",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.5,
+    "cached_input": 0.03
+  },
+  "open_weight": false,
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "5af9771a",
+    "family": "9f217d9a",
+    "license": "9186c466",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "bd8fa987",
+    "open_weight": "68934a3e",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-29"
+}

@@ -3,7 +3,7 @@
   "name": "Big Pickle",
   "created_by": "opencode",
   "source": "official",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-10-29",
   "status": "active",
   "capabilities": {
     "streaming": true
@@ -11,6 +11,12 @@
   "_generated": {
     "name": "098a94d2",
     "status": "379ac110",
-    "capabilities": "0fa77dc6"
+    "capabilities": "0fa77dc6",
+    "pricing": "d7e97780"
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0,
+    "cached_input": 0
   }
 }

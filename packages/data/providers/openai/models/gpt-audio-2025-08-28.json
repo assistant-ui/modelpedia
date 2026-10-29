@@ -3,9 +3,9 @@
   "name": "gpt-audio-2025-08-28",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-29",
   "family": "gpt-audio",
-  "description": "The gpt-audio model is our first generally available audio model. It accepts",
+  "description": "Status: Deprecated",
   "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
@@ -33,24 +33,24 @@
     "output": 10,
     "tiers": [
       {
-        "label": "Text tokens",
+        "label": "Audio tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Output", "Cached input"],
+        "columns": ["Input", "Cached input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [2.5, 10, null]
+            "values": [32, null, 64]
           }
         ]
       },
       {
-        "label": "Audio tokens",
+        "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Output", "Cached input"],
+        "columns": ["Input", "Cached input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [32, 64, null]
+            "values": [2.5, null, 10]
           }
         ]
       }
@@ -60,7 +60,7 @@
   "_generated": {
     "name": "6baae54b",
     "family": "29debdf1",
-    "description": "cbfdc684",
+    "description": "5344a855",
     "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
@@ -71,7 +71,7 @@
     "tagline": "3fd8480f",
     "capabilities": "e8cba1a0",
     "modalities": "cf05925d",
-    "pricing": "a478d77b",
+    "pricing": "3f532d4a",
     "endpoints": "d8fa1080",
     "license": "9186c466",
     "release_date": "9e3c5ae9",

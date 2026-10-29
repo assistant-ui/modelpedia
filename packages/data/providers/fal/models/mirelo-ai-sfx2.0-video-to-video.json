@@ -3,22 +3,22 @@
   "name": "Mirelo SFX2.0",
   "created_by": "mirelo-ai",
   "source": "official",
-  "description": "Generates synchronized sound effects for an input video and returns the video with its new soundtrack.",
+  "description": "Adds synchronized sound effects to a video and returns the video with the sound mixed in.",
   "status": "active",
   "release_date": "2026-10-14",
   "model_type": "other",
   "page_url": "https://fal.run/mirelo-ai/sfx2.0/video-to-video",
   "tagline": "Generates synchronized sound effects for an input video and returns the video with its new soundtrack.",
-  "last_seen_at": "2026-10-18",
+  "last_seen_at": "2026-10-26",
   "_generated": {
     "name": "08eb8dd7",
-    "description": "fbf01e15",
+    "description": "b3771a10",
     "status": "379ac110",
     "release_date": "b735ec37",
     "model_type": "ddb0b7bc",
     "page_url": "67c62ed7",
     "tagline": "fbf01e15",
-    "last_seen_at": "899c841f"
+    "last_seen_at": "28277fd5"
   },
-  "last_updated": "2026-10-19"
+  "last_updated": "2026-10-29"
 }

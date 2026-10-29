@@ -1,9 +1,10 @@
 {
-  "date": "2026-10-09",
-  "count": 139,
+  "date": "2026-10-29",
+  "count": 141,
   "ids": [
     "ai21.jamba-1-5-large-v1-0",
     "ai21.jamba-1-5-mini-v1-0",
+    "amazon.nova-2-5-sonic",
     "amazon.nova-2-lite-v1-0",
     "amazon.nova-2-multimodal-embeddings-v1-0",
     "amazon.nova-2-sonic-v1-0",
@@ -99,6 +100,7 @@
     "openai.gpt-6-luna",
     "openai.gpt-6-sol",
     "openai.gpt-6.1-sol",
+    "openai.gpt-6.1-terra",
     "openai.gpt-daybreak-blue-5.6-sol",
     "openai.gpt-oss-120b-1-0",
     "openai.gpt-oss-20b-1-0",

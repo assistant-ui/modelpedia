@@ -1,0 +1,24 @@
+{
+  "id": "veed/dubbing/pro",
+  "name": "VEED Dubbing Pro",
+  "created_by": "veed",
+  "source": "official",
+  "description": "Dubs videos up to 10 minutes into 94 languages and 14 regional accents with cloned voices and lip-sync.",
+  "status": "active",
+  "release_date": "2026-10-28",
+  "model_type": "other",
+  "page_url": "https://fal.run/veed/dubbing/pro",
+  "tagline": "Dubs videos up to 10 minutes into 94 languages and 14 regional accents with cloned voices and lip-sync.",
+  "last_seen_at": "2026-10-28",
+  "_generated": {
+    "name": "1d42b04e",
+    "description": "e3bab369",
+    "status": "379ac110",
+    "release_date": "cbc52969",
+    "model_type": "ddb0b7bc",
+    "page_url": "06ee3523",
+    "tagline": "e3bab369",
+    "last_seen_at": "cbc52969"
+  },
+  "last_updated": "2026-10-29"
+}

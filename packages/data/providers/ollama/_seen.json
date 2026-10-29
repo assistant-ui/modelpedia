@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-22",
-  "count": 33,
+  "date": "2026-10-29",
+  "count": 35,
   "ids": [
     "beam",
     "bonsai-2",
@@ -8,6 +8,7 @@
     "clef-flash",
     "d1",
     "d1-omni",
+    "d3",
     "deepseek-v4-pro",
     "deepseek-v4.1-flash",
     "embeddinggemma-2",
@@ -17,11 +18,13 @@
     "glm-5.3",
     "glm-5.3-flash",
     "gpt-oss",
-    "kev",
     "kimi-k2.6",
     "kimi-k2.7-code",
     "kimi-k3",
-    "laya",
+    "lfm3",
+    "lfm3-audio",
+    "lfm3-omni",
+    "lfm3-vl",
     "minimax-m2.7",
     "minimax-m3",
     "minimax-m3.1-flash",
@@ -31,9 +34,8 @@
     "nemotron-3-nano",
     "nemotron-3-super",
     "nemotron-3-ultra",
-    "nimble",
+    "nemotron-3.5-bolt",
     "nimble-v3",
-    "pplx-decider",
-    "tev1"
+    "phonon"
   ]
 }

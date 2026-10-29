@@ -1,6 +1,6 @@
 {
   "id": "openai/gpt-5.6-sol",
-  "name": "openai/gpt-5.6-sol",
+  "name": "Gpt 5.6 Sol",
   "created_by": "openai",
   "source": "official",
   "family": "gpt-5.6",
@@ -15,7 +15,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "e68ac657",
+    "name": "1b716e86",
     "family": "c9783e4a",
     "license": "9186c466",
     "model_type": "d669f408",
@@ -23,15 +23,15 @@
     "open_weight": "68934a3e",
     "modalities": "68e53d93",
     "pricing": "b413c466",
-    "pricing_notes": "cb3e67d0"
+    "pricing_notes": "b0c47ca1"
   },
-  "last_updated": "2026-09-26",
+  "last_updated": "2026-10-29",
   "pricing": {
     "input": 4,
     "output": 20,
     "cached_input": 0.4
   },
   "pricing_notes": [
-    "Input ranges $4 to $8, output ranges $20 to $30 per 1M tokens."
+    "Input: 4.00 (≤272k) 8.00 (>272k); Output: 20.00 (≤272k) 30.00 (>272k) per 1M tokens."
   ]
 }

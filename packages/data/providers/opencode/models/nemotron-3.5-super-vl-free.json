@@ -1,0 +1,29 @@
+{
+  "id": "nemotron-3.5-super-vl-free",
+  "name": "Nemotron 3.5 Super VL Free",
+  "created_by": "nvidia",
+  "source": "official",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0,
+    "cached_input": 0
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "add49394",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "d7e97780",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-29"
+}

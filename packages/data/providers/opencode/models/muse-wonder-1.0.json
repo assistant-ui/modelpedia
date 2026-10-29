@@ -1,0 +1,22 @@
+{
+  "id": "muse-wonder-1.0",
+  "name": "Muse Wonder 1.0",
+  "created_by": "meta",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 4,
+    "output": 20,
+    "cached_input": 0.2
+  },
+  "_generated": {
+    "name": "abba80ad",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6",
+    "pricing": "775f1e21"
+  },
+  "last_updated": "2026-10-29"
+}

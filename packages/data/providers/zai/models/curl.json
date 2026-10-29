@@ -3,7 +3,7 @@
   "name": "cURL",
   "created_by": "zai",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-10-29",
   "license": "mit",
   "page_url": "https://docs.z.ai/guides/llm/glm-5.3",
   "modalities": {
@@ -22,7 +22,8 @@
     "max_output_tokens": "34434798",
     "tagline": "d9bb7068",
     "capabilities": "2582d2f2",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "description": "GLM-5.3 is Z.ai's latest flagship model, delivering comprehensive advancements in complex software engineering and agent capabilities. It uses the same base model as GLM-5.2, with all improvements driven by post-training. Compared with GLM-5.2, it delivers significantly stronger performance in complex programming and long-horizon tasks:",
   "context_window": 128000,
@@ -37,5 +38,6 @@
     "fine_tuning": true,
     "json_mode": true
   },
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

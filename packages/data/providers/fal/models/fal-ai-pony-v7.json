@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Pony V7 is a finetuned text to image for superior aesthetics and prompt following.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-05-05",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/pony-v7",
@@ -22,7 +22,7 @@
   "_generated": {
     "name": "fc671e63",
     "description": "1f05af27",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "be9965ce",
     "model_type": "db8857fe",
     "page_url": "1b27bead",
@@ -32,5 +32,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

@@ -1,6 +1,6 @@
 {
   "id": "anthropic/claude-fable-5",
-  "name": "anthropic/claude-fable-5",
+  "name": "Claude Fable 5",
   "created_by": "anthropic",
   "source": "official",
   "family": "claude-fable",
@@ -20,7 +20,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "1ead67fc",
+    "name": "210d845d",
     "family": "127f43cd",
     "license": "9186c466",
     "model_type": "d669f408",
@@ -29,5 +29,5 @@
     "open_weight": "68934a3e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-08-05"
+  "last_updated": "2026-10-29"
 }

@@ -1,0 +1,22 @@
+{
+  "id": "stepaudio-3-realtime-preview",
+  "name": "StepAudio 3 Realtime",
+  "created_by": "stepfun",
+  "source": "official",
+  "description": "* **真人自然交互**：接话自然、节奏松弛、表达有温度，实时互动更接近真人交流。 * **听懂话，也听懂话外之音**：理解语气、情绪、副语言线索和环境声音。 * **真正的全双工对话**：支持自然打断、附和识别和话权协调，不抢话也不装聋。 * **自适应推理**：简单问题快速回应，复杂问题边想边说，在响应速度和回答质量之间动态平衡。 * **从会聊天到能办事**：Voice Agent 可调用工具或执行后端任务，任务完成后自然回到对话。",
+  "status": "preview",
+  "model_type": "audio",
+  "license": "proprietary",
+  "tagline": "* **真人自然交互**：接话自然、节奏松弛、表达有温度，实时互动更接近真人交流。 * **听懂话，也听懂话外之音**：理解语气、情绪、副语言线索和环境声音。 * **真正的全双工对话**：支持自然打断、附和识别和话权协调，不抢话也不装聋。 * **自适应推理**：简单问题快速回应，复杂问题边想边说，在响应速度和回答质量之间动态平衡。 * **从会聊天到能办事**：Voice Agent 可调用工",
+  "open_weight": false,
+  "_generated": {
+    "name": "be68f270",
+    "description": "04cd7d73",
+    "status": "127aecde",
+    "model_type": "9f84c007",
+    "license": "9186c466",
+    "tagline": "f0781dfb",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-10-29"
+}

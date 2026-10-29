@@ -5,7 +5,7 @@
   "source": "official",
   "family": "qwen3.5",
   "description": "The Qwen3.5 native vision-language series Plus models are based on a hybrid architecture design that integrates linear attention mechanisms with sparse Mixture-of-Experts (MoE), achieving higher inference efficiency.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-02-16",
   "context_window": 1000000,
   "max_output_tokens": 65536,
@@ -29,7 +29,7 @@
     "name": "17e0aada",
     "family": "d548f421",
     "description": "0d19d18f",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "6c624983",
     "context_window": "8155bc54",
     "max_output_tokens": "297ce0b3",
@@ -40,5 +40,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-10-29"
 }

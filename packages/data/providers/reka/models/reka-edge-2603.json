@@ -1,0 +1,47 @@
+{
+  "id": "reka-edge-2603",
+  "name": "Reka Edge 2603",
+  "created_by": "reka",
+  "source": "official",
+  "description": "Reka Edge 2603 provides frontier-level intelligence for physical AI. It excels at visual understanding (videos, images), object detection, and tool use, and with its CONVNEXT vision encoder, it processes images with 3x fewer tokens, leading to significant gains in latency.",
+  "status": "active",
+  "context_window": 16384,
+  "max_output_tokens": 16384,
+  "model_type": "chat",
+  "page_url": "https://developer.reka.ai/models/reka-edge-2603",
+  "tagline": "Reka Edge 2603 provides frontier-level intelligence for physical AI.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": false,
+    "vision": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.1,
+    "output": 0.1
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "547df5f8",
+    "description": "57cd34bc",
+    "status": "379ac110",
+    "context_window": "c76fe1d8",
+    "max_output_tokens": "c76fe1d8",
+    "model_type": "d669f408",
+    "page_url": "f642cfdb",
+    "tagline": "e503fbd4",
+    "capabilities": "63318e31",
+    "modalities": "6399757e",
+    "pricing": "dabb026f",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-29"
+}

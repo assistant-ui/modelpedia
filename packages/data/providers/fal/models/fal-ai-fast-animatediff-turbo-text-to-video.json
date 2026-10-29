@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Animate your ideas in lightning speed!",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2024-02-13",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/fast-animatediff/turbo/text-to-video",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "fbb3fe62",
     "description": "b92b1fcf",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "056ba89a",
     "model_type": "4d1b75ca",
     "page_url": "55fc8bc5",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

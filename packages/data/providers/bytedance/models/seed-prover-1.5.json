@@ -1,0 +1,31 @@
+{
+  "id": "seed-prover-1.5",
+  "name": "Seed Prover 1.5",
+  "created_by": "bytedance",
+  "source": "official",
+  "description": "Solved 11 problems of the 2025 Putnam competition in just 9 hours.",
+  "status": "active",
+  "model_type": "chat",
+  "page_url": "https://seed.bytedance.com/en/blog/seed-prover-1-5-advanced-mathematical-reasoning-through-a-novel-agentic-architecture",
+  "tagline": "Solved 11 problems of the 2025 Putnam competition in just 9 hours.",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "_generated": {
+    "name": "c12e5b79",
+    "description": "3c174d71",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "page_url": "119da373",
+    "tagline": "3c174d71",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080"
+  },
+  "last_updated": "2026-10-29"
+}

@@ -1,6 +1,6 @@
 {
   "id": "openai/gpt-6-luna",
-  "name": "openai/gpt-6-luna",
+  "name": "Gpt 6 Luna",
   "created_by": "openai",
   "source": "official",
   "license": "proprietary",
@@ -19,19 +19,19 @@
     "output": ["text"]
   },
   "pricing_notes": [
-    "Input ranges $0.1 to $0.2, output ranges $0.5 to $0.75 per 1M tokens."
+    "Input: 0.10 (≤272k) 0.20 (>272k); Output: 0.50 (≤272k) 0.75 (>272k) per 1M tokens."
   ],
   "_generated": {
-    "name": "30d6e168",
+    "name": "3e856da4",
     "license": "9186c466",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "pricing": "82b07600",
     "open_weight": "68934a3e",
     "modalities": "68e53d93",
-    "pricing_notes": "9225d481",
+    "pricing_notes": "07006110",
     "family": "16342494"
   },
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-29",
   "family": "gpt-6"
 }

@@ -1,7 +1,7 @@
 {
   "id": "deepseek-v4.1-flash",
   "name": "DeepSeek V4.1 Flash",
-  "created_by": "unknown",
+  "created_by": "deepseek",
   "source": "official",
   "family": "deepseek",
   "status": "active",
@@ -27,5 +27,5 @@
     "pricing": "a9b69dbc",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-09-19"
+  "last_updated": "2026-10-29"
 }

@@ -1,0 +1,27 @@
+{
+  "id": "multimodal-embedding-v1",
+  "name": "multimodal-embedding-v1",
+  "created_by": "qwen",
+  "source": "official",
+  "model_type": "embed",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/multimodal-embedding-v1",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "c7a75a59",
+    "model_type": "764cb3de",
+    "license": "9186c466",
+    "page_url": "da792aef",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-29"
+}

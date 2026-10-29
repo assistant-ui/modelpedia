@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-21",
-  "count": 83,
+  "date": "2026-10-29",
+  "count": 84,
   "ids": [
     "01-ai-yi-large",
     "adept-fuyu-8b",
@@ -32,6 +32,7 @@
     "microsoft-kosmos-2",
     "microsoft-phi-3-vision-128k-instruct",
     "microsoft-phi-3.5-moe-instruct",
+    "minimaxai-minimax-m3.1-flash",
     "mistralai-codestral-22b-instruct-v0.1",
     "mistralai-mistral-7b-instruct-v0.3",
     "mistralai-mistral-large",
@@ -58,6 +59,7 @@
     "nvidia-nemotron-3-nano-omni-30b-a3b-reasoning",
     "nvidia-nemotron-3-super-120b-a12b",
     "nvidia-nemotron-3-ultra-550b-a55b",
+    "nvidia-nemotron-3.5-bolt-e4b",
     "nvidia-nemotron-3.5-content-safety",
     "nvidia-nemotron-3.5-embed-1b",
     "nvidia-nemotron-3.5-embed-8b",
@@ -82,7 +84,6 @@
     "writer-palmyra-fin-70b-32k",
     "writer-palmyra-med-70b",
     "writer-palmyra-med-70b-32k",
-    "z-ai-glm-5.3",
     "z-ai-glm-5.3-flash",
     "zyphra-zamba2-7b-instruct"
   ]

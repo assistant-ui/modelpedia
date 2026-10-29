@@ -1,0 +1,36 @@
+{
+  "id": "glm-4.5-air",
+  "name": "GLM-4.5-Air",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-4.5",
+  "license": "mit",
+  "page_url": "https://docs.z.ai/guides/overview/pricing",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.2,
+    "output": 1.1,
+    "cached_input": 0.03
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "1a8fb936",
+    "family": "e8ea1e1e",
+    "license": "3c4c3ba5",
+    "page_url": "5b393369",
+    "model_type": "d669f408",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93",
+    "pricing": "f12c3ecd",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-10-29"
+}

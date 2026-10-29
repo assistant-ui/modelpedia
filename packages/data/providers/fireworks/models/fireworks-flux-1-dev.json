@@ -1,0 +1,24 @@
+{
+  "id": "fireworks/flux-1-dev",
+  "name": "flux-1-dev",
+  "created_by": "black-forest-labs",
+  "source": "official",
+  "page_url": "https://fireworks.ai/models/fireworks/flux-1-dev",
+  "model_type": "image",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 1,
+    "output": 1,
+    "cached_input": 1
+  },
+  "_generated": {
+    "name": "12f1b7cc",
+    "page_url": "10c11da7",
+    "model_type": "db8857fe",
+    "capabilities": "0fa77dc6",
+    "pricing": "cb03f68e"
+  },
+  "last_updated": "2026-10-29"
+}

@@ -6,7 +6,7 @@
   "description": "Muse Spark Open is a coding-optimized open-weight model.",
   "release_date": "2026-10-15",
   "context_window": 1048576,
-  "max_output_tokens": 943718,
+  "max_output_tokens": 131072,
   "tagline": "Muse Spark Open is a coding-optimized open-weight model.",
   "capabilities": {
     "tool_call": true,
@@ -29,12 +29,12 @@
     "description": "57912399",
     "release_date": "b3e9e1a3",
     "context_window": "7d28a051",
-    "max_output_tokens": "7843f47e",
+    "max_output_tokens": "f7de594e",
     "tagline": "57912399",
     "capabilities": "03fbefb4",
     "modalities": "c569b149",
     "pricing": "a0f59bdb",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-16"
+  "last_updated": "2026-10-29"
 }

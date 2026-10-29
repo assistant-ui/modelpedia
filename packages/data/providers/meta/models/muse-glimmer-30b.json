@@ -1,0 +1,27 @@
+{
+  "id": "Muse-Glimmer-30B",
+  "name": "Muse-Glimmer-30B",
+  "created_by": "meta",
+  "source": "official",
+  "family": "muse-glimmer",
+  "release_date": "2026-08-09",
+  "license": "apache-2.0",
+  "parameters": 30,
+  "page_url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "open_weight": true,
+  "_generated": {
+    "name": "b9432915",
+    "family": "2c89749f",
+    "release_date": "c1e6d6e9",
+    "license": "60245731",
+    "parameters": "34173cb3",
+    "page_url": "8d61eeef",
+    "modalities": "6399757e",
+    "open_weight": "b326b506"
+  },
+  "last_updated": "2026-10-29"
+}

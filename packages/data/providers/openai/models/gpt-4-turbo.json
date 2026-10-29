@@ -3,7 +3,7 @@
   "name": "GPT-4 Turbo",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-29",
   "family": "gpt-4-turbo",
   "status": "deprecated",
   "knowledge_cutoff": "2023-12",
@@ -39,7 +39,7 @@
     "capabilities": "5dc39f53",
     "modalities": "6399757e",
     "endpoints": "1c48b50a",
-    "description": "43471c17",
+    "description": "9aaf237e",
     "model_type": "d669f408",
     "tagline": "a3fc0b7c",
     "pricing": "19ed11e1",
@@ -52,7 +52,7 @@
     "deprecation_date": "c48b287d",
     "retirement_date": "68185e3b"
   },
-  "description": "GPT-4 Turbo is the next generation of GPT-4, an older high-intelligence GPT model. It was designed to be a cheaper, better version of GPT-4. Today, we recommend using a newer model like GPT-4o.",
+  "description": "Status: Shut down",
   "model_type": "chat",
   "tagline": "An older high-intelligence GPT model",
   "pricing": {

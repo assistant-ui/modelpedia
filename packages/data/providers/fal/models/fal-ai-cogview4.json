@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate high quality images from text prompts using CogView4.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-03-04",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/cogview4",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "f026c3b1",
     "description": "52e42357",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "08267a14",
     "model_type": "db8857fe",
     "page_url": "2bbf3700",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

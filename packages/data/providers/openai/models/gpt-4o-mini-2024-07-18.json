@@ -3,9 +3,9 @@
   "name": "gpt-4o-mini-2024-07-18",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-29",
   "family": "gpt-4o",
-  "description": "GPT-4o Mini (“o” for “omni”) is a fast, affordable small model for focused tasks.",
+  "description": "Status: Deprecated",
   "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
@@ -45,17 +45,6 @@
             "values": [3, 0.15, 0.075, 0.6]
           }
         ]
-      },
-      {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [0.15, 0.075, 0.6]
-          }
-        ]
       }
     ],
     "input": 0.15,
@@ -74,7 +63,7 @@
   "_generated": {
     "name": "4eeae10e",
     "family": "15249632",
-    "description": "b54475de",
+    "description": "5344a855",
     "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
@@ -85,7 +74,7 @@
     "tagline": "3038ef61",
     "capabilities": "8d3e7fd5",
     "modalities": "6399757e",
-    "pricing": "fd1bd932",
+    "pricing": "f5bda27a",
     "endpoints": "ebc03c48",
     "license": "9186c466",
     "release_date": "23482102",

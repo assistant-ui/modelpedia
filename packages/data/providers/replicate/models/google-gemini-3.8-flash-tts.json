@@ -1,0 +1,18 @@
+{
+  "id": "google/gemini-3.8-flash-tts",
+  "name": "Gemini 3.8 Flash Tts",
+  "created_by": "google",
+  "source": "official",
+  "family": "gemini-3.8",
+  "status": "active",
+  "model_type": "audio",
+  "page_url": "https://replicate.com/google/gemini-3.8-flash-tts",
+  "_generated": {
+    "name": "4d29b1bb",
+    "family": "d937426a",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "page_url": "33c84043"
+  },
+  "last_updated": "2026-10-29"
+}

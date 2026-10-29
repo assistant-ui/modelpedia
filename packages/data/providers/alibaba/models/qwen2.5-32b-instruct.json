@@ -3,7 +3,7 @@
   "name": "qwen2.5-32b-instruct",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-10-29",
   "family": "qwen2.5",
   "model_type": "chat",
   "capabilities": {
@@ -40,7 +40,8 @@
     "tagline": "67372540",
     "context_window": "8155bc54",
     "reasoning_tokens": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "license": "apache-2.0",
   "parameters": 32,
@@ -50,5 +51,6 @@
   "tagline": "Qwen2.5 is a large language model series from Qwen.",
   "context_window": 1000000,
   "reasoning_tokens": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

@@ -8,14 +8,14 @@
   "model_type": "video",
   "license": "proprietary",
   "tagline": "The Wan video editing model supports multimodal inputs, including text, images, and video, enabling video generation and general editing tasks.",
-  "page_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-7-videoedit",
   "open_weight": false,
   "capabilities": {
     "streaming": true
   },
   "modalities": {
-    "input": ["text", "video"],
-    "output": ["text"]
+    "input": ["text"],
+    "output": ["video"]
   },
   "endpoints": ["chat"],
   "_generated": {
@@ -25,13 +25,13 @@
     "model_type": "4d1b75ca",
     "license": "9186c466",
     "tagline": "e2f71b5e",
-    "page_url": "23162829",
+    "page_url": "ef0e2f4a",
     "open_weight": "68934a3e",
     "capabilities": "0fa77dc6",
-    "modalities": "901ff664",
+    "modalities": "94e5e9ab",
     "endpoints": "75df3f1c",
     "status": "2e2f74dc"
   },
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-10-29",
   "status": "deprecated"
 }

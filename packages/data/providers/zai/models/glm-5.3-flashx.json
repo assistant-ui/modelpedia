@@ -1,0 +1,56 @@
+{
+  "id": "glm-5.3-flashx",
+  "name": "GLM-5.3-FlashX",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5.3",
+  "description": "GLM-5.3-Flash/GLM-5.3-FlashX is the first native multimodal model in the GLM-5 series, delivering stronger intelligence than GLM-5.2 at an exceptionally low cost.",
+  "context_window": 1000000,
+  "max_output_tokens": 128000,
+  "license": "mit",
+  "parameters": 320,
+  "active_parameters": 18,
+  "page_url": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+  "model_type": "chat",
+  "tagline": "GLM-5.3-Flash/GLM-5.3-FlashX is the first native multimodal model in the GLM-5 series, delivering stronger intelligence than GLM-5.2 at an exceptionally low cost.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "prompt_caching": true,
+    "vision": true,
+    "fine_tuning": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text", "image", "video"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 0.37,
+    "output": 1.25,
+    "cached_input": 0.075
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ff500b44",
+    "family": "9f217d9a",
+    "description": "47c714cc",
+    "context_window": "8155bc54",
+    "max_output_tokens": "34434798",
+    "license": "3c4c3ba5",
+    "parameters": "32072254",
+    "active_parameters": "6f4922f4",
+    "page_url": "9e916e37",
+    "model_type": "d669f408",
+    "tagline": "47c714cc",
+    "capabilities": "7967938d",
+    "modalities": "3ad4060a",
+    "pricing": "75eba2ff",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-29"
+}

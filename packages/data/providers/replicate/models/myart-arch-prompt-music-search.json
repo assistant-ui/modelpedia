@@ -1,0 +1,16 @@
+{
+  "id": "myart-arch/prompt-music-search",
+  "name": "Prompt Music Search",
+  "created_by": "myart-arch",
+  "source": "official",
+  "status": "active",
+  "model_type": "audio",
+  "page_url": "https://replicate.com/myart-arch/prompt-music-search",
+  "_generated": {
+    "name": "82cd095b",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "page_url": "df3053a8"
+  },
+  "last_updated": "2026-10-29"
+}

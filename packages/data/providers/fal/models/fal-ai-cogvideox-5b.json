@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate videos from prompts using CogVideoX-5B",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-01-14",
   "model_type": "video",
   "parameters": 5,
@@ -19,7 +19,7 @@
   "_generated": {
     "name": "54cdffa5",
     "description": "4ab4c894",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "74362e15",
     "model_type": "4d1b75ca",
     "parameters": "e4da3b7f",
@@ -29,5 +29,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

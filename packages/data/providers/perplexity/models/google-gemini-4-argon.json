@@ -1,6 +1,6 @@
 {
   "id": "google/gemini-4-argon",
-  "name": "google/gemini-4-argon",
+  "name": "Gemini 4 Argon",
   "created_by": "google",
   "source": "official",
   "family": "gemini-4",
@@ -20,7 +20,7 @@
     "output": ["text"]
   },
   "_generated": {
-    "name": "7ff61b89",
+    "name": "36cb0a0b",
     "family": "bd0f233d",
     "license": "9186c466",
     "model_type": "d669f408",
@@ -29,5 +29,5 @@
     "open_weight": "68934a3e",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-10-17"
+  "last_updated": "2026-10-29"
 }

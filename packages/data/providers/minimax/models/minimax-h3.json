@@ -1,37 +1,41 @@
 {
   "id": "minimax-h3",
-  "name": "MiniMax H3",
+  "name": "MiniMax-H3",
   "created_by": "minimax",
   "source": "official",
   "family": "minimax",
   "license": "proprietary",
-  "model_type": "chat",
+  "model_type": "video",
   "capabilities": {
-    "streaming": true,
-    "tool_call": true
+    "streaming": false,
+    "tool_call": false
   },
   "pricing": {
-    "input": 0.9,
-    "output": 3.6
+    "input": null,
+    "output": null
   },
   "open_weight": false,
   "modalities": {
-    "input": ["text"],
-    "output": ["text"]
+    "input": ["text", "image", "video", "audio"],
+    "output": ["video"]
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "0ee34e42",
+    "name": "925d5b0b",
     "family": "c85916f0",
     "license": "9186c466",
-    "model_type": "d669f408",
-    "capabilities": "48995a4e",
-    "pricing": "c9564ea8",
+    "model_type": "4d1b75ca",
+    "capabilities": "064e1c4e",
+    "pricing": "4ca5d833",
     "open_weight": "68934a3e",
-    "modalities": "68e53d93",
+    "modalities": "0529c56f",
     "tools": "f0c1dc7e",
-    "status": "2e2f74dc"
+    "status": "379ac110",
+    "description": "00761f9c",
+    "tagline": "9e5c2b72"
   },
-  "last_updated": "2026-08-05",
-  "status": "deprecated"
+  "last_updated": "2026-10-29",
+  "status": "active",
+  "description": "Next-generation open, general-purpose multimodal video model supporting text-to-video, image-to-video, first-and-last-frame generation, and multimodal references. Supports 768P / 2K output and videos from 4 to 15 seconds",
+  "tagline": "Next-generation open, general-purpose multimodal video model supporting text-to-video, image-to-video, first-and-last-frame generation, and multimodal references."
 }

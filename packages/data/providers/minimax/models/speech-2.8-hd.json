@@ -1,0 +1,30 @@
+{
+  "id": "speech-2.8-hd",
+  "name": "speech-2.8-hd",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "description": "Ultra-realistic quality featuring sound tags",
+  "status": "active",
+  "model_type": "audio",
+  "tagline": "Ultra-realistic quality featuring sound tags",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": false
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["audio"]
+  },
+  "_generated": {
+    "name": "3c82bc17",
+    "family": "c85916f0",
+    "description": "c8397c46",
+    "status": "379ac110",
+    "model_type": "9f84c007",
+    "tagline": "c8397c46",
+    "capabilities": "028ad17d",
+    "modalities": "601e776d"
+  },
+  "last_updated": "2026-10-29"
+}

@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Upscales and cleans up the image.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-11-21",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/chrono-edit-lora-gallery/upscaler",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "b1fdd3e9",
     "description": "1141aaec",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "efb5c5c4",
     "model_type": "db8857fe",
     "page_url": "691cc4eb",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

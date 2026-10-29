@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Nemotron-Labs-Diffusion-VLM-8B is the vision-language extension of the Nemotron-Labs-Diffusion family.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2026-05-21",
   "model_type": "other",
   "page_url": "https://fal.run/fal-ai/nemotron-diffusion-vlm",
@@ -16,7 +16,7 @@
   "_generated": {
     "name": "1f2d8c78",
     "description": "acbf5e3c",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "0ad37620",
     "model_type": "ddb0b7bc",
     "page_url": "91852a21",
@@ -24,5 +24,5 @@
     "capabilities": "d3117eb0",
     "last_seen_at": "97e5b4c6"
   },
-  "last_updated": "2026-07-08"
+  "last_updated": "2026-10-29"
 }

@@ -1,0 +1,32 @@
+{
+  "id": "phonon",
+  "name": "phonon",
+  "created_by": "unknown",
+  "source": "official",
+  "description": "Phonon is Gradium’s text-to-speech family. It turns written text into spoken audio as it generates, making it useful for reading assistant replies, narrating passages, and adding a voice to local apps.",
+  "context_window": 8192,
+  "license": "apache-2.0",
+  "page_url": "https://ollama.com/library/phonon",
+  "open_weight": true,
+  "tagline": "Phonon is Gradium’s text-to-speech family.",
+  "capabilities": {
+    "streaming": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "83c8d6ec",
+    "description": "5788fb66",
+    "context_window": "77441296",
+    "license": "60245731",
+    "page_url": "1037051b",
+    "open_weight": "b326b506",
+    "tagline": "3486b398",
+    "capabilities": "9c665f5d",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-29"
+}

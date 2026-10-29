@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "Generate videos from prompts using LTX Video-0.9.5",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-03-05",
   "model_type": "video",
   "page_url": "https://fal.run/fal-ai/ltx-video-v095",
@@ -18,7 +18,7 @@
   "_generated": {
     "name": "a824c91e",
     "description": "3eda7936",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "a5e693e5",
     "model_type": "4d1b75ca",
     "page_url": "1b5453c4",
@@ -27,5 +27,5 @@
     "endpoints": "7a78c070",
     "last_seen_at": "a393f093"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-10-29"
 }

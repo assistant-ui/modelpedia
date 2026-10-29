@@ -3,7 +3,7 @@
   "name": "qwq-plus",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-10-29",
   "family": "qwq",
   "context_window": 128000,
   "max_output_tokens": 32768,
@@ -39,7 +39,8 @@
     "open_weight": "b326b506",
     "pricing": "9c3ad645",
     "reasoning_tokens": "b326b506",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "license": "apache-2.0",
   "provider": "qwen",
@@ -52,5 +53,6 @@
     "output": 2.4
   },
   "reasoning_tokens": true,
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

@@ -1,0 +1,33 @@
+{
+  "id": "fireworks/minimax-m3p1-flash",
+  "name": "minimax-m3p1-flash",
+  "created_by": "minimax",
+  "source": "official",
+  "family": "minimax",
+  "context_window": 1040000,
+  "page_url": "https://fireworks.ai/models/fireworks/minimax-m3p1-flash",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.15,
+    "output": 0.6,
+    "cached_input": 0.015
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "bf082f0e",
+    "family": "c85916f0",
+    "context_window": "1bf8ad8b",
+    "page_url": "d788efe1",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "e5cfa60c",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-29"
+}

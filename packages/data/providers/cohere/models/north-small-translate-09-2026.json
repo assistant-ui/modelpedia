@@ -4,7 +4,7 @@
   "created_by": "cohere",
   "source": "official",
   "description": "North Small Translate is a 218B total / 25B active parameter MoE model purpose-built for machine translation across more than 50 languages.",
-  "status": "active",
+  "status": "deprecated",
   "context_window": 16000,
   "max_output_tokens": 16000,
   "license": "proprietary",
@@ -23,7 +23,7 @@
   "_generated": {
     "name": "30f8dd19",
     "description": "27ba14c3",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "context_window": "67510c89",
     "max_output_tokens": "67510c89",
     "license": "9186c466",
@@ -35,5 +35,5 @@
     "open_weight": "68934a3e",
     "endpoints": "75df3f1c"
   },
-  "last_updated": "2026-10-17"
+  "last_updated": "2026-10-29"
 }

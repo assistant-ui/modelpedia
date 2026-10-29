@@ -3,7 +3,7 @@
   "name": "NVIDIA: Nemotron 3 Super (free)",
   "created_by": "nvidia",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-10-29",
   "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications.",
   "context_window": 262144,
   "max_output_tokens": 235929,
@@ -29,12 +29,14 @@
     "active_parameters": "c20ad4d7",
     "release_date": "81f079f9",
     "tagline": "a6c8c79d",
-    "tools": "f0c1dc7e"
+    "tools": "f0c1dc7e",
+    "status": "2e2f74dc"
   },
   "model_type": "chat",
   "parameters": 120,
   "active_parameters": 12,
   "release_date": "2026-03-11",
   "tagline": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications.",
-  "tools": ["function_calling"]
+  "tools": ["function_calling"],
+  "status": "deprecated"
 }

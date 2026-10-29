@@ -6,7 +6,7 @@
   "description": "Beam 1.0 is Reflection's open-weight reasoning model for coding and long-horizon agentic workflows.",
   "release_date": "2026-10-16",
   "context_window": 1048576,
-  "max_output_tokens": 943718,
+  "max_output_tokens": 131072,
   "parameters": 501,
   "active_parameters": 23,
   "tagline": "Beam 1.0 is Reflection's open-weight reasoning model for coding and long-horizon agentic workflows.",
@@ -21,9 +21,9 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.3,
+    "input": 0.25,
     "output": 1,
-    "cached_input": 0.04
+    "cached_input": 0.05
   },
   "tools": ["function_calling"],
   "_generated": {
@@ -31,14 +31,14 @@
     "description": "ad728dae",
     "release_date": "a343464b",
     "context_window": "7d28a051",
-    "max_output_tokens": "7843f47e",
+    "max_output_tokens": "f7de594e",
     "parameters": "5b69b9cb",
     "active_parameters": "37693cfc",
     "tagline": "ad728dae",
     "capabilities": "03fbefb4",
     "modalities": "68e53d93",
-    "pricing": "7ab22123",
+    "pricing": "c9426ad1",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-10-20"
+  "last_updated": "2026-10-29"
 }

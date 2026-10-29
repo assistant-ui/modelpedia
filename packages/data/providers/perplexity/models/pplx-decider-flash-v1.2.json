@@ -1,0 +1,20 @@
+{
+  "id": "pplx-decider-flash-v1.2",
+  "name": "pplx-decider-flash-v1.2",
+  "created_by": "perplexity",
+  "source": "official",
+  "model_type": "other",
+  "license": "proprietary",
+  "pricing": {
+    "input": 0.01
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "20cf49a6",
+    "model_type": "ddb0b7bc",
+    "license": "9186c466",
+    "pricing": "76411944",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-10-29"
+}

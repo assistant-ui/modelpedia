@@ -3,7 +3,7 @@
   "name": "nova-2-lite",
   "created_by": "amazon",
   "source": "official",
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-10-29",
   "context_window": 1000000,
   "capabilities": {
     "streaming": true,
@@ -12,14 +12,14 @@
     "tool_call": true
   },
   "pricing": {
-    "input": 0.3,
-    "output": 2.5
+    "input": 0.33,
+    "output": 2.75
   },
   "_generated": {
     "name": "d48c6819",
     "context_window": "8155bc54",
     "capabilities": "7bbcc63b",
-    "pricing": "8d495dc1",
+    "pricing": "bcfb7578",
     "model_type": "d669f408",
     "modalities": "68e53d93",
     "tools": "f0c1dc7e"

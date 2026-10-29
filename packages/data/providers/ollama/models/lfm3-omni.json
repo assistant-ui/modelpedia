@@ -1,0 +1,40 @@
+{
+  "id": "lfm3-omni",
+  "name": "lfm3-omni",
+  "created_by": "liquid",
+  "source": "official",
+  "description": "a single end-to-end model that understands text, images, video and audio, and answers in text and speech",
+  "context_window": 128000,
+  "license": "open-weight",
+  "parameters": 2,
+  "page_url": "https://ollama.com/library/lfm3-omni",
+  "open_weight": true,
+  "model_type": "chat",
+  "tagline": "a single end-to-end model that understands text, images, video and audio, and answers in text and speech",
+  "capabilities": {
+    "streaming": true,
+    "vision": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ed69cc90",
+    "description": "9ee24231",
+    "context_window": "34434798",
+    "license": "6327aaea",
+    "parameters": "c81e728d",
+    "page_url": "902aac3c",
+    "open_weight": "b326b506",
+    "model_type": "d669f408",
+    "tagline": "9ee24231",
+    "capabilities": "62b3fd83",
+    "modalities": "6399757e",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-29"
+}

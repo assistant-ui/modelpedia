@@ -1,0 +1,29 @@
+{
+  "id": "wan2.1-i2v-plus",
+  "name": "wan2.1-i2v-plus",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "wan2.1",
+  "model_type": "video",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-1-i2v-plus",
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "open_weight": false,
+  "_generated": {
+    "name": "a7e12876",
+    "family": "3663b84b",
+    "model_type": "4d1b75ca",
+    "license": "9186c466",
+    "page_url": "ee6d6d64",
+    "capabilities": "0fa77dc6",
+    "modalities": "94e5e9ab",
+    "open_weight": "68934a3e"
+  },
+  "last_updated": "2026-10-29"
+}

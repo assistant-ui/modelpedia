@@ -22,12 +22,14 @@
     "capabilities": "0fa77dc6",
     "open_weight": "68934a3e",
     "modalities": "68e53d93",
-    "pricing": "1a0e496e"
+    "pricing": "1a0e496e",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-10-29",
   "pricing": {
     "input": 0.3,
     "output": 2.5,
     "cached_input": 0.03
-  }
+  },
+  "status": "deprecated"
 }

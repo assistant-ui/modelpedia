@@ -3,7 +3,7 @@
   "name": "Nous: Hermes 4 405B",
   "created_by": "nousresearch",
   "source": "official",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-10-29",
   "description": "Hermes 4 is a large-scale reasoning model built on Meta-Llama-3.1-405B and released by Nous Research.",
   "context_window": 131072,
   "modalities": {
@@ -17,7 +17,8 @@
   },
   "pricing": {
     "input": 1,
-    "output": 3
+    "output": 3,
+    "cached_input": 0.2
   },
   "_generated": {
     "name": "f916d3f8",
@@ -25,7 +26,7 @@
     "context_window": "f7de594e",
     "modalities": "68e53d93",
     "capabilities": "d53412cf",
-    "pricing": "7fd03be2",
+    "pricing": "7d7678ee",
     "model_type": "d669f408",
     "parameters": "bbcbff5c",
     "release_date": "5b0c513c",

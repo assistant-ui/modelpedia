@@ -3,14 +3,14 @@
   "name": "Muse Spark 1.3 Contributor Free",
   "created_by": "unknown",
   "source": "official",
-  "status": "active",
+  "status": "deprecated",
   "capabilities": {
     "streaming": true
   },
   "_generated": {
     "name": "e12a36c1",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "capabilities": "0fa77dc6"
   },
-  "last_updated": "2026-09-03"
+  "last_updated": "2026-10-29"
 }

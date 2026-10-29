@@ -4,7 +4,7 @@
   "created_by": "xiaomi",
   "source": "official",
   "family": "mimo",
-  "status": "active",
+  "status": "deprecated",
   "model_type": "chat",
   "capabilities": {
     "streaming": true
@@ -16,10 +16,10 @@
   "_generated": {
     "name": "c25a2679",
     "family": "1a23786e",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
     "modalities": "68e53d93"
   },
-  "last_updated": "2026-05-29"
+  "last_updated": "2026-10-29"
 }

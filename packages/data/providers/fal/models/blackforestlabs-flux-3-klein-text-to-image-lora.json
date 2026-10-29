@@ -1,0 +1,35 @@
+{
+  "id": "blackforestlabs/flux-3/klein/text-to-image/lora",
+  "name": "FLUX 3 Klein Text to Image LoRA",
+  "created_by": "blackforestlabs",
+  "source": "official",
+  "description": "Generate images fast with distilled FLUX 3 Image Klein and up to 3 custom LoRAs.",
+  "status": "active",
+  "release_date": "2026-10-26",
+  "model_type": "image",
+  "page_url": "https://fal.run/blackforestlabs/flux-3/klein/text-to-image/lora",
+  "tagline": "Generate images fast with distilled FLUX 3 Image Klein and up to 3 custom LoRAs.",
+  "capabilities": {
+    "vision": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["image"]
+  },
+  "endpoints": ["images"],
+  "last_seen_at": "2026-10-26",
+  "_generated": {
+    "name": "5770f17b",
+    "description": "ace7e0d0",
+    "status": "379ac110",
+    "release_date": "28277fd5",
+    "model_type": "db8857fe",
+    "page_url": "6fa0814e",
+    "tagline": "ace7e0d0",
+    "capabilities": "d3117eb0",
+    "modalities": "814867b9",
+    "endpoints": "9a7c17cc",
+    "last_seen_at": "28277fd5"
+  },
+  "last_updated": "2026-10-29"
+}

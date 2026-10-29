@@ -1,0 +1,37 @@
+{
+  "id": "nvrouter/fusion",
+  "name": "Fusion",
+  "created_by": "nvrouter",
+  "source": "official",
+  "status": "active",
+  "release_date": "2026-10-27",
+  "context_window": 1000000,
+  "max_output_tokens": 328000,
+  "model_type": "chat",
+  "capabilities": {
+    "tool_call": true,
+    "reasoning": true,
+    "structured_output": true,
+    "streaming": true,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "7810a17d",
+    "status": "379ac110",
+    "release_date": "6a3e5c81",
+    "context_window": "8155bc54",
+    "max_output_tokens": "d4e32f23",
+    "model_type": "d669f408",
+    "capabilities": "052b054b",
+    "modalities": "68e53d93",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-29"
+}

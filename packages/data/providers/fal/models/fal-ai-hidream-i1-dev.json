@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "HiDream-I1 dev is a new open-source image generative foundation model with 17B parameters that achieves state-of-the-art image generation quality within seconds.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-04-11",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/hidream-i1-dev",
@@ -22,7 +22,7 @@
   "_generated": {
     "name": "a737f473",
     "description": "1d47ac13",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "496cb47d",
     "model_type": "db8857fe",
     "page_url": "8805eecc",
@@ -32,5 +32,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "5029e96d"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

@@ -19,7 +19,31 @@
     "status": "379ac110",
     "model_type": "d669f408",
     "capabilities": "0fa77dc6",
-    "modalities": "68e53d93"
+    "modalities": "68e53d93",
+    "pricing": "4f12991d"
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-10-29",
+  "pricing": {
+    "input": 0.2,
+    "output": 1.2,
+    "cached_input": 0.02,
+    "cache_write": 0.25,
+    "tiers": [
+      {
+        "label": "Context length",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Output", "Cached Read", "Cached Write"],
+        "rows": [
+          {
+            "label": "≤ 272K tokens",
+            "values": [0.2, 1.2, 0.02, 0.25]
+          },
+          {
+            "label": "> 272K tokens",
+            "values": [0.4, 1.8, 0.04, 0.5]
+          }
+        ]
+      }
+    ]
+  }
 }

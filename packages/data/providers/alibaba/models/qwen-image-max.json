@@ -26,7 +26,9 @@
     "page_url": "ec35b380",
     "capabilities": "9c665f5d",
     "modalities": "6399757e",
-    "open_weight": "b326b506"
+    "open_weight": "b326b506",
+    "status": "2e2f74dc"
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-10-29",
+  "status": "deprecated"
 }

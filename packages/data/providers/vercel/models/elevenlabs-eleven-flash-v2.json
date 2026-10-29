@@ -1,0 +1,19 @@
+{
+  "id": "elevenlabs/eleven-flash-v2",
+  "name": "eleven-flash-v2",
+  "created_by": "elevenlabs",
+  "source": "official",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 20,
+    "output": 0
+  },
+  "_generated": {
+    "name": "7173e03e",
+    "capabilities": "0fa77dc6",
+    "pricing": "fca5cb8c"
+  },
+  "last_updated": "2026-10-29"
+}

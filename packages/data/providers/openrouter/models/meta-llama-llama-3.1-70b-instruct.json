@@ -3,7 +3,7 @@
   "name": "Meta: Llama 3.1 70B Instruct",
   "created_by": "meta-llama",
   "source": "official",
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-10-29",
   "family": "llama-3.1",
   "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors.",
   "context_window": 131072,
@@ -33,12 +33,16 @@
     "release_date": "7be3efeb",
     "tagline": "7847fd3f",
     "tools": "f0c1dc7e",
-    "max_output_tokens": "c76fe1d8"
+    "max_output_tokens": "c76fe1d8",
+    "status": "2e2f74dc",
+    "deprecation_date": "762307b9"
   },
   "model_type": "chat",
   "parameters": 70,
   "release_date": "2024-07-23",
   "tagline": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors.",
   "tools": ["function_calling"],
-  "max_output_tokens": 16384
+  "max_output_tokens": 16384,
+  "status": "deprecated",
+  "deprecation_date": "2026-11-03"
 }

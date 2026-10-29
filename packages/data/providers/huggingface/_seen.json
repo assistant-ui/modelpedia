@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-29",
   "count": 119,
   "ids": [
     "aisingapore-gemma-sea-lion-v3-9b-it",
@@ -11,9 +11,12 @@
     "google-gemma-2-2b-it",
     "google-gemma-2-9b-it",
     "google-gemma-3-1b-it",
+    "gradientai-llama-3-8b-instruct-gradient-1048k",
     "ibm-granite-granite-4.2-30b",
     "ibm-granite-granite-4.2-3b",
     "ibm-granite-granite-4.2-8b",
+    "kisti-koni-koni-llama3.1-8b-instruct",
+    "kisti-koni-koni-llama3.1-8b-instruct-20241024",
     "meta-llama-llama-2-13b-chat-hf",
     "meta-llama-llama-3.1-70b-instruct",
     "meta-llama-llama-3.1-8b-instruct",
@@ -26,7 +29,6 @@
     "ministral-ministral-3b-instruct",
     "mistralai-mistral-7b-instruct-v0.1",
     "moonshotai-kimi-k2-instruct",
-    "moonshotai-kimi-k2-instruct-0905",
     "moonshotai-kimi-k2-thinking",
     "moonshotai-kimi-linear-48b-a3b-instruct",
     "nousresearch-meta-llama-3-70b-instruct",
@@ -62,7 +64,6 @@
     "qwen-qwen2.5-coder-1.5b-instruct",
     "qwen-qwen2.5-coder-14b-instruct",
     "qwen-qwen2.5-coder-32b-instruct",
-    "qwen-qwen2.5-coder-3b",
     "qwen-qwen2.5-coder-3b-instruct",
     "qwen-qwen2.5-coder-7b",
     "qwen-qwen2.5-coder-7b-instruct",
@@ -70,7 +71,6 @@
     "qwen-qwen2.5-math-7b-instruct",
     "qwen-qwen3-0.6b",
     "qwen-qwen3-0.6b-base",
-    "qwen-qwen3-1.7b",
     "qwen-qwen3-1.7b-base",
     "qwen-qwen3-14b",
     "qwen-qwen3-14b-base",
@@ -112,6 +112,7 @@
     "upstage-solar-10.7b-instruct-v1.0",
     "vikhrmodels-vikhr-nemo-12b-instruct-r-21-09-24",
     "xenova-sweep-next-edit-1.5b",
+    "zai-org-glm-4.5",
     "zai-org-glm-4.5-air",
     "zai-org-glm-4.7",
     "zai-org-glm-4.7-flash",
@@ -119,7 +120,6 @@
     "zai-org-glm-5.1",
     "zai-org-glm-5.2",
     "zai-org-glm-5.2-fp8",
-    "zai-org-glm-5.3",
-    "zai-org-glm-5.3-bf16"
+    "zai-org-glm-5.3"
   ]
 }

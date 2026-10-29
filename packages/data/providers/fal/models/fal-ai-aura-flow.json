@@ -4,7 +4,7 @@
   "created_by": "fal",
   "source": "official",
   "description": "AuraFlow v0.3 is an open-source flow-based text-to-image generation model that achieves state-of-the-art results on GenEval.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2024-12-02",
   "model_type": "image",
   "page_url": "https://fal.run/fal-ai/aura-flow",
@@ -21,7 +21,7 @@
   "_generated": {
     "name": "aee05546",
     "description": "07e7885a",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "9b08fa35",
     "model_type": "db8857fe",
     "page_url": "358cc9ee",
@@ -31,5 +31,5 @@
     "endpoints": "9a7c17cc",
     "last_seen_at": "ab530d19"
   },
-  "last_updated": "2026-05-11"
+  "last_updated": "2026-10-29"
 }

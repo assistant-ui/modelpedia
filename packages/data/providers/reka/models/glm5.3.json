@@ -1,0 +1,50 @@
+{
+  "id": "glm5.3",
+  "name": "GLM 5.3",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm",
+  "description": "GLM 5.3 is an open-weight mixture-of-experts reasoning and coding model with a 1M context window, hosted by Reka. It is served as an OpenAI-compatible passthrough with native tool calling, structured outputs, logprobs, and streaming.",
+  "status": "active",
+  "context_window": 1048576,
+  "max_output_tokens": 262144,
+  "model_type": "reasoning",
+  "page_url": "https://developer.reka.ai/models/glm5.3",
+  "tagline": "GLM 5.3 is an open-weight mixture-of-experts reasoning and coding model with a 1M context window, hosted by Reka.",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "structured_output": true,
+    "reasoning": true,
+    "vision": false,
+    "json_mode": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "pricing": {
+    "input": 1.17,
+    "output": 3.96,
+    "cached_input": 0.234
+  },
+  "endpoints": ["chat_completions"],
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "ec24697d",
+    "family": "cb6bfc11",
+    "description": "ad2edfaa",
+    "status": "379ac110",
+    "context_window": "7d28a051",
+    "max_output_tokens": "4a1d32eb",
+    "model_type": "17475f7f",
+    "page_url": "761a32ce",
+    "tagline": "b315bf19",
+    "capabilities": "07e15387",
+    "modalities": "68e53d93",
+    "pricing": "18d7428f",
+    "endpoints": "d8fa1080",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-29"
+}

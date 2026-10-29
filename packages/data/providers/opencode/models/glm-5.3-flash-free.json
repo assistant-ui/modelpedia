@@ -1,0 +1,31 @@
+{
+  "id": "glm-5.3-flash-free",
+  "name": "GLM-5.3-Flash Free",
+  "created_by": "zai",
+  "source": "official",
+  "family": "glm-5.3",
+  "status": "active",
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0,
+    "output": 0,
+    "cached_input": 0
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "_generated": {
+    "name": "e447137d",
+    "family": "9f217d9a",
+    "status": "379ac110",
+    "model_type": "d669f408",
+    "capabilities": "0fa77dc6",
+    "pricing": "d7e97780",
+    "modalities": "68e53d93"
+  },
+  "last_updated": "2026-10-29"
+}

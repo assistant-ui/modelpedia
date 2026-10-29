@@ -5,7 +5,7 @@
   "source": "official",
   "family": "gpt-oss",
   "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license.",
-  "status": "active",
+  "status": "deprecated",
   "release_date": "2025-08-06",
   "context_window": 131072,
   "max_output_tokens": 32768,
@@ -33,7 +33,7 @@
     "name": "926092cc",
     "family": "82d0cb0b",
     "description": "9ef19f8d",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "release_date": "ffc45752",
     "context_window": "f7de594e",
     "max_output_tokens": "f4376436",
@@ -46,5 +46,5 @@
     "endpoints": "d8fa1080",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-09-01"
+  "last_updated": "2026-10-29"
 }

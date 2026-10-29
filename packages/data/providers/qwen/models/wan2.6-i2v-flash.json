@@ -1,0 +1,29 @@
+{
+  "id": "wan2.6-i2v-flash",
+  "name": "wan2.6-i2v-flash",
+  "created_by": "qwen",
+  "source": "official",
+  "family": "wan2.6",
+  "model_type": "video",
+  "license": "proprietary",
+  "page_url": "https://www.alibabacloud.com/help/en/model-studio/wan2-6-i2v-flash",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": true
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["video"]
+  },
+  "_generated": {
+    "name": "8d5800b9",
+    "family": "68010df8",
+    "model_type": "4d1b75ca",
+    "license": "9186c466",
+    "page_url": "6d526862",
+    "open_weight": "68934a3e",
+    "capabilities": "0fa77dc6",
+    "modalities": "94e5e9ab"
+  },
+  "last_updated": "2026-10-29"
+}

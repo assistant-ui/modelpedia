@@ -1,0 +1,16 @@
+{
+  "id": "hy3",
+  "name": "Hy3",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "active",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "b64beb7e",
+    "status": "379ac110",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-10-29"
+}
